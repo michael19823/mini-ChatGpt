@@ -1,9 +1,8 @@
-import { TextField, IconButton, Box, CircularProgress } from '@mui/material';
-import SendIcon from '@mui/icons-material/Send';
-import CancelIcon from '@mui/icons-material/Cancel';
-import { useSendMessageMutation, api } from '../store/api';
-import { useState, useRef } from 'react';
-import { useAppDispatch } from '../store/hooks';
+import { TextField, IconButton, Box, CircularProgress } from "@mui/material";
+import SendIcon from "@mui/icons-material/Send";
+import CancelIcon from "@mui/icons-material/Cancel";
+import { useSendMessageMutation } from "../store/api";
+import { useState } from "react";
 
 interface Props {
   conversationId: string;
@@ -11,76 +10,52 @@ interface Props {
 
 export default function MessageInput({ conversationId }: Props) {
   const [send, { isLoading, reset }] = useSendMessageMutation();
-  const [value, setValue] = useState('');
-  const dispatch = useAppDispatch();
-  const tempIdRef = useRef<string | null>(null);
+  const [value, setValue] = useState("");
 
   const handleSend = async () => {
     if (!value.trim() || isLoading) return;
 
-    const tempId = `temp-${Date.now()}`;
-    tempIdRef.current = tempId;
-
-    // Optimistic UI
-    dispatch(
-      api.util.updateQueryData(
-        'getConversation',
-        { id: conversationId },
-        (draft) => {
-          draft.messages.push({
-            id: tempId,
-            role: 'user' as const,
-            content: value.trim(),
-            createdAt: new Date().toISOString(),
-          });
-        }
-      )
-    );
-
     try {
-      await send({
+      // Call mutation and store the result (which has abort() method)
+      const mutationResult = send({
         conversationId,
         content: value.trim(),
-      }).unwrap();
+      });
 
-      setValue('');
-      tempIdRef.current = null;
+      // Store abort function for cancellation
+      // RTK Query mutation result has abort() method
+      (window as any).__currentSendAbort = mutationResult;
+
+      await mutationResult.unwrap();
+
+      setValue("");
+      (window as any).__currentSendAbort = null;
     } catch (err: any) {
-      if (err.name === 'AbortError') {
-        console.log('Send cancelled');
+      (window as any).__currentSendAbort = null;
+
+      // Silently handle cancellation - it's expected behavior
+      if (
+        err.name === "AbortError" ||
+        err.name === "Aborted" ||
+        err.status === 499 ||
+        (err.data &&
+          (err.data === "Cancelled" || err.data.error === "Cancelled"))
+      ) {
+        // User cancelled - this is expected, don't show error
+        return;
       }
-      // Remove temp message
-      dispatch(
-        api.util.updateQueryData(
-          'getConversation',
-          { id: conversationId },
-          (draft) => {
-            draft.messages = draft.messages.filter((m) => m.id !== tempId);
-          }
-        )
-      );
-      tempIdRef.current = null;
+      // For other errors, you might want to show a notification
+      console.error("Failed to send message:", err);
     }
   };
 
   const handleCancel = () => {
-    if (!tempIdRef.current) return;
-
-    // Abort request
+    // Abort the current request via RTK Query's abort method
+    if ((window as any).__currentSendAbort) {
+      (window as any).__currentSendAbort.abort();
+      (window as any).__currentSendAbort = null;
+    }
     reset();
-
-    // Remove optimistic message
-    dispatch(
-      api.util.updateQueryData(
-        'getConversation',
-        { id: conversationId },
-        (draft) => {
-          draft.messages = draft.messages.filter((m) => m.id !== tempIdRef.current);
-        }
-      )
-    );
-
-    tempIdRef.current = null;
   };
 
   return (
@@ -92,7 +67,7 @@ export default function MessageInput({ conversationId }: Props) {
         value={value}
         onChange={(e) => setValue(e.target.value)}
         onKeyDown={(e) => {
-          if (e.key === 'Enter' && !e.shiftKey) {
+          if (e.key === "Enter" && !e.shiftKey) {
             e.preventDefault();
             handleSend();
           }

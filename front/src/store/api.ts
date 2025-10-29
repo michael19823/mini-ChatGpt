@@ -1,34 +1,37 @@
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import type {
   Conversation,
   ConversationWithMessages,
   SendResponse,
-} from '../types';
+} from "../types";
 
 export const api = createApi({
   baseQuery: fetchBaseQuery({
-    baseUrl: '/api',
+    baseUrl: "/api",
     timeout: 12000,
   }),
-  tagTypes: ['Conversation'],
+  tagTypes: ["Conversation"],
   endpoints: (builder) => ({
     getConversations: builder.query<Conversation[], void>({
-      query: () => '/conversations',
+      query: () => "/conversations",
       providesTags: (result) =>
         result
           ? [
-              ...result.map(({ id }) => ({ type: 'Conversation' as const, id })),
-              { type: 'Conversation', id: 'LIST' },
+              ...result.map(({ id }) => ({
+                type: "Conversation" as const,
+                id,
+              })),
+              { type: "Conversation", id: "LIST" },
             ]
-          : [{ type: 'Conversation', id: 'LIST' }],
+          : [{ type: "Conversation", id: "LIST" }],
     }),
 
     createConversation: builder.mutation<Conversation, void>({
       query: () => ({
-        url: '/conversations',
-        method: 'POST',
+        url: "/conversations",
+        method: "POST",
       }),
-      invalidatesTags: [{ type: 'Conversation', id: 'LIST' }],
+      invalidatesTags: [{ type: "Conversation", id: "LIST" }],
     }),
 
     getConversation: builder.query<
@@ -39,7 +42,7 @@ export const api = createApi({
         url: `/conversations/${id}`,
         params: { messagesCursor: cursor, limit },
       }),
-      providesTags: (result, error, { id }) => [{ type: 'Conversation', id }],
+      providesTags: (result, error, { id }) => [{ type: "Conversation", id }],
     }),
 
     sendMessage: builder.mutation<
@@ -48,31 +51,30 @@ export const api = createApi({
     >({
       query: ({ conversationId, content }) => ({
         url: `/conversations/${conversationId}/messages`,
-        method: 'POST',
+        method: "POST",
         body: { content },
       }),
       invalidatesTags: (result, error, { conversationId }) => [
-        { type: 'Conversation', id: conversationId },
-        { type: 'Conversation', id: 'LIST' },
+        { type: "Conversation", id: conversationId },
+        { type: "Conversation", id: "LIST" },
       ],
       async onQueryStarted(
         { conversationId, content },
         { dispatch, queryFulfilled }
       ) {
-        // Create abort controller
-        const controller = new AbortController();
-        const signal = controller.signal;
+        // Note: We'll store the abort function from the mutation result instead
+        // RTK Query mutations have an abort() method we can use
 
         // Optimistic update
         const patchResult = dispatch(
           api.util.updateQueryData(
-            'getConversation',
+            "getConversation",
             { id: conversationId },
             (draft) => {
               const tempId = `temp-${Date.now()}`;
               draft.messages.push({
                 id: tempId,
-                role: 'user',
+                role: "user",
                 content,
                 createdAt: new Date().toISOString(),
               });
@@ -84,34 +86,43 @@ export const api = createApi({
           const { data } = await queryFulfilled;
           dispatch(
             api.util.updateQueryData(
-              'getConversation',
+              "getConversation",
               { id: conversationId },
               (draft) => {
-                draft.messages = draft.messages.filter((m) => !m.id.startsWith('temp-'));
+                draft.messages = draft.messages.filter(
+                  (m) => !m.id.startsWith("temp-")
+                );
                 draft.messages.push(data.message, data.reply);
               }
             )
           );
         } catch (err: any) {
-          if (err.name === 'AbortError') {
-            console.log('Send cancelled');
+          // Handle abort errors silently - they're expected when user cancels
+          if (
+            err.name === "AbortError" ||
+            err.name === "Aborted" ||
+            err.status === 499 ||
+            (err.data &&
+              (err.data === "Cancelled" || err.data.error === "Cancelled"))
+          ) {
+            // Silently handle cancellation - don't log as error
+            patchResult.undo();
+            return;
           }
+          // For other errors, let them propagate normally
           patchResult.undo();
         }
-
-        // Store controller globally so frontend can access it
-        (global as any).abortController = controller;
       },
     }),
 
     deleteConversation: builder.mutation<void, string>({
       query: (id) => ({
         url: `/conversations/${id}`,
-        method: 'DELETE',
+        method: "DELETE",
       }),
       invalidatesTags: (result, error, id) => [
-        { type: 'Conversation', id },
-        { type: 'Conversation', id: 'LIST' },
+        { type: "Conversation", id },
+        { type: "Conversation", id: "LIST" },
       ],
     }),
   }),
@@ -124,3 +135,6 @@ export const {
   useSendMessageMutation,
   useDeleteConversationMutation,
 } = api;
+
+// Abort functionality is handled in MessageInput component
+// RTK Query mutations have built-in abort() method

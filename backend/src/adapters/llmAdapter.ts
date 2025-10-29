@@ -1,3 +1,6 @@
 export interface LlmAdapter {
-  complete(messages: { role: 'user' | 'assistant'; content: string }[]): Promise<{ completion: string }>;
+  complete(
+    messages: { role: "user" | "assistant"; content: string }[],
+    signal?: AbortSignal
+  ): Promise<{ completion: string }>;
 }

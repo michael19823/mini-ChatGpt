@@ -1,54 +1,15 @@
-import { createApi, fetchBaseQuery, FetchBaseQueryError } from '@reduxjs/toolkit/query/react';
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import type {
   Conversation,
   ConversationWithMessages,
   SendResponse,
 } from '../types';
 
-// --- 1. Raw base query ---
-const rawBaseQuery = fetchBaseQuery({
-  baseUrl: '/api',
-  timeout: 12000,
-});
-
-// --- 2. Custom baseQuery with nice error strings ---
-const baseQueryWithError = async (
-  args: string | { url: string; method?: string; body?: any },
-  api: any,
-  extraOptions: {}
-) => {
-  const result = await rawBaseQuery(args, api, extraOptions);
-
-  if (result.error) {
-    const { status, data } = result.error as FetchBaseQueryError;
-    let message = 'Unknown error';
-
-    if (status === 'FETCH_ERROR') {
-      message = 'No backend server running (expected in dev)';
-    } else if (status === 404) {
-      message = 'API endpoint not found (backend not started)';
-    } else if (data && typeof data === 'object') {
-      message = (data as any).error || JSON.stringify(data);
-    } else if (typeof data === 'string') {
-      message = data;
-    } else {
-      message = `HTTP ${status}`;
-    }
-
-    return {
-      error: {
-        status,
-        data: message,
-      },
-    };
-  }
-
-  return result;
-};
-
-// --- 3. Create API with typed baseQuery ---
 export const api = createApi({
-  baseQuery: baseQueryWithError,
+  baseQuery: fetchBaseQuery({
+    baseUrl: '/api',
+    timeout: 12000,
+  }),
   tagTypes: ['Conversation'],
   endpoints: (builder) => ({
     getConversations: builder.query<Conversation[], void>({
@@ -98,6 +59,11 @@ export const api = createApi({
         { conversationId, content },
         { dispatch, queryFulfilled }
       ) {
+        // Create abort controller
+        const controller = new AbortController();
+        const signal = controller.signal;
+
+        // Optimistic update
         const patchResult = dispatch(
           api.util.updateQueryData(
             'getConversation',
@@ -113,6 +79,7 @@ export const api = createApi({
             }
           )
         );
+
         try {
           const { data } = await queryFulfilled;
           dispatch(
@@ -125,9 +92,15 @@ export const api = createApi({
               }
             )
           );
-        } catch {
+        } catch (err: any) {
+          if (err.name === 'AbortError') {
+            console.log('Send cancelled');
+          }
           patchResult.undo();
         }
+
+        // Store controller globally so frontend can access it
+        (global as any).abortController = controller;
       },
     }),
 

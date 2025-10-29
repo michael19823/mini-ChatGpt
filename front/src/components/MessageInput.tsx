@@ -1,41 +1,86 @@
 import { TextField, IconButton, Box, CircularProgress } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
 import CancelIcon from '@mui/icons-material/Cancel';
-import { useSendMessageMutation } from '../store/api';
+import { useSendMessageMutation, api } from '../store/api';
 import { useState, useRef } from 'react';
+import { useAppDispatch } from '../store/hooks';
 
 interface Props {
   conversationId: string;
 }
 
 export default function MessageInput({ conversationId }: Props) {
-  const [send, { isLoading }] = useSendMessageMutation();
+  const [send, { isLoading, reset }] = useSendMessageMutation();
   const [value, setValue] = useState('');
-  const controllerRef = useRef<AbortController | null>(null);
+  const dispatch = useAppDispatch();
+  const tempIdRef = useRef<string | null>(null);
 
   const handleSend = async () => {
     if (!value.trim() || isLoading) return;
 
-    const controller = new AbortController();
-    controllerRef.current = controller;
+    const tempId = `temp-${Date.now()}`;
+    tempIdRef.current = tempId;
+
+    // Optimistic UI
+    dispatch(
+      api.util.updateQueryData(
+        'getConversation',
+        { id: conversationId },
+        (draft) => {
+          draft.messages.push({
+            id: tempId,
+            role: 'user' as const,
+            content: value.trim(),
+            createdAt: new Date().toISOString(),
+          });
+        }
+      )
+    );
 
     try {
       await send({
         conversationId,
         content: value.trim(),
       }).unwrap();
+
       setValue('');
+      tempIdRef.current = null;
     } catch (err: any) {
       if (err.name === 'AbortError') {
         console.log('Send cancelled');
       }
-    } finally {
-      controllerRef.current = null;
+      // Remove temp message
+      dispatch(
+        api.util.updateQueryData(
+          'getConversation',
+          { id: conversationId },
+          (draft) => {
+            draft.messages = draft.messages.filter((m) => m.id !== tempId);
+          }
+        )
+      );
+      tempIdRef.current = null;
     }
   };
 
   const handleCancel = () => {
-    controllerRef.current?.abort();
+    if (!tempIdRef.current) return;
+
+    // Abort request
+    reset();
+
+    // Remove optimistic message
+    dispatch(
+      api.util.updateQueryData(
+        'getConversation',
+        { id: conversationId },
+        (draft) => {
+          draft.messages = draft.messages.filter((m) => m.id !== tempIdRef.current);
+        }
+      )
+    );
+
+    tempIdRef.current = null;
   };
 
   return (

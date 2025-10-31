@@ -3,7 +3,10 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
 RUN npm ci
-COPY . .
+# Copy only necessary files (node_modules excluded via .dockerignore)
+COPY src ./src
+COPY public ./public
+COPY tsconfig.json ./
 RUN npm run build
 
 FROM nginx:alpine

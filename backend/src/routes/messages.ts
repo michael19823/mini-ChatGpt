@@ -46,7 +46,10 @@ router.post("/:id/messages", async (req, res) => {
   const { content } = req.body;
   const { id } = req.params;
 
-  console.log("[BACKEND] Step 1: Request received - POST /messages", { id, content: content.substring(0, 20) + "..." });
+  console.log("[BACKEND] Step 1: Request received - POST /messages", {
+    id,
+    content: content.substring(0, 20) + "...",
+  });
 
   // Preferred approach: Client aborts fetch, no server endpoint required
   // When the client aborts the fetch request, the connection closes and we detect it here
@@ -56,39 +59,111 @@ router.post("/:id/messages", async (req, res) => {
   let userMsg: any = null;
   let responseSent = false;
 
-  console.log("[BACKEND] Step 2: AbortController created, signal.aborted =", abortController.signal.aborted);
+  console.log(
+    "[BACKEND] Step 2: AbortController created, signal.aborted =",
+    abortController.signal.aborted
+  );
+
+  // Helper function to check if client is still connected
+  const checkConnection = (): boolean => {
+    // Check socket state - if destroyed, client disconnected
+    // This works even if req.on("aborted") didn't fire (e.g., if body was already read)
+    const socket = req.socket;
+    const isDestroyed = socket?.destroyed || false;
+    const socketExists = !!socket;
+
+    // Socket destroyed = client disconnected
+    // No socket = connection never established or already closed
+    return socketExists && !isDestroyed;
+  };
 
   // Listen for client disconnect (happens when frontend aborts fetch)
-  // Note: req.on("close") can fire prematurely, so we're careful about when we abort
-  const cleanup = () => {
-    console.log("[BACKEND] CLEANUP: req.aborted event fired!");
-    console.log("[BACKEND] CLEANUP: isClientConnected =", isClientConnected, "responseSent =", responseSent);
+  const cleanup = (eventName: string) => {
+    console.log(`[BACKEND] CLEANUP: ${eventName} event fired!`);
+    console.log(
+      "[BACKEND] CLEANUP: socket.destroyed =",
+      req.socket?.destroyed,
+      "socket.closed =",
+      req.socket?.closed
+    );
+    console.log(
+      "[BACKEND] CLEANUP: isClientConnected =",
+      isClientConnected,
+      "responseSent =",
+      responseSent
+    );
+
     if (isClientConnected && !responseSent) {
-      console.log("[BACKEND] CLEANUP: Setting isClientConnected = false and aborting controller");
+      console.log(
+        "[BACKEND] CLEANUP: Setting isClientConnected = false and aborting controller"
+      );
       isClientConnected = false;
       abortController.abort(); // This will cancel the LLM call
-      console.log("[BACKEND] CLEANUP: Controller aborted, signal.aborted =", abortController.signal.aborted);
-      
+      console.log(
+        "[BACKEND] CLEANUP: Controller aborted, signal.aborted =",
+        abortController.signal.aborted
+      );
+
       // If user message was created, delete it since request was cancelled
       if (userMsg && !responseSent) {
-        console.log("[BACKEND] CLEANUP: Deleting user message from DB, id =", userMsg.id);
+        console.log(
+          "[BACKEND] CLEANUP: Deleting user message from DB, id =",
+          userMsg.id
+        );
         prisma.message.delete({ where: { id: userMsg.id } }).catch(() => {
           // Ignore deletion errors
         });
       }
     } else {
-      console.log("[BACKEND] CLEANUP: Skipping cleanup (already sent response or not connected)");
+      console.log(
+        "[BACKEND] CLEANUP: Skipping cleanup (already sent response or not connected)"
+      );
     }
   };
 
-  // Only listen to 'aborted' event - more reliable than 'close'
-  // 'close' fires too early for keep-alive connections
-  req.on("aborted", cleanup);
-  console.log("[BACKEND] Step 3: Registered req.on('aborted') listener");
+  // Listen to multiple events to catch disconnects
+  // 'aborted' fires when client disconnects before body is fully read
+  req.on("aborted", () => cleanup("req.aborted"));
 
-  // Check if already aborted before saving to DB
-  if (abortController.signal.aborted || !isClientConnected) {
-    console.log("[BACKEND] Step 4: Already aborted before DB save - exiting");
+  // 'close' fires when socket closes (but can fire prematurely with keep-alive)
+  // We check socket state to filter false positives
+  req.on("close", () => {
+    // Only treat as disconnect if socket is actually destroyed
+    // This filters out premature close events from keep-alive connections
+    if (req.socket?.destroyed || req.socket?.closed) {
+      cleanup("req.close (socket destroyed)");
+    }
+  });
+
+  // Also check if socket is already destroyed (immediate disconnect)
+  if (!checkConnection()) {
+    console.log(
+      "[BACKEND] Step 2.5: Socket already destroyed - client disconnected immediately"
+    );
+    cleanup("immediate check");
+    return;
+  }
+
+  console.log(
+    "[BACKEND] Step 3: Registered req.on('aborted') and req.on('close') listeners"
+  );
+
+  // Check if already aborted or disconnected before saving to DB
+  const connectionCheck = checkConnection();
+  if (
+    abortController.signal.aborted ||
+    !isClientConnected ||
+    !connectionCheck
+  ) {
+    console.log(
+      "[BACKEND] Step 4: Already aborted/disconnected before DB save - exiting",
+      {
+        signalAborted: abortController.signal.aborted,
+        isClientConnected,
+        connectionCheck,
+        socketDestroyed: req.socket?.destroyed,
+      }
+    );
     return; // Don't save anything if already cancelled
   }
 
@@ -106,9 +181,23 @@ router.post("/:id/messages", async (req, res) => {
   try {
     // Check if cancelled before fetching history
     console.log("[BACKEND] Step 6: Checkpoint #1 - Before fetching history");
-    console.log("[BACKEND] Step 6: signal.aborted =", abortController.signal.aborted, "isClientConnected =", isClientConnected);
-    if (abortController.signal.aborted || !isClientConnected) {
-      console.log("[BACKEND] Step 6: ABORTED at checkpoint #1 - deleting user message and exiting");
+    const connectionCheck1 = checkConnection();
+    console.log(
+      "[BACKEND] Step 6: signal.aborted =",
+      abortController.signal.aborted,
+      "isClientConnected =",
+      isClientConnected,
+      "connectionCheck =",
+      connectionCheck1
+    );
+    if (
+      abortController.signal.aborted ||
+      !isClientConnected ||
+      !connectionCheck1
+    ) {
+      console.log(
+        "[BACKEND] Step 6: ABORTED at checkpoint #1 - deleting user message and exiting"
+      );
       if (userMsg) {
         await prisma.message.delete({ where: { id: userMsg.id } });
       }
@@ -122,13 +211,30 @@ router.post("/:id/messages", async (req, res) => {
       orderBy: { createdAt: "asc" },
       select: { role: true, content: true }, // Only send role + content
     });
-    console.log("[BACKEND] Step 8: History fetched, messages count =", dbHistory.length);
+    console.log(
+      "[BACKEND] Step 8: History fetched, messages count =",
+      dbHistory.length
+    );
 
     // Check again after DB fetch
     console.log("[BACKEND] Step 9: Checkpoint #2 - After fetching history");
-    console.log("[BACKEND] Step 9: signal.aborted =", abortController.signal.aborted, "isClientConnected =", isClientConnected);
-    if (abortController.signal.aborted || !isClientConnected) {
-      console.log("[BACKEND] Step 9: ABORTED at checkpoint #2 - deleting user message and exiting");
+    const connectionCheck2 = checkConnection();
+    console.log(
+      "[BACKEND] Step 9: signal.aborted =",
+      abortController.signal.aborted,
+      "isClientConnected =",
+      isClientConnected,
+      "connectionCheck =",
+      connectionCheck2
+    );
+    if (
+      abortController.signal.aborted ||
+      !isClientConnected ||
+      !connectionCheck2
+    ) {
+      console.log(
+        "[BACKEND] Step 9: ABORTED at checkpoint #2 - deleting user message and exiting"
+      );
       if (userMsg) {
         await prisma.message.delete({ where: { id: userMsg.id } });
       }
@@ -142,7 +248,11 @@ router.post("/:id/messages", async (req, res) => {
     }));
 
     // Pass abort signal to LLM call - if client disconnects, this will cancel the LLM call
-    console.log("[BACKEND] Step 10: Calling LLM with signal (signal.aborted =", abortController.signal.aborted, ")");
+    console.log(
+      "[BACKEND] Step 10: Calling LLM with signal (signal.aborted =",
+      abortController.signal.aborted,
+      ")"
+    );
     const completion = await withRetry(
       () => llm.complete(llmHistory, abortController.signal),
       2,
@@ -153,9 +263,23 @@ router.post("/:id/messages", async (req, res) => {
 
     // Check if cancelled after LLM call
     console.log("[BACKEND] Step 12: Checkpoint #3 - After LLM call");
-    console.log("[BACKEND] Step 12: signal.aborted =", abortController.signal.aborted, "isClientConnected =", isClientConnected);
-    if (abortController.signal.aborted || !isClientConnected) {
-      console.log("[BACKEND] Step 12: ABORTED at checkpoint #3 - deleting user message and exiting");
+    const connectionCheck3 = checkConnection();
+    console.log(
+      "[BACKEND] Step 12: signal.aborted =",
+      abortController.signal.aborted,
+      "isClientConnected =",
+      isClientConnected,
+      "connectionCheck =",
+      connectionCheck3
+    );
+    if (
+      abortController.signal.aborted ||
+      !isClientConnected ||
+      !connectionCheck3
+    ) {
+      console.log(
+        "[BACKEND] Step 12: ABORTED at checkpoint #3 - deleting user message and exiting"
+      );
       if (userMsg) {
         await prisma.message.delete({ where: { id: userMsg.id } });
       }
@@ -170,13 +294,30 @@ router.post("/:id/messages", async (req, res) => {
         content: completion.completion,
       },
     });
-    console.log("[BACKEND] Step 14: Assistant message saved, id =", assistantMsg.id);
+    console.log(
+      "[BACKEND] Step 14: Assistant message saved, id =",
+      assistantMsg.id
+    );
 
     // Check if client is still connected before sending response
     console.log("[BACKEND] Step 15: Checkpoint #4 - Before sending response");
-    console.log("[BACKEND] Step 15: signal.aborted =", abortController.signal.aborted, "isClientConnected =", isClientConnected);
-    if (!isClientConnected || abortController.signal.aborted) {
-      console.log("[BACKEND] Step 15: ABORTED at checkpoint #4 - not sending response");
+    const connectionCheck4 = checkConnection();
+    console.log(
+      "[BACKEND] Step 15: signal.aborted =",
+      abortController.signal.aborted,
+      "isClientConnected =",
+      isClientConnected,
+      "connectionCheck =",
+      connectionCheck4
+    );
+    if (
+      !isClientConnected ||
+      abortController.signal.aborted ||
+      !connectionCheck4
+    ) {
+      console.log(
+        "[BACKEND] Step 15: ABORTED at checkpoint #4 - not sending response"
+      );
       // Client disconnected/cancelled - don't send response
       return;
     }
@@ -200,10 +341,18 @@ router.post("/:id/messages", async (req, res) => {
     console.log("[BACKEND] Step 17: Response sent successfully");
   } catch (err: any) {
     console.log("[BACKEND] CATCH: Error caught in try-catch block");
-    console.log("[BACKEND] CATCH: Error name =", err.name, "code =", err.code, "message =", err.message);
-    
+    console.log(
+      "[BACKEND] CATCH: Error name =",
+      err.name,
+      "code =",
+      err.code,
+      "message =",
+      err.message
+    );
+
     // Clean up listeners
-    req.removeListener("aborted", cleanup);
+    req.removeAllListeners("aborted");
+    req.removeAllListeners("close");
 
     // Ensure we always send a response if headers haven't been sent
     if (res.headersSent) {
@@ -214,17 +363,24 @@ router.post("/:id/messages", async (req, res) => {
     responseSent = true;
 
     // Check if request was aborted/cancelled
-    const isAborted = 
+    const isAborted =
       abortController.signal.aborted ||
       err.name === "AbortError" ||
       err.name === "CanceledError" ||
       err.code === "ECONNABORTED" ||
       !isClientConnected;
 
-    console.log("[BACKEND] CATCH: isAborted =", isAborted, "signal.aborted =", abortController.signal.aborted);
-    
+    console.log(
+      "[BACKEND] CATCH: isAborted =",
+      isAborted,
+      "signal.aborted =",
+      abortController.signal.aborted
+    );
+
     if (isAborted) {
-      console.log("[BACKEND] CATCH: Request was aborted/cancelled - cleaning up");
+      console.log(
+        "[BACKEND] CATCH: Request was aborted/cancelled - cleaning up"
+      );
       // Client cancelled the request - clean up user message from DB
       if (userMsg) {
         console.log("[BACKEND] CATCH: Deleting user message, id =", userMsg.id);
@@ -233,7 +389,9 @@ router.post("/:id/messages", async (req, res) => {
         });
       }
       // Don't send response for cancelled requests
-      console.log("[BACKEND] CATCH: Not sending response for cancelled request");
+      console.log(
+        "[BACKEND] CATCH: Not sending response for cancelled request"
+      );
       return;
     }
 

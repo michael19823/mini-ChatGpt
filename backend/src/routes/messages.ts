@@ -4,7 +4,9 @@ import { createLlmAdapter } from "../adapters/factory";
 import { withRetry } from "../utils/retry";
 
 const router = Router();
+console.log("[MESSAGES ROUTE] Initializing messages router...");
 const llm = createLlmAdapter();
+console.log("[MESSAGES ROUTE] LLM adapter created:", llm.constructor.name);
 
 // GET /api/conversations/:id
 router.get("/:id", async (req, res) => {
@@ -46,10 +48,18 @@ router.post("/:id/messages", async (req, res) => {
   const { content } = req.body;
   const { id } = req.params;
 
-  console.log("[BACKEND] Step 1: Request received - POST /messages", {
-    id,
-    content: content.substring(0, 20) + "...",
-  });
+  console.log("[BACKEND] ========== NEW MESSAGE REQUEST ==========");
+  console.log("[BACKEND] Step 1: Request received - POST /messages");
+  console.log("[BACKEND] Step 1.1: Conversation ID:", id);
+  console.log("[BACKEND] Step 1.2: Content length:", content?.length || 0);
+  console.log(
+    "[BACKEND] Step 1.3: Content preview:",
+    content?.substring(0, 50) || ""
+  );
+  console.log(
+    "[BACKEND] Step 1.4: Request headers:",
+    JSON.stringify(req.headers, null, 2)
+  );
 
   // Preferred approach: Client aborts fetch, no server endpoint required
   // When the client aborts the fetch request, the connection closes and we detect it here
@@ -253,13 +263,34 @@ router.post("/:id/messages", async (req, res) => {
       abortController.signal.aborted,
       ")"
     );
+    console.log(
+      "[BACKEND] Step 10.1: LLM history being sent:",
+      JSON.stringify(llmHistory, null, 2)
+    );
+    console.log("[BACKEND] Step 10.2: LLM adapter type:", llm.constructor.name);
+
+    const llmStartTime = Date.now();
     const completion = await withRetry(
-      () => llm.complete(llmHistory, abortController.signal),
+      () => {
+        console.log(
+          "[BACKEND] Step 10.3: Inside retry function, calling llm.complete()"
+        );
+        return llm.complete(llmHistory, abortController.signal);
+      },
       2,
       500,
       abortController.signal
     );
-    console.log("[BACKEND] Step 11: LLM call completed");
+    const llmDuration = Date.now() - llmStartTime;
+    console.log("[BACKEND] Step 11: LLM call completed in", llmDuration, "ms");
+    console.log(
+      "[BACKEND] Step 11.1: Completion received, length:",
+      completion.completion?.length || 0
+    );
+    console.log(
+      "[BACKEND] Step 11.2: Completion preview:",
+      completion.completion?.substring(0, 100) || ""
+    );
 
     // Check if cancelled after LLM call
     console.log("[BACKEND] Step 12: Checkpoint #3 - After LLM call");

@@ -28,6 +28,58 @@ services:
     # healthcheck:
     #   test: ["CMD", "curl", "-f", "http://localhost:8080/complete"]
 
+  # === OLLAMA: Local LLM Service ===
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      # Increase timeout for model processing
+      - OLLAMA_KEEP_ALIVE=5m
+      - OLLAMA_LOAD_TIMEOUT=10m
+      # Allow more time for model loading
+      - OLLAMA_NUM_PARALLEL=1
+      - OLLAMA_MAX_LOADED_MODELS=1
+      # Debug logging to see what's happening
+      - OLLAMA_DEBUG=true
+    # Add resource limits if needed (optional - comment out if you want unlimited)
+    # deploy:
+    #   resources:
+    #     limits:
+    #       memory: 8G
+    #     reservations:
+    #       memory: 4G
+
+  # === OLLAMA INIT: Pull model automatically (only if missing) ===
+  ollama-init:
+    image: curlimages/curl:latest
+    container_name: ollama-init
+    depends_on:
+      ollama:
+        condition: service_started
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        echo "Waiting for Ollama to be ready..."
+        until curl -f http://ollama:11434/api/tags 2>/dev/null; do
+          echo "Waiting for Ollama..."
+          sleep 2
+        done
+        echo "Ollama is ready. Checking if model smollm2:135m exists..."
+        MODELS=$$(curl -s http://ollama:11434/api/tags)
+        if echo "$$MODELS" | grep -q '"name":"smollm2:135m"'; then
+          echo "Model smollm2:135m already exists - no download needed."
+          exit 0
+        fi
+        echo "Model smollm2:135m not found. Pulling (this may take several minutes)..."
+        echo "NOTE: This only happens once - the model is saved and reused on future runs."
+        echo "smollm2:135m is the LIGHTEST model (~200MB) - perfect for low-resource systems!"
+        curl -X POST http://ollama:11434/api/pull -d '{"name":"smollm2:135m"}' --no-buffer
+        echo "Model smollm2:135m pulled successfully!"
+
   # === BACKEND: Node.js + Express + Prisma ===
   backend:
     build: ./backend
@@ -36,11 +88,15 @@ services:
       - "3001:3001"
     environment:
       - DATABASE_URL=postgresql://postgres:password@db:5432/chatgpt?schema=public
-      - LLM_PROVIDER=mock
+      - LLM_PROVIDER=ollama
       - MOCK_LLM_BASE_URL=http://mock-llm:8080
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - OLLAMA_MODEL=smollm2:135m
     depends_on:
       db:
         condition: service_healthy
+      ollama-init:
+        condition: service_completed_successfully
       # Remove mock-llm dependency
       # mock-llm:
       #   condition: service_healthy
@@ -65,3 +121,4 @@ services:
 
 volumes:
   postgres_data:
+  ollama_data:

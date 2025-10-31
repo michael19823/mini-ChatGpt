@@ -37,16 +37,18 @@ export default function ConversationList({ onSelect }: Props) {
   const [undoTimer, setUndoTimer] = useState<NodeJS.Timeout | null>(null);
 
   const dispatch = useAppDispatch();
-  const { data: conversations = [], isLoading, error, refetch } = useGetConversationsQuery();
+  const { data, isLoading, error, refetch } = useGetConversationsQuery();
+  const conversations = data ?? [];
   const [create] = useCreateConversationMutation();
   const [deleteConvo] = useDeleteConversationMutation();
 
   const handleDelete = (id: string) => {
     // Optimistic update
     dispatch(
-      api.util.updateQueryData('getConversations', undefined, (draft) =>
-        draft.filter((c) => c.id !== id)
-      )
+      api.util.updateQueryData('getConversations', undefined, (draft) => {
+        if (!draft) return [];
+        return draft.filter((c) => c.id !== id);
+      })
     );
 
     const timer = setTimeout(() => {

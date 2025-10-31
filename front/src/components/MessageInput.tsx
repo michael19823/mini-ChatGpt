@@ -2,7 +2,7 @@ import { TextField, IconButton, Box, CircularProgress } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
 import CancelIcon from "@mui/icons-material/Cancel";
 import { useSendMessageMutation } from "../store/api";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 interface Props {
   conversationId: string;
@@ -11,84 +11,139 @@ interface Props {
 export default function MessageInput({ conversationId }: Props) {
   const [send, { isLoading, reset }] = useSendMessageMutation();
   const [value, setValue] = useState("");
+  const abortControllerRef = useRef<AbortController | null>(null);
+  const isPendingRef = useRef(false);
 
   const handleSend = async () => {
-    if (!value.trim() || isLoading) return;
+    if (!value.trim() || isLoading || isPendingRef.current) return;
+
+    console.log("[FRONTEND] Step 1: handleSend() called - starting request");
+
+    // Mark as pending to prevent duplicate sends
+    isPendingRef.current = true;
+
+    // Create a new AbortController for this request
+    const abortController = new AbortController();
+    abortControllerRef.current = abortController;
+    console.log(
+      "[FRONTEND] Step 2: AbortController created, signal.aborted =",
+      abortController.signal.aborted
+    );
 
     try {
-      // Call mutation and store the result (which has abort() method)
-      const mutationResult = send({
-        conversationId,
-        content: value.trim(),
-      });
+      // Store content before sending
+      const contentToSend = value.trim();
 
-      // Store abort function for cancellation
-      // RTK Query mutation result has abort() method
-      (window as any).__currentSendAbort = mutationResult;
-
-      await mutationResult.unwrap();
-
-      setValue("");
-      (window as any).__currentSendAbort = null;
-    } catch (err: any) {
-      (window as any).__currentSendAbort = null;
-
-      // Silently handle cancellation - it's expected behavior
-      if (
-        err.name === "AbortError" ||
-        err.name === "Aborted" ||
-        err.status === 499 ||
-        (err.data &&
-          (err.data === "Cancelled" || err.data.error === "Cancelled"))
-      ) {
-        // User cancelled - this is expected, don't show error
+      // Check if already aborted before sending
+      if (abortController.signal.aborted) {
+        console.log(
+          "[FRONTEND] Step 3: Already aborted before send - exiting early"
+        );
+        isPendingRef.current = false;
+        abortControllerRef.current = null;
         return;
       }
-      // For other errors, you might want to show a notification
-      console.error("Failed to send message:", err);
+
+      console.log("[FRONTEND] Step 4: Calling RTK Query send() with signal");
+      // Pass the abort signal to the mutation
+      // The custom baseQuery will check if signal is aborted BEFORE making the fetch request
+      const result = send({
+        conversationId,
+        content: contentToSend,
+        signal: abortController.signal,
+      });
+
+      console.log("[FRONTEND] Step 5: Waiting for result.unwrap()");
+      await result.unwrap();
+      console.log("[FRONTEND] Step 6: Request completed successfully");
+
+      // Only clear input if not aborted
+      if (!abortController.signal.aborted) {
+        setValue("");
+      }
+    } catch (err: any) {
+      // Silently ignore abort/cancel errors
+      if (
+        err?.name === "AbortError" ||
+        err?.name === "CanceledError" ||
+        err?.status === 499 ||
+        err?.data === "Cancelled" ||
+        err?.data?.error === "Cancelled"
+      ) {
+        console.log(
+          "[FRONTEND] Step 7: Request was aborted/cancelled - error name:",
+          err?.name
+        );
+      } else {
+        console.error("[FRONTEND] Step 7: Failed to send message:", err);
+      }
+    } finally {
+      console.log(
+        "[FRONTEND] Step 8: Cleanup - setting pending to false, clearing abortController"
+      );
+      isPendingRef.current = false;
+      abortControllerRef.current = null;
     }
   };
 
   const handleCancel = () => {
-    // Abort the current request via RTK Query's abort method
-    if ((window as any).__currentSendAbort) {
-      (window as any).__currentSendAbort.abort();
-      (window as any).__currentSendAbort = null;
+    console.log("[FRONTEND] CANCEL CLICKED - handleCancel() called");
+    // Abort the controller immediately - this prevents the fetch request
+    if (abortControllerRef.current) {
+      console.log(
+        "[FRONTEND] CANCEL: Aborting controller, signal.aborted will be:",
+        true
+      );
+      abortControllerRef.current.abort();
+      console.log(
+        "[FRONTEND] CANCEL: Controller aborted, signal.aborted is now:",
+        abortControllerRef.current.signal.aborted
+      );
+      abortControllerRef.current = null;
+    } else {
+      console.log("[FRONTEND] CANCEL: No abortController found in ref");
     }
+    isPendingRef.current = false;
     reset();
+    console.log("[FRONTEND] CANCEL: Reset called, input should re-enable");
   };
 
   return (
     <Box p={2} borderTop={1} borderColor="divider">
-      <TextField
-        fullWidth
-        multiline
-        maxRows={5}
-        value={value}
-        onChange={(e) => setValue(e.target.value)}
-        onKeyDown={(e) => {
-          if (e.key === "Enter" && !e.shiftKey) {
-            e.preventDefault();
-            handleSend();
-          }
-        }}
-        disabled={isLoading}
-        placeholder="Type a message..."
-        InputProps={{
-          endAdornment: isLoading ? (
-            <>
-              <CircularProgress size={20} sx={{ mr: 1 }} />
-              <IconButton onClick={handleCancel}>
-                <CancelIcon />
-              </IconButton>
-            </>
-          ) : (
-            <IconButton onClick={handleSend} disabled={!value.trim()}>
-              <SendIcon />
-            </IconButton>
-          ),
-        }}
-      />
+      <Box display="flex" alignItems="flex-end" gap={1}>
+        <TextField
+          fullWidth
+          multiline
+          maxRows={5}
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" && !e.shiftKey) {
+              e.preventDefault();
+              handleSend();
+            }
+          }}
+          disabled={isLoading}
+          placeholder="Type a message..."
+        />
+        {isLoading && <CircularProgress size={22} sx={{ mr: 0.5 }} />}
+        <IconButton
+          onClick={handleCancel}
+          aria-label="Cancel sending"
+          disabled={!isLoading}
+          color="error"
+        >
+          <CancelIcon />
+        </IconButton>
+        <IconButton
+          onClick={handleSend}
+          aria-label="Send message"
+          disabled={!value.trim() || isLoading}
+          color="primary"
+        >
+          <SendIcon />
+        </IconButton>
+      </Box>
     </Box>
   );
 }

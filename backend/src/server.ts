@@ -1,23 +1,32 @@
-import express from 'express';
-import cors from 'cors';
-import conversationsRouter from './routes/conversations';
-import messagesRouter from './routes/messages';
-import { prisma } from './prisma';
+import express from "express";
+import cors from "cors";
+import conversationsRouter from "./routes/conversations";
+import messagesRouter from "./routes/messages";
+import { prisma } from "./prisma";
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use('/api/conversations', conversationsRouter);
-app.use('/api/conversations', messagesRouter);
+// Add request logging middleware
+app.use("/api/conversations", (req, res, next) => {
+  console.log(`[SERVER] ${req.method} ${req.path} - ${req.url}`);
+  next();
+});
 
-app.get('/healthz', (req, res) => res.status(200).send('OK'));
-app.get('/readyz', async (req, res) => {
+// Mount conversationsRouter first - it handles GET /, POST /, DELETE /:id
+app.use("/api/conversations", conversationsRouter);
+// Mount messagesRouter second - it handles GET /:id, POST /:id/messages
+// This order matters: more specific routes (/:id) should come after general ones (/)
+app.use("/api/conversations", messagesRouter);
+
+app.get("/healthz", (req, res) => res.status(200).send("OK"));
+app.get("/readyz", async (req, res) => {
   try {
     await prisma.$queryRaw`SELECT 1`;
-    res.status(200).send('OK');
+    res.status(200).send("OK");
   } catch {
-    res.status(500).send('DB not ready');
+    res.status(500).send("DB not ready");
   }
 });
 

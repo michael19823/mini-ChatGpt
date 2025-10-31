@@ -6,6 +6,7 @@ import type {
 } from "../types";
 
 // Create baseQuery instance once for efficiency
+// Note: timeout is also set in modifiedArgs to ensure it applies to all queries
 const baseQueryInstance = fetchBaseQuery({
   baseUrl: "/api",
   timeout: 12000,
@@ -33,10 +34,11 @@ const customBaseQuery = async (args: any, api: any, extraOptions: any) => {
   console.log("[RTK QUERY] Step C: args keys =", Object.keys(args || {}));
   console.log("[RTK QUERY] Step C: args.signal exists =", !!args?.signal);
 
-  // Ensure signal is explicitly passed to fetch
-  // RTK Query's fetchBaseQuery extracts signal from the query result
+  // Prepare modified args with timeout for all queries (consistent with old behavior)
+  // Ensure signal is explicitly passed to fetch if it exists
   const modifiedArgs = {
     ...args,
+    timeout: 12000, // Apply 12s timeout to all queries like the old version
     // Explicitly ensure signal is present if it exists
     ...(args?.signal && { signal: args.signal }),
   };
@@ -152,7 +154,33 @@ const customBaseQuery = async (args: any, api: any, extraOptions: any) => {
   console.log(
     "[RTK QUERY] Step D: No signal provided - calling fetchBaseQuery"
   );
-  return baseQueryInstance(modifiedArgs, api, extraOptions);
+  const result = await baseQueryInstance(modifiedArgs, api, extraOptions);
+  console.log("[RTK QUERY] Step D: fetchBaseQuery result:", {
+    hasData: !!result.data,
+    dataType: typeof result.data,
+    isArray: Array.isArray(result.data),
+    error: result.error,
+    status: (result as any).meta?.response?.status,
+    url: args?.url || modifiedArgs?.url,
+  });
+
+  // Log if we get unexpected 204 for non-DELETE requests
+  // This helps identify when cached/stale responses are being used
+  if (
+    (result as any).meta?.response?.status === 204 &&
+    args?.method !== "DELETE" &&
+    !result.error
+  ) {
+    console.error(
+      "[RTK QUERY] ⚠️ Got unexpected 204 for",
+      args?.method || "GET",
+      "request to:",
+      args?.url || modifiedArgs?.url,
+      "- This might be a cached response or routing issue"
+    );
+  }
+
+  return result;
 };
 
 export const api = createApi({
@@ -161,8 +189,39 @@ export const api = createApi({
   endpoints: (builder) => ({
     getConversations: builder.query<Conversation[], void>({
       query: () => "/conversations",
+      transformResponse: (response: any, meta: any) => {
+        console.log("[RTK QUERY] getConversations transformResponse:", {
+          response,
+          type: typeof response,
+          isArray: Array.isArray(response),
+          status: meta?.response?.status,
+          statusText: meta?.response?.statusText,
+        });
+        // Handle 204 No Content (shouldn't happen for GET, but just in case)
+        if (meta?.response?.status === 204) {
+          console.warn(
+            "[RTK QUERY] getConversations: Received 204 No Content, returning empty array"
+          );
+          return [];
+        }
+        // Ensure we always return an array, never null
+        if (Array.isArray(response)) {
+          return response;
+        }
+        if (response === null || response === undefined) {
+          console.warn(
+            "[RTK QUERY] getConversations: received null/undefined, returning empty array"
+          );
+          return [];
+        }
+        console.error(
+          "[RTK QUERY] getConversations: unexpected response format:",
+          response
+        );
+        return [];
+      },
       providesTags: (result) =>
-        result
+        result && result.length > 0
           ? [
               ...result.map(({ id }) => ({
                 type: "Conversation" as const,

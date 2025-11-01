@@ -19,7 +19,7 @@ function App() {
       </AppBar>
 
       <Container maxWidth={false} disableGutters sx={{ display: 'flex', height: 'calc(100vh - 64px)' }}>
-        <ConversationList onSelect={setSelectedId} />
+        <ConversationList onSelect={setSelectedId} selectedId={selectedId} />
         <Box flex={1}>
           <ChatWindow conversationId={selectedId} />
         </Box>

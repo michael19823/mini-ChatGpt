@@ -28,16 +28,18 @@ import { useAppDispatch } from "../store/hooks";
 import { addNotification } from "../store/notifications";
 
 interface Props {
-  onSelect: (id: string) => void;
+  onSelect: (id: string | null) => void;
+  selectedId: string | null;
 }
 
-export default function ConversationList({ onSelect }: Props) {
+export default function ConversationList({ onSelect, selectedId }: Props) {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const [mobileOpen, setMobileOpen] = useState(false);
   const [undoId, setUndoId] = useState<string | null>(null);
   const [undoTimer, setUndoTimer] = useState<NodeJS.Timeout | null>(null);
   const [undoPatchResult, setUndoPatchResult] = useState<any>(null);
+  const [wasSelectedOnDelete, setWasSelectedOnDelete] = useState(false);
 
   const dispatch = useAppDispatch();
   const {
@@ -59,11 +61,21 @@ export default function ConversationList({ onSelect }: Props) {
     );
     setUndoPatchResult(patchResult);
 
+    // If the deleted conversation is the currently selected one, clear the selection immediately
+    const wasSelected = selectedId === id;
+    if (wasSelected) {
+      onSelect(null);
+      setWasSelectedOnDelete(true);
+    } else {
+      setWasSelectedOnDelete(false);
+    }
+
     const timer = setTimeout(async () => {
       try {
         await deleteConvo(id).unwrap();
         setUndoId(null);
         setUndoPatchResult(null);
+        setWasSelectedOnDelete(false);
         dispatch(
           addNotification({
             message: "Conversation deleted",
@@ -76,6 +88,11 @@ export default function ConversationList({ onSelect }: Props) {
         patchResult.undo();
         setUndoId(null);
         setUndoPatchResult(null);
+        // Restore selection if it was the selected conversation
+        if (wasSelected) {
+          onSelect(id);
+          setWasSelectedOnDelete(false);
+        }
         const errorMessage = getErrorMessage(err);
         dispatch(
           addNotification({
@@ -96,6 +113,11 @@ export default function ConversationList({ onSelect }: Props) {
     if (undoPatchResult) {
       undoPatchResult.undo();
       setUndoPatchResult(null);
+      // Restore selection if the undone conversation was previously selected
+      if (undoId && wasSelectedOnDelete) {
+        onSelect(undoId);
+        setWasSelectedOnDelete(false);
+      }
     }
     setUndoId(null);
   };

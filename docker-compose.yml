@@ -88,16 +88,28 @@ services:
       - "3001:3001"
     environment:
       - DATABASE_URL=postgresql://postgres:password@db:5432/chatgpt?schema=public
-      - LLM_PROVIDER=mock
-      - MOCK_LLM_BASE_URL=http://mock-llm:8080
-      - OLLAMA_BASE_URL=http://ollama:11434
-      - OLLAMA_MODEL=tinyllama
+
+      # === MOCK LLM CONFIGURATION ===
+      # To use Mock LLM: uncomment the 2 lines below
+      # - LLM_PROVIDER=mock
+      # - MOCK_LLM_BASE_URL=http://mock-llm:8080
+
+      # === OLLAMA CONFIGURATION ===
+      # To use Ollama: uncomment the 3 lines below
+      # - LLM_PROVIDER=ollama
+      # - OLLAMA_BASE_URL=http://ollama:11434
+      # - OLLAMA_MODEL=tinyllama
+
     depends_on:
       db:
         condition: service_healthy
+      # === MOCK LLM DEPENDENCY ===
+      # Uncomment when using Mock LLM (comment out ollama-init below)
       mock-llm:
         condition: service_started
-      # Remove ollama-init dependency when using mock LLM
+
+      # === OLLAMA DEPENDENCY ===
+      # Uncomment when using Ollama (comment out mock-llm above)
       # ollama-init:
       #   condition: service_completed_successfully
     command: >

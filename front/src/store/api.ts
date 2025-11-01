@@ -14,26 +14,6 @@ export const api = createApi({
   endpoints: (builder) => ({
     getConversations: builder.query<Conversation[], void>({
       query: () => "/conversations",
-      transformResponse: (response: any, meta: any) => {
-        // Handle 204 No Content - this shouldn't happen for GET requests
-        // If it does, it might be a cached DELETE response or routing issue
-        if (meta?.response?.status === 204) {
-          console.warn(
-            "[RTK QUERY] getConversations: Received 204, this is unexpected for GET request"
-          );
-          // Return empty array but log for debugging
-          return [];
-        }
-        // Ensure we always return an array, never null
-        if (Array.isArray(response)) {
-          return response;
-        }
-        if (response === null || response === undefined) {
-          return [];
-        }
-        // Fallback for unexpected format
-        return [];
-      },
       providesTags: (result) =>
         result
           ? [

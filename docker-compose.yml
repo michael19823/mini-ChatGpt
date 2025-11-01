@@ -24,9 +24,20 @@ services:
     container_name: mock-llm
     ports:
       - "8080:8080"
-    # Remove healthcheck — curl not in node:20-alpine
-    # healthcheck:
-    #   test: ["CMD", "curl", "-f", "http://localhost:8080/complete"]
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "wget",
+          "--no-verbose",
+          "--tries=1",
+          "--spider",
+          "http://localhost:8080/health",
+        ]
+      interval: 2s
+      timeout: 2s
+      retries: 5
+      start_period: 5s
 
   # === OLLAMA: Local LLM Service ===
   ollama:
@@ -106,7 +117,7 @@ services:
       # === MOCK LLM DEPENDENCY ===
       # Uncomment when using Mock LLM (comment out ollama-init below)
       mock-llm:
-        condition: service_started
+        condition: service_healthy
 
       # === OLLAMA DEPENDENCY ===
       # Uncomment when using Ollama (comment out mock-llm above)
@@ -116,7 +127,19 @@ services:
       sh -c "
         echo 'Waiting for DB...' &&
         until nc -z db 5432; do sleep 1; done &&
-        echo 'DB ready. Running migrations...' &&
+        echo 'DB ready. Checking Mock LLM...' &&
+        COUNTER=0 &&
+        while ! nc -z mock-llm 8080 2>/dev/null && [ $$COUNTER -lt 10 ]; do
+          echo 'Waiting for Mock LLM...' &&
+          sleep 1 &&
+          COUNTER=$$((COUNTER + 1))
+        done &&
+        if nc -z mock-llm 8080 2>/dev/null; then
+          echo 'Mock LLM ready.'
+        else
+          echo 'Mock LLM not available (will proceed anyway).'
+        fi &&
+        echo 'Running migrations...' &&
         npx prisma migrate deploy &&
         echo 'Starting backend...' &&
         npm start

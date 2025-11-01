@@ -49,7 +49,6 @@ export default function ConversationList({ onSelect }: Props) {
   const [deleteConvo] = useDeleteConversationMutation();
 
   const handleDelete = (id: string) => {
-    // Optimistic update - remove from cache immediately
     const patchResult = dispatch(
       api.util.updateQueryData("getConversations", undefined, (draft) => {
         if (!draft) return [];
@@ -58,11 +57,9 @@ export default function ConversationList({ onSelect }: Props) {
     );
     setUndoPatchResult(patchResult);
 
-    // Schedule actual delete after 5 seconds (for undo functionality)
     const timer = setTimeout(async () => {
       try {
         await deleteConvo(id).unwrap();
-        // RTK Query automatically refetches due to invalidatesTags
         setUndoId(null);
         setUndoPatchResult(null);
       } catch (err) {
@@ -184,7 +181,7 @@ export default function ConversationList({ onSelect }: Props) {
           </Box>
         ) : isLoading ? (
           <Typography p={2}>Loading...</Typography>
-        ) : conversations.length > 0 ? (
+        ) : (
           <List>
             {conversations.map((c) => (
               <ListItem key={c.id} disablePadding>
@@ -216,29 +213,6 @@ export default function ConversationList({ onSelect }: Props) {
               </ListItem>
             ))}
           </List>
-        ) : (
-          <Box p={2} textAlign="center">
-            <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
-              No conversations yet
-            </Typography>
-            <Button
-              variant="outlined"
-              size="small"
-              startIcon={<AddIcon />}
-              onClick={async () => {
-                try {
-                  const res = await create().unwrap();
-                  // RTK Query automatically refetches due to invalidatesTags
-                  onSelect(res.id);
-                  onClose?.();
-                } catch (err) {
-                  // Error creating conversation
-                }
-              }}
-            >
-              Create your first chat
-            </Button>
-          </Box>
         )}
       </>
     );

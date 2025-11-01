@@ -27,29 +27,17 @@ export default function MessageInput({ conversationId }: Props) {
     const contentToSend = value.trim();
 
     try {
-      // RTK Query will handle the abort signal automatically
-      // The sendMessage endpoint checks if signal is aborted before making the request
       await sendMessage({
         conversationId,
         content: contentToSend,
         signal: abortController.signal,
       }).unwrap();
 
-      // Only clear input if not aborted
       if (!abortController.signal.aborted) {
         setValue("");
       }
-    } catch (err: any) {
-      // Silently ignore abort errors
-      const isAbortError =
-        err?.name === "AbortError" ||
-        err?.name === "CanceledError" ||
-        err?.message === "Request was aborted" ||
-        (err instanceof DOMException && err.name === "AbortError");
-
-      if (!isAbortError) {
-        // Could show error toast here
-      }
+    } catch {
+      // Ignore errors - RTK Query handles cleanup
     } finally {
       isPendingRef.current = false;
       abortControllerRef.current = null;

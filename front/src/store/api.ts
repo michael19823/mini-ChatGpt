@@ -14,50 +14,28 @@ const baseQueryInstance = fetchBaseQuery({
 
 // Custom baseQuery that properly handles abort signals BEFORE and DURING the request
 const customBaseQuery = async (args: any, api: any, extraOptions: any) => {
-  console.log(
-    "[RTK QUERY] Step A: customBaseQuery called, checking abort signal"
-  );
-  console.log("[RTK QUERY] signal.aborted =", args?.signal?.aborted);
-
   // CRITICAL: Check if signal is already aborted BEFORE making any request
-  // This is the key check that prevents the request from reaching the backend
   if (args?.signal?.aborted) {
-    console.log(
-      "[RTK QUERY] Step B: Signal already aborted - throwing AbortError, fetch will NOT be called"
-    );
     const error: any = new Error("Request was aborted");
     error.name = "AbortError";
     throw error;
   }
 
-  console.log("[RTK QUERY] Step C: Signal not aborted - proceeding with fetch");
-  console.log("[RTK QUERY] Step C: args keys =", Object.keys(args || {}));
-  console.log("[RTK QUERY] Step C: args.signal exists =", !!args?.signal);
-
-  // Prepare modified args with timeout for all queries (consistent with old behavior)
-  // Ensure signal is explicitly passed to fetch if it exists
+  // Always clone args and add timeout - FIXED: moved outside if block
+  // This ensures modifiedArgs is available for ALL queries (with or without signal)
   const modifiedArgs = {
     ...args,
-    timeout: 12000, // Apply 12s timeout to all queries like the old version
-    // Explicitly ensure signal is present if it exists
-    ...(args?.signal && { signal: args.signal }),
+    timeout: 12000, // Apply 12s timeout to all queries
   };
 
-  console.log(
-    "[RTK QUERY] Step C: modifiedArgs.signal exists =",
-    !!modifiedArgs?.signal
-  );
-
-  // If signal is provided, wrap in Promise to immediately reject on abort
+  // If signal is provided, wrap in Promise to handle abort during fetch
   if (args?.signal) {
     return new Promise<any>((resolve, reject) => {
       let isAborted = false;
 
       const abortHandler = () => {
-        console.log(
-          "[RTK QUERY] ABORT: Signal aborted during fetch - rejecting promise immediately"
-        );
         isAborted = true;
+        args.signal?.removeEventListener("abort", abortHandler);
         const error: any = new Error("Request was aborted");
         error.name = "AbortError";
         reject(error);
@@ -65,7 +43,6 @@ const customBaseQuery = async (args: any, api: any, extraOptions: any) => {
 
       // Check if already aborted before setting up listener
       if (args.signal.aborted) {
-        console.log("[RTK QUERY] ABORT: Signal already aborted before fetch");
         abortHandler();
         return;
       }
@@ -73,114 +50,47 @@ const customBaseQuery = async (args: any, api: any, extraOptions: any) => {
       // Set up abort listener BEFORE calling fetchBaseQuery
       args.signal.addEventListener("abort", abortHandler, { once: true });
 
-      console.log(
-        "[RTK QUERY] Step D: Added abort listener, calling fetchBaseQuery"
-      );
-      console.log(
-        "[RTK QUERY] Step D: Signal will be passed to fetch - signal.aborted =",
-        args.signal.aborted
-      );
-
-      // Call fetchBaseQuery but DON'T await it directly
-      // If abort happens, we reject immediately and ignore the fetch result
-      // NOTE: fetchBaseQuery should automatically extract signal from args and pass to fetch()
+      // Call fetchBaseQuery and handle abort during/after fetch
       Promise.resolve(baseQueryInstance(modifiedArgs, api, extraOptions))
         .then((result) => {
-          // If we already rejected due to abort, ignore this result
-          if (isAborted) {
-            console.log(
-              "[RTK QUERY] Step E: Fetch completed but was already aborted - ignoring result"
-            );
-            return;
-          }
-
-          // Remove listener since we're resolving
           args.signal?.removeEventListener("abort", abortHandler);
 
-          // Final check: if aborted after fetch completed (race condition)
-          if (args?.signal?.aborted) {
-            console.log(
-              "[RTK QUERY] Step E: Fetch completed but signal was aborted - rejecting"
-            );
+          // If we already rejected due to abort, ignore this result
+          if (isAborted || args?.signal?.aborted) {
             const error: any = new Error("Request was aborted");
             error.name = "AbortError";
             reject(error);
             return;
           }
 
-          console.log("[RTK QUERY] Step E: Fetch completed successfully");
           resolve(result);
         })
         .catch((err: any) => {
-          // If we already rejected due to abort, ignore this error
-          if (isAborted) {
-            console.log(
-              "[RTK QUERY] Step E: Fetch error but was already aborted - ignoring error"
-            );
-            return;
-          }
-
-          // Remove listener since we're rejecting
           args.signal?.removeEventListener("abort", abortHandler);
 
-          // If it's an abort error, use our handler's error
-          if (
-            err?.name === "AbortError" ||
-            err?.name === "CanceledError" ||
-            args?.signal?.aborted
-          ) {
-            console.log(
-              "[RTK QUERY] Step E: Fetch aborted - error:",
-              err?.name,
-              err?.message
-            );
+          // If we already rejected due to abort, ignore this error
+          if (isAborted || args?.signal?.aborted) {
             const error: any = new Error("Request was aborted");
             error.name = "AbortError";
             reject(error);
             return;
           }
 
-          console.log(
-            "[RTK QUERY] Step E: Fetch failed - error:",
-            err?.name,
-            err?.message
-          );
+          // If it's an abort error, use our handler's error
+          if (err?.name === "AbortError" || err?.name === "CanceledError") {
+            const error: any = new Error("Request was aborted");
+            error.name = "AbortError";
+            reject(error);
+            return;
+          }
+
           reject(err);
         });
     });
   }
 
-  // No signal provided - call normally
-  console.log(
-    "[RTK QUERY] Step D: No signal provided - calling fetchBaseQuery"
-  );
-  const result = await baseQueryInstance(modifiedArgs, api, extraOptions);
-  console.log("[RTK QUERY] Step D: fetchBaseQuery result:", {
-    hasData: !!result.data,
-    dataType: typeof result.data,
-    isArray: Array.isArray(result.data),
-    error: result.error,
-    status: (result as any).meta?.response?.status,
-    url: args?.url || modifiedArgs?.url,
-  });
-
-  // Log if we get unexpected 204 for non-DELETE requests
-  // This helps identify when cached/stale responses are being used
-  if (
-    (result as any).meta?.response?.status === 204 &&
-    args?.method !== "DELETE" &&
-    !result.error
-  ) {
-    console.error(
-      "[RTK QUERY] ⚠️ Got unexpected 204 for",
-      args?.method || "GET",
-      "request to:",
-      args?.url || modifiedArgs?.url,
-      "- This might be a cached response or routing issue"
-    );
-  }
-
-  return result;
+  // Normal case (no signal): use modifiedArgs - FIXED: now modifiedArgs is defined
+  return baseQueryInstance(modifiedArgs, api, extraOptions);
 };
 
 export const api = createApi({

@@ -17,11 +17,13 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import AddIcon from "@mui/icons-material/Add";
 import MenuIcon from "@mui/icons-material/Menu";
 import {
+  useGetConversationsQuery,
   useCreateConversationMutation,
   useDeleteConversationMutation,
+  api,
 } from "../store/api";
-import { useState, useEffect, useCallback } from "react";
-import type { Conversation } from "../types";
+import { useState, useEffect } from "react";
+import { useAppDispatch } from "../store/hooks";
 
 interface Props {
   onSelect: (id: string) => void;
@@ -33,97 +35,57 @@ export default function ConversationList({ onSelect }: Props) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [undoId, setUndoId] = useState<string | null>(null);
   const [undoTimer, setUndoTimer] = useState<NodeJS.Timeout | null>(null);
+  const [undoPatchResult, setUndoPatchResult] = useState<any>(null);
 
-  const [conversations, setConversations] = useState<Conversation[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState<Error | null>(null);
+  const dispatch = useAppDispatch();
+  const {
+    data: conversations = [],
+    isLoading,
+    error,
+    refetch,
+  } = useGetConversationsQuery();
+
+  // Debug logging
+  useEffect(() => {
+    console.log("[ConversationList] RTK Query state:", {
+      conversations,
+      conversationsLength: conversations.length,
+      isLoading,
+      error: error
+        ? {
+            status: (error as any)?.status,
+            data: (error as any)?.data,
+            message: (error as any)?.message,
+          }
+        : null,
+    });
+  }, [conversations, isLoading, error]);
   const [create] = useCreateConversationMutation();
   const [deleteConvo] = useDeleteConversationMutation();
 
-  // Fetch conversations using fetch directly
-  const fetchConversations = useCallback(async () => {
-    console.log("[ConversationList] Fetching conversations...");
-    setIsLoading(true);
-    setError(null);
-    try {
-      const response = await fetch("/api/conversations", {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-
-      console.log(
-        "[ConversationList] Response status:",
-        response.status,
-        response.statusText
-      );
-      console.log("[ConversationList] Response headers:", {
-        contentType: response.headers.get("content-type"),
-        contentLength: response.headers.get("content-length"),
-      });
-
-      if (response.status === 204) {
-        console.warn(
-          "[ConversationList] Received 204 No Content - treating as empty array"
-        );
-        setConversations([]);
-        setIsLoading(false);
-        return;
-      }
-
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-      }
-
-      const data: Conversation[] = await response.json();
-      console.log("[ConversationList] Fetched conversations:", data.length);
-
-      if (!Array.isArray(data)) {
-        console.error("[ConversationList] Response is not an array:", data);
-        throw new Error("Invalid response format: expected array");
-      }
-
-      setConversations(data);
-      setIsLoading(false);
-    } catch (err) {
-      console.error("[ConversationList] Fetch error:", err);
-      setError(
-        err instanceof Error ? err : new Error("Failed to fetch conversations")
-      );
-      setIsLoading(false);
-    }
-  }, []);
-
-  // Fetch conversations on mount and after mutations
-  useEffect(() => {
-    fetchConversations();
-  }, [fetchConversations]);
-
   const handleDelete = (id: string) => {
-    // Optimistic update - remove from local state
-    const deletedConversation = conversations.find((c) => c.id === id);
-    setConversations((prev) => prev.filter((c) => c.id !== id));
+    // Optimistic update - remove from cache immediately
+    const patchResult = dispatch(
+      api.util.updateQueryData("getConversations", undefined, (draft) => {
+        if (!draft) return [];
+        return draft.filter((c) => c.id !== id);
+      })
+    );
+    setUndoPatchResult(patchResult);
 
+    // Schedule actual delete after 5 seconds (for undo functionality)
     const timer = setTimeout(async () => {
       try {
         await deleteConvo(id).unwrap();
-        // Refetch to ensure consistency
-        await fetchConversations();
+        // RTK Query automatically refetches due to invalidatesTags
         setUndoId(null);
+        setUndoPatchResult(null);
       } catch (err) {
-        console.error("Delete failed, restoring conversation:", err);
+        console.error("Delete failed:", err);
         // Restore on error
-        if (deletedConversation) {
-          setConversations((prev) =>
-            [...prev, deletedConversation].sort(
-              (a, b) =>
-                new Date(b.createdAt).getTime() -
-                new Date(a.createdAt).getTime()
-            )
-          );
-        }
+        patchResult.undo();
         setUndoId(null);
+        setUndoPatchResult(null);
       }
     }, 5000);
 
@@ -133,8 +95,12 @@ export default function ConversationList({ onSelect }: Props) {
 
   const handleUndo = () => {
     if (undoTimer) clearTimeout(undoTimer);
+    // Restore the optimistic update
+    if (undoPatchResult) {
+      undoPatchResult.undo();
+      setUndoPatchResult(null);
+    }
     setUndoId(null);
-    fetchConversations();
   };
 
   useEffect(() => {
@@ -203,8 +169,7 @@ export default function ConversationList({ onSelect }: Props) {
             onClick={async () => {
               try {
                 const res = await create().unwrap();
-                // Refetch to get the new conversation in the list
-                await fetchConversations();
+                // RTK Query automatically refetches due to invalidatesTags
                 onSelect(res.id);
                 onClose?.();
               } catch (err) {
@@ -219,10 +184,13 @@ export default function ConversationList({ onSelect }: Props) {
         {error ? (
           <Box p={2}>
             <Typography color="error" variant="body2" sx={{ mb: 2 }}>
-              Failed to load conversations: {error?.message || "Unknown error"}
+              Failed to load conversations:{" "}
+              {(error as any)?.data?.message ||
+                (error as any)?.message ||
+                "Unknown error"}
             </Typography>
             <Button
-              onClick={fetchConversations}
+              onClick={() => refetch()}
               variant="outlined"
               size="small"
               fullWidth
@@ -276,8 +244,7 @@ export default function ConversationList({ onSelect }: Props) {
               onClick={async () => {
                 try {
                   const res = await create().unwrap();
-                  // Refetch to get the new conversation in the list
-                  await fetchConversations();
+                  // RTK Query automatically refetches due to invalidatesTags
                   onSelect(res.id);
                   onClose?.();
                 } catch (err) {

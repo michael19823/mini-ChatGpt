@@ -14,49 +14,78 @@ const baseQueryInstance = fetchBaseQuery({
 
 // Custom baseQuery that properly handles abort signals BEFORE and DURING the request
 const customBaseQuery = async (args: any, api: any, extraOptions: any) => {
+  // RTK Query can pass args as:
+  // - A string (URL): "/conversations"
+  // - An object: { url: "/conversations", method: "GET", ... }
+  // - undefined/null (should not happen, but handle gracefully)
+
+  // Normalize to object format for consistent handling
+  let normalizedArgs: any;
+  if (typeof args === "string") {
+    normalizedArgs = { url: args };
+  } else if (args && typeof args === "object") {
+    normalizedArgs = args;
+  } else {
+    // Fallback: log error and try to proceed
+    console.error("[RTK QUERY] Unexpected args format:", args);
+    normalizedArgs = { url: args || "" };
+  }
+
   // CRITICAL: Check if signal is already aborted BEFORE making any request
-  if (args?.signal?.aborted) {
+  if (normalizedArgs?.signal?.aborted) {
     const error: any = new Error("Request was aborted");
     error.name = "AbortError";
     throw error;
   }
 
-  // Always clone args and add timeout - FIXED: moved outside if block
-  // This ensures modifiedArgs is available for ALL queries (with or without signal)
+  // Ensure we have a URL - if not, this is an invalid request
+  if (!normalizedArgs.url) {
+    console.error("[RTK QUERY] Missing URL in args:", args);
+    return {
+      error: {
+        status: "CUSTOM_ERROR",
+        data: "Invalid request: missing URL",
+      },
+    };
+  }
+
+  // Always clone args and add timeout - ensures modifiedArgs is available for ALL queries
   const modifiedArgs = {
-    ...args,
+    ...normalizedArgs,
     timeout: 12000, // Apply 12s timeout to all queries
   };
 
   // If signal is provided, wrap in Promise to handle abort during fetch
-  if (args?.signal) {
+  if (modifiedArgs?.signal) {
     return new Promise<any>((resolve, reject) => {
       let isAborted = false;
 
       const abortHandler = () => {
         isAborted = true;
-        args.signal?.removeEventListener("abort", abortHandler);
+        modifiedArgs.signal?.removeEventListener("abort", abortHandler);
         const error: any = new Error("Request was aborted");
         error.name = "AbortError";
         reject(error);
       };
 
       // Check if already aborted before setting up listener
-      if (args.signal.aborted) {
+      if (modifiedArgs.signal.aborted) {
         abortHandler();
         return;
       }
 
       // Set up abort listener BEFORE calling fetchBaseQuery
-      args.signal.addEventListener("abort", abortHandler, { once: true });
+      modifiedArgs.signal.addEventListener("abort", abortHandler, {
+        once: true,
+      });
 
       // Call fetchBaseQuery and handle abort during/after fetch
       Promise.resolve(baseQueryInstance(modifiedArgs, api, extraOptions))
         .then((result) => {
-          args.signal?.removeEventListener("abort", abortHandler);
+          modifiedArgs.signal?.removeEventListener("abort", abortHandler);
 
           // If we already rejected due to abort, ignore this result
-          if (isAborted || args?.signal?.aborted) {
+          if (isAborted || modifiedArgs?.signal?.aborted) {
             const error: any = new Error("Request was aborted");
             error.name = "AbortError";
             reject(error);
@@ -66,10 +95,10 @@ const customBaseQuery = async (args: any, api: any, extraOptions: any) => {
           resolve(result);
         })
         .catch((err: any) => {
-          args.signal?.removeEventListener("abort", abortHandler);
+          modifiedArgs.signal?.removeEventListener("abort", abortHandler);
 
           // If we already rejected due to abort, ignore this error
-          if (isAborted || args?.signal?.aborted) {
+          if (isAborted || modifiedArgs?.signal?.aborted) {
             const error: any = new Error("Request was aborted");
             error.name = "AbortError";
             reject(error);
@@ -90,7 +119,21 @@ const customBaseQuery = async (args: any, api: any, extraOptions: any) => {
   }
 
   // Normal case (no signal): use modifiedArgs - FIXED: now modifiedArgs is defined
-  return baseQueryInstance(modifiedArgs, api, extraOptions);
+  const result = await baseQueryInstance(modifiedArgs, api, extraOptions);
+
+  // Log unexpected 204 responses for debugging (transformResponse will handle it)
+  if (
+    (result as any).meta?.response?.status === 204 &&
+    modifiedArgs?.method !== "DELETE"
+  ) {
+    console.warn(
+      "[RTK QUERY] Received 204 for non-DELETE request:",
+      modifiedArgs?.url,
+      "- transformResponse will convert to empty array"
+    );
+  }
+
+  return result;
 };
 
 export const api = createApi({
@@ -100,18 +143,13 @@ export const api = createApi({
     getConversations: builder.query<Conversation[], void>({
       query: () => "/conversations",
       transformResponse: (response: any, meta: any) => {
-        console.log("[RTK QUERY] getConversations transformResponse:", {
-          response,
-          type: typeof response,
-          isArray: Array.isArray(response),
-          status: meta?.response?.status,
-          statusText: meta?.response?.statusText,
-        });
-        // Handle 204 No Content (shouldn't happen for GET, but just in case)
+        // Handle 204 No Content - this shouldn't happen for GET requests
+        // If it does, it might be a cached DELETE response or routing issue
         if (meta?.response?.status === 204) {
           console.warn(
-            "[RTK QUERY] getConversations: Received 204 No Content, returning empty array"
+            "[RTK QUERY] getConversations: Received 204, this is unexpected for GET request"
           );
+          // Return empty array but log for debugging
           return [];
         }
         // Ensure we always return an array, never null
@@ -119,19 +157,13 @@ export const api = createApi({
           return response;
         }
         if (response === null || response === undefined) {
-          console.warn(
-            "[RTK QUERY] getConversations: received null/undefined, returning empty array"
-          );
           return [];
         }
-        console.error(
-          "[RTK QUERY] getConversations: unexpected response format:",
-          response
-        );
+        // Fallback for unexpected format
         return [];
       },
       providesTags: (result) =>
-        result && result.length > 0
+        result
           ? [
               ...result.map(({ id }) => ({
                 type: "Conversation" as const,

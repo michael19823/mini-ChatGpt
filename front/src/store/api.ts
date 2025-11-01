@@ -49,20 +49,12 @@ export const api = createApi({
       SendResponse,
       { conversationId: string; content: string; signal?: AbortSignal }
     >({
-      query: ({ conversationId, content, signal }) => {
-        // Check if signal is already aborted before making the request
-        // This prevents unnecessary network calls
-        if (signal?.aborted) {
-          throw new DOMException("Request was aborted", "AbortError");
-        }
-
-        return {
-          url: `/conversations/${conversationId}/messages`,
-          method: "POST",
-          body: { content },
-          signal, // RTK Query's fetchBaseQuery will pass this to fetch() automatically
-        };
-      },
+      query: ({ conversationId, content, signal }) => ({
+        url: `/conversations/${conversationId}/messages`,
+        method: "POST",
+        body: { content },
+        signal, // RTK Query's fetchBaseQuery passes this to fetch() - fetch() will throw AbortError if already aborted
+      }),
       invalidatesTags: (result, error, { conversationId }) => [
         { type: "Conversation", id: conversationId },
         { type: "Conversation", id: "LIST" },

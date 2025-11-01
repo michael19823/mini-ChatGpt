@@ -25,7 +25,7 @@ export class OllamaAdapter implements LlmAdapter {
           },
         },
         {
-          timeout: 120000,
+          timeout: 12000,
           signal,
         }
       );
@@ -35,7 +35,7 @@ export class OllamaAdapter implements LlmAdapter {
       if (err.request && !err.response) {
         if (err.code === "ECONNABORTED" && err.message.includes("timeout")) {
           throw new Error(
-            `Ollama request timed out after 120 seconds. The model may still be loading or Ollama may need more resources.`
+            `Ollama request timed out after 12 seconds. The model may still be loading or Ollama may need more resources.`
           );
         }
       }

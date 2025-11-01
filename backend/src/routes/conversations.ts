@@ -5,8 +5,6 @@ import { validate, conversationIdSchema } from "../utils/validation";
 
 const router = Router();
 
-let convoCounter = 1;
-
 // GET /api/conversations
 router.get("/", async (req, res) => {
   try {
@@ -48,7 +46,9 @@ router.get("/", async (req, res) => {
 // POST /api/conversations
 router.post("/", async (req, res) => {
   try {
-    const title = `Conversation #${convoCounter++}`;
+    // Calculate counter from database to ensure persistence across restarts
+    const count = await prisma.conversation.count();
+    const title = `Conversation #${count + 1}`;
     const convo = await prisma.conversation.create({
       data: { title },
       select: {

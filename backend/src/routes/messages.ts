@@ -82,12 +82,14 @@ router.get(
         return res.status(503).json({
           error: "Service temporarily unavailable",
           message: "Database connection failed. Please try again later.",
+          retryAfterMs: 1000,
         });
       }
 
       res.status(500).json({
         error: "Failed to fetch messages",
         message: "Unable to load messages. Please try again later.",
+        retryAfterMs: 1000,
       });
     }
   }
@@ -219,7 +221,7 @@ router.post(
       // Don't retry on timeout/abort - those should fail fast
       let lastError: any;
       let completion: { completion: string } | undefined;
-      
+
       for (let attempt = 0; attempt <= 2; attempt++) {
         if (abortController.signal.aborted) {
           const abortError = new Error("Aborted");
@@ -271,13 +273,19 @@ router.post(
             // Wait with back-off, but check for abort during delay
             await new Promise((resolve, reject) => {
               const timeout = setTimeout(() => {
-                abortController.signal.removeEventListener("abort", abortHandler);
+                abortController.signal.removeEventListener(
+                  "abort",
+                  abortHandler
+                );
                 resolve(undefined);
               }, delay);
 
               const abortHandler = () => {
                 clearTimeout(timeout);
-                abortController.signal.removeEventListener("abort", abortHandler);
+                abortController.signal.removeEventListener(
+                  "abort",
+                  abortHandler
+                );
                 const abortError = new Error("Aborted");
                 abortError.name = "AbortError";
                 reject(abortError);
@@ -438,6 +446,7 @@ router.post(
         res.status(503).json({
           error: "Service temporarily unavailable",
           message: "Database connection failed. Please try again later.",
+          retryAfterMs: 1000,
         });
         return;
       }
@@ -458,6 +467,7 @@ router.post(
           error: "Request timeout",
           message:
             "The AI service is taking too long to respond. Please try again.",
+          retryAfterMs: 1000,
         });
         return;
       }
@@ -473,6 +483,7 @@ router.post(
           error: "Service unavailable",
           message:
             "The AI service is currently unavailable. Please try again later.",
+          retryAfterMs: 1000,
         });
         return;
       }
@@ -488,19 +499,26 @@ router.post(
         is500ErrorAfterRetries,
       });
       await deleteUserMessage();
-      
+
       // If all retries failed for a 500 error, provide a more informative message
       if (is500ErrorAfterRetries) {
         res.status(500).json({
           error: "AI service error",
-          message: "The AI service is temporarily unavailable after multiple attempts. Please try again in a moment.",
+          message:
+            "The AI service is temporarily unavailable after multiple attempts. Please try again in a moment.",
+          retryAfterMs: 1000,
         });
       } else {
         // For other errors, use generic message but include error details if available
-        const errorMessage = err.message || "Failed to get response from AI service. Please try again.";
+        const errorMessage =
+          err.message ||
+          "Failed to get response from AI service. Please try again.";
         res.status(500).json({
           error: "AI service error",
-          message: errorMessage.includes("AI service") ? errorMessage : `Failed to get response from AI service: ${errorMessage}`,
+          message: errorMessage.includes("AI service")
+            ? errorMessage
+            : `Failed to get response from AI service: ${errorMessage}`,
+          retryAfterMs: 1000,
         });
       }
     }

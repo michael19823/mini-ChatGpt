@@ -22,7 +22,12 @@ export function validate(
 ) {
   return (req: Request, res: Response, next: NextFunction) => {
     try {
-      const data = source === "body" ? req.body : source === "params" ? req.params : req.query;
+      const data =
+        source === "body"
+          ? req.body
+          : source === "params"
+          ? req.params
+          : req.query;
       const result = schema.parse(data);
       // Update the request with validated data (useful for transformed values)
       if (source === "query") {
@@ -48,5 +53,3 @@ export function validate(
     }
   };
 }
-
-

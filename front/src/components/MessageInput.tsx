@@ -48,7 +48,6 @@ export default function MessageInput({ conversationId }: Props) {
         (err instanceof DOMException && err.name === "AbortError");
 
       if (!isAbortError) {
-        console.error("[FRONTEND] Failed to send message:", err);
         // Could show error toast here
       }
     } finally {

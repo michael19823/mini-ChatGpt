@@ -45,21 +45,6 @@ export default function ConversationList({ onSelect }: Props) {
     refetch,
   } = useGetConversationsQuery();
 
-  // Debug logging
-  useEffect(() => {
-    console.log("[ConversationList] RTK Query state:", {
-      conversations,
-      conversationsLength: conversations.length,
-      isLoading,
-      error: error
-        ? {
-            status: (error as any)?.status,
-            data: (error as any)?.data,
-            message: (error as any)?.message,
-          }
-        : null,
-    });
-  }, [conversations, isLoading, error]);
   const [create] = useCreateConversationMutation();
   const [deleteConvo] = useDeleteConversationMutation();
 
@@ -81,7 +66,6 @@ export default function ConversationList({ onSelect }: Props) {
         setUndoId(null);
         setUndoPatchResult(null);
       } catch (err) {
-        console.error("Delete failed:", err);
         // Restore on error
         patchResult.undo();
         setUndoId(null);
@@ -173,7 +157,7 @@ export default function ConversationList({ onSelect }: Props) {
                 onSelect(res.id);
                 onClose?.();
               } catch (err) {
-                console.error("Create failed", err);
+                // Error creating conversation
               }
             }}
           >
@@ -248,7 +232,7 @@ export default function ConversationList({ onSelect }: Props) {
                   onSelect(res.id);
                   onClose?.();
                 } catch (err) {
-                  console.error("Create failed", err);
+                  // Error creating conversation
                 }
               }}
             >

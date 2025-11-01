@@ -51,7 +51,7 @@ export default function ChatWindow({ conversationId }: Props) {
 
       setOlderMessages((prev) => [...result.messages, ...prev]);
     } catch (err) {
-      console.error('Failed to load older messages', err);
+      // Failed to load older messages
     } finally {
       setIsLoadingOlder(false);
     }

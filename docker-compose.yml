@@ -68,17 +68,17 @@ services:
           echo "Waiting for Ollama..."
           sleep 2
         done
-        echo "Ollama is ready. Checking if model smollm2:135m exists..."
+        echo "Ollama is ready. Checking if model tinyllama exists..."
         MODELS=$$(curl -s http://ollama:11434/api/tags)
-        if echo "$$MODELS" | grep -q '"name":"smollm2:135m"'; then
-          echo "Model smollm2:135m already exists - no download needed."
+        if echo "$$MODELS" | grep -q '"name":"tinyllama"'; then
+          echo "Model tinyllama already exists - no download needed."
           exit 0
         fi
-        echo "Model smollm2:135m not found. Pulling (this may take several minutes)..."
+        echo "Model tinyllama not found. Pulling (this may take several minutes)..."
         echo "NOTE: This only happens once - the model is saved and reused on future runs."
-        echo "smollm2:135m is the LIGHTEST model (~200MB) - perfect for low-resource systems!"
-        curl -X POST http://ollama:11434/api/pull -d '{"name":"smollm2:135m"}' --no-buffer
-        echo "Model smollm2:135m pulled successfully!"
+        echo "tinyllama (~637MB) is one of the FASTEST models - optimized for speed!"
+        curl -X POST http://ollama:11434/api/pull -d '{"name":"tinyllama"}' --no-buffer
+        echo "Model tinyllama pulled successfully!"
 
   # === BACKEND: Node.js + Express + Prisma ===
   backend:
@@ -91,7 +91,7 @@ services:
       - LLM_PROVIDER=ollama
       - MOCK_LLM_BASE_URL=http://mock-llm:8080
       - OLLAMA_BASE_URL=http://ollama:11434
-      - OLLAMA_MODEL=smollm2:135m
+      - OLLAMA_MODEL=tinyllama
     depends_on:
       db:
         condition: service_healthy

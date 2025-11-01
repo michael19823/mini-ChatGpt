@@ -39,7 +39,7 @@ export const api = createApi({
       { id: string; cursor?: string; limit?: number }
     >({
       query: ({ id, cursor, limit = 20 }) => ({
-        url: `/conversations/${id}`,
+        url: `/conversations/${id}/messages`,
         params: { messagesCursor: cursor, limit },
       }),
       providesTags: (result, error, { id }) => [{ type: "Conversation", id }],

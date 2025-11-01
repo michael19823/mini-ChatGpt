@@ -3,10 +3,12 @@ import cors from "cors";
 import conversationsRouter from "./routes/conversations";
 import messagesRouter from "./routes/messages";
 import { prisma } from "./prisma";
+import { logger } from "./utils/logger";
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use(logger.middleware.bind(logger));
 
 app.use("/api/conversations", conversationsRouter);
 app.use("/api/conversations", messagesRouter);

@@ -15,6 +15,14 @@ export class OllamaAdapter implements LlmAdapter {
           model: this.model,
           messages,
           stream: false,
+          options: {
+            // Optimize for speed: lower temperature for faster, more deterministic responses
+            temperature: 0.7,
+            // Limit max tokens to prevent long generation
+            num_predict: 200,
+            // Keep model in memory longer
+            keep_alive: "5m",
+          },
         },
         {
           timeout: 120000,

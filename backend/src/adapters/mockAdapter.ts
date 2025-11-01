@@ -9,14 +9,14 @@ export class MockAdapter implements LlmAdapter {
     signal?: AbortSignal
   ) {
     const content = messages.map((m) => `${m.role}: ${m.content}`).join("\n");
-      const res = await axios.post(
-        `${this.baseUrl}/complete`,
-        { content },
-        {
-          timeout: 12000,
-          signal,
-        }
-      );
-      return { completion: res.data.completion };
+    const res = await axios.post(
+      `${this.baseUrl}/complete`,
+      { content },
+      {
+        timeout: 12000,
+        signal,
+      }
+    );
+    return { completion: res.data.completion };
   }
 }

@@ -215,8 +215,87 @@ router.post(
         historyLength: llmHistory.length,
       });
 
-      // Don't retry on timeout - just call directly for faster response
-      const completion = await llm.complete(llmHistory, abortController.signal);
+      // Retry up to 2 times (3 total attempts) with back-off for 500 errors only
+      // Don't retry on timeout/abort - those should fail fast
+      let lastError: any;
+      let completion: { completion: string } | undefined;
+      
+      for (let attempt = 0; attempt <= 2; attempt++) {
+        if (abortController.signal.aborted) {
+          const abortError = new Error("Aborted");
+          abortError.name = "AbortError";
+          throw abortError;
+        }
+
+        try {
+          completion = await llm.complete(llmHistory, abortController.signal);
+          if (attempt > 0) {
+            logger.info("LLM call succeeded after retry", {
+              correlationId: req.correlationId,
+              conversationId: id,
+              attempt: attempt + 1,
+            });
+          }
+          break;
+        } catch (err: any) {
+          lastError = err;
+
+          // Don't retry if aborted
+          if (
+            err.name === "AbortError" ||
+            err.name === "CanceledError" ||
+            abortController.signal.aborted
+          ) {
+            throw err;
+          }
+
+          // Only retry on 500 errors
+          // Ollama adapter wraps 500 errors in Error with message "Ollama returned a 500 error: ..."
+          const is500Error =
+            err.response?.status === 500 ||
+            (typeof err.message === "string" &&
+              err.message.includes("500 error") &&
+              err.message.includes("Ollama"));
+
+          if (is500Error && attempt < 2) {
+            const delay = 500 * (attempt + 1); // 500ms, 1000ms
+            logger.warn("LLM returned 500 error, retrying", {
+              correlationId: req.correlationId,
+              conversationId: id,
+              attempt: attempt + 1,
+              maxAttempts: 3,
+              delayMs: delay,
+              error: err.message,
+            });
+
+            // Wait with back-off, but check for abort during delay
+            await new Promise((resolve, reject) => {
+              const timeout = setTimeout(() => {
+                abortController.signal.removeEventListener("abort", abortHandler);
+                resolve(undefined);
+              }, delay);
+
+              const abortHandler = () => {
+                clearTimeout(timeout);
+                abortController.signal.removeEventListener("abort", abortHandler);
+                const abortError = new Error("Aborted");
+                abortError.name = "AbortError";
+                reject(abortError);
+              };
+
+              abortController.signal.addEventListener("abort", abortHandler);
+            });
+            continue; // Retry
+          }
+
+          // For non-500 errors or final attempt, don't retry
+          throw err;
+        }
+      }
+
+      if (!completion) {
+        throw lastError || new Error("LLM call failed");
+      }
 
       logger.info("LLM completion received", {
         correlationId: req.correlationId,
@@ -399,15 +478,31 @@ router.post(
       }
 
       // Generic LLM errors - delete user message for all other errors too
+      // Check if this is a 500 error after retries - provide more context
+      const is500ErrorAfterRetries =
+        err.message?.includes("500 error") && err.message?.includes("Ollama");
+
       logger.error("LLM request failed", err, {
         correlationId: req.correlationId,
         conversationId: id,
+        is500ErrorAfterRetries,
       });
       await deleteUserMessage();
-      res.status(500).json({
-        error: "AI service error",
-        message: "Failed to get response from AI service. Please try again.",
-      });
+      
+      // If all retries failed for a 500 error, provide a more informative message
+      if (is500ErrorAfterRetries) {
+        res.status(500).json({
+          error: "AI service error",
+          message: "The AI service is temporarily unavailable after multiple attempts. Please try again in a moment.",
+        });
+      } else {
+        // For other errors, use generic message but include error details if available
+        const errorMessage = err.message || "Failed to get response from AI service. Please try again.";
+        res.status(500).json({
+          error: "AI service error",
+          message: errorMessage.includes("AI service") ? errorMessage : `Failed to get response from AI service: ${errorMessage}`,
+        });
+      }
     }
   }
 );

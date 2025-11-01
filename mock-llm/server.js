@@ -12,10 +12,6 @@ app.get("/health", (req, res) => {
 });
 
 app.post("/complete", async (req, res) => {
-  if (Math.random() < 0.1) return; // hang forever
-  if (Math.random() < 0.2)
-    return res.status(500).json({ error: "mock-llm error" });
-
   const content = (req.body && req.body.content) || "";
   console.log("Mock LLM got:", content);
 

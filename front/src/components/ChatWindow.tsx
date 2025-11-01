@@ -1,6 +1,7 @@
 import { Box, CircularProgress, Button, Stack, Typography } from '@mui/material';
-import { useGetConversationQuery, api } from '../store/api';
+import { useGetConversationQuery, api, getErrorMessage, isMessageAborted } from '../store/api';
 import { useAppDispatch } from '../store/hooks';
+import { addNotification } from '../store/notifications';
 import MessageBubble from './MessageBubble';
 import MessageInput from './MessageInput';
 import { useEffect, useRef, useState } from 'react';
@@ -36,6 +37,19 @@ export default function ChatWindow({ conversationId }: Props) {
     scrollRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [convo?.messages, olderMessages]);
 
+  // Show error notification when conversation fails to load
+  useEffect(() => {
+    if (error) {
+      const errorMessage = getErrorMessage(error);
+      dispatch(
+        addNotification({
+          message: `Failed to load conversation: ${errorMessage}`,
+          severity: "error",
+        })
+      );
+    }
+  }, [error, dispatch]);
+
   const handleLoadMore = async () => {
     if (!convo?.pageInfo.prevCursor || !conversationId || isLoadingOlder) return;
 
@@ -51,7 +65,13 @@ export default function ChatWindow({ conversationId }: Props) {
 
       setOlderMessages((prev) => [...result.messages, ...prev]);
     } catch (err) {
-      // Failed to load older messages
+      const errorMessage = getErrorMessage(err);
+      dispatch(
+        addNotification({
+          message: `Failed to load older messages: ${errorMessage}`,
+          severity: "error",
+        })
+      );
     } finally {
       setIsLoadingOlder(false);
     }
@@ -75,15 +95,36 @@ export default function ChatWindow({ conversationId }: Props) {
 
   if (error) {
     return (
-      <Box flex={1} p={3}>
-        <Typography color="error">
-          Failed to load chat: {(error as any).data || 'Try again'}
+      <Box flex={1} p={3} display="flex" flexDirection="column" alignItems="center" justifyContent="center" gap={2}>
+        <Typography color="error" variant="h6">
+          Failed to load conversation
         </Typography>
+        <Typography color="text.secondary" variant="body2">
+          {getErrorMessage(error)}
+        </Typography>
+        <Button
+          variant="outlined"
+          onClick={() => window.location.reload()}
+        >
+          Reload Page
+        </Button>
       </Box>
     );
   }
 
-  const allMessages = [...olderMessages, ...(convo?.messages || [])];
+  // Filter out any temporary optimistic messages that shouldn't be displayed
+  // Also filter out any messages that are in the aborted messages set
+  const allMessages = [...olderMessages, ...(convo?.messages || [])].filter(
+    (m) => {
+      // Remove temp messages
+      if (m.id.startsWith("temp-")) return false;
+      // Remove aborted user messages
+      if (m.role === "user" && conversationId && isMessageAborted(conversationId, m.content)) {
+        return false;
+      }
+      return true;
+    }
+  );
 
   return (
     <Box display="flex" flexDirection="column" height="100%">

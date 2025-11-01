@@ -1,11 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { api } from './api';
+import notificationsReducer from './notifications';
 
 // -------------------------------------------------
 // 1. Create the store (only one declaration!)
 export const store = configureStore({
   reducer: {
     [api.reducerPath]: api.reducer,
+    notifications: notificationsReducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({

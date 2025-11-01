@@ -1,6 +1,7 @@
 import { Container, CssBaseline, AppBar, Toolbar, Typography, Box } from '@mui/material';
 import ConversationList from './components/ConversationList';
 import ChatWindow from './components/ChatWindow';
+import NotificationContainer from './components/NotificationContainer';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme';
 import { useState } from 'react';
@@ -23,6 +24,8 @@ function App() {
           <ChatWindow conversationId={selectedId} />
         </Box>
       </Container>
+      
+      <NotificationContainer />
     </ThemeProvider>
   );
 }

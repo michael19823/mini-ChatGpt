@@ -21,9 +21,11 @@ import {
   useCreateConversationMutation,
   useDeleteConversationMutation,
   api,
+  getErrorMessage,
 } from "../store/api";
 import { useState, useEffect } from "react";
 import { useAppDispatch } from "../store/hooks";
+import { addNotification } from "../store/notifications";
 
 interface Props {
   onSelect: (id: string) => void;
@@ -62,11 +64,25 @@ export default function ConversationList({ onSelect }: Props) {
         await deleteConvo(id).unwrap();
         setUndoId(null);
         setUndoPatchResult(null);
+        dispatch(
+          addNotification({
+            message: "Conversation deleted",
+            severity: "success",
+            duration: 3000,
+          })
+        );
       } catch (err) {
         // Restore on error
         patchResult.undo();
         setUndoId(null);
         setUndoPatchResult(null);
+        const errorMessage = getErrorMessage(err);
+        dispatch(
+          addNotification({
+            message: `Failed to delete conversation: ${errorMessage}`,
+            severity: "error",
+          })
+        );
       }
     }, 5000);
 
@@ -154,7 +170,13 @@ export default function ConversationList({ onSelect }: Props) {
                 onSelect(res.id);
                 onClose?.();
               } catch (err) {
-                // Error creating conversation
+                const errorMessage = getErrorMessage(err);
+                dispatch(
+                  addNotification({
+                    message: `Failed to create conversation: ${errorMessage}`,
+                    severity: "error",
+                  })
+                );
               }
             }}
           >

@@ -1,7 +1,9 @@
 import { TextField, IconButton, Box, CircularProgress } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
 import CancelIcon from "@mui/icons-material/Cancel";
-import { useSendMessageMutation } from "../store/api";
+import { useSendMessageMutation, getErrorMessage } from "../store/api";
+import { useAppDispatch } from "../store/hooks";
+import { addNotification } from "../store/notifications";
 import { useRef, useState } from "react";
 
 interface Props {
@@ -10,6 +12,7 @@ interface Props {
 
 export default function MessageInput({ conversationId }: Props) {
   const [value, setValue] = useState("");
+  const dispatch = useAppDispatch();
   const [sendMessage, { isLoading }] = useSendMessageMutation();
   const abortControllerRef = useRef<AbortController | null>(null);
   const isPendingRef = useRef(false);
@@ -36,8 +39,33 @@ export default function MessageInput({ conversationId }: Props) {
       if (!abortController.signal.aborted) {
         setValue("");
       }
-    } catch {
-      // Ignore errors - RTK Query handles cleanup
+    } catch (err: any) {
+      // Check if the abort controller was aborted by the user
+      // This is the most reliable way to detect user-initiated cancellations
+      const wasAbortedByUser = abortController.signal.aborted;
+
+      // Also check for abort error types (in case the check above misses it)
+      const isAbortError =
+        wasAbortedByUser ||
+        err?.name === "AbortError" ||
+        err?.name === "CanceledError" ||
+        err?.message === "Request was aborted" ||
+        err?.message?.includes("aborted") ||
+        (err instanceof DOMException && err.name === "AbortError") ||
+        // RTK Query may wrap abort errors
+        (err?.status === "FETCH_ERROR" && err?.error?.includes("aborted"));
+
+      // Don't show notification for user-initiated cancellations
+      if (!isAbortError) {
+        const errorMessage = getErrorMessage(err);
+        dispatch(
+          addNotification({
+            message: errorMessage,
+            severity: "error",
+            duration: 8000, // Show error longer
+          })
+        );
+      }
     } finally {
       isPendingRef.current = false;
       abortControllerRef.current = null;

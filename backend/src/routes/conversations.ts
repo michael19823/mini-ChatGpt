@@ -24,11 +24,24 @@ router.get("/", async (req, res) => {
       count: convos.length,
     });
     res.status(200).json(convos || []);
-  } catch (error) {
+  } catch (error: any) {
     logger.error("Failed to fetch conversations", error, {
       correlationId: req.correlationId,
     });
-    res.status(500).json({ error: "Failed to fetch conversations" });
+    
+    // Check for database connection errors
+    if (error?.code === "P1001" || error?.code === "P1008" || error?.code === "P1017") {
+      res.status(503).json({ 
+        error: "Service temporarily unavailable",
+        message: "Database connection failed. Please try again later."
+      });
+      return;
+    }
+    
+    res.status(500).json({ 
+      error: "Failed to fetch conversations",
+      message: "Unable to load conversations. Please try again later."
+    });
   }
 });
 
@@ -51,11 +64,33 @@ router.post("/", async (req, res) => {
       title: convo.title,
     });
     res.status(201).json(convo);
-  } catch (error) {
+  } catch (error: any) {
     logger.error("Failed to create conversation", error, {
       correlationId: req.correlationId,
     });
-    res.status(500).json({ error: "Failed to create conversation" });
+    
+    // Check for database connection errors
+    if (error?.code === "P1001" || error?.code === "P1008" || error?.code === "P1017") {
+      res.status(503).json({ 
+        error: "Service temporarily unavailable",
+        message: "Database connection failed. Please try again later."
+      });
+      return;
+    }
+    
+    // Check for constraint violations
+    if (error?.code === "P2002") {
+      res.status(400).json({ 
+        error: "A conflict occurred",
+        message: "Unable to create conversation. Please try again."
+      });
+      return;
+    }
+    
+    res.status(500).json({ 
+      error: "Failed to create conversation",
+      message: "Unable to create conversation. Please try again."
+    });
   }
 });
 
@@ -69,12 +104,34 @@ router.delete("/:id", validate(conversationIdSchema, "params"), async (req, res)
       conversationId: id,
     });
     res.status(204).send();
-  } catch (error) {
+  } catch (error: any) {
     logger.error("Failed to delete conversation", error, {
       correlationId: req.correlationId,
       conversationId: req.params.id,
     });
-    res.status(500).json({ error: "Failed to delete conversation" });
+    
+    // Check if conversation not found
+    if (error?.code === "P2025") {
+      res.status(404).json({ 
+        error: "Not found",
+        message: "The conversation could not be found."
+      });
+      return;
+    }
+    
+    // Check for database connection errors
+    if (error?.code === "P1001" || error?.code === "P1008" || error?.code === "P1017") {
+      res.status(503).json({ 
+        error: "Service temporarily unavailable",
+        message: "Database connection failed. Please try again later."
+      });
+      return;
+    }
+    
+    res.status(500).json({ 
+      error: "Failed to delete conversation",
+      message: "Unable to delete conversation. Please try again."
+    });
   }
 });
 

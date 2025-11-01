@@ -1,0 +1,22 @@
+{
+  "name": "mini-chatgpt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mini ChatGPT application with pre-commit hooks",
+  "scripts": {
+    "prepare": "husky install || echo 'Git repo not found - skipping husky install'"
+  },
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.0"
+  },
+  "lint-staged": {
+    "backend/src/**/*.ts": [
+      "cd backend && npx tsc --noEmit"
+    ],
+    "front/src/**/*.{ts,tsx}": [
+      "cd front && npx tsc --noEmit"
+    ]
+  }
+}
+

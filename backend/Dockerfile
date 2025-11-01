@@ -10,7 +10,7 @@ RUN npm run build
 
 FROM node:20-alpine
 WORKDIR /app
-RUN apk add --no-cache openssl  # ← ADD THIS LINE
+RUN apk add --no-cache openssl wget  # wget for healthchecks
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/prisma ./prisma

@@ -141,9 +141,16 @@ export const api = createApi({
           conversationPatchResult.undo();
 
           // For abort errors, also undo the conversations list update
-          // For other errors, keep it (the message was sent but failed to get response)
+          // and invalidate the cache to refetch and remove any real messages that were created
+          // This ensures the UI reflects the correct state after the backend deletes the message
           if (isAbortError) {
             conversationsPatchResult.undo();
+            // Force a refetch to ensure we don't show messages that were deleted from DB
+            dispatch(
+              api.util.invalidateTags([
+                { type: "Conversation", id: conversationId },
+              ])
+            );
           }
         }
       },

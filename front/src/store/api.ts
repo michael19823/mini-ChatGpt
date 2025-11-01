@@ -55,20 +55,41 @@ export const api = createApi({
         body: { content },
         signal, // RTK Query's fetchBaseQuery passes this to fetch() - fetch() will throw AbortError if already aborted
       }),
-      invalidatesTags: (result, error, { conversationId }) => [
-        { type: "Conversation", id: conversationId },
-        { type: "Conversation", id: "LIST" },
-      ],
+      invalidatesTags: (result, error, { conversationId }) => {
+        // Only invalidate if the request succeeded (not on abort/error)
+        if (error) {
+          // Check if it's an abort error by examining the error structure
+          // FetchBaseQueryError might have status 'FETCH_ERROR' for abort errors
+          const isAbortError =
+            error && typeof error === "object" && "status" in error
+              ? error.status === "FETCH_ERROR" ||
+                (error as any).error === "AbortError" ||
+                (error as any).name === "AbortError"
+              : false;
+
+          // Don't invalidate on abort - the optimistic update will be reverted manually
+          if (isAbortError) {
+            return [];
+          }
+        }
+
+        // Invalidate on success
+        return [
+          { type: "Conversation", id: conversationId },
+          { type: "Conversation", id: "LIST" },
+        ];
+      },
       async onQueryStarted(
         { conversationId, content },
         { dispatch, queryFulfilled }
       ) {
-        // Optimistic update
-        const patchResult = dispatch(
+        // Optimistic update - add user message to conversation
+        const conversationPatchResult = dispatch(
           api.util.updateQueryData(
             "getConversation",
             { id: conversationId },
             (draft) => {
+              if (!draft || !draft.messages) return;
               const tempId = `temp-${Date.now()}`;
               draft.messages.push({
                 id: tempId,
@@ -80,13 +101,26 @@ export const api = createApi({
           )
         );
 
+        // Optimistic update - update lastMessageAt in conversations list
+        const conversationsPatchResult = dispatch(
+          api.util.updateQueryData("getConversations", undefined, (draft) => {
+            if (!draft || !Array.isArray(draft)) return;
+            const conversation = draft.find((c) => c.id === conversationId);
+            if (conversation) {
+              conversation.lastMessageAt = new Date().toISOString();
+            }
+          })
+        );
+
         try {
           const { data } = await queryFulfilled;
+          // Replace optimistic message with real messages
           dispatch(
             api.util.updateQueryData(
               "getConversation",
               { id: conversationId },
               (draft) => {
+                if (!draft || !draft.messages) return;
                 draft.messages = draft.messages.filter(
                   (m) => !m.id.startsWith("temp-")
                 );
@@ -94,8 +128,23 @@ export const api = createApi({
               }
             )
           );
+          // Conversations list will be refetched automatically via invalidatesTags
         } catch (err: any) {
-          patchResult.undo();
+          // Check if this is an abort error
+          const isAbortError =
+            err?.name === "AbortError" ||
+            err?.name === "CanceledError" ||
+            err?.message === "Request was aborted" ||
+            (err instanceof DOMException && err.name === "AbortError");
+
+          // Always undo optimistic updates on error (including abort)
+          conversationPatchResult.undo();
+
+          // For abort errors, also undo the conversations list update
+          // For other errors, keep it (the message was sent but failed to get response)
+          if (isAbortError) {
+            conversationsPatchResult.undo();
+          }
         }
       },
     }),

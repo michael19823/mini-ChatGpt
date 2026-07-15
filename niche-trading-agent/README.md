@@ -52,6 +52,7 @@ cd niche-trading-agent
 npm run domains    # list the specialist experts and their watchlists
 npm run once       # process the sample news once, record paper trades
 npm run report     # show the paper-trade ledger
+npm run score      # score recorded trades vs current prices (hit rate + return)
 npm run gen:briefs # regenerate experts/*/SKILL.md from the specs
 npm test           # run the test suite
 ```
@@ -80,7 +81,7 @@ Copy `.env.example` to `.env` and set only what you want:
 |---|---|---|
 | `LLM_PROVIDER` | `mock` | `ollama` uses a local model at `OLLAMA_URL` (reads each expert's SKILL.md as its system prompt) |
 | `NEWS_SOURCE` | `fixture` | `rss` (from `NEWS_RSS_FEEDS`), `edgar` (SEC 8-K filings), or `all` |
-| `PRICE_PROVIDER` | `mock` | `stooq` (real quotes, no key) or `finnhub` (real-time, needs `FINNHUB_API_KEY`) |
+| `PRICE_PROVIDER` | `mock` | `fixture` (snapshot for offline scoring), `stooq` (real quotes, no key), or `finnhub` (real-time, needs `FINNHUB_API_KEY`) |
 | `MIN_CONFIDENCE` | `0.4` | confidence bar to record a trade |
 | `LOOP_INTERVAL_SECONDS` | `300` | interval for `npm run loop` |
 
@@ -88,6 +89,29 @@ Run continuously with `npm run loop`. Live sources need outbound access to their
 hosts (`stooq.com`, `finnhub.io`, `www.sec.gov`, your RSS hosts); if a host is
 unreachable the provider returns nothing and the pipeline degrades gracefully
 rather than crashing. SEC requires a real contact string in `EDGAR_USER_AGENT`.
+
+## Scoring the ledger
+
+`npm run score` revisits every recorded paper trade, compares its entry price to
+the **current** price, and reports how the experts actually did:
+
+- **Hit rate** (share of trades that moved the right way — buys that rose, shorts
+  that fell) and **average equal-weight return** per trade.
+- Breakdown **by action** (buy vs sell) and **by domain** (which experts pay).
+- **Best / worst** trades, and a **confidence check** — do high-confidence
+  (`>=0.7`) calls out-return low-confidence ones? (If not, the confidence signal
+  isn't worth much.)
+
+The "current price" comes from your `PRICE_PROVIDER`:
+
+```bash
+PRICE_PROVIDER=fixture npm run score   # offline: score vs data/fixtures/prices.json
+PRICE_PROVIDER=stooq   npm run score   # live: score vs real quotes (needs egress)
+```
+
+With the default `mock` provider, current == entry, so every return is 0% — use
+`fixture` or `stooq` for a meaningful scorecard. Scores are paper trades against
+a static/mock snapshot, **not** real market outcomes.
 
 ## MCP server
 
@@ -100,9 +124,10 @@ npm run mcp     # speaks MCP over stdin/stdout
 ```
 
 Tools exposed: `list_experts`, `get_expert_brief`, `get_price`, `get_news`,
-`analyze_headline` (route + decide a headline, no recording), and `run_pipeline`
-(a full pass that records paper trades). Register it in a client's MCP config by
-pointing the command at `node src/mcp/server.ts`.
+`analyze_headline` (route + decide a headline, no recording), `run_pipeline`
+(a full pass that records paper trades), and `score_ledger` (hit rate + return
+on recorded trades). Register it in a client's MCP config by pointing the command
+at `node src/mcp/server.ts`.
 
 ## Project layout
 
@@ -122,15 +147,17 @@ src/
     ollama.ts       optional real-model backend (uses SKILL.md as system prompt)
     index.ts        backend factory
   news/index.ts     news sources: fixture (offline), RSS/Atom, SEC EDGAR, multi
-  prices.ts         price providers: mock, Stooq (no key), Finnhub (key)
+  prices.ts         price providers: mock, fixture (snapshot), Stooq, Finnhub
+  scoring.ts        score recorded trades vs current prices (pure, tested)
   ledger.ts         append-only paper-trade log
   orchestrator.ts   one pass of the whole pipeline
   mcp/
     tools.ts        MCP tool defs + dispatcher (list_experts, analyze_headline, …)
     server.ts       dependency-free stdio JSON-RPC 2.0 MCP server
-  cli.ts            once | loop | report | domains
+  cli.ts            once | loop | report | score | domains
 data/
-  fixtures/sample-news.json
+  fixtures/sample-news.json   sample headlines (offline news)
+  fixtures/prices.json        price snapshot (offline scoring)
 test/               router, agent, pipeline, term-matching, experts,
                     providers (feed/CSV parsers), and MCP protocol tests
 ```

@@ -85,3 +85,12 @@ test("unknown method returns a JSON-RPC method-not-found error", async () => {
   const res = await handleMessage(req("bogus/method"), deps());
   assert.equal(res!.error?.code, -32601);
 });
+
+test("tools/call score_ledger returns a summary shape", async () => {
+  const res = await handleMessage(req("tools/call", { name: "score_ledger", arguments: {} }), deps());
+  const { content } = res!.result as { content: { text: string }[] };
+  const out = JSON.parse(content[0].text) as { provider: string; summary: { scored: number; hitRate: number } };
+  assert.equal(out.provider, "mock");
+  assert.ok(typeof out.summary.scored === "number");
+  assert.ok(typeof out.summary.hitRate === "number");
+});

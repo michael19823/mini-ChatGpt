@@ -7,6 +7,7 @@ import { DOMAINS, getDomain } from "../domains.ts";
 import { getExpertBrief } from "../experts.ts";
 import { routeNews } from "../router.ts";
 import { runOnce } from "../orchestrator.ts";
+import { scoreEntries, summarize } from "../scoring.ts";
 
 /** Everything the tools need; injectable so they can be tested with mocks. */
 export interface ToolDeps {
@@ -81,6 +82,11 @@ export const TOOLS: ToolDef[] = [
     description: "Run one full pass (fetch news -> route -> decide -> record paper trades) and return what was recorded.",
     inputSchema: NONE,
   },
+  {
+    name: "score_ledger",
+    description: "Score recorded paper trades against current prices: hit rate, average return, and per-domain/action breakdown.",
+    inputSchema: NONE,
+  },
 ];
 
 /** Dispatches a tool call. Returns a plain object serialized as the tool result. */
@@ -132,6 +138,15 @@ export async function callTool(name: string, args: Record<string, unknown>, deps
     case "run_pipeline": {
       const result = await runOnce(deps);
       return { processed: result.processed, routed: result.routed, recorded: result.recorded };
+    }
+
+    case "score_ledger": {
+      const entries = await deps.ledger.all();
+      const tickers = [...new Set(entries.map((e) => e.ticker))];
+      const priceMap = new Map<string, number | null>();
+      await Promise.all(tickers.map(async (t) => priceMap.set(t, await deps.prices.getPrice(t))));
+      const { scored, skipped } = scoreEntries(entries, (t) => priceMap.get(t) ?? null);
+      return { provider: deps.prices.name, summary: summarize(scored, skipped) };
     }
 
     default:

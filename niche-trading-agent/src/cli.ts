@@ -6,6 +6,7 @@ import { createPriceProvider } from "./prices.ts";
 import { Ledger } from "./ledger.ts";
 import { runOnce, domainName, type OrchestratorOptions } from "./orchestrator.ts";
 import { DOMAINS } from "./domains.ts";
+import { scoreEntries, summarize } from "./scoring.ts";
 
 loadEnv();
 
@@ -62,6 +63,52 @@ async function cmdReport(): Promise<void> {
   for (const [id, count] of byDomain) console.log(`  ${domainName(id)}: ${count}`);
 }
 
+function pct(x: number): string {
+  return `${x >= 0 ? "+" : ""}${(x * 100).toFixed(2)}%`;
+}
+
+async function cmdScore(): Promise<void> {
+  const entries = await new Ledger().all();
+  if (entries.length === 0) {
+    console.log("Ledger empty. Run `npm run once` first.");
+    return;
+  }
+  const prices = createPriceProvider();
+  console.log(`\n▶ Scoring ${entries.length} paper trade(s) against current prices [provider=${prices.name}]\n`);
+
+  // Fetch each ticker's current price once.
+  const tickers = [...new Set(entries.map((e) => e.ticker))];
+  const priceMap = new Map<string, number | null>();
+  await Promise.all(tickers.map(async (t) => priceMap.set(t, await prices.getPrice(t))));
+
+  const { scored, skipped } = scoreEntries(entries, (t) => priceMap.get(t) ?? null);
+  const s = summarize(scored, skipped);
+
+  if (prices.name === "mock") {
+    console.log("⚠ mock prices are deterministic, so current == entry and every return is 0%.");
+    console.log("  Score against a snapshot with `PRICE_PROVIDER=fixture npm run score`, or live with `PRICE_PROVIDER=stooq`.\n");
+  }
+
+  console.log(`Scored ${s.scored}/${s.entries}  (skipped ${s.skipped} for missing price)`);
+  console.log(`Hit rate:    ${(s.hitRate * 100).toFixed(1)}%   (${s.wins}W / ${s.losses}L / ${s.flats} flat)`);
+  console.log(`Avg return:  ${pct(s.avgReturnPct)}   (equal-weight, per trade)`);
+  console.log(`By action:   BUY ${pct(s.byAction.buy.avgReturnPct)} (${(s.byAction.buy.hitRate * 100).toFixed(0)}% hit) · SELL ${pct(s.byAction.sell.avgReturnPct)} (${(s.byAction.sell.hitRate * 100).toFixed(0)}% hit)`);
+  if (s.highConfAvgReturnPct !== null || s.lowConfAvgReturnPct !== null) {
+    const hi = s.highConfAvgReturnPct === null ? "n/a" : pct(s.highConfAvgReturnPct);
+    const lo = s.lowConfAvgReturnPct === null ? "n/a" : pct(s.lowConfAvgReturnPct);
+    console.log(`Confidence:  high(>=0.7) ${hi}  vs  low(<0.7) ${lo}   (does confidence pay?)`);
+  }
+
+  console.log("\nBy domain (best avg return first):");
+  for (const d of s.byDomain) {
+    console.log(`  ${domainName(d.domainId).padEnd(42)} ${pct(d.avgReturnPct).padStart(8)}   ${(d.hitRate * 100).toFixed(0)}% hit  (${d.scored} trades)`);
+  }
+
+  if (s.best) console.log(`\nBest:  ${s.best.entry.action.toUpperCase()} ${s.best.entry.ticker}  ${pct(s.best.returnPct)}  ($${s.best.entryPrice} → $${s.best.currentPrice})`);
+  if (s.worst) console.log(`Worst: ${s.worst.entry.action.toUpperCase()} ${s.worst.entry.ticker}  ${pct(s.worst.returnPct)}  ($${s.worst.entryPrice} → $${s.worst.currentPrice})`);
+  console.log("\n(Reminder: paper-trade scores. Mock/fixture prices are not real market outcomes.)");
+}
+
 function cmdDomains(): void {
   console.log(`\n${DOMAINS.length} specialist domains registered:\n`);
   for (const d of DOMAINS) {
@@ -77,12 +124,13 @@ const commands: Record<string, () => void | Promise<void>> = {
   once: cmdOnce,
   loop: cmdLoop,
   report: cmdReport,
+  score: cmdScore,
   domains: cmdDomains,
 };
 
 const handler = commands[cmd];
 if (!handler) {
-  console.error(`Unknown command "${cmd}". Use: once | loop | report | domains`);
+  console.error(`Unknown command "${cmd}". Use: once | loop | report | score | domains`);
   process.exit(1);
 }
 await handler();

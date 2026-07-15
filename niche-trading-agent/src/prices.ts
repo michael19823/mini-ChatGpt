@@ -1,6 +1,30 @@
+import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+
 export interface PriceProvider {
   readonly name: string;
   getPrice(ticker: string): Promise<number | null>;
+}
+
+/**
+ * Reads a static price snapshot from data/fixtures/prices.json ({ TICKER: price }).
+ * Lets you score the ledger fully offline against a "current prices" snapshot —
+ * useful for demos and tests without a live feed.
+ */
+export class FixturePriceProvider implements PriceProvider {
+  readonly name = "fixture";
+  private prices: Record<string, number>;
+  constructor(path = fileURLToPath(new URL("../data/fixtures/prices.json", import.meta.url))) {
+    try {
+      this.prices = JSON.parse(readFileSync(path, "utf8")) as Record<string, number>;
+    } catch {
+      this.prices = {};
+    }
+  }
+  async getPrice(ticker: string): Promise<number | null> {
+    const p = this.prices[ticker.toUpperCase()];
+    return typeof p === "number" && p > 0 ? p : null;
+  }
 }
 
 /**
@@ -77,6 +101,8 @@ export class FinnhubPriceProvider implements PriceProvider {
 /** Selects the price provider from PRICE_PROVIDER (default: mock). */
 export function createPriceProvider(kind = process.env.PRICE_PROVIDER ?? "mock"): PriceProvider {
   switch (kind) {
+    case "fixture":
+      return new FixturePriceProvider();
     case "stooq":
       return new StooqPriceProvider();
     case "finnhub":

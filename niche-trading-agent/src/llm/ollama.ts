@@ -1,6 +1,7 @@
 import type { Action, Decision, Direction, Domain, NewsItem } from "../types.ts";
 import type { LlmBackend } from "./types.ts";
 import { MockLlm } from "./mock.ts";
+import { getExpertBrief } from "../experts.ts";
 
 /**
  * Optional real-model backend. Talks to a local Ollama server via its OpenAI-
@@ -50,13 +51,20 @@ export class OllamaLlm implements LlmBackend {
 }
 
 function systemPrompt(domain: Domain): string {
-  const catalysts = domain.catalysts
-    .map((c) => `- ${c.id}: ${c.title} (${c.direction}). ${c.logic}`)
-    .join("\n");
+  // Prefer the expert's SKILL.md brief (the "skill body") as the persona; fall
+  // back to a brief synthesized from the structured spec if none ships.
+  const brief =
+    getExpertBrief(domain) ??
+    [
+      `You are a specialist trading analyst for: ${domain.name}.`,
+      `Watchlist tickers: ${domain.tickers.join(", ")}.`,
+      `Known catalysts:\n` +
+        domain.catalysts.map((c) => `- ${c.id}: ${c.title} (${c.direction}). ${c.logic}`).join("\n"),
+    ].join("\n");
+
   return [
-    `You are a specialist trading analyst for: ${domain.name}.`,
-    `Watchlist tickers: ${domain.tickers.join(", ")}.`,
-    `Known catalysts:\n${catalysts}`,
+    brief,
+    ``,
     `Given a news item, decide whether it is a catalyst for this domain and how to react.`,
     `Reply ONLY with JSON: {"action":"buy|sell|hold","tickers":["..."],"confidence":0..1,`,
     `"direction":"bullish|bearish|context","matchedCatalysts":["catalyst id"],"rationale":"one sentence"}.`,

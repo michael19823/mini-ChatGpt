@@ -29,9 +29,11 @@ testing that idea honestly.
                              + confidence)            + entry price)
 ```
 
-- **Domains** (`src/domains.ts`) — each is an "expert": a watchlist plus a
-  taxonomy of catalysts with direction logic. Currently: **uranium, agriculture,
-  shipping, defense/space, cannabis**. Add one by appending an object.
+- **Experts** (`experts/<id>/`) — each specialist is a self-contained **skill
+  package**: an `expert.json` spec (watchlist + catalyst taxonomy) and an
+  auto-generated `SKILL.md` brief (the persona an LLM backend reads). Currently:
+  **uranium, agriculture, shipping, defense/space, cannabis**. Add one by
+  dropping in a folder — see [`experts/README.md`](experts/README.md).
 - **Router** (`src/router.ts`) — matches a news item to relevant domain(s).
 - **Agent** (`src/llm/`) — analyzes the item in the domain's context and returns
   `{action, tickers, confidence, direction, rationale}`. Two interchangeable
@@ -47,10 +49,11 @@ Requires **Node ≥ 22.6** (uses native TypeScript execution — no build step, 
 ```bash
 cd niche-trading-agent
 
-npm run domains   # list the specialist domains and their watchlists
-npm run once      # process the sample news once, record paper trades
-npm run report    # show the paper-trade ledger
-npm test          # run the test suite
+npm run domains    # list the specialist experts and their watchlists
+npm run once       # process the sample news once, record paper trades
+npm run report     # show the paper-trade ledger
+npm run gen:briefs # regenerate experts/*/SKILL.md from the specs
+npm test           # run the test suite
 ```
 
 Out of the box everything is offline: news comes from
@@ -86,13 +89,19 @@ Run continuously with `npm run loop`.
 ## Project layout
 
 ```
+experts/            one skill package per specialist (drop-in)
+  <id>/expert.json  the spec: watchlist + catalyst taxonomy (source of truth)
+  <id>/SKILL.md     the brief: LLM persona (auto-generated from the spec)
+  README.md         how to add an expert + schema
 src/
-  domains.ts        the specialist experts (watchlists + catalyst taxonomy)
-  router.ts         news → relevant domain(s)
+  experts.ts        loads & validates experts/*/expert.json into the registry
+  domains.ts        exposes the loaded registry (DOMAINS, getDomain)
+  genBriefs.ts      regenerates SKILL.md from expert.json (npm run gen:briefs)
+  router.ts         news → relevant expert(s)
   text.ts           word-boundary term matching (shared by router + agent)
   llm/
     mock.ts         deterministic heuristic "expert" (default)
-    ollama.ts       optional real-model backend (JSON-structured decisions)
+    ollama.ts       optional real-model backend (uses SKILL.md as system prompt)
     index.ts        backend factory
   news/index.ts     fixture + minimal RSS sources
   prices.ts         mock price provider (swap for a real one)
@@ -101,28 +110,14 @@ src/
   cli.ts            once | loop | report | domains
 data/
   fixtures/sample-news.json
-test/               router, agent, pipeline, term-matching tests
+test/               router, agent, pipeline, term-matching, expert-loader tests
 ```
 
-## Adding a new specialist domain
+## Adding a new specialist expert
 
-Append to `DOMAINS` in `src/domains.ts`:
-
-```ts
-{
-  id: "water",
-  name: "Water",
-  edge: "Slow-moving theme; occasional discrete drought/regulation catalysts.",
-  tickers: ["XYL", "AWK", "WTRG", "ECL", "PHO", "FIW"],
-  matchTerms: ["water", "drought", "pfas", "desalination"],
-  catalysts: [
-    { id: "pfas-rule", title: "PFAS regulation", keywords: ["pfas", "forever chemical"],
-      direction: "bullish", logic: "Tighter limits drive treatment demand." },
-  ],
-}
-```
-
-The router, agents, ledger and CLI pick it up with no other changes.
+No code changes needed — create `experts/<id>/expert.json`, run
+`npm run gen:briefs`, and the router, agents, ledger and CLI pick it up. Full
+schema and a worked example are in [`experts/README.md`](experts/README.md).
 
 ## Honest caveats
 

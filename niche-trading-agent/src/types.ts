@@ -33,6 +33,8 @@ export interface Domain {
   catalysts: Catalyst[];
   /** One-line reminder of why this corner is under-followed. */
   edge: string;
+  /** Filesystem path to the expert's SKILL.md brief, if the package ships one. */
+  briefPath?: string;
 }
 
 /** A raw news item from any source. */

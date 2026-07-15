@@ -1,0 +1,40 @@
+{
+  "id": "uranium",
+  "name": "Uranium & Nuclear Fuel Cycle",
+  "edge": "Left for dead post-Fukushima; followed by a small specialist crowd.",
+  "tickers": ["CCJ", "UEC", "DNN", "NXE", "UUUU", "LEU", "SMR", "OKLO", "URA", "URNM"],
+  "matchTerms": ["uranium", "nuclear", "reactor", "enrichment", "smr", "kazatomprom", "yellowcake", "nrc"],
+  "catalysts": [
+    {
+      "id": "reactor-restart",
+      "title": "Reactor restart / new build approval",
+      "keywords": ["restart", "approval", "new build", "license", "reopen", "greenlight"],
+      "direction": "bullish",
+      "logic": "More reactors online -> higher uranium demand -> bullish miners."
+    },
+    {
+      "id": "supply-cut",
+      "title": "Producer supply cut / disruption",
+      "keywords": ["supply cut", "production cut", "output cut", "disruption", "shortage", "curtail"],
+      "direction": "bullish",
+      "tickers": ["CCJ", "UEC", "DNN", "NXE", "URA", "URNM"],
+      "logic": "Supply cut (e.g. Kazatomprom) -> tighter spot -> bullish miners."
+    },
+    {
+      "id": "enrichment-sanctions",
+      "title": "Russian enrichment sanctions / ban",
+      "keywords": ["enrichment", "sanction", "russian uranium", "import ban"],
+      "direction": "bullish",
+      "tickers": ["LEU", "CCJ"],
+      "logic": "Sanctions on Russian enrichment -> bullish Western enrichers (LEU)."
+    },
+    {
+      "id": "smr-milestone",
+      "title": "SMR / advanced reactor milestone",
+      "keywords": ["small modular", "smr", "advanced reactor", "certification", "data center deal"],
+      "direction": "bullish",
+      "tickers": ["SMR", "OKLO", "LEU"],
+      "logic": "SMR progress / datacenter power deals -> bullish advanced-reactor names."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "shipping",
+  "name": "Shipping - Tankers, Dry Bulk, Containers",
+  "edge": "Low-glamour cyclical; direction is unusually legible from one headline.",
+  "tickers": ["ZIM", "DAC", "GSL", "GNK", "SBLK", "GOGL", "FRO", "STNG", "INSW", "DHT", "BOAT"],
+  "matchTerms": ["shipping", "tanker", "dry bulk", "container", "freight", "baltic", "suez", "panama canal", "red sea", "port"],
+  "catalysts": [
+    {
+      "id": "canal-disruption",
+      "title": "Suez / Panama / Red Sea disruption",
+      "keywords": ["red sea", "suez", "panama canal", "attack", "reroute", "blockage", "draft restriction"],
+      "direction": "bullish",
+      "logic": "Rerouting -> longer voyages -> higher rates -> bullish carriers."
+    },
+    {
+      "id": "rate-spike",
+      "title": "Freight-rate spike",
+      "keywords": ["baltic dry", "freight rate", "rates surge", "rates jump", "spot rate"],
+      "direction": "bullish",
+      "logic": "Rising rates flow directly to shipping-company earnings."
+    },
+    {
+      "id": "opec-cut",
+      "title": "OPEC output cut (crude tankers)",
+      "keywords": ["opec", "output cut", "production cut", "oil supply"],
+      "direction": "bearish",
+      "tickers": ["FRO", "STNG", "INSW", "DHT"],
+      "logic": "Less oil to move -> lower ton-mile demand -> bearish crude tankers."
+    }
+  ]
+}

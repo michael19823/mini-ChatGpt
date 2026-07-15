@@ -1,0 +1,40 @@
+{
+  "id": "agriculture",
+  "name": "Agriculture, Grains & Fertilizer",
+  "edge": "Weather- and policy-driven; the key data (USDA) is public and scheduled.",
+  "tickers": ["NTR", "MOS", "CF", "IPI", "ADM", "BG", "DE", "DBA", "MOO", "WEAT", "CORN"],
+  "matchTerms": ["grain", "wheat", "corn", "soybean", "fertilizer", "potash", "usda", "crop", "harvest", "drought", "farm"],
+  "catalysts": [
+    {
+      "id": "drought",
+      "title": "Drought / crop-damaging weather",
+      "keywords": ["drought", "frost", "flood", "heatwave", "dry weather", "crop damage"],
+      "direction": "bullish",
+      "tickers": ["WEAT", "CORN", "DBA", "ADM", "BG"],
+      "logic": "Weather damage in a key exporter -> lower supply -> higher grain prices."
+    },
+    {
+      "id": "export-ban",
+      "title": "Grain export ban / restriction",
+      "keywords": ["export ban", "export restriction", "halt exports", "grain corridor"],
+      "direction": "bullish",
+      "tickers": ["WEAT", "CORN", "DBA"],
+      "logic": "Exporter halts shipments -> scarcity -> bullish grains / competing exporters."
+    },
+    {
+      "id": "fertilizer-supply",
+      "title": "Fertilizer / potash supply shock",
+      "keywords": ["potash", "phosphate", "nitrogen", "fertilizer", "belarus", "sanction"],
+      "direction": "bullish",
+      "tickers": ["NTR", "MOS", "CF", "IPI"],
+      "logic": "Potash/nitrogen supply cut -> higher input prices -> bullish producers."
+    },
+    {
+      "id": "wasde",
+      "title": "USDA WASDE / crop report surprise",
+      "keywords": ["wasde", "usda", "crop report", "stocks report", "yield"],
+      "direction": "context",
+      "logic": "Scheduled report - trade the SURPRISE vs expectation, not the level."
+    }
+  ]
+}

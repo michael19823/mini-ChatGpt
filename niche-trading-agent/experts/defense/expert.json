@@ -1,0 +1,32 @@
+{
+  "id": "defense",
+  "name": "Defense, Drones & Space (small-cap)",
+  "edge": "The small-cap drone/space layer moves hard on contracts and conflict.",
+  "tickers": ["AVAV", "KTOS", "RCAT", "RKLB", "LUNR", "ASTS", "PL", "LMT", "RTX", "ITA", "ARKX"],
+  "matchTerms": ["defense", "drone", "missile", "military", "pentagon", "ndaa", "satellite", "space", "launch", "munition"],
+  "catalysts": [
+    {
+      "id": "contract-award",
+      "title": "Government contract award",
+      "keywords": ["contract", "award", "awarded", "deal", "order", "procurement"],
+      "direction": "bullish",
+      "logic": "A named contract award is a direct revenue signal for the awardee."
+    },
+    {
+      "id": "conflict-escalation",
+      "title": "Conflict / geopolitical escalation",
+      "keywords": ["escalation", "strike", "invasion", "attack", "conflict", "war"],
+      "direction": "bullish",
+      "tickers": ["KTOS", "AVAV", "RCAT", "LMT", "RTX"],
+      "logic": "Escalation -> higher munitions/drone demand expectations."
+    },
+    {
+      "id": "launch-outcome",
+      "title": "Launch success / failure",
+      "keywords": ["launch", "liftoff", "orbit", "mission failure", "rocket"],
+      "direction": "context",
+      "tickers": ["RKLB", "LUNR", "ASTS", "PL"],
+      "logic": "Success bullish, failure bearish - sentiment words decide."
+    }
+  ]
+}

@@ -9,9 +9,8 @@ import { TOOLS, callTool, type ToolDeps } from "./tools.ts";
 /**
  * A minimal, dependency-free MCP server over stdio (newline-delimited JSON-RPC
  * 2.0). It exposes the trading system's experts, news, prices, and pipeline as
- * tools so any MCP client (Claude Code, the mini-ChatGPT backend, etc.) can
- * drive it. Implements the subset of MCP needed: initialize, tools/list,
- * tools/call.
+ * tools so any MCP client (Claude Code, a custom UI, etc.) can drive it.
+ * Implements the subset of MCP needed: initialize, tools/list, tools/call.
  *
  * The protocol handling is a pure function (`handleMessage`) so it can be
  * tested in-process without stdio or a network.

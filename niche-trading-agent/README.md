@@ -116,8 +116,7 @@ a static/mock snapshot, **not** real market outcomes.
 ## MCP server
 
 The system also ships as a **dependency-free MCP server** (stdio, JSON-RPC 2.0)
-so any MCP client — Claude Code, or the mini-ChatGPT backend — can drive the
-experts as tools:
+so any MCP client — Claude Code, or a custom UI — can drive the experts as tools:
 
 ```bash
 npm run mcp     # speaks MCP over stdin/stdout

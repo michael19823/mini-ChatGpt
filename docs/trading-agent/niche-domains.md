@@ -261,8 +261,9 @@ Each domain above becomes one **specialist agent** with:
 
 A lightweight **router/orchestrator** fans an incoming news item to whichever
 specialist(s) claim relevance (by keyword/embedding match to their domain), then logs
-the paper trade. This fits naturally on top of your existing LLM-adapter backend — each
-"agent" is a system-prompt + tool-config specialization of the same model call.
+the paper trade. Each "agent" is a system-prompt + tool-config specialization of the
+same model call. (This is exactly what the standalone `niche-trading-agent` project
+implements.)
 
 ### Data feasibility (what an experimental agent can actually get, mostly free)
 

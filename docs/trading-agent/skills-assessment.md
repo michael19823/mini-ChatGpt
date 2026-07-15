@@ -30,8 +30,8 @@ architecture (skill-packaging and the data MCP server); the rest are dev aids.
 
 brainstorming / writing-plans / executing-plans / get-shit-done (design &
 sequencing) · csv-processing / xlsx (ingest watchlists, export ledger) ·
-sql-query-builder / database-migration (move ledger into the existing Postgres) ·
-api-development (wrap the agent for the React frontend) · playwright-skill /
+sql-query-builder / database-migration (move the ledger into a database) ·
+api-development (wrap the agent in a standalone HTTP API/UI) · playwright-skill /
 webapp-testing (scrape API-less news; test a future dashboard) · frontend-design
 / web-artifacts-builder (UI later) · ci-cd-integration / changelog-automation /
 documentation-generator · git worktrees / finishing-a-branch / requesting- &

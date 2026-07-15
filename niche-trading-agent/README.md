@@ -78,13 +78,31 @@ Copy `.env.example` to `.env` and set only what you want:
 
 | Variable | Default | Effect |
 |---|---|---|
-| `LLM_PROVIDER` | `mock` | `ollama` uses a local model at `OLLAMA_URL` |
-| `NEWS_SOURCE` | `fixture` | `rss` pulls live headlines from `NEWS_RSS_FEEDS` |
-| `PRICE_PROVIDER` | `mock` | (add real providers behind `src/prices.ts`) |
+| `LLM_PROVIDER` | `mock` | `ollama` uses a local model at `OLLAMA_URL` (reads each expert's SKILL.md as its system prompt) |
+| `NEWS_SOURCE` | `fixture` | `rss` (from `NEWS_RSS_FEEDS`), `edgar` (SEC 8-K filings), or `all` |
+| `PRICE_PROVIDER` | `mock` | `stooq` (real quotes, no key) or `finnhub` (real-time, needs `FINNHUB_API_KEY`) |
 | `MIN_CONFIDENCE` | `0.4` | confidence bar to record a trade |
 | `LOOP_INTERVAL_SECONDS` | `300` | interval for `npm run loop` |
 
-Run continuously with `npm run loop`.
+Run continuously with `npm run loop`. Live sources need outbound access to their
+hosts (`stooq.com`, `finnhub.io`, `www.sec.gov`, your RSS hosts); if a host is
+unreachable the provider returns nothing and the pipeline degrades gracefully
+rather than crashing. SEC requires a real contact string in `EDGAR_USER_AGENT`.
+
+## MCP server
+
+The system also ships as a **dependency-free MCP server** (stdio, JSON-RPC 2.0)
+so any MCP client — Claude Code, or the mini-ChatGPT backend — can drive the
+experts as tools:
+
+```bash
+npm run mcp     # speaks MCP over stdin/stdout
+```
+
+Tools exposed: `list_experts`, `get_expert_brief`, `get_price`, `get_news`,
+`analyze_headline` (route + decide a headline, no recording), and `run_pipeline`
+(a full pass that records paper trades). Register it in a client's MCP config by
+pointing the command at `node src/mcp/server.ts`.
 
 ## Project layout
 
@@ -103,14 +121,18 @@ src/
     mock.ts         deterministic heuristic "expert" (default)
     ollama.ts       optional real-model backend (uses SKILL.md as system prompt)
     index.ts        backend factory
-  news/index.ts     fixture + minimal RSS sources
-  prices.ts         mock price provider (swap for a real one)
+  news/index.ts     news sources: fixture (offline), RSS/Atom, SEC EDGAR, multi
+  prices.ts         price providers: mock, Stooq (no key), Finnhub (key)
   ledger.ts         append-only paper-trade log
   orchestrator.ts   one pass of the whole pipeline
+  mcp/
+    tools.ts        MCP tool defs + dispatcher (list_experts, analyze_headline, …)
+    server.ts       dependency-free stdio JSON-RPC 2.0 MCP server
   cli.ts            once | loop | report | domains
 data/
   fixtures/sample-news.json
-test/               router, agent, pipeline, term-matching, expert-loader tests
+test/               router, agent, pipeline, term-matching, experts,
+                    providers (feed/CSV parsers), and MCP protocol tests
 ```
 
 ## Adding a new specialist expert

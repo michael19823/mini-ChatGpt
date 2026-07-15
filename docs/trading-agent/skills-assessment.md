@@ -21,7 +21,7 @@ architecture (skill-packaging and the data MCP server); the rest are dev aids.
 |---|---|---|
 | skill-creator / writing-skills / template-skill | Model each expert as a self-describing **skill package** (`experts/<id>/` = `expert.json` + `SKILL.md`), loaded dynamically. | **Done** — implemented in this project. |
 | research-assistant + claude-scientific-skills | Systematically populate each expert's catalyst taxonomy, ticker universe, and data sources. | Recommended next |
-| mcp-builder | Build a real **news + price MCP server** (SEC EDGAR, Finnhub, USDA, RSS) so agents use live data, not fixtures. | Recommended next |
+| mcp-builder | Build a real **news + price MCP server** (SEC EDGAR, Finnhub, USDA, RSS) so agents use live data, not fixtures. | **Done** — stdio MCP server + RSS/EDGAR/Stooq/Finnhub providers. |
 | test-driven-development + testing-anti-patterns + systematic-debugging + verification-before-completion | Harden catalyst-matching (the class of bug behind the `dea`→`deal` fix). | Applies to the 18-test suite |
 | data-visualization / claude-d3js-skill | A dashboard over `ledger.jsonl` (hit-rate per expert, P&L curve). | Later |
 | Skill_Seekers (tool) | Turn a data provider's API docs into a ready-made skill (shortcut for mcp-builder). | Optional |
@@ -54,5 +54,7 @@ technical-writing, security-review.
 1. **Skill-package the experts** (from skill-creator) — **implemented**:
    `experts/<id>/expert.json` + `SKILL.md`, dynamically loaded, drop-in
    extensible. See `niche-trading-agent/experts/README.md`.
-2. **Data MCP server** (from mcp-builder) — next: real news + prices so the
-   agents stop running on fixtures.
+2. **Data MCP server** (from mcp-builder) — **implemented**: a dependency-free
+   stdio MCP server (`src/mcp/`) plus real news (RSS, SEC EDGAR) and price
+   (Stooq no-key, Finnhub) providers, with graceful fallback to offline
+   fixtures/mock. See `niche-trading-agent` README → "MCP server".

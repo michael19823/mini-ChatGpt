@@ -1,0 +1,25 @@
+{
+  "name": "niche-trading-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Experimental, paper-trading multi-agent system: domain-expert agents react to news catalysts in under-followed niche sectors.",
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "once": "node src/cli.ts once",
+    "loop": "node src/cli.ts loop",
+    "report": "node src/cli.ts report",
+    "domains": "node src/cli.ts domains",
+    "test": "node --test test/*.test.ts"
+  },
+  "keywords": [
+    "trading",
+    "agents",
+    "news",
+    "paper-trading",
+    "experimental"
+  ],
+  "license": "MIT"
+}

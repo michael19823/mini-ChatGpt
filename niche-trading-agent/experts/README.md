@@ -62,5 +62,34 @@ experts/
 | `catalysts[].direction` | `bullish` \| `bearish` \| `context` | Base impact. `context` = resolved by sentiment. |
 | `catalysts[].logic` | string | One-line direction rationale (shown in outputs). |
 | `catalysts[].tickers` | string[] (optional) | Restrict impact to a subset; defaults to whole watchlist. |
+| `catalysts[].secondOrder` | object[] (optional) | Chain effects — downstream / cross-domain ripples (see below). |
+| `catalysts[].secondOrder[].domainId` | string | The domain the downstream effect lands in (often a *different* expert). |
+| `catalysts[].secondOrder[].direction` | `bullish` \| `bearish` \| `context` | Impact on that downstream domain. |
+| `catalysts[].secondOrder[].tickers` | string[] (optional) | Specific downstream tickers; defaults to that domain's watchlist. |
+| `catalysts[].secondOrder[].note` | string | Why the effect propagates (shown in the chain + playbook). |
 
 Malformed specs fail loudly at startup with the offending file path.
+
+## Chain effects (`secondOrder`)
+
+`secondOrder` is how an expert encodes the *cascade* — the second-order, often
+cross-domain, consequences of a catalyst. The foresight layer (`npm run plan`)
+turns each into a chain link and a secondary playbook action, so one event
+composes the whole team's knowledge:
+
+```json
+{
+  "id": "canal-disruption",
+  "title": "Suez / Panama / Red Sea disruption",
+  "keywords": ["red sea", "suez", "reroute", "attack"],
+  "direction": "bullish",
+  "logic": "Rerouting -> longer voyages -> higher rates -> bullish carriers.",
+  "secondOrder": [
+    { "domainId": "agriculture", "direction": "bullish", "tickers": ["NTR", "CF"],
+      "note": "Higher energy/freight costs raise fertilizer input costs -> bullish producers." }
+  ]
+}
+```
+
+A real "Red Sea attacks" headline then fires the shipping playbook **and** the
+agriculture chain link automatically.

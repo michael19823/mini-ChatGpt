@@ -7,6 +7,22 @@ export type Direction = "bullish" | "bearish" | "context";
 export type Action = "buy" | "sell" | "hold";
 
 /**
+ * A second-order (often cross-domain) effect of a catalyst — the next link in
+ * the causal chain. E.g. a shipping disruption raises energy costs, which lifts
+ * fertilizer prices (an agriculture effect). This is the knowledge the foresight
+ * layer uses to build chain effects across experts.
+ */
+export interface SecondOrderLink {
+  /** The domain this downstream effect lands in (may differ from the source). */
+  domainId: string;
+  direction: Direction;
+  /** Optional specific tickers; defaults to that domain's watchlist. */
+  tickers?: string[];
+  /** Why the effect propagates this way. */
+  note: string;
+}
+
+/**
  * A catalyst is a *type of event* a specialist agent knows how to react to.
  * `keywords` are matched (case-insensitive) against news text; `direction`
  * is the typical impact on the domain's producers when this event fires.
@@ -20,6 +36,8 @@ export interface Catalyst {
   tickers?: string[];
   /** Short note explaining the direction logic (used in rationales). */
   logic: string;
+  /** Downstream / cross-domain effects — the chain the foresight layer traces. */
+  secondOrder?: SecondOrderLink[];
 }
 
 /** A specialist domain: a watchlist plus the catalysts that move it. */

@@ -8,6 +8,8 @@ import { getExpertBrief } from "../experts.ts";
 import { routeNews } from "../router.ts";
 import { runOnce } from "../orchestrator.ts";
 import { scoreEntries, summarize } from "../scoring.ts";
+import { generateScenarios, crossDomainCount } from "../scenarios/planner.ts";
+import { matchScenarios } from "../scenarios/match.ts";
 
 /** Everything the tools need; injectable so they can be tested with mocks. */
 export interface ToolDeps {
@@ -87,6 +89,28 @@ export const TOOLS: ToolDef[] = [
     description: "Score recorded paper trades against current prices: hit rate, average return, and per-domain/action breakdown.",
     inputSchema: NONE,
   },
+  {
+    name: "list_scenarios",
+    description: "List the pre-computed foresight scenarios: hypothesized events with their causal chains (first- and cross-domain second-order effects) and playbooks.",
+    inputSchema: {
+      type: "object",
+      properties: { domainId: { type: "string", description: "Optional expert id to filter to." } },
+      additionalProperties: false,
+    },
+  },
+  {
+    name: "react_event",
+    description: "Fast reaction: match a real event to pre-computed scenarios and return their playbooks (including chain effects) instantly.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        title: { type: "string", description: "The event/headline." },
+        summary: { type: "string", description: "Optional longer summary." },
+      },
+      required: ["title"],
+      additionalProperties: false,
+    },
+  },
 ];
 
 /** Dispatches a tool call. Returns a plain object serialized as the tool result. */
@@ -147,6 +171,31 @@ export async function callTool(name: string, args: Record<string, unknown>, deps
       await Promise.all(tickers.map(async (t) => priceMap.set(t, await deps.prices.getPrice(t))));
       const { scored, skipped } = scoreEntries(entries, (t) => priceMap.get(t) ?? null);
       return { provider: deps.prices.name, summary: summarize(scored, skipped) };
+    }
+
+    case "list_scenarios": {
+      const domainId = args.domainId ? String(args.domainId) : null;
+      const scenarios = generateScenarios().filter((s) => !domainId || s.domainId === domainId);
+      return { count: scenarios.length, crossDomain: crossDomainCount(scenarios), scenarios };
+    }
+
+    case "react_event": {
+      const news: NewsItem = {
+        id: "adhoc",
+        title: String(args.title),
+        summary: args.summary ? String(args.summary) : undefined,
+        publishedAt: "1970-01-01T00:00:00Z",
+      };
+      const matches = matchScenarios(news, generateScenarios());
+      return {
+        matched: matches.length,
+        playbooks: matches.map((m) => ({
+          scenario: m.scenario.title,
+          domainId: m.scenario.domainId,
+          matchedTriggers: m.matchedTriggers,
+          actions: m.scenario.playbook.filter((a) => a.action !== "hold"),
+        })),
+      };
     }
 
     default:

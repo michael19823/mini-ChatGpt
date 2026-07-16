@@ -1,6 +1,6 @@
 import { readdirSync, readFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
-import type { Catalyst, Direction, Domain } from "./types.ts";
+import type { Catalyst, Direction, Domain, SecondOrderLink } from "./types.ts";
 
 /**
  * Expert loader — the "skill package" runtime.
@@ -79,7 +79,27 @@ function validateCatalyst(raw: unknown, path: string): Catalyst {
     logic: str(o.logic, "logic", path),
   };
   if (o.tickers !== undefined) catalyst.tickers = strArray(o.tickers, "tickers", path);
+  if (o.secondOrder !== undefined) {
+    catalyst.secondOrder = asArray(o.secondOrder, "secondOrder", path).map((l, i) =>
+      validateSecondOrder(l, `${path}#secondOrder[${i}]`),
+    );
+  }
   return catalyst;
+}
+
+function validateSecondOrder(raw: unknown, path: string): SecondOrderLink {
+  const o = asObject(raw, path);
+  const direction = str(o.direction, "direction", path);
+  if (!DIRECTIONS.includes(direction as Direction)) {
+    throw new Error(`${path}: "direction" must be one of ${DIRECTIONS.join(", ")}`);
+  }
+  const link: SecondOrderLink = {
+    domainId: str(o.domainId, "domainId", path),
+    direction: direction as Direction,
+    note: str(o.note, "note", path),
+  };
+  if (o.tickers !== undefined) link.tickers = strArray(o.tickers, "tickers", path);
+  return link;
 }
 
 function asObject(v: unknown, path: string): Record<string, unknown> {

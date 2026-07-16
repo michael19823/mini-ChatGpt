@@ -18,7 +18,27 @@
       "keywords": ["escalation", "strike", "invasion", "attack", "conflict", "war"],
       "direction": "bullish",
       "tickers": ["KTOS", "AVAV", "RCAT", "LMT", "RTX"],
-      "logic": "Escalation -> higher munitions/drone demand expectations."
+      "logic": "Escalation -> higher munitions/drone demand expectations.",
+      "secondOrder": [
+        {
+          "domainId": "uranium",
+          "direction": "bullish",
+          "tickers": ["CCJ", "LEU", "URA"],
+          "note": "Conflict raises energy-security priority -> supportive for domestic nuclear fuel and enrichment."
+        },
+        {
+          "domainId": "shipping",
+          "direction": "bullish",
+          "tickers": ["FRO", "STNG", "ZIM"],
+          "note": "Conflict near trade routes forces rerouting and adds a war-risk premium -> higher freight/tanker rates."
+        },
+        {
+          "domainId": "agriculture",
+          "direction": "bullish",
+          "tickers": ["WEAT", "CORN", "NTR"],
+          "note": "Conflict in a breadbasket/exporter region threatens grain and fertilizer supply -> higher prices."
+        }
+      ]
     },
     {
       "id": "launch-outcome",

@@ -50,6 +50,9 @@ Requires **Node ≥ 22.6** (uses native TypeScript execution — no build step, 
 cd niche-trading-agent
 
 npm run domains    # list the specialist experts and their watchlists
+npm run plan       # foresight: pre-compute scenarios, chain effects & playbooks
+npm run scenarios  # view the pre-computed scenarios (optionally: -- <domainId>)
+npm run react -- "Red Sea attacks disrupt Suez shipping"   # instant playbook
 npm run once       # process the sample news once, record paper trades
 npm run report     # show the paper-trade ledger
 npm run score      # score recorded trades vs current prices (hit rate + return)
@@ -72,6 +75,36 @@ Out of the box everything is offline: news comes from
    ↳ OPEC agrees to deep output cut to support oil prices
    ↳ Less oil to move → lower ton-mile demand → bearish crude tankers.
 ```
+
+## Foresight: scenarios, chain effects & playbooks
+
+Reacting to news the instant it breaks is a losing race against faster systems.
+The foresight layer flips it: the expert team **thinks ahead**, so reaction is a
+lookup, not fresh analysis.
+
+- **`npm run plan`** — every expert enumerates the events that could move its
+  domain and, for each, builds a **scenario**: the hypothesized event, its
+  **causal chain** (first-order impact plus second-order, often *cross-domain*
+  effects), the **triggers** that would confirm it, and a pre-decided
+  **playbook**. Saved to `data/scenarios.json`.
+- **`npm run scenarios`** — inspect the pre-computed thinking.
+- **`npm run react -- "<headline>"`** — a real event is matched against the
+  scenarios' triggers and the matching **playbook fires instantly**, chain
+  effects included.
+
+Chain effects are the point. A shipping disruption isn't just bullish shipping:
+
+```
+$ npm run react -- "Red Sea attacks force ships to reroute around Africa"
+  ✔ Suez / Panama / Red Sea disruption  [Shipping]
+     ▸ BUY ZIM, DAC, GSL          First-order: rerouting → higher rates
+       ↳ chain BUY NTR, CF, MOS   Second-order: energy/freight costs → fertilizer
+       ↳ chain BUY CCJ, URA       Second-order: energy-security bid → nuclear fuel
+```
+
+Experts encode these ripples as `secondOrder` links on a catalyst (see
+`experts/README.md`), so the causal knowledge lives with the expert and the
+whole team's chains compose automatically.
 
 ## Making it "real" (all optional)
 
@@ -124,9 +157,11 @@ npm run mcp     # speaks MCP over stdin/stdout
 
 Tools exposed: `list_experts`, `get_expert_brief`, `get_price`, `get_news`,
 `analyze_headline` (route + decide a headline, no recording), `run_pipeline`
-(a full pass that records paper trades), and `score_ledger` (hit rate + return
-on recorded trades). Register it in a client's MCP config by pointing the command
-at `node src/mcp/server.ts`.
+(a full pass that records paper trades), `score_ledger` (hit rate + return on
+recorded trades), `list_scenarios` (the pre-computed foresight scenarios), and
+`react_event` (match an event to scenarios and return their playbooks with chain
+effects). Register it in a client's MCP config by pointing the command at
+`node src/mcp/server.ts`.
 
 ## Project layout
 
@@ -140,6 +175,10 @@ src/
   domains.ts        exposes the loaded registry (DOMAINS, getDomain)
   genBriefs.ts      regenerates SKILL.md from expert.json (npm run gen:briefs)
   router.ts         news → relevant expert(s)
+  scenarios/
+    planner.ts      foresight: build scenarios + chain effects + playbooks
+    match.ts        fast match of a real event → pre-computed playbook
+    store.ts        persist scenarios to data/scenarios.json
   text.ts           word-boundary term matching (shared by router + agent)
   llm/
     mock.ts         deterministic heuristic "expert" (default)
@@ -153,7 +192,7 @@ src/
   mcp/
     tools.ts        MCP tool defs + dispatcher (list_experts, analyze_headline, …)
     server.ts       dependency-free stdio JSON-RPC 2.0 MCP server
-  cli.ts            once | loop | report | score | domains
+  cli.ts            once | loop | report | score | plan | scenarios | react | domains
 data/
   fixtures/sample-news.json   sample headlines (offline news)
   fixtures/prices.json        price snapshot (offline scoring)

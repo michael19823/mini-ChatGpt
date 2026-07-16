@@ -10,7 +10,21 @@
       "title": "Suez / Panama / Red Sea disruption",
       "keywords": ["red sea", "suez", "panama canal", "attack", "reroute", "blockage", "draft restriction"],
       "direction": "bullish",
-      "logic": "Rerouting -> longer voyages -> higher rates -> bullish carriers."
+      "logic": "Rerouting -> longer voyages -> higher rates -> bullish carriers.",
+      "secondOrder": [
+        {
+          "domainId": "agriculture",
+          "direction": "bullish",
+          "tickers": ["NTR", "CF", "MOS"],
+          "note": "Rerouting + higher energy/freight costs raise fertilizer input and delivery costs -> bullish producers."
+        },
+        {
+          "domainId": "uranium",
+          "direction": "bullish",
+          "tickers": ["CCJ", "URA"],
+          "note": "Sustained oil-transport disruption lifts energy prices and energy-security bids -> supportive for nuclear fuel."
+        }
+      ]
     },
     {
       "id": "rate-spike",

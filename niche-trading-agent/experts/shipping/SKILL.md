@@ -23,6 +23,8 @@ ZIM, DAC, GSL, GNK, SBLK, GOGL, FRO, STNG, INSW, DHT, BOAT
 - **Trigger keywords:** red sea, suez, panama canal, attack, reroute, blockage, draft restriction
 - **Affected tickers:** whole watchlist
 - **Direction logic:** Rerouting -> longer voyages -> higher rates -> bullish carriers.
+- **Chain effect → agriculture [bullish] (NTR, CF, MOS):** Rerouting + higher energy/freight costs raise fertilizer input and delivery costs -> bullish producers.
+- **Chain effect → uranium [bullish] (CCJ, URA):** Sustained oil-transport disruption lifts energy prices and energy-security bids -> supportive for nuclear fuel.
 
 ### Freight-rate spike  →  bullish
 - **Trigger keywords:** baltic dry, freight rate, rates surge, rates jump, spot rate

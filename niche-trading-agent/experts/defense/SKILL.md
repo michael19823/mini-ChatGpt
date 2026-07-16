@@ -28,6 +28,9 @@ AVAV, KTOS, RCAT, RKLB, LUNR, ASTS, PL, LMT, RTX, ITA, ARKX
 - **Trigger keywords:** escalation, strike, invasion, attack, conflict, war
 - **Affected tickers:** KTOS, AVAV, RCAT, LMT, RTX
 - **Direction logic:** Escalation -> higher munitions/drone demand expectations.
+- **Chain effect → uranium [bullish] (CCJ, LEU, URA):** Conflict raises energy-security priority -> supportive for domestic nuclear fuel and enrichment.
+- **Chain effect → shipping [bullish] (FRO, STNG, ZIM):** Conflict near trade routes forces rerouting and adds a war-risk premium -> higher freight/tanker rates.
+- **Chain effect → agriculture [bullish] (WEAT, CORN, NTR):** Conflict in a breadbasket/exporter region threatens grain and fertilizer supply -> higher prices.
 
 ### Launch success / failure  →  context
 - **Trigger keywords:** launch, liftoff, orbit, mission failure, rocket

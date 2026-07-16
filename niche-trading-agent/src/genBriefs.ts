@@ -18,12 +18,17 @@ function briefFor(d: Domain): string {
   const catalystSections = d.catalysts
     .map((c) => {
       const scope = c.tickers && c.tickers.length > 0 ? c.tickers.join(", ") : "whole watchlist";
-      return [
+      const lines = [
         `### ${c.title}  →  ${c.direction}`,
         `- **Trigger keywords:** ${c.keywords.join(", ")}`,
         `- **Affected tickers:** ${scope}`,
         `- **Direction logic:** ${c.logic}`,
-      ].join("\n");
+      ];
+      for (const link of c.secondOrder ?? []) {
+        const t = link.tickers && link.tickers.length > 0 ? ` (${link.tickers.join(", ")})` : "";
+        lines.push(`- **Chain effect → ${link.domainId} [${link.direction}]${t}:** ${link.note}`);
+      }
+      return lines.join("\n");
     })
     .join("\n\n");
 

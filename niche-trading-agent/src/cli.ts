@@ -7,6 +7,9 @@ import { Ledger } from "./ledger.ts";
 import { runOnce, domainName, type OrchestratorOptions } from "./orchestrator.ts";
 import { DOMAINS } from "./domains.ts";
 import { scoreEntries, summarize } from "./scoring.ts";
+import { generateScenarios, crossDomainCount } from "./scenarios/planner.ts";
+import { ScenarioStore } from "./scenarios/store.ts";
+import { matchScenarios } from "./scenarios/match.ts";
 
 loadEnv();
 
@@ -109,6 +112,65 @@ async function cmdScore(): Promise<void> {
   console.log("\n(Reminder: paper-trade scores. Mock/fixture prices are not real market outcomes.)");
 }
 
+async function cmdPlan(): Promise<void> {
+  console.log("\n▶ Foresight: the expert team pre-computes scenarios, chain effects, and playbooks...\n");
+  const scenarios = generateScenarios();
+  await new ScenarioStore().save(scenarios);
+  const cross = crossDomainCount(scenarios);
+  const links = scenarios.reduce((n, s) => n + s.chain.length, 0);
+  console.log(`Generated ${scenarios.length} scenario(s) across ${DOMAINS.length} experts.`);
+  console.log(`Chain links: ${links}  (${cross} scenario(s) carry a cross-domain second-order effect).`);
+  console.log(`Saved → data/scenarios.json.  View with \`npm run scenarios\`, react with \`npm run react -- "<headline>"\`.`);
+}
+
+async function cmdScenarios(): Promise<void> {
+  const filter = process.argv[3];
+  const scenarios = (await new ScenarioStore().load()).filter((s) => !filter || s.domainId === filter);
+  if (scenarios.length === 0) {
+    console.log(filter ? `No scenarios for "${filter}". Run \`npm run plan\` first.` : "No scenarios. Run `npm run plan` first.");
+    return;
+  }
+  console.log(`\n${scenarios.length} scenario(s)${filter ? ` for ${filter}` : ""}:\n`);
+  for (const s of scenarios) {
+    console.log(`  [${domainName(s.domainId)}]  ${s.title}   (likelihood: ${s.likelihood})`);
+    for (const link of s.chain) {
+      const arrow = link.order === 1 ? "①" : "②";
+      console.log(`     ${arrow} ${link.direction.toUpperCase()} ${link.tickers.join(", ")} in ${domainName(link.domainId)} — ${link.effect}`);
+    }
+    console.log(`     triggers: ${s.triggers.join(", ")}\n`);
+  }
+}
+
+async function cmdReact(): Promise<void> {
+  const headline = process.argv.slice(3).join(" ").trim();
+  if (!headline) {
+    console.log('Usage: npm run react -- "<headline text>"');
+    return;
+  }
+  const scenarios = await new ScenarioStore().load();
+  if (scenarios.length === 0) {
+    console.log("No scenarios yet. Run `npm run plan` first.");
+    return;
+  }
+  const matches = matchScenarios({ id: "adhoc", title: headline, publishedAt: "1970-01-01T00:00:00Z" }, scenarios);
+  console.log(`\n▶ Event: "${headline}"\n`);
+  if (matches.length === 0) {
+    console.log("No pre-computed scenario matched. (Consider adding a catalyst/scenario for this.)");
+    return;
+  }
+  console.log(`Matched ${matches.length} pre-computed scenario(s) — running their playbooks:\n`);
+  for (const { scenario, matchedTriggers } of matches) {
+    console.log(`  ✔ ${scenario.title}  [${domainName(scenario.domainId)}]   (matched: ${matchedTriggers.join(", ")})`);
+    for (const a of scenario.playbook) {
+      if (a.action === "hold") continue;
+      const tag = a.weight === "primary" ? "▸" : "  ↳ chain";
+      console.log(`     ${tag} ${a.action.toUpperCase()} ${a.ticker}   ${a.rationale}`);
+    }
+    console.log("");
+  }
+  console.log("(Pre-computed playbook = instant decision. Paper trading only, not investment advice.)");
+}
+
 function cmdDomains(): void {
   console.log(`\n${DOMAINS.length} specialist domains registered:\n`);
   for (const d of DOMAINS) {
@@ -125,12 +187,15 @@ const commands: Record<string, () => void | Promise<void>> = {
   loop: cmdLoop,
   report: cmdReport,
   score: cmdScore,
+  plan: cmdPlan,
+  scenarios: cmdScenarios,
+  react: cmdReact,
   domains: cmdDomains,
 };
 
 const handler = commands[cmd];
 if (!handler) {
-  console.error(`Unknown command "${cmd}". Use: once | loop | report | score | domains`);
+  console.error(`Unknown command "${cmd}". Use: once | loop | report | score | plan | scenarios | react | domains`);
   process.exit(1);
 }
 await handler();

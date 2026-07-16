@@ -52,6 +52,7 @@ cd niche-trading-agent
 npm run domains    # list the specialist experts and their watchlists
 npm run plan       # foresight: pre-compute scenarios, chain effects & playbooks
 npm run scenarios  # view the pre-computed scenarios (optionally: -- <domainId>)
+npm run embed      # (optional) precompute scenario vectors for semantic matching
 npm run react -- "Red Sea attacks disrupt Suez shipping"   # instant playbook
 npm run once       # process the sample news once, record paper trades
 npm run report     # show the paper-trade ledger
@@ -89,8 +90,33 @@ lookup, not fresh analysis.
   **playbook**. Saved to `data/scenarios.json`.
 - **`npm run scenarios`** — inspect the pre-computed thinking.
 - **`npm run react -- "<headline>"`** — a real event is matched against the
-  scenarios' triggers and the matching **playbook fires instantly**, chain
-  effects included.
+  scenarios and the matching **playbook fires instantly**, chain effects included.
+
+### How recognition works (keyword + optional semantic)
+
+By default, recognition is **keyword-based**: each scenario ships `triggers`, and
+a real headline fires a scenario when its triggers match (multi-word triggers
+match on a majority of their key words, so differently-worded headlines still
+hit). Fast and fully offline — but lexical, so a pure paraphrase can slip through.
+
+Turn on **semantic matching** for meaning-based recognition (catches paraphrases
+that share no words) using a small, fast local embedding model:
+
+```bash
+# one-time: run Ollama with an embedding model
+ollama pull nomic-embed-text
+export EMBEDDING_PROVIDER=ollama
+
+npm run embed                 # precompute a vector per scenario (once per plan)
+npm run react -- "Reactor buildout accelerates to power hyperscaler datacenters"
+#   → hybrid (keyword + ollama:nomic-embed-text): matches the AI-nuclear scenario
+#     semantically, even with no shared trigger words
+```
+
+`react` embeds the headline once and cosine-compares it to the precomputed
+scenario vectors — milliseconds, no chat-LLM call, still the fast path. It's a
+**hybrid**: a scenario is recognized by keyword OR semantic similarity, so with
+`EMBEDDING_PROVIDER=none` (the default) it's exactly the offline keyword matcher.
 
 Chain effects are the point. A shipping disruption isn't just bullish shipping:
 
@@ -193,8 +219,12 @@ src/
   router.ts         news → relevant expert(s)
   scenarios/
     planner.ts      foresight: build scenarios + chain effects + playbooks
-    match.ts        fast match of a real event → pre-computed playbook
+    match.ts        keyword trigger matching of an event → scenario
+    semanticMatch.ts hybrid keyword + embedding (cosine) recognition
+    react.ts        env-wired recognition used by CLI + MCP
+    vectors.ts      precomputed scenario embeddings (sidecar)
     store.ts        persist scenarios to data/scenarios.json
+  embeddings/       embedding backends (none | ollama) + cosine
   text.ts           word-boundary term matching (shared by router + agent)
   llm/
     mock.ts         deterministic heuristic "expert" (default)
@@ -208,7 +238,7 @@ src/
   mcp/
     tools.ts        MCP tool defs + dispatcher (list_experts, analyze_headline, …)
     server.ts       dependency-free stdio JSON-RPC 2.0 MCP server
-  cli.ts            once | loop | report | score | plan | scenarios | react | domains
+  cli.ts            once | loop | report | score | plan | scenarios | embed | react | domains
 data/
   fixtures/sample-news.json   sample headlines (offline news)
   fixtures/prices.json        price snapshot (offline scoring)

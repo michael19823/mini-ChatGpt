@@ -10,7 +10,9 @@ import { scoreEntries, summarize } from "./scoring.ts";
 import { generateScenarios, crossDomainCount } from "./scenarios/planner.ts";
 import { ScenarioStore } from "./scenarios/store.ts";
 import { activeScenarios } from "./scenarios/active.ts";
-import { matchScenarios } from "./scenarios/match.ts";
+import { reactToEvent } from "./scenarios/react.ts";
+import { createEmbedder } from "./embeddings/index.ts";
+import { VectorStore, scenarioText } from "./scenarios/vectors.ts";
 
 loadEnv();
 
@@ -148,20 +150,21 @@ async function cmdReact(): Promise<void> {
     console.log('Usage: npm run react -- "<headline text>"');
     return;
   }
-  const scenarios = await activeScenarios();
-  if (scenarios.length === 0) {
-    console.log("No scenarios yet. Run `npm run plan` first.");
-    return;
-  }
-  const matches = matchScenarios({ id: "adhoc", title: headline, publishedAt: "1970-01-01T00:00:00Z" }, scenarios);
-  console.log(`\n▶ Event: "${headline}"\n`);
+  const { matches, embedderName, hasVectors } = await reactToEvent({ id: "adhoc", title: headline, publishedAt: "1970-01-01T00:00:00Z" });
+  const mode = embedderName && hasVectors ? `hybrid (keyword + ${embedderName})` : "keyword-only";
+  console.log(`\n▶ Event: "${headline}"   [matching: ${mode}]\n`);
   if (matches.length === 0) {
     console.log("No pre-computed scenario matched. (Consider adding a catalyst/scenario for this.)");
     return;
   }
   console.log(`Matched ${matches.length} pre-computed scenario(s) — running their playbooks:\n`);
-  for (const { scenario, matchedTriggers } of matches) {
-    console.log(`  ✔ ${scenario.title}  [${domainName(scenario.domainId)}]   (matched: ${matchedTriggers.join(", ")})`);
+  for (const { scenario, matchedTriggers, via, similarity } of matches) {
+    const how = via === "keyword"
+      ? `matched: ${matchedTriggers.join(", ")}`
+      : via === "semantic"
+        ? `semantic ~${similarity?.toFixed(2)}`
+        : `matched: ${matchedTriggers.join(", ")}  +semantic ~${similarity?.toFixed(2)}`;
+    console.log(`  ✔ ${scenario.title}  [${domainName(scenario.domainId)}]   (${how})`);
     for (const a of scenario.playbook) {
       if (a.action === "hold") continue;
       const tag = a.weight === "primary" ? "▸" : "  ↳ chain";
@@ -170,6 +173,25 @@ async function cmdReact(): Promise<void> {
     console.log("");
   }
   console.log("(Pre-computed playbook = instant decision. Paper trading only, not investment advice.)");
+}
+
+async function cmdEmbed(): Promise<void> {
+  const embedder = createEmbedder();
+  if (!embedder) {
+    console.log("No embedder configured. Set EMBEDDING_PROVIDER=ollama (with Ollama running an embed model,");
+    console.log("e.g. `ollama pull nomic-embed-text`) to enable semantic matching, then re-run `npm run embed`.");
+    return;
+  }
+  const scenarios = await activeScenarios();
+  console.log(`\n▶ Embedding ${scenarios.length} scenarios via ${embedder.name} ...`);
+  const vecs = await embedder.embed(scenarios.map(scenarioText));
+  const vectors: Record<string, number[]> = {};
+  scenarios.forEach((s, i) => {
+    if (Array.isArray(vecs[i])) vectors[s.id] = vecs[i];
+  });
+  await new VectorStore().save({ model: embedder.name, vectors });
+  console.log(`Saved ${Object.keys(vectors).length} scenario vectors → data/scenario-embeddings.json`);
+  console.log("`npm run react` will now use semantic + keyword hybrid matching.");
 }
 
 function cmdDomains(): void {
@@ -190,13 +212,14 @@ const commands: Record<string, () => void | Promise<void>> = {
   score: cmdScore,
   plan: cmdPlan,
   scenarios: cmdScenarios,
+  embed: cmdEmbed,
   react: cmdReact,
   domains: cmdDomains,
 };
 
 const handler = commands[cmd];
 if (!handler) {
-  console.error(`Unknown command "${cmd}". Use: once | loop | report | score | plan | scenarios | react | domains`);
+  console.error(`Unknown command "${cmd}". Use: once | loop | report | score | plan | scenarios | embed | react | domains`);
   process.exit(1);
 }
 await handler();

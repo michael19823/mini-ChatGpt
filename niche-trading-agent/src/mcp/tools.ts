@@ -10,7 +10,7 @@ import { runOnce } from "../orchestrator.ts";
 import { scoreEntries, summarize } from "../scoring.ts";
 import { crossDomainCount } from "../scenarios/planner.ts";
 import { activeScenarios } from "../scenarios/active.ts";
-import { matchScenarios } from "../scenarios/match.ts";
+import { reactToEvent } from "../scenarios/react.ts";
 
 /** Everything the tools need; injectable so they can be tested with mocks. */
 export interface ToolDeps {
@@ -187,13 +187,16 @@ export async function callTool(name: string, args: Record<string, unknown>, deps
         summary: args.summary ? String(args.summary) : undefined,
         publishedAt: "1970-01-01T00:00:00Z",
       };
-      const matches = matchScenarios(news, await activeScenarios());
+      const { matches, embedderName } = await reactToEvent(news);
       return {
+        matching: embedderName ? `hybrid (keyword + ${embedderName})` : "keyword-only",
         matched: matches.length,
         playbooks: matches.map((m) => ({
           scenario: m.scenario.title,
           domainId: m.scenario.domainId,
+          via: m.via,
           matchedTriggers: m.matchedTriggers,
+          similarity: m.similarity,
           actions: m.scenario.playbook.filter((a) => a.action !== "hold"),
         })),
       };

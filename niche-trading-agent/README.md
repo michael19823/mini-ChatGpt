@@ -106,6 +106,22 @@ Experts encode these ripples as `secondOrder` links on a catalyst (see
 `experts/README.md`), so the causal knowledge lives with the expert and the
 whole team's chains compose automatically.
 
+### Where the shipped scenarios come from
+
+`npm run scenarios` / `npm run react` load, in order: a locally-generated
+`data/scenarios.json` (from `npm run plan`), else the shipped
+`data/fixtures/llm-scenarios.json`, else the deterministic heuristic set.
+
+That shipped file is the output of a **multi-agent foresight council** — a
+workflow that ran one LLM subagent per expert domain plus a cross-cutting
+tail-risk agent (each brainstorming plausible future events + chain effects),
+then a chief-strategist agent that merged, strengthened the chains, dropped the
+already-priced-in, and ranked the best 19. It surfaced non-obvious scenarios the
+hand-written catalysts miss — e.g. an *AI-datacenter nuclear-PPA wave* pulling
+the whole fuel cycle, a *shadow-fleet sanctions* tanker squeeze, and a *DJI
+FCC-ban* forcing domestic drone reshoring that ripples into ag equipment. This
+is the batch "thinking" layer; regenerate it periodically, not per-event.
+
 ## Making it "real" (all optional)
 
 Copy `.env.example` to `.env` and set only what you want:

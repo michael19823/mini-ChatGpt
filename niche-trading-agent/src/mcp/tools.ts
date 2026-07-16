@@ -8,7 +8,8 @@ import { getExpertBrief } from "../experts.ts";
 import { routeNews } from "../router.ts";
 import { runOnce } from "../orchestrator.ts";
 import { scoreEntries, summarize } from "../scoring.ts";
-import { generateScenarios, crossDomainCount } from "../scenarios/planner.ts";
+import { crossDomainCount } from "../scenarios/planner.ts";
+import { activeScenarios } from "../scenarios/active.ts";
 import { matchScenarios } from "../scenarios/match.ts";
 
 /** Everything the tools need; injectable so they can be tested with mocks. */
@@ -175,7 +176,7 @@ export async function callTool(name: string, args: Record<string, unknown>, deps
 
     case "list_scenarios": {
       const domainId = args.domainId ? String(args.domainId) : null;
-      const scenarios = generateScenarios().filter((s) => !domainId || s.domainId === domainId);
+      const scenarios = (await activeScenarios()).filter((s) => !domainId || s.domainId === domainId);
       return { count: scenarios.length, crossDomain: crossDomainCount(scenarios), scenarios };
     }
 
@@ -186,7 +187,7 @@ export async function callTool(name: string, args: Record<string, unknown>, deps
         summary: args.summary ? String(args.summary) : undefined,
         publishedAt: "1970-01-01T00:00:00Z",
       };
-      const matches = matchScenarios(news, generateScenarios());
+      const matches = matchScenarios(news, await activeScenarios());
       return {
         matched: matches.length,
         playbooks: matches.map((m) => ({

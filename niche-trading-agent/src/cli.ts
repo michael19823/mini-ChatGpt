@@ -9,6 +9,7 @@ import { DOMAINS } from "./domains.ts";
 import { scoreEntries, summarize } from "./scoring.ts";
 import { generateScenarios, crossDomainCount } from "./scenarios/planner.ts";
 import { ScenarioStore } from "./scenarios/store.ts";
+import { activeScenarios } from "./scenarios/active.ts";
 import { matchScenarios } from "./scenarios/match.ts";
 
 loadEnv();
@@ -125,9 +126,9 @@ async function cmdPlan(): Promise<void> {
 
 async function cmdScenarios(): Promise<void> {
   const filter = process.argv[3];
-  const scenarios = (await new ScenarioStore().load()).filter((s) => !filter || s.domainId === filter);
+  const scenarios = (await activeScenarios()).filter((s) => !filter || s.domainId === filter);
   if (scenarios.length === 0) {
-    console.log(filter ? `No scenarios for "${filter}". Run \`npm run plan\` first.` : "No scenarios. Run `npm run plan` first.");
+    console.log(filter ? `No scenarios for "${filter}".` : "No scenarios. Run `npm run plan` first.");
     return;
   }
   console.log(`\n${scenarios.length} scenario(s)${filter ? ` for ${filter}` : ""}:\n`);
@@ -147,7 +148,7 @@ async function cmdReact(): Promise<void> {
     console.log('Usage: npm run react -- "<headline text>"');
     return;
   }
-  const scenarios = await new ScenarioStore().load();
+  const scenarios = await activeScenarios();
   if (scenarios.length === 0) {
     console.log("No scenarios yet. Run `npm run plan` first.");
     return;

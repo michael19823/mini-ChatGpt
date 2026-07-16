@@ -54,6 +54,7 @@ npm run plan       # foresight: pre-compute scenarios, chain effects & playbooks
 npm run scenarios  # view the pre-computed scenarios (optionally: -- <domainId>)
 npm run embed      # (optional) precompute scenario vectors for semantic matching
 npm run react -- "Red Sea attacks disrupt Suez shipping"   # instant playbook
+npm run listen     # live push listener → react → record (replay offline, Alpaca WS live)
 npm run once       # process the sample news once, record paper trades
 npm run report     # show the paper-trade ledger
 npm run score      # score recorded trades vs current prices (hit rate + return)
@@ -148,6 +149,31 @@ the whole fuel cycle, a *shadow-fleet sanctions* tanker squeeze, and a *DJI
 FCC-ban* forcing domestic drone reshoring that ripples into ag equipment. This
 is the batch "thinking" layer; regenerate it periodically, not per-event.
 
+## Live listener (push ingestion)
+
+The always-on "fast loop": a **push** listener holds a connection open and reacts
+the instant news arrives — no polling.
+
+```bash
+npm run listen
+```
+
+- **`alpaca`** — real-time news over Alpaca's free WebSocket (Benzinga-sourced,
+  structured with tickers). Set `APCA_API_KEY_ID` + `APCA_API_SECRET_KEY` (a
+  paper account works) and it auto-selects. Zero-dependency: uses Node 22's
+  built-in `WebSocket`, with auto-reconnect/backoff.
+- **`replay`** — the offline default: replays `data/fixtures/sample-news.json`
+  through the exact same push pipeline, so you can exercise it with no key.
+
+Each pushed item runs: **dedup → hybrid scenario match → record fired playbooks
+to the ledger** (deterministic, no LLM per event). Dedup is durable
+(`data/seen.log` + the ledger), so restarts and reconnects never reprocess.
+
+This is the fast, live half of the two-speed design. The heavy thinking (the
+multi-agent foresight council) is the *batch* half — run it periodically to
+refresh the scenario set the listener reacts against. It runs on any always-on
+host (a small VM/container); this repo's sandbox is ephemeral.
+
 ## Making it "real" (all optional)
 
 Copy `.env.example` to `.env` and set only what you want:
@@ -230,7 +256,10 @@ src/
     mock.ts         deterministic heuristic "expert" (default)
     ollama.ts       optional real-model backend (uses SKILL.md as system prompt)
     index.ts        backend factory
-  news/index.ts     news sources: fixture (offline), RSS/Atom, SEC EDGAR, multi
+  listeners/        push ingestion: alpaca (WebSocket), replay (offline), factory
+  daemon.ts         live loop: listener → dedup → scenario match → ledger
+  seen.ts           durable dedup for the listener (survives restarts)
+  news/index.ts     pull sources: fixture (offline), RSS/Atom, SEC EDGAR, multi
   prices.ts         price providers: mock, fixture (snapshot), Stooq, Finnhub
   scoring.ts        score recorded trades vs current prices (pure, tested)
   ledger.ts         append-only paper-trade log
@@ -238,7 +267,7 @@ src/
   mcp/
     tools.ts        MCP tool defs + dispatcher (list_experts, analyze_headline, …)
     server.ts       dependency-free stdio JSON-RPC 2.0 MCP server
-  cli.ts            once | loop | report | score | plan | scenarios | embed | react | domains
+  cli.ts            once | loop | listen | report | score | plan | scenarios | embed | react | domains
 data/
   fixtures/sample-news.json   sample headlines (offline news)
   fixtures/prices.json        price snapshot (offline scoring)

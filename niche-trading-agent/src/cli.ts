@@ -13,6 +13,8 @@ import { activeScenarios } from "./scenarios/active.ts";
 import { reactToEvent } from "./scenarios/react.ts";
 import { createEmbedder } from "./embeddings/index.ts";
 import { VectorStore, scenarioText } from "./scenarios/vectors.ts";
+import { createListener } from "./listeners/index.ts";
+import { runDaemon } from "./daemon.ts";
 
 loadEnv();
 
@@ -175,6 +177,27 @@ async function cmdReact(): Promise<void> {
   console.log("(Pre-computed playbook = instant decision. Paper trading only, not investment advice.)");
 }
 
+async function cmdListen(): Promise<void> {
+  const listener = createListener();
+  const prices = createPriceProvider();
+  const ledger = new Ledger();
+  console.log(`\n▶ Live listener [${listener.name}, prices=${prices.name}] — reacting to pushed news. Ctrl-C to stop.\n`);
+  if (listener.name === "replay") {
+    console.log("(No Alpaca keys set → replaying data/fixtures/sample-news.json through the push pipeline.)");
+    console.log("(Set APCA_API_KEY_ID + APCA_API_SECRET_KEY and LISTENER=alpaca for the live WebSocket.)\n");
+  }
+  const onStop = async () => {
+    await listener.stop();
+    process.exit(0);
+  };
+  process.on("SIGINT", onStop);
+  process.on("SIGTERM", onStop);
+
+  const result = await runDaemon({ listener, prices, ledger });
+  // For the finite replay listener, start() resolves after the fixture is drained.
+  console.log(`\nProcessed ${result.processed} item(s); ${result.fired} fired a playbook; ${result.recorded.length} paper trade(s) recorded.`);
+}
+
 async function cmdEmbed(): Promise<void> {
   const embedder = createEmbedder();
   if (!embedder) {
@@ -214,12 +237,13 @@ const commands: Record<string, () => void | Promise<void>> = {
   scenarios: cmdScenarios,
   embed: cmdEmbed,
   react: cmdReact,
+  listen: cmdListen,
   domains: cmdDomains,
 };
 
 const handler = commands[cmd];
 if (!handler) {
-  console.error(`Unknown command "${cmd}". Use: once | loop | report | score | plan | scenarios | embed | react | domains`);
+  console.error(`Unknown command "${cmd}". Use: once | loop | report | score | plan | scenarios | embed | react | listen | domains`);
   process.exit(1);
 }
 await handler();

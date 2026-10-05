@@ -233,3 +233,5 @@ What didn't:
 - Pricing for domestic-work services.
 - Anything about SITAM's actual go-live.
 - Italy's quiet trades are heavily intermediated by associations, CAFs, patronati and CAAs, which is why most of the screen was rejected.
+
+Research model: Opus

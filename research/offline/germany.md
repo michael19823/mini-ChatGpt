@@ -341,3 +341,5 @@ German needed.
 What worked: German regulator queries built from the name of the form or the paragraph ("Bohranzeige GeolDG", "Anzeige Fliegende Bauten Formular", "Abfindungsanmeldung 1221", "Vergnügungssteuer Zählwerksausdrucke"). Municipal PDFs show fragmentation immediately, and lobby-register entries give association member counts. Searching association sites (kleinbrennerverband, badens-brenner, DSB) surfaced the strongest trigger (Zoll-Portal 2027).
 
 What didn't: count queries (driller numbers, pawnbrokers, livestock traders) rarely returned figures, and complaint evidence is nearly absent, as expected for quiet industries. Interviews are needed for both. Searches for operator-side software often return only the organiser- or authority-side tools.
+
+Research model: Opus

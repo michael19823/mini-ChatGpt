@@ -184,3 +184,5 @@ Software only, low. A non-local founder could sell through clubs, but Spanish is
 ## 4. Method notes
 
 What worked: searching Spanish regulator vocabulary such as "libro registro", "comunicación", "plazo", the order or RD number, "sede electrónica" and "confederación". Farm-press sites (agronewscastillayleon, iagua) were the best "insider pain" source. Searching "software + <obligation>" in Spanish found the incumbents quickly (ORONET, XAGROS-RETO, piscinae). What didn't work: English queries; generic searches for software that integrates with police books; searches for protests in the fishing sector. The session hit the search usage limit at about 31 queries, so competitor diligence on irrigation-community software and on meter vendors' filing features is still open. That should be the first check before any customer interviews.
+
+Research model: Opus

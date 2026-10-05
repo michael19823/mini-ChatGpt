@@ -169,3 +169,5 @@ HelloAsso or Brocabrac already offers register export (not verified this pass), 
 - **Worked:** French regulator vocabulary ("registre de police", "carnet sanitaire", "arrêté du … 2026", "déclaration au maire", "cerfa") surfaced Légifrance, ARS, DREETS and commune arrêtés quickly. Commune PDF regulations are the best offline evidence. AIDA/INERIS and lawyer blogs (kohenavocats) indexed 2026 arrêtés fast.
 - **Didn't work:** Count queries (number of forains, pools, dealers) returned nothing usable. Old Assemblée nationale written questions (2007–2014) dominate the dealer queries. Before scoring any "unserved" niche, always run a "<obligation> numérique / application" query. It found the pool vendors and VISIOCaptures.
 - **Unfinished:** The search tool refused at call 36. Livestock traders and forain market counts are unresolved.
+
+Research model: Opus

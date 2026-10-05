@@ -183,3 +183,5 @@ Kill the idea if SOFTEK or ERPs already offer mobile intake, or if buyers report
 - Ex-Yugoslav language overlap is a trap. Croatian and Montenegrin results (zakon.hr, narodne-novine) crowd out Serbian ones, so add "Srbija" or the Serbian ministry name.
 - In several quiet Serbian sectors the "substitute" is a free system run by the state or a chamber: NBS exchange software, the seasonal-worker portal, the Hunting Chamber information system, eAgrar, the vet stations. That cut most candidates.
 - Not covered: livestock movements, taxi and tattoo studios were not screened, to stay within budget.
+
+Research model: Opus

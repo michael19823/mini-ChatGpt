@@ -257,3 +257,5 @@ Inspectors only check physical premises, not files, or KinJo adds a free record-
 - Generic Arabic queries were flooded with **Saudi, Kuwaiti and Egyptian** results (MEWA, MoCI, youm7). Adding "الأردن" plus a Jordanian body name (المفرق, سلطة المياه, ammanchamber) helped.
 - In Jordan, enforcement shows up as **raids and governor committees** rather than filings. That is a signal that most quiet industries here lack a recurring data workflow.
 - Official instruction PDFs exist on moa.gov.jo and mosd.gov.jo, but their text couldn't be read without WebFetch, so record-keeping clauses remain **unverified**.
+
+Research model: Opus

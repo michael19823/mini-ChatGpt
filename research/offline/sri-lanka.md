@@ -223,3 +223,5 @@ Enforcement stays nominal.
 - Daily FT and Daily Mirror are the best sources for insider pain.
 - Sinhala and Tamil queries were not tried, because the budget ended early.
 - The session stopped after 9 searches (8 succeeded) when the tool returned a usage-limit refusal. Tea, fisheries and excise remain unscreened and are the best next targets.
+
+Research model: Opus

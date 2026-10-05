@@ -232,3 +232,5 @@ Fewer than 300 concession holders, or reports are simple annual letters.
 - **What worked:** Croatian-language queries naming the rulebook or register (Pravilnik, evidencija, eObrazac, Narodne novine) plus the ministry advisory site savjetodavna.mps.hr, plus agro media (Agroklub, Gospodarski list). In Croatia the state usually ships a free portal or app, so the competitor check must start with "does the ministry already give a free tool?"
 - **What didn't work:** Operator counts. Registers are seldom summarised, so searches for "broj …" mostly failed. Competitor-name searches returned generic English SaaS pages.
 - **Budget:** One call was refused mid-pass. Tattoo, taxi, market-trader and household-employer screening were not done.
+
+Research model: Opus

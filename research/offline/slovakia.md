@@ -218,3 +218,5 @@ Needs a local.
 - No national counts were found for chimney sweeps, livestock keepers or scrap buyers.
 
 **The main structural finding:** in Slovakia the regulator itself usually supplies a free electronic channel, through IS CÚR, CEHZ farmer access or the SPK's DoReviru. That removes most of the "paper to portal" gap that this pass looks for.
+
+Research model: Opus

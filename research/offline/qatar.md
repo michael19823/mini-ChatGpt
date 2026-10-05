@@ -188,3 +188,5 @@ Offices already use a GCC recruitment system, or the guarantee period is not a r
 - Queries for registers and counts ("عدد ... المرخصة") mostly failed. Qatar publishes few register-level counts outside data.gov.qa. The MOCI "active licences by municipality and business activity" dataset on data.gov.qa is the right next source for counting operators (https://www.data.gov.qa/explore/dataset/moci-active-certificates-by-municipality-and-business-activity/).
 - I used 16 of 20 searches. A usage-limit refusal interrupted the run at call 14. I did not screen camel racing, beekeeping or labour-accommodation inspections. MoL's quarterly "sector statistics" releases (Gulf Times / Qatar Tribune) are the best enforcement source: they give inspection counts per licensed sector.
 - Structural finding: Qatar's quiet industries are thin, and the state digitises their licences directly. A quiet-industry wedge here only makes sense as part of a GCC product, with Saudi Arabia as the anchor market (scrap registers, Musaned recruitment, domestic WPS).
+
+Research model: Opus

@@ -222,3 +222,5 @@ Treat this as a feature of the first-round НИСО ledger idea, not as a separa
 - English or generic queries, and the veterinary antimicrobial query, returned Russian and Ukrainian results.
 - The search tool hit a usage limit after 11 calls. Taxis, market traders, cemeteries, gold buyers and tattoo studios were not screened.
 - **Next step if budget returns:** confirm the small stills' Customs register and declaration format (ЗАДС and its implementing rules), and count pawnshops and scrap sites from the registers.
+
+Research model: Opus

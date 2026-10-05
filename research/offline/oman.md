@@ -203,3 +203,5 @@ The ministry does not inspect DPMS shops beyond the compliance-officer email, or
 - Official registers and forms were not reachable through search.
 - I did not search in Arabic, which is the main gap. Arabic queries on mol.gov.om, mafwr.gov.om and tejarah.gov.om (for example «سجل», «ترخيص», «مخالفات») would be the next step.
 - In Oman the structural finding is that Sanad centres and recruitment or clearing offices are the paid "integration layer". Any quiet-industry product has to be sold through them, and it needs a local.
+
+Research model: Opus

@@ -199,3 +199,5 @@ Needs a local partner and donor relationships.
 - **Best source for counts:** US State Dept religious-freedom reports, which cite Ministry of the Interior registry numbers.
 - **What didn't work:** queries for 2025–26 registers or licence lists. Burundian regulators publish almost nothing online, so operator counts were mostly unobtainable.
 - **Not tried:** Kirundi queries, because of the 8-call budget.
+
+Research model: Opus

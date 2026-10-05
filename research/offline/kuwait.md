@@ -118,3 +118,5 @@ Low to moderate. Owners would more likely pay for software than for a service.
 - **Arabic queries without a domain filter were swamped by Saudi, Egyptian and Qatari results.** "الكويت" in the query isn't enough: two of my first four queries returned other countries' data. Restricting to Kuwaiti press domains (alraimedia.com, alanba.com.kw, aljarida.com, alseyassah.com) worked well and returned PAAAF enforcement news straight away.
 - **Kuwait's quiet trades are mostly state-dependent** (plots, feed subsidies, a single state cemetery operator, Municipality relocations). The regulator usually *is* the service provider, so there is little "filing burden on a small business" for software to remove. Kuwait's real quiet-industry wedge stays the DNFBP AML work covered in the main report (gold dealers, real-estate brokers).
 - **Not screened because the search was refused:** used-car and spare-parts dealers (a possible cash-ban extension), fishermen, barbers and salons, small food producers, the Friday market. These are the next queries if anyone revisits Kuwait.
+
+Research model: Opus

@@ -107,3 +107,5 @@ The main POS vendors used in Pas de la Casa already output the monthly Customs f
 - Catalan queries naming the specific law ("mercaderies sensibles", "llibre registre") worked well and surfaced portaljuridicandorra.ad, the BOPA and the local press.
 - Generic Catalan queries (CASS domestic workers, livestock register) were swamped by Catalonia/Spain results. For Andorra, add "Andorra" plus an Andorran institution name (CASS, APRA, Govern, BOPA).
 - No query found an official count of licence holders. Andorra publishes few registers. Counts come from the press or the statistics department.
+
+Research model: Opus

@@ -271,3 +271,5 @@ What didn't work:
 - Searches for 2026 amendments to older Acts (SGDA, Massage Establishments Act) returned foreign results.
 
 Overall, Singapore's quiet trades file through state portals, so the remaining gap is counter-side record capture before the filing, not the filing itself. The search tool's usage limit cut the pass at about 28 searches.
+
+Research model: Opus

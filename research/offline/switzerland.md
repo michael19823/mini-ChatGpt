@@ -243,3 +243,5 @@ Possible for a non-local in German or French, but walk-in sales favour a local.
 - What didn't work: queries for operator counts rarely returned numbers.
 - Lesson: in Switzerland the federal level is usually already digital (Guichet Unique, eTransit, PREZIUS, Quitt). The remaining offline friction sits at **commune** level (Feuerungskontrolle) and in cantonal environmental filings.
 - Not done: beekeepers, tattoo studios, cemeteries, taxis, fishermen, pawnbrokers and scrap dealers were not screened, because the search tool hit a usage limit after about 16 searches.
+
+Research model: Opus

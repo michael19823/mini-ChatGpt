@@ -1,103 +1,183 @@
 # Sweden - offline-industries pass (2026-10-05)
 
-**Status: incomplete.** The search tool returned "You've hit your usage limit" on the 3rd WebSearch call. Following the instructions ("If a search is refused, stop and write up what you have"), I stopped there. Only 2 searches returned results, so this report is short. Most rows in the screening table rest on background knowledge and are marked **unverified**. Treat them as a list of hypotheses for a rerun, not as findings.
+Method: 37 WebSearch calls, Swedish first. The search tool refused calls three times with a usage-limit message and was resumed when the coordinator said so. WebFetch was not used. Evidence comes from search summaries of official pages (Folkhälsomyndigheten, SGU, Livsmedelsverket, E-hälsomyndigheten, Polisen, Transportstyrelsen, Jordbruksverket, municipal pages, riksdagen.se). Anything not confirmed is marked "unverified" or "estimate".
 
-Context from the existing country report (`research/countries/sweden.md`): Sweden is highly digitised. Regulators usually ship a free e-service, and vertical vendors adapt fast. Many quiet industries that would be paper-based elsewhere (horse medication, sprutjournal, fish logbooks, hazardous-waste notes) already have a state e-service. That report already killed these, and this pass doesn't repeat them.
+Context from the existing country report (`research/countries/sweden.md`): Sweden is highly digitised. Regulators usually ship a free e-service, and vertical vendors adapt fast. This pass confirms that for quiet industries too. Almost every "paper" duty on the seed list already has a state e-service, a municipal e-form (often on the shared Open ePlatform "getflowform" platform, which lets an installer fill in the form and send a BankID signing link to the owner), or a certified intermediary. **No quiet-industry opportunity in Sweden scores above 3/10.**
 
 ## 1. Quiet industries screened
 
 | Industry | Obligation | Evidence it's offline | Rough count (source) | Verdict | One-line reason |
 |---|---|---|---|---|---|
-| Small alcohol producers with farm-gate sales (gårdsförsäljning) | New from 1 Jun 2025: municipal permit, own-control programme filed with the application, sales only in connection with a visitor arrangement, statistics to Folkhälsomyndigheten (volume per drink category, number of visitors, number of buyers) | Permit is applied for per municipality (each municipality publishes its own page and form); statistics duty is new; producers are farms, vineyards and micro-breweries (verified: Folkhälsomyndigheten and municipal pages) | Not found. Estimate: several hundred eligible micro-breweries, distilleries, cider makers and vineyards (unverified) | Weak candidate (opp. 1) | Real new trigger in a quiet sector, but the market is small and the duties are light |
-| Scrap metal dealers | Police permit, ID check and register of seller details under the old scrap law; a cash ban was proposed (SOU 2014:72) | Register keeping is traditionally a paper ledger (unverified) | Not found | Rejected | The cash ban has been proposed repeatedly but, per the search, is not law; no 2025–2027 trigger found; permits are few |
-| Second-hand goods dealers | Registration with police and a ledger of purchases for some goods (begagnatlagen) | Old law, traditionally a paper ledger (unverified) | Not found | Rejected | No new trigger found; dealers' POS or Excel covers it |
-| Well drillers (brunnsborrare) | Report each new well to SGU (Brunnsarkivet) | SGU has a digital channel (unverified; this search was refused) | A few hundred firms (estimate) | Rejected (unverified) | Single receiving authority, tiny market, likely a free SGU route |
-| Chimney sweeps | Brandskyddskontroll and sotning protocols to the municipality | Municipally contracted (often monopoly per area); trade software exists (unverified) | About 290 municipalities, a few hundred firms (estimate) | Rejected | Few buyers, municipal contracts, existing sweep software (unverified) |
-| Households as employers (nanny, private carer) | Monthly per-individual employer declaration (AGI) to Skatteverket for private employers | Skatteverket's own e-service for private persons (unverified) | Not found | Rejected | Few true household employers; RUT companies absorb most demand; the state portal is free |
-| LSS "own employer" assistance users | Payroll plus monthly time reports to Försäkringskassan | Approved ELT suppliers already exist (see country report) | Not found | Rejected | Covered by Försäkringskassan-approved systems and assistance cooperatives |
-| Beekeepers | Apiary registration with Länsstyrelsen / Jordbruksverket | Mostly hobbyists (unverified) | Not found | Rejected | Hobby sector, no willingness to pay |
-| Livestock traders and animal transport | Registration, journey logs, CDB movement reporting to Jordbruksverket | CDB is a state e-service; farm software (Växa, etc.) reports (unverified) | Not found | Rejected | State e-service plus incumbent farm software |
-| Kennels and breeders | Permit under the animal welfare law (16 §), Jordbruksverket dog register | Länsstyrelsen permit, free dog register (unverified) | Not found | Rejected | Low frequency, hobby-heavy, no money |
-| Tattoo and piercing studios | Notification (anmälan) to the municipal environment and health office, hygiene own-control | One-off notification plus inspection (unverified) | Not found | Rejected | One-off duty, no recurring filing |
-| Taxi operators | Taxameter data to a redovisningscentral, permit from Transportstyrelsen | Fully digital by law (redovisningscentraler) (unverified) | Not found | Rejected | Already digital and intermediated |
-| Fishermen selling own catch | First-hand sale and sales notes to HaV | HaV e-services; country report already rejected the small-vessel logbook | Not found | Rejected | State tools exist |
-| Monument makers and cemeteries | Gravestone permits from the burial-ground manager (often the Church of Sweden) | Paper or email permit to the parish (unverified) | Not found | Rejected (unverified) | Per-job but low pain; the Church of Sweden runs its own systems |
+| Energy-well drillers and ground-source heat-pump installers | Per job: municipal notification for the heat-pump installation (6 weeks before work, fee e.g. SEK 2,448 in Herrljunga in 2025, site plan at 1:400, neighbour consent within 10 m) and a drilling protocol to SGU Brunnsarkivet (duty since 1976/1985) | Each municipality has its own form or PDF; an unclear site plan is "one of the most common reasons" for requests to supplement | About 25,000 well records a year, of which about 20,000 are energy wells (SGU) | Weak candidate (opp. 1) | Real "one job, two receivers" pattern, but SGU has a free web form, SDF integrates with it, and municipal e-forms already support installer pre-fill |
+| Small commercial drinking-water facilities (campsites, farm shops, rental housing, restaurants with own well) | LIVSFS 2022:12: hazard analysis, examination programme set by the municipality (valid at most 6 years), sampling at an accredited lab; from 1 Jan 2026 raw-water sampling, new parameters and lower limits for lead, arsenic, cadmium and chromium | Municipal PDF programme templates; the operator is a non-expert owner | Not found (estimate: several thousand; unverified) | Weak candidate (opp. 2) | Real 2026 trigger and a quiet buyer, but 1–4 samples a year and labs and consultants already do the work |
+| Small alcohol producers with farm-gate sales (gårdsförsäljning) | Municipal permit (from 1 Jun 2025), own-control programme, sales only during visitor arrangements, per-visit limits (0.7 l spirits, 3 l wine, 3 l strong beer, 3 l other), statistics to Folkhälsomyndigheten | Municipal forms; rural owner-operators | 178 permits (Folkhälsomyndigheten, 30 Apr 2026); 188 by 15 Jun 2026 (CAN) | Rejected (kill condition met) | Fewer than 300 permits nationally; Spiris (Visma) already publishes guidance aimed at these firms |
+| Shops selling over-the-counter medicines | Notification to Läkemedelsverket; **monthly** sales report to E-hälsomyndigheten, including "zero sales" months | Web form or tab-delimited file upload | About 5,200 outlets, about 500 with e-commerce (SOU 2023:101) | Rejected | Mostly grocery and chain stores reporting through head office or POS files; no new trigger (prop. 2025/26:247 from 1 Jan 2027 concerns a pharmacy-advice drug class) |
+| Scrap-metal dealers | Old police regime; cash ban proposed in SOU 2014:72 and riksdag motions | Not checked | Not found | Rejected | Cash ban still not law and Miljöstraffrättsutredningen chose not to propose it, so there is no trigger |
+| Second-hand goods dealers | Registration with Polisen before trading in listed goods (phones, computers, bicycles, mopeds, boats, cameras, art, etc.) plus a purchase ledger (lag 1999:271) | Police PDF forms (Polisens blankett 572.4/572.5) | Not found | Rejected | Old law, no trigger, and dealers' POS or marketplace tools hold the records |
+| Households as employers (nanny, cleaner) | Simplified employer declaration SKV 4805 (edition 31, Dec 2025) | Skatteverket e-service exists | Not found | Rejected | Free e-service, occasional use; RUT firms absorb most of the market |
+| LSS "own employer" assistance users | Payroll plus time reports to Försäkringskassan | Approved ELT suppliers (see country report) | Not found | Rejected | Covered by Försäkringskassan-approved systems |
+| Chimney sweeps | Fire-safety inspection protocols to the municipality; the kontrollbok register (SKL/SSR definition) | The kontrollbok **must be digital** | About 290 municipal areas, often one contracted sweep each | Rejected | Already digital, few buyers, municipal contracts |
+| Taxi operators | Taxameter data to a licensed redovisningscentral at least weekly | Fully digital by law; Transportstyrelsen monitors gaps | Not found | Rejected | Already digital and intermediated |
+| Livestock traders and exporters, animal keepers | Exporter registration (30 days before first export, valid 1 year), CDB movement reporting, keeper registration of horses, poultry etc. since 2021 | Jordbruksverket e-services ("Registrera anläggning", CDB) | Not found | Rejected | State e-services plus farm software |
+| Tattoo studios | Municipal health-protection supervision; EU REACH ink restriction | No new Swedish duty found | Not found | Rejected | No recurring filing, no trigger |
+| Nicotine-pouch and tobacco retailers | Notification or permit to the municipality, own-control (law 2022:1257) | Municipal e-forms | Not found | Rejected | One-off notification; trigger was 2022 |
+| Beekeepers, kennels, fishermen, monument makers | Registration or permit duties | Not checked this pass (searches spent elsewhere) | Not found | Rejected (unverified) | Hobby-heavy or served by state e-services (HaV, Jordbruksverket) |
 
 ## 2. Opportunities
 
-### Opportunity: Farm-gate Alcohol Compliance Kit (gårdsförsäljning)
+### Opportunity: Energy-well Permit Pack (heat-pump notification + SGU protocol)
 
 **Industry:**
-Small-scale alcohol production (micro-breweries, craft distilleries, cider makers, vineyards)
+Drilling firms and ground-source heat-pump installers (bergvärme)
 
 **Buyer:**
-The owner-operator of a small producer that holds, or is applying for, a gårdsförsäljning permit
+The owner or office manager of a small drilling firm or heat-pump installer who prepares the municipal notification for the homeowner and files the SGU drilling protocol
 
 **Trigger / Why now:**
-Since 1 Jun 2025, small producers can apply to the municipality where they sell for a farm-gate sales permit. Folkhälsomyndigheten issued regulations in May 2025. The production caps are 75,000 litres of spirits, 400,000 litres of fermented drinks up to 10% and 200,000 litres of fermented drinks above 10% per year. Producers must have an own-control programme (attached to the application) and must report statistics: total farm-gate sales volume per drink category, total visitors in visitor arrangements, and total visitors who bought alcohol.
+No new rule. The "why now" is volume: ground-source heat-pump sales rose 14% in 2025 (Svenska Kyl & Värmepumpföretagen), with growth in every quarter. Each job needs a municipal notification at least 6 weeks before work, and work started without one draws an environmental sanction fee.
 
 **Current workflow:**
-1. Apply to the municipality using its own form and attach the own-control programme (often written from scratch or from a template).
-2. At each visitor arrangement, log visitors and buyers and record volumes sold per category (probably on paper or in the till; unverified).
-3. Compile the statistics for Folkhälsomyndigheten and, separately, the excise tax return to Skatteverket (unverified for small producers).
-4. Prepare for municipal inspection (tillsyn) against the own-control programme.
+1. Agree the borehole position with the homeowner, check for wells and water sources within about 150 m and the 10 m boundary rule.
+2. Draw a 1:400 site plan with scale bar and north arrow, and collect neighbour consent if needed.
+3. Fill in that municipality's form (e-form with a BankID link to the owner, or a PDF) and pay a fee of about SEK 2,400–4,100.
+4. Wait up to 6 weeks (decision within 30 working days); answer requests to supplement.
+5. After drilling, file the protocol to SGU (web form, field app, or SDF integration).
 
 **Pain:**
-Moderate. The duty is new and municipal pages show that each municipality runs its own application. The per-visit visitor and buyer counting is unusual and not something a generic POS tracks. No complaints or enforcement were found (search budget lost).
+Moderate. Municipalities say an unclear site plan is one of the most common reasons for supplementation, and a delayed decision delays the job. Bergvärmeguiden says most installers already handle the application as part of their service, which is unpaid admin per job.
 
 **Existing solutions:**
-Unverified because of the search cut-off. Likely substitutes: the brewery or distillery's existing POS (Zettle, Sumup, Caspeco) for volumes; brewery ERP (Ekos, Breww; Swedish coverage unverified) for excise; templates from trade associations (Sveriges Bryggerier, Svenska Vinodlare, Spritproducenterna; their role is unverified); consultants for permit applications.
+- SGU's free Brunnsarkivet web form, which generates the protocol PDF with company logos.
+- Svensk Dataförvaltning (SDF) service system with an SGU integration and field reporting.
+- Municipal e-forms (Trosa, Varberg, Herrljunga, Timrå, Vilhelmina, Sala and others) that let the installer fill in everything and send a BankID link to the owner.
+- Lantmäteriet maps and SGU open well data as free inputs.
+- The installer's own office staff.
 
 **Offline evidence:**
-Applications go to individual municipalities (each with its own page and form, for example Sollentuna, Karlskoga, Mark and Alvesta). Operators are rural, small and owner-run. The statistics duty is new, with no known software listing.
+Each of the 290 municipalities has its own form, fee and rules (PDF forms in Emmaboda, Ystad, Kalix and Grästorp). The firms are small rural trade companies. The trade press is Borrsvängen.
 
 **Offline channel:**
-Producer associations (Sveriges Bryggerier, Svenska Vinodlare, Spritproducenterna; unverified that they run newsletters or fairs), municipal alcohol administrators who already receive the applications, and regional food networks (Länsstyrelsen food strategy contacts).
+Borrsvängen magazine and the drillers' trade body (Borrföretagen, which has a "find your driller" directory; membership count not found), heat-pump makers' dealer networks (NIBE, Thermia; unverified), and SITAC-certified driller lists.
 
 **Market count:**
-Not found. Estimate: a few hundred eligible producers (unverified). The number of permits granted since June 2025 is unknown and is the first number to find.
+About 20,000 energy wells a year (SGU). The number of drilling firms was not found (estimate: a few hundred; unverified). Several thousand heat-pump installers is an estimate.
 
 **The gap:**
-Possibly a combined "visit log → Folkhälsomyndigheten statistics + own-control evidence + per-person sales limit check" record. It's unclear whether a POS add-on already does this.
+A site-plan generator: property boundary plus borehole plus nearby wells pulled automatically from SGU open data and other features within 150 m, plus a per-municipality rules and fee table and an attachment checklist. SDF covers the SGU end; nobody visible covers the municipal package.
 
 **Possible product:**
-A tablet visit log for guided tastings that records visitors and purchases, enforces per-visit sales limits, and produces the annual statistics return and inspection-ready own-control evidence.
+Enter the property ID and borehole points, and get a compliant 1:400 site plan, a neighbour-consent letter and a pre-filled answer sheet for that municipality's form. After drilling, the same record feeds the SGU protocol.
 
 **MVP:**
-A web form plus an export to the Folkhälsomyndigheten statistics format, and an own-control programme template generator per municipality.
+A site-plan generator from Lantmäteriet maps plus SGU open well data, with a static table of municipal forms and fees for the 50 largest bergvärme municipalities.
 
 **Pricing hypothesis:**
-SEK 100–200 per month, or a one-off fee of SEK 1,500–3,000 for help with the permit application. This is probably a done-for-you service rather than software.
+SEK 150–300 per job, or SEK 500–1,000 per month per firm.
 
 **How to find first customers:**
-Municipal permit registers (public documents; whether they are published is unverified) and association member lists.
+The Borrföretagen directory, SITAC certification lists, Borrsvängen advertising, and heat-pump brand dealer locators.
 
 **Risks:**
-Tiny market, light duty (annual statistics), POS vendors adding a "visitor count" field, and low willingness to pay. Selling in Swedish to rural operators probably needs a local founder.
+Lantmäteriet map licensing; municipal e-forms already reduce typing; SDF could add a site-plan feature; installers may see this as 20 minutes of admin.
 
 **Kill condition:**
-Fewer than about 300 permits nationally, or the Folkhälsomyndigheten statistics turn out to be a one-screen annual form.
+Interviews show the site plan takes less than 30 minutes per job, or SDF or the municipal platforms already generate it.
 
 **Score:** 3/10
 
 **Sources:**
-- https://www.folkhalsomyndigheten.se/nyheter-och-press/nyhetsarkiv/2025/maj/beslut-om-foreskrifter-for-gardsforsaljning-av-alkohol/
-- https://www.folkhalsomyndigheten.se/regler-och-tillsyn/tillsynsvagledning-och-stod/tillsynsvagledning-for-forsaljning-av-alkoholdrycker-och-alkoholdrycksliknande-preparat/gardsforsaljning-av-alkoholdrycker/vagledning-for-gardsforsaljning-av-alkoholdrycker/
-- https://www.lansstyrelsen.se/sodermanland/om-oss/nyheter-och-press/nyheter---sodermanland/2025-06-02-nu-tillats-gardsforsaljning-av-alkohol.html
-- https://www.sollentuna.se/jobb--foretagande/tillstand-regler-och-tillsyn/alkohol/gardsforsaljning-av-alkohol/
-- https://karlskoga.se/naringsliv--arbete/naringslivsservice/tillstand-regler-och-tillsyn/gardsforsaljning-av-alkoholdrycker.html
-- https://www.vinsider.se/artiklar/gardsforsaljning-av-alkohol-tillats-i-sverige-fran-1-juni-2025/
+- https://resource.sgu.se/dokument/produkter/oppnadata/brunnar-oppnadata-beskrivning.pdf
+- https://www.sgu.se/produkter-och-tjanster/inrapporteringstjanster/
+- https://support.sdfab.se/hc/sv/articles/9551466725276-SGU-s-Brunnsarkiv
+- https://xn--borrsvngen-v5a.se/svensk-dataforvaltning-skraddarsyr-digitala-servicesystem/
+- https://etjanst.trosa.se/varmepump
+- https://sjalvservice.herrljunga.se/oversikt/getflowform/449/203
+- https://danderyd.se/globalassets/globala-filer/bygga-bo-och-miljo/miljo/blanketter-ansokan-varmepump/anvisning-varmepump-2024.pdf
+- https://bergvarmeguiden.se/bergvarme/tillstand
+- https://borrforetagen.se/hitta-din-borrare/
+- https://www.mynewsdesk.com/se/kyl-vaermepumpfoeretagen
 
-No other opportunity reached the bar.
+### Opportunity: Own-well Water Compliance Calendar (LIVSFS 2022:12)
+
+**Industry:**
+Small commercial and public drinking-water facilities: campsites, farm shops, rural restaurants, B&Bs, small schools and rental housing with their own well
+
+**Buyer:**
+The owner-operator who is legally the drinking-water producer (often also a food business)
+
+**Trigger / Why now:**
+From 1 Jan 2026, LIVSFS 2022:12 adds raw-water sampling (one sample a year for small groundwater facilities that treat the water), new parameters (bisphenol A, haloacetic acids, chlorate, chlorite, microcystin-LR, uranium; PFAS at the user's tap) and lower limits for lead, arsenic, cadmium and chromium. Municipalities are sending notices (Säter, Södertälje, Gnesta).
+
+**Current workflow:**
+1. Write a hazard analysis and propose an examination programme, often from a municipal template.
+2. The municipality sets the programme (valid at most 6 years).
+3. Remember the sampling dates, order kits from an accredited lab, take samples and send them.
+4. Send or let the lab send results to the municipality, and act on any limit breach.
+
+**Pain:**
+Low to moderate. Owners aren't water experts and the 2026 parameter changes force programme revisions. Missed samples show up at municipal inspection. No enforcement cases were found.
+
+**Existing solutions:**
+- Accredited labs (Eurofins, which ran a Dec 2025 webinar on clean water for food producers; municipal labs such as EEM).
+- Municipal templates for hazard analysis and examination programmes (Hörby, Älvdalen, Östra Göinge, Vårgårda).
+- Water-treatment and consultant firms.
+
+**Offline evidence:**
+Programmes are Word or PDF templates set by each municipal environment office. Buyers are rural micro businesses. No software listing was found.
+
+**Offline channel:**
+Municipal environment and health inspectors (who already send the notices), Visit Sweden and campsite associations (SCR Svensk Camping; unverified), the farm-shop network (Bondens egen marknad; unverified), and accredited labs as resellers.
+
+**Market count:**
+Not found. Estimate: several thousand facilities (unverified). Livsmedelsverket has no national count in the search results.
+
+**The gap:**
+A simple yearly calendar per facility that knows its programme, orders lab kits, and files results to the right municipality. Labs sell analyses, not compliance tracking across years and programme revisions.
+
+**Possible product:**
+A hazard-analysis and programme wizard that outputs the municipality's template, plus sampling reminders and a results archive for inspection.
+
+**MVP:**
+A wizard that generates a 2026-compliant examination programme from 10 questions, with email and SMS reminders.
+
+**Pricing hypothesis:**
+SEK 500–1,500 per year. In practice this is likely to work only as a lab add-on or a done-for-you service.
+
+**How to find first customers:**
+Municipal food and drinking-water registers (public documents on request) and lab partnerships.
+
+**Risks:**
+Very low frequency (1–4 samples a year); labs can add reminders; low willingness to pay; Swedish-language selling to rural owners probably needs a local founder.
+
+**Kill condition:**
+Labs already offer programme subscriptions with reminders, or there are fewer than 3,000 facilities.
+
+**Score:** 3/10
+
+**Sources:**
+- https://sater.se/nyheter/nya-krav-for-dricksvattenproducenter-1-januari-2026/
+- https://www.sodertalje.se/globalassets/miljo-och-halsa/livsmedel/information-nya-dricksvattenforeskrifter.pdf
+- https://www.livsmedelsverket.se/foretagande-regler-kontroll/dricksvattenproduktion/sma-dricksvattenanlaggningar--kommersiella-och-offentliga/undersokningsprogram/
+- https://faolex.fao.org/docs/pdf/swe214780.pdf
+- https://cdnmedia.eurofins.com/european-east/media/vfijfiqy/webinar_rent-vatten-grunden-foer-saeker-matproduktion_251205.pdf
+- https://www.horby.se/wp-content/uploads/undersokningsprogram-for-vattenverk-och-dricksvattenanlaggning.pdf
 
 ## 3. Rejected
 
-- **Scrap-metal cash ban / dealer register:** SOU 2014:72 proposed a cash ban and riksdag motions (e.g., 2021/22:2452) have asked for one, but the search found no enacted 2025–2027 change. With no trigger, it's an old police-permit regime with few dealers. https://www.regeringen.se/contentassets/7307f2c1c7b343be8fd0f075684d9fd7/handel-med-begagnade-varor-och-med-skrot---vissa-kontrollfragor-sou-201472/ ; https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svar-pa-skriftlig-fraga/fordrojt-inforande-av-kontantforbud-for-handel-med_h712104/
-- **Second-hand goods ledger:** old registration and ledger duty, with no new trigger found.
-- **All other seed groups** (household employers, beekeepers, livestock transport, kennels, tattoo studios, taxi, chimney sweeps, well drillers, fishermen, monument makers): rejected on background knowledge (unverified). Each either has a free state e-service (Jordbruksverket CDB, Skatteverket, HaV, SGU), is a one-off notification, is already digital by law (taxi redovisningscentraler), or is a hobby sector.
+- **Farm-gate alcohol kit (was 3/10 in the interrupted draft, now rejected):** only 178 permits by 30 Apr 2026 and 188 by 15 Jun 2026, which is below the 300 kill threshold. Spiris (Visma) already publishes guidance aimed at these firms. https://www.can.se/app/uploads/2026/04/kortfakta-09-gardsforsaljning-i-sverige-vem-ar-koparen.pdf ; https://www.spiris.se/blogg/lagar-regler/gardsforsaljning ; https://accentmagasin.se/alkohol/forsta-sommaren-med-gardsforsaljning-fa-tillstand-har-delats-ut/
+- **OTC-medicine monthly sales reporting:** a monthly mandatory duty, but about 5,200 outlets, mostly chain grocery stores that report by file. The web form is free and there is no trigger. https://www.ehalsomyndigheten.se/fragor-svar/pa-vilka-satt-kan-jag-rapportera/ ; https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2024/01/sou-2023101/
+- **Scrap-metal cash ban:** still not law. https://www.recyclingnet.se/article/view/1055317/dags_for_kontantforbud_i_skrothandeln
+- **Second-hand goods ledger:** old police registration (lag 1999:271), no trigger. https://polisen.se/tjanster-tillstand/tillstand-ansok/begagnade-varor/
+- **Household employers:** free Skatteverket e-service for SKV 4805. https://www.skatteverket.se/privat/blanketterbroschyrer/blanketter/info/4805.4.39f16f103821c58f680006744.html
+- **Chimney sweeps:** the kontrollbok must already be digital. https://sklinternational.se/download/18.1f376ad3177c89481f75fc1a/1615974645767/Kontrollboken%20-%20SKL-SSR.pdf
+- **Taxi:** weekly taxameter transfer to licensed redovisningscentraler. https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/taxi/taxiforetag/redovisningscentraler-for-taxi/
+- **Livestock and animal keepers:** Jordbruksverket e-services. https://nya.jordbruksverket.se/download/18.12a76f7e1775f5d8df6ab0f7/1697463566959/Manual-till-e-tjansten-Registrera-anlaggning-tga.pdf
+- **Tattoo, nicotine retail, beekeepers, kennels, fishermen, monument makers:** one-off notifications, no 2025–2027 trigger found, or hobby sectors (partly unverified).
 
 ## 4. Method notes
 
-- What worked: Swedish regulator-first queries returned useful official pages at once (Folkhälsomyndigheten, municipal permit pages, riksdagen.se, SOU reports). "<bransch> tillstånd ny lag 2026" is a good pattern.
-- What failed: the search quota ran out on call 3 of 40, so well drillers, chimney sweeps, household employers and the animal groups could not be checked. The leads most worth checking on a rerun are the number of gårdsförsäljning permits granted, the content of the Folkhälsomyndigheten statistics form, and any 2026 scrap-metal law change.
-- Structural point: Sweden's quiet industries are less offline than the seed list assumes, because agencies (Jordbruksverket, SGU, HaV, Skatteverket) usually provide the e-service themselves. Expect few strong offline-pass opportunities here.
+- What worked: Swedish regulator-first queries ("<bransch> anmälan kommun blankett", "nya krav 1 januari 2026", "antal tillstånd") quickly found official pages, and municipal e-form URLs (getflowform) revealed the shared e-form platform. Asking directly for permit counts ("antal tillstånd beviljade") produced the farm-gate number that killed that idea.
+- What failed: market counts for trades (drillers, small water facilities) are not published in search-visible form. Association membership searches returned nothing useful.
+- Structural point: Swedish agencies (SGU, Jordbruksverket, E-hälsomyndigheten, Skatteverket, Transportstyrelsen) almost always run their own e-service, and municipalities share e-form platforms with BankID signing. The offline gap in Sweden is small. What remains is per-municipality *content* (site plans, programmes, local rules), not the filing channel.
+
+Research model: Opus

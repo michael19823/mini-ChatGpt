@@ -322,3 +322,5 @@ Needs a local accountant partner. A remote sale to cooperative boards is unlikel
 - What worked: following **cross-cutting national resolutions** (SRI NAC-DGERCGC, UAFE's widening list of obligated subjects, SEPS/JPRF) down to the quiet sectors they newly catch. Ecuadorian law-firm and accountant blogs (NMSLaw, Lexis, Boletín Contable) plus Primicias reliably surface the resolutions.
 - What didn't: sector-specific "registro de chatarreros", livestock and slaughterhouse queries returned mostly Colombian or Argentine results. Operator counts (UAFE obligated subjects, ANT transport operators) are not published in searchable form. All three leads need a count from a public-information request (LOTAIP) or the SEPS list before interviews.
 - Founder access: all three leads need a local accountant or compliance-officer partner. None is a cold, remote SaaS sale.
+
+Research model: Opus

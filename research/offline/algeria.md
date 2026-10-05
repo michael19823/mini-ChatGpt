@@ -130,3 +130,5 @@ Any one of these kills the idea:
 - **Didn't work:** queries about vets, beekeepers and operator counts returned French or Moroccan results. Operator counts are almost never published.
 - **Main pattern:** in Algeria, quiet industries tied to subsidies end up digitised by the state itself, so the room left for a startup is small.
 - **Still to do:** Arabic-language queries, the jewellers' operator count and existing jeweller software were not covered. Two searches were refused for a usage limit.
+
+Research model: Opus

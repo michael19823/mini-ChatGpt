@@ -106,3 +106,5 @@ No other quiet-industry opportunity reached even this level.
 - ILO and social-protection.org briefs were the only source of hard counts (domestic workers).
 - Queries on livestock and slaughter were swamped by Portugal results, so a future query should include "Cabo Verde" plus an island or municipality name.
 - With 8 searches, the seed trades (tattoo studios, well drillers, kennels and so on) were skipped as almost certainly negligible in a microstate.
+
+Research model: Opus

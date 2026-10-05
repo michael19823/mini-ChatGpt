@@ -244,3 +244,5 @@ Kill the idea if DTSER does not inspect lesson records, or if schools are closed
 - What worked: Portuguese regulator-first queries naming the decree ("Decreto Executivo 7/26", "DP 41/24", "DP 155/16") and the trade's local name (sucateiros, candongueiros, zungueiras, kinguilas). The business weekly **Expansão** (expansao.co.ao) and **VerAngola** were the best sources for counts and enforcement. **lex.ao** and **angolex.com** host the gazette texts, and the Miranda and PLMJ law-firm notes summarise new decrees.
 - What didn't: livestock movement permits, well-drilling licences, cemeteries and DTSER exam workflow queries returned nothing usable. Official portals (ARMED, INSS, INRH) do not surface in search, and WebFetch was not allowed.
 - Pattern: Angola's typical regulatory response to informal quiet industries is **prohibition or crackdown**, not a register with recurring filings. That removes the recurring-workflow pattern the brief looks for. The regulated quiet segments that do file (pharmacies, driving schools) are small, a few hundred to a few thousand operators.
+
+Research model: Opus

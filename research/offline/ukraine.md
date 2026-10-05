@@ -209,3 +209,5 @@ What worked:
 What didn't:
 - No query returned operator counts. ДПСС and Ministry registers exist but their totals don't show up in search snippets, and WebFetch was not allowed.
 - Every "obvious" quiet-industry router idea (beekeeper notification, animal ID) had already been built by the state or an NGO for free. Ukraine needs a check of the free-state-tool alternative first.
+
+Research model: Opus

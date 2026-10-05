@@ -205,3 +205,5 @@ Kill the idea if the FSIB does not accept a third-party document, or if fewer th
 - The best trigger in this pass (tourism notification, 2026-10-15) came from a law-firm guide plus news, not from a regulator page.
 - One call (the 14th) was refused at a usage limit; the session resumed after the limit reset, for 19 calls in total. Armenian-language queries mostly returned the Armenian versions of English news.
 - The Armstat sector-review PDF was the best source for recurring hotel reporting. CBA licence acts on regalert.today give no total counts of pawnshops or exchange offices.
+
+Research model: Opus

@@ -271,3 +271,5 @@ The licensed operator count is under 100, or there is no reporting to a body.
 - **Domestic workers, DNFBPs and vet counts:** queries returned only old laws or generic results.
 - **Recurring outcome:** many Albanian quiet sectors are being absorbed by free state platforms (e-Transport, livestock database, cannabis registry, auto-filed VAT). Always check for a state platform first.
 - **Operator counts:** these were rarely published, except for exchange offices, fishing and intercity transport.
+
+Research model: Opus

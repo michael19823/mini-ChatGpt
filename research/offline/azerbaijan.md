@@ -213,3 +213,5 @@ A local only.
   - Searches for operator-side record books ("uçot jurnalı", the accounting/record book) returned nothing.
   - Business counts were rarely published.
   - Trade associations barely surfaced.
+
+Research model: Opus

@@ -166,3 +166,5 @@ work: Arabic queries mostly returned Kuwaiti or Saudi results (for example, a "B
 actually a Kuwaiti rule). Western seed categories (scrap, second-hand, beekeeping, pest control)
 produced no Bahrain hits. In Bahrain, quiet trades are mostly regulated by MOIC, LMRA and SCE,
 and the state increasingly runs the portal itself.
+
+Research model: Opus

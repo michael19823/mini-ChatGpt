@@ -1,18 +1,19 @@
 # Omnimatic (turkey) - dropped idea C1063: CBAM/SKDM carbon software
 
 ## Verdict
-not-a-real-competitor (UNVERIFIED: provisional, based on no evidence found)
+not-a-real-competitor (no evidence found that Omnimatic exists as a CBAM/SKDM product; name may be a misspelling or an unindexed firm)
 
 ## Evidence
-- Both WebSearch calls attempted (English and Turkish queries) failed with "You've hit your usage limit". No search results were obtained.
-- The competitor list has no URL for Omnimatic. I found no evidence it exists as a CBAM/SKDM product. The name is unverified.
-- Complaints: none found, because no search succeeded. This is not evidence of no complaints.
+- 3 WebSearch calls succeeded on retry (English "Omnimatic CBAM carbon software Turkey"; Turkish "Omnimatic SKDM karbon yazılımı"; Turkish "Omnimatic" karbon ayak izi OR CBAM OR sürdürülebilirlik). None returned any company, product, review or news item called Omnimatic.
+- The searches instead surfaced other Turkish CBAM/carbon vendors, which may be the real rivals: CarbonEmit (https://bouncewatch.com/company/carbonemit, founded 2024, Turkey, modules for corporate carbon footprint, CBAM, product carbon footprint), Carbon Gate (https://www.carbongate.io/en/sanayi-uretim), and CBAMBOO (https://www.terra.do/climate-companies/cbamboo-2/). Kiwa offers CBAM verification services (https://www.kiwa.com/tr/tr/hizmetler/belgelendirme/cbam-dorulamas--karbon-snr-ayarlama-mekanizmas/). Not assessed here.
+- Complaints: none found, because there was nothing to review. No app-store, G2, Capterra, Reddit or forum hits for Omnimatic.
+- Momentum: unverified.
 
 ## Pricing
-Unverified. No published pricing found.
+Unverified. None published that I found.
 
 ## Fit gaps
-Unverified. Nothing could be assessed.
+Unverified. Nothing to assess.
 
 ## Opening
-Unknown. Re-run this check when search is available before using this verdict to revive or drop C1063.
+Omnimatic gives no reason to keep C1063 dropped; judge the idea against the other named Turkish vendors (e.g. CarbonEmit, Carbon Gate) instead.

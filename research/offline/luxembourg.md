@@ -46,3 +46,5 @@ Country-specific groups added: winegrowers, hunting syndicates and brocante orga
 
 - Paperjam, "Impératif à géométrie variable" (chimney sweeping set by communal police regulations): https://paperjam.lu/article/imperatif-a-geometrie-variable
 - Ville de Luxembourg, brocante 2023 application form: https://www.vdl.lu/sites/default/files/media/document/Brocante%202023%20formulaire%20FR.pdf
+
+Research model: Opus

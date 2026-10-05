@@ -217,3 +217,5 @@ Low willingness to pay. A non-local founder would need a Mongolian partner. The 
   - Searches for operator-side evidence (software vendors, complaints, forms in use) returned almost nothing.
   - Search results came back as summaries, so form-level detail (report templates, fine amounts) stays unverified.
 - Overall: Mongolia's quiet industries are either state-paid (veterinary units, herders) or have too few licensees (taxis, outfitters). Pawnshops are the one licensed SMB population with recurring filings, and they are worth a phone check of the FRC register if anyone pursues Mongolia.
+
+Research model: Opus

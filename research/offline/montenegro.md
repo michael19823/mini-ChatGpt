@@ -99,3 +99,5 @@ Already met: about 2,300 workers spread across a few hundred seasonal employers 
 
 - Local-language (Montenegrin/Serbian) regulator queries mostly return Serbian, Bosnian and Croatian pages, because the language is shared. Add "Crna Gora" plus a Montenegrin authority name (e.g. "Uprava za bezbjednost hrane", "Morsko dobro", "ZZZCG"), or restrict to the `.me` / `gov.me` domains.
 - The search tool hit its usage limit on the second call. The most promising untested country-specific leads are beach concessions on Morsko dobro land, nautical charter crew lists and tourist tax, and the Food Safety, Veterinary and Phytosanitary Administration's register of small food producers. Even if they pan out, each Montenegrin market is likely to be in the hundreds of operators.
+
+Research model: Opus

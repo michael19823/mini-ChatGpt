@@ -221,3 +221,5 @@ Paid by the wholesaler at about US$200–500/month for its depot network (estima
 - **What worked:** French regulator vocabulary ("carte de collecteur", "FIB", "arrêté", "registre", "cahier des charges") together with the Malagasy dailies (lexpress.mg, newsmada, 2424.mg, allAfrica FR). These surfaced dated 2025–2026 reforms quickly. Audit bodies (the Cour des comptes and the BIANCO anti-corruption bureau) and transparency reports (FiTI, EITI) proved the best sources of evidence on how the workflows really run.
 - **What didn't:** queries on domestic workers and gems returned NGO and tourist pages. No operator counts exist for most trades, and no trade-association directories are online.
 - **Overall:** in Madagascar, a "quiet industry" usually means one that is informal and state-administered, so there is little room for a third-party software vendor.
+
+Research model: Opus

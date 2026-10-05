@@ -90,3 +90,5 @@ The OMSP takes a buying or export monopoly or ships its own system, or fewer tha
 - French regulator queries with "registre" plus "obligation" found the legal text on FAOLEX right away. FAOLEX looks like the best source for Malian sector regulation.
 - Livestock queries returned mostly foreign import certificates (US APHIS, Brazil, Canada), which were not useful. Next time, add "DNSV" (Direction Nationale des Services Vétérinaires) to the query.
 - The search quota was exhausted on the 3rd call, so this report is a stub. Given the country-level verdict (practically inaccessible), it is not worth re-running before a UEMOA-wide pass.
+
+Research model: Opus

@@ -46,3 +46,5 @@ If the certificate is issued by hand at a state counter and the traders are info
 
 - French regulator-first queries (BCM bureaux de change, Hajj agrément) returned Moroccan, Tunisian and Algerian pages instead of Mauritanian ones. Mauritanian regulators publish little that is indexed. Next time, try Arabic queries and site-restricted searches on `.mr` domains (`bcm.mr`, `finances.gov.mr`).
 - The search budget was cut off after 3 calls ("usage limit"), so this report rests largely on the earlier country report and on structural reasoning.
+
+Research model: Opus

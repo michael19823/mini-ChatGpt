@@ -43,3 +43,5 @@ The leads most worth a future pass:
 - https://old.app.gov.md/storage/upload/heritage/heritageregister/tmp/phpmFOCEd/SA%20Metalferos%20RO%20(1).pdf
 - https://storage.mtender.gov.md/get/b233e436-fc09-4eab-9ecf-b93e180953e7-1751541443981 (licence conditions for metal-waste collection, as summarised in search results)
 - https://www.cnpf.md/storage/files/files/site_raport_transparenta%202024(2).pdf (CNPF plans to revise the pawnshop framework, as summarised in search results)
+
+Research model: Opus

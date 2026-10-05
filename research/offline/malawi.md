@@ -197,3 +197,5 @@ Owners might pay a small amount for software bundled with their wholesale supply
 - What worked: searching the Nation (mwnation.com), MBC and the government news agency MANA (manaonline) news archives for "<industry> crackdown / licence / register" surfaced enforcement and counts. The regulators' own sites (pmra.mw fee schedule PDFs, malawilii.org for Acts) gave the obligations.
 - What didn't work: searches for registers and lists returned almost nothing. No public lists of licensed dealers, drillers or agro-dealers were indexed. Local-language (Chichewa) queries were not attempted, because official records are in English.
 - Constraints: the 20-search budget limited count verification. Most market counts are unverified. The underlying limit is the market itself: quiet Malawian industries are informal and cash-poor, so even real triggers lead only to donor- or service-funded models.
+
+Research model: Opus

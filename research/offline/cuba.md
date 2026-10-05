@@ -70,3 +70,5 @@ Quiet industries make this worse, not better. Their operators are the least like
 ## Sources
 
 No new sources this pass. The accessibility findings come from `research/countries/cuba.md`, which cites Federal Register 2024-11618 and 2025-02282, Steptoe on E.O. 14404, the MINCOM certified-software lists (Feb and Jul 2025), and Directorio Cubano on Res. 8/2024.
+
+Research model: Opus

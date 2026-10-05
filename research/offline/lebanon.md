@@ -265,3 +265,5 @@ Local founder required. Not suitable for a non-local founder because of sanction
 - **Worked:** Arabic queries on enforcement vocabulary ("محاضر ضبط", "تسعيرة", "تعميم", "مهلة") surfaced the generator regime immediately; Lebanese news sites relay every ministry decision. English L'Orient Today articles gave counts and dates. BDL circular PDFs are indexed.
 - **Didn't work:** Arabic queries returned Saudi or Gulf results for domestic-worker topics, and Syrian or Egyptian results for scrap and abattoirs. Adding "لبنان" is not enough, and "الأمن العام" or named ministries work better. No public licence registers (counts) surfaced for any sector. Counts come from ministry statements to the press.
 - Lebanon's quiet regulated sectors are mostly crisis-born: generators, money changers. Their obligations come from enforcement campaigns rather than from portals.
+
+Research model: Opus

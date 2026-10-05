@@ -183,3 +183,5 @@ Kill the idea if CBL returns are a single simple form that owners already comple
 - **Worked:** the regulator-plus-year pattern in English (e.g. "Ministry of Mines … 2026", "Central Bank of Liberia forex bureaus … 2026"). Liberian news sites (allAfrica, FrontPage Africa, Liberian Observer, New Dawn, GNN) report regulator notices almost verbatim. Ministry pages and CBL PDFs surface well.
 - **Didn't work:** any query for operator counts. Registers are not online, so counts came only from donor documents (World Bank FSAP). Local-language search does not apply because English is the official language.
 - 19 of 20 searches were used, and there was no WebFetch, so the content of the vouchers and of the CBL return forms was not verified directly.
+
+Research model: Opus

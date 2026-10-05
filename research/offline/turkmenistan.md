@@ -62,3 +62,5 @@ The only theoretically viable shape would be a **local, TMT-billed, done-for-you
 - Private sector of 29,000 entities and tax regime: https://turkmenhemrasy.gov.tm/en/news/892
 - E-document law and e.gov.tm: https://uae.tmembassy.gov.tm/en/news/63611
 - Internet blocking: https://timesca.com/turkmenistan-tightens-internet-blocks-to-promote-state-controlled-vpns/ ; https://en.turkmen.news/news/dozens-of-foreign-websites-social-networks-blocked-in-turkmenistan/
+
+Research model: Opus

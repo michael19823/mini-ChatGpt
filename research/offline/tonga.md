@@ -102,3 +102,5 @@ Kill it if the main sending platforms (KlickEx etc.) already generate the NRBT/F
 - What worked: the central bank's licence list (published as a newspaper notice on Matangi Tonga) and ministry PDF guides (Fisheries). The Business Registries site (businessregistries.gov.to) is the best prospect source. It is searchable by activity and island group.
 - What didn't work: police-register and dealer-register queries (Tonga has none of these regimes online), and the land-transport and taxi data. English is enough; Tongan-language queries were not tried because of the budget.
 - Recommendation: treat Tonga only as an add-on market to Fiji/Samoa-led Pacific products (kava and MTO compliance). Do not research it further as a standalone market.
+
+Research model: Opus

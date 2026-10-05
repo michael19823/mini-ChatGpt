@@ -104,3 +104,5 @@ No other candidate reached a full write-up.
 ## 4. Method notes
 
 Local-language (Portuguese) queries with STP-specific terms (*palaiê*, *Câmara Distrital*, *BCSTP*) worked best. The local news site Téla Nón was the only source of 2026 regulatory triggers. Generic Portuguese queries mostly returned Portugal (seg-social.pt, DGRM, DGAV) or Brazil results, so future queries should add "telanon" or ".st". FAOLEX and ILO NATLEX hold the actual STP decrees. Searches for municipal/district fee schedules and moto-taxi licensing returned nothing: those regimes are not published online.
+
+Research model: Opus

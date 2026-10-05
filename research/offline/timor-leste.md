@@ -174,3 +174,5 @@ The licence is multi-year or one-off, or CCI-TL provides free filing help. Both 
 - Searches for registers and counts (traders, microlets, fishers) returned almost nothing current. Counts here are old or estimates.
 - One fisheries result (Notification 2024/27 on small-scale fisheries) was **Türkiye's**, not Timor-Leste's, and was discarded.
 - Searches in Portuguese ("trabalhadores domésticos", "licença actividade comercial") returned only English sources. Tetum queries were not tried within the budget.
+
+Research model: Opus

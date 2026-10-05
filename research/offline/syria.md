@@ -214,3 +214,5 @@ There are fewer than 50 active exporters, or the brokers already bundle this ser
 - Generic "licence + register" queries returned results from Jordan, Egypt and Saudi Arabia (for example, scrap licensing in Jordan and livestock tagging in Saudi Arabia). Always include "سوريا" (Syria) and an authority name.
 - No Syrian body publishes a register count. Every market count here is unknown or an estimate.
 - An 8-search budget was enough only to confirm triggers, not to do competitor diligence. The gold invoice idea needs a local interview before any further work.
+
+Research model: Opus

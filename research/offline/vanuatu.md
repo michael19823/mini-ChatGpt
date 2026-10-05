@@ -49,3 +49,5 @@ All rows marked Reject above. The nakamal levy, household payroll and bus permit
 - https://biosecurity.gov.vu/images\Legislation\Acts\Meat-Industry-Act-1991.pdf
 - https://biosecurity.gov.vu/index.php/exports
 - https://www.vfsc.vu/wp-content/uploads/2026/04/Vanuatu-Financial-Services-Commission-Act-CAP-295-Consolidated-Edition-2026.pdf
+
+Research model: Sonnet

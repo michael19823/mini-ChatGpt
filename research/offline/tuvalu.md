@@ -64,3 +64,5 @@ None. Every obliged population I found is in the single digits to low hundreds. 
 - Funafuti taxi and minibus: https://www.iexplore.com/articles/travel-guides/australia-and-south-pacific/tuvalu/transportation
 - DevPolicy, "Tuvalu's national labour migration policy ten years on" (July 2026): https://devpolicy.org/tuvalus-national-labour-migration-policy-ten-years-on-20260709/
 - CEIC, Tuvalu businesses registered (count not viewed): https://www.ceicdata.com/en/tuvalu/businesses-registered-statistics
+
+Research model: Opus

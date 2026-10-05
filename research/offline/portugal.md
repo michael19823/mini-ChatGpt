@@ -1,105 +1,170 @@
 # Portugal: offline (quiet) industries pass
 
-**Status: incomplete.** The search tool returned "You've hit your usage limit" on the 3rd WebSearch call. The instructions say to stop and write up when a search is refused, so this report rests on **2 successful searches**. Only one industry (used precious-metal buyers) has sourced evidence. Every other row in the screening table comes from background knowledge and was **not verified in this pass**; treat those rows as hypotheses for a later pass, not findings. No market counts could be sourced.
+**Scope and limits.** About 34 of the 40 WebSearch calls were used, and none was refused. WebFetch is blocked, so almost all evidence is search-result summaries (not the full legal texts). Where a figure or claim comes only from a summary, or from background knowledge, it is marked "unverified". Overlap check: `research/countries/portugal.md` already covers PPP records, CATCH, livro de obra, SAF-T, AL, TVDE, rent receipts, IMPIC AML, wine, energy communities, e-GAR, payroll, vet PEMV, lifts, fire safety and funeral homes. None of those is repeated here.
 
-Overlap check: the existing report (`research/countries/portugal.md`) covers PPP records, CATCH, livro de obra, SAF-T, AL, TVDE, rent receipts, IMPIC AML, wine, energy communities, e-GAR, payroll, vet PEMV, lifts, fire safety and funeral homes. None of those is repeated here.
+**Headline.** Portugal's quiet industries mostly turn out to have a free state portal (SNIRA/IFAP, Segurança Social, APA platform, SIGAE, Balcão do Empreendedor) or a very small paying base. No strong opportunity was found. The two best leads score 4/10 and 4/10, and both need a local founder.
 
 ## 1. Quiet industries screened
 
 | Industry | Obligation | Evidence it's offline | Rough count (source) | Verdict | One-line reason |
 |---|---|---|---|---|---|
-| Used gold / precious-metal buyers ("compro ouro", ourivesarias with a used-goods licence) | Lei 98/2015 (RJOC): daily register of each purchase (item, weight, price, payment method, seller ID, destination); full register sent **weekly** to the territorial Polícia Judiciária; 20-day hold before resale; CCTV kept 90 days; no cash above EUR 250 | Law and ASAE guidance: weekly delivery **by post, fax or email** on a PJ-approved form model (sourced) | Unknown. INCM issues the licences; count not found (search refused) | **Lead, 4/10** | Weekly, mandatory, police-facing, still post/fax/email; but small market and possible PJ-side change |
-| Household employers of domestic workers | Monthly Segurança Social contributions and declarations, payslips, work-accident insurance | Not verified | Not verified | Not screened | No searches left |
-| Livestock keepers and traders | SNIRA movement declarations, transport guides | Not verified; often done by the producer group or association (unverified) | Not verified | Not screened | No searches left |
-| Beekeepers | Apiary registration and annual stock declaration to DGAV | Not verified; believed to be a free DGAV online channel (unverified) | Not verified | Not screened (likely reject) | Free government channel plus associations probably cover it (unverified) |
-| Arms dealers (armeiros) | Transaction records under the arms law, reported to PSP | Not verified | Not verified | Not screened | No searches left |
-| Hunting-zone managers (zonas de caça) | Management plans and harvest reports to ICNF | Not verified | Not verified | Not screened | No searches left; country-specific candidate for a later pass |
-| Olive mills (lagares de azeite) | Production and stock reporting; mill wastewater (águas ruças) management | Not verified | Not verified | Not screened | No searches left; country-specific candidate |
-| Market traders and street vendors (feirantes) | Prior notification and municipal market rules | Not verified | Not verified | Not screened | No searches left |
-| Childminders (amas) | Segurança Social licensing and supervision | Not verified | Not verified | Not screened | No searches left |
-| Septic-tank emptying and well drilling | Municipal or APA water licensing | Not verified | Not verified | Not screened | No searches left |
+| Used-gold buyers ("compro ouro", ourivesarias with used-goods licence) | Lei 98/2015 (RJOC): daily register of purchases; register sent weekly to the Polícia Judiciária; 90-day CCTV; no cash above EUR 250 | ASAE guidance states delivery by post, fax or email (prior pass, sourced); PJ inspected nine jewellers in Moita (CM Jornal, undated) | About 5,000 shops authorised to buy and sell gold, INCM data from July 2010 (DN archive; old, and includes all ourivesarias, not only used-gold buyers). Current count unverified | **Lead, 4/10** | Weekly mandatory police filing, still paper-era channel; small spend, competition unknown |
+| Armeiros (gun dealers) | Daily register of imports, sales, transfers, repairs, stock (RJAM); PSP inspections | PSP ran a national "Armeiros em Segurança" inspection 22-26 June 2026: 61 inspections, 20 contraordenações, 2 crimes, 11 of them for breaching the activity rules (RR, 2026-06-29). PSP runs SIGAE, an arms information system; portaria 884/2007 stresses dematerialisation | Dealer count not found. Unverified; likely hundreds | Reject, 3/10 | Tiny market; the state system (SIGAE) is the counterpart; no dealer-register software found either way |
+| Hunting-zone managers (ZCA, ZCM, turísticas) | Annual "Resultados da Exploração Cinegética" to ICNF by 15 June; management plans; the ICNF runs SIGC | Run by volunteer associations; 2,000+ management entities represented by FENCAÇA (Agroportal summary); no private software found | 5,100 hunting zones, 7 million ha (FENCAÇA president, via search summary of Agroportal). 60-70k associated hunters (same) | **Lead, 4/10** | Large count, volunteer managers, but annual rhythm and low budgets |
+| Driving schools | Registration book, instruction sheets, exam submissions; training actions notified through the IMT PLC portal; new Decreto-Lei 112/2026 (in force 5 July 2026) adds a school-to-IMT notification for tutor-led learning | Exam slots are controlled by IMT; schools act as intermediaries (search summary). Software exists (AutoviaTest) | 730+ schools represented by ANIECA (Postal, 2025/2026 summaries) | Reject, 3/10 | Existing software, and the 2026 reform cuts school volume; no clear paper-to-portal gap found |
+| Domestic workers' employers | Segurança Social contributions; since early 2026 no monthly remuneration declaration unless pay changes; payment by MB Way (Postal) | Done on the Segurança Social portal and app; household employers need no paid tool | 251,810 registered domestic workers (Postal, search summary) | Reject | The state has already simplified it |
+| Beekeepers | Annual apiary registration and stock declaration each September via the IFAP portal, DSAVR offices, or protocol beekeeper organisations; fines EUR 100 to 3,740 (individuals) | gov.pt service page; associations help | Not found | Reject | Annual, free official portal, associations already assist |
+| Livestock keepers and traders | SNIRA movement guides for cattle, sheep, goats; IFAP forms updated | Free IFAP system (Agroportal/IFAP notices) | Not found | Reject | Free state system; no evidence of a paid gap |
+| Olive mills (lagares) | Registration and fortnightly production cards to the former INGA (now IFAP) under 1990s portarias | Only old portarias surfaced; current regime unverified | Not found | Not verified | Regulations may be obsolete; no 2024-2026 evidence |
+| Scrap-metal dealers | Lei 54/2012: daily register, on paper or electronically on the APA platforms; CCTV | Law text via search summary | Not found | Reject | Electronic option is the APA state platform; no count |
+| End-of-life vehicle dismantlers | Destruction certificates on the central platform | Run through the Valorcar network and the single platform (APA reports): only 6 operators outside it in 2022, all joined by 2024; about 115,000 certificates in 2025 | Not found | Reject | Dominated by one network |
+| Second-hand and antique dealers | IVA margin scheme records | Search found only tax-law results; no police register obligation found | Not found | Not verified | No police-reporting obligation was found |
+| Feirantes (market traders) | Annual municipal feirante card; mere prior communication on the Balcão do Empreendedor (Lei 27/2013) | Municipal rules, cadastro kept by DGAE | Not found | Reject | Annual, municipal, low willingness to pay |
+| Small fishing boats (under 12 m) | Electronic logbook applies only to 12 m and above today; EU Regulation 2023/2842 requires electronic catch reporting for all vessels from 2028 (exceptions for smaller boats until then, per search summary) | Local fishing is about 80% of the fleet (ArtFish, UC); recreational anglers must use the RecFishing app from 2026 | Fleet total not obtained (2024 report: 47 vessels entered, 85 left) | Reject for now, 2/10 | Government will likely provide the app; owners will not pay; exact small-vessel date unverified |
+| Taxi operators | Municipal licences, IMT licence | 12,000+ licensed taxis in mainland Portugal (DNoticias, 2023); 1,046 new licences in 2024 | 12,000+ | Reject | No new reporting trigger found |
 
 ## 2. Opportunities
 
-### Opportunity: Weekly Polícia Judiciária register submission for used-gold buyers
+### Opportunity: Weekly police register for used-gold buyers
 
 **Industry:**
-Retail purchase and resale of used items made of precious metal (gold, silver, platinum): "compro ouro" shops, traditional ourivesarias with the used-goods licence, and pawn-type operators.
+Retail purchase and resale of used precious-metal goods ("compro ouro" shops and jewellers holding the used-goods licence).
 
 **Buyer:**
-The owner-operator of a small licensed shop that holds the "retalhista de compra e venda de artigos com metal precioso usados" licence.
+The owner of a small licensed shop (licence category "retalhista de compra e venda de artigos com metal precioso usados"; fee EUR 590 per the search summary of the Portaria).
 
 **Trigger / Why now:**
-There is no new 2025–2026 trigger. The obligation dates from Lei 98/2015 (RJOC). Its continued enforcement by ASAE and the PJ is plausible, but this pass could not verify 2024–2026 enforcement activity. The "why now" is therefore weak. An AORP item on a "nova lei orgânica da Polícia Judiciária" appeared in results. Its content was not read, so whether it changes the reporting channel is unknown.
+No 2025-2026 trigger found. The obligation dates from Lei 98/2015. An undated CM Jornal item reports a PJ inspection of nine ourivesarias in Moita for contraordenações, so enforcement exists but is not shown to be current. Weak "why now".
 
 **Current workflow:**
-1. At each purchase, the shop records the item description (weight, age and so on), price, payment method, the seller's identification and the item's destination in a daily register.
-2. Each week, the shop compiles the complete register on the form model approved by the PJ National Director.
-3. It sends that form to the PJ unit for its area by post, fax or email, and keeps an email record for 3 years.
-4. It holds each item for 20 days after the register is delivered before melting or reselling it.
-5. Separately, it keeps CCTV footage for 90 days and pays by electronic means above EUR 250.
+1. Each purchase is entered in a daily register (item, weight, age, price, payment method, seller ID, destination).
+2. Each week the register is compiled and sent to the territorial PJ unit by post, fax or email on a PJ-approved model (ASAE guidance, prior pass).
+3. The item is held for 20 days before resale or melting (prior pass).
+4. CCTV is kept for 90 days; payments above EUR 250 are not made in cash.
 
 **Pain:**
-The obligation is mandatory, weekly and tied to the police. Errors carry fines under the RJOC. The 20-day hold clock starts at delivery, so late filing directly delays cash conversion of stock. That is a real revenue link. No operator complaints were found; with only two searches, none were looked for.
+Mandatory, weekly, police-facing. The 20-day hold links filing to cash conversion (prior pass). No operator complaints found.
 
 **Existing solutions:**
-Not researched (search refused). Likely substitutes: the PJ form model filled in by hand or in Excel; the general jewellery POS and invoicing software certified by AT; and support from the trade associations AORP and APIO, which publish legislation and PJ contacts. Whether any jewellery POS already generates the PJ weekly file is **unknown, and it is the first thing to check**.
+Sage 50 is used by jewellers, with no dedicated jewellery module (Sage community forum thread, found by search). Possible but unconfirmed: PJ form filled in by hand or Excel; AORP and APIO circulars. Whether any jewellery POS exports the PJ file is **still unknown**. An unverified Resolução da Assembleia da República 9/2013 snippet mentions a PJ online register with 24-hour entry; it may be a parliamentary recommendation and not law, so it could not be used to show a portal exists.
 
 **Offline evidence:**
-The legal channel is post, fax or email, with no portal. ASAE's own guidance page and the AORP circular (which lists PJ contacts per region) confirm it. Operators are small shops, often family-run.
+Post/fax/email filing channel per ASAE guidance; operators are small shops.
 
 **Offline channel:**
-AORP (Associação de Ourivesaria e Relojoaria de Portugal) and APIO circulars to members; the INCM contrastarias (assay offices), which every licensed operator visits for hallmarking; and walk-in or phone outreach to "compro ouro" shops, which are visible on high streets.
+AORP and APIO circulars; the INCM contrastarias at hallmarking visits; walk-in outreach to shops with a displayed INCM licence (Porto and Lisbon examples such as Ourusado and Comprouro hold licences from the Contrastaria do Porto, per their sites).
 
 **Market count:**
-Unknown. INCM holds the licence register, but no figure was obtained. Estimate: low thousands at most (unverified).
+About 5,000 shops authorised to buy and sell gold, INCM data from July 2010 (DN archive). This is old and covers all gold shops, not only used-gold buyers. Current number unverified.
 
 **The gap:**
-Turn a phone-captured purchase (ID card photo, item photo, weight, price) into the PJ weekly form automatically. Email it with proof of delivery, and track each item's 20-day release date.
+Phone-captured purchase to PJ weekly form, with delivery proof and a 20-day release tracker.
 
 **Possible product:**
-A tablet or phone purchase-intake app that builds the daily register, emails the weekly PJ form to the correct regional PJ unit, archives the proof for 3 years, and flags items that are free to melt or resell.
+Phone or tablet intake app that builds the daily register, emails the weekly PJ form, archives it, and flags items cleared for melting.
 
 **MVP:**
-A single-screen intake form, plus a weekly PDF or Excel export in the PJ model, sent by email from the shop's own address, plus a 20-day hold list.
+One intake screen, weekly PDF or Excel export in the PJ model, hold list.
 
 **Pricing hypothesis:**
-EUR 15–30 per month per shop. Buyers would pay for simple software. A done-for-you service is unlikely to be needed.
+EUR 15-30 per month per shop, software only (a service is probably not needed). Unverified.
 
 **How to find first customers:**
-The AORP member base, contrastaria visits, and high-street walk-ins in Lisbon and Porto.
+AORP members, contrastaria visits, high-street shops.
 
 **Risks:**
-- Jewellery POS vendors may already include the export.
-- The PJ may move to its own portal, which would make the export obsolete or create a new integration opportunity.
-- The market is small.
-- The founder needs Portuguese and in-person selling. A non-local solo founder would struggle; this needs a local.
-- Handling seller ID data raises GDPR liability.
+A jewellery POS may already export the file; the PJ may move to its own portal; small spend; needs a local Portuguese-speaking seller; seller ID is personal data (GDPR).
 
 **Kill condition:**
-A jewellery POS already produces the PJ file, or there are fewer than about 1,000 licensed used-goods retailers.
+A jewellery POS already generates the PJ file, or the current licensed count is well below 1,000.
 
-**Score:** 4/10 (pain 6, frequency 8, mandatory 9, fragmentation 3, competition unknown, gap unknown, accessibility 6, WTP 3, MVP 9, distribution 5; no why-now)
+**Score:** 4/10 (pain 6, frequency 8, mandatory 9, fragmentation 3, competition unknown, incumbent gap unknown, accessibility 6, willingness to pay 3, MVP 9, distribution 5, no why-now)
 
 **Sources:**
 - https://diariodarepublica.pt/dr/detalhe/lei/98-2015-70042475
 - https://www.asae.gov.pt/fiscalizacao-economica/informacoes-sobre-atividades-economicas/regime-juridico-da-ourivesaria-e-das-contrastarias-rjoc/compra-e-venda-de-artigos-com-metal-precioso-usados.aspx
-- https://www.asae.gov.pt/newsletter2/asaenews-n-95-marco-2016/compra-e-venda-de-artigos-com-metal-precioso-usados-.aspx
-- https://www.aorp.pt/newspage?newsn=176
 - https://www.aorp.pt/_usr/docs/151119163909_Legisla%C3%A7%C3%A3o%20e%20contactos.pdf
-- https://aorp.pt/newspage?newsn=281 (title only; content not read)
-- https://valores.pt/pt-pt/compra-e-venda-de-ouro-usado-lei/
-- https://www.publico.pt/2015/11/15/economia/noticia/transaccoes-de-ouro-em-dinheiro-superiores-a-250-euros-passam-a-ser-proibidas-1714510
+- https://www.dn.pt/arquivo/diario-de-noticias/deputados-analisam-negocio-da-compra-e-venda-de-ouro.html
+- https://www.cmjornal.pt/portugal/detalhe/pj-recolhe-elementos-para-contraordenacoes-em-nove-ourivesarias-na-moita-em-setubal
+- https://communityhub.sage.com/pt/sage-50cloud-portugal/f/forum-geral/212220/ourivesaria---compra-e-venda-de-metais-preciosos
+- https://diariodarepublica.pt/dr/detalhe/resolucao-assembleia-republica/9-2013-258083 (content not read)
+
+### Opportunity: Hunting-zone management back office (associative and municipal zones)
+
+**Industry:**
+Volunteer-run hunting associations and zone managers (zonas de caça associativas, municipais, turísticas).
+
+**Buyer:**
+The treasurer or secretary of a hunting-zone management entity, or the zone's technical manager.
+
+**Trigger / Why now:**
+No new trigger found. The standing obligation: send "Resultados da Exploração Cinegética" to ICNF by 15 June each year (Agroportal summary of ICNF/FENCAÇA material, not read in full).
+
+**Current workflow:**
+1. Members and guests hunt on set days; bag counts are collected on paper or by phone (unverified).
+2. A volunteer compiles annual results and the plan figures.
+3. The manager files them to ICNF through SIGC (online system mentioned in search results; operation unverified).
+4. Dues, guest permits and member lists are kept in spreadsheets (unverified).
+
+**Pain:**
+Not evidenced. No complaints or inspections found. A volunteer burden is assumed, not proven.
+
+**Existing solutions:**
+ICNF's own SIGC and zone database; general association software; FENCAÇA support. No hunting-specific private tool found in search (unverified absence).
+
+**Offline evidence:**
+Managers are volunteer associations. The ICNF database lists entity, holder and contact for every active zone (ICNF page), which also makes the buyers easy to list.
+
+**Offline channel:**
+FENCAÇA federation (2,000+ management entities) and regional hunting federations, plus the public ICNF zone database.
+
+**Market count:**
+5,100 hunting zones (FENCAÇA president via Agroportal summary), 2,000+ management entities (same source).
+
+**The gap:**
+Member dues, guest permits, bag records and the annual ICNF results in one place. Gap unproven.
+
+**Possible product:**
+A simple app for dues, hunt-day registers and the ICNF annual report export.
+
+**MVP:**
+Hunt-day bag register plus the annual results export.
+
+**Pricing hypothesis:**
+EUR 100-250 per year per entity. Volunteer groups likely pay little (unverified).
+
+**How to find first customers:**
+FENCAÇA events and the ICNF zone database contacts.
+
+**Risks:**
+Annual filing only, tiny budgets, no proven pain, local sale in Portuguese, SIGC may already be adequate.
+
+**Kill condition:**
+Five manager interviews show SIGC and Excel are adequate, or no entity will pay above EUR 100 per year.
+
+**Score:** 4/10 (pain 3, frequency 3, mandatory 7, fragmentation 4, competition unknown, gap unproven, accessibility 8, willingness to pay 3, MVP 7, distribution 6)
+
+**Sources:**
+- https://www.icnf.pt/ (zone database: http://www2.icnf.pt/portal/caca/zc)
+- https://www.agroportal.pt/caa-federao-portuguesa-de-caa-quer-o-fim-do-terreno-livre/
+- https://bo.agroportal.pt/?p=734897
+- https://foreststats.pt/variavel/45
 
 ## 3. Rejected
 
-None were rejected on evidence in this pass. The rows marked "Not screened" were not tested and should not be read as rejections.
+- Domestic-worker employers: Segurança Social dropped the monthly declaration in 2026 and added MB Way payment; free portal. https://postal.pt/economia/tem-empregada-domestica-esta-nova-funcionalidade-da-seguranca-social-pode-poupar-lhe-deslocacoes-e-filas/
+- Beekeepers: annual September filing on the free IFAP portal; associations help. https://www.gov.pt/servicos/fazer-o-registo-apicola-e-declarar-existencias-de-abelhas
+- Livestock movements: free SNIRA system run by IFAP.
+- Armeiros: small count, state SIGAE counterpart. Inspection sweep of June 2026 shows enforcement but the buyer pool is small. https://rr.pt/noticia/pais/2026/06/29/psp-apreende-63-armas-em-cinco-dias-de-fiscalizacao-a-armeiros/476328/
+- Driving schools: software already sold (AutoviaTest); Decreto-Lei 112/2026 reduces school work. https://autoviatest.com/pt-PT/for-schools
+- Scrap dealers and vehicle dismantlers: state platform or Valorcar network.
+- Small-boat fishermen: electronic reporting for all vessels from 2028 is an EU rule, but owners are unlikely to pay and the state will probably supply the app (unverified); exact small-boat date not confirmed.
+- Feirantes, taxis: annual or no new trigger.
 
 ## 4. Method notes
 
-- Regulator-first queries in Portuguese worked immediately. ASAE's "informações sobre atividades económicas" pages and the trade-association (AORP) circulars state the filing channel (post, fax or email) directly. These pages are the best entry point for the other RJOC and ASAE-regulated trades.
-- The search budget was cut off at call 3 ("usage limit"). A follow-up pass should start with:
-  1. the INCM licence count;
-  2. whether jewellery POS software has a PJ export;
-  3. the AORP note on the PJ organic law;
-  4. armeiros/PSP, zonas de caça/ICNF, lagares de azeite and household employers.
+- Worked: regulator-first queries in Portuguese (ASAE pages, ICNF, IFAP, PSP news). Enforcement news (the PSP armeiros sweep) gave dated evidence quickly.
+- Did not work: counts. Registers (INCM, PSP armeiros, IMT driving schools) rarely published totals in search results; the usable figures came from associations (ANIECA, FENCAÇA) and old press.
+- Not resolved: whether any jewellery POS exports the PJ file; olive-mill current rules; second-hand dealer police register (none found); lagares, childminders, septic and well-drilling trades were not searched this time.
+
+Research model: Sonnet

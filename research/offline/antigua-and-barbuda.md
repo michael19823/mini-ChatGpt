@@ -113,3 +113,5 @@ No other idea reached 2/10.
 - FAO and FAOLEX cover the animal and fishery laws well but have no counts.
 - No query produced an operator count from a register. Every count here is an estimate.
 - For the OECS, the household-payroll pattern is the only one that might work across islands. Run it once as a cross-OECS track rather than per country.
+
+Research model: Opus

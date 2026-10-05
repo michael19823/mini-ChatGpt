@@ -285,3 +285,5 @@ Fewer than ~2,000 PRECAPI-enrolled employers, or placement agencies not willing 
   - Searches for dealer registers (chatarreros, casas de empeño) and well drillers returned results for Mexico, Peru and Spain. Guatemala seems to have no such registers.
   - The search budget ran out before the competitor check for security-company software, so that part is unverified.
 - General pattern: in Guatemala the regulator either runs the system itself (SIDIGECAM, SINART, IGSS) or barely enforces the rule. That leaves little room for a paid software middle layer.
+
+Research model: Opus

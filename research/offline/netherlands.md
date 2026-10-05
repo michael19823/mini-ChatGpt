@@ -314,3 +314,5 @@ What did not work:
 - Counting operators. Registers rarely publish totals, and the counts found are old (VIHB 2007, DOR 2020).
 
 Overall pattern: in the Netherlands the state usually provides a free tool (DOR, FRS, RVO I&R, the cannabis track-and-trace, the Omgevingsloket permit portal). This caps willingness to pay in quiet industries. The search quota ran out after 29 calls, so the tattoo studio row is unscreened.
+
+Research model: Opus

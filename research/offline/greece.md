@@ -415,3 +415,5 @@ Kill it if the platform already gives vets a job and exception list, or if reade
   - Market counts. Greek registers (ΟΣΠΑΑ, ΟΣΠΑ, still licences, bolus vets) rarely publish totals in searchable form.
   - Police-register queries for scrap and gold, where the results drifted to US laws.
 - **Structural finding:** Greek ministries increasingly ship their own free apps and hardware, which compresses the software gap. Look for the **seam between two state systems** (ΟΣΠΑ↔myDATA, e-EFKA↔AADE MARK), not for paper-to-digital.
+
+Research model: Opus

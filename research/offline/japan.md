@@ -354,3 +354,5 @@ Gaps left by the usage-limit cutoff:
 - the scrap competitor scan (scale vendors, pricing);
 - a national count of sign permits;
 - the count of 石材店.
+
+Research model: Opus

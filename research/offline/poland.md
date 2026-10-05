@@ -209,3 +209,5 @@ CEEB has no third-party API and GUNB forbids automated entry. Or an existing app
 - What worked: Polish queries that pair the obligation with the form or report, e.g. "sprawozdanie kwartalne … wójt formularz" or "obowiązek … ustawa 2026". Adding "program dla <zawód>" quickly surfaced the vendor that kills the idea. Sejm (orka.sejm.gov.pl), BIP and biznes.gov.pl pages gave the triggers. NBP and ZUS reports gave counts.
 - What didn't: operator counts for crafts (chimney sweeps, septic haulers, scrap yards) are not in the snippets, because registers are municipal or chamber-held. Interpellations and ministerial answers are more useful than the trade press for finding "quiet" pain.
 - Pattern: in Poland the state often builds the receiving portal itself (CEEB, IRZplus, BDO, KROPiK), and a small domestic vendor appears within 1-2 years. Fresh 2026-27 acts (the public-transport amendment, UD402) are the only windows, and vendors race to them fast.
+
+Research model: Opus

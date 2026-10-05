@@ -51,4 +51,14 @@ Researched 2026-10-05 with 18 WebSearch calls (full budget) (English and Greek, 
 - Registers that appear to exist and could give prospect lists: Central Bank of Cyprus bureau-de-change register, DFMR Fleet Register, taxi licence list (all unverified as downloadable).
 - Conclusion: Cyprus has no quiet-industry opportunity I can support. A quiet-industry product would only make sense as part of a Greece-plus-Cyprus Greek-language product.
 
+## Opus review
+
+**Verdict:** sound. Despite a full 18-search budget, the report found little, and it says so honestly. Its numbers are specific and attributed (1,556 urban plus 246 rural taxi licences; 698 beekeepers; 858 vessels in 2019; the July 2026 scrap inspection).
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher).
+
+**Re-scores:** none. The 2/10 household-carer lead is fair.
+
+**Treat as unreliable:** the domestic-worker counts (22,000–36,000, from old and undated sources); "a few hundred tattoo studios" (an estimate).
+
 Research model: Sonnet

@@ -35,4 +35,14 @@ All rows above. Common reasons: state monopolies or telco platforms own the work
 - Didn't: no register counts or enforcement stats were returned. No 2025-26 triggers were found beyond the OAVCT moto programme. Four of eight searches were left unused, since the results gave no further leads.
 - Sources: https://oavct.gouv.ht/ ; https://vantbefinfo.com/haiti-loavct-lance-une-mobilisation-autour-du-programme-moto-pa-m-legal/ ; https://lenational.org/post_article.php?pol=4345 ; https://ona.ht/ ; https://hditcabinetvolmar.com/fr/generalites-sur-le-regime-juridique-de-lona/ ; https://www.haitilibre.com/article-11538-haiti-agriculture-identification-du-betail-et-controle-de-l-abattage-dans-l-ouest.html ; https://agriculturequarantaine.gouv.ht/ ; https://nattransfer.com.ht/
 
+## Opus review
+
+**Verdict:** sound. A short, honest null result. The institutions are correctly named (OAVCT, ONA, OFATMA, MARNDR, DQCSPAP, BRH), and the "Moto pa m legal" programme is sourced.
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher).
+
+**Re-scores:** none.
+
+**Treat as unreliable:** "30,000+ NatCash agents" (a vendor claim, which the report flags). Pesticide, cemetery and well-driller groups were not screened.
+
 Research model: Sonnet

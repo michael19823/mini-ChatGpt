@@ -39,4 +39,14 @@ None. The only candidate (an OECS payroll and filing add-on) is already in `rese
 - A real pass would need the Grenada Parliament's S.R.O. archive (grenadaparliament.gd) or the Transport Board and Police licensing desks. The expected return is low.
 - Founder access: an English-speaking common-law market, so a foreign founder can sell there. The blocker is market size, not access.
 
+## Opus review
+
+**Verdict:** sound. A short, honest null result for a market of 125k people. Instruments are cited specifically (S.R.O. 42 of 2023, S.R.O. 14 of 2012, Pesticides Control Act 1973) and the report doesn't stretch them.
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher).
+
+**Re-scores:** none.
+
+**Treat as unreliable:** "about 1,400 registered buses" (2020 figure, which the report flags). Note that Vanuatu's report gives the same 1,400 figure for Efate buses. The coincidence is probably harmless, but both numbers need their primary sources. Also treat as unreliable the NIS rates of 7.25% and 6.25% for 2026 (search summary only; they conflict with the 7% in the first-round report).
+
 Research model: Sonnet

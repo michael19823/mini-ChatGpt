@@ -156,4 +156,14 @@ The plate and card are one-off purchases, not a recurring filing (likely).
 - The searches that were planned but not run: livestock and veterinary certificates, scrap and second-hand dealer registers, cemeteries and funeral homes, fuel stations. No result either way; they stay "unverified".
 - Overall conclusion: in the DRC the quiet industries are mostly informal and cash-based, so the regulator-first method finds few recurring filings. The better opportunities remain the ones in the existing report (facture normalisée and mining local-content).
 
+## Opus review
+
+**Verdict:** sound. An honest weak-lead report. Both leads are scored low and say plainly that no recurring filing exists. The 2026 triggers (the Kinshasa transport plate and card, the DRC Gold Trading–CADECO agreement) have dated sources.
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher).
+
+**Re-scores:** none.
+
+**Treat as unreliable:** "about 5,000 illegal pharmacies in Kinshasa" (an association officer quoted in the press); "15 approved bureaux de change" (older data).
+
 Research model: Sonnet

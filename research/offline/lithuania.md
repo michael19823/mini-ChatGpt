@@ -172,4 +172,21 @@ More than 300 licensed dismantlers (ENTPTA via eei.lt, secondary).
 - In Lithuania almost every quiet industry already has a free state portal (PPIS, GPAIS, VVAIS, Livestock Register), which caps willingness to pay. Ranking: farm journals and ELV yards are the only two with a mandatory recurring task and an offline channel. A service-plus-software model is more realistic than self-serve software.
 - Not checked: second-hand/pawn/gold dealer regimes, driving instructors, taxi and minibus, hunting outfitters, chimney sweeps and boiler inspectors. Budget and an earlier session limit prevented this. Competitor diligence on Lithuanian farm-management software is incomplete.
 
+## Opus review
+
+**Verdict:** major issues for the lead opportunity. The trigger is confirmed. But the competitor diligence the report admits it left incomplete finds several Lithuanian farm-management tools, and the law puts the journal duty on the farmer, not the contractor.
+
+**Claims checked (4 searches):**
+- *PPP journal electronic thresholds: 200 ha (2024), 150 ha, 100 ha, then all users from 1 ha from 5 Apr 2026; paper still allowed; keep 3 years:* **confirmed** ([Mano ūkis](https://manoukis.lt/naujienos/ukis/pakeistos-augalu-apsaugos-produktu-naudojimo-taisykles); [NMA](https://nma.lrv.lt/lt/naujienos/pakeistos-augalu-apsaugos-produktu-naudojimo-taisykles/); [ŽŪR](https://www.zur.lt/augalu-apsaugos-produktu-naudojimo-apskaitos-zurnalui-pildyti-ketveriu-metu-pereinamasis-laikotarpis/)). The first threshold dates from 5 Apr 2024, which answers the report's "year not confirmed".
+- *Entry deadline of 30 days:* **contradicted or outdated.** The current rules summarised by NMA and Mano ūkis say **15 calendar days**. The 30-day wording comes from the earlier version of the order.
+- *Contractor or agronomist as the buyer:* **weakened.** The order says that when a spraying service uses products bought in the provider's name, the **service recipient (the farmer)** fills in the journal ([e-seimas](https://e-seimas.lrs.lt/rs/legalact/TAD/ee90cd10f2ba11ee97d7f4f65208a4ec/)). The contractor has no legal duty to sell to.
+- *"Farm-management software for Lithuania: not identified":* **contradicted.** eAgronom has a Lithuanian site; Agro247, Geoface (a Lithuanian farm-management app) and FarmEasy are all live in Lithuania ([eAgronom LT](https://www.eagronom.com/lt); [Agro247](https://agro247.lt/); [Geoface](https://www.geoface.com/lt/2025/02/24/geoface-lietuviska-ukio-valdymo-programa/); [FarmEasy](https://farmeasy.lt/)). The state advisory service LŽŪKT also offers e-services ([LŽŪKT](https://www.lzukt.lt/elektronines-paslaugos/)). A search summary said its "e-GEBA" system generates PPP and fertiliser journals for PPIS; I could not confirm that on a source page (**unverified**). Either way, "no multi-client tool for advisers" no longer holds.
+- *More than 300 licensed ELV dismantlers (ENTPTA via eei.lt):* **unverified.** A targeted search found no confirmation of the figure.
+
+**Re-scores:**
+- Multi-farm input-journal tool: **4 → 3.** Competition and incumbent gap drop: at least four local farm apps exist, and the state advisory service is the natural adviser channel. The contractor has no legal duty, which weakens the buyer.
+- ELV dismantler tool: stays at 3/10. The market count is still secondary-source only.
+
+**Treat as unreliable:** "within 30 days"; "no Lithuanian farm-management software"; the 300-dismantler count; "Garažiukas" campaign timing (no year given).
+
 Research model: Sonnet

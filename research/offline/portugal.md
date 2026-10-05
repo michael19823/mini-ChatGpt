@@ -167,4 +167,20 @@ Five manager interviews show SIGC and Excel are adequate, or no entity will pay 
 - Did not work: counts. Registers (INCM, PSP armeiros, IMT driving schools) rarely published totals in search results; the usable figures came from associations (ANIECA, FENCAÇA) and old press.
 - Not resolved: whether any jewellery POS exports the PJ file; olive-mill current rules; second-hand dealer police register (none found); lagares, childminders, septic and well-drilling trades were not searched this time.
 
+## Opus review
+
+**Verdict:** major issues. The lead opportunity fails its own kill condition: two Portuguese jewellery POS products already generate the PJ declarations. The second lead's market count could not be confirmed.
+
+**Claims checked (5 searches):**
+- *Lei 98/2015: daily register of used-gold purchases, sent weekly to the PJ; 90-day CCTV; no cash above EUR 250:* **confirmed** ([Diário da República](https://diariodarepublica.pt/dr/detalhe/lei/98-2015-70042475); [Postal](https://postal.pt/economia/compra-e-venda-de-ouro-com-regras-mais-apertadas/); [ASAE](https://www.asae.gov.pt/fiscalizacao-economica/informacoes-sobre-atividades-economicas/regime-juridico-da-ourivesaria-e-das-contrastarias-rjoc/compra-e-venda-de-artigos-com-metal-precioso-usados.aspx)). The PJ keeps the records for 5 years. Filing is by post, email or fax on a PJ form.
+- *"Whether any jewellery POS exports the PJ file is still unknown":* **contradicted.** Inforbarras **Gouwin** advertises itself as the leading jewellery system in Portugal and includes *automatic declarations for the Polícia Judiciária*, used-gold management and quarantine-period control ([Inforbarras Gouwin](https://inforbarras.pt/home/gouwin)). **Ponto25 Ourives** includes transaction maps for the PJ, photos of items and purchase documents ([Ponto25](https://ourives.ponto25.pt/modulos-ourives)). This meets the report's own kill condition ("a jewellery POS already generates the PJ file"). The Opus Spain report found the same pattern (ORONET for Spanish gold buyers).
+- *5,100 hunting zones, 2,000+ management entities (FENCAÇA via Agroportal); annual results to ICNF by 15 June:* **unverified.** Two searches turned up the zone types, the annual exploitation plan (PAE) and ICNF support programmes, but neither the count nor the 15 June date. No hunting-zone software was found either, so the gap is still an unproven absence.
+- *Decreto-Lei 112/2026 (published 5 Jun 2026, in force 5 Jul 2026), with an electronic school-to-IMT notification of tutor-led learning:* **confirmed** ([Lexpoint](https://lexpoint.pt/conteudos/1089/146610/legislacao/decreto-lei-no-1122026-dr-no-1082026-serie-i-de-05062026); [e-konomista](https://www.e-konomista.pt/julho-aprender-a-conduzir-com-tutor/)).
+
+**Re-scores:**
+- Weekly police register for used-gold buyers: **4 → 2.** At least two incumbents cover the exact workflow, there is no "why now", and the count is a 2010 figure.
+- Hunting-zone back office: **4 → 3.** The report's own sub-scores (pain 3, frequency 3, willingness to pay 3, gap unproven) don't support 4, and the count is unconfirmed.
+
+**Treat as unreliable:** "no software exports the PJ file"; the 5,100 zones and 2,000+ entities; the 15 June deadline; the 5,000 gold shops (2010 data, all gold shops).
+
 Research model: Sonnet

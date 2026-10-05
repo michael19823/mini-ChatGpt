@@ -100,4 +100,16 @@ No other opportunity reached 3/10.
 - Not covered for lack of budget use: tattoo, barbers, money changers, hunting, market traders, pesticide dealers.
 - The agent budget was 20 and 12 were used. Further searching was unlikely to change the verdict, because a market this small has few reachable operators in any quiet group.
 
+## Opus review
+
+**Verdict:** major issues. The only scored opportunity is triggered by a law from the wrong country.
+
+**Claims checked (1 search):**
+- *"Law 20/2023 on Beekeeping requires registration in the farm registry and an annual hive notification by 30 April":* **contradicted.** Law No. 20/2023 "Për bletarinë" is **Albania's** beekeeping law. It was adopted on 16 Mar 2023, promulgated by Presidential Decree 49 and published in Albania's Fletorja Zyrtare No. 59 of 6 Apr 2023. The report's own source URL (`faolex.fao.org/docs/pdf/alb215961.pdf`) carries FAOLEX's Albania code. Kosovo numbers its laws as `0X/L-xxx`, not `N/YYYY`. Whether Kosovo has an equivalent hive-notification duty is **unverified**.
+- Other claims (23 licensed scrap businesses in 2019; 30 approved slaughterhouses; about 100,000 undeclared workers): not checked; their sources are dated or undated.
+
+**Re-scores:** livestock and beekeeper farm-file service: **3 → 2.** Without the beekeeping-law trigger, all that is left is annual direct-payment applications that directorates and contracted vets already handle for free.
+
+**Treat as unreliable:** every beekeeping obligation in the report (registration, 30 April notification, hive marking), and Kosovo's "EU animal ID" work, which has no source cited.
+
 Research model: Sonnet

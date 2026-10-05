@@ -169,4 +169,20 @@ Interviews show firms already run rosters inside payroll software.
 - Did not work: pawnbroker, second-hand dealer and money changer queries returned only US results. Jamaica scrap metal register queries also returned foreign results.
 - Not covered: Gleaner and Observer articles are paywalled, so only snippets were read. No official licensing register lists were found for any industry. Counts for butchers, fishers, taxis, pest control and TPDCo are missing.
 
+## Opus review
+
+**Verdict:** sound. Every load-bearing fact I checked is confirmed, and the scores are honest about weak payers.
+
+**Claims checked (5 searches):**
+- *Agricultural Produce (Amendment) Act raised the maximum fine from J$250,000 or 3 months to J$3M or 3 years:* **confirmed.** It passed the Senate on 15 Dec 2023 and also widened "produce" to cover livestock, poultry and fish ([MOA](https://new.moa.gov.jm/node/4264); [Observer, Dec 2023](https://jamaicaobserver.com/2023/12/27/agriculture-sector-takes-steps-to-combat-praedial-larceny)).
+- *Receipt book bought at JAS after RADA/ABIS registration; 167,278 registered farmers:* **confirmed** ([JIS](https://jis.gov.jm/farmers-urged-to-register-with-rada-and-secure-receipt-books-under-agricultural-produce-act/); [JIS, 160,000 farmers](https://jis.gov.jm/160000-farmers-registered/)). The Sept 2026 call to disrupt the market for stolen produce is also confirmed ([JIS](https://jis.gov.jm/farmers-and-buyers-urged-to-work-together-to-disrupt-market-for-stolen-produce-and-livestock/)).
+- *PSRA: 331 organisations and 30,013 individuals registered in 2025:* **confirmed**, up from 311 and 28,124 ([Observer, 23 Jul 2026](https://www.jamaicaobserver.com/2026/07/23/private-security-industry-30000-guards-strong-300-companies/)).
+- *Guard minimum wage:* **confirmed, and the report's "unverified" can be removed.** The Minimum Wage (Industrial Security Guards) (Amendment) Order 2026 raises the guard rate from J$16,000 to J$17,000 per 40-hour week from 1 Jul 2026, with matching overtime (J$637.50/h) and double-time (J$850/h) rates ([JIS](https://jis.gov.jm/minimum-wage-moves-to-17000-up-from-16000/)).
+- *Competitors for guard payroll:* **confirmed.** HeadOffice and YaadBooks both automate NIS, NHT, Education Tax, HEART and PAYE ([YaadBooks](https://yaadbooks.com/payroll-software-jamaica)). Global guard-scheduling tools exist (TEAM Software, GuardHouse), but none was found localised for Jamaica. The gap is roster-to-pay rules, as the report says.
+- *Over 60% of security firms ignored NHT demands:* **unverified** (2022 source, not re-searched). It is still the only pain evidence for the security lead.
+
+**Re-scores:** none. Both leads stay at 4/10.
+
+**Treat as unreliable:** the "100,000 receipt books" figure (dated JIS headline, programme year unknown); JACRA's traceability platform scope; the 2022 NHT arrears share as a guide to current pain.
+
 Research model: Sonnet

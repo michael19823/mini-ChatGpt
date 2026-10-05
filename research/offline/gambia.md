@@ -41,4 +41,14 @@ None scored. The only candidate with a trigger is a licence-compliance tracker f
 - [National Assembly: Labour (Amendment) Bill 2026](https://assembly.gm/bills/318)
 - [The Point: Domestic workers' rights violated](https://thepoint.gm/africa/gambia/headlines/domestic-workers-rights-freedoms-are-violated-in-gambia-report-says)
 
+## Opus review
+
+**Verdict:** minor issues. The conclusion is right, but only 3 of the 8 allowed searches were used, so most seed groups (livestock, fisheries, tourism licensing, SSHFC) were never screened. Calling it "no opportunity" is a judgement about the market's size, not the result of a screen.
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher). The Labour (Amendment) Bill 2026 is cited to a specific National Assembly bill page (assembly.gm/bills/318) and looks real, but is **unverified** here.
+
+**Re-scores:** none.
+
+**Treat as unreliable:** "about 10 named bureaux" (partial list); the 85.91% figure for domestic workers without contracts (single study, undated).
+
 Research model: Sonnet

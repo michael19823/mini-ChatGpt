@@ -107,4 +107,14 @@ Waste carriers and consignment notes (ERA, https://era.org.mt/topic/movement-of-
 - Counts mostly came from old or secondary sources; flag all as needing registry confirmation.
 - Not searched for lack of budget and low expected value: tattoo studios, beekeepers, kennels, farm-labour contractors, small abattoirs.
 
+## Opus review
+
+**Verdict:** sound. An honest null result. It correctly spots that hunters' returns moved to a regulator app, and it leaves one open question (ERA waste consignment notes) instead of forcing a score.
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher). The Identità checklist URLs carry 2026/03 and 2026/08 upload paths, which match the report's "refreshed March and August 2026".
+
+**Re-scores:** none. The 3/10 household-carer service is fair, given that there is no market count.
+
+**Treat as unreliable:** the driving-school counts (2014 data); the 1,792 vessels (1998 data); the taxi counts (undated).
+
 Research model: Sonnet

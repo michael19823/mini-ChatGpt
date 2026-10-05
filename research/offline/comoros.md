@@ -46,4 +46,14 @@ All rows above. The common causes are:
 - https://www.fao.org/fishery/docs/DOCUMENT/fcp/fr/FI_CP_KM.pdf
 - https://justice.gouv.km/wp-content/uploads/2025/03/loi-du-10-mai-2014-relative-aux-institutions-consulaires-agricole-elevage-et-peche.pdf
 
+## Opus review
+
+**Verdict:** sound. A short, honest null result in a market of about 5–6 licensed operators per group. Its sources are a Central Bank list and an FAO profile.
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher). Desk check found no invented law numbers. The Fisheries Code (Law 07-011/AU, 2007) is cited with an FAO source.
+
+**Re-scores:** none.
+
+**Treat as unreliable:** "about 4,200 fishermen / 100+ cooperatives" (the FAO profile is undated and likely old). Most rows rest on the absence of search results, which the report says itself.
+
 Research model: Sonnet

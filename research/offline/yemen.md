@@ -47,4 +47,14 @@ The only partially live thread is the exchange-house sector. CBY-Aden's 2025 cam
 - Search counts for other sectors were not obtainable. Statements about their size would be invention.
 - Any Yemen angle is best treated as an add-on to a Gulf trade-compliance product, as in the country report.
 
+## Opus review
+
+**Verdict:** sound. The access verdict is right. The one live lead (CBY-Aden's exchange-house enforcement) is sourced to the central bank's own decision page, and the report correctly declines to score it.
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher).
+
+**Re-scores:** none (nothing scored).
+
+**Treat as unreliable:** "about 79 exchange firms suspended or revoked" (news aggregation); "more than 100,000 beekeeping households" (FAO figure quoted second-hand).
+
 Research model: Sonnet

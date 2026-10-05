@@ -236,4 +236,19 @@ Gold chamber sessions, the Sagha market, accountants.
 - Query "برنامج + industry" found incumbents quickly (it killed the gold lead).
 - Searches that would have helped but were not run: the supply ministry's official bakery instructions, a nursery owners' association, a scrap-dealer register, a count of pesticide shops.
 
+## Opus review
+
+**Verdict:** minor issues. The core facts behind the 5/10 and 4/10 scores hold up. Two counts are a little off, and one new fact raises the risk on the bakery lead.
+
+**Claims checked (4 searches):**
+- *Direct deduction started 1 Aug 2026 and flour is sold at EGP 19,240/ton; the loaf stays at EGP 0.20:* **confirmed** ([Youm7, 1 Aug 2026](https://www.youm7.com/story/2026/8/1/%D8%A8%D8%AF%D8%A1-%D9%85%D9%86%D8%B8%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%AE%D8%B5%D9%85-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D9%84%D8%A3%D8%B5%D8%AD%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%AE%D8%A7%D8%A8%D8%B2-%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF%D8%A7-%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A7%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D9%86%D9%82%D8%AF%D9%89/7499443); [Dostor](https://www.dostor.org/5653249)). The press says the deduction system is a **step towards converting the bread subsidy to cash**. The report doesn't mention this, and it is a larger risk than "the state may change the rules again": the whole bakery settlement model could change.
+- *Bakery pain (reconciliation):* **confirmed and strengthened.** Owners complained that settlement for the first Friday and Saturday was late, and the minister had to step in ([Dostor](https://www.dostor.org/5658888)). The Bakeries Division asked for a clear electronic statement of account for each bakery, showing every deduction and settlement ([Maspero, 19 Aug 2026](https://www.maspero.eg/radio-and-tv-magazine-economy/2026/08/19/981686/); [El Wathiqa](https://www.elwathiqa.com/8854)). This is real pain. But the remedy owners asked for is a *ministry* statement, which is exactly the report's kill condition. If the ministry provides it, the gap closes.
+- *About 32,000 subsidised bakeries:* **changed.** Recent figures range from "more than 30,000" (2024) to about 35,000 (2026) ([Al Bawaba](https://www.albawabhnews.com/5019259)). Use "30,000–35,000".
+- *Nursery census of 48,225, with about 32,000 unlicensed:* **48,225 confirmed** ([Dostor](https://www.dostor.org/5362901); [El Watan](https://www.elwatannews.com/news/details/8363083)). The **unlicensed share is 75%** ([Elbalad](https://www.elbalad.news/6768888)), which is about 36,000, not 32,000. The census also counts 1.7M children and about 254,000 staff.
+- *Four companies competing to run bakery e-payments (Dostor):* **unverified** (not re-searched).
+
+**Re-scores:** none. Bakery stays at 5/10: the pain evidence is stronger, but so is the risk that the state closes the gap or switches to cash subsidy. Nursery stays at 4/10. Gold stays at 3/10.
+
+**Treat as unreliable:** the 32,000 figures for both bakeries and unlicensed nurseries; the "four payment companies" claim; the gold-shop count of 3,500+ (the report already marks it unverified); the inferred bakery workflow steps 4–5.
+
 Research model: Sonnet

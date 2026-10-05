@@ -50,4 +50,14 @@ All rows marked Reject above. The nakamal levy, household payroll and bus permit
 - https://biosecurity.gov.vu/index.php/exports
 - https://www.vfsc.vu/wp-content/uploads/2026/04/Vanuatu-Financial-Services-Commission-Act-CAP-295-Consolidated-Edition-2026.pdf
 
+## Opus review
+
+**Verdict:** sound. A short, honest null result with specific, dated sources (the DCIR 2 Feb 2026 renewal deadline, the fuel-subsidy rollout, and VNPF at 12% from 1 Jan 2026).
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher).
+
+**Re-scores:** none. The 2/10 permit-renewal assistant is fairly scored.
+
+**Treat as unreliable:** the 1,400 "B" plate ceiling, which is an old Daily Post article (also see the Grenada report, which cites the same 1,400 figure for buses); the VNPF 12% rate (search summary only).
+
 Research model: Sonnet

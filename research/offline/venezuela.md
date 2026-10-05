@@ -141,4 +141,14 @@ Line administrators do not hold paperwork themselves or will not pay.
 - Search results were dominated by SEO guide sites (ecu11, tramitespublicos, consultasvenezuela). They describe procedures but give no pain evidence.
 - The 8-search budget covered 9 groups. Beekeepers, tattoo studios, hunting, money changers and farm-input sellers were not searched.
 
+## Opus review
+
+**Verdict:** sound. A short, honest weak-lead report within an 8-search budget. Both leads are correctly scored 2/10, and existing tools (Odoo Condominio, Galac) are named.
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher). Desk check: Decreto 8.197 (2011) on residential workers and the REGCHAT scrap registry (Gaceta 40.861 / 40.931) are cited with specific gazette numbers. They are plausible but **unverified** here.
+
+**Re-scores:** none.
+
+**Treat as unreliable:** the INTT "updated steps" trigger (the report says its dates are unconfirmed); the SIGESAI start date ("1 December, year unverified").
+
 Research model: Sonnet

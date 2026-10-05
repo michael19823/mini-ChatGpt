@@ -36,4 +36,16 @@ The gold-dealer reporting regime is the one genuine offline-industry finding. Ob
 - Persian-language queries about regulator obligations returned useful local news. English OFAC queries returned only older guidance.
 - Both searches ran in standard mode. I did not use the remaining 6 searches, because no result could change the access verdict.
 
+## Opus review
+
+**Verdict:** minor issues. The access verdict is correct, but the sanctions citation is out of date.
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher).
+- Desk check: the report cites OFAC **General License D-1 (2014)**. That licence was replaced by **GL D-2** in September 2022. D-2 widened the authorisation for personal communications software and services, but still doesn't cover commercial B2B compliance software sold to Iranian businesses (from background knowledge; not re-searched). The conclusion stands; update the citation.
+- The gold-dealer registration in the Comprehensive Trade System (Samaneh-ye Jame-e Tejarat) is sourced to three Persian news outlets. It is plausible but **unverified** here.
+
+**Re-scores:** none (nothing scored).
+
+**Treat as unreliable:** the reference to GL D-1 as the current rule.
+
 Research model: Sonnet

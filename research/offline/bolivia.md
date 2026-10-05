@@ -96,4 +96,14 @@ No SENASAG resolution by mid-2027, or a state-built free platform.
 - Searches on cemeteries, scrap dealers and pawnshops returned nothing Bolivian and relevant. Treat as unverified, not as proof of absence.
 - Verdict: Bolivia has no quiet-industry opportunity above 3/10. It remains an add-on market for a Peru or Colombia product, as the existing report concludes.
 
+## Opus review
+
+**Verdict:** sound. A careful, honest null result. Its law references are specific (Ley 2450, DS 4589, DS 28710, REGENSA 2022), and the single watch item is clearly labelled as a forecast.
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher). Desk check: the FAO news item on SENASAG's CC-RAM e-prescription working group (Jan 2025) is cited to a specific URL. Gran Paitití and PPADRON WEB are named with their sources.
+
+**Re-scores:** none. The 3/10 veterinary e-prescription watch item is fair. If anything it is generous, because no rule exists yet.
+
+**Treat as unreliable:** the 137,000 domestic-worker figure (undated, unverified).
+
 Research model: Sonnet

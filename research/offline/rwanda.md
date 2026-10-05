@@ -147,4 +147,14 @@ Pain 5, Frequency 6, Mandatory 4, Fragmentation 3, Competition 7, Incumbent gap 
 - Did not work: Kinyarwanda queries (no useful results); licence counts and registers (rarely visible in extracts); UK scrap-metal results polluted the scrap query.
 - Not screened: cemeteries, tattoo studios, beekeepers, pawnbrokers, gold buyers, small food producers, private security guards, informal fuel sellers.
 
+## Opus review
+
+**Verdict:** sound. Both 3/10 leads give sub-scores, cite dated sources (the KT Press Jan 2025 vet-tracking story; Irembo licence articles) and flag missing counts. The point that Rwanda's e-government (Irembo, RURA, RSSB) closes most paper gaps is correct and important.
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher).
+
+**Re-scores:** none.
+
+**Treat as unreliable:** "roughly 15.8% employer RSSB" (a third-party payroll site); the mining-concession counts (2023 data); the New Times enforcement article, which is undated.
+
 Research model: Sonnet

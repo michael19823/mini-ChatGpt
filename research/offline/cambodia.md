@@ -50,4 +50,15 @@ The one item worth a follow-up, with low confidence (about 3/10 if it held up):
 - Not done: reading cambodiantr.gov.kh and library.ncdd.gov.kh pages directly (WebFetch not allowed), association searches, and supplier searches. A Khmer-speaking researcher should do these before ruling the country out completely.
 - I stopped at 14 of 18 searches because the remaining ideas were unlikely to return register data.
 
+## Opus review
+
+**Verdict:** sound. An honest null result. No opportunity is scored, and every unverified count is flagged.
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher).
+- Desk check: the facts are internally consistent and attributed to named secondary sources (DFDL, Tilleke & Gibbins, Rajah & Tann, KPMG). Prakas 117 (issued 9 Dec 2025, effective 8 Jan 2026) is plausible but **unverified** here. It isn't load-bearing, because the report rightly classes it as a mainstream SME obligation.
+
+**Re-scores:** none. The 3/10 MAFF animal-movement watch item is fairly described as hypothetical.
+
+**Treat as unreliable:** "77 agencies approved to send workers abroad" (date unknown); the old Cambodia Daily clinic counts. Khmer-language coverage is weak, as the report itself says.
+
 Research model: Sonnet

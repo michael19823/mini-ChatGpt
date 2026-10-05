@@ -48,4 +48,14 @@ None. No score is given, so that no market is invented.
 - Rivermate, Holy See hiring guide (employee count, third-party): https://rivermate.com/guides/holy-see
 - Rivermate, Holy See dispute resolution (ULSA role): https://www.rivermate.com/guides/holy-see/dispute-resolution
 
+## Opus review
+
+**Verdict:** sound. Structurally correct: Vatican City has no population of small licensed operators, and the report says so without inventing a market. Sending the household-carer and tour-guide angles to the Italy track is the right call.
+
+**Claims checked:** none by search (0 searches; nothing scores 4 or higher).
+
+**Re-scores:** none (nothing scored).
+
+**Treat as unreliable:** the employee count of about 4,800 (third-party HR guide); the residents count of about 800 (marked as an estimate).
+
 Research model: Sonnet

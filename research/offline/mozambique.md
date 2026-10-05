@@ -1,8 +1,8 @@
 # Mozambique: Offline (Quiet) Industries Pass
 
-Research date: 2026-10-05. Budget: 20 WebSearch calls. **Only 3 were attempted: 2 returned results, and the 3rd was refused ("You've hit your usage limit").** As the method says, I stopped there and wrote up what I had. WebFetch and GitHub were not used.
+Research date: 2026-10-05. Budget: 20 WebSearch calls, all used. One was refused by a usage limit and counted. There were two sessions: 3 calls, then 17 after the limit reset. Queries were mostly in Portuguese. WebFetch and GitHub were not used. Everything comes from search-result snippets, so any detail not quoted from a source is marked *unverified* or *estimate*.
 
-**Read this first: the report is truncated.** Almost every row below is a screen based on prior knowledge, marked *unverified*. The only items with evidence from this session are domestic workers (2 sources) and a negative result on scrap metal. **No opportunity reaches the 2–5 strong-opportunity bar with verified evidence**, so none is presented as a build candidate. One lead is written up in template form for a later pass to verify.
+**Bottom line:** Mozambique's quiet industries are real and newly regulated in 2026, but buyers are poor and the state tends to build the system itself. One lead is worth interviews: **domestic-worker formalisation under Decree 52/2026**, sold through employers and agencies rather than to households. Everything else is low-value, or a government system already serves it.
 
 ---
 
@@ -10,95 +10,193 @@ Research date: 2026-10-05. Budget: 20 WebSearch calls. **Only 3 were attempted: 
 
 | Industry | Obligation | Evidence it's offline | Rough count (source) | Verdict | One-line reason |
 |---|---|---|---|---|---|
-| Households employing domestic workers | Decree 40/2008 (Regulamento do Trabalho Doméstico), now under public consultation for revision; INSS registration | National push in Jan 2026 to *register* domestic workers, led by the First Lady with the domestic workers' union. That implies most are unregistered and paper-based | A union-linked survey had 6,841 participants (6,600 women) (AIM). No national count of employer households found | **Lead (unverified trigger)** | A revision plus a registration drive could create a duty for households, but households in Mozambique are unlikely to pay for software |
-| Scrap metal dealers (sucata) | Export licensing and dealer registers (unverified) | No Mozambique-specific 2025–26 rule found. The search returned only Somalia/Brazil items and a 2011 mineral-commercialisation decree (Decree 20/2011) | Unknown | Not evidenced | No regulatory trigger found in one search |
-| Charcoal and timber transporters | Licença simples and guias de trânsito for forest products (unverified, search refused) | Believed to be paper guides checked at roadblocks (unverified) | Unknown | Not screened | Search refused |
-| Livestock traders / cattle movement | Veterinary movement permits (guia de trânsito de gado) (unverified) | Paper permits issued by district vets (unverified) | Unknown | Not screened | Search refused |
-| Small abattoirs / butchers | Municipal and veterinary inspection (unverified) | — | Unknown | Not screened | Search refused |
-| Chapas (minibus) operators | Municipal route licences, INATRO/INATTER inspection (unverified) | Associations (e.g. FEMATRO, per prior knowledge; unverified) handle the paperwork | Unknown | Not screened | Fares and routes are politically controlled, and buyers have thin margins |
-| Moto-taxi operators | Municipal licensing in some cities (unverified) | — | Unknown | Not screened | Likely no money in it |
-| Informal cross-border traders (mukheristas) | Customs simplified regime at the Ressano Garcia border (unverified) | Counter-based | Unknown | Not screened | Customs is a single window (SGS MCNet), and the main report rejected customs work |
-| Artisanal fishers selling their own catch | Artisanal fishing licences from district fisheries (unverified) | Paper licences (unverified) | Unknown | Not screened | Very low ability to pay |
-| Artisanal / small-scale miners (senha mineira, gold buyers) | Mining-pass and gold-trading registers under Decree 20/2011 (commercialisation) | — | Unknown | Not screened | Sensitive area with heavy state involvement (Cabo Delgado, Manica) |
-| Well drillers (furos) | Water-use licensing by the regional water authorities (ARAs) (unverified) | — | Unknown | Not screened | Search refused |
-| Money changers (casas de câmbio) | Banco de Moçambique licensing and reporting (unverified) | — | Small | Not screened | Heavily regulated by the central bank; not a solo-founder sale |
+| Households employing domestic workers | **Decree 52/2026 (3 Sep 2026)**: written contracts, social-security registration, 30 days' leave, hours limits. In force within 180 days, about March 2027 (estimate); it repeals Decree 40/2008 | The union is running a manual registration drive. "No systematised data on the sector" (AIM, Jan 2026) | ~487k domestic workers (Census 2017, cited in AIM); 13,827 union (SINED) members | **Opportunity 1** | New mandatory written contract and INSS enrolment; no tool exists for households |
+| Timber / forest operators (licença simples, concessions) | Forest Law 17/2023; transit guides issued by provincial services; periodic operator assessment by the National Forest Directorate (DINAF); log and charcoal export ban | Paper transit guides "arriving unsigned, allowing reuse" (AIM). The government says it will digitise licensing and exports (Apr 2026) | 369 fully operational operators out of 474 assessed (DINAF 2024 report, published Aug 2025) | **Opportunity 2 (weak)** | Small, shrinking base, and the state is building the digital system itself |
+| Charcoal producers and transporters | Licence plus transit guide; penalty of 1–5 years' prison under Law 17/2023; export banned | Roadblock and border seizures (300+ bags at Ressano Garcia, Jun 2025) | Unknown, mostly informal | Reject | Mostly informal and enforcement-driven; no payer |
+| Chapas (minibus) operators | Municipal operating licence; licensing now a condition for the 2026 fuel subsidy (~MZN 35,470 per minibus) | Maputo made licensing free and funds professional driving licences to regularise operators. Paid through the transport federation's (FEMATRO) vehicle database | Unknown; the subsidy database is held by the Transport Ministry and FEMATRO | Reject | State and federation run the database; the subsidy was set for 3 months, so it isn't recurring |
+| Moto-taxis / txopelas | Matola licenses app operators via Yango (Sept 2025) | Licensing is starting | Unknown | Reject | Yango already acts as the licensing channel |
+| Artisanal fishers | District fisheries licence; paper licensing booklet (livrete); subsistence boats registered but exempt from fees | Paper booklet at district level | Artisanal catch forecast at ~513k t in 2026 (snippet); operator count unknown | Reject | Very low ability to pay; the state sets effort limits |
+| Livestock movement / traders | Veterinary movement permits (unverified); state-vet quarantine for imports | Nothing Mozambique-specific found | Unknown | Not evidenced | Search found only Brazil/Portugal permit systems |
+| Scrap metal dealers | None found. Decree 20/2011 covers mineral trading only. Angola banned scrap-weighing licences in Jan 2026 (Exec. Decree 7/26) | No Mozambique register found in 2 searches | Unknown | Not evidenced | No trigger in Mozambique |
+| Well drillers | Water-licensing results returned Portuguese/Madeira (IGA) rules, not Mozambican regional water authority rules | Not found | Unknown | Not evidenced | No Mozambique source |
+| Private employment agencies | Decree 36/2016: standard and special licences from the Labour Ministry | No public licensed list found | Unknown | Channel, not a target | Possible reseller for Opportunity 1 |
+| Small employers' INSS compliance | Monthly contributions; INSS campaign because only 45–50% of ~200k registered firms pay regularly (AIM, Mar 2026) | INSS "mobilisation" campaigns; pension-system failures (Jun 2026) | ~200k registered firms (AIM) | Reject (covered) | Payroll tools exist (Primavera, PHC, Odoo; see the main report) |
+| Money changers, gold buyers | Supervised by the central bank (Banco de Moçambique) and the mining ministry | — | Small | Reject (not researched) | Not a solo-founder sale |
 
 ---
 
 ## 2. Opportunities
 
-No opportunity has enough verified evidence to score above 4. One lead is recorded for a later pass.
-
-### Opportunity: Domestic-Worker Registration & Payslip Kit (lead only)
+### Opportunity: Domestic-Worker Contract & INSS Kit (Decree 52/2026)
 
 **Industry:**
 Households as employers (domestic work)
 
 **Buyer:**
-Middle-class and expatriate households in Maputo/Matola employing domestic workers. More realistically, the buyer is an intermediary: the domestic workers' union, a placement agency, or an employer of expatriate staff (embassy/NGO HR) that formalises domestic staff for its own employees.
+The payer is not the average household. Three realistic buyers:
+- HR departments of embassies, NGOs, LNG and mining contractors and multinationals in Maputo, Matola, Pemba and Tete, which formalise domestic staff for expatriate and senior local employees, or reimburse them;
+- licensed private employment agencies that place domestic workers;
+- upper-middle-class and expatriate households, reached through those two channels.
 
 **Trigger / Why now:**
-- The Domestic Work Regulation (Decree 40/2008) is under public consultation for revision (AIM).
-- In January 2026, the First Lady challenged the National Union of Domestic Workers to register domestic workers nationwide (AIM, 2026-01-11).
-- Whether the revision will add employer duties such as mandatory INSS enrolment, written contracts or a minimum wage is **unverified**.
+- The Council of Ministers approved a new Domestic Work Regulation in June 2026 (Diário Económico, 23 Jun 2026).
+- It was issued as **Decree 52/2026 of 3 September**, enters into force within 180 days and repeals Decree 40/2008.
+- It requires **written contracts as a rule**, stating the parties, duties, place of work, pay, duration and **social-security registration**. A missing contract is presumed to be the employer's fault.
+- It also adds 30 days' annual leave, limits hours and protects against harassment.
+- A domestic-worker minimum wage will be set later by the government, after consulting the Labour Consultative Commission. That process has not started, so a second trigger is coming.
+- Separately, in Jan 2026 the First Lady challenged the domestic workers' union (SINED) to register domestic workers nationwide.
 
 **Current workflow:**
-1. Verbal agreement and a cash wage. Rarely a written contract (unverified).
-2. Where the household formalises, it enrols with INSS at a counter and pays monthly contributions (unverified for domestic workers specifically).
-3. Payslips and leave records are kept by hand or not at all.
+1. Verbal agreement and a cash wage; written contracts are rare (implied by the new rule's presumption against employers).
+2. A household that wants to comply has no template from the state. It finds a blog template (e.g. sovendas.co.mz, meusalario.org) or asks a lawyer.
+3. INSS enrolment and monthly contributions happen at an INSS counter. **The exact procedure for an individual employing a domestic worker was not found** (one search, no result). INSS has also pushed domestic workers into the *self-employed* regime, paying 7% themselves.
+4. Leave, hours and payslips are tracked by hand or not at all.
 
 **Pain:**
-Workers say they want minimum wages, holidays and social security (6,841-person survey, AIM). The demand is from workers, and **no employer-side pain was found**.
+- The legal exposure is new: the missing-contract presumption runs against the employer, and harassment and leave rules are stricter.
+- The INSS route for household employers is unclear (no public guide found), and contribution rates are reported inconsistently (4% + 3% vs. 7% + 4%; unverified).
+- **No employer complaints were found**; the pain is inferred from the law.
 
 **Existing solutions:**
-Placement agencies (unverified), INSS counters, and the union's own registration drive. Payroll software (Primavera, PHC, Odoo) is too heavy for a household.
+- Free contract templates and explainers on blogs (sovendas.co.mz, meusalario.org/WageIndicator).
+- Labour lawyers, one-off.
+- Placement agencies (licensed under Decree 36/2016) that may supply contracts.
+- INSS counters.
+- Business payroll software (Primavera, PHC, Odoo), which is overkill for one household worker.
+- No domestic-employer product in the style of South Africa's SweepSouth or Brazil's eSocial Doméstico was found for Mozambique.
 
 **Offline evidence:**
-A registration drive run through a union and a First Lady campaign, and a regulation from 2008 still under consultation. This is a counter-and-paper sector.
+A 2008 regulation revised only in 2026. A union registration drive run by hand. AIM reports the absence of systematised data on the sector. No INSS online guide for household employers was found.
 
 **Offline channel:**
-The domestic workers' union (registration drive), placement agencies, and HR departments of embassies/NGOs/LNG contractors that employ expatriates with household staff.
+- Direct outreach to HR and admin managers at embassies, UN agencies, NGOs and LNG/EPC contractors. They already manage staff housing and household-staff allowances (assumption to validate).
+- Licensed private employment agencies (Decree 36/2016); the Labour Ministry licence list wasn't found online.
+- SINED, the domestic workers' union, as a partner for registration days.
 
 **Market count:**
-Unknown. No register or count of employer households was found.
+About 487k domestic workers nationally (Census 2017, via AIM), with at least 37k in greater Maputo (INE 2007, via WIEGO). The realistic paying segment is expatriate and corporate-linked households in Maputo/Matola, perhaps a few thousand. That figure is an **estimate** with no source.
 
 **The gap:**
-A simple contract, payslip and INSS-contribution kit for households, if the revised regulation makes these mandatory.
+A Portuguese/English, decree-compliant contract, plus INSS enrolment guidance and a monthly payslip, leave and contribution record, built for one household with one or two workers. It should also produce a file an employer's HR team can audit across many staff households.
 
 **Possible product:**
-A Portuguese web/WhatsApp-friendly generator for the regulation-compliant contract, monthly payslip and contribution calculation. Sold through placement agencies or expat HR, not to households directly.
+A simple web/WhatsApp-friendly tool. The employer answers 10 questions and gets a Decree 52/2026 contract (PT/EN). Each month it generates a payslip, an INSS contribution amount and a leave balance. A corporate-HR dashboard covers all staff households. Optionally, a local partner does the INSS enrolment visit as a service.
 
 **MVP:**
-A contract template plus a monthly payslip PDF and an INSS amount calculator.
+A contract generator, a monthly payslip PDF, a leave tracker and an INSS amount calculator. Pilot with one embassy or NGO HR team and one agency.
 
 **Pricing hypothesis:**
-USD 2–5 per household per month via agencies or employer HR (estimate). Willingness to pay for software alone is near zero, and a done-for-you service via an agency is more plausible.
+USD 3–5 per household per month, or USD 100–300/month per corporate HR account covering 30–100 households (estimate). Households would pay only for a done-for-you service, not for the software itself.
 
 **How to find first customers:**
-Placement agencies in Maputo; embassy, NGO and LNG-contractor HR departments.
+Embassy, UN and NGO admin offices in Maputo; the HR teams of LNG contractors; placement agencies; SINED registration events.
 
 **Risks:**
-The revision may not be adopted or may add no employer filing duty. Enforcement in households is weak, and household budgets are tiny. A non-local solo founder could not sell this; it needs a local partner.
+- Enforcement in private homes is historically weak.
+- Fewer than 180 days to entry into force, and the minimum wage is still unset.
+- The INSS household-employer route may be the self-employed regime, which removes the employer's filing duty.
+- The base is small and price-sensitive.
+- A non-local solo founder could not sell this without a Maputo partner (legal check, INSS visits).
 
 **Kill condition:**
-The revised regulation imposes no recurring employer filing, or INSS does not enrol domestic workers individually through employers.
+- INSS requires domestic workers to enrol only as self-employed, so there is no employer filing.
+- Or corporate HR teams say they don't formalise staff households.
+- Or fewer than ~1,000 reachable paying households exist.
 
-**Score:** 2.5/10
+**Score:** 4/10
 
 **Sources:**
-- https://aimnews.org/?p=24973 (public consultation on revising the Domestic Work Regulation)
+- https://www.diarioeconomico.co.mz/2026/06/23/desenvolvimento-2/executivo-aprova-regulamento-do-trabalho-domestico/
+- https://www.rm.co.mz/conselho-de-ministros-aprova-regulamento-do-trabalho-domestico-em-mocambique/
+- https://executivedigest.sapo.pt/novas-regulacoes-introduzem-mais-garantias-laborais-para-trabalhadores-domesticos-em-mocambique/
+- https://jornalnoticias.co.mz/destaque/trabalho-domestico-um-novo-regime-para-uma-realidade-antiga/
 - https://aimnews.org/2026/01/11/primeira-dama-lanca-desafio-para-registo-dos-trabalhadores-domesticos-em-mocambique/
+- https://aimnews.org/?p=24973
+- https://wiego.org/wp-content/uploads/2019/09/Castel-Branco_WIEGO_WL3_Portugues.pdf
+- https://aimnews.org/2026/03/05/inss-intensifica-mobilizacao-para-empresas-canalizarem-contribuicoes-dos-trabalhadores/
+- https://mirandalawfirm.com/en/insights-knowledge/publications/alerts/entry-into-force-of-new-regulations-on-private-employment-agencies
+- https://sovendas.co.mz/blog/trabalho-domestico-em-mocambique/
+
+---
+
+### Opportunity: Forest-Operator Compliance File for Digital Licensing (weak)
+
+**Industry:**
+Timber and forest operators (simple-licence holders and concessions)
+
+**Buyer:**
+Owners of small forest operators and sawmills (licença simples holders), reached through the forest operators' federation (FEDEMOMA).
+
+**Trigger / Why now:**
+- Forest Law 17/2023 is being regulated (a draft regulation was presented in Jul 2024).
+- In April 2026 the National Forest Director said licensing and export control will be **fully digitised**.
+- The government is working with operators' federations to train operators in **georeferencing** for traceability.
+- DINAF's periodic operator assessment scores silviculture and industry compliance; average silviculture scores were 45% (simple licences) and 57% (concessions) in 2024.
+
+**Current workflow:**
+1. The operator requests paper transit guides from the provincial forest services for each load.
+2. The guides travel with the truck; some arrive unsigned and are reused.
+3. The operator compiles evidence for the periodic DINAF assessment (inventory, replanting, processing) on paper. This step is unverified.
+
+**Pain:**
+Operators score poorly on the assessment, and enforcement against smuggling is rising (criminal probe, 2026). Digitisation will force operators to produce georeferenced data.
+
+**Existing solutions:**
+The government's own forthcoming digital system (vendor unknown); donor projects (World Bank/PROFOR material on natural forests); FEDEMOMA training; consultants.
+
+**Offline evidence:**
+Paper transit guides, roadblock checks and federation-led training.
+
+**Offline channel:**
+FEDEMOMA and its 2026–2035 strategic plan process; the provincial forest services.
+
+**Market count:**
+369 fully operational operators (DINAF Technical Report on Periodic Assessment of Forest Operators 2024, published Aug 2025), down from 699 in 2015.
+
+**The gap:**
+An operator-side record: harvest volumes, georeferenced compartments, replanting evidence, guide reconciliation. Its value depends entirely on whether the state system leaves anything for operators to prepare.
+
+**Possible product:**
+A mobile-first harvest and transit-guide log with GPS points and an export pack for the DINAF assessment.
+
+**MVP:**
+A guide-usage log, a GPS photo log and an assessment checklist PDF.
+
+**Pricing hypothesis:**
+USD 20–50/month per operator (estimate). More likely paid by a donor or the federation than by the operators.
+
+**How to find first customers:**
+FEDEMOMA, and DINAF's list of operators (the assessment report lists 474 evaluated).
+
+**Risks:**
+The state system may cover the whole workflow. The sector is shrinking and exposed to smuggling and corruption. A local presence is required; a non-local founder could not sell this.
+
+**Kill condition:**
+The government's digital system includes an operator app or portal for guides and georeferencing.
+
+**Score:** 3/10
+
+**Sources:**
+- https://aimnews.org/2026/04/13/digitizing-forestry-licences-key-to-curb-smuggling/
+- https://aimnews.org/?p=51002
+- https://aimnews.org/2024/07/26/governo-apresenta-projecto-de-regulamentacao-da-lei-florestal/
+- https://jornaleconomico.sapo.pt/?p=1324251
+- https://woodcentral.com.au/mozambique-targets-timber-smuggling-as-criminal-probe-widens/
+- https://aimnews.org/2025/06/12/autoridades-mocambicanas-frustram-trafico-de-carvao-vegetal-para-africa-do-sul/
 
 ---
 
 ## 3. Rejected
 
-- **Scrap-metal dealer register / export compliance:** no Mozambican 2024–2027 rule was found. The only Mozambique hit was Decree 20/2011 on mineral commercialisation (Global Trade Alert), which is not a scrap-dealer register. Rejected for lack of a trigger; this is not proof that no rule exists.
-- **Chapas, moto-taxis, artisanal fishers, mukheristas:** rejected on prior reasoning, not research. Operators have very thin margins, fares are politically set, and customs runs through a state single window (see the main report). None is plausibly a software buyer.
-- **Money changers, gold buyers:** central-bank or mining-ministry supervision, with few operators and a security/political sensitivity. Not a solo-founder sale.
+- **Chapa fuel-subsidy and licensing helper.** The 2026 subsidy (~MZN 35,470 per minibus, ~MZN 141,000 per bus) needs a municipal licence, which Maputo now issues free. Killed because the Transport Ministry and FEMATRO hold the vehicle database, the subsidy was set for 3 months only, and the municipality and federation do the paperwork. Sources: https://aman-alliance.org/Home/ContentDetail/102953, https://www.dnoticias.pt/2026/5/14/491894-maputo-financia-cartas-de-conducao-profissionais-para-regularizar-transportadores
+- **Moto-taxi / app transport licensing.** Matola licenses through the Yango platform, which acts as the substitute channel. Source: https://aimnews.org/2025/09/03/yango-e-municipio-da-matola-lancam-solucoes-inovadoras-para-mobilidade-urbana/
+- **Charcoal transport compliance.** Mostly informal producers facing criminal penalties under Law 17/2023, with exports banned. There is no payer.
+- **Artisanal fishing licences.** A paper booklet from the district authority, subsistence boats are fee-exempt, and ability to pay is very low. Source: https://faolex.fao.org/docs/pdf/moz111905.pdf
+- **Small-employer INSS contributions.** Real non-compliance (only 45–50% of ~200k firms pay regularly), but payroll vendors already cover it (see the main report).
+- **Scrap metal, livestock movement, well drillers.** No Mozambique-specific rule or register was found. Absence is not proof that none exists.
 
 ## 4. Method notes
 
-- The Portuguese queries on official/news sources worked: aimnews.org surfaces government campaigns and consultations well. The English or mixed query on scrap metal drifted to other countries.
-- Searches were cut off after 3 calls by a usage limit, so the regulator-first screen (charcoal/timber guias, livestock movement permits, ARA well licences) was not done. A rerun should start with: "guia de trânsito carvão vegetal Moçambique", "guia de trânsito de gado Moçambique SDAE", "licenciamento furos de água ARA Moçambique" and "revisão regulamento trabalho doméstico 2026 aprovado".
-- My prior view, unverified: Mozambique's quiet industries are mostly informal, cash-based and low-margin. The likelier payer is an intermediary (association, NGO, donor programme, large employer) than the operator.
+- **Worked:** Portuguese queries with "2026", plus the decree or law name, return AIM, Lusa (via aman-alliance) and Diário Económico items quickly. Government campaigns ("Primeira-dama", "INSS mobilização") point to quiet sectors. DINAF's operator-assessment report gave a hard count.
+- **Didn't work:** queries on livestock movement, well drilling and scrap drifted to Brazilian or Portuguese rules, because the same Portuguese terms (guia de trânsito, furos, sucata) are used there. Official Mozambican forms and registers are hardly indexed; BR (the official gazette) is not searchable through snippets.
+- **Pattern:** in Mozambique the state or a federation (FEMATRO, FEDEMOMA, SINED) usually owns the database. The realistic customer is the intermediary or a corporate employer, not the small operator.

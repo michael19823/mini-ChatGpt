@@ -327,3 +327,5 @@ What didn't work:
 - No public licensing registers with counts turned up, apart from the 569 driving schools. Counts mostly come from press coverage of inspections.
 - Queries about software and competitors returned French (France) results or Abidjan custom-build agency blogs (Kolonell), not local products.
 - Several sectors (funerals, scrap, security) only returned pre-2020 press.
+
+Research model: Opus

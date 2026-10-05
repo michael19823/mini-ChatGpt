@@ -179,3 +179,5 @@ BAHA has no electronic permit intake, so there is nothing to automate. This is l
 - **What worked:** local news archives (Amandala, Channel 5, San Pedro Sun, the government press office) were the best way to find regulator activity, because Belizean regulators publish through press releases. Statutes are best found via FAOLEX/LEAP and belizejudiciary.org. BAHA's site gave the one hard register count (cattle producers).
 - **What didn't work:** searching for public licence lists (pesticides, scrap, fishers) returned only the legal framework, never a list of names. The counts would need a phone call or a request to the authority.
 - **Takeaway:** for a microstate, "regulator first" mostly shows that the regulator *is* the counter. The workflow is already centralised and there is no multi-authority fan-out for software to sit on.
+
+Research model: Opus

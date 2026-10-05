@@ -255,3 +255,5 @@ ONSSA or the importers launch a free e-register, or inspectors don't penalise re
 - **What worked:** French queries naming the specific law plus "obligation / registre / plateforme" (Law 51.26, Law 36-15 art. 114, Law 49-99). Arabic queries naming the law number and Dahir (*al-jarida ar-rasmiyya*) found the BO number and promulgation date that French press omitted. The press titles Hespress, Médias24, FNH and Le360 carry most regulator news.
 - **What didn't:** generic Arabic queries without a law number (farm labour, scrap) returned US and Gulf results. Counts of practitioners (adouls, drillers, scrap dealers) are not in the press, so they need a direct ask to the Ministry or the professional body. Moroccan regulators often build the platform themselves (Sarf, ONSSA identification, ABH portals, the NARSA example in the main report), so "the regulator is the substitute" is the default kill in this country.
 - **Budget:** 27/40 searches used. The run stopped on a usage-limit refusal.
+
+Research model: Opus

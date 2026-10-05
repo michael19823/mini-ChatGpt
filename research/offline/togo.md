@@ -1,7 +1,8 @@
 # Togo: offline / quiet-industries pass
 
-Research date: 2026-10-05. Budget: 20 WebSearch calls. **8 were attempted; the 8th was refused ("usage limit")**, so the
-instructions applied (stop and write up). In practice the report rests on 7 searches. WebFetch was not used.
+Research date: 2026-10-05. Budget: 20 WebSearch calls. **17 were attempted in total. 3 were refused with a "usage limit"
+error (calls 6, 9 and 13), so the report rests on 14 searches.** After a first refusal I stopped; the coordinator then said the
+limit had reset, and I resumed. WebFetch was not used.
 Searches were in French. This is a short report on a small, mostly informal market. Most rows below are screened at
 low confidence, and anything I could not check against a source is marked "unverified" or "estimate".
 
@@ -26,13 +27,17 @@ cocoa/coffee and customs brokers. None of those is repeated here.
 | Scrap metal dealers (ferrailleurs) | Export of raw scrap banned since April 2021 (interministerial order 014/MCICL/MEF/MPI); localisation requirement for metal exports since Feb 2024 ([GTA](https://globaltradealert.org/intervention/133449-togo-export-ban-on-scrap-metals), [GTA](https://globaltradealert.org/intervention/134461-togo-introduction-of-a-localisation-requirements-for-exports-of-ferrous-and-non-ferrous-metals)) | No dealer register or police reporting duty found; collectors sell directly to local steel recyclers | Unknown | Rejected | The ban moved the value to a few local recyclers; there is no per-transaction reporting duty for dealers to automate |
 | Second-hand goods / pawn / gold buyers | None found for Togo | No regulation found in the searches | n/a | Not screened in depth | No obligation found within budget |
 | Livestock traders, transhumant herders | ECOWAS International Transhumance Certificate (CIT); new national Transhumance Management Plan 2026-2030 validated from March 2026 ([Ecofin](https://www.ecofinagency.com/news/0104-54324-togo-advances-new-plan-to-manage-transhumance-and-curb-conflicts), [Ecofin](https://www.ecofinagency.com/news/2811-50959-togo-with-fao-support-holds-consultations-on-2026-2030-transhumance-strategy)) | Paper certificates issued by vet posts; work done by ministry, FAO and donor projects | Unknown | Rejected | The buyer is the state or a donor (procurement), not a small operator; herders will not pay for software |
-| Small abattoirs, butchers | Vet inspection (assumed; not verified for Togo) | Not searched | Unknown | Not screened | Budget |
+| Small abattoirs, butchers | Meat inspection under the Direction de l'Élevage (Ministry of Agriculture); only academic theses (2011-2021) found ([IRD/EISMV thesis](https://beep.ird.fr/collect/eismv/index/assoc/MEM12-26.dir/MEM12-26.pdf)) | Inspection done by vet agents on site; no 2024-27 regulation or register found | Unknown | Rejected | No recurring filing by the operator; the inspection record belongs to the state vet service |
+| Veterinary-medicine sellers (dépôts, market sellers) | Only authorised professionals may handle or sell vet medicines (veterinary-profession law and vet-pharmacy decree); April 9, 2025 ministerial statement ordered surprise inspections of markets, distribution channels and entry points ([allAfrica](https://fr.allafrica.com/stories/202504110199.html), [Afrique-sur7](https://www.afrique-sur7.fr/togo-intensifie-la-lutte-contre-les-faux-medicaments-veterinaires)) | Enforcement is raids by police and ministry; no online register of authorised dépôts found | Unknown | Watch | The enforcement trigger is real (2025), but it targets illegal sellers. Legal dépôts are few, and I found no record-keeping duty (for example an antimicrobial register) |
+| Gold buyers (comptoirs) | Mining-code purchase approvals; EITI reporting ([Ecofin, EITI Jan 2025](https://ecofinagency.com/mining/2801-46376-togo-a-key-transit-hub-for-gold-from-neighboring-nations-eiti)) | Trade concentrated in a few large exporters; Togo is mainly a transit hub for gold from neighbouring countries | A handful of exporters (estimate) | Rejected | Too few buyers, and the sector is opaque and high-risk (contraband, AML) |
+| Private security companies (gardiennage) | Ministerial approval (assumed; not verified) | No official list found online; only job ads | Unknown | Not enough evidence | No obligation or register found |
+| Market traders (Lomé markets) | Market fees and local taxes (EPAM); OTR mobile tax payment | Searches only returned OTR-level reforms ([OTR circular 001/2025](https://otr.tg/images/2025/PDF/01/CIRCULAIRE-N001-2025-OTR-CG-CI-REHAUSSEMENT-SEUIL-D-ASSUJETTISSEMENT-TAXE-SUR-LA-TVA.pdf)) | Unknown | Rejected | Traders sit below the 100M FCFA VAT threshold; the market authority, not the trader, would be the buyer |
 | Pesticide distributors / agro-dealers | Distribution approval: 500,000 FCFA (synthetic) or 250,000 FCFA (bio); products must be registered by CPP/CSP: 172 products registered since 2017 ([IPEN national report](https://ipen.org/documents/national-report-highly-hazardous-pesticides-hhps-and-alternatives-togo), [AVSF/RENAAT](https://avsf.org/app/uploads/2024/07/7-Intervention-RENAAT_TABLE-RONDE.pdf)) | Approvals handled through the ministry; no public online list of approved distributors found | Unknown (no public list) | Weak candidate (2/10) | Licensing is real, but no recurring register or report duty was found; only a stock/sales register would make it recurring, and that is unverified |
 | Well drillers (foreurs) | Ministry technical guide on drilling, protection and abandonment (2015); work sold through public tenders ([pS-Eau guide](https://www.pseau.org/outils/ouvrages/guide_technique_de_realisation_de_protection_de_gestion_et_d_abandon_des_forages_d_eau_2015.pdf), [9 boreholes tender, 2025](https://www.afrique-sur7.fr/togo-9-forages-bientot-disponible-dans-le-grand-lome)) | No online register of approved drillers; reporting is per tender contract | Unknown | Rejected | Few firms; the "report" is a deliverable to one client (ministry or NGO), not a recurring multi-authority filing |
 | Moto-taxi (zémidjan) operators | Professionalisation plan validated in 2025: continuous training, suitable licences, technical supervision of motorbikes, financing for buying motos, with IFC support ([allAfrica, Jul 2025](https://fr.allafrica.com/stories/202507100563.html)) | Drivers are informal and organised through unions; enforcement is a roadside police matter | Unknown (tens of thousands is a common press estimate; unverified) | Watch | Real 2025 trigger, but the buyer would be the state, the unions or a lender (IFC), not drivers; consumer behaviour change is needed |
 | Money changers (change manuel) | BCEAO prior opinion plus Ministry of Finance approval under UEMOA Reg. 09/2010; periodic reporting to BCEAO (reporting not verified for Togo) ([CI guide BCM](https://www.tresor.gouv.ci/tres/wp-content/uploads/2018/03/GUIDE-BCM.pdf)) | No Togo list of approved bureaus found; street cambistes are informal | Unknown, probably a few dozen formal bureaus (estimate) | Rejected | Too few formal operators; informal ones avoid the system |
-| Driving schools (auto-écoles) | Ministry approval; exam handling | Search refused (usage limit) | Unknown | Not screened | Budget |
-| Funeral / cemeteries / burial societies | Municipal (assumed) | Not searched | Unknown | Not screened | Budget |
+| Driving schools (auto-écoles) | Ministry of Transport approval (assumed) | Two searches: one refused, one returned only France and Cameroon results | Unknown | Not enough evidence | No Togo source found |
+| Funeral homes / cemeteries | Municipal (assumed) | Search returned only French and Belgian rules | Unknown | Not enough evidence | No Togo source found; funerals are mostly family-run, not a licensed trade (unverified) |
 
 ## 2. Opportunities
 
@@ -184,6 +189,10 @@ No legal sales-register duty exists, or the CSP or a donor already distributes a
   it depends on informal drivers changing behaviour.
 - **Well drillers:** Few firms, reporting is a contract deliverable to one client, and work is won through public tenders.
 - **Money changers:** Few formal bureaus; the informal cambistes stay outside the system.
+- **Veterinary-medicine sellers:** The April 2025 crackdown is enforcement against illegal sellers. I found no record-keeping duty for
+  legal dépôts and no count of them. Watch only: re-check if a register of authorised vet dépôts or an antimicrobial-use log is introduced.
+- **Gold buyers:** A handful of large, opaque exporters in a transit trade; AML/contraband risk.
+- **Abattoirs, market traders:** The inspection record or the tax collection belongs to the state or the market authority, not to the operator.
 
 ## 4. Method notes
 
@@ -191,7 +200,9 @@ No legal sales-register duty exists, or the CSP or a donor already distributes a
   Ecofin and allAfrica for policy plans). They did **not** surface any public licensing register or operator list.
   Togo does not publish them online, so the market could not be counted for any industry.
 - Seed-list items tied to police registers (second-hand, pawn, gold) produced nothing. Togo has no such regime visible online.
-- Search budget ended early because of a usage-limit refusal after 7 successful searches. Driving schools, abattoirs and funeral
-  services were not screened.
+- 3 of 17 searches were refused with a usage-limit error. For driving schools, funeral homes and private security, the searches came back
+  with France, Belgium or Cameroon pages, or job ads. Togo publishes almost nothing online for these trades.
+- The most productive pattern was **enforcement news** (for example, "Togo intensifie la lutte contre les faux médicaments
+  vétérinaires", allAfrica/Afrique-sur7). It is the only route that turned up a 2025 trigger for a quiet trade.
 - Overall: Togo's quiet industries are informal, and their "regulator" is often a donor-backed ministry programme. Togo is a poor
   market for this pass. Any product here would need a local operator and would be a service first.

@@ -138,11 +138,19 @@ Run development-plan agents (the format in `research/method/plan-instructions.md
 
 ## Caveats
 
-- **Model mix.** 19 reports were written by Sonnet subagents and end with
-  `Research model: Sonnet`. All other reports were written by Opus. The Sonnet reports cover
-  mostly small or difficult markets, and none has an idea scoring above 5. An Opus review of
-  them is running; its results will be in `research/offline/_sonnet-review.md`, and this
-  ranking will be updated if any score changes.
+- **Model mix and Opus review.** 20 reports were written by Sonnet subagents and end with
+  `Research model: Sonnet`; all the others were written by Opus. Opus reviewed every Sonnet
+  report (`research/offline/_sonnet-review.md`, plus an `## Opus review` section in each one).
+  - **Sound:** 14 small or inaccessible markets reached the same honest null result Opus would.
+  - **Cut:** 3 of the 7 Sonnet ideas scored 4 or higher. Portugal's gold-buyer register fell
+    4 → 2, because Gouwin and Ponto25 already produce the police declarations. Portugal's
+    hunting zones and Lithuania's farm journal fell 4 → 3, and Kosovo's livestock lead fell
+    3 → 2 because it cited Albania's law.
+  - **Unchanged:** Egypt's bakery lead (5) and Jamaica's two leads (4).
+
+  No Sonnet idea was in the top 15, so the ranking above doesn't change. Lesson for future
+  passes: Sonnet is fine for screening small markets, but any Sonnet idea scored 4 or higher
+  needs an Opus check of its competitors and trigger before it enters a ranking.
 - All research used web-search snippets only, because WebFetch was blocked. Market counts marked
   "unverified" or "estimate" in the reports should not be relied on.
 - Scores are each agent's own, against the brief's 10 criteria plus the offline-channel rule. They

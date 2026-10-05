@@ -123,3 +123,5 @@ The ministry sets no recurring reporting or register obligation, or there are fe
 - Searches for registers, official forms and gazettes returned nothing for EG. Spanish queries are swamped by results for *Ecuador*, so add "Malabo" or "Bata" to every query.
 - COMHAFAT and FAOLEX hold EG fisheries law.
 - Two of the 8 calls failed on the usage limit.
+
+Research model: Opus

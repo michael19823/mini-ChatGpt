@@ -220,3 +220,5 @@ Fewer than about 200 active drillers, or basin boards that accept a one-page for
 - **What didn't work:** Swahili queries returned junk. "kibali cha kusafirisha mifugo" returned electronics pages, and the domestic-worker Swahili query returned Kenyan NSSF results. The search engine is US-biased, and Swahili regulator pages (tumemadini.go.tz) surface only for precise terms.
 - **Recurring pattern:** in Tanzania the state itself digitises quiet sectors (MUVU, the TFRA tool, NLITS, honey DTS, TANCIS, OMCTP). The usual substitute is a government system, not paper. That is why most of these industries were rejected.
 - **Founder access:** a non-local solo founder would struggle with every row. Each needs a Swahili-speaking local partner.
+
+Research model: Opus

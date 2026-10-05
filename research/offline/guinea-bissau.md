@@ -105,3 +105,5 @@ INSS does not accept household employers in practice, or fewer than 100 househol
 - Portuguese, regulator-first queries returned mostly Portuguese, Angolan and Brazilian results. GB-specific registers are scarcely online. eRegulations Guinea-Bissau and academic theses (Iscte) were the only GB-specific regulator-side sources.
 - Two of 4 searches were refused because of the usage limit, so livestock and transport rows rest on assumptions and are marked unverified.
 - For GB, the "quiet" industries are quiet because they are informal, not because they are under-served by software. A further pass is unlikely to change the verdict.
+
+Research model: Opus

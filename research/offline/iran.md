@@ -35,3 +35,5 @@ The gold-dealer reporting regime is the one genuine offline-industry finding. Ob
 
 - Persian-language queries about regulator obligations returned useful local news. English OFAC queries returned only older guidance.
 - Both searches ran in standard mode. I did not use the remaining 6 searches, because no result could change the access verdict.
+
+Research model: Sonnet

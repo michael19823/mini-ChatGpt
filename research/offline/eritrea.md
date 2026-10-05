@@ -56,3 +56,5 @@ Country-specific additions I tried: livestock exporters to the Gulf, artisanal g
 - awate.com, "Minister Nesredin Bekit puts more red tape on import licenses": https://awate.com/minister-nesredin-bekit-puts-more-red-tape-on-import-licenses/
 - Business Data Guide, Eritrea jurisdiction guide (no online registry): https://businessdataguide.com/blog/jurisdictions/eritrea-company-search-guide
 - Country report: research/countries/eritrea.md
+
+Research model: Opus

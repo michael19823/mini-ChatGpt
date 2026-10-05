@@ -114,3 +114,5 @@ Already met: there are fewer than 1,000 obliged and active buyers.
 - Livestock was the most plausible quiet industry. Re-run in standard mode, it was confirmed as heavily regulated, but the state runs the register (SLITS), so there is no small-business buyer.
 - Searches for liquor, pawnbrokers and second-hand dealers returned mostly foreign results (South Africa, Namibia, New Zealand). Adding "eswatinilii" to the query or restricting it to that domain would probably work better.
 - Burial societies (an FSRA question) are still unscreened after a second usage-limit refusal. This is the only remaining follow-up I would consider, and I expect it to be weak.
+
+Research model: Opus

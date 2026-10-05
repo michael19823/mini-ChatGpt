@@ -2,20 +2,25 @@
 
 Verdict: beatable
 
-Note: only 1 of 6 searches returned results (usage limit hit on the other two). Evidence is thin; no complaint, review or forum search was possible.
+4 WebSearch calls used (2 earlier calls failed on a usage limit). Evidence comes from search-result summaries only; pages were not opened.
 
 ## Evidence
-- NISG applies from 1 Oct 2026; about 4,000 Austrian companies must register, self-declare and apply risk-management measures (source: https://www.boerse-express.com/news/articles/nis2-compliance-ab-oktober-drohen-bussgelder-bis-15-millionen-euro-922634 and https://ic-consult.com/de/ressourcen/blogs/nis2g-2026-was-auf-unternehmen-in-oesterreich-ab-dem-1-oktober-zukommt/ , via search snippet only).
-- Consultancies are active: Forvis Mazars runs a "Neue Registrierungsphase fuer NIS2" page (https://www.forvismazars.com/at/de/unsere-expertise/it-consulting/neue-registrierungsphase-fuer-nis2); IC Consult publishes NISG guidance; Proliance sells a platform plus expert service to Austrian SMEs (https://www.proliance.ai/en/nis2-austria). Proliance's own claims (TÜV/DEKRA experts, 2,500+ companies) are vendor marketing, unverified.
-- Complaints: none found (search was not able to cover reviews/forums). Absence is not evidence of satisfaction.
+- NISG 2026 takes effect 1 Oct 2026; about 4,000 Austrian companies in 18 sectors affected (50+ staff or EUR 10m+ turnover). Registration within 3 months, self-declaration deadline 1 Oct 2027 (summaries of https://www.boerse-express.com/news/articles/nis2-compliance-ab-oktober-drohen-bussgelder-bis-15-millionen-euro-922634 , https://www.proliance.ai/en/blog/nisg-2026).
+- Consultancies and vendors active: Forvis Mazars (https://www.forvismazars.com/at/de/unsere-expertise/it-consulting/neue-registrierungsphase-fuer-nis2), KPMG Austria (press release on the draft law), IC Consult, Proliance (platform plus experts; its claims of TUV/DEKRA experts and 2,500+ companies are vendor marketing, unverified), SECJUR, Docusnap, zettasecure ("NIS2 ohne Overkill" on wko.at, suggesting a lean-for-SMEs niche already being targeted).
+- Complaints: no customer reviews or forum complaints about consultancies found (Reddit/forum query returned nothing relevant). Only criticism found is of the law's cost and bureaucracy: WKO study (~EUR 500m/yr economy cost per summary), FPOe press criticism (https://www.pressefeuer.at/fpoe-kritisiert-nis2-gesetz-buerokratie-und-kostenexplosion). That is not a complaint about consultants.
+- Momentum: active, busy marketing ahead of the deadline.
 
-## Pricing
-- Only a generic mid-size cost range from a German advisory blog (advisori.de, via snippet, unverified): ISMS setup EUR 50-150k, external audits EUR 10-30k/yr, tools EUR 20-80k/yr, training EUR 5-20k/yr. No published Austrian consultant rates found.
-- Likely overpriced for firms near the 50-employee/EUR 10m threshold; unverified.
+## Pricing (secondary sources, unverified)
+- Consulting EUR 30,000-80,000 per project; tools EUR 7,500-100,000 per year; ISMS platforms from EUR 10,000 (SECJUR blog, https://www.secjur.com/blog/nis2-kosten, via summary; a vendor with an interest).
+- Government estimate averaging EUR 70,000 one-off and EUR 73,000 per year per company (summary; source not opened).
+- Advisori (German blog, unverified): ISMS setup EUR 50-150k, audits EUR 10-30k/yr.
+- Cyber Security Cheques 2023 funded up to 40% / EUR 10,000 per SME (ikarussecurity.com); that was 2023, current availability unverified.
+- Far above what a 50-person firm would casually pay.
 
-## Fit gaps (inferred, unverified)
-- Big-firm consultancies (Forvis Mazars etc.) probably target large/essential entities; bespoke, project-priced.
-- Small in-scope firms (50-250 staff) may need cheap, templated self-declaration and policy workflow; Proliance is the closest platform rival and would need a closer look.
+## Fit gaps (partly inferred)
+- Project-priced consulting suits larger or essential entities; small in-scope firms get a heavy ISMS approach (the "Overkill" framing suggests the pain exists).
+- Many materials are German (DE) generic, not Austria-specific registration/self-declaration with the new Federal Office for Cybersecurity.
+- Many firms still unaware or unprepared (German BSI registration stats, not Austria, show low uptake; Austria-specific data not found).
 
 ## Opening
-Low-cost, self-serve NISG registration/self-declaration/policy toolkit in German for small in-scope firms, priced well below consultant projects, with the caveat that platform players like Proliance are already moving there.
+Cheap, templated, Austria-specific NISG scoping, registration and self-declaration workflow for 50-250 employee firms, undercutting EUR 30-80k projects; but platforms (Proliance, SECJUR, zettasecure) already crowd the low end, so differentiation must be price and simplicity.

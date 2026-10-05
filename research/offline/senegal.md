@@ -1,6 +1,6 @@
 # Senegal: Offline (Quiet) Industries Pass
 
-Research date: 2026-10-05. Language of queries: French. Budget: 20 WebSearch calls. 17 were made, and the 17th was refused for a usage limit, so the research stopped there. WebFetch was not used (blocked by the method).
+Research date: 2026-10-05. Language of queries: French. Budget: 20 WebSearch calls, all 20 used. The 17th was refused for a usage limit, and after the reset the last 3 went to filling gaps: the ANSD domestic-worker count, the list of licensed changers, and the Highway Code status. None of the three answered its question. WebFetch was not used (blocked by the method).
 
 > **Evidence limits.** Every claim comes from search-result summaries, not from regulator PDFs read in full. Counts marked **(estimate)** are mine, and anything marked **(unverified)** could not be confirmed. Overall, Senegal's quiet industries turned out to be mostly **informal and unregistered**, or **handled by free state campaigns** (registration drives, biometric cards, fleet-renewal programs). Few of them file recurring reports that a small vendor could automate. This is a short report, and the honest conclusion is that no strong lead was found.
 
@@ -13,8 +13,8 @@ This pass does not repeat the opportunities in `research/countries/senegal.md` (
 | # | Industry | Obligation | Evidence it's offline | Rough count (source) | Verdict | One-line reason |
 |---|---|---|---|---|---|---|
 | 1 | **Manual money changers (agréés de change manuel)** | Licence from the Ministry of Finance (DMC). Monthly reports of FX buy/sell operations to the authorities within 10 working days after month end (BCEAO Instruction 15-07-2025 RFE, in force 1 Aug 2025, Annex 2). New conditions of operation (Instruction 07-07-2025 RFE). AML duties. | The instruction allows **physical or electronic** submission. The DMC had to publish a newspaper notice asking licensed changers to come forward and identify themselves, or risk being struck off. No Senegal changer software was found. | Senegal count unknown. The list is published yearly by the Minister of Finance (Instruction 06/07/2011 art. 7). Probably tens to low hundreds of licensed changers **(estimate)**, across 8 UEMOA countries. | **Opportunity (weak–moderate)** | A fresh regulatory trigger, monthly frequency, and the same rules in 8 countries. But the buyer pool is small and the trade is partly informal. |
-| 2 | **Households employing domestic workers** | Declaration of hire to the labour inspector (arrêté 7301 of 1963). IPRES has a dedicated "gens de maison" branch, plus CSS affiliation and contributions. | About 90% of domestic workers have no social cover and about 98.5% have no contract (Dakar survey reported by Seneweb). The ILO C189 convention is not ratified. Deputies raised the issue during the 2026 Labour Code and Social Security Code bills. | Unknown. The ANSD figure could not be retrieved (search refused). | **Weak opportunity / service only** | The obligation exists but is barely enforced. Willingness to pay is very low. Ndamli is free. |
-| 3 | **Driving schools (auto-écoles)** | The new Highway Code makes driving-school training mandatory (no more independent candidates), with a points licence and digital fines. The government targeted application by H1 2026, and the regulatory part was 80% done in March 2026. | Status after mid-2026 unverified. No software listings found. | Unknown | **Watch** | A real trigger if the decree is in force, but the reporting flow, counts and state platform are all unknown. |
+| 2 | **Households employing domestic workers** | Declaration of hire to the labour inspector (arrêté 7301 of 1963). IPRES has a dedicated "gens de maison" branch, plus CSS affiliation and contributions. | About 90% of domestic workers have no social cover and about 98.5% have no contract (Dakar survey reported by Seneweb). The ILO C189 convention is not ratified. Deputies raised the issue during the 2026 Labour Code and Social Security Code bills. | Unknown. ANSD employment surveys (ENES 2015, 2018 survey, quarterly ENES) do not isolate domestic workers in the search results. | **Weak opportunity / service only** | The obligation exists but is barely enforced. Willingness to pay is very low. Ndamli is free. |
+| 3 | **Driving schools (auto-écoles)** | The new Highway Code makes driving-school training mandatory (no more independent candidates), with a points licence and digital fines. The government targeted application by H1 2026, and the regulatory part was 80% done in March 2026. | Whether the code entered into force after the H1 2026 target is still unverified (checked Oct 2026; Osiris and SenePlus report polemics). No software listings found. | Unknown | **Watch** | A real trigger if the decree is in force, but the reporting flow, counts and state platform are all unknown. |
 | 4 | Moto-taxi / "Jakarta" owners | Mandatory registration of two-wheelers from 6 Jan 2025, with a free regularisation window to 13 Mar 2025. | Done at counters and through mobile commissions. | 200,000 motos registered in 3 months (AllAfrica, Mar 2025) | Rejected | A one-off state campaign. No recurring report falls on the owner. |
 | 5 | Scrap-metal dealers (ferrailleurs) | Ferrous export ban; a circular of 29 Sep 2025 on sales to industrial buyers; a 2021 sector protocol. | Street protests, a march banned by the Thiès prefect (Oct 2025). | Unknown | Rejected | The pain is about price and policy (export ban, voucher payments), not paperwork. No police register obligation was found. |
 | 6 | Gold buyers (comptoirs d'or) and artisanal miners | Sale only to licensed comptoirs; biometric cards for miners (10,000 in Kédougou/Tambacounda until Oct 2026); a national gold comptoir with the UAE (MoU Dec 2025). | Only about 10% of artisanal gold goes through licensed comptoirs. | About 5 comptoirs planned (Le Soleil). Over 40 t of artisanal gold per year. | Rejected | The state is centralising the trade, there are very few buyers, and the field is high-risk and informal. |
@@ -76,7 +76,7 @@ In Senegal, the Ministry of Finance's Direction de la Monnaie et du Crédit aske
 - Possibly a professional association of changers (none was identified; unverified).
 
 **Market count:**
-Unknown for Senegal. The Ministry of Finance publishes the list yearly. Estimate: tens to low hundreds of licensed changers per country, times 8 UEMOA countries **(estimate)**.
+Unknown for Senegal. The Ministry of Finance publishes the list yearly, but no 2025 Senegal list was found online. The DMC must be asked for it (dmc@minfinances.sn, as given in the DMC notice). Niger publishes its list online. Estimate: tens to low hundreds of licensed changers per country, times 8 UEMOA countries **(estimate)**.
 
 **The gap:**
 A tool that turns daily counter transactions into the exact BCEAO Annex 2 monthly report, with a KYC register and cash-threshold alerts, in the UEMOA format.
@@ -117,6 +117,8 @@ Likely only for a done-for-you service. Paying for software alone is doubtful.
 - https://regalert.today/document/0dd7d26f-f48d-478d-9d64-87671e0b64a6
 - https://www.financialafrik.com/2025/08/02/breaking-news-la-bceao-publie-une-serie-dinstructions-cles-en-matiere-de-reglementation-des-changes/
 - https://www.seneweb.com/fr/news/Communique/direction-de-la-monnaie-et-du-credit-identification-des-agrees-de-change-manuel_n_440101.html
+- http://www.dmc.finances.gouv.sn/demande-dagrement-pour-lexercice-de-lactivite-de-change-manuel/ (DMC licence-application procedure: licence by order of the Finance Minister after a favourable BCEAO opinion)
+- https://finances.gouv.ne/index.php/une/977-publication-de-la-liste-des-agrees-de-change-manuel-au-titre-de-l-annee-2023 (Niger publishes its yearly list, a model for UEMOA prospect lists)
 - https://fr.apanews.net/news/senegal-les-declarations-de-soupcon-en-hausse-de-145-en-2023/
 - https://fr.allafrica.com/stories/202605130315.html
 
@@ -162,7 +164,7 @@ The exposure is legal (labour disputes, work accidents) rather than procedural. 
 - The ADDAD association.
 
 **Market count:**
-Unknown. The ANSD figure could not be retrieved.
+Unknown. ANSD employment surveys do not isolate domestic workers in search results (vie-publique.sn ANSD reports).
 
 **The gap:**
 No one handles the end-to-end paperwork for a household: contract, hire declaration, IPRES/CSS registration, monthly payslip and contribution payment.

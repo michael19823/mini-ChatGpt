@@ -1,7 +1,7 @@
 # Uganda: offline / quiet-industries pass
 
-**Status: partial, low-to-medium confidence.** 18 WebSearch calls were made. The 19th was refused
-("You've hit your usage limit"), so research stopped there, as the instructions require. WebFetch was
+**Status: partial, low-to-medium confidence.** 20 WebSearch calls were made in total. The 19th was refused
+("You've hit your usage limit"); after the limit reset, the 20th repeated it. WebFetch was
 not used, so every claim rests on search-result snippets. A claim marked *unverified* or *estimate*
 was not confirmed by a source. The first-round report (`research/countries/uganda.md`) covered EFRIS
 reconciliation and coffee EUDR. Neither is repeated here.
@@ -27,7 +27,7 @@ register and returns rules, and **SACCOs**, which file quarterly returns to UMRA
 | Timber and charcoal dealers | Forest Produce Movement Permit (Schedule 21, National Forestry and Tree Planting Regs 2016) | Five-copy paper permit book; copies go to the Forest Dept, URA and the destination | Unknown | Reject | The DFO issues it; the dealer has nothing to file |
 | Boda-boda (moto-taxi) operators | KCCA rider/owner registration with national ID, division jackets with QR codes; MoWT digital number plates (from 2024) | Registration drives at stages | Unknown | Reject | State-run registration; no recurring operator filing; riders won't pay |
 | Scrap metal dealers | None found for Uganda (the results were Kenya, Zambia, UK) | n/a | n/a | Reject (no obligation found) | No Ugandan dealer-register rule surfaced |
-| Households employing domestic workers | NSSF (10% + 5%) where required; PAYE; Employment (Amendment) Act 2025 in force 29 Apr 2026 (Part IXA content not confirmed) | No domestic-worker-specific regulation found | Unknown | Reject / not researched | No trigger found; the household-employer market is mostly informal |
+| Households employing domestic workers | NSSF (10% + 5%) where required; PAYE; Employment (Amendment) Act 2025 (assented 29 Apr 2026). Its Part IXA covers *non-citizen* workers (restricted job categories, exemption certificates), not domestic workers | No domestic-worker-specific regulation found | Unknown | Reject / not researched | No trigger found; the household-employer market is mostly informal |
 | Scrap, pawnbrokers, second-hand, tattoo, cemeteries, burial societies | n/a | n/a | n/a | Not researched | Search budget |
 
 ## 2. Strongest opportunities
@@ -261,7 +261,7 @@ Low. More plausible as an accountant tool than one sold directly to SACCOs.
 - **Boda-boda registration:** state-run (KCCA, MoWT digital plates). Riders don't pay.
 - **NDA drug shops and vet outlets:** annual licensing run by NDA and DVOs. Enforcement is visible
   (closure campaigns) but annual only. Dispensing-register software was not researched.
-- **Scrap metal, domestic employers:** no Ugandan obligation or trigger surfaced.
+- **Scrap metal, domestic employers:** no Ugandan obligation or trigger surfaced. The 2025 Employment Amendment's new Part IXA regulates migrant (non-citizen) workers, an expat/HR-lawyer market, not households (Ortus Advocates, KTA Advocates alerts 2026).
 
 ## 4. Method notes
 
@@ -273,6 +273,5 @@ Low. More plausible as an accountant tool than one sold directly to SACCOs.
   workers). They returned Kenya, Zambia or UK material.
 - **Uganda pattern:** the paper form is usually filled in *by the official*, so many quiet
   industries offer nothing for operators to automate.
-- **Cut short:** the search budget ran out at 18 searches. Next steps: the Part IXA content of the
-  Employment (Amendment) Act 2025, the DGSM return format, SACCO MIS vendors, and pharmacy
-  dispensing registers.
+- **Budget used up:** all 20 searches. Next steps: the DGSM return format and frequency, a count of
+  MDL holders, SACCO MIS vendors, and pharmacy dispensing registers.

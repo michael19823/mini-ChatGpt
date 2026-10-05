@@ -1,6 +1,6 @@
 # Cameroon: offline (quiet) industries pass
 
-Research date: 2026-10-05. Searches used: 17 of the 20 budgeted. The 18th was refused because of a usage limit, so I stopped and wrote up what I had. Queries were mostly in French. WebFetch and GitHub were not used. All facts come from search-result snippets. Anything I could not confirm in a primary text is marked **unverified** or **estimate**.
+Research date: 2026-10-05. Searches used: 19 of the 20 budgeted. One more search was refused because of a usage limit, and I ran two follow-up searches after the limit reset. Queries were mostly in French. WebFetch and GitHub were not used. All facts come from search-result snippets. Anything I could not confirm in a primary text is marked **unverified** or **estimate**.
 
 The existing report (`research/countries/cameroon.md`) covers e-invoicing (CTC), EUDR for timber and cocoa, CNPS/DGI DIPE payroll, e-GUCE customs and pharmacies. This pass does not repeat them.
 
@@ -12,7 +12,7 @@ The existing report (`research/countries/cameroon.md`) covers e-invoicing (CTC),
 
 | Industry | Obligation | Evidence it's offline | Rough count (source) | Verdict | One-line reason |
 |---|---|---|---|---|---|
-| Manual money changers (bureaux de change) | Licensed by MINFI under CEMAC Reg. 02/18 and BEAC Instr. 011/GR/2019. They must report to the BEAC (Instr. 013 on information to the central bank), meet AML/KYC duties, and face COBAC sanctions | Licence list published as a ministerial document. Supervision by COBAC on-site inspection. No vendor software found (search refused before I could check) | **41** licensed at 31 Mar 2026, up from 27 a year earlier (MINFI list via EcoMatin) | **Weak candidate** | Real recurring reporting and real sanctions (5M FCFA fine), but only 41 buyers |
+| Manual money changers (bureaux de change) | Licensed by MINFI under CEMAC Reg. 02/18 and BEAC Instr. 011/GR/2019. They must send monthly statements of currency purchases and sales to the BEAC (Instr. 011; form **unverified**), meet AML/KYC duties, and face COBAC sanctions | Licence list published as a ministerial document. Supervision by COBAC on-site inspection. No CEMAC-specific bureau-de-change software found in a dedicated search | **41** licensed at 31 Mar 2026, up from 27 a year earlier (MINFI list via EcoMatin) | **Weak candidate** | Real recurring reporting and real sanctions (5M FCFA fine), but only 41 buyers |
 | Gold/diamond collectors and buying desks (comptoirs) | Mining Code 2023/014 and Decree 2024/05251/PM (19 Nov 2024) on holding, sale, export and traceability. Collectors may sell only to licensed desks. SONAMINES is the hub. Certificates of origin now come from the Chamber of Commerce | Artisanal production "poorly or not declared". Approvals are frozen | About **200** desks waiting to be formalised (union leader, Financial Afrik, Aug 2026) | **Weak candidate** | Strong traceability trigger, but the approval freeze means almost no legal buyers yet |
 | Households employing domestic workers | Mandatory CNPS affiliation of domestic workers. Employer registration within 15 days and worker declaration within 8 days. Fines up to 500,000 XAF | No household-employer e-service found. Usually informal and paid in cash | Unknown (no official count found) | **Weak candidate (service only)** | Mandate exists but enforcement looks negligible. Households won't pay for software |
 | Moto-taxi operators (Douala) | Enrolment certificate from the "assainissement" programme, approved vest from the Communauté urbaine, licence, carte grise, insurance. Controls from 2 Apr 2026, impound on failure | Enforced by municipal police on the street. Paper certificate and vest | Not found (often quoted in the tens of thousands per city; **unverified**) | Reject | Buyer is a poor individual rider. The obligation is a one-off enrolment, not a recurring filing |
@@ -39,11 +39,11 @@ Manual foreign exchange (bureaux de change).
 The owner-manager or compliance officer of a licensed bureau de change, mostly in Douala, then Yaoundé, Maroua and Limbé.
 
 **Trigger / Why now:**
-The CEMAC exchange regulation (Reg. 02/18/CEMAC/UMAC/CM) and BEAC Instruction 011/GR/2019 set the conditions for manual exchange. Instruction 013 governs reporting to the central bank. MINFI licensed 14 new operators in the year to 31 March 2026, taking the total from 27 to 41. The new entrants must set up compliance from scratch. The minister has publicly threatened to prosecute clandestine changers. COBAC finds the infractions, and the BEAC has sanctioned banks and bureaux de change for breaking the rules on non-resident accounts and similar.
+The CEMAC exchange regulation (Reg. 02/18/CEMAC/UMAC/CM) and BEAC Instruction 011/GR/2019 set the conditions for manual exchange. Instruction 011/GR/2019 also provides for monthly reporting of currency purchases and sales (search snippet; **unverified** in the primary text). MINFI licensed 14 new operators in the year to 31 March 2026, taking the total from 27 to 41. The new entrants must set up compliance from scratch. The minister has publicly threatened to prosecute clandestine changers. COBAC finds the infractions, and the BEAC has sanctioned banks and bureaux de change for breaking the rules on non-resident accounts and similar.
 
 **Current workflow:**
 1. A cashier serves the customer at the counter, checks ID and records the transaction (assumed to be a paper ledger or Excel; **unverified**).
-2. Periodic statements of currency bought and sold go to the BEAC under Instruction 013 (exact format and frequency **unverified**).
+2. A monthly statement of currency bought and sold goes to the BEAC. Search snippets put this in Instruction 011/GR/2019's global reporting of client operations by banks, microfinance institutions, bureaux de change and payment institutions. The exact form is **unverified**.
 3. Suspicious transactions go to ANIF, Cameroon's financial intelligence unit. COBAC inspects on site.
 
 **Pain:**
@@ -51,12 +51,12 @@ The fine is 5 million FCFA plus surrender of the foreign currency for operating 
 
 **Existing solutions:**
 - Excel and paper registers (assumed).
-- Generic forex-bureau software sold elsewhere in Africa (not checked: the search was refused).
+- Generic forex-bureau software sold elsewhere in Africa. A dedicated search ("logiciel gestion bureau de change CEMAC") returned no CEMAC-specific vendor, only BEAC texts.
 - Accounting firms and compliance consultants (for example the law and advisory firms that publish on the regime, such as Kalieu Elongo and Phoenix Advisory).
 - Core-banking modules for banks and microfinance institutions, which also do manual exchange.
 
 **Offline evidence:**
-The licence list is published as a ministerial document. Supervision is by on-site COBAC inspection. I found no CEMAC-specific software listing (but competitor diligence is incomplete).
+The licence list is published as a ministerial document. Supervision is by on-site COBAC inspection. A dedicated search found no CEMAC-specific software listing.
 
 **Offline channel:**
 The MINFI licence list names all 41 operators. Visit them in person in Douala's commercial districts (Akwa). The 14 new licensees are the warmest leads. Douala compliance consultants can refer clients.
@@ -98,6 +98,8 @@ The BEAC statement turns out to be a simple quarterly form, or 5 operator interv
 - https://www.beac.int/wp-content/uploads/2019/03/REGLEMENT-02_18_CEMAC_UMAC_CM-compressé.pdf
 - https://kalieu-elongo.com/les-nouvelles-regles-applicables-au-change-manuel-dans-la-cemac/
 - https://www.beac.int/p-des-changes/instructions/instructions-vf/
+- https://www.beac.int/wp-content/uploads/2019/02/Instruction-n°-011-GR-2019.pdf
+- https://kalieu-elongo.com/reglementation-des-bureaux-de-change-en-zone-cemac-ce-quil-faut-savoir/
 - https://phoenixadvisory-cm.com/2022/12/la-constatation-des-infractions-a-la-reglementation-des-changes-dans-la-cemac/
 - https://droitmediasfinance.com/index.php/actualites/droit-monetaire/857-cemac-des-sanctions-de-la-beac-contre-les-banques-et-bureaux-de-change-pour-violation-des-regles-sur-les-comptes-de-non-residents-et-les-be
 - https://droitmediasfinance.com/index.php/actualites/droit-bancaire/1001-cameroun-reglementation-des-changes-le-ministre-des-finances-menace-de-poursuivre-les-auteurs-du-change-clandestin
@@ -264,4 +266,4 @@ Fewer than 1 in 10 surveyed expatriate households would pay for it.
 
 - **What worked:** French queries naming the regulator and the instrument ("agrément", "liste", "décret 2024", "BEAC instruction") surfaced ministerial lists (bureaux de change), decrees (mining and quarries) and enforcement news (moto-taxi controls, auto-école audits). EcoMatin, Cameroon Tribune, camer.be and droitmediasfinance.com were the most useful outlets.
 - **What didn't:** I found no licensing registers or dealer-register obligations for scrap, livestock, pesticides or well drilling. Most quiet sectors are informal, with campaign-style enforcement and no recurring filing. Snippets for transport and funeral topics were mostly from before 2020.
-- **Incomplete:** the search budget was cut short at 17 queries by a usage limit. Competitor diligence for bureau-de-change software was not done.
+- **Usage limit:** a usage limit interrupted the run after 17 searches. After it reset, two more searches checked bureau-de-change software (none found) and the BEAC monthly-statement duty (indicated, but the form is unverified). Instruction 013/GR/2019 turned out to concern banks' external assets, not bureaux de change, so I corrected that reference.

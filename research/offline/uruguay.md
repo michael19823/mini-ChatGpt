@@ -1,8 +1,8 @@
 # Uruguay: Offline-Industries Pass
 
-Research date: 2026-10-05. Searches used: 7 of 20. The 7th search was refused with a usage-limit error, so I stopped there, as the instructions say. This is a **short, partial report**. Many seed groups were screened only from desk knowledge and are marked "not verified". None of them should be treated as researched.
+Research date: 2026-10-05. Searches used: **19 of 20**, in two rounds. The first round was cut off by a usage-limit refusal after 7 searches, and the second round resumed after the limit reset.
 
-Context from the existing country report (not repeated here): Uruguay is small (about 3.4M people) and well digitized. The state ships free unified tools: BPS–MTSS payroll, SNIG cattle traceability, and the MGAP DGSA online services. That pattern shows up again in the quiet industries below. The regulator's own free portal is usually the substitute.
+Context from the existing country report (not repeated here): Uruguay is small (about 3.4M people) and well digitized. The state ships free unified tools: BPS–MTSS payroll, SNIG cattle traceability, the MGAP DGSA online services, the INAC SRGA meat system, the MIEM DNI online filings and MGAP's SINATPA for beekeeping. That pattern runs through every quiet industry below. Almost every obligation already has a **free state web form**, so paper filing is rare. What's left for a product is the re-keying between the operator's own records and that form, in markets of hundreds to low thousands of buyers.
 
 ---
 
@@ -10,17 +10,19 @@ Context from the existing country report (not repeated here): Uruguay is small (
 
 | Industry | Obligation | Evidence it's offline | Rough count (source) | Verdict | One-line reason |
 |---|---|---|---|---|---|
-| Pesticide application contractors and large own-use sprayers (ground, aerial, drone) | Register in RUO, enrol equipment in REA, and log **every application in RAPF within 7 calendar days**. Applicators need a carnet (renewed every 4 years). Agronomist prescriptions must name the applying company | Field work is logged on paper or by phone. Carnet courses are held in person. RAPF is a web form re-keyed after the job | Unknown. RUO list not found. Colza alone reached a record of about 400,000 ha (Urupov/Blasina), and RAPF has been mandatory for colza, camelina and carinata since 10 Aug 2026 | **Candidate** | Per-job, mandatory, rising scope in 2026. The free MGAP portal is the main substitute |
-| Lift / vertical-transport maintenance companies (Montevideo) | Register with the Intendencia (Decreto 34.812). File an **annual safety report per device** to the SIME service. Sworn statement signed by the responsible engineer | Documents must be filed **on paper and in digital form** | Unknown. Probably dozens of firms, covering thousands of lifts (estimate) | **Weak candidate** | Real per-device filing, but very few buyers, and one municipality |
-| Second-hand dealers, pawnbrokers, scrap dealers | Police-facing register of goods bought (assumed) | Not found online | Unknown | **Not enough evidence** | The search did not surface a Uruguayan police register or its rules. Only Ley 12.367 (1957) listing "casas de compraventa de objetos usados" as a business category |
-| Beekeepers | Annual hive declaration to the MGAP register and hive transit permits (not verified) | Not verified | Not verified | **Not researched** | The search was refused at this point |
-| Livestock producers and traders (DICOSE) | Annual sworn stock declaration, transit and ownership guides through SNIG | Rural agents (escritorios rurales) do it for producers (not verified) | Not verified | **Rejected (prior)** | SNIG is a free, mature state system. The existing report already killed the traceability angle |
-| Households employing domestic workers | BPS registration and monthly contributions | BPS online services | Not verified | **Rejected (prior)** | BPS–MTSS unified filing is free. Accountants handle the rest |
-| Waste transporters | Ministry .xlsm service report | Excel macro template | Ministry Excel list (see country report) | **Already covered** | In the existing country report. Not re-reported here |
-| Well drillers (DINAGUA) | Driller registration and well reports (not verified) | Not verified | Not verified | **Not researched** | Budget cut off |
-| Septic trucks (barométricas) | Departmental registration (not verified) | Not verified | Not verified | **Not researched** | Budget cut off |
-| Artisanal fishers (DINARA) | Permits and catch reports (not verified) | Not verified | Not verified | **Not researched** | Budget cut off |
-| Tattoo studios, feriantes, taxis | Departmental or MSP licences (not verified) | Not verified | Not verified | **Not researched** | Budget cut off. Likely low value |
+| Pesticide application contractors and large own-use sprayers (ground, aerial, drone) | Register in RUO (valid 6 years, form 134 A), enrol equipment in REA, and log **every application in RAPF within 7 days** (Res. DGSA 959/022). Applicators need a carnet (4 years). Prescriptions must name the applying company | Field logs on paper or by phone. Carnet courses held in person. RAPF is a web form re-keyed after the job | Aerial: ANEPA groups 98–100% of aerial firms, with about **130 aircraft**. Ground RUO count not published (unknown). RAPF has been mandatory for colza, camelina and carinata since 10 Aug 2026 (colza record about 400k ha) | **Candidate** | Per-job, mandatory, and the scope grew in 2026. The free RAPF portal is the main substitute |
+| Butchers and meat/poultry shops (INAC) | Register in RUNEC. File a **monthly sworn e-declaration in INAC's SRGA of all meat received**, within the first 10 days of the following month. A presidential veto upheld extending the formalization regime to butchers and poultry shops nationwide | Small family shops. The digital system has been mandatory only since 15 Nov 2022. The data has to be pulled from supplier delivery notes and invoices | Unknown. INAC publishes no count that I found. Likely low thousands nationally (estimate) | **Weak candidate** | Monthly and mandatory, with the data already in suppliers' e-invoices. But SRGA may already pre-load shipments from the plants (not verified) |
+| Copper dealers and scrap yards (Ley 19.138, Decreto 185/014) | Register with MIEM DNI (renew every 2 years). File **quarterly purchase and sale movements** of copper | Online through the DNI portal: an Excel attachment or manual line entry. The purchase lists come from the yard's own book | Unknown. The register exists but no count was found | **Weak / reject** | Quarterly, and the portal already accepts Excel uploads, so the gap is thin |
+| Lift / vertical-transport maintenance companies (Montevideo) | Register under Decreto 34.812. File an **annual safety report per device** with the SIME service | Files must be submitted **on paper and in digital form** | Unknown. Likely dozens of firms (estimate) | **Weak candidate** | Real per-device paperwork, but few buyers and one municipality |
+| Well drillers (DINAGUA) | Registered drilling licence (Water Code art. 45). On-site work log signed by the technician. Technical completion report per well. **Annual sworn declaration of wells drilled, filed 1–31 May** | Paper work log on site. Technical report written by the hydrogeologist | Countable from DINAGUA's public online "consulta de empresas perforadoras". Not counted here | **Reject** | Annual filing plus a per-well report written by a professional. Small trade (estimate) with low frequency |
+| Beekeepers | Annual sworn declaration to the national hive register (July–Sept), with georeferenced apiaries | **Already electronic only**, in MGAP's SINATPA, with Gub.uy level 2 login | Unknown | **Reject** | Annual, free, already digital. The Sociedad Apícola Uruguaya relays the deadlines |
+| Artisanal fishers (DINARA) | Fishing permit by zone (4 years). Catch records submitted to DINARA or the Prefecturas | Catch data handed in at the counter (Prefectura) | About **650 vessels** under 10 GRT | **Reject** | Very low ability to pay. The state collects the data. This is a public-good problem, not a market |
+| Septic trucks (barométricas), Montevideo | Industries without sewer connection need authorization. A barométrica guide per load, discharge only at the Corrales/Añaquito dump | Request letter plus guide **sent by email** to the UEI | Unknown | **Not enough evidence** | Workflow found for industrial clients only. No operator register or per-load filing confirmed |
+| Tattoo and piercing studios | MSP habilitación of tattoo businesses | One-off licensing process | Unknown | **Reject** | One-time licensing, no recurring filing found |
+| Market traders (ferias vecinales, Montevideo) | Feriante status and stall meterage from the Intendencia's Defensa del Consumidor unit | Application at the counter | Unknown | **Reject** | One-off permit. Very low ability to pay |
+| Second-hand dealers and pawnbrokers (police register) | Not confirmed | — | — | **Not enough evidence** | Only the 1957 licensing category (Ley 12.367) surfaced. The live metal register is the copper regime above |
+| Livestock (DICOSE/SNIG), household employers (BPS) | Annual stock declaration and guides. BPS contributions | Free state systems, plus rural agents and accountants | — | **Reject (prior)** | Covered in the existing country report |
+| Waste transporters | Ministry .xlsm service report | Excel macro template | Ministry list | **Already covered** | In the existing country report |
 
 ---
 
@@ -32,125 +34,195 @@ Context from the existing country report (not repeated here): Uruguay is small (
 Agricultural pesticide application services (ground rigs, aircraft and drones), plus producers who spray their own extensive or forest crops with tanks of 1,000 L or more.
 
 **Buyer:**
-The owner-operator of a small spray-contracting business (one to a few rigs or a drone), or the office person who does the MGAP data entry for them. Secondary buyer: the agronomist or input distributor who writes the prescriptions and wants the records to match.
+The owner-operator of a small spray-contracting firm (one to a few rigs, a drone, or an aerial operator with 1–3 aircraft), or the office person who does the MGAP entry. Secondary buyer: the prescribing agronomist or input distributor.
 
 **Trigger / Why now:**
-- RAPF (Res. DGSA 959/2022, which replaced Res. 672/022) requires every application to be registered online within 7 calendar days, on the MGAP DGSA platform.
-- On **10 Aug 2026**, MGAP made RAPF registration mandatory for **colza/canola, camelina and carinata**, from the start of flowering to harvest. Colza reached a record of about 400,000 ha, so this adds many applications in the 2026 season.
-- MGAP's new prescription program requires the applying company to be named on the agronomist's prescription and to be registered with DGSA. MGAP has said that application companies will soon have to log these prescribed products in RAPF, and the company doing the job must match the one on the prescription. This adds a cross-check between two documents.
+- RAPF (Res. DGSA 959/022, which replaced 672/022) requires every application to be registered online within 7 calendar days.
+- Since **10 Aug 2026**, RAPF registration is mandatory for **colza/canola, camelina and carinata**, from flowering to harvest. Colza reached a record of about 400,000 ha.
+- MGAP's new prescription program requires the applying company to be named and registered with DGSA. MGAP says application companies will soon have to log those prescribed products in RAPF, and the company must match the prescription.
+- MGAP has published requirements for drone applicators, which brings a new group of operators into RUO and RAPF.
 
 **Current workflow:**
-1. The agronomist issues a prescription in the MGAP prescription program, naming the product, dose, area and applying company.
-2. The operator sprays. Field data (paddock, product, dose, time, wind and so on) goes on paper, in WhatsApp, or in the rig's own log.
-3. Within 7 days, the operator or office staff log in to the DGSA platform and re-key each application into RAPF.
-4. Staff send the producer a copy of the job record, for invoicing and for any buyer or certification records. This is a separate document.
-5. The operator keeps the carnet (renewed every 4 years) and equipment enrolment (REA) current.
+1. The agronomist issues a prescription in MGAP's program, naming the applying company.
+2. The operator sprays. Field data goes on paper, in WhatsApp, or in the rig, aircraft or drone log.
+3. Within 7 days, someone logs in to the DGSA platform and re-keys each application into RAPF.
+4. Staff send the producer a separate job record for invoicing, buyers and certification.
+5. The operator keeps the carnet, RUO (6 years) and REA equipment enrolment current.
 
 **Pain:**
-The obligation is per job, has a 7-day deadline, and falls in the peak spraying season. That is when a small contractor has the least office time. The prescription-to-application matching rule creates a new way to get it wrong. I found no complaint posts. The pain level is inferred from the workflow (estimate).
+Per-job entry with a 7-day deadline, in peak season. A new mismatch risk between the prescription and the application. I found no complaint posts. Pain is inferred from the workflow (estimate). The agricultural press reports that the aerial sector worries about drones spraying without control, so incumbents want enforcement.
 
 **Existing solutions:**
-- The MGAP RAPF web platform itself, which is free (mgap.gub.uy/dgsadayddaplicacion, web.snig.gub.uy/DGSAProductor). This is the main substitute.
-- Farm-management and agronomy platforms used in the Southern Cone. I did not verify whether any of them export to or integrate with RAPF. **Unverified.**
-- Rig and drone telemetry logs, which record the job but are not RAPF-formatted (estimate).
-- Paper notebooks and office staff.
+- The MGAP RAPF web platform, which is free (mgap.gub.uy/dgsadayddaplicacion). This is the main substitute.
+- Southern Cone farm-management platforms. I did not verify whether any export to RAPF. **Unverified.**
+- Rig, aircraft and drone telemetry logs (not RAPF-formatted, estimate).
+- Paper and office staff.
 
-**Offline evidence:** applicator qualification is an in-person course leading to a carnet. MGAP announces program changes through press releases and agricultural press (Revista Verde, El Telégrafo, Todo el Campo), not through vendor ecosystems. No RAPF-integrated software surfaced in search.
+**Offline evidence:** in-person carnet courses. MGAP changes are announced through press releases and rural press (Revista Verde, El Telégrafo, Todo el Campo, Tardáguila). ANEPA's public presence is a YouTube channel. No RAPF-integrated software surfaced.
 
-**Offline channel:** carnet courses for professional ground applicators, held by course providers (one was found on sociedaduruguaya.org). Input distributors and agronomists who write the prescriptions. The aero-agricultural operators' association (name not verified). Rural press. The DGSA RUO register, if it is published (not verified).
+**Offline channel:** **ANEPA** (Asociación Nacional de Empresas Privadas Aeroagrícolas), which groups nearly all aerial firms, as the first 10 customers. Carnet course providers. Agrochemical distributors and prescribing agronomists. Rural press.
 
-**Market count:** **Unknown.** I could not find the number of RUO-registered applicators. I'd guess low hundreds of service companies plus some large own-use producers (estimate, not verified).
+**Market count:** about 130 agricultural aircraft (ANEPA, number of firms not found). The ground-contractor and drone count in RUO was not found (unknown). Total is probably low hundreds of service operators (estimate).
 
 **The gap:**
-Nothing (that I found) turns one field record into the RAPF entry, the producer's job sheet and a check against the prescription. The state portal only takes manual entry.
+One field record → RAPF entry + producer job sheet + prescription-match check. The state portal is manual entry only.
 
 **Possible product:**
-An offline-first mobile spray log. The operator picks the prescription, confirms the paddock (GPS) and conditions, and the app produces a RAPF-ready entry (assisted fill or, if possible, automated submission), a PDF job sheet for the producer, and a warning when the product, dose or company doesn't match the prescription.
+An offline-first mobile spray log (or an import from aircraft/drone flight logs). The operator picks the prescription and paddock, and the app produces a RAPF-ready entry (assisted fill), the producer PDF and mismatch warnings.
 
 **MVP:**
-A mobile form plus a browser helper that fills the RAPF web form from saved jobs, and a 7-day deadline dashboard.
+A mobile form plus a browser helper that fills RAPF from saved jobs, and a 7-day deadline dashboard.
 
 **Pricing hypothesis:**
-USD 20–60 per month per rig or drone, seasonal. Many buyers would rather pay for a done-for-you entry service (for example, USD 2–5 per application) than for software (estimate).
+USD 20–60 per month per rig, drone or aircraft, seasonal. Many buyers would rather pay for a done-for-you entry service (USD 2–5 per application) than for software (estimate).
 
 **How to find first customers:**
-Carnet course providers, prescribing agronomists, agrochemical distributors, and aerial and drone operators reached by phone or WhatsApp.
+The ANEPA member list, carnet course providers, distributors, and drone operators registering under the new MGAP rules.
 
 **Risks:**
-- MGAP could add a mobile app or API, removing the gap.
-- Automated portal submission may break or be prohibited.
-- The market is very small and seasonal.
+- MGAP could add a mobile app or API.
+- Assisted portal filling may break.
+- The market is tiny and seasonal.
 - Agronomy platforms may add RAPF export.
-- A non-local solo founder could not realistically sell this. It needs a local with rural contacts.
+- It needs a local founder with rural contacts. A non-local solo founder could not sell this.
 
 **Kill condition:**
-MGAP offers mobile RAPF entry or bulk upload, or fewer than about 150 service applicators are registered.
+MGAP adds mobile or bulk RAPF entry, or ANEPA says its members' pilots or office already handle it in minutes per job.
 
 **Score:** 4/10
 
 **Sources:**
 - https://www.gub.uy/tramites/registro-aplicaciones-productos-fitosanitarios-rapf
 - https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/tramites-y-servicios/servicios/registros-aplicaciones-productos-fitosanitarios-rapf
+- https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/institucional/normativa/resolucion-n-959022-dgsa-requisitos-para-inscripcion-registro-unico
 - https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/comunicacion/noticias/registro-productores-equipos-pulverizadores-para-uso-propio-nueva-plataforma
-- https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/institucional/normativa/resolucion-n-672022-dgsa-registro-aplicaciones-productos-fitosanitarios-uso
-- https://estrucplan.com.ar/republica-oriental-del-uruguay-resolucion-959/
 - https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/comunicado (new prescription program)
 - https://www.eltelegrafo.com/2026/07/registro-de-fitosanitarios-en-camelina-colza-y-carinata/
 - https://todoelcampo.com.uy/archives/48780
 - https://blasinayasociados.com/urupov-confirma-record-con-400-000-hectareas-de-colza/
-- https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/comunicacion/noticias/comunicado-inscripcion-ruo-rea-aplicadores-fitosanitarios-planta-tratamiento
+- https://tardaguila.uy/agricultura/el-mgap-presento-los-requisitos-para-quienes-apliquen-fitosanitarios-con-drones
+- https://www.xn--lamaana-7za.uy/agro/preocupa-al-sector-aereoagricola-el-uso-sin-control-de-drones-pulverizadores/
+- https://www.youtube.com/@anepauruguay8381
 - https://www.sociedaduruguaya.org/2025/08/curso-de-uso-y-manejo-seguro-de-productos-fitosanitarios-para-obtencion-del-carnet-aplicador-profesional-terrestre.html
 - https://revistaverde.com.uy/agricultura/para-marcar-un-diferencial-en-los-mercados-el-mgap-actualiza-y-amplia-el-registro-de-aplicaciones-de-agroquimicos/
+
+---
+
+### Opportunity: Butcher-shop monthly INAC declaration from supplier e-invoices
+
+**Industry:**
+Retail butchers, meat shops and poultry shops (carnicerías, pollerías).
+
+**Buyer:**
+The owner of a family butcher shop, or more realistically the **small accounting firm** that already handles the shop's DGI/BPS filings and could add the INAC filing.
+
+**Trigger / Why now:**
+- Digital filing in INAC's system has been mandatory since 15 Nov 2022. Each shop must file a monthly electronic sworn declaration in the SRGA (Sistema de Registro y Gestión del Abasto) of all meat received in the previous month, by the 10th.
+- INAC reports a presidential veto that upheld the nationwide formalization regime for butchers *and poultry shops*, which widens the obliged base (date and scope not verified).
+- INAC published a new consolidated Estatuto de Carnicerías in Oct 2025.
+
+**Current workflow:**
+1. Suppliers (meat plants, distributors) deliver with delivery notes and CFE e-invoices.
+2. Each month, the owner or accountant collects the paper delivery notes and invoices.
+3. They key every shipment received into SRGA by the 10th.
+4. Inconsistencies against the supplier-side records lead to INAC inspection or sanction (assumed, not verified).
+
+**Pain:**
+Monthly, mandatory, sworn, done by older owners with little office capacity (estimate). No complaint evidence found.
+
+**Existing solutions:**
+- INAC SRGA, which is free.
+- Accountants doing it as part of a monthly fee.
+- Point-of-sale and invoicing software for butchers. I did not verify whether any file to SRGA.
+
+**Offline evidence:** a counter-trade sector with paper delivery notes. INAC publishes regulation as PDFs and runs in-person user services ("cambios en atención de usuarios").
+
+**Offline channel:** small accounting firms in the interior, meat-plant and distributor sales reps who visit every shop weekly, and INAC's own outreach and training.
+
+**Market count:** unknown. INAC registers every shop in RUNEC, but I found no published count. Low thousands is plausible (estimate).
+
+**The gap:**
+The supplier data already exists as CFE e-invoices. Nothing (found) converts the shop's received e-invoices into the SRGA declaration automatically.
+
+**Possible product:**
+Pull the shop's received CFEs (through its e-invoice provider or DGI), classify meat lines, and produce the monthly SRGA declaration for review and assisted filing. Sell to accountants per shop.
+
+**MVP:**
+Upload the month's received-CFE XML files, get a table matching SRGA's fields, and a browser helper to fill SRGA.
+
+**Pricing hypothesis:**
+USD 5–15 per shop per month, sold to accountants in bulk (estimate). The shop itself would pay only as part of the accountant's fee.
+
+**How to find first customers:**
+Accounting firms that serve food retailers, and introductions from meat distributors.
+
+**Risks:**
+- **The biggest risk:** SRGA may already pre-load the shipments dispatched by plants, so the shop only confirms. That would leave no gap.
+- Low price point.
+- Needs a local founder.
+
+**Kill condition:**
+SRGA pre-fills shipments from upstream records, or accountants say the declaration takes under 15 minutes per shop.
+
+**Score:** 3/10
+
+**Sources:**
+- https://www.inac.uy/innovaportal/file/17906/1/runec---carnicerias---28-5-24.pdf
+- https://www.inac.uy/innovaportal/file/26393/1/estatuto-carnicerias---oct-2025.pdf
+- https://www.inac.uy/innovaportal/file/6333/1/pi_carniceria_y_medios_de_transporte.pdf
+- https://www.inac.uy/innovaportal/v/24469/37/innova.bs/veto-presidencial-ratifica-formalizacion-de-carnicerias-y-pollerias-en-todo-el-pais
+- https://www.inac.uy/innovaportal/v/18044/17/innova.front/cambios-en-atencion-de-usuarios-en-inac
+- https://www.impo.com.uy/bases/decretos-reglamento/110-1995
 
 ---
 
 ### Opportunity: Annual lift-safety report generator for Montevideo maintenance firms
 
 **Industry:**
-Lift and vertical-transport installation and maintenance.
+Lift and vertical-transport maintenance.
 
 **Buyer:**
-The owner or responsible engineer of a small or mid-sized lift maintenance company registered with the Intendencia de Montevideo.
+The owner or responsible engineer of a small lift maintenance company.
 
 **Trigger / Why now:**
-No new 2025–2026 trigger was found. The standing obligation is Departmental Decreto 34.812. Every maintenance company must register, and must file a yearly safety report per device in its roster (a test of every safety device) with the Servicio de Instalaciones Mecánicas y Eléctricas (SIME). Filings go in on paper and digitally.
+No new trigger. This is a standing rule under Departmental Decreto 34.812: every maintenance company must register, and must file an annual safety report per device in its roster (a test of every safety device) with the SIME service, on paper and digitally.
 
 **Current workflow:**
-1. A technician inspects each device yearly and fills in a checklist.
-2. The office types up the per-device annual safety report.
-3. The responsible engineer signs it.
-4. Staff submit the paper and digital copies to SIME for each device in the roster.
-5. Staff track which devices are due, across hundreds of buildings.
+1. A technician fills in a yearly checklist per device.
+2. The office types up the report.
+3. The engineer signs it.
+4. Staff submit paper and digital copies per device.
+5. Staff track due dates across buildings.
 
 **Pain:**
-Mandatory per-device paperwork, with a dual paper and digital filing that shows re-keying. The total count per firm is unknown.
+Mandatory per-device paperwork with dual filing. The volume per firm is unknown.
 
 **Existing solutions:**
-Large multinational lift companies have in-house systems (assumption, not verified). Smaller firms likely use Word or Excel templates. No Uruguayan product was searched for (budget).
+Multinational lift firms have in-house systems (assumption). Smaller firms use Word or Excel. Generic form-builder apps.
 
-**Offline evidence:** the dual paper-plus-digital submission requirement, and the engineer's signature on paper.
+**Offline evidence:** the dual paper-plus-digital filing and the engineer's signature on paper.
 
-**Offline channel:** the Intendencia's registered-company list (if published), and phone outreach.
+**Offline channel:** the Intendencia's list of registered companies, and phone outreach.
 
-**Market count:** Unknown. Likely dozens of firms (estimate).
+**Market count:** unknown. Likely dozens of firms (estimate).
 
 **The gap:**
-Turning a technician's mobile checklist into the SIME-format report and a due-date roster.
+Technician checklist → SIME-format report per device, plus a due-date roster.
 
 **Possible product:**
-A mobile inspection checklist that produces the SIME report PDF per device, with an annual-due dashboard.
+A mobile checklist that produces the SIME report PDF per device, with an annual-due dashboard.
 
 **MVP:**
-A checklist template, PDF output and a due-date list.
+A template, PDF output and a due list.
 
 **Pricing hypothesis:**
-USD 1–3 per device per year, or USD 50–150 per month per firm (estimate).
+USD 1–3 per device per year (estimate).
 
 **How to find first customers:**
-The Montevideo register of maintenance companies, and phone calls.
+The Montevideo register of maintenance companies.
 
 **Risks:**
-Too few buyers. Only one municipality was checked. A generic inspection app (form builder) is an easy substitute. A non-local founder would struggle.
+Too few buyers, one municipality, and easy substitutes. A non-local founder would struggle.
 
 **Kill condition:**
 Fewer than about 30 small firms, or SIME accepts a simple online upload.
@@ -166,14 +238,23 @@ Fewer than about 30 small firms, or SIME accepts a simple online upload.
 
 ## 3. Rejected
 
-- **Second-hand, pawn and scrap dealer registers.** I could not confirm a current Uruguayan police register or reporting format. The only hit was the 1957 licensing law naming the category. Without evidence I can't build a case, so it's parked, not proven absent.
-- **Livestock (DICOSE/SNIG) and household employers (BPS).** Free, mature state systems plus rural agents and accountants already do the work. The existing report reached the same conclusion.
-- **Waste transport.** Already in the country report.
-- **Beekeepers, well drillers, barométricas, artisanal fishers, tattoo studios, feriantes.** Not researched because the search budget was cut off. Market sizes in Uruguay are likely too small for standalone products in any case (estimate).
+- **Copper dealer quarterly movements (Ley 19.138 / Decreto 185/014, MIEM DNI).** A real recurring police-adjacent register, but quarterly, and the DNI portal already accepts an Excel attachment. A yard's purchase book exported to Excel is the substitute. The gap is too thin.
+  Sources: https://www.gub.uy/tramites/industrializadores-comercializadores-cobre-presentacion-movimientos-trimestrales ; https://www.gub.uy/tramites/cobre-registro-industrializadores-comercializadores ; https://www.impo.com.uy/bases/decretos/185-2014
+- **Beekeepers.** The annual declaration is already electronic-only in MGAP's free SINATPA.
+  Sources: https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/comunicacion/noticias/apicultores-declaracion-jurada-anual-obligatoria ; https://sociedadapicolauruguaya.uy/2022/07/31/a-partir-del-1o-de-julio-y-hasta-el-15-de-agosto-inicia-el-periodo-de-la-declaracion-jurada-anual-para-el-registro-de-propietarios-de-colmenas/
+- **Well drillers.** An annual May declaration, plus per-well technical reports written by hydrogeologists. Low frequency, and a professional deliverable rather than re-keying. The register is publicly searchable if anyone revisits it.
+  Sources: https://www.gub.uy/tramites/declaracion-jurada-empresa-perforadora ; https://www.gub.uy/tramites/consulta-empresas-perforadoras ; https://www.impo.com.uy/bases/decretos-reglamento/86-2004
+- **Artisanal fishers.** About 650 small vessels, with catch records handed to DINARA or the Prefectura. No ability to pay.
+  Sources: https://www.gub.uy/tramites/solicitud-primer-permiso-pesca-artesanal ; https://institutojuanpabloterra.org.uy/wp-content/uploads/2024/06/IHC-JPT.-Doc-24.-La-problematica-actual-de-la-pesca-y-la-acuicultura.-Santiago-Caro-Ros.pdf
+- **Tattoo studios and feriantes.** One-off licences, no recurring filing.
+  Sources: https://www.gub.uy/tramites/sites/catalogo-tramites/files/2021-01/MC-Habilitaci%C3%B3n%20de%20Empresas%20dedicadas%20a%20Tatuajes%20y%20Afines.pdf ; https://www.gub.uy/tramites/solicitud-calidad-feriante-baja-permisario
+- **Barométricas.** Only the industrial-client authorization (by email to the IM's UEI) was found. Not enough evidence of a per-load operator filing.
+  Source: https://montevideo.gub.uy/sites/default/files/documentos/instructivobarometrica01191.pdf
+- **Second-hand dealers and pawnbrokers.** No live police register was found beyond the 1957 licensing category.
+- **Livestock and household employers.** Free state systems (SNIG, BPS). See the country report.
 
 ## 4. Method notes
 
-- What worked: Spanish regulator-first queries naming the register acronym (RAPF, RUO, REA, Decreto 34.812). gub.uy, tramites.montevideo.gub.uy and the rural press (El Telégrafo, Todo el Campo, Revista Verde) came up quickly.
-- What didn't: a generic search for police registers of second-hand dealers returned Argentine results.
-- Recurring finding: in Uruguay, the regulator's own free portal (MGAP DGSA, SNIG, BPS) is the default substitute. Any quiet-industry product here is a re-keying bridge with a small market, best sold as a module of a regional (Argentina/Uruguay) product.
-- The session was cut short by a refused search after 7 calls.
+- What worked: Spanish queries naming the regulator and the register (RAPF/RUO, RUNEC/SRGA, Ley 19.138, DINAGUA perforadoras, SINATPA). gub.uy trámite pages describe each workflow precisely, including whether it's online, Excel or paper.
+- What didn't: English or generic "police register" queries, which drifted to Argentina. MSP tattoo and Montevideo feria queries returned mostly Argentine pages.
+- Structural finding: in Uruguay nearly every quiet-industry obligation already has a free state web form (Gub.uy ID). Paper survives mainly in departmental filings (Montevideo lifts, barométricas). Products are thin re-keying bridges in markets of hundreds of buyers. They're better treated as Uruguay modules of a regional product than as standalone products.

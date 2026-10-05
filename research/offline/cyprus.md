@@ -1,20 +1,25 @@
 # Cyprus: offline (quiet) industries pass
 
-Researched 2026-10-05 with 8 WebSearch calls (English and Greek, standard mode). WebFetch was not used. The search engine returned mostly other countries' material for Cyprus-specific regulator queries, so this is a **short, low-evidence report**. Anything not backed by a cited source is marked "unverified". Cyprus is a microstate-sized market (population roughly 0.9-1.0M, estimate), which caps every idea below. See the existing report `research/countries/cyprus.md` for the mainstream opportunities (not repeated here).
+Researched 2026-10-05 with 18 WebSearch calls (full budget) (English and Greek, standard mode). WebFetch was not used. The search engine returned mostly other countries' material for Cyprus-specific regulator queries, so this is a **short, low-evidence report**. Anything not backed by a cited source is marked "unverified". Cyprus is a microstate-sized market (population roughly 0.9-1.0M, estimate), which caps every idea below. See the existing report `research/countries/cyprus.md` for the mainstream opportunities (not repeated here).
 
 ## 1. Quiet industries screened
 
 | Industry | Obligation | Evidence it's offline | Rough count (source) | Verdict | One-line reason |
 |---|---|---|---|---|---|
-| Households employing foreign domestic workers / carers | Work permit via Civil Registry and Migration Department, Social Insurance contributions, employment contract | Permits are issued by the Migration Department, which also fines unlawful employers (Legal 500 guide, below). Whether filing is paper or portal: unverified | Figures found are inconsistent and old: about 22,000 permits (undated) and about 36,000 household workers (2011). No 2025-26 count found. Treat as unverified | Weak | Households will not pay for software; at most a done-for-you service, and the buyer is a consumer |
-| Scrap metal dealers | Scrap metal trading permit plus waste-management licence; inspections by police, Environment Dept, Labour Inspection, EAC | July 2026 nationwide inspection of 20 premises: over 1 tonne of EAC cables seized, 3 firms reported for operating without permits, 2 employers fined EUR 4,000 each for undeclared staff (Cyprus Mail 23 Jul 2026) | Inspection of 20 premises only; total number of dealers: unverified | Weak | Enforcement is real, but I could not find a mandatory purchase register or police reporting duty, so there is no recurring workflow to digitise |
-| Second-hand dealers / pawnbrokers / gold buyers | Police dealer register | Searches returned only other countries' laws; Cyprus rule not found | unverified | Not assessed | No evidence either way |
-| Beekeepers | Registration with Veterinary Services | Searches returned Greek registry material only; Cyprus rules and counts not found | unverified | Not assessed | Beekeepers are typically hobbyists or microbusinesses with no budget (estimate) |
-| Livestock farmers / sheep and goat movement records | Ear tag identification and movement notifications to Veterinary Services | Only Greek rules found (Greece pilot e-ID for flocks over 900 head in 2026, mandatory 2027, per To Vima). Cyprus equivalent: unverified | unverified | Not assessed | Could be a halloumi-supply-chain angle, already noted in the existing report |
-| Halloumi dairies (PDO) | Milk-ratio records, inspections | Covered in existing report | few dozen (unverified) | Rejected | Already screened: poor distribution |
-| Waste hauliers / recyclers | Waste (Amendment) Law 2025 raised fines for illegal waste handling (Politis, Sigmalive reports) | Fines coverage found; no workflow or register detail | unverified | Not assessed | Plausible trigger, but no workflow evidence gathered |
-| Short-term rental managers | Self-catering register | Covered in existing report | 8,478 units (existing report) | Rejected | Already screened |
-| Tattoo studios, barbers, driving instructors, childminders, cemeteries, minibus/taxi, street traders, money changers | Various licences | Not searched (budget and weak search yield) | unverified | Not assessed | No evidence gathered |
+| Households employing foreign domestic workers / carers | Work permit via Civil Registry and Migration Department, Social Insurance contributions | Permits issued by the Migration Department, which also fines unlawful employers (Legal 500). Paper vs portal: unverified | Inconsistent old figures: about 22,000 permits (undated) and about 36,000 household workers (2011). No 2025-26 count | Weak | Consumer buyer, service-only, no trigger |
+| Scrap metal dealers | Scrap metal trading permit plus waste licence; joint inspections (police, Environment Dept, Labour Inspection, EAC) | July 2026 inspection of 20 premises: over 1 tonne of EAC cables seized, 3 firms without permits, 2 employers fined EUR 4,000 each (Cyprus Mail 23 Jul 2026) | Total dealers: unverified | Weak | Enforcement is real, but no purchase-register or police reporting duty found |
+| Second-hand dealers / pawnbrokers / gold buyers | Police or ministry dealer register | Two searches (English, Greek on cylaw.org) found no Cyprus law of this kind; only motor-vehicle dealer law (56(I)/2000) surfaced | unverified | Not found | No evidence a pawnbroker or second-hand register exists |
+| Beekeepers | Registration with Veterinary Services | Undated Sigmalive Economy Today article: 698 beekeepers, 54,808 hives, only 78 full-time | 698 beekeepers (undated, Sigmalive) | Rejected | Mostly part-timers (620 of 698), tiny pool, no filing workflow found |
+| Livestock farmers (sheep/goat movement) | Ear tag and movement records to Veterinary Services | Only Greek rules found (To Vima); Cyprus rule unverified | unverified | Not assessed | Veterinary Services site (moa.gov.cy/vs) surfaced but no obligation details |
+| Taxi operators | Taxi road-usage licences; professional competence (PEC) exam for taxi drivers | Fastforward: 1,556 urban plus 246 rural licences; no new licences since 2002; ride data from 1.9M (2022) to 2.3M (2024) | 1,802 licences (Fastforward) | Weak | Small, closed-licence pool; no recurring regulator filing found; digital hailing apps exist (unverified) |
+| Rural bus / minibus operators | Operating licences | Politis/Cyprus Mail 2026: driver shortage, Pame Express extended | Not found | Not assessed | Public-contract operators, not a quiet filing workflow |
+| Professional fishermen | Fishing licence and catch logbooks, Department of Fisheries and Marine Research | Fleet Register: 858 vessels at 31 Dec 2019; DFMR collects logbooks. Paper vs electronic: unverified | 858 vessels (2019, EU/JRC document) | Weak | Small, subsidised, logbook likely a national or EU system |
+| Money changers (bureaux de change) | Central Bank authorisation, EUR 20,000 minimum capital, EUR 7,500 daily limit per person, public register | CBC directive (regalert summary) | Count in public register: unverified | Rejected | Small, capitalised firms; AML/RegTech is already served |
+| Tattoo and piercing studios | New registration and licensing of tattooists and piercers by Ministry of Health and licensing committee | Politis article: first studio licensed under the new law | unverified | Weak | New trigger, but a few hundred studios at most (estimate), low frequency of filings |
+| Hairdressers and barbers | Operating licence from the Cyprus Council of Hairdressers and Barbers Registrar (Ministry of Energy, Commerce and Industry); hygiene checks by health authorities or municipality | businessincyprus.gov.cy guidance | unverified | Weak | One-off licence, no recurring filing found |
+| Cemeteries and burial records | Community councils or municipalities run them | Greek-language search returned Greek and UK material only | unverified | Not found | Nothing Cyprus-specific surfaced |
+| Halloumi dairies (PDO) | Milk-ratio records, inspections | Covered in existing report | few dozen (unverified) | Rejected | Poor distribution |
+| Short-term rental managers | Self-catering register | Covered in existing report | 8,478 units | Rejected | Already screened |
 
 ## 2. Strongest opportunities
 
@@ -41,9 +46,9 @@ Researched 2026-10-05 with 8 WebSearch calls (English and Greek, standard mode).
 
 ## 4. Method notes
 
-- Greek-language queries returned mostly Greece (mitos.gov.gr, hellenicparliament.gr, pin.gov.gr), not Cyprus. Cyprus government sites (mof.gov.cy, vs.moa.gov.cy, police.gov.cy) did not surface at all.
-- English queries about dealer registers returned UK, Australia, US and African law. The only useful Cyprus hit was enforcement news (Cyprus Mail, Sigmalive, Politis).
-- Not covered because of a thin budget and poor yield: pawnbrokers, tattoo/barbers, cemeteries, minibus/taxi, money changers, fishermen. A follow-up should go straight to cylaw.org (consolidated legislation) and the Veterinary Services and Police sites by exact law name.
-- Practical conclusion: for Cyprus, a quiet-industry product would only make sense as part of a Greece-plus-Cyprus Greek-language product.
+- Used 18 searches in total (budget exhausted). Cyprus-specific hits came from Cyprus Mail, Politis, Fastforward, Sigmalive, businessincyprus.gov.cy and moa.gov.cy/vs. cylaw.org was reached only for unrelated laws; I could not find any Cyprus law on pawnbrokers or second-hand dealers.
+- Greek-language queries on Social Insurance Services (domestic employers) and cemeteries returned Greek (e-EFKA, taxheaven) material, not Cyprus. Treat those two as not covered.
+- Registers that appear to exist and could give prospect lists: Central Bank of Cyprus bureau-de-change register, DFMR Fleet Register, taxi licence list (all unverified as downloadable).
+- Conclusion: Cyprus has no quiet-industry opportunity I can support. A quiet-industry product would only make sense as part of a Greece-plus-Cyprus Greek-language product.
 
 Research model: Sonnet

@@ -1,134 +1,330 @@
 # Malaysia - Offline-industries pass (2026-10-05)
 
-**Status: incomplete.** This pass stopped early. Two WebSearch calls succeeded, then the third was refused with a usage-limit error. Following the instructions ("if a search is refused, stop and write up what you have"), this report covers what those two searches established. The screening table is otherwise filled from background knowledge and the existing country report, and every such row is marked **unverified**. No market counts below come from a register I actually saw, except where a source is cited.
+## Research limits
 
-Existing country report: `research/countries/malaysia.md`. Its opportunities (eSWIS v2, DOSH CF/SSI, BOMBA fire certificate, stamp duty) are not repeated here.
+- **Searches:** 28 WebSearch calls, in English and Bahasa Malaysia. The pass was interrupted three times by usage limits.
+- **WebFetch:** blocked. Every finding comes from search-result snippets.
+- **Verification:** anything not seen in a snippet is marked "unverified" or "estimate".
+- **Overlap with the country report:** the opportunities in `research/countries/malaysia.md` are not repeated here. Those are eSWIS v2, DOSH CF/SSI, BOMBA fire certificates and stamp duty.
+
+## Headline
+
+Malaysia's quiet industries are regulated through **licensing agencies with their own portals**, so the "substitute" is usually a government system plus a licensing agent. Examples: KPKM's e-LPPB for rice, DVS's MyWalet for swiftlets, KPKT for pawnbrokers and moneylenders, Bank Negara (BNM) for gold dealers. Three leads survive, none above 4/10.
+
+1. **Rice licence holders under the amended Rice and Paddy Control Act (Act 522).**
+   - The amendment passed the Dewan Rakyat on 2026-07-14.
+   - It raises penalties to RM1M for companies and gives the minister new powers to set rice grades and license buyers.
+   - About 39,000 licence holders face a KPKM audit.
+2. **Gold shops under AMLA.**
+   - BNM's on-site supervision now prioritises dealers in precious metals or stones.
+   - The cash threshold report (CTR) trigger was cut to RM25,000.
+3. **Private septic desludgers (SPAN Permit E holders).**
+   - Demand is driven by the 2026 SPAN enforcement push ("Op Tok Gajah").
+   - Only about 12% of 1.38M septic tanks are maintained on schedule.
+
+All three need a local founder who speaks Malay (and Chinese for gold).
 
 ## 1. Quiet industries screened
 
 | Industry | Obligation | Evidence it's offline | Rough count (source) | Verdict | One-line reason |
 |---|---|---|---|---|---|
-| Gold shops / jewellers (kedai emas), dealers in precious metals and stones (DPMS) | Reporting institutions under AMLA 2001. They follow BNM's AML/CFT/CPF and TFS policy document for DNFBPs: customer due diligence, cash threshold reports (CTR) on cash deals above RM25,000 (lowered from RM50,000), and the yearly Data and Compliance Report (DCR, regular since 2020). Verified from search snippets. | Mostly family-run Chinese, Malay and Indian goldsmith shops. No DPMS-specific Malaysian compliance software surfaced in either search (only 2 searches were run, so this is weak evidence). | Unknown. Not verified. | **Lead (4/10), needs interviews** | Mandatory, enforced by BNM, and the CTR threshold halving raises the volume. Competition and count not checked. |
-| Pawnbrokers (conventional, KPKT) and Ar-Rahnu operators | Pawnbrokers Act 1972 licence, pledge books and pawn tickets. Pawnbrokers are also believed to be AMLA reporting institutions (unverified). | Unverified. | Unverified (a few hundred licensed shops is a guess). | Not screened | Search budget ran out. Ar-Rahnu is run by institutions (YaPEIM, cooperatives, banks), not small shops. |
-| Second-hand and scrap metal dealers | Second-Hand Dealers Act 1946 register (unverified), local-council licence, police checks on copper-cable theft (unverified). | Unverified. | Unverified. | Not screened | No search done. Worth a regulator-first pass next time. |
-| Households employing foreign domestic workers | Work permit and levy via Immigration/FWCMS, SOCSO coverage for domestic workers (unverified detail), Employment Act payslip duties (unverified). | Done by households plus licensed maid agencies. | Unverified. | Not screened | The agency is the natural intermediary and likely the buyer. Not researched. |
-| Swiftlet / edible-bird's-nest ranchers | DVS registration and traceability for EBN exports to China (unverified). | Rural, owner-operated. | Unverified. | Not screened | Malaysia-specific and promising on paper. No evidence gathered. |
-| Rubber dealers (MRB licence) and palm-fruit dealers (MPOB licence) | Monthly returns to the licensing board (unverified). EUDR traceability from 2026-12-30 (from the country report). | Rural dealers, paper receipts (unverified). | Unverified. | Covered by the country report | The country report already flags this as "attractive problem, poor distribution", with government platforms and EUDR vendors in place. |
-| Licensed desludgers (septic) | SPAN/IWK licensing and desludging records (unverified). | Unverified. | Unverified. | Not screened | No search done. |
-| Pesticide retail shops | Pesticides Board premises licence and sales records (unverified). | Unverified. | Unverified. | Not screened | No search done. |
-| Fishermen and fish landing | DOF vessel licence and logbooks (unverified). | Unverified. | Unverified. | Not screened | No search done. |
-| Money changers | BNM MSB licence and AML reporting. | Not quiet: well served by MSB software and banks' own tooling (unverified). | Unverified. | Likely reject | Regulated by BNM with heavy supervision. Probably already served by vendors. |
-| Hawkers and market traders | Local-council (PBT) licences, typhoid jabs and food-handler courses (unverified). | Counter-based renewals. | Unverified. | Likely reject | Low ability to pay. Renewal is annual. |
-| Driving schools (JPJ) | Institut memandu records (unverified). | Unverified. | Unverified. | Not screened | No search done. |
+| Rice wholesalers, millers, paddy buyers, rice retailers | Licence under Act 522. Wholesalers send monthly purchase/sales/stock returns to the KPKM branch office (per snippet; channel unverified). Amendment 2026 adds grades, buyer licensing and RM250k/RM1M penalties. | Returns are made "at the branch office at the start of each month". Licensing goes through agents such as Mishu. No rice-specific compliance software found. | ~39,000 licence holders across all types (KPKM audit statement, RTM / The Sun) | **Opportunity (4/10)** | New law plus an audit, monthly frequency and a large count. Whether returns move online in e-LPPB is unknown. |
+| Gold shops / jewellers (dealers in precious metals or stones) | AMLA reporting institution. Customer due diligence (CDD), CTR on cash above RM25,000, yearly Data and Compliance Report (DCR), sanctions screening. | Family shops, often paper ledgers and IC photocopies (assumed). Local POS JEMiSys exists, but its AML features are unverified. | >1,500 jeweller-operator members of the national federation (Berita Harian, 2026). The federation has 18 member associations (FGJAM). | **Opportunity (4/10)** | Mandatory, and BNM is actively doing on-site checks. The buyer is reachable through the associations. Willingness to pay is untested. |
+| Septic desludgers (SPAN Permit E) | Owners must desludge every 2–3 years through IWK or a Permit E holder (Water Services Industry Act s.65(1)(c)). Owner fines up to RM50,000. | IWK sends notices. SPAN raids premises (Op Tok Gajah, Sept 2026). How Permit E holders report jobs is unverified. | 1.38M septic tanks, 12% compliant (SPAN, Apr 2026). Number of Permit E holders unknown. | **Weak opportunity (3/10)** | Enforcement creates demand, but IWK dominates the service and the private desludger count is unknown. |
+| Pawnbrokers | Pawnbrokers Act 1972, Pawnbrokers (Control and Licensing) Regulations 2004, KPKT licence, pledge books. | Counter business. | 789 licensed premises (date unclear; NCCC consumer page) | Reject | Small count, concentrated in chains. Pawnshop software already exists (generic vendors). No new trigger found. |
+| Second-hand and scrap dealers | Second-Hand Dealers Act 1946 (Act 189). Police licence A/B/C (C needed for copper and tin). Form Pol. 292. | Police-issued licence, paper application form. | Unknown | Reject (for now) | Cable-theft pressure is real: KTMB lost RM16.3M (432 cases, 2024 to Jun 2026) and Prasarana RM29M. On 2026-10-05 KPKT warned that dealers who accept stolen cable can be prosecuted. But no new digital register or seller-ID rule was found, and dealers have an incentive *not* to record. |
+| Households employing foreign domestic workers | SOCSO (PERKESO) registration and contributions since 2021-06-01. **Exempt** from the 2% EPF for foreign workers (from Oct 2025). | Done by households and maid agencies. | Unknown | Reject | Only one small monthly contribution. Agencies and the SOCSO portal cover it. Households pay little. |
+| Swiftlet / edible-bird's-nest ranchers | DVS premises registration under the Animal Act 1953 (WR_O form or the MyWalet system). RFID traceability. myGAP. Export protocol with China renewed in Jan 2025. | Rural, owner-operated. | >15,000 swiftlet-house operators and 61 China-approved processing plants (Bernama / FMT, Jan 2025). 2,163 premises fitted with RFID (DVS). | Reject | The government's MyWalet plus RFID is the traceability system. The 61 processors do the export paperwork. Ranchers do little recurring filing. |
+| Licensed moneylenders | Moneylenders Act 1951. KPKT licence. Annual transaction records. 2025 KPKT guidelines for online lending. | Not quiet: active online marketing. | Unknown (KPKT dataset exists) | Reject | Not a quiet industry. Loan software vendors exist. |
+| Pesticide retail shops | Licence to sell or store pesticides, one licence per premises (Pesticides Board, via the e-Lesen LRMP portal). | Counter sales, inspections by DOA. | Unknown | Reject | No new 2025–2026 trigger found. Licensing is already on e-Lesen. |
+| Animal businesses (boarding, shelters, live-animal sales) | Animal Welfare Act 2015 s.15. 13 licensable activities. Licensing Fees Regulations 2021. | Small operators. | Unknown | Reject | No recurring reporting duty or new trigger found. |
+| Fishermen / vessel catch logs | DOF vessel licence. Logbook duties unverified. | — | Unknown | Not assessed | Malay queries returned only Indonesian e-logbook results. |
+| Money changers | BNM money-services business licence, AML. | Not quiet. | — | Reject | Heavily supervised by BNM. Likely served by MSB vendors (unverified). |
+| Hawkers and market traders | Local-council licences (unverified detail). | Counter renewals. | — | Reject | Annual renewal only, low ability to pay. |
 
-## 2. Strongest opportunity (provisional)
+## 2. Strongest opportunities
 
-### Opportunity: AMLA compliance kit for kedai emas (CDD, cash-threshold reports and the yearly DCR)
+### Opportunity: Rice licence-holder compliance book (monthly stock returns, grade records, audit pack) under the amended Act 522
+
+**Industry:**  
+Rice and paddy trade: mills, wholesalers, paddy buyers, larger rice retailers and restaurant groups that hold wholesale licences
+
+**Buyer:**  
+The owner or office clerk of a licensed rice wholesaler or small mill. Restaurant chains and sundry wholesalers that hold a rice wholesale licence are secondary buyers.
+
+**Trigger / Why now:**  
+- The Rice and Paddy Control (Amendment) Bill 2026 was tabled on 2026-07-07 and passed the Dewan Rakyat on 2026-07-14.
+- It lets the Director-General and Minister set rice grades, license buyers and control prices by grade.
+- It raises the general penalty to RM250,000 for individuals and RM1M for companies.
+- New regulations enforcing white-rice grade specifications are being drafted (Feb 2026).
+- KPKM said it is ready to audit 39,000 licence holders to fight cartels.
+- The background is the 2023–2025 local-rice shortage and the practice of relabelling local rice as imported.
+
+**Current workflow (partly verified):**  
+1. The licence is applied for and renewed in e-LPPB (KPKM portal), often through agents such as Mishu.
+2. Purchases, sales and stock are kept in accounting software or ledgers.
+3. At the start of each month the wholesaler prepares a return of total purchases, sales and current stock, and submits it to the KSPBN branch office (per snippet). Whether this is paper, email or portal is unverified.
+4. During audits, staff dig out invoices to show where rice came from and its grade (assumed).
+
+**Pain:**  
+- Monthly mandatory return.
+- Audit exposure now carries RM1M penalties.
+- Grade rules will add per-batch records.
+- No direct operator complaints were found.
+
+**Existing solutions:**  
+- e-LPPB portal (licensing; returns function unverified).
+- Generic accounting and inventory software (AutoCount, SQL Account and others; no rice-return template verified).
+- Licensing agents (Mishu).
+- Accountants and company secretaries.
+
+**Offline evidence:**  
+- Returns go "to the branch office".
+- Paddy buyers and millers are rural.
+- No rice-specific compliance software surfaced.
+
+**Offline channel:**  
+- KSPBN state branch briefings on the amended Act.
+- Rice millers' and wholesalers' associations (names unverified).
+- Paddy farmers' organisations (PPK).
+- Accounting-software resellers in rice-producing states (Kedah, Perlis, Perak, Selangor).
+- Licensing agents.
+
+**Market count:**  
+About 39,000 licence holders of all types (KPKM audit statement). The wholesale/mill subset is unknown.
+
+**The gap:**  
+Turning existing purchase/sales data into the monthly KSPBN return and a grade/origin audit trail (local vs imported, grade per batch) that survives a KPKM audit.
+
+**Possible product:**  
+An add-on that reads exports from AutoCount/SQL (or a simple stock ledger). It produces the monthly return in the required format and keeps a batch-level origin and grade register. It also builds an audit pack per licence.
+
+**MVP:**  
+- Excel or CSV import.
+- Monthly return generator.
+- Grade/origin register.
+- Licence-renewal reminders.
+
+**Pricing hypothesis:**  
+RM80–200 per month per licence (estimate). A done-for-you monthly return service at RM150–300 may sell better.
+
+**How to find first customers:**  
+- KPKM's licence lists, if published (unverified).
+- Accounting resellers.
+- Mill associations.
+- Visits to wholesale clusters.
+
+**Risks:**  
+- KPKM may move returns into e-LPPB for free.
+- Grade regulations may slip.
+- Many licence holders are restaurants with trivial returns.
+- Needs a Malay-speaking local.
+
+**Founder access:**  
+Not realistic for a non-local founder.
+
+**Kill condition:**  
+- e-LPPB already takes structured monthly returns that pull from licence data.
+- Interviews show wholesalers spend under one hour a month on the return.
+
+**Score:** 4/10
+
+**Sources:**  
+- https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/banteras-kartel-kpkm-sedia-audit-39-000-pemegang-lesen-borong-beras/
+- https://thesun.my/news/malaysia-news/kpkm-ready-to-audit-licence-holders-in-rice-and-padi-industry-lp11960902/
+- https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/ruu-akta-kawalan-padi-dan-beras-pindaan-dibentang-penalti-dinaikkan-sehingga-rm1-juta/
+- https://www.suarakeadilan.my/post/ruu-kawalan-padi-dan-beras-pindaan-2026-diluluskan
+- https://malaysiamadani.gov.my/2026/02/peraturan-baharu-digubal-kuat-kuasa-spesifikasi-gred-beras-putih/
+- https://www.utusan.com.my/nasional/2025/02/parlimen-kerajaan-setuju-pinda-akta-kawalan-padi-dan-beras/
+- https://www.scribd.com/document/374504841/Lesen-Borong-Beras (monthly return to branch office)
+- https://portalelesen.kpkm.gov.my/
+- https://mishu.my/blog/business-licenses/kpmp-rice-license/
+
+### Opportunity: AMLA counter kit for kedai emas (CDD, CTR aggregation, DCR figures, sanctions log)
 
 **Industry:**  
 Gold shops, goldsmiths and jewellers (dealers in precious metals or stones)
 
 **Buyer:**  
-The owner or second-generation manager of an independent gold shop or a small chain. That person is usually the named compliance officer.
+The owner or manager of an independent gold shop or a small chain. That person is usually the named compliance officer.
 
 **Trigger / Why now:**  
-- BNM halved the daily cash threshold report trigger from RM50,000 to RM25,000 (The Edge, April 2024, with a January 2025 follow-up article). More transactions now need a CTR.
-- The yearly Data and Compliance Report (DCR) has been mandatory since 2020.
-- The record gold price in 2025–2026 makes every sale bigger, so more sales cross the threshold. This is an inference, not verified.
-- A FATF mutual evaluation of Malaysia would add pressure on DNFBP supervision. Its timing is **unverified**.
+- BNM halved the CTR threshold from RM50,000 to RM25,000 (The Edge, 2024/2025).
+- The yearly DCR has been mandatory since 2020.
+- BNM's Annual Report 2025 says on-site supervision focused on higher-risk sectors including dealers in precious metals or stones. In 2025 BNM issued warning letters, directive orders, administrative monetary penalties and compounds across reporting institutions.
+- Record gold prices push more sales over the threshold (inference).
 
 **Current workflow (assumed, needs interviews):**  
-1. Customer pays cash for gold. The counter staff photocopy the customer's IC and write the sale in the shop ledger.
-2. For cash over RM25,000, the owner fills in and submits a CTR to BNM's FIED (the submission channel is unverified).
-3. Once a year the owner answers the DCR questionnaire, pulling counts of customers, CTRs and STRs from paper ledgers.
-4. Sanctions screening (TFS) is done ad hoc or not at all (unverified).
+1. Counter staff photocopy the customer's IC and write the sale in the ledger or POS.
+2. The owner totals cash per customer per day and files a CTR to BNM when it exceeds RM25,000 (channel unverified).
+3. Once a year the owner compiles the DCR answers from ledgers.
+4. Sanctions screening is ad hoc.
 
 **Pain:**  
-- Mandatory and enforced by BNM. The penalty scale under AMLA is high, but the actual enforcement on gold shops is **unverified**.
-- Older owners, paper ledgers and IC photocopies, which is assumed and needs interviews.
+- Mandatory, with the AMLA penalty scale and active BNM inspections.
+- One secondary source says the CDD threshold is RM50,000 (vs CTR RM25,000), which shows thresholds confuse people.
+- No direct owner complaints were found.
 
 **Existing solutions:**  
-Not researched. Likely substitutes, to verify:
-- BNM's own guidance and reporting channel.
-- Jeweller trade associations' AML briefings. A national goldsmith and jeweller federation exists (name not verified in this pass).
-- Generic AML/KYC SaaS sold to banks and fintechs (too expensive and too broad for a shop).
-- Jewellery POS vendors that may add IC capture.
-- Company secretaries and compliance consultants.
+- JEMiSys, a local jewellery POS/ERP since 2006 (AML features unverified).
+- Foreign jeweller POS systems (PrismaNote, HisabPlus, Odoo gold-shop modules; not Malaysia-AML specific).
+- Enterprise AML vendors marketing in Malaysia (Tookitaki, ComplyAdvantage, ANQA, AML Watcher; too heavy for shops).
+- Association AML briefings (FGJAM says it supports AMLA compliance).
 
 **Offline evidence:**  
-- Owner-operated family shops with counter sales.
-- No DPMS-specific Malaysian tool surfaced in the two searches run (weak evidence).
+- Family-run counters.
+- No Malaysia-specific DPMS compliance tool surfaced in English or Malay searches.
 
 **Offline channel:**  
-- Jeweller and goldsmith associations and their AML briefings.
-- Gold wholesalers and refiners who supply many shops.
-- Jewellery POS vendors as resellers.
-- Walk-in visits along gold-shop streets, which are concentrated in a few streets per town.
-
-None of these channels was verified.
+- The national federation (FGJAM) and its 18 state associations.
+- The Malay goldsmiths' federation (Fedmas) and the Indian goldsmiths' association (MIGJA).
+- The Malaysia Gold Association (MGA) conference.
+- Penang jewellery trade show (PSG).
+- Gold wholesalers.
+- JEMiSys as a partner or competitor.
 
 **Market count:**  
-Unknown. BNM's count of DPMS reporting institutions was not found.
+More than 1,500 jeweller-operator members of the federation (Berita Harian, Feb 2026). The total number of DPMS reporting institutions is unknown.
 
-**The gap (hypothesis):**  
-A counter-side tool that does all of the following:
-- captures the IC (MyKad) at the sale;
-- screens the customer against the domestic and UN sanctions lists;
-- totals cash per customer per day against RM25,000 and pre-fills the CTR;
-- builds the yearly DCR figures from the same records.
+**The gap:**  
+A cheap counter-side flow that captures the IC once, aggregates cash per customer per day, drafts the CTR, logs screening, and produces the DCR numbers. Whether JEMiSys already does this is the key unknown.
 
 **Possible product:**  
-A tablet or phone app at the counter with MyKad capture, a running daily cash total, CTR draft, TFS screening log and a one-click DCR data sheet.
+A tablet app or POS plug-in with MyKad capture, a running daily cash total, CTR draft, screening log and a DCR data sheet.
 
 **MVP:**  
-- A sales log with IC photo.
-- Daily cash aggregation with a RM25,000 alert.
-- CTR draft as a PDF or Excel file.
-- DCR figures summary.
+- Sales log with IC photo.
+- RM25,000 alert.
+- CTR draft as PDF/Excel.
+- DCR summary.
 
 **Pricing hypothesis:**  
-RM50–150 per shop per month (estimate). Owners may prefer a done-for-you yearly DCR service at RM300–800 (estimate).
+RM50–150 per shop per month, or a yearly DCR service at RM300–800 (estimates).
 
 **How to find first customers:**  
-Association member lists and gold-wholesaler customer lists (both unverified), and street-by-street visits.
+State goldsmith association committees, the MGA conference and gold-shop streets.
 
 **Risks:**  
-- Shop owners may underreport rather than pay for compliance.
-- BNM may provide a free simple form.
-- Jewellery POS vendors may already have the feature.
-- Chinese-language and Malay-language selling needs a local.
+- Owners may prefer under-reporting to paying.
+- JEMiSys or BNM may cover it.
+- Chinese/Malay/Tamil selling needs locals.
 
 **Founder access:**  
-A non-local solo founder would struggle. It needs a local who speaks Malay and/or Chinese and has trust in the trade.
+Needs a local with trade trust.
 
 **Kill condition:**  
-- BNM statistics show few DPMS file CTRs or DCRs.
-- Jewellery POS systems already do CTR aggregation.
-- Interviews show owners won't pay more than about RM30 a month.
+- JEMiSys or other POS already aggregates CTRs.
+- Interviews show fewer than about 10% of shops ever hit RM25,000 in cash a day.
 
-**Score:** 4/10 (provisional, based on 2 searches)
+**Score:** 4/10
 
 **Sources:**  
-- https://theedgemalaysia.com/article/threshold-cash-transaction-report-lowered-half (CTR threshold cut to RM25,000)
-- https://www.theedgemarkets.com/article/threshold-cash-transaction-report-lowered-half
-- https://sarawakadvocates.com.my/media/article/119/1.DCR_Circular_General.pdf (DCR, regular reporting since 2020, mandatory DCR 2024. Seen through the legal-profession circular; DPMS applicability is inferred from the same DNFBP policy document.)
-- https://www.theedgemalaysia.com/article/bank-negara-receives-over-five-million-ctrs-worth-rm483b (CTR volumes)
+- https://www.bnm.gov.my/publications/ar2025/ch1g
+- https://theedgemalaysia.com/article/threshold-cash-transaction-report-lowered-half
+- https://sarawakadvocates.com.my/media/article/119/1.DCR_Circular_General.pdf
+- https://fgjam.org.my/a-brief-history-of-federation-of-goldsmith-and-jewellers-association-of-malaysia/
+- https://www.bharian.com.my/amp/bisnes/lain-lain/2026/02/1504825/bhplus
+- https://says.com/my/seismik/jemisys-tawar-inovasi-teknologi-pintar-dan-perisian-barang-kemas-pertama-di-malaysia
+- https://www.tookitaki.com/compliance-hub/aml-compliance-malaysia-bnm-amlatfpuaa
+
+### Opportunity: Job-proof and notice-matching tool for private septic desludgers (Permit E holders)
+
+**Industry:**  
+Septic-tank desludging
+
+**Buyer:**  
+The owner of a SPAN Permit E desludging contractor (tanker operator).
+
+**Trigger / Why now:**  
+- SPAN reported in April 2026 that only 12% of 1.38M septic-tank owners comply with scheduled desludging.
+- "Op Tok Gajah" (Kuantan and Temerloh, 21–26 Sept 2026) inspected 1,338 premises that ignored IWK notices. Owners face fines up to RM50,000 or 6 months in jail (s.66(1)).
+- The Water Services Industry (Desludging Services) Regulations 2021 make scheduled desludging mandatory.
+- Owners who use a private Permit E holder instead of IWK need proof that it was done (how proof reaches IWK/SPAN is unverified).
+
+**Current workflow (assumed):**  
+1. The owner receives an IWK or SPAN notice and calls a desludger.
+2. The desludger does the job and writes a paper receipt.
+3. The desludger disposes of the sludge at an approved facility (trip records).
+4. The owner shows the receipt to IWK/SPAN to clear the notice.
+
+**Pain:**  
+- Owners carry the enforcement risk.
+- The desludger's pain is unproven.
+
+**Existing solutions:**  
+- IWK's own service and customer portal.
+- Paper receipts.
+- Generic field-service apps.
+
+**Offline evidence:**  
+- Tanker operators.
+- Licensing through consultants (NZ Management Consultant, One-Company).
+
+**Offline channel:**  
+- SPAN's Permit E register (public availability unverified).
+- Permit consultants.
+- Tanker and pump suppliers.
+
+**Market count:**  
+1.38M tanks. Number of Permit E holders unknown.
+
+**The gap:**  
+A verifiable job record (photos, GPS, tank ID, disposal ticket) that the owner can use to clear a notice. It only has value if SPAN/IWK accept it.
+
+**Possible product:**  
+A mobile job sheet plus an owner-facing certificate link.
+
+**MVP:**  
+Job sheet, PDF certificate and a disposal-trip log.
+
+**Pricing hypothesis:**  
+RM50–100 per truck per month (estimate).
+
+**How to find first customers:**  
+Permit consultants and Google Maps "khidmat sedut tangki septik" listings.
+
+**Risks:**  
+- IWK is the dominant concessionaire.
+- The proof route may not exist.
+- Small, cash-only operators.
+
+**Founder access:**  
+Needs a local.
+
+**Kill condition:**  
+- Permit E holders number under a few hundred.
+- IWK/SPAN does not accept private job records.
+
+**Score:** 3/10
+
+**Sources:**  
+- https://malaysiagazette.com/2026/04/28/hanya-12-peratus-daripada-1-38-juta-pemilik-tangki-septik-patuh-penyelenggaraan-span/
+- https://www.bernama.com/bm/am/news.php?id=2610488
+- https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/op-tok-gajah-span-perketat-penguatkuasaan-tangki-septik/
+- https://enviliance.com/regions/southeast-asia/my/report_2588
+- https://nzmanagementconsultant.com/permit-span/
 
 ## 3. Rejected
 
-- **Money changers:** not quiet. BNM-supervised MSBs are likely already served by vendors (unverified).
-- **Hawkers and market traders:** low ability to pay, and the duty is an annual council renewal.
-- **Rubber and palm dealers / EUDR:** already covered by the country report, with government platforms and EUDR vendors in place.
+- **Swiftlet ranchers:** DVS's MyWalet (blockchain registration) and RFID tags already form the traceability system. The 61 China-approved processing plants carry the export paperwork. Sources: https://www.dvs.gov.my/dvs/resources/user_1/2022/BKPBV/IMPORT%20EKSPORT/EDIBLE_BIRD_NEST_EXPORT_PROCEDURE_TO_CHINA.pdf , https://www.freemalaysiatoday.com/category/nation/2025/01/17/export-of-birds-nest-to-china-resumes
+- **Scrap / second-hand dealers:** enforcement pressure from cable theft is real, but there is no new register obligation. A police licence (Form Pol. 292) is the only formal touchpoint, and dealers are reluctant record-keepers. Revisit if the planned penalty amendments add seller-ID or digital-register duties. Sources: https://www.rmp.gov.my/filebase/document/39350_Pol.%20292.pdf , https://themalaysiapress.com/2026/10/05/terima-kabel-curian-pusat-barang-lusuh-boleh-didakwa-menteri-kpkt/ , https://malaysiagazette.com/2025/05/02/peniaga-barang-lusuh-jangan-beli-barang-daripada-pencuri-kabel/
+- **Pawnbrokers:** 789 premises, chain-dominated, no trigger. Source: https://www.nccc.org.my/v2/index.php/pajak-gadai
+- **Household employers of domestic workers:** SOCSO only. Exempt from the foreign-worker EPF that started in Oct 2025. Sources: https://www.perkeso.gov.my/perkhidmatan-kami/perlindungan/pekerja-domestik.html , https://citra-excel.com/blog/kwsp-pembantu-rumah-pengecualian/
+- **Moneylenders:** not quiet, already online.
+- **Pesticide shops:** no trigger, and licensing is on e-Lesen LRMP.
+- **Animal-welfare licensees:** no recurring duty or trigger found.
+- **Money changers:** heavily supervised, likely already served by vendors.
+- **Hawkers:** annual renewal only, low ability to pay.
 
 ## 4. Method notes
 
-- The one Malay-language query for gold-shop AML duties returned mostly Indonesian results, because "pedagang emas" and Indonesian tax news dominate.
-- The English regulator-first query ("BNM DNFBP dealers in precious metals cash threshold") worked straight away.
-- The pass was cut short by a usage limit after 2 searches.
-- Rerun priorities, in regulator-first form:
-  - KPKT's list of licensed pawnbrokers;
-  - DVS swiftlet premises registration;
-  - police enforcement under the Second-Hand Dealers Act and copper theft;
-  - SPAN licensed desludgers;
-  - the domestic-worker SOCSO scheme;
-  - BNM's count of DPMS reporting institutions.
+What worked:
+- Bahasa Malaysia searches on **enforcement news** (RTM, Bernama, Malaysia Gazette, Utusan) were the best source of counts and triggers ("audit 39,000 pemegang lesen", "Op Tok Gajah", "12 peratus daripada 1.38 juta").
+- English regulator queries (BNM DNFBP) also worked.
+
+What didn't:
+- Malay terms shared with Indonesian ("pedagang emas", "e-logbook perikanan") return Indonesian results.
+- Form-level detail (how a return is actually submitted) rarely appears in snippets. Without WebFetch, the channel stays unverified.
+- Malaysian quiet industries mostly sit behind agency portals (e-LPPB, MyWalet, e-Lesen LRMP), so the gap is usually "data prep before the portal", not "no portal".
+
+Research model: Opus

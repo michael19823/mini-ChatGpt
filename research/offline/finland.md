@@ -1,292 +1,305 @@
 # Finland: offline-industries pass (2026-10-05)
 
-**Budget note: this pass ended early.** The web-search tool returned "You've hit your usage limit" on the 5th of 6 searches. The instructions say to stop when a search is refused, so I stopped. Only 5 searches returned results, all in Finnish (2 of them in extended mode). Rows marked "unverified" rest on prior knowledge and not on a source found in this pass. Treat this report as a screening note to guide a later pass, not a finished study.
+**Budget and method:**
+- Two passes on the same day, 19 WebSearch calls in total. 3 were refused with "usage limit": one in pass 1 and two in pass 2. I saved interim findings after each refusal.
+- Almost all queries were in Finnish. WebFetch was not used, so the evidence is search-result summaries of official pages.
+- Rows still marked "unverified" rest on prior knowledge only.
 
-The country-level view from `research/countries/finland.md` still holds. Finland is highly digitised, and the state builds free central tools: Palkka.fi, the Incomes Register, SIIRTO, Rapu, Oma riista and the inland catch-report app. That leaves quiet industries with fewer paper gaps than in most countries. Usually the substitute is a free state portal, not a stationer's register book.
+**Overall verdict: no quiet-industry opportunity above 3/10 in Finland.**
+- The country report's finding holds even more strongly here. The Finnish state builds a free tool for almost every register: Palkka.fi, the Incomes Register, SIIRTO, Rapu, Oma riista, the inland and marine catch-report systems, VEETI and the STM water-safety-plan (WSP) tool.
+- In quiet industries the substitute is a free state portal or an association Excel template, not a stationer's register book.
+- Where a niche SaaS exists (VesiKuutio for water cooperatives), it is already Finnish and vertical.
 
 ## 1. Quiet industries screened
 
 | Industry | Obligation | Evidence it's offline | Rough count (source) | Verdict | One-line reason |
 |---|---|---|---|---|---|
-| Small water cooperatives (vesiosuuskunnat) | Drinking-water risk management (talousvesiasetus, in force 12.1.2023), new quality parameters in the authorities' monitoring by 12.1.2026, and the Water Services Act reform of 2026 (HE 40/2025: asset-management and continuity planning) | Volunteer boards, guidance comes as association PDFs (SVOSK "material bank", Kuntaliitto obligations deck), work done in talkoot (community volunteer work) | Unverified: about 1,000+ cooperatives. Only those with a municipally confirmed service area count as water utilities (Kuntaliitto) | **Candidate (Opp. 1)** | New planning duties land on volunteer boards with no staff. Low willingness to pay, but a clear association channel |
-| Small-scale coastal commercial fishermen (vessels under 12 m) | EU Fisheries Control Regulation 2023/2842: an electronic logbook (simplified for under 12 m) and landing declaration by 10.1.2028, after which the national paper catch-report forms end. Vessels of 12 m or more had to switch in Jan 2026 | Paper national catch-report forms are still in use until 2028. Older part-time fishermen | About 400 full-time and 1,700 part-time sea fishermen (2022, ahven.net) | **Candidate, weak (Opp. 2)** | Hard deadline and a defined group, but the state is likely to ship a free app (it already has one for inland waters) |
-| Inland commercial fishermen | Annual catch report to the Elinvoimakeskus (regional state agency), plus a logbook | Already electronic: a web system and an Android app run by the authority | About 300 full-time and 1,300 part-time (ahven.net) | Rejected | A free government app exists, and the report is filed once a year |
-| Nature, safari and adventure programme services (Lapland, Kainuu, the lakes) | Consumer Safety Act: a written safety document (turvallisuusasiakirja), a customer-capacity assessment, and a s.8 duty to report accidents and near-misses to Tukes (the safety regulator) | Safety documents are mostly Word/PDF files (e.g. a published operator PDF from 2013) built from Tukes guidance 2/2015 | Unverified. Thousands of small operators, no register found (no licence is needed) | **Candidate, weak (Opp. 3)** | Real, inspected duty, but no new trigger, no register for prospecting, and Tukes already publishes free electronic tools |
-| Households as employers | Report wages to the Incomes Register by the 5th of the following month; TyEL (statutory earnings-related pension) and accident insurance; household tax credit | Not offline: Palkka.fi does the payroll and the filings for free | Unverified, tens of thousands of households a year | Rejected | Free state substitute (Palkka.fi) |
-| Second-hand dealers and pawnbrokers | Unverified. Pawnshops are licensed and supervised financially. No police-reported second-hand dealer register was found for Finland in this pass | Unknown | Unverified, small (a few pawnshop chains) | Rejected (not screened properly) | No dealer-register duty found. Pawnshops are chains, not owner-operators |
-| Scrap metal dealers | Waste Act registration and SIIRTO transfer documents (covered in the country report) | Partly digital (SIIRTO) | Not counted | Rejected | Already covered by the SIIRTO vendors (Pinja, Enpros) |
-| Beekeepers | Unverified: registering apiaries with Ruokavirasto (the Food Authority), records of veterinary medicines | Unknown | Unverified, a few thousand mostly hobby keepers | Rejected | Mostly hobbyists, almost no money |
-| Livestock keepers and traders, animal transport | Bovine, pig and sheep/goat registers in Ruokavirasto's e-services, journey logs | Unverified. Register filings are electronic, and farm software and ProAgria serve them | Unverified | Rejected | State e-service plus advisory-organisation channel |
-| Reindeer herders (54 herding cooperatives, called paliskunnat) | Unverified: earmark register, slaughter and meat-inspection records, compensation claims | Unverified. Cooperative and association paperwork | Unverified, about 4,000 owners in 54 cooperatives | Not concluded | Finland-specific and plausibly offline, but not searched. Needs a local, Sámi-aware founder |
-| Tattoo and piercing studios | Unverified: notifying municipal environmental health under the Health Protection Act, hygiene inspections | One-off notification | Unverified, hundreds | Rejected | One-time filing, no recurring report |
-| Taxi operators | Traficom (the transport agency) licence, data-provision duty since 2018 | Unverified. Dispatch apps (Valopilkku, Menevä and others) | Unverified, about 10,000+ licences | Rejected | Served by dispatch and fleet apps, and the market is not quiet |
-| Seasonal farm workers (berries, vegetables) | Unverified: Seasonal Workers Act permits, housing standards, wild-berry-picker law (2021) | Unverified | Unverified. About 10–20 wild-berry companies, many horticulture farms | Not concluded | Not searched. The wild-berry segment is too few buyers |
-| Small abattoirs and game-meat handlers | Unverified: Ruokavirasto approval, own-check records, meat inspection | Unverified | Unverified, small | Not concluded | Not searched |
+| Small water cooperatives (vesiosuuskunnat) | Drinking-water regulation risk management (in force 12.1.2023); official monitoring covering the new parameters by 12.1.2026; Water Services Act reform 2026 (HE 40/2025) adds asset management and planning | Volunteer boards; guidance as association PDFs and Excel tools (SVOSK, Vesilaitosyhdistys, Kuntaliitto) | About 1,500 cooperatives supplying about 10% of household water; about 1,100 water utilities overall (fi.wikipedia "Vesiosuuskunta"; MMM). No VEETI breakdown of cooperatives found | **Weak candidate (Opp. 1)** | Free STM WSP web tool, free Excel risk and asset tools, VEETI reporting and a cooperative-specific billing SaaS (VesiKuutio) already exist. Only a thin "board binder" gap is left |
+| Coastal commercial fishermen (vessels under 10 m and 10–12 m) | EU Control Regulation 2023/2842: an e-logbook (simplified for under 12 m) and landing declaration by 10.1.2028. Today vessels under 10 m file a monthly coastal catch report by the 20th of the following month, on paper or in the MMM e-service | Paper forms still allowed today; older part-time fishermen | About 400 full-time and 1,700 part-time sea fishermen (ahven.net, 2022) | **Weak candidate (Opp. 2)** | The state already runs the marine catch-report e-service (saalisilmoitus.mmm.fi) and will very likely extend it. No Finnish under-12 m app announcement found |
+| Inland commercial fishermen | Annual catch report plus a logbook | Official web system and Android app | About 300 full-time and 1,300 part-time (ahven.net) | Rejected | Free government app, filed once a year |
+| Programme and consumer-service providers (safari, adventure, activity parks) | The new Act on the Safety of Consumer Services replaces the Consumer Safety Act 920/2011 (HE 213/2024, TaVM 3/2025, proposed in force 5.5.2025). The safety-document duty is dropped, but safety work must be documented by **all** consumer services. Accidents and near-misses still go to Tukes | Word/PDF safety documents built from Tukes guidance 2/2015 | Unverified; no register because no licence is needed | **Weak candidate (Opp. 3)** | The trigger widens the scope, but there is no register to prospect, buyers are seasonal and the willingness to pay is low |
+| Households as employers | Incomes Register by the 5th of the following month, TyEL pension, accident insurance, household tax credit | Not offline | Unverified | Rejected | Palkka.fi does it all for free |
+| Seasonal farm workers (berries, vegetables) | Seasonal work permit or certificate tied to one employer; accommodation that meets Migri guidance (warm, fire-checked, sanitation); written tenancy agreement; rent must not be unreasonable; OSH inspections of berry and horticulture farms | Paper Migri attachment form TY6_plus; inspections on site | 2,282 seasonal work certificates in 2024 (−13%) (EMN/Migri summary); a quota of 9,000 foreign seasonal workers reported in the press (year unverified) | Rejected | A few hundred farm employers; mostly a once-a-season permit task handled through Migri and the farmers' employer union MTA |
+| Reindeer-herding districts (paliskunnat) | Reindeer Herding Act 848/1990; work and costs allocated by each member's reindeer count; mark register kept by Paliskuntain yhdistys | Internal district bookkeeping; central register | 54 districts (paliskunnat.fi) | Rejected | 54 buyers, and the central association holds the register. Needs a local, Sámi-aware founder |
+| Small abattoirs, reindeer slaughterhouses, game-handling facilities | Ruokavirasto approval; own-check plan reviewed at approval and supervised by an on-site inspection vet; salmonella monitoring inside the own-checks | Official vet on site | 40 small and 13 large slaughterhouses at end-2024; about 50 small units and game facilities active by season (Ruokavirasto) | Rejected | About 50 buyers, seasonal |
+| Scrap metal dealers | Waste Act registration, SIIRTO transfer documents | Partly digital | Not counted | Rejected | Covered by the SIIRTO vendors (see country report) |
+| Second-hand dealers and pawnbrokers | No police-reported dealer register found | Unknown | Unverified | Rejected | No dealer-register duty found; pawnshops are chains |
+| Beekeepers | Unverified: registration with Ruokavirasto, medicine records | Unknown | Unverified, mostly hobbyists | Rejected | No money |
+| Livestock keepers and traders | Ruokavirasto animal registers, transport logs | Unverified; state e-services plus the ProAgria advisory network | Unverified | Rejected | State e-service |
+| Tattoo and piercing studios | Unverified: notification to municipal environmental health | One-off | Unverified | Rejected | One-time filing |
+| Taxi operators | Traficom licence | Dispatch apps | Unverified, about 10,000+ | Rejected | Served by dispatch and fleet apps, and not a quiet market |
 
 ## 2. Opportunities
 
-### Opportunity: Water-cooperative compliance binder (risk management, monitoring plan, Water Services Act 2026 planning)
+All three are weak. They are kept so the cross-country ranking can see what the best Finnish options look like.
+
+### Opportunity: Water-cooperative board binder (risk plan, sampling calendar, asset plan, board handover)
 
 **Industry:**
-Small rural water-supply cooperatives (vesiosuuskunnat) and small private waterworks.
+Small rural water-supply cooperatives (vesiosuuskunnat).
 
 **Buyer:**
-The board chair or treasurer of a water cooperative (volunteer, often retired), or the part-time hired operator who runs several cooperatives.
+The board chair or treasurer (volunteer, often retired), or the part-time operator who serves several cooperatives.
 
 **Trigger / Why now:**
-- The talousvesiasetus (drinking-water regulation) implementing the EU Drinking Water Directive took effect 12.1.2023. It tightens risk management along the supply chain, especially for the raw-water area.
-- The authorities' monitoring had to cover the new quality parameters by 12.1.2026.
-- The Water Services Act reform (HE 40/2025, effective 2026 per Greenstep) adds asset-management and planning duties for water utilities. A cooperative is a water utility under the Act when it has a municipally confirmed service area.
-- Exact deadlines for the reform's planning duties are unverified.
+- The drinking-water regulation took effect 12.1.2023. It requires risk management across the supply chain, including the raw-water area.
+- Official monitoring had to cover the new quality parameters by 12.1.2026.
+- The 2026 Water Services Act reform (HE 40/2025) adds asset-management and planning duties for water utilities. A cooperative is a water utility under the Act when it has a municipally confirmed service area.
+- The reform's exact deadlines are unverified.
 
 **Current workflow:**
-1. The board downloads guidance PDFs from SVOSK and Kuntaliitto (the Association of Finnish Municipalities) and writes or updates a risk assessment in Word or Excel. Sometimes it hires a consultant.
-2. The board agrees the monitoring sampling programme with the municipal health inspector. Lab results come back as PDFs or email.
-3. Disruption-preparedness plans, asset registers (pipes, pumps, wells) and the annual report go to the annual meeting as paper or binders.
-4. When board members turn over, the documents live in one person's home or laptop.
+1. The board fills in STM's free web WSP tool, or the Excel risk-plan tool for small plants, sometimes after a SYKLI course or with a consultant.
+2. Sampling follows the monitoring programme agreed with the municipal health inspector. Lab results arrive as PDFs.
+3. Statutory data goes to VEETI. Billing runs in VesiKuutio, Vesitieto or Excel. The asset assessment uses the free Vesilaitosyhdistys Excel tool.
+4. Everything lives in one board member's laptop, and documents get lost when the board changes.
 
 **Pain:**
-- The regulation's own context admits the burden: applying the drinking-water regulation "has proven too heavy" for the very smallest plants, which got a lighter regime under 401/2001 (search-result summary of the Kuntaliitto and STM material).
-- The reform adds planning on top, and volunteer boards have no staff.
-- Evidence of hours lost or penalties was not found. Unverified.
+- The smallest plants found the drinking-water regulation "too heavy" (Kuntaliitto and STM material). Volunteer boards carry new planning duties.
+- No evidence was found of hours lost or penalties.
 
 **Existing solutions:**
-- SVOSK free guides and material bank ("Vesihuollon häiriötilanteet ja riskinhallinta", "Pienten pohjavesilaitosten ylläpito ja valvonta").
-- Kuntaliitto obligations deck for cooperatives.
-- Consultants such as Greenstep (asset management).
-- Water-utility asset and network software, e.g. Trimble/Sweco network information systems used by municipal utilities. Unverified for cooperatives, and likely too costly.
-- Excel and Word.
+- STM's free web WSP and SSP tools, plus an Excel risk-plan tool for small plants.
+- VEETI, the national water-services database, for statutory reporting.
+- The free Vesilaitosyhdistys "Vesiosuuskuntien omaisuudenhallinta" Excel tool for asset management.
+- VesiKuutio: billing, member register and meter readings, marketed as "the only domestic billing program made for water cooperatives".
+- Vesitieto: billing and customer-service SaaS for water utilities.
+- SYKLI risk-mapping training and consulting.
+- SVOSK guides.
 
 **Offline evidence:**
-- The guidance is published as PDFs by an association, and the work is done by volunteer boards.
-- No SaaS product aimed at Finnish water cooperatives showed up in the searches (only 5 searches, so this is weak evidence).
+- The tools are Excel downloads and association PDFs, and the work is done by volunteers in talkoot (community volunteer work).
+- Even so, the online offer is denser than expected.
 
 **Offline channel:**
-- SVOSK, the federation of water cooperatives (its name was not confirmed in this pass), with its training days and newsletter.
-- Municipal environmental-health inspectors, who meet every cooperative.
-- Regional water-cooperative networks and Kuntaliitto events.
-- Cooperatives' annual-meeting season (spring).
+- SVOSK (association) events and newsletter.
+- Municipal environmental-health inspectors.
+- SYKLI courses.
+- VesiKuutio as a possible partner or reseller.
 
 **Market count:**
-- Unverified estimate of about 1,000+ cooperatives. A precise register count should come from the Elinvoimakeskus or from VEETI, the national water-services database. Not confirmed in this pass.
+- About 1,500 cooperatives (fi.wikipedia), within about 1,100 water utilities nationally (MMM). These two counts don't match, probably because many small cooperatives are not utilities under the Act.
+- A VEETI count of cooperatives was not found.
 
 **The gap:**
-- Nothing keeps a small cooperative's risk assessment, sampling calendar, lab results, asset list and new reform plans in one place that survives a change of board, priced for a cooperative with a few hundred members.
+- Only a thin layer is left: one place that ties the WSP output, the sampling calendar, the lab PDFs, the asset tool output and the annual-meeting pack together, so they survive a change of board.
+- Every substantive piece already has a free tool.
 
 **Possible product:**
-- A Finnish-language "compliance binder" for water cooperatives: template-driven risk assessment, sampling calendar against the agreed monitoring programme, a lab-PDF inbox, asset register and plan templates for the 2026 reform.
-- Sold as a yearly subscription with an optional done-for-you first setup by a partner consultant.
+- A "board binder" add-on, ideally built as a module for or with VesiKuutio rather than standalone.
 
 **MVP:**
-- A risk-assessment template plus a sampling and deadline calendar.
-- An upload area for lab reports.
-- A one-click "annual meeting pack" PDF.
+- A deadline and sampling calendar.
+- A lab-PDF inbox.
+- An import of the WSP and asset-tool outputs.
+- A one-click annual-meeting PDF.
 
 **Pricing hypothesis:**
-- €300–900 per year per cooperative, plus €1,000–2,500 one-off setup as a service.
-- Willingness to pay is for a service more than for software: boards will pay to have it done, not to learn a tool.
+- €200–500 per year per cooperative. This is realistically a done-for-you service sold through a consultant, not self-serve software.
 
 **How to find first customers:**
-- The SVOSK member list and events.
-- Municipal health inspectors' lists of supervised waterworks.
-- The VEETI water-services database (public availability unverified).
+- SVOSK members.
+- Municipal lists of supervised waterworks.
+- VesiKuutio's customer base, through a partnership.
 
 **Risks:**
-- Volunteer buyers with low budgets.
-- SVOSK or Kuntaliitto may publish free templates for the reform.
-- Consultants may bundle the same work.
-- Finnish language and trust are required.
+- Free state and association tools.
+- VesiKuutio can add the same features cheaply.
+- Volunteer buyers.
 
 **Kill condition:**
-- SVOSK confirms it will provide free reform templates or a tool, or
-- 10 cooperative chairs say the municipal inspector and existing PDFs are enough.
+- VesiKuutio or Vesilaitosyhdistys already offers document storage and a deadline calendar, or
+- 10 board chairs say the existing tools are enough.
 
-**Founder access:** Needs a Finnish-speaking local, or a partnership with a regional consultant. A non-local solo founder would struggle.
+**Founder access:** Needs a Finnish-speaking local. Not sellable by a non-local.
 
-**Score:** 4/10. Pain 5, frequency 4 (annual or seasonal), mandatory 7, fragmentation 4, competition 6, incumbent gap 6, buyer access 6, willingness to pay 3, MVP 8, distribution 6.
+**Score:** 3/10. Pain 4, frequency 4, mandatory 7, fragmentation 3, competition 3, incumbent gap 3, buyer access 6, willingness to pay 2, MVP 8, distribution 6.
 
 **Sources:**
 - https://stm.fi/artikkeli/-/asset_publisher/asetuksen-muutos-velvoittaa-parantamaan-talousveden-riskienhallintaa
-- https://www.vesilaitosyhdistys.fi/ajankohtaista/uutiset/uuden-juomavesidirektiivin-toimeenpanemiseksi-annetut-kansalliset-laki-ja-asetusmuutokset-tulivat-voimaan-12.1.2023/
 - https://www.kuntaliitto.fi/sites/default/files/media/file/01_Lains%C3%A4%C3%A4d%C3%A4nt%C3%B6%20ja%20velvoitteet.pdf
-- https://greenstep.fi/artikkelit/vesihuoltolain-uudistus-2026/
 - https://www.edilex.fi/he/fi20250040.pdf
+- https://greenstep.fi/artikkelit/vesihuoltolain-uudistus-2026/
+- https://fi.wikipedia.org/wiki/Vesiosuuskunta
+- https://mmm.fi/vesi/vesihuolto_haasteet
+- https://www.vesi.fi/vesihuollon-tietojarjestelma-tarjoaa-katevan-tyokalun-vesiosuuskunnille/
+- https://vesi.fi/aineistopankki/wp-content/uploads/2024/05/Riskienhallintasuunnitelma_raakavesi_ohje.pdf
+- https://www.vesi.fi/vesiosuuskuntien-omaisuudenhallinta-tyokalu-latauslinkki-ja-ohjeet/
+- https://www.vesikuutio.fi/
+- https://vesitieto.fi/
+- https://sykli.fi/koulutusalat/vesihuolto/lyhytkoulutukset/riskienkartoitus-vesihuoltolaitoksille-wsp-ja-ssp-koulutus-ja-konsultointi/
 - https://svosk.fi/materiaalipankki/vesihuollon-hairiotilanteet-ja-niihin-varautuminen/
-- https://svosk.fi/Materiaalipankki/PientenPohjavesilaitosten.pdf
 
-### Opportunity: Simplified e-logbook and landing declaration for under-12 m coastal fishermen (2028 switch)
+### Opportunity: Simplified e-logbook for under-12 m coastal fishermen (2028 switch)
 
 **Industry:**
-Small-scale coastal commercial fishing (Baltic: herring, whitefish, pikeperch, perch).
+Small-scale Baltic coastal commercial fishing.
 
 **Buyer:**
-An owner-operator fisherman in group I or II. Many are part-time and older.
+An owner-operator fisherman, mostly part-time and older.
 
 **Trigger / Why now:**
-- Under the revised EU Fisheries Control Regulation 2023/2842, all fishing vessels must keep an electronic logbook. Vessels under 12 m may use a simplified one.
-- For Finnish vessels under 12 m, the electronic logbook and landing declaration apply by 10.1.2028. At that point the national catch-report forms are withdrawn.
-- Vessel position tracking follows: by 10.1.2028 for 9–12 m vessels and by 1.1.2030 for vessels under 9 m.
-- Vessels of 12 m or more had to switch in January 2026.
+- Under EU Control Regulation 2023/2842, all vessels must keep an electronic logbook, and vessels under 12 m may use a simplified one.
+- For Finnish vessels under 12 m, the e-logbook and landing declaration apply by 10.1.2028, and the national catch-report forms end then.
+- Position tracking follows: 10.1.2028 for 9–12 m vessels and 1.1.2030 for vessels under 9 m.
+- Vessels of 12 m or more switched in January 2026. Vessels of 10 m or more have long used the EU e-logbook, with support services run through SAKL since 2021.
 
 **Current workflow:**
-1. The fisherman fills in the national catch-report form (paper or an electronic national form) per trip or per month.
-2. He sells to a first buyer or wholesaler, who issues sales notes.
-3. The Elinvoimakeskus (formerly the ELY Centre) reconciles catch reports against sales notes and the quota for species such as salmon and herring.
+1. A vessel under 10 m files a monthly coastal catch report by the 20th of the following month, either on the paper form or in the Ministry of Agriculture and Forestry (MMM) catch-report e-service (saalisilmoitus.mmm.fi). Quota species such as Baltic herring and salmon need landing reports.
+2. The Southwest Finland Elinvoimakeskus (Lounais-Suomen elinvoimakeskus) distributes the forms and records the data.
+3. First buyers file first-sale notifications in a separate e-service.
 
 **Pain:**
-- From 2028, entry must be digital and, for landing declarations, close to real time. Older part-time fishermen are the least digital group.
-- Finland voted against the control-regulation tightening (valtioneuvosto.fi), which signals that the burden on its small fleet is perceived as high.
+- From 2028, monthly paper reporting becomes per-trip digital entry, which is a real change for the least digital group.
+- Finland voted against the regulation.
 
 **Existing solutions:**
-- The state's own tools: the inland catch-report system and its Android app already exist, and a sea-area solution is likely. Unverified whether it is free or already announced.
-- e-logbook vendors from other EU countries. Unverified: none named in this pass.
-- The fishermen's association SAKL (Suomen Ammattikalastajaliitto) publishes guidance.
+- The state's marine catch-report e-service, already in use for vessels under 10 m and the obvious base for a 2028 simplified logbook. Whether a mobile app is planned is unverified.
+- The state inland catch-report Android app.
+- The existing EU e-logbook for larger vessels, supported through SAKL.
+- EU guidance that small vessels will report by mobile app.
 
 **Offline evidence:**
-- National paper and form-based catch reporting stays in force until 2028.
-- The fishermen are guided by SAKL PDFs ("hyvän käytännön ohjeet") and regional fisheries centres.
+- Paper monthly forms are still accepted today, and SAKL guidance comes as PDFs.
 
 **Offline channel:**
-- SAKL and its regional fishermen's associations.
-- Regional fisheries centres (kalatalouskeskukset), which ran "YKP-valvonnan ajankohtaiset" briefings in 2026. YKP is the EU Common Fisheries Policy.
-- Fish wholesalers and first buyers, who meet every fisherman.
+- SAKL (the commercial fishermen's association) and its regional associations.
+- Kalatalouskeskus (regional fisheries centre) briefings.
+- First buyers.
 
 **Market count:**
-- About 400 full-time and 1,700 part-time sea-area commercial fishermen (2022, ahven.net).
-- The obliged vessel count is in the Elinvoimakeskus vessel register (not counted here).
+- About 400 full-time and 1,700 part-time sea fishermen (ahven.net, 2022).
 
 **The gap:**
-- If the state does not ship a usable simplified app for the coastal fleet, there is a gap: a dead-simple Finnish/Swedish mobile logbook that works offline at sea and also produces the fisherman's own sales and accounting summary.
+- Only if the state's 2028 solution is web-only and unusable at sea. Nothing found suggests that.
 
 **Possible product:**
-- An offline-first mobile simplified logbook plus landing declaration, submitting to the national system.
-- Adds a season summary for the accountant and for support applications (EMKVR, the EU maritime and fisheries fund programme).
+- An offline-first mobile simplified logbook that submits to the national system.
 
 **MVP:**
-- Trip entry with species, weight, gear and area.
-- Submission to the national endpoint, or export in its format.
+- Trip entry and submission or export.
 
 **Pricing hypothesis:**
-- €10–25 per month, or a €150 per year season licence.
-- Low willingness to pay. Realistically paid only if it also saves accounting time.
+- €100–150 per season. Low willingness to pay.
 
 **How to find first customers:**
-- SAKL and regional associations.
-- The kalatalouskeskus briefing circuit.
-- The public commercial fishermen and vessel registers (access unverified).
+- SAKL and the regional associations.
 
 **Risks:**
-- The state provides a free app, which is likely given that the inland app exists.
-- An API or certification for submission may not be open to third parties.
-- The market is tiny (about 2,100).
+- The state ships a free app, which is very likely.
+- Submission may need certification.
+- The market is about 2,100 fishermen.
 
 **Kill condition:**
-- The Elinvoimakeskus or Luke (the Natural Resources Institute) announces a free under-12 m e-logbook app, or
-- third-party submission requires a certification an indie can't get.
+- MMM or the Elinvoimakeskus announces a simplified under-12 m mobile logbook. This is likely before 2028.
 
-**Founder access:** Needs Finnish and Swedish (the coastal fleet is partly Swedish-speaking) and on-site presence. Not realistic for a non-local.
+**Founder access:** Needs Finnish and Swedish and on-site presence. Not for a non-local.
 
-**Score:** 3/10. The deadline is real, but the likely free state app and the tiny market dominate.
+**Score:** 2/10. The deadline is real, but the state already operates the e-service this would replace.
 
 **Sources:**
 - https://merijakalatalous.fi/kalastuksen-valvonta/tietoa-valvonnasta-ja-satamista/
 - https://www.kalatalouskeskus.fi/wp-content/uploads/2026/02/KOSKINEN-YKP-valvonnan_ajankohtaiset_20260203.pdf
+- https://www.suomi.fi/palvelut/verkkoasiointi/merialueen-saalisilmoitusjarjestelma-elinvoimakeskus/b8e0c65a-9b20-4856-b27b-17dde32c35ef
+- https://www.luke.fi/en/statistics/commercial-marine-fishery/documentation-of-statistics-commercial-marine-fishery
+- https://sakl.fi/sahkoisen-kalastuspaivakirjan-tukipalvelut-muuttuvat-1-12-2021/
 - https://valtioneuvosto.fi/-//1410837/eu-n-neuvosto-hyvaksyi-kalastuksenvalvonnan-tiukennukset-suomi-aanesti-vastaan
-- https://eur-lex.europa.eu/legal-content/FI/TXT/?uri=CELEX%3A32025R2196
+- https://oceans-and-fisheries.ec.europa.eu/fisheries-management/enforcing-rules/inspections-monitoring-and-surveillance_en
 - https://ahven.net/kaupallinen-kalastus/
-- https://www.suomi.fi/palvelut/sisavesikalastuksen-saalisilmoitus-elinvoimakeskus/7d747a81-2909-4be9-a8b7-78c019e8c409
-- https://sakl.fi/wp-content/uploads/2025/09/hyvan-kaytannon-ohje-rannikko-ja-sisavesikalastajajille-2023-3.pdf
 
-### Opportunity: Living safety document and near-miss log for small programme-service operators
+### Opportunity: Safety-documentation log for small consumer-service providers (new 2025 Act)
 
 **Industry:**
-Nature, safari, husky, snowmobile, canoe and climbing programme services (Lapland and lakeland tourism).
+Programme and activity services: safari, husky, snowmobile, canoe, climbing, activity parks.
 
 **Buyer:**
-An owner-operator of a small safari or adventure firm, or its safety manager.
+The owner-operator or safety lead of a small activity firm.
 
 **Trigger / Why now:**
-- No new trigger was found.
-- The duty is the Consumer Safety Act: a safety document (turvallisuusasiakirja) with customer-capacity assessments, and the s.8 duty to notify Tukes of accidents and serious near-misses.
-- Tukes guidance 2/2015 was updated in 2018.
-- Any "why now" would have to come from tourism growth and insurer or tour-operator demands (unverified).
+- The Consumer Safety Act 920/2011 is repealed and replaced by an Act on the Safety of Consumer Services and an Act on the Safety of Consumer Products. This follows the EU General Product Safety Regulation (applied from 13.12.2024).
+- HE 213/2024 and committee report TaVM 3/2025 proposed entry into force on 5.5.2025. Actual entry into force was not confirmed in this pass.
+- The safety-document duty is removed, but safety work and safety information must be documented. That documentation duty now covers **all** consumer services.
+- Accident and near-miss reporting to Tukes remains.
 
 **Current workflow:**
-1. The operator writes the safety document in Word from the Tukes guidance.
-2. He updates it seasonally and briefs the guides.
-3. Incidents go in a notebook or spreadsheet. Serious ones are reported through the Tukes form.
+1. The operator writes a Word safety document from Tukes guidance 2/2015.
+2. He briefs the guides at the start of each season.
+3. Incidents go in a notebook. Serious ones go to Tukes.
 
 **Pain:**
-- Tukes inspects, and the document must reflect real practice. Seasonal guide turnover means re-briefing every season.
-- Hours and penalties were not quantified (unverified).
+- Seasonal guide turnover, Tukes inspections and uncertainty about what the new "documentation" duty requires.
+- No evidence of penalties was found.
 
 **Existing solutions:**
-- Tukes' own free electronic tools for consumer-service providers ("Sähköisistä työkaluista apua kuluttajapalveluiden tarjoajille").
-- The Tukes guidance PDF.
-- Consultants, and Visit Finland or Lapland tourism-association templates (unverified).
-- Word.
+- Tukes guidance and its online notification form.
+- The existing Word safety documents, which explicitly still satisfy the new duty.
+- Tourism-association templates (unverified).
+- General health-and-safety (HSE) and incident apps.
+- The earlier claim that Tukes offers its own "electronic tools" for providers could not be confirmed in pass 2.
 
 **Offline evidence:**
-- The documents are published as PDFs (e.g. the Kelo ja kallio safety document, 2013). There is no licence or register, and few vendor pages exist.
+- Safety documents are published as PDFs (e.g. Kelo ja kallio, 2013). There is no licence or register.
 
 **Offline channel:**
-- Regional tourism associations (e.g. Lapland's, unverified).
-- Guide-training schools.
+- Regional tourism associations, e.g. the Helsinki tourism-safety seminar circuit (seminar 2024).
+- Guide schools.
 - Tourism insurers.
 
 **Market count:**
-- Unknown. No register exists because no licence is required. A rough count would need a sector statistic (unverified).
+- Unknown. There is no register.
 
 **The gap:**
-- Tying the safety document to day-to-day practice: per-activity capacity checks, guide briefings acknowledged by each guide, and a near-miss log that pre-fills the Tukes notification.
+- A light log linking per-activity risk notes, guide briefing sign-offs and a near-miss log that pre-fills the Tukes notification.
 
 **Possible product:**
-- A mobile "safety binder" in Finnish and English (for seasonal foreign guides).
+- A Finnish and English mobile safety log for seasonal activity operators.
 
 **MVP:**
-- A safety-document template per activity.
-- Guide sign-off on briefings.
-- A near-miss log with an export to the Tukes report.
+- A per-activity template, guide acknowledgement and a near-miss log with export.
 
 **Pricing hypothesis:**
-- €20–60 per month, seasonal.
+- €15–40 per month, seasonal.
 
 **How to find first customers:**
-- Tourism association member lists and Visit Finland's operator listings (unverified).
+- Tourism association member lists and Visit Finland operator listings (unverified).
 
 **Risks:**
-- Tukes' free tools.
-- The market is seasonal and fragmented.
-- Larger operators use a general health-and-safety (HSE) app.
+- Existing Word documents stay compliant.
+- Generic HSE apps.
+- No prospect list.
 
 **Kill condition:**
-- The Tukes free tool already covers briefings and the near-miss log, or
-- operators say inspections rarely ask for more than the document.
+- 10 operators say their existing Word document is enough under the new Act.
 
-**Founder access:** An English-speaking non-local could plausibly sell this, because many Lapland operators work in English. Still unverified.
+**Founder access:** Plausible for an English-speaking non-local, since many Lapland operators work in English (unverified).
 
 **Score:** 3/10.
 
 **Sources:**
+- https://valtioneuvosto.fi/-/1410877/kuluttajaturvallisuuslainsaadantoa-uudistetaan
+- https://www.eduskunta.fi/pdf/HE+213/2024
+- https://www.edilex.fi/mt/tavm20250003
+- https://hel.fi/static/kanslia/elo/matkailun_turvallisuusseminaari_2024_Hannu_Vaarala.pdf
 - https://tukes.fi/documents/5470659/6410920/Tukes-ohje+2-2015+Ohjelmapalveluiden+turvallisuuden+edist%C3%A4minen/
-- https://tukes.fi/-/sahkoisista-tyokaluista-apua-kuluttajapalveluiden-tarjoajille
 - https://www.pro-kiipeily.fi/wordpress/wp-content/uploads/Kelo-ja-kallio-Turvallisuusasiakirja-18.9.2013.pdf
 
 ## 3. Rejected
 
-- **Household-employer payroll and filings:** the free state Palkka.fi computes net pay, files to the Incomes Register and sends the household tax credit notice. Source: https://www.vero.fi/tulorekisteri/yksityishenkil%C3%B6t/ohjeet/71197/
-- **Inland commercial fishermen's catch report:** a once-a-year filing with an existing official web system and Android app. Source: https://ssak.fi/saalisilmoitus/
-- **Scrap and second-hand dealer registers:** no police-reported dealer register was found for Finland. Waste-side duties sit with the SIIRTO vendors (see the country report).
-- **Beekeepers, tattoo studios, taxis, livestock registers:** each is a hobby market, a one-off notification, or already served by state e-services and apps (unverified, from prior knowledge).
-- **Not concluded, worth a later pass:**
-  - reindeer-herding cooperative paperwork (54 paliskunnat);
-  - small abattoirs and game-meat handling;
-  - seasonal farm-worker housing and permits.
+- **Household employers:** Palkka.fi computes pay and files to the Incomes Register and the tax credit for free. Source: https://www.vero.fi/tulorekisteri/yksityishenkil%C3%B6t/ohjeet/71197/
+- **Inland fishermen's catch report:** filed once a year, with an official web system and app. Source: https://ssak.fi/saalisilmoitus/
+- **Seasonal farm-worker housing and permits:**
+  - About 2,300 seasonal work certificates a year and a few hundred farm employers.
+  - The obligations (Migri accommodation guidance, written tenancy, OSH inspections) are per season, and the permit side runs through Migri.
+  - Too few buyers for software. At most an employer-union service.
+  - Sources: https://migri.fi/en/accommodation-for-seasonal-workers, https://tyosuojelu.fi/-/tyosuojeluviranomaisen-viesti-maatalouden-tyonantajille, https://migri.fi/documents/5202425/7004840/TY6_plus_Liitelomake+kausity%C3%B6t%C3%A4+koskevaan+hakemukseen_fi.pdf/aa21d03b-e62e-0d05-8941-2700295986bd?t=1770215855848, https://emn.fi/wp-content/uploads/EMN_EN_Maahanmuuton_tunnusluvut_2025_EN.pdf
+- **Reindeer-herding districts:** 54 buyers, and Paliskuntain yhdistys keeps the mark register. Sources: https://paliskunnat.fi/poro/poronhoito/paliskunnat/paliskuntain-yhdistys/, https://paliskunnat.fi/py/paliskunnat/paliskunnan-tehtavat/
+- **Small abattoirs and game-handling facilities:** about 40–50 small units, with an official vet on site. Sources: https://www.ruokavirasto.fi/elintarvikkeet/oppaat/elintarviketurvallisuus-suomessa-2025/osa-52/valvonta--ja-seurantaohjelmat/, https://www.ruokavirasto.fi/elintarvikkeet/elintarvikeala/tuote--ja-toimialakohtaiset-vaatimukset/teurastustoiminta/teurastamot/
+- **Scrap and second-hand dealers:** no police dealer register was found. The waste side belongs to the SIIRTO vendors.
+- **Beekeepers, tattoo studios, taxis, livestock registers:** hobby market, one-off filing, or a state e-service (unverified, prior knowledge).
 
 ## 4. Method notes
 
-- Finnish-language regulator queries worked well. Mixing "Suomi.fi" or "Elinvoimakeskus" with the obligation's name surfaced official forms and counts quickly.
-- Note the 2026 agency rename: the ELY Centres are now Elinvoimakeskus.
-- Association PDFs (SVOSK, SAKL) are the best evidence of offline workflows.
-- The dominant pattern in Finland is a free state tool for every register, so check for a state app first.
-- The search quota ran out after 5 successful searches, so the market counts and competitor checks for most rows are unverified.
+- Finnish regulator queries worked best, combining the obligation's name with "Suomi.fi", "Elinvoimakeskus" (the ELY Centres were renamed in 2026) or "Ruokavirasto". Official counts appear directly in Ruokavirasto and Luke pages.
+- Association sites (vesi.fi, svosk.fi, sakl.fi, paliskunnat.fi) are the best evidence of offline workflows, and they also reveal the free tools that kill ideas.
+- In Finland, always check for a state e-service or an association Excel tool before scoring a gap. Both water cooperatives and coastal fishermen turned out to have one.
+- English queries returned mostly EU-level or UK results and were of little use.
+- The search limit was refused 3 times out of 19 calls.

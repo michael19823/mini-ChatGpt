@@ -226,3 +226,5 @@ The DBP already offers mobile or web entry that vets use without complaint.
 - **Worked:** Bosnian queries naming the specific law ("Zakon o zapošljavanju stranaca", "Pravilnik o obilježavanju") found official gazettes, upfbih.ba, feb.ba and paragraf.ba. Paragraf.ba daily news is the best single source for new employer obligations. TI BiH policy papers give the counts.
 - **Didn't work:** queries for operator counts (registers are not published online), queries on private accommodation and guest registration (results were swamped by Croatian eVisitor material and Airbnb listings), and enforcement or fine queries (almost nothing for BiH).
 - Many results came from Croatia or Serbia because the languages overlap. Adding "FBiH", "Kanton" or "Republika Srpska" helped.
+
+Research model: Opus

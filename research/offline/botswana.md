@@ -204,3 +204,5 @@ Needs a local, with Setswana-language trust-based selling.
 - **Worked:** gov.bw service pages (`gov.bw/<sector>/<licence>`). They describe every licence, its counter, fee and documents, and confirm the workflow is offline. Daily News (dailynews.gov.bw) gives enforcement news such as the societies strike-off and the FMD permit revocations. botswanalaws.com shows the council bye-laws.
 - **Did not work:** counts. No licensing body publishes a register of licensees with numbers online. Searching for "second-hand goods" returned only South African law. Local-language (Setswana) queries were not attempted because regulators publish in English.
 - **Structural finding:** Botswana's quiet-industry obligations converge on one central counter per industry, so the "one job, many receiving authorities" pattern from the brief is largely absent. The exception is council bye-laws (scrap, hawkers), which are fragmented across councils but cover industries with no money.
+
+Research model: Opus

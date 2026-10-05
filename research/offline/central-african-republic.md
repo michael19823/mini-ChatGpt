@@ -105,3 +105,5 @@ The unions do not track expiry or dues at all, or the state launches its own reg
 - French local-press queries ("Centrafrique" + sector + "agrément" / "contrôle") were the only productive pattern. The useful sources were ACAP, Oubangui Médias, Corbeau News, Radio Ndeke Luka, and IPIS/FAO studies.
 - Queries for registers, forms and "2026" returned nothing CAR-specific. Search engines filled the gap with France, Morocco, Senegal and Tunisia. CAR has no searchable gazette or licensing lists.
 - Counts come from old NGO studies or press estimates. Treat them all as unverified.
+
+Research model: Opus

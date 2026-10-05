@@ -233,3 +233,5 @@ Kill it if the ministry or the federations publish a ready ceiling table, which 
 - What worked: French queries naming the **enforcing body plus "contrôle"** (DGTTM, BMCRF, CNSS) through the national news sites burkina24, Sidwaya, lefaso.net and AllAfrica. Enforcement news is the best proxy for the regulator's records, because the registers themselves (carte W holders, CNSS employers, approved drillers) are not published online.
 - What didn't: searching for registers and lists ("liste agréés", "registre") returned FAOLEX laws or results from other countries (Morocco, Niger). Searches on scrap and domestic workers found nothing for Burkina.
 - Structural finding: in 2025–2026 the Burkinabe state is **taking over** several quiet industries (gold, livestock, abattoirs, pharmaceutical supply, price caps), which removes the private software buyer. The only fresh dealer-side trigger is motorbike WW registration. A non-local founder needs a local partner throughout.
+
+Research model: Opus

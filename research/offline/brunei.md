@@ -199,3 +199,5 @@ DAA supplies its own record templates (likely).
 - What worked: Malay queries pointing at Labour Department forms ("borang", "agensi pekerjaan berdaftar") and BDFA documents. These surfaced official PDFs and the public agency register.
 - What failed: English queries for police dealer registers, hawker or taxi licensing and pesticide licensing. These returned Malaysian, NZ or HK results, which suggests these regimes either do not exist in Brunei or are not online.
 - Parliament Q&A transcripts (hansard.queeniecy.com) look like a useful source for counts, but they could not be read without WebFetch.
+
+Research model: Opus

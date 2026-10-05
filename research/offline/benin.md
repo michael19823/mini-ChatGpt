@@ -110,3 +110,5 @@ Needs a local partner or a local founder. A non-local solo founder could not cre
 ## 4. Method notes
 
 What worked: French queries combining "Bénin" with the regulator acronym (ANaTT, CNSS, MEMP) and a year, which surfaced Beninese news sites (lanouvelletribune.info, beninwebtv.bj, banouto.bj, kaweru.com) reporting new orders and enforcement campaigns. "Fermées", "suspend", "ultimatum" and "contrôle" were good enforcement keywords. What didn't work: searches for registers or lists of licensed operators (no public lists online), and hotel or police-register queries, which returned European results. sgg.gouv.bj decrees appear in results but snippets are thin without WebFetch.
+
+Research model: Opus

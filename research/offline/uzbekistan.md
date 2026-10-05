@@ -1,282 +1,308 @@
 # Uzbekistan: Offline (Quiet) Industries Pass
 
-**Status: partial.** The search tool refused the 9th WebSearch call ("You've hit your usage limit"), so research stopped as the instructions require. 8 searches ran, all in Russian (one Uzbek-language query was refused). WebFetch was not used. As a result:
-
-- No law text, register or form was read in full. Every workflow detail beyond the search snippets is marked **unverified** or **inferred**.
-- Most market counts could not be sourced.
-- All scores are provisional. They are low partly because of the evidence gaps.
+**Status: complete within budget.** The run used 20 WebSearch calls, in two sittings: 8 searches, then a usage-limit stop, then 12 more after the reset. Queries were in Russian and Uzbek (Latin script). WebFetch was not used, so no law text was read in full. Details beyond the search snippets are marked **unverified** or **inferred**.
 
 The existing country report (`research/countries/uzbekistan.md`) covers Asl Belgisi product marking for agro-input dealers and retailers. Those ideas are not repeated here.
 
-General frictions (from the country report, **unverified**):
+Frictions that apply to every idea below (from the country report, **unverified**):
 
-- Personal data of Uzbek citizens must be hosted inside Uzbekistan.
+- Personal data of Uzbek citizens must be hosted in Uzbekistan.
 - Payments run on local rails (UzCard/Humo, Payme, Click).
-- Business is done in Russian and Uzbek, and Uzbek is written in both Latin and Cyrillic script.
-- The state relies heavily on its own portals: my.gov.uz, licence.gov.uz and state information systems.
+- Business is done in Russian and Uzbek.
+- The state builds its own free platforms quickly: my.soliq, Uztrans, E-lom, the animal registry.
 
-Together these make it hard for a non-local solo founder to sell here.
+That last point is the main competitive threat in this country. A non-local solo founder would need a local partner for everything below.
 
 ## 1. Quiet industries screened
 
 | Industry | Obligation | Evidence it's offline | Rough count (source) | Verdict | One-line reason |
 |---|---|---|---|---|---|
-| Scrap metal collection points (ferrous and non-ferrous) | **New licence** for collecting (buying), processing and selling metal scrap and waste. Introduced by Law ZRU-1113 of 15.01.2026; state fee 10 BRV (yuz.uz, lex.uz) | Yard-based cash buyers, mostly invisible online. The licence is new, so there is no compliance tooling yet (inferred) | Unknown. No register found | **Candidate (weak)** | Fresh trigger. But whether ongoing record-keeping or reporting duties exist (and not just a one-time licence) is **unverified** |
-| Livestock owners and dehqon farms | Law ZRU-1079 "On identification, registration and tracing of animals" (06.08.2025, in force 07.08.2026). Cattle, sheep, goats and camels must be tagged and registered within 14 days of birth, imports within 21 days. Movements, diseases, treatments and slaughter go into an electronic database (gazeta.uz, kun.uz, lex.uz) | Smallholders with a few animals; tags sold by suppliers such as ERKSONS (erksons.uz) | Millions of households (estimate; no figure sourced) | Reject as SaaS buyer | Consumers and smallholders won't pay. The state Animal Identification Centre runs the database |
-| Identification specialists / private vets doing tagging | The same law gives powers to "identification specialists" and to the Centre for Identification, Registration and Monitoring of Animals under the Veterinary Committee (lex.uz summary) | Rural field work; birth and movement events entered per animal | Unknown. Private vet licences are issued by the Veterinary Committee via my.gov.uz; the FAO is assessing private vet capacity (uzdaily.uz). No count found | **Candidate (weak)** | Per-animal, per-event data entry by field workers is the classic pattern. But the state system probably ships its own app (**unverified**) |
-| Private veterinary practices | Licence for veterinary activity (my.gov.uz service 225); register of notifications about starting treatment and preventive activity | Small rural practices | Unknown | Folded into the row above | No recurring reporting duty found in snippets |
-| Pet owners (dogs and cats) | Registration and chipping within 3 months under the same law; ban on keeping unregistered pets from 01.01.2028 (fergana.agency, afisha.uz, anhor.uz) | Consumers | Urban households (no count) | Reject | Consumer behaviour change. The buyer would be a vet clinic, and its work is a one-off per pet |
-| Pawnshops | CBU licensing, statistical reporting, consumer-interaction rules (cbu.uz) | Gold-pawn counters | **90 pawnshops** at 1 Aug 2026; 68 hold 97.6% of assets (cbu.uz / uzdaily.uz) | Reject | Market too small, and CBU reporting is already formalised |
-| Taxi drivers (self-employed and individuals) | Monthly medical checks at clinics connected to the "Uztrans" unified system; physical persons allowed to work as taxi drivers (norma.uz, autostrada.uz) | Individual drivers | Unknown (large) | Reject | Aggregators (Yandex Go etc.) and the state Uztrans system already sit in this flow (**unverified**). The buyer is an individual |
-| Small passenger and freight carriers (minibus, intercity, trucking) | Waybills mandatory; pre-trip technical and medical checks before every trip, recorded on the waybill (norma.uz). Digital waybill/document-flow pilot from 1 April 2024 under Cabinet resolution No. 44 of 22.01.2024 (norma.uz) | Paper waybills completed by dispatcher, mechanic, medic and driver (norma.uz instruction) | Unknown | **Candidate (weak)** | Daily per-vehicle paper workflow with a pending e-waybill system. Whether it is mandatory now, and whether the state system is free, is **unverified** |
-| Money changers | Currency exchange is done through banks, not independent bureaus (**unverified**, background knowledge) | n/a | n/a | Reject | No independent small operators to sell to |
-| Household employers (domestic workers) | Not researched (budget) | n/a | n/a | Not screened | No search budget |
-| Beekeepers | Not researched (budget). Hives probably fall under animal registration (**unverified**) | n/a | n/a | Not screened | No search budget |
-| Halal certification / food producers at markets | Not researched (budget) | n/a | n/a | Not screened | No search budget |
-| Dehqon bazaar traders | Not researched (budget) | n/a | n/a | Not screened | No search budget |
-| Cemeteries / monument makers | Not researched (budget). Mahalla-run, likely unregulated as businesses (**unverified**) | n/a | n/a | Not screened | No search budget |
+| Scrap metal collection points | New licence for collection (purchase), processing and sale of ferrous and non-ferrous scrap: Law ZRU-1113 of 15.01.2026, state fee 10 BRV. Licensing passports under Cabinet Resolution No. 175 of 16.04.2026. **From 1 Oct 2026, an electronic purchase act is required when ferrous scrap is bought from individuals for cash.** The state "E-lom" platform to track ferrous metal turnover was ordered launched from 1 Aug 2026 (daryo.uz, buxgalter.uz, gazeta.uz, uzdaily.uz) | Cash purchases from individuals at yards. The President cited 500k t/yr of scrap in "shadow" circulation, against 700k t delivered officially (gazeta.uz, uzdaily.uz) | Unknown number of points. No register found | **Candidate** | Fresh per-transaction trigger (1 Oct 2026). But the state provides the act (my.soliq) and E-lom for free |
+| Beekeepers, and the farmers and clusters that spray pesticides | Cabinet Resolution No. 189 of 20.04.2026: rules for placing and moving bee colonies and preventing bee deaths, including notification of pesticide treatments. Duties fall on the "O'zbekiston asalarichilari" association, the Farmers Council, khokimiyats and all land users (lex.uz) | Mass bee deaths near cotton fields reported (gazeta.uz 2025). Notification today is presumably by word of mouth or the mahalla (inferred) | Unknown. The association has 27 central staff (beekeepers.uz). Beekeeper count not found | **Candidate (weak)** | A "one job, many recipients" pattern. But who pays is unclear |
+| Animal identification specialists / private vets | Law ZRU-1079 (in force 07.08.2026): tag and register cattle, sheep, goats and camels within 14 days of birth, imports within 21 days. Movements, treatments and slaughter go into a state database run by the Animal Identification Centre under the Veterinary Committee (lex.uz, gazeta.uz, kun.uz) | Rural field work; tags sold by suppliers such as ERKSONS | Unknown | **Candidate (weak)** | Per-event field data entry. The state probably ships its own app (**unverified**) |
+| Livestock smallholders | Same law | Households | Millions of animals (estimate) | Reject | Won't pay. The state registry is free |
+| Pet owners | Same law; owner bans from 01.01.2028 | Consumers | n/a | Reject | Consumer buyer; one-off per pet |
+| Pawnshops | CBU licensing and reporting | Gold-pawn counters | **90** at 1 Aug 2026 (cbu.uz / uzdaily.uz) | Reject | Too few buyers; reporting already formalised |
+| Small passenger and freight carriers | Waybill plus pre-trip technical and medical checks per trip (norma.uz). E-waybill system "Elektron yo'l varaqa" inside the Transport Ministry's Uztrans system (Cabinet Resolution No. 44 of 22.01.2024). A single digital transport system was proposed in Sep 2026 (lex.uz, spot.uz) | Paper waybill with four signatories | Unknown | Reject | The state runs the e-waybill and is consolidating further |
+| Taxi drivers | Monthly medical check at clinics connected to Uztrans; Resolution No. 200 of 02.04.2025 on passenger carriage (norma.uz, lex.uz) | Individuals | Large | Reject | Individual buyer; Uztrans and aggregators sit in the flow |
+| Halal-certified food producers | Cabinet Resolution No. 57 of 01.02.2025: voluntary halal certification by bodies accredited by the Technical Regulation Agency and the Religious Affairs Committee. 3-year certificate, mark from 1 May 2025 (gazeta.uz, norma.uz) | Small food producers | Unknown | Reject | Voluntary, once every 3 years, and done by certification bodies (e.g. certin.uz) |
+| Catering and exporters buying farm produce from individuals | Electronic purchase act in my3.soliq.uz (catering from Dec 2024; exporters from 1 Mar 2025) (spot.uz, upl.uz) | Cash bazaar purchases | **239** catering companies adopted it in the first 6 months (spot.uz) | Reject (but a precedent) | Free in my.soliq and Didox/Soliqservis. This shows how the scrap act will work |
+| Money changers | Exchange runs through banks (**unverified**) | n/a | n/a | Reject | No small independent operators |
+| Household employers, dehqon bazaar traders, cemeteries | Not researched (budget) | n/a | n/a | Not screened | Budget spent on stronger leads |
 
-Country-specific groups added via registers: the scrap metal licence (new in 2026), animal identification specialists (new in 2026) and the waybill and pre-trip check regime for carriers.
+Country-specific groups found through regulators:
+
+- scrap licensing and e-purchase acts;
+- bee-colony placement and spray notification;
+- animal identification specialists;
+- carriers' e-waybills;
+- halal certification;
+- e-purchase acts for farm produce.
 
 ## 2. Strongest opportunities (provisional)
 
-### Opportunity: Licence-and-ledger kit for newly licensed scrap metal buyers
+### Opportunity: Counter-side capture for scrap yards' e-purchase acts and E-lom
 
 **Industry:**
-Scrap metal collection, processing and resale (ferrous and non-ferrous).
+Scrap metal collection (ferrous first, non-ferrous later).
 
 **Buyer:**
-Owner of a scrap collection yard or point (a small LLC or individual entrepreneur), or the accountant serving several yards.
+The owner of a licensed scrap collection point or yard, or the outsourced accountant who serves several yards.
 
 **Trigger / Why now:**
-Law ZRU-1113 of 15.01.2026 (a WTO-accession package) makes the collection (purchase), processing and sale of ferrous and non-ferrous scrap and waste a licensed activity. The state fee for the licence is 10 BRV. The licensing regulation with detailed conditions (record books, acceptance acts, site requirements) was **not read**. In comparable post-Soviet regimes, such as Russia's scrap licensing rules, licensees must keep a register of acceptance acts recording each seller's identity document and an inspection that the scrap is not explosive or radioactive. Whether Uzbekistan copies this is **unverified**.
+Four rules arrived in 2026:
 
-**Current workflow (inferred):**
-1. Apply for the licence through licence.gov.uz / my.gov.uz with an e-signature, attaching site and equipment documents.
-2. At the counter, weigh the scrap, pay cash, and handwrite or Excel an acceptance record, which probably includes the seller's passport details.
-3. Resell to metallurgical plants (e.g. Uzbek Metallurgical Plant/Uzmetkombinat, Almalyk MMC for non-ferrous) with invoices through the e-invoice (ESF) system.
-4. Keep records for licence inspections.
+- Law ZRU-1113 (15.01.2026) made scrap collection, processing and sale a licensed activity.
+- Resolution No. 175 (16.04.2026) approved the licensing passports.
+- **From 1 October 2026**, a business buying ferrous scrap from individuals for cash must issue an *electronic purchase act* in the tax system. Before this, the duty applied only to farm produce (buxgalter.uz).
+- The President ordered the "E-lom" platform launched from 1 Aug 2026 to monitor all ferrous metal turnover in real time, citing about 500k t/yr in shadow circulation (gazeta.uz, uzdaily.uz, yuz.uz).
+
+**Current workflow (inferred from the farm-produce precedent):**
+1. An individual brings scrap. The yard weighs it and pays cash.
+2. Someone writes the seller's details and weight on paper.
+3. Later, with the company's e-signature (EDS) key, the accountant logs into my3.soliq.uz, Didox or Soliqservis and keys in each purchase act. In the farm-produce flow this happens under "Electronic document flow → acts of purchase".
+4. The same lots presumably must also reflect in E-lom when sold on to the metallurgical plant (Uzmetkombinat). This is **unverified**.
 
 **Pain:**
-Not evidenced. Scrap theft (cables, manhole covers) typically drives seller ID checks in this region (inferred), and licence loss would close the business. No enforcement data was collected.
+- Many small cash purchases per day, each one now a separate e-document.
+- The EDS key and the accountant are usually not at the yard.
+- If acts are missing, the cash spent is not supported by purchase documents, a tax exposure (inferred).
+- Licence loss is a risk.
+
+There is no direct complaint evidence yet; the rule is days old. Slow uptake in the precedent (239 catering companies in 6 months) suggests friction or weak enforcement.
 
 **Existing solutions:**
-- Paper acceptance-act books from stationers (inferred).
+- my3.soliq.uz e-purchase act (free).
+- Didox.uz and Soliqservis.uz (licensed e-document operators).
+- The E-lom state platform.
 - 1C configurations from local franchisees (inferred).
-- Licensing consultants and law firms that prepare applications (inferred, by analogy with Russia).
-- The state licence.gov.uz portal for the licence itself.
+- Accountants who key in the acts.
 
 **Offline evidence:**
-Cash-at-the-counter trade. No Uzbek-language vendor or forum results surfaced, and the search returned mostly Russian licensing consultants.
+- Cash-at-the-counter trade, and the regulator itself describes 40% of volume as shadow.
+- Searches surfaced no Uzbek scrap-yard software vendor (only Russian ones).
 
 **Offline channel:**
-- The buyers: large off-takers (metallurgical plants) that set supplier documentation requirements.
-- Accountants and licensing consultants in Tashkent.
-- Physical walk-in to scrap yards, which cluster on city outskirts.
-- The public licence register once licences are issued (licence.gov.uz shows issued licences, **unverified**).
+- Walk-in visits to the yards, which cluster on the edges of cities.
+- Accountants who serve several yards.
+- Uzmetkombinat's supplier base, since the plant is the main off-taker.
+- The licence register on licence.gov.uz once licences are issued (**unverified** that it is public).
 
 **Market count:**
-Unknown. No register found yet. **Estimate:** low thousands of points nationwide (unverified).
+Unknown. No register count was found. Volume is about 700k t/yr official plus 500k t shadow (gazeta.uz). An **estimate** of low thousands of points is unverified.
 
 **The gap:**
-No app or vendor shows up for a phone-based acceptance register (seller ID photo, weight, photo of the load, auto-numbered act) that produces whatever ledger the licensing regulation requires and exports into the ESF invoice to the plant.
+The state tools cover the document, not the capture at the yard. What is missing is a phone flow at the scale: scan or type the seller's ID (PINFL), weight, photo of the load and cash paid. It would queue the acts and push them in bulk through a licensed e-document operator's API (Didox has an API, **unverified**), then reconcile purchases with sales and E-lom.
 
 **Possible product:**
-A done-for-you licence application service plus a mobile acceptance register, priced as a service.
+A Telegram mini-app or PWA for yards. Each purchase becomes a draft act that is signed in batch, with a daily register and a stock balance by metal grade.
 
 **MVP:**
-A Telegram mini-app or PWA that creates numbered acceptance acts with seller ID and photos, prints a monthly ledger, and keeps a licence-document checklist.
+A phone form plus a batch export to Didox or Soliqservis for one yard group.
 
 **Pricing hypothesis:**
-- Licence preparation: one-off $100–300.
-- Register: $10–20 per month per point.
-
-These are estimates. Buyers would most likely pay only for the done-for-you licence service.
+$15–40 per month per yard (estimate). Buyers are more likely to pay as a done-for-you "we file your acts" service delivered through accountants.
 
 **Founder access:**
-Needs a local (Russian/Uzbek, in-person yard visits, local hosting of passport data).
+Needs a local: Uzbek/Russian, yard visits, local data hosting, and partnership with an e-document operator.
 
 **Risks:**
-- The licensing regulation may impose no per-transaction record-keeping.
-- Informal operators may stay unlicensed.
-- Personal-data localization.
-- The licence work is a one-off.
+- E-lom or my.soliq ships its own mobile capture app. This is likely.
+- Didox adds a mobile act feature.
+- Yards stay informal.
+- The e-document operator may refuse API access.
 
 **Kill condition:**
-The licensing regulation contains no ongoing ledger or reporting duty, or a free state register already covers it.
+E-lom or the Soliq mobile app already lets a cashier create purchase acts on a phone, or there is no third-party API for purchase acts.
 
-**Score:** 3/10 (provisional; obligation detail unverified)
+**Score:** 4/10
 
 **Sources:**
+- https://daryo.uz/2026/01/16/ozbekistonda-qora-va-rangli-metall-parcha-hamda-chiqindilarini-tayyorlash-faoliyati-litsenziyalanadi/
+- https://lex.uz/uz/docs/-8144362?ONDATE=17.04.2026
 - https://lex.uz/doc-passport/7999051
-- https://yuz.uz/ru/news/budet-litsenzirovatsya-zagotovka-loma-i-otxodov-chernx-i-tsvetnx-metallov
-- https://www.gazeta.uz/ru/2025/07/02/licensing/
-- https://ruslom.com/v-uzbekistane-vvoditsya-litsenzionnyy-poryadok-dlya-deyatelnosti-po-zagotovke-pererabotke-i-realizatsii-loma-i-othodov-chernyh-i-tsvetnyh-metallov/
+- https://buxgalter.uz/oz/publish/doc/text173612_kundalik_bilishingiz_zarur_bulgan_sunggi_yangiliklar
+- https://buxgalter.uz/publish/doc/text173497_ejednevnik_poslednie_novosti_o_kotoryh_nujno_znat
+- https://www.gazeta.uz/oz/2026/07/13/e-lom/
+- https://www.uzdaily.uz/en/uzbekistan-to-launch-e-lom-platform-for-scrap-metal-tracking/
+- https://yuz.uz/uz/news/prezident-mutasaddilarga-e-lom-elektron-platformasini-ishga-tushirib-qora-metall-aylanmasini-nazoratga-olishni-topshirdi
+- https://www.spot.uz/ru/2025/06/05/food-procurement (precedent: 239 companies)
+- https://upl.uz/economy/49581-news.html (precedent: exporters)
 
-### Opportunity: Field event logger for animal identification specialists and private vets
+### Opportunity: Spray-to-apiary notification router (Resolution No. 189)
+
+**Industry:**
+Beekeeping and crop protection (cotton-textile clusters, farms, spraying contractors).
+
+**Buyer:**
+- Primary: the agronomist at a cotton-textile cluster or large farm that sprays.
+- Alternative: the "O'zbekiston asalarichilari" association or regional khokimiyats, as a B2G deal.
+
+**Trigger / Why now:**
+Cabinet Resolution No. 189 of 20.04.2026 approved rules for placing and moving bee colonies and preventing their death, including notification of pesticide treatments. Duties are assigned to the "O'zbekiston asalarichilari" association, the Farmers Council, regional authorities and all land users (lex.uz snippet). Mass bee deaths near cotton fields were reported in 2025 (gazeta.uz). The notice period and the penalties were **not read**.
+
+**Current workflow (inferred):**
+1. A beekeeper places hives near fields, possibly registering the placement with the khokimiyat or mahalla.
+2. The farm or cluster plans a spray.
+3. Someone has to find which apiaries lie within the radius and warn them by phone or through the mahalla.
+4. When bees die, there is a dispute with no proof of notification.
+
+**Pain:**
+Documented bee kills (gazeta.uz 2025). A cluster faces liability and has no proof that it notified anyone (inferred).
+
+**Existing solutions:**
+- Phone calls and Telegram groups.
+- Mahalla and khokimiyat announcements (inferred).
+- In Russia, where similar rules changed on 1 Mar 2026, a dedicated service exists: Polevizor (polevizor.ru), a notification service for field treatments for farmers and beekeepers. It is the closest analog and a possible entrant.
+- No Uzbek equivalent was found.
+
+**Offline evidence:**
+Rural beekeepers; an association that distributes hives on credit; no software listings found.
+
+**Offline channel:**
+- The "O'zbekiston asalarichilari" association (beekeepers.uz), which has regional structures.
+- The Farmers Council of Uzbekistan.
+- Cluster agronomists.
+- Pesticide dealers, who face Asl Belgisi marking from May 2026 per the country report.
+
+**Market count:**
+Unknown. Neither the beekeeper count nor the cluster count was sourced.
+
+**The gap:**
+No map-based register of hive placements, and no automatic radius-based warnings with a timestamped proof of notice, in Uzbek.
+
+**Possible product:**
+- Beekeepers register hive locations through a Telegram bot.
+- Sprayers enter planned treatments.
+- The system sends SMS or Telegram alerts to apiaries in the radius and stores the proof of notice.
+
+**MVP:**
+A Telegram bot plus a map for one region, run with the association's regional branch.
+
+**Pricing hypothesis:**
+Beekeepers won't pay. Possible payers:
+
+- clusters: $30–100 per month per cluster (estimate);
+- an association or khokimiyat contract;
+- pesticide dealers as sponsors.
+
+Willingness to pay is weak; the realistic model is a service contract.
+
+**Founder access:**
+Needs a local, and probably association endorsement.
+
+**Risks:**
+- Free alternatives: a Telegram group, or the association or Ministry building it themselves.
+- Low enforcement.
+- B2G sales cycles.
+
+**Kill condition:**
+Resolution 189 does not require documented notice, or the Ministry or association already runs a notification channel.
+
+**Score:** 3/10
+
+**Sources:**
+- https://www.lex.uz/uz/docs/-8149189
+- https://www.gazeta.uz/oz/2025/07/25/beekeeping/
+- https://uz.beekeepers.uz/
+- https://polevizor.ru/ (Russian analog)
+- https://kasharynews.ru/s-1-marta-menyayutsya-pravila-vzaimodejstviya-agrariev-i-pchelovodov-chto-vazhno-znat/ (Russian rule change, analog)
+
+### Opportunity: Offline field logger for animal identification specialists
 
 **Industry:**
 Livestock identification and veterinary field services.
 
 **Buyer:**
-A private vet practice or identification contractor that tags and registers animals for many smallholders. A livestock farm or cluster with hundreds of head is a secondary buyer.
+- A private vet practice or identification contractor.
+- Secondary: livestock farms with hundreds of head.
 
 **Trigger / Why now:**
-Law ZRU-1079 "On identification, registration and tracing of animals" (06.08.2025) entered into force on 07.08.2026.
+Law ZRU-1079 "On identification, registration and tracing of animals" entered into force on 07.08.2026.
 
-- Animals are identified with visual tags, microchips or combined tags carrying a unique code.
-- Cattle, sheep, goats and camels must be registered within 14 days of birth, horses within 4 months and pigs within 1 month. Imported animals must be registered within 21 days.
-- The electronic database records each animal's owner, origin, movements, diseases, treatments, slaughter and export.
-- A Centre for Identification, Registration and Monitoring of Animals under the Veterinary Committee runs it. The law defines "identification specialists".
-- Owner-side bans on unregistered pets start on 01.01.2028.
+- Animals carry visual tags, chips or combined tags.
+- Cattle, sheep, goats and camels must be registered within 14 days of birth, horses within 4 months and pigs within 1 month. Imports must be registered within 21 days.
+- A veterinary passport records vaccinations and treatments.
+- The database is run by the Centre for Identification, Registration and Monitoring of Animals under the Veterinary Committee, and the law defines "identification specialists".
 
 **Current workflow (inferred):**
-1. The specialist visits a household or farm and applies tags.
-2. They write down tag number, species, sex, age and owner on paper.
-3. Later they enter each record into the state database.
-4. Movements and treatments have to be entered as further events.
+1. A specialist visits the household and tags the animals.
+2. The data is written on paper.
+3. Each animal is keyed into the state database later.
+4. Treatments and movements are added as further events.
 
 **Pain:**
-Many events per animal, and tight deadlines (14 days from birth). Rural villages have patchy connectivity (inferred). No complaint evidence was collected.
+High event volume with 14-day deadlines and patchy rural connectivity (inferred). No complaint evidence.
 
 **Existing solutions:**
-- The state database and its interface, probably with its own mobile app (**unverified**).
-- Tag suppliers such as ERKSONS (Tashkent), which supply tags for cattle and small ruminants.
-- Paper notebooks.
+- The state database and its interface (likely its own app, **unverified**).
+- Tag suppliers such as ERKSONS.
+- Paper.
 
 **Offline evidence:**
-Smallholder livestock is kept by rural households. The work happens in the field and in the village (mahalla).
+Smallholder livestock, village-based work.
 
 **Offline channel:**
-- Tag suppliers (ERKSONS and others) bundling an app with tag orders.
-- District veterinary offices of the Veterinary Committee.
-- The FAO private-veterinary programme.
-
-**Market count:**
-Unknown number of identification specialists and private vets. The animals number in the millions (estimate, not sourced).
-
-**The gap:**
-Offline-first bulk capture (scan the tag barcode, apply a default owner and location, queue and sync) is the gap, but only if the state system has no good field app or permits third-party API access. Neither is verified.
-
-**Possible product:**
-An offline mobile batch-entry tool that syncs to the state database, or exports in its import format, plus a herd book for farms.
-
-**MVP:**
-An offline PWA for batch tag-scan entry, exporting a CSV in the state database's format.
-
-**Pricing hypothesis:**
-$5–15 per month per specialist, or a per-animal fee bundled with tag sales (estimate). Willingness to pay for software alone is low. Bundling with tag suppliers is more realistic.
-
-**Founder access:**
-Needs a local partner. Likely requires state accreditation for API access.
-
-**Risks:**
-- The state builds or mandates its own app. This is likely, since it has done so for other systems (inferred).
-- No third-party API.
-- Low prices.
-
-**Kill condition:**
-The Centre provides a free mobile app with offline mode, or forbids third-party submission.
-
-**Score:** 3/10 (provisional)
-
-**Sources:**
-- https://lex.uz/ru/docs/7676785?ONDATE=07.08.2026
-- https://www.gazeta.uz/ru/2025/08/07/animals/
-- https://kun.uz/ru/news/2025/08/07/v-uzbekistane-vvoditsya-obyazatelnaya-registratsiya-jivotnyx
-- https://erksons.uz/news/registraciya-zhivotnyh-zakon-2026
-- https://www.norma.uz/novoe_v_zakonodatelstve/sozdaetsya_elektronnyy_reestr_jivotnyh
-- https://www.uzdaily.uz/ru/fao-otsenivaet-perspektivy-chastnoi-veterinarii-v-uzbekistane/
-
-### Opportunity: Waybill and pre-trip check log for small carriers (watch-list)
-
-**Industry:**
-Small passenger carriers (minibus/route operators, intercity) and small trucking companies.
-
-**Buyer:**
-The dispatcher or owner of a carrier with 5–50 vehicles.
-
-**Trigger / Why now:**
-Several rules already apply:
-
-- Carriers may not carry passengers, baggage or cargo without a pre-trip technical inspection and a driver medical check, both recorded on the waybill.
-- Vehicles may not be dispatched without a properly completed waybill.
-- Taxi drivers must have monthly medical checks at clinics connected to the "Uztrans" unified information system.
-
-A pilot of digital document flow for passenger and freight transport records started on 1 April 2024 under Cabinet resolution No. 44 of 22.01.2024. A draft also proposed a new waybill form for cars. Whether the electronic waybill system is now mandatory, and who may act as operator, is **unverified**. This is the decisive fact.
-
-**Current workflow (from norma.uz instruction snippets):**
-1. The dispatcher issues a paper waybill.
-2. The mechanic signs off the technical check.
-3. The medic records the driver's medical check.
-4. The driver completes the trip.
-5. The waybill is returned and processed for fuel and accounting records.
-
-**Pain:**
-A paper form with four signatories per vehicle per day. No complaint evidence was collected.
-
-**Existing solutions:**
-- Pre-printed waybill blanks from printers and stationers (inferred).
-- 1C transport configurations (inferred).
-- The state pilot e-document system and Uztrans.
-- In Russia, where e-waybills became mandatory, a large vendor ecosystem exists (Kontur, Taxcom and others), and those vendors could enter Uzbekistan.
-
-**Offline evidence:**
-Paper waybill instructions are published on norma.uz, and the e-system is only at pilot stage.
-
-**Offline channel:**
-- Associations of carriers (AIRCUZ for international hauliers, **unverified** relevance).
-- Licensed medical-check clinics.
-- Bus stations and route operator tenders run by regional khokimiyats (inferred).
+- Tag suppliers bundling the tool with tag orders.
+- District veterinary offices.
+- The FAO private-veterinary programme (uzdaily.uz).
 
 **Market count:**
 Unknown.
 
 **The gap:**
-If e-waybills become mandatory, there may be room for a cheap, Uzbek-language e-waybill and medical/technical check app connected to the state system. The gap does not exist until there is a mandate and an operator accreditation regime.
+Offline-first batch tag scanning with sync. This exists only if the state app lacks it and allows third-party submission.
 
 **Possible product:**
-A dispatcher app that produces e-waybills with medic and mechanic sign-off on a phone.
+An offline PWA for batch tag-scan entry, with export to the state database's format and a herd book for farms.
 
 **MVP:**
-Not worth building before the mandate is confirmed.
+Batch capture plus CSV export.
 
 **Pricing hypothesis:**
-$2–5 per vehicle per month (estimate).
+$5–15 per month per specialist, or bundled per tag (estimate). Low.
 
 **Founder access:**
-Needs a local. Russian e-waybill vendors are the natural entrants.
+Needs a local; probably needs accreditation.
 
 **Risks:**
-- Russian incumbents porting their products.
-- A free state system.
+- The state app.
+- No API.
+- Low prices.
 
 **Kill condition:**
-No mandatory e-waybill date, or a free state app.
+The Centre ships a free offline app, or bans third-party submission.
 
-**Score:** 2/10 (watch-list)
+**Score:** 3/10
 
 **Sources:**
-- https://www.norma.uz/novoe_v_zakonodatelstve/ustanovlen_poryadok_provedeniya_predreysovyh_tehnicheskih_i_medosmotrov
-- https://www.norma.uz/novoe_v_zakonodatelstve/kak_budet_rabotat_sistema_ucheta_elektronnyh_putevyh_listov
-- https://www.norma.uz/uz/novoe_v_zakonodatelstve/proekty_npa_vvedut_novuyu_formu_putevyh_listov_dlya_legkovyh_avto
-- https://www.norma.uz/deyatelnost_otdelnyh_otrasley/instrukciya_po_izgotovleniyu
+- https://lex.uz/ru/docs/7676785?ONDATE=07.08.2026
+- https://www.gazeta.uz/ru/2025/08/07/animals/
+- https://kun.uz/ru/news/2025/08/07/v-uzbekistane-vvoditsya-obyazatelnaya-registratsiya-jivotnyx
+- https://www.uzdaily.uz/uz/7-avgustdan-ozbekistonda-hayvonlarni-royxatdan-otkazish-boshlanadi/
+- https://erksons.uz/news/registraciya-zhivotnyh-zakon-2026
+- https://www.norma.uz/novoe_v_zakonodatelstve/sozdaetsya_elektronnyy_reestr_jivotnyh
 
 ## 3. Rejected
 
-- **Pawnshop compliance:** only 90 pawnshops (CBU, 1 Aug 2026), with assets concentrated in 68 of them. The market is too small, and CBU reporting is already formalised. Sources: https://cbu.uz/ru/credit-organizations/pawn-shops/, https://www.uzdaily.uz/ru/aktivy-lombardov-uzbekistana-vyrosli-na-50-za-god/
-- **Pet registration for owners:** a consumer buyer and a one-off event. Vet clinics would do it with the state system. Owner obligations start only on 01.01.2028.
-- **Smallholder livestock owners as buyers:** they will not pay. The state database is free.
-- **Taxi driver medical checks:** individual buyers, and Uztrans plus aggregators already sit in the flow (**unverified**).
-- **Money changers:** no independent small operators (currency exchange runs through banks; **unverified**).
+- **Carrier waybills and pre-trip checks.** The e-waybill already runs in the Transport Ministry's Uztrans system ("Elektron yo'l varaqa", Resolution No. 44/2024), and a single digital transport system was proposed in Sep 2026. Sources: https://www.lex.uz/docs/-6774924, https://www.spot.uz/oz/2026/09/21/transport-system
+- **Pawnshops.** Only 90, per the CBU. Source: https://cbu.uz/ru/credit-organizations/pawn-shops/
+- **Halal certification.** Voluntary and needed once every 3 years, handled by accredited certification bodies (e.g. certin.uz). Sources: https://www.gazeta.uz/ru/2025/02/04/halal-certification/, https://www.norma.uz/novoe_v_zakonodatelstve/vvoditsya_procedura_sertifikacii_produkcii_i_uslug_halyal
+- **E-purchase acts for farm produce (catering, exporters).** Free in my.soliq and Didox. Kept only as the precedent for scrap.
+- **Taxi medical checks, pet registration, smallholder livestock owners.** Individual or consumer buyers, and state systems already sit in the flow.
+- **Money changers.** Bank-only (**unverified**).
 
 ## 4. Method notes
 
-- **What worked:** Russian-language queries of the form "<industry> Узбекистан лицензия/закон 2025/2026". They surfaced news on gazeta.uz, kun.uz, norma.uz and yuz.uz, plus lex.uz law passports. That was enough to find two 2026 triggers: scrap licensing (ZRU-1113) and animal identification (ZRU-1079).
-- **What didn't:** Russian queries without "Узбекистан" near the front return mostly Russian Federation results, as with waybills and scrap licences. CBU statistics pages give exact counts for financial operators only.
-- **Not done:** no Uzbek-language query succeeded (it was refused), and none of the law texts was opened.
-- **Next run:**
-  - Read the licensing regulation for scrap (look for "журнал", "приемо-сдаточный акт").
-  - Read ZRU-1079 for who may act as an identification specialist and whether third parties can submit data.
-  - Check the status of the electronic waybill system after the 2024 pilot.
-  - Screen domestic workers, beekeepers, halal and bazaar traders.
+What worked:
+
+- Uzbek Latin-script queries with the legal phrasing ("litsenziyalash", "nizom", "majburiy", resolution numbers). These hit lex.uz, daryo.uz, gazeta.uz/oz and buxgalter.uz, and found the strongest triggers: the 1 Oct 2026 scrap e-purchase act, E-lom, and Resolution 189 on bees.
+- Russian queries on norma.uz and buxgalter.uz for the workflow details.
+- CBU statistics for exact operator counts.
+
+What didn't work:
+
+- Russian queries without "Узбекистан" up front drift to Russian Federation results.
+- No search returned operator counts for scrap yards, beekeepers or vets.
+
+Overall pattern: in Uzbekistan the state builds its own free platform for every new duty (my.soliq, Uztrans, E-lom, the animal registry). The only realistic gap is field or counter-side capture feeding those platforms, sold through local partners.

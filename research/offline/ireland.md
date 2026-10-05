@@ -266,3 +266,5 @@ DAFM has no third-party API on its roadmap, and yards report fewer than 5 moveme
 - What didn't: industry-count queries (sculptors, shellfish operators, fertiliser merchants, AML art dealers) returned nothing usable, so counts need CSO NACE data or registers fetched directly. Irish-language queries were not needed because all sources are in English.
 - Pattern for Ireland: DAFM and the other national regulators already digitise centrally, and Irish vertical vendors such as Herbst follow fast. Offline gaps survive only where many local bodies each run their own paper process (cemeteries, casual trading) or where the regulator still issues paper books (SFPA).
 - Northern Ireland is a natural extension for every lead, since equine rules are aligned all-island and PlotBox is based there.
+
+Research model: Opus

@@ -248,3 +248,5 @@ This needs a Scottish/rural local. Trust in this community is very tribal.
   - Searches for national counts of LA-licensed trades (scrap, animal licences). These only return district FOIs.
   - Queries without UK domain filters drifted to US/Australian results.
   - Allowed-domain filtering (police.uk, gov.uk) fixed that.
+
+Research model: Opus

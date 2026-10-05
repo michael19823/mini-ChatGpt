@@ -250,3 +250,5 @@ Any of these kills it:
 - Market counts. Neither licensing registers nor state statistics surfaced numbers for scrap dealers or AWTS agents through search snippets. Counts need direct register pulls.
 - Vendor-name queries for niche AU tools returned US septic-software listicles.
 - Several "quiet" groups (drillers, pool inspectors, livestock) turned out to have free state portals already. In Australia the substitute is usually a **free government portal**, not paper.
+
+Research model: Opus

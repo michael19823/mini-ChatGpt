@@ -191,3 +191,5 @@ What didn't work:
 - **"Scrap metal 2025" searches:** these returned South Africa and NSW.
 
 NZ's quiet industries often already have a free government app, so check for an official tool first. With deregulation under way, the strongest triggers are council *enforcement* of existing rules, not new laws.
+
+Research model: Opus

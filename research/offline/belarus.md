@@ -65,3 +65,5 @@ If the gate ever lifts, the only candidate worth revisiting is the **agro-ecotou
 - https://pravo.by/novosti/novosti-pravo-by/2018/february/27673/
 - https://faolex.fao.org/docs/pdf/blr110436.pdf (trade rules, market traders)
 - Sanctions sources: see `research/countries/belarus.md`
+
+Research model: Opus

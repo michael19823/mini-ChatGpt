@@ -269,3 +269,5 @@ the count of active EU-listed exporters is under about 15.
 - Overall: in Ethiopia, quiet industries are quiet mainly because the state or donors run the
   formal channel (ETLITS, NBE gold, eSW, ministry LMIS) and operators have little cash. There are
   no strong offline opportunities for a non-local solo founder.
+
+Research model: Opus

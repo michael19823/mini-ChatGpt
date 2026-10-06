@@ -106,3 +106,31 @@ that the government or an existing vendor is already closing.
   pre-sold.
 - Each plan's "Validation plan before writing code" section has the interview list, the questions
   and the pass/fail thresholds to use next.
+
+## Offline leaders after fact-check (2026-10-06)
+
+The top three ideas from `offline-ranking.md` went through the same verify-then-plan process. The
+plans are in files `11`–`13`. All three fell by 1.5–3 points.
+
+| Plan | Opportunity | Old → new | Verdict | Month-12 MRR | What broke it |
+|---|---|---|---|---|---|
+| 11 | Philippines: RSAS quarterly-report and stock-ledger kit | 7.0 → **5.0** | Park; interview after DA publishes the report format | ~US$660 | Registration is free and one-off; micro firms (BMBEs) are exempt; no quarterly-report format published; enforcement starts in 2027 |
+| 12 | India: agri-input shop monthly-return autopilot | 7.0 → **4.0** | Kill as scoped | ~US$600 | The free government IPMS portal exists and is enforced with mass licence actions. The monthly e-return falls on manufacturers and importers, not shops. Agri-billing apps already sell the electronic register |
+| 13 | Indonesia: gold-shop stock and VAT desk | 6.5 → **5.0** | Kill standalone; at most a Coretax-export add-on via consultants | ~US$490 | At least 8 toko-emas POS vendors exist, some with tax recaps. The 1.1% rate needs full manufacturer invoices, which ~90% of producers don't issue. A 3% producer-VAT proposal is still open |
+
+The offline pass followed the same pattern as the first pass, only more strongly. Its snippet-based
+"nobody serves this" claims and its trigger readings did not survive targeted searches.
+
+### Overall leaders now
+
+| Score | Opportunity | Status |
+|---|---|---|
+| 6.5 | Australia portable LSL builder (plan 05) | Fact-checked, held |
+| 6.5 | Mining local-content kit, Tanzania → Zambia/Senegal (plan 10) | Fact-checked, held |
+| 6.2 | Indonesia notary/PPAT monthly multi-agency reports (`revisit/opus-check/C0429`) | Opus check only, no plan yet |
+| 6.0 | Philippines per-principal agency billing pack (plan 03) | Fact-checked |
+| 6.0 | Offline 6.0 group (Spain basin, SA scrap, Philippines pawnshops, Brazil scrap, Chile bee notices and others) | **Not fact-checked**; expect 1–3 point drops |
+| 5.7 | Netherlands Wtta for hirers (`revisit/opus-check/C0679`) | Opus check, narrow |
+
+The recommendation in the section above still stands: validate the Australia LSL builder and the
+mining kit. Indonesia PPAT is the only new candidate worth a plan.

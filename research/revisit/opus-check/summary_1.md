@@ -1,0 +1,5 @@
+C0144 | bulgaria | SAF-T reporting for SMEs and accounting firms | still closed | 4 | Small firms not obliged until 2030; ledger-owning local suites and SAP/Big-4 tools hold the obliged segment; NISSEF 2028 may overlap
+C1091 | united-arab-emirates | Clinic insurance denial management (DHA/DOH) | still closed | 4 | Funded UAE-native players (KLAIM $26M with small-clinic focus, SANTECHTURE, Zavis free analyzer, Manteq+Alpha II) already cover the wedge
+C0030 | argentina | Obras sociales / prepagas billing and claim rejections | narrow | 5 | Billing covered by clinic SaaS (YoFacturo Clínicas, RAS Salud) and círculos médicos; only debit audit/re-billing for mid-size sanatorios is open, low peso WTP
+C0125 | bosnia-and-herzegovina | General FBiH software fiscalization / ESIR POS | still closed | 3 | Law requires a KM 1M guarantee from registered ESET manufacturers; bylaws/specs pending; commodity pricing and local POS incumbents
+C1199 | brazil | RENAVE for used-car lots | still closed | 4 | Per-state Detran integrator credentialing (SP via vistoria firms), incumbents live since 2021/2024 and bundled in DMS, fixed state fees

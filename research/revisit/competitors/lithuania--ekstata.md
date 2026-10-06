@@ -4,7 +4,7 @@ URL given by the brief: https://ekstata.lt/statybu-darbu-zurnalas (commercial). 
 
 ## Verdict: beatable (low confidence, mostly unverified)
 
-Searches were cut short: 3 of the planned searches ran, and the 4th failed with a usage-limit error. WebFetch is blocked, so ekstata.lt was not read. Nothing about Ekstata itself was verified.
+Search budget used up: 6 searches run (one failed with a usage-limit error and was repeated). WebFetch is blocked, so ekstata.lt was not read. Nothing about Ekstata itself was verified. Follow-up searches for 'ekstata.lt', 'Ekstata ... kaina' and the ESDŽ price/problems query returned nothing on Ekstata (only unrelated companies like Ekstatyba UAB, and off-topic ESD/electrostatic results).
 
 ## Evidence
 - Three searches ("Ekstata statybų darbų žurnalas", "Ekstata atsiliepimai", "Ekstata construction software Lithuania electronic construction journal") returned no page, review or news item about Ekstata. Ekstata has little web footprint in search, which suggests a small or low-visibility product (inference, not proof).

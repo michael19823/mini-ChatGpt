@@ -19,7 +19,7 @@ Sources:
 - https://star.com.tr/yazar/1-temmuz-yaklasiyor-osgbler-cozum-bekliyor-yazi-1115337
 
 ## Pricing
-Not found. No vendor price lists surfaced. Unverified. (The 2024 OSGB authorisation fee of 108,384 TL is a government fee, not software pricing.)
+Not found after 6 searches in total (the 6th, a Turkish price query, also found no software price lists). Unverified. Context only: OSGB service fees (not software) quoted in search results were about 1500 TL/month for up to 5 staff, or 500 TL + VAT for 1-3 staff, which shows how thin small-OSGB margins are and so how little software spend they can bear (summary-level, unverified). (The 2024 OSGB authorisation fee of 108,384 TL is a government fee, not software pricing.)
 
 ## Fit gaps
 Could not be verified from search. Plausible but unverified: small one-or-two-person OSGBs and independent ISG experts may be underserved by ERP-style suites; ISG-KATIP overlap reduces the value of filing features.

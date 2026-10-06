@@ -1,0 +1,5 @@
+C0867 | senegal | Senegal DGID e-invoicing SMEs | still closed | 3.6 | Spec/arrêté still unpublished in Oct 2026; Sage + local SaaS (Kolonell, Yobantel) positioned; free State portal in law
+C1318 | mexico | Mexico domestic-worker employers IMSS | still closed | 3.4 | Free IMSS portal emails monthly payment lines; registrations falling (57.6k Aug 2026); funded Symplifica shows low WTP
+C0253 | dominican-republic | Dominican Republic ARS claims plus e-CF for clinics | narrow | 5.4 | Billing+e-CF closed (HMLR, Claro Gestión Salud); open only for glosa/conciliation desk for private PSS after Aug-2026 SISALRIL circular
+C0260 | dr-congo | DR Congo facture normalisee for SAP/Sage/Odoo | still closed | 3.5 | Named rivals were bogus, but DGI reports 93 e-MCF-integrated solutions, BVORTEX Odoo module, free e-MCF, in-person homologation
+C0297 | ethiopia | Ethiopia payroll/PAYE + POESSA pension | still closed | 3.8 | Crowded (HST, Lenvica, SeamlessHR, WebHR, PaySpace, $59 Odoo module, free calculators); 2025 bands already absorbed; low WTP

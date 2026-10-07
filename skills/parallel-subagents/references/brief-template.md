@@ -20,7 +20,7 @@ Contents
   reference material (over about 1,500 words), at the cost of one extra tool call per worker.
 - **Fill every `{placeholder}` or delete the line.** An unfilled placeholder is a decision you
   left to the worker.
-- **Length**: about 200-800 words in total. If it's longer, cut explanation before you cut rules.
+- **Length**: about 300-800 words in total. If it's longer, cut explanation before you cut rules.
 - **Tags** such as `<task>` and `<contract>` help models keep sections apart; any consistent
   structure works.
 
@@ -57,7 +57,8 @@ pages, AI-written summaries}. {For code: the conventions to follow and the files
 or out of bounds.}
 Missing information: use status "not_found" and list what you tried. A clear "not_found" is a
 useful answer; a guessed value is not. Never fill a gap from memory.
-Conflicts: use status "conflict" and give each value with its source.
+Conflicts: use status "conflict", keep the best-supported value in "value", and add each other
+value to "alternatives" with its source and quote.
 Blocked (no access, a tool fails, the brief is ambiguous): use status "blocked" and say what you
 would need.
 </contract>
@@ -75,6 +76,8 @@ has a status"}.
 <output>
 {Exact format or schema, field by field.} {Length limit, e.g. "under 300 words" or "no prose
 outside the JSON".}
+Include "queries_tried" (or "files_read"): every query you ran or file you opened. An empty list
+means the work wasn't done.
 Write the result to {OUT_DIR}/{ITEM_ID}.{json|md}, then return only:
 {"id": "{ITEM_ID}", "status": "ok|partial|failed", "path": "...", "summary": "<one line>"}
 <example> Fictional values, for format only; don't reuse them.
@@ -247,18 +250,20 @@ currency (ISO 4217 code), with its period (hour, day, month) and scope (national
 sectoral). If wages are set only by collective agreement, use status "not_applicable" with a note.
 Sources: labour ministry or official gazette first, then national statistics office, then ILO;
 avoid aggregators and undated pages.
-Missing: "not_found" plus the queries you tried. Conflicting sources: "conflict" with both values.
+Missing: "not_found" plus the queries you tried. Conflicting sources: "conflict"; keep the
+best-supported value and put each other one in "alternatives" with its source.
 </contract>
 <method>
 Budget: about 5-10 tool calls; stop at 15. Stop when every field has a status.
 </method>
 <output>
 Write out/{ISO3}.json:
-{"id":"...","contract_version":"contract_v1","minimum_wage":{"status":"found|not_found|
+{"id":"...","contract_version":"contract_v1","fields":{"minimum_wage":{"status":"found|not_found|
 not_applicable|conflict","value":"","currency":"","period":"","scope":"","as_of":"","source_url":"",
-"quote":""},"queries_tried":[],"notes":""}
+"quote":"","alternatives":[{"value":"","source_url":"","quote":""}]}},
+"queries_tried":["<every query you ran>"],"notes":""}
 Then return only {"id":"...","status":"ok|partial|failed"}.
-<example> Fictional: {"id":"XEX", ... "minimum_wage":{"status":"not_found", ...},
+<example> Fictional: {"id":"XEX", ... "fields":{"minimum_wage":{"status":"not_found", ...}},
 "queries_tried":["exampleland minimum wage 2026"], ...} </example>
 </output>
 <before_returning>Every field has a status; every found value has a fetched source_url, a quote and
@@ -267,6 +272,15 @@ an as_of date; nothing came from memory; the file parses.</before_returning>
 Think the problem through before you write the JSON.</finish>
 <item>id: FRA   name: France</item>
 Values only from pages you fetched; not_found when you can't confirm.
+```
+
+Check the finished records in code (Tier 0) with:
+
+```
+python3 scripts/check_outputs.py --dir out --ids items.txt --required id,contract_version,fields \
+  --expect contract_version=contract_v1 --nonempty queries_tried --fields-key fields \
+  --required-fields minimum_wage --url-keys source_url --write-failing repair_ids.txt \
+  --merge merged.jsonl
 ```
 
 ## 8. Before and after: a split task

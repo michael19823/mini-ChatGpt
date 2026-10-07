@@ -63,9 +63,11 @@ Contents
 - **Models**: cheap gatekeeping (Haiku: is the diff trivial, already reviewed, generated?);
   Sonnet reviewers per lens; Opus to validate findings that would block a merge.
 - **Contract**: the diff and the base; what counts as a real issue; "if you aren't sure an issue
-  is real, don't report it"; each finding with `file:line`, a failure scenario and a confidence.
-- **Checks**: one validator per finding that tries to refute it; drop findings below a confidence
-  bar (Anthropic's code-review plugin scores 0-100 and drops those under 80).
+  is real, don't report it"; each finding with `file:line` and a concrete failure scenario.
+- **Checks**: a separate agent per finding, not the reviewer itself, either scores it 0-100
+  against a fixed rubric (Anthropic's code-review plugin uses Haiku for this and drops findings
+  under 80) or tries to refute it; Opus validates findings that would block a merge. Don't filter
+  on the reviewers' own confidence.
 - **Usual failure**: a flood of plausible nits that buries the two real bugs.
 
 ## 5. Parallel code changes and migrations

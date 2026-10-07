@@ -26,7 +26,7 @@ First-party Claude API, US dollars per million tokens:
 | Opus 5.5 | `claude-opus-5-5` | $4 | $20 | $0.20 | Default model; thinking can't be turned off |
 | Sonnet 5.5 | `claude-sonnet-5-5` | $2 | $10 | $0.20 | |
 | Haiku 5.5 | `claude-haiku-5-5` | $0.10 | $0.50 | $0.01 | Prompts over 100K tokens: $0.50 / $2.50 |
-| Haiku 4.5 (older) | `claude-haiku-4-5` | $1 | $5 | | 10x Haiku 5.5; what the `haiku` alias means on some providers |
+| Haiku 4.5 (older) | `claude-haiku-4-5` | $1 | $5 | | 10x Haiku 5.5; what `haiku` means on every provider except the Anthropic API |
 | Sonnet 4.6 (older) | `claude-sonnet-4-6` | $3 | $15 | | |
 
 - Cache writes: 1.25x input for the 5-minute TTL, 2x for 1 hour. Cache reads: 0.1x input
@@ -111,10 +111,18 @@ First-party Claude API, US dollars per million tokens:
   Explore search" from an Opus or Fable session runs on that model unless you pass one.
 - Definition frontmatter accepts `sonnet`, `opus`, `haiku`, `fable`, a full ID such as
   `claude-sonnet-5-5`, or `inherit`.
-- What the aliases mean depends on the provider. On the Anthropic API: Opus 5.5, Sonnet 5.5,
-  Haiku 5.5. On Amazon Bedrock and Google Cloud: `sonnet` is Sonnet 4.5 and `haiku` is Haiku 4.5.
-  On Claude Platform on AWS: `sonnet` is Sonnet 4.6. On Microsoft Foundry: `opus` is Opus 4.6.
-  Pin full IDs there, or set `ANTHROPIC_DEFAULT_SONNET_MODEL` / `_HAIKU_MODEL` / `_OPUS_MODEL`.
+- What the aliases mean depends on the provider:
+
+  | Provider | `opus` | `sonnet` | `haiku` |
+  |---|---|---|---|
+  | Anthropic API | Opus 5.5 | Sonnet 5.5 | Haiku 5.5 |
+  | Claude Platform on AWS | Opus 5.5 | Sonnet 4.6 | Haiku 4.5 |
+  | Amazon Bedrock, Google Cloud | Opus 5.5 | Sonnet 4.5 | Haiku 4.5 |
+  | Microsoft Foundry | Opus 4.6 | Sonnet 4.5 | Haiku 4.5 |
+
+  Anywhere but the Anthropic API, pin full IDs or set `ANTHROPIC_DEFAULT_SONNET_MODEL` /
+  `_HAIKU_MODEL` / `_OPUS_MODEL`; a "cheap Haiku worker" there is the older model at 10x the
+  price.
 - Switching with `/model` also switches every sub-agent that inherits the main model.
 
 ## 5. Prompt caching in a fan-out
@@ -184,8 +192,7 @@ The same Sonnet run costs about $23 at 3 searches per worker, $34 at 5, $136 at 
   turns on multi-step work" (author's claim).
 - **One model can beat a cascade.** Measure the most capable model at lower effort before building
   a multi-model cascade: one model keeps one cache namespace.
-- Academic routers (FrugalGPT up to 98% savings, RouteLLM over 85%) were measured on 2023-24
-  models with much wider price gaps than today's (dated).
+
 - Parallelism raises total tokens. The only public delegation benchmark found (fable-baton,
   n=2 per case) saw total cost stay the same or rise, e.g. a review going from $2.13 to $2.71,
   while tokens on the top model fell. Savings come from cheaper per-token rates and less waste,

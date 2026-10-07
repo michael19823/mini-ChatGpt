@@ -8,12 +8,19 @@ JSON checks (default --ext json):
   - the file parses and holds a JSON object
   - --required keys exist; --nonempty keys exist and aren't empty
   - an "id" inside the record, if present, matches the file name
+  - --expect KEY=VALUE: a top-level key has exactly this value (e.g. contract_version=contract_v1)
   - --status-key / --ok-status: the record's own status counts as passing only if listed
   - --fields-key: a dict of per-field records, each with a status (--field-status-key); counted
     per field. --required-fields lists fields that must appear there.
   - --url-keys: wherever these keys appear, values must be http(s) URLs; any object whose status
-    is "found" must have a non-empty URL in one of them
+    is "found" must have a non-empty URL in one of them (a missing key counts as empty)
 Text checks (any other --ext): the file has at least --min-bytes and contains each --must-contain.
+
+Not checked: whether links resolve, whether values are plausible, or what the worker actually did.
+Require a non-empty list such as queries_tried as a cheap proxy for the last one.
+
+Use --ids (not just --expected) whenever you'll repair from --write-failing: only --ids can name
+the missing items.
 
 Exit code: 0 when everything expected is present and passes, 1 otherwise.
 
@@ -35,6 +42,13 @@ URL_RE = re.compile(r"^https?://\S+$")
 
 def csv(value):
     return [v.strip() for v in value.split(",") if v.strip()] if value else []
+
+
+def key_value(value):
+    if "=" not in value:
+        raise argparse.ArgumentTypeError("expected KEY=VALUE")
+    key, val = value.split("=", 1)
+    return key.strip(), val.strip()
 
 
 def read_ids(path):
@@ -73,6 +87,9 @@ def check_json(record, item_id, a):
             problems.append(f"empty or missing '{key}'")
     if "id" in record and str(record["id"]) != item_id:
         problems.append(f"id inside file is '{record['id']}', file name says '{item_id}'")
+    for key, value in a.expect:
+        if str(record.get(key)) != value:
+            problems.append(f"{key}={record.get(key)!r}, expected {value!r}")
     if a.status_key and a.ok_status:
         status = record.get(a.status_key)
         if status not in a.ok_status:
@@ -94,7 +111,7 @@ def check_json(record, item_id, a):
             for key, value in urls.items():
                 if not is_empty(value) and not (isinstance(value, str) and URL_RE.match(value)):
                     problems.append(f"'{key}' is not an http(s) URL: {str(value)[:80]}")
-            if node.get(a.field_status_key) == "found" and urls and all(is_empty(v) for v in urls.values()):
+            if node.get(a.field_status_key) == "found" and all(is_empty(node.get(k)) for k in a.url_keys):
                 problems.append("a 'found' value has no source URL")
     return problems
 
@@ -112,9 +129,12 @@ def main():
     ap.add_argument("--dir", required=True, help="folder with one result file per item")
     ap.add_argument("--ext", default="json", help="file extension to check (default json)")
     ap.add_argument("--ids", help="file with the expected IDs, one per line")
-    ap.add_argument("--expected", type=int, help="expected number of results (if no --ids)")
+    ap.add_argument("--expected", type=int,
+                    help="expected number of results, if no --ids (can't name missing items)")
     ap.add_argument("--required", type=csv, default=[], help="comma-separated required keys")
     ap.add_argument("--nonempty", type=csv, default=[], help="keys that must be non-empty")
+    ap.add_argument("--expect", type=key_value, action="append", default=[], metavar="KEY=VALUE",
+                    help="top-level key that must equal VALUE; repeatable")
     ap.add_argument("--status-key", default="status", help="record-level status key")
     ap.add_argument("--ok-status", type=csv, default=[],
                     help="record statuses that pass, e.g. ok,partial (default: don't check)")

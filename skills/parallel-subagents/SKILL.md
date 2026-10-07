@@ -27,14 +27,16 @@ Three ideas carry most of the weight:
 | Job | Follow |
 |---|---|
 | **Quick**: 2-5 agents, one-off | The quick path below |
-| **Medium**: 6-20 agents, or one template over a short list | Sections 1-6, 8-11 |
+| **Medium**: 6-20 agents, or one template over a short list | Sections 1-11; the pilot (7) when a fan-out has more than about 10 items |
 | **Large**: 20+ agents, a long item list, or a job you'll repeat | Everything, including the pilot (7) |
 
 **Quick path.** (a) Confirm parallel is worth it (section 1). (b) Write each brief with the
-checklist in section 4; this decides quality more than anything else. (c) Set model and effort on
-every launch (section 5). (d) Launch the agents in one message and ask for short, structured
-returns. (e) Check every result before you use it: did the agent actually do the work (tool calls,
-sources read, tests run), does it answer the brief, does it contradict the others? (f) Synthesize,
+checklist in section 4 and the matching recipe in `references/task-playbooks.md`; this decides
+quality more than anything else. (c) Set model and effort on every launch (section 5). (d) Launch
+the agents in one message and ask for short, structured returns. (e) Check every result before you
+use it: did the agent actually do the work (tool calls, sources read, tests run), does it answer
+the brief, does it contradict the others? For review or verification findings, have a
+fresh-context validator check each finding before you report it (section 9). (f) Synthesize,
 stating gaps and conflicts openly.
 
 ## 1. Decide whether to go parallel, and in what shape
@@ -71,11 +73,15 @@ In a fan-out, give each tool-using item its own agent (packing items into one ag
 earlier items' results on every turn and degrades recall). Group only tool-free items (classify or
 extract text you already have), 4-8 per call, and check grouped results against single-item ones.
 
+**When the user has already chosen** the model, the number of agents or the split, follow that
+choice. If another option looks clearly cheaper or better, say so in one line with the reason,
+rather than overriding it.
+
 ## 2. Choose the runtime
 
 | Situation | Runtime |
 |---|---|
-| Up to about 10 open-ended tasks | Agent tool (Task in some versions): all calls in one message, so they run concurrently |
+| Up to about 10 open-ended tasks, or up to 20 short ones | Agent tool (Task in some versions): all calls in one message, so they run concurrently |
 | A known list of ~20+ items, or work with check and repair stages | Workflow tool: `pipeline()` over the items (opt-in rule below) |
 | Very large or unattended runs, or outside Claude Code | A script looping headless `claude -p` with `--json-schema`, or the Agent SDK with a budget cap |
 | Tool-free calls over inputs you already have | Message Batches API (50% off) |
@@ -87,13 +93,15 @@ extract text you already have), 4-8 per call, and check grouped results against 
   returns, labels and resume. Up to 16 agents run concurrently (fewer on small machines),
   1,000 agents per run. Agents with the same model, effort, agent type, tools, schema and working
   directory share a prompt-cache prefix.
-- **Workflow opt-in**: use the Workflow tool only when the user opted in: they invoked this skill
-  by name, asked in their own words for parallel agents or a workflow ("one agent per country",
-  "fan out", "use a workflow"), or ultracode is on. If you only inferred that parallelism would
-  help, describe the plan, the agent count and the estimated cost, and ask.
-- The session's workflow size guideline (by default, under 10 agents) is advice, not a cap. When
-  the job needs more agents, say the count and cost out loud ("one agent per country: 195 agents,
-  about $60") instead of silently packing items into fewer agents.
+- **Workflow opt-in**: use the Workflow tool only when the user opted in: they typed this skill's
+  name (`/parallel-subagents`; loading the skill yourself doesn't count), asked in their own words
+  for parallel agents or a workflow ("one agent per country", "fan out", "use a workflow"), or
+  ultracode is on. Otherwise describe the plan, the agent count and the estimated cost, and ask.
+  If they decline, run Agent-tool waves of up to 20 workers that write files and return one line,
+  or the headless loop in `references/runtimes.md`.
+- The session's workflow size guideline (under 10 agents by default, under 5 on Pro) is advice,
+  not a cap. When the job needs more agents, say the count and cost out loud ("one agent per
+  country: 195 agents, about $60") instead of silently packing items into fewer agents.
 - Load the `workflow-authoring` skill before writing a script. `references/runtimes.md` has a
   fan-out, check and repair sketch, a headless loop and a worker definition.
 
@@ -161,8 +169,9 @@ the main levers for getting good work from Sonnet and Haiku:
 - **Make "not found" legitimate**, and show it: give one complete example output with clearly
   fictional values that includes a not-found case. A literal model shown only filled fields learns
   that every field always gets a value.
-- **Keep briefs tight**: about 200-800 words, critical rules first and repeated in one line at the
-  end, the variable item last. Long prompts make cheaper models skip searches and stop early.
+- **Keep briefs tight**: about 300-800 words, critical rules first and repeated in one line at the
+  end, the variable item last. Long prompts made Haiku skip searches and stop early, especially at
+  `low` effort.
 - **Add the tested lines** for the worker's model from the template: the keep-working-then-stop
   paragraph, "Think the problem through before you answer." before structured answers, and, for
   Haiku, the line saying JSON applies only after tool calls.
@@ -180,6 +189,7 @@ every launch, per role:
 | Mechanical checks: schema, counts, links, tests, diffs | code, not a model | - |
 | Extracting, classifying or reformatting text already in hand; locating files | Haiku | `medium` (`high` for strict schemas or knowledge work) |
 | Search-heavy research; codebase exploration that needs judgment; per-item judging | Sonnet | `medium`; `high` for long or hard items |
+| Reviewing code or text through one lens (correctness, security, a style guide) | Sonnet | `medium` |
 | Ambiguous judgment, conflicts, repairs after a cheap failure, hard reasoning, writing the contract, synthesis | Opus (often you) | `medium` |
 | The hardest long-horizon work, rarely as a worker | Fable | as needed |
 
@@ -190,18 +200,22 @@ every launch, per role:
   is 20x Haiku, and cheap models often need more turns and retries on multi-step work. For a large
   job, pilot Opus at `low` against Sonnet at `medium` and keep whichever is cheaper per item that
   passes your checks.
-- Mechanics: the Agent tool's `model` takes aliases (`haiku`, `sonnet`, `opus`, `fable`); Workflow
-  `agent()` takes `model` and `effort` options. On Amazon Bedrock and Google Cloud the `sonnet`
-  alias means Sonnet 4.5 and `haiku` Haiku 4.5, so pin full model IDs in agent definitions there.
-  `CLAUDE_CODE_SUBAGENT_MODEL_FORCE` overrides every per-call choice. Prices, defaults and evidence
-  are in `references/models-and-costs.md`.
+- Mechanics: the Agent tool takes `model` as an alias (`haiku`, `sonnet`, `opus`, `fable`) and, in
+  current Claude Code, an `effort` parameter; if yours has no `effort` parameter, set effort in an
+  agent definition (`references/runtimes.md`). Workflow `agent()` takes `model` and `effort`
+  options. On every provider other than the Anthropic API the aliases point to older models
+  (`haiku` is Haiku 4.5; `sonnet` is Sonnet 4.5 or 4.6), so pin full model IDs in agent
+  definitions there. `CLAUDE_CODE_SUBAGENT_MODEL_FORCE` overrides every per-call choice. Prices,
+  defaults and evidence are in `references/models-and-costs.md`.
 
 ## 6. Estimate and cap the cost before launch
 
 For more than a handful of agents, estimate first. `scripts/estimate_cost.py` does the arithmetic
 for every model at once; a measured pilot item times N, plus 20-40% for the expensive tail, is
-better. Tell the user the estimate when it's large, and set a hard cap (a Workflow token budget,
-`--max-budget-usd` for headless runs, `max_budget_usd` in the Agent SDK).
+better. Tell the user the estimate when it's large, and cap the spend: `--max-budget-usd` for
+headless runs, `max_budget_usd` in the Agent SDK. In a Workflow, bound the agent count and the tool
+calls per agent; a token target in the user's message, such as "+500k", becomes a hard ceiling on
+output tokens that the script can read through `budget`.
 
 The biggest levers, roughly in order:
 
@@ -225,9 +239,10 @@ The biggest levers, roughly in order:
 
 For a fan-out of more than about 10 items, or any job you'll repeat, run 3-5 items first on the
 exact brief, model, effort and tools, deliberately including hard cases (data-poor, ambiguous
-identity, sources not in English, unusual structure). Read the transcripts, not just the outputs:
-where did a worker search badly, stop early, misread the brief or guess? Fix the contract and
-re-pilot until a round turns up no new failure mode. Then freeze the contract, write the judge
+identity, sources not in English, unusual structure). Have pilot workers also report the queries
+they ran, the sources they opened and a three-line note on their method, and read those with the
+outputs: where did a worker search badly, stop early, misread the brief or guess? Fix the contract
+and re-pilot until a round turns up no new failure mode. Then freeze the contract, write the judge
 rubric from what you saw, run a canary of 10-20 items with full checks, and only then run the rest.
 For a split, the pilot is a dry read: re-read each brief against the stranger test, and check the
 split for overlaps and gaps before launching.
@@ -249,8 +264,10 @@ split for overlaps and gaps before launching.
 - **Tier 0, code, on everything**: the output exists and parses; required fields are present with
   a status; values are in plausible ranges; URLs are well formed; for code, tests and lint pass;
   outliers stand out against peers; the worker actually did the work (sub-agents have reported
-  "completed" after zero tool calls). `scripts/check_outputs.py` covers the generic part and
-  writes the list of IDs to repair.
+  "completed" after zero tool calls; a required, non-empty `queries_tried` or `files_read` list is
+  a cheap proxy). `scripts/check_outputs.py` checks presence, parsing, required keys, statuses,
+  the contract version and URL format, and writes the IDs to repair; dead links and outliers need
+  checks of your own.
 - **Tier 1, a judge per item or on a sample**: a different prompt from the worker's, ideally a
   different model; pass, fail or unknown per dimension (accurate, supported by its source,
   complete, followed the contract) with a one-line reason.

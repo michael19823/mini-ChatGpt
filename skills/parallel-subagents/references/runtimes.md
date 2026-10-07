@@ -17,9 +17,12 @@ Contents
   in the background by default and notify you when done; run one in the foreground only when your
   very next step needs its result.
 - **Per-call settings**: `subagent_type`, `model` (an alias: `haiku`, `sonnet`, `opus`, `fable`),
-  `effort`, and `isolation: "worktree"` for agents that edit files in parallel.
-- **Types**: `general-purpose` has all tools. `Explore` is read-only and reads excerpts, which is
-  good for locating code but not for review. Custom types come from `.claude/agents/*.md`.
+  `isolation: "worktree"` for agents that edit files in parallel, and, in current Claude Code,
+  `effort`. If your Agent tool has no `effort` parameter, set effort in a worker definition
+  (section 2).
+- **Types**: `general-purpose` has all tools. `Explore` is read-only, skips CLAUDE.md and reads
+  excerpts, which is good for locating code but not for review. Custom types come from
+  `.claude/agents/*.md`.
 - **Limits**: 20 sub-agents running at once by default (`CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS`);
   a 21st launch fails with "Concurrent subagent limit reached". Nesting goes up to 3 levels below
   the main conversation (`CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH`). There's no cap on the total
@@ -61,10 +64,12 @@ stop and return.
 
 ## 3. Workflow tool
 
-**When you may use it**: only after the user opts in, by invoking this skill by name, asking in
-their own words for parallel agents or a workflow, or turning ultracode on. Otherwise describe the
-plan, the agent count and the cost, and ask. The session's size guideline (by default under 10
-agents) is advice: when the job needs more, state the count and the cost before running.
+**When you may use it**: only after the user opts in: they typed `/parallel-subagents` (loading
+the skill yourself doesn't count), asked in their own words for parallel agents or a workflow, or
+turned ultracode on. Otherwise describe the plan, the agent count and the cost, and ask; if they
+decline, use Agent-tool waves of up to 20 or the headless loop (section 4). The session's size
+guideline (under 10 agents by default, under 5 on Pro) is advice: when the job needs more, state
+the count and the cost before running.
 
 **Load the `workflow-authoring` skill before writing a script.** The essentials:
 
@@ -89,6 +94,9 @@ agents) is advice: when the job needs more, state the count and the cost before 
 - Resume: relaunching after a failure reuses completed agents up to the first failed one, then
   re-runs it and every agent started after it. Run repairs as a separate workflow over the
   failing IDs.
+- Spend: a token target in the user's message, such as "+500k", is a hard ceiling on output
+  tokens; the script reads it through `budget` (`budget.total`, `budget.remaining()`). Without
+  one, bound the agent count and the tool calls per agent.
 - A run can be saved from `/workflows` as a reusable command that takes `args`.
 
 **What the script returns lands in your context.** Up to a few dozen small records, return them
@@ -119,20 +127,20 @@ const VERDICT = { type: 'object', required: ['id', 'overall', 'critique'], prope
 // Shared text first, item last: identical prefixes keep results comparable and share the cache.
 const brief = (it) => `${contract}\nToday's date is ${date}.\n<item>\nid: ${it.id}\nname: ${it.name}\n</item>\n` +
   `Write ${outDir}/${it.id}.json, then return the status object.`
-const judge = (it, st) => `${judgeRubric}\n${contract}\nRead ${st.path} and judge the record for ${it.id}.`
+const judge = (it) => `${judgeRubric}\n${contract}\nRead ${outDir}/${it.id}.json and judge the record for ${it.id}.`
 
 const results = await pipeline(
   items,
   (_prev, it) => agent(brief(it), { label: `research:${it.id}`, phase: 'Research',
     agentType: 'general-purpose', model: 'sonnet', effort: 'medium', schema: STATUS }),
-  (st, it) => st ? agent(judge(it, st), { label: `judge:${it.id}`, phase: 'Judge',
+  (st, it) => st ? agent(judge(it), { label: `judge:${it.id}`, phase: 'Judge',
     agentType: 'general-purpose', model: 'sonnet', effort: 'medium', schema: VERDICT })
     .then((v) => ({ id: it.id, status: st.status, verdict: v ? v.overall : 'unknown',
       critique: v ? v.critique : '' }))
     : { id: it.id, status: 'missing', verdict: 'unknown', critique: 'no result' },
 )
 const rows = results.map((r, i) => r || { id: items[i].id, status: 'missing', verdict: 'unknown', critique: 'stage failed' })
-const toRepair = rows.filter((r) => r.status !== 'ok' || r.verdict === 'fail')
+const toRepair = rows.filter((r) => r.status !== 'ok' || r.verdict !== 'pass')  // unknown is not a pass
 log(`${rows.length - toRepair.length}/${rows.length} passed; ${toRepair.length} to repair or recheck`)
 return { rows, toRepair: toRepair.map((r) => r.id) }
 ```
@@ -166,6 +174,8 @@ tail -n +2 items.txt | xargs -P 8 -I{} bash -c 'run_one "$1"' _ {}           # t
 jq -s 'map(.total_cost_usd // 0) | add' logs/*.json                          # total spend
 ```
 
+- In this mode the worker returns the whole record as structured output, so drop the template's
+  "Write the result to ..." line and make `schema.json` the record schema.
 - `--output-format json` includes `total_cost_usd`; `--json-schema` puts the validated result in
   `structured_output`. The CLI doesn't enforce `format` keywords such as `uri` or `date`, so check
   those in code.

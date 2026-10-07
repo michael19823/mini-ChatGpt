@@ -88,7 +88,8 @@ def parse_price_overrides(items):
         except ValueError:
             sys.exit(f"bad --price value {item!r}; expected name=input,output,cache_read")
         base = PRICES.get(name, {"id": name})
-        PRICES[name] = {"id": base.get("id", name), "inp": inp, "out": out, "read": read}
+        # Keep any long-context tier from the built-in row; only the base prices change.
+        PRICES[name] = {**base, "id": base.get("id", name), "inp": inp, "out": out, "read": read}
 
 
 def money(x):
@@ -113,8 +114,9 @@ def main():
                     help="average tokens each tool result adds to the context (default 5000)")
     ap.add_argument("--output-tokens", type=int, default=4000,
                     help="output tokens per worker, thinking included (default 4000)")
-    ap.add_argument("--searches", type=int, default=None,
-                    help="billable web searches per worker (default: same as --tool-calls)")
+    ap.add_argument("--searches", type=int, default=0,
+                    help="billable web searches per worker, $0.01 each (default 0; set it for "
+                         "web research)")
     ap.add_argument("--no-cache", action="store_true", help="price without prompt caching")
     ap.add_argument("--ttl", choices=["5m", "1h"], default="5m", help="cache TTL (default 5m)")
     ap.add_argument("--warm-prefix", action="store_true",
@@ -131,7 +133,7 @@ def main():
     for m in models:
         if m not in PRICES:
             sys.exit(f"unknown model {m!r}; known: {', '.join(PRICES)} (or add one with --price)")
-    searches = a.tool_calls if a.searches is None else a.searches
+    searches = a.searches
     if min(a.agents, a.prefix, a.tool_calls, a.result_tokens, a.output_tokens, searches) < 0:
         sys.exit("all counts must be zero or positive")
     cache = not a.no_cache
@@ -189,6 +191,8 @@ def main():
     if sensitivity:
         print(f"Tool-call sensitivity, {focus}, all agents: " + ", ".join(
             f"{s['tool_calls']} calls {money(s['total'])}" for s in sensitivity))
+    if searches == 0 and a.tool_calls:
+        print("Searches: 0. For web research, pass --searches (each search adds $0.01).")
     if a.batch and a.tool_calls:
         print("Note: the Batch API suits tool-free calls; check that your tools work in batches.")
     print(f"Prices checked {PRICES_CHECKED}; re-check before quoting. Add 20-40% for the "

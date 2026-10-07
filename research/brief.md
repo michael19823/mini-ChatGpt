@@ -504,6 +504,12 @@ Use this structure:
 **Sources:**  
 Use recent and authoritative sources, prioritizing 2026.
 
+### Final edit pass
+
+Before you finish, run the `humanizer` skill (`.claude/skills/humanizer`) in file mode on your
+output file. It edits wording only. Leave scores, numbers, dates, names, tables, URLs, and
+"unverified" or "estimate" labels exactly as they are.
+
 ---
 
 ## Cross-Country Final Ranking

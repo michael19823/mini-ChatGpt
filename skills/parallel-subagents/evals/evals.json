@@ -1,0 +1,23 @@
+{
+  "skill_name": "parallel-subagents",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I need the statutory minimum wage, standard weekly working hours and paid annual leave for every EU country (27 of them). Use sonnet subagents, one per country, and give me one table with sources. Before launching anything, show me the plan, the exact brief one worker would get, the model and effort for each stage, and what it will cost.",
+      "expected_output": "A plan with a shared contract (field definitions, units, as-of date, source ranking, not_found/conflict statuses), one complete self-contained worker brief with the country last, model and effort set per stage (Sonnet medium workers, a judge, an Opus repair tier), a pilot on hard countries, files plus a manifest, layered checks, and a cost estimate. Nothing launched yet.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Review the last 3 commits on this branch with four parallel reviewers (correctness, security, performance, tests). Only report issues you're actually confident about, and keep it cheap.",
+      "expected_output": "Four lens-specific reviewers launched together with explicit models and effort, briefs that state the diff range, what counts as a real issue and the finding format; each finding verified in a fresh context before it is reported; short returns; a final list with file:line, failure scenario and confidence.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "map out how this repo works - backend, front end, the mock llm server and how they talk to each other. run it in parallel so its fast, i just need a solid overview with file references",
+      "expected_output": "A split into non-overlapping areas with boundaries stated in each brief, read-only agents on a cheaper model set explicitly, answers that cite file:line, spot-checks of a few references, and a synthesis that flags gaps and contradictions between the parts.",
+      "files": []
+    }
+  ]
+}

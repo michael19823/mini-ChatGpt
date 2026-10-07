@@ -41,7 +41,7 @@ The big awesome lists are huge but thin on this specific topic. Only a handful o
 
   ([README](https://github.com/BehiSecc/awesome-claude-skills))
 - **travisvn/awesome-claude-skills**: 15,299 stars. The only orchestration entry is `loki-mode` ("orchestrates 37 AI agents across 6 swarms to build, deploy, and operate a complete startup") ([README](https://github.com/travisvn/awesome-claude-skills)).
-- **Marketplaces**: skills.sh lists `obra/superpowers/dispatching-parallel-agents` under "Agent workflows", installable with `npx skills add https://github.com/obra/superpowers --skill dispatching-parallel-agents` ([skills.sh](https://www.skills.sh/obra/superpowers/dispatching-parallel-agents)). The same skill is mirrored on tessl.io, mondoo.com, hackernoon.com/skills, vibeindex.ai and agentskillsfinder.com. I saw those only as search-result listings and did not open them. One search summary said VibeIndex's description ("intelligent workload balancing") does not match the skill's actual text. Another said a Mondoo security review found the skill is "only markdown… no executable code" ([Mondoo listing](https://mondoo.com/ai-agent-security/skills/github/obra/superpowers/dispatching-parallel-agents/c4bbe651cb1b)).
+- **Marketplaces**: skills.sh lists `obra/superpowers/dispatching-parallel-agents` under "Agent workflows", installable with `npx skills add https://github.com/obra/superpowers --skill dispatching-parallel-agents`, showing about 204.7K installs ([skills.sh](https://www.skills.sh/obra/superpowers/dispatching-parallel-agents)). The same skill is mirrored on tessl.io, mondoo.com, hackernoon.com/skills, vibeindex.ai and agentskillsfinder.com. I saw those only as search-result listings and did not open them. One search summary said VibeIndex's description ("intelligent workload balancing") does not match the skill's actual text. Another said a Mondoo security review found the skill is "only markdown… no executable code" ([Mondoo listing](https://mondoo.com/ai-agent-security/skills/github/obra/superpowers/dispatching-parallel-agents/c4bbe651cb1b)).
 
 ### Inferences
 - No list has a category for "fan out one templated research task over a long list of items with cheap models". The nearest analogues are generic: translate-book (chunk fan-out), Weizhena/Deep-Research-skills (items × fields), and NeoLab `do-in-parallel` (`--targets` list).
@@ -49,7 +49,7 @@ The big awesome lists are huge but thin on this specific topic. Only a handful o
 
 ### Gaps
 - I did not open claude-plugins.dev, skillsmp.com or agentskills.io. I can't say whether they list anything beyond the GitHub entries above.
-- I did not check install or download counts on marketplaces. skills.sh did not show a count in the rendered text I captured.
+- I checked an install count only for the superpowers skill on skills.sh (~204.7K). I did not check counts for other skills or on other marketplaces.
 
 ---
 
@@ -261,11 +261,11 @@ Expensive-lead / cheap-worker routing is now a common 2026 plugin genre, almost 
 ## Q4. Equivalent material from other ecosystems that could be adapted
 
 ### Takeaway
-Other frameworks have first-class primitives for exactly this "map over a list" pattern (LangGraph `Send`, CrewAI's per-input crew kickoff), which Claude Code skills lack. Several Claude Code community skills are already cross-harness (Codex, Gemini CLI, OpenCode) and include tier-equivalence tables.
+Other frameworks have first-class primitives for this pattern, which Claude Code skills lack: LangGraph `Send` for "map over a list", and CrewAI's `manager_llm` for "expensive manager + worker agents". Several Claude Code community skills are already cross-harness (Codex, Gemini CLI, OpenCode) and include tier-equivalence tables.
 
 ### Cited Findings
-- **LangGraph**: the Graph API docs have a "Map-Reduce and the Send API" section. The old how-to URL redirects there ([LangGraph Graph API](https://docs.langchain.com/oss/python/langgraph/graph-api#map-reduce-and-the-send-api)). The page describes super-steps in which "Nodes that run in parallel are part of the same super-step" ([LangGraph Graph API](https://docs.langchain.com/oss/python/langgraph/graph-api#map-reduce-and-the-send-api)).
-- **CrewAI** hierarchical process: "a 'manager' agent coordinates the workflow, delegates tasks, and validates outcomes"; "designed to leverage advanced models like GPT-4, optimizing token usage". The docs nav also lists "Kickoff Crew for Each" and a "Strategic LLM Selection Guide" ([CrewAI Hierarchical Process](https://docs.crewai.com/en/learn/hierarchical-process)). I did not open those two pages.
+- **LangGraph**: the Graph API docs' `Send` section covers the map-reduce case, where the number of downstream invocations isn't known in advance: "LangGraph supports returning `Send` objects from conditional edges"; "`Send` takes two arguments: first is the name of the node, and second is the state to pass to that node." Its example returns one `Send` per subject. The page also says "Nodes that run in parallel are part of the same super-step" ([LangGraph Graph API](https://docs.langchain.com/oss/python/langgraph/graph-api)).
+- **CrewAI** hierarchical process: "a 'manager' agent coordinates the workflow, delegates tasks, and validates outcomes"; it "is designed to leverage advanced models like GPT-4, optimizing token usage"; "Configuring the `manager_llm` parameter is crucial for the hierarchical process" (example `manager_llm="gpt-4o"`, or a custom `manager_agent`) ([CrewAI Hierarchical Process](https://docs.crewai.com/en/learn/hierarchical-process)). This is the "expensive manager model + cheaper worker agents" split expressed as framework config.
 - **Cross-harness Claude Code skills**:
   - NeoLab `do-in-parallel` has a "Cross-Provider Equivalence" table: `haiku` ≈ gemini-flash-lite / gpt-oss class; `sonnet` ≈ gemini-pro / GPT-5-mini class; `opus` ≈ GPT-5.5 / deep-think modes ([NeoLab](https://github.com/NeoLabHQ/context-engineering-kit/blob/master/plugins/sadd/skills/do-in-parallel/SKILL.md)).
   - Weizhena ships a Codex `web-researcher.toml` agent and runs on OpenCode ([Weizhena](https://github.com/Weizhena/Deep-Research-skills)).
@@ -276,11 +276,11 @@ Other frameworks have first-class primitives for exactly this "map over a list" 
   - hughminhphan/claudemix (Claude orchestrator + GPT executor subagents) and ZSeven-W/dsh-crew (DeepSeek workers) do similar things ([GitHub search](https://github.com/search?q=claude+code+subagents+orchestration&type=repositories)).
 
 ### Inferences
-- LangGraph's `Send` and CrewAI's for-each kickoff confirm that "map one template over N inputs, then reduce" is the canonical shape. A Claude Code skill could reproduce it with a script or Workflow-driven fan-out, as harness v2 recommends ([revfactory/harness](https://github.com/revfactory/harness)), instead of hoping the orchestrator issues 195 Agent calls correctly.
+- LangGraph's `Send` (one `Send` per input to the same node) confirms that "map one template over N inputs, then reduce" is the canonical shape. A Claude Code skill could reproduce it with a script or Workflow-driven fan-out, as harness v2 recommends ([revfactory/harness](https://github.com/revfactory/harness)), instead of hoping the orchestrator issues 195 Agent calls correctly.
 
 ### Gaps
 - I did not research the OpenAI Agents SDK, Codex-specific orchestration skills, Cursor background-agent rules, or Gemini CLI subagent docs in depth. Tool-call budget ran out; nothing verified there beyond the cross-harness repos above.
-- I did not read the LangGraph Send section body or the CrewAI for-each page beyond confirming they exist.
+- I did not verify CrewAI's "Kickoff Crew for Each" (map a crew over a list of inputs) or "Strategic LLM Selection Guide" pages. They appeared in a page render early in the session, but WebFetch could not confirm them.
 
 ---
 

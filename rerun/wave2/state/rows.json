@@ -101,6 +101,50 @@
    "merge": 1
   }
  },
+ "germany": {
+  "batch": "w2b7",
+  "candidates": 40,
+  "checks": {
+   "opus": 2,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "B5 Energy-sharing administration and billing for Buergerenergie co-operatives",
+    "GAPS1 Legionella testing tracker for landlords, WEG and small Hausverwaltungen (3-year cycle, sample points, lab results, Gesundheitsamt notices, 10-year records)",
+    "GAPS2 Cloud tachograph archive and compliance check for micro-hauliers with 2.5-3.5 t vans in cross-border transport",
+    "GAPS4 Heizungsprüfung (§60b) scheduler for Hausverwaltungen and trades (GEG/GModG)",
+    "GAPS9 Gastro HACCP/IfSG §43 certificate tracker"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 6,
+   "refuted": 1,
+   "unverifiable": 3,
+   "verified_4": 1
+  },
+  "gaps": 6,
+  "id": "germany",
+  "leads": [
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "A1",
+    "mark": "new",
+    "name": "Mietwagen and taxi owner-operator compliance file (order book, return duty, TSE, per-trip records)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "drop": 1,
+   "keep": 32,
+   "known": 2
+  }
+ },
  "ireland": {
   "batch": "w2b5",
   "candidates": 42,
@@ -278,6 +322,50 @@
   "stage": "done",
   "triage": {
    "keep": 37,
+   "known": 3,
+   "merge": 1
+  }
+ },
+ "new-zealand": {
+  "batch": "w2b7",
+  "candidates": 38,
+  "checks": {
+   "opus": 3,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "B2 FAP regulatory return, complaints register and 7-year record pack for sole and small financial advice providers",
+    "B4 Location Compliance Certificate and dispenser-approval tracker for service stations and LPG retailers",
+    "GAPS5 Goods-service operator compliance pack for owner-driver trucking (TSL audit readiness, CoF/WoF, RUC debt, logbook retention)",
+    "GAPS6 National Programme registration, renewal and verification reminder for micro food operators (food trucks, coffee carts, home bakers, caterers)"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 7,
+   "disputed": 1,
+   "refuted": 1,
+   "unverifiable": 3
+  },
+  "gaps": 7,
+  "id": "new-zealand",
+  "leads": [
+   {
+    "challenge": "survives 3",
+    "final": "disputed",
+    "id": "A1",
+    "mark": "new",
+    "name": "Secondhand dealer, pawnbroker and scrap-metal records and Police-reporting tool",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "drop": 3,
+   "keep": 30,
    "known": 3,
    "merge": 1
   }

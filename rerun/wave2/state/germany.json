@@ -1,0 +1,1224 @@
+{
+ "challenge:germany:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Partial overlap: Uber's supplier portal and FREENOW's Fleet Partner Dashboard record platform orders, and taximeter and Wegstreckenzähler vendors cover the TSE part. Not checked: whether platform exports satisfy authorities.",
+   "reason": "Nothing I found kills the claim. § 49(4) PBefG has allowed electronic and app-based order logs since 2021, and the July 2026 amendment did not change § 49. The BGH upheld the return duty on 3 June 2026 (I ZR 123/25). VGH München 11 CS 26.1088 (7 August 2026) upheld revocation of 8 permits after the authority demanded the order book plus app order data on USB and ran a time-series analysis that found 50 return-duty breaches in 175 trips. I found no vendor selling an order book that checks the return duty. Uber's supplier portal and FREENOW's dashboard capture orders but do not check return compliance. The score stays low because many Uber and Bolt fleet owners avoid the duty on purpose, enforcement depends on the authority and is mostly triggered by suspicion, and reform lobbying continues. The TSE part is already crowded.",
+   "searches": 8,
+   "sources": "https://www.buzer.de/49_PBefG.htm ; https://www.gesetze-bayern.de/Content/Rtf/Y-300-Z-BECKRS-B-2026-N-19364?all=False ; https://www.gesetze-bayern.de/Content/Rtf/Y-300-Z-BECKRS-B-2026-N-11279?all=False ; https://der-betrieb.de/meldungen/bgh-bestaetigt-rueckkehrpflicht-fuer-mietwagen/ ; https://www.lobbyregister.bundestag.de/media/fb/06/783840/Stellungnahme-Gutachten-SG2606260017.pdf ; https://www.uber.com/ch/de/earn/fleet-management ; https://eu-assets.contentstack.com/v3/assets/blt6e28a7086c72dd55/blt88cec6d4f33f02d6/69f9b33d63b2b574c44a6a01/Allgemeine_Geschaftsbedingungen_-_Stand_12.2023.pdf ; https://www.steuerportal-mv.de/static/Regierungsportal/Ministerium%20f%C3%BCr%20Finanzen%20und%20Digitalisierung/Steuerportal/Inhalte/Merkblatt%20f%C3%BCr%20Mietwagenunternehmen.pdf ; https://www.bielefeld.de/sites/default/files/dokumente/Mietwagenverkehr_Hinweis.pdf",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b7"
+ },
+ "critic:germany": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Schornsteinfeger-adjacent: Feuerstättenschau / Heizungsanlagen owners and Gebäudeenergiegesetz (GEG) 65% renewable duties and Betriebsprüfung of heating systems (§60 GEG)",
+     "first_search": "GEG §60b Heizungsprüfung und Heizungsoptimierung Pflicht Vermieter Frist Kleinvermieter Software",
+     "why": "Millions of small landlords and homeowners must act on a municipal Wärmeplanung deadline (30 June 2026 large cities, 2028 small) and on GEG heating-system inspection/optimisation duties; the coverage touches only HKVO meter reading (K16) and not the landlord or owner duties themselves."
+    },
+    {
+     "category": "Gewerbeanmeldung-adjacent licensing regimes not screened: Gaststättenerlaubnis, Reisegewerbekarte, Bewacherregister aside, Makler/Bauträger s.34c, Pfandleiher, Schaustellung, Güterkraftverkehr (Erlaubnis, EU-Lizenz, Fahrtenschreiber and Lenk- und Ruhezeiten for small hauliers)",
+     "first_search": "Fahrtenschreiber Pflicht Transporter 2,5 bis 3,5 Tonnen internationaler Verkehr 2026 Kleinunternehmer Lenkzeiten Auswertung Pflicht",
+     "why": "Category 18 covers taxi and minibus but small Güterkraftverkehr and Speditionen (many sole traders with vans over 2.5 t, Kleintransporter from 2026 EU tachograph rule for vehicles 2.5-3.5 t in international transport) get no dedicated screen; this is a large population with recurring digital tachograph downloads, Fahrerkarten and Kontrollgerät duties."
+    },
+    {
+     "category": "Employer-side recurring duties for Handwerk sole traders and family firms: Berufsgenossenschaft Lohnnachweis (UV-Meldung, annual by 16 Feb), Künstlersozialkasse annual report and Abgabe, Schwerbehinderten-Anzeige, Umlagen U1/U2/U3 and DEÜV-Meldungen for Minijobbers in small businesses",
+     "first_search": "Künstlersozialabgabe Meldung Verwerter Prüfung Deutsche Rentenversicherung kleine Unternehmen Meldepflicht Software",
+     "why": "These annual statutory filings fall on every small employer and on family firms; the pass listed only working-time recording and Haushaltsscheck. KSK-Meldung (KSA) is a known pain for small galleries, agencies, associations and event firms that hire freelancers, and may not be served by general payroll tools."
+    },
+    {
+     "category": "Landwirtschaft and Direktvermarkter: Düngeverordnung Stoffstrombilanz/Düngebedarfsermittlung, Hofbäckereien and Hofläden (Lebensmittelkontrolle, LMIV/Allergen labelling, Direktvermarkter Registrierung), InVeKoS Mehrfachantrag and GAP Sammelantrag, Betriebsregister",
+     "first_search": "Düngebedarfsermittlung Dokumentation Pflicht Kleinbetrieb Nebenerwerbslandwirt Hofladen Allergenkennzeichnung Lebensmittelkontrolle Registrierung",
+     "why": "Germany has ~255,000 farms; only pesticides (K03, K11), wine (K10), Abfindungsbrenner and livestock are covered. The annual Sammelantrag (deadline 15 May), Düngebedarfsermittlung and DüV records hit nearly every farm, plus the Hofladen food-labelling duties, and the GAP-reform simplification of 2026 changed rules; farm software is incumbent but small mixed/part-time farms may be underserved."
+    },
+    {
+     "category": "Hygiene/food and craft-sector registers: HACCP/Eigenkontrolle for restaurants, bakeries, Imbiss, caterers; Infektionsschutz-Belehrung (§43 IfSG) Gesundheitszeugnis tracking; Schornsteinfeger; Trinkwasser-Legionellenprüfung for landlords (TrinkwV §31 UTA, 3-year cycle)",
+     "first_search": "Legionellenprüfung Vermieter Anzeigepflicht Gesundheitsamt Untersuchung alle drei Jahre Verwalter Kleinvermieter Dienstleister",
+     "why": "Category 20 lists small food producers only in passing, and gastronomy is the largest small-business sector with recurring Lebensmittelaufsicht and staff-health-instruction records. Legionellen testing for small landlords of multi-unit buildings (every 3 years, notify Gesundheitsamt) is a household-level recurring duty with municipal reporting and was not screened."
+    },
+    {
+     "category": "2024-2027 new laws on small operators: Wärmeplanungsgesetz, Lieferkettengesetz-adjacent small suppliers aside, Kassensicherungsverordnung / Belegausgabe, Registrierkassen, Mehrwegangebotspflicht (VerpackG §33 for Imbiss and cafes since 2023), Wachstumschancengesetz e-invoicing, Bürokratieentlastungsgesetz IV record-retention changes, Hinweisgeberschutzgesetz (internal reporting channel from 50 staff, from 2023), Barrierefreiheitsstärkungsgesetz (BFSG, since 2025-06-28 for e-commerce and services)",
+     "first_search": "LUCID Verpackungsregister Datenmeldung Pflicht Kleinunternehmer Onlinehändler Systembeteiligung Mengenmeldung jährlich Dienstleister Zentrale Stelle",
+     "why": "BFSG has applied to online shops and service firms with 10 or more staff since June 2025 (micro-firms exempt), and Mehrwegangebotspflicht hits ~50,000 small takeaway operators with a documentation duty to the Verpackungsregister LUCID; neither appears in the coverage, and LUCID registration/Datenmeldung for every small producer or shop is a standing mandatory annual task."
+    }
+   ]
+  },
+  "tag": "w2b7"
+ },
+ "discover:A:germany": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small Mietwagen and taxi firms (owner-operators, 1-5 cars)",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://selbststaendigkeit.de/news-gruendertipps/tse-pflicht-taxis-mietwagenunternehmen/ ; https://www.berlin.de/labo/mobilitaet/fahrerlaubnisse-personen-und-gueterbefoerderung/aktuelles/artikel.1623029.php ; https://www.bielefeld.de/sites/default/files/dokumente/Mietwagenverkehr_Hinweis.pdf ; https://www.steuerportal-mv.de/static/Regierungsportal/Ministerium%20f%C3%BCr%20Finanzen%20und%20Digitalisierung/Steuerportal/Inhalte/Merkblatt%20f%C3%BCr%20Mietwagenunternehmen.pdf ; https://www.etl.de/aktuelles/taxi-und-mietwagenunternehmen-finanzamt-2026/ ; VGH München 11 ZB 20.2076 (warning upheld for missing order book entries)",
+     "existing": "Competitor search (Software Mietwagen Auftragsaufzeichnung Rückkehrpflicht Fiskaltaxameter TSE Anbieter) found FMS with fiskaly cloud TSE (signs all dispatch data, per a 2024 Taxi Times article), Hale hardware TSE, Taxi.de booking software (passes orders to billing) and TAXI-Experte. None was described as covering the Rückkehrpflicht proof or a Finanzamt export. Vendors sell taximeter hardware, so the field is crowded around the TSE part.",
+     "known_mark": "new",
+     "name": "Mietwagen and taxi owner-operator compliance file (order book, return duty, TSE, per-trip records)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Federal tax rules (section 146a AO, KassenSichV): TSE required for taximeters and Wegstreckenzähler from 2026-01-01; MV tax portal says older certified devices must be retrofitted by 2027-01-01. Federal PBefG section 49(4): Mietwagen return duty with a booked record of order intake kept 1 year. Land/city licensing authorities check it (Berlin LABO checks TSE proof at licensing; proof due by 2026-09-30).",
+     "unchecked": "Number of Mietwagen firms; whether ride-hailing platforms (Uber, Bolt) and fleet back-offices already give drivers the order record; exact TSE dates per device type and Land; whether the Mietwagen Rückkehrpflicht is still enforced in the same way; vendor feature lists (read the vendor sites, not just 2024 article)."
+    },
+    {
+     "buyer": "Self-employed Alltagshelfer, Nachbarschaftshelfer and tiny Alltagsbegleiter businesses serving households with a care grade; also the households that employ them",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://www.gegen-hartz.de/urteile/bsg-urteil-pflege-durch-die-nachbarin-pflegegeld-bleibt-aber-der-entlastungsbetrag-entfllt-dadurch ; https://soziales.niedersachsen.de/download/191137/Abrechnungsvordruck.pdf ; https://www.pflegenetz.sachsen.de/download/BF-Infoblatt_Preisobergrenzen_AzUiA_01.02.2026.pdf ; https://www.gegen-hartz.de/news/pflegegeld-1-572-euro-entlastungsbetrag-2026-anspruch-abrechnung-und-typische-fehler",
+     "existing": "Competitor search (Software Entlastungsbetrag Abrechnung Alltagshelfer Nachbarschaftshelfer Pflegekasse) found only Land forms (Niedersachsen Abrechnungsvordruck/docx) and consumer guides; no software vendor. Care-provider billing software is the likely incumbent for larger providers (unchecked).",
+     "known_id": "K21",
+     "known_mark": "new",
+     "name": "Alltagshelfer and Nachbarschaftshilfe recognition and Entlastungsbetrag billing kit",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Land recognition of Angebote zur Unterstützung im Alltag under section 45a/45b SGB XI (Land rules differ). Refund only if the helper is recognised or registered (BSG B 3 P 6/23 R; LSG München L 4 P 7/22 cited by gegen-hartz.de). Entlastungsbetrag up to 131 EUR/month in 2026; billing with Leistungsnachweis to the Pflegekasse, or by assignment (Abtretung).",
+     "unchecked": "Count of recognised helpers per Land; whether Pflegesoftware (for ambulante Dienste) already covers solo helpers; per-Land recognition rules and training requirements; willingness to pay by very small earners; K21 is a different buyer (home-care providers on TI/KIM)."
+    },
+    {
+     "buyer": "Self-employed Tagespflegepersonen (childminders)",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.landkreis-esslingen.de/site/LRA-ES-Internet-2019/get/params_E265120604/17414531/Antrag%20auf%20Erstattung%20der%20SV%2032-12%20%2803-2026%29.pdf ; https://landkreis-st-wendel.de/fileadmin/user_upload/2_Leben_Soziales_Gesundheit/Kinder_und_Jugend/Kindertagespflege/Betreuungsvertrag.pdf ; https://bvktp.de/media/was_bleibt_2024.pdf",
+     "existing": "Search found no software (no dedicated competitor search run; only the one search on this topic). Kita software (K14) is aimed at nurseries, not individuals.",
+     "known_id": "K14",
+     "known_mark": "new",
+     "name": "Kindertagespflege person admin pack (Jugendamt reports, SV refund claim, parent contracts)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Section 23(2) SGB VIII half-refund of health, care and pension contributions on application (Esslingen: apply 1-15 January for the prior year); duty to inform the Jugendamt of changes; contract must be shared with the Jugendamt for public funding. Land and district rules.",
+     "unchecked": "Number of Tagespflegepersonen; whether Jugendämter run own portals; competitor search for Tagespflege Software; willingness to pay by individuals."
+    },
+    {
+     "buyer": "Small operators of Heizöl tanks, JGS (manure/silage seepage) plants and small commercial tanks; sachverständige inspectors",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://www.bielefeld.de/sites/default/files/datei/2024/2024-02-12-Prufpflicht_Heizoellageranlagen.pdf ; https://www.nuernberg.de/imperia/md/umweltamt/dokumente/boden_wasser/awsv-flyer.pdf ; https://www.ktbl.de/fileadmin/user_upload/Allgemeines/Download/Tagungen_2021/ARR/Pohl.pdf",
+     "existing": "Search found no operator software; only a vendor mention of Prüffristen tracking as a service. No dedicated competitor search run. Inspector organisations (TÜV and others) already offer reminders (unverified).",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "AwSV tank and slurry-plant operator inspection calendar (Heizöl, JGS)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "AwSV (federal regulation; Land water authorities enforce): expert check before commissioning, after major change, then every 5 years (2.5 years in water-protection areas) for Heizöl tanks above set sizes; notice to the authority for operation, change and decommissioning (all underground tanks); JGS plants need a Prüfkonzept and expert test. Existing plants keep older Land intervals (Niedersachsen 10 years, Sachsen 5 years).",
+     "unchecked": "Size thresholds per Land; number of affected operators; whether inspectors' reminders and Fachbetriebe already cover this; same shape as K04 (operator log and proof pack)."
+    },
+    {
+     "buyer": "Equine, sheep, goat and poultry/rabbit/fish veterinary practices",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://www.antibiotika-tierhaltung.bayern.de/doc/information_tae_ab_meldepflichten_neue_tierarten.pdf ; https://bundestieraerztekammer.de/btk/dtbl/archiv/2026/artikel/DTBl_03_2026_AB-Meldungen.pdf ; https://rp-giessen.hessen.de/sites/rp-giessen.hessen.de/files/2026-01/aktuelles_zum_stand_der_rechtlichen_umsetzung_der_antibiotikameldungen_23.12.2025_schrifteingebetet_bf.pdf",
+     "existing": "K20 was rejected because practice software has interfaces and CSV upload; the new species are an extension of the same duty. Not checked whether equine/small-ruminant practice software has been updated.",
+     "known_id": "K20",
+     "known_mark": "revive",
+     "known_note": "New evidence is a new rule (new species from 2026, first report 2027-01-14), but nothing yet shows the practice-software answer fails for these species, so this stays weak.",
+     "name": "Veterinary antibiotic reporting for horse and small-ruminant practices (new species from 2026)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Amended TAMG in force 2026-01-01: use of antibiotics in horses, ducks, geese, sheep, goats, food rabbits and certain food fish must be collected from 2026 and reported by vets to TAM-DB (HI-Tier) by 2027-01-14, annually after that. Dog/cat reporting postponed to 2030-01-14. Federal rule.",
+     "unchecked": "Whether vendors (practice software) have added the new species; number of equine/small-ruminant practices; whether the BVL tool is free."
+    },
+    {
+     "buyer": "Second-hand dealers, gold/jewellery buyers and scrap dealers in Länder that have the ordinance",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://recht.nrw.de/system/files/BH/5534-4341.pdf ; https://www.verkuendung-bayern.de/files/gvbl/1985/12/gvbl-1985-12.pdf ; https://kleineanfragen.de/sachsen-anhalt/6/2078-buchfuehrungspflicht-fuer-altmetallhaendler.pdf ; https://gesetze.legal/bund/gewo/38",
+     "existing": "No software found for the Geschäftsbuch. No competitor search run.",
+     "known_id": "K32",
+     "known_mark": "new",
+     "name": "Gebrauchtwaren, Edelmetall and Altmetall Geschäftsbuch per Land (section 38 GewO)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Land ordinances under section 38 GewO require a numbered Geschäftsbuch of purchases and sales (NRW text of 1985; Bavaria GEAV 1985). The Innenministerkonferenz recommended re-introducing the duty in all Länder (per a Sachsen-Anhalt inquiry). Current status per Land unchecked.",
+     "unchecked": "Which Länder have a current ordinance and whether it requires police inspection or electronic form; buyer count; whether general POS or shop software covers it. K32 rejected pawnbrokers as too few buyers; this is the wider second-hand/gold/scrap group."
+    },
+    {
+     "buyer": "Small well-drilling firms (Brunnenbauer) and garden-well customers",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://www.stadt-koeln.de/artikel/06383/index.html ; https://www.berlin.de/umwelt/themen/wasser/artikel.155530.php ; https://services.landkreis-schweinfurt.de/fileadmin/inhalt_service-info/SG42_Umweltamt/Brunnenbohranzeige_2018.pdf",
+     "existing": "None found; no dedicated competitor search run.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Household and garden well notice pack for well drillers (Brunnenbohranzeige)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Section 49 WHG notice to the Lower Water Authority before drilling (Cologne: 2 weeks; Berlin and Brandenburg: 1 month) with Land rules on depth and permits; water abstraction fees above set volumes (Berlin 6,000 m3/yr; Baden-Württemberg 4,000 m3/yr).",
+     "unchecked": "Whether drilling firms are the same buyers as K07 (ground-source drillers); firm count; one-off nature of each notice."
+    },
+    {
+     "buyer": "Small livestock transport firms and Viehhändler with own vehicles",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://rp.baden-wuerttemberg.de/themen/landwirtschaft/tierschutz-und-tiergesundheit/tiertransporte/ ; https://www.bodenseekreis.de/fileadmin/04_ordnung_sicherheit/tiergesundheit/downloads/tierschutz/Merkblatt_Zulassung_Tiertransporte.pdf ; https://www.berlin.de/lb/tierschutz/tiertransporte/handbuch-tiertransporte.pdf",
+     "existing": "Not searched; Agrabiz and HI-Tier cover trader records (K30), nothing found for the transport log.",
+     "known_id": "K30",
+     "known_mark": "new",
+     "name": "Animal-transport firm approval and journey-log kit",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Tiertransport-VO (EU) 1/2005 and Viehverkehrsverordnung: Zulassung for the transport firm (Typ I at the Veterinäramt, Typ II at the Regierungspräsidium, up to 5 years), driver competence certificate, cleaning plan, stamped Fahrtenbuch for long journeys. Land authorities approve.",
+     "unchecked": "Number of firms; renewal is every 5 years (low frequency); transport plan software; 2018 handbook may be out of date."
+    },
+    {
+     "buyer": "Private households employing a minijob helper",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Arbeitgeber-und-Steuerberater/summa-summarum/Lexikon/H/haushaltsscheckverfahren ; https://magazin.minijob-zentrale.de/haushaltshilfe-anmelden-melde-abc/",
+     "existing": "The Minijob-Zentrale's own free online Haushaltsscheck and paper form; no software needed.",
+     "known_mark": "new",
+     "name": "Haushaltsscheck for household employers (private minijob helper)",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Haushaltsscheck procedure is mandatory for minijobs in private households up to 603 EUR/month in 2026; reported to the Minijob-Zentrale.",
+     "unchecked": "Live-in carer cases (posted workers, A1 and Entsendung) were not searched."
+    },
+    {
+     "buyer": "Small employers (draft exempts up to 10 employees)",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.deel.com/de/blog/arbeitszeiterfassung-pflicht-bmas-entwurf/ ; https://factorialhr.de/blog/arbeitszeitgesetz-reform/ ; https://www.personalwirtschaft.de/?p=155057",
+     "existing": "Generic time-tracking tools (out of scope per the contract); not named further.",
+     "known_mark": "new",
+     "name": "Electronic working-time recording for small employers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "BMAS draft for electronic working-time recording (up to 30,000 EUR fine in the draft); sources conflict on whether it is official or an internal working version (Deel, as of 2026-10-06). Transition periods (1, 2 or 5 years) unclear.",
+     "unchecked": "Whether a bill is actually tabled; real rule text and exemptions. Generic tool, so likely out of scope."
+    },
+    {
+     "buyer": "Small e.V. and charities issuing donation receipts",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://www.orh.bayern.de/mam/berichte/jahresberichte/landtagsbehandlung/24-52.pdf ; https://www.buzer.de/60b_AO.htm ; https://kpmg.com/de/de/themen/corporate-governance-und-compliance/neues-zuwendungsempfaengerregister-2024.html",
+     "existing": "Association software and receipt templates exist (named vendors not checked). A GwG amendment dated 2026-06-29 was mentioned in one summary without content.",
+     "known_mark": "new",
+     "name": "Zuwendungsempfängerregister and donation-receipt tool for small associations",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Since 2025-01-01 a body may issue Zuwendungsbestätigungen only if listed in the BZSt Zuwendungsempfängerregister (section 60b AO; section 50 EStDV). Electronic transmission of receipts to the Finanzamt is voluntary and unpiloted so far.",
+     "unchecked": "Whether the electronic receipt transmission becomes mandatory; association-software coverage; content of the 2026 GwG change for associations."
+    },
+    {
+     "buyer": "Hobby and small commercial beekeepers",
+     "category": "8. Beekeepers",
+     "evidence": "https://www.apis-ev.de/files/infobriefe/Infobriefe_2018/Infobrief_2018_10.pdf ; https://www.bienenkunde.rlp.de/Internet/global/themen.nsf/ALL/D00A41AD662CB21AC1258BDD003E4335/$FILE/Infobrief 2024_27 Dokumentation und Herbstverluste.pdf",
+     "existing": "Free templates from Apis e.V. and offices; hobby buyers with low willingness to pay.",
+     "known_mark": "new",
+     "name": "Beekeeper medicine book and honey record",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Bestandsbuch for veterinary medicines (5-year retention) applies even to hobbyists who give honey away; notice to the Veterinäramt and Tierseuchenkasse registration. Land rules.",
+     "unchecked": "Number of commercial beekeepers; existing beekeeping apps."
+    },
+    {
+     "buyer": "Anerkannte Demontagebetriebe and dismantlers",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://www.noerr.com/de/insights/die-neue-eu-altfahrzeugverordnung-eine-herausforderung-fur-die-fahrzeugbranche ; https://www.gesetze-im-internet.de/altautov/__9.html",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "End-of-life vehicle operator compliance under the new EU ELV Regulation",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "New EU End-of-Life Vehicles Regulation (reported as 2026/1738, published 24 July 2026; from a single search summary, unverified): circularity strategies and a circularity pass from 2029, dismantling information from 2032. Operator-level duties not found.",
+     "unchecked": "Regulation number and dates, what falls on dismantlers, and whether the Verwertungsnachweis is already electronic."
+    },
+    {
+     "buyer": "Owners of lifts (small landlords, shops, clinics)",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://www.tuvsud.com/de-de/branchen/real-estate/technische-gebaeudeausruestung-und-aufzuege/aufzuege-fahrtreppen-foerdertechnik/wiederkehrende-pruefung-von-aufzugsanlagen ; https://www.tuev-nord.de/fileadmin/Sites/TUEV_NORD/Dienstleistungen/Industry/Files/BU_Buildings/Sonstiges/TUEV-NORD-Teilnehmerversion-Webinar-Betreiberpflichten-und-Cysi-Aufzugsanlagen.pdf",
+     "existing": "Inspection bodies already remind operators (TÜV NORD webinar); software for operators not searched.",
+     "known_mark": "new",
+     "name": "Lift operator inspection-deadline tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "BetrSichV: ZÜS inspections at least yearly (main and interim check); ZÜS reminds the operator about 2 weeks before expiry.",
+     "unchecked": "Lift maintenance firms' own tools; Aufzugsbuch practice."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Haushaltsscheck is a free federal procedure run by the Minijob-Zentrale (online or paper, no software needed; 603 EUR/month limit in 2026), so the core household-employer duty is covered by a state portal. Adjacent gap found instead: Alltagshelfer and Nachbarschaftshilfe billing to Pflegekassen (Land recognition required, see candidates).",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No federal scrap-dealer register or cash ban found. Only Land ordinances under section 38 GewO (Geschäftsbuch for Gebrauchtwaren, Edelmetall and Altmetall, e.g. NRW 1985 text); an old Sachsen-Anhalt inquiry shows the Länder considered but did not all adopt it. Folded into the Gebrauchtwarenhandel candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Land ordinances under section 38 GewO require a Geschäftsbuch (NRW, Bavaria GEAV confirmed as 1985 texts; current status per Land unchecked). No software found. Pawnbrokers already rejected in K32.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Same section 38 GewO Land ordinances cover Edelmetall and Schmuck purchases; jewellers with a new-goods focus may be outside them (old Brandenburg guidance, unreliable). Anti-money-laundering duties for Güterhändler not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "AltfahrzeugV section 4: anerkannter Demontagebetrieb issues the Verwertungsnachweis, with periodic expert audits. A new EU End-of-Life Vehicles Regulation (reported as 2026/1738, published 24 July 2026; unverified, from one search summary) mostly burdens manufacturers; operator-level software duties not found.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Nothing new beyond K30 for traders. Animal-transport firms need a Zulassung (Typ I at the Veterinäramt, Typ II at the Regierungspräsidium, up to 5 years), driver competence certificates, cleaning plans and a stamped Fahrtenbuch for long journeys. Listed as a weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Butcher self-monitoring (Eigenkontrolle) is covered by local Merkblätter; sector ERP exists (winweb food, inecta, WinAB food). HI-Tier slaughter reporting and food-chain information were not covered by the search results.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Notice to the Veterinäramt, Tierseuchenkasse registration and a medicine Bestandsbuch (5-year retention) apply to all keepers, including hobbyists. Free templates from Apis e.V. and local offices. Mostly hobby buyers: weak.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "The amended TAMG applies from 2026-01-01. Antibiotic use in horses, ducks, geese, sheep, goats, food rabbits and some food fish must be collected from 2026 and reported by 2027-01-14 to TAM-DB (HI-Tier). Dog and cat reporting is pushed to 2030-01-14. This widens K20 to equine and small-ruminant practices; no check yet on whether their practice software has the interface.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Section 49 WHG notice for wells, with Land rules: Cologne at least 2 weeks ahead, Berlin and Brandenburg 1 month ahead, Berlin notice only for depth up to 15 m, Bavaria allows drilling if not prohibited within a month. Water-abstraction fees (Berlin above 6,000 m3/yr, Baden-Württemberg above 4,000 m3/yr). Close to K07 but for garden and household well drillers.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Municipal Satzungen set emptying intervals (Baden-Württemberg example: at 50% sludge fill or every 2 years) and annual maintenance certificates; municipalities tender emptying (a Lower Saxony procedure was found). Nothing new beyond K29 and K22.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Lifts: BetrSichV requires at least annual ZÜS checks and the ZÜS already sends a reminder about 2 weeks before expiry. AwSV (water-hazardous substances) Prüfpflicht for Heizöl tanks every 5 years (every 2.5 years in protected areas) and JGS plants; operator tracking software not found. Both listed as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Hausbrunnen and small waterworks: yearly microbiology, chemistry at least every 5 years, results to the Gesundheitsamt within 2 weeks, 10-year retention. Nothing new beyond K23.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Nothing new beyond K03 and K11. No search spent here (known and rejected); topagrar reports PPWR documentation duties for farm direct sellers (K02).",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "AÜG: Erlaubnis, half-yearly statistics based on the social-insurance notification flag, small-firm exception (under 50 employees) with a notice to the Agentur für Arbeit. No niche software gap found. A draft law on electronic working-time recording (exempting up to 10 employees) is not yet final and is a generic tool.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Funeral-home software is already sold (BestattungONE, DBA digitaler Bestatter-Assistent); Munich approved its own Bestattersoftware concept in 2021. Nothing new beyond K08 and K22.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Associations: the Transparenzregister entry is filled automatically from the Vereinsregister for typical e.V.; a fee exemption for charities needs an application. Since 2025-01-01 an association may issue a Zuwendungsbestätigung only if it is listed in the Zuwendungsempfängerregister (BZSt). Electronic transmission of donation receipts is still voluntary and unpiloted (Bavarian Court of Audit report, June 2026). Halal/kosher supervision was not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Taxi and Mietwagen: TSE duty for taximeters and Wegstreckenzähler from 2026-01-01 (some sources give 2027-01-01 for older certified devices), plus the Mietwagen order book (section 49(4) PBefG, 1-year retention) and the Finanzamt Kassen-Nachschau. Strongest lead in this group.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Cash-register rules apply (TSE only when electronic recording is used; registration of systems with the Finanzamt since 2025-01-01). Nothing new beyond K06. Money changers (BaFin) and market-office registration were not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Driving schools: FahrlG section 33 inspections at least every 2 years, with cloud software already sold (Fahrschule.live, FahrSchule/SoftAiX). Tattoo studios: Gesundheitsamt hygiene supervision, no software gap found. Hofladen: PPWR only (K02). Kindertagespflege: per-person Jugendamt contract, half-refund of social-insurance contributions with a January deadline (Esslingen: 1-15 January) and no software found. Hunting outfitters not searched.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "Haushaltshilfe Minijob Haushaltsscheck Meldung Arbeitgeber Privathaushalt Software",
+    "Altmetallhändler Schrotthändler Nachweispflicht Bargeldverbot Metallhandel Gesetz 2025 Register",
+    "Altfahrzeug Verwertungsnachweis Autoverwerter Demontagebetrieb Altfahrzeugverordnung 2026 Pflichten Software",
+    "Hobbyimker Bienenseuchen Registrierung Veterinäramt Pflicht Imker Honig Rückstandskontrollplan Dokumentation",
+    "Brunnenbohrer Grundwasserentnahme Anzeige Wasserentnahmeentgelt Messeinrichtung Erklärung Landesgesetz",
+    "Aufzugsprüfung zugelassene Überwachungsstelle Betreiber Prüffristen Aufzugsbuch BetrSichV Software",
+    "Zeitarbeit Arbeitnehmerüberlassung Erlaubnis Meldung Bundesagentur Statistik Verleiher Software Kleinbetrieb",
+    "Bestatter Software Bestattungsunternehmen Leichenschau Überführung Genehmigung Krematorium Antrag digital",
+    "Mietwagen Taxi Unternehmer Pflicht 2026 Fiskaltaxameter Datenübermittlung Rückkehrpflicht Nachweis",
+    "Fahrschule Pflichten Fahrschulüberwachung Fahrlehrerfortbildung Nachweis Software 2026",
+    "Metzgerei Schlachtbetrieb Dokumentation Lebensmittelketteninformation HI-Tier Schlachtdaten Software",
+    "Tierarztpraxis Tierarzneimittel Abgabebeleg Meldung HIT Antibiotika 2026 neue Verordnung",
+    "Kleinkläranlage Fäkalschlamm Abfuhr Nachweis Entsorger Saugwagen Pflichten",
+    "Verein Transparenzregister Vereinsregister Gemeinnützigkeit Zuwendungsbestätigung 2026 Software",
+    "Marktkaufleute Schausteller Wochenmarkt Kassensicherungsverordnung TSE Marktbeschicker",
+    "Trinkwasser kleine Wasserversorgungsanlage Hausbrunnen Gesundheitsamt Untersuchung Meldung",
+    "Zuwendungsempfängerregister BZSt Vereine elektronische Übermittlung Zuwendungsbestätigung 2027",
+    "Gebrauchtwarenhändler Goldankauf Ankaufbuch Buchführungspflicht § 38 GewO Land Software",
+    "Nachbarschaftshilfe Entlastungsbetrag Anerkennung Landesverordnung Abrechnung Pflegekasse Software",
+    "Software Mietwagen Auftragsaufzeichnung Rückkehrpflicht Fiskaltaxameter TSE Anbieter (plus 8 further: Tiertransport Zulassung, Kindertagespflege Abrechnung, Software Entlastungsbetrag, AwSV Anlagen Prüfpflicht, Arbeitszeiterfassung Pflicht 2026, Tätowierer Pflichten, Hofladen Direktvermarkter Pflichten)"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b7"
+ },
+ "discover:B:germany": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed Anbauvereinigungen (members' clubs); count not found",
+     "category": "31. Cannabis cultivation associations",
+     "evidence": "https://www.haufe.de/id/norm/konsumcannabisgesetz-26-dokumentations-und-berichtspflichten-von-anbauvereinigungen-HI16235352_p26.html ; https://www.hanf-magazin.com/recht/rechtslage-deutschland/csc-management-software-buchhaltung-und-compliance/ ; BY LGL online procedure https://lgl.bayern.de/downloads/produkte/doc/informationen_antragsstellung_anbauvereinigungen_kcang.pdf",
+     "existing": "Cannavigia, Cannanas, 420MEMBERS, Cannabees.cloud, CannaDesk (free), Herb Hub, WeedWallet, Hanf-App (vendor claims, unverified)",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Rejected on competitor evidence: 7+ dedicated products incl. a free one.",
+     "name": "Cannabis Social Club (Anbauvereinigung) KCanG record and annual-report tool",
+     "score": 2,
+     "status": "rejected",
+     "trigger": "KCanG s.26: continuous documentation, 5-year retention, electronic annual report by 31 Jan and anonymised evaluation data to the Land authority; s.16 member checks and 3-year self-declaration retention",
+     "trigger_note": "",
+     "unchecked": "Whether any product exports the exact Land report format; number of licensed clubs; political risk of the evaluation or a repeal."
+    },
+    {
+     "buyer": "German craft and installation firms working on jobs in Austria, France, Luxembourg, Netherlands, Italy, Spain, Czechia",
+     "category": "32. Posted-worker notifications abroad (also cat 27)",
+     "evidence": "https://www.deutsche-handwerks-zeitung.de/?p=380370 ; https://www.tk.de/firmenkunden/fachthemen/ausland/meldepflicht-entsendungen-aktueller-stand-2054970 ; https://hwk-do.de/wp-content/uploads/2024/07/FRA_Leitfaden_2022.pdf",
+     "existing": "Competitor search 'Entsendeportal Software Entsendung Handwerksbetrieb A1' found only consultancies (arlettipartners.com, Eurofiscalis), multi-country payroll tools (Deel, Oyster) and payroll-software A1 filing. No craft-specific tool found.",
+     "known_id": "K12",
+     "known_mark": "new",
+     "name": "Multi-country posted-worker notification desk for German craft firms (A1 + ZKO3 / SIPSI / e-Detachement etc.)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Pre-job notification in each host country (Austria ZKO3 before each posting, France SIPSI plus a named representative), and an A1 certificate for each business trip; the EU eDeclaration was agreed in trilogue on 2026-06-23, with no start date",
+     "unchecked": "Number of firms posting abroad per year; whether DATEV-type payroll tools or the Chambers (HWK) already offer a service; whether the eDeclaration (agreed 2026-06-23) removes the pain before a product could launch; Switzerland procedure not confirmed."
+    },
+    {
+     "buyer": "Baumschulen, Gartenbau, GaLaBau and plant traders that issue plant passports (Land Pflanzenschutzdienst-authorised)",
+     "category": "33. Plant-passport businesses (also cat 30)",
+     "evidence": "https://www.gartenbau.sachsen.de/download/Pflanzen_pass_kor.pdf ; https://www.lksh.de/fileadmin/PDFs/Hoheitliche_Aufgaben/Pflanzengesundheitskontrolle/14._Dezember_2019/Informationen_Rueckverfolgung.pdf",
+     "existing": "Competitor search found no named plant-passport software; nursery ERP likely covers labels (unverified).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Plant-passport and traceability register for nurseries, horticulture and landscape gardeners",
+     "score": 3,
+     "status": "weak",
+     "trigger": "EU Reg 2016/2031 Art. 84-93 and Impl. Reg 2017/2313: registration, authorisation, traceability code per trade unit, 3-year records of suppliers and recipients, annual official inspection (Land authority)",
+     "unchecked": "Number of authorised operators in Germany; nursery/garden-centre ERP products with plant-passport labels; whether Land portals take digital uploads."
+    },
+    {
+     "buyer": "Private holiday-flat hosts in cities with registration (Berlin, Freiburg and others) and, once Lands opt in, more",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/artikel.html ; https://www.smoobu.com/de/blog/kvdg-dac7-2026/ ; https://www.deutschertourismusverband.de/fileadmin/user_upload/Themen/Politik/EU-Kurzzeitvermietungsverordnung_Factsheet.pdf",
+     "existing": "Competitor search found Smoobu (channel manager; blog explains the number, product page does not show a registration-number feature) and the free municipal portals. BNetzA says no new registration procedures are planned for now.",
+     "known_id": "K15",
+     "known_mark": "new",
+     "name": "Short-term rental registration-number and occupancy-data desk for private hosts",
+     "score": 3,
+     "status": "weak",
+     "trigger": "EU Reg 2024/1028 (from 2026-05-20); BNetzA data hub since 2026-07-01; platforms must refuse listings without the municipal number where registration exists; one number per rental unit; spot checks of host data planned from October 2026",
+     "unchecked": "How many municipalities have registration (the BNetzA Excel list); Land opt-in laws (Berlin bill); whether channel managers add a registration-number field; hosts are mostly hobby-scale."
+    },
+    {
+     "buyer": "Energy co-operatives and local PV communities",
+     "category": "23. Co-operatives",
+     "evidence": "https://www.buendnis-buergerenergie.de/fileadmin/user_upload/Home/Publikationen/20251118_Factsheet_Energy_Sharing.pdf ; https://www.verbraucherzentrale.nrw/wissen/energie/preise-tarife-anbieterwechsel/energy-sharing-teilen-sie-solarstrom-2026-profitabel-mit-den-nachbarn-117167",
+     "existing": "Competitor search found no named vendor; Buergerwerke mentioned as co-operative marketer. Likely startups and utilities' billing systems (unverified).",
+     "known_id": "K09",
+     "known_mark": "new",
+     "name": "Energy-sharing administration and billing for Buergerenergie co-operatives",
+     "score": 3,
+     "status": "weak",
+     "trigger": "s.42c EnWG energy sharing from June 2026: quarter-hour allocation of shared and residual power, contracts and billing; plant register entries (MaStR); Stromsteuer exemption conditions (plants up to 2 MW, about 4.5 km, per a Buendnis Buergerenergie factsheet, unverified)",
+     "unchecked": "Vendors with energy-sharing modules; smart-meter rollout limits; heavy market-communication integration is not a solo MVP; real number of participating co-operatives."
+    },
+    {
+     "buyer": "Small Immobilienmakler",
+     "category": "28. Notaries, land agents, real estate brokers",
+     "evidence": "https://www.ihk.de/ulm/hauptnavigation/mitgliedsunternehmen/beraten-informieren/recht-steuern/rechtsauskuenfte/geldwaesche/neue-registrierungspflicht-nach-dem-geldwaeschegesetz-6712660 ; https://www.ihk.de/osnabrueck/recht-und-fair-play/handel-und-gewerbe/handelsrecht/geldwaeschepraevention--5931094",
+     "existing": "Search found only official leaflets; no named broker-specific software confirmed. AML vendors exist in general (unverified).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Real-estate broker GwG pack (goAML registration, risk analysis, GwGMeldV report format)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "GwG: goAML registration for every obliged party; written risk analysis; GwGMeldV XML format from 2026-03-01 with real-estate extras; fines up to EUR 150,000 per case",
+     "unchecked": "Whether broker CRMs (Immoscout, onOffice, FlowFact) include GwG modules; filing is event-driven and rare; the 'GwGMeldV-Immobilien' claim from one blog (since 2025-02-17) is unconfirmed."
+    },
+    {
+     "buyer": "Brokers, WEG and rental managers, and their staff",
+     "category": "28. Notaries, land agents, real estate brokers",
+     "evidence": "https://www.ihk.de/braunschweig/branchen/vermittlergewerbe/-34-c-gewo/weiterbildungspflicht34c-5187742",
+     "existing": "Training providers issue certificates; no log tool checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "s.34c GewO continuing-education log for brokers and residential managers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "s.34c(2a) GewO with s.15b MaBV: 20 h per 3 calendar years per activity, records kept 5 years, declaration to the Gewerbeamt on request",
+     "unchecked": "Number of permit holders; trade associations (IVD, VDIV) tools."
+    },
+    {
+     "buyer": "Hotels, shops, small firms with publicly accessible charging points",
+     "category": "34. EV charging operators (also cat 21)",
+     "evidence": "https://www.bundesnetzagentur.de/ladeinfrastruktur ; https://www.bdew.de/media/documents/20260321_Die_H%C3%BCrden_des_Eichrechts_BMWE_final_.pdf",
+     "existing": "Not checked (CPO back-ends and charger vendors likely handle this).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "EV-charging-point operator notification and calibration desk (small operators)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Ladesaeulenverordnung (new from 2026-01-01) s.4: electronic notice of commissioning/decommissioning to the BNetzA plus technical-safety proof; Eichrecht calibration (over EUR 500 per DC point)",
+     "unchecked": "Competitors; small-operator exemptions; whether a hotel car park counts as 'publicly accessible'; MID amendment status."
+    },
+    {
+     "buyer": "Shops, restaurants, butchers, homeowners with covered systems",
+     "category": "36. F-gas operators",
+     "evidence": "https://dserver.bundestag.de/btd/21/042/2104294.pdf ; https://www.umweltbundesamt.de/themen/klima-energie/fluorierte-treibhausgase-fckw/rechtliche-regelungen/faqs-zur-f-gas-verordnung",
+     "existing": "Not checked; refrigeration contractors usually keep the system log.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "F-gas operator log and leak-check scheduler for small refrigeration/AC/heat-pump operators",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "EU Reg 2024/573 leak checks and records; German implementing ordinance (Drucksache 21/4294, Feb 2026) replacing ChemKlimaschutzV, status unconfirmed",
+     "unchecked": "Competitor search; whether the ordinance is in force; existing 'Kaeltebuch' tools; whether the contractor holds the duty in practice."
+    },
+    {
+     "buyer": "Small firms placing food containers, bags/films, drinks cups or fireworks on the market",
+     "category": "35. Single-use plastic fund",
+     "evidence": "https://www.umweltbundesamt.de/ewkf ; https://www.grantthornton.de/themen/2024/registrierungsfrist-fuer-hersteller-von-einwegplastik-endet/",
+     "existing": "Not checked; packaging compliance providers likely add this (unverified).",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "Einwegkunststofffonds annual report and levy desk for small producers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "EWKFondsG: DIVID registration through ELSTER, annual report by 15 May, levy notice from UBA (fireworks added 2026)",
+     "unchecked": "Thresholds for small firms; competitors; the gastro 'first placed on the market' reading."
+    },
+    {
+     "buyer": "About 90,000 Heilmittel and Hilfsmittel providers (physio, ergo, speech, podiatry, Sanitaetshaeuser)",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://www.verbandsbuero.de/ti-anbindung-fristverlaengerung-bis-oktober-2027/ ; https://www.aerzteblatt.de/news/ti-anbindung-viele-heilmittelerbringer-sehen-verschiebung-positiv-1527b354-b199-4324-87ab-a2bcc5d5466d",
+     "existing": "Practice-software vendors are the incumbent route (as for K21); not searched by name.",
+     "known_id": "K21",
+     "known_mark": "new",
+     "name": "Heilmittel practices TI-connection and e-prescription readiness service",
+     "score": 2,
+     "status": "weak",
+     "trigger": "TI connection duty moved to 2027-10-01 (BEEP law) because the e-Heilmittelverordnung is late; the deadline had no sanction",
+     "unchecked": "Vendor offers; the new eVO start date; whether pain is software or hardware."
+    },
+    {
+     "buyer": "Retail and trade sellers of restricted chemicals",
+     "category": "25. Pharmacies, medicine importers and users of controlled chemicals or precursors",
+     "evidence": "https://www.ihk.de/chemnitz/innovation/umweltschutz/haeufig-nachgefragt/verkauf-von-chemikalien-das-landeskriminalamt-informiert-2994462",
+     "existing": "Not checked.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "Chemical and precursor sales book for drugstores, DIY and farm suppliers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "ChemVerbotsV sales book (5-year retention for toxic and very toxic substances); EU Reg 2019/1148 and the Ausgangsstoffgesetz: business-customer declaration, valid 1 year; report suspicious deals to the LKA",
+     "unchecked": "Number of sellers; whether POS or merchandise systems cover it; GUeG scope."
+    },
+    {
+     "buyer": "Handwerk, retail, gastronomy",
+     "category": "38. Commercial waste documentation",
+     "evidence": "https://www.ihk.de/koeln/hauptnavigation/umwelt-und-energie/umwelt/die-gewerbeabfallverordnung-5041038",
+     "existing": "Not checked; waste contractors' invoices often serve as the proof.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "Gewerbeabfall documentation pack for trades and catering",
+     "score": 2,
+     "status": "weak",
+     "trigger": "GewAbfV: separate collection plus documentation, shown only on authority request; fine up to EUR 100,000; an amendment was reported for July 2026 (unverified)",
+     "unchecked": "Enforcement intensity; competitors; the 2026 amendment."
+    },
+    {
+     "buyer": "Small Spielhallen, Wettvermittlungsstellen and pubs with gaming machines",
+     "category": "37. Gambling venues",
+     "evidence": "https://www.ihk.de/stuttgart/branchen/dienstleistung/brancheninformationen/spielveranstalter-671760 ; https://www.bra.nrw.de/foerderportal-wirtschaft/branchenspezifische-und-allgemeingueltige-regelungen/gluecksspiel",
+     "existing": "Not checked; machine suppliers and block-list integrators likely.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Spielhallen and gaming-machine caterers OASIS and social-concept compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "OASIS check before play since 2021-07-01; social concept and training proof; Land licensing",
+     "unchecked": "Vendors; the number of small operators; whether the duty is recurring paperwork rather than a gate check."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Federal rules. Heating-oil and fuel dealers self-assess Energiesteuer at the Hauptzollamt via Zoll-Portal IVVA (Steuerlager needs a permit); THG-Quote 12% in 2026 and CO2 surcharge fall on fossil petrol and diesel suppliers, not small heating-oil dealers (unverified). No small-dealer-specific reporting gap found; nothing new beyond K05 (Zoll-Portal obligation). Charging-point operators are the new 'fuel station': see cat 34. LPG distributors and Tankstellen price reporting (MTS-K) not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Federal. BLE quantity reports under MarktOG s.15 and MarktOWMeldV; per the Baden-Wuerttemberg Landtag answer (older source, verify) firms processing up to 1,000 t/yr are exempt. Feed business registration (Reg. 183/2005) not confirmed in this search. No candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Federal. Energy co-operatives: s.42c EnWG energy sharing live June 2026 with quarter-hour metering and allocation; one candidate listed. Audit-association (Pruefungsverband) duties and Transparenzregister not searched in depth.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Federal (SGB V). Heilmittel providers (about 90,000 incl. physio, Sanitaetshaeuser) must join the TI by 2027-10-01 (moved from 2026-01-01, sanction-free) because of the delayed e-Heilmittelverordnung; listed as weak. Nothing new beyond K21 for home care. Labs and private clinics not searched separately.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Federal. Explosives precursors: EU Reg 2019/1148 with the German Ausgangsstoffgesetz, plus ChemVerbotsV sales book (5-year retention) for sellers of toxic substances (drugstores, DIY, farm suppliers). Cannabis clubs under KCanG s.26 (cat 31). GUeG text not retrieved.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Federal. AUeG: licence from the Bundesagentur fuer Arbeit, equal pay after 9 months, 18-month limit, statistics reported by lenders; no recurring small-firm gap found; the half-year report rhythm was not confirmed. Security register is K19 (rejected). Cleaning minimum-wage records not searched separately.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "One broad search found no new German small-contractor duty for 2026. Found only older rules (Hessen s.53 KrWG waste-transport notice for building trades; Bavarian Handwerkerregelung under 2 t/yr; Art. 52 BayBO site documents). Nothing new beyond K01, K12 and K13. Specific SOKA-BAU and posted-worker items are handled in cat 32.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Federal. All GwG obliged parties had to register in FIU goAML by 2024-01-01; the new GwGMeldV (XML format, real-estate extras) applies from 2026-03-01; brokers' risk-management duty applies only to sales and rentals of EUR 10,000/month or more. s.34c GewO 20 h per 3 years continuing education for brokers and residential managers, records kept 5 years; the authority can request a declaration. Two candidates, both weak. No broker-specific software found, but not exhaustively searched.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Mixed federal and Land and municipal. EU Reg 2024/1028 applies from 2026-05-20; the Bundesnetzagentur data hub (SDEP) went live 2026-07-01; platforms first send monthly occupancy data on 2026-09-01; spot checks of host data planned from October 2026. There is no national registration number: it is opt-in per Land or municipality (Berlin since 2018, Freiburg since 2022). The Bundesnetzagentur says no new registration procedures are currently planned. Guest tax is K15 (rejected). One candidate, weak.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "EUDR is K28 (rejected). Plant passports for nurseries, horticulture and landscape gardeners (EU Reg 2016/2031, 2017/2313; Land plant-protection services) are a recurring traceability duty: listed as a candidate in cat 33. Timber and fish import certificates not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Cannabis cultivation associations (KCanG, since 2024-04-01; Land authorities)",
+     "found": "KCanG s.26: running records of seeds, cultivation, handover and destruction, kept 5 years; electronic report by 31 Jan each year (volumes, stock, strains, THC/CBD) plus anonymised evaluation data. Seven or more dedicated software products exist, so it is rejected.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Posted-worker notifications by German craft firms working abroad (A1, ZKO3 Austria, SIPSI France, e-Detachement Luxembourg, WagwEU Netherlands and others)",
+     "found": "A1 goes through payroll software or the SV-Meldeportal (mandatory electronic). Each host country has its own portal, with a notice before each job. The EU eDeclaration was agreed in trilogue on 2026-06-23 with no start date. No multi-country software for small firms found, only consultancies. One candidate, weak.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Plant-passport businesses (nurseries, horticulture, landscape gardeners, garden centres), Land plant-protection services",
+     "found": "Registration and authorisation by the Land Pflanzenschutzdienst, one-off training, traceability code, annual official inspection, 3-year records. No specific software found; farm and nursery ERP likely exist (unverified). One candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "34. EV charging-point operators (Ladesaeulenverordnung, new version from 2026-01-01; Eichrecht)",
+     "found": "Federal. Operators of publicly accessible charging points must notify commissioning and decommissioning to the Bundesnetzagentur and give a technical-safety proof. Calibration costs over EUR 500 per DC point (BDEW paper, April 2026). Small-operator thresholds, CPO platforms and the hotel-parking question were not checked. One candidate, unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Single-use plastic fund (EWKFondsG) and other producer registrations",
+     "found": "Federal, UBA DIVID portal, ELSTER account required. Annual report by 15 May (first 2025-05-15); the levy is billed by notice. Fireworks makers are added from 2026. Small-producer thresholds and gastro rules not found. Related to K02. One candidate, weak (compliance providers likely).",
+     "status": "screened"
+    },
+    {
+     "category": "36. F-gas operators (refrigeration, air conditioning, heat pumps; EU Reg 2024/573)",
+     "found": "Operators include homeowners; leak checks every 12, 6 or 3 months by tonnes CO2e. The national implementing ordinance (Bundestag Drucksache 21/4294, 25 Feb 2026) replaces the ChemKlimaschutzV; whether in force is unconfirmed. Records and reporting details not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Gambling venues (Spielhallen, Wettvermittlungsstellen, catering with gaming machines)",
+     "found": "OASIS block-list check mandatory since 2021-07-01; the GGL is responsible, the block-list is run in Darmstadt, and Land law governs licensing (Hessen has its own OASIS HSpielhG). Social concept is mandatory. No software evidence found; likely served by machine suppliers (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "38. Commercial waste documentation (GewAbfV) for trades and catering",
+     "found": "Federal. All non-household businesses must separate waste and keep documentation, which is only produced on request, electronically. Fine up to EUR 100,000. An amendment was reported for July 2026, which I did not verify. No software evidence found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "Heizölhändler Mineralölhändler Pflichten Energiesteuer Zollportal THG-Quote Meldung kleine Händler 2026",
+    "Kurzzeitvermietung Registrierungsnummer Deutschland EU-Verordnung 2024/1028 Registrierungsverfahren Gastgeber Ferienwohnung",
+    "Anbauvereinigung Cannabis Dokumentationspflicht Jahresmeldung Behörde Software Verwaltung Cannabis Social Club",
+    "Heilmittelerbringer Physiotherapie Praxis TI-Anschluss Pflicht Frist Abrechnung elektronisch 2026",
+    "Immobilienmakler Geldwäschegesetz goAML Registrierung Pflicht Meldung Verdachtsmeldung Software Makler 2026",
+    "Entsendung Handwerker Ausland Meldung A1 Österreich ZKO Schweiz Frankreich SIPSI Handwerksbetrieb Software Entsendemeldung",
+    "Getreidehändler Lagerhalter Meldepflicht BLE Getreide Bestandsmeldung Mühlen Futtermittelunternehmer Registrierung",
+    "Energiegenossenschaft Bürgerenergie Pflichten Meldungen Energy Sharing Stromsteuer Marktstammdatenregister Software",
+    "Zeitarbeit Verleiher Arbeitnehmerüberlassung Erlaubnis Anzeige Statistik Halbjahresmeldung Bundesagentur 2026",
+    "Wohnimmobilienverwalter Makler Weiterbildungspflicht 20 Stunden Nachweis Gewerbeordnung 34c",
+    "Pflanzenpass Gartenbaubetrieb Baumschule Registrierung Pflanzengesundheit Unternehmer Pflichten Aufzeichnung",
+    "Einwegkunststofffonds Registrierung Hersteller Meldepflicht Kleinhersteller Gastronomie DIVID",
+    "F-Gase Betreiber Kälteanlage Dichtheitskontrolle Betreiberpflichten Verordnung 2024/573 Deutschland Kleinbetrieb",
+    "Spielhalle Wettvermittlungsstelle Betreiber OASIS Sperrsystem Pflichten GGL Software",
+    "Ladepunkte Betreiber Pflichten Eichrecht Bundesnetzagentur Anzeige Ladesäule Kleinbetreiber 2026",
+    "Gewerbeabfallverordnung Dokumentationspflicht Gewerbetreibende Abfalltrennung Handwerk Gastronomie Software",
+    "Grundstoffüberwachungsgesetz Drogerie Händler Explosivstoffgrundstoffe ChemVerbotsV Abgabe Dokumentation",
+    "Software Anbauvereinigung Cannabis Mitgliederverwaltung Dokumentation KCanG Anbieter",
+    "Entsendeportal Software Entsendung Handwerksbetrieb A1 Entsendemeldungen mehrere Länder Anbieter",
+    "Pflanzenpass Software Baumschule Gartenbau Rückverfolgbarkeit; Geldwäsche Software Makler; Bauhandwerker Pflicht 2026; Energy Sharing Software; Registrierungsnummer Ferienwohnung Software"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b7"
+ },
+ "escalate:germany:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No craft-focused multi-country SaaS found. Equus Platform automates posted-worker filing with RPA and APIs for AT, CY, GR, HU, IE, NL, SE and PT; it is aimed at enterprises. NIUMAD is an online service that collects posted-worker data. Done-for-you consultancies (Eurofiscalis, arlettipartners/Studio A&P) act as the French representative and file SIPSI. The IHK and HWK chambers give advice and fill-in guides but do not file. The future free EU eDeclaration portal is the main threat. Not checked in this session: DATEV and other payroll software for A1 filing.",
+   "duty": "Host-country law, not German law. Austria (LSD-BG): a ZKO3 notice to the BMF Zentrale Koordinationsstelle before work starts (up to one week before). For repeat postings under one contract, one notice can cover up to 6 months. Sole traders without employees are exempt. France: a SIPSI prior declaration for each posting, even for one-day services, plus a mandatory representative in France. The IHK sheet gives fines of 4,000 EUR per undeclared worker, up to 500,000 EUR. Belgium: Limosa. An A1 certificate is needed per posting. EU eDeclaration: provisional deal on 2026-06-23, still awaiting formal adoption. It is voluntary for member states, has no go-live date, and the ZDH notes A1 is not yet linked to it. Not checked: the Netherlands, Italy, Spain, Czechia, Luxembourg and Switzerland procedures.",
+   "market": "KPMG, citing EU PD A1 data, puts Germany as the top issuing country in 2024 with about 2.1M PD A1 certificates. Older Bundestag figures show about 230k per year for 2010-2016 (Drucksache 19/2806); the two series are not directly comparable. The number of German craft firms that post workers each year was not found.",
+   "reason": "The duties are real, but they come from each host country's law, not German law. Austria requires a ZKO3 notice under the LSD-BG before work starts (BMF/WKO). France requires a SIPSI declaration plus a named representative, even for one-day jobs, with fines of 4,000 EUR per worker. I found no cheap multi-country tool built for craft firms. Equus automates some countries for enterprise mobility teams, and consultancies such as Eurofiscalis and arlettipartners sell the service. The trilogue deal of 2026-06-23 creates a single EU eDeclaration portal that the Commission will build. It is optional for states, has no start date, and once a state joins it replaces that state's portal. That threatens the core value of form-filling. Postings are frequent, about 2.1M PD A1s issued in DE in 2024, but the market's lifespan is uncertain.",
+   "searches": 6,
+   "sources": "https://www.zdh.de/english/european-policy-department/trilogue-agreement-on-edeclaration-simplifies-day-to-day-business/ ; https://www.envoyglobal.com/news-alert/eu-agrees-on-digital-system-for-posted-worker-declarations/ ; https://www.consilium.europa.eu/de/press/press-releases/2026/06/23/council-and-parliament-agree-on-digital-declaration-system-for-posted-workers/ ; https://kpmg.com/xx/en/our-insights/gms-flash-alert/2026/flash-alert-2026-088.html ; https://support.equusoft.com/en/articles/630699-posted-worker-automation ; https://www.bmf.gv.at/themen/betrugsbekaempfung/zentrale-koordinationsstelle.html ; https://www.wko.at/arbeitsrecht/entsendung-eu-ewr-raum ; https://www.ihk.de/ulm/hauptnavigation/mitgliedsunternehmen/beraten-informieren/auslandsgeschaeft/mitarbeiterentsendung/laender-innerhalb-der-eu/frankreich-6692530 ; https://www.eurofiscalis.com/de/arbeitnehmerentsendung-frankreich/ ; https://www.handwerksblatt.de/die-handwerkskammern-in-deutschland/hwk-saarland/vereinfachungen-beim-entsendeportal-sipsi ; https://kleineanfragen.de/bundestag/19/2806-auswirkungen-der-reform-der-entsenderichtlinie.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "gapfill:germany": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small landlords with multi-unit buildings, WEG administrators, small Hausverwaltungen",
+     "category": "35 Hygiene/food registers and landlord drinking-water duties (Legionella, TrinkwV §31)",
+     "evidence": "miet-check.de/Mietblog/2024/02/28/legionellenpruefung-und-trinkwasserverordnung-pflichten-der-vermieter/; hausundgrund-verband.de Infoblatt 32 (Bekaempfung von Legionellen in Wohngebaeuden); ista.com/de/blog/immobiliensicherheit/legionellenpruefung-im-mehrfamilienhaus-so-bleibt-das-trinkwasser-sicher/. The legal cycle is a 3-year recurrence; compliance is usually bought as a lab/service package.",
+     "existing": "Service packages from ista, Techem and Haus & Grund services; no dedicated software product found in 2 searches. Hausverwaltung ERPs (Aareon, Domus and similar) may include a module (unverified).",
+     "known_id": "K23",
+     "known_mark": "new",
+     "known_note": "Related to K23 (drinking-water reporting by small utilities) but a different buyer (landlords) and duty.",
+     "name": "Legionella testing tracker for landlords, WEG and small Hausverwaltungen (3-year cycle, sample points, lab results, Gesundheitsamt notices, 10-year records)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "TrinkwV (Federal) §§14, 16, 31: UTA testing at least every 3 years, notify Gesundheitsamt on action-value breach (100 CFU/100 ml), notify tenants, keep records 10 years",
+     "unchecked": "Whether Hausverwaltung ERPs or Techem/ista portals already track the cycle; number of eligible buildings; sample-point and Gesundheitsamt registration formalities; whether the lab alone does the notification so the owner has little left to do"
+    },
+    {
+     "buyer": "Sole-trader and small Spedition/Kurier firms with vans over 2.5 t up to 3.5 t doing cross-border or cabotage work; KEP subcontractors",
+     "category": "32 Güterkraftverkehr and small hauliers (tachograph for 2.5-3.5 t vans from 2026-07-01)",
+     "evidence": "transport-online.de/news/eu-vorgabe-fahrtenschreiberpflicht-fuer-transporter-ab-juli-2026-185998.html; ihk.de/limburg/standortpolitik/planung-infrastruktur-verkehr/fahrtenschreiberpflicht-ab-juli-7103020; zdh.de Lenk- und Ruhezeiten / Tachographenpflicht; trans.info/de/tacho-pflicht-rueckt-naeher-88-prozent-der-transporter-sind-nicht-vorbereitet-473742 (88% unprepared per headline).",
+     "existing": "TachoPlus ArchivPC and free FreeDriver, Descartes Soloplus/Smartanalysis, Inelo TachoScan, Webfleet and Samsara telematics, VDO retrofit offers; no small-firm cloud product found beyond these.",
+     "known_id": "K19",
+     "known_mark": "new",
+     "known_note": "No known idea for haulage. K19 (security guards) has no relation; K19 listed only as the nearest 'fell because incumbents integrate' pattern.",
+     "name": "Cloud tachograph archive and compliance check for micro-hauliers with 2.5-3.5 t vans in cross-border transport",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Reg. 561/2006 and 165/2014 plus Fahrpersonalgesetz: 2nd-generation smart tachograph, driver cards, download every 28 days (card) and 90 days (unit), driving and rest time checks; applies since 2026-07-01",
+     "unchecked": "Number of affected firms (88% unprepared claim); whether the Handwerker 100 km and Werkverkehr exemptions remove most small operators; pricing of the incumbent tools; whether tachograph vendors give away download software for small fleets; retrofit lead times"
+    },
+    {
+     "buyer": "Small companies, associations, agencies, event organisers and cultural bodies that pay freelance artists or publicists",
+     "category": "33 Employer-side annual filings for small employers (KSK/KSA, KSVG, DRV audit)",
+     "evidence": "deutsche-rentenversicherung.de/DRV/DE/Experten/Arbeitgeber-und-Steuerberater/Pruefung-der-Kuenstlersozialabgabe/kuenstlersozialabgabe; aok.de/fk/sozialversicherung/kuenstlersozialabgabe/meldepflichten-und-faelligkeit-kuenstlersozialabgabe/; haufe.de/id/beitrag/betriebspruefung-kuenstlersozialabgabe-HI6700491.html; datev-community.de thread on KSK settlement in payroll (anecdotal).",
+     "existing": "No dedicated KSA product found in 2 searches (general bookkeeping/payroll tools and tax advisers only). The KSK portal is free but needs a card reader and signature or an ELSTER-style certificate.",
+     "known_mark": "new",
+     "known_note": "Generic bookkeeping adjacency; a narrow add-on to expense data.",
+     "name": "Künstlersozialabgabe (KSA) liability finder and annual report prep for small Verwerter (associations, agencies, event firms, small galleries, publishers)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "KSVG (Federal): annual report by 31 March via the KSK portal, levy 4.9% in 2026, zero report also required, DRV audits at least 40% of employers with fewer than 20 staff each year, estimates on non-filing",
+     "unchecked": "Competitor search was the only check (no KSA tool found); how many Verwerter exist; whether accounting tools (Lexware, DATEV, sevDesk) tag KSA-liable expense; willingness to pay for a once-a-year job; DRV audit hit rate; whether tax advisers already include it in their flat fee"
+    },
+    {
+     "buyer": "Owners/administrators of buildings with 6 or more units with wet central heating; Schornsteinfeger and heating contractors who perform the checks",
+     "category": "31 Heating-system owners: GEG/GModG §60b",
+     "evidence": "nexvyra.de/fakten/geg-60b-heizungspruefung-optimierung.html; lxgesetze.de/geg/60b. Secondary and blog sources only; the GModG text not read.",
+     "existing": "None found in 1 search; HKVO/Verwalter tooling (ista, Techem) is related (K16). Hausverwaltung software unchecked.",
+     "known_id": "K16",
+     "known_mark": "new",
+     "known_note": "Related to K16 (HKVO), same buyers (Verwalter) but a different duty.",
+     "name": "Heizungsprüfung (§60b) scheduler for Hausverwaltungen and trades (GEG/GModG)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "§60b GEG (now said to carry over in the GModG): check and optimisation by a qualified person; 30 Sep 2027 deadline for systems installed before Oct 2009; 15 years after installation for later systems; results in writing; measures within 1 year; fine up to 5,000 EUR per one secondary source",
+     "unchecked": "Whether §60b survives unchanged in the GModG (law replaced the GEG in July 2026); count of buildings with 6+ units and eligible systems; who in the chain would buy; fines; whether Schornsteinfeger or Heizungsbauer already use industry software for the report"
+    },
+    {
+     "buyer": "Nebenerwerb and small mixed farms that use no farm-management software",
+     "category": "34 Landwirtschaft and Direktvermarkter (DüV, Sammelantrag)",
+     "evidence": "landwirtschaft.sachsen.de/download/Aufzeichnungs-und_Dokumentationspflichten_01_2025.pdf; baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/fristende-fuer-gemeinsamen-antrag-2026-am-15-mai-2026",
+     "existing": "Länder publish templates and tools (a Saxony program appears in the results, free status unverified); farm-management software and advisory services are incumbent (not named or checked). Link to K11 (farm pesticide e-records, rejected for FarmAct and AGRARMONITOR).",
+     "known_id": "K11",
+     "known_mark": "new",
+     "known_note": "K11 was rejected for e-records software; this is the DüV/Sammelantrag duty, but the same buyers and the same incumbent vendors probably apply.",
+     "name": "Small-farm fertiliser (DüV) needs calculation and Gemeinsamer Antrag assistant for part-time/small mixed farms",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "DüV (Federal): needs calculation above 50 kg N/ha or 30 kg P2O5/ha, annual farm total by 31 March, records kept 7 years; Gemeinsamer Antrag by 15 May (Länder portals, e.g. FIONA in BW)",
+     "unchecked": "Free Länder tools (BESyD or similar); farm-management vendors for small farms; the 2026 GAP simplification effect on Sammelantrag; the number of farms without any software; advisory services (Beratungsringe, Lohnunternehmer) already filing for farmers"
+    },
+    {
+     "buyer": "Small online shops and local retailers placing packaging on the market",
+     "category": "36 2024-2027 new laws on small operators (VerpackG/LUCID)",
+     "evidence": "verpackungsregister.org/fileadmin/files/Erklaermaterialien/Praxisbeispiel_Onlinehaendler.pdf; deutsche-recycling.de/blog/verpackungsverordnung-online-shop/; zmart.de/lucid-zentrale-stelle",
+     "existing": "Many service providers and dual systems already sell registration, licensing and reporting (Deutsche Recycling, Ecovis and others).",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "K02 covers the PPWR compliance file for small packaging brand owners (same buyer group, different duty: current VerpackG reporting).",
+     "name": "LUCID/Verpackungsregister annual data-report service for small online sellers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "VerpackG/VerpackDG (Federal): LUCID registration, system participation, annual and planned quantity reports, fines up to 200,000 EUR",
+     "unchecked": "Price points of the incumbent providers; whether dual systems automate the Datenmeldung; PPWR changes"
+    },
+    {
+     "buyer": "Imbiss, cafes and bakeries with takeaway (about 50,000 per the gap notes, unverified)",
+     "category": "36 2024-2027 new laws on small operators (VerpackG §33-34)",
+     "evidence": "dresden.de/de/stadtraum/umwelt/abfall-stadtreinigung/mitmachen/mehrweg/angebotspflicht.php; berlin.de/ba-mitte/aktuelles/pressemitteilungen/2023/pressemitteilung.1315566.php; euwid-recycling.de news on DUH wins",
+     "existing": "Reusable-system providers (app-based), IHK guidance; no statutory documentation duty found, so there is no register to keep.",
+     "known_mark": "new",
+     "known_note": "No known idea.",
+     "name": "Mehrwegangebotspflicht compliance kit for small takeaway operators",
+     "score": 2,
+     "status": "weak",
+     "trigger": "VerpackG §§33-34: reusable option, signage and same price; fines up to 10,000 EUR; Länder/municipal checks (Berlin-Mitte, Reinickendorf); DUH lawsuits",
+     "unchecked": "Whether any record is required; reusable-system provider pricing"
+    },
+    {
+     "buyer": "Online shops and service providers with 10 or more staff (micro-enterprises exempt for services, not for products)",
+     "category": "36 2024-2027 new laws on small operators (BFSG)",
+     "evidence": "ihk.de/aachen/recht/rechtsinformationen/aktuelle-dokumente-zum-thema-recht/barrierefreiheitsstaerkungsgesetz-bfsg-6517836; ohn.haendlerbund.de BFSG exemptions article",
+     "existing": "Many web agencies and accessibility tools; the Bundesfachstelle runs free office hours for micro-enterprises. Not a register or authority filing.",
+     "known_mark": "new",
+     "known_note": "Generic web/IT compliance; no recurring authority report.",
+     "name": "BFSG compliance for small service firms and shops",
+     "score": 2,
+     "status": "weak",
+     "trigger": "BFSG (Federal) since 2025-06-28; MLBF AöR (Länder market surveillance), fines up to 100,000 EUR",
+     "unchecked": "Whether the accessibility statement is required; scale of enforcement"
+    },
+    {
+     "buyer": "Restaurants, Imbiss, bakeries and caterers",
+     "category": "35 Hygiene/food registers (HACCP, IfSG §43)",
+     "evidence": "ihk.de/ostbrandenburg lebensmittelhygiene page; stadt-muenster.de MB 57 Lebensmittelrechtliche Vorschriften Gastronomie; apps.apple.com Alcomo HACCP app (vendor claim)",
+     "existing": "Alcomo HACCP app with temperature sensors; free downloadable templates (g-wie-gastro.de); other apps not checked",
+     "known_id": "K18",
+     "known_mark": "known",
+     "known_note": "Same pattern as K18 (pest-control documentation, rejected: DocMaH, IoT vendors).",
+     "name": "Gastro HACCP/IfSG §43 certificate tracker",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Reg. 852/2004 Art. 5 HACCP records; IfSG §43 certificate before work starts and refresher instruction",
+     "unchecked": "Nothing further; not re-checked"
+    },
+    {
+     "buyer": "Farm shops, Hofbäckereien",
+     "category": "34 Landwirtschaft and Direktvermarkter (Hofladen)",
+     "evidence": "laves.niedersachsen.de/download/192295/Merkblatt_Allgemeine_Vorgaben_zur_Direktvermarktung; aprocon.de/wp-content/uploads/2025/10/APRO.CON-HOFLADEN-BROSCHURE.pdf",
+     "existing": "APRO.CON Hofladen, Makoni (meat direct marketing), Frachtpilot, Business POS; registration is one-off, so there is no recurring authority report",
+     "known_mark": "new",
+     "known_note": "No known idea.",
+     "name": "Hofladen/Direktvermarkter registration and labelling software",
+     "score": 2,
+     "status": "rejected",
+     "trigger": "Reg. 852/2004 Art. 6 registration (one-off); LMIV allergen labelling; Reg. 178/2002 traceability",
+     "unchecked": "Rejected only because of the one-off registration and incumbent Hofladen POS vendors; no recurring authority filing found"
+    },
+    {
+     "buyer": "Employers with 20 or more jobs",
+     "category": "33 Employer-side annual filings",
+     "evidence": "arbeitsagentur.de/vor-ort/muenchen/presse/2025-6-beschaftigung-schwerbehinderter-menschen-bis-ende-marz-melden; deutsche-handwerks-zeitung.de/?p=147528",
+     "existing": "Free Bundesagentur software IW-Elan (iw-elan.de) does the filing and the levy calculation",
+     "known_mark": "new",
+     "known_note": "No known idea.",
+     "name": "Schwerbehinderten-Anzeige and Ausgleichsabgabe filing tool",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "SGB IX: annual notification by 31 March to the Agentur für Arbeit",
+     "unchecked": "Nothing; killed by the free state tool"
+    },
+    {
+     "buyer": "Small landlords and homeowners",
+     "category": "31 Heating-system owners (Wärmeplanung / 65% rule)",
+     "evidence": "nexvyra.de/news/2026-07-16-gebaeudemodernisierungsgesetz-gmodg-verabschiedet.html and boerse-express.com (GModG: 65% duty dropped, Biotreppe from 2029); reduco.ai/blog/kommunale-waermeplanung-2026 (Wärmeplan assigns zones; no immediate owner duty)",
+     "existing": "Not applicable: the trigger is gone or has no owner filing",
+     "known_mark": "new",
+     "known_note": "Related to K09 (heat-pump installer submissions, rejected) only by theme.",
+     "name": "Municipal Wärmeplanung and GEG 65% rule owner-compliance tool",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Wärmeplanungsgesetz deadlines (30 Jun 2026 and 30 Jun 2028); GEG 65% rule",
+     "unchecked": "Nothing; the 65% duty was removed by GModG (passed 2026-07-10), and the Wärmeplan creates no owner filing"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31 Heating-system owners: GEG/GModG 65% rule, §60b Heizungsprüfung/-optimierung, municipal Wärmeplanung (Federal law; Länder enforce via Schornsteinfeger/Behörden)",
+     "found": "Federal Bundestag/Bundesrat passed the Gebäudemodernisierungsgesetz (GModG) on 2026-07-10, replacing the GEG; the 65% renewable duty for new heating is dropped (Biotreppe from 2029), so the 65% trigger is dead. Wärmeplanung deadlines (30 Jun 2026 cities >100k, 30 Jun 2028 others) create no direct owner duty. §60b check/optimisation applies only to wet central heating (not heat pumps) in buildings with 6 or more units, deadline 30 Sep 2027 for pre-Oct 2009 systems, done by a qualified person (Schornsteinfeger, installer, energy adviser), result in writing, measures within 1 year. Small landlords with fewer than 6 units are outside it. Whether §60b survives unchanged in the GModG is not confirmed (one secondary source says yes). One weak candidate. Heizungsprüfung is performed by trades, so a scheduling tool would sell to trades or Hausverwaltungen. Sources: nexvyra.de/fakten/geg-60b-heizungspruefung-optimierung.html, nexvyra.de/news/2026-07-16-gebaeudemodernisierungsgesetz-gmodg-verabschiedet.html",
+     "status": "screened"
+    },
+    {
+     "category": "32 Güterkraftverkehr and small hauliers: Erlaubnis, Fahrtenschreiber for 2.5-3.5 t vans in international transport (from 2026-07-01), Lenk- und Ruhezeiten (EU rules via Fahrpersonalgesetz, BALM enforcement)",
+     "found": "The tachograph duty for vans over 2.5 t up to 3.5 t in cross-border commercial transport and cabotage has applied since 2026-07-01 (Reg. 561/2006, 165/2014, Fahrpersonalgesetz). It needs a 2nd-generation smart tachograph, a driver card and a workshop retrofit. Domestic-only haulage is out of scope, and there is a Handwerker 100 km exception (ZDH). Data download duty is every 28 days for driver cards and 90 days for the unit. Existing tools: TachoPlus (ArchivPC for small firms, free FreeDriver for employed drivers), Descartes Soloplus/Smartanalysis, Inelo TachoScan, Webfleet/Samsara telematics, VDO. A small-fleet cloud archive-and-check service may be a thin gap, but the vendors are dense. One weak candidate. Other Gewerbeanmeldung regimes in this row (Gaststättenerlaubnis, Reisegewerbekarte, §34c, Pfandleiher, Schaustellung) not reached: no search budget. Sources: ihk.de/limburg and ihk.de/hagen Fahrtenschreiberpflicht pages, zdh.de Lenk- und Ruhezeiten, verkehrsrundschau.de Tachosoftware Marktübersicht",
+     "status": "screened"
+    },
+    {
+     "category": "33 Employer-side annual filings for small employers: Künstlersozialabgabe (KSVG, Federal, DRV audits), Schwerbehinderten-Anzeige, BG Lohnnachweis, U1/U2/U3, DEÜV",
+     "found": "KSA: every Verwerter that regularly buys artistic or publicist services files an annual report by 31 March (electronic via the KSK portal) and pays the levy (4.9% in 2026). Zero reports are also required. DRV audits employers over 19 staff every 4 years and at least 40% of those under 20 staff. Pain: identifying liable payments (natural persons and GbRs, not GmbHs). No dedicated KSA product found; one DATEV community thread says payroll software did not handle KSA settlement (anecdotal and dated). One candidate. Schwerbehinderten-Anzeige (31 March, 20+ jobs): free Bundesagentur software IW-Elan covers it, so it is rejected. BG Lohnnachweis, U1/U2/U3 and DEÜV for Minijobbers were not searched. They are normally handled by payroll software and sv.net, unverified. Sources: deutsche-rentenversicherung.de Prüfung der Künstlersozialabgabe, aok.de/fk/sozialversicherung/kuenstlersozialabgabe, arbeitsagentur.de beschaeftigung_schwerbehinderter_menschen",
+     "status": "screened"
+    },
+    {
+     "category": "34 Landwirtschaft and Direktvermarkter: Düngeverordnung records/Düngebedarfsermittlung, Hofladen food rules, Gemeinsamer Antrag/Sammelantrag (InVeKoS), Betriebsregister (EU/Federal rules, Länder administer and run portals)",
+     "found": "DüV: a fertiliser needs calculation is required where more than 50 kg N/ha or 30 kg P2O5/ha is applied, with an annual farm total by 31 March and 7-year retention. Länder (e.g. Saxony, Thuringia) publish templates and tools (possibly free state programs, unverified). Gemeinsamer Antrag deadline is 15 May 2026 (BW via FIONA; late filing to 31 May with a cut). Länder run the portals, and farm-management software plus advisory services are the incumbents (not checked in depth). Hofladen: registration under Reg. 852/2004 is one-off. Existing Hofladen software: APRO.CON, Makoni (meat), Frachtpilot, Business POS (Swiss). Two weak candidates. Sources: landwirtschaft.sachsen.de Aufzeichnungs- und Dokumentationspflichten, baden-wuerttemberg.de Fristende Gemeinsamer Antrag 2026, aprocon.de Hofladen brochure, laves.niedersachsen.de Merkblatt Direktvermarktung",
+     "status": "screened"
+    },
+    {
+     "category": "35 Hygiene/food registers and landlord drinking-water duties: HACCP/Eigenkontrolle, §43 IfSG instruction, Legionella testing (TrinkwV §31 UTA, 3-year cycle) (EU/Federal rules, Gesundheitsämter and Lebensmittelüberwachung of the Länder/municipalities enforce)",
+     "found": "Legionella testing: required for central hot-water systems (storage over 400 l or over 3 l pipe volume) in multi-unit rented buildings with more than 2 units, at least every 3 years, using accredited labs. Owner or operator duties: notify the Gesundheitsamt, inform tenants, risk assessment above 100 CFU/100 ml, 10-year record retention, fines up to 25,000 EUR for missing notifications. Hausverwaltungen coordinate. No dedicated software found, only service providers (ista, Techem, Haus & Grund Thüringen service). Results go to the Gesundheitsamt via the lab. One weak/unverified candidate. HACCP/IfSG: Alcomo HACCP app and free g-wie-gastro templates exist, so the market is crowded, and the IfSG §43 certificate is one-off per worker. Sources: miet-check.de Legionellen, hausundgrund-verband.de Infoblatt 32, ista.com Legionellenprüfung Blog, apps.apple.com Alcomo HACCP, stadt-muenster.de MB 57",
+     "status": "screened"
+    },
+    {
+     "category": "36 2024-2027 new laws on small operators: VerpackG/VerpackDG LUCID and Datenmeldung, Mehrwegangebotspflicht (VerpackG §33), BFSG (since 2025-06-28), Wärmeplanung (Federal law; Länder enforce)",
+     "found": "LUCID: no size threshold; every business placing packaging on the market must register (free), hold a system participation contract and file Datenmeldungen (annual closing quantity plus planned quantity by 31 Dec); fines up to 200,000 EUR; many service providers (Deutsche Recycling, Ecovis, zmart and others) already serve online sellers. Mehrwegangebotspflicht: small shops (80 m2 or less and 5 staff or fewer) only have to fill customers' own containers; sign duty; fine up to 10,000 EUR; Länder enforce unevenly (Berlin-Mitte inspection failures, DUH lawsuits); no statutory documentation duty found. BFSG: micro-enterprises (fewer than 10 staff and 2M EUR turnover or balance sheet) are exempt for services but not products; MLBF AöR (Magdeburg) is the market-surveillance body; the Bundesfachstelle runs free office hours. All three look weak. Kassensicherungsverordnung, Hinweisgeberschutzgesetz, e-invoicing (K24) and BEG IV retention not searched. Sources: verpackungsregister.org Praxisbeispiel Onlinehändler, deutsche-recycling.de, dresden.de Mehrwegangebotspflicht, ihk.de/aachen BFSG",
+     "status": "screened"
+    }
+   ],
+   "fetches": 0,
+   "queries": [
+    "GEG §60b Heizungsprüfung Heizungsoptimierung Pflicht Vermieter Frist Kleinvermieter Software",
+    "Fahrtenschreiber Pflicht Transporter 2,5 bis 3,5 Tonnen internationaler Verkehr 2026 Lenkzeiten Auswertung",
+    "Künstlersozialabgabe Meldung Verwerter Prüfung Deutsche Rentenversicherung kleine Unternehmen Meldepflicht Software",
+    "Düngebedarfsermittlung Dokumentation Pflicht Kleinbetrieb Nebenerwerbslandwirt Hofladen Allergenkennzeichnung Registrierung",
+    "Legionellenprüfung Vermieter Anzeigepflicht Gesundheitsamt Untersuchung alle drei Jahre Verwalter Dienstleister",
+    "LUCID Verpackungsregister Datenmeldung Pflicht Kleinunternehmer Onlinehändler Systembeteiligung Mengenmeldung jährlich Dienstleister",
+    "Tachograph Auswertung Software Kleintransporter Fahrerkarte Download Fahrzeugeinheit Kleinunternehmer",
+    "Legionellen Verwaltung Software Mehrfamilienhaus Eigentümer Probenahme Termine Gesundheitsamt Anzeige Kleinvermieter App",
+    "Mehrwegangebotspflicht Imbiss Café Kleinbetrieb Dokumentation Pflicht Verstöße Kontrolle 2026 Software",
+    "Gemeinsamer Antrag Sammelantrag 2026 Nebenerwerb Kleinbetrieb Software Agrarantrag Unterstützung Lohnunternehmer",
+    "Hygienekonzept HACCP Eigenkontrolle Gastronomie Software Bäckerei Metzgerei Imbiss Belehrung IfSG §43 Dokumentation App",
+    "kommunale Wärmeplanung Frist 30. Juni 2026 Eigentümer Vermieter Pflichten Fernwärme Kleinvermieter Heizungstausch 65 Prozent",
+    "Künstlersozialabgabe Rechner Tool Meldung KSK Jahresmeldung Software Lohnsoftware Anbieter",
+    "Legionellen Software Trinkwasser Management Hausverwaltung Probenahmeplanung Gefährdungsanalyse Portal Anbieter",
+    "Kleintransporter Tachograph Handwerker Ausnahme 100 km Werkverkehr Fahrerkarte KEP Subunternehmer Juli 2026",
+    "Hofladen Direktvermarkter Software Kasse Allergene Etiketten Rückverfolgbarkeit Lebensmittelkontrolle Programm",
+    "BFSG Barrierefreiheitserklärung Kleinstunternehmen Ausnahme Onlineshop Marktüberwachung Pflicht 2026",
+    "Anzeige Beschäftigung schwerbehinderter Menschen Ausgleichsabgabe 31. März Software Meldung kleine Betriebe"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b7"
+ },
+ "opus:germany:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The TSE part is crowded: taximeter and Wegstreckenzähler hardware vendors, fiskaly cloud TSE through FMS (per the claim), and Hale. It should be left out of scope. For the order book, the FREENOW AGB require Mietwagen firms to record and forward orders through FREENOW's Fleet Partner Dashboard, so platforms already partly capture order intake. Uber's supplier portal manages the fleet, drivers and revenue. I found no evidence that it produces a § 49 order book. FahrerApp (meinfahrer.app) is Mietwagen-specific telematics with shift recording and seat-occupancy sensors. Its listing does not mention the order book, return-duty proof or TSE. SuE-TaMi Dispo, SOLU Driver and Taxi.de are dispatch tools. Fleetster, Vimcar and R-DRIVE are general electronic logbooks. I found no product that merges platform orders, GPS returns and follow-on order IDs into a register the licensing authority can audit and that flags return-duty breaches. The VG Ansbach case shows authorities now ask for exactly that data.",
+   "duty": "The duty is real, federal and in force. Under § 49 Abs. 4 PBefG, a Mietwagen may only carry out orders that arrive at the firm's base. The firm must record each incoming order in a book or electronically and keep the record for 1 year. After each trip the car must return to the base straight away unless it already has a follow-on order. The current text on gesetze-im-internet.de still contains the return duty. On 2026-06-03 the BGH (I ZR 123/25) upheld the return duty as constitutional and held that breaching it is unfair competition. Enforcement is active. In VG Ansbach AN 10 S 26.536 (16.07.2026), the authority demanded the order register on USB plus machine-readable platform trip data with return times and follow-on order IDs. It counted 67 breaches in 210 trips and revoked permits for 16 cars without a prior warning, and the court upheld this. VGH München 11 ZB 20.2076 upheld a sanction for a badly kept order book. Separately, under § 146a AO, KassenSichV and the BMF letter of 11.03.2024, taximeters and Wegstreckenzähler need a TSE from 2026-01-01. Breaches can be fined up to EUR 25,000 (Härting). The device must also be reported to the Finanzamt via ELSTER within 1 month. One summary says older Wegstreckenzähler with a digital interface may be connected to a TSE until 31.12.2026. Härting and the Berlin LABO page give 1.1.2026 as the hard date. I could not resolve this because the MV Merkblatt PDF was unreadable.",
+   "market": "I found no current national count. The DTMV figure via Statista is just over 53,000 taxis in Germany in 2016. The federal survey every four years (last cited for 31.12.2016) and Brandenburg's answer (data held only by districts) give no Mietwagen firm count. Mietwagen permits have no cap, and the Uber/Bolt-driven fleet segment is large in big cities. I estimate roughly 20,000 to 30,000 taxi and Mietwagen firms in total, mostly with 1 to 5 vehicles. This is unverified.",
+   "reason": "The pain is real and rising. The BGH upheld the return duty in June 2026, and VG Ansbach shows permits revoked for a missing or incomplete machine-readable order register. Owner-operators face daily record-keeping. The weak points: the TSE part is solved by hardware vendors. Platforms (FREENOW dashboard, Uber portal) already hold most order data, so a tool would be an aggregation and audit layer. Some heavy Mietwagen users break the return duty on purpose and won't buy proof tools. Political proposals to abolish the return duty add regulatory risk. Buyers are fragmented, price-sensitive and reached through taxi associations or IHK. An MVP needs platform data imports and GPS, so it is not trivial. It is a niche gap worth testing but carries risk.",
+   "searches": 6,
+   "sources": "https://www.gesetze-im-internet.de/pbefg/__49.html ; https://der-betrieb.de/meldungen/bgh-bestaetigt-rueckkehrpflicht-fuer-mietwagen/ ; https://www.otto-schmidt.de/news/wirtschaftsrecht/ruckkehrpflicht-fur-uber-uber-x-gebuchte-mietwagen-ist-bei-rein-nationalem-sachverhalt-nicht-am-unionsrecht-zu-messen-2026-06-03.html ; https://www.gesetze-bayern.de/Content/Rtf/Y-300-Z-BECKRS-B-2026-N-20282?all=False ; https://www.gesetze-bayern.de/Content/Rtf/Y-300-Z-BECKRS-B-2021-N-10964?all=False ; https://haerting.de/en/insights/odometer-with-tse-what-taxi-and-hire-car-companies-need-to-know-now/ ; https://www.berlin.de/labo/mobilitaet/fahrerlaubnisse-personen-und-gueterbefoerderung/aktuelles/artikel.1623029.php ; https://lfst.rlp.de/fileadmin/lfst.rlp.de/Service/Unternehmer/20240311_BMF___146a_AO_Aufzeichnung_und_Aufbewahrung_Taxi_u_Mietwagen.pdf ; https://eu-assets.contentstack.com/v3/assets/blt6e28a7086c72dd55/blt88cec6d4f33f02d6/69f9b33d63b2b574c44a6a01/Allgemeine_Geschaftsbedingungen_-_Stand_12.2023.pdf ; https://www.productcool.com/product/fahrerapp-mietwagen-fuhrparkmanagement-software ; https://www.lobbyregister.bundestag.de/media/96/c6/831631/Stellungnahme-Gutachten-SG2608170003.pdf ; https://de.statista.com/statistik/daten/studie/36475/umfrage/anzahl-der-taxen-in-deutschland-seit-1960 ; https://kleineanfragen.de/brandenburg/6/11595-mietwagen-und-taxiunternehmen-in-brandenburg.pdf",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "opus:germany:GAPS3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no dedicated tool that classifies KSA-liable payments. Partial substitutes cover most of the job:\n- The free federal online form on verwaltung.bund.de takes about 5 minutes and uses an ELSTER certificate or eID, so the claim's card-reader barrier looks outdated.\n- The paper form the KSK mails out each year.\n- Ausgleichsvereinigungen under § 32 KSVG handle the duty for about 71k Verwerter.\n- Accounting software: Lexware has KSA guidance and dedicated accounts (Haufe gives 4391/6431 for SKR03/04), and a provider claims lexoffice automates KSK bookings.\n- Tax advisers.\n- Free online calculators such as steuerschroeder.de.",
+   "duty": "KSVG (federal). Companies liable for the levy must report the previous year's net fees paid to self-employed artists and publicists to the KSK by 31 March without being asked. Typical exploiters (publishers, agencies, galleries) must file a zero report if they paid nothing. The levy is 4.9% in 2026 (ordinance published September 2025) and 5.0% in 2027, with monthly advance payments. For companies that use artists only occasionally, the de minimis limit rose to 1,000 EUR in 2026; typical exploiters are always liable. The DRV must reach every employer every four years by audit or consultation. It audits about 40% of employers with up to 19 staff, covering 4 to 5 calendar years, and late or wrong reports lead to an estimate. I did not check the amount of fines in this session.",
+   "market": "A Bundestag answer gives about 157k companies paying the levy in 2019 and about 156k in 2020 (preliminary). About 71k more meet the duty through Ausgleichsvereinigungen. The DRV audits about 400k employers a year, so far more small firms are potentially liable but not registered. I found no figure newer than 2020.",
+   "reason": "The duty is real federal law (KSVG). Companies that use self-employed artists or publicists file a report by 31 March, including a zero report if they paid nothing. The levy is 4.9% in 2026 and returns to 5.0% in 2027, and it is paid in monthly advances. The DRV covers every employer at least every four years. It audits about 40% of employers with up to 19 staff and covers 4 to 5 past years, and the KSK or DRV estimates the levy if no report is filed. No dedicated KSA product turned up. However, the filing itself is a 5-minute online form on the federal portal (verwaltung.bund.de) with an ELSTER certificate, so the card reader in the claim is outdated. About 71k firms already file through Ausgleichsvereinigungen, and tax advisers or accounting tools handle the rest. That leaves only the job of sorting which payments count, done once a year, so willingness to pay is low.",
+   "searches": 6,
+   "sources": "https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Arbeitgeber-und-Steuerberater/Pruefung-der-Kuenstlersozialabgabe/kuenstlersozialabgabe.html ; https://www.tk.de/firmenkunden/service/fachthemen/fachthema-beitraege/kuenstlersozialabgabe-2026-2201218 ; https://www.handwerksblatt.de/betriebsfuehrung/kuenstlersozialabgabe-sinkt-2026-auf-4-9-prozent ; https://www.aok.de/fk/sozialversicherung/kuenstlersozialabgabe/meldepflichten-und-faelligkeit-kuenstlersozialabgabe/ ; https://verwaltung.bund.de/leistungsverzeichnis/DE/leistung/99107033011009/herausgeber/LeiKa-102775751/region/000000000000 ; https://linksfraktion.de/fileadmin/user_upload/PDF_Dokumente/2021/Kleine_Anfrage_19-25467_-_Antwort__002_.pdf ; https://www.lexware.de/wissen/mitarbeiter-gehalt/kuenstlersozialabgabe/ ; https://onlinebilanz.de/?p=61889 ; https://www.haufe.de/id/beitrag/kuenstlersozialabgabe-HI1904318.html ; https://www.informationsportal.de/kkh/kuenstlersozialkasse-abgabe-2027-wieder-bei-5-prozent/ ; https://www.steuerschroeder.de/Steuerrechner/Kuenstlersozialkasse.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:germany:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Entlastungsbetrag (§45b SGB XI, 131 EUR/month) is refundable only for Land-recognised or registered Angebote. Helpers must issue monthly Leistungsnachweise, and Bayern requires an annual Tätigkeitsbericht. Three searches found no software for solo helpers, only Land PDF forms and consumer guides. But this is not a mandatory recurring duty to an authority. It is optional billing, and the helpers are tiny earners. Rules differ across 16 Länder, and 8 EUR/hour caps limit willingness to pay. Pflegesoftware for ambulante Dienste was not checked. No national count of recognised helpers was found. Weak buyer, fragmented rules, and a 1-page form is a close substitute.",
+   "searches": 3,
+   "sources": "https://soziales.niedersachsen.de/download/191137/Abrechnungsvordruck.pdf ; https://www.verbraucherzentrale.nrw/wissen/gesundheit-pflege/pflege-zu-hause/alltagshilfe-in-nrw-was-pflegebeduerftige-wissen-sollten-117094 ; https://stmgp.bayern.de/wp-content/uploads/2024/03/202401_flyer_selbststaendigeeinzelperson.pdf ; https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/LASG/Aufgaben/AfoeVO/_documents/Allgemein/Nachbarschaftshilfe",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:germany:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: §23(2) SGB VIII gives half-refund of pension and health/care contributions on application, accident insurance refunded in full. Deadlines differ by Jugendamt (Esslingen: by 15 Jan of the following year). It is an annual form task, not a heavy compliance duty. No software found aimed at self-employed Tagespflegepersonen. Existing tools are Kita or municipal systems (KAI, Kita-Abrechnung, KiPro, ITEBO NH-Tagespflege), which are not sold to individuals. Market is about 40,000 persons, shrinking about 11% from 2020 to 2024. Pain is low, willingness to pay is weak, forms are Jugendamt-specific and fragmented, and the duty is mostly form-filling, so the MVP is thin. Competition is absent but demand is small. The 40,000 figure is an inference from a Prognos-derived \"knapp 45.000 bis 2020\" less 11%, not a 2025 Destatis count.",
+   "searches": 5,
+   "sources": "https://www.mtk.org/statics/ds_doc/downloads/LeitlinienKindertagespflege.pdf ; https://www.bverwg.de/pm/2024/66 ; https://www.softguide.de/programm/kita-abrechnung ; https://www.softguide.de/programm/kai32-kita-software ; https://apps.apple.com/lb/app/kipro-parent/id1639889092 ; https://www.bildungsserver.de/Kindertagespflege-2463-de.html ; https://de.statista.com/themen/11886/kindertagesbetreuung",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:germany:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: AwSV (federal) requires expert checks for underground tanks and larger above-ground Heizöl tanks (over 10,000 l, or from 1,000 l in protection zones) every 5 years, or 2.5 years in water-protection areas. Transition rules in §70 AwSV give first-check deadlines up to Aug 2027. No operator-side deadline-tracking software found in 3 searches; TÜV offers reminders and authority notification as part of its inspection service. Market is large in theory (about 5.4M tank systems per an older IWO table, my own sum), but most are private households, not businesses. Prüfpflichtige share is unknown. Low willingness to pay, intervals every 5 years, inspectors already own the customer relationship, and rules differ by Land. Weak SaaS fit. Related to K04.",
+   "searches": 4,
+   "sources": "https://www.lfu.Bayern.de/buerger/doc/uw_123_heizoellagerung.pdf ; https://www.stadt-koeln.de/service/produkt/lagertanks-fuer-heizoel-und-diesel-sowie-andere-anlagen-fuer-wassergefaehrdende-stoffe ; https://www.berlin.de/umwelt/themen/wasser/artikel.154794.php ; https://www.gesetze-im-internet.de/awsv/__70.html ; https://www.tuvsud.com/de-de/branchen/produzierende-industrie/anlagenbau-betrieb/gewaesserschutz/heizoeltankpruefung ; https://www.haustechnikdialog.de/downloads/IWO_Uebersicht_Tankanlagen.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:germany:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Section 38 GewO only lets the Länder issue such ordinances. The NRW and Bavaria texts found are dated 1985, and I could not confirm they are in force. The IMK recommendation of Dec 2012 is known only from a Sachsen-Anhalt Landtag inquiry. Sachsen-Anhalt declined to introduce a duty (2013). The Brandenburg administrative rule lapsed in 1998. I found no current Land list and no penalty or frequency figures. The Sachsen-Anhalt PDF was unreadable. The one Land ordinance seen is a plain numbered book (a paper book or spreadsheet suffices), so buyers have little reason to pay for software. The buyer count is unknown. Two searches found no dedicated software. This is a small, fragmented, possibly lapsed niche. K32 was rejected for the same reason.",
+   "searches": 3,
+   "sources": "https://recht.nrw.de/system/files/BH/5534-4341.pdf ; https://www.verkuendung-bayern.de/files/gvbl/1985/12/gvbl-1985-12.pdf ; https://kleineanfragen.de/sachsen-anhalt/6/2078-buchfuehrungspflicht-fuer-altmetallhaendler.pdf ; https://bravors.brandenburg.de/verwaltungsvorschriften/av_gebrauchtwarenhandel_1993 ; https://lexetius.com/GewO/38,8",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:germany:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real: Austria requires a ZKO3 online notification before work starts, plus a contact person (§23 LSD-BG). France requires SIPSI notification and a named representative. The A1 certificate must be carried, and fines are per worker and can be high. The market is large: Austria logged about 23,000 German-sender notifications in 2016, about 5,100 of them construction, and Germany issues about 220,000 A1s a year (older data). No craft-specific multi-country tool turned up in my searches, only consultancies. Weaknesses: the EU eDeclaration (trilogue deal 23 June 2026, a 41-field form) may remove much of the pain; the portals are free; firms post irregularly; the ZDH wants the A1 linked in. I did not check DATEV or HWK services, Switzerland, or product names. Score is 4.",
+   "searches": 5,
+   "sources": "https://www.zdh.de/ueber-uns/fachbereich-europapolitik/eu-aktuell/trilogeinigung-zur-edeclaration-erleichtert-den-betriebsalltag/ ; https://www.boerse-express.com/news/articles/edeclaration-eu-spart-unternehmen-73-zeit-bei-entsendungen-921167 ; https://www.ihk.de/ulm/hauptnavigation/mitgliedsunternehmen/beraten-informieren/auslandsgeschaeft/mitarbeiterentsendung/laender-innerhalb-der-eu/arbeitnehmerentsendung-nach-oesterreich-6692540 ; https://www.handwerksblatt.de/die-handwerkskammern-in-deutschland/hwk-saarland/vereinfachungen-beim-entsendeportal-sipsi ; https://www.parlament.gv.at/dokument/XXV/AB/7701/imfname_521744.pdf ; https://kleineanfragen.de/bundestag/19/2806-auswirkungen-der-reform-der-entsenderichtlinie.pdf ; https://arlettipartners.com/de/entsendung-von-arbeitnehmern-nach-oesterreich/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:germany:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. EU Reg 2016/2031 requires registration and authorisation, passports on trade units, and records kept 3 years. The Länder plant protection services run it, for example LK Schleswig-Holstein and RP Giessen. Two caveats: the traceability code is usually not required for finished goods, and the duty is mostly label printing plus records. Competition could not be settled. Searches found no dedicated plant-passport software, but nursery and horticulture ERP and label printers such as Koenig & Bauer probably cover passport labels. The KTBL software guide was blocked (Access Denied). No national count of authorised operators was found. The only figure is old Sachsen data from 2013 (50 Baumschulen, 83 Jungpflanzen producers). The market is probably a few thousand firms, many already served by ERP vendors. That makes the niche small, with weak willingness to pay.",
+   "searches": 3,
+   "sources": "https://www.lksh.de/fileadmin/PDFs/Hoheitliche_Aufgaben/Pflanzengesundheitskontrolle/14._Dezember_2019/Informationen_Rueckverfolgung.pdf ; https://pflanzenschutzdienst.rp-giessen.de/fileadmin/user_upload/PG-PP-FB_Pflanzenpass_Rueckverfolgbarkeitscode.pdf ; https://www.landwirtschaft.sachsen.de/download/Vortrag06_phytoKontrollen_M_Moewes.pdf ; https://coding.koenig-bauer.com/fileadmin/user_upload/dateien/kompetenzcenter/news/eu-pflanzenpass_velmans/KBC_Best%20Practise_Velmans_DE.pdf ; https://www.efsa.europa.eu/luDE/plh4l/plant-passports",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:germany:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: EU Reg 2024/1028 applies since 2026-05-20. The BNetzA data hub has run since 2026-07-01. Where a municipality has a registration procedure, hosts need one number per unit and must show it in every listing. Platform fines run up to 100,000 EUR, and the duty falls on the platforms, not hosts. Registration is opt-in by Land and municipality, and BNetzA says no new procedures are planned. Only a few places are named (e.g. München, Nürnberg, Regensburg, Tübingen from 2026-10-01), and Thüringen has none. The host-side job is one-off: apply once, enter the number once. Hosts are hobby-scale with low willingness to pay. Free municipal portals and the platforms' own fields cover the job. I did not confirm whether channel managers have a number field. I found no municipality count or host count (BNetzA list not opened). Niche, weak recurrence.",
+   "searches": 2,
+   "sources": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/Kurzzeitvermietung/artikel.html ; https://www.ihk.de/gera/wirtschaftsraum-ostthueringen/ihre-branche/tourismus-gastgewerbe/eu-kurzzeitvermietung-7065308 ; https://www.bundesnetzagentur.de/1106144",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:germany:B9": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "VDKF-LEC (operator version), Mobilec (Wurm), Clim'app (Dehon)",
+   "duty": "Operator records and leak checks under EU Reg 2024/573, implemented by the ChemKlimaschutzV Neufassung (reportedly in force 17 April 2026; BGBl not checked)",
+   "market": "Not quantified; no register or statistic found",
+   "reason": "The duty is real. The operator must keep records and arrange leak checks under EU Reg 2024/573, and records are kept for at least 5 years. The German ChemKlimaschutzV Neufassung reportedly applies from 17 April 2026 (IHK Braunschweig, secondary source; Bundesgesetzblatt not checked). Competition exists: VDKF-LEC (with an operator version), Mobilec and Clim'app are all aimed at contractors. In practice the Kälte contractor logs the system and schedules checks, so small operators rarely buy software. Many operators are affected, but willingness to pay is low and the buyer is fragmented. I did not verify 2024/573 intervals, the penalty (older sources say up to 50,000 EUR), or any market count. I left the verdict at unverifiable because the 2024/573 intervals, the penalty and the market size are unchecked.",
+   "searches": 3,
+   "sources": "https://www.ihk.de/braunschweig/beratung-und-service/umwelt-und-energie/umwelt/reach-verordnungen/neue-chemikalien-klimaschutzverordnung-7052404 ; https://www.bundestag.de/dokumente/textarchiv/2026/kw13-de-treibhausgase-1156766 ; https://dserver.bundestag.de/btd/21/042/2104294.pdf ; https://www.gewerbeaufsicht.niedersachsen.de/download/57680/Betreiberpflichten_fuer_Kaelteanlagenbetreiber.pdf ; https://apps.apple.com/de/app/mobilec/id553188484 ; https://www.climapp.dehon.com/en/ ; https://images.nuernbergmesse.de/files/39f9a2cb-f206-c55c-84f3-0417fbec8c2c.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:germany:GAPS5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "BESyD / webBESyD (free Länder tools), 365FarmNet, Yara Plan, Ackerprofi",
+   "duty": "DüV Düngebedarfsermittlung and records (31 March, 7 years); Gemeinsamer Antrag by 15 May",
+   "market": "about 255,000 farms (Bundestag inquiry 2025); about 47-49% part-time",
+   "reason": "The DüV duty is real: Düngebedarfsermittlung per Schlag above 50 kg N/ha or 30 kg P2O5/ha, annual totals by 31 March, 7-year retention, fines up to 10,000 EUR. But the core job is already covered. Free Länder tools exist (BESyD, webBESyD in Sachsen-Anhalt from Feb 2026). Commercial tools include 365FarmNet's free base module, Yara Plan and Ackerprofi. Gemeinsamer Antrag is filed through Länder portals (FIONA etc.), and Beratungsringe/Selbsthilfe bodies help. Bavaria is ending its free LfL tools after harvest 2026 and names no free successor. That is a small opening but a weak one; the buyers are price-sensitive and the state steers them to incumbents. Market: about 255k farms, roughly 47-49% part-time. Not checked: DüV amendment status (Düngegesetz bill 21/6135), Sammelantrag changes from GAP simplification.",
+   "searches": 5,
+   "sources": "https://www.topagrar.com/acker/news/bayern-stoppt-kostenlose-dunge-software-20026825.html ; https://www.wasser.sachsen.de/download/BESyD_Werkzeug_zur_Duengebedarfsermittlung_und_Bilanzierung.pdf ; https://www.sachsen-anhalt.de/fileadmin/Bibliothek/Politik_und_Verwaltung/StK/STK/Startseite_pdf_Dokumente/Start_webBESyD.pdf ; https://landwirtschaft.sachsen.de/download/Aufzeichnungs-und_Dokumentationspflichten_01_2025.pdf ; https://dserver.bundestag.de/btd/21/061/2106135.pdf ; https://dserver.bundestag.de/btd/21/002/2100279.pdf",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b7"
+ },
+ "triage:germany": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New buyer and duty: small taxi/Mietwagen firms, TSE and PBefG records."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Different buyer (Alltagshelfer) and duty (recognition and Entlastungsbetrag) than K21 TI billing."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Childminders and Jugendamt/SV refund differ from K14 Kita occupancy reports."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "AwSV tank inspections are a different duty from K04 grease separators."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Revive K20: new TAMG rule from 2026-01-01 adds species and a 2027-01-14 first report; verifiers check whether practice software covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Second-hand and scrap dealers' s.38 GewO book is a different buyer group from K32 pawnbrokers and the others."
+    },
+    {
+     "decision": "known",
+     "id": "A7",
+     "reason": "Drillers notifying the water authority before drilling is the same buyer group and core duty as K07.",
+     "ref": "K07"
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Transport approval and journey log is a different duty from K30 trader control book and HI-Tier."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Employer duty with a deadline; unsure, left for verifiers."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Small associations' donation receipts and register: in scope under associations."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Beekeepers are a new buyer group with a mandatory record duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Dismantlers are new buyers; duty is unverified, verifiers decide."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Lift operator inspection duty is new."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Posted-worker notifications by craft firms differ from K12 subcontractor certificates."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Plant-passport businesses are a new buyer group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Registration numbers under EU 2024/1028 differ from K15 guest tax reporting."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Energy co-operatives and energy sharing differ from K09 installers."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small brokers' GwG duties are a new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "s.34c continuing-education records are a new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small charging-point operators with BNetzA notification are new."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "F-gas operator records and leak checks are new."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Single-use plastic fund reporting is a different duty from K02 PPWR file."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Heilmittel practices are a different buyer from K21 home-care billing."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Chemical sales book for sellers differs from K03 pesticide user records."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Commercial waste documentation differs from K04 grease-separator logs."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Gambling venue compliance is a new buyer group with Land licensing."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Landlords' Legionella testing differs from K23 utility reporting."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Micro-hauliers and tachograph archive from 2026-07-01 is new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "KSA annual report for small Verwerter is a mandatory yearly filing and new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "s.60b heating check is a different duty from K16 HKVO."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "DüV and Sammelantrag duty differs from K11 pesticide records."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS6",
+     "reason": "Small packaging placers' producer-responsibility file is the same buyer group and core duty as K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Takeaway operators' Mehrweg duty is a new buyer and duty."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS8",
+     "reason": "Generic web/IT accessibility compliance with no recurring authority workflow; out of scope as a generic tool."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS9",
+     "reason": "HACCP and IfSG s.43 records differ from K18 pest-control documentation."
+    }
+   ]
+  },
+  "tag": "w2b7"
+ }
+}

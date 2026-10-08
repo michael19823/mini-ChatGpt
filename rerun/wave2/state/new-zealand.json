@@ -1,4 +1,16 @@
 {
+ "challenge:new-zealand:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No product or tool kills it. Two facts weaken it. The Electronic Records bill was terminated after its first reading was not agreed (4 Aug 2021), so there is no electronic reporting mandate. And SL 2026/111 appears to change only the reg 5 fees.",
+   "reason": "I found no NZ-specific product that does the core job. Generic pawn POS products listed in NZ (PPSS, PawnSoft, PawnSnap) offer US-style \"police reporting\", and none showed NZ fit. But the duty is weaker than the claim suggests. The Electronic Records Amendment Bill (Bill 23-1) failed its first reading on 4 Aug 2021 and is terminated, so there is no Police submission duty and no electronic format to meet. Dealers only keep a record and show it to Police on request, which paper satisfies. SL 2026/111 appears to change only the reg 5 licence fees, effective 1 Jul 2026. The number of licence holders is still unknown. Large chains likely run their own systems (unverified), so the small paying market is mostly paper-based shops with weak willingness to pay.",
+   "searches": 8,
+   "sources": "https://bills.parliament.nz/v/6/eb357a46-5c80-415c-885d-7339a5f7a4dd ; https://www.legislation.govt.nz/bill/members/2021/23/en/latest/ ; https://legislation.govt.nz/secondary-legislation/pco-drafted/2005/24/en/latest/ (search snippet only; the fetch returned 403) ; https://www.police.govt.nz/advice-services/businesses-and-organisations/secondhand-dealers-and-pawnbrokers/scrap-metal-dealers ; https://www.police.govt.nz/advice-services/businesses-and-organisations/secondhand-dealers-and-pawnbrokers/customers ; https://www.capterra.co.nz/software/163445/ppss ; https://www.capterra.co.nz/software/1082800/PawnSoft ; https://www.capterra.co.nz/software/169553/pawnsnap ; https://www.softwareadvice.com.au/software/321680/pawnbroker-pawn-shop-software",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b7"
+ },
  "critic:new-zealand": {
   "result": {
    "gaps": [
@@ -896,6 +908,150 @@
    "searches": 18
   },
   "tag": "w2b6"
+ },
+ "opus:new-zealand:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no NZ-built secondhand-dealer records or Police-reporting tool. The only Police tool found is SNAC, built by Counties Manukau Police to read dealer records, with 24 dealers taking part (per the bill's explanatory note). Generic pawn POS products are listed on GetApp and Capterra NZ: Pawnbroker Pawn Shop Software (US-only availability, Windows, has a 'police reporting' feature), PawnSnap, HI-Tech Pawn, Zycure, Moneywell and PawnMaster. They appear to be built for US pawn law, so whether they fit NZ is unverified. Large chains like Cash Converters probably have their own systems (not checked). SNAP is a Police register where the public record serial numbers of their own valuables. It is not a dealer tool.",
+   "duty": "Secondhand Dealers and Pawnbrokers Act 2004 (in force), with the Regulations 2005 consolidated to 1 Jul 2026. For every article, dealers must record the seller's full name, address, phone, date of birth and signature, how ID was verified, a description and serial number, the price, the dealer's unique number, the staff member who handled it, the date, and the date of sale if the item is worth $40 or more. Scrap dealers also record the nature and quantity of the metal. Articles are held unaltered and labelled for 14 days. The Police page says 14 days and the Sprintlaw summary of the Act says 10 working days, so this is unresolved. Records are kept for 3 years and must be shown or copied to Police on request. Each of these offences carries a fine of up to $10,000. Licences last 5 years. SL 2026/111, in effect from 1 Jul 2026, only amends the licence fees in reg 5 and does not change record duties. The Electronic Records Amendment Bill (member's bill 23-1) would have required records that machines can read. A search snippet from a National Party release says it was pulled from the Member's Ballot, but I found no evidence it was enacted. I could not open that page (404) or the bill page (403). There is still no required electronic format and no Police upload portal.",
+   "market": "Not found. Neither Police nor Ministry of Justice pages publish a count of licence holders, so getting one would need a request to the Licensing Authority or an Official Information Act request. The bill note says most dealers keep handwritten or printed records and few supply data machines can read. The market is likely a few hundred to low thousands of licence holders (an estimate, not sourced).",
+   "reason": "The duty is real and in force. Under the Secondhand Dealers and Pawnbrokers Act 2004, dealers must record each item and verify the seller's ID, hold items (14 days on the Police page), label them, and keep records for 3 years. Breaches carry fines of up to $10,000. SL 2026/111 only changed licence fees (reg 5). The 2021 member's bill for electronic records was pulled from the ballot, so Police still don't require or accept a set electronic format. I found no NZ-specific software. US pawn POS products such as PawnMaster, PawnSnap and Pawnbroker Pawn Shop Software are listed on NZ directories, but they are built around US police reporting. The market looks small and the licence count is not public. Without a Police submission channel, the pain is mostly paper records and inspections, so willingness to pay is weak. A score of 4 is reasonable.",
+   "searches": 6,
+   "sources": "https://www.police.govt.nz/advice/businesses-and-organisations/secondhand-dealers-and-pawnbrokers/secondhand-dealer ; https://www.police.govt.nz/advice-services/businesses-and-organisations/secondhand-dealers-and-pawnbrokers/scrap-metal-dealers ; https://legislation.govt.nz/secondary-legislation/pco-drafted/2005/24/en/latest/ ; https://www.legislation.govt.nz/bill/members/2021/23/en/latest/ ; https://www.national.org.nz/helping-police-track-down-stolen-goods ; https://sprintlaw.co.nz/business-law-library/legislation/nz/secondhand-dealers-and-pawnbrokers-act-2004/ ; https://www.getapp.co.nz/software/2050626/pawnbroker-pawn-shop-software ; https://www.capterra.co.nz/directory/30973/pawn-shop/software ; https://www.police.govt.nz/advice-services/businesses-and-organisations/secondhand-dealers-and-pawnbrokers/licensing",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "opus:new-zealand:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The official Incorporated Societies Register is free for annual returns, and the Companies Office emails reminders to the contact person. Free guides come from the Companies Office, Charities Services, CommunityNet/NZ Navigator, Creative Waikato and ClubsNZ. Membership and register software already exists. Hello Club (Tauranga, from about NZ$48-58/month), Sporty and ClubSpark are Tennis NZ-approved systems that Tennis NZ says help clubs meet Incorporated Societies Act 2022 requirements. e-Xpert MoST claims Act compliance, and Member Express and VeryConnect also sell membership tools. BoardPro covers governance and ran re-registration webinars. Law and accounting firms (Duncan Cotterill, Parryfield, Lane Neave, Rainey Collins) publish restoration advice, but I found no published fixed-fee restoration package. I found no dedicated restoration-kit software. Restoration is a single manual form and a constitution, which limits what software can add.",
+   "duty": "Confirmed under NZ law, in force. Incorporated Societies Act 2022 and the Incorporated Societies Regulations 2023 (reg 18): annual return to the Registrar, filed online within 6 months of balance date. A member register must hold names, contact details and joining and leaving dates, keep members who left in the last 7 years, and stay at the registered office (it is not filed). There must be at least 10 members and a committee of at least 3; each officer must consent in writing and certify they are not disqualified. Re-registration closed 5 Apr 2026. About 1,800 societies were removed on 6 Apr 2026 (CA ANZ, Waatea), and the official count is not confirmed. A removed society is no longer a legal entity, and banks may freeze its accounts. Restoration (s185) needs an officer or member at the time of removal to apply on a manual form, emailed to compliance@companiesoffice.govt.nz, with a constitution that complies with the 2022 Act, officer details and a $177.78+GST fee. A public notice follows with 20 working days for objections, and the deadline is 6 Apr 2032. The Registrar's 6 Aug 2026 restoration notice covered only one society, so few have applied so far. Charities Services warned 360 charity-registered societies that they would also lose charity status. Charities also file their own annual returns, and missing two or more returns leads to removal.",
+   "market": "More than 19,000 societies re-registered under the 2022 Act (Waatea News); a historic estimate puts the total at about 24,000. About 1,800 were removed in April 2026, many probably defunct and not looking to restore. 360 charity-registered societies were warned they would lose charity status, and the claim's figure of 1,913 at-risk charities was not re-verified. Most buyers are volunteer-run with very small budgets. Sports federations such as Tennis NZ already steer clubs to approved membership platforms, so they are a channel that is already taken.",
+   "reason": "The duties are real and in force. Under the Incorporated Societies Act 2022 and the 2023 Regulations, a society must file an annual return online within 6 months of balance date, keep a register of current members and of people who left in the last 7 years, collect written officer consents and keep at least 10 members. About 1,800 societies were removed on 6 April 2026. Restoring one means a manual form, a $177.78+GST fee and a deadline of 6 April 2032. I found no dedicated product or published fixed-fee package for restoration, so the narrow claim holds. Still, the official portal is free, Charities Services and CommunityNet guides are free, and club tools cover member registers: Hello Club, Sporty and ClubSpark are Tennis NZ-approved partly for Act compliance, plus e-Xpert MoST. Restoration is a one-off job for a shrinking group, and the buyers are volunteers who will pay little.",
+   "searches": 6,
+   "sources": "https://is-register.companiesoffice.govt.nz/help-centre/restoring-an-incorporated-society-to-the-register/1908-act-societies/ ; https://is-register.companiesoffice.govt.nz/assets/incorporated-societies/2022-act/form-is22-RES08-request-to-restore-1908-society-as-2022-act-society.pdf ; https://is-register.companiesoffice.govt.nz/news-and-notices/restoration-notice-6aug2026/ ; https://is-register.companiesoffice.govt.nz/help-centre/running-your-incorporated-society/records-you-should-keep ; https://legislation.govt.nz/secondary-legislation/pco-drafted/2023/240/en/latest/ ; https://www.charteredaccountantsanz.com/news-and-analysis/news/whats-next-for-nz-incorporated-societies (search snippet only; fetch returned 403) ; https://waateanews.com/2026/04/09/national-missed-deadline-leaves-hundreds-of-societies-in-limbo/ ; https://www.parryfield.com/incorporated-society-missed-the-re-registration-deadline/ ; https://duncancotterill.com/insights/incorporated-societies-act-2022-what-happens-if-you-miss-the-re-registration-deadline/ ; https://tennis.kiwi/clubs/online/ ; https://www.capterra.co.nz/software/179258/hello-club ; https://e-xpert.co.nz/blog/managing-your-website/hot-tips/incorporated-society-act-2022-and-most ; https://www.boardpro.com/hubfs/Webinar_%20The%20pathway%20to%20re-registration%20for%20incorporated%20societies.pdf ; https://community.net.nz/resources/charities-services/how-to-re-register-your-incorporated-society",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "opus:new-zealand:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no third-party product that generates RoWs, distributes them and chases them from subcontractors. Fergus, Tradify and Buildxact showed no RoW/LBP template in search results, though their help centres were not checked. What already exists is free: a one-page PDF template on building.govt.nz/LBP; council upload routes such as Auckland's myAUCKLAND upload and email helpdesk, Simpli/GoShift online lodgement, and Objective Build with LBP register lookups; and an MBIE LBP online portal with self-services. One search snippet said RoWs can be completed in the LBP portal, but I could not confirm this on the PlaceMakers, Carters or kete-lbp pages, so it remains unverified. Skills maintenance is already covered for free by the MBIE portal diary, the ITM app (tracks skills maintenance and exports it for MBIE) and Carters/PlaceMakers trackers. That part of the claim is effectively refuted as a gap.",
+   "duty": "The duty is real and in force. Building Act 2004 s88 requires each LBP who carries out or supervises restricted building work to give a Record of Work (RoW) to both the owner and the council when the work is finished. From 15 Jan 2026 this also covers non-consented small stand-alone dwellings: the Small Stand-alone Dwellings Amendment Act 2025 says the RoW goes to the council that issued the PIM. The duty is triggered per job. The Building Practitioners Board says it has \"zero tolerance\" for missing RoWs and still receives a high number of complaints about them (PlaceMakers/eBoss, Jun–Jul 2024). In one decision an LBP who gave the RoW only to the main contractor was fined $1,000 plus $500 costs. A council page cites court fines of up to $20,000, but that page may be out of date. LBPs must also submit a skills-maintenance record to the Registrar at least every two years. The CoDW part of the claim was not checked.",
+   "market": "The claim gives about 27,000 LBPs holding 31,700 licences (2022). I could not verify a 2025/26 count in this session. The MBIE public register and LBP API (portal.api.business.govt.nz/api/lbp) exist and could be used to count them.",
+   "reason": "The RoW duty is real, mandatory and enforced, and it was extended in Jan 2026. But the core job is filling in one short free form per job and sending it to two parties, which councils already accept by portal upload or email. The MBIE LBP portal may already handle RoWs (unconfirmed). Skills-maintenance tracking is a solved problem: the free MBIE diary plus free merchant apps (ITM, Carters, PlaceMakers), so that half of the idea has no gap. The real pain is non-compliance (forgetting, withholding over payment), not difficulty, and sole-trader LBPs are unlikely to pay for a stand-alone tool. A better fit is a cheap add-on or integration for Fergus/Tradify, or a feature that lets main contractors chase sub RoWs. Unverifiable mainly because the LBP portal's RoW capability and the job-software templates were not confirmed.",
+   "searches": 6,
+   "sources": "https://eboss.co.nz/detailed/mbie-building-news/records-of-work ; https://underconstruction.placemakers.co.nz/records-of-work/ ; https://tradeleader.carters.co.nz/trade-skills/records-of-work/ ; https://aucklandcouncil.govt.nz/en/building-and-consents/building-consents/code-compliance-certificates-ccc/record-of-building-work.html ; https://www.legislation.govt.nz/act/public/2021/21/en/latest/DLM3985413 ; https://nzlii.org/nz/legis/consol_act/bacsdaa2025589/s17.html ; https://simpli.govt.nz/uploads/06cd0e51-0a78-11e5-a7a5-ac7ba10af4f0/5542d454-dca0-1ad4-2de3-20e63416d94e-GoShift_-_Guide_to_Completing_the_Licensed_Building_Practitioner_Record_.pdf ; https://apps.apple.com/nz/app/itm/id1151986313 ; https://kete-lbp.mbie.govt.nz/ ; https://www.rangitikei.govt.nz/council/publications/forms/form-6a-license-building-practitioner-record-of-work ; https://nz.objective.com/resources/whats-new-build-applicants-lbp-register-search",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:new-zealand:A10": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty exists: the PECPR Regulations 1999 (SR 1999/128) are still being used by WorkSafe, with Gazette exemption and recognition notices through 2026. I could not open the regulation text (legislation.govt.nz returned 403), so I could not confirm frequencies or penalties. Intervals are often set by the inspection body or a recognised risk-based programme under AS 3788, so there is no fixed calendar rule. No NZ-specific tracker found. Generic or Australian tools exist: Regatta Registers (reminders), GoCanvas NZ crane form, Sitemate. Inspection bodies likely already chase renewals. I found no owner count. Weak mandatory-frequency signal, small niche, easy substitutes (spreadsheet, inspector reminders). Keep low.",
+   "searches": 3,
+   "sources": "https://gazette.govt.nz/notice/id/2026-au821 ; https://worksafe.govt.nz/the-toolshed/registers/recognised-inspection-bodies/ ; https://www.cranesandlifting.com.au/regatta-registers-for-handling-your-lifting-equipment-inspections/ ; https://gocanvas.com/mobile-forms-apps/39550-Crane-Inspector-s-Tool-New-Zealand- ; https://legislation.govt.nz/secondary-legislation/pco-drafted/1999/128/en/latest/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:new-zealand:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real and in force: the Measurement and Reporting of Water Takes Regulations require 15-minute logging and daily reporting for takes of 5 l/s or more, with an approved installer and ±5% verification at install and every 5 years. The final 5 to 10 l/s deadline was 3 Sep 2026 and has passed. Exemptions are annual and narrow. Competition is crowded: IrrigationNZ Blue Tick providers install and manage data, and councils run portals (Auckland WUDMS, BoP, Marlborough). The one-off deadline wave has gone. Market is small, roughly 700 consents in Wellington alone, and no national count was found. A tracker for expiry, verification and exemption dates is a thin add-on. Penalty amounts and the RMA replacement impact were not checked.",
+   "searches": 4,
+   "sources": "https://www.ecan.govt.nz/your-region/farmers-hub/irrigation/water-metering ; https://environment.govt.nz/assets/publications/Water-Metering-Guidance.pdf ; https://www.dairynz.co.nz/regulation/policy/water-metering/ ; https://www.boprc.govt.nz/environment/fresh-water/taking-and-using-water/ ; https://www.gw.govt.nz/assets/Uploads/compliance-monitoring-strategy-water-takes-webversion.pdf ; https://www.orc.govt.nz/media/p3wpmuls/reg-_reminder_watermetering.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:new-zealand:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: the Operator Licensing rule and the 2017 offences regulations require a complaints record kept 2 years and producible to an enforcement officer, and they make failure to do so an offence. I did not verify current penalty amounts or confirm the rules are unamended. No NZ-specific compliance software turned up. Overseas dispatch tools (Cabica, Zoyride) were found, but neither was shown to have a complaints register. Market: about 12,667 licensed taxi vehicles (figure.nz, year to March 2026), but the number of small operators is unknown. Weak pain, since a spreadsheet meets the duty. There is no evidence of real enforcement, and buyers are small and have low willingness to pay. The camera access log claim was not checked.",
+   "searches": 3,
+   "sources": "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/2017/252/en/2017-08-21.pdf ; https://www.1news.co.nz/2026/09/08/calls-for-tougher-rideshare-rules-as-passenger-complaints-rise/ ; https://figure.nz/chart/DFA6IZ9CqhuuTKC6-POlWuf6ITaVBuF8k ; https://www.capterra.co.nz/software/1109608/Cabica ; https://www.getapp.co.nz/software/2081406/zoyride",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:new-zealand:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "I could not confirm the 2026 reform. Fetches of the cited transport.govt.nz and ansr pages returned no usable content. Two searches found no sign of a re-application round, a 5-year cycle or a January 2027 date. Existing NZTA course-provider pages show approval already requires industry experience and an instructor endorsement, and NZTA has suspended or revoked providers (2024). Even if the reform is real, this is a one-off event for a small niche, probably a few hundred providers, and I found no register count. The pack would be a form-filling service, not recurring software. Generic driving-school booking tools (Goldie, BookingTimes, EasyWeek, SimplyBook.me) exist but do not cover compliance. I did not check the 1xx article or the NZTA application form.",
+   "searches": 3,
+   "sources": "https://nzta.govt.nz/driver-licences/getting-an-endorsement/endorsement-courses/becoming-a-course-provider ; https://nzta.govt.nz/regulatory/what-we-regulate/course-providers ; https://www.capterra.co.nz/directory/31328/driving-school/software",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:new-zealand:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "ReadyTech Ready Workforce; AgriSmart (horticulture workforce/payroll, no RSE-specific compliance module found)",
+   "duty": "RSE accreditation, annual self-audit, pastoral care, accommodation and cost-recovery rules for RSE employers (INZ); loss of RSE status on breach",
+   "market": "Roughly 200+ recognised employers (unofficial, secondary source); about 17,000-20,750 workers",
+   "reason": "Duty is real: RSE employers must hold INZ accreditation, provide pastoral care and accommodation, file an annual self-audit form (with accommodation photos and council documents), and Cabinet agreed a 1/3/6-year graduated accreditation model with a standard cost-recovery agreement, phased in from 2027. Penalty is loss of RSE status. The buyer base is tiny: one secondary source says \"more than 200\" recognised employers (no official count found), and large growers likely dominate. Rules and accommodation standards are not final. No RSE-specific compliance tool found. ReadyTech and AgriSmart cover payroll and workforce but not pastoral-care or audit logs. A niche market with weak willingness to pay and an unfinished spec.",
+   "searches": 2,
+   "sources": "https://www.mbie.govt.nz/dmsdocument/32330-recommendations-following-the-2026-recognised-seasonal-employer-scheme-policy-review-proactiverelease-pdf ; https://eiglaw.com/new-zealand-announces-major-reforms-to-the-recognised-seasonal-employer-rse-scheme/ ; https://www.visasupdate.com/post/new-zealand-rse-scheme-changes-2027 ; https://www.readytech.com.au/what-we-do/workforce/markets/agriculture-workforce-management-software-nz ; https://www.getapp.co.nz/software/2092935/agrismart ; https://www.hcamag.com/nz/specialisation/immigration/new-zealand-introduces-practical-changes-to-rse-scheme/584429",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:new-zealand:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: the Radiation Safety Act 2016 requires a source licence for each X-ray location, and the Office of Radiation Safety (ORS) code ORS C4 2024 (in force 1 Dec 2024) adds a mandatory radiation safety officer. The Dental Council cites ORS inspection data showing 13% of dental locations were unlicensed or expired in 2024-25. Applications go by emailed PDF forms (HP8780), with no online portal found. No NZ-specific software found. Weak market: fees are about $361 plus GST per year (about $718 with CBCT), renewal is every 1-3 years, and licence count not found. The task is low-frequency, so willingness to pay is low. Competitors were only lightly checked: one product search, and ORS and PMS pages not opened.",
+   "searches": 3,
+   "sources": "https://www.health.govt.nz/our-work/ionising-radiation-safety/managing-entities-radiation-sources/what-know-about-source-licences/source-licence-categories-medical-and-dental-practices ; https://www.health.govt.nz/system/files/2024-05/hp8780-ors-forms-new-source-licence-dental.pdf ; https://dcnz.org.nz/resources-and-publications/updates/new-folder-page-4/radiation-safety-compliance ; https://www.health.govt.nz/publications/compliance-guide-for-dental-radiology-including-dental-cone-beam-ct-ors-g4",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:new-zealand:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Under the Sale and Supply of Alcohol Act 2012, manager's certificates run 12 months and then 3-year renewals. An expired certificate cannot be renewed, so a new application is needed. Licensees must notify the council and Police of duty-manager changes within 48 hours. Councils such as Hutt City already send renewal reminders, and ARLA's public register shows expiry dates. I found no dedicated NZ tracker, only generic certification trackers and rostering tools, which I did not check. The pain is low: renewals are infrequent (3-year cycle), and manager buyers are individuals. The 2026 Improving Alcohol Regulation Amendment Bill (262-2) was reported back from committee in Aug-Oct 2026 and is awaiting its Second Reading, so the final text is unconfirmed. Willingness to pay looks weak, and no national licence count was found (Auckland alone had about 6,080 manager's certificate applications in 2019-20).",
+   "searches": 5,
+   "sources": "https://bills.parliament.nz/v/Bill/b98f4d35-d0bd-47ab-a326-08de82fd2ebd ; https://www.waimakariri.govt.nz/services/environmental-health-licensing/alcohol-licensing/managers-certificate ; https://www.pncc.govt.nz/Council/Regulations/Alcohol-licences/Renew-your-managers-certificate ; https://huttcity.govt.nz/services/licences-and-permits/alcohol-licences/change-conditions-of-your-alcohol-business ; https://www.justice.govt.nz/tribunals/arla/register-of-licences-and-certificates/ ; https://www.capterra.co.nz/directory/32502/certification-tracking/software ; https://new.aucklandcouncil.govt.nz/content/dam/ac/docs/licence-and-compliance/arla-annual-report-2020.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:new-zealand:B7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Ministry of Health pages say general retailers must notify as a Regulated Product Seller and renew every 12 months through HARP, for $80+GST. One notification covers a legal entity with several stores. Specialist vape stores need approval before opening, which is a one-off step and not clearly recurring. Display bans and the disposable ban apply, and the Ministry says non-compliance is an offence. Controlled purchase operations are run. I found no NZ compliance software, and HARP is free. The task is a once-a-year form per entity, so there is little pain and little willingness to pay. The market is about 1,300 AVPs and 1,700 RPS filers, which is small. Record-keeping and annual sales returns add some recurring work. I could not fetch the main Ministry page (403), and I ran only 2 searches.",
+   "searches": 2,
+   "sources": "https://www.health.govt.nz/regulation-legislation/vaping-herbal-smoking-and-smokeless-tobacco/retailers-of-vaping-and-tobacco-products/general-retailers ; https://www.health.govt.nz/regulation-legislation/vaping-herbal-smoking-and-smokeless-tobacco/requirements/record-keeping ; https://www.health.govt.nz/regulation-legislation/vaping-herbal-smoking-and-smokeless-tobacco/requirements ; https://thespinoff.co.nz/society/08-06-2026/no-one-knows-how-many-vape-shops-there-are-in-new-zealand",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b7"
+ },
+ "sonnet:new-zealand:B8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The core trigger is outdated. NZQA's quarterly requirements table (21 May 2026) says the 2026 Annual Declaration is the last one required. Under the QA Rules 2026 and iQAF, it is replaced by an annual TEO self-review summary report, submitted on an NZQA online form and scheduled by quarter. The report also covers the Code attestation. The maintaining-registration page lists no annual declaration, and says the annual information return is \"not currently required\". The remaining duties are financial statements (generally every 2 years for non-TEC-funded PTEs), the annual fee-protection audit, and the quarterly fee attestation to the trustee. These are small, NZQA supplies the template, and the pack would be thin. I found no dedicated competitor software, but I did not search for one thoroughly. The PTE count was not found (probably about 500 to 600, which is unverified). The duty is real, but the specific \"pack\" is mostly obsolete.",
+   "searches": 2,
+   "sources": "https://www2.nzqa.govt.nz/assets/Tertiary/NZQAs-QA-system/Quarterly-table-of-requirements-for-TEOs.pdf ; https://www2.nzqa.govt.nz/about-us/rules-fees-policies/nzqa-rules/quality-assurance/ ; https://www2.nzqa.govt.nz/tertiary/the-code/the-code-for-education-providers/self-review-and-attestation/ ; https://www2.nzqa.govt.nz/tertiary/quality-assurance/self-review/summary-report/ ; https://www2.nzqa.govt.nz/tertiary/approval-accreditation-and-registration/maintaining-pte-registration",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b7"
  },
  "triage:new-zealand": {
   "result": {

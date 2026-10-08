@@ -1,0 +1,802 @@
+{
+ "critic:united-states": {
+  "result": {
+   "gaps": [
+    {
+     "category": "State-run programmes small operators run for the state: Medicaid/Medicare home and community-based providers, CACFP/WIC vendors",
+     "first_search": "CACFP family day care home monthly claim software sponsor meal count 2026",
+     "why": "Family child care and adult day care homes must file monthly CACFP meal claims and menus, and WIC-authorised small grocers have vendor rules. Huge count of micro-providers; only K21 (child care subsidy attendance) and K31 (EVV) touch this. CACFP claim and meal-count filing is a distinct duty and buyer group. I'm not sure what vendors already cover it."
+    },
+    {
+     "category": "Tobacco, alcohol and cannabis retailers: state excise, licence and track-and-trace duties",
+     "first_search": "state cannabis track and trace METRC monthly tax report small licensee compliance 2026",
+     "why": "Many tiny retailers file recurring state reports. Cannabis dispensaries, cultivators and craft distillers or breweries must use METRC or BioTrack manifests and monthly excise returns. K15/K16 cover only label registration and PACT. The ledger shows no retail excise, TTB or state cannabis seed-to-sale item, and none of the 38 categories covers it."
+    },
+    {
+     "category": "Local business licensing, alarm and fire-code permits (municipal)",
+     "first_search": "annual fire inspection report third-party submission portal restaurants hood suppression NFPA 96 Compliance Engine small business",
+     "why": "Cities require annual business licences, alarm permits and false-alarm fees, fire-inspection and hood or sprinkler certifications (NFPA 96, 25) for restaurants and small shops. Third-party inspector submission portals such as The Compliance Engine are used by contractors but not owners. Missing from the 38 categories, which cover only mobile food and building owners."
+    },
+    {
+     "category": "Trade-licence continuing education and renewal for solo contractors, and sole-trader state tax registrations (sales/use tax, workers' comp audits)",
+     "first_search": "contractor license renewal continuing education tracker state board 2026 solo electrician plumber",
+     "why": "Solo electricians, plumbers, HVAC technicians, contractors and cosmetologists face state licensing board CE and renewal cycles. Small employers also face workers' comp payroll audits and state unemployment (SUI) rate notices. Several 2024-2026 state rules may apply, including EPA Section 608 recordkeeping. The ledger has no licensing-board or SUI/workers' comp item."
+    },
+    {
+     "category": "Waste-oil, used-oil and universal-waste handlers; small quantity generators of hazardous waste (state biennial reports and EPA ID)",
+     "first_search": "small quantity generator re-notification EPA ID every four years state annual hazardous waste report auto repair shop software",
+     "why": "Auto repair shops, dry cleaners, salons, print shops and similar very-small-quantity generators must re-notify EPA ID every four years (SQG), and some states require annual or biennial hazardous waste reports. Used-oil collection and mercury lamp recycling records also apply. K32 covers only e-Manifest; the generator re-notification and state annual report duty is missing. Also dry cleaner (perc) and auto-body paint NESHAP rules (6H)."
+    },
+    {
+     "category": "Beneficial ownership, annual reports and registered-agent filings for small entities (state LLC annual reports, Corporate Transparency Act status)",
+     "first_search": "state LLC annual report deadline administrative dissolution small business 2026 Texas franchise tax no tax due report",
+     "why": "Every LLC and corporation must file a state annual report or franchise tax return, and CTA/BOI rules changed in 2025 (domestic companies exempted by FinCEN in March 2025). Millions of micro firms miss deadlines and face administrative dissolution. Registered-agent services exist, so check what they cover. Also Delaware franchise tax and Texas Public Information Report. Not covered in any of the 38 categories."
+    }
+   ]
+  },
+  "tag": "w2b1"
+ },
+ "discover:A:united-states": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small farm labour contractors and crew leaders (also H-2A contractors in California)",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.dol.gov/agencies/whd/agriculture/mspa ; https://www.lni.wa.gov/forms-publications/F700-066-000.pdf ; https://calmatters.digitaldemocracy.org/bills/ca_202520260ab1362",
+     "existing": "Farm payroll and H-2A tools: FieldClock, Seso, TaxBandits H-2A payroll. None seen that handles licence/bond/renewal calendars. Local-language competitor search done once (English); only payroll vendors found.",
+     "known_mark": "new",
+     "name": "Farm labour contractor licence, bond and records tracker (federal MSPA + WA/OR/CA, H-2A registration from July 2027)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Federal MSPA certificate renewal at least 30 days before expiry (WH-530); WA L&I annual licence plus bond; OR registration and bond; CA Labor Commissioner licence plus bond; California AB 1362 (Ch. 190, Stats. 2025) adds foreign labour contractor registration for H-2A contractors from July 1 2027. MSPA payroll records kept 3 years with itemised pay statements.",
+     "trigger_note": "",
+     "unchecked": "Whether chaptered AB 1362 kept fee/bond terms; number of H-2A contractors affected; whether DOL WH-530 portal is live; contractor willingness to pay; state-by-state count beyond WA/OR/CA."
+    },
+    {
+     "buyer": "Households employing nannies and carers in Maryland",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "Search result summary on Maryland FAMLI timeline (no direct URL fetched); https://mn.gov/deed/paidleave/employers/role/index.jsp for Minnesota quarterly premiums",
+     "existing": "Nanny payroll vendors named in K33 (HomePay, Poppins, GTM, SurePayroll) cover paid-leave filings.",
+     "known_id": "K33",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K33, which was rejected after finding nanny payroll vendors already cover state paid leave. Not revived: no killer-gap evidence.",
+     "name": "Maryland FAMLI employer registration for household employers (fall 2026)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Employer registration opens fall 2026; contributions start Jan 1 2027; quarterly wage reporting",
+     "trigger_note": "",
+     "unchecked": "Whether Maryland vendors cover household employers yet"
+    },
+    {
+     "buyer": "Small well drilling firms working in several states",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://portal.ct.gov/dcp/occupational-and-professional-division/occupational--profess/well-drilling-completion-reporting ; https://dec.vermont.gov/node/836 ; https://www.mass.gov/lists/well-driller-forms",
+     "existing": "No commercial driller reporting software surfaced in one search; unchecked beyond that.",
+     "known_mark": "new",
+     "name": "Multi-state well driller completion report router",
+     "score": 3,
+     "status": "weak",
+     "trigger": "State completion reports: CT within permit rules via eLicense (GPS to 5 decimals, copy to local health dept and owner); VT online-only within 90 days; MA via eDEP; AZ within 30 days (A.R.S. 45-600)",
+     "trigger_note": "",
+     "unchecked": "Dedicated competitor search for driller log software; number of multi-state drillers (most work in one state, which limits the router value); state portals are free"
+    },
+    {
+     "buyer": "Registered scrap-tire haulers and tire retailers",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://deq.nc.gov/about/divisions/waste-management/scrap-tires/haulers ; https://www.southernnevadahealthdistrict.org/faq-items/what-are-the-requirements-of-a-permitted-waste-tire-hauler ; https://www.michigan.gov/egle/about/organization/materials-management/scrap-tires/hauler",
+     "existing": "Re-TRAC is used by state agencies (agency side); no hauler-side product found.",
+     "known_id": "K39",
+     "known_mark": "new",
+     "name": "Scrap-tire hauler and tire-dealer manifest and report keeper",
+     "score": 3,
+     "status": "weak",
+     "trigger": "State hauler registration, per-load manifests and periodic reports: NC hauler ID (5-year renewal), MS quarterly records and annual summary, Southern Nevada semiannual reports (Feb 15/Aug 15), MI online reporting via agency platform",
+     "trigger_note": "",
+     "unchecked": "Number of haulers, whether states accept third-party submissions, competitor search by name; related to K39/K11 but different buyer (tire haulers)"
+    },
+    {
+     "buyer": "Operators of very small community water systems",
+     "category": "13. Small water systems",
+     "evidence": "https://doh.wa.gov/sites/default/files/2026-02/CCRR-SummaryOfProposedRule.pdf ; https://www.120water.com/blog/the-revised-ccr-rule-changes-deadlines-and-next-steps",
+     "existing": "EPA CCRiWriter and state generators (WI DNR, SC) are free; 120Water; OxMaint blog. Free tools cover the core job.",
+     "known_id": "K29",
+     "known_mark": "new",
+     "name": "Small-system CCR and public notice kit for tiny community water systems (mobile home parks, HOAs, campgrounds)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Revised CCR rule effective Jan 1 2027, first revised reports July 1 2027; summary section, translation/accessibility; state adoption varies",
+     "trigger_note": "",
+     "unchecked": "Whether state generators will be updated for 2027; paid demand among sub-500-connection systems"
+    },
+    {
+     "buyer": "Small farm-supply and RUP dealers selling across states",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.mass.gov/how-to/use-and-pesticide-dealer-sales-reporting ; https://datcp.wi.gov/Pages/Licenses_Permits/RestrictedUseDealer.aspx ; https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-4-66-53 ; https://www.maine.gov/DACF/php/pesticides/documents2/legislative reports/LD_524_Pesticide_Sales_and_Use_Report.pdf",
+     "existing": "Frontier Precision PAR app (applicator records, 2015 claim); Iowa State app; ag retail POS systems likely export reports (unchecked).",
+     "known_id": "K26",
+     "known_mark": "new",
+     "name": "Restricted-use pesticide dealer sales report filer across state formats",
+     "score": 3,
+     "status": "weak",
+     "trigger": "State RUP sales reports: MA online-only (due June 1), IA Oct 1, WI Oct 30, HI monthly within 15 days, MN 5-year records; Maine plans electronic filing in MEPERLS",
+     "trigger_note": "",
+     "unchecked": "Whether dealer POS systems already export state formats; dealer count per state; competitor search by product name"
+    },
+    {
+     "buyer": "Small cemetery associations and funeral homes selling preneed",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://archive.legmt.gov/bills/MCA/title_0350/chapter_0200/part_0030/section_0150/0350-0200-0030-0150.html ; https://www.mass.gov/files/documents/2017/12/04/preneed.pdf",
+     "existing": "The Professional Programs funeral software (accounting, preneed) at about US$495/user; unconfirmed whether it prints regulator reports.",
+     "known_mark": "new",
+     "name": "Cemetery association and funeral home preneed/trust annual report packet",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Annual reports: MT/KS permanent care fund (Jan 1/15), MN trustee report, OH funded preneed (Dec 31 data), MA preneed (June 30)",
+     "trigger_note": "",
+     "unchecked": "Dedicated competitor search (Osiris, FrontRunner etc. not checked); state count; whether states take electronic filing"
+    },
+    {
+     "buyer": "Self-managed Florida condo associations (25+ units) and HOAs (100+ parcels)",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://www.siegfriedrivera.com/blog/florida-condo-association-website-requirements-expand/ ; https://bergersingerman.com/news-insights/crucial-deadlines-are-approaching-relating-to-the-structural-integrity-reserve-study-required-for-condominiums",
+     "existing": "Condo Control, Associa and other management platforms advertise website compliance.",
+     "known_mark": "new",
+     "name": "Florida condo/HOA website and SIRS posting service for small associations",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Condo website/app duty from Jan 1 2026 (s.718.111(12)); HOA website from Jan 1 2025 (s.720.303(4)(b)); SIRS statement to DBPR within 45 days; milestone-coordinated SIRS deadline Dec 31 2026",
+     "trigger_note": "",
+     "unchecked": "Management companies already serve most associations; one-time deadline mostly passed"
+    },
+    {
+     "buyer": "Small charities soliciting in several states",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://cause-comply.onrender.com/blog/what-is-charitable-solicitation-registration ; https://www.bradymartz.com/charitable-solicitation-registration-what-nonprofits-should-know/",
+     "existing": "Cause Comply and charitycompliancesolutions.com appear in results, plus law firms.",
+     "known_mark": "new",
+     "name": "Multi-state charitable solicitation registration for small nonprofits",
+     "score": 2,
+     "status": "weak",
+     "trigger": "About 40-41 states plus DC require registration and annual renewal; Colorado 2026 corporate-registration-first step",
+     "trigger_note": "",
+     "unchecked": "Vendor pricing and coverage; market likely crowded"
+    },
+    {
+     "buyer": "Owner-operators and small fleets",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://plan.ucr.gov/ucr-dispatch-june-2026/ ; https://www.truckinginfo.com/news/fmcsa-pauses-biennial-update-enforcement-amid-motus-transition",
+     "existing": "Many trucking compliance firms and permit services (Fiverr gigs seen); unquantified",
+     "known_mark": "new",
+     "name": "Motus/UCR/MCS-150 clean-up service for owner-operators",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Motus launched May 14 2026; USDOT numbers created in Motus missing from SAFER so UCR enforcement not recommended; MCS-150 biennial enforcement paused for updates due on or after June 1 2026; Clearinghouse annual query; 2027 UCR window about Oct 1 2026",
+     "trigger_note": "",
+     "unchecked": "Transitory; competitors not named"
+    },
+    {
+     "buyer": "Food trucks, carts, pushcart vendors",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://listos.maricopa.gov/DocumentCenter/View/5745/Commissary-Agreement-PDF ; https://ehs.sbcounty.gov/faq-category/mobile-food/",
+     "existing": "GoCanvas commissary log and agreement templates; Paperform template",
+     "known_mark": "new",
+     "name": "Mobile food unit commissary log and multi-county permit renewal tracker",
+     "score": 3,
+     "status": "weak",
+     "trigger": "County commissary visit logs (Maricopa), annual commissary agreement for renewal (Maricopa, St Joseph IN, Utah County), renewal inspection windows (San Bernardino, Alameda, Yuba)",
+     "trigger_note": "",
+     "unchecked": "No named dedicated product found; each vendor deals with one county, which limits value; competitor search by name not done"
+    },
+    {
+     "buyer": "Small check cashers and currency exchangers",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.fincen.gov/enforcement-actions-failure-register-money-services-business ; https://flofr.gov/SitePages/CheckCashers.htm",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Check casher / currency exchanger annual state report and FinCEN renewal reminder",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "FinCEN Form 107 renewal every 2 years; state annual reports (MA, ME renewal Dec 31 2025); LA licence exclusion for incidental exchange",
+     "trigger_note": "",
+     "unchecked": "Competitors, count of small operators, state portals"
+    },
+    {
+     "buyer": "Home-based childminders",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://dcf.wisconsin.gov/node/5017 ; https://dam.assets.ohio.gov/image/upload/childrenandyouth.ohio.gov/For%20Partners/Rules%20and%20Resources/2026/TL_49.pdf",
+     "existing": "Not searched by name; K21 covers subsidy attendance (Playground/KinderSystems).",
+     "known_id": "K21",
+     "known_mark": "new",
+     "name": "Family child care home renewal and training log across 2026 rule changes",
+     "score": 2,
+     "status": "weak",
+     "trigger": "2026 rule revisions: MI (Apr 2026), OH (Jul 1 2026), MN (Jul 1 2026), WI (Aug 1 2026); annual training (e.g. SD 6 hrs), 5-year background checks, NYC 30 hrs",
+     "trigger_note": "",
+     "unchecked": "Competitors (Procare, Brightwheel etc. unchecked); state portals do renewals"
+    },
+    {
+     "buyer": "Tattoo and piercing studios",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.law.cornell.edu/regulations/oregon/Or-Admin-Code-SS-331-915-0085 ; https://law.lis.virginia.gov/admincode/title18/agency41/chapter50/section410/",
+     "existing": "Not searched by name",
+     "known_mark": "new",
+     "name": "Tattoo studio client record and consent-form keeper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "State client-record rules: OR (client record, consent, ID in file), VA (2 yrs, ID copy, disclosure form; regulation revised Jan 5 2026), OK, WI (2 yrs); inspector checks records retained",
+     "trigger_note": "",
+     "unchecked": "Competitors; no filing to a regulator, only inspection"
+    },
+    {
+     "buyer": "Pawnbrokers, secondhand and gold buyers",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://vacode.org/2026/54.1-4010/ ; https://medford.municipal.codes/Code/8.115",
+     "existing": "Gold Manager Pro (files to RISSProp and LeadsOnline, vendor claim), Pawn Wizard, P3 Software, LeadsOnline",
+     "known_id": "K24",
+     "known_mark": "known",
+     "known_note": "Same reporting duty and vendor class as K24 (LeadsOnline mandated); pawn and gold software already include the filing.",
+     "name": "Secondhand dealer / pawn / precious-metal buyer daily police reporting",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Daily electronic reports to local police (Virginia pawn statute 54.1-4010; Medford OR ordinance; South Bend 24-hr precious metals report)",
+     "trigger_note": "",
+     "unchecked": "None needed"
+    },
+    {
+     "buyer": "Junk and salvage yards",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://aamva.org/vehicles/nmvtis/junk,-salvage,-and-insurance-entities ; https://products.car-part.com/arascvins/nmvtis.html",
+     "existing": "AAMVA Single VIN Reporting Service, third-party consolidators, car-part.com NMVTIS reporting page, ISRI resources",
+     "known_mark": "new",
+     "name": "Auto dismantler / salvage yard NMVTIS monthly reporting",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "28 CFR Part 25 monthly inventory report to NMVTIS operator; state dismantler licences (AL requires NMVTIS ID)",
+     "trigger_note": "",
+     "unchecked": "Whether small yards use consolidators; 5-vehicle threshold source is secondary"
+    },
+    {
+     "buyer": "Beekeepers",
+     "category": "8. Beekeepers",
+     "evidence": "https://ucanr.edu/sites/default/files/2025-12/Registration%20Letter_2026.pdf ; https://codes.ohio.gov/orc/909.02",
+     "existing": "CDFA BeeWhere portal is free and the sole route (paper ended)",
+     "known_mark": "new",
+     "name": "Apiary registration filing",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "CA registration by Jan 1 via BeeWhere; OH by June 1",
+     "trigger_note": "",
+     "unchecked": "None needed"
+    },
+    {
+     "buyer": "Custom-exempt processors; livestock dealers and markets",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.legis.iowa.gov/docs/aco/bulletincontent/07-08-2026.Regulatory Analysis_1781724844575.pdf ; https://mda.state.mn.us/food/custom-exempt-meat-processing",
+     "existing": "No software found; records only on request, no filing",
+     "known_mark": "new",
+     "name": "Custom-exempt slaughter records and livestock dealer ID/movement records",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "9 CFR 303.1(b)(3) records; USDA EID rule since Nov 5 2024; Iowa livestock chapter rewrite proposed July 2026 (adoption unconfirmed); MO/VA/ID dealer records",
+     "trigger_note": "",
+     "unchecked": "Software competitors; whether states require filing; Iowa final rule"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing new beyond K33. Minnesota Paid Leave premiums now quarterly (2026). Maryland FAMLI employer registration opens fall 2026, contributions start Jan 1 2027. DC and NY already cover household workers. Nanny payroll vendors (per K33) already handle these. State-level only; no new buyer group.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Nothing new beyond K24 (LeadsOnline mandated). No separate search spent.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Daily electronic reports to local police (Virginia statute, Medford OR ordinance, Texas voluntary). Vendors exist (Pawn Wizard, P3, Gold Manager Pro, LeadsOnline). Crowded; no new gap.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Municipal/state precious-metals dealer ordinances (Boise, Canton OH, South Bend, CT licence by municipality, NC employee registration). Gold Manager Pro claims filing to RISSProp/LeadsOnline. FinCEN AML duties separate. No new gap.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Federal NMVTIS monthly reporting (28 CFR 25) via third-party consolidators or AAMVA SVRS; car-part.com offers a NMVTIS page for yards. Already served.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "USDA EID rule in force since Nov 5 2024; Iowa proposed a livestock ID/movement/dealer chapter rewrite (Iowa Admin Bulletin 7/8/2026, hearing 7/29/2026, adoption unconfirmed). State dealer record rules (MO 2 yrs, VA 5 yrs, ID). No software seen; no filing duty, only records.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Custom-exempt records under 9 CFR 303.1(b)(3) (counts, species, owner names), kept on site and shown to inspectors; no filing, no software found. Low pain.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "California BeeWhere (CDFA) is the free state portal and the only registration route; fees returned in 2026. Ohio registration by June 1. State portal covers it.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "No 2026 vet PMP or vet-medicine rule found. Only an old Washington 2012 carve-out for vets. Rabies is K13. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Driller completion reports go to state portals: CT eLicense (30 days, GPS), VT online-only (90 days), MA eDEP, AZ 30 days. No commercial driller reporting software surfaced. Water abstraction not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Septic is K11, grease is K39. New angle: scrap-tire hauler registration and manifests/reports (NC, MI, MS, NV, MO); states use Re-TRAC on the agency side. No dealer/hauler-side software seen.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Nothing new beyond K07. Boiler/pressure vessel statutes (ME, MN, NH, RI) put scheduling duty on the owner; no owner portal or 2026 change found.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Revised CCR rule: compliance Jan 1 2027, first reports July 1 2027; twice-yearly and website posting only for large systems. EPA CCRiWriter and state generators (WI, SC) are free. LCRI: lead service line work is K29. 120Water publishes a CCR rule guide.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "RUP dealer sales reports differ by state: MA online-only (June 1), IA Oct 1, WI Oct 30, HI monthly, MN 5-yr records. Maine runs its own MEPERLS software; rulemaking to require electronic filing not confirmed. CA is K26.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Federal MSPA certificate (WH-530, 12-24 months), state licences and bonds (WA annual, OR, CA), and California AB 1362 (Ch. 190/2025) extending foreign labour contractor registration to H-2A from July 1 2027. Payroll/H-2A vendors exist (FieldClock, Seso, TaxBandits); none seen covering licence/bond renewal.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Annual trust/preneed reports: MT and KS (Jan 1/15), MN, OH preneed (Dec 31 data), MA preneed (June 30). Only funeral-home accounting software seen (The Professional Programs); no cemetery-trust reporting product found.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Multi-state charitable registration is served by vendors (Cause Comply and others in results); Colorado requires foreign nonprofits to register as corporations first in 2026. Florida condo websites (25+ units) due Jan 1 2026, HOA 100+ parcels from Jan 1 2025, SIRS deadlines Dec 31 2025/2026. Halal/kosher supervision not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "UCR 2026 closed Dec 31 2025; Motus (launched May 14 2026) caused records missing from SAFER and an MCS-150 biennial enforcement pause; Clearinghouse annual query. Many trucking compliance vendors exist. Taxi, minibus and limo not searched separately.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Mobile food: commissary logs and annual commissary agreements per county; only generic form templates (GoCanvas, Paperform). Check cashers/currency exchangers: FinCEN Form 107 (renewal notice Apr 30 2026), state annual reports (MA, ME). No product seen.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Tattoo: client consent/record rules (OR, VA, OK, WI), VA regulation revised Jan 5 2026; no filing. Childminders: 2026 rule rewrites in MI (Apr), OH (Jul 1), MN (Jul 1), WI (Aug 1). Outfitters: annual reports HI/IL/PA/MT, K35. Driving schools K38. Small food producers not searched separately.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 0,
+   "queries": [
+    "secondhand dealer pawnbroker transaction reporting software small shops state law 2026",
+    "auto dismantler salvage yard state reporting requirements NMVTIS junk vehicle small yards 2026",
+    "livestock market brand inspection electronic ID traceability rule 2026 small dealers records",
+    "custom exempt slaughter small meat processors state inspection recordkeeping software 2026",
+    "beekeeper apiary registration annual state requirement 2026 online portal",
+    "well driller log report water well completion report online submission state software drillers",
+    "small community water system CCR / LCRI / RTCR operator software 2026 deadlines",
+    "pesticide applicator restricted use pesticide record keeping software state reporting dealer sales report 2026",
+    "farm labor contractor registration state 2026 new law recordkeeping H-2A small contractors",
+    "cemetery trust fund annual report state regulator small cemeteries pre-need funeral home annual report software",
+    "boiler pressure vessel certificate of inspection owner portal state jurisdiction inspection scheduling 2026",
+    "veterinarian prescription monitoring program reporting requirement controlled substances veterinary 2026 new state law",
+    "Unified Carrier Registration small trucking MCS-150 BOC-3 drug clearinghouse owner-operator compliance 2026",
+    "charitable solicitation registration multi-state small nonprofit annual renewal 2026",
+    "hunting guide outfitter license annual report state wildlife agency 2026",
+    "tattoo studio license inspection record requirements state health department 2026",
+    "street food vendor mobile food truck permit commissary log health department annual renewal software",
+    "Florida HOA website January 1 2026 condo SIRS DBPR filing small associations",
+    "scrap tire hauler manifest quarterly report state registration small haulers software",
+    "farm labor contractor software compliance license bond payroll H-2A WA OR CA 2026",
+    "precious metals dealer gold buyer license state law records report police 2026",
+    "family child care home license renewal requirements 2026 state new rule",
+    "check cashers currency exchange small MSB state license annual report 2026 FinCEN",
+    "CCR software small water systems 2027 rule vendor",
+    "Maine Board of Pesticides Control dealer sales report approved software",
+    "MSPA farm labor contractor recordkeeping software wage statements license renewal",
+    "LeadsOnline precious metals gold buyer reporting software cash for gold compliance",
+    "household employers nanny caregiver state paid family leave registration 2026"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b1"
+ },
+ "discover:B:united-states": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Independent single-site gas stations, small convenience-store/fuel chains, marinas, farms and fleets with regulated underground storage tanks (owners/operators, Class A/B/C operators)",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "Search results: Seyfarth, Arizona and Oregon admin code, Mississippi MDEQ and Nebraska SFM walkthrough forms, Vermont DEC July 2025 newsletter (inspectors report frequent non-compliance with weekly release detection and monthly walkthroughs). Invenco claims 40%+ of c-store operators are out of technical compliance due to missing paperwork (vendor claim, unverified). https://www.law.cornell.edu/regulations/arizona/Ariz-Admin-Code-SS-R18-12-236 ; https://www.law.cornell.edu/regulations/oregon/Or-Admin-Code-SS-340-150-0315 ; https://invenco.com/insite360-comply ; https://www.senecaco.com/consulting/compliance/compliance-manager-program/ ; https://dec.vermont.gov/sites/dec/files/wmp/UST/Newsletter/Vermont%20UST%20Newsletter_July%202025.pdf",
+     "existing": "Competitor search run: Invenco Insite360 Comply (cloud asset/due-date tracker, aimed at enterprise c-store operators), Seneca Compliance Manager (database plus paid service), generic checklists (DocHub, SafetyCulture, Miratag). No small-operator, state-form-aware app found; not confirmed that none exists.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Same buyer (fuel stations) as K04 but a different duty (UST inspection records versus weights and measures placed-in-service reports).",
+     "name": "UST monthly walkthrough and release-detection record keeper for independent gas stations and small tank owners",
+     "score": 4,
+     "status": "promising",
+     "trigger": "40 CFR 280.36 periodic operation and maintenance walkthrough inspections every 30 days (and annually for spill equipment at low-delivery sites), documented release-detection monitoring, annual equipment tests, records kept 1-3 years by state; states (e.g. AZ R18-12-236, OR OAR 340-150-0315, IL, NE, MS) add forms and retention. Federal; state UST programs enforce.",
+     "trigger_text": "",
+     "unchecked": "Number of independent single-site operators; whether state programs accept electronic records or require submission; willingness to pay versus the $50-200 per month incumbents; whether petroleum marketers already bundle this; state-specific form variations; whether fuel-distributor associations (e.g. PMAA, state petroleum marketer associations) resell a tool."
+    },
+    {
+     "buyer": "Independent dental practices (general dentists, oral surgeons, periodontists) that place or remove amalgam",
+     "category": "31. Dental offices (EPA dental amalgam rule, 40 CFR 441)",
+     "evidence": "Solmetex page (vendor) on June 14 2027 deadline; Colorado Dental Association, Washington State Dental Association, Phoenix and San Antonio Water Systems guidance on 3-year records and local control authority. https://solmetex.com/2026/07/2027-epa-amalgam-separator-deadline/ ; https://cdaonline.org/?p=561 ; https://www.phoenix.gov:443/waterservicessite/Documents/Dental%20Amalgam%20Rule%20FAQs.pdf",
+     "existing": "Competitor search run: HealthFirst OnTraq (tied to HealthFirst separators and recycling), Solmetex Compliance Center (aimed at DSOs), RationalGo DIY log template, MangoApps template, state dental association log forms. No service found that files with a POTW for the practice.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known idea.",
+     "name": "Dental amalgam separator replacement and BMP record tracker for independent dental offices",
+     "score": 3,
+     "status": "weak",
+     "trigger": "EPA 40 CFR Part 441: separators installed before June 14 2017 must be replaced by June 14 2027; ongoing visual inspection, maintenance, disposal and invoice records kept at least 3 years and shown to local wastewater authority; one-time compliance report to the local control authority (or EPA) for new offices within 90 days of accepting patients. Federal rule, enforced by local POTW/control authority.",
+     "trigger_text": "",
+     "unchecked": "Number of offices still running pre-2017 separators; whether the June 2027 date holds and whether EPA changed it; how many POTWs require periodic submissions rather than on-request inspection; OSHA/HIPAA dental compliance bundles that already include EPA logs; hardware-sale economics (value may sit with separator sellers, not software)."
+    },
+    {
+     "buyer": "Self-managed Florida condominium associations with 25-150 units and small HOAs with 100+ parcels",
+     "category": "32. Condominium, HOA and cooperative associations (Florida)",
+     "evidence": "Law firm and vendor summaries of HB 1021; Becker, Siegfried Rivera, Campbell Property Management, Associa; flsenate.gov bill pages. https://www.floridacondohoalawblog.com/2024/08/28/if-your-condominium-has-25-or-more-units-there-is-a-new-website-requirement/ ; https://flsenate.gov/Session/Bill/2026/722 ; https://www.buildinglink.io/blog/florida-condo-website-law-what-boards-need-to-know",
+     "existing": "Competitor search run: SetMySite (from $249/mo or $1,500 build), MyCommunitySite (Becker & Poliakoff/Shyft), UpperBee, CondoControl, BuildingLink, HOA-Express, AffordableHOA ($49-293/mo), free Paid Memberships Pro. Crowded.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "Loosely related to K06 (property-manager registry tracker) but different buyer (volunteer-run associations) and duty.",
+     "name": "Florida condo association website and records-posting compliance service (25+ units)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Fla. Stat. 718.111(12)(g) as amended by HB 1021: website/app/portal required from Jan 1 2026 for 25+ units, records posted within 30 days, owner-only section; SIRS must be posted and sent to the Division within 45 days of receipt (SB 722 2026 amendment, passage unconfirmed); DBPR online account due Oct 1 2025. State law, DBPR enforces.",
+     "trigger_text": "",
+     "unchecked": "Actual penalty rule and enforcement intensity; how many 25-150 unit associations are still non-compliant; whether most use a management company that already supplies the site; SB 722 outcome."
+    },
+    {
+     "buyer": "Small New York subcontractors on public and publicly funded private construction projects (trades, landscapers, demolition)",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "NYSDOL announcement and Electronic Payroll page (manual entry or XML bulk upload per NYDOL_CertPayroll.xsd, no CSV or API mentioned); Grassi Advisors summary. https://dol.ny.gov/electronic-payroll ; https://dol.ny.gov/certified-payroll-bulk-upload-formatting-guide ; https://www.grassiadvisors.com/blog/new-york-electronic-certified-payroll-requirements-what-contractors-need-to-know-for-2026/",
+     "existing": "Competitor search run: LCPtracker Aug/Sep 2026 release notes generate a NYSDOL-compatible XML (limits: cannot upload corrected XML, no files for non-performing weeks); Aatrix reported to handle NY CPR (secondhand); Trimble ProContractor export unconfirmed for NYSDOL XSD; a Sage forum contractor still asking for a custom report. Prevailing-wage tools are established.",
+     "known_id": "K19",
+     "known_mark": "new",
+     "known_note": "Related only by construction buyer group; K19 is SWPPP inspections. New duty and new buyer subset (NY prevailing-wage subs).",
+     "name": "New York certified payroll XML builder for small prevailing-wage subcontractors",
+     "score": 3,
+     "status": "weak",
+     "trigger": "NY Labor Law 220-j (2024 law) and NYSDOL Electronic Certified Payroll Submissions system from Jan 1 2026: payroll every 30 days even if no work, $100/day after 14-day grace, up to $1,000 civil penalty for willful inaccuracy; needs FEIN, contractor registration number, PRC number per project, employee SSN and addresses. State level; NYC runs a separate database.",
+     "trigger_text": "",
+     "unchecked": "Whether LCPtracker pricing suits micro-subs; whether QuickBooks/Gusto/Paychex users have a native NY export; number of small subs affected; other states copying the mandate; whether correction workflow gap (state requires contacting NYSDOL for correction file) is a wedge."
+    },
+    {
+     "buyer": "Small FFL dealers, home-based gunsmiths and pawn/gun shops",
+     "category": "34. Federal firearms licensees",
+     "evidence": "Fastbound pages on ATF Ruling 2016-1, policyrisk Federal Register summaries of the 2026 proposals, Murphy comment letter. https://www.fastbound.com/ffl-blog/the-atfs-requirements-for-electronic-ad-books/ ; https://policyrisk.com/federal-register/2026-08929 ; https://policyrisk.com/federal-register/2026-09158",
+     "existing": "Fastbound (ATF 2016-1 compliant e-bound book), Orchid Advisors consulting pages, other electronic bound book vendors.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Rejected: Fastbound and other established electronic bound book products already cover the core job; final rules not yet confirmed.",
+     "name": "Electronic FFL A&D bound book and Form 4473 retention",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "27 CFR 478.121-478.129 A&D records; ATF 2026 NPRMs (electronic records codification; 20 or 30 year retention, RIN 1140-AA95); out-of-business record transfer in ASCII. Federal, ATF enforces.",
+     "trigger_text": "",
+     "unchecked": "Whether the 2026 proposals were finalized; Fastbound market share and price."
+    },
+    {
+     "buyer": "Individual STR hosts and small guest-house owners in NY (state registry, renew every 2 years; sales tax from April 2025), RI (since 2022), CT (HB 5536 pending, registry would apply 2027)",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "VRMA, NatLawReview, Sax Advisory, Bonadio summaries; Connecticut OLR analysis of 2026 HB 5536. https://prdext2.cga.ct.gov/2026/TOB/H/PDF/2026HB-05536-R01-HB.PDF ; https://arrival.vrma.org/Industry-news/Industry-News/new-york-short-term-rental-regulations-start-in-2025",
+     "existing": "Avalara MyLodgeTax, platform tax collection (Airbnb, Vrbo), property management and channel manager tools. Not competitor-searched in depth.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known idea.",
+     "name": "Short-term rental state and local registration and lodging-tax filing helper for small hosts",
+     "score": 2,
+     "status": "weak",
+     "trigger": "NY STR registry law (Department of State or local registries), NY sales tax on STR, RI Department of Business Regulation registration, CT proposed DRS registry with $100 fee and up to $1,000 penalty. State and local.",
+     "trigger_text": "",
+     "unchecked": "Connecticut bill outcome; thousands of local jurisdictions with own registries (not enumerated); platform auto-collection reduces tax filing burden; competitor search on local-language product names not run."
+    },
+    {
+     "buyer": "Small importers of articles that may contain PFAS (textiles, furniture, electronics, consumer goods)",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "Faegre Drinker April 2026 summary; Foley/FBM; Certivo blog (stale October 2026 date). https://www.faegredrinker.com/en/insights/publications/2026/4/epa-extends-pfas-reporting-start-date-under-tsca-section-8a7 ; https://www.fbm.com/environmental-law/publications/epa-further-revises-reporting-period-for-pfas-reporting-requirements-under-tsca-section-8a7/",
+     "existing": "Certivo, Source Intelligence, consultancies. Competitor search not run in detail.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known idea. Watch if the substantive rule keeps imported articles in scope.",
+     "name": "PFAS TSCA 8(a)(7) reporting helper for small article importers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "TSCA 40 CFR 705.18 reporting; April 2026 final rule moved start to the earlier of 60 days after the substantive final rule or Jan 31 2027; small article importers had an extended period; November 2025 proposal may exempt imported articles and add a 0.1% de minimis. Federal, EPA.",
+     "trigger_text": "",
+     "unchecked": "Final substantive rule status; actual small-importer scope; supplier-data collection burden."
+    },
+    {
+     "buyer": "Small brands and e-commerce sellers above state EPR thresholds in CA, CO, OR, MN, MD, WA",
+     "category": "37. Packaging producers (state EPR)",
+     "evidence": "Faegre Drinker May 2026 note, Wine Institute EPR table, Sleep Products Association April 2026. https://www.faegredrinker.com/zh/insights/publications/2026/5/extended-producer-responsibility-six-state-reports-due-may-31 ; https://wineinstitute.org/our-work/compliance/epr/eprtable/",
+     "existing": "Circular Action Alliance (the PRO), EPR consultancies (Brightest, Repurpose, Packaging School). Thresholds and next dates not found.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known idea; 2027 deadlines not found, so unverified.",
+     "name": "State packaging EPR registration and annual supply reports for small producers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "State packaging EPR laws administered via Circular Action Alliance; 2025 Annual Supply Reports were due about May 31/June 1 2026; invoicing began Jan 2026 in Colorado. State level.",
+     "trigger_text": "",
+     "unchecked": "Small-producer exemption thresholds; next filing dates; whether PRO already offers data templates."
+    },
+    {
+     "buyer": "Small California janitorial companies and the HOAs/property managers that hire them",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "DIR regulation text; cleanlink and law firm blogs from 2017-2018. https://www.dir.ca.gov/dlse/regulation_detail/Janitorial-Registration-Final-Text.pdf ; https://california.public.law/codes/labor_code_section_1428",
+     "existing": "DLSE online registration and public registry (free state tool). No software competitor search run.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Related to K03/K23 only by staffing theme; different industry.",
+     "name": "California janitorial contractor annual registration and hirer verification",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Labor Code 1420 ff. (AB 1978): annual registration with DLSE, reported $500 fee, workers' comp certificate for employers, 3-year payroll records, hirer penalties for using unregistered contractors; DIR regs 13810-13819.",
+     "trigger_text": "",
+     "unchecked": "Current fee and penalty amounts; whether sexual-violence prevention training and registry add recurring duties; number of registrants; who files for small firms today."
+    },
+    {
+     "buyer": "Food trucks and market vendors working across several cities or counties",
+     "category": "33. Mobile food vendors and cottage food operators",
+     "evidence": "Municipal codes of Monterey and American Canyon, Jurupa Valley flowchart, Texas HSC ch. 437A. https://monterey.municipal.codes/Code/20-74.2 ; https://statutes.capitol.texas.gov/Docs/HS/htm/HS.437A.htm",
+     "existing": "Not searched; no software seen in results.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Possibly related to K09 (traveling carnivals) as a per-stop permit idea, different buyer.",
+     "name": "Mobile food vendor and cottage food multi-jurisdiction permit calendar",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Per-vehicle county health permits, city business licences and commissary requirements, with yearly non-automatic renewal (e.g. Monterey CA June 30; Jurupa Valley county permit first). Local.",
+     "trigger_text": "",
+     "unchecked": "Existing food-truck apps and permit services; scale of multi-jurisdiction operators; whether permitting is moving to portals."
+    },
+    {
+     "buyer": "Independent pharmacies and small DEA registrants (clinics, vets)",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "Triumvirate, C2 Keep and VetSnap vendor/blog pages (secondary sources). https://www.triumvirate.com/blog/controlled-substance-inventory-biennial-review ; https://c2keep.com/?p=180419",
+     "existing": "C2 Keep and pharmacy management system modules; DEA online form is free.",
+     "known_id": "K12",
+     "known_mark": "new",
+     "known_note": "Same buyer as K12/K30 (independent pharmacies) but different duty; no new rule found.",
+     "name": "Controlled-substance biennial inventory and DEA 106 filing helper for small pharmacies",
+     "score": 2,
+     "status": "weak",
+     "trigger": "21 CFR 1304 biennial inventory; electronic DEA Form 106 within 45 days of discovered theft or loss (2023 rule per secondary sources, one source also says one business day notice, conflicting). Federal.",
+     "trigger_text": "",
+     "unchecked": "Primary-source check of 21 CFR; competitor coverage in pharmacy management systems."
+    },
+    {
+     "buyer": "Small practices with waived testing",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "Florida AHCA waived laboratories page and secondary guides. https://ahca.myflorida.com/health-quality-assurance/bureau-of-health-facility-regulation/laboratory-and-in-home-services/clinical-laboratories/waived-laboratories.html",
+     "existing": "Not searched; practice-management EHRs likely include reminders.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Low burden; no 2026 change.",
+     "name": "CLIA certificate of waiver tracker for physician-office labs",
+     "score": 1,
+     "status": "weak",
+     "trigger": "CLIA certificate of waiver renewal every 2 years via state CLIA office (application lead time unverified), waived-test list changes affecting billing; random inspections only.",
+     "trigger_text": "",
+     "unchecked": "Competitors and state add-on licences."
+    },
+    {
+     "buyer": "Small licensed grain dealers and warehouse keepers",
+     "category": "22. Grain and other commodity traders, millers and warehouses",
+     "evidence": "Wisconsin statutes 126.13/126.28 and DATCP guides. https://datcp.wi.gov:443/Documents/FinancialStatementInfoGW.pdf",
+     "existing": "Not searched; likely accountant-prepared.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Only Wisconsin evidence; small market.",
+     "name": "State grain dealer and warehouse annual financial statement/licence tracker",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Wisconsin DATCP annual financial statement (above 200,000 bushels or deferred payment contracts; due 15th day of 4th month after year-end; audit above 2.5M bushels); other states have similar licensing and bonding.",
+     "trigger_text": "",
+     "unchecked": "Other states, volumes, competitors."
+    },
+    {
+     "buyer": "Small check cashers, money transmitters and prepaid/virtual-currency kiosk operators",
+     "category": "35. Money services (state licensing)",
+     "evidence": "WA DFI Spring 2026 Money Services Industry Update; NY DFS check cashers page. https://dfi.wa.gov/newsletter/spring-2026-money-services-industry-update ; https://www.dfs.ny.gov/apps_and_licensing/check_cashers",
+     "existing": "NMLS itself, bond agencies; no software searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Related to FinCEN MSB duties; not in known list.",
+     "name": "NMLS annual assessment, bond and attestation calendar for small check cashers and money transmitters",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "State annual assessment reports and bond riders via NMLS (WA by July 1, NY check cashers Mar 17, WA attestation Nov 1 - Dec 31), Maine electronic surety bonds by Jan 31 2026, 30-day authorized delegate change reports.",
+     "trigger_text": "",
+     "unchecked": "Number of licensees, competitor tools, other states' deadlines."
+    },
+    {
+     "buyer": "Small independent used-vehicle dealers",
+     "category": "36. Independent used-car dealers",
+     "evidence": "LegiScan LA SB72, Colorado leg.colorado.gov HB26-1041, vacode 46.2-631.1. https://legiscan.com/LA/text/SB72/2026 ; https://leg.colorado.gov/bills/hb26-1041",
+     "existing": "Dealer management systems (not searched).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No mandatory new small-dealer filing found; DMS vendors likely cover it.",
+     "name": "Independent used-car dealer e-title and odometer record helper",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Louisiana SB72 e-title (eff. Aug 1 2026); Colorado HB26-1041 (status unconfirmed); Virginia optional dealer e-title programme; federal odometer disclosure MY2011+.",
+     "trigger_text": "",
+     "unchecked": "State-by-state e-title mandates; DMS coverage."
+    },
+    {
+     "buyer": "Small domestic and foreign food, supplement and animal-food facilities",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "Willson International, Hogan Lovells, iFactory guide. https://www.hoganlovells.com/en/publications/reminder-its-time-to-renew-your-fda-food-facility-registration ; https://ifactoryapp.com/industries/food-manufacturing/fda-food-facility-registration-renewal-requirements-2026",
+     "existing": "Free FDA portal; Registrar Corp and customs brokers file for a fee.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Free state portal plus incumbent filers; two-year frequency.",
+     "name": "FDA food facility biennial registration renewal for small food facilities",
+     "score": 2,
+     "status": "weak",
+     "trigger": "FD&C Act section 415: renewal every even year between Oct 1 and Dec 31 (window open now, free through FDA Industry Systems); expired registration is a prohibited act.",
+     "trigger_text": "",
+     "unchecked": "Registrar Corp pricing, whether a sales window exists before Dec 31."
+    },
+    {
+     "buyer": "Small NYC building and garage owners",
+     "category": "38. Building owners under local performance and inspection laws",
+     "evidence": "Cooperator News 2026 deadlines, Rand Engineering, Milrose, Thornton Tomasetti. https://cooperatornews.com/article/reminder-2026-deadlines-for-dob-sustainability-laws ; https://www.milrose.com/local-law-126",
+     "existing": "Engineering consultancies own the filings; software scope unclear.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "known_note": "Same style as K07 (elevator inspection filing router) but different buyer/duty; DOB filings require licensed professionals (QEWI/PE), limiting software fit.",
+     "name": "NYC building owner inspection and benchmarking calendar (LL126 parking, LL87, LL97) for small owners",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "LL126 parking structure inspections for all garages (cycle windows disputed in sources), LL87 energy efficiency reports due Dec 31 2026, LL97 for over 25,000 sq ft (report due May 1 each year).",
+     "trigger_text": "",
+     "unchecked": "Whether filings must be made by licensed professionals; competitor tools; non-NYC equivalents (Boston, Denver, Washington State)."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Federal UST rule (40 CFR 280, in force Oct 2021) requires a documented walkthrough inspection at least every 30 days, annual release-detection and equipment testing, and 1-3 year record retention; states add their own forms and retention (AZ 1 yr, NE annual walkthrough 3 yr, MS and OR forms). Only enterprise tools found (Invenco Insite360 Comply, Seneca Compliance Manager); no small-operator app seen. See candidate C1. W&M side is known K04.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "State grain dealer/warehouse licensing exists (e.g. Wisconsin DATCP annual financial statement above 200k bushels, CPA review or audit, due 15th day of 4th month after year-end). Only the Wisconsin statute and DATCP forms were seen; no recurring small-firm filing burden worth a candidate beyond a weak note (C13). 50-state grain licensing not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Nothing new. NCUA 2026 notices are paperwork renewals and a deregulatory review (AML/BSA among five areas), no new small-credit-union filing. Co-op/savings-group angle not searched beyond this.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "CLIA Certificate of Waiver is a 2-year renewal with random inspections only (about 2 percent); no 2026 change found, thin burden (C12 weak). Dental offices with amalgam duties are in C2 (cat. 31). Payer credentialing and billing not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "DEA biennial inventory and electronic Form 106 (45 days after discovery of theft/loss) are existing duties; vendors such as C2 Keep cover perpetual inventory and biennial reports (C11 weak). Related known ideas K12 (MFP refunds) and K30 (DSCSA) already rejected. No new rule found.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "California is the only state with a janitorial registry (AB 1978, Labor Code 1420 ff., yearly registration, reported $500 fee, hirers fined for using unregistered contractors, 3-year payroll records). Fees and current rules unconfirmed. See C9. Healthcare staffing is K03, security guard licensing K23.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "New York Labor Law 220-j mandates electronic certified payroll for public and some private prevailing-wage projects from Jan 1 2026 (every 30 days even with no work, $100/day penalty after 14-day grace). NYSDOL portal takes manual entry or XML bulk upload per an XSD; LCPtracker already generates the NYSDOL XML (Aug/Sep 2026 release notes). See C4. NYC runs a separate database. SWPPP is known K19.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Notary electronic journal and recording retention rules (10 years in NC, OK, NY) are in state RON statutes; no 2026 change found and many e-notary platforms already provide journals. FinCEN real estate rule is K27 (enjoined). Nothing new. Broker trust-account reports not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "New York statewide STR registry (registration every 2 years, in effect 2025) plus NY sales tax on STR from April 2025; Rhode Island registry since 2022; Connecticut HB 5536 (statewide registry, $100 fee, would apply 2027) with passage unconfirmed. Avalara MyLodgeTax and platform collection exist. See C6 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "FDA food facility biennial registration renewal window is open now (Oct 1 to Dec 31, 2026, free, FDA portal). TSCA 8(a)(7) PFAS reporting start moved to the earlier of 60 days after the substantive final rule or Jan 31 2027; article importers may be exempted (proposal). See C7 and C8, both weak. FSMA 204, UFLPA and Lacey Act not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Dental offices (country-specific): EPA dental amalgam rule, 40 CFR 441",
+     "found": "Separators installed before June 14 2017 must be replaced by June 14 2027; ongoing visual inspection, maintenance and disposal records kept 3 years; one-time compliance report was due Oct 2020 (90 days after opening for new offices) to the local control authority or EPA. HealthFirst OnTraq and Solmetex Compliance Center exist. See C2.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Condominium, HOA and cooperative associations (Florida statutes 718/720)",
+     "found": "Florida condo associations with 25+ units must have a website or app posting records within 30 days (effective Jan 1 2026, HB 1021); HOAs with 100+ parcels since Jan 1 2025; SIRS must be posted and sent to the Division within 45 days of receipt; DBPR online account due Oct 1 2025. Many vendors (CondoControl, BuildingLink, SetMySite, MyCommunitySite). See C3.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Mobile food vendors and cottage food operators (local and county permits)",
+     "found": "Permits are per vehicle and per city/county (Monterey CA expires June 30 yearly, no auto-renewal; Jurupa Valley needs county health permit first; Texas ch. 437A multi-county rule applies only to counties over 2.1 million). No software found in the search; evidence thin. See C10 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "34. Federal firearms licensees (ATF A&D bound book and Form 4473)",
+     "found": "ATF 2026 proposals: electronic recordkeeping codification (comments to Aug 6 2026) and fixed 20 or 30 year retention (RIN 1140-AA95, comments to Aug 4 2026); not confirmed final. Fastbound and others already sell ATF 2016-1 compliant e-bound books. See C5 (rejected).",
+     "status": "screened"
+    },
+    {
+     "category": "35. Money services: check cashers and small money transmitters (state licensing via NMLS)",
+     "found": "State annual assessment reports and bond adjustments run through NMLS (WA due July 1; NY check cashers annual report Mar 17 2026; WA attestation Nov 1 to Dec 31); Maine required electronic surety bonds by Jan 31 2026. No small-licensee software found. See C14 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "36. Independent used-car dealers (state electronic title, odometer disclosure)",
+     "found": "Only incremental changes: Louisiana SB72 e-titles effective Aug 1 2026, Colorado HB26-1041 (enactment unconfirmed), Virginia optional e-title program; federal odometer disclosure for MY2011+ since 2021. No mandatory new small-dealer filing found. See C15 (weak, unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "37. Packaging producers and article importers (state EPR, PFAS)",
+     "found": "Packaging EPR in CA, CO, OR, MN, MD, WA is administered through Circular Action Alliance; 2025 supply reports were due ~May 31/June 1 2026; no 2027 dates and no small-producer thresholds found. See C7 and C8.",
+     "status": "screened"
+    },
+    {
+     "category": "38. Building owners under local performance and inspection laws (NYC LL97, LL87, LL126)",
+     "found": "LL97 covers buildings over 25,000 sq ft; LL87 energy efficiency reports due Dec 31 2026 for the 2026 cohort; LL126 parking structure inspection cycles (2026-2027 for Bronx, Queens, Staten Island sub-cycle) apply to all garages. Consultants (Milrose, Rand, Thornton Tomasetti) own it; not scored beyond C16 (unverified).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "UST operator monthly walkthrough inspection records small gas station compliance software state UST program",
+    "state grain dealer warehouse license annual financial statement requirement small grain elevator 2026",
+    "small credit unions NCUA compliance burden 2026 new reporting requirement",
+    "CLIA certificate of waiver physician office lab compliance recertification small practices 2026 CMS",
+    "DEA Form 106 theft loss reporting pharmacy controlled substance biennial inventory small pharmacy compliance software",
+    "janitorial company registration state law 2026 employer registry cleaning contractors compliance",
+    "certified payroll small contractors state prevailing wage new law 2026 electronic reporting required",
+    "notary journal electronic remote online notarization state requirement 2026 law change notaries record",
+    "short-term rental registration law 2026 new state statewide registry hosts must register lodging tax",
+    "FDA food facility registration renewal October December 2026 biennial small facilities",
+    "dental amalgam separator rule compliance report deadline dental offices EPA 2026 inspection maintenance records software",
+    "Florida condominium association website requirement 2026 structural integrity reserve study DBPR reporting deadline small associations",
+    "packaging EPR producer registration reporting deadline 2026 small producers Oregon Colorado California Circular Action Alliance",
+    "TSCA PFAS section 8(a)(7) reporting period 2026 deadline small article importers",
+    "NYC Local Law 97 Local Law 126 small building owners compliance deadlines 2026",
+    "FFL acquisition and disposition record electronic bound book ATF rule 2026 licensed dealers records",
+    "cottage food operation mobile food vendor permit renewal multi-county software food truck health department compliance",
+    "check cashers money transmitters small licensees state license annual report NMLS surety bond 2026",
+    "used car dealer state requirement 2026 electronic title odometer dealer reporting small independent dealers",
+    "amalgam separator compliance tracking software dental office inspection log reminders wastewater authority reporting service"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b1"
+ }
+}

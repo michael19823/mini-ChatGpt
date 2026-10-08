@@ -1,0 +1,1109 @@
+{
+ "challenge:israel:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. The main weaknesses are a small market (about 170 applicants, about 20 near-ready) and slow phase-in (AML circular in full effect 1.5 years after final publication; 2 years after first licence to prepare).",
+   "reason": "I found no product, free state tool or rule that kills this. Hebrew and English searches turned up no gemach-specific management or reporting software, only generic loan systems such as CAV Systems and Nortridge, and the CrediGestor extension. The Authority's online system only accepts and validates files in a fixed template; it does not prepare the data. Two things push the score down. The market is very small: about 170 licence applications are pending and only about 20 are near-ready (ice.co.il). Deadlines are also slow: the AML circular takes full effect 1.5 years after final publication, and licensees get 2 years after licensing (Calcalist). On top of that, donation-funded bodies have limited willingness to pay, and charedi accountants or Nedarim Plus could act as competitors or channels. I didn't check either of them.",
+   "searches": 8,
+   "sources": "https://www.calcalist.co.il/local_news/article/rktbct3sfe (opened: annual AML report due March 31 as a fixed-template file, Authority system rejects files that don't match, 1.5-year phase-in) ; https://www.ice.co.il/finance/news/article/1093943 (search snippet: 170 pending, 20 mature, no temporary licence) ; https://www.funder.co.il/article/209090 (search snippet: first 7 licences, Sept 2026) ; https://tradersunion.com/he/news/regulators/show/2871726-capital-market-authority-gemach-oversight/ (snippet) ; https://cav.co.il/en/blog-post/recommended-mortgage-management-system-non-bank-lenders-israel (generic lender software, not gemach-specific) ; https://www.bhol.co.il/news/951271 (403 on fetch; snippet says the Finance Committee started approving law sections for 2nd/3rd reading in July 2026, content unverified)",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b1"
+ },
+ "critic:israel": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Business-licensing regime specifics: Kashrut (rabbinate) certificates for restaurants, caterers and food shops, plus the Tourism Ministry's licensing of tour guides, travel agents and tour operators",
+     "first_search": "תעודת כשרות רבנות מקומית חידוש בית אוכל רישיון עסק | רישיון מורה דרך משרד התיירות חידוש",
+     "why": "Nearly every small food business must hold and renew a local rabbinate kashrut certificate on top of the Business Licensing Law licence. Tour guides (about 7,000, with a Ministry of Tourism licence), travel agents and incoming operators are a large group of small operators with licence-renewal duties. Coverage touched kashrut only as 'enforcement' and C5 only generally, so neither is a candidate."
+    },
+    {
+     "category": "Alcohol, tobacco and fuel excise: small retailers and importers (Law for Licensing Sale of Intoxicating Liquor, wholesale and import licences; 2025-26 sugar/beverage and e-cigarette tax changes)",
+     "first_search": "רישיון למכירת משקאות משכרים חידוש מכס מע\"מ יבואן | היטל על סיגריות אלקטרוניות יבואנים דיווח 2025",
+     "why": "Retailers and importers of alcohol, tobacco and e-cigarettes face Customs and VAT Authority licensing, stock and record rules, and excise changes. Coverage marked tobacco 'nothing actionable' after no search into excise or importer duties, and never looked at alcohol licensing. Many kiosks, grocers and bars are affected."
+    },
+    {
+     "category": "Pesticide and fertiliser dealers, plant-protection permits and farm inputs (Plant Protection Law, the Ministry of Agriculture's Plant Protection and Inspection Services (שה\"ה), the Israeli Standards Institution)",
+     "first_search": "יומן ריסוסים חובה דיווח משרד החקלאות מגדלים | רישום מגדל ליצוא ירקות פירות שה\"ה",
+     "why": "Marked not_reached, and no known idea covers it. Israel has thousands of small farms and kibbutz and moshav enterprises. They must keep pesticide-use records and meet MRL/residue and GlobalG.A.P-style export duties. The Ministry of Agriculture's new 'farmer to exporter' rules and the digital pesticide-use logbook are a plausible hook. The not_reached item C13 (e-phyto, packing houses) also remains unverified."
+    },
+    {
+     "category": "Employers' mandatory duties to workers (pension fund, severance, work-safety and the foreign-worker sector) for very small employers: the Pension Extension Order, the Minimum Wage law (April 2026 update), and the Hours of Work and Rest Law",
+     "first_search": "מעסיק זעיר הפקדות פנסיה מסלקה דיווח חובה צו הרחבה | תלוש שכר תיקון חוק הגנת השכר 2025 תוכן",
+     "why": "Cleaning and security contractors are covered, but not the broad base of micro-employers (shops, cafes, clinics). Under the Pension Extension Order and the pension-clearing-house (מסלקה) system they must make employee pension contributions and file reports. The bureaus' payroll tools may leave gaps, but the 2025-27 regulations on pension reporting and wage-slip content changed filing details. Check whether this is already solved by payroll."
+    },
+    {
+     "category": "Vehicle-related small-operator regimes: driving-school and driving-test centres, tow-truck, truck-fleet and motor-testing stations (מכונים לבדיקת רכב), and the new Ministry of Transport rules on e-bikes and scooters sellers",
+     "first_search": "אופניים חשמליים יבואן אישור משרד התחבורה תקן 2025 | רישיון מוביל משאית רשם המוביל דיווח",
+     "why": "Coverage had one search on taxis, and used-car dealers were not verified. Israel has a huge small-vehicle sector: tow operators, roadside services, rental firms and e-bike/scooter importers. In 2023-26 the Ministry of Transport rolled out e-bike standards, a registration system and importer approval. Fleets must keep records for the Ministry's tachograph and 'professional driver' rules."
+    },
+    {
+     "category": "Environmental and municipal duties for small operators: municipal business tax (ארנונה) and the Packaging Law deposit regime, waste-collection fees, and the clean-air rules for gas-engine and boiler emissions",
+     "first_search": "היתר פליטה חוק אוויר נקי עסקים קטנים דיווח שנתי | הנחה בארנונה בקשה עסק קטן הצהרה שנתית",
+     "why": "Coverage looked at toxins and waste oil only. Business-operations duties under the Clean Air Law (2008) need small factories, bakeries and laundries to hold emission permits and check reports, and a 2025-26 stack-emission reform is in place. Municipal duties (ארנונה reduction applications, waste/ commercial refuse permits) hit shops every year. K12 packaging EPR is already rejected, so this is a different duty."
+    }
+   ]
+  },
+  "tag": "w2b1"
+ },
+ "discover:A:israel": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Registered money-service providers (חלפני כספים), about 2,100 on the register per a Knesset committee figure (undated).",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://cpa.co.il/חובות-דיווח-חלפני-כספים (403 on fetch, summarised from search); https://www.efraty.com/?p=5199; https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/60b/2010-60b-203-Matbea.pdf (2010 State Comptroller: enforcement weak)",
+     "existing": "Competitor search 'תוכנה לחלפני כספים דיווח רשות איסור הלבנת הון' found no dedicated vendor. Only accountant explainers and gov.il reporting pages. Unchecked whether general POS/exchange systems or accountants already produce the s.141A file.",
+     "known_mark": "new",
+     "known_note": "No related known id.",
+     "name": "Money-changer (currency-exchange) compliance and reporting tool",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Prohibition on Money Laundering Law s.11c registration; Income Tax Ordinance s.141A: report each operation of NIS 50,000 or more, filed online with the periodic VAT report, regulations published 3.12.2018; ITA instruction 13/2025 sets financial penalties; AML duties to IMPA. The Registrar's check found 35% of deposits unreported (undated, from search result).",
+     "unchecked": "The ITA s.141A file format and portal; who the incumbent exchange-desk software vendors are; actual register size and current Registrar (Ministry of Finance); whether the reporting threshold changed; price tolerance of the buyers."
+    },
+    {
+     "buyer": "Small associations and volunteer-run charities (tens of thousands registered; count not verified).",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://www.greeninvoice.co.il/magazine/אישור-ניהול-תקין/ ; https://www.gov.il/BlobFolder/policy/proper_management_guidelines/ar/association-2018.pdf ; https://elitzur.org.il/wp-content/uploads/2020/11/הדרכת-הגשה-מקוונת-של-דיווח-ובקשה-לקבלת-אישור-ניהול-תקין-החל-משנת-2020.pdf",
+     "existing": "Competitor search 'תוכנה לניהול עמותה דוח כספי דוח מילולי רשם העמותות' found no Israeli product that files with the Registrar. Only Green Invoice explainer articles and foreign nonprofit-software lists. Accountants and bookkeepers probably do this today.",
+     "known_mark": "new",
+     "known_note": "No related known id.",
+     "name": "Annual reporting and proper-management certificate pack for small associations (amutot)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Associations Law: financial and verbal reports and annual documents by 30 June; proper-management certificate (valid up to 2 years) is a condition for grants and s.46 donation tax benefits; the Registrar runs online forms.",
+     "unchecked": "Whether any local vendor (for example a nonprofit accounting package) already produces the Registrar formats; the number of active associations; willingness to pay."
+    },
+    {
+     "buyer": "Licensed beekeepers (number not verified; the sector is small).",
+     "category": "8. Beekeepers",
+     "evidence": "https://www.kipa.co.il/חדשות/פוליטי/1198662-0/ ; https://www.calcalist.co.il/local_news/article/hksyqtsv1x ; https://he.wikisource.org/wiki/צו_להסדרה_של_הצבת_כוורות,_האבקה_וייצור_דבש_(אישור_מטרות_המועצה_להאבקה_ודבש)",
+     "existing": "None found. Not searched competitively because the score is below 3.",
+     "known_mark": "new",
+     "known_note": "No related known id.",
+     "name": "Hive-site permit and levy manager for beekeepers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law for Regulating Hive Placement, Pollination and Honey Production 5785-2025 (published 23 Feb 2025): a Ministry of Agriculture permit committee allocates sites with annual notices, permits last one year, there is a per-hive levy, and a ban on sugar feeding during honey storage.",
+     "unchecked": "Full law text (start date, registration threshold, record-keeping and reporting duties); hive and beekeeper counts."
+    },
+    {
+     "buyer": "Licensed manpower contractors and service contractors (security, cleaning).",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.gov.il/he/service/manpower-contractor-license-request ; https://www.gov.il/he/service/contractors-report-wages-change (403 on fetch; from search snippet)",
+     "existing": "Payroll bureaus and manpower software (see K16) likely cover the figures. No competitor search run (score below 3).",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Close to K01 and K13 (contractor wage reporting, manpower compliance).",
+     "name": "Wage-bill change report and guarantee tracker for licensed manpower and service contractors",
+     "score": 2.5,
+     "status": "weak",
+     "trigger": "Manpower Contractors Law 1996: licence needs a bank guarantee sized to the wage bill (minimum NIS 47,563 as of Jan 2026); a change in wage costs must be reported within 3 months; the guarantee must be replaced on an ownership change.",
+     "unchecked": "Whether the report is filed on a gov.il form; number of licensed contractors; handled by group B (category 26)."
+    },
+    {
+     "buyer": "Small factories and workshops that own steam boilers, air receivers, cranes or lifts.",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://he.wikisource.org/wiki/צו_הבטיחות_בעבודה_(אגרות_בדיקה) ; https://www.gov.il/BlobFolder/generalpage/ria-processes/he/regulations_ria-2022-c.pdf",
+     "existing": "Safety-officer software (K15: DATwise, Reportix, Reporto, Ramdor, eyedo) likely already tracks inspection dates. No separate competitor search run.",
+     "known_id": "K15",
+     "known_mark": "known",
+     "known_note": "Same core duty as K15's competitors.",
+     "name": "Periodic-inspection calendar for pressure vessels, boilers and lifting equipment in small workshops",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Safety at Work Ordinance: periodic inspection by a certified inspector, with a report (tasqir) filed; boiler-operator regulations 2000; inspection fee order. Lift Safety Bill (first reading 29.1.2018) is stalled.",
+     "unchecked": "Inspection intervals; whether a central inspector register exists; whether the lift bill advanced after 2022."
+    },
+    {
+     "buyer": "Licensed car dealers (Ministry of Transport licence, valid up to 6 years, annual fee).",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://www.gov.il/he/service/car-dealer-license-application ; https://www.calcalist.co.il/local_news/car/article/s1jpkf46t",
+     "existing": "Not checked. I found no dealer logbook rule.",
+     "known_mark": "new",
+     "name": "Used-car dealer licence-renewal and records helper",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Vehicle licensing law dealer licence; Calcalist reports the Ministry of Transport is preparing stricter criteria (undated, not final).",
+     "unchecked": "Date and content of the planned reform; any mandatory dealer record-keeping; existing dealer-management vendors."
+    },
+    {
+     "buyer": "Small food producers and cafes joining the Ministry of Health track that moves responsibility to the owner.",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.maariv.co.il/news/health/article-1182485 ; https://www.calcalist.co.il/local_news/article/hycqsyjeme",
+     "existing": "Not checked.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Similar in shape to K04 (licensing-file manager for daycares); a different buyer.",
+     "name": "Business Shield food-licensing file for small food producers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Ministry of Health food-licensing reform with a 'Business Shield' self-supervision track (basic and advanced), reported by Maariv and Calcalist; dates not seen.",
+     "unchecked": "Start date, whether it is mandatory, and whether home producers are included."
+    },
+    {
+     "buyer": "Tattoo and piercing studios.",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.ynet.co.il/articles/0,7340,L-3315583,00.html ; https://www.ynet.co.il/articles/0,7340,L-3223186,00.html",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Hygiene-compliance record for tattoo and piercing studios",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Ministry of Health regulations on warning signs, operator training and piercing hygiene, as described in old ynet articles; no licence or reporting duty found.",
+     "unchecked": "Dates; status of the regulations; the number of studios."
+    },
+    {
+     "buyer": "Jewellers and dealers in precious stones with cash deals.",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.funder.co.il/article/40533 ; https://www.isde.co.il/uploads/attachments/28957\\halbanat_hon_pages_press_.pdf",
+     "existing": "Not checked. A search summary said the order excludes gold and silver.",
+     "known_mark": "new",
+     "name": "Gold, silver and precious-stone dealer AML register",
+     "score": 1.5,
+     "status": "unverified",
+     "trigger": "AML order for dealers in precious stones (2014): identification, reporting and record-keeping; cash threshold figures in the press (NIS 50,000 and NIS 75,000) not confirmed.",
+     "unchecked": "Exact scope (does it cover gold?), current thresholds, whether it is group B category 28."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing new beyond K18, K11, K13 and K21 (not re-searched). The manpower-contractor licence and wage-change report (below) are a different buyer.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "One Hebrew search. No Israeli scrap-dealer register or transaction-book rule found. Press (Calcalist, Walla) shows only export quotas on scrap and an industry call to license metal traders, so there is no live licensing trigger. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "One Hebrew search returned only foreign laws. I found no Israeli second-hand-goods or pawnbroker register. Used-car dealers hold a Ministry of Transport licence (gov.il car-dealer-license-application); a tightening of the criteria was reported as planned (Calcalist, undated). See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "The AML order for dealers in precious stones (2014) covers stones such as diamonds, sapphires and emeralds. A search summary says it excludes gold and silver, which I could not confirm. No gold-buyer register found. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Two searches. I found no dismantler licence or register in Israeli law. Waste-oil and toxins-permit duties fall under K03. Illegal dismantling yards are an enforcement story (Regavim petition). Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Thin. The 2003 State Comptroller report on veterinary services and a gov.il notifiable-disease form exist. I found no livestock-trader register or tagging-report rule that needs software. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Only old municipal slaughterhouse bylaws and a 2003 State Comptroller report. Kashrut fraud law enforcement is handled by a state unit. No recurring filing for software.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "New Law for Regulating Hive Placement, Pollination and Honey Production 5785-2025 (published 23 Feb 2025). A Ministry of Agriculture permit committee will allocate hive sites. The levy is NIS 30 per hive. A June 2026 order approved the council's goals. The market is small. Full text not read (Knesset PDF redirected to a maintenance page).",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Veterinarian Doctors Law 1991 and its regulations exist, and notifiable-disease reporting is on gov.il. I found no register or prescription-log duty with a deadline. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Water Drilling Control Law 1955 and the water-metering laws. I found no new rule or reporting duty for private well owners. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "I found no Israeli licence for septic or waste hauling. The Toxins Law permit for waste oil is K03.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Periodic inspection by a certified inspector is required under the Safety at Work Ordinance for lifts, steam boilers, air receivers and lifting gear. The Lift Safety Bill passed first reading on 29.1.2018 and stalled; a 2022 regulatory impact assessment was prepared to restart it. I found no evidence it passed. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Not searched. Covered by K07 (rural water associations).",
+     "status": "not_reached"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Not searched, to save budget. Pest-control applicators are K08. Pesticide and fertiliser dealers are not covered by any known idea.",
+     "status": "not_reached"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Manpower Contractors Law 1996: licence, guarantee (minimum NIS 47,563 as of Jan 2026 per gov.il), wage-bill change report within 3 months. This overlaps group B category 26 and K01/K13. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Not searched. Known as K19, rejected.",
+     "status": "not_reached"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Associations file financial and verbal reports by 30 June and apply for a proper-management certificate (valid up to 2 years). The Registrar runs the online forms. Kashrut: Rabbinate and local rabbis issue certificates and a state unit enforces; no recurring filing found. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "One search on taxis. Only the service-taxi (sherut) reform and the 2024 Comptroller finding that it failed. I found no taxi record-keeping or reporting rule. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Hawkers are licensed per municipality, so the rules and fees are fragmented. Money changers are the real finding: about 2,100 registered, reporting each operation of NIS 50,000 or more with the VAT return (Income Tax Ordinance s.141A), AML duties, and ITA penalties under instruction 13/2025. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Tattoo: Ministry of Health hygiene regulations (press only, dates unknown). Driving schools: reform of lesson counts only. Nurseries: K04. Food: Ministry of Health food-licensing reform and the 'Business Shield' track (self-supervision); home producers are not clearly covered. Hunting: not searched.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "רישוי סוחרי גרוטאות מתכת רישיון עסק פנקס תעודת משלוח משטרה",
+    "חוק הפיקוח על עסקאות במשומשים סוחר רכב משומש פנקס רישום",
+    "מפרקי רכב פירוק כלי רכב רישיון פסולת שמנים חוק האחריות המורחבת פסולת",
+    "רופא וטרינר תקנות מרשם תרופות וטרינריות דיווח פנקס רעלים מרפאה וטרינרית רישוי",
+    "מדריכי נהיגה בתי ספר לנהיגה רישוי חדש 2026 משרד התחבורה חובת דיווח",
+    "נותני שירותי מטבע רישיון רשות שוק ההון דיווח לרשות לאיסור הלבנת הון חנויות המרת מטבע",
+    "מעליות חוק רישוי מעליות 2025 בודק מעליות בעל מעלית חובת בדיקה תקופתית",
+    "עמותות אישור ניהול תקין רשם העמותות דיווח שנתי חובה עמותות קטנות 2026",
+    "קבלן כוח אדם רישיון רישום קבלני כוח אדם ערבות בנקאית חוק העסקת עובדים דיווח",
+    "צו הלבנת הון סוחרי אבנים יקרות תכשיטנים חובות דיווח",
+    "מוניות רישיון הפעלת מונית תחנת מוניות חובת דיווח מונה רפורמה 2026",
+    "שחיטה בתי מטבחיים קטנים קצבים רישיון שירות וטרינרי סוחרי בעלי חיים",
+    "דבוראים רישום כוורות חובת דיווח צו הדבורים",
+    "קידוח מים רישיון קידוח רשות המים מדי מים דיווח צריכה",
+    "שאיבת ביוב בורות ספיגה מובילי פסולת היתר רעלים רישיון מוביל פסולת",
+    "הכשרות כשרות מפקחי כשרות רבנות מקומית חוק איסור הונאה בכשרות",
+    "קעקועים מכון קעקועים רישוי משרד הבריאות תקנות 2025 2026",
+    "דודי קיטור מכלי לחץ בדיקה תקופתית בודק מוסמך תקנות הבטיחות בעבודה",
+    "מפרקי רכב מגרשי פירוק הסדרה חוק רישיון עסק 2025",
+    "יצרני מזון ביתיים רישיון עסק רפורמה משרד הבריאות 2026"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b1"
+ },
+ "discover:B:israel": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Gemach institutions (interest-free deposit and credit funds, mostly charedi and community-run) that need a Capital Market Authority licence; size tiers: under NIS 1m exempt, NIS 1-8m basic licence, over 8m extended",
+     "category": "23. Co-operatives, credit unions and savings groups (also 34)",
+     "evidence": "funder.co.il/article/209090 (3 Sept 2026: first 7 licences issued; Authority exercising enforcement and sending hearing letters); ice.co.il/finance/news/article/1093943 (170+ applications pending, only about 20 mature, no interim licence); tradersunion.com Hebrew item on automated reporting and AML officer; funder.co.il/article/189209 (size tiers, 3-year application window). Funder and Traders Union pages blocked on direct fetch (403); details come from search snippets",
+     "existing": "Competitor search 'תוכנה לניהול גמ\"ח': no Israeli gemach-specific software found; only generic loan software and a community-lending app (CrediGestor/Do Easy). Many gemachim keep Excel. Not checked: whether the Authority provides its own reporting portal, or whether bank-integration or charedi accounting vendors already serve gemachim",
+     "known_mark": "new",
+     "name": "C1. Gemach licensing, periodic-report and AML-policy workspace",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Gemach Law (supervision of interest-free deposit and credit services, in force 2022): licence application, then periodic automated reports to the Authority (cash flow, donations, deposits, active credit, loans in arrears, loan-to-deposit ratio, liquidity), written AML/CFT risk policy reviewed yearly, a dedicated AML officer, industry-specific AML order",
+     "trigger_note": "",
+     "unchecked": "Final reporting circular and format; Authority portal; number of licensed vs applying gemachim; accountants and charedi-sector vendors; willingness to pay; payment path (donation-funded bodies)"
+    },
+    {
+     "buyer": "Independent pharmacies",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "pharmacy.org.il notice 'עדכון חשוב לבעלי בתי מרקחת' dated 2 June 2026 (extracted PDF text): Yarpa and Pharmasoft are delivering the health-fund interface, dispensing report and computerised drug book to pharmacies from early July 2026",
+     "existing": "Yarpa and Pharmasoft (dominant pharmacy software) cover it inside the pharmacy system",
+     "known_mark": "new",
+     "name": "C2. Pharmacy computerised dangerous-drugs book and opioid e-prescription reporting",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Dangerous Drugs Regulations amendment (drafted 2024, Health Committee Jan 2025): drug book, prescriptions, delivery notes and reports must be digital; manual book allowed in parallel until end-2026; mandatory computerised book",
+     "unchecked": "Whether very small pharmacies use other software"
+    },
+    {
+     "buyer": "Private dental clinics, imaging and veterinary X-ray users",
+     "category": "24. Private clinics, labs and other health providers (also 32)",
+     "evidence": "gov.il rad-license-request service page; sample permits (university permits) show expiry dates and officer conditions. Renewal cycle, fee and enforcement unconfirmed",
+     "existing": "Competitor search (Hebrew) found no Israeli product. Not checked: radiation consultancies selling this as a service",
+     "known_mark": "new",
+     "name": "C3. Radiation-permit and radiation-safety-officer tracker for dental and medical X-ray owners",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Medical radiation device licence from the Ministry of Environmental Protection (gov.il/he/service/rad-license-request): permit with expiry date, named radiation safety officer and deputy, annual tests, notice of any transfer",
+     "unchecked": "Renewal period, number of dental clinics, enforcement activity, services already bundled by dental associations or radiation consultants"
+    },
+    {
+     "buyer": "Small registered building contractors (Registrar of Contractors register)",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "gov.il service pages found in search; page itself blocked on fetch (403), so deadline and penalty unverified",
+     "existing": "None found; no competitor search run",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "C4. Annual responsible-employee follow-up report for registered contractors",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Contractors who employ responsible workers report them to the Registrar once a year via online follow-up form (gov.il/he/service/contractors-employees-follow-up); changes of workers, directors or shareholders also need forms",
+     "unchecked": "Deadline, penalties, size of buyer group; likely folded into accountants' work"
+    },
+    {
+     "buyer": "Small retail, food and service businesses, and multi-site owners",
+     "category": "31. Business licensing reform",
+     "evidence": "tel-aviv.gov.il Business licence accessibility page; protocol.co.il and State Comptroller 2026 report on the reform (library.mevaker.gov.il 2026-Shilton-101-Licensing); gov.il business-licensing-reform PDF",
+     "existing": "Competitor search found only generic licence/renewal tools (RenewQ, Capterra), no Israeli business-permit tracker; many businesses use consultants (licensing and safety consultants not checked)",
+     "known_mark": "new",
+     "name": "C5. Business-licence, accessibility-proof and permit renewal tracker for small shops and food businesses",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Business Licensing Reform: licence terms by risk (5/10/15 years or unlimited), duty to report changes at least 3 months ahead; accessibility proof order (Feb 2022): self-declaration signed before a lawyer for shops up to 100 sqm and cafes up to 50 sqm, accessibility specialist above that",
+     "unchecked": "Whether the long licence terms remove the recurring trigger; consultant substitutes; generic-tool risk"
+    },
+    {
+     "buyer": "Small law and accounting offices",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals",
+     "evidence": "bizportal.co.il/general/news/article/397143 and 401445; Knesset committee documents. No 2025-26 change confirmed",
+     "existing": "Not checked; likely bar-association and CPA-institute guidance and practice-management software",
+     "known_mark": "new",
+     "name": "C6. AML compliance pack for lawyers, accountants and other business-service providers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "AML Order 2014 for business service providers (customer identification, record keeping); supervisor appointed 2017",
+     "unchecked": "Current duties, inclusion of brokers, enforcement, vendors"
+    },
+    {
+     "buyer": "Zimmer and guest-unit owners",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "Only old State Comptroller reports and 2020 corona-era guidance; nothing current",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "C7. Zimmer and short-term-rental host registration and licence file",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Tourism Services Law 1976 (hotels); local business licence; no confirmed register or levy",
+     "unchecked": "Everything"
+    },
+    {
+     "buyer": "Small clinics, schools, security firms handling sensitive data",
+     "category": "33. Privacy Protection Law Amendment 13",
+     "evidence": "Law-firm summaries (Meitar, Gornitzky, Shibolet); no source confirms duties for small businesses",
+     "existing": "Law firms and consultants; generic",
+     "known_mark": "new",
+     "name": "C8. Small-business compliance for Privacy Protection Law Amendment 13",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Amendment 13 (published 14 Aug 2024, in force about Aug 2025): narrowed registration, privacy officer duty for defined bodies, fines for security failures",
+     "unchecked": "Whether any small-business trigger exists; generic-tool risk"
+    },
+    {
+     "buyer": "Small food importers in the Appropriate Importer register",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "chamber.org.il reform summaries; sii.org.il appropriate-importer service",
+     "existing": "Same buyer group and core duty as K05",
+     "known_id": "K05",
+     "known_mark": "known",
+     "name": "C9. Digital product file and supplier/customer lists for appropriate-importer food route",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Food import reform in force since 1 Jan 2023: importer keeps a digital product file and lists of suppliers and customers; register status reviewed"
+    },
+    {
+     "buyer": "Contractors and ordering firms",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "chamber.org.il and law-firm summaries",
+     "existing": "Same as K01, K13, K16",
+     "known_id": "K01",
+     "known_mark": "known",
+     "name": "C10. Manpower, cleaning and security contractor licensing and wage enforcement",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Enhanced Enforcement Law; wage regulations for cleaning, security and catering from 2023, quarterly settlement"
+    },
+    {
+     "buyer": "Small cooperative societies (housing, agricultural, service)",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "gov.il/he/service/financial_reporting_cooperatives and board_reporting_cooperatives; filing is free online through the government business area",
+     "existing": "Free state portal",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "C11. Cooperative society annual report and committee-election filing helper",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Annual audited financial report to the Registrar of Cooperative Societies; report of committee election within 15 days",
+     "unchecked": "Software vendors for kibbutz/moshav accounting not checked"
+    },
+    {
+     "buyer": "Small garages",
+     "category": "35. Garages, used oil and vehicle workshops",
+     "evidence": "Walla and Calcalist enforcement reports (undated); gov.il authorised-garage list",
+     "existing": "Not checked; close to K03",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "C12. Garage used-oil and hazardous-waste records",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Used Oil Regulations 1993; garage licensing",
+     "unchecked": "Whether any digital reporting is required"
+    },
+    {
+     "buyer": "Small agricultural exporters and packing houses",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "ippc.int Israel notification; gov.il PPIS pages not opened",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "C13. Fresh-produce exporter / packing-house registration and e-phyto paperwork",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "PPIS export rules and e-phyto certificates (IPPC notice 2023)",
+     "unchecked": "Everything: duties, state portal, buyer size"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Fuel Law 2005 register of stations (MoE/Energy procedure Aug 2024); pirate stations are an enforcement issue (State Comptroller 2020). LPG: periodic home gas test every 5 years (SII/TI 158; LPG Law 2020) is a duty of the supplier, free to the consumer; suppliers are few and licensed. Nothing small-buyer found.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "No search spent (budget; Israel has few small commodity traders and no obvious quiet register). Fresh-produce exporters touched under 30 only.",
+     "status": "not_reached"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Cooperative societies must file an annual audited financial report and report committee elections within 15 days (gov.il, free online). Strongest finding: the Gemach Law (interest-free deposit and credit institutions) now requires Capital Market Authority licences, periodic automated reporting and AML policy; first 7 licences issued Sept 2026; 170+ applications. See candidate C1.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Searches for private-clinic billing duties returned nothing Israel-specific; billing to health funds is served by established vendors (not confirmed by name). Medical/dental X-ray devices need a Ministry of Environmental Protection licence with a named radiation safety officer and expiry dates (gov.il rad-license-request). See C3.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Dangerous Drugs Regulations amendment: opioid supply on electronic prescription, and the drug book, prescriptions, delivery notes and reports go digital; manual book allowed in parallel only until end-2026. Pharmacy software vendors Yarpa and Pharmasoft are delivering the computerised book and health-fund interface (pharmacy.org.il notice dated 2 June 2026). Killed as a standalone idea. Precursor users not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Nothing new beyond K01, K13 and K16. Licence required for manpower, security and cleaning contractors; the ordering firm is liable under the Enhanced Enforcement law.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Nothing new beyond K01 and K02. New small item: contractors in the Registrar of Contractors register must report their responsible employees once a year via a gov.il form (C4). Mining and quarries not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "AML Order 2014 applies the business-service-provider regime to lawyers and accountants (supervisor appointed 2017). Could not confirm any 2025-26 change or any duty on brokers or notaries. See C6 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Nothing found. Only an old State Comptroller note: tourism-services licensing covers hotels (about half of 440 hotels were registered in 2006). No guest register or tourism levy source for Israel. Zimmer and short-term rental rules not confirmed (C7 unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Food import reform in force since 1 Jan 2023: Appropriate Importer register, self-safety plan, digital product file and supplier/customer lists (related to K05). Fresh-produce export (PPIS, packing-house registration, e-phyto) not confirmed. Timber and fish not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Business licensing reform (10/15-year licences, accessibility proof, multi-agency approvals)",
+     "found": "Licensing Reform approved; licence terms of 5, 10 or 15 years or unlimited; owners must report changes 3 months ahead; accessibility proof order since Feb 2022 (self-declaration for shops up to 100 sqm, accessibility specialist for larger). Six regulators plus the municipality. No dedicated Israeli tracker found. See C5.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Medical and dental X-ray device permits (Ministry of Environmental Protection radiation licensing)",
+     "found": "Online licence service exists; permits carry expiry dates and a named radiation safety officer. No Israeli tracker or officer-as-a-service product found in one search. See C3.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Privacy Protection Law Amendment 13 (in force Aug 2025)",
+     "found": "Registration duty narrowed; privacy officer duty applies to public bodies, data brokers and large-scale sensitive-data processors; stronger fines for data-security breaches. Small businesses probably outside most duties (unconfirmed). See C8.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Gemach (free-loan fund) licensing under the Capital Market Authority",
+     "found": "See C1.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Garages, used oil and vehicle workshops",
+     "found": "Used Oil Regulations 1993 apply; fines reported; licensed garages list on gov.il. No new 2026 rule found.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Tobacco and e-cigarette retail",
+     "found": "No Israeli licence regime for retailers confirmed; sales restrictions only, with about 10,000 points of sale. Nothing actionable.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "רישיון עסק תחנת דלק חובות דיווח משרד האנרגיה",
+    "מרכז רישום מאגר ספקי גפ\"מ בדיקה תקופתית צרכנים",
+    "אגודות שיתופיות רשם דיווח שנתי חובה",
+    "מרפאות פרטיות דיווח משרד הבריאות פיזיותרפיה קופות חולים חיוב",
+    "צו איסור הלבנת הון בעלי מקצוע נותני שירות עסקי 2025",
+    "היתר קרינה מרפאת שיניים רנטגן משרד להגנת הסביבה",
+    "תיקון 13 הגנת הפרטיות עסקים קטנים ממונה",
+    "רישוי יבואני מזון יבואן נאות רפורמה",
+    "צימרים יחידות אירוח רישוי משרד התיירות",
+    "בתי מרקחת פנקס סמים מסוכנים דיגיטלי 2025",
+    "רישום קבלנים פנקס הקבלנים דיווח שנתי",
+    "קבלן שירות שמירה ניקיון רישוי כוח אדם אכיפה מוגברת",
+    "מוכרי טבק סיגריות אלקטרוניות רישיון 2026",
+    "גמ\"חים רישיון רשות שוק ההון שירותים פיננסיים מוסדרים",
+    "יצואני תוצרת טרייה הגנת הצומח רישום בתי אריזה",
+    "חוק גמ\"חים רישיון דיווח תוכנה לניהול גמ\"ח",
+    "נותני שירות עסקי מתווכים איסור הלבנת הון 2026",
+    "תעודת נגישות שירות עסקים קטנים 2026",
+    "מוסך רישיון משרד התחבורה שמן משומש 2026",
+    "תוכנה לניהול גמ\"ח (competitor)",
+    "מלונות קטנים בתי הארחה פנקס אורחים משרד התיירות",
+    "חוק הגמ\"חים מועד אחרון בקשת רישיון",
+    "ממונה בטיחות קרינה רופאי שיניים תוכנה (competitor)",
+    "תוכנה לניהול רישיון עסק מעקב היתרים (competitor)"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b1"
+ },
+ "escalate:israel:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Israeli software that produces or files the Registrar's verbal or financial report. Hebrew searches returned only Green Invoice explainers, ICPAS (Israeli accountants' institute) circulars and foreign Capterra lists. Filing goes through the Registrar's free online form, and the audited financial statements are prepared by CPAs and bookkeepers. In practice that is the existing service, and software cannot replace the CPA audit. I did not search for specific vendor names such as Hashavshevet or Rivhit add-ons, so a local accounting add-on may exist that I missed.",
+   "duty": "The duty is real and recurs every year. Under the Associations Law and the Associations (Forms) Regulations, each association files a financial report, a verbal (narrative) report and supporting documents through the Registrar's online form. The deadline is 30 June of the year after the report year. Section 38 requires two board members to sign the reports. The proper-management certificate depends on full filing and payment of the annual fee. Without it the association cannot get state support or offer donors the s.46 tax credit. The Registrar does enforce this: in January 2025 it revoked the certificate of about 200 associations and public-benefit companies (חל\"צ) for failing to file (Maariv). A Bhol article dated 23 July 2026 says the Registrar changed how the certificate is granted after public comment. I could not open it (403), so the changes are unverified. I found no specific fine amount.",
+   "market": "About 37,000 registered associations (Atlas estimate for 2022), or 39,327 per an undated Ministry of Justice figure cited by Calcalist. About 10,000 are very active. GuideStar's 2018 yearbook counted 15,847 associations and 622 public-benefit companies that filed reports. Most are small and volunteer-run.",
+   "reason": "The duty is real, annual, enforced, and blocks grants and the s.46 donor tax credit, so the pain is genuine. But the hard part, audited financial statements, legally needs a CPA, and the filing channel is a free state online form. The software could only help with the verbal report, the document checklist and deadline tracking, while the CPA who already serves the association owns the relationship. Small volunteer associations have little money and are hard to reach. Searches found no direct Israeli competitor, but the work is already bundled into accountants' fees. The 2026 changes to the certificate process are unverified. If they add new documentation, the opening could get somewhat bigger.",
+   "searches": 6,
+   "sources": "https://www.gov.il/BlobFolder/policy/proper_management_guidelines/ar/association-2018.pdf ; https://tamp.icpas.org.il/wp-content/uploads/2018/03/21.3.2018.1.pdf ; https://www.maariv.co.il/news/israel/article-1162974 ; https://www.bhol.co.il//news/1068205 (not opened, 403) ; https://www.greeninvoice.co.il/magazine/אישור-ניהול-תקין/ (search snippet only, fetch returned 403) ; https://www.greeninvoice.co.il/magazine/דוח-מילולי/ (search snippet only) ; https://www.calcalist.co.il/articles/0,7340,L-3683649,00.html ; https://www.thejoint.org.il/wp-content/uploads/2020/10/שנתון-גיידסטאר.pdf ; https://friends.technion.ac.il/wp-content/uploads/2025/11/ידידי-הטכניון-אישור-ניהול-תקין-לשנת-2026.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b1"
+ },
+ "gapfill:israel": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed tour guides (about 7,000 per the gap note, unverified), guide associations",
+     "category": "Business-licensing regime specifics (tour guides)",
+     "evidence": "https://www.gov.il/he/service/tour_guide_license_renewal ; https://www.ias.co.il/?p=71526 ; https://www.ias.co.il/%D7%AA%D7%99%D7%99%D7%A8%D7%95%D7%AA/%D7%A8%D7%A4%D7%95%D7%A8%D7%9E%D7%94-%D7%91%D7%94%D7%9B%D7%A9%D7%A8%D7%94-%D7%94%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99%D7%AA-%D7%A9%D7%9C-%D7%9E%D7%95%D7%A8%D7%99-%D7%94%D7%93%D7%A8%D7%9A (search snippets; the gov.il page itself was blocked on fetch)",
+     "existing": "A free gov.il online renewal service already exists. The duty is only light and biennial; a guide can do it alone.",
+     "known_mark": "new",
+     "name": "Tour-guide licence renewal tracker (training day and fee) for licensed guides",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Tourism Ministry licence: one training day per year and a renewal fee every two years, paid online on gov.il (2025-26 payment opened 15 Dec 2024). An older article claims fines of about 3,000 NIS for working unlicensed. A pilot opens guide training to outside bodies.",
+     "unchecked": "Number of active guides, whether any guide-association app exists, and what the training-provider pilot changes. No competitor search run."
+    },
+    {
+     "buyer": "Restaurants, caterers and food shops that hold a local rabbinate certificate",
+     "category": "Business-licensing regime specifics (kashrut)",
+     "evidence": "https://www.maariv.co.il/news/politics/article-1344687 ; https://www.israelhayom.co.il/judaism/article/13312417 ; https://www.srugim.co.il/615155 (search results only; I did not open these pages and found no renewal procedure)",
+     "existing": "Not searched. Each local rabbinate or religious council sets its own paper process.",
+     "known_mark": "new",
+     "name": "Kashrut certificate renewal and supervisor log for small food businesses",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Kashrut Fraud Prevention Law (1983): only the Chief Rabbinate council, via local rabbinates, may certify. The 2021 private-corporation reform was repealed, so there is no deadline that makes many firms act at once.",
+     "unchecked": "Renewal cycle, fee, documents, and whether any local rabbinate uses an online portal. Whether supervisor (mashgiach) logs are mandatory. Overlap with category 17 (kosher supervision) belongs to another worker."
+    },
+    {
+     "buyer": "Agricultural-input shops and pesticide sellers (kibbutz and moshav supply shops, rural dealers)",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.gov.il/he/service/toxins-permit-request ; https://faolex.fao.org/docs/pdf/isr31838.pdf ; https://leap.unep.org/en/countries/il/national-legislation/dangerous-substances-regulations-registration-pesticides-5754 (via search results; the older text may be superseded)",
+     "existing": "None seen. No competitor search run (budget used up).",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "Pesticide and farm-input dealer sales ledger and buyer-permit trail",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Hazardous Substances Law 1993 requires a toxins permit (annual) and purchase and sales ledgers (date, substance, quantity, buyer). Plant Protection regulations (1967 and 1994) require a sale licence and keeping buyer permits for at least 2 years; the permit names buyer, quantity, purpose and farm. Current text unverified.",
+     "unchecked": "Current ledger form and whether it is paper or digital. Number of licensed dealers. Whether the Plant Protection Service runs an electronic permit system. Whether K03's toxins-permit calendar already covers dealers."
+    },
+    {
+     "buyer": "Small growers, kibbutz and moshav farms exporting vegetables and fruit",
+     "category": "Pesticide and fertiliser dealers, plant-protection permits and farm inputs",
+     "evidence": "https://www.freyrsolutions.com/consumer-industry-news/israel-updates-public-health-protection-regulation-on-maximum-residue-levels-of-pesticides-in-food (MRL change only). The first-search queries returned only US results.",
+     "existing": "Not searched. Farm-management software exists generally; no Israeli product checked.",
+     "known_mark": "new",
+     "name": "Grower pesticide-use logbook and export-traceability pack",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "MRL rules (aligned to EU, amended 14 May 2025) and export-market or GlobalG.A.P buyer requirements. I found no state-mandated digital logbook and no 'farmer to exporter' rule.",
+     "unchecked": "Whether Ministry of Agriculture rules require a use log; e-phyto and packing-house duties (C13); and the farm management tools growers already use."
+    },
+    {
+     "buyer": "Small importers and retail shops selling e-bikes and scooters",
+     "category": "Vehicle-related small-operator regimes (e-bike sellers)",
+     "evidence": "https://www.gov.il/BlobFolder/policy/tkina2-bicycle/he/nohal_02-2019.pdf ; https://www.sii.org.il/he/lobby/standardization/standard-page?id=7424 ; https://www.gov.il/he/service/bicycle-and-scooter-registration ; https://www.maariv.co.il/news/israel/article-1361063 (search results only)",
+     "existing": "None seen. No competitor search run.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "Compliance pack for e-bike and scooter importers and shops (standard SI 15194, import approval, SII mark, plate registration)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Ministry of Transport procedure for commercial import approval; SII mark under SI 15194; owner registration and plates with fines rising to 750 NIS from 1 Sep 2026; customs enforcement (July 2026 arrest of an importer of over 1,000 non-compliant pairs).",
+     "unchecked": "Whether shops carry any registration duty; the number of importers; Shaar Olami and customs-broker overlap (K05); and whether the duty is one-off per model rather than recurring."
+    },
+    {
+     "buyer": "Importers and wholesalers of e-liquid and disposables; kiosks and grocers",
+     "category": "Alcohol, tobacco and fuel excise",
+     "evidence": "https://www.hon.co.il/?p=227365 ; https://www.calcalist.co.il/local_news/article/sjilzxd00f ; https://www.bhol.co.il/news/1725143 ; https://ecigintelligence.com/israel-e-cigarette-regulation-january-2026/ (search results; the hon.co.il article gave no reporting duties)",
+     "existing": "None seen. No competitor search run.",
+     "known_mark": "new",
+     "name": "Vape and tobacco importer, wholesaler and retailer excise and stock-tax compliance",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Purchase-tax order on e-liquid and disposables (270% of wholesale price plus 8.16 NIS/ml); stock tax on wholesaler inventory (0.84 NIS/ml; the date is unverified); a mid-2026 proposal to tax devices; package warnings mandatory from 2 Aug 2026; Chapter 12 of the 2026 Arrangements Law, 'Supervision of Smoking Products for Tax Purposes' (content unverified). Weak enforcement per Globes July 2026.",
+     "unchecked": "Whether the law licenses retailers or sets reporting and marking duties; the number of legal operators in a shrinking, evasion-heavy market; and the text of Chapter 12."
+    },
+    {
+     "buyer": "Importers and registered dealers of ethyl alcohol",
+     "category": "Alcohol, tobacco and fuel excise",
+     "evidence": "https://www.gov.il/he/service/renewal-of-certificate-alcohol",
+     "existing": "Handled by the accountant and a free Tax Authority form.",
+     "known_mark": "new",
+     "name": "Registered-alcohol (כוהל) dealer certificate renewal and books attestation",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Purchase-tax form 50: renewal at least 2 months before expiry with an accountant's attestation on books, stock ledger, trial balance and P&L; free of charge.",
+     "unchecked": "The number of registered dealers is probably tiny. No beverage-sale licence regime was found."
+    },
+    {
+     "buyer": "Employers with fewer than 10 employees (shops, cafes, clinics)",
+     "category": "Employers' mandatory duties to workers",
+     "evidence": "https://www.kolzchut.org.il/he/דיווח_מקוון_של_מעסיק_על_הפקדות_לביטוח_פנסיוני_לקרן_השתלמות_ולקופת_גמל ; https://www.btl.gov.il/Insurance/Maasik/Pages/personal100.aspx (search results; fetch of kolzchut was blocked)",
+     "existing": "Payroll bureaus, payroll software (Hilan, Malam, Tamal, Ranad, per K16) and the free employers interface likely cover this. No competitor search run.",
+     "known_id": "K16",
+     "known_mark": "new",
+     "name": "Micro-employer pension-deposit online reporting service",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Capital Market Authority rule: online deposit reporting to the managing company. Required from 19 Feb 2023 for employers with 3-9 staff and from 1 Feb 2025 for those with fewer than 3. A narrow exemption exists for up to 5 staff with standing orders. Fines possible.",
+     "unchecked": "Whether payroll tools actually submit the report for micro-employers, how many employers fall in the gap, and the 2025-27 wage-slip changes (not researched)."
+    },
+    {
+     "buyer": "Owner-operators and small hauliers with up to 5 trucks",
+     "category": "Vehicle-related small-operator regimes (truck fleets)",
+     "evidence": "https://www.gov.il/he/service/carrier_license_renewal ; https://www.gov.il/he/service/carrier_license_application ; https://www.ice.co.il/auto/news/article/1018943 (search snippets; the fetch was blocked)",
+     "existing": "Not searched. Fleet-tracking vendors probably exist but were not checked.",
+     "known_mark": "new",
+     "name": "Small carrier (truck) licence renewal and fleet-record pack",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Carrier licence renewal opens about 1.5 months before expiry. Up to 5 vehicles needs a carrier-training course; 6 or more needs a certified professional manager. A digital tachograph for new heavy trucks and buses is advancing (July 2026 reports; regulation text unverified).",
+     "unchecked": "The renewal cycle, the number of small carriers, and whether the tachograph rule applies to the existing fleet. Overlap with category 18, which belongs to another worker."
+    },
+    {
+     "buyer": "Small factories, bakeries and laundries with stationary emission sources",
+     "category": "Environmental and municipal duties for small operators",
+     "evidence": "https://www.kolzchut.org.il/he/הסדרת_פליטה_לאוויר_ממפעלים_ועסקים (search snippet; fetch blocked)",
+     "existing": "None seen.",
+     "known_id": "K03",
+     "known_mark": "known",
+     "known_note": "Same permit-calendar family as the toxins-permit calendar. I found no annual reporting duty for small operators.",
+     "name": "Clean Air Law emission-permit calendar for small factories",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Clean Air Law 2008 and the Emission Permits Regulations 2010. Smaller sources are regulated by business-licence conditions. A 2023 plan to merge four permits is unverified.",
+     "unchecked": "Which small business classes need an emission permit, and what the permit merger changed."
+    },
+    {
+     "buyer": "Small shops and offices",
+     "category": "Environmental and municipal duties for small operators",
+     "evidence": "https://www.ice.co.il/finance/news/article/810482 ; https://www.cpa.co.il/?p=2956 (search results only)",
+     "existing": "No recurring annual declaration exists to build on (the scheme ended 31.12.2022).",
+     "known_mark": "new",
+     "name": "Business arnona discount application and renewal tracker",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "None found. The only business discount found was the COVID-era scheme, with applications closed 31.12.2022.",
+     "unchecked": "Local council-by-council discount rules."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "13. Small water systems",
+     "found": "No search spent (budget went to the other gaps; the gap note says K07 already covers rural water associations). Nothing new beyond K07.",
+     "status": "not_reached"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Pesticide shops need a toxins permit (Hazardous Substances Law 1993, annual) with an extra annex for pesticide handling. Purchases and sales are logged in ledgers (buyer, quantity, date). Plant-protection rules (1967/1994) require a sale licence and keep buyer purchase permits at least 2 years (older text; current text unverified). Core permit duty is K03; the dealer sales ledger and buyer-permit trail is a related but different buyer group (candidate C2). I found no 2024-25 applicator licensing rule. The only 2025 change found is an MRL update (14 May 2025, aligned to EU). Ministry of Agriculture and gov.il pages not opened.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "No search spent (budget). K19 stays rejected (Kanfey Sharet, UMP, GRAVEZ).",
+     "status": "not_reached"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "One search returned only foreign results (US, Ireland, Uruguay, Moldova) and Australian import-condition pages for Israel. No Israeli grain-trader or warehouse register found. Israel has few small commodity traders. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "Business-licensing regime specifics: Kashrut (rabbinate) certificates for restaurants, caterers and food shops, plus the Tourism Ministry's licensing of tour guides, travel agents and tour operators",
+     "found": "Kashrut: the Kashrut Fraud Prevention Law gives the Chief Rabbinate council, delegated to local rabbinates, sole power to certify. Applications go to the local rabbinate with Health Ministry approvals and a fee. The 2021 reform (private kashrut corporations) was repealed by the Knesset (final vote 46-41, per Maariv/Srugim reports; date unconfirmed), so no new regime-change deadline exists. The local renewal procedure was not found. Tour guides: renewal is online on gov.il, with one training day per year and a fee every two years (2025-26 payment opened 15 Dec 2024). An older article says two training sessions every two years, which conflicts; the gov.il page governs. Travel agents and inbound operators: no current licence-renewal or guarantee rules found (only State Comptroller reports from 2004-07). gov.il tour-guide page blocked (403) on fetch.",
+     "status": "screened"
+    },
+    {
+     "category": "Alcohol, tobacco and fuel excise: small retailers and importers (Law for Licensing Sale of Intoxicating Liquor, wholesale and import licences; 2025-26 sugar/beverage and e-cigarette tax changes)",
+     "found": "Alcohol: found only the Tax Authority renewal for registered ethyl-alcohol (כוהל) dealers (Purchase Tax form 50, free, file 2 months before expiry, accountant certificate on books and stock ledger). That is industrial alcohol, a tiny group. No 2025 reform of beverage-sale licensing found (older relaxations: police approval dropped for restaurants/pubs). Tobacco/vape: new purchase-tax order on e-liquid and disposables (270% of wholesale price plus 8.16 NIS/ml, floor 15.64 NIS/ml, replaces the Nov 2021 order). A stock tax of 0.84 NIS/ml on wholesaler inventory was approved in committee earlier (date unverified). A mid-2026 proposal would tax vaping devices and lower the e-liquid tax. A July 2026 Globes report says the Tax Authority collects almost nothing. Package warnings are mandatory from 2 Aug 2026. Chapter 12 of the 2026 Arrangements Law is titled 'Supervision of Smoking Products for Tax Purposes' (WTO notice, Jan 2026), but I could not read its text and could not tell whether it licenses retailers. Knesset PDF redirected (maintenance page); hon.co.il article gave no duty details.",
+     "status": "screened"
+    },
+    {
+     "category": "Pesticide and fertiliser dealers, plant-protection permits and farm inputs (Plant Protection Law, the Ministry of Agriculture's Plant Protection and Inspection Services (שה\"ה), the Israeli Standards Institution)",
+     "found": "No Israeli source found for a mandatory digital pesticide-use logbook or a 'farmer to exporter' reform; the two first-search queries returned US/foreign results. Old rules found: applicator licence, buyer purchase permit, sale licence, ledger retention. The 2014 Environmental Health report notes a draft applicator-licensing bill (outcome unknown), and Adam Teva v'Din criticised the 2018 draft rules. Export residue/GlobalG.A.P-style duties come from buyers, not a confirmed state register. The C13 e-phyto and packing-house item stays unverified: no search reached it.",
+     "status": "screened"
+    },
+    {
+     "category": "Employers' mandatory duties to workers (pension fund, severance, work-safety and the foreign-worker sector) for very small employers: the Pension Extension Order, the Minimum Wage law (April 2026 update), and the Hours of Work and Rest Law",
+     "found": "Online reporting of pension and fund deposits to the managing company is mandatory by employer size. Employers with 3-9 employees: from 19 Feb 2023. Employers with fewer than 3: from 1 Feb 2025. Enforcement grace for 9 or fewer ended 1 June 2024. A narrow exemption exists for up to 5 employees with standing orders and unchanged amounts. The Capital Market Authority can fine. The duty is real but sits with payroll software, the employers interface and bureaus. No 2025-27 wage-slip or minimum-wage detail found. The kolzchut page was blocked (403), so the details come from search snippets.",
+     "status": "screened"
+    },
+    {
+     "category": "Vehicle-related small-operator regimes: driving-school and driving-test centres, tow-truck, truck-fleet and motor-testing stations (מכונים לבדיקת רכב), and the new Ministry of Transport rules on e-bikes and scooters sellers",
+     "found": "Carrier licence: apply or renew with the Transport Supervisor via gov.il; renewal opens about 1.5 months before expiry. Operators with up to 5 vehicles need a carrier-training course; 6 or more need a certified professional manager. Business licence is needed for some haulage types. Digital tachograph: July 2026 reports say regulations are advancing for new heavy trucks and buses, with the final text unverified. E-bikes and scooters: owners must register and display a plate (fine 100 NIS from 1 Sep 2024, 500 from 1 Sep 2025, 750 from 1 Sep 2026). Importers need Transport Ministry commercial import approval and a SII mark under standard SI 15194; SII's special conditions for manufacturers are dated 29 Jul 2025. In July 2026 customs arrested an importer of more than 1,000 non-compliant e-bikes. I found no duty on shops to register vehicles before sale. gov.il carrier page blocked (403). Driving schools, tow operators and test centres not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "Environmental and municipal duties for small operators: municipal business tax (ארנונה) and the Packaging Law deposit regime, waste-collection fees, and the clean-air rules for gas-engine and boiler emissions",
+     "found": "Clean Air Law 2008: emission permits are required for listed sources. Smaller sources are regulated through business-licence conditions. A 2023 report mentions a plan to merge four permits (emission, toxins, sea discharge, business licence); implementation unverified. No Israeli annual reporting duty for bakeries or laundries found. Arnona: the only business discount found was the 2020-22 COVID-era scheme (applications closed 31.12.2022); no recurring annual declaration. No Israeli arnona-management software for small businesses was surfaced. Kolzchut clean-air page blocked (403).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "תעודת כשרות רבנות מקומית חידוש בית אוכל רישיון עסק",
+    "רישיון מורה דרך משרד התיירות חידוש",
+    "רישיון למכירת משקאות משכרים חידוש מכס מע\"מ יבואן",
+    "יומן ריסוסים חובה דיווח משרד החקלאות מגדלים",
+    "רפורמת הכשרות 2026 תאגידי כשרות בתי אוכל תעודה חדשה מועד",
+    "שה\"ה רישום חומרי הדברה משווק חנות חומרי הדברה רישיון רעלים יומן שימוש מגדלים יצוא",
+    "מעסיק זעיר הפקדות פנסיה מסלקה דיווח חובה צו הרחבה",
+    "אופניים חשמליים יבואן אישור משרד התחבורה תקן 2025 רישום",
+    "היתר פליטה חוק אוויר נקי עסקים קטנים דיווח שנתי מאפייה מכבסה",
+    "סוכני נסיעות רישיון משרד התיירות חידוש ערבות בנקאית מפעיל תיירות נכנסת רפורמה",
+    "היטל על סיגריות אלקטרוניות יבואנים דיווח רשות המסים 2025 מוכרי טבק רישיון",
+    "רישיון מוביל משאית רשם המוביל דיווח עצמאי תקנות נהג מקצועי טכוגרף",
+    "תקנות הגנת הצומח 2024 2025 מיישם תכשירי הדברה רישיון חקלאים רישום שימוש",
+    "רישוי עסקים משקאות משכרים מכירה חנות מכולת תנאי רישיון עסק אלכוהול 2025 רפורמה",
+    "מכירת אופניים חשמליים קורקינטים חנויות חובה לוחית זיהוי רישום יבואנים משרד התחבורה 2026",
+    "מחסני תבואה סוחרי תבואה רישיון משרד החקלאות מועצת הדגנים רישום מגדלים יבואני תבואה",
+    "חוק הפיקוח על מוצרי עישון למטרות מס רישוי מוכרי טבק קמעונאים חוק ההסדרים 2026 רישיון",
+    "הנחה בארנונה בקשה עסק קטן הצהרה שנתית עסקים תוכנה לניהול ארנונה"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b1"
+ },
+ "opus:israel:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "ChangeMat by Inbal Data Processing (Beit Zayit): accounting software for currency-exchange businesses. Its company page says it is widely used across Israel and was updated to support Tax Authority and AML authority (IMPA) reporting. Foreign exchange-desk software CurrencyXchanger (Clear View Systems) also offers AML logging, but I found no Israeli adaptation.",
+   "duty": "Confirmed. Income Tax Ordinance s.141A: providers licensed under the Regulated Financial Services Law report every operation of NIS 50,000 or more, with the client's and beneficiary's ID details. Reporting may be no more often than once a quarter. Online filing can be required, and a provider required to file online who doesn't is treated as not having filed. Regulations were published 3.12.2018, and ITA instruction 13/2025 sets financial sanctions; I did not find the sanction amounts. AML identification and reporting duties to IMPA also apply. Licensing is now by the Capital Market Authority (Regulated Financial Services Law s.12(a)), not the old Ministry of Finance Registrar.",
+   "market": "Not verified. The roughly 2,100 registered money changers figure is old and comes from the older Registrar regime. A Forum of financial service providers estimate cited by ice.co.il put Capital Market Authority licensees at about 350 at minimum, across all financial service providers, not only money changers. The 2025 Capital Market Authority report counts 792 credit licensees, a different category. I did not find a current count of financial-asset (currency) licensees.",
+   "reason": "The duty is real. Under Income Tax Ordinance s.141A, licensed financial-asset service providers must report every operation of NIS 50,000 or more. Reports go online, at most once a quarter, and ITA instruction 13/2025 enforces the duty with financial sanctions. But the core job is already done. Inbal Data Processing's ChangeMat is accounting and exchange software built for Israeli money changers. Its company page says it is widely used across Israel and has been updated for reporting to both the Tax Authority and the AML authority (IMPA). Licensing has moved to the Capital Market Authority under the Regulated Financial Services Law. The roughly 2,100 figure is old and unconfirmed; one industry estimate put licensees at about 350 at minimum. A small niche with an entrenched local vendor is weak for a solo founder.",
+   "searches": 7,
+   "sources": "https://www.efraty.com/?p=5199 ; https://startupim.com/company/inbal-data-processing ; https://cpa.co.il/חובות-דיווח-חלפני-כספים (search snippet only) ; https://protocol.co.il/רשות-שוק-הון-שירותים-פיננסיים-מוסדרים/ ; https://www.ice.co.il/consumerism/news/article/922226 ; https://www.funder.co.il/article/208888 ; https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/60b/2010-60b-203-Matbea.pdf",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b1"
+ },
+ "opus:israel:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No gemach-specific compliance or reporting software found in Hebrew or English searches. Generic loan-servicing software exists. Nedarim Plus (charedi payments platform) terminals are used to log in to at least one large gemach's member portal (JDN). That makes it a likely competitor or channel; whether it offers a gemach management module was not verified. The Authority's own online upload system handles submission only, not data preparation. Charedi accountants and accounting vendors were not checked (not_reached).",
+   "duty": "Licensing under the Gemach Law (in force 2022). Sector AML order (Prohibition on Money Laundering order for interest-free deposit and credit gemachim, התשפ\"ו-2026). Capital Market Authority draft circular (2 Aug 2026; comments due end of August; takes effect 18 months after final publication): written AML/CFT risk policy discussed by the board or management committee, an AML officer, and a yearly report due 31 March in a fixed-template file submitted online, plus separate periodic financial reports (draft circular from Oct 2025: cash flow, donations, deposits, credit, loans in arrears; actuarial opinion for complex gemachim). Penalties not verified. Licensing in practice has been slow: news reports said about 20 of 170+ applications were mature, and the claim says the first 7 licences were issued in Sept 2026 (not independently fetched).",
+   "market": "More than 170 licence applications pending (Knesset committee figures cited by ICE). Gemachim under NIS 1m are exempt. I found no register count of all financial gemachim. The serviceable market is probably a few hundred bodies at most.",
+   "reason": "The duty is real, but parts are not yet in force. The licensing duty is law (in force 2022, per ICE). The sector AML order for gemachim is dated 2026 (התשפ\"ו-2026). The Capital Market Authority's risk-management circular was still a draft on 2 Aug 2026 (Calcalist). It takes effect 18 months after final publication and requires a written policy approved by the board, a responsible AML officer, and a yearly report due 31 March in a fixed template uploaded to an online system that rejects files not matching it. In three Hebrew and one English search, plus a check of Nedarim Plus, I found no gemach-specific compliance software. The market is small: about 170 licence applicants. Many are informal, donation-funded charedi bodies that are hard to reach and may not pay much. Nedarim Plus already powers some gemach member portals, so it could become a rival.",
+   "searches": 6,
+   "sources": "https://www.calcalist.co.il/local_news/article/rktbct3sfe ; https://www.ice.co.il/finance/news/article/1093943 ; https://www.gov.il/BlobFolder/dynamiccollectorresultitem/regulation-legislation310/he/Regulation-2026-8-2-P.pdf (opened, but its text could not be extracted) ; https://tradersunion.com/he/news/regulators/show/2871726-capital-market-authority-gemach-oversight/ (search snippet only) ; https://www.maariv.co.il/economy/israel/article-1245906 (search snippet only) ; https://www.jdn.co.il/?p=2526093 (search snippet only) ; https://machon.org.il/en/gemach-regulations/ (search snippet only)",
+   "suggested_score": 5,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b1"
+ },
+ "sonnet:israel:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: associations must file annual financial and verbal reports (usually by 30 June) with the Registrar, now partly via online forms. Proper-management certificate lasts 2 years and gates state support and s.46 donation tax credits. Searches found no Israeli product that does the filing, only Green Invoice explainers and foreign nonprofit-software lists. Gaps: the tax-authority software registry covers accounting software, not this filing, and I did not check local vendors. Market is about 37-40k registered associations, but only about 10-15k are truly active. Accountants already handle the work, and small volunteer-run associations pay little. The 2018-2020 guidance may be out of date. Pain and mandatory nature are good, but the price ceiling is low.",
+   "searches": 3,
+   "sources": "https://www.greeninvoice.co.il/magazine/אישור-ניהול-תקין/ ; https://www.gov.il/BlobFolder/policy/proper_management_guidelines/ar/association-2018.pdf ; https://www.ice.co.il/research/news/article/919345 ; https://www.hon.co.il/?p=62636 ; https://tamp.icpas.org.il/wp-content/uploads/2018/03/21.3.2018.1.pdf",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b1"
+ },
+ "sonnet:israel:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "K15 safety-officer tools (DATwise, Reportix, Reporto, Ramdor, eyedo): not verified in this pass",
+   "duty": "Periodic inspection of boilers, air receivers, cranes, lifting gear and lifts by a certified inspector. Intervals from a council doc: air receiver 26 months, crane 14, accessories 6. Penalty not checked.",
+   "market": "not_reached: no register or statistic found",
+   "reason": "Duty is real: the Safety at Work Ordinance requires periodic inspection by a chief-inspector-certified inspector for boilers (ss.100-107a), air receivers (ss.113-116), cranes and lifting gear, and lifts. A council procedure (not the law) lists intervals: air receiver 26 months, crane 14 months, lifting accessories 6 months. I did not read the statute, the penalties, or any register count of regulated businesses. The lift bill passed first reading on 29.1.2018 and had not advanced as of the 2022 RIA report. I found no 2024-25 progress, but my search was weak. No Israeli competitor found, but only 4 searches ran and no vendor sites were opened. Safety-officer tools such as K15 likely cover inspection dates. The inspector, not the owner, usually tracks the schedule, so the pain is low. Score stays 3.",
+   "searches": 4,
+   "sources": "https://www.gov.il/BlobFolder/generalpage/ria-processes/he/regulations_ria-2022-c.pdf ; https://www.ismb.org.il/wp-content/uploads/2023/06/ריאה-מעליות.pdf ; https://portal.m-yehuda.org.il/uploads/n/1548832093.8352.doc",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b1"
+ },
+ "sonnet:israel:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty looks real but I could not verify its details. The gov.il page (rad-license-request) is the Environmental Protection Ministry's licensing service for medical radiation devices: online application, plan approval, installation, inspection by radiation inspectors, then a licence. WebFetch got 403 on that page, so I only saw it through search snippets. A 2019 Haifa University X-ray permit ran about one year (23/10/2019 to 10/10/2020), under the pharmacists' regulations on radioactive elements (1980). That is a single sample. I did not confirm the statutory renewal cycle, fee, penalties or enforcement. I found no number of dental or X-ray owners. Hebrew searches found no Israeli software; only foreign tools (DOSILINK, DosiServ, SafetyStratus). I did not check local radiation consultancies. Each clinic has few devices, so the need is small and consultancies may already cover it. Score stays at 3.",
+   "searches": 5,
+   "sources": "https://www.gov.il/he/service/rad-license-request ; https://dev.haifa.ac.il/images/heter__krina_rentgen__2019.pdf ; https://www.medicalexpo.com/prod/biomediqa-groupe/product-122228-1017617.html ; https://www.mirion.com/products/technologies/health-physics-radiation-safety-instruments/dosimetry-telemetry-systems/access-control-solutions/dosiserv-lite-electronic-dosimetry-management-software-for-healthcare-facilities-and-research-institutions",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b1"
+ },
+ "sonnet:israel:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The licensing law is real and the State Comptroller's June 2026 report discusses the reform. It says about 20.5% of licensable businesses operated without a licence in 2024. I could not confirm the final in-force term table (5/10/15 years) or the 3-month change-reporting duty. Press sources conflict on current terms: 3 vs 5 years for food businesses. The accessibility-proof order was not opened. Longer licence terms (about 10 years for food businesses and salons) cut the recurring renewal trigger, so the duty is weak as a recurring workflow. Searches found no Israeli permit-tracker product, only generic tools (RenewQ). Licensing consultants were not checked. I did not find a register count of licensed businesses. Low frequency and consultant substitutes keep the score low.",
+   "searches": 3,
+   "sources": "https://protocol.co.il/interior-committee-approved-business-licensing-reform/ ; https://www.calcalist.co.il/articles/0,7340,L-3743143,00.html ; https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2026/Shilton/2026-Shilton-101-Licensing.pdf ; https://www.capterra.co.il/software/1104704/RenewQ",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b1"
+ },
+ "sonnet:israel:GAPS3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is plausible: gov.il says dealing in toxins above thresholds needs a toxins permit under the Hazardous Substances Law 1993, and operating without one is a criminal offence. Search summaries say permit holders must keep purchase and sales ledgers (date, substance, quantity, buyer name and address, buyer signature). I could not open any primary text (gov.il returned 403), and the 1960 Plant Protection sale-licence text is old and possibly superseded. I found no Israeli software for this ledger, but the search was shallow. The market is tiny: probably a few hundred dealers, with unknown counts. The ledger is a low-pain form, and the permit renewal is likely already covered by K03. Score 3.",
+   "searches": 3,
+   "sources": "https://www.gov.il/he/service/toxins-permit-request ; https://faolex.fao.org/docs/pdf/isr49138.pdf ; https://enviro-services.co.il/wp-content/uploads/2024/08/%D7%94%D7%99%D7%AA%D7%A8-2024-2025%D7%A8%D7%A2%D7%9C%D7%99%D7%9D.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b1"
+ },
+ "sonnet:israel:GAPS5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real for importers: Ministry of Transport procedure H-02-2019 sets commercial import approval criteria for e-bikes, and SI 15194 is the referenced standard. But it is a per-model, one-off approval, not recurring. The registration and plate duty falls on owners (since 1 Aug 2024), not shops. A municipal PDF gives a 500 NIS fine dated 1.9.25; I could not confirm 750 NIS from 1 Sep 2026. The gov.il page returned 403. The enforcement case I found was from 2015 (mako), not July 2026. I found no software competitor, but the market is a few dozen to a few hundred importers, with no register figure. Shaar Olami and customs brokers likely overlap. Weak recurrence and a small market.",
+   "searches": 3,
+   "sources": "https://www.gov.il/BlobFolder/policy/tkina2-bicycle/he/nohal_02-2019.pdf ; https://www.sii.org.il/he/lobby/standardization/standard-page?id=7424 ; https://www.kiryat-ata.org.il/wp-content/uploads/2025/10/חובת-רישום-והתקנת-לוחית-רישוי-לקורקינטים-ואופניים-חשמליים.pdf ; https://www.mako.co.il/news-israel/local-q2_2015/Article-aec3a667fa6fd41004.htm",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b1"
+ },
+ "sonnet:israel:GAPS6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The purchase tax on e-liquid and disposables is real, but it is paid mainly at import and wholesale and has no recurring filing for small retailers that I could find. The draft stock tax on wholesalers (1 NIS/ml, 6 NIS per disposable, only above 10,000 NIS of tax) came from a draft order, and I could not confirm it took effect. The permit and digital-reporting regime for importers and retailers was proposed in the 2026 Arrangements Law, but I found no confirmation it passed. Globes (22 Jul 2026) reported the enforcement legislation stalled when the Knesset dissolved, and that the market is almost entirely black. I found no software or state tool for this, but I ran only one competitor search. The market is small, evasive and shrinking, so willingness to pay is weak. I could not retrieve Chapter 12's text. Score 2.",
+   "searches": 5,
+   "sources": "https://www.calcalist.co.il/local_news/article/sjilzxd00f ; https://www.hon.co.il/?p=227365 ; https://www.funder.co.il/article/184566 ; https://www.2firsts.com/news/israel-introduces-tax-and-regulatory-reform-on-e-cigarettes-to-reduce-youth-use-and-combat-black-market-trading-expected-to-increase-revenue-by-154-billion-usd-each-year",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b1"
+ },
+ "sonnet:israel:GAPS8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Employers with 3-9 staff have had to report deposits online since 19 Feb 2023, and those with fewer than 3 since 1 Feb 2025. Sanctions of up to NIS 200,000 are cited, but the sources are old (2016-2018), so the current amount is unverified. The core job is already covered cheaply or free. Payroll bureaus (Malam, Hilan and others) submit the employer-interface file. The Pension Clearing House (Maslaka) reports for about NIS 1 + VAT per ID, per one provider's page. Fund portals, such as Phoenix's, report free and convert manual entry into the file. Payroll software exports the same file. I did not run vendor-specific searches for Tamal or Ranad. A solo founder has no gap to fill. Market size was not found.",
+   "searches": 2,
+   "sources": "https://www.kolzchut.org.il/he/דיווח_מקוון_של_מעסיק_על_הפקדות_לביטוח_פנסיוני_לקרן_השתלמות_ולקופת_גמל ; https://acadmachar-gemel.co.il/wp-content/uploads/2025/02/דף-הסבר-מעסיקים-1.pdf ; https://www.malam-payroll.com/en/עדכון-לחוזר-אופן-הפקדת-תשלומים-לקופת-גמל/ ; https://www.chamber.org.il/serviceslobby/legal/1856/45085/ ; https://www.fnx.co.il/takanottashlum/",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b1"
+ },
+ "sonnet:israel:GAPS9": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: gov.il has a carrier licence renewal service and a requirement of up to 5 vehicles under an authorised safety officer or approved safety office, and 6+ under a certified officer. Renewal cycle, fee, penalty and number of carriers were not verified, because the gov.il fetch returned 403. The gov.il renewal page lists food, waste, sewage tanker, hazardous goods and other (4+ vehicles) carriage, so many owner-operators may not need a licence. The digital tachograph is still only being promoted. A Feb 2026 Knesset query says analogue is the current rule, and a 23 Jul 2026 report says regulations are being advanced with a pilot. It is not in force and would hit new trucks only. Competition was not properly checked, and fleet-management and GPS vendors exist. Renewal is infrequent, and a small buyer is hard to reach, so I kept the score low.",
+   "searches": 6,
+   "sources": "https://www.gov.il/he/service/carrier_license_renewal ; https://www.study.co.il/P43819/ ; https://fs.knesset.gov.il/25/parliamentquestion/25_pq_11424054.pdf ; https://www.bhol.co.il/news/1184676 ; https://www.ice.co.il/auto/news/article/1018943 ; https://www.hamichlol.org.il/%D7%A0%D7%99%D7%94%D7%95%D7%9C_%D7%A6%D7%99_%D7%A8%D7%9B%D7%91",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b1"
+ },
+ "triage:israel": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New buyer group (money changers) with recurring reporting duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Associations' annual reporting; no known idea covers this buyer or duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Beekeepers, new 2025 permit and levy regime; new buyer."
+    },
+    {
+     "decision": "known",
+     "id": "A4",
+     "reason": "Manpower/service contractors' wage-bill duty; same buyer and core duty as K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Periodic equipment inspection for workshop owners differs from K15 safety-officer software; unsure, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Used-car dealer licensing is a new buyer group; unverified but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Food producers' licensing file; different buyer from K04 daycares."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Tattoo studios are a new buyer; unsure of duty, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Precious-stone dealer AML is a new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Gemach licensing and periodic reporting; new buyer, mandatory duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Radiation permit for clinics; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Annual contractor worker follow-up report to Registrar; different duty from K02 safety chain."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Business-licence renewal for small shops; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "AML duties for small law and accounting offices; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Zimmer hosts licensing; new buyer, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Privacy Amendment 13 duties for small data holders; new duty."
+    },
+    {
+     "decision": "known",
+     "id": "B9",
+     "reason": "Small food importers' file and lists; same buyer group as K05 importers.",
+     "ref": "K05"
+    },
+    {
+     "decision": "known",
+     "id": "B10",
+     "reason": "Contractor wage enforcement for cleaning and security; same as K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Cooperative societies' filings; K07 covers rural water associations only, a different buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Garage used-oil records; different buyer from K03 toxins-permit holders (related K03)."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Agricultural exporters' phyto paperwork; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Tour guides' annual licence renewal; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Kashrut certificate for small food businesses; new buyer and duty."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS3",
+     "reason": "Toxins permit and sales ledgers for pesticide dealers; same core duty as K03.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Grower pesticide logbook; different buyer from K03; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "E-bike importers and shops compliance; different duty from K05 declarations."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Vape and tobacco excise duties; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Alcohol dealer certificate renewal; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Micro-employer pension reporting with deadlines passed; not covered by K16 payroll; keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS9",
+     "reason": "Small haulier carrier licence; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS10",
+     "reason": "Emission permits differ from K03 toxins permits; unsure, keep."
+    }
+   ]
+  },
+  "tag": "w2b1"
+ }
+}

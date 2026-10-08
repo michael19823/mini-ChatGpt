@@ -11,6 +11,66 @@
   },
   "tag": "w2b3"
  },
+ "challenge:mexico:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Partial overlap: generic Mexican POS systems (Eleventa, Visorus and others) cover inventory and expiry dates; Spanish fitosanitarios ERPs (a3fitosanitarios, ASEST) are not adapted to Mexico. Not reached: number of certified dealers and inspection data (two PDFs returned unreadable binary, and the OECD report page returned 403).",
+   "reason": "Nothing I found kills this idea. I found no Mexican software built for NOM-033-FITO. The only close products target Spain (a3fitosanitarios from Wolters Kluwer, ASEST's ERP) or Chile (Agroinventario, listed as not available in Mexico). I found no SENASICA app or digital-prescription system for Mexico; Costa Rica and Argentina have them. Still, the idea is weak. The NOM dates from 1995 and I found no update. The recurring duty is small: a sales log only for products that need a written recommendation, plus a supplier list every two years. I couldn't find how many certified dealers there are, how often inspections happen, or how many firms comply, so the market and enforcement are unknown. Mexican POS systems already cover stock, batches and expiry dates, which leaves only a narrow niche.",
+   "searches": 8,
+   "sources": "https://www.normasoficiales.mx/nom/nom-033-fito-1995 ; https://www.gob.mx/cms/uploads/attachment/file/791429/FORMATO_EVALUACION_NOM_033_FITO.pdf ; https://www.gob.mx/cms/uploads/attachment/file/870635/CARTEL_Comercializas_plaguicidas_de_uso_agr_cola.pdf ; https://www.wolterskluwer.com/es-es/solutions/a3erp/a3fitosanitarios ; https://asest.es/story/erp-fitosanitarios-agroquimico/ ; https://www.comparasoftware.com/agroinventario ; https://www.comparasoftware.com/punto-de-venta ; https://mley.mx/Reg_LFSV/articulo/122/ ; https://observador.cr/receta-digital-para-plaguicidas-restringidos-sera-de-uso-obligatorio-a-partir-del-16-de-agosto/ ; https://www.gob.mx/cms/uploads/attachment/file/732989/GUIA_tramites_empresas_de_plaguicidas_junio_2022.pdf",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b4"
+ },
+ "challenge:mexico:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Not settled: whether SSPC/DGSP runs an online filing portal (no evidence either way), and whether state portals such as CDMX's or Baja California's monthly report already digitise filing. I could not read the Baja California guide because the PDF fetch returned binary data.",
+   "reason": "I found nothing that kills the idea. The Ley Federal de Seguridad Privada still applies: its last reform was in 2011, and DOF sanctions in 2026 cite it. I found no sign that the Ley General de Seguridad Privada was enacted. DGSP enforces the alta/baja duty. One 2026 DOF sanction punished a firm that didn't keep its personnel and arms status up to date, and search snippets mention unreported bajas of 114 staff and 112 uniforms. I found no SSPC or DGSP online filing portal and no Mexican vendor that targets DGSP filings. Generic guard software (C-Guard Pro, GuardsPro) does patrols, shifts and payroll. Risks: there is no reliable firm count (the 8,500 figure comes from an unsourced blog; Jalisco has 289 firms and Chihuahua 269), filing rules differ by state, local gestores may already do this work, and willingness to pay is unclear.",
+   "searches": 8,
+   "sources": "https://sidof.segob.gob.mx/notas/docFuente/5796437 ; https://sidof.segob.gob.mx/notas/docFuente/5798715 (search snippet only) ; https://www.diputados.gob.mx/LeyesBiblio/ref/lfsp.htm ; https://mley.mx/Reg_LFSP/articulo/32/ ; https://mley.mx/Reg_LFSP/articulo/33/ ; https://seguridadbc.gob.mx/Planeacion/padron/GUIA%20LLENADO%20CORRECTO%20DEL%20INFORME%20MENSUAL.pdf (snippet only: monthly alta/baja report due within the first 5 business days of each month) ; https://capacitaciondepersonal.com.mx/autorizacion-para-prestar-servicios-de-seguridad-privada-en-mexico-2025-guia-completa-con-costos-reales/ (unverified 8,500 firms) ; https://www.nmas.com.mx/jalisco/seguridad/habra-registro-de-empresas-de-seguridad-privada-en-jalisco/ ; https://www.tiempo.com.mx/local/empresas_de_seguridad_privada_autorizadas_chihuahua_2023/ ; https://www.comparasoftware.com/c-guard-pro ; https://papelea.com/mx/estado-de-tabasco/inscripcion-de-elementos-en-el-registro-de-los-servicios-de-seguridad-privada-y-de-personal-portal-tabasco",
+   "suggested_score": 5,
+   "verdict": "survives"
+  },
+  "tag": "w2b4"
+ },
+ "challenge:mexico:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Partial overlap: BDO's REPSE SaaS module (validates supplier documents, connects to an ERP), Xternall's supplier-monitoring platform, the free IMSS ICSOE bulk CSV template, and accountants or consultancies such as Praxium that file for clients.",
+   "reason": "I found nothing that kills the idea, but it is weak. Seven Spanish-language searches turned up no dedicated SaaS that builds ICSOE/SISUB files from payroll or SUA data, or checks the two against each other. I also found no documentation either way on export features in CONTPAQi, Aspel NOI or Runa. Runa only publishes a guide. BDO's REPSE SaaS and Xternall serve client firms monitoring their REPSE suppliers, which overlaps with the joint-liability buyers. The free IMSS portal takes bulk CSV uploads of up to 3,000 workers, and the filing happens only three times a year, so willingness to pay is limited. The market is unclear: about 71k firms registered in 2021, about 53% renewed in 2024, and STPS cancelled more than 51k registrations in 2025. A mid-2026 reform eased REPSE registration and renewal. I found no change to ICSOE/SISUB.",
+   "searches": 7,
+   "sources": "https://imss.gob.mx/icsoe ; https://www.imss.gob.mx/sites/all/statics/icsoe/guias/3-Guia-Carga-Masiva-de-trabajadores.pdf ; https://idconline.mx/seguridad-social/2021/09/13/detalles-del-imss-sobre-el-icsoe ; https://bdomexico.com/getattachment/e678916d-f204-4c21-8b41-7498da73ce74/BDO-Brochure-REPSE_v1.pdf ; https://elceo.com/negocios/xternall-la-plataforma-que-ayuda-a-las-empresas-a-supervisar-a-sus-proveedores-repse/ ; https://praxiumconsultores.com/blog/icsoe-y-sisub-cuanto-cuesta-cumplir-cada-cuatrimestre ; https://www.tiempo.com.mx/economia/cancelo-stps-51-mil-inscripciones-del-repse-por-incumplimientos-septiembre-2026/ ; https://idconline.mx/seguridad-social/2025/12/18/repse-una-deuda-pendiente-en-la-formalizacion-empresarial ; https://idconline.mx/laboral/2026/06/10/adios-trabas-del-repse-stps-facilita-la-renovacion-y-registro ; https://www.taxtodaymexico.com/?p=2921",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b4"
+ },
+ "challenge:mexico:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "The market is much smaller than the claim says, and it is the wrong buyer group. Only exporters (in practice avocado packer-exporters) apply for the CLA on the free STPS VELAGRO platform. VELAGRO checks compliance automatically against IMSS and confirms the certificate against the export pedimento through VUCEM. Orchards, cutting-crew firms and packers that don't export do not file. They only have to stay current on their IMSS and REPSE duties, which existing payroll tools already handle. APEAM reported 74 packers in Michoacán in 2022, and Jalisco had 11 certified packhouses as of August 2026, so there are roughly 85 to 100 filers, most of them mid-sized or large. The pilot phase doesn't block exports.",
+   "reason": "The idea is not killed by a competitor, since no private VELAGRO software or consultancy turned up. It fails on who the buyer is and how many there are. IDC (2 Oct 2026) and the pilot coverage say the exporter registers its value chain and applies, while producers, cutting firms and packers don't request their own certificate during the pilot. That leaves about 85 to 100 avocado packer-exporters, and many are large or foreign-owned, not small firms. Compliance data comes straight from IMSS, so there is little left for a tool to compile. During the pilot, not having a CLA doesn't stop shipments. Upside: berries and other crops are planned but have no published rules yet, and the 2027 employer-registration phase could add work for the chain. Sanctions and renewal frequency remain unverified.",
+   "searches": 6,
+   "sources": "https://idconline.mx/laboral/2026/10/02/exportacion-de-aguacate-nuevo-certificado-laboral-obligatorio ; https://www.portalfruticola.com/noticias/2025/12/19/certificado-laboral/ ; https://vanguardia.com.mx/dinero/aguacate-y-berries-obtienen-certificacion-laboral-permitira-que-jornaleros-cuenten-con-imss-FI18675514 ; https://www.portalfruticola.com/noticias/2022/07/29/apeam-comienza-envios-de-aguacates-hass-de-jalisco-hacia-ee-uu ; https://thelogisticsworld.com/actualidad-logistica/inauguran-nueva-planta-empacadora-de-aguacates-en-jalisco ; https://www.portalfruticola.com/?p=609645 ; https://www.taxtodaymexico.com/?p=13909 ; https://idconline.mx/laboral/2026/09/17/expedicion-del-certificado-laboral-de-agroexportacion-como-opera",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b4"
+ },
+ "challenge:mexico:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No killer confirmed. The main threats are (1) SITAEX, the state system starting 31 Dec 2026 with the certified-orchard registry, harvest tracking and geolocation, which may provide verification for free (interface not reached); (2) a tiny buyer pool of about 74 Michoacán packers (APEAM, 2022) plus about 11 in Jalisco, many of them large firms with ERPs and tax advisers.",
+   "reason": "I found no product or rule that kills this. The duty is real: criterio 60/ISR/N (DOF, Transitorio Único) takes effect on 31 Dec 2026, and I found no small-firm exemption. I also found no commercial Mexican packer tool that links orchard SITAEX status, the owner's CFDI and direct supply into a deductibility file. Two things weaken it. First, the market is very small: APEAM reported 74 packers in Michoacán in 2022, and Jalisco started with about 11. Many packers are large exporters with their own ERPs (BatchMaster at Global Frut) and tax advisers who already offer supplier-file reviews. Second, SITAEX may cover most of the evidence once it runs, because it will hold the certified-orchard registry, harvest tracking and geolocation. I could not find its interface, so how much it covers is unsettled.",
+   "searches": 7,
+   "sources": "https://sidof.segob.gob.mx/notas/docFuente/5800260 ; https://planoinformativo.com/1173320/prohibe-gobierno-intermediarios-en-aguacate-de-exportacion ; https://www.cronica.com.mx/nacional/2026/10/06/agricultura-y-sat-refuerzan-controles-para-exportar-aguacate-a-eu/ ; https://www.taxtodaymexico.com/?p=13981 ; https://www.portalfruticola.com/?p=487659 ; https://www.portalfruticola.com/noticias/2022/07/29/apeam-comienza-envios-de-aguacates-hass-de-jalisco-hacia-ee-uu ; https://www.diariodemexico.com/mi-nacion/afirma-berdegue-75-empacadoras-aguacate-en-michoacan-ya-estan-habilitadas ; https://www.ties.unam.mx/ties/article/download/109/55/1304",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b4"
+ },
  "critic:mexico": {
   "result": {
    "gaps": [
@@ -863,6 +923,34 @@
    "verdict": "confirmed"
   },
   "tag": "w2b3"
+ },
+ "escalate:mexico:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "SICAR (sicar.mx), a Mexican point-of-sale system with a pharmacy edition, already covers the core recording job. Its pharmacy page says it automatically generates sales reports for antibiotics and controlled medicines with doctor and prescription data, \"listos para presentarse ante las autoridades\". It requires the doctor's name and cédula profesional for every controlled sale, records prescription folios, and claims its reports meet COFEPRIS rules. Price: MXN 4,940 one-time for the server licence and MXN 1,320 per terminal. A 2010 trade report said 7 in 10 pharmacies already used software to capture antibiotic sales data. A 2021 BUAP thesis built a point-of-sale prototype for the same job. The authorised book itself still appears to be paper, so a separate product could only offer printing or transcribing the book and preparing the paper previsiones forms. That is a thin add-on to point-of-sale systems pharmacies already use. I could only run a few competitor searches, so other pharmacy point-of-sale vendors were not checked.",
+   "duty": "Real, but only partly confirmed from secondary sources. Pharmacies, droguerías and boticas that sell estupefacientes or psicotrópicos must keep authorised control books (COFEPRIS-03-005, free, resolved in 5 working days). The Coahuila RETyS listing says the books must be presented as originals, in person. They must also file the previsiones de compra-venta notice (COFEPRIS-03-014). The Coahuila listing says this notice is due every 6 months and carries a fee, and it is filed in person. The Zacatecas listing gives no frequency, says the procedure is free and gives 1 year as the resolution period. Both listings are on papelea.com, a third-party site. I did not reach an official gob.mx or COFEPRIS page. I found no penalty amounts. Retaining prescriptions and recording antibiotic sales (doctor name, cédula profesional, quantity) has been required since 2010. I did not find evidence that electronic books are accepted; the sources point to paper books, presented in person.",
+   "market": "No national count found. The only figure is from Salud y Fármacos: one state (not named, undated) had 2,962 pharmacies selling controlled medicines. A 2015 Salud y Fármacos note put Jalisco at about 8,000 pharmacy establishments. Nationally, pharmacies number in the tens of thousands (an estimate, not a sourced figure), but the share holding a controlled-medicine licence is unverified.",
+   "reason": "The duty is real but light. The previsiones notice is twice a year according to one state listing, and the book permit is free, quick and filed on paper. The heavier day-to-day work is recording each controlled or antibiotic sale with doctor data, and SICAR, an established Mexican point-of-sale system, already does this with reports it says are ready to give to the authorities. A 2010 report said most pharmacies already used software for antibiotic records. Electronic books do not appear to be accepted, so a new product could not replace the authorised paper book; it would be a feature of point-of-sale systems pharmacies already own. Willingness to pay for a separate tool is low.",
+   "searches": 6,
+   "sources": "https://www.sicar.mx/sistema-para-farmacias-punto-de-venta ; https://papelea.com/mx/estado-de-coahuila-de-zaragoza/cofepris-03-014-registro-estatal-de-tramites-y-servicios-retys ; https://papelea.com/mx/estado-de-zacatecas/cofepris-03-014-aviso-de-previsiones-de-compra-venta-de-medicamentos-que-contengan-estupefacientes-para-farmacias-droguerias-y-boticas ; https://papelea.com/mx/estado-de-coahuila-de-zaragoza/cofepris-03-005-registro-estatal-de-tramites-y-servicios-retys ; https://papelea.com/mx/estado-de-zacatecas/cofepris-03-005-permiso-de-libros-de-control-de-estupefacientes-y-psicotropicos ; https://papelea.com/mx/estado-de-jalisco/jal-coprisjal-17 ; https://www.saludyfarmacos.org/boletin-farmacos/boletines/nov2010/Farmacias-no-estan-listas ; https://www.saludyfarmacos.org/boletin-farmacos/boletines/jul2010/mexico-establecen-registro-nacional ; https://repositorioinstitucional.buap.mx/bitstream/20.500.12371/15967/1/20211203085018-9209-TL.pdf ; https://www.saludyfarmacos.org/?p=47222",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b4"
+ },
+ "escalate:mexico:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No product does exactly this (CFDI issuer = certified orchard owner + SITAEX registration + direct-supply evidence file). Nearby options: (1) SITAEX itself, the state system holding the certified-orchard registry, which may let packers verify orchards for free. Its interface was not reached. (2) General produce ERPs already used by avocado exporters: BatchMaster ERP at Global Frut, a Michoacán exporter, and Reserva ERP, which offers lot traceability for Mexican grower-packer-shippers. (3) The academic SIAEA system built for Peribán and Tancítaro packers, which notes most packers still use manual logs and spreadsheets. (4) Generic CFDI validation tools. A tax firm (taxtodaymexico) is already advising packers to strengthen supplier files, so tax advisers are a likely channel or competitor.",
+   "duty": "Two rules in force. (1) SADER phytosanitary agreement, DOF 1 Oct 2026, effective 2 Oct 2026, tied to the NOM-066-FITO-1995 change: fruit exported to the US must come only from certified orchards registered in SITAEX, supplied directly to the packer, with collectors, traders and maquiladores banned. SITAEX holds the orchard registry, harvest estimates and phytosanitary status. The press says it starts 31 December (year not stated, presumably 2026). (2) SAT criterion 60/ISR/N in Anexo 7 RMF 2026, in the Third Resolution of Modifications, effective 31 Dec 2026. Packer purchases are deductible only if the packer verifies certified origin and direct supply, keeps documents proving compliance with the SADER agreement, and holds a CFDI issued by the orchard's possessor, usufructuary or owner. The penalty is losing the ISR deduction under LISR art. 27-I. In the agreement, a quarantine pest finding means the shipment is returned or destroyed. The SAT text names no other sanctions, and I did not read the full DOF text of the SADER agreement. The duty is continuous, applying to every purchase.",
+   "market": "Small. APEAM had 74 packers in Michoacán in 2022 (portalfruticola). Jalisco had 11 certified packhouses, 609 orchards and 227 producers in Aug 2026. Berdegué said 75% of Michoacán packers are enabled for export, without an absolute number. That suggests roughly 80-120 export packers, many of them mid-size or large. Michoacán had more than 30,000 producers (2022), and these orchard owners must issue CFDIs, which is a larger but low-paying secondary segment. I did not open the SENASICA SRRC directory to count it.",
+   "reason": "The duty is real. SADER's agreement was published in the DOF on 1 Oct 2026 and took effect 2 Oct. It requires export fruit to come only from certified orchards registered in SITAEX, supplied directly, with no collectors or maquila. SAT criterion 60/ISR/N (Tercera Resolución de Modificaciones RMF 2026, effective 31 Dec 2026) makes purchases non-deductible unless the packer can show this compliance and holds a CFDI from the orchard owner. No vendor sells a tool for the CFDI-to-certified-orchard check. General produce ERPs (BatchMaster at Global Frut, Reserva ERP) and the state's own SITAEX may cover much of it. The market is small and fairly sophisticated: roughly 74 Michoacán packers (2022 figure) plus 11 in Jalisco.",
+   "searches": 5,
+   "sources": "https://sidof.segob.gob.mx/notas/docFuente/5800260 ; https://planoinformativo.com/1173320/prohibe-gobierno-intermediarios-en-aguacate-de-exportacion ; https://idconline.mx/comercio-exterior/2026/10/05/exportar-aguacate-nuevas-reglas-fitosanitarias-de-movilidad ; https://www.taxtodaymexico.com/?p=13981 ; https://www.cronica.com.mx/nacional/2026/10/06/agricultura-y-sat-refuerzan-controles-para-exportar-aguacate-a-eu/ ; https://elceo.com/economia/sat-limita-deducciones-de-isr-para-aguacate-de-exportacion-a-estados-unidos-exige-huertos-certificados/ ; https://www.diariodemexico.com/mi-nacion/afirma-berdegue-75-empacadoras-aguacate-en-michoacan-ya-estan-habilitadas ; https://www.elciudadano.com/?p=890203 ; https://www.ties.unam.mx/ties/article/download/109/55/1304 ; https://portalerp.com/mx/noticia/global-frut-potencia-su-cadena-de-valor-con-batchmaster-erp ; https://www.onreserva.com/es_ES/blog/content-2",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b4"
  },
  "gapfill:mexico": {
   "result": {

@@ -1,0 +1,1350 @@
+{
+ "challenge:united-kingdom:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None decisive. Partial overlap: the free visitorlevy.scot platform does the filing, and booking/PMS tools (freeonlinebooking levy reports, Hop finance report, Bookster) do the calculation and reporting. The statutory return is only a levy total per premises per quarter.",
+   "reason": "No single killer found, but the opening is thin. Filing goes through the free national platform visitorlevy.scot. Under s.26 of the Act, the return is a quarterly figure for each set of premises, so there is little left to \"prepare\" once the levy is calculated. Booking tools already do the calculation and reporting: freeonlinebooking offers two levy reports you can email to the council, plus refunds and night caps. Hop and Bookster were also found earlier. I found no tool that submits returns to the platform, and no bulk upload or API. More councils are coming, which widens the market: Glasgow approved its levy with a start on 25 Jan 2027, and Stirling plans 2027. The likely buyers are small hosts not on any booking system, a cheap and price-sensitive group. Not checked: provider counts, penalties, and the return form fields.",
+   "searches": 8,
+   "sources": "https://www.freeonlinebooking.com/en/Blog/scottish-visitor-levies.aspx ; https://www.edinburgh.gov.uk/business/information-businesses ; https://www.legislation.gov.uk/asp/2024/8/section/26/enacted/data.htm ; https://www.glasgow.gov.uk/article/14799/Glasgow-s-Visitor-Levy ; https://www.hellorayo.co.uk/greatest-hits/glasgow/news/glasgow-approves-tourist-tax ; https://www.booksterhq.com/news/159016-visitor-levy ; https://icas.com/news-insights-events/news/tax/visitor-levy-what-accommodation-providers-need-to-know/ ; https://www.independenthotelshow.co.uk/news-hub/uks-first-city-wide-visitor-levy-comes-effect-edinburgh",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b4"
+ },
+ "critic:united-kingdom": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Taxi/PHV, driving instructors and MOT/vehicle-trade duties not covered: DVSA MOT testing stations (small garages) and DVLA/DVSA records",
+     "first_search": "DVSA MOT testing station requirements 2026 changes small garages; operator licence Traffic Commissioner small haulier compliance 2026",
+     "why": "MOT test stations (~23,000, mostly small garages) have mandatory DVSA site/tester obligations, annual assessments and a rule set that changed (MOT reforms, DVSA service); also tachograph/O-licence holders (small hauliers, Traffic Commissioner) are absent from the transport category, which only lists taxi and Section 19."
+    },
+    {
+     "category": "Alcohol and entertainment licensing: pubs, clubs, community venues (Licensing Act 2003 / Licensing (Scotland) Act 2005) incl. Pubs, personal licence reforms, Premises licence reform in England",
+     "first_search": "Licensing Act 2003 reform 2026 premises licence pubs small operators changes; licensing taskforce pubs 2026 government response",
+     "why": "Tens of thousands of small licensed premises with personal licence holders, DPS, annual fees, plus 2025-26 Licensing Taskforce and statutory changes (e.g. removal of personal licence renewal, Scottish occasional licences); no category reached it."
+    },
+    {
+     "category": "Gambling and lottery: small society lotteries, club gaming machine permits, bingo and gaming-machine returns (Gambling Commission)",
+     "first_search": "small society lottery annual return Gambling Commission 2026 changes; statutory levy small operators 2026 Gambling Act",
+     "why": "Thousands of community associations, clubs, charities and small-society lotteries must register with local authorities/Gambling Commission and file annual returns; Gambling Act white paper changes in 2025-26 (new levies, statutory levy, stake limits) hit small arcades and members clubs."
+    },
+    {
+     "category": "Food hygiene and allergen duties for small food businesses: FSA/Food Standards Scotland registration, Natasha's Law, food hygiene rating and the new food business registration/ratings reforms (incl. mandatory FHRS display in England)",
+     "first_search": "mandatory food hygiene rating display England legislation 2026 small food businesses; FSA food business registration reform 2026",
+     "why": "Largest small-operator population (takeaways, cafes, market stalls, home bakers); the Food Standards Agency reform of the food hygiene rating (mandatory display in England announced) and Registered food business changes are 2025-27 new rules; only feed and abattoirs were looked at."
+    },
+    {
+     "category": "Environmental permits and waste duties for small operators other than waste carriers: Duty of Care transfer notes, WEEE/batteries producer registration, Simpler Recycling (March 2026 workplaces) and Deposit Return Scheme (Oct 2027)",
+     "first_search": "Deposit Return Scheme October 2027 retailers small shops obligations return point registration; Simpler Recycling micro-firms 2026 compliance",
+     "why": "Simpler Recycling began for micro-firms 31 March 2026 with four-stream separation; DRS England/Scotland/Wales go live October 2027 with retailer, producer and return-point obligations (small shops, pubs, takeaways); neither is in the coverage table or known list (K05, K13, K14 are only DWT/pEPR)."
+    },
+    {
+     "category": "Employment/tax duties on very small employers and the self-employed: Employment Rights Act 2025 record-keeping, umbrella/IR35, construction CIS monthly returns, and Fair Work Agency enforcement; also HMRC Making Tax Digital for Income Tax from April 2026 for sole traders and landlords",
+     "first_search": "Employment Rights Act 2025 record keeping holiday pay small employers April 2027 Fair Work Agency compliance; CIS monthly return small contractors 2026 changes; Ofsted notification of significant events registered providers 2026",
+     "why": "MTD for ITSA applies to sole traders/landlords over 50k from 6 April 2026 and 30k from April 2027 (known K18 rejected as too competitive), but CIS returns and holiday-pay/record-keeping duties under ERA 2025 and FWA enforcement are distinct and untested; also school transport, childminder and Ofsted/CIW/Care Inspectorate registered-provider notifications (adult care, children's homes, supported living) are largely unreached beyond DoLS (K02)."
+    }
+   ]
+  },
+  "tag": "w2b4"
+ },
+ "discover:A:united-kingdom": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Responsible persons for premises with 200-799 capacity: village hall committees, churches, mosques, temples, community centres, pubs/function rooms, small theatres, wedding venues, childcare and education sites",
+     "category": "17. Community and religious bodies (also 20 small licensed premises)",
+     "evidence": "https://www.gov.uk/guidance/understanding-martyns-law-and-the-sias-role-as-regulator (fetched: duties, portal being built, volunteer testers from early 2027); https://acre.org.uk/exchange-martyns-law-guidance-for-village-halls-now-available/; https://yourpilla.com/answers/documentation-compliance-martyns-law-needed (record-keeping expectations); https://www.theatrestrust.org.uk/latest/news/2761-martyns-law-consultation",
+     "existing": "Competitor search run: free government/ProtectUK guidance and ACT e-learning, ACRE village hall guidance, Airbox checklist, Pilla risk assessment templates, teamSOS (alerts/incident/training logs), Momentus (event risk software), SJA checklist. No dedicated per-venue plan + training-record + SIA-notification tool for small volunteer bodies found.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Martyn's Law standard-tier compliance pack for village halls, places of worship and small venues",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Terrorism (Protection of Premises) Act 2025: notify SIA of responsible person via an online portal and put in place evacuation, invacuation, lockdown and communication procedures; commencement expected spring/April 2027 (exact date to be confirmed by SIA); places of worship, childcare and education stay standard tier even at 800+",
+     "unchecked": "Exact commencement date and penalty regime; Schedule 1 list of qualifying purposes; whether the SIA portal will be free and complete enough to remove need for a tool; how many village halls and places of worship reach 200 capacity; Scotland/NI application (Act is UK-wide); whether ongoing duties (reviews, training records) create recurring demand."
+    },
+    {
+     "buyer": "Scottish beauty salons, aesthetic and beauty practitioners offering chemical peels, cryolipolysis, cryotherapy, electrolysis, HIFU, microneedling, non-ablative laser/light, radio frequency",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://www.legislation.gov.uk/ssi/2026/87 (fetched: 8 procedures in Schedule 1); https://www.mfmac.com/insights/healthcare-lifesciences/scotlands-beauty-sector-set-for-a-2027-makeover/ (fetched: licences effective 6 Sept 2027, apply before then); https://www.mondaq.com/product-liability-safety/1817332/scotland-moves-ahead-on-non-surgical-cosmetic-procedure-licensing-and-england-needs-to-catch-up; https://www.zenoti.com/en-uk/thecheckin/scotland-non-surgical-procedures-bill-clinic-owners",
+     "existing": "Competitor search run: found only law-firm/trade commentary and a Zenoti (clinic software) blog on the Bill; no application-prep or compliance tool for the council licence found. Generic salon booking software (not checked in detail) does not do council licence applications.",
+     "known_id": "K20",
+     "known_mark": "new",
+     "known_note": "Related to rejected K20 (Wales special procedures: 3-year licence, consent-record apps exist). Different jurisdiction, different duty (new council licence with a one-off deadline for many small firms), so treated as new.",
+     "name": "Scotland non-surgical procedure licence pack (lower-risk aesthetics) for salons and practitioners",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Civic Government (Scotland) Act 1982 (Licensing of Non-surgical Procedures) Order 2026 (SSI 2026/87, in force 13 Feb 2026): practitioner and premises licences from councils required from 6 September 2027; separate Non-surgical Procedures and Functions of Medical Reviewers (Scotland) Act 2026 (Royal Assent reported 12 May 2026) restricts higher-risk treatments (Botox, fillers) to registered healthcare premises with Healthcare Improvement Scotland",
+     "trigger_note": "",
+     "unchecked": "Council application forms, fees, licence term and conditions (not found); how many Scottish salons are affected; per-council differences (32 councils); whether a one-off application deadline gives only a one-off sale; consent and treatment record rules; England equivalent still pending (C16)."
+    },
+    {
+     "buyer": "Small and family-run funeral directors in Scotland",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://www.legislation.gov.uk/asp/2016/20/section/94/data.htm?view=plain; https://gov.scot/publications/funeral-director-licensing-scheme-scotland/pages/3; https://gov.scot/publications/scottish-governments-funeral-director-licensing-scheme-scotland-consultation-analysis-report/pages/5",
+     "existing": "Not searched (no competitor search run).",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Scottish funeral director licence application and compliance pack",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "s94-95 Burial and Cremation (Scotland) Act 2016: licensing scheme for funeral directors; s94 in force for limited purposes from 2 June 2023; Funeral Director Code of Practice approved by the Scottish Parliament in January 2024; inspectors being recruited Dec 2025",
+     "trigger_note": "",
+     "unchecked": "Whether licensing regulations have been made or laid and the commencement date (not found); number of Scottish funeral directors; any competitor tooling; Code of Practice record duties. K07 relates only by industry (memorials), different buyer and duty."
+    },
+    {
+     "buyer": "Small taxi and private hire operators and drivers in England",
+     "category": "18. Transport operators",
+     "evidence": "https://www.urbantransportgroup.org/blog/2026/06/12/taxi-and-phv-reform; https://inshur.com/en-gb/blog/private-hire-licensing-reform-2026; https://chichester.moderngov.co.uk/documents/s32012/APPENDIX K - Private Hire Operators Licence Conditions v4 24.02.2026 pdf.pdf",
+     "existing": "Not searched; dispatch software (iCabbi, Autocab, Cordic) believed dominant but not verified in this pass.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Taxi and private hire operator record and licence-compliance tool for national standards",
+     "score": 2,
+     "status": "weak",
+     "trigger": "National standards powers for hackney and private hire licensing (English Devolution and Community Empowerment Act 2026, ss70-86); draft Taxi and Private Hire Vehicle Bill announced in King's Speech 13 May 2026; secondary legislation expected 2027; today operator booking records under s56 Local Government (Miscellaneous Provisions) Act 1976, retention 6 months to 2 years depending on council",
+     "trigger_note": "",
+     "unchecked": "Final standards content and dates; dominance of dispatch/operator software; whether sources conflict on whether powers are enacted (Ribble Valley report treats them as enacted, commentary says bill pending)."
+    },
+    {
+     "buyer": "Charities, churches, scouts, schools, village groups holding section 19 minibus permits",
+     "category": "18. Transport operators",
+     "evidence": "https://rushtonparishcouncil.gov.uk/wp-content/uploads/2025/12/RCMB-Report-for-RPC-Meeting-15-7-26.pdf; https://www.westmorlandandfurness.gov.uk/parking-streets-and-transport/community-transport/section-19-and-section-22-permits; https://ctauk.org/sites/default/files/2025-11/Safeguarding%20Community%20Transport%27s%20future%20through%20driver%20licensing%20changes%20%28CTA%29%20%282025%29.pdf",
+     "existing": "Not searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Section 19 permit journey records for community minibus groups",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Transport Act 1985 s19 permits (rules revised 1 Oct 2019); permit holder must be able to show which journeys are run under the permit; D1 driver-licence shortage is the live policy issue",
+     "trigger_note": "",
+     "unchecked": "Number of permit holders; record formats required by permit issuers (councils); whether any rule change in 2026 exists (none found); willingness to pay of volunteer bodies."
+    },
+    {
+     "buyer": "Small recruitment agencies and gangmaster-licensed labour providers; umbrella companies",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.fcsa.org.uk/fair-work-agency-what-the-april-2026-launch-means/; https://www.gla.gov.uk/publications/glaa-briefs/glaa-brief-90-introducing-the-fair-work-agency; https://freshproduce.org.uk/news/fair-work-agency-replaces-glaa",
+     "existing": "Not searched (payroll/umbrella accreditation bodies such as FCSA exist, software competitors unchecked).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Umbrella company and agency worker compliance for small recruitment agencies (Fair Work Agency)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "GLAA merged into Fair Work Agency April 2026; joint and several liability for unpaid PAYE for agencies from 6 April 2026; statutory umbrella company regulation expected from April 2027 under the Employment Rights Act 2025",
+     "trigger_note": "",
+     "unchecked": "Final umbrella regulation standards (not published); agency record duties; competitor search for supplier-due-diligence tools; GLAA licence holder pain after licence transfer."
+    },
+    {
+     "buyer": "Northern Ireland professional pesticide users and farmers",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.daera-ni.gov.uk/news/grace-period-transition-mandatory-digital-record-keeping-plant-protection-products",
+     "existing": "Competitor search NOT run (budget cap reached); farm management software believed to exist but not confirmed.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Northern Ireland electronic plant protection product record keeping (DAERA)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Record content changes from 1 Jan 2026 (MAPP number, EPPO and BBCH codes); paper records accepted until 31 Dec 2026; mandatory electronic machine-readable records from 1 Jan 2027 after DAERA used the one-year postponement option (Commission Implementing Regulation (EU) 2025/2203)",
+     "trigger_note": "",
+     "unchecked": "Competitor search; whether DAERA provides a free tool; machine-readable format specification and how records are transferred to DAERA; market size (NI is small); England has no equivalent found."
+    },
+    {
+     "buyer": "SQP-authorised retail premises (agricultural merchants, pet shops, saddlers) and RAMAs/SQPs",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://www.cattleparasites.org.uk/updated-veterinary-medicines-regulations; https://gov.uk/guidance/inspection-criteria-for-sqp-retailers-premises",
+     "existing": "Not searched; likely handled by general stock/EPOS systems of merchants (unverified).",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "K03 covers independent vet practices (CMA Vets Order); this is a different buyer group (SQP retailers) and a different duty (VMD inspection records).",
+     "name": "SQP retailer premises record-keeping tool (veterinary medicines retail)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Veterinary Medicines Regulations 2013 as amended (in force 17 May 2024): records of incoming/outgoing POM-VPS and other medicines kept 5 years at the premises, may be electronic; verbal prescribing reasons documented; storage temperature records expected on inspection",
+     "trigger_note": "",
+     "unchecked": "Number of authorised SQP premises; whether any 2026 VMR change exists (none found); competitor search; inspection findings frequency."
+    },
+    {
+     "buyer": "Owners of commercial private water supplies: B&Bs, holiday lets, pubs, farms with food production, campsites",
+     "category": "13. Small water systems",
+     "evidence": "https://staffordbc.gov.uk/node/302760; https://www.great-yarmouth.gov.uk/article/2095/I-am-not-on-a-mains-water-supply-where-can-I-go-for-advice; https://www.chelmsford.gov.uk/environment-and-public-health/water-and-drainage/private-water-supply-assessments",
+     "existing": "Not searched; councils do the work and charge fees, so the owner duty is thin.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Private water supply owner pack for commercial supplies (England)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Private Water Supplies (England) Regulations 2016: council risk assessment every 5 years, annual sampling for large/commercial supplies, notices and cost recovery; DWI sampling scheme update 10 April 2026",
+     "trigger_note": "",
+     "unchecked": "Whether owners have any filing duty beyond paying council; competitor search; number of commercial supplies (not found)."
+    },
+    {
+     "buyer": "Independent jewellers and gold buyers accepting cash of EUR 10,000+ (HMRC high value dealer registration)",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.regulationtomorrow.com/2026/06/the-money-laundering-and-terrorist-financing-amendment-regulations-2026/; https://vinciworks.com/blog/the-2026-changes-to-the-money-laundering-regulations-what-firms-need-to-know/; https://www.assayoffice.co.uk/news/british-hallmarking-council-to-be-abolished-1",
+     "existing": "Not searched; generic AML tools likely out of scope as generic.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Cash-for-gold and precious metal buyer compliance (HVD / MLR 2026 amendments, hallmarking reform)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Money Laundering and Terrorist Financing (Amendment) Regulations 2026 (made 9 June 2026, most in force 30 June 2026); British Hallmarking Council abolition announced October 2025, no bill yet",
+     "trigger_note": "",
+     "unchecked": "Whether the amendments change HVD thresholds (sources unclear); most small shops take little cash so are outside HVD scope; no specific record register duty for gold buyers."
+    },
+    {
+     "buyer": "Households employing nannies and carers",
+     "category": "1. Household employers",
+     "evidence": "https://nannytax.co.uk/; https://www.getapp.co.uk/software/2077602/nannypay",
+     "existing": "Nannytax (payroll, HR support, pensions, insurance); Nannytax partner offer at 276 GBP/yr incl VAT via Care.com page; HMRC free Basic PAYE Tools (from prior knowledge, not confirmed in this pass)",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Household employer payroll (nannies, carers)",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "PAYE and auto-enrolment duties; Employment Rights Act 2025 phased changes",
+     "trigger_note": "",
+     "unchecked": "Whether Nannytax-type services leave a gap for live-in carers via local authority direct payments."
+    },
+    {
+     "buyer": "Small businesses and managing agents with lifts, compressors, boilers",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://www.ideagen.com/thought-leadership/blog/loler-thorough-examination-management-software-for-uk-duty-holders; https://help.papertrail.io/en/articles/5376484-managing-your-loler-inspections-with-papertrail; https://www.fabrico.io/blog/pressure-systems-safety/",
+     "existing": "Papertrail, Ideagen, Fabrico (PSSR), Lolerflow (for examiners, from 250 GBP/month), examiner reminder databases",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "LOLER / PSSR thorough examination scheduling for small premises",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "LOLER 1998 thorough examinations (6-month for people lifts); PSSR 2000 written scheme of examination",
+     "trigger_note": "",
+     "unchecked": "None material."
+    },
+    {
+     "buyer": "Small charities, churches, clubs claiming Gift Aid",
+     "category": "17. Community and religious bodies",
+     "evidence": "https://rayneressex.com/news/new-charity-tax-rules-from-april-2026-compliance-gift-aid-and-hmrc-changes/; https://www.theaccessgroup.com/en-gb/crm/sectors/not-for-profit/donorfy-crm/income-gift-aid-management/gift-aid-rules-for-charities/",
+     "existing": "Donorfy/Access Group charity CRM includes Gift Aid management; many charity CRMs",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Gift Aid April 2026 changes for small charities and community bodies",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Gift Aid tainted-donation test, attributable income and HMRC withholding powers from April 2026; DMCC Act subscriptions issue unresolved",
+     "trigger_note": "",
+     "unchecked": "None material (crowded by charity CRMs)."
+    },
+    {
+     "buyer": "Owners and installers of non-standard private sewage treatment systems",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://www.britishwater.co.uk/news/725384/Environment-Agency-Introduces-New-Standard-Rules-Permits-for-Small-Sewage-Discharges.htm; https://www.lexisnexis.co.uk/legal/news/ea-publishes-new-standard-rules-permits-for-small-sewage-discharges-in-england",
+     "existing": "Not searched; EA application process is online.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Small sewage discharge standard rules permits (England, April 2026)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "EA standard rules permits SR2025 No 5, 6 and 7 available from 20 April 2026 (discharges of 2-5 m3/day to ground, shallow non-standard drainage, non-conforming surface water discharges)",
+     "trigger_note": "",
+     "unchecked": "Volume of permit applications; whether installers would pay for a pack; no recurring duty found."
+    },
+    {
+     "buyer": "Aesthetic practitioners and premises in England",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://www.clydeco.com/es/insights/2026/05/non-surgical-cosmetic-procedures; https://www.jccp.org.uk/ckfinder/userfiles/files/Licensing%20Scheme%20for%20England%20(infographic).pdf",
+     "existing": "Not applicable until regulations exist.",
+     "known_id": "K20",
+     "known_mark": "new",
+     "known_note": "Same sector as candidate C2 (Scotland); watch item.",
+     "name": "England non-surgical cosmetic procedures licensing (section 180 Health and Care Act 2022)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Section 180 Health and Care Act 2022 power; proposed practitioner plus premises licence run by councils; regulations not made as of June 2026 (Clyde & Co insight)",
+     "trigger_note": "",
+     "unchecked": "Government response to the 2023 consultation and any timetable; no regulations found."
+    },
+    {
+     "buyer": "Dog breeders, boarding kennels, pet shops, riding establishments",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://westminsterbrief.co.uk/archive/pq/69536",
+     "existing": "Not searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Animal activity licence records (dog breeders, boarding, pet shops) if Defra reforms follow its review",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Animal Welfare (Licensing of Activities Involving Animals) (England) Regulations 2018; Defra post-implementation review completed, government response pending as of 5 May 2026",
+     "trigger_note": "",
+     "unchecked": "Any 2026 consultation or draft regulations (none found); existing competitor kennel software; star-rating record duties."
+    },
+    {
+     "buyer": "Scottish charity trustees and small community charities",
+     "category": "17. Community and religious bodies",
+     "evidence": "https://www.oscr.org.uk/guidance-and-forms/submit-an-annual-return/",
+     "existing": "OSCR Online (free state portal) handles returns.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "OSCR trustee registration (Scotland)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Legislation introduced in 2025 requiring all charity trustees in Scotland to be registered (per search snippet on OSCR/legislation pages); OSCR annual return within 9 months",
+     "trigger_note": "",
+     "unchecked": "Exact trustee registration rule and dates not confirmed; free state portal makes a paid tool unlikely."
+    },
+    {
+     "buyer": "Sheep and goat keepers, markets, hauliers",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.gov.uk/sheep-and-goat-keepers-how-to-report-animal-movements",
+     "existing": "Free state LIS service; online and LIS-1 paper reporting",
+     "known_id": "K16",
+     "known_mark": "known",
+     "known_note": "Same group and duty as K16 (cattle movement via LIS); sheep and goats use the same free statutory service.",
+     "name": "Cattle and sheep movement reporting (LIS)",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Report movements to the Livestock Information Service within 36 hours (holding register) and 3 days (markets)",
+     "trigger_note": "",
+     "unchecked": "None; not re-checked."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nannytax (HMRC-registered payroll, about 276 GBP/yr via Care.com partner page) already serves nanny payroll; Employment Rights Act 2025 phases in 2026-27 but nothing found that is specific to household employers. Candidate rejected (C11).",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Nothing new beyond the Scrap Metal Dealers Act 2013 (council site/collector licences, cash ban, national register). No 2026 reform found; search returned only old coverage.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No UK 2026 legislation found (results were Australian/NZ). Scotland second-hand dealer licence and pawnbroker FCA regime not researched further. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "HMRC high value dealer registration (cash over EUR 10k) and Money Laundering (Amendment) Regulations 2026 made 9 June 2026, most in force 30 June 2026; British Hallmarking Council to be abolished, no bill yet; assay office fee rises April 2026. Cash-for-gold buyers have no equivalent of scrap metal rules (campaign only). Weak candidate C10.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "ATF permit under ELV Regulations 2003 with DVLA Certificate of Destruction; EA public register. No 2026 England reform found (EU ELV regulation is EU only). Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "England sheep/goat movements go through the free Livestock Information Service (markets record within 36h, report within 3 days; LIS-1 paper form); cattle already K16. Related to K16, no new duty found. Haulier transport authorisations not searched separately.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Only 2018 CCTV mandate (England, in force 4 May 2018) found; no 2026 change or support scheme found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "BeeBase registration is free and voluntary (over 52,700 registered); Bee Diseases and Pests Control (England) Order 2006 notification duty. No 2026 change found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Veterinary Medicines Regulations amendments in force 17 May 2024: SQP retailers keep records 5 years, may be electronic; documented reasons for verbal prescribing. CMA vets order is K03. Possible new buyer group: SQP-authorised retail premises (C9).",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "EA abstraction licence needed above 20 m3/day; groundwater investigation consent and BGS notification for boreholes deeper than 15 m; EA guidance updated in 2026. Free EA process; nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Septic tanks need no registration in England under General Binding Rules; three new EA standard rules permits (SR2025 No 5, 6, 7) available from 20 April 2026 for non-standard small sewage discharges. Waste carrier duties are K05/K14. Weak candidate C14.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "LOLER thorough examinations and PSSR written schemes are already served by Papertrail, Ideagen, Fabrico and examiner reminder databases (candidate rejected, C12).",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Private Water Supplies (England) Regulations 2016: council risk assessment every 5 years and annual sampling for commercial supplies, costs recharged (e.g. Great Yarmouth 2026/27: 292 GBP risk assessment). DWI updated sampling scheme 10 April 2026. No software competitor searched. Weak candidate C8.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "No England-specific digital record rule found. Northern Ireland: new PPP record content from 1 Jan 2026, mandatory electronic machine-readable records postponed to 1 Jan 2027 (DAERA). Fertiliser/NVZ records not searched. Candidate C7 (Northern Ireland).",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "GLAA abolished and merged into the Fair Work Agency in April 2026; licences transferred automatically; umbrella company regulation expected April 2027; joint and several PAYE liability for agencies from 6 April 2026. Weak candidate C6.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Scotland: funeral director licensing power (s94 Burial and Cremation (Scotland) Act 2016) in force for limited purposes since 2 June 2023; Code of Practice approved Jan 2024; Scottish Government recruiting up to 3 inspectors Dec 2025; licensing regulations status unconfirmed (C5). Memorial permits are K07.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Martyn's Law (Terrorism (Protection of Premises) Act 2025) standard tier from spring/April 2027 covers village halls, churches and community venues of 200+ capacity (C1). Gift Aid April 2026 changes (C13) and OSCR trustee registration (C15) are weak. Charity annual return changes were 2024-25 only. Halal/kosher supervision not searched (voluntary private certification, no statutory duty identified).",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Taxi/PHV national standards powers (English Devolution and Community Empowerment Act 2026) with secondary legislation expected 2027 and a draft bill announced 13 May 2026 (C3); section 19 permit holders must keep records of permit journeys, D1 licensing pressure (C4). Small trucking (O-licence, tachograph) not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Bureau de change/MSBs register with HMRC (fit and proper, 14-day change notification), fees raised from 1 Dec 2025 (premises 300 to 400 GBP, per secondary source). No annual return found. Street trading licences (council-run) returned nothing. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Scotland: lower-risk non-surgical procedure licence (SSI 2026/87, in force 13 Feb 2026, licence required from 6 Sept 2027; practitioner and premises) (C2); England section 180 scheme still not made (C16). Animal activity licences: Defra post-implementation review pending (C17). Childminders: no 2026 rule change found (K09 covers nurseries). Small food producers: FSA reform programme only, no small-producer rule. RFDs: no new record rule, 2026 fee order. Driving schools and hunting outfitters not searched.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "Scrap Metal Dealers Act reform Crime and Policing Act cash ban licensing 2026",
+    "second-hand dealers pawnbrokers record keeping stolen goods police register new legislation 2026 UK",
+    "Martyn's Law standard duty venues 200 capacity SIA registration 2027 small venues places of worship",
+    "non-surgical cosmetic procedures licensing scheme England regulations 2026 local authority premises practitioners",
+    "authorised treatment facility ELV vehicle dismantlers England reform 2026",
+    "Martyn's Law compliance software tool plan template venues village halls church app",
+    "Scotland Non-surgical cosmetic procedures licensing Act 2026 premises licence",
+    "funeral director licensing Scotland Burial and Cremation Act 2016 licence regime 2026",
+    "GLAA licensing 2026 Fair Work Agency umbrella company regulation agency workers records",
+    "sheep goat electronic identification England 2026 livestock markets movement reporting LIS",
+    "Veterinary Medicines Regulations 2026 amendment retailers SQP record keeping",
+    "private water supplies regulations England 2026 local authority risk assessment commercial supply",
+    "pesticide records PA1 PA6 sprayer operators National Action Plan 2026 digital record keeping",
+    "taxi private hire operator licensing reform 2026 national standards records operators",
+    "registered firearms dealer register electronic Home Office 2026",
+    "household employer nanny payroll software HMRC UK 2026",
+    "gold buyers jewellers HMRC money laundering registration hallmarking changes 2026",
+    "small abattoirs England 2026 FSA CCTV small abattoir",
+    "septic tank general binding rules 2026 water abstraction licence borehole drillers",
+    "LOLER PSSR thorough examination scheduling software small business lift owners"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b4"
+ },
+ "discover:B:united-kingdom": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Pubs, village and church halls, community centres, small theatres, cinemas, gyms and similar premises with 200-799 capacity (England, Wales, Scotland, NI). Many are volunteer-run.",
+     "category": "31. Terrorism (Protection of Premises) Act 2025 / 29-adjacent; also 26 SIA",
+     "evidence": "https://www.gov.uk/government/publications/martyns-law-the-sias-new-regulatory-role (fetched: notify SIA; no fees or penalties stated on page); search results on 200-799 threshold e.g. https://goringparishcouncil.gov.uk/wp-content/uploads/2026/02/Martyns-Law.pdf",
+     "existing": "Martyn's Law Manager (G-Cloud 14 listing), Pilla risk assessment automation, TeamSOS, Momentus (aimed at larger venues), SJA checklist, many consultancy and training guides. No dominant product seen for tiny venues; Home Office guidance is free.",
+     "known_mark": "new",
+     "name": "C01 Martyn's Law standard-tier pack for volunteer and small venues (SIA notification, procedures, training log)",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Terrorism (Protection of Premises) Act 2025: responsible person must notify the SIA via an online portal and keep evacuation, invacuation, lockdown and communication procedures. Commencement expected spring 2027; SIA final guidance autumn 2026; portal testing early 2027.",
+     "trigger_note": "Competitor search run: found the vendors above.",
+     "unchecked": "Final SIA guidance and exact commencement date; whether recurring duties exist after the first notification; fees and penalties; number of in-scope small venues; whether free Home Office/ProtectUK templates already satisfy buyers; reach via village-hall and community-building associations."
+    },
+    {
+     "buyer": "Small accommodation providers in councils that adopt the levy under the Visitor Levy (Scotland) Act 2024: Edinburgh live, Stirling reported from 14 Jun 2027; others in the pipeline (unverified).",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.edinburgh.gov.uk/business/information-businesses (fetched: platform visitorlevy.scot, 2% reimbursement, scope); https://icas.com/news-insights-events/news/tax/visitor-levy-what-accommodation-providers-need-to-know/ ; https://www.roommaster.com/hotel-tax/edinburgh",
+     "existing": "Booking/PMS vendors (freetobook, freeonlinebooking, Roommaster) claim levy handling or levy reports; no API or bulk upload for the platform confirmed. Council training covers the platform only, not calculation.",
+     "known_mark": "new",
+     "name": "C02 Scottish visitor levy returns assistant for B&Bs, guest houses and self-catering (Edinburgh now, Stirling and others next)",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Mandatory registration regardless of turnover or VAT status; quarterly return and payment via the national platform visitorlevy.scot; first Edinburgh return (24 Jul to 30 Sep 2026) due October 2026; records kept 5 years; levy 5% of pre-VAT charge for first 5 nights; booking-date transition rule (bookings paid before 1 Oct 2025 exempt).",
+     "trigger_note": "Competitor search run: PMS vendors claim support; gap for providers using spreadsheets, Airbnb/Booking.com only.",
+     "unchecked": "Registration deadline, penalty regime (one source: GBP 100 plus 5% of tax due, unconfirmed), whether visitorlevy.scot has bulk upload or API, how many providers are small and not on a PMS, how many councils will adopt next, treatment of OTA bookings, cancellations and refunds."
+    },
+    {
+     "buyer": "Every Welsh provider of paid overnight accommodation (hotels, B&Bs, self-catering, caravan and camping), registered with the Welsh Revenue Authority; levy-collecting providers in Cardiff first.",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.gov.wales/visitor-levy-wales (fetched: Cardiff from 1 Apr 2027, providers pay the WRA; registration details not on page); https://rossmartin.co.uk/sme-tax-news/8628-welsh-tourism-tax-now-law ; https://businesswales.gov.wales/news-and-blog/visitor-accommodation-registration-and-visitor-levy-webinars",
+     "existing": "Booking-system vendors' general blog posts; no Wales-specific tool seen. Registration is free and run by the WRA.",
+     "known_mark": "new",
+     "name": "C03 Wales visitor accommodation register and Cardiff levy kit",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Visitor Accommodation (Register and Levy) (Wales) Act, law since 18 Sep 2025: WRA registration mandatory even without a local levy (reported opening autumn 2026, one source says deadline 31 Mar 2027); Cardiff providers must account for the levy on bookings for stays from 1 Apr 2027 (reported from 28 Sep 2026); GBP 1.30 per person per night reported, 75p campsite/hostel; Cardiff first, 12 months' notice from other councils.",
+     "trigger_note": "Related to C02; same buyer type, different regime and portal.",
+     "unchecked": "Official WRA registration opening date and deadline, return frequency (annual or quarterly), penalty rules, under-18 treatment, number of Welsh providers, competitor search specific to Welsh levy (partly covered by C02 search)."
+    },
+    {
+     "buyer": "Holiday-let and short-term-let hosts in England (hotels, hostels and B&Bs outside scope).",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.gov.uk/guidance/delivering-a-registration-scheme-for-short-term-lets ; https://shorttermrentalz.com/news/registration-scheme-short-term-lets-live-soon-england/ (not opened; snippets only)",
+     "existing": "Host-tool vendors publishing guides (Lodgify, Chekin, Goodlord blog); landlord compliance reminder tools generally. Free state portal will be the filing route.",
+     "known_mark": "new",
+     "name": "C04 England short-term let register compliance file for hosts",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Statutory registration scheme under development; target fully operational March 2027 per reports; hosts to supply address, nights let and proof of gas, electrical, boiler, furniture and fire safety compliance; platforms must display registration numbers.",
+     "trigger_note": "Competitor check partial: vendor guides only, no product found that solves the register itself.",
+     "unchecked": "Launch date, re-registration frequency, penalties, fees, Scotland STL licence renewals and Wales overlap; whether Airbnb and Booking.com will pre-fill data making a third-party tool redundant."
+    },
+    {
+     "buyer": "Convenience stores, newsagents, vape shops and other retailers (personal licence per seller and premises licence per site); local authority/Trading Standards administered.",
+     "category": "32. Tobacco and Vapes Act 2026 (retail licensing)",
+     "evidence": "https://www.popall.co.uk/news-publications/news/tobacco-and-vapes-licensing-regime-delayed-until-2027 ; https://www.irwinmitchell.com/news-and-insights/expert-comment/post/102nfij/tobacco-and-vapes-act-2026-licensing-consultation-delayed-but-businesses-should ; https://www.peterborough.gov.uk/regulatory-services/trading-standards/trading-standards-for-business/tobacco-and-vapes-act-2026",
+     "existing": "Only law-firm briefings and council pages seen; no software. Each council will run its own application route.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "C05 Tobacco and vapes retail licence application and renewal pack",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Tobacco and Vapes Act 2026 (Royal Assent 29 Apr 2026): personal and premises licences required to sell tobacco, vapes and nicotine products; regulations, fees and commencement still to be set; consultation pushed into 2027.",
+     "trigger_note": "Different buyer (retailers) and different duty from K04 (vape duty for makers/importers). Competitor search run: none found.",
+     "unchecked": "Commencement date, licence duration, fee, whether a national register or portal will exist, record-keeping or training duties after the licence; Scotland has an existing retail register."
+    },
+    {
+     "buyer": "Landlords, residential management companies, housing associations, care and student accommodation, small commercial estates that supply heat from a communal system to more than one property (HMOs and converted buildings with domestic systems exempt).",
+     "category": "33. Heat networks authorisation (Ofgem)",
+     "evidence": "https://www.ofgem.gov.uk/cy/guidance/heat-networks-regulation-registration (fetched: summary page only, no deadline text); https://www.ofgem.gov.uk/heat-networks-regulation-timeline ; https://www.benhams.com/news/landlords/why-landlords-must-register-heat-networks-uk/",
+     "existing": "Ofgem's free digital registration service; law-firm and landlord-agency briefings; no registration or compliance software found. Metering/billing vendors exist for larger schemes.",
+     "known_mark": "new",
+     "name": "C06 Heat network registration and authorisation-conditions pack for small operators",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Heat Network regulations: Ofgem regulator since 27 Jan 2026; existing networks must register with Ofgem by 26 Jan 2027 (deemed authorisation); new networks need authorisation from 27 Jan 2027; Ofgem authorisation conditions (consumer protection, nominated operator, financial resilience); Ofgem consulting on interim application arrangements, closing 2 Nov 2026.",
+     "trigger_note": "Competitor search run: only advisory content found; no software.",
+     "unchecked": "Number of small operators (unknown), exact portal status, information fields, willingness to pay for a free filing, ongoing recurring duties and reporting, Heat Networks Metering and Billing notifications overlap, deadline 26 vs 27 Jan 2027 discrepancy (Ofgem says 26)."
+    },
+    {
+     "buyer": "Independent aesthetics practitioners and clinics in England (personal plus premises licences via councils; highest-risk procedures via CQC).",
+     "category": "34. Non-surgical cosmetic procedures licensing",
+     "evidence": "https://www.clydeco.com/es/insights/2026/05/non-surgical-cosmetic-procedures ; https://www.gov.uk/government/news/government-to-crack-down-on-unregulated-cosmetic-procedures ; https://www.beyondthevote.co.uk/committee-publication/80d63710-a164-42f2-868c-f2a1f9f45150",
+     "existing": "Aesthetic clinic software (Consentz marketing pages; Pabau and Fresha mentioned in the query but unverified) already covers consent forms and records; JCCP voluntary register.",
+     "known_mark": "new",
+     "name": "C07 Cosmetic procedures licence file for aesthetics clinics and practitioners (England)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Health and Care Act 2022 powers; government committed in June 2026 to consult on draft regulations and implement licensing in this Parliament. Not yet law.",
+     "trigger_note": "Competitor search run: Consentz and similar clinic software.",
+     "unchecked": "Consultation text, dates, fees, who administers; likelihood of passing; whether licence evidence is a gap beyond clinic software."
+    },
+    {
+     "buyer": "Private landlords in England, many small.",
+     "category": "35. Renters' Rights Act 2025",
+     "evidence": "https://www.hcrlaw.com/news-and-insights/renters-rights-act-2025-private-rented-sector-database-to-go-live-from-15-december-2026/ ; https://www.winkworth.co.uk/articles/preparing-for-the-landlord-database-what-documents-should-you-have-ready ; https://www.propertyreporter.co.uk/government-sets-launch-date-for-mandatory-rental-property-register.html",
+     "existing": "Free government service; agent and landlord platforms (Goodlord, mydeposits) publishing guidance. Agents cannot register on the landlord's behalf.",
+     "known_id": "K18",
+     "known_mark": "known",
+     "known_note": "K18 rejected the PRS database in round 1. New facts since: 15 Dec 2026 launch date, staged regional windows, GBP 65 fee, agents barred from filing. Rejection reason not visible to me, so I am not marking revive; verifier should decide.",
+     "name": "C08 PRS database registration (Renters' Rights Act, England)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Go-live 15 Dec 2026 (West Midlands first, region by region, overall deadline reported 14 Nov 2027), GBP 65 per property per year, landlord must register, upload gas safety, EICR and EPC details; no possession order without active entry."
+    },
+    {
+     "buyer": "Registered societies (community pubs, shops, energy co-ops, clubs) with year-ends throughout the year.",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.legislation.gov.uk/ukpga/2014/14/section/89 ; https://www.uk.coop/resources/community-shares-finance-guide/2-roles-and-responsibilities/21-annual-returns",
+     "existing": "FCA free portal; Co-operatives UK guidance. No penalty schedule found.",
+     "known_mark": "new",
+     "name": "C09 Community benefit society / co-operative annual return (AR30) reminder and filing helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Co-operative and Community Benefit Societies Act 2014 s.89: annual return, accounts and auditor report to the FCA within 7 months of year-end, via the Mutuals portal; public on the Mutuals Public Register.",
+     "trigger_note": "Annual and low stakes.",
+     "unchecked": "Number of societies, penalties for lateness, whether any vendor serves them."
+    },
+    {
+     "buyer": "Private consultants and small independent hospitals/clinics subject to the CMA Private Healthcare Market Investigation Order 2014.",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://www.laingbuissonnews.com/healthcare-markets-content/phin-exploring-expanded-role-after-delivery-of-cma-order/ ; https://www.gov.uk/cma-cases/private-healthcare-market-investigation",
+     "existing": "PHIN's own support and collaborations with private hospitals; Medical Protection guidance.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "C10 PHIN consultant fee and outcome data submissions for small private practices",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Hospitals and consultants must submit fees, activity and outcome data to PHIN; CMA said it stands ready to take enforcement action; PHIN says Order delivered June 2026 and is exploring a bigger role.",
+     "trigger_note": "Same CMA-order family as K03 (vets) but different buyers and duty.",
+     "unchecked": "Whether consultants struggle with the submission, vendor options, PHIN's tooling."
+    },
+    {
+     "buyer": "Community pharmacies in England (PQS audit) and Northern Ireland (annual CD declaration and self-assessment).",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals",
+     "evidence": "https://pharmaceutical-journal.com/article/news/nhs-england-announces-pharmacy-first-audit-included-in-pqs-for-2026-2027 ; https://www.health-ni.gov.uk/sites/default/files/2026-02/Letter%20from%20Aaron%20McKendry%20Controlled%20Drug%20Declaration%20and%20Self-Assessment%202026.pdf",
+     "existing": "Pharmacy PMR/clinical systems and NHS tools; voluntary scheme, not mandatory (PQS).",
+     "known_mark": "new",
+     "name": "C11 Pharmacy First audit and Northern Ireland controlled-drugs declaration support",
+     "score": 2,
+     "status": "weak",
+     "trigger": "PQS 2026/27 Pharmacy First consultation audit (min 10 patients, seven pathways); NI annual CD declaration (2026 round due 31 Mar 2026).",
+     "trigger_note": "PQS is optional and funded; low willingness to pay.",
+     "unchecked": "Existing audit templates, NI scale."
+    },
+    {
+     "buyer": "Small retailers, hardware and garden/pool/chemical suppliers selling regulated substances.",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://www.gov.uk/government/publications/supplying-explosives-precursors ; https://www.betterretailing.com/government-restrictions-sale-of-chemicals-used-make-explosives-poisons-precuros-epp-licence-illegal-guidelines/",
+     "existing": "Mostly guidance; EPOS check features unknown.",
+     "known_mark": "new",
+     "name": "C12 Explosives precursors and poisons (EPP) licence checks and sales records for chemical sellers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Control of Explosives Precursors and Poisons Regulations 2023: check EPP licence and photo ID, record business sales, report suspicious transactions; Home Office guidance revised Mar-Apr 2026.",
+     "trigger_note": "Mature since Oct 2023.",
+     "unchecked": "Actual 2026 change content, size of buyer group, report deadlines (24 hours not confirmed)."
+    },
+    {
+     "buyer": "Small recruitment agencies and umbrella companies; GLAA-licensed labour providers (now FWA).",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://www.gla.gov.uk/publications/glaa-briefs/glaa-brief-90-introducing-the-fair-work-agency ; https://www.fcsa.org.uk/fair-work-agency-what-the-april-2026-launch-means/",
+     "existing": "FCSA accreditation; payroll vendors (out of scope as generic).",
+     "known_mark": "new",
+     "name": "C13 Umbrella company regime and FWA labour-provider compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "GLAA moved into Fair Work Agency 7 Apr 2026 (licensing unchanged); agency joint and several PAYE liability from 6 Apr 2026; statutory umbrella regulation expected about April 2027.",
+     "trigger_note": "Close to excluded generic payroll.",
+     "unchecked": "Registration mechanics, small-firm count, 2027 timetable."
+    },
+    {
+     "buyer": "Small installers and builders using competent person schemes; developers hit by the Building Safety Levy (not small).",
+     "category": "27/36. Construction and building safety",
+     "evidence": "https://bpec.org.uk/2026/07/ ; https://constructionmanagement.co.uk/building-safety-levy-regulations-and-guidance-published/",
+     "existing": "Scheme operators, CITB frameworks.",
+     "known_mark": "new",
+     "name": "C14 Competent person scheme / building-safety 2026 compliance for small builders",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "BSR Mandatory Competence Framework and Mandatory Technical Competence requirements published July 2026 (no transition date located); Building Safety Levy from 1 Oct 2026 for 10+ dwellings.",
+     "trigger_note": "Not fetched.",
+     "unchecked": "Compliance date, whether individuals or firms must file anything recurring."
+    },
+    {
+     "buyer": "Small estate and letting agencies registered with HMRC for AML.",
+     "category": "28. Real estate brokers and professionals with AML duties",
+     "evidence": "https://simply-docs.co.uk/Changes-to-the-Anti-Money-Laundering-Legal-Changes ; https://www.bclplaw.com/en-US/events-insights-news/letting-agents-anti-money-laundering-requirements.html",
+     "existing": "Many AML/ID verification vendors (Shufti Pro appeared) and template sellers.",
+     "known_mark": "new",
+     "name": "C15 Letting agent AML threshold and sanctions checks after 2026 MLR amendment",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Money Laundering and Terrorist Financing (Amendment) Regulations 2026 (laid 25 Mar 2026; one source says in force 30 Jun 2026) set letting-agent threshold at GBP 10,000 monthly rent; sanctions checks for all letting agents since May 2025.",
+     "trigger_note": "Crowded AML market.",
+     "unchecked": "Final 2026 text and commencement date."
+    },
+    {
+     "buyer": "Independent petrol station operators; sites without a connected EPOS or with older fuel controllers.",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.gov.uk/guidance/fuel-finder/overview (fetched); https://forecourttrader.co.uk/latest-news/second-supplier-announces-automatic-fuel-finder-reporting-solution/713966.article ; https://www.acs.org.uk/news/registration-now-open-fuel-finder-scheme",
+     "existing": "TSG UK Solutions (Prizma EPOS), Henderson Technology EDGEPoS (free to existing users), EdgePetrol, Gulf with myAutomate FuelSense; manual portal, SMS and IVR routes. Several suppliers already automate it.",
+     "known_mark": "new",
+     "name": "Fuel Finder compliance monitor for independent forecourts",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Motor Fuel Price (Open Data) Regulations 2025: register each site, report price changes within 30 minutes, update amenity/contact changes within 3 days, register new sites within 7 days; CMA enforcement considered; June 2026 answer: about 95% of ~7,900 stations registered.",
+     "trigger_note": "Competitor search run: multiple EPOS and supplier solutions.",
+     "unchecked": "Penalty regime (trade press says up to 30% of turnover, unconfirmed), submission methods on the official site, how many sites remain on manual updating, API reliability."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Fuel Finder (Motor Fuel Price (Open Data) Regulations 2025) live since 2 Feb 2026: every UK forecourt must register, report price changes within 30 minutes and amenity/contact changes within 3 days; ~95% of ~7,900 sites registered by June 2026; CMA enforcement being considered. Already well served by EPOS vendors (TSG Prizma, Henderson EDGEPoS free to its users, EdgePetrol, Gulf/myAutomate FuelSense). Petroleum storage certificates and LPG distributors not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Nothing new. Feed business registration (free) or approval (council fee quoted c. GBP 451) with the local authority under the Animal Feed (Hygiene, Sampling etc.) (England) Regulations 2015 is a one-off, with no 2026 change found. Coffee and cocoa not applicable to the UK in any meaningful way.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Credit unions: PRA quarterly/annual returns via BEEDS since 2017, no 2026 change found. Co-operative and community benefit societies: annual return (AR30) to the FCA within 7 months of year-end via the Mutuals portal; annual and free, so weak (C09).",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "PHIN/CMA Private Healthcare Order: hospitals and consultants must submit data; PHIN reports delivery of the Order by June 2026 and a free PHIN service exists, so weak (C10). CQC is reforming independent-sector regulation (consultation opened Oct 2025). No new insurer/NHS billing duty found for small clinics. Dental NHS claims (FP17) not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "England: PQS 2026/27 adds a Pharmacy First consultation audit (min 10 patients). Northern Ireland: annual Controlled Drug Declaration and Self-assessment (2026 round due 31 Mar 2026). Explosives precursors and poisons (EPP) regime since Oct 2023, Home Office guidance revised Mar-Apr 2026. No electronic CD register mandate in England (the 2026 e-register change found is Republic of Ireland). All weak (C11, C12).",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "GLAA became part of the Fair Work Agency from 7 April 2026; licensing standards unchanged. Agency joint and several liability for unpaid PAYE took effect 6 April 2026. Statutory umbrella-company regime expected from about April 2027 under the Employment Rights Act 2025. SIA Martyn's Law role is covered in C01. Weak umbrella lead (C13).",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "No small-builder deadline found. BSR published the Mandatory Competence Framework and Mandatory Technical Competence requirements for competent person schemes in July 2026 with no transition date located. Building Safety Levy starts 1 Oct 2026 but only for 10+ dwelling schemes (developers). Principal designer/building control registers in force since 2023-24. CIS and CDM not searched. Weak (C14).",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Money Laundering and Terrorist Financing (Amendment) Regulations 2026 (laid 25 Mar 2026; one source says in force 30 Jun 2026) set the letting-agent HMRC AML threshold at GBP 10,000 monthly rent; sanctions checks apply to all letting agents since May 2025. Many AML vendors exist. Weak (C15). Scottish letting agent register and client money protection not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Strongest category. Edinburgh visitor levy live 24 Jul 2026 (5%, first 5 nights, quarterly returns via visitorlevy.scot, first return Oct 2026). Wales: Visitor Accommodation (Register and Levy) Act, mandatory WRA registration (reported opening autumn 2026, deadline reported 31 Mar 2027) and Cardiff levy from 1 Apr 2027. Stirling levy reported from 14 Jun 2027. England STL register slipped to March 2027 target and excludes hotels/B&Bs. See C02, C03, C04.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Safety and security declarations on EU-to-GB imports in force since 31 Jan 2025 with an existing ecosystem of software and CSPs; no 2027 date found. BTOM/IPAFFS is K17. UK forest-risk commodity rules and fish catch certificates not searched; forest-risk duties are expected to bite only large firms (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "31. Terrorism (Protection of Premises) Act 2025, Martyn's Law (SIA notification for 200-799 capacity venues)",
+     "found": "Royal Assent 3 Apr 2025; in force expected spring 2027; SIA final guidance autumn 2026; SIA notification portal volunteer testing early 2027. See C01.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Tobacco and Vapes Act 2026: retail licensing (personal and premises licences)",
+     "found": "Royal Assent 29 Apr 2026; detailed licensing regulations and fees not published; consultation pushed into 2027, so the retail licence is unlikely before 2027. See C05.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Heat networks authorisation (Ofgem, from 27 Jan 2026)",
+     "found": "Existing operators must register with Ofgem by 26 Jan 2027; new networks need authorisation from 27 Jan 2027; HMOs and converted buildings exempt. See C06.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Non-surgical cosmetic procedures licensing (Health and Care Act 2022 powers)",
+     "found": "Not live. June 2026 ministerial reply committed to consulting on draft regulations; personal and premises licences via local authorities; highest-risk procedures to go to CQC registration. See C07.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Renters' Rights Act 2025: PRS database for landlords (England)",
+     "found": "Go-live 15 Dec 2026 starting in the West Midlands, region by region, overall deadline reported 14 Nov 2027, GBP 65 per property per year, landlord (not agent) must register and upload gas, EICR and EPC details. Same core duty as K18. See C08.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Building safety 2026 (Building Safety Levy from 1 Oct 2026; Mandatory Competence Framework)",
+     "found": "Levy limited to 10+ dwellings or 30+ student bedspaces; competence framework date unknown. See C14.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "Fuel Finder scheme petrol filling stations 30 minutes small independents 2026",
+    "Martyn's Law SIA registration standard tier 200 capacity 2027 pubs village halls",
+    "visitor levy accommodation providers registration returns Edinburgh Wales 2027",
+    "Tobacco and Vapes Bill retail licensing register England 2026 Royal Assent",
+    "heat network operators Ofgem authorisation deadline small operators landlords 2026",
+    "England short-term lets registration scheme 2026",
+    "credit union FCA PRA regulatory returns new rules 2026",
+    "PHIN private hospitals clinics data submission CQC independent clinics 2026",
+    "community pharmacy 2026 controlled drugs register electronic NHS BSA Pharmacy First",
+    "GLAA licensing 2026 Fair Work Agency umbrella company regulation April 2026",
+    "estate agents lettings agents HMRC AML new requirements 2026",
+    "Home Office explosives precursors poisons licence 2026 small retailers fireworks",
+    "Fuel Finder price reporting software forecourt EPOS integration API",
+    "Martyn's Law compliance software app venues risk assessment",
+    "visitor levy software accommodation providers channel manager Edinburgh",
+    "heat network registration Ofgem help small landlords consultancy software",
+    "safety and security declarations EU imports GB small importers",
+    "Building Safety Regulator 2026 competence registration small builders deadline",
+    "non-surgical cosmetic procedures licensing England 2026",
+    "PRS database landlord registration launch 2026 Renters' Rights Act",
+    "tobacco and vapes licensing scheme retailers commencement date fee",
+    "community benefit society annual return FCA deadline 2026",
+    "UK feed merchants grain stores flour mills registration FSA 2026",
+    "aesthetic clinic software UK compliance consent records JCCP CQC"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b4"
+ },
+ "gapfill:united-kingdom": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Independent convenience stores, forecourts, off-licences and small supermarkets selling in-scope drinks (England, NI, Scotland; Wales separately), including shops between 100 and 200 m2 that must apply for exemption; also consultants/ACS-type bodies serving them",
+     "category": "35. Environmental/waste duties: Deposit Return Scheme (1 Oct 2027)",
+     "evidence": "https://www.circularonline.co.uk/news/exchange-for-change-expands-retailer-drs-return-point-exemptions/ ; https://britbrief.co.uk/tech/regulation/drs-registration-opens-for-businesses.html ; https://www.acs.org.uk/advice/deposit-return-scheme-guide-retailers (403 on fetch, via snippet) ; https://brodies.com/insights/environmental-social-and-governance/towards-a-uk-deposit-return-scheme-uk-government-reaffirms-its-commitment-to-an-october-2027-launch/",
+     "existing": "Exchange for Change portal (free, state-adjacent DMO); ACS and Co-op Wholesale/Smiths News guides; compact RVM from CMB RVM Solutions. Competitor search found no retailer-side compliance or EPOS software for DRS return points.",
+     "known_id": "K13",
+     "known_mark": "new",
+     "known_note": "Different duty and buyer from pEPR packaging data (K13, producers); DRS fall on retailers and drink producers.",
+     "name": "DRS small-retailer pack: return-point exemption applications, two-phase registration, handling-fee and grant claims",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Deposit Scheme for Drinks Containers (England and Northern Ireland) Regulations 2025; Scotland amending regs (draft); Welsh regs 2026. Phase 1 registration open, Phase 2 Jan 2027, go-live 1 Oct 2027. Retailers must register, pay/collect 20p deposits, host a return point unless exempt, and claim handling fees.",
+     "trigger_unused": "",
+     "unchecked": "Phase 2 data fields and exemption-application format (not yet published); whether Exchange for Change will supply POS integration or reporting; per-nation timing and Scottish regs status; POS vendors (Epos Now, Lightspeed etc.) building DRS modules; real willingness to pay among micro-retailers vs. buying via symbol groups (Nisa, Spar, Costcutter)."
+    },
+    {
+     "buyer": "Small independent children's homes and supported-accommodation providers (about 4,800 homes and 1,220 supported accommodation providers, many 1-3 bed owner-managed)",
+     "category": "36. Registered care/children's providers (Ofsted/CIW/Care Inspectorate notifications)",
+     "evidence": "https://www.gov.uk/government/publications/regulatory-activity-in-all-types-of-childrens-homes/regulatory-activity-in-all-types-of-childrens-homes-and-supported-accommodation-providers-between-1-april-2025-and-31-march-2026 ; https://proceduresonline.com/jandrcare/p_notif_events.html",
+     "existing": "Not searched (budget). Likely care-management systems (e.g. Access, Nourish-type vendors) include incident logs; unchecked.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Same sector family as K02 (care homes DoLS) but different buyer and duty; K12 shows care software competition is dense.",
+     "name": "Children's homes and supported accommodation: Ofsted notification of serious events and Regulation 44/45 style recording",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Reg 40 Children's Homes (England) Regulations 2015; Reg 27 Supported Accommodation regs; notifications without delay via Ofsted online form",
+     "unchecked": "Competitor search (budget exhausted); whether Ofsted online form is already the only channel; Wales (CIW) and Scotland (Care Inspectorate) equivalents; Reg 44 monthly visit reports as a separate recurring workflow."
+    },
+    {
+     "buyer": "About 23,000 MOT stations, mostly small garages (Authorised Examiner Principals, site managers); count not verified here",
+     "category": "31. DVSA MOT testing stations",
+     "evidence": "https://gea.co.uk/mot-equipment-calibration-for-garages/ ; https://gov.uk/guidance/mot-testing-guide/appendix-2-facilities-and-security ; https://pmmonline.co.uk/article/cloud-based-mot-compliance/ ; https://motmanager.co.uk/",
+     "existing": "MOT Juice (calibration scheduling, DVSA reports), MOTsafe by Autotech Training, general garage management systems (MOT Manager, likely Garage Hive etc.). Equipment suppliers (GEA members) bundle calibration contracts.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No known idea on MOT stations.",
+     "name": "MOT test-station equipment and tester compliance tracker (calibration, jacking beams, play detectors, tester status)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "DVSA MOT Testing Guide: calibration records kept 2 years, third-party-only calibration of brake/headlamp testers since 1 April 2023, Class 4 jacking-beam specification from 1 April 2026, play-detector maintenance with signed declaration, tester ban rule from 9 Jan 2026",
+     "unchecked": "MOT Juice pricing and customer count; whether DVSA actually publishes a 2026 consultation on site obligations; station-count and small-garage share; fraud-evidence (photo capture) mandate status unclear."
+    },
+    {
+     "buyer": "Micro-employers with irregular-hours, part-year or zero-hours staff (hospitality, retail, care, cleaning, hair and beauty)",
+     "category": "36. Employment/tax duties on very small employers",
+     "evidence": "https://www.bakermckenzie.com/en/insight/publications/2026/04/united-kingdom-new-record-keeping-obligations-for-annual-leave ; https://www.breathehr.com/en-gb/resources/webinars/fair-work-agency-and-holiday-record-keeping-mini-webinar-and-checklist ; https://www.acas.org.uk/checking-holiday-entitlement/keeping-records",
+     "existing": "Breathe HR, Shiftbase, HotSchedules, payroll packages; ACAS guidance; a spreadsheet satisfies the duty. Generic HR/payroll-adjacent, so near the out-of-scope line.",
+     "known_id": "K18",
+     "known_mark": "new",
+     "known_note": "Same family as the rejected generic MTD/payroll cluster (K18/K19): crowded general HR and payroll tooling.",
+     "name": "Holiday record-keeping and holiday-pay calculator for micro-employers (ERA 2025 duty, Fair Work Agency)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Employment Rights Act 2025 holiday record duty from 6 April 2026 (6-year retention, criminal offence); Fair Work Agency enforcement from 7 April 2026, holiday-pay fining power expected 2027",
+     "unchecked": "2027 FWA holiday-pay enforcement start date; whether payroll vendors (BrightPay, Xero Payroll) already auto-calculate rolled-up holiday pay."
+    },
+    {
+     "buyer": "Small builders, mainstream contractors paying subcontractors (nil months now require a return)",
+     "category": "36. Employment/tax duties on very small employers and self-employed (CIS)",
+     "evidence": "https://zmartly.co.uk/news-insights/nil-cis-return-penalty ; https://www.gov.uk/government/consultations/construction-industry-scheme-proposed-simplification-and-administrative-amendments (via snippet) ; https://crsblaw.foleon.com/construct-law/summer-2026/changes-to-cis",
+     "existing": "Served by general accounting and CIS-specific packages and HMRC free online service; not individually searched.",
+     "known_id": "K18",
+     "known_mark": "new",
+     "known_note": "Adjacent to accounting/MTD ideas rejected as too competitive; small monthly reminder is a generic tool.",
+     "name": "CIS monthly return and nil-return reminder for small contractors",
+     "score": 2,
+     "status": "weak",
+     "trigger": "CIS regulations in force 6 April 2026: nil return due within 14 days of month end unless pre-notified/inactive; GPS revocation changes",
+     "unchecked": "Dedicated CIS software market; HMRC inactivity-flag details (secondary source only)."
+    },
+    {
+     "buyer": "Small societies, charities, sports and social clubs, members clubs and miners' welfare institutes",
+     "category": "33. Gambling and lottery (local authority small society lotteries and club permits)",
+     "evidence": "https://eastdevon.gov.uk/licensing/gambling/guide-to-small-society-lotteries/annual-fees-and-returns ; https://www.gamblingcommission.gov.uk/licensees-and-businesses/guide/page/renewal-of-club-machine-and-gaming-permits ; https://www.medway.gov.uk/info/200179/licensing/260/club_permits/3",
+     "existing": "None found; paper/PDF council forms. No competitor search run (score 2).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Small society lottery and club permit register/return service for community associations and members clubs",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Gambling Act 2005 s.254-ff: LA registration GBP20 a year, return within 3 months of each draw, two signatories; club machine/gaming permit 10-year renewal window, GBP50 annual fee",
+     "unchecked": "Number of registered societies; whether lottery-management SaaS (e.g. for charities) exists; low willingness to pay for GBP20 permits."
+    },
+    {
+     "buyer": "Small hauliers and van operators over 2.5 tonnes (international O-licence from 21 May 2022)",
+     "category": "31. O-licence holders (Traffic Commissioner)",
+     "evidence": "https://comparesoft.com/fleet-management-software/dvsa/ ; https://www.fleetnews.co.uk/news/van-news/2022/05/30/trutrac-launch-new-compliance-tool-for-van-and-lcv-operators ; https://www.civica.com/globalassets/7.document-downloads/2.uk-docs/product-information/transport/tranman-dvsa_compliance_module_aug2020.pdf",
+     "existing": "Descartes SmartCompliance, Civica Tranman DVSA module, Convey Technology, TruTac TruVan, Checkedsafe, Truckfile; many with earned-recognition validation.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Rejected: mature vertical vendors (Descartes, Tranman, Convey, TruTac) already cover O-licence compliance and DVSA earned recognition.",
+     "name": "O-licence compliance pack for small hauliers",
+     "score": 2,
+     "status": "rejected",
+     "trigger": "Goods Vehicle (Licensing of Operators) Act 1995 undertakings; periodic maintenance inspections, tachograph/drivers-hours data, DVSA earned recognition data uploads",
+     "unchecked": "Whether a niche remains for sub-5-vehicle operators; Traffic Commissioner/DfT reform consultation (hoped for 2026) not seen."
+    },
+    {
+     "buyer": "Firms with fewer than 10 FTE, England only, compliance date 31 March 2027",
+     "category": "35. Environmental/waste duties: Simpler Recycling",
+     "evidence": "https://everflowutilities.com/insights/simpler-recycling-four-things-micro-businesses-need-to-know ; https://businesswaste.chichester.gov.uk/article/41134/Simpler-Recycling-for-Micro-Businesses ; https://businessofrecycling.wrap.ngo/sharing-business-bins/facilities-management/simpler-recycling-for-facilities-management",
+     "existing": "Waste collectors (Biffa, Grundon), councils and WRAP guidance; no register or return is required, so little software role beyond tenant/shared-bin coordination.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "known_note": "Waste-duty family, but buyer is any micro-firm (service-supply issue), not waste carriers.",
+     "name": "Simpler Recycling micro-business onboarding (four-stream bin set-up, film from 2027)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Environmental Protection Act 1990 s.45A/B changes via Simpler Recycling regs; Environment Agency civil sanctions from 31 March 2027 (press-release claim, unverified)",
+     "unchecked": "Whether any proof-of-compliance or reporting duty applies to micro-firms; whether landlord/shared-bin coordination is an unserved niche."
+    },
+    {
+     "buyer": "Pubs, bars, restaurants and community venues with premises licences (England and Wales)",
+     "category": "32. Alcohol and entertainment licensing",
+     "evidence": "https://www.gov.uk/government/publications/licensing-taskforce-report-and-government-response ; https://api.parliament.uk/procedure-browser/business-items/9pS2tIPn ; https://westminsterbrief.co.uk/archive/debate/8-september-2026/licensing-act-2003-mandatory-licensing-conditions-amendment-9b59/word (binary, unread)",
+     "existing": "Law firms and trade bodies (Poppleston Allen, British Beer & Pub Association); no recurring register or return identified.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Licensing reform conditions-review service for pubs (licence amnesty and mandatory conditions)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Taskforce response 31 Jul 2025 (licence conditions amnesty, TEN limits, pavement licences under consultation); Mandatory Licensing Conditions (Amendment) Order 2026",
+     "unchecked": "Order text and date in force; whether the amnesty is legislated; no recurring workflow confirmed, so likely not software-shaped."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31. MOT testing stations (DVSA) and O-licence / tachograph holders (small hauliers, Traffic Commissioner)",
+     "found": "MOT stations (England/Scotland/Wales; NI is DVA): new jacking-equipment spec for Class 4 from 1 April 2026, safe-working-load checks on new sites/ownership change, calibration records kept 2 years, brake/headlamp testers calibrated only by manufacturer or specialist since April 2023, play-detector maintenance (6/12 months, signed declaration), 9 Jan 2026 bar on all MOT roles for 2/5-year cessations. Compliance tools already exist: MOT Juice (calibration scheduling, DVSA reports), MOTsafe (Autotech), garage systems. O-licence: no 2026 rule change found (Traffic Commissioner 2026-29 objectives, DfT reform consultation only hoped for); mature fleet-compliance software (Descartes, Tranman/Civica, Convey, TruTac) incl. DVSA earned-recognition validated tools.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Alcohol and entertainment licensing: pubs, clubs, community venues (Licensing Act 2003 England/Wales; Licensing (Scotland) Act 2005)",
+     "found": "England/Wales: licensing taskforce response (31 Jul 2025) accepted most recommendations subject to consultation; non-statutory National Licensing Policy Framework (Nov 2025, on-trade only, councils not bound); revised s.182 guidance Feb 2026; Licensing Act 2003 (Mandatory Licensing Conditions) (Amendment) Order 2026 debated in Lords 8 Sep 2026 (text not read; fetch returned binary docx). No new recurring filing duty found. Scotland: no 2026 reform found (DPM terminology; occasional licences max 14 days; 2019 fee consultation outcome unchecked). Reform is mostly policy/decision-side, not a recurring register.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Gambling and lottery: small society lotteries, club gaming/machine permits (Gambling Act 2005)",
+     "found": "Small society lotteries register with the local authority (GBP20/year), return due within 3 months of each draw, signed by two members; no 2026 change found; not captured by the Gambling Commission statutory levy (applies to operating-licence holders, GBP10 de minimis; invoiced each 1 Sept) - inference, not confirmed. Club gaming/machine permits last 10 years (renew in window 3 months to 6 weeks before expiry; GBP200 renewal, GBP50 annual fee, 3 machines B4/C/D); stake limits unchanged since 2014 in council schedules. Low per-customer pain and fragmented across ~300 councils; no software competitor searched.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Food hygiene and allergen duties for small food businesses (FSA/FSS registration, Natasha's Law, FHRS display)",
+     "found": "Mandatory FHRS display is NOT legislated for England: FSA paused work in 2022, pushed again Oct 2024, no bill or date found; display already mandatory in Wales (2013) and NI (2016) with offence for wrong display. FSA registration reform: only the older 'Regulating Our Future' digital registration idea, no 2026 UK change found (results about FSSAI India/Bangladesh ignored). Natasha's Law not searched. Nothing new beyond existing free council/FSA systems.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Environmental/waste duties for small operators: Deposit Return Scheme (1 Oct 2027), Simpler Recycling (micro-firms 31 Mar 2027), Duty of Care",
+     "found": "Correction to the gap text: Simpler Recycling for businesses under 10 FTE applies from 31 March 2027, not 2026 (10+ FTE since 31 March 2025); four streams (residual, food, paper/card, other dry recyclables), plus plastic film from 31 March 2027; supplied by waste collectors/councils, little software angle. DRS: England, Northern Ireland and Scotland (draft amending regs, status unconfirmed) start 1 Oct 2027 (PET, aluminium, steel; Scotland draft says glass out); Wales separate regs 2026 (Senedd vote 25 Mar 2026) with glass and 2031 glass deposit. Run by Exchange for Change (DMO). Registration Phase 1 open, Phase 2 opens Jan 2027. Retailers must host return points unless urban <100 m2 (auto-exempt) or apply for exemption (urban 100-199 m2, rural <200 m2, plus proximity/heritage/access/utilities grounds); retailers get handling fee (3p manual, 5p automatic) and GBP6,000 per-site grant; exemptions still need registration. Deadline-driven wave for convenience stores, pubs/takeaways selling drinks, forecourts.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Employment/tax duties on very small employers and self-employed (ERA 2025 holiday records, FWA, CIS nil returns, MTD ITSA) and registered care/children's providers (Ofsted notifications)",
+     "found": "Holiday record-keeping duty live since 6 April 2026 (all GB employers, 6-year retention, criminal offence; no format prescribed, a spreadsheet suffices); Fair Work Agency live since 7 April 2026, holiday-pay enforcement power expected 2027 (date unconfirmed). Vendors already give checklists/tools (Breathe HR, Shiftbase). CIS: monthly nil returns required again for mainstream contractors from 6 April 2026 (14 days after month end; pre-notify or inactivity option), GPS fraud-revocation rules; served by general accounting software. MTD ITSA not re-searched (known K18/K19 rejected). Ofsted: children's home notifications under Reg 40 Children's Homes (England) Regulations 2015 and Reg 27 supported-accommodation regs; 4,800 children's homes and 1,220 supported accommodation providers at March 2026 (Ofsted data); no 2026 rule change found; Scotland (Care Inspectorate) and Wales (CIW) not checked; school transport/childminder angle not reached.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "DVSA MOT testing station requirements 2026 changes small garages",
+    "Licensing Act 2003 reform 2026 premises licence pubs small operators changes licensing taskforce government response",
+    "small society lottery annual return Gambling Commission 2026 changes statutory levy small operators",
+    "mandatory food hygiene rating display England legislation 2026 small food businesses",
+    "Deposit Return Scheme October 2027 retailers small shops obligations return point registration",
+    "Employment Rights Act 2025 record keeping holiday pay small employers Fair Work Agency compliance 2027",
+    "operator licence Traffic Commissioner small haulier compliance 2026 changes",
+    "Simpler Recycling micro-firms 31 March 2026 compliance four waste streams small businesses",
+    "CIS monthly return small contractors 2026 changes gross payment status HMRC",
+    "Ofsted notification of significant events registered providers 2026 children's homes supported accommodation",
+    "FSA food business registration reform 2026 new rules registration changes",
+    "club gaming machine permit renewal Gambling Act members club 2026 stake limits",
+    "Exchange for Change DRS retailer registration phase 2 January 2027 return point exemption small retailers software",
+    "personal licence holder DPS licensing Scotland occasional licence changes 2026",
+    "MOT garage software DVSA equipment calibration records testing station compliance app",
+    "Scotland deposit return scheme 2027 regulations aligned UK scheme Wales DRS regulations 2026 glass",
+    "Fair Work Agency holiday pay record keeping software small employers tool template",
+    "operator licence compliance software small fleet O licence tachograph earned recognition (competitor check)"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b4"
+ },
+ "opus:united-kingdom:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated per-venue procedure and SIA-notification tool for volunteer bodies found. Alternatives: free ProtectUK guidance, flowcharts and ACT e-learning; Home Office statutory guidance (15 April 2026); SIA templates (for enhanced tier only). Free sector guides: Ecclesiastical and Methodist Insurance 'Martyn's Law made simple', EAUK church fact sheet, OSCAR, diocese and ACRE guidance. Software not built for tiny venues: teamSOS (alerts, training logs), Momentus (event risk). Hallmaster (village hall booking software) publishes Martyn's Law content but has no compliance features. The government says compliance shouldn't need paid specialist services.",
+   "duty": "Terrorism (Protection of Premises) Act 2025 (UK-wide). Standard tier (200-799 capacity; places of worship, childcare and education sites stay standard tier at any size): notify the SIA of the responsible person through an online portal the SIA is building, with volunteer testing from early 2027. Procedures for evacuation, invacuation, lockdown and communication must be in place so far as reasonably practicable. No physical works are required. The specific terrorism training requirement was dropped after consultation. Commencement is expected spring/April 2027, with the exact date to be confirmed by the SIA; final SIA guidance is due autumn 2026. Penalties for standard tier per secondary commentary (not confirmed on GOV.UK): up to GBP 10,000 fixed penalty plus GBP 500 per day. The duties carry on (inspections usually with 72 hours' notice), but notification looks one-off, and I found no mandated review or training frequency.",
+   "market": "I found no official count of standard-tier premises; I did not reach the impact assessment. Pool Re estimates over 250,000 premises affected across all tiers. Places of worship come in at any capacity, but those normally under 200 people are generally out of scope. I did not verify how many village halls reach 200 capacity.",
+   "reason": "The duty is real: the Terrorism (Protection of Premises) Act 2025 is UK law, and GOV.UK expects it to come into force in spring 2027. Responsible persons for premises holding 200 to 799 people must notify the SIA through a portal and put reasonably practicable procedures in place for evacuation, invacuation, lockdown and communication. Places of worship stay standard tier whatever their size. I found no dedicated tool for small venues: Hallmaster has none and teamSOS and Momentus aim elsewhere. But the free ProtectUK and Home Office guidance, insurer guides (Ecclesiastical, Methodist) and diocese and ACRE material cover most needs. The government dropped the standard template and the training requirement and says no paid services are needed. Notification looks one-off, so repeat demand is weak. Volunteer buyers will pay little.",
+   "searches": 6,
+   "sources": "https://www.gov.uk/guidance/understanding-martyns-law-and-the-sias-role-as-regulator ; https://www.burges-salmon.com/articles/102mqoj/martyns-law-counting-down-to-live-implementation ; https://www.hallmaster.co.uk/what-community-venues-need-to-know-about-martyns-law/ ; https://www.poolre.co.uk/martyns-law-hub/ ; https://www.ecclesiastical.com/media/5bleijez/martyns-law-made-simple.pdf ; https://www.eauk.org/what-we-do/advocacy/martyns-law-fact-sheet-for-churches ; https://protectuk.police.uk/standard-tier ; https://teamsos.co.uk/are-you-ready-for-martyns-law/ ; https://www.howdengroup.com/sites/huk.howdenprod.com/files/2025-07/Understanding%20Martyn%E2%80%99s%20Law%20-%20HUBL-CC-RM-173-0625-a.pdf",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b4"
+ },
+ "opus:united-kingdom:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "None found for council licence application preparation or condition compliance. Clinic software such as Consentz, Pabau, Zenoti and Aesthetics Comply covers consent records, CQC compliance and general content, not the Scottish council licence. Councils' own forms and guidance and the Scottish Government's statutory guidance will be free. Law firms (Gilson Gray, MFMac) only offer commentary. I did not search individual council licensing pages or REHIS training.",
+   "duty": "SSI 2026/87 (in force 13 Feb 2026) makes these procedures licensable under the Civic Government (Scotland) Act 1982 from 6 Sept 2027. They are chemical peels, cryolipolysis, cryotherapy, electrolysis, HIFU, microneedling, laser/light and RF. The council must inspect the premises before deciding. Before a licence is granted or renewed, the premises must have the listed facilities: a hands-free basin, sharps bin, autoclave or disposable instruments, and notices. Once licensed, the holder must meet ongoing conditions: single-use sterile needles, glove changes, sterilisation, waste arrangements, written aftercare information for clients, and no clients under 18. The licence names the practitioner, the premises and the business name. Applying before 6 Sept 2027 protects against prosecution while the application is pending (art. 6). Councils get 12 months to decide. Trading without a licence is an offence under s.7; the Order sets no penalty amounts. The Order sets no licence term, so it was not verified, and no fees were found. The separate Non-surgical Procedures and Functions of Medical Reviewers (Scotland) Act 2026 (asp 2026/13) restricts higher-risk procedures to HIS-regulated premises.",
+   "market": "ONS Q1 2025 (cited in Business Gateway's May 2026 report): 3,940 hairdressing and beauty salons in Scotland, VAT/PAYE-registered only. Only a subset offer the licensable procedures, and unregistered sole traders and mobile or home practitioners are not counted. The Scottish Government's impact assessment (BRIA) says it has no hard data on sector size. Its business survey reached 665 recipients (591 responses), and 367 consultation respondents said they work in unregulated settings. A rough guess is 1,000–3,000 premises or practitioners affected; this is not verified.",
+   "reason": "The duty is real. SSI 2026/87 has been in force since 13 Feb 2026. From 6 Sept 2027, providing listed procedures without a council licence is an offence under s.7 of the 1982 Act, unless an application was made before that date. A premises inspection is required before a decision. Conditions cover facilities, single-use needles, sterilisation, waste, aftercare information and no clients under 18. I found no Scotland-specific application or compliance tool or consultancy. Consentz, Pabau and Aesthetics Comply are aimed at CQC or consent records. The score is still low. Most demand is a one-off before Sept 2027. The application is a council form plus a physical facilities check. Renewals are infrequent (the licence term was not confirmed). Only a subset of about 3,940 salons offer these procedures, and buyers are price-sensitive.",
+   "searches": 6,
+   "sources": "https://www.legislation.gov.uk/ssi/2026/87/made/data.html ; https://www.mfmac.com/insights/healthcare-lifesciences/scotlands-beauty-sector-set-for-a-2027-makeover/ ; https://www.eastdunbarton.gov.uk/about/councillors/technical-notes/2026/technical-notes-2026-issue-5-call-for-views-on-the-civic-government-scotland-act-1982-licensing-of-non-surgical-procedures-order-2026 ; https://www.gov.scot/publications/business-regulatory-impact-assessment-licensing-further-regulation-non-surgical-procedures/pages/4/ ; https://www.legislation.gov.uk/asp/2026/13/section/17/data.html ; https://www.bgateway.com/media/fixbq125/market-report-hair-beauty-therapy-may-2026.pdf ; https://www.consentz.com/directory/business/uk/edinburgh/aesthetic-practitioner-software/ ; https://aestheticsjournal.com/news/aesthetics-comply-offers-management-software-for-cqc-registration/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b4"
+ },
+ "opus:united-kingdom:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Filing and payment go through the free state platform visitorlevy.scot, built by the Improvement Service. Booking and PMS tools found: Hop Software (calculates in night audit, Visitor Levy finance report), Bookster (levy uplift, return reporting 'to be reviewed' before October 2026), freetobook (shows the levy to guests only, no reports or filing), freeonlinebooking and Roommaster (guidance pages). No tool found that prepares the return or submits it to visitorlevy.scot. Airbnb tells Edinburgh hosts they must collect and remit the levy themselves. No bulk upload, agent access or API on the platform was confirmed. Eviivo, Guesty, Lodgify and Little Hotelier: not reached.",
+   "duty": "Real and in force. Visitor Levy (Scotland) Act 2024, s.26: a return within 30 days of each period end, quarterly by default, with one assessment per premises. Penalties are in ss.47-50 and set by each council; further penalties can apply at 3, 6 and 12 months. Edinburgh's penalty framework (marked partly 'recommended, not implemented') gives a first penalty of 1% of rateable value (indicative £81 to £9,870) for non-residential premises and 10% of annual council tax for residential ones. The claimed 'GBP 100 plus 5%' penalty was not confirmed. Edinburgh: 5% of the accommodation charge for the first 5 nights, stays from 24 Jul 2026, bookings paid on or after 1 Oct 2025, 2% reimbursed to providers, records may be inspected. Glasgow: 5% from 25 Jan 2027. Aberdeen has approved 7% (start date not found). Stirling's earliest start is June 2027 and its final decision was not confirmed. Highland has paused its scheme.",
+   "market": "Edinburgh had 3,209 short-term let licences in operation at 31 Dec 2025, and 32,317 across Scotland (Scottish Government statistics). Add Edinburgh B&Bs, guest houses and hotels; no count found. No published figure for providers registered on visitorlevy.scot was found. Glasgow joins in Jan 2027 and Aberdeen later, so roughly 4,000 to 6,000 liable small providers is plausible in the near term (an estimate).",
+   "reason": "The duty is real. Under the Visitor Levy (Scotland) Act 2024, providers must make a return within 30 days of the end of each period, quarterly by default. Edinburgh's scheme is live: 5% for up to 5 nights, first return due October 2026, filed and paid on the free visitorlevy.scot platform. Glasgow starts 25 Jan 2027. Several booking systems (Hop, Bookster, freetobook, Roommaster) calculate the levy or offer reports, but none was found that files returns, and Bookster says its reporting is still under review. The gap is narrow: turning booking data into a per-property return. The buyers are small hosts with thin margins who get a 2% retention, so willingness to pay is limited. Bulk upload or API on the platform is unverified.",
+   "searches": 6,
+   "sources": "https://www.legislation.gov.uk/asp/2024/8/section/47/notes/data.htm?view=plain ; https://www.legislation.gov.uk/asp/2024/8/part/4/chapter/2 ; https://www.edinburgh.gov.uk/downloads/file/40690/visitor-levy-penalty-framework-v1 ; https://www.edinburgh.gov.uk/business/information-businesses ; https://edinburgh.gov.uk/downloads/file/36267/visitor-levy-for-edinburgh-the-final-scheme-2025- ; https://www.airbnb.com/help/article/4105 ; https://www.glasgow.gov.uk/article/14799/Glasgow-s-Visitor-Levy ; https://www.stirling.gov.uk/visitorlevy ; https://www.scottishfinancialnews.com/articles/highland-council-pauses-visitor-levy-plans-as-stirling-presses-ahead ; https://help.hopsoftware.com/support/solutions/articles/43000782980-edinburgh-visitor-levy ; https://www.booksterhq.com/news/159016-visitor-levy ; https://en.freetobook.com/blog/scottish-visitor-levy-tax/ ; https://www.gov.scot/publications/short-term-lets-licensing-statistics-scotland-to-31-december-2025/pages/licences-in-operation-local-areas/",
+   "suggested_score": 5,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b4"
+ },
+ "opus:united-kingdom:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Free WRA registration (GOV.UK One Login, under 15 minutes). Free WRA online service for filing and paying levy returns. The WRA is working with booking platforms and booking-system providers so their systems can account for the levy, and gov.wales says Airbnb or Booking.com may add levy fees to bookings. I found no named PMS vendor that has announced Wales levy support (not verified). No standalone Wales levy tool found.",
+   "duty": "Visitor Accommodation (Register and Levy) Etc. (Wales) Act 2025 (asc 2025/5), in force. Registration: register opened 1 Oct 2026 in public beta and providers must register by 31 Mar 2027. Penalty is GBP 100 x each unregistered premises from 1 Apr 2027, with 30 days to register after a penalty notice. Levy (Cardiff only so far): providers must account for it on bookings made from 28 Sep 2026 for stays from 1 Apr 2027. GBP 1.30 per person per night, or 75p for camping and shared rooms. VAT applies if the provider is VAT-registered. The levy is self-assessed. Returns are quarterly, due 60 days after the quarter ends, or annual by 31 May if the levy is no more than GBP 1,000. A return is required even with no stays. Records must show the stay date, number of visitors and number of nights. Under-18 treatment: not checked.",
+   "market": "No official count of providers found (not reached). The register applies to every paid overnight provider in Wales, including casual hosts. The levy applies only in Cardiff from Apr 2027, where it is estimated to raise about GBP 3.5m a year. Other councils need 12 months' notice and can start only on 1 Apr or 1 Oct.",
+   "reason": "The duties are real. Registration with the WRA has been in public beta since about 1 Oct 2026 and must be done by 31 Mar 2027; the penalty is GBP 100 per unregistered premises from 1 Apr 2027. Cardiff providers have had to account for the levy since 28 Sep 2026, for stays from 1 Apr 2027. Returns are quarterly, or annual if the levy is no more than GBP 1,000. But the core jobs are already covered. Registration is free, takes under 15 minutes and is done once. The WRA runs its own free online service for filing and paying returns. The WRA is talking to booking platforms and booking-system vendors, and gov.wales says Airbnb or Booking.com may add the levy to bookings. The sum is simple: guests x nights x rate. Only Cardiff has a levy so far, so the market is small. No provider count was found.",
+   "searches": 6,
+   "sources": "https://www.gov.wales/get-ready-register-your-visitor-accommodation-wales ; https://www.gov.wales/node/78898 ; https://www.legislation.gov.uk/asc/2025/5/notes/division/3/2/4 ; https://www.gov.wales/node/75962 ; https://www.gov.wales/node/75928 ; https://www.gov.wales/visitor-levy-checklist-accommodation-providers-cardiff ; https://businesswales.gov.wales/news-and-blog/get-ready-visitor-levy-cardiff ; https://welshrevenueauthority.blog.gov.wales/2026/07/20/introducing-the-visitor-levy-team/ ; https://www.cardiffnewsroom.co.uk/releases/c25/37008.html ; https://servicedapartmentnews.com/news/industry/wales-visitor-accommodation-register/",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b4"
+ },
+ "opus:united-kingdom:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Ofgem's free 'Comply with heat networks consumer protection regulations' digital service does the filing and the future reporting. It is in private beta and described as fully functional. I found no dedicated third-party registration or compliance software. What does exist is briefings and advisory work from law firms (Ashfords, Bevan Brittan, Womble Bond Dickinson, SHMA), landlord agents (Benhams) and housing bodies (CIH, SFHA). Heat metering and billing firms such as Switch2 publish guidance on regulatory obligations, but I didn't confirm whether they offer Ofgem compliance as a service. Heat Trust and the Heat Network Technical Assurance Scheme (due 2027) are adjacent.",
+   "duty": "Heat network operators and suppliers in Great Britain (Ofgem authorisation regime, in force since 27 Jan 2026). Existing networks have deemed authorisation but must register each network on Ofgem's free digital service by 26 Jan 2027. Ofgem's own pages say 26 Jan; its January 2026 guidance v1.0 describes the period as running to 27 Jan 2027. Information required covers the organisation, ownership, financial resilience and consumer protection arrangements. Each operator must name a regulatory contact. Authorisation conditions and consumer standards apply now. From 27 Jan 2027, new networks must apply for authorisation before they start, then register within 3 months (interim arrangements under consultation until 2 Nov 2026). Ofgem's March 2026 data reporting guidance sets quarterly and annual submissions through the portal. Ofgem can enforce and fine; a penalty policy was published in Feb 2026. I could not extract the text of the registration guidance PDF.",
+   "market": "DESNZ estimates more than 14,000 UK heat networks (a Coventry council report cites about 12,000 communal and 2,000 district) serving more than 500,000 customers. An earlier official count was 13,995. A CMA database covered about 11,000 residential networks run by about 1,600 heat suppliers. The regime covers Great Britain only, so the GB count is somewhat lower. I found no figure for how many operators are small firms; a large share are councils and housing associations.",
+   "reason": "The duty is real and in force. Ofgem has regulated heat networks in Great Britain since 27 Jan 2026. Every existing network has to be registered on Ofgem's digital service by 26 Jan 2027, network by network. Authorisation conditions already apply, and Ofgem can take enforcement action and impose penalties. Ofgem guidance from March 2026 adds quarterly and annual data reporting, so the duty recurs. Ofgem's free portal handles the filing itself. I found no third-party software for preparing registrations, documenting consumer standards or doing the regular reporting, but I didn't check whether billing and metering firms sell this as a bolt-on. The market is about 14,000 networks, roughly 12,000 of them communal, and the CMA counted about 1,600 suppliers. Many are housing associations or councils, and small residential management companies are hard to reach. Most of the pain falls once, before the deadline.",
+   "searches": 6,
+   "sources": "https://www.ofgem.gov.uk/low-carbon/heat-networks/register-or-sign ; https://www.ofgem.gov.uk/energy-regulation/low-carbon/heat-networks/comply-with-heat-networks-consumer-protection-regulations ; https://www.ofgem.gov.uk/consultation/heat-network-regulation-authorisation-application-arrangements ; https://www.ofgem.gov.uk/blog/service-shaped-users-our-heat-networks-digital-service-open-registration ; https://www.womblebonddickinson.com/uk/insights/articles-and-briefings/are-you-authorised-operate-heat-networks ; https://www.bevanbrittan.com/insights/articles/2026/heat-networks-regulation-what-do-social-landlords-need-to-know/ ; https://www.ashfords.co.uk/insights/articles/ofgem-s-2026-heat-network-regulatory-framework-key-requirements-consumer-protections-and-compliance-steps ; https://edemocracy.coventry.gov.uk/documents/s62906/Heatline%20District%20Heating%20Update.pdf ; https://www.benhams.com/news/landlords/why-landlords-must-register-heat-networks-uk/",
+   "suggested_score": 5,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b4"
+ },
+ "opus:united-kingdom:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free EfC registration portal does registration and is the channel for exemptions. ACS runs a free DRS guide and resources hub, and Co-op Wholesale, Booker and symbol groups give free support (Booker says it works with EPoS providers). TrueCommerce markets DRS-related EDI changes, and Sensoneo sells DRS back-end software for scheme operators, not retailers. I found no independent retailer-side DRS compliance or claims tool, but claim mechanics and Phase 2 fields are not yet published.",
+   "duty": "Real and in force. Under the Deposit Scheme for Drinks Containers (England and Northern Ireland) Regulations 2025 (SI 2025/67, in force 24 Jan 2025), the deposit applies from 1 Oct 2027. Retailers may sell only registered and labelled products and must charge the 20p deposit. Grocery and convenience retailers must run a return point unless exempt, and all supermarkets and convenience stores selling in-scope drinks must register with EfC. Urban shops under 100 m2 are exempt automatically. Urban shops of 100-199 m2, rural shops under 200 m2, and shops with proximity, listed-building, access or utilities problems must apply (widened in June 2026). EfC registration Phase 1 is open with no formal deadline; Phase 2 is expected in Jan 2027. Return-handling fees were set in June 2026 and will be reviewed annually. Sources disagree on Wales: one says Wales withdrew, another says it plans its own scheme including glass from Oct 2027. I did not find the penalty provisions.",
+   "market": "About 50,925 UK convenience stores (ACS Local Shop Report 2026, via shopappy; the 2025 figure was 50,486). About 71% are independents, half of those under symbol fascias (Nisa, Spar). The subset that must apply for exemption (100-200 m2) is not quantified. ACS research found 48% of retailers have no awareness of DRS.",
+   "reason": "The duty is real. SI 2025/67 is in force and the deposit starts 1 Oct 2027. Grocery and convenience retailers must register with Exchange for Change (EfC), charge the 20p deposit and run a return point unless exempt. Urban shops of 100-199 m2 and rural shops under 200 m2 must apply for exemption. Handling fees are set (3p manual; 5p/1.3p for machines). The free EfC portal does the core job: registration and, so far, the exemption route. Phase 2 data fields, the exemption form and how fees are claimed or settled are unpublished, so I can't confirm a recurring software gap. Most of the pack is a one-off form. Free help comes from ACS, wholesalers and symbol groups, and till changes will likely come from EPOS vendors. I found no penalty provisions.",
+   "searches": 6,
+   "sources": "https://www.circularonline.co.uk/news/exchange-for-change-expands-retailer-drs-return-point-exemptions/ ; https://clarity.eco/news/drs-registration-opens-for-producers-and-retailers/ ; https://www.legislation.gov.uk/uksi/2025/67/note/made ; https://www.shoosmiths.com/insights/articles/the-deposit-return-scheme-for-drinks-containers-what-do-i-need-to-know ; https://www.retailgazette.co.uk/blog/2026/06/drs-return-handling-fees-2027/ ; https://www.acs.org.uk/advice/drs-resources-centre ; https://www.betterretailing.com/booker-ramping-up-drs-support-ahead-of-august-2023-implementation/ ; https://shopappy.com/local-retail/main-street-high-street/acs-local-shop-report-2026-rates-double ; https://www.letsrecycle.com/news/acs-48-of-retailers-unaware-of-drs-ahead-of-2027-launch/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b4"
+ },
+ "sonnet:united-kingdom:A15": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Section 180 Health and Care Act 2022 is an enabling power only. Clyde & Co (2026) says DHSC consulted in 2023 and responded in Aug 2025 with green/amber/red proposals, run by local authorities. It says no regulations are made and the timetable is unknown. I found no in-force duty, so frequency and penalty can't be confirmed. Scotland passed its Act in March 2026, so England may follow, but there's no date. Competition: aesthetic clinic software (Consentz, Pabau) already covers records and consent, but nothing does licence filing, as there is no licence yet. Market: no practitioner count found; only 7.7m people treated in 2023. This is a watch item, not a buildable product now. Searches: 1 WebSearch, 1 WebFetch. I didn't check gov.uk for the Aug 2025 response.",
+   "searches": 1,
+   "sources": "https://www.clydeco.com/es/insights/2026/05/non-surgical-cosmetic-procedures; https://www.jccp.org.uk/ckfinder/userfiles/files/Licensing%20Scheme%20for%20England%20(infographic).pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b4"
+ },
+ "sonnet:united-kingdom:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The enabling power in s94-95 of the 2016 Act exists. Section 94 has been in force only \"for specified purposes\" since 2 June 2023 (SSI 2023/145). I found no made licensing regulations or commencement date for the licence requirement, so there is no live recurring duty yet. The licence is also mainly a one-off application, followed by inspection, so there is limited recurring workflow. I found no competitor tooling or state portal, but the searches were thin and the scheme is not yet operating. The market is small, with only a few hundred Scottish funeral directors by my recollection; I did not verify the figure. Inspector recruitment in Dec 2025 was not confirmed. Re-check once the SSI is laid. Score stays low because commencement is uncertain and the buyers are few.",
+   "searches": 4,
+   "sources": "https://www.legislation.gov.uk/asp/2016/20/section/94; https://gov.scot/publications/funeral-director-licensing-scheme-scotland/pages/3; https://gov.scot/publications/scottish-governments-funeral-director-licensing-scheme-scotland-consultation-analysis-report/pages/5",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b4"
+ },
+ "sonnet:united-kingdom:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "SafeRec (umbrella due diligence, payslip audit, KIDs); FCSA accreditation; Professional Passport",
+   "duty": "Agency joint and several PAYE liability from 6 Apr 2026; umbrella regulation by Fair Work Agency expected 2027 (ERA 2025)",
+   "market": "About 1,100 GLAA-licensed providers (2023); about 31,140 UK recruitment enterprises (2019, REC); REC has about 3,300 members",
+   "reason": "The duty is real. From 6 April 2026, agencies carry joint and several PAYE liability for umbrella supply chains. Umbrella regulation under the Employment Rights Act 2025 is expected in 2027, but sources disagree on the date and the secondary legislation is still pending. The core job, umbrella due diligence, payslip audit against RTI and KIDs, is already done by SafeRec. SafeRec is discounted for REC members and has a free lifetime tier for APSCo members. FCSA accreditation and REC Checklist 7A add free or cheap alternatives. Market: GLAA had about 1,100 licensed providers in 2023, and the UK had about 31,000 recruitment enterprises in 2019 (old figures). Small agencies are reachable, but competition and free bundles limit a solo founder. Several items were not checked, including the final standards and the current counts.",
+   "searches": 3,
+   "sources": "https://taxscape.deloitte.com/article/umbrella-company-legislative-change---a-new-era-of-joint-and-several-liability.aspx; https://uk.apsco.org/resources/saferec-improving-efficiency-and-reducing-risk-193389243636; https://www.rec.uk.com/recruiters/business-support/find-an-industry-supplier/saferec; https://uk.apsco.org/courses/free-for-life-umbrella-due-diligence-platform-81076887784; https://www.gla.gov.uk/whats-new/glaa-partnership-bulletins/september-2023; https://www.fcsa.org.uk/umbrella-regulation-2027-what-agencies-must-do-now/",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b4"
+ },
+ "sonnet:united-kingdom:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: DAERA says professional users must keep PPP records (Reg 1107/2009 Art 67; enforced via PPP Regulations NI 2011, no penalty stated). Paper is accepted until 31 Dec 2026. Machine-readable electronic records are mandatory from 1 Jan 2027, with paper-created records converted by 31 Jan of the following year. However, DAERA already provides a free Excel spray-record template that meets Reg 2023/564, and farm management apps (e.g. Agroptima) exist. No submission portal found, so records are kept on request rather than filed. Market is small (NI farms and contractors, count not checked) and farmers are price-sensitive. The free template lowers willingness to pay. The candidate is a thin niche.",
+   "searches": 1,
+   "sources": "https://www.daera-ni.gov.uk/news/grace-period-transition-mandatory-digital-record-keeping-plant-protection-products ; https://www.daera-ni.gov.uk/publications/plant-protection-product-spray-record-template-and-guidance ; https://blog.agroptima.com/?p=26596",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b4"
+ },
+ "sonnet:united-kingdom:A8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real under the Veterinary Medicines Regulations 2013. GOV.UK criteria require records of receipt and supply of prescription medicines (date, product, batch, quantity, supplier or recipient, expiry, prescription details). Records are kept 5 years at the premises, may be electronic, and the retailer must do an annual stock audit. Penalties are weak. GOV.UK names only disciplinary action by the registration body, and I saw one improvement-notice case from Ireland, not the UK. I found no dedicated SQP software or free state tool, but my one competitor search was thin. Merchants probably use stock/EPOS systems already. The market is small and has no premises count: AMTRA registers about 6,000 RAMAs/SQPs, but the premises number is not found. Buyers are low-margin and dispersed. Pain is low and the willingness to pay is doubtful. Not verified: whether the 17 May 2024 amendment date is right (the cattleparasites page was not opened), the inspection frequency, and the premises count.",
+   "searches": 3,
+   "sources": "https://www.gov.uk/guidance/inspection-criteria-for-sqp-retailers-premises ; https://bsava.com/article/amtra-launches-biggest-industry-survey-to-date-to-help-gather-insights-about-the-role-and-impact-of-sqps-ramas-across-the-animal-medicines-industry-and-is-calling-on-veterinary-pract/ ; https://www.farmersjournal.ie/aurivo-issued-with-medicine-improvement-notice-440246",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b4"
+ },
+ "sonnet:united-kingdom:A9": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real, but it falls mainly on councils. The Private Water Supplies (England) Regulations 2016 require councils to risk assess every 5 years and to sample. Councils charge owners fees, and owners must keep the water wholesome and may be served notices. Councils say commercial supplies (including holiday lets and B&Bs) are sampled at least annually, though sources differ on once or twice a year. The owner has no filing duty beyond notifying the council and paying. DWI 2025 reports 34,102 private supplies in England serving 818k people; the commercial subset is not found. Competitor search was thin: I found no dedicated owner software, but I did not search vendors thoroughly. Pain is low, the buyer base is fragmented, and the workflow is thin (mostly UV maintenance logs). The 10 April 2026 DWI scheme update was not verified.",
+   "searches": 4,
+   "sources": "https://staffordbc.gov.uk/node/302760; https://www.dwi.gov.uk/what-we-do/annual-report/drinking-water-2025/; https://www.stratford.gov.uk/environment/private-water-supplies.cfm; https://www.dorsetcouncil.gov.uk/environmental-health/mains-water-and-private-water-supplies/private-water-supplies; https://www.dwi.gov.uk/private-water-supplies/local-authorities-case-studies/2013-17",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b4"
+ },
+ "sonnet:united-kingdom:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The England register is legislated (Levelling Up and Regeneration Act 2023) but not confirmed live. The gov.uk guidance says only that a digital development phase is under way. Frequency, fees, penalties and data fields are undecided. Reports give a March 2027 target (undated) and an earlier spring 2026 target that slipped. Claims of £2,500-£7,500 fines are unsourced. The filing route will be a free state online portal, with registration numbers shown on platform listings. This leaves little room for a paid third-party tool beyond safety-document reminders, and the existing vendors (Lodgify, Chekin, Goodlord) already publish guides. The host base is large, but many are hobbyists and most already use PMS or channel-manager tools. Frequency of the duty is unknown. Wales (31 March 2027 deadline) and Scotland already have schemes. I did not size the market from a register.",
+   "searches": 4,
+   "sources": "https://www.gov.uk/guidance/delivering-a-registration-scheme-for-short-term-lets ; https://shorttermrentalz.com/news/registration-scheme-short-term-lets-live-soon-england/ ; https://encyclopedia.lodgify.com/england-short-term-let-registration-scheme ; https://chekin.com/en/blog/holiday-let-registration-scheme/ ; https://thenegotiator.co.uk/news/rental-market/date-revealed-for-launch-of-new-short-term-and-holiday-lets-register/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b4"
+ },
+ "sonnet:united-kingdom:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real in law but not yet operative. The Tobacco and Vapes Act 2026 (Royal Assent 29 Apr 2026) creates personal and premises licences for England, Wales and NI. No commencement date, fee, duration or application route is set. Poppleston Allen and Irwin Mitchell (31 Jul 2026) say the consultation has slipped to 2027. One council expects commencement Oct 2026 to Jan 2027, which conflicts with that. I found no licensing software; the only tools were product databases (Vapeclick) and an Australian POS. Competition is therefore open, but there is no workflow to build yet. Each council will run its own route, which fragments the market and makes it a one-off application rather than a recurring task. Scotland already has a free state register. I did not fetch pages or find retailer counts. Score stays at 3 and should be revisited once regulations are published.",
+   "searches": 2,
+   "sources": "https://www.popall.co.uk/news-publications/news/tobacco-and-vapes-licensing-regime-delayed-until-2027 ; https://www.irwinmitchell.com/news-and-insights/expert-comment/post/102nfij/tobacco-and-vapes-act-2026-licensing-consultation-delayed-but-businesses-should ; https://www.peterborough.gov.uk/regulatory-services/trading-standards/trading-standards-for-business/tobacco-and-vapes-act-2026 ; https://www.mygov.scot/tobacco-vapour-register",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b4"
+ },
+ "sonnet:united-kingdom:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Reg 40 (Children's Homes (England) Regs 2015, SI 2015/541) requires notifying Ofsted of serious events through an online form. Reg 44 requires monthly independent visits with a report sent to Ofsted. Reg 45 requires a six-monthly quality review. Supported accommodation providers have a Reg 27 notification duty under SI 2023/416, in force since Oct 2023. Timing guidance conflicts, 24h in one source and 48h in another. I did not find or check any vendor, so competition is unverified, but care-management and children's home software is likely crowded (see K12). Weak points: the Ofsted form already handles the filing, notifications are event-driven and low volume, and many Reg 44 visitors use their own templates. Market is about 4,800 homes and 1,220 supported accommodation providers (claim figures, not re-verified). A small niche, so I give it a low score.",
+   "searches": 3,
+   "sources": "https://www.legislation.gov.uk/uksi/2015/541/regulation/44 ; https://proceduresonline.com/jandrcare/p_notif_events.html ; https://gov.uk/government/collections/supported-accommodation-registering-with-ofsted ; https://socialcareinspection.blog.gov.uk/2019/03/29/incident-notifications-what-social-care-providers-need-to-tell-us/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b4"
+ },
+ "triage:united-kingdom": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Martyn's Law standard tier for small venues and volunteer bodies; new duty with a deadline."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Scottish council licensing with a Sept 2027 deadline; a different jurisdiction and duty from rejected K20 (Wales)."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Scottish funeral director licensing; a different buyer and duty from K07 (monumental masons)."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Small taxi and private hire operators with a new national standards duty; no known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Section 19 permit duty on community minibus groups; in scope as community bodies."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Small recruitment agencies facing new FWA and umbrella rules; no known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Northern Ireland farmers' mandatory electronic pesticide records from 2027; no known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "SQP retail premises keeping VMD records; a different buyer and duty from K03.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Commercial private water supply owners with a statutory sampling duty; no known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Small jewellers and gold buyers with HVD and AML duties; no known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Owners of small sewage systems (households and small firms) facing new EA permit rules; no known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "England cosmetics licensing; a different jurisdiction from rejected K20 (Wales) and from A2 (Scotland).",
+     "ref": "K20"
+    },
+    {
+     "decision": "keep",
+     "id": "A16",
+     "reason": "Small animal-licence holders with a statutory records duty; no known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "A17",
+     "reason": "Small Scottish charities with a registration duty; in scope as community bodies."
+    },
+    {
+     "decision": "merge",
+     "id": "B1",
+     "reason": "Same buyer group and same core duty as A1 (Martyn's Law standard tier).",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Small accommodation providers with a mandatory Scottish visitor levy return."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Welsh visitor accommodation register and levy; a different jurisdiction from B2."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "England short-term let register for hosts; new duty with a deadline."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Retailers needing tobacco and vape licences; a different buyer from K04 (e-liquid makers and importers).",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small heat network operators facing a Jan 2027 registration deadline."
+    },
+    {
+     "decision": "merge",
+     "id": "B7",
+     "reason": "Same buyer and duty as A15 (England cosmetic procedures licensing).",
+     "ref": "A15"
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Revive K18's PRS database: the 15 Dec 2026 launch date, regional windows and fee are specific new facts, and the verifier should check the original rejection reason.",
+     "ref": "K18"
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Co-operative and community benefit societies with a recurring FCA annual return."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Private consultants and clinics with PHIN data submissions; a different buyer and duty from K03.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Small pharmacies with recurring audit and declaration duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Small chemical sellers with EPP licence check and record duties."
+    },
+    {
+     "decision": "merge",
+     "id": "B13",
+     "reason": "Same buyer and duty as A6 (agency and umbrella FWA compliance).",
+     "ref": "A6"
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Small builders and installers facing the new BSR competence framework; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Small letting agencies with AML duties after the 2026 amendment."
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "Independent forecourts with a mandatory Fuel Finder reporting duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Small retailers facing DRS registration and exemption duties with an Oct 2027 deadline; a different buyer from K13.",
+     "ref": "K13"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Small children's homes with Ofsted notification duties; a different buyer and duty from K02."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Small MOT garages with recurring DVSA equipment and tester duties; no known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Micro-employers with a new statutory holiday record duty; not known, and the verifier can judge how generic it is."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Small contractors with a CIS nil-return duty from April 2026; CIS is not in K18/K19, so the verifier decides."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Small societies and clubs with lottery return and permit duties; no known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Micro-firms facing a Simpler Recycling deadline; a different buyer from K05 (waste carriers).",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS9",
+     "reason": "Pubs and venues with premises licence conditions changing; no known idea covers it."
+    }
+   ]
+  },
+  "tag": "w2b4"
+ }
+}

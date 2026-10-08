@@ -151,7 +151,7 @@ screened. Design for recall first and let later stages remove what doesn't hold 
 - **Web search cap**: Claude Code allows 200 WebSearch calls per turn, shared by every agent
   launched in that turn, Workflow agents included. After that each search returns "Web search was
   not performed" and workers carry on without it, returning confident junk ("not reached", 0
-  searches, every check "unverifiable"). In one run, 76 of 143 agents did this. Plan searches as
+  searches, every check "unverifiable"). In one run, 90 of 141 agents did this. Plan searches as
   well as dollars: keep each launch under about 190, have workers report blocked searches, stop new
   work when one does, and carry finished results into a batch launched in the next turn.
 

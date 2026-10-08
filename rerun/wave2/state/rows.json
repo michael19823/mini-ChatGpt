@@ -57,6 +57,49 @@
    "merge": 1
   }
  },
+ "ireland": {
+  "batch": "w2b5",
+  "candidates": 42,
+  "checks": {
+   "opus": 5,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "B9 Client-moneys ledger and PSRA accountant-report preparation for small estate agents and letting agents",
+    "B10 Dental practice radiation compliance pack (HIQA NF200 undertaking, EPA IRR19 registration, audits, DRLs)",
+    "GAPS2 Operator compliance diary for small hauliers and LCV couriers: Smart Tachograph v2, downloads, CPC, operator licence",
+    "GAPS3 CRO annual return and RBO filing tracker for accountants' micro-company and dormant-company books",
+    "GAPS6 Employer statutory-records pack for small employers: sick leave, working time, gender pay gap at 50+"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 4,
+   "refuted": 3,
+   "refuted_on_challenge": 1,
+   "unverifiable": 6
+  },
+  "gaps": 6,
+  "id": "ireland",
+  "leads": [
+   {
+    "challenge": "refuted 2",
+    "final": "refuted_on_challenge",
+    "id": "A2",
+    "mark": "new",
+    "name": "AML risk-assessment and register pack for high value goods dealers (jewellers, antique and second-hand dealers, car and machinery dealers, pawnbrokers)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 35,
+   "merge": 2
+  }
+ },
  "israel": {
   "batch": "w2b1",
   "candidates": 33,
@@ -193,6 +236,82 @@
    "keep": 37,
    "known": 3,
    "merge": 1
+  }
+ },
+ "united-kingdom": {
+  "batch": "w2b5",
+  "candidates": 43,
+  "checks": {
+   "opus": 6,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "B8 C08 PRS database registration (Renters' Rights Act, England)",
+    "B16 Fuel Finder compliance monitor for independent forecourts",
+    "GAPS3 MOT test-station equipment and tester compliance tracker (calibration, jacking beams, play detectors, tester status)"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 2,
+   "disputed": 1,
+   "refuted": 2,
+   "refuted_on_challenge": 2,
+   "unverifiable": 7,
+   "verified_4": 1
+  },
+  "gaps": 6,
+  "id": "united-kingdom",
+  "leads": [
+   {
+    "challenge": "unclear 3",
+    "final": "disputed",
+    "id": "A1",
+    "mark": "new",
+    "name": "Martyn's Law standard-tier compliance pack for village halls, places of worship and small venues",
+    "opus": 4,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "B2",
+    "mark": "new",
+    "name": "C02 Scottish visitor levy returns assistant for B&Bs, guest houses and self-catering (Edinburgh now, Stirling and others next)",
+    "opus": 5,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "refuted 2",
+    "final": "refuted_on_challenge",
+    "id": "A2",
+    "mark": "new",
+    "name": "Scotland non-surgical procedure licence pack (lower-risk aesthetics) for salons and practitioners",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "refuted 3",
+    "final": "refuted_on_challenge",
+    "id": "B6",
+    "mark": "new",
+    "name": "C06 Heat network registration and authorisation-conditions pack for small operators",
+    "opus": 5,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 35,
+   "merge": 3
   }
  },
  "united-states": {

@@ -1,0 +1,332 @@
+{
+ "discover:A:australia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small jewellers, scrap-gold and bullion buyers, coin dealers accepting or paying A$10,000 or more in cash (Commonwealth)",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.austrac.gov.au/industry-and-business/your-industry/dealers-precious-metals-stones-and-products ; https://www.austrac.gov.au/reforms/sector-specific-guidance/dealers-precious-metals-stones-and-products-guidance/jeweller-program-starter-kit ; https://namescan.io/insights/aml-compliance-for-the-precious-metals-dealers-in-australia/ ; https://www.jewellermagazine.com/Article/13839/How-will-new-money-laundering-laws-impact-your-jewellery-business",
+     "existing": "AUSTRAC free jeweller program starter kit; generic AML vendors (NameScan, Arctic Intelligence). Competitor search (AML/CTF software jewellers bullion dealers) found no jeweller-specific product, but I did not check whether ClearAML or First AML (see K07) added a DPMS offer.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "known_note": "K07 covers accountants, real estate and lawyers. This is a different buyer group (precious-metals dealers) under the same Tranche 2 reform.",
+     "name": "Precious-metals dealer (jeweller and gold buyer) AML/CTF program and cash-threshold reporting kit",
+     "score": 4,
+     "status": "promising",
+     "trigger": "AML/CTF reforms: dealers in precious metals, stones and products become reporting entities; enrolment 31 Mar 2026 and full obligations 1 Jul 2026 per secondary sources (AUSTRAC confirmation not obtained). Threshold transaction reports within 10 business days.",
+     "unchecked": "Whether the AUSTRAC dates are correct; how many small jewellers actually reach the A$10,000 cash trigger; whether ClearAML, First AML or similar already sell to jewellers; whether state second-hand dealer registers add a separate duty."
+    },
+    {
+     "buyer": "Owners, strata schemes and managing agents of small buildings with a cooling tower or warm water system; water-treatment contractors who run the monthly testing",
+     "category": "13. Small water systems",
+     "evidence": "https://www.lismore.nsw.gov.au/Community/Supporting-our-community/Lismore-public-health-services/Cooling-towers-and-warm-water-systems ; https://health.vic.gov.au/water/cooling-tower-systems ; https://health.vic.gov.au/water/public-register-cooling-tower-systems-and-auditors ; https://www.greencap.com.au/news/laws-strengthened-legionella-control-building-water-cooling-systems-nsw",
+     "existing": "Competitor search found only a US product (Legionella Compliance, ASHRAE 188) and a UK product (LegionellaSafe); no Australian product or council-form integration found. Water-treatment and auditing firms do this work by hand.",
+     "known_mark": "new",
+     "name": "Cooling tower and regulated water system compliance logbook for small building owners and strata (NSW councils, Vic Department of Health)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "NSW Public Health Act 2010 and Regulation: council registration within 1 month, a 24-hour notice above 1,000 cfu/mL Legionella, a 5-yearly risk management plan, annual independent audit and certificates to council within 7 days, tower ID displayed. Vic Public Health and Wellbeing Act 2008: owner registers each tower with the Department of Health, annual audit, changes notified within 30 days.",
+     "unchecked": "Number of small registered towers per state; whether water-treatment firms already use a proprietary portal; whether Qld, WA or SA have similar registers; whether councils accept electronic lodgement."
+    },
+    {
+     "buyer": "NSW farms with works of more than 15ML (meter by 1 Dec 2027 or renewal), coastal works of 100ML or more (telemetry by 1 Dec 2026), and works of 15ML or less that still must record and report",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://www.nrar.nsw.gov.au/how-to-comply/metering ; https://waternsw.com.au/customer-services/metering/recording-and-reporting ; https://www.nrar.nsw.gov.au/__data/assets/file/0012/3306/Metering-regulations_factsheet_2026_web.pdf ; https://www.water.dcceew.nsw.gov.au/sites/default/files/2026-05/wm-general-non-urban-metering-stage-2-regulation-amendments-fact-sheet.pdf (PDF unreadable)",
+     "existing": "WaterNSW iWAS online reporting and a paper CI 244A form (free); a state telemetry uplift program (opt-in window may have closed); meter installers (DQPs). The competitor search found no private compliance app for NSW farmers (one result, WaterOne, is US).",
+     "known_mark": "new",
+     "name": "NSW non-urban water metering recording, reporting and telemetry compliance service for mid-size irrigators",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Water Management (General) Regulation 2018 metering rules (NSW), enforced by NRAR. Monthly meter reads due by the 14th if no telemetry; records kept 5 years; a 2025 amendment added clause 244A for reporting without telemetry; a 2026 DCCEEW fact sheet proposes stage 2 changes.",
+     "unchecked": "The stage 2 amendments (could remove the reporting burden); whether the free iWAS covers the whole workflow; whether DQPs or telemetry sellers already bundle a service; the 15ML threshold (the search summary gave it, the second search could not confirm it)."
+    },
+    {
+     "buyer": "Small sheep and goat producers (including hobby flocks), stock agents and saleyards in NSW, Vic, Qld, SA, Tas and WA",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.integritysystems.com.au/about/red-meat-integrity-systems/nlis-tips-and-tricks-April-2026/ ; https://pulse.auctionsplus.com.au/news/what-you-need-to-know-about-nsw-sheep-and-goat-mandatory-transition-to-eid ; https://www.dpi.nsw.gov.au/dpi/bfs/your-role-in-biosecurity/primary-producers/nlis/eID/resources/8-step-guide-to-moving-and-selling-sheep-and-goats-with-eid ; https://www.agtech.dpi.nsw.gov.au/pages/sheep-and-goat-eid-suppliers",
+     "existing": "Integrity Systems NLIS database and file upload (free); hardware and software suppliers listed on the NSW AgTech page (names not retrieved); Agrinous support pages. Government rebate for readers closed 31 Aug 2026.",
+     "known_mark": "new",
+     "name": "Sheep and goat eID transition and NLIS transfer helper for small flocks and agents",
+     "score": 3,
+     "status": "weak",
+     "trigger": "All sheep and goats must carry an NLIS eID tag before leaving a property from 1 Jan 2027, with no flock-size threshold. NLIS database transfer within 2 days (some sources say 48 hours) by the receiver; movement documents kept 5 years; every property needs a PIC.",
+     "unchecked": "Names of supplier software; whether the NLIS portal already handles small-flock transfers adequately; number of hobby flocks; willingness to pay."
+    },
+    {
+     "buyer": "NSW beekeepers (commercial and hobby) and Vic registered beekeepers",
+     "category": "8. Beekeepers",
+     "evidence": "https://www.dpi.nsw.gov.au/animals-and-livestock/bees/beekeeper-registration ; https://www.dpi.nsw.gov.au/animals-and-livestock/bees/varroa-mite-emergency-response/movement-of-bees ; https://agriculture.vic.gov.au/livestock-and-animals/honey-bees/beekeeper-registration-and-hive-disposal",
+     "existing": "NSW DPI web form and hotline for results; Qld Bee 123 on Survey123 (Qld only). No private NSW app found. A DPI page suggests movement restrictions inside NSW have been lifted; date unverified.",
+     "known_mark": "new",
+     "name": "NSW beekeeper varroa surveillance, hive movement and registration log",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Biosecurity Act 2015 (NSW): hive testing every 16 weeks, positive results reported the same day and negative within 7 days, surveillance and movement records kept 5 years (a DPI page says 3 years under the Code of Practice), hive movement declarations. Vic: registration every 2 years via BeeMAX and 2 disease inspections a year.",
+     "unchecked": "Whether the 16-week testing rule is still in force in 2026 (emergency rules change); the number of NSW beekeepers; willingness to pay (many are hobbyists); whether the Australian Honey Bee Industry Council offers a free tool."
+    },
+    {
+     "buyer": "NSW landowners and spray contractors applying pesticides",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.epa.nsw.gov.au/news/epamedia/260714-pesticide-users-reminded-to-meet-record-keeping-rules ; https://moreeonlinenews.com.au/2026/07/14/moree-pesticide-operators-urged-to-check-spray-records/ ; https://narrabricourier.com.au/2026/08/04/north-west-pesticide-users-complying-with-laws-but-record-keeping-concerns-remain/",
+     "existing": "Spraybook (iOS app aimed at farmers, landscapers, contractors and drone operators) and Applic (Qld, A$19 a month, grounds contractors); farm-management suites not checked.",
+     "known_mark": "new",
+     "name": "Pesticide application record app and audit pack for NSW farmers and spray contractors",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Pesticides Regulation 2017 (NSW): application records (full product name, area, date and time, weather, applicator), historically within 24 hours and kept 3 years (taken from the older 2009 regulation summary; 2017 text not checked). The EPA's 2026 north-west campaign issued 19 advisory letters and 8 formal warnings, mostly over record gaps.",
+     "unchecked": "Current record fields and retention in the 2017 regulation; whether farm-management software (e.g. paddock record apps) already covers it; how many people pay for compliance apps."
+    },
+    {
+     "buyer": "Owners and managers of small buildings, strata schemes, small factories and farms with registrable plant",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://www.business.qld.gov.au/running-business/whs/plant-registration ; https://www.safework.nsw.gov.au/licences-and-registrations/plant-registrations/plant-item-registration ; https://www.service.nsw.gov.au/transaction/apply-to-renew-the-registration-of-an-item-of-plant",
+     "existing": "Regulators send renewal reminders; lift service contractors handle inspections; no dedicated owner tool found (no competitor search run).",
+     "known_mark": "new",
+     "name": "Plant registration renewal tracker for lift, boiler and pressure vessel owners (Qld and NSW)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "WHS Regulation plant registration: annual renewal tied to a competent-person 'safe to operate' inspection (Qld due 31 Jan; NSW notice about 60 days before expiry; the owner must register, not the contractor).",
+     "unchecked": "Victoria and WA position; whether regulator reminders and contractor services already remove the gap; the number of small owners; Qld guidance pages date from 2016-2019."
+    },
+    {
+     "buyer": "Small volunteer-run Victorian cemetery trusts (about 400 trusts in the state)",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://health.vic.gov.au/cemeteries-and-crematoria/cemetery-trust-records-management ; https://www.health.vic.gov.au/cemeteries-and-crematoria/cemeteries-and-crematoria-act-2003 ; https://prov.vic.gov.au/explore-collection/explore-topic/cemeteries/burial-records",
+     "existing": "Not checked. Cemetery management software and the Department of Health's governance support unit may already serve trusts.",
+     "known_mark": "new",
+     "name": "Victorian cemetery trust interment register and records kit (Class B trusts)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Cemeteries and Crematoria Act 2003 s59 (interment and rights-of-interment records); Cemeteries and Crematoria Regulations 2025 (in force 15 Jun 2025, prescribed forms amended); Public Records Act 1973 retention.",
+     "unchecked": "Existing cemetery management vendors; whether trusts pay for software; whether similar duties exist in other states; trust budgets."
+    },
+    {
+     "buyer": "Independent remittance dealers and affiliates registered with AUSTRAC",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.austrac.gov.au/node/13 ; https://www.austrac.gov.au/sites/default/files/2025-01/Quick_reference_guide_-_How_renew_registration_2025.pdf",
+     "existing": "AUSTRAC Online (free) and AUSTRAC email reminders; generic AML vendors (not checked for remitters).",
+     "known_mark": "new",
+     "name": "Remittance dealer and small money-changer AUSTRAC registration renewal and compliance kit",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "AUSTRAC registration renewal every 3 years with 90/60/30-day reminders; lapsed registration makes the service illegal; 2026 AML/CTF reforms (31 Mar 2026 date from a consultancy source only).",
+     "unchecked": "Number of independent remitters; the remitter-specific reform changes; existing remittance-compliance vendors; most remitters sit inside large networks."
+    },
+    {
+     "buyer": "Licensed second-hand dealers and pawnbrokers outside NSW",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://consumer.vic.gov.au/licensing-and-registration/second-hand-dealers-and-pawnbrokers/regulation ; https://wa.gov.au/service/justice/criminal-law/apply-pawnbroker-or-second-hand-dealer-licence ; https://www.qld.gov.au/law/laws-regulated-industries-and-accountability/queensland-laws-and-regulations/regulated-industries-and-licensing/regulated-industries-licensing-and-legislation/second-hand-dealing-and-pawnbroking-industry-regulation ; https://www.legislation.tas.gov.au/view/whole/html/inforce/current/sr-2026-029",
+     "existing": "Not checked outside NSW (K17 found NSW Police Weblink and approved software).",
+     "known_id": "K17",
+     "known_mark": "known",
+     "known_note": "Same buyer group and duty as K17; only the jurisdictions differ. Not re-checked.",
+     "name": "Second-hand dealer and pawnbroker records in Vic, WA, Qld and Tas",
+     "score": 0,
+     "status": "unverified",
+     "trigger": "Vic Second-Hand Dealers and Pawnbrokers Act 1989; WA Pawnbroker and Second-Hand Dealer Act 1994 (fees tiered by annual transactions, top tier A$5,730); Qld Second-hand Dealers and Pawnbrokers Act 2003 (register duty); Tas Second-hand Dealers and Pawnbrokers Regulations 2026 from 15 Jun 2026.",
+     "unchecked": "Whether Vic, WA, Qld and Tas have a police portal or approved software like NSW Weblink; whether the Tas 2026 regulations create a new duty. Suggest a revive check on K17."
+    },
+    {
+     "buyer": "Qld licensed tattoo operators and tattooists",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.qld.gov.au/law/laws-regulated-industries-and-accountability/queensland-laws-and-regulations/regulated-industries-and-licensing/regulated-industries-licensing-and-legislation/tattoo-industry-regulation ; https://legislation.qld.gov.au/view/pdf/current/act-2013-046",
+     "existing": "Not checked (no tattoo-studio software search run).",
+     "known_mark": "new",
+     "name": "Qld tattoo procedures log and licence compliance",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Tattoo Industry Act 2013 (Qld): tattooing procedures log with contemporaneous entries, finger and palm prints, records kept by premises (current section numbers not confirmed).",
+     "unchecked": "Current text of the record-keeping division; studio-management apps that already include a log; market size (small, Qld only)."
+    },
+    {
+     "buyer": "NSW driving school proprietors and instructors",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://legislation.nsw.gov.au/view/whole/html/inforce/2021-04-01/sl-2016-0542 ; https://www.haveyoursay.nsw.gov.au/driving-instructors-regulation",
+     "existing": "Not checked (driving-school booking software likely covers lesson logs).",
+     "known_mark": "new",
+     "name": "Driving school proprietor and instructor record keeping (NSW)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Driving Instructors Regulation 2016 (NSW): records of owners, instructors, students and vehicles kept 5 years; instructor lesson log in an approved form; a draft Driving Instructors Regulation 2026 had consultation close 12 Jun 2026 (record-keeping changes not mentioned).",
+     "unchecked": "Vic and Qld rules; existing driving-school software; whether the 2026 regulation was made."
+    },
+    {
+     "buyer": "Small bus and minibus operators, community bus services",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://tfnswforms.transport.nsw.gov.au/45071727-bus-operator-annual-self-assessment.pdf ; https://www.transport.nsw.gov.au/system/files/media/documents/2025/bus-operator-accreditation-package-v1.1-june-2025.pdf ; https://safetransport.vic.gov.au/on-the-road/bus/become-a-bus-operator/",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Small bus operator annual self-assessment and accreditation records (NSW and Vic)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "NSW annual self-assessment report (offence under clause 90 of the Passenger Transport (General) Regulation 2017 if late); Vic accreditation for buses with 10 or more adult seats, 7-day notice of responsible-person changes; Qld operators keep records 5 years.",
+     "unchecked": "Existing fleet and bus-operator software; the number of small operators; 2026 changes."
+    },
+    {
+     "buyer": "Small trucking operators and owner-drivers",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://www.nhvr.gov.au/about-us/hvnl ; https://bigrigs.com.au/2026/06/30/what-to-know-about-the-amended-hvnl/ ; https://maez.com.au/resources/hvnl-2026-cor-changes-sms-training-readiness/",
+     "existing": "Fleet telematics and chain of responsibility consultants (ctrack, MAEZ) seen in results; no detailed check.",
+     "known_mark": "new",
+     "name": "Heavy vehicle operators: 2026 HVNL safety management system and accreditation records",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Heavy Vehicle National Law Amendment Bill 2025 passed 18 Nov 2025, commencement scheduled 1 Aug 2026 (not confirmed as in force): safety management systems, fit-to-drive duty, new accreditation tiers replacing BFM and AFM, chain of responsibility Master Code.",
+     "unchecked": "Whether SMS is mandatory for non-accredited small operators; commencement status; vendors."
+    },
+    {
+     "buyer": "NSW employed or professional hunters (G-licence) and public land hunters (R-licence)",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.service.nsw.gov.au/transaction/lodge-a-professional-licence-harvest-return ; https://www.service.nsw.gov.au/transaction/lodge-a-public-land-harvest-return",
+     "existing": "Service NSW online return form (free).",
+     "known_mark": "new",
+     "name": "NSW professional hunter log book and quarterly harvest return",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Quarterly harvest return for professional hunting on private land; returns after each public-land hunt; two outstanding returns block a new permission.",
+     "unchecked": "Number of professional hunters (probably small); no outfitter licence found in Vic."
+    },
+    {
+     "buyer": "Victorian retail butchers (T licences) and seafood retailers",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://www.primesafe.vic.gov.au/news-and-alerts/media-releases/primesafe-streamlines-smallgoods-licence-requirements ; https://www.primesafe.vic.gov.au/wp-content/uploads/2024/03/Reducing-the-Compliance-Burden-for-Victorian-Businesses-Factsheet.pdf",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Vic PrimeSafe retail butcher compliance",
+     "score": 1,
+     "status": "weak",
+     "trigger": "PrimeSafe licensing; 2023 reform removed internal audits for small retail sites; Safe Food Victoria consolidation planned for mid-2026 (unconfirmed).",
+     "unchecked": "Whether Safe Food Victoria changed the rules; temperature and traceability record tools used by butchers."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing new beyond K18 (and K16 Payday Super). No search spent on this category because the study already rejected it with named competitors.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Nothing new beyond K05. No search spent.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "K17 covers NSW Weblink. One search on Vic (Business Licensing Authority registration), WA (Police licence, fees tiered by transaction volume) and Qld (Act with a register duty). Tas made new Second-hand Dealers and Pawnbrokers Regulations 2026 (in force 15 Jun 2026) with record particulars. Whether Vic/WA/Qld/Tas have a police portal or approved software like NSW was not checked. Recorded as known K17 with a revive check suggested.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Federal AML/CTF reform: dealers in precious metals and stones become reporting entities for cash or virtual-asset transactions of A$10,000 or more (commencement 1 Jul 2026, enrolment 31 Mar 2026 per secondary sources). AUSTRAC publishes a free jeweller program starter kit. New candidate related to K07. Scrap gold and jewellery are outside the bullion regime.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Written-off vehicle registers exist in NSW/Qld (Qld dismantler form F4055 for statutory write-offs under 16 years old). Dismantler licence conditions for Vic/WA/SA were not found. Nothing strong; listed as unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "All sheep and goats need an NLIS eID tag before leaving a property from 1 Jan 2027, with no flock-size threshold. Transfers on the NLIS database are due within 2 days of receipt, and movement documents must be kept 5 years. The NSW reader rebate closed 31 Aug 2026. Listed as a candidate for small flocks and agents.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Vic PrimeSafe cut paperwork in 2023 (retail butchers under 20 workers no longer need internal audits or management reviews). Safe Food Victoria is to consolidate PrimeSafe by mid-2026, not confirmed. Burden is falling, so nothing promising.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "NSW (Biosecurity Act 2015, varroa) requires hive testing every 16 weeks, a positive result reported the same day and a negative within 7 days, and surveillance and movement records kept 5 years. Vic requires registration every 2 years (BeeMAX) and 2 disease inspections a year. Qld has the free Bee 123 / Survey123 app. NSW has only DPI web forms and a hotline.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Nothing new beyond K11. Vet S8 (Covetrus) markets S4/S8 register compliance with ezyVet, RxWorks and VisionVPM integrations. The national vet-medicine consistency reform (2021 review) is not confirmed as in force.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "NSW non-urban metering: coastal works with 100ML or more must have a meter, local intelligence device and telemetry by 1 Dec 2026. Works over 15ML and under 100ML need a pattern-approved meter by 1 Dec 2027 or renewal. Works of 15ML or less have no meter but must still record and report. Without telemetry, monthly reads are due by the 14th, and records are kept 5 years. WaterNSW iWAS covers the reporting for free. A 2026 DCCEEW fact sheet proposes stage 2 changes; its PDF could not be read.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Nothing new beyond K03 and K04. No search spent.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Qld and NSW require annual registration of lifts and A-C hazard-level boilers and pressure vessels, renewed with a competent-person inspection (Qld renewals due 31 Jan; NSW notice about 60 days before expiry). Vic position unconfirmed. Registration cannot be lodged by the service contractor. Many lift owners are strata bodies. Weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Cooling towers and regulated water systems: in NSW the council register, monthly Legionella testing, a 5-yearly risk management plan and an annual independent audit, with certificates due to council within 7 days. In Vic the land owner must register with the Department of Health and have an annual audit. No Australian-specific software found. Small private drinking-water supplies: Qld requires registration and a drinking water quality management plan for providers that charge. In Vic, Safe Drinking Water Regulations 2025 apply to agencies and authorities, and no small-supplier register was found.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "NSW EPA 2026 campaign: about 170 spray records reviewed in the north-west, 19 advisory letters and 8 formal warnings, mostly for record gaps (full product name, area, date, weather). Records kept 3 years per the older regulation. Apps Spraybook and Applic exist.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Nothing new beyond K14 and K01. No search spent.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Vic has about 400 cemetery trusts. Under s59 of the Cemeteries and Crematoria Act 2003 each must keep interment and rights-of-interment records, and Regulations 2025 apply (forms amended). Small Class B trusts hold their own records, and PROV holds records for fewer than 20 trusts. Funeral death registration is covered by K10.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Fundraising licensing is streamlined for ACNC charities (NSW authority to fundraise, Vic notification, Qld notification since 1 May 2023). No 2026 change found for incorporated-association annual returns. Halal and kosher supervision was not searched. Nothing strong.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "HVNL amendments were scheduled to start 1 Aug 2026 (safety management systems, fit-to-drive duty, new accreditation tiers); commencement not confirmed. NSW bus operators file an annual self-assessment report, and Vic accreditation applies to buses with 10 or more seats. NSW taxi and booking service providers have authorisation conditions and a Passenger Service Levy. No gap identified.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "K19 covers mobile food vendors. AUSTRAC remittance and digital currency registrations renew every 3 years, with reminders at 90, 60 and 30 days. Independent remitters are covered by AUSTRAC Online. The 2026 reform details come only from consultancy sources.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Qld tattoo operators must keep a tattooing procedures log (record-keeping division of the Tattoo Industry Act 2013). NSW driving schools must keep records 5 years, and a draft Driving Instructors Regulation 2026 had submissions close 12 Jun 2026. Vic food reforms (Aug 2022) exempt most Class 2 and 3 premises from a food safety program and minimum records. Family day care educator registers sit with the approved provider; K08 covers the worker register. Hunting: NSW professional hunters file quarterly harvest returns, Vic has no outfitter licence. Nothing strong.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "NSW Non-Urban Water Metering Policy farmers meter data logger telemetry deadline 2026",
+    "Queensland tattoo studio licence Tattoo Industry Act 2013 record keeping",
+    "livestock agents saleyards NLIS eNVD sheep goats electronic tags 2026",
+    "beekeeper registration hive records varroa Victoria NSW 2026",
+    "motor vehicle dismantler licence record keeping written-off vehicle register Australia",
+    "cooling water system register Legionella audit small building owners NSW Victoria",
+    "PrimeSafe small butcher licence audit records Victoria",
+    "NHVR heavy vehicle national law 2026 reforms small operators work diary",
+    "AUSTRAC remittance dealer registration renewal currency exchange 2026",
+    "family day care educator approval records ACECQA 2026",
+    "charity fundraising licence state NSW Vic Qld associations reform 2026",
+    "cemetery trust burial records Victoria Cemeteries and Crematoria Act 2026",
+    "Victoria Class 2 Class 3 food premises FoodTrader food safety program records 2026",
+    "NSW Pesticides Regulation spray contractor record keeping 2026",
+    "private water supplier small drinking water supply Victoria Queensland",
+    "lift owners registration annual inspection boiler pressure vessel renewal Qld Vic NSW",
+    "veterinary S4 S8 drug register software extra-label 2026",
+    "driving instructor licence record keeping NSW Victoria Queensland 2026",
+    "farm water metering compliance app NRAR small irrigators recording reporting software",
+    "varroa surveillance record app beekeepers NSW hive movement declaration"
+   ],
+   "searches": 27
+  },
+  "tag": "w2b5"
+ }
+}

@@ -1,4 +1,16 @@
 {
+ "challenge:ireland:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "Rule change: Article 80 of the EU AML Regulation (2024/1624) bans every trader from accepting cash over EUR 10,000 from 10 July 2027. Irish s.25(1)(i) makes a goods trader a designated person only when it takes cash of at least EUR 10,000. Car, machinery, antique and second-hand dealers therefore lose the trigger in about 9 months. Only jewellers and watch sellers (goods over EUR 10,000 paid by any means) and car dealers selling vehicles over EUR 250,000 stay in scope, under new rules that are not yet set.",
+   "reason": "The current threshold is EUR 10,000 in cash (revised Act s.25(1)(i)). The duty is enforced today: a secondary summary of the AMLCU 2024 report says 419 of its 749 inspections were high value goods dealers. But from 10 July 2027, AMLR Art. 80 bans cash payments over EUR 10,000, which removes the cash-based designation for most of the claimed buyers. ACCA Ireland is already telling car dealers and jewellers to turn such cash away. Under AMLR Art. 3(3)(f) and Annex IV, only jewellers, gold sellers and watch sellers (over EUR 10,000) and supercar dealers stay in scope, and their rules are still being written. That leaves a narrow jeweller niche with an obligation about to change. I found no Irish dealer-specific product, but the market for the claim as framed is disappearing.",
+   "searches": 8,
+   "sources": "https://revisedacts.lawreform.ie/eli/2010/act/6/section/25/revised/en/html ; https://www.aikenpr.com/whats-new/2026/03/businesses-told-to-start-making-preparations-for-new-aml-rules ; https://www.springlex.eu/en/packages/aml/amlr-regulation/article-80/ ; https://cms.law/en/aut/legal-updates/aml-regulation-new-obligations-for-the-automotive-sector-from-10-july-2027 ; https://www.zigram.tech/resources/amlcu-annual-report-2025/ ; https://didit.me/es/blog/eu-cash-limit-10000-amlr/",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b5"
+ },
  "critic:ireland": {
   "result": {
    "gaps": [
@@ -1047,6 +1059,42 @@
    "reason": "Current Irish duty: SFPA says 10-12m vessels keep a paper logbook and 12m+ use electronic ieCatch (Reg 1224/2009, 404/2011). That is real, but the claim concerns a 2028 duty. The Commission page I fetched says only that under-12m vessels \"will be able to report catches electronically using mobile apps\" in 2028. It describes no penalty and no Irish implementation. I did not confirm Ireland's national rules, a Commission or state free app, or the Irish under-12m deadline. The EU-provided or national free app is the main risk, because the SFPA already gives away ieCatch kit, which would remove willingness to pay. I found no private Irish under-12m app. I found no current fleet count; only an old 2004 answer says about 72% of registered vessels are under 12m. Buyers are fragmented and the first obligation is not until 2028. Score 3.",
    "searches": 3,
    "sources": "https://oceans-and-fisheries.ec.europa.eu/fisheries/rules/enforcing-rules/inspections-monitoring-and-surveillance_en ; https://www.sfpa.ie/Who-We-Are/News/Details/sfpa-publishes-new-fisheries-information-notice-on-fishing-vessel-logbook-requirements ; https://thefishingdaily.com/latest-news/sfpa-launches-nationwide-information-sessions-on-new-control-rules/ ; https://www.oireachtas.ie/en/debates/question/2004-01-27/469/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b5"
+ },
+ "sonnet:ireland:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. S.I. 389/2025 amends the Solid Fuels Regulations 2022 and took effect 1 Aug 2025. It sets the wood moisture limit at under 20% from 1 Sep 2026. Producers must register annually with the EPA by 1 Sep, with a Certificate of Compliance from a certification body. The EPA publishes monthly producer lists, and the WFQA (run by IrBEA) already supplies the certification route. I found no software for this. The market is small: registrants are probably in the low hundreds, but I could not count them because the EPA PDF returned 404 and no total was found. The deadline passed on 1 Sep 2026, so it is a one-off rush that has already happened. Registration is annual and simple, certifiers do the heavy lifting, and I found no 2026 enforcement data. Pain and willingness to pay are low.",
+   "searches": 2,
+   "sources": "https://www.irishstatutebook.ie/2025/en/si/0389.html ; https://epa.ie/our-services/licensing/air/solid-fuel-regulations ; https://www.epa.ie/publications/licensing--permitting/air/solid-fuel-register.php ; https://www.gaillimh.ie/ga/node/565",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b5"
+ },
+ "sonnet:ireland:B7": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Joblogic F-gas module, Parasense (Bacharah), Leaklog, Sphera, Trade2Base, AREA F-Gas logbook",
+   "duty": "EU Reg 2024/573 and 2024/590 enforced by the EPA: leak checks by charge size, equipment records, company and technician certification through F-Gas Registration Ltd",
+   "market": "Not quantified. No register count found; F-Gas Registration Ltd and EPA hold the data.",
+   "reason": "The duty is real. The EPA enforces the EU F-gas and ODS rules in Ireland. Leak-check frequency depends on charge size. Records are kept for systems of 3 kg or more. Automatic leak detection is required at 300 kg or more of HFCs. Company certification is through F-Gas Registration Ltd. I could not read the FAQ PDF, because it came back as binary, so the penalty and the 5-year retention period are unchecked. No Irish-specific product turned up. UK and EU tools already do the core job: Joblogic with Refcom, Parasense (which has a free F-gas module), Leaklog, Sphera, Trade2Base and the AREA logbook. These are generic enough to serve Irish users, so the niche is thin. The market is small, probably hundreds of contractors, and I found no register count. Willingness to pay is low and sales are fragmented, though EPA inspections create some pain.",
+   "searches": 4,
+   "sources": "https://www.epa.ie/publications/compliance--enforcement/air/ods--f-gas/2026-ODS-and-F-Gas-FAQs-for-Licensees.pdf ; https://www.joblogic.com/features/fgas-compliance-software/ ; https://www.acrjournal.uk/whats-new/refrigeration/free-f-gas-module-for-parasense/ ; https://www.trade2base.com/refrigeration-engineers ; https://archived.feta.co.uk/news/archived-news/area-develops-f-gas-logbook-for-record-keeping ; https://www.epa.ie/our-services/compliance--enforcement/air/fluorinated-greenhouse-gases-f-gases/training--qualifications-for-ods-and-f-gases/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b5"
+ },
+ "sonnet:ireland:B8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: EUDR (Reg. 2025/2650 amendment) applies 30 Dec 2026 to large/medium operators and to micro/small firms already under EUTR-type timber rules, and 30 Jun 2027 to other micro/small operators. The Irish Bill 2026 is only a General Scheme (not enacted), with DAFM/Minister as competent authority and fines up to EUR 10m or 4% of turnover (from law-firm and press summaries). Weak fit: the duty is largely on first placers, and downstream sawmills and makers can often rely on upstream statements. Ireland is low-risk, so simplified due diligence applies. Competition: EU-wide EUDR vendors exist (osapiens, Coolset per K15), and I found no Irish sawmill-specific tool. I did not find a count of Irish small sawmills, so the market is unquantified. Score is low because the buyer pool is small, the duty is diluted and the dates keep shifting.",
+   "searches": 3,
+   "sources": "https://dcycle.io/blog/eudr-simplification-review-2026/ ; https://www.bakermckenzie.com/en/insight/publications/2026/05/eu-commission-publishes-simplification-review-of-eudr ; https://www.arthurcox.com/insights/ireland-advances-supply-chain-due-diligence-legislation/ ; https://fashionunited.com/news/business/companies-that-fail-to-meet-irelands-deforestation-regulations-could-be-fined-up-to-10-million-euros/2026100575002 ; https://www.customssupport.com/irelands-exporters-face-countdown-to-eu-deforestation-regulation/ ; https://www.gov.ie/en/publication/10b28-eu-timber-regulation-eutr-forest-law-enforcement-governance-and-trade-flegt",
    "suggested_score": 3,
    "verdict": "unverifiable"
   },

@@ -34,12 +34,13 @@ const inflight = new Set()
 const SKIP = { __skipped: true }
 const isSkip = (r) => !r || r.__skipped === true
 // A searching agent: reuse a finished result, or run it if the batch's search budget allows.
-const live = async (label, prompt, phase, model, effort, schema, est) => {
+// Checks run on the slim web-researcher agent (search and fetch only, ~6K-token start instead of ~48K); discovery needs Read.
+const live = async (label, prompt, phase, model, effort, schema, est, type = 'general-purpose') => {
   if (PRE[label]) return PRE[label]
   while (!blockedAt && used + reserved + est > CAP && inflight.size) await Promise.race([...inflight])
   if (blockedAt || used + reserved + est > CAP) return SKIP
   reserved += est
-  const p = agent(prompt, { label: `${label}@${batch}`, phase, agentType: 'general-purpose', model, effort, schema })
+  const p = agent(prompt, { label: `${label}@${batch}`, phase, agentType: type, model, effort, schema })
   const settled = p.then(() => null, () => null)
   inflight.add(settled)
   const r = await p.catch(() => null)
@@ -128,9 +129,9 @@ const runCountry = async (it) => {
     existing: c.existing, provisional_score: scoreOf(c), unchecked: c.unchecked, known_mark: c.known_mark, known_id: c.known_id,
     known_note: c.known_note, also_reported: mergedInto(c).map((m) => ({ name: m.name, evidence: m.evidence, existing: m.existing })) })
   const check = (c, model, tag) => retry(() => live(`${tag}:${it.id}:${c.id}`, `${DEFINITIONS}\n${RUBRIC.verify}${BLOCKED_NOTE}\n<country>${it.name}</country>\n<claim>\n${json(claimOf(c))}\n</claim>`,
-    'Verify', model, 'medium', VERDICT2, EST.verify))
+    'Verify', model, 'medium', VERDICT2, EST.verify, 'web-researcher'))
   const challenge = (c, first) => retry(() => live(`challenge:${it.id}:${c.id}`, `${DEFINITIONS}\n${RUBRIC.adversarial}${BLOCKED_NOTE}\n<country>${it.name}</country>\n<claim>\n${json(claimOf(c))}\n</claim>\n<first_check>\n${json({ score: first.suggested_score, competitor: first.competitor || '', sources: first.sources || '' })}\n</first_check>`,
-    'Challenge', 'opus', 'medium', CHALLENGE2, EST.challenge))
+    'Challenge', 'opus', 'medium', CHALLENGE2, EST.challenge, 'web-researcher'))
   const atLeast4 = (v) => !isSkip(v) && v.verdict !== 'refuted' && v.suggested_score >= 4
   const withChallenge = (c, o, s) => atLeast4(o) ? challenge(c, o).then((ch) => ({ c, sonnet: s, opus: o, challenge: ch })) : { c, sonnet: s, opus: o, challenge: null }
   const thunks = opusQueue.map((c) => () => check(c, 'opus', 'opus').then((o) => withChallenge(c, o, null)))

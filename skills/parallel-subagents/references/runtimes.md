@@ -206,7 +206,7 @@ const results = await pipeline(
   (ledger, it) => {
     if (!ledger) return null
     const open = ledger.candidates.filter((c) => c.status !== 'rejected')
-    return agent(`${triageRubric}\n<item>${it.name}</item>\n<candidates>${json(open)}</candidates>`,
+        return agent(`${triageRubric}\n<contract>${contract}</contract>\n<item>${it.name}</item>\n<candidates>${json(open)}</candidates>`,
       { label: `triage:${it.id}`, phase: 'Triage', model: 'haiku', effort: 'medium', schema: TRIAGE })
       .then((t) => {
         const dropped = new Set(t ? t.decisions.filter((d) => d.decision !== 'keep').map((d) => d.name) : [])

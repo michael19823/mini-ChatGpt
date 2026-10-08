@@ -365,14 +365,17 @@ critic and gap-fill loop when a round adds no new promising candidate.
 **Triage** (cheap model, before any deep verification):
 
 ```
+<contract>{the shared contract's definitions and scope}</contract>
 Here are {N} candidates for {item} with their evidence. For each, decide keep, merge (name the
-candidate it duplicates) or drop. Drop only for a concrete, stated reason: duplicate, out of scope,
-a named product already does it, or the rule it depends on doesn't exist. When unsure, keep it: a
-later stage checks it properly.
+candidate it duplicates) or drop. Drop only when the candidate is outside the scope defined in the
+contract, or the rule it depends on is shown in its own evidence to be only a bill or draft.
+Don't drop because something might already do the job or the buyer might not pay: those are
+verifier calls. When unsure, keep it.
 Return JSON: {"decisions": [{"name": "...", "decision": "keep|merge|drop", "reason": "..."}]}
 ```
 
 Then send every "keep" with a provisional score at or above your verification threshold to the
 verifier prompt in section 5. Set the threshold low (for example 3 of 10): verification is cheaper
-than a missed opportunity.
+than a missed opportunity. If you must cap the expensive verifier, check the rest with a cheaper
+model instead of leaving them unchecked.
 

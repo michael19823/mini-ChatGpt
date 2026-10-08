@@ -218,4 +218,12 @@ or more. Measured with `scripts/measure_usage.py`; output tokens are estimated.
   session or a Workflow.
 - **Searches were batched**: 35-60 tool calls took only 18-35 model calls, because workers ran
   independent searches in parallel. Ask for that in the brief.
+- **Recall-first discovery costs about twice as much and found far more.** Rerunning two of those
+  countries with a coverage map, full candidate ledger, critic, gap fill, triage and top-5 Opus
+  checks as one Workflow cost about $4.30 for the large market and $3.40 for the small one (about
+  $2.20 and $1.00 before). It listed 40 and 36 candidates and surfaced 8 of 8 leads that two earlier
+  runs had found between them (each earlier run alone found 5 or 6). Verification was about 45% of
+  the cost.
+- **Workflow cache sharing works**: after the first agent of each kind, agents read about 38.5K
+  tokens of their prompt from cache instead of writing it, which saved about 20% on that run.
 

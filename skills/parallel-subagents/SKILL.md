@@ -99,8 +99,18 @@ screened. Design for recall first and let later stages remove what doesn't hold 
   checks a condition for scoring high: workers learn to score low or reject instead. Ask for one
   light check on every candidate (for example one targeted competitor search) and leave the deep
   checks to verifiers.
-- **Filter in tiers, cheapest first.** Code rules, then a Haiku or Sonnet triage that merges
-  duplicates and drops clear non-starters with a reason, then Opus only on the survivors.
+- **Filter in tiers, cheapest first, and let cheap stages only merge.** Code rules, then a cheap
+  triage that merges duplicates and drops only what the contract defines as out of scope, then
+  verifiers. "Something already does this" and "nobody would pay" are verifier calls, not triage
+  calls: in a test, a Haiku triage dropped the best lead from an earlier run by reading "bakers use
+  the ministry's payment terminal" as "a state tool already does the job".
+- **Verify everything above the threshold.** If cost forces a cap, check the rest with a cheaper
+  model rather than leaving them unverified. Treat "unverifiable" as unresolved: keep the
+  provisional score and flag it for a deeper check. Single checks near the threshold are noisy (one
+  lead scored 5 in one Opus check and 3 in another with a smaller budget), so keep the verifier
+  rubric and budget the same across runs and use two verifiers where a score decides the ranking.
+- **Budget breadth by the map.** Screening every category takes about one search per category plus
+  a reserve for depth; a fixed small budget either skips categories or gets overrun.
 - **Add a second angle where it pays.** One worker samples the space: in one pilot, two runs of the
   same six-country study each found four strong leads, with no overlap. For large or high-value
   items, run a completeness critic (a cheap, tool-free agent that reads the coverage map and
@@ -154,7 +164,9 @@ alone, and decide it:
 - the output schema and where results go.
 
 Write this once as the **shared contract** and send it byte-identical to every worker of the same
-kind, with the variable part (the item or sub-task) last. Identical text is what makes outputs
+kind, with the variable part (the item or sub-task) last. Give its definitions and scope to every
+later stage too (judges, critics, triage, verifiers): a triage step without them dropped household
+employers as "not businesses" in a study that explicitly included them. Identical text is what makes outputs
 comparable, and it lets workers share a prompt cache. Give it a version (`contract_v1`) and have
 workers stamp it on their output, so drift is visible and stale results can be re-run. For a split,
 the contract also lists all the sub-tasks so every worker knows its boundaries.

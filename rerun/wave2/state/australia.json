@@ -1,4 +1,53 @@
 {
+ "challenge:australia:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single killer was found. The free TLV Excel template and data dictionary, together with existing POS sales exports, cover most of the job. The duty is light: five product types, monthly totals, filed once a year.",
+   "reason": "I found no dedicated app, POS feature or association tool (AACS) for the TLV record-keeping duty, so no product kills it. But the core job is small. Monthly totals for five product types (cigarette, cigar, little cigar, loose tobacco, bidi), purchased and sold, are filed once a year at renewal. TLV gives a free optional Excel template and a data dictionary, and accepts csv/xlsx/ods. A category-filtered POS export plus wholesaler invoices covers most of it. Vic market is about 3,300+ applications (Jan 2026 media release). I could not confirm NSW or Qld record-keeping duties beyond holding a licence (SA requires keeping supplier invoices for 2 years). Margins are thin, so willingness to pay is likely low. At best this is a feature for a POS vendor.",
+   "searches": 7,
+   "sources": "https://www.vic.gov.au/your-tobacco-licence-reporting-requirements ; https://www.vic.gov.au/stay-compliant-your-tobacco-licence ; https://www.premier.vic.gov.au/sites/default/files/2026-01/260122-Apply-Now-For-A-Tobacco-Licence-Before-Enforcement-Starts.pdf ; https://www.vic.gov.au/tobacco-register ; https://cbs.sa.gov.au/sections/Licences/tobacco-licensing-and-enforcement-in-sa/licence-conditions-for-selling-tobacco-products ; https://www.health.vic.gov.au/tobacco-reform/retailers",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b6"
+ },
+ "critic:australia": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Working With Children Checks / Check registers (Vic, NSW, Qld Blue Card) for small organisations that engage volunteers and staff",
+     "first_search": "Working with Children Check employer verification register volunteers small organisation Blue Card linking obligations",
+     "why": "Duty falls on sports clubs, churches, community associations, tutors and small childcare/youth providers: they must verify, link and record each person's card and keep registers. Qld Blue Card, NSW WWCC and Vic WWC all require employer-side verification and records, and Vic Child Safe Standards and NSW Child Safe Scheme add annual compliance. Only the Early Childhood Worker Register (K08) was examined, so this wider community-body duty is missing."
+    },
+    {
+     "category": "Liquor licensing: small pubs, bottle shops, restaurants, clubs and RSA/RCG registers",
+     "first_search": "liquor licence annual fee return incident register licensee obligations small venue compliance NSW Liquor & Gaming Vic VGCCC",
+     "why": "Australia has a large population of small licensees. State regimes require responsible service of alcohol records, incident and refusal registers, licence fee returns and annual fees, and gaming machine reporting for clubs. Only craft brewer excise was examined; the very common retail liquor licence duty is not covered."
+    },
+    {
+     "category": "Food business registration, food safety supervisor and temperature/audit records (councils)",
+     "first_search": "food business registration council food safety program Class 2 food safety supervisor records annual renewal small cafe",
+     "why": "Cafes, takeaways, market stalls and home-based food businesses across about 500 councils have to register, keep a Food Safety Program or records, and appoint a food safety supervisor, and are inspected. The pass mentions only small food producers as one item in category 20 and the mobile vendor rejection (K19). The core council food-premises regime is not covered as its own category."
+    },
+    {
+     "category": "Fire safety and essential services annual statements for small building owners (NSW Annual Fire Safety Statement, Qld Form 71, Vic Annual Essential Safety Measures Report)",
+     "first_search": "Annual Fire Safety Statement lodgement council essential safety measures report Vic strata owner annual submission",
+     "why": "Owners, strata schemes and small landlords must lodge a statement each year with the council or fire authority. K16 rejected 'fire AFSS' in a first pass, but only as a broad rejection. NSW Annual Fire Safety Statements, Vic AESMR and Qld occupational fire safety schedules remain a recurring mandatory filing that the coverage table does not mention. Check whether the K16 rejection was verified against these specific state filings."
+    },
+    {
+     "category": "Strata, owners corporation and body corporate annual duties (levies, sinking fund, AGM records, ABN/tax return)",
+     "first_search": "self-managed strata scheme annual obligations owners corporation records insurance valuation levy notices AGM requirements 2026",
+     "why": "Australia has about 350,000 or more strata schemes, mostly self-managed or run by tiny managers, each with statutory registers, annual financial statements, insurance valuations, AGM notices and an annual lodgement. NSW strata reforms and Qld body corporate rules changed in 2024-2026. Not examined."
+    },
+    {
+     "category": "Farm and rural employer duties: seasonal worker (PALM) scheme, Horticulture Award records, and WorkSafe farm registers",
+     "first_search": "PALM scheme approved employer obligations reporting small farm horticulture piece rate records Fair Work",
+     "why": "The Pacific Australia Labour Mobility scheme and the Working Holiday Maker 417/462 programmes put approved-employer duties (reporting, accommodation standards, pastoral care) on many small farms and labour contractors, and Horticulture Award piece-rate record rules apply. The pass covered sponsored migrant workers (36) and labour hire (K14), but not PALM approved employers or the farm-side award record-keeping. This is a sector with an unusually large number of small operators."
+    }
+   ]
+  },
+  "tag": "w2b6"
+ },
  "discover:A:australia": {
   "result": {
    "blocked_searches": 0,
@@ -328,5 +377,925 @@
    "searches": 27
   },
   "tag": "w2b5"
+ },
+ "discover:B:australia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Dental practices, vet clinics, chiropractors and other small premises that own X-ray units; also the Consulting Radiation Experts and dental consultants who serve them",
+     "category": "31. Radiation licensing for X-ray owners (also 24 and 9)",
+     "evidence": "https://www.epa.nsw.gov.au/Your-environment/Radiation/management-licence/info-radiation-management/guideline-2-preparation-radiation-management-plans ; https://www.adansw.com.au/resource/radiation-licensing-for-dental-practices-in-nsw-information-sheet/ ; https://www.epa.nsw.gov.au/sites/default/files/2026-02/26j1452-veterinary-template.docx ; https://www.health.vic.gov.au/radiation/veterinary-practices ; https://sa.ada.org.au/radiation-resources-updates-now-available",
+     "existing": "Free EPA and Health Vic Word templates and ADA info sheets. Competitor search (radiation management plan software dental register X-ray units CRE reminder NSW) found no register or reminder product; this is not proof none exists.",
+     "known_id": "K11",
+     "known_mark": "new",
+     "known_note": "Related to K11 (vet controlled drugs) only by buyer group; the duty is different (radiation, not S8).",
+     "name": "Radiation management plan and X-ray unit register for dental, vet and allied practices (NSW first, then SA, Vic, Qld, ACT)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "NSW Protection from Harmful Radiation Regulation 2025 (state): radiation management plan required from 1 Sep 2026 as a licence condition; each X-ray unit needs an RRM ID on the Radiation Management Licence; certification by an accredited Consulting Radiation Expert at install, every 5 years, and after tube head replacement or relocation; incident reporting; licence valid 1 year. Similar plan or licence duties in SA (Radiation Protection and Control Act 2021), Vic (RMP mandatory for new or varied licence), Qld, ACT.",
+     "trigger_date": "2026-09-01",
+     "unchecked": "Number of NSW premises holding RMLs; whether practice-management vendors (Exact, Dental4Windows, ezyVet, Cornerstone) add a radiation module; whether CRE firms already send reminders; whether the plan is a one-off (weak recurrence) or reviewed annually; Qld and WA recurring duties; exemption changes from 1 Dec 2025 for dental practitioners."
+    },
+    {
+     "buyer": "Tobacconists, convenience stores, milk bars, servos and small wholesalers that now need a licence per premises (Vic, NSW, Qld); likely thousands of mostly quiet small retailers",
+     "category": "32. Tobacco retail licensing (also 19 and 21 adjacency)",
+     "evidence": "https://www.vic.gov.au/stay-compliant-your-tobacco-licence ; https://www.vic.gov.au/sites/default/files/2026-06/FACT-SHEET-About-the-Tobacco-Business-Licensing-Scheme-July-2026.docx (binary, could not be read) ; https://acapmag.com.au/2026/01/victorian-tobacco-licences-from-1-february/ ; https://ablis.business.gov.au/service/nsw/tobacco-licence/47687 ; https://www.smallbusiness.nsw.gov.au/news-podcasts/news/new-laws-for-selling-tobacco-in-nsw",
+     "existing": "Not checked. No competitor search was run (budget used); POS systems (Lightspeed, Square, Kounta) may log stock but are not known to produce the regulator return.",
+     "known_mark": "new",
+     "known_note": "No known idea covers tobacco licensing.",
+     "name": "Tobacco retail licence compliance kit: purchase-record and monthly stock-count log, licence renewal and display, wholesaler licence checks (Vic first, NSW, Qld)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Vic Tobacco Act 1987 licensing scheme from 1 Feb 2026 (licence expires 30 Jun; renewal about $830; purchase records kept 2 years; monthly counts of products bought and sold filed with annual renewal; buy only from licensed wholesalers; staff 18+ from 1 Jan 2027; penalties up to $61,053 per business); NSW scheme from 1 Jul 2025 ($1,100 annual renewal, licence displayed at point of sale, penalties up to $220,000 for corporations); Qld from 1 Sep 2024. All state law.",
+     "trigger_date": "2026-02-01",
+     "unchecked": "Exact Vic monthly return format and whether the regulator has a portal template; NSW and Qld record-keeping rules (not found); retailer count; willingness to pay given small margins; competitor or association tools (AACS, Tobacconists Association); competitor search required before scoring above 4; risk that rules are narrowed or the illicit-trade rules change."
+    },
+    {
+     "buyer": "Small employers (restaurants, farms, trades, clinics, aged care) holding Standard Business Sponsor approval for 482 or 186 visas",
+     "category": "36. Employers sponsoring migrant workers (also 15 and 26)",
+     "evidence": "https://oneplanetmigrationlaw.com.au/immigration-blog/sponsorship-obligations-australia-business-sponsors/ ; https://www.roammigrationlaw.com/?p=27716 ; https://oneplanetmigrationlaw.com.au/immigration-blog/employer-sponsorship-audits-2026/ ; https://checkworkrights.com.au/resources/recent-changes-in-visa-sponsorship-legislation/",
+     "existing": "Checkworkrights (bulk VEVO checks, document store, periodic automated checks); Visa Manager (via a migration firm, may be a staging page); Hall & Wilcox Work Visa Platform (2020 launch, status unknown); generic Paperform templates. Migration agents sell compliance reviews.",
+     "known_id": "K14",
+     "known_mark": "new",
+     "known_note": "Related to K14 (labour hire licensing) only by theme; different buyer and duty.",
+     "name": "Sponsor-obligation tracker for small employers of sponsored workers (28-day notifications, record retention, salary thresholds, VEVO checks)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Migration Act and Migration Regulations (Commonwealth): notify Home Affairs within 28 days of listed events, keep records (2 or 5 years after sponsorship ends; sources conflict), pay market rate; Core Skills Income Threshold rises 1 Jul 2026 to $79,423 (single source); Home Affairs audits and data-matching with the ATO via Single Touch Payroll; civil penalties cited between $396,000 and $436,800 per breach by different sources.",
+     "trigger_date": "2026-07-01",
+     "unchecked": "Number of active sponsors; official Home Affairs page to confirm record-retention period and the claimed 1 Jul 2026 Approved Work Sponsor register; Checkworkrights pricing and whether it covers 28-day event notifications; whether migration agents would resell."
+    },
+    {
+     "buyer": "Small practices and facilities that hold and must record Schedule 8 medicines in NSW; pharmacy owners (now responsible for the register)",
+     "category": "25. Pharmacies and users of controlled substances (also 24)",
+     "evidence": "https://www.health.nsw.gov.au/pharmaceutical/Pages/electronic-register-standards.aspx ; https://www.health.nsw.gov.au/pharmaceutical/Pages/medicine-laws-pharmacists.aspx",
+     "existing": "Dispensing and practice systems (pharmacy software, ezyVet/Modeus for vets per K11) likely cover it. No competitor search run.",
+     "known_id": "K11",
+     "known_mark": "new",
+     "known_note": "Same core duty as K11 for vets (rejected: Modeus Vet S8); this entry covers other S8 holders and NSW-only.",
+     "name": "NSW electronic S8 drug register compliance (non-pharmacy holders: GP clinics, dental, aged care, vets, small hospitals)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "NSW Medicines, Poisons and Therapeutic Goods Regulation 2026 (Act replaces the Poisons and Therapeutic Goods Act from 5 Nov 2026): all S8 activity must be recorded in a drug register; any electronic register must comply with NSW Electronic Drug Register Standards dated 8 Sep 2026; guidance to follow.",
+     "trigger_date": "2026-11-05",
+     "unchecked": "Which entities the Standards bind and commencement date for electronic registers; whether compliant paper registers remain allowed; any software listing or certification; competitor products for GP, dental and aged-care S8 registers."
+    },
+    {
+     "buyer": "Licensed pool safety inspectors and certifiers (sole traders, small firms); secondarily pool owners and real estate agents tracking expiry",
+     "category": "35. Pool and spa barrier compliance (also 27)",
+     "evidence": "https://www.business.qld.gov.au/industries/building-property-development/building-construction/laws-codes-standards/pool-safety/inspectors ; https://vba.vic.gov.au/consumers/swimming-pools/inspections-and-compliance ; https://www.frankston.vic.gov.au/Planning-and-Building/Building/Swimming-pools-and-spas/Submit-a-certificate-of-barrier-compliance-Form-23 ; https://www.urban.com.au/news/nsw/27136-nsw-residents-must-register-their-pool-today-or-face-penalties-",
+     "existing": "Competitor search found no dedicated pool-inspector software, only Paperform generic templates; state and council portals do the lodging. Vic is fragmented across about 79 council portals.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Shape resembles K02 (Vic plumbing certificate lodgement tracker, 4/10) and K04 (AWTS service-report router): one inspector, many lodgement portals.",
+     "name": "Pool and spa barrier certificate lodgement and re-inspection reminder tool for pool safety inspectors (Qld, Vic, NSW)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Qld Building Act 1975 and QBCC pool safety regime (Qld: certificates valid 1 year for shared pools and 2 years for non-shared; Form 36 on sale); Vic Building Regulations (Form 23 certificate lodged with council every 4 years, about $23 fee, Form 24 for non-compliance); NSW Swimming Pools Act (register, 3-year compliance certificate). State law.",
+     "trigger_date": "",
+     "unchecked": "Inspector headcount per state; whether councils accept bulk or API lodgement; whether QBCC offers inspector tools; frequency (about 1 inspection per pool every 1 to 4 years) and willingness to pay; whether councils charge or also mandate inspector registration."
+    },
+    {
+     "buyer": "Small craft breweries and distilleries with an ATO excise licence",
+     "category": "33. Craft brewers and distillers",
+     "evidence": "https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/excise-on-alcohol/record-keeping-for-excisable-alcohol/record-keeping-for-brewery-operations ; https://www.premiersystems.com/brewman-australia ; https://brewsnews.com.au/streamline-ato-excise-forms-with-brewman",
+     "existing": "BrewMan (Premier Systems): calculates monthly excise, fills the duty form, tracks remission; page lists US$90 per concurrent user a month, no contract; claims about 300 companies in ten countries and Australian launch in 2022.",
+     "known_mark": "new",
+     "known_note": "No known idea.",
+     "name": "Craft brewer and distiller excise return and record kit (ATO monthly return, remission, WA liquor return)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Excise Act 1901 (Commonwealth): monthly excise returns, stocktake, raw material and production records kept 5 years; WA Liquor Return also.",
+     "trigger_date": "",
+     "unchecked": "Distillery and cidery coverage by BrewMan; WET rebate for wine; ATO returns portal capability; number of excise licence holders; whether BrewMan is dominant in Australia."
+    },
+    {
+     "buyer": "Small solar and battery installers and electrical contractors claiming STCs under the Cheaper Home Batteries Program",
+     "category": "34. Clean energy installers",
+     "evidence": "https://cer.gov.au/node/5210 ; https://cer.gov.au/document/installer-obligations-under-small-scale-renewable-energy-scheme ; https://formbay.com.au/battery-guide-pack ; https://www.pv-magazine-australia.com/2026/03/02/regulator-ramps-up-battery-inspections/",
+     "existing": "Formbay (compliance evidence capture, installer selfies, battery guide); the search found no others but did not look hard. Quote and design tools probably add STC modules.",
+     "known_mark": "new",
+     "known_note": "No known idea.",
+     "name": "Solar and home-battery installer compliance capture for STC claims (geotagged photos, serials, dates)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Renewable Energy (Electricity) Act 2000 and CER installer obligations: geotagged and timestamped label photos from 1 Mar 2026 on top of on-site verification photos; certificate of electrical compliance, STC form and commissioning selfie must match dates; discount changes from 1 May 2026; CER completed 1,000 inspections by Feb 2026 and signals zero tolerance (Commonwealth).",
+     "trigger_date": "2026-03-01",
+     "unchecked": "Competitor breadth (OpenSolar, Solar Analytics, Zap, STC trading firms); whether the program volume persists after May 2026 changes; installer count; whether this is generic job-management territory."
+    },
+    {
+     "buyer": "Independent and regional fuel retailers, including roughly 200 WA retailers newly brought into FuelWatch (stated 1 May 2026) and NT retailers",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.consumer.vic.gov.au/latest-news/fair-fuel-plan-introduces-daily-price-caps ; https://www.wa.gov.au/government/media-statements/Cook Labor Government/Cook-Government-strengthens-FuelWatch-to-help-WA-motorists-20260404 ; https://www.nsw.gov.au/ministerial-releases/nsw-pumps-brakes-on-fuel-reporting-failures ; https://legislation.nt.gov.au/api/sitecore/SubordinateLegislation/PDF?id=6175",
+     "existing": "Not checked. Likely POS and fuel-controller vendors plus free state web forms and APIs.",
+     "known_mark": "new",
+     "known_note": "No known idea.",
+     "name": "Multi-state fuel price reporting and cap-setting assistant for independent and regional retailers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Vic fair fuel scheme from 10 Mar 2026 (set and report next-day maximum price, update within 30 minutes, report unavailability); NT Fuel Retailers Regulations amendment 20 Apr 2026; WA FuelWatch extension (fines up from $1,000 to $4,000); NSW FuelCheck Amendment Bill 2026 (offence for failure to report; on-the-spot fines doubled). State law.",
+     "trigger_date": "2026-05-01",
+     "unchecked": "Whether WA and NSW measures took effect as stated (sources conflict); POS vendor coverage for regional independents; reporting channels (web form or API); retailer count; competitor search."
+    },
+    {
+     "buyer": "Qld contractors in QBCC financial categories 1 to 3 ($800k to $30m revenue) and the accountants who prepare their returns",
+     "category": "27. Construction, mining and quarry contractors",
+     "evidence": "https://www.qbcc.qld.gov.au/hi/node/221 ; https://mbqld.com.au/news-and-publications/news/qbcc-annual-reporting-lodgements-for-due-date-31-december-2023-are-now-open ; https://www.bdo.com.au/en-au/insights/real-estate-construction/qbcc-reporting-what-has-changed",
+     "existing": "Accountants and industry-body guidance (MBQ, MPAQ); no competitor search run. Xero/MYOB reports probably feed the pack.",
+     "known_id": "K15",
+     "known_mark": "new",
+     "known_note": "Same state and regulator as K15 (Qld project trust accounts, rejected) but different duty.",
+     "name": "QBCC minimum financial requirements annual lodgement kit for small Qld builders (management accounts pack and form)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "QBCC Act and Minimum Financial Requirements Policy: annual reporting form plus balance sheet, P&L, aged debtors, aged creditors and cash flow statement; deadline pattern 31 Dec (2026 date unconfirmed); consequences include licence conditions, suspension or cancellation.",
+     "trigger_date": "",
+     "unchecked": "Current 2026 deadline and any rule changes; whether QBCC provides templates or an upload portal; competitor tools; whether accountants dominate the buyer role; contractor count in categories 1 to 3."
+    },
+    {
+     "buyer": "Small importers of timber and wood products (furniture, flooring, pallets) and domestic processors of raw logs",
+     "category": "30. Small exporters and importers facing traceability rules",
+     "evidence": "https://agriculture.gov.au/agriculture-land/forestry/policies/illegal-logging/review-and-consultation ; https://www.agriculture.gov.au/agriculture-land/forestry/policies/illegal-logging/importers ; https://woodcentral.com.au/neglecting-due-diligence-australian-furniture-companies-charged-over-illegal-timber-imports/ ; https://tracextech.com/daff-infringement-notice-illegal-logging-laws/",
+     "existing": "Not checked beyond DAFF digikit and fact sheets (see https://ftalliance.com.au/newsdetails/35434) and a traceability vendor (Tracextech) blog; customs brokers and consultancies likely help.",
+     "known_mark": "new",
+     "known_note": "No known idea; adjacent to K16 customs brokers (rejected as served by mature broker software).",
+     "name": "Illegal logging due diligence file and supplier-information tool for small timber importers and processors",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Illegal Logging Prohibition Act 2012 and Illegal Logging Prohibition Rules 2024 (Commonwealth), in force 3 Mar 2025: written due diligence system, information gathering, two risk assessment pathways (certified versus non-certified timber), mitigation, records; advance-notification IT system not yet live; infringement notices issued to furniture importers.",
+     "trigger_date": "2025-03-03",
+     "unchecked": "Importer count; commencement date for the notification system; software already used; whether DAFF mandates a template; competitor search."
+    },
+    {
+     "buyer": "Prospectors and small mining tenement holders in WA (Form 5 within 60 days of each anniversary; forfeiture risk)",
+     "category": "27. Construction, mining and quarry contractors",
+     "evidence": "https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/operations-report-form-5-expenditure-mining-tenements ; https://docs.dataminesoftware.com/LandTrackSystems/LandTracker/Templates/WA/Action Definition Expenditure Report (WA) V1.9.0.docx ; https://scopesystems.com.au/is-your-tenement-management-system-time-consuming/",
+     "existing": "Datamine LandTracker (WA Form 5 action template) and Scope Systems tenement management; MTO prefills tenement data and expenditure calculations.",
+     "known_mark": "new",
+     "known_note": "No known idea.",
+     "name": "Small mining tenement and prospector annual expenditure (Form 5) reporting tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Mining Act 1978 (WA) and Mining Regulations 1981; lodged via Mineral Titles Online with an approved electronic signature; separate rules in other states.",
+     "trigger_date": "",
+     "unchecked": "Whether small prospectors use any software; other state schedules; willingness to pay."
+    },
+    {
+     "buyer": "Licensed firearms dealers, armourers and gun clubs",
+     "category": "37. Firearms dealers and National Firearms Register",
+     "evidence": "https://pfes.nt.gov.au/node/44372 ; https://www.police.vic.gov.au/national-firearms-register ; https://www.ag.gov.au/node/6791",
+     "existing": "Not checked; state dealer registers are police systems.",
+     "known_mark": "new",
+     "known_note": "Related to K17 (pawnbrokers/second-hand dealers, rejected: police dealer software ecosystem); similar police-register logic.",
+     "name": "Firearms dealer stock and National Firearms Register data readiness",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "National Firearms Register (National Cabinet 6 Dec 2023, project from 1 Jul 2024, operational about mid-2028); NT licence holders had a data self-check by 17 Apr 2026; AGD consultation floated electronic dealer stock submission. No binding dealer duty found.",
+     "trigger_date": "",
+     "unchecked": "Whether dealers will be forced to submit stock electronically and when; existing dealer software; dealer count (low)."
+    },
+    {
+     "buyer": "Small security businesses and individual guards in Victoria",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://www.guardhousehq.com/blog/victorian-security-reforms-what-operators-should-be-reviewing-now ; https://app.production.vicpol-vic-gov-au.sdp3.sdp.vic.gov.au/changes-private-security-licences-and-registrations ; https://www.asial.com.au/common/Uploaded files/ASIAL_Public/Flyers/VIC PSAC Briefings Flyer.pdf",
+     "existing": "GuardHQ (vendor with training university content); ASIAL hosts the refresher course; rostering suites likely track licences.",
+     "known_id": "K14",
+     "known_mark": "new",
+     "known_note": "Related to K14 (Vic labour hire licensing, rejected) and K01 (portable LSL for security); the transition deadline has passed, so the one-off trigger is spent.",
+     "name": "Victorian private security licence transition and refresher training tracker for security firms",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Private Security and County Court Amendment Act 2024 (Vic): all private security activities licensed from 19 Jun 2025; transition applications closed 19 Jun 2026; refresher training certificate ($63 plus GST) required with renewal from July 2026; Vic labour hire tests from 1 Jun 2026 (vendor blog).",
+     "trigger_date": "2026-06-19",
+     "unchecked": "Whether renewal tracking is already in rostering software; frequency (renewal cycle); competitor search."
+    },
+    {
+     "buyer": "Self-managed hosts not using a collecting platform; small property managers",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.hostaway.com/blog/airbnb-rules-in-victoria/ ; https://www.roommaster.com/hotel-tax/australia ; https://www.apimagazine.com.au/news/article/airbnb-crackdown-in-full-swing-but-varies-widely-between-states",
+     "existing": "Platforms (Airbnb, Stayz) collect and remit; channel managers and property managers handle the rest. Not checked further.",
+     "known_mark": "new",
+     "known_note": "No known idea.",
+     "name": "Short-stay levy and registration compliance for self-managed hosts (Vic Short Stay Levy, WA STRA register)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Vic Short Stay Levy 7.5% on stays under 28 days since Jan 2025 (hosts off-platform register and remit, annually or quarterly above $75,000); WA short-term rental register (compulsory; sources differ on scope).",
+     "trigger_date": "",
+     "unchecked": "SRO guidance; number of off-platform hosts; Qld and Tas developments (a blog claims a Tasmanian levy bill was defeated in Sep 2026; single non-government source)."
+    },
+    {
+     "buyer": "Small co-operatives (housing, farming, retail) lodging annual returns",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.consumerprotection.wa.gov.au/system/files/documents/2026-07/CoopForm10Annualreturn0726.pdf ; https://cms9.consumer.vic.gov.au/library/forms/businesses/cooperatives/annual-report-small-cooperative.doc",
+     "existing": "Not checked; likely accountants and paper forms.",
+     "known_mark": "new",
+     "known_note": "No known idea; overlaps with incorporated associations (category 17 in group A).",
+     "name": "Small co-operative annual return assistant (Co-operatives National Law and WA Act)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Co-operatives National Law (Vic, SA, Qld, others) and WA Co-operatives Act 2009 (Form 10 within 28 days of the AGM, new version from 1 Jul 2026; Form 13 attached if officers changed). Vic fee $89.80.",
+     "trigger_date": "",
+     "unchecked": "Number of small co-operatives; frequency (annual, low value)."
+    },
+    {
+     "buyer": "Operators of boarding houses (NSW, 5 or more paying residents) and rooming houses (Vic)",
+     "category": "38. Boarding and rooming house operators",
+     "evidence": "https://www.fairtrading.nsw.gov.au/housing-and-property/strata-and-community-living/boarding-houses ; https://ablis.business.gov.au/service/nsw/registration-of-a-boarding-house/30981 ; https://data.nsw.gov.au/data/dataset/boarding-houses-register",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "known_note": "No known idea.",
+     "name": "Boarding and rooming house operator register and inspection tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "NSW Boarding Houses Act 2012: register with Fair Trading within 28 days ($100), council inspection within 12 months; assisted boarding houses licensed by DCJ; Vic rooming house standards enforced by councils.",
+     "trigger_date": "",
+     "unchecked": "No recurring return found; operator count (small); willingness to pay."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Mandatory fuel price reporting is tightening state by state in 2026: Vic daily price cap reporting from 10 Mar 2026 plus 30-minute updates; NT amended Fuel Retailers Regulations from 20 Apr 2026; WA FuelWatch extended to all retailers (about 200 more, stated start 1 May 2026, penalty $1,000 to $4,000); NSW FuelCheck Amendment Bill 2026 (offence for failing to report price or unavailability, fines doubled). Mostly handled by POS or fuel-price feeds and free state portals; one weak candidate listed. Underground tank (UPSS) and LPG duties not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Nothing new. Grain Industry Code of Practice (GTA, revised 30 Jul 2025) is self-regulatory and mandatory only for GTA members; the Port Terminal Access (Bulk Wheat) Code binds terminal operators only. No registration or reporting duty for small traders found.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Small co-operatives lodge annual returns under the Co-operatives National Law (Vic, SA, Qld) or state Acts (WA Form 10, new version from 1 Jul 2026, within 28 days of the AGM). Low volume, paper forms, low fees; weak candidate only. Credit unions are large and out of scope.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Strongest find: NSW Protection from Harmful Radiation Regulation 2025 (commenced 29 Aug 2025) requires a radiation management plan from 1 Sep 2026 for dental, vet and other X-ray premises, with a per-unit RRM ID and CRE certification every 5 years. Medicare and insurer billing is served by mature practice software and was not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "NSW Medicines, Poisons and Therapeutic Goods Act and Regulation 2026 start 5 Nov 2026 and NSW published electronic drug register standards (8 Sep 2026) for any electronic S8 register; pharmacy owner becomes responsible for the register. Pharmacy dispensing systems likely absorb this. Ammonium nitrate and explosives precursor licensing (state-based, 2005-2009 regimes, SA 2021 regulations) shows no 2025 reform.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Victoria: Private Security and County Court Amendment Act 2024 moved all security activities to licensing (transition applications closed 19 Jun 2026) and tied refresher training to renewal; Vic labour hire tests tightened from 1 Jun 2026. NSW security officer subclass changes (2023) and armed guard accreditation. No national scheme. Portable LSL already known as K01 and labour hire as K14.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Qld QBCC minimum financial requirements annual reporting (companies, and individuals with revenue above $800k; 2023 deadline 31 Dec; lodged via myQBCC) handled by accountants. WA mining tenement Form 5 annual expenditure report due 60 days after anniversary, with existing vendors (Datamine LandTracker template, Scope Systems). Qld project trust accounts paused (K15).",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "AML/CTF Tranche 2 already rejected (K07). Vic estate agent trust account audit (1 Jul to 30 Jun, lodged via myCAV within 10 business days of auditor report); Consumer Legislation Amendment Bill 2026 would let the regulator suspend licences for audit failure (royal assent unconfirmed). Property-management software (PropertyMe etc.) is mature. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Vic Short Stay Levy 7.5% since Jan 2025 (platforms collect and remit; hosts not using a platform register and remit); WA STRA register is compulsory. Queensland has no state registration or levy (unverified for 2026). Platforms and property managers absorb most of the burden; weak.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Illegal Logging Prohibition Rules 2024 replaced the 2012 Regulation on 3 Mar 2025 (written due diligence system, risk assessment, records); an advance-notification IT system and timber testing are not yet live. DAFF says exporters are not directly affected. Wine, hay and fish export approvals not searched; NEXDOC is already rejected (K13).",
+     "status": "screened"
+    },
+    {
+     "category": "31. Radiation licensing for X-ray owners (dental, vet, chiro) [country-specific]",
+     "found": "State radiation regimes (NSW EPA, Qld Health, SA EPA, Vic Health, WA Radiological Council, ACT, NT) with management plans, RMLs, per-unit registers and periodic expert certification. Free state templates exist; no dedicated register or reminder software was found.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Tobacco retail licensing (NSW, Vic, Qld) [country-specific]",
+     "found": "NSW licence scheme from 1 Jul 2025 ($1,100 renewal); Qld from 1 Sep 2024; Vic from 1 Feb 2026 (licence expires 30 Jun each year). Vic licence records: wholesale purchase records kept 2 years, monthly counts of products bought and sold, filed with annual renewal.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Craft brewers and distillers: ATO excise and WA liquor return [country-specific]",
+     "found": "Monthly excise returns and prescribed records (stocktake, raw materials, remission). Vendor BrewMan (US$90 per concurrent user a month) already fills the duty form.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Clean energy installers: STC and battery claims [country-specific]",
+     "found": "Clean Energy Regulator geotagged label photos required from 1 Mar 2026 on top of on-site verification photos; 1,000 inspections by Feb 2026; Cheaper Home Batteries changes from 1 May 2026. Formbay already sells compliance capture.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Pool and spa barrier compliance (Qld, Vic, NSW) [country-specific]",
+     "found": "Qld pool safety inspectors licensed by QBCC (certificates valid 1 or 2 years; Form 36 on sale); Vic Form 23 certificates every 4 years lodged with 79 councils at about $23 each; NSW certificates valid 3 years via council or certifier. No dedicated inspector software found (only generic form tools).",
+     "status": "screened"
+    },
+    {
+     "category": "36. Employers sponsoring migrant workers (Skills in Demand, 482, 186) [country-specific]",
+     "found": "Sponsor duties: report events to Home Affairs within 28 days and keep records (sources say 2 or 5 years, unresolved); civil penalties are large. Existing tools: Checkworkrights (VEVO bulk checks, vendor claims), Visa Manager, Hall & Wilcox platform (2020).",
+     "status": "screened"
+    },
+    {
+     "category": "37. Firearms dealers and National Firearms Register [country-specific]",
+     "found": "National Firearms Register project began 1 Jul 2024, operational about mid-2028; NT licence holders had to return a self-check form by 17 Apr 2026. An AGD paper floated electronic dealer stock submission, but no binding dealer duty was found. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "38. Boarding and rooming house operators [country-specific]",
+     "found": "NSW boarding house registration with Fair Trading within 28 days (5 or more paying residents; $100 fee), council inspection within 12 months; Vic rooming house register is kept by councils. No annual return found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "service station fuel retailers new compliance reporting requirement 2026 Australia",
+    "grain traders warehouse code of conduct registration mandatory reporting Australia 2026",
+    "dental practice X-ray radiation licence registration renewal register management plan Australia state",
+    "ammonium nitrate security sensitive licence explosives precursor record keeping Australia 2025 reform",
+    "tenement management software Western Australia prospectors annual expenditure report Form 5",
+    "short-term rental registration levy hosts 2026 Victoria Western Australia Queensland compliance",
+    "NSW EPA radiation management licence 1 September 2026 radiation management plan dental veterinary",
+    "National Firearms Register firearms dealers obligations 2026 states onboarding dealer records",
+    "craft brewery distillery excise return ATO small producers software excise records compliance",
+    "solar battery installer STC paperwork compliance software Cheaper Home Batteries Program installers",
+    "tobacco retail licence NSW Victoria Queensland retailers records compliance 2026",
+    "pool safety inspector certificate lodgement software Queensland Victoria NSW",
+    "co-operatives national law small co-operative annual return lodgement 2026",
+    "security licence reform 2026 security firms guards training records Australia",
+    "QBCC minimum financial requirements annual financial reporting contractors 2026",
+    "Illegal Logging Prohibition due diligence importers timber small business 2026 reform",
+    "employer sponsor obligations record keeping 28 days notify sponsor compliance 2026",
+    "rooming house boarding house operator registration annual return Victoria NSW 2026",
+    "sponsor compliance software sponsorship obligations tracker 482 employers Australia",
+    "radiation management plan software dental practice register X-ray units CRE reminder NSW"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b6"
+ },
+ "gapfill:australia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Sports clubs, churches, scout/youth groups, tutors, small community associations and small childcare/youth providers engaging volunteers and staff (Qld, NSW, Vic, SA, WA)",
+     "category": "31 Working With Children Checks / Child Safe registers",
+     "evidence": "https://ocg.nsw.gov.au/working-children-check/organisation/role-employer ; https://www.qld.gov.au/jobs/blue-card/organisations/linking-requirements-for-organisations ; https://www.qld.gov.au/jobs/blue-card/system/rights-and-obligations/organisations ; https://publications.qld.gov.au/dataset/8bb79832-e5d4-4aa6-ac7d-e465f75a66d2/resource/6aba5fc6-5887-4d6b-947f-0e36f6c0da32/download/qrg-managing-your-blue-card-register.pdf ; https://www.sa.gov.au/topics/rights-and-law/rights-and-responsibilities/screening-checks/screening-wwcc/for-organisations/your-obligations-and-responsibilities ; https://maccabi.com.au/wp-content/uploads/2025/07/Queensland-Working-with-Children-Check-Verification.pdf",
+     "existing": "Qld Blue Card Services Organisation Portal (free register with expiry sort, exportable but static); state validation pages (one card at a time); sport and lifesaving bodies run it inside their own member systems (Surfguard, Majestri). Competitor search found no standalone third-party multi-state tracker or bulk-verification service.",
+     "known_id": "K08",
+     "known_mark": "new",
+     "known_note": "K08 covers the Early Childhood Worker Register only (rejected because ACECQA offers bulk upload and OWNA exports it). This is a different buyer group and duty: volunteer-run bodies across five state regimes.",
+     "name": "Multi-state child-safety screening register for volunteer-run community bodies (WWCC/Blue Card/WWC link-verify-expire tracker, with Child Safe Standards training log)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "NSW Children's Guardian Act 2019 and WWC Check requirements (verify application then clearance number, keep per-person records, re-verify at renewal); Qld Working with Children (Risk Management and Screening) Act 2000 (link people, remove leavers, keep employee register, executive committee members need cards from 20 Sept 2025); Vic Child Safe Standards (11 standards, 50 requirements); NSW Child Safe Scheme (10 standards, OCG can order self-assessment); WA and SA organisation validation duties",
+     "trigger_note": "Duty frequency is continuous (per person, per renewal cycle of 2-5 years by state).",
+     "unchecked": "Willingness to pay among volunteer-run clubs (likely low, may be better sold via peak bodies); whether sports governing bodies' member systems already absorb the job; whether any state offers bulk or API verification to organisations; whether Vic WWC organisation duties involve a register beyond the check itself; Tas/NT/ACT rules; number of buyer organisations."
+    },
+    {
+     "buyer": "Volunteer committees and treasurers of self-managed strata schemes (mostly small 2-20 lot schemes in NSW, Vic, Qld) and tiny strata managers",
+     "category": "35 Strata, owners corporation and body corporate annual duties",
+     "evidence": "https://www.nsw.gov.au/housing-and-construction/strata/guide-to-2025-strata-law-changes ; https://colemangreig.com.au/insights/publications/nsw-strata-reforms-2026/ ; https://www.mondaq.com/australia/real-estate/1768914/strata-reforms-in-nsw-2026-edition ; https://cms9.consumer.vic.gov.au/housing/owners-corporations/finance-insurance-and-record-keeping/financial-management ; https://www.lookupstrata.com.au/vic-owners-corporation-valuation-requirements-victoria-5-years/amp/ ; https://www.lookupstrata.com.au/nsw-self-managed-strata-trust-account/ ; https://pbl.legal/insights/what-books-and-records-does-an-owners-corporation-need-to-keep/",
+     "existing": "MRI StrataMaster (https://www.mrisoftware.com/au/products/strata-master/) is built for professional managers; BC Systems (bcsystems.com.au) for Qld body corporate; RationalGo is a generic AI app builder; LookUpStrata and strata-law blogs are content. No DIY product for volunteer committees surfaced.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known idea.",
+     "name": "Self-managed strata committee kit (levy notices, budget and AGM pack, 10-year capital works plan form, insurance valuation reminders, record retention, trust account and BAS/ABN tasks)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "NSW Strata Schemes Management Act 2015 as amended (1 April 2026: prescribed form for 10-year capital works fund plan, fire servicing to AS 1851-2012, committee training, new Strata Information Certificate; records kept 7 years); Vic Owners Corporations Act 2006 (approved fee/final notice forms, annual financial statements, audits for prescribed OCs, insurance valuation at least every 5 years reported to next AGM, breaches reported at AGM, notice-of-decision rules); Qld body corporate rules (not examined)",
+     "unchecked": "Count of self-managed schemes (350,000 total schemes was the briefing figure, self-managed share unverified); whether NSW Strata Hub annual reporting or Vic lodgement adds a hard annual filing; price tolerance of volunteer committees; Qld, SA, WA specifics; whether low-cost cloud accounting (Xero, Reckon) plus templates already serves treasurers; mixed state rules raise build cost."
+    },
+    {
+     "buyer": "Small building owners, strata schemes, churches and landlords with a fire safety schedule or ESM obligations",
+     "category": "34 Fire safety and essential services annual statements",
+     "evidence": "https://www.burwood.nsw.gov.au/Planning-Building/Fire-Safety/Annual-Fire-Safety-Statement-AFSS ; https://www.northsydney.nsw.gov.au/getting-construction-underway/submit-annual-fire-safety-statement/3 ; https://www.innerwest.nsw.gov.au/ArticleDocuments/34345/Step-by-step%20guide%20on%20how%20to%20lodge%20an%20AFSS.pdf.aspx ; https://www.bpc.vic.gov.au/resource-hub/forms/annual-essential-safety-measures-report ; https://www.eastgippsland.vic.gov.au/building-and-development/essential-safety-measures ; https://wormald.com.au/blog/understanding-the-afss-in-nsw/",
+     "existing": "No platform found that lodges AFSS for owners; each council runs its own portal, fee and reminder policy; fire contractors (Jamesons, Wormald, Firewize) bundle the statement into services; PropertyMe reminders could track generic compliance dates. K16's named rivals (FieldInsight, SafetyCulture) serve contractors.",
+     "known_id": "K16",
+     "known_mark": "revive",
+     "known_note": "K16 rejected 'fire AFSS' as served by contractor software. New evidence: no owner-side multi-council lodgement product found, and NSW reforms (template v4 from March 2025, accredited-practitioner rule from Feb 2027, vendor-sourced) change the workflow. Evidence is thin, so score stays 3.",
+     "name": "Owner-side Annual Fire Safety Statement / Essential Safety Measures tracker and lodgement pack (NSW AFSS, Vic AESMR, Qld occupational fire safety)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "NSW Environmental Planning and Assessment Regulation 2021 (annual statement to council and Fire and Rescue NSW; weekly late penalties AUD 1,000-4,000 at Burwood); Vic Building Regulations 2018 regs 223-224 (owner-signed AESMR annually); NSW reforms from March 2025 (template v4) and Feb 2027 (only accredited practitioners certify), both from a vendor blog",
+     "unchecked": "Whether a PropertyMe/strata-manager workflow already covers it; real owner-pays-for-reminders demand (contractors already chase the work); Vic lodgement practice (disagreeing sources); Qld Form 71 / occupational fire safety schedule; verify the Feb 2027 rule with a NSW government source."
+    },
+    {
+     "buyer": "Cafes, takeaways, caterers, market and home-based food businesses (Class 2/3 in Vic, Category 1/2 nationally) across about 500 councils",
+     "category": "33 Food business registration, food safety supervisor and records (councils)",
+     "evidence": "https://www.bawbawshire.vic.gov.au/Business/Health-and-Food-Requirements/Food-Business-Classifications/Class-2-Food-Business ; https://www.campaspe.vic.gov.au/files/assets/public/business/fact-sheet-class-2-food-premises.pdf ; https://www.nillumbik.vic.gov.au/Business/Business-permits-and-approvals/Business-permits/Food-businesses/FoodBusiness3-Renew ; https://www.geelongcity.vic.gov.au/services/business-and-investment/food-registration/food-and-health-registration-renewals ; https://www.huonvalley.tas.gov.au/development/food-businesses/food-business-registration-renewal/ ; https://ablis.business.gov.au/service/vic/food-safety-management-tools/47126",
+     "existing": "Temperature-log and HACCP apps (Pro Food Safe System, Hygiene Logs, generic log books, Miratag templates, foodsafety.com.au help centre); no council-renewal reminder product found.",
+     "known_id": "K19",
+     "known_mark": "new",
+     "known_note": "K19 (mobile food vendors) was rejected on a narrower buyer group; this is the fixed-premises core council regime.",
+     "name": "Food business council-cycle tracker: registration renewal, food safety supervisor expiry, food safety program audit and inspection dates",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Vic Food Act 1984 (annual registration renewal, due 31 Dec at many councils; FSS Statement of Attainment; audit reports kept 4 years); Qld Food Act (FSS certification at least every 5 years); Food Standard 3.2.2A (nationally); Tas annual period ending 30 June",
+     "unchecked": "Whether councils already email reminders reliably (they do, so incremental value may be small); whether food-safety training providers and POS/accounting suites bundle it; Vic Streatrader-style state portals; willingness to pay by single-site owners; competitor depth in HACCP records (crowded)."
+    },
+    {
+     "buyer": "NSW licensees authorised to trade after midnight weekly, venues in Kings Cross/Sydney CBD precincts, or with a licence condition requiring a register; also Vic/WA licensees under their own rules",
+     "category": "32 Liquor licensing: small pubs, bottle shops, restaurants, clubs",
+     "evidence": "https://www.liquorandgaming.nsw.gov.au/working-in-the-industry/licensees-and-approved-managers/incident-registers ; https://liquorandgaming.nsw.gov.au/documents/resource-centre/Digital-Incident-Register-Guidelines.pdf ; https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/liquor-licensing/licence-responsibilities/liquor-incident-register ; https://thedrop.com.au/new-digital-incident-register-for-nsw-liquor-and-gambling-compliance/ ; https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/liquor-licensing/apply-manage/fees/annual-fees",
+     "existing": "ERM Online NSW Liquor and Gambling Incident Register Form; bound books sold by trade suppliers; ASIAL and security vendors discuss the guidelines. Register duty is narrower than the full licensee population.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known idea.",
+     "name": "NSW digital incident register that meets the Digital Incident Register Guidelines (plus RSA refusal log and licence-fee calendar) for late-trading licensees",
+     "score": 3,
+     "status": "weak",
+     "trigger": "NSW Gaming and Liquor Administration Act 2007 / Liquor Act 2007 incident-register requirement; Digital Incident Register Guidelines approved 13 May 2024 (unalterable sequenced IDs and timestamps, audit trail, flag entries not made within 24h; bound-book/legacy transition ended 31 Dec 2024); annual licence fee with risk loading",
+     "unchecked": "How many venues are actually caught by the register rule; whether POS/venue systems already provide a compliant register; other vendors beyond ERM Online; Vic, Qld, SA and WA incident-register or RSA-record rules (WA register confirmed only via older sources); annual fee is a simple payment with notices from the regulator (low pain)."
+    },
+    {
+     "buyer": "Small horticulture growers, harvest contractors and labour hire firms paying piece rates",
+     "category": "36 Farm and rural employer duties (Horticulture Award piece rates)",
+     "evidence": "https://horticulture.fairwork.gov.au/piecework-records ; https://www.fairwork.gov.au/sites/default/files/2022-03/piecework-record-template.pdf ; https://www.fairwork.gov.au/sites/default/files/2022-04/Piecework-reconciliation-template.pdf ; https://www.palmscheme.gov.au/node/112 ; https://www.capterra.com.au/reviews/207512/pickapp ; https://readytech.io/news-and-views/blog/update-to-the-pieceworkers-minimum-wage-for-horticulture-businesses",
+     "existing": "Free Fair Work Ombudsman timesheet, record and reconciliation templates; PickApp (scan-based capture, from about AUD 500 a year, mostly overseas users); payroll products (ReadyTech, Payroller, PayHero NZ) mention piecework but daily-guarantee handling unconfirmed.",
+     "known_id": "K14",
+     "known_mark": "new",
+     "known_note": "K14 (labour hire licensing) covered the licence, not award record-keeping; related buyer group (contractors) only.",
+     "name": "Horticulture Award piecework record and daily minimum-wage-guarantee reconciliation for small growers and contractors",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Horticulture Award 2020 piecework terms since 28 April 2022: record hours and applicable rate for each pieceworker, employer-signed piecework record before piece rates paid, daily minimum wage guarantee, 15 percent above hourly rate productivity test; Fair Work Ombudsman enforcement",
+     "unchecked": "Whether Australian payroll vendors (e.g. KeyPay, Xero add-ons) calculate the daily guarantee natively; actual count of piece-rate growers; whether FWO templates satisfy most small farms; offline distribution through state grower bodies (e.g. Fruit Growers Tasmania, AUSVEG)."
+    },
+    {
+     "buyer": "PALM approved employers (direct employers, labour hire, contractors) and the host farms that supply accommodation and transport",
+     "category": "36 Farm and rural employer duties (PALM approved employers)",
+     "evidence": "https://www.palmscheme.gov.au/node/311 ; https://www.palmscheme.gov.au/sites/default/files/2026-06/PALM%20scheme%20employer%20responsibilities%20guide.pdf (fetch failed, snippet only) ; https://abgc.org.au/?p=26231 ; https://nff.org.au/wp-content/uploads/2025/12/NFF-Horticulture-Council-submission-PALM-deed-and-guideline-settings-Phase-2-FINAL.pdf",
+     "existing": "DEWR's own PALMIS system receives mobilisations and reporting; no commercial third-party compliance product found.",
+     "known_id": "K14",
+     "known_mark": "new",
+     "known_note": "Related to K14 (labour hire) and category 15/36 but a different duty (approved-employer deed).",
+     "name": "PALM approved-employer compliance pack for small host farms and contractors (accommodation plan, welfare plan, pay data reporting, deed and guideline v2.1 changes)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "PALM scheme Approved Employer Deed of Agreement and Guidelines (v2.1 effective 27 March 2026): DEWR-approved accommodation plan, welfare officer and plan, regular reporting including pay data, announced and unannounced site and accommodation visits",
+     "unchecked": "Actual reporting items and frequencies (guide fetch returned 503); number of approved employers (likely hundreds, not thousands); eligibility rule of 5 years operation for labour hire means a smaller buyer pool; whether DEWR's PALMIS already covers most reporting."
+    },
+    {
+     "buyer": "Small NSW registered clubs (RSL, bowling, sports clubs) with gaming machines",
+     "category": "32 Liquor licensing: clubs (gaming machine reporting)",
+     "evidence": "https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/news/important-information-to-know-preparation-for-your-2026-clubgrants-annual-return ; https://www.clubsnsw.com.au/?p=3007 ; https://www.nsw.gov.au/business-and-economy/liquor-and-gaming/liquor-gaming-nsw-grants/clubgrants-faqs ; https://www.clubsnsw.com.au/wp-content/uploads/2026/06/updated_Club-Board-Calendar-Checklist_2506-1-5-2.pdf",
+     "existing": "ClubsNSW (peak body) supplies guidance, calendars and templates; clubs rely on gaming-system and accounting vendors; L&GNSW provides a register template.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known idea.",
+     "name": "Registered-club ClubGRANTS annual return and accountability register helper (NSW)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Registered Clubs Act 1976 / Registered Clubs Regulation 2021: ClubGRANTS annual return 1-9 Sept 2026 via Online Portal, Category 1/2 allocation tests, secretary-signed statement, accountability disclosure register within 4 months of year end, quarterly gaming reports",
+     "unchecked": "Peak body and club-management vendor coverage (ClubsNSW members get most help free); number of small clubs; Vic and Qld club equivalents; the 15-machine AUSTRAC reporting threshold detail."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31 Working With Children Checks / Child Safe registers (NSW WWCC, Qld Blue Card, Vic WWC, SA, WA) for clubs, churches, tutors, small youth providers",
+     "found": "Duty is real and recurring on the organisation. NSW: register with OCG, verify application then clearance number online, keep per-person records (name, DOB, WWC number, verification date/outcome, expiry, paid/volunteer); staff verifiers must themselves be verified; sole traders exempt. Qld: link every employee and volunteer (volunteers count as employees), remove on leaving, keep an employee register, auditable; from 20 Sept 2025 executive committee members who make decisions about children need a card. WA/SA: validate card, keep register. Child Safe Standards (Vic 11 standards/50 requirements from 2022; NSW Child Safe Scheme 10 standards) add training records and self-assessment, but no annual filing date found. Qld Blue Card portal already exports a register sorted by expiry (data current only at export). No third-party multi-state tracker or bulk-verification service found; sport bodies (Surfguard, Majestri club pages) handle it inside their own systems. Only K08 (Early Childhood Worker Register) was known; this is a different buyer group (volunteer-run community bodies).",
+     "status": "screened"
+    },
+    {
+     "category": "32 Liquor licensing: small pubs, bottle shops, restaurants, clubs; RSA/RCG records, incident registers, annual fees",
+     "found": "NSW: annual licence fees with risk loading (e.g. small bar 2025 base AUD 343, 1:30am loading AUD 3,280, 5% no-demerit discount); mandatory incident register only for premises trading past midnight weekly, Kings Cross/Sydney CBD precincts, or by licence condition; Digital Incident Register Guidelines (approved 13 May 2024: immutable timestamps, audit trail, flag entries not recorded within 24h; old format transition ended 31 Dec 2024). Vic: annual fee notices from late November, due 31 Dec (older sources, verify). WA: incident register of an approved form. ERM Online sells a NSW-compliant digital incident register form. Licensed-club side: NSW ClubGRANTS annual return (2025-26 window 1-9 Sept 2026, closed), quarterly gaming data, accountability disclosure register. No RSA refusal-register app found. Scope narrower than hoped: register duty applies mainly to late-trading venues; fees are a once-a-year payment. Vic Child/Liquor Control Victoria current rules not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "33 Food business registration, food safety supervisor, temperature and audit records (councils)",
+     "found": "Vic: Class 2 (cafes, restaurants, takeaways) must renew council registration every year (notices Oct-Nov, due 31 Dec; example fee AUD 835 varies by council), nominate a food safety supervisor with RTO Statement of Attainment, keep food safety program on site (template or independently audited; audit reports kept 4 years), annual inspection. Qld: FSS certification at least every 5 years. Tas: renewal by 30 June. National Standard 3.2.2A uses Category 1/2 terms. Many temperature-log apps exist (Pro Food Safe System with IoT sensors, Hygiene Logs, generic log books, Miratag templates); did not find a product that tracks council renewal dates plus FSS expiry plus program audit dates across councils. Cycles differ by council and state, so a tracker needs a council date database. Earlier known ideas K19 (mobile vendors) was rejected on a narrower scope.",
+     "status": "screened"
+    },
+    {
+     "category": "34 Fire safety and essential services annual statements (NSW AFSS, Vic AESMR, Qld occupational fire safety)",
+     "found": "NSW AFSS: annual statement lodged with the council (each council has its own online form or portal, fee, and reminder policy) and separately with Fire and Rescue NSW; late penalty notices e.g. Burwood AUD 1,000 week 1 rising to AUD 4,000 week 4; vendor blog (Wormald, unverified) says statement template version 4 required after March 2025 reforms and that from Feb 2027 only APFS-accredited professionals can certify. Vic AESMR: owner-signed report each year (within 28 days before the occupancy-permit anniversary, or by 13 June without one, per vendor Firewize); sources disagree on whether it is lodged or just kept on site and produced on request (East Gippsland, Mt Hotham: keep on hand; Monash page has a lodge section, not read). No commercial platform that lodges AFSS for owners found; PropertyMe reminders could track due dates (not AFSS-specific); fire contractors (Jamesons, Wormald, Firewize) sell the service. Qld not examined for form detail. K16 rejection looks to have been about contractor-side tools (FieldInsight/SafetyCulture), not owner-side lodgement.",
+     "status": "screened"
+    },
+    {
+     "category": "35 Strata, owners corporation, body corporate annual duties",
+     "found": "NSW 2026 reforms from 1 April 2026: standard prescribed form for the 10-year capital works fund plan, fire safety servicing to AS 1851-2012, committee training requirements, new Strata Information Certificate; records kept 7 years; separate levy/fund registers; self-managed treasurer must open trust account, run BAS/ABN/tax return. Vic: approved fee and final notice forms, annual financial statements, audits for prescribed OCs (sources disagree on threshold), insurance valuation at least every 5 years reported to next AGM, breaches/complaints reported at AGM and kept 7 years, notices of decision by post or in person. Existing software is aimed at managers (MRI StrataMaster) or Qld body corporate (BC Systems); RationalGo is a generic app builder. No DIY product for volunteer committees found. Sources are largely strata-manager blogs (LookUpStrata); counts of self-managed schemes not verified. NSW Strata Hub annual data reporting not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "36 Farm and rural employer duties: PALM approved employers, Horticulture Award piecework records, farm registers",
+     "found": "Horticulture Award since 28 April 2022: employer must record hours worked by each pieceworker and the piece rate applied, sign a piecework record before piece rates can be paid, and apply a daily minimum-wage guarantee; piece rates must let an average competent worker earn at least 15 percent above the base hourly rate. Fair Work Ombudsman supplies free timesheet, record and reconciliation templates; other formats accepted. Software: PickApp (scan-based picking capture, from about AUD 500 a year), PayHero (NZ), Payroller and ReadyTech payroll mention piecework but may not handle the daily guarantee check (unverified). PALM: approved employer carries visa and scheme compliance, accommodation plan approved by DEWR and re-lodged when it changes, welfare officer and welfare plan, site visits, regular reporting incl. pay data analysis; Approved Employer Guidelines v2.1 effective 27 March 2026; labour hire and contractors need 5 years of operation, so small farms often go through registered labour hire firms rather than become employers. PALMIS reporting detail not retrieved (PALM guide fetch returned HTTP 503).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "Working with Children Check employer verification register volunteers small organisation Blue Card linking obligations",
+    "liquor licence annual fee return incident register licensee obligations small venue compliance NSW Liquor & Gaming Vic VGCCC",
+    "food business registration council food safety program Class 2 food safety supervisor records annual renewal small cafe",
+    "Annual Fire Safety Statement lodgement council essential safety measures report Vic strata owner annual submission",
+    "self-managed strata scheme annual obligations owners corporation records insurance valuation levy notices AGM requirements 2026",
+    "PALM scheme approved employer obligations reporting small farm horticulture piece rate records Fair Work",
+    "Blue Card WWCC register software volunteers sports club app track expiry linking",
+    "digital incident register RSA refusal register app liquor licensee software Australia",
+    "food safety temperature log app Australia council registration reminder food safety supervisor Class 2 software",
+    "piece rate hours record software horticulture Award pieceworker timesheet app farm picker",
+    "self-managed strata software Australia owners corporation levy notices minutes AGM small scheme app",
+    "Annual Fire Safety Statement software lodgement NSW property owner compliance platform AFSS reminders",
+    "Child Safe Standards annual compliance small community organisation Victoria NSW Child Safe Scheme registers training records software",
+    "registered club annual return Liquor & Gaming NSW small club compliance gaming machine reporting register software",
+    "WWCC Blue Card verification volunteer screening platform Australia charities clubs software verify Working with Children Check bulk",
+    "PALM scheme approved employer reporting PALMIS accommodation inspection pastoral care compliance audit small farm labour hire",
+    "self-managed strata Australia platform committee treasurer levies financial statements owners corporation DIY software cost per lot",
+    "WebFetch: palmscheme.gov.au employer responsibilities guide (HTTP 503, no content)"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b6"
+ },
+ "opus:australia:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "AUSTRAC publishes a free Jeweller Program Starter Kit. It is built for small jewellers with 15 or fewer staff that provide one designated service, which is exactly this candidate's buyer, and it covers the program-building job. easyAML sells a Tranche 2 platform that, by its own description, targets precious metals dealers and jewellers. It has a guided builder for an industry-specific AML/CTF program, identity and PEP/sanctions checks, and three pricing tiers. NameScan has a precious-metals industry page (namescan.io/industries/preciousmetals) offering screening and KYB. First AML and Arctic Intelligence sell general Tranche 2 tools. Persona and didit cover customer identity checks. Between the free state kit and easyAML, the core job is already done.",
+   "duty": "The duty is real and in force under the Commonwealth AML/CTF Act as amended by the Tranche 2 reforms. Secondary sources agree on the details: Bartier Perry (law firm), Jeweller Magazine, easyAML and didit. I could not open AUSTRAC's own pages (HTTP 503 twice). Obligations started on 1 Jul 2026. Enrolment opened on 31 Mar 2026, and the enrolment deadline was 29 Jul 2026, not 31 Mar as the claim says. A dealer is captured only when it accepts or pays A$10,000 or more in physical cash or virtual assets, in one transaction or in linked ones. A captured dealer must enrol, hold a risk assessment and an AML/CTF program, verify customers and train staff. It must lodge a threshold transaction report within 10 business days and a suspicious matter report within 3 business days (24 hours if terrorism financing is suspected). An independent review is due every 3 years (vendor claim, not confirmed). Two opt-outs exist: a 'soft opt out' (refuse cash of A$10,000 or more) and a 'hard opt out' (take no cash or virtual assets for these sales). Neither requires enrolment, so many small jewellers can avoid the duty altogether. Penalties are civil penalties under the AML/CTF Act; I did not find the exact amounts. I did not check whether state second-hand dealer registers add a separate duty.",
+   "market": "I found no register count or official estimate. AUSTRAC enrolment numbers for dealers were not found in this session. The buyers who actually carry the duty are only those who choose to accept cash of A$10,000 or more. That is a minority of an estimated few thousand jewellers and bullion dealers, a figure I did not confirm. Bullion and scrap-gold buyers are the most likely to remain captured.",
+   "reason": "The duty is real and has applied since 1 Jul 2026. However, the claim's 31 Mar 2026 enrolment date is wrong: enrolment opened then and the deadline was 29 Jul 2026. A dealer only carries the duty if it chooses to take A$10,000 or more in cash or virtual assets, and the soft and hard opt-outs let most small jewellers avoid it completely. AUSTRAC's free starter kit targets this exact group (15 or fewer staff), and easyAML already sells a Tranche 2 platform that names precious metals dealers and jewellers. NameScan also has a precious-metals offering. That leaves a small, self-selecting group of captured dealers, mostly bullion and scrap-gold buyers, served by free and paid tools. A jeweller-specific niche is weak at best.",
+   "searches": 5,
+   "sources": "https://www.bartier.com.au/insights/in-the-media/jewellers-face-aml-reporting-obligations-on-some-10-000-sales ; https://easyaml.com/tranche-2/key-dates ; https://knowledge.easyaml.com/when-does-tranche-2-commence ; https://easyaml.com/platform/ ; https://easyaml.com/resources/blog/articles/how-the-easyaml-platform-automates-tranche-2-compliance/ ; https://www.austrac.gov.au/reforms/sector-specific-guidance/dealers-precious-metals-stones-and-products-guidance/jeweller-program-starter-kit (fetch failed with 503; known from search results only) ; https://namescan.io/industries/preciousmetals ; https://www.jewellermagazine.com/Article2/14798/Guide-to-navigating-AML-CTF-law-changes-Everything-jewellers-must-know ; https://www.jewellermagazine.com/Article/15124/Linked-transactions-Important-update-ahead-of-AUSTRAC-deadline ; https://updates.didit.me/blog/austrac-tranche-2-precious-metals-dealers-guide/",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b6"
+ },
+ "opus:australia:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Australian SaaS built for AS/NZS 3666 or NSW Form 3. Partial coverage comes from water-treatment contractors who already run the monthly testing and bundle the reporting. BrodexTrident has a client portal for certificates and test results, and Nalco Water (Ecolab) offers NATA lab reports with online customer access. UK tools that could be adapted include Joblogic, TEAMS Legionella and the Legionella Compliance App. General monitoring platforms include Optima Tower and Integra iTrack. Nobody offers a state portal for lodgement: NSW lodges with councils, and Victoria takes registrations by email (legionella@health.vic.gov.au). I did not check whether councils accept electronic lodgement in general.",
+   "duty": "NSW: Public Health Act 2010 and Public Health Regulation 2022 (Part 2) set these duties. Register with council within 1 month of installation or change (Form 6). Test monthly for Legionella and HCC, with a monthly report (Approved Form 3). Notify council within 24 hours if Legionella is at least 1,000 cfu/mL or HCC at least 5,000,000 cfu/mL (Form 4). Renew the risk management plan every 5 years (Form 1). Have an annual independent audit (Form 2). Send certificates to council within 7 days. Display the tower ID within 30 days. The occupier stays liable even when a contractor fills in the forms. Vic: Public Health and Wellbeing Act 2008 requires per-tower registration with the Department of Health for 1, 2 or 3 years (2025-26 fee $126.10 for 1 year), notice of changes or decommissioning within 30 days, and an annual audit of the risk management plan. Failing to register, prepare a risk management plan or audit it is an offence. Penalty amounts were not checked. Tas councils also register cooling towers (Devonport form). Qld, WA and SA were not reached.",
+   "market": "I found no statewide count. NSW registers sit with each council and have no central total. Victoria has a public register but publishes no total figure. One local indicator: 89 towers were tested in a few Sydney CBD blocks during the 2016 outbreak. The total is likely in the low thousands per state (an estimate, not verified), and mostly on commercial, hospital, hotel and retail buildings rather than small businesses.",
+   "reason": "The duty is real and in force. Under the NSW Public Health Regulation 2022, owners must register with council within 1 month, test monthly (Form 3), notify council within 24 hours of high results, renew the risk management plan every 5 years, have an annual independent audit, and send certificates to council within 7 days. Victoria requires per-tower registration for 1–3 years, an annual audit and 30-day change notices. I found no dedicated Australian software. However, the contractors who already test each month usually handle the work, and some offer client portals (BrodexTrident; Nalco/Ecolab online lab reports). Most towers sit on mid-to-large commercial buildings rather than small firms. The market is small and split across councils, and buyers would pay little extra.",
+   "searches": 6,
+   "sources": "https://www.lismore.nsw.gov.au/Community/Supporting-our-community/Lismore-public-health-services/Cooling-towers-and-warm-water-systems ; https://www.health.nsw.gov.au/environment/legionellacontrol/Documents/approved-form-3.docx ; https://ablis.business.gov.au/service/vic/registration-of-cooling-tower-systems/24594 ; https://www.health.vic.gov.au/water/cooling-tower-systems-registration-and-notification-forms ; https://www.health.vic.gov.au/water/public-register-cooling-tower-systems-and-auditors ; https://www.climatecontrolnews.com.au/news/latest/government-set-to-tighten-cooling-tower-regulations ; https://www.climatecontrolnews.com.au/news/latest/five-cooling-towers-test-positive-for-legionella ; https://www.brodextrident.com/blog/new-client-portal-open-for-business ; https://en-au.ecolab.com/pages/nsw-update ; https://www.devonport.tas.gov.au/council/forms-and-payments/business/application-renewal-for-registration-of-regulated-systems-and-premises-where-cooling-towers-are-operated-form/print/ ; https://wifitalents.com/best/cooling-tower-software/ ; https://www.joblogic.com/industries/water-treatment-software/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b6"
+ },
+ "opus:australia:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Australian software or register-and-reminder product for radiation compliance in dental or vet practices; my searches covered dental compliance software, vet compliance platforms and services from radiation experts. What exists is free: NSW EPA plan templates (dental and veterinary .docx), the EPA's Guideline 2, the Health Vic dental plan template, the ADA SA template, ADA NSW information sheets, and ADA Practice Plus (Vic) help with compliance. iComply and Dentistry Compliance do this kind of reminder tracking in the UK but not in Australia. VET.CT runs a free radiation safety hub. I did not check whether practice-management vendors (Exact, D4W, ezyVet) offer a radiation module, or whether radiation-expert firms send test reminders.",
+   "duty": "NSW: Protection from Harmful Radiation Regulation 2025 (in force since 1 Dec 2025). Since 1 Sep 2026, holders of a radiation management licence must have a radiation management plan and comply with it. Copies must be available to users and staff, and the plan must follow the ARPANSA codes (dental RPS 10, veterinary RPS 17). The plan only goes to the EPA if the EPA asks for it. Per ADA NSW: dental premises need a radiation management licence, each X-ray unit needs its own RRM ID listed on the licence, and an accredited Consulting Radiation Expert must certify and test each unit at install, every 5 years, and after a tube-head replacement or a move; incidents must be reported. The NSW vet template requires a service log for each unit. SA (Radiation Protection and Control Act 2021): no licence is granted without an RMP the EPA has approved; the amended plan must be resubmitted after significant changes; new equipment needs registration and a compliance test within 60 days. Per ADA SA, cyclic 5-yearly testing and annual servicing stopped being required from 1 Feb 2026. Qld requires a radiation safety and protection plan; ACT requires a licence, source registration and a plan; Tasmania requires yearly licence renewal by 31 Aug and vet unit testing every 4 years. I did not confirm NSW penalty amounts or the licence term.",
+   "market": "Not reached. I found no published NSW EPA count of radiation management licence holders. The EPA has a public licence search, but no dataset, so a count would need the EPA annual report or a formal information request. WA's Radiological Council publishes a list of vet licences (I did not count it). The buyers are likely a few thousand dental practices and vet clinics per state, but I have no source for that figure.",
+   "reason": "The duty is real. The NSW EPA and the Protection from Harmful Radiation Regulation 2025 make a radiation management plan (RMP) a licence condition from 1 Sep 2026. Per ADA NSW, each X-ray unit needs an RRM ID, and an accredited radiation expert must test it at install, every 5 years and after a tube-head replacement or move. SA, ACT and Qld also require a plan. I found no Australian software that does this job, only free EPA, Health Vic and ADA templates. But the timing is poor. The 1 Sep 2026 deadline has passed, so writing the plan is now largely a one-off. What recurs is weak: yearly licence renewal, 5-yearly testing, and updating the plan after changes. SA dropped 5-yearly testing and annual servicing from Feb 2026. Buyers can fill in the templates for free, so willingness to pay looks low. I could not get a count of licence holders.",
+   "searches": 7,
+   "sources": "https://www.epa.nsw.gov.au/Your-environment/Radiation/management-licence/info-radiation-management/guideline-2-preparation-radiation-management-plans ; https://legislation.nsw.gov.au/view/whole/html/inforce/2025-12-01/sl-2025-0461 ; https://www.epa.nsw.gov.au/Your-environment/Radiation/management-licence/management-licence-conditions ; https://www.adansw.com.au/resource/radiation-licensing-for-dental-practices-in-nsw-information-sheet/ ; https://www.epa.nsw.gov.au/sites/default/files/2026-02/26j1452-veterinary-template.docx ; https://sa.ada.org.au/radiation-resources-updates-now-available ; https://portal.ada.org.au/common/Uploaded%20files/SA/Resources/ADA%20SA%20DR00002%20Radiation%20Licensing%20for%20Dental%20Practice.pdf ; https://prod.ada.bond.software/training-events/practiceplus/compliance ; https://www.health.qld.gov.au/system-governance/licences/radiation-licensing/apply/licences/veterinary/use ; https://www.act.gov.au/health/businesses/radiation/requirements-to-hold-a-radiation-licence/radiation-licence-for-veterinary-use ; https://radiologicalcouncil.wa.gov.au/~/media/RadiologicalCouncil/Documents/PDFs/Website-Licence-lists/Vet-licences.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b6"
+ },
+ "opus:australia:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no dedicated Australian app or software for TLV record keeping or returns. Searches naming Idealpos, Retail Express, Lightspeed, Abacus and SwiftPOS returned nothing that links any of them to TLV reporting. A free state tool partly covers the core job: TLV publishes a data dictionary and an optional example data-collection template (Excel), and accepts csv/xlsx, so a spreadsheet or a filtered POS export can meet the duty. I did not check for association tools (AACS, Tobacconists Association): not_reached.",
+   "duty": "Victoria: the Tobacco Act 1987 and Tobacco Regulations 2017. A licence has been required for each premises since 1 Feb 2026; it costs $1,175.20 to apply and $829.60 to renew each year (FY licence). Licensees keep wholesale purchase records (invoice, wholesaler licence number, ABN and similar) for at least 2 years. They record monthly totals of products purchased and sold by product type, in fixed units (cigarette packet of 20, cigar, little cigar packet of 20, 30g loose tobacco, bidi packet of 20), tagged with the licence number. These go to TLV electronically with the annual renewal; the 2026 reporting period is Feb-Dec 2026. Penalties for breaching licence conditions are up to $12,546 for a person and $62,730 for a business; for failing to display the licence, $209 or $1,046. NSW (from 1 Jul 2025): $1,100 per licence each year, licence displayed at point of sale, maximum penalty $220,000 for a corporation. Qld (from 1 Sep 2024): licence displayed. I did not find monthly record or return duties in NSW or Qld (not_reached).",
+   "market": "I found no current licence count. TLV runs a public register at vic.gov.au/tobacco-register (updated weekly, last update 2 Oct 2026), but it shows no total and has no downloadable dataset. Qld had an estimated 8,000 tobacco retailers in a 2016 parliamentary submission (old). By inference, each eastern state probably has several thousand licensed premises, but this is unverified.",
+   "reason": "The Victorian duty is real. Every licensee (retail and wholesale, one licence per premises) must keep purchase records for 2 years and record monthly counts of tobacco bought and sold by product type and fixed unit, under the Tobacco Regulations 2017. The data goes to TLV electronically (xlsx/xls/csv/ods only) at the annual renewal, with penalties up to $62,730 for a business. I found no dedicated software. But TLV publishes a free data dictionary and an optional Excel template, and the return is a simple yearly table that a spreadsheet or POS export can produce. So the pain is low, filing is once a year, and margins are thin, although many buyers (often multilingual) are reachable through wholesalers. I did not find NSW or Qld record-keeping duties of this kind.",
+   "searches": 6,
+   "sources": "https://www.vic.gov.au/stay-compliant-your-tobacco-licence ; https://www.vic.gov.au/your-tobacco-licence-reporting-requirements ; https://www.vic.gov.au/tobacco-register ; https://ablis.business.gov.au/service/vic/tobacco-licence/47717 ; https://www.health.nsw.gov.au/tobaccolicensing ; https://ablis.business.gov.au/service/nsw/tobacco-licence/47687 ; https://documents.parliament.qld.gov.au/com/HCDSDFVPC-48D8/RN1955PIQ-FE4A/submissions/00000005.pdf ; https://qha.org.au/?p=20448",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b6"
+ },
+ "opus:australia:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The claim that there is \"no standalone third-party multi-state tracker\" is wrong. Oho validates WWCC or equivalent cards in ACT, NT, Qld (Blue Card, exemption and teacher cards), SA, Vic, Tas and WA. It re-checks every validated card each week and sends automated expiry reports. Gymnastics Australia and Basketball Victoria already use it. Oho cannot validate NSW cards because of NSW law; ACT cards are sighted in person and logged. Safe Ministry Check, built for churches, verifies WWCC numbers automatically with the relevant state authority and emails before expiry. ChurchSuite has a WWCC renewal workflow. Equifax fit2work, CVCheck and Certn sell WWCC verification and record-keeping. Victoria's Service Victoria offers a free bulk checker for up to 1,500 cards at a time. Qld's free Organisation Portal sends expiry notices. Sports bodies build this into their member systems (Surfguard, PlaySafe/Oho).",
+   "duty": "The duty is real and current, and it is ongoing. NSW organisations must register with the OCG employer portal, verify each WWC number, re-verify on renewal and keep their own records (date, outcome, expiry), because the portal keeps no history of past checks. In Qld, organisations must link card holders before work starts. Board and committee members need blue cards whatever their title. Expiry notices go to linked organisations at 10 weeks, 4 weeks, 2 weeks and 2 days. SA clubs must verify before work starts and at least every 5 years through an Organisation Portal. In Vic, organisations must make sure workers hold a valid Check. WA penalties go up to $60,000 plus possible imprisonment (per a SA/WA club resource sheet; not checked against the statute). I did not confirm the 20 Sept 2025 Qld committee-member start date. A law-firm page says new suspension powers began on that date.",
+   "market": "Large but fragmented: tens of thousands of sports clubs, churches and community groups across the states. I did not find a register-based count in this session, so this is unverified.",
+   "reason": "The duty is real, mandatory and ongoing. But the core job, automated multi-state verification with re-checks and expiry alerts, is already done. Oho covers every state except NSW with weekly re-checks and is used by national sports bodies. Safe Ministry Check covers churches. fit2work, CVCheck and Certn serve employers. Victoria and Qld offer free bulk tools or portals. NSW is the one gap, and it exists because the law blocks third-party validation, so a newcomer could not fill it either. Buyers are volunteer-run with little budget and are often served through their peak bodies' member systems. The idea of adding a Child Safe Standards training log is also crowded (Safe Ministry Check bundles training). Little room is left for a solo founder.",
+   "searches": 5,
+   "sources": "https://support.gymnastics.org.au/knowledgebase/article/KA-01110/en-us ; https://basketballvictoria.nbl.com.au/accordion/playsafe-administrator-association-club-questions ; https://safeministrycheck.com.au/automatic-working-with-children-checks/ ; https://support.churchsuite.com/article/703-case-study-managing-wwcc-checks ; https://equifax.com.au/fit2work/for-your-business/node/91 ; https://cvcheck.com/checks/australia-working-with-children-check-status/ ; https://certn.co/working-with-children/ ; https://business.vic.gov.au/news-and-updates/2023/making-it-easy-to-validate-a-working-with-children-check ; https://ocg.nsw.gov.au/working-children-check/organisation/role-employer ; https://www.tennis.com.au/nsw/files/2024/02/WWCC-Verification-How-to-Guide.pdf ; https://www.qld.gov.au/jobs/blue-card/organisations/receiving-notice-about-blue-card-approvals ; https://www.qld.gov.au/jobs/blue-card/required/executive-officers-board-committee-member-requirements ; https://rowingsa.asn.au/wp-content/uploads/2024/09/Clubs-and-Associations-Information-Sheet-A28593385.pdf",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b6"
+ },
+ "opus:australia:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Free NSW Strata Hub Capital Works Fund Planner: built for committee members of small, especially self-managed, schemes. It produces the plan in the format of the Fair Trading form and has a draft-sharing feature (updated May 2026). Strata Hub itself, also free, handles annual reporting and holds the hardship statement form. The committee training course is free from the government. StrataView (Capterra) is listed as used by self-managed strata schemes in Australia and has a free version; I didn't check whether it does levy notices. HOA Grove is on Capterra AU and says it targets self-managed communities. Manager-focused tools: MRI Strata Master, Smata, Urbanise, Community Manager, BCM-Online, Lessor. RationalGo is a generic app builder. I found no dedicated DIY product that handles levy notices and AGM packs across states, but that gap is the part the free state tools leave over, and it is small.",
+   "duty": "Confirmed for NSW from nsw.gov.au (Strata Schemes Management Act 2015 as amended). Each item has its own date. From 1 Apr 2026, the standard form is required for a 10-year capital works fund plan when the plan is revised or replaced. From 1 Apr 2026, the s184 strata information certificate gains extra content. From 27 Oct 2025, levy notices must include the Financial Hardship Information Statement. Levies need at least 30 days' written notice. From 1 Oct 2026, new and returning committee members must complete a free one-hour online course within 3 months of appointment and then every year (two-lot schemes are exempt). Strata Hub annual reporting is due within 3 months of the AGM at $3 per lot, and two-lot schemes stop reporting from 1 Oct 2026. Strata Hub penalty figures (up to $5,500 for not reporting, $2,200 for not correcting errors) come from a law-firm blog only and are unconfirmed. The official guide page does not mention the 7-year record retention or the AS 1851 fire servicing items from the claim, so those are not verified. Victoria (Owners Corporations Act 2006) and Queensland were not reached.",
+   "market": "368,234 strata schemes nationally (Strata Community Australia, Strata Insights 2024). UNSW's 2020 report found about 67% of Australian schemes have fewer than 5 lots. The number that are self-managed was not found in any register or statistic, so it is unverified. The briefing's figure of 350,000 total schemes is roughly consistent with these counts.",
+   "reason": "The duties are real, but a free state tool already covers the main 1 April 2026 hook. NSW Strata Hub has a free Capital Works Fund Planner aimed at self-managed committee members of small schemes. It outputs the prescribed form. Strata Hub also handles annual reporting, and two-lot schemes stop reporting from 1 Oct 2026. Committee training is a free government course. What's left is levy notices, AGM packs and records. Generic accounting tools plus StrataView (free version, listed for self-managed schemes) may cover that, but I didn't check StrataView's features. Buyers are unpaid volunteers with little willingness to pay, and rules differ by state. I found no count of self-managed schemes.",
+   "searches": 8,
+   "sources": "https://www.nsw.gov.au/housing-and-construction/strata/guide-to-2025-strata-law-changes ; https://www.nsw.gov.au/strata-hub ; https://www.nsw.gov.au/housing-and-construction/strata/strata-portal-user-guide ; https://www.service.nsw.gov.au/transaction/submit-strata-scheme-annual-report ; https://pbl.legal/new-reporting-requirements-for-strata-schemes-in-nsw-all-about-filing-annual-reports-for-your-strata ; https://www.nsw.gov.au/housing-and-construction/strata/serving-on-a-committee/levies ; https://www.capterra.co.nz/software/1098787/StrataView ; https://inside.strata.community/strata-insights-2024/ ; https://inside.strata.community/australasian-strata-insights-2020/ ; https://colemangreig.com.au/insights/publications/nsw-strata-reforms-2026/ ; https://www.mrisoftware.com/au/products/strata-master/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b6"
+ },
+ "sonnet:australia:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The state's own sites describe 100ML+ works needing telemetry (coastal by 1 Dec 2026), 15-100ML works needing a meter by 1 Dec 2027 or renewal, and mandatory take reporting for all licensed users. I could not open the NRAR or WaterNSW pages (403), so I did not confirm the penalties, the clause 244A detail or the exact reporting dates. Telemetry removes manual reporting for the largest users, and stage 2 amendments aim to streamline reporting, so the burden is shrinking. WaterNSW's free iWAS covers reporting, and DQPs and telemetry vendors handle the hardware. I found no private compliance app, but the search was thin. I found no count of works. The service is a small niche with a free state tool, so willingness to pay is weak.",
+   "searches": 4,
+   "sources": "https://www.nrar.nsw.gov.au/__data/assets/file/0012/3306/Metering-regulations_factsheet_2026_web.pdf ; https://waternsw.com.au/customer-services/metering/non-urban-metering ; https://www.water.dcceew.nsw.gov.au/media/34886 ; https://water.dpie.nsw.gov.au/our-work/nsw-non-urban-water-metering/what-water-users-need-to-know/telemetry-uplift-program",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b6"
+ },
+ "sonnet:australia:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: from 1 Jan 2027 all sheep and goats need an NLIS eID before leaving a property. Receiver must record P2P transfers on the NLIS database within 2 days (48 hours). Sources: NSW DPI, Integrity Systems, SA PIRSA. The one-off 2027 deadline hits many small flocks at once. But the core job is already covered. The free NLIS database and NLIS Buddy phone app handle transfers. Agents and saleyards transfer for buyers. Herdwatch Sheep & Goats links eID readers to records. The NSW AgTech page lists Outcross, Moses and Son, BreedELITE, 4Tags, Datamars and Sapien. Hobby flocks are price-sensitive. Penalties and a flock-count figure were not checked. IBISWorld estimates about 9,350 sheep farms, excluding small holdings. The duty is mostly a one-off transition, with ongoing transfers per movement.",
+   "searches": 3,
+   "sources": "https://www.dpi.nsw.gov.au/dpi/bfs/your-role-in-biosecurity/primary-producers/nlis/eID/livestock-owners ; https://www.agtech.dpi.nsw.gov.au/pages/sheep-and-goat-eid-suppliers ; https://info.herdwatch.com/flockwatch ; https://wafarmers.org.au/?p=11906 ; https://www.ibisworld.com/australia/number-of-businesses/sheep-farming/16 ; https://www.integritysystems.com.au/about/red-meat-integrity-systems/nlis-tips-and-tricks-April-2026/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b6"
+ },
+ "sonnet:australia:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "NSW DPI pages were blocked (403). Search snippets say the 16-week testing duty remains and registration is required. The Varroa Control Order was removed in 2024, so movement restrictions are gone and the 16-week duty's current status is uncertain. Competition exists: BeeChem (Australian app, $29.99/year), B-Trace (record app plus audit for small commercial and recreational keepers), the Tocal record book, and free state tools (Vic BeeMAX, NSW DPI web form). I found no NSW beekeeper count. Many keepers are hobbyists, so willingness to pay is low and the market is niche. The core job is already partly served.",
+   "searches": 4,
+   "sources": "https://www.dpi.nsw.gov.au/emergencies/biosecurity/current-situation/varroa-mite-emergency-response/varroa-frequently-asked-questions ; https://www.dpi.nsw.gov.au/about-us/media-centre/releases/2024/general/varroa-mite-control-order-to-be-removed-in-nsw ; https://agriculture.vic.gov.au/livestock-and-animals/honey-bees/beekeeper-registration-and-hive-disposal/557954-Factsheet-BeeMAX-registration-surveillance-database-2022-.pdf ; https://www.tocal.nsw.edu.au/publications/bees/beekeeping-record-book ; https://beekeepclub.com/best-beekeeping-apps/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b6"
+ },
+ "sonnet:australia:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: NSW Pesticides Regulation 2017 Part 4 requires commercial/occupational users to record within 48 hours (not 24; the 24h figure applies only to sensitive-place technicians) and keep records 3 years. The EPA publishes a free sample record form and commodity fact sheets. Core job is already done by several apps: Spraybook, Applic (A$19/mo, EPA-compliant PDF), iPaddockSpray (one-off ~A$270-300), PaddockProof (Australian, PDF/CSV export), Agworld, Cropwise, Farmable (free tier). Low willingness to pay and a crowded field. Market size not found; no register count was checked. Penalty amounts were not confirmed.",
+   "searches": 4,
+   "sources": "https://www.epa.nsw.gov.au/Your-environment/Pesticides/compulsory-record-keeping ; https://www.epa.nsw.gov.au/Your-environment/Pesticides/compulsory-record-keeping/Sample-pesticide-application-record ; https://apps.apple.com/app/id6501974719 ; https://hunted.space/product/applic ; https://apps.apple.com/au/app/ipaddockspray/id590408217 ; https://paddockproof.lovable.app/ ; https://agworld.com/au/solutions/for-growers/row-crops/in-season",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b6"
+ },
+ "sonnet:australia:B10": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Illegal Logging Prohibition Act 2012 and Rules 2024, in force 3 Mar 2025. Importers and processors need a written due diligence system, information gathering, risk assessment, mitigation and records. The advance-notice e-declaration is not yet in force and has no date. No commercial AU software found. Free DAFF toolkit (templates, optional) and FWPA/TDA AITDD templates cover the core job. Importer count not found. Buyers are scattered, the market is small, and the free templates cap willingness to pay. Possible upside if the notification IT system goes live. Penalties not verified (infringement notices reported in the claim). Retrieval of the DAFF importers page failed (503), so details come from search summaries.",
+   "searches": 4,
+   "sources": "https://www.agriculture.gov.au/agriculture-land/forestry/policies/illegal-logging/importers ; https://www.agriculture.gov.au/sites/default/files/documents/due-diligence-toolkit-importers.pdf ; https://fwpa.com.au/news/help-for-businesses-to-comply-with-australian-illegal-logging-laws/ ; https://www.legislation.gov.au/F2024L01758/asmade",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b6"
+ },
+ "sonnet:australia:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Migration Regs 2.78-2.84 set sponsor obligations, including notifying events (reg 2.84) and keeping records, per migration-firm summaries (BDO, One Planet, Roam). Retention periods and the penalty figure ($396k vs $436.8k) vary by source. I could not open the Home Affairs page (403), so exact retention, the 28-day rule and in-force status are unconfirmed. Roam and One Planet also state the 1 Jul 2026 threshold of $79,423, but it is not checked against Home Affairs. No dedicated Australian 482 sponsor tracker turned up. CheckWorkRights (VEVO and document tracking, quote-only pricing) is a partial competitor. The sponsor count was not found. The market looks small, likely tens of thousands of sponsors, and migration agents already sell compliance reviews. Score 3.",
+   "searches": 5,
+   "sources": "https://www.bdo.com.au/en-au/services/advisory/migration-services/visas/subclass-482-sponsorship-obligations ; https://oneplanetmigrationlaw.com.au/immigration-blog/sponsorship-obligations-australia-business-sponsors/ ; https://www.roammigrationlaw.com/?p=27716 ; https://www.capterra.com.au/software/1048684/checkworkrights",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b6"
+ },
+ "sonnet:australia:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real (Qld pool safety certificates via QBCC-licensed inspectors, annual licence renewal, certificate via QBCC portal; Vic Form 23 every 4 years, owner lodges with council within 30 days, fee about $22.50; NSW councils or accredited certifiers issue compliance certificates). But the buyer is the inspector, and the duty falls on pool owners, so this is not clearly a small-business compliance duty. Qld and Vic lodgement is mostly the owner's job. NSW inspection is largely done by councils. No dedicated inspector software was found in 4 searches, only the Paperform template. No headcount found; the Qld open-data register could be counted but was not reached. Generic field-inspection apps likely substitute. Small, fragmented market with weak willingness to pay.",
+   "searches": 4,
+   "sources": "https://www.business.qld.gov.au/industries/building-property-development/building-construction/laws-codes-standards/pool-safety/inspectors ; https://www.portphillip.vic.gov.au/planning-and-building/swimming-pool-and-spas/barrier-compliance-certificates ; https://www.vba.vic.gov.au/news/news/2022/vba-to-undertake-pilot-pool-barrier-inspection-program ; https://www.data.qld.gov.au/dataset/poolsafetyregister/resource/a345195c-5175-4a7e-8696-e277deb21cc0 ; https://paperform.co/templates/queensland-residential-pool-safety-certificate-application ; https://wsc.nsw.gov.au/Plan-and-Build/Applications-Permits-and-Certificates/swimming-pool-certificate-of-compliance-application",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b6"
+ },
+ "sonnet:australia:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The Excise Act 1901 requires an ATO excise licence, and the ATO is tightening remission checks in 2026. But at least two products already do the core job. BrewMan (Premier Systems) calculates monthly excise, fills the duty form, tracks remission and handles the WA liquor return. Breww has Australian excise duty calculations that now cover beer, spirits, brandy and other beverages. The BrewMan vendor pages (not ATO) say about US$90 or AU$100 a month, and one article claims only about 15 Australian users, so the niche is small and the incumbents are weak. I found no published count of licence holders. The ATO record-keeping page returned 403, so the 5-year retention rule and the monthly return frequency were not checked. A new entrant would be a cheaper, simpler add-on to an existing incumbent's market.",
+   "searches": 2,
+   "sources": "https://www.premiersystems.com/brewman-australia ; https://brewsnews.com.au/streamline-ato-excise-forms-with-brewman ; https://docs.breww.com/australian-beer-excise-duty ; https://updates.breww.com/australian-alcohol-excise-duty---now-supports-spirits-brandy-other-beverages-aVPXi ; https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/excise-on-alcohol/excise-licences-for-excisable-alcohol ; https://www.australianmanufacturing.com.au/alcohol-manufacturing-businesses-face-tighter-ato-checks-on-excise-remission/",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b6"
+ },
+ "sonnet:australia:B9": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Cat 1-7 licensees and all companies must lodge annually, from 1 Aug to 31 Dec. Cat 1-3 enter figures in the free QBCC Portal and upload a P&L, balance sheet, aged debtors, aged creditors and cash flow. Failure is an offence, and QBCC can impose no-new-work conditions, suspension or cancellation. The 2026 date is unconfirmed, but the pattern is 31 Dec. QBCC provides a portal, forms and guides, and accountants can lodge as nominated representatives. The core job is just exporting Xero/MYOB reports, so the pain is low and the product is thin. A Xero request for a QBCC package is unreleased. Buyers are mostly accountants. The contractor count is not found. Weak niche, annual only.",
+   "searches": 2,
+   "sources": "https://qbcc.qld.gov.au/node/3741 ; https://productideas.xero.com/forums/967133-reports-tax/suggestions/51350617-reports-add-a-dedicated-qbcc-annual-financial-re ; https://www.moore-australia.com.au/news/qbcc-general-purpose-financial-statements-and-you/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b6"
+ },
+ "triage:australia": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Different buyer group (precious-metals dealers) from K07's accountants/agents/lawyers; small firms with AML/CTF duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "New: small building owners and strata with Legionella register/audit duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "New: NSW irrigators' metering reporting duty, small farm firms; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "New: 1 Jan 2027 sheep/goat eID deadline hits many small producers at once."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "New: beekeeper surveillance and movement records, recurring, small operators."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "New: farmer and contractor pesticide application records, recurring duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "New: annual plant registration for small building and farm owners."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "New: volunteer cemetery trusts, community bodies with record duties."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "New: remittance dealers with AUSTRAC renewal; different group from K07."
+    },
+    {
+     "decision": "known",
+     "id": "A10",
+     "reason": "Same buyer group and duty as K17; only other jurisdictions.",
+     "ref": "K17"
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "New: Qld tattoo operators with licensed-premises log duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "New: NSW driving school record-keeping duty, small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "New: small bus operators' annual accreditation and self-assessment duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "New: small trucking operators under HVNL changes with 1 Aug 2026 start."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "New: NSW professional hunters' quarterly returns; weak but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A16",
+     "reason": "New: Vic retail butchers' licensing compliance; small firms, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "New duty (radiation management plan) for dental/vet practices; not S8 in K11."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "New: tobacco retail licensing for thousands of small retailers; no known idea."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "New: small sponsor-employers' obligations; different from K14 labour hire."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Different buyer group (GP, dental, aged care) and new NSW electronic register standard; related to K11 but not same group."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "New: pool inspectors' certificate lodgement; different duty from K02/K04."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "New: craft brewers/distillers' excise returns and records, small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "New: small solar/battery installers' STC compliance evidence."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "New: independent fuel retailers' price reporting duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "New duty (QBCC financial lodgement) vs K15 trust accounts; small builders."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "New: small timber importers' due diligence duty; differs from K16 customs brokers."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "New: small tenement holders' annual expenditure reporting."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Firearms dealers are a different group from K17; binding duty unclear, so unverified, not dropped."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "New: small security firms' licensing and refresher renewals recurring; differs from K14."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "New: self-managed short-stay hosts' levy and registration duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "New: small co-operatives' annual returns; in scope as co-operative bodies."
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "New: boarding house operators' registration and inspection duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Different buyer group (volunteer bodies) and duty from K08 ECWR."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "New: self-managed strata committees' annual duties; community bodies."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Revive K16 fire AFSS: owner-side multi-council lodgement, NSW reforms (template v4 2025, practitioner rule Feb 2027); thin evidence."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Fixed-premises food businesses, different group from K19 mobile vendors."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "New: NSW licensees' digital incident register duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "New: award piecework records for small growers; differs from K14 licence."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "New: PALM approved-employer deed duties; differs from K14 licensing."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "New: small NSW clubs' ClubGRANTS annual return; community bodies."
+    }
+   ]
+  },
+  "tag": "w2b6"
  }
 }

@@ -1,0 +1,1101 @@
+{
+ "critic:new-zealand": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Motor vehicle dealer, vehicle dismantler and used-import (Japan) trade registers (coverage row 5 not_reached)",
+     "first_search": "Motor Vehicle Traders Register MVSA registration renewal trader obligations Ministry of Business Innovation and Employment",
+     "why": "NZ has thousands of small used-car dealers and importers who must register under the Motor Vehicle Sales Act 2003 (MVSA), file Consumers Guarantees Act and cars-sold-on-consignment (trust account) duties, and keep Motor Vehicle Traders Register entries; dismantlers/wreckers also face NZTA and Waka Kotahi duties for deregistration and Vehicle Dismantlers licensing. The pass only searched US/EU sources and left this unverified."
+    },
+    {
+     "category": "Electrical, gas, plumbing and drainlaying practising-licence regimes beyond K02 (gasfitters, electricians, EWRB/PGDB annual licence renewals, CPD)",
+     "first_search": "Electrical Workers Registration Board practising licence renewal competency programme gasfitter certificate of compliance Energy Safety",
+     "why": "Hundreds of thousands of small sole-trader trades must hold annual practising licences, do CPD/competency programmes and file gas/electrical certificates of compliance with the regulator; K02 covers plumbers and drainlayers but gasfitters and electricians (Electrical Workers Registration Board, Gas Certification, Energy Safety) are a different buyer group/duty and K15 only rejected electrical CoC tooling in general."
+    },
+    {
+     "category": "Licensed Building Practitioners (LBP) licence, record of work and Licensed Building Practitioner substantial-completion reporting",
+     "first_search": "Licensed Building Practitioner Record of Work restricted building work licence renewal Building Practitioners Board 2026",
+     "why": "LBPs in NZ (tens of thousands of sole traders and small builders) must renew licences, complete Record of Work (restricted building work) for owners and councils, and meet new 2025-26 Building Act changes (owner-builder, Code of Ethics, new Building and Construction (Small Stand-alone Dwellings) rules); K05 only covers granny-flat PIMs, so the LBP RBW/renewal duty is uncovered."
+    },
+    {
+     "category": "Real estate agents and property managers: REAA licensing, trust accounts and Residential Property Managers Act",
+     "first_search": "Real Estate Authority licence trust account audit annual return branch manager agent compliance 2026 property managers regulation",
+     "why": "Small real-estate agencies (many sole-trader/family brokerages) face Real Estate Authority licensing, annual trust account audits, and annual Client Care/complaints duties; the Residential Property Managers Bill/regime (regulation of property managers, announced and legislated 2023-2025 then partly reversed) and Lawyers and Conveyancers Act trust-account rules for small law firms are not looked at. Pass looked only at AML for these groups."
+    },
+    {
+     "category": "Taxi/rideshare and heavy transport operator records beyond SPSL: Road User Charges (RUC), Certificate of Fitness (CoF)/WoF inspections and logbooks for small trucking firms",
+     "first_search": "transport service licence goods service operator rating system logbook driver work time hours RUC eRUC small operator NZTA 2026",
+     "why": "NZ has a large owner-driver trucking and light-diesel sector that must buy and track Road User Charges licences (eRUC providers), hold CoF/WoF inspections, keep driver logbooks under Land Transport rules and, since 2024-26, comply with NZTA transport service licence (TSL) and Operator Rating System; the pass only covered passenger service licences."
+    },
+    {
+     "category": "Food Act 2014 Food Control Plan / National Programme registration for cafes, takeaways, home bakers and small food businesses (distinct from K09 abattoirs)",
+     "first_search": "Food Act 2014 National Programme registration verification records food truck home kitchen annual renewal council 2026",
+     "why": "Tens of thousands of small hospitality and food businesses (cafes, food trucks, home-based food makers, caterers) must register a Food Control Plan or National Programme with the council or MPI, keep daily/monthly records and arrange verifier audits; K09 is limited to micro-abattoir/meat records and rejected with FCPmate noted, but whether FCPmate/Foodstuffs-style tools cover National Programme level 1-3 businesses and sector-specific ones (market stalls, home kitchens) was not checked, and 'market traders' row 19 mentioned them only in passing."
+    }
+   ]
+  },
+  "tag": "w2b6"
+ },
+ "discover:A:new-zealand": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Police-licensed secondhand dealers, pawnbrokers, scrap yards, gold/jewellery buyers and second-hand shops. Count of licence holders not found.",
+     "category": "3. Second-hand dealers and pawnbrokers (also 2 scrap-metal dealers, 4 gold and jewellery buyers)",
+     "evidence": "https://www.police.govt.nz/advice/businesses-and-organisations/secondhand-dealers-and-pawnbrokers/secondhand-dealer ; https://www.legislation.govt.nz/bill/members/2021/23/en/latest/ (explanatory note: most dealers keep handwritten or printed records, few supply machine-readable data; Counties Manukau SNAC covers only 24 dealers) ; https://legislation.govt.nz/secondary-legislation/pco-drafted/2005/24/en/latest/ ; https://www.police.govt.nz/advice-services/businesses-and-organisations/secondhand-dealers-and-pawnbrokers/licensing-secondhand",
+     "existing": "Competitor search run (NZ secondhand dealer pawnbroker software, Police electronic reporting): no NZ dealer software or Police-approved reporting format found. Only a Police-built SNAC tool in Counties Manukau. Generic POS and pawn software not checked.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Secondhand dealer, pawnbroker and scrap-metal records and Police-reporting tool",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Secondhand Dealers and Pawnbrokers Act 2004: dealers record per article (seller ID, description, serial number, price, unique number), identity verification, hold articles (Police page says 14 days; a secondary summary says 10 working days, unresolved), label each article, keep records 3 years, show Police on request, no buyback contracts; fines up to $10,000 for record offences, $20,000 for no licence; 5-year licence. Secondhand Dealers and Pawnbrokers Amendment Regulations 2026 (SL 2026/111) took effect 1 Jul 2026, content not retrieved.",
+     "unchecked": "Number of licensed dealers (ask Police/Licensing Authority). Whether the Electronic Records bill (Bill 23-1, member's bill, listed on bills.parliament.nz with a 2021 first reading marked Interrupted/Not Agreed and a 2023 publication) is dead or live. What SL 2026/111 changed. Whether Police now accept electronic submissions. Whether overseas pawn/second-hand POS (for example Australian) is sold in NZ. Dealers' willingness to pay."
+    },
+    {
+     "buyer": "Farmers, small irrigators and small commercial takers holding consents for 5 l/s or more.",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://www.ecan.govt.nz/your-region/farmers-hub/irrigation/water-metering ; https://trc.govt.nz/environment/freshwater/info-for-water-users/measuring-and-reporting-requirements ; https://www.hbrc.govt.nz/services/water-management/water-metering/service-providers/ ; https://aucklandcouncil.govt.nz/environment/looking-after-aucklands-water/water-strategy-policy-standards/freshwater-management-policy-standards/Pages/Reporting-water-use-on-rural-properties.aspx",
+     "existing": "Competitor search run: Irrigation NZ Blue Tick accredited firms handle install, verification and data management for consent holders; councils run their own reporting systems (for example Auckland WUDMS). Dairy NZ guidance exists.",
+     "known_id": "K13",
+     "known_mark": "new",
+     "name": "Water-take metering and telemetry reporting helper for small consent holders",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Resource Management (Measurement and Reporting of Water Takes) Regulations 2010 as amended 2020: 15-minute logging, daily telemetry, approved supplier install and verification (±5%, 1-5 year cycle). Final deadline for 5 l/s and above was 3 Sep 2026 (passed). Council exemptions are annual (apply 1 Jul to 31 Dec).",
+     "unchecked": "Whether Blue Tick providers leave a gap for tracking consent expiry, verification due dates and exemption renewals across several consents. Number of affected consent holders. Whether the RMA replacement laws change the regime."
+    },
+    {
+     "buyer": "Small clubs, associations and community charities run by volunteers, including societies struck off in April 2026.",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://is-register.companiesoffice.govt.nz/law-changes-for-societies/what-happens-if-your-society-doesnt-reregister ; https://waateanews.com/2026/04/09/national-missed-deadline-leaves-hundreds-of-societies-in-limbo/ ; https://www.charities.govt.nz/__data/assets/pdf_file/0021/137271/Charities-Sector-Group-meeting-summary-24-March-2026.pdf ; https://is-register.bat.companiesoffice.govt.nz/help-centre/getting-started/your-responsibilities/ ; https://www.charities.govt.nz/ready-to-register/benefits-and-obligations-of-registered-charities/annual-returns",
+     "existing": "Competitor search run: e-Xpert MoST (membership database claiming ISA 2022 compliance), BoardPro (governance), free Registrar and Charities Services guidance and online filing, NZ Navigator/community.net.nz help.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Incorporated society and charity post-deadline compliance kit (restoration, officers register, annual return)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Incorporated Societies Act 2022: re-registration deadline 5 Apr 2026 passed, about 1,800 societies struck off (single news estimate); restoration until 6 Apr 2032 with a compliant constitution and $177.78 plus GST fee; annual return within 6 months of balance date; membership register with former members kept 7 years; officer consents; at least 10 members; 1,913 charities were flagged as at risk of losing charity status.",
+     "unchecked": "Willingness to pay of volunteer clubs. Official count of struck-off societies and charities. Whether accountants or lawyers already sell fixed-price restoration packages. Distribution through sports and community federations."
+    },
+    {
+     "buyer": "Small taxi and shuttle firms and owner-operators holding Small Passenger Service Licences.",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://www.1news.co.nz/2026/09/08/calls-for-tougher-rideshare-rules-as-passenger-complaints-rise/ ; https://www.legislation.govt.nz/secondary-legislation/pco-drafted/2017/252/en/2017-08-21.pdf ; https://www.nzta.govt.nz/commercial-driving/taxis-shuttles-buses-and-other-passenger-services/new-passenger-service-rules-2017/questions-and-answers",
+     "existing": "Competitor search run: no NZ-specific operator compliance software found; platforms such as DiDi keep their own complaint records; airport operator portals exist. Taxi dispatch software not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Small passenger service (taxi/shuttle) operator compliance pack: complaints register, driver file, camera access log",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Land Transport Rule: Operator Licensing 2017 and offence regulations: complaints record kept 2 years and producible to NZTA, operator duties for drivers (P endorsement, work-time and logbooks), visible cameras with restricted access to footage. Sep 2026 industry call for mandatory cameras, NZTA says framework fit for purpose.",
+     "unchecked": "Number of small operators, dispatch software that may already include a complaints register, whether NZTA enforcement of the complaints record is real, trucking RUC/eRUC competitors (not searched)."
+    },
+    {
+     "buyer": "Small driving schools and NZTA-approved driver training course providers.",
+     "category": "20. Small licensed premises with inspections (driving schools)",
+     "evidence": "https://www.ansr.transport.govt.nz/news/changes-to-getting-a-driver-licence ; https://www.transport.govt.nz/news/changes-to-getting-a-driver-licence ; https://www.1xx.co.nz/news/regional-news/local-driving-instructor-is-excited-for-licence-and-course-changes/",
+     "existing": "Not searched (budget). Competitor search for driving-school software and re-approval services still to run.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Driver training course provider re-approval pack (fit-and-proper, 5-year re-application)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Licensing reform confirmed 3 Feb 2026: NZTA gains power to impose conditions on, suspend or revoke approved providers; fit-and-proper checks; providers must re-apply when the legislation takes effect (reported 25 Jan 2027, one source says January 2027) and every 5 years. A one-off deadline that makes many small firms act together.",
+     "unchecked": "Exact effective date and application form; number of approved providers (likely a few hundred); existing driving-school booking software; whether defensive driving courses disappear and shrink the market. Competitor search not run."
+    },
+    {
+     "buyer": "Home-based ECE services and co-ordinators, small nanny and home-care networks.",
+     "category": "20. Small licensed premises with inspections (childminders and nurseries)",
+     "evidence": "https://www.education.govt.nz/education-professionals/early-learning/licensing-and-certification/2026-changes-licensing-criteria ; https://www.education.govt.nz/education-professionals/early-learning/licensing-and-certification/requirements-for-home-based-education-and-care-services",
+     "existing": "Related known K17 rejected as too competitive (Storypark, Educa and others, plus relief). OSCAR subsidy approval details not found.",
+     "known_id": "K17",
+     "known_mark": "new",
+     "name": "Home-based early childhood service licensing evidence pack (2026 criteria, ERO regulator)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "New home-based licensing criteria and forms from 20 Apr 2026; ERO becomes regulator 1 Sep 2026; a criterion covers out-of-school care in the home. The page lists no new record requirements.",
+     "unchecked": "Whether home-based services (as opposed to centres) have a software gap; ERO transition detail."
+    },
+    {
+     "buyer": "Horticulture and viticulture RSE employers (number not found).",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.immigration.govt.nz/assets/inz/documents/amendment-circulars/Amendment-Circular-2026-04.pdf ; https://www.immigration.govt.nz/about-us/news-centre/changes-announced-to-the-recognised-seasonal-employer-scheme/ ; https://www.hcamag.com/nz/specialisation/immigration/new-zealand-introduces-practical-changes-to-rse-scheme/584429",
+     "existing": "Not searched (budget). Competitor search still to run; horticulture HR and payroll suites likely cover part of it.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "RSE (Recognised Seasonal Employer) accreditation and cost-recovery compliance kit",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Accommodation cost-recovery level method effective 1 Apr 2026 (Amendment Circular 2026-04); package announced 28 Jul 2026: standard cost-recovery agreement, 1/3/6-year accreditation tied to compliance record, stronger pastoral care, internet at accommodation, targeted compliance framework, rollout from 2027 (one source says to 2029).",
+     "unchecked": "Number of RSE employers, whether large growers dominate the base, competing horticulture software, detailed rules (not yet published). Competitor search not run."
+    },
+    {
+     "buyer": "Disabled people and families who employ their own support workers under Individualised Funding.",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://www.ird.govt.nz/income-tax/income-tax-for-individuals/types-of-individual-income/individualised-funding/individualised-funding-for-clients ; https://visionwest.org.nz/individualised-funding-at-visionwest/ ; https://readytech.io/what-we-do/workforce/markets/nanny-payroll-systems-software-nz",
+     "existing": "IF host organisations (Manawanui, Visionwest) provide payroll and management; ReadyTech nanny payroll; US NannyPay not NZ-ready.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Individualised Funding employer payroll and records helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "IRD employer registration, PAYE, KiwiSaver, ACC unless the worker is a private domestic worker. Even with a host, the person remains the employer.",
+     "unchecked": "Number of IF employers, host-provider fees, Whaikaha funding-rule changes."
+    },
+    {
+     "buyer": "Small skip-bin, rubbish and recycling collectors and small transfer stations.",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://forms.wellington.govt.nz/s3/Collectors-Waste-Licence-application-form ; https://devtest.npdc.govt.nz/services/licenses-and-regulations/licensing-for-waste-collectors ; https://environment.govt.nz/assets/publications/Waste-disposal-levy-and-reporting-requirements-guide-for-facility-operators.pdf",
+     "existing": "Not searched. Fragmented per council, so a product must be multi-council.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "name": "Council waste-collector licence and tonnage returns manager",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Council waste bylaws require licences above tonnage thresholds (Wellington over 20 t/yr, Taupo 30 t/yr, New Plymouth up to 5-year licences reviewed annually). Facility operators report tonnages to MfE through OWLS 2.0 and the levy keeps rising ($70 per tonne from 1 Jul 2026 per MfE timeline, one other source differs).",
+     "unchecked": "Number of small collectors, whether any council uses an e-return portal, levy-return software."
+    },
+    {
+     "buyer": "Small firms owning compressors, boilers, pressure vessels, cranes and hoists.",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://registers.worksafe.govt.nz/laws-and-regulations/regulations/hse-pressure-equipment-cranes-and-passenger-ropeways-regs ; https://gazette.govt.nz/notice/id/2025-au6560",
+     "existing": "Competitor search run: only generic crane and inspection software found (SafetyCulture, Brightbox), none NZ-specific; Australian sources dominated the results.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "Pressure equipment and crane certificate-of-inspection tracker for small owners",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Health and Safety in Employment (Pressure Equipment, Cranes and Passenger Ropeways) Regulations 1999: recognised inspection bodies issue certificates of inspection; WorkSafe notices in 2024-26 are exemptions and recognitions, not rule changes.",
+     "unchecked": "The current inspection frequency by equipment type, how many small owners, whether inspection bodies already send reminders, NZ vendors."
+    },
+    {
+     "buyer": "Rural retailers, contractors and farms storing or applying class 6.1A/6.1B chemicals.",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.growsafe.co.nz/GrowSafe/News/Updates.aspx ; https://www.worksafe.govt.nz/laws-and-regulations/consultations/proposed-changes-to-class-6-performance-standard/",
+     "existing": "Spray diaries are covered (K12). Compliance-certificate tracking was not checked.",
+     "known_id": "K12",
+     "known_mark": "new",
+     "name": "Agrichemical certified-handler and hazardous-substance compliance certificate tracker",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Certified Handler certificates (Growsafe/test certifiers), hazardous-substance location compliance certificates and inventories under Health and Safety at Work (Hazardous Substances) Regulations. No 2026 change confirmed; a restricted-entry-interval consultation was open (date unconfirmed).",
+     "unchecked": "Renewal cycles, number of certified handlers, 2026 WorkSafe changes."
+    },
+    {
+     "buyer": "Small council cemeteries, church and iwi urupa, independent funeral directors.",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://www.codc.govt.nz/repository/libraries/id:2apsqkk8g1cxbyoqohn0/hierarchy/Publications/Strategies%2C%20Policies%20%26%20Bylaws/Strategies/Cemetery%20strategy%202026.pdf ; https://www.scoop.co.nz/stories/AK2504/S00204.htm ; https://www.capterra.co.nz/directory/31356/cemetery/software",
+     "existing": "Chronicle, Cemify, CemeteryFind, PlotBox, Gather and other products appear on directories; NZ use not confirmed. Auckland, Rotorua, Clutha publish searchable databases.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Cemetery and funeral-director records tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Burial and Cremation Act 1964 still in force; reform stalled; councils must keep burial records and capacity. No national records-publication duty found.",
+     "unchecked": "Which software NZ councils actually use, funeral-director workflow (death registration, cremation permits), size of the independent funeral market."
+    },
+    {
+     "buyer": "Small guiding, hunting and tourism operators with DOC concessions.",
+     "category": "20. Small licensed premises with inspections (hunting outfitters, guides)",
+     "evidence": "https://doc.govt.nz/get-involved/apply-for-permits/managing-your-concession/ongoing-concession-fees ; https://mail.nzlii.org/nz/legis/consol_act/ca1987164/s17zb.html",
+     "existing": "Not searched. DOC publishes an Active Permissions spreadsheet.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "DOC concession holder fee and audited-accounts reporting helper",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Conservation Act 1987 s17ZB: audited financial accounts within 3 months of year end when required; activity, management and monitoring fees; percentage-of-revenue fees. No hunting-specific return found.",
+     "unchecked": "Whether DOC provides return templates, concession-holder count, any 2026 changes."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "IRD private-domestic-worker rule exists; Individualised Funding (IF) recipients are household employers. IF host providers (Manawanui, Visionwest) and ReadyTech nanny payroll already serve payroll. Weak candidate C08. Nothing found on a mandatory register or authority report.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No separate NZ scrap-metal regime. Scrap metal (incl. copper) is covered by the Secondhand Dealers and Pawnbrokers Act 2004 and its scrap records (see C01). Search returned no NZ scrap-specific law change for 2025-26 and no NZ scrap association.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Police-licensed (5-year licence), dealers/pawnbrokers records, ID verification, hold and label rules, Police access. Records on paper for most dealers per Electronic Records Amendment Bill note. Strongest new lead, C01.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Fall under the Secondhand Dealers and Pawnbrokers Act if they buy used goods from the public (same buyer group and duty as C01). No separate regime found. Precious-metals AML not checked (K16 territory).",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "One search returned only US/EU sources. No NZ dismantler register or end-of-life vehicle rule confirmed. Unverified whether a regime exists.",
+     "status": "not_reached"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Transport within NZ is covered by a Code of Welfare (2016). No record-keeping duty for stock agents/transporters found. NAIT is K14 (rejected). Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Nothing new beyond K09 (not re-searched, per rules).",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Nothing new beyond K20 (not re-searched, per rules).",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Antibiotic sales summary duty sits with ACVM registrants, not clinics (older MPI source). No 2026 clinic-level reporting rule found. Vet practice management software market is established. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Water measuring/reporting regulations: 15-minute logging and daily telemetry for consented takes of 5 l/s or more, final deadline 3 Sep 2026 (passed). Irrigation NZ Blue Tick accredited suppliers handle install, verification and data. Weak candidate C02.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Septic covered by K06. Waste haulers licensed by council bylaws (Wellington over 20 t/yr, Taupo 30 t/yr); no national hauler licence. Facility-level levy reporting via OWLS 2.0 (facility operators, not haulers). Weak candidate C09.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "PECPR Regulations 1999 still apply with recognised inspection bodies and certificates of inspection; WorkSafe 2024-26 notices are exemptions/recognitions, not a rule change. Lifts as BWOF specified systems are K04. Candidate C10 unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "nothing new beyond K03",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Certified Handler (class 6.1A/6.1B) and hazardous-substance compliance certificates via WorkSafe test certifiers; no 2026 change confirmed. Spray diaries are K12. Weak candidate C11.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "RSE scheme package announced 28 Jul 2026 (rollout from 2027): 1/3/6-year accreditation, standard cost-recovery agreement, accommodation levels from 1 Apr 2026, pastoral care. AEWV is K01. Candidate C07 related to K01.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Burial and Cremation Act 1964 reform stalled; no national records duty found. Cemetery and funeral software exists (Chronicle, Cemify, PlotBox, Gather, others on directories). Weak candidate C12.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Incorporated Societies Act 2022 re-registration deadline passed 5 Apr 2026; about 1,800 societies struck off (one news estimate); restoration open until 6 Apr 2032 (fee $177.78 plus GST). 1,913 charities were at risk of deregistration. Annual return due within 6 months of balance date. Halal/kosher not searched. Candidate C03.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Small Passenger Service Licence regime: complaints register kept 2 years, driver P endorsement, cameras, work-time logbooks. Sep 2026 industry push for mandatory cameras. No NZ operator compliance software found. Trucking RUC/eRUC not searched. Candidate C04.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Market and mobile food traders register under Food Act 2014 with councils (food side near K09). Money changers: FSP registration and DIA AML/CFT supervision, source was a consultancy page only (K16 territory, unverified). Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Driving schools: NZTA new powers over approved course providers, re-application required from about Jan 2027, then every 5 years (C05). Home-based ECE: new licensing criteria 20 Apr 2026, ERO takes over regulation 1 Sep 2026 (C06, near K17). DOC concession holders: Conservation Act s17ZB audited accounts, nothing hunting-specific (C13). Tattoo studios not searched (no national licence confirmed). Small food producers see K09.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "second-hand dealers pawnbrokers Act 2004 Police licence record keeping reporting New Zealand 2026",
+    "scrap metal dealers New Zealand regulation register law change 2025 2026",
+    "vehicle dismantler end-of-life vehicles New Zealand regulation NZTA register dismantlers",
+    "water take measuring reporting regulations telemetry deadline small farms regional council New Zealand 2026",
+    "pressure equipment cranes WorkSafe PECPR certificate of inspection owners small business software",
+    "incorporated societies re-registration deadline 2026 outcome societies removed charities annual return New Zealand",
+    "hazardous substances location compliance certificate agrichemical dealers test certificate WorkSafe changes 2026 New Zealand",
+    "Transport Service Licence small operators passenger service licence changes 2026 NZTA driver work time logbook",
+    "funeral directors cemetery records Burial and Cremation Act reform New Zealand 2026 council cemetery database",
+    "veterinary medicines ACVM prescription reporting antibiotic sales vet practices New Zealand 2026 requirement",
+    "waste levy disposal facility reporting waste haulers licensing New Zealand 2026",
+    "Recognised Seasonal Employer RSE labour hire accreditation compliance employers 2026 new requirements",
+    "WorkSafe New Zealand pressure equipment cranes passenger ropeways regulations 2025",
+    "individualised funding employer disability support household employer payroll nanny employer IRD New Zealand software",
+    "DOC concession holders annual return activity report guides hunting outfitters 2026",
+    "home-based early childhood educators OSCAR approval subsidy compliance New Zealand 2026",
+    "stock agents livestock transporters animal welfare transport regulations record New Zealand 2026",
+    "driver training providers NZTA driving instructor licence driving school compliance New Zealand 2026",
+    "secondhand dealer pawnbroker software New Zealand dealers record Police electronic reporting",
+    "water meter telemetry approved supplier consent holders compliance reporting service New Zealand"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b6"
+ },
+ "discover:B:new-zealand": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Volunteer-run clubs, sports, cultural and community societies (secretaries/treasurers) and the accountants or club bodies that serve them",
+     "category": "31. Incorporated societies: post-2022 Act ongoing duties",
+     "evidence": "https://is-register.companiesoffice.govt.nz/help-centre/getting-started/your-responsibilities (fetched); https://duncancotterill.com/insights/incorporated-societies-act-2022-what-happens-if-you-miss-the-re-registration-deadline/ ; https://www.clubsnz.org.nz/key-changes-to-the-incorporated-societies-act ; https://community.net.nz/resources/nz-navigator-trust/what-information-incorporated-societies-should-keep ; https://is-register.companiesoffice.govt.nz/news-and-notices/law-changes-for-incorporated-societies-come-into-force ; about 1,800 societies removed 6 April 2026 and 360 charity-registered societies warned; transition for some provisions to 5 Oct 2028.",
+     "existing": "Competitor search 'incorporated society software officers register members register annual return NZ' found only official register, CommunityNet guides and law-firm explainers; no dedicated app seen. Generic club-management/accounting tools (e.g. Xero) and club-body advice exist but were not checked. Official register is free for filing.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Incorporated Society Compliance Pack (officer/member/interests registers, annual return, balance-date calendar) for small clubs and associations",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Incorporated Societies Act 2022: annual financial statements + annual return within 6 months of balance date; officer/contact changes within 20 working days; members register with 7-year history; interests register; constitution amendments registered within 25 days; Registrar removals continue (s175).",
+     "trigger_note": "",
+     "unchecked": "Number of live societies (register page did not state it); willingness to pay of volunteer committees; Charities Services annual-return overlap for charity-registered societies; whether sports bodies (Sport NZ, Clubs NZ) bundle tools; whether the post-April 2026 restoration wave (open to 6 April 2032) creates a paid done-for-you service."
+    },
+    {
+     "buyer": "Class 1 and Class 2 licensed financial advice providers (mortgage brokers, insurance advisers, small advice firms)",
+     "category": "32. Financial advice providers (FMA)",
+     "evidence": "https://www.mpamag.com/nz/news/general/annual-regulatory-returns-required-for-faps/498221 ; https://www.charteredaccountantsanz.com/member-services/technical/tax/tax-in-focus/key-steps-for-mandatory-financial-advice-provider-regulatory-returns ; https://www.fma.govt.nz/assets/Licensing-guides/Standard-Conditions-for-full-FAP-licences.pdf ; https://www.mpamag.com/nz/news/general/fma-censures-go-financial-solutions-for-licence-obligations-breaches/470281 ; about 1,550 FAPs filed 2024-25 return (secondary source).",
+     "existing": "Competitor search found no NZ-specific FAP compliance platform; only generic complaints tools (Aptean, Civica) and a US-oriented tool. Search quality was poor, so adviser-compliance consultancies and broker-network (aggregator) tools may exist and were not confirmed. FMA form is pre-populated, which cuts pain.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "FAP regulatory return, complaints register and 7-year record pack for sole and small financial advice providers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Licence condition: annual FMA regulatory return 1 July to 30 September (all licensed entities at 30 June); internal complaints process with records kept 7 years; FMA monitoring censures for poor record-keeping and suitability evidence.",
+     "trigger_note": "",
+     "unchecked": "Whether broker aggregators and licence-holding networks (which carry authorised bodies) already supply compliance tooling; FMA return effort in practice; adviser willingness to pay; annual peak only in Jul-Sep."
+    },
+    {
+     "buyer": "Private landlords and small property managers",
+     "category": "37. Residential landlords: Healthy Homes and tenancy paperwork",
+     "evidence": "https://tenancy.govt.nz/forms-and-resources/item/1369/compliance-statement ; https://www.tenancy.govt.nz/healthy-homes/compliance-statement/compliance-statement-tool/ ; https://tenancy.govt.nz/about-tenancy-services/news/changes-to-the-healthy-homes-standards-finalised",
+     "existing": "Tenancy Services provides a free compliance statement tool and templates; property-management platforms not searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Healthy Homes statement and tenancy paperwork for small landlords",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Compliance statement in new or renewed tenancy agreements (penalty up to $500 for omission); all rentals had to comply by 1 July 2025.",
+     "trigger_note": "",
+     "unchecked": "Property-management software coverage; deadline already passed so no urgency."
+    },
+    {
+     "buyer": "Independent service stations, LPG exchange outlets, rural fuel depots, farm-supply stores holding over 100 kg LPG or 50 L petrol",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/certification-authorisation-approvals-and-licensing/certification-of-sites/location-test-certificates ; https://www.worksafe.govt.nz/topic-and-industry/hazardous-substances/guidance/industry-guidance/service-stations/ ; https://worksafe.govt.nz/topic-and-industry/hazardous-substances/certification-authorisation-approvals-and-licensing/certification-of-equipment-plant-buildings/dispensers/",
+     "existing": "Competitor search found no NZ tracker for location certificate expiry; only generic SDS/inventory tool SafeSheet (US rules) and WorkSafe's free online calculator. Certifiers may offer portals (unchecked).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Location Compliance Certificate and dispenser-approval tracker for service stations and LPG retailers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Hazardous Substances Regulations 2017: Location Compliance Certificate renewed every 1 year (3 on application) via a private compliance certifier; WorkSafe notice 30 working days (LPG 5) before commissioning; dispenser approvals valid 5 years; worker training records reviewed at renewal.",
+     "trigger_note": "",
+     "unchecked": "Number of sites; certifier/LPG association (LPGA NZ) tooling; whether certifiers already send reminders; buyer would mostly be certifiers, not sites."
+    },
+    {
+     "buyer": "Dental practices, small veterinary and chiropractic/podiatry X-ray owners (managing entity)",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://www.health.govt.nz/publications/compliance-guide-for-dental-radiology-including-dental-cone-beam-ct-ors-g4 ; https://dcnz.org.nz/resources-and-publications/updates/new-folder-page-4/radiation-safety-compliance ; https://www.nzlii.org/nz/legis/consol_act/rsa2016173/s28.html ; https://dcnz.org.nz/resources-and-publications/publications/newsletters/view/24?article=8",
+     "existing": "Not checked (competitor search not run: budget used). Practice-management systems and dental associations (NZDA) likely give guidance only.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Radiation source licence and radiation safety plan manager for dental and small X-ray practices",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Radiation Safety Act 2016 s13 source licence for any X-ray unit, renewable up to 3 years before expiry (s28), variation required for changes such as CBCT, radiation safety plan; Ministry of Health has prosecuted practices without a valid licence.",
+     "trigger_note": "",
+     "unchecked": "Number of licensed practices; current fee schedule (only 2018 figures seen); competitor products; whether ORS has an online portal; veterinary and other X-ray users also covered."
+    },
+    {
+     "buyer": "Small bars, restaurants, bottle stores, clubs and their duty managers",
+     "category": "33. Alcohol licensing",
+     "evidence": "https://minterellison.co.nz/insights/alcohol-licensing-reform-bill-aims-to-streamline-and-modernise-regulation ; https://www.harknesshenry.co.nz/2026/04/15/sale-and-supply-of-alcohol-improving-alcohol-regulation-amendment-bill-what-it-means-for-licence-holders/ ; https://www.mdc.govt.nz/services/alcohol-licensing/mangers-certificates ; https://www.justice.govt.nz/tribunals/arla/register-of-licences-and-certificates/",
+     "existing": "Not checked (competitor search not run: budget used). Council DLC portals and ARLA register exist; hospitality rostering tools may include reminders.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Alcohol licence renewal, manager's certificate and Licence Controller Qualification tracker for small licensees",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Sale and Supply of Alcohol Act 2012: premises licence renewal, manager's certificates 1-3 years, club managers need LCQ to renew beyond 12 months; 2026 Improving Alcohol Regulation Amendment Bill (introduced 16 March 2026) changes renewal and objection rules.",
+     "trigger_note": "",
+     "unchecked": "Bill stage and final text; competitor products; whether renewals are annual enough to pay; manager-level buyers are individuals."
+    },
+    {
+     "buyer": "Dairies, service stations, supermarkets selling vapes (RPS), specialist vape stores (AVP), vape importers/manufacturers",
+     "category": "35. Vaping and smokefree retailers and importers",
+     "evidence": "https://www.health.govt.nz/regulation-legislation/vaping-herbal-smoking-and-smokeless-tobacco/retailers-of-vaping-and-tobacco-products ; https://thespinoff.co.nz/society/08-06-2026/no-one-knows-how-many-vape-shops-there-are-in-new-zealand (fetched: 1,337 AVPs, 1,694 RPS filers over 2,100 stores, 132 online sites) ; https://www.health.govt.nz/regulation-legislation/vaping-herbal-smoking-and-smokeless-tobacco/importers-manufacturers-and-distributors/product-notifications-for-manufacturers-and-importers",
+     "existing": "Not checked (competitor search not run: budget used). Ministry runs the free HARP platform; Spinoff article mentions no software.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Regulated Product Seller notification and Approved Vaping Premises compliance helper for vape and dairy retailers",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Smokefree Environments and Regulated Products Act: annual RPS renotification ($80+GST), per-store AVP approval, product notification by importers, display-restriction rules with increased penalties, disposable vape ban; retail checks and controlled purchase operations by enforcement officers.",
+     "trigger_note": "",
+     "unchecked": "Renewal mechanics for AVPs; product-notification annual cycle for importers; competitor tools; whether obligation is simple enough to need software."
+    },
+    {
+     "buyer": "Small private training establishments (language schools, trade and vocational trainers) and compliance consultants",
+     "category": "36. Private training establishments and pastoral care",
+     "evidence": "https://www2.nzqa.govt.nz/about-us/rules-fees-policies/nzqa-rules/pte-registration-rules/ ; https://www2.nzqa.govt.nz/tertiary/approval-accreditation-and-registration/maintaining-pte-registration ; https://www2.nzqa.govt.nz/assets/Tertiary/NZQAs-QA-system/Quarterly-table-of-requirements-for-TEOs.pdf ; https://www2.nzqa.govt.nz/assets/Tertiary/NZQAs-QA-system/Statutory-Declarations/PTE-Annual-Declaration-Form.docx",
+     "existing": "Not checked (competitor search not run: budget used). Student-management systems and QA consultants likely overlap.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Annual Declaration and Pastoral Care self-review attestation pack for small private training establishments",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "PTE Rules 2026 (in force 19 Jan 2026) and QA Rules 2022 r16: Annual Declaration within 5 months of financial year end; Pastoral Care Code (22 outcomes) annual self-review attestation to NZQA; fit-and-proper and conflict declarations; quarterly student fee protection attestation for some.",
+     "trigger_note": "",
+     "unchecked": "Number of PTEs; whether student-management vendors (e.g. for PTEs) already generate NZQA reports; 2026 relief reduces burden (biennial returns for non-funded PTEs)."
+    },
+    {
+     "buyer": "Small class 4 corporate societies, club societies, pub venues",
+     "category": "34. Class 4 gambling (pokie) societies and venues",
+     "evidence": "https://www.dia.govt.nz/Services-Casino-and-Non-Casino-Gaming-Gambling-in-Pubs-and-Clubs-%28Class-4%29 ; https://www.dia.govt.nz/diawebsite.nsf/wpg_URL/Services-Casino-and-Non-Casino-Gaming-Class-4-gambling-financial-compliance-library ; https://www.kaikoura.govt.nz/council/public-notices/zclosed-public-notices/class-4-gambling-policy-2026",
+     "existing": "Not checked. Audited statements and professional auditors make the buyer sophisticated; no 2026 return change found.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Class 4 gambling venue and society returns helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Gambling Act 2003: audited annual report to DIA within 3 months of year end, ARN cost rules, minimum return to community; councils reviewing venue policies in 2026.",
+     "trigger_note": "",
+     "unchecked": "Number of societies versus venues; current minimum return rate; any software used by societies."
+    },
+    {
+     "buyer": "Small commercial head contractors holding subcontractor retentions",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "https://www.building.govt.nz/about-building-performance/all-news-and-updates/new-retention-money-requirements-now-in-force ; https://www.building.govt.nz/projects-and-consents/why-contracts-are-valuable/construction-contracts-act-2002/retention-money-resources ; https://www.payapps.com/blogs-nz/navigating-new-retention-legislation-in-new-zealand/",
+     "existing": "Competitor search found Payapps (listed on MBIE's retention resources page, with retention fund tracking and reporting) and WorkBench (bulk Retention Balance reports and trust account list). Dominant for the core job.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Retention money trust ledger and quarterly subcontractor reports for small head contractors",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Construction Contracts (Retention Money) Amendment Act 2023 (in force 5 Oct 2023): retentions held on trust in a separate account, quarterly reports to subcontractors, fines up to $50,000 director / $200,000 company.",
+     "trigger_note": "Related to K15 (construction compliance tools rejected).",
+     "unchecked": "Whether very small head contractors use either product; Payapps pricing."
+    },
+    {
+     "buyer": "Small forest owners, log traders, first-stage processors, exporters",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://www.mpi.govt.nz/legal/legislation-standards-and-reviews/proposed-legislation-for-a-legal-harvest-assurance-system-for-forestry (update 29 July 2026: Cabinet to replace the 2023 Act with a voluntary, opt-in system from 1 March 2028; mandatory registration and reporting removed) ; https://www.mpi.govt.nz/forestry/forest-industry-and-workforce/registration-of-forestry-professionals (log trader/adviser registration repealed 29 June 2024)",
+     "existing": "None needed: duty removed.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Rejected on MPI's own 29 July 2026 update; MPI's older page still shows 1 Aug 2027, and bill introduction not confirmed.",
+     "name": "Legal Harvest Assurance registration for log buyers, processors, importers and exporters",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Forests (Legal Harvest Assurance) Amendment Act 2023, previously due 1 Aug 2027.",
+     "trigger_note": "",
+     "unchecked": "Bill status in Parliament."
+    },
+    {
+     "buyer": "Small post-1989 forest owners (under 100 ha, about 80% of participants), farmers with woodlots",
+     "category": "38. Forestry ETS participants",
+     "evidence": "https://www.mpi.govt.nz/forestry/forestry-in-the-emissions-trading-scheme/emissions-returns-and-carbon-units-nzus-for-forestry/emissions-returns-and-mandatory-emissions-return-periods-in-the-ets ; https://www.mpi.govt.nz/forestry/forestry-in-the-emissions-trading-scheme/emissions-returns-and-carbon-units-nzus-for-forestry/late-or-inaccurate-emissions-returns ; https://interpine.nz/landowners-in-the-ets-claim-your-nzus-with-a-provisional-emissions-returns-per/",
+     "existing": "MPI Tupu-ake is free; forestry consultancies (e.g. Interpine) offer paid returns; no competitor search on software run.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Forestry ETS emissions return service for small forest owners",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Climate Change Response Act: mandatory emissions return 2023-25 was due 1 Jan to 30 June 2026 (late-return process now); next return 2031; optional provisional returns each year; Tupu-ake tool open to 1 hour before deadline from 1 Jan 2026.",
+     "trigger_note": "Related to K15 (climate reporting rejected).",
+     "unchecked": "Late-return backlog size; consultant market; five-year return cycle means low frequency."
+    },
+    {
+     "buyer": "Small wineries and contract winemakers",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://www.nzwine.com/en/about-us/membership/wine-standards-management-plan/ ; https://www.mpi.govt.nz/export/food/exporting-new-zealand-grape-wine ; https://www.legislation.govt.nz/act/public/2003/114/en/2026-07-10.pdf",
+     "existing": "NZ Winegrowers Code of Practice acts as the template plan; winery production software not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Wine Standards Management Plan record keeper for small wineries",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Wine Act 2003: registered WSMP required unless very-small-winemaker exemption (under 20,000 L over two years, no export); exporters certify via MPI Trade Certification.",
+     "trigger_note": "Related to K08 (MPI trade certification rejected) and K09.",
+     "unchecked": "Winery count and existing record software."
+    },
+    {
+     "buyer": "Small independent rest homes, residential disability and home-support providers",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://www.health.govt.nz/regulation-legislation/certification-of-health-care-services/for-residents-and-families/rest-home-certification-and-audits ; https://consult.health.govt.nz/healthcert/nga-paerewa-consultation-2026/",
+     "existing": "Not checked; aged-care operators and care-quality software likely present.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "HealthCERT certification evidence pack for small rest homes and private hospitals",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Health and Disability Services (Safety) Act: certification and surveillance audits every 1-4 years against Ngā Paerewa NZS 8134:2021, partial provisional audits when adding services; Ministry scoping review Feb-Mar 2026, no amendments proposed yet.",
+     "trigger_note": "",
+     "unchecked": "Competitors; audit-prep demand; whether review leads to a new standard."
+    },
+    {
+     "buyer": "Small security and investigation firms that must employ licensed or approved staff",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://www.justice.govt.nz/tribunals/pspla/ ; https://justice.govt.nz/tribunals/licences-certificates/pspla",
+     "existing": "Not checked; rostering and payroll tools probably cover expiry reminders.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "PSPLA licence and certificate-of-approval expiry tracker for security firms",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Private Security Personnel and Private Investigators Act: licences and certificates of approval; fees up 2.25% from 1 July 2026; new directions on digital and temporary COAs.",
+     "trigger_note": "",
+     "unchecked": "Renewal cycle length, competitors, authority direction text."
+    },
+    {
+     "buyer": "Airbnb/Bookabach hosts and guest houses",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://rtnz.org.nz/rtos-urge-commitment-to-nationwide-accommodation-levy/ ; https://thespinoff.co.nz/society/09-02-2026/is-2026-the-year-new-zealand-councils-crack-down-on-airbnb-operators",
+     "existing": "Platforms already collect GST since 1 April 2024.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Watch item: becomes relevant only if a national register is legislated.",
+     "name": "Short-term rental host compliance (council consent nights, GST, future register/levy)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "None national: no register or levy today; council rules like Christchurch consent thresholds; Regional Tourism NZ lobbying for national register and levy.",
+     "trigger_note": "",
+     "unchecked": "Any council registers beyond Christchurch."
+    },
+    {
+     "buyer": "Small law, accounting and real estate firms",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.dlapiper.com/en/insights/publications/2025/12/changes-to-the-anti-money-laundering-and-countering-financing-of-terrorism-regime ; https://www.simpsongrierson.com/insights-news/legal-updates/dia-takes-the-reins-what-reporting-entities-need-to-know-about-the-new-amlcft-guidance-package ; https://support.firstaml.com/support/solutions/articles/69000817635-annual-reporting-for-nz-reporting-entities",
+     "existing": "FirstAML already documents annual reporting; crowded KYC market.",
+     "known_id": "K16",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K16; the 2026 changes (risk-based source of wealth, DIA sole supervisor) are relief and guidance, not a gap, so no revive.",
+     "name": "AML/CFT annual report and programme tools for DIA-supervised small entities",
+     "score": 0,
+     "status": "weak",
+     "trigger": "AML/CFT Amendment Act in force 19 May 2026; DIA sole supervisor from 1 July 2026; annual report via AML Online.",
+     "trigger_note": "",
+     "unchecked": ""
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Sites holding over 100 kg LPG or 50 L petrol need a Location Compliance Certificate from a private compliance certifier (1 year, extendable to 3; up to 3 years for toxic/corrosive or under 300 kg LPG), plus WorkSafe notice 30 working days (5 for LPG) before commissioning and 5-year dispenser approvals (WorkSafe pages). No NZ tracker software found. One candidate (N04). Fuel distributor-level duties and biofuel obligations not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "No NZ grain/coffee/cocoa trader regime found or searched; the only relevant regime is the Wine Act 2003 (Wine Standards Management Plan, very-small-winemaker exemption under 20,000 L over two years and no export, MPI Trade Certification replaced Wine e-Cert 25 Nov 2024). NZ Winegrowers code of practice already supplies the template. Weak candidate N11.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Deposit Takers Act 2023 covers credit unions and building societies, but the pool is very small and RBNZ has delayed standards to Dec 2028 (Central Banking), so no near-term trigger. Co-operative-style bodies are mostly incorporated societies, covered by N01. Nothing new beyond that.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Dental/other X-ray practices need a Radiation Safety Act 2016 source licence (renewable up to 3 years, variation needed for CBCT, prosecutions reported by Dental Council) - candidate N05. HealthCERT certification of rest homes/private hospitals under Ngā Paerewa NZS 8134:2021; Ministry scoping review Feb-Mar 2026 with no amendments proposed - weak N12. ACC invoicing and practice-management software not searched (likely crowded).",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Medicines Amendment Act 2025 repealed s42C (prescriber pharmacy-interest licence) and added faster overseas-approval route; commencement and controlled-drug register changes not confirmed. Nothing new for software. Pharmacy CD register and precursor rules not checked further.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "PSPLA licences and certificates of approval; application fees up 2.25% from 1 July 2026; new authority directions on digital and temporary COAs (justice.govt.nz). No labour-hire licensing regime found (not searched). Weak candidate N13.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Construction Contracts (Retention Money) Amendment Act 2023 (in force 5 Oct 2023): commercial head contractors hold retentions on trust, separate account, quarterly reports to subcontractors, fines up to $50k director / $200k company. Payapps and WorkBench already serve this and MBIE lists Payapps. Weak N06. Mining/quarry and local-content not applicable/not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "AML/CFT Amendment Act in force 19 May 2026; DIA became sole supervisor 1 July 2026 and issued 23 guidance pieces; annual report via AML Online; transaction report filing window extended 10 to 20 working days by Statutes Amendment Act (26 Nov 2025). Vendors such as FirstAML already publish annual-report help, so nothing beyond K16. FAP regulatory returns (financial advisers) found and listed as N02.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "No national short-term rental register or accommodation levy; only council planning rules (e.g. Christchurch consent thresholds) and platform-collected GST since 1 April 2024; Regional Tourism NZ is lobbying for a register and levy (RTNZ). No current trigger; watch item N14. No guest-register duty found.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Mandatory log-trader/forestry-adviser registration was repealed 29 June 2024. Legal Harvest Assurance Act 2023 (previously due 1 Aug 2027) is being replaced: MPI update 29 July 2026 says a voluntary, opt-in system from 1 March 2028 with mandatory registration and reporting removed - candidate dead (N10). Wine export covered under 22. MPI food export certification already rejected as K08. EU deforestation and imported-food importer registration not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Incorporated societies: post-2022 Act ongoing duties (country-specific)",
+     "found": "Re-registration closed 5 April 2026; about 1,800 societies removed from the register on 6 April and 360 charity-registered societies warned (Duncan Cotterill / CA ANZ / Companies Office); restoration open to 6 April 2032. Ongoing duties: annual financial statements and return within 6 months of balance date, officer consent and 20-working-day change notices, members register with 7-year history, interests register, 8 years of accounting records, constitution amendments registered within 25 days. Candidate N01.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Financial advice providers (FMA) (country-specific)",
+     "found": "About 1,550 licensed FAPs filed the 2024-25 regulatory return; the window is 1 July to 30 September each year (so 2026 just closed); standard licence conditions require complaints process with 7-year records. No NZ FAP-specific compliance platform surfaced. Candidate N02.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Alcohol licensing: premises, managers' certificates, clubs (country-specific)",
+     "found": "Sale and Supply of Alcohol (Improving Alcohol Regulation) Amendment Bill introduced 16 March 2026 (DLCs can't decline renewals solely for LAP inconsistency, narrower objectors). Manager's certificates renew for up to 3 years, club managers need the Licence Controller Qualification to renew beyond 12 months. Candidate N07; competitor search not run.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Class 4 gambling (pokie) societies and venues (country-specific)",
+     "found": "Corporate societies must file audited annual report within 3 months of year end and meet actual/reasonable/necessary cost rules (DIA); councils reviewing venue policies in 2026; Online Casino Gambling Act 2026 separate. Pool is sophisticated trusts, so weak N09.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Vaping and smokefree retailers and importers (country-specific)",
+     "found": "General retailers must file annual Regulated Product Seller notification ($80+GST); specialist vape retailers need per-store AVP approval; importers/manufacturers must notify products; 1,337 AVPs, 1,694 RPS filers (2,100+ stores), 132 online sites (Spinoff, June 2026); display restrictions and higher penalties now in force. Candidate N08.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Private training establishments and pastoral care (country-specific)",
+     "found": "PTE Rules 2026 in force 19 Jan 2026 (annual fee removed, non-funded PTEs file financial returns biennially); Annual Declaration within 5 months of year end; Pastoral Care Code annual self-review attestation to NZQA. Candidate N15.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Residential landlords: Healthy Homes and tenancy paperwork (country-specific)",
+     "found": "Healthy Homes compliance deadline 1 July 2025 has passed; compliance statement needed in new or renewed tenancies (penalty up to $500 for omission); two minor standards changes 25 Sept 2025. Mostly households; weak N03.",
+     "status": "screened"
+    },
+    {
+     "category": "38. Forestry ETS participants (small forest owners) (country-specific)",
+     "found": "Mandatory emissions return for 2023-25 was due 1 Jan to 30 June 2026 (late-return process now with 20 working-day grace); next return 2031; MPI's free Tupu-ake tool calculates it and ~80% of participants are small-scale. Weak N16.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Incorporated Societies Act 2022 re-registration deadline 2026 societies not re-registered",
+    "financial advice provider annual return FMA 2026 small FAP licence changes",
+    "Class 4 gambling venue licence societies returns DIA 2026 pub trusts changes",
+    "vape retailer notification Ministry of Health specialist vape retailer register product notification 2026",
+    "petrol station hazardous substances location compliance certificate test certificate WorkSafe fuel retailer",
+    "Healthy Homes compliance statement landlords tenancy agreement 2026 requirements Tenancy Services",
+    "Private Security Personnel Licensing Authority certificate of approval security guard company licence renewal changes 2026",
+    "NZQA private training establishment annual return requirements pastoral care code 2026",
+    "Deposit Takers Act credit unions building societies licensing 2026 prudential reporting small",
+    "radiation safety licence dental practice x-ray Radiation Safety Act 2016 Ministry of Health licence renewal",
+    "Medicines Act 2025 New Zealand pharmacy licensing controlled drugs register changes pharmacists commencement",
+    "retention money trust construction contracts amendment 2026 builders subcontractors compliance",
+    "short-term rental accommodation New Zealand 2026 register hosts Airbnb rules council visitor levy",
+    "forestry adviser registration Forests Act log traders exporters registered MPI requirements 2026",
+    "winery wine standards management plan Wine Act 2003 MPI small wine producers records export",
+    "alcohol licence manager's certificate renewal Sale and Supply of Alcohol Act 2026 reforms licensing trust",
+    "Forests Legal Harvest Assurance regime commencement date registration log traders exporters 2026 MPI update",
+    "ETS forestry emissions return small forest owners deadline software tool post-1989 forest 2026",
+    "AML/CFT Amendment Act 2025 changes reporting entities real estate agents lawyers accountants 2026 annual report DIA",
+    "Health and Disability Services Standards certification audit small rest homes private hospitals 2026 new standard Health NZ"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b6"
+ },
+ "gapfill:new-zealand": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Sole-trader and small LBP trades (carpenters, roofers, foundations, bricklayers, designers) and small builders, plus the main contractors who collect RoWs for code compliance certificates",
+     "category": "33. Licensed Building Practitioner (LBP) Record of Work and licence renewal",
+     "evidence": "building.govt.nz 'Carrying out restricted building work'; PlaceMakers Under Construction 'How to avoid record of work woes' and 'Records of Work'; MBIE CodeWords; July 2024 article noting the Building Practitioners Board still gets a high number of complaints about missing RoWs (12% of complaints historically involve withholding RoWs until payment); about 27,000 LBPs holding 31,700 licences (2022). Skills-maintenance guidance from PlaceMakers/ITM/Carters/Placemakers. Competitor search 'Record of Work app LBP Tradify Buildxact' found no dedicated product; only a GoShift guide to completing the LBP record (simpli.govt.nz PDF) and generic guidance.",
+     "existing": "Tradify, Buildxact and Fergus may have RoW templates, but this was not verified. Industry skills-maintenance trackers from merchants (PlaceMakers, ITM, Carters). MBIE LBP portal handles the renewal declaration.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "LBP Record of Work / Certificate of Design Work issuer and skills-maintenance record keeper for sole-trader builders",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Building Act 2004 s88: each LBP doing or supervising restricted building work must give a RoW to the owner and the council at completion. A CoDW is needed for design work. Two-yearly skills-maintenance relicensing with MBIE.",
+     "trigger_note": "Related to K05 (granny-flat PIM pack) but a different duty and buyer group.",
+     "unchecked": "Whether Tradify, Buildxact, Fergus, Planpoint or council portals (e.g. Auckland's) already generate RoWs and chase subcontractor RoWs; how RoWs are submitted (email, portal, PDF); the current LBP count and 2026 rule changes (owner-builder changes, Code of Ethics); willingness to pay for a point tool."
+    },
+    {
+     "buyer": "Sole-trader electricians, small electrical firms, and gasfitters; plus EWRB-registered inspectors",
+     "category": "32. Electrical, gas, plumbing practising-licence regimes beyond K02",
+     "evidence": "Gazette notices on competence programme; worksafe.govt.nz electrical certification and ROI templates; CoC checklists (registers.worksafe.govt.nz dmsdocument 722 and 1826); WorkSafe 'Important update: changes to electricity and gas safety regulations' (compliance date 12 Nov 2026, content unread because the fetch failed); competitor search found CERTIFi (tradecert.app electrical certification software) and GoCanvas NZ CoC templates for electrical and gas.",
+     "existing": "CERTIFi, GoCanvas, WorkSafe templates, Tradify/Fergus job apps. K15 already rejected electrical CoC tooling on those grounds.",
+     "known_id": "K15",
+     "known_mark": "known",
+     "name": "Electrician and gasfitter licence/competence-programme and CoC/RoI/Energy Safety tracker (post-Nov-2026 regs amendment)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "EWRB biennial licence renewal with an endorsed competence programme; CoC (Electricity (Safety) Regs 65-67), RoI for high-risk prescribed electrical work (reg 72), gas CoC and Gas Safety Certificate (Gas Regs 46-48); electrical regulation amendments made late 2025 with mandatory compliance from 12 November 2026.",
+     "trigger_note": "Same buyer group and duty as the CoC part of K15. Not revived: the Nov 2026 amendment date is new but its content is unconfirmed, and the competitors above stand. A licence-renewal and competence-programme reminder is a small add-on.",
+     "unchecked": "What the Nov 2025 amendments change in certificates, records or registers; whether WorkSafe's electrical CoC register needs per-job lodgement and whether it has an API; the number of licensed electricians; whether CERTIFi covers EWRB renewal tracking."
+    },
+    {
+     "buyer": "Small residential property management firms and sole-trader property managers, including those in agencies",
+     "category": "34. Real estate agents and property managers",
+     "evidence": "tenancy.govt.nz news 24 March 2026 (fetched; no detail); hud.govt.nz and rea.govt.nz pages on the Residential Property Managers Bill; Bill discharged June 2024; NZPIF and REINZ reaction.",
+     "existing": "Property-management systems (Reapit, MRI, PropertyTree, Console Cloud) cover trust accounting; none known for a new regime that does not yet exist.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Residential property manager 'light-touch' regime compliance pack (if legislated)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Government announced a 'light-touch' regulatory regime for Residential Property Managers on 24 March 2026; no bill or commencement date yet, subject to legislative priorities.",
+     "trigger_note": "Conditional on legislation; revisit when a bill appears.",
+     "unchecked": "Bill number, scope (licensing, trust accounts, code of conduct), the regulator, commencement; how many property managers there are; PropertyTree/Console existing compliance modules. A competitor search was not run for this specific candidate."
+    },
+    {
+     "buyer": "Small and sole-trader real estate agencies (REAA-licensed) with trust accounts",
+     "category": "34. Real estate agents and property managers",
+     "evidence": "nzlii REAA s29 and Audit Regulations; REA Audit Programme Guide PDF; scoop.co.nz BU2609 story on the Tribunal decision. Competitor search found Reapit, MRI Software NZ trust accounting and TrustSoft marketed as compliant in NZ.",
+     "existing": "Reapit, MRI, TrustSoft; accountants and auditors who do the audits.",
+     "known_id": "K16",
+     "known_mark": "new",
+     "name": "Real estate agency trust-account audit and monthly reconciliation pack for small agencies",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Real Estate Agents Act 2008 and Real Estate Agents (Audit) Regulations 2009: monthly balance lists and reconciliations, annual auditor's report. Enforcement: Tribunal fined One Up Realty Ltd $18,000 in a decision released 14 August 2026 for failing to appoint an auditor 2018-2024.",
+     "trigger_note": "Different duty from K16 (AML/CFT); only loosely related.",
+     "unchecked": "How many agencies are small enough to lack a system; which tools small agencies use; REA annual return duties."
+    },
+    {
+     "buyer": "Owner-driver and small trucking firms holding a goods service licence (GVM 6,000 kg or more)",
+     "category": "35. Heavy-transport operator records beyond SPSL",
+     "evidence": "nzta.govt.nz goods-service-licence page; NZ Trucking/Transporting NZ submissions (Oct 2025 and Aug 2026); transport.govt.nz news on the bill; dealsonwheels and fullyloaded articles and Gazette notices for approved e-logbooks (EROAD, Logmate, Trackit, TeletracNavman); odt.co.nz on licence revocations. Competitor search found multiple approved e-logbook apps and eRUC providers.",
+     "existing": "EROAD, TeletracNavman, Trackit, Logmate (logbooks and eRUC); fleet management suites.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Goods-service operator compliance pack for owner-driver trucking (TSL audit readiness, CoF/WoF, RUC debt, logbook retention)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Land Transport Act 1998 s30L fit-and-proper test and NZTA compliance reviews/COAT; Work Time and Logbooks Rule 62001 (logbook kept 12+ months); Regulatory Systems (Transport) Amendment Act 2026 (TSL enforcement changes, electronic displays of CoF/WoF labels); eRUC and digital RUC reforms.",
+     "trigger_note": "Logbook sub-idea rejected with evidence: NZTA-approved electronic logbooks already exist (EROAD Day Logbook etc.). Only the cross-obligation 'COAT/TSL audit evidence and expiry tracker' remains and is weak.",
+     "unchecked": "Detailed clauses in the 2026 Act and the NZTA Operator Licensing Rule consultation; whether the Operator Rating System is restarting; the number of small TSL holders; what fleet tools already track CoF/WoF expiry."
+    },
+    {
+     "buyer": "Micro and small food businesses registered under National Programme 1-3 (coffee carts, home-based bakers, brewers, packers); tied to council registration authorities",
+     "category": "36. Food Act 2014 National Programme registration",
+     "evidence": "mpdc.govt.nz and Mackenzie council renewal pages; hastingsdc.govt.nz; aucklandcouncil.govt.nz starting-food-truck; MPI levy pages; MPI OIA response (fyi.org.nz request 33880) with micro-scale NP1 costs of about $310 registration and about $467 verification; asurequality.com verification page. Competitor search found FCPmate (Biz Tab), Safe Food Pro and Cibus Catering, all for FCP not NP.",
+     "existing": "FCPmate, Safe Food Pro, Cibus Catering (FCP). Nothing found aimed at NP reminders; councils send renewals themselves.",
+     "known_id": "K09",
+     "known_mark": "new",
+     "name": "National Programme registration, renewal and verification reminder for micro food operators (food trucks, coffee carts, home bakers, caterers)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Food Act 2014: NP registration renewed every two years (template FCP annually), verification by a recognised verifier (NP1 once, NP2/3 every 3 years), Government Food Business Levy rising to $86.25 on 1 July 2026 and $115 on 1 July 2027, scope-of-operations updates at renewal.",
+     "trigger_note": "Different buyer group from K09 (abattoirs and meat). K09's rejection reason (FCPmate) applies only to FCP-level businesses.",
+     "unchecked": "Number of NP-registered businesses; whether council reminders already solve the pain; willingness to pay; sector-specific NPs; market-stall and home-kitchen registration counts."
+    },
+    {
+     "buyer": "Small independent used-car dealers, parallel importers and traders selling more than 6 vehicles a year",
+     "category": "31. Motor vehicle dealer / used-import trade register",
+     "evidence": "motortraders.mbie.govt.nz renewal and for-registered-traders pages; Trade Me guide for motor vehicle traders; Commerce Commission case register (Travel Cars NZ 2019, Auto Mania 2015); Motorcentral support article on maintaining MVTR status. Competitor search: Motorcentral DMS (Windows plus browser) used by 650+ independent dealerships and claims compliance coverage.",
+     "existing": "Motorcentral DMS and its help articles (MVTR status); Trade Me tools; MBIE's free portal.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Used-car dealer / Japan used-import MVTR compliance helper (renewal, CIN, security-interest, CGA)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Motor Vehicle Sales Act 2003: annual MVTR renewal with statutory declaration (MVTR-8), 10-day change reporting, CIN on every used vehicle including online, buyer acknowledgement, security-interest disclosure; Consumer Guarantees Act.",
+     "trigger_note": "Crowded by an incumbent DMS. The statistics page for trader numbers was not reachable.",
+     "unchecked": "Number of registered traders; whether Motorcentral auto-generates CINs; the consignment trust-account duty in the gap text (unconfirmed); MVSA reforms."
+    },
+    {
+     "buyer": "Car wreckers and parts dismantlers",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "nzta2.cwp.govt.nz selling-your-vehicle-to-a-wrecker; transport.govt.nz how-to-scrap-your-vehicle; no dismantler register found in two searches; the one fetch returned empty content.",
+     "existing": "None relevant.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Vehicle dismantler / wrecker register or end-of-life vehicle duties",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "None confirmed. Only owner-side MR15 cancellation and notification to NZTA when selling to a wrecker.",
+     "trigger_note": "No evidence of a regime; may simply not exist.",
+     "unchecked": "Whether wreckers must register as motor vehicle traders or hold any council/EPA hazardous-substances licence; fluid, battery and airbag disposal rules; any NZ end-of-life vehicle scheme (the ai-online.com July 2025 article was not opened)."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No NZ dismantler/wrecker licence register or end-of-life-vehicle duty found. Two searches plus one fetch (the NZTA/MoT scrap page fetch returned empty content). Only owner-side rules surfaced: the owner cancels registration with form MR15 and hands in plates, or notifies NZTA, before selling to a wrecker (nzta2.cwp.govt.nz selling-your-vehicle-to-a-wrecker; transport.govt.nz how-to-scrap-your-vehicle). Wreckers who sell used parts may count as motor vehicle traders under the MVSA, but that was not confirmed. Treat the dismantler regime as unverified/absent. No candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Motor vehicle dealer / used-import trade register (Motor Vehicle Sales Act 2003, MVTR)",
+     "found": "Registration is annual, filed online in the MVTR portal. MBIE sends a reminder 20 working days before expiry. A lapsed registration means the trader must stop trading and re-apply. The renewal certificate (MVTR-8) is a statutory declaration that no disqualified persons are involved. Changes must be reported within 10 days. Other duties: a Consumer Information Notice (CIN) on every used vehicle including online listings, signed buyer acknowledgement, security-interest disclosure, and a WoF within one month or a buyer undertaking. Fines for trading unregistered are up to $50k (individual) and $200k (company). The Commerce Commission enforces the CIN rules. Motorcentral DMS says it serves 650+ independent dealerships and covers compliance, which makes this crowded. The 'consignment trust account' duty in the gap text was not confirmed. The number of registered traders was not found (the fetch of the About page did not show the statistics).",
+     "status": "screened"
+    },
+    {
+     "category": "32. Electrical, gas, plumbing practising-licence regimes beyond K02 (EWRB electricians, gasfitters, Energy Safety)",
+     "found": "EWRB practising licences renew every two years and need an EWRB-endorsed competence programme completed within the two years before each application (a 2015 Gazette notice, which may be superseded). Providers charge about $200-250 for the course. EWRB digital licences have replaced physical cards (an undated forum post). A Certificate of Compliance (CoC) is required under Electricity (Safety) Regs 65-67, and a Record of Inspection (RoI) for high-risk prescribed electrical work under reg 72. For gas, the CoC and Gas Safety Certificate sit under Gas (Safety and Measurement) Regs 46-48. WorkSafe amended the Electricity (Safety) Regulations in November 2025 (usable from 13 Nov 2025; compliance mandatory from 12 Nov 2026), but the content of the changes could not be read (the WorkSafe fetches failed with a header-overflow error). Existing tools: CERTIFi (tradecert.app electrical certification software), GoCanvas NZ electrical and gas CoC templates, and WorkSafe's own free templates. The Energy Safety register of compliance certificates exists, but the lodgement rules were unconfirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Licensed Building Practitioner (LBP) Record of Work and licence renewal",
+     "found": "Under Building Act s88 each LBP doing or supervising restricted building work must give a Record of Work (RoW) to the owner and the council at completion. A Certificate of Design Work (CoDW) is also required for design work. Trade LBPs (carpenters, roofers) each issue their own RoW, and replaced LBPs must give a memo. The Building Practitioners Board still receives many complaints about missing RoWs (July 2024 PlaceMakers article); withholding RoWs until payment was about 12% of complaints. Licences renew on a two-year skills-maintenance cycle (compulsory activities are 50% of points; a 2015 review halved the points). The most recent count found is about 27,000 LBPs holding 31,700 licences (a 2022 figure, so dated). Board had 101 complaints before it at 31 March 2025. No LBP-specific RoW app or software was found (the Tradify and Buildxact searches returned nothing). Some industry providers (PlaceMakers/ITM/Carters) offer skills-maintenance record tools. No 2026 licence-renewal change was found.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Real estate agents and property managers (REAA trust accounts, Residential Property Managers regime)",
+     "found": "REAA 2008 requires every agent trust account to be audited under the Real Estate Agents (Audit) Regulations 2009 (monthly balance lists and reconciliations, annual audit report, qualified auditor). The REA publishes an Audit Programme Guide. A Disciplinary Tribunal decision released 14 August 2026 fined One Up Realty Ltd $18,000 for failing to appoint an auditor for the 2018-2024 financial years, so enforcement is live. Trust-accounting software already exists (Reapit, MRI Software NZ, TrustSoft). The Residential Property Managers Bill was discharged in June 2024. On 24 March 2026 the Government announced a 'light-touch' regime, but there is no bill number, timetable or detail yet (the Tenancy Services page confirmed this). Licensing renewal, CPD and agency-count facts for NZ REA were not found.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Heavy-transport operator records beyond SPSL (TSL, work time/logbooks, RUC/eRUC, CoF/WoF, Operator Rating System)",
+     "found": "A goods service licence is needed for vehicles of 6,000 kg GVM or more, with a fit-and-proper test under Land Transport Act s30L. NZTA revokes licences after compliance reviews. Work Time and Logbooks Rule 62001 (as amended 2017) requires logbooks to be kept for at least 12 months; offences carry demerit points. NZTA-approved electronic logbooks already exist (EROAD Day Logbook, Logmate, Trackit, TeletracNavman Sentinel L70, Sibatec) via Gazette approvals. Heavy vehicles already pay RUC by distance via eRUC. The Operator Rating System was on hold from 2019, and NZTA uses the Commercial Operator Assessment Tool (COAT) with CoF pass rates, RUC debt and similar criteria (Feb 2022 advisory; Oct 2025 submission). The Regulatory Systems (Transport) Amendment Act 2026 appears to have been assented on 17 May 2026. It modernises TSL enforcement, enables electronic alternatives to carrying and displaying licences and WoF/CoF labels, and requires email and mobile contact details. The clause detail for operators was not read. NZTA is consulting on Operator Licensing Rule changes.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Food Act 2014 Food Control Plan / National Programme registration for cafes, food trucks, home food makers",
+     "found": "Template FCP registrations renew annually. National Programme (NP1-3) registrations renew every two years (Mackenzie and other council pages). NP verification: NP1 once; NP2/NP3 every three years. A Government Food Business Levy started on 1 July 2025 at $57.50 + GST, rising to $86.25 from 1 July 2026 and $115 from 1 July 2027; councils collect it. Councils register single-territory NPs. Micro-scale NP1 producers pay about $310 registration and about $467 initial verification (MPI OIA response). NPs require only minimal records. FCP tools exist: FCPmate (Biz Tab, iPad app), Safe Food Pro (Verifier Ready Report) and the Cibus Catering web FCP system. The more than 32,200 registered businesses figure is undated. Home kitchens are not exempt. No 2026 rule change aimed at small or home-based operators was found. Overlaps K09 only in the tools.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "Motor Vehicle Traders Register MVSA registration renewal trader obligations MBIE",
+    "Electrical Workers Registration Board practising licence renewal competency programme gasfitter certificate of compliance Energy Safety",
+    "Licensed Building Practitioner Record of Work restricted building work licence renewal Building Practitioners Board 2026",
+    "Real Estate Authority licence trust account audit annual return branch manager agent compliance 2026 property managers regulation",
+    "transport service licence goods service operator rating system logbook driver work time hours RUC eRUC small operator NZTA 2026",
+    "Food Act 2014 National Programme registration verification records food truck home kitchen annual renewal council 2026",
+    "vehicle dismantler wrecker New Zealand licence register end-of-life vehicles NZTA deregister requirements",
+    "electrical certificate of compliance record of inspection WorkSafe notification electrician software app gasfitter CoC",
+    "Record of Work LBP app software template Building Practitioners Board licence renewal changes 2026 MBIE",
+    "Residential Property Managers Bill New Zealand repealed property manager regulation 2025 2026",
+    "electronic logbook NZTA approved work time logbook app small trucking operator RUC licence software New Zealand",
+    "FCPmate National Programme food safety records software New Zealand small food business app",
+    "motor vehicle dealer management software NZ used car dealer compliance MVTR consumer information notice Motorcentral",
+    "EWRB electrician licence renewal 2026 changes WorkSafe electrical certificate of compliance register lodgement Electricity Safety Regulations amendment",
+    "LBP licence renewal skills maintenance 2026 Building Practitioners Board number of licensed building practitioners Record of Work Tradify Buildxact",
+    "Real Estate Authority 2026 licence renewal continuing professional development number of licensed agencies reform Real Estate Agents Act trust account software",
+    "Regulatory Systems Transport Amendment Bill 2026 transport service licence goods service licence changes NZTA operators",
+    "MPI Food Act 2014 registered food businesses number National Programme 1 2 3 food levy 2026 changes small operators home-based"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b6"
+ },
+ "triage:new-zealand": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Secondhand dealers/pawnbrokers under 2004 Act are a different buyer and duty from K07 firearms dealers (related K07).",
+     "ref": "K07"
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Water-take metering duty for consent holders differs from K13 freshwater farm plans."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Incorporated society post-deadline compliance is a new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Small passenger service operators, new group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Driving schools face a one-off re-approval deadline."
+    },
+    {
+     "decision": "known",
+     "id": "A6",
+     "reason": "Home-based ECE licensing is the same core ECE compliance duty as K17; no new evidence of a gap.",
+     "ref": "K17"
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "RSE employers and the RSE scheme are a different scheme from AEWV (related K01).",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Households employing support workers under IF; in scope as household employers."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small waste collectors' licences and returns differ from K06 septic servicing (related K06).",
+     "ref": "K06"
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Pressure equipment and crane inspection certificates are a different duty from K04 BWOF."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Certified handler and HSNO certificate duty differs from K12 spray diaries."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Small cemeteries and funeral directors, record duties; unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "DOC concession holders' fee and audited accounts duty, a new buyer group."
+    },
+    {
+     "decision": "merge",
+     "id": "B1",
+     "reason": "Same buyer (small incorporated societies) and same Incorporated Societies Act 2022 duties as A3.",
+     "ref": "A3"
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Small financial advice providers' annual FMA return and records are a new group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Small landlords' tenancy paperwork duty, household/small-firm buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Fuel/LPG retailers' location compliance certificate, new group."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Dental and X-ray practices' radiation licence duty, small professional offices."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small licensees' alcohol renewal and manager certificate duties; reform adds a deadline."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Vape retailers' annual notification and approval duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small private training establishments' annual declaration and attestation duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Class 4 gambling societies' audited returns, small community bodies."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Small head contractors' retention trust and quarterly reports duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Small forest owners' ETS returns, a mandatory duty to an authority."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Small wineries' WSMP record duty, new buyer; unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Small rest homes' certification audit duty, small health providers."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Security firms' licence expiry duties under PSPLA."
+    },
+    {
+     "decision": "drop",
+     "id": "B16",
+     "reason": "No mandatory national duty exists (no register or levy); the candidate itself says it is only a watch item, so there is no recurring mandatory workflow."
+    },
+    {
+     "decision": "known",
+     "id": "B17",
+     "reason": "Same buyer and AML/CFT duty as K16; no revive evidence.",
+     "ref": "K16"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "LBP Record of Work and relicensing is a different duty from K05 granny-flat exemption pack (related K05).",
+     "ref": "K05"
+    },
+    {
+     "decision": "known",
+     "id": "GAPS2",
+     "reason": "Electrician CoC duty is covered by K15 (electrical CoC rejected); no named new killer-gap evidence to revive.",
+     "ref": "K15"
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS3",
+     "reason": "No rule in force: regime only announced with no bill or date, so no mandatory workflow or deadline exists yet."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Real estate agency trust-account audit duty is a new buyer and duty (K16 ref is AML, not the same duty)."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Owner-driver trucking goods service licence duties, new group."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "National Programme registration and renewal for micro food operators differs from K09 micro-abattoir records (related K09).",
+     "ref": "K09"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Used-car dealers' MVTR renewal and CIN duties, new group."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS8",
+     "reason": "No mandatory dealer duty confirmed; there is no recurring workflow for the wreckers themselves."
+    }
+   ]
+  },
+  "tag": "w2b6"
+ }
+}

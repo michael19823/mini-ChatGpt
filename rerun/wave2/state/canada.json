@@ -1,4 +1,28 @@
 {
+ "challenge:canada:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single killer. The core filing is a short form-fill in RECO's free MyWeb portal, using figures from the year-end financial statements. Trust accounting is already covered by Lone Wolf BrokerWolf and Loft47, plus RECO's free Excel reconciliation template. The market is capped at about 3,800 brokerages. The 2027 monthly reporting format is unannounced.",
+   "reason": "Nothing kills the idea outright: I found no vendor with a RECO filing export, and there is no small-firm exemption (non-trading brokerages file a short report). But it is weak. The annual filing is about 20 MyWeb fields (balance sheet, income statement, trust totals, unclaimed trust money, account list, trade count, attestations), taken from year-end statements the accountant already prepares, so software adds little. Trust reconciliation is already handled by BrokerWolf and Loft47, by accountants, and by RECO's free Excel template. The market is small: about 3,800 brokerages, according to RECO's FAQ. The accountant review of a sample month was only a February 2026 proposal and is absent from the final requirements. The 2027 monthly reporting is the only real opening, and its format is unknown. BC and Alberta were not checked; Alberta already uses an accountant's report.",
+   "searches": 7,
+   "sources": "https://reco.on.ca/agents-and-brokerages/annual-financial-filing/submission-and-information-requirements ; https://reco.on.ca/agents-and-brokerages/annual-financial-filing/annual-financial-filing-faqs ; https://reco.on.ca/news/recos-first-collaboration-summit-key-learnings-and-next-steps ; https://www.reco.on.ca/agents-and-brokerages/info-for-brokerages/brokerage-administration-resources/ ; https://www.mpamag.com/ca/mortgage-industry/market-updates/reco-sets-october-deadline-for-ontario-brokerage-financial-filings/579131 ; https://realestatemagazine.ca/reco-releases-details-of-brokerage-financial-filing-regime-set-to-launch-this-fall/",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b3"
+ },
+ "challenge:canada:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single killer found. Partial overlaps: Paays AML Check/ID Verifier (KYC and screening for financing/leasing firms); UCDA's dealer AML policy template, program guide and KPMG training; consultant program builds (Substance Law, MNP, KPMG); generic MSB AML platforms (iComply, SEON, Sumsub) for cheque cashers. Not checked: the regulation's estimate of how many businesses are affected, and the 1 April 2025 vs 10 July 2025 date conflict for cheque cashers. I ran 9 searches against a budget of 8.",
+   "reason": "I found nothing that kills the idea, but the space is crowded. The duty is real: regulations published in the Canada Gazette on 26 March 2025 brought factors, cheque cashers and financing/leasing entities under the Act from 1 April 2025, with a softer outreach year that ended in April 2026. Point tools already exist: Paays AML Check/ID Verifier, aimed at financing and leasing firms, plus Dealertrack, AutoCorp and FraudFighter for dealers. UCDA gives dealers a policy template and program guide plus KPMG training; CFLA serves lessors. Substance Law, MNP and KPMG sell program builds. Cheque cashers are treated as money services businesses, which generic platforms like iComply already serve. None of these runs the whole program (risk assessment, records, training, two-year review) for small lessors or factors. Market size is unverified.",
+   "searches": 9,
+   "sources": "https://www.fintech.ca/2025/04/07/paays-minerva-to-deliver-end-to-end-aml-and-kyc-compliance-solution/ ; https://www.ucda.org/fintrac/ ; https://www.dlapiper.com/insights/publications/2025/04/new-canadian-aml-regulations-in-force ; https://www.nortonrosefulbright.com/en/knowledge/publications/ed6f5379/broadened-legislative-and-regulatory-framework-for-combating-money-laundering ; https://fintrac-canafe.canada.ca/re-ed/cheque-eng ; https://fintrac-canafe.canada.ca/reporting-declaration/info/re-ed-eng ; https://mnp.ca/en/insights/directory/how-your-dealership-comply-fintrac-anti-money-laundering-requirements ; https://cassels.com/insights/aml-your-independent-finance-company-may-no-longer-be-exempt/ ; https://support.icomplyis.com/en/fintrac-compliance-checklist-for-money-services-businesses-msbs ; https://reallytrusted.com ; https://substancelaw.ca/compliance-program/ ; https://cfla-acfl.ca/industry-intelligence/anti-money-laundering/government-resources.html",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b3"
+ },
  "critic:canada": {
   "result": {
    "gaps": [
@@ -742,6 +766,20 @@
   },
   "tag": "w2b2"
  },
+ "escalate:canada:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "CondoAide (Solutions Nicvi Inc.): web software for self-managed Quebec syndicates run by volunteer boards. Capterra listing seen only in search results: bilingual, 2 to 200 units, free up to 5 units, document and work-order management. Its carnet and reserve-fund features are unconfirmed, because the page returned 403. UpperBee: Quebec property-management platform that markets itself as Bill 16 ready, claiming full documentation of past and planned maintenance, storage of warranties, inspections and reports, and scheduled professional reviews. This comes from a search snippet; the page returned 403. SHQ offers a free attestation template in DOCX, optional to use. Rimkus and engineering firms sell the professional carnet and study service. French tools (Matera, Vilogi and others) follow French law, not Quebec's. Not checked: other Quebec property-manager software and engineering-firm portals.",
+   "duty": "Quebec Civil Code art. 1070.2, 1071 and 1068.1, through the Regulation establishing various rules on divided co-ownership, in force 14 Aug 2025 (quebec.ca page fetched). Carnet d'entretien: a member of a listed professional order prepares it, the board updates it at least yearly, a professional reviews it every 5 years (10 years for 8 units or fewer, no common parts inside a building, or 3 storeys or fewer), with a site visit each time. Fonds de prévoyance study every 5 years. First carnet and study due 3 years and 1 day after entry into force (Aug 2028). The board sets contributions within 30 days after the annual meeting that follows the first study. Attestation within 15 days of a seller's request, with the prescribed fields. Penalty: quebec.ca lists none, and Narcity says 'aucune sanction directe n'est prévue pour l'instant'. The effects are indirect: disputes, blocked sales, lower unit values.",
+   "market": "No current count of syndicates found. Every syndicate must be registered with the Registraire des entreprises under the legal form 'Syndicat de copropriété', but no published total was found. Older figures: about 148,075 co-ownership units in 2006 (BAnQ). 11.7% of Quebec households lived in a condo in 2016 (government presentation). The claim cites 366,527 units on the 2022 roll; I did not re-verify it. Probably tens of thousands of syndicates, most of them small.",
+   "reason": "The duty is real. quebec.ca says the rules have applied to every syndicate since 14 Aug 2025: the board updates the carnet yearly, there is a professional review every 5 or 10 years, a fund study every 5 years, first ones due Aug 2028, and an attestation within 15 days of a seller's request. But no direct sanction exists. Licensed engineers, appraisers or CPAs must prepare the carnet and study, so software only covers the yearly board update and the attestation. The SHQ gives out a free attestation template. The claim that no Quebec software exists is wrong. CondoAide is built for self-managed Quebec syndicates and is free up to 5 units. UpperBee advertises Bill 16 readiness. I could not open either vendor page to confirm a carnet module. Volunteer boards pay little, and the deadline is far off.",
+   "searches": 6,
+   "sources": "https://www.quebec.ca/habitation-territoire/achat-vente/condos-coproprietes/mesures-coproprietes ; https://www.narcity.com/fr/nouvelle-loi-condos-quebec-2025/sanctions-et-consequences-implicites ; https://upperbee.com/?p=24739 ; https://www.capterra.ca/software/1100916/Condoaide ; https://cdn-contenu.quebec.ca/cdn-contenu/adm/org/shq/Documents/SHQ/copropriete/copropriete-divise-attestation-modele.docx ; https://rimkus.com/?p=16566 ; https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/affaires-municipales/publications/habitation/presentation_apchq_journee_copropriete.pdf ; https://cpaquebec.ca/-/media/docs/developpement-professionnel/avis-experts/comptabilite-financiere-certification/guide_syndicats_coproprietaires.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b3"
+ },
  "gapfill:canada": {
   "result": {
    "blocked_searches": 0,
@@ -1008,6 +1046,50 @@
   },
   "tag": "w2b2"
  },
+ "sonnet:canada:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Municipal bylaws in Alberta and BC (Wetaskiwin, Kelowna, Port Coquitlam, Vancouver) require pawn and second-hand dealers to record transactions and report them to police or an Inspector. Wetaskiwin explicitly defines \"Electronic Means\" as an internet-transmitting program in an Inspector-approved format. I could not read the Fort Saskatchewan C27-22 scan, so its 10:00 next-day delivery term is unverified. The claim that no vendor exists is contradicted: the Globe and Mail describes Business Watch International (BWI) as the electronic pawn-reporting vendor with coast-to-coast Canadian service, and LeadsOnline's 2022 press material says it acquired BWI and keeps a separate Canadian business. Police normally choose the platform, and the dealer has no say, so a third-party bridge has no buyer. The market is fragmented and small (a few hundred shops), with low willingness to pay. I could not confirm which platform Calgary, Edmonton or Toronto currently use. The Globe and Mail and Nova Scotia sources are about 20 years old.",
+   "searches": 4,
+   "sources": "https://www.wetaskiwin.ca/media/gmnpckyr/1994-21-pawnshops-secondhand-dealers-and-scrap-metal-dealers-bylaw.pdf ; https://www.theglobeandmail.com/news/national/haggling-starts-over-pawnbrokers-act/article1105695 ; https://www.businesswire.com/news/home/20220428005920/en ; https://news.leadsonline.com/category/news/2022-news/ ; https://surrey.ca/sites/default/files/corporate-reports/RPT_2017-R153.pdf ; https://kelowna.ca/node/4027 ; https://bac-lac.wayback.archive-it.org/web/20061124022747/https:/www.gov.ns.ca/just/publications/docs/DISCUSSION PAPER FINAL.pdf",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b3"
+ },
+ "sonnet:canada:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. The Highway Safety Code requires a register of every road vehicle received and its major parts, kept at the place of sale. It can be on paper or computerized, and must be kept 2 years after sale (regulation C-24.2, r. 40.01). The OPC issues the permit, with a surety bond, on a 2-year term. No Quebec-specific software surfaced; the only product found was France's Autogest (Solware). Weaknesses: the register is a one-off record-keeping task with no periodic filing, and no inspection regime was found. The permit-holder count was not found, so the market is probably a few hundred firms. The buyers are small, and general yard-management software or a spreadsheet can do the job. Penalties and fines were not checked.",
+   "searches": 3,
+   "sources": "https://www.opc.gouv.qc.ca/en/commercant/permis-certificat/commercants-recycleurs/recyclage-de-vehicules-routiers-obligations ; https://www.legisquebec.gouv.qc.ca/en/document/cr/C-24.2,%20r.%2040.01%20 ; https://www.solware.fr/?p=2306 ; https://www.quebec.ca/nouvelles/actualites/details/recycleur-de-vehicules-sans-permis-autorama-gravel-inc-plaide-coupable-70056",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
+ },
+ "sonnet:canada:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. Ontario: THA and recruiter licence required since July 1, 2024 (not Jan 1, 2024, as the claim says). The 2-year term and $1,500 fee apply to applications from Jan 1, 2026. $25,000 security. Reminders at 90 and 30 days. Penalties $15k/$25k/$50k, and clients face them for knowingly using unlicensed agencies. Quebec: CNESST permit, 2-year term, Revenu Québec attestation, in force since 2020. Frequency is low (renewal every 2 years). The ministry already emails reminders and runs a free public licence-status database. Market: about 2,300 Ontario THAs at end of 2022, but no count of current licensees was found. No dedicated compliance tool was found, though the search was shallow. Pain is episodic, so willingness to pay is weak. A client-side licence-check tool is a possible angle but is thin.",
+   "searches": 4,
+   "sources": "https://www.ontario.ca/page/licensing-temporary-help-agencies-and-recruiters ; https://cnesst.gouv.qc.ca/agences ; https://www.revenuquebec.ca/fr/entreprises/mesures-particulieres/attestation-de-revenu-quebec/contrats-autorisation-et-permis-necessitant-lattestation/permis-obligatoire-delivre-par-la-cnesst-aux-agences-de-placement-de-personnel-et-aux-agences-de-recrutement-de-travailleurs-etrangers-temporaires/ ; https://www.wsps.ca/resource-hub/home/temporary-help-agency-new-licensing ; https://www.ontario.ca/laws/regulation/r24478",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
+ },
+ "sonnet:canada:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real and in force. Metro Vancouver's record-keeping page requires electronic per-load records for all municipal solid waste (collection, vehicle, load, receiving facility, scale tickets), kept 5 years and produced within 7 days of a request. Haulers also collect and remit the generator levy quarterly. Penalties are notices of bylaw violation, levy invoices, and prosecution, with no amounts given. Metro Vancouver ran a record-keeping webinar and offered voluntary record reviews in spring 2026. I found no template, portal or vertical software for this duty, but I only partly checked and did not search for vendors by name. The market is small: one region, and a licence threshold that may be around 10 tonnes per month. Haulers likely already run route and scale software. Fit is niche and the duty is mainly audit-driven. I did not verify the City of Vancouver Jan 30 tonnage filing, which the code section I saw suggests dates from 1995.",
+   "searches": 3,
+   "sources": "https://metrovancouver.org/services/environmental-regulation-enforcement/solid-waste-regulatory-program/record-keeping ; https://metrovancouver.org/services/solid-waste/Documents/generator-levy-overview.pdf ; https://metrovancouver.org/services/solid-waste/Documents/hauler-record-keeping-faqs-bylaw-379.pdf ; https://vancouver.municipal.codes/VMC/5.62.072 ; https://waste360.com/waste-legislation/haulers-push-back-against-new-waste-regulations-in-metro-vancouver-canada",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
+ },
  "sonnet:canada:A8": {
   "result": {
    "blocked_searches": 0,
@@ -1018,6 +1100,42 @@
    "verdict": "unverifiable"
   },
   "tag": "w2b2"
+ },
+ "sonnet:canada:A9": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty looks real. Ontario Reg 903 requires well contractors to file well records with MECP, and the dataset shows about 19k-31k records a year. BC drillers file through GWELLS, a free state portal (BCeID login, JSON API). Not confirmed: Ontario's filing channel (the Ontario form is a fillable PDF), the current penalties, and the driller count. Ontario's licensed-contractor open dataset could give the count, but I didn't count its rows. Competition exists: a vendor blog lists DrillerDB (water-well contractor software with compliance forms) and MyWaterWell (regulatory reporting). I couldn't confirm whether either files with GWELLS or WWIS. Free state portal, existing niche tools and a small buyer pool (hundreds of firms) make it weak. Verdict is unverifiable, not refuted, because the Ontario method and the vendor features were not checked.",
+   "searches": 3,
+   "sources": "https://forms.mgcs.gov.on.ca/dataset/012-2193 ; https://wcwc.ca/resources/other/wells-help-desk-records-in-ontario/ ; https://www.guideflow.com/blog/well-drilling-software ; https://www2.gov.bc.ca/assets/gov/environment/air-land-water/water/water-wells/gwells_data_entry_external.pdf ; https://data.ontario.ca/dataset/licensed-well-contractors ; https://www.princeedwardisland.ca/en/service/well-contractors-online-drilling-log",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b3"
+ },
+ "sonnet:canada:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated multi-municipality MAT tool found. Partial overlap: ORHMA portal (Oshawa), city webforms, Airbnb/platform collection, Lodgify tax add-on.",
+   "duty": "Quarterly or monthly MAT returns per municipality, including nil returns in Toronto",
+   "market": "Not quantified; likely a small number of multi-municipality operators",
+   "reason": "Duty is real: Ontario MAT is municipally set. Toronto STR requires quarterly reports within 30 days of quarter end, even nil or platform-collected, and the rate is back to 6% after the temporary 8.5%. Other cities vary: Thunder Bay and St. Catharines monthly, Niagara Falls monthly for hotels and quarterly for B&Bs, and some use per-night flat amounts. No dedicated multi-municipality remittance tool was found. Platforms collect for hosts, ORHMA and city portals handle filing, and Lodgify claims MAT add-on support. Few operators hold properties in several municipalities, hosts pay little, and each city's portal is separate. This is a thin niche and the same weakness got K12 rejected. Market size was not verified. Penalties were not verified beyond Toronto's refusal to renew registration, which came from the claim and was not checked.",
+   "searches": 3,
+   "sources": "https://www.toronto.ca/community-people/housing-shelter/short-term-rentals/short-term-rental-operators-hosts/short-term-rental-municipal-accommodation-tax/short-term-rental-municipal-accommodation-tax-report ; https://northbrucepeninsula.ca/media/ku0lxugm/municipal-accommodation-tax-remittance-guidebook.pdf ; https://encyclopedia.lodgify.com/ontario-municipal-accommodation-tax ; https://oshawa.ca/en/city-hall/municipal-accommodation-tax.aspx ; https://niagarafalls.ca/pdf/finance/municipal-accommodation-provider-remittance-form.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
+ },
+ "sonnet:canada:B7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "BC duty confirmed on gov.bc.ca: employers must hold a certificate of registration (free, valid up to 3 years) before an LMIA, renewed by reapplying. Hiring with an expired certificate is unlawful, and employers must use BC-licensed recruiters. Manitoba and Saskatchewan duties were not independently re-checked. No dedicated software was found, but the job is a rare, free, one-form filing every up to 3 years, so pain and willingness to pay are low. LMIA record-keeping is a possible add-on, but immigration consultants already serve it. The buyer count is unknown. Ontario status and the number of registered employers were not checked.",
+   "searches": 2,
+   "sources": "https://gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/hiring/hire-temporary-foreign-workers/register-as-employer ; https://gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards/investigations/published-registries-and-violations ; https://canxglobal.com/?p=21881",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
  },
  "sonnet:canada:GAPS1": {
   "result": {

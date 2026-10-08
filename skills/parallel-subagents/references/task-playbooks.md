@@ -15,6 +15,7 @@ Contents
 8. Content at scale: translation, summaries, descriptions
 9. Design and decision panels
 10. Verification panels
+11. Opportunity, risk or gap discovery
 
 ## 1. Per-item research (countries, companies, products, people)
 
@@ -142,3 +143,22 @@ Contents
   refute").
 - **Checks**: unverifiable is recorded as unverified, never as refuted.
 - **Usual failure**: verifiers who see the original reasoning and simply agree with it.
+
+## 11. Opportunity, risk or gap discovery
+
+- **Shape**: discovery fan-out or split, then staged: discover, critique and gap-fill, triage,
+  verify. Recall comes first; the later stages remove what doesn't hold up.
+- **Models**: Sonnet at `medium` or `high` to discover; Haiku or Sonnet, tool-free and batched, for
+  the critic and triage; Opus to verify the survivors.
+- **Contract**: a coverage map whose every category must end with a status; a candidate ledger
+  that keeps every candidate with its evidence; "unverified" as a legal status; one light check per
+  candidate; rejection only with evidence; earlier runs' candidates given to re-check.
+- **Checks**: Tier 0 confirms every category has a status and every rejection names its reason.
+  The critic names missing categories, a gap-fill pass covers them, and verifiers check every
+  candidate above a low threshold (for example 3 of 10).
+- **Pilot**: measure recall against a known list (an earlier run, an expert list) as well as
+  accuracy; count categories nobody reached.
+- **Usual failure**: early narrowing. "Report the top 3", a tight budget and deep checks required
+  before a high score make workers stop at the first plausible lead and reject whatever they
+  didn't have time to check.
+

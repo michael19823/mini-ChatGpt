@@ -9,6 +9,7 @@ Contents
 6. Repair prompt
 7. Before and after: a fan-out item
 8. Before and after: a split task
+9. Discovery additions: coverage map, candidate ledger, critic, triage
 
 ## 1. How to assemble a brief
 
@@ -316,3 +317,62 @@ Then "risks for SSO": at most 5 bullets. Mark anything you couldn't confirm as "
 </output>
 <before_returning>Every stage has a file:line you opened, or is marked unconfirmed.</before_returning>
 ```
+
+## 9. Discovery additions: coverage map, candidate ledger, critic, triage
+
+Use these when the job is to find things (opportunities, bugs, risks, sources). They replace any
+"report the top N" instruction. Put the coverage and ledger blocks in the worker brief, after the
+contract.
+
+```
+<coverage>
+Screen every category below and give each one a status in a "Coverage" table:
+screened (what you found, or "nothing"), not_applicable (one-line reason), or not_reached (why:
+budget, no sources, blocked site). Then add at least {N} categories specific to your {item} that
+you find in {registers, directories, the codebase, earlier work}, and screen those too.
+Categories: {list}
+</coverage>
+
+<ledger>
+List every candidate you found, not only the strongest. One row each:
+name | evidence (source) | provisional score | status | still unchecked
+Status is one of: promising, weak, unverified, rejected.
+- "rejected" needs evidence: the product, rule or fact that kills it.
+- A candidate you had no time to check is "unverified", not rejected.
+- For every candidate you'd score {3} or more, run one targeted check ({e.g. one competitor search
+  in the local language}). Deeper checks happen in a later stage, so never lower a score because a
+  check is unfinished: mark what is unchecked instead.
+</ledger>
+```
+
+**Completeness critic** (tool-free; batch several items per call):
+
+```
+You are reviewing the coverage of discovery reports. You did not write them.
+<brief>{the shared contract and coverage list}</brief>
+<reports>{for each item: its coverage table and candidate ledger only}</reports>
+For each item, list up to {5} categories or candidates that a thorough researcher would expect but
+that are missing or marked not_reached. For each: one line on why it matters for this item and one
+search that would test it. Don't re-judge candidates that are already listed. If an item's coverage
+is complete, return an empty list for it.
+Return JSON: {"items": [{"id": "...", "gaps": [{"category": "...", "why": "...", "first_search": "..."}]}]}
+```
+
+**Gap-fill worker**: the original brief plus `<gaps>{the critic's list for this item}</gaps>` and
+"Research only these gaps. Add your findings as new ledger rows in the same format." Stop the
+critic and gap-fill loop when a round adds no new promising candidate.
+
+**Triage** (cheap model, before any deep verification):
+
+```
+Here are {N} candidates for {item} with their evidence. For each, decide keep, merge (name the
+candidate it duplicates) or drop. Drop only for a concrete, stated reason: duplicate, out of scope,
+a named product already does it, or the rule it depends on doesn't exist. When unsure, keep it: a
+later stage checks it properly.
+Return JSON: {"decisions": [{"name": "...", "decision": "keep|merge|drop", "reason": "..."}]}
+```
+
+Then send every "keep" with a provisional score at or above your verification threshold to the
+verifier prompt in section 5. Set the threshold low (for example 3 of 10): verification is cheaper
+than a missed opportunity.
+

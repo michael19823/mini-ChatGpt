@@ -148,6 +148,84 @@ return { rows, toRepair: toRepair.map((r) => r.id) }
 Repairs then go in a second, smaller workflow over `toRepair`, with each brief carrying the
 judge's critique and a model one tier up.
 
+Sketch of a discovery run (recall first): each item is discovered, critiqued for missing
+categories, gap-filled, triaged, and every surviving candidate at or above a low threshold is
+verified, all per item with no barrier. Triage fails open: if it errors, every candidate goes on.
+For large N, batch the critic over several items instead (tool-free, one call per 5-10 items).
+
+```javascript
+export const meta = {
+  name: 'discover-and-verify',
+  description: 'Discover candidates per item, fill coverage gaps, triage, verify the survivors',
+  phases: [{ title: 'Discover' }, { title: 'Critique' }, { title: 'Gap fill' }, { title: 'Triage' }, { title: 'Verify' }],
+}
+// args: { date, contract, criticRubric, triageRubric, verifyRubric, threshold: 3,
+//         items: [{ id: 'EGY', name: 'Egypt' }, ...] }
+const { date, contract, criticRubric, triageRubric, verifyRubric, threshold, items } = args
+const str = { type: 'string' }
+const LEDGER = { type: 'object', required: ['coverage', 'candidates'], properties: {
+  coverage: { type: 'array', items: { type: 'object', required: ['category', 'status'], properties: {
+    category: str, status: { type: 'string', enum: ['screened', 'not_applicable', 'not_reached'] }, note: str } } },
+  candidates: { type: 'array', items: { type: 'object', required: ['name', 'evidence', 'score', 'status'], properties: {
+    name: str, evidence: str, score: { type: 'number' }, unchecked: str,
+    status: { type: 'string', enum: ['promising', 'weak', 'unverified', 'rejected'] } } } } } }
+const GAPS = { type: 'object', required: ['gaps'], properties: { gaps: { type: 'array', items: {
+  type: 'object', required: ['category', 'why'], properties: { category: str, why: str, first_search: str } } } } }
+const TRIAGE = { type: 'object', required: ['decisions'], properties: { decisions: { type: 'array', items: {
+  type: 'object', required: ['name', 'decision'], properties: { name: str, reason: str,
+  decision: { type: 'string', enum: ['keep', 'merge', 'drop'] } } } } } }
+const VERDICT = { type: 'object', required: ['verdict', 'suggested_score'], properties: {
+  verdict: { type: 'string', enum: ['confirmed', 'refuted', 'unverifiable'] }, suggested_score: { type: 'number' }, reason: str } }
+
+const brief = (it) => `${contract}\nToday's date is ${date}.\n<item>\nid: ${it.id}\nname: ${it.name}\n</item>`
+const json = (x) => JSON.stringify(x)
+// Categories the worker marked not_reached always get a gap fill; the critic adds what it spots.
+const gapsFor = (ledger, critique) => {
+  const gaps = new Map(ledger.coverage.filter((c) => c.status === 'not_reached')
+    .map((c) => [c.category, { category: c.category, why: 'not reached in the first pass' }]))
+  for (const g of critique ? critique.gaps : []) gaps.set(g.category, g)
+  return [...gaps.values()]
+}
+
+const results = await pipeline(
+  items,
+  (_prev, it) => agent(brief(it), { label: `discover:${it.id}`, phase: 'Discover',
+    model: 'sonnet', effort: 'high', schema: LEDGER }),
+  (ledger, it) => ledger && agent(`${criticRubric}\n<item>${it.name}</item>\n<coverage>${json(ledger.coverage)}</coverage>\n<ledger>${json(ledger.candidates)}</ledger>`,
+    { label: `critic:${it.id}`, phase: 'Critique', model: 'sonnet', effort: 'medium', schema: GAPS })
+    .then((g) => ({ ledger, gaps: gapsFor(ledger, g) })),
+  (r, it) => !r ? null : !r.gaps.length ? r.ledger
+    : agent(`${brief(it)}\n<gaps>${json(r.gaps)}</gaps>\nResearch only these gaps; return new rows in the same ledger format.`,
+      { label: `gapfill:${it.id}`, phase: 'Gap fill', model: 'sonnet', effort: 'high', schema: LEDGER })
+      .then((extra) => {
+        const coverage = new Map(r.ledger.coverage.map((c) => [c.category, c]))
+        for (const c of extra ? extra.coverage : []) coverage.set(c.category, c)  // gap fill wins
+        return { coverage: [...coverage.values()],
+          candidates: r.ledger.candidates.concat(extra ? extra.candidates : []) }
+      }),
+  (ledger, it) => {
+    if (!ledger) return null
+    const open = ledger.candidates.filter((c) => c.status !== 'rejected')
+    return agent(`${triageRubric}\n<item>${it.name}</item>\n<candidates>${json(open)}</candidates>`,
+      { label: `triage:${it.id}`, phase: 'Triage', model: 'haiku', effort: 'medium', schema: TRIAGE })
+      .then((t) => {
+        const dropped = new Set(t ? t.decisions.filter((d) => d.decision !== 'keep').map((d) => d.name) : [])
+        return { ledger, keep: open.filter((c) => !dropped.has(c.name)) }  // fails open
+      })
+  },
+  (r, it) => !r ? null : parallel(r.keep.filter((c) => c.score >= threshold).map((c) => () =>
+    agent(`${verifyRubric}\n<item>${it.name}</item>\n<claim>${json(c)}</claim>`,
+      { label: `verify:${it.id}:${c.name}`.slice(0, 60), phase: 'Verify', model: 'opus', effort: 'medium', schema: VERDICT })
+      .then((v) => ({ name: c.name, score: c.score, verdict: v ? v.verdict : 'unverifiable',
+        suggested: v ? v.suggested_score : null }))))
+    .then((verdicts) => ({ id: it.id, candidates: r.ledger.candidates.length, verified: verdicts.filter(Boolean),
+      notReached: r.ledger.coverage.filter((c) => c.status === 'not_reached').map((c) => c.category) })),
+)
+const rows = results.map((r, i) => r || { id: items[i].id, candidates: 0, verified: [], notReached: ['(item failed)'] })
+log(`${rows.reduce((n, r) => n + r.verified.length, 0)} candidates verified across ${rows.length} items`)
+return rows
+```
+
 ## 4. Headless loop with `claude -p`
 
 Good for very large or unattended runs, or when you want a plain script you can rerun. Each call

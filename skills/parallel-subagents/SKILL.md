@@ -11,7 +11,7 @@ face value, stops early and fills gaps with guesses. Most disappointing multi-ag
 from the orchestration, not the worker model: vague briefs, decisions left to each worker, the
 wrong model or effort, results flooding the orchestrator's context, and nothing checking the output.
 
-Three ideas carry most of the weight:
+Four ideas carry most of the weight:
 
 1. **Decide once, centrally.** Every choice a worker would otherwise make alone (definitions,
    scope, format, sources, what to do when stuck) is made by you, written once, and sent
@@ -21,6 +21,9 @@ Three ideas carry most of the weight:
    fails still bills its tokens, then the retry.
 3. **Check before you trust.** Cheap code checks on everything, a judge where it matters, a
    fresh-context verifier on what's flagged, a human look at a sample.
+4. **Find wide, then filter.** When the job is to find things, collect every candidate first and
+   judge later, in a separate step. A worker that both finds and judges quietly drops whatever it
+   had no time to check.
 
 ## Scale the process to the job
 
@@ -76,6 +79,37 @@ extract text you already have), 4-8 per call, and check grouped results against 
 **When the user has already chosen** the model, the number of agents or the split, follow that
 choice. If another option looks clearly cheaper or better, say so in one line with the reason,
 rather than overriding it.
+
+### When the job is to find things: wide first, then filter
+
+Discovery jobs (opportunities, bugs, risks, sources, competitors, edge cases) fail by omission
+more than by error, and omissions are invisible: nobody notices the industry that was never
+screened. Design for recall first and let later stages remove what doesn't hold up.
+
+- **Make the search space explicit.** Before dispatch, write a coverage map: the categories every
+  worker must screen, plus a few item-specific ones each worker must add (from registers,
+  directories, the codebase, earlier work). Every category ends with a status: screened (with what
+  was found, or nothing), not applicable, or not reached and why. Code checks that every category
+  has a status, and "not reached" goes to a gap-fill pass.
+- **Keep every candidate.** Ask for the full candidate ledger, one line each with its evidence, a
+  provisional score and what is still unchecked, not just "the top 3". Unchecked is not rejected:
+  a candidate the worker had no budget to check stays "unverified" and goes to the verification
+  queue. Reject only with evidence (the competitor, the missing duty, the contradicting fact).
+- **Separate finding from judging.** The worker proposes; a later stage decides. Don't make heavy
+  checks a condition for scoring high: workers learn to score low or reject instead. Ask for one
+  light check on every candidate (for example one targeted competitor search) and leave the deep
+  checks to verifiers.
+- **Filter in tiers, cheapest first.** Code rules, then a Haiku or Sonnet triage that merges
+  duplicates and drops clear non-starters with a reason, then Opus only on the survivors.
+- **Add a second angle where it pays.** One worker samples the space: in one pilot, two runs of the
+  same six-country study each found four strong leads, with no overlap. For large or high-value
+  items, run a completeness critic (a cheap, tool-free agent that reads the coverage map and
+  ledger and names what's missing; batch several items per call) and a gap-fill worker on just
+  those gaps; repeat until a round adds nothing new. Or run two workers with different angles
+  (for example regulator-first and press-first) and merge their ledgers.
+- **Reuse earlier work.** When rerunning or extending a job, give each worker the earlier run's
+  candidates to re-check alongside its own search. Keep earlier work hidden only for a fair
+  comparison.
 
 ## 2. Choose the runtime
 
@@ -169,6 +203,8 @@ the main levers for getting good work from Sonnet and Haiku:
 - **Make "not found" legitimate**, and show it: give one complete example output with clearly
   fictional values that includes a not-found case. A literal model shown only filled fields learns
   that every field always gets a value.
+- **Ask for everything found, not just the best.** "Report the 3 strongest" silently drops the
+  rest. Ask for the full list with a status and a one-line reason each, and choose later.
 - **Keep briefs tight**: about 300-800 words, critical rules first and repeated in one line at the
   end, the variable item last. Long prompts made Haiku skip searches and stop early, especially at
   `low` effort.
@@ -190,6 +226,7 @@ every launch, per role:
 | Extracting, classifying or reformatting text already in hand; locating files | Haiku | `medium` (`high` for strict schemas or knowledge work) |
 | Search-heavy research; codebase exploration that needs judgment; per-item judging | Sonnet | `medium`; `high` for long or hard items |
 | Reviewing code or text through one lens (correctness, security, a style guide) | Sonnet | `medium` |
+| Triage and completeness critique of candidate lists (no tools) | Haiku; Sonnet when it needs domain judgment | `medium` |
 | Ambiguous judgment, conflicts, repairs after a cheap failure, hard reasoning, writing the contract, synthesis | Opus (often you) | `medium` |
 | The hardest long-horizon work, rarely as a worker | Fable | as needed |
 
@@ -212,7 +249,7 @@ every launch, per role:
 
 For more than a handful of agents, estimate first. `scripts/estimate_cost.py` does the arithmetic
 for every model at once; a measured pilot item times N, plus 20-40% for the expensive tail, is
-better. Tell the user the estimate when it's large, and cap the spend: `--max-budget-usd` for
+better (`scripts/measure_usage.py` reads the pilot's sub-agent transcripts). Tell the user the estimate when it's large, and cap the spend: `--max-budget-usd` for
 headless runs, `max_budget_usd` in the Agent SDK. In a Workflow, bound the agent count and the tool
 calls per agent; a token target in the user's message, such as "+500k", becomes a hard ceiling on
 output tokens that the script can read through `budget`.
@@ -234,6 +271,13 @@ The biggest levers, roughly in order:
 7. **Repair only failing items**, never the whole set.
 8. **No agent teams for cost-sensitive work**: they used about 7x the tokens of a standard session
    in Anthropic's measurement.
+9. **Agents that earn their overhead.** In Claude Code each sub-agent starts with roughly 45K
+   tokens of system prompt and tool definitions before your brief (measured; the brief itself was
+   about 2K). Don't spawn an agent for a two-search task, give recurring workers a slim definition
+   with only the tools they use, and stagger starts so they share the cached prefix.
+10. **A small orchestrator context.** Every finished worker wakes you, and each wake-up re-reads
+   your whole context: at 540K tokens that was about $0.11 each time, before you did anything.
+   Run large jobs from a fresh session, or as a Workflow that returns once.
 
 ## 7. Pilot before the full run
 
@@ -242,7 +286,9 @@ exact brief, model, effort and tools, deliberately including hard cases (data-po
 identity, sources not in English, unusual structure). Have pilot workers also report the queries
 they ran, the sources they opened and a three-line note on their method, and read those with the
 outputs: where did a worker search badly, stop early, misread the brief or guess? Fix the contract
-and re-pilot until a round turns up no new failure mode. Then freeze the contract, write the judge
+and re-pilot until a round turns up no new failure mode. For discovery jobs, judge recall as well as
+accuracy: compare the pilot's candidates with a known list (an earlier run, an expert list, a
+hand-made answer key) and count the categories nobody reached. Then freeze the contract, write the judge
 rubric from what you saw, run a canary of 10-20 items with full checks, and only then run the rest.
 For a split, the pilot is a dry read: re-read each brief against the stranger test, and check the
 split for overlaps and gaps before launching.
@@ -262,7 +308,7 @@ split for overlaps and gaps before launching.
 ## 9. Check in layers, cheapest first
 
 - **Tier 0, code, on everything**: the output exists and parses; required fields are present with
-  a status; values are in plausible ranges; URLs are well formed; for code, tests and lint pass;
+  a status; every category in the coverage map has a status; values are in plausible ranges; URLs are well formed; for code, tests and lint pass;
   outliers stand out against peers; the worker actually did the work (sub-agents have reported
   "completed" after zero tool calls; a required, non-empty `queries_tried` or `files_read` list is
   a cheap proxy). `scripts/check_outputs.py` checks presence, parsing, required keys, statuses,
@@ -286,6 +332,7 @@ and did the workers assume different things?
 |---|---|
 | Infrastructure: error, empty, truncated | Retry once with the same brief |
 | Format: schema or validation errors | Retry with the validator's message |
+| Coverage gap: categories not reached, candidates left unverified | A gap-fill pass on just those categories or candidates; never count them as rejected |
 | Quality: the judge or verifier failed it | Original brief plus the specific critique, one tier up (Haiku, then Sonnet, then Opus), for that item only |
 | The same failure on many items | The contract is wrong: fix it and re-pilot; don't patch items one by one |
 
@@ -319,17 +366,22 @@ orchestrator, not the workers. Synthesis is where care pays most.
 | "Done" with nothing done | No checks | Tier 0 tool-use check, a verifier |
 | Parallel edits conflict | Shared files, implicit design decisions | Disjoint write sets, worktrees, one integrator |
 | You end up doing the work yourself | Delegation stated only in prose | Launch the agents through the runtime |
+| Runs find different things; known items missing | One pass samples the space; categories skipped silently | Coverage map with statuses, completeness critic and gap fill, earlier candidates re-checked |
+| Promising leads scored low or rejected as "not checked" | Deep checks required before a high score | One light check for all, deep checks in a later stage; unchecked means unverified |
 
 ## Reference files
 
 - `references/brief-template.md`: read before writing briefs. The fill-in template, the tested
-  model-specific lines, judge, verifier and repair prompts, and a before-and-after example.
+  model-specific lines, judge, verifier and repair prompts, before-and-after examples, and the
+  discovery additions (coverage map, candidate ledger, critic and triage prompts).
 - `references/models-and-costs.md`: read when choosing models or effort, or estimating cost. Dated
   prices, effort defaults, alias pitfalls, caching rules and the evidence behind section 5.
 - `references/task-playbooks.md`: read for the kind of work at hand. Per-item research,
   multi-angle research, codebase exploration, code review, parallel code changes, debugging,
-  extraction and classification, content at scale, design panels, verification panels.
+  extraction and classification, content at scale, design panels, verification panels, and
+  opportunity or risk discovery.
 - `references/runtimes.md`: read when using the Agent tool at scale, a Workflow, a headless loop,
   the Agent SDK or the Batch API.
 - `scripts/estimate_cost.py`: pre-launch cost estimate for every model. Run with `--help`.
 - `scripts/check_outputs.py`: Tier 0 checks over a results folder, plus the IDs to repair.
+- `scripts/measure_usage.py`: measured tokens, tool calls and input cost from sub-agent transcripts.

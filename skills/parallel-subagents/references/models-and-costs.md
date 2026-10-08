@@ -15,6 +15,7 @@ Contents
 5. Prompt caching in a fan-out
 6. Estimating cost
 7. Escalation and routing evidence
+8. Measured in a real pilot
 
 ## 1. Prices
 
@@ -197,3 +198,24 @@ The same Sonnet run costs about $23 at 3 searches per worker, $34 at 5, $136 at 
   n=2 per case) saw total cost stay the same or rise, e.g. a review going from $2.13 to $2.71,
   while tokens on the top model fell. Savings come from cheaper per-token rates and less waste,
   not from running in parallel.
+
+## 8. Measured in a real pilot
+
+A six-country discovery pilot in Claude Code (October 2026): Sonnet 5.5 workers at `high` effort,
+each doing 15-31 web searches and reading 11-20 pages, then an Opus 5.5 check per lead scored 4
+or more. Measured with `scripts/measure_usage.py`; output tokens are estimated.
+
+- **Per worker**: about $0.90 for a small market and $1.90-2.20 for a large one, including search
+  fees. Peak context was 118K-309K tokens, and each worker re-read 1.4-5.0M tokens from cache.
+  Without caching each would have cost several times more.
+- **Per Opus check**: about $0.50-0.80, with 9-12 searches each.
+- **Fixed overhead**: every agent's first prompt was about 43-45K tokens, of which the brief was
+  about 2K. The rest is Claude Code's system prompt and tool definitions.
+- **Parallel launches missed the cache**: workers started within a second of each other, and each
+  paid to write the full 45K prompt. Stagger starts by a few seconds, or let a Workflow do it.
+- **Orchestrator overhead**: the orchestrating session had grown to about 540K tokens, so every
+  wake-up cost about $0.11 in re-reads before it did anything. Large jobs belong in a fresh
+  session or a Workflow.
+- **Searches were batched**: 35-60 tool calls took only 18-35 model calls, because workers ran
+  independent searches in parallel. Ask for that in the brief.
+

@@ -181,7 +181,7 @@ Official count of licensed accommodation not found. ARBK activity tags 5510/5520
 
 ## Search log
 
-**WebSearch calls:** 15. **WebFetch calls:** 17 (Koha and Kallxo returned HTTP 403 on four attempts: kallxo.com once, koha.net twice; arbk.org/aktivitet/ returned 404). I also downloaded one PDF with curl (Law 06/L-036) and ran pdftotext on it and on Law 04/L-219.
+**WebSearch calls:** 15. **WebFetch calls:** 17 (Koha and Kallxo returned HTTP 403 on three attempts: kallxo.com once, koha.net twice; arbk.org/aktivitet/ returned 404). I also downloaded one PDF with curl (Law 06/L-036) and ran pdftotext on it and on Law 04/L-219.
 
 Competitor queries (also listed above):
 1. Albanian: "regjistrimi i mysafirëve të huaj hotele apartamente policia Kosovë obligim ofruesit e akomodimit sistemi elektronik"

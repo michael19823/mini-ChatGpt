@@ -1,0 +1,1084 @@
+{
+ "critic:spain": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Taxi/VTC/ambulance and small-trucking operator duties: ROTT registers, MDS digital authorisation, tachograph and driver-hours records for autonomos hauliers",
+     "first_search": "transportista autónomo obligaciones descarga tacógrafo digital tarjeta conductor ROTT MDS autorización 2026 sanciones",
+     "why": "Spain has a huge population of one-truck autonomo hauliers and taxi/VTC licence-holders. Cat. 18 found no small-operator duty, but the ROTT/MDS regime (Ley 9/2013 amending LOTT), the obligation to keep tachograph data and download it every 28/90 days, and the electronic carta de porte (K16 rejected only the DeCA) were not examined."
+    },
+    {
+     "category": "Hunting-adjacent and firearms regime: armerías, tiro, guardería rural; and the Reglamento de Armas record books held by small arms dealers and collectors",
+     "first_search": "armerías libro registro Intervención de Armas Guardia Civil obligaciones comunicación telemática Reglamento de Armas 2025",
+     "why": "Armerías and weapons-licence holders must keep a libro-registro and report to the Guardia Civil Intervención de Armas; the pass covered hunting estates (K29) but not arms dealers, which sit in the same police-register category as scrap and second-hand dealers. Pyrotechnic retailers are also thin."
+    },
+    {
+     "category": "Self-employed and SME tax and Social Security calendars (not VeriFactu): modelo 303/130/131 quarterly filings, RETA cuota por ingresos reales, the Sistema RED / Import@ss and the new 2025-26 autonomo regularisations",
+     "first_search": "regularización cuotas autónomos rendimientos reales cambio de tramo 2026 Seguridad Social obligaciones trabajadores autónomos",
+     "why": "The RETA income-based contribution system (RD-ley 13/2022) forces about 3.3 million autonomos to regularise annually, and the 2026 reforms (cuota, tarifa plana, incompatibilities) hit exactly the sole-trader buyer group. The pass treated generic accounting as out of scope, but the mandatory regularisation workflow is a specific duty owed to the Seguridad Social and was not surfaced."
+    },
+    {
+     "category": "Municipal licences and registers for small premises: licencia de actividad / declaración responsable, terrazas, ruido and aforo, plus ICIO and tasa de basuras. Also taxi-style local licences and tasa de terrazas for bars and restaurants",
+     "first_search": "bares y restaurantes obligaciones registro APPCC alérgenos autocontrol licencia terraza renovación ayuntamiento hostelería trazabilidad",
+     "why": "Spain has an exceptionally high bar and restaurant density (about 250,000 small hospitality businesses). Their recurring duties to the ayuntamiento (terrace permit renewal, APPCC records, alergenos, health inspection, music licences, SGAE/AGEDI fees) were not covered. Cat. 20 only touched tattoo studios, driving schools, nurseries, small food producers and hunting outfitters."
+    },
+    {
+     "category": "Agriculture-sector small-operator mandates: PAC solicitud unica, SIGPAC, cuaderno digital de explotacion (RD 1054/2022), and the 2025-27 crop-nutrient registers",
+     "first_search": "SITRAN comunicación movimientos ganado explotaciones ganaderas libro de registro REGA obligaciones titulares 2026 Real Decreto",
+     "why": "Spain has about 800,000 farms. K27 rejected the digital farm notebook as too competitive, but the specific grounds were the large SaaS vendors. The ecoregimenes, the mandatory SIEX data transfer, the Ley 2/2025 changes on organic farming, and the fertiliser-register pairing (REGFER) are not yet joined up. The PAC solicitud unica and the livestock explotacion registers (REGA, REMO, SITRAN movement notifications) for small livestock holdings were not screened."
+    },
+    {
+     "category": "Employer-side labour and prevention duties for micro-firms: Registro Retributivo (RD 902/2020), Plan de Igualdad thresholds, canal de denuncias (Ley 2/2023), and the PRL external prevention service concertation",
+     "first_search": "canal interno de información Ley 2/2023 pymes obligatorio 50 trabajadores plan de igualdad registro retributivo sanciones 2026 empresa pequeña",
+     "why": "Ley 2/2023 requires a whistleblowing channel for firms of 50 or more workers, and Plan de Igualdad applies from 50. A large number of 50-250 worker family firms are therefore forced to act. Only pay transparency (K05) and the time register (K20) were covered. Small employers (under 6 workers) may also self-assume prevention, which creates a niche for a done-for-you prevention service. Cat. 26 touches manpower agencies only."
+    }
+   ]
+  },
+  "tag": "w2b9"
+ },
+ "discover:A:spain": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Independent agro-input shops, cooperatives' retail outlets and fertiliser applicator services (spread across all autonomous communities)",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "Junta de Andalucia PMF_REGFER (https://www.juntadeandalucia.es/sites/default/files/inline-files/2026/03/PMF_REGFER.pdf); infoagro https://www.infoagro.com/noticias/2026/habilitado_el_acceso_al_registro_general_de_fabricantes_y_otros_agente.asp; Euskadi https://www.euskadi.eus/registro/regfer/web01-tramite/es/; Madrid https://sede.comunidad.madrid/inscripciones-registro/inscripcion-regfer. Competitor search (REGFER + software + tiendas de agroquimicos) found no dedicated product, though generic ERP/POS used by shops was not checked.",
+     "existing": "None found in one local-language competitor search; official ministry and regional forms and declaration models only.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Related to K03 and K27 but a different buyer (retail shops) and duty (REGFER).",
+     "name": "REGFER fertiliser distributor compliance pack (registration status, sales-information reporting, point-of-sale records)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "RD 1051/2022 art. 18 created REGFER; Orden APA/1226/2025 (BOE 3 Nov 2025) sets its structure. Operators already active had to be registered by 1 Jul 2026; new ones need to apply at least 1 month before starting. Shops registering as distributors (Section 3) and applicator services (Section 4) must report sales information each year (CyL: before 31 March). State rule, filed with each autonomous community.",
+     "unchecked": "Whether the annual sales reporting is a REGFER rule or only a CyL procedure; exact content, deadlines and filing system in other communities; number of shops; whether ERP/POS vendors for agro shops (e.g. those used by cooperatives) already export it; penalties for missing the 1 Jul 2026 date."
+    },
+    {
+     "buyer": "Second-hand shops, phone and electronics repair/resale shops, pawnbrokers and online-platform operators",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2020/07/2002601a.shtml; https://vlex.es/vid/orden-25-junio-2020-845755724; https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2022/01/2200089a.shtml; https://laadministracionaldia.inap.es/noticia.asp?id=1190751. Castellon arrest of a phone shop owner for receptacion (https://www.elperiodic.com/castellon/policia-nacional-detiene-duenos-tienda-telefonia-delito-receptacion_192926). Competitor search (programa libro registro compraventa objetos usados + Ertzaintza) found no named product.",
+     "existing": "No named software found in one search. ORONET (DigiNet) is the known entrenched vendor for gold (K28).",
+     "known_id": "K28",
+     "known_mark": "new",
+     "known_note": "Different buyer group from K28 (general second-hand and phone shops, not jewellers) but similar duty and regime.",
+     "name": "Second-hand and phone-shop police register and reporting tool (libro registro plus e-reporting to regional police)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "LO 4/2015 art. 25.1: activities relevant to public safety must keep a documented register and report to police. Basque Orders (2019, 2020) require communication to the Ertzaintza within 24 hours of buying an item, including phone repair and platforms, via electronic office. Precious-metal buyers report weekly (2022 Basque order) and recyclers monthly. Regional police own the system (Ertzaintza); other communities not confirmed.",
+     "unchecked": "Whether Catalonia (Mossos), Policia Nacional areas and other communities require the same, and how the data are sent; whether the 2020 order replaced the 2019 one; number of shops; whether POS/second-hand vendors integrate with the Ertzaintza service; whether shops outside the Basque Country are inspected."
+    },
+    {
+     "buyer": "Small associations, foundations, federations and their gestores/federations",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://www.mjusticia.gob.es/en/entidad/registros/registro-central-titularidades-reales; https://www.garrigues.com/es_ES/noticia/asi-funcionara-nuevo-registro-central-titularidades-reales-recabara-informacion-verdaderos; https://www.osborneclarke.com/es/insights/creacion-de-un-registro-central-de-titularidades-reales-para-combatir-los-delitos. Competitor search (asociaciones + RCTIR + software/federaciones) found no software or service.",
+     "existing": "None found; the ministry's electronic filing form is free.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "K04 targets gestorias; this targets associations/foundations.",
+     "name": "Annual beneficial-owner declaration service for associations and foundations (RCTIR)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "RD 609/2023 (Registro Central de Titularidades Reales, live since 19 Sep 2023): associations and foundations without a declaration through another registry must file within a month of creation, then update each January (nil declaration if unchanged). Missing declaration can lead to registry closure (Garrigues note).",
+     "unchecked": "Whether associations are in fact exempt when registered in the national association registry; true January deadline and form; sources are from 2023-24; low willingness to pay of volunteer associations; a once-a-year nil filing."
+    },
+    {
+     "buyer": "Administradores de fincas and communities of owners; small businesses owning lifts",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://www.boe.es/eli/es/rd/2024/04/02/355; https://www.ocu.org/fincas-y-casas/gestion/comunidad-de-propietarios/analisis/2024/10/nueva-normativa-ascensores; https://doe.juntaex.es/pdfs/doe/2026/250o/26060285.pdf; press on Alicante 302 lifts taken out of service https://www.fempa.es/wp-content/uploads/2026/07/Asi-ha-impacto-la-nueva-normativa-de-los-ascensores-en-la-provincia-de-Alicante-DIARIO-INFORMACION.pdf. Competitor search (software ascensores + plan de mantenimiento + administradores de fincas) found no dedicated product.",
+     "existing": "None found; administradores de fincas software and maintainers' platforms not checked.",
+     "known_mark": "new",
+     "name": "Lift-owner compliance tracker (maintenance plan, maintainer record, OCA inspection dates, deficiency deadlines)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "RD 355/2024 (ITC AEM 1) in force since 1 Jul 2024: maintenance plan per lift (by 1 Jul 2025), maintenance record handover to new maintainer, periodic inspection by OCA contracted by the owner and not the maintainer (art. 4.5), deficiency deadlines of 3-10 years, precinting for serious non-compliance. Regional rules for filing (Extremadura launched electronic prior communication for OCA inspections in Feb 2026). State rule with regional enforcement.",
+     "unchecked": "Whether administrator software already covers lift dates; willingness to pay; buyer is a community of owners (not a business) so it is partly outside scope; maintainers' own portals; regional OCA data feeds."
+    },
+    {
+     "buyer": "Small municipalities, juntas vecinales, rural water associations and private operators of small supplies",
+     "category": "13. Small water systems",
+     "evidence": "Procurador del Comun CyL resolutions found supply zones with no full analysis recorded (https://procuradordelcomun.org/archivos/resoluciones/1_1742554431.pdf); Ministry PSA guide 2024; AMAP/AEOPAS quick guide; https://www.aragon.es/salud-publica/sanidad-ambiental/agua-de-consumo-humano.",
+     "existing": "Guides only found; commercial tools not searched.",
+     "known_mark": "new",
+     "name": "Small-supply drinking-water compliance kit (SINAC upload, autocontrol protocol, Plan Sanitario del Agua)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "RD 3/2023: SINAC upload compulsory for any operator; autocontrol protocol specific to each supply, reviewed yearly; Plan Sanitario del Agua; tanker supply limited to 4 months a year without prior health-authority notice. Autonomous-community health authorities supervise.",
+     "unchecked": "Population thresholds and deadlines for small supplies; whether provincial councils (diputaciones) or water-quality labs already do this for municipalities; competitor search not run; buyers are public bodies with slow procurement."
+    },
+    {
+     "buyer": "Pet shops, agro shops and other commercial outlets selling non-prescription vet medicines",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://sede.comunidad.madrid/inscripciones-registro/dispensacion-medicamentos-veterinarios; https://leap.unep.org/en/countries/es/national-legislation/real-decreto-6662023-de-18-de-julio-por-el-que-se-regula-la",
+     "existing": "Not checked.",
+     "known_id": "K17",
+     "known_mark": "new",
+     "known_note": "K17 is vets reporting to PRESVET (rejected); this is non-prescription retail, a different buyer.",
+     "name": "Retail register for non-prescription veterinary medicines (pet shops, agro shops)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "RD 666/2023 art. 26: storage, conservation and document control; Madrid declaracion responsable requires a computerised register of each entry/exit (date, product, batch, quantity, supplier).",
+     "unchecked": "Whether the register rule appears in the decree itself or only in the Madrid form; shop count; whether POS systems cover batches; competitor search not run."
+    },
+    {
+     "buyer": "Scrap yards and wholesale scrap dealers",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "Search snippet only (laadministracionaldia.inap.es item cited by the search; the INT/1920/2011 title). Could not confirm current content.",
+     "existing": "Not checked; asest.es has an ERP-for-desguaces page, suggesting ERP vendors serve the sector.",
+     "known_id": "K28",
+     "known_mark": "new",
+     "known_note": "Same police-register regime as K28 but different buyer group.",
+     "name": "Scrap-metal and copper dealers' libro-registro tool",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Orden INT/1920/2011 (copper trade control) and the 1989 libro-registro order; regional police reporting",
+     "unchecked": "Current text and frequency of the duties; whether police reporting is electronic; vendors serving scrap yards."
+    },
+    {
+     "buyer": "Authorised vehicle treatment centres (CATs) and dismantlers",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://www.dgt.es/export/sites/web-DGT/.galleries/downloads/dgt-en-cifras/24h/NP-MODIFICACION-REGLAMENTO-VEHICULOS-CAT-ok.pdf; https://www.cnmc.es/sites/default/files/5655305.pdf; https://asest.es/story/programa-erp-desguaces/",
+     "existing": "ERP vendors for desguaces advertise DGT baja connection (marketing claim, unverified).",
+     "known_mark": "new",
+     "name": "Vehicle dismantler (CAT) digital baja and file handling",
+     "score": 2,
+     "status": "weak",
+     "trigger": "RD 265/2021; Orden INT/624/2008 electronic baja; Instruccion VEH 2022/20 on voluntary digital files; JCT-AEDRA convenio to digitalise baja communication (CNMC report). 848,000 baja files in 2023, mostly on paper.",
+     "unchecked": "Status of the convenio; whether digital baja became mandatory; vendor coverage."
+    },
+    {
+     "buyer": "Livestock transporters and operadores comerciales",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.tramitacastillayleon.jcyl.es/web/jcyl/AdministracionElectronica/es/Plantilla100Detalle/1251181050732/Tramite/1210167635340/Tramite; https://papelea.com/es/junta-de-extremadura/autorizacion-para-ejercer-la-actividad-de-operador-comercial-de-animales",
+     "existing": "Not checked; sources are 2006-2008 regional.",
+     "known_mark": "new",
+     "name": "Animal-transport vehicle log and operator register tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Reg. (CE) 1/2005; RD 479/2004; regional rules, e.g. Castilla y Leon Orden AYG/398/2006 (per-vehicle log of movements with sealed pages, 5-year authorisation); Extremadura register of operadores comerciales",
+     "unchecked": "Current state of the log (paper or electronic); regional variation."
+    },
+    {
+     "buyer": "Professional and hobby beekeepers",
+     "category": "8. Beekeepers",
+     "evidence": "https://doe.juntaex.es/pdfs/doe/2025/2500o/25040325C.pdf; https://autonomos.cantabria.es/wp-content/uploads/2025/01/40-EXTRACTO-CONVOCATORIA-2026.pdf; https://www.boe.es/eli/es/rd/2005/04/22/448",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Beekeeper register book and annual census tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "RD 209/2002; REGA; regional libro de registro; Galicia annual census declaration (reference 31 Dec, filed before 1 March 2026); varroa treatment justification for aid (RD 906/2022, e.g. Cantabria 2026)",
+     "unchecked": "Number of professional beekeepers; regional apps; willingness to pay."
+    },
+    {
+     "buyer": "Tattoo, piercing and micropigmentation studios",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.comunidad.madrid/consumo/tatuajes-piercing-proteccion-consumidores; https://www.consumoresponde.es/actualidad/noticias/consumo-recuerda-tatuaje-sin-documento-consentimiento-informado-ilegal",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Tattoo and piercing studio compliance pack (consent forms, waste contract, regional registration)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Regional decrees (Madrid 35/2005; Andalucia 71/2017 as amended by 130/2021; Galicia 2004): registration, signed informed-consent document in duplicate, biomedical-waste contract",
+     "unchecked": "No recurring filing found; mostly one-off paperwork; fragmented by region."
+    },
+    {
+     "buyer": "Families employing domestic workers",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://www.iberley.es/noticias/ya-es-posible-evaluar-los-riesgos-laborales-las-trabajadoras-hogar-plataforma-prevencion10-es-34821; https://www.elindependiente.com/economia/2025/11/12/multa-evaluar-riesgos-empleadas-hogar/amp/",
+     "existing": "Free official INSST tool Prevencion10.es; Labour Inspection cannot enter homes.",
+     "known_mark": "new",
+     "name": "Household-employer occupational risk assessment (RD 893/2024)",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "RD 893/2024: employer must assess risks in the home, deadline 14-15 Nov 2025; serious infringement possible",
+     "unchecked": "None needed."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "RD 893/2024 obliges families to assess occupational risks of household workers (deadline 14-15 Nov 2025), but the INSST provides the free Prevencion10.es tool and Labour Inspection cannot enter homes. Candidate rejected for that reason. Nothing else new found.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "State libro-registro rules (Orden of 1989; Orden INT/1920/2011 on copper trade by metal-waste managers and wholesale scrap dealers). No 2025-26 change found. Possible overlap with the second-hand/police-book candidate. Unverified whether any digital filing exists.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "LO 4/2015 art. 25 puts libro-registro and police reporting on second-hand trade and phone repair. Basque Orders of 2019/2020 (24h communication to the Ertzaintza, platforms included) and a 2022 order for precious metals (weekly telematic reporting). Catalonia and Policía Nacional rules not confirmed. Logged as a candidate related to K28.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Nothing new beyond K28 (police book, Ertzaintza telematic reporting confirmed as an example).",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "RD 265/2021: CATs file baja definitiva with the DGT; 848,000 files in 2023, mostly on paper; digitalisation voluntary (Instruccion VEH 2022/20); JCT-AEDRA convenio pending. ERP vendors for desguaces already advertise DGT connection. Weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Operator authorisations are regional (RD 479/2004 REGA; regional registers of operadores comerciales). Castilla y Leon Orden AYG/398/2006 requires a per-vehicle animal-transport log sealed by vets. SITRAN/REMO movements are official. Obligations of tratantes not confirmed. Weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Slaughterhouses must report individually identified animals to the regional RIIA (RD 728/2007 art. 10 bis) through free regional databases. Own traceability system still required (CLM guide). Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "RD 209/2002 and REGA; regional apiary registers, libro de registro (needed for movement of hives), annual censal declaration (Galicia: 31 Dec reference, filed before 1 March), varroa treatment justification for aid (Cantabria 2026). Small, subsidy-driven niche, regional systems. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "K17 covers PRESVET. New angle: RD 666/2023 art. 26 requires non-vet retail outlets (pet shops, agro shops) selling non-prescription vet medicines to keep a computerised in/out register (Madrid declaration form). Logged as a weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Nothing new beyond K06.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Search returned no Spanish rule specific to septic-tank haulers. Hazardous-waste transporters are treated as compliant in CLM when transfer documents are filed in e-SIR (Ley 7/2022 art. 65.1). Close to rejected K08. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "RD 355/2024 (ITC AEM 1, in force 1 Jul 2024): maintenance plan per lift mandatory by 1 Jul 2025, handover of maintenance records, periodic inspection by OCA contracted by the owner (not the maintainer), deficiency deadlines 3-10 years, precinting for non-compliance. Logged for lift owners/administradores de fincas. RD 809/2021 pressure equipment: OCA inspections and plates; no software gap found.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "RD 3/2023: SINAC reporting compulsory for any operator, specific autocontrol protocol reviewed yearly, Plan Sanitario del Agua; Procurador del Comun (CyL) found small supply zones with no full analysis recorded in SINAC; PSA flagged as hard for small systems. Buyers are small municipalities and juntas (autonomous-community health authorities supervise). Guides by AMAP/AEOPAS exist. Weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Strong new lead: REGFER (RD 1051/2022 art. 18; Orden APA/1226/2025 of 27 Oct 2025, BOE 3 Nov 2025). Retail fertiliser sellers register as distributors (Section 3), applicator services by declaracion responsable (Section 4). Existing operators had to register 1 Jan-1 Jul 2026; sales information due yearly before 31 March (CyL procedure). ROPO contractors are K03, farm notebooks K27.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "ETT authorisation (Ley 14/1994) and agencias de colocacion declaracion responsable (Ley 3/2023 Empleo). Nothing new for 2026 and nothing specific to small firms.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Parish and private cemeteries keep libro de entierros and libro de sepulturas (foliated and sealed under Balearic rules); Diputacion de Badajoz has a cemetery archive program. No national filing duty found. Nothing new beyond K02.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Associations and foundations must declare beneficial ownership to the RCTIR (RD 609/2023), first within a month of creation and then each January. Closure risk if missing. Halal/kosher supervision not searched. Logged as a weak candidate, related to K04.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Ley 9/2025 de Movilidad Sostenible (BOE 4 Dec 2025) with no specific small-operator duty found. Regional taxi/VTC changes: Valencia DL 5/2026 (from 6 Jun 2026), Balearic Decreto 6/2026; Madrid digital verification of VTC services. Tachograph and DeCA not searched (K16 rejected). Nothing new for software.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Venta ambulante is governed by RD 199/2010 and municipal ordinances (Ceuti 2026 draft, Alcorcon 2025 draft); fragmented by town, no filing duty. Money changers not searched. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Tattoo studios: regional decrees (Madrid 35/2005, Andalucia 71/2017 as amended by 130/2021, Galicia 2004), health register plus signed consent forms; no client register duty found. Driving schools: nothing found for 2026. Nurseries: regional rules (Basque Decreto 215/2004), no 2026 duty found. Small food producers: RD 1086/2020 flexibility, Andalucia draft order on artisan cheese (2025). Hunting is K29. Nothing new.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 0,
+   "queries": [
+    "empleadas de hogar evaluación de riesgos laborales obligatoria hogares familiares Real Decreto 893/2024",
+    "chatarrerías registro obligatorio libro registro compra chatarra pago electrónico metales obligaciones 2026",
+    "compraventa de objetos usados libro registro policía envío telemático obligación casas de empeño",
+    "desguaces centros autorizados de tratamiento vehículos fuera de uso RD 265/2021 obligaciones registro DGT baja software",
+    "tratantes de ganado operadores comerciales registro REGA obligaciones libro de registro transporte animales autorización",
+    "apicultura registro explotaciones apícolas libro de registro REGA trashumancia apicultores obligaciones 2025 2026",
+    "ascensores inspección periódica nuevo real decreto 2026 titulares comunidades de propietarios mantenimiento OCA registro",
+    "abastecimientos pequeños ayuntamientos SINAC autocontrol agua consumo humano RD 3/2023 plan sanitario del agua",
+    "distribuidores de fertilizantes registro obligaciones RD 1051/2022 libro de registro fertilizantes comerciantes",
+    "empresas de trabajo temporal agencias de colocación autorización obligaciones comunicación Servicio Público de Empleo 2026",
+    "asociaciones fundaciones Registro Central de Titularidades Reales obligación presentar declaración plazo 2026",
+    "autoescuelas nuevo real decreto escuelas particulares de conductores obligaciones 2026 libro registro DGT",
+    "estudios de tatuaje registro sanitario decreto obligaciones libro de registro clientes consentimiento informado 2025",
+    "fosas sépticas transportistas residuos no peligrosos registro autorización notificación traslado e-SIR",
+    "taxi VTC autónomos obligaciones registro 2026 nuevo reglamento Ley de Movilidad Sostenible",
+    "REGFER distribuidores fertilizantes inscripción 1 julio 2026 declaración anual programa software tiendas",
+    "venta ambulante mercadillos autorización municipal registro vendedores ambulantes 2026 ordenanza",
+    "equipos a presión RD 809/2021 inspecciones periódicas titulares compresores calderas registro libro pequeñas empresas",
+    "venta directa productores pequeños elaboradores real decreto 2025 higiene RGSEAA quesería artesanal",
+    "software ascensores plan de mantenimiento administradores de fincas RD 355/2024 aplicación"
+   ],
+   "searches": 27
+  },
+  "tag": "w2b9"
+ },
+ "discover:B:spain": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small refrigeration, air-conditioning and heat-pump installer firms and service workshops, certified under RD 115/2017 (State rule; regional registries such as Navarra's also apply)",
+     "category": "35. Fluorinated gases: new Royal Decree and centralised electronic registry",
+     "evidence": "https://www.miteco.gob.es/es/cambio-climatico/participacion-publica/publica-registrofluorados.html ; https://www.aepd.es/documento/2026-0002.pdf (AEPD report on the draft); https://out-smart.com/features/koudsmart ; https://www.interempresas.net/Climatizacion/585798-AREA-publica-una-nueva-guia-practica-de-aplicacion-de-la-FGas.html",
+     "existing": "KoudSmart (digital refrigerant logbook), a 2016 AREA spreadsheet, and the Navarra regional logbook and application. Competitor search 'software instaladores frío ... libro registro gases fluorados' found no Spanish-specific vertical product; checked in one search only.",
+     "known_mark": "new",
+     "name": "Fluorinated-gas logbook and centralised registry filer for refrigeration/AC installers",
+     "score": 4,
+     "status": "promising",
+     "trigger": "EU Reg 2024/573 in force since 11 Mar 2024. MITECO is preparing a new Royal Decree to replace RD 115/2017 and an Order for a centralised electronic registry replacing the art. 7 registry and Orden TEC/544/2019. Pre-drafting consultation 9-24 Sept 2026.",
+     "trigger_note": "",
+     "unchecked": "Final text and date of the decree and order; what data the registry will require; installer count; whether general HVAC/field-service tools already cover the logbook; regional differences."
+    },
+    {
+     "buyer": "Small co-operatives (agricultural, worker, housing and others) and the gestorías and federations that serve them. State registry; regional co-op registries also exist.",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://laadministracionaldia.inap.es/noticia.asp?id=1266262 ; https://www.iberley.es/noticias/el-boe-regula-legalizacion-formato-electronico-libros-sociedades-cooperativas-36535 ; https://www.mites.gob.es/ficheros/ministerio/sec_trabajo/autonomos/economia-soc/Regsociedades/Instruccion-1-25-Legalizacion-libros-y-tracto-sucesivo.pdf",
+     "existing": "The state's own information system is the filing channel (free). Competitor search 'software gestión cooperativa legalización electrónica libros ...' found no commercial software. Gestorías and federations are the likely incumbents.",
+     "known_mark": "new",
+     "name": "Co-operative book e-legalisation prep and filing (Orden TES/539/2026)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Orden TES/539/2026 (BOE 1 June 2026, in force 1 July 2026): electronic legalisation of members' register, contributions register, minutes, diary and inventory/accounts via the Registro de Sociedades Cooperativas information system. Due within 4 months of year-end; files must be completed (no blank books); sequencing rules; notifications to the Dirección Electrónica Habilitada. Books for FY ending 2026 may still use paper.",
+     "unchecked": "Number of co-ops under state registry versus regional registries; format and technical specification of the filing system; what gestorías already do; first forced cycle looks like FY2027 books (due about April 2028)."
+    },
+    {
+     "buyer": "Small food processors, packers, cheese dairies, cereal and feed buyers and co-operatives buying from non-members. State rule (AICA).",
+     "category": "33. Food-chain contract registry (RD 1028/2022, AICA)",
+     "evidence": "https://www.mapa.gob.es/es/prensa/ultimas-noticias/detalle_noticias/el-gobierno-pone-en-marcha-el-registro-de-contratos-alimentarios--/4e8b321b-89c7-4de8-b66b-319f9e61bdc2 ; https://www.agronewscastillayleon.com/blog/celia-miravalles/obligacion-de-inscribir-los-contratos-agroalimentarios-desde-el-30-de-junio-de-2023/ ; https://agro-alimentarias.coop/docs_download/ponencia-obligaciones-contractuales-registro-de-contratos-alimentarios",
+     "existing": "Docuten (registers on the company's behalf) and Digitel TS offer integration with the AICA registry; AICA ran an event with Grant Thornton and Docuten. Competitor search found both.",
+     "known_mark": "new",
+     "name": "Food-chain contract registry filer for small buyers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ley 12/2013 as amended by Ley 16/2021 and RD 1028/2022: buyers must register contracts with primary producers before delivery and on modification; obligation since 30 June 2023. Fines 250-3,000 euro for minor infractions (one source).",
+     "unchecked": "Whether Docuten/Digitel serve micro-buyers or only mid/large; pricing; current threshold exemptions (under 1,000 euro, cash payments); 2026 changes."
+    },
+    {
+     "buyer": "Almazaras (mostly co-operative and family mills), orujo extraction plants and packers. State system (MAPA/AICA) with regional involvement.",
+     "category": "31. Olive-oil market declarations (SIMO, AICA)",
+     "evidence": "https://www.mapa.gob.es/es/prensa/ultimas-noticias/detalle_noticias/el-gobierno-aprueba-cambios-normativos-para-dotar-de-mayor-transparencia-el-mercado-ole-cola/32e34264-ed52-4d79-a197-3a555bdba84c ; https://www.interempresas.net/Produccion-Aceite/602505-Ministerio-Agricultura-cambia-normativa-sector-aceitero-mejorar-transparencia-trazabilidad.html",
+     "existing": "Competitor search 'software almazara declaraciones SIMO ...' found no vendor. I could not confirm that no vendor exists.",
+     "known_mark": "new",
+     "name": "Olive-oil mill declarations (SIMO) for small mills and co-operatives",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Royal Decree approved 1 July 2025 amending the mandatory-declaration regime and updating SIMO: annual pre-marketing declaration by category; organic monthly declarations replaced by annual ones; orujo dryers file monthly.",
+     "unchecked": "The MAPA page returned HTTP 503 on fetch, so the details come from the search summary. Entry-into-force date, monthly versus annual duties for small mills, whether existing mill ERPs export to SIMO."
+    },
+    {
+     "buyer": "Blasting contractors and quarries or mines with habitual-use authorisation (Guardia Civil; submissions via Government Delegation ACCEDA)",
+     "category": "34. Explosives users: consumption books and blasting records",
+     "evidence": "https://mpt.gob.es/dam/es/portal/delegaciones_gobierno/delegaciones/extremadura/servicios/Area_de_Industria_y_Energia/Instrucciones_Modelo_Pedido_Explosivos_V3.pdf ; https://www.boe.es/eli/es/rd/2005/03/11/277 ; https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/seguridad/armas-y-explosivos/autorizacion-para-la-utilizacion-habitual-de-explosivos/",
+     "existing": "Competitor search 'software libro registro consumo explosivos actas de voladura ...' found no commercial product.",
+     "known_mark": "new",
+     "name": "Explosives consumption book and blast records for small blasting firms and quarries",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Reglamento de explosivos (RD 130/2017) and Orden PRE/2426/2004: libro-registro de consumo and an act per blast, submitted monthly in the first 5 working days via ACCEDA procedure 319. Non-submission is treated as no blasts.",
+     "unchecked": "Number of habitual-use holders (likely only a few hundred; unverified); whether Orden PRE/2426/2004 is still current; whether quarry/mining software already includes it; buyer reachability."
+    },
+    {
+     "buyer": "Pet shops, boarding kennels and residences, groomers, training schools (State draft rule plus regional laws such as Valencia's Ley 2/2023)",
+     "category": "36. Animal-welfare law (Ley 7/2023): núcleos zoológicos de animales de compañía",
+     "evidence": "https://www.dsca.gob.es/es/comunicacion/notas-prensa/derechos-sociales-somete-consulta-publica-dos-nuevos-reales-decretos ; https://www.aepd.es/documento/2026-0032.pdf ; https://www.sanidad.gob.es/normativa/audiencia/docs/RD_Nucleos_Zoologicos.pdf",
+     "existing": "None found. No competitor search was run (score under 3 check not required, and the rule is not final).",
+     "known_id": "K07",
+     "known_mark": "new",
+     "known_note": "K07 covers breeders and the Central Registry. This is a different buyer group (retail, boarding, grooming, training).",
+     "name": "Animal-welfare núcleo zoológico authorisation and records for pet shops, kennels, groomers and trainers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Draft Royal Decree on classification, authorisation, registry and operation of pet-animal núcleos zoológicos (Ley 7/2023); consultation started Oct 2025; AEPD report 032/2026. Not confirmed approved.",
+     "unchecked": "Whether the decree is approved or published; which activities need núcleo status; record-keeping duties; regional registries; competing veterinary/pet-shop software."
+    },
+    {
+     "buyer": "Small wineries and wine wholesalers (State system via AICA)",
+     "category": "32. Wine-sector declarations (INFOVI/REOVI, RD 313/2016)",
+     "evidence": "https://www.boe.es/eli/es/rd/2016/07/29/313 ; https://www.softwaredoit.es/evins/evins.html ; https://www.softwaredoit.es/bacosoft/bacosoft.html ; https://www.softwaredoit.es/limit/limit.html ; https://www.softwaredoit.es/manchasoft/manchasoft.html",
+     "existing": "eVins (cloud, from 40 euro/month), Bacosoft, Limit (declaration calendar), Manchasoft (AEAT integration). Competitor search found these.",
+     "known_mark": "new",
+     "name": "Wine-sector monthly/biannual declarations (INFOVI) for small wineries",
+     "score": 2,
+     "status": "rejected",
+     "trigger": "RD 313/2016 (and RD 739/2015): monthly declarations by the 20th for producers/wholesalers averaging at least 1,000 hl; below that, December and August declarations (current text unverified).",
+     "unchecked": "Current thresholds; whether small wineries actually adopt these tools; vendor claims are self-described."
+    },
+    {
+     "buyer": "Small importers of fish and fishery products (HS chapter 3, 1604, 1605). EU rule applied in Spain.",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://oceans-and-fisheries.ec.europa.eu/news/new-digital-certification-system-tackle-illegal-fishing-2026-01-12_en ; https://fiata.org/n/alert-the-eu-catch-system-will-enter-into-force-on-10-january/ ; https://weareaquaculture.com/news/fisheries/eu-rolls-out-digital-catch-certification-in-push-to-tackle-illegal-fishing",
+     "existing": "Customs brokers and forwarders do most of the work. No Spanish software or local-language competitor search was run.",
+     "known_id": "K14",
+     "known_mark": "new",
+     "known_note": "Related to K14 (CBAM/EUDR importers) but a different regime and buyer.",
+     "name": "EU CATCH catch-certificate filing for small fish importers and wholesalers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "EU CATCH digital catch certificate mandatory for importers since 10 Jan 2026. Paper certificates must be keyed in manually. No formal delegation mechanism to forwarders. At least 5% of consignments checked.",
+     "unchecked": "Spanish importer count; whether forwarders absorb the whole task; Spanish authority guidance (SGP/AESAN); any vendor tools."
+    },
+    {
+     "buyer": "Small private clinics, dental and physiotherapy practices (regional authorisation; X-ray rules under RD 1085/2009, unconfirmed)",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://www.juntaex.es/w/0660223 ; https://asest.es/story/equipos-de-gestion-compartida-centros-sanitarios-euskadi/ ; https://www.bocm.es/boletin/CM_Orden_BOCM/2026/07/15/BOCM-20260715-43.PDF",
+     "existing": "Generic dental-practice software exists (Medesk and others); none confirmed to cover this.",
+     "known_mark": "new",
+     "name": "Health-centre authorisation renewal and radiology compliance calendar for small clinics",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Regional renewal cycles (Madrid every 8 years under Decreto 205/2023; Extremadura responsible declaration under Decreto 2/2022; Basque professional register). Radiology compliance partly unconfirmed.",
+     "unchecked": "Whether renewal cycles are frequent enough; regional fragmentation; existing clinic software coverage; UTPR consultancies."
+    },
+    {
+     "buyer": "Category 2 operators and users (chemical distributors, labs, hardware and garden sellers) and category 1 licence holders (State: AEMPS and Interior)",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://www.aemps.gob.es/medicamentos-de-uso-humano/legislacion_espana_medicamentosusohumano/estupefacientesPsicotropos/?lang=ca ; https://chemspain.org/wp-content/uploads/2019/09/1.-NORMATIVA-NACIONAL-DROGAS-Victor-Alvariño.pdf",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Drug and explosives precursor operator registration and records for chemical sellers and users",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Ley 4/2009 and RD 129/2017: category 1 licence; category 2 operator registration; records duties (annual declaration unconfirmed).",
+     "unchecked": "Annual declaration duties; operator count; explosives-precursor (Reg 2019/1148) selling duties for hardware and garden shops; existing software."
+    },
+    {
+     "buyer": "Small gestorías, tax advisers, real-estate and rental intermediaries (State: SEPBLAC, Ley 10/2010)",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.aedaf.es/activities/Jornada_GE_Delitos.pdf ; https://periscopiofiscalylegal.pwc.es/el-consejo-de-ministros-da-luz-verde-al-anteproyecto-que-modifica-la-ley-de-prevencion-de-blanqueo-de-capitales/amp/ ; https://copilotgestoria.com/blog/manual-prevencion-blanqueo-gestoria-2026-experto-externo-exencion-anifi ; https://www.ecija.com/actualidad-insights/actualizacion-del-certificado-digital-del-sepblac-e-informe-de-sanciones-impuestas-en-2025/",
+     "existing": "CopilotGestoria (blog offering gestoría AML manuals) and others; not checked in depth.",
+     "known_id": "K04",
+     "known_mark": "known",
+     "known_note": "Same buyer group and AML duty as K04 (gestorías titularidad real). Nothing new.",
+     "name": "Anti-money-laundering reporting for small advisers and rental intermediaries (draft reform, DMO application)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley 10/2010 art. 28 external expert review; periodic communications via SEPBLAC's DMO application; draft reform adding rental intermediaries above 10,000 euro/month; EU AMLR 2024/1624; a single-source claim of a 28 Jul 2026 draft creating 'Anifi'."
+    },
+    {
+     "buyer": "Small private-security firms and detective offices (State: Ministry of Interior)",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://www.lamoncloa.gob.es/Documents/anteproyecto_ley_seg_priv_mir_ruedasdeprensapantalla2.pdf ; https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/seguridad/empresas-de-seguridad/autorizacion-e-inscripcion/",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Private-security firm and detective register-book compliance (draft law)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Libro-registro duty under RD 2364/1994 art. 19. A draft private-security law would create a Registro Nacional de Seguridad Privada and require detective reports (draft; date and approval unconfirmed).",
+     "unchecked": "Whether the law passed; which books and records are required; incumbent security-sector software."
+    },
+    {
+     "buyer": "Small contractors and self-employed subcontractors (regional labour authorities; State law Ley 32/2006)",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "https://www.xunta.gal/es/notas-de-prensa/-/nova/008602/xunta-simplifica-habilitacion-los-libros-subcontratacion-construccion-mediante ; https://www.comunidad.madrid/node/73594 ; https://sede.gobiernodecanarias.org/sede/tramites/4886",
+     "existing": "The K21 vendors (CTAIMA, Dokify, Nalanda, e-coordina) are the likely incumbents; not confirmed to cover the book.",
+     "known_id": "K21",
+     "known_mark": "new",
+     "known_note": "Adjacent to K21 (CAE contractor documentation), different duty (subcontracting book and REA). I did not verify that K21 vendors cover it.",
+     "name": "Construction subcontracting book habilitation and REA tracking for small contractors and self-employed",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Contractors must obtain a habilitated subcontracting book per site from the labour authority where the works are done; REA registration by registered address; Galicia telematic habilitation since Jan 2025; Catalonia online with idCat.",
+     "unchecked": "Whether K21 vendors cover the subcontracting book; regional differences and book purchase process."
+    },
+    {
+     "buyer": "Accommodation operators in the Balearic Islands",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://www.noudiari.es/noticias-ibiza-formentera-sidebar/epic-el-pi-propone-que-la-gestion-integra-de-la-ecotasa-se-lleve-a-cabo-desde-ibiza",
+     "existing": "Not checked.",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Same duty and buyer group as K01 (multi-region tourist-tax filing).",
+     "name": "Balearic sustainable tourism tax for accommodation operators",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Sustainable-tourism tax levied on stays; 2026-27 spending plan approved."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Nothing new beyond state or free channels. CORES stock and fee duties fall on wholesale operators and large consumers; I found no monthly small-retailer filing. Unattended-station switch, MI-IP03/IP04 periodic inspections and leak-detection duties are regional industry-authority procedures run through accredited control bodies (OCAs), not a software gap. Bottled butane supply is a Repsol-obliged service. One CORES search plus one gasolineras/butano search; no candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Spain's equivalents are the AICA mandatory market declarations: olive oil (SIMO, regime changed by a Royal Decree approved 1 July 2025), wine (INFOVI, RD 313/2016) and the food-contract registry. See candidates 31-33. I did not reach the cereal or dairy declarations (not_reached).",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "New: Orden TES/539/2026 makes electronic legalisation of co-operative books (members' register, contributions register, minutes, diary, inventory and accounts) mandatory via the Registro de Sociedades Cooperativas information system from 1 July 2026. Filing is due within 4 months of year-end. The first paper-exempt year ends in 2026, so the first forced cycle is books for FY2027. See candidate. Regional co-op registries (autonomous communities) are separate and unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Authorisation and renewal is regional (RD 1277/2003 base). Madrid renews every 8 years under Decreto 205/2023, replacing Decreto 51/2006. Extremadura uses a responsible declaration (Decreto 2/2022). The Basque Country adds a professionals register. Dental X-ray duties (RD 1085/2009) are only partly confirmed. I did not check insurer-billing flows. Weak candidates only.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "The first search returned Argentine results and was redone. Spanish framework: Ley 4/2009 and RD 129/2017 (precursor operators: category 1 licence, category 2 registration). Pharmacies keep a narcotics/psychotropics ledger and a recetario book under RD 1718/2010. Pharmacies are served by incumbent pharmacy software, which I did not check by name. I found no 2026 change. One unverified candidate for category 2 operators and users.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Private security: libro-registro duty under RD 2364/1994 art. 19, and a draft private-security law (anteproyecto) creating a Registro Nacional de Seguridad Privada and detective reports. The draft's date and approval status are unconfirmed. I found no 2026 rule for cleaning or temp-work agencies; REGCON could not be verified.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "REA and subcontracting book (Ley 32/2006, RD 1109/2007) are regional and unchanged except telematic habilitation (Galicia since Jan 2025, Catalonia online, Castilla y León app). Quarry and blasting: monthly explosives consumption book and blasting records (Orden PRE/2426/2004, RD 130/2017). See candidates. K21 covers the CAE contractor-documentation vendors.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Ley 10/2010 covers tax advisers, gestorías and others. External expert review is under art. 28; reporting runs via the SEPBLAC DMO application, whose digital certificate was renewed. A draft reform adds rental intermediaries above 10,000 euro/month. A single-source claim says a 28 Jul 2026 draft would create 'Anifi' to absorb SEPBLAC (unverified). Nothing new beyond K04.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Nothing new beyond K01, K10 and K25. Noted regional changes: Madrid minimum 25 m2 for tourist dwellings (unverified), Valencia Ley 3/2026 amending the tourist-accommodation regulation, Balearic sustainable-tourism tax plan 2026-27. EU Reg 2024/1028 applies from 20 May 2026 to short-term rental platforms.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "The EU CATCH digital catch certificate has been mandatory for importers since 10 Jan 2026 (TRACES NT). Paper certificates must be keyed in by hand. There is no formal delegation mechanism to forwarders. Spanish-specific sources and software were not found. EUDR/CBAM remain covered by K14.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Olive-oil market declarations (SIMO, AICA) for mills, orujo plants and packers",
+     "found": "The RD approved 1 July 2025 changed the mandatory-declaration regime. Mills file an annual declaration before marketing, organic monthly declarations became annual, and orujo dryers file monthly. I found no mill software with SIMO export, and the effective date and filing forms are unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Wine-sector declarations (INFOVI/REOVI, RD 313/2016)",
+     "found": "Producers and wholesalers of at least 1,000 hl file monthly by the 20th; those below file in December and August (from 2016 text; verify current). Several vendors already cover this: eVins (from 40 euro/month), Bacosoft, Limit, Manchasoft.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Food-chain contract registry (RD 1028/2022, AICA)",
+     "found": "Buyers must register contracts with primary producers before delivery and on modification. Cooperative purchases from members are exempt, but purchases from non-members are not. Late registration is a minor infraction (250-3,000 euro, one source). Vendors Docuten and Digitel TS already offer registration.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Explosives users: consumption books and blasting records",
+     "found": "Blasting firms and quarries keep a consumption book and a record per blast, submitted monthly through the ACCEDA platform (procedure 319) in the first 5 working days; non-submission is read as no blasts (Extremadura government delegation instructions). I found no commercial software and did not confirm that the Orden PRE/2426/2004 is still current.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Fluorinated gases: new Royal Decree and centralised electronic registry (EU Reg 2024/573)",
+     "found": "MITECO is replacing RD 115/2017 with a new decree and a ministerial order creating a centralised electronic registry. The pre-drafting consultation on the order ran 9-24 Sept 2026. The decree's stage is unknown. Navarra already has a regional electronic registry. KoudSmart exists as a logbook tool. Draft only, no final text.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Animal-welfare law (Ley 7/2023): núcleos zoológicos de animales de compañía",
+     "found": "A draft Royal Decree on classification, authorisation, registry and operation of núcleos zoológicos (pet shops, boarding, breeders and others) was in processing in early 2026 (AEPD report 032/2026). It would repeal Decreto 1119/1975 and the 1980 Order. Valencia is amending its own law 2/2023. Whether groomers, kennels and trainers are covered is unconfirmed.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "estaciones de servicio obligaciones registro CORES comunicación mensual operadores GLP distribuidores pequeños",
+    "cooperativas agrarias obligaciones registro libro de socios Ley cooperativas 2026 plataforma digital",
+    "clínicas privadas obligaciones registro sanitario autonómico centros sanitarios renovación autorización 2026 decreto",
+    "farmacias obligaciones nuevas 2026 libro recetario estupefacientes receta electrónica precursores explosivos registro operadores (returned Argentine results)",
+    "empresas de seguridad privada obligaciones libro registro Ministerio del Interior vigilantes cumplimiento 2026 nuevo reglamento",
+    "AICA declaraciones obligatorias almazaras envasadores aceite oliva mensual cooperativas pequeñas software INFOVI bodegas declaración",
+    "SEPBLAC sujetos obligados prevención blanqueo agentes inmobiliarios asesores fiscales pequeños despachos nuevo reglamento 2026 examen experto externo software",
+    "libro de subcontratación electrónico Registro de Empresas Acreditadas REA obligaciones autónomos construcción 2026 cambio",
+    "empresas de trabajo temporal limpieza contratas obligaciones nueva ley 2026 registro REGCON subcontratación registro empresas servicios multiservicios",
+    "registro de contratos alimentarios AICA obligación productores primarios cooperativas Ley cadena alimentaria registro contratos 2026",
+    "bodegas declaraciones obligatorias vino mensual existencias producción software gestión bodega INFOVI REOVI pequeñas bodegas",
+    "libro registro explosivos cantera voladura usuarios Intervención de Armas Reglamento de explosivos control consumo aplicación",
+    "gases fluorados libro registro equipos frigoríficos instaladores talleres aire acondicionado nuevo Real Decreto 2026 Reglamento 2024/573 España",
+    "Ley 7/2023 bienestar animal núcleos zoológicos real decreto tiendas animales peluquerías caninas residencias registro obligaciones 2026",
+    "farmacias España precursores de drogas sustancias catalogadas operadores registro AEMPS obligaciones libro registro Real Decreto 2026",
+    "importadores productos pesca certificado de captura CATCH IT obligatorio 2026 pescaderías mayoristas España importación trazabilidad",
+    "alojamientos turísticos hoteles pensiones casas rurales obligaciones 2026 registro estadística comunicación decreto nuevo comunidad autónoma ecotasa recaudación",
+    "software gestión cooperativa legalización electrónica libros Registro de Cooperativas Orden TES/539/2026 libro registro socios programa",
+    "software instaladores frío climatización libro registro gases fluorados certificado registro electrónico centralizado programa gestión",
+    "software almazara declaraciones SIMO AICA declaración mensual existencias aceite programa gestión almazara cooperativa"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b9"
+ },
+ "gapfill:spain": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Autonomo owner-drivers and micro-firms running 2.5-3.5 t vans on international or cabotage work; also small courier subcontractors",
+     "category": "18. Transport operators: small trucking",
+     "evidence": "https://www.teltonika-gps.com/es/blog/tachograph-rules-for-vans-from-july-2026-what-changes ; https://www.race.es/tacografo-furgonetas ; https://www.geotab.com/es/blog/gestionar-datos-tacografo-digital/ ; https://trans.info/es/cuenta-atras-para-las-furgonetas-el-88-aun-sin-tacografo-para-2026-473744 ; https://www.motor16.com/las-ultimas-noticias/tacografo-obligatorio-furgonetas-julio-2026/",
+     "existing": "Teltonika TachoSync with FMC150 (remote download, bill-per-use, no price shown), Geotab, Frotcom; general tachograph analysers likely exist (not named or checked). Competitor search found only hardware/fleet-telematics vendors, no low-cost standalone archive-and-reminder tool for one-van owners.",
+     "known_id": "K16",
+     "known_mark": "new",
+     "name": "Light-van smart-tachograph compliance service (G2V2 download, 28/90-day reminders, driver-hours infringement check) for micro hauliers",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Reg. (EU) 2020/1054 applies from 1 Jul 2026 to light vans (over 2.5 t up to 3.5 t) in international carriage and cabotage: smart tachograph G2V2, driver card, periodic download and storage of data; Reg. 165/2014 download cycles; no transition period; ROTT inspection exposure",
+     "trigger_note": "Hard date has passed (1 Jul 2026); roughly a third of affected operators reportedly not yet adapted (Kienzle survey, per the trans.info and press results).",
+     "unchecked": "Number of Spanish vans actually in scope (only international or cabotage); which cheap analysis/archive tools Spanish gestorías already use; whether the fine is EUR 200 or EUR 2,000; the 56-day card rule for G2V2; whether most affected operators are foreign-based; who pays (hardware vendors may bundle the service); an owner-driver of a van may have little to download beyond the card."
+    },
+    {
+     "buyer": "Autonomos and micro-firms with MDL/MDP authorisations (and gestorías serving them)",
+     "category": "18. Transport operators: small trucking",
+     "evidence": "https://www.aragon.es/tramitador/-/tramite/autorizacion-de-transporte-publico-de-mercancias-en-vehiculo-ligero-mdl/alta-autorizacion-de-empresa ; https://papelea.com/es/gobierno-de-aragon/autorizacion-de-transporte-publico-de-mercancias-en-vehiculo-ligero-mdl-visado-de-autorizaciones-10682-tramites-gobierno-de-aragon ; https://www.garrigues.com/es_ES/noticia/la-reforma-del-rott-cumple-con-europa-pero-no-regula-la-nueva-realidad-del-sector-transporte",
+     "existing": "Not checked; transport gestorías and associations handle visado. No software found.",
+     "known_id": "K16",
+     "known_mark": "new",
+     "name": "ROTT authorisation visado and honorability calendar for one-vehicle hauliers (MDL/MDP)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Annual visado in the month set by the last NIF digit; suspension if missed, rehabilitation within one year; honorability loss suspends authorisations for a year; electronic procedure only",
+     "trigger_note": "",
+     "unchecked": "Whether tax and Social Security clearance is checked automatically at visado; the extent to which transport gestorías already serve this; no 'MDS' authorisation found (probably MDSL); the taxi/VTC/ambulance licence duties were not searched at all."
+    },
+    {
+     "buyer": "Licensed armeros and corredores; shops selling arms as a side line (art. 56)",
+     "category": "31. Arms dealers (armerías) and Guardia Civil record books",
+     "evidence": "https://www.iberley.es/legislacion/articulo-10-reglamento-armas ; https://papelea.com/es/leyes/reglamento-de-armas/capitulo-ii_seccion-2-comercio-interior ; https://www.boe.es/eli/es/rd/2023/07/18/653 ; https://www.defensa.com/homeland-security/espana-adapta-reglamento-armas-mas-recientes-directivas-europeas ; https://www.guardiacivil.es/documentos/iarmas/Form/es/1000040_AutorizacionArmeroCorredor.pdf",
+     "existing": "Competitor search 'software armería TPV gestión armeros libro de registro Guardia Civil' returned only generic TPV (Sage, softwaredoit) and non-Spanish sources; no Spanish armería vertical found. Not conclusive: a vertical vendor may exist without ranking.",
+     "known_id": "K28",
+     "known_mark": "new",
+     "name": "Armería libro-registro and electronic parte de venta tool for small arms dealers (and collectors' guía de pertenencia tracking)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Reglamento de Armas art. 10 (registry of every arm in and out with full counterparty data), art. 52 (parte de venta to Intervención de Armas), RD 726/2020 (electronic reporting without undue delay), handing over books on closure; periodic Intervención inspections",
+     "trigger_note": "",
+     "unchecked": "Count of armerías (likely hundreds, a thin market); what exact electronic channel the Guardia Civil accepts and whether it exposes an API or a web form; whether an existing vertical (similar to ORONET for jewellers) covers arms; Ministry of Interior preparing a new Reglamento de Armas (defensa.com) could change the rules; willingness to pay."
+    },
+    {
+     "buyer": "Retail pyrotechnic shops and seasonal stalls (casetas)",
+     "category": "31. Arms dealers and pyrotechnic retailers",
+     "evidence": "https://www.boe.es/eli/es/rd/2015/10/30/989 ; https://metropolitano.gal/extra/incautan-4-448-unidades-de-artificios-pirotecnicos-en-mos-por-exceder-los-limites-autorizados ; https://www.jerez.es/fileadmin/Documentos/Fiestas/Navidad/2025/FDO_BANDO_PIROTECNIA_2025.pdf",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Pyrotechnic retail point-of-sale records and licence compliance",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "RD 989/2015 (licensing, in-person sale only, CE-marked categories, minimum age, traceability under Directive 2014/58/EU); Intervención de Armas inspection",
+     "trigger_note": "",
+     "unchecked": "Whether a retail record book or traceability reporting actually exists for retailers; operator count; the search did not reach the text of RD 989/2015."
+    },
+    {
+     "buyer": "About 3.3 million autonomos",
+     "category": "32. Autonomo tax and Social Security calendars",
+     "evidence": "https://www.infoautonomos.com/blog/noticias/regularizacion-cuotas-autonomos-2026/ ; https://www.billeo.es/guias/regularizacion-cuota-autonomos-2026 ; https://www.legalitas.com/actualidad/como-calcular-cuota-de-autonomos",
+     "existing": "Infoautónomos, Billeo, Declarando, Legalitas guides and calculators",
+     "known_mark": "new",
+     "name": "RETA income-based contribution regularisation helper",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "RD-ley 13/2022 annual regularisation against Hacienda income; optional base changes up to 6 per year; payment of differences by about 31 Oct 2026 for 2025 income (date per Billeo, unconfirmed)",
+     "trigger_note": "",
+     "unchecked": "Rejected because the regularisation is automatic by Seguridad Social data crossing: the autonomo files nothing, and calculators and gestoría content already cover the optional base-change decision. Generic tax-calendar/accounting products are out of scope."
+    },
+    {
+     "buyer": "Bars, cafes and restaurants with terraces (about 250,000 hospitality businesses per the brief; unverified count)",
+     "category": "33. Municipal licences for small premises: hospitality",
+     "evidence": "https://www.valladolid.gob.es/fr/tablon-oficial/ayuntamiento-valladolid-tablon-oficial/renovacion-anual-terrazas-hosteleria-2026.fichiers/1150156-Anexo.%20Edicto%20de%20renovaci%C3%B3n%202026%20firmado.pdf ; https://otea.es/wp-content/uploads/2026/01/0.-RESOLUCION-2026.pdf ; https://normatia.com/es/normativa/terrazas-hosteleria-madrid/2025/disposiciones/",
+     "existing": "None searched; many councils renew automatically or by e-sede, so the pain per bar is low and the rules differ by municipality.",
+     "known_mark": "new",
+     "name": "Terrace authorisation and municipal licence renewal tracker for bars",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Annual terrace renewal and tasa (Valladolid Q1 window, 31 Mar 2025); Gijón renewal de oficio 2026; Madrid new terrace ordinance and commission (28 Jan 2026); each municipality sets its own rules",
+     "trigger_note": "",
+     "unchecked": "Whether any bar suffers real missed-deadline pain; multi-municipality demand (most bars sit in a single municipality); SGAE/AGEDI music fees, aforo, noise and tasa de basuras were not searched."
+    },
+    {
+     "buyer": "Bars and restaurants",
+     "category": "33. Municipal licences for small premises: hospitality",
+     "evidence": "https://qamarero.com/blog/appcc-hosteleria/ ; https://apps.apple.com/us/app/id1428695646",
+     "existing": "Alcomo HACCP, Andy APPCC, EasyQ APPCC Digital, Emerson/Copeland sensors; a pest/legionella version (K12) was already rejected on competition",
+     "known_id": "K12",
+     "known_mark": "known",
+     "name": "Digital APPCC / allergen records for bars and restaurants",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Reg. 852/2004 art. 5; RD 1021/2022 art. 20; Reg. 1169/2011",
+     "trigger_note": "",
+     "unchecked": "Rejected: several APPCC apps already serve this (Alcomo, Andy, EasyQ, Emerson). Prices not shown."
+    },
+    {
+     "buyer": "Holders of small livestock holdings (sheep, goats, cattle, pigs, bees, horses; over 900,000 REGA entries incl. non-productive)",
+     "category": "34. Agriculture and livestock small-operator mandates (touches 6)",
+     "evidence": "https://www.mapa.gob.es/en/ganaderia/temas/trazabilidad-animal/sitran ; https://www.legaltoday.com/actualidad-juridica/noticias-de-derecho/aprobado-un-real-decreto-para-unificar-la-identificacion-y-trazabilidad-de-los-animales-terrestres-en-cautividad-2023-10-18/ ; https://www.comunidad.madrid/node/73648 ; https://www.boe.es/eli/es/rd/2007/06/13/728/con/20241224",
+     "existing": "Competitor search 'libro de registro explotación ganadera digital app' returned no vendor; only regional tools such as Madrid REMO_PUBLIC for guías. Not conclusive.",
+     "known_id": "K27",
+     "known_mark": "new",
+     "name": "Small-holder livestock libro de registro de explotación (digital, regional formats, linked to REMO movements)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "RD 787/2023 requires an up-to-date libro de registro in the format approved by the region; regional formats vary (Valencia Orden 8/2025); REMO movement notification and guías de origen/sanidad via regional apps",
+     "trigger_note": "",
+     "unchecked": "Existing herd-management vendors (not surfaced by search) and whether they already generate the regional libro formats; official regional apps; actual enforcement/inspection pressure; willingness of small herders to pay; cross-region variation helps a multi-region product but fragments the market."
+    },
+    {
+     "buyer": "Farms above 5 ha (or over 1 ha irrigated) using phytosanitary products",
+     "category": "34. Agriculture and livestock small-operator mandates",
+     "evidence": "https://www.agronewscastillayleon.com/aplazamiento-cuaderno ; https://www.mapa.gob.es/en/prensa/ultimas-noticias/detalle_noticias/el-gobierno-modifica-diversos-reales-decretos-para-clarificar-la-aplicacion-de-la-politica-agraria-comun/171d3362-b17d-47d4-b5a6-bd7f76ec3eae ; https://www.caib.es/sites/quadernagrari/es/cuaderno_digital_de_explotacion_agricola/",
+     "existing": "Free MAPA notebook plus the vendors listed in K27",
+     "known_id": "K27",
+     "known_mark": "known",
+     "name": "Digital farm notebook (CUE) deadline 1 Jan 2027 for phytosanitary records",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "RD approved 18 Nov 2025 postponing digital phytosanitary register to 1 Jan 2027 (paper allowed in 2026 per Reg. (EU) 2023/564); RD 1054/2022 as amended",
+     "trigger_note": "",
+     "unchecked": "Not revived. The new 1 Jan 2027 deadline is real but the free MAPA tool and K27's vendors remain, small farms are exempt, and the contractor niche stays with K03."
+    },
+    {
+     "buyer": "Small fertiliser distributors, agricultural cooperatives' stores and independent fertilisation advisers",
+     "category": "14. Pesticide and fertiliser dealers and applicators (REGFER)",
+     "evidence": "https://www.comunidad.madrid/info/rgpd/at/420 ; https://servicio.mapa.gob.es/eu/agricultura/participacion-publica/ordenaparegfer-030425_tcm35-705405.pdf ; https://www.caib.es/sites/quadernagrari/es/cuaderno_digital_de_explotacion_agricola/",
+     "existing": "Not searched; ERP vendors for agri-input dealers likely cover traceability",
+     "known_id": "K27",
+     "known_mark": "new",
+     "name": "REGFER registration and record support for fertiliser distributors and fertilisation advisers",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "RD 1051/2022 art. 18 creates the REGFER; Orden APA/1226/2025 of 27 Oct 2025 sets its structure and operation; RD 1051/2022 record duties for fertilisation",
+     "trigger_note": "",
+     "unchecked": "The competitor search was not run (budget exhausted). Deadlines for first registration, the exact data to submit and the number of operators are unconfirmed; the Orden text was not opened."
+    },
+    {
+     "buyer": "Companies with 50-249 workers",
+     "category": "35. Employer-side labour duties for micro-firms",
+     "evidence": "https://www.legalitas.com/actualidad/canal-de-denuncias ; https://www.softwaredoit.es/recursos-humanos/canal-de-denuncias-obligatorio-como-cumplir-con-la-ley.html ; https://www.que.es/2023/11/27/lapsowork-el-software-para-implantar-el-canal-de-denuncias-antes-del-1-de-diciembre/",
+     "existing": "Cedesa Lapsowork (EUR 299.99+VAT per year), EQS, Atico34, softwaredoit and many consultancies",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "Whistleblowing channel (Ley 2/2023) for firms of 50 or more workers",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Ley 2/2023, mandatory since 1 Dec 2023; AIPI notification form reportedly activated Feb 2026 (unverified)",
+     "trigger_note": "",
+     "unchecked": "Rejected on competition: many cheap SaaS channels and consultancies. The buyer is also a mid-size firm, which is partly out of the quiet-business brief."
+    },
+    {
+     "buyer": "Family firms with 50 or more workers (plan); all employers (registro retributivo)",
+     "category": "35. Employer-side labour duties for micro-firms",
+     "evidence": "https://www.holded.com/es/blog/plan-igualdad-empresas ; https://factorial.es/blog/plan-de-igualdad ; https://www.cegid.com/ib/es/blog/incumplimiento-del-plan-de-igualdad-infracciones-y-sanciones/",
+     "existing": "HR suites (Factorial, Holded, Cegid) and consultancies",
+     "known_id": "K05",
+     "known_mark": "known",
+     "name": "Plan de Igualdad and registro retributivo support for 50-250 worker firms",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "RD 901/2020 and RD 902/2020; LISOS fines EUR 7,501-225,018; public-contract exclusion",
+     "trigger_note": "",
+     "unchecked": "Same buyer group and duty family as K05 (pay transparency); Directive (EU) 2023/970 transposition status not checked."
+    },
+    {
+     "buyer": "Employers with few workers who self-assume prevention (threshold disputed: fewer than 6 per RSP art. 11, or up to 25 with one workplace per one source)",
+     "category": "35. Employer-side labour duties for micro-firms",
+     "evidence": "https://www.ces.gva.es/sites/default/files/2018-03/art1-rev4.pdf ; https://asest.es/story/asuncion-personal-del-empresario/ ; https://www.infoautonomos.com/contratar-trabajadores/prevencion-riesgos-laborales-autonomos-3",
+     "existing": "Not searched; the external prevention service sector (servicios de prevención ajenos) and cheap PRL bundles for autonomos are likely entrenched",
+     "known_mark": "new",
+     "name": "Done-for-you PRL (occupational-risk) service for owner-run micro-firms that self-assume prevention",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley 31/1995 and RSP art. 11: self-assumption allowed outside Annex I activities if the owner works at the site; health surveillance still needs an external service; Inspección de Trabajo",
+     "trigger_note": "",
+     "unchecked": "Which threshold applies; the share of micro-firms that self-assume; the prevention-service market and pricing; mostly a service business rather than software."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "18. Transport operators: taxi/VTC/ambulance and small trucking (ROTT, MDL/MDS, tachograph records)",
+     "found": "Small-trucking side screened; taxi/VTC/ambulance NOT searched (budget went to the hauliers). Found: (a) from 1 Jul 2026 vans with MMA over 2.5 t and up to 3.5 t doing international carriage or cabotage must have a G2V2 smart tachograph, driver cards and periodic data download/archiving (28 days card, 90 days unit, keep 1 year per Geotab; one source says 56 days for G2V2, unverified); national-only vans generally out of scope; no transition period; fines quoted inconsistently (EUR 200 vs EUR 2,000, unverified); retrofit EUR 600-1,200; IRU survey says 88% of affected vans lacked equipment. (b) ROTT: physical transport card gone, authorisation is electronic, annual visado by month of NIF last digit, suspension if not renewed, rehabilitation within one year; no minimum fleet. 'MDS' as such not found, probably MDSL (superlight) or a confusion. Existing tools: Teltonika TachoSync remote download, Geotab, Frotcom; all hardware/fleet-led, no prices published. Spain-wide affected-van count not found.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Arms dealers (armerías), collectors and pyrotechnic retailers: Reglamento de Armas record books and Guardia Civil reporting (country-specific)",
+     "found": "Art. 10 Reglamento de Armas: armeros and corredores must keep a registry of entries and exits (type, brand, model, calibre, serial, counterparty data), file a parte de venta with the Intervención de Armas (art. 52), report electronically without undue delay (RD 726/2020), hand over books on closure; shops selling arms as a side line also keep an entries/exits book (art. 56). RD 653/2023 touched the Registro Nacional de Armas. Guardia Civil is renewing its Intervención de Armas system and uses NOTIFIC@. Two searches found no Spanish vertical software for armerías (only generic TPV). Pyrotechnics: RD 989/2015 requires licences and in-person sale; retail record-book duty not confirmed. Not checked: number of armerías, the exact electronic channel/format, whether a Guardia Civil portal already does the filing, collectors' duties.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Autónomo tax and Social Security calendars: RETA income-based contributions regularisation, modelos 303/130 (country-specific)",
+     "found": "The RETA regularisation (RD-ley 13/2022) is done by the Seguridad Social crossing its data with the Hacienda income figures, so the autonomo files nothing; only the optional bi-monthly base changes (up to 6 per year) are actioned. Cycles: 2024 income regularised early 2026; 2025 income paid by about 31 Oct 2026 (Billeo; dates inconsistent across sources). Calculators and guides already exist from Infoautónomos, Billeo, Declarando, Legalitas. No mandatory filing found for a software product; generic accounting/tax filing is out of scope.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Municipal licences and registers for small premises: bars and restaurants (APPCC, allergens, terraces, licences) (country-specific)",
+     "found": "Duties: APPCC self-control (Reg. 852/2004 art. 5; RD 1021/2022 art. 20), allergen information (Reg. 1169/2011), regional food-establishment register, municipal licencia de actividad and annual terrace authorisation. Terrace renewal is municipal and fragmented: Valladolid publishes a yearly window, usually Q1 (31 Mar 2025); Gijón renews de oficio for 2026; Madrid's decree of 28 Jan 2026 created a terraces commission with automatic renewal for older authorisations. APPCC record apps already exist (Alcomo HACCP, Andy APPCC, EasyQ, Emerson/Copeland sensors). Not checked: SGAE/AGEDI music fees, noise/aforo records, tasa de basuras, number of bars.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Agriculture and livestock small-operator mandates: SITRAN/REGA/REMO, livestock libro de registro, CUE/SIEX, REGFER (country-specific; also touches 6 and 14)",
+     "found": "Livestock: REGA covers over 900,000 holdings (RD 479/2004); movements go through REMO (RD 728/2007), which the regional administrations feed; RD 787/2023 unified identification and traceability and requires every holding to keep an up-to-date libro de registro in the format approved by the region (Valencia approved its format by Orden 8/2025 of 6 Jun). No small-holder libro-de-registro app found in one search (competitor coverage not exhaustive). Crops: RD of 18 Nov 2025 postponed the digital phytosanitary notebook (CUE) to 1 Jan 2027; holdings of 5 ha or less (irrigation up to 1 ha) are exempt; MAPA offers a free CUE; fertilisation records may be paper or digital (RD 1051/2022). REGFER registration (art. 18; Orden APA/1226/2025 of 27 Oct) falls on fertiliser makers, importers, distributors and advisers, not farmers. A BOE of 8 Jul 2026 (BOE-A-2026-14762) concerns livestock reproductive products and was not opened.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Employer-side labour and prevention duties for micro-firms: Ley 2/2023 whistleblowing channel, Plan de Igualdad, registro retributivo, PRL self-assumption (country-specific; also touches 26)",
+     "found": "Ley 2/2023: internal channel mandatory at 50 or more workers since 1 Dec 2023 (fines quoted at EUR 600,000 or EUR 1m, unverified, art. 65); cheap SaaS exists (Cedesa Lapsowork EUR 299.99+VAT per year, EQS, Atico34, softwaredoit). One blog mentions an AIPI notification form active Feb 2026 and a 10 Apr 2026 deadline; unverified. Plan de Igualdad is mandatory from 50 workers under RD 901/2020 with fines of EUR 7,501-225,018 under LISOS; registro retributivo (RD 902/2020) applies to all firms. PRL: owner may self-assume prevention under art. 11 RSP (sources conflict: fewer than 6 workers vs up to 25 with one workplace; excludes Annex I activities; health surveillance still needs an external service). Directive (EU) 2023/970 transposition status unchecked.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "transportista autónomo obligaciones descarga tacógrafo digital tarjeta conductor ROTT MDS autorización 2026 sanciones",
+    "armerías libro registro Intervención de Armas Guardia Civil obligaciones comunicación telemática Reglamento de Armas 2025",
+    "regularización cuotas autónomos rendimientos reales cambio de tramo 2026 Seguridad Social obligaciones trabajadores autónomos",
+    "bares y restaurantes obligaciones registro APPCC alérgenos autocontrol licencia terraza renovación ayuntamiento hostelería trazabilidad",
+    "SITRAN comunicación movimientos ganado explotaciones ganaderas libro de registro REGA obligaciones titulares 2026 Real Decreto",
+    "canal interno de información Ley 2/2023 pymes obligatorio 50 trabajadores plan de igualdad registro retributivo sanciones 2026 empresa pequeña",
+    "software descarga remota tacógrafo autónomos furgonetas archivo datos conductor 28 días análisis infracciones precio",
+    "programa gestión armería libro registro armas parte de venta Intervención de Armas software",
+    "software APPCC digital bares restaurantes registros temperaturas limpieza app autocontrol precio mensual",
+    "libro de registro explotación ganadera digital app ganaderos REMO comunicación movimientos programa gestión pequeña explotación",
+    "autónomos asunción personal prevención riesgos laborales empresario menos de 6 trabajadores servicio de prevención ajeno obligación plan prevención 2026",
+    "autorización MDL MDS transporte furgoneta autónomo ROTT registro empresas transporte requisitos obligaciones mantenimiento 2026",
+    "canal de denuncias software pyme Ley 2/2023 plataforma precio mensual sistema interno de información empresas 50 trabajadores",
+    "terraza hostelería autorización anual renovación ordenanza ayuntamiento tasa terrazas plazo solicitud 2026 sede electrónica",
+    "cuaderno digital explotación agrícola SIEX plazo pequeños agricultores obligación 2026 REGFER registro fertilizantes",
+    "comercio minorista pirotecnia libro registro Reglamento artículos pirotécnicos Intervención de Armas obligaciones establecimientos venta petardos",
+    "software armería TPV gestión armeros libro de registro Guardia Civil programa específico armerías España",
+    "tacógrafo inteligente furgonetas 1 julio 2026 España cuántas furgonetas afectadas autónomos transporte internacional cabotaje"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b9"
+ },
+ "opus:spain:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "There is a free state tool: operators enter the annual statistics in the ministry's REGFER application. Searches for 'REGFER + ERP/software/programa' found no commercial product that prepares or exports the REGFER statistics. Sector ERPs for agro-input and pesticide dealers exist, such as ASEST's ERP for pesticides and agrochemicals, and they hold the sales data needed for the aggregate. Whether any of them exports REGFER statistics was not verified. The neighbouring pesticide duty (RETO) already has a free ministry system that accepts uploads from ERPs.",
+   "duty": "Under RD 1051/2022 art. 18 and Orden APA/1226/2025 (BOE 3 Nov 2025), shops and other operators that put fertiliser on sale must register in REGFER. Shops go in Section 3 (distributors), and the Andalucía FAQ, as quoted in search summaries, says retail shops count as distributors whether they sell wholesale or retail. Operators already active had to register by 1 Jul 2026; new ones must apply at least 1 month before starting. Each operator registers once but must list all points of sale and stores, and renews every 3 years. Registered operators file annual statistics (the 'Estadísticas Anuales' model) before 31 March for the previous year, first for 2026 data. Sales are split into sales to other registered agents (national total) and sales to end users (by province), and filed in the ministry's REGFER application after the region authorises the user. Penalties were not found (not_reached). The ministry's draft-order PDF returned HTTP 503 and the Andalucía PDF could not be read, so the order's text was not checked directly.",
+   "market": "No published count of REGFER registrants was found. A rough proxy is the ROPO pesticide supplier sector plus garden centres and co-operative shops, likely a few thousand to roughly 10,000 points of sale across Spain. This is an unverified estimate, not a register figure.",
+   "reason": "The duty is real and national. RD 1051/2022 art. 18 and Orden APA/1226/2025 require retail shops that sell fertiliser to register in REGFER Section 3, with 1 Jul 2026 as the deadline for operators already active. Every registered operator must then file annual production and sales statistics before 31 March, starting with 2026 data (so 31 Mar 2027). This is a national rule, not only a Castilla y León procedure. Searches found no dedicated product. But filing is a once-a-year aggregate in the ministry's free REGFER application, renewal is every 3 years, and an agro-shop ERP can produce the totals. There is no per-sale record duty like RETO for pesticides. I found no penalty or shop count. Pain and willingness to pay are low; it works best as a feature of a RETO/ROPO tool.",
+   "searches": 5,
+   "sources": "https://sede.comunidad.madrid/inscripciones-registro/inscripcion-regfer ; https://www.tramitacastillayleon.jcyl.es/web/jcyl/AdministracionElectronica/es/Plantilla100Detalle/1251181050732/61/1285643525796/Tramite ; https://www.juntadeandalucia.es/sites/default/files/inline-files/2026/03/PMF_REGFER.pdf ; https://laadministracionaldia.inap.es/noticia.asp?id=1260044 ; https://www.euskadi.eus/registro/regfer/web01-tramite/es/ ; https://www.mapa.gob.es/dam/mapa/contenido/agricultura/temas/medios-de-produccion/productos-fertilizantes/registro-de-productos-fertilizantes/modelos-decl-resp-regfer.pdf ; https://asest.es/story/erp-fitosanitarios-agroquimico/ ; https://www.infoagro.com/noticias/2026/habilitado_el_acceso_al_registro_general_de_fabricantes_y_otros_agente.asp",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b9"
+ },
+ "opus:spain:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free channel is the euskadi.eus sede: a 4-step web form with an e-ID signature. No web service, XML spec or bulk upload was found. Spanish searches for \"programa gestión tienda compraventa libro de policía móviles\", for Ertzaintza XML or web-service specs, and for Policia Nacional apps returned no Spanish product that files these reports. Only generic US consignment POS tools came up (The Consignment Shop, Ricochet, ConsignCloud, SecondLoop). ORONET is known only for gold (K28), and I did not check whether it covers phones.",
+   "duty": "Basque Country: Orden of 25 June 2020 from the Consejera de Seguridad (BOPV no. 130, 3 July 2020). It replaced the Orden of 24 July 2019, and its annex was amended by the Orden of 23 July 2020. It applies to anyone who buys, sells, pawns or repairs used goods for profit in the Basque Country, including used mobile phones. Covered businesses must register the shop on the euskadi.eus sede and keep the data for 2 years. Each acquisition or receipt must be reported to the Ertzaintza within 24 hours, electronically through the sede, with operation data, the seller's name, surnames and date of birth, and the object's brand, model and IMEI. In-person reporting is allowed only as an exception the Ertzaintza grants case by case. The legal basis is LO 4/2015 art. 25.1. The order text does not state penalties (not verified). Outside the Basque Country, I found only LO 4/2015 art. 25.1 plus the old state rules (a 1989 ministerial order and a 1924 royal order). I found no electronic-reporting rule for the Policia Nacional or the Mossos (not reached).",
+   "market": "Not verified. No register count of obligated establishments was found, and the registration page gives no figure. My rough guess is low thousands of second-hand, phone and repair shops in the Basque Country, but no source supports that number. Catalan press shows Mossos raids on phone resale shops (22 inspected in Raval at once), but I found no Catalan reporting rule.",
+   "reason": "The duty is real but only confirmed for the Basque Country. The Orden of 25 June 2020 replaced the 2019 order, and its annex was amended in July 2020. It requires used-goods, phone, electronics and bazaar shops, and repairers, to report every acquisition or receipt to the Ertzaintza within 24 hours through the euskadi.eus electronic office. Each report includes seller ID, brand, model and IMEI. That is frequent, per-transaction pain. The only channel found is the free sede web form. No bulk upload, web service, format spec or third-party tool was found, so a tool that captures ID and IMEI and pre-fills the filing is plausible. The weaknesses are that it covers one region, the market is small and price-sensitive, and many shops are informal. It is unclear whether the state can automate filing, and no rules were found for other regions.",
+   "searches": 6,
+   "sources": "https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2020/07/2002601a.shtml; https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2020/07/2003042a.shtml; https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2019/08/1903774a.shtml; https://www.euskadi.eus/registro/registro-establecimientos-de-objetos-usados/web01-s2segur/es/; https://laadministracionaldia.inap.es/noticia.asp?id=1190751; https://www.boe.es/eli/es/o/2015/11/11/int2535; https://naciodigital.cat/societat/prop-de-400-mobils-robats-es-venien-en-botigues-del-raval.html; https://www.capterra.es/directory/30737/consignment/software",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b9"
+ },
+ "opus:spain:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Four Spanish-language searches found no Spanish vertical F-gas logbook product. Found: generic field-service ERP (STEL Order, which has a page on F-gas handlers; its F-gas features were not checked), foreign tools (Refcom software in the UK, FGASmanager, GoCanvas templates, Edilclima EC771 in Italy), and KoudSmart from the claim (not checked here). Risk: the future state registry may be a free MITECO portal. Regional apps such as Navarra's were not checked.",
+   "duty": "EU Reg 2024/573 has applied directly since 11 Mar 2024: equipment records and leak checks scale with charge (the 3 kg threshold appears in older MITECO notes). RD 115/2017 still requires certified companies and staff. A MITECO note lists logbooks for each piece of equipment and for each authorised company. MITECO is preparing a new Royal Decree to replace RD 115/2017, plus an Order for a centralised electronic registry. The consultation ran 9-24 Sep 2026 and the page now says closed. AEPD report 002/2026 covers the draft decree (stated novelties: certificate publicity, mandatory refresher courses, centralised registry, mandatory training programmes). Neither text is final, and the data and frequency the registry will require are not known. Madrid's annual 'Libro de gestión de refrigerantes' filing (due by 31 Mar; Decreto 138/2011 IF-17) is marked Finalizado. Penalties: not checked.",
+   "market": "Not found. No national count of authorised F-gas companies turned up. Certification is handled by each region's industry service and the companies are listed in the MITECO GASFLUOR unified registry (count not reached). Likely thousands to low tens of thousands of HVAC-R installer firms, but this is unverified.",
+   "reason": "The claim holds up as reported, but the main duty is not settled yet. MITECO ran a pre-drafting consultation from 9 to 24 September 2026 on an Order for a centralised electronic registry. The Order would replace the art. 7 RD 115/2017 registry and Orden TEC/544/2019. There is no draft text, so the data installers must file and the dates are unknown. Search snippets of the consultation PDF point to registry sections on certificates and authorised firms and to tying pre-charged equipment sales to an authorised installer. Nothing says it adds a log of each service visit. Equipment and leak-check records already exist under EU Reg 2024/573. Madrid's annual refrigerant-book filing (Decreto 138/2011, IF-17) shows as closed. I found no Spanish vertical tool, only generic field-service ERPs and UK/Italian tools. The state registry could also end up free.",
+   "searches": 6,
+   "sources": "https://www.miteco.gob.es/es/cambio-climatico/participacion-publica/publica-registrofluorados.html ; https://www.miteco.gob.es/content/dam/miteco/es/cambio-climatico/participacion-publica/anexos/texto%20consulta%20OM%20reg.pdf ; https://www.aepd.es/documento/2026-0002.pdf ; https://www.miteco.gob.es:443/content/dam/miteco/es/cambio-climatico/temas/mitigacion-politicas-y-medidas/1_nota_informativa_empresas_sector_refrigeracion_y_climatizacion_tcm30-432093.pdf ; https://sede.comunidad.madrid/inscripciones-registro/libro-gestion-refrigerantes/tramitacion_cerrada ; https://www.stelorder.com/manipulador-de-gases-fluorados ; https://coolingpost.com/uk-news/refcom-offers-free-gas-tracking-software ; https://www.edilclima.it/assets/repository/software/informazioni/771-Scheda.pdf ; https://www.interempresas.net/Electricidad/595164-Fenie-traslada-Miteco-necesidad-mejorar-procedimiento-venta-equipos-gases-fluorados-no.html",
+   "suggested_score": 4,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b9"
+ },
+ "opus:spain:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The core job (downloading, archiving and checking for infractions) is already done by an established category of products, and those tools work for vans as well as trucks. Spanish vendors include Dahuca Soluciones' Tacho2Safe, a USB download device with software for analysing infractions, and Tadig, a Spanish company that specialises in tachograph analysis. Teltonika sells TachoSync, a remote-download service for vans billed per use, and TachoWeb, which reads the Spanish TGD format and costs roughly EUR 550 to 5,200 a year from resellers. Geotab offers remote download, infraction analysis and alerts for download deadlines and card expiry, and Michelin Connected Fleet is also active in Spain. Abroad, OPTAC3 charges about GBP 1 per driver per week, which shows that per-driver pricing small enough for an owner-driver already exists. The claim's gap, a low-cost standalone tool for one-van owners, is at most a pricing and marketing niche, not missing capability. Any solo founder would compete against all of these.",
+   "duty": "The duty is real and has been in force since 1 Jul 2026. Under Reg. (EU) 2020/1054, which amends Reg. 165/2014 and 561/2006 and applies directly in Spain, vans and van-plus-trailer combinations over 2.5 t and up to 3.5 t MMA that carry goods for hire on international trips or cabotage must fit a G2V2 smart tachograph and use a driver card. There is no general transition period. Vans used only on domestic routes are exempt, and the exemptions in Art. 3(aa) and 3(ha) of 561/2006 still apply. I did not confirm the 28/90-day download cycles or the 56-day card rule in this session; they come from 165/2014 and the claim, not from a source I opened. The Spanish fine is unclear: motor16 reports both EUR 2,000 (citing the DGT, for not fitting the tachograph) and 'up to 200 euros' in a separate article. One provider cites EUR 2,001 plus immobilisation for driving without a compliant tachograph, and general tachograph sanctions run from EUR 100 to 6,000. Fenadismer complains that the European Commission still has not issued an interpretive guide, so enforcement differs between member states.",
+   "market": "I found no Spanish figure for vans in scope. Searches of trans.info and other trade press returned no national count. Only vans of 2.5 to 3.5 t doing international work or cabotage are affected, which in Spain is probably a few thousand operators at most and is not quantified here. The Spanish licencia comunitaria register for light vehicles would be the right source but was not reached. A Kienzle survey, from Germany rather than Spain, found that about a third of affected fleets had not adapted by the deadline. Trans.info reports that the tachograph makes van transport up to 80% more expensive, which squeezes how much these operators can spend.",
+   "reason": "The duty is real, mandatory and recurring, with high fines. But the core job (downloading, archiving and checking infractions) is a mature, crowded category in Spain. Tacho2Safe (Dahuca), Tadig, TachoWeb and TachoSync (Teltonika), Geotab and Michelin already do it, and they are sold through tachograph installers and gestorías that already serve hauliers. The buyers in scope are a narrow group (international and cabotage van operators only) with no published Spanish count, and many are probably foreign-based. They are price-squeezed, and an owner-driver often has little to analyse beyond one card. That leaves no clear gap beyond price, so distribution would depend on installers who already bundle these services.",
+   "searches": 6,
+   "sources": "https://trans.info/es/tacografo-en-furgonetas-desde-el-1-de-julio-de-2026-a-quien-afecta-exenciones-y-sanciones-faq-484861 ; https://trans.info/es/el-plazo-del-tacografo-ya-ha-vencido-muchas-furgonetas-siguen-sin-adaptarse-495758 ; https://trans.info/es/tacografo-furgonetas-488656 ; https://www.motor16.com/las-ultimas-noticias/tacografo-obligatorio-furgonetas-2-5-toneladas/ ; https://www.motor16.com/las-ultimas-noticias/tacografo-obligatorio-furgonetas-julio-2026/ ; https://www.moncloa.com/2022/05/28/tacho2safe-el-aliado-de-los-transportistas-que-ofrece-dahuca-soluciones-para-la-descarga-de-los-tacografos-y-tarjetas-de-conductores-1435747/ ; https://www.merca2.es/2025/09/15/tacografo-digital-tadig-explica-las-sanciones-y-multas-mas-habituales-en-2025-2231378/ ; https://www.teltonika-gps.com/es/solutions/tachosync ; https://industry-electronics.com/teltonika/tachoweb-lic-webtacho-20-devices-1-year-printview-538539.htm ; https://www.geotab.com/es/blog/descarga-remota-tacografo-ventajas/ ; https://optac.info/uk/tachograph-analysis ; https://trans.info/es/el-tacografo-encarece-hasta-un-80-el-transporte-en-furgoneta-500784",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b9"
+ },
+ "triage:spain": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Retail agro-input shops and applicator services under REGFER; K03 covers phytosanitary treatment records, a different duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Second-hand and phone shops under the police register regime; K28 is jewellers and gold buyers, a different buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Associations and foundations filing RCTIR declarations; K04 targets gestorías, a different buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Lift owners (communities, small firms) with a recurring inspection duty; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Small water-supply operators with SINAC and autocontrol duties; K06 covers basin volume reporting, a different duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Non-prescription vet medicine retailers; K17 is vets reporting to PRESVET, a different buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Scrap yards with a libro-registro duty; K28 is jewellers, a different buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Vehicle dismantlers (CATs) with a baja filing duty; new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Livestock transporters' vehicle logs and operator register; K16 is the road-freight DeCA, a different duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Beekeepers' register book and census; new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Tattoo and piercing studios with regional registration and consent duties; small licensed premises are in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "F-gas installers with a logbook and registry duty; new buyer and duty, with a new registry coming."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Co-operatives' mandatory e-legalisation of books under Orden TES/539/2026; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Small food buyers registering contracts with producers under RD 1028/2022; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small olive mills and co-operatives with SIMO declarations; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small blasting firms and quarries with monthly consumption records; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Pet shops, kennels, groomers and trainers needing núcleo zoológico authorisation; K07 covers breeders, a different buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small fish importers filing EU CATCH certificates; K14 covers CBAM and EUDR, a different duty and buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small clinics with regional authorisation renewal and radiology duties; small professional offices are in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Chemical sellers and users with precursor registration and records; new buyer and duty."
+    },
+    {
+     "decision": "known",
+     "id": "B11",
+     "reason": "Same gestoría and adviser AML duty as K04; the draft reform adds nothing new.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Small security firms and detective offices with a register-book duty; new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Small contractors' subcontracting book and REA; K21 is CAE document exchange, a different duty."
+    },
+    {
+     "decision": "known",
+     "id": "B14",
+     "reason": "Same accommodation operators and tourist-tax duty as K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Light-van hauliers face a new tachograph duty from 1 Jul 2026; K16 is the DeCA, a different duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "ROTT authorisation visado for one-vehicle hauliers; a different duty from K16 (DeCA)."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Armerías with a libro-registro and parte de venta; K28 is jewellers, a different buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Pyrotechnic retailers with licence and sales traceability duties; new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Bars with municipal terrace licence renewals; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Small livestock holders' libro de registro; K27 covers crop notebooks, so the livestock duty is different. It overlaps partly with A10 for bees."
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS10",
+     "reason": "Same REGFER duty and the same fertiliser distributors as A1.",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS13",
+     "reason": "Micro-firm employers who self-assume prevention under the PRL law; in scope as a sole-trader and family-firm duty."
+    }
+   ]
+  },
+  "tag": "w2b9"
+ }
+}

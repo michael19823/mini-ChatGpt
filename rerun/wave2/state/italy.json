@@ -1,4 +1,53 @@
 {
+ "challenge:italy:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "Two findings kill it. First, under the MASAF decree of 1 Oct 2024, operators may file through their CAA (agricultural assistance centre) at no extra cost (informaimpresa summary of the decree). Second, the duty is only a quarterly, cumulative entry on the free SIAN portal: total purchases and sales for 9 cereals, split by national, EU or third-country origin. That is a few dozen numbers per quarter, not a running movements register like the wine or olive-oil ones.",
+   "reason": "Granaio Italia is in force: sanctions apply from 31 Jul 2025 and the first entries were due 20 Oct 2025. But the decree lets operators file through their CAA at no extra cost, and farms already use CAAs for SIAN and CAP work. The filing is a quarterly set of aggregate totals for 9 cereals by origin, entered on the free SIAN portal, so a dedicated tool saves little time. The obvious buyers, co-ops and storage firms, already track tonnages in their weighbridge or warehouse systems. I found no software vendor offering the module and no documented web service, so the competitor question is open. That doesn't matter much: the free CAA route plus a light workload leave little to pay for. Thresholds and the deadline wording still differ between sources.",
+   "searches": 7,
+   "sources": "https://informaimpresa.it/item/registro-per-imprese-di-prima-trasformazione-della-filiera-cerealicola-2 ; https://informaimpresa.it/item/registro-telematico-dei-cereali-aggiornamenti-scadenze ; https://unionalimentari.com/wp-content/uploads/2025/01/MASAF-decreto-1.10.2024-monitoraggio-cereali.pdf ; https://www.ra.cna.it/legge-di-conversione-del-dl-milleprorghe-novita-registro-cerealicolo/ ; https://www.italpress.com/granaio-italia-scatta-lobbligo-di-registrare-le-giacenze-di-cereali/ ; https://www.tedioli.com/en/granaio-italia-cereal-stock-register-eu-cap/",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b9"
+ },
+ "critic:italy": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Agenti e rappresentanti di commercio / agenti assicurativi e mediatori (RUI IVASS, ENASARCO, FIRR)",
+     "first_search": "agenti di commercio adempimenti ENASARCO versamento trimestrale RUI IVASS aggiornamento professionale software scadenze",
+     "why": "Italy has a very large number of sole-trader agents. Duties fall on them and their principals: RUI registration, IVASS continuing-education hours, ENASARCO quarterly contributions and FIRR. Coverage only touched OAM agents and real-estate brokers. Unverified whether vendors already cover it."
+    },
+    {
+     "category": "Pubblici esercizi, bar, ristoranti, estetisti e acconciatori: SCIA sanitaria, HACCP/autocontrollo, formazione, registro allergeni, SUAP and ASL",
+     "first_search": "HACCP autocontrollo registro temperature app obbligatorio piccoli ristoranti bar scadenze formazione alimentaristi SCIA ASL",
+     "why": "Italy has an unusually high number of micro food and personal-care outlets with recurring duties: HACCP manual and records, staff training (corso alimentarista, regional), traceability and ASL inspections, plus bar fire-safety and music (SIAE/SCF) licences. The discovery only looked at small food producers in passing. Check existing HACCP apps before ruling it in or out."
+    },
+    {
+     "category": "Impianti termici, F-gas and impianti elettrici/messa a terra owners: verifiche periodiche DPR 462/2001 (ASL/ARPA/INAIL) for small firms and condominiums",
+     "first_search": "verifica periodica impianto di messa a terra DPR 462/2001 scadenza organismo abilitato piccole imprese scadenziario CPI rinnovo antincendio",
+     "why": "Earthing and lightning-protection installations (DPR 462/01) must be inspected every 2 or 5 years by a notified body. Many small firms and associations must book this. The ledger covers work equipment and lifts but not this duty. Also check CPI (fire certificate renewal every 5 years, SCIA antincendio) for small activities."
+    },
+    {
+     "category": "Titolari di farmacia, parafarmacie and studi professionali: GDPR/privacy, sicurezza sul lavoro (RSPP, DVR, formazione D.Lgs 81/2008) and the 2024-2026 changes",
+     "first_search": "DL 159/2025 sicurezza sul lavoro novità micro imprese DVR formazione scadenze corsi aggiornamento RLS RSPP obblighi 2026",
+     "why": "Every employer must keep the DVR, run training cycles, appoint the RSPP and provide health surveillance. The 2025 decree (DL 159/2025) tightened enforcement and the badge di cantiere. Micro-employers renew these on fixed multi-year cycles. This is a very large market but was not screened as a category. The risk is that it counts as generic compliance software, so check how it is scoped."
+    },
+    {
+     "category": "Agriturismi, fattorie didattiche, enoturismo and vendita diretta (regional licences plus ISTAT/regional tourism flows, SCIA, DOP/IGP and biologico certificates)",
+     "first_search": "agricoltura biologica notifica attività SIAN PAP aggiornamento annuale piano annuale di produzione scadenze piccoli produttori agriturismo adempimenti",
+     "why": "Italy has about 25,000 agriturismi and many organic producers. Obligations include regional register, ISTAT flow reports, ROSS1000/regional portals, annual organic notifications on SIAN and the Organic Reg. 2018/848 certificate and plan updates (PAP). Only the quaderno di campagna, dairy and wine registers came up. Organic and DOP certification admin is a missing screen."
+    },
+    {
+     "category": "Autoscuole, officine, revisioni and autofficine: MCTC/Motorizzazione portals, registro gas di scarico and the SIMA/Motorizzazione obligations; also car-sharing, noleggio senza conducente and autolavaggi",
+     "first_search": "officina revisione veicoli MCTC-net obblighi periodici centro di revisione convenzione Motorizzazione adempimenti software scadenze",
+     "why": "Italy has tens of thousands of small garages and revisione centres. Duties include MCTC-net transmissions, tachograph workshop calibration, bollino blu in some regions, F-gas and oil-waste registers, and the 2024-2026 changes to revisione rules. Only the tachograph and dismantler angles were reached. The garage is a distinct buyer, and several vendors already exist (check)."
+    }
+   ]
+  },
+  "tag": "w2b9"
+ },
  "discover:A:italy": {
   "result": {
    "blocked_searches": 0,
@@ -338,5 +387,815 @@
    "searches": 28
   },
   "tag": "w2b8"
+ },
+ "discover:B:italy": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Armaioli / small gun shops (family firms, one licence per Questura province); count of shops unverified",
+     "category": "31. Gun shops and arms dealers (armaioli), Questura/SITAM tracking",
+     "evidence": "https://www.all4shooters.com/it/tiro/legge/sitam-gli-adempimenti-obbligatori-per-le-armerie-dettagli ; https://brocardi.it/testo-unico-pubblica-sicurezza/titolo-ii/capo-iv/art35.html ; https://www.all4shooters.com/it/tiro/legge/sistema-tracciamento-armi-e-munizioni-adempimenti-per-armerie/",
+     "existing": "Competitor search 'software gestionale armeria SITAM' and 'programma gestione armeria armaiolo matricole': no Italian vendor found; only foreign armory tools (ArmorerLink, ArmoryAtlas, PawnMate) and generic inventory results. Search engine is thin so existing generalist retail ERPs may already cover it.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Armerie: SITAM entry and electronic operations register for gun dealers",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Art. 35 TULPS (electronic register, 50-year retention, no more monthly paper filing) plus SITAM, DM 12 Jul 2023 (no. 113 or 114)",
+     "trigger_note": "",
+     "unchecked": "Number of armerie; whether SITAM has an import/API or only manual forms; exact mandatory-use date; sanctions; whether general retail or armoury ERPs (not found by search) already export to SITAM; association (e.g. armaioli trade body) channel."
+    },
+    {
+     "buyer": "Farms, co-ops, small trading firms and first-processing mills above per-crop thresholds (30 t durum, 40 t soft wheat, 80 t maize, 40 t barley, 60 t sorghum, 30 t others)",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://www.ra.cna.it/legge-di-conversione-del-dl-milleprorghe-novita-registro-cerealicolo/ ; https://www.italpress.com/granaio-italia-scatta-lobbligo-di-registrare-le-giacenze-di-cereali/ ; https://certifico.com/haccp/legislazione-haccp/16315-decreto-granaio-italia",
+     "existing": "Competitor search 'software registro Granaio Italia cerealicolo gestionale SIAN': no Italian vendor found; CNA and other associations explain the rules. CAA and farm-management tools (xFarm, TeamSystem, see K09) may add it; unchecked.",
+     "known_id": "K19",
+     "known_mark": "new",
+     "known_note": "Related to K19 (SIAN-based registers, rejected for oil mills) and K09 (digital farm register) but different buyer and duty.",
+     "name": "Granaio Italia cereal register assistant for farms, co-ops and small grain traders",
+     "score": 4,
+     "status": "promising",
+     "trigger": "MASAF decree of 1 Oct 2024 (GU 7 Nov 2024); fines EUR 500-4,000 applying from 31 Jul 2025 (Milleproroghe conversion law); quarterly entry by the 20th of the third month after the operation, monthly aggregates allowed",
+     "unchecked": "Whether the SIAN register has bulk upload or web service; whether CAA (Coldiretti, CIA, Confagricoltura) already file for members; whether xFarm/TeamSystem Agri cover it; count of obliged operators; exact current thresholds (sources differ)."
+    },
+    {
+     "buyer": "Independent station managers and small white-flag operators (thousands of stations)",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.mimit.gov.it/it/notizie-stampa/emanata-circolare-per-modalita-dellobbligo-di-comunicazione-dei-prezzi-carburanti ; https://www.fiscoetasse.com/rassegna-stampa/34062-obbligo-comunicazione-prezzi-carburanti-dal-24-luglio-come-fare-e-chiarimenti-del-mimit.html ; https://www.saronnonews.it/2026/05/04/prezzi-dei-carburanti-nel-mirino-controlli-e-sanzioni-della-guardia-di-finanza-di-como/",
+     "existing": "Competitor search 'software gestore distributore carburanti invio automatico prezzi Osservaprezzi': no vendor named; only AGCM operating file listing fields. Forecourt automation vendors and oil-company back-office systems likely push prices; unchecked.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Fuel station price-notification and sign compliance (Osservaprezzi) for independent gestori",
+     "score": 3,
+     "status": "weak",
+     "trigger": "DM 31 Mar 2023 and MIMIT circular: price notification at change and at least weekly (by 8th day), average-price sign; 2026 DL 33/2026 fuel decree, GdF fines EUR 200-2,000 with suspension after repeated breaches (details conflict)",
+     "unchecked": "Whether Osservaprezzi has an API/bulk upload; whether brand networks submit for their gestori; whether forecourt POS vendors already integrate; real fine levels and amendment text of DL 33/2026."
+    },
+    {
+     "buyer": "Farms, workshops, hotels and small firms with PV above 20 kW and self-consumption (count of plants unverified)",
+     "category": "32. Owners of renewable plants above 20 kW with self-consumption (ADM electricity licence)",
+     "evidence": "https://informaimpresa.it/item/obbligo-di-dichiarazione-semestrale-entro-il-30-09-2026-per-chi-detiene-impianti-elettrici-a-fonte-rinnovabile-con-potenza-superiore-a-20-kw ; https://www.mysolution.it/fisco/informazioni/news/2026/05/08/dichiarazioni-semestrali-gas-ed-energia-elettrica-le-istruzioni-delle-dogane/ ; https://www.fiscoetasse.com/approfondimenti/17018-accise-su-gas-naturale-ed-energia-elettrica-tutti-i-prossimi-adempimenti.html",
+     "existing": "Competitor search found Confartigianato Vicenza assistance service (trade-association done-for-you), commercialisti and energy consultants; no dedicated software seen.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Semi-annual ADM electricity declarations and licence register for small PV/hydro owners above 20 kW",
+     "score": 3,
+     "status": "weak",
+     "trigger": "D.Lgs 43/2025 plus ADM circ. 9/D of 7 May 2026: two semi-annual declarations (31 Mar, 30 Sep), officina elettrica licence with annual fee (1-16 Dec), monthly meter-reading register; telematic service live from 28 Jul 2026",
+     "unchecked": "Full circular text (paywalled); whether sub-20 kW or total-sale plants are exempt (20 vs 50 kW conflict); plant count; whether the first deadline of 30 Sep 2026 was extended; EPC/installer maintenance contracts that already bundle it."
+    },
+    {
+     "buyer": "Small caseifici, latterie, first buyers; small producers who process their own milk file annually",
+     "category": "33. Dairy first buyers, small cheese makers and dairy producers (SIAN milk declarations)",
+     "evidence": "https://www.regione.piemonte.it/web/media/29616/download ; https://regione.lazio.it/sites/default/files/documentazione/2026/AGC-C-153295-12-02-2026.pdf ; https://informaimpresa.it/item/dl-27-2019-obbligo-di-registrazione-produzione-lattiero-casearia-integrazione-adempimenti-a-carico-primi-acquirenti",
+     "existing": "Competitor search 'software primo acquirente latte SIAN': no named software; CAA, associations and regional offices explain the process; dairy ERPs unchecked.",
+     "known_id": "K19",
+     "known_mark": "new",
+     "known_note": "Same SIAN family as K19 but a different buyer and duty.",
+     "name": "Monthly SIAN milk declarations for small dairies and first buyers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "DM 6 Aug 2021 and 26 Aug 2021, AGEA circ. 53456/2023: monthly SIAN declaration by the 20th with digital signature, fornitori registered beforehand; manufacturers also quarterly (Jan, Apr, Jul, Oct)",
+     "unchecked": "Number of small first buyers; existing dairy ERPs; regional differences; sanction amounts."
+    },
+    {
+     "buyer": "Revisors enrolled in the MIMIT Albo and small non-associated co-ops",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.legacoop.coop/wp-content/uploads/2025/07/Decreto-Ministero-delle-Imprese-e-del-Made-in-Italy-del-12-febbr-2025.pdf ; https://www.fondazionenazionalecommercialisti.it/filemanager/active/01868/2026_03_20_Le_novita___della_nuova_modulistica_per_l_attivita___di_vigilanza_sulle_societa___cooperative_.pdf?fid=1868 ; https://www.ipsoa.it/documents/quotidiano/2025/04/02/vigilanza-cooperative-nuove-indicazioni-revisione-ispezioni",
+     "existing": "Competitor search 'software revisione cooperativa verbale mutualità prevalente': none found; only professional commentary. Accounting suites calculate prevalence, unchecked. MIMIT reengineering and DDL AC 2577 may change rules.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Cooperative revision and mutuality-prevalence file for 'libere' small co-ops and their revisors",
+     "score": 3,
+     "status": "weak",
+     "trigger": "D.Lgs 220/2002; MIMIT decrees of 5 Mar 2025 (revision and extraordinary inspections), new verbale models, CNDCEC/Coop document 20 Mar 2026; biennial revision; contributions for 2025/2026 per DM 12 Feb 2025",
+     "unchecked": "Number of revisors and libere co-ops; whether the MIMIT assigns by an information system that revisors must use; willingness to pay; which accounting suites already include the prevalenza schedule."
+    },
+    {
+     "buyer": "Wineries",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://www.teamsystem.com/magazine/settore-agroalimentare/registri-telematici-vino ; https://www.arsial.it/app/uploads/Presentazione-registrovino-2.0-Vanzini.pdf",
+     "existing": "TeamSystem Wine, Registrovino 2.0, CAA and consultants",
+     "known_id": "K19",
+     "known_mark": "new",
+     "known_note": "Mature vendors named; same family as K19.",
+     "name": "Wine cellar telematic register (SIAN)",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "DM 20 Mar 2015, Law 238/2016; exemption for small producers under 50 hl with direct sale",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Small real estate agencies/mediators",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://dokicasa.it/servizi/antiriciclaggio-agenzie-immobiliari-2026-uif-modulistica ; https://www.italiaoggi.it/diritto-e-fisco/giustizia/antiriciclaggio-stretta-sui-professionisti-la-uif-accelera-sulla-collaborazione-q2lbggjc",
+     "existing": "dokicasa AML services, fiscoetasse ebook guides; others likely",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Real estate agency AML pack (UIF) for small agencies",
+     "score": 2,
+     "status": "weak",
+     "trigger": "D.Lgs 231/2007; UIF new suspicious-transaction instructions from 1 Jul 2026; self-risk assessment update claimed for May-June 2026 (ebook source)",
+     "unchecked": "Other vertical AML tools and agency CRMs; actual UIF reporting volume from agencies is low."
+    },
+    {
+     "buyer": "Condominium administrators",
+     "category": "37. Condominium administrators (professional register, anagrafe, AML)",
+     "evidence": "https://www.fiscoetasse.com/approfondimenti/17069-gestione-anagrafe-condominio-il-ruolo-dellamministratore.html ; https://www.idealista.it/news/node/410461",
+     "existing": "Domustudio (Danea), GB Software, Dylog digital services",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Condominium administrator compliance (anagrafe, AML, safety register)",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Art. 1130 c.c. anagrafe; UIF AML modes from 1 Jul 2026",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Amateur sports associations/companies",
+     "category": "34. Amateur sports clubs (ASD/SSD) and sport employers: RASD register",
+     "evidence": "https://www.informazionefiscale.it/volontari-sportivi-portale-rasd-dati ; https://www.sport.governo.it/media/ddtpltuy/faq-lavoro-sportivo-19-marzo-2024.pdf ; https://www.teamsystem.com/magazine/sport-e-wellness/la-gestione-dei-volontari-sportivi-tramite-il-rasd/",
+     "existing": "TeamSystem sport tools and advice, sports federations, EPS associations, consultants. Overlaps with group A category 17 so the other worker may screen more deeply.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Sports clubs: RASD communications for sports workers and volunteers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Sports reform D.Lgs 36/2021 and follow-ups; RASD monthly 30-day communication, 31 Jan LUL, volunteer register; D.Lgs 96/2026 pay transparency; Apr 2026 cancellations",
+     "unchecked": "Whether RASD offers bulk upload; volume of paid sports workers; the number of ASD obliged."
+    },
+    {
+     "buyer": "Dental studios and small radiology practices with X-ray equipment",
+     "category": "36. Dental and small radiology studios (ionising radiation, D.Lgs 101/2020)",
+     "evidence": "https://www.quotidianosanita.it/lavoro-e-professioni/il-dentista-che-esegue-radiografie-come-collaboratore-non-deve-nominare-un-esperto-di-radioprotezione-il-parere-della-fnomceo-all-aio/",
+     "existing": "Not searched; ERP consultancies, ANDI/AIFM training ties",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Dental/radiology studio radiation-protection and ISIN notification tracker",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "D.Lgs 101/2020 (ERP appointment, annual verifications, ISIN STRIMS notification); deadline not confirmed",
+     "unchecked": "STRIMS filing frequency; vendor landscape; whether the duty is a human-expert service rather than software."
+    },
+    {
+     "buyer": "Medical device distributors, orthopaedic shops",
+     "category": "35. Medical device distributors and orthopaedic suppliers (D.Lgs 137/2022, EUDAMED)",
+     "evidence": "https://www.certifico.com/marcatura-ce/direttive-nuovo-approccio/regolamento-dispositivi-medici/decreto-legislativo-5-agosto-2022-n-137 ; https://osapiens.com/it/resources/blogs/2026/eudamed-2026-perche-chi-si-adegua-in-ritardo-corre-gravi-rischi-di-non-conformita",
+     "existing": "osapiens and regulatory consultancies (EUDAMED); no distributor-specific duty confirmed",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Medical device distributor registration (EUDAMED / national database)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "D.Lgs 137/2022 arts 12-15; EUDAMED mandatory modules from 28 May 2026 (manufacturers, importers, authorised reps)",
+     "unchecked": "Whether distributors have any registration duty; the text of art. 14-15 on traceability of implants."
+    },
+    {
+     "buyer": "Small quarry operators (cave)",
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "evidence": "https://www.regione.toscana.it/-/rilevamento-delle-attivita-estrattive ; https://www.regione.sicilia.it/sites/default/files/2026-04/829%20drs%20s7.pdf",
+     "existing": "None found; regional rules vary, annual frequency",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Quarry annual declaration and royalty file (regional)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Regional quarry laws: Piemonte DGR (30 April royalty declaration), Toscana annual asseverated survey and RTCave, Sicilia royalty on declared output",
+     "unchecked": "Number of operators per region; the role of surveyors who prepare the annual report; whether regional portals already provide forms."
+    },
+    {
+     "buyer": "Small agenti in attività finanziaria and mediatori creditizi",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.dirittobancario.it/art/oam-al-via-le-segnalazioni-di-vigilanza-per-gli-intermediari-del-credito/ ; https://www.milanofinanza.it/news/nuovo-registro-oam-contro-il-sovraindebitamento-202607070725261958",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "OAM agents and credit mediators: semi-annual supervisory reporting",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "OAM supervisory reports (30 Sep, 31 Mar) after PEC notice; annual contributions by circular; July 2026 merchant register (OAM circ. 70/26)",
+     "unchecked": "Whether the 2026 reports apply to small individual agents; vendor landscape; AML annual obligations."
+    },
+    {
+     "buyer": "Landlords, affittacamere, agriturismi",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://www.studiopizzano.it/cin-locazioni-brevi-obblighi-sanzioni-dichiarazione-2026/ ; https://chekin.com/it/blog/affitti-brevi-senza-cin/",
+     "existing": "Chekin and PMS tools",
+     "known_id": "K08",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K08/K17.",
+     "name": "Short-term rental CIN and tourist-accommodation compliance",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Art. 13-ter DL 145/2023, CIN from 2 Jan 2025, BDSR portal, CIN in tax returns, fines up to EUR 8,000",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Pharmacies",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://www.quotidianosanita.it/lavoro-e-professioni/il-riepilogo-degli-adempimenti-e-scadenze-di-fine-anno-per-i-farmacisti/ ; https://www.affaritaliani.it/medicina/medicinali-stupefacenti-nuove-regole-per-sicurezza-e-tracciabilita-nelle-strutture-sanitarie.html",
+     "existing": "Pharmacy management suites (not named); not searched",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Pharmacy narcotics register and new 2026 narcotic-medicine decree",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "DPR 309/1990 arts 60-62-68; possible 2026 decree on narcotic medicine management (single press source, unverified)",
+     "unchecked": "Decree name and whether a digital register is mandatory; precursor duties for pharmacies; whether suites already include it."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "National duty (DM 31 Mar 2023, MIMIT circular; DL 33/2026 added oil-company duties): weekly/at-change price submission to Osservaprezzi Carburanti plus average-price sign; Guardia di Finanza checks in 2026 (Como, Belluno, Velletri). Sanctions reported EUR 200-2,000 (sources conflict). No vendor tool found for automatic submission, but forecourt/POS vendors unchecked. LPG distributors not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Granaio Italia cereal register (SIAN, MASAF decree 1 Oct 2024, fines EUR 500-4,000 from 31 Jul 2025, thresholds 30-80 t per crop, quarterly entry by 20th of third month). Milk first-buyer monthly SIAN declarations (by the 20th, DM 6 Aug 2021, AGEA circ. 53456/2023). Wine register already served by TeamSystem Wine / Registrovino. No coffee or cocoa angle in Italy.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "MIMIT supervises non-associated ('libere') co-ops by biennial revision; DM 5 Mar 2025 plus new verbale models and CNDCEC/Coop document of 20 Mar 2026; revisors enrol in an Albo. Buyer is the revisor or small co-op, not a clear mass market. No software found. Credit unions not applicable (banks).",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Nothing new beyond K01 (FSE) and K10 (Sistema TS). Side finding: dental/radiology studios must appoint a radiation protection expert (ERP) and register with ISIN STRIMS under D.Lgs 101/2020; the duty is a human expert report, so weakly software-shaped.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Narcotics register annual closure 31 Dec (DPR 309/1990 art. 62); no confirmed mandatory digital register or precursor report for pharmacies. A decree reported in force 26 Sep 2026 on narcotic medicines in hospital and territorial pharmacies, unverified (single press source). Pharmacy management suites cover the field.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Private security (TULPS art. 134, Allegato D): shift communication and 2-year record keeping by the institute. No recurring electronic filing confirmed; nothing found for cleaning firms beyond tender documents. Nothing new beyond K07/K12 for site labour.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Quarry operators file annual production or excavation declarations to regions/comuni (Piemonte 30 April; Toscana annual asseverated technical report and RTCave database; Sicilia royalty on declared output). Rules differ by region, no software found. Site-labour verification is K07/K12 (rejected).",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Real estate agents: AML under D.Lgs 231/2007 (rent threshold EUR 10,000/month), new UIF suspicious-transaction instructions from 1 Jul 2026, REA annotation replaced the old ruolo; vendors such as dokicasa already sell AML packs. Condominium administrators: anagrafe condominiale (art. 1130 c.c.) with many vendors (Domustudio, GB, Dylog). OAM agents/mediators: semi-annual supervisory reports (30 Sep, 31 Mar), unverified for 2026.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Nothing new beyond K08/K17: CIN mandatory since 2 Jan 2025 (art. 13-ter DL 145/2023), BDSR portal, CIN also required in tax returns, fines up to EUR 8,000; Chekin et al. cover it.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Nothing new beyond K16 (EUDR). EU wine package (Reg. 2026/471) concerns vine authorisations, not an import/export workflow. Fish catch certificates and timber (EUTR) not searched separately: not_reached for those sub-niches.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Gun shops and arms dealers (armaioli), Questura/SITAM tracking",
+     "found": "Art. 35 TULPS (text updated Feb 2026): electronic register kept 50 years; SITAM (DM of 12 Jul 2023, DM 113 or 114, sources conflict) replaces monthly register filing; shop needs Questura credentials; own software allowed if SITAM-compatible at no extra cost. No Italian armeria software found.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Owners of renewable plants above 20 kW with self-consumption (ADM electricity licence)",
+     "found": "D.Lgs 43/2025 replaced annual excise declaration with two semi-annual declarations from 2026 (ADM circ. 9/D of 7 May 2026; real-environment service from 28 Jul 2026; deadlines 31 Mar and 30 Sep). Plants above 20 kW with self-consumption need licence, annual fee (1-16 Dec) and monthly meter-reading register. Confartigianato Vicenza sells assistance. Thresholds 20 vs 50 kW conflict between sources.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Dairy first buyers, small cheese makers and dairy producers (SIAN milk declarations)",
+     "found": "First buyers declare monthly by the 20th on SIAN with digital signature, no minimum threshold; manufacturers also quarterly; small producers annual. Regione Lazio note of Feb 2026 stresses sanctions for missed entries and no ex-post correction. No dedicated software named in results.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Amateur sports clubs (ASD/SSD) and sport employers: RASD register",
+     "found": "RASD (Dipartimento Sport / Sport e Salute) since 2024: monthly 30-day communication of sports-work relationships, volunteer register, 31 Jan LUL for pay up to EUR 15,000; registry cleaned up in Apr 2026; D.Lgs 96/2026 pay transparency applies to ASD/SSD. TeamSystem sport tools exist. Overlaps group A category 17.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Medical device distributors and orthopaedic suppliers (D.Lgs 137/2022, EUDAMED)",
+     "found": "EUDAMED operator registration mandatory from 28 May 2026 for manufacturers, importers, authorised reps; national database under D.Lgs 137/2022 art. 14; no confirmed duty for distributors. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Dental and small radiology studios (ionising radiation, D.Lgs 101/2020)",
+     "found": "Owner appoints ERP and obtains periodic report; ISIN STRIMS notification regime; no termine confirmed. Human-expert driven.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Condominium administrators (professional register, anagrafe, AML)",
+     "found": "Duty is well served: Domustudio (Danea), GB Software, Dylog digital services; UIF new AML modes from 1 Jul 2026 apply to administrators per idealista article.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "distributori carburanti obblighi comunicazione prezzi Osservaprezzi MIMIT sanzioni 2026",
+    "Granaio Italia dichiarazione giacenze cereali obbligo sanzioni SIAN",
+    "revisione cooperative biennale 2026 mutualità prevalente piccole cooperative",
+    "registro stupefacenti farmacia digitale obbligo 2026 precursori",
+    "amministratori di condominio registro anagrafe antiriciclaggio 2026 software",
+    "vigilanza privata guardie giurate adempimenti prefettura pulizie appalti software",
+    "cave dichiarazione annuale produzione estrattiva regione software",
+    "dispositivi medici registrazione distributori D.Lgs 137/2022 ortopedie",
+    "CIN codice identificativo nazionale strutture ricettive 2026 controlli",
+    "agenti immobiliari antiriciclaggio 2026 UIF registro titolare effettivo software",
+    "studio odontoiatrico apparecchio radiologico D.Lgs 101/2020 ISIN ERP",
+    "registro telematico vino SIAN cantine software 2026",
+    "RASD registro attività sportive dilettantistiche obblighi 2026 software",
+    "dichiarazione consumo energia elettrica ADM officina elettrica fotovoltaico 2026",
+    "armerie registro operazioni armi telematico 2026 SITAM",
+    "latte dichiarazioni mensili SIAN primi acquirenti caseifici",
+    "software gestionale armeria SITAM",
+    "dichiarazione semestrale ADM officina elettrica fotovoltaico oltre 20 kW servizio",
+    "software registro Granaio Italia cerealicolo SIAN",
+    "software gestore distributore carburanti invio prezzi Osservaprezzi",
+    "software primo acquirente latte SIAN caseificio",
+    "agenti attività finanziaria mediatori creditizi OAM obblighi 2026",
+    "programma gestione armeria armaiolo matricole software",
+    "software revisione cooperativa verbale mutualità prevalente"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b9"
+ },
+ "gapfill:italy": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small employers (bars, shops, studios, small workshops, associations with staff) and condominium administrators with employees; also small notified inspection bodies as a lead channel",
+     "category": "33. Impianti elettrici/messa a terra, CPI, verifiche periodiche DPR 462/2001 (also touches 34 and 12)",
+     "evidence": "certifico.com/sicurezza-lavoro/news-sicurezza/civa-servizi-telematici-certificazione-e-verifica-impianti-e-apparecchi ; studiocataldi.it/articoli/25085-dpr-n-4622001-applicazioni-in-ambito-condominiale.asp ; puntosicuro.it/quesiti-sulla-sicurezza-C-109/faq-di-prevenzione-incendi-il-cpi-AR-17444/ ; assolombarda.it/servizi/salute-e-sicurezza-sul-lavoro/informazioni/dl-sicurezza-sul-lavoro-2025-intelligenza-artificiale-e-novita-per-le-imprese",
+     "existing": "Competitor search run (scadenziario sicurezza sul lavoro software ... Blumatica): Blumatica SHEQ/DVR gives training-expiry alerts by email/SMS, free DVR software with scadenziario (INAIL Campania / SPISAL Veneto), cvdellasicurezzasullavoro.it training record (status unknown). No product found that tracks earthing inspections, CPI renewals and the INAIL notification together; condominium software with maintenance reminders not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Related category 12 (lift/boiler owners) in the ledger, not to any K id.",
+     "name": "Multi-year inspection and training cycle tracker plus booking for micro-employers (DPR 462 earthing/lightning inspections, CPI 5-year attestation, extinguisher/lighting checks, D.Lgs 81 training and RLS refreshers)",
+     "score": 3.5,
+     "status": "weak",
+     "trigger": "DPR 462/2001 (5- or 2-year inspections), art. 7-bis (L. 8/2020) employer notification of the appointed body to INAIL via CIVA, DPR 151/2011 art. 5 five-year CPI attestation, D.Lgs 81/2008 training cycles as amended by DL 159/2025 / L. 198/2025. National rules; ASL/ARPA or accredited body does the inspection.",
+     "unchecked": "Whether generic gestionali (e.g. condominium and safety suites) already include plant-inspection deadlines; real number of small employers actually compliant; whether inspection bodies already send renewal reminders; current CIVA workflow; willingness to pay versus a consultant/RSPP who does this for EUR few hundred per year. Risk: counts as generic compliance software."
+    },
+    {
+     "buyer": "Insurance agencies and brokers (RUI sections A/B) that employ or use section E collaborators, plus sole-trader agents",
+     "category": "31. Agenti e rappresentanti di commercio / agenti assicurativi e mediatori (RUI IVASS)",
+     "evidence": "dirittobancario.it/wp-content/uploads/2022/04/Chiarimenti-IVASS-Regolamento-n.-40-2018.pdf ; facile.it/partner/news/sezione-e-rui-tutto-quello-da-sapere.html ; studiocerbone.com/?p=478088 (IVASS provvedimento 134/2023)",
+     "existing": "Competitor search run (software gestione formazione IVASS intermediari registro ore): no tracking software found; training is sold by providers (Assinews '60 ore', FIAss, e-learning courses), which likely keep attendance records. Agency management systems (not searched) may already carry this.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Training-hours tracker and RUI communications for small insurance agencies with section E collaborators",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "IVASS Regolamento 40/2018 periodic professional update for all RUI sections including E; principal intermediary files section C/E communications through the RUI portal (SPID/CNS/CIE for section changes). National.",
+     "unchecked": "Exact current hours (30 h/yr vs 60 h per biennium and 15 h/yr minimum per different sources); whether the IVASS provvedimento of 2023 changed the regime; whether ANIA/SNA/agency suites already track hours; number of small agencies."
+    },
+    {
+     "buyer": "Small organic farms, agriturismi with own production, direct-sale producers",
+     "category": "35. Agriturismi, vendita diretta, biologico (Reg. 2018/848)",
+     "evidence": "unionalimentari.com/wp-content/uploads/2024/09/MASAF-decreto-5.7.2024-PAP-biologico.pdf ; regione.lombardia.it/agricoltura/agricoltura-biologica ; unionalimentari.com/wp-content/uploads/2024/09/MIPAAF-Decreto-3.2.2014-gestione-informatizzata-programmia-annuali-biologico.pdf",
+     "existing": "Competitor search run (software programma annuale di produzione biologico ...): no commercial Italian PAP software found; the filing is done on SIAN / regional portals, usually through a CAA, trade association (Coldiretti, CIA) or the control body (e.g. ICEA). Farm management apps (xFarm, K09) may include organic modules, not checked.",
+     "known_id": "K09",
+     "known_mark": "new",
+     "known_note": "Same farm buyer as K09 but different duty (organic PAP, not quaderno di campagna).",
+     "name": "Organic producer admin kit: notification, annual PAP, plan updates and certificate follow-up for small organic farms and agriturismi",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Notification of organic activity on SIAN; annual PAP (Programma Annuale di Produzione) due 31 January (often postponed, 2023 to 15 May, 2024 to 1 July); PAP variations; Reg. (UE) 2018/848 certificate. National (MASAF) with regional portals (ABio Piemonte, SIB Umbria).",
+     "unchecked": "Whether CAA/associations do it free for members; whether xFarm and similar apps already offer PAP export; 2026 and 2027 PAP deadline and any rule changes; number of small organic operators needing help; whether agriturismi are a distinct buyer."
+    },
+    {
+     "buyer": "Small companies that use commission agents",
+     "category": "31. Agenti e rappresentanti di commercio (ENASARCO, FIRR)",
+     "evidence": "partitaiva.it/scadenze-fiscali-contrbuti-enasarco-2026/ ; blog.eos-solutions.it/files/eos/downloads/Prodotti/Enasarco-FIRR-and-FISC-it.pdf ; assolombarda.it/servizi/lavoro-e-previdenza/gli-adempimenti-delle-aziende-nei-confronti-di-enasarco",
+     "existing": "Free official portal (inEnasarco area riservata computes the distinta); EOS Solutions Enasarco FIRR and FISC app for Business Central; accounting/payroll suites and consultants handle it.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "ENASARCO / FIRR quarterly and annual contribution filing for small principals (ditte mandanti)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Quarterly ENASARCO contributions (20 May / 20 Aug / 20 Nov / 20 Feb) and FIRR by 31 March, via the Enasarco online portal; mandate terminations to be notified within 30 days. National.",
+     "unchecked": "Whether small accounting packages (not just ERP) carry it; consultants' fees."
+    },
+    {
+     "buyer": "Bars, restaurants, pizzerie, canteens",
+     "category": "32. Pubblici esercizi, bar, ristoranti: HACCP, registro allergeni",
+     "evidence": "Rejected on competition: SimpleHACCP (from EUR 34.90/month), Haccpok, Blumatica HACCP, FoodDocs/SafetyCulture/Jolt, plus free regional simplified manuals and a free 'HACCP semplificato' web app. testo-unico-sicurezza.com/haccp-semplificata-web-app.html ; qamarero.com/it/blog/sanzioni-haccp-importi-controlli-e-come-proteggerti/",
+     "existing": "SimpleHACCP, Haccpok, Blumatica HACCP, FoodDocs, free ATS/regional manuals.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "HACCP / autocontrollo digital register for bars and restaurants",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Reg. 852/2004 autocontrol (simplified for micro-businesses), allergen information Reg. 1169/2011, regional alimentarista training, ASL/NAS inspections. National with regional training rules.",
+     "unchecked": "Estetisti/acconciatori duties and SCIA sanitaria linkage not checked."
+    },
+    {
+     "buyer": "Authorised private revision centres",
+     "category": "36. Autoscuole, officine, centri di revisione",
+     "evidence": "Rejected on barrier and incumbent: MMB W.I.L. (vendor claims about 50% of national revisions), software must hold a CSRPAD MCTCNet2 certificate. mmbsoftware.it/wil ; carpedia.it MCTCNet2 page",
+     "existing": "MMB W.I.L. and other MCTCNet2-certified vendors.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Vehicle revision-centre booking and MCTCNet2 management software",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "MCTCNet2 protocol, CSRPAD software suitability certificate, PagoPA payment of Motorizzazione fees, equipment recalibration. National.",
+     "unchecked": "General autofficina workshop software (non-revision) not checked; vendor claim of 50% share is unverified."
+    },
+    {
+     "buyer": "Agriturismi and educational farms",
+     "category": "35. Agriturismi, fattorie didattiche, enoturismo",
+     "evidence": "regione.calabria.it decreto dirigenziale iscrizione fattoria didattica (2025); regione.piemonte.it bollettino 2015 dda1700000667",
+     "existing": "No software found; tourist flow side served by Chekin/PMS (K08).",
+     "known_id": "K08",
+     "known_mark": "known",
+     "known_note": "Tourism flow side is K08/K17; the fattoria didattica register is a different, small duty.",
+     "name": "Regional register and annual report tracker for fattorie didattiche and agriturismi",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Regional lists and annual updates (Calabria L.R. 14/2009 decree registration; Toscana SCIA and Domanda Unica update; Piemonte annual list and report). Regional only.",
+     "unchecked": "Number of operators per region, frequency of the annual duty, 21 regional differences."
+    },
+    {
+     "buyer": "Bar and restaurant owners; also training providers",
+     "category": "32. Pubblici esercizi, bar, ristoranti",
+     "evidence": "puntosicuro.it/informazione-formazione-addestramento-C-56/quale-formazione-per-la-sicurezza-alimentare-AR-5792/ ; assolombarda.it DL sicurezza 2025 page",
+     "existing": "Training providers sell courses; HACCP suites (SimpleHACCP etc.) keep staff records. No standalone tracker checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Regional alimentarista training-expiry tracker for staff of small food outlets",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Reg. 852/2004 Annex II ch. XII; regional rules (Campania 3-year refresh, Piemonte 3-year course, FVG regional courses); DL 159/2025 30-day onboarding training for food service and tourist accommodation.",
+     "unchecked": "Whether training providers already send renewal reminders; low willingness to pay. Likely absorbed by Candidate A or HACCP suites."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31. Agenti e rappresentanti di commercio / agenti assicurativi e mediatori (RUI IVASS, ENASARCO, FIRR)",
+     "found": "National rules. ENASARCO contributions are owed by the principal (ditta mandante), not the agent: quarterly deadlines 20 May / 20 Aug / 20 Nov / 20 Feb, FIRR annual by 31 March, filed through the free Enasarco portal (distinta online, SEPA or PagoPA); vendors already integrate it (EOS Solutions Business Central app 'Enasarco FIRR and FISC'; payroll/ERP suites). Duty is low-pain and well served -> weak. RUI: IVASS Reg. 40/2018 requires periodic training for all RUI sections including section E collaborators; the principal intermediary handles section C/E communications via the RUI portal. Hours sources conflict (30 h/yr in 2020 FAQ; 60 h per biennium with 15 h/yr min per a training provider) -> unverified. No dedicated training-tracking software found for small agencies. Sources: partitaiva.it/scadenze-fiscali-contrbuti-enasarco-2026/, blog.eos-solutions.it/files/eos/downloads/Prodotti/Enasarco-FIRR-and-FISC-it.pdf, dirittobancario.it Chiarimenti IVASS Reg. 40/2018, facile.it/partner/news/sezione-e-rui-tutto-quello-da-sapere.html.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Pubblici esercizi, bar, ristoranti, estetisti e acconciatori: SCIA sanitaria, HACCP/autocontrollo, formazione, registro allergeni, SUAP e ASL",
+     "found": "Regional rules (training differs by region: Campania 3-year refresh, Piemonte 3-year course for owners, FVG regional courses). Reg. 852/2004 allows simplified, proportionate autocontrol for micro-businesses (only non-conformities need recording), so digital logs are not mandatory. HACCP software is already crowded: SimpleHACCP (from EUR 34.90/month, 15-day trial), Haccpok (Potenza), Blumatica HACCP (micro-business method + allergen agenda), plus foreign FoodDocs/SafetyCulture/Jolt; free regional/ATS Brescia simplified manual and a free 'HACCP semplificato' web app also exist. Estetisti/acconciatori: no recurring register duty beyond SCIA and training found; not pursued. Nothing new beyond a weak regional training-expiry angle.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Impianti elettrici/messa a terra, impianti termici/F-gas, CPI antincendio: verifiche periodiche DPR 462/2001 per piccole imprese e condomini",
+     "found": "National rule with INAIL central system. DPR 462/2001: earthing and lightning-protection inspection every 5 years (2 years for fire-risk / medical / construction-site premises); done by ASL/ARPA or an accredited notified body. Since L. 8/2020 art. 7-bis the employer must tell INAIL (via CIVA, online) which body it has appointed, and the body pays INAIL 5% of its fee; plant must be declared to INAIL UOT within 30 days of activation. CPI/SCIA antincendio: periodic conformity attestation every 5 years (DPR 151/2011 art. 5). Applicability to condominiums is disputed (only if employees such as a portiere). No dedicated scheduler found for small employers or condominium administrators; generic safety suites (Blumatica SHEQ/DVR) cover training alerts, not clearly plant inspections. F-gas/heating handled by K02. Candidate A in ledger. Sources: certifico.com CIVA pages, studiocataldi.it/articoli/25085-dpr-n-4622001-applicazioni-in-ambito-condominiale.asp, puntosicuro.it faq prevenzione incendi.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Titolari di farmacia, parafarmacie e studi professionali: GDPR/privacy, sicurezza sul lavoro (RSPP, DVR, formazione D.Lgs 81/2008) e novita 2024-2026",
+     "found": "National. DL 159/2025 (converted by L. 198/2025, GU n. 301 of 30 Dec 2025) amends D.Lgs 81/2008: RLS refresh for firms under 15 employees with periodicity left to collective bargaining; food-service and tourist-accommodation staff training within 30 days of hiring; digital 'badge di cantiere' (links to K07); near-miss guidelines only for firms over 15 employees; fixed vertical ladders over 5 m new rules from 1 Feb 2026; INAIL funding for smart PPE. No new micro-employer DVR obligation found. Market is served by generic safety suites (Blumatica DVR/SHEQ with deadline alerts) and free DVR tools with built-in scadenziario (INAIL/Campania, SPISAL Veneto standard procedures for under 10 employees) -> generic compliance, not scoped as a candidate; folded into Candidate A as the cycle-tracking angle. Sources: assolombarda.it DL sicurezza 2025 page, filodiritto.com DL 159/2025 article, puntosicuro.it AR 25898 and AR 26113.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Agriturismi, fattorie didattiche, enoturismo e vendita diretta (licenze regionali, flussi turistici ISTAT, biologico/DOP)",
+     "found": "Mostly regional. Tourist flows go through regional ROSS1000-type portals (Lombardia ROSS1000, Veneto, Marche Istrice-ROSS1000, Piemonte Dati Turismo mandatory since 1 Jan 2022; monthly deadlines of about the 5th to 10th, to verify) plus Alloggiati Web within 24 h: already covered by Chekin and PMS tools (K08/K17). Fattoria didattica: regional register (e.g. Calabria L.R. 14/2009, Toscana SCIA update, Piemonte annual list and annual report) with no software found. Organic: notification on SIAN, annual PAP (Programma Annuale di Produzione) due 31 January but postponed in 2023 (to 15 May) and 2024 (to 15 May then 1 July); handled in SIAN or regional portals (ABio Piemonte, SIB Umbria) with control-body help; no commercial PAP/organic-admin software found (international farm software irrelevant). Candidate C in ledger. DOP/IGP not reached. Sources: regione.lombardia.it/agricoltura/agricoltura-biologica, unionalimentari.com MASAF decree 5.7.2024 PAP, regione.veneto.it/web/turismo/rilevazione-flussi-turistici-ross1000.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Autoscuole, officine, centri di revisione: MCTC-net / Motorizzazione, registri e obblighi periodici; car-sharing, noleggio, autolavaggi",
+     "found": "National (Ministry of Transport / Motorizzazione). Revision centres must use MCTCNet2-certified software and equipment, with CSRPAD suitability certificates, video surveillance and metrological recalibration in the due month. The booking/management niche is held by MMB's W.I.L. (vendor claims about 50% of national revisions run through centres using it, unverified), so a new vendor needs official certification: high barrier. Generic autofficina management software not found in searches (not verified either way). Oil-waste traceability now touches RENTRI (K14); F-gas register is a free national telematic database; tachograph and dismantlers already reached in the earlier pass. Autoscuole, car-sharing, noleggio, autolavaggi: not reached (budget). Sources: mmbsoftware.it/wil (PDF, fetch failed, claims from search snippet), carpedia.it MCTCNet2 page, sicurauto.it MCTC-Net2 article.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "agenti di commercio adempimenti ENASARCO versamento trimestrale RUI IVASS aggiornamento professionale software scadenze",
+    "HACCP autocontrollo registro temperature app obbligatorio piccoli ristoranti bar scadenze formazione alimentaristi SCIA ASL",
+    "verifica periodica impianto di messa a terra DPR 462/2001 scadenza organismo abilitato piccole imprese scadenziario CPI rinnovo antincendio",
+    "DL 159/2025 sicurezza sul lavoro novità micro imprese DVR formazione scadenze corsi aggiornamento RLS RSPP obblighi 2026",
+    "agricoltura biologica notifica attività SIAN PAP aggiornamento annuale piano annuale di produzione scadenze piccoli produttori agriturismo adempimenti",
+    "officina revisione veicoli MCTC-net obblighi periodici centro di revisione convenzione Motorizzazione adempimenti software scadenze",
+    "software gestione Enasarco FIRR ditta mandante distinta versamento agenti provvigioni programma",
+    "RUI intermediari assicurativi sezione E aggiornamento professionale 15 ore annuali IVASS Regolamento 40/2018 scadenza biennio",
+    "scadenziario sicurezza sul lavoro software piccole imprese verifiche impianto di terra CPI formazione corsi DVR gestionale",
+    "software HACCP registro allergeni tracciabilità app ristoranti bar Italia autocontrollo digitale prezzo",
+    "agriturismo adempimenti annuali registro regionale ISTAT movimento clienti Ross1000 fattoria didattica software gestione",
+    "gestionale officina autoriparatore registro olii usati F-gas MCTC-net 2026 revisione novità centri di revisione software",
+    "INAIL CIVA portale verifiche periodiche impianti messa a terra datore di lavoro comunicazione organismo 2025 2026 piattaforma",
+    "software scadenziario verifiche periodiche impianti messa a terra ascensori condominio amministratore promemoria DPR 462 gestione scadenze",
+    "software programma annuale di produzione biologico operatori gestione registri aziendali biologico PAP software azienda agricola",
+    "software gestione formazione IVASS intermediari assicurativi registro ore aggiornamento collaboratori sezione E agenzia",
+    "gestionale centro di revisione veicoli software MCTC-net officina autoriparatore gestionale autofficina prezzo",
+    "scadenziario sicurezza sul lavoro software verifiche periodiche messa a terra attrezzature formazione scadenze app piccole imprese Blumatica Scadenzario"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b9"
+ },
+ "opus:italy:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "SITAM itself is a free state system where armerie enter operations directly, so it covers the core filing. All4shooters (2023 and 2024) says compatible data-management software may be used if it adds no costs. I found no description of an API or import. The Consorzio Armaioli/Stain \"Sigma\" portal handles transport certificates for manufacturers, a different duty. I found no Italian armeria management software in 4 searches (Italian-language queries), only foreign or US armory tools and generic templates. Absence is unconfirmed because search coverage was thin.",
+   "duty": "Art. 35 TULPS (RD 773/1931, current text per Brocardi): the armaiolo's daily operations register is electronic, shown on request and kept 50 years. SITAM (D.Lgs. 104/2018; DM of 12 Jul 2023, sources cite both no. 113 and no. 114) has been in force since 1 Sep 2023. Gun shops get credentials from the provincial Questura and enter each operation in SITAM \"schede\", which replaces the monthly register filing. The article says Interior systems would be finished within 18 months. Not reached: exact date use became mandatory, sanctions, and data-entry deadline.",
+   "market": "About 1,200 retail armerie in Italy, out of 1,352 auxiliary-sector firms, per a Banco Nazionale di Prova/Università di Urbino study summary (conarmi.org PDF, undated; seen only in a search snippet, the PDF would not render). Trade bodies are Assoarmieri (Confcommercio) and Conarmi/ANPAM, which runs training such as a regulatory-update seminar on 23 Sep 2026.",
+   "reason": "The duty is real. Art. 35 TULPS requires an electronic daily operations register kept for 50 years. SITAM has been in force since 1 Sep 2023 and replaces the monthly filing to the Questura. However, armaioli enter operations directly in SITAM's free state system using Questura credentials, so the state tool already does the core filing. A product would only add value as a shop system that syncs with SITAM. All4shooters says compatible software is allowed \"without extra costs\", but I found nothing on whether SITAM offers an API or file import. The market is tiny, about 1,200 armerie per an undated Urbino/Banco di Prova estimate. I found no Italian vendor, but searches were thin. I found no mandatory-use date or sanctions.",
+   "searches": 6,
+   "sources": "https://www.brocardi.it/testo-unico-pubblica-sicurezza/titolo-ii/capo-iv/art35.html ; https://www.all4shooters.com/it/tiro/legge/sitam-gli-adempimenti-obbligatori-per-le-armerie-dettagli ; https://www.all4shooters.com/it/tiro/legge/sistema-tracciamento-armi-e-munizioni-adempimenti-per-armerie/ ; https://www.all4shooters.com/it/tiro/legge/sitam-cos-e-e-cosa-cambia/ ; https://www.conarmi.org/media/news_files/Sintesi_breve_Anpam_Urbino.pdf ; https://www.conarmi.org/media/news_files/pedersoli_intervista_fabbrica4.0.pdf ; https://www.conarmi.org/media/corsi/programma/SEMINARIO_AGGIORNAMENTO_NORMATIVO_23.09.2026_iep.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b9"
+ },
+ "opus:italy:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Italian software vendor or module that advertises Granaio Italia filing was found in 3 Italian-language searches. Filing is done in the free SIAN portal. The Tedioli 2026 abstract mentions a role for CAAs (agricultural assistance centres) and links to operators' internal management systems, but gives no details. No source confirmed a CAA or association filing service for Granaio Italia. Not checked: whether a SIAN web service or bulk upload exists, and whether xFarm or TeamSystem Agri, or weighbridge and silo software vendors, have added it. Given the aggregated quarterly format, CAAs and existing warehouse-software vendors are the likely de facto competitors.",
+   "duty": "Confirmed. Farms, co-ops, consortia, traders and first-processing firms that produce, hold, buy or sell cereals above per-crop annual thresholds must keep the online cereal register (Granaio Italia) in SIAN. Thresholds: 30 t durum wheat, 40 t soft wheat, 80 t maize, 40 t barley, 60 t sorghum, 30 t oats and the others. Second-stage processors and retailers are excluded. Loads and unloads are recorded as aggregated entries by the 20th of the third month after the operations, with quarterly reporting starting from Jul-Sep 2025. Fines run from EUR 500-2,000 for failing to report, up to EUR 4,000 for not following the online registration rules, and apply from 31 Jul 2025. ICQRF enforces. Sources: CNA Ravenna and Italpress (Jul 2025). The 2021 Budget Law text cited a 5 t threshold, but the implementing decree uses the per-crop thresholds. A 2026 academic paper (Tedioli, EUAL) calls the sanctions regime fully operational.",
+   "market": "Not found. No count of registered or obliged operators was found on SIAN, MASAF or in the press. It is likely to be thousands to tens of thousands of farms above the thresholds, plus roughly hundreds to a few thousand storage firms, traders and mills, but this is an estimate, not a sourced figure.",
+   "reason": "The duty is real and in force under Italian law: the 2021 Budget Law, MASAF DM of 1 Oct 2024, and the Milleproroghe conversion law. Fines of EUR 500-4,000 apply from 31 Jul 2025, and ICQRF does the checks. The first filing deadline was 20 Oct 2025. The thresholds in the claim match CNA Ravenna. No vendor module was found. However, entries are aggregated quarterly per crop in the free SIAN portal, so the work is small and infrequent. CAAs (Coldiretti, CIA, Confagricoltura) have a stated filing role, and larger silos and co-ops already run weighbridge or warehouse software whose vendors can add an export. The pain is low, willingness to pay is weak, and CAAs control access to farms. The best niche is small traders and mills.",
+   "searches": 6,
+   "sources": "https://www.ra.cna.it/legge-di-conversione-del-dl-milleprorghe-novita-registro-cerealicolo/ ; https://www.italpress.com/granaio-italia-scatta-lobbligo-di-registrare-le-giacenze-di-cereali/ ; https://certifico.com/haccp/legislazione-haccp/16315-decreto-granaio-italia ; https://reference-global.com/article/10.2478/eual-2026-0008 ; https://www.tedioli.com/en/granaio-italia-cereal-stock-register-eu-cap/ ; https://unionalimentari.com/wp-content/uploads/2024/09/L.-30.12.2020-legge-bilancio-previsione-registro-telematico-cereali.pdf ; https://informaimpresa.it/item/registro-per-imprese-di-prima-trasformazione-della-filiera-cerealicola-2",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b9"
+ },
+ "sonnet:italy:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. D.Lgs. 101/2020 art. 48 requires STRIMS registration, and ISIN and FNOVI sources say it covers vet studios with fixed or mobile X-ray units. But it looks mostly one-off. The registration deadline was around Jan 2022, and the later human-health extension to 31 Mar 2023 does not cover vets. I found no recurring workflow after registration, only event-driven communications within 10 days of a change. A 2024 Mantova vet order note suggests staff are usually classed as non-exposed, so the radiation-protection expert (ERP) burden may be light. I found no vet-specific software, but only two searches covered it and I did not check packaged ERP services or vet practice suites. Market size was not found. The Mantova 2024 PDF was unreadable. Weak recurrence and small willingness to pay give a low score.",
+   "searches": 3,
+   "sources": "https://fnovi.it/print/49486; https://www.ordineveterinarimantova.it/assets/news-2021-28-ott.pdf; https://www.certifico.com/sicurezza-lavoro/news-sicurezza/strims-strutture-sanitarie-pubbliche-e-private-proroga-al-31-03-2023; https://ordineveterinarimantova.it/assets/news-2024-30-mag.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b9"
+ },
+ "sonnet:italy:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: TULPS art.128 (kept in force per Interior Ministry and MISE res. 120995/2018) requires a daily register of operations with counterparty identity, shown to police on request. Beni culturali art.63 adds item descriptions. Non-vidimation is only an administrative offence (Cass. 12646/2006). I found no dedicated Italian software. Foreign consignment POS (The Consignment Shop) and generic retail POS (Passepartout Retail) exist, but none was shown to generate this register. I could not confirm that an electronic register is allowed. I found no national count (ATECO 47.79 stock not found) and no enforcement data beyond a 2019 carabinieri-check news item. Score is low because demand is weak: the register is a low-value paper habit, enforcement is sporadic, and buyers are tiny and fragmented. Related to K18.",
+   "searches": 5,
+   "sources": "https://www.mn.camcom.gov.it/files/SUAP/ParereMinisteroInterno2-3-2017.pdf ; https://www.studiocerbone.com/?p=404996 ; https://brocardi.it/testo-unico-pubblica-sicurezza/titolo-iii/capo-v/art128.html ; https://www.brocardi.it/codice-dei-beni-culturali-e-del-paesaggio/parte-seconda/titolo-i/capo-iv/sezione-iii/art63.html ; https://www.doctrine.it/decisions/itcassbgljxedvkqecxa ; https://www.capterra.it/software/121750/the-consignment-shop ; https://www.passepartout.net/Resources/Asset/Documenti/Prodotti/Brochure/Brochure-Retail-2026.pdf ; https://codiceateco.it/categoria/commercio-al-dettaglio-di-oggetti-di-antiquariato-e-mobili-di-seconda-mano",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b9"
+ },
+ "sonnet:italy:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. MIT circolare 9674 of 16 Apr 2026 applies G2V2 and driver cards from 1 Jul 2026 to 2.5-3.5 t vehicles in international for-hire or cabotage haulage, and to international own-account haulage where driving is the main activity. Trans.info gives fines of EUR 866-3,464, a 10-day installation order and licence suspension. Company card, driver-card download every 28 days and memory download every 90 days are required. Competition is strong: Geotab and Frotcom already sell remote download and expiry alerts. Market size is unquantified. No Italian count was found, only \"thousands\" of firms. The IRU survey, as cited by trans.info, put 88% of affected vehicles as not yet equipped (before the deadline). The work is a one-off install plus routine downloads, and derogations shrink the pool. A thin niche for a solo founder.",
+   "searches": 3,
+   "sources": "https://trans.info/it/tachigrafo-sui-furgoni-dal-1-luglio-2026-obblighi-esenzioni-e-sanzioni-faq-484869 ; https://www.fiscoetasse.com/new-rassegna-stampa/3907-tachigrafo-e-altri-obblighi-dal-1-luglio-2026-per-i-furgoni-circolare-mit.html ; https://www.geotab.com/it/blog/vantaggi-download-da-remoto-del-tachigrafo-digitale/ ; https://www.frotcom.com/it-IT/blog/2021/12/perche-il-download-del-tachigrafo-remoto-e-cosi-importante-i-gestori-di-flotte ; https://trans.info/it/tachigrafo-sui-furgoni-l-88-non-e-pronto-alla-scadenza-ue-473746",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b9"
+ },
+ "sonnet:italy:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. DM 2/2026 (of 13 Jan 2026, GU n.66 of 20 Mar 2026, in force 9 Apr 2026) extends the annual associative-data communication to all associative ETS, with a 30 June deadline. Bilancio deposit moves to 180 days after year end. Sanctions fall under CTS art. 48 c.5, but I found no amounts. The RUNTS had 150,194 entities at 20 Jul 2026, but the associative-ETS count is not found. Competitors: TeamSystem Terzo Settore in Cloud, Asso360, bespoke gestionali from EUR 1,200, and free CSV volunteer-centre help. I did not find any API that pushes data to RUNTS; filing is manual, but the data is a few counts. The pain is low and the buyers are volunteer bodies with little willingness to pay. Accountants are the real buyer, and the filing is a once-a-year, thin job. Ranghi, Zucchetti and Cantiere Terzo Settore were not checked, and \"Modello E\" was not found in the sources.",
+   "searches": 4,
+   "sources": "https://www.studiopizzano.it/runts-entro-il-30-giugno-2026-la-comunicazione-dei-dati-associativi-cosa-cambia-per-gli-ets/ ; https://www.mysolution.it/fisco/approfondimenti/commenti/2026/06/comunicazioni-al-runts-entro-il-30-giugno-2026-baldin/ ; https://www.italiaoggi.it/settori/terzo-settore/terzo-settore-il-runts-supera-quota-150-mila-enti-oltre-10-mila-le-onlus-nel-registro-ufjvhq72 ; https://pasqualepillitteri.it/gestionale-associazioni ; https://www.teamsystem.com/magazine/terzo-settore/gestione-soci-e-volontari/ ; https://csvlombardia.it/bergamo/post/adempimenti-runts-csv-a-fianco-delle-associazioni-per-compilare-le-istanze",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b9"
+ },
+ "sonnet:italy:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real: the MIMIT portal and the DM 31 Mar 2023 require price notification on each change and at least weekly (per Sicurauto), plus an average-price sign. The GdF is enforcing it, with fines in Como and Ferrara. Sanctions of EUR 200-2,000 per day come from a secondary source only. DL 33/2026 (converted by L. 79/2026) mainly binds oil companies (0.1% of daily turnover), not gestori. I found no dedicated third-party software, but I also found no API or bulk-upload spec. The free MIMIT portal does the core job, and the DM allows free intermediated or simplified transmission by agreement. Brand networks and POS vendors probably push prices already. The task is a few minutes per change, the buyers are fragmented (about 20k stations, not sourced here), and willingness to pay is low. The niche is thin.",
+   "searches": 5,
+   "sources": "https://www.mimit.gov.it/it/notizie-stampa/emanata-circolare-per-modalita-dellobbligo-di-comunicazione-dei-prezzi-carburanti ; https://www.sicurauto.it/news/carburanti-prezzi-medi-esposti-cosa-cambia/ ; https://www.ecnews.it/legale/mondo-professione/aggiornamento-professionale/d-l-33-2026-misure-urgenti-in-materia-di-prezzi-dei-carburanti/ ; https://www.saronnonews.it/2026/05/04/prezzi-dei-carburanti-nel-mirino-controlli-e-sanzioni-della-guardia-di-finanza-di-como/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b9"
+ },
+ "sonnet:italy:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: D.Lgs. 43/2025 and ADM circ. 9/D (7 May 2026), then circ. 20/2026 (31 Jul 2026). PV above 20 kW with self-consumption needs an officina elettrica licence, an annual fee (1-16 Dec), monthly meter readings, and semi-annual filings (30 Sep, 31 Mar). No extension of 30 Sep 2026 found. The first deadline has now passed. Penalties were not found. QualEnergia questions whether renewables are covered. No dedicated software found, only the ADM portal, associations and consultants. Plant count unverified, so the market is probably small, a few tens of thousands at most. The work is only two filings a year plus a register, so the pain is low and the job is easily handled by accountants or installers. Low willingness to pay.",
+   "searches": 3,
+   "sources": "https://informaimpresa.it/item/obbligo-di-dichiarazione-semestrale-entro-il-30-09-2026-per-chi-detiene-impianti-elettrici-a-fonte-rinnovabile-con-potenza-superiore-a-20-kw ; https://www.mysolution.it/fisco/informazioni/news/2026/08/03/dichiarazioni-semestrali-gas-ed-energia-elettrica-i-chiarimenti-adm-sulla-compilazione-dei-nuovi-modelli/ ; https://www.qualenergia.it/articoli/dichiarazioni-semestrali-inclusi-anche-operatori-rinnovabili/ ; https://www.assolombarda.it/servizi/energia/informazioni/adm-dichiarazione-semestrale-dei-consumi-nuovi-adempimenti",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b9"
+ },
+ "sonnet:italy:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: DPR 462/2001 art. 4 requires earthing and lightning checks every 5 years, or every 2 years for construction sites, medical rooms and CPI or fire-risk premises. The employer pays. The CPI renewal is a 5-year declaration under DPR 151/2011. Not confirmed: the penalty (I believe D.Lgs 81/2008 art. 87), CIVA/INAIL art. 7-bis details and market counts. Competition is not empty. RegistroSicuro.it covers extinguishers and emergency lighting. Blumatica, TeamSystem HR and Namirial give training-expiry alerts. Nothing found bundles earthing, CPI and the INAIL notification, but the cycles are slow (5 years) and a consultant/RSPP does this cheaply. Looks like generic compliance software. Fragmented buyers, weak willingness to pay.",
+   "searches": 4,
+   "sources": "https://informaimpresa.it/item/verifiche-periodiche-degli-impianti-elettrici-di-messa-a-terra-cosa-prevede-la-normativa ; https://www.testo-unico-sicurezza.com/registosicuro-antincendio.html ; https://www.teamsystem.com/hr/salute-e-sicurezza-hr ; https://www.studiocataldi.it/articoli/25085-dpr-n-4622001-applicazioni-in-ambito-condominiale.asp",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b9"
+ },
+ "sonnet:italy:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty looks real. Reg. IVASS 40/2018 requires periodic training, and agents, brokers and section D intermediaries must train their section E network. I did not confirm the hours: one provider page says 30 h/yr, and the official text was not reached. Provv. 134/2023 only covers SPID/CIE/CNS portal access and electronic communications, not training. I found no dedicated training-tracking software, but my agency-suite search was shallow. Training providers and agency suites probably track hours already. No section counts were found. The product is a niche tracker with little distinct pain and unclear willingness to pay, and agencies' existing providers and ANIA/SNA suites are likely substitutes.",
+   "searches": 5,
+   "sources": "https://www.studiocerbone.com/?p=478088 ; https://www.dirittobancario.it/wp-content/uploads/sites/default/files/allegati/faq_ivass_art._46_esercizio_2020.pdf ; https://www.dirittobancario.it/wp-content/uploads/sites/default/files/allegati/documento_di_consultazione_ivass_n._2-2014.pdf ; https://www.dirittobancario.it/wp-content/uploads/2022/04/Chiarimenti-IVASS-Regolamento-n.-40-2018.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b9"
+ },
+ "sonnet:italy:GAPS3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The core recurring duty no longer exists as claimed. Regione Lombardia (page updated 19 Mar 2026) says MASAF decree n. 0149834 of 1 Apr 2025 repealed DM 18321/2012, the legal basis of the annual PAP with its 31 January deadline. PAP content now goes into the piano colturale grafico, which sits in the fascicolo aziendale. That is already done through CAAs, regions and the SIAN/AGRIBIO portals. No 2026 PAP deadline was found. The first notification is a one-off, filed on free state or regional portals (e.g. AGRIBIO in Emilia-Romagna). Market: about 94,441 organic operators in 2023, about 84,000 of them farms. Competition (xFarm and others) was not verified. Only the one-off notification and certificate follow-up remain, so the recurring pain is weak.",
+   "searches": 3,
+   "sources": "https://www.regione.lombardia.it/agricoltura/programmi-annuali-di-produzione-(pap) ; https://www.regione.lombardia.it/agricoltura/agricoltura-biologica ; https://www.rivistadiagraria.org/articoli/anno-2024/sviluppi-dellagricoltura-biologica-nel-2023-analisi-dei-dati/?print=pdf ; https://agricoltura.regione.emilia-romagna.it/servizi-online/allegati/notifica-di-operatore-biologico/informatizzazione-bio-istruzioni-per-luso-rev-9.pdf/@@download/file/informatizzazione bio - ISTRUZIONI PER L'USO Rev.9.pdf",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b9"
+ },
+ "triage:italy": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Vets but different duty (X-ray/ISIN registration) than K13 prescriptions."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Second-hand/antiques dealers are a different buyer group than K18 compro oro; related K18."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "New one-off July 2026 deadline for small van operators."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Small associations RUNTS duty, new rule DM 2/2026; no known match."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Pesticide retailers register/SIAN duty is new."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Lift verification for condominium offices/maintainers; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Work-equipment periodic verification for small firms; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Cemetery concession register differs from K06 funeral-home paperwork (buyer comuni/concessionaires); unsure, keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Taxi/NCC RENT register; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Small hauliers REN/Albo requirements; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Livestock I&R registration/training; distinct from K19 items."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Household employers in scope; no known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Tattoo studios regional consent records; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Hunting outfitters culling reports; new buyer."
+    },
+    {
+     "decision": "known",
+     "id": "A16",
+     "reason": "Autodemolitori RENTRI/xFIR is same core duty as K14.",
+     "ref": "K14"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Gun dealers' electronic register/SITAM; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Grain register for farms/co-ops; different duty from K19 and K09."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Fuel station price notification; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "ADM electricity declarations for small PV owners; new, with new 2026 rule."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Milk SIAN declarations for small dairies; different buyer from K19 list."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Co-op revision/mutuality file for small co-ops and revisors; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small real estate agencies AML duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Amateur sports clubs RASD duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Dental/radiology studios are a different buyer from vets (A1); related A1 but keep for separate verification."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Medical device distributors registration; new, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Small quarry operators regional declarations; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "OAM agents/credit mediators reporting; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "Pharmacy narcotics register; new buyer and duty, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Micro-employer inspection/training cycle tracker; broader than A7 equipment duty, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Insurance agencies RUI training/communications; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Organic PAP/notification is a different duty from K09 quaderno di campagna."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "ENASARCO/FIRR for small principals; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Fattoria didattica register is a different duty from K08 tourist reporting; related K08."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Alimentarista training expiry for food outlets; new."
+    }
+   ]
+  },
+  "tag": "w2b9"
  }
 }

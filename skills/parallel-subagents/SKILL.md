@@ -148,6 +148,12 @@ screened. Design for recall first and let later stages remove what doesn't hold 
   country: 195 agents, about $60") instead of silently packing items into fewer agents.
 - Load the `workflow-authoring` skill before writing a script. `references/runtimes.md` has a
   fan-out, check and repair sketch, a headless loop and a worker definition.
+- **Web search cap**: Claude Code allows 200 WebSearch calls per turn, shared by every agent
+  launched in that turn, Workflow agents included. After that each search returns "Web search was
+  not performed" and workers carry on without it, returning confident junk ("not reached", 0
+  searches, every check "unverifiable"). In one run, 76 of 143 agents did this. Plan searches as
+  well as dollars: keep each launch under about 190, have workers report blocked searches, stop new
+  work when one does, and carry finished results into a batch launched in the next turn.
 
 ## 3. Make the shared decisions before dispatch
 
@@ -259,7 +265,11 @@ every launch, per role:
 
 ## 6. Estimate and cap the cost before launch
 
-For more than a handful of agents, estimate first. `scripts/estimate_cost.py` does the arithmetic
+For more than a handful of agents, estimate first, and say where the cost lands before you
+launch: on a subscription it counts toward plan limits, cloud sessions may first draw on an
+included cloud credit, and paid usage credits apply only if the user turned them on. Check the
+user's Usage page rather than assuming; a user who thinks a run is free and finds a balance falling
+will rightly stop it. `scripts/estimate_cost.py` does the arithmetic
 for every model at once; a measured pilot item times N, plus 20-40% for the expensive tail, is
 better (`scripts/measure_usage.py` reads the pilot's sub-agent transcripts). Tell the user the estimate when it's large, and cap the spend: `--max-budget-usd` for
 headless runs, `max_budget_usd` in the Agent SDK. In a Workflow, bound the agent count and the tool
@@ -380,6 +390,7 @@ orchestrator, not the workers. Synthesis is where care pays most.
 | You end up doing the work yourself | Delegation stated only in prose | Launch the agents through the runtime |
 | Runs find different things; known items missing | One pass samples the space; categories skipped silently | Coverage map with statuses, completeness critic and gap fill, earlier candidates re-checked |
 | Promising leads scored low or rejected as "not checked" | Deep checks required before a high score | One light check for all, deep checks in a later stage; unchecked means unverified |
+| Mid-run, workers report 0 searches, everything "not reached", every check "unverifiable" | The per-turn web search cap (200, shared by all agents launched in the turn) | Batches under about 190 searches per turn; workers report blocked searches; stop and carry finished results over |
 
 ## Reference files
 

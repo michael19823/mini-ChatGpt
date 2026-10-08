@@ -1,0 +1,1249 @@
+{
+ "critic:ireland": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Revenue/Customs-facing small-operator duties: Revenue VAT/PAYE/RCT and Employment Permits (small employers)",
+     "first_search": "Relevant Contracts Tax RCT subcontractor small contractors software returns Ireland 2026",
+     "why": "Mandatory recurring duty for every small contractor/employer: Relevant Contracts Tax (RCT) deduction/returns for subcontractors, plus Employment Permits renewals; coverage lists no RCT, PAYE Modernisation, or Revenue Online Service workflow for sole traders and small builders. Check that no incumbent (e.g. accounting packages) fully covers RCT for micro-contractors."
+    },
+    {
+     "category": "Taxi/hackney and small hire: Ireland-specific licensing of NCT/CVRT, tachograph and road haulage operator licences (NTA Road Haulage Operator Licence, CVRT test centres)",
+     "first_search": "road haulage operator licence NTA Ireland tachograph download compliance small haulier CPC",
+     "why": "Only SPSV taxis were covered; the Road Transport Operator Licence (small hauliers, own-account), tachograph downloads/driver hours records (EU 561/2006, Smart Tachograph v2 retrofits by Aug 2025) and CPC periodic training are a mandatory recurring workflow for thousands of small hauliers and not in the table."
+    },
+    {
+     "category": "Licensed premises and food: Intoxicating liquor licences, Garda court renewals and Planning/Fire Safety Certs for pubs and small restaurants (Courts Act, Sale of Alcohol Bill, Public Health Alcohol labelling from 2026)",
+     "first_search": "intoxicating liquor licence renewal pub district court tax clearance Ireland Sale of Alcohol Bill 2025",
+     "why": "Ireland has an unusually large cohort of independent pubs/off-licences with annual district-court licence renewals needing tax clearance and Garda notice; the 2024 Courts and Civil Law (Misc) and Sale of Alcohol Bill (reform of licensing, new local-authority-level regime) and alcohol health labelling (delayed to 2028) were not examined. Also food business registration/HACCP for small cafes/restaurants not covered."
+    },
+    {
+     "category": "Agri-environment and farm schemes run for the state: Basic Income Support, ACRES, Nitrates derogation, Nitrates Records and Farm Dairy/Bord Bia SDAC audits",
+     "first_search": "nitrates derogation fertiliser records farmers software Ireland ACRES Bord Bia audit record keeping app",
+     "why": "Ireland has about 130k farms, most small family firms; nitrates derogation records, fertiliser plans (Nutrient Management), slurry spreading closed periods, ACRES result-based reporting and Bord Bia quality assurance audits are recurring mandatory workflows. Only fertiliser merchant returns, cattle registration and spray records appear; farmer-side nutrient/derogation record-keeping and advisor workflow not screened."
+    },
+    {
+     "category": "Data protection and employer statutory records: GDPR/Data Protection Commission registers, Organisation of Working Time records, Payment of Wages, Employment (Miscellaneous Provisions) Act 2018 and Protected Disclosures (2022) internal channels for 50+ employees, sick leave scheme (2023) and statutory sick pay increase to 10 days in 2026",
+     "first_search": "statutory sick leave scheme employers records 2026 small business HR software working time records WRC inspection",
+     "why": "Small employers must keep working-time records, statutory sick leave admin, and (from Dec 2023) have protected-disclosure channel at 50+ staff; the Statutory Sick Pay scheme step-up and Gender Pay Gap reporting thresholds drop to 50 employees in 2025 hit small firms. Coverage only treated household payroll, auto-enrolment, pay transparency and WRC agency licences."
+    },
+    {
+     "category": "Taxi-adjacent and other registers: Revenue-registered Eircode/Companies Registration Office annual returns and Beneficial Ownership Register (RBO), plus Data Protection and Central Bank of Ireland registrations for small bureaux",
+     "first_search": "CRO annual return B1 late filing RBO beneficial owner register small company software Ireland compliance",
+     "why": "Every Irish company (including tens of thousands of dormant family and club companies) must file CRO annual returns (B1) and keep the Register of Beneficial Owners with the RBO, with late filing penalties; this is a mass recurring duty for micro-firms and not screened. Also money service/bureau de change and virtual-asset provider (CBI AML registration) and Trust Register (Revenue) excluded from coverage."
+    }
+   ]
+  },
+  "tag": "w2b5"
+ },
+ "discover:A:ireland": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Self-employed home childminders (registering with Tusla), with Childminders Ireland and the city and county childcare committees as channels",
+     "category": "20. Small licensed premises with inspections: childminders",
+     "evidence": "https://www.tusla.ie/news/tusla-childminding-registration-opens-30-september/ ; https://www.irishstatutebook.ie/eli/2024/si/494/made/en ; https://www.tusla.ie/early-years-inspectorate/childminding-services/ ; https://www.midlands103.com/news/midlands-news/childminders-ireland-ask-government-to-extend-tusla-registration-deadline/ (Childminders Ireland asked for more time, so the deadline may move)",
+     "existing": "Tusla's own childminder portal handles the filing. Cheqdin and the generic childminding apps cover attendance, invoicing and parent communication and show no sign of Tusla registration, vetting tracking or document expiry handling (Capterra, App Store listings). CCC childminding development officers give free support. Cheqdin/CrecheHQ are K14 for nurseries.",
+     "known_id": "K14",
+     "known_mark": "new",
+     "known_note": "K14 covers nurseries' NCS/ECCE. This is a different buyer (home childminders) and a different duty (Tusla registration and renewal).",
+     "name": "Childminder registration and compliance pack (Tusla portal prep, document vault, renewals)",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Child Care Act 1991 (Early Years Services) (Childminding Services) Regulations 2024, SI 494/2024. Registration opened 30 Sep 2024 and is voluntary for a 3-year transition, expected to become mandatory around autumn 2027. Needs Garda vetting for the childminder and emergency cover persons, insurance cert, 2 references, Children First, first aid and pre-registration training certificates, home assessment, application at least 3 months ahead, and renewals. Registration unlocks National Childcare Scheme subsidies.",
+     "trigger_date": "autumn 2027 (unconfirmed)",
+     "unchecked": "Number of childminders (only 2 in-home childminders in the midlands per one article, so the base may be small); whether the mandatory date will be extended; price they would pay; whether Tusla guidance requires ongoing records (policies, accident and attendance logs) that software could hold; Irish childminding software vendors by name.",
+     "unverified_note": "Competitor search run (Cheqdin, childminding apps): none address Tusla registration."
+    },
+    {
+     "buyer": "Small jewellers, gold buyers, antique and car dealers who take large cash payments",
+     "category": "4. Gold and jewellery buyers (also 3. Second-hand dealers and pawnbrokers)",
+     "competitor_note": "Competitor search run: only Arctic Intelligence and generic AML tools found.",
+     "evidence": "https://www.oireachtas.ie/en/debates/question/2014-04-08/465/ ; https://www.gov.ie/en/department-of-justice/organisation-information/anti-money-laundering-compliance-unit ; amlcompliance.ie (not fetched)",
+     "existing": "Arctic Intelligence (HVGD risk module, Australian, generic); general AML software listed on GetApp Ireland; no Irish HVGD-specific product found in the results.",
+     "known_mark": "new",
+     "name": "AML risk-assessment and register pack for high value goods dealers (jewellers, antique and second-hand dealers, car and machinery dealers, pawnbrokers)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Criminal Justice (Money Laundering and Terrorist Financing) Act 2010, as amended: high value goods dealers receiving large cash payments are designated persons supervised by the Department of Justice AMLCU (business risk assessment, customer due diligence, records, STRs). A 2014 Oireachtas answer gave about 2,000 businesses and a EUR 15,000 threshold; current threshold unconfirmed (possibly EUR 10,000).",
+     "unchecked": "Current threshold and number of registered dealers; whether AMLCU publishes templates; whether many dealers refuse cash over the limit and so avoid the duty; Irish accountants or consultants already selling packs; willingness to pay."
+    },
+    {
+     "buyer": "Volunteer trustees and part-time secretaries of small registered charities, parish and community groups",
+     "category": "17. Community and religious bodies: associations, charities",
+     "competitor_note": "Not run.",
+     "evidence": "https://lawsociety.ie/gazette/top-stories/2023/september/40-of-charities-fail-to-file-annual-report-on-time ; https://www.charitiesregulator.ie/ga/faisnéis-don-phobal/ár-nuacht/2023/march/annual-report-filing-obligations-to-the-charities-regulator ; https://lkshields.ie/news-insights/news/the-charities-governance-code-new-compliance-reporting-in-2021",
+     "existing": "Not checked. The regulator publishes free templates and guidance; advisers sell packs (Canavan Byrne). No software competitor search run (budget used up).",
+     "known_mark": "new",
+     "name": "Annual report and Governance Code compliance tracker for small charities and community bodies",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Charities Act 2009 s.52: annual report within 10 months of year end (31 Oct for calendar-year charities), compliance declaration against the Charities Governance Code, and a Compliance Record Form kept and updated yearly. About 40% of charities filed late (2023); regulator signals stricter enforcement including prosecution or removal from the register.",
+     "unchecked": "Competitor search in English for charity governance software in Ireland; number of small charities; whether the regulator's online filing is already simple; willingness of volunteers to pay; 2025-2026 enforcement figures."
+    },
+    {
+     "buyer": "Parish and community committees that run burial grounds; some councils",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://www.gov.ie/en/policy-information/c206d2-burial-regulations ; https://consult.meath.ie/en/system/files/materials/9360/Draft%20Burial%20Ground%20Bye-Laws.pdf ; https://www.galway.ie/en/media/GC-ENV2 Burial Ground Registers of Interment 1931-2005.pdf",
+     "existing": "Not checked (no competitor search run).",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "K04 is for monumental sculptors; this buyer is the burial ground operator.",
+     "name": "Community burial ground register and plot management for parish and voluntary cemetery committees",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "1888 burial ground rules (amended 1919, 1929, 2013) require a register of interments open to inspection; council burial ground bye-laws under s.199 Local Government Act 2001 (Meath draft 2026 bye-laws define a Burial Register). No national digital register found.",
+     "unchecked": "Vendors such as council-side cemetery systems; number of voluntary operators; willingness to pay; whether councils already supply a register."
+    },
+    {
+     "buyer": "Volunteer committees of about 370 group water schemes and owners of small private supplies (rural businesses, B&Bs)",
+     "category": "13. Small water systems",
+     "evidence": "https://epa.ie/news-releases/news-releases-2024/unmonitored-private-drinking-water-supplies-are-a-potential-risk-to-public-health-says-epa.php ; https://www.epa.ie/our-services/compliance--enforcement/drinking-water/supply-types/",
+     "existing": "Not checked. Local authorities do the monitoring; the National Federation of Group Water Schemes exists (not searched).",
+     "known_mark": "new",
+     "name": "Group water scheme and small private supply compliance assistant",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "European Union (Drinking Water) Regulations 2014: suppliers and local authorities monitor private supplies; EPA report (July 2024) found 22 group schemes failed E. coli and 21 failed THM in 2023; only 1,665 small private supplies registered; EUR 38.5m improvement funding unused 2019-2023.",
+     "unchecked": "Whether the 2014 Regulations were replaced (a 2023 reference did not confirm); who actually bears the sampling and reporting burden; vendor landscape; buyer is volunteer-run so willingness to pay is doubtful."
+    },
+    {
+     "buyer": "Small meat plants supervised by local authority vets, high-risk butchers",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://www.irishstatutebook.ie/1988/en/act/pub/0008/sec0059.html ; https://galway.ie/en/services/more/vet/foodsafety ; https://www.wicklow.ie/Living/Services/Environment/Veterinary-Services/FSAI",
+     "existing": "No Irish software found in one search; FSAI publishes a free butcher HACCP support pack; generic food safety apps probably exist but were not searched.",
+     "known_mark": "new",
+     "name": "HACCP and slaughter records pack for small local-authority-supervised abattoirs and butchers",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Abattoirs Act 1988 (records of animals slaughtered kept 3 years), FSAI-agreed local authority approval procedures, HACCP-based food safety systems; FSAI earlier found about 27% of 961 butchers compliant.",
+     "unchecked": "Competitor search for generic HACCP apps (SafetyCulture, Food Safety Ireland tools); number of small plants; whether councils accept electronic records."
+    },
+    {
+     "buyer": "Independent vet practices",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://cms.vci.ie/wp-content/uploads/2025/11/VCI-PAS-Regulations-2026-Rev.-1.pdf ; https://vci.ie/veterinary-practice-premises",
+     "existing": "Practice management systems (Herbst Software, VetDrive per K09) not checked for PAS features.",
+     "known_id": "K09",
+     "known_mark": "new",
+     "name": "VCI premises accreditation (PAS 2026) compliance helper for veterinary practices",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Veterinary Council of Ireland Premises Accreditation Scheme Regulations 2026, in force 1 Jan 2026, replacing the 2017 regulations; Certificate of Suitability needed for new addresses, holder changes and closures.",
+     "unchecked": "Whether the 2026 PAS regulations create recurring audit documents; practice count; vet practice software coverage."
+    },
+    {
+     "buyer": "Non-vet retailers selling companion animal medicines",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://www.irishstatutebook.ie/2023/en/act/pub/0021/sec0021.html ; https://www.irishstatutebook.ie/eli/isbc/2023_21.html",
+     "existing": "None found.",
+     "known_id": "K09",
+     "known_mark": "new",
+     "name": "Companion Animal Medicine Retailers' Register and retailer licence admin (pet shops, garden centres, agri-merchants)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Veterinary Medicinal Products, Medicated Feed and Fertilisers Regulation Act 2023, s.18 (retailer licence, penalties up to EUR 300,000 on indictment) and s.21 (register). The register is believed in force since 11 July 2023, but no DAFM application notice, fee or form was found.",
+     "unchecked": "Whether the register is operational; number of retailers; whether any recurring reporting duty exists beyond registration (one-off task)."
+    },
+    {
+     "buyer": "Small scrap yards and metal buyers holding a facility permit",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "https://www.oireachtas.ie/en/debates/question/2018-05-29/497/ ; https://sligococo.ie/Environment/Waste/WasteManagement/PermittedCollectors",
+     "existing": "Waste Logics and AMCS (see K08) are known; not checked for the buyer register feature.",
+     "known_id": "K08",
+     "known_mark": "new",
+     "name": "Metal purchase register for scrap metal buyers and permitted facilities",
+     "score": 2,
+     "status": "weak",
+     "trigger": "2014 amendment to the Waste Management (Facility Permit and Registration) Regulations 2007: record supplier ID/address, delivery vehicle registration and collection permit number, material, weight, payment, and signed ownership statement (per Oireachtas PQ 2018).",
+     "unchecked": "Whether the rule is still current; yard count; whether Waste Logics already includes the purchase register."
+    },
+    {
+     "buyer": "Hobby and small-scale pet sellers and breeders",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://www.irishstatutebook.ie/eli/2019/si/681 ; https://www.gov.ie/registered-pet-sellers",
+     "existing": "None found; not searched.",
+     "known_mark": "new",
+     "name": "Pet seller register compliance (6+ animals a year): ad numbers, microchip and origin records",
+     "score": 2,
+     "status": "weak",
+     "trigger": "SI 681/2019 Animal Health and Welfare (Sale or Supply of Pet Animals) Regulations 2019, from 1 Feb 2020: register, registration number and microchip number in adverts, minimum age 8 weeks.",
+     "unchecked": "Seller count; recurring duty beyond registration and ads; consumer-grade buyers likely unwilling to pay."
+    },
+    {
+     "buyer": "Individual taxi, hackney and limousine operators",
+     "category": "18. Transport operators: taxi",
+     "evidence": "https://www.nationaltransport.ie/wp-content/uploads/2023/04/Guide-G2-Renewing-an-SPSV-Licence.pdf ; https://www.nationaltransport.ie/news/information-note-on-the-proposed-taxi-regulation-taxi-maximum-permissible-age-regulations-2025/",
+     "existing": "The NTA sends courtesy reminders; odo.ie includes NCT and motor tax reminders. No product found combining them, but the pain is low.",
+     "known_mark": "new",
+     "name": "SPSV licence, NCT and tax clearance reminder service for taxi operators",
+     "score": 2,
+     "status": "weak",
+     "trigger": "NTA SPSV licence renewal needs NCT under 90 days old and tax clearance; vehicle age limits 10 years (15 for WAV); 2025 consultation on taxi maximum age regs (status unconfirmed).",
+     "unchecked": "Willingness to pay; operator counts."
+    },
+    {
+     "buyer": "Rural homeowners (and desludgers/installers as a channel)",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://www.epa.ie/news-releases/news-releases-2024/failure-to-fix-faulty-septic-tanks-is-a-risk-to-human-health-and-the-environment-and-cant-continue-says-epa.php ; https://www.agriland.ie/farming-news/nearly-500000-domestic-waste-water-treatment-systems-registered/",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Septic tank/DWWTS registration and inspection-readiness service",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Water Services (Amendment) Act 2012; EPA National Inspection Plan 2022-2026; 56% of 1,390 systems failed in 2024; remediation grant up to EUR 12,000.",
+     "unchecked": "The buyer is households, which is largely out of scope; the successor to the 2022-2026 plan; whether installers have a recurring duty."
+    },
+    {
+     "buyer": "Small abstractors (farms, food producers, quarries, golf courses) and drillers as a channel",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://www.epa.ie/our-services/licensing/freshwater--marine/water-abstraction/how-to-register-and-update-a-water-abstraction-registration-/",
+     "existing": "Free EPA online registration via EDEN.",
+     "known_mark": "new",
+     "name": "Water abstraction registration helper (EPA EDEN)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Water Environment (Abstractions and Associated Impoundments) Act 2022, commenced 28 Aug 2024; register 25-1,999 m3/day, licence 2,000+ m3/day; existing-user licence applications were due 28 Feb 2025 (passed).",
+     "unchecked": "Any recurring reporting after registration; driller-specific duties."
+    },
+    {
+     "buyer": "Casual traders applying to councils",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.leitrim.ie/council/news/drft-casual-trading-bye-laws-2026.17677.shortcut.html ; https://www.irishstatutebook.ie/eli/isbc/1995_19.html",
+     "existing": "None found; 31 councils each run their own process.",
+     "known_mark": "new",
+     "name": "Casual trading licence and bye-law helper for market traders",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Casual Trading Act 1995 council bye-laws and licences (e.g. Leitrim draft 2026 bye-laws, comments closed 17 Jul 2026).",
+     "unchecked": "Annual licence volumes; any national portal; no 'Street Trading Act 2024' exists (searched, not found)."
+    },
+    {
+     "buyer": "Small employment agencies",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.workplacerelations.ie/en/what-we-do/employment-rights-information/licensing/employment_agency_licensing_.html",
+     "existing": "None found; the filing is trivial.",
+     "known_mark": "new",
+     "name": "Recruitment agency licence renewal and register tracker",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Employment Agency Act 1971, licence EUR 500 a year through licences.ie and the WRC.",
+     "unchecked": "Number of licensed agencies; any reform bill."
+    },
+    {
+     "buyer": "Households",
+     "category": "1. Household employers",
+     "evidence": "See K21.",
+     "existing": "NannyPayroll.ie, NannyPay",
+     "known_id": "K21",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K21.",
+     "name": "Household employers payroll (nannies, carers)",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "n/a"
+    },
+    {
+     "buyer": "Dealers",
+     "category": "6. Livestock traders",
+     "evidence": "See K23.",
+     "existing": "DAFM AIM Services app",
+     "known_id": "K23",
+     "known_mark": "known",
+     "known_note": "Same as K23.",
+     "name": "Livestock dealer and sheep dispatch dockets",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "n/a"
+    },
+    {
+     "buyer": "Vets, haulers",
+     "category": "9. / 11.",
+     "evidence": "See K09, K08.",
+     "existing": "DAFM app; Waste Logics, AMCS",
+     "known_id": "K09",
+     "known_mark": "known",
+     "known_note": "Same as K09 and K08.",
+     "name": "Vet prescription (NVPS) and waste hauler permit returns",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "n/a"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing new beyond K21 (NannyPayroll.ie, NannyPay) and K10. Not searched further.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No standalone Irish scrap metal dealer register. Duty is a 2014 amendment to the Waste Management (Facility Permit and Registration) Regulations 2007: permitted facilities buying metal must record supplier ID and address, vehicle registration and collection permit number, material, weight, amount paid, and get a signed ownership statement (Oireachtas PQ 2018-05-29). Candidate C-scrap (weak, unverified). Close to K08 but a different duty.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Pawnbrokers: only 3 licensed (CCPC, Pawnbrokers Act 1964), too few. No Garda second-hand dealer register found (only the General Dealers (Ireland) Act 1903, likely obsolete). Dealers fall under the AML high value goods dealer regime, see candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Hallmarking is compulsory via the Dublin Assay Office (makers, not buyers). Jewellers are high value goods dealers supervised by the AMLCU (about 2,000 businesses in 2014). See AML candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "ELV Regulations 2014 (SI 281/2014, amended 2016, 2020, 2023): authorised treatment facilities are authorised by councils and issue Certificates of Destruction via the ELVES compliance scheme. No 2026 trigger found. Weak candidate. Dismantler vs ATF status unclear.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Nothing new beyond K23 and K15. Not searched further.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Small plants are approved and supervised by local authority vets under FSAI procedures. Abattoirs Act 1988 requires slaughter records kept 3 years. FSAI earlier found only about 27% of 961 high-risk butchers compliant. No HACCP software vendor found in the results. Weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Beekeepers register with DAFM as food business operators (free). No mandatory apiary or hive register for the Republic. AFB, EFB, small hive beetle and Tropilaelaps are notifiable (SI 308/2013). Very small volume. Nothing to build.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "VCI Premises Accreditation Scheme Regulations 2026 in force from 1 Jan 2026 (Certificate of Suitability). The VMP, Medicated Feed and Fertilisers Regulation Act 2023 adds retailer licences (s.18) and a Companion Animal Medicine Retailers' Register (s.21). Prescriptions are covered by K09. Two weak candidates.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Abstraction Act in force 28 Aug 2024. Registration with EPA (EDEN) for 25-1,999 m3/day; licence above 2,000 m3/day. Existing abstractors had until 28 Feb 2025. No driller-specific duty found. The one-off deadline has passed. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "DWWTS registration and inspection (Water Services (Amendment) Act 2012; EPA National Inspection Plan 2022-2026, at least 1,200 inspections a year; 56% of 1,390 failed in 2024; grant up to EUR 12,000). Buyers are households, not businesses. Waste hauler permit is K08 (rejected). Weak. A successor inspection plan after 2026 is unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Lifting equipment: SI 299/2007 requires periodic thorough examination by a competent person. Boiler and pressure rules and HSA notification were not confirmed. Mostly served by insurers' engineering inspectors (e.g. Munich Re HSB). Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "About 370 group water schemes serve 190,000 people; 1,665 small private supplies are registered and the total is unknown; EUR 38.5m of private-supply improvement funding went unused 2019-2023 (EPA, July 2024). Local authorities regulate. Operators are volunteer committees. Candidate, unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Nothing new beyond K02 and K22. Not searched further.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Employment Agency Act 1971: licence from the WRC via licences.ie at EUR 500 a year, with Garda vetting. No reform found (2005 proposal to move to registration never appeared to land). Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Funeral directors are unregulated, no bill found. Burial grounds run under the 1888 rules (amended 2013) and council bye-laws; Meath published draft 2026 burial ground bye-laws. Community and parish cemeteries keep registers of interment. See candidate. Related to K04 but a different buyer.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Charities Act 2009 s.52: annual report due within 10 months of year end (31 Oct for calendar-year charities). About 40% filed late (Law Society Gazette, 2023). Governance Code compliance record form must be kept and updated yearly, and compliance is declared at filing. The regulator has a stricter enforcement stance. See candidate. Halal and kosher supervision not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "SPSV licensing by NTA (renewal needs NCT under 90 days and tax clearance; age limits 10 years, 15 for WAV; 2025 consultation on taxi maximum age regs). The NTA already sends reminders; odo.ie covers NCT and motor tax reminders. Road haulage operator licence is held by the Department of Transport (RTOL), over 3.5 t only; no new regime. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "No 'Street Trading Act 2024' exists in Ireland. Casual trading is under the Casual Trading Act 1995, with council-level licences and bye-laws (Leitrim draft 2026 bye-laws, comments closed 17 Jul 2026). No national reform found. Money changers not searched. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Childminders: Child Care Act 1991 (Early Years Services) (Childminding Services) Regulations 2024 (SI 494/2024), registration open since 30 Sep 2024, voluntary during a 3-year transition (to about autumn 2027, unconfirmed). Main candidate. Driving schools: RSA ADI register, no 2026 change confirmed. Pet sellers: SI 681/2019 register for 6+ animals a year. Tattoo studios and hunting outfitters not searched.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 0,
+   "queries": [
+    "Street Trading Act 2024 commencement registration street traders local authority",
+    "Tusla childminder registration 2026 mandatory regulations childminders",
+    "Water Environment Abstractions Act registration abstraction 2026 deadline well drillers Ireland",
+    "Ireland scrap metal dealers waste collection permit metal dealers register",
+    "Ireland funeral directors regulation bill 2026 register",
+    "Charities Regulator annual report filing deadline 2026 Governance Code compliance record form",
+    "NTA SPSV taxi licence renewal 2026 vehicle age",
+    "domestic waste water treatment system registration inspection 2026",
+    "Casual Trading Act 1995 reform street traders licence Ireland 2026",
+    "Ireland pawnbrokers second-hand dealers licensing records",
+    "Ireland employment agency licence Employment Agency Act 1971 2026",
+    "Ireland veterinary practice registration VCI premises 2026 veterinary medicinal products retailer register",
+    "Companion Animal Medicine Retailers Register Ireland commencement",
+    "authorised treatment facility end-of-life vehicles Ireland dismantlers 2026",
+    "Dublin Assay Office hallmarking dealers precious metals AML Ireland",
+    "group water scheme Ireland private supplies EPA",
+    "Ireland cemetery burial ground register local authority 2026",
+    "Ireland lifting equipment thorough examination lifts boilers pressure systems HSA",
+    "Ireland high value goods dealers AML registration AMLCU",
+    "Ireland sale of pets regulations registration pet sellers",
+    "RSA ADI register 2026 driving schools",
+    "Ireland road haulage operator licence 2026",
+    "childminder software Ireland Tusla registration",
+    "small butcher abattoir Ireland HACCP records software",
+    "beekeepers Ireland apiary registration DAFM",
+    "Tusla childminding regulations 2024 requirements",
+    "amlcompliance.ie high value goods dealer software Ireland",
+    "taxi driver app Ireland SPSV licence renewal reminders"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b5"
+ },
+ "discover:B:ireland": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Individual and small-portfolio Airbnb/Booking hosts, holiday-home owners, small property managers and co-hosts (companies may use an agent; individuals must register personally)",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://www.gov.ie/en/department-of-enterprise-tourism-and-employment/press-releases/short-term-let-register-to-come-into-effect-from-december-2026/ ; https://failteireland.ie/en/short-term-letting-register/faq ; https://www.failteireland.ie/registration-and-grading/short-term-letting-register-(STLR).aspx ; https://www.fieldfisher.com/en-ie/locations/ireland/ireland-blog/regulating-ireland%e2%80%99s-short-term-lets-the-short-term-letting-and-tourism-bill-2025. Note date conflict: Failte Ireland FAQ still says 20 May 2026 launch; the later govt release says 1 Dec 2026. Direct fetch of the gov.ie page returned 403, so figures come from search snippets.",
+     "existing": "Competitor search (English; Irish market is English-language): found only Lodgify's guide page and Houst blog advising hosts; no named product that handles the Failte Ireland application or renewals. PMS and channel managers may add a registration-number field. Failte Ireland portal is free to use for registration (fee amount not yet confirmed).",
+     "known_id": "K07",
+     "known_mark": "new",
+     "known_note": "K07 was the RTB/RPZ desk for letting agents (killed by TenantSync); this is a different duty (Failte Ireland STL register), different buyer (short-let hosts)",
+     "name": "Short-term let register compliance desk for small hosts and part-time property managers (registration, per-unit numbers, annual renewal, listing sync)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Short-Term Letting and Tourism Act 2025: every unit let for up to 21 nights must register with Failte Ireland; govt press release May 2026 says register starts 1 Dec 2026 with legal duty to register by 31 Dec 2026; unique number must show on all listings; annual renewal; legal declaration on planning and fire safety; platforms must verify numbers (Failte Ireland offers an optional technical verification solution); fines up to 2 percent of turnover for platforms",
+     "trigger_text": "see trigger",
+     "unchecked": "Registration fee amount; whether the bill is fully enacted and dates final; number of expected units (not found); whether individuals can use agents (FAQ says only companies can); whether Hostaway/Guesty/Smoobu-type tools or Irish PMS already automate it; willingness to pay of small hosts; planning declaration complexity."
+    },
+    {
+     "buyer": "Independent community pharmacies (retail pharmacy businesses)",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://www.irishstatutebook.ie/eli/2026/si/139/made/en/print (seen via search only; fetch returned 403) ; https://www.hpra.ie/news-events/news/article/new-guidance-on-controlled-drugs-requirements",
+     "existing": "Competitor search found no Irish-specific electronic CD register product; UK products (PharmCD, CDRx) exist but are not shown to meet Irish rules. Helix Health supplies Irish pharmacy management software; whether it includes an e-CD register is unconfirmed. Pharmacy system vendors will likely bundle this.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Electronic controlled-drugs register for independent pharmacies under S.I. 139/2026",
+     "score": 3,
+     "status": "weak",
+     "trigger": "S.I. 139/2026 (Misuse of Drugs (Amendment) (No. 2) Regulations 2026) lets a retail pharmacy keep an electronic register on a computerised system equivalent to the paper register; also covers controlled-drug prescriptions transferred through the national electronic prescription transfer system; HPRA published controlled-drugs guidance on 31 Jul 2026 (aimed at operators such as manufacturers and wholesalers)",
+     "unchecked": "Commencement date of S.I. 139/2026; whether PSI has issued inspection guidance on electronic registers; whether Irish pharmacy management systems already include compliant registers; number of independent pharmacies."
+    },
+    {
+     "buyer": "Small commercial and industrial gas installers and the employers/businesses that commission non-domestic gas work",
+     "category": "33. Gas, electrical and heating installers: RGI, Safe Electric/RECI certificates",
+     "evidence": "https://www.govserv.org/IE/Naas/710244752161405/RGI-Scheme ; https://www.cru.ie/about-us/news/non-domestic-gas-works-consultation/ ; https://www.cru.ie/about-us/news/cru-secures-criminal-conviction-and-fine-for-illegal-gas-works-on-a-domestic-property/",
+     "existing": "Competitor search in English: none found for installer software; RGI scheme runs its own information hub and portal. A done-for-you registration/RPL application service is the more plausible product.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "Non-Domestic Gas Works registration and certification pack for commercial gas installers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "From 1 Sep 2026 regulated Non-Domestic Gas Works fall within the RGI framework (CRU decision paper Dec 2025); installers need qualification or Recognition of Prior Learning board approval, registration, and Declarations of Conformance; CRU conviction for illegal domestic gas work on 4 Jun 2026; penalties up to EUR 50,000 and/or 3 years (domestic case)",
+     "unchecked": "Number of unregistered non-domestic installers; transition deadline for existing installers; RPL application fees and process; whether the RGI portal already issues digital Declarations of Conformance; relation to K01 (solar installer compliance pack) as a bundled installer product."
+    },
+    {
+     "buyer": "Owners and skippers of under-12m Irish inshore fishing vessels",
+     "category": "32. Inshore fishing vessels: catch logbooks and electronic reporting (SFPA, EU 2023/2842)",
+     "evidence": "https://oceans-and-fisheries.ec.europa.eu/fisheries/rules/enforcing-rules/inspections-monitoring-and-surveillance_de ; https://www.sfpa.ie/Who-We-Are/News/Details/sfpa-publishes-new-fisheries-information-notice-on-fishing-vessel-logbook-requirements ; https://www.sfpa.ie/Who-We-Are/News/Details/sfpa-assists-owners-skippers-of-12-15-metre-vessels-in-transition-to-electronic-recording-reporting ; https://thefishingdaily.com/latest-news/sfpa-launches-nationwide-information-sessions-on-new-control-rules/",
+     "existing": "No Irish under-12m app found. The SFPA supplies free ieCatch laptop and software to 12m+ vessels, so a free state app for small boats is a real risk. Marine Institute Sentinel Vessel Programme app is voluntary and a different purpose. UK has government-run apps.",
+     "extra": "",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "K03 is the e-sales note helper for fish buyers; this is the harvester-side logbook duty. K05 covers shellfish batch documents.",
+     "name": "Small-boat electronic catch logbook helper for under-12m inshore fishing vessels (2028 control rules)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Regulation (EU) 2023/2842 amending the Control Regulation: per Commission page all vessels need electronic recording and reporting from 2028, with under-12m allowed to use national or EU mobile logbook apps; Irish rules today require paper logbook at 10-12m and ieCatch ERS at 12m+; SFPA ran 2026 information sessions on new control rules ahead of 2027",
+     "unchecked": "Whether Ireland asked the Commission for an EU-developed logbook (deadline 10 May 2024) or is building a state app; Irish under-12m deadline; fleet size (not found); whether SFPA will provide free equipment or app."
+    },
+    {
+     "buyer": "Small convenience shops, newsagents, vape shops, pubs and petrol-station shops selling tobacco or nicotine inhaling products",
+     "category": "31. Tobacco and nicotine inhaling product retail licensing (HSE)",
+     "evidence": "https://www.shelflife.ie/hse-introduces-new-tobacco-retail-licensing-csna/ ; https://thefedonline.com/?p=2272 ; https://www.2firsts.com/news/irelands-tobacco-and-vape-retail-licensing-regime-takes-effect-bat-says-it-should-cover-nicotine-pouches",
+     "existing": "HSE NEHS online portal; retail bodies (CSNA, The Fed) give guidance. No software product found (no competitor search run since score under 3).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Tobacco and vape retail licence renewal and compliance records for small shops",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Public Health (Tobacco and Nicotine Inhaling Products) Act 2023 licensing in force from 2 Feb 2026; EUR 1,000 tobacco, EUR 800 NIP, EUR 1,800 both per premises (and per website); tax clearance required; annual renewal on grant anniversary; transition window for existing sellers closed 2 Aug 2026",
+     "unchecked": "Whether a recurring workflow beyond the annual renewal exists (age-verification records, inspections); number of licensed premises; whether the HSE portal sends renewal reminders."
+    },
+    {
+     "buyer": "Coal merchants, firewood and kiln-dried log suppliers, garden centres and farm-shops selling solid fuel",
+     "category": "35. Solid fuel producers and merchants (Air Pollution Act Solid Fuels Regulations)",
+     "evidence": "https://www.irishstatutebook.ie/pdf/2025/en.si.2025.0389.pdf ; https://www.irishstatutebook.ie/eli/2025/si/76/made/en/print ; https://www.wfqa.org/news-wfqa/the-new-solid-fuel-regulations-explained",
+     "existing": "No software found. Wood Fuel Quality Assurance scheme (WFQA) exists as a certification route (not checked in depth). No 2026 enforcement data found.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Solid fuel and firewood merchant compliance kit (EPA Fuels Register, wood moisture 20 percent, drying notices)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "S.I. 389/2025 moved the 20 percent moisture limit for wood in units of 2 m3 or less and the storage/seasoning notice for larger loads to 1 Sep 2026; producers register on the EPA Fuels Register annually by 1 Sep; local authorities enforce; sulphur cut deferred to 2030 by S.I. 76/2025",
+     "unchecked": "Number of small suppliers; real enforcement intensity; batch moisture test record requirements; whether EPA Fuels Register form is simple; WFQA role."
+    },
+    {
+     "buyer": "Small refrigeration and air-conditioning contractors and operators of fixed equipment (shops, pubs, cold stores)",
+     "category": "34. Refrigeration and F-gas / ODS operators and contractors (EPA)",
+     "evidence": "https://www.epa.ie/publications/compliance--enforcement/air/ods--f-gas/2026-ODS-and-F-Gas-FAQs-for-Licensees.pdf ; https://www.epa.ie/publications/compliance--enforcement/climate-change/Department_EPA_Fgas_Overview_Presentation.pdf",
+     "existing": "None found for Ireland in one search (only UK logbooks such as the AREA/FETA logbook). Generic refrigeration service software is likely to exist; not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Refrigerant leak-check and F-gas record keeping for small refrigeration/HVAC contractors and equipment owners",
+     "score": 3,
+     "status": "weak",
+     "trigger": "EU F-gas Reg 2024/573 and ODS Reg 2024/590 enforced by the EPA; leak-check frequency by charge/CO2-equivalent; records kept 5 years per piece of equipment; contractors need F-Gas Registration Ltd company certification (EPA 2026 FAQs for licensees)",
+     "unchecked": "Whether the Irish regime requires electronic reporting; EU F-gas electronic leak-check and certification rules; number of small contractors; existing job-management tools with F-gas modules."
+    },
+    {
+     "buyer": "Small sawmills, timber merchants, furniture makers acting as first placers on the market",
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "evidence": "https://www.nqa.com/en-gb/resources/legal-updates/january-2026/regulation-(eu)-2025-2650-as-regards-certain-oblig ; https://www.arthurcox.com/insights/ireland-advances-supply-chain-due-diligence-legislation/ ; https://www.customssupport.com/irelands-exporters-face-countdown-to-eu-deforestation-regulation/",
+     "existing": "EU-wide EUDR vendors (osapiens, Coolset named in K15). Ireland classed low-risk, so simplified due diligence. Not specifically searched for Irish sawmill tools.",
+     "extra": "",
+     "known_id": "K15",
+     "known_mark": "new",
+     "known_note": "K15 rejected cattle/beef EUDR; this is a different buyer group (timber processors). Related dates changed again, so check before final.",
+     "name": "EUDR due-diligence helper for small Irish sawmills, firewood and timber-product makers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "EUDR application 30 Dec 2026 for large/medium firms and small firms already under the EU Timber Regulation, 30 Jun 2027 for other micro/small operators per secondary sources; first placer submits due diligence statements; Irish Deforestation and Forest Degradation Bill 2026 designates the Minister as competent authority",
+     "unchecked": "Exact small-operator dates (sources conflict between 30 Dec 2026 and 30 Jun 2027); size of Irish small sawmill sector; whether Irish low-risk status removes real duties; DAFM or Coillte support tools."
+    },
+    {
+     "buyer": "Small auctioneers/estate agents and letting/property management firms (PSRA licence categories A-D)",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://charteredaccountants.ie/News/completing-property-services-regulatory-authority-s-accountant-s-reports-the-regulator-s-perspective ; https://www.psr.ie/licensees/anti-money-laundering/",
+     "existing": "No PSRA-specific client-money software found in one search. General property-management software (not named or checked) likely covers rent ledgers. Source article is from 2019 so rules/forms may have changed.",
+     "extra": "",
+     "known_id": "K07",
+     "known_mark": "new",
+     "known_note": "K07 (RTB registration for letting agents) was rejected; this is a different duty (PSRA client-money reporting and AML)",
+     "name": "Client-moneys ledger and PSRA accountant-report preparation for small estate agents and letting agents",
+     "score": 3,
+     "status": "weak",
+     "trigger": "PSRA licence renewal needs a signed reporting accountant's report on compliance with the Client Moneys Regulations; PSRA flags common errors (blank opinion, wrong balancing statement, account naming, advance payments to landlords); AML duties extended to letting/management in 2021",
+     "unchecked": "Number of licensed agents; current PSRA forms; whether letting-agent software (e.g. Reapit, Property Tree) already generates the balancing statement; whether accountants rather than agents are the real buyer."
+    },
+    {
+     "buyer": "Dental practices (and other private clinics) using X-ray / CBCT equipment",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://www.hiqa.ie/sites/default/files/2024-11/HIQA-and-EPA-joint-webinar-slides.pdf ; https://www.hiqa.ie/sites/default/files/2024-11/HIQA-and-EPA-joint-webinar-FAQs.pdf ; https://www.hiqa.ie/sites/default/files/2025-11/Undertaking-information-handbook.pdf ; https://www.epa.ie/publications/compliance--enforcement/radiation/code-of-practice-on-the-application-of-the-ionising-radiation-regulations-irr19-in-dentistry-2019.php",
+     "existing": "Not searched for software (no competitor search run yet). Irish Dental Association gives guidance. Dental practice management systems may include some audit modules.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Dental practice radiation compliance pack (HIQA NF200 undertaking, EPA IRR19 registration, audits, DRLs)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "HIQA regulates medical exposure under S.I. 256/2018 (undertaking declaration NF200, designated manager, self-assessment, clinical audit, DRLs); EPA regulates occupational/public exposure under IRR19 (S.I. 30/2019) with registration or licence and risk assessment; joint HIQA-EPA webinar 17 Oct 2024; HIQA undertaking handbook dated Nov 2025",
+     "unchecked": "Number of dental practices; recurring deadlines and fees; whether radiation protection advisers already provide templates; competitor products; whether duties are periodic or mostly one-off."
+    },
+    {
+     "buyer": "Small approved housing bodies and voluntary housing associations (450-550 registered)",
+     "category": "37. Approved housing bodies (AHBRA regulation)",
+     "evidence": "https://www.housingagency.ie/sites/default/files/Regulation/News%20and%20Events/Statutory%20Regulation%20Communication.pdf ; https://cpaireland.ie/Resources/CPA-Publications/Practice-Plus/Practice-Plus-May-2021/Approved-Housing-Bodies-Regulatory-Authority-FAQs ; https://www.gov.ie/en/department-of-housing-local-government-and-heritage/press-releases/minister-obrien-announces-establishment-of-approved-housing-bodies-regulatory-authority-and-appointment-of-board-members/",
+     "existing": "Not checked. No 2026 return details found.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Approved housing body regulatory return and governance pack for small voluntary housing associations",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Housing (Regulation of Approved Housing Bodies) Act 2019; AHBRA register and regulatory returns; first Annual Sectoral Analysis published 8 May 2023",
+     "unchecked": "Actual annual return content and deadline, fee model, size distribution (how many are tiny), existing housing-management software, whether duty is hosted on AHBRA portal."
+    },
+    {
+     "buyer": "Independent betting shops, amusement arcades and small gaming operators",
+     "category": "36. Gambling licensing (Gambling Regulatory Authority of Ireland)",
+     "evidence": "https://europeangaming.eu/portal/compliance-updates/2025/07/14/186751/gambling-regulator-of-ireland-publishes-licensing-application-guidance/ ; https://www.algoodbody.com/insights-publications/full-steam-aheadrecent-developments-in-gambling-regulation-in-ireland ; https://gamblingmaps.org/map/regulations/ireland/for-operators/how-to-get-a-license (community-run, not official)",
+     "existing": "Not checked; large operators dominate and compliance is lawyer-led.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Gambling licence transition support for independent bookmakers and arcades (GRAI)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Gambling Regulation Act 2024; GRAI established 5 Mar 2025; online applications for in-person and remote betting licences opening from late 2025 / Jan 2026 (sources differ); legacy Revenue licences remain until new licences open",
+     "unchecked": "In-person licence fees and conditions, number of independent shops/arcades, deadlines for legacy licence holders, existing compliance tools."
+    },
+    {
+     "buyer": "Dealers in high value goods (jewellers, car dealers, antiques, art) accepting cash payments over the threshold",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.oireachtas.ie/en/debates/question/2014-04-08/465/",
+     "existing": "Not checked; generic AML tooling likely out of scope (generic tool).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "High value goods dealer AML compliance for cash-taking small dealers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Criminal Justice (Money Laundering and Terrorist Financing) Act 2010 s.25; Dept of Justice AML Compliance Unit supervises about 2,000 businesses per a 2014 answer; threshold EUR 15,000 in that source, believed to be lowered to EUR 10,000 but unconfirmed",
+     "unchecked": "Current threshold, registration process, risk-assessment duties, number of dealers now, whether this overlaps with group A pawnbrokers/jewellers (cats 3-4)."
+    },
+    {
+     "buyer": "Small credit unions",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.irishstatutebook.ie/2023/en/act/pub/0034/sec0037.html ; https://progress.ie/company ; https://www.fintechfutures.com/credit-unions-building-societies/three-irish-credit-unions-sign-for-temenos-banking-tech",
+     "existing": "Progress Systems says it serves 220+ credit unions (its own claim); Temenos serves several mid-size unions. Dominant vendors already cover the core workflow.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Credit union core banking and regulatory reporting (small credit unions)",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Credit Union (Amendment) Act 2023 s.37 annual compliance statement to Central Bank; lending limit changes effective 30 Sep 2025",
+     "unchecked": "Not checked whether the Central Bank annual statement is covered by those vendors; rejection rests on vendor dominance, not on a duty-specific check."
+    },
+    {
+     "buyer": "Licensed employment agencies",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://www.workplacerelations.ie/en/what-we-do/employment-rights-information/licensing/employment_agency_licensing_.html ; https://www.oireachtas.ie/en/debates/question/2016-05-31/907/",
+     "existing": "Not checked. Duty is light (one annual form) and applications are already online via the state portal.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Employment agency licence return tracker for small recruitment/manpower agencies",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Employment Agency Act 1971: licence EUR 500/yr renewed annually via Licences.ie; half-yearly returns on applicants and placements filed generally at renewal; fines up to EUR 2,500",
+     "unchecked": "Number of licensed agencies, whether ATS/recruitment CRMs generate the returns (generic tool concern)."
+    },
+    {
+     "buyer": "Small guest houses and B&Bs",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://www.irishstatutebook.ie/eli/2004/act/1/section/10 ; https://www.failteireland.ie/Supports/registration-and-grading/national-quality-assurance-framework/Guest-Houses.aspx",
+     "existing": "Not checked. Applicability of s.10 to B&Bs and the prescribed form/retention period unconfirmed; most PMS tools collect guest data anyway.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Guest house/B&B guest register (Immigration Act 2004 s.10) and Failte Ireland guest-house registration",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Immigration Act 2004 s.10 requires premises keepers to keep a register of non-national guests produced to Gardai on request; Tourist Traffic Acts: guest-house name requires Failte Ireland registration (7-30 en-suite rooms)",
+     "unchecked": "Whether s.10 is still operational and enforced; prescribed form and retention; any hotel PMS coverage."
+    },
+    {
+     "buyer": "Oil companies and obligated large fuel consumers",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://nora.ie/relevant-legislation ; https://nora.ie/_files/ugd/b984d0_094459b5a7ed46a1b20c2510d9b8eb7f.pdf",
+     "existing": "Duty falls on large obligated parties, so out of scope for small-business software; no small-forecourt duty found.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Fuel supplier biofuel/oil reserve obligations (NORA levy, Renewable Transport Fuel Obligation)",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "NORA levy and renewable fuel obligation (21.0 percent by energy from 1 Jan 2024; 5.5 percent ethanol in petrol from 1 Jul 2023); buy-out charge EUR 0.05 per MJ",
+     "unchecked": "Obligated-party threshold not found; small independent distributors might still be obligated."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "The NORA biofuel/renewable transport fuel obligation falls on obligated suppliers (oil companies, large consumers), not small forecourts; no small-distributor registration found (one search; heating oil registration unconfirmed). Only small-business angle is solid fuel (see cat 35 candidate). https://nora.ie/relevant-legislation",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Feed business operators must register or be approved with DAFM under Reg 183/2005 with written HACCP records; nothing new or deadline-driven found. Nothing new beyond existing agri vendors; no candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Credit Union (Amendment) Act 2023: annual compliance statement to Central Bank (s.66C), lending limits raised 30 Sep 2025. Progress Systems claims 220+ credit unions on its banking suite and Temenos serves others, so core vendors dominate. Approved housing bodies (AHBRA) listed as unverified candidate; could not find any 2026 return details.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Dental practices face dual HIQA (NF200 undertaking declaration, self-assessment, S.I. 256/2018) and EPA (IRR19 registration/licence, risk assessment) regimes; listed as weak candidate. No insurer-billing duty screened (budget).",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "S.I. 139/2026 (Misuse of Drugs (Amendment) (No. 2) Regs 2026) allows an electronic controlled drugs register for retail pharmacies; HPRA guidance 31 Jul 2026. No Irish-specific electronic CD register product found; commencement date unconfirmed (statute book fetch blocked). Precursor users not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Employment agency licence (WRC, 500 EUR/yr, half-yearly returns at renewal) nothing new; PSA security already K18. Cleaning agencies: no specific licensing found.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Section 261 quarry registration is a historical one-off (2004-05); no current annual return found. BCAR already K16. Gas/electrical installer schemes screened under cat 33.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "PSRA licence renewal needs an accountant's client-moneys report each year, with frequent form errors flagged by the PSRA; AML duties extended to letting/management (cats C, D) in 2021. High value goods dealers (about 2,000 per a 2014 answer, threshold unconfirmed) and TCSPs (Central Bank) are unverified. No PSRA-specific software found.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Short-term letting register (Failte Ireland): units let up to 21 nights must register; govt press release (May 2026) says register opens 1 Dec 2026, deadline 31 Dec 2026; annual renewal; platforms must verify numbers. Guest-house registration with Failte Ireland and s.10 Immigration Act 2004 guest register for non-nationals noted but applicability unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "EUDR now applies 30 Dec 2026 (large/medium) and 30 Jun 2027 (micro/small) per secondary sources; Irish Deforestation and Forest Degradation Bill 2026 in progress; cattle/leather already K15. Small-boat ERS (EU 2023/2842, 2028) listed. Fish buyers K03, shellfish K05 already known.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Tobacco and nicotine inhaling product retail licensing (HSE)",
+     "found": "Licensing in force since 2 Feb 2026; EUR 1,000 tobacco, EUR 800 NIP, EUR 1,800 both; per premises and per website; annual renewal; existing sellers had to apply by 2 Aug 2026; applications via NEHS portal. Listed as weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Inshore fishing vessels: catch logbooks and electronic reporting (SFPA, EU 2023/2842)",
+     "found": "Irish rule today: paper logbook 10-12m, ieCatch ERS 12m+ (SFPA supplies laptop and software). Commission page says all vessels need ERS from 2028 and under-12m can use national mobile apps. No Irish under-12m app or SFPA 2027-28 milestone found. Candidate unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Gas, electrical and heating installers: RGI, Safe Electric/RECI certificates",
+     "found": "Regulated Non-Domestic Gas Works regime applies from 1 Sep 2026 (RGI scheme, operated by Safe Energy Ireland for CRU): new registrations, RPL board for experienced installers, Declaration of Conformance. CRU conviction 4 Jun 2026 shows active enforcement. Safe Electric operated 2023-2028. No installer software tied to these found.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Refrigeration and F-gas / ODS operators and contractors (EPA)",
+     "found": "EPA enforces Reg 2024/573 and 2024/590; leak checks by charge/GWP, records kept 5 years per equipment, contractors need F-Gas Registration Ltd company certificate. No Irish record tool found in one search; listed as weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Solid fuel producers and merchants (Air Pollution Act Solid Fuels Regulations)",
+     "found": "S.I. 529/2022 as amended: S.I. 389/2025 moved the 20 percent wood moisture limit and drying-notice duty to 1 Sep 2026; S.I. 76/2025 deferred sulphur cut to 2030; producers register annually on the EPA Fuels Register by 1 Sep; local authorities enforce. Listed as weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Gambling licensing (Gambling Regulatory Authority of Ireland)",
+     "found": "GRAI established 5 Mar 2025; betting licence applications opening from late 2025/early 2026 (sources differ); legacy Betting Act 1931 licences via Revenue continue meanwhile; fees for remote betting EUR 20k-400k per a non-official guide. Small bookmaker/arcade position unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Approved housing bodies (AHBRA regulation)",
+     "found": "AHBRA established 1 Feb 2021; 450 AHBs deemed registered in Jan 2022 (other source says over 550). No 2026 return/deadline found; candidate unverified.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Short Term Letting and Tourism Act 2025 register Failte Ireland hosts registration 2026 requirements",
+    "Ireland fuel station petrol retailer NORA obligations biofuel obligation scheme small distributors home heating oil registration",
+    "PSRA estate agents auctioneers client account audit annual return software AML Ireland",
+    "Ireland small inshore fishing vessels electronic logbook 2028 under 10m SFPA catch recording app",
+    "HPRA controlled drugs register pharmacy PSI inspection electronic register Ireland 2026",
+    "Gambling Regulatory Authority of Ireland licensing bookmakers small operators licence application 2026",
+    "Ireland Tobacco and Nicotine Inhaling Products licensing retailers register 2026",
+    "Ireland F-gas regulation 2024/573 leak check records refrigeration contractors register operators",
+    "Ireland credit union small credit union Central Bank reporting Credit Union (Amendment) Act 2023",
+    "Ireland dentists EPA licence X-ray equipment registration HSE/HIQA ionising radiation 2026",
+    "Ireland high value goods dealers register Dept of Justice AML trust or company service providers",
+    "Ireland quarries registration section 261 planning annual return EPA 2026",
+    "Airbnb host Ireland short term let register software compliance tool",
+    "Ireland Approved Housing Bodies Regulatory Authority annual regulatory return small housing associations",
+    "Ireland employment agency licence Workplace Relations half-yearly returns 2026",
+    "Ireland feed business registration DAFM grain merchants millers co-ops HACCP records",
+    "Ireland solid fuel merchants registration smoky coal wood moisture regulations 2025 2026",
+    "Ireland RGII Safe Electric RECI OFTEC certificate of compliance portal installers 2026",
+    "EUDR Ireland timber sawmills furniture small operators application date 2026",
+    "non-domestic gas works RGI regulation 1 September 2026 CRU",
+    "pharmacy software Ireland electronic controlled drugs register S.I. 139/2026",
+    "Failte Ireland guest house B&B register of guests Ireland",
+    "SFPA small vessels under 12m electronic logbook ERS 2028 control regulation 2023/2842",
+    "credit union software Ireland core banking vendors small credit unions"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b5"
+ },
+ "gapfill:ireland": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small principal contractors: builders, electricians, plumbers, fit-out and forestry firms that subcontract relevant work and may not know they are principals",
+     "category": "31. Revenue/small-operator duties: RCT",
+     "evidence": "https://www.revenue.ie/en/self-assessment-and-self-employment/rct/notifications-principal-contractors.aspx ; https://Revenue.ie/en/online-services/services/tax-returns/notify-a-relevant-contracts-tax-payment.aspx ; https://www.fssu.ie/app/uploads/2026/02/Completing-an-RCT-Return-rev26.pdf ; https://fieldmotion.com/blog/relevant-contracts-tax-ireland/",
+     "existing": "Free Revenue ROS service; Thesaurus (RCT35 on Revenue's ROS-compatible list); Exchequer Enterprise RCT module; BrightBooks RCT setting; Sage 50 handling reported as manual; Fieldmotion blog without RCT features; outsourced ICON (Austria). Competitor search run: found no Irish micro-contractor product that files notifications through Revenue's machine-to-machine web service.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "RCT payment-notification and deduction desk for small trades that subcontract",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Relevant Contracts Tax: contract notification, per-payment notification before paying, deduction authorisation, monthly/quarterly return, pay by the 23rd, penalties up to 35% on unreported payments",
+     "trigger_note": "",
+     "unchecked": "Whether Revenue still offers the RCT web service to third-party developers; count of small principals; what accountants already charge; whether Xero, QuickBooks or Sage Ireland have RCT apps; uptake of the free ROS flow"
+    },
+    {
+     "buyer": "Small hauliers (over 3.5 t hire or reward) and van operators of 2.5-3.5 t doing international or cabotage work",
+     "category": "32. Small haulage operator licensing and tachograph",
+     "evidence": "https://www.rsa.ie/services/professional-drivers/tachographs-information/smart-tachograph-2 ; https://www.rsa.ie/services/professional-drivers/cpc/periodic-training-and-compliance ; https://cvrt.ie/ie/Operator-Driver-Obligations/Operator-Licensing ; https://www.transpoco.com/blog/ftai-launches-new-tachograph-service",
+     "existing": "FTA Ireland (Vision analysis, KPI reporting), Euro Tachograph Solutions, Mandata Tacho Now, Frotcom, AddSecure, Microlise, Geotab/Tranzaura, Descartes. Competitor search run: Irish analysis services exist; no Irish-specific, cheap company-card-only product confirmed.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Operator compliance diary for small hauliers and LCV couriers: Smart Tachograph v2, downloads, CPC, operator licence",
+     "score": 3,
+     "status": "weak",
+     "trigger": "EU 165/2014 smart tachograph v2 retrofit (LCVs 2.5 t+ from 1 Jul 2026), company-card downloads, driver CPC 35 hours/5 years, RTOL licence and transport manager CPC",
+     "unchecked": "Number of LCV operators affected after 1 Jul 2026; whether the RSA extended the NI transit exemption; FTAI pricing; Smart v2 support in remote-download vendors; true upper weight band"
+    },
+    {
+     "buyer": "Small accounting practices, company secretarial firms and owners of dormant family, club and property companies",
+     "category": "36. Registers: CRO annual returns, RBO",
+     "evidence": "https://www.lawsociety.ie/gazette/top-stories/2025/february/cro-resumes-strike-offs-against-non-compliant-firms/ ; https://lawsociety.ie/gazette/top-stories/2025/july/cro-netted-9.7m-in-late-filing-fees-in-2024 ; https://cro.ie/wp-content/uploads/2025/07/stakeholder-forum-minutes-25-06-25-2.pdf ; https://hayes-solicitors.ie/news/new-regime-for-involuntary-strike-offs-in-ireland/",
+     "existing": "Accountants and CRO CORE reminders; filing services Nathan Trust, Open Forest, AccountsOS; company-secretarial software. Competitor search run: only agency filing services found, no cheap multi-company deadline tracker confirmed.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "CRO annual return and RBO filing tracker for accountants' micro-company and dormant-company books",
+     "score": 3,
+     "status": "weak",
+     "trigger": "B1 annual return (56 days after ARD), RBO initial and 14-day change filing; strike-off on RBO or annual-return default; EUR 100 + EUR 3/day late fee",
+     "unchecked": "Whether CORE and rbo.gov.ie already email reminders; secretarial software coverage (e.g., CoSec products); how many non-filers are real dormant owners who would pay; current strike-off status in 2026"
+    },
+    {
+     "buyer": "About 7,000 derogation farms and their advisers",
+     "category": "34. Agri-environment and farm schemes",
+     "evidence": "https://www.ifa.ie/policy-areas/nitrates-derogation-update-important-dates/ ; https://www.agriland.ie/farming-news/dafm-chief-inspector-talks-fertiliser-database-and-derogation/ ; https://herdwatch.com/en-ie/blog/navigating-the-nitrates-situation-in-irish-agriculture-check-out-the-nitrates-calculator-here/",
+     "existing": "Herdwatch (Nitrates Calculator, Bord Bia audit app), advisers, DAFM AgNav. Competitor search run.",
+     "known_id": "K22",
+     "known_mark": "new",
+     "known_note": "Different buyer (farm, not merchant); related to K22 (fertiliser merchants), which was rejected",
+     "name": "Derogation and nutrient-plan bookkeeping for nitrates-derogation dairy and intensive farms",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Derogation extended 2026-2028 with AgNav balance, nutrient management plan and fertiliser accounts due 31 Mar, National Fertiliser Database closing-stock declarations",
+     "unchecked": "Whether the 31 Mar 2026 fertiliser-accounts requirement was actually confirmed; AgNav feature set"
+    },
+    {
+     "buyer": "Independent publicans and off-licence owners",
+     "category": "33. Licensed premises and food",
+     "evidence": "https://courts.ie/guides/about-licensing-and-the-courts ; https://www.gov.ie/ga/foilsiuchan/f90d4-sale-of-alcohol-bill/ ; https://regfollower.com/ireland-revenue-updates-etc-requirements-for-liquor-corrects-title-of-certain-fuel-licences/",
+     "existing": "Revenue's own renewal process and accountants. Sale of Alcohol Bill 2022 stalled, so no reform trigger.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Annual liquor licence renewal reminder and tax clearance pack for independent pubs and off-licences",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Annual Revenue renewal by 30 Sep with tax clearance (eBrief 215/25 extends to producer's retail licences); court certificate only in exceptional cases",
+     "unchecked": "Number of licence holders; whether Revenue sends reminders; Garda/fire-report practice; food business registration and HACCP for small cafes (not searched)"
+    },
+    {
+     "buyer": "Small employers (under 250 staff) without HR staff",
+     "category": "35. Employer statutory records",
+     "evidence": "https://www.irishstatutebook.ie/2022/en/act/pub/0024/sec0013.html ; https://workplacerelations.ie/en/what_you_should_know/employer-obligations/protection-of-whistleblowers/new-obligations-under-the-protected-disclosures-amendment-act-2022/ ; https://hayes-solicitors.ie/news/statutory-sick-leave-to-remain-at-five-days",
+     "existing": "HRLocker, HRduo, Peninsula, BrightHR, Advanced, BrightPay and other generic HR/payroll tools. Competitor search run: crowded.",
+     "known_id": "K20",
+     "known_mark": "known",
+     "known_note": "Same buyer group family as K20 (pay transparency) and K10 (auto-enrolment); generic HR vendors cover it. Note the 10-day sick leave premise was wrong: it stays at 5 days in 2026.",
+     "name": "Employer statutory-records pack for small employers: sick leave, working time, gender pay gap at 50+",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Sick Leave Act 2022 s.13 records (4 years), Organisation of Working Time records (3 years), gender pay gap reporting for 50+ employees (Nov 2026), protected disclosure channels at 50+",
+     "unchecked": "None worth spending on; generic HR, out of scope"
+    },
+    {
+     "buyer": "Small employers holding employment permits (food service, care, hospitality)",
+     "category": "31. Revenue/small-operator duties: Employment Permits",
+     "evidence": "https://www.ibec.ie/sfa/news-insights-and-events/insights/2026/01/27/new-employment-permit-salary-thresholds---a-roadmap-for-2026 ; https://www.lewissilkin.com/en/insights/2025/12/11/irelands-revised-roadmap-on-minimum-annual-remuneration-thresholds-for-employment-permits",
+     "existing": "Immigration solicitors, Recruitroo and similar vendor guides; DETE portal",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Employment permit salary-threshold renewal checker for small hospitality and food-service employers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "New minimum annual remuneration from 1 Mar 2026 applies to renewals; roadmap rises to 2030; WRC inspections of permit conditions",
+     "unchecked": "Permit holder counts by employer size; whether any software already tracks permit expiry and salary floors"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31. Revenue/small-operator duties: RCT, PAYE, Employment Permits",
+     "found": "RCT is a live mandatory duty for principal contractors in construction, forestry and meat processing: notify each contract and each payment to Revenue via ROS before paying, deduct at the rate Revenue returns (0/20/35%), pay by the 23rd of the following month, EUR 100 surcharge for late amendments (revenue.ie RCT pages; fssu.ie rev26 guide Feb 2026). Revenue's free ROS portal covers the workflow; Revenue's ROS-compatible list shows only Thesaurus (RCT35 return); Exchequer Enterprise and BrightBooks have RCT modules; Sage 50 users report manual handling (Sage community post); Fieldmotion's RCT blog describes the duty but no RCT feature. No dominant micro-contractor product found, but the free state portal plus accountants cover most of it. Employment permits: minimum salary thresholds rose on 1 Mar 2026 (General EP EUR 36,605 per most sources, one Ibec source says 36,305) and apply to renewals, with a roadmap to 2030; small cohort, vendor-blog sources only. PAYE Modernisation: nothing small-operator-specific found. VAT/ROS: not examined.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Small haulage and transport operator licensing: RTOL, tachograph, CPC",
+     "found": "Correction: haulage licensing is the Department of Transport's RTOL Unit (not the NTA), with the RSA enforcing tachograph and drivers' hours rules. Licence needed above 3.5 t hire or reward. Smart Tachograph v2 retrofit deadlines: 31 Dec 2024, 18 Aug 2025, and 1 Jul 2026 for LCVs over 2.5 t on international work or cabotage (rsa.ie smart-tachograph-2 page); RSA has prosecuted operators at the roadside since 1 Mar 2025; fine up to EUR 5,000 (one secondary source). Download intervals: sources conflict (21/3 months in CVRT page vs 28/90 days elsewhere). Driver CPC: 35 hours per 5 years via RSA MyCPC. Incumbents: FTA Ireland (Vision platform, analysis bureau, KPI reporting), Euro Tachograph Solutions (Waterford), and remote-download vendors Mandata, Frotcom, AddSecure, Microlise, Geotab/Tranzaura, Descartes. Heavily served by FTAI plus telematics.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Licensed premises and food: liquor licences, court renewals, certs",
+     "found": "No 'Sale of Alcohol Bill 2025' exists; the Sale of Alcohol Bill 2022 (general scheme Oct 2022, pre-legislative scrutiny 2023) did not progress in the last Dail term (Minister's July 2026 answer, partly retrieved). Current renewal is annual via Revenue (publican's licence expires 30 Sep), with a District Court certificate only if the premises were not run peaceably, or a Circuit Court route if lapsed. Revenue eBrief 215/25 (17 Nov 2025) extended tax clearance to producer's retail on- and off-licences. Garda notice and fire-officer report requirements not confirmed nationally. Routine renewal is a single Revenue step, so low pain. Alcohol labelling delay and food business registration/HACCP for cafes: not searched (budget), treat as not_reached.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Agri-environment and farm schemes: derogation, ACRES, Bord Bia",
+     "found": "Nitrates derogation extended 2026-2028 (EU Commission 9 Dec 2025) with stricter conditions: AgNav nutrient balance, grassland training, nutrient management plan and prior-year fertiliser accounts due 31 Mar (Farmers Journal 2026 piece treats this as an assumption). About 7,000 derogation farms. National Fertiliser Database tracks purchases (inspector warns of derogation ineligibility for avoidance). Bord Bia audits fail mostly on animal-remedy records. ACRES scorecards (116,000 submitted) and LESS declaration use DAFM portals. Herdwatch (app) markets a Nitrates Calculator and Bord Bia audit readiness; farm advisers (Teagasc/private) do the submissions. Nothing unserved found.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Data protection and employer statutory records: sick leave, working time, protected disclosures, gender pay gap",
+     "found": "Premise correction: statutory sick leave stays at 5 days in 2026 (Minister Burke, 8 Apr 2025; DSP guidance 14 Jan 2026); no step-up to 10 days. Sick Leave Act 2022 s.13 requires records kept 4 years (other employment records 3 years). Protected disclosures: internal channel duty for 50+ employees since 17 Dec 2023 (WRC page). Gender pay gap reporting now applies at 50+ employees; 2026 snapshot in June, report by Nov 2026, central portal. WRC inspections are risk-based; HRLocker, HRduo, Peninsula, BrightPay and others sell generic HR/time products. These are generic HR duties, largely out of scope; no quiet-industry niche found.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Registers: CRO annual returns, RBO, Trust Register, Central Bank AML registrations",
+     "found": "CRO B1 annual return due within 56 days of ARD (some vendors say 28, unresolved); late fee EUR 100 plus EUR 3/day to EUR 1,200, and loss of audit exemption. CRO netted EUR 9.7m late fees in 2024 (Law Society Gazette). RBO: new companies within 5 months, changes within 14 days; Companies (Corporate Governance, Enforcement and Regulatory Provisions) Act 2024 added RBO non-filing as strike-off ground; CRO resumed strike-offs for RBO non-filers in 2025; about 10-12% of companies (compliance 88.85%) had not filed (CRO stakeholder forum June 2025). Dormant companies are not exempt. Services seen: Nathan Trust, Open Forest, AccountsOS, accountants. Trust Register (Revenue/ROS): older-trust deadline of 23 Oct 2021 passed; ongoing 6-month duty for new trusts, small. Central Bank: bureaux de change authorisation and Schedule 2 AML registration (since 2018); VASP registration; sources undated, no 2026 trigger found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "Relevant Contracts Tax RCT subcontractor small contractors software returns Ireland 2026",
+    "road haulage operator licence NTA Ireland tachograph download compliance small haulier CPC",
+    "intoxicating liquor licence renewal pub district court tax clearance Ireland Sale of Alcohol Bill 2025",
+    "nitrates derogation fertiliser records farmers software Ireland ACRES Bord Bia audit record keeping app",
+    "statutory sick leave scheme employers records 2026 small business HR software working time records WRC inspection",
+    "CRO annual return B1 late filing RBO beneficial owner register small company software Ireland compliance",
+    "RCT payment notification deduction authorisation software subcontractors Revenue ROS sage iris builders Ireland",
+    "tachograph analysis software Ireland small haulier remote download driver infringement RSA 2026",
+    "pub licence renewal Circuit Court certificate Garda notice annual publican Ireland 2026 fire safety certificate",
+    "Register of Beneficial Owners RBO Ireland companies non-compliant filing 2026 CRO strike off dormant",
+    "Protected Disclosures Act internal reporting channel 50 employees Ireland small employers 2026 gender pay gap threshold 50 employees",
+    "RCT software Ireland small contractor app manage subcontractors RCT payment notifications automate",
+    "Driver CPC periodic training deadline Ireland RSA drivers 35 hours small hauliers 2026 smart tachograph retrofit deadline Irish operators",
+    "Trust Register Revenue Ireland deadline Central Bank bureau de change money service business registration AML small Ireland 2026",
+    "Employment Permits renewal small employers Ireland WRC inspections 2026 employment permit holders records",
+    "tachograph download service Ireland small hauliers outsourced analysis company card infringement reports Irish provider",
+    "National Fertiliser Database derogation fertiliser accounts 2026 farmers no longer required nitrates derogation Ireland",
+    "WebFetch fieldmotion.com/blog/relevant-contracts-tax-ireland"
+   ],
+   "searches": 17
+  },
+  "tag": "w2b5"
+ },
+ "opus:ireland:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The filing itself goes through Tusla's free childminder portal, with a Tusla guide PDF. Childminding Development Officers in the City and County Childcare Committees give free support, and the state's 2026 Childminding Development Grant pays up to €1,000. Tot Tracker (Irish, claims Tusla/NCS compliance, mainly for nurseries but also covers childminding) and Childminding App (Capterra IE: bookings, finances, observations) handle daily records. Neither showed registration prep, vetting tracking or document-expiry tracking. Cheqdin and CrecheHQ serve nurseries (K14).",
+   "duty": "Child Care Act 1991 (Early Years Services) (Childminding Services) Regulations 2024 (SI 494/2024), in force 30 Sep 2024. Self-employed childminders caring for children in their own home register with Tusla through childminding.tusla.ie, with a fee, a desktop assessment and a home pre-registration assessment. Registration is voluntary during a 3-year transition and becomes mandatory around Sep 2027, followed by periodic renewal (Tusla has a 'Registration Renewal (Childminders)' page; the renewal interval was not confirmed). Childminding Ireland asked for an extension in June 2026, and I found no government response. Penalties were not confirmed in this session.",
+   "market": "Estimated 19,000 childminders (Minister, 2015) and 21,000 (2017 School Age Childcare Report). I found no current national count of registered childminders. Uptake is very low: 15 registered in the Midlands as of April 2026, against 13 in Galway in 2019 under the old rules. Only part of the informal sector is expected to register, so the paying market is probably a few thousand at most, and it depends on the 2027 deadline holding.",
+   "reason": "The duty is real. SI 494/2024 has been in force since 30 Sep 2024, and registration becomes mandatory around Sep 2027, after which renewals recur. No product found does registration prep or document tracking for childminders: Tot Tracker and Childminding App cover daily records only. But uptake is tiny: 15 registered in the Midlands as of April 2026. Childminding Ireland asked in June 2026 for the deadline to be extended. The Tusla portal, City and County Childcare Committee (CCC) development officers and €1,000 state grants already give free help. The roughly 19-21k childminders (2015/2017 estimates) are low-income sole traders. Most of the work is one-off, so willingness to pay is weak. Better as a cheap add-on or a channel deal with the CCCs.",
+   "searches": 6,
+   "sources": "https://www.tusla.ie/news/tusla-childminding-registration-opens-30-september/ ; https://www.tusla.ie/early-years-inspectorate/childminding-services/i-am-a-childminder/ ; https://www.tusla.ie/uploads/content/EYI-GDE39.3_Guide_to_the_Tusla_portal_for_Childminders_.pdf ; https://www.midlands103.com/news/midlands-news/childminders-ireland-ask-government-to-extend-tusla-registration-deadline/ ; https://www.galwaybayfm.ie/galway-bay-fm-news-desk/just-13-in-home-childminders-registered-in-galway-67519 ; https://www.oireachtas.ie/en/debates/question/2015-07-08/2/ ; https://www.softwareadvice.co.uk/software/563531/Tot-Tracker ; https://www.capterra.ie/software/1071697/Childminding-App ; https://www.gov.ie/en/department-of-children-disability-and-equality/press-releases/minister-norma-foley-launches-the-childminding-development-grants-for-2026 (search snippet only, fetch returned 403)",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b5"
+ },
+ "opus:ireland:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Searches in English (Ireland's main language for this topic) found no Irish software or packaged service aimed at these dealers. Results were templates from other countries: AUSTRAC's jeweller starter kit (Australia), Singapore's sample risk assessment form for regulated dealers, Isle of Man, UK HMRC and Gibraltar guidance, plus generic AML/KYC vendors such as Binderr, Zigram and Sanctions.io. Irish law firms and accountants publish general AML advice, but I did not find a dealer-specific pack. I could not check whether the AMLCU publishes its own templates. Competition remains only partly checked.",
+   "duty": "Under the Criminal Justice (Money Laundering and Terrorist Financing) Act 2010 as amended, s.25(1)(i) makes any person trading in goods a designated person, but only for transactions with cash payments of at least EUR 10,000, whether single or linked. I confirmed this in the revised Act text on revisedacts.lawreform.ie. Designated persons must keep a documented business risk assessment that senior management approves, keeps up to date and considers the National Risk Assessment (s.30A, per McCann FitzGerald). They must also carry out customer due diligence, keep records, report suspicious transactions and maintain policies. The AMLCU, part of the Department of Justice, supervises these dealers and can issue directions under ss.68/71, and a new administrative sanctions regime for the AMLCU is expected. I did not confirm whether these dealers must register with the AMLCU (amlcompliance.ie returned only a page title; gov.ie returned 403). I did not check the specific penalty amounts.",
+   "market": "A 2014 Oireachtas answer said the AMLCU recorded about 2,000 businesses as high value goods dealers: antique, boat, car and farm-machinery dealers and jewellers. The AMLCU inspected 419 of them in 2024, according to Zigram's summary of the AMLCU annual report. I found no current register count. The real buyer pool is limited because businesses can avoid the duty by refusing cash at or above EUR 10,000.",
+   "reason": "The duty is real and in force. Under s.25(1)(i) of the CJ(MLTF) Act 2010, as revised, anyone trading in goods is a designated person for cash payments of at least EUR 10,000, whether in one transaction or linked ones. The claim's EUR 15,000 figure is out of date. The AMLCU supervises these dealers and inspected 419 of them in 2024, its largest inspected group, so enforcement pressure exists. I found no Irish product aimed at these dealers, but my competition search was thin. The market is small: about 2,000 businesses in 2014, with no current count found. Many dealers can avoid the duty by refusing cash at or above EUR 10,000. The compliance work is mostly a one-time risk assessment and policy plus occasional customer checks, so it recurs rarely and willingness to pay is doubtful.",
+   "searches": 6,
+   "sources": "https://revisedacts.lawreform.ie/eli/2010/act/6/section/25/revised/en/html ; https://www.oireachtas.ie/en/debates/question/2014-04-08/465/ ; https://www.zigram.tech/resources/amlcu-annual-report-2025/ ; https://www.mccannfitzgerald.com/knowledge/financial-services-regulation/know-your-risk-what-irelands-2026-aml-cft-pf-national-risk-assessment-and-action-plan-mean-for-firms ; https://www.gov.ie/en/department-of-justice-home-affairs-and-migration/organisation-information/anti-money-laundering-compliance-unit ; https://www.austrac.gov.au/node/1469",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b5"
+ },
+ "opus:ireland:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "ViClarity (Irish governance and compliance software vendor) markets a Charities Governance Code module: self-assessment by principle, a live compliance view for trustees, and tracking of corrective actions. This comes from the vendor's own blog, and I did not check pricing or whether it suits small charities. The regulator's free Governance Code Toolkit includes a Compliance Record Form template. The Wheel and Carmichael give free or low-cost guidance and support. Accountants and advisers sell compliance packs. A search for an Irish board-portal platform built specifically for the annual report and the Code found nothing.",
+   "duty": "Charities Act 2009 s.52 (in force; s.52 is being replaced by the Charities (Amendment) Act 2024, but that change had not commenced at the last check). Every registered charity must file an annual report within 10 months of its financial year end, every year. Since 2021 the report has included a compliance declaration against the Charities Governance Code: 32 core standards for all charities, plus 17 additional standards for larger or complex ones. Charities must keep a Compliance Record Form and show it to the regulator on request, but do not file it. Late filing or not filing is an offence for the charity and its trustees. In 2024 the regulator removed 38 charities from the register for not filing and prosecuted 8. Over 40% filed late in 2022. The regulator's 2025 annual report logged 681 concerns, up 38%.",
+   "market": "About 11,506 charities were registered in the State in 2022 (regulator's 2022 report, as reported). Other sources say more than 11,500, of which over 3,600 are schools. Most are small or run by volunteers. I did not find a figure for 2025 or 2026.",
+   "reason": "The duty is real. Under s.52 of the Charities Act 2009, every registered charity must file an annual report within 10 months of its year end, and that report includes a compliance declaration against the Governance Code. Late filing is an offence for the charity and for each trustee. In 2024 the regulator removed 38 charities from the register and prosecuted 8. The software claim fails, though. ViClarity already sells a tool that breaks the Code into its principles, lets a charity self-assess against each one, and tracks corrective actions. The regulator's toolkit and template are free, and the minimum for small charities is board minutes. Volunteer trustees are unlikely to pay, and the work happens once a year. Most of the roughly 11,500 charities are small, but about 3,600 are schools.",
+   "searches": 6,
+   "sources": "https://viclarity.com/eu/resources/blog/understanding-and-complying-with-the-charities-governance-code ; https://wheel.ie/advice-guidance/governing-your-organisation/charities-governance-code ; https://lkshields.ie/news-insights/news/the-charities-governance-code-new-compliance-reporting-in-2021 ; https://www.lawsociety.ie/gazette/top-stories/2023/september/40-of-charities-fail-to-file-annual-report-on-time/ ; https://lawsociety.ie/gazette/top-stories/2024/march/regulator-contacts-1700-charities-in-compliance-bid ; https://qidn.ie/2025/08/02/nearly-500-concerns-raised-about-irish-charities-with-charities-regulator-in-2024/ ; https://www.southeastradio.ie/news/wexford/concerns-raised-about-charities-increase-by-38-percent/ ; https://revisedacts.lawreform.ie/eli/2009/act/6/section/52/revised/en/html ; https://mhc.ie/latest/insights/the-charities-amendment-act-2024-has-been-enacted ; https://irishtaxreview.taxinstitute.ie/feature-articles/key-considerations-when-engaging-with-charities ; https://galwaybayfm.ie/galway-bay-fm-news-desk/galway-is-county-with-the-third-highest-number-of-charities-in-ireland/",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b5"
+ },
+ "opus:ireland:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Fáilte Ireland's free portal does the core job. It handles self-registration, registers several units at once, saves drafts, issues a number per unit instantly and sends reminders before annual renewal. Platforms must display and spot-check numbers. Lodgify and Houst publish guidance pages. PMS tools such as Stays and Recranet already store per-unit registration numbers for other EU regimes. I found no Irish product that automates the Fáilte Ireland filing, but little is left to automate apart from planning-compliance advice.",
+   "duty": "Not yet in force. The Short Term Letting and Tourism Bill was published on 6 Oct 2026 and must still pass the Oireachtas (enterprise.gov.ie, 6 Oct 2026). The government release of 13 May 2026 targets a register opening on 1 Dec 2026 with registration required by 31 Dec 2026. Fáilte Ireland's FAQ says the register starts only once the legislation passes. Planned rules: register each unit let for up to 21 nights, show the number on every listing, renew yearly, and self-declare planning compliance. Hosts in places under 20,000 population get 2 years to regularise planning. Enforcement is by fixed payment notices and summary offences (host amounts not stated). Platforms face fines up to 2% of worldwide turnover. The registration fee has not been announced.",
+   "market": "The Housing Agency estimates about 28,903 short-term lets in Ireland from Airbnb data (cited in search snippets), with Dublin at about 9,186. Holiday homes listed only on other channels would add to this. The number of hosts is lower than the number of units. There is no official forecast of how many units will register.",
+   "reason": "The duty is not law yet. The Short Term Letting and Tourism Bill was only published on 6 Oct 2026 and still has to pass the Oireachtas. The planned 1 Dec 2026 opening and 31 Dec 2026 deadline depend on it being enacted in time, and the start date has already slipped from 2023 and from May 2026. The fee is still unannounced. The core job is thin. Fáilte Ireland's free portal already registers several units at once, issues numbers instantly and sends renewal reminders. PMS tools already have registration-number fields for other countries. The real pain is planning compliance, which is consultancy work rather than SaaS. There are about 29k units. The one-off registration rush helps, but annual renewal is low-friction.",
+   "searches": 5,
+   "sources": "https://enterprise.gov.ie/en/news-and-events/department-news/2026/october/20261006.html ; https://enterprise.gov.ie/en/news-and-events/department-news/2026/may/20260513.html ; https://failteireland.ie/en/short-term-letting-register/faq ; https://www.gov.ie/en/department-of-enterprise-tourism-and-employment/press-releases/short-term-let-register-to-come-into-effect-from-december-2026/ ; https://encyclopedia.lodgify.com/ireland-short-term-letting-register ; https://academy.stays.net/en/support/solutions/articles/36000589266-how-does-stays-handle-listing-registration-numbers- ; https://www.travelextra.ie/government-faces-renewed-calls-to-delay-short-term-lets-register/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b5"
+ },
+ "opus:ireland:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Revenue's free ROS RCT service does the core notification and return job, and accountants can file it as ROS agents. Thesaurus Software is self-listed for Form RCT35 on Revenue's ROS-compatible third-party software list. SAP has had an Irish RCT web-service XML integration since 2014, which is for large firms. ICON (Austria) offers an outsourced service. A 2011 Revenue/TaxSource note planned web services for third-party software, but I found no current developer specification. Xero, QuickBooks, Sage and Big Red Cloud RCT features: not reached or unverified.",
+   "duty": "Confirmed in force (Taxes Consolidation Act 1997 ss.530A-530V; SI 651/2011 eRCT). Principals must file a contract notification, then a payment notification through ROS before each payment, which returns a deduction authorisation. They also file a monthly or quarterly deduction summary and pay by the 23rd of the following month. Unreported-payment penalties are 3%, 10%, 20% or 35% of the payment, depending on the subcontractor's rate or unknown status. Revenue's current principal-notification page names only ROS as the filing channel.",
+   "market": "A 2014 parliamentary reply gives 65,194 active RCT contractors (principals and subcontractors combined, up to 16/11/2014), 58,855 in 2012, and no principal-only split. No current count was found. Small principals are likely a fraction of this, and many are already handled by accountants.",
+   "reason": "The duty is real and in force. Revenue requires principals to file a contract notification, then a payment notification before each payment, which returns a deduction authorisation. They also file a monthly or quarterly deduction summary and pay by the 23rd. Penalties for unreported payments are 3/10/20/35% of the payment. However, the free Revenue Online Service (ROS) already does the core job, and accountants file as ROS agents. Thesaurus lists RCT35 on Revenue's ROS-compatible list. I found no current Revenue documentation for a third-party RCT web service, so I couldn't confirm an MVP can file directly. Xero, Sage and Big Red Cloud RCT support was not verified. The market is modest: about 65k active RCT contractors in 2014, principals and subcontractors combined. Willingness to pay is limited.",
+   "searches": 7,
+   "sources": "https://www.revenue.ie/en/self-assessment-and-self-employment/rct/notifications-principal-contractors.aspx ; https://www.revenue.ie/en/self-assessment-and-self-employment/rct/penalties-principal-contractors.aspx ; https://Revenue.ie/en/online-services/services/tax-returns/notify-a-relevant-contracts-tax-payment.aspx ; https://www.revenue.ie/en/online-services/support/documents/help-guides/ros/ros-compatible-3rd-party-software.pdf ; https://www.charteredaccountants.ie/taxsourcetotal/taxpoint/source/2011/07/ireland/2011-07-ireland-1.html ; https://blogs.sap.com/2014/10/29/ireland-rct-withholding-tax-changes/ ; https://www.oireachtas.ie/en/debates/question/2014-12-02/215/ ; https://www.icon.at/fileadmin/media/ICON_-_Broschuere_RCT_RZ_EN.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b5"
+ },
+ "sonnet:ireland:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The 1888 Local Government Board rules on registers of interment exist (Kilkenny copy cites the 1878 Act and penalties). I did not confirm which of the 1919/1929/2013 amendments are in force, or that the duty reaches voluntary committees rather than councils. Councils hold and are digitising registers (Kildare, Tipperary, Waterford, Galway). Generic cemetery software exists (PlotBox, Chronicle, CIMS, Cemify), though I found no Irish-specific product. Market size is unclear. A directory lists about 2,156 cemeteries, and HistoricGraves cites about 3,600 historic grounds. Many are council-run, and the duty has no recurring filing deadline. Willingness to pay is low for volunteer committees, and distribution is fragmented. Weak fit.",
+   "searches": 3,
+   "sources": "https://kilkennycoco.ie/eng/Services/Environment/Burial-Grounds/Rules-And-Regulations-for-Burial-Gounds.pdf ; https://www.galway.ie/en/media/GC-ENV2 Burial Ground Registers of Interment 1931-2005.pdf ; https://data.kildarecoco.ie/dataset/burialgrounds/resource/a0ef87a9-15b4-4f19-842a-abad4906f409 ; https://www.capterra.co.uk/directory/31356/cemetery/software ; https://poidata.io/report/cemetery/ireland ; https://www.irishgenealogy.ie/graveyards/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b5"
+ },
+ "sonnet:ireland:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real but sits mainly on local authorities, not on the committees. The claim cites the 2014 Regulations, which were replaced. The current law is the European Union (Drinking Water) Regulations 2023 (S.I. 99 of 2023). Under Regulation 13 each local authority runs the compliance monitoring programme for all private supplies, and the EPA audits the councils. Schemes mainly react to council notices and action programmes, and some register supplies. So there is no recurring filing workflow for the volunteer buyer, who is unlikely to pay. The NFGWS supports schemes as a sector body, which is a distribution channel but also a likely free competitor. I found no Irish software vendor, so the market is empty, but pain, willingness to pay and buyer accessibility are weak. Market size was not verified from a register.",
+   "searches": 3,
+   "sources": "https://www.epa.ie/our-services/compliance--enforcement/drinking-water/supply-types/ ; https://waterfordcouncil.ie/services/water-services/private-regulated-water-supplies/ ; https://www.epa.ie/publications/compliance--enforcement/drinking-water/audit-reports/donegal/Donegal-2024-Private-Monitoring-Programme-Audit-Report-15.07.2025.pdf ; https://www.meath.ie/council/council-services/drinking-water-and-waste-water/drinking-water/drinking-water-quality/private-group-water-supplies ; https://data.oireachtas.ie/ie/oireachtas/committee/dail/32/joint_committee_on_housing_planning_and_local_government/submissions/2018/2018-03-21_opening-statement-national-federation-of-group-water-schemes-nfgws_en.pdf",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b5"
+ },
+ "sonnet:ireland:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is plausible but I could not open the Act section (HTTP 403), so the 3-year record rule and penalties are unconfirmed. Competition exists: Kelsius FoodCheck 2.0 for Butchers is a digital HACCP system with an Irish butcher webinar (June 2025), and it covers abattoir records. That weakens the \"nothing does it\" claim. Market: about 500 local-authority abattoirs (Farmers Journal, undated; a 2010 Dáil answer said 220), plus butchers. Doubt remains about whether the Department takes over inspection. The buyers are few, price-sensitive and have low digital uptake, and a free FSAI pack exists. Not checked: council acceptance of electronic records, and Irish vendors.",
+   "searches": 2,
+   "sources": "https://kelsius.com/webinar-butchers-irl/ ; https://kelsius.com/wp-content/uploads/2023/08/Butchers-Flyer-UK-SCREEN_compressed.pdf ; https://www.farmersjournal.ie/department-could-take-over-the-inspection-of-small-abattoirs-816066 ; https://www.oireachtas.ie/ga/debates/question/2010-04-29/14/ ; https://www.foodingredientsfirst.com/news/fsai-initiates-new-food-safety-campaign.html",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b5"
+ },
+ "sonnet:ireland:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty to keep a controlled-drugs register is real: Reg 19 of S.I. 173/2017. S.I. 139/2026 starts 30 June 2026, but I couldn't read its operative text (fetch 403). Search snippets show it only changes the \"registration number\" definitions, and the computerised-register wording appeared in S.I. 138/2026. Either way, an electronic register is optional, so there is no forced switch. Competition exists: EMIS/Enlivio ProScript Connect has an Electronic Controlled Drug Register with an Ireland option. Irish pharmacy management systems will likely bundle this. Market is about 1,900 community pharmacies (PSI 2024: 1,989 registered). The buyer is reachable, but the opportunity is a feature inside pharmacy systems, not a standalone product. Not checked: PSI inspection guidance, and whether Helix or other Irish vendors already ship it.",
+   "searches": 4,
+   "sources": "https://www.irishstatutebook.ie/eli/2026/si/139/made/en/print ; https://www.irishstatutebook.ie/eli/2026/si/138/made/en/print ; https://www.irishstatutebook.ie/eli/2026/si/140/made/en/print ; https://www.emishealth.com/proscript-connect/electronic-controlled-drug-register ; https://data.gov.ie/en_GB/dataset/https-www-psi-ie-sites-default-files-document-pharmacies_website_statistics-csv ; https://www.psi.ie/information-and-resources/psi-annual-reports",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b5"
+ },
+ "sonnet:ireland:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. CRU's decision paper (15 Dec 2025) extends the RGI scheme to Non-Domestic Gas Works, and from 1 Sep 2026 it is a criminal offence to do this work unregistered. Installers must meet qualification rules or get RPL approval, complete the NDGS Award, and notify the scheme. Declarations of Conformance are required where applicable. The RGI search result said NDGW certificates are available through its own Electronic Certification System (ECS), which I did not confirm on a fetched page. So the core certification job is covered by the scheme's own tool, and the registration and RPL step is a one-off per installer. Market size not found; RPL application fees not found. Few sellable recurring workflows are left, so the score stays low. Penalty figure (EUR 50,000 / 3 years) comes from the domestic case and is unverified for non-domestic work.",
+   "searches": 2,
+   "sources": "https://www.cru.ie/regulations-policy/safety/recognition-of-prior-learning-rpl-process/ ; https://www.rgi.ie/ndgw ; https://www.cru.ie/about-us/news/non-domestic-gas-works-consultation/ ; https://www.govserv.org/IE/Naas/710244752161405/RGI-Scheme",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b5"
+ },
+ "sonnet:ireland:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Current Irish duty: SFPA says 10-12m vessels keep a paper logbook and 12m+ use electronic ieCatch (Reg 1224/2009, 404/2011). That is real, but the claim concerns a 2028 duty. The Commission page I fetched says only that under-12m vessels \"will be able to report catches electronically using mobile apps\" in 2028. It describes no penalty and no Irish implementation. I did not confirm Ireland's national rules, a Commission or state free app, or the Irish under-12m deadline. The EU-provided or national free app is the main risk, because the SFPA already gives away ieCatch kit, which would remove willingness to pay. I found no private Irish under-12m app. I found no current fleet count; only an old 2004 answer says about 72% of registered vessels are under 12m. Buyers are fragmented and the first obligation is not until 2028. Score 3.",
+   "searches": 3,
+   "sources": "https://oceans-and-fisheries.ec.europa.eu/fisheries/rules/enforcing-rules/inspections-monitoring-and-surveillance_en ; https://www.sfpa.ie/Who-We-Are/News/Details/sfpa-publishes-new-fisheries-information-notice-on-fishing-vessel-logbook-requirements ; https://thefishingdaily.com/latest-news/sfpa-launches-nationwide-information-sessions-on-new-control-rules/ ; https://www.oireachtas.ie/en/debates/question/2004-01-27/469/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b5"
+ },
+ "triage:ireland": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Home childminders, Tusla registration; different buyer and duty from K14 nurseries."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "High value goods dealers AML duty; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Small charities annual report and governance code; in scope community bodies."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Burial ground operators register; different buyer from K04 sculptors."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Group water scheme committees and small private supplies; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Small abattoirs and butchers records/HACCP; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Vet premises accreditation differs from K09 NVPS prescriptions duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Non-vet medicine retailer register; different buyer and duty from K09."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Scrap metal purchase register differs from K08 hauler permit returns."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Small pet sellers register; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Taxi operators SPSV renewal; sole traders, mandatory recurring duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Households with septic tanks, mandatory registration and inspection."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Small abstractors registration; one-off deadline passed but recurring duty remains, unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Casual traders licensing; sole traders, recurring duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Small recruitment agencies licence renewal; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Short-let hosts Failte Ireland register with 2026 deadline; different from K07."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Independent pharmacies controlled drugs register; in scope small professional office."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Non-domestic gas installers RGI registration; different from K01 solar PV."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Inshore fishing harvesters logbooks; different from K03 fish buyers."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small shops tobacco/vape licensing; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Solid fuel merchants registration and moisture rules with 1 Sep 2026 deadline."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Small refrigeration contractors F-gas records; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Timber processors EUDR; different buyer from K15 cattle, dates changed."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Estate agents PSRA client money reporting; different duty from K07."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Dental practices radiation compliance; small clinics, new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Small approved housing bodies regulatory returns; community bodies in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Independent bookmakers and arcades gambling licensing transition; new buyer."
+    },
+    {
+     "decision": "merge",
+     "id": "B13",
+     "reason": "Same buyer (high value goods dealers) and same AML duty as A2.",
+     "ref": "A2"
+    },
+    {
+     "decision": "merge",
+     "id": "B15",
+     "reason": "Same employment agency licence duty and buyer as A15.",
+     "ref": "A15"
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "Guest house/B&B guest register; distinct from B1 short-let register and mandatory."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "RCT principal contractors; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Small hauliers tachograph/CPC/licence; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "CRO annual return and RBO filings for micro and dormant companies; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Derogation farms nutrient records; different buyer and duty from K22."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Publicans licence renewal; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Statutory employer records differ from K20 pay transparency; unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Employment permit holders salary threshold; new duty."
+    }
+   ]
+  },
+  "tag": "w2b5"
+ }
+}

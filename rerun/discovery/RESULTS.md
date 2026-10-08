@@ -20,9 +20,9 @@ the results: `answer-key.md`.
 | Jamaica: security-guard payroll | found (4) | found (3) | found (4), Opus: 3, confirmed |
 | **Found** | **5 of 8** | **6 of 8** | **8 of 8** |
 
-Discovery also produced 40 candidates for Egypt and 36 for Jamaica (earlier runs reported 2-3 each),
-with every one of 36 and 32 coverage categories marked screened; the critic and gap fill added 10
-candidates per country.
+Discovery screened 36 categories for Egypt and 32 for Jamaica (the earlier reports screened 12-18
+industries each) and carried forward 40 and 36 scored candidates (the earlier reports scored 1-3
+opportunities each). The critic and gap fill added 10 candidates per country.
 
 ## Opus checks (top 5 per country)
 
@@ -70,7 +70,9 @@ confirmed it at 4.
 | Output tokens (estimated) | about $1.0 | about $0.8 |
 | **Total** | **about $4.3** | **about $3.4** |
 
-That is about twice the pilot's cost for the same two countries (about $4.30 then, workers plus
-checks), for 8 of 8 known leads instead of 5-6 and about ten times as many candidates. The
+That is about twice the pilot's cost for the same two countries (about $4 then, workers plus
+checks), for 8 of 8 known leads instead of 5-6 and about 2.3 times as many industries screened (68
+against 28-30). Per industry screened it is about 20% cheaper ($0.11 against $0.14); per verified
+lead of 4 or more it is not yet shown to be cheaper (one such lead in each run). The
 Workflow took 16 minutes with 2 agents at a time, and its staggered starts let agents read the
 shared ~38.5K-token prompt from cache.

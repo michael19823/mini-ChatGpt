@@ -1,4 +1,16 @@
 {
+ "challenge:mexico:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No product kills it. The main threat is CONAGUA itself: filing is free through its Ventanilla Digital Única, local offices give free guidance, and CONAGUA says no gestores are needed. The window is a single year, the duty is not recurring, and the key requirements (meter installed, fees paid) cannot be met with software.",
+   "reason": "I found no software that prepares the regularisation file, so this is not refuted. It is still weak. The program is a free one-time window (16 Jul 2026 to 15 Jul 2027), not a recurring duty. Users file free through CONAGUA's Ventanilla Digital Única (Llave MX login) or get free help at local offices, and CONAGUA says no intermediaries or gestores are needed. The hard requirements are things software cannot supply: a meter already installed, a well in operation for 2 years, 5 years of fees paid, and no pending proceedings. Buyers are small rural farmers and ejidos with low willingness to pay. Industrial titles and companies are excluded. The size of the eligible pool is unknown; the earlier decree found 163,689 expired titles. I did not read the full DOF text of the 13 requirements, and the follow-on recurring metering and records duty is unverified.",
+   "searches": 5,
+   "sources": "https://www.rivieramayanews.mx/mexicos-conagua-offers-free-water-concession-regularization-for-expired-permits/ ; https://www.hklaw.com/en/insights/publications/2026/07/mexico-publico-acuerdo-de-regularizacion-para-concesiones ; https://planoinformativo.com/1157723/conagua-inicia-regularizacion-de-concesiones-de-agua-en-slp ; https://www.gtlaw.com/ar/insights/2025/5/nueva-ventanilla-digital-unica-conagua ; https://basham.com.mx/conagua-propone-esquema-de-regularizacion-para-concesiones-vencidas-y-medidas-para-abatir-el-rezago-administrativo/ ; https://www.garrigues.com/es_ES/noticia/conagua-pone-marcha-primera-etapa-regularizacion-concesiones-asignaciones-aguas-nacionales",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b3"
+ },
  "critic:mexico": {
   "result": {
    "gaps": [
@@ -835,6 +847,602 @@
     "distribuidores gas LP gaseras 2026 nuevas obligaciones CNE permisos cilindros"
    ],
    "searches": 24
+  },
+  "tag": "w2b3"
+ },
+ "escalate:mexico:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Free IMSS ICSOE portal with an official bulk CSV template and guide (imss.gob.mx/icsoe). Paid SISUB/ICSOE CSV templates and courses from elconta.mx. Training from COFIDE. Consultancies such as Praxium. No dedicated SaaS found in 4 searches. Whether CONTPAQi Nóminas, Runa or Aspel export ICSOE/SISUB layouts: not verified (no documentation found either way).",
+   "duty": "LSS art. 15-A (ICSOE, IMSS): REPSE-registered contractors file a four-monthly information return per contract, due by the 17th of Jan, May and Sep. Penalty: LSS art. 304-A fr. XXII and 304-B fr. V, 500-2,000 UMA. No fine applies if the filer corrects late of their own accord before IMSS acts (art. 304-C). SISUB: Ley INFONAVIT art. 29 Bis, same calendar. Rule texts were seen on the mley.mx and sdv.com.mx compendia, not in the DOF itself.",
+   "market": "No official count of active REPSE registrants found. STPS cancelled more than 51,000 REPSE registrations in 2025, and more than 13,000 firms re-registered (Tiempo, 30 Sep 2026). A commercial guide cites more than 71,000 registered by Sep 2021. In 2024 only about 53% of firms due for renewal re-qualified (IDC Online). This suggests tens of thousands of active filers, but the figure is unverified.",
+   "reason": "The duty is real and in force. LSS art. 15-A requires REPSE contractors to file the ICSOE every four months, by 17 Jan, 17 May and 17 Sep. Missing or late filing is fined 500-2,000 UMA under LSS art. 304-A XXII and 304-B V. SISUB under Ley INFONAVIT art. 29 Bis follows the same calendar. I found no dedicated software that generates or validates ICSOE/SISUB files. What exists is the free IMSS portal with a bulk CSV template, CSV templates sold by elconta.mx, consultancies and courses. I could not check whether payroll suites (CONTPAQi, Runa) export these files. The market is large: STPS cancelled more than 51k REPSE registrations in 2025. But the free CSV template means low pain, payroll bureaus already absorb the work, and the job is three short filings a year. Willingness to pay is weak.",
+   "searches": 6,
+   "sources": "https://www.imss.gob.mx/sites/all/statics/icsoe/guias/3-Guia-Carga-Masiva-de-trabajadores.pdf ; https://imss.gob.mx/icsoe ; https://sdv.com.mx/compendio/ley-seguro-social/articulo-304-a/ ; https://mley.mx/LSS/articulo/304-b/ ; https://runahr.com/mx/recursos/nomina/informe-cuatrimestral-imss/ ; https://www.cofide.mx/blog/icsoe-sisub-que-son-quien-presenta ; https://elconta.mx/archivos-csv-sisub-infonavit/ ; https://www.tiempo.com.mx/economia/cancelo-stps-51-mil-inscripciones-del-repse-por-incumplimientos-septiembre-2026/ ; https://idconline.mx/seguridad-social/2025/12/18/repse-una-deuda-pendiente-en-la-formalizacion-empresarial ; https://capacitaciondepersonal.com.mx/repse-guia-completa-registro-obligaciones-empresas-mexicanas/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
+ },
+ "gapfill:mexico": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Avocado packers (empacadoras), orchards of at least 5 ha, cutting-crew companies (need REPSE), small exporters, and the advisors serving them",
+     "category": "33 Agricultural and food small producers and exporters (also 36)",
+     "category_note": "Recurring and mandatory, phased through 2027-28, tied to export so non-compliance blocks revenue.",
+     "evidence": "https://idconline.mx/laboral/2026/10/02/exportacion-de-aguacate-nuevo-certificado-laboral-obligatorio ; https://idconline.mx/laboral/2026/09/17/expedicion-del-certificado-laboral-de-agroexportacion-como-opera ; https://www.taxtodaymexico.com/stps-define-reglas-para-obtener-el-certificado-laboral-para-la-agroexportacion/ ; https://www.elimparcial.com/dinero/2026/04/27/mexico-condicionara-las-exportaciones-agricolas-al-cumplimiento-de-derechos-laborales-mediante-el-nuevo-certificado-velagro-una-medida-que-vincula-las-toneladas-enviadas-con-el-numero-real-de-jornales-pagados-ante-la-seguridad-social/ ; https://sidof.segob.gob.mx/notas/docFuente/5798809. One press source says the scheme links tonnes exported to jornales paid with IMSS (unverified).",
+     "existing": "Competitor search (VELAGRO certificado laboral software/asesoría) found only the official STPS platform and law-firm commentary (IDC, TaxToday); no private software or service. Generic payroll (Runa, CONTPAQi) not shown to cover it.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "VELAGRO Certificado Laboral (CLA) compliance file for avocado value-chain actors",
+     "score": 5,
+     "status": "promising",
+     "trigger": "LFT art. 283 Quáter (reform 1 May 2026); STPS Lineamientos VELAGRO plus avocado technical agreement (DOF 15 Sep / 1 Oct 2026, dates conflict). Phases: applicant registration 15-30 Sep 2026; value-chain registration 1-7 Nov 2026; patronal registrations from Jan 2027; technical factor phased to 100% from May 2027; permanent regime Nov 2027 / Feb 2028. Needs e.firma, IMSS registro patronal, 12-month operating statistics; prevención answered within 5 working days; categories A-D; CLA declared in the export pedimento.",
+     "unchecked": "Whether the CLA extends to berries, lime, mango and other export crops (not stated); renewal frequency and sanctions; how large the packer and orchard base is and who pays; whether the 5 ha cut-off excludes small orchards; official DOF text."
+    },
+    {
+     "buyer": "Avocado packing houses buying from many orchards in Michoacán, Jalisco and elsewhere; orchard owners issuing the CFDI",
+     "category": "33 Agricultural and food small producers and exporters",
+     "evidence": "https://www.cronica.com.mx/nacional/2026/10/06/agricultura-y-sat-refuerzan-controles-para-exportar-aguacate-a-eu/ ; https://planoinformativo.com/1173320/prohibe-gobierno-intermediarios-en-aguacate-de-exportacion ; https://elceo.com/economia/mexico-y-eu-acuerdan-transferir-a-la-secretaria-de-agricultura-la-supervision-de-huertos-de-aguacate/ ; SENASICA SRRC avocado directory https://www.gob.mx/cms/uploads/attachment/file/891460/Directorio_de_empresas_de_Aguacate_en_SRRC_30_Abril_2024.pdf",
+     "existing": "Competitor search (software trazabilidad empacadora aguacate CFDI) found no commercial Mexican avocado-packer ERP with huerta reception, GS1-128 lots and CFDI in one product; only an academic Michoacán project (ITS Los Reyes, Peribán and Tancítaro packers on manual logs and spreadsheets), EMEX mango traceability model, CFDI vendors (EdiFactMx) and foreign packhouse software (PackManager.Net). SENASICA SITMA is a separate system.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "SITAEX / fiscal-deductibility evidence file for avocado packers and certified orchards",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Agricultura agreement of 1 Oct 2026: export fruit only from certified orchards registered in SITAEX, direct huerta-to-packer, no collectors or maquila, CFDI issued by owner/usufructuary/possessor; packers must verify fiscal and phytosanitary compliance and keep documents so purchases are deductible (criterio 60/ISR/N, Anexo 7 RMF 2026, third modification resolution). SITAEX is reported to start 31 December (year not stated).",
+     "unchecked": "SITAEX launch date and interface (state system may absorb the function); number of small packers; whether big packers (APEAM members) already have in-house systems; huerta-level SRRC bitácora software; official DOF text of the agreement."
+    },
+    {
+     "buyer": "Farms and agricultural employers with seasonal workers (and those who subcontract harvest, who carry solidary liability); payroll bureaus serving them",
+     "category": "36 Small farms, ejidos, agro-labour (jornaleros IMSS)",
+     "evidence": "https://basham.com.mx/se-aprueban-las-reglas-para-beneficios-fiscales-a-patrones-y-trabajadores-eventuales-del-campo/ ; https://vegaguerrero.com/labor-law/new-fiscal-stimulus-for-the-agricultural-sector-reduction-in-imss-contributions-for-casual-farm-workers-in-2026/?lang=en ; https://www.perezllorca.com/es-mx/actualidad/nota-juridica/imss-reglas-para-la-aplicacion-de-beneficios-fiscales-a-patrones-y-trabajadores-eventuales-del-campo/ ; https://www.imss.gob.mx/sites/all/statics/pdf/otros/2026_02_09_MAT_imss-ACDO.AS1.HCT.270126_7.P.DIR.odt (not opened)",
+     "existing": "Competitor search (nómina agrícola jornaleros IMSS software) found no Mexican product specific to eventuales del campo. Generic tools: free IMSS IDSE and SUA, Runa (the page seen was the Peru version), CONTPAQi/Aspel payroll; AgritecGEO (Guatemala) does field-payroll but not IMSS logic.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "Campo-employer IMSS relief and affiliation keeper (eventual field workers)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "IMSS Consejo Técnico agreement ACDO.AS1.HCT.270126/7.P.DIR, published DOF 9-10 Feb 2026, implementing the 2007 decree and the Dec 2025 transitory credit (contributions capped at 3.60 UMA, 4.50 in the northern border), in force 2026: adhesion letter to the Subdelegación; IDSE notices within 7 working days; monthly constancias of days worked; Buzón IMSS mandatory; loss of relief and fiscal credit on non-compliance; 27-week limit before a worker becomes permanent.",
+     "unchecked": "Reduction-factor formula (Anexo Único) and exact deadlines; the size of the small-farm segment that is formal; whether payroll bureaus or CONTPAQi already handle it; overlap with the CLA candidate (same employers, same IMSS data); the Pérez-Llorca PDF could not be read (fetch returned binary), so details come from search snippets."
+    },
+    {
+     "buyer": "Small premises (restaurants, fondas, cantinas, shops) needing PIPC or visto bueno for licencia de funcionamiento and refrendo; small PC consultants",
+     "category": "35 Restaurants, fondas, cantinas and Protección Civil for small premises",
+     "evidence": "https://papelea.com/mx/estado-de-zacatecas/visto-bueno-de-programa-interno-de-proteccion-civil-para-la-operacion-de-un-establecimiento ; https://rets.sonora.gob.mx/ArchivosTramitesServicios/SON-CEPC-88-0280-AC/CartaCompromiso/20230126114003-%20carta-compromiso-.pdf ; https://mley.mx/Reg_LGPC/articulo/76/ ; https://papelea.com/mx/estado-de-tabasco/renovacion-de-registro-como-terceros-acreditados-a-organizaciones-civiles-empresas-capacitadoras-e-instructores-independientes-en-materia-de-proteccion-civil-portal-tabasco",
+     "existing": "Competitor search (software PIPC digital, tercero acreditado) found no dedicated software vendor; the work is done by consultants and terceros acreditados. Nothing confirmed on fines or on how many premises renew each year.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Programa Interno de Protección Civil annual renewal across state and municipal regimes",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ley General de Protección Civil (PIPC for private premises; Reglamento says annual validity, reviewed at least every 2 years); state and municipal rules: CDMX SGIRPC digital platform (constancias expiring e.g. 21-06-2026), Sonora annual revalidation, Zacatecas 12-month visto bueno tied to padrón comercial, Tabasco 1-year dictamen",
+     "unchecked": "Per-state fines and enforcement; whether a digital template/reminder product exists; per-premises willingness to pay; whether the document is a one-off consultant deliverable rather than a recurring data workflow; legal limits on software authoring PIPC without authority registration (Reglamento says authors need registration)."
+    },
+    {
+     "buyer": "Small agave growers (agaveros) in the Tequila appellation",
+     "category": "33 Agricultural and food small producers and exporters (tequila/agave)",
+     "evidence": "https://www.crt.org.mx/en/agroservices/ ; https://crt.org.mx/descargas/documentos/ConvocatoriaARS.pdf ; https://www.publimetro.com.mx/jalisco/2024/06/18/agricultores-de-agave-de-jalisco-deben-cumplir-con-norma-mexicana/",
+     "existing": "CRT runs its own agroservices portal and a grower-to-producer platform; no third-party software seen.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "CRT agave grower records (Constancia de Plantación, Pasaporte de Traslado de Agave)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "CRT/NOM-006-SCFI-2012: plantation registration and updates, agave transfer passport for movements, ARA compatibility report in Jalisco and Guanajuato; ARS certification requires SAT positive opinion and an inventory cap (50,000 or 100,000 plants, sources conflict)",
+     "unchecked": "Any recurring annual inventory declaration; digital CRT systems; grower count and who pays."
+    },
+    {
+     "buyer": "Small IMMEX holders in border states",
+     "category": "34 Customs and IMMEX",
+     "evidence": "https://camtomx.com/blog/immex-requisitos-obligaciones-2026 ; https://www.cofide.mx/blog/auditorias-aduaneras-immex-2026 ; https://www.veritas.org.mx/Impuestos/Comercio-exterior/anexo-24-y-programa-immex-en-el-cumplimiento-de-las-empresas ; https://www.tecma.com/annex-24-inventory-control/",
+     "existing": "Annex 24 solutions and consultants already visible (Tecma, Joffroy, NAPS, Veritas); GTX-type customs-trade vendors likely. No small-company exemption found, so the base is not 'quiet'. Competitor search not repeated in Spanish for named software.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "IMMEX Anexo 24 inventory control for small maquiladoras",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Decreto IMMEX and RGCE Anexo 24 (Apartado C added Oct 2024 for certified firms, 48-hour update lag, online customs access); annual operations report (blog says 31 May 2026); Nov 2025 Ley Aduanera reform raised fines; export invoices must show programme number and tariff fraction from March 2026 (blog)",
+     "unchecked": "Which vendors sell packaged software to firms with under 50 staff; price points; number of small IMMEX holders."
+    },
+    {
+     "buyer": "Tiendas, kioscos and tobacco shops",
+     "category": "31 Cannabis / tobacco and vape retailers",
+     "evidence": "https://www.unotv.com/nacional/es-oficial-entra-en-vigor-prohibicion-de-vapeadores-en-mexico-este-16-de-enero/ ; https://elceo.com/politica/prohiben-venta-de-vapeadores-en-mexico-usuarios-quedan-exentos-de-sanciones/",
+     "existing": "None needed: no registry or filing exists.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Vape and tobacco retailer compliance (COFEPRIS)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Vape ban in force 16 Jan 2026 (art. 282 and 456 Bis penalties; COFEPRIS voids earlier authorisations)",
+     "unchecked": "Whether Ley General para el Control del Tabaco changes added retailer registers or reporting; cannabis permits."
+    },
+    {
+     "buyer": "Sole traders in RESICO PF (cap MXN 3.5M)",
+     "category": "32 Tiendas de abarrotes and RESICO micro-taxpayers",
+     "evidence": "https://idconline.mx/fiscal-contable/2025/07/21/cfdi-global-en-el-resico-claves-para-cumplir-con-el-sat ; https://www.satfacil.com.mx/blog/resico-personas-fisicas-obligaciones-2026 ; https://www.edifact.com.mx/masinfo/factura-global-resico ; https://facturama.mx/blog/tablas-resico/",
+     "existing": "Facturama, EdiFactMx, SATFácil, yo-facturo, Alegra and the free SAT portal all offer factura global and RESICO help; generic accounting and invoicing are out of scope.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "RESICO / factura global tools for abarrotes and micro-taxpayers",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Monthly SAT payments, CFDI global (LISR 113-G, RMISC), Buzón Tributario; automatic RESICO expulsion after three missed monthly payments or a missed annual return (blog claim, unverified)",
+     "unchecked": "Nothing material; no sector niche surfaced."
+    },
+    {
+     "buyer": "Small firms using couriers or drivers",
+     "category": "36 Platform-worker reform",
+     "evidence": "https://www.cronica.com.mx/nacional/2025/12/30/imss-informa-sobre-aplicacion-de-la-prueba-piloto-para-trabajadores-de-plataformas-digitales/ ; https://contadormx.com/afiliacion-al-imss-trabajadores-plataformas-digitales/",
+     "existing": "Duty sits on platforms (Uber, Didi, Rappi), not small employers; a direct courier is an ordinary employee under IDSE (covered by payroll tools).",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "Platform-worker IMSS rules for small firms with own couriers",
+     "score": 1,
+     "status": "weak",
+     "trigger": "LFT platform-worker reform in force 22 Jun 2025; IMSS pilot 1 Jul-31 Dec 2025; Reglas Generales DOF 24 Jun 2025; a Ley del Seguro Social initiative is pending",
+     "unchecked": "Whether the pending LSS reform adds duties for small fleet owners; 40-hour week phase-in not searched."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31 Cannabis / hemp growers, tobacco and vape retailers (COFEPRIS)",
+     "found": "Vape ban in force 2026-01-16 (constitutional/LGS reform; prison 1-8 yrs; COFEPRIS voids prior sanitary authorisations). It is a prohibition, not a licensing or recurring filing regime, so no recurring workflow for tiendas de abarrotes. No tobacco-retailer register found. Cannabis not searched separately. Nothing new beyond a one-off ban.",
+     "status": "screened"
+    },
+    {
+     "category": "32 Tiendas de abarrotes, misceláneas and RESICO micro-taxpayers (SAT CFDI, monthly declarations, factura global)",
+     "found": "Real mandatory monthly cycle (RESICO PF cap MXN 3.5M; CFDI global daily/weekly/monthly under LISR 113-G, RMISC rule 2.7.1.21 per 2025 text; platform withholding raised to 2.5% in LIF 2026 and falls on platforms; Buzón Tributario). Already served by invoicing vendors (Facturama, EdiFactMx, yo-facturo, SATFácil seen in results), and generic accounting is out of scope. No niche found.",
+     "status": "screened"
+    },
+    {
+     "category": "33 Agricultural and food small producers and exporters (avocado, lime, tequila/agave, SENASICA/USDA)",
+     "found": "Strong new 2026 movement: Agricultura agreement (1 Oct 2026) requires export avocado only from certified huertas registered in the new SITAEX, direct huerta-to-packer, CFDI from orchard owner, packer ISR-deductibility proof (criterio 60/ISR/N, RMF 2026 Anexo 7); STPS Certificado Laboral para la Agroexportación via VELAGRO (LFT art. 283 Quáter, reform 1 May 2026) with avocado pilot, phased to Feb 2028. SRRC certification runs through a Profesional Autorizado. Tequila: CRT issues Constancia de Plantación and Pasaporte de Traslado de Agave, no annual inventory filing found. Lime, berries, tortillerías not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "34 Customs agents and small exporters (IMMEX, Anexo 24/31, T-MEC certificate of origin)",
+     "found": "Anexo 24 inventory control and the annual IMMEX operations report are mandatory; Apartado C added Oct 2024 for certified firms; a blog says the 2026 report deadline was 31 May and SE publishes suspended and cancelled programme lists each June and September. No small-operator exemption or simplified regime found. Consultancies and inventory-control providers (Tecma, Joffroy, NAPS, Veritas seen) already cover it, and GTX-style vendors are likely. Not tested further.",
+     "status": "screened"
+    },
+    {
+     "category": "35 Restaurants, fondas, cantinas and Protección Civil annual programme for small premises",
+     "found": "Ley General de Protección Civil requires a Programa Interno for premises. Renewal is state or municipal: CDMX moved registration to SGIRPC digital platform in 2023; Sonora revalidates annually (file 2 months before end of Feb, 45 working days); Zacatecas visto bueno valid 12 months and tied to padrón comercial; Tabasco dictamen 1 year. Authors of PIPC need an authority registration (tercero acreditado, e.g. Tabasco MXN 5,428.50 yearly). No fines or software vendor found. Fragmentation is real but the duty is a consultant-written document, not a recurring data entry.",
+     "status": "screened"
+    },
+    {
+     "category": "36 Small farms, ejidos, agro-labour (jornaleros IMSS), platform-worker reform, 40-hour week",
+     "found": "IMSS Consejo Técnico agreement ACDO.AS1.HCT.270126/7.P.DIR (DOF 9-10 Feb 2026) sets rules for the tax-relief credit for campo employers and eventual field workers: adhesion letter to Subdelegación, affiliation notices through IDSE within 7 working days, monthly constancia of days worked, mandatory Buzón IMSS, solidary liability for harvest contractors, loss of relief on non-compliance; 27-week eventual limit per employer. Platform-worker reform in force 22 Jun 2025, IMSS pilot to 31 Dec 2025, duties fall on platforms, no small-firm-specific rule found. 40-hour week not searched (K24 time clocks already rejected). RAN/ejido registry and REEMO not searched.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "reforma vapeadores prohibición venta comercios obligaciones registro COFEPRIS 2026 tiendas de abarrotes",
+    "factura global público en general obligaciones RESICO 2026 micronegocios SAT nuevas reglas plataformas digitales retenciones",
+    "registro huertas exportadoras aguacate SENASICA USDA empacadoras requisitos anuales padrón de productores",
+    "IMMEX informe anual Anexo 24 control de inventarios pequeña empresa 2026 reglas decreto IMMEX modificaciones obligaciones",
+    "refrendo anual licencia de funcionamiento programa interno de protección civil negocios obligatorio 2026 plazo multa",
+    "reforma trabajadores plataformas digitales IMSS registro patrón repartidores pequeñas empresas obligaciones 2026 jornaleros agrícolas alta IMSS",
+    "SITAEX aguacate trazabilidad huertos registro productores plataforma Agricultura acuerdo 1 octubre 2026",
+    "software programa interno de protección civil digital plataforma negocios refrendo licencia de funcionamiento Jalisco Nuevo León estado de México",
+    "software trazabilidad huertos aguacate empacadora bitácora SRRC certificación huerto productores aplicación",
+    "patrones del campo trabajadores eventuales del campo IMSS reglas 9 febrero 2026 aviso afiliación Buzón IMSS factor de reducción",
+    "Certificado Laboral para la Agroexportación CLA VELAGRO STPS requisitos productores agrícolas pequeños",
+    "tequila agave Consejo Regulador del Tequila registro productores de agave inventario obligaciones anuales pequeños agaveros",
+    "VELAGRO certificado laboral agroexportación software plataforma asesoría cumplimiento productores empacadoras servicio",
+    "software nómina agrícola jornaleros eventuales del campo IMSS cuotas alta baja IDSE campo agricultores sistema",
+    "tercero acreditado programa interno de protección civil registro plataforma digital CDMX constancia vigencia anual negocios pequeños costo",
+    "sistema empacadora aguacate software trazabilidad lotes huertas CFDI productor recepción fruta México ERP agrícola"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b3"
+ },
+ "opus:mexico:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No software or app for preparing the regularisation file was found in Spanish searches. Alternatives are free orientation at CONAGUA local offices (for example SLP, and earlier Jalisco modules), law firms (Garrigues, Holland & Knight, Basham, HLC) and gestoría blogs such as noticiasgobierno.com. For the meter side, CONAGUA-approved service providers (PSIs) and verification units (UVs) under NMX-AA-179 already supply meters, and the norm includes a data-transmission procedure to CONAGUA. One example is Hidrometria Technologies, listed on cosmos.com.mx.",
+   "duty": "Acuerdo for the first stage of regularisation of concession and assignment titles (DOF 15 Jul 2026, CONAGUA). Legal basis: 6th transitory of the Ley General de Aguas decree (DOF 11 Dec 2025). It covers titles that expired between 1 Jan 2009 and 16 Jul 2026 without a timely extension request. Covered uses are domestic, public urban, agricultural, livestock and aquaculture; agroindustrial use is excluded. Ejidos, irrigation districts and irrigation units have no volume cap; individuals are capped at 1 million m3 a year. The window runs 16 Jul 2026 to 15 Jul 2027 (365 days). Holland & Knight lists these requirements: installed meter, fees paid for the last 5 fiscal years, works operating for 2 years, no sanction proceedings pending. The accord has 13 requirements in total; only 4 were seen. CONAGUA will check actual volume use over 2 years and may cut the concession volume to what is actually used. The penalty is indirect: an expired title means operating without a concession, which risks extinction or closure (the closure claim comes from a low-quality blog). The meter duty (NMX-AA-179, deadline 1 Jul 2022) comes from the Ley Federal de Derechos rules (DOF 9 Apr 2020). Not confirmed: the 90-day appearance period, third-party filing, telemetry rules for 2026, and the full DOF text (not fetched).",
+   "market": "No national count of eligible expired titles was found. CONAGUA says only that \"a significant number\" of titles remain unregularised after the 2014-2025 decrees. Regional figures: about 400 expired wells in La Laguna (El Siglo de Torreón, 2026; page blocked with a 403, title only) and about 7,000 wells without a title or not in use in Chihuahua (El Congresista). The eligible pool is likely thousands to tens of thousands of titles, but this is unverified.",
+   "reason": "The duty is real. CONAGUA's first-phase regularisation accord was published in the DOF on 15 Jul 2026 under the 6th transitory of the Ley General de Aguas, and it is in force from 16 Jul 2026 to 15 Jul 2027. It needs an installed meter, 5 years of fees paid, works operating for 2 years and no sanction proceedings. I found no software doing this core job. However, it is a one-off, year-long window, not a recurring duty. Local CONAGUA offices give free guidance, and buyers are low-digital farmers and ejidos. Meter work (NMX-AA-179, with transmission to CONAGUA) already belongs to approved service providers (PSIs). I found no count of eligible titles; only 400 wells in La Laguna is reported. This suits a done-for-you service more than a SaaS.",
+   "searches": 5,
+   "sources": "https://www.hklaw.com/en/insights/publications/2026/07/mexico-publico-acuerdo-de-regularizacion-para-concesiones ; https://planoinformativo.com/1157723/conagua-inicia-regularizacion-de-concesiones-de-agua-en-slp ; https://www.garrigues.com/es_ES/noticia/conagua-pone-marcha-primera-etapa-regularizacion-concesiones-asignaciones-aguas-nacionales ; https://tiempo.com.mx/local/conagua-regularizacion-concesiones-agua-vencidas-2009/ ; https://www.gob.mx/cms/uploads/attachment/file/806975/Preguntas_frecuentes_NMX_Medidores_2023.docx.pdf ; https://www.cosmos.com.mx/empresa/hidrometria-technologies-gtyz.html ; https://elcongresista.mx/politica/chihuahua/conagua-depurara-7-mil-pozos-sin-titulo-en-chihuahua-a-partir-de-enero ; https://www.elsiglodetorreon.com.mx/noticia/2026/hay-400-pozos-vencidos-en-la-laguna-advierte-conagua.html",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
+ },
+ "opus:mexico:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Searches found no Mexican software built for NOM-033-FITO compliance. Close alternatives: Agroinventario (Chile; farm warehouse inventory, listed as not available in Mexico), Invoay (generic agro-shop POS) and Agrotis (Brazil, for resellers). SENASICA runs no known e-portal for sales logs; its procedures are an aviso plus certification through the state representation offices. Generic Mexican POS or ERP systems could cover inventory and expiry tracking, but the search did not find one that handles the written recommendation or certification-file workflow.",
+   "duty": "NOM-033-FITO-1995 (DOF 24/06/1996) is in force. It requires anyone who sells agricultural pesticides to file an aviso de inicio de funcionamiento, appoint a technical manager (agronomist) responsible for use recommendations, and get certified, with assessments that can be done by a Tercero Especialista Autorizado (SENASICA directrices, June 2022). It also bans expired, banned, adulterated, bulk or repackaged products and requires sales control for products that need a written recommendation. SENASICA posters still promote certification. Not confirmed from the primary text, because the PDFs could not be read: how often the sales log must be kept, the claim that a supplier list goes to SENASICA every 2 years, how often certificates are renewed, and the specific penalties (presumably under the Ley Federal de Sanidad Vegetal).",
+   "market": "Not found. No published count of certified or notified pesticide sellers was located. SENASICA keeps a Directorio Fitosanitario and state representation offices, but no total figure was found. A transparency request (PNT) would be needed. This is unverifiable for now.",
+   "reason": "The duty is real and current. NOM-033-FITO-1995 (DOF 24/06/1996, under Article 37 bis of the Ley Federal de Sanidad Vegetal) requires an aviso de inicio de funcionamiento, a named technical manager, and certification through a TEA (directrices from June 2022). It also requires sales control for products that need a written recommendation. No Mexican software built for this was found, only generic or foreign agro-input inventory tools such as Agroinventario (Chile, not available in Mexico). Weaknesses: the core job is a paper sales log, which ordinary POS software can largely handle. Enforcement intensity, the 2-year supplier list, renewal frequency and the size of the market could not be confirmed. Shops are rural and fragmented, and are likely to pay little.",
+   "searches": 6,
+   "sources": "https://www.normasoficiales.mx/nom/nom-033-fito-1995 ; https://www.gob.mx/cms/uploads/attachment/file/870635/CARTEL_Comercializas_plaguicidas_de_uso_agr_cola.pdf ; https://www.gob.mx/cms/uploads/attachment/file/791439/DIRECTRICES_TEA_empresas_de_plaguicidas_junio_2022.pdf ; https://www.gob.mx/cms/uploads/attachment/file/811010/AVISO_DE_INICIO_DE_FUNCIONAMIENTO_NOM_033_FITO__Versi_n_de_Consulta_.pdf ; https://www.gob.mx/cms/uploads/attachment/file/792348/Reference_documents_for_individual_or_legal_persons_interested_in_marketing_agricultural_pesticides.pdf ; https://repositorio.xoc.uam.mx/jspui/retrieve/f00a2b26-6aae-4219-9860-6e3bac15bd7e/253296.pdf ; https://www.comparasoftware.com/agroinventario ; https://invoay.com/business/retail/fertilizer-and-agro-products-shop-software/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
+ },
+ "opus:mexico:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no commercial UMA or cintillo software in Mexico. The nearest foreign analogues are HAMS (Scotland and Ireland) and GMS deer-management software (US). Free state channels exist: Coahuila accepts the report online at sma.gob.mx/tramites-vida-silvestre and lists a vidasilvestre.sma.gob.mx system, and SEMARNAT runs the federal trámite. In practice, consultant responsables técnicos registered with SEMARNAT prepare the management plans and reports. I could not confirm whether SEMARNAT runs a national electronic UMA or tag platform.",
+   "duty": "Reglamento LGVS art. 50 requires a yearly activity report filed April to June, covering indicators, harvest results, hunting-service provider licence numbers and socio-economic data, on form FF-SEMARNAT-099, free of charge. Contingency reports are due within 3 working days. Art. 52 sets the sanctions for omission: a written warning or denial of harvest authorizations on the first omission, and revocation of the UMA registration after 2 consecutive years. According to a UAM document, reviewers check SINAT by RFC to confirm the annual report was filed before processing other requests. I did not verify the 30-day report that hunting-service providers must file after each service on public land.",
+   "market": "Nuevo León has 2,757 registered UMA ranches (state congress, 2023). Northern Coahuila has up to about 800 hunting ranches. Chihuahua has about 250 hunting UMAs according to the claim's source, which I did not re-check. Nationally there were about 5,000 UMAs in 2002 (INE/SEMARNAT), and an academic study reports the number declining between 1999 and 2021. I could not open the datos.gob.mx dataset (HTTP 403), so I have no current national total. My estimate is a few thousand hunting UMAs, mostly in the north.",
+   "reason": "The duty is real and in force. Under Reglamento LGVS art. 50 every UMA files an annual activity report between April and June (form FF-SEMARNAT-099), plus contingency reports within 3 working days. Art. 52 sanctions a missed report with a written warning or denial of harvest authorizations on first omission, and revocation of registration after two consecutive years. I found no software for UMA reports or tag (cintillo) management. Even so, the opportunity is weak. The report is one free annual form, filed online through state or SEMARNAT portals (Coahuila's sma.gob.mx). In practice the responsable técnico (consultant biologists) usually prepares it, so the buyer group is small and fragmented. Willingness to pay is low, and the market is seasonal and only a few thousand UMAs.",
+   "searches": 6,
+   "sources": "https://mley.mx/Reg_LGVS/articulo/50/ ; https://mley.mx/Reg_LGVS/articulo/52/ ; https://papelea.com/mx/estado-de-coahuila-de-zaragoza/informe-de-actividades-de-conservacion-y-aprovechamiento-registro-estatal-de-tramites-y-servicios-retys ; https://www.hcnl.gob.mx/glpan/2023/10/turismo-cinegetico.php ; https://paot.org.mx/centro/ine-semarnat/informe02/estadisticas_2000/informe_2000/07_Aprovechamiento/7.2_Manejo/index.htm ; https://revistas.ecosur.mx/sociedadyambiente/index.php/sya/article/download/2842/1957 ; https://papelea.com/mx/secretaria-de-medio-ambiente-y-recursos-naturales/registro-de-responsable-tecnico-tramites-gobmx ; https://www.posta.com.mx/coahuila/arranca-temporada-de-caza-de-venado-en-coahuila-bueno-o-malo/vl2118002",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
+ },
+ "opus:mexico:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no commercial Mexican veterinary software that advertises quantified recetas with folios or the monthly Group I report. Comparasoftware and AgendaPro list only general clinic-management tools, and I did not check each vendor. The main threat is the state's own system: SENASICA's Sistema Informático de Trazabilidad de Productos Veterinarios (SITPV). Phase 1 counts each receta by folio, records species, weight and number of animals, and holds a database of all Group I products and antibiotics. Mexico presented it at WOAH Americas in Dec 2024 and again in Nov 2025 (\"Sistema de prescripción electrónica México\"). I could not confirm whether it is live; both PDFs are image-only. Argentina's SENASA made electronic prescriptions mandatory in July 2026 (Res. 654/2026), which suggests the region is moving toward free state systems.",
+   "duty": "Confirmed and in force. NOM-064-ZOO-2000 sets how veterinary drugs are classified and prescribed, and applies to everyone who prescribes, sells or uses them. A Group I product needs a receta médica cuantificada with a consecutive folio authorised by SADER/SENASICA, printed as an original plus one copy. The establishment that fills it keeps the original for 1 year. The MVZ files monthly Group I use reports (Excel by email) and keeps the Anexo 5 control format, which records folio, registration, batch, species, dose and withdrawal period. To get a permanent key (CPA) and folios, the MVZ applies to the state representation, which authorises 50 folios at a time and is slow to respond. A February 2025 SENASICA alert (Ketamin-Pet) shows the folio requirement is still being enforced. Penalties fall under the Ley Federal de Sanidad Animal, but I did not confirm the amounts. I did not confirm whether NOM-064 is being revised. SENASICA's open-data list of Group I products was updated on 2026-03-11.",
+   "market": "Not found. I did not reach a count of MVZs holding a CPA and folios, or a register of vet pharmacies and distributors. The only figure is the 30% monthly reporting rate in 2023, with no total behind it. Group I covers controlled drugs such as ketamine and some hormones and antibiotics, so the users are mostly livestock vets and vet pharmacies. My rough guess is a few thousand to low tens of thousands nationally; this is unverified.",
+   "reason": "The duty is real. Under NOM-064-ZOO-2000, Group I products need a receta cuantificada with folios that SADER/SENASICA authorises. The seller keeps the original for 1 year, and the vet (MVZ) sends a monthly Group I report as an Excel file by email. Compliance is weak: in 2023 only 30% of MVZs filed regularly, so enforcement is soft and willingness to pay is low. SENASICA is building its own free electronic prescription system, SITPV, presented at WOAH in Dec 2024 and Nov 2025. Its live status is unconfirmed, and if it launches it removes the gap. The folios are a state-controlled resource, so the product depends on state processes. I found no commercial vendor that covers this. I could not find how many MVZs hold folios.",
+   "searches": 6,
+   "sources": "https://www.gob.mx/cms/uploads/attachment/file/647530/OBTENCION_DE_CLAVE_PERMANENTE_AUTORIZADA_Y_FOLIOS_PARA_RECETAS_M_DICAS_CUANTIFICADAS_POR_PARTE_DE_M_DICOS__VETERINARIOS.pdf; https://www.gob.mx/cms/uploads/attachment/file/294587/Formatos_de_control_y_registro_de_tratamientos_con_f_rmacos_categorizados_en_Grupo_I.pdf; https://www.gob.mx/cms/uploads/attachment/file/722845/CAPACITACI_N_A_MVZ_O_PMVZ_REGULATORIOS_DSCP.pdf; https://rr-americas.woah.org/app/uploads/2024/12/5-Sistema-informatica-de-trazabilidad-de-productos-veterinarios-.pptx-1.pdf; https://rr-americas.woah.org/app/uploads/2025/11/9-Sistema-de-prescripcion-electronica-Mexico.pdf; https://www.normasoficiales.mx/nom/nom-064-zoo-2000; https://bmeditores.mx/entorno-pecuario/alerta-senasica-por-farmacos-falsificados-para-animales/; https://www.comparasoftware.com/veterinario; https://www.estudio-ofarrell.com/el-senasa-crea-un-sistema-integral-de-trazabilidad-de-productos-veterinarios-y-reglamenta-la-receta-veterinaria-electronica/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b3"
+ },
+ "opus:mexico:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Mexican product that prepares or keeps DGSP Registro Nacional filings. Generic guard-operations software (GuardsPro/Guardso, CGuardPro, OfficerReports) covers patrols, shifts and incident reports and does not mention the DGSP or the Registro. Not reached: whether the DGSP/SSPC runs an online filing portal (the Reglamento allows electronic or printed forms), and Mexican payroll/HR vendors for guard companies that may export DGSP formats. Both are risks to check.",
+   "duty": "LFSP art. 32 (prestador obligations) and Reglamento arts. 32-34: register altas/bajas with the cause, plus uniforms, vehicles, arms and radios, in the Registro Nacional de Empresas, Personal y Equipo de Seguridad Privada, on electronic or printed forms. Operational staff need annual medical, psychological and toxicology exams. Written notices are due within 3 business days for theft or loss of documents or IDs and for suspension of activities, and within 5 for asset-disposal orders. Firms must tell the state authority about a federal authorisation within 30 days. Modality VI firms file a buyer registry every 6 months. Altas/bajas have no fixed deadline, so they are event-driven. Penalties under LFSP art. 42 run from amonestación to fines and suspension or revocation. Enforcement is current: DGSP file DGSP/DELC/PAS/169/2026 (28 Aug 2026) gave GCH Seguridad Privada an amonestación for not reporting the baja of 112 uniforms. I could not verify the claim's 1,000 UMA fine. I found no source showing that a Ley General de Seguridad Privada has been published. A Senate bill passed in 2018, but nothing confirms it was enacted, so the LFSP still applies.",
+   "market": "I found no official 2025/2026 count. A commercial training site claims about 8,500 authorised firms employing more than 600,000 guards, citing the Registro Nacional; this is unofficial. Jalisco: 289 firms, 83 of them state-authorised (nmas.com.mx, date unclear). The DGSP open-data list of federally authorised firms was last updated in Oct 2018 and gives no total on the page. Each of the 32 states also licenses single-state firms under its own law, for example Nuevo León and Estado de México.",
+   "reason": "The duty is real and in force under the Ley Federal de Seguridad Privada (last reformed in 2011) and its Reglamento. Firms must record personnel altas/bajas with the cause, uniforms, vehicles, arms and radios in the Registro Nacional, and give operational staff annual medical, psychological and toxicology exams. The DGSP enforces it: in Aug 2026 GCH Seguridad Privada received a public amonestación for not reporting the baja of 112 uniforms. Weaknesses: the rules set no fixed deadline for altas/bajas, so the work is event-driven, and the sanction I verified was a warning, not a fine. I found no DGSP-specific Mexican software. Generic guard tools (GuardsPro, CGuardPro) don't cover the Registro. I couldn't confirm whether the DGSP has an online filing portal. The market of about 8,500 firms is an unofficial figure.",
+   "searches": 6,
+   "sources": "https://mley.mx/LFSP/articulo/32/ ; https://mley.mx/LFSP/articulo/10/ ; https://mley.mx/Reg_LFSP/articulo/32/ ; https://mley.mx/Reg_LFSP/articulo/33/ ; https://mley.mx/Reg_LFSP/articulo/34/ ; https://sidof.segob.gob.mx/notas/docFuente/5798715 ; https://www.diputados.gob.mx/LeyesBiblio/ref/lfsp.htm ; https://capacitaciondepersonal.com.mx/autorizacion-para-prestar-servicios-de-seguridad-privada-en-mexico-2025-guia-completa-con-costos-reales/ (search snippet only, fetch returned empty) ; https://www.nmas.com.mx/jalisco/seguridad/habra-registro-de-empresas-de-seguridad-privada-en-jalisco/ ; https://www.datamx.io/dataset/direccion-general-de-seguridad-privada/resource/9e1109a2-5762-4a75-8f27-e221a815661d ; https://zetatijuana.com/2018/04/de-forma-sorpresiva-el-senado-aprueba-dictamen-para-crear-ley-general-de-seguridad-privada/ ; https://www.comparasoftware.com/c-guard-pro ; https://blog.guardspro.com/how-guardspro-guard-management-software-helps-security-companies/",
+   "suggested_score": 5,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
+ },
+ "opus:mexico:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free official STPS VELAGRO platform does the filing. No private software, consultancy or service built for VELAGRO/CLA was found in searches. Possible entrants are generic REPSE/IMSS payroll providers and APEAM, the packers' association, which co-designed the scheme. Unverified whether any of them already covers the chain-data job.",
+   "duty": "CLA through the STPS VELAGRO platform (Lineamientos and Acuerdo Técnico, DOF 15 Sep 2026; SE-STPS tariff acuerdo, DOF 1 Oct 2026, which recognises CLAs issued since 15 Sep). The exporter applies with e.firma, gives 12 months of statistics, registers the value chain (1-7 Nov 2026), then adds IMSS patronal registrations monthly from Jan 2027 (first 7 days of each month). The technical factor phases in from May 2027 and the permanent regime starts Feb 2028. The CLA is renewed per validity period (applications up to 7 days before expiry) and declared in the export pedimento. Without a valid CLA, exports cannot continue. Neither the DOF acuerdo nor the IDC article names explicit sanctions. Only avocado is covered for now; berries are announced but undated.",
+   "market": "APEAM figures: about 30,000 producers, 42,000-54,000 orchards, and 74 to more than 90 packing houses in Michoacán (figures vary by date). Jalisco had 11 certified packers in 2022. The STPS cites more than 18,000 avocado cutters and packers not affiliated to IMSS. The direct CLA applicants number roughly 100+ packers/exporters. The wider affected base is the cutting crews and the producers with 5 ha or more; their number was not found.",
+   "reason": "The duty is real and in force. The STPS Acuerdo Técnico (signed 15 Sep 2026) puts avocado (FA 0804.40.01) under the CLA, based on LFT art. 283 Quáter. The covered parties are producers with 5 ha or more, cutting firms (must hold REPSE), packers and exporters. IMSS registro patronal coverage rises 25/50/75/100% from 2027, and certificates are renewed in cycles. The formal filers are only about 90 to 100 packers/exporters, mostly mid-size; the pain sits in collecting chain data from thousands of orchards and crews. No private software or VELAGRO service was found. The pilot rules keep changing, APEAM or payroll/REPSE vendors could add this, and the official texts name no sanctions. Berries are planned but have no date.",
+   "searches": 5,
+   "sources": "https://sidof.segob.gob.mx/notas/docFuente/5798810 ; https://idconline.mx/laboral/2026/10/02/exportacion-de-aguacate-nuevo-certificado-laboral-obligatorio ; https://idconline.mx/laboral/2026/09/17/expedicion-del-certificado-laboral-de-agroexportacion-como-opera ; https://www.portalfruticola.com/noticias/2025/12/19/certificado-laboral/ ; https://mexico.quadratin.com.mx/presentan-certificado-para-exportar-aguacate-respaldado-por-trabajo-digno ; https://avocadoinstitute.org/apeam-mhaia/about-apeam/ ; https://www.portalfruticola.com/noticias/2022/07/29/apeam-comienza-envios-de-aguacates-hass-de-jalisco-hacia-ee-uu ; https://www.portalfruticola.com/?p=609645",
+   "suggested_score": 5,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
+ },
+ "sonnet:mexico:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: LISR art. 82 fr. VI, RMF ficha 21/ISR, and the transparency declaration is due in May. In 2023, 699 donatarias missed it, and missing it is grounds for losing authorisation. The CFDI donatarias complement and electronic accounting also apply. SAT counts 10,017 donatarias in 2026, down from 10,361 in 2025. Most are small, but the whole market is only about 10k, mostly CDMX. Competition: SAT's free \"Transparencia\" program covers the declaration. The searches found no Mexican donataria-specific tool, but generic PACs and accounting suites (Aspel, CONTPAQi) likely include the complement. Buying runs through accountants, and small charities have little money to pay. Two checks are open: PLD duties, and fines of about 102k pesos, which come from 2022 sources. The score stays low because of the small market and the overlap with generic accounting.",
+   "searches": 3,
+   "sources": "https://www.sat.gob.mx/minisitio/DonatariasAutorizadas/documentos/padron_donatarias/EstadisticosDonatariasAutorizadas2026.pdf; https://www.veritas.org.mx/Impuestos/Fiscal/declaracion-de-transparencia-para-donatarias-autorizadas; https://www.veritas.org.mx/Ambito-universitario/Ambito-universitario/Mayor-fiscalizacion-a-las-donatarias-autorizadas-en-2026; https://www.sat.gob.mx/minisitio/DonatariasAutorizadas/documentos/Declaracionransparencia2026.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
+ },
+ "sonnet:mexico:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated ICSOE/SISUB software found. Consultancies (Praxium), training, and the free IMSS/Infonavit portals. Payroll-suite export unconfirmed.",
+   "duty": "LSS art. 15-A and Ley INFONAVIT art. 29 Bis: ICSOE and SISUB due 17 Jan, May and Sep for the preceding four months, including nil filings. Fine 500-2,000 UMA under LSS 304-A XXII and 304-B V.",
+   "market": "No official count of active REPSE registrants found; sources say only \"thousands\". Unverified.",
+   "reason": "Duty is real: ICSOE (IMSS) and SISUB (Infonavit) are due by 17 Jan, May and Sep, and \"no information\" filings are also required. The fine is 500-2,000 UMA (LSS arts. 304-A XXII and 304-B V), about 58.7k-234.6k MXN at UMA 2026 of 117.31. The Infonavit fine is reported as 3-350 UMA. These figures come from consultancy sources, not the IMSS or Infonavit. I found no dedicated filer or checker software. I could not confirm whether CONTPAQi Nóminas or Aspel NOI export ICSOE/SISUB; nothing says they do. Free IMSS and Infonavit portals take the filings. The REPSE registrant count was not found. The pain is moderate and the filing is only three times a year. Consultancies already sell this at low prices, and the buyer is a small contractor, so willingness to pay is limited. Overlaps K03.",
+   "searches": 3,
+   "sources": "https://praxiumconsultores.com/blog/icsoe-y-sisub-cuanto-cuesta-cumplir-cada-cuatrimestre ; https://www.mondaq.com/mexico/outsourcing/1805770/companies-with-repse-registration-obligations-januaryapril-2026 ; https://idconline.mx/laboral/2026/06/10/adios-trabas-del-repse-stps-facilita-la-renovacion-y-registro ; https://elconta.mx/tag/icsoe-informativa-de-contratos-de-servicios-u-obras-especializados/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
+ },
+ "sonnet:mexico:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "duty": "Controlled-drug control books must be authorised (COFEPRIS-03-005) and kept. A previsiones notice is filed under COFEPRIS-03-014, said to be semiannual, with 03-004 annual. Antibiotic prescription retention has applied since 2010. Official text and penalties were not verified.",
+   "market": "Not found. A 2015 Salud y Fármacos bulletin cites 2,962 pharmacies selling narcotics or controlled drugs, state unclear.",
+   "reason": "Duty is plausible: COFEPRIS-03-005 (control-book permit, free, about 5 working days) and 03-014 (previsiones notice, one aggregator says every six months) exist, and COFEPRIS checks that authorised control books exist. Only secondary aggregators were found. The 03-014 frequency conflicts (another ficha shows a 1-year resolution time), the 2026 reform effect was not checked, and the penalty was not found. An IMSS tender annex mentions books that are written or electronic, authorised by the health authority, so software is possibly allowed. No dedicated Mexican compliance product turned up, but I did not check pharmacy POS vendors by name. Market: no count of licensed pharmacies; one 2015 state figure was 2,962 pharmacies selling controlled drugs, state unclear. Pain is modest, filings are infrequent, and the buyers are fragmented.",
+   "searches": 5,
+   "sources": "https://papelea.com/mx/estado-de-zacatecas/cofepris-03-005-permiso-de-libros-de-control-de-estupefacientes-y-psicotropicos ; https://papelea.com/mx/estado-de-zacatecas/cofepris-03-014-aviso-de-previsiones-de-compra-venta-de-medicamentos-que-contengan-estupefacientes-para-farmacias-droguerias-y-boticas ; https://papelea.com/mx/estado-de-coahuila-de-zaragoza/cofepris-03-005-registro-estatal-de-tramites-y-servicios-retys ; https://reposipot.imss.gob.mx/OOAD/OAXACA/ADQUISICIONES%202025/4TO%20TRIMESTRE/AA-50-GYR-050GYR013-N-165-2025/ANEXO%20TECN.pdf ; https://www.saludyfarmacos.org/boletin-farmacos/boletines/nov2010/Farmacias-no-estan-listas ; https://repositorioinstitucional.buap.mx/bitstream/20.500.12371/15967/1/20211203085018-9209-TL.pdf",
+   "suggested_score": 4,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b3"
+ },
+ "sonnet:mexico:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. A CNE acuerdo (DOF 21-Jan-2026) binds permit holders selling LP gas to end users (plant, autotanque, delivery vehicle, retail stations). They must respect weekly maximum prices, report transaction volumes, and supply information the CNE requests, or face unspecified sanctions (Cuatrecasas note only; I did not see the DOF text). The workflow is thin. The CNE publishes the prices itself, so there is nothing to compute or file beyond volume reporting. A Milenio snippet says the CNE dropped the cap for final sale at bodegas and service stations in Nov 2025 (acuerdo A/023/2022 partly repealed). I could not open that page to confirm it, and the Jan 2026 note appears to contradict it. No competitor or vendor search found anything. No current permit count was found; the datos.gob.mx CNE CSVs would give one. Weak standalone product; at best a feature of LP gas ERP or volumetric-control software (K26).",
+   "searches": 3,
+   "sources": "https://www.cuatrecasas.com/es/latam/publico/art/cne-regula-precios-maximos-gas-licuado-petroleo ; https://www.milenio.com/negocios/cne-elimina-regulacion-de-precio-maximo-en-gas-lp ; https://www.datos.gob.mx/dataset/gas_licuado_de_petroleo",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b3"
+ },
+ "sonnet:mexico:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Art. 83 is in the Reglamento de la LFAFE, not the Ley itself. It requires every general-permit holder (fabricantes and talleres, comerciantes, others) to file a report with SEDENA in the first 10 days of each month on the previous month's operations. The fabricante and comerciante categories can cover pyrotechnics, although the text mentions only arms serial numbers. I did not find the penalty, whether filing is paper or electronic, or any competing software. The only online SEDENA channel I found is VUCEM, which handles foreign-trade procedures. Market is small and informal: roughly 436 to 680 permits in Tultepec, with about 50% of workshops reported clandestine. The buyers are hard to reach and unlikely to pay, so the score stays low.",
+   "searches": 2,
+   "sources": "https://mley.mx/Reg_LFAFE/articulo/83/ ; https://www.excelsior.com.mx/comunidad/clandestinos-50-de-talleres-de-pirotecnia-en-tultepec/1250753 ; https://vanguardia.com.mx/articulo/ejercito-habia-validado-permisos-para-vender-pirotecnia-en-mercado-de-tultepec",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
+ },
+ "sonnet:mexico:B8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: CNBV instructivos for R08 (Dec 2021 version) and R24-B (Dec 2023 version) exist, and filing goes via SITI under Circular Única art. 310. I did not confirm penalties or frequency from primary text. Market is small: one study citing CNBV reports gives about 153 supervised SOCAPs in 2022. I found no 2025-26 count. Competition was not resolved: searches found no named vendors, but core-banking vendors for SOCAPs probably include regulatory reports in the core. The buyer pool of about 150 entities is small, many are served by federations, and the reports are generated from the core system. Hence a low score.",
+   "searches": 4,
+   "sources": "https://www.gob.mx/cms/uploads/attachment/file/693189/SOCAPS_R08_Captaci_n_Vigencia_202003-actual_Actualizaci_n_20_Diciembre_2021.pdf ; https://www.gob.mx/cms/uploads/attachment/file/874697/SOCAPS_R24_B-2422_Informaci_n_de_variables_operativas_Vigencia_201506-actual_Actualizaci_n_06_diciembre_2023.pdf ; https://www.redalyc.org/journal/6740/674082682002/674082682002.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b3"
+ },
+ "sonnet:mexico:B9": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: LFCPQ art. 7 requires annual reports to COFEPRIS (identity, counterparties, volumes per activity, proof that activity matches corporate purpose and import/export permits). The article gives no due date or penalty; art. 23 may carry sanctions but I did not read it. The 2023 reform created the SISUS electronic system and filings go through VUCEM, so a state portal already exists. SAT Anexo 10 RGCE 2026 lists Sector 3 (precursors and essential chemicals) in the PISE. I found no commercial software and no counts of firms. Market is niche and probably served by customs brokers and sanitary consultants. Competition and market size were not checked. Score stays at 3.",
+   "searches": 4,
+   "sources": "https://mley.mx/LFCPQ/articulo/7/ ; https://mley.mx/LFCPQ/articulo/14/ ; https://elceo.com/politica/cofepris-lanza-plataforma-de-rastreo-de-precursores-quimicos-utilizados-en-sustancias-ilegales/ ; https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/documentos2026/rgce/anexos/Anexo10delasRGCEpara2026.pdf ; https://mley.mx/Reg_LFCPrecQuim/articulo/6/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b3"
+ },
+ "sonnet:mexico:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Criterio 60/ISR/N (Tercera Resolución de Modificaciones a la RMF 2026, Anexo 7) makes avocado purchases for export deductible only if the fruit comes direct from certified orchards, the CFDI is issued by the owner, usufructuary or possessor, and the packer keeps compliance documents. It takes effect 31 Dec 2026, and the phytosanitary agreement was published in the DOF on 1 Oct 2026. The penalty is loss of the ISR deduction, with no fines described. The duty is one-off at start-up, then ongoing per purchase. Market is small: about 72 certified Michoacán packers (2021-22) and about 49,000 certified orchards. The sources do not give a current total of packers, so that figure may be out of date. Big packers likely have in-house systems. SITAEX is a state system and may absorb the traceability function. Packers are a thin, reachable niche, but the product is narrow. I did not find a dedicated competitor, though I ran only a limited search. The official DOF text was not reached.",
+   "searches": 3,
+   "sources": "https://www.taxtodaymexico.com/?p=13981 ; https://planoinformativo.com/1173320/prohibe-gobierno-intermediarios-en-aguacate-de-exportacion ; https://www.cronica.com.mx/nacional/2026/10/06/agricultura-y-sat-refuerzan-controles-para-exportar-aguacate-a-eu/ ; https://www.ties.unam.mx/ties/article/download/109/55/1304 ; https://www.diariodemexico.com/mi-nacion/afirma-berdegue-75-empacadoras-aguacate-en-michoacan-ya-estan-habilitadas",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b3"
+ },
+ "sonnet:mexico:GAPS3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: IMSS agreement ACDO.AS1.HCT.270126/7.P.DIR (DOF 9-10 Feb 2026) sets rules for the 2007 decree, extended to 31 Dec 2026. Obligations: adhesion at the Subdelegación, IDSE movements within 7 working days, monthly constancias, Buzón IMSS, joint liability for harvest contractors, loss of benefit on non-compliance. Correction: one source says it takes effect 180 days after publication, 8 Aug 2026, not on publication. That is now in force. IMSS, not the employer, computes the partial-exemption constancias, so the software job is thin. The relief ends 31 Dec 2026 unless extended, which makes it a one-year play. I found no specific competitor, but my search was shallow. Market size was not found; the datamx series is stale (2018). I could not read the primary text. Pain is moderate, buyers are scattered farms, and willingness to pay is uncertain.",
+   "searches": 4,
+   "sources": "https://basham.com.mx/se-aprueban-las-reglas-para-beneficios-fiscales-a-patrones-y-trabajadores-eventuales-del-campo/ ; https://www.taxtodaymexico.com/?p=13209 ; https://www.taxtodaymexico.com/?p=12981 ; https://www.imss.gob.mx/sites/all/statics/pdf/otros/2026_02_09_MAT_imss-ACDO.AS1.HCT.270126_7.P.DIR.odt",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b3"
+ },
+ "triage:mexico": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New: small water-concession holders' title regularisation with a dated window; no known idea."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "New: agro-chemical dealers' NOM-033-FITO log and certification."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "New: UMA and hunting outfitter annual reporting."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "New: vets' Group I recetas and monthly reports; different from K05 cattle movement."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "New: small donatarias' SAT compliance; in scope as associations."
+    },
+    {
+     "decision": "known",
+     "id": "A6",
+     "reason": "Jeweller LFPIORPI avisos are the same AML-suite duty already rejected under K23.",
+     "ref": "K23"
+    },
+    {
+     "decision": "known",
+     "id": "A7",
+     "reason": "Money-changer AML is the same AML-suite category as K23.",
+     "ref": "K23"
+    },
+    {
+     "decision": "known",
+     "id": "A10",
+     "reason": "Cattle guías de tránsito for ranchers and traders is the K05 idea.",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Septic and special-waste hauler authorisations differ in duty and state layer from K01 RPBI/used-oil manifests; unsure, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Placement agencies are a different buyer and duty from K02/K03."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "New: pressure-equipment control-number filings with a fresh STPS accord."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Rural water committees are a different buyer from concession holders; new duty under the 2025 law."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "New: beekeepers' traceability registration."
+    },
+    {
+     "decision": "keep",
+     "id": "A16",
+     "reason": "New: scrap dealers' municipal registers; verifiers should check whether the duty is mandatory."
+    },
+    {
+     "decision": "keep",
+     "id": "A17",
+     "reason": "New: taxi concession holders' state padrón and revista duties."
+    },
+    {
+     "decision": "keep",
+     "id": "A18",
+     "reason": "New: tattoo studios' COFEPRIS card and logbook."
+    },
+    {
+     "decision": "keep",
+     "id": "A19",
+     "reason": "New: private nurseries' registry and civil-protection duties."
+    },
+    {
+     "decision": "keep",
+     "id": "A20",
+     "reason": "New: funeral homes' sanitary licensing and transfer notices."
+    },
+    {
+     "decision": "keep",
+     "id": "A21",
+     "reason": "New: driving-school registration; weak, but unverified rather than out of scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Different duty from K02 (DGSP registry filings and training evidence versus hours registry); K02 is not a rejection."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "ICSOE/SISUB four-monthly returns for REPSE contractors is a distinct duty from K03."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "New: pharmacies' controlled-medicine books and previsiones; small professional offices in scope."
+    },
+    {
+     "decision": "merge",
+     "id": "B4",
+     "reason": "Same buyer group (small water-concession holders) and same core duty under the 2025 Ley General de Aguas.",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "CNE LP-gas price compliance is a different duty from the K26 SAT volumetric controls."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "New: pyrotechnics sellers' SEDENA monthly report."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Generator-side microgenerator duty on clinics, vets and workshops; different buyer from K01 collectors."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "New: small savings co-operatives' monthly CNBV reporting."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "New: small chemical distributors' precursor reporting."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "New: artisanal spirits producers' IEPS and licence duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "New: short-term rental hosts' RNT and lodging-tax duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Gaming permit holders' monthly SEGOB reports are a different duty from the AML suites in K23."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "New: small importers' PISE guarantee and verification duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "New: SIM retailers' CURP registry duty; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "New: avocado value-chain VELAGRO certification with a dated rollout; not the K03 buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "New: SITAEX and deductibility file for avocado packers; unrelated to K05 cattle."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Farm employers' IMSS relief and affiliation is a different buyer group from the payroll bureaus in K03."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "New: small premises' annual civil-protection programme renewal."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "New: agave growers' CRT records."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Small IMMEX holders are in scope; large-firm exclusion not clearly applicable, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "New: vape and tobacco retailers' compliance after the ban."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS9",
+     "reason": "Small firms with own couriers is a different buyer from the payroll bureaus in K03."
+    }
+   ]
   },
   "tag": "w2b3"
  }

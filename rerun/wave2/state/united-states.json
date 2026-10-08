@@ -798,5 +798,572 @@
    "searches": 24
   },
   "tag": "w2b1"
+ },
+ "escalate:united-states:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The MA and MN state portals are free to use; MN accepts an Excel ledger and MA accepts online entry only. PlotBox cemetery software tracks endowment and preneed trusts, produces a Fund Activity Report and exports in the trustee's format, but it does not claim to produce state forms. Bank trustees and master trustees supply year-end statements, and in some states, such as OR, the trustee files its own report. Funeral software such as The Professional Programs covers preneed. Osiris and FrontRunner came up in no search results, so their coverage was not checked. No product was found that fills in state report forms across many states.",
+   "duty": "Annual preneed trust and perpetual-care fund reports filed by funeral homes and cemeteries with state boards. Examples: MT MCA 35-20-315, report due January 1 (ARM 24.147.1604 adds a fine of up to $1,000 and voids the licence if not filed). MN preneed trust report due March 31, filed electronically. MA 239 CMR 4.12(5), online-only, due January 31; the June 30 date in the claim comes from an outdated 2014 form. OH OAC 4717-10-01, due March 31. CA due May 1 with a CPA audit. VA due within 4 months of fiscal year end. MD due within 150 days, with a CPA audit. The rules are in force but every state is different, and insurance-funded preneed is often exempt.",
+   "market": "NFDA counts about 15,401 US funeral homes, most of them family-owned; IBISWorld counts about 29,148 businesses. The number of cemeteries was not found (not_reached). The duty applies only to the share holding trust-funded preneed or perpetual-care funds, and that share varies by state.",
+   "reason": "The duties are real and in force, but the rules differ by state. MT MCA 35-20-315 requires a January 1 report to the district court, and licensed MT cemeteries also file a Board report; missing it can bring a fine of up to $1,000 or void the licence. MN wants an electronic preneed trust report by March 31. MA now requires an online report by January 31, not June 30 as the claim says. OH files by March 31, and CA, AZ, MS, FL and VA have their own rules. Each filing happens once a year and some states require CPA audits. MA and MN run free state portals, and MN accepts an Excel ledger. PlotBox tracks trust funds and exports data. No vendor was confirmed to produce state forms. There are about 15,401 funeral homes.",
+   "searches": 6,
+   "sources": "https://archive.legmt.gov/bills/MCA/title_0350/chapter_0200/part_0030/section_0150/0350-0200-0030-0150.html ; https://regulations.justia.com/states/montana/department-24/chapter-24-147/subchapter-24-147-16/rule-24-147-1604/ ; https://boards.bsd.dli.mt.gov/_docs/fnr/trust-report-cc.pdf ; https://www.mass.gov/forms/massachusetts-state-board-pre-need-funeral-contract-report ; https://www.health.state.mn.us/facilities/providers/mortsci/preneed.html ; https://codes.ohio.gov/ohio-administrative-code/rule-4717-10-01 ; https://www.cfb.ca.gov/audits/2026fun_preneed.pdf ; https://www.azleg.gov/ars/32/01391-16.htm ; https://vacode.org/downloads/2026/code-html/54.1-2324.html ; https://dfr.oregon.gov/business/licensing/financial/pages/master-trustees.aspx ; https://plotbox.com/blog/dont-lose-trust-a-better-way-to-manage-cemetery-trust-funds ; https://www.nfda.org/nfda-releases-2025-cremation-burial-report-comprehensive-insights-to-guide-the-future-of-funeral-service/ ; https://www.ibisworld.com/united-states/number-of-businesses/funeral-homes/1726/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b2"
+ },
+ "gapfill:united-states": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Independent licensed dispensaries, cultivators and manufacturers in states with separate monthly excise returns (AZ, WA, others)",
+     "category": "32. Tobacco, alcohol and cannabis retailers: state excise, licence and track-and-trace duties",
+     "evidence": "https://azdor.gov/forms/marijuana-tax-forms/marijuana-excise-tax-return-met-1 ; https://lcb.wa.gov/taxreporting/cannabis-tax-forms ; https://www.law.cornell.edu/regulations/washington/WAC-314-55-089 ; https://cdtfa.ca.gov/lawguides/vol3/ctl/ctl-34015.html",
+     "existing": "METRC-sync POS and ERP tools (IndicaOnline, Canix, GrowFlow, GrowerIQ, Distru, BLAZE) report to METRC and calculate tax on invoices, but I found no product that prepares or files the state excise return. Not verified: POS vendors such as Dutchie or Treez, cannabis accountants.",
+     "known_id": "K16",
+     "known_mark": "new",
+     "known_note": "Adjacent to K15 and K16 only by industry; different duty (state excise return versus label registration or PACT).",
+     "name": "State cannabis excise and sales tax return preparation for small dispensaries and cultivators",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Monthly state excise and sales tax returns filed with the revenue agency, separate from METRC or CCRS traceability. AZ MET-1 includes an inventory schedule and must be done before the TPT return. WA reports are due the 20th even with no sales. Late penalty 2% a month, and a missed report can cost the licence (WA WAC 314-55-089).",
+     "unchecked": "Whether Dutchie, Treez, Flowhub, Avalara or cannabis CPAs already file returns; number of states with separate monthly returns; licensee counts; federal rescheduling effect on 280E and taxes; state-portal automation rules."
+    },
+    {
+     "buyer": "Solo and small-firm licensed tradespeople holding licences in one or several states",
+     "category": "34. Trade-licence continuing education and renewal for solo contractors",
+     "evidence": "https://library.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_87/GS_87-10.2.html ; https://sos.ga.gov/board-electrical-contractors ; https://www.electricallicenserenewal.com/HVACR-CE-Courses-State-Selection.php",
+     "existing": "Course providers, CE Broker (state-run in some states), and generic tracker or reminder templates. I found no established multi-state tradesperson CE tracker. Many state boards email reminders.",
+     "known_mark": "new",
+     "name": "Multi-state tradesperson licence and continuing-education tracker for solo electricians, plumbers and HVAC technicians",
+     "score": 3,
+     "status": "weak",
+     "trigger": "State licensing board renewal cycles with state-specific CE hours and mandatory topics (e.g. UT 16 hours electricians per 2-year cycle in an older statute; VA 3 hours; GA via CE Broker). Hours differ by licence and state.",
+     "unchecked": "Whether boards' free portals and CE providers already send reminders; whether any paid app exists (a local-language competitor search was not run for lack of budget); willingness to pay of solo trades."
+    },
+    {
+     "buyer": "Small contractors and service firms working across many municipalities; small shops with alarm permits",
+     "category": "33. Local business licensing, alarm and fire-code permits (municipal)",
+     "evidence": "https://cityofbrea.gov/727/Alarm-Permit ; https://www.burbankca.gov/web/police-department/alarm-permit ; https://finance.lacity.gov/alarm-permits ; https://wolterskluwer.com/en/solutions/ct-corporation/faqs/business-license-compliance-software-by-ct-corporation",
+     "existing": "CT Corporation CLiC, Harbor Compliance (Labyrinth), ViaPermit, PermitFlow and city-side platforms (Tyler Licensing Pro, CivicPlus). They are enterprise-oriented or permit-focused. No alarm-permit tool found.",
+     "known_mark": "new",
+     "name": "Multi-city business licence, permit and alarm-registration tracker for small contractors and shops",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Annual municipal business licences and alarm permits (e.g. Brea CA $25 renewal due 1 Jul; Burbank $100 fee, $175 per extra false alarm; LA $31 renewal).",
+     "unchecked": "Pricing and city coverage of the vendors; whether small-contractor tiers exist; the value of each fee is low, so willingness to pay is likely small."
+    },
+    {
+     "buyer": "Auto repair shops, body shops, dry cleaners, print shops and similar SQGs and VSQGs",
+     "category": "35. Small-quantity hazardous waste, used oil, universal waste, dry cleaner and auto-body",
+     "evidence": "https://19january2025snapshot.epa.gov/hwgenerators/re-notification-requirement-small-quantity-generators ; https://epd.georgia.gov/node/22281 ; https://deq.mt.gov/files/Land/Hazwaste/Documents/Forms/2021_GEN_Forms/SQG/2021_GEN_Report_Instructions.pdf ; https://www.law.cornell.edu/regulations/mississippi/11-Miss-Code-R-SS-3-1-4 ; https://www.pca.state.mn.us/business-with-us/dry-cleaners",
+     "existing": "GoCanvas self-audit checklist, generic hazwaste manifest tools, EPA myRCRAid for the ID form. No auto-shop-specific tool found, but I did not check Wastebits, Enviance or similar.",
+     "known_id": "K32",
+     "known_mark": "new",
+     "known_note": "K32 is e-Manifest only. This is a different duty (re-notification and annual generator report). Low filing frequency is a drawback.",
+     "name": "Small-quantity hazardous waste generator re-notification and state annual report reminder/filing for auto shops, dry cleaners, salons and print shops",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Federal SQG EPA ID re-notification every 4 years (done 1 Sep 2025; next 1 Sep 2029; Georgia accepts filing within the prior 4 years). State annual reports in some states (MS and MT due 1 Mar; MN annual report, fee and licence). Dry cleaners may owe air-district perc reports.",
+     "unchecked": "Current competitor products; number of states needing annual SQG or VSQG reports; EPA e-Manifest and RCRAInfo changes; automotive-body 6H NESHAP records; used-oil and mercury-lamp state reports; competitor search in the required form not run."
+    },
+    {
+     "buyer": "Small LLCs formed or registered in New York (possibly foreign LLCs only)",
+     "category": "36. Beneficial ownership, state LLC annual reports, registered-agent filings",
+     "evidence": "https://www.capitolservices.com/insights/alerts/new-york-llc-transparency-act/ ; https://kozlaw.com/limitedscope-of-new-york-llc-transparency-act/ ; https://winston.com/en/insights-news/new-yorks-llc-transparency-act-goes-into-effect-january-1-2026",
+     "existing": "Registered-agent and law-firm alerts (Capitol Services); annual-report services (ZenBusiness, Bizee, Northwest). None confirmed as filing NY BOD for small LLCs.",
+     "known_mark": "new",
+     "name": "New York LLC Transparency Act beneficial ownership filing (and other state-level BOI) for small LLCs",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "NY LLC Transparency Act effective 1 Jan 2026; one source says existing LLCs must file by 1 Jan 2027, with annual updates, deadline not yet set. Scope disputed: some sources report that the NY DOS limited it to foreign LLCs after a veto of the amendment, others describe domestic LLCs as covered.",
+     "unchecked": "Actual scope, filing portal, fee and penalties (the NY DOS URL I tried returned 404); whether registered-agent firms will offer the filing; federal BOI is exempt for domestic firms since March 2025 so the study's earlier assumption is stale."
+    },
+    {
+     "buyer": "Millions of micro LLCs and corporations",
+     "category": "36. Beneficial ownership, state LLC annual reports, registered-agent filings",
+     "evidence": "https://www.zenbusiness.com/zenbusiness-annual-report-service-review ; https://incfile.com/manage-your-company/annual-report ; https://corporationstx.com/blog/texas-franchise-tax-2026-guide ; https://regfollower.com/us-texas-issues-new-franchise-tax-rates-threshold-caps-for-2026-27/",
+     "existing": "ZenBusiness (about $100, reminders, free in Worry-Free Compliance), Bizee ($99), Northwest ($100, on-time guarantee), CT Corporation, Harbor Compliance, many CPAs.",
+     "known_mark": "new",
+     "name": "Annual report and registered-agent reminders for LLCs (Texas PIR/franchise report, state annual reports)",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "State annual reports, Texas franchise tax and PIR due 15 May (no tax due at or below about $2.65M, but report still required), penalty includes forfeiture; Kentucky-style administrative dissolution if not filed within 60 days.",
+     "unchecked": "Nothing material. Rejected because ZenBusiness, Bizee and Northwest Registered Agent already sell exactly this."
+    },
+    {
+     "buyer": "Craft producers",
+     "category": "32. Tobacco, alcohol and cannabis retailers: state excise, licence and track-and-trace duties",
+     "evidence": "https://www.g2.com/sellers/craftcomply ; https://swktech.com/?p=56991 ; https://www.crunchbase.com/organization/ttb-tamer",
+     "existing": "TTB Tamer, DISTILL x5, Whiskey Systems, BeerRun and CraftComply (state licensing and brand registrations).",
+     "known_id": "K15",
+     "known_mark": "known",
+     "known_note": "Same alcohol-producer buyer group as K15 (label registration), and TTB reporting is covered by named products.",
+     "name": "Craft brewery, winery and distillery federal and state excise and licence compliance",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "TTB monthly or quarterly excise returns (Forms 5000.24, 5110.26, 5120.17) and state excise and licence filings.",
+     "unchecked": "State-by-state excise return gap for tiny producers shipping to several states."
+    },
+    {
+     "buyer": "Small hood-cleaning and fire-extinguisher service companies",
+     "category": "33. Local business licensing, alarm and fire-code permits (municipal)",
+     "evidence": "https://www.gastonianc.gov/the-compliance-engine.html ; https://www.oxnard.org/the-compliance-engine/ ; https://www.burbankca.gov/web/fire-department/compliance-reporting ; https://www.inspectpoint.com/the-compliance-engine-integration/",
+     "existing": "Inspect Point integrates with TCE for kitchen suppression and extinguishers, and TCE itself offers a contractor portal. Generic hood-cleaning software lacks NFPA 96 certificate generation, but I found a CompanyCam-based report tool.",
+     "known_mark": "new",
+     "name": "Third-party fire-protection report submission to AHJs (The Compliance Engine) for small hood cleaners and extinguisher contractors",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Many AHJs (Gastonia NC, Oxnard CA, Burbank CA) require contractors to submit hood suppression and exhaust cleaning reports via The Compliance Engine.",
+     "unchecked": "Whether cheap small-contractor options exist; which AHJs use other portals; owner-side demand is low because contractors file."
+    },
+    {
+     "buyer": "Sponsors, independent centres, adult day care operators",
+     "category": "31. State-run programmes small operators run for the state",
+     "evidence": "https://www.cacfp.org/assets/pdf/CACFP+Claiming+Software+Showcase+Resource+cacfp.org+3 ; https://www.kidkare.com/sponsors ; https://myadultdaycare.com/food-program-cacfp ; https://info.cacfp.org/buyersguide/Details/centerpilot-2257852",
+     "existing": "KidKare/Minute Menu, My Food Program, CenterPilot, ChildWatch, CACFP.NET, Alliance Credible, MyAdultDaycare.",
+     "known_id": "K21",
+     "known_mark": "known",
+     "known_note": "Same child-care operator buyer group as K21 (subsidy attendance); claim software for CACFP is a crowded vendor list.",
+     "name": "CACFP claims and menus for family day care homes, adult day care and independent centres",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Monthly CACFP claims with meal counts, enrolment and menus.",
+     "unchecked": "WIC-authorised grocer rules: only state authorisation and POS rules found."
+    },
+    {
+     "buyer": "Small employers",
+     "category": "34. Trade-licence continuing education and renewal for solo contractors; SUI and workers' comp audits",
+     "evidence": "https://assets.equifax.com/connections/ucm/2026_SUI_Tax_Guide.pdf ; https://www.biberk.com/articles/what-is-a-workers-compensation-payroll-audit ; https://onpay.com/insights/sui-tax-rates",
+     "existing": "Payroll platforms (Intuit, OnPay and others) and carriers' own audit processes.",
+     "known_mark": "new",
+     "name": "SUI rate notices and workers' comp payroll audit support for small employers",
+     "score": 1,
+     "status": "weak",
+     "trigger": "State unemployment insurance rate notices (mostly mailed in December) and carrier workers' comp payroll audits within 30 to 60 days of policy end.",
+     "unchecked": "No dedicated competitor search; a generic payroll feature, so likely out of scope as generic payroll."
+    },
+    {
+     "buyer": "Convenience stores and tobacco shops",
+     "category": "32. Tobacco, alcohol and cannabis retailers: state excise, licence and track-and-trace duties",
+     "evidence": "https://www.ncdor.gov/news/press-releases/2026/02/03/tobacco-licenses-issued-2023-will-expire-june-30-2026 ; https://webserver.rilegislature.gov/Statutes/TITLE44/44-20/44-20-5.htm ; https://law.lis.virginia.gov/vacode/title4.1/chapter2/section4.1-244/",
+     "existing": "None found; K16 covers only PACT/vape directories, K05 SNAP item files.",
+     "known_id": "K16",
+     "known_mark": "new",
+     "name": "State tobacco/OTP licence renewal and tax filing tracker for convenience stores",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "State tobacco licence renewals (NC 2023 licences expired 30 Jun 2026 with bond and tax-compliance check; RI 30 Jun expiry; VA permit renewal fee from 1 Oct 2026) and OTP tax returns.",
+     "unchecked": "State-by-state forms and filing portals; cigarette stamping and distributor-level duties; tiny repeat frequency, so low value."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31. State-run programmes small operators run for the state (CACFP/WIC vendors, Medicaid HCBS)",
+     "found": "CACFP claiming is well served: cacfp.org's claiming-software resource lists CenterPilot, ChildWatch, My Food Program, KidKare/Minute Menu, CACFP.NET and Alliance Credible. My Food Program covers family homes, centres, adult day care, Head Start and shelters; CenterPilot lists about $1 per site per day; MyAdultDaycare also sells CACFP features. Sponsors are the buyers for family day care homes (KidKare for Sponsors). WIC vendors: only state authorisation and eWIC POS-compatibility rules, no standalone WIC compliance product found. Nothing new beyond K21 (child care subsidy) and K31 (EVV). Not reached: Medicaid HCBS provider-side filings beyond EVV (budget).",
+     "status": "screened"
+    },
+    {
+     "category": "32. Tobacco, alcohol and cannabis retailers: state excise, licence and track-and-trace duties",
+     "found": "Cannabis: seed-to-sale is METRC (CO, others) or state systems (WA CCRS); monthly excise/sales returns go to the revenue agency separately (AZ MET-1 monthly with inventory schedule, WA due the 20th, CA CDTFA quarterly). Dispensary and cultivation software (IndicaOnline, Canix, GrowFlow, GrowerIQ, Distru, BLAZE) syncs to METRC but I found no product that prepares or files the state excise return; unconfirmed. Craft beverage: TTB Tamer, DISTILL x5, Whiskey Systems, BeerRun and CraftComply (state licensing and brand registration) already cover producers (K15 related). Tobacco: state licence renewals vary (NC licences from 2023 expire 30 Jun 2026; RI licences now expire 30 Jun; VA retail tobacco permit fee from 1 Oct 2026); no software found. Candidates listed.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Local business licensing, alarm and fire-code permits (municipal)",
+     "found": "Fire: The Compliance Engine (Brycer) is the AHJ portal where contractors, not owners, upload hood-suppression, hood-cleaning and other reports (Gastonia NC twice-yearly suppression and per-cleaning exhaust reports; Oxnard and Burbank CA). Inspect Point integrates with TCE for kitchen suppression and extinguishers, so contractor-side submission is covered. Alarm permits: city-specific annual or biennial permits, about $25-$100 renewal, escalating false-alarm fees (Brea, Burbank, LA), no software found. Multi-city contractor licence tracking: CT Corporation CLiC, Harbor Compliance, ViaPermit, PermitFlow exist (enterprise-oriented).",
+     "status": "screened"
+    },
+    {
+     "category": "34. Trade-licence continuing education and renewal for solo contractors; SUI and workers' comp audits",
+     "found": "State-by-state CE hours vary (e.g. VA 3 hours; UT 16 hours electricians and 12 hours plumbers per 2-year cycle in an old statute; NC general contractor 8 hours a year; GA board uses CE Broker). Found course providers and generic reminder or tracker templates, but no established multi-state tradesperson CE and licence tracker. SUI rate notices and workers' comp payroll audits are handled inside payroll platforms and by carriers, so no standalone gap. EPA Section 608 recordkeeping not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Small-quantity hazardous waste, used oil, universal waste, dry cleaner and auto-body (state annual reports and EPA ID)",
+     "found": "SQG EPA ID re-notification is every 4 years (2021, 2025, next 1 Sep 2029). Per a 2021 source, 29 states and territories require annual reports from LQGs and some SQGs (MS and MT due 1 Mar; MT also VSQGs with an episodic event; MN annual report plus fee and licence). Dry cleaner perc air-district annual reports exist (e.g. Lane Regional Air). Software found: only GoCanvas self-audit checklist and generic hazwaste or manifest tools; no auto-shop-specific re-notification or state annual report product found. K32 is the related known idea. Not checked: 6H paint NESHAP, mercury lamp state reporting, current competitor products.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Beneficial ownership, state LLC annual reports, registered-agent filings",
+     "found": "Annual report filing is well served: ZenBusiness (about $100 service fee, free with Worry-Free Compliance, deadline reminders), Bizee/Incfile ($99), Northwest Registered Agent ($100 plus state fee, on-time guarantee), plus CT Corporation and Harbor Compliance. Texas: franchise tax report due 15 May, no-tax-due threshold about $2.65M for 2026-27 reports (sources conflict), PIR or OIR still required; one secondary source reports Form 05-211 forfeiture notices mailed from July 2026. Federal BOI: domestic companies exempt since the March 2025 FinCEN rule. New York LLC Transparency Act (effective 1 Jan 2026; existing LLCs due 1 Jan 2027 per Capitol Services) has a disputed scope: a veto of the amendment and a DOS statement limiting it to foreign LLCs are reported by some sources. NY DOS page returned 404, so unconfirmed.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "CACFP family day care home monthly claim software sponsor meal count 2026",
+    "state cannabis track and trace METRC monthly tax report small licensee compliance 2026",
+    "annual fire inspection report third-party submission portal restaurants hood suppression NFPA 96 Compliance Engine small business",
+    "contractor license renewal continuing education tracker state board 2026 solo electrician plumber",
+    "small quantity generator re-notification EPA ID every four years state annual hazardous waste report auto repair shop software",
+    "state LLC annual report deadline administrative dissolution small business 2026 Texas franchise tax no tax due report",
+    "cannabis excise tax return filing software dispensary state tax reporting automate METRC sales",
+    "craft distillery brewery TTB excise tax return state report compliance software small producer",
+    "tobacco retailer license renewal other tobacco products tax stamp small convenience store state report 2026",
+    "contractor business license multiple municipalities annual renewal tracking software small contractor city permits",
+    "alarm permit false alarm fee annual renewal city small business registration alarm company software",
+    "state unemployment insurance SUI rate notice workers compensation payroll audit small employer software tracking 2026",
+    "CACFP adult day care center independent child care center claim software WIC vendor authorized small grocery compliance software",
+    "hood cleaning fire extinguisher contractor software submit inspection reports to fire departments Compliance Engine Inspect Point multiple jurisdictions",
+    "very small quantity generator state annual hazardous waste report required dry cleaner used oil mercury lamp universal waste state reporting small business 2026",
+    "registered agent annual report filing service compliance reminders LLC dissolved missed annual report 2026 New York LLC Transparency Act",
+    "annual report filing service Northwest Registered Agent ZenBusiness Bizee Incfile annual report reminder filing fee",
+    "electrician plumber HVAC license renewal reminder app continuing education certificates tracking multi-state tradesperson"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b2"
+ },
+ "opus:united-states:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no software that tracks contractor licence, bond or certificate renewals. Searches returned only DOL and state guidance and job postings. The DOL contractor lookup lists and the state portals (CA DLSE online renewal) are free. Surety bond vendors (suretyone, bryantsuretybonds, suretybonds.com) handle the bonds and probably send renewal reminders (not checked). Farm payroll tools named in the claim (FieldClock, Seso, TaxBandits) cover payroll and records but were not checked for licence tracking. One blog (beancount.io) has a WH-540 guide, but it is content, not a product.",
+   "duty": "Federal MSPA: a contractor and each crew employee doing contracting work must hold a WHD certificate (WH-530/WH-540) before acting. Housing and transport need separate authorisation. DOL publishes lists of active certificates only. The DOL resources page lists PDF forms only and mentions no online filing portal. Renewal timing and penalty amounts were not checked this session. California: DLSE licence renewed at least 60 days before expiry (online via permits.dir.ca.gov/FLC_External or form DLSE 401-R), with a payroll-tiered bond (8 CCR 13664), DE 9 wage returns, a workers' comp certificate and 8 hours of education per licence period. Oregon: 12-month licence, renewal due 1 month before expiry, 2- or 4-year terms available later. Washington: L&I annual licence and bond. AB 1362 is chaptered (Ch. 190, Stats. 2025, signed Oct 1 2025): H-2A foreign labour recruiter registration and bond from July 1 2027. The bond figures ($50k-$150k+) come from secondary summaries and were not checked against the bill text.",
+   "market": "California: 1,504 contractors in 2021 (an industry association figure; it was 1,193 in 2016). Washington: more than 250 licensed (undated article). L&I publishes a licence list updated June 2026, but I did not count it. The total number of federal MSPA certificate holders is not published as a figure; it would have to be counted from DOL's Tableau list. The number of H-2A contractors affected by AB 1362 was not found. My estimate is a few thousand contractors nationally, with the most in CA, WA, OR and FL.",
+   "reason": "The duties are real. Contractors must hold a federal MSPA certificate (WH-530) before doing any farm labour contracting, and they are liable for their employees' certificates. California requires a licence renewed at least 60 days before expiry, a bond sized by payroll (backed by DE 9 wage returns), workers' comp proof and 8 hours of classes. Oregon's licence lasts 12 months. AB 1362 is chaptered (Ch. 190, 2025) and adds registration for H-2A recruiters from July 1 2027. I found no tracker that does this job. But the market is small (about 1,500 CA contractors in 2021, roughly 250+ in WA), renewals come once a year, surety brokers already send reminders, and the work is mostly calendar reminders. Willingness to pay is likely low.",
+   "searches": 5,
+   "sources": "https://calmatters.digitaldemocracy.org/bills/ca_202520260ab1362 ; https://policyrisk.com/state-bill/CA-AB1362-20252026 ; https://www.dol.gov/agencies/whd/agriculture/mspa/certificate-registration-resources ; https://www.dol.gov/whd/regs/statutes/FLCList.htm ; https://www.dir.ca.gov/dlse/flc_renewal.htm ; https://www.dir.ca.gov/t8/13664.html ; https://apps.oregon.gov/SOS/LicenseDirectory/LicenseDetail/272 ; https://assets.noviams.com/novi-file-uploads/cflca/pdfs-and-documents/FLC-Lobby/FLC_Licensing_Supporting_Materials-1e897ac5.docx ; https://www.lni.wa.gov/workers-rights/_docs/LICENSED-FARM-LABOR-CONTRACTORS.pdf ; https://www.potatoes.com/spud-topics/item/washington-state-l-i-alerts-growers-to-check-validity-of-farm-labor-contractors",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b2"
+ },
+ "opus:united-states:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Several products already do the core job. Invenco Insite360 Comply. EKOS Fuel Sites: digital inspections, automatic tank gauge integration and central records, free trial, aimed at multi-site operators. Canary Compliance: record-keeping for gas stations. Crompco: the Vault SaaS platform plus managed compliance, and its customers include independents. Tanknology: 24/7 customer portal for compliance records. Seneca Compliance Manager. FleetRabbit (municipal fleets). GoCanvas and Paperform offer ready-made monthly UST checklist apps; DocHub hosts a fillable form. Many states publish free walkthrough checklists (AR, HI, SC), and Utah has its own state inspection app. I found no cheap, state-form-aware app aimed specifically at single-site owners, but the core job is already covered.",
+   "duty": "Federal rule 40 CFR 280.36, enforced through state UST programs, in force since October 13, 2018. Every 30 days owners must check spill-prevention equipment (or before each delivery if deliveries are less frequent) and release-detection equipment. Containment sumps and handheld detection equipment are checked once a year. Walkthrough records must be kept for 1 year; some states require more, e.g. Illinois wants 2 years kept on site. States such as AR, SC, MI, OR and HI publish their own forms and checklists. Penalties are imposed under each state's UST enforcement program; I did not look up specific penalty amounts.",
+   "market": "EPA's FY2025 report gives about 190,000 regulated facilities, covering roughly 533,277 active USTs. The extracted PDF text was cut off at that point, so the tank count is my reconstruction and should be checked against the PDF. The same report puts walkthrough compliance at 83.3% and overall technical compliance at 62.9%. I did not find how many of these are single-site independents.",
+   "reason": "The duty is real. Under 40 CFR 280.36, UST owners must do a walkthrough every 30 days and an annual check, and keep the records for at least one year; Illinois requires 2 years kept on site. But several products already do the core job. Digital walkthrough forms, records and ATG data are covered by Invenco Insite360 Comply, EKOS (which offers a free trial), Canary Compliance, Crompco's Vault, Tanknology's records portal and FleetRabbit, and GoCanvas and Paperform have ready-made templates. Many states give the checklist away free. EPA's FY2025 walkthrough compliance rate is already 83.3%, so the pain is modest. Many owners' automatic tank gauges already record release-detection data. Single-site independents would likely pay little, and fuel distributors or testing contractors often bundle this compliance work. A niche could still exist for a cheap app that knows each state's forms.",
+   "searches": 6,
+   "sources": "https://www.customsmobile.com/regulations/title40_chapterI-i31_part280_subpartC_section280.36 ; https://www.law.cornell.edu/regulations/oregon/Or-Admin-Code-SS-340-150-0315 ; https://webapps.sfm.illinois.gov/USTSearch/Facility.aspx?ID=2037203 ; https://www.epa.gov/system/files/documents/2025-12/underground-storage-tank-perf-measures-fy-2025-2025-12-08.pdf ; https://info.myekos.com/fuel-sites-compliance ; https://fleetrabbit.com/industry/government-fleet/ust-compliance-software-municipal-multi-agency-guide ; https://www.cbinsights.com/compare/canary-compliance-vs-tanknology ; https://www.accessnewswire.com/newsroom/en/industrial-and-manufacturing/crompco-to-manage-sunoco-lps-environmental-compliance-at-fuel-retail-si-547074 ; https://dh-united.com/wp-content/uploads/2024/03/Tanknology-SOQ-2024.pdf ; https://www.gocanvas.com/mobile-forms-apps/16449-Petroleum-Storage-Tank-Monthly-UST-System-Inspection-Checklist ; https://paperform.co/templates/gas-station-ust-inspection-checklist/ ; https://www.adeq.state.ar.us/home/forms/files/rst-30-day-walk-through-inspection-checklist_fillable.pdf ; https://neiwpcc.org/wp-content/uploads/2022/09/Wilson_UST-Compliance-Tech_9-14-22.pdf",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b2"
+ },
+ "opus:united-states:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Treez has an \"AZ MET Report dashboard\" that its help page says lets you \"easily and accurately fill out\" the MET-1. It replicates the inventory schedule on page 2 and exports a CSV to paste in. It does not compute the tax or file. Treez also has state tax guides for California, Illinois and New York. BLAZE calculates excise tax for distributors. Cannabis CPA and bookkeeping firms (Citrin Cooperman, Canethics, Kind Accounting, Cannabis Accounting Group, Taxfyle) offer bookkeeping and tax services; Canethics explicitly lists payroll and sales taxes. Filing is done on free state portals: CDTFA online, AZTaxes, and email or a spreadsheet for the WA LCB. I found no Avalara cannabis excise product, and no MET-1 or LIQ1295 report from Dutchie, Flowhub or Cova (not found, not proven absent).",
+   "duty": "The duty is real and in force. In Washington, WAC 314-55-089 requires a 37% excise tax and a monthly report and payment to the LCB by the 20th, on form LIQ1295 (Excel or PDF, emailed), even in months with no sales. WAC 314-55-092 adds a 2% per month late penalty, and missed reports can lead to license suspension or revocation. In Arizona, the monthly MET-1 includes an inventory schedule required by statute and must be completed before the TPT return. Treez says it is due by the 20th; I did not confirm that date on an official page. California requires a separate retailer excise return filed electronically through the CDTFA portal (quarterly in the example found), with a 10% late penalty and a 50% penalty for nonpayment. Nevada requires a monthly return by the last day of the following month, even with no liability. Maine requires Form CE. I did not check the effect of federal rescheduling.",
+   "market": "I did not verify a current count. Pew (undated) says nearly 15,000 US dispensaries, including 3,659 in California. Twenty-four states plus DC have adult-use cannabis, and each has its own return format. Washington has roughly 400–500 retailers (not verified). Many licensees are multi-state operators rather than small firms.",
+   "reason": "The monthly excise return duty is real, mandatory and enforced with license-level penalties. But the core data preparation already comes from POS and ERP systems: Treez ships an Arizona MET-1 report that maps directly onto the form. Once the POS totals exist, filing is a short form on a free state portal, and CPAs bundle it with the bookkeeping and 280E work cannabis firms already pay for. Every state has a different form, which breaks up the market for a solo founder. The industry also faces banking, payment and federal-status friction, and margins are squeezed. A small wedge remains: a cross-POS, multi-state return preparer for independents. Treez's existing Arizona report contradicts the claim that \"no product prepares the return\".",
+   "searches": 10,
+   "sources": "https://www.law.cornell.edu/regulations/washington/WAC-314-55-089 ; https://www.law.cornell.edu/regulations/washington/WAC-314-55-092 ; https://lcb.wa.gov/sites/default/files/2025-01/CIB100%20How%20to%20Fill%20out%20LIQ1295.pdf ; https://lcb.wa.gov/taxreporting/cannabis-tax-forms ; https://azdor.gov/forms/marijuana-tax-forms/marijuana-excise-tax-return-met-1 ; https://azdor.gov/news-center/adult-use-marijuana-file-and-pay-collection-begins ; https://support.treez.io/en/articles/9129134-retail-analytics-az-met-report-dashboard ; https://support.treez.io/en/collections/18273371-state-specific-guides ; https://cdtfa.ca.gov/online-filing-instructions/Cannabis-Retailer-Tax-Return.htm ; https://regulations.justia.com/states/nevada/chapter-372a/excise-tax-on-medical-marijuana/section-372a-160/ ; https://www.citrincooperman.com/Services/Cannabis-Dispensary-Accounting-Services ; https://www.manta.com/c/mkkjlpf/canethics ; https://www.blaze.me/?p=20612 ; https://alpha.pewresearch.org/pewresearch-org/wp-json/wp/v2/short-read/7766",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b2"
+ },
+ "sonnet:united-states:A11": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Maricopa requires a commissary visit log kept in the unit in permanent ink, plus a signed commissary agreement at permit renewal. Utah County requires a commissary log kept on the truck. Alameda asks for renewal applications two weeks before expiry, and Yuba requires an annual inspection. Rules and forms differ by county, and each vendor usually deals with one county. Competition is weak: GoCanvas log and agreement templates, a Paperform template, a tiny VendGuard listing (permit tracker, unverified) and custom-build pitches from RationalGo. No dominant dedicated product was found. Market is roughly 60-90k US food trucks (IBISWorld estimates conflict). Willingness to pay is low, the buyers are fragmented, and a county-by-county rules database makes the MVP heavy. Not searched: regional vendors, and the 'also_reported' cottage-food calendar idea.",
+   "searches": 4,
+   "sources": "https://listos.maricopa.gov/DocumentCenter/View/5745/Commissary-Agreement-PDF ; https://listos.maricopa.gov/DocumentCenter/View/5748/Commissary-Visits-Log-Sheet-PDF ; https://www.gocanvas.com/mobile-forms-apps/27264-Mobile-Food-Establishment-Commissary-Log-Sheet ; https://paperform.co/templates/food-truck-commissary-agreement-verification-form ; https://health.utahcounty.gov/wp-content/uploads/2026/02/Commissary-Log.pdf ; https://health.alamedacountyca.gov/frequently-asked-questions-mff/ ; https://script.ibisworld.com/united-states/number-of-businesses/food-trucks/4322 ; https://webmail.hunted.space/product/vendguard",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b2"
+ },
+ "sonnet:united-states:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Arizona requires the driller's report within 30 days (A.R.S. 45-600), Texas within 60 days, Montana within 60 days, and Mississippi within 30 days. Each state sets its own form and deadline. No multi-state filing router turned up. General well-drilling management software exists (a Guideflow roundup lists such tools, plus GoCanvas drilling templates and Well Logger), and none was confirmed to cover multi-state submission. State portals are free. Most drillers work in only one state, so a router has little value. I found no count of U.S. drilling firms, and the NGWA figure of 14,000 members includes scientists and international members. I did not fetch the CT, VT or MA pages, so their details are unchecked. A small niche, with no strong pain and weak willingness to pay. Score 2.",
+   "searches": 2,
+   "sources": "https://www.guideflow.com/blog/well-drilling-software ; https://us.vlex.com/vid/filing-of-report-by-657296221 ; https://gocanvas.com/mobile-forms-apps/4790-Drilling-Report-Wells- ; https://www.cesdb.com/well-logger.html ; https://regulations.vlex.com/vid/16-tex-admin-code-962730308 ; https://www.law.cornell.edu/regulations/mississippi/11-Miss-Code-R-SS-7-2-9",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b2"
+ },
+ "sonnet:united-states:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real but fragmented across states. NC requires hauler registration with a 5-year renewal. CA requires quarterly manifest submissions. MO requires monthly summaries plus tracking forms kept 3 years. TX requires a state-prescribed 5-part manifest and an annual report. Nevada requires semiannual reports. AR runs a free state e-manifest portal and app. I found no tire-specific hauler-side vendor; only generic GoCanvas manifest forms exist. Weak points: there is no national hauler count (CA has about 7,500 registered vehicles/year). States prescribe formats, and some have their own portals (AR, MI), so third-party submission is unlikely. Hauler registration is infrequent, so frequency is low. Haulers are small and have low willingness to pay. The market is niche, so I score it low. MI page fetch returned 403.",
+   "searches": 4,
+   "sources": "https://deq.nc.gov/about/divisions/waste-management/scrap-tires/haulers ; https://calrecycle.ca.gov/Tires/Haulers ; https://www.tceq.texas.gov/permitting/waste_permits/tires/tires-manifest ; https://dnr.mo.gov/print/document-search/pub2713 ; https://www.adeq.state.ar.us/tap/pdfs/fact-sheets/fs-emanifest.pdf ; https://gocanvas.com/mobile-forms-apps/17361-Whole-Used-or-Scrap-Tire-Manifest ; https://www.southernnevadahealthdistrict.org/?p=10321",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b2"
+ },
+ "sonnet:united-states:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The revised CCR rule (40 CFR 141 Subpart O) applies from Jan 1 2027, with first reports due July 1 2027 per a vendor summary (120Water). The new summary section and language-assistance text apply to small systems. Annual CCRs already exist, so this is a recurring duty. The core job is covered, though. EPA's CCRiWriter is free and EPA says it will add new federal requirements. State generators and templates are free too (Arizona publishes a template). I did not find any 2027 CCRiWriter release, so the update is unconfirmed. About 28,800 very small community systems exist (FEMA figure, undated; roughly 59% of about 49,700). Willingness to pay is low and operators are hard to reach. The free-tool competition leaves little room for a paid kit.",
+   "searches": 4,
+   "sources": "https://www.120water.com/blog/the-revised-ccr-rule-changes-deadlines-and-next-steps ; https://azdeq.gov/CCRRule ; https://cdphe.colorado.gov/water-quality/water-quality-engagement/consumer-confidence-report-ccr-rule-revisions ; https://www.epa.gov/ccr/compliance-help ; https://19january2021snapshot.epa.gov/sites/static/files/2014-05/documents/tools_flyer_ccriwriter.pdf ; https://emilms.fema.gov/is_0553a/groups/7.html",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b2"
+ },
+ "sonnet:united-states:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real but fragmented. Hawaii requires monthly copies within 15 days (Cornell HI rule). Wisconsin requires an annual report, due Oct 30, filed by emailing an Excel file (DATCP page fetched). Minnesota requires daily sales records and 5-year retention. Utah takes submissions through a state portal (AIMS). Idaho requires aggregate county reports. I could not fetch the Massachusetts page (403), so I did not verify its online-only June 1 rule. Most states want a simple Excel export or printable records, so the pain is low and dealers can use existing ag-retail ERP and POS systems. I found no dealer-count statistics and did not check whether those systems export state formats. Each state is a small market, and states accept Excel or paper. The per-dealer value is low and each state needs separate work. Confirmed as a real duty, but a weak standalone product.",
+   "searches": 4,
+   "sources": "https://datcp.wi.gov/Pages/Licenses_Permits/RestrictedUseDealer.aspx ; https://www.law.cornell.edu/regulations/hawaii/Haw-Code-R-SS-4-66-53 ; https://www.mda.state.mn.us/licensing/licensetypes/pesticidedealer/salesrptposting ; https://ag.utah.gov/wp-content/uploads/4004-Restricted-Use-Pesticide-Dealer-Sales-Reporting-Instructions.pdf ; https://legislature.idaho.gov/?p=75148",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b2"
+ },
+ "sonnet:united-states:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Osiris, FrontRunner, Professional Programs (report features unconfirmed)",
+   "duty": "Annual preneed trust and perpetual-care fund reports to state boards (MN Mar 31, AZ/CA May 1, FL Apr 1, OH Mar 31, MT Feb 1, IA/VA 4 months after fiscal year end)",
+   "market": "About 15,400 funeral homes (NFDA 2025); Census NAICS 81221 shows 15,375 establishments; cemetery count not found",
+   "reason": "Duty is real but state-by-state: MN requires annual electronic preneed trust report per location (due Mar 31, $25 fee, via MDH portal); AZ May 1, CA May 1, FL Apr 1, OH Mar 31, IA/VA/MT cemetery perpetual-care reports. About 15,400 US funeral homes (NFDA). Competition: Osiris and FrontRunner are funeral/cemetery suites with preneed modules, but I found no evidence they print state-formatted regulator reports (unverified, not refuted). Weak spots: 50 different forms, many filers use trustees or banks that already supply data, state portals (MN) already take filing. Annual frequency, small per-customer value, fragmented rules, entrenched suites reduce the score. A narrow niche is possible. Searches were limited and did not check vendor documentation.",
+   "searches": 5,
+   "sources": "https://www.health.mn.gov/facilities/providers/mortsci/preneed.html ; https://www.azleg.gov/ars/32/01391-16.htm ; https://www.krowdbase.com/software/osiris ; https://law.lis.virginia.gov/vacode/54.1-2324/ ; https://prod.nfda.org/media-center/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b2"
+ },
+ "sonnet:united-states:A8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: HB 1021 (eff. July 1 2024) requires Florida condo associations with 25+ units to keep a website or app, with records posted within 30 days. The compliance date was Jan 1 2026, so the deadline-driven rush has passed. Sources give no clear penalty. One summary says $500 minimum or $10-30 per unit, which I could not verify. I did not check the HOA 100-parcel rule, the SIRS deadline or market size against a register. Competition is crowded: SetMySite ($249/mo or $1,500 build), UpperBee, CondoControl, Concierge Plus, Paid Memberships Pro and management companies. The core job (a compliant site plus records posting) is already done by many vendors, so \"nothing already does it\" is only weakly met. Small self-managed associations are a fragmented, hard-to-reach buyer group.",
+   "searches": 2,
+   "sources": "https://www.floridacondohoalawblog.com/2024/08/28/if-your-condominium-has-25-or-more-units-there-is-a-new-website-requirement/ ; https://setmysite.com/florida-condominium-associations-with-25-or-more-units-website-requirements/ ; https://www.condocontrol.com/blog/florida-condo-hoa-needs-website ; https://upperbee.com/?p=23514 ; https://beckerlawyers.com/new-condominium-website-requirements-take-effect-news-press/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b2"
+ },
+ "sonnet:united-states:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: 40 CFR 441 requires pre-June 14 2017 separators to be replaced by June 14 2027, with a one-time compliance report and ongoing inspection and maintenance records. Several vendor and association pages confirm the date and the 3-year records; I did not open the eCFR text, and I did not find a changed deadline. The core job is partly served by HealthFirst OnTraq, Solmetex, RationalGo and free MangoApps log templates. Local forms vary and I found no filing service. Pain is low because the filing is one-time and the records are only kept for inspection, and no POTW submission is routinely required. The replacement is a one-off hardware purchase, so the value sits with separator sellers. Market is roughly 100k offices (my recollection, not checked this session). Low willingness to pay for software alone; a 2027 deadline spike is possible.",
+   "searches": 2,
+   "sources": "https://solmetex.com/2026/07/2027-epa-amalgam-separator-deadline/ ; https://www.supplyclinic.com/posts/epa-amalgam-separator-deadline-what-dental ; https://www.cda.org/newsroom/environment-radiation/resources-can-help-practices-get-ahead-of-amalgam-separator-requirement/ ; https://rationalgo.ai/resources/app-builder/dental-office-amalgam-separator-compliance-log ; https://www.mangoapps.com/templates/forms/dental-amalgam-separator-maintenance-and-waste-log ; https://www.healthfirst.com/knowledge-base/product-support/amalgam-separators/ ; https://www.broward.org/WaterServices/IndustrialPretreatmentProgram/Documents/Mercury%20minimization%20One%20Time%20Compliance%20report%20%20Final.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b2"
+ },
+ "sonnet:united-states:GAPS5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Law is real (NY LLC Transparency Act, effective 1 Jan 2026), but by the later sources it applies only to foreign LLCs authorized in NY. Hochul vetoed the amendment that would have covered domestic LLCs, so domestic LLCs do not file (Eckert Seamans, Wolters Kluwer). Existing foreign LLCs file by 31 Dec 2026 (some sources say 1 Jan 2027); new ones within 30 days. The fee is $25, filed online at an open NYDOS portal. Penalties are AG fines up to $500/day and suspension. Annual statements are required. The buyer pool is small (foreign LLCs only), and the filing is a one-time, simple form already served by registered agents and filing services (Ocorian, Zenind). Not a good solo-founder recurring-compliance product. I did not check the NYDOS site itself, and found no count of foreign LLCs.",
+   "searches": 3,
+   "sources": "https://www.eckertseamans.com/legal-updates/new-yorks-llc-transparency-act-took-effect-january-1-2026-covering-non-u-s-llcs-only ; https://www.wolterskluwer.com/en/expert-insights/new-york-llc-transparency-act-2026-update-for-foreign-llcs ; https://kozlaw.com/limitedscope-of-new-york-llc-transparency-act/ ; https://www.mccmlaw.com/news-and-articles/articles/new-york-llc-transparency-act-update-amendments-signed-into-law ; https://www.zenind.com/help/post/new-york-llc-transparency-act-compliance-guide-for-foreign-llcs-in-2026 ; https://www.ocorian.com/insights/new-york-llc-transparency-act-how-might-us-state-legislation-affect-your-business",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b2"
+ },
+ "triage:united-states": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New: farm labour contractor licence/bond/records; small contractors, mandatory, new CA H-2A registration 2027."
+    },
+    {
+     "decision": "known",
+     "id": "A2",
+     "reason": "Household employers' paid-leave registration/contributions; same buyer and duty as K33.",
+     "ref": "K33"
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Small well drillers, mandatory state completion reports; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Scrap-tire haulers/dealers manifests and reports; different duty and buyer from K39 FOG."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Tiny water systems CCR rule change; different duty from K29 lead line inventory."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "RUP dealer sales reports; different buyer (dealers) and duty from K26 applicator PUR."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small cemeteries/funeral homes annual trust and preneed reports; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Self-managed FL condo/HOA website and SIRS duties; small associations in scope, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small charities multi-state registration and renewal; in scope, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Owner-operators' Motus/UCR/MCS-150 duties with changed 2026 rules; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Food truck commissary logs and permit renewals; small vendors, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Small check cashers' FinCEN and state reports; new, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Childminder renewal/training under 2026 rule changes; different duty from K21 subsidy attendance."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Tattoo studio mandatory client records; small premises in scope, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A18",
+     "reason": "Custom-exempt processor and livestock dealer records; new, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "UST walkthrough/release-detection records for independent stations; different duty from K04."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Dental amalgam separator replacement deadline June 2027 hits small dental offices; new."
+    },
+    {
+     "decision": "merge",
+     "id": "B3",
+     "reason": "Same Florida condo/HOA website and SIRS duty and buyer as A8.",
+     "ref": "A8"
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "NY certified payroll for small prevailing-wage subs; new duty, distinct from K19."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Individual STR hosts' state registration and tax; households/small hosts in scope, new."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Small article importers' TSCA PFAS reporting with deadline; new, watch rule status."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small producers' state packaging EPR reporting; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "CA janitorial contractor registration plus small hirers; different industry from K03/K23."
+    },
+    {
+     "decision": "merge",
+     "id": "B10",
+     "reason": "Mobile food vendor multi-jurisdiction permit renewals; same buyer and duty as A11.",
+     "ref": "A11"
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "DEA inventory/loss reporting for small registrants; different duty from K12 MFP refunds and K30 DSCSA."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "CLIA waiver renewals for small practices; in scope, low burden is for verifiers."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Small grain dealer/warehouse licence and financial statements; new."
+    },
+    {
+     "decision": "merge",
+     "id": "B14",
+     "reason": "Same small check cashers/money transmitters and state/FinCEN renewal and annual report duty as A12.",
+     "ref": "A12"
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Used-car dealer e-title and odometer records; new, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "Small food facilities' FDA biennial registration, window open now; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B17",
+     "reason": "Small NYC building owners' inspection/benchmarking duties with Dec 2026 deadline; new, unlike K07."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Dispensary state excise return prep; different duty from K15/K16."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Solo tradespeople licence CE tracking; mandatory renewals, new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Small contractors/shops municipal licences and alarm permits; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "SQG re-notification/annual reports for small shops; different duty from K32 e-Manifest."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "NY LLC beneficial ownership filing by small LLCs; deadline-driven, new, scope unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Small hood cleaners/extinguisher contractors' mandated AHJ report submission; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS10",
+     "reason": "Small employers' SUI notices and WC audits; unsure, verifiers decide (may be generic payroll)."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS11",
+     "reason": "Convenience stores' tobacco licence and OTP tax; different buyer and duty from K16 PACT reports."
+    }
+   ]
+  },
+  "tag": "w2b2"
  }
 }

@@ -1,0 +1,1256 @@
+{
+ "critic:canada": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Provincial cannabis retail and Quebec/Ontario alcohol-adjacent licensing (AGCO licensed retailers, SQDC-agent, liquor-licence returns)",
+     "first_search": "AGCO cannabis retail store authorization annual report record-keeping requirements licensee",
+     "why": "Thousands of small licensed premises (cannabis stores, restaurants, bars) have recurring AGCO/RACJ duties; only federal CTLS (rejected) and craft excise were covered, not provincial retail licence/record duties."
+    },
+    {
+     "category": "Provincial workers' compensation and OHS registers for small employers (WSIB/CNESST/WorkSafeBC): annual payroll reconciliation, JHSC, Ontario Bill 190/2025 and Quebec Bill 27 prevention-mechanism duties",
+     "first_search": "CNESST mécanisme de prévention comité santé et sécurité petites entreprises obligations 2026 LMRSST",
+     "why": "Every small employer must file; Quebec's phased 2025-2027 prevention programme for 20+ and 10-19 employer rules is a new 2024-2027 law with deadlines. Only household WSIB was touched."
+    },
+    {
+     "category": "Federal Underused Housing / Ontario-BC real-estate adjacent: Property managers, condo corporations and co-op housing boards (annual returns, reserve fund studies, Condo Authority Tribunal registration, Ontario Condominium Authority annual returns)",
+     "first_search": "Condominium Authority of Ontario annual return corporation reserve fund study filing requirements 2026",
+     "why": "Thousands of small volunteer-run condo corporations and housing co-ops have mandatory annual returns to the Condominium Authority of Ontario and reserve-fund study duties; category 23 only reached federal co-op act and credit unions."
+    },
+    {
+     "category": "Taxi, rideshare and small trucking: Ontario CVOR, federal ELD mandate, National Safety Code carrier profiles, Quebec taxi/transport remunerated person permits",
+     "first_search": "CVOR owner-operator carrier requirements ELD mandate Transport Canada small carriers hours of service records 2026",
+     "why": "Category 18 explicitly left CVOR and federal ELD unsearched; owner-operator carriers are a very large small-operator group in Canada with recurring abstract/logbook duties."
+    },
+    {
+     "category": "Farmers markets, food trucks, and Quebec/Ontario small food premises (MAPAQ permits, public health inspection records, DineSafe-type disclosure)",
+     "first_search": "MAPAQ permis restauration commerce de détail alimentaire renouvellement déclaration annuelle obligations exploitant",
+     "why": "Category 19 noted farmers-market and street-vendor licensing 'not searched'; food-handler permits and temperature/sanitation logs are mandatory for very many micro-operators."
+    },
+    {
+     "category": "Public Safety and Indigenous/First Nations-related small business duties: Indigenous procurement, Ontario Regulation 'Duty to Report' for dealers, and Canada Post/CBSA small exporter filings (export permits for lumber, softwood export charges, CBSA export reporting)",
+     "first_search": "Canadian Export Reporting System CERS mandatory export reporting small exporters 2026 CBSA softwood lumber export charge return",
+     "why": "Export/import rules on small operators were thin: only CARM (rejected) and SFCR covered; softwood lumber export charge, Canadian Export Reporting System (CERS) and Global Affairs export permits hit small mills and exporters, with 2025-2026 tariff-driven changes."
+    }
+   ]
+  },
+  "tag": "w2b2"
+ },
+ "discover:A:canada": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small Ontario cemetery operators: churches, municipalities, family and community cemeteries (about 277 operators in the VFM audit)",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://thebao.ca/wp-content/uploads/BAO-Form-2-Instructions-Updated-Jan-2026.pdf ; https://thebao.ca/wp-content/uploads/2025/03/BAO_-OPGT_UpdatedSlides_Mar2025.pdf ; https://thebao.ca/bao-guidance-video-on-required-audit-reports-on-cemetery-care-and-maintenance-funds/ (BAO webinar Nov 6, 2025 on audit reports) ; https://canadacommons.ca/artifacts/1958166/value-for-money-audit/ (mirror: 207 of 277 operators had not renewed or filed since 2016; date unconfirmed) ; https://ontario.anglican.ca/news/bao-annual-reports-due-march-31 (church cemeteries get reminders; 2022)",
+     "existing": "Searched cemetery management software for Ontario Form 2 / OBIS filing: only generic directories (PlotBox, CemSites mentioned); no source confirms any product prepares Form 2 or BAO filing. BAO offers webinars and a Trust@TheBAO.ca mailbox. A spreadsheet is the likely incumbent.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "Ontario cemetery operator BAO filing kit: Form 1 licence renewal and Form 2 Care and Maintenance fund report (OBIS portal)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Funeral, Burial and Cremation Services Act, 2002 and BAO rules: Form 1 annual licence renewal due March 31; Form 2 report on Care and Maintenance due within 90 days of fiscal year-end (180 days if audit); audit if C&M fund over $500,000 or a funeral establishment is on site; minimum C&M contribution by right type (example: greater of $290 or 40% of price for a 24 sq ft in-ground grave); a separate Form 2 per fund",
+     "trigger_note": "Different buyer (cemetery operators) and duty (care fund reports) from K04 (funeral-home EDR).",
+     "unchecked": "Number of active operators and how many are volunteer-run; willingness to pay; whether OBIS accepts uploads or only forms; whether other provinces (NS, MB, BC, Quebec) have similar care-fund reports; date of the VFM audit; penalties actually applied."
+    },
+    {
+     "buyer": "Registered BC metal dealers and recyclers, including small yards and mobile dealers",
+     "category": "2. Scrap-metal dealers (also 4. gold buyers)",
+     "evidence": "https://www2.gov.bc.ca/gov/content/safety/crime-prevention/metal-recycling/recording-and-reporting-purchases ; https://www2.gov.bc.ca/gov/content/safety/crime-prevention/metal-recycling/the-act-and-regulations ; https://free.bcpublications.ca/civix/document/id/complete/statreg/101_2012 ; competitor search result: https://www.getapp.ca/software/114791/scrapyardpro",
+     "existing": "Competitor search (scrap metal yard software BC Form B): ScrapYardPro (exports to LeadsOnline MTIS and BWI, US-oriented, no BC claim), BuyScrapSoftware (compliance only in higher tier), ScrapRight (claims 50 US states and 'international'). No BC-specific vendor or police-approved standard found.",
+     "known_mark": "new",
+     "name": "BC metal dealer and recycler compliance app: Form A record, daily Form B police report, seller code",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Metal Dealers and Recyclers Act and Reg 101/2012 (current to Mar 24, 2026 per search): registration with the Province; every purchase recorded on Form A (print copy kept on premises 1 year if electronic); Form B reported to local police before end of the same day (noon next day fallback) by the method the local police specify (fax, email or police website); seller code = first 3 letters of surname + last 3 characters of ID; cash limit $50; business accounts need an exemption file",
+     "trigger_note": "",
+     "unchecked": "Number of registered BC dealers (government list updated monthly, not opened); which police forces accept which channel; whether other provinces (Alberta, Ontario, Quebec) have equivalent regimes; willingness to pay; whether local police run their own portals."
+    },
+    {
+     "buyer": "Small retail and wholesale jewellers, gold and precious-metal buyers in Canada (federal rule)",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://lawyerinfo.ca/guides/ontario/business-law-ontario/how-to-navigate-fintrac-anti-money-laundering-rules-as-an-ontario-jewelry-dealer/ (fetched; states universal enrolment, no deadline) ; https://canadianjewellers.com/2026/06/23/ (CJA article, 403 on fetch; seen in search results) ; https://canadianjewellers.com/fintrac-reporting-101-for-dpms-str-lctr-lvctr-lpepr/ ; https://www.millerthomson.com/en/?p=40569",
+     "existing": "Canadian Jewellers Association webinars and guides; law-firm guides; generic AML tools. No jewellery-specific tool found.",
+     "known_mark": "new",
+     "name": "FINTRAC enrolment and compliance-program kit for jewellers and gold buyers (DPMS)",
+     "score": 4,
+     "status": "unverified",
+     "trigger": "PCMLTFA: $10,000 purchase/sale trigger, compliance program, client ID, record keeping, STR/LCTR/LVCTR/LPEPR reports. Claim to verify: a March 2026 act ('Strengthening Canada's Immigration System and Borders Act') makes all DPMS enrol with FINTRAC (no date given). A Miller Thomson note says a different bill (C-2) extends mandatory enrolment to all PCMLTFA entities.",
+     "trigger_note": "",
+     "unchecked": "Primary-source confirmation on FINTRAC / Justice Laws of the enrolment duty, its effective date and any deadline; whether FINTRAC already offers a free form or portal; how many small DPMS exist; generic AML software overlap (out of scope if purely generic). If a hard enrolment deadline exists, treat as a one-off deadline play."
+    },
+    {
+     "buyer": "Pawnshops and second-hand dealers licensed under city bylaws",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://www.fortsask.ca/media/3bshixfy/pawnshop-bylaw-c27-22.pdf ; https://www.medicinehat.ca/media/jdrcedd2/3484.pdf ; https://www.wetaskiwin.ca/media/gmnpckyr/1994-21-pawnshops-secondhand-dealers-and-scrap-metal-dealers-bylaw.pdf ; https://kelowna.ca/node/4027 ; https://www.portcoquitlam.ca/sites/default/files/2024-10/3774%20-%20Second%20Hand%20Dealers%20Bylaw.pdf ; https://lethbridgenewsnow.com/?p=178689",
+     "existing": "Search for pawn software with police reporting in Canada returned only bylaw texts and US LeadsOnline mandates; no Canadian-approved vendor named. Fragmented by city, which cuts both ways.",
+     "known_mark": "new",
+     "name": "Municipal pawn and second-hand dealer e-reporting bridge (Alberta and BC cities)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "City bylaws, e.g. Fort Saskatchewan C27-22 (electronic record in a program approved by the Peace Officer, delivered by 10:00 next business day), Medicine Hat (electronic means satisfactory to Inspector), Wetaskiwin 1994-21, Lethbridge police e-access with seller consent, Kelowna Bylaw 9227, Port Coquitlam 3774, Vancouver",
+     "trigger_note": "",
+     "unchecked": "Which program Alberta cities approve (Calgary, Edmonton bylaws not found); whether pawn POS vendors already integrate; Ontario municipal practice (Toronto, Ottawa); number of shops."
+    },
+    {
+     "buyer": "Small Quebec auto recyclers and dealers (OPC permit holders)",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://www.opc.gouv.qc.ca/en/commercant/permis-certificat/commercants-recycleurs/recyclage-de-vehicules-routiers-obligations ; https://www.legisquebec.gouv.qc.ca/en/document/cr/c-24.2,%20r.%207 ; https://www.quebec.ca/nouvelles/actualites/details/recycleur-de-vehicules-sans-permis-autorama-gravel-inc-plaide-coupable-70056",
+     "existing": "Not searched for competitors (budget used). Salvage-yard inventory software likely exists but Quebec register format unchecked.",
+     "known_mark": "new",
+     "name": "Quebec vehicle recycler register and OPC permit tool (vehicles and major parts)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Highway Safety Code: recycler must keep a register of every road vehicle received and its major parts at the place of sale; Regulation respecting dealers and recyclers (c-24.2, r. 7); OPC permit with surety, REQ registration; OPC prosecutes unlicensed recyclers (2026 cases)",
+     "trigger_note": "",
+     "unchecked": "Competitor search in French (logiciel recycleur véhicules registre pièces majeures Québec); current retention period; whether register is inspected or reported anywhere; number of permit holders; Ontario ELV equivalents (O. Reg 85/16 is from 2016)."
+    },
+    {
+     "buyer": "Small temporary help agencies and foreign-worker recruiters in Ontario and Quebec",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.ontario.ca/page/licensing-temporary-help-agencies-and-recruiters (fetched) ; https://cnesst.gouv.qc.ca/agences ; https://www.revenuquebec.ca/en/businesses/sector-specific-measures/attestation-de-revenu-quebec/contracts-authorization-and-licence-requiring-an-attestation/mandatory-cnesst-licence-for-employment-agencies-and-temporary-foreign-worker-recruitment-agencies/ ; https://mccarthy.ca/en/insights/blogs/canadian-employer-advisor/ontario-puts-force-new-licensing-requirements-temporary-help-agencies-recruiters",
+     "existing": "Not searched (budget). Staffing ATS/payroll products likely cover contracts and invoices; renewal only every 2 years so low frequency.",
+     "known_mark": "new",
+     "name": "Staffing and recruiter licence back-office (Ontario THA/recruiter licence; Quebec CNESST agency licence)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ontario ESA O. Reg 99/23: licence required since Jan 1, 2024; applications from Jan 1, 2026 get a two-year term and $1,500 fee, $25,000 security, reminders at 90 and 30 days; recruiter condition on foreign-worker wage floor. Quebec: CNESST licence, $15,000 bond, Revenu Québec attestation, client contracts and invoices kept 6 years (from 2019 commentary)",
+     "trigger_note": "",
+     "unchecked": "Competitor search; whether client companies must verify licences (Ontario ban on using unlicensed agencies suggests a client-side licence-check product); other provinces (BC, MB, NS) licensing; agency counts."
+    },
+    {
+     "buyer": "Small commercial waste and recycling haulers operating in Metro Vancouver",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://metrovancouver.org/services/solid-waste/Documents/hauler-record-keeping-faqs-bylaw-379.pdf ; https://metrovancouver.org/services/environmental-regulation-enforcement/solid-waste-regulatory-program/record-keeping ; https://vancouver.municipal.codes/VMC/5.62.072",
+     "existing": "Not searched; route/dispatch software for haulers likely exists. No small-hauler exemption found either way.",
+     "known_mark": "new",
+     "name": "Metro Vancouver / City of Vancouver hauler records and levy reporting (Bylaw 379)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Metro Vancouver Tipping Fee Bylaw 379 (2024, FAQ dated Mar 2026): electronic load-by-load records by destination, kept 5 years, generator levy collected and remitted, inspectable; City of Vancouver licensees file annual recyclable tonnage by Jan 30",
+     "trigger_note": "",
+     "unchecked": "Competitor search; Metro Vancouver's own templates; haulers' size; whether municipal or industry portals exist. Different province and duty from K02 (Ontario RPRA HWP registry)."
+    },
+    {
+     "buyer": "Owners of small non-municipal drinking water systems in Ontario: campgrounds, motels, churches, small businesses",
+     "category": "13. Small water systems",
+     "evidence": "Regulation text not retrieved. Only utility-scale logbook products seen: https://www.suez.com/en/north-america/facilities (eRIS, Toronto Water). Ontario operator-logbook training: https://training.arcadis.com/courses/ams122-log-book-and-record-keeping-in-water-operations",
+     "existing": "Utility-scale eRIS and generic digital logbooks; nothing aimed at small owners found.",
+     "known_mark": "new",
+     "name": "Ontario small drinking water system owner log and sampling tool (O. Reg 319/08)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "O. Reg 319/08 under Safe Drinking Water Act, 2002 (sampling, testing, records; not confirmed from text in this pass)",
+     "trigger_note": "",
+     "unchecked": "Actual obligations, owner count, whether MECP provides a free tool, lab-result submission channel, other provinces' small-system rules (BC, Alberta, NS)."
+    },
+    {
+     "buyer": "Small well drilling contractors and pump installers",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://forms.mgcs.gov.on.ca/dataset/012-2193 ; https://files.ontario.ca/moe_mapping/downloads/metadata/opendata/Wells_Records_metadata_EN_2026a.pdf ; https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/groundwater-wells-aquifers/information-for-well-owners/well-records-registration",
+     "existing": "BC has a free state submission system (GWELLS); Ontario submission channel not confirmed. No driller software found (not searched).",
+     "known_mark": "new",
+     "name": "Ontario and BC well-driller well-record filing (Reg 903 / GWELLS)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ontario Reg 903: well record to MECP for construction, alteration, abandonment (about 28,000 records a year); BC Water Sustainability Act: driller report within 90 days via GWELLS",
+     "trigger_note": "",
+     "unchecked": "Ontario filing method (online vs paper); driller count; competitor search; whether job-management tools already export the form."
+    },
+    {
+     "buyer": "Small Ontario septic and liquid-waste haulers",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://www.ontario.ca/page/waste-transportation-system-guidance-environmental-activity-and-sector-registry ; https://york.ca/resource/hauled-wastewater-receiving-policy-amendment-january-2019 ; https://ero.ontario.ca/public/public_uploads/2023-10/ERO%20019-6963-%20Waste%20Management%20System%20Registrations.pdf",
+     "existing": "None found; no Ontario per-load manifest standard confirmed.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "Ontario hauled-sewage hauler records and municipal receiving permits",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Waste transportation system registration/ECA (O. Reg 119/25 replaced O. Reg 351/12); daily logs of premises and volumes; municipal receiving programs such as York Region (annual registration), Ottawa permit",
+     "trigger_note": "",
+     "unchecked": "Current daily-log duty under O. Reg 347 / 119/25; whether manifests are required; competitor search."
+    },
+    {
+     "buyer": "Quebec taxi owner-operators without a dispatcher/répondant",
+     "category": "18. Transport operators",
+     "evidence": "https://www.revenuquebec.ca/fr/entreprises/mesures-particulieres/exploitant-dune-entreprise-de-taxi/ ; https://www.revenuquebec.ca/fr/entreprises/mesures-particulieres/redevance-transport-remunere-de-personnes ; https://www.taxicaller.com/campaigns/en/quebec-compliant",
+     "existing": "Dispatch vendors such as TaxiCaller market Quebec-compliant billing; drivers under a répondant do not file.",
+     "known_mark": "new",
+     "name": "Quebec taxi levy declaration ($0.90 per ride) for independent taxi operators",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Act respecting remunerated passenger transportation by automobile (in force Oct 2020): levy of $0.90 per ride declared and paid to Revenu Québec; shown on the customer's bill; fine at least $200 a day",
+     "trigger_note": "",
+     "unchecked": "Share of owner-operators filing alone; competitor depth."
+    },
+    {
+     "buyer": "Families employing nannies and caregivers",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://canadiannanny.ca/info/nanny-tax-payroll ; https://www.adp.ca/en/resources/articles-and-insights/articles/n/nanny-payroll.aspx ; https://www.care.com/c/en-ca/?p=78344",
+     "existing": "Existing paid nanny-payroll services (canadiannanny.ca advertises $50/month; ADP and Care.com guides). General payroll is out of scope.",
+     "known_mark": "new",
+     "name": "Nanny and household-employer payroll service",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "CRA payroll account, monthly/quarterly remittances, T4, ROE within 5 business days, WSIB in Ontario over 24 hours a week",
+     "trigger_note": "",
+     "unchecked": "Quebec-specific (Chèque emploi-service, CNESST) angle not checked."
+    },
+    {
+     "buyer": "Ontario beekeepers (many hobbyists)",
+     "category": "8. Beekeepers",
+     "evidence": "https://www.ontario.ca/page/ontario-beekeeper-registration ; https://www.ontario.ca/page/summary-ontario-beekeeping-regulations",
+     "existing": "Renewal and registration handled online through the government OneKEY Bees Portal.",
+     "known_mark": "new",
+     "name": "Ontario beekeeper registration and hive-count return",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Bees Act Reg 57: certificate of registration, apiary locations and hive counts with each renewal",
+     "trigger_note": "",
+     "unchecked": "Other provinces' apiary registers."
+    },
+    {
+     "buyer": "Small veterinary practices",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://cvo.org/standards/management-and-disposal-of-controlled-drugs ; https://health-infobase.canada.ca/cipars/antimicrobial-sales-use.html",
+     "existing": "Not searched; vet practice-management systems likely cover logs.",
+     "known_mark": "new",
+     "name": "Veterinary clinic controlled-drug log and loss report helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "College standard (CVO example): controlled drug log, audits, report loss or theft to police and Health Canada within 10 days; CDSA schedules",
+     "trigger_note": "",
+     "unchecked": "Whether any province requires electronic submission; competitor search."
+    },
+    {
+     "buyer": "Licensed livestock dealers and agents",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.informea.org/en/legislation/livestock-dealers-and-livestock-dealers-agents-regulation-alta-reg-6698",
+     "existing": "Not searched.",
+     "known_id": "K10",
+     "known_mark": "new",
+     "name": "Alberta livestock dealer licence, security and records tool",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Alberta Livestock Dealers and Livestock Dealers' Agents Regulation (Alta Reg 66/98): licence, security, premises inspection. Ontario dealer rules unverified.",
+     "trigger_note": "Not the movement-reporting duty rejected in K10.",
+     "unchecked": "Current Alberta text, reporting duties, Ontario Livestock Financial Protection Act, dealer count."
+    },
+    {
+     "buyer": "Small registered charities, religious corporations, Ontario non-profits",
+     "category": "17. Community and religious bodies",
+     "evidence": "https://www.canada.ca/en/revenue-agency/services/charities-giving/charities/operating-a-registered-charity/filing-t3010-charity-return/when-file.html ; https://www.charitylawgroup.ca/charity-law-questions/charity-revoked-t3010-how-to-handle-it",
+     "existing": "CRA online filing; accountants and charity lawyers; no filing software search done.",
+     "known_mark": "new",
+     "name": "Charity and not-for-profit annual filing (T3010 and Ontario Business Registry annual return)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "CRA T3010 within 6 months of year-end; revocation for non-filing; Ontario annual return via Ontario Business Registry (Company Key needed)",
+     "trigger_note": "",
+     "unchecked": "Competitor search; halal and kosher supervision (not searched)."
+    },
+    {
+     "buyer": "Small foreign-exchange bureaus and MSBs",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://fintrac-canafe.canada.ca/msb-esm/intro-eng11 ; https://salvusfunds.com/2026/05/07/registering-a-money-services-business-under-fintrac-in-canada-in-2026/",
+     "existing": "Generic AML tools and vendor guides; two-year cycle.",
+     "known_mark": "new",
+     "name": "FINTRAC MSB registration renewal for small currency exchanges",
+     "score": 2,
+     "status": "weak",
+     "trigger": "MSB registration valid 2 years; renewal form (updated 2026-06-26); no minimum threshold",
+     "trigger_note": "",
+     "unchecked": "Number of small MSBs; generic AML overlap (out of scope)."
+    },
+    {
+     "buyer": "Ontario tourist outfitters in the Moose-Bear Tourism Industry Program",
+     "category": "20. Small licensed premises with inspections: hunting outfitters",
+     "evidence": "https://www.ontario.ca/page/hunt-moose-tourist-outfitter ; https://ontario.ca/page/tourist-outfitters-and-hunting",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Ontario Moose-Bear outfitter paperwork (registered guests, hunter reports)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Outfitters issue tags/validation certificates through ministry work centres, give registered-guest forms, return mandatory hunter reports by deadline",
+     "trigger_note": "",
+     "unchecked": "Outfitter count, report deadlines and channel; BC guide-outfitter report (https://www2.gov.bc.ca/assets/gov/sports-recreation-arts-and-culture/outdoor-recreation/fishing-and-hunting/hunting/guide_outfitter_report.pdf) seen but not read."
+    },
+    {
+     "buyer": "Quebec driving schools (recognised by SAAQ)",
+     "category": "20. Small licensed premises with inspections: driving schools",
+     "evidence": "https://saaq.gouv.qc.ca/en/driving-course/finding-recognized-driving-school ; https://saaq.gouv.qc.ca/en/mandatory-class-1-training/background-information",
+     "existing": "Not searched.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Quebec driving-school recognition compliance (SAAQ)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "SAAQ recognition, inspections, suspensions and revocations (Feb 25 and Mar 11, 2026); mandatory Class 1 training; Ontario BDE school licensing record duties not confirmed",
+     "trigger_note": "Adjacent to K07 (Ontario MELT truck schools) but different province and schools.",
+     "unchecked": "What records schools must file, reasons for revocations, school count, Ontario MTO duties."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Family is employer: CRA payroll account, remittances, T4, ROE, WSIB in Ontario >24h/week. Paid nanny-payroll services already exist (canadiannanny.ca at about $50/month, ADP guide). Nothing new beyond rejecting the idea (see ledger).",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "BC Metal Dealers and Recyclers Act and Reg 101/2012: registration, Form A record, Form B police report by end of day (next day noon fallback), seller privacy code, cash limit $50. Candidate in ledger. Other provinces' dealer rules not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Municipal bylaws, not provincial: Alberta towns (Fort Saskatchewan C27-22 requires electronic record in a police-approved program by 10:00 next business day; Medicine Hat; Wetaskiwin; Lethbridge police e-access), BC (Kelowna, Port Coquitlam, Vancouver). Ontario Pawnbrokers Act plus municipal licensing, paper. Candidate in ledger.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "FINTRAC DPMS regime (PCMLTFA, $10,000 trigger, STR/LCTR/LVCTR/LPEPR). One law-firm guide claims universal enrolment from March 2026 act; not confirmed on FINTRAC or Justice Laws. Candidate in ledger. Also BC metal dealer rules cover gold/metal buyers.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Quebec: OPC permit with surety, Highway Safety Code register of vehicles and major parts, OPC prosecutions of unlicensed recyclers in 2026. Ontario: ELV sites under EASR/ECA (O. Reg 85/16, 2016 source); no RPRA ELV reporting found. Candidate in ledger.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Alberta Livestock Dealers and Livestock Dealers' Agents Regulation (Alta Reg 66/98): licence, security, inspection. Ontario dealer rules not confirmed. Movement reporting is K10 (rejected). Weak candidate only.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Nothing new beyond K-list: Ontario O. Reg 31/05 under Food Safety and Quality Act, 2001; 2020 amendment O. Reg 716/20 tied to Safe Food for Canadians Act; no 2026 changes found. Other provinces not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Ontario Bees Act Reg 57: registration certificate, hive counts submitted at renewal, renewal online via OneKEY Bees Portal (state tool). Nothing to build.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "CVO standard: controlled drug log, loss/theft to police and Health Canada within 10 days; antimicrobial sales reporting (VASR) sits on manufacturers/importers, not clinics. Weak; vet practice-management software likely covers it.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Ontario Reg 903 well record to MECP (about 28,000 records/year; PDF form 012-2193); BC WSA: drillers file via GWELLS within 90 days. Weak candidate in ledger. Water abstraction permits (Ontario PTTW, BC water licences) not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Ontario waste transportation registrations now under O. Reg 119/25 (replaced O. Reg 351/12), hauled sewage daily logs, York Region annual hauler registration; Metro Vancouver Bylaw 379 load-by-load records kept 5 years; City of Vancouver annual recyclable tonnage by Jan 30. No Ontario manifest standard found. Candidates in ledger. K02 is the related known idea.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "TSSA, Technical Safety BC, ABSA, TSASK exist; searches returned fee/course news only (TSSA fees +2.4% from May 1, 2026). Owner certificate-renewal duties not confirmed; no candidate scored.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Search did not surface O. Reg 319/08 text; only utility-scale logbook software (SUEZ eRIS, Toronto Water) and generic digital logbooks. Unverified candidate in ledger.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Ontario vendor and exterminator licences (online renewal since 2018; operator licence expires Dec 31); only record duty found is aerial application (O. Reg 63/09, 2 years). BC annual pesticide sales summary form exists. K19 already rejected the neonic angle. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Ontario THA and recruiter licensing (O. Reg 99/23; from Jan 1, 2026 two-year term and $1,500 fee; $25,000 security) and Quebec CNESST agency licence ($15,000 bond, contracts and invoices kept 6 years, Revenu Québec attestation). Candidate in ledger. Other provinces (MB, BC, NS) not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Ontario BAO: Form 1 annual licence renewal (Mar 31), Form 2 Care and Maintenance report via OBIS portal, audit if fund over $500,000, VFM audit says 207 of 277 operators had not renewed or filed. Candidate in ledger (related K04). Other provinces not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "CRA T3010 within 6 months of year-end, revocation tax; Ontario annual return via Ontario Business Registry. Halal and kosher supervision not searched (budget). Weak candidate only; accountants and CRA tools cover filing.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Quebec taxi levy: $0.90 per ride declared to Revenu Québec, TaxiCaller markets a Quebec-compliant product. Ontario MELT is K07. CVOR and federal ELD not searched. Weak candidate in ledger.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers: FINTRAC MSB registration valid 2 years, renewal form updated 2026-06-26, no minimum threshold. Farmers-market and street-vendor licensing not searched. Weak candidate in ledger.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Childminders and nurseries = K01. Driving schools: SAAQ revoked or suspended schools in Feb and Mar 2026 (Quebec); Ontario BDE record duties not confirmed. Ontario Moose-Bear outfitters must return mandatory hunter reports. Tattoo studios and small food producers not searched (budget). Weak/unverified candidates in ledger.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 7,
+   "queries": [
+    "BC Metal Dealers and Recyclers Act reporting transaction records scrap dealers police",
+    "Ontario second-hand goods pawnbroker bylaw police reporting LeadsOnline Canada",
+    "Ontario end-of-life vehicle regulation dismantlers registry RPRA reporting 2026",
+    "Technical Safety BC TSSA ABSA boiler pressure vessel elevator owner annual inspection certificate renewal 2026",
+    "Ontario temporary help agency recruiter licence ESA 2026 Working for Workers",
+    "Ontario septic hauler liquid waste ECA manifest haulage records septic maintenance inspection",
+    "Ontario small drinking water systems Regulation 319/08 owner operator sampling logbook",
+    "Ontario pesticide vendor licence records exterminator licence renewal applicator logbook",
+    "Canada veterinary clinic controlled drugs log ketamine Health Canada reporting antimicrobial tracking",
+    "Canada small abattoir provincial meat licence Ontario Meat Regulation 2026 record keeping",
+    "FINTRAC dealers in precious metals and stones reporting entity small jewellers 2026",
+    "Metro Vancouver Bylaw 379 hauler record keeping small haulers",
+    "Ontario Reg 903 well record contractor; BC groundwater well driller report",
+    "Ontario Bees Act beekeeper registration 2026",
+    "Ontario outfitters licence tourism hunting reporting",
+    "FINTRAC DPMS enrolment mandatory registration 2026 Bill C-12",
+    "Quebec recycleur de véhicules routiers permis registre pièces usagées (OPC)",
+    "Quebec taxi redevance transport rémunéré de personnes 2026",
+    "Ontario cemetery BAO annual report trust fund care and maintenance 2026",
+    "nanny payroll Canada household employer; livestock dealer licence Alberta Ontario; FINTRAC MSB renewal; driving school MTO/SAAQ; Quebec agences de placement CNESST; pawn second-hand Alberta electronic reporting; cemetery software BAO Form 2; BC scrap metal software Form B"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b2"
+ },
+ "discover:B:canada": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Ontario real estate brokerages (brokers of record at small and solo brokerages)",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://reco.on.ca/news/reco-announces-new-financial-filing-requirements-to-strengthen-consumer-protection ; https://reco.on.ca/agents-and-brokerages/annual-financial-filing ; https://reco.on.ca/agents-and-brokerages/annual-financial-filing/annual-financial-filing-faqs ; https://www.reco.on.ca/agents-and-brokerages/info-for-brokerages/brokerage-administration-resources/ ; https://www.mpamag.com/ca/mortgage-industry/market-updates/reco-sets-october-deadline-for-ontario-brokerage-financial-filings/579131. Prompted by the iPro Realty trust scandal (about 10 million CAD reported missing).",
+     "existing": "Competitor search run (English): no third-party RECO-specific filing or reconciliation software found, and no RECO-endorsed tools. RECO provides webinars and guides. Brokerages probably use generic accounting software and Excel. ReallyTrusted covers FINTRAC for realtors (different duty). Unchecked: Lone Wolf, Brokermint, Fastmail-type back-office suites and brokerage-accounting products that may already add a RECO export.",
+     "known_mark": "new",
+     "name": "RECO brokerage annual financial filing and trust-reconciliation pack (Ontario)",
+     "score": 5,
+     "status": "promising",
+     "trigger": "RECO (Real Estate Council of Ontario) announced on 16 June 2026 that all brokerages must submit an annual financial filing via the MyWeb portal from 1 Oct 2026. First filing covers the fiscal year 1 Aug 2025 to 31 Jul 2026 and is due 30 Oct 2026. Later filings are due within 90 days of fiscal year end. It contains financial statement data, trust assets and liabilities, unclaimed trust money, and broker-of-record attestations (including that monthly trust reconciliations were reviewed and signed). RECO plans monthly trust-reconciliation reporting in 2027.",
+     "unchecked": "Number of Ontario brokerages (not found); whether the filing is a form-fill (low value-add) or needs ledger data; whether the accountant-review proposal survived; monthly reporting format for 2027; whether back-office vendors already export; buyer is a broker of record who often uses an outside bookkeeper (possible channel). Also check BC (BCFSA) and Alberta equivalents."
+    },
+    {
+     "buyer": "Small independent equipment/auto lessors and financers, factoring firms, cheque-cashing shops",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://fintrac-canafe.canada.ca/re-ed/cheque-eng ; https://fintrac-canafe.canada.ca/reporting-declaration/info/re-ed-eng ; https://www.blg.com/en/insights/2024/12/new-aml-atf-measures-including-requirements-for-financing-leasing-and-factoring-businesses ; https://cfla-acfl.ca/industry-intelligence/anti-money-laundering/government-resources.html ; https://www.millerthomson.com/en/insights/structured-finance-and-securitization/anti-money-laundering-compliance-alert-new-requirements-financing-leasing-companies/",
+     "existing": "Competitor search run: generic AML platforms (SEON, Sumsub) aimed at fintech/payments; ReallyTrusted for realtors and mortgage brokers; CFLA association guidance. No product built for small lessors or cheque cashers found. Vehicle-finance dealer enforcement said to start 2026 (secondary source).",
+     "known_mark": "new",
+     "name": "FINTRAC compliance-programme kit for newly covered factors, financing/leasing entities and cheque cashers",
+     "score": 4,
+     "status": "promising",
+     "trigger": "PCMLTFA amendments brought financing and leasing entities, factors and cheque cashers under FINTRAC. FINTRAC pages mark them 'new' (April or July 2025, sources conflict). A trade association says full compliance programme expected by 1 April 2026. Obligations: compliance programme, client ID, record keeping, reports (e.g. large cash, suspicious transactions).",
+     "unchecked": "Exact effective dates and the final regulation text; number of small covered entities; whether FINTRAC reporting interface (FWR) already satisfies the reporting part; penalties; whether the 100,000 CAD / vehicle scope pulls in car dealers who finance. Competitors in the dealer/lender back office unchecked. Overlaps with 'generic AML' exclusion, so the angle must be sector-specific records plus training."
+    },
+    {
+     "buyer": "Quebec firms with 25-49 employees (about 20,000 per OQLF)",
+     "category": "31. Quebec Charter of the French language: francization registration (Bill 96)",
+     "evidence": "https://educaloi.qc.ca/capsules/les-regles-de-francisation-au-quebec/ ; https://www.quebec.ca/nouvelles/actualites/details/publication-du-rapport-annuel-2024-2025-de-loffice-quebecois-de-la-langue-francaise-et-de-la-commission-de-toponymie-66335 ; https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/modernisation/11_francisation-entreprise_napperon.pdf",
+     "existing": "Competitor search run in French: no dedicated francization compliance software found; only generic compliance tools and Odoo/ERP integrators, and OQLF advisers. OQLF offers its own online self-assessment and advisers.",
+     "known_mark": "new",
+     "name": "Quebec francization registration and reporting tracker for 25-49 employee firms",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Charter of the French language as amended by Bill 96: from 1 June 2025, 25+ employee firms register with OQLF, do a self-assessment within 3 months, then obtain a francization certificate or file a programme and periodic reports (12-month implementation reports, 3-year reports once certified). Time-based triggers depend on when the firm hit 25 employees.",
+     "unchecked": "Whether the obligation recurs for most firms (many will be certified after one assessment and report every 3 years); how many firms need a programme; whether consultants (Berlitz etc.) already package it; OQLF free portal depth; willingness to pay. Might behave as a one-off, so score could fall."
+    },
+    {
+     "buyer": "Small hotels, B&Bs and short-term rental operators with properties in several Ontario municipalities",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://www.toronto.ca/community-people/housing-shelter/short-term-rentals/short-term-rental-operators-hosts/short-term-rental-municipal-accommodation-tax/short-term-rental-municipal-accommodation-tax-report ; https://oshawa.ca/en/city-hall/municipal-accommodation-tax.aspx ; https://www.cityofkingston.ca/business-in-kingston/municipal-accommodation-tax/ ; https://www.sarnia.ca/municipal-accommodation-tax-mat/",
+     "existing": "Competitor search not separately run (budget). Seen: ORHMA reporting portal (Oshawa), platforms collect for hosts, hotel PMS vendors (RoomMaster guide), city portals.",
+     "known_id": "K12",
+     "known_mark": "new",
+     "name": "Ontario municipal accommodation tax (MAT) multi-municipality remittance helper for B&Bs, small inns and hosts",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Each municipality sets its own MAT by-law, rate and filing frequency (Toronto STR quarterly within 30 days of quarter end even with nil returns, 6% rate; Oshawa 5% via ORHMA online portal; Kingston 5%; Sarnia 4% with STA licence). Toronto can refuse registration renewal for non-reporting.",
+     "unchecked": "Number of multi-municipality operators; whether PMS systems already calculate MAT; Toronto hotel filing frequency (unconfirmed); competitor search in local terms. Consumer hosts are low willingness to pay; K12 (BC registry) was rejected for similar reasons."
+    },
+    {
+     "buyer": "Quebec tourist accommodation operators (hosts, B&Bs, small inns, chalet owners)",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://www.quebec.ca/nouvelles/actualites/details/modifications-au-reglement-sur-lhebergement-touristique-pour-favoriser-une-plus-grande-conformite-69339 ; https://www.quebec.ca/nouvelles/actualites/details/nouvelles-modifications-au-reglement-sur-lhebergement-touristique-69345 ; https://en.apq.org/news/posts/new-regulation-on-tourist-accommodation-what-the-march-25-2026-announcement-changes/",
+     "existing": "Government portal handles registration; platforms enforce certificate display. Competitor search not run.",
+     "known_id": "K12",
+     "known_mark": "new",
+     "name": "Quebec tourist-accommodation registration and annual update declaration",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Act respecting tourist accommodation (in force 1 Sept 2022) replaced CITQ star classification with registration and an annual update declaration. Registration certificate must be shown and sent to rental platforms. Regulation amended 25 March 2026 (registration and renewal process, certificate display). Revenu Quebec inspects.",
+     "unchecked": "Full text and effective date of March 2026 changes; operator counts; annual fee and renewal date mechanics."
+    },
+    {
+     "buyer": "Quebec temporary placement agencies and foreign-worker recruitment agencies; also client firms jointly liable",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://cnesst.gouv.qc.ca/agences ; https://www.revenuquebec.ca/en/businesses/sector-specific-measures/attestation-de-revenu-quebec/contracts-authorization-and-licence-requiring-an-attestation/mandatory-cnesst-licence-for-employment-agencies-and-temporary-foreign-worker-recruitment-agencies/ ; https://www.myconsultant.ca/EN/New-CNESST-Requirements-for-International-Recruitment",
+     "existing": "Competitor search not run (budget). Agency staffing back-office products exist but a permit-specific tool was not checked.",
+     "known_mark": "new",
+     "name": "Quebec CNESST placement-agency permit compliance pack (temp agencies and TFW recruiters)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Regulation in force since 1 Jan 2020: mandatory CNESST permit, 15,000 CAD bond valid throughout, Revenu Quebec attestation; labour standards, pay equity and OHS obligations; joint liability of agency and client for wages; reporting of certain arrival/departure dates for foreign workers.",
+     "unchecked": "Permit renewal period (a 2020 article says 2 years, unconfirmed); number of permit holders; recurring reports; competitor search in French. The duty is largely a licence plus bond, not a repeating filing."
+    },
+    {
+     "buyer": "Farms, restaurants, trucking and small employers hiring through LMIA; recruiters and temporary help agencies",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://www.ahbl.ca/new-employer-registration-requirement-for-b-c-employers-in-hiring-temporary-labour-through-specific-federal-programs/ ; https://gov.mb.ca/labour/standards/category,wrpa,factsheet.html ; https://www.saskatchewan.ca/residents/moving-to-saskatchewan/hire-a-foreign-worker/recruit-and-hire-workers-with-sinp/apply-for-a-certificate-of-registration ; https://www.ontario.ca/laws/regulation/230099/v4",
+     "existing": "Competitor search not run (budget). Free government registration; immigration lawyers/consultants serve LMIA work.",
+     "known_mark": "new",
+     "name": "Provincial temporary foreign worker employer registration and recruiter licensing (BC, Manitoba, Saskatchewan; Ontario temp-help licence)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "BC Temporary Foreign Worker Protection Act: employers register before LMIA (certificate up to 3 years, free) and recruiters on a separate registry. Manitoba Worker Recruitment and Protection Act: employer registration and recruiter licences (renewal short form). Saskatchewan certificate of registration needed for LMIA applications since 31 July 2023. Ontario O. Reg 99/23 licenses temporary help agencies and recruiters.",
+     "unchecked": "Whether IRPR employer compliance record-keeping (6-year retention, inspections) supports a records tool; recurring reporting duties; competitor search; Ontario status (one unofficial source says OINP streams were repealed in May 2026, unverified)."
+    },
+    {
+     "buyer": "Licensed Canadian firearms businesses (gun shops, gunsmiths, outfitters)",
+     "category": "33. Federal firearms business licence and record-keeping (Firearms Act / Bill C-71)",
+     "evidence": "https://www.yukon-news.com/local-news/yukon-businesses-scramble-to-comply-with-new-firearms-regulations-7002998 ; https://gazette.gc.ca/rp-pr/p2/2022/2022-05-11/html/si-tr24-eng.html ; https://laws.justice.gc.ca/eng/acts/F-11.6/page-5.html ; https://rcmp.ca/en/firearms/what-you-need-know-about-government-canadas-march-7-2025-prohibition-certain-unique-makes-and-models",
+     "existing": "Competitor search not run (budget). Retail POS vendors presumably handle part. RCMP provides the transfer verification service.",
+     "known_mark": "new",
+     "name": "Firearms retailer record-keeping and RCMP transfer-reference tool",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Firearms Act business-licence conditions since 18 May 2022: record inventory fields (make, model, serial etc.), obtain Registrar reference number before each non-restricted transfer, submit electronic records to RCMP, retain 20 years, hand records to RCMP on closure. 7 March 2025 prohibitions require inventory checks against the Firearms Reference Table.",
+     "unchecked": "Number of firearms businesses; whether RCMP supplies a free web tool for records; POS vendors with firearms modules; political/policy risk and customer base size; competitor search."
+    },
+    {
+     "buyer": "Small brewers, wineries, distillers; vaping product wholesalers/importers",
+     "category": "34. Federal excise duty: craft alcohol licensees and vaping excise stamps (CRA)",
+     "evidence": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/edm10-1-6/completing-excise-duty-return-wine-licensee.html ; https://www.canada.ca/en/revenue-agency/services/tax/technical-information/excise-duty/excise-duty-notices/edn80-overview-vaping-excise-stamps.html ; https://www.vinetur.com/en/canada-extends-alcohol-tax-relief-for-small-producers.html",
+     "existing": "Competitor search not run (budget). CRA My Business Account filing; production/ERP vendors for breweries not checked.",
+     "known_mark": "new",
+     "name": "Craft alcohol and vaping excise return and stamp reconciliation helper",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Excise Act, 2001: periodic excise returns (brewers monthly per Excise Act text found; wine B265); Excise Act 2001 stamping regime for vaping products with provincial stamps (Nova Scotia added 26 Feb 2026; stamp guidance effective 1 April 2026). Small-producer relief extended to 2028.",
+     "unchecked": "Return frequency and tier thresholds (15,000 vs 75,000 hl figures conflict); number of licensees; whether brewery software already produces returns; tobacco stamp rules not found."
+    },
+    {
+     "buyer": "Independent Ontario fuel station owners, marinas and private fuel outlets",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.tssa.org/liquid-fuels-compliance-standard ; https://www.tssa.org/gasoline-safety ; https://www.tssa.org/faqs-storage-tanks",
+     "existing": "Competitor search not run (budget). Tank-monitoring vendors and TSSA-registered contractors likely cover testing; no records software confirmed.",
+     "known_mark": "new",
+     "name": "Ontario TSSA gas-station inspection-readiness and records binder",
+     "score": 3,
+     "status": "weak",
+     "trigger": "O. Reg 217/01 Liquid Fuels: facilities must be licensed; TSSA periodic inspections check a Compliance Standard; records to hold include inventory control, annual shear valve/leak-detection tests, precision leak tests, cathodic protection, employee emergency training.",
+     "unchecked": "No recurring filing found; TSSA FY25 compliance statistics unclear; competitors; other provinces (NS, NL tank registration) and LPG/propane distributors not checked."
+    },
+    {
+     "buyer": "Quebec employers with 10+ (DEMES from 6+ per one source) employees",
+     "category": "36. Quebec pay equity: DEMES annual declaration and 5-year maintenance evaluation",
+     "evidence": "https://www.cnesst.gouv.qc.ca/fr/node/1205381 ; https://educaloi.qc.ca/actualites-juridiques/equite-salariale-etat-des-lieux-et-regles-a-suivre/ ; https://cscb.ca/en/article/mandatory-salary-reporting-quebec-employers-declaration-obligatoire-des-salaires-pour-les",
+     "existing": "Competitor search not run. ADP and consultants publish guides; CNESST declaration is filed in its own portal.",
+     "known_mark": "new",
+     "name": "Quebec pay equity DEMES and maintenance tracker",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Pay Equity Act: annual DEMES declaration to CNESST, evaluation of maintenance every 5 years with posting; fines cited from 1,000 to 45,000 CAD (unverified).",
+     "unchecked": "2026 deadline, free CNESST tool depth, vendor coverage."
+    },
+    {
+     "buyer": "Ontario organisations with 20+ employees (businesses and non-profits)",
+     "category": "32. Ontario AODA accessibility compliance reporting",
+     "evidence": "https://natlawreview.com/article/2026-reporting-year-under-accessibility-ontarians-disabilities-act-aoda ; https://forms.mgcs.gov.on.ca/dataset/on00897 ; https://ogletree.com/insights-resources/blog-posts/ontario-employers-this-is-your-reminder-to-file-your-accessibility-compliance-reports/",
+     "existing": "Free government Accessibility Compliance Reporting Portal is the filing channel; short self-reporting questionnaire. Competitor search not run.",
+     "known_mark": "new",
+     "name": "Ontario AODA compliance report preparation tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "AODA IASR (O. Reg 191/11): compliance report due 31 Dec 2026, every 3 years, certified by an authorised signer.",
+     "unchecked": "Only a once-per-three-years deadline plus a free state portal. Not exact portal capability; kept as a deadline-driven spike."
+    },
+    {
+     "buyer": "Quebec grocers, convenience stores, SAQ-adjacent retailers",
+     "category": "35. Quebec expanded deposit-refund system (Consignaction/AQRCB) for retailers",
+     "evidence": "https://www.cbc.ca/lite/story/1.7471283 ; https://consignaction.ca/wp-content/uploads/2026/02/webinaire-informatif-detaillants-temporaires-fevrier-2026.pdf ; https://www.retailcouncil.org/quebec-expands-deposit-system-to-all-plastic-beverage-containers/",
+     "existing": "AQRCB/Consignaction runs a free retailer portal and webinars. Competitor search not run.",
+     "known_id": "K08",
+     "known_mark": "known",
+     "name": "Quebec deposit-refund Phase 3 retailer onboarding",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Phase 3 from 1 March 2027 adds glass and multilayer carton beverage containers. Retailers over 375 m2 must accept returns; smaller ones voluntary. Return network behind schedule.",
+     "unchecked": "Retailer record duties; text of 2026 regulation amendments."
+    },
+    {
+     "buyer": "Health Canada licensed dealers (Class A precursors)",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://www.canada.ca/en/health-canada/services/health-concerns/controlled-substances-precursor-chemicals/precursor-chemicals/licenses-permits-registration-exemptions/class-precursor-annual-report.html ; https://laws-lois.justice.gc.ca/eng/regulations/SOR-2002-359/section-87-20251217.html",
+     "existing": "None seen; the buyer pool is very small (licensed dealers only). Class B registered-person duties not confirmed.",
+     "known_mark": "new",
+     "name": "Class A precursor annual report support",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Precursor Control Regulations s.87: annual report by March 31 on quantities purchased, used, sold, inventory, losses; template obtained by emailing Office of Controlled Substances.",
+     "unchecked": "Number of licensees; Class B reporting; pharmacy narcotic monitoring not searched."
+    },
+    {
+     "buyer": "Licensed grain dealers (monthly liability report) and primary/process elevators (weekly report)",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://grainscanada.gc.ca/en/licences/online-reporting-services.html ; https://laws-lois.justice.gc.ca/eng/regulations/C.R.C.,_c._889/section-24-20210801.html",
+     "existing": "CGC online reporting services (free); licensees mostly mid-to-large firms with own systems.",
+     "known_mark": "new",
+     "name": "CGC licensed grain dealer and elevator reporting",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Canada Grain Regulations s.24 (monthly dealer report), weekly elevator reports and annual primary-elevator report; licence suspension for non-compliance.",
+     "unchecked": "Number of small dealers; whether elevator software already files; current regulation text."
+    },
+    {
+     "buyer": "Ontario security and investigation agencies (about 1,115 core organisations per Ministry figures)",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://ontario.ca/laws/regulation/R10230 ; https://www.reminetwork.com/?p=44769",
+     "existing": "Competitor search not run.",
+     "known_mark": "new",
+     "name": "Ontario private security business licence compliance",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "PSISA: business licence term 3 years (since 1 July 2021); individual licences 2 years; December 2025 discussion paper 'Modernizing Ontario's Private Security Industry' could widen scope to in-house security at landlords and property managers.",
+     "unchecked": "Consultation outcome, no draft regulation found; staff licence-expiry tracking is the likely angle but no mandated filing found."
+    },
+    {
+     "buyer": "Community surgical and diagnostic centres under the Integrated Community Health Services Centres Act (over 900 licensees, mostly diagnostic imaging)",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://www.ontario.ca/page/community-surgical-and-diagnostic-centres ; https://sarnianewstoday.ca/windsor/news/2025/08/08/three-local-clinics-receive-licenses-for-community-diagnostic-services",
+     "existing": "Competitor search not run. Clinic management/EMR vendors are strong.",
+     "known_mark": "new",
+     "name": "Ontario community surgical and diagnostic centre QA and compliance",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Mandatory QA program and quality standards; Accreditation Canada inspection from 1 April 2024 (proposed); 57 new centres planned.",
+     "unchecked": "Specific reporting duties, any 2026 rules, vendor coverage."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Provincial regime (Ontario TSSA: O. Reg 217/01 Liquid Fuels licence, UST registration, inspection against a Compliance Standard; NS and NL tank registration). Duties are licensing plus inspection-ready records (inventory control, annual shear-valve/leak-detection tests, cathodic protection, staff emergency training). No routine periodic filing found. One weak candidate (TSSA inspection-readiness records). Nothing found on LPG/propane distributors (not checked).",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Federal Canada Grain Regulations: licensed dealers file monthly liability reports, primary and process elevators file weekly reports, primary elevators file an annual report. CGC runs online reporting services, and the few hundred licensees are large or mid-sized. Weak candidate only. No coffee or cocoa angle in Canada.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Searches only returned federal Canada Cooperatives Act annual return and BCFSA credit-union monthly returns. Nothing on Ontario co-operative or credit-union small-entity filings was confirmed. Nothing new beyond generic corporate annual-return tools. Unchecked: Quebec caisses and co-ops, provincial Co-operative Corporations Acts.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Ontario community surgical and diagnostic centres (formerly Independent Health Facilities): over 900 licensees, 57 new centres planned, mandatory QA program and Accreditation Canada inspection. Billing is covered by practice-management and EMR vendors. No 2026-specific rule found. Related: K14 (rejected dental plan claims).",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Federal Precursor Control Regulations: licensed dealers (Class A) must file an annual report by March 31, using a template obtained by email from Health Canada. Buyer pool is small. Pharmacy narcotic monitoring was not searched (not reached).",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Quebec CNESST mandatory permit for placement agencies and temporary-foreign-worker recruiters (since 1 Jan 2020, 15,000 CAD bond, Revenu Quebec attestation). Ontario ESA O. Reg 99/23 licensing of temporary help agencies and recruiters. BC and Manitoba employer registration for TFW hiring, Saskatchewan certificate of registration, Manitoba recruiter licences. Ontario PSISA security-business licence (3-year term, 1,115 organisations, December 2025 modernisation consultation). All are licence/registration events rather than recurring filings, so scores are low.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Ontario HCRA new-home builder licensing and Tarion enrolment exist (covered by K03-style niche, not new). No renovator licensing regime or 2026 change found. Quebec CCQ already K05/K17; Ontario soil already K16. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Strong lead: RECO (Ontario) mandatory annual financial filing from 1 Oct 2026, first filing due 30 Oct 2026, followed by planned monthly trust-reconciliation reporting in 2027. Also FINTRAC added factors, financing/leasing entities and cheque cashers as new reporting entities in 2025, with full compliance expected by 1 April 2026.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Ontario municipal accommodation tax (MAT) is municipality-by-municipality (Toronto STR quarterly, 6%; Oshawa 5% via ORHMA portal; Kingston 5%; Sarnia 4%). Quebec replaced CITQ classification with registration plus an annual update declaration (Sept 2022), amended March 2026 by regulation, with Revenu Quebec enforcing. Related: K12 (BC STR registry, rejected).",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Safe Food for Canadians licence (2-year term, around 250 CAD), written preventive control plan and 2-year traceability records. CFIA is publishing licence suspensions in 2026 for PCP, traceability and document failures. Mostly one-off set-up work served by consultants; no small-firm carve-out found. Fish ELOG already K18; CUSMA K03; CARM K13.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Quebec Charter of the French language: francization registration (Bill 96)",
+     "found": "Since 1 June 2025, firms with 25 to 49 employees must register with OQLF, run an online self-assessment within 3 months, then get a francization certificate or submit a programme with reports (every 12 months while implementing, every 3 years once certified). About 20,000 Quebec firms in this size band, and they are 65% of attestations issued in 2024-25. No dedicated software found.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Ontario AODA accessibility compliance reporting",
+     "found": "Organisations with 20 or more Ontario employees must file an AODA compliance report by 31 Dec 2026 (3-year cycle) through the free government Accessibility Compliance Reporting Portal. A free state portal covers the filing, so only a prep/evidence-tracker angle remains.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Federal firearms business licence and record-keeping (Firearms Act / Bill C-71)",
+     "found": "Since 18 May 2022, businesses must keep inventory and transaction records, report transfers electronically to the RCMP, obtain Registrar reference numbers, and retain for 20 years. Prohibitions of 7 March 2025 affect inventories. Small buyer pool; competitors unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Federal excise duty: craft alcohol licensees and vaping excise stamps (CRA)",
+     "found": "Licensed brewers/wine licensees file excise duty returns (B265 for wine, monthly for brewers under Excise Act s.36 as found). Small-producer relief extended to 2028 per trade report. Vaping stamp rules updated: Nova Scotia added 26 Feb 2026, stamp guidance effective 1 April 2026. Tobacco stamp rules not found. CRA My Business Account handles filing.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Quebec expanded deposit-refund system (Consignaction/AQRCB) for retailers",
+     "found": "Phase 3 (glass and multilayer cartons) scheduled for 1 March 2027. Retailers over 375 m2 must accept containers, smaller ones are voluntary. AQRCB runs a retailer portal and webinars. Related: K08 (EPR rejected). Free industry body support, so low score.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Quebec pay equity: DEMES annual declaration and 5-year maintenance evaluation",
+     "found": "Employers with 10 or more workers must run pay equity and maintenance evaluations every 5 years with workplace posting; the DEMES declaration is filed yearly with CNESST. Consultants and payroll vendors (ADP) already serve it. Exact 2026 date not found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "agence de placement de personnel temporaire permis CNESST obligations 2025",
+    "FINTRAC new reporting entities 2026 factoring cheque cashing financing leasing compliance program deadline",
+    "CITQ attestation de classification établissement d'hébergement touristique nouvelles règles 2026 registre",
+    "Canadian Grain Commission licensed grain dealer elevator weekly stocks reporting requirements 2026",
+    "Canada firearms business record keeping regulations retailers inventory transaction records 2025",
+    "gas station owners Canada compliance underground storage tank registration inspection TSSA fuel retailer licence reporting",
+    "Precursor Chemical Risk Management Regulations registered person licensed dealer annual report Health Canada small businesses",
+    "employer registration temporary foreign workers BC Manitoba Saskatchewan Ontario annual registration recruiter licence requirement 2026",
+    "francisation inscription OQLF entreprises 25 à 49 employés certificat de francisation échéance 2026 rapport",
+    "Ontario small credit union or co-operative annual return FSRA reporting small co-operatives compliance software",
+    "municipal accommodation tax Ontario remittance small hotels B&B short-term rental hosts monthly return multiple municipalities",
+    "RECO brokerage trust account reporting annual information update real estate brokerage Ontario new requirements 2026",
+    "Safe Food for Canadians licence small importers exporters preventive control plan traceability enforcement 2026 CFIA",
+    "excise duty licensed brewer winery distiller monthly return small craft producers Canada excise stamps tobacco vaping compliance 2026",
+    "consigne élargie Québec 2026 détaillants dépanneurs obligations reprise contenants ÉEQ",
+    "RECO annual financial filing brokerage trust ledger accounting software Ontario brokerages solution webinar",
+    "AODA accessibility compliance report due December 31 2026 organizations 20 or more employees",
+    "Ontario community surgical and diagnostic centres licensing 2026 private clinics new rules",
+    "Ontario private security business licence annual renewal PSISA modernization 2026",
+    "Ontario home renovators licensing HCRA 2026 builders vendors annual reporting Tarion"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b2"
+ },
+ "gapfill:canada": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Boards and volunteer syndics of small Quebec syndicats de copropriété divise (20 units or fewer is over 90% of buildings), plus small property managers and the engineers/appraisers/technologists/CPAs who prepare the documents",
+     "category": "33. Property managers, condo corporations and co-op housing boards (Quebec Loi 16)",
+     "evidence": "quebec.ca page on co-ownership measures (https://www.quebec.ca/habitation-territoire/achat-vente/condos-coproprietes/mesures-coproprietes, fetched); Protégez-vous (https://www.protegez-vous.ca/nouvelles/habitation/copropriete-quebec-precise-les-obligations-des-syndicats); RGCQ decree text (https://rgcq.org/media/aj5bvu4d/de-cret-pl16.pdf). 366,527 residential co-ownership units on the 2022 roll per a government figure surfaced in search; no syndicate count found.",
+     "existing": "Two French-language searches found no Quebec-specific carnet/fonds de prévoyance software; results were French products (Lockimmo, Copromatic, Vilogi, LogicielSyndic) built for French law, and US/generic HOA tools (PayHOA, Buildium). Desjardins sells insurance to syndicates. Not fully checked: Quebec property-manager platforms and engineering-firm portals that may have added carnet modules.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known idea; K01-K19 cover childcare, waste, funerals, construction, trucks schools.",
+     "name": "Quebec Loi 16 Condo Syndicate Carnet and Reserve-Fund Tracker",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Regulation establishing various rules on divided co-ownership (Bill 16 / Loi 16), Gazette officielle 30 July 2025, in force 14 Aug 2025. Carnet d'entretien (board update yearly, professional review every 5 years, 10 years for 8 units or fewer, site visit each time) and fonds de prévoyance study every 5 years; first ones due 3 years and 1 day after entry into force (14 Aug 2028). Board sets contributions within 30 days after the annual meeting following a study. Attestation sur l'état de la copropriété due within 15 days of a seller's request, with required fields (fund balance, last 3 financial statements, insurance, deductible, claims, litigation, planned works).",
+     "trigger_note": "",
+     "unchecked": "Whether Quebec property-manager software or engineering/appraisal firms already ship a carnet module; actual syndicate count; whether professionals will resist a tool that sits between them and the board; willingness to pay of volunteer boards; deadline is far off (Aug 2028), so urgency is low until 2027; Ontario/BC reserve-fund analogues."
+    },
+    {
+     "buyer": "Independent Ontario cannabis retail store authorization holders (small operators with one to a few stores)",
+     "category": "31. Provincial cannabis retail and alcohol-adjacent licensing",
+     "evidence": "https://agco.ca/en/book/export/html/384316 ; https://www.agco.ca/node/51581 ; https://www.agco.ca/en/book/export/html/241181 ; Cova blog on AGCO reporting changes (https://www.covasoftware.com/cova-blog-2025/blog/agco-2022-compliance-reporting-changes-for-cannabis-retail-stores-ontario).",
+     "existing": "Cova (1-click AGCO reports, OCS/AGCO POS integration); OCS POS provider list (https://learn.ocswholesale.ca/pos-provider-list) shows retailers must use OCS-integrated POS under the POS Data Reporting Platform, which automates data submission.",
+     "known_id": "K15",
+     "known_mark": "new",
+     "known_note": "Different buyer and duty from K15 (federal CTLS, Health Canada tool).",
+     "name": "AGCO Cannabis Retail Monthly Report and Records Helper (Ontario)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "AGCO Registrar's Standards chapter 8: 3-year records, destruction logs, retail manager records, Standard 8.1.10 agreements template; Integrated Cannabis Retail Report due by 5th of each month via iAGCO, including zero-sale months.",
+     "trigger_note": "",
+     "unchecked": "Whether the monthly iAGCO filing is now fully replaced by automated POS submission; the Standard 8.1.10 agreements/benefits tracker and destruction-certificate log may still be manual; Quebec SQDC-agent and RACJ liquor-licence duties not checked."
+    },
+    {
+     "buyer": "Quebec employers with 19 or fewer workers per establishment (very many micro-businesses), and their payroll/bookkeeping advisers",
+     "category": "32. Provincial workers' compensation and OHS registers for small employers",
+     "evidence": "https://www.quebec.ca/nouvelles/actualites/details/loi-modernisant-le-regime-de-sante-et-de-securite-du-travail-un-nouveau-reglement-favorisant-la-prevention-des-le-1er-octobre-2025-66137 ; Fasken note (https://www.fasken.com/fr/knowledge/2025/10/regime-permanent-de-la-lmrsst) ; CNESST guide copy (https://cignfm.ca/wp-content/uploads/2025/10/CNESST-1ER-OCTO.-2025-etablissements-19-travailleurs-ou-moins.pdf).",
+     "existing": "Free CNESST guide for 19-or-fewer establishments; sector associations (ACQ, UPA, FSSS) publish memos and one-page sheets. No dedicated paid software found, but not checked in depth.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Quebec Small-Establishment SST Action Plan and Liaison Agent Log (LMRSST)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "LMRSST prevention and participation regulation in force 1 Oct 2025: annual action plan, recorded hazard identification, worker-elected agent de liaison, employer reply to written recommendations (about 30 days, unconfirmed), mandatory liaison-agent training; CNESST may require 20+ rules.",
+     "trigger_note": "",
+     "unchecked": "Whether CNESST provides a fillable plan template or mutuelles de prévention sell one; employer willingness to pay for a document they update once a year; whether the 2025-2027 phasing creates later deadlines; Ontario Bill 190 final status and WorkSafeBC not checked. Competitor search done in French (CNESST plan d'action outil gratuit): only the free guide and association memos surfaced."
+    },
+    {
+     "buyer": "Small self-managed Ontario condominium corporations",
+     "category": "33. Condo corporations (Ontario)",
+     "evidence": "https://www.condoauthorityontario.ca/news/2025-26-cao-annual-report-now-available/ (99% of corporations filed); CAO Condo Returns Guide (https://www.condoauthorityontario.ca/wp-content/uploads/2025/10/CAO-Condo-Returns-Guide_2025_08_26_.pdf; PDF unreadable via fetch).",
+     "existing": "CAO's own online portal; condo managers file for most corporations; Ontario condo management software exists but not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Ontario CAO Condo Returns Helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Annual return due 31 March to the Condominium Authority of Ontario; other return types (notice of change); reserve fund study every 3 years for updates and every 6 for Class 1 under O. Reg. 48/01 (unconfirmed).",
+     "trigger_note": "",
+     "unchecked": "The 99% compliance rate and a free portal suggest little pain; managers already handle it. Not verified whether reserve-fund filings go through the CAO."
+    },
+    {
+     "buyer": "Ontario owner-operators and small fleets holding a CVOR; Quebec PEVL holders",
+     "category": "34. Taxi, rideshare and small trucking (CVOR, ELD, NSC, PEVL)",
+     "evidence": "https://ontario.ca/page/get-commercial-vehicle-operators-registration-cvor-certificate ; https://jjkellercompliancenetwork.com/regsense/carrier-profile-system ; https://marketplace.geotab.com/partner/cvorready/ ; https://www.saaq.gouv.qc.ca (PEVL guide at https://saaq.gouv.qc.ca/blob/saaq/documents/saaqclic_eed/guide_PECVL-2014.pdf).",
+     "existing": "CVORReady (managed CVOR service on Geotab), OxMaint (CMMS with CVOR monitoring), J.J. Keller, mature ELD vendors; ServiceOntario sells abstracts directly.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "known_note": "Adjacent to K07 (MELT training log for truck schools), but a different buyer and duty.",
+     "name": "CVOR and NSC Carrier Profile Monitor for Owner-Operators",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ontario CVOR certificate and rating (convictions, collisions, CVSA inspections); federal ELD mandate with 6-month record retention; NSC carrier profile; Quebec PEVL safety rating via CTQ/SAAQ.",
+     "trigger_note": "",
+     "unchecked": "No Quebec PEVL monitoring product found; the guide I found is from 2014; carrier-profile access requires authorization. Competitor search in English done as above."
+    },
+    {
+     "buyer": "Small Quebec restaurants, retail food shops, food trucks and home-based food sellers holding MAPAQ permits",
+     "category": "35. Farmers markets, food trucks and small food premises",
+     "evidence": "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/industrie-bioalimentaire/permis-alimentaires/permis-restauration-vente-detail ; Ontario health-unit pages (e.g. https://www.peelregion.ca/business/owners-operators/food/).",
+     "existing": "MAPAQ online renewal; municipal and health-unit portals. Generic restaurant software not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "MAPAQ Permit Renewal and Hygiene-Manager Reminder (Quebec food premises)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Annual MAPAQ permit renewal (fee $351-540 per an old source), display of permit, certified hygiene manager requirement; Ontario O. Reg. 493/17 certified food handler on site.",
+     "trigger_note": "",
+     "unchecked": "Annual renewal only; no recurring reporting or log mandate found; temperature-log requirements unverified."
+    },
+    {
+     "buyer": "Small Canadian exporters shipping non-US goods above CAD 2,000 or regulated goods",
+     "category": "36. Export reporting for small exporters",
+     "evidence": "https://www.willsonintl.com/news/canadian-export-reporting-system-cers/ ; https://www.pcb.ca/post/cbsa-mandates-electronic-reporting-for-exporters .",
+     "existing": "CERS is a free CBSA web portal; customs brokers file on behalf of exporters.",
+     "known_id": "K13",
+     "known_mark": "known",
+     "known_note": "Same rejection logic as K13: free state portal plus brokers.",
+     "name": "CERS Export Declaration Service for Small Exporters",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "CBSA mandatory electronic export reporting (Customs Notice 19-14), effective 30 June 2020.",
+     "trigger_note": "Same family as K13 (CARM importer compliance, rejected: brokers, one-off setup).",
+     "unchecked": "2026 thresholds unconfirmed."
+    },
+    {
+     "buyer": "Small sawmills and lumber exporters shipping softwood to the US",
+     "category": "36. Export reporting for small exporters (also category 30)",
+     "evidence": "https://www.international.gc.ca/controls-controles/softwood-bois_oeuvre/notices-avis/144.aspx?lang=eng ; https://laws.justice.gc.ca/eng/regulations/SOR-96-319/page-1.html ; https://www.canada.ca/en/revenue-agency/news/whats-new/softwood-lumber-export-products-charge.html .",
+     "existing": "Customs brokers (Livingston and others) explain the permit; no vendor product found.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Related to K03 (CUSMA/surtax evidence kit) in buyer type only.",
+     "name": "Softwood Lumber Export Permit and Export Charge Filing Helper",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Export permits under EIPA / Export Permits Regulations (Softwood Lumber Products) SOR/96-319 (Notices to Exporters 143, 144, 195); CRA export charge under the Softwood Lumber Products Export Charge Act, 2006.",
+     "trigger_note": "",
+     "unchecked": "Whether the export charge is currently collected (US duties status in 2026), the number of small mills affected, current permit fee and validity, and any 2025-2026 tariff-driven changes were not found."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31. Provincial cannabis retail and alcohol-adjacent licensing (AGCO, SQDC agent, liquor-licence returns)",
+     "found": "Ontario (provincial, AGCO): cannabis retail stores must keep 3-year records (employees, SKU inventory, sales traceable to employee, destruction logs with certificates, delivery records) and file a monthly Integrated Cannabis Retail Report via iAGCO by 11:59 PM on the 5th (federal, monthly sales, inventory adjustments, destructions, transfers tabs), even in zero-sales months. AGCO is moving to a POS Data Reporting Platform where OCS-integrated POS submits data automatically; Cova markets 1-click AGCO compliance reports. No annual report found. SQDC agent and liquor-licence returns not searched (budget). Candidate C2 in ledger (weak). Ontario only; Quebec RACJ not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Provincial workers' compensation and OHS registers for small employers (WSIB, CNESST, WorkSafeBC; Quebec LMRSST, Ontario Bill 190)",
+     "found": "Quebec (provincial): LMRSST prevention-mechanism regulation in force since 1 Oct 2025 (some sources say 6 Oct 2025); employers with 19 or fewer workers need an annually updated action plan, recorded hazard identification, and a worker-elected agent de liaison; employer must answer the liaison agent's written recommendations (deadline reported as 30 days, unconfirmed); 20+ need prevention programme, CSS committee meeting at least quarterly, and RSS. CNESST publishes a free guide (Oct 2025); no free fillable template found. Ontario: WSIB reconciliation due 31 March for monthly reporters; O. Reg. 297/13 awareness training; Bill 190 only changed JHSC logistics and posting (status unverified). WorkSafeBC not searched. Candidate C3 in ledger (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "33. Property managers, condo corporations and co-op housing boards (CAO returns, reserve fund studies, Quebec Loi 16)",
+     "found": "Ontario (provincial): all condo corporations file returns with the Condominium Authority of Ontario; annual return due 31 March; the CAO 2025-26 report says 99% filed, so compliance is already high. Quebec (provincial): Regulation under Bill 16, in force 14 Aug 2025, requires every syndicat de copropriété divise to obtain a carnet d'entretien (board updates yearly, professional review every 5 years, every 10 for 8 units or fewer) and a fonds de prévoyance study every 5 years (25-year projection), first ones due by 14 Aug 2028; the syndicate must also issue an attestation sur l'état de la copropriété within 15 days of a seller's request. Preparers must be listed professionals (engineers, appraisers, architects, technologists; CPAs for the study only). Condos of 20 units or fewer are over 90% of Quebec buildings. No Quebec-specific carnet software found; French products dominate results. Candidate C1 (promising) and C4 (weak). Co-op housing boards not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Taxi, rideshare and small trucking (Ontario CVOR, federal ELD, NSC carrier profiles, Quebec PEVL and taxi permits) [overlaps category 18]",
+     "found": "Ontario CVOR certificate is required for commercial vehicles (fee about $255, knowledge test for new Ontario applicants; CVOR rating from convictions, collisions and CVSA inspections). Federal ELD mandate in force since 2021, with enforcement from 1 Jan 2023; certified devices listed by Transport Canada; ELD market is mature (J.J. Keller, Geotab and others). NSC carrier profile access is limited to the carrier or its authorized agent. Quebec PEVL register: carriers need registration and a safety rating (satisfaisant, conditionnel or insatisfaisant) from the CTQ, with the SAAQ keeping the point file. CVORReady (managed service) and OxMaint (CMMS) already claim CVOR monitoring. Quebec taxi and remunerated-passenger permits not searched. Candidate C5 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "35. Farmers markets, food trucks and small food premises (MAPAQ permits, Ontario public-health food premises)",
+     "found": "Quebec (provincial): MAPAQ restauration/vente au détail permit renews annually (2-6 week processing, fee roughly $351-540 per an older source); operator must entrust hygiene control to a certified food-establishment manager (new applicants no longer give the manager number since 8 July 2025); permit must be displayed. No separate annual declaration found. Ontario: O. Reg. 493/17 requires one certified food handler on site during operating hours (5-year certificate); special-event and farmers-market vendors apply to the local health unit, with some market exemptions. No mandatory temperature-log format found. Candidate C6 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "36. Export reporting and permits for small exporters (CBSA CERS, softwood lumber export charge and GAC permits) [overlaps category 30]",
+     "found": "Federal: CBSA mandatory electronic export reporting since 30 June 2020 (paper B13A abolished); CERS is a free web portal, and reported declaration threshold is CAD 2,000 for non-US destinations (2020 secondary source, unconfirmed for 2026). Softwood lumber still sits on the Export Control List under EIPA, so US-bound exports need Global Affairs Canada permits (monitoring since Oct 2015; GAC allocation notices last modified Oct 2025). CRA administers the Softwood Lumber Products Export Charge; current rates and 2026 status unconfirmed. No small-exporter exemption found. No 2026 tariff-driven rule change located. Indigenous procurement and dealer 'duty to report' not searched. Candidates C7 (rejected) and C8 (unverified).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "AGCO cannabis retail store authorization annual report record-keeping requirements licensee",
+    "CNESST mécanisme de prévention comité santé et sécurité petites entreprises obligations 2026 LMRSST",
+    "Condominium Authority of Ontario annual return corporation reserve fund study filing requirements 2026",
+    "CVOR owner-operator carrier requirements ELD mandate Transport Canada small carriers hours of service records 2026",
+    "MAPAQ permis restauration commerce de détail alimentaire renouvellement déclaration annuelle obligations exploitant",
+    "Canadian Export Reporting System CERS mandatory export reporting small exporters 2026 CBSA softwood lumber export charge return",
+    "Québec copropriété carnet d'entretien étude du fonds de prévoyance attestation échéance 2026 syndicat obligations loi 16",
+    "cannabis retail compliance software Ontario AGCO monthly sales report inventory tracking retailers",
+    "Bill 190 Ontario JHSC health and safety awareness training worker small employers 2025 WSIB annual reconciliation",
+    "Contrôleur routier Québec propriétaires exploitants véhicules lourds PEVL cote de sécurité 2026",
+    "Ontario food premises regulation 493/17 food handler certification temperature logs food truck farmers market",
+    "Global Affairs Canada export permit softwood lumber 2026 small exporters EIPA",
+    "logiciel carnet d'entretien copropriété fonds de prévoyance syndicat gestion plateforme Québec",
+    "Cova POS AGCO integrated cannabis retail report iAGCO monthly reporting automated",
+    "carnet d'entretien numérique copropriété Québec application syndicat règlement 2025",
+    "CNESST plan d'action établissement moins de 20 travailleurs modèle outil gratuit agent de liaison",
+    "nombre de syndicats de copropriété Québec Loi 16",
+    "CVOR abstract monitoring software small fleet Ontario owner-operator NSC carrier profile app"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b2"
+ },
+ "opus:canada:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No product found that prepares BAO Form 2 or OPGT reconciliation. Generic cemetery software (PlotBox, Chronicle, CemSites in directories) advertises trust-fund tracking but makes no Ontario Form 2 claim. Free options already exist: OBIS online filing, BAO and OPGT guidance webinars and slides, the Trust@TheBAO.ca help line, and OPGT statements, which hold much of the data. Local accountants do the audit cases. A spreadsheet is the practical incumbent.",
+   "duty": "FBCSA 2002 and O. Reg. 30/11 (in force, Ontario). Form 1 annual licence report is due March 31. Form 2 Report on Care and Maintenance is due within 90 days of fiscal year-end (Jan 2026 instructions). Older material said 3 months. The deadline is 180 days if an audit is required: C&M funds over $500k or a funeral establishment on the cemetery. One Form 2 per fund, filed through the OBIS portal. Enforcement: the Registrar can order an operator to stop sales under s.109(7) of O. Reg. 30/11 (example: St. David's Presbyterian, Campbellville, for missing C&M reports and trust statements). Conviction under the FBCSA carries a fine of up to $50,000 or 2 years less a day. Minimum contribution amounts were not re-checked because the PDF did not render.",
+   "market": "Auditor General of Ontario 2020 VFM audit (Dec 2020): 2,368 cemetery operators. 1,984 reported a C&M fund. 277 (12%) were operating without a renewed licence, and 166 had not filed the C&M report for 1 to 25 years (as of June 2020). The claim's \"277 operators\" is wrong: that is the non-compliant subset. Most operators are small churches, municipalities and family cemeteries, many volunteer-run. No current count found.",
+   "reason": "The duty is real, in force, and checked against BAO sources. Operators file Form 1 by March 31 each year. Form 2 is due 90 days after fiscal year-end, or 180 days if an audit is needed, with one Form 2 per fund. Missed filings lead to cease-sales orders (St. David's, Campbellville). Fines run up to $50k. I found no product that prepares Form 2. But both forms are filed once a year in the free OBIS portal. Form 2 mostly reconciles the OPGT trust statement. Buyers are largely volunteer church, township and family cemeteries with low willingness to pay. The BAO already gives free webinars and help. The claim misreads the market: 2,368 operators and 1,984 with C&M funds (AG 2020). 277 were the unrenewed operators.",
+   "searches": 5,
+   "sources": "https://thebao.ca/wp-content/uploads/BAO-Form-2-Instructions-Updated-Jan-2026.pdf ; https://thebao.ca/reminder-submit-your-reports-on-care-maintenance-fund-account-form-2-by-march-31-2023/ ; https://thebao.ca/wp-content/uploads/2025/03/BAO_-OPGT_UpdatedSlides_Mar2025.pdf ; https://thebao.ca/for-professionals/cemeteries-crematoriums/forms/ ; https://thebao.ca/bao-guidance-video-on-required-audit-reports-on-cemetery-care-and-maintenance-funds/ ; https://www.auditor.on.ca/en/content/news/20_summaries/20AR_summary_09BAO.pdf ; https://thebao.ca/wp-content/uploads/2021/03/AG_Dec2020VFM_09BAO.pdf ; https://thebao.ca/notice-to-the-consumer-church-cemetery-in-campbellville-ordered-to-stop-sales/ ; https://thebao.ca/notice-to-the-consumer-registrar-orders-unlicensed-cemetery-operator-to-cease-selling-or-providing-burial-services ; https://www.krowdbase.com/best-cemetery-software-canada ; https://www.capterra.ca/directory/31356/cemetery/software",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b2"
+ },
+ "opus:canada:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no BC-specific product or police-run BC portal; the police channel is set locally and I did not verify any. Generic scrap-yard software already covers recording at purchase (ID capture, tickets, compliance rules): ScrapYardPro (US-oriented; exports police reports to LeadsOnline and BWI), ScrapRight (US-based; claims rules for all 50 US states and 'international'), BuyScrapSoftware (from US$299; captures fingerprints, ID and signatures), and RECY and ScrapWare (both in Capterra's Canadian directory). None of them showed BC Form A or Form B output in what I found. Alberta runs a separate regime that sends reports to law enforcement through a database, which suggests a multi-province angle, but I did not verify how Alberta's system works.",
+   "duty": "B.C. Metal Dealers and Recyclers Act plus B.C. Reg. 101/2012, consolidated to Oct 6, 2026 and last amended by B.C. Reg. 61/2022. Dealers buying regulated metals must register with the Province; the Province's own registration guidance says mobile dealers do not have to register. Each purchase goes on Form A, kept on paper or electronically; if electronic, a hard copy is printed that day and kept on the premises for at least one year (s. 6). Form B goes to the local police authority before the end of the transaction day by fax, email or a police-designated website, whichever the police specify. If a technical problem stops that, the deadline is noon the next day and the dealer may also deliver in person or by courier. Printed Form B copies are kept one year (s. 7). Customer code = first 3 letters of the surname + last 3 characters of the driver's licence or BC ID (s. 4). Cash is capped at $50 for buys from the public or mobile dealers; businesses are paid by cheque. Administrative penalties and offences are set in ss. 17 and 26 of the Act; I did not retrieve the dollar amounts. The frequency is daily, for every transaction.",
+   "market": "The BC Registrants List PDF (justice.gov.bc.ca/MetalRecyclers/Metal-Dealers-Registrations.pdf) is updated monthly, but its text could not be extracted, so I could not count entries; the copy reached carried an Oct 2024 filename. A directory site (poidata.io) estimates about 56 scrap metal dealers in BC, 66 in Alberta and 233 in Ontario. That is not a regulator count, but it points to a very small BC market of tens to low hundreds of registrants.",
+   "reason": "The BC duty is real and current. B.C. Reg. 101/2012 is consolidated to Oct 6, 2026, last amended 2022. Dealers record each purchase on Form A, print a hard copy that day and keep it a year. They send Form B to local police by end of day, or noon the next day, by fax, email or a police website, using seller codes. Generic scrap-yard software (ScrapYardPro, ScrapRight, BuyScrapSoftware, RECY, ScrapWare) already captures ID and tickets. I found no BC-specific Form B output, so a gap exists. But the market is tiny: on the order of 50 to a few hundred BC registrants (not counted). Larger yards already run yard software, and the daily report is easy to do by fax or email. Willingness to pay for a standalone app is limited.",
+   "searches": 6,
+   "sources": "https://free.bcpublications.ca/civix/document/id/complete/statreg/101_2012 ; https://www2.gov.bc.ca/gov/content/safety/crime-prevention/metal-recycling/recording-and-reporting-purchases ; https://www2.gov.bc.ca/gov/content/safety/crime-prevention/metal-recycling/approved-dealers-and-recyclers ; https://justice.gov.bc.ca/MetalRecyclers/Metal-Dealers-Registrations.pdf ; https://www2.gov.bc.ca/gov/content/safety/crime-prevention/metal-recycling/registering-as-a-dealer ; https://www.getapp.ca/software/114791/scrapyardpro ; https://scrapright.com/ ; https://www.capterra.ca/software/1094467/BuyScrapSoftware ; https://www.alberta.ca/scrap-metal-transactions ; https://poidata.io/report/scrap-metal-dealer/canada",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b2"
+ },
+ "opus:canada:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "CJA/JVC plus Outlier Solutions: an interactive, on-demand AML compliance tool for jewellers, free to CJA members (valued at $2,000), plus 10% off effectiveness reviews (canadianjewellers.com/aml-with-outlier/ returned 403 on fetch; details come from the CJA aml-compliance page in search results). Substance Law sells FINTRAC compliance programs, including a DPMS page. CJA also runs FINTRAC webinars and guides. Enrolment itself will likely be a FINTRAC application form (unverified).",
+   "duty": "Confirmed. Under the PCMLTFA, a dealer in precious metals and stones (DPMS) is covered once it buys or sells precious metals, stones or jewellery worth $10,000 or more (SOR/2002-184 s.65; this cite is from memory, and the version I found at SOR/2001-317 s.5 dates from 2008). A covered DPMS must run a compliance program with 5 elements: a compliance officer, written policies, a risk assessment, training, and an effectiveness review every 2 years. It must also identify clients, keep records, and file STR, LCTR, LVCTR and LPEPR reports. AMPs since 26 Mar 2026 reach up to $40k for minor, $4M for serious and $20M for very serious violations. Universal enrolment: S.C. 2026 c.4 (assented 26 Mar 2026) adds ss. 11.4001-11.4015, under which every s.5 entity must enrol, with periodic renewal in a period still to be prescribed. Failing to enrol becomes a criminal offence under s.74. These provisions come into force on a day fixed by Governor in Council order. That date had not been found as of Oct 2026, and the regulations were expected in spring 2026 but I could not confirm they were published. So enrolment is not yet in force and has no deadline (not_reached: the FINTRAC roadmap page returned 404).",
+   "market": "Not reached. I found no FINTRAC count of DPMS reporting entities. Only jewellers with transactions of $10,000 or more are covered, though CJA says most retail and wholesale jewellers are DPMS. My rough estimate is low thousands of businesses, which is unverified.",
+   "reason": "The duty is real, but the claim that no jewellery-specific tool exists is wrong. The Canadian Jewellers Association and Jewellers Vigilance Canada partnered with Outlier Solutions on an interactive AML compliance tool. CJA members get it free (valued at $2,000), plus discounted effectiveness reviews. Substance Law also sells done-for-you FINTRAC programs. Universal enrolment (PCMLTFA ss. 11.4001-11.4015, S.C. 2026 c.4) is law but not yet in force: it starts on a date the Governor in Council sets by order, and no date was found. Filing will probably be a short FINTRAC application, not much of a software job, though I did not confirm a FINTRAC portal. The market is small: several thousand jewellers at most, with no confirmed count. The trade association is the gatekeeper and is already allied with a vendor.",
+   "searches": 6,
+   "sources": "https://laws.justice.gc.ca/eng/AnnualStatutes/2026_4/page-5.html ; https://www.dlapiper.com/insights/publications/2026/04/canada-implements-amendments-to-the-pcmltfa ; https://www.blg.com/en/insights/2026/04/preparing-for-universal-enrolment-higher-penalties-and-fintrac-enforcement ; https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/guide4/4-eng ; https://canadianjewellers.com/aml-compliance/2/ ; https://canadianjewellers.com/aml-with-outlier/ ; https://substancelaw.com/precious-metals-dealers-fintrac/ ; https://substancelaw.ca/compliance-program/ ; https://lawyerinfo.ca/guides/ontario/business-law-ontario/how-to-navigate-fintrac-anti-money-laundering-rules-as-an-ontario-jewelry-dealer/ ; https://laws.justice.gc.ca/eng/regulations/SOR-2001-317/section-5-20081230.html",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b2"
+ },
+ "opus:canada:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The filing itself is done in RECO's free in-house MyWeb tool. Trust accounting and reconciliation is covered by Lone Wolf BrokerWolf (back office and trust accounting, widely used in Canada), Loft47 (Canadian; escrow and trust tracking, automated accounting entries) and NexOne (transactions and disbursements), plus RECO's free Excel reconciliation template and monthly compliance checklist. I found no vendor marketing a RECO-filing-specific export, but I could not confirm that none exists. Not checked: BCFSA and Alberta equivalents.",
+   "duty": "RECO (TRESA regulator) annual financial filing for all registered Ontario brokerages, submitted through MyWeb. First filing due 30 Oct 2026 (fiscal year 1 Aug 2025 to 31 Jul 2026); later filings within 90 days of fiscal year end. Contents: balance-sheet and income-statement line items, trust assets and liabilities, interest on trust money, unclaimed trust money, and broker-of-record attestations (including monthly reconciliations). Inactive brokerages can use a simplified filing. No CPA or LPA is needed unless imposed as enforcement. Penalties: $300 late fee, discipline referral, $2,500 fine plus $1,500 costs, suspension or revocation. Monthly trust reconciliation reporting is planned for 2027, details not yet published. A February 2026 summit proposal for an accountant to review a sample month did not make the final FAQ, which says no CPA or LPA is required.",
+   "market": "About 3,800 registered Ontario brokerages (RECO administrator Jean Lépine, quoted by Real Estate Magazine and MPA). RECO oversees more than 110,000 registrants in total. Many are small or solo brokerages that often use outside bookkeepers.",
+   "reason": "The duty is real and in force. Every Ontario brokerage files once a year through RECO's MyWeb portal: first filing by 30 Oct 2026, then within 90 days of fiscal year end. Penalties run from a $300 fee to discipline, suspension and revocation. No accountant certification is required. The filing is a short form, about 12 balance-sheet and income figures plus trust totals and attestations, entered into RECO's free in-house tool. That leaves little for software to add. The real work is monthly trust reconciliation, which BrokerWolf, Loft47 and RECO's free Excel template already cover. The best niche is RECO-ready monthly reconciliation for small brokerages before the 2027 reporting starts. The format of that reporting is still unknown.",
+   "searches": 5,
+   "sources": "https://reco.on.ca/agents-and-brokerages/annual-financial-filing/annual-financial-filing-faqs ; https://reco.on.ca/agents-and-brokerages/annual-financial-filing/submission-and-information-requirements ; https://realestatemagazine.ca/reco-releases-details-of-brokerage-financial-filing-regime-set-to-launch-this-fall/ ; https://www.mpamag.com/ca/mortgage-industry/market-updates/reco-sets-october-deadline-for-ontario-brokerage-financial-filings/579131 ; https://www.reco.on.ca/agents-and-brokerages/info-for-brokerages/brokerage-administration-resources/ ; https://reco.on.ca/news/recos-first-collaboration-summit-key-learnings-and-next-steps ; https://www.getapp.ca/compare/174551/2052603/brokerwolf/vs/loft47",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b2"
+ },
+ "opus:canada:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Dealer KYC: Dealertrack Canada identity verification plus an AML tool for sanctions and PEP screening; its AML page does not mention compliance programs, training or reporting, and says each dealer is responsible for its own compliance. Also AutoCorp AVA ID (an auditable identity-verification record), FraudFighter (ID checks, PEP screening, FINTRAC audits) and Patronscan ID scanners. Compliance program write-ups and reviews: MNP, Doane Grant Thornton and Substance Law (fixed-fee compliance programs, money-services focus). CFLA offers webinars and best-practice guides to members; UCDA offers FINTRAC guidance. FINTRAC's own reporting system covers report filing for free (from prior knowledge, not checked this session). I found no software built to run the whole compliance program for small lessors, factors or cheque cashers.",
+   "duty": "PCMLTFA regulations in force: factors, cheque cashers (treated as money services businesses) and financing/leasing entities must run a compliance program, with a compliance officer, written policies, a risk assessment, a written training program and an effectiveness review at least every 2 years. They must also identify clients, collect beneficial-ownership information and keep records. They must report suspicious and large cash transactions, and discrepancies (from 1 Oct 2025). Leasing scope: business-purpose property other than real estate, passenger vehicles, and property worth $100,000 or more, so car dealers who finance or lease in-house are covered. Effective dates: 1 Apr 2025 per CFLA, UCDA and law firms; FINTRAC's \"Who must report\" page marks the sectors new as of 10 Jul 2025. Full compliance was expected by 1 Apr 2026. Penalties: administrative monetary penalties; one source gives $1 to $1,000 per minor sector-specific violation, with failing to file a suspicious transaction report treated as far more serious. I did not verify the final penalty schedule.",
+   "market": "Not found. I found no count of covered financing/leasing entities, factors or cheque cashers; CFLA's linked regulatory impact assessment was not opened. Cheque cashers could be counted by filtering FINTRAC's money services business registry (open data), which I did not do. Likely buyers include independent lessors (CFLA members), merchant-cash-advance and factoring firms, and the subset of used-car dealers who finance in-house (UCDA members). The size is unverified.",
+   "reason": "The duty is real and in force under Canadian federal AML law (the PCMLTFA regulations). CFLA says the rules took effect on 1 April 2025 and full compliance was expected by 1 April 2026; FINTRAC's own list marks these sectors \"new as of July 10, 2025\". The ongoing work is recurring: KYC on every client, record keeping, reports, staff training and a program review every two years. The rush to meet the deadline has passed. Dealer KYC is already covered by Dealertrack (Equifax) and AutoCorp AVA ID; consultants (MNP, Doane Grant Thornton, Substance Law) and CFLA guides cover the program write-up. Cheque cashers fall under existing money-services rules, where vendors are already active. I found no single compliance-program software for small lessors or factors, so the gap is narrow. Market size was not found.",
+   "searches": 6,
+   "sources": "https://fintrac-canafe.canada.ca/reporting-declaration/info/re-ed-eng ; https://cfla-acfl.ca/industry-intelligence/anti-money-laundering/overview.html ; https://frontline.ucda.org/?p=767 ; https://dealertrackcanada.com/aml/ ; https://dealertrackcanada.com/identity-verification/ ; https://www.autocorp.ai/blog/kyc-for-dealers-what-fintrac-requires-in-2025 ; https://www.fraudfighter.com/fintrac-audit ; https://substancelaw.ca/compliance-program/ ; https://mnp.ca/en/insights/directory/how-your-dealership-comply-fintrac-anti-money-laundering-requirements ; https://www.doanegrantthornton.ca/insights/is-your-dealership-prepared-for-fintracs-new-anti-money-laundering-requirements/ ; https://fasken.com/en/knowledge/2025/04/further-expansion-of-canadas-aml-regime ; https://www.torys.com/en/our-latest-thinking/publications/2024/12/canada-plans-to-bring-new-entities-under-pcmltfa ; https://fintrac-canafe.canada.ca/guidance-directives/compliance-conformite/guide4/4-eng",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b2"
+ },
+ "opus:canada:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No software dedicated to the francization process (registration, assessment, programme, reports) was found in French or English searches. The Bill 96 tools I did find only cover website or storefront French: FrancoCheck and Lexibond (Shopify apps), Frenglish.ai (translation plus scanner), and app or localization agencies. The main substitute is free OQLF support: advisers who guide firms at each step, free information sessions, and an online self-assessment form. Paid help comes from consultants such as Ad Astra, working with language-law specialists, and from law firms (Miller Thomson and others).",
+   "duty": "Charter of the French language as amended by Bill 96, in force for 25-49 employee firms since 1 June 2025. A firm with 25 or more employees over six months must register with the OQLF within six months. It then has 3 months to submit a self-assessment (OQLF form, French only), followed by a francization programme if needed, then a certificate and a report every 3 years (per Educaloi). Penalties: no public contracts or subsidies, listing on the public register of non-compliant firms, possible suspension of the certificate, and penal fines. I did not find the fine amounts in a source. Since 17 December 2025, firms with 25 or more employees must show compliance proof in LMIA and job-offer validation requests (quebec.ca). The duty mostly recurs as the 3-yearly report; the main work is a one-off.",
+   "market": "Not verified: the claim's figure of about 20,000 firms with 25-49 employees per the OQLF. I could not open the cited napperon PDF (binary), and the quebec.ca page came back empty. OQLF annual report 2024-2025 (as summarised in search results): 3,362 registration certificates were issued in 2024-25, up 60%, and 65% of them went to firms with 25-49 employees, which is about 2,200. In total, 14,366 firms were registered with the OQLF at 31 March 2025, against 11,509 a year earlier. The 2025-26 figures were not found. The realistic number of firms is likely several thousand.",
+   "reason": "The duty is real and in force. Since 1 June 2025, a Quebec firm that has 25 to 49 employees for six months must register with the OQLF within the following six months. It then has three months to submit a self-assessment, followed by a francization programme, a certificate, and a report every three years. Since December 2025, LMIA requests also need proof of compliance. I found no software built for the francization process itself; the Bill 96 tools I found (FrancoCheck, Lexibond, Frenglish) only check website French. But the OQLF guides each firm for free, the forms are short, and the work recurs only every three years after certification. That makes it close to a one-off job with weak willingness to pay, better suited to consultants or law firms than to SaaS.",
+   "searches": 6,
+   "sources": "https://educaloi.qc.ca/capsules/les-regles-de-francisation-au-quebec/ ; https://educaloi.qc.ca/en/capsules/francization-rules-for-employers/ ; https://www.millerthomson.com/en/?p=33658 ; https://hrinsider.ca/are-you-ready-for-june-1-new-french-language-obligations-for-quebec-employers-with-25-to-49-employees/ ; https://www.quebec.ca/nouvelles/actualites/details/demarche-de-francisation-les-entreprises-employant-de-25-a-49-personnes-sont-invitees-a-sinscrire-a-loffice-quebecois-de-la-langue-francaise-sans-attendre-55609 ; https://www.quebec.ca/entreprises-et-travailleurs-autonomes/administrer-gerer/embauche-gestion-personnel/recruter/embaucher-immigrant/embaucher-travailleur-etranger-temporaire/contribution-employeurs-francisation-travailleurs-etrangers-temporaires ; https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/publications/rapport-annuel/RAG_langue-francaise_2024-2025.pdf ; https://apps.shopify.com/francocheck ; https://www.frenglish.ai/en/solutions/compliance ; https://archive.ad-astrainc.com/?p=6310",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b2"
+ },
+ "sonnet:canada:A8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Claim correction: O. Reg. 319/08 is under the Health Protection and Promotion Act, not the Safe Drinking Water Act. It is administered by local public health units. It covers non-municipal small systems such as motels, restaurants, churches and seasonal residential systems. Duty found via secondary sources only: a Ministry of Health fact sheet says test results are kept 5 years. Owners must use licensed labs and notify the health unit. Sampling is set by site-specific directives. I could not retrieve the regulation text (e-Laws fetch returned nothing), so frequency and penalties are unconfirmed. No owner software found, but health units give free checklists and forms. No system count found; the likely scale is a few thousand scattered owners. Buyers are hard to reach, per-site directives vary by health unit, and willingness to pay is low. This is a low-value niche.",
+   "searches": 4,
+   "sources": "https://www.ontario.ca/laws/regulation/080319 ; https://wcwc.ca/o-reg-319-08-systems/ ; https://southeastph.ca/health-topics/safe-water/small-drinking-water-systems/ ; https://york.ca/node/43081 ; https://www.simcoemuskokahealth.org/docs/default-source/HU_Workplaces/owner-operator-inspection-checklist_sdws-final.docx?sfvrsn=2 ; https://eohu.ca/en/small-drinking-water-systems",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b2"
+ },
+ "sonnet:canada:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The regulation took effect 14 Aug 2025, and the quebec.ca page confirms the carnet d'entretien (yearly board update, professional review every 5 or 10 years) and the fonds de prévoyance study every 5 years. First documents are due 3 years and 1 day after entry into force, about Aug 2028. That page lists no penalties. Two searches found no Quebec-specific carnet or reserve-fund software, only French and US tools, so competition looks thin. Not found: a syndicate count (the RGCQ's 97k units is a member figure, not a syndicate count). Weak points: the deadline is far off, volunteer boards pay little, and licensed professionals must author the documents, so the software would be a repository or workflow tool rather than the core service. I did not check Quebec property-manager platforms for a carnet module.",
+   "searches": 4,
+   "sources": "https://www.quebec.ca/habitation-territoire/achat-vente/condos-coproprietes/mesures-coproprietes ; https://www.protegez-vous.ca/nouvelles/habitation/copropriete-quebec-precise-les-obligations-des-syndicats ; https://rimkus.com/?p=16566 ; https://www.quebec.ca/entreprises-et-travailleurs-autonomes/demarrer-entreprise/immatriculer-constituer-entreprise/immatriculer-constituer-entreprise-formes-juridiques/syndicat-copropriete",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b2"
+ },
+ "triage:canada": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Cemetery operators are a different buyer and duty (BAO Form 1/2) from K04 funeral homes; related K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "New: BC metal dealers with Form A/B police reporting; no known idea."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "New: FINTRAC duty for jewellers and gold buyers; verify enrolment claim."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "New: pawn and second-hand dealer municipal reporting."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "New: Quebec vehicle recycler register and OPC permit."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "New: staffing and recruiter licensing, Ontario and Quebec."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "New: Metro Vancouver hauler records and levy reporting; different from K02 Ontario RPRA."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "New: small drinking water system owners; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "New: well driller record filing."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Septic and hauled-sewage logs and municipal permits are a different duty from K02 RPRA HWP manifests; related K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "New: Quebec taxi per-ride levy declaration."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "New: veterinary controlled-drug log and loss reporting."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Licensing, security and records for livestock dealers differ from K10 movement reporting (which is rejected); related K10, unverified.",
+     "ref": "K10"
+    },
+    {
+     "decision": "keep",
+     "id": "A16",
+     "reason": "New: small charity and non-profit annual filings."
+    },
+    {
+     "decision": "keep",
+     "id": "A17",
+     "reason": "New: MSB registration renewal for small exchanges."
+    },
+    {
+     "decision": "keep",
+     "id": "A18",
+     "reason": "New: Ontario outfitter paperwork."
+    },
+    {
+     "decision": "keep",
+     "id": "A19",
+     "reason": "Quebec driving schools and SAAQ recognition differ from K07 Ontario truck-school training logs; related K07.",
+     "ref": "K07"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "New: Ontario brokerages and the new RECO annual filing from Oct 2026."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "New: FINTRAC duty for factors, leasing entities and cheque cashers, a different buyer from A3."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "New: Quebec francization for firms with 25-49 employees."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Ontario municipal accommodation tax remittance differs from K12 BC registry duty; related K12.",
+     "ref": "K12"
+    },
+    {
+     "decision": "known",
+     "id": "B5",
+     "reason": "Annual registration by tourist-accommodation hosts, same buyer and core duty as rejected K12 STR registry; no new evidence.",
+     "ref": "K12"
+    },
+    {
+     "decision": "merge",
+     "id": "B6",
+     "reason": "Same buyer (Quebec CNESST agency licence) and duty as A6.",
+     "ref": "A6"
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "New: employers hiring through LMIA must register, plus recruiters, in BC, MB and SK; a wider buyer group than A6."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "New: firearms business records and RCMP reporting."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "New: craft alcohol and vaping excise returns."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "New: Ontario fuel station TSSA records."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "New: Quebec pay equity declaration."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "New: AODA compliance report with a Dec 2026 deadline."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Retailer return duty differs from K08 producer EPR reporting; unsure, so keep for verification; related K08.",
+     "ref": "K08"
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "New: Class A precursor annual report."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "New: grain dealer and elevator reports."
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "New: Ontario private security business licence."
+    },
+    {
+     "decision": "keep",
+     "id": "B17",
+     "reason": "New: Ontario community clinics QA; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "New: Quebec condo carnet and reserve fund duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Ontario AGCO retail cannabis reporting is a different buyer and duty from K15 CTLS; related K15.",
+     "ref": "K15"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "New: Quebec small-employer OHS action plan and liaison agent."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Ontario condo annual returns differ in jurisdiction and duty from GAPS1 Quebec."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "CVOR and NSC owner-operator duty differs from K07 truck-school logs; related K07.",
+     "ref": "K07"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "New: MAPAQ food premises permits."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Softwood export permits and charges differ from K03 CUSMA evidence; related K03, unverified.",
+     "ref": "K03"
+    }
+   ]
+  },
+  "tag": "w2b2"
+ }
+}

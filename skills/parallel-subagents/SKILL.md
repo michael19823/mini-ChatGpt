@@ -109,6 +109,10 @@ screened. Design for recall first and let later stages remove what doesn't hold 
   provisional score and flag it for a deeper check. Single checks near the threshold are noisy (one
   lead scored 5 in one Opus check and 3 in another with a smaller budget), so keep the verifier
   rubric and budget the same across runs and use two verifiers where a score decides the ranking.
+- **Grade, don't delete.** Let a second or adversarial check move a lead between confidence tiers
+  (strong, likely, possible) and remove it only when a check names the product, rule or fact that
+  kills it. In one 18-country run, requiring two passing checks kept 14 leads; one passing check
+  that nothing refuted kept 27, and 93 more were real but weaker. Report every tier.
 - **Budget breadth by the map.** Screening every category takes about one search per category plus
   a reserve for depth; a fixed small budget either skips categories or gets overrun.
 - **Add a second angle where it pays.** One worker samples the space: in one pilot, two runs of the

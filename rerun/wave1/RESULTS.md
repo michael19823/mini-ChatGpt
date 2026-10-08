@@ -18,6 +18,21 @@ checked candidate with both checks), `results/summary.json` (counts, shadow test
   everything from one very long session. Input-side costs are exact; output is estimated and may
   run about 10% low.
 
+## Less strict view (adopted after the run)
+
+The counting rule above is strict: a lead must pass two Opus checks. Graded instead, so a second
+check moves a lead between tiers and only a named killer removes it, the same checks give:
+
+| Tier | Ideas | Rule |
+|---|---|---|
+| Strong | 14 | Both Opus checks scored it 4 or more (the verified leads below) |
+| Likely | 13 | First Opus check 4+; the challenge found nothing that kills it but was unsure or lower |
+| Possible | 93 | Checked, not refuted, scored 3: real duty, weaker market, payment or competition |
+| Out | 50 | 23 refuted with a named product, rule or fact; 27 scored below 3 |
+
+Strong plus likely makes **27 leads**, so the stop rule passes either way. All four tiers, and the 78
+ideas the caps left unchecked, are in `LONGLIST.md`. Later runs use the graded rule.
+
 ## The 14 verified leads
 
 | Country | Lead (buyer and duty) | First check / challenge | What the checks found |

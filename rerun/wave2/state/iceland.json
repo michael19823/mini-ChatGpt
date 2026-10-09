@@ -593,5 +593,245 @@
    "searches": 18
   },
   "tag": "w2b43"
+ },
+ "gapfill:iceland": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Private and small water supplies: farms, rural water associations and tourism sites serving 20 or more households or 50 or more residents, or food production. Roughly 797 supplies in total, with several hundred private ones (an old Samorka estimate of 500-1,000, undated).",
+     "category": "10. Well drillers and water abstraction (adjacent to 13. Small water systems)",
+     "evidence": "https://www.mast.is/static/files/leidbeiningar/leidbeiningar-eftirlit-neysluvatn.pdf ; https://www.althingi.is/altext/erindi/128/128-656.pdf ; https://www.vfi.is/media/utgafa/ahrif_gaedakerfa_vatnsveitna_a_lydheilsu.pdf (small supplies found without internal control); https://files.reglugerd.is/pdf/0570-2018/current",
+     "existing": "None seen in one competitor-style search. Free MAST guidance exists; the health committees do the inspections.",
+     "known_mark": "new",
+     "name": "Compliance pack for small private water supplies (permit, internal control, sampling plan)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Water supplies need an operating licence from the local health committee and routine monitoring. MAST guidance exempts only supplies with fewer than 20 households or 50 residents. Drinking water is treated as food, so internal control is required (Reg. 522/1994; its current status is unverified). Samples are checked against Reg. 536/2001, as amended by 570/2018 with a monitoring plan. Treatment such as chemical dosing needs a separate approval.",
+     "trigger_unchecked": "",
+     "unchecked": "Current supply count and the share of non-compliant ones. Whether 522/1994 was replaced. Local health committee fee and sampling rules. Willingness to pay (a diffuse rural buyer with low spend). Any vendor, consultancy or lab bundle. Mostly belongs to category 13, so the other worker should check it."
+    },
+    {
+     "buyer": "Condominium owners' associations (húsfélög) under the Condominium Act 26/1994. They must register with Skatturinn for a kennitala (form RSK 17.02, fee ISK 30,000), report changes (ISK 2,200) and report signing authority (RSK 17.92).",
+     "category": "17. Community and religious bodies: associations (adjacent to 23)",
+     "evidence": "https://www.skatturinn.is/fyrirtaekjaskra/almenn-felagasamtok-og-onnur-felog/husfelog/ ; https://www.skatturinn.is/fyrirtaekjaskra/gjaldskra/",
+     "existing": "Not checked. No housing-association software surfaced in one search.",
+     "known_mark": "new",
+     "name": "Housing association (húsfélög) admin and registration pack",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Registration and change notifications to Skatturinn. Whether húsfélög must file annual accounts, and who has to file, was not established.",
+     "unchecked": "Annual filing duty, the existing housing-association management software and services, the number of associations, and whether the buyers are property managers rather than owners. Likely a crowded and generic bookkeeping space."
+    },
+    {
+     "buyer": "Housing co-ops under Act 66/2003 (Búseti hsf. is the visible one)",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.althingi.is/lagas/157c/2003066.html ; https://www.landsbref.is/uploads/files/buseti-arsreikningur-arid-2024.pdf",
+     "existing": "Not applicable: the buyer set is too small.",
+     "known_mark": "new",
+     "name": "Housing co-operatives (húsnæðissamvinnufélög) reporting",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Act 66/2003 (co-op law applies as relevant); HMS oversight and reporting duties were not found.",
+     "unchecked": "Number of housing co-ops. Probably one or two large bodies with in-house staff, so not a software market."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "No licensing regime for drilling contractors found. Groundwater abstraction needs a utilisation permit from Orkustofnun (now Umhverfis- og orkustofnun) under Art. 6 of Act 57/1998, with Nature Institute and Environment Agency opinions; deep drilling also needs notification to Skipulagsstofnun (Act 111/2021, Annex I item 2.04). Orkustofnun keeps a public borehole register (borholuskrá) naming the driller. Visible permit applicants are large (Rio Tinto, HEF veitur, Landeldis, Stofnfiskur, i.e. fish farms and utilities), which is out of scope. A driller's reporting duty to the register was not confirmed, and no small-driller niche or vendor was seen. Nothing usable beyond the one adjacent lead in the ledger (small private water supplies).",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Iceland has no credit-union sector. Savings banks (sparisjóðir) are few and are licensed financial firms under the Central Bank. Ordinary co-ops fall under Act 22/1991 with a co-op register (samvinnufélagaskrá) run by the tax authority (Skatturinn). Accounts go to the annual accounts register, and non-filers for three years can be deregistered; the registrar and the deadline were not confirmed for ordinary co-ops. Housing co-ops (Búseti hsf. under Act 66/2003) are few and large. Co-op count and the sector are tiny, so no standalone candidate. Nothing new beyond one weak related lead (housing associations, húsfélög) in the ledger.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 0,
+   "queries": [
+    "borholur vatnsöflun leyfi Orkustofnun boranir brunnborun",
+    "Iceland well drilling contractors groundwater abstraction licence Orkustofnun",
+    "samvinnufélög skráning ársreikningur kaupfélag lög um samvinnufélög",
+    "Iceland co-operative societies savings funds sparisjóðir small credit institutions registry requirements",
+    "tilkynna borun til Orkustofnunar borskýrsla skylda borfyrirtæki borleyfi lög 57/1998 borholuskrá",
+    "Iceland vatnsveitufélag einkavatnsveita sveitabæir heilbrigðiseftirlit vatnsból eftirlit neysluvatn reglugerð 536/2001",
+    "Búseti húsnæðissamvinnufélag lög um húsnæðissamvinnufélög skýrslu skil eftirlit HMS",
+    "innra eftirlit vatnsveitu starfsleyfi lítil vatnsveita matvælaeftirlit eyðublað sýnatökuáætlun",
+    "húsfélög skráning ríkisskattstjóri húsfélagaskrá skylda ársreikningur húsfélag hugbúnaður",
+    "borfyrirtæki borun eftir köldu vatni brunnborun Ísland þjónusta ehf"
+   ],
+   "searches": 10
+  },
+  "tag": "w2b43"
+ },
+ "triage:iceland": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New 2026 taxi station electronic register and audit duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Vets and livestock keepers have recurring medicine-use reporting; not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "AML registration and compliance for small jewellers and dealers; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Staff-leasing and foreign provider notifications, recurring per engagement; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Small associations face register and annual-accounts duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Small building owners and housing associations have lift service and inspection duties."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Septic register and emptying duty for small contractors and municipalities; unsure, verifiers decide."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Small food plants and breweries owe boiler and pressure inspections and fees."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small farmers owe annual Bústofn livestock reports; not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Licensed hunting guides have recurring reports and permit renewals; small but in scope."
+    },
+    {
+     "decision": "drop",
+     "id": "A11",
+     "reason": "Out of scope: a grab-bag of tiny groups with no single recurring duty named, so no defined buyer group and duty."
+    },
+    {
+     "decision": "known",
+     "id": "A12",
+     "reason": "Same childminder buyer and duty as K09.",
+     "ref": "K09"
+    },
+    {
+     "decision": "known",
+     "id": "A13",
+     "reason": "SME fleet kilometre fee is K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "merge",
+     "id": "B1",
+     "reason": "Same AML registration and compliance duty for Skatturinn-supervised small professionals and dealers as A3.",
+     "ref": "A3"
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Estate agents and car dealers are a different buyer group from A3 under the same AML law."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Electrical contractors' HMS safety system and job records are a different buyer and duty from K07 construction QMS."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Self-employed health providers billing Sjúkratryggingar with new reporting proposals; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small tour operators have mandatory safety plans supervised by Ferðamálastofa."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small importers have a recurring packaging declaration and levy duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Small food businesses must keep internal control records as a licence condition."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Hotels and guest houses with operating licences are a different buyer group from K06 homestays."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Monthly fuel reports include small independents; unsure, verifiers decide."
+    },
+    {
+     "decision": "merge",
+     "id": "B10",
+     "reason": "Same staff-leasing notification duty and buyer group as A4.",
+     "ref": "A4"
+    },
+    {
+     "decision": "merge",
+     "id": "B11",
+     "reason": "Same taxi operators and Act 120/2022 electronic database duty as A1.",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Fishing associations have annual catch reporting and dividend register duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Reweighing licence holders are a different buyer group from K04 vessel logbooks; related K04."
+    },
+    {
+     "decision": "known",
+     "id": "B14",
+     "reason": "Kilometre fee for SME fleets is K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "known",
+     "id": "B15",
+     "reason": "Equal-pay report pack is K02 and K05.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Small private water supplies have licence, internal control and sampling duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Housing associations are community bodies with registration duties; unsure, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Housing co-operatives are in scope as co-operatives; weak, but unverified."
+    }
+   ]
+  },
+  "tag": "w2b43"
  }
 }

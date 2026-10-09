@@ -1,0 +1,1426 @@
+{
+ "challenge:japan:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "PM_定期 (Produce Media): a dedicated tool for 12条 reports. It covers 特定建築物定期調査, 建築設備定期検査 and 防火設備定期検査, works on a tablet in the field, and outputs each 特定行政庁's forms (47 prefectures plus 13 cities), with yearly form updates. FireNET also produces 防火設備定期検査 reports. Lift reports are normally filed by the maintenance firm for the owner, and in Tokyo a lift association (東京都昇降機安全協議会) handles intake and pre-checks.",
+   "reason": "The first check found no dedicated product. A non-government search did find one. PM_定期 makes 12条 reports for 特定建築物, 建築設備 and 防火設備 in every 特定行政庁's format and updates the forms each year. FireNET covers 防火設備. Lifts, the remaining category, are usually filed by maintenance firms for owners, and some prefectures have association filing services (宮崎). Cities post reminders and offer free Excel kits and e-filing. Owners don't fill in reports themselves; qualified inspectors must do it, which leaves only a thin reminder-calendar niche for small owners. PM_定期's pricing and customer numbers weren't found, and I didn't check whether it covers the 2025-07 form revision. Score 2.",
+   "searches": 7,
+   "sources": "https://www.producemedia.co.jp/pm_teiki/ ; https://www.teikihoukoku.net/category/houkokusho-sakusei-tool/ ; https://www.firenet.info/solutions/ ; https://www.synq-platform.com/blog/elevator-report ; https://www.miyazaki-kjc.jp/jigyo/syoukou_taisin/syokoki/ ; https://www.tsak.jp/report/ ; https://www.tokyo-machidukuri.or.jp/tatemono/teikihoukoku ; https://www.city.oita.oita.jp/o172/shigotosangyo/kenchiku/documents/uketukehouhou.pdf",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b12"
+ },
+ "challenge:japan:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "GOGEN「レリーズ本人確認」 auto-creates 本人確認記録 and includes the RETPC STR checklist (2026-05-15). Digital Garage「Musubellスマート本人確認」 does eKYC, 反社 checks and record auto-generation (2026-05-28, from search summaries only). TRUSTDOCK runs inside PICKFORM. The リスク評価書 is a one-off, free MLIT/全日 template under a request with no penalty; no commercial product was found for it.",
+   "reason": "The recurring part, 取引時確認記録 plus the STR check, is already sold to 宅建業者. GOGEN's レリーズ本人確認 creates 本人確認記録 automatically, and since 2026-05-15 it also includes the RETPC STR checklist, with completion tracking. The release suggests describing that workflow in the risk report's 対応方針 section. Digital Garage's Musubellスマート本人確認 (2026-05-28) says it does eKYC, 反社 checks and auto-generated, stored records ahead of the April 2027 rule change; I saw that only in search summaries. TRUSTDOCK runs inside PICKFORM. What is left is the リスク評価書: a free MLIT and 全日 template, done once, under a request with no stated penalty. No commercial tool or writing service found. The market is large (133,727 firms in March 2026), but the uncovered job is thin.",
+   "searches": 8,
+   "sources": "https://ascii.jp/elem/000/004/402/4402450/ ; https://prtimes.jp/main/html/rd/p/000000465.000023393.html ; https://www.garage.co.jp/documents/pr/ja/20260528_JP.pdf ; https://www.mlit.go.jp/report/press/content/002025406.pdf ; https://www.zennichi.or.jp/?p=70257 ; https://www.mlit.go.jp/totikensangyo/const/content/001986805.docx ; https://www.mlit.go.jp/totikensangyo/const/content/002001391.pdf",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b12"
+ },
+ "critic:japan": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Foreign-worker and 外国人 employer/host duties (2024-2027 law changes)",
+     "first_search": "外国人雇用状況の届出 特定技能 受入れ機関 定期届出 育成就労 中小企業 2027",
+     "why": "Known K04 covers only support agencies. 育成就労 starts 2027-04 and every small employer of 技能実習/特定技能/外国人 must file 外国人雇用状況の届出 (Hello Work) and 受入れ機関 定期届出 to the immigration agency. The 2024 入管法 amendment and the 2025 Hello Work and ISA online systems affect a large pool of family firms, farms and restaurants, a different buyer from the support agencies. Not covered in the table."
+    },
+    {
+     "category": "Agricultural and fishery small operators on state programmes (farms, fishers, forestry owners)",
+     "first_search": "経営所得安定対策 申請 書類 小規模農家 代行 / 農地 利用状況報告 農業委員会 / 漁獲成績報告書 漁業者 義務",
+     "why": "Japan has very many small family farms, and the state runs programmes through them. Examples are 経営所得安定対策 and 日本型直払 applications, 農地法 transfer reports (農地台帳, 農業委員会 利用状況調査), 漁業権 and 漁協 catch reports, and 森林経営計画 and 伐採及び伐採後の造林の届出. The only agriculture items screened are bees, pesticide and livestock traders. The 2024-25 rice and 農地 reforms and the 農地法 amendments are untouched."
+    },
+    {
+     "category": "Food businesses under the 2021 HACCP regime and 2024 consumer-protection transfers (食品衛生法 届出制度)",
+     "first_search": "HACCP 衛生管理計画 記録 小規模事業者 アプリ 食品衛生申請等システム 営業届出",
+     "why": "After 2021-06 all small food firms must file 営業届出 and run HACCP-based hygiene plans. 2024-04 moved food sanitation to the Consumer Affairs Agency, and 食品表示法 allergen and origin labelling plus the 食品衛生申請等システム e-filing affect the huge izakaya, bento, bakery and 弁当 sector. Only butchers, kitchen cars and food vendors were screened. Possibly rejected by freee-type tools, but nobody checked it."
+    },
+    {
+     "category": "Medical, dental and nursing small offices: 医療広告 / 保険医療機関 filings, 医療安全 registers, 薬局 reports",
+     "first_search": "医療機能情報提供制度 定期報告 診療所 病床機能報告 毎年 入力 代行 / 薬局機能情報 報告",
+     "why": "Japan has about 100k clinics and 60k pharmacies. Clinics have a duty to file the 病床機能報告 and 医療機能情報提供制度 annual report, 医療法 s.6-3, and to submit 保険医療機関 changes to the 地方厚生局. From 2025-2026 there are new duties: マイナ保険証 online-qualification and 電子処方箋 migration, the 医療DX 推進体制 reports, and the 2024-25 薬機法 amendments. Only 医療法人 経営情報 and 毒劇物 were covered, and the 医療機能情報 annual update was not."
+    },
+    {
+     "category": "Taxi, 運転代行 and other transport licences from 2024-2026, plus 運行管理 / 点呼 duties",
+     "first_search": "安全運転管理者 アルコールチェック 記録 保存1年 白ナンバー 中小企業 アプリ / 運転代行業 認定 報告",
+     "why": "K25, K26 and K09 are rejected on the trucking side. The 2024-25 国交省 transport rules were not screened: 自動車運転代行業法 registration, 安全運転管理者 duties (the 2022-23 alcohol-check rules), 白ナンバー事業者 アルコール検知器 records and the new 特定自動運行. White-plate small firms (about 340k sites) have to keep records of 酒気帯び確認 for 1 year. This is a distinct buyer group from the trucking operators."
+    },
+    {
+     "category": "Environmental and safety-law small-factory duties: 消防法 防火管理者, 危険物 and 産業廃棄物 排出事業者 マニフェスト",
+     "first_search": "産業廃棄物管理票交付等状況報告書 提出 6月30日 排出事業者 紙マニフェスト 小規模 / 防火管理者 選任届 消防計画 作成 小規模事業所",
+     "why": "Every small firm that produces industrial waste (排出事業者) must hold a 産廃マニフェスト and file the annual 産業廃棄物管理票交付等状況報告書 by 6/30 (prefecture or 政令市). K02 only targets the intermediate processors. 電子マニフェスト (JWNET) obligations apply to larger producers, but paper-manifest 交付状況報告 and the 事業所 vs generator duties on thousands of garages, restaurants and clinics were not screened. 消防法 防火対象物 点検報告 (annual) and 防火管理者 選任届 were only partly covered (K11 rejected)."
+    }
+   ]
+  },
+  "tag": "w2b12"
+ },
+ "discover:A:japan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small building owners and management associations, plus independent 昇降機・防火設備 inspectors and small building-maintenance firms",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://www.pref.aichi.jp/soshiki/kenchikushido/teikihoukoku.html ; https://www.city.nishi.or.jp (Nishinomiya notice page: https://www.nishi.or.jp/jigyoshajoho/kenchiku/kenchikukijyunhou/tokuteikenchiku.html) ; https://www.pref.gunma.jp/uploaded/attachment/657610.pdf (防火設備 annual, 6/1 to 11/30) ; https://www.toshiseibi.metro.tokyo.lg.jp/kenchiku/chousa-houkoku/ch_01.html. Cities send reminders by post, yet say the duty applies even if no notice arrives (Nishinomiya).",
+     "existing": "No dedicated product found in two searches. Cities publish Word and Excel forms (Shizuoka). A Nikkei article mentions cloud equipment ledgers in general. K11 (fire equipment) was killed by a free app, but no free app was found for this duty.",
+     "known_id": "K11",
+     "known_mark": "new",
+     "name": "Periodic-report calendar and report kit for lifts, fire doors and small buildings (建築基準法12条定期報告)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "建築基準法 s.12(1),(3): annual lift and fire-door reports; 建築設備 and 特定建築物 on 1 to 3-year cycles; due dates differ by municipality; 2025-07-01 form revision; fine up to ¥1m.",
+     "trigger_note": "",
+     "unchecked": "Vendor search with product names (建築設備定期検査 ソフト, 昇降機 保守 報告 システム); whether maintenance firms already file for owners; e-filing coverage by prefecture; number of small owners reached."
+    },
+    {
+     "buyer": "Owners and management associations of buildings with tanks over 10 m3; tank-cleaning contractors",
+     "category": "13. Small water systems",
+     "evidence": "https://www.city.machida.tokyo.jp/iryo/hokenjo/kankyou/suidou/kansensui.files/kansensui.pdf ; https://www.city.nagoya.jp/kenkofukushi/eisei/1014926/1015228/1015229.html",
+     "existing": "None found. Management companies already handle it for condominiums.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "簡易専用水道 annual inspection and tank-cleaning reminder for small building owners and cleaning firms",
+     "score": 3,
+     "status": "weak",
+     "trigger": "水道法 簡易専用水道 管理基準: annual registered-body inspection and annual tank cleaning.",
+     "unchecked": "Whether inspection bodies already send reminders and manage schedules for clients; owner count and willingness to pay; software search."
+    },
+    {
+     "buyer": "Small 有料・無料職業紹介 offices (one filing per office)",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://jsite.mhlw.go.jp/kagoshima-roudoukyoku/content/contents/2026-0824-5_2.pdf ; https://www.rodo.co.jp/news/203856/ ; https://jsite.mhlw.go.jp/shiga-roudoukyoku/content/contents/002568966.pdf",
+     "existing": "Agency ATS tools (CAREER PLUS on boxil, matchingood) can export data for the report. It is not confirmed that any fill the official form.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "職業紹介事業報告書 (様式第8号) auto-compiler for small recruitment agencies",
+     "score": 3,
+     "status": "weak",
+     "trigger": "職業安定法: annual report to the labour bureau by 4/30, nil returns included, e-Gov or paper; new Excel form from 令和7年度; Hyogo bureau ordered 3 operators to stop business until filed (2025-08).",
+     "unchecked": "Whether ATS vendors auto-fill 様式第8号; number of small offices; annual-only usage makes willingness to pay low."
+    },
+    {
+     "buyer": "Temples, shrines, 墓地管理者 of private and community cemeteries (a different buyer from K07 stonemasons)",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://www.soumu.go.jp/main_content/001066826.pdf ; https://www.pref.aichi.jp/site/gyoute/2090.html ; municipal tenders for 墓地管理システム (https://www.city.amagasaki.hyogo.jp/_res/projects/default_project/_page_/001/043/490/shiyosho.pdf)",
+     "existing": "Municipal systems (Mitsubishi Electric ぼさんシステム via LGWAN; Matsue, Kurume, Odawara tenders). No temple-oriented product surfaced; 檀家管理 software was not searched.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Cemetery ledger and heir-contact tracker for temples and community cemetery managers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "墓埋法施行規則: manager keeps a 使用者 name and address ledger. MIC 2026-04 improvement summary: cemeteries should capture heir contact details early to prevent 無縁墳墓; 無縁改葬 procedures.",
+     "unchecked": "檀家管理 ソフト and 寺院 墓籍 ソフト competitors; whether MIC recommendations bind private cemeteries; temple WTP; MIC survey details."
+    },
+    {
+     "buyer": "Small gold and jewellery buyers, secondhand shops and pawnbrokers",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.pref.yamanashi.jp/police/p_seikankyo/kobutsu/kobutsu_kikinzoku.html ; https://www.pref.ibaraki.jp/kenkei/a06_shinsei/secondhand_article/duty/duty.html",
+     "existing": "買取コージ and 古物台帳クラウド handle part of the ledger. Whether they cover 犯収法 record fields was not checked.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "Gold and jewellery buyer dual-regime ledger (古物営業法 + 犯収法 貴金属等取引業者)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "古物営業法: ID check and ledger (3-year retention). 犯収法: ID, records (7 years) and suspicious-transaction reports for cash over ¥2m. 2025-10 metal-theft rule change.",
+     "unchecked": "Number of shops regularly above the ¥2m threshold; 犯収法 record support in existing tools."
+    },
+    {
+     "buyer": "Licensed 古物商 across a large pool (shops and online sellers)",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://www.pref.yamanashi.jp/police/p_seikankyo/kobutsu/kobutsu_kaisei.html ; 古物台帳クラウド and 買取コージ press listings found via search",
+     "existing": "古物台帳クラウド (free; ¥1,100/month), 買取コージ, CSV-to-ledger tool on Coconala. Competition is already present.",
+     "known_id": "K05",
+     "known_mark": "known",
+     "name": "General 古物台帳 for small secondhand shops",
+     "score": 2,
+     "status": "weak",
+     "trigger": "古物営業法 ledger and ID duties.",
+     "unchecked": "Quality gap versus the new 2025-10 mandatory fields."
+    },
+    {
+     "buyer": "Hobby and commercial beekeepers, including Japanese-bee keepers",
+     "category": "8. Beekeepers",
+     "evidence": "https://www.pref.nagano.lg.jp/nagachi/nosei-aec/chikusan/mitsubachi.html ; https://www.pref.kagawa.lg.jp/chikusan/shinko/mitubashi/mitubachi.html ; https://www.pref.iwate.jp/_res/projects/default_project/_page_/001/007/761/mitubatisikusyahe.pdf",
+     "existing": "None found. Kagawa offers e-filing.",
+     "known_mark": "new",
+     "name": "蜜蜂飼育届 annual filing and 転飼 permit helper for beekeepers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "養蜂振興法 s.3: annual 飼育届 by 1/31; changes within 1 month; cross-prefecture move permits 2 months ahead (Tokushima); penalty up to a fine for failure (Iwate).",
+     "unchecked": "Number of filers; migratory commercial beekeepers are a small buyer group; WTP is low."
+    },
+    {
+     "buyer": "Licensed livestock dealers",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.pref.tokushima.lg.jp/file/attachment/560417.pdf ; https://www.pref.shiga.lg.jp/ge00/15329.html",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "家畜商 ledger (家畜商法 s.11-2) and deposit tracker",
+     "score": 1,
+     "status": "weak",
+     "trigger": "家畜商法 s.11-2 ledger duty; missing or false ledger is a revocation ground.",
+     "unchecked": "Number of active dealers; ledger fields."
+    },
+    {
+     "buyer": "Small licensed dismantlers (部品取り)",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://www.pref.aomori.lg.jp:443/soshiki/kankyo/kankyo/files/kaiai-tebiki.pdf ; https://www.pref.saitama.lg.jp/documents/118362/jiritebiki1002.pdf",
+     "existing": "Not searched for vendors; the government system is free.",
+     "known_mark": "new",
+     "name": "自動車解体業 引取・移動報告 helper for small dismantlers",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Automobile Recycling Act: per-vehicle 引取報告 and 移動報告 on the recycling system; 120-day limit for dismantlers; reports tied to scrapping registration and tax refund.",
+     "unchecked": "Vertical dismantler software (inventory plus parts sales plus report feed); number of small dismantlers; whether the free JARC web system plus CSV upload covers it."
+    },
+    {
+     "buyer": "Store-based 動物用医薬品 sellers and livestock farmers",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://www.pref.kagawa.lg.jp/documents/15917/denshi-shijisyo-tirashi.pdf (電子指示書 system from 2025-04) ; https://www.pref.gifu.lg.jp/uploaded/attachment/263533.pdf",
+     "existing": "MAFF 電子指示書 system since 2025-04 covers instruction records; vets' 診療簿 can replace the ledger.",
+     "known_mark": "new",
+     "name": "動物用医薬品 sales and use-record tooling for small sellers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Use-record and instruction-sheet duties; permit per outlet.",
+     "unchecked": "Whether the e-system fully replaces the farmer's ledger; seller-side reports."
+    },
+    {
+     "buyer": "Pesticide sellers (JA outlets, garden and farm stores, online sellers)",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.pref.hiroshima.lg.jp/soshiki/84/1211261798946.html ; https://www.pref.okinawa.jp/site/norin/eino/kankyo/nouyakuhanbaiyousiki.html",
+     "existing": "None found. POS and stock systems cover ledgers.",
+     "known_mark": "new",
+     "name": "農薬販売所 届出 and stock-ledger tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "農薬取締法 s.17 販売届 per outlet; changes in 2 weeks; stock ledger.",
+     "unchecked": "2025 amendments (none found)."
+    },
+    {
+     "buyer": "Factories, farms and hotels with wells; drillers as channel",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://www.city.shizuoka.lg.jp/000_002851.html ; https://www.city.sapporo.jp/kankyo/todokede/suishitsu/documents/jyorei-tebi.pdf ; https://www.mlit.go.jp/mizukokudo/mizsei/content/001997944.pdf",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Annual 地下水採取量 report helper for well owners",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Municipal and prefectural groundwater ordinances: notices before works; annual volume reports (Shizuoka 2月末, Sapporo 4月末); Yokohama 3-year volume and level logs.",
+     "unchecked": "Total number of regulated outlets; whether municipalities already take e-filing."
+    },
+    {
+     "buyer": "Small municipal-permit hauling and septic firms",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://www.city.shiki.lg.jp/uploaded/attachment/17050.pdf ; https://www.city.yokohama.lg.jp:443/business/bunyabetsu/gomi-recycle/youshiki.files/0077_20231222.pdf",
+     "existing": "Not checked; K12 covers septic with six vertical packages.",
+     "known_id": "K12",
+     "known_mark": "known",
+     "name": "一般廃棄物 hauling permit renewal and performance report pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Municipal renewal requires prior hauling performance (Shiki). Yokohama requires a prior-year 浄化槽清掃 performance table.",
+     "unchecked": "Whether the same vendors cover hauling renewals."
+    },
+    {
+     "buyer": "Retail butchers and meat dealers handling 特定牛肉",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://www.maff.go.jp/j/syouan/tikusui/trace/attach/pdf/index-90.pdf",
+     "existing": "POS and wholesaler slips already carry it; not checked.",
+     "known_mark": "new",
+     "name": "Beef traceability purchase-and-sales record for butchers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Beef traceability law: purchase and sales records closed yearly and kept 2 years; ID labelling to consumers.",
+     "unchecked": "Small abattoir permits and 食鳥 rules were not found."
+    },
+    {
+     "buyer": "認可地縁団体, 自治会 and 町内会 officers",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://www.city.sapporo.jp/shimin/shinko/chounaikai/kadaikaiketsu/dejitaruka.html ; https://www.city.kawachinagano.lg.jp/uploaded/life/112411_315540_misc.pdf",
+     "existing": "City-promoted apps, LINE and spreadsheet courses exist.",
+     "known_mark": "new",
+     "name": "認可地縁団体 and 自治会 admin pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Local Autonomy Act 認可地縁団体 change notices; personal-data rules for rosters.",
+     "unchecked": "Paying buyers: associations pay little; cities buy in bulk (procurement)."
+    },
+    {
+     "buyer": "Small general-freight operators (permit holders)",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://www.logi-today.com/909107 (renewal named; no dates) ; MLIT regional bureau PDFs (https://wwwtb.mlit.go.jp/kanto/content/000367885.pdf returned 404; https://wwwtb.mlit.go.jp/kinki/content/000365947.pdf unreadable)",
+     "existing": "Seminars from consultancies; the existing 実運送体制管理簿 apps (K09) are logbook-only. No renewal-filing tool found.",
+     "known_id": "K09",
+     "known_mark": "new",
+     "name": "Trucking operator 5-year permit renewal and 適正原価 compliance kit",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Amended 貨物自動車運送事業法 (promulgated 2025-06): 5-year permit renewal, new permit standards, 適正原価 duty; parts in force since 2026-04-01; the rest within 3 years of promulgation per an MLIT chart.",
+     "unchecked": "Exact start dates, renewal evidence list and transition rules; whether 適正化事業実施機関 (trucking associations) will file for members; not a quiet industry."
+    },
+    {
+     "buyer": "Kitchen-car and stall operators",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.pref.saitama.lg.jp/a0708/eigyokyoka/jidousha/jidousha2.html ; https://www.pref.mie.lg.jp/common/content/001081008.pdf",
+     "existing": "No app found, but the 2021 reform already allows prefecture-wide operation for kitchen cars.",
+     "known_mark": "new",
+     "name": "Itinerant food vendor and kitchen-car permit tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Municipal 露店 and 臨時営業 permits; fees per period (Mie); renewal before expiry (Fukushima).",
+     "unchecked": "Event-organiser side; money changers not reached."
+    },
+    {
+     "buyer": "Unlicensed nurseries, 居宅訪問型保育 (babysitter) businesses, small childminders",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.pref.yamanashi.jp/ch-hokenf/fukushi-ninkagaihoikushisetsu01.html ; https://www.city.setagaya.lg.jp/01044/1533.html ; https://www.city.katsushika.lg.jp/_res/projects/default_project/_page_/001/033/272/r7shudan1.pdf",
+     "existing": "No dedicated product found. Municipal e-filing exists. K01 covers the DBS check for the same buyer group but a different duty.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "認可外保育施設 届出 and 運営状況報告 kit for small childcare operators and babysitter agencies",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Child Welfare Act s.59: 届出 within 1 month; annual 運営状況報告; on-site inspection or self-check; penalty up to ¥500k; attachments include qualification, training and insurance copies; 2026-04-01 inspection manual (Yamanashi).",
+     "unchecked": "Number of operators; whether K01's workbench could bundle this; filing is annual and cheap for the buyer."
+    },
+    {
+     "buyer": "Small designated driving schools (1,223 schools, shrinking)",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://police.pref.toyama.jp/documents/2477/siteijidousyakyoushuushogyoumusidouyouryou.pdf ; https://www.zensiren.or.jp/zenwp/wp-content/uploads/2026/06/122f4e3c70b90a9200492b45b06d62c3.pdf",
+     "existing": "Not checked; the industry has established school-management systems.",
+     "known_mark": "new",
+     "name": "指定自動車教習所 compliance workbench",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Police business guidance: staff designation notices, 技能検定員 appointments, mandatory staff training, records and reports.",
+     "unchecked": "Incumbent vendors; shrinking market."
+    },
+    {
+     "buyer": "Households employing a 家政婦 or nanny directly",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://www.mhlw.go.jp/content/11402000/001528301.pdf ; https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00454.html",
+     "existing": "Only MHLW contract templates.",
+     "known_mark": "new",
+     "name": "Domestic-worker household employer pack",
+     "score": 1,
+     "status": "weak",
+     "trigger": "2024-02 MHLW guideline; 2025-01 study-group report suggests ending the Labour Standards Act exemption; tax and 労災特別加入 rules.",
+     "unchecked": "Whether a bill extends the Act in 2026-27; direct-hire households are few."
+    },
+    {
+     "buyer": "Licensed pawnshops",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/121947.pdf",
+     "existing": "Not found; whether e-ledgers are permitted was not confirmed.",
+     "known_mark": "new",
+     "name": "質屋営業 e-ledger",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "質屋営業法: 帳簿, 質札, permit changes.",
+     "unchecked": "Pawnshop count; e-ledger permissibility; existing pawn POS vendors."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Domestic workers are excluded from the Labour Standards Act. MHLW issued a 家事使用人 employment guideline in 2024-02, and the 2025-01 study-group report proposes ending the blanket exclusion. Individual households have no social-insurance or filing duty beyond the tax and 労災特別加入 rules. Nothing a vendor can serve. Not tested: whether the exclusion is removed in a 2026-27 bill.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Nothing new beyond K05. The 2025-10-01 古物営業法施行規則 amendment removes the under-¥10,000 exemption for air-conditioner outdoor units, heat pumps, electric wire and metal gratings (Yamanashi police page). This supports K05 but adds no new buyer.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Existing 古物台帳 tools: 古物台帳クラウド (free; ¥1,100/month plan), 買取コージ (ID OCR plus ledger plus access log), and a Coconala CSV-to-ledger tool. No electronic-ledger guidance for 質屋 was found. Candidates C05 and C07.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Dual regime: 古物営業法 (ID check from ¥10,000, 3-year retention) and 犯収法 for 貴金属等取引業者 (cash over ¥2m, 7-year retention, suspicious-transaction reports). Low frequency for small shops. Candidate C06.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Automobile Recycling Act 解体業 permit. Per-vehicle 引取報告 and 移動報告 on the 自動車リサイクルシステム. The 解体業 deadline is 120 days from 引取 to 引渡; overruns trigger a notice from the information centre. Small-dismantler packages were not checked. Candidate C09.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "家畜商法 s.11-2 requires a ledger, and omissions are grounds for revocation (Tokushima disposition standard). A deposit and a licence from the prefecture are also required. The pool is tiny. Candidate C08.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "The beef traceability law requires purchase and sales records for 特定牛肉, closed yearly and kept 2 years (MAFF). The 食品衛生法 HACCP regime also applies. No small-abattoir sources were found. Candidate C13 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "養蜂振興法 s.3 requires an annual 蜜蜂飼育届 by 1/31 to the prefecture, with 転飼許可 for cross-prefecture moves. Mostly paper or fax; Kagawa offers e-filing. Hobbyists are included. Candidate C07b.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Prefectures require 動物用医薬品 use records. A vet's 診療簿 can substitute for the farmer's ledger. MAFF launched an 電子指示書 system in 2025-04 (Kagawa leaflet), which covers the core record. Sales permits are per outlet. Candidate C10 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Groundwater is regulated by municipal and prefectural ordinances. Outlets above 6 cm2 need a notice 30-60 days before works. The annual abstraction report is due 2月末 in Shizuoka and Hamamatsu, and 4月末 in Sapporo. Yokohama requires 3-year records. MLIT surveyed the ordinances in 2026. The duty falls on the well owner, not the driller. Candidate C11 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Nothing new beyond K12 (septic, rejected). 一般廃棄物 hauling permits are municipal. Renewal requires prior hauling performance (Shiki). Yokohama requires a prior-year 浄化槽清掃 performance table. No electronic filing or ledger rule was found. Candidate C12 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "建築基準法 s.12 periodic reports: 昇降機 annually; 防火設備 annually (Gunma: 6/1 to 11/30); 特定建築物 and 建築設備 on varying cycles. Penalty up to ¥1m. The 2025-07-01 notice revision changed the forms. Prefectures publish Word and Excel forms. No commercial software was found in two searches. Candidate C01. Boilers (労安法 性能検査) were not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "簡易専用水道 (over 10 m3): annual inspection by a registered body and annual tank cleaning, with the duty on the owner or management association. Tanks of 10 m3 or less fall under local ordinance. No software was found. Candidate C02.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "農薬取締法 s.17 requires a 販売届 per outlet (new sales before start; changes within 2 weeks) and a stock ledger (Okinawa). Online sellers are included. No 2025 amendment was found. The pool is small and the duty is mostly one-off. Candidate C10b (weak). Fertiliser dealers were not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "職業紹介事業報告書 (様式第8号) is due each 4/30 to the labour bureau, including nil returns. From 令和7年度 the Excel forms changed. e-Gov filing is available. Hyogo bureau issued 改善命令 in 2025-08 against 3 operators that did not file. Existing: ATS and 人材紹介 systems (CAREER PLUS, matchingood) that export data. Candidate C03. 特定技能 and 育成就労 are covered by K04.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "墓埋法施行規則 requires a 使用者 ledger kept by the cemetery manager. Cemetery operation needs a permit and is normally municipal or religious. MIC's 2026-04 improvement summary on 無縁墳墓 finds 80.7% of surveyed municipalities track under 20% of heirs' details. There are about 870,000 cemetery areas nationally. Software found is municipal (Mitsubishi ぼさんシステム, and LGWAN tenders from Kurume, Matsue and Odawara) plus one funeral-company catalogue. No temple-specific package was found. Candidate C04; adjacent to K07 but a different buyer.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "認可地縁団体 and 自治会 face volunteer shortages, ledger and roster duties, and personal-data rules for rosters. Digitisation guides and LINE or spreadsheet tools are already promoted by cities and MIC. Candidate C14 (weak). Halal and kosher supervision, NPO and 宗教法人 annual filings: not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "The amended 貨物自動車運送事業法 (promulgated 2025-06) adds a 5-year permit renewal, 適正原価 enforcement and 白トラ shipper liability. Parts took effect 2026-04-01 (shipper liability, subcontracting limit of 2). Renewal and 適正原価 duties come later, within 3 years of promulgation per an MLIT chart cited in search. The exact first renewal dates were not confirmed (the article fetch had no dates; the MLIT PDF was unreadable). 貸切バス: the 乗務記録 duty already exists; fares were revised in 2025-09. K09, K25 and K26 already cover logbooks and taxi. Candidate C15.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Street vendors: 露店 and 臨時 food permits are municipal with tiered fees. Kitchen-car permits became valid across the whole prefecture after 2021-06 in many prefectures, which removes the multi-permit pain. No management app found. Candidate C16 (weak). Money changers: not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Childminders and unlicensed nurseries: 届出 within 1 month; annual 運営状況報告 (Setagaya 2025 deadline 10/31, e-filing available); penalty up to ¥500k; attachments include qualification, training and insurance copies. 2026 こども誰でも通園 adds a participation channel. Candidate C17, adjacent to K01. Driving schools: 1,223 schools (zensiren, end of 2025), shrinking; shared reporting rules; candidate C18 (weak). Small food producers: HACCP plus 営業届出; pickle makers became permit-required in 2021; no 2026 rule change found. Tattoo and hunting outfitters: not reached.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "家政婦 家事使用人 雇用 届出 社会保険 個人家庭 手続き",
+    "古物商 古物台帳 電子化 アプリ 警察 古物営業法 改正 2026",
+    "自動車解体業 許可 使用済自動車 引取報告 移動報告 電子マニフェスト 小規模 解体業者 システム",
+    "家畜商 免許 家畜取引 記録 帳簿 家畜伝染病予防法 飼養衛生管理基準 報告 2026",
+    "養蜂 飼育届 毎年 都道府県 提出 養蜂振興法 蜜蜂 届出 システム",
+    "昇降機 定期検査報告 特定建築物 定期調査報告 小規模 ビルオーナー 管理 クラウド 期限",
+    "簡易専用水道 検査 毎年 受検 小規模貯水槽 ビル マンション 管理 受検忘れ 未受検",
+    "農薬 販売 届出 農薬取締法 農薬販売者 帳簿 農薬使用者 記録 2025 改正 小規模販売店",
+    "有料職業紹介事業 事業報告書 毎年 提出 職業紹介 許可更新 小規模 システム 2026 改正 求人等情報",
+    "動物用医薬品 販売業 帳簿 記載 獣医師 診療施設 動物用医薬品 指示書 2026 薬剤耐性 使用 記録",
+    "認可地縁団体 町内会 自治会 事務負担 会計 総会 名簿 個人情報 デジタル 役員なり手 管理アプリ",
+    "墓地 経営許可 墓地管理者 墓籍簿 台帳 小規模寺院 無縁墓 墓じまい 管理システム 墓地埋葬法",
+    "貸切バス 運行管理 日報 乗務記録 小規模 バス事業者 運賃料金 届出 2026 適正化 システム",
+    "食品衛生法 営業届出 HACCP 小規模 製造 記録 手引書 届出 忘れ 漬物 営業許可 令和8年 改正",
+    "金買取 貴金属 買取店 犯罪収益移転防止法 古物営業 本人確認 金地金 税務署 取引記録 2025",
+    "質屋営業 帳簿 質札 台帳 電子化 質屋 システム 警察 届出 質屋営業法",
+    "認可外保育施設 届出 毎年 運営状況報告 立入調査 ベビーシッター 届出 こども誰でも通園 2026 小規模 事務",
+    "指定自動車教習所 報告 公安委員会 教習原簿 技能検定 電子化 小規模 教習所 システム 2026",
+    "小規模 食肉処理施設 と畜場 食鳥処理 食肉販売業 帳簿 トレーサビリティ 牛 個体識別番号 販売業者 記録 保存 報告",
+    "一般廃棄物収集運搬業 許可 更新 事業報告 実績報告 小規模 廃棄物収集 運搬 帳簿 市町村 電子化 し尿浄化槽 汲取り"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b12"
+ },
+ "discover:B:japan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small 宅建業者 doing sale brokerage (headcount of firms unverified); sister buyers: 司法書士/行政書士 offices with the same 犯収法 duty (unchecked)",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.zennichi.or.jp/2026/07/14/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E7%8A%AF%E7%BD%AA%E5%8F%8E%E7%9B%8A%E7%A7%BB%E8%BB%A2%E9%98%B2%E6%AD%A2%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E3%80%8C%E3%83%AA%E3%82%B9%E3%82%AF%E8%A9%95/ (request, no penalty stated, quarterly completion surveys by 全日); https://www.mlit.go.jp/totikensangyo/const/content/001984612.pdf (MLIT template); https://www.retpc.jp/wp-content/uploads/press/2025/NR260113.pdf (handbook 5th ed. 2026-01)",
+     "existing": "Competitor searches (2, in Japanese) found only the free MLIT template/sample and association guidance; no commercial tool seen. Not checked: 不動産 CRM vendors (いえらぶ etc.) may bundle it.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "宅建業者 AML リスク評価書 + 取引時確認記録 作成キット (small realtors)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "犯罪収益移転防止法: 取引時確認, 確認記録/取引記録 kept 7 years, STR filing; government 総合的対応策 asks all 宅建業者 to finish a リスク評価書 in FY2026 per MLIT 作成要領; FATF 2028 evaluation; STR checklist revision due Oct 2026",
+     "unchecked": "Number of 宅建業者 and share still lacking an assessment; whether CRM/eKYC vendors bundle it; this is a request not a statutory deadline, and the evaluation is a one-off plus annual refresh; WTP for a template that is free from MLIT; rental-only brokers are exempt."
+    },
+    {
+     "buyer": "Pet shops, breeders, rental/exhibit/boarding-type 登録業者 (headcount unverified)",
+     "category": "31. Animal handling businesses (第一種動物取扱業)",
+     "evidence": "https://www.pref.ibaraki.jp/hokenfukushi/doshise/aigo/tyoubo-teikihoukoku.html; https://www.pref.saitama.lg.jp/a0706/doubutu-touroku/teikihoukoku.html; https://www.hokeniryo.metro.tokyo.lg.jp/shisetsu/jigyosyo/douso/dt_gyou/doubutuhanbaigyoushatou (Tokyo accepts LoGoフォーム e-filing)",
+     "existing": "Two Japanese searches found only prefectural paper/Excel templates; no software product seen (pet-shop POS and breeder tools may exist, unchecked).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Different buyer from vets (cat 9, group A)",
+     "name": "動物取扱業 per-animal ledger and annual report (April-May) tool",
+     "score": 4,
+     "status": "promising",
+     "trigger": "動物愛護管理法 as amended (in force 2020-06-01): ledger per dog/cat, 5-year retention, 定期報告 from 1 April to 30 May to the prefecture",
+     "unchecked": "Number of registered operators; existing pet-shop POS/breeder software; whether マイクロチップ registration duties (breeders/sellers) add recurring workload; WTP; prefecture-by-prefecture form variation."
+    },
+    {
+     "buyer": "Small 医療法人 clinics and their tax advisers",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://tkc.jp/igyou/keieijouhou-houkoku/ ; https://www.pref.kagawa.lg.jp/imu/keieijyoho.html ; https://www.mhlw.go.jp/content/10800000/001475202.pdf",
+     "existing": "TKC support page (accountant channel); accountants file for clients; Excel upload permitted.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "医療法人 決算届 + 経営情報 report assistant (WAM NET system)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "医療法 art.52: 事業報告書等 within 3 months of FY end (4 months if externally audited) and per-facility 経営情報 report; since 2025-04-01 on new WAM NET-based database, G-MIS closed",
+     "unchecked": "Share of clinics that file themselves; whether TKC/Legacy etc. cover the new system; free Excel templates by prefectures."
+    },
+    {
+     "buyer": "Owners of non-FIT or newly built 10-50kW PV, solar installers and O&M firms filing on their behalf",
+     "category": "32. Small solar and wind owners (小規模事業用電気工作物)",
+     "evidence": "https://www.meti.go.jp/shingikai/sankoshin/hoan_shohi/denryoku_anzen/hoan_seido/pdf/011_02_00.pdf ; https://www.safety-hokkaido.meti.go.jp/download/denki_hoan/img/syokibo.pdf ; https://eei.or.jp/first-class/magazine_pdf/magazine_vol40.pdf?230331",
+     "existing": "One search for agent/app: none found. Not checked: 電気保安法人, O&M vendors.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "小規模事業用電気工作物 (10-50kW solar) notification and upkeep records",
+     "score": 3,
+     "status": "weak",
+     "trigger": "電気事業法 amendment in force 2023-03-20: 技術基準適合維持, 基礎情報 notice (existing non-FIT within 6 months), change/abolition notices, 使用前自己確認 (scope differs by source), name outsourced inspector",
+     "unchecked": "Whether any recurring filing exists beyond one-off notice; owner count; 使用前自己確認 scope; whether done by installers (low recurring need)."
+    },
+    {
+     "buyer": "Inspector offices (一級建築士) and owners of small hotels, inns and equipment",
+     "category": "33. Building periodic reports",
+     "evidence": "https://www.pref.nagano.lg.jp/kenchiku/infra/kensetsu/kakunin/tekihokoku.html ; https://www.mlit.go.jp/jutakukentiku/build/content/001860337.pdf ; https://www.city.nagoya.jp/jigyou/category/39-6-3-9-2-0-0-0-0-0.html",
+     "existing": "No competitor search run; no software seen.",
+     "known_id": "K11",
+     "known_mark": "new",
+     "known_note": "Adjacent to fire-equipment inspection rejection but a different duty (building inspection under 建築基準法)",
+     "name": "建築物定期報告 (12条) booking and report preparation for small hotel/inn owners and inspectors",
+     "score": 3,
+     "status": "weak",
+     "trigger": "建築基準法 art.12 定期報告, 2025-07-01 notice amendments; equipment/fire doors/lifts yearly, hotels about every 2 years in some prefectures",
+     "unchecked": "Inspector-side software, a reminder service for owners, thresholds and cycles by local authority, whether the 特定行政庁 e-filing systems do the heavy part."
+    },
+    {
+     "buyer": "Small care providers with revenue above 1M yen",
+     "category": "34. Care and welfare providers",
+     "evidence": "https://www.pref.kanagawa.jp/docs/u6s/cnt/f5351/f5351.html (fetched); https://www.pref.saitama.lg.jp/a0603/kaigo_keiei.html",
+     "existing": "Not searched.",
+     "known_id": "K18",
+     "known_mark": "new",
+     "known_note": "Adjacent to care-plan exchange rejection, but different duty",
+     "name": "介護 経営情報 report (suspended national system) prep service",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "介護保険法 art.115-44-2, report within 3 months of FY end since FY2024; MHLW system suspended for FYs ending March 2025 onward",
+     "unchecked": "Resume date; vendor coverage; whether care-record vendors already generate it; 処遇改善加算 実績報告 was not researched."
+    },
+    {
+     "buyer": "Registered 民泊 operators and managers",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.mlit.go.jp/kankocho/minpaku/business/system/regular_report.html ; https://www.pref.chiba.lg.jp/eishi/tetsuzuki/documents/teikihoukoku.pdf",
+     "existing": "Free 観光庁 電子宿泊者名簿 software creates the report CSV for upload to 民泊制度運営システム; no private agent seen. Free tool kills most of the need.",
+     "known_id": "K15",
+     "known_mark": "new",
+     "known_note": "Different duty from accommodation tax returns, same buyer group",
+     "name": "住宅宿泊事業 bimonthly 定期報告 helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "住宅宿泊事業法: report on 15th of even months per property, zero reports required, no correction after deadline",
+     "unchecked": "PMS vendors integrating CSV export"
+    },
+    {
+     "buyer": "Small 建設業許可 holders",
+     "category": "27. Construction, mining and quarry contractors",
+     "evidence": "https://www.pref.mie.lg.jp/common/content/001123211.pdf ; https://office-tree.jp/blog/construction/construction-annual-report-filing/",
+     "existing": "Free preparation software from 建設業情報管理センター and ワイズ公共データシステム; 行政書士 do the filing; Money Forward guide.",
+     "known_id": "K17",
+     "known_mark": "new",
+     "known_note": "Adjacent to CCUS only by buyer",
+     "name": "建設業 決算変更届 preparer",
+     "score": 2,
+     "status": "weak",
+     "trigger": "建設業法: 決算変更届 within 4 months of FY end, e-filing via JCIP with gBizID",
+     "unchecked": "Paid accounting-linked tools (not searched)"
+    },
+    {
+     "buyer": "Approved 特別加入団体 (associations of sole tradespeople)",
+     "category": "27. Construction, mining and quarry contractors",
+     "evidence": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/kanyu.html ; https://jsite.mhlw.go.jp/oita-roudoukyoku/content/contents/001877860.pdf",
+     "existing": "One search found no association management software (not conclusive).",
+     "known_id": "K17",
+     "known_mark": "new",
+     "known_note": "Same sector as CCUS but a different buyer",
+     "name": "一人親方 労災特別加入団体 member and report administration",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "労災保険 特別加入 via labour-bureau-approved organisations; reporting forms on 災害防止措置",
+     "unchecked": "Number of organisations; whether they already use a package; financial incentives; proceeds structure; 労働局 approval."
+    },
+    {
+     "buyer": "Small licensed 派遣元 offices",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://jsite.mhlw.go.jp/chiba-roudoukyoku/hourei_seido_tetsuzuki/hourei_youshikishu/download2011/haken/jukyu2602.html",
+     "existing": "Not searched; staffing SaaS very likely covers.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Adjacent to 特定技能 support-agency idea",
+     "name": "労働者派遣 annual 事業報告 / 収支決算 / 派遣割合 filing helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "労働者派遣法: 事業報告書 by 30 June, 収支決算書 and 割合報告 within 3 months of FY end",
+     "unchecked": "Competition; headcount"
+    },
+    {
+     "buyer": "Managers of 200+ units (mandatory registration) and voluntary registrants",
+     "category": "35. Rental housing managers",
+     "evidence": "https://www.mlit.go.jp/totikensangyo/const/content/001384019.pdf",
+     "existing": "Not searched; property-management SaaS likely",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "賃貸住宅管理業者 annual owner report and ledger",
+     "score": 2,
+     "status": "weak",
+     "trigger": "賃貸住宅管理業法 arts. 18, 20",
+     "unchecked": "Competition; registrant count"
+    },
+    {
+     "buyer": "Registered 毒物劇物 sellers (hardware stores, farm-supply, pharmacies)",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://www.pref.osaka.lg.jp/o100100/yakumu/dokugeki/dokutebiki.html ; https://www.city.kobe.lg.jp/documents/13592/dokugeki_koushin_cyousahyou.docx",
+     "existing": "Not searched",
+     "known_id": "K22",
+     "known_mark": "new",
+     "known_note": "Adjacent to chemical SDS rejection but a different duty",
+     "name": "毒物劇物 transfer ledger and renewal tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "毒劇法 art.14: record on each transfer, 5 years; sales registration renewal 6 years",
+     "unchecked": "Everything about competition and buyer pool"
+    },
+    {
+     "buyer": "Rice shops, 精米店, small rice traders",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://www.maff.go.jp/j/syouan/keikaku/beikoku/shinki.html ; https://www.pref.chiba.lg.jp/annou/kometore/kometr-seido.html",
+     "existing": "Existing delivery slips satisfy records; no software found",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "米穀 取引記録 (米トレサ) and 20t notification",
+     "score": 2,
+     "status": "weak",
+     "trigger": "米トレサ法 records (3 years) and origin info; 食糧法 notification from 20 精米トン/yr",
+     "unchecked": "2025-26 rice-market changes; vendor offerings"
+    },
+    {
+     "buyer": "Small family LPG dealers",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.zennichi.or.jp/2025/03/12/ (search result); https://www.meti.go.jp/shingikai/enecho/shigen_nenryo/sekiyu_gas/ekika_sekiyu/pdf/002_05_00.pdf",
+     "existing": "Not searched; LPG back-office systems likely",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "LPガス dealer price-disclosure and 書面 (art.14) pack",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "液石法 art.14 書面; 2024-07-02 amendments",
+     "unchecked": "Whether dealers must publish prices online; vendor coverage; dealer count"
+    },
+    {
+     "buyer": "Newly formed 労働者協同組合",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.pref.shizuoka.jp/sangyoshigoto/shuroshien/rodoseisaku/1003248/1026416.html",
+     "existing": "Not searched",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "労働者協同組合 決算関係書類 filing kit",
+     "score": 2,
+     "status": "weak",
+     "trigger": "within 2 weeks after the annual general meeting, to the prefecture",
+     "unchecked": "Number of cooperatives (likely small)"
+    },
+    {
+     "buyer": "Small seafood importers",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://www.pref.shizuoka.jp/sangyoshigoto/suisan/suisangyo/1043308.html",
+     "existing": "Not searched; customs brokers handle",
+     "known_id": "K14",
+     "known_mark": "new",
+     "known_note": "Adjacent to シラスウナギ rejection",
+     "name": "水産流通適正化法 import evidence file for 特定第二種",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Import of squid, saury, mackerel, pilchard requires 適法採捕証明書",
+     "unchecked": "Importer count; whether dealer notification exists"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "LPG only (揮発油販売業/gas stations not searched). 2024-07-02 液石法 amendments (excess sales-promotion limits, price info to prospective tenants of rental housing) apply to LPG dealers; 書面交付 (art.14). No statutory duty found for small dealers to publish price menu on own website (one search; a price-comparison site says no publication obligation). Nothing strong; cand C13 weak.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Rice only: 米トレサ法 requires records (品名/産地/数量/年月日/取引先, 3 years) and origin-info passing, no notification; 食糧法 notification for 20 精米トン/yr or more to 農政局. Existing delivery slips can serve as the record, so thin software need. Coffee/cocoa not applicable to Japan in a regulated-register sense.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Only 労働者協同組合 (2022 law) screened: 決算関係書類 to prefecture within 2 weeks of the general meeting; pool small. 事業協同組合/信用組合/農協 filings not confirmed (one search returned nothing on them): unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "医療法人 annual 事業報告書等 + per-facility 経営情報 report to prefecture within 3 months of FY end; from 2025-04-01 moved from G-MIS to new WAM NET-based 医療法人経営情報データベースシステム; TKC offers support; accountants handle. Care providers' 経営情報 report is suspended by MHLW (see 34). Receipt billing (レセプト) not searched: dominated by medical-claims vendors.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "毒物劇物 (毒劇法 art.14): transfer record 5 years, signed receipt from non-registered buyers, registration renewals 5y (mfr/import) or 6y (sales). Paper/Excel; no software found. Pharmacy 指定濫用防止医薬品 already known K24.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "労働者派遣: 事業報告書 (様式11) due 30 June each year per office, 収支決算書 and 派遣割合報告 within 3 months of FY end, e-Gov allowed; zero-result filing still required. No small-firm exemption. Security (警備業) and building-cleaning registers not searched: not reached. 特定技能/育成就労 already K04.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "建設業 決算変更届 (within 4 months of FY end, JCIP e-filing, gBizID) has free preparation software from 建設業情報管理センター and ワイズ公共データシステム (per 三重県). 一人親方 労災 特別加入団体 (labour-bureau-approved associations) screened: no software found. Mining/quarry not searched. CCUS is K17.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Strongest finding: all 宅建業者 asked (government 総合的対応策, R8.1) to complete a 犯収法 リスク評価書 within FY2026 using MLIT template; FATF 5th mutual evaluation of Japan in 2028; STR checklist revision planned Oct 2026; 確認記録/取引記録 kept 7 years; sale brokerage only (rental excluded); 2026-01 handbook 5th ed. Free MLIT template; no commercial tool found. 賃貸住宅管理業 (cand C35) also checked. 司法書士/行政書士 AML obligations exist (handbooks) but no tool search.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "住宅宿泊事業 (minpaku) bimonthly 定期報告 by 15th of even months, per property, zero reports required, no correction after deadline; MLIT/観光庁 free 電子宿泊者名簿 software creates the CSV. Accommodation tax is K15.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "水産流通適正化法: 特定第二種 (squid, saury, mackerel, pilchard) imports need flag-state 適法採捕証明書, no importer notification found; 特定第一種 シラスウナギ applied 2025-12-01 (K14); large Pacific bluefin from 2026-04-01. Clean Wood K13 rejected. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Animal handling businesses (第一種動物取扱業: pet shops, breeders, grooming, boarding, exhibitors) - 動物愛護管理法",
+     "found": "Per-animal ledger (dogs/cats individually, other species by breed) kept 5 years; annual 定期報告 1 April to 30 May to prefecture; electronic storage allowed; paper/Excel templates only seen. One search for software found none (unchecked beyond that).",
+     "status": "screened"
+    },
+    {
+     "category": "32. Small solar and wind owners (小規模事業用電気工作物, 10-50kW PV, <20kW wind) - 電気事業法 from 2023-03-20",
+     "found": "Owners must keep technical standards, file 基礎情報 notice (existing non-FIT within 6 months), file changes/abolition, name outsourced inspection party. No agent/app found in one search.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Building periodic reports (建築基準法12条 定期報告: hotels, inns, equipment, fire doors, lifts)",
+     "found": "Owners must have qualified inspectors report to the 特定行政庁; 2025-07-01 notice merged overlapping items and allows remote/sensor 'visual' checks; hotels/inns usually every 2 years (varies), equipment yearly; some cities accept e-filing. Report software not found; the buyer is the inspector offices.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Care and welfare providers (介護サービス事業者 経営情報 reporting, 介護保険法 art.115-44-2)",
+     "found": "All covered care providers must report within 3 months of FY end since FY2024 (exempt if care revenue <= 1M yen); MHLW system suspended since FYs ending March 2025 or later, no resume date (Kanagawa page updated 2026-06). Reporting needs gBizID. Revisit when reopened.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Rental housing managers (賃貸住宅管理業法 registration, 2021)",
+     "found": "Registration mandatory at 200+ units; annual owner report (art.20), ledger (art.18), segregated accounts, one 業務管理者 per office. Property-management SaaS presumably covers; not checked.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "LPガス販売事業者 書面交付 取引適正化 改正 液石法 中小 システム",
+    "米穀事業者 届出 米トレーサビリティ法 取引記録 令和7年",
+    "医療法人 経営情報 データベース 報告 義務 診療所 事業報告書",
+    "毒物劇物営業者 譲渡 書面 帳簿 保存 5年 登録 更新",
+    "労働者派遣事業 事業報告書 収支決算書 毎年6月 提出",
+    "一人親方 労災保険 特別加入団体 事務 システム",
+    "賃貸住宅管理業者 登録 事業報告 定期報告 業務管理者 帳簿",
+    "住宅宿泊事業 定期報告 2か月ごと 偶数月",
+    "水産流通適正化法 特定第二種 輸入 適法漁獲証明書 2025年12月",
+    "宅地建物取引業者 犯罪収益移転防止法 取引時確認 記録 7年 2026",
+    "第一種動物取扱業 年次報告 帳簿 マイクロチップ 管理ソフト",
+    "小規模事業用電気工作物 太陽光 届出 義務 保安規制",
+    "特定建築物 定期調査報告 建築設備 定期検査報告 小規模 ホテル 旅館",
+    "介護サービス事業者 経営情報 報告 義務 データベース 令和7年度",
+    "LPガス 料金情報 ホームページ 公表 義務 販売事業者",
+    "事業協同組合 労働者協同組合 決算関係書類 提出 都道府県",
+    "宅建業者 マネロン リスク評価書 作成 ツール 雛形 サービス",
+    "民泊 定期報告 自動 作成 ツール 民泊制度運営システム CSV",
+    "動物取扱業 犬猫 台帳 帳簿 ソフト 定期報告 ブリーダー",
+    "建設業 決算変更届 作成 ソフト JCIP; 医療法人 決算届 経営情報 代行 ソフト; 米トレーサビリティ 記録 ソフト; 小規模事業用電気工作物 届出 代行; 犯収法 リスク評価書 作成支援 クラウド (5 further queries)"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b12"
+ },
+ "gapfill:japan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small employers (family farms, restaurants, small factories, care homes) that hire 特定技能/技能実習/外国人 staff directly or via a support agency",
+     "category": "31. Foreign-worker and 外国人 employer/host duties",
+     "evidence": "https://office-tree.jp/blog/immigration/teiki-todokede-guide/ ; https://www.itmedia.co.jp/itselect/employment-management-system-for-foreigners/ ; https://www.moj.go.jp/isa/content/001434615.pdf",
+     "existing": "SMILEVISA, ビザマネ, Linkus (16,500 yen/month base plus 1,078 yen/person), irohana for 所属機関, かんべえ, RAKUVISA; free ISA e-filing system",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "育成就労/特定技能 direct-employer filings workbench (外国人雇用状況届出 + 受入れ機関 定期届出) for small farms, restaurants and factories",
+     "score": 3,
+     "status": "weak",
+     "trigger": "入管法 annual 定期届出 (due 5/31, 参考様式第3-6号, 30万円以下の罰金) plus 14-day 随時届出; Hello Work 外国人雇用状況届出 on hire/leave; 育成就労 from 2027-04-01",
+     "trigger_note": "",
+     "unchecked": "Whether small employers actually file themselves or hand it to 登録支援機関/行政書士; what 育成就労 adds for employers (rules not confirmed); real pricing of competitors for 1-5 worker firms"
+    },
+    {
+     "buyer": "Existing 監理団体 (mostly 事業協同組合 and small associations) that must obtain a new 監理支援機関 permit",
+     "category": "31. Foreign-worker and 外国人 employer/host duties",
+     "evidence": "https://office-tree.jp/blog/immigration/ikusei-shuro-kanri-shien-kikan/ ; https://dsg.or.jp/?p=20759",
+     "existing": "かんべえ (for 監理団体 and 登録支援機関); 行政書士 services; no permit-application-specific software found",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "監理支援機関 (育成就労) permit and conversion kit for 事業協同組合 / 監理団体",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "育成就労法 effective 2027-04-01: new permit needed, applications from 2026-04-15, pre-effective-date applications to 2027-03-31; new rules: external auditor, 2+ staff, max 8 employers per staff, no single-employer supervision",
+     "trigger_note": "One-off deadline that many small bodies face at once; same buyer family as K04 but the duty (permit) differs",
+     "unchecked": "Number of 監理団体 (likely a few thousand, not confirmed); window is short and one-off with a 2027-03-31 end; whether OTIT/ISA online filing exists; competitor search found only かんべえ"
+    },
+    {
+     "buyer": "Garages, restaurants, clinics, small factories and builders that issue paper industrial-waste manifests (no size exemption)",
+     "category": "36. Environmental and safety-law small-site duties",
+     "evidence": "https://www.city.funabashi.lg.jp/jigyou/haikibutsu/009/p001194.html ; https://www.city.kobe.lg.jp/a66958/business/kankyotaisaku/industry/manifestokofu.html ; https://www.pref.tochigi.lg.jp/d05/eco/haikibutsu/haikibutsu/documents/20240403112423.pdf",
+     "existing": "Free prefecture Excel templates and guides (Mie, Akita, Tochigi); JWNET electronic manifests remove the duty; no dedicated commercial generator found in one search (named vendors not checked)",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "Paper-manifest 交付等状況報告書 (6/30) generator for small 排出事業者",
+     "score": 3,
+     "status": "weak",
+     "trigger": "廃棄物処理法 12-3(7): annual report per site by 6/30 to the prefecture or designated city; penalties under s.27-2",
+     "trigger_note": "Different buyer from K02 (generators, not intermediate processors)",
+     "unchecked": "Whether waste haulers or 産廃 admin packages already offer the report; number of firms still using paper; likely very low willingness to pay for one report a year; could be sold through 収集運搬 haulers as a customer service"
+    },
+    {
+     "buyer": "Small clinics and dental offices billing insurers",
+     "category": "34. Medical, dental and nursing small offices",
+     "evidence": "https://kouseikyoku.mhlw.go.jp/tokaihokuriku/newpage_00811.html ; https://kouseikyoku.mhlw.go.jp/kyushu/000411818.pdf",
+     "existing": "Not checked: receipt-computer and electronic-chart vendors almost certainly handle these; consultant-run 診療報酬 services",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "施設基準 定例報告 / 医療DX推進体制整備加算 notifications for small clinics",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "保険医療機関 施設基準 notifications to the regional health bureau (医療DX加算, re-notification by 2025-04-04, rule changes 2025-10-01); annual July 定例報告 is not confirmed",
+     "trigger_note": "",
+     "unchecked": "Whether 定例報告 exists and its date; who does the notification (clinic staff vs vendor vs 医事 contractors); competitor search not run"
+    },
+    {
+     "buyer": "Clinics, midwives and pharmacies, especially older solo practitioners",
+     "category": "34. Medical, dental and nursing small offices",
+     "evidence": "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/057/543/20251212kanimanyuaru.pdf ; https://www.pref.saitama.lg.jp/a0707/y-kinou.html ; https://www.pref.aichi.jp/soshiki/iyaku/kinoujyouhouteikihoukoku.html",
+     "existing": "Free G-MIS with prior-year pre-fill, prefecture manuals, and prefecture staff keying paper returns (Shiga); outsourcing allowed unclear",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "医療機能情報 / 薬局機能情報 annual G-MIS report proxy service",
+     "score": 2,
+     "status": "weak",
+     "trigger": "医療法 s.6-3 annual report (as of 1/1) and 薬機法 s.8-2 annual report (as of 12/31, due Feb-Mar), both via G-MIS; unchanged data must still be filed",
+     "trigger_note": "",
+     "unchecked": "Whether G-MIS credentials can be delegated; fee-based filing agents; but killer is the free pre-filled state tool and one entry per year"
+    },
+    {
+     "buyer": "About 340k white-plate small firms (5+ cars or 11+ seat vehicle)",
+     "category": "35. Taxi, 運転代行 and white-plate transport duties",
+     "evidence": "https://www.freee.co.jp/kb/kb-license/mandatory-alcohol-testing/ ; https://boxil.jp/mag/a11336/ ; https://www.irisohyama.co.jp/b2b/itrends/articles/3522/",
+     "existing": "Many apps and free apps in three types (record-only, vehicle management, 点呼 integrated), SoftBank Anzen Keeper, Tokai Denshi, Apple-store 点呼システム apps",
+     "known_id": "K25",
+     "known_mark": "known",
+     "name": "White-plate 安全運転管理者 alcohol-check record apps",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "道路交通法 2022-04 / 2023-12 alcohol detector checks, records kept 1 year",
+     "trigger_note": "Same duty family as rejected K25 (light-freight 点呼 apps)",
+     "unchecked": "Detector-bundle resale angle not checked"
+    },
+    {
+     "buyer": "自動車運転代行業 operators (small, often one-to-few car firms in nightlife areas)",
+     "category": "35. Taxi, 運転代行 and white-plate transport duties",
+     "evidence": "https://www.pref.saitama.lg.jp/documents/280249/7_jisyutenkenhyou20260310.pdf ; https://www.pref.shizuoka.jp/police/shinse/kotsu/daiko/junshu.html ; https://office-tree.jp/blog/vehicle/unten-daiko-nintei-yoken/",
+     "existing": "None found; no recurring ledger or report duty confirmed in search results",
+     "known_id": "K26",
+     "known_mark": "new",
+     "name": "運転代行業 operators' compliance (認定, insurance, markings, tariffs)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "運転代行業法 prefectural public-safety-commission 認定; compulsory insurance; 随伴用自動車 markings; 約款 display",
+     "trigger_note": "Not checked beyond one search",
+     "unchecked": "Whether a recurring filing or ledger duty exists (annual self-inspection table exists in Saitama); operator count; association role"
+    },
+    {
+     "buyer": "Small rice and field-crop farmers (and part-time farmers) applying through 地域農業再生協議会",
+     "category": "32. Agricultural, fishery and forestry small operators",
+     "evidence": "https://www.maff.go.jp/kyusyu/seiryuu/nosan/kobetu_hosyou/index.html ; https://www.city.fukuyama.hiroshima.jp/uploaded/attachment/314441.pdf ; https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/055/173/R8kisai_yoryo.pdf",
+     "existing": "Free eMAFF申請 (GビズID), councils and JA do the filing and cities are adding AI reading of the plan; no commercial assistant found",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "経営所得安定対策 / 水田活用交付金 営農計画書 and application assistant for small farms",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Annual application (R8: 4/1-6/30); eMAFF 2.0 renewal from 2026-10; paddy-flooding rule scrapped from FY2027 with removal of never-cultivated paddies from eligibility",
+     "trigger_note": "",
+     "unchecked": "Whether JA/VAR-type farm software or 行政書士 already sells filing help; farmer willingness to pay; eMAFF 2.0 agent-filing rules (PDF fetch failed)"
+    },
+    {
+     "buyer": "Small private forest owners, forestry contractors and 森林組合 clients",
+     "category": "32. Agricultural, fishery and forestry small operators",
+     "evidence": "https://www.city.shizuoka.lg.jp/s8937/s003984.html ; https://www.pref.kyoto.jp/rinmu/bassai/keieikeikaku.html ; https://www.pref.tokushima.lg.jp/file/attachment/1061850.pdf",
+     "existing": "Prefecture 森林クラウド (lookup of whether a notice is needed), some prefecture online forms; 森林組合 handle filing; no private tool found",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "伐採及び伐採後の造林の届出 and status reports for small forest owners / loggers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "森林法 felling notice 90-30 days before, status reports within 30 days of felling and of replanting; fine up to 1.5m yen (one city source); 森林経営計画 post-felling notices",
+     "trigger_note": "",
+     "unchecked": "Owner count and who files in practice; municipal e-forms vary; low WTP"
+    },
+    {
+     "buyer": "Licensed small-scale fishers and 漁協 (TAC species landing reports electronic within 3 days of landing)",
+     "category": "32. Agricultural, fishery and forestry small operators",
+     "evidence": "https://www.pref.hiroshima.lg.jp/soshiki/88/gyokakuhoukoku.html ; https://www.pref.shimane.lg.jp/industry/suisan/kanri/iji/houkokugimu.data/sekoukisokubassui.pdf ; https://fra.repo.nii.ac.jp/record/2009924/files/fra_an_2020_14.pdf",
+     "existing": "Only FRA research prototypes found; the Fisheries Agency's own reporting system and 漁協 intermediation were not checked",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "漁獲成績報告書 / TAC catch reporting app for coastal fishers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "漁業法 catch reporting (compulsory for licence holders since 2020-12; TAC species e-reporting rules)",
+     "trigger_note": "Buyer is the state-run channel, procurement risk",
+     "unchecked": "Government reporting channel and whether 漁協 submit on behalf; fisher count; WTP"
+    },
+    {
+     "buyer": "Izakaya, bento shops, bakeries and small food manufacturers",
+     "category": "33. Food businesses under 2021 HACCP regime",
+     "evidence": "https://www.aspicjapan.org/asu/service/list/hac ; https://apps.apple.com/jp/app/id1610846802 ; https://www.pref.osaka.lg.jp/o100170/eiseika.html",
+     "existing": "簡単HACCP (free), Sendai city HACCP web app (free), HACCP記録管理for1, チノー 温度記録アプリ2, Saraya GRASP-HACCP, ManGo",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "HACCP 衛生管理計画 record apps and 営業届出 for small food firms",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "食品衛生法 2021-06 HACCP duty (plan plus records), 営業届出 via the 食品衛生申請等システム",
+     "trigger_note": "",
+     "unchecked": "食品表示法 allergen/origin labelling software was not checked"
+    },
+    {
+     "buyer": "Small tenants (restaurants, clinics, shops) with 30+ occupants",
+     "category": "36. Environmental and safety-law small-site duties",
+     "evidence": "https://www.tfd.metro.tokyo.lg.jp/content/000074319.pdf ; https://www.city.kumamoto.jp/kiji0031580/index.html ; https://hojokin-agent.jp/permit/bouka-kanrisha-sennin",
+     "existing": "Fire HQ templates (Tokyo small-site 消防計画); 行政書士 services (fee 5-10万円 from one agency site, unverified); no software found in one search",
+     "known_id": "K11",
+     "known_mark": "known",
+     "name": "防火管理者 選任届 and 消防計画 pack for small restaurants and tenants",
+     "score": 2,
+     "status": "weak",
+     "trigger": "消防法 防火管理者 appointment notice and 消防計画 filed with the fire HQ; periodic 防火対象物 点検報告 by use",
+     "trigger_note": "Same area as rejected K11 (fire equipment inspection)",
+     "unchecked": "One-off filing, so low recurrence; 電子申請 availability varies by fire HQ"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31. Foreign-worker and 外国人 employer/host duties (2024-2027 law changes)",
+     "found": "Two filings: (a) 外国人雇用状況届出 to Hello Work (labour law, on hire/leave); (b) 特定技能 受入れ機関 filings to ISA: ad hoc within 14 days plus ONE annual 定期届出 (changed from quarterly by 2025-04 ordinance; period 4/1-3/31, due 5/31; first run 2026-04-01 to 05-31; next due 2027-05-31; form 参考様式第3-6号; penalty up to 300k yen under 入管法71-4; e-filing or paper). 育成就労 starts 2027-04-01; its employer-side filing rules not confirmed. Competitors for direct employers already exist: SMILEVISA, ビザマネ (Hello Work data output), irohana for 所属機関, Linkus (base 16,500 yen/month + 1,078 yen/person/month), かんべえ (for 監理団体/登録支援機関), RAKUVISA. Also new 監理支援機関 permit: current 監理団体 permits do not carry over; applications opened 2026-04-15 and pre-effective-date applications run to 2027-03-31; 9/30 target for day-one start already passed; new requirements include external auditor, 2+ staff, max 8 firms per staff. Related to K04.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Agricultural, fishery and forestry small operators on state programmes",
+     "found": "Farm side: 経営所得安定対策 / 水田活用交付金 applications go via 地域農業再生協議会 and JA, with 営農計画書; eMAFF申請 is being renewed from 2026-10 (staged, GビズID needed); 5-year paddy-flooding rule scrapped from FY2027 (R9) with paddies never used in R4-R8 dropping out of eligibility; some cities now AI-read the 営農計画書 (Morioka R8). 農地法 duties: annual 利用状況調査 (done by commissioners), 利用意向調査 for idle land, 10-month 相続 農地 notification, 地域計画 intention surveys. Fishery: 漁獲成績報告書 required for licensed fishers since 2020-12 (prefecture-run, e.g. Hiroshima; e-file on request); TAC species landing reports within 3 days electronic. Only research prototypes (FRA) found for catch-report apps; no commercial product found. Forestry: 伐採及び伐採後の造林の届出 90-30 days before felling plus two 30-day status reports, to municipality, fine up to 1.5m yen (one city page); 森林経営計画 owners file post-felling notice; paper/municipal e-forms vary by prefecture. Nothing strong: free eMAFF, JA and 協議会 do the filing and the buyers have low willingness to pay.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Food businesses under 2021 HACCP regime and 食品衛生法 filings",
+     "found": "Since 2021-06-01 all food operators need a hygiene plan and records (small operators under 50 staff may use the lighter 'HACCP concept' version with trade-association guides). 営業届出 and permits can be filed online (厚労省 食品衛生申請等システム). Many free or cheap record apps already exist: 簡単HACCP (Suzuka Mirai, free), Sendai city HACCP web app (free), HACCP記録管理for1, チノー 温度記録アプリ2, Saraya GRASP-HACCP and ManGo (paid, with thermometers). ASPIC lists 4 paid services. Crowded and the state/prefecture supplies free templates, so rejected as an opportunity.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Medical, dental and nursing small offices: filings and annual reports",
+     "found": "Clinics/hospitals/midwives report annually (as of 1 Jan) under 医療法 s.6-3 via G-MIS (医療機能情報提供制度 定期報告); G-MIS pre-fills prior-year data from claims, and prefectures such as Shiga key in paper returns for clinics without internet. 2025: かかりつけ医機能報告 started and feeds the periodic report. Pharmacies report 薬局機能情報 annually (薬機法 s.8-2; as of 12/31, due Feb-Mar by prefecture, via G-MIS, unchanged data still must be reported). 2026-05 薬機法 change is about 指定濫用防止医薬品 sales (already K24). 保険医療機関: 医療DX推進体制整備加算 needs a 施設基準 notification to the regional bureau (re-notification needed by 2025-04-04; 2025-10-01 rule changes; 加算4 uses 45% マイナ保険証 usage 3 months back). An annual July 施設基準 定例報告 could not be confirmed on the fetched page. State tool G-MIS plus electronic-chart/receipt-computer vendors likely cover most of it.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Taxi, 運転代行 and white-plate transport duties (2024-2026), 運行管理/点呼",
+     "found": "White-plate firms with 5+ cars or an 11+ seat vehicle must appoint a 安全運転管理者 and do alcohol checks with a detector (mandatory since 2023-12); records kept 1 year, paper or digital. Many apps and vendors exist (freee guide, Iris Ohyama, 点呼 apps, SoftBank Anzen Keeper, Tokai Denshi) and free apps cover simple records; same logic as rejected K25/K26. 運転代行業: licence is a prefectural public-safety-commission 認定; compulsory insurance (8,000万円 per person, 200万円 property), vehicle markings, tariff display, 第二種 licence for drivers. No recurring filing or ledger duty confirmed in search results; no software found.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Environmental and safety-law small-site duties: 産廃 排出事業者 manifest reports, 防火管理者",
+     "found": "Any 排出事業者 who issued paper manifests must file a 産業廃棄物管理票交付等状況報告書 per site by 6/30 for the prior fiscal year (廃棄物処理法 12-3(7)), to the prefecture or designated city, with no small-firm exemption; electronic (JWNET) manifests are reported by the 情報処理センター, so no filing for those. Penalty up to 1 year or 1m yen (27-2), plus public naming. Forms are prefecture Excel templates (Mie, Akita, Tochigi, Kobe); no commercial report-generation software was found in one search. 防火管理者 選任届 and 消防計画: needed for premises with 30+ occupants (restaurants); one-off filing with fire HQ, typically done by 行政書士 or self from Tokyo Fire Dept templates; periodic inspection reports vary by use. No software found in one search. Related K11 (rejected) and K02.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "外国人雇用状況の届出 特定技能 受入れ機関 定期届出 育成就労 中小企業 2027",
+    "経営所得安定対策 申請 書類 小規模農家 代行 アプリ",
+    "HACCP 衛生管理計画 記録 小規模事業者 アプリ 食品衛生申請等システム 営業届出",
+    "医療機能情報提供制度 定期報告 診療所 病床機能報告 毎年 入力 代行",
+    "安全運転管理者 アルコールチェック 記録 保存1年 白ナンバー 中小企業 アプリ",
+    "産業廃棄物管理票交付等状況報告書 提出 6月30日 排出事業者 紙マニフェスト 小規模",
+    "特定技能 受入れ機関 定期届出 作成 クラウド システム 外国人雇用状況届出 自動",
+    "農地 利用状況調査 利用意向調査 農業委員会 農地台帳 小規模農家 負担 2025 農地法 改正",
+    "漁獲成績報告書 漁業者 義務 提出 電子 小規模漁業 資源管理 漁獲報告 アプリ",
+    "HACCP 記録 アプリ 飲食店 衛生管理計画 クラウド 無料 手書き 温度管理",
+    "薬局機能情報 定期報告 薬局 毎年 報告 薬機法 改正 薬局 届出 2026 義務",
+    "防火管理者 選任届 消防計画 作成 防火対象物 点検報告 小規模 飲食店 代行 ソフト",
+    "産業廃棄物管理票交付等状況報告書 作成 ソフト 自動作成 エクセル 紙マニフェスト 集計 サービス",
+    "監理支援機関 許可 事業協同組合 育成就労 2027 準備 小規模 監理団体 移行 申請 システム",
+    "伐採及び伐採後の造林の届出 森林経営計画 森林所有者 小規模 電子申請 システム 森林クラウド",
+    "施設基準 定例報告 毎年7月 診療所 地方厚生局 医療DX推進体制整備加算 届出 報告 代行",
+    "運転代行業 認定 事業者 義務 報告 随伴用自動車 保険 帳簿 業務 記録 運転代行 管理 システム",
+    "営農計画書 作成 地域農業再生協議会 システム 農家 提出 eMAFF 水田 交付金 2026 新制度"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b12"
+ },
+ "opus:japan:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no dedicated Japanese commercial product in vendor searches for 定期報告/防火設備/昇降機 report software (whether any exists was not fully checked). Partial substitutes: Kyoto city's free 入力支援ファイル (an Excel kit that prints the 防火設備 report); municipal Word/Excel forms; municipal e-filing portals (せんだいオンライン申請サービス, 千葉市電子申請, e-KOBE, Nagoya, Toyama; Tokyo electronic intake since 2024); and generic inspection photo apps (Asahi Sogo's インスペクションマネージャー). I assume, without checking, that inspectors and lift maintenance firms already handle reporting for owners.",
+   "duty": "建築基準法 s.12(1) and (3): owners or managers of designated buildings, building equipment, 防火設備 and lifts must have a qualified person (一級/二級建築士, 特定建築物調査員, 建築設備/防火設備/昇降機等検査員) inspect them and report to the 特定行政庁. Buildings are generally every 3 years and equipment, fire doors and lifts generally every year; schedules vary by city. Penalty under Art.101 is a fine of up to ¥1m. The latest notice revision changes the inspection items, and Fukushima city adds 建築設備 reporting from 2026-04-01. Sources: Osaka and Gunma prefectures, Tokyo, Fukushima city.",
+   "market": "I found no national count of buildings or equipment that must report. The buyers are the many independent inspectors (建築士 offices, small 防火設備 inspection firms) plus owners of hotels, hospitals, shops and other 特殊建築物 above the size thresholds. The figure is unverified.",
+   "reason": "The duty is real and in force. Under 建築基準法 s.12, owners (or managers, where they differ) must have qualified inspectors check the building and report to the 特定行政庁. Buildings are generally reported every 3 years; 防火設備 and other equipment are generally annual. Article 101 sets a fine of up to ¥1m. Six searches found no Japanese commercial report-kit product, but Kyoto city gives away a free input-support file, and some cities, including Sendai, Chiba, Kobe and Nagoya, take filings through online portals. Owner pain is low: cities send notices, and in practice the qualified inspectors (and lift maintenance firms, an inference not checked) prepare the reports and usually file them. That makes the realistic buyer a niche of inspectors. Forms differ by city and were revised in 2025–26.",
+   "searches": 6,
+   "sources": "https://www.pref.osaka.lg.jp/kenshi_anzen/teiho/index.html ; https://www.pref.gunma.jp/uploaded/attachment/657610.pdf ; https://www.toshiseibi.metro.tokyo.lg.jp/kenchiku/chousa-houkoku/ch_01.html ; https://www.city.fukushima.fukushima.jp/material/files/group/63/teikihoukoku_kaisei.pdf ; https://www.city.kyoto.lg.jp/tokei/cmsfiles/contents/0000200/200282/R7_kaisetsu_bouka.pdf ; https://www.city.sendai.jp/kenchikushido-shido/dennshi-shinnsei.html ; https://www.city.nagoya.jp/jutakutoshi/cmsfiles/contents/0000169/169747/teiho_denshi_tebiki202504.pdf ; https://www.pref.ibaraki.jp/doboku/kenshi/kenchiku/kenchiku/teikihokoku/teikihokoku.html ; https://apps.apple.com/us/app/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC/id1405494100",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b12"
+ },
+ "opus:japan:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "For the リスク評価書, MLIT publishes a free 作成要領, Word template and sample. 全日 adds an Excel リスク評価総括表, a 作成ガイド (1st ed.) and a sample with guidance comments, all free to members. RETPC publishes a handbook with sample 確認記録 forms. Three Japanese searches for a commercial tool or writing service found none. For 取引時確認, the eKYC service TRUSTDOCK is built into the real-estate platform PICKFORM. I did not check whether real-estate CRMs such as いえらぶ include AML modules.",
+   "duty": "Under 犯収法, 宅建業者 doing sales or brokerage are 特定事業者. They must carry out 取引時確認, keep 確認記録 and 取引記録 for 7 years, and file STRs (suspicious transaction reports). The MLIT リスク評価書 template is framed as a 特定事業者作成書面 under 犯収法 Art.11(4) and 施行規則 Art.32. I believe Art.11 is an effort duty (努めなければならない), but I could not confirm that or the penalty rules against e-Gov; not reached. The government's 総合的対応策 of 2026-01-23 sets a goal that all 宅建業者 finish the リスク評価書 in FY2026 (by March 2027). 全日 describes this as a request with no penalty and runs quarterly completion surveys of its members. No completion-rate figures are published. The document is refreshed only when the business or the national risk assessment changes. A 施行規則 revision taking effect April 2027 abolishes the photo-upload (ホ) and mailed-copy (リ) ID methods, leaving JPKI and IC-chip reading as standard (reported by cio.com/ascii; not checked against the official text).",
+   "market": "MLIT's survey of how the 宅建業法 is applied (published 2026-10-02) counts 133,727 宅建業者 at end-FY2025 (3,238 with a national licence, 130,489 with a prefectural licence), up 1.1%. Firms that only broker rentals are outside the 特定取引 scope, so the number with the duty is lower. I did not find a breakdown or the share of firms still without an assessment.",
+   "reason": "The duty is real, but it is a weak buyer trigger. Under 犯収法, 宅建業者 must do 取引時確認 and keep records for 7 years. The リスク評価書 rests on Art.11(4) and 施行規則 Art.32, which I understand to be an effort duty (not confirmed against the statute). The government target is that every firm finishes one in FY2026. 全日 calls this a request with no penalty and checks progress by quarterly surveys. I found no commercial リスク評価書 tool. MLIT and 全日 give away a template, a sample, an Excel summary sheet and a guide, so firms have little reason to pay. Most of the work is one-off, with refreshes only when things change. eKYC vendors such as TRUSTDOCK inside PICKFORM already cover ID checks. The rule change in April 2027 (JPKI/IC chip ID checks) helps eKYC vendors more than a template kit.",
+   "searches": 6,
+   "sources": "https://www.zennichi.or.jp/2026/07/14/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E7%8A%AF%E7%BD%AA%E5%8F%8E%E7%9B%8A%E7%A7%BB%E8%BB%A2%E9%98%B2%E6%AD%A2%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E3%80%8C%E3%83%AA%E3%82%B9%E3%82%AF%E8%A9%95/ ; https://www.mlit.go.jp/totikensangyo/const/content/001984612.pdf ; https://www.mlit.go.jp/report/press/content/002025406.pdf ; https://www.retpc.jp/wp-content/uploads/hansya/pdf/amlctf_hdbk.pdf ; https://www.juutakuseisaku.metro.tokyo.lg.jp/juutaku_seisaku/pdf/tokyo_douga_2310_05.pdf ; https://ascii.jp/elem/000/004/328/4328170/ ; https://www.cio.com/article/4035461/%E7%8A%AF%E5%8F%8E%E6%B3%95%E6%96%BD%E8%A1%8C%E8%A6%8F%E5%89%87%E6%94%B9%E6%AD%A3%E3%81%A7%E6%9C%AC%E4%BA%BA%E7%A2%BA%E8%AA%8D%E3%81%AE%E4%BD%95%E3%81%8C%E5%A4%89%E3%82%8F%E3%82%8B%E3%81%AE%E3%81%8B.html",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b12"
+ },
+ "opus:japan:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Japanese software found that produces the 帳簿 or the 定期報告 form. Seen: foreign breeder software (BreederHQ, Breeder Cloud Pro, Cattery Manager, Husbandry.Pro) with no Japanese report format; general pet-shop POS and system write-ups (aurant-technologies) and a kintone do-it-yourself guide for pet shops. Prefectures provide free Excel ledger and report templates (Saitama, Ibaraki, Tokyo, Sakai, Kyoto), and Tokyo and Saitama accept LoGo form e-filing. Microchip registration goes through the free national 環境省 portal. Not checked: ledger features inside large chain POS systems (for example in-house systems at big pet-shop chains).",
+   "duty": "Animal Welfare Act (動物愛護管理法) as amended, in force since 2020-06-01. Businesses registered for sale, rental, exhibition or 譲受飼養 (動物販売業者等) must: (a) keep a ledger for 5 years, per animal for dogs and cats and per breed for other mammals, birds and reptiles. It records breed, breeder, birth date, acquisition, sale or handover, the face-to-face explanation given to buyers, death date and cause, and so on. Electronic records are allowed. (b) File an annual 定期報告 from 1 April to 30 May covering the previous fiscal year: animals held at the start, new animals each month, sales and deaths each month, and animals held at year end. It is filed with the registering prefecture or designated city by e-filing (LoGo form in Tokyo and Saitama), post or counter. Since 2022-06-01, dog and cat sellers must also microchip each animal and register it on the national Ministry of the Environment (環境省) site within 30 days or before handover, whichever comes first. The fees reported are ¥400 online and ¥1,400 on paper; this comes from a prefectural page I did not open. The penalty amount was not checked (not_reached). Registration can be refused or cancelled for violations under the Act's general enforcement rules, also not verified in this session.",
+   "market": "I did not get a national total. The Ministry of the Environment 行政事務提要 summary table PDF (r02 2_1_1) could not be parsed. Regional figures: Kanagawa has 1,504 registered type-1 facilities as of 2026-03-31; Okayama had 425 in FY2025, about half of them sales businesses. Scaling up by population suggests tens of thousands of facilities nationwide, but this is not verified. Only the sale, rental, exhibition and 譲受飼養 categories carry the ledger and report duty; boarding and training do not.",
+   "reason": "Confirmed: the duty is real and in force, and no Japanese product doing this job was found. Since the 2020-06-01 amendment to 動物愛護管理法, 動物販売業者等 (sale, rental, exhibition and 譲受飼養) must keep ledgers for 5 years (per animal for dogs and cats, per breed for other animals; electronic records allowed). They must file a 定期報告 with monthly counts of animals held, sold and dead between 1 April and 30 May. Six Japanese and English searches turned up only foreign breeder apps (BreederHQ, Breeder Cloud Pro, Cattery Manager), general pet-shop POS and kintone build-it-yourself guides, plus free prefectural Excel templates. Tokyo and Saitama accept LoGo e-filing. The weak points: the report is once a year and is simple counting from a free template, small breeders are unlikely to pay much, and the microchip registration site is a separate state portal.",
+   "searches": 6,
+   "sources": "https://www.pref.kyoto.jp/doubutsu/documents/dai1doutori.pdf; https://www.pref.saitama.lg.jp/a0706/doubutu-touroku/teikihoukoku.html; https://www.pref.saitama.lg.jp/a0706/doubutu-touroku/toriatukai-choubo.html; https://www.pref.ibaraki.jp/hokenfukushi/doshise/aigo/tyoubo-teikihoukoku.html; https://www.hokeniryo.metro.tokyo.lg.jp/douso/dt_gyou/doubutuhanbaigyoushatou.html; https://www.pref.kanagawa.jp/docs/e8z/doubutsu_toukei/toriatukaigyou.html; https://www.pref.okayama.jp/uploaded/life/994824_9642554_misc.pdf; https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/gyosei-jimu_r02.html; https://www.env.go.jp/nature/dobutsu/aigo/1_law/trader.html; https://www.pref.mie.lg.jp/SHOKUSEI/HP/p0015300021.htm; https://www.g2.com/products/breederhq/discuss; https://www.getapp.com/sales-software/a/breeder-cloud-pro/; https://aurant-technologies.com/blog/kintone-pet-shop-management/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b12"
+ },
+ "sonnet:japan:A16": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The amended 貨物自動車運送事業法 was promulgated 2025-06-11. It adds a 5-year permit renewal, new permit standards and a 適正原価 duty, to start by政令 within 3 years of promulgation (by about June 2028). Search summaries say no start date was set as of Aug 2026. I did not confirm the penalty. MLIT held its first 適正原価検討会 on 2026-07-17, aiming to summarise by year-end. The 4-2026 parts (limits on subcontracting tiers, written-contract duties) are separate. Searches found no renewal-filing or 適正原価 tool. The market is large (my recollection is about 60k operators, not sourced), but the first renewal cycle is not yet running, the rules are not final, and trucking associations and 行政書士 offices are likely to serve this need. Timing risk is high and willingness to pay is unproven.",
+   "searches": 2,
+   "sources": "https://stockcrew.co.jp/insights/article_jiji_tekisei_genka_kentoukai_2026-07-31 ; https://www.logi-today.com/993013 ; https://www.tokio-dr.jp/publication/column/209.html ; https://www.mlit.go.jp/jidosha/content/001977217.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b12"
+ },
+ "sonnet:japan:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The Water Supply Act requires owners of 簡易専用水道 (receiving tank over 10 m3) to have a registered body inspect them once a year and to clean tanks at least yearly. Municipal guides say penalties can apply for missed inspections. The duty is now under MLIT (a Tochigi report says the competent ministry moved from MHLW to MLIT in FY2024). I found no dedicated reminder or management software in 4 searches, but this is weak evidence of absence. Owners are mostly condominium associations and landlords, and management companies, cleaning firms and inspection bodies already schedule this work. National facility count not found. Nagano alone had about 2,300 facilities (FY2018), so the national total is probably in the hundreds of thousands. Low pain, a thin standalone product and weak willingness to pay.",
+   "searches": 4,
+   "sources": "https://www.city.minato.tokyo.jp/seikatsueiseisoudan/kannisennyousuidou.html ; https://www.pref.wakayama.lg.jp/prefg/130600/hukushi/eisei/kansensui.html ; https://www.pref.nagano.lg.jp/seikatsuhaisui/infra/suido-denki/suido/anzen/tokei/documents/30_33.pdf ; https://tochigi-health.or.jp/wp/wp-content/themes/tochigi-health/documents/outline/annual_report_R6/R6_40.pdf ; https://www.city.machida.tokyo.jp/iryo/hokenjo/kankyou/suidou/kansensui.files/kansensui.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b12"
+ },
+ "sonnet:japan:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Under 職業安定法 s.32-16, every 職業紹介 office files 様式第8号 each year between 4/1 and 4/30, nil returns included. It can be filed on Excel by post or through e-Gov. The 令和7年度 report was due 2026-04-30, and the next is due 2027-04-30. Penalties are corrective guidance, improvement orders and business-suspension orders. I did not independently confirm the Hyogo suspension case. Competition: I found no product that auto-fills 様式第8号. ATS reviews (matchingood, HRビジネスクラウド) only mention bulk export at year end. Market: about 3,500 paid-placement offices in Osaka alone and about 2,300 in Aichi, so tens of thousands nationally, but I did not get the national figure. Weakness: filing happens once a year, the form is a simple Excel, and the existing ATS tools already export the data. Willingness to pay is low, so this is a feature, not a product.",
+   "searches": 4,
+   "sources": "https://jsite.mhlw.go.jp/yamaguchi-roudoukyoku/hourei_seido_tetsuzuki/roudousha_haken/shinsei_youshiki_00002.html ; https://jsite.mhlw.go.jp/hiroshima-roudoukyoku/hourei_seido_tetsuzuki/yuryou_muryou_shokugyou/houkokusho_001.html ; https://jsite.mhlw.go.jp/shizuoka-roudoukyoku/content/contents/001747947.pdf ; https://www.itreview.jp/products/matchingood/reviews/209859 ; https://jsite.mhlw.go.jp/osaka-roudoukyoku/content/contents/002812016.pdf ; https://jsite.mhlw.go.jp/aichi-roudoukyoku/content/contents/002552298.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b12"
+ },
+ "sonnet:japan:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is partly confirmed. Per MIC (2023-09-13 notice, soumu.go.jp), the 墓埋法施行規則 requires cemetery managers to keep a ledger of users' names and addresses. This ledger duty is a one-time record-keeping requirement, not a recurring filing. Capturing heir (縁故者) details is only a MIC recommendation, aimed at municipal cemeteries. I did not confirm that it binds private or temple cemeteries, and I did not open the claimed April 2026 summary. Competition is not settled: my searches found only municipal systems (Mitsubishi Electric, Matsue, Kurume, Komatsu tenders) and foreign tools. They surfaced no temple-specific 檀家管理 product, but the searches were weak and Japanese vendors probably exist. Market size was not checked. Willingness to pay among temples is unknown, there is no deadline or penalty pressure, and buyers are fragmented, so the score stays low.",
+   "searches": 3,
+   "sources": "https://www.soumu.go.jp/menu_news/s-news/hyouka_230913000167928.html ; https://www.city.kurume.fukuoka.jp/1090sangyou/2010nyuusatsu/3100bid/files/bochisystem_shiyousho.pdf ; https://www.city.komatsu.lg.jp/material/files/group/9/20260730-boti-siyousyo.pdf ; https://www.giho.mitsubishielectric.co.jp/giho/pdf/2018/1808112.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b12"
+ },
+ "sonnet:japan:A9": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Under the Automobile Recycling Act (Art. 81), dismantlers must file a 移動報告 on the 自動車リサイクルシステム for each vehicle or part transfer, and must register on that system. Their licence is a prefectural one that needs renewal every 5 years. I did not find the penalty. The government system is free and has PC and FAX entry. I found no vertical product that combines parts inventory, sales and report feed. Vendor searches were thin, so competition is unverified. Industry stock-sharing networks exist (All Recycle Parts Network, 2023). Market is only about 4,000 dismantlers (a METI table; column meaning unclear). The pool is small, shrinking and often served by trade groups. That limits willingness to pay.",
+   "searches": 4,
+   "sources": "https://www.pref.nagano.lg.jp/haikibut/kurashi/recycling/shigen/jidosha/setsumeshiryo/documents/chapter4-5.pdf ; https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/resource_circulation/jidosha_wg/pdf/063_03_00.pdf ; https://bsrweb.jp/article/001464 ; https://www.pref.nagano.lg.jp/haikibut/kurashi/recycling/shigen/jidosha/setsumeshiryo/kaitaikote.html",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b12"
+ },
+ "sonnet:japan:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real (介護保険法115条の44の2: report within 3 months of FY end, providers with revenue over 1M yen). But the national system has been suspended since FYs ending March 2025. As of Miyagi (3 Jul 2026), Kanagawa (9 Jun 2026) and Fukuoka (24 Mar 2026), there is no resume date. Fukuoka says the 3-month deadline does not apply to reports blocked by the suspension. So there is no live recurring workflow, urgency or penalty to sell against. The filing is an MHLW web form or CSV/JSON upload from accounting data, and MHLW has issued vendor Q&A, so accounting vendors are expected to cover export. I did not check which vendors do. I found no count of providers. A prep service has no demand while the system is down. Revisit only if a resume date is announced.",
+   "searches": 3,
+   "sources": "https://www.pref.fukuoka.lg.jp/contents/keiei.html ; https://www.pref.miyagi.jp/soshiki/chouju/keieijoho_tyousabunnseki.html ; https://www.pref.kanagawa.jp/docs/u6s/cnt/f5351/f5351.html ; https://www.pref.ibaraki.jp/hokenfukushi/chofuku/jigyo/kaigo/keieijoho/documents/keieijoho_ibarakiqa250106.pdf",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b12"
+ },
+ "sonnet:japan:B9": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty falls on approved 特別加入団体 under the Rousai Hoken Act (労災保険法). They need 労働局長 approval and must keep membership and admin records. Enrolment is voluntary for members; the duty is on the organisation. Annual reports (年報) show about 3,500 organisations and about 570k members (FY2017). Newer figures were not found. Three searches found no association-management software, but absence is not proof. Buyers are many small, often union-like bodies, and each one's volume and willingness to pay is unknown. Several are likely run by 社労士 or 事務組合 with existing tools. The market is a small niche with weak recurring mandatory pain, so I kept the provisional score of 3.",
+   "searches": 3,
+   "sources": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai/kanyu.html ; https://jsite.mhlw.go.jp/oita-roudoukyoku/content/contents/001877860.pdf ; https://www.mhlw.go.jp/toukei/itiran/roudou/hoken-jigyo/teisei/dl/h29_seigo01.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b12"
+ },
+ "sonnet:japan:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: the 育成就労 law takes effect 2027-04-01. Existing 監理団体 get no automatic transfer and need a new 監理支援機関 permit. Pre-effective-date applications run 2026-04-15 to 2027-03-31. New rules: external auditor, at least 2 staff, ratio limits. Market is about 3,700-3,800 監理団体 (OTIT summary, not a primary register), so a few thousand buyers. Searches found no permit-specific software or online system, only 行政書士 filing services (office-tree, solution-supporter). The window is one-off and already half gone. Buyers have strong 行政書士 alternatives. Application is mostly paper or documents and bespoke, so software is hard to sell. Recurring value after permit is low. Not checked: whether OTIT has online filing, and かんべえ features.",
+   "searches": 3,
+   "sources": "https://office-tree.jp/blog/immigration/ikusei-shuro-kanri-shien-kikan/ ; https://www.moj.go.jp/isa/03_00174.html ; https://solution-supporter.jp/ikuseishuurou-kanrishienkikan-application-for-permission/ ; https://office-tree.jp/lp/ikusei-shurou/ ; https://www.shigyo.co.jp/houjin_kumiai/ginojisshu_kanridantai",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b12"
+ },
+ "sonnet:japan:GAPS4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Facilities that hold 施設基準 notifications must file an annual 定例報告 (baseline date 1 August, deadline end of August, e.g. 29 Aug 2025 for 東海北陸), and the FY2026 form was substantially revised. The 医療DX加算 notification also exists. Competition is heavy. Regional bureaus give out free macro tools and a free electronic filing system. Receipt-computer and chart vendors handle the paperwork, and HealtheeOne Compliance already sells facility-standard management. Clinic counts were not retrieved (about 105k general and 67k dental clinics from memory, not verified here). Willingness to pay for a separate tool is low. The annual workload is small and is bundled into the receipt computer. A solo founder would struggle to sell this.",
+   "searches": 4,
+   "sources": "https://kouseikyoku.mhlw.go.jp/tokaihokuriku/iryo_shido/teireihoukoku/r8-top_00002.html ; https://kouseikyoku.mhlw.go.jp/shikoku/shinsei/shido_kansa/shisetsu_kijun_teirei/index_00007.html ; https://kouseikyoku.mhlw.go.jp/tokaihokuriku/newpage_00811.html ; https://www.nikkan.co.jp/releases/view/83998 ; https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/m26/is2607.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b12"
+ },
+ "triage:japan": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Building-law s.12 periodic reports differ from the rejected fire-equipment inspection K11; new duty and buyer mix.",
+     "ref": "K11"
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Tank inspection and cleaning duty on building owners; K03 is a plumber application tool, so the duty and buyer differ.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Recruitment agency annual report is a new duty and buyer; K04 is the foreign-worker support agency idea."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Temples and cemetery managers are a different buyer from K07 stonemasons."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Gold buyers under the 犯収法 regime are a different duty and buyer from the scrap ledger K05.",
+     "ref": "K05"
+    },
+    {
+     "decision": "known",
+     "id": "A6",
+     "reason": "General 古物 ledger for secondhand shops is the same buyer and duty as the K05 multi-regime ledger.",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Beekeeper annual filing, new buyer group within scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Livestock dealer ledger, new small licensed buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small dismantlers' per-vehicle recycling reports, a mandatory recurring duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Veterinary medicine seller records, a new small-seller duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Pesticide seller notification and ledger, new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Annual groundwater volume reports for well owners, new duty."
+    },
+    {
+     "decision": "known",
+     "id": "A13",
+     "reason": "Septic and hauling firms with performance records are the same buyer and near-same duty as K12.",
+     "ref": "K12"
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Beef traceability records for butchers, a new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Neighbourhood associations are an in-scope community body with a recurring admin duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A16",
+     "reason": "Permit renewal and 適正原価 duty under the 2025 amendment differs from the rejected K09 ledger.",
+     "ref": "K09"
+    },
+    {
+     "decision": "keep",
+     "id": "A17",
+     "reason": "Street vendors and kitchen cars with municipal permits, in-scope small operators."
+    },
+    {
+     "decision": "keep",
+     "id": "A18",
+     "reason": "認可外保育 notification and annual report differ from K01 DBS compliance.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "A19",
+     "reason": "Driving schools report to the police; a new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A20",
+     "reason": "Households as employers of domestic workers are explicitly in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A21",
+     "reason": "Pawnshops fall under a separate law and licence from general secondhand dealers; unclear overlap, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Realtor AML risk assessment due in FY2026 is a new duty with a deadline."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Animal-handling ledger and April-May report; different buyer from vets."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "医療法人 annual report on the new WAM NET system, small clinic duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small solar owner notification and upkeep duties, new buyer."
+    },
+    {
+     "decision": "merge",
+     "id": "B5",
+     "reason": "Same 建築基準法 s.12 periodic report duty with the same owner and inspector buyers.",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Care provider 経営情報 report differs from the rejected K18 care-plan exchange.",
+     "ref": "K18"
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Minpaku bimonthly report is a different duty from K15 accommodation tax returns.",
+     "ref": "K15"
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "建設業 annual 決算変更届 differs from the CCUS duty in K17.",
+     "ref": "K17"
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Special-enrolment organisations are a different buyer from K17 CCUS.",
+     "ref": "K17"
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Dispatch agency annual reports differ from the support-agency idea K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Rental housing manager reporting duty, new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Poison and deleterious substance transfer ledger differs from the SDS idea K22.",
+     "ref": "K22"
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Rice traceability records for rice shops, new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "LPG dealer disclosure paperwork, unverified but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Worker co-operative filings, in-scope co-operative duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "Seafood import evidence differs from the シラスウナギ rule in K14.",
+     "ref": "K14"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Direct employers' foreign-worker filings are a different buyer from K04 support agencies.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Supervising-body permit conversion under the 2027 law is a new deadline-driven duty.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Waste generators filing manifest reports differ from K02 processors.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Clinic facility-standard notifications, an in-scope professional office duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Annual G-MIS reports for clinics and pharmacies, new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "運転代行 operators are a different buyer from K26 taxis.",
+     "ref": "K26"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Farm subsidy applications are an annual filing by small farms."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS9",
+     "reason": "Felling notices and status reports for small forest owners, new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS10",
+     "reason": "Mandatory catch reporting by small fishers, new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS12",
+     "reason": "Fire-prevention manager appointment and plan differ from the inspection reports in K11; unsure, so keep.",
+     "ref": "K11"
+    }
+   ]
+  },
+  "tag": "w2b12"
+ }
+}

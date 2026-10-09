@@ -615,5 +615,335 @@
    "searches": 18
   },
   "tag": "w2b50"
+ },
+ "gapfill:zambia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small moneylenders and informal lenders, who must now hold a BoZ financial-service-provider licence; also the 99 non-deposit-taking licensed institutions BoZ reported for 2024 (per the parliamentary brief)",
+     "category": "37. Bank of Zambia licensed moneylenders, bureaux de change, mobile money agents",
+     "evidence": "https://globallawexperts.com/zambias-banking-financial-services-act-2026/ ; https://www.zambiamonitor.com/?p=84741 ; https://www.parliament.gov.zm/sites/default/files/Brief%20on%20the%20Banking%20and%20Financial%20Services%20Bill%2C%20N.A.B.%20No.%2036%20of%202025.pdf ; https://www.africa-legal.com/local-insights/zambias-new-banking-and-financial-services-act-ushers-in-sweeping-financial-sector-reforms/127282",
+     "existing": "Competitor search run in English. Voxforem Technologies (Lusaka loan management software, listed via Lendsqr), Lendsqr, a roughly $98 Excel 'Zambia Loan Management Compliance System' on Selar (https://selar.com/15232koj41), generic AOPAY. None was seen producing BoZ return formats, and the Excel seller's claims are unverified.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "No overlap with the known payroll or invoicing rejections; the only link is that they are also compliance-driven (not the same buyer).",
+     "name": "BoZ licence-conversion and periodic-return pack for ex-moneylenders (non-deposit lenders)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Banking and Financial Services Act 2026 (Act No. 9 of 2026) repeals the Money-lenders Act Cap. 398. Commentary says unlicensed lending is a criminal offence, with a licence required plus periodic returns, credit-bureau reporting, fee disclosure, AML/KYC and STR duties. Commencement and transition window are unconfirmed.",
+     "unchecked": "Gazetted Act text and commencement date; transition window; BoZ return templates and portal for non-deposit lenders; number of unlicensed small lenders; whether Voxforem or others already export BoZ returns; whether a local-language search finds more competitors"
+    },
+    {
+     "buyer": "BoZ-licensed bureaux de change",
+     "category": "37. Bank of Zambia licensed moneylenders, bureaux de change, mobile money agents",
+     "evidence": "https://commons.laws.africa/akn/zm/act/si/2003/38/media/publication/zm-act-si-2003-38-publication-document.pdf ; https://regalert.today/document/a2ddba02-300d-494d-8872-81ee329c388f (third-party aggregator, not BoZ)",
+     "existing": "BoZ BSA submission system (state portal). No local software found; no search run for this since the score is below 3.",
+     "known_mark": "new",
+     "name": "Bureau de change weekly return and record-keeping tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Bureau de Change Regulations 2003; weekly return by the Monday via the BoZ BSA system; daily penalties of K100-1,500 under Circular 01/2022; per-customer receipts and open-position limits",
+     "unchecked": "Number of licensed bureaux; current return forms; whether the 2026 Act changes bureau rules"
+    },
+    {
+     "buyer": "Independent mobile money agents (over 150,000 per a 2022 MTN statement) and master agents",
+     "category": "37. Bank of Zambia licensed moneylenders, bureaux de change, mobile money agents",
+     "evidence": "https://www.itu.int/en/ITU-T/Workshops-and-Seminars/qos/20260512/Documents/Godwin%20SICHONE.pdf ; https://itweb.africa/content/6GxRKqYQ84oqb3Wj ; https://businesstech.co.za/news/mobile/6736/mtn-grows-mobile-money-channel-in-zambia/",
+     "existing": "Operator apps and agent platforms (MTN MoMo, Airtel Money) handle onboarding and reconciliation. No competitor search run.",
+     "known_mark": "new",
+     "name": "Mobile money agent compliance and float/KYC register",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Agent Banking Directives 2022 and E-Money Directives 2023; the duties sit mostly on the operators, with agent due diligence and contracts",
+     "unchecked": "Whether any recurring duty falls on the agent itself, rather than the operator; master-agent reconciliation pain"
+    },
+    {
+     "buyer": "Private waste collectors, haulers and small hazardous-waste handlers (garages, workshops)",
+     "category": "38. ZEMA environmental permits and annual returns for small quarries, workshops, waste haulers",
+     "evidence": "https://www.informea.org/en/legislation/waste-management-licensing-transporters-wastes-and-waste-disposal-sites-regulations-cap ; https://www.dlapiperafrica.com/en/zambia/insights/2025/zambias-environmental-laws-key-regulations-and-what-they-mean-for-you ; https://mabumbe.com/kb/waste-management-licence-zamportal/ ; https://unhabitat.org/sites/default/files/2022/07/zambia_en.pdf",
+     "existing": "ZEMA application is online (zamportal, unverified). Enforcement is described as weak in UNZA studies and the UN-Habitat profile. No local software seen.",
+     "known_mark": "new",
+     "name": "ZEMA waste and hazardous-waste licence renewal tracker for small waste haulers and waste companies",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Environmental Management (Licensing) Regulations 2013: waste management licence (Form III) and hazardous waste licence (Form V); a licence to carry waste is required. Annual return duty not confirmed.",
+     "unchecked": "Whether renewals or annual reports are due and what they cost; real count of licensed haulers; enforcement drives in 2025-26; Lusaka City Council licences"
+    },
+    {
+     "buyer": "Small quarry operators and aggregate suppliers",
+     "category": "38. ZEMA environmental permits and annual returns for small quarries, workshops, waste haulers",
+     "evidence": "https://resourcecontracts.org/contract/ocds-591adf-3266554663/download/pdf (2014 ZEMA decision letter, Kafue quarry); https://legal-analysis.economia.unitn.it:7500/ContractsTxt/4027-ndola-quarries-limited-20501-hq-lml-2008.txt",
+     "existing": "None found. Possibly a niche add-on to K01/K02 for mining-linked contractors.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "ZEMA approval and licence conditions tracker for small quarries",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Project brief or EIS approval under Environmental Management Act 2011; approval conditions require licences, waste disposal at designated sites, closure reports, and inspector access. No recurring return found.",
+     "unchecked": "Whether small quarries file annual returns; the decision letters are from 2008-2014; overlap with the Mines Safety Department and Mining Cadastre"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "37. Bank of Zambia licensed moneylenders, bureaux de change, mobile money agents",
+     "found": "Big change: the Banking and Financial Services Act 2026 (Act No. 9 of 2026, per law-firm commentary and Zambia Monitor; not confirmed against the gazette) repeals the Money-lenders Act Cap. 398 and brings moneylenders under BoZ licensing as financial service providers. Commentary says capital, governance, prudential/periodic returns, credit-bureau reporting, AML/KYC and fee disclosure apply. A commentary page said the Act was uncommenced as of 5 Aug 2026, and no transition window was found (existing licences stay valid until expiry). Bureaux de change: BoZ supervises under the 2003 BDC Regulations; weekly returns are filed by the Monday via the BoZ Bank Supervision Application System, with daily late penalties of K100-1,500 (Circular 01/2022, via the regalert.today aggregator). The market is small and the filing portal is state-run, so it is weak. Mobile money agents: the Agent Banking Directives 2022 and the 2023 E-Money Directives put KYC and registration on the operators (MTN and Airtel; over 150,000 agents per a 2022 article). Nothing found on agent-side compliance duties or a register to keep. Unchecked: current bureau count, the gazetted Act text and commencement, BoZ return templates for non-deposit lenders.",
+     "status": "screened"
+    },
+    {
+     "category": "38. ZEMA environmental permits and annual returns for small quarries, workshops, waste haulers",
+     "found": "The legal basis is the Environmental Management Act No. 12 of 2011 and the Environmental Management (Licensing) Regulations 2013 (SI 112 of 2013, number from OCR, unverified). Hazardous waste licences use Form V, general waste licences Form III, and ZEMA decides within 30 days. Applications go through the zamportal.gov.zm e-government portal (unverified), and fees are listed on a third-party site only (unverified). Quarry approvals (project brief or EIS) carry conditions on licences, waste disposal, closure and inspector access. Nothing found on recurring annual returns for small firms, and enforcement against small waste haulers looks weak (UNZA studies, UN-Habitat). No local software or service for ZEMA licence tracking was seen. Unchecked: whether licence renewals or annual environmental reports are mandatory and what they cost, and whether the zamportal licence application flow is free and usable.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Bank of Zambia licensed bureau de change moneylenders register requirements returns",
+    "ZEMA environmental project brief annual environmental returns small quarry waste transporter licence Zambia",
+    "Bank of Zambia Non-Bank Financial Institutions Act 2017 moneylender licence microfinance regulation 2024 2025",
+    "ZEMA licence waste transporter hazardous waste permit annual fee Zambia 2025",
+    "Zambia mobile money agents Bank of Zambia agent registration National Payment Systems Act e-money agent KYC",
+    "WebFetch globallawexperts.com/zambias-banking-financial-services-act-2026",
+    "WebFetch zambiamonitor.com/?p=84741",
+    "Zambia moneylenders transition period re-licence Bank of Zambia Banking and Financial Services Act 2026 existing moneylenders deadline",
+    "loan management software Zambia moneylenders microfinance Bank of Zambia returns reporting",
+    "ZEMA environmental licence annual return compliance Zambia Environmental Management Licensing Regulations 2013 environmental audit small business",
+    "Bank of Zambia bureau de change weekly return BSA system licensed bureaux number 2025",
+    "ZEMA waste collection companies Lusaka licence enforcement garbage collectors licensed ZEMA 2025",
+    "Bank of Zambia mobile money agents deregistered agent compliance MTN Airtel agent registration requirements Zambia 2025"
+   ],
+   "searches": 11
+  },
+  "tag": "w2b50"
+ },
+ "opus:zambia:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Zambian product that tracks RSL, fitness or GPS compliance for operators. Fleet GPS vendors operating in Zambia (Frotcom Zambia in Ndola, Ctrack Zambia, Ezytrack, and providers on the GoAfrica directory) advertise tracking, fuel and maintenance, but not licence or fitness expiry reminders. Their generic maintenance-schedule features could probably do this. RTSA's e-ZamTIS on Zamportal already handles online fitness test applications, road tax, registration and PSV driver licence renewal, but not the RSL. A Zambian job ad shows fleet compliance records (registration, insurance, fitness) are still kept by hand. I could not do a full search of the fleet vendors.",
+   "duty": "Real and in force in Zambia. A Road Service Licence (RSL) is required for each PSV and goods operator, valid for 3 years under s.109. RTSA notices give two different cycles: 1 Jul 2023 to 30 Jun 2026 and 1 Sep 2023 to 31 Aug 2026. The application needs a ZRA tax clearance, fitness certificate, insurance, vehicle and driver lists, a speed limiter certificate and proof of GPS fitment. Under s.110B of Road Traffic (Amendment) Act No. 8 of 2022, RTSA can suspend or revoke the licence for breaking its conditions. GPS: SI 78 of 2016 (PSV GPS Regulations) makes a working GPS on PSVs a condition of the RSL. The fine is up to 1,000 penalty units and/or 3 months in jail. Enforcement is real: RTSA suspended the Talwaka Lumo / Emmanuel Kasunga licences for 3 months over an inactive GPS. Roadworthiness (fitness) tests and road tax are recurring duties. I did not confirm how long the fitness certificate is valid. I also found no RTSA notice for the 2026-2029 RSL cycle (not reached).",
+   "market": "Not verified. I found no count of operators or RSLs. CEIC reports about 86,846 vehicles registered in Dec 2023, which looks like new registrations, not the fleet. RTSA de-registered 223,148 inactive vehicles in 2023. RTSA's annual report (2024) would likely have RSL figures, but it returned HTTP 503. RTSA's published applicant lists for the 2023 cycle run to several batches, which suggests thousands of operators, but most are single-vehicle minibus owners.",
+   "reason": "The duties are real and enforced (3-year RSL, GPS condition under SI 78/2016, fitness, road tax), but the core job is mostly a reminder calendar. The heaviest step, the RSL, comes only every 3 years. Fitness tests and road tax are already handled online through e-ZamTIS on Zamportal. GPS is already sold by tracking vendors, who could add expiry alerts cheaply. Buyers are mostly informal owners of one or two minibuses with little willingness to pay, and they would be reached through bus station associations. Larger fleets already pay GPS vendors. A done-for-you RSL renewal service for each cycle might work better than software, but I could not confirm when the 2026 cycle opens. The MVP is simple, but its value is low.",
+   "searches": 6,
+   "sources": "https://www.rtsa.org.zm/wp-content/uploads/2023/08/5TH-PUBLICATION-FOR-RSL-ADVERT.gs-v6-1.pdf ; https://www.rtsa.org.zm/wp-content/uploads/2023/06/FOURTH-SUBMISSION-2023-LONG-TERM-ROAD-SERVICE-LICENCE-APPLICANTS-FOR-PUBLICATION.pdf ; https://www.rtsa.org.zm/transport/licensing/ ; https://www.rtsa.org.zm/wp-content/uploads/2019/09/ROAD-SERVICE-LICENSE.pdf ; https://commons.laws.africa/akn/zm/act/si/2016/78/media/publication/zm-act-si-2016-78-publication-document.pdf ; https://www.rtsa.org.zm/wp-content/uploads/2024/11/FSM-GPS-PUBLIC-NOTICE1.pdf ; https://zambiamonitor.com/rtsa-suspends-licenses-for-talwaka-lumo-transport-emmanuel-kasunga ; https://zamportal.gov.zm/service-category/for-drivers/ ; https://info.frotcom.com/contacts/zambia ; https://trustburn.com/reviews/ctrack-zambia ; https://www.goafricaonline.com/zm/directory/geolocation-gps-tracking ; https://gozambiajobs.com/jobs/166157668/apply ; https://ceicdata.com/en/indicator/zambia/number-of-registered-vehicles ; https://www.rtsa.org.zm/wp-content/uploads/2023/08/PRESS-STATEMENT-DE-REGISTRATION-OF-MOTOR-VEHICLES.docx",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b50"
+ },
+ "opus:zambia:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "ZamPortal (free state e-services, ZamPass login) handles co-operative services, including registration and cancellation of registration by the Department of Co-operatives, as seen on mabumbe.com mirror listings. Whether co-operative annual returns are filed there is not confirmed: the minister only said the deadline is shown on ZamPortal. The ILO My.Coop package is training, not software. Uganda's state CRMIS is a non-Zambian example. I found no commercial Zambian co-operative compliance software or done-for-you service. The mabumbe.com page that gave me a 403 was not reached.",
+   "duty": "Annual returns from registered co-operatives under the Co-operative Societies Act (Cap 397, 'Yearly and other returns' section) and SI No. 25 of 2024. I did not see the SI text; its content comes from the minister's 31 Aug 2025 statement. The minister said returns are due three months before the end of the calendar year, so around 30 Sept. Persistent defaulters will be deregistered and non-compliant co-operatives are barred from Ministry funding. No fine is reported. I could not confirm the fee or the required attachments for co-operatives. The ZamPortal guidance for the Registrar of Societies (a different registry) lists a 31 March deadline, a K150-250 fee, and attachments of financial report, audited accounts and annual report.",
+   "market": "The minister in 2025 cited about 139,000 registered co-operatives with about 10,000 compliant. The same article's headline says 129,000, so the figures conflict. Coops4dev/Registrar data for 2019 gives 9,498 registered co-operatives with about 1.58m members, which casts doubt on the 139k figure. The government says it loses about K18m a year in fees.",
+   "reason": "The duty is real. The Co-operative Societies Act has a yearly-returns section, and the minister said on 31 Aug 2025 that SI 25 of 2024 makes returns mandatory, with deregistration and loss of Ministry funding for defaulters. I did not open the SI text itself. I found no commercial product. ZamPortal already offers free online filing with ZamPass sign-in, but I only saw its co-operative services through a third-party mirror, so whether co-operatives file annual returns there is unconfirmed. Return form and fee are unconfirmed (the K150-250 fees seen are for societies). The buyers are mostly poor rural co-operatives and only about 7% comply. Willingness to pay is likely low, so the realistic buyers are donors or bookkeeping bureaus. The work is an annual paperwork and accounts job, so the value is in service, not software.",
+   "searches": 6,
+   "sources": "https://www.zambiamonitor.com/govt-losing-k18-million-annually-as-129000-cooperatives-fail-to-make-annual-returns-says-mubanga/ ; https://www.icnl.org/research/library/zambia_zambiacoop/ ; https://mabumbe.com/kb/annual-return-zamportal/ ; https://mabumbe.com/kb/cancellation-of-registration-of-a-co-operative-society-zamportal/ ; https://zamportal.gov.zm/?p=984 ; https://coops4dev.coop/en/4devafrica/zambia ; https://www.ilo.org/resource/news/first-roll-out-mycoop-northern-province-zambia",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b50"
+ },
+ "opus:zambia:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The ODPC online registration portal is free apart from the statutory fee (dataprotection.gov.zm returned 503). Law-firm advisory exists (Bowmans, Afriwise). Generic foreign compliance sites (consentstack) exist but don't file. The World Bank DZAP tender (closed Aug 2026) builds the regulator's own compliance management system, which could simplify the portal. I found no Zambian micro-business registration or renewal service with pricing.",
+   "duty": "Data Protection Act No. 3 of 2021 s20 and the Data Protection (Registration and Licensing) Regulations SI 58 of 2021 require data controllers and processors to register. The Second Schedule sets fee tiers for micro, medium, large and individual. A secondary source says the certificate is valid one year and must be renewed at least 3 months before expiry. The ODPC set 30 April 2025 as the registration deadline, and failing to register is an offence (ZMW 200,000 fine and/or up to 5 years, per Bowmans). Not verified: the micro fee amount (SI page returned 403, PDF unreadable), any deadline extension, and actual enforcement after April 2025.",
+   "market": "Not found: the ODPC has published no count of registered entities. In principle the duty covers almost every formal business that holds personal data in Zambia (tens of thousands of PACRA-registered firms), but I found no statistic. Actual uptake among micro firms is unknown.",
+   "reason": "The duty is real. Data Protection Act No. 3 of 2021 s20 and SI 58/2021 require registration with fees in size tiers, including micro. A secondary source says the certificate lasts one year and renewal is due at least 3 months before expiry. The ODPC portal deadline was 30 Apr 2025, with a ZMW 200,000 fine and/or up to 5 years. I found no local done-for-you or SaaS for micro firms, only law firms (Bowmans, Afriwise) and the ODPC portal. Weaknesses: I found no enforcement evidence after April 2025 and no registration statistics. I couldn't confirm the micro fee. The ODPC site and the SI page were unreachable. The task is a simple yearly form, so willingness to pay is low and churn is high. It works best bundled into a vertical tool or an accountant's service.",
+   "searches": 6,
+   "sources": "https://bowmanslaw.com/insights/zambia-office-of-the-data-protection-commissioner-operational/ ; https://www.itedgenews.africa/zambia-activates-office-of-the-data-protection-commissioner-to-enforce-privacy-compliance/ ; https://zambialii.org/akn/zm/act/si/2021/58/eng@2021-05-14/source (search snippet only, fetch 403) ; https://www.afriwise.com/blog/zambia-employers-obligations-under-the-data-protection-act ; https://www.consentstack.io/regulations/zm-dpa ; https://allbusiness.africa/tenders/consultancy-services-for-the-review-and-development-of-national-data-protection-guidelines-and-compliance-frameworks",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b50"
+ },
+ "opus:zambia:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "There are two sources of competition. First, ZRA Smart Invoice is a free state tool (Windows, Android and web), mandatory since 1 July 2024, and its scope explicitly includes Tourist Tax. Second, Odoo modules certified to connect to ZRA's VSDC already handle the levy: Pokutsoft's l10n_zm_smart_invoice (about $118) maps the 1.5% Tourism Levy to ZRA tax labels and has a POS version, and AminiTech's ZRA POS is about $244. Hotel PMS products sold in Zambia include DJUBO and ResRequest, though I did not confirm whether either integrates with Smart Invoice. I found no product that pre-fills the monthly levy return or tracks ZTA licences, but the return is simple and the licence cycle is only every 3 years.",
+   "duty": "Confirmed and in force. The Tourism and Hospitality (Tourism Levy) Regulations, SI 56 of 2016, started on 1 March 2017 (SI 69/2016) and were amended by SI 121 of 2020 (Reg 8A: 5% penalty on understated levy; collection moved under the VAT Act). The rate is 1.5% of the total bill for accommodation, conference/convention and food and beverages. The levy is remitted to the ZRA Commissioner-General by the 14th of the following month. Returns are due by the 5th if filed manually, or the 14th if filed online. Other penalties: 5% of the unpaid amount per month, and 1,000 penalty units per month for not filing a return. Separately, ZTA licences are renewed every 3 years, and ZTA is pushing 1 to 5 star grading (Lusaka Times, 11 Sep 2026, snippet only). Also not to be confused: SI 100/2016 sets a 10% service charge with a quarterly return to ZTA. I did not check whether this applies to small lodges.",
+   "market": "The only count found is 948 licensed tourism enterprises (Tourism Update, 6 Sep 2018), which covers all types, not just accommodation. ZTA said about 75% of enterprises were compliant. Only 36 establishments were star-graded in April 2025. I found no current register count for small lodges or guest houses. It is likely in the low thousands at most, including unlicensed operators.",
+   "reason": "The duty is real. Under SI 56/2016 as amended by SI 121/2020, the levy is 1.5% of the total bill for accommodation, conferences and food and beverages. It is remitted to ZRA by the 14th of the following month, with a monthly return. Penalties are 5% per month on unpaid levy, 1,000 penalty units per month for missing returns, and 5% on understated amounts. However, ZRA's free Smart Invoice, mandatory since 1 July 2024 with penalties from October 2024, covers Tourist Tax. Cheap Odoo connectors (about $118 to $244) already map the 1.5% Tourism Levy to ZRA tax labels, so the levy is calculated at invoice time and the return is a simple TaxOnline step. Licence renewal every 3 years is too infrequent to need a tracker. The market is small: 948 licensed enterprises (2018 figure).",
+   "searches": 5,
+   "sources": "https://commons.laws.africa/akn/zm/act/si/2020/121/media/publication/zm-act-si-2020-121-publication-document.pdf ; https://zambialii.org/akn/zm/act/si/2016/56/eng@2016-07-22/source ; https://commons.laws.africa/akn/zm/act/si/2016/69/media/publication/zm-act-si-2016-69-publication-document.pdf ; https://www.zambiamonitor.com/?p=50068 ; https://www.zambiamonitor.com/?p=50098 ; https://snitechnology.net/?p=11955 ; https://apps.odoo.com/apps/modules/18.0/l10n_zm_smart_invoice ; https://apps.odoo.com/apps/modules/18.0/aminitech_zra_pos ; https://djubo.com/zambia ; https://www.tourismupdate.com/article/tourism-licensing-and-regulation-gain-ground-in-zambia-0 ; https://www.lusakatimes.com/2026/09/11/tourism-establishments-urged-to-obtain-licences-undergo-grading/ ; https://www.zambia.travel/PressReleases/GRADINGAWARDS.pdf",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b50"
+ },
+ "triage:zambia": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Small transport operators with recurring RTSA licence, GPS and fitness duties; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Agro-dealers but a different duty (ZAMRA/ZEMA/council permits) than K04 voucher reconciliation; related K04."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Gold dealers licensing is a different buyer and duty than K02 citizen-owned mine suppliers; related K02."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Livestock traders and butchers with recurring movement and slaughter permits; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Scrap dealers have a mandatory register and licence; new candidate."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Honey aggregators and exporters with permit and traceability duties; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small NGOs, churches and associations with registration and return duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Households as employers is a different buyer from the K07 employer payroll rejection; duty is a domestic-worker wage and NAPSA pack. Related K07."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small recruitment agencies must register and renew with the Labour Commissioner; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Small factories with periodic statutory inspection duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Small waste haulers need a service-provider licence under Act 20 of 2018; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Bureaux de change are small firms with weekly BoZ returns and a licence fee; first of this duty."
+    },
+    {
+     "decision": "known",
+     "id": "A13",
+     "reason": "Same drillers and same WARMA licence and registration duty; GPS is only a detail.",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Cooperatives with mandatory annual returns under SI 25 of 2024; a different duty from K02."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Small LPG retailers must hold an ERB licence; the deadline pushes many firms at once."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Micro-businesses must register under the Data Protection Act and renew annually."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Annual council permit renewals are recurring and mandatory for small traders."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Guest houses have a monthly tourism levy return and ZTA licence duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small warehouse operators under a warehouse receipts regime; a different duty from K04 vouchers. Unverified, since the bill may not be law."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Traders and butchers must have scales verified under the Metrology Act."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small clinics have NHIMA accreditation and claims duties; in scope as small professional offices."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Pharmacies have quarterly returns and registers under the Controlled Substances Act."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Small-scale miners' licence compliance is a different buyer from K01 contractors and K02 suppliers; related K02."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Small estate agencies with registration and possible AML duties; unclear, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Small exporters face certification and traceability rules; in scope as a deadline-driven duty, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Small companies and business-name owners must file annual returns with PACRA."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Charcoal traders and transporters need permits under the Forests Act; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Household employers with a separate workers' compensation duty and annual return; distinct from the A8 wage and NAPSA pack. Related A8."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Small moneylenders face a new licensing and returns duty under the 2026 Act; related K06 only loosely, different buyer."
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS2",
+     "reason": "Same bureaux de change and same weekly return duty.",
+     "ref": "A12"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Independent mobile money agents are small businesses with compliance duties; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "ZEMA waste licence is a different duty from the A11 solid waste licence, for the same kind of haulers; related A11."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Small quarry operators under ZEMA conditions are a different buyer and duty from K01; related K01."
+    }
+   ]
+  },
+  "tag": "w2b50"
  }
 }

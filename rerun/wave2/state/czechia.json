@@ -1,4 +1,16 @@
 {
+ "challenge:czechia:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. FULLCOM FIS may have a vineyard-records extension, but this rests only on a VŠB thesis abstract and was not verified.",
+   "reason": "I found nothing that kills this. Eight Czech and English searches turned up no Czech product for keeping the cellar books. The only Czech lead is a VŠB bachelor's thesis that extends FULLCOM's FIS ERP with vineyard records, and it is not confirmed as a product. The state's free tools only handle filing. The market is small: 2,236 registered wine producers (MZe, around 2020-21, undated) and about 13,700 growers, mostly hobby-scale and short of money. Two legal references in the claim are out of date: decree 323/2004 has been replaced by 88/2017 Sb., and EU Reg. 436/2009 by Reg. 2018/273 and 2018/274. Still unconfirmed: whether Czech law allows electronic books, and whether small local vendors that search engines index poorly exist.",
+   "searches": 8,
+   "sources": "https://mze.gov.cz/public/portal/mze/-q412235---kNHyrkQe/poskytnute-informace-na-zadosti-o-2 ; https://cdn0.erstegroup.com/content/dam/cz/csas/www_csas_cz/Dokumenty-korporat/Dokumenty/Vinařský_trh_v_Česku_10_2023.pdf ; https://dspace.vsb.cz/items/6a0ef420-2346-4af6-bcbd-b2a716fedc2e ; https://www.dauc.cz/predpisy/1416/88-2017-sb ; https://sbirka.nssoud.cz/cz/vinohradnictvi-a-vinarstvi-vedeni-evidence-lhuta-pro-zapis-do-evidencnich-knih.p2882.html ; https://mze.gov.cz/public/portal/mze/-a54336---l4RokNv5/kalendar-pro-vinohradniky-a-vinare-2025 ; https://portal.gov.cz/sluzby-vs/S19407",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b28"
+ },
  "critic:czechia": {
   "result": {
    "gaps": [
@@ -855,6 +867,50 @@
   },
   "tag": "w2b28"
  },
+ "sonnet:czechia:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Vyhl. 345/2021 Sb. (in force since 1 Oct 2021, current version from 1 Feb 2025) requires operators to enter each end-of-life vehicle into MA ISOH. Section 4(3) requires 3 photos (overall view, cabin, VIN) within 96 hours of entering the data. This is per vehicle, so frequency is high. The new law with recertification is still only a věcný záměr (E15), not in force. Market: E15 reports about 570 licensed scrapyards, an undated figure. I found no dismantler-specific software, but my searches were thin. MA ISOH has no documented API; the decree says only \"dálkovým přístupem\" (remote access). The core job is a free state web form, so the add-on value is limited. The buyers are a small, fragmented, low-tech group. The plausible niche is a parts-stock plus intake tool, and the planned part-marking rule is unconfirmed. The score is low-moderate because the MVP can't integrate with MA ISOH and willingness to pay is doubtful.",
+   "searches": 4,
+   "sources": "https://www.epravo.cz/top/zakony/sbirka-zakonu/sb/2021/345 ; https://www.e15.cz/domaci/urady-procisti-byznys-s-vraky-aut-1169824 ; https://www.czechpoint.gov.cz/public/wp-content/uploads/2026/07/Registr_ucastniku_provozu_MA_ISOH.pdf ; https://ct24.ceskatelevize.cz/clanek/ekonomika/kazdy-vrak-bude-mit-ode-dneska-svuj-profil-v-databazi-mzp-338285",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:czechia:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Act 256/2001 requires written grave leases, and the official Czech POINT service S435 handles lease applications. I did not open the statute text, so the cemetery book, penalties and VAT review are unchecked. Competition is unresolved. Three searches found no Czech cemetery software vendor, but the search tool is weak on local vendors, and Jeseník runs a GIS \"Pasport hřbitovů\" map app. Obce usually fold record-keeping costs into the rent, so there is no separate software budget. Market size was not found. Buyers are tiny municipalities and parishes, with public-sector procurement and low willingness to pay. Pain is low-frequency and no penalty was confirmed, so I score it 3.",
+   "searches": 3,
+   "sources": "https://portal.gov.cz/sluzby-vs/S435 ; https://www.epravo.cz/top/clanky/s-paragrafy-do-hrobu-cast-iii-hrobove-misto-15341.html ; https://www.novinky.cz/clanek/cestovani-nova-mapa-hrbitovu-v-jeseniku-pomuze-rodinam-i-badatelum-40523928 ; https://sbirkapp.gov.cz/detail/SPPCVMPYHRLU3RJC/text",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:czechia:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real but falls on property owners (households), not on haulers. Per consumer articles, the Water Act (254/2001, §38 odst. 7, effective 2021) requires owners to keep cesspit emptying proofs for 2 calendar years. The proof lists the owner, site, volume, date, hauler and treatment plant. The fine is reported as up to CZK 20,000 for individuals. I did not read the statute text itself. Haulers only issue the document, so the buyer is thin and the hauler count is unknown. Searches found no hauler software or state portal, but invoicing or route tools can print the proof. Whether paper is required and whether weighbridge tickets count were not found. This is a weak niche with low willingness to pay.",
+   "searches": 3,
+   "sources": "https://www.arecenze.cz/clanky/doklad-o-vyvozu-zumpy-nevyhazujte-urad-ho-muze-chtit-az-2-roky-zpetne-hrozi-pokuta-az-20-000-kc/ ; https://www.arecenze.cz/clanky/pravidla-pro-zumpu-u-chaty-2026-doklady-o-vyvozu-nema-skoro-nikdo-urad-je-pritom-chce-dva-roky-zpatky/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:czechia:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: spolky entered in the public register must file accounts and annual reports in the sbírka listin (§ 21a Accounting Act, § 66 Act on public registers). Sanctions found: court order fines, a tax-office fine up to 3% of assets, and court-initiated dissolution. Sources disagree on fine amounts (CZK 100,000 vs 20,000), so the claim's figure is not firmly confirmed. Public collections: 239/2024 Sb. from 1 Jan 2025 narrows the regime, and the notice goes to the krajský úřad 30 days ahead. The market is large, about 99k spolky plus 25k branches (Ministry of Justice, 2024). However, a collection is occasional rather than annual, and filing is a one-off yearly upload through a free state portal. Buyers are volunteers with low willingness to pay. My search for a dedicated spolek tool found nothing (one weak query); I did not check Pohoda or Money specifically.",
+   "searches": 4,
+   "sources": "https://pravniprostor.cz/clanky/obchodni-pravo/zakladat-ci-nezakladat-to-je-oc-tu-bezi ; https://portal.gov.cz/sluzby-vs/zalozeni-listiny-do-sbirky-listin-S15748 ; https://portal.gov.cz/sluzby-vs/oznameni-verejne-sbirky-S1122 ; https://pravniprostor.cz/zmeny-v-legislative/vyslo-ve-sbirce-zakonu/novela-zakona-o-verejnych-sbirkach ; https://uv.gov.cz/assets/ppov/rnno/aktuality/Spolkovy-rejstrik-v-cislech.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b28"
+ },
  "sonnet:czechia:A7": {
   "result": {
    "blocked_searches": 0,
@@ -863,6 +919,50 @@
    "sources": "https://szu.gov.cz/wp-content/uploads/2025/01/Metodicka_pomucka_SZU_posouzeni_rizik_olova_v_pitne_vode_ve_VVaP_prosinec_2024.pdf, https://khsstc.cz/wp-content/uploads/2025/06/Doporuceni_SZU_pece_o_vnitrni_vodovody_20250620.pdf, https://szu.gov.cz/wp-content/uploads/2025/05/11_legionely_baudisova.pdf, https://www.epravo.cz/_dataPublic/sbirky/2023/sb0176-2023.pdf",
    "suggested_score": 3,
    "verdict": "confirmed"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:czechia:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real: since 1 Jan 2026 public charging stations are regulated measuring instruments under Act 505/1990 and decree 345/2002 item 5.1.4, verified by ČMI with a 4-year validity, and only validly verified meters may be used. I found no dedicated tracking software. The market is thin: about 6,400 public charge points, run by only about 120 operators, and PRE, ČEZ and E.ON hold most of them. The small operators who would buy are few. Verification happens every 4 years, so this is a back-end feature, not a product. The \"ČMI\" PDF would not parse, so I could not confirm any transitional period for chargers installed before 2026. Penalty amounts were not checked.",
+   "searches": 3,
+   "sources": "https://zpravy.kurzy.cz/862203-nova-pravidla-pro-nabijecky-bez-certifikovaneho-meridla-nelze-legalne-uctovat/ ; https://cmi.gov.cz/sites/all/files/public/download/Aktuality/Informace k EVSE.pdf ; https://cmi.gov.cz/sites/all/files/public/download/Uredni_deska/OOP/OOP 100-26 dobíjecí stanice.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:czechia:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real: Act 253/2008 covers real-estate brokers, and FAU issued Methodical Guideline no. 11 on risk assessment and internal rules (Sept 2025). That guideline includes a general template outline, so the free state template partly covers the paperwork. I did not open the statute, so the fines and the 107/2024 amendment are unchecked. Market size is roughly 14,600 to 15,000 brokers (CSO count of intermediary firms, and MMR's count of insured brokers). Competition is unresolved. The epravo article describes Czech AML digitalisation, with ID capture, sanctions/PEP screening and risk scoring. My searches returned only foreign vendors and no named Czech product. Generic AML tooling and the free FAU template make this a weak, partly generic niche.",
+   "searches": 3,
+   "sources": "https://fau.gov.cz/files/mp-c-11-hodnoceni-rizik-a-system-vnitrnich-zasad-4-9-2025.pdf ; https://www.epravo.cz/top/clanky/digitalizace-aml-povinnosti-jak-technologie-meni-plneni-povinnosti-pro-tisice-povinnych-osob-121236.html ; https://arws.cz/novinky-v-arrows/realitni-kancelare-a-aml ; https://www.businessinfo.cz/clanky/zacalo-platit-povinne-pojisteni-pro-realitni-maklere-zavedte-je-pro-ucetni-a-dotacni-firmy-zadaji-podnikatele/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:czechia:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "DORA Art. 2(3)(e) exempts insurance, reinsurance and ancillary intermediaries that are micro, small or medium enterprises. Only intermediaries with 250 or more staff, or turnover above EUR 50m, are in scope. Nearly all Czech brokers and agents therefore carry no DORA register duty. The CNB page does list intermediaries as individual reporters, and the 2 Mar 2026 deadline is real, but the buyer pool is a handful of large brokers, which is not a solo-founder market. The 180,000 registrations figure is irrelevant, because most are tied agents or individuals. CNB itself said in Dec 2024 that intermediaries were not yet in DORAEU01/02. I could not open the CNB pages (404 on fetch), so that rests on search summaries.",
+   "searches": 3,
+   "sources": "https://www.eiopa.europa.eu/qa-regulation/questions-and-answers-database/dora237-3350_en ; https://www.nortonrosefulbright.com/en/knowledge/publications/ca7593f3/dora-exclusion-of-the-ancillary-insurance-intermediaries-of-the-scope-of-the-regulation ; https://www.cnb.cz/cs/statistika/sdat/dora/ ; https://www.cnb.cz/cs/statistika/sdat/archiv-aktualit-2024/",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:czechia:B9": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "EUDR duty is real (Reg. 2023/1115, delayed by 2025/2650): large/medium operators from 30 Dec 2026, micro/small from 30 Jun 2027, per search summaries. Micro/small operators in low-risk countries get a simplified one-off declaration, not recurring filing. Traders only pass on and keep information. Czech supervisor, penalties and firm counts not confirmed: businessinfo fetch gave 403 and the MZe PDF was unreadable. No Czech sawmill-specific tool found, but EU vendors (Coolset, Compliancegate, Unite) exist, and the state plans IT support (CESNaP II). Evidence is thin, the duty is mostly one-off, and the regulation is still being revised (May 2026 Commission review). Low score.",
+   "searches": 3,
+   "sources": "https://trade.ec.europa.eu/access-to-markets/cs/news/zpozdeni-do-prosince-2026-dalsi-vyvoj-pri-provadeni-narizeni-eudr ; https://www.epravo.cz/top/clanky/novelizace-narizeni-eu-o-odlesnovani-eudr-120960.html ; https://www.epravo.cz/top/clanky/dopady-aktualniho-boje-eu-proti-odlesnovani-na-podnikatele-120073.html ; https://nli.gov.cz/wp-content/uploads/MZe_Seminar-k-EUDR_Pardubice_25.11.2025.pdf ; https://www.coolset.com/glossary/eudr-due-diligence-statement",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
   },
   "tag": "w2b28"
  },

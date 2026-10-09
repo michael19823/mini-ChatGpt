@@ -1,0 +1,649 @@
+{
+ "critic:chile": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Fuel/LPG: SEC registers and Ley 21.xxx changes for small distributors and station owners (thin screen)",
+     "first_search": "SEC declaración instalaciones interiores de gas TC6 instaladores autorizados obligación electrónica 2025 2026",
+     "why": "Only 3 searches; GLP minorista distributors and cylinder traceability are unverified. SEC requires registered installers/gas fitters (instaladores de gas, declaraciones TC6/TE1 for installations), a huge base of tiny operators with mandatory per-job electronic declarations to SEC. This is a state-run recurring filing by small firms that was never screened."
+    },
+    {
+     "category": "Electrical/gas installers and small installers filing declarations to SEC (beyond net billing K05)",
+     "first_search": "SEC declaración de instalación eléctrica TE1 instalador clase D plataforma nuevo reglamento 2025",
+     "why": "Licensed electricians (clases A-D) must file TE1 declarations for every installation; thousands of sole traders. Separate buyer group and duty from solar net-billing; not covered in any category."
+    },
+    {
+     "category": "Small food producers, restaurants, ferias and Seremi sanitary authorisation (RSA, DS 977 Reglamento Sanitario de los Alimentos), plus labelling and registry updates",
+     "first_search": "Seremi de Salud autorización sanitaria establecimientos de alimentos DS 977 modificación 2025 registro obligatorio manipuladores",
+     "why": "Chile has a vast base of micro food businesses (almacenes, panaderias, picadas, food trucks). Only bundled in cat 20 as unverified; the DS 977 updates, resolución sanitaria renewals and Seremi inspection records were not searched."
+    },
+    {
+     "category": "Grain, flour, fruit packing and export-orchard small operators (SAG/CFA registers: huertos exportadores, packing registrations, cold stores)",
+     "first_search": "SAG registro de huertos exportadores inscripción anual packing plantas frigoríficas productores pequeños requisitos 2026",
+     "why": "Cat 22 was a thin screen and cat 30 only touched Multipuerto; Chile's fruit sector has thousands of small orchards and packers needing SAG registro de huertos and exporter plant registers annually. Large small-operator base missing."
+    },
+    {
+     "category": "Small water systems and drinking-water/regional cut rules (cat 13 not_reached) including SISS/Seremi for agua potable rural and private sanitation operators",
+     "first_search": "Ley 20.998 servicios sanitarios rurales licencias obligación reporte SISS DGA inscripción derechos de agua regularización plazo 2026",
+     "why": "Marked not_reached; K14 only rejected SSR management software, not the compliance duties (Ley 20.998 SSR licences, Seremi sanitary monitoring reports, DGA derechos de agua inscription). Possible different angle from K07."
+    },
+    {
+     "category": "Security, cleaning and manpower agencies / Ley 21.015 and 21.643 (Ley Karin) harassment protocol obligations for small employers",
+     "first_search": "Ley Karin 21.643 protocolo prevención acoso laboral obligatorio pequeñas empresas Dirección del Trabajo fiscalización 2026",
+     "why": "Cat 26 not_reached with a claim that it is covered by K01/K02, but Ley Karin (in force Aug 2024) forces every employer, including micro firms, to adopt a harassment-prevention protocol and Ley 21.015 disability quota (100+ staff) and Ley 21.643 reporting to DT is a distinct duty. Not covered by known ideas."
+    }
+   ]
+  },
+  "tag": "w2b25"
+ },
+ "discover:A:chile": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Owners/operators of ferias ganaderas (recintos feriales), small and often family or association run. Number of ferias in Chile not found.",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "Full text read from the Diario Oficial PDF: https://www.diariooficial.interior.gob.cl/publicaciones/2026/03/26/44410/01/2782619.pdf . Amendment of 29 Jul 2026: https://www.diariooficial.interior.gob.cl/publicaciones/2026/07/29/44511/01/2843479.pdf (seen in search results and not read in full; summarised via search). Enforcement context: SAG draft decree replacing the 1983 fairs regulation (May 2026 draft: https://www.sag.cl/sites/default/files/BORRADOR-DECRETO-FERIAS-2026--mayo-2026-observaciones-afech_final.pdf). The 2019 predecessor Res. 7.782 gave 1 year to install RFID reading.",
+     "existing": "Only the free official SIPEC module and SAG's 2016 'Titular Movimientos Ferias' manual. The targeted Spanish competitor search ('software feria ganadera remate recinto ferial Chile SIPEC') found no Chilean auction/feria software; only Ecuadorian academic projects. RFID reader hardware vendors not checked.",
+     "known_id": "K08",
+     "known_mark": "new",
+     "known_note": "Same livestock-movement family as K08 (horse paperwork) but a different buyer group and a different duty.",
+     "name": "Livestock-fair (recinto ferial) traceability and RFID desk: SIPEC movement upload, FMA matching, DIIO capture",
+     "score": 5,
+     "status": "promising",
+     "trigger": "SAG Res. Ex. 1.884/2026 (DO 26 Mar 2026), amended by Res. 6.589/2026 (DO 29 Jul 2026). Ferias may not receive or auction animals without the FMA. They must load entry and exit movements into the SIPEC Modulo Movimiento en Recintos Feriales within 3 business days of the auction, and carry-over animals by the day before the next auction. Bovines without an RFID DIIO cannot be received or sold. Ferias must have an electronic DIIO reading system and capture DIIO numbers electronically through the whole intake/exit flow. Paper FMAs go to the SAG office within 72 business hours. Ferias may print outgoing FMAs from their own systems if they meet the spec. Sanctions under the DFL RRA 16/1963 and Ley 18.755 and 19.162.",
+     "unchecked": "Number and ownership of ferias; whether SAG gives free upload templates or RFID reader integration; transition period after the July 2026 amendment; whether big ferias (e.g. cooperative-run or Fegosa-type firms) already have in-house software; willingness to pay; whether a hardware-plus-software bundle is the real need."
+    },
+    {
+     "buyer": "Agro-veterinary stores and other registered veterinary-medicine outlets (and vet clinics that dispense) selling products on 'receta retenida con control de saldo'.",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://www.bcn.cl/leychile/navegar?i=1010909 (regulation text seen via search summary; not fetched in full). SAG register index fetched: https://www.sag.gob.cl/ambitos-de-accion/como-se-define-un-medicamento-de-uso-veterinario/registros (shows the lists and dates; no text on monthly reporting). https://colegiofarmaceutico.cl/wp-content/uploads/2014/08/QF_Veterinarios-720.doc",
+     "existing": "Competitor search ('software clínica veterinaria Chile receta retenida control de saldo SAG informe mensual agroveterinaria sistema') found Veti.app, AgendaPro vet, PetRecord Vet Pro, QVET (Spain). None is documented as producing the balance-control book or the SAG monthly report. Not verified with demos.",
+     "known_mark": "new",
+     "name": "Veterinary-medicine sellers' retained-prescription balance book and monthly SAG report",
+     "score": 4,
+     "status": "promising",
+     "trigger": "SAG veterinary-medicine regulation as hosted on BCN: sell only against a retained prescription; keep the retained-prescription file with balance control plus dispatch notes signed by the Director Tecnico; send the monthly register of entries, exits and balance to the SAG Registro y Control de Medicamentos Veterinarios in the first 10 business days of each month. SAG Res. Ex. 667/2010 sets the retained-prescription requirements (prescription handwritten by the vet per the 2014 College of Pharmacists text; whether digital prescriptions are now valid is unchecked). SAG lists of retained-prescription products updated 09/07/2025, 14/04/2026 and 07/09/2026. A registry of establishments authorised to sell ketamine is updated 23/09/2026.",
+     "unchecked": "Whether the monthly report is still required and in what format (the SAG normative tab was not read); how many establishments are registered; whether ERPs used by agro-vet chains already do it; legal validity of electronic prescriptions; whether the reporting goes through an online SAG system."
+    },
+    {
+     "buyer": "Small and medium chatarrerias and scrap buyers in Chile, many informal or family-run.",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "SII resolution read: https://www.sii.cl/normativa_legislacion/resoluciones/2016/reso86.pdf . https://www.reporteminero.cl/noticia/noticias/2026/05/pdi-incauta-5-toneladas-cobre-robo-atacama-copiapo . https://www.reporteminero.cl/noticia/noticias/2026/01/aduanas-incauta-chatarra-cobre-ilegal-puerto-arica-destino-corea-del-sur . https://www.mch.cl/el-millonario-negocio-de-la-chatarra-de-cobre-en-la-mira-del-sii/ . There is no national scrap-dealer register (the 2007 bill 4804-08 is archived; boletin 14.983-07 on forged copper documents pending).",
+     "existing": "Competitor search ('software chatarrería Chile compra de chatarra factura de compra SII control proveedores sistema gestión') found no scrap-specific software in Chile; only SII resolutions and Codelco tenders.",
+     "known_mark": "new",
+     "name": "Scrap-yard compliance pack: IVA withholding-agent status, origin documentation and supplier checks",
+     "score": 4,
+     "status": "promising",
+     "trigger": "SII Res. Ex. 86/2016 (total change of IVA taxpayer on scrap sales): companies that buy or sell scrap and are not exporters/manufacturers become withholding agents once monthly purchases or sales exceed CLP 20m net, or purchases reach CLP 150m net in 12 months. Withholding agents are listed in a public SII nomina and file the annex declarations. Enforcement is rising: PDI seized over 5 t of copper cable in Copiapo in May 2026 from a yard with no municipal permit, no start-of-activities and no origin documents (receptacion plus Ley REP offences); customs stopped suspected stolen copper scrap in Arica in Jan 2026; unions say only about 10% of yards are inspected.",
+     "unchecked": "Rest of the SII resolution (annex forms, nomina rules, deadlines); number of yards over the thresholds; whether a mandatory registry bill advances in 2026-27; whether buyers will pay, since many yards are informal; legal risk of serving yards that launder stolen copper."
+    },
+    {
+     "buyer": "Pesticide distributors, retail agro-input shops, formulators and importers selling to farmers.",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "Full text read: https://www.diariooficial.interior.gob.cl/publicaciones/2025/02/19/44079/01/2611405.pdf",
+     "existing": "Not searched (budget). Larger distributors likely export from their ERP.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "Same sector as K06 (bee notices for pesticide applications) but a different duty and a different buyer (seller vs applicator).",
+     "name": "Semi-annual pesticide sales declaration filer (SAG Res. 942/2025)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "SAG Res. Ex. 942/2025 (DO 19 Feb 2025): declare sales to final users in January and July, by SAG authorisation number and monthly quantities (kg/l); error-ridden files are rejected and must be fixed in 5 business days; sanctioned under Ley 18.755 and DL 3.557. Fertilisers, biostimulants and ISP-authorised pesticides are excluded.",
+     "unchecked": "Competitor search was not run (budget); number of small retailers; whether SAG gives a template that makes this trivial; agronomic prescription and applicator duties."
+    },
+    {
+     "buyer": "Registered beekeepers, including migratory and pollination-service operators.",
+     "category": "8. Beekeepers",
+     "evidence": "https://www.sag.gob.cl/noticias/hasta-el-30-de-este-mes-sag-araucania-recuerda-que-en-octubre-los-apicultoresas-deben-registrar-y-declarar-sus-apiarios ; https://www.sag.gob.cl:443/sites/default/files/res_8196-2015_registro_apicultores_apiarios.pdf ; https://www.sag.gob.cl/sites/default/files/Resolucion_de_Control_Interno_para_el_Movimiento_Trashumancia_de_Colmenas.pdf (all seen in search results only)",
+     "existing": "Free SAG SIPECweb apiculturist profile. No competitor search run.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "Same buyer group as K06 (beekeepers) with a different duty; it could be bundled with the avisaje router.",
+     "name": "Beekeeper annual apiary declaration (FRADA, October) and hive-movement control under Ley 21.489",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Res. Ex. 8196/2015: annual declaration of apiaries in SIPEC each October, plus updates when an apiary is added or removed. Ley 21.489 on beekeeping promotion requires an internal control system for hive movement (trashumancia). A 2023 draft regulation proposed spacing between apiaries; its final status is unconfirmed. Today (9 Oct 2026) the October window is open.",
+     "unchecked": "Competitor search not run (budget); size of the registered beekeeper base; willingness to pay; whether the trashumancia regulation was finalised."
+    },
+    {
+     "buyer": "Owner-operators of school vans and small school-transport firms (23,096 vehicles registered in RENASTRE).",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://www.chileatiende.gob.cl/fichas/3940 ; https://www.chileatiende.gob.cl/fichas/86138 ; https://www.latercera.com/nacional/noticia/ministerio-de-transportes-reporta-659-furgones-escolares-fiscalizados-durante-2026-49-han-sido-multados-y-tres-retirados-de-circulacion/",
+     "existing": "Competitor search ('software transporte escolar RENASTRE gestión furgón escolar app padres control documentos conductores Chile') found no Chilean tool tied to RENASTRE; only foreign parent-tracking apps and a 2018 Workana request.",
+     "known_mark": "new",
+     "name": "School-van operator document and RENASTRE compliance tracker",
+     "score": 3,
+     "status": "weak",
+     "trigger": "RENASTRE registration of services, vehicles and drivers with the Subtrans/Seremitt (online with ClaveUnica); driver add/remove/modify filings; the MTT stepped up school-van inspections in 2026 (659 inspected, 49 fined, 3 pulled from service). Vehicle-age cut-offs on 31 May and 31 December apply to public transport (older source).",
+     "unchecked": "Recurring deadlines (revision tecnica, insurance, driver licences) not pinned down; low willingness to pay among single-van owners; the school as a buyer; parent apps are generic."
+    },
+    {
+     "buyer": "Private, parish and small municipal cemeteries and funeral homes.",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://www.ciperchile.cl/2025/04/02/multan-al-cementerio-general-por-1-400-restos-humanos-en-bolsas-y-17-tambores-sin-tapa-con-restos-post-cremacion/ ; https://vlex.cl/vid/dictamen-n-e5111-contraloria-1070377927",
+     "existing": "Competitor search ('software gestión cementerio Chile sepulturas nichos registro traslados sistema municipal parroquial') found no Chilean vendor; only Chronicle (listed on Capterra Chile), CemeteryFind, CIMS and Spanish municipal software.",
+     "known_mark": "new",
+     "name": "Cemetery register and transfer/exhumation record keeper for private, parish and small municipal cemeteries",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Reglamento General de Cementerios (DS 357/1970) and Codigo Sanitario art. 136. CIPER (Apr 2025) counted 14 sanitary fines on 11 cemeteries since 2024 and at least 90 sanitary proceedings, with missing transfer/exhumation records, unauthorised exhumations and unauthorised operation among the faults; Cementerio General was fined 100 UTM in March 2025.",
+     "unchecked": "Whether the regulation prescribes specific registers and formats; number of cemeteries; whether municipalities already run the main ones in-house; no recurring filing to an authority was found, only inspection exposure."
+    },
+    {
+     "buyer": "Small temporary-services firms (EST) registered with the Direccion del Trabajo.",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.chileatiende.gob.cl/fichas/1495 ; https://derechopedia.cl/Art%C3%ADculo_183_M_del_C%C3%B3digo_del_Trabajo ; https://dt.gob.cl/legislacion/1624/w3-article-95555.html",
+     "existing": "Not searched (budget). Payroll SaaS such as Buk and Talana (known from K10) cover payroll but probably not the guarantee.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Adjacent to K02 and K10 but a different duty, and likely too small a niche.",
+     "name": "EST (temporary-staffing firm) register and guarantee-renewal tracker",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Codigo del Trabajo arts. 183-J to 183-M: a register with the DT and a permanent 250 UF guarantee (more above 100/150/200 workers) adjusted every 12 months by worker count, with a minimum 120-day bond. DT dictamen 453/2023: only on-demand bonds or equivalent instruments are accepted.",
+     "unchecked": "Competitor search not run; number of ESTs; the sector is probably dominated by mid-sized firms."
+    },
+    {
+     "buyer": "Corporations and foundations (very many, mostly small) registered under the Codigo Civil Title XXXIII / Ley 20.500.",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://www.diarioconstitucional.cl/2026/01/01/corte-suprema-formula-observaciones-a-proyecto-que-moderniza-el-regimen-de-corporaciones-y-fundaciones-y-cuestiona-accion-indemnizatoria-en-procedimiento-sumario/informe-7/ ; https://www.latercera.com/nacional/noticia/tras-caso-convenios-proyecto-del-gobierno-busca-crear-registro-publico-de-fundaciones-y-fija-nuevos-controles/ ; https://chileatiende.gob.cl/fichas/11333/1/pdf",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Foundation and non-profit compliance tracker if the new public register and sanctions regime passes (Boletin 17.817-07)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Pending bill 'Moderniza el regimen normativo de las Corporaciones y Fundaciones y fortalece su fiscalizacion': a new public register, an administrative sanctions procedure including personal liability of directors, tighter controls after the 'caso convenios' (177 foundations, CLP 11bn subject to accounting, over CLP 6.5bn without accredited rendicion). Today the directory update happens at the Registro Civil or municipal secretariat with no annual deadline.",
+     "unchecked": "Bill status and timing; actual duties would only exist if it passes; many such bodies are cash-poor volunteer groups; competitor search not run."
+    },
+    {
+     "buyer": "Households employing domestic workers.",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://www.dt.gob.cl/portal/1628/w3-propertyvalue-181268.html ; https://dt.gob.cl/portal/1626/articles-127113_diptico.pdf ; https://previsionsocial.gob.cl/wp-content/uploads/2025/12/notas-9.pdf",
+     "existing": "Previred already publishes the contract templates and the payment channel; household-employer apps not searched.",
+     "known_mark": "new",
+     "name": "Household-employer helper for casa particular workers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Contract signed and registered with the DT within 15 days; contributions declared and paid by the 10th of the following month (13th if electronic); unemployment insurance of 3% split 2.2%/0.8%; minimum wage figures need re-checking.",
+     "unchecked": "Free state/Previred tooling; 2026 pension-reform changes; competitor search."
+    },
+    {
+     "buyer": "Owners of lifts (non-condominium buildings) and of boilers/autoclaves in small food, laundry and hospitality businesses.",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://www.minvu.gob.cl/wp-content/uploads/2023/01/FOLLETO-ASCENSORES-ENERO-2023.pdf ; https://www.chileatiende.gob.cl/fichas/57542-registro-de-calderas-y-autoclaves",
+     "existing": "Not searched. Lift maintenance firms normally issue reminders.",
+     "known_id": "K12",
+     "known_mark": "new",
+     "known_note": "The main lift owners are condominiums (K12, rejected); the boiler side is not covered by any known idea.",
+     "name": "Lift and boiler owner inspection-cycle tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley 20.296 and DS 22/2009: lifts need monthly maintenance and certification every 1-2 years by Minvu-registered firms. Boilers and autoclaves need a Seremi de Salud registration and reviews every 3 years by registered professionals.",
+     "unchecked": "Competitor search; number of boilers registered; enforcement level."
+    },
+    {
+     "buyer": "Small generators of hazardous waste above 12 kg acute-toxic or 12 t other per year (e.g. workshops, clinics).",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://portalvu.mma.gob.cl/wp-content/uploads/2021/11/Manual-SINADER-2021.pdf ; https://www.cdt.cl/wp-content/uploads/2022/05/Christian-Fuentes-Seremi-MMA_PPT-SINADER-.pdf (older sources, 2021-2022)",
+     "existing": "Not searched. Waste-hauler platforms probably already file on the client's behalf.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Related in spirit to the RILes reporter K04, which is a different duty.",
+     "name": "Hazardous-waste generator SIDREP declaration helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DS 148/2003; the generator declares in SIDREP, naming the hauler and the disposal site. SINADER is a separate annual system, with a monthly duty only for municipalities.",
+     "unchecked": "Current SIDREP rules, SINADER annual deadline and competitors."
+    },
+    {
+     "buyer": "Tattoo and piercing studios.",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.minsal.cl/seremi-de-salud-biobio-reforzara-vigilancia-a-la-practica-de-tatuajes-y-otros-procedimientos/",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Tattoo, piercing and branding studio sanitary-register tool",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "DS 304/2002; a client-ID register according to Seremi RM; a possible newer sanitary-permit requirement from an unverified Costa Rican-hosted article (the domain looks wrong for Chile).",
+     "unchecked": "Whether the rules changed in 2025-26; no recurring report; tiny niche."
+    },
+    {
+     "buyer": "Class B driving schools; private nurseries and salas cuna.",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.chileatiende.gob.cl/fichas/3913 ; https://www.bcn.cl/portal/leyfacil/recurso/modernizacion-de-la-educacion-parvularia",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Driving-school and nursery (jardin infantil) compliance tools",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Driving schools: Seremitt programme approval plus municipal authorisation (Chile Atiende ficha 3913, updated Apr 2026). Nurseries: Decreto 128 Mineduc authorisation and the education-modernisation law creating a public register and a non-public matricula register; the law's current status was not confirmed.",
+     "unchecked": "Whether the nursery law was published and its filing duties; no recurring driving-school report found."
+    },
+    {
+     "buyer": "Second-category abattoirs, self-consumption slaughter centres and butchers.",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://revistaschilenas.uchile.cl/handle/2250/13013 ; https://www.argentina.gob.ar/sites/default/files/ley_de_carnes_no_19.162_chile.pdf",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Small abattoir (second-category) and butcher compliance records",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Ley 19.162 and DS 342/1993. A Universidad de Chile study found 80.7% average compliance in 95 second-category abattoirs. No 2024-2026 change or recurring filing found; the 2026 results were all Argentina.",
+     "unchecked": "Any recurring SAG or Seremi reports; current rules; competitors."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "DT contract registration within 15 days of start, contributions due by the 10th (13th if paid electronically); Previred offers contract templates and an existing payment channel. Nothing new beyond a weak, crowded idea (candidate C10). Unchecked: Previred's free household-employer portal features and any 2026 pension-reform changes.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No national scrap-dealer register exists (BCN-type registry bill 4804-08 archived; copper-theft bills pending). Real duty is SII Res. Ex. 86/2016 IVA withholding-agent regime with confirmed thresholds, plus PDI raid in Copiapo in May 2026 on a scrapyard with no origin paperwork. Candidate C3.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No Chile-specific pawnshop/compraventa register found; results were other countries. UAF sujetos obligados list not confirmed to include pawnshops. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "No Chile-specific gold-buyer register or UAF duty confirmed. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler-specific register or ledger in Chile; only the Ley de Transito art. 39 / DS 1111 owner duty to report dismantling to the Registro Civil, and a non-binding 2022 Chamber resolution asking for tougher oversight. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "SAG Res. Ex. 1.884/2026 (DO 26 Mar 2026), modified by Res. 6.589/2026 (DO 29 Jul 2026), imposes strict traceability and electronic RFID reading on recintos feriales. Candidate C1.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Ley 19.162 and DS 342/1993 govern abattoirs and butchers; a Universidad de Chile study covered 95 second-category abattoirs and 45 self-consumption slaughter centres. No recurring filing or 2024-2026 rule found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Annual October FRADA apiary declaration in SIPEC (Res. 8196/2015) and the Ley 21.489 hive-movement control; avisaje pesticide notices already known as K06. Candidate C5, related to K06.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Retained-prescription products with stock-balance control: the seller keeps a retained-prescription file and balance, and reports monthly to SAG (per BCN-hosted regulation text; not fetched in full). SAG lists were updated in 2025-2026. Candidate C2.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "The DGA search returned only other countries' results. Nothing new beyond K07. Chile-specific driller register not verified.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "SIDREP duty falls on the hazardous-waste generator (threshold 12 kg acute-toxic or 12 t other per year), not the hauler; SINADER is annual and its monthly duty is only for municipalities. No hauler-specific recurring filing found. Candidate C15 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Lifts: Ley 20.296 and DS 22/2009 require monthly maintenance by a Minvu-registered firm and certification every 1-2 years. Boilers and autoclaves: Seremi de Salud register, inspection every 3 years. Owners are mostly condominiums (K12 rejected) and larger sites. Candidate C11 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "No search spent, because K14 (SSR management, rejected) and K07 already cover the area. Budget used on other categories.",
+     "status": "not_reached"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "SAG Res. Ex. 942/2025 (DO 19 Feb 2025): semi-annual sales declaration in January and July by distributors, retailers, formulators and importers. Candidate C4. Applicator and agronomic-prescription duties not found.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "EST register at the Direccion del Trabajo with a permanent 250 UF guarantee that adjusts every 12 months by worker count (Codigo del Trabajo arts. 183-J to 183-M; DT dictamen 453/2023 on the form of guarantee). Candidate C8.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "CIPER (April 2025): 14 sanitary fines on 11 cemeteries since 2024, with missing transfer/exhumation records among the faults; DS 357/1970 is the governing regulation. Candidate C7.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Ley 20.500 registry (Registro Civil, municipal secretariats since 2023). Bill Boletin 17.817-07 would create a new public register and sanctions regime after the 'caso convenios'; still pending as of mid-2026. Candidate C9. Halal/kosher not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "RENASTRE: 23,096 registered school-transport vehicles; MTT inspected 659 school vans in 2026 and fined 49. Colectivo operators use the RNSTP and the 'Renueva tu Colectivo' programme. Candidate C6.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Ferias libres run on a municipal permit and an ordinance; no recurring filing found. Currency-exchange houses: CMF/UAF supervision not confirmed in the search results. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Tattoo studios: DS 304/2002, with a client-ID register according to Seremi RM. Driving schools: class B programme approval at the Seremitt plus a municipal permit, no recurring report found. Nurseries: Ley de modernizacion de educacion parvularia and registry, status unconfirmed. Hunting outfitters and small food producers not searched. Candidates C12, C13 and C14, all weak.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "registro chatarreros comercializadores de chatarra obligación ley Chile 2025",
+    "desarmadurías registro nacional ley Chile obligaciones libro registro vehículos",
+    "compraventas casas de empeño registro obligación Chile ley 2025 compra de oro UAF",
+    "trabajadora de casa particular contrato electrónico Dirección del Trabajo cotizaciones empleador 2026",
+    "SAG ferias ganaderas formulario movimiento animal FMA SIPEC obligación predios",
+    "SAG recetas médico veterinario retención receta medicamentos veterinarios venta registro libro",
+    "SAG resolución 2026 ferias ganaderas trazabilidad Módulo Movimiento Recintos Feriales tres días hábiles",
+    "SINADER SIDREP declaración residuos transporte residuos peligrosos camiones empresas pequeñas",
+    "ascensores certificación inspección Chile ley propietarios registro Seremi calderas autoclaves",
+    "plaguicidas SAG expendedores libro registro ventas declaración semestral aplicadores",
+    "empresas de servicios transitorios registro Dirección del Trabajo garantía renovación",
+    "cementerios Chile reglamento 2025 registro sepulturas Seremi de Salud",
+    "Registro Nacional de Personas Jurídicas sin Fines de Lucro obligación directorio rendición cuentas 2026",
+    "transporte escolar taxis colectivos Registro Nacional de Servicios de Transporte inscripción renovación 2026",
+    "casas de cambio registro CMF UAF comercio ambulante ferias libres permiso municipal 2026",
+    "jardines infantiles autorización Superintendencia de Educación Parvularia 2026",
+    "escuelas de conductores CONASET registro obligación libro de clases Chile",
+    "tatuajes establecimientos ley Chile reglamento autorización sanitaria 2025",
+    "carnicerías mataderos SAG Seremi autorización faenadoras pequeñas libro registro trazabilidad carne",
+    "DGA perforadores de pozos registro empresas perforación obligación 2025",
+    "ley robo de cables cobre metales registro compradores Chile receptación chatarra",
+    "apicultores SAG declaración anual colmenas obligación 2026 trashumancia",
+    "software clínica veterinaria Chile receta retenida control de saldo SAG",
+    "software transporte escolar RENASTRE",
+    "software chatarrería Chile factura de compra SII",
+    "software feria ganadera remate recinto ferial Chile SIPEC",
+    "software gestión cementerio Chile sepulturas nichos",
+    "ferias ganaderas Chile lectores RFID DIIO obligatorio remate 2026"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b25"
+ },
+ "discover:B:chile": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Owners and managers of the roughly 947 authorised private ELEAM, and homes seeking authorisation",
+     "category": "33. Elder-care homes (ELEAM, DS 20/2021)",
+     "evidence": "MINSAL list of ELEAM with valid authorisation, updated weekly: https://www.minsal.cl/ministerio-de-salud-publica-listado-de-eleam-que-cuentan-con-autorizacion-sanitaria/ ; Emol Sep 2026: https://www.emol.com/noticias/Nacional/2026/09/15/1211496/residencias-adultos-mayores-fiscalizacion-pitrufquen.html ; CIPER (947 ELEAM, 22 public): https://www.ciperchile.cl/2025/05/15/insuficiencia-en-hogares-de-larga-estadia-838-adultos-mayores-estan-en-lista-de-espera-510-derivados-desde-tribunales-por-maltrato/ ; Supreme Court closure: https://actualidadjuridica.doe.cl/corte-suprema-ratifica-la-clausura-del-eleam-decretada-por-la-seremi-de-salud-por-no-contar-con-autorizacion-sanitaria/ ; Dipres recommendation of digital central resident registers: https://www.dipres.gob.cl/597/articles-383668_r_ejecutivo_institucional.pdf",
+     "existing": "Competitor search 'software gestión ELEAM hogar de ancianos Chile ficha residentes fiscalización Seremi sistema' found no ELEAM-specific product and no official resident-file system; the Dipres document only recommends digital registers.",
+     "known_mark": "new",
+     "name": "ELEAM authorisation and inspection-readiness desk for elder-care homes",
+     "score": 5,
+     "status": "promising",
+     "trigger": "DS 20/2021 (in force 30 Sep 2022): sanitary authorisation from the Seremi, Seremi and Senama inspection. Pitrufquen ELEAM fire in Sep 2026 triggered a government inspection push and a Senate committee review. Some homes receive state subsidies.",
+     "unchecked": "Exact recurring filings to Seremi or Senama; what a Seremi inspection checks; whether a new bill from the Sep 2026 crisis adds a duty; buyer count and willingness to pay (many homes are small and cash-poor); competing care-home management apps under other names; whether the subsidy-linked reporting is a recurring duty."
+    },
+    {
+     "buyer": "Small licence holders: botillerias, bars, restaurants, social clubs, and owners who lease a patente",
+     "category": "32. Alcohol-licence holders (Ley 19.925 municipal patentes)",
+     "evidence": "Constitucion renewal requirements: https://www.constitucion.cl/wp-content/uploads/2026/05/requerimientos-renovacion-patente_de_alcoholes.pdf ; Chillan form: https://www.municipalidadchillan.cl/sitio/descargas/docs/formularios-renovacion-patentes-alcoholes.pdf ; ChileAtiende renewal report: https://www.chileatiende.gob.cl/fichas/349 ; bill on binding junta de vecinos opinion: https://www.diarioconstitucional.cl/2025/09/08/proyecto-de-ley-otorga-caracter-vinculante-a-opinion-de-juntas-de-vecinos-para-otorgamiento-renovacion-o-traslado-de-patentes-de-alcoholes/",
+     "existing": "Competitor search 'software renovación patente de alcoholes botillería bar restaurante Chile' found only Simplo (generic permit tracking, https://simplo.cl/permisos/informe-para-renovacion-de-patente-de-alcoholes/). No alcohol-specific product seen.",
+     "known_mark": "new",
+     "name": "Semester alcohol-patente renewal tracker for bars, botillerias and restaurants",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Ley 19.925: renewal every six months. Each comuna sets its own deadline and document set. Municipal deadlines can fall as early as late October for the January period. Missing the deadline means losing the patente.",
+     "unchecked": "Number of patentes nationwide; whether municipalities already run online renewal; the fee that buyers pay existing gestores; per-comuna variation (about 345 comunas) making a single product hard; Simplo pricing; value above a simple calendar reminder."
+    },
+    {
+     "buyer": "Small wine, chicha and must producers and bulk wine holders",
+     "category": "31. Wine, chicha and must producers (SAG Ley 18.455 declarations)",
+     "evidence": "https://www.chileatiende.gob.cl/fichas/72551-declaracion-de-cosecha-de-vinos-mostos-y-chichas-a-granel ; https://www.sag.gob.cl/tramites/solicitud-de-declaracion-de-cosecha-de-vinos-mostos-y-chichas-granel ; https://www.chileatiende.gob.cl/fichas/145285-declaracion-de-catastro-vitivinicola ; https://www.sag.gob.cl/sites/default/files/sabia_ud_que_sag_biobio.pdf",
+     "existing": "Competitor search 'software bodega vinos declaración de cosecha existencias SAG viñateros pequeños libro de bodega' found no software; only the SAG online forms.",
+     "known_mark": "new",
+     "name": "Small winery and viñatero SAG declarations pack (harvest, stock, catastro, libro de bodega)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Ley 18.455 and SAG Res. 41: annual harvest declaration (1-30 June per ChileAtiende, May 2026; earlier May), stock declaration at 31 Dec due 19 Jan (older SAG Biobio doc), catastro vitivinicola for vineyards of 5,000 m2 or more, libro de existencias visado by SAG with numbered vessels.",
+     "unchecked": "Number of small producers who file; whether large winery ERP or winemaking apps already include SAG declarations; the dates (June vs May, and 19 Jan) must be confirmed on sag.gob.cl; offline reach and willingness to pay among tiny family producers."
+    },
+    {
+     "buyer": "Property brokers, small inmobiliarias and notaries registered with the UAF",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "Circular 62: https://guerrero.cl/wp-content/uploads/2025/03/DOC_Circular-N°62-UAF.pdf ; DLA Piper: https://www.dlapiper.com/es-ar/insights/publications/2025/03/chile-financial-analysis-unit ; DF on sanctions: https://www.df.cl/empresas/banca-instituciones-financieras/uaf-inicio-80-procesos-sancionatorios-por-incumplir-normas-anti-lavado ; bill: https://www.diarioconstitucional.cl/2026/05/19/iniciativa-legal-busca-regular-el-corretaje-de-propiedades-y-exige-licencia-para-ejercer-la-actividad/",
+     "existing": "Competitor search 'software cumplimiento UAF corredores de propiedades inmobiliarias oficial de cumplimiento ROS Chile plataforma' found no broker-specific Chilean platform; only Simplo explainers. The UAF portal itself is free but does not log analysis or KYC.",
+     "known_mark": "new",
+     "name": "UAF anti-money-laundering kit for property brokers, notaries and small real-estate firms",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Ley 19.913 and UAF Circular 62 (Mar 2025): compliance officer, ROS via the UAF Portal de Entidades Reportantes, analysis log, beneficial-owner identification, staff training, registration update within 10 business days. Brokers, notaries and inmobiliarias accounted for 55% of UAF fines in 2018 (Diario Estrategia). A broker licensing bill (Boletin 18.241-03, May 2026 Senate bill) would add more duties.",
+     "unchecked": "Number of registered brokers; whether broker CRMs (e.g. portal-linked) bundle UAF modules; AML compliance vendors serving larger firms; the two broker bills' status; willingness to pay by small brokers; a possible overlap with larger vendors for notaries."
+    },
+    {
+     "buyer": "Dental offices, small clinics, veterinary practices and other REAS generators; SIDREP declarants above 12 kg acute-toxic or 12 t other hazardous waste per year",
+     "category": "34. Health-care and clinical waste generators (REAS DS 6/2009, SIDREP DS 148/2003)",
+     "evidence": "https://www.bcn.cl/leychile/navegar?i=1008725 ; https://simplo.cl/permisos/declaracion-seguimiento-residuos-peligrosos/ ; https://simplo.cl/permisos-para-habilitar-clinica-dental/",
+     "existing": "Competitor search 'plan de manejo REAS consulta dental clínica veterinaria residuos' found no REAS-specific software for small generators; only generic EHS tools (MiResiduo, Beeok) and Simplo guides.",
+     "known_mark": "new",
+     "name": "REAS and hazardous-waste management plan service for small clinics, dental offices and vets",
+     "score": 3,
+     "status": "weak",
+     "trigger": "DS 6/2009 (REAS) plan de manejo plus Seremi review at authorisation; DS 148/2003 SIDREP declaration through the RETC Ventanilla Unica.",
+     "unchecked": "Whether the threshold leaves most small clinics out of SIDREP; what the Seremi asks to see each year; waste haulers' own portals; vet applicability."
+    },
+    {
+     "buyer": "Small cooperatives (about 1,800 active per DAES) including agricultural, services and small savings-and-credit cooperatives",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.diarioestrategia.cl/texto-diario/mostrar/5728229/2026-entro-vigor-desnotarizacion-cooperativas ; https://eldesconcierto.cl/2024/02/28/economia-territorial-1-800-cooperativas-buscan-ser-fortalecidas-con-subsidio-de-20-millones ; https://www.cooperativasdechile.coop/wp-content/uploads/2024/07/Memoria-2023-Asociacion-Nacional-de-Cooperativas-de-Chile-Alta.pdf",
+     "existing": "No competitor search run (score is 3 on the evidence of a deregulating change that lowers pain); not checked.",
+     "known_mark": "new",
+     "name": "Cooperative DAES compliance pack (RAE 1321 minutes, e-signature, annual filings)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "RAE 1321 (RAEX202502832, DO 30 Sep 2025, in force 1 Jan 2026) under Ley 21.582 desnotarizacion: no notary for general-meeting and board minutes, advanced e-signature for some CAC documents, simplified accounting and administrative norms; Ley General de Cooperativas.",
+     "unchecked": "Periodic filings to DAES (annual balance, council reports); competitor search; whether the rule reduces pain below a software threshold; payer in volunteer-run cooperatives."
+    },
+    {
+     "buyer": "Independent pharmacies and small chains",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://iura.cl/dto-404-minsal/18 ; https://iura.cl/dto-405-minsal/18 ; https://www.diariooficial.interior.gob.cl/publicaciones/2025/06/04/44165/01/2652181.pdf ; https://www.senado.cl/comunicaciones/noticias/obligacion-de-las-recetas-electronicas-pasa-de-la-comision-de-salud",
+     "existing": "No competitor search run (budget); pharmacy POS vendors very likely already include control books, not checked.",
+     "known_mark": "new",
+     "name": "Pharmacy controlled-drug book and electronic-prescription dispensing tool",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "DS 404 and DS 405 art. 18 control books visado by ISP or health service; DS 405 amended DO 4 Jun 2025 (content not seen). A bill moves electronic prescriptions to mandatory and requires electronic dispensing in every pharmacy (Senate Health committee sent it to Hacienda around 10 Sep 2026).",
+     "unchecked": "Whether the control book is already electronic in pharmacy software; the bill's enactment date; competitor search; periodic reports to ISP or Seremi."
+    },
+    {
+     "buyer": "Retail and wholesale LPG distributors (many small)",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.cne.cl/wp-content/uploads/2023/08/1°-sesion-Mesa-trabajo-PdL-GLP-CNE.pdf ; https://www.reporteminero.cl/noticia/noticias/2024/04/gas-licuado-proyecto-mejora-competencia ; https://www.energia.gob.cl/noticias/nacional/ministerio-de-energia-ingresa-al-congreso-proyecto-de-ley-que-busca-regular-el-mercado-del-gas-licuado-de-petroleo?page=42",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "GLP minorista distributor register and cylinder traceability tool",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Boletin 16035-03: public registers of wholesale and retail distributors, cylinder traceability platform run by SEC. Still in the Camara Economia committee in April 2024; no later status found.",
+     "unchecked": "Current bill status; whether the SEC platform would be state-built; buyer scale. Score 2 because the law is not in force and the state would build the traceability system."
+    },
+    {
+     "buyer": "Armadores artesanales with RPA registration",
+     "category": "35. Artisanal fishers and caletas (Sernapesca)",
+     "evidence": "https://www.chileatiende.gob.cl/fichas/86891-declaracion-de-operaciones-de-desembarque-artesanal",
+     "existing": "Free state online portal (Sernapesca, ClaveUnica); rejected as a standalone product by that portal's existence is not confirmed, so left weak.",
+     "known_mark": "new",
+     "name": "Artisanal fisher landing declaration helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Sernapesca traceability system: landing declaration with species, quantity, destination, zone and sailing dates.",
+     "unchecked": "Whether the state portal is usable offline at sea; paper volume; fisher payers."
+    },
+    {
+     "buyer": "Small timber and leña traders and transporters",
+     "category": "36. Forest products, firewood and timber dealers (Ley 21.488)",
+     "evidence": "https://www.sii.cl/noticias/2024/230824noti01rp.htm ; https://www.radioagricultura.cl/noticias/nacional/conaf-presenta-modernizacion-hacia-sernafor-en-reunion-forestal-de-apec-2026_20260811/ ; https://www.camara.cl/cms/?p=41010",
+     "existing": "SII provides free electronic dispatch guides; not checked further.",
+     "known_mark": "new",
+     "name": "Forest-product and firewood dealer dispatch-guide compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley 21.488 strengthens supply-chain control. SII Res. 75 (Nov 2024) sets requirements for electronic dispatch guides and invoices for forestry taxpayers.",
+     "unchecked": "Registration duties for leña dealers; CONAF or SERNAFOR inspections; Ley 21.488 text."
+    },
+    {
+     "buyer": "Independent station owners and operators",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.diariooficial.interior.gob.cl/publicaciones/2026/02/03/44366/01/2757883.pdf ; https://www.diariooficial.interior.gob.cl/publicaciones/2025/09/03/44241/01/2693184.pdf",
+     "existing": "Not checked. Content of both gazette items seen only through search snippets.",
+     "known_mark": "new",
+     "name": "Fuel station dispenser-verification and registry upkeep",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "SEC resolution (DO 3 Feb 2026) requires volume-accuracy verification by SEC-authorised entities under NCh 1436; SEC registry decree (DO 3 Sep 2025); price reporting to CNE.",
+     "unchecked": "Actual verification interval, cost, and who performs it; whether the registry is for installations rather than stations."
+    },
+    {
+     "buyer": "Small hostales, residenciales and cabin or apartment hosts",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://www.chileatiende.gob.cl/fichas/4652-inscripcion-en-el-registro-nacional-de-prestadores-de-servicios-turisticos ; https://www.camara.cl/cms/2019/09/02/autoridades-de-turismo-explicaron-politicas-de-inversion-promocion-y-fiscalizacion-en-el-area/",
+     "existing": "Free online Sernatur registration. No guest register or tourism levy found.",
+     "known_mark": "new",
+     "name": "Lodging register upkeep for hostales, residenciales and short-term rentals",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley 20.423 and DS 19/2018: Sernatur registration is mandatory for lodging and needs a commercial licence; records must be kept up to date. Sernatur has no power to fine.",
+     "unchecked": "Any 2024-2027 short-term-rental law; municipal rules; PDI guest register (none found)."
+    },
+    {
+     "buyer": "SMEs seeking a prevention model and independent assessments",
+     "category": "37. Corporate crime-prevention models (Ley 21.595 as amended by Ley 21.770, Sep 2025)",
+     "evidence": "https://www.prieto.cl/modificaciones-a-la-ley-de-delitos-economicos-n21-595/ ; https://www.carey.cl/dictamen-de-la-comision-para-el-mercado-financiero-sobre-sociedades-clasificadoras-de-riesgo-la-certificacion-y-supervision-de-modelos-de-prevencion-de-delitos",
+     "existing": "Horizontal compliance field, crowded with consultants (K13, K17 rejected on the same ground).",
+     "known_id": "K13",
+     "known_mark": "known",
+     "known_note": "Same horizontal compliance buyer group as K13 and K17; not re-checked.",
+     "name": "Crime-prevention model (MPD) kit for SMEs under Ley 21.595 as amended by Ley 21.770",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley 21.595 (economic crimes) and Ley 21.770 (DO 29 Sep 2025) added offences, including false information in sector authorisations."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "3 searches. No new recurring filing for small station owners found. Related signals: SEC-authorised verification of dispenser volume accuracy (DO Feb 2026, NCh 1436), SEC registry decree (DO Sept 2025), price reporting to CNE. GLP bill Boletin 16035-03 (cylinder traceability, public registers of wholesale and retail distributors, SEC monitoring platform) was still in the Camara Economia committee in April 2024; no later status found. Listed as unverified/weak.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Thin screen. Chile has no coffee or cocoa trade. Only the wine and grape commodity was searched (moved to cat 31). Grain traders and millers were not searched specifically.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "RAE 1321 in force 1 Jan 2026 (published DO 30 Sep 2025, under Ley 21.582 desnotarizacion): notarial requirement removed for general-meeting and board minutes, and advanced e-signature added for some CAC documents. About 1,800 active cooperatives per DAES. One weak candidate (DAES compliance pack). CAC with equity at or above 400,000 UF go to CMF.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Supersalud registry covers individual providers (DS 16/2007). Accreditation of institutional providers is voluntary. No small-clinic periodic filing found. REAS/SIDREP waste duty is the only recurring angle, listed under cat 34.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Libro de control for estupefacientes and psicotropicos (DS 404 and DS 405 art. 18, visado by ISP or health service). DS 405 was amended DO 4 Jun 2025 (content not seen). The electronic-prescription bill, which would require electronic dispensing in every pharmacy, went from the Senate Health committee to Hacienda around 10 Sep 2026. Precursor users were not searched. One unverified candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "No search spent here (budget). Already covered by K01, K02, K04 and K10, so nothing new to flag.",
+     "status": "not_reached"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "found": "1 search. Only MINVU contractor registries (needed to bid on MINVU-funded work) and an OGUC amendment (DO Feb 2026, content not seen). Nothing beyond K09 and K16. Mining and quarry contractors not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "UAF Circular 62 (Mar 2025) consolidates AML instructions: compliance officer, ROS via UAF Portal de Entidades Reportantes, 10 business days to update registration, beneficial owner. Corredores de propiedades, notarios and inmobiliarias are obliged subjects (Ley 19.913). There is no national broker register in force. Bills: Boletin 18.241-03 and a May 2026 Senate bill would add licences and mandatory registers. One candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Sernatur national register is mandatory by law for lodging and adventure tourism (Ley 20.423, DS 19/2018), needs a commercial licence, and Sernatur cannot fine. No guest-register duty to PDI found, and no tourism levy. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "SAG phytosanitary export certificates are issued through the Multipuerto system. Ley 21.488 and SII Res. 75 (in force Nov 2024) on timber and leña dispatch guides. The Sernapesca artisanal landing declaration is free and online. No small-exporter traceability gap found beyond weak candidates.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Wine, chicha and must producers (SAG Ley 18.455 declarations)",
+     "found": "Annual harvest declaration (ChileAtiende, May 2026: 1-30 June; older sources say May), stock declaration at 31 Dec due 19 Jan, catastro vitivinicola for plots of 5,000 m2 or more, and a libro de existencias visado by SAG. No software found for small wineries.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Alcohol-licence holders (Ley 19.925 municipal patentes)",
+     "found": "Renewal every six months in every comuna, with no automatic renewal. Documents: junta de vecinos report, Carabineros report, criminal-record certificate, sworn declaration, last paid patente, lease papers if rented. Requirements vary by comuna. Bills would make the junta de vecinos opinion binding (Sep 2025); Contraloria extended the ban on patentes to municipal honorarios staff (Apr 2026, headline only).",
+     "status": "screened"
+    },
+    {
+     "category": "33. Elder-care homes (ELEAM, DS 20/2021)",
+     "found": "947 authorised ELEAM, of which only 22 are public (CIPER May 2025), plus an unknown number of irregular homes. After the Pitrufquen fire in Sep 2026 there are presidential calls for inspection, MINSAL publishes a weekly-updated list of ELEAM with valid sanitary authorisation, and Contraloria is reviewing the Coyhaique Seremi. The Supreme Court upheld a closure for lack of authorisation (rol 58.411-2024).",
+     "status": "screened"
+    },
+    {
+     "category": "34. Health-care and clinical waste generators (REAS DS 6/2009, SIDREP DS 148/2003)",
+     "found": "SIDREP declaration is due only above 12 kg of acute-toxic waste or 12 t of other hazardous waste per year, so most small clinics and dental offices are probably below the threshold. REAS DS 6/2009 plan de manejo applies to all care establishments. Registration goes through the RETC Ventanilla Unica. No specific software for small generators found.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Artisanal fishers and caletas (Sernapesca)",
+     "found": "The landing declaration needs RPA registration and traceability-system access; it is free online or at Sernapesca with ClaveUnica. No new 2026 duty found.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Forest products, firewood and timber dealers (Ley 21.488)",
+     "found": "Ley 21.488 strengthens control of the forest-product supply chain. SII Res. 75 (Nov 2024) updates the electronic dispatch guide and invoice rules for forestry taxpayers. CONAF is becoming SERNAFOR (Aug 2026). Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Corporate crime-prevention models (Ley 21.595 as amended by Ley 21.770, Sep 2025)",
+     "found": "Official MPD certification registry removed, replaced by periodic independent assessments. Horizontal and crowded; related to K13 and K17. Listed as weak.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "SEC estaciones de servicio combustibles declaración obligatoria distribuidores GLP 2026",
+    "cooperativas Chile obligaciones Departamento de Cooperativas informe anual ley 2026 nueva normativa",
+    "prestadores de salud Superintendencia de Salud registro obligación reporte clínicas laboratorios pequeños 2026",
+    "farmacias Chile ISP receta electrónica ley fármacos 2 control stock estupefacientes libro obligación farmacia 2026",
+    "UAF sujetos obligados corredores de propiedades notarios reporte operaciones sospechosas nueva obligación 2026 Chile",
+    "Registro Nacional de Prestadores de Servicios Turísticos arriendo temporal alojamiento turístico Sernatur 2026",
+    "SIDREP declaración residuos peligrosos establecimientos de salud clínicas dentistas obligación plazo multa SMA 2026",
+    "Registro Nacional de Corredores de Propiedades ley obligación inscripción plazo corredores Chile",
+    "exportadores pequeños Chile SAG certificación fitosanitaria trazabilidad madera leña CONAF Sernapesca 2026",
+    "SEC combustibles líquidos estaciones de servicio sistema inventario declaración mensual GLP trazabilidad cilindros normativa 2025",
+    "SAG declaración de cosecha producción existencias vitivinícola obligatoria viñas pequeñas plazo Chile",
+    "patente de alcoholes renovación semestral municipalidad Ley 19.925 cambios 2025 2026 botillerías restaurantes",
+    "Sernapesca pesca artesanal declaración de desembarque obligatoria caletas trazabilidad 2026",
+    "ELEAM establecimientos de larga estadía adultos mayores Seremi autorización sanitaria Registro obligación 2025 2026",
+    "Ley 21.595 delitos económicos modelo de prevención pymes obligación certificación Chile 2026",
+    "contratistas construcción Chile libro de obras digital DOM recepción final plataforma registro 2026",
+    "software gestión ELEAM hogar de ancianos Chile ficha residentes fiscalización Seremi sistema",
+    "software renovación patente de alcoholes botillería bar restaurante Chile gestión trámite patente semestral",
+    "software cumplimiento UAF corredores de propiedades inmobiliarias oficial de cumplimiento ROS Chile plataforma",
+    "software bodega vinos declaración de cosecha existencias SAG viñateros pequeños libro de bodega sistema Chile"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b25"
+ }
+}

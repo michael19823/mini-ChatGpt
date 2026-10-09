@@ -1,5 +1,112 @@
 # AML/CFT compliance kit for small obliged entities in Bosnia and Herzegovina (bosnia-and-herzegovina-b1)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: go. New score: 7/10 (old score: 6/10).**
+
+**The case.** Bookkeepers, accountants, auditors and real estate agents in BiH must keep a written AML risk assessment, internal policies, an authorised person, a training plan, client and PEP checks, indicator lists and records. Inspectors in both entities are checking these documents now ([FUZIP questionnaire](https://fuzip.gov.ba/obaveze-u-oblasti-sprecavanja-pranja-novca-upitnik-za-pruzaoce-knjigovodstvenih-i-racunovodstvenih-usluga/); [Paragraf, 29 Jan 2026](https://www.paragraf.ba/dnevne-vijesti/29012026/29012026-vijest1.html)). No state portal does any of this, and I found no BiH product that does. In Croatia, A-count sells this exact job to accounting offices for EUR 281-540 a year ([A-count](https://a-count.hr)). That proves the product shape and gives a price anchor. With roughly 2,500-3,500 buyers in BiH, a cheaper BiH version can reach about 130,000-230,000 KM (EUR 65,000-120,000) a year by year 3. That is a good bootstrapped business, not a large one.
+
+### Room for improvement over the portal or current practice
+
+- **There is no portal for the internal duties.** FUZIP publishes an 8-point questionnaire and risk-assessment guidelines (Apr 2026). It gives no templates or model acts. Contact is by e-mail or post ([FUZIP questionnaire page](https://fuzip.gov.ba/obaveze-u-oblasti-sprecavanja-pranja-novca-upitnik-za-pruzaoce-knjigovodstvenih-i-racunovodstvenih-usluga/)).
+- **The questionnaire is the spec.** It asks whether the firm has:
+  - a risk assessment;
+  - policies and controls, and measures in proportion to risk;
+  - client, beneficial-owner and PEP identification;
+  - ongoing monitoring;
+  - an authorised person and a deputy;
+  - an annual training plan;
+  - a current indicator list and the required records.
+  Inspectors want the documents as proof (same source). Software can produce and store every item.
+- **The pain is visible.** In January 2026 the RS Inspectorate gave randomly chosen bookkeepers and accountants 10 days to send their internal acts and a 13-item questionnaire, under threat of extraordinary inspection ([Paragraf, 29 Jan 2026](https://www.paragraf.ba/dnevne-vijesti/29012026/29012026-vijest1.html)). In the same article:
+  - a consultant called the rules "absurd" for one-person firms and said some questions cannot be answered at all;
+  - he had not finished his own documents;
+  - accountants said the work clashes with year-end closing and VAT deadlines, and that they find it hard to judge what is suspicious.
+- **What software adds that templates and seminars do not:**
+  - a risk assessment generated from a short firm profile;
+  - per-client CDD and PEP/sanctions checks with a risk score;
+  - the yearly review and expiring-document reminders;
+  - a training log;
+  - a records register;
+  - a one-click "inspection pack" that answers the FUZIP or RS questionnaire;
+  - multi-client use for consultants who serve several obliged firms.
+  A-count shows that buyers value this set: due diligence from an uploaded ID, risk assessments, sanctions screening, reminders and PDF records ([A-count](https://a-count.hr)).
+- **The professional body offers reading, not tools.** SRR FBiH publishes a 6-part AML booklet (2023) and a page on obligations. It offers no tool ([SRR FBiH](https://www.srr-fbih.org)).
+
+### Competitor reality check
+
+- **BiH:** no AML software for small obliged entities was found in 12 searches in Bosnian, Serbian, Croatian and English (this pass and the first). The old Rulebook only says that financial institutions "may use software", and names no product ([old Rulebook text](https://advokat-prnjavorac.com/zakoni/Pravilnik-o-sprovodenju-Zakona-o-sprecavanju-pranja-novca-i-finansiranja-teroristickih-aktivnosti.pdf)).
+- **Paragraf Lex seminars:** 175.50 KM (subscribers) or 198.90 KM with VAT for one day, Sarajevo 14 Oct and Banja Luka 15 Oct 2026. They teach the rules but include no templates or model acts ([Paragraf seminar](https://www.paragraf.ba/savjetovanje-strane/sprecavanje-pranja-novca-za-obveznike-sta-treba-znati-i-kako-prepoznati.html)). They are training, not a tool.
+- **Consultants:** Forvis Mazars sells AML support (risk matrices, training, internal control) in Serbia, with no public price and no BiH page ([Forvis Mazars RS](https://www.forvismazars.com/rs/sr/nase-usluge/savetovanje/aml-podrska-ili-spnft-podrska)). I found no BiH consultant with a published AML package price (unverified).
+- **A-count (Croatia):** this is the real benchmark. It does the whole job for Croatian law. It costs:
+  - free for up to 5 clients;
+  - EUR 281 a year for up to 20 clients;
+  - EUR 540 a year for unlimited clients and extra users.
+  Prices include VAT, and there is a 30-day trial ([A-count](https://a-count.hr)). It is reasonably priced for Croatia. The site mentions only Croatia and the EU, with no BiH law, forms or language variants. It is a threat if it localises, not an incumbent today.
+- **UK tools** (Credas, Thirdfort, FigsFlow, SmartSearch) have no BiH forms ([FigsFlow list](https://figsflow.com/uk/top-6-aml-software-for-accountants-in-2025/)).
+- **Bottom line.** No local product does the job. The only good product in the region is foreign and priced for an EU market.
+
+### Price per customer
+
+- **What buyers pay now:**
+  - a seminar costs about 175-199 KM per person ([Paragraf seminar](https://www.paragraf.ba/savjetovanje-strane/sprecavanje-pranja-novca-za-obveznike-sta-treba-znati-i-kako-prepoznati.html));
+  - fines start at 5,000 KM, and run 20,000-80,000 KM for a missing risk analysis or poor CDD ([Paragraf, 1 Oct 2026](https://www.paragraf.ba/dnevne-vijesti/01102026/01102026-vijest1.html));
+  - the staff time falls in the busiest weeks ([Paragraf, 29 Jan 2026](https://www.paragraf.ba/dnevne-vijesti/29012026/29012026-vijest1.html)).
+- **Anchor.** A-count's EUR 281 and EUR 540 a year equal about 550 KM and 1,056 KM (at the fixed 1.95583 KM/EUR peg) ([A-count](https://a-count.hr)). BiH firms are poorer and more price-sensitive, so I would price at about half of that (my estimate):
+  - **Solo bookkeeper or small agency:** 300 KM a year (about EUR 150), up to 30 clients.
+  - **Bookkeeping office:** 600 KM a year (about EUR 300), unlimited clients and 3 users.
+  - **Consultant or multi-entity plan:** 1,200 KM a year (about EUR 600) to manage up to 10 obliged firms, plus 100 KM per extra firm.
+  - **Optional one-off setup:** 150 KM for a document review call or an inspection pack.
+- **Blended average:** about 450 KM (EUR 230) per paying customer a year (my estimate, unverified).
+
+### Revenue estimate (year 3)
+
+- **Buyers.** There is no BiH count of bookkeeping firms (searched; not found).
+  - Serbia's register of accounting service providers held 5,476 legal entities and sole traders at 31 Aug 2023 ([biznis.rs](https://biznis.rs/vesti/srbija/vodjenje-poslovnih-knjiga-poveravati-samo-firmama-sa-dozvolom/)). BiH has roughly half Serbia's population, which gives about 2,500-2,700 providers (my estimate, unverified).
+  - FBiH has 135 registered real estate agencies ([prostor.ba](https://prostor.ba/en/clanak/37)), so about 250-350 nationwide (unverified).
+  - Add auditors, tax advisers, dealers and TCSPs, which are also on the FUZIP inspection list ([Paragraf, 1 Oct 2026](https://www.paragraf.ba/dnevne-vijesti/01102026/01102026-vijest1.html)).
+  - Working base: **3,000 obliged small entities**.
+- **Base case.** 3,000 x 10% share x 450 KM = **135,000 KM a year (about EUR 69,000)**.
+- **Good case.** 3,000 x 15% x 500 KM = **225,000 KM a year (about EUR 115,000)**.
+- **Low case.** 2,000 x 6% x 350 KM = **42,000 KM a year (about EUR 21,500)**.
+- **Upside not counted:** the same engine could serve Montenegro, Serbia or North Macedonia under similar laws. Serbia alone has 5,476 accounting providers ([biznis.rs](https://biznis.rs/vesti/srbija/vodjenje-poslovnih-knjiga-poveravati-samo-firmama-sa-dozvolom/)).
+
+### Ease of implementation and sale
+
+- **Build: easy to medium.** It needs:
+  - a firm-profile wizard;
+  - a document generator (DOCX/PDF);
+  - a client register with CDD forms;
+  - checks against public sanctions lists;
+  - reminders.
+  There is no integration with a state system, because the inspector gets documents by e-mail or paper ([FUZIP](https://fuzip.gov.ba/obaveze-u-oblasti-sprecavanja-pranja-novca-upitnik-za-pruzaoce-knjigovodstvenih-i-racunovodstvenih-usluga/)). One developer plus a local AML lawyer for review could ship a first version in 2-3 months (my estimate).
+- **Onboarding: easy.** A firm fills one profile and gets its document set the same day. Nothing to install.
+- **Sale: medium.** There is a clear trigger: FUZIP inspections run to end-2026 ([Paragraf, 1 Oct 2026](https://www.paragraf.ba/dnevne-vijesti/01102026/01102026-vijest1.html)), RS checks are ongoing, and grey-list pressure continues. The channels are concentrated:
+  - SRR FBiH, which runs CPD only through authorised providers ([SRR FBiH](https://www.srr-fbih.org));
+  - the RS accountants' association;
+  - Paragraf seminar attendees.
+  Buyers resent the duty and want it cheap ([Paragraf, 29 Jan 2026](https://www.paragraf.ba/dnevne-vijesti/29012026/29012026-vijest1.html)).
+
+### Remaining risks
+
+- **A-count or another Croatian or Serbian vendor localises for BiH.** Move first and lock in the associations.
+- **The buyer count is an estimate.** No BiH register figure was found (unverified).
+- **Renewal risk.** Pressure may fade after grey-list exit (likely 2028 or later, my estimate). Firms may stop paying once their documents exist. The client register and yearly review are what keep them subscribed.
+- **Templates are cheap to copy.** Paragraf or a consultant could publish model acts. FUZIP could too, though today it publishes none ([FUZIP](https://fuzip.gov.ba/obaveze-u-oblasti-sprecavanja-pranja-novca-upitnik-za-pruzaoce-knjigovodstvenih-i-racunovodstvenih-usluga/)).
+- **Rules differ between FBiH, RS and Brcko,** and RS politics around SIPA add uncertainty ([Paragraf, 19 Mar 2025](https://www.paragraf.ba/dnevne-vijesti/19032025/19032025-vijest3.html)).
+- **Liability if a customer is fined.** Use disclaimers and a lawyer review.
+- **The 2026 Rulebook's full text was not read in this pass.** The copy I fetched is the older 2015/2023 version (unverified whether the new one adds forms).
+
+### New sources
+
+- https://a-count.hr
+- https://fuzip.gov.ba/obaveze-u-oblasti-sprecavanja-pranja-novca-upitnik-za-pruzaoce-knjigovodstvenih-i-racunovodstvenih-usluga/
+- https://www.paragraf.ba/savjetovanje-strane/sprecavanje-pranja-novca-za-obveznike-sta-treba-znati-i-kako-prepoznati.html
+- https://www.paragraf.ba/dnevne-vijesti/29012026/29012026-vijest1.html
+- https://biznis.rs/vesti/srbija/vodjenje-poslovnih-knjiga-poveravati-samo-firmama-sa-dozvolom/
+- https://www.srr-fbih.org
+- https://advokat-prnjavorac.com/zakoni/Pravilnik-o-sprovodenju-Zakona-o-sprecavanju-pranja-novca-i-finansiranja-teroristickih-aktivnosti.pdf
+
 ## Summary
 
 **Verdict: maybe. Score: 6/10.**

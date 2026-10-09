@@ -1,5 +1,70 @@
 # Chile B4: UAF anti-money-laundering kit for property brokers, real-estate firms and notaries
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10 (old score: 4/10).**
+
+**The case.** About 3,980 property brokers, real-estate firms, notaries and conservadores are registered with the UAF ([CIPER/UAF list](https://www.ciperchile.cl/wp-content/uploads/Buscador_sujetos_obligados_inscritos_en_la_UAF_al_30.06.2025.xlsx-Entidades-Supervisadas.pdf)). Under Circular 62 they must keep files and registers that the free UAF portal does not hold. The portal only takes registration, ROS and ROE ([Prieto](https://www.prieto.cl/en/uaf-implementa-autenticacion-mediante-clave-unica-en-el-portal-de-entidades-reportantes-2/)). The only Chilean AML software vendors are quote-only and aim at mid-size or regulated firms. None shows a real-estate SME package ([ComparaSoftware](https://www.comparasoftware.com/regcheq); [gesintel.cl](https://www.gesintel.cl/)). A cheap "UAF in a box" for brokers, developers and notaries, sold also to the accountants and consultants who serve them, could reach about USD 160,000 a year by year 3. That is a good one-person or two-person business. The main weakness is still weak enforcement pressure on small firms, so this is a "maybe" and not a "go".
+
+**Room for improvement over the portal or current practice.**
+- The portal does not keep the client file, the beneficial-owner declarations, the UN list screening evidence, the PEP register, the training record or the manual. Circular 62 requires all of these ([Prieto, Circular 62](https://www.prieto.cl/nueva-circular-n62-instrucciones-generales-para-sujetos-obligados-segun-la-ley-19-9133/); [AZ](https://www.az.cl/claves-para-entender-el-impacto-regulatorio-de-la-circular-n62-de-la-uaf/)).
+- Circular 62 adds a new register of every analysed suspicious case. It must show the open and close dates, the reasons, the conclusion, and why a ROS was filed or not. It must be kept for five years and shown at inspections ([Cuatrecasas](https://www.cuatrecasas.com/es/latam/gobierno-corporativo-compliance/art/unidad-analisis-financiero-dicta-circular-62-sujetos-obligados)). This is pure record-keeping that a small firm will do badly in Excel.
+- Beneficial-owner checks now apply to every obligated sector. The threshold for one-off deals fell from USD 15,000 to USD 3,000 ([Cuatrecasas](https://www.cuatrecasas.com/es/latam/gobierno-corporativo-compliance/art/unidad-analisis-financiero-dicta-circular-62-sujetos-obligados); [LexLatin](https://lexlatin.com/opinion/circular-62-uaf-guia-programas-antilavado)). So almost every property deal with a company client now needs a declaration, a check and a 40-business-day chase ([AZ](https://www.az.cl/claves-para-entender-el-impacto-regulatorio-de-la-circular-n62-de-la-uaf/)).
+- Deadlines are easy to miss: ROE every month, quarter or half-year by sector, data changes within 10 business days, a manual update every two years, and training every year ([Prieto, Circular 62](https://www.prieto.cl/nueva-circular-n62-instrucciones-generales-para-sujetos-obligados-segun-la-ley-19-9133/)). In 2018, 86 of 199 UAF fines were for late or missing ROE ([Diario Estrategia](https://www.diarioestrategia.cl/texto-diario/mostrar/1401968/uaf-usuarios-zonas-francas-corredores-propiedades-notarios-empresas-gestion-inmobiliarias-explican-55-multas-infracciones-normativa-antivalado)). Deadline tracking fixes this directly.
+- Missing manuals and missing training are the classic findings in real estate ([Prieto 2021](https://www.prieto.cl/en/sanciones-de-la-uaf-2021-empresas-del-sector-inmobiliario-y-administradoras-de-fondos-de-inversion-fueron-las-mas-sancionadas-2/)). Brokers have led UAF sanction counts for years, for example 18 of 80 cases in early 2011 ([DF 2011](https://www.df.cl/empresas/banca-instituciones-financieras/uaf-inicio-80-procesos-sancionatorios-por-incumplir-normas-anti-lavado)).
+- Cuatrecasas lawyers say the regime offers small entities little flexibility. They also say firms have long followed a box-ticking mindset that the new risk-based approach no longer fits ([LexLatin](https://lexlatin.com/opinion/circular-62-uaf-guia-programas-antilavado)). That is a gap a guided tool can fill.
+- Portal login moves to Clave Única on 19 October 2026 ([Prieto](https://www.prieto.cl/en/uaf-implementa-autenticacion-mediante-clave-unica-en-el-portal-de-entidades-reportantes-2/)). This creates a natural moment to reach every registered entity.
+- I found no public user complaints about the portal itself (unverified). The case rests on record-keeping and deadlines, not on portal usability.
+- Multi-entity work is real. Many of the 2,009 real-estate firms are one-project SPVs of the same developer group ([CIPER/UAF list](https://www.ciperchile.cl/wp-content/uploads/Buscador_sujetos_obligados_inscritos_en_la_UAF_al_30.06.2025.xlsx-Entidades-Supervisadas.pdf), my tally). One group may run 5 to 20 obligated entities, each with its own officer, manual and registers (unverified count).
+
+**Competitor reality check.**
+- **Regcheq.** Covers Ley 19.913 with KYC, sanctions-list monitoring and ROS. It also covers other laws (20.393, 21.595, Ley Karin). It has quote-only pricing, no published plans and no reviews. Its listed target is firms with 50 to 249 staff ([ComparaSoftware](https://www.comparasoftware.com/regcheq)). I found no real-estate content or SME plan (unverified). It is a broad compliance suite, not a broker kit.
+- **Gesintel AMLupdate.** Due diligence, monitoring, beneficial-owner finder and PEP lists. It lists notaries and large firms, not brokers or developers. No public price ([gesintel.cl](https://www.gesintel.cl/)). It is a real rival for notaries only.
+- **Law firms.** Prieto, Carey, AZ, Cuatrecasas and others publish Circular 62 alerts but show no prices ([Prieto](https://www.prieto.cl/nueva-circular-n62-instrucciones-generales-para-sujetos-obligados-segun-la-ley-19-9133/); [AZ](https://www.az.cl/claves-para-entender-el-impacto-regulatorio-de-la-circular-n62-de-la-uaf/)). Their manuals are one-off documents with no registers or tracking. Hourly legal fees are likely too high for a sole broker (unverified).
+- **Simplo.** A free SME guide with an editable document on UAF duties. It is a template, not a register or tracker, and it does not target brokers ([Simplo](https://simplo.cl/prevencion-lavado-activos-uaf-empresa/)). It is a free substitute for the manual only.
+- **Broker CRMs.** My Spanish search found no Chilean broker CRM with a UAF or due-diligence module (search found none; unverified for each CRM).
+- **Conclusion.** No local product does the whole job for a small broker or developer at a visible SME price. The incumbents are partial or enterprise-priced. That is an opening, not a killer.
+
+**Price per customer.** 1 UF was CLP 40,844.79 on 10 July 2026 ([Pauta](https://www.pauta.cl/dato-en-pauta/2026/07/10/uf-a-peso-chileno-precio-de-la-uf-para-este-viernes-10-de-julio.html)). The exchange rate of about CLP 950 per USD is my assumption (unverified).
+- Today's cost of not complying: average real-estate fines of 27 to 42 UF per sanction in 2018 ([Diario Estrategia](https://www.diarioestrategia.cl/texto-diario/mostrar/1401968/uaf-usuarios-zonas-francas-corredores-propiedades-notarios-empresas-gestion-inmobiliarias-explican-55-multas-infracciones-normativa-antivalado)), with a legal ceiling of 800 to 5,000 UF ([iura.cl](https://iura.cl/19913/20)). A year's subscription should cost less than one typical fine.
+- Solo broker: 0.5 UF a month, or 6 UF a year (about CLP 245,000). My estimate (unverified).
+- Developer group: 1.25 UF a month for the group plus SPVs, or 15 UF a year. My estimate (unverified).
+- Notary or conservador: 2 UF a month, or 24 UF a year. Notaries handle many deals and are among the most inspected ([DF 2024](https://www.df.cl/mercados/banca-fintech/bancos-y-administradoras-generales-de-fondos-concentraron-mas-de-la)). My estimate (unverified).
+- Accountant or consultant plan: about 3 UF a month for up to 10 client entities, then 0.25 UF per extra entity. My estimate (unverified).
+- No public consultant or SaaS prices were found to benchmark against (unverified).
+
+**Revenue estimate (year 3).**
+- Brokers: 1,383 x 10% x 6 UF = 830 UF.
+- Developer groups: about 700 distinct groups behind 2,009 real-estate firms (unverified estimate) x 10% x 15 UF = 1,050 UF.
+- Notaries and conservadores: 589 x 8% x 24 UF = 1,131 UF.
+- Adjacent SME sectors on the same platform (exchange houses 329, auction houses 282, vehicle dealers 278, customs agents 273 = 1,162) x 5% x 12 UF = 697 UF.
+- Total: 830 + 1,050 + 1,131 + 697 = 3,708 UF a year. That is about CLP 151 million, or about USD 160,000 (counts from the [CIPER/UAF list](https://www.ciperchile.cl/wp-content/uploads/Buscador_sujetos_obligados_inscritos_en_la_UAF_al_30.06.2025.xlsx-Entidades-Supervisadas.pdf); shares and prices are my estimates).
+- Upside: if the broker licensing bill passes, thousands of unregistered brokers would come in. Industry sources put active brokers at 5,000 to more than 20,000 ([Emol](https://www.emol.com/noticias/Economia/2025/08/27/1176126/corredores-de-propiedades.html); [ECIJA](https://www.ecija.com/actualidad-insights/proyecto-de-ley-boletin-n-18241-03/)). Bill status is unverified.
+
+**Ease of implementation and sale: medium-high.**
+- Building it is simple. It needs a manual generator, forms, registers, a UN list check and reminders. It needs no filing integration in version 1, because users file on the portal. The UN consolidated list is public.
+- Onboarding is short: a questionnaire, a client import and a staff list.
+- Every target entity is listed by name and RUT in the public UAF register ([CIPER/UAF list](https://www.ciperchile.cl/wp-content/uploads/Buscador_sujetos_obligados_inscritos_en_la_UAF_al_30.06.2025.xlsx-Entidades-Supervisadas.pdf)). That makes direct outreach easy.
+- Channels: the broker trade body ACOP ([Revista Economía](https://www.revistaeconomia.com/acop-suma-nuevos-actores-regionales-a-su-agenda-de-profesionalizacion-del-corretaje-inmobiliario/)) and accountants as resellers (unverified).
+- The hard part is selling to firms that feel little pressure. A Chilean AML lawyer must also review the templates.
+
+**Remaining risks.**
+- Weak pressure: about 1% yearly inspection odds for real-estate firms, from 27 inspections in 2023 ([DF 2024](https://www.df.cl/mercados/banca-fintech/bancos-y-administradoras-generales-de-fondos-concentraron-mas-de-la)), and small typical fines. Many owners will do nothing.
+- Regcheq or Gesintel could launch a cheap real-estate plan.
+- The UAF could add free tools, such as e-learning.
+- Still unverified: the ROE frequency for brokers, whether a nil ROE is required, and whether a micro firm's owner may act as compliance officer. Neither Prieto nor Cuatrecasas states these ([Prieto, Circular 62](https://www.prieto.cl/nueva-circular-n62-instrucciones-generales-para-sujetos-obligados-segun-la-ley-19-9133/); [Cuatrecasas](https://www.cuatrecasas.com/es/latam/gobierno-corporativo-compliance/art/unidad-analisis-financiero-dicta-circular-62-sujetos-obligados)).
+- I found no 2024 or 2025 sector sanction totals (unverified).
+- Liability for weak templates, and the new data law, Ley 21.719 (in-force date unverified).
+
+**New sources.**
+- https://www.prieto.cl/nueva-circular-n62-instrucciones-generales-para-sujetos-obligados-segun-la-ley-19-9133/
+- https://www.cuatrecasas.com/es/latam/gobierno-corporativo-compliance/art/unidad-analisis-financiero-dicta-circular-62-sujetos-obligados
+- https://lexlatin.com/opinion/circular-62-uaf-guia-programas-antilavado
+- https://simplo.cl/prevencion-lavado-activos-uaf-empresa/
+- https://www.df.cl/empresas/banca-instituciones-financieras/uaf-inicio-80-procesos-sancionatorios-por-incumplir-normas-anti-lavado
+- https://www.pauta.cl/dato-en-pauta/2026/07/10/uf-a-peso-chileno-precio-de-la-uf-para-este-viernes-10-de-julio.html
+- https://www.comparasoftware.com/regcheq (re-checked: quote-only, 50 to 249 staff, no reviews)
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

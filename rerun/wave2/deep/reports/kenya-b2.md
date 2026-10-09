@@ -1,5 +1,75 @@
 # Kenya B2: AML/goAML onboarding and CDD-record pack for small estate agencies and law firms
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10. Old score: 4/10.**
+
+**The case.** Kenyan estate agents and law firms must keep CDD files, screen clients, hold a written risk assessment and policy, log training and MLRO decisions, and report weekly on deals over USD 15,000 (https://www.businessdailyafrica.com/bd/economy/state-seeks-home-buyers-identity-in-illicit-cash-fight-5119728 ; https://lsk.or.ke/wp-content/uploads/2026/08/AML_CFT_CPF_FAQs_Law_Firms.pdf). The free tools (goAML, the LSK hub) cover registration, filing and a policy template only. No state or LSK tool keeps the client file, screening log or inspection pack (https://lsk.or.ke/aml-cft-cpf-compliance-hub/). I found no Kenyan product that does this job for small firms. So the free portal is not a killer and the field is open. What holds the score down is demand: enforcement is thin, no DNFBP fine is public, and the paying pool is a few hundred firms at low Kenyan software prices.
+
+**Room for improvement over the portal or current practice**
+- goAML only takes registrations and reports. It holds no CDD records, risk scores, screening logs, training logs or risk assessment. All of these must be kept for 7 years and shown on inspection (LSK FAQ Q16-Q17, Q27-Q31, https://lsk.or.ke/wp-content/uploads/2026/08/AML_CFT_CPF_FAQs_Law_Firms.pdf).
+- The LSK hub gives a template policy, guidance and a statistical questionnaire returned "in PDF format" by email. It has no CDD tool, no AML reporting portal and no ERP module live as of October 2026 (https://lsk.or.ke/aml-cft-cpf-compliance-hub/). The LSK FAQ says an ERP module for STR/SAR/CTR filing is still being built (FAQ Q23, link above).
+- Agents must send a weekly Friday report on deals over KSh 1.94m with the buyer's name, ID, address, occupation, source of income and corporate beneficial owners (https://www.businessdailyafrica.com/bd/economy/state-seeks-home-buyers-identity-in-illicit-cash-fight-5119728). Capturing these fields once at onboarding and reusing them is a clear data-prep job.
+- Sanctions checks must run before onboarding and before each deal, against the UN list and Kenyan TFS notices. The LSK published 14 notices (No. 1-13 and 15) in 2026 alone (https://lsk.or.ke/aml-cft-cpf-compliance-hub/). Tracking these by hand is slow and easy to get wrong.
+- Portal pain evidence is weak. I found no user complaints, help videos or error-rate data for Kenya's goAML. The FRC site and goAML landing page both returned HTTP 503 when I fetched them on 9 Oct 2026 (one data point only). Low take-up hints at friction or indifference: 455 entities registered against a target of 990 in FY2024/25, and 112 of 1,504 targeted agents by October 2025 (https://www.businessdailyafrica.com/bd/economy/budget-cuts-hit-kenya-s-fight-against-dirty-cash-5331662 ; https://www.businessdailyafrica.com/bd/corporate/companies/property-agents-face-daily-fines-for-hiding-home-buyers-5239650).
+- Whether Kenya's goAML accepts XML upload is still unconfirmed. Vendor pages say goAML generally does, but none cite the FRC (https://youverify.co/en/solution/regulatory-reporting) (unverified for Kenya).
+- Multi-client work: consultants such as FNJ & Associates sell risk assessments, policies, training and audit readiness to "lawyers, accountants, real estate agents, and other DNFBPs" (https://fnjassociates.co.ke/?p=2469). A tool that lets one consultant run 10-30 client files is a real gap.
+
+**Competitor reality check**
+- **Trigarc Compliance (FNJ & Associates).** A Kenyan cloud AML obligations tracker: monthly self-assessment, reminders, audit trail, STR timelines. Its named targets are banking groups, insurers, SACCO networks and international NGOs, not DNFBPs. It does not mention KYC, sanctions/PEP screening or goAML. Price is quote-only, based on locations, users and obligations (https://fnjassociates.co.ke/?p=2475). Verdict: built for bigger institutions. Not a small-firm CDD file.
+- **Kenyan law practice software** (SheriaSoft, WakiliCMS, EliteLaw, E-Wakili, Jurify, AkiliLex, Aneta). These cover cases, billing, diaries and client portals. None of the listings I saw mentions KYC or AML (https://www.businessdailyafrica.com/bd/corporate/technology/sheriasoft-takes-law-firm-tasks-to-cloud-2177482 ; https://mwm.ai/apps/jurify/6777961592 ; https://techindex.law.stanford.edu/companies/akililex). They are partners or channels, not killers.
+- **KYC vendors** (Smile ID, Youverify, Sumsub, Zigram). They hold the ID-check and screening rails but sell to banks and fintechs. Smile ID's pricing page redirects to "talk to an expert" (https://www.usesmileid.com/pricing). Zigram's Kenya page targets financial institutions (https://www.zigram.tech/?p=37915). None packages a DNFBP workflow at small-firm prices. They are suppliers to plug in.
+- **LSK hub and ERP module.** Free templates today. The planned module is for filing, not CDD records (LSK FAQ Q23). It could grow (unverified).
+- **Consultants.** The real incumbent for firms that pay. No prices published (https://fnjassociates.co.ke/?p=2469). Kenyan freelance AML analysts on Upwork list about USD 30-70 an hour (https://www.upwork.com/hire/anti-money-laundering-aml-freelancers/ke/).
+- Net: no local product does the whole small-firm job. The nearest ones are partial (Trigarc), generic (KYC rails) or free but thin (LSK hub). This is an opening.
+
+**Price per customer**
+- Today's costs: consultant time at about USD 30-70 an hour (Upwork link above); a risk assessment plus policy probably KSh 50,000-300,000 one-off (unverified); fines of up to KSh 25m plus KSh 10,000 a day on paper (https://www.businessdailyafrica.com/bd/corporate/companies/property-agents-face-daily-fines-for-hiding-home-buyers-5239650).
+- Software anchors are low. Kenyan property software runs from free to about USD 77 a month (https://www.softwaresuggest.com/property-management-software/kenya). Global entry-level law practice software is about USD 42 per user per month (https://www.capterra.com/law-practice-management-software/pricing-guide).
+- Suggested prices (my estimate):
+  - Small firm (1-20 staff): KSh 4,000 a month (about USD 31), or KSh 40,000 a year.
+  - Per-check ID/sanctions fee at cost plus margin, recharged to clients as a disbursement, which the LSK allows (LSK FAQ Q9).
+  - Consultant or accountant edition: KSh 20,000 a month (about USD 155) for up to 25 client firms.
+  - Optional one-off setup (risk assessment wizard plus policy): KSh 15,000.
+- USD conversions use about KSh 129 per USD, implied by "USD 15,000 (Sh1.94 million)" (https://www.businessdailyafrica.com/bd/economy/state-seeks-home-buyers-identity-in-illicit-cash-fight-5119728).
+
+**Revenue estimate (year 3)**
+- Law firms: about 3,000-6,000 firms in scope (my estimate from about 17,000 active advocates, https://www.the-star.co.ke/news/2025-11-23-is-kenya-over-producing-law-graduates ; unverified). Take 4,000 x 3% = 120 firms x KSh 40,000 = KSh 4.8m.
+- Estate agencies: 1,504 targeted by the FRC (Business Daily link above). 1,504 x 5% = 75 x KSh 40,000 = KSh 3.0m.
+- Other DNFBPs (113 precious-metal dealers, 30 TCSPs and others profiled, https://www.businessdailyafrica.com/bd/economy/real-estate-law-firms-top-kenya-s-money-laundering-risk-list-5540984): 20 x KSh 40,000 = KSh 0.8m.
+- Consultants and accountants: 15 x KSh 240,000 = KSh 3.6m.
+- Setup fees: 60 new firms a year x KSh 15,000 = KSh 0.9m.
+- Check fees margin: 215 firms x 100 checks a year x KSh 50 = KSh 1.1m (unverified volumes).
+- **Total: about KSh 14.2m a year, about USD 110,000.** A downside case at half these shares gives about KSh 7m (USD 55,000). An upside case if the FRC starts fining DNFBPs could double it.
+
+**Ease of implementation and sale**
+- Build: easy to medium. Forms, PDF records, UN-list screening, a risk wizard, logs and an export. All rules are in English (https://lsk.or.ke/wp-content/uploads/2026/08/AML_CFT_CPF_FAQs_Law_Firms.pdf). A first version takes weeks. Onboarding a small firm is light.
+- Sale: medium to hard. Buyers are fragmented and cost-sensitive. Pressure is uneven: the FRC made 44 DNFBP inspections against a target of 487 in FY2024/25 (https://www.businessdailyafrica.com/bd/economy/budget-cuts-hit-kenya-s-fight-against-dirty-cash-5331662). But 153 agencies and 74 law firms rated medium or high risk face a 2026 on-site cycle, and these are named, reachable leads via the EARB gazette (https://www.businessdailyafrica.com/bd/economy/real-estate-law-firms-top-kenya-s-money-laundering-risk-list-5540984 ; https://estateagentsboard.or.ke/official-publication-of-the-2026-kenya-gazette-registered-estate-agents-and-estate-agents-companies/).
+- Kenya was still on the FATF grey list in September 2026, which keeps supervision pressure on (https://www.kenyanews.go.ke/?p=182915).
+- Best routes: consultants as resellers, LSK branch CPD events, and law practice software vendors as add-on partners.
+
+**Remaining risks**
+- Weak enforcement. No published FRC or LSK fine on an estate agent or law firm (first-pass search; nothing new found). Grey-list exit could ease pressure.
+- The LSK module could expand from filing into CDD records for advocates (unverified).
+- Advocates may not trust a third party with client ID data. Data Protection Act duties apply (unverified detail).
+- Small revenue ceiling: about USD 50,000-200,000 a year on these numbers. Good for a one- or two-person business, not more.
+- Portal pain is not proven. The value lies in record-keeping and inspection readiness, not in fixing goAML.
+
+**New sources**
+- https://lsk.or.ke/aml-cft-cpf-compliance-hub/ (fetched 9 Oct 2026)
+- https://fnjassociates.co.ke/?p=2475 (Trigarc Compliance)
+- https://fnjassociates.co.ke/?p=2469
+- https://www.businessdailyafrica.com/bd/economy/state-seeks-home-buyers-identity-in-illicit-cash-fight-5119728
+- https://www.businessdailyafrica.com/bd/corporate/technology/sheriasoft-takes-law-firm-tasks-to-cloud-2177482
+- https://mwm.ai/apps/jurify/6777961592
+- https://techindex.law.stanford.edu/companies/akililex
+- https://www.zigram.tech/?p=37915
+- https://www.usesmileid.com/pricing (redirects to a sales contact)
+- https://youverify.co/en/solution/regulatory-reporting
+- https://www.upwork.com/hire/anti-money-laundering-aml-freelancers/ke/
+- https://www.capterra.com/law-practice-management-software/pricing-guide
+- https://www.kenyanews.go.ke/?p=182915
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

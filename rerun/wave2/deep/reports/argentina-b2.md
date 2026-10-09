@@ -1,5 +1,112 @@
 # Argentina B2: an INAES compliance desk for small mutuales and co-operatives
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10. Old score: 4/10.**
+
+### The case
+Lending mutuales and credit co-operatives carry two stacks of duties. INAES handles one stack through free web forms: the monthly lending return, the member roll and the new AML module. The UIF handles the other stack, and no state portal supports it: a yearly risk self-assessment, a yearly external review, an AML manual, member files, transaction monitoring and a training register (https://www.consejo.org.ar/storage/attachments/Resoluci%C3%B3n%20UIF%2099-2023%20-%20Asoc%20mutuales%20-5PZL7x2v5w.pdf). The INAES monthly form is manual, field by field, with no file import (https://contadoresenred.com/wp-content/uploads/2026/06/Instructivo.pdf). One product could prepare the INAES data and keep the UIF records, and sell to accountants who serve several mutuales. The market is small, about 2,000 entities (unverified). One young local AML tool, CONLAFT, already targets it. So this is a viable small business, not a large one.
+
+### Room for improvement over the portal or current practice
+- **The monthly form is manual entry only.**
+  - Each annex field starts at "0" and is typed in by hand. The 20 largest members are added one row at a time with "Agregar fila". https://contadoresenred.com/wp-content/uploads/2026/06/Instructivo.pdf
+  - The consistency check runs only after all annexes are typed in ("Validar Consistencia"). Errors then show in red and must be fixed on screen. https://contadoresenred.com/wp-content/uploads/2026/06/Instructivo.pdf
+  - The supervisory-board members must be loaded on each filing. https://contadoresenred.com/wp-content/uploads/2026/06/Instructivo.pdf
+  - The user guide shows no import button (checked in the guide's text; the live system was not seen).
+  - The data comes from the loan ledger and cash records. It covers cash and investments, savings and loans, technical ratios, the loan book by status, and bad-debt reserves (Annexes I-V, VII). https://contadoresenred.com/wp-content/uploads/2026/06/Instructivo.pdf A tool can compute these figures and check them before anyone types them in.
+- **Evidence of portal pain.**
+  - INAES itself says the old spreadsheet flow "generaba reiterados inconvenientes técnicos" with operating systems and spreadsheet software. https://www.argentina.gob.ar/normativa/nacional/norma-427021/texto
+  - Overdue periods must be re-entered in the new system. https://www.argentina.gob.ar/normativa/nacional/norma-427021/texto
+  - Accountant sites publish step-by-step guides. https://contadoresenred.com/inaes-regimen-informativo-del-servicio-de-ayuda-economica-mutual-transmision-web-instructivo/
+  - Res 1687/2026 lists loan-brokering mutuales that had not filed their quarterly data up to the end of 2025. They got 30 days to file, or their rules lapse. https://siap.blogdelcontador.com.ar/novedades/inaes-30-dias-mutuales-presentar-informacion-adeudada-prestamos/ The number of entities on the list was not found (unverified).
+  - Res 565/2026 withdrew the licence of mutuales that had missed filings from 2017 to 2024. https://www.boletinoficial.gob.ar/detalleAviso/primera/339254/20260310
+- **Record-keeping that no portal does (UIF Res 99/2023):**
+  - a written risk self-assessment and its method, updated every year and sent to the UIF and INAES by 30 April. Lenders that use only their own funds or payroll deduction may file every two years.
+  - a yearly external independent review, reported to the UIF within 120 days of the self-assessment deadline;
+  - an AML manual, reviewed every year;
+  - a yearly training plan and a record of the training given;
+  - ongoing customer due diligence and up-to-date member files (legajos);
+  - risk-based alerts and monitoring;
+  - records kept for 10 years.
+  - All of the above: https://www.consejo.org.ar/storage/attachments/Resoluci%C3%B3n%20UIF%2099-2023%20-%20Asoc%20mutuales%20-5PZL7x2v5w.pdf
+  - The new INAES AML module (Res 1567/2026) then asks for proof of parts of this: the compliance officers, the manual and its board minute, PEP statements and loan totals. The first filing is due 1 Dec 2026, then every year by 20 January. https://www.consejosalta.org.ar/wp-content/uploads/INAES-1567.pdf
+- **Many entities and many deadlines.** Each entity has 12 monthly returns, a quarterly or yearly roll, the yearly AML filing, the UIF self-assessment by 30 April, the external review and assembly filings. An accountant with 10 clients tracks more than 200 deadlines a year. This is an estimate from the duty list above.
+
+### Competitor reality check
+- **INAES portals.** They are free, but they only receive data. They do not compute, store history across entities, track deadlines or keep UIF records (see above).
+- **CONLAFT S.R.L.** This is the closest local product.
+  - It is based in Rafaela, Santa Fe (phone area code 3492), was founded on 20/05/2024 and has 8 staff.
+  - It sells AML software for mutuales, co-operatives and accountants, covering the risk matrix, KYC, member files, monitoring and reports.
+  - It also writes self-assessment reports and manuals, and runs training.
+  - It reports 5 deployed systems.
+  - Source for all of the above: https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf ; https://www.conlaft.com/
+  - Its price is not public (unverified).
+  - It does not claim INAES monthly-return preparation or roll export (unverified; the website renders no text to a fetch).
+  - With 5 deployments, it covers only a tiny share of about 2,000 obligated entities. It shows that the market exists and will buy. It is not a killer.
+- **Grupo Neo Sistemas (MutualOnline).** This is a mutual ERP for members and member-run stores. No INAES export and no UIF features were found. No price was found. https://apps.apple.com/ca/app/mutualonline/id6480014182
+- **Gestion Socios.** A club and association membership tool, with no INAES or UIF features. https://www.capterra.in/software/1238063/Gestion-Socios
+- **Accountants and consultants.** They do the work by hand today and are the natural buyers, not competitors. Searches found no packaged INAES data-prep tool and no published price for outsourced AML compliance (unverified).
+
+### Price per customer
+- **Today's cost anchors.**
+  - Accountant fee schedules are indexed to inflation. Salta's minimum-fee module is ARS 18,500 from 1 Oct 2026. https://www.consejosalta.org.ar/2026/06/actualizacion-del-valor-modulo-para-honorarios-minimos-profesionales/
+  - Santiago del Estero's co-operative and mutual graduates charge in MATES units of ARS 10,870 (Dec 2025). Founding a mutual costs 20 units. https://cpcese.org.ar/documentos/afiche%20LIC%20COOP%20HONORARIOS%20MINIMOS%20ETICOS%20PROFESIONALES%2001-12-25.pdf
+  - The yearly self-assessment, external review and manual are paid professional work that every obligated entity must buy. Their price was not found (unverified).
+  - The penalty for missing filings is loss of the lending licence. https://www.boletinoficial.gob.ar/detalleAviso/primera/339254/20260310
+- **Proposed prices (unverified, not tested):**
+  - Per entity: about USD 40-80 a month, in pesos indexed to the fee module (about 3-6 Salta modules). Small lenders that file the AML items every two years go on the lower tier.
+  - Per accountant: about USD 150-300 a month for up to 10-15 entities, with an add-on per extra entity.
+  - Optional done-for-you services: the self-assessment report and manual set-up, about USD 300-800 per entity per year (unverified). CONLAFT sells the same type of service, which shows demand. https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf
+
+### Revenue estimate (year 3)
+- **Buyers.**
+  - About 1,400-1,750 lending mutuales. This extrapolates Santa Fe's 2020 ratio (300 lending out of 850 mutuales) to a national total of 4,000-5,000 mutuales (unverified). https://www.ellitoral.com/economia/mutuales-ayuda-economica-24_0_ama419IQ3z.amp.html
+  - Plus credit and loan-brokering co-operatives (count unverified).
+  - Working figure: about 2,000 UIF-obligated entities.
+- **Base case.** 2,000 entities x 8% share = 160 entities. At an average of USD 55 a month (mixed direct and accountant plans), that is 160 x 55 x 12 = about **USD 106,000 a year**.
+  - Add about 40 done-for-you AML packages at USD 500 each = USD 20,000.
+  - Total about **USD 125,000 a year**.
+- **Low case.** 2,000 x 4% = 80 entities x USD 40 x 12 = **USD 38,000 a year**.
+- **High case.** 2,000 x 15% = 300 entities x USD 70 x 12 = USD 252,000, plus USD 50,000 in services = **about USD 300,000 a year**.
+- **Optional add-on.** Non-lending entities file only the yearly roll and assembly documents, and they number in the thousands. A low-price roll and deadline tier at USD 5 a month could add a little (unverified, low priority).
+
+### Ease of implementation and sale
+- **Build: medium.**
+  - A deadline engine, a member register, PEP and risk fields, roll export and annex calculation from an Excel loan ledger are standard work.
+  - Templates for the self-assessment, manual and training register are document work.
+  - With no import path, the monthly output has to be a field-by-field copy sheet, or a browser extension that fills the form. The extension is brittle (unverified on terms of use).
+  - Rule churn is constant: Res 1279, 1567, 1038 and 1687 all came in 2026.
+- **Sale: medium.**
+  - Buyers are reachable through the Consejos Profesionales, the confederations and provincial authorities. The 1 Dec 2026 AML deadline and the 30 April UIF deadline are clear moments to sell.
+  - Volunteer boards and peso inflation slow sales. CONLAFT reaching only 5 deployments in about a year suggests a slow sales cycle (inference). https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf
+- **Onboarding: easy to medium.** Import the member list and the loan ledger from Excel, then pick the regimes that apply.
+
+### Remaining risks
+1. **CONLAFT or an ERP vendor adds the INAES side.** It could then cover the whole job well. Its price is unknown.
+2. **Small, unverified buyer count.** No official count of lending mutuales was found. The Mercado figure of "32,000 entities" comes from an article from about 2006, not a current one. https://mercado.com.ar/revista/numero-1057/el-inaes-busca-corregir-un-sistema-anacronico-y-poco-fiable/
+3. **INAES automates more.** It promises "migración de datos y carga automática" in the AML module. https://www.consejosalta.org.ar/wp-content/uploads/INAES-1567.pdf
+4. **Peso pricing and inflation.** Prices must be indexed.
+5. **Liability.** Every filing is a sworn statement. The tool must leave signing with the entity and its accountant.
+6. **Monthly-return automation depends on the form's design.** INAES can change the form at any time.
+
+### Facts corrected from the first pass
+- The Res 1279/2026 date is confirmed: signed 23/06/2026, published 25/06/2026. https://www.argentina.gob.ar/normativa/nacional/norma-427021/texto
+- The "about 32,000 registered entities" figure is from about 2006, not current. https://mercado.com.ar/revista/numero-1057/el-inaes-busca-corregir-un-sistema-anacronico-y-poco-fiable/
+- The Santa Fe figure (850 mutuales, 300 of them lending) is dated 28 May 2020. https://www.ellitoral.com/economia/mutuales-ayuda-economica-24_0_ama419IQ3z.amp.html
+- The first pass said no competitor existed. A local AML product for mutuales does exist: CONLAFT. https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf
+
+### New sources
+- https://contadoresenred.com/wp-content/uploads/2026/06/Instructivo.pdf
+- https://www.argentina.gob.ar/normativa/nacional/norma-427021/texto
+- https://www.consejo.org.ar/storage/attachments/Resoluci%C3%B3n%20UIF%2099-2023%20-%20Asoc%20mutuales%20-5PZL7x2v5w.pdf
+- https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf
+- https://www.conlaft.com/
+- https://siap.blogdelcontador.com.ar/novedades/inaes-30-dias-mutuales-presentar-informacion-adeudada-prestamos/
+- https://www.consejosalta.org.ar/2026/06/actualizacion-del-valor-modulo-para-honorarios-minimos-profesionales/
+- https://cpcese.org.ar/documentos/afiche%20LIC%20COOP%20HONORARIOS%20MINIMOS%20ETICOS%20PROFESIONALES%2001-12-25.pdf
+- https://www.ellitoral.com/economia/mutuales-ayuda-economica-24_0_ama419IQ3z.amp.html
+- https://www.capterra.in/software/1238063/Gestion-Socios
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

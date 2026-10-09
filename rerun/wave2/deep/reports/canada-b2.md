@@ -1,5 +1,107 @@
 # Canada B2: FINTRAC compliance-programme kit for factors, financing/leasing entities and cheque cashers
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10 (old score: 4/10).**
+
+**The case.** The duty is real and enforcement is now live. These businesses have had to run a full compliance programme since 1 April 2025 ([FINTRAC lease page](https://fintrac-canafe.canada.ca/re-ed/lease-bail-eng)), and UCDA expects enforcement to "ramp up" from 1 April 2026 ([UCDA](https://www.ucda.org/fintrac/)). FINTRAC's filing system only takes reports. The work FINTRAC actually finds missing (risk ratings tied to controls, tested and tracked training, audit trails, documented reviews) is record-keeping work that software does well ([DLA Piper](https://www.dlapiper.com/en/insights/publications/2026/07/fintrac-key-compliance-takeaways)). Nobody sells a tool that runs the whole programme for lessors, factors or in-house-financing dealers. Real estate shows the model sells: ReallyTrusted serves 900+ brokerages ([ReallyTrusted](https://reallytrusted.com)). The weak point is still market size. Only 865 businesses are officially counted, and the number of in-house-financing dealers is unknown. This makes it a solid small business at best, not a large one.
+
+**Room for improvement over the portal or current practice.**
+- **The portal covers filing only.** FINTRAC's lease page lists a compliance programme, client ID and due diligence, PEP checks, beneficial ownership, the 24-hour rule and record keeping alongside reporting ([FINTRAC](https://fintrac-canafe.canada.ca/re-ed/lease-bail-eng)). The Web Reporting System handles only the reports ([FINTRAC system overview](https://fintrac-canafe.gc.ca/reporting-declaration/guide/sys-eng)). Everything else is left to the business.
+- **FINTRAC names the gaps.** At its 29 June 2026 Industry Day it said that:
+  - training is often "overly general, outdated, or insufficiently tailored", with weak tracking and testing
+  - risk ratings are not clearly linked to controls
+  - ongoing-monitoring records rely on templates and have weak audit trails
+  - STR escalation is unclear and investigations are poor
+  - source: [DLA Piper](https://www.dlapiper.com/en/insights/publications/2026/07/fintrac-key-compliance-takeaways)
+  - A workflow tool fixes each of these.
+- **Today's practice is Word templates and consultants.** UCDA gives dealers a policy template and a guidance document. One-on-one KPMG training "does cost some money" ([UCDA](https://www.ucda.org/fintrac/)). A template does not log training, link risks to controls, or keep KYC and STR decision records.
+- **The workload is measurable.** The government assumes 48 hours a year to maintain the programme (range 24–96 hours) and 16 hours a year to prepare for a FINTRAC exam for a small firm ([Canada Gazette RIAS](https://gazette.gc.ca/rp-pr/p2/2025/2025-03-26/html/sor-dors67-eng.html)).
+- **The portal is fragile.** After a March 2024 cyber incident, reporting systems were down for months, and FINTRAC set 31 March 2025 as the deadline for backlogged reports ([Better Dwelling](https://betterdwelling.com/canadian-anti-money-laundering-reporting-systems-still-down-post-hack/); [Canadian Jewellers Association](https://canadianjewellers.com/?p=22496)). Correcting batch reports has strict rules ([FINTRAC batch Q&A](https://canafe-fintrac.gc.ca/reporting-declaration/batch-lots/batch-qa-qr-eng)). These entities file few reports, so this is minor pain. A local log of what was filed, and why, still adds value.
+- **Multi-client angle.** Dealer accountants and consultants (MNP, KRP, Doane Grant Thornton) sell programme builds and effectiveness reviews to many dealers ([KRP](https://www.krpgroup.com/article/how-can-your-dealership-comply-with-fintracs-anti-money-laundering-requirements); [Doane GT](https://www.doanegrantthornton.ca/insights/is-your-dealership-prepared-for-fintracs-new-anti-money-laundering-requirements/)). A per-consultant, multi-client licence could suit them (unverified demand).
+- **Language.** Quebec dealers and lessors need French ([MNP, French](https://www.mnp.ca/fr/points-de-vue/bibliotheque/que-doit-faire-concessionnaire-conformer-regles-canafe-contre-blanchiment-dargent)). No French sector tool was found.
+
+**Competitor reality check.**
+
+| Product | What it actually does | Price | Verdict |
+|---|---|---|---|
+| Dealertrack AML (Equifax) | Sanctions and PEP screening inside Dealertrack. The dealer stays "solely responsible" ([Dealertrack](https://dealertrackcanada.com/aml/)) | Not published | Partial (KYC only) |
+| Paays AML Check / ID Verifier | ID verification plus Minerva AML screening for dealers and lenders ([fintech.ca](https://www.fintech.ca/2025/04/07/paays-minerva-to-deliver-end-to-end-aml-and-kyc-compliance-solution/); [Yoti](https://yoti.com/blog/paays-and-yoti-partner-to-reduce-identity-fraud-in-auto-financing)) | Contact sales ([Shyft](https://www.shyft.ai/tools/paays)) | Partial (KYC only) |
+| Equifax AML Assist | Credit-file ID verification ([Equifax](https://www.equifax.ca/business/product/aml-assist)) | Not published | Partial (ID only) |
+| UCDA template and KPMG training | Policy template, guidance and a recorded webinar for members. One-on-one training costs extra ([UCDA](https://www.ucda.org/fintrac/)) | Membership; training price not published | Documents only, no workflow |
+| MNP, KRP, Doane GT, Substance Law | Programme builds and effectiveness reviews ([Substance Law](https://substancelaw.ca/compliance-program/)) | Quote only. No published flat fee found | Service, not software. Possible partner |
+| ReallyTrusted | ID scanning, client records, AML manuals, RT Academy courses, effectiveness reviews ([ReallyTrusted](https://reallytrusted.com)) | Bundled into some realtor-board fees ([LSTAR](https://lstar.ca/members/resources/mlsr/fintrac-compliance-support-and-webinars)) | Real estate and mortgage only. Could enter this space |
+
+No search for a dealer or lessor FINTRAC programme product, in English or French, found one. The incumbents are partial, so they leave an opening rather than kill the idea. The real threat is entry by ReallyTrusted, Paays or Dealertrack (unverified intent).
+
+**Price per customer.**
+- **What it costs today:**
+  - The government puts compliance at about $2.8k a year per small business ([Canada Gazette RIAS](https://gazette.gc.ca/rp-pr/p2/2025/2025-03-26/html/sor-dors67-eng.html)).
+  - CREA told a Commons committee that a one- or two-person firm could spend up to about $10k ([openparliament](https://op-alpheus.openparliament.ca/committees/finance/42-1/140/?page=8); real-estate testimony, older).
+  - One vendor claims compliance software commonly costs "$5K+/yr" ([PaymentEvolution](https://paymentevolution.com/fintrac-self-assessment); marketing claim, unverified).
+- **The cost of getting it wrong:**
+  - Since Bill C-12, minor violations can draw penalties of up to $40,000 ([Torys](https://www.torys.com/en/our-latest-thinking/torys-quarterly/q1-2026/fintac-amps)).
+  - Small MSBs have been fined $67k–224k for missing paperwork ([FINTRAC](https://fintrac-canafe.canada.ca/new-neuf/nr/2026-02-05-eng)).
+- **FINTRAC charges these businesses nothing.** Its cost-recovery charge applies only to banks, trust and loan companies, life insurers and entities filing 500 or more threshold reports a year ([FINTRAC charging](https://fintrac-canafe.canada.ca/guidance-directives/cost-cout/charging-facturation-eng)).
+- **Realistic prices:**
+  - Single entity: $1,200 a year (about $99 a month).
+  - Multi-rooftop dealer group or lessor: $2,400–3,600 a year.
+  - Consultant or accountant licence: $3,000–6,000 a year for 10–30 client entities.
+  - Optional partner-delivered two-year effectiveness review: a $2,000–4,000 add-on (unverified market rate).
+
+**Revenue estimate (year 3).**
+- **Core official segment:** 865 businesses ([RIAS](https://gazette.gc.ca/rp-pr/p2/2025/2025-03-26/html/sor-dors67-eng.html)).
+  - Assume 10% take up at $1,300 average: 865 × 0.10 × $1,300 ≈ **$112k**.
+  - Many of the 600 cheque cashers may be payday chains that already run MSB compliance, so this may be optimistic.
+- **In-house-financing dealers:** the count is unknown (unverified).
+  - Canada has 3,783 franchised dealerships ([CADA](https://cada.ca/common/Uploaded%20files/EconomicReports/Data%20Report/2024CADADataReport-EN.pdf)) and about 7,560 used-car dealers ([IBISWorld](https://www.ibisworld.com/canada/number-of-businesses/used-car-dealers/1004/)).
+  - Assume 1,500 finance or lease in their own name (assumption).
+  - At 8% take-up and $1,200: 1,500 × 0.08 × $1,200 ≈ **$144k**.
+- **Consultant licences:** 15 × $4,000 = **$60k** (assumption).
+- **Review add-on margin:** 100 reviews over two years, so 50 a year × $1,000 margin = **$50k** (assumption).
+- **Total:** about **$300–370k a year by year 3**.
+  - The low case uses only the official 865 businesses plus consultants: about $170k.
+  - The high case assumes a UCDA or CFLA member deal and 3,000 in-house dealers: about $600k (unverified).
+
+**Ease of implementation and sale.**
+- **Build: medium-easy.**
+  - FINTRAC integration is not required. Reports still go through FINTRAC's free system.
+  - The product is forms, a risk matrix, training quizzes, logs and PDF export.
+  - The hard part is accurate sector content and French. A compliance lawyer should review the content.
+- **Onboarding: easy.** A wizard can produce a draft programme in about an hour. This replaces the 20 hours the RIAS assumes for a first build ([RIAS](https://gazette.gc.ca/rp-pr/p2/2025/2025-03-26/html/sor-dors67-eng.html)).
+- **Sale: medium.**
+  - Lessors are reachable through CFLA.
+  - Dealers are fragmented, but reachable through UCDA, OMVIC and AMVIC lists, and FINTRAC's own dealer outreach ([UCDA event](https://www.ucda.org/fintrac-webinar-for-ontario-auto-dealers-common-compliance-deficiencies/)).
+  - Association bundling worked for ReallyTrusted in real estate ([LSTAR](https://lstar.ca/members/resources/mlsr/fintrac-compliance-support-and-webinars)).
+
+**Remaining risks.**
+- **Buyer count is unknown.** Dealer scope is still unclear. UCDA says dealers that only arrange third-party financing "may not" be covered in the same way ([UCDA](https://www.ucda.org/fintrac/)). FINTRAC's lease page does not address dealers ([FINTRAC](https://fintrac-canafe.canada.ca/re-ed/lease-bail-eng)).
+- **Enforcement intensity is unproven.** No public penalty against a lessor, factor or dealer has been found yet (unverified).
+- **Free association templates set a low price anchor** ([UCDA](https://www.ucda.org/fintrac/)).
+- **Adjacent vendors could add programme modules.** ReallyTrusted, Paays or Dealertrack could all do this.
+- **Advice liability.** Generating policies edges towards legal advice. Use "not legal advice" terms, E&O insurance and a lawyer partner.
+- **Cheque cashers:** no count exists within the 7,745-firm MSB registry ([NCFA](https://ncfacanada.org/fintrac-revocations-raise-the-compliance-bar/); secondary source). Many may already use MSB compliance tools (unverified).
+
+**New sources (this pass).**
+- https://fintrac-canafe.canada.ca/re-ed/lease-bail-eng
+- https://fintrac-canafe.gc.ca/reporting-declaration/guide/sys-eng
+- https://canafe-fintrac.gc.ca/reporting-declaration/batch-lots/batch-qa-qr-eng
+- https://fintrac-canafe.canada.ca/guidance-directives/cost-cout/charging-facturation-eng
+- https://gazette.gc.ca/rp-pr/p2/2025/2025-03-26/html/sor-dors67-eng.html
+- https://www.dlapiper.com/en/insights/publications/2026/07/fintrac-key-compliance-takeaways
+- https://www.ucda.org/fintrac/
+- https://reallytrusted.com
+- https://lstar.ca/members/resources/mlsr/fintrac-compliance-support-and-webinars
+- https://betterdwelling.com/canadian-anti-money-laundering-reporting-systems-still-down-post-hack/
+- https://canadianjewellers.com/?p=22496
+- https://www.krpgroup.com/article/how-can-your-dealership-comply-with-fintracs-anti-money-laundering-requirements
+- https://yoti.com/blog/paays-and-yoti-partner-to-reduce-identity-fraud-in-auto-financing
+- https://www.shyft.ai/tools/paays
+- https://www.equifax.ca/business/product/aml-assist
+- https://op-alpheus.openparliament.ca/committees/finance/42-1/140/?page=8
+- https://paymentevolution.com/fintrac-self-assessment
+- https://ncfacanada.org/fintrac-revocations-raise-the-compliance-bar/
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

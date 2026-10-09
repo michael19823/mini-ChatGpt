@@ -1,5 +1,83 @@
 # Paraguay B2: SEPRELAD compliance pack for real-estate agencies and other subjects with no natural supervisor
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10 (old score: 5/10).**
+
+**The case.** About 1,450 real-estate firms and 845 car dealers must run a full anti-money-laundering (AML) system under SEPRELAD rules, and the free SIRO portal only receives their filings. SEPRELAD's own 2024 annual report shows the gap. It warned 1,238 real-estate firms and 454 car dealers for missing basic filings, and it annulled 532 of 2,042 registration requests because they did not meet SIRO's requirements ([SEPRELAD Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)). No local product runs the whole job: the KYC file, list checks, risk matrix, manual, deadline calendar, annual form and audit pack. A small subscription tool, sold mainly through the SEPRELAD-registered external auditors who must review every firm each year, looks reachable at about US$100k-150k a year by year 3. The weak points are low price anchors, enforcement by warning letters rather than fines, and a ceiling of a few thousand buyers.
+
+**Room for improvement over the portal or current practice**
+- **Missed filings are common.** In 2024 SEPRELAD checked 2,043 obligated subjects through SIRO. It found breaches of "objective obligations" and warned 1,692 of them (1,238 real-estate firms, 454 car dealers) under Res 410/2024 and 681/2024 ([SEPRELAD Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)).
+- **The breaches are calendar items.** The checks covered the quarterly negative report, the periodic operations report (RO), the Annual Form (Formulario Anual), the external audit report and the internal control report (same source). A deadline tracker with reminders would address all of these.
+- **This fixes a weak fact from the first pass.** The Annual Form goes through a SIRO module and is due on 31 May each year (Res 165/2022 and 246/2022). It feeds SEPRELAD's risk matrix. Only 526 real-estate firms and 357 car dealers sent it in 2024, against about 1,451 and 845 fee payers ([SEPRELAD Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf); [SEPRELAD stats portal](https://www.seprelad.gov.py/siro/estadisticaExterna/estadistica.xhtml)).
+- **Registration is error-prone.** Of 2,042 registration requests in SIRO in 2024, 1,566 were completed and 532 were annulled for not meeting SIRO's requirements ([SEPRELAD Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)).
+- **Users struggle with the portal.** SEPRELAD's help channel "E-porandu" opened on 14 August 2024 and answered 855 questions in about 4.5 months. The most common topics were how to send a suspicious-transaction report (ROS), how to send an RO, SIRO access and registration requirements. The askers included consultants, lawyers, accountants and external auditors (same source).
+- **Data entry is manual for small firms.** Small subjects enter the RO in SIRO "operation by operation" through web forms. Larger subjects can upload a JSON file instead (same source). A tool that keeps the deal register and exports the JSON file would remove re-keying.
+- **SEPRELAD runs training to fill the gap.** It held 27 training events for 533 participants in 14 cities in 2024. The topics were SIRO registration, compliance structure, risk management, customer due diligence and reporting (same source).
+- **The portal stores nothing for the firm.** SIRO does not keep KYC files, run list checks, build the manual or code of ethics, or prepare the internal evaluation (first-pass finding, [Ferrere](https://ferrere.com/es/novedades/nuevo-reglamento-de-prevencion-de-lavado-de-activos-y-financiamiento-del-terrorismo-para-empresas-y-personas-involucradas-en-la/)). Those are the records an inspector or the external auditor asks for.
+
+**Competitor reality check**
+- **SEPRELAD SIRO (free):** a filing portal only. It is not a competitor for record-keeping, but SEPRELAD keeps adding modules, for example a Supervision module and a better registry module in 2024 ([SEPRELAD Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)).
+- **Pirani AML (Colombia):** a regional AML and risk SaaS with a SEPRELAD guide page. It offers a risk matrix, risk factors, an add-on for screening against restrictive lists, and suspicious-operation reporting ([Pirani SEPRELAD page](https://www.piranirisk.com/es/hub-regulatorio/seprelad-prevencion-lavado-dinero-paraguay-siro); [Pirani AML plans](https://www.piranirisk.com/es/planes-y-precios/aml)).
+  - Paraguay is not in its list of countries, and it names no Paraguayan clients.
+  - It does not mention Paraguay's Annual Form, negative reports, the RO JSON format, Res 201/2020 templates or the external audit pack.
+  - Prices are not public; they show only during checkout (same pages).
+  - It is a generic tool built for financial firms. It is a partial fit for a one-owner real-estate agency (my judgement).
+- **Compliance Paraguay:** a database of about 9,000 politically exposed persons (PEPs), sold partly to real-estate firms and car dealers. It covers screening only, and its price is not published ([La Nación, Aug 2024](https://www.lanacion.com.py/negocios/2024/08/13/consultora-presenta-herramienta-que-identifica-a-personas-expuestas-politicamente/)).
+- **KYC data APIs:** global vendors such as theKYB offer Paraguayan PEP and sanctions screening, with quote-only pricing ([theKYB](https://thekyb.com/our-data/paraguay/)). They are a possible data feed, not a compliance workflow.
+- **Law firms and auditors:** Ferrere and others design compliance programmes ([Ferrere](https://ferrere.com/es/profesionales/alejandro-lopez-niella/)). SEPRELAD-registered auditors sell the yearly audit. Their fees are (unverified).
+- **Local software:** 12 searches over two passes, in Spanish and English, found no Paraguayan product for small SEPRELAD subjects. The incumbent is a mix of a free portal, Word templates and consultants. That is an opening, not a killer.
+
+**Price per customer**
+- **Anchors found:**
+  - SEPRELAD's annual fee is about Gs 329,000 (about US$45) per real-estate firm ([SEPRELAD stats portal](https://www.seprelad.gov.py/siro/estadisticaExterna/estadistica.xhtml)).
+  - A staff accountant costs about Gs 3.6m-10.9m a month in 2026, and a bookkeeping assistant about Gs 3.0m-6.0m ([Cazvid, accountant](https://cazvid.com/es/blog/cuanto-gana-un-contador-en-paraguay); [Cazvid, assistant](https://cazvid.com/es/blog/cuanto-gana-un-auxiliar-contable-en-paraguay)).
+  - The legal maximum fine is up to 5,000 minimum wages, although in practice firms get warnings ([Ferrere on Res 36/21](https://ferrere.com/es/novedades/inspecciones-aleatorias-de-seprelad-bajo-resolucion-36-21/)).
+  - External audit fees are (unverified).
+- **Single firm:** about Gs 220,000 a month (about US$30), or about US$360 a year. That is less than one day of an assistant's time a month (my estimate).
+- **Multi-entity groups** (developers with several companies): about US$20 a month per extra entity (my estimate).
+- **Auditor or consultant plan:** about US$100-150 a month for up to 30 client firms, or about US$1,500 a year. Clients get read-only access, and the auditor gets an audit-ready export (my estimate).
+- **Optional add-on:** about US$5-10 a month for paid PEP and sanctions data, passed through from a data partner (my estimate).
+
+**Revenue estimate, year 3 (my estimate; about Gs 7,300 = US$1, from the fee figures above)**
+- **Real-estate firms, direct or through auditors:** 1,451 × 15% × US$360 = **US$78k**.
+- **Car dealers** (Res 196/2020; they need separate templates): 845 × 10% × US$300 = **US$25k**.
+- **Auditor and consultant licences:** SEPRELAD admitted 64 new auditors in 2024 ([SEPRELAD Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)). The full register size is (unverified). 20 practices × US$1,500 = **US$30k**. Part of this overlaps with the firms counted above, so treat the extra as a partial addition.
+- **Total:** about **US$110k-135k a year**.
+- **Upside:** jewellers, pawn shops and remitters (about 140) add little. Non-profits (1,919 fee payers; 771 Annual Forms) could add volume at a lower price ([SEPRELAD stats portal](https://www.seprelad.gov.py/siro/estadisticaExterna/estadistica.xhtml); [SEPRELAD Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)).
+
+**Ease of implementation and sale: medium**
+- **Build: easy to medium.**
+  - The core is a deadline calendar, a client and deal register with KYC thresholds, UN-list screening, and document templates for the manual, code of ethics, risk matrix and internal evaluation.
+  - There is a JSON export for the RO.
+  - The product is Spanish only, and there is no SIRO API beyond the RO JSON upload ([SEPRELAD Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)).
+  - Each sector has its own resolution, so each vertical needs its own templates.
+- **Onboarding: easy.** A small agency has few deals a year, so setup takes about an hour (my estimate).
+- **Sale: medium.**
+  - The buyers are owner-run and price-sensitive.
+  - The 1,238 warning letters and the public list of registered subjects and auditors give a clear trigger and a lead list ([SEPRELAD auditor and subject lookup](https://www.seprelad.gov.py/siro/consultaExterna/consultaExternaSoAe.xhtml)).
+  - The registered auditors are the efficient channel, since each must review every client yearly.
+  - SEPRELAD's regional trainings show where demand sits outside Asunción.
+
+**Remaining risks**
+- **Weak penalties.** There was only 1 fine across all sectors in 2025 ([SEPRELAD stats portal](https://www.seprelad.gov.py/siro/estadisticaExterna/estadistica.xhtml)). Many firms may tolerate a warning rather than pay.
+- **SEPRELAD may add a reminder or record-keeping module to SIRO.** It is actively building SIRO features ([SEPRELAD Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)).
+- **Pirani or a similar regional vendor could localise for Paraguay.** Its pricing is unknown (unverified).
+- **Small ceiling.** About US$100k-150k a year is a lifestyle-size business, not a venture-size one.
+- **Rule changes.** Res 201/2020 is six years old, and a new national risk assessment ran in 2025 ([SEPRELAD notice, Sep 2025](https://www.seprelad.gov.py/?p=3259)). New rules would force template rework (unverified).
+- **Unconfirmed price points.** Auditor fees and willingness to pay are not confirmed. Ten interviews with agencies and auditors are needed before building.
+
+**New sources (this re-assessment)**
+- SEPRELAD Memoria Anual de Rendición de Cuentas 2024 (warnings, Annual Form counts, registration annulments, E-porandu questions, RO JSON upload, auditor register, trainings): https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf
+- SEPRELAD lookup of obligated subjects and external auditors: https://www.seprelad.gov.py/siro/consultaExterna/consultaExternaSoAe.xhtml
+- SEPRELAD notice on the ENR 2025 form in SIRO (Sep 2025): https://www.seprelad.gov.py/?p=3259
+- Pirani SEPRELAD regulatory hub page: https://www.piranirisk.com/es/hub-regulatorio/seprelad-prevencion-lavado-dinero-paraguay-siro
+- Pirani AML plans page: https://www.piranirisk.com/es/planes-y-precios/aml
+- theKYB Paraguay data page: https://thekyb.com/our-data/paraguay/
+- Ferrere professional profile (AML programme design): https://ferrere.com/es/profesionales/alejandro-lopez-niella/
+- Cazvid on accountant pay in Paraguay: https://cazvid.com/es/blog/cuanto-gana-un-contador-en-paraguay
+- Cazvid on bookkeeping-assistant pay in Paraguay: https://cazvid.com/es/blog/cuanto-gana-un-auxiliar-contable-en-paraguay
+
 Research date: 9 October 2026. All figures marked "SEPRELAD stats portal" come from the official public query tool at https://www.seprelad.gov.py/siro/estadisticaExterna/estadistica.xhtml. I ran the queries on 9 October 2026, by year and by sector.
 
 ## Summary

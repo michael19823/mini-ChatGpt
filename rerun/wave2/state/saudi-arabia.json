@@ -1,4 +1,40 @@
 {
+ "challenge:saudi-arabia:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "Rafed Electronic System (نظام رافد الإلكتروني), rafed-system.org, by Afaq Global Information Systems (afaq-it.com.sa now redirects there). It is a cloud system built for Saudi associations. It says it serves more than 1,500 associations and has a module for monitoring and evaluating governance standards. It also runs association websites with governance and policies sections for the transparency standard, for example soqia.org.sa and bina.org.sa, whose /rafed/uploads/website_regulations paths the first check could not attribute. NCNP's own Governance Data Disclosure service supplies the self-assessment and upload portal.",
+   "reason": "The first check's unknown operator is Rafed, a dedicated SaaS for Saudi associations. It claims more than 1,500 association clients, about a quarter of the 6,348 registered non-profits. It includes governance-standards monitoring and evaluation and powers the governance and policies pages of association websites. NCNP itself supplies the guides, a self-assessment and the upload portal. Rafed's site does not say it prepares the Ifsah upload or handles general-assembly and board records, so a narrow gap may remain. But a solo founder would face an established vertical incumbent and a free state tool. The buyers are small associations with tight budgets, and law firms and freelancers also offer cheap governance packs. Unverified: Rafed's pricing, and how deep its governance module goes.",
+   "searches": 8,
+   "sources": "https://www.rafed-system.org/ ; https://www.soqia.org.sa/ ; https://www.bina.org.sa/rafed/uploads/website_regulations/698206526b0ab.pdf ; https://www.okaz.com.sa/news/local/2199571 ; https://www.okaz.com.sa/ampArticle/2199571 ; https://www.alwatan.com.sa/a/1180361 ; https://etqanlawfirm-sa.com/services/governance/nonprofit-governance/ ; https://mostaql.com/project/1157295",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b19"
+ },
+ "challenge:saudi-arabia:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No clear killer. Weakening facts: (1) the free MoT licensing portal issues each permit; (2) the regulation requires licensed booking platforms (Gathern, Airbnb), and Gathern already collects permit numbers; (3) about 8.4k licences in 2024 means a small market; (4) Nazeel PMS lists Shomoos integration.",
+   "reason": "No product was found that does this exact job, so it is not refuted. But the case is weak. The new Umm Al-Qura regulation sets a fee of SAR 1,100, a licence of up to one year issued per unit through the free MoT portal, and Shomoos membership as a condition of applying. It also requires all bookings and payments to go through licensed platforms such as Gathern, which already stores each unit's permit. The market is small: about 8,357 private licences in 2024, with at most 3 per building and a reported 8 per person, so perhaps 5,000 hosts. Nazeel offers Shomoos integration for serviced apartments. Not settled: whether Shomoos for private units is a one-time sign-up or per-stay reporting, and what platforms like Gathern add.",
+   "searches": 7,
+   "sources": "https://www.uqn.gov.sa/decisions-and-regulations/4001819 ; https://blog.gathern.co/en/?p=7064 ; https://aawsat.com/node/5133057 ; https://raghdan.sa/ar/news/tourism-hospitality-license-guide-2025/ ; https://www.nazeel.net/en ; https://cdn.mt.gov.sa/mtportal/mt-fe-production/content/policies-regulations/documents/tourism-regulations/Management-of-Hospitality-Facilities-Regulations-Ar-V012.pdf",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b19"
+ },
+ "challenge:saudi-arabia:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single killer. Partial substitutes: Balady (free) handles annual licence renewal online. Approved engineering offices do the inspection. Search snippets (not opened) say Qiwa links worker headcount to licensed capacity. Licensed housing operators let small employers rent compliant units instead of holding a licence.",
+   "reason": "I found no Saudi tool that tracks Balady collective-housing licences, so no product kills the idea. But the state and service providers already cover most of the core job. Balady handles licensing and the annual renewal online, and approved engineering offices do the inspection visits for a negotiated fee. Search snippets (not opened, since the Balady page returned 503) say Qiwa links the workers registered in Qiwa to licensed capacity. Most small employers can take the contract route and rent licensed units, which leaves them almost nothing to manage. Press reports 1,360 licences issued, a small market. Also from search snippets: enforcement started with large firms and is phased. One recurring duty does remain: the annual renewal and keeping inspections ready. Foreign camp tools (Resortdata, iLogistics) don't cover Saudi rules.",
+   "searches": 6,
+   "sources": "https://momah.gov.sa/ar/e-services/khdmt-tjdyd-rkhs-alskn-aljmay ; https://momah.gov.sa/ar/node/7046 ; https://www.balady.gov.sa/en/news/national-program-development-collective-housing-individuals-calls-establishments-20-workers-or (search result only, 503 on fetch) ; https://www.okaz.com.sa/economy/saudi/2254816 ; https://www.okaz.com.sa/local/saudi-arabia/2240237 ; https://resortdata.com/workforce-housing/ ; https://platform.softwareone.com/product/ilogistics-accommodation-management/PCP-7864-3142 ; https://mostaql.com/project/1243958",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b19"
+ },
  "critic:saudi-arabia": {
   "result": {
    "gaps": [
@@ -977,6 +1013,28 @@
    "verdict": "unverifiable"
   },
   "tag": "w2b18"
+ },
+ "sonnet:saudi-arabia:A14": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The Transport General Authority requires all car-rental contracts to be issued through the Tajeer gateway on the Naql portal, phased in from July 2021 (ajel.sa, Okaz). Roughly 2,400 rental offices and 1.5m contracts in Q1 2025 were reported. Tajeer is a free state tool that already issues the contract, and large chains integrate directly by API. Daftra, RentSyst, RentWorks and Carhire Manager are generic rental software, and none is confirmed to integrate with Tajeer. The niche is thin: the state portal does the core job, the market is small (about 2,400 offices), and the penalty and renewal cycle are unverified. Only a thin wrapper or done-for-you service is plausible. Confirmed here means the duty exists, not that the idea is strong.",
+   "searches": 2,
+   "sources": "https://ajel.sa/local/c3d4bm ; https://ajel.sa/local/fw4kzl7qlc ; https://www.okaz.com.sa/economy/saudi/2198391 ; https://www.okaz.com.sa/ampArticle/2089882 ; https://www.almuraba.net/?p=421056 ; https://www.daftra.com/برنامج-إدارة-شركات-تأجير-السيارات-والليموزين/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b19"
+ },
+ "sonnet:saudi-arabia:A17": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The MOMAH workshop guidelines (five classes A-E, Balady licence, e-payment, CCTV, used oil to approved carriers, oil barrier inspected every 3 months) are real, per Okaz (Aug-Sep 2025) and the MOMAH PDF. Okaz 2208667 describes them as a draft, and no source gives a final in-force date, grace period, fines or workshop count. The duty is mostly one-off site fitting and licensing. The only recurring item is the 3-monthly oil-barrier check, which is not reported to anyone. There is no filing workflow to automate. Qoyod and Daftra already cover workshop accounting and ZATCA e-invoicing. Weak recurring pain, a fragmented buyer base and unclear enforcement make this a poor fit.",
+   "searches": 2,
+   "sources": "https://www.okaz.com.sa/news/local/2208667 ; https://www.okaz.com.sa/economy/saudi/2214142 ; https://momah.gov.sa/sites/default/files/2025-07/ashtratat%20wrsh%20aslah%20wsayl%20alnql.pdf ; https://www.qoyod.com/fields/accounting-software-for-car-maintenance-centers/",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b19"
  },
  "sonnet:saudi-arabia:A2": {
   "result": {

@@ -1,4 +1,16 @@
 {
+ "challenge:botswana:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "The levy duty mostly doesn't apply, and the market is too small. Under the Vocational Training (Levy) Order 2008, the Training Levy falls only on VAT-registered employers (VAT registration is compulsory above P1m turnover; firms under P250k are exempt from the levy). BURS collects it through the VAT return, so ordinary VAT or accounting software already covers it. Most guesthouses with fewer than 10 rooms fall below P1m turnover and are not liable. What is left: grading renewal once a year on a paper form, and a short Statistics Botswana monthly occupancy return. Only about 259 to 353 such firms exist.",
+   "reason": "No Botswana-specific tool was found, but the pack falls apart when checked. First, the \"monthly Training Levy return\" applies only to VAT-registered businesses (compulsory above P1m turnover). It is filed through the BURS VAT system, which generic tax software and accountants already handle, and most small guesthouses are below the threshold. Second, the monthly statistics return is a short Statistics Botswana form from the 1990 regulations, sent by post; I could not confirm it is still collected. Third, grading and licence renewal happen once a year on paper, and a third-party guide says licence renewal may already be possible on the gov.bw e-services portal. Fourth, the market is tiny: Poidata lists 259 guesthouses (July 2026), and a 2007 article counted 353 licensed facilities in total. Any property management system already keeps the guest register.",
+   "searches": 7,
+   "sources": "https://testelaws.botswanalaws.com/PDF/StatutesActpdf/2008Subsidiarypdf/VOCATIONAL TRAINING (LEVY) ORDER, S. I. NO. 101 OF 2008.pdf ; https://taxsummaries.pwc.com/botswana/corporate/other-taxes ; https://www.grantthornton.global/en/insights/indirect-tax-guide/indirect-tax---country2/ ; https://businessweekly.co.bw/columns/tax-your-pockets/no-employees-no-training-levy ; https://e-laws.botswanalaws.com/PDF/StatutesActpdf/1990Subsidiarypdf/STATISTICS (HOTEL OCCUPANCY RETURNS) (AMENDMENT) REGULATIONS, S. I. NO. 64 OF 1990.pdf ; https://wikiprocedure.com/index.php/Botswana_-_Renew_Tourism_License ; https://gov.bw/tourism/application-tourist-enterprise-licence-tel ; https://poidata.io/report/guest-house/botswana ; https://mmegi.bw/business/botswana-has-no-5-star-hotel/news ; https://botswanatourism.co.bw/sites/default/files/2025-08/Accomodation%20Directory%202024%20-%202025.pdf",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b57"
+ },
  "discover:A:botswana": {
   "result": {
    "blocked_searches": 0,
@@ -648,6 +660,89 @@
     "WebFetch: dailynews.gov.bw/news-detail/74066 (July 2023 parliamentary answer on drillers and Water/Borehole Act gaps)"
    ],
    "searches": 11
+  },
+  "tag": "w2b57"
+ },
+ "opus:botswana:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Not found: no Botswana-specific tool for BTO grading renewal, levy returns or monthly statistics, and no online state portal (the gov.bw TEL page describes in-person or postal submission). Ordinary hotel booking systems such as Cloudbeds already keep the guest register and occupancy data. I did not search for regional PMS vendors in depth.",
+   "duty": "Real and in force. Tourism Act Cap 42:09: Botswana Tourism grades all licensed tourist enterprises, and operating ungraded can bring a fine of up to P20,000, up to 5 years in prison, or both (Daily News, 2023). Grading certificates are renewed on a prescribed form with Schedule III fees under BTO Regulations S.I. 47/2010. Training levy: P10 per paying guest per day for Categories A, B, J and K (raised from P2 by S.I. 79/2013), paid into the Tourism Industry Training Fund at times the Committee sets. Late payment costs P200 per day, and the licence can be revoked after 6 months unpaid. A 1997 amendment created a 'Monthly Training Levy Returns' form addressed to the Director of Tourism, but I could not confirm it is still in use. Monthly accommodation statistics and the guest register come from the domestic guesthouse guideline, which I could not open (cms2.gov.bw DNS failure); I saw them only in a search summary. Not checked: current fee schedule, whether the levy goes to HRDC or the Tourism fund, and the exact filing channel. The licence application is in person or by post, so returns are probably on paper too.",
+   "market": "3,236 tourism licences of all categories issued as of January 2024 (Business Weekly, citing the Department of Tourism). A commercial directory lists about 259 guesthouses (July 2026). An undated Mmegi article reports 353 licensed facilities, 295 submitted for grading, and 90% of graded facilities being guesthouses. A 2015 Department of Tourism figure was 520 accommodation facilities. The realistic target is a few hundred small guesthouses.",
+   "reason": "The duty is real. Under the Tourism Act, Botswana Tourism must grade every licensed enterprise, and running ungraded can bring a fine of up to P20,000, up to 5 years in prison, or both (Daily News, 21 Nov 2023). Grading renewal and fees are set by S.I. 47/2010. The consolidated Tourism Regulations set a training levy of P10 per paying guest per day, paid into the Tourism Industry Training Fund, with a P200-per-day late fee. Filing seems to be on paper: the gov.bw licence page says to submit in person or by post. I found no Botswana-specific tool, but ordinary hotel booking systems already keep guest registers and occupancy figures. The market is small: 3,236 tourism licences of all types in total, roughly 259 to 350 guesthouses, and low willingness to pay.",
+   "searches": 5,
+   "sources": "https://dailynews.gov.bw/news-detail/76532 ; https://gov.bw/natural-resources-and-environment/application-tourist-enterprise-licence-tel ; https://testelaws.botswanalaws.com/PDF/StatutesActpdf/2010Subsidiarypdf/BOTSWANA TOURISM ORGANISATION REGULATIONS, S. I. NO. 47 OF 2010.pdf ; https://testelaws.botswanalaws.com/PDF/StatutesActpdf/2013Subsidiarypdf/TOURISM (AMENDMENT) REGULATIONS, S. I. NO. 79 OF 2013.pdf ; https://e-laws.botswanalaws.com/PDF/StatutesActpdf/TOURISM (AMENDMENT) REGULATIONS, S.I. NO. 95 OF 1997.pdf ; https://botswanalaws.com/consolidated-statutes/subsidiary-legislation/tourism-subsidiary-legislation ; https://businessweekly.co.bw/?p=275954 ; https://mmegi.bw/business/botswana-has-no-5-star-hotel/news ; https://poidata.io/report/guest-house/botswana ; https://dailynews.gov.bw/news-detail/18705",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b57"
+ },
+ "sonnet:botswana:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Central District Council S.I. 7 of 2010 requires a dealer licence (P200 fee), a register and a notice board. Export is restricted under S.I. 153 of 2014 and needs a per-shipment permit from the Department of Industrial Affairs, applied for on paper forms (gov.bw service page). I found no software or portal for dealers. Weaknesses: the market is tiny (likely a few hundred dealers nationally, no register count found), and renewal is rare because the fee is small. Paper registers and per-shipment permits are low in pain, and inspection and enforcement evidence is thin. I found only Central District bye-laws; other councils unchecked. Willingness to pay is low and dealers are informal. The export permit is government-gated, so little software can help.",
+   "searches": 2,
+   "sources": "https://botswanalaws.com/local-government-subsidiary/local-government-subsidiary-legislation-central-district-council-scrap-metal-and-scrap-yard-control-bye-laws ; https://www.gov.bw/business-registration/issuance-export-permit-scrap-metal ; https://testelaws.botswanalaws.com/PDF/StatutesActpdf/2014subsidiarypdf/CONTROL OF GOODS (RESTRICTION ON EXPORTATION OF FERROUS AND NON-FERROUS METAL SCRAP AND WASTE) REGULATION, S. I. NO. 153 OF 2014.pdf",
+   "suggested_score": 2,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b57"
+ },
+ "sonnet:botswana:A10": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real per gov.bw: taxi permit (BWP 260 normal fee) renews with expired permit and token, handled at DRTS offices; call-cab renewal is listed as immediate, new applications take 39 working days. No online renewal portal or competing software found; only a WhatsApp queue pilot (not renewal). Operator count not found, and the renewal cycle and penalty were not confirmed. Weak case: low-income buyers, a small fee, an in-person paper process, and the permit and inspection steps are physical and need a government counter, so software adds little. The only feasible product is a reminder or fixer service, which has low willingness to pay. Tax and licence statute text was not opened (gov.bw fetch returned 503).",
+   "searches": 1,
+   "sources": "https://gov.bw/transport-permits/taxi-service-permit ; https://www.gov.bw/transport-permits/call-cab-permit?page=3",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b57"
+ },
+ "sonnet:botswana:A11": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Botswana-specific bureau software found; generic goAML/AML tools (Alessa) exist",
+   "duty": "Annual licence renewal; AML/CFT customer ID, 5-year records, suspicious transaction reports; AML compliance officer",
+   "market": "About 60 bureaux at end-2020 (Bank of Botswana); current count unverified",
+   "reason": "Duty is real: bureaux need a Bank of Botswana licence (Act s.30), renewed every 12 months. The 2004 Regulations require customer identification, 5-year record keeping, suspicious transaction reporting and an AML/CFT compliance officer. Bank supervisory findings cited bureaux lacking customer risk rating and staff training policies, so there is a real gap. The market is tiny: 60 bureaux at end-2020, and the current count is unchecked. The P10,000 daily limit comes only from an aggregator copy. The current reporting route, FIA goAML or otherwise, is unconfirmed. The full regulation text did not load (the testelaws fetch failed). Competitor search was thin and found no Botswana-specific bureau software. Generic AML tools such as Alessa exist, and bureaux are unlikely to pay much. Low score because of market size.",
+   "searches": 2,
+   "sources": "https://www.bankofbotswana.bw/content/bureau-de-change-0 ; https://www.bankofbotswana.bw/sites/default/files/Checklist%20of%20bureaux%20de%20change%20Revised%202022.pdf ; https://regalert.today/document/5ddf2e7a-40aa-4f84-a732-24e93ddc3e37/text ; https://mmegi.bw/business/banks-slapped-with-fines-for-dirty-money-loopholes/news ; https://www.nbfira.org.bw/goaml/ ; https://alessa.com/blog/goaml-reporting/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b57"
+ },
+ "sonnet:botswana:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: the gov.bw recruiter's licence page and Employment Act Part V require a licence. Renewal needs a return of employees recruited per district, filed with the Commissioner within four weeks after each quarter. Fees are tiny (P20 Type A, P100 Type B). No competing software or state e-portal found. Applications go through Labour Offices. No count of licensed recruiters found, and enforcement is unverified. The market is probably tens to low hundreds of firms. Pain is low and so is willingness to pay: a quarterly form for a few hundred firms is not a business. Competitor search was only two searches, so absence of products is weakly evidenced.",
+   "searches": 2,
+   "sources": "https://www.gov.bw/index.php/trade/recruiters-licence ; https://www.gov.bw/labour-administration/recruiters-permit ; https://wikiprocedure.com/index.php/Botswana_-_Apply_for_Labour_Recruiter_License",
+   "suggested_score": 2,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b57"
+ },
+ "sonnet:botswana:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: gov.bw DOHS pages cite Factories Act s.37(7), steam boilers examined at least every 14 months by DOHS-authorised examiners, with report kept on site and a fine for non-compliance. A separate DOHS page covers cranes and lifting equipment, but I couldn't see its intervals. I found no Botswana software or service for this (only 2 searches, so not exhaustive). The market is tiny: no register or count of sites was found, and likely only dozens to a few hundred boiler owners. Examination is by a few authorised examiners, so frequency is low (about annual), buyers are scattered, and willingness to pay is weak. A reminder tracker is a thin product. Not run: sites count, fees, examiner list.",
+   "searches": 2,
+   "sources": "https://www.gov.bw/occupational-health-safety/examination-steam-boilers-when-cold ; https://gov.bw/occupational-health-safety/examination-cranes-and-other-lifting-equipment?page=0 ; https://botswanalaws.com/consolidated-statutes/subsidiary-legislation/factories-subsidiary-legislation",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b57"
+ },
+ "sonnet:botswana:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: BERA licenses retail stations under the BERA Act, and a 18 June 2026 statement reports stations shut for missing oil-water separators, leak wells, fire protection and untrained staff. Star Rating Tool (annual assessment, displayed certificate) was planned or piloted, but I could not confirm it is in force nationally. No periodic return was found, only inspections. No competing Botswana product turned up, and nothing on the BERA Licensee Regulatory Management System, so a state portal is possible. Station count not found (a 70-station sample only). Oil majors probably support branded dealers. Market is small, with unclear willingness to pay and a fuzzy workflow. Weak fit for a solo SaaS.",
+   "searches": 4,
+   "sources": "https://www.bera.co.bw/downloads/COMMS/BERA statement on non-compliant filing stations.pdf ; https://thepatriot.co.bw/bera-to-name-shame-fuel-stations ; https://businessweekly.co.bw/news/mamashia-glick-motors-fuel-service-station-emerge-top-in-bera-assessment",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
   },
   "tag": "w2b57"
  },

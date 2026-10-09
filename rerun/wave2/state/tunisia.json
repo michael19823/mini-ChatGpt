@@ -1,4 +1,28 @@
 {
+ "challenge:tunisia:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No killer found. Partial threat: in March 2026 the INSSPA president announced an upcoming digital platform for citizens and economic operators (no date given, functions unclear) (businessnews.com.tn 2026/03/19). Notification itself is a one-off, not recurring.",
+   "reason": "I found nothing that kills this, so it isn't refuted, but it is weak. The arrêté of 11 Mar 2025 is confirmed: every food and feed business must notify INSSPA, run a self-monitoring (auto-surveillance) programme and follow good hygiene practices, and packaging units need prior authorisation. Penalties fall under Law 25/2019. I found no online notification portal, Tunisian HACCP software or size exemption. Three things count against it. First, notifying is a one-time step; only the self-monitoring records recur. Second, the INSSPA president said in March 2026 that a digital platform for operators is coming, and it could absorb the notification step. Third, no deadline is set, and informal artisans are unlikely to pay. Unsettled: the full arrêté text and form, whether small artisans are exempt, and buyer count (insspa.tn returned HTTP 503).",
+   "searches": 6,
+   "sources": "https://www.leconomistemaghrebin.com/?p=642120 ; https://fr.allafrica.com/stories/202509120597.html ; https://businessnews.com.tn/2026/03/19/ramadan-2026-insspa-cinquante-points-de-vente-fermes-et-400-tonnes-de-produits-alimentaires-detruits/1392790/ ; https://fr.allafrica.com/stories/202603020223.html ; https://www.webmanagercenter.com/2025/01/02/537509/tunisie-le-controle-officiel-de-la-chaine-alimentaire-renforce-par-un-nouveau-decret/ ; https://www.appvizer.fr/biens/tracabilite-alimentaire/haccp-now",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b55"
+ },
+ "challenge:tunisia:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No killer product found. There is no Tunisian real-estate AML/KYC tool and no GPAI/CONECT template. goAML is only a free CTAF reporting channel. ScreenEdge (Morocco) has no Tunisian presence I could find. The case is weakened by facts, not by a competitor: a similar AML regime for real estate agents has existed since the arrete of 19 Apr 2018 and produced almost no compliance. In 2024 the non-financial professions sent only 3 STRs to CTAF, all from accountants. The market is also small: 1,000 to 1,400 licensed agencies, against 10,000 to 15,000 informal actors.",
+   "reason": "I found nothing that does the core job. There is no Tunisian vendor, no association template, and no free state tool beyond the goAML reporting channel. But the duty is not new. A 2018 arrete already required agents to detect and report suspicious deals, and enforcement has been near zero: 3 STRs from the whole non-financial sector in 2024, all from accountants. The 2026 arrete adds a written risk assessment, a compliance officer and 10-year records, but I found no fines, no compliance deadline and no reports of inspections. Buyers are only about 1,000 to 1,400 licensed agencies, in a mostly informal sector where agencies ask the state for help rather than buying tools. Willingness to pay looks low. A cheap template-and-register kit is possible but small.",
+   "searches": 8,
+   "sources": "https://legislation-securite.tn/wp-content/uploads/sites/5/2023/11/النظام-المنطبق-على-الوكلاء-العقاريين-لترصد-العمليات-والمعاملات-المسترابة-والتصريح-بها_0.pdf (search result only: 2018 regime) ; https://www.webmanagercenter.com/2025/10/23/554318/blanchiment-dargent-1236-declarations-de-soupcon-recues-par-la-ctaf-en-2024-en-hausse-de-45/ (search result only: 3 non-financial-sector STRs in 2024, all from accountants) ; https://fr.allafrica.com/stories/202510230515.html (search result only) ; https://lapresse.tn/2025/10/08/immobilier-en-tunisie-9-acteurs-sur-10-opereraient-dans-lillegalite/ (search result only: 1,000-1,400 licensed agencies) ; https://www.leconomistemaghrebin.com/2024/06/26/president-de-conect-appelle-a-actualisation-du-cahier-des-charges-des-agents-immobiliers/ (search result only) ; https://businessnews.com.tn/2026/01/28/letat-demande-aux-agents-immobiliers-de-denoncer-les-clients-suspects/1385435/ (search result only) ; https://businessnews.com.tn/2026/02/03/mohsen-chaabani-les-agents-immobiliers-doivent-etre-accompagnes-pas-seulement-sanctionnes/1386417/ (search result only) ; https://idaraty.tn/procedures/regime-applicable-agents-immobiliers-lutte-blanchiment-argent-financement-terrorisme-proliferation-armes (fetch 403; search snippet says page updated 28 Jul 2026) ; https://medias24.com/2025/12/05/hazim-sebbata-explique-la-nouvelle-plateforme-screenedge-dediee-aux-obligations-lcb-ft-1589517/ (search result only)",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b55"
+ },
  "discover:A:tunisia": {
   "result": {
    "blocked_searches": 0,
@@ -584,6 +608,330 @@
     "assurance décennale Tunisie promoteurs immobiliers entrepreneurs contrôleur technique obligation circulaire 2026 attestation"
    ],
    "searches": 18
+  },
+  "tag": "w2b55"
+ },
+ "gapfill:tunisia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Tunisian municipalities (communes) managing cemeteries; possibly the informal private section managers",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://www.lapresse.tn/2026/05/30/entre-speculation-et-abandon-le-business-de-la-mort-dans-les-cimetieres-de-tunis/ ; https://businessnews.com.tn/2026/07/27/commerce-des-tombes-au-djellaz-la-municipalite-de-tunis-refute-mais-confirme-une-enquete-sur-des-irregularites/1412076/ ; https://www.mosaiquefm.net/mobile/ar/تونس-وطنية/814072/تونس-الكبرى-تشكو-نقصا-في-أماكن-الدفن (burial space shortage, snippet only)",
+     "existing": "No digital grave register or locator found for Tunisia in Arabic or French searches. Comparable platforms exist elsewhere (Saudi Balady, Morocco Ekram pilot in Rabat), but nothing local seen.",
+     "known_mark": "new",
+     "name": "Municipal cemetery plot register and grave-locator for Tunisian communes (and private cemetery concessionaires)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law 97-12 (cemeteries and burial places) and Decree 97-1326; the Djellaz falsification investigation (Tunis municipality statement, 27 Jul 2026) and press reports of opaque plot allocation and sold tomb numbers create political pressure. No confirmed mandate to digitise or any deadline.",
+     "unchecked": "Text of Law 97-12 and Decree 97-1326 (whether they require a register of graves); whether Tunis or other communes already run any system; the number of communes with cemeteries and their procurement route (public tender, so not a quiet-business sale); whether informal section managers are licensed or can be buyers."
+    },
+    {
+     "buyer": "Small private funeral and repatriation firms in Tunisia (a handful found, e.g. Societe Orientation Funeraire, Eden)",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://find-a-professional-service-abroad.service.csd.fcdo.gov.uk/find/funeral-directors/Tunisia/result ; https://www.gov.uk/government/publications/bereavement-information-for-tunisia/bereavement-information-pack-tunisia",
+     "existing": "Not searched for software; no competitor check run because score is below 3.",
+     "known_mark": "new",
+     "name": "Funeral and body-transport / repatriation operator back-office (permits, quotes, consular paperwork)",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Per-case paperwork for transport of bodies and repatriation (burial or transport authorisation, consular papers). No recurring register or licence-reporting duty found; no Tunisian rule on funeral-operator approval found.",
+     "unchecked": "Whether any licensing regime for funeral firms exists; number of operators (appears very small); whether any recurring duty falls on them. The market looks too small and unregulated to pursue."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Burial in Tunisia is a municipal public service: cemeteries are municipal property, governed by Law 97-12 of 25 Feb 1997 (cemeteries and burial places) and Decree 97-1326 of 7 Jul 1997 (grave preparation, burial and exhumation rules), with Art. 267 of the Code of Local Authorities cited (a Tunisian Red Crescent statement, per search snippet; the legal texts themselves were not opened). Funeral-services market: only a few private operators surfaced (UK FCDO directory lists Eden and Societe Orientation Funeraire in Tunis; repatriation of bodies for the diaspora). No Tunisian licensing regime or register for private funeral firms found; no confirmed obligation for them to file recurring reports. Cemetery management is currently a visible problem: La Presse (30 May 2026) describes municipal abandonment of Jallez and Sidi Yahya, informal intermediaries dividing sections, street-sold tomb numbers, no official register or digitisation mentioned; Tunis municipality (27 Jul 2026) confirmed an investigation into irregularities and suspected falsification at Djellaz and said it would refer it to the courts. Greater Tunis reportedly short of burial space. No municipal digital grave register or platform found (searched; only the Tunis building-permit platform Taamir surfaced). The buyer would be the municipality (about 350 communes), which is a public sector sale and out of scope as the state's own system; no private small-business duty with a deadline or reporting found. Weak lead only; the text of Law 97-12 and Decree 97-1326 and any funeral-operator authorisation rule were not verified.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "cimetières Tunisie gestion municipalité inhumation autorisation registre",
+    "خدمات الجنائز تونس شركات نقل الجثامين ترخيص دفن المقابر البلدية",
+    "pompes funèbres Tunisie agrément transport de corps cahier des charges décret",
+    "دفن الأموات تونس قانون المقابر منشور وزارة الداخلية كراس شروط نقل الجثث شركة خاصة",
+    "loi n°97-12 cimetières lieux de sépulture Tunisie concession registre municipalité",
+    "services funéraires Tunisie rapatriement de dépouille entreprise Tunis tarifs",
+    "القانون عدد 12 لسنة 1997 المقابر وأماكن الدفن تونس ترخيص نقل الجثث شركات خاصة تأسيس",
+    "البلدية رقمنة المقابر سجل القبور تونس منصة تحديد مكان القبر"
+   ],
+   "searches": 8
+  },
+  "tag": "w2b55"
+ },
+ "opus:tunisia:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Not found: no INSSPA online notification or agrément portal. INSSPA's site only has a citizen reporting space and a toll-free number. One reader comment mentions a \"nouvelle plateforme\" for registering units, but it is unverified. Searches for a Tunisian HACCP/traceability tool found only foreign generic tools (HACCP Now, Food Guard, Cashmere, via Appvizer/GetApp) and no Tunisian vendor. HACCP consultants and the Centre technique de l'agroalimentaire likely offer paper-based support (not verified).",
+   "duty": "Law 2019-25 of 26 Feb 2019 (food and feed safety, in force), art. 22. A Health Ministry arrêté published in the JORT on 11 Mar 2025 sets the content, form and procedure for operators to inform INSSPA. It applies to every food and feed business operator, who must also run a self-monitoring programme and follow good practice. INSSPA's notice of 12 Sept 2025 says packaging units need prior approval and must regularise \"dans les plus brefs délais\", with no fixed date. Penalties are administrative and criminal under Law 2019-25: closures and court reports (PV) were seen in Manouba in Feb 2026. I did not find the fine amounts; the FAOLEX PDF was not machine-readable. The notification is one-off, and the autocontrôle records recur. I did not confirm whether small artisans are exempt or how notification is filed (online or paper); insspa.tn returned a 503 error.",
+   "market": "APII counts about 980 agrifood industrial companies with 10 or more employees (end Aug 2026, via managers.tn), and earlier figures of 965 to 1,060. Artisanal and micro units (pastry, spices, couscous, oil bottlers) are not counted. They probably number several thousand more (estimate, not verified); APIA's ProAgro programme alone targeted 400 micro-enterprises.",
+   "reason": "The duty is real. Under Law 2019-25, art. 22, a Health Ministry arrêté (JORT, 11 Mar 2025) makes every food and feed operator notify INSSPA, run a self-monitoring (autocontrôle) programme and follow good hygiene practice. Packaging units also need prior approval (agrément). INSSPA's Sept 2025 notice threatens administrative and criminal sanctions; I found no fine amounts. I found no Tunisian notification portal or local HACCP/autocontrôle software, only foreign tools (HACCP Now, Food Guard). The notification itself is one-off; only autocontrôle recurs. Artisanal micro-units are hard to reach and unlikely to pay. With no published form, deadline or artisan exemption, the MVP scope is unclear. Consultants probably sell paper HACCP plans (not verified).",
+   "searches": 6,
+   "sources": "https://businessnews.com.tn/2025/09/12/linsspa-rappelle-lobligation-dautorisation-pour-les-unites-de-conditionnement-alimentaire/1365236/ ; https://fr.allafrica.com/stories/202509120597.html ; https://www.leconomistemaghrebin.com/?p=613995 ; https://leap.unep.org/en/countries/tn/national-legislation/loi-ndeg-2019-25-du-26-fevrier-2019-relative-la-securite ; https://fr.allafrica.com/stories/202602270564.html ; https://managers.tn/2026/09/14/industrie-les-nouveaux-poles-de-linvestissement-se-dessinent-nabeul-bizerte-et-monastir/ ; https://www.appvizer.fr/biens/tracabilite-alimentaire/haccp-now ; https://www.lapresse.tn/?p=211268 ; https://africanmanager.com/?p=557467",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b55"
+ },
+ "opus:tunisia:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "EducaKids (STE EDUCANET TUNISIE) is a Tunisian app for crèches and garderies covering child management, cash, activities and parent notifications, but no compliance or inspection-readiness features. Foreign tools (Brightwheel, HiMama, Kangarootime, Parent) are generic childcare management tools and not localised for Tunisia. I found no Tunisian compliance or inspection-readiness tool and no state portal for operator filings. The ministry publishes a list of licensed establishments.",
+   "duty": "The arrêté of 24 Jan 2022 ratifying the cahier des charges for jardins d'enfants (it replaced the 2003 one) is in force, and existing establishments had one year to comply. Opening needs authorisation and a récépissé from the regional childhood service. It requires cameras at entrances, qualified directors and staff, and a 1:20 staff ratio for ages 3–6. The chamber reports the director's first-aid certificate must be renewed every 2 years. The penalty is closure: 133 non-conforming structures were closed in Jan–Oct 2025. Revision: an agreement in Dec 2025 and a participatory review announced in Jan 2026, plus bill no. 2026/029 (Apr 2026) on control structures and sanctions. I found no evidence that either has been adopted. I also found no periodic filing or register obligation (not verified in the full text).",
+   "market": "The Chambre nationale reports 5,520 jardins d'enfants in Apr 2026, down from 6,020 in 2024. Crèches and children's clubs come on top of that; I found no count for them. The sector is shrinking because of lower attendance and higher costs.",
+   "reason": "The duty is real but weak as a recurring workflow. The operative text is still the arrêté of 24 Jan 2022 ratifying the cahier des charges. It covers licensing through a récépissé from the regional childhood service, cameras, staff diplomas and first-aid renewal every 2 years, with ministry closures (133 in Jan–Oct 2025). I found no adopted 2026 revision. The ministry is revising it and bill 2026/029 on control and sanctions was filed in April 2026, but neither appears adopted. I found no recurring filing or register beyond inspections. The only Tunisian software found is EducaKids (Educanet), which handles parent communication and admin, not compliance. The sector is shrinking and cash-poor (about 500 closures), willingness to pay is doubtful, and the rules are in flux.",
+   "searches": 6,
+   "sources": "https://fr.allafrica.com/stories/202604240648.html ; https://businessnews.com.tn/2026/01/08/petite-enfance-133-creches-et-garderies-non-conformes-fermes-entre-janvier-et-octobre-2025/1381887/ ; https://africanmanager.com/le-projet-du-nouveau-cahier-des-charges-relatif-au-creches-et-jardins-denfants-peut-causer-la-fermeture-de-80pc-de-ces-etablissements/ ; https://www.webdo.tn/fr/actualite/national/petite-enfance-vers-un-nouveau-cadre-pour-encadrer-les-jardins-denfants/396803/ ; https://www.webdo.tn/fr/actualite/national/tunisie-nouvelle-reglementation-pour-les-jardins-denfants/133957/ ; https://www.mosaiquefm.net/mobile/ar/أخبار-تونس-جهات/1012655/صفاقس-غرفة-رياض-الأطفال-ترفض-كراس-الشروط-الجديد ; https://kapitalis.com/anbaa-tounes/?p=292056 ; https://apps.apple.com/us/app/-/id1598537744",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b55"
+ },
+ "opus:tunisia:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Tunisian AML/KYC software for real estate agents, or for designated non-financial professions in general. CTAF tools are state systems: goAML is a free reporting portal only, and the Hannibal platform covers cross-border cash. There are foreign KYC/KYB APIs that cover Tunisia (knowyourcustomer.com, didit.me), but they are not a compliance kit and do not cover Tunisian freeze lists or local forms. A Moroccan analogue exists (ScreenEdge, which targets notaries and real estate agents in Morocco) and could be a regional entrant. GPAI asks the state for training and tools. No GPAI or CONECT template was found.",
+   "duty": "The duty is real and in force. A Commerce Minister arrete dated 26 Jan 2026 was published in the JORT the same day. It has 36 articles and repeals and replaces an earlier arrete of 19 Apr 2018, so the duty itself is not new; it has been tightened. It rests on Organic Law 2015-26, as amended by Organic Law 2019-09, which names real estate agents as designated non-financial professions. Under the 2026 arrete, agents must: (1) identify and verify every client in each sale, purchase or transfer of ownership, using ID, passport, residence card or RNE company record; (2) write and document a risk assessment, update it regularly and send it to the Commerce Ministry's control services; (3) apply enhanced or simplified checks according to risk; (4) freeze funds of listed persons and tell the National Counter-Terrorism Commission at once; (5) report suspicious transactions; (6) appoint a compliance officer, who is the agent himself if he works alone; (7) keep records for 10 years. The 10-year period is reported by Business News but not checked against the official text. Compliance is checked by Commerce Ministry field and desk inspections. Frequency: checks on every deal, plus periodic risk-assessment updates. Not verified: penalty amounts (not in the arrete per the press; the law's sanctions not found), whether agents must file reports through goAML (goAML is confirmed as the CTAF's reporting channel generally and is required for currency exchange offices by circular 2026-02), and any deadlines. The idaraty.tn procedure page returned 403.",
+   "market": "The GPAI/CONECT president (Oct 2025) puts licensed agencies at about 1,000 to 1,400, against 10,000 to 15,000 unlicensed operators. A June 2024 figure says fewer than 1,000 of about 5,000 agents are licensed. No official register count was found. The realistic buyer pool is about 1,000 licensed agencies, many of them one-person businesses.",
+   "reason": "The duty is real and was strengthened in Jan 2026 (KYC on every deal, written risk assessment sent to the ministry, report filing, sanctions-list screening, a compliance officer, 10-year records). I found no local tool. But only about 1,000 to 1,400 agencies are licensed. Most of the sector is informal, and these agents don't handle the final payment. The 2018 arrete was weakly enforced, and fine amounts are unclear. Willingness to pay is likely low, and GPAI wants the state to supply training and tools. The MVP is simple (templates, a KYC register, a list-screening check, report drafting). It is better sold as an add-on to the K04 jewellers kit or bundled for all non-financial professions (notaries, accountants), with GPAI/CONECT as the sales channel.",
+   "searches": 6,
+   "sources": "https://businessnews.com.tn/2026/01/28/letat-demande-aux-agents-immobiliers-de-denoncer-les-clients-suspects/1385435/ ; https://businessnews.com.tn/2026/02/09/cachet-accompagnement-nouvel-ordre-les-propositions-du-groupement-professionnel-des-agences-immobilieres/1387456/ ; https://businessnews.com.tn/2026/02/03/mohsen-chaabani-les-agents-immobiliers-doivent-etre-accompagnes-pas-seulement-sanctionnes/1386417/ (search results only) ; https://www.tunisienumerique.com/tunisie-immobilier-lutte-consolidee-contre-le-trafic-des-capitaux/ (search results only) ; https://www.idaraty.tn/public/procedures/regime-applicable-agents-immobiliers-lutte-blanchiment-argent-financement-terrorisme-proliferation-armes (search results only, fetch 403) ; https://www.webmanagercenter.com/2026/07/11/569754/rapport-ctaf-2026-triplement-des-declarations-de-soupcons-financiers-en-tunisie/ (search results only) ; https://lapresse.tn/2025/10/08/immobilier-en-tunisie-9-acteurs-sur-10-opereraient-dans-lillegalite/ (search results only) ; https://www.leconomistemaghrebin.com/2024/06/26/president-de-conect-appelle-a-actualisation-du-cahier-des-charges-des-agents-immobiliers/ (search results only) ; https://managers.tn/2021/09/21/la-plateforme-hannibal-de-la-bct-mise-en-avant-dans-un-rapport-du-gafi (search results only) ; https://medias24.com/2025/12/05/hazim-sebbata-explique-la-nouvelle-plateforme-screenedge-dediee-aux-obligations-lcb-ft-1589517/ (search results only) ; https://knowyourcustomer.com/developers/coverage/tunisia/ (search results only)",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b55"
+ },
+ "sonnet:tunisia:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "State e-platform announced March 2026 (public launch unconfirmed). No private software found; private vendors not searched.",
+   "duty": "Authorisation for wells deeper than 50 m, one-off per well. Regularisation under Article 81 of the 2025 finance law, with the bill still in committee. No recurring duty found.",
+   "market": "3,500-4,000 authorisation files a year (ministry); about 19,000 unauthorised wells (2019 estimate, not verified).",
+   "reason": "The authorisation duty is real: wells deeper than 50 m need a permit, and the ministry reports 3,500-4,000 files a year. The duty is one-off per well, not recurring, and I found no volume-reporting duty. The ministry announced a state e-platform in March 2026. It cuts approval time from over a year to 21 days and will open to the public after a security audit. I found no confirmation that it is live. The regularisation bill (proposition 18/2026, 3,500 TND fee, wells drilled before 10 Dec 2024, closing by 31 Dec 2027) was still in committee. Article 81 of the 2025 finance law already provides regularisation, but its application is delayed. I searched only the state platform and the bill, not private competitors. A paid service would be a low-software dossier-prep job and would be displaced by the state portal. I could not check the 19,000 unauthorised-well figure (FTDES, 2019).",
+   "searches": 3,
+   "sources": "https://fr.allafrica.com/stories/202603270223.html; https://africanmanager.com/arp-proposition-de-loi-pour-la-regularisation-des-puits-agricoles-non-autorises/; https://www.arp.tn/document/download/120889; https://www.lapresse.tn/?p=4323258; https://www.webdo.tn/fr/actualite/national/forages-anarchiques-en-tunisie-la-riposte-digitale-de-letat/395239/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b55"
+ },
+ "sonnet:tunisia:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "No Tunisian GDA billing software found in 3 searches, so competition is not shown. But the claim is not a legal duty: it has no regulatory deadline, and a mandatory DGGREE reporting duty was not confirmed. The market is real but sources conflict: 1,415 GDAs in 2024 (35% functional) against about 2,500 (44% active). Collection is reported at about 40% of volumes. Buyers are weak and likely donor-dependent, with a low willingness to pay. Law 99-43 was not opened.",
+   "searches": 3,
+   "sources": "https://www.tunisienumerique.com/par-hedi-sraieb-leau-a-usage-agricole-viabilite-et-perspectives/ ; https://africanmanager.com/gda-chacun-tire-leau-a-son-moulin/ ; https://www.webmanagercenter.com/2020/06/18/452308/il-faut-repenser-les-gda-en-vue-de-prevenir-les-tensions-sur-leau/ ; https://www.pseau.org/outils/ouvrages/ps_eau_fiche_pays_tunisie_2021.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b55"
+ },
+ "sonnet:tunisia:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "None found; no dedicated tool or state portal located (shallow search)",
+   "duty": "Decree-law 88/2011 art. 40-41: register of donations, publication of financial statements, foreign-funding declaration. Sanctions: warning, suspension, judicial dissolution.",
+   "market": "About 1,005 foreign-funded associations (HCCAF, Feb 2025). Total association count not verified.",
+   "reason": "Duty is real: Decree-law 88/2011 (art. 40-41) requires associations to keep a register of donations, publish financial statements, and declare and notify foreign funds, with graduated sanctions from warning to judicial dissolution. The HCCAF (not the audit court) said in Feb 2025 that 500+ of 1,005 foreign-funded associations were non-compliant, and that sanctions were unenforced. No dedicated software or state portal was found, but search was shallow. Weak market: about 1,000 buyers, mostly NGOs with donor-funded compliance staff. The 2026 organic-law proposal would require prior authorization of foreign funds and may shrink or reshape the market. There is a repression and political risk, and no vote was found.",
+   "searches": 3,
+   "sources": "https://www.lapresse.tn/2025/02/13/financement-etranger-plus-de-500-associations-tunisiennes-en-infraction-avec-la-loi/; https://fr.allafrica.com/stories/202604220517.html; https://fr.allafrica.com/stories/202502060348.html; https://www.tuniscope.com/ar/article/400709/actu-arabe/arabe/hazgui-135110; https://idaraty.tn/public/index.php/procedures/obtention-dun-financement-public-pour-une-association-en-tunisie",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b55"
+ },
+ "sonnet:tunisia:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The January 2024 customs rule is reported by press only: regional customs chiefs must stamp and ratify wholesalers' purchase and sale registers at friperie factories. I found no official text, no stated frequency or penalty, and no confirmation it is still in force in 2026. The ratification is a physical stamp and round seal from the regional customs office, so software cannot do the core job. The pool is small: wholesalers are few, while the roughly 150,000 sellers and 2,000 unauthorised retailers are 2022 figures. Willingness to pay looks low, and the sector is informal and in conflict with customs. I found no competing software, but I ran only one search, so competition is unchecked. Pain and frequency are unproven.",
+   "searches": 1,
+   "sources": "https://www.lapresse.tn/2024/01/04/nouvelles-procedures-douanieres-la-fripe-comment-passer-de-linformel-au-formel/ ; https://www.tunisienumerique.com/tunisie-les-marchands-de-fripe-menacent-darreter-leur-activite/",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b55"
+ },
+ "sonnet:tunisia:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. Business News (29 Jun 2026) says legal entities serving food or drink on site must use a Nacef-conforming fiscal cash register from 1 Jul 2026. Individuals on the real regime follow on 1 Jul 2027 and other individuals on 1 Jul 2028. Art. 94 CDPF penalties are 16 days to 3 years in prison and 1,000-50,000 TND. Decree 2019-1126 is the legal basis. Competition: the core job is hardware and software that must pass state homologation (homologation.nacef.tn). Approved suppliers are listed on Jibaya.tn, so a solo founder faces a certification barrier. I found no prices, supplier list or count of outlets. A reseller or enrolment service is possible but low-margin and crowded by certified suppliers. Fines are enforced and the market is large, but the product is thin.",
+   "searches": 3,
+   "sources": "https://businessnews.com.tn/2026/06/29/caisses-enregistreuses-fiscales-ce-qui-change-des-le-1er-juillet-pour-les-entreprises-de-consommation-sur-place/1408162/ ; https://jibaya.tn/wp-content/uploads/2025/10/1126%20trait%C3%A9%20fr.pdf ; https://www.webmanagercenter.com/2026/07/01/569516/caisses-enregistreuses-restaurants-cafes-le-tournant-decisif-du-1er-juillet/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b55"
+ },
+ "sonnet:tunisia:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Decree-law 2020-30 (per search summaries) requires auto-entrepreneurs (≤75,000 TND) to declare revenue online each quarter and pay a single contribution via the national register/platform. Businessnews says the platform opened 15 Apr 2026, with wider use from Jul 2026. Registered count: about 8,800 (Businessnews), over 10,000 (minister, 24 Jun 2026, via search summary). I found no private Tunisian software. But the state platform covers declaring and paying, the contribution is small (25 or 50 TND per summary), and users are low-income, so willingness to pay is weak. The market is small and hard to reach. Penalties and the exact 2026 deadlines were not verified. Low-value reminder/ledger niche.",
+   "searches": 2,
+   "sources": "https://businessnews.com.tn/?p=1395889 ; https://managers.tn/?p=95135 ; https://admin.leaders.com.tn/uploads/FCK_files/BDO Tunisie - Le régime de l'autoentrepreneur 06 07 2020.pdf ; https://beancount.io/blog/2026/09/26/tunisia-auto-entrepreneur-flat-tax-freelance-platform-guide",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b55"
+ },
+ "triage:tunisia": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New buyer (small food producers) with a recurring notification, authorisation and self-control duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Private crèches and kindergartens under inspection; new buyer group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Farmers and drillers with a well-authorisation duty; new in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Rural water GDAs are community bodies with recurring billing duties; verifiers decide demand."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Associations with foreign-funding publication and annual reporting duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Friperie traders with a customs register duty; small traders in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Private recruitment bureaux are small firms; trigger is unverified, so keep for checking."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Licensed pesticide dealers are small firms with stock and sales records; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small waste collectors and scrap dealers under a revised cahier des charges; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Lift and pressure-equipment owners have periodic inspection duties; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Includes private slaughter units and poultry abattoirs, not only municipalities; keep when unsure."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Taxi and louage licence holders are sole traders with professional-card duties."
+    },
+    {
+     "decision": "known",
+     "id": "A13",
+     "reason": "Same buyer group and duty as K10 (2025 labour and subcontracting law), already rejected.",
+     "ref": "K10"
+    },
+    {
+     "decision": "known",
+     "id": "A14",
+     "reason": "Same household employers and domestic-worker/CNSS duty as K05.",
+     "ref": "K05"
+    },
+    {
+     "decision": "known",
+     "id": "A15",
+     "reason": "Same jewellers and AML/KYC duty as K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "known",
+     "id": "A16",
+     "reason": "Same bureaux de change and KYC/BCT duty as K13.",
+     "ref": "K13"
+    },
+    {
+     "decision": "known",
+     "id": "A17",
+     "reason": "Same livestock owners and identification duty as K14.",
+     "ref": "K14"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Real estate agencies are a different buyer group from K04 jewellers, with a new Jan 2026 arrete."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Fiscal cash-register duty for food outlets with dated deadlines; differs from K01 e-commerce invoicing."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Auto-entrepreneurs with a recurring declaration duty; different buyer and duty from K05."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Family guest houses and gites under new cahiers des charges; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small seafood exporters facing dated EU paperwork deadlines; many small firms act at once."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Pharmacy narcotics register is a different duty from K09 CNAM claims; trigger unenacted, so check it."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Decennial-insurance duty for small contractors differs from K03 certificate tracking; unsure, so verify."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Community companies and co-operatives are in scope; filing duty unverified."
+    },
+    {
+     "decision": "known",
+     "id": "B9",
+     "reason": "Security and cleaning firms under the 2025 subcontracting rules; same duty as K10 and A13.",
+     "ref": "K10"
+    },
+    {
+     "decision": "known",
+     "id": "B10",
+     "reason": "CNAM tiers-payant arrears for health providers; same payer problem as K09.",
+     "ref": "K09"
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS1",
+     "reason": "Municipal cemetery register is the state's own system; no duty on small businesses (out of scope: building the state's system)."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Small funeral and repatriation firms with per-case permit paperwork; unverified, keep for checking."
+    }
+   ]
   },
   "tag": "w2b55"
  }

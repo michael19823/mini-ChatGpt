@@ -1,0 +1,288 @@
+{
+ "discover:A:brunei": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Registered employment agents/agencies and employers",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.business.gov.bn/?p=974 (LPA approval 7 working days, 18 for construction; agent required for new applications; inspection 3-6 months after); https://www.bal.com/perspectives/bal-news/labour-department-sets-new-process-for-companies-hiring-foreign-workers/",
+     "existing": "Not checked",
+     "known_id": "K03",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K03/K04; no new evidence.",
+     "name": "Foreign Worker Licence evidence pack for employment agents",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Foreign Worker Licence (LPA) via registered employment agent; mandatory labour inspection 3-6 months after approval; security deposit; JobCentre clearance (Employment Order 2009; Employment Agencies Order 2004)"
+    },
+    {
+     "buyer": "Households employing domestic workers",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "Search summary only (aipalync.org/document/view/2226; asean.org migrant worker repository matrix)",
+     "known_id": "K13",
+     "known_mark": "known",
+     "known_note": "Rejected K13/K04; nothing new.",
+     "name": "Household employer / domestic worker file",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Employment (Domestic Workers) Regulations 2009 under Employment Order 2009 Part XII"
+    },
+    {
+     "buyer": "Jewellers",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "Not re-checked",
+     "known_id": "K12",
+     "known_mark": "known",
+     "known_note": "Rejected K12.",
+     "name": "Jewellers/gold buyers AML",
+     "score": 0,
+     "status": "weak",
+     "trigger": "AML/CFT under Criminal Asset Recovery Order 2012"
+    },
+    {
+     "buyer": "BDCB-licensed money changers and remittance companies (BDCB list of licensees, likely a few dozen firms at most; hotel money-changers separate)",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.bdcb.gov.bn/regulatory/money-services/licensing-criteria ; https://cms.bdcb.gov.bn/storage/uploads/regulatories/17111192462706200.pdf ; BDCB list of licensees https://www.bdcb.gov.bn/regulatory/list-of-bdcb-licensees ; BDCB only opens new applications periodically, so the licensee count is small",
+     "existing": "Regional AML vendors (Arctic Intelligence, per K12 note) cover Brunei; not checked specifically",
+     "known_id": "K12",
+     "known_mark": "new",
+     "known_note": "Related to K12 (jewellers AML) but different buyer group (BDCB licensees).",
+     "name": "Money-changer and remittance licensee compliance pack (Compliance Officer, AML/CFT policy, BDCB renewal)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Money-Changing and Remittance Businesses Act Cap 174; annual licence fee (BND 2,000 money-changing, BND 3,000 remittance plus BND 55,000 guarantee); Compliance Officer guideline effective 1 May 2020; Criminal Asset Recovery Order 2012",
+     "trigger_note": "",
+     "unchecked": "Licensee count, actual reporting forms/frequency (STR to FIU, periodic returns to BDCB), vendor coverage"
+    },
+    {
+     "buyer": "Licensed pawnbrokers (number unknown, probably a handful)",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://cms.bdcb.gov.bn/storage/uploads/regulatories/17111193265662150.pdf (title page and table of contents only; body is scanned and unreadable)",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Pawnbroker pawn-agreement register and unredeemed-pledge workflow",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Pawnbrokers Order 2002 (S 60/2002): licence (s.9), record of pawn agreements (s.14), amount of loan and redemption period (s.13), safe-keeping (s.16)",
+     "unchecked": "Number of licensees, issuing authority today, whether returns are filed, whether an Islamic pawn (ar-rahnu) scheme dominates"
+    },
+    {
+     "buyer": "Small food premises, home-based food businesses and stalls",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://bdfa.gov.bn/services-oper-food-business/ ; https://bdfa.gov.bn/wp-content/uploads/2024/12/BDFA-FEEDBACK-TO-PUBLIC-COMMENTS-ON-THE-DRAFT-FOOD-ORDER-2024.pdf (PDF unreadable via fetch; content known from search summary) ; https://bdfa.gov.bn/wp-content/uploads/2024/07/20240629-FINAL-Draft-Food-Order-2024-for-circulation.pdf",
+     "existing": "No competitor search run: search cap reached",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "K02 is import product registration/label check, a different duty and buyer type.",
+     "name": "Food-business inspection readiness and food-handler training tracker (BDFA scoring)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "BDFA unannounced inspections scored by checklist (70%+ satisfactory, 50% or less immediate closure); all food handlers must complete the Basic Food Safety Course; draft Food Order 2024 would regulate home-based businesses and stalls as food premises and replace Public Health (Food) Act Cap 182; gazettal unconfirmed",
+     "unchecked": "Whether Food Order 2024 is gazetted and its commencement/transition date (a deadline would make many small firms act at once); licence categories and renewal; competitor search (rule requires one for score 3, not run); HACCP/food-safety app vendors in Malay"
+    },
+    {
+     "buyer": "Licensed slaughtering centres and halal meat sellers/importers",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://faolex.fao.org/docs/pdf/bru91336.pdf ; https://www.importlicensing.wto.org/sites/default/files/Wholesome_Meat_Order_2011_16.02.2011.pdf ; https://halalfocus.com/brunei-nearly-300kg-of-dubious-meat-seized-in-latest-operation/",
+     "existing": "Not checked",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Adjacent to K01 (halal certification tracker) but buyer is slaughtering centres/meat importers and duty is meat licence and import quantity verification.",
+     "name": "Slaughtering-centre and halal-meat licence/records pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Wholesome Meat Order 2011; Wholesome Meat (Slaughtering Centres) Regulations 2011 (licence from BDFA Director); Halal Meat Act Cap 183 (halal import permits, slaughtering certificates, quantity verification by Agriculture Department)",
+     "unchecked": "Number of centres (few), recurring returns, amendments since 2011"
+    },
+    {
+     "buyer": "Licensed child care centres under MCYS (KKBS)",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://thescoop.co/2022/01/05/child-care-centres-set-to-reopen-from-january-17/ (via search summary; also a 2019 thescoop.co article on MCYS monitoring)",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Child care centre licence renewal and multi-agency clearance file",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "MCYS licensing; applications routed to police record and fingerprint, traffic, fire and rescue, health, and town and country planning (2019 report); MOH guidelines for nutrition and activity",
+     "unchecked": "Governing law, number of centres, renewal cycle, staff clearance records"
+    },
+    {
+     "buyer": "Domestic waste and septic sludge contractors",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://moh.gov.bn/wp-content/uploads/2026/07/KK-132-2026-JPKTC.pdf ; https://moh.gov.bn/wp-content/uploads/2026/05/KK-87-2026-JPKTC.pdf (tender documents, via search summary); https://www.eco-web.com/reg/04592.html",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Septic/waste-hauler contractor approvals file (MOH registration, JASTRe vehicle approval)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Environmental Protection and Management Order 2016; MOH tender conditions require contractor registration and a domestic waste collection licence; JASTRe approves refuse vehicles",
+     "unchecked": "Whether a standalone licence and periodic reports exist, number of contractors"
+    },
+    {
+     "buyer": "Retailers/importers of poisons and agro-chemicals",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.importlicensing.wto.org/sites/default/files/Poisons_Act_1953_01.01.2015.pdf ; https://importlicensing.wto.org/content/poisons-and-deleterious-drugs-1",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Poisons licence (importers/sellers of pesticides and chemicals)",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Poisons Act Cap 114: licence from a Licensing Officer to import, possess for sale or sell poisons; Customs Application Permit for poisons; Agriculture Department controls on restricted agri imports",
+     "unchecked": "Whether pesticides are under Poisons Act or a separate order; sales register duties; number of dealers. Related only loosely to K05."
+    },
+    {
+     "buyer": "Registered societies and associations (10+ persons)",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://www.icnl.org/research/library/brunei-darussalam_societies/ (text not read in full)",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Registered societies annual accounts / returns",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Societies Act Cap 66: Registrar may order constitution, rules, information (ss.11-12) and accounts (s.14)",
+     "unchecked": "Whether a routine annual return exists, current registrar, the replacement Act mentioned on Wikipedia (2005, unverified)"
+    },
+    {
+     "buyer": "Private veterinary clinics, pet importers",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://ampeid.org/documents/brunei-darussalam/animal-(diseases-and-quarantine)-order-2021/ ; https://www.expatfocus.com/brunei/guide/brunei-veterinary-care",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Veterinary practising certificate and animal-import permit handling",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Veterinary Surgeons order 2005 (Annual Practising Certificate, unconfirmed); Animal (Diseases and Quarantine) Order 2021; DAA import permits",
+     "unchecked": "Number of vets (very few), medicine import rules"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Employment (Domestic Workers) Regulations 2009 (S 39/2009, amended 2014) under Employment Order 2009 Part XII; Labour Department licenses employers recruiting domestic workers and licenses employment agencies (Employment Agencies Order 2004). Nothing new beyond K13/K04; households go through agencies.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "One search; no Brunei scrap-metal dealer licensing regime found (results all other countries). Unverified whether one exists.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Pawnbrokers Order 2002 (S 60/2002): licensing officer, licence required (s.9), record of pawn agreements (s.14), safe-keeping (s.16). No second-hand dealer register found. Licensee count unknown, likely very small. Order text is scanned, unreadable via fetch.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Nothing new beyond K12 (jewellers AML rejected, too few shops). No separate search spent.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "One search; no Brunei end-of-life vehicle or dismantler regime found. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Animal (Diseases and Quarantine) Order 2021 makes the DAA Director the competent veterinary authority and covers animal movement within and into Brunei plus quarantine. Livestock-trader specific record duties not found. Not separately searched.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Wholesome Meat Order 2011 and Wholesome Meat (Slaughtering Centres) Regulations 2011 (licence by Director of BDFA, applicant must be registered business); Halal Meat Act Cap 183 and rules (halal licence, slaughtering centre approval, import permits, Syariah Affairs Halal Food Control Division). Few slaughtering centres; PDFs unreadable. See candidate on slaughtering centres.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No search spent (budget used on higher-regulation categories). Likely nothing regulated.",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "2005 Veterinary Surgeons order with Annual Practising Certificate and a Veterinary Council (per search summary, unconfirmed); DAA is veterinary authority. Handful of private vets; no commercial veterinary-medicine permit process found.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "No search spent (budget). Brunei is piped-water served; low likelihood.",
+     "status": "not_reached"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Environmental Protection and Management Order 2016 (JASTRe); MOH tenders require contractors registered with MOH and licensed for domestic waste collection; vehicles approved by JASTRe; Sungai Paku septic sludge facility. No specific desludging licence rule confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Two searches; no Brunei lift/boiler certification rule or inspectors found (results were Malaysia/HK). Unverified; Labour Department or Ministry of Development is the likely home.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Brunei water supply is a government utility (Water Services Department); no small private water systems expected. Not searched.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "No Brunei pesticides order found; Poisons Act Cap 114 requires a licence from a Licensing Officer to import, possess for sale or sell poisons; Customs Application Permit for poisons and deleterious drugs per WTO notes; Agriculture Department controls restricted agri imports. Unverified whether pesticides sit here.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Labour Department licenses employment agencies for foreign workers (Employment Agencies Order 2004; Foreign Workers Recruitment Licence s.112 Employment Order 2009). Since 2016 Foreign Worker Licence (LPA) replaced the Labour Quota Licence; per business.gov.bn new LPA applications must go through a registered employment agent; mandatory inspection 3-6 months after approval; security deposit; JobCentre Brunei clearance letter. Nothing new beyond K03/K04.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Nothing found on funeral-service licensing; burial is run via religious bodies and district offices. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Societies Act Cap 66 (Registrar of Societies; registration order, Registrar may call for constitution and accounts, ss.11-14). No annual return duty confirmed. Halal supervision falls under K01.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "JPD and Royal Brunei Police enforce Road Traffic Act Cap 68; buses franchised and tendered; taxis franchised; e-hailing unregulated on price. No operator register or periodic report details found.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money-changers and remittance firms: BDCB licence under Money-Changing and Remittance Businesses Act Cap 174, annual fee BND 2,000 (money-changing) / BND 3,000 plus BND 55,000 guarantee (remittance), mandatory Compliance Officer since 1 May 2020, AML/CFT under Criminal Asset Recovery Order 2012, BDCB opens applications only periodically. Tamu/hawker licensing: nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "BDFA inspects food premises with scored checklist (70%+ satisfactory; below 51 unsatisfactory with counselling; 50 or less closed immediately) and requires Basic Food Safety Course for all food handlers. Draft Food Order 2024 would replace Public Health (Food) Act Cap 182 and regulate home-based businesses and stalls as food premises; gazettal not confirmed. Child care centres licensed by MCYS (KKBS) with multi-agency review (police record, traffic, fire, health, planning; 2019). Driving schools, tattoo studios, hunting: no data.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "Brunei scrap metal dealer licence requirement Ministry",
+    "Brunei pawnbroker licence Pawnbrokers Order second-hand dealer register",
+    "Brunei lif dan dandang pemeriksaan Jabatan Perkhidmatan Tenaga Kerja boiler lift inspection certificate",
+    "Brunei veterinary practice licence Department of Agriculture and Agrifood veterinary medicine import permit",
+    "Brunei pesticide dealer licence Pesticides Order import registration",
+    "Brunei Registry of Societies annual return societies registration requirement",
+    "Brunei driving school licence JPD Land Transport Department instructors taxi bus operator licence",
+    "Brunei childcare centre nursery licence Ministry of Community Development Youth and Sports Child Care Centres Order",
+    "Brunei money changer licence Autoriti Monetari BDCB Money-Changing and Remittance Business",
+    "Brunei abattoir slaughterhouse butcher halal licence Department of Agriculture and Agrifood livestock",
+    "Brunei funeral services burial licence cemetery Majlis Ugama Islam",
+    "Brunei waste collection licence septic tank sludge contractor JASTRe",
+    "Brunei Jabatan Tenaga Kerja lesen agensi pekerjaan pengambilan pekerja asing agency licence requirements",
+    "Brunei tamu stall licence hawker licence renewal Municipal Department Jabatan Perbandaran",
+    "Brunei end-of-life vehicles scrap yard workshop licence vehicle dismantling used spare parts",
+    "Brunei Societies Act pendaftaran pertubuhan Pejabat Pendaftar Pertubuhan penyata tahunan",
+    "Brunei Factory and Machinery Act boiler pressure vessel lift certificate of fitness Labour Department inspection",
+    "Brunei food premises licence Public Health Food Order small food producers home-based business Ministry of Health licence renewal",
+    "Brunei Employment Order 2009 domestic helper maid agency licence Labour Department domestic worker employer obligations",
+    "Brunei Food Order 2024 in force BDFA food business licence registration deadline"
+   ],
+   "searches": 20
+  },
+  "tag": "w2b57"
+ }
+}

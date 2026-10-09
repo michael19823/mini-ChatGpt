@@ -1,4 +1,16 @@
 {
+ "challenge:slovakia:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Partial overlaps: goAML registration is free and one-off (FSJ). FinStat AML covers PEP, sanctions and beneficial-owner screening. AKMV sells law-firm AML document packs.",
+   "reason": "I found nothing that kills it. I found no Slovak SaaS that bundles the internal AML programme (§20), client checks and beneficial-owner records, risk scoring and the annual training log for real estate agencies, accountants or tax advisers. No templates or tools from the chambers or associations turned up (NARKS, SKDP), though I did not check their member areas. Partial overlaps: goAML registration is free and one-off, so it has little paid value. FinStat AML covers beneficial-owner, PEP and sanctions screening; its price was not found and its page returned 403. Law-firm packs (AKMV, from EUR 600) cover the programme document. UK tools such as AMLHUB and AMLCheck are not adapted to Slovak law. Pravne noviny says only 'thousands of firms and sole traders' are affected, without a count. Sole-trader accountants are likely to pay little. After 30 Nov the recurring core is client checks, records and programme updates. I score it below the first check.",
+   "searches": 8,
+   "sources": "https://pravnenoviny.sk/?p=20193 ; https://www.podnikajte.sk/zakonne-povinnosti-podnikatela/novela-zakona-o-ochrane-pred-legalizaciou-prijmov-z-trestnej-cinnosti-aml-zakon ; https://www.akmv.sk/pravne-sluzby/aml-dokumentacia-pre-realitnu-kancelariu/ ; https://finstat.sk/anti-money-laundering (403, known only from search snippet) ; https://www.crz.gov.sk//data/att/4639290.pdf ; https://www.minv.sk/swift_data/source/policia/fsj/kpo/TPU-RS.pdf ; https://www.epravo.sk/top/clanky/aml-a-pokuty-5453.html ; https://www.g2.com/sellers/amlhub-ltd ; https://www.softwareadvice.com/compliance/amlcheck-profile",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b56"
+ },
  "discover:A:slovakia": {
   "result": {
    "blocked_searches": 0,
@@ -688,6 +700,20 @@
   },
   "tag": "w2b56"
  },
+ "sonnet:slovakia:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "SunSoft.VTZ (SunSoft, Slovakia)",
+   "duty": "Periodic odborné prehliadky and skúšky of vyhradené technické zariadenia under vyhláška 508/2009 Z.z., with logbooks. Intervals and penalties not verified.",
+   "market": "Not quantified. No register count found.",
+   "reason": "The duty exists in outline. Vyhláška 508/2009 Z.z. covers tlakové, zdvíhacie, plynové and elektrické vyhradené technické zariadenia, with periodic odborné prehliadky and skúšky. Its last amendment found was 398/2013 (effective 2014-01-01). I could not confirm that the 2026 consolidated text is in force, nor the exact intervals or penalties. A lift contract cites 4x/year inspections, a 3-year expert test and a 6-year official test, which is contract text only. Competition exists: SunSoft.VTZ (dated .NET 2.0 desktop software) tracks VTZ and inspection deadlines, and tenders ask for harmonogram software. Revision firms usually handle the schedules themselves. The market is fragmented and I found no new 2025-27 trigger. Budget was used on 4 searches and 0 fetches, so market size was not checked. Pain and buyer accessibility are modest.",
+   "searches": 4,
+   "sources": "https://www.zakonypreludi.sk/zz/2009-508 ; https://www.zakonypreludi.sk/print/zz/2013-398/znenie-20140101.htm ; https://sita.sk/pomoc-pre-reviznych-technikov/ ; https://www.crz.gov.sk//data/att/5482087.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b56"
+ },
  "sonnet:slovakia:A5": {
   "result": {
    "blocked_searches": 0,
@@ -696,6 +722,39 @@
    "sources": "https://static.slov-lex.sk/static/SK/ZZ/2010/131/20260715.html ; https://www.zakonypreludi.sk/zz/2010-131/suvislosti ; https://www.crz.gov.sk//data/att/4280843.pdf",
    "suggested_score": 3,
    "verdict": "unverifiable"
+  },
+  "tag": "w2b56"
+ },
+ "sonnet:slovakia:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Act 56/2012 §27 requires a 10-year concession, and each vehicle must be listed in the concession and the taxi register (§27(17)-(18)). §29 requires door marking, a TAXI roof sign and a copy of the concession in the vehicle. The 2024 amendment (162/2024) made the driver liable for marking. The 1 Apr 2027 version exists (amended by Act 131/2026), but I did not read what it changes (§56m cut off). Fine amounts for marking were not found. Existing software (Senset, Tiskel, Bolt dispatch) does dispatch, not compliance. The workflow is mostly one-off listing and a 15-day change notice, not a recurring one. Market size was not found. Weak recurring pain and low willingness to pay.",
+   "searches": 2,
+   "sources": "https://static.slov-lex.sk/static/SK/ZZ/2012/56/20270401.html ; https://www.zakonypreludi.sk/zz/2024-162 ; https://www.teraz.sk/ekonomika/dopravne-firmy-si-budu-moct-prenaji/801316-clanok.html ; https://sita.sk/nasadoprava/platforma-bolt-posobi-na-slovensku-ako-taxidispecing/ ; https://webcatalog.io/sk/apps/tiskel-cloud ; https://apps.apple.com/us/app/id1494874179",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b56"
+ },
+ "sonnet:slovakia:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real but the \"no competitor\" gap fails. Act 25/2025 Z. z. (the building act; 60/2025 is only the decree) requires a construction diary kept by an authorised person (§ 6 ods. 5), \"spravidla v elektronickej podobe\" (§ 10 ods. 2). I could not read the fine provisions or the transitional dates. Several Slovak e-diary products already exist: Stavario and Buildary.online (KROS), estavebnydennik.sk, dennikstavby.sk and e-dennik.sk. The market is crowded and the diary is not mandated on the Portál. I did not find a business count. Wording is \"generally electronic\", not strictly mandatory.",
+   "searches": 4,
+   "sources": "https://static.slov-lex.sk/static/SK/ZZ/2025/25/20251101.html ; https://elektronickystavebnydennik.sk/ ; https://www.kros.sk/doplnky/stavario/ ; https://www.kros.sk/doplnky/buildary-online/ ; https://e-dennik.sk/ ; https://dennikstavby.sk/ ; https://forbi.sk/223697/digitalne-stavebne-denniky/",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b56"
+ },
+ "sonnet:slovakia:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real but mis-cited, and the filing is done by others on free state tools. Decree \"204/2024\" was not found. Timber marking and origin documents fall under decree 232/2006, amended by 120/2025 (in force 1 Jun 2025). Forest records decree 297/2011 was amended by 121/2025 (from 1 Jan 2026), not 120/2025. Records are kept electronically in the state forest information system (NLC ISLHP), a free state web application, or in software that submits to it. Accidental-felling reports go through the NLC portal, which only the professional forest manager (odborný lesný hospodár) can log into. So the filer is a professional, not the owner, and buyer access is poor. No commercial niche software was found, but the search was shallow and no market count was verified. This is a weak, unverified niche.",
+   "searches": 3,
+   "sources": "https://static.slov-lex.sk/static/SK/ZZ/2025/120/20250601.html ; https://static.slov-lex.sk/static/SK/ZZ/2025/121/20260101.html ; https://static.slov-lex.sk/pdf/SK/ZZ/2011/297/ZZ_2011_297_20260101.pdf ; https://www.zakonypreludi.sk/print/zz/2011-297/znenie-20260101.htm",
+   "suggested_score": 2,
+   "verdict": "refuted"
   },
   "tag": "w2b56"
  },

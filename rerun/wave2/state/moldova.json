@@ -1,4 +1,16 @@
 {
+ "challenge:moldova:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "Free state tool: Logos Press reported on 17 July 2025, the day after HG 451/2025 was adopted, that the new MAIA regulation makes farmers keep treatment records electronically. The logbook will be part of the State Phytosanitary Register on ANSA's own e-ANSA platform, and the state will train farmers to use it. The free state system therefore does the core job.",
+   "reason": "Refuted. Logos Press (17 July 2025) reports that the HG 451/2025 regulation moves treatment records to an electronic logbook inside the State Phytosanitary Register on e-ANSA, with state training for farmers. That is a free government tool doing the core job, so a paid register app has little room. The most it could be is a front end or field-entry helper, and only if e-ANSA allows imports, which is unverified. The article gives no start date. FAOLEX gives 1 January 2027, which I could not confirm on legis.md (the particip.gov.md draft and gov.md note files could not be read). The Moldova Fruct spreadsheet pilot also competes in orchards. Not checked: e-ANSA launch status, any API, farm counts.",
+   "searches": 8,
+   "sources": "https://logos-pres.md/en/news/farmers-were-obliged-to-keep-electronic-records-of-sanitation-treatments ; https://leap.unep.org/en/countries/md/national-legislation/government-decision-no-hg4512025-validating-regulation-content (search snippet only) ; https://particip.gov.md/ro/document/stages/anunt-privind-initierea-elaborarii-proiectului-de-hotarare-privind-continutul-si-formatul-evidentelo/13755 ; https://www.freshplaza.com/europe/article/9873904/moldova-pilots-single-digital-register-for-fruit-orchard-records/ ; https://logos-pres.md/noutati/ansa-le-reaminteste-fermierilor-tineti-evidenta-tratamentelor-fitosanitare-aplicate-in-livezi-si-podgorii/",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b59"
+ },
  "discover:A:moldova": {
   "result": {
    "blocked_searches": 0,
@@ -600,6 +612,120 @@
     "AIPA subvenții fermieri cerere depunere Registrul agricol evidența exploatațiilor Moldova 2026 termen declarații"
    ],
    "searches": 18
+  },
+  "tag": "w2b59"
+ },
+ "opus:moldova:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no named exchange-office software vendor in Romanian or Russian searches (two queries for 1C, programs or cash-register software). The BNM web portal is a free state channel with a user guide. The daily rate report is trivial manual entry. I could not verify whether the portal accepts file upload or an API. Exchange offices must already run cash registers and issue exchange receipts under HG 141/2019, so existing cash-desk or accounting tools may already hold the monthly data (unverified).",
+   "duty": "BNM Instruction on reporting by exchange offices and hotels, HCE 254 of 06.11.2025 (MO 565-568/13.11.2025 art.1000), in force 01.01.2026. It replaces HCE 296/2016 and abolishes HCD 232/2011. Required: daily reports of the buy/sell rates for the main currencies (Annex 1, hotels Annex 2), sent on working days, and monthly reports of exchange operations (Annex 3/4) compiled at month end from accounting data. Reports go electronically through the BNM web portal and are kept at least 5 years. Draft texts require a qualified e-signature (Law 124/2022), and firms are responsible for internal control over reporting. Under the BNM inspection regime, wrong or missing reports are among the most common breaches found, and they are sanctioned. I could not open the PDF/DOCX text (binary) or legis.md (403), so the claimed 10:00/16:00 and 5th-of-month deadlines are not independently verified. I did not check the SPCSB AML form.",
+   "market": "About 385 licensed exchange offices (legal entities) as of 01.08.2021 (monitorul.fisc.md), plus 8 hotels. Bank exchange points (764) report through their banks and fall outside this duty. The BNM list as of 01.09.2026 is a 16-page PDF; I could not count its rows, but it suggests roughly 300-400 firms. That is a very small market.",
+   "reason": "The duty is real and in force. BNM HCE 254/2025 (MO 565-568, 13.11.2025, art.1000) has applied since 01.01.2026. Exchange offices (CSV) and hotels file daily rate reports and monthly operations reports, built from their accounting records, through the BNM web portal, and keep them for 5 years. I found no dedicated software in RO/RU searches. But the BNM portal is a free filing channel, and the daily report is just a few rate fields typed by hand. The monthly report comes from accounting or cash-register data the firms already hold. The market is small: 385 licensed CSVs in 2021, and the 01.09.2026 BNM list runs to 16 pages. I could not read the exact 10:00/16:00 and 5th-of-month deadlines or the portal's upload options.",
+   "searches": 6,
+   "sources": "https://www.bnm.md/ro/print/content/instructiunea-privind-raportarea-la-banca-nationala-moldovei-de-catre-casele-de-schimb ; https://bnm.md/ru/print/content/instrukciya-o-poryadke-predstavleniya-otchetov-v-nacionalnyy-bank-moldovy-obmennymi ; https://bnm.md/files/Instr raportarea CSV si H HCE254.pdf ; https://www.bnm.md/files/1_11_Proiect HCE modif Instr 296_curat.pdf ; https://monitorul.fisc.md/en/editorial/unitatile-de-schimb-valutar-care-detin-licenta-bnm.html ; https://www.bnm.md/files/Lista CSV la 01.09.2026_ro.pdf ; https://bnm.md/files/Reg 335_ activitatea USV_dp HCE 255 06_11_2025_RO.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b59"
+ },
+ "opus:moldova:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No commercial Moldovan treatment-register app was found in Romanian or Russian searches. The Moldova Fruct association is piloting a single digital orchard register (a multi-sheet spreadsheet covering treatments, field work and harvest) with 20+ growers. FreshPlaza reported it on 17 Sept 2026, and the association is negotiating ANSA recognition by end-2026. ANSA's state information systems (State Phytosanitary Register, e-ANSA, SIAGEAP) cover certification and phytosanitary passports, not farmers' treatment logs. A Czech-funded surveillance module is planned. Global farm-management tools (Cropwise, Agrivi) were not confirmed in Moldova: not_reached.",
+   "duty": "The duty exists and is in force. Law 119/2004 annex 4 requires a per-treatment register, sealed and certified by ANSA territorial units and shown at inspections together with purchase invoices (Logos Pres reporting an ANSA notice). Per FAOLEX/LEAP, HG 451/2025 of 16.07.2025 sets the content and format of records kept by professional users from 1 Jan 2027 and lapses on EU accession. Not confirmed (the binary PDF/DOCX files could not be read): whether electronic format is allowed, whether ANSA sealing is dropped, and the exact fine. Treatments happen several times a season, and each one needs an entry.",
+   "market": "A ministry presentation of uncertain, older date counts about 390,000 peasant households, about 1,550 corporate agricultural enterprises and about 600 auxiliary households as potential pesticide users. BNS: at the start of 2025, enterprises farmed about 952k ha and peasant farms about 518k ha. The paying segment is realistically a few thousand commercial farms, orchards, vineyards and spraying-service firms.",
+   "reason": "The duty is real. Under Law 119/2004 (annex 4), farmers must keep a paper treatment register that is registered and sealed by ANSA. HG 451/2025 (16.07.2025, based on Law 403/2023 art. 46 and aligned with EU Reg. 2023/564) enters into force on 1 Jan 2027, per FAOLEX. I could not read the primary text to check whether it allows electronic records or ends the sealing, and I found no penalty amount. I found no commercial Moldovan app. The closest competitor is Moldova Fruct's free-looking spreadsheet register, piloted with 20+ growers in Sept 2026, which is seeking ANSA recognition by end-2026. This is a partial competitor and a possible channel. The market looks large: about 390k peasant households and about 1,550 corporate farms (older figures). But small farms show low willingness to pay, and paper may remain legally sufficient.",
+   "searches": 6,
+   "sources": "https://logos-pres.md/noutati/ansa-le-reaminteste-fermierilor-tineti-evidenta-tratamentelor-fitosanitare-aplicate-in-livezi-si-podgorii/ ; https://leap.unep.org/en/countries/md/national-legislation/government-decision-no-hg4512025-validating-regulation-content (search snippet only) ; https://particip.gov.md/ro/document/stages/anunt-privind-initierea-elaborarii-proiectului-de-hotarare-privind-continutul-si-formatul-evidentelo/13755 ; https://www.freshplaza.com/europe/article/9873904/moldova-pilots-single-digital-register-for-fruit-orchard-records/ ; https://logos-pres.md/noutati/in-moldova-productia-agricola-la-scara-larga-si-agricultura-de-subzistenta-sunt-in-crestere/ ; https://ccrm.md/index.php/ro/upload/61bdc5ce20e07/92172/attached_files",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b59"
+ },
+ "opus:moldova:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The reporting channel is the state ANGC 'Agenți imobiliari' module in the Real Estate Price Register, which is free and kills a standalone filing tool. No Moldova-specific real estate CRM found in Romanian search. Romanian CRMs exist (Zarina CRM, Whise) but have no Moldovan compliance features. Training is offered by UTM's Continuing Education Centre (announced Sept 2026).",
+   "duty": "Law on real estate agents (Moldova): adopted in 2nd reading 26.03.2026, published 23.04.2026. Effective date reported as 23.01.2027 (logos-pres) or 'December' (logos-pres RU). Duties: professional competence certificate from an accredited institution, then an ANGC agent certificate (permissive act, reportedly valid 5 years); agencies register in the ANGC 'Agenți imobiliari' module and work only through certified agents; written contracts; ban on hidden fees and misleading ads. 12-month transition for existing agents. Per-contract reporting (electronic form in the ANGC module within 15 working days after a contract ends) is described only for the draft; the final text is unverified. Draft amended the Contravention Code; fine amounts not found. Law number not found.",
+   "market": "No official count, because the profession was unregulated before this law and the register is not yet live. RE/MAX Moldova targeted only about 50 members at launch. The likely total is a few thousand agents at most; unverified.",
+   "reason": "The law is real. It was adopted in second reading on 26.03.2026 and published on 23.04.2026. It requires a competence certificate, an ANGC certificate valid 5 years, listing in the ANGC \"Agenți imobiliari\" module and written contracts. Existing agents get a 12-month transition. Reports disagree on when it takes effect: December 2026 or 23.01.2027. I could not reach the final text, so these are unconfirmed: the law number, whether per-contract reporting within 15 working days survived (only the 2025 bill and an op-ed describe it), and the fine amounts. The reporting itself runs through the free state ANGC module, so software would only prepare data. No Moldovan CRM was found; Romanian ones exist. The market is small, with no agent count found. Distribution could run through the UTM training course.",
+   "searches": 4,
+   "sources": "https://logos-pres.md/noutati/certificatele-de-agent-imobiliar-vor-incepe-sa-fie-valabile-incepand-cu-23-ianuarie-2027/ ; https://logos-pres.md/ru/novosti/v-moldove-nachali-gotovit-agentov-po-nedvizhimosti/ ; https://logos-pres.md/ru/stati/zakon-o-rieltorah-shag-k-czivilizaczii-ili-vozvrat-k-administrativnomu-proshlomu/ ; https://monitorul.fisc.md/activitatea-agentilor-imobiliari-va-fi-reglementata.-acestia-vor-fi-obligati-sa-detina-un-certificat-de-competenta-profesionala/ ; https://gov.md/sites/default/files/media/documents/sedinte-de-guvern/2025-07/IL-90-2025.pdf ; https://www.revistabiz.ro/re-max-extindere-pe-piata-din-republica-moldova/ ; https://www.zarinacrm.ro/crm-imobiliare/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b59"
+ },
+ "sonnet:moldova:A10": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "SIA MD (free state system, siamd.gov.md) handles filing; no dedicated private scrap software found",
+   "duty": "Keep records of waste type, weight and handover under the permit, and report annually by 30 April via SIA MD (HG 501/2018, Law 209/2016)",
+   "market": "Not quantified; no public register of collection points found",
+   "reason": "Duty is real. Scrap collectors hold Environment Agency waste permits and must keep records of waste type, weight and handover (HG 501/2018). They must also report annually by 30 April through the state SIA MD system (Form 2, Law 209/2016). The same duty family as K02. I found no dedicated commercial software. The free state SIA MD does the filing itself, so only a bookkeeping and export layer is left to sell. The market is probably small, from dozens to a few hundred permitted collectors. This is unquantified, because I found no public register or count. Willingness to pay is weak, since these are informal low-margin cash businesses. The pending draft law on collection points may add duties but is not confirmed adopted. Penalty amounts were not checked.",
+   "searches": 3,
+   "sources": "https://storage.mtender.gov.md/get/23ce1bbf-ea11-4786-8a16-294748604d5c-1734280082919 ; https://am.gov.md/sites/default/files/document/attachments/GESTIONAREA%20DE%C8%98EURILOR%20%C3%8EN%20REPUBLICA%20MOLDOVA%20%C3%8EN%20ANUL%202023.pdf ; https://logos-pres.md/noutati/pana-in-2030-in-moldova-se-preconizeaza-ca-jumatate-din-deseuri-vor-fi-reciclate/ ; https://storage.mtender.gov.md/get/87c2359f-3111-47d1-9dfb-c5b35c5316c9-1715769496608",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b59"
+ },
+ "sonnet:moldova:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Claim's premise is shaky. A MAIA report ties Law 21/2025 to fertiliser products placed on the market, not pesticides. Pesticides fall under Law 403/2023. The HG 1045/2005 register of import, sale and stock exists, but I could not confirm it is being replaced (consultation docx unreadable). A related draft, on record formats for professional users under Law 403/2023 and EU Reg 2023/564, was in consultation in Jan 2025, with no adoption seen. Dealer count not found. No competing software found, but I did not search for it. Market is small (probably hundreds of shops), the reporting channel is unclear, and the rules are in flux. Low score.",
+   "searches": 1,
+   "sources": "https://particip.gov.md/ro/document/stages/anunt-privind-initierea-elaborarii-proiectului-de-hotarare-privind-continutul-si-formatul-evidentelo/13755 ; https://www.ansa.gov.md/sites/default/files/documents/Aparatul%20central/DCS/an_1_1045.pdf ; https://maia.gov.md/sites/default/files/Documente%20atasate%20Advance%20Pagines/Raport%202025%20HG%20nr.%20333-2023..pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b59"
+ },
+ "sonnet:moldova:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Law 284/2023 amended Road Transport Code 150/2014. Taxi operators must connect directly or indirectly to SIA MEV for ride payments, and platforms must be run by Moldovan legal entities. Breaching Art. 81 paras 3-5 carries a fine of 200-500 conventional units. TAXI18 is repealed from 1 July 2026 (Law 318/2025), and that repeal removes a recurring filing. That makes this a shrinking duty rather than a new one. The duty is continuous per payment, not a periodic filing. The SIA MEV link is built by platforms (Bolt and local dispatch apps) and by the fiscal tool ISFISCALTAXI, which is in the cash-register register. A bank-payment bill for platforms is pending. I found no technical spec, no operator count and no deadline. I rated the claim unverifiable rather than confirmed or refuted. The buyer pool is small, and competition is likely, so the score stays low.",
+   "searches": 3,
+   "sources": "https://monitorul.fisc.md/operatorii-de-transport-rutier-care-presteaza-servicii-in-regim-de-taxi-urmeaza-sa-se-conecteze-la-sia-mev/ ; https://logos-pres.md/en/news/starting-july-1-taxi-drivers-will-be-subject-to-the-general-tax-regime/ ; https://moldpres.md/eng/economy/stricter-rules-for-taxi-platforms-payments-to-be-required-to-obligatorily-go-through-banks-of-moldova ; https://startupcafe.ro/aplicatie-transport-bolt-intra-republica-moldova-colaborare-companii-autorizate-taxi-86547",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b59"
+ },
+ "sonnet:moldova:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Law 282/2004 and HG 261/1996 govern trade, receipt, storage and records of precious-metal articles. CSSM keeps the register, with 420 licence holders in 2024, 134 of them pawnshops, and 421 in 2023. No Moldova-specific product was found, though two searches is a thin check. The market is tiny at about 420 firms. The duty is mostly licensing and marking inspections, not a clearly periodic filing; I found no filing forms or deadlines. Pawnshops also had to connect cash registers to SIA MEV by 1 July 2024, which general POS software covers. Few buyers and low willingness to pay limit the score.",
+   "searches": 2,
+   "sources": "https://www.cssm.md/sites/default/files/document/attachments/darea_de_seama_privind_activitatea_cssm_anul_2024.pdf ; https://cssm.md/sites/default/files/document/attachments/darea_de_seama_privind_activitatea_cssm_anul_2023.pdf ; https://monitorul.fisc.md/en/casele-de-amanet-care-practica-activitai-cu-metale-preioase-i-pietre-preioase--obligate-sa-conecteze-ecc-la-sia-mev ; https://www.mf.gov.md/sites/default/files/Modul%20de%20receptionare%20metale%20pretioase.doc",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b59"
+ },
+ "sonnet:moldova:A9": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated software found. Service firms and tender-based inspections cover the work. Not exhaustively searched.",
+   "duty": "Law 151/2022 plus HG 506/2017: periodic technical inspection by an accredited body, service contract and equipment log. Penalty not verified.",
+   "market": "Not quantified. No register count found.",
+   "reason": "Duty is real. Law 151/2022 (amended 2025) requires operators to have lifts, boilers and similar equipment inspected by an accredited body, including periodic in-use inspection. HG 506/2017 sets lift safety requirements. The supervisor is INST (Inspectoratul National pentru Supraveghere Tehnica), whose checklist asks for the periodic inspection record, a service contract, the equipment log and the service schedule. Service intervals in tenders run from 15 days to 12 months. No dedicated software was found, but only a few searches were run. Weaknesses: the buyer is a condominium association, which is fragmented, pays little, and is served by service firms. A spreadsheet is enough. The law is being amended (consultation May 2026). I found no penalty amounts and no count of lifts or operators.",
+   "searches": 2,
+   "sources": "https://chisinaugaz.md/storage/files/Legislatie/042025-599-NS/151-2022 RO.pdf ; https://particip.gov.md/ro/download_attachment/20866 ; https://monitorul.fisc.md/inspectoratul-national-pentru-supraveghere-tehnica--noua-autoritate-cu-functii-de-control/ ; https://particip.gov.md/ro/document/stages/proiectul-de-modificare-a-legii-nr-1512022-privind-functionarea-in-conditii-de-siguranta-aobiectiv/16651",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b59"
+ },
+ "sonnet:moldova:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The draft is real: MIDR draft amending HG 743/2024 on construction quality assurance (no. 297/MIDR/2026). Public consultation ran 01.04-16.04.2026, and the latest listed document is dated 05.06.2026. I could not confirm adoption or entry into force. The draft PDF was unreadable (compressed stream), and the particip.gov.md page returned 503. A search of the comparative table found only changes to attestation: e-mail applications, acceptance of EU documents, and the experience requirement. It showed nothing on quarterly reports or electronic registration. The receiving system is unknown, and a state register (SIA) would likely absorb the workflow. The number of supervisors is unknown; the group is small (attested professionals, with the supervisor role partly replaced by technical managers under the CUC 434/2023 transition). No competitor search was possible. Weak, small niche.",
+   "searches": 4,
+   "sources": "https://particip.gov.md/ro/document/stages/proiectul-de-hotarire-a-guvernului-privind-modificarea-hotaririi-guvernului-nr-7432024-cu-privire/16316 ; https://particip.gov.md/ro/download_attachment/34467 ; https://gov.md/sites/default/files/media/documents/sedinte-de-guvern/2026-06/NU-297-MIDR-2026.pdf",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
   },
   "tag": "w2b59"
  },

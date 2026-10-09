@@ -1,4 +1,52 @@
 {
+ "challenge:thailand:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No confirmed killer. Possible ones: BOT's own EMCS (Electronic Money Changer System), which is linked on the BOT money-changer page and whose function I could not verify, and PSTForex, a multi-currency money-changer system that cites Thai bureaus in its research but has no confirmed BOT DAP output. The market is weak: Thansettakij (2021) puts licensees at 2,365, with only about 10% trading regularly.",
+   "reason": "I found nothing that kills the idea, but I can't confirm the market either. The BOT money-changer page lists a monthly DAP report due within 7 days after month-end, filed as an Excel template with the BOT's encryption program; nil returns are also required. It also lists SupTool registration and an \"EMCS\" (Electronic Money Changer System) video. I could not establish whether EMCS is a free BOT tool for recording transactions; if it is, it would be a killer. The draft does not yet give the system standards or customer limits (the 8 Sep PDF could not be read). Foreign tools PSTForex (says it researched Thai bureaus) and CurrencyXchanger exist. The market is small: 2,365 licences in 2021, about 10% trading regularly, and the upgrade will likely cull more.",
+   "searches": 8,
+   "sources": "https://www.bot.or.th/th/our-roles/financial-markets/foreign-exchange-regulations/foreign-exchange-business/money-changer.html ; https://www.bot.or.th/th/laws-and-rules/public-hearing/public-hearing-20260907-money-changer.html ; https://www.bot.or.th/th/laws-and-rules/public-hearing/public-hearing-20260921-money-changer.html ; https://www.thansettakij.com/business/475731 ; https://apps.apple.com/mx/app/pst-forex/id1357935284 ; https://clearviewsys.screenstepslive.com/s/manuals/m/69276/l/741723-what-is-currencyxchangeree ; https://www.tilleke.com/insights/thailand-proposes-overhaul-of-licensing-framework-for-money-changers/10/",
+   "suggested_score": 4,
+   "verdict": "unclear"
+  },
+  "tag": "w2b60"
+ },
+ "challenge:thailand:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No killer product found. Weaknesses: licence valid 5 years (uthaihealth.moph.go.th summary of Act s.14); annual DHSS inspection is the only recurring event; caregiver registration expiry unverified; about 1,200 centres with thin margins; incumbent CloudNurse could add the feature.",
+   "reason": "I found no product that kills it. CloudNurse, NEC Mimamori, NSTDA Well-Living and foreign aged-care suites all focus on care records or monitoring. None showed a licence/bed reconciliation or DHSS inspection-prep feature. The DHSS ESTA portal only handles applications. But the recurring duty is thinner than claimed. Licences last 5 years (Act s.14). I found no expiry for caregiver registration. DHSS inspects each centre once a year. The market is about 1,200 centres. In 2021 there were 493 registered companies with total profit of about 11M baht in 2019, so budgets are small. The Kanchanaburi case was a deliberate over-capacity fraud, not a record-keeping failure. CloudNurse could add a compliance tab easily. I could not confirm the draft new standards regulation.",
+   "searches": 6,
+   "sources": "https://www.posttoday.com/smart-life/750040 ; https://uthaihealth.moph.go.th/ossc/document/establishment/health_establishment04.pdf ; https://www.thansettakij.com/business/478429 ; https://www.bangkokbiznews.com/health/1255384 ; https://www.thaipost.net/main/detail/96487 ; https://www.jetro.go.jp/j-bridge/companies/2026/cloud_nurse.html ; https://bangkokpost.com/thailand/pr/2900172/cloudnurse-launches-thailands-first-digital-elderly-care-platform ; https://www.healthcareitnews.com/news/asia/nec-expands-digital-elderly-care-system-trial-chiang-mai ; https://www.hfocus.org/content/2026/08/39223",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b60"
+ },
+ "challenge:thailand:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. The main risks are incumbents rather than a product: licensed labour-import agents and proxy filers (ผู้ดำเนินการแทน) who already file for employers, plus the free DOE portal. I named no agent firm, so their market share is unverified.",
+   "reason": "Nothing I found kills it. Thai and English searches found no employer-side SaaS for the migrant work-permit renewal cycle. The only tools near the job are the free DOE e-WorkPermit portal, which sends status updates but no expiry reminders, and generic Odoo passport-expiry modules (generic, so out of scope). Market: about 770,000 Lao, Myanmar and Vietnamese workers come under the 11 Dec 2026 deadline. The portal has real friction: outages, queue backlogs, and a contractor dispute over 715M baht in unpaid fees. Score stays at 4 because licensed import agents and proxy filers already handle much of the work cheaply. Each round is also a one-off cabinet resolution with shifting rules. Recurrence (Mar/Apr and Dec 2026 rounds) is likely but has no fixed schedule. Per-employer willingness to pay looks low.",
+   "searches": 7,
+   "sources": "https://www.infoquest.co.th/?p=615165 ; https://www.thaipost.net/general-news/1032256/ ; https://www.prd.go.th/th/content/category/detail/id/33/iid/531308 ; https://thailand.prd.go.th/en/content/category/detail/id/2874/iid/429777 ; https://www.infoquest.co.th/?p=542101 ; https://www.thansettakij.com/economy/658488 ; https://eiglaw.com/thailand-temporarily-allows-manual-work-permit-applications/ ; https://apps.odoo.com/apps/modules/17.0/employee_passport_app ; https://www.tcijthai.com/news/2026/2/english/14834",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b60"
+ },
+ "challenge:thailand:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "Partial competitor found: Sri Trang Agro-Industry's free app \"Sri Trang Friends Station\" (launched 25 Aug 2022). Rubber dealers use it to record purchases, issue receipts, manage daily buy/sell data and income/expenses, with traceability linked to the farmer app. It is not confirmed to produce the statutory monthly ยาง 5–8 accounts or stock figures.",
+   "reason": "The duty holds up. DOA documents (search snippets) say licensed dealers must keep monthly purchase, sale and stock accounts on forms ยาง 5–8 and submit them by the 10th of the next month (s.23). Licences are filed through NSW, but I found no online channel for the monthly accounts. The first check missed something: STA, the biggest buyer, has given dealers a free buying and record app since 2022, with traceability. It covers the daily ledger job and ties dealers into STA's supply chain, which hurts a paid product's pricing and reach. I found nothing on the number of licensed dealers or on enforcement of the monthly report, and the DOA PDFs returned 503. The EUDR angle is in flux: RAOT is building \"Thai Traceability\" and cut its EUDR volume targets.",
+   "searches": 8,
+   "sources": "https://www.infoquest.co.th/?p=227908 ; https://www.doa.go.th/rubber/wp-content/uploads/2019/02/02-KA.pdf (snippet only) ; https://www.doa.go.th/oard2/wp-content/uploads/2019/05/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%83%E0%B8%9A%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%8D%E0%B8%B2%E0%B8%95%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%B2%E0%B8%87.pdf (snippet) ; https://doa.go.th/research/attachment.php?aid=2928 (snippet; fetch 503) ; https://www.thaipost.net/general-news/1066929/ ; https://thaipublica.org/2025/04/sta-pr-26042025/",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b60"
+ },
  "critic:thailand": {
   "result": {
    "gaps": [
@@ -929,6 +977,20 @@
    "verdict": "unverifiable"
   },
   "tag": "w2b54"
+ },
+ "sonnet:thailand:B7": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "AMLO AMRAC (free state portal for risk-assessment submission); no private broker-specific product found",
+   "duty": "AMLA B.E. 2542, amended in 2009: juristic-person real estate brokers and agents must report cash transactions above the threshold set by ministerial regulation and suspicious transactions. Since 2025 they must also submit risk-assessment data via AMRAC. Frequency, deadline and penalty are unverified.",
+   "market": "Not quantified. Only juristic-person brokers carry the mandatory duty, and no register count was found.",
+   "reason": "Duty is real. Real estate brokers and agents were added as AMLA reporting entities by the 2009 amendment (in force 18 Nov 2009), but the mandatory duty covers juristic persons only. Non-juristic brokers report only if AMLO orders it in writing. AMLO also named brokers among 4 groups that must file risk-assessment data through its free AMRAC portal (Jan 2025). Not confirmed: the cash threshold (2m baht, and whether it applies to commission or property value), filing deadlines and penalties. No competing software or service was found, but AMRAC is a free state portal, and the duty is thin and infrequent. Few firms are affected, because only juristic-person brokers are covered. Willingness to pay is weak, so the score is low.",
+   "searches": 3,
+   "sources": "https://www.sanook.com/news/808146/ ; https://www.naewna.com/local/851947 ; https://ses2.amlo.go.th/content/download4/629",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b60"
  },
  "sonnet:thailand:GAPS2": {
   "result": {

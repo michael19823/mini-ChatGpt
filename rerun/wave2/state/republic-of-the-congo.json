@@ -1,4 +1,16 @@
 {
+ "challenge:republic-of-the-congo:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "State-provided e-Facture web portal and SFEC mobile app, which the DGID SFEC portal names as the channels for UTTPE (due 1 Dec 2026); no approval route for third-party software is published.",
+   "reason": "The official SFEC portal (sfec.gouv.cg) assigns very small enterprises (UTTPE) only two channels: the state's own e-Facture web portal and its mobile app. The portal confirms the 1 Dec 2026 UTTPE deadline, so the date is real. But micro firms are sent straight to state tools, while API, TCC and TFC terminals are meant for UGE and UME firms. The developer docs (docs.sfec.gouv.cg) describe no approval process for third-party software, and the state contractor Akieni runs the platform. What is left for a founder is onboarding help, a role the state already fills with its own SFEC advisers. I could not confirm whether e-Facture or the app is free; no fees are mentioned anywhere.",
+   "searches": 4,
+   "sources": "https://sfec.gouv.cg/ ; https://docs.sfec.gouv.cg/ ; https://lookuptax.com/tax-changes/congo-brazzaville/sfec-august-commencement-2026 ; https://fr.apanews.net/technologies/congo-le-systeme-de-facturation-electronique-certifiee-entre-en-vigueur-le-1er-aout/ ; https://www.vatupdate.com/2026/07/27/republic-of-congo-advances-rollout-of-certified-e-invoicing-system-sfec-deadline-1-august-2026/",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b61"
+ },
  "discover:A:republic-of-the-congo": {
   "result": {
    "blocked_searches": 0,
@@ -576,6 +588,89 @@
     "registre des bénéficiaires effectifs Congo greffe tribunal de commerce déclaration plateforme en ligne"
    ],
    "searches": 18
+  },
+  "tag": "w2b61"
+ },
+ "opus:republic-of-the-congo:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The state itself offers the e-Facture web portal, a mobile app, TFC/TCC/TCC Serveur terminals, API integration and an SFEC advisor who helps each firm pick a channel (sfec.gouv.cg). I could not find out whether these are free. Private tools must be a \"solution homologuée\", and no public list of approved solutions exists. The only non-state code I found was an unofficial PHP client on Packagist (rubensalban/sfec-client-php). I found no local SaaS vendor. A local blog lists generic tools only (Wave, Zoho, Sage).",
+   "duty": "Decree 2026-101 (31 Mar 2026) on SFEC, certified e-invoicing for every invoice issued in a taxable activity. Phase 1 started 1 Aug 2026 for UGE, UME and the oil and gas subcontractor unit (USTPG), plus their suppliers of any size. The official sfec.gouv.cg portal gives UTTPE (very small enterprises) a deadline of 1 Dec 2026. Exemptions are limited to the cases in article 29. I could not find a source for the 50M FCFA fine or VAT disallowance under the Finance Law (unverified). Some sources still show 1 July instead of 1 Aug for phase 1.",
+   "market": "Not quantified. The INS census of very small, small and medium enterprises and artisans (RTPMEA, 2017) exists, but I found no figures from it. The DGPME counted about 2,303 declared enterprises in 2020 (FinancialAfrik, 2021). Law 46-2014 defines a very small enterprise as up to 9 employees and up to 25M FCFA turnover. The number of firms in UTTPE is not reached.",
+   "reason": "The duty is real. Decree 2026-101 of 31 March 2026 is in force, and the official SFEC portal (sfec.gouv.cg) gives 1 Aug 2026 for large and medium units (UGE/UME) and 1 Dec 2026 for very small units (UTTPE). It covers every invoice issued in a taxable activity, so it is continuous. I found no source for the 50M FCFA fine. The portal itself lists state channels that do the core job: the e-Facture web portal, a mobile app, TFC/TCC terminals and API. I could not confirm whether they are free. Private tools must be a \"solution homologuée\", which is a certification barrier for a solo founder. I found no local vendor, only generic tools. So the only gap is an onboarding or done-for-you service run through accountants, if the state tools turn out to be awkward. Market size is not known: the 2017 INS census of very small, small and medium firms gave no figure, and the DGPME counted about 2,300 declared firms in 2020.",
+   "searches": 5,
+   "sources": "https://sfec.gouv.cg/ ; https://lookuptax.com/tax-changes/congo-brazzaville/sfec-august-commencement-2026 ; https://www.vatupdate.com/2026/08/06/congo-republic-switches-on-mandatory-certified-e-invoicing-sfec-from-1-august-2026/ ; https://packagist.org/packages/rubensalban/sfec-client-php ; https://blog.iambeezy.app/fr/facturation-electronique-pme-congo-brazzaville-outils-obligations-2026/ ; https://www.financialafrik.com/2021/12/27/de-la-valeur-reelle-des-entreprises-formelles-sur-une-economie-cas-du-congo/ ; https://erudit.org/fr/revues/rot/2024-v33-n3-rot09897/1116698ar.pdf",
+   "suggested_score": 4,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b61"
+ },
+ "sonnet:republic-of-the-congo:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. July 2025 arrêtés cite Law 13-2003, Decree 2008-85, arrêtés 18018/2012 and 5169/2019. Permits last 5 years, are non-transferable, and require a borehole meter. Fee late payment carries +10%, and non-payment +100%. Suspension or withdrawal is possible after formal notice. No software, portal or tool was found, but I ran only two searches, so this is not exhaustive. The market is small: permits are issued one by one by ministerial arrêté, mostly to mid-size firms (BEAC, etc.), and likely only dozens to low hundreds of holders. Holder count, fee amounts and enforcement against small sites are unverified. Recurrence is low (5-year renewal, quarterly or annual fee). A solo founder would find the pain and willingness to pay thin.",
+   "searches": 2,
+   "sources": "https://www.sgg.cg/textes-officiels/arretes/2025/congo-arrete-2025-2054.pdf, https://www.sgg.cg/textes-officiels/arretes/2025/congo-arrete-2025-2053.pdf, https://www.sgg.cg/textes-officiels/arretes/2025/congo-arrete-2025-2062.pdf, https://www.sgg.cg/textes-officiels/arretes/2025/congo-arrete-2025-2058.pdf, https://www.sgg.cg/textes-officiels/arretes/2025/congo-arrete-2025-2056.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b61"
+ },
+ "sonnet:republic-of-the-congo:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is partly confirmed. Law 3-2011 (16 Feb 2011) on pressure equipment exists and puts the regulatory inspections on the operator. It defines an \"approved consulting bureau\" approved by the mines minister. The 2018 arrêté no. 1431 in JO 2018 no. 14 is cited, but the search snippet describes it as covering simple pressure vessels on rolling stock. That does not match the claim's 3/5/10-year gas-equipment intervals. The PDFs could not be read (compressed), so penalties, frequency, enforcement and the equipment count are unchecked. No competitor was found, though that is weak evidence given thin web coverage. The market looks tiny, informal and weakly enforced, and the buyers are few and hard to reach. Congo is a small market with low willingness to pay.",
+   "searches": 2,
+   "sources": "https://www.sgg.cg/JO/2011/congo-jo-2011-08.pdf, https://www.sgg.cg/JO/2018/congo-jo-2018-14.pdf",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b61"
+ },
+ "sonnet:republic-of-the-congo:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The circular of 28 May 2026 is real. It was reported by AllAfrica, which I fetched. Employers must prove that no equivalent Congolese skills exist before recruiting, retaining or renewing a foreign worker, and the ACPE must validate that proof. It applies immediately, with no deadline stated, and penalties are only \"existing provisions\" and unspecified. It is a reminder of a long-standing rule (1975 Labour Code), not a new recurring filing, so it is event-driven per hire or renewal. I found no local tool; only immigration consultancies such as Newland Chase. I found no register count of affected firms, no ACPE fee schedule and no online portal. Demand is thin, buyers are informal, and the process is a manual ACPE visit, so this is a weak software fit.",
+   "searches": 1,
+   "sources": "https://fr.allafrica.com/stories/202605300040.html ; https://newlandchase.com/locations/middle-east-and-africa/congo-brazzaville/ ; https://lepetitjournal.com/republique-congo/emploi/travailler-congo-guide-complet-395950",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b61"
+ },
+ "sonnet:republic-of-the-congo:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Only the ADIAC Jan 2024 article was found. It confirms the Brazzaville survey: about 200 crèches (5 with provisional approval) and 30+ orphanages (6 approved). It says operators must follow sector rules and, under 2011 texts, managers need a social-affairs, health or child-education diploma. It does not give the legal instrument, renewal cycle, fees or penalties. Nothing shows enforcement after 2024. I found no competing software, but I ran only one search. The approval looks like a one-off file, not a recurring workflow. The market is about 230 premises, and most are non-compliant and unlikely to pay. Weak fit for a recurring-compliance product.",
+   "searches": 1,
+   "sources": "https://adiac-congo.com/print/content/mise-en-garde-154186",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b61"
+ },
+ "sonnet:republic-of-the-congo:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Loi 43-2024 was published in JO no. 51 on 2 Dec 2024 and took effect 19 Dec 2024. Existing entities had to comply by 19 June 2025, new ones within 1 month, and changes within 30 days. Mercator reports company fines of 1.5M to 200M FCFA. Filing is with the commercial court greffe, signed in original by the legal representative, so it is paper-based. I found no online UBO portal and no vendor. The December 2025 online company-creation platform does not cover UBO. Weaknesses: the initial deadline has passed, and recurring volume is only new incorporations and changes. I found no enforcement evidence and no firm count. Small, paper-driven market, with a chance of a services angle for accountants and notaries.",
+   "searches": 2,
+   "sources": "https://mercator.net/our-thinking/latest-news/republic-of-congo-new-ultimate-beneficial-owner-reporting-obligations/ ; https://cabri-sbo.org/en/documents/law-no-43-2024-on-the-creation-of-the-register-of-effective-beneficial-owners-of-legal-entities-in-the-republic-of-congo ; https://www.sgg.cg/JO/2024/congo-jo-2024-51.pdf ; https://fr.allafrica.com/stories/202512060067.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b61"
+ },
+ "sonnet:republic-of-the-congo:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "None found",
+   "duty": "Five-year agrément for road transporters and related trades under decree 2025-399, amending decree 2011-491; corporate holders must regularise with the DGTT",
+   "market": "Not found. No operator count located.",
+   "reason": "The duty looks real. Decree 2025-399 of 19 Sep 2025 amends art. 22 of decree 2011-491, making the road-transporter agrément valid five years. The ministry communiqué of 1 Oct 2025 told corporate holders to regularise with the DGTT, with a stated deadline of \"30 octobre 2025\", a date that doesn't exist. That deadline has passed, so this is a one-off wave plus a five-year renewal cycle, not a frequent workflow. No competing software or state portal found, but my searches were thin. Penalties, fees, documents and operator count were not found. The AllAfrica page was only seen through search snippets, and I did not find the decree text. Low frequency, a small and fragmented buyer base, in-person DGTT filing and weak willingness to pay all point to a low score.",
+   "searches": 2,
+   "sources": "https://fr.allafrica.com/stories/202510020453.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
   },
   "tag": "w2b61"
  },

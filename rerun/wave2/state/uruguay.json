@@ -624,5 +624,383 @@
    "searches": 18
   },
   "tag": "w2b60"
+ },
+ "gapfill:uruguay": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Casas de cambio (small SA entities, roughly 20 in total, count unverified), many outside Montevideo (Rivera, Paysandu, Bella Union, Treinta y Tres, Florida)",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://impo.com.uy/bases/decretos/680-1991 ; https://www.ambito.com/uruguay/el-bcu-multo-mas-us-100000-dos-casas-cambio-n6010093 ; https://www.bcu.gub.uy/Servicios-Financieros-SSF/Paginas/Acerca-de-la-UIAF.aspx ; https://www.bcu.gub.uy/Servicios-Financieros-SSF/Paginas/casas_cambio.aspx (503 on fetch, seen via search snippet)",
+     "existing": "Competitor search in Spanish (software compliance lavado de activos casa de cambio Uruguay) found no named local product, but only one search was run; regional AML vendors may serve them",
+     "known_mark": "new",
+     "known_note": "Small buyer pool (about 20 firms); AML duty is real and fines are proven, but the market is tiny and buyers may already use bank-grade AML tools.",
+     "name": "AML/UIAF compliance kit for BCU-supervised casas de cambio (client-risk files, ROS drafting, manual upkeep)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ley 19.574 AML duties; BCU authorisation and supervision under Decreto 680/1991; ROS reports to UIAF; June 2024 BCU fines of about US$100k on two casas de cambio for failing their AML manual",
+     "unchecked": "Exact entity count, whether the group is served by a few vendors or in-house tools, BCU norm text and any 2025-2026 changes, price tolerance, whether the 2026 crypto regime adds duties for them"
+    },
+    {
+     "buyer": "Food-fair permit holders (permisarios) in Montevideo's neighbourhood fairs (164 fairs in 2020; stall-holder count unverified)",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.gub.uy/tramites/postulacion-puestos-ferias-alimentarias-vecinales-administradas-unidad-defensa-consumidor ; https://www.gub.uy/tramites/solicitud-calidad-feriante-baja-permisario ; https://www.elobservador.com.uy/nota/ediles-senalan-clima-hostil-con-jerarca-de-la-imm-por-temas-de-feria-y-venta-ambulante-20201116141040",
+     "existing": "Applications are online and free (gub.uy); decreto 353/23 bars officials from asking for papers they can fetch digitally, which shrinks the paperwork gap. No fair-vendor software found",
+     "known_mark": "new",
+     "known_note": "Paper reminders only; low willingness to pay and a free state flow.",
+     "name": "Feriante licence and renewal document manager for Montevideo neighbourhood food fairs",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Feriante status via MEF/UDECO needs health card, DGI, BPS certificate, food-handler card, LATU scale verification, bromatology licence, vehicle papers; ground fee (tasa de piso) paid to the Intendencia de Montevideo",
+     "unchecked": "Feriante numbers, the Intendencia's current renewal workflow, willingness to pay (very low margins), other departments' fairs"
+    },
+    {
+     "buyer": "Small DINARA-registered fish-processing plants and fish exporters, including those buying from artisanal boats",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://faolex.fao.org/docs/pdf/uru112971.pdf ; https://www.impo.com.uy/bases/decretos/127-2012 ; https://www.gub.uy/tramites/certificacion-sanitaria-productos-pesqueros-transito-uruguay ; https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/exportaciones-pesqueras",
+     "existing": "Certificates move through VUCE and DINARA's electronic system (first electronic export certificate 2020); no private register software found",
+     "known_mark": "new",
+     "known_note": "Duty is real, but the pool is small, the state e-certification is free, and no pain was seen.",
+     "name": "Fish-plant daily supplier register and DINARA export certificate pack for small processing plants",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Decreto 127/2012: daily register of supplier, fishing-permit number, boxes and kg per species, open to DINARA inspection; plants may only take fish from boats with a valid permit; export health certificates, EU-destination vet endorsement; original labels filed with DINARA since 28/11/2016",
+     "unchecked": "Number of small plants (likely a few dozen), whether the daily register is paper or in a DINARA system, current VUCE fees, whether the larger plants already use ERPs"
+    },
+    {
+     "buyer": "Honey exporters, acopios and extraction-room owners (about 2,800 beekeepers and 600k hives per El Observador; exporter count unverified)",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://impo.com.uy/bases/decretos/371-2013 ; https://impo.com.uy/bases/decretos/29-2006 ; https://www.gub.uy/tramites/inscripcion-registro-empresas-exportadoras-productos-apicolas-solicitud-certificado-zoosanitario-origen ; https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/politicas-y-gestion/sinatpa",
+     "existing": "SINATPA (free state web system, 'nuevo SINATPA' with instructions) and DILAVE electronic certification already take the filings; no private software seen",
+     "known_mark": "new",
+     "known_note": "Overlaps category 8 (beekeepers) from another worker; the free state system covers the filing, and the pool is small.",
+     "name": "Honey exporter/acopio traceability and per-lot zoosanitary certificate bridge",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Decreto 371/2013 mandatory honey traceability (register with DIGEGRA, annual sworn declaration on the MGAP web, SINATPA); Decreto 29/2006 extraction-room licence; DILAVE per-lot zoosanitary certificate sent 48 working hours ahead; TRACES-NT registration for EU",
+     "unchecked": "Whether SINATPA allows bulk upload from exporters' lot records, exporter count, whether category 8 (beekeepers) worker already covered it"
+    },
+    {
+     "buyer": "Small organic producers and exporters",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://www.ferrere.com/en/news/se-reglamento-la-certificacion-de-productos-organicos/ ; https://www.impo.com.uy/bases/decretos-originales/557-2008/30",
+     "existing": "Certifiers and the RAU run their own paperwork; no software seen",
+     "known_mark": "new",
+     "known_note": "Not enough evidence to judge; seen only through one search.",
+     "name": "Small organic/artisanal food exporter certification file manager (Decreto 557/008, Decreto 175/022)",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Decreto 557/008 national organic certification system; Decreto 175/022 labelling terms (organico/biologico/ecologico) need MGAP-recognised certification; exporters use international third-party certifiers; family farmers use the participatory guarantee scheme (RAU)",
+     "unchecked": "Almost everything: operator counts, MGAP register of operators, what records must be kept, certifier tools"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers: need prior BCU authorisation (Decreto 680/1991); BCU supervises, can require records and periodic reports; they file suspicious-transaction reports (ROS) to the BCU's UIAF (Ley 19.574). BCU fined Cambio Fenix and Cambio Brimar about US$100k in June 2024 for failing their AML manual. The BCU page lists about 18+ small SA entities (list cut off, count unverified; the BCU page returned 503 on fetch). Only about 13-20 ROS a year came from casas de cambio in 2020-21, so the market is tiny. No local AML software for casas de cambio found (one search, weak signal). Street/fair vendors: Montevideo neighbourhood food fairs (about 164 fairs in 2020) are run through MEF/UDECO. A feriante status needs a long document set (health card, DGI, BPS certificate, food handler card, LATU scale verification, bromatology licence) and a ground-fee (tasa de piso) paid to the Intendencia. Ambulant vendors without a fixed stand need no prior permit. Fair rules are administrative and free to apply, and no fair-software vendors found. See candidates C1 and C2. Unchecked: current exact count of casas de cambio, BCU AML norm text (Recopilacion de Normas), whether the 2026 crypto/virtual-asset regime applies to casas de cambio, Intendencia fee amounts.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Fish: DINARA requires registered, sanitarily licensed plants, a daily supplier/permit/species register (Decreto 127/2012), export health certificates (paper numbered certificates, first electronic export certificate issued 2020, VUCE form 703 for transit) and an EU-destination vet endorsement. Honey: Decreto 371/2013 makes traceability mandatory (registration with DIGEGRA, annual sworn declaration online, SINATPA web system); Decreto 29/2006 requires licensed extraction rooms; exporters register with MGAP-DGSG and get DILAVE zoosanitary certificates per lot, sent 48 working hours before shipment. Timber: only EUDR items (first pilot wood-chip and sawn-timber exports done under the state georeferencing process, already covered by K07). Organic: Decreto 557/008 and Decreto 175/022 (labelling), with export audited by international certifiers and small farmers using a participatory guarantee scheme; no small-exporter register found. All main filings run through free state portals (VUCE, SINATPA, DILAVE electronic certification). See candidates C3 to C5. Unchecked: current VUCE/DINARA fees, number of small fish plants, number of honey exporters and acopios, whether SINATPA/DILAVE systems have cost-free tools for bulk batch records.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "cambios casas de cambio Uruguay BCU registro obligaciones reporte UIAF Banco Central supervisión",
+    "feriantes Uruguay ferias vecinales registro habilitación Intendencia Montevideo carné feriante",
+    "DINARA exportación pescado habilitación certificado sanitario exportadores pesca Uruguay trazabilidad",
+    "MGAP exportación alimentos certificado sanitario pequeños exportadores Uruguay miel trazabilidad registro exportadores",
+    "casas de cambio Uruguay BCU 2025 2026 nueva normativa reporte operaciones sospechosas UIAF sujetos obligados cambio",
+    "vendedores ambulantes Uruguay habilitación puesto venta ambulante Intendencia registro permiso 2025",
+    "software gestión ferias feriantes casas de cambio Uruguay sistema compliance lavado de activos casa de cambio software",
+    "exportación madera forestal Uruguay certificado fitosanitario MGAP registro exportadores trazabilidad pequeños aserraderos EUDR",
+    "cuántas casas de cambio hay en Uruguay registradas BCU lista casas de cambio autorizadas",
+    "trazabilidad miel Uruguay decreto 371/2013 salas de extracción declaración apicultores sistema DIGEGRA exportadores miel software",
+    "exportadores orgánicos Uruguay certificación productos orgánicos MGAP registro operadores pequeños productores exportación alimentos artesanales",
+    "feria vendedores Uruguay ferias vecinales cuántos feriantes Montevideo permisarios tasa de piso Intendencia ferias vecinales",
+    "pescadores artesanales Uruguay DINARA declaración de captura obligatoria permiso de pesca artesanal registro plantas pesqueras pequeñas"
+   ],
+   "searches": 13
+  },
+  "tag": "w2b60"
+ },
+ "opus:uruguay:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no private AML software for Uruguayan non-financial obligated parties in Spanish-language searches. SENACLAFT publishes free due-diligence forms and guides by sector, including one for this sector, plus training. Its communiqué of 04 Sep 2026 says obligated parties may outsource due diligence to professionals or firms, but SENACLAFT does not register or approve them, which suggests a consulting market (Ferrere, RSM and others). Generic regional AML tools were not checked.",
+   "duty": "Ley 19.574 Art. 13 lit. F, as reworded by Ley 20.469 (19/03/2026, published 10/04/2026), covers natural and legal persons who broker sales of antiques, art, metals and precious stones. They must register with SENACLAFT, run a written risk assessment and report suspicious operations to the UIAF. Customer due diligence applies to operations of USD 15,000 or more, including linked operations within a calendar year (Decreto 379/018 art. 64). Records are kept 5 years. Fines run from 1,000 to 20,000,000 UI. Res. 061/2026 replaces Res. 016/2022 and makes unreported operations and failure to register grave infractions (per secondary sources RSM and abogados.com.ar; I did not open the official text). Retail jewellers and pawn shops are not named in Art. 13.",
+   "market": "Not found. I found no SENACLAFT statistics on registered dealers in this sector. It is probably a small niche in Uruguay (likely a few hundred businesses, unverified), and many fall below the USD 15,000 due-diligence threshold.",
+   "reason": "The duty is real and in force. IMPO's consolidated Ley 19.574 Art. 13, as reworded by Ley 20.469 (19 Mar 2026), names people who broker sales of antiques, art, metals and precious stones. Fines run from 1,000 to 20M UI. Res. 061/2026 makes failing to register or to report a grave infraction. But customer checks apply only to deals of USD 15,000 or more (Decreto 379/018 art. 64), so tiny dealers rarely trigger them. Whether retail jewellers and pawn shops are covered is unclear, since the law names brokers. I found no AML software for these dealers. SENACLAFT's free forms, guides and training, plus consulting firms, cover most needs. I found no count of registered dealers; Uruguay's segment is likely a few hundred. Low pay and little frequent work.",
+   "searches": 6,
+   "sources": "https://impo.com.uy/bases/leyes/19574-2017 ; https://www.impo.com.uy/bases/leyes-originales/20469-2026 ; https://www.rsm.global/uruguay/es/node/772 ; https://abogados.com.ar/index.php/nuevas-pautas-de-aplicaciones-de-sanciones-por-la-senaclaft-a-sujetos-no-financieros/30344 ; https://www.gub.uy/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/sites/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/files/2026-09/Comunicado%20SENACLAFT%20-%20DDC%20-%2004SET2026.pdf ; https://www.gub.uy/tramites/inscripcion-sujetos-obligados-sector-no-financiero ; https://www.gub.uy/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/sites/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/files/documentos/publicaciones/DDIPF_0.docx ; https://impo.com.uy/bases/decretos/379-2018/66 ; https://portal.fagro.edu.uy/wp-content/uploads/2024/02/Decreto_379_2018.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b60"
+ },
+ "opus:uruguay:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "State tools: Mintur's registry will be free and online (draft decree). The Interior Ministry already runs the RIHP (Decreto 390/2013), which the ministry administers and supports through its Division de Sistemas de Informacion. It is the likely channel for guest reports from short-term rentals, which would make that part free. I found no public API spec. Products: I found no Uruguay-specific host-compliance tool and no PMS advertising RIHP or Ley 20.352 compliance. Spanish tools such as Chekin cover Spain's SES.HOSPEDAJES, not Uruguay. Not checked: whether international PMS or channel managers have added Uruguay support.",
+   "duty": "Ley 20.352 (in force, 2024). Art. 3: sworn declaration in the Mintur Registro de Operadores Turisticos, with the registration number in every offer. Art. 4: keep the registry up to date and accept inspections under Ley 19.253. Report the number of guests and days to Mintur each year or on request. Report each guest's name, ID and country of origin to the Interior Ministry \"periodicamente\" (no interval set), keep copies of IDs for 5 years, and get guests' informed consent. The law has no sanctions article. Art. 6 says the Executive will issue regulations, with no deadline. As of 2 Jul 2026 (Ambito) the decree was still unissued, with the draft under review by Interior, MEF and MVOT. I found no later publication but did not check IMPO directly after that date. Draft (Mintur, 24 Nov 2025): covers stays up to 120 days, online registration on the Mintur site, platforms may only list registered units, 180 days to adapt, gradual rollout. Separately, Decreto 390/2013 already makes hotels, pensiones, alojamientos, chacras turisticas and casas de inquilinato enter guests in the Interior Ministry's RIHP within 12 hours.",
+   "market": "Not reached. I found no current count of hosts or listings. The only figure was about 4,300 Airbnb listings in 2016 (AFP, cited by search results), which is too old to use. The Mintur registry is not yet operational for these rentals. Not counted: Mintur registered operators, AirDNA data, and the number of hotels already in the RIHP.",
+   "reason": "The law exists but the duty is not yet operational. Ley 20.352 Art. 3-4 requires registry, annual Mintur report and periodic guest reporting to Interior, but sets no frequency, no sanctions and no regulation deadline. On 2 Jul 2026 the decree was still unissued, and I found nothing published since. Once issued, hosts get 180 days. Mintur's registry will be free and online. Guest reporting will likely use the Interior Ministry's existing free RIHP, where hotels already enter guests within 12 hours (Decreto 390/2013), so a free state tool may cover the core job. No Uruguay-specific vendor was found. Host count is unknown. The draft decree covers stays up to 120 days. Copying guests' IDs needs their consent (URCDP dictamen 16/2023). Timing, format and whether anyone will pay are all uncertain.",
+   "searches": 6,
+   "sources": "https://www.impo.com.uy/bases/leyes/20352-2024 ; https://www.ambito.com/uruguay/la-reglamentacion-la-ley-alquileres-turisticos-se-demora-y-el-sector-reclama-mayor-celeridad-n6295417 ; https://www.gub.uy/ministerio-turismo/comunicacion/noticias/ministerio-turismo-presento-proyecto-regulacion-vivienda-turistica ; https://www.impo.com.uy/bases/decretos/390-2013 ; https://www.gub.uy/unidad-reguladora-control-datos-personales/institucional/normativa/dictamen-n-16023",
+   "suggested_score": 4,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b60"
+ },
+ "opus:uruguay:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Uruguay-specific PLAFT SaaS for non-financial subjects turned up in 5 local-language searches. Existing options: Crowe Uruguay sells done-for-you PLAFT due-diligence reports for estate agents, auctioneers and notaries (delivered within 72 working hours); law firms and consultancies (Ferrere, RSM, PwC) sell manuals and advice; the UIAF/BCU publishes free control lists (PEPs, UN list, non-cooperating countries) but no workflow tool. Regional vendors from Argentina, Chile and Colombia were not seen targeting Uruguay; this was not exhaustively checked.",
+   "duty": "Ley 19.574 art. 13 (as amended by Ley 20.469, promulgated 19/03/2026 and published 10/04/2026) and Decreto 379/018 apply to real estate agencies, developers, builders, auctioneers, and to accountants and lawyers on listed operations. From Res. 54/2026 (12/05/2026) they also cover non-financial trustees and providers of administration, accounting or data services to clients abroad. These subjects must register with SENACLAFT, appoint a compliance officer, keep a risk matrix, assess each client and operation in writing (low, medium or high risk), run due diligence, find source of funds and beneficial owners, train staff, report unusual operations to the UIAF and keep records for 5 years. Ley 20.469 cuts the cash threshold to UI 200,000 (or 5% of the operation, capped at UI 450,000) and requires updated matrices and manuals, but its regulation is still pending. Res. 061/2026 replaces Res. 016/2022 and makes failure to register, update data or perform due diligence, and failure to identify beneficial owners, serious infringements. The frequency is per transaction plus continuous upkeep. No fixed periodic filing was found.",
+   "market": "No count found. No public statistic gives the number of registered non-financial subjects (checked SENACLAFT news and law-firm notes). As a proxy, the non-financial sector filed only 107 suspicious-activity reports in 2025, against 973 from the financial sector (Presidencia, citing the UIAF annual report). The buyer pool probably runs to a few thousand real estate firms, builders, auctioneers, accountants and corporate-service providers in a country of about 3.5M people. This is an estimate, not verified.",
+   "reason": "The duty is real and in force. Ley 19.574 art. 13 and Decreto 379/018 require subjects to register with SENACLAFT, appoint a compliance officer, keep a risk matrix, write a risk analysis per client and operation, run due diligence and keep records for 5 years. Ley 20.469 (published 10/04/2026) and Res. 54/2026 added new subjects. Res. 061/2026 treats non-registration and missing due diligence as serious infringements. I found no software built for Uruguayan non-financial subjects, only consultancy services (Crowe's per-client PLAFT reports) and the free UIAF control lists. Repeat use comes from per-transaction due diligence, but it is event-driven, not a periodic filing. The market is small and uncounted. Only 107 non-financial suspicious-activity reports in 2025 suggests weak enforcement. Rules for Ley 20.469 are still pending.",
+   "searches": 6,
+   "sources": "https://www.impo.com.uy/bases/leyes-originales/20469-2026 ; https://www.ferrere.com/es/novedades/cambios-significativos-al-regimen-plaft/ ; https://www.gub.uy/presidencia/comunicacion/noticias/senaclaft-sumo-su-fiscalizacion-dos-nuevos-sujetos-obligados-financieros ; https://www.rsm.global/uruguay/es/node/772 ; https://www.crowe.com/uy/plaft-ag-inmob-y-rematadores ; https://www.gub.uy/tramites/inscripcion-sujetos-obligados-sector-no-financiero ; https://www.bcu.gub.uy/Servicios-Financieros-SSF/Paginas/UIAF-Unidad-de-Informacion-y-Analisis-Financiero.aspx ; https://www.ferrere.com/en/news/uruguay-reglamentan-ley-integral-contra-el-lavado-de-activos-para-sector-no-financiero/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b60"
+ },
+ "sonnet:uruguay:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. URSEA Res. 101/026 (17/03/26) approves the current steam-generator regulation, which covers units with PMTA above 0.5 barg. Owners and a designated professional must be registered, and the professional files an annual sworn declaration of tests online with reports attached. Otherwise a LATU annual inspection is done and a fee paid. Penalties are URSEA administrative sanctions. I searched once for software and found none, but this is a thin check, not proof of absence. Weak points: the owner base is small and industrial, probably a few thousand units at most (no count found), the work is a professional's filing on free gub.uy trámites, and the pain is low. The 2026 deadline changes were not checked.",
+   "searches": 1,
+   "sources": "https://www.gub.uy/unidad-reguladora-servicios-energia-agua/generadores-vapor-0 ; https://www.impo.com.uy/bases/resoluciones-ursea-originales/101-2026 ; https://www.gub.uy/tramites/declaracion-jurada-pruebas-anuales-generadores-vapor",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b60"
+ },
+ "sonnet:uruguay:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Res. MGAP 1169/016 (Vigía) requires establishments that sell veterinary products to record tick-killer and fly-killer stock in and out electronically on the state SNIG platform or app. The MGAP plan says a vet prescription is required for antibiotics, and Res. DGSG 193/015 exists. I did not confirm the 2-year retention, the DICOSE link, penalties, or whether later changes apply. The state portal and app already do the core job free, so the opening is only a stock-system integration. I did not find a shop count or any vendor product. Competition and market size are unchecked. The buyer base is probably small and the pain low.",
+   "searches": 2,
+   "sources": "https://impo.com.uy/bases/resoluciones-mgap/SN20170102002-2016 ; https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/institucional/normativa/resolucion-n-193015-dgsg-regulacion-condiciones-comercializacion-uso ; https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/comunicacion/noticias/mgap-lanzo-nuevo-sistema-nacional-para-farmacovigilancia-llamado-vigia ; https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/comunicacion/publicaciones/plan-nacional-contencion-resistencia-antimicrobiana-uruguay/plan-3",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b60"
+ },
+ "sonnet:uruguay:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "None found for Uruguay. Spanish ERP for phytosanitary trade and Argentine tools exist but are not adapted to Uruguayan rules.",
+   "duty": "DGSA Res. 317/022: RUO registration of the shop, at least one carnet holder on staff, and a purchase-sale book for Ia/Ib/atrazina products.",
+   "market": "Not found. No register count located. Likely a few hundred shops, which is an unverified guess.",
+   "reason": "The duty is real. DGSA Res. 317/022 bars primary distributors from selling to retailers without RUO registration (from 1 Jun 2022). A trade-press note adds that each shop needs a safe-use carnet holder (valid 4 years) from 1 Jan 2023. The same note lists penalties up to 180-day suspension and closure; I did not find these in the official text. The MGAP also checks the purchase-sale book for category Ia/Ib products and atrazina, plus web prescriptions. That is the only recurring element, and it is narrow. I found no local software for this niche, but I did not search local ERP vendors exhaustively. The market is small and I found no count of shops. Both PDFs (ACA 2026, MGAP dealer course) were unreadable, so any 2026 change is unchecked. Mostly one-off paperwork, so willingness to pay is low.",
+   "searches": 4,
+   "sources": "https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/institucional/normativa/resolucion-n-317022-dgsa-se-prohibe-venta-productos-fitosanitarios ; https://bichosdecampo.com/uruguay-todos-los-distribuidores-de-fitosanitarios-deberan-estar-registrados-y-contar-con-tecnicos-habilitados/ ; https://www.gub.uy/ministerio-ganaderia-agricultura-pesca/comunicacion/publicaciones/anuario-opypa-2022/temas-politica/acciones-dgsa-para-uso-sostenible",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b60"
+ },
+ "sonnet:uruguay:A8": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "PwC Uruguay supplier control platform (Control de proveedores); accounting and law firms; OSE tender for an outsourced controller",
+   "duty": "Ley 18.099/18.251: the principal firm may demand compliance documents (art. 4) and is subsidiarily liable if it does so, otherwise jointly liable. No fixed frequency found.",
+   "market": "Not quantified. No register count found.",
+   "reason": "The duty is real (Ley 18.099 and 18.251). It is a right to information, not a mandatory filing. Art. 4 documents are the nominal payroll history plus BPS payment receipt, a BPS clearance certificate, a BSE certificate, and the payroll roster, salary receipts and collective agreement. Checking is the way to limit liability to subsidiary, but the law sets no frequency and no direct fine. Case law only says the control must be \"periódico y efectivo\". Competition exists: PwC Uruguay sells a supplier-control platform, and OSE tendered for outsourced contractor control. The market is hard to size, and buyers are mostly mid-size or large firms, with accountants and lawyers as the incumbents. Pain is moderate and willingness to pay from small firms is weak. I did not verify the DINAE licence side or buyer counts.",
+   "searches": 4,
+   "sources": "https://www.rsm.global/uruguay/es/news/la-tercerizacion-en-uruguay ; https://www.pwc.com.uy/es/ServicesLandingPage/Gestiondeproveedores/Controldeproveedores-brochure.pdf ; https://www.comprasestatales.gub.uy/Pliegos/pedido_1347962.pdf ; https://www.impo.com.uy/bases/leyes/18251-2008 ; https://www.aca.com.uy/wp-content/uploads/2014/08/Ley-Nº-18251.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b60"
+ },
+ "sonnet:uruguay:A9": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Ley 19.484 and Decreto 166/017, amended by Decreto 256/019 and 272/2022, require civil associations to file a notarised sworn declaration (Formulario B) with the BCU listing board members. Associations are exempt only if income is under UI 4M and assets under UI 2.5M, both at year-end. Changes must be reported within 30 days (90 days for non-residents); this comes from older sources. Penalties include fines and a suspended DGI certificate. No annual cycle was found, so it is mostly one-off plus update on change. No software competitor turned up, but a notary signature is required, and small buyers are scattered and low-paying. The market count and MEC census claim were not checked.",
+   "searches": 4,
+   "sources": "https://www.ferrere.com/en/news/uruguay-modificaciones-al-regimen-de-identificacion-y-comunicacion-de-beneficiarios-finales/ ; https://abogados.com.ar/registro-en-el-banco-central-del-uruguay-de-los-beneficiarios-finales-de-asociaciones-civiles/25349 ; https://uy.andersen.com/documents/Actualizaci%c3%b3n_al_r%c3%a9gimen_de_comunicaci%c3%b3n_al_BCU.pdf ; https://www.gub.uy/ministerio-economia-finanzas/book/19842/download",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b60"
+ },
+ "triage:uruguay": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New: AML duty for small antiques/art/precious-metal dealers; no known idea covers AML."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "New: beekeeper field notebook and hive declaration; family rural firms, recurring mandatory duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Boiler owners and agents are a different buyer and duty from K06 (lift-safety reports); related K06."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "New: agro-vet shop prescription archive and SNIG stock reporting; small sellers."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Pesticide distributors are a different buyer from K04 (application contractors) and the duty differs (registration, carnet)."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "New: well-driller licence; small pool but in scope, verifiers can judge."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Departmental septic-truck licence and dump log differ from K01 national waste traceability; related K01."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Subcontractor-liability document tracking for user firms differs from K08 payroll filing."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "New: association BCU beneficial-owner and MEC census duty for community bodies."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "New: annual DICOSE declaration with a July deadline for rural intermediaries."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "New: funeral and cemetery operator departmental reporting; small operators."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "New: taxi, remise and school-transport owner permits; sole traders."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "New: nursery and driving-school registers; small licensed premises. Unverified but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Household employers are a different buyer from K08 (employer payroll filing); duty is wage categories and presentismo; related K08."
+    },
+    {
+     "decision": "known",
+     "id": "A15",
+     "reason": "Same buyer (waste haulers) and same duty (traceability) as K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Small hosts and guest houses with registry and guest reporting differ from K09 (large platforms); related K09."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Different buyer (agents, accountants, corporate-service providers) from A1; no known AML idea."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Packaging law declaration is a different duty and buyer from K02 (RAEE); related K02."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "New: co-operative annual visacion and Central de Balances filing."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "New: small private security firm guard habilitation."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Food-handler card duty differs from K05 (INAC declaration); wider buyer group; related K05."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "New: building administrators' annual register renewal."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "New: pharmacy controlled-substance books and quarterly filing; small offices bear the duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "New: X-ray licence for small dental and medical practices."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "New: monthly grain-stock declaration; operator size unclear (over 1,000 t), so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "New: cannabis club and grower register upkeep; small associations."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "New: RUPE certificate validity for micro suppliers to the state."
+    },
+    {
+     "decision": "drop",
+     "id": "B13",
+     "reason": "Out of scope: one-off equipment installation duty with no recurring workflow and no deadline forcing many firms to act at once."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Different buyer (casas de cambio) from A1 and B2; AML is a real recurring duty, small pool is for verifiers."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "New: Montevideo feriante licence paperwork; sole traders, recurring."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "New: fish-plant daily register and DINARA export certificates."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Buyer is honey exporters and acopios, differing from A2 beekeepers; overlap to be checked in verification."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "New: organic exporter certification files; unverified, so keep."
+    }
+   ]
+  },
+  "tag": "w2b60"
  }
 }

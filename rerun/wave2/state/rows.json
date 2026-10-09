@@ -2642,6 +2642,33 @@
    "merge": 2
   }
  },
+ "north-macedonia": {
+  "batch": "w2b61",
+  "candidates": 28,
+  "checks": {
+   "opus": 3,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B5 AML compliance and suspicious-transaction kit for small obligated entities (real-estate agents, notaries, accountants)",
+    "GAPS2 Subsidy-certificate and buyer-register pack for registered agricultural buyers, grain storage operators and fruit processors"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 1,
+   "refuted": 1,
+   "unverifiable": 7
+  },
+  "gaps": 4,
+  "id": "north-macedonia",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 27,
+   "known": 1
+  }
+ },
  "norway": {
   "batch": "w2b30",
   "candidates": 40,
@@ -2768,6 +2795,44 @@
   "triage": {
    "keep": 34,
    "known": 6
+  }
+ },
+ "papua-new-guinea": {
+  "batch": "w2b61",
+  "candidates": 26,
+  "checks": {
+   "opus": 4,
+   "sonnet": 5,
+   "unverifiedByCap": []
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 4,
+   "disputed": 1,
+   "refuted": 1,
+   "unverifiable": 3
+  },
+  "gaps": 4,
+  "id": "papua-new-guinea",
+  "leads": [
+   {
+    "challenge": "unclear 3",
+    "final": "disputed",
+    "id": "A1",
+    "mark": "new",
+    "name": "Association re-registration and annual compliance pack under the Associations Incorporation Act 2023",
+    "opus": 4,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 23,
+   "known": 2,
+   "merge": 1
   }
  },
  "peru": {
@@ -2990,6 +3055,46 @@
   "triage": {
    "keep": 18,
    "known": 3
+  }
+ },
+ "republic-of-the-congo": {
+  "batch": "w2b61",
+  "candidates": 26,
+  "checks": {
+   "opus": 1,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B4 Hydrocarbon subcontractor and service-provider registration and agrément file preparation",
+    "B5 Private clinic agrément, district reporting and CAMU conventionnement pack"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 4,
+   "refuted_on_challenge": 1,
+   "unverifiable": 2
+  },
+  "gaps": 0,
+  "id": "republic-of-the-congo",
+  "leads": [
+   {
+    "challenge": "refuted 2",
+    "final": "refuted_on_challenge",
+    "id": "B1",
+    "mark": "new",
+    "name": "SFEC onboarding for very small enterprises (UTTPE) and small taxpayers",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 22,
+   "known": 3,
+   "merge": 1
   }
  },
  "romania": {

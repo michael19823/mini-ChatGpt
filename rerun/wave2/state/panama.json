@@ -1,4 +1,40 @@
 {
+ "challenge:panama:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No definitive killer. Possible substitutes: AgileCheck Express (unverified; the SoftwareAdvice page returned 403, so the \"SSNF framework\" and jewellery-user claims come from a search snippet) and SSNF-authorised compliance firms (APEC members). The market looks small: an unopened SSNF dashboard summary shows about 266 subjects in the \"Sector Mixto\". The count for pawnshops and jewellers alone was not reached.",
+   "reason": "I found no clear killer, but two things weaken the case. 1) Substitutes exist. AgileCheck Express is listed on SoftwareAdvice as built for Panama's SSNF framework (sanctions screening, risk classification, onboarding, compliance documents), with jewellery businesses named as users. I learned this from a search snippet only: the page returned 403, so it is unverified. Also, SSNF-authorised compliance firms grouped in APEC sell full Ley 23 compliance services. 2) The market looks small. A search summary of the SSNF dashboard (31 Dec 2025, not opened) shows 12,802 obligated subjects, but only 266 in the \"Sector Mixto\", which probably covers pawnshops, jewellers and similar trades. The duty is real and current (S-022-2025 self-assessment questionnaires, S-008-2026 PEP rules), and pawnshops are named in Art. 40 of Ley 124.",
+   "searches": 8,
+   "sources": "https://www.softwareadvice.com.au/software/548019/AgileCheck-Express ; https://agilecheck.odoo.com/blog/agilecheck-insights-2 ; https://morimor.com/es/la-salida-de-la-lista-de-gafi-y-las-empresas-de-cumplimiento ; https://www.laestrella.com.pa/economia/panama-amplia-vigilancia-a-personas-expuestas-politicamente-y-sus-familiares-por-hasta-dos-anos-FK20913107 ; https://www.organojudicial.gob.pa/uploads/blogs.dir/2/2026/06/728/resolucion-n0-s-022-2025-de-21-de-marzo-de-2025-uso-de-cuestionarios-de-autoevaluacion-para-medir-los-riesgos-asociados-al-blanqueo-de-capitales-63-66.pdf ; https://ssnf.gob.pa/wp-content/uploads/2019/04/Comunicado-No.-001-2016.pdf ; https://ssnf.gob.pa/wp-content/uploads/2022/11/Guía-de-debida-diligencia-para-el-adecuado-cumplimiento.pdf ; https://www2.deloitte.com/content/dam/Deloitte/pa/Documents/tax/taxnews/2020/Ley-124-2020-Superintendencia-sujetos-no-financieros.pdf",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b62"
+ },
+ "challenge:panama:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Unverified: whether the e-mail process changed after the October 2025 DNFD portal; whether local POS vendors already print the DNFD form.",
+   "reason": "Nothing kills it. I found no Panama POS or ERP product with a DNFD controlled-substances module. No later DNFD notice replaces the 2024 e-mail and scanned-PDF process (Comunicado 021-2024). FADDI covers licences and controlled-substance certificates, not the quarterly report. Still, the case is weak. An IQVIA figure says chains make about 72% of Panama's retail drug sales, so independents are a small group, likely a few hundred to about 2,000; the only national count is about 2,500 pharmacies, from 2008. The duty comes once a quarter. Pharmacies without controlled stock only send a cover page. The report is a paper form that must be scanned, so software would only pre-fill it. I scored it 3, not 4, because of the small, low-pain market and low price tolerance.",
+   "searches": 8,
+   "sources": "https://www.minsa.gob.pa/sites/default/files/publicacion-general/comunicado_de_informes.pdf ; https://minsa.gob.pa/sites/default/files/publicacion-general/manual_de_usuario_-_certificacion_de_sustancias_controladas_por_faddi_0.pdf ; https://www.laestrella.com.pa/panama/informacion-util/minsa-estrena-web-para-tramites-medicamentos-y-alertas-sanitarias-PA16707686 ; https://eldia.com.do/farmacias-independientes-resisten-manejan-43-ventas-medicamentos/ ; https://www.saludyfarmacos.org/lang/es/boletin-farmacos/boletines/nov2008/economia-otros-temas-investigaciones ; https://www.panamaamerica.com.pa/provincias/farmacias-de-chiriqui-y-bocas-del-toro-rechazan-descuento-del-30-y-en-panama-oeste ; https://apps.odoo.com/apps/modules/18.0/l10n_pa_dgi_edi",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b62"
+ },
+ "challenge:panama:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No killer. AgileCheck Express is a partial competitor (screening and risk matrix only). Not verified: the scope of the free SSNF app and the questionnaire deadlines.",
+   "reason": "Nothing I found does the whole job. AgileCheck Express is the closest partial competitor: its Software Advice/GetApp listings say it covers Panama's SSNF and sells to law firms, accountants and realtors on per-use credits, with sanctions/PEP screening and a weighted risk matrix. But the vendor's own site is aimed at Venezuela and does not mention the SSNF questionnaire, registration or UAF reports. Didit and Shufti only do screening. The duty is getting stricter: Res. S-008-2026 requires enhanced due diligence on PEPs, and a sworn statement under JD-02-2022 was due 1 Dec 2025. The market may be smaller than claimed, since lawyers are dropping the resident-agent role because SSNF and UAF compliance costs more than it earns. The free SSNF app's scope and the questionnaire deadlines are still unverified.",
+   "searches": 8,
+   "sources": "https://www.softwareadvice.co.uk/software/548019/AgileCheck-Express ; https://www.getapp.sg/software/2085710/agilecheck-express ; https://agilecheck.odoo.com/blog/agilecheck-insights-2 ; https://didit.me/es/blog/aml-screening-api-panama-50537/ ; https://shuftipro.com/supported-countries/panama/ ; https://www.laestrella.com.pa/economia/panama-amplia-vigilancia-a-personas-expuestas-politicamente-y-sus-familiares-por-hasta-dos-anos-FK20913107 ; https://pa.linkedin.com/in/luisllorenteherrera ; https://www.laestrella.com.pa/economia/220830/abogados-dejando-ofrecer-servicio-agente ; https://assets.kpmg.com/content/dam/kpmg/pa/pdf/GRCS-Obligaciones-SONF-en-Panama.pdf ; https://www.rsm.global/panama/es/taxonomy/term/24",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b62"
+ },
  "discover:A:panama": {
   "result": {
    "blocked_searches": 0,
@@ -603,6 +639,20 @@
   },
   "tag": "w2b62"
  },
+ "escalate:panama:B8": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Not established either way. Searches for 'software cooperativas Panamá prevención blanqueo/UAF' and 'core cooperativas Panamá proveedor' named no Panama-specific vendor. Co-op core-banking systems usually include AML and cash-report modules; the only regional evidence is Temenos at Guatemala's FENACOAC, which is not in Panama. Generic KYC and AML screening APIs (for example didit.me) market to Panama. UAF en Línea is the state platform for filing reports, but it only receives them; it does not monitor transactions. I did not check which core systems Panamanian co-ops use, so 'nothing already does the core job' is unproven.",
+   "duty": "The duty is real and in force under Panamanian law. Ley 23 de 2015 (Gaceta Oficial 27768-B, 27 Apr 2015), with rules set by Decreto Ejecutivo 35 of 2022, makes savings-and-credit co-ops, multi-service co-ops that take savings and lend, and any co-op doing financial intermediation into AML/CFT obliged subjects, with IPACOOP as their supervisor. The duties are KYC/CDD, enhanced due diligence on politically exposed persons (PEP), screening against UN and other lists, suspicious-transaction reports (ROS) filed through the UAF's 'UAF en Línea' platform, and cash-transaction reports (RTE) to the UAF. KPMG's guide gives a cash-report threshold of B/.10,000 for non-financial obliged subjects; I did not confirm it applies to co-ops. A coopeduc.com compliance document cites a special IPACOOP rulebook for these co-ops, Resolución J.D. 11-2015. IPACOOP supervises on a risk basis, and in 2025 it liquidated the Suntracs co-op citing risk-based audit findings. Reporting is continuous, by event and by threshold. I did not find the penalty amounts, and I found no new IPACOOP AML rule or deadline for 2025-2026.",
+   "market": "La Estrella reported 175 obliged co-ops in 2015, out of about 583 co-ops at the time, with US$1.814bn in assets; the 20 largest had been reviewed. More recent totals: 529 active co-ops in Aug 2021 and 579 in Aug 2022 (IPACOOP figures via Panamá América). 69 savings-and-credit co-ops belong to the COFEP guarantee fund. Savings-and-credit co-ops held US$798m of the system's US$2.498bn in assets in February 2026. No current count of obliged co-ops was found, so the market is likely about 150-200 entities, many of them small.",
+   "reason": "The AML duty is real and lasting (Ley 23/2015, DE 35/2022, IPACOOP risk-based supervision, UAF reporting), but the market is tiny: about 175 obliged co-ops, many very small and with little budget. The core work (cash-transaction aggregation, transaction monitoring, ROS) needs ledger data that normally lives in the co-op's core-banking system, so a bolt-on MVP is not simple, and incumbent core vendors probably already include AML modules (not verified). There is no new 2026 rule or deadline to create urgency. Federations such as COFEP give some reach to buyers. The competitor search found no named Panamanian product, so the verdict is unverifiable rather than refuted. Likely ceiling: small niche consulting plus PEP and list screening.",
+   "searches": 6,
+   "sources": "https://www.laestrella.com.pa/economia/busca-riesgo-frenar-lavado-enfoque-HMLE140421 ; https://www.laestrella.com.pa/economia/140603/busca-ipacoop-blanqueo-controlar ; https://cnbc.mef.gob.pa/wp-content/uploads/2022/10/ley-23-de-2015.pdf ; https://www.coopeduc.com/wp-content/uploads/2019/09/Cumplimiento_2016.pdf ; https://lexlatin.com/entrevistas/panama-sistema-financiero-quinta-ronda-gafi-desafios ; https://assets.kpmg.com/content/dam/kpmg/pa/pdf/GRCS-Obligaciones-SONF-en-Panama.pdf ; https://www.laestrella.com.pa/economia/cooperativas-en-panama-alcanzan-los-2498-millones-en-activos-a-febrero-PE21435930 ; https://panamaamerica.com.pa/economia/ipacoop-carece-de-capacidad-para-fiscalizar-con-eficiencia ; https://www.laestrella.com.pa/panama/nacional/ipacoop-sobre-cooperativa-del-suntracs-cambio-de-domicilio-esta-sujeto-a-parametros-de-comision-liquidadora-AF15988976 ; https://www.retailbankerinternational.com/news/fenacoac-opts-temenos-core-banking-system/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b62"
+ },
  "gapfill:panama": {
   "result": {
    "blocked_searches": 0,
@@ -732,6 +782,17 @@
    "searches": 3,
    "sources": "https://www.icnl.org/wp-content/uploads/Panama_decreto.pdf ; https://dgi.mef.gob.pa/LDRd/Resoluciones/Resolución No. 201-4389 del 2 de junio de 2025.pdf ; https://www.telemetro.com/nacionales/mef-suspende-beneficio-fiscal-ong-capadeso-defiende-cumplimiento-del-sector-n6044265 ; https://www.ey.com/es_ce/technical/tax/tax-alerts/panama-decreto-ejecutivo-42-establece-la-obligacion-de-mantener-registros-contables-para-determinadas-personas-juridicas-y-dicta-otras-disposiciones",
    "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b62"
+ },
+ "sonnet:panama:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Ley 527 was published in the Gaceta Oficial on 28 May 2026. Casinos and type A rooms must add facial recognition to CCTV to catch JCJ-excluded persons. The JCJ audits annually. Fines are $25k-$100k, doubling for repeat offences. Two corrections to the claim: the 0.5% applies to regulated operators' contributions to the Treasury, funding mental-health treatment, and is not a filing by small rooms. Mobbeel gives a six-month implementation window, which would end around late November 2026. The core job is one-off biometric hardware and software, not a recurring workflow. I found no recurring filing, machine register or venue map duty. The buyer group is tiny: about 20 type A rooms in two districts per one Focus Gaming article, plus casinos. Likely buyers are CCTV integrators and biometric vendors such as Mobbeel. I found no Panamanian vendor and no JCJ technical rules. Not checked: the JCJ machine-interconnection tender and the full law text.",
+   "searches": 4,
+   "sources": "https://focusgn.com/latinoamerica/panama-promulga-la-ley-que-refuerza-las-medidas-de-juego-responsable-en-plataformas-digitales-y-casinos ; https://www.mobbeel.com/en/blog/online-gambling-panama-law-527-biometrics/ ; https://www.laestrella.com.pa/panama/nacional/panama-endurece-controles-sobre-apuestas-digitales-HN22852410 ; https://focusgn.com/latinoamerica/la-corte-de-panama-declara-ilegales-la-adenda-en-el-contrato-de-concesion-para-12-salas-de-juegos ; https://www.panamaamerica.com.pa/economia/junta-de-control-de-juegos-interconectara-maquinas-tragamonedas-para-lograr-mas",
+   "suggested_score": 2,
    "verdict": "unverifiable"
   },
   "tag": "w2b62"

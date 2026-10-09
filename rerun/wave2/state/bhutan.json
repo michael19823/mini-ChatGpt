@@ -1,0 +1,572 @@
+{
+ "discover:ALL:bhutan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed tourist hotels (small ones without a PMS)",
+     "category": "29. Hotels, guest houses and short-term rentals / 36",
+     "evidence": "https://thebhutanese.bt/tourist-registration-system-launched-to-boost-service-coordination/ (built by Department of Tourism with GovTech, mandatory from 1 Sep 2025). Hotelogix PMS already serves Namgay Heritage Hotel (https://hospitalitynet.org/news/4119346.html). The page does not mention API, fees or penalties.",
+     "existing": "The free state TRS portal itself; Hotelogix and BookMyTour (hotel back office and booking engine). No connector found.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Different buyer (hotels, not tour operators) and different duty from K02.",
+     "name": "Hotel Tourist Registration System (TRS) daily guest-entry helper / PMS connector",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Mandatory daily entry of guest passport, name, DOB, gender and check-in/out in the Department of Tourism TRS since 1 Sep 2025",
+     "trigger_note": "",
+     "unchecked": "Whether TRS has an API or bulk upload, the penalties, and the number of small hotels without a PMS. No competitor search was run because the score is below 3."
+    },
+    {
+     "buyer": "Licensed agents who place Bhutanese workers abroad",
+     "category": "15. Labour contractors and recruitment agencies / 33",
+     "evidence": "https://www.bhutantoday.bt/fraudulent-overseas-employment-agencies-target-bhutanese-job-seeks-sham-social-media-advertisements/",
+     "existing": "Not checked",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "K03 is the inbound foreign-worker desk; this is the outbound agent group.",
+     "name": "Outbound overseas employment agent licence and placement register",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Regulation on Employment of Bhutanese Overseas 2021: licence required; Clause 88 sets a fine of Nu 600,000 for unlicensed recruitment",
+     "unchecked": "Number of licensed agents, renewal cycle, any reporting form to the Department of Employment, existing e-system."
+    },
+    {
+     "buyer": "Registered CSOs (about 50) under the CSO Authority",
+     "category": "17. Community and religious bodies",
+     "evidence": "https://eusee.hivos.org/assets/2025/07/Bhutan-EE-snapshot.pdf",
+     "existing": "None seen",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "CSO annual renewal and endowment-compliance pack",
+     "score": 1,
+     "status": "weak",
+     "trigger": "CSO Rules 2017 cl.101 annual renewal with annual report and fee; 2022 amendment endowment of about EUR 34k / 17k phased over 3-4 years",
+     "unchecked": "Whether the Authority has an online renewal portal. The pool of about 50 is too small to pay for software."
+    },
+    {
+     "buyer": "122 cooperatives and 711 farmer groups",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.icaap.coop/wp-content/uploads/2025/05/2025-Bhutan-Snapshot.pdf ; https://www.bbs.bt/?p=135481 (headline only)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Cooperative and farmer-group annual audited report and registration pack under the 2025 Bill",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Cooperatives and Farmer Groups Bill 2025 (adopted by the Assembly Dec 2025, moves registration to districts); annual audited report duty under the older Act",
+     "unchecked": "Whether the Bill is in force, whether bookkeeping is handled by DAMC extension staff, and willingness to pay. Members are mostly subsistence farmers."
+    },
+    {
+     "buyer": "Small registered contractors",
+     "category": "27. Construction, mining and quarry contractors",
+     "evidence": "https://bcta.gov.bt/faq-construction-services/ ; https://moit.gov.bt/invitation-for-bids-ifb/",
+     "existing": "BCTA G2C portal; no vendor found",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Contractor registration and renewal compliance pack (BCTA class, equipment, tax clearance, trade licence)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "BCTA registration (class minimums for owned equipment and staff, insurance proofs) is needed before a trade licence; tenders require valid CDB certificate, trade licence and tax clearance",
+     "unchecked": "Number of registered contractors, renewal cycle and fee, whether the portal already handles renewals, and the relation between CDB and BCTA."
+    },
+    {
+     "buyer": "Small food processors and agri exporters shipping to India",
+     "category": "30. Small exporters and importers / 32",
+     "evidence": "https://www.foodtechbiz.com/food-safety-and-traceability/fssai-and-bfda-implement-bilateral-agreement-on-food-safety-certification-for-imports-into-india ; https://bbs.bt/news/?p=209866",
+     "existing": "None seen",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Food exporter and processor certificate tracker (BFDA Health Certificate and BAFRA phytosanitary certificates for India)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Since March 2024 FSSAI-BFDA agreement, food exports to India (except milk) need a BFDA Health Certificate; BAFRA export and phytosanitary certificates apply to agri produce",
+     "unchecked": "Exporter count, whether the certificates are issued through G2C/BAFRA online systems, per-consignment frequency."
+    },
+    {
+     "buyer": "Certified village homestay operators",
+     "category": "29. Hotels, guest houses and short-term rentals / 35",
+     "evidence": "https://a.storyblok.com/f/171618/x/258d60a43c/guidelines-for-the-certification-registration-and-operation-of-village-homestays-vhs-2026.pdf (snippet only, not opened)",
+     "existing": "None seen",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Same sector as K02 but different buyer and duty.",
+     "name": "Village homestay certification and monitoring file",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Department of Tourism Guidelines for Certification, Registration and Operation of Village Homestays 2026",
+     "unchecked": "Guideline text, number of homestays, recurring reporting duty, any TRS extension to homestays."
+    },
+    {
+     "buyer": "Licensed pesticide retailers",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://leap.unep.org/en/countries/bt/national-legislation/pesticides-rules-and-regulations-bhutan-2019",
+     "existing": "None seen",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Pesticide dealer licence renewal and sales register",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Pesticides Act 2000 s.5 licensing of sale; Pesticides Rules and Regulations 2019 (BAFRA)",
+     "unchecked": "Dealer count, register form, renewal cycle. Likely a few dozen dealers."
+    },
+    {
+     "buyer": "Taxi and bus owners",
+     "category": "18. Transport operators",
+     "evidence": "https://www.bbs.bt/237979/ ; https://bcta.gov.bt/?p=14224",
+     "existing": "State testing is a contracted monopoly; no software seen",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Taxi/bus owner annual fitness, emission and route-permit calendar",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Annual fitness and emission test needed for registration renewal; route permits from the transport authority",
+     "unchecked": "Route permit renewal cycle, fleet sizes. A reminder app has little value to a pool this small."
+    },
+    {
+     "buyer": "Authorised money changers and any DNFBPs",
+     "category": "19 / 28. Money changers; professionals with AML reports",
+     "evidence": "https://bhutan.eregulations.org/media/Foreign exchange regulations.pdf",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Money changer / DNFBP AML reporting pack",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "RMA Foreign Exchange Regulations 2013; AML/CFT Act (list of DNFBPs not found)",
+     "unchecked": "The AML/CFT Act schedule, FIU reporting format (goAML?), number of money changers."
+    },
+    {
+     "buyer": "Pharmacies",
+     "category": "25. Pharmacies",
+     "evidence": "https://oag.gov.bt/wp-content/uploads/2026/07/Bhutan-Medicine-Rules-and-Regulation-2025.pdf (fetch returned 503)",
+     "existing": "",
+     "known_id": "K04",
+     "known_mark": "known",
+     "known_note": "Already known as K04; not re-checked.",
+     "name": "Pharmacy register-keeping under Medicines Rules 2025",
+     "score": 0,
+     "status": "unverified",
+     "trigger": "Medicine Rules and Regulation 2025, Chapter VII Technical Authorization for Sale and Distribution",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Abattoirs and meat shops",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://asianews.network/?p=279462",
+     "existing": "",
+     "known_id": "K09",
+     "known_mark": "known",
+     "known_note": "Already rejected as K09. Nothing found to revive it; the Bill was still not confirmed enacted.",
+     "name": "Meat shops and abattoirs under the Livestock Bill 2025",
+     "score": 0,
+     "status": "unverified",
+     "trigger": "Livestock Bill 2025: abattoir registration, designated meat-shop zones; re-deliberated Jun 2026",
+     "unchecked": ""
+    },
+    {
+     "buyer": "SMEs",
+     "category": "cross-cutting",
+     "evidence": "not re-checked",
+     "existing": "",
+     "known_id": "K05",
+     "known_mark": "known",
+     "known_note": "K05 and K08, already rejected.",
+     "name": "GST-compliant invoicing / POS for SMEs",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "GST invoicing",
+     "unchecked": ""
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "No search spent (budget went to regulated-business categories; Bhutan has little formal household employment). Nothing checked.",
+     "status": "not_reached"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No licensing or register regime found for scrap dealers; only the Waste Prevention and Management Regulation 2012 (NEC) and a Scrap Association of Bhutan formed after the pandemic; no recycling plants. Nothing recurring found.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Only the AML/DNFBP search touched this and returned no Bhutan DNFBP list, so the sector is unverified.",
+     "status": "not_reached"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Livestock Bill 2025 adopted by the Assembly 3 Dec 2025, amended by the National Council 8 Jun 2026 and sent back for re-deliberation 11 Jun 2026. It requires abattoir registration and categorisation, slaughter only in approved facilities, and meat shops only in designated zones. Enactment unconfirmed. Nothing new beyond K09.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Nothing new beyond K09 (Livestock Bill still in flux).",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "The Livestock Bill and the Medicines rules cover this. No separate vet-register source found. Nothing new beyond K04 and K09.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Only the general NEC waste regulation was seen in the scrap search. No haulers register found.",
+     "status": "not_reached"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Pesticides Act 2000 (s.5 licensing of sale; 5-year renewable authorisation) and Pesticides Rules and Regulations 2019 (BAFRA, NPPC). Dealer licensing text, fees and the number of dealers not found. Likely a small buyer pool.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Inbound: foreign worker recruitment agencies apply to the Department of Labour for approval, then Immigration (already K03). Outbound: Regulation on Employment of Bhutanese Overseas 2021, Clause 88, licence needed, fine Nu 600,000 for unlicensed recruitment. This is a different buyer, so logged as a new candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "No search spent. Cremation is the norm in Bhutan, which makes this unlikely.",
+     "status": "not_reached"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "CSO Act 2007, amended 2022: annual renewal of the registration certificate with annual report and fee (Rules 2017 cl.101), plus an endowment of about EUR 34k (public benefit) or EUR 17k (mutual benefit). About 50 CSOs are registered. Religious organisations go through the Commission for Religious Organisations. Buyer pool is tiny.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Vehicle registration renewal needs a fitness (road-worthiness) test and an emission test every year. Route permits are issued by the transport authority (now BCTA, formerly RSTA). No official route-permit renewal procedure found. Fleets are small.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Street vending is covered by K10. Money changers are licensed by the RMA under the Foreign Exchange Regulations 2013, but no 2025 rules or licensee list were found. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Driving schools and institutes are licensed under BCTA rules (graduates get a shorter learner's-licence wait). Private ECCD centres are organised (50 centres in a 2024 association) but no registration regulation was found. BFDA food-business licensing is not documented in search. Pools are small.",
+     "status": "screened"
+    },
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Only 3 private POL distributors (Bhutan Oil, Druk Petroleum, Damchen) supply about 48 stations. Prices are set by the Department of Trade and margins are fixed. The pool is too small and there is no licensing detail.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "122 cooperatives and 711 farmer groups (DAMC 2024, via ICA snapshot). The Cooperatives and Farmer Groups Bill 2025 was adopted by the Assembly in Dec 2025 and shifts registration to districts. Annual audited reports were required under the 2001 Act. Small pool, state-run.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "No search spent. Bhutan has free public healthcare, so insurer billing is probably minimal, but this is unverified.",
+     "status": "not_reached"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Bhutan Medicine Rules and Regulation 2025 (PDF on oag.gov.bt) has Chapter VII, Technical Authorization for Sale and Distribution. The PDF fetch returned 503, so register duties were not read. A Jan 2026 BBS report shows embargoes for missing documents. Nothing new beyond K04.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "No search spent beyond the foreign-worker recruitment search (K03).",
+     "status": "not_reached"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Contractors must register with BCTA (class, owned equipment and staff minimums, insurance proofs) before getting a trade licence. Tenders require a valid CDB registration certificate, trade licence and tax clearance. Mines and quarries run on renewable 5-30 year tenures. Boulder and aggregate supply moved to open auction from April 2025 (Forest and Park Services). No DGM return forms found.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Two searches failed to find Bhutan's AML/CFT DNFBP schedule. The FIU sits in or under the RMA. Reporting entities unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Department of Tourism and GovTech built a free Tourist Registration System, launched 8 Aug 2025 and mandatory from 1 Sep 2025, for licensed hotels (passport, name, DOB, gender, check-in/out, daily entry). Village Homestay Guidelines were updated in Jan 2026 and Tourism Rules and Regulations 2024 replaced the 2022 rules. Hotel PMS vendors exist (Hotelogix, BookMyTour). No TRS integration API found.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "BAFRA issues export and phytosanitary certificates. Since the March 2024 FSSAI-BFDA agreement, food exports to India (except milk) need a BFDA Health Certificate. No Bhutan-specific traceability rule found. Timber and fish not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Vehicle fitness and emission testing (country-specific)",
+     "found": "Fitness and emission tests are mandatory at annual registration renewal. BCTA contracts a single emission-testing agent (Green Bhutan Services, 3-year contract, Aug 2026 report), and chassis-number verification is now mandatory. State-contracted monopoly, so no software buyer.",
+     "status": "screened"
+    },
+    {
+     "category": "32. BFDA food-business licensing and India export health certificates (country-specific)",
+     "found": "Food Act 2005 requires a food safety licence (2017 report); BFDA health certificates for exports to India since 2024. Current licensing and renewal procedure not found.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Outbound overseas employment agent licensing (country-specific)",
+     "found": "Regulation on Employment of Bhutanese Overseas 2021 (Clause 88 fine Nu 600,000 for unlicensed recruitment); Bhutan Today reports fraudulent overseas recruitment agencies. Number of licensed agents unknown.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Boulder, crusher and NRDCL aggregate supply (country-specific)",
+     "found": "Cabinet guideline effective April 2025 puts boulder and dredging supply to open auction. Sarpang crusher operators complain about a royalty of Nu 4,000 per truck. No recurring return form found.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Village homestay certification and operation (country-specific)",
+     "found": "Department of Tourism Guidelines for Certification, Registration and Operation of Village Homestays 2026: assessment, certification, monitoring, non-commercialisation. A business licence is reportedly not required for homestays. Number of homestays unknown.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Tourist Registration System for hotels (country-specific, Jan-Sep 2025 rule)",
+     "found": "Mandatory daily guest entry for licensed hotels since 1 Sep 2025. Free state portal, so no add-on need unless a PMS connector is wanted.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Authorised money changers and foreign exchange dealers (country-specific)",
+     "found": "RMA Foreign Exchange Regulations 2013 include a chapter on authorised money changers. No 2025 update or licensee list found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Bhutan Medicines Rules 2025 pharmacy licensing register requirements",
+    "Bhutan Road Safety and Transport Authority taxi bus route permit renewal fitness test",
+    "Bhutan Tourism Council of Bhutan hotel homestay registration licensing 2025 rules",
+    "Bhutan Financial Intelligence Department AML reporting entities dealers precious metals real estate",
+    "Bhutan Livestock Act 2025 veterinary animal slaughter license BAFRA",
+    "Bhutan scrap dealers waste recycling license NEC National Environment Commission rules",
+    "Bhutan Department of Industry fuel LPG distributors dealers license petroleum",
+    "Bhutan Financial Intelligence Department reporting entities AML/CFT Act designated non-financial businesses",
+    "Bhutan Foreign Worker recruitment agency labour contractor licence Department of Labour 2025 rules",
+    "Bhutan Cooperatives credit and savings groups DAMC annual report registration",
+    "Bhutan Civil Society Organisations Authority annual report requirement CSO registration religious",
+    "Bhutan Construction Development Board contractor registration renewal specialized works 2025 CDB",
+    "Bhutan driving institute licence childcare ECCD centre registration regulation 2025",
+    "Bhutan pesticide dealers licence BAFRA pesticide rules agro-chemical registration",
+    "Bhutan Department of Geology and Mines quarry stone crusher permit royalty returns contractor",
+    "Bhutan export certification BAFRA food export traceability cardamom ginger apples organic certificate",
+    "BFDA food business licence registration Food Act Bhutan restaurants bakeries inspection renewal 2026",
+    "Bhutan vehicle emission testing centres RSTA private garages emission test certificate mandatory",
+    "Bhutan Department of Immigration hotel guest register foreign tourists report accommodation online portal",
+    "Bhutan hotel property management software homestay booking Tourist Registration System integration vendor"
+   ],
+   "searches": 21
+  },
+  "tag": "w2b70"
+ },
+ "gapfill:bhutan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Bhutanese and resident households employing foreign domestic workers; possibly permit-processing agents",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "About 600 workers approved Jan 2023 to Oct 2025 (Kuensel via ANN Jan 2026). Agents mostly process permits. https://asianews.network/foreign-domestic-workers-lift-burden-off-bhutanese-working-moms ; https://thebhutanese.bt/foreign-domestic-workers-now-allowed-for-the-elderly-sick-and-disabled-too/",
+     "existing": "Government Foreign Workers Management System (state tool); informal agents",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Different buyer (households, not recruitment agents) but the same permit-renewal desk concept; probably folds into K03.",
+     "name": "Foreign domestic worker employer approvals and permit-renewal desk (households)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Cabinet decision Sept 2023 legalising foreign domestic workers as home-based personal care workers; Department of Labour approval then Department of Immigration permit; contract and undertaking letter at entry; annual permit renewal within a 3-year engagement; 2025 guidelines on hours, overtime, insurance and medical cover; Department of Labour home inspections",
+     "unchecked": "Current Department of Labour approval fees and renewal steps; whether FWMS is a free online portal households use directly; real count of active households (a few hundred at most). No competitor search run (score under 3)."
+    },
+    {
+     "buyer": "Private clinics, diagnostic centres and traditional-medicine centres",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://thebhutanese.bt/moh-issues-a-one-year-deadline-notification-to-shut-down-unlicensed-private-healthcare-centers/ ; https://asianews.network/bhutans-health-ministry-warns-against-unlicensed-private-clinics/",
+     "existing": "None found",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Adjacent to K04 (pharmacy register-keeping), different buyer group.",
+     "name": "Private healthcare centre authorisation under Healthcare Services Rules 2025",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "HSRR 2025 Section 47: MoH technical authorisation to operate; one-year grace period from May 2025 for unlicensed operators",
+     "unchecked": "How many private centres exist (likely a few dozen); whether HSRR 2025 creates recurring reporting or insurer-claim duties; whether the grace period was extended or enforced after May 2026. One-off deadline only if many act at once, so unproven."
+    },
+    {
+     "buyer": "Licensed private security firms and clients that tender for guards",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://asianews.network/?p=295111 ; https://www.moha.gov.bt/?p=851 ; https://www.ricb.bt/?p=11848",
+     "existing": "None found",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "Overlaps K06 (payroll, rejected) in function; only a handful of firms existed in 2016.",
+     "name": "Private security firm labour-compliance records (shift, wage and overtime logs)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Labour and Employment Act 2007 limits (8 h/day, 48 h/week, Nu 400 minimum daily wage) now under Department of Labour inspection; Guidelines for Private Security Firms 2016 (MoHCA)",
+     "unchecked": "Current number of licensed security and cleaning firms; whether Department of Labour requires periodic submissions; whether a Labour and Employment Act revision is pending. No competitor search run (score under 3)."
+    },
+    {
+     "buyer": "Water user associations, institutions and household-run supplies in rural dzongkhags",
+     "category": "13. Small water systems",
+     "evidence": "https://www.informea.org/ar/legislation/bhutan-drinking-water-quality-standard-2016 ; https://wsportal.org/resource/rural-water-safety-plan-rwsp-facilitators-guide/",
+     "existing": "Government and donor-supported RWSP programme (free guide)",
+     "known_mark": "new",
+     "name": "Water user association and rural supply water-safety-plan records",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Bhutan Drinking Water Quality Standard 2016 (water safety plans, monitoring, data management and reporting) under the Water Act 2011",
+     "unchecked": "Whether associations actually file reports and to whom (Department of Public Health or NEC); willingness to pay is likely nil because schemes are donor- or state-supported and monitoring is rarely done."
+    },
+    {
+     "buyer": "Scrap and auto-waste yard operators, workshops",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://www.bbs.bt/228480/ ; https://www.ricb.bt/wp-content/uploads/2023/03/PMB-AUCTION-NOTICE-RICB-1.pdf",
+     "existing": "None",
+     "known_mark": "new",
+     "name": "Vehicle scrap and dismantler yard register",
+     "score": 1,
+     "status": "weak",
+     "trigger": "None found: BBS says no clear disposal policy for scrapped, deregistered vehicles; Thimphu Thromde says no Environmental Clearance needed for auto-scrap sites",
+     "unchecked": "A scrapping or end-of-life vehicle policy could change this; none was found. Revisit only if one is issued."
+    },
+    {
+     "buyer": "Jewellers and precious-metal dealers (if designated)",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "Only a law-firm page referring to 'certain DNFBPs'. https://lawzana.com/aml-compliance-lawyers/thimphu",
+     "existing": "Unknown",
+     "known_mark": "new",
+     "name": "Jewellers and gold dealers as AML/CFT reporting entities",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Bhutan AML/CFT law (statute and DNFBP list not confirmed)",
+     "unchecked": "The statute name, whether dealers in precious metals and stones are designated, and thresholds and reporting deadlines. The RMA/FIU site and the APG mutual evaluation were not reached. Small number of jewellers in any case."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Since the Cabinet decision of Sept 2023, foreign domestic workers are legal as 'home-based personal care workers and child caregivers'. Employer needs Department of Labour approval first, then Department of Immigration work permit; contract signed at point of entry (ROICE) plus an undertaking letter; 3-year recruitment with annual permit renewal; tracked in the Foreign Workers Management System. 2025 guidelines: 8-hour day plus 2 hours paid overtime, weekly rest, employer pays transport, insurance and medical cover; minimum wage Nu 3,750 per month; Department of Labour does home inspections. Only about 600 workers were approved Jan 2023 to Oct 2025 (Kuensel via ANN, Jan 2026), and agents mostly just process permits. The household base is tiny. Sources: https://asianews.network/foreign-domestic-workers-lift-burden-off-bhutanese-working-moms ; https://thebhutanese.bt/foreign-domestic-workers-now-allowed-for-the-elderly-sick-and-disabled-too/ . Related to K03 (work-permit renewal desk).",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No second-hand dealer or pawnbroker regime found. Only general retail and wholesale trade licences (Retail Trade Regulation 2006, licence valid 1 year, renewal needs a Tax Clearance Certificate from the Regional Trade and Industry Office). Nothing sector-specific. Sources: https://leap.unep.org/en/countries/bt/national-legislation/bhutan-retail-trade-regulation-2006 ; https://wikiprocedure.com/index.php/Bhutan_-_Renew_Your_Retail_or_Wholesale_Trade_License (unofficial wiki).",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Two searches found no text of Bhutan's AML/CFT law and no list of DNFBPs. Only a Thimphu law-firm marketing page says the RMA supervises banks and the FIU handles suspicious transaction reports, and that 'certain DNFBPs' are covered. Unverified whether jewellers are reporting entities. Mark as unverified; the RMA/FIU site and the APG mutual evaluation were not reached. Source: https://lawzana.com/aml-compliance-lawyers/thimphu",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler licence or parts-dealer register found. BBS reports no clear policy for disposal of scrapped and deregistered vehicles (responsibility falls on individuals), and Thimphu Thromde says Environmental Clearance is not required for the Olarongchhu auto-scrap site. RICB sells insured wrecks through salvage tenders in Phuentsholing. Unregulated sector, so no recurring duty. Sources: https://www.bbs.bt/228480/ ; https://www.ricb.bt/wp-content/uploads/2023/03/PMB-AUCTION-NOTICE-RICB-1.pdf . Related to K10 only in spirit.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No beekeeper registration or reporting duty found. Beekeeping is promoted by the Department of Livestock and ICIMOD, with voluntary groups (Beekeepers' Cooperative of Bhutan, 104 members; Bumthang association). Tiny base with no mandatory register. Sources: https://dialogue.earth/en/nature/why-are-honeybees-dying-in-bhutan/ ; https://icimod.org/bees-boost-business-for-bhutans-farmers",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Water Act 2011 and Water Regulations (2012, a 2014 version is also listed) require an Environmental Clearance or permit from the National Environment Commission for water abstraction (art.44 per UNEP LEAP); groundwater abstraction is permitted only where there is no surface alternative (art.63). No driller licence or driller register found. Applicants are mainly hydropower, industry and utilities, not quiet small firms. Sources: https://leap.unep.org/en/countries/bt/national-legislation/water-regulation-bhutan-2014 ; https://www.informea.org/en/legislation/water-act-bhutan-2011",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Waste Prevention and Management Act 2009 and Regulation 2012 (NEC apex; Thromdes and Dzongkhags implement; service fees differ for households, commercial and corporate users). No desludging or hauler licence register found. Thimphu sewerage master plan relies on septic tanks and soak pits for unconnected households. Nothing new beyond the general NEC waste regulation. Sources: https://indiaenvironmentportal.org.in/reports-and-documents/bhutan-waste-prevention-and-management-regulation-2012 ; https://thebhutanese.bt/lyonpo-says-his-wife-scolds-him-over-thimphus-sewage-system/",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "One search found no Bhutan lift, boiler or pressure-vessel inspection rule. Only the Labour and Employment Act 2007 and the Occupational Health and Safety Regulations 2012 (Department of Labour) as the general OSH framework, with no equipment-specific provisions confirmed. Unverified; the OSH Regulations text was not opened. Source: https://rivermate.com/guides/bhutan/health-and-safety (commercial guide). Very few lifts exist anyway.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Bhutan Drinking Water Quality Standard 2016 (under the Water Act 2011) applies to all supplies including those run by water user associations, institutions and households, and requires monitoring, water safety plans, data management and reporting. Rural Water Safety Plan facilitator's guide exists (2013). Rural supplies are rarely tested (Public Health Laboratory 2012). Community schemes are state-supported and unpaid, so weak buyer. Sources: https://www.informea.org/ar/legislation/bhutan-drinking-water-quality-standard-2016 ; https://wsportal.org/resource/rural-water-safety-plan-rwsp-facilitators-guide/",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Cremation is the norm. The main Thimphu facility (Hejo crematorium) is on Zhung Dratshang land with a caretaker; cremation is free apart from firewood (Nu 2,700); a local paper says no professional funeral service industry exists (one 2016 directory listing contradicts this). No licensing regime found. Sources: https://thebhutanese.bt/?p=27860 ; https://thebhutanese.bt/lack-of-crematory-space-an-issue-for-the-people/",
+     "status": "not_applicable"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Nothing on miller or grain-trader licensing or BAFRA warehouse rules. Food Corporation of Bhutan Ltd (state-owned) dominates grain: 25 district warehouses, 8,613 MT mandated rice reserve, sells to private retailers at wholesale rates, 19,897 MT sold in 2025. Private commodity trade is thin, and the main buyer is a state-owned enterprise. Source: https://fcbl.bt/hr/report/Annual%20Report%202025.pdf . Coffee/cocoa not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Healthcare Services Rules and Regulations 2025, Section 47: no one may operate a healthcare centre without MoH technical authorisation. MoH gave unlicensed private operators a one-year grace period from about May 2025 (so roughly May 2026, extension unverified). Article says no licence had been issued to private centres so far. Public healthcare is free; RICB's cashless medical insurance (launched 1 July 2024) targets treatment at 500+ hospitals in India, with low uptake. No evidence that domestic private clinics bill insurers. Sources: https://thebhutanese.bt/moh-issues-a-one-year-deadline-notification-to-shut-down-unlicensed-private-healthcare-centers/ ; https://asianews.network/bhutans-health-ministry-warns-against-unlicensed-private-clinics/ ; https://www.bbs.bt/?p=233282",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Guidelines for Private Security Firms and Private Security Personnel 2016 (Ministry of Home and Cultural Affairs, approved by Lhengye Zhungtshog); 2016 reporting named two licensed firms. A 2026 ANN report finds guards on 12-hour shifts at wages below the Nu 400 minimum daily wage, and a Department of Labour inspection drive has started. Tenders (RICB, UNDP) require a valid trade licence and labour-law-compliant pay. No manpower-supplier register found. Small number of firms. Sources: https://www.moha.gov.bt/?p=851 ; https://asianews.network/?p=295111 ; https://www.ricb.bt/?p=11848",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Bhutan Anti-Money Laundering Act dealers in precious metals stones jewellery reporting entities",
+    "Bhutan beekeeping honey Department of Livestock registration beekeepers",
+    "Bhutan Water Regulations groundwater drilling licence Bhutan Water Act water operators",
+    "Bhutan private clinics health insurance Royal Insurance Corporation of Bhutan health claims private hospital",
+    "Bhutan security agency licence manpower supply private security guards cleaning company registration",
+    "Bhutan vehicle scrap dismantling spare parts dealers Road Safety and Transport Authority end-of-life vehicle",
+    "Bhutan Food Corporation FCBL rice flour mill licence grain traders BAFRA warehouse",
+    "Bhutan domestic helpers maid employment Labour and Employment Act household workers regulation",
+    "Bhutan Waste Prevention and Management Regulation septic tank desludging operators licence Thimphu Thromde",
+    "Bhutan lift elevator boiler pressure vessel inspection regulation Department of Industry safety",
+    "Bhutan water users association rural drinking water scheme Water Safety Plan private water supply",
+    "Bhutan funeral services cremation crematorium private regulation Thimphu",
+    "Bhutan second-hand goods dealers pawnbroker licence Department of Trade",
+    "Bhutan foreign domestic worker rules employer approval renewal Department of Labour home-based personal care worker permit",
+    "Bhutan Financial Intelligence Unit DNFBP jewellers real estate dealers precious metals AML/CFT Act 2018 reporting",
+    "Bhutan private hospital clinic licence Bhutan Medical and Health Council private health facility regulation",
+    "Bhutan scrap yard old vehicles dumped RSTA vehicle workshop spare parts shops Phuentsholing",
+    "Bhutan Department of Labour private security guards agency manpower supplier registration Labour and Employment Act 2025 outsourcing"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b70"
+ }
+}

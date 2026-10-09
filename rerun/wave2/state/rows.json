@@ -299,6 +299,32 @@
    "merge": 2
   }
  },
+ "barbados": {
+  "batch": "w2b71",
+  "candidates": 20,
+  "checks": {
+   "opus": 1,
+   "sonnet": 3,
+   "unverifiedByCap": [
+    "GAPS3 Boiler, air-receiver and lifting-equipment examination diary"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "unverifiable": 4
+  },
+  "gaps": 11,
+  "id": "barbados",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "drop": 2,
+   "keep": 15,
+   "known": 1,
+   "merge": 2
+  }
+ },
  "belgium": {
   "batch": "w2b21",
   "candidates": 30,
@@ -541,6 +567,32 @@
    "drop": 1,
    "keep": 22,
    "known": 4
+  }
+ },
+ "cabo-verde": {
+  "batch": "w2b65",
+  "candidates": 20,
+  "checks": {
+   "opus": 0,
+   "sonnet": 3,
+   "unverifiedByCap": [
+    "ALL2 Grogue (sugar-cane spirit) distillery licensing, harvest-window and stamp compliance",
+    "ALL4 Road passenger-transport operator licence and sanction compliance (taxi, hire, collective)"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 1,
+   "unverifiable": 2
+  },
+  "gaps": 15,
+  "id": "cabo-verde",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 18,
+   "known": 1
   }
  },
  "cambodia": {
@@ -1142,6 +1194,47 @@
   "stage": "done",
   "triage": {
    "keep": 23,
+   "known": 2,
+   "merge": 1
+  }
+ },
+ "fiji": {
+  "batch": "w2b70",
+  "candidates": 32,
+  "checks": {
+   "opus": 1,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B5 Security Industry Act licensing and renewal documentation service for small security firms",
+    "B6 MSAF boat registration, survey and Certificate of Competency tracker for small boat and tourism boat operators"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 3,
+   "disputed": 1,
+   "refuted": 1,
+   "unverifiable": 2
+  },
+  "gaps": 0,
+  "id": "fiji",
+  "leads": [
+   {
+    "challenge": "unclear 3",
+    "final": "disputed",
+    "id": "B1",
+    "mark": "new",
+    "name": "Tourism Act 2026 registration, legal-compliance declaration and self-assessment pack for small tourism operators",
+    "opus": 4,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 28,
    "known": 2,
    "merge": 1
   }
@@ -2227,6 +2320,73 @@
    "merge": 2
   }
  },
+ "madagascar": {
+  "batch": "w2b65",
+  "candidates": 26,
+  "checks": {
+   "opus": 1,
+   "sonnet": 5,
+   "unverifiedByCap": []
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "disputed": 1,
+   "refuted": 1,
+   "unverifiable": 4
+  },
+  "gaps": 0,
+  "id": "madagascar",
+  "leads": [
+   {
+    "challenge": "unclear 3",
+    "final": "disputed",
+    "id": "B1",
+    "mark": "new",
+    "name": "RCBE (beneficial-owner register) filing and update service for SMEs, associations, cooperatives and NGOs",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 21,
+   "known": 2,
+   "merge": 1
+  }
+ },
+ "malawi": {
+  "batch": "w2b65",
+  "candidates": 29,
+  "checks": {
+   "opus": 3,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "A11 Minibus owners fleet document tracker (route/road service permit, CoF, vehicle licence, insurance expiries)",
+    "A12 Forex bureau reporting and compliance tool for the new RBM licensing framework",
+    "B3 NCIC annual contractor renewal and compliance pack (tax clearance, class thresholds, MERA permit tracking) for small contractors",
+    "B4 Private health provider insurer-claims and anti-fraud billing tool for small clinics",
+    "B5 Small-employer Pension Act remittance and filing tracker (14th-of-month contributions, enrolment)"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 2,
+   "refuted": 1,
+   "unverifiable": 6
+  },
+  "gaps": 1,
+  "id": "malawi",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 27,
+   "known": 2
+  }
+ },
  "malaysia": {
   "batch": "w2b54",
   "candidates": 46,
@@ -2639,6 +2799,33 @@
    "keep": 28,
    "known": 1,
    "merge": 2
+  }
+ },
+ "nepal": {
+  "batch": "w2b72",
+  "candidates": 25,
+  "checks": {
+   "opus": 3,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B5 Traceability and phytosanitary document pack for small cardamom, herb and NTFP exporters",
+    "B6 Community forest user group annual plan, audit and renewal pack"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 3,
+   "check_failed": 4,
+   "unverifiable": 2
+  },
+  "gaps": 3,
+  "id": "nepal",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 17,
+   "known": 8
   }
  },
  "netherlands": {
@@ -3115,6 +3302,86 @@
    "merge": 1
   }
  },
+ "paraguay": {
+  "batch": "w2b68",
+  "candidates": 34,
+  "checks": {
+   "opus": 4,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B9 Environmental management plan compliance-audit reporting (MADES) for small firms with a DIA or audit resolution",
+    "A3 Junta de Saneamiento back-office (billing, tariff, member accounts, registers)",
+    "A5 Domestic-worker IPS registration and payment service for households",
+    "A6 Borehole and water-use register for drillers and owners",
+    "A7 DINAVISA establishment (R.E.) and RSPA tracker for small food producers",
+    "B4 Pharmacy unit-level traceability for tirzepatide (GTIN / Data Matrix) and DINAVISA distribution/distance-sale rules",
+    "GAPS3 Cleaning-company labour-compliance evidence pack for state contracts (wages, IPS, MTESS) and sanction watch",
+    "GAPS5 Digital Libros de Informacion Laboral and MIPYME contract registration for small builders and contractors"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 2,
+   "refuted": 1,
+   "unverifiable": 3,
+   "verified_4": 4
+  },
+  "gaps": 2,
+  "id": "paraguay",
+  "leads": [
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "B1",
+    "mark": "new",
+    "name": "AML compliance kit for used-car lots and vehicle importers/consignors (Res 196/2020: manual, compliance officer, KYC, ROS, negative reports, annual evaluation, external audit)",
+    "opus": 5,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "A1",
+    "mark": "new",
+    "name": "SIRO compliance kit for pawnshops, jewellers and gold buyers",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "A2",
+    "mark": "new",
+    "name": "Annual register, beneficial-owner and AML pack for associations, juntas vecinales, cooperadoras and similar bodies",
+    "opus": 5,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "survives 5",
+    "final": "verified_4",
+    "id": "B2",
+    "mark": "new",
+    "name": "SEPRELAD compliance pack for real-estate agents and other 'sin supervision natural' subjects (ROS-WEB, negative reports, registration, KYC records)",
+    "opus": 5,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 28,
+   "known": 3,
+   "merge": 3
+  }
+ },
  "peru": {
   "batch": "w2b39",
   "candidates": 39,
@@ -3567,6 +3834,34 @@
   "triage": {
    "keep": 27,
    "known": 4,
+   "merge": 1
+  }
+ },
+ "sierra-leone": {
+  "batch": "w2b67",
+  "candidates": 28,
+  "checks": {
+   "opus": 2,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B3 Local Content Sierra Leonean Content Plan and annual compliance report filing service",
+    "GAPS1 Sachet and bottled water producer permit and record-keeping pack"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 3,
+   "refuted": 1,
+   "unverifiable": 4
+  },
+  "gaps": 5,
+  "id": "sierra-leone",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 26,
+   "known": 1,
    "merge": 1
   }
  },
@@ -4043,6 +4338,40 @@
   "stage": "done",
   "triage": {
    "keep": 32
+  }
+ },
+ "tanzania": {
+  "batch": "w2b69",
+  "candidates": 37,
+  "checks": {
+   "opus": 2,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B8 DNFBP AML/CFT register and STR support for real estate dealers, lawyers and similar",
+    "B9 Fuel station permit/supply-contract and inspection compliance desk",
+    "A2 Meat Board butcher and slaughter premises registration and compliance kit",
+    "A5 NGO funding-disclosure and renewal compliance calendar",
+    "B2 SACCOS and non-deposit microfinance BoT compliance and reporting pack",
+    "B3 Private health laboratory registration and renewal pack (PHL Board plus HFRS)",
+    "B4 Chemical dealer permit and precursor-return desk for small GCLA-regulated dealers",
+    "B5 Workplace compliance calendar: OSHA licence, fire certificate, WCF for small premises",
+    "B10 Guest house and lodge visitor-registration and levy helper"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 2,
+   "unverifiable": 6
+  },
+  "gaps": 1,
+  "id": "tanzania",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 32,
+   "known": 4,
+   "merge": 1
   }
  },
  "thailand": {
@@ -4535,6 +4864,62 @@
    "keep": 35,
    "known": 1,
    "merge": 3
+  }
+ },
+ "uruguay": {
+  "batch": "w2b68",
+  "candidates": 33,
+  "checks": {
+   "opus": 3,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B4 Annual visacion and Central de Balances filing packager for small co-operatives",
+    "B5 Guard habilitation and renewal tracker for small private security firms (DIGEFE)",
+    "B6 Food-handler card expiry tracker with departmental rules",
+    "B7 Renewal manager for building administrators' register (horizontal property)",
+    "B8 Pharmacy controlled-substance books and quarterly narcotics filing helper",
+    "GAPS1 AML/UIAF compliance kit for BCU-supervised casas de cambio (client-risk files, ROS drafting, manual upkeep)"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 6,
+   "disputed": 1,
+   "unverifiable": 1,
+   "verified_4": 1
+  },
+  "gaps": 2,
+  "id": "uruguay",
+  "leads": [
+   {
+    "challenge": "unclear 3",
+    "final": "disputed",
+    "id": "B1",
+    "mark": "new",
+    "name": "Short-term rental and guest-house registry and guest-ID reporting kit (Ley 20.352)",
+    "opus": 4,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "B2",
+    "mark": "new",
+    "name": "AML/PLAFT compliance kit for small real estate agents, accountants and corporate-service providers (SENACLAFT)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "drop": 1,
+   "keep": 31,
+   "known": 1
   }
  },
  "uzbekistan": {

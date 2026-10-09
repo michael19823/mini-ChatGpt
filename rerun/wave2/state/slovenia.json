@@ -475,5 +475,240 @@
    "searches": 18
   },
   "tag": "w2b67"
+ },
+ "gapfill:slovenia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Independent butcher shops, supermarket counters, small cutting plants and meat processors that sell unpackaged fresh meat",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2022-01-1189/pravilnik-o-zagotavljanju-sledljivosti-porekla-za-nepredpakirano-sveze-ohlajeno-in-zamrznjeno-goveje-prasicje-ovcje-kozje-in-perutninsko-meso ; https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-2637/pravilnik-o-spremembah-pravilnika-o-zagotavljanju-sledljivosti-porekla-za-nepredpakirano-sveze-ohlajeno-in-zamrznjeno-goveje-prasicje-ovcje-kozje-in-perutninsko-meso ; https://www.gov.si/novice/2026-08-21-inspekcija-izvedla-izredni-nadzor-nad-oznacevanjem-porekla-prasicjega-mesa-v-trgovski-verigi/ ; https://www.gov.si/zbirke/delovna-telesa/delovna-skupina-vlade-za-pripravo-strokovnih-izhodisc-za-normativno-ureditev-in-vzpostavitev-elektronskega-informacijskega-sistema-za-spremljanje-masnega-toka-porekla-mesa/ ; https://www.24ur.com/novice/slovenija/sklenjen-nov-dogovor-o-sledljivosti-porekla-mesa.html",
+     "existing": "No Slovenian butcher-specific lot-traceability product found. Generic food traceability software (Nutrada blog) and scale/label vendors (Mettler Toledo) appear. POS and ERP vendors (Datalab, Pantheon, Mikro) are the likely route for the receipt marking, but whether they support it is not confirmed. A state mass-flow system is planned and could replace a private tool.",
+     "known_mark": "new",
+     "known_note": "Not related to K03 (packaging) or K07 (waste). Closest known: none.",
+     "name": "Meat origin lot-traceability and receipt-marking tool for butchers and small cutting plants",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Pravilnik o zagotavljanju sledljivosti porekla za nepredpakirano meso (Ur.l. RS 54/2022, amended 2024 and Ur.l. RS 76/2025): origin on the delivery note or invoice (applying since 30 Oct 2023) and the SI marking on the retail receipt for Slovenian-origin counter meat from 31 Oct 2027. UVHVVR extraordinary inspections continue (21 Aug 2026). A state meat mass-flow information system is planned (working group since 29 Feb 2024).",
+     "unchecked": "Number of Slovenian butchers, cutting plants and counters (not found). Whether POS vendors already ship the SI receipt marking. Whether the receipt marking is ever enforced, since it was extended to Oct 2027 and the 2024-25 inspections found only one violation. The four receipt identifiers in the Annex (not opened). Timing and design of the state mass-flow system. Willingness of small butchers to pay."
+    },
+    {
+     "buyer": "Slovenian SMEs importing steel, aluminium, fertiliser or cement goods above 50 t a year",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://fu.gov.si/drugo/posebna_podrocja/cbam/ ; https://www.gov.si/novice/2026-03-30-pripomocek-za-izracun-dajatev-mehanizma-za-ogljicno-prilagoditev-na-mejah-cbam/ ; https://unija.com/sl/status-pooblascenega-deklaranta-cbam/",
+     "existing": "FURS CBAM calculator and guidance, customs-broker and forwarder services (Unija, DHL), EU CBAM registry. The 50 t exemption removes most small firms.",
+     "known_mark": "new",
+     "known_note": "Not related to K01.",
+     "name": "CBAM authorised-declarant and annual declaration service for small importers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "CBAM definitive period from 1 Jan 2026; Reg (EU) 2025/2083 sets a 50 t de minimis; first annual declaration for 2026 is due 30 Sep 2027.",
+     "unchecked": "Number of Slovenian importers above 50 t. Whether SMEs rely on forwarders. Whether emissions-data collection from suppliers is a real gap."
+    },
+    {
+     "buyer": "Slovenian fish importers and wholesalers",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://www.fu.gov.si/fileadmin/Internet/Carina/Prepovedi_in_omejitve/Ribiski_proizvodi/Opis/FAQ_CATCH.docx ; https://www.fu.gov.si/carina/prepovedi_in_omejitve/ribiski_proizvodi/",
+     "existing": "CATCH itself is the free EU system; forwarders and customs brokers file for importers.",
+     "known_mark": "new",
+     "known_note": "Not related to K01.",
+     "name": "EU CATCH IUU catch-certificate handling for fish importers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "CATCH mandatory for importers from 10 Jan 2026 under Reg 1005/2008 as amended by Reg (EU) 2023/2842; FURS guidance 9/2024.",
+     "unchecked": "Number of importers, whether CATCH has an API or bulk upload that a third party could wrap, whether importers file themselves or through brokers."
+    },
+    {
+     "buyer": "Small exporters of plants, wood, fish and animal products to third countries",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://www.gov.si/novice/2024-04-23-z-aprilom-uvedena-elektronska-fitosanitarna-spricevala-za-izvoz-v-tretje-drzave/ ; https://www.gov.si/zbirke/storitve/veterinarska-spricevala-za-izvoz-v-tretje-drzave/ ; https://www.gov.si/zbirke/storitve/vloga-za-izdajo-fitosanitarnega-spricevala",
+     "existing": "Official UVHVVR and TRACES portals (free), forwarders prepare the paperwork.",
+     "known_mark": "new",
+     "known_note": "Adjacent to K01 (timber) but a different duty.",
+     "name": "Phytosanitary and veterinary export-certificate preparation for small food and timber exporters",
+     "score": 2,
+     "status": "weak",
+     "trigger": "FITO register and phytosanitary certificates (e-certificates via TRACES since 1 Apr 2024); veterinary export certificates need notice to the UVHVVR regional vet at least 3 working days ahead; Pravilnik o certificiranju v veterinarstvu.",
+     "unchecked": "Volume of exporters, frequency of certificates, whether forwarders already cover it."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Slaughterhouses and cutting plants need UVHVVR approval under Reg 853/2004 (gov.si 'Odobritev živilskega obrata'); retail butchers register under the Pravilnik o registraciji in odobritvi obratov na področju živil. No Slovenian butcher-specific software vendor found (searched HACCP, lot traceability, POS). The one live duty is origin traceability for unpackaged fresh beef, pork, sheep, goat and poultry (Pravilnik, Ur.l. RS 54/2022): origin on the delivery note or invoice, applying since 30 Oct 2023, and the SI marking on the retail receipt for Slovenian-origin counter meat. That receipt deadline was extended from 31 Oct 2025 to 31 Oct 2027 (Ur.l. RS 76/2025, 3 Oct 2025). UVHVVR's extraordinary inspection of 21 Aug 2026 found the supermarket butcher counters clean. Irregularities were at 3 of 7 suppliers (slaughterhouses and cutting plants): lot separation, record-keeping and lot quantity mismatches, and misuse of the 'Izbrana kakovost' label. A government working group (formed 29 Feb 2024) is preparing a state electronic system to track meat mass flow by origin. It has no launch date, which would be a future trigger but also a risk of a free state tool. Counts of small abattoirs and butchers not found. The ~69-butcher inspection with 47 failing is about 2015, so not current.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Timber/EUDR is already K01. Intrastat is not worth a candidate (thresholds raised from 1 Jan 2026, per the assignment). CBAM: full phase from 1 Jan 2026; authorised declarant status is required for imports of steel, aluminium, cement, fertilisers, hydrogen and electricity above 50 t per year. First annual declaration is due 30 Sep 2027. FURS has a CBAM calculator (Mar 2026) and a CBAM page, and customs brokers and forwarders (DHL, Unija) sell the declarant service. Small importers under 50 t are exempt, so the buyer pool is thin and served. Fish: the EU CATCH system for IUU catch certificates has been mandatory for importers since 10 Jan 2026 (FURS guidance 9/2024), and CATCH is a free EU tool. Plants and wood: exporters and importers must be in the FITO register. Electronic phytosanitary certificates have been issued since 1 Apr 2024 through TRACES (free). From 6 Jul 2026 some import certificates need an additional declaration. Veterinary export certificates: the exporter notifies the UVHVVR regional vet at least 3 working days ahead on a form template, and the certificate is issued by an official vet, with no e-service found. Organic imports: COI in TRACES, importers registered with UVHVVR/MKGP. All are state or EU portals or small buyer pools. China poultry and pork export audit status (early 2025) not confirmed.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "klavnice mesnice register obrati registracija UVHVVR sledljivost mesa male klavnice",
+    "mesar evidence HACCP samokontrola program mesnica Slovenija programska oprema",
+    "izvoz hrane živalskega izvora izvozni certifikat UVHVVR e-certificiranje izvoznik ribe",
+    "CBAM Slovenija uvoznik poročanje pooblaščeni deklarant mali uvozniki 2026 jeklo aluminij gnojila",
+    "število klavnic Slovenija male klavnice zaprtje stroški uradni veterinar klanje na kmetiji dopolnilna dejavnost mesnica",
+    "ribolovni dnevnik malo obalno ribištvo Slovenija elektronski ribolovna evidenca izkrcanje prva prodaja ribiči",
+    "označevanje govedine sledljivost mesnica evidenca prodaja mesa nadzor inšpekcija neskladnosti mesarji OZS sekcija mesarjev",
+    "pravilnik označevanje porekla nepakiranega mesa govedina svinjina perutnina mesnica evidenca poreklo na računu dobavnici program",
+    "sledljivost mesa programska oprema razsek klavnica mesnica Slovenija tehtnice etikete lot program za mesarje",
+    "mesnica blagajna oznaka SI poreklo mesa na računu pravilnik 2025 sprememba mesarji težave trgovci",
+    "blagajniški program mesnica poreklo mesa oznaka na računu SI sledljivost šifrant podjetje programska rešitev",
+    "fitosanitarno spričevalo izvoz les kmetijski pridelki izvoznik UVHVVR registracija uvoznikov rastlin TRACES prijava pošiljke",
+    "uvoz ribiških proizvodov potrdilo o ulovu IUU uvoznik ribe Slovenija CATCH sistem ribarnica registracija",
+    "inšpekcija pregledala 69 mesnic nepravilnosti 47 poreklo mesa rojstva živali ni bilo mogoče dokazati",
+    "število odobrenih klavnic in obratov za razsek mesa Slovenija seznam odobrenih obratov meso UVHVVR 2025",
+    "program za mesarje razsek proizvodnja mesnih izdelkov sledljivost HACCP evidence aplikacija mesna industrija Slovenija ponudnik",
+    "uvoz ekoloških proizvodov iz tretjih držav uvoznik COI potrdilo o inšpekciji TRACES Slovenija ekološki uvoznik registracija 2026",
+    "mali izvozniki hrane Slovenija zahteve izvoz mesnih izdelkov v tretje države odobritev obrata seznam ZDA Kitajska majhne mesnopredelovalne",
+    "Datalab OR Pantheon OR Mikro blagajna mesnica oznaka porekla mesa na računu pravilnik sledljivost nadgradnja"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b67"
+ },
+ "opus:slovenia:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Only the free state Excel templates (one is a macro .xlsm), with no portal. Searches for software or a service that prepares the report, or links telemetry meter reading to it, found no private provider. Hydrogeology firms prepare permit reports, but none was found offering the annual abstraction report. Utilities use remote meter reading for their own metering, but none was found tied to DRSV reporting. A future state portal under the pending regulation is a possible risk; its status is unverified.",
+   "duty": "Zakon o vodah (ZV-1): water-right holders must meter how much water they take and report it electronically to MNVP, in a way the minister is to set by regulation. That regulation has not been adopted (no 2026 pravilnik found), so for now the permit or concession sets the terms. DRSV asks for an annual report with a chart of volumes by end of January for the previous year, using its Excel templates (wells, intakes, springs with Qes), sent by e-mail to gp.drsv@gov.si or by post. Penalty: no specific fine amount found. IRSNR inspections in 2025 led to 4 orders to fix problems, 1 misdemeanour decision with a warning and 3 warnings, all about use beyond or without a permit. An earlier drinking-water inspection campaign produced 35 decisions, including orders to install meters.",
+   "market": "Not well measured. ARSO counts from 2008 (about 18 years old): 20,443 permits for self-supply, 11,521 for watering, 169 for irrigation, 288 for process water. A Feb 2026 MNVP press pack seems to cite about 2,782 water-charge payers, including about 1,151 for electricity production. That figure is second-hand: it came from a search summary because the .docx could not be read. How many holders actually have a metering and reporting condition in their permit is not_reached. A realistic paying segment (greenhouses, fish farms, small hydro, groundwater heat pumps) is probably in the low thousands at most.",
+   "reason": "The duty is real. Under ZV-1, water-right holders must meter how much water they take and report it electronically to the ministry. The minister's rule on how to report still has not been adopted (no 2026 pravilnik found), so for now each permit sets the terms. The Direkcija RS za vode (DRSV) asks for a report with a chart of the volumes by end of January, using free state Excel templates. No portal exists and no private provider was found. Still, the job is small: one Excel sheet a year built from meter readings. No specific fine was found. Recent inspections focused on use that exceeds or lacks a permit, not on missing reports. The one misdemeanour case found ended with a warning, not a fine. Buyers are scattered, hard to reach and unlikely to pay. A stronger angle would be selling it bundled with telemetry meters.",
+   "searches": 6,
+   "sources": "https://www.gov.si/zbirke/storitve/porocilo-o-spremljanju-odvzetih-kolicin-vode/ ; https://www.gov.si/novice/2025-09-26-inspekcija-za-naravo-in-rudarstvo-preverja-rabo-vode-v-kmetijstvu/ ; https://www.gov.si/novice/2024-01-03-porocilo-akcije-nadzorov-nad-imetniki-vodne-pravice-pri-izvajanju-posebne-rabe-vode/ ; https://www.gov.si/novice/2021-01-12-obvestilo-imetnikom-vodnih-pravic-za-oddajo-porocil-o-spremljanju-odvzetih-kolicin-vode/ ; https://eionet.arso.gov.si/media/1345 ; https://www.gov.si/assets/ministrstva/MNVP/fotografije/dogodki/2026/02_Februar/MNVP-Gradivo_za_novinarje-februar2026.docx",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b67"
+ },
+ "opus:slovenia:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Slovenian private app for the Evidenca o opremi or for preparing the ARSO report (searched in Slovenian and English). What exists:\n- the free state REMIS/REMIS_TGP web forms;\n- the official Word/paper form with filled-in examples on gov.si;\n- Climalife's F-Gas Solutions app, which only calculates charge/GWP and leak-check frequency, is not a logbook and has no Slovenian;\n- generic form tools such as the GoCanvas F-gas log sheet;\n- an electronic logbook used in Slovakia (an IIR paper describes it; I did not confirm it is a commercial product).\nGeneric field-service/CMMS tools with refrigerant modules were not checked one by one.",
+   "duty": "The duty is real and in force. It comes from the Slovenian Uredba o uporabi fluoriranih toplogrednih plinov in ozonu škodljivih snoveh (Ur. l. RS 60/2016; consolidated text dated 1.1.2025 on tax-fin-lex), applied alongside Reg. (EU) 2024/573.\n- Equipment registration (Art. 4): operators must register stationary equipment holding 3 kg or more within 3 months of installation, and report changes within 1 month, via REMIS_TGP.\n- Annual report (Art. 7): authorised companies, mobile/car-AC maintainers, in-house users with their own servicer, and gas sellers report by 31 March for the previous year. A nil report is required. Submission is through the ARSO REMIS web form.\n- Equipment record (Evidenca o opremi): kept per unit of 5 t CO2e or more. The servicer fills it in at every intervention; the operator keeps the original and the servicer keeps a copy for at least 5 years.\n- Penalties: I could not see fine amounts; the penal articles were not in the fetched text. Enforcement is real but soft. In the 2024 action, IRSOE found violations at 135 of 223 firms and opened 83 misdemeanour cases, which ended in 54 reminders and 19 warnings with no fines yet.\n- Not checked: whether REMIS accepts file import; the obligations PDF for authorised companies.",
+   "market": "Small, roughly a few hundred servicing firms; I found no exact count of the register. Only for non-reporting in 2022, ARSO's list held 157 authorised firms, 64 car-AC maintainers and 2 traders, and 24 of these no longer existed. The total register of authorised companies is probably a few hundred to around 1,000. Operators of 5 t CO2e or more equipment (shops, hotels, offices) are more numerous but uncounted, and they rely on their servicer to fill in the record.",
+   "reason": "The duty is real and recurring: a record entry at every intervention and an annual report by 31 March. No local software does the job. But the market is tiny, likely a few hundred servicers. The annual report is a short free state web form, so it causes little pain. Enforcement mostly produces reminders and warnings rather than fines. Many servicers already have job-sheet or ERP habits, so willingness to pay for a narrow F-gas logbook is probably low. A per-unit digital logbook plus report pre-fill is a simple MVP, and distribution through the training providers (SPOT list) and refrigerant wholesalers is possible. But revenue potential in Slovenia alone is too small unless it is bundled into a broader HVAC field-service product or sold across the region.",
+   "searches": 5,
+   "sources": "https://www.gov.si/zbirke/storitve/letno-porocanje-o-kolicinah-fluoriranih-plinov ; https://www.gov.si/novice/2024-10-28-nadzor-podjetij-ki-delajo-in-trgujejo-s-fluoriranimi-toplogrednimi-plini/ ; https://tax-fin-lex.si/dokument/podrobnosti/36656b15-40f3-4a84-a62c-d795ac2c60d6 ; https://www.gov.si/assets/ministrstva/MOP/Okolje/Podnebne-spremembe/toplogredni_plini/Informacije_za_serviserje_HKTC_in_tovornjake.pdf ; https://www.gov.si/teme/ozonu-skodljive-snovi-in-fluorirani-toplogredni-plini/ ; https://apps.apple.com/gb/app/f-gas-solutions/id928450681 ; https://iifiir.org/en/fridoc/compressors-in-electronic-logbook-leaklog-149715",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b67"
+ },
+ "triage:slovenia": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New buyer (permit holders with boreholes) and annual abstraction report; no known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Small wastewater plant operators; different buyer and duty from K12 (village water safety plans)."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Sellers' annual sales return, distinct from K02 (applicator spray records)."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Hunting associations with harvest marking and records; community body in scope, new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Horse keepers' holding registration and movement reporting; new buyer and duty, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Associations' beneficial-owner filing in AJPES eRDL; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small temp-work agencies' register, guarantee and annual report; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Different duty (annual income notice) from K05 seasonal worker register; related K05, verifiers to judge weight."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Owners of pressure equipment and lifts have recurring inspection duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Taxi operators' app-fare compliance; unverified, depends on draft amendment, but in scope when unsure."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "F-gas servicers' equipment records and ARSO reporting; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Long-term care providers' logs and ZZZS billing; small providers, new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "ZGos-1 ID number, consents and day caps is a different duty from K06 guest registration (eTurizem); related K06."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small dental, medical and vet X-ray practices, permit and inspection duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "AML duty on small professional offices (agents, accountants); different buyer from A6."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Market reporting by mills and dairies above thresholds; size unclear, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Small contractors' construction diary; unverified status, keep for checking."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Butchers' meat origin traceability and receipt marking; unrelated to K03 or K07."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Small importers' CBAM declarations with a deadline; new duty, unrelated to K01."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Fish importers' catch certificates from Jan 2026; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Small exporters' phytosanitary and vet export certificates; different duty from K01 EUDR."
+    }
+   ]
+  },
+  "tag": "w2b67"
  }
 }

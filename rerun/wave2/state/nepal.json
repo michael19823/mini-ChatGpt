@@ -544,5 +544,261 @@
    "searches": 17
   },
   "tag": "w2b66"
+ },
+ "gapfill:nepal": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Private, hospital-owned and community (Red Cross, club) ambulance owners; the dispatch centres themselves",
+     "category": "18. Transport operators (adjacent: ambulance and hearse fleets; found while screening 16)",
+     "evidence": "The MoHP Ambulance Service Directive 2082 requires all ambulance services to operate through an authorised dispatch centre; the 2021 national directive required GPS in every ambulance and training for drivers; the 2078 directive required upgrading Class C ambulances to at least Class B. An NHRC slide deck (April 2025) shows about 674 of 1,528 ambulances with GPS installed (approximate, hard to read). The Himalayan Times reports that the ministry warned operators about patient diversion, and Ekantipur (Aug 2026) reports non-compliant ambulances still operating in Baglung. Sources: https://thehimalayantimes.com/health/health-ministry-warns-ambulance-operators-against-diverting-patients-for-profit ; https://ekantipur.com/gandaki-pradesh/2026/08/18/en/substandard-ambulances-still-operating-in-baglung-00-56.html ; https://elibrary.nhrc.gov.np/bitstream/20.500.14356/2805/1/HEDMU_NHRC__12th%20April%202025.pdf",
+     "existing": "Government 102/112 dispatch centres and provincial GPS programmes (Gandaki); no private compliance software seen",
+     "known_mark": "new",
+     "name": "Ambulance operator dispatch-centre and GPS compliance pack (private and community ambulance owners)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ambulance Service Directive 2082 (MoHP); 2021 national ambulance directive (GPS, class, driver training)",
+     "unchecked": "Text of the 2082 directive, the compliance deadline, whether a periodic report is due, buyer count and willingness to pay; probably served by the state dispatch system and hardware GPS vendors, so the software gap is thin. Another worker likely owns category 18; no competitor search run (score under 3)."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "8. Beekeepers",
+     "found": "No beekeeper registration or hive-register regime found. Honey is a food, so processors and sellers need a DoFTQC food licence and district industry registration (one press report: beekeepers cannot sell honey directly without a food licence; Jajarkot cooperative example registered with the industry office and DoFTQC Surkhet). The live issue is commercial: imports reopened Dec 2025, about 3,000 t unsold, EU export ban on animal products since 2008. About 4,192 t produced last year; federations are the Nepal Beekeepers Federation and the Nepal Beekeeping Central Cooperative. No recurring filing duty with an authority and no software gap found. Sources: https://ekantipur.com/business/2025/12/02/en/beekeepers-worried-after-honey-import-allowed-21-06.html ; https://nepalitimes.com/a-sweet-future . Unchecked: whether a Honey Policy or Livestock Act directive adds a registration or traceability duty (the first search found none); the DoFTQC food-licence renewal cycle.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Fetched the nitipartners explainer: there is no standalone funeral law. Operators need a municipal business licence, PAN registration and annual income tax return, and a vehicle registration for hearses. No funeral-specific periodic report, renewal cycle or register duty. Related: ambulance and hearse rules (MoHP Integrated Ambulance and Pre-Hospital Services Guideline 2077; Ambulance Service Directive 2082 requires dispatch-centre operation; Red Cross runs hearses under its own procedure). Cremation ghat committees and guthis are community bodies; no registration or reporting regime found. Local bodies make small firewood-aid procedures for cremation (Musikot example). Nothing new beyond generic municipal and tax duties. Sources: https://nitipartners.com/what-license-do-you-need-for-funeral-services-in-nepal/ ; https://covidlawlab.org/?p=22198 . Unchecked: Guthi Corporation or Guthi Act duties for ghat and temple trusts; any Kathmandu or Lalitpur ghat bylaw.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers: K06 (not re-searched). Street vendors: no licensing scheme exists. Kathmandu Metropolitan City bans footpath vending outright, with seizure, auction of goods and small fines. Vendors have asked for ID cards, and a 2014 task force plan for ID cards and designated zones was never implemented. Estimates run from about 10,000 to 35,000 vendors in Kathmandu. No register or filing duty for vendors, so there is no buyer and no software gap. Sources: https://english.onlinekhabar.com/kathmandu-city-launches-new-crackdown-on-street-vendors.html ; https://b360nepal.com/there-is-no-policy-for-street-vendors-kmc/ . Unchecked: the 2026 position of KMC and other municipalities; local market-fee or haat bazaar contractor duties; the Nepali-language municipal vendor procedure search found nothing.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "Nepal beekeeping honey registration law apiculture Department of Livestock Services honey export",
+    "मौरी पालन दर्ता मह प्रशोधन उद्योग अनुमति नेपाल",
+    "Beekeepers worried after honey import allowed Nepal 2025 honey standard DoFTQC registration beekeepers cooperative",
+    "Nepal funeral service licence crematorium guthi burial regulation law",
+    "शव व्यवस्थापन सेवा अनुमति दाहसंस्कार घाट समिति दर्ता नेपाल",
+    "Nepal ambulance hearse shav bahan service operator registration directive 2077",
+    "Nepal street vendor registration Kathmandu Metropolitan City hawker licence 2025",
+    "फुटपाथ पसल व्यवसायी दर्ता नगरपालिका सडक पसल व्यवस्थापन कार्यविधि",
+    "Nepal street vendors Kathmandu 2026 vendor ID card designated vending zone municipality scheme",
+    "Ambulance Service Directive 2082 Nepal dispatch centre all ambulances GPS registration deadline operators",
+    "WebFetch nitipartners.com what-license-do-you-need-for-funeral-services-in-nepal"
+   ],
+   "searches": 11
+  },
+  "tag": "w2b72"
+ },
+ "opus:nepal:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "None found. Searches in Nepali and English for a Department of Livestock Services (DLS) app, an online licence portal or meat-shop/abattoir compliance software found no Nepal product. The only online systems found are abroad: the Sikkim meat-shop NOC portal and the Philippines NMIS licensing. No article mentions a digital or QR inspection system. The real \"competitor\" is the paper process run by the state: government inspectors do the inspection and issue the certificate for each carcass, so the shop's own paperwork burden is small.",
+   "duty": "Real and active. The Animal Slaughterhouse and Meat Inspection Act 2055 (1999) bans running a slaughterhouse or selling meat without a licence. Animals need a health check before slaughter, and meat may only be sold after an inspector checks the carcass and certifies it. A Ministry of Agriculture meeting on Ashad 26 decided a three-phase rollout, keyed to a Gazette notice (Ratopati, 17 Jul 2026). News reports give the dates as 17 Nov 2026 (Mangsir 1) for all 21 local levels of Kathmandu, Lalitpur and Bhaktapur, 15 Jan 2027 for other urban municipalities, and 17 Jul 2027 for rural municipalities. The minister repeated the Mangsir 1 date on Ashwin 12, 2083 (Ekantipur, 28 Sep 2026). Annapurna Express says 1 Nov, which no other source supports. The ministry has assigned 227 vets and meat inspectors to the Valley (Kathmandu 137, Lalitpur 56, Bhaktapur 34). An amendment to raise fines is proposed. Not reached: current fine amounts, licence fees, who issues licences (local level or DLS), and the Gazette notice itself. The rollout has not started yet: today is 9 Oct 2026, before the first phase.",
+   "market": "No current count. Kathmandu Post reports from 2016 estimate about 2,500 meat shops and 1,000 fish shops in the Valley, and say only about 12 of roughly 300 slaughterhouses were registered with Kathmandu Metropolitan City. Nationwide this may be tens of thousands of shops, but registration is low. DLS says it will update the national list of slaughterhouses and meat shops, so no register exists yet. The Madi survey cited in the claim found 70% of 122 shops registered.",
+   "reason": "The duty is real, starts in the Valley on 17 Nov 2026 and expands nationwide by Jul 2027, and no software exists. But the core inspection and certification is done by government inspectors on paper, so a butcher's own job is mostly getting a one-time licence plus presenting animals for inspection. Software has little to automate. Buyers are informal, offline, low-margin butchers, few of whom know the rules, so they are unlikely to pay. Enforcement has also slipped repeatedly over 27 years. A better angle might be selling to municipalities or abattoir operators for inspection logs, but that drifts toward building the state's own system, which is out of scope. Fines, fees and who issues licences were not reached.",
+   "searches": 5,
+   "sources": "https://english.onlinekhabar.com/mandatory-meat-inspection-to-begin-in-december-but-infrastructure-remains-a-major-challenge.html ; https://english.ratopati.com/story/70641/the-animal-slaughterhouse-and-meat-inspection-act-will-be-implemented-nationwide-in-3-phases-with-the-valley-being-the-first-priority ; https://ekantipur.com/business/2026/09/28/en/meat-inspection-act-to-be-implemented-in-kathmandu-from-november-1-54-39.html ; https://theannapurnaexpress.com/story/67680/ ; https://english.ratopati.com/story/57070/the-animal-slaughterhouse-and-meat-inspection-act-is-only-applicable-in-three-cities ; https://kathmandupost.com/money/2016/03/27/govt-steps-up-inspection-of-valley-meat-shops ; https://english.ratopati.com/story/32052 ; https://faolex.fao.org/docs/pdf/nep40222.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b72"
+ },
+ "opus:nepal:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No private real estate compliance software was found in Nepali or English searches. The core transaction workflow already runs on the state land information system, operated through licensed bhu-sewa kendras (Gharbari Seva, SK Home Real Estate, Nepal Land Broker, Himalayan Realtors). FIU reporting goes through the free goAML system. AML Nepal offers consultancy and workshops.",
+   "duty": "Land Revenue Rules 2036 (8th amendment 2082): firms, companies and institutions need a DoLMA licence to deal in property above Rs 3 crore per transaction in metropolitan and sub-metropolitan cities. The fee is Rs 5 lakh for deals up to Rs 5 crore and Rs 10 lakh above that, and the licence runs five years with conditions \"as prescribed\". Licensees must transact through the land information system via a bhu-sewa kendra (permit fee Rs 5,000 plus Rs 2 lakh deposit). The rule was suspended in March 2026 and reinstated on 21 April 2026; I could not confirm its current status. The AML Directive 2082 (first amendment) dropped the bank statement and KYC requirements. Press reports put the FIU reporting of deals above Rs 3 crore (or Rs 1 crore after the amendment) on land revenue offices, not on firms. No periodic report by licensed firms was found, and I found no penalty provisions.",
+   "market": "198 (or 197) companies applied. About 159 were eligible, and 69 had been issued licences as of April 2026 (ekantipur). Four bhu-sewa kendra operators hold permits. Individual-to-individual deals are not covered for now. This is a very small, capitalised buyer group.",
+   "reason": "The licence duty is real. Land Revenue Rules 2036 (8th amendment 2082) require firms to hold a licence for deals over Rs 3 crore in 6 metropolitan and 11 sub-metropolitan cities. The fee is Rs 5 lakh, or Rs 10 lakh above Rs 5 crore, and the licence lasts five years, so it is not recurring. The rule was suspended in March 2026 and reinstated in April, and status since then is unclear. Deals must run through the state land information system via a handful of bhu-sewa kendras. Reports say land revenue offices, not firms, send the AML reports. No firm-side recurring report was found. The market is tiny: 198 applied, about 159 were eligible and 69 were licensed by April 2026. The fee level suggests capitalised firms rather than small ones. Unverifiable mainly because ongoing duties and current status were not found.",
+   "searches": 5,
+   "sources": "https://ekantipur.com/business/2026/04/21/real-estate-transactions-above-rs-30-million-will-only-be-conducted-through-companies-27-04.html ; https://ekantipur.com/business/2025/12/22/license-mandatory-for-real-estate-transactions-198-companies-apply-13-32.html ; https://ekantipur.com/business/2026/03/04/real-estate-transactions-which-can-only-be-conducted-by-licensed-individuals-are-suspended-for-the-time-being-03-12.html ; https://bizshala.com/article/23460 ; https://ekantipur.com/business/2025/06/06/en/the-provision-of-kyc-and-bank-statement-in-real-estate-transactions-has-been-removed-01-28.html ; https://www.nrb.org.np/fiu/threshold-transaction-reporting-guidelines-updated-july-2025 ; https://www.b360nepal.com/detail/27086/dolma-extends-deadline-for-firms-seeking-real-estate-licence-to-dec-13",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b72"
+ },
+ "opus:nepal:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Free state portal online.doc.gov.np, where you search by PAN and click an \"Ecommerce Register\" button. Blanxer (Nepali storefront SaaS) has an E-commerce Compliance panel that puts the listing number and disclosures in the store footer, plus 8 policy templates; it tells merchants to register themselves. Law firms (Law Alpine, Niti Partners, nepallaws) and Merokalam offer registration guides and help. Pathao Commerce is a storefront, not a compliance tool. No dedicated listing or compliance-pack software for social-media-only sellers was found.",
+   "duty": "Electronic Commerce (E-Commerce) Act 2081 plus E-Commerce Directive 2082. Everyone selling goods or services online, Facebook/Instagram/TikTok sellers included according to KP 2025 and Hamro Patro, must list on the Department of Commerce, Supplies and Consumer Protection portal. Listing needs a registration certificate and PAN/VAT. Sellers must display their listing number, PAN, address and complaint contact on the platform (Section 4), and report changes within 7 days (nepallaws guide; the 48-hour figure in the claim was not confirmed). Renewal or annual reporting: not found. Fines as reported: Rs 5,000-20,000 administrative (KP Aug 2026), Rs 20,000-100,000 (nepallaws), up to Rs 200,000 (KP 2025). Serious offences: Rs 40k-500k and/or 6 months to 3 years in prison. Department notice of 18 Aug 2026 confirmed. Micro-enterprise exemption: mentioned in Nepali coverage, details not verified.",
+   "market": "KP 27 Aug 2026: 1,530 enterprises have applied since the law began and 345 are fully approved; the 18 Aug notice brought 80 new applications. In July 2025 only about 950 had registered by the deadline. Most applicants are clothing sellers and restaurant food delivery. The total number of informal social-media sellers is not quantified; it is probably tens of thousands, but no source was found.",
+   "reason": "The duty is real. Under the E-Commerce Act 2081 (Gazette 2081-12-03, in force April 2025) and Directive 2082, online sellers must list on the Department's free portal (online.doc.gov.np). They must display disclosures and report changes within 7 days. Reported fines vary: Rs 5k-20k, Rs 20k-100k, or up to Rs 200k. But listing is mostly a one-off, and the only recurring parts are updates. It also requires PAN and firm registration first. Blanxer already shows the disclosures in its footer and gives policy templates, and law firms sell registration help. The 1,530 applications against 345 approvals point to document trouble, which is a service niche. Micro social sellers probably won't pay much. Nothing found does the whole job as software. Pain is real but frequency and payment are low.",
+   "searches": 4,
+   "sources": "https://kathmandupost.com/money/2026/08/27/fast-delivery-changes-the-game-for-nepal-s-online-sellers ; https://kathmandupost.com/money/2025/07/20/unregistered-online-sellers-now-illegal-in-nepal-under-new-e-commerce-law ; https://nepallaws.com/electronic-commerce-e-commerce-act-2081-mandatory-registration-procedures/ ; https://ekantipur.com/business/2025/03/05/e-commerce-bill-passed-now-registration-is-mandatory-when-doing-online-business-42-04.html ; https://blanxer.com/resources/ecommerce-compliance ; https://blog.blanxer.com/blanxer-user-compliance-guideline-under-nepals-e-commerce-act-2081 ; https://www.hamropatro.com/en/news/detail/4639130139724541-running-an-online-business-in-nepal-registration-is-mandatory-unregistered ; https://lawalpine.com/blog/registration-of-e-commerce-business-in-nepal",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b72"
+ },
+ "sonnet:nepal:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: the Pesticides Management Act 2076 (2019) requires registration and licences for manufacture, import, sale, distribution and use. Licences are valid 3 years, so renewal is infrequent. The Madhesh province portal (palms.add.madhesh.gov.np) already offers online licence application and renewal. I found no private dealer software, no dealer count, and no confirmed sales-record duty or format. Weak pain and frequency, a low-income buyer base, and a state portal covering the licence part all argue for a low score. I did not check fertiliser rules or run a Nepali-language competitor search (the one Nepali query returned nothing useful).",
+   "searches": 2,
+   "sources": "https://leap.unep.org/en/countries/np/national-legislation/pesticides-management-act-2076-act-no-7-2019 ; https://palms.add.madhesh.gov.np/ ; https://lawcommission.gov.np/en/?cat=300",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b72"
+ },
+ "sonnet:nepal:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Regulation is real (Cabinet approved 31 Dec 2024, gazetted 23 Jan 2025, under the WASH Act 2023; 12 pilot providers, Secretary says amendable). I could not retrieve the text, so the reporting duties, frequency, forms and penalties are unconfirmed. No government reporting platform or competing software was found, but this was a thin search. The regulation links obligations to licensed providers, which are mostly utilities and user committees. Pilot scope is only 12, so near-term demand is tiny. Committees have low ability to pay, and the state will probably build its own system. Pain and frequency are unproven. The buyer base is large but scattered and poor.",
+   "searches": 3,
+   "sources": "https://unhabitat.org.np/featured_news_detail/wash-regulatory-operation-with-12-pilots ; https://www.unhabitat.org.np/uploads/publications/files/1738926747.CWISAN%20City%20SaniScope%20Newsletter%20(V2.I2).pdf",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b72"
+ },
+ "triage:nepal": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Small abattoirs and meat shops with a licence/inspection duty and dated enforcement; new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Vet clinics and agrovet shops with mandatory registration; in scope, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Pesticide dealers with licence and sales-record duty; new, verifiers to check."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Small NGOs and associations with annual renewal and audit duty; in scope, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Small water users committees and sludge plant operators with new regulation reporting; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Small driving schools with approval/renewal duty; new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small transport owners with emission-test and ticketing duties; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Households as employers, explicitly in scope; new."
+    },
+    {
+     "decision": "known",
+     "id": "A9",
+     "reason": "Same manpower-agency buyer and per-worker/complaint compliance duty as K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "known",
+     "id": "A10",
+     "reason": "Gold dealers, same buyer and counter compliance duty as K05.",
+     "ref": "K05"
+    },
+    {
+     "decision": "known",
+     "id": "A11",
+     "reason": "Licensed money changers, same buyer and duty as K06.",
+     "ref": "K06"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Small real estate firms with new DoLMA licence and AML deal reporting; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Small online sellers with mandatory listing under E-commerce Act and dated notice; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "LPG retail dealers with NOC buyer-record directive; new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small quarry and crusher operators with renewal and environmental file duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small exporters with phytosanitary and traceability duty; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Community forest user groups, community bodies with plan/audit/renewal duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Small millers and warehouses with DFTQC renewal duty; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Private schools and coaching centres with fee-cap compliance duty; unverified, keep."
+    },
+    {
+     "decision": "known",
+     "id": "B9",
+     "reason": "Private hospital HIB claims, same buyer and duty as K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "known",
+     "id": "B10",
+     "reason": "Manpower agency per-worker compliance, same as K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "known",
+     "id": "B11",
+     "reason": "Trekking agency permit packet, same buyer and duty as K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "known",
+     "id": "B12",
+     "reason": "Cooperative reporting, same as rejected K09; no new evidence to revive.",
+     "ref": "K09"
+    },
+    {
+     "decision": "known",
+     "id": "B13",
+     "reason": "Hotel/homestay FNMIS guest registration, same as rejected K13; no new evidence.",
+     "ref": "K13"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Ambulance owners and dispatch centres with directive duties; different buyer from other transport ideas."
+    }
+   ]
+  },
+  "tag": "w2b72"
  }
 }

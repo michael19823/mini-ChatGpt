@@ -292,5 +292,432 @@
    "searches": 19
   },
   "tag": "w2b61"
+ },
+ "discover:B:republic-of-the-congo": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Micro and small taxpayers (shops, wholesalers, service firms) and their accountants or bookkeepers in Brazzaville and Pointe-Noire",
+     "category": "31. Certified e-invoicing (SFEC) for very small and small taxpayers",
+     "evidence": "https://lookuptax.com/tax-changes/congo-brazzaville/sfec-golive-postponed-2026 ; https://fr.apanews.net/technologies/congo-le-systeme-de-facturation-electronique-certifiee-entre-en-vigueur-le-1er-aout/ ; https://www.vatupdate.com/2026/08/06/republic-of-the-congo-begins-phased-certified-e-invoicing-rollout/ . Dates conflict across sources (1 July vs 1 August) and the 1 Dec UTTPE date is unconfirmed.",
+     "existing": "The state E.Facture online platform is the temporary fallback; the four methods are e-Invoice, API, and TFC/TCC terminals. No local vendor found. Competitor search in French found only state and news pages.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Different buyer (micro and small firms, not oil suppliers and large firms) and a later deadline. K02 is the accountant VAT-check angle.",
+     "name": "SFEC onboarding for very small enterprises (UTTPE) and small taxpayers",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Decree 2026-101 of 31 March 2026; SFEC live 1 Aug 2026 for large, medium and oil-subcontractor units; UTTPE micro-enterprises reportedly due 1 Dec 2026 (secondary source). Finance Law 47-2024 reportedly: 50M FCFA fine and VAT disallowance on non-certified transactions.",
+     "unchecked": "Whether UTTPE is mandatory and the real date; whether E.Facture is free and sufficient; exemption list in article 29; whether the market is terminal hardware (TFC/TCC) rather than software; official DGID communiqué."
+    },
+    {
+     "buyer": "Small SARL and SA and their accountants, notaries or formalities agents",
+     "category": "32. Beneficial-ownership register for RCCM-registered companies (Law 43-2024)",
+     "evidence": "https://mercator.net/our-thinking/latest-news/republic-of-congo-new-ultimate-beneficial-owner-reporting-obligations/ ; https://www.labase-lextenso.fr/l-essentiel-droits-africains-des-affaires/2025-n2/congo-un-registre-pour-plus-de-transparence-sur-les-beneficiaires-effectifs-DAA202v7",
+     "existing": "No online platform and no vendor found; the filing seems to be paper at the registry. French-language competitor search found nothing.",
+     "known_mark": "new",
+     "name": "Beneficial-ownership register filing and update service for small companies",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Loi 43-2024, in force 19 Dec 2024: filing at the commercial court registry; existing entities by 19 June 2025; new entities within 1 month; changes within 30 days; fines reported 1.5M to 200M FCFA (secondary source).",
+     "unchecked": "Implementing decree; whether there is an online portal; enforcement; how many small firms filed; the one-off peak has passed, so recurring volume is low."
+    },
+    {
+     "buyer": "Temp agencies, subcontractors and service firms employing expatriates",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://fr.allafrica.com/stories/202605300040.html (seen only in search summary; not fetched)",
+     "existing": "None found.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Different buyer (companies and agencies) and a different duty from household CNSS. K05 and K08 are payroll, which is not this.",
+     "name": "Foreign-worker justification dossiers and ACPE validation for staffing agencies and subcontractors",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Employment ministry circular of 28 May 2026: any hiring, keeping or renewing of a foreign worker needs ACPE-validated proof that national skills are lacking; based on the amended 1975 Labour Code and ILO Convention 143.",
+     "unchecked": "Actual ACPE procedure and forms; fees; volume; whether this is mainly a large-firm issue (oil sector); circular text."
+    },
+    {
+     "buyer": "Local SME subcontractors and service firms in the oil and gas chain",
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "evidence": "https://fr.allafrica.com/stories/202403240167.html ; https://www.labase-lextenso.fr/l-essentiel-droits-africains-des-affaires/2020-n2/congo-reglementation-des-activites-dans-le-secteur-petrolier-DAA112v9 (via search summaries; not fetched)",
+     "existing": "None found.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Same oil-chain ecosystem as K01 but a different duty (registration and local-content reporting, not SFEC invoicing).",
+     "name": "Hydrocarbon subcontractor and service-provider registration and agrément file preparation",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Decrees 2019-342 and 2019-343 (subcontracting, local content, agrément); 2025 ministry campaign to register subcontracting and service firms; local-content framework law recommended March 2024 (adoption unconfirmed).",
+     "unchecked": "2025 registration platform and deadline; recurring local-content reports; buyer count; whether foreign-owned firms dominate."
+    },
+    {
+     "buyer": "Small private clinics, polyclinics, labs and maternity homes",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://fr.allafrica.com/stories/202406100721.html ; https://www.sgg.cg/textes-officiels/arretes/2025/congo-arrete-2025-2717.pdf ; https://fr.allafrica.com/stories/202504020101.html",
+     "existing": "None found for Congo.",
+     "known_mark": "new",
+     "name": "Private clinic agrément, district reporting and CAMU conventionnement pack",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Decree-based agrément regularisation campaign (June 2024 contracting workshop); arrêté 2025-2717 requires monthly, quarterly and annual reports to the district; CAMU (Law 12-2015) pilot in Brazzaville, Pointe-Noire and Oyo; Kobikisa subsidies conditional on compliance.",
+     "unchecked": "CAMU provider contracting and billing flow, tariffs and payment delays; whether district reports use fixed forms (DHIS2); how many clinics are formal; CAMU rollout beyond the pilot."
+    },
+    {
+     "buyer": "Road haulage firms and related transport professions with corporate status",
+     "category": "35. Road transport operators and related professions (agrément valid five years)",
+     "evidence": "https://fr.allafrica.com/stories/202510020453.html (page returned 403; seen only in a search result title and snippet)",
+     "existing": "None found.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Different buyer (haulers and bus firms, not moto-taxi associations) and a different duty; K10 (urban minibuses) was rejected.",
+     "name": "Road transporter agrément renewal tracker (five-year validity)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Oct 2025 ministry announcement: agrément valid five years; corporate holders must regularise with the Direction générale des transports terrestres.",
+     "unchecked": "Article text, deadline, number of operators, documents required, fees. Overlaps group A category 18, so left for that worker."
+    },
+    {
+     "buyer": "Sub-distributors, kiosks and agents of MTN and Airtel",
+     "category": "33. Mobile money agents, SIM distributors and payment aggregators (ARPCE/COBAC)",
+     "evidence": "https://cio-mag.com/congo-mise-en-demeure-des-societes-de-telephonie-mobile ; https://www.digitalbusiness.africa/congo-brazza-30-des-cartes-sim-des-operateurs-mtn-et-airtel-ne-sont-pas-bien-identifies-larpce-rappelle-a-lordre/",
+     "existing": "Operators run their own distributor systems.",
+     "known_mark": "new",
+     "name": "Mobile money and SIM distributor identification register",
+     "score": 2,
+     "status": "weak",
+     "trigger": "ARPCE identification rules (five SIMs per person) and warnings in 2021 and 2025; CEMAC payment services Regulation of 21 Dec 2018.",
+     "unchecked": "Agent-level duties and whether anything falls on the small agent rather than the operator."
+    },
+    {
+     "buyer": "Promoters of private schools and technical or professional training centres",
+     "category": "34. Private schools, training centres and higher-education institutions (agrément commissions)",
+     "evidence": "https://fr.allafrica.com/stories/202409130501.html ; https://fr.allafrica.com/stories/202512270187.html",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Private school and training-centre agrément dossier service",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Decree 96-221 of 1996; commissions meet in sessions (151 technical and professional dossiers at the 11th session, Sept 2024); fees set by arrêté.",
+     "unchecked": "Annual reporting after approval; number of promoters; whether it is a one-off dossier rather than a recurring duty."
+    },
+    {
+     "buyer": "Small hotels, guest houses and furnished rentals",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://liziba.cg/wp-content/uploads/2024/10/1.5-Decret-n°-2022-241-du-4-mai-2022-fixant-les-normes-de-classement-des-etablissements-dhebergement-touristique.pdf",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Tourism accommodation classification and compliance (hotels, maisons d'hôtes, meublés de tourisme)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Law 29-2021 (classification mandatory); decrees 2022-241 and 2022-242 of 4 May 2022.",
+     "unchecked": "No guest register or tourist-tax duty found; whether classification is enforced; number of establishments."
+    },
+    {
+     "buyer": "Cocoa and coffee traders, warehouse operators, exporters",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://fr.allafrica.com/stories/202406140833.html",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Cocoa and coffee warehousing, tierce détention and certification compliance",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Draft decrees and a regulator law discussed June 2024 (PARSA/AFD); adoption unconfirmed.",
+     "unchecked": "Adoption, scale of the sector, number of operators."
+    },
+    {
+     "buyer": "Independent station owners and LPG distributors and dealers",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.sgg.cg/textes-officiels/arretes/2025/congo-arrete-2025-1033.pdf",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Fuel station and LPG distributor agrément and safety file tracker",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Law 6-2001; decree 2002 on distribution conditions; LPG agrément for 10 years by arrêté under decree 2005-685 (arrêté 1033 of 12 May 2025).",
+     "unchecked": "Recurring reporting duties; number of independent stations; majors dominate distribution."
+    },
+    {
+     "buyer": "Artisanal sea fishers on the Atlantic coast",
+     "category": "38. Artisanal fishing and river craft",
+     "evidence": "https://www.sgg.cg/JO/2011/congo-jo-2011-18.pdf",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Artisanal fishing agrément and boat file",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law 2-2000 and 2011 decree: prior agrément and a boat and gear file; about 700 boats on the coast (2021).",
+     "unchecked": "Annual renewal, catch reporting, river fishing rules."
+    },
+    {
+     "buyer": "Pharmacies and pharmacists",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://liziba.cg/wp-content/uploads/2024/11/Arrete-n°26430-du-26-decembre-2022-determinant-les-criteres-dimplantation-des-officines-pharmaceutiques-en-Republique-du-Congo.pdf",
+     "existing": "UbiPharm Congo is a wholesale distributor, not a compliance tool.",
+     "known_mark": "new",
+     "name": "Pharmacy officine licensing and Ordre compliance",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Arrêté 26430 of 26 Dec 2022 (siting); Law 012-92 (Ordre registration).",
+     "unchecked": "Recurring reports to DPM; controlled-substance registers; narcotics inventory duties."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Law 6-2001 and decree 2002 govern distribution; LPG needs a 10-year agrément by arrêté (e.g. arrêté 1033 of 12 May 2025, Sino-Congolaise d'Investissement); station opening is decided by the hydrocarbons minister after an interministerial technical committee. Few licensed operators and no recurring small-firm filing found. No local software found.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "June 2024 workshop (PARSA/AFD) on draft cocoa and coffee decrees covering certification, warehousing and tierce détention, plus a regulator law. Adoption unconfirmed. Cassava programme (ProManioc, 2020) covers groups only. No miller reporting rule found. Tiny sector.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Nothing Congo-Brazzaville specific found; results were mostly DRC (COOPEC under BCC). The CEMAC/COBAC microfinance regime applies. Obligations for small MFIs and co-operatives could not be confirmed. Marked unverified, not rejected.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "CAMU (Law 12-2015) is in pilot in Brazzaville, Pointe-Noire and Oyo; biometric cards issued in 2025. Private clinics are over half of care supply and are being pushed to regularise agrément (June 2024 contracting workshop, Kobikisa subsidies). Arrêté 2025-2717 requires a clinic to send monthly, quarterly and annual reports to its district. CAMU billing and conventionnement rules not found.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Officine siting is set by arrêté 26430 of 26 Dec 2022 (1 officine per 10,000 in large cities); Ordre registration under Law 012-92. The illicit trade is about 28% of supply (ENACT, 2025). No 2025 DPM wholesaler or importer rule found. Nothing clear for software.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Circular of 28 May 2026 from the employment minister: hiring or renewing a foreign worker needs ACPE-validated proof that national skills are absent. It names subcontractors, service providers and temp agencies. No private-security (gardiennage) licensing text found.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Oil-sector subcontracting decrees 2019-342 and 2019-343 (local content, agrément). Hydrocarbons ministry launched a registration campaign for subcontractors and service firms in 2025. A hydrocarbons local-content framework law was recommended in March 2024; adoption unconfirmed. Nothing found for BTP or quarries. Close to K01.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "CEMAC AML regulation covers notaries and real-estate agents, who must report to the ANIF. No Congo-specific procedure or enforcement found. The beneficial-ownership register (Law 43-2024) was found and is listed as a candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Tourism Law 29-2021 makes classification mandatory. Decrees 2022-241 and 2022-242 (4 May 2022) set classification norms, covering hotels, maisons d'hôtes, lodges and meublés de tourisme. No Congolese guest register (fiche de police) or tourist-tax rule found.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Timber is already covered by SIVL (K06). Cocoa and coffee are in draft regulation (see 22). Artisanal sea fishing needs an agrément and a decree-2011 file; about 700 artisanal boats on the coast (2021). No export-certification burden found for small firms.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Certified e-invoicing (SFEC) for very small and small taxpayers",
+     "found": "Decree 2026-101 of 31 March 2026. Go-live was 1 August 2026 for UGE, UME and USTPG and their suppliers. One secondary source gives 1 December 2026 for UTTPE micro-enterprises. Finance Law 47-2024 reportedly sets a 50M FCFA fine and VAT disallowance. A free E.Facture platform is the fallback. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Beneficial-ownership register for RCCM-registered companies (Law 43-2024)",
+     "found": "Law 43-2024 in force 19 Dec 2024. Existing entities had until 19 June 2025; new entities have one month; changes within 30 days. Fines of 1.5M to 200M FCFA reported (Mercator, secondary). Filing is at the commercial court registry, apparently on paper. No implementing decree or online platform found.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Mobile money agents, SIM distributors and payment aggregators (ARPCE/COBAC)",
+     "found": "MTN Mobile Money Congo SA got the first payment-institution licence (May 2022). ARPCE found 30% of SIMs in Brazzaville badly identified and 100% unidentified in Pointe-Noire and Dolisie (2021), with renewed warnings in 2025. Agent-level rules were not found. Operators control the distributor networks.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Private schools, training centres and higher-education institutions (agrément commissions)",
+     "found": "Decree 96-221 of 1996 and 2008 approval commissions. 151 technical and professional dossiers at the 11th session (Sept 2024); 29 of 33 higher-education dossiers got a favourable opinion (Dec 2025). Fees are set by arrêté (2019). Promoters are reported not to follow the texts.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Road transport operators and related professions (agrément valid five years)",
+     "found": "Oct 2025 announcement: agrément for road transporters and related professions is valid five years, and corporate holders must regularise with the Direction générale des transports terrestres. The article page returned 403 and was not read. Overlaps group A category 18.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Freight forwarders, customs agents, travel agencies and auxiliary transport professions",
+     "found": "Agréments are issued by arrêté (e.g. auxiliaire transitaire, arrêté 10407 of 2023, under CEMAC rules). No 2025 list or recurring filing found. The customs side is already covered by GUOT and SYDONIA (K07).",
+     "status": "screened"
+    },
+    {
+     "category": "37. Bars, restaurants and drinking places (débits de boissons)",
+     "found": "No Congo text found on licences or patente for bars. Only a press article on noise nuisance from small bars (ngandas).",
+     "status": "screened"
+    },
+    {
+     "category": "38. Artisanal fishing and river craft",
+     "found": "Law 2-2000 and 2011 decrees require an agrément and a boat file for artisanal sea fishing. River craft registration was not found. Weak.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "Congo Brazzaville stations-service distributeurs hydrocarbures agrément déclaration ministère des hydrocarbures GPL",
+    "Congo Brazzaville coopératives COOPEC microfinance agrément COBAC déclaration rapports périodiques",
+    "Congo Brazzaville cliniques privées assurance maladie universelle CAMU prestataires facturation conventionnement",
+    "Congo Brazzaville pharmacies ordre des pharmaciens grossistes importateurs médicaments autorisation DPM 2025",
+    "Congo Brazzaville hôtels établissements d'hébergement fiche de police registre taxe de séjour classement tourisme décret",
+    "Congo Brazzaville agents immobiliers notaires blanchiment ANIF déclaration de soupçon professions non financières",
+    "Congo Brazzaville contenu local sous-traitants PME agrément répertoire fournisseurs loi 2024 2025 BTP carrières",
+    "Congo Brazzaville sociétés de gardiennage sécurité privée agrément agences de placement main-d'oeuvre étrangère quota",
+    "Congo Brazzaville café cacao exportateurs agrément commerçants filière manioc minoteries 2025",
+    "Congo Brazzaville mobile money agents distributeurs agrément Airtel MTN ARPCE KYC",
+    "Congo Brazzaville écoles privées établissements d'enseignement privé agrément 2025",
+    "Congo Brazzaville débits de boissons licence bars restaurants autorisation d'ouverture patente",
+    "Congo Brazzaville facture normalisée machine de facturation certifiée DGI 2026",
+    "Congo Brazzaville bénéficiaires effectifs registre déclaration obligatoire RCCM 2025 2026",
+    "Congo Brazzaville pêche artisanale licence pêcheurs embarcations transport fluvial agrément",
+    "Congo Brazzaville agences de voyage transitaires commissionnaires en douane agrément 2025",
+    "SFEC Congo DGID calendrier déploiement petites entreprises phase E.Facture",
+    "registre des bénéficiaires effectifs Congo greffe tribunal de commerce déclaration plateforme en ligne"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b61"
+ },
+ "triage:republic-of-the-congo": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Borehole owners (farms, hotels, bottlers) face recurring permit renewal and abstraction-fee duty to water regulator; new duty, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Small operators with pressure vessels must arrange periodic inspection; new duty and buyer, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Foreign-worker ACPE validation for small employers is a new duty distinct from K05 payroll and K04 household CNSS; related K05."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Crèches and orphanages need legally required approval; small licensed premises, new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Driving schools hold approval and registers; small firms, new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Market associations and traders pay daily levies and face census; new buyer and duty, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Pre-collection waste operators need mairie authorisation and service logs; small firms, new duty."
+    },
+    {
+     "decision": "known",
+     "id": "A8",
+     "reason": "Moto-taxi riders and associations with the same compliance duty as K03; no new evidence of different duty.",
+     "ref": "K03"
+    },
+    {
+     "decision": "known",
+     "id": "A9",
+     "reason": "Household employers CNSS declaration is identical buyer and duty to K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "known",
+     "id": "A10",
+     "reason": "Bureaux de change licence reporting is the same buyer and duty as rejected K09, with no new evidence to revive.",
+     "ref": "K09"
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Gold and diamond comptoirs face licensing and Kimberley traceability; new buyer group, unverified but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Agro-input dealers licence and conformity duty; new, small firms, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Scrap dealers; duty unknown but unchecked, so unverified rather than rejected; when unsure keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Micro and small taxpayers with a later SFEC deadline are a different buyer from K01 (oil suppliers and large firms); related K01, K02."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Beneficial-ownership filing for small companies under Law 43-2024 is a new recurring duty on small SARLs."
+    },
+    {
+     "decision": "merge",
+     "id": "B3",
+     "reason": "Same buyer group (agencies and small firms employing foreigners) and same ACPE foreign-worker validation duty as A3.",
+     "ref": "A3"
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Local SME subcontractor registration and local-content reporting is a different duty from K01 SFEC invoicing; related K01."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small private clinics owe agrément and district reporting; small professional offices, new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Road haulage firms five-year agrément renewal is a different buyer from moto-taxi K03 and from rejected K10 minibuses; related K03."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Mobile money and SIM sub-distributors face identification register duty; small agents, new."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Private school and training promoters need agrément dossiers; small bodies, new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small hotels and guest houses face mandatory classification; new duty, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Cocoa and coffee traders and warehouses; rules unconfirmed so unverified, not droppable; keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Independent fuel stations and LPG dealers have agrément and safety obligations; small firms, new."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Artisanal fishers need agrément and boat file; small sole traders, new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Pharmacies are small professional offices with licensing and Ordre duty; new, in scope."
+    }
+   ]
+  },
+  "tag": "w2b61"
  }
 }

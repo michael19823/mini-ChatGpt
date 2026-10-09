@@ -2204,6 +2204,30 @@
    "merge": 3
   }
  },
+ "mauritania": {
+  "batch": "w2b59",
+  "candidates": 22,
+  "checks": {
+   "opus": 0,
+   "sonnet": 5,
+   "unverifiedByCap": []
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "refuted": 1,
+   "unverifiable": 4
+  },
+  "gaps": 4,
+  "id": "mauritania",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "drop": 2,
+   "keep": 18,
+   "merge": 1
+  }
+ },
  "mauritius": {
   "batch": "w2b40",
   "candidates": 29,
@@ -2327,6 +2351,73 @@
    "keep": 37,
    "known": 3,
    "merge": 1
+  }
+ },
+ "moldova": {
+  "batch": "w2b59",
+  "candidates": 27,
+  "checks": {
+   "opus": 3,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "A6 End-of-life vehicle dismantler records and EPR reporting",
+    "A7 Water abstraction register and annual water-use report (1-gospodărirea apelor) plus well closure duties",
+    "A8 Small water-operator licence reporting (ANRE Instruction 564/2020) and tariff justification",
+    "B2 Small winemaker declarations desk (harvest, production, stocks, input-output register)"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 4,
+   "refuted_on_challenge": 1,
+   "unverifiable": 4
+  },
+  "gaps": 0,
+  "id": "moldova",
+  "leads": [
+   {
+    "challenge": "refuted 2",
+    "final": "refuted_on_challenge",
+    "id": "A2",
+    "mark": "new",
+    "name": "Plant-protection treatment register for farms and spraying service providers (HG 451/2025 format)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 24,
+   "known": 2
+  }
+ },
+ "mongolia": {
+  "batch": "w2b59",
+  "candidates": 30,
+  "checks": {
+   "opus": 0,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "GAPS2 Pharmacy controlled-drug dispensing register and e-prescription reconciliation"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "unverifiable": 6
+  },
+  "gaps": 4,
+  "id": "mongolia",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "drop": 3,
+   "keep": 16,
+   "known": 6,
+   "merge": 4
   }
  },
  "netherlands": {

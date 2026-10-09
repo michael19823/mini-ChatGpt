@@ -589,5 +589,161 @@
    "searches": 17
   },
   "tag": "w2b45"
+ },
+ "opus:croatia:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The Ministry runs the database itself and issues access credentials (Art. 78(7),(10)), so a free state entry interface is likely. Its exact form (web form or API) was not found: the Ministry's instructions are not yet published. No Croatian vet practice-management software was found. Searches only turned up Anolla (a booking tool with treatment history) and foreign products (VetSet, Veti, ezyVet). None of them advertise integration with the Croatian database. Existing local vendors and any API are not verified.",
+   "duty": "Confirmed in force. Zakon o veterinarskim lijekovima i veterinarskim medicinskim proizvodima, NN 69/2026, applies from 29 July 2026. Under Article 78(9), veterinarians must enter vaccination and treatment data into the Ministry's Nacionalna elektronička baza podataka za primjenu veterinarskih lijekova \"u skladu s uputom Ministarstva\". Point 1 (food-producing animals) takes effect 1.1.2027 and point 2 (non-food animals) 1.1.2029, per the transitional provisions. Wholesalers must record batch and expiry before a product goes on the market. Foreign vets need Ministry credentials. Entry is per treatment, so it is continuous. The fine for not entering data was not read: the penalty articles were not in the fetched text. The zakon.hr summary gives general fines for legal persons of EUR 10k-50k by severity.",
+   "market": "Not found. No count from a register or statistic was reached. Companywall shows many registered \"veterinarska ambulanta/stanica\" companies (NKD 75.00), but no total was found. The 2027 wave covers only vets treating food-producing animals. Not reached: an HVK member register or a DZS count for NKD 75.00.",
+   "reason": "The duty is real. Article 78(9) of NN 69/2026 makes vets enter vaccination and treatment records in the Ministry's national e-database, following Ministry instructions. This applies to food-producing animals from 1.1.2027 and to non-food animals from 1.1.2029. The State Inspectorate supervises it (Art. 7). No Croatian product was found that does this job. But the database is run by the Ministry, which hands out access credentials, so the state probably provides its own entry screen. Whether there is an API is unknown. That leaves only a 'double-entry avoidance' add-on, which depends on an interface that may not exist. The fine for non-entry was not read, and the number of practices was not found. Croatia's market is small, and the Ministry's instructions have not been published yet.",
+   "searches": 6,
+   "sources": "https://www.zakon.hr/c/vijest/1058125/novi-zakon-o-veterinarskim-lijekovima-i-veterinarskim-medicinskim-proizvodima-%E2%80%93-stroza-pravila-za-antibiotike-i-uredena-internetska-prodaja ; https://informator.hr/zakoni/1477056-zakon-o-veterinarskim-lijekovima-i-veterinarskim-medicinskim-proizvodima ; https://www.tportal.hr/vijesti/clanak/stizu-nova-pravila-za-veterinarske-lijekove-veci-nadzor-manje-zlouporaba-antibiotika-20260618 ; https://anolla.com/hr/softver-za-veterinare",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b49"
+ },
+ "opus:croatia:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Six searches in Croatian and English found no named Croatian building-management or pričuva software. Results were law texts, DGU guidance, RRiF accounting articles, and unrelated tools: PlanRadar, Anolla, Schneider BMS, and BESTenergIS in Serbia. Vendors almost certainly exist, since managers have run pričuva bookkeeping for decades, but none were named in these results, so competition is unverified, not ruled out. The state side is DGU's OSS/ZIS portal, a free tool for entering register data; whether it accepts bulk import was not checked.",
+   "duty": "Confirmed in force: ZUOZ NN 152/24 (ispravak NN 47/26).\n- Art. 61: new međuvlasnički ugovori and ugovori o upravljanju must be concluded within 2 years of entry into force, i.e. by 1.1.2027. Old contracts lapse then.\n- Art. 60: registers set up within 6 months of entry into force.\n- Art. 66: existing managers apply for RUZ/RZS within 6 months of the registers being set up (about 31.12.2025).\n- Art. 10(3), 10(6), 12(3), 12(4): changes to register data within 15 or 8 days; register entry within 90 days of taking over a building.\n- Art. 52: keep owner records up to date; annual report with itemised pričuva by February; annual programme by 15 Nov; multi-year programme by 31 Dec.\n- Art. 29: minimum pričuva of 0.54% of the etalonska cijena per m2 per year.\n- Art. 30: mandatory insurance of common parts.\n- Art. 57: fines for an upravitelj legal entity €700 to €5,500, an individual €350 to €2,750, a responsible person €100 to €1,000, after a written warning from the komunalni redar.\n- Art. 58: co-owners €1,000 to €10,000.\nFiling is electronic only, via ZIS/OSS at DGU. Bulk upload was not verified: the DGU FAQ PDF could not be read.",
+   "market": "Not found. DGU publishes no count of RUZ-registered upravitelji or RZS communities. Registry numbers run sequentially (RUZ1..n), but no total was found. Buildings number in the tens of thousands, but the buyers are a limited, concentrated set of management firms. That size is an estimate; no count was found.",
+   "reason": "The duty is real. Zakon o upravljanju i održavanju zgrada (NN 152/24, corrected NN 47/26, in force since 1.1.2025) requires new co-owner and management contracts by 1.1.2027 (Art. 61), RZS/RUZ entry and updates within 8 to 15 days, and annual pričuva reports by February. Managers face fines of €700 to €5,500 after a written warning. But the register job was mostly one-off: the entry deadline passed around 31.12.2025, and the contract deadline is also one-off. The recurring part is general pričuva bookkeeping, which established Croatian manager packages probably already cover. Six searches found no named vendor, but they don't rule vendors out. The number of upravitelji isn't published. The firms are already consolidated, so the buyer pool is small and distribution is narrow.",
+   "searches": 6,
+   "sources": "https://www.zakon.hr/z/3880/zakon-o-upravljanju-i-odrzavanju-zgrada ; https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2502.html ; https://www.teb.hr/novosti/2024/zakon-o-upravljanju-i-odrzavanju-zgrada-nar-nov-br-15224/ ; https://dgu.gov.hr/UserDocsImages/dokumenti/Pristup informacijama/Zakoni i ostali propisi/Upute/UPUTA_RZS (OSS)_UPRAVITELJI.pdf ; https://www.zakon.hr/c/podzakonski-propis/541016/nn-86-2025-%284.6.2025.%29%2C-pravilnik-o-sadrzaju-i-nacinu-vodenja-registra-upravitelja-zgrada ; https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_86_1178.html ; https://informator.hr/vijesti/u-sabor-upucen-konacni-prijedlog-izmjena-zakona-o-upravljanju-zgradama ; https://www.rrif.hr/clanak-10352/",
+   "suggested_score": 4,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b49"
+ },
+ "triage:croatia": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New: vet practices' treatment e-recording under new law; K02 is farm spray diary, different group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "New: taxi operators under 2026 amendments; no known idea."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "New: exchange offices' certified programme and HNB reporting; in scope as small craft firms."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Different buyer (retail scrap buyers) and duty (Očevidnik trgovaca otpadom) than K01 carriers/producers; related K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Small associations' annual filings are in scope; no known idea."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Cemetery managers' record duty; small municipal utilities, no known idea."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Lift owners/building managers' inspection duty; no known idea."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Driving schools' records and reporting duty; small licensed premises, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Nanny businesses and employing families under Zakon o dadiljama; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Vet pharmacies' online-sale register duty differs from A1 recording duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Co-owner communities and building managers' register duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Winery declarations and cellar records differ from K02 spray diary in duty; related K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Employers of third-country workers, permits and conditions; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Charter operators' eCrew filing: different buyer and duty than K07 eVisitor hosts; related K07.",
+     "ref": "K07"
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small wood traders' EUDR deadline-driven duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Fuel station annual BP1 report; small station owners in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Co-operatives' annual filing duty; new."
+    },
+    {
+     "decision": "known",
+     "id": "B9",
+     "reason": "eVisitor for private accommodation hosts is the same buyer and duty as K07.",
+     "ref": "K07"
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS1",
+     "reason": "Same buyer (small employers of third-country workers) and core duty (permit compliance) as B3.",
+     "ref": "B3"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Own-water-system monitoring for small premises and suppliers; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Volunteer-run local waterworks are a distinct buyer group from GAPS2 premises; related to GAPS2."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Temporary-work agencies' statistics and registry duty differs from B3 permits duty."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS5",
+     "reason": "Small waste carriers' record duty; same buyer group and core duty as K01.",
+     "ref": "K01"
+    }
+   ]
+  },
+  "tag": "w2b49"
  }
 }

@@ -553,5 +553,344 @@
    "searches": 18
   },
   "tag": "w2b49"
+ },
+ "gapfill:serbia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small road carriers, taxi and bus operators, and businesses (including entrepreneurs) that claim fuel excise refunds; accountants who file for them",
+     "category": "34. Excise goods traders (also touches 18. Transport operators)",
+     "evidence": "https://biznis.rs/vesti/srbija/nova-pravila-za-refakciju-akcize-na-gorivo-od-1-oktobra/ ; https://biznis.rs/vesti/povecanje-iznosa-refakcije-akcize-za-transportne-svrhe/ ; https://biznis.kurir.rs/novcanik/9509309/veci-povracaj-za-prevoznike-posle-izmene-zakona-o-akcizama",
+     "existing": "Competitor search 'refakcija akcize REF-T prevoznici knjigovodstvena agencija program' found no software and no named agency product, only the official portal and news. Farmers have a separate state e-Agrar flow, which is out of scope.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Same cockpit-for-accountants angle as K02, but the buyer is carriers and the duty is the excise refund, not SEF or eBolovanje.",
+     "name": "Excise refund (refakcija) claim pack for small carriers, taxi operators and businesses heating premises",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Pravilnik on excise refund, new forms REF-T (quarterly, filed at least 20 days after quarter-end) and REF-G (monthly) from 1 Oct 2025. Old-form claims are rejected. Claims go only through the Tax Administration portal for legal entities and carriers. The Tax Administration registers the claimant on the first claim and decides within 30 days. Refunds are capped at 5% above the prior-year average consumption unless justified. Needs fiscal receipts or invoices showing excise and buyer data, consumption reports, licences and vehicle documents. Transport refund rate reportedly rose to 34.56 din/l from 1 Jul 2025 (unverified).",
+     "unchecked": "Number of eligible small carriers and taxi operators; whether the portal pre-fills data; whether accountants already handle it as a routine service; the current refund rate per litre; willingness to pay; whether the fiscal-receipt and e-otpremnica match could be automated."
+    },
+    {
+     "buyer": "About 60 craft breweries and other small alcohol producers who are excise obliged persons and buy control stamps",
+     "category": "34. Excise goods traders",
+     "evidence": "https://www.pravniportal.com/?p=40532 ; https://www.agronews.rs/kako-su-male-pivare-postale-hit-u-srbiji/ ; https://www.agronews.rs/propisi-blokirali-prodaju-rakije/",
+     "existing": "The e-akciza system is designed to auto-fill the quarterly reports from the stamp records, so the state tool covers most of the job. No third-party software found.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Related to the distillery compliance book K04 but a different buyer group (breweries) and a different duty (stamp ledger, not the kazan register).",
+     "name": "Control-stamp ledger and quarterly report for craft breweries and small alcohol producers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Excise Law and the Uredba on control excise stamps (Sep 2024) require producers to record used, unused and damaged stamps and file quarterly reports. Twice-monthly excise returns apply from 1 Jan 2026. Beer is stamped.",
+     "unchecked": "Whether e-akciza really replaces manual ledgers in practice; the real count of breweries; whether the tax return step is the pain."
+    },
+    {
+     "buyer": "Traders at market stalls (pijacne tezge) who buy and resell goods",
+     "category": "33. Retail fiscalisation changes",
+     "evidence": "https://biznis.rs/vesti/srbija/fiskalne-kase-na-tezgama-tek-od-2027-godine/ ; https://www.021.rs/info/biznis-i-ekonomija/395979/prodavci-na-pijaci-bez-fiskalnih-kasa-i-tokom-2025-godine-ponovo-pomeren-rok",
+     "existing": "Fiscal-device vendors and the state subsidy scheme; the deadline has been postponed repeatedly since 2022, so urgency is low. No competitor search run (score under 3 for status).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known id (K13 and K14 are other market-adjacent ideas).",
+     "name": "Market-stall fiscalisation switchover pack for stall traders",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Exemption in the Decree on activities without the duty to record retail sales through an electronic fiscal device runs only to 31 Dec 2026. Biznis.rs says it is unclear whether the duty starts in 2027 or a new model follows. Farmers selling their own produce are not obliged.",
+     "unchecked": "What replaces the exemption after 31 Dec 2026; whether stall-sized mobile fiscal solutions exist; the vendor field; stall traders are hard to reach and pay little."
+    },
+    {
+     "buyer": "Tobacco wholesalers and licensed retailers (kiosks, small shops) on the Uprava za duvan lists",
+     "category": "34. Excise goods traders",
+     "evidence": "https://www.pravniportal.com/?p=40532 ; https://biznis.rs/novac/vlada-srbije-usvojila-predlog-zakona-o-unapredjenju-sistema-e-akciza/ ; https://sanitarnaapv.vojvodina.gov.rs/7-2-zakon-o-duvanu",
+     "existing": "Not checked. Large distributors presumably have ERP and track-and-trace add-ons.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Adjacent to the e-Otpremnica exception queue K01 (excise-goods movement from 2026).",
+     "name": "Tobacco wholesaler and retailer record-keeping and chain-scanning helper",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Law on Tobacco and the Uprava za duvan rulebook on content and keeping of records (manufacturers, wholesalers, retailers; amended 2024). The Excise Law amendments add aggregate-code scanning at dispatch and receipt in the cigarette chain; retail intake is excluded from scanning.",
+     "unchecked": "Which retail records are actually required and how often; whether the scanning duty reaches small wholesalers; tool availability."
+    },
+    {
+     "buyer": "Local communities, citizen associations and small municipal utilities that run village waterworks",
+     "category": "13. Small water systems",
+     "evidence": "https://www.agronews.rs/bakterije-u-trecini-vodovoda-u-seoskim-sredinama/ ; https://www.slobodnaevropa.org/a/kvalitet-vode-za-pice-srbija/33093124.html ; https://vreme.com/mozaik/srbija-medju-vodama/",
+     "existing": "None found; searches returned only Croatian and Montenegrin material and tender notices for lab analysis.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Rural waterworks operator pack (sampling calendar, results register, cost recovery)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Drinking-water rulebook (Sl. glasnik RS 28/2019) covers supply above 5 households or 20 residents, but monitoring of small systems is irregular and ownership is often unresolved. No new transposition deadline was found.",
+     "unchecked": "Whether any legal duty falls on a named small operator; the number of operators and their budgets; whether a water-safety-plan law is coming."
+    },
+    {
+     "buyer": "Caterers, small shops and event venues",
+     "category": "33. Retail fiscalisation changes",
+     "evidence": "https://kpmg.com/rs/sr/analize-i-istrazivanja/poreske-vesti/2026/09/usvojene-su-izmene-i-dopune-zakona-o-fiskalizaciji.html",
+     "existing": "Fiscal-device vendors; a ban on fake QR codes mainly hits fraud, not honest small firms, so the demand for a checker is doubtful.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Fiscal-receipt QR compliance check for caterers and event venues",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law on Fiscalisation amendment (Sl. glasnik RS 80/2026, in force 8 Sep 2026): immediate one-year ban on trading when a receipt carries a QR code not generated by the Tax Administration system or pointing to an unrelated receipt.",
+     "unchecked": "Whether honest users face real risk; any official verification app."
+    },
+    {
+     "buyer": "Buyers, suppliers and carriers of excise goods, even outside VAT",
+     "category": "34. Excise goods traders",
+     "evidence": "https://biznis.rs/vesti/srbija/e-otpremnice-morace-da-koriste-svi-koji-ucestvuju-u-prometu-akciznih-proizvoda/",
+     "existing": "See K01, K09, K10.",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Same duty and buyer group as K01, K09 and K10; no new searches spent.",
+     "name": "E-otpremnice for excise-goods movement (from 1 Jan 2026)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Law on E-dispatch notes: excise-goods movement from 1 Jan 2026, all private trade from 1 Oct 2027.",
+     "unchecked": "Nothing further."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "13. Small water systems",
+     "found": "Thin Serbian sourcing. Rural waterworks (seoski vodovodi) are lightly controlled: about 1,263 are described as 'under some or no control', Batut found E. coli in 33% of samples from small waterworks and wells, and about 30% of rural systems need priority repair (agronews.rs, kurir.rs, slobodnaevropa.org via search snippets). Ownership of many rural systems is unresolved, so there is no clear buyer. The drinking-water rulebook (Sl. glasnik RS 28/2019) defines public supply as more than 5 households or 20 residents. No Serbian law on water for human consumption or EU 2020/2184 transposition with a deadline was found. Sampling goes to public-health institutes and is paid through public tenders. Low willingness to pay and no clear legal duty on a defined small operator, so only a weak candidate. Unchecked: who legally operates rural systems (municipal utility, local community, citizen association) and the current Law on Waters and Law on Communal Activities provisions.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Retail fiscalisation and e-fiscalisation changes (small shops, caterers)",
+     "found": "E-fiscalisation has applied since 2022. Market-stall vendors are exempt only until 31 Dec 2026 (Decree on activities without the duty to record retail sales through a fiscal device, amended Dec 2025; biznis.rs 8 Dec 2025). The next step is unclear: the article said it 'remains to be seen' whether this is a new model or an obligation from 2027. Amendments to the Law on Fiscalisation (Sl. glasnik RS 80/2026, in force 8 Sep 2026) extend the one-year ban on trading to cases where the QR code on a receipt was not generated by the Tax Administration's system or points to an unrelated receipt, with immediate imposition, including at event venues (KPMG Serbia). Fiscal-device and POS vendors, plus the state subsidy for devices, already cover the core job. Candidate: a market-stall switchover pack. Unchecked: the post-2026 model for stalls, and the vendor field for stall-sized fiscal devices.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Excise goods traders (tobacco, alcohol, fuel excise warehouses)",
+     "found": "The e-akciza system (Law on Excise as amended, Uredba of 28 Sep 2024) puts requests for control stamps and excise-warehouse permits online, and obliged persons record used, unused and damaged stamps so that quarterly reports to the Ministry of Finance are auto-filled (pravniportal.com). Excise returns are filed twice a month from 1 Jan 2026. Tobacco and non-combustible tobacco are to be tracked through the whole chain by aggregate GS1 codes scanned at dispatch and receipt (not at retail intake). Excise on e-cigarette liquids and CNG is new. E-otpremnice for excise-goods movement apply from 1 Jan 2026 and for all private trade from 1 Oct 2027; this is covered by K01, K09 and K10. Fuel excise refund (refakcija): new REF-T and REF-G forms from 1 Oct 2025, claimed on the Tax Administration portal; see the candidates. Tobacco wholesalers and retailers keep records under a Uprava za duvan rulebook; contents and any annual report not confirmed. Fuel excise warehouse operators and small fuel distributors were not covered by any source found. Unchecked: the excise-warehouse permit rules for fuel and the vendor field for tobacco chain scanning.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "mali vodovodi seoski vodovod zakon o vodama monitoring kvaliteta vode obaveze 2025",
+    "fiskalizacija nova pravila ugostitelji mali trgovci e-fiskalizacija Srbija 2026",
+    "akcizni skladištar akcizne marke duvan alkohol evidencija Zakon o akcizama 2026 izmene",
+    "pijačni prodavci fiskalizacija 1. januar 2026 rok pomeren tezge",
+    "e-akcize sistem Srbija akcizni obveznici evidencija uvoznika alkoholnih pića i kafe",
+    "seoski vodovodi Srbija mesne zajednice udruženje korisnika evidencija analiza vode",
+    "povraćaj akcize na gorivo prevoznici zahtev refakcija 2026",
+    "zbirni kod cigarete trgovci na veliko skeniranje e-akcize 2026",
+    "vodovod seoski preduzeće za vodosnabdevanje dozvola plan zaštite izvorišta softver naplata",
+    "Srbija zakon o vodi za ljudsku potrošnju direktiva 2020/2184 plan bezbednosti vode mali vodovodi",
+    "Uprava za duvan registar trgovaca na malo duvanskim proizvodima evidencija pravilnik",
+    "refakcija akcize REF-T prevoznici knjigovodstvena agencija usluga program",
+    "mikropivare zanatsko pivo Srbija akciza akcizno skladište kontrolne markice",
+    "seoski vodovod Srbija ko upravlja udruženja građana Batut kontrola kvaliteta",
+    "izmene Zakona o fiskalizaciji 2026 Srbija novi fiskalni model pijace ugostitelji",
+    "akcizni obveznici gorivo skladište derivata nafte trgovci na veliko e-akcize 2026",
+    "kontrolne akcizne markice evidencija kvartalni izveštaj pivara destilerija program softver e-akcize",
+    "(fetches) biznis.rs stalls 2027, e-otpremnice excise, e-akciza law, refakcija rules, slobodnaevropa water, KPMG fiscalisation amendment"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b56"
+ },
+ "sonnet:serbia:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty looks real but is only partly confirmed. Search snippets say guards must file for relicensing at the police administration of their residence, at the earliest 60 days before the 5-year licence expires. They also say the licence is issued on personal request. I could not open the law or the amendment (the PDF fetch returned 403), so I can't confirm the current text, fees or penalties. The amendment's adoption is unconfirmed. The 45,000 licence figure is old, and I found no current count. The core job is a date reminder, since each guard files personally and the state issues the licence. No dedicated competitor turned up, but my Serbian search was thin and general HR or Excel tools cover it. Buyers are many tiny agencies and individual guards, so willingness to pay is low. The 2021-22 renewal peak has passed.",
+   "searches": 3,
+   "sources": "https://www.novosti.rs/drustvo/vesti/1022400/cuvari-ponovo-proveri-ove-sledece-godine-isticu-prve-dozvole-rad-pripadnika-privatnog-obezbedjenja ; https://otvoreniparlament.rs/uploads/akta/Zakon o izmenama i dopunama Zakona o privatnom obezbeđenju.pdf ; https://www.danas.rs/vesti/drustvo/pks-bez-licence-nema-obezbedjenja/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b56"
+ },
+ "sonnet:serbia:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Serbia has a real duty: growers with at least 0.1 ha (10 ari) who sell grapes must register in the Vineyard Register, and wine producers must register in the Winery Register. Registration can be done at any time. A FAOLEX legal text (via search summary only, not opened) gives an annual production declaration by 10 November, not 31 December, so the claim's trigger looks wrong (the 31 Dec date is Croatian). No penalty found. Registration is tied to subsidies, so it is a one-off entry, not a recurring workflow. A new Wine Law is only a draft (consultation ended 6 June 2026, applies from August 2027) and plans a central e-register. No competitor or e-service found, but the official page returned 503. Market size not found. Weak recurring pain, so a low score.",
+   "searches": 2,
+   "sources": "https://www.021.rs/info/biznis-i-ekonomija/264472/vinogradari-moraju-da-se-upisu-u-registar ; https://www.agronews.rs/novi-zakon-o-vinu-mali-vinari-dobijaju-jasnija-pravila-drzava-uvodi-strozu-kontrolu-porekla-vina/ ; https://faolex.fao.org/docs/pdf/srb153782.pdf ; https://biznis.rs/biznis/podsticajne-mere-za-vinogradare-uslovljene-upisom-u-registar/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b56"
+ },
+ "triage:serbia": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Lift owners (building managers, housing communities) have a recurring inspection duty; new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Registered precious-metal buyers have a mandatory purchase-record duty; small firms in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Small taxi and minibus operators face licence and driver-approval duties under a new law."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Market-stall vendors face a fiscalisation deadline; one-off duty hitting many small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "End-of-life vehicle dismantlers are a different buyer group and duty (certificate of destruction) from K06 waste-movement documents; related K06."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Small associations and co-operatives have a beneficial-owner filing duty; in scope, needs verification."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Private kindergartens have a mandatory enrolment register and reporting duty; small licensed premises."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Small septic haulers face local licensing and contract duties; weak but unchecked, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small dealers and applicators may face spraying-record duties; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Funeral firms and cemetery operators are small businesses facing a planned law; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Small licensed agencies have permit and record duties; in scope."
+    },
+    {
+     "decision": "known",
+     "id": "A12",
+     "reason": "Same purchase-point buyers and farmer-recording duty as K05.",
+     "ref": "K05"
+    },
+    {
+     "decision": "known",
+     "id": "A13",
+     "reason": "Scrap buyers and waste records are the same buyers and duty as K15 and K06, with nothing new.",
+     "ref": "K15"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Small security agencies and guards have a recurring licence renewal duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Small private practices must transfer e-karton data within 24 hours; the duty falls on small clinics."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Wine growers and cellars are a different buyer group and duty from K04 distilleries; related K04."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Packaging-waste obligors are a different duty from K06 waste movement; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small real-estate brokers have AML reporting duties; small professional office."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Short-term rental hosts have guest registration and tax duties; households and small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Independent fuel stations reconcile farm-diesel subsidy cards; small firms with a recurring duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "New Law on Oil duties on small fuel retailers; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Pharmacies have controlled-substance record duties; small professional office."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Co-operatives have an audit and annual compliance duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Fruit and vegetable exporters register is a different duty from K05 purchase points; related K05, low score."
+    },
+    {
+     "decision": "known",
+     "id": "B12",
+     "reason": "Same employer and agency buyers and eBolovanje duty as K02 and K07.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Excise refund claims by carriers are a different buyer group and duty from K02."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Craft breweries' stamp ledger is a different buyer group and duty from K04 distilleries; related K04."
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS3",
+     "reason": "Same market-stall traders and same fiscalisation duty as A4.",
+     "ref": "A4"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Tobacco wholesalers and retailers have a record-keeping duty, different from K01 e-Otpremnica matching; related K01."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Local communities and associations running village waterworks have a sampling duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "New fiscal-receipt QR rule, effective Sep 2026, with a trading ban; hits many small caterers and shops."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS7",
+     "reason": "Same e-Otpremnica duty and buyer group as K01, K09 and K10.",
+     "ref": "K01"
+    }
+   ]
+  },
+  "tag": "w2b56"
  }
 }

@@ -564,5 +564,260 @@
    "searches": 18
   },
   "tag": "w2b41"
+ },
+ "gapfill:azerbaijan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Legal entities and sole entrepreneurs that take or discharge water from water bodies for business use: bottled-water plants, fish farms and aquaculture, greenhouses and farms with wells, car-wash and small industrial users, spa and resort operators. Natural persons meeting their own needs and landowners drilling a first unconfined-aquifer well on their own land for their own needs are exempt.",
+     "category": "13. Small water systems (adjacent: 10. Well drillers and water abstraction)",
+     "evidence": "https://faolex.fao.org/docs/pdf/aze244107.pdf (full text read: sections 1-4 and the permit form); https://www.nk.gov.az/uploads/doc/docs/69de426b8d00e.pdf (Decision 99: fees, contract form, in force 1 Sep 2026). The fee figures come from a search summary and were not read in the annex.",
+     "existing": "No dedicated software found. The competitor search 'su obyektlərindən xüsusi istifadə icazə proqram xidməti məsləhət quyu icazəsi sahibkarlar ... ASAN' returned only the legal texts and the list of business permits. The application goes to the Agency on paper or through the administrative-procedure channel, and some data is pulled automatically from e-government (rule 2.3). Local consultants or ecology firms may sell the application as a service; this was not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Special-purpose water-use permit, contract and fee compliance for businesses (Decree 554 / Cabinet Decision 99)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Presidential Decree 554 of 18 Dec 2025 approved the 'Procedure for issuing permits for special-purpose use of water bodies' under Water Code art. 34. Permits are issued by the State Water Resources Agency on the basis of a permit plus a water-use contract, with a state duty. Cabinet Decision 99 of 14 Apr 2026 set the use fees and the contract form, in force 1 Sep 2026. The application needs coordinates, equipment capacity, forecast demand (thousand m3 per year or month), treatment capacity, discharge limits and the latest water-use statistics report. Supervision is by the State Service for Water Use and Protection, and inspections are tied to the unified inspection register. Permits are issued within the Water Code art. 32 terms. Fee examples reported by search: 0.01 AZN per m3 for domestic or drinking use on rivers and lakes; aquaculture discharge at a 10x coefficient.",
+     "trigger_note": "",
+     "unchecked": "Number of affected firms and how many already hold permits. Permit validity and renewal cycle (Water Code art. 32 was not read). Whether metering and periodic water-use reporting to the Agency is required (the statistics form, apparently '2-tp (su)', was not confirmed). Fee annex contents. Whether the Agency has an e-portal. Enforcement news since 1 Sep 2026. Mostly a one-off or multi-year permit, so recurring pain may be low and buyers are scattered across industries."
+    },
+    {
+     "buyer": "Small bottled and 19-litre drinking-water producers and distributors, often owned by individuals, e.g. the Sumgait producer found non-compliant in Aug 2025",
+     "category": "13. Small water systems (adjacent: 20. Small food producers)",
+     "evidence": "Search result summary of https://afsa.gov.az/storage/pages/11438/sumqayitda-su-emali-muessisesinde-uygunsuzlugun-askarlanmasina-dair-melumat-20-avqust-2025.pdf (PDF could not be read through WebFetch). No count of Azerbaijani bottled-water plants found.",
+     "existing": "Not searched separately; the same food-safety record-keeping duty as K01, so no extra competitor search was run.",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Same core duty (HACCP/AFSA inspection records) with a narrow sub-group of buyers (water bottlers); treat as a segment of K01, not a separate idea.",
+     "name": "Bottled-water (19 L) producers: AFSA food-safety records and sample compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "AFSA monitoring and unplanned inspections. In Aug 2025 a sampled 19 L batch from a natural person's plant in Sumgait failed, and the inspection found that temperature monitoring and records were not kept, no ventilation was installed, and cleaning was not done. AFSA registers food-safety operators.",
+     "unchecked": "Number of bottlers, water-source analysis frequency, any separate water-quality rules for bottled water."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "13. Small water systems",
+     "found": "No quiet-business buyer found for small drinking-water systems themselves. Rural and small supply is run by state bodies: Azersu and the Regional Water Melioration Service sit under the State Water Resources Agency (Decree 2074 of 2023; Cabinet statute 2024). Azersu's 'Large Cities Water Supply' was reorganised by Decree 600 of 20 Feb 2026. No law or register for community-managed or private small drinking-water systems turned up, and the WUA material found is irrigation only (belongs to the farm side). Two adjacent angles were found: (1) a new permit and contract regime for special-purpose use of water bodies, Presidential Decree 554 of 18 Dec 2025 plus Cabinet Decision 99 of 14 Apr 2026, in force 1 Sep 2026; (2) AFSA enforcement against a small bottled-water producer in Sumgait (Aug 2025). Searches in Azerbaijani, Russian and English. Sources: https://faolex.fao.org/docs/pdf/aze244107.pdf (Decree 554, text read via pdftotext); https://www.nk.gov.az/uploads/doc/docs/69de426b8d00e.pdf (Cabinet Decision 99, text read); https://afsa.gov.az/storage/pages/11438/sumqayitda-su-emali-muessisesinde-uygunsuzlugun-askarlanmasina-dair-melumat-20-avqust-2025.pdf (PDF unreadable via WebFetch, so only the search snippet was used). Not checked: the fee annex to Decision 99 (not extracted), the Water Code text, and Cabinet Decision 111 of 2000 on individual wells (current status unconfirmed).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "içməli su təchizatı kiçik su sistemləri icma kənd su kəməri idarəetmə qeydiyyat Azərbaycan",
+    "Azerbaijan community-managed rural water supply small water systems water user associations drinking water quality monitoring law",
+    "qablaşdırılmış içməli su istehsalı lisenziya su quyusu AQTA monitorinq laboratoriya analizi tələbi",
+    "Азербайджан бутилированная питьевая вода 19 литров производители проверка скважина лицензия разрешение водопользование",
+    "su istifadəçiləri birlikləri irriqasiya su haqqı uçot hesabat Dövlət Su Ehtiyatları Agentliyi 2025 yeni qayda",
+    "Su Məcəlləsi yeni Su haqqında qanun layihəsi 2025 2026 su təchizatı özəl operatorlar su sayğacları tələb",
+    "xüsusi su istifadəsi icazəsi su sərfinin uçotu yeraltı su quyu fiziki hüquqi şəxslər Azərbaycan qayda",
+    "içməli su 19 litrlik su satışı şirkətlər AQTA qeydiyyat obyekt su istehsalı müəssisələri sayı yoxlama 2026",
+    "xüsusi məqsədlər üçün su obyektlərindən istifadəyə icazə Qaydası Fərman 554 Agentlik ödəniş müqavilə 1 sentyabr 2026",
+    "2-tp su təsərrüfatı statistika hesabatı sudan istifadə forması Dövlət Statistika Komitəsi",
+    "su obyektlərindən xüsusi istifadə icazə proqram xidməti məsləhət quyu icazəsi sahibkarlar Su Ehtiyatları Agentliyi ASAN",
+    "bələdiyyə balansında olan su kəmərləri kənd su təchizatı sistemləri Azərsu-ya verilməsi icma su istifadəçiləri təşkilatı özəl su təchizatçıları"
+   ],
+   "searches": 12
+  },
+  "tag": "w2b41"
+ },
+ "sonnet:azerbaijan:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The AQTA Collegium Decision No. 19 on vet pharmacy organisation and operation exists as a FAOLEX entry. A later AQTA decision No. 37 (20 Sep 2023) lists the same title, so Decision 19 may have been amended or replaced. I could not read the text (FAOLEX returned 403), so record-keeping duties, inspection frequency and penalties are unconfirmed. I found no electronic reporting system for vet drug sales and no vet-pharmacy software (about 4 searches, no dedicated vendor search). The market is probably small, likely a few hundred outlets, but I found no register count. A weak recurring workflow with an unclear mandate. Score stays at 3.",
+   "searches": 2,
+   "sources": "https://leap.unep.org/en/countries/az/national-legislation/resolution-no-19-food-safety-agency-requirements-organization-and ; https://www.afsi.gov.az/uploads/useful/file/1748584050.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b41"
+ },
+ "sonnet:azerbaijan:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: employers file next-year foreign-labour forecast with the State Migration Service by 1 May via ASAN imza, and work permits are 1 year and must be renewed at least 30 days before expiry (migration.gov.az/en/page/75). The state e-service already handles filing, and no third-party software was found. Weaknesses: the duty is a low-volume filing, so there are few small employers and little recurring pain. Fees are state-set, and the work is easily done by lawyers or recruiters. No penalty figure or employer count was found, and the Fragomen page returned 403, so I used search summaries for the 1 May deadline. Overlaps category 26.",
+   "searches": 2,
+   "sources": "https://migration.gov.az/en/page/75 ; https://www.fragomen.com/insights/azerbaijan-2026-labor-migration-quota-reports-due.html ; https://migration.gov.az/content/pdf/kvotaistiqametlendiricieng.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b41"
+ },
+ "sonnet:azerbaijan:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "A duty exists: a 2018 Financial Markets Supervision Chamber rule on supervising licensed exchange activity requires periodic reports in a set form and deadline. Decision 59/2025 (capital AZN 300-600k, monthly and annual reports, AML) is seen only in a secondary summary. The cbar.az and regalert pages returned 429 or unreadable PDFs. I found no office count, no penalty detail, and no confirmation of the reporting channel (likely a central bank system). Competitor search turned up no dedicated software, but nothing was confirmed either way. Few, well-capitalised buyers, central-bank-prescribed systems and a niche market make a solo-founder product unattractive. Score kept low.",
+   "searches": 3,
+   "sources": "https://regalert.today/document/f2e471e1-8b3a-424b-b73c-605d39d30b0c ; https://uploads.cbar.az/assets/46f39ca15a24b46fa96f52161.pdf ; https://uploads.cbar.az/assets/87fd5f1541a79850bab6f7f04.pdf",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b41"
+ },
+ "sonnet:azerbaijan:A8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Decision No. 68 (10 Mar 2025) exists and sets quality requirements for state and non-state child institutions under art. 29-1 of the Law on Children's Rights. It amends the model kindergarten charter so kindergartens operate under it (search summary). I could not read the full text, because the PDF was unreadable. I found no recurring reporting duty, inspection frequency or penalty. It looks like a one-off standard rather than a recurring filing workflow. I found no private kindergarten count. Official figures cover only 1,676 state kindergartens, and 63 private grant recipients is the only private-sector number. I ran no competitor search and found no software. The buyer pool is small and the pain is unproven.",
+   "searches": 2,
+   "sources": "https://nk.gov.az/uploads/doc/docs/686782943954a.pdf ; https://edu.gov.az/az/hesabatlar/azerbaycan-respublikasi-elm-ve-tehsil-nazirliyinin-2024-cu-ilde-gorulmus-islere-dair-hesabati",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b41"
+ },
+ "sonnet:azerbaijan:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No private AML software found for realtors. State free ŞƏMS reporting platform (Tax Service/FMS) covers the reporting part.",
+   "duty": "Law 781-VIQ of 30 Dec 2022: internal control programme, customer due diligence, suspicious transaction reporting to FMS. Penalties not found.",
+   "market": "About 2,271 obliged persons registered on ŞƏMS under the Tax Service (all types, not only realtors). Realtor count not found.",
+   "reason": "Duty is real: Law 781-VIQ (30 Dec 2022) binds realtors and other DNFBPs to an internal control programme, customer due diligence and suspicious-transaction reporting to the FMS. The State Tax Service supervises realtors, and its guidance (taxes.gov.az Tələblər.docx) explains the duties. It also says 2,271 obliged persons are registered on the state ŞƏMS reporting platform, so a free state reporting channel exists. I found no private AML software for realtors. MONEYVAL 2023 found no real-estate supervision in its review period and weak sanctions, so enforcement pressure and willingness to pay are low. Fine amounts were not found. The 2,271 figure covers all obliged persons at State Tax Service, not realtors alone. The buyer group is small and informal. Notaries and lawyers are supervised by other bodies.",
+   "searches": 3,
+   "sources": "https://taxes.gov.az/uploads/2024/Tələblər.docx ; https://www.taxes.gov.az/az/post/4719 ; https://www.taxes.gov.az/az/post/2808 ; https://eucrim.eu/news/moneyval-fifth-round-evaluation-report-on-azerbaijan/ ; https://meclis.gov.az/documents/781-VIQ.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b41"
+ },
+ "triage:azerbaijan": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "known",
+     "id": "A2",
+     "reason": "Small food businesses, AQTA food-safety registration and records: same buyer and duty as K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "known",
+     "id": "A3",
+     "reason": "Livestock markets and identification: same as rejected K10; no new evidence cited.",
+     "ref": "K10"
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Vet pharmacies under AQTA Decision 19 is a different buyer and duty from K02."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Small employers' foreign-worker quota report and permit renewals: new recurring duty to the Migration Service."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Registered NGOs and associations with annual financial filings; in scope as community bodies."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Licensed exchange offices with monthly reporting to the Central Bank; small firms, recurring duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Private kindergartens and child-care centres with a quality-compliance duty; small licensed premises."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Gas-service contractors under a new technical regulation; small firms with a mandatory duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Cemetery managers and funeral bureaus may carry the duty; buyer mix is unclear, so verify."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Registered vehicle dismantlers and utilizators with mandatory registry forms; small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Well drillers and private well owners facing permit rules; unverified, so verify."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Driving schools are small licensed premises with training-hour records; unverified, so verify."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Hosts must register foreign guests with the Migration Service within 15 days; recurring duty for small hosts."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Realtors, lawyers and accountants under AML law is a different buyer group from K05 (jewellers and gold buyers)."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Credit unions are co-operatives with recurring prudential reporting to the Central Bank."
+    },
+    {
+     "decision": "merge",
+     "id": "B5",
+     "reason": "Small employers hiring foreign workers under the same work-permit and quota duty as A5.",
+     "ref": "A5"
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Food importers' pre-import notification pack is a different buyer and duty from K03 (exporters)."
+    },
+    {
+     "decision": "known",
+     "id": "B7",
+     "reason": "Independent pharmacies and the medicine track-and-trace (DTMS) system: same buyer and core duty as K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "merge",
+     "id": "B8",
+     "reason": "Gas-installation maintenance contractors under the new gas rules: same buyer and duty as A9.",
+     "ref": "A9"
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Smallholder farmers with seasonal EKTIS declarations and subsidy penalties; recurring mandatory duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Alcohol and tobacco retailers and wholesalers with excise-stamp rules; small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Clinics' hazardous-waste passport is a different duty from K07 (insurance claims)."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Fire-safety inspections for catering and fuel sites are a different duty from K01 (HACCP)."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Water-use permits, contracts and fees for small businesses under a new Dec 2025 decree; a new rule."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS2",
+     "reason": "Bottled-water producers with AFSA food-safety records: a segment of small food producers under K01.",
+     "ref": "K01"
+    }
+   ]
+  },
+  "tag": "w2b41"
  }
 }

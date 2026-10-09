@@ -2272,6 +2272,37 @@
    "merge": 1
   }
  },
+ "sri-lanka": {
+  "batch": "w2b38",
+  "candidates": 36,
+  "checks": {
+   "opus": 3,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "A7 Provincial pawnbroker licence, pledge register and security deposit desk",
+    "B4 Retail liquor licence renewal and tax-clearance file for bars, wine stores and hotel liquor licences",
+    "B5 Ceylon Cinnamon PGI control-plan and traceability records for small growers, processors and exporters",
+    "B6 Real estate agents, notaries, lawyers and accountants: FTRA DNFBP registration and reporting",
+    "GAPS1 Funeral endowment society (maranadhara samithi) ledger and Divisional Secretariat accounts pack"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 5,
+   "unverifiable": 4
+  },
+  "gaps": 2,
+  "id": "sri-lanka",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "drop": 2,
+   "keep": 29,
+   "known": 1,
+   "merge": 2
+  }
+ },
  "sweden": {
   "batch": "w2b23",
   "candidates": 39,
@@ -2679,6 +2710,64 @@
    "keep": 35,
    "known": 1,
    "merge": 3
+  }
+ },
+ "uzbekistan": {
+  "batch": "w2b38",
+  "candidates": 38,
+  "checks": {
+   "opus": 4,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "A2 Private kindergarten and training centre CCTV retention and compliance service",
+    "A3 Recruitment agency compliance kit for work abroad (contracts, employer register, Xorijda ish)",
+    "A8 NGO annual report and foreign-funding disclosure helper",
+    "B2 C2. Starter kit for new private household LPG suppliers (exchange purchase, delivery, cylinder records)",
+    "B4 C4. Pharmacy-side Asl Belgisi scan-and-dispense record helper for small pharmacies",
+    "B11 C11. EU traceability and export documentation for small dried-fruit and vegetable exporters"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 2,
+   "disputed": 1,
+   "refuted": 1,
+   "unverifiable": 5,
+   "verified_4": 1
+  },
+  "gaps": 2,
+  "id": "uzbekistan",
+  "leads": [
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "B1",
+    "mark": "new",
+    "name": "C1. Compliance tracker for small independent gas-station / AGNKS / propane-station owners (Resolution No. 315, U-Gas, equipment-life dates)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "unclear 3",
+    "final": "disputed",
+    "id": "B3",
+    "mark": "new",
+    "name": "C3. Guest-house, hostel and small-hotel E-mehmon registration and tourist-fee helper (PMS link, bulk entry, fine protection)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "drop": 1,
+   "keep": 31,
+   "known": 5,
+   "merge": 1
   }
  }
 }

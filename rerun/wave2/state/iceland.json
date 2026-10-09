@@ -1,0 +1,597 @@
+{
+ "discover:A:iceland": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed taxi stations (leigubifreiðastöðvar) and operating-licence holders",
+     "category": "18. Transport operators",
+     "evidence": "https://adverts.stjornartidindi.is/A_nr_23_2026.pdf ; https://island.is/s/samgongustofa/frett/breytingar-a-loegum-um-leigubifreidaakstur-taka-gildi-1-juni",
+     "existing": "Not searched. Stations probably run in-house or bought dispatch systems; only a few stations exist, so the buyer count is small.",
+     "known_mark": "new",
+     "name": "C01 Taxi station and operator electronic trip register and audit pack",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Act 23/2026 amending Act 120/2022, in force 1 June 2026: electronic register with taximeter serial numbers and satellite data, recording of fixed-price trip payments, 60-day retention, annual independent audit of electronic systems, licence revocation for repeated breaches",
+     "unchecked": "Number of stations and operators; which dispatch/taximeter systems already meet the new register rules; whether the audit body is approved yet. Competitor search ('leigubílastöð hugbúnaður skráning ferða') not run for lack of budget."
+    },
+    {
+     "buyer": "Private vet practices and livestock owners (sheep, dairy, poultry, fish)",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://island.is/reglugerdir/nr/0303-2023 ; https://www.mast.is/static/files/kynningar/reglugerdrafraenskraningdyralyfja.pdf ; https://www.althingi.is/altext/156/s/0881.html (2025 answer says MAST did not say whether the data are held electronically; Heilsa being reprogrammed per bill notes)",
+     "existing": "State database Heilsa (bufjarheilsa.is) is the intended tool; the 2012 presentation says farmers still used forms and herd-book health cards. No third-party vet software found.",
+     "known_mark": "new",
+     "name": "C02 Antimicrobial and medicine-use reporting for vets and livestock keepers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Reg. 303/2023 art. 4 (EU 2021/578, 2022/209): vets, owners and keepers collect antimicrobial-use data by species and submit to MAST; reg. 303/2012: diagnoses and treatments logged in Heilsa within 3 days; Act 14/2022 on veterinary medicines",
+     "unchecked": "Whether Heilsa has been rebuilt and has an API; vet practice management systems in use; vet count (small)."
+    },
+    {
+     "buyer": "Small jewellers, gold/precious-stone sellers, art galleries and auction houses; also bookkeepers and tax advisers on the same list",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.skatturinn.is/fagadilar/peningathvaetti/tilkynningarskyldir-adilar/skyldur-tilkynningarskyldra-adila ; https://island.is/s/skatturinn/frett/skraning-vegna-adgerda-gegn-peningathvaetti-og-fjarmognun-hrydjuverka-22-12-2025",
+     "existing": "Not searched. Generic AML tools exist but are probably aimed at larger firms.",
+     "known_mark": "new",
+     "name": "C03 AML registration and compliance pack for jewellers, precious-metal and art dealers",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Act 140/2018 art. 36: registration with Skatturinn, risk assessment, due diligence on payments of EUR 10,000 or more, compliance officer, sanctions-list checks, annual Skatturinn survey (non-responders rated higher risk). Skatturinn registration notice dated 22 Dec 2025",
+     "unchecked": "The 22 Dec 2025 notice gave no deadline or penalty; number of registered jewellers/art dealers; local AML packs. Competitor search ('peningaþvætti hugbúnaður áreiðanleikakönnun skartgripasalar') not run for lack of budget. Risk: close to a generic AML tool."
+    },
+    {
+     "buyer": "Staff-leasing firms, foreign service providers and the Icelandic user firms that hire them",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://island.is/s/vinnumalastofnun/frett/flutningur-a-verkefnum-til-vinnueftirlits-rikisins ; https://www.althingi.is/lagas/154a/2005139.html",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "C04 Staff-leasing and foreign service-provider notifications, now at Vinnueftirlit",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Act 139/2005: register, notice 8 working days before service when over 10 working days in 12 months, with staff list, addresses, nationality, work rights; since 1 Jan 2025 handled by Vinnueftirlit ríkisins",
+     "unchecked": "Notification channel and volumes at Vinnueftirlit; whether a free state form exists."
+    },
+    {
+     "buyer": "Small charities and associations collecting or distributing funds across borders",
+     "category": "17. Community and religious bodies",
+     "evidence": "https://www.althingi.is/lagasafn/pdf/157c/2019119.pdf ; https://www.skatturinn.is/fyrirtaekjaskra/log-reglugerdir-o.fl./",
+     "existing": "Not searched. Registry is a state service.",
+     "known_mark": "new",
+     "name": "C05 Public-benefit association register and annual-accounts filing",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Act 119/2019 (amended 110/2021): mandatory register at Ríkisskattstjóri; accounts within 6 months of year end, published within one month of approval; removal from register if inactive",
+     "unchecked": "Number of registered associations; filing method; whether the cross-border limit makes the population tiny."
+    },
+    {
+     "buyer": "Owners of passenger lifts (housing associations, small commercial buildings) and lift service firms",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://island.is/taeki-og-velbunadur/lyftur-og-rennistigar ; https://www.althingi.is/altext/raeda/156/rad20250519T164158.html ; https://island.is/samradsgatt/mal/4200",
+     "existing": "Not searched; lift service firms probably handle this themselves.",
+     "known_mark": "new",
+     "name": "C06 Lift service-agreement and inspection tracking for building owners and housing associations",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Lift reg. (1995, amended): service agreement with installer, Vinnueftirlit completion statement before use, change of responsible person must be notified, fines for non-compliance; reg. said to require service at least 4 times a year (2025 debate), wheelchair-lift easing under consultation",
+     "unchecked": "Lift count; who in practice tracks the duty; housing-association management software already covering it. Competitor search ('húsfélag hugbúnaður lyfta þjónustusamningur') not run for lack of budget."
+    },
+    {
+     "buyer": "Rural municipalities, health committees and licensed emptying contractors",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://island.is/stjornartidindi/nr/0e81a4ee-e15d-4699-b12b-4e1fa02e4aa1 ; https://www.thingeyjarsveit.is/static/files/gjaldskrar/2022/thingeyjarsveit-gjaldskra-losun-rotthroa-2022.pdf",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "C07 Septic-tank (rotþró) register and emptying schedule",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Act 7/1998, regs 796/1999 and 799/1999: municipality keeps a register of treatment units; emptying on cycles (3 years in Húsavík), call-out fees when tanks are not ready",
+     "unchecked": "Buyer is mainly municipalities; contractors few. Probably government-side."
+    },
+    {
+     "buyer": "Small food plants, breweries, dry cleaners, hospitals",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://island.is/taeki-og-velbunadur/katlar-og-thrystibunadur ; https://urlausnir.is/skrar/Stjornartidindi/vefutg/B-deild/2021/B_2021_1600.pdf",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "C08 Boiler and pressure-vessel register for food processors, breweries and dry cleaners",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Vinnueftirlit registers and periodically inspects boilers and pressure equipment; owners pay registration and inspection fees (2021 fee schedule)",
+     "unchecked": "Inspection intervals and equipment counts."
+    },
+    {
+     "buyer": "Sheep, horse, cattle farmers",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.althingi.is/lagas/149b/2013038.html",
+     "existing": "State database Bústofn is mandatory; farm software (not searched) may integrate.",
+     "known_mark": "new",
+     "name": "C09 Livestock keeper records (Bústofn autumn report, herd marking)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Act 38/2013: record in state database Bústofn; autumn report by 20 Nov; MAST inspections at keeper's cost",
+     "unchecked": "Third-party farm record software; whether farmers want help beyond the state system."
+    },
+    {
+     "buyer": "Licensed reindeer hunting guides (permits up to 4 years per area)",
+     "category": "20. Small licensed premises: hunting outfitters",
+     "evidence": "https://www.umhverfisstofnun.is/library/Veidi/Hreindyr/sidareglur_leidsogumanna.pdf (as found: https://www.umhverfisstofnun.is/library/sida/Veidi/Hreindyr/sidareglur_lei%c3%b0s%c3%b6gumanna.pdf)",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "C10 Reindeer hunting guide reports and permit renewals",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Act 64/1994: guide permit from Umhverfisstofnun, hunting reports, first-aid and shooting test renewals",
+     "unchecked": "Number of guides (likely under 100); sources dated 2008-2011."
+    },
+    {
+     "buyer": "Very small groups of permit holders",
+     "category": "2/5/7/16/19/20 (various)",
+     "evidence": "https://files.reglugerd.is/pdf/0303-2008/current ; https://files.reglugerd.is/pdf/0846-2023/current ; https://reykjavik.is/en/node/24191 ; https://island.is/utfararthjonustuleyfi ; https://island.is/v/skrifstofa-fjarmalagreininga-loegreglu/tilkynningarskyldir-adilar",
+     "existing": "Dismantler payout is via free island.is skilavottord.",
+     "known_mark": "new",
+     "name": "C11 Small-site duties: scrap processors, vehicle dismantlers, small sheep abattoirs, tattoo studios, funeral operators, currency side-exchange",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Permits under Act 7/1998 and reg. 303/2008 (dismantlers), reg. 846/2023 (small sheep abattoirs), health-committee licences (tattoo), Act 36/1993 (funeral), Act 140/2018 (exchange). No recurring report that software would clearly help.",
+     "unchecked": "Operator counts; no recurring duty identified."
+    },
+    {
+     "buyer": "Home childminders",
+     "category": "20. Small licensed premises with inspections: childminders",
+     "evidence": "https://island.is/saekja-um-leyfi-sem-dagforeldri",
+     "existing": "",
+     "known_id": "K09",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K09; not re-checked.",
+     "name": "Childminder (dagforeldrar) admin software",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Licence now from GEV (national agency); fire safety, first aid, medical certificate"
+    },
+    {
+     "buyer": "SME fleets",
+     "category": "18. Transport operators",
+     "evidence": "Not re-checked",
+     "existing": "",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Known; not searched.",
+     "name": "SME fleet kilometre-fee compliance (seen while screening transport)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Kilometre fee"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "One search: only general withholding (staðgreiðsla) pages from Skatturinn, nothing specific to private households as employers; no household-employer register or special filing found. Low likelihood in a medium market. Not verified further.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Scrap processing needs a Umhverfisstofnun operating permit under Act 7/1998 and reg. 550/2018 (https://ust.is/library/Skrar/Atvinnulif/Starfsleyfi/Starfsleyfi-i-gildi/Verksmidjur/Starfsleyfi GMR.pdf). No scrap-dealer register, no per-transaction ID/record duty and no police reporting found. Few operators; nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No second-hand dealer or pawnbroker register found. Skatturinn's AML registration page lists precious-metal/stone dealers and art dealers but not second-hand dealers or pawnbrokers (https://island.is/s/skatturinn/frett/skraning-vegna-adgerda-gegn-peningathvaetti-og-fjarmognun-hrydjuverka-22-12-2025). Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Jewellers and gold dealers are AML reporting entities supervised by Skatturinn (Act 140/2018 art. 36, EUR 10,000 cash threshold); registration via Skatturinn portal, annual survey (https://www.skatturinn.is/fagadilar/peningathvaetti/tilkynningarskyldir-adilar/skyldur-tilkynningarskyldra-adila). See candidate C03.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Reception stations need Umhverfisstofnun permit; parts dealers and collection sites need local health-committee permit (https://files.reglugerd.is/pdf/0303-2008/current). Scrapping fee (skilagjald) is claimed by the owner through island.is/skilavottord, so the state portal covers the payout flow (https://island.is/skilavottord). Few operators; weak.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Livestock keepers must record in the state database Bústofn and file the autumn report (haustskýrsla) by 20 Nov under Act 38/2013 (https://www.althingi.is/lagas/149b/2013038.html). State-run database. No livestock market or animal-transport register search done (animal transport not reached).",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Reg. 846/2023 covers slaughter and cutting in small sheep and goat slaughterhouses, in force since 11 Aug 2023 (https://files.reglugerd.is/pdf/0846-2023/current). A ministry draft on small food businesses exists but adoption unconfirmed. Very few sites; nothing strong.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No beekeeper register or reporting duty found in the search; hobby-scale. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Vets must log diagnoses and prescription treatments in MAST's Heilsa database (reg. 303/2012, bufjarheilsa.is) within 3 days, same day if withdrawal period applies (https://www.mast.is/static/files/kynningar/reglugerdrafraenskraningdyralyfja.pdf). Reg. 303/2023 requires vets, owners and keepers to collect antimicrobial-use data and submit it to MAST by species (https://island.is/reglugerdir/nr/0303-2023); sales data go to Lyfjastofnun. Veterinary medicines Act 14/2022. See candidate C02.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "No search on well drillers or abstraction licences; budget used on other categories.",
+     "status": "not_reached"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Septic tank (rotþró) emptying is run by municipalities or licensed contractors under health-committee permits; municipality keeps a register of treatment units (Act 7/1998, regs 796/1999 and 799/1999) (https://island.is/stjornartidindi/nr/0e81a4ee-e15d-4699-b12b-4e1fa02e4aa1). Local tariffs and rules, no national contractor register. See candidate C07.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Vinnueftirlitið registers and inspects boilers, pressure vessels and lifts; lifts need a service agreement with an installer, use is banned before a completion statement, car lifts inspected every 2 years; 2025 parliamentary debate says regulation requires lift servicing at least 4 times a year, with wheelchair-lift changes under consultation (https://island.is/taeki-og-velbunadur/lyftur-og-rennistigar; https://island.is/taeki-og-velbunadur/katlar-og-thrystibunadur). See candidates C06 and C08.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Drinking-water reg. 536/2001 (last amendment found 570/2018); MAST guidance says smaller supplies need internal monitoring, HACCP only for supplies serving 5,000 or more (https://www.mast.is/static/files/12Leidbeiningar/leidbeiningar-eftirlit-med-neysluvatni-.pdf). Health committees supervise. No 2025 change found; no obvious software gap confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Only found marketing-authorisation rules at Umhverfisstofnun (113 products authorised, 2015 answer). No applicator logbook or dealer register duty found; thin screening.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Staff-leasing firms must be on a public register and give notice 8 working days before providing services for more than 10 working days in 12 months (Act 139/2005). From 1 Jan 2025 Vinnueftirlit ríkisins took over Vinnumálastofnun's tasks for staff leasing and posted workers (https://island.is/s/vinnumalastofnun/frett/flutningur-a-verkefnum-til-vinnueftirlits-rikisins). See candidate C04.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Funeral service needs a licence under Act 36/1993 and reg. 426/2006; sources conflict on whether sýslumaður or the ministry issues it; no 2025-26 change; Reykjavík cemetery reg. 533/2026 published May 2026 (https://island.is/utfararthjonustuleyfi; https://adverts.stjornartidindi.is/B_nr_533_2026.pdf). Few operators. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Act 119/2019 public-benefit associations: mandatory register at Ríkisskattstjóri for those that collect or distribute funds with cross-border activity; accounts finalised within 6 months of year end and published within a month of approval; amended by Act 110/2021 (https://www.althingi.is/lagasafn/pdf/157c/2019119.pdf). See candidate C05. Halal/kosher supervision not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Taxi: Act 120/2022 as amended by Act 23/2026 (from 1 June 2026): stations must keep an electronic register incl. taximeter serial numbers and satellite data, payments for fixed-price trips must be recorded, annual independent audit of electronic systems, 60-day data retention (https://adverts.stjornartidindi.is/A_nr_23_2026.pdf; https://island.is/s/samgongustofa/frett/breytingar-a-loegum-um-leigubifreidaakstur-taka-gildi-1-juni). See candidate C01. Minibus, trucking and bus fleet rules not searched; kilometre fee is K01.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Commercial currency exchange must register with FME/Central Bank under Act 140/2018 (regs 670/2018, 151/2023); side-activity exemption for retailers below ISK 5m a year and ISK 100k per customer (https://island.is/v/skrifstofa-fjarmalagreininga-loegreglu/tilkynningarskyldir-adilar). Tiny population. No market-trader rules searched.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Tattoo studios need health-committee licence or registration, home tattooing illegal (https://reykjavik.is/en/node/24191). Driving schools licensed by Samgöngustofa (https://island.is/umsokn-um-starfsleyfi-oekuskola). Childminders licensed nationally by the welfare quality agency (GEV) (https://island.is/saekja-um-leyfi-sem-dagforeldri); matches K09. Reindeer hunting guides need Umhverfisstofnun permit, file hunting reports (https://www.umhverfisstofnun.is/library/sida/Veidi/Hreindyr/sidareglur_lei%c3%b0s%c3%b6gumanna.pdf). Home food production: nothing specific found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "brotamálmar endurvinnsla leyfi skráning móttökuaðilar Umhverfisstofnun skilagjald",
+    "dýralæknar lyfjaskráning dýralyf Matvælastofnun skýrsla hugbúnaður",
+    "hreinsun rotþróa losun seyru eftirlit sveitarfélag skráning verktaka",
+    "Vinnueftirlitið skoðun lyftur þrýstibúnaður ketill skoðunarskylda eigendur",
+    "starfsmannaleigur skráning Vinnumálastofnun notendafyrirtæki skýrsla starfsmenn erlendra þjónustuveitenda 2025",
+    "leigubifreiðar rekstrarleyfi Samgöngustofa gjaldmælir skýrsla leigubílstjórar ný lög",
+    "almannaheillafélög skráning ársreikningur skil ríkisskattstjóri félagasamtök skráningarskylda",
+    "skýrsluhald búfjár forðagæsla Matvælastofnun hrossa sauðfjár skráning Heiðrún Bústofn skil",
+    "bílapartasölur niðurrif ökutækja skilagjald Úrvinnslusjóður móttökustöð skráning spilliefni",
+    "notaðir munir fornsalar gullkaupmenn peningaþvætti skráning eftirlit Skattinn tilkynningarskyldir aðilar skartgripasalar",
+    "útfararþjónusta kirkjugarðar útfararstofur leyfi sýslumaður lög um útfarir 2025 2026",
+    "húðflúrstofur starfsleyfi heilbrigðiseftirlit ökuskólar leyfi dagforeldrar heimavinnsla matvæla skráning",
+    "lítil vatnsveita neysluvatn skráning sjálfsvöktun heilbrigðiseftirlit vatnsból reglugerð 536/2001 breyting 2025",
+    "býflugnarækt býflugnabændur skráning Matvælastofnun plöntuverndarvörur notkun skráning dagbók leyfi notkun",
+    "sláturhús smærri slátrun heimaslátrun ný reglugerð Matvælastofnun eftirlit kjötvinnslur bændur 2025",
+    "dýralyf ný lög skráning notkun sýklalyfja dýralæknar Matvælastofnun gagnagrunnur lyfjaávísanir reglugerð 2024 2025",
+    "skotveiði leiðsögumenn veiðar rekstrarleyfi veiðikort veiðiskýrsla skil Umhverfisstofnun veiðistjórnun hreindýr",
+    "gjaldeyrisskipti skráning gjaldeyrisskiptastöðvar Fjármálaeftirlitið Seðlabankinn skráningarskyld sala á gjaldeyri verslun",
+    "hugbúnaður fyrir dýralækna dýralæknastofur skráning lyfja Heilsa Matvælastofnun kerfi bændur skýrsluhald forrit",
+    "heimilisstarfsmenn einstaklingar sem launagreiðendur staðgreiðsla reiknað endurgjald heimilishjálp au pair skattskylda Skatturinn"
+   ],
+   "searches": 20
+  },
+  "tag": "w2b43"
+ },
+ "discover:B:iceland": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Bookkeeping and tax-adviser firms, company service providers, precious metal/stone dealers, art dealers and galleries (not law firms, auditors or financial institutions)",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.skatturinn.is/um-rsk/frettir-og-tilkynningar/skraning-vegna-adgerda-gegn-peningathvaetti-og-fjarmognun-hrydjuverka ; https://island.is/s/skatturinn/frett/skraning-vegna-adgerda-gegn-peningathvaetti-og-fjarmognun-hrydjuverka-22-12-2025 ; https://www.skatturinn.is/fagadilar/peningathvaetti/akvardanir-rikisskattstjora/ (Enor ehf. settlement Mar 2026 per search summary)",
+     "existing": "Competitor search (Icelandic, AML + bookkeeping + software) found no software or service for this group, only the state portal and the law. A generic AML vendor may exist and was not found.",
+     "known_mark": "new",
+     "name": "AML registration, risk assessment and compliance pack for bookkeeping firms, tax advisers and TCSPs",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Art. 36, law 140/2018: new Skatturinn registration portal opened 22 Dec 2025. Written methodology and risk assessment updated every 2 years (law 62/2022 amending art. 5). Skatturinn publishes settlements and fines.",
+     "unchecked": "Registration deadline (not on the pages read); number of registrable firms; whether the group must file FIU reports (goAML) and the annual questionnaire; whether the accounting software vendors or the bookkeepers' association already supply templates; willingness to pay."
+    },
+    {
+     "buyer": "Real-estate agencies, car/ship/business sellers, property companies supervised by Skatturinn (art. 2(1) l-u of law 140/2018)",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.skatturinn.is/fagadilar/peningathvaetti/akvardanir-rikisskattstjora/akvordun-5-2026-um-satt ; https://www.skatturinn.is/fagadilar/peningathvaetti/akvardanir-rikisskattstjora/akvordun-9-2024-um-nidurfellingu-sattagerdar-og-beitingu-stjornvaldssektar",
+     "existing": "Not searched separately; the bookkeeping-AML search found no tool for this buyer either.",
+     "known_mark": "new",
+     "name": "AML pack for real-estate agencies, car dealers and property companies",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ongoing AML duties (beneficial-owner checks, due diligence). Settlement decision 5/2026 (8 Sept 2026) with Fasteignasala Hákot ehf. over beneficial-owner failures, fine at 50% of the proposed penalty; 2024 decision against Kasa fasteignir ehf.",
+     "unchecked": "Number of agencies and dealers; real-estate-system vendors (e.g. Fasteignaleit-type tools) and generic KYC vendors; whether the ownership checks are already covered by the state beneficial-owner register; the competitor search for this score-3 candidate was not run, and neither were rental-agency or car-dealer cases."
+    },
+    {
+     "buyer": "Licensed electrical contractors (rafverktakar) of all sizes, mostly small firms",
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "evidence": "https://island.is/oeryggisstjornunarkerfi ; https://www.althingi.is/lagas/nuna/1996146.html ; https://island.is/reglugerdir/nr/0678-2009/original",
+     "existing": "Competitor search (Icelandic, contractor safety system + software) found no software, only regulation texts. HMS offers forms and a sample audit form, and its portal holds completion reports.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Safety management system and job records for licensed electrical contractors",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Law 146/1996 and reg. 678/2009: contractors must run an HMS safety management system with traceable job records kept at least 4 years, per-job self-reviews and measurements, notifications and completion reports through HMS's central electrical safety portal, and an internal audit at least once a year. Accredited inspection bodies audit the system. HMS can revoke the licence for serious deficiencies.",
+     "unchecked": "Number of licensed contractors; whether generic project, field-service or quality-management tools already used by Icelandic electricians cover this; what the inspection bodies accept; HMS portal API; willingness to pay. K07 covers general construction QMS and the building-permit portal, which are a different duty and buyer."
+    },
+    {
+     "buyer": "Self-employed physiotherapists, specialist doctors and other independent health providers billing Sjúkratryggingar",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://island.is/s/sjukratryggingar/frett/2025-02-06-sjuklingatrygging-2025 ; https://www.althingi.is/altext/raeda/157/rad20260122T195539.html ; https://island.is/reglugerdir/nr/1364-2019/d/2020-12-31",
+     "existing": "None searched. Clinics probably use existing practice-management systems, such as Sögukerfi-type products, and these were not checked.",
+     "known_mark": "new",
+     "name": "Annual accounts and billing pack for self-employed health providers under Sjúkratryggingar contracts, with patient-injury insurance registration",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Patient-injury insurance (law 47/2024) moved to Sjúkratryggingar from 1 Jan 2025, with provider registration in the Gagnagátt portal. A Jan 2026 proposal would require contracted parties to hand over annual accounts, staff numbers and related-party transactions to SÍ, following a National Audit Office recommendation.",
+     "unchecked": "Whether the accounts-disclosure proposal became law; the format SÍ will require; the number of providers; what clinic software already exports. The competitor search for this score-3 item was not run (budget)."
+    },
+    {
+     "buyer": "Small tour, activity and travel operators (glacier, whale-watching, horse, super-jeep and similar)",
+     "category": "31. Adventure-tourism and tour operators: safety plans, licences, insurance (Ferðamálastofa)",
+     "evidence": "https://www.althingi.is/altext/lagasofn/nuna/2018096.html ; https://www.althingi.is/lagas/157a/2018096.html",
+     "existing": "Not checked. The safety-plan form is a Ferðamálastofa product.",
+     "known_mark": "new",
+     "name": "Safety plan and licence pack for small tour and adventure operators",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Law 96/2018 (travel services / tourism): a written safety plan (risk assessment, procedures, incident report, response plan) in Icelandic on a Ferðamálastofa form, supervised by Ferðamálastofa; liability insurance wording in the bill history.",
+     "unchecked": "The current safety-plan regulation and what Ferðamálastofa requires today; how many operators file; whether the form is free and electronic; who sells safety-plan services (e.g. Safetravel/ICE-SAR-linked); the competitor search was not run."
+    },
+    {
+     "buyer": "Small importers and domestic producers of packaged goods",
+     "category": "33. Producer-responsibility importers and packers: Úrvinnslusjóður levy (law 162/2002)",
+     "evidence": "https://www.althingi.is/altext/154/s/1924.html ; https://www.althingi.is/altext/raeda/154/rad20240619T164605.html",
+     "existing": "Not checked: importer ERP modules, customs-broker services, and Úrvinnslusjóður's own portal.",
+     "known_mark": "new",
+     "name": "Packaging declaration and levy filing for small importers (Úrvinnslugjald)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Law 162/2002: all producers and importers pay the levy and must give packaging weight and type. A temporary fallback rule (2024 amendment) for importers lacking packaging data ran until 1 Jan 2026 while a new packaging model (Annex XVIII) was introduced.",
+     "unchecked": "Whether the temporary rule was extended or the new model now binds importers; filing frequency and portal; customs integration; number of small importers; the competitor search was not run."
+    },
+    {
+     "buyer": "Restaurants, cafes, bakeries and small food producers with a municipal starfsleyfi",
+     "category": "36. Food businesses: mandatory internal control (innra eftirlit) and municipal health inspection",
+     "evidence": "https://reykjavik.is/sites/default/files/2024-03/heilbrigdiseftirlit15.3.24vefur.pdf ; https://www.mast.is/static/files/Uploads/document/Baeklingar/InnraEftirlitRodvef.pdf",
+     "existing": "One search found guidance PDFs but no software; apps for temperature logging may exist and were not found.",
+     "known_mark": "new",
+     "name": "Food-business internal control (HACCP) records for small food and catering businesses",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Food Act 93/1995: internal control is a licence condition; inspection frequency is risk-based; fees can be reduced for certified or better-than-required control (Reykjavík health authority).",
+     "unchecked": "Vendors of HACCP/temperature-logging apps in Iceland; whether inspectors accept digital records; number of licensed premises. The group-A category 20 worker may cover the same buyer. Competitor search was a generic one, not the targeted one."
+    },
+    {
+     "buyer": "Small hotels and guest houses with a rekstrarleyfi",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://island.is/reglugerdir/nr/1277-2016/d/2021-05-15 ; https://www.althingi.is/altext/157/s/0114.html",
+     "existing": "Property-management and channel-manager systems for hotels already exist; none were checked by name.",
+     "known_id": "K06",
+     "known_mark": "known",
+     "name": "Licensed accommodation operating-licence and levy compliance (hotels, guest houses)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Reg. 1277/2016 (four accommodation categories, operating licence) under the accommodation law 85/2007. A tourist-tax change in 2026 could not be confirmed.",
+     "unchecked": "Whether a gistináttaskattur change or a guest register duty exists in 2026."
+    },
+    {
+     "buyer": "Fuel sellers (a handful of chains and independents)",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://island.is/reglugerdir/nr/0097-2021 ; https://www.althingi.is/lagas/154b/2013040.html",
+     "existing": "Large chains have their own ERP systems.",
+     "known_mark": "new",
+     "name": "Monthly fuel sales, stock and shrinkage report to Orkustofnun",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Reg. 97/2021 under law 40/2013: report by the 25th of each month; renewable-fuel traceability records; producers report by 1 March.",
+     "unchecked": "Number of independent sellers and any small LPG distributors; whether a state portal handles the submission."
+    },
+    {
+     "buyer": "Staff-leasing firms and the firms that hire from them",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://www.althingi.is/lagas/154b/2005139.html",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Staff-leasing notification and user-firm verification",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Act 139/2005: leasing firms notify Vinnumálastofnun; the user firm must obtain written proof of notification before service starts and report refusals. Chain-liability rules were not confirmed.",
+     "unchecked": "Registry volume; whether the duty is a one-off form rather than a recurring report; whether construction firms face stricter chain-liability checks."
+    },
+    {
+     "buyer": "Taxi operators and drivers",
+     "category": "32. Taxi drivers and operators (law 120/2022, reg. 324/2023)",
+     "evidence": "https://island.is/reglugerdir/nr/0324-2023 ; https://www.althingi.is/lagas/157c/2022120.html",
+     "existing": "Taxi apps and the state database.",
+     "known_mark": "new",
+     "name": "Taxi licence and driver compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law 120/2022 and reg. 324/2023: work and operating licences, an electronic database showing when a car is in taxi service and which licensed driver is driving.",
+     "unchecked": "Whether the database needs periodic operator input; number of operating-licence holders."
+    },
+    {
+     "buyer": "Veiðifélög (fishing associations) and rights holders, mostly farms",
+     "category": "34. River fishing associations and rights holders (law 61/2006)",
+     "evidence": "https://www.althingi.is/altext/150/s/0272.html ; https://www.hafogvatn.is/static/research/files/skra_0075486.pdf",
+     "existing": "The research institute's electronic catch database covers reporting. Dividend-register tools not checked.",
+     "known_mark": "new",
+     "name": "River fishing association catch reporting and dividend register",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law 61/2006 art. 13: catch report for every water; arðskrá and management plans confirmed by Fiskistofa; electronic reporting available since 2011.",
+     "unchecked": "Current law text; number of associations; whether dividend register upkeep is done by consultants."
+    },
+    {
+     "buyer": "79 reweighing and 17 home-weighing licence holders (2024)",
+     "category": "35. Fish weighing licence holders and fish markets (reweighing, home weighing)",
+     "evidence": "https://island.is/s/fiskistofa/frett/nidurstoedur-eftirlits-med-endurvigtun-med-tilliti-til-ishlutfalls",
+     "existing": "Fiskistofa's electronic systems; fleet and processors are consolidated.",
+     "known_id": "K04",
+     "known_mark": "known",
+     "name": "Reweighing and home-weighing licence records",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Fiskistofa monitors ice ratio using electronic data analysis; it can monitor a licence holder for up to six weeks after an anomaly.",
+     "unchecked": "Whether licence holders have their own reporting duties beyond the state channel."
+    },
+    {
+     "buyer": "SME fleets",
+     "category": "18. Transport operators (seen incidentally)",
+     "evidence": "Already in the study",
+     "existing": "",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Not re-checked.",
+     "name": "Kilometre-fee compliance and rebilling for SME fleets",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Kilometre fee"
+    },
+    {
+     "buyer": "Employers with 25+ staff",
+     "category": "Cross-cutting (seen incidentally)",
+     "evidence": "Already in the study",
+     "existing": "",
+     "known_id": "K02",
+     "known_mark": "known",
+     "known_note": "Also K05; not re-checked.",
+     "name": "Equal-pay report pack / certification tooling",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Gender pay-gap duties"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Monthly sales/stock/shrinkage report to Orkustofnun by the 25th (reg. 97/2021, law 40/2013); fuel quality/GHG reports to Umhverfisstofnun (reg. 960/2016). Sellers are a handful of large chains (N1, Olís, Orkan, Atlantsolía), so weak buyer group. Candidate listed as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "No commodity-trading sector in Iceland. The nearest regulated trade is fish market and reweighing licences, screened under 35.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "No search spent. Iceland has no credit-union sector and only a few legacy kaupfélög; judged low-yield, but unverified.",
+     "status": "not_reached"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Self-employed physios, specialist doctors and others bill Sjúkratryggingar (regs 1364/2019, 1255/2018). Patient-injury insurance (law 47/2024) moved to Sjúkratryggingar from 1 Jan 2025 with Gagnagátt registration. A Jan 2026 proposal would require contractors to hand over annual accounts to SÍ; enactment not confirmed. Candidate listed as unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Narcotic/controlled-drug rules in reg. 233/2001, last amendment seen 2024-04-05. Pharmacy sector is consolidated into chains. Nothing new and no candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Act 139/2005: staff-leasing firms must notify Vinnumálastofnun; user firms must obtain written proof of notification and report refusals. Candidate listed as weak. Chain-liability rules not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Licensed electrical contractors must run an HMS safety management system, keep records 4 years, run an annual internal audit and report completion in HMS's central electrical safety portal (law 146/1996). No software found. Candidate listed. General construction QMS is K07.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Skatturinn opened a registration portal on 22 Dec 2025 under art. 36 of law 140/2018 for bookkeepers, tax advisers, TCSPs, precious metal/stone dealers and art dealers (law firms, auditors and financial institutions exempt). Risk assessment must be updated every 2 years (law 62/2022). Settlements in 2026 against a real estate agency and Enor ehf. Two candidates listed.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Regulation 1277/2016 sets four accommodation categories plus operating licence and home-accommodation registration; 3,582 homes registered in 2023. Homestay is K06. Could not find a 2026 tourist-tax or guest-register change. Licensed accommodation listed as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Seafood catch certificates are K03 and landing logbooks are K04; nothing new. No search on timber or other commodities.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Adventure-tourism and tour operators: safety plans, licences, insurance (Ferðamálastofa)",
+     "found": "Law 96/2018 defines a written safety plan (risk assessment, procedures, incident report, response plan) in Icelandic on a Ferðamálastofa form, with supervision by Ferðamálastofa. Current enforcement, insurance rules and competitors not checked. Candidate listed as unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Taxi drivers and operators (law 120/2022, reg. 324/2023)",
+     "found": "Samgöngustofa issues work and operating licences and runs an electronic database. No bookkeeping or per-trip logging duty found. Candidate listed as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Producer-responsibility importers and packers: Úrvinnslusjóður levy (law 162/2002)",
+     "found": "Importers and producers must declare packaging weight and type. A temporary fallback rule for importers lacking packaging data expired 1 Jan 2026 (Annex XVIII packaging model). Candidate listed as unverified; 2025-26 changes not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "34. River fishing associations and rights holders (law 61/2006)",
+     "found": "Duty to report catches per water, with electronic reporting through the research institute since 2011. Associations must keep a dividend register (arðskrá) and management plans confirmed by Fiskistofa. Candidate listed as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Fish weighing licence holders and fish markets (reweighing, home weighing)",
+     "found": "79 reweighing licence holders and 17 home-weighing licence holders in 2024. Fiskistofa monitors ice ratio using electronic data analysis. Candidate listed as weak; K04 is the vessel logbook.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Food businesses: mandatory internal control (innra eftirlit) and municipal health inspection",
+     "found": "Internal control is a starfsleyfi condition under Food Act 93/1995; inspection frequency is risk-based, and fee reductions are possible for certified or stronger controls. No software found in one search. Candidate listed as unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Aquaculture (lagareldi bill, Althing 157, case 529; MAST reg. 1152/2025)",
+     "found": "A comprehensive aquaculture act is pending (consultation closed 26 Jan 2026), and licensing runs through MAST and Umhverfisstofnun. Operators are few and large, so no real candidate.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "eldsneytissalar skýrslugjöf Orkustofnun bensínstöðvar",
+    "starfsmannaleigur skráning Vinnumálastofnun keðjaábyrgð notendafyrirtæki",
+    "peningaþvætti tilkynningarskyldir aðilar fasteignasalar Skatturinn 2025",
+    "gististaðir rekstrarleyfi gistináttaskattur Ferðamálastofa 2026",
+    "sjálfstætt starfandi heilbrigðisstarfsmenn Sjúkratryggingar reikningagerð 2026",
+    "lyfjabúðir Lyfjastofnun ávana- og fíknilyf forefni lyfjaheildsölur 2026",
+    "öryggisáætlun ferðaþjónusta Ferðamálastofa trygging ferðaskrifstofur 2026",
+    "leigubifreiðar leyfi Samgöngustofa lög 120/2022",
+    "Úrvinnslusjóður úrvinnslugjald skýrsla innflytjendur 2025",
+    "rafverktakar rafmagnsöryggi skoðun HMS löggilding 2026",
+    "gæðakerfi rafverktaka hugbúnaður öryggisstjórnunarkerfi (competitor check)",
+    "fiskmarkaðir hafnarvog vigtunarleyfi endurvigtun Fiskistofa 2025",
+    "sjókvíaeldi lagareldi lög 2025 Matvælastofnun",
+    "peningaþvætti áhættumat bókhaldsstofur hugbúnaður (competitor check)",
+    "veiðifélög veiðibækur arðskrá Hafrannsóknastofnun",
+    "innra eftirlit matvælafyrirtæki Heilbrigðiseftirlit hugbúnaður",
+    "bókhaldsstofur skráning Skatturinn peningaþvætti frestur 2026",
+    "WebFetch skatturinn.is skráning vegna aðgerða gegn peningaþvætti (x2)",
+    "WebFetch island.is/oeryggisstjornunarkerfi"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b43"
+ }
+}

@@ -11,6 +11,18 @@
   },
   "tag": "w2b54"
  },
+ "challenge:malaysia:A16": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "Biz4x (4xLabs, Singapore; OSK-backed): money-changer POS/back office with Malaysia-only BNM MSB returns. MSB02 is the monthly statistical summary, MSB03 covers FX import/export and domestic buy/sell, and MSB4A covers financial statements and maintenance of minimum capital funds. It also has a monthly Line by Line statistical report (v1.13, Oct 2017) and issues transaction receipts.",
+   "reason": "The revive rested on \"no vendor generates BNM returns\", and a searchable Malaysia-specific vendor exists. Biz4x release notes describe exporting MSB02 (monthly statistics), MSB03 and MSB4A (including minimum capital fund maintenance) for submission to the regulator. That covers all three parts of the claim. It has offered this since 2017 and still lists Malaysia among its markets. Caveat: the current support page lists only the \"Line by Line Report\" for Malaysia, so it was not established whether the old MSB forms changed with the 2018 BNM guidelines. Either way, an incumbent serves this. The market is also small: about 800 licensees, many tied to principal licensees that supply their own systems. The K17 rejection stands.",
+   "searches": 8,
+   "sources": "https://biz4x.com/resources/news/new-options-for-transaction-settings-and-a-new-regulatory-report ; https://biz4x.com/resources/support/business-management/what-regulatory-reports-are-available-on-biz4x ; https://biz4x.com/resources/news/filter-your-reports-and-customise-rate-boards-for-your-business ; https://biz4x.com/resources/white-paper/compliance/malaysia ; https://e27.co/singapore-fintech-startup-4xlabs-raises-funding-dymon-osk-20170516/",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b54"
+ },
  "challenge:malaysia:B2": {
   "result": {
    "blocked_searches": 0,
@@ -18,6 +30,18 @@
    "reason": "I found nothing that does the full job. Searches in Malay and English turned up no cloud tool that takes a koperasi from SKM-format accounts through audit prep to the AGM pack. The only koperasi-specific tools are MOCCIS SPBK (web-based, launched 2004, 2016 flyer, no price) and SKM's free Excel tool p-SKM (2014). The duty still bites: Act 502 s60/61 requires an annual audit by an SKM-approved auditor. I found no small-koperasi exemption. Koperasi that stay inactive for over 3 years face cancellation (Negeri Sembilan, Apr 2026), and Sarawak cancelled 61 in 2023-25. The market is weak, though. Most of the 7,779 non-compliant bodies are dormant, run by volunteers and short of cash. The RM3,000/RM3,500 SKM grant goes to accountants and auditors, and approved audit firms already do bookkeeping bundled with the audit. I couldn't confirm SKM's submission portal or late-filing penalties.",
    "searches": 8,
    "sources": "https://thesun.my/news/malaysia-news/over-7000-cooperatives-fail-to-maintain-accounts-skm-offers-guidance-support-ramanan-gg13401135/ ; https://pustaka2.upsi.edu.my/index/wp-content/uploads/2016/08/Flyer-SPBK.pdf ; https://itu.int/net4/wsis/stocktaking/Prizes/2024/Details/14493811550000000 ; https://skm.gov.my/images/01-utama/perundangan/garis-panduan/gp26-01-09-2024.pdf ; https://www.skm.gov.my/en/frequently-asked-question ; https://www.bharian.com.my/amp/berita/kes/2026/04/1536622/bhplus ; https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/61-koperasi-luar-bandar-sarawak-dibatalkan-pendaftaran/ ; https://www.skm.gov.my/images/06-Pusat-Sumber/rujukan/Pelan-Pendigitalan-SKM_compressed.pdf",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b54"
+ },
+ "challenge:malaysia:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. No product, state tool or exemption was identified. Not settled: the commencement date of P.U.(A) 155/2025, whether local pharmacy POS vendors already print Forms B and C (not advertised online), and whether KKM accepts electronic registers.",
+   "reason": "Nothing killed it. In English and Malay searches, no Malaysian vendor, MOH e-service or association tool advertises Form B Poisons Book, Form C Prescription Book or reg 26A/Form D/E pharmacist attendance records. The duty is real: Poisons (Amendment) Regulations 2025, P.U.(A) 155, made on 26 March 2025, require these records and 5-year retention. I could not read the commencement date because the PDF would not extract. The Sarawak compliance study says recording of supplies is the most-breached provision. Several things hold the score at 4. A 2018 Malay Mail report said the books are rarely checked. Big chains (Caring, Alpro, Big, Watsons/Guardian) probably have in-house systems. Pharmacy POS vendors could easily add the module. And whether KKM accepts e-registers is still unconfirmed.",
+   "searches": 7,
+   "sources": "https://repositori.parlimen.gov.my/bitstream/123456789/3521/121/ST.164.2025 ; https://www.mims.com/malaysia/viewer/html/poisoncls.htm ; https://doaj.org/article/561a9980ba6d462eb49dbd03b59fa4c0 ; https://www.malaymail.com/news/malaysia/2018/07/11/no-prescription-no-problem-buying-medicines-is-as-easy-as-buying-candy-real/1650964 ; https://www.malaymail.com/amp/news/malaysia/2026/04/17/moh-to-introduce-new-prescription-format-with-fuller-patient-and-drug-details-from-2027/216577 ; https://my.hiredly.com/jobs/jobs-malaysia-nazen-medicare-sdn-bhd-job-retail-pharmacist ; https://pharmacy.moh.gov.my/sites/default/files/document-upload/gp-e-pharmacy-dalam-ohs.pdf",
    "suggested_score": 4,
    "verdict": "survives"
   },

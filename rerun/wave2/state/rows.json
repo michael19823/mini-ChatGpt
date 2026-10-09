@@ -329,6 +329,31 @@
    "known": 1
   }
  },
+ "bolivia": {
+  "batch": "w2b50",
+  "candidates": 29,
+  "checks": {
+   "opus": 2,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B3 Hotel foreign-guest reporting to Migración plus SIAT Hoteles"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 2,
+   "unverifiable": 6
+  },
+  "gaps": 0,
+  "id": "bolivia",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 25,
+   "known": 2
+  }
+ },
  "bulgaria": {
   "batch": "w2b49",
   "candidates": 28,
@@ -3327,6 +3352,62 @@
   "stage": "done",
   "triage": {
    "keep": 35
+  }
+ },
+ "zambia": {
+  "batch": "w2b50",
+  "candidates": 33,
+  "checks": {
+   "opus": 4,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B10 Artisanal and small-scale mining licence compliance tracker",
+    "A2 Agro-dealer permit stack: ZAMRA agro-vet shop certificate and annual return, ZEMA pesticide and toxic substance licence renewal, council trading permit",
+    "A4 Livestock movement and slaughter permit filing service (ZamPass-assisted) for traders and butchers",
+    "A5 Scrap metal dealer transaction register and licence tracker",
+    "B2 LPG retailer and distributor licence and safety compliance pack",
+    "B7 Weighing-scale verification tracker for grain traders, millers, butchers and fuel pumps"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 3,
+   "disputed": 2,
+   "refuted": 1,
+   "unverifiable": 4
+  },
+  "gaps": 2,
+  "id": "zambia",
+  "leads": [
+   {
+    "challenge": "survives 3",
+    "final": "disputed",
+    "id": "B3",
+    "mark": "new",
+    "name": "Data protection registration and annual renewal service for micro-businesses",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "unclear 3",
+    "final": "disputed",
+    "id": "GAPS1",
+    "mark": "new",
+    "name": "BoZ licence-conversion and periodic-return pack for ex-moneylenders (non-deposit lenders)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": 4,
+    "src": "gapfill"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 31,
+   "known": 1,
+   "merge": 1
   }
  }
 }

@@ -577,7 +577,7 @@
  },
  "wf_0f1e5c7d-c5c/ac752df3482b86e60": {
   "blocked": 0,
-  "cost": 0.5039,
+  "cost": 0.5608,
   "label": "discover:A:bosnia-and-herzegovina",
   "model": "sonnet",
   "searches": 20,
@@ -777,7 +777,7 @@
  },
  "wf_11fce1c8-5e6/a9f26ae8bf0efe618": {
   "blocked": 0,
-  "cost": 0.4384,
+  "cost": 0.4975,
   "label": "discover:B:kyrgyzstan",
   "model": "sonnet",
   "searches": 16,
@@ -1902,6 +1902,14 @@
   "model": "sonnet",
   "searches": 3,
   "tag": "w2b25"
+ },
+ "wf_2b2d2062-3d7/a177336482a625530": {
+  "blocked": 0,
+  "cost": 0.1509,
+  "label": "gapfill:serbia",
+  "model": "sonnet",
+  "searches": 6,
+  "tag": "w2b56"
  },
  "wf_2bdb86c5-000/a0a1922e5910ea6f0": {
   "blocked": 0,
@@ -4481,10 +4489,10 @@
  },
  "wf_754f3843-4c9/acefb87882693caee": {
   "blocked": 0,
-  "cost": 0.2432,
+  "cost": 0.3732,
   "label": "gapfill:malta",
   "model": "sonnet",
-  "searches": 10,
+  "searches": 14,
   "tag": "w2b52"
  },
  "wf_754f3843-4c9/ad0da44b05312ea82": {
@@ -6913,7 +6921,7 @@
  },
  "wf_a8443342-dc3/a1d1379825acdd7f3": {
   "blocked": 0,
-  "cost": 0.0279,
+  "cost": 0.0456,
   "label": "sonnet:nicaragua:A3",
   "model": "sonnet",
   "searches": 2,
@@ -6925,6 +6933,14 @@
   "label": "discover:A:nicaragua",
   "model": "sonnet",
   "searches": 20,
+  "tag": "w2b53"
+ },
+ "wf_a8443342-dc3/a68a006b68fbda6a1": {
+  "blocked": 0,
+  "cost": 0.0283,
+  "label": "sonnet:nicaragua:B4",
+  "model": "sonnet",
+  "searches": 2,
   "tag": "w2b53"
  },
  "wf_a8443342-dc3/a75f02e8003e0a29c": {
@@ -6941,6 +6957,22 @@
   "label": "triage:nicaragua",
   "model": "sonnet",
   "searches": 0,
+  "tag": "w2b53"
+ },
+ "wf_a8443342-dc3/aa128de89abb1c9b5": {
+  "blocked": 0,
+  "cost": 0.0477,
+  "label": "sonnet:nicaragua:A8",
+  "model": "sonnet",
+  "searches": 2,
+  "tag": "w2b53"
+ },
+ "wf_a8443342-dc3/aa5c2b72011ff39b7": {
+  "blocked": 0,
+  "cost": 0.0468,
+  "label": "sonnet:nicaragua:B2",
+  "model": "sonnet",
+  "searches": 2,
   "tag": "w2b53"
  },
  "wf_a8443342-dc3/abcbcdc9229fcf156": {
@@ -9647,20 +9679,36 @@
   "searches": 4,
   "tag": "w2b39"
  },
+ "wf_d9cb234c-a13/a0c1909fcb423f3e0": {
+  "blocked": 0,
+  "cost": 0.0374,
+  "label": "escalate:malaysia:GAPS8",
+  "model": "opus",
+  "searches": 2,
+  "tag": "w2b54"
+ },
+ "wf_d9cb234c-a13/a146395481650c3e3": {
+  "blocked": 0,
+  "cost": 0.0469,
+  "label": "escalate:malaysia:B5",
+  "model": "opus",
+  "searches": 3,
+  "tag": "w2b54"
+ },
  "wf_d9cb234c-a13/a176ad788b8c6785b": {
   "blocked": 0,
-  "cost": 0.149,
+  "cost": 0.203,
   "label": "challenge:malaysia:A16",
   "model": "opus",
-  "searches": 5,
+  "searches": 7,
   "tag": "w2b54"
  },
  "wf_d9cb234c-a13/a4fb4e4bc457ae67f": {
   "blocked": 0,
-  "cost": 0.1662,
+  "cost": 0.234,
   "label": "challenge:malaysia:B3",
   "model": "opus",
-  "searches": 7,
+  "searches": 8,
   "tag": "w2b54"
  },
  "wf_d9cb234c-a13/a50c8820af6f120e2": {

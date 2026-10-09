@@ -1,0 +1,655 @@
+{
+ "critic:thailand": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Pesticide and fertiliser dealers (cat 14 not_reached): fertiliser licence and hazardous-substances dealer duties",
+     "first_search": "พ.ร.บ.ปุ๋ย พ.ศ. 2518 ผู้ขายปุ๋ย ใบอนุญาต บัญชีรับจ่าย รายงาน กรมวิชาการเกษตร",
+     "why": "Thailand has very many small farm-input shops. K08 covers only the pesticide register. The Fertiliser Act (พ.ร.บ.ปุ๋ย) licences sellers and requires sales and stock records, and nobody checked it. I am unsure of the exact record duty."
+    },
+    {
+     "category": "Small food producers and community enterprises: Thai FDA licences, GMP and OTOP/community-enterprise registration",
+     "first_search": "วิสาหกิจชุมชน รายงานประจำปี กรมส่งเสริมการเกษตร ทะเบียน ผู้ประกอบการ OTOP อย. สถานที่ผลิตอาหาร ต่ออายุ",
+     "why": "Thailand has a huge base of home and community food producers (OTOP, วิสาหกิจชุมชน). They face FDA notification, label and GMP duties and annual community-enterprise reporting to CPD. K16 only killed the factory licence renewal. Cat 20 searched small food producers only as a one-line mention."
+    },
+    {
+     "category": "Value-added tax and small-business tax duties: VAT registration threshold (1.8m baht), e-filing, withholding tax (ภ.ง.ด.3/53) and the e-Withholding Tax system",
+     "first_search": "ภ.ง.ด.3 ภ.พ.30 ผู้ประกอบการรายย่อย ยื่นแบบ ออนไลน์ หัก ณ ที่จ่าย อิเล็กทรอนิกส์ กรมสรรพากร 2569",
+     "why": "The pass covered no Revenue Department recurring duty (only K15 e-Tax invoice). Monthly withholding-tax and VAT filings fall on a very large number of sole traders and family firms. The pass excluded generic accounting software, but a niche vertical (for example, filing for households that rent out rooms) might not be excluded. Unsure whether this is in scope."
+    },
+    {
+     "category": "Drone, radio and telecom-equipment licences, and the 2024-26 drone registration rules",
+     "first_search": "โดรนเกษตร ขึ้นทะเบียน กสทช. กพท. ใบอนุญาตนักบิน พ่นสารเคมี ผู้ประกอบการ 2568",
+     "why": "The new CAAT and NBTC drone registration and insurance rules hit many small agricultural-spraying drone operators. Agricultural drone services boomed in Thai farming, with registration, pilot licences and pesticide-spraying permits. This is a sector with many small operators and a 2024-26 rule change."
+    },
+    {
+     "category": "Fishing vessels and small-scale fisheries: IUU crew registration, vessel licences, PIPO port-in/port-out and fishing logbooks",
+     "first_search": "เรือประมงพาณิชย์ ใบอนุญาตใช้เรือ ต่ออายุ สมุดบันทึกการจับสัตว์น้ำ ลูกเรือ ขึ้นทะเบียน กรมประมง พ.ร.ก.การประมง 2558",
+     "why": "Thai fishing is a major sector with many small family boat owners under the Royal Ordinance on Fisheries 2015. K18 only covers catch certificates for exporters. Vessel licence renewal, crew contracts, VMS and logbooks are recurring duties for small boat owners. Cat 30 searched fish only under export traceability."
+    },
+    {
+     "category": "Cross-border trade duties on small operators: border-trade traders, import/export licences for restricted goods, and the 2025-26 rules on cheap Chinese imports (VAT on low-value parcels, e-commerce seller registration, TISI product-standard marks)",
+     "first_search": "ผู้ขายออนไลน์ จดทะเบียนพาณิชย์อิเล็กทรอนิกส์ DBD มอก. บังคับ สินค้านำเข้า ภาษีมูลค่าเพิ่ม พัสดุ 2569 ผู้ประกอบการรายย่อย",
+     "why": "The pass covers no importer-side duties apart from the EU-bound K05 and K06. The 2024-25 changes (VAT on imports under 1,500 baht, the TISI mandatory standard drive against online sellers, e-commerce operator registration with DBD) affect thousands of small online sellers and importers. The pass did not search this."
+    }
+   ]
+  },
+  "tag": "w2b54"
+ },
+ "discover:A:thailand": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small licensed foreign-banknote exchange shops (non-bank 'Authorised Persons') and prospective new entrants",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.bot.or.th/th/laws-and-rules/public-hearing/public-hearing-20260921-money-changer.html ; https://www.bot.or.th/content/dam/bot/public-hearing/fx-regulation-nov-2025/public-hearing-20260819-money%20changer.pdf (PDF text read locally: BOT 'plans to significantly revise qualifications, criteria and licence format ... capital, branch management, system standards and service limits'); https://www.thaipbs.or.th/news/content/260182",
+     "existing": "Competitor search in Thai (โปรแกรมแลกเงิน / POS ซื้อขายธนบัตรต่างประเทศ) found no Thai money-changer product, only foreign tools (CurrencyXchanger, FX-Star on G2/Capterra) and Tanzanian/Pakistani systems. Bank-run exchange kiosks (KBank) are a different segment.",
+     "known_id": "K10",
+     "known_mark": "new",
+     "known_note": "Different buyer group (licensed money changers, not gold shops) and a different authority (BOT, not AMLO).",
+     "name": "Money-changer (บุคคลรับอนุญาต) Licence-Upgrade and Monthly Reporting Desk",
+     "score": 5,
+     "status": "promising",
+     "trigger": "BOT draft criteria on public hearing 21 Sep-20 Oct 2026 (earlier hearing 19 Aug-18 Sep 2026). Applicants for 2027 must file in December 2026; BOT pauses new applications in 2027 and reopens in 2028 (maybe 2 rounds a year). All existing licensees must upgrade in 2027 under new rules (registered capital, branch count, systems standards, per-customer limits) and file results for BOT case-by-case review. Existing duties: monthly volume report to BOT and a report to AMLO above THB 2m per customer (Thai PBS, unverified against the current notice).",
+     "unchecked": "Number of current licensees (2017 figure of about 1,943 is old); the exact new system standard and per-customer limits in the full draft; the BOT monthly report format and AMLO duty; whether foreign vendors or Thai POS vendors already sell a compliant system; shop owners' willingness to pay. Full PDF text was read only in its first section."
+    },
+    {
+     "buyer": "Private elderly and dependent-person care centres and nursing homes (about 1,000-1,200 centres)",
+     "category": "20. Small licensed premises with inspections (also 1. live-in carers)",
+     "evidence": "https://www.naewna.com/n/?p=101604 ; https://www.bangkokbiznews.com/health/1255384 ; https://www.thaipost.net/main/detail/96487 ; https://www.thansettakij.com/business/177080 ; https://mgronline.com/qol/detail/9590000125670",
+     "existing": "CloudNurse (Thai SaaS for elder-care centres, 40+ centres and 1,000+ residents, e-care records, eMAR, incidents, finance, rosters; Bangkok Post PR https://bangkokpost.com/thailand/pr/2900172/cloudnurse-launches-thailands-first-digital-elderly-care-platform). Not shown to cover licence-bed reconciliation, caregiver registration expiry or DHSS inspection prep.",
+     "known_mark": "new",
+     "name": "Elder-Care Centre Licence, Bed-Count and Caregiver Registration Ledger",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Health Business Establishments Act B.E. 2559 plus the ministerial regulation in force 27 Jan 2021: operator licence, centre licence tied to permitted beds, every caregiver registered with DHSS after 420-hour course. Oct 2026: DHSS revoked a Kanchanaburi centre that held a 50-bed licence but housed 129; around 1,200 centres ordered inspected nationwide. A draft ministerial regulation on new standards for about 1,000 centres is reported (date and status unknown).",
+     "unchecked": "Licence renewal cycle and form; whether DHSS requires periodic reports; the draft regulation's content; how many centres are small family-run; other Thai vendors; whether CloudNurse offers compliance modules."
+    },
+    {
+     "buyer": "Spa, health-massage and beauty-massage shops (tens of thousands of premises)",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://www.matichon.co.th/local/news_154852 ; https://www.thansettakij.com/health-wellness/health/647264 ; https://www.bangkokbiznews.com/news/824360",
+     "existing": "Not searched (score below 3, so the competitor search was not required).",
+     "known_mark": "new",
+     "name": "Spa/Massage Health-Establishment Licence and Therapist Registration Tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Health Business Establishments Act B.E. 2559 (in force 27 Sep 2016): operator, manager and service-provider licences; therapists must be registered after approved courses; DHSS crackdowns in 2026 (Bangkok sweeps, Sukhumvit raids).",
+     "unchecked": "Renewal cycle and fee mechanism; current premise count; competing salon/spa POS products; whether the pain is licence tracking or staff turnover."
+    },
+    {
+     "buyer": "Private pawnshops (outside the state pawnshops)",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://www.lhbank.co.th/getattachment/1620d56e-9458-494d-95db-c2cd15e71176/economic-analysis-Industry-Outlook-2026-Pawn-Shop ; https://www.dataforthai.com/business/objective/64925",
+     "existing": "Not checked. Pawn management software likely exists; not searched.",
+     "known_id": "K10",
+     "known_mark": "new",
+     "name": "Pawnshop Daily Book and Licence Compliance Kit",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Pawnshop licence and record duties plus possible AMLO reporting; sector growing (THB 29.4bn pledges FY2025, over 90% gold).",
+     "unchecked": "Governing statute and regulator; record format; AMLO status; licensee count; competitor software."
+    },
+    {
+     "buyer": "Independent gold shops",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.infoquest.co.th/?p=622124 ; https://www.thansettakij.com/finance/664698 ; https://www.bot.or.th/th/news-and-media/news/news-20251230.html",
+     "existing": "Competitor search (โปรแกรมร้านทอง POS KYC ปปง.) returned no named Thai gold-shop product, only legal commentary (Tilleke & Gibbs on expanded KYC/CDD).",
+     "known_id": "K10",
+     "known_mark": "known",
+     "known_note": "Same buyer group and same KYC/cash-control duty; adds a BOT payment-source rule as a 2026 trigger. Adds new evidence for K10, not a new idea.",
+     "name": "Gold-shop cash/payment-source rules (BOT hearing Jul-Aug 2026)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "BOT hearing 22 Jul-20 Aug 2026 on payment rules for gold bars at shops (cash ceiling of THB 10m floated, source-of-funds checks); Notice No. 36 (26 Jan 2026) covers only gold traders above THB 10bn turnover, so small shops sit outside the reporting rule.",
+     "unchecked": "Final BOT rule and whether small shops are caught; AMLO KYC thresholds now in force (700k/2m figures are from about 2009 and may be obsolete)."
+    },
+    {
+     "buyer": "Licensed scrap and second-hand dealers",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "https://www.thairath.co.th/news/politic/2843365 ; https://www.thansettakij.com/economy/620312",
+     "existing": "None checked.",
+     "known_id": "K09",
+     "known_mark": "known",
+     "known_note": "Same buyer group and same duty; this is a pending trigger for K09.",
+     "name": "Second-hand trade law amendment (record of sellers)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Act B.E. 2474 under review by the House industry committee (Feb 2025); THB 2,000 fine for not recording sellers; draft widens the definition to online trade. No evidence it has passed.",
+     "unchecked": "Whether the amendment was enacted after Feb 2025."
+    },
+    {
+     "buyer": "Moto-taxi riders, taxi owners and app drivers",
+     "category": "18. Transport operators",
+     "evidence": "https://www.dailynews.co.th/news/5937931/ ; https://www.thaipost.net/general-news/1067906/ ; https://www.bangkokbiznews.com/news/news-update/1253309",
+     "existing": "Not searched (score below 3).",
+     "known_id": "K19",
+     "known_mark": "new",
+     "name": "Public-vehicle driver licence and vehicle inspection expiry tracker for moto-taxi, taxi and app drivers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Public driving licence required for all app-based ride drivers by 30 Sep 2026; moto-taxi inspection window opened Sept 2026; DLT crackdown on expired taxis (Mar 2026).",
+     "unchecked": "Whether any recurring filing exists beyond renewals; willingness to pay is likely very low; app platforms may already remind drivers."
+    },
+    {
+     "buyer": "Small licensed slaughterhouses",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://www.thansettakij.com/business/403127 ; https://www.matichon.co.th/local/news_1206500",
+     "existing": "Not checked; DLD may run its own system.",
+     "known_mark": "new",
+     "name": "Slaughter-notification and licence ledger for small slaughterhouses",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Slaughter Control for Meat Distribution Act B.E. 2559, ministerial regulations in force 25 Nov 2021: notify count, source and time of slaughter; DLD inspects licensed houses twice a year.",
+     "unchecked": "Whether notification is electronic, how many small abattoirs exist, DLD forms."
+    },
+    {
+     "buyer": "Village waterworks committees and local administrations",
+     "category": "13. Small water systems",
+     "evidence": "https://www.bangkokbiznews.com/health/public-health/1231409",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Village waterworks quality-testing log",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "DOH 2025 survey: only 9.5% of village waterworks pass criteria; DOH-NANOTEC MOU April 2026.",
+     "unchecked": "Whether any mandatory filing exists; buyer payment ability."
+    },
+    {
+     "buyer": "Licensed septic and sanitation-waste haulers",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://www.naewna.com/politic/902896 ; https://www.naewna.com/local/969610",
+     "existing": "None found.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "Septic-truck operator licence and disposal-record tool",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Bangkok crackdown on unlicensed septic trucks (June 2026); 2025 cabinet-approved fee regulation (status unknown); municipal ordinances requiring transport documents.",
+     "unchecked": "National manifest rule; local variation; number of operators."
+    },
+    {
+     "buyer": "Drilling contractors and licensed groundwater users",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://infocenter.oic.go.th/FILEWEB/CABINFOCENTER3/DRAWER079/GENERAL/DATA0000/00000103.PDF",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Groundwater use licence and fee tracker for well drillers and users",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Groundwater Act licences (drill, use, discharge) from the Department of Groundwater Resources; fees by purpose.",
+     "unchecked": "Any meter reporting duty or fee deadline; DGR e-service."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing new beyond K07. Employer must notify DOE of migrant worker start/end within 15 days (7 days for MOU workers), fine up to THB 20,000 (mgronline 9620000038882 via search, unverified in full). 90-day report is the worker's duty to Immigration. No household-employer-specific DOE system found. Live-in carers for elderly are covered by the care-home candidate below (caregiver registration with DHSS, 420-hour course).",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Nothing new beyond K09. Controlling Auctions and Second-hand Trade Act B.E. 2474: Thairath/Thansettakij (Feb 2025) report House industry committee reviewing amendments, fine for not recording sellers is only THB 2,000, draft would widen 'second-hand trade' to electronic means. Status of bill after Feb 2025 not confirmed. Dealers also need a local public-health licence (hazardous-to-health business). data.go.th has a list of licensed dealers (dataset_40_204), so a lead list exists.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Second-hand side is K09. Pawnshops: LH Bank outlook says about 1.41m pledgors and THB 29.4bn of pledges in FY2025, over 90% gold. Could not find the pawn licence regime, record-keeping format or any AMLO reporting duty; unverified. Logged as a weak, unchecked candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Related to K10 (no new rejection). New evidence: BOT/AMLO joint tightening 30 Dec 2025; Foreign Exchange Controller Notice No. 36 (gazetted 26 Jan 2026) makes only large gold traders (domestic gold turnover over THB 10bn/yr, 5-yr average) report transactions, so small shops are outside it; BOT hearing 22 Jul-20 Aug 2026 on cash/payment-source rules for gold-bar sales at gold shops, with a THB 10m cash ceiling floated (title only). Competitor search for gold-shop POS found no named Thai product.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler licence or register found. DIW says only 2 integrated end-of-life vehicle plants exist (Chonburi, Ayutthaya) (Bangkokbiznews 28 Jun 2026). Crime news on chop shops with 100+ registration books. Nothing recorded as a candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Animal Epidemics Act B.E. 2558 movement permits are issued through DLD's e-movement system, so a state tool already covers it. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Slaughter Control for Meat Distribution Act B.E. 2559; three ministerial regulations in force 25 Nov 2021. Slaughterers must notify animal count, source, date and time (fines per head, e.g. up to THB 20,000 per pig). DLD inspects licensed slaughterhouses twice a year; 364 licences cancelled, 51 suspended. Whether pork-stall (เขียงหมู) cutters need a licence is unclear. Weak, unverified candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Nothing mandatory found. TAS 8207-2567 (GAP for bee farms) is voluntary; research shows record-keeping weak. DOAE Chiang Mai tests honey free. No registry or recurring duty.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Search returned only generic DLD news; no veterinary-drug sales register, form or 2025-26 rule found. Unverified, not rejected. The statutes are the Veterinary Drug Act and Veterinary Profession Act; numbers and forms not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Groundwater Act licences (drilling, use, discharge) from DGR; water-use fees by purpose. No reporting format or fee-collection data found. Weak, unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Bangkok crackdown on unlicensed septic-truck operators in Ratchathewi (June 2026). Cabinet approved a draft ministerial regulation on fees for sanitation-waste licences in 2025 (gazette status unknown). Some municipal ordinances (e.g. Tak Fa) require transport documents. No national manifest system found. K02 covers industrial waste, not this buyer group.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Nothing new beyond K04. Building Control Act s.32 bis annual inspection of controlled buildings; lift owners hire engineers; boiler internal inspections every 1-5 years under DIW. Many commercial inspection vendors already exist. Buyers are building owners and juristic persons, not quiet small firms.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "DOH survey 2025: only 9.5% of village waterworks pass the potable-water criteria; April 2026 DOH-NANOTEC MOU for test kits and surveillance. No licence regime for village waterworks found. Operators are village committees and local governments with weak payment ability. Weak, unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "No search spent: K08 already covers the pesticide-shop register and the budget went to categories with no prior idea. Fertiliser dealers not checked.",
+     "status": "not_reached"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Nothing new beyond K07. DOE inspected 43,832 workplaces and prosecuted 1,442 from Oct 2024 to 13 May 2025. MOU intake deadlines in 2025. Recruiter licence regime and any periodic report not found; unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Cemeteries and Crematoria Act B.E. 2528: local officer issues a 3-year licence. Sept 2026 Chachoengsao case (licence not renewed, order to remove the cemetery; Thai PBS and Naewna). No funeral-business law found. No software angle. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "CICOT Halal Affairs Notice 5/2569 on extending halal certification; 2025 rules lengthened the mark period from 1 year to 2-3 years. Foundation/association annual-report duties and online system not confirmed. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Government required all app-based ride drivers to hold a public driving licence by 30 Sep 2026 (deadline just passed, no extension seen). Public motorcycle taxis may inspect at any private inspection centre one month ahead (Sept 2026). DLT cracking down on expired taxis (Mar 2026). A document-expiry reminder tool is possible but thin. K19 truck GPS already rejected.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers: strong lead (see candidate). Street vendors: BMA vendor rules revised 2024 draft; no recurring licence filing or software gap found.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Elder-care centres (strong, see candidate) and spa/massage under the Health Business Act 2559 (weak). Driving schools: only open-data list and nothing on a reporting system. Nurseries: authority unclear (conflicting sources between social development office and local government); nothing new. Tattoo studios and hunting outfitters: not applicable, no licensing regime found. Small food producers: K16.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "ร้านรับซื้อของเก่า ใบอนุญาต พ.ร.บ.ซื้อขายของเก่า สมุดบัญชี รายงานตำรวจ",
+    "สถานพยาบาลสัตว์ ร้านขายยาสัตว์ ใบอนุญาต ทะเบียน ควบคุมยาสัตว์ บัญชีรับจ่าย กรมปศุสัตว์ 2568",
+    "ลิฟต์ หม้อน้ำ ตรวจสอบประจำปี กฎกระทรวง วิศวกรตรวจสอบ ผู้ครอบครอง อาคาร",
+    "ธุรกิจจัดหางาน บริษัทจัดหางาน รายงาน กรมการจัดหางาน นายจ้างแรงงานต่างด้าว MOU 2568",
+    "ร้านรับซื้อทองคำ ร่างแก้ไข พ.ร.บ.ควบคุมการขายทอดตลาดและค้าของเก่า 2569",
+    "ซื้อขายซากรถยนต์ อู่แยกชิ้นส่วนรถเก่า ใบอนุญาต กรมการขนส่งทางบก",
+    "โรงฆ่าสัตว์ ใบอนุญาต เขียงหมู พ.ร.บ.ควบคุมการฆ่าสัตว์ ตรวจสอบย้อนกลับ 2569",
+    "พ.ร.บ.โรคระบาดสัตว์ ผู้ค้าสัตว์ ขนส่งสัตว์ ใบอนุญาตเคลื่อนย้ายสัตว์ ตลาดนัดค้าสัตว์",
+    "ผู้ประกอบกิจการเจาะน้ำบาดาล ใบอนุญาต ใช้น้ำบาดาล รายงานปริมาณการใช้น้ำ",
+    "ผู้รับกำจัดสิ่งปฏิกูล รถสูบส้วม ใบอนุญาต เทศบาล เอกสารกำกับ 2569",
+    "รถรับจ้างสาธารณะ วินมอเตอร์ไซค์ แท็กซี่ ใบอนุญาต กรมการขนส่งทางบก 2569",
+    "มูลนิธิ สมาคม รายงานประจำปี กรมการปกครอง ฮาลาล มัสยิด",
+    "โรงเรียนสอนขับรถ ใบอนุญาต กรมการขนส่งทางบก 2569",
+    "ฌาปนสถาน สุสาน เมรุ ใบอนุญาต พ.ร.บ.สุสานและฌาปนสถาน 2569",
+    "ธุรกิจแลกเปลี่ยนเงินตราต่างประเทศ ผู้รับอนุญาต ธปท. ปปง. ร้านแลกเงิน กฎใหม่ 2569",
+    "สถานรับเลี้ยงเด็ก ศูนย์เด็กเล็กเอกชน ใบอนุญาต พม. 2569",
+    "ผู้ค้าหาบเร่แผงลอย ตลาด ใบอนุญาต กทม. 2569",
+    "ประปาหมู่บ้าน คุณภาพน้ำ กฎกระทรวง ใบอนุญาต 2569",
+    "โปรแกรมร้านแลกเงิน ระบบรายงาน ธปท. บุคคลรับอนุญาต ปปง. KYC (competitor)",
+    "โปรแกรมร้านทอง POS รับซื้อทอง KYC ปปง. ธปท. 2569 (competitor)"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b54"
+ },
+ "discover:B:thailand": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small employers and household or farm employers with registered Lao, Myanmar or Vietnamese workers (construction subcontractors, farms, restaurants, workshops), plus small labour agents who file on their behalf",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://www.prd.go.th/th/content/category/detail/id/39/iid/531308 ; https://www.bangkokbiznews.com/news/news-update/1250827 (fetched; confirms window, fees, documents, system; does not state number of workers) ; https://www.thansettakij.com/general-news/657139",
+     "existing": "DOE's e-WorkPermit (outsourced to a joint venture, Future Sky) and unnamed private agents. The search found no named employer-side SaaS. Reports of a DOE dispute over work acceptance in May 2026 and of a system outage (Infoquest) show the portal is not frictionless.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "known_note": "Different duty from K07 (SSO s.33 onboarding): this is the work-permit cycle, but the buyer group overlaps with farm and household employers.",
+     "name": "Migrant-Worker Work-Permit Renewal Desk for Small Employers (Lao, Myanmar, Vietnamese; e-WorkPermit)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Cabinet resolution of 14 Jul 2026 and the DOE notice: permits expiring 11 Dec 2026 can be renewed one year to 11 Dec 2027. Filing and fee window 8 Sep to 11 Dec 2026 (cut-off 16:30 for filing, 20:00 for fee). Fee is 100 baht per application plus 900 baht per permit. Filed on eworkpermit.doe.go.th with passport, a medical certificate linked to DOE, health or social-security cover and a stamped power of attorney. Employer fine for unlicensed foreign workers up to 200,000 baht.",
+     "unchecked": "Number of workers and employers due by 11 Dec 2026; whether the deadline repeats yearly (earlier rounds 31 Mar and 7-21 Apr 2026 suggest repeated cycles); Cambodian workers; named competitors (the one competitor search returned no employer-side software); whether agents already dominate; the one-off nature of the cycle."
+    },
+    {
+     "buyer": "Licensed rubber traders and rubber-buying yards (ลานเทยาง) in the south and east, including small family buyers",
+     "category": "36. Rubber dealers and rubber-cup-lump buyers (Rubber Control Act 1999) (country-specific); also 22",
+     "evidence": "https://www.doa.go.th/rubber/wp-content/uploads/2019/02/02-KA.pdf (appeared in search; direct fetch returned 503, so the monthly-by-the-10th detail is from the search summary and is unverified) ; https://www.dailynews.co.th/news/2759265/ (search result; contents not opened)",
+     "existing": "No rubber-dealer ledger software found in one competitor search (results were generic accounting and farmer-insurance pages). Generic Excel and Express accounting would be the substitute.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Rubber Dealer Monthly Buy-Sell-Stock Ledger and Licence Desk (Rubber Control Act 1999)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Rubber Control Act 1999: DOA guide says licensees must keep accounts of rubber purchased, sold and stock on hand each month and send them to the officer by the 10th of the next month; failure to submit is an offence. A news report says the Agriculture Ministry planned to enforce monthly stock and buy-sell reporting on the 10th and make rubber a controlled good (date and status not confirmed).",
+     "unchecked": "Whether the monthly submission is still required and how it is filed (paper or online); who enforces (DOA Rubber Division vs RAOT); number of licensed dealers; whether RAOT (กยท.) market-centre systems already collect the data; EUDR traceability add-on for the same buyers; and local competitor software."
+    },
+    {
+     "buyer": "Maize collectors and middle-men buying 50 tonnes or more, buying-point operators and cassava yards",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://www.matichon.co.th/article/news_637958 ; https://www.naewna.com/n/?p=25489 ; https://www.thairath.co.th/news/local/2893018",
+     "existing": "None found. No software search run.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Maize and Cassava Buyer Notification and Stock-Control Ledger (DIT)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Matichon report of a notification under a commodity committee (กกร.) resolution: buyers of 50 t or more must notify volume, storage place and price to the officer; DIT officers also check weighing, moisture meters and posted prices (inspections in Nakhon Sawan and Phetchabun, Aug 2026). Penalty reported up to 7 years and 140,000 baht for price suppression.",
+     "unchecked": "Whether the 50 t notification and ledger rule is still in force (news dates unclear); who must file and how; seasonal; competitor search not run (budget)."
+    },
+    {
+     "buyer": "Juristic persons of housing estates (Land Allocation Act 2000) and small condominiums, mostly run by volunteer committees",
+     "category": "31. Housing-estate and condominium juristic persons (country-specific)",
+     "evidence": "One search only: https://so01.tci-thaijo.org/index.php/gradlawtujournal/article/view/188873 (academic paper on weak juristic-entity rules); no regulator source found.",
+     "existing": "Not checked. Likely existing property-management software.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Juristic-Person Accounts and Meeting Pack for Housing Estates and Small Condominiums",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Annual accounts, general meeting and tax duties of the juristic person. Land Department filing duty not confirmed by the search.",
+     "unchecked": "Whether a filing duty exists; number of entities; existing property-management products; willingness to pay."
+    },
+    {
+     "buyer": "Village and urban community funds (SVF), production savings groups, community welfare funds",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.bangkokbiznews.com/news/906518 ; https://so02.tci-thaijo.org/index.php/jg-mcukk/article/view/250510 (research on fund financial reporting)",
+     "existing": "Not found; SVF office may offer its own system (unverified).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Village Fund and Community Savings Group Bookkeeping and Reporting",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Funds report financial status to the National Village and Urban Community Fund Office; a new 200,000 baht per village income-generation scheme (about 16bn baht) was reportedly to start approvals in Oct 2026 (date on source page inconsistent).",
+     "unchecked": "The actual reporting forms and system; whether a free state tool exists; buyer accessibility (mostly volunteers, low willingness to pay)."
+    },
+    {
+     "buyer": "Savings and agricultural co-operatives",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "CAD promotes its FAS integrated co-operative accounting programme and provincial CAD offices install and advise at no charge: https://www.matichon.co.th/publicize/news_971531 ; CAD planned AI-based accounting-program standards for 2026 (Naewna, 28 May 2026): https://www.naewna.com/local/967424",
+     "existing": "Free CAD FAS programme.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Savings co-operative accounting and filing software",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "CAD audit, Smart Monitor and annual financial statements",
+     "unchecked": "Whether larger co-operatives use commercial software; not worth further work."
+    },
+    {
+     "buyer": "Independent real estate brokers and small agencies",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.naewna.com/local/851947 ; https://www.sanook.com/news/808146/ ; https://www.thansettakij.com/economy/648565 (search results; the threshold detail came from a search summary and is unverified)",
+     "existing": "Not checked.",
+     "known_id": "K10",
+     "known_mark": "new",
+     "known_note": "Same AMLO product pattern as K10 but different buyer group (brokers, not gold shops).",
+     "name": "AMLO Cash-Transaction and Risk-Assessment Kit for Real Estate Brokers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "AMLA: brokers and real-estate agents report cash transactions (reported threshold 2m baht, unclear whether property value or commission) and suspicious transactions, with cash reports due by the end of the next month; AMLO requires risk-assessment submissions from reporting groups.",
+     "unchecked": "Whether brokers are really listed reporting entities, threshold, AMLO filing system, competitor search not run (budget)."
+    },
+    {
+     "buyer": "Small massage shops and spas",
+     "category": "32. Spa, massage and health-establishment operators (country-specific)",
+     "evidence": "https://www.thaipbs.or.th/news/content/255774 ; https://www.hfocus.org/content/2026/03/37241 (search results; renewal period not found)",
+     "existing": "Not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Spa and Massage Licence and Staff-Certificate Tracker (Health Establishments Act 2016)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Three licences (operator, manager, therapist); penalties up to 6 months jail or 50,000 baht; DHSS inspections.",
+     "unchecked": "Renewal cycle and reporting duty; competitor search not run."
+    },
+    {
+     "buyer": "Small private dormitory owners",
+     "category": "33. Dormitory (หอพัก) operators (country-specific)",
+     "evidence": "https://ratchakitcha.soc.go.th/documents/2081983.pdf (search result, not opened) ; https://www.ilaw.or.th/articles/16505",
+     "existing": "Dormitory management apps likely exist (not checked).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Dormitory Operator Lease, Insurance and Licence Desk (Dormitory Act 2015)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Licence from local government, compulsory insurance, standard lease form.",
+     "unchecked": "Any periodic duty (no tenant register obligation found)."
+    },
+    {
+     "buyer": "Small tour operators and licensed guides",
+     "category": "34. Tour operators and guides (country-specific)",
+     "evidence": "https://www.thairath.co.th/news/politic/2950600 ; https://www.thansettakij.com/business/tourism/662410",
+     "existing": "Not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Tour Operator and Guide Licence Compliance Desk",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DOT inspected 1,962 tour firms in H1 2026 with 68 offenders; expired-licence arrests at a Jun 2026 fair.",
+     "unchecked": "Guarantee and renewal cycle; any periodic report."
+    },
+    {
+     "buyer": "Unlicensed small hotels and hostels",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://www.naewna.com/politic/976977 ; https://www.posttoday.com/smart-city/744931",
+     "existing": "TM30 tooling exists (K17).",
+     "known_id": "K17",
+     "known_mark": "new",
+     "known_note": "Different duty from K17 (TM30 filing).",
+     "name": "Small-Hotel Licensing Catch-up (Hotel Act amendment)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Grace period for older non-compliant buildings ended 18 Aug 2025; amendment of the Hotel Act is being lobbied (HSA, Jul 2026).",
+     "unchecked": "Whether the law passes; one-off nature."
+    },
+    {
+     "buyer": "Private clinics",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://www.thansettakij.com/health-wellness/health/647264",
+     "existing": "Fee payment is treated as renewal under a 2021 decree (old news), so little left to automate.",
+     "known_id": "K13",
+     "known_mark": "new",
+     "known_note": "Licensing not claims; K13 was claims.",
+     "name": "Private Clinic Licence Renewal Tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "10-year licence term; 325 Bangkok clinics licensed in 2015 due before end 2025; unlicensed operation punishable by up to 5 years or 100,000 baht.",
+     "unchecked": "Current renewal procedure."
+    },
+    {
+     "buyer": "Shops and small outlets licensed to sell alcohol and tobacco",
+     "category": "35. Retail alcohol and tobacco licence holders (country-specific)",
+     "evidence": "https://www.infoquest.co.th/?p=61954 ; https://mgronline.com/politics/detail/9650000121831 (search results, not opened)",
+     "existing": "Excise Department online channel (details unverified).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Retail Liquor and Tobacco Licence and Sales-Report Filing",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Excise licences and sales notification; online channel approved by cabinet (date unclear); retail licensing may move to local government.",
+     "unchecked": "Whether any periodic report is needed."
+    },
+    {
+     "buyer": "Small security-guard firms",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://www.ilaw.or.th/?p=16543 ; https://www.thaipbs.or.th/news/content/250978 (search results)",
+     "existing": "Not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Security Guard Company Licence and Guard-Certificate Tracker",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Security Business Act 2015; police licensing.",
+     "unchecked": "Renewal and reporting duties; no 2024-2027 changes found."
+    },
+    {
+     "buyer": "Sawmills, timber depots and rubberwood processors",
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "evidence": "https://www.forest.go.th/forestprotect-operation/wp-content/uploads/sites/108/2023/06/แนวทางปฏิบัติของผู้รับอนุญาตตั้งโรงงานแปรรูปไม้.pdf (search result, not opened) ; https://thaipublica.org/2025/05/scb-eic-eu-deforestation-regulation/",
+     "existing": "Not checked.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "Domestic ledger duty rather than EUDR evidence pack.",
+     "name": "Sawmill and Timber-Depot Log and Sawn-Timber Ledger",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Forest Department requires a ledger of logs and sawn timber at licensed mills; EUDR traceability for rubberwood exports (Thailand rated low-risk).",
+     "unchecked": "Current ledger rule and filing; competitors; number of mills."
+    },
+    {
+     "buyer": "Household LPG shops and small LPG stations",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.infoquest.co.th/?p=384676 ; https://www.prachachat.net/hilight-prachachat/news-1532533",
+     "existing": "Not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "LPG Cylinder Retailer Cylinder-Age and Refill Records",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DOEB found many expired cylinders in circulation (Mar 2024), pursued illegal refilling (penalty up to 1 year or 100,000 baht) and set up a working group on household LPG trade (rules unconfirmed).",
+     "unchecked": "Whether a recordkeeping duty exists; no new rule confirmed."
+    },
+    {
+     "buyer": "Small chemical sellers and cleaning or pest-control product traders",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://www.infoquest.co.th/?p=472791",
+     "existing": "Free state e-licensing.",
+     "known_id": "K08",
+     "known_mark": "new",
+     "known_note": "Adjacent to the farm-input shop register.",
+     "name": "Hazardous Substances Type-3 Licence Online Filing Aid",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Cabinet approved online licences for production, import and export of type-3 hazardous substances such as insecticides and cleaners (date unverified).",
+     "unchecked": "Date and scope."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "2 searches. Enforcement only: DOEB and DIT meter checks, a working group studying household LPG trade, and expired cylinders. No small-retailer recurring-report duty found. Candidate 16 (weak). Not checked: LPG retail shop licence class, ministerial rules on cylinder re-test records, and any software.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "2 searches for corn, cassava and rice, plus rubber under cat 36. Corn buyers of 50 t or more must notify volume, storage place and price and keep a stock-control ledger, per Matichon and Naewna news of unknown date. DIT inspects buying points. Candidate 3 (unverified). Coffee and cocoa not searched; they are minor in Thailand.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "2 searches. Cooperative accounting is covered by the free CAD FAS programme, installed free by provincial CAD offices, and CAD also runs Smart Monitor and Smart Member apps. Rejected as candidate 6. Village funds (SVF) and community savings groups: no reporting-system evidence found, candidate 5 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "1 search. The 10-year clinic licence renewal wave (325 Bangkok clinics licensed in 2015) and SSO claim steps were not found. Paying the fee counts as renewal under a 2021 decree (old news). Claims side is covered by K13 (A-MED Care). Candidate 12 (weak). Labs: no separate search.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "1 search. Pharmacy registers are covered by K12. Hazardous Substances Act licences are being moved online per a cabinet decision (date unverified). The search found no Thai precursor-chemical rule for chemical shops. Candidate 17 (weak, related to K08).",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "2 searches. Security Business Act 2015: no renewal or reporting details found, candidate 14 (unverified). Migrant-worker permit renewal for Lao, Myanmar and Vietnamese workers has a hard deadline of 11 Dec 2026, candidate 1 (promising). Recruitment-agency licensing: nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "2 searches (construction labour; quarries). Construction: only migrant-labour raids (121 undocumented workers found at a Rayong site, June 2026), and the ministerial regulation on abandonment of government works (27 Jul 2026), which concerns public procurement. Quarries and explosives licences: the search returned nothing useful (not_reached in substance). Related to candidate 1.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "2 searches. Real estate brokers are AMLO reporting entities. Cash-transaction reports are due by end of the following month, reportedly at a 2m baht threshold, but sources conflict (cash or commission). AMLO is also demanding risk-assessment submissions from reporting groups. Candidate 7 (related to K10). Notaries: Thailand has no notaries in the civil-law sense, so not applicable.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "1 search. The tourist entry fee has changed from 300 to 450 baht and is not charged to hotels. The Hotel Act amendment for small stays is still being lobbied in July 2026, and the grace period for unlicensed hotels ended 18 Aug 2025. TM30 is K17. Candidate 11 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "1 search. EU rated Thailand low-risk for EUDR on 22 May 2025. Sawmills must keep log and timber ledgers under Forest Dept rules (old guide documents). Candidate 15 (related to K06). Fish is K18.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Housing-estate and condominium juristic persons (country-specific)",
+     "found": "1 search. No filing duty to the Land Department was confirmed. Candidate 4 (unverified). Not checked: existing property-management software.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Spa, massage and health-establishment operators (Health Establishments Act 2016) (country-specific)",
+     "found": "1 search. Three licence types (operator, manager, therapist); penalties for breach; DHSS inspections. No renewal cycle or reporting duty found. Candidate 8 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "33. Dormitory (หอพัก) operators (Dormitory Act 2015) (country-specific)",
+     "found": "1 search. Licensed by local government; mandatory insurance; standard lease form. No periodic report found. Candidate 9 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "34. Tour operators and guides (Tourist Business and Guide Act) (country-specific)",
+     "found": "1 search. DOT inspected 1,962 tour companies in H1 2026 and found 68 offenders, with expired licences a target. Online licence application exists (2019 info). Candidate 10 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "35. Retail alcohol and tobacco licence holders, Excise Dept (country-specific)",
+     "found": "1 search. A cabinet decision added online filing for licence applications and sales reports (date unclear, possibly 2021); a draft to move retail licensing to local government is unconfirmed. Candidate 13 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "36. Rubber dealers and rubber-cup-lump buyers (Rubber Control Act 1999) (country-specific)",
+     "found": "2 searches and 2 fetches (1 blocked 503, 1 irrelevant). Licensed dealers must keep monthly purchase, sale and stock accounts and submit them by the 10th of the following month, per DOA guide search summary; the PDF itself could not be opened. No bookkeeping software found. Candidate 2 (promising).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "สถานีบริการน้ำมัน ผู้ค้าน้ำมัน ก๊าซ LPG รายงานกรมธุรกิจพลังงาน ใบอนุญาต ต่ออายุ",
+    "โรงสีข้าว ลานมันสำปะหลัง ผู้ค้าข้าวโพด ใบอนุญาต รายงานสต็อก กรมการค้าภายใน 2569",
+    "สหกรณ์ออมทรัพย์ กรมตรวจบัญชีสหกรณ์ ส่งงบการเงิน ซอฟต์แวร์สหกรณ์ 2569",
+    "คลินิก เอกชน สถานพยาบาล สบส. ต่ออายุใบอนุญาต ประกันสังคม เบิกจ่าย 2569",
+    "บริษัทรักษาความปลอดภัย พ.ร.บ.ธุรกิจรักษาความปลอดภัย ใบอนุญาต รายงาน 2569",
+    "ผู้รับเหมาก่อสร้าง ขึ้นทะเบียน รายงาน กฎหมายใหม่ 2569 แรงงานต่างด้าว ไซต์งาน",
+    "ปปง. นายหน้าอสังหาริมทรัพย์ รายงานธุรกรรม กฎกระทรวง 2569",
+    "ที่พักระยะสั้น พ.ร.บ.โรงแรม ใบอนุญาต Airbnb กฎกระทรวง 2569 ค่าธรรมเนียมนักท่องเที่ยว",
+    "ผู้ประกอบกิจการค้ายาง ใบอนุญาต รายงานปริมาณยาง ลานรับซื้อยาง",
+    "นิติบุคคลหมู่บ้านจัดสรร อาคารชุด ส่งงบการเงิน กรมที่ดิน ซอฟต์แวร์",
+    "กองทุนหมู่บ้าน กลุ่มออมทรัพย์เพื่อการผลิต กองทุนสวัสดิการชุมชน รายงานบัญชี สทบ. 2569",
+    "วัตถุอันตราย ใบอนุญาต รายงาน กรมโรงงาน สารตั้งต้นยาเสพติด ร้านเคมี",
+    "โรงโม่หิน เหมืองหิน ประทานบัตร รายงานประจำเดือน วัตถุระเบิด กพร.",
+    "หอพัก ใบอนุญาตหอพัก พ.ร.บ.หอพัก ต่ออายุ ทะเบียนผู้พัก ซอฟต์แวร์",
+    "สถานประกอบการเพื่อสุขภาพ สปา นวด สบส. ต่ออายุ 2569",
+    "ใบอนุญาตขายสุรา ขายยาสูบ กรมสรรพสามิต ต่ออายุ รายงานการขาย 2569",
+    "ผู้ส่งออกไม้ยางพารา ไม้แปรรูป กรมป่าไม้ EUDR โรงเลื่อย",
+    "กรมการจัดหางาน บริษัทจัดหางาน แรงงานต่างด้าว MOU นายจ้างรายงาน 2569",
+    "รับต่อใบอนุญาตทำงาน แรงงานต่างด้าว e-WorkPermit นายจ้าง 11 ธันวาคม 2569",
+    "โปรแกรมบัญชีรับซื้อยางพารา ลานเทยาง ใบอนุญาตค้ายาง ส่งบัญชีทุกวันที่ 10"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b54"
+ }
+}

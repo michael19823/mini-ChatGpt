@@ -1,4 +1,28 @@
 {
+ "challenge:indonesia:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No full killer found. Partial competitors: izin.co.id's paid SLHS processing service (one-off, no tracking of recurring tests); SLHS applications through OSS/DPMPTSP in some districts (e.g. Lumajang); sanitarians from Puskesmas and Dinkes; cheap Labkesda tests where some labs (e.g. Perumda Tirta Kanjuruhan) send staff to take samples.",
+   "reason": "Survives, but only just. I found no software that tracks SLHS and recurring lab tests for depot owners. Asdamindo has no app. In Lumajang, SLHS applications go through OSS, but OSS only takes the application and does not track tests. The duty is real and enforced. Kemendag restated six obligations in July 2026. Satpol PP DKI closed 18 depots on 1–5 October 2026, and only 0.9% of Jakarta's 2,541 depots hold SLHS. The weak points: izin.co.id already sells done-for-you SLHS processing. A summary on halalmui.org says monthly microbiology tests are required, but a Hukumonline piece citing older rules says every 6 months, and I did not read the Permenkes text myself. A Labkesda microbiology test costs about Rp40k, so a reminder tool is worth little. The real barrier is the cost of sanitation upgrades, and family-run depots are unlikely to pay much.",
+   "searches": 8,
+   "sources": "https://izin.co.id/blog/sertifikat-laik-sehat-depot-air-minum/ ; https://izin.co.id/jasa-sertifikat-laik-sehat.php ; https://bcasekuritas.co.id/latest-news/news/kemendag-tegaskan-enam-kewajiban-pelaku-usaha-depot-air-minum ; https://www.industry.co.id/read/156986/satpol-pp-dki-tutup-18-depot-air-minum-yang-tak-berizin-dan-bermasalah ; https://dinkesp2kb.lumajangkab.go.id/uploads/pengumuman/2_SOP_SLHS_Kesling_.pdf ; https://halalmui.org/post-1/ ; https://www.medcom.id/ekonomi/bisnis/1bVrY67b-asdamindo-dorong-depot-air-minum-taat-regulasi ; https://labkes.bukittinggikota.go.id/storage/faq/DOcC8IQyPMuaVFUITIUTTNDrt8ZbQehunzBhNC9u.pdf ; https://www.hukumonline.com/klinik/a/izin-usaha-depot-air-minum-lt57f5cb1631360 ; https://wartaekonomi.co.id/read577010/air-jernih-belum-tentu-aman-jiva-svastha-ajak-warga-cek-ulang-depot-isi-ulang",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b18"
+ },
+ "challenge:indonesia:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single product kills the idea. The filing channel is the free state OSS form. I found no evidence of enforcement, and shops often operate without permits. Generic POS apps (Qasir, Accurate POS for pet shops) already cover stock records, so the gap is only turning that data into Format 2-6.",
+   "reason": "The duty is real. Permentan 16/2021 Art. 36 requires quarterly reports through the OSS supervision subsystem, sent to the regency or city office (Format 2-6). Missing three reports in a year leads to warnings, a suspension of up to 6 months, then revocation (Art. 48). I found no commercial tool that files this report. Nothing kills the idea outright, but it is weak. The filing is a free OSS form. I found no evidence that the quarterly report is enforced. Field studies show many pet and poultry shops sell vet medicine without permits. The shop count is unknown: one city survey found only 13 pet shops and 26 poultry shops. Ditjen PKH is redrafting its business-licensing standards under PP 28/2025 (31 July 2025 meeting), so the rules may change. Generic POS apps such as Qasir and Accurate cover stock.",
+   "searches": 8,
+   "sources": "https://pasal.id/en/peraturan/permen/permentan-no-16-tahun-2021 ; https://repository.unair.ac.id/108913/ ; https://repository.upnjatim.ac.id/27223/1/20071010269.-BAB%201.pdf ; https://ditjenpkh.pertanian.go.id/storage/master/file/WhMWmjFt_NOTULEN_Rapat_Standar_Perijinan_Berusaha_tgl_31_Juli_2025.pdf ; https://accurate.id/aplikasi-kasir/aplikasi-kasir-pet-shop/ ; https://peraturan.bpk.go.id/Download/258679/Perbup%20Nomor%209%20Tahun%202019.pdf",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b18"
+ },
  "critic:indonesia": {
   "result": {
    "gaps": [
@@ -739,6 +763,34 @@
   },
   "tag": "w2b17"
  },
+ "escalate:indonesia:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free state portal ODS / ODS Mandiri (Kemenkop) is the submission channel: self-declaration of USP performance, RAT reporting, and the planned financial-report module. eKoperasi (Indoweb) is a cloud co-op system that handles savings and loans and financial reporting. Kopnuspos runs its own app. Many academic KSP/BMT systems exist. My vendor searches surfaced little commercially, so the wider KSP core-software market is unverified, but it is likely crowded.",
+   "duty": "Partly confirmed. Permenkop UKM 8/2023 (set 16 Jun 2023) puts closed-loop KSP/KSPPS/USP/USPPS under Kemenkop or Dinas supervision. Health ratings lead to a health certificate or, for units rated 'dalam pengawasan', to administrative sanctions (Pasal 100). Pasal 103 lists supervision stages that include examination and sanctions. Pasal 104 requires an external audit for co-ops with capital of Rp5bn or more. Permenkop UKM 2/2024 requires quarterly and half-year periodic financial reports, annual reports approved at the RAT, SAK EP accounts from FY2025 at the latest, and electronic filing (Pasal 10(1)), planned for ODS Mandiri. Not verified: the exact deadlines and submission format of the periodic reports to the authority, the penalty specific to late filing, and the claimed 13 Jan 2026 date (I did not search for it). The BPK PDF returned 403.",
+   "market": "About 19,000 savings-and-loan co-ops out of 224,256 co-ops (Kemenkop, semester I 2026, via Kontan). An older Kemenkop figure: 79,543 co-ops running savings and loans, of which 3,805 were KSPPS/USPPS. Most are closed-loop and remain under Kemenkop.",
+   "reason": "The duty is real, but I could not confirm the reporting schedule. Permenkop 8/2023 (16 Jun 2023) leaves closed-loop KSP/KSPPS under Kemenkop or the local Dinas, with health ratings and administrative sanctions (Pasal 100, 103). Permenkop 2/2024 requires quarterly and half-year financial reports, SAK EP accounts by FY2025, and electronic filing (Pasal 10(1)) through the free ODS Mandiri portal. I found no report deadline or Kemenkop format. Competition looks heavy: ODS is the free channel, and cloud KSP systems such as eKoperasi (Indoweb) already produce the financial reports. Only one commercial vendor turned up, so more vendors are likely. About 19,000 KSPs exist (Kemenkop via Kontan, 2026). This is a core-system market that is hard for a solo founder to enter.",
+   "searches": 6,
+   "sources": "https://diskopukm.jatimprov.go.id/public/uploads/1690357673_PermenKop 8.pdf ; https://api-law.crpg.info/peraturan/permenkop_kukm/8/2023/pasal/100 ; https://api-law.crpg.info/peraturan/permenkop_kukm/8/2023/pasal/103 ; https://api-law.crpg.info/peraturan/permenkop_kukm/8/2023/pasal/104 ; https://peraturan.go.id/files/permenkop-kukm-no-2-tahun-2024.pdf ; https://news.ddtc.co.id/disiapkan-sistem-elektronik-penyampaian-laporan-keuangan-koperasi-1801695 ; https://tirto.id/cara-registrasi-ods-koperasi-merah-putih-hd7V ; https://www.jurnal.id/id/software-akuntansi-koperasi-pembukuan ; https://nasional.kontan.co.id/news/ksp-dan-kspps-dominasi-aset-koperasi-kopdes-merah-putih-masih-tahap-awal ; https://keuangan.kontan.co.id/news/kemkop-sertifikasi-pengelola-digenjot-untuk-kembangkan-koperasi-pembiayaan-syariah ; https://ekonomi.bisnis.com/read/20230223/12/1630914/pengawasan-koperasi-dirombak-mengenal-beda-koperasi-open-loop-close-loop",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b18"
+ },
+ "escalate:indonesia:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The city's free Cek-in Warga app (Disdukcapil Surabaya) is the official data-capture channel for this duty, with camat, lurah, RT and RW involved. Also seen: RT/RW admin apps (Telkomsel eRT with guest log; RTPINTAR, which covers kos dues). Neither was seen with a kos resident-reporting feature. No kos-management app (Mamikos, etc.) was seen with a reporting feature. Not checked: whether owners enter data in Cek-in Warga themselves or through the RT, and whether other cities have copied the rule.",
+   "duty": "Perda Kota Surabaya No. 4/2026 on Hunian yang Layak. JDIH lists it as in force (Berlaku), enacted and promulgated 31 Mar 2026. Pasal 13(1)(e), per press: kos and kontrakan operators report resident data to the lurah via RT/RW within 7 working days of move-in, and periodically if nothing changes. Lease terms are recorded and reported to the Cek-in Warga app, and owners must accept KK address use (at most one KK per rented room). Penalty: not found in press. The full-text PDF on JDIH could not be parsed. The Perwali (technical rules) was still being drafted as of late July 2026. Status of the Perwali and sanctions: unverified.",
+   "market": "No official count of kos in Surabaya was found. A 2016 Suara Surabaya report says the Pemkot had no data on the number of kos, and Disdukcapil now plans to record them through Cek-in Warga. Likely thousands of kos and kontrakan owners, but this is unquantified. Listing sites only show sale listings (e.g., 91 in Gubeng, 222 in Rungkut on Trovit), which are not a market size.",
+   "reason": "The duty is real and in force. Perda Surabaya 4/2026 is listed as in force on JDIH from 31 Mar 2026, and press reports Pasal 13(1)(e): report residents within 7 working days. It is not a clear opening. The reporting channel is the city's own free Cek-in Warga app, run by Disdukcapil with RT/RW and the lurah, which makes a third-party tool largely redundant. One report says ending a tenancy needs only a letter to Disdukcapil. The implementing Perwali was still unissued in late July 2026, so the filing mechanics are open. No sanction was found, and the city has no count of kos (2016 report). Expect low willingness to pay. It fits only as a small add-on for kos-management apps.",
+   "searches": 6,
+   "sources": "https://jdih.surabaya.go.id/peraturan/4756 ; https://www.jawapos.com/surabaya-raya/2607290464/aturan-baru-pemilik-rumah-kos-dan-kontrakan-di-surabaya-wajib-laporkan-data-penyewa-maksimal-7-hari ; https://www.suarasurabaya.net/kelanakota/2026/perda-4-tahun-2026-pemilik-kos-kontrakan-surabaya-wajib-lapor-data-penghuni-maksimal-7-hari/ ; https://jatimtimes.com/amp/baca/3331347855/20260729/160600/privacy ; https://jatimtimes.com/amp/baca/3331347755/20260728/100900/privacy ; https://rri.co.id/nasional/2474422/mengenal-aplikasi-cek-in-warga-pemkot-surabaya-seleksi-spmb-tahun-ajaran-20262027 ; https://www.suarasurabaya.net/?p=121419 ; https://www.detik.com/jatim/bisnis/d-8163893/telkomsel-kenalkan-aplikasi-ert-bisa-kelola-administrasi-untuk-rt-rw ; https://apps.apple.com/app/id1458259481",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b18"
+ },
  "gapfill:indonesia": {
   "result": {
    "blocked_searches": 0,
@@ -936,6 +988,48 @@
   },
   "tag": "w2b17"
  },
+ "opus:indonesia:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no commercial software that produces the Permentan 16/2021 quarterly report. Searches turned up only academic prototypes: SIPETHES (POS/finance for a Sampang vet-medicine shop, UPN Jatim) and a 2016 JSIKA vet-medicine sales app for CV Berliana Sada Mandiri. Generic Indonesian pharmacy/POS systems (for example the HashMicro list of pharmacy POS apps) track stock and sales and could export the needed data. The filing itself happens on the free OSS portal. iSIKHNAS is the state animal-health reporting platform, aimed at Puskeswan, and I saw no sign that shops file through it. The gap is narrow: the software could only turn POS data into Format-6.",
+   "duty": "Permentan 16/2021 (in force, promulgated 18 May 2021, BN 2021 No. 497), Art. 36: business progress report every 3 months via the OSS supervision subsystem to the head of the regency/city office. For depo, apotek veteriner, pet shop, poultry shop and toko obat hewan it covers at least purchases and sales of vet medicine (Format 2-6, Lampiran II). Art. 48(1)(c): failing to report 3 times in a row within 1 year leads to an administrative sanction (written warning). I found no amendment or revocation, but the rule cites PP 5/2021, now replaced by PP 28/2025, so an update is possible and not checked. I did not open the Pontianak Perwali 43/2016 local sanction (revocation after three warnings) myself.",
+   "market": "I found no national count of registered vet-medicine shops or poultry shops. Local surveys give a sense of scale: Surabaya had 15 poultry shops and 41 pet shops; Kota Bengkulu had 26 poultry shops and 13 pet shops selling antibiotics. Extrapolating across about 514 regencies/cities suggests roughly tens of thousands of outlets nationally. This is my own estimate and unverified.",
+   "reason": "The duty is real. Under Permentan 16/2021 Art. 36, depots, vet pharmacies, pet shops, poultry shops and vet-medicine shops must report purchases and sales of vet medicine every 3 months to the regency/city office through the OSS supervision subsystem. Pasal.id lists the rule as in force, with no amendment shown, although PP 5/2021, the licensing rule it relies on, was replaced by PP 28/2025. The penalty is weak: Art. 48 gives only a written warning after 3 missed reports in a year. I found no commercial product built for this report, only academic POS prototypes. Still, the report only needs purchase and sales data that any generic POS stock export can supply, and it is filed on free OSS. Enforcement is unproven and most buyers are micro shops with low willingness to pay. Fits best as an add-on to a vet-shop POS.",
+   "searches": 6,
+   "sources": "https://pasal.id/en/peraturan/permen/permentan-no-16-tahun-2021 ; https://jdih.pertanian.go.id/jdih-ops/storage/sources/files/PERMENTAN_16-2021_Kajian_Lapang_dan_Pengawasan_OH.pdf ; https://www.hukumonline.com/berita/a/pp-28-2025-hadirkan-reformasi-sistem-oss-dan-perizinan-berusaha-lt687a51f52b920 ; https://repository.upnjatim.ac.id/34603/ ; https://jurnal.dinamika.ac.id/index.php/jsika/article/download/827/494 ; https://www.hashmicro.com/id/blog/aplikasi-kasir-apotek/ ; https://repository.unair.ac.id/141851/ ; https://repository.unair.ac.id/108913/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b18"
+ },
+ "opus:indonesia:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Simkopdes and Simkopdes Mobile: a free government super-app that records transactions and makes reports. RUNS (PT Global Sukses Solusi Tbk), product Accounting+: named by a Kemenkop letter of 5 March 2026 as the tech partner for about 80,000 Kopdes Merah Putih; integrated with Simkopdes; does automatic bookkeeping and instant financial reports (no RAT module mentioned; cost to co-ops not stated). Mekari Jurnal (jurnal.id): has a co-op accounting software page covering savings, loans, ledgers and SHU calculation. KOPEKSI: an app used to help Kopdes reporting, from a university field study. Not verified: whether any product builds the RAT pack itself.",
+   "duty": "The duty is real; the new rule is a draft and the penalties are unconfirmed. Every co-op must hold a RAT each year. Regional offices urge holding it by March; for Kopdes the 2026 deadline was extended to April, with Simkopdes reporting by May (Fakfak). Permenkop 2/2025 sets up Simkopdes as the integrated system for co-op data, management and monitoring; I did not check the claimed quarterly reporting rule in the text. Sanctions are cited from Permenkop 19/2015 (warnings, ban on board members, licence revocation or dissolution), but only from a 2019 journal; I did not confirm it is still in force. Kemenkop's new RAT regulation with sanctions was being drafted in May 2026; final text and a national deadline were not found.",
+   "market": "About 131,617 active co-ops as of 2024 (Kemenkop, Harkopnas 78). Plus about 80,000 Kopdes Merah Putih; 76,733 of them (92.69%) had Simkopdes accounts by 21 November 2025. Many are reportedly inactive or exist only on paper.",
+   "reason": "The duty is real but the gap the claim relies on is already filled. Cooperatives must hold an annual member meeting (RAT). The rule usually cited, Permenkop 19/2015, allows warnings, a ban on board members and dissolution, but my only source for it is a 2019 journal. A new RAT regulation with sanctions was still a draft in May 2026. In Fakfak, a RAT counts only after its data is in Simkopdes. Main problem: on 5 March 2026 Kemenkop named RUNS (Accounting+) as the tech partner for about 80,000 Kopdes Merah Putih. RUNS is integrated with Simkopdes and does bookkeeping and reporting. Simkopdes Mobile also records transactions and makes reports. For the roughly 131k other co-ops, Mekari Jurnal sells co-op accounting with SHU (profit-sharing) calculation. Village co-ops are likely state-subsidised, so willingness to pay is low.",
+   "searches": 5,
+   "sources": "https://bcasekuritas.co.id/latest-news/news/runs-resmi-ditunjuk-sebagai-mitra-sistem-digitalisasi-koperasi-merah-putih ; https://wartaekonomi.co.id/read603729/global-sukses-runs-ditunjuk-jadi-mitra-teknologi-80000-koperasi-merah-putih ; https://www.rctiplus.com/news/detail/ekonomi/5337269/run-system-runs-ditunjuk-jadi-mitra-sistem-digitalisasi-koperasi-merah-putih ; https://apps.apple.com/id/app/simkopdes/id6749216676 ; https://www.peraturan.go.id/files/permenkop-no-2-tahun-2025.pdf ; https://rri.co.id/fak-fak/ekonomi/umkm/2315645/kadis-koperasi-banyak-koperasi-fakfak-sudah-rat-namun-belum-terverifikasi ; https://ekonomi.bisnis.com/read/20260507/12/1972126/kemenkop-susun-aturan-baru-rat-koperasi-tak-patuh-terancam-sanksi ; https://investortrust.id/business/86237/kemenkop-92-69-koperasi-merah-putih-sudah-terintegrasi-simkopdes ; https://investortrust.id/financial/72322/menkop-harkopnas-ke-78-tahun-2025-sebagai-momentum-kebangkitan-gerakan-koperasi ; https://www.jurnal.id/id/software-akuntansi-koperasi-pembukuan ; https://mopolayio.fe.ung.ac.id/index.php/mopolayio/article/view/147",
+   "suggested_score": 2.5,
+   "verdict": "refuted"
+  },
+  "tag": "w2b18"
+ },
+ "opus:indonesia:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Free regional e-SPTPD portals (e.g. Gianyar, Sukabumi, Magelang) handle registration, filing and payment codes. Mamikos Kelola Tagihan and Laporan Keuangan (Booking Langsung/GoldPlus plans) record rent and produce downloadable income reports, but I found no tax feature. I found no product that turns kos rent records into SPTPD figures.",
+   "duty": "PBJT jasa perhotelan on kos under UU 1/2022 HKPD Art. 53(1)(j) plus regional perda. Kendal: 10% of rent actually received, owed from the January 2026 tax period, collected by the owner and paid to Bapenda each month. Jakarta: Perda 1/2024 includes kos with no room minimum, and late-filing penalties for PBJT were waived for July and August 2026. Example penalty: Buleleng fines Rp100,000 per unfiled SPTPD (general PBJT, not kos-specific). Filing is monthly SPTPD, e.g. within 15 days after the period ends in Magelang. Some regions do not tax kos, and a 2023 DDTC piece said kos would be exempt, so the duty depends on each region's perda.",
+   "market": "No count found of kos registered for PBJT, nationally or by region (not found in 5 searches). Kendal and Jakarta are confirmed adopters, Banyuwangi is considering it, and adoption elsewhere is unverified. Indonesia has millions of kos rooms, but most are small and many owners are not compliant (DDTC 2026: most lodging owners do not comply).",
+   "reason": "The duty is real but only in some regions. Kendal charges 10% PBJT on rent actually received, owed from the January 2026 tax period, with the owner collecting and remitting it. Jakarta's Perda 1/2024 covers kos with no minimum room count, and DJPK says even one room can be taxed. Other regions follow their own perda, and a 2023 reading said kos were exempt, so adoption is patchy. I found no software that turns rent records into SPTPD. Monthly filing goes through free regional e-SPTPD portals, and Mamikos already keeps rent and finance records. The tax maths is trivial, owners are largely non-compliant, enforcement is weak and willingness to pay is low. Rules differ in each of roughly 500 regions. I found no count of liable kos.",
+   "searches": 5,
+   "sources": "https://news.ddtc.co.id/berita/nasional/1816983/pajak-rumah-kos-10-di-kendal-mulai-berlaku-ini-penjelasan-bapenda ; https://news.ddtc.co.id/berita/nasional/1805491/catat-kemenkeu-sebut-kos-kosan-termasuk-objek-pajak-jasa-perhotelan ; https://news.ddtc.co.id/berita/nasional/1793832/mulai-2024-rumah-kos-terbebas-dari-pajak-hotel ; https://ikpi.or.id/pemilik-kos-di-jakarta-wajib-bayar-pajak-perhotelan/ ; https://bapenda.bulelengkab.go.id/informasi/download/65_surat-himbauan-pajak-daerah-wajib-pajak-pbjt_2026-07-28-16-00-09.pdf ; https://peraturan.bpk.go.id/Download/115587/Perbup%208%202018%20kab%20magelang.pdf ; https://e-sptpd.gianyarkab.go.id/download/esptpd-user-manual-v1.2.pdf ; https://mamikos.com/info/kelola-tagihan-dan-laporan-keuangan-kost-dengan-mudah-di-mamikos/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b18"
+ },
  "opus:indonesia:GAPS2": {
   "result": {
    "blocked_searches": 0,
@@ -949,6 +1043,105 @@
    "verdict": "unverifiable"
   },
   "tag": "w2b17"
+ },
+ "sonnet:indonesia:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Halal certification for micro and small food and drink firms is phased in until 17 Oct 2026 (PP 42/2024, per the ITS journal and izin.co.id). The free SEHATI self-declare route needs a P3H assistant. A BPJPH-sourced result says the assistant gets Rp150,000 per certificate issued, from a Rp230,000 allocation. That figure comes from 2025 sources and is not confirmed for 2026. I found no dedicated case-management software for assistants or LP3H. They use the state SIHALAL system, and a UIN study notes its stability complaints. The buyers are many (BPJPH cites 141,352 P3H in 410 LP3H, though other BPJPH pages give 299 LP3H and 114,745 people), but they are low-paid freelancers who are paid only when a certificate issues. The deadline is days away, so the rush is almost over, and the real recurring work after certification overlaps K02. I did not check the exact 17 vs 18 Oct date or BPJPH Reg. 1/2026 directly.",
+   "searches": 3,
+   "sources": "https://izin.co.id/blog/sertifikat-halal-adalah/ ; https://journal.its.ac.id/index.php/sewagati/article/download/8967/7911/25305 ; https://bpjph.halal.go.id/read/pemerintah-gratiskan-1-35-juta-sertifikat-halal-bagi-usaha-mikro-dan-kecil-di-tahun-2026 ; https://bpjph.halal.go.id/detail/kepala-bpjph-pendamping-pph-berperan-strategis-perkuat-ekosistem-halal-nasional ; https://fisip.uinsgd.ac.id/conferences/index.php/NAPAS/article/download/728/142/1706 ; https://bcasekuritas.co.id/latest-news/news/bpjph-program-sehati-beri-nilai-tambah-ekonomi-bagi-pendamping-halal ; https://rri.co.id/tarakan/umkm/2468542/lp-pom-mui-kaltara-apresiasi-kegiatan-sosialisasi-who",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b18"
+ },
+ "sonnet:indonesia:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: UU 18/2017 and PP 59/2021 require SIP3MI and a deposit. Kepmen BP2MI 159/2026 (via Hukumonline summary, paywalled) requires restoring a drawn deposit within 1 month or the SIP3MI is revoked. KP2MI revoked PT Multi Intan Amanah Internasional's licence in Feb 2026, and sanctioned 4 P3MI in Apr 2026 and 3 in Jun 2026. The market is small: no official count found, but about 192 supervised P3MI and LPK, and about 40 P3MI had placed nobody. Reporting runs through state SISKOP2MI, and no private compliance vendor turned up. Few buyers, a niche, lobbying-driven sector, and the state's own system does the filing. Unverified: the exact P3MI count, the SISKOP2MI reporting duties, and the full text of Kepmen 159/2026.",
+   "searches": 3,
+   "sources": "https://pro.hukumonline.com/a/lt6a3a256a435f7/govt-details-procedures-for-imposition-and-termination-of-administrative-sanctions-for-p3mi--re-deposit-non-compliance-to-lead-to-sip3mi-revocation ; https://news.detik.com/berita/d-8340345/kp2mi-cabut-izin-perusahaan-penempatan-pmi-ini-pelanggarannya ; https://jogja.antaranews.com/berita/834492/kp2mi-cabut-izin-satu-p3mi ; https://www.jpnn.com/news/kementerian-p2mi-tindak-tegas-empat-p3mi-yang-terbukti-langgar-aturan-penempatan-pekerja-migran-indonesia ; https://pasal.id/en/peraturan/pp/pp-no-59-tahun-2021",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b18"
+ },
+ "sonnet:indonesia:A8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real and current. PADG 15/2025 (in force 30 Jun 2025) names non-bank KUPVA operators. It requires annual risk assessment and APU/PPT/PPPSPM reports to BI, plus STR, CTR and DTTOT/DPPSPM nil reports to PPATK and Police. Fines run Rp100k per working day of delay, capped at Rp3m per report. The licence lasts 5 years, with e-Licensing at BI. The market is small: about 1,069 money changers in Jan 2017, and I found no current licensed count. BI has restricted new Jakarta licences from Jul 2025 to Dec 2026. I found no dedicated KUPVA compliance software, but the search was shallow. Frequency is low (annual reports plus per-transaction PPATK filings), the buyers are few and small, and willingness to pay is doubtful.",
+   "searches": 4,
+   "sources": "https://www.bi.go.id/id/publikasi/peraturan/Pages/PADG_152025.aspx ; https://www.bi.go.id/id/publikasi/peraturan/Pages/SE_184216.aspx ; https://rri.co.id/jakarta/ekonomi/keuangan/1552991/bi-batasi-izin-kegiatan-usaha-penukaran-valuta-asing ; https://www.bi.go.id/elicensing/helps/Petunjuk%20Penggunaan%20Aplikasi%20e-Licensing.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b18"
+ },
+ "sonnet:indonesia:B11": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. MBLB tax is a regional self-assessment tax: taxpayers file an SPTPD, plus a provincial opsen of about 25% in the Rembang example. Permen ESDM 10/2023 requires SIPB holders to submit periodic reports. I did not open the Mimika perda, so the quarterly-report claim is unchecked. Rules and systems differ by region. Examples are e-MBLB prepaid cards in Lumajang and Kendal's system under evaluation. Each local government runs its own payment system, which fragments the market and leaves no single product to sell. I found no national SaaS vendor, but did not search for regional ones. I found no national count of SIPB holders. The only figure was 180 mineral and rock business permits in South Sumatra. Buyers are scattered, informal, and often evade the tax. The compliance pull comes from local enforcement, not from a single filing deadline. Low score.",
+   "searches": 2,
+   "sources": "https://pajakku.com/artikel/pembayaran-dan-pelaporan-pajak-apa-saja-sistem-pemungutan-pajak ; https://repository.unej.ac.id/handle/123456789/125470 ; https://pasal.id/en/peraturan/permen/permen-esdm-no-10-tahun-2023 ; https://esakip.sumselprov.go.id/storage/Files/rencana_aksi_2025_dinas_energi_dan_sumber_daya_mineral.pdf ; https://news.ddtc.co.id/berita/daerah/1794187/cegah-kecurangan-pemda-ini-kembangkan-e-pajak-pasir",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b18"
+ },
+ "sonnet:indonesia:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Permenkop 8/2023 (Bab XI Pengawasan dan Pelaporan) keeps closed-loop KSP/KSPPS under Kemenkop. A Kemenkop deck (derived from Permenkop 2/2024) shows quarterly periodic reports (due 20th) and annual reports (due 30 April) via an electronic system. I did not read the primary text, so frequency and penalties are unconfirmed, and the 13 Jan 2026 date was not found. Competition: no commercial vendors surfaced, only academic apps. This is a search gap, not proof of an empty market. A Kemenkop reporting portal likely exists, and I never opened it. Market: about 19,000 KSP of 224,256 co-ops (Kontan, unverified secondhand). Buyers are fragmented and pay little. Verdict stays unverifiable because the competition check was incomplete.",
+   "searches": 4,
+   "sources": "https://peraturan.bpk.go.id/Download/317418/permenkop-kukm-no-8-tahun-2023.pdf ; https://api-law.crpg.info/peraturan/permenkop_kukm/8/2023/pasal/97 ; https://web.iaiglobal.or.id/assets/files/file_publikasi/Materi_Permenkop 2 thn 2024_Kemenkop dan UKM.pdf ; https://nasional.kontan.co.id/news/ksp-dan-kspps-dominasi-aset-koperasi-kopdes-merah-putih-masih-tahap-awal ; https://ekonomi.bisnis.com/read/20240120/12/1733993/permenkop-ukm-no-82023-diterapkan-banyak-koperasi-simpan-pinjam-ksp-terancam-gugur",
+   "suggested_score": 4,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b18"
+ },
+ "sonnet:indonesia:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. PMK 161/2022 (in force 13 Feb 2023) requires NPPBKC holders to file CK-4 monthly, by the 10th of the following month. Hasil tembakau used to be filed twice a month. Filing is self-assessed and goes through the free DJBC ExSIS portal, which also handles LACK reports, and administrative fines apply for non-filing. I did not verify PMK 26/2026 or the cigarette-tax SPPR myself. I found no third-party CK-4 or excise software, but the state portal already does the filing, so the gap is only bookkeeping and tax computation help. No national count of small NPPBKC holders turned up. Buyers are few, family-run and wary of customs. The market is small and sales are hard to reach, so the score is low.",
+   "searches": 3,
+   "sources": "https://www.pajak.com/komunitas/opini-pajak/exsis-kemudahan-pelaporan-kewajiban-cukai/ ; https://news.ddtc.co.id/literasi/kamus/1796255/apa-itu-ck-4-dalam-konteks-cukai ; https://peraturan.bpk.go.id/Home/Details/231152/pmk-no-161pmk042022 ; https://news.ddtc.co.id/berita/nasional/45680/perhatian-aturan-baru-pemberitahuan-bkc-selesai-dibuat-resmi-berlaku ; https://nasional.kontan.co.id/news/empat-pabrik-rokok-kecil-asal-kebumen-ini-kantongi-legalitas-dari-menkeu-purbaya",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b18"
+ },
+ "sonnet:indonesia:B9": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. PP 22/2021 requires electronic B3 reporting via the government SPEED system. Older sources say logbook, balance and manifest are due at least quarterly. Not confirmed: the small-generator threshold, whether workshops report at all, and the penalty. Competition: no commercial SaaS found, but the search was thin. Free state tools (SPEED, SIMPEL/SIRAJA, Festronik) exist. Market: only 10,958 of 146,751 health facilities reported via SPEED in 2025 (7.5%), so compliance is low and enforcement is weak. That means weak willingness to pay and a fragmented buyer base. Pain is moderate for clinics. Not reached: the Kemenkes SE for hospitals, Permen LH 6/2026, and workshop-specific rules.",
+   "searches": 4,
+   "sources": "https://www.kemenlh.go.id/news/detail/tingkatkan-kepatuhan-klhbplh-dorong-fasilitas-pelayanan-kesehatan-optimalisasi-pelaporan-limbah-b3 ; https://keslan.kemkes.go.id/unduhan/fileunduhan1781657987_109889.pdf ; https://dlhk.bantenprov.go.id/storage/dlhk/upload/article-pdf/MANIFEST ELEKTRONIK.pdf ; https://journal.ppns.ac.id/index.php/CPWTT/article/download/1305/914/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b18"
+ },
+ "sonnet:indonesia:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Perda Surabaya 4/2026 (in force 31 Mar 2026 per JDIH) Pasal 13(1)(e) requires kos and kontrakan operators to report residents to the lurah via RT/RW within 7 working days, then periodically, plus consent to KK address use. Weak points: no sanction found in the articles or JDIH abstract (full PDF not read). The city's Cek-in Warga app captures the data, and an implementing Perwali is still being drafted. Jawa Barat only has a governor's request, and no copycat perda was found. The state tool covers the core job, so a third-party tool is a thin add-on to billing apps (Mamikos, RTPINTAR). Willingness to pay is unproven. Surabaya kos count not found.",
+   "searches": 4,
+   "sources": "https://www.suarasurabaya.net/kelanakota/2026/perda-4-tahun-2026-pemilik-kos-kontrakan-surabaya-wajib-lapor-data-penghuni-maksimal-7-hari/ ; https://jdih.surabaya.go.id/peraturan/4756 ; https://www.jawapos.com/surabaya-raya/2607290464/aturan-baru-pemilik-rumah-kos-dan-kontrakan-di-surabaya-wajib-laporkan-data-penyewa-maksimal-7-hari ; https://apps.apple.com/ca/app/rtpintar/id1458259481 ; https://literasihukum.com/berita/dedi-mulyadi-minta-penghuni-kos-dan-kontrakan-didata-rt-rw",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b18"
+ },
+ "sonnet:indonesia:GAPS6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Permendag 18/2026 (promulgated 4 Jun 2026, amending Permendag 16/2025) sets an electronic warning, then a freeze of the import licence if the report is still missing after 30 days. Sources conflict on the effective date, but it should be in force by now. Hukumonline did not give the exact sanction text. Reporting is monthly through SINSW or INATRADE, which are free state portals, and the filing is a simple form. I found no dedicated third-party tool. I did not check the broker claim, and the forced-labour duty (Permendag 9/2026) was not checked at all. Market size is unclear: the only API count found is from 2014, about 32,700 holders, and small importers are not separated out. Customs brokers likely file for most firms. A simple form and little pain give weak willingness to pay.",
+   "searches": 3,
+   "sources": "https://www.hukumonline.com/berita/a/4-pokok-perubahan-permendag-18-2026-soal-kebijakan-dan-pengaturan-impor-lt6a2fbfb9cf695/ ; https://siplawfirm.id/id/publikasi/permendag-18-2026-kebijakan-impor ; https://infiniti.id/blog/legal/regulasi-impor-terbaru-2025 ; https://ekonomi.bisnis.com/read/20141230/12/386766/kemendag-cabut-1.550-angka-pengenal-impor-umum-para-importir",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b18"
  },
  "triage:indonesia": {
   "result": {

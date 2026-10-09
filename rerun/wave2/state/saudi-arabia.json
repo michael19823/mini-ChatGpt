@@ -1,0 +1,782 @@
+{
+ "critic:saudi-arabia": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Hajj/Umrah and pilgrim ground-service small operators beyond Umrah companies (transport, housing, catering for Hajj; Nusuk Masar, mutawwif/establishments)",
+     "first_search": "مؤسسات أرباب الطوائف وشركات خدمات حجاج الداخل متطلبات التسجيل منصة نسك مسار العقود",
+     "why": "Few countries have such a seasonal mandatory-reporting load on small operators; candidate C-Umrah covers companies only, not hajj service establishments and pilgrim housing/catering subcontractors who must register contracts on state platforms (Nusuk Masar, Motawif)."
+    },
+    {
+     "category": "Wage Protection System (Mudad) and Nitaqat/Qiwa contract duties for micro and small employers (sole traders and family firms)",
+     "first_search": "المنشآت الصغيرة جداً نطاقات حماية الأجور مدد توثيق العقود قوى غرامات 2026",
+     "why": "K04 covers only multi-client PRO offices; the duty on the tens of thousands of micro establishments (Nitaqat colour band, Mudad payroll upload, Qiwa contract authentication, GOSI) is the core recurring SME obligation and the buyer group (the firm itself) was not screened."
+    },
+    {
+     "category": "Food-service and retail municipal compliance: restaurants, cafes, cloud kitchens, groceries (Balady licence renewal, Ghad/Monshaat food safety grading, SFDA inspections, price display, ZATCA)",
+     "first_search": "اشتراطات البلديات للمطاعم والمقاهي تصنيف المنشآت الغذائية مخالفات بلدي تجديد الرخصة التجارية",
+     "why": "Restaurants, baqalas and cafes are by far the largest small-operator population in KSA; only worker health certificates (K10) and workshops were looked at, and no food-premises inspection-grade/violation-response workflow was screened."
+    },
+    {
+     "category": "Small contractor and subcontractor duties under the 2024-2026 Mostadam/Etimad, Mowthaq and 'Musanada' rules (retention, payment registration, labour-camp/housing standards, Wasel/Ejar for staff housing)",
+     "first_search": "اشتراطات سكن العمال للمقاولين وزارة الموارد البشرية سكن العمالة منصة قوى 2026 تصنيف المقاولين",
+     "why": "Coverage lists construction only for insurance and classification; new decrees on contractor payment-guarantee, worker housing (Tawteen) and Saudi Building Code inspection affect very many small contractors and manpower suppliers."
+    },
+    {
+     "category": "Self-employed and freelancer/e-commerce small sellers: Maroof/Commerce registration, e-commerce law obligations, Ministry of Commerce consumer-protection (Mawthooq, e-store registration, returns), social-media ad licence (Mawthooq) and ZATCA marketplace rules",
+     "first_search": "نظام التجارة الإلكترونية متطلبات المتاجر الإلكترونية توثيق معروف رخصة موثوق للإعلانات غرامات",
+     "why": "Ministry of Commerce e-commerce law, Mawthooq licensing for influencers and e-stores affect a huge number of micro sellers; the discovery ledger lists generic accounting but no screening of this regime."
+    },
+    {
+     "category": "Customs and import/export small operators: SFDA importer registration for e-commerce parcels, Saudi Post/SPL customs for personal importers, ZATCA Fasah exporter duties, SASO Saber product certificates for small importers (Saber product-conformity certificates, not just shipment)",
+     "first_search": "شهادة مطابقة المنتج سابر المستوردين الصغار تسجيل المنتجات بطاقة بيان عربية غرامات هيئة المواصفات",
+     "why": "Coverage only touches Saber shipment certificates and K06 brokers (rejected); the importer-side duty (product registration, conformity certificates per SKU, labelling/Arabic label) for small traders is a recurring mandatory workflow not screened."
+    }
+   ]
+  },
+  "tag": "w2b18"
+ },
+ "discover:A:saudi-arabia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small associations, charities and community foundations (6,348 registered non-profits) and the accountants or consultants who serve them",
+     "category": "17. Community and religious bodies",
+     "evidence": "https://www.okaz.com.sa/ampArticle/2199571 ; https://www.okaz.com.sa/news/local/2203498 ; https://abtaal-umluj.org.sa/wp-content/uploads/2023/12/دليل-معيارالشفافية-والإفصاح-للجمعيات-الأهلية-الإصدار-الرابع-نوفمبر-2023.pdf ; 6,348 orgs by end June 2025 and 200+ sanctioned, per search summaries",
+     "existing": "Not checked. The Ifsah platform is the state upload tool; no private tool seen",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Association governance-disclosure (Ifsah) and annual compliance pack for small non-profits",
+     "score": 4,
+     "status": "promising",
+     "trigger": "NCNP governance disclosure phase 2 from Jan 2024: all associations must upload governance documents to the platform for the annual governance rating; transparency and disclosure standard (4th ed., Nov 2023); sanctions for fundraising breaches",
+     "trigger_note": "",
+     "unchecked": "Competitor search not run (budget). Whether small associations outsource this. Exact annual deadline. Whether Ifsah already pre-fills documents. Willingness to pay"
+    },
+    {
+     "buyer": "Owners and small contractors of sewage tankers in areas without sewer networks",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://www.aleqtsad.org/?p=156864 ; https://www.alwatan.com.sa/ampArticle/1164345 (inspections only, no platform detail)",
+     "existing": "Tasreeh (state platform, NWC with Elm). No private vendor seen",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "Sewage-tanker permit, identity and plant-access manager (Tasreeh follow-on)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "NWC and Elm Tasreeh platform: permit issue and renewal, 'Bi'ati' unified visual identity, camera and gate entry to treatment plants, driver legality via TGA Naql/Wasl linkage; phase 1 Riyadh and Jeddah, extending by region",
+     "unchecked": "Correction-period length, renewal frequency, number of tanker owners, whether Tasreeh already covers all paperwork. Competitor search not run (budget)"
+    },
+    {
+     "buyer": "Owners of water tankers (wetas) and private water points (manahil)",
+     "category": "10. Well drillers and water abstraction (also 13)",
+     "evidence": "https://www.alwatan.com.sa/ampArticle/1159950 ; https://www.alwatan.com.sa/ampArticle/1048615 (search summaries; I did not open these)",
+     "existing": "Nama (state portal)",
+     "known_mark": "new",
+     "name": "Non-potable water tanker and manhal licence tracker",
+     "score": 3,
+     "status": "weak",
+     "trigger": "MEWA updated conditions and violation classification for extraction and distribution of non-potable water; fines up to SAR 200,000 for unlicensed activity; licence via Nama",
+     "unchecked": "Licence term and renewal cycle, any logbook or water-test reporting duty, number of operators. Competitor search not run"
+    },
+    {
+     "buyer": "Mortuary operators, often charity-run or small private",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://www.okaz.com.sa/news/local/2215441 (fetched, 28 Sep 2025); https://momah.gov.sa/sites/default/files/2026-06/%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D8%B7%D8%A7%D8%AA%20%D9%85%D8%BA%D8%A7%D8%B3%D9%84%20%D8%A7%D9%84%D9%85%D9%88%D8%AA%D9%89.pdf",
+     "existing": "None seen. Article names no register or report duty",
+     "known_mark": "new",
+     "name": "Mortuary (maghasil al-mawta) licence and washer-permit pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "MOMAH mortuary requirements: municipal licence before operation, no activities beyond the licence, washers need a ministry training permit, Saudi nationals aged 25+",
+     "unchecked": "Number of mortuaries, any recurring register. Likely small and low willingness to pay"
+    },
+    {
+     "buyer": "Small vet clinics, vet pharmacies and warehouses",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://www.alriyadh.com/1581967 ; https://www.mewa.gov.sa/ar/MediaCenter/Ads/Pages/vtrnryofns.aspx (47 violations, SAR 1.511m, search summary)",
+     "existing": "Not checked. Generic clinic software probably exists",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Veterinary clinic and veterinary-pharmacy licence and expiry compliance",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Veterinary Professions Law (MEWA fined 42 establishments SAR 500k); SFDA veterinary-preparations law (fines over SAR 213,500 for expired licence and expired stock); SFDA referrals",
+     "unchecked": "Whether vet pharmacies must report movements like RSD, number of establishments, competitor search not run (budget). Risk: generic expiry tracking"
+    },
+    {
+     "buyer": "Dismantling yards and used-parts outlets",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://momah.gov.sa/sites/default/files/2025-04/ashtratat%20mrakz%20wmnafdh%20alby%60%20llmrkbat%20almlghy%20tsjylha.pdf ; https://www.okaz.com.sa/news/local/2214215",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Tashleeh (deregistered vehicle dismantling and sales) compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "MOMAH municipal requirements for deregistered-vehicle centres: sorting, dismantling, pressing areas, fire safety, Balady licence",
+     "unchecked": "Whether any vehicle in/out register or Traffic (Absher) deregistration reporting applies. Mostly site/capex rules"
+    },
+    {
+     "buyer": "Rig owners, drilling contractors, and farms needing well licences",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://mewa.gov.sa/ar/MediaCenter/PressReleases/PressFiles/2025-01-19.pdf ; https://ajel.sa/QGfP45/ (search summaries, I did not open them)",
+     "existing": "Nama and Ihkam (state portals)",
+     "known_mark": "new",
+     "name": "Well-drilling rig operator and well-licence manager",
+     "score": 3,
+     "status": "weak",
+     "trigger": "MEWA: no well without licence (fine up to SAR 25k); rig owners need an activity licence (SAR 50k to 100k); deepen, clean, backfill licences; Jan 2025 mechanism for farms lacking deeds via Ihkam, valid 3 years",
+     "unchecked": "Licence renewal cycle and any usage reporting or metering duty. Competitor search not run"
+    },
+    {
+     "buyer": "Building owners, facility managers and small lift maintenance firms",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://saso.gov.sa/ar/Laws-And-Regulations/guidelines/Documents/Guide-TR-Electrical-Lifts-Used-in-Buildings.pdf ; https://www.tuv.com/saudi-arabia/ar/%D9%81%D8%AD%D8%B5-%D8%A7%D9%84%D9%85%D8%B5%D8%A7%D8%B9%D8%AF.html",
+     "existing": "Inspection vendors such as TUV sell the service; no scheduling software seen",
+     "known_mark": "new",
+     "name": "Lift/escalator periodic-inspection scheduler for building owners and associations",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "SASO technical regulation for electric lifts; periodic inspection by SASO-accredited inspection bodies (interval not confirmed)",
+     "unchecked": "Whether periodic inspection is actually enforced and its interval, who certifies, link to Civil Defense. Competitor search not run"
+    },
+    {
+     "buyer": "Livestock traders and owners",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://ajel.sa/local/f25gy1c63r ; https://www.mewa.gov.sa/ar/MediaCenter/News/Pages/News9462020.aspx (search summaries)",
+     "existing": "Nama and Anaam (state)",
+     "known_mark": "new",
+     "name": "Livestock and camel tagging, movement and ownership-transfer helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Camels must be tagged; trading or transferring untagged camels fined up to SAR 10,000 per head; tagging via Nama; Anaam platform with 40+ services",
+     "unchecked": "Market and animal-transport rules not found. State platforms already cover it"
+    },
+    {
+     "buyer": "Private abattoirs (al-masalikh al-ahliyya)",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://www.okaz.com.sa/ampArticle/2224496 (search summary)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Private abattoir municipal licence pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "MOMAH updated municipal requirements with MEWA: licence, Civil Defense approval, valid CR",
+     "unchecked": "Date, any slaughter or meat-tracking register, number of abattoirs"
+    },
+    {
+     "buyer": "Beekeepers (citizens only)",
+     "category": "8. Beekeepers",
+     "evidence": "https://www.alwatan.com.sa/ampArticle/1125669 ; https://mewa.gov.sa/ar/Documents/MEWA Case Studies for ESCWA/Agricultural Portal/دليل استخدام منصة زراعي - خدمات تربية النحل وانتاج العسل.pdf",
+     "existing": "State portal",
+     "known_mark": "new",
+     "name": "Beekeeper permit and apiary registration helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Permit via Nama/Zira'i with training certificate; apiary and hive counts and coordinates",
+     "unchecked": "Renewal and reporting frequency. Individual buyers, low pay"
+    },
+    {
+     "buyer": "Agricultural and pesticide shops",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://ajel.sa/local/szswl7 ; https://www.alyaum.com/tags/المبيدات/1 (search summaries; two MEWA PDFs too large to fetch)",
+     "existing": "Nama and MEWA e-services for import only",
+     "known_mark": "new",
+     "name": "Pesticide shop licensed-practitioner and registration tracker",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Pesticide law and GCC rule: seller needs valid practitioner licence (3 years after course); penalties for shops without a certified engineer or technician; 2026 pesticide guide",
+     "unchecked": "Whether shops must keep sales or stock registers, number of shops, competitor search not run"
+    },
+    {
+     "buyer": "Importers of compound meat products, gelatine, collagen, animal rennet",
+     "category": "17. Community and religious bodies (halal supervision)",
+     "evidence": "https://www.alwatan.com.sa/ampArticle/1163579 ; https://www.sfda.gov.sa/ar/halal",
+     "existing": "SFDA halal centre service",
+     "known_mark": "new",
+     "name": "SFDA halal certificate tracker for food importers and producers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "SFDA obliged importers to hold a Saudi Halal Center certificate for five product types (date not confirmed)",
+     "unchecked": "Date of rule, importer size, frequency of renewal. Buyer likely not small"
+    },
+    {
+     "buyer": "Small car-rental offices",
+     "category": "18. Transport operators",
+     "evidence": "https://www.okaz.com.sa/economy/saudi/2198391 ; https://www.alarabiya.net/aswaq/economy/2021/08/08/السعودية-100-شركة-تأجير-مركبات-تمتنع-عن-التسجيل-في-منصة-نقل",
+     "existing": "Tajeer (state); large renters integrate by API; small-office software not checked",
+     "known_id": "K16",
+     "known_mark": "new",
+     "name": "Small car-rental office Tajeer e-contract management",
+     "score": 3,
+     "status": "weak",
+     "trigger": "TGA unified e-contract mandatory since 2022 via Tajeer on the Naql portal; no insurance no rental; about 10,000 contracts per day; 1.52m contracts in Q1 2025",
+     "unchecked": "Competitor search not run (budget). Whether rental-management products already integrate Tajeer. Likely crowded"
+    },
+    {
+     "buyer": "Small shops and restaurants delivering with own or third-party vehicles",
+     "category": "18. Transport operators",
+     "evidence": "https://www.aleqt.com/2024/10/14/article_2751380.html ; https://www.okaz.com.sa/economy/na/2253890 (search summaries)",
+     "existing": "Naql portal",
+     "known_mark": "new",
+     "name": "Delivery-order vehicle-routing licence for small merchants",
+     "score": 2,
+     "status": "weak",
+     "trigger": "TGA order-delivery rule: stores must hold a vehicle-routing licence on Naql or use licensed carriers; app blocking and driver deportation for violators (2022 deadline)",
+     "unchecked": "Current status and recurrence. Old deadline"
+    },
+    {
+     "buyer": "Food-cart owners, itinerant vendors (Saudi nationals only)",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://momah.gov.sa/sites/default/files/2026-04/qrar%20a%60tmad%20mwaq%60%20alba%60t%20aljaylyn%20%28altajr%20almtnql%29%20%28002%29.pdf ; https://www.alyaum.com/ampArticle/6017792",
+     "existing": "Balady",
+     "known_mark": "new",
+     "name": "Itinerant vendor and mobile food-cart licence helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "MOMAH requirements for itinerant-vendor sites (20 Apr 2026) and mobile carts; tracker on cart required in Eastern Province",
+     "unchecked": "Recurring duty. Individual buyers, low pay"
+    },
+    {
+     "buyer": "Car repair workshops of all classes",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://www.okaz.com.sa/news/local/2208667 ; https://www.okaz.com.sa/economy/saudi/2214142 ; https://momah.gov.sa/sites/default/files/2025-07/ashtratat%20wrsh%20aslah%20wsayl%20alnql.pdf",
+     "existing": "Qoyod workshop and car-maintenance accounting software with ZATCA (https://www.qoyod.com/fields/accounting-software-for-workshops/)",
+     "known_mark": "new",
+     "name": "Vehicle repair workshop compliance pack (five-class municipal regime)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "MOMAH new requirements for transport-vehicle repair workshops (reported Sep 2025): five categories, mandatory e-payment, CCTV, licence display board, Balady licence; used-oil collection reported in another Okaz article; grace period not found",
+     "unchecked": "Grace period, whether used-oil manifest is mandatory, number of workshops. One-off site rules, little recurring reporting. Competitor: workshop software exists"
+    },
+    {
+     "buyer": "Private nurseries",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://rukn-services.com/ترخيص-حضانة-أطفال/ (commercial, unreliable)",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Childcare nursery licence and inspection pack",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Unknown. Only a commercial services site describes supervisor-ratio and health-check rules",
+     "unchecked": "No official text found. Regulator, platform and recurring reports all unchecked"
+    },
+    {
+     "buyer": "Private driving schools",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://www.almuraba.net/?p=804758 (news only)",
+     "existing": "Absher",
+     "known_mark": "new",
+     "name": "Driving-school trainee register",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "None found. Booking runs through Absher",
+     "unchecked": "Regulator, trainee register duty, school count"
+    },
+    {
+     "buyer": "Small LLCs and their accountants",
+     "category": "Outside group A (country-specific, listed in passing)",
+     "evidence": "https://www.tamimi.com/news/kingdom-of-saudi-arabia-imposes-direct-penalties-for-failure-to-submit-audited-financial-statements/ ; https://www.lexisnexis.com/blogs/ae-legal/b/insights/posts/ksa-commerce-ministry-drafts-fines-for-failure-to-file-financial-statements ; https://www.mercator.net/our-thinking/latest-news/saudi-arabia-new-commercial-registration-and-trade-name-law/",
+     "existing": "Not checked; general accounting software is out of scope",
+     "known_mark": "new",
+     "name": "Audited financial statement deposit and CR annual confirmation tracker for small companies",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Commerce ministerial decision 236 (reported 15 May 2026) sets direct fines for failing to deposit audited statements (draft figure SAR 8,000 for capital up to SAR 500k with one manager); CR annual confirmation within 12 months under the CR law in force 3 Apr 2025; 2024 year warning only",
+     "unchecked": "Final fine table, deposit platform, competitor search not run. Risk: generic accounting feature"
+    },
+    {
+     "buyer": "Gyms and sports centres with 4 or more staff",
+     "category": "Outside group A (country-specific, listed in passing)",
+     "evidence": "Search summary only, source not opened (setupinsaudi.com)",
+     "existing": "Qiwa",
+     "known_mark": "new",
+     "name": "Gym and sports-centre Saudization deadline (18 Nov 2026)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "One-off Saudization quota of 15% for selected roles from 18 Nov 2026, single source",
+     "unchecked": "Source, rule text and fines; likely a Qiwa-only task"
+    },
+    {
+     "buyer": "Licensed exchange houses",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://sama.gov.sa/ar-sa/Services/SAMACare/Pages/default.aspx (search); https://www.sahalfirm.com/blog (commercial)",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Small money changer periodic reporting to SAMA",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "SAMA exchange rules (licence displayed, rates posted, receipts for all transactions); periodic reporting details not found",
+     "unchecked": "Reporting duties, number of small houses (sector is consolidating)"
+    },
+    {
+     "buyer": "Households",
+     "category": "1. Household employers",
+     "evidence": "",
+     "existing": "Musaned",
+     "known_id": "K17",
+     "known_mark": "known",
+     "known_note": "nothing new",
+     "name": "Household employers wage and contract (Musaned)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Same as K17"
+    },
+    {
+     "buyer": "Recruitment offices",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "",
+     "existing": "Musaned",
+     "known_id": "K19",
+     "known_mark": "known",
+     "known_note": "nothing new",
+     "name": "Recruitment offices",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Same as K19"
+    },
+    {
+     "buyer": "Jewellers",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "",
+     "existing": "Daftra, DEXEF",
+     "known_id": "K18",
+     "known_mark": "known",
+     "known_note": "nothing new",
+     "name": "Gold and jewellery shop AML",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Same as K18"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing new beyond K17 (Musaned). No 2026 household-employer rule found; only MHRSD recruitment-office enforcement news.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No Saudi-specific scrap licensing rule surfaced (results were Omani). Nothing found; unverified whether Balady has a scrap-yard requirement document.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No Saudi pawnbroker or second-hand dealer regime found. Only the commercial pledge registry (Ministry of Commerce), which is for business finance, not pawn shops.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Nothing new beyond K18. Precious Metals and Gemstones Law needs a Ministry of Commerce licence.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "MOMAH published municipal requirements for tashleeh (deregistered vehicle sale and dismantling centres). Mostly site/capex rules, no recurring register found. Candidate C06.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Camel tagging mandatory (fine up to SAR 10,000 per untagged head), applications through Nama; Anaam platform with 40+ services. Government platforms cover it. Candidate C09.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "MOMAH updated municipal requirements for private abattoirs (date not shown): licence, Civil Defense approval, valid CR. No recurring register found. Candidate C10.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Beekeeper permits for citizens only via Nama/Zira'i with training certificate; individual-level, low money. Candidate C11.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "MEWA fined 42 veterinary establishments SAR 500k; SFDA fined veterinary-preparation establishments over SAR 213,500 for expired licences and expired stock. Candidate C05.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Well licence required (fine to SAR 25k); rig owners need a practice licence (fine SAR 50k to 100k); new Jan 2025 mechanism for farms without deeds via Ihkam. Candidate C07.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "NWC and Elm launched the Tasreeh platform for sewage tankers (Riyadh, Jeddah first) with unified identity and treatment-plant gate access; MEWA licenses non-potable water tankers (fine up to SAR 200k). Candidates C01, C02.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "SASO lift technical regulation mandates periodic inspection by accredited bodies, but I found no official interval or enforcement news. Candidate C08 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Only non-potable water distribution (manahil and tankers) licensing found, covered in C02. Nothing on small drinking-water systems.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Sellers need a licensed practitioner (3-year licence after training) and 2026 pesticide guide published. Two MEWA PDFs too large to fetch. Candidate C12.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Nothing new beyond K19. MHRSD temporarily stopped new licences for domestic-labour companies (undated Okaz report); Musaned is the incumbent.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Mortuaries (maghasil al-mawta) need a municipal licence and licensed washers with a ministry training permit (Okaz, 28 Sep 2025). Small niche. Candidate C04.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "NCNP governance disclosure phase 2 from Jan 2024 requires annual uploads by all associations; 6,348 non-profits by June 2025; 200+ sanctioned for fundraising breaches. SFDA halal certificate mandatory for importers of five product types. Candidates C03, C13.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Car-rental offices must issue all contracts via the TGA Tajeer unified e-contract on the Naql portal; delivery-app vehicle routing licence rules. Trucking is K16. Candidates C14, C15.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "MOMAH updated itinerant-vendor site requirements (20 Apr 2026) and mobile-cart requirements; SAMA exchange licensing exists but no recurring-report detail found. Candidates C16, C17.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Vehicle repair workshops got a new five-class municipal regime (Sep 2025). Nursery and driving-school searches returned no official Saudi text (unverified). Falcon ownership certificates via Fatri. Tattoo studios: not applicable, no licensed regime found. Candidates C18, C19, C20.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "الاشتراطات البلدية محلات الخردة تجار الخردة ترخيص السعودية 2026",
+    "وزارة البيئة والمياه والزراعة ترخيص حفر آبار مياه سجل حفارين",
+    "المركز الوطني لسلامة النقل المصاعد فحص الرافعات ترخيص الفحص الدوري",
+    "المبيدات الزراعية ترخيص بيع واستخدام المبيدات سجل المبيدات متجر مبيدات",
+    "وزارة الموارد البشرية مكاتب الاستقدام ترخيص عمالة منزلية 2026 قرار جديد",
+    "المنشآت البيطرية ترخيص عيادة بيطرية صيدلية بيطرية الأدوية البيطرية 2026",
+    "مربي النحل تسجيل منحل ترخيص نحالين وزارة البيئة والمياه والزراعة 2026",
+    "أسواق المواشي نقل الحيوانات ترقيم الماشية سجل المواشي منصة الثروة الحيوانية",
+    "محلات الجزارة المسالخ الخاصة ترخيص اشتراطات الجزارات البلدية 2026",
+    "مكاتب الرهن محلات المستعمل ترخيص نشاط الرهونات السعودية",
+    "حضانات الأطفال ترخيص وزارة الموارد البشرية دور الحضانة 2026",
+    "مدارس تعليم القيادة ترخيص المرور السعودية سجل المتدربين",
+    "الجمعيات الأهلية المركز الوطني لتنمية القطاع غير الربحي التقارير الحوكمة إفصاح",
+    "الهيئة العامة للنقل ترخيص تطبيقات توصيل الطلبات الليموزين تأجير سيارات 2026",
+    "مكاتب الصرافة البنك المركزي السعودي ترخيص الصرافة التقارير الدورية",
+    "التشليح اشتراطات وزارة البلديات والإسكان المركبات الملغى تسجيلها",
+    "المركز الوطني للحياة الفطرية تراخيص الصقور جواز الصقر",
+    "صهاريج نقل المياه ترخيص وايت مياه شاحنات الصرف الصحي",
+    "Saudi Arabia elevator annual inspection certificate building owners Civil Defense lift maintenance",
+    "Saudi Arabia 2026 new regulation small business obligation deadline compliance register"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b18"
+ },
+ "discover:B:saudi-arabia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small charitable and non-profit associations, family funds and foundations supervised by the National Center for Non-Profit Sector Development (NCNP)",
+     "category": "23. Co-operatives, credit unions and savings groups (also 17)",
+     "evidence": "Okaz https://www.okaz.com.sa/news/local/2199571 ; Alwatan https://www.alwatan.com.sa/article/1104158 ; Aleqt 28 Sep 2026 on governance trust concerns. Counts of associations vary by source (one says 231 associations), so buyer size is unverified.",
+     "existing": "Competitor search (Arabic, accounting and management software for associations plus Ifsah) found no named product. Only law-firm governance consulting (Etqan) and association governance regulations.",
+     "known_mark": "new",
+     "name": "Governance-disclosure (Ifsah) and annual compliance pack for small non-profit associations",
+     "score": 4,
+     "status": "promising",
+     "trigger": "NCNP Governance Disclosure project, phase 2 from Jan 2024: upload documents to the platform for the annual governance rating. Also beneficial-owner disclosure (1,739 organisations responded, 1,513 pending) and the new donations-collection regulation. Enforcement is active: 200+ associations sanctioned for donation violations, 397 warnings.",
+     "unchecked": "Number of associations required to file each year; whether the platform offers templates or export. Whether NCNP already provides tooling. Competitor search was a single query. Many associations may be larger charities."
+    },
+    {
+     "buyer": "Owners and small property managers running daily or tourist rentals",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://raghdan.sa/en/news/complete-guide-to-daily-and-tourist-rental-in-saudi-arabia-2026-requirements-licensing-penalties-and-the-difference-between-regular-and-tourist-rental/ ; https://getproofsnap.com/posts/airbnb-saudi-arabia-str-rules-2026.html . Only commercial blogs, nothing official.",
+     "existing": "Not searched (no budget). Likely channel managers and local property-management firms.",
+     "known_id": "K15",
+     "known_mark": "new",
+     "name": "Holiday-home host / property-manager permit pack (Tourism permit + Ejar + Shomoos)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Daily rental needs a Ministry of Tourism private tourism hospitality facility permit per unit through the Tourism Activity Licensing Portal; fee reported as SAR 1,100/yr (other blog says 500-2,000). Plus Ejar registration and, per one 2026 blog, Shomoos guest registration and fire-safety equipment, with the permit number on the listing.",
+     "unchecked": "Official permit rules and renewal cycle; whether Shomoos applies to holiday homes; competitor search; number of permitted units. Different buyer from K15 (hotels)."
+    },
+    {
+     "buyer": "Small car-rental offices (794 establishments, 2,891 branches in the source)",
+     "category": "31. Car rental offices (Tajeer, Transport General Authority)",
+     "evidence": "Sabq https://sabq.org/article/yekys1b (fetch blocked; figures from search summary) ; Okaz https://www.okaz.com.sa/economy/saudi/2198391 ; Alwatan https://www.alwatan.com.sa/article/1039106",
+     "existing": "Competitor search found Daftra car-rental module, RentSyst and RentWorks. None is confirmed to integrate with Tajeer. Large chains integrate directly with the Authority.",
+     "known_mark": "new",
+     "name": "Tajeer contract desk for small car-rental offices",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Transport General Authority limits all rental contracts to the Tajeer unified e-contract on the Naql portal (since 2022). Offices must register full data, may not use paper contracts, and get 7 portal users. Contracts reached 1.6m in Q2 2026.",
+     "unchecked": "Whether any local product integrates with Tajeer or whether the portal has an API; fines and other recurring duties for offices (Wasl, insurance). Source figures differ over time."
+    },
+    {
+     "buyer": "Licensed Umrah service companies (comprehensive Umrah organisers) and their foreign agents",
+     "category": "32. Umrah service providers (Ministry of Hajj and Umrah licences, Nusuk)",
+     "evidence": "https://sabq.org/article/ZbZ8EJ- ; https://www.okaz.com.sa/news/local/2200936 ; https://www.alarabiya.net/saudi-today/2024/01/02/%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D9%85%D8%B1%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D9%86%D8%AA%D9%82%D9%84-%D8%A7%D9%84%D9%89-%D9%85%D9%86%D8%B5%D8%A9-%D8%B6%D8%A7%D9%85%D9%86-%D8%A7%D9%84%D9%8A%D9%83-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84",
+     "existing": "Competitor search found no Umrah-company software or Nusuk integration docs (only Egyptian news).",
+     "known_mark": "new",
+     "name": "Umrah company operations and compliance manager",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Five-year licences. Housing and itinerary data must match what is on Nusuk; the ministry suspends firms for unlicensed housing, seizes bank guarantees for transport failures, and cancelled 5 licences. Departure deadline of 30 Shawwal 1448 (7 Apr 2027) for the new season.",
+     "unchecked": "Number of licensed companies; technical access to Nusuk; whether the shift to the Ministry of Tourism / Dhamen happened; seasonality (buyers are few and may be large)."
+    },
+    {
+     "buyer": "Licensed real-estate brokers and brokerage establishments, including small family offices",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals",
+     "evidence": "https://sabq.org/article/jmgm5dq (fetch returned 403; used search summary) ; https://test.amlak.net.sa/57185 ; https://raghdan.sa/ar/news/tag/رخصة-فال/",
+     "existing": "Not searched (no budget). REGA runs the licence, training and Ejar portals, which suggests state tooling.",
+     "known_mark": "new",
+     "name": "Fal licence and real-estate ad compliance for brokers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "REGA's new broker-levels pathway: the foundational level is a condition to issue or renew the Fal licence (Sabq, 19 Jul 2026). Advertising needs its own ad licence, separate from the practitioner Fal licence. A 2026 advertising regulation reportedly carries fines up to SAR 200k (unconfirmed).",
+     "unchecked": "Competitor search; renewal cycle and fee; number of brokers; whether listing portals already check the ad licence for brokers."
+    },
+    {
+     "buyer": "Small firms with 3+ marketing/sales staff or 5+ engineering staff, including engineering offices",
+     "category": "34. Saudization decisions by profession (2026)",
+     "evidence": "https://sabq.org/article/3rF7kdm ; https://www.hrsd.gov.sa/media-center/news/%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%B1%D9%81%D8%B9-%D9%86%D8%B3%D8%A8%D8%A9-%D8%A7%D9%84%D8%AA%D9%88%D8%B7%D9%8A%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%87%D9%86-%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D8%A9",
+     "existing": "Qiwa and Nitaqat are the state tools. Competitor search not run.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "Marketing/sales (60%) and engineering (30%) Saudization tracker for small firms",
+     "score": 3,
+     "status": "weak",
+     "trigger": "HRSD decisions: marketing and sales jobs 60% from 19 Apr 2026 (min wage SAR 5,500 to count); engineering jobs 30% from 30 Jun 2026 (min wage SAR 8,000). Sources disagree on the engineering start date.",
+     "unchecked": "Competitor search; likely generic HR or payroll (out of scope) unless packaged for engineering offices with K03. Grace-period effects after the dates."
+    },
+    {
+     "buyer": "Private clinics and medical complexes, wedding halls, private schools, restaurants over 1,000 m2, grocery stores over 2,000 m2 (premises); small guard companies (suppliers)",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://www.okaz.com.sa/news/local/2196820 (fetched) ; https://www.al-madina.com/article/919193 ; https://saudipedia.com/نظام-الحراسة-الأمنية-المدنية-الخاصة",
+     "existing": "Not searched. The guard sector has a GOSI awareness campaign (Sabq).",
+     "known_mark": "new",
+     "name": "Licensed-guard mandate service for small premises and guard firms",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Interior Ministry amendment (reported May 2025) to the private civil guard regulation expanded guard obligations; guards must come from licensed firms. HCIS (hcis.gov.sa) licenses firms for industrial and petroleum sites; Public Security licenses others. Fines up to SAR 500k or licence cancellation. No compliance deadline in the source.",
+     "unchecked": "Whether there is a periodic register or report for premises or guard firms; vendor landscape; the deadline for existing premises."
+    },
+    {
+     "buyer": "Small importers and distributors of medical devices; possibly optical shops and dental labs (unconfirmed)",
+     "category": "36. Medical device establishment licences (SFDA MDEL)",
+     "evidence": "https://operonstrategist.com/medical-device-establishment-license-mdel-sfda/ ; https://pharmaknowl.com/mdel-requirements/ ; both are consultancy pages.",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "SFDA medical device establishment licence and vigilance file for small distributors, optical shops and dental labs",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "MDEL is compulsory for local importers, distributors and makers; renewal term reported as 1 year or up to 5; SFDA conducts unannounced audits covering adverse-event reporting and recall readiness.",
+     "unchecked": "Official SFDA text; renewal term; who counts as an establishment; competitor search; MDS-REQ 9 vigilance reporting timelines."
+    },
+    {
+     "buyer": "Building contractors, engineering supervisors, developers",
+     "category": "35. Inherent-defects (latent defects) insurance for buildings",
+     "evidence": "https://www.aleqt.com/2020/05/15/article_1828166.html ; https://ajel.sa/local/mjxvzn . No 2026 news found.",
+     "existing": "Insurers run the product. Not searched further.",
+     "known_mark": "new",
+     "name": "Contractor 10-year inherent-defects insurance paperwork",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "2020 municipal ministry decision with four phases; the policy runs 10 years from the occupancy certificate; SAMA-approved policy wording.",
+     "unchecked": "Current phase and enforcement; whether Balady or the permit system already requires proof at occupancy certificate."
+    },
+    {
+     "buyer": "Any private business processing personal data",
+     "category": "33. Personal-data protection (PDPL, SDAIA registry)",
+     "evidence": "https://origami.sa/blog/sdaia-pdpl-compliance-verification-form-2026/ ; https://www.al-madina.com/article/896347/ ; commercial blog sources.",
+     "existing": "Law firms and consultancies (Origami). Generic compliance tooling is out of scope under the definitions, so score is low.",
+     "known_mark": "new",
+     "name": "PDPL controller registration and compliance file for small businesses",
+     "score": 2,
+     "status": "weak",
+     "trigger": "PDPL fully in force since 14 Sep 2024; SDAIA national controller register on the National Data Governance Platform; 2026 compliance-verification form across nine areas; fines up to SAR 5m.",
+     "unchecked": "Whether registration is mandatory for micro firms; whether a deadline hits many small firms at once."
+    },
+    {
+     "buyer": "Retail LPG sellers; bakeries; small factories",
+     "category": "21/22/37 combined note",
+     "evidence": "https://qanoonsa.com/p/514702/ ; https://saudipedia.com/نظام-مطاحن-إنتاج-الدقيق-في-السعودية ; https://ajel.sa/economy/industry-72-new-licenses-were-issued-last-april-and-59-factories-started-production-operations",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Holiday-home / LPG / flour / factory items (minor)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "LPG retail and vending-machine licences exist; GFSA monitors flour distribution to bakeries; ministry of industry factory licences. No periodic small-firm filing was confirmed for any of them.",
+     "unchecked": "Whether bakeries file flour-quota reports; whether factories file monthly production data; LPG distributor reporting duties."
+    },
+    {
+     "buyer": "Station owners",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "Not re-checked",
+     "known_id": "K11",
+     "known_mark": "known",
+     "name": "Fuel-station requalification",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Already in K11",
+     "unchecked": "Not rechecked"
+    },
+    {
+     "buyer": "Clinics",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "Not re-checked",
+     "known_id": "K14",
+     "known_mark": "known",
+     "name": "Clinic claims via NPHIES",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Already in K14",
+     "unchecked": "Not rechecked"
+    },
+    {
+     "buyer": "Pharmacies",
+     "category": "25. Pharmacies",
+     "evidence": "Not re-checked",
+     "known_id": "K07",
+     "known_mark": "known",
+     "name": "Pharmacy RSD reporting",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Already in K07",
+     "unchecked": "Not rechecked"
+    },
+    {
+     "buyer": "Hotels",
+     "category": "29. Hotels",
+     "evidence": "Not re-checked",
+     "known_id": "K15",
+     "known_mark": "known",
+     "name": "Hotel Shomoos reporting",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Already in K15",
+     "unchecked": "Not rechecked"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Energy Ministry guide covers petroleum-activity and LPG licences (retail cylinder sale, wholesale, vending-machine licence). No periodic reporting duty for small retailers found in two searches. Station requalification is K11 and stays rejected. Nothing new beyond K11 apart from weak LPG note.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "GFSA licenses and oversees flour mills and monitors flour distribution to distributors, bakeries and retailers. SFDA licenses food warehouses (fines up to SAR 10m). No small-firm periodic filing found; bakery flour reporting unverified. Coffee and cocoa not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "No cooperative-specific filing found. Non-profit associations have the annual NCNP governance-disclosure upload (phase 2 from Jan 2024) and beneficial-owner disclosure. Listed as a candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "NPHIES claims for clinics is K14. Medical device establishment licence (annual) for distributors found but unverified for optical and dental labs. NRRC radiation licensing for clinics: search returned only foreign results, so unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Nothing new beyond K07 (RSD). Controlled-drug register and precursor duties were not searched. SFDA MDEL listed as an unverified candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Private civil guard regime: HCIS licences guard firms. The 2025 Interior amendment obliges many small premises to hire licensed guards. Cleaning and manpower subcontracting rules not found. Recruitment offices are K19.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Contractor classification sits with the housing ministry, and Etimad registration is document-driven. Mandatory 10-year inherent-defects insurance for contractors dates from 2020; its current status is unverified. Engineering-office stage reports are K03 and the LCGPA certificate is K12. Saudization of engineering jobs (30% from 30 Jun 2026) found.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "REGA Fal broker licence now needs the foundational level of the new broker-levels pathway for issue or renewal (Sabq, 19 Jul 2026). A new real-estate advertising regulation reportedly carries fines up to SAR 200k (unconfirmed). The AML search for Saudi DNFBPs returned only UAE material, so the Saudi regime stays unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Hotel Shomoos is K15. Holiday-home hosts need a Ministry of Tourism private hospitality facility permit per unit, plus Ejar registration, and (per a blog only) Shomoos registration. No tourism levy found.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "SFDA food registration and importer rules, SABER shipment certificates mandatory from 1 Jan 2025, and FASAH HS mismatches in Jan 2026. The broker/FASAH angle is K06. Date-export registration returned only policy news. No traceability duty found.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Car rental offices (Tajeer unified e-contract, Transport General Authority)",
+     "found": "All rental contracts must be issued through the Tajeer service on the Naql portal. Source figures: 794 establishments and 2,891 branches in 81 cities, with 1.6m individual contracts in Q2 2026. Daftra, RentSyst and RentWorks exist, but Tajeer integration is not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Umrah service providers (Ministry of Hajj and Umrah licences, Nusuk)",
+     "found": "Five-year licences with criteria on solvency and overstay rates. Fines up to SAR 100k for unlicensed operators. Season calendar for 1448 published. Bank guarantees seized for failures. The Dhamen platform move (Jan 2024 report) is unverified. No vertical software found.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Personal-data protection (PDPL, SDAIA registry)",
+     "found": "PDPL fully in force from 14 Sep 2024. SDAIA is building a national controller register on the National Data Governance Platform and circulated a compliance-verification form in 2026. Fines up to SAR 5m. Whether small firms must register is unconfirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Saudization decisions by profession (2026)",
+     "found": "Marketing and sales jobs at 60% for firms with 3 or more such staff, applied from 19 Apr 2026 with a SAR 5,500 minimum wage for counting. Engineering jobs at 30% for firms with 5 or more, from 30 Jun 2026 (a minimum wage of SAR 8,000 for counting). Dates conflict across sources.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Inherent-defects (latent defects) insurance for buildings",
+     "found": "2020 municipal ministry decision with four phases and a 10-year policy after the occupancy certificate. No 2026 news, so the current phase is unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Medical device establishment licences (SFDA MDEL)",
+     "found": "Compulsory licence for local importers, distributors and makers. Term is 1 year or up to 5 years, and sources conflict. SFDA runs unannounced audits and checks adverse-event reporting and recalls. Coverage of optical shops and dental labs is unconfirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Industrial licences and factory data (Ministry of Industry)",
+     "found": "Only monthly ministry statistics (188 new licences in Mar 2026; about 11,700 factories). No small-factory periodic filing duty confirmed.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "محطات الوقود تقارير دورية وزارة الطاقة ترخيص موزعي الغاز المسال اشتراطات",
+    "تعاونيات جمعيات المركز الوطني لتنمية القطاع غير الربحي تقرير سنوي إفصاح",
+    "المختبرات الطبية العيادات الخاصة هيئة الغذاء والدواء متطلبات تسجيل تقارير دورية 2026",
+    "شركات الأمن الخاص وزارة الداخلية تراخيص حراس الأمن تقارير شركات التشغيل والنظافة 2026",
+    "Saudi short-term rental Shomoos Tourism Ministry licence Ejar guest register 2026",
+    "Saudi real estate brokers AML reporting goAML DNFBP deadline 2026",
+    "Saudi contractors classification Etimad Monshaat site register 2026",
+    "SFDA export import food shipment halal importer registration Saber 2026",
+    "الهيئة العامة للعقار رخصة فال الوسيط العقاري تجديد الإعلان العقاري 2026",
+    "هيئة الرقابة النووية والإشعاعية ترخيص أجهزة الأشعة العيادات",
+    "وزارة الصناعة المصانع الصغيرة بيانات الإنتاج الشهرية ترخيص صناعي",
+    "مكاتب تأجير السيارات هيئة النقل عقد إلكتروني تأجير 2026",
+    "SFDA MDEL medical devices establishment licence small distributors optical dental",
+    "شركات العمرة وزارة الحج والعمرة ترخيص نسك غرامات 2026",
+    "نظام حماية البيانات الشخصية سدايا تسجيل المنشآت الصغيرة 2026",
+    "التأمين ضد العيوب الخفية المباني المقاولين وزارة البلديات 2026",
+    "برنامج إدارة مكتب تأجير سيارات ربط تأجير هيئة النقل",
+    "برنامج محاسبة وإدارة الجمعيات الأهلية إفصاح الحوكمة",
+    "توطين المهن قرارات التوطين 2026 نسب السعودة",
+    "مراكز توزيع غاز البترول المسال ترخيص وزارة الطاقة تتبع الأسطوانات"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b18"
+ }
+}

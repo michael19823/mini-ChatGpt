@@ -1,0 +1,380 @@
+{
+ "discover:ALL:burundi": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Shops of at least 200 m2, bars/restaurants of at least 250 m2, hotels of at least 15 guests; secondarily insurance agents who sell the cover",
+     "category": "33. Compulsory insurance for commercial premises",
+     "evidence": "ARCA insurance bulletins (https://www.arca.bi/images/Bulletin%20des assurances/ARCA_Bulletin_des_assurances_N°3_VF.pdf and https://arca.bi/images/Bulletin%20des assurances/Bulletin_des_Assurances_N°6_FV.pdf, read through search summaries only; the N°6 fetch failed with 503). ARCA reports most operators ignore the law and has checked in 2017, 2018, 2022, 2023 and Feb-May 2024.",
+     "existing": "None seen. Insurers and brokers issue the policies themselves.",
+     "known_mark": "new",
+     "known_note": "Low willingness to pay: the duty is a single annual policy, not a recurring report.",
+     "name": "Fire/explosion liability insurance compliance tracker for commercial premises (renewal reminders, proof-of-cover file, ARCA inspection pack)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Code des assurances (loi 1/02 of 7 Jan 2014, revised by loi 1/06 of 17 Jul 2020), arts 277-287; joint ministerial ordinance 540/530/1644 of 7 Oct 2014; recurring ARCA field checks with local administration",
+     "unchecked": "Sanctions for non-compliance; whether a certificate must be displayed; how many premises qualify; whether insurers already send renewal notices; willingness to pay. Competitor search not run (budget exhausted at 22 searches)."
+    },
+    {
+     "buyer": "Super-agents and agent networks of Lumicash, EcoCash and bank agents",
+     "category": "31. Mobile money and bank commercial agents",
+     "evidence": "https://regalert.today/guides/fintech/BI (third-party summary; fetch returned 429) and search summaries. Agent-level duties and report formats not read.",
+     "existing": "Operator agent apps (Lumicash, EcoCash) presumably cover float and transactions; not checked.",
+     "known_mark": "new",
+     "known_note": "Likely covered by operator systems; buyer is the operator, not small agents.",
+     "name": "Mobile money and bank agent compliance and reporting tool for multi-outlet agents and super-agents",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "BRB Regulation 003/2024 on commercial agents (agent approval, risk protocols, periodic compliance reports); circular 001/SP/2024 on e-money distributors",
+     "unchecked": "Regulation text; whether individual agents or only the payment institutions report; competitor search not run (budget)."
+    },
+    {
+     "buyer": "Licensed comptoirs and gold exporters; artisanal mining cooperatives selling to them",
+     "category": "38. Artisanal mining comptoirs and gold exporters (also cats 4, 27)",
+     "evidence": "https://www.iwacu-burundi.org/englishnews/burundi-mine-and-quarry-authority-committed-to-fighting-mineral-illicit-trade ; https://www.obm.bi/wp-content/uploads/2021/01/ORDONANCE-COOPERATIVE-PASSION-DE-BUSONI.docx ; IMF 2026 mission note https://www.imf.org/fr/news/articles/2026/05/18/pr26158-burundi-imf-staff-completes-2026-aiv-mission",
+     "existing": "None seen.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "known_note": "Same sector as K05 but a different buyer (comptoirs and exporters, not cooperatives' site registers). Number of licensed comptoirs unknown.",
+     "name": "Gold and mineral comptoir purchase register and export dossier (OBM label, BRB forex surrender)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "OBM labelling of mineral bags before export; forex surrender to BRB after export; 2013 ministerial orders on annual contributions for sites, quarries and comptoirs; gold exports rose from about 400 kg (2024) to 1.2 t (2025) per IMF",
+     "unchecked": "Number and size of licensed comptoirs; current OBM rules; ITIE status; competitor search not run (budget)."
+    },
+    {
+     "buyer": "Small COOPECs and microfinance institutions, FENACOBU affiliates",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://regalert.today/guides/lending/BI and https://en.wikipedia.org/wiki/Coop%C3%A9ratives_d%27%C3%89pargne_et_de_Cr%C3%A9dit_(Burundi) (secondary sources only)",
+     "existing": "FENACOBU likely supplies its own system to affiliates; other tools not checked.",
+     "known_mark": "new",
+     "name": "COOPEC and small microfinance institution periodic-report and audit-pack tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "BRB Regulation 001/2018 on microfinance; circular 10/M/18 (auditor approval, reporting by 31 March); decree 100/203 of 2006",
+     "unchecked": "Whether BRB mandates software (as it did for forex bureaux, K07); FENACOBU's system; number of independent institutions."
+    },
+    {
+     "buyer": "Phone and electronics shops, importers",
+     "category": "32. Telecom equipment distributors and SIM sellers",
+     "evidence": "https://ib-lenhardt.com/news/burundi-issues-new-type-approval-regulations (fetched; page dated 3 Jun 2025, order date and deadlines not stated)",
+     "existing": "Free ARCT register presumably, not checked.",
+     "known_mark": "new",
+     "name": "Telecom equipment retailer and distributor authorisation and approved-product check",
+     "score": 2,
+     "status": "weak",
+     "trigger": "ARCT order 580/01 (2025): distributors need ARCT authorisation, must sell only type-approved devices; fines up to BIF 5M plus confiscation; national approved-product register",
+     "unchecked": "Authorisation fee and renewal cycle; whether the register is public; no recurring report found."
+    },
+    {
+     "buyer": "Licensed guard companies (small and mid-size)",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://www.ungm.org/Public/Notice/30694 ; https://bancobu.com/images/1.Avis_dappel_doffre_gardiennage_BBC_IKIREZI.pdf ; https://www.enabel.be/app/uploads/2026/08/Annexe-Termes-de-reference-Accord-cadre-Gardiennage-des-bureaux-dEnabel.pdf",
+     "existing": "None seen.",
+     "known_mark": "new",
+     "name": "Private security company licence and social-security compliance file",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Operating permit from the Interior/Security ministry (tenders reject expired permits); client contracts require social security declarations and work-accident insurance",
+     "unchecked": "Permit renewal period, registers kept, number of firms; mostly generic payroll."
+    },
+    {
+     "buyer": "Fertiliser suppliers and approved microfinance institutions",
+     "category": "35. Subsidised fertiliser voucher scheme",
+     "evidence": "https://www.gtai.de/de/trade/burundi/ausschreibungen-projekte/consulting-digitalisierung-eines-vertriebsprozesses-landwirtschaft--2017772 ; https://forscburundi.org/wp-content/uploads/2026/08/Declaration-Problematique-des-Intrants.pdf",
+     "existing": "State-funded digitisation under BRIDEP will likely cover this.",
+     "known_mark": "new",
+     "name": "Subsidised fertiliser voucher redemption and refund claims tool for agro-dealers and MFIs",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Vouchers redeemed at suppliers and refunded by the ministry (government share 60%); BRIDEP is procuring a digitisation consultant",
+     "unchecked": "Whether the state platform includes supplier claims; supplier count."
+    },
+    {
+     "buyer": "Private vet clinics and vet pharmacies",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://ampeid.org/documents/burundi/law-no-1-05-of-february-11-2021-on-the-management-and-regulation-of-veterinary-products-in-burundi ; https://ampeid.org/documents/burundi/law-no-1-06-of-march-21-2011-regulating-the-practice-of-the-veterinary-profession/",
+     "existing": "None seen.",
+     "known_mark": "new",
+     "name": "Veterinary establishment and vet-pharmacy licence and stock register",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Loi 1/06 of 2011 (5 establishment types), loi 1/05 of 2021 (vet products), ABREVPA decree 100/083 of 4 Jul 2022",
+     "unchecked": "Implementing decrees, register and reporting formats, number of private vets."
+    },
+    {
+     "buyer": "ARCA-approved brokers and agents",
+     "category": "37. Insurance brokers and general agents (ARCA)",
+     "evidence": "https://arca.bi/images/Rapports annuels/Rapport_annuel_du_secteur _burundais_des_assurances_2018.pdf (contents page via search summary)",
+     "existing": "None seen.",
+     "known_mark": "new",
+     "name": "Insurance broker and general-agent professional-card and reporting file",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Code des assurances; ARCA approves brokerage companies and issues professional cards (lists in ARCA annual report)",
+     "unchecked": "Everything: conditions, reports, number of brokers."
+    },
+    {
+     "buyer": "Households employing domestic staff",
+     "category": "1. Household employers",
+     "evidence": "https://wf.playroll.com/employer-of-record/burundi (vendor page, unreliable); https://africarrieres.com/burundi/en/guide/employeur-entreprise/obligations-employeur",
+     "existing": "Unknown.",
+     "known_mark": "new",
+     "name": "Household employer INSS registration and monthly declaration service",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "INSS registration within 15 days of hire; monthly withholding (non-official employer-of-record page, undated)",
+     "unchecked": "Whether domestic workers fall under the INSS scheme at all; no official source; likely unenforced."
+    },
+    {
+     "category": "34. OBR electronic invoicing (MFE)",
+     "evidence": "OBR magazine Jan 2026 (BIF 25M turnover threshold); https://www.e-invoice.app/country/BI (secondary, unconfirmed) claims importers need an approved e-invoicing system from July 2026.",
+     "known_id": "K06",
+     "known_mark": "known",
+     "known_note": "Same duty and buyers as K03/K06/K08 (rejected over free Odoo and ERPNext modules). No new evidence strong enough to revive.",
+     "name": "EBMS e-invoicing for small taxpayers and importers (MFE, July 2026 importer rule)",
+     "score": 0,
+     "status": "weak"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers",
+     "evidence": "OBR single-window announcement: ABREMA module live 17 Feb 2026, exclusive use mandatory from 18 Feb 2026 (https://osiris.sn/le-burundi-digitalise-ses-procedures-d-importation-via-un-guichet-unique.html and https://www.wearetech.africa/fr/fils/actualites/tech/le-burundi-digitalise-ses-procedures-d-importation-via-un-guichet-unique)",
+     "known_id": "K02",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K02. The state's own free portal now does the filing, which lowers K02's gap.",
+     "name": "ABREMA pharmaceutical import permit via OBR GUE web module",
+     "score": 0,
+     "status": "weak"
+    },
+    {
+     "category": "22. Commodity traders",
+     "evidence": "No Burundi-specific EUDR material found in 2026 searches.",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Not re-checked; EUDR application date and Burundi readiness unverified.",
+     "name": "Coffee EUDR traceability for washing stations and exporters",
+     "score": 0,
+     "status": "weak"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Only generic employer pages (non-official, undated): employer must register an employee with INSS within 15 days of hire; monthly withholding to OBR and INSS. No domestic-worker-specific regime found. Nothing candidate-grade; unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Searched with mining (cat 27). Gold exports rose from about 400 kg (2024) to 1.2 t (2025) per IMF. Mineral bags need an OBM label before export and exporters must surrender forex to BRB (Iwacu). No jewellery-buyer rules found. See comptoir candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Budget; K09 already covers livestock movement certificates (rejected).",
+     "status": "not_reached"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Loi 1/06 of 21 Mar 2011 (vet profession; 5 establishment types incl. vet pharmacy; registration with the Ordre) and loi 1/05 of 11 Feb 2021 (vet products). ABREVPA created by decree 100/083 of 4 Jul 2022. No licence-renewal, reporting or enforcement detail found.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Budget; no search run. Likely tiny market.",
+     "status": "not_reached"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Loi 1/08 of 11 May 2018 on pesticide management (national approval committee, inspection). Subsidised fertiliser runs through vouchers redeemed by suppliers and refunded by the ministry; BRIDEP is tendering a firm to digitise this (EOI deadline Aug 2026), so the state is the buyer. FOMI dominates fertiliser supply. No dealer licensing procedure found.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Budget; only touched via cat 26 security results.",
+     "status": "not_reached"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Budget; K04 already covers religious-body foreign-donation declarations.",
+     "status": "not_reached"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Only dated material: moto-taxis, bicycle taxis and tuk-tuks banned from central Bujumbura in March 2022; plate and vest schemes of unknown current status. No current licensing or inspection regime found.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Budget; K07 already covers forex bureaux (rejected).",
+     "status": "not_reached"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Interpetrol's monopoly was removed and the sector went to Regideso plus private Prestige; shortages persist (HRW 2025). SOPEBU is digitising vehicles that buy fuel. About 1 station per 57,554 inhabitants, so few small dealers. No station licence or reporting duty found.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Nothing new beyond K01. Searches returned only old structure material (SOGESTAL defunct, CNAC 130,000 households). EUDR date and Burundi-specific EUDR readiness not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "COOPECs/FENACOBU under decree 100/203 of 2006 and BRB Regulation 001/2018; auditor circular 10/M/18 sets a 31 March reporting date. E-money circular 001/SP/2024. No 2025 microfinance law found. See COOPEC candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Only old (2007-2014) sources on MFP (civil-service scheme) billing: hospital acts at official tariffs, lab exams at negotiated rates. Nothing current on private-provider billing.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Nothing new beyond K02. OBR announced the ABREMA web module of the e-single window live on 17 Feb 2026, mandatory from 18 Feb 2026 for pharma import requests. ABREMA fee order 630/540/134 of 29 Jan 2024. No pharmacy or wholesaler licensing or inspection detail found.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Guard firms need an operating permit from the Interior/Security ministry (MONUSCO, BANCOBU tenders require a valid one). Clients hold the provider responsible for social security declarations and work-accident insurance. Many guards are hired directly by owners. No procedure or enforcement detail found.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Mining side only. OBM (Office burundais des mines et carrières) controls extraction to export; 2013 orders set annual contributions for artisanal sites, quarries and comptoirs; cooperatives get ministerial ordinances. Nothing on construction site registers or local content.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Search returned only French, Belgian and Burkinabe material. Burundi's AML law, list of obliged professions and FIU rules not found.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "No guest-register or tourism-levy rule found. Hotels were classified under an EAC framework (Iwacu 2019). Under the insurance code, hotels taking at least 15 guests must hold fire/explosion liability insurance (see cat 33).",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Customs runs on SYDONIA with licensed customs brokers (old sources). OBR e-single window (GUE) web version launched Feb 2026. A secondary source says importers must hold an approved e-invoicing system from July 2026 (unconfirmed). Nothing new for fish or timber.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Mobile money and bank commercial agents (BRB Regulation 003/2024, circular 001/SP/2024)",
+     "found": "BRB Regulation 003/2024 (dated 30 Jul or 1 Sep 2024, unconfirmed) governs commercial agents in banking and payment services: agent approval, risk management, periodic compliance reports. E-money circular 001/SP/2024 covers distributors. Texts not read.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Telecom equipment distributors and SIM sellers (ARCT order 580/01 of 2025; SIM registration 2026)",
+     "found": "ARCT order 580/01: distributors need ARCT authorisation, national register of approved products, fines up to BIF 5M plus confiscation. SIM re-registration began mid-June 2026 (in person with ID; no formal agent-registration duty stated; operators keep data 5 years).",
+     "status": "screened"
+    },
+    {
+     "category": "33. Compulsory insurance for commercial premises (Code des assurances arts 277-287, loi 1/06 of 2020)",
+     "found": "Fire/explosion liability insurance is compulsory for discos, bars and restaurants of at least 250 m2, hotels of at least 15 guests, shops of at least 200 m2, cinemas, theatres and casinos. ARCA ran field checks in 2017, 2018, 2022, 2023 and Feb-May 2024 and found most operators ignorant of the law. Sanctions and proof-of-cover form not found.",
+     "status": "screened"
+    },
+    {
+     "category": "34. OBR electronic invoicing (MFE) for small taxpayers",
+     "found": "Nothing new beyond K06/K03/K08. MFE costs BIF 1,206,345 (up to 12 instalments). OBR January 2026 magazine calls taxpayers above BIF 25M turnover to obtain one; small-taxpayer deadline unconfirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Subsidised fertiliser voucher scheme (suppliers, microfinance institutions)",
+     "found": "Farmers register through an approved MFI, pay a 40% share, and redeem vouchers at suppliers who are refunded by the ministry. BRIDEP (AfDB/IFAD, USD 323.75M, 2024-2029) is procuring digitisation of the scheme and geolocation of 120,000 households. The state is the buyer.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Customs brokers and transit agents (OBR)",
+     "found": "Only old SYDONIA++ material (2006, 2008, 2016). Current accreditation list and rules not found; new GUE web platform since Feb 2026.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Insurance brokers and general agents (ARCA)",
+     "found": "ARCA publishes lists of approved brokerage companies and professional-card holders; the brokers' association is IBAB. Conditions and reporting duties not found.",
+     "status": "screened"
+    },
+    {
+     "category": "38. Artisanal mining comptoirs and gold exporters (OBM)",
+     "found": "OBM labels mineral bags before export; exporters must surrender forex to BRB; 2013 orders set comptoir contributions. EITI status and current comptoir rules not found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "Burundi ministère décret 2025 obligation déclaration registre agrément commerçants",
+    "Burundi stations-service carburant licence ARCT importateurs distributeurs 2025",
+    "Burundi coopératives café stations de lavage CNAC SOGESTAL traçabilité EUDR 2026",
+    "Burundi hôtels maisons d'hôtes fiche de police ONT taxe de séjour registre",
+    "Burundi microfinance coopératives d'épargne BRB agrément déclaration rapports 2025 loi",
+    "Burundi ABREMA pharmacies officine grossistes licence inspection 2025",
+    "Burundi mutuelle MFP SMIG assurance maladie prestataires privés facturation cliniques laboratoires",
+    "Burundi sociétés de gardiennage agrément ministère sécurité publique entreprises de nettoyage main d'oeuvre",
+    "Burundi INSS employeurs domestiques déclaration cotisations employeurs obligation 2025",
+    "Burundi transport moto-taxi taxis bus licence enregistrement ARCT vignette contrôle technique 2025",
+    "Burundi comptoirs d'or or minerais exportateurs agrément OBM carrières registre 2025",
+    "Burundi agents mobile money Lumicash EcoCash agents agrément BRB déclaration sim enregistrement ARCT",
+    "Burundi blanchiment de capitaux notaires agents immobiliers déclaration de soupçon CRF assujettis",
+    "Burundi commissionnaires en douane agréés transitaires OBR SYDONIA exportateurs thé coton certificat d'origine",
+    "Burundi vétérinaires privés pharmacies vétérinaires agrément intrants engrais pesticides FOMI",
+    "OBR facturation électronique MFE obligation contribuables petits commerçants délai 2026 impôt synthétique",
+    "BRB circulaire agents commerciaux monnaie électronique 2024 agents de paiement Burundi exigences",
+    "Burundi engrais subventionnés distribution digitalisation agro-dealers BRIDEP coopératives liste bénéficiaires",
+    "ARCA Burundi assurance obligatoire courtiers agents généraux agrément assurance automobile attestation",
+    "Burundi 2026 ordonnance ministérielle nouvelle réglementation commerçants importateurs obligation enregistrement plateforme en ligne"
+   ],
+   "searches": 22
+  },
+  "tag": "w2b75"
+ }
+}

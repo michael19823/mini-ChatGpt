@@ -1,4 +1,16 @@
 {
+ "challenge:ethiopia:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No outright killer. The core job (a tax invoice line plus a register) is a configuration change in existing local hotel ERP/POS systems. CNET-ERP claims more than 3,500 Ethiopian clients, mostly hotels, supermarkets and restaurants (job-ad claim). Small operators without records fall back to the presumptive 70%-of-revenue assessment. The Addis Fortune and Capital articles disagree on Category B filing frequency (monthly vs quarterly).",
+   "reason": "I found no lodging-tax product and no city e-filing portal for this tax; registration is in person. The duty is real (Reg. 204/2026, Fortune, Capital), but that doesn't make a product. The core job is adding a 5% line to room invoices, which existing POS and ERP systems handle by reconfiguration. Fortune says hotels were already doing this. CNET Software Technologies' CNET-ERP claims more than 3,500 Ethiopian clients, mostly hotels, supermarkets and restaurants (a job-ad claim, unverified). Operators without records are taxed presumptively on 70% of revenue, so they have little need for software. That leaves a narrow segment: roughly 500 bookable hotels, most of them already using ERP. I couldn't settle whether the filing is digital, how many unrated guesthouses exist, or whether regional cities will copy the tax.",
+   "searches": 6,
+   "sources": "https://addisfortune.news/city-levy-lands-on-hotels-before-the-registers-get-ready ; https://capitalethiopia.com/2026/07/10/addis-ababa-enacts-5-tax-on-hotel-and-lodging-accommodations/ ; https://www.geezjobs.com/job-detail/9306/maintenance-technician ; https://addisfortune.news/addis-abeba-expands-e-filing-netting-more-categories ; https://ethiopanorama.com/?p=305485",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b74"
+ },
  "discover:A:ethiopia": {
   "result": {
    "blocked_searches": 0,
@@ -805,6 +817,17 @@
   },
   "tag": "w2b74"
  },
+ "sonnet:ethiopia:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Proclamation 1389/2025 replaced 923/2016 and 1246/2021, and an Oct 2025 ministry directive sets capital tiers (5m to 20m Br) and USD 50k to 250k deposits (per Fortune via search summary; I did not open the proclamation text). But the duties are mostly one-off capital and deposit requirements, not a recurring filing workflow. The state LMIS (Ethiopian Labour Migration Information System, built with ILO support) already handles agency registration, worker files and biometrics. About 470,000 workers and 1,250 agencies used it. A 2026 ILO brief says enforcement gaps remain. Market is roughly 943 to 1,200 agencies, a small buyer set and a hard sell. No private competitor was found; I did not run a dedicated competitor search. Amharic sources were not read in depth.",
+   "searches": 3,
+   "sources": "https://www.metaappz.com/References/ethiopian_laws/federal/pr_1389_2025/en/pdf ; https://shega.co/news/tracing-ethiopian-migrant-workers-with-modern-tools ; https://www.thereporterethiopia.com/3184/ ; https://capitalethiopia.com/2026/03/15/a-dangerous-road-the-economics-and-illegality-of-the-ethiopian-ministry-of-labor-and-skills-bank-directive/ ; https://researchrepository.ilo.org/esploro/outputs/encyclopediaEntry/Assessment-of-the-registration-licensing-and/995703662002676",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b74"
+ },
  "sonnet:ethiopia:A8": {
   "result": {
    "blocked_searches": 0,
@@ -812,6 +835,17 @@
    "searches": 2,
    "sources": "https://www.thereporterethiopia.com/39432/ ; https://www.ice.it/it/news/notizie-dal-mondo/260534",
    "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b74"
+ },
+ "sonnet:ethiopia:B10": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Proclamation 1357/2024 (Real Estate Development and Real Property Marketing and Valuation, federal) exists and, per press, has the Ministry of Urban and Infrastructure set licensing/registration standards for agents and brokers. I could not read the text. I found no confirmed periodic reporting, record-keeping or AML duty, penalty or frequency, and no implementing regulation. The duty looks like a one-off licence/registration, not a recurring workflow. Brokers are informal and fragmented, which hurts buyer access and willingness to pay. Existing listing apps (Bet Delala, Qetita) do not do compliance. The market count was not found. Searches were thin.",
+   "searches": 3,
+   "sources": "https://www.thereporterethiopia.com/42847/ ; https://www.metaappz.com/References/ethiopian_laws/federal/pr_1357_2024/en/pdf ; https://aviaanaccounting.com/business-plan-for-real-estate-brokerage-business-in-ethiopia/ ; https://apps.apple.com/app/id6475351576 ; https://dablolawfirm.com/?p=9077",
+   "suggested_score": 2,
    "verdict": "unverifiable"
   },
   "tag": "w2b74"
@@ -824,6 +858,31 @@
    "sources": "https://www.thereporterethiopia.com/30702/ ; https://www.ethiotelecom.et/ethio-telecom-launches-digital-solutions-to-digitalize-fuel-supply-chain-management-fuel-coupon-and-third-party-insurance-management-system-with-key-stakeholders/ ; https://www.thereporterethiopia.com/37366/ ; https://addisfortune.news/?p=42332 ; https://shega.co/news/m-pesa-eyes-fuel-payment-market-share-in-ethiopia-pumps-into-national-fuel-aggregator",
    "suggested_score": 2,
    "verdict": "refuted"
+  },
+  "tag": "w2b74"
+ },
+ "sonnet:ethiopia:B8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "No source shows EHAP accreditation is mandatory for private clinics. MoH notices describe draft standards (ES 7191:2025 hospital, primary care and diagnostic requirements) and a phased rollout, with no deadline or penalty found. Claims duty: the state EtNHIS has a free claim-submission app for CBHI (web and Android) in health facilities, which covers the core claims job (manual dated 2019). Whether private clinics are contracted at scale was not found. Market size was not found. The duty is unproven, the state tool already does the claims part, and buyers are few and weak payers, so the score is low. Unchecked: the Ethiopian Health Insurance Agency's private-provider contracting rules, and private vendors of clinic software.",
+   "searches": 2,
+   "sources": "https://moh.gov.et/en/node/529 ; https://jsi.com/?p=30221 ; https://docs.etnhis.ehis.gov.et/claims_submission.html ; https://moh.gov.et/en/node/484",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b74"
+ },
+ "sonnet:ethiopia:B9": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "none found (not thoroughly searched)",
+   "duty": "Annual contractor licence renewal with audited accounts and tax clearance; in-person at the ministry per undated guides",
+   "market": "Contractor count not found",
+   "reason": "Duty is plausible: guides say contractor licence is valid one year, renewal needs 3 years of audited accounts and a tax compliance certificate, and it is done in person at the ministry. But the sources are community or legal-education pages, undated and under old ministry names. I found no official current rule, penalty text, online portal status, or contractor count. I also found no competing software; I didn't check thoroughly, and the Amharic search returned nothing useful. Likely a low-volume, relationship-driven niche. Buyers are small, there are many regional variations, and the annual frequency limits recurring revenue. I used 3 searches and 0 fetches.",
+   "searches": 3,
+   "sources": "https://wikiprocedure.com/index.php/Ethiopia_-_Renewal_of_a_Contractor_Practicing_License ; https://www.abyssinialaw.com/study-on-line/construction-law/licensing-and-registration-of-contractors-architects-and-civil-engineering-consults ; https://www.ungm.org/Public/Notice/301989",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
   },
   "tag": "w2b74"
  },

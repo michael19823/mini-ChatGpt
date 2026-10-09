@@ -131,6 +131,61 @@
    "merge": 1
   }
  },
+ "ecuador": {
+  "batch": "w2b26",
+  "candidates": 20,
+  "checks": {
+   "opus": 4,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "A5 Private child-development centre (CDI) annual technical-administrative report and permit file",
+    "A7 Livestock introducer and movement-guide helper for cattle traders (SIFAE guía de movilización plus vaccination certificate plus camal introducer code)",
+    "A8 Operating-permit renewal and SEPS member-list file for taxi and transport cooperatives",
+    "B5 Guest-book, SITURIN registration and LUAF renewal helper for small hosts and hostales (Alojamiento en Inmuebles Habitacionales)"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 5,
+   "disputed": 1,
+   "unverifiable": 3,
+   "verified_4": 1
+  },
+  "gaps": 0,
+  "id": "ecuador",
+  "leads": [
+   {
+    "challenge": "unclear 4",
+    "final": "disputed",
+    "id": "A1",
+    "mark": "new",
+    "name": "Transparency-law compliance pack for small foundations, corporations and community associations (SUIOS registration, risk-tier reports, 30-day director updates)",
+    "opus": 5,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "B1",
+    "mark": "new",
+    "name": "Compliance file and permit tracker for small private security companies (operating permit, guard roster, ID cards, insurance and guarantees, arms register)",
+    "opus": 4,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "drop": 1,
+   "keep": 14,
+   "known": 4,
+   "merge": 1
+  }
+ },
  "france": {
   "batch": "w2b8",
   "candidates": 44,
@@ -262,6 +317,49 @@
    "drop": 1,
    "keep": 36,
    "known": 3
+  }
+ },
+ "guatemala": {
+  "batch": "w2b26",
+  "candidates": 32,
+  "checks": {
+   "opus": 3,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "A4 Solid-waste classification and management plans for commercial generators and haulers (AG 164-2021)",
+    "A11 Municipal and community water system monitoring records (AG 113-2009)",
+    "B4 Licence renewal and compliance calendar for private clinics, labs and health establishments (DRACES)",
+    "B6 Cooperative compliance kit (annual reports, assembly records, registry reactivation) for small cooperatives"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 3,
+   "disputed": 1,
+   "refuted": 1,
+   "unverifiable": 4
+  },
+  "gaps": 2,
+  "id": "guatemala",
+  "leads": [
+   {
+    "challenge": "unclear 3",
+    "final": "disputed",
+    "id": "B1",
+    "mark": "new",
+    "name": "AML program and IVE registration kit for notaries and independent lawyers under Decreto 15-2026",
+    "opus": 4,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 24,
+   "known": 5,
+   "merge": 3
   }
  },
  "india": {

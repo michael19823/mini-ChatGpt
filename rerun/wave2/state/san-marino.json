@@ -1,0 +1,345 @@
+{
+ "discover:ALL:san-marino": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Retail and wholesale vehicle dealers and importers licensed in San Marino (ATECO vehicle trade codes). Count unverified.",
+     "category": "31. Vehicle trade operators' register (also 3. Second-hand dealers)",
+     "evidence": "https://www.consigliograndeegenerale.sm/on-line/home/lavori-consiliari/dettagli-delle-convocazioni/archivio-storico-delle-convocazioni/documento17159324.html (full text of DD 85/2026 read). Also https://www.consigliograndeegenerale.sm/on-line/home/lavori-consiliari/consultazione-archivi/documento17160191.html",
+     "existing": "Competitor search 'gestionale concessionari auto San Marino software Registro operatori veicoli ASE-CC visto merci TribWeb' found no San Marino dealer software and nothing on TribWeb integration. Italian dealer-management systems were not checked. The register is a state portal, so a vendor would only add a layer around it (stock sync, deadline alerts, storage-site log).",
+     "known_mark": "new",
+     "name": "Vehicle-dealer register compliance tool (DD 73/2026 ratified by DD 85/2026)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "DD 29 June 2026 n.85 (ratifying DD 28 May 2026 n.73). A digital register is kept by ASE-CC. Data auto-fills at the customs visto merci. Where it does not, the dealer must enter make, model, chassis number, storage site, and for used cars the first registration date and km at import, within 48 hours of purchase or import. The sale must also be entered. Fines: 200 EUR for incomplete data; 2,000 EUR when a vehicle is not at the declared storage site, 5,000 EUR with a ban of 15 days to 6 months for a repeat, and 25,000 EUR with revocation for a repeat of the repeat. The regulation on how the register works is still to come. A 200,000 EUR six-year bank guarantee is due before authorisation.",
+     "unchecked": "The implementing regulation and whether ASE-CC gives an API or bulk upload. How many dealers there are. Whether dealers already use an Italian DMS that will add this feature. Whether it reaches dismantlers. Whether the guarantee scares small dealers out, shrinking the market."
+    },
+    {
+     "buyer": "Car and motor rental firms in San Marino. Count unverified.",
+     "category": "32. Vehicle rental operators (country-specific)",
+     "evidence": "https://www.consigliograndeegenerale.sm/on-line/home/lavori-consiliari/consultazione-archivi/documento17160191.html (full relazione read)",
+     "existing": "Same competitor search as C1: nothing found.",
+     "known_mark": "new",
+     "name": "Vehicle-rental operator contract register and fleet compliance",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Bill 'Disposizioni sul noleggio di veicoli' (relazione dated 26 Aug 2026) with DD 85/2026: contracts must be written, entered in the register, and kept 5 years; fleet cap of 70 rental vehicles; a limit on vehicles above 375 kW and under 5 seats; one full-time employee (or two part-time) within a month of authorisation, checked periodically by the labour office; traceable payment; insurance marked for rental. A collateral law gives 60 days to enter existing fleet data in the register. Bill status: pending, not law.",
+     "unchecked": "Whether the bill passed and the entry deadlines. Number of operators. Whether rental software from Italy already covers it."
+    },
+    {
+     "buyer": "B&Bs, affittacamere and holiday-home hosts in San Marino",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.gov.sm/pub1/GovSM/dam/jcr:24b2afe1-aeaf-4a2c-a13c-7d6d435f475f/3CapitolatoSpecialeWebAlloggiati%20-%20def2.pdf (tender for the state's own 'Alloggiati' web app that records presences and calculates the tax)",
+     "existing": "The state is procuring a free-to-host web app doing both jobs, which covers the core duty.",
+     "known_mark": "new",
+     "name": "Tourist-tax and guest-registration helper for small lodgings",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Tourist tax since 2022 (Law 207/2021 art. 42), withheld by the host and paid to the Ufficio Tributario. Guest presence recorded for public security.",
+     "unchecked": "Whether the app is live and mandatory. Number of hosts. Exact current periods and forms."
+    },
+    {
+     "buyer": "Waste producers (hazardous or large), haulers, dealers and recoverers under D.D. 44/2012",
+     "category": "2. Scrap-metal dealers / 11. Septic, sanitation and waste haulers",
+     "evidence": "https://gov.sm/pub1/upav/dam/jcr:aac96e1c-f26e-4767-a13b-771c5c231272/L-116642-24%20Comunicazione%20apertura%20catasto%202024.pdf",
+     "existing": "The state's own Servizi web UPAV and UOGA software, with a register-to-cadastre import button.",
+     "known_mark": "new",
+     "name": "Waste load/unload register and annual cadastre return",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Register under art. 27(3) D.D. 44/2012, annual return by 30 April to UPAV. Exemptions for farms and firms under 20 staff with non-hazardous waste.",
+     "unchecked": "Exact scope and number of obliged firms."
+    },
+    {
+     "buyer": "San Marino importing firms and customs agents (spedizionieri)",
+     "category": "30. Small exporters and importers / 33. Visto merci",
+     "evidence": "https://www.consigliograndeegenerale.sm/on-line/home/documento17151277.html (search snippet only; page not opened)",
+     "existing": "State TribWeb application. Agents already handle exports through NCTS.",
+     "known_mark": "new",
+     "name": "Customs visto merci filing service for small importers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "DD 209/2024 ratified by DD 44/2025: telematic visto merci through TribWeb only, for goods worth 5,000 EUR or more; always for temporary imports and non-EU imports. Extended to SRLs by a later change (unverified).",
+     "unchecked": "The user manual, the SRL extension, what a vendor could add on top of a state portal."
+    },
+    {
+     "buyer": "San Marino associations, foundations, cooperatives and consortia",
+     "category": "17. Community and religious bodies / 35. Registers",
+     "evidence": "Full text of DD 26/2026 read (local PDF). https://www.consigliograndeegenerale.sm/on-line/home/archivio-leggi-decreti-e-regolamenti/documento17157109.html",
+     "existing": "None looked for. Duties are mostly unclear or absent, so there is little to build on.",
+     "known_mark": "new",
+     "name": "Association and foundation register filings after transfer to Ufficio Attività Economiche",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DD 147/2025 (ratified by DD 26/2026) moves the registers by 1 Feb 2026. Rules effective after Congress directives. Foundations under old Law 130/1995 must adapt statutes within 18 months of Law 30/2025 (about September 2026). A council opinion says associations had no duty to file balance sheets under Law 68/1990.",
+     "unchecked": "Whether the Congress directives created filing duties. Number of associations."
+    },
+    {
+     "buyer": "About 50 authorised private structures (dental, polyclinics, physio, aesthetic)",
+     "category": "24. Private clinics / 37. Private health structures",
+     "evidence": "https://gov.sm/pub2/GovSM/dam/jcr:b8d84752-002e-4b59-9daa-89decc973466/Capitolato%20tecnico%20Software%20Authority%20str%20aut%20accr%203RSM%20V3.pdf (tender for the Authority's own software; figures at 1 Jan 2022)",
+     "existing": "State-procured software for the Authority.",
+     "known_mark": "new",
+     "name": "Private health structure authorisation and accreditation reporting",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Authority Sanitaria authorisation and accreditation regime. Intramural convention with ISS demands the structure verify that ISS patients are not served and report.",
+     "unchecked": "Whether the structures must submit data through that software, and the reporting calendar."
+    },
+    {
+     "buyer": "Licensed vigilance institutes in San Marino",
+     "category": "34. Private security / 26. Security agencies",
+     "evidence": "Search summary of consigliograndeegenerale.sm results (page not opened).",
+     "existing": "None checked.",
+     "known_mark": "new",
+     "name": "Private security firms and sworn guards register",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Decree-law on private vigilance and investigation: licence conditions and a Gendarmeria register of sworn guards.",
+     "unchecked": "Number of firms, recurring reports, current law number."
+    },
+    {
+     "buyer": "San Marino families employing a carer",
+     "category": "1. Household employers",
+     "evidence": "https://www.consigliograndeegenerale.sm/on-line/home/documento17132316.html",
+     "existing": "State list and portal.",
+     "known_id": "K02",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K02. The replacement bill's approval is unconfirmed.",
+     "name": "Domestic carer (badante/APINS) payroll and permit service",
+     "score": 0,
+     "status": "weak",
+     "trigger": "DD 21/2016 and the replacement bill with an APINS worker list."
+    },
+    {
+     "buyer": "San Marino operators",
+     "category": "28/general: e-invoicing",
+     "evidence": "https://lookuptax.com/tax-changes/san-marino/domestic-b2b-einvoicing-dd-133-2026",
+     "existing": "Not re-checked.",
+     "known_id": "K03",
+     "known_mark": "known",
+     "known_note": "Same as K03, K01, K06.",
+     "name": "Domestic B2B e-invoicing (DD 133/2026)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Voluntary from 1 Oct 2026, mandatory from 1 Jan 2027, penalties from 1 Jan 2028 (per lookuptax.com, a commercial source). Operators under 100,000 EUR revenue reportedly excluded."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing new beyond K02. Decreto Delegato 21/2016 (continuous care for non-self-sufficient people; the cared-for person or a delegate is the employer). A bill replacing it would create an APINS worker register with a Lista di Disponibilità, published on the PA portal and the ISS site, and a hiring route via Gov.sm. Approval not confirmed. The state is building the matching tool itself.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Waste authorisations come from UPAV under D.D. 44/2012 art. 29, with EER codes. The load/unload register can be kept digitally in the state's Servizi web-UOGA from 1 Oct 2021. Annual waste-cadastre return via UPAV web services (2024 window 2 Jan-30 Apr 2025). The state supplies the software. No San Marino scrap-specific register found.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No second-hand or pawnbroker regime found. The new vehicle-trade register (DD 73/2026, ratified by DD 85/2026) is the relevant new duty. See C1.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Precious-metal and stone dealers are obliged entities under Law 92/2008 as amended by DL 116/2017. They owe AML duties to the AIF. No San Marino compro-oro licence or register found. A bill transposing the 5th AML Directive amended 90 articles; its approval is unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler-specific rules found. The new vehicle-trade register may reach vehicle wholesalers and retailers; dismantler coverage unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Animal holders keep a load/unload register. Births must be reported within 5 days, deaths within 24 hours, movements within 48 hours. Bought animals are reported within 3 days. The Ufficio Agrario and the vet service hold the registers. The herd is tiny and the state runs the records.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Not searched separately because of budget. K07 covers small food producers.",
+     "status": "not_reached"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "One phytosanitary search turned up nothing on beekeeping in San Marino.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "A bill governing sale and holding of veterinary medicines (vets may hold and dispense; OTC pet products in licensed shops; ISS pharmacies excluded). Enactment unverified. Very few buyers.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Budget.",
+     "status": "not_reached"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Haulers are covered by the UPAV authorisation regime (Italian and foreign carriers, annual return due 30 April). DL 88/2026 (3 July 2026) amends the Codice Ambientale and extends sewer-network deadlines; not read. Nothing specific to septic services.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "No San Marino lift or boiler inspection rule found.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Budget.",
+     "status": "not_reached"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "A San Marino phytosanitary law requires a purchase certificate (patentino) for toxic classes, sales registers (annex 4) and a sale form (annex 5). Number and date of the law not found. The market is a handful of dealers.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "No temp-agency licensing regime found. Ufficio del Lavoro issues hiring clearances (nulla osta). A reform would move authorisation powers to the Ufficio Attività Economiche one-stop shop. Status unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "The cemetery regulation is old and state-run. No funeral-operator licensing found.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "DD 147/2025 (ratified by DD 26/2026) moves the registers of associations, foundations, cooperatives and consortia from the Court Registry to the Ufficio Attività Economiche, by 1 Feb 2026. The new rules take effect only after Congress of State directives. Law 30/2025 repealed Law 130/1995 on foundations; old foundations must adapt their statutes within 18 months of Law 30/2025. A council opinion noted that associations historically had no duty to file balance sheets. See C6.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Taxi and NCC cars need annual inspection (Law 107/1985 art. 7). NCC needs an authorisation and a licence with a specific business purpose. Few operators. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Budget.",
+     "status": "not_reached"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Driving schools need a licence under Law 40/2014 and are checked by the Ufficio Registro Automezzi e Trasporti. Private nurseries are accredited under DD 115/2008 and need Congress of State approval to sell a majority stake. Tiny numbers. Tattoo studios and hunting outfitters not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "A government-mandated technical mapping of fuel plants (Ufficio Tributario) and the periodic metrological verification regime exist. Excise rates change often by decree (DL 83/2026 of 25 June 2026). No licence or reporting duty a vendor could serve was found.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "A landlocked microstate with no commodity trade.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Cooperative and consortium registers move to the Ufficio Attività Economiche (DD 147/2025). See C6.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "The Authority Sanitaria authorises outpatient and specialist structures. About 50 private structures at 1 Jan 2022 (23 dental, 12 polyclinics, 3 physio, 3 aesthetic medicine, 2 biobanks, 2 clinics with beds). ISS convention applies only to intramural consultancy in private structures. The Authority tendered its own software for authorised and accredited structures. See C7.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Budget. Veterinary medicine retail is excluded from the vet bill for ISS pharmacies, which suggests pharmacies are ISS-run; unverified.",
+     "status": "not_reached"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Private security (istituti di vigilanza) is licensed, and sworn guards are listed in a register at the Gendarmeria. Cleaning and temp agencies: no regime found.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "The site-safety law requires a preliminary notification (art. 11), safety coordinators and a safety and coordination plan. The filing office and the injury register were not found.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Law 92/2008 covers real estate agents (letting only at 10,000 EUR a month or more), art dealers and auction houses (10,000 EUR threshold) and virtual-asset providers. The AIF receives suspicious-transaction reports. No 2026 San Marino AIF change found. The Italian UIF rules effective 1 July 2026 do not apply.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Tourist tax since 2022 (Law 207/2021 art. 42). Operators (hotels, affittacamere, holiday homes, B&Bs) collect it as withholding agents and pay the Ufficio Tributario. B&Bs must report opening period and prices by 30 Sept (source may be dated). Guest presence is recorded for public security in a state web app, 'Alloggiati'. See C3.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Imports above 5,000 EUR need a customs 'visto merci', filed only through the Ufficio Tributario's TribWeb application. DD 209/2024 as ratified by DD 44/2025; extended to SRLs by a later change (unverified text). Ratified. See C5.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Vehicle trade operators' register (country-specific)",
+     "found": "DD 73/2026 ratified by DD 85/2026 creates a digital register kept by ASE-CC. See C1.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Vehicle rental operators (country-specific)",
+     "found": "The bill 'Disposizioni sul noleggio di veicoli' (Segreteria Industria, Prot. 26/08/2026) covers rental without driver. See C2.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Customs 'visto merci' and import clearance (country-specific)",
+     "found": "See C5.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Private security and sworn guards (country-specific)",
+     "found": "Licensed vigilance institutes; sworn guards on a Gendarmeria register. Number of firms very small. See C8.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Public registers of associations, foundations and cooperatives (country-specific)",
+     "found": "See C6.",
+     "status": "screened"
+    },
+    {
+     "category": "36. E-commerce operator register and trust mark (country-specific)",
+     "found": "A Segreteria Industria report mentions a decree creating a San Marino e-commerce mark under art. 27 of Law 58/2013, tied to a register of e-commerce activities. Date and duties unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Private health structures (country-specific)",
+     "found": "See category 24 and C7.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "San Marino assistenti familiari badanti obbligo assunzione Ufficio del Lavoro permesso",
+    "San Marino compro oro oggetti preziosi licenza registro antiriciclaggio AIF",
+    "San Marino rifiuti rottami metallici autodemolitori autorizzazione registro",
+    "San Marino veterinari farmaci veterinari registro allevatori anagrafe zootecnica",
+    "San Marino strutture ricettive affittacamere registro ospiti imposta di soggiorno",
+    "San Marino distributori carburante licenza ascensori verifica periodica",
+    "San Marino associazioni fondazioni registro enti non profit legge 2024",
+    "San Marino autoscuole taxi noleggio con conducente Registro Automezzi revisione",
+    "San Marino decreto delegato 2026 commercio licenze Ufficio Industria Artigianato Commercio",
+    "San Marino cantieri edili notifica preliminare sicurezza",
+    "San Marino ambulatori privati autorizzazione sanitaria convenzione ISS",
+    "San Marino operatori funebri cimiteri asili nido autorizzazione",
+    "Decreto Delegato 28 maggio 2026 n.73 Registro operatori commercio veicoli ASE-CC",
+    "San Marino agenti immobiliari notai antiriciclaggio AIF professionisti 2026",
+    "San Marino Decreto Delegato 2026 registro obbligo comunicazione imprese",
+    "San Marino visto merci Decreto Delegato 44/2025 spedizioniere",
+    "San Marino Codice Ambientale registro carico scarico Catasto rifiuti autospurgo",
+    "San Marino fitosanitari patentino apicoltura Ufficio Agrario",
+    "San Marino somministrazione lavoro vigilanza privata pulizie licenza",
+    "gestionale concessionari auto San Marino Registro operatori veicoli ASE-CC TribWeb",
+    "San Marino registratori di cassa telematici corrispettivi Ufficio Tributario",
+    "San Marino APINS Lista di Disponibilità assistenti familiari 2026"
+   ],
+   "searches": 22
+  },
+  "tag": "w2b82"
+ }
+}

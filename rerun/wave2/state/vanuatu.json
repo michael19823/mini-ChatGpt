@@ -427,5 +427,292 @@
    "searches": 22
   },
   "tag": "w2b83"
+ },
+ "gapfill:vanuatu": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small licensed businesses on turnover-tax licence classes (F2, F3, F4)",
+     "category": "Cross-cutting (not an assigned category; found while screening cat 2-3). Nearest: 19. Market traders / generic small business",
+     "evidence": "Business Licence Act [Cap 249]: all businesses renew each calendar year by 31 January (a Jan 2026 press report says before 2 February 2026), fees based on prior gross turnover, 10% penalty per month for late payment (https://customsinlandrevenue.gov.vu/taxes-and-licensing/licensing/business-licencing ; https://vbr.vu/?p=7253). Act No. 11 of 2023 added s.18A: 5% turnover tax payable quarterly for VAT-exempt or zero-rated supplies and licence classes F2, F3(a)-(d), F4, commenced 13 Sep 2023 (https://pacliirms.austlii.edu.au/vu/legis/num_act/bla2023n112023272.pdf). Act No. 23 of 2023 content not read.",
+     "existing": "Unchecked beyond free DCIR licensing page; accountants likely cover it. FiscoBridge is the fiscal-device vendor (see K02/K04)",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "Business licence renewal and quarterly turnover-tax tracker for small Vanuatu businesses",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Annual renewal by 31 January plus quarterly turnover-tax payments under Business Licence Act s.18A",
+     "unchecked": "Whether DCIR has an online renewal portal, number of F-class licensees, whether quarterly filing is done on a paper form, competitor search in local language (not run as score is under 3)"
+    },
+    {
+     "buyer": "A handful of agrochemical importers and retailers",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "Pesticides (Control) Act Cap 226 s.15: persons who import restricted-use pesticides must maintain a register; each import needs a registered product and a permit (https://tradeportal.gov.vu/media/PesticidesControlCAP_226.pdf). No evidence of a large importer base or enforcement.",
+     "existing": "None seen; likely handled on paper or by trade portal permits",
+     "known_mark": "new",
+     "name": "Restricted-use pesticide importer register keeper",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Pesticides (Control) Act s.15 register, s.21 import permit",
+     "unchecked": "Text of s.15, number of importers, whether Biosecurity Vanuatu has an online permit step"
+    },
+    {
+     "buyer": "Quarry companies and custom-owner permit holders on Efate and Santo",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "Quarry Act 2013 (No. 9): aggregate prospecting permits, quarry permits and occasional permits from the Commissioner of Mines, with environment management and rehabilitation plans and a Quarry Advisory Board (https://pacliirms.paclii.org/vu/legis/num_act/qa2013115 ; https://leap.unep.org/en/countries/vu/national-legislation/quarry-act-2013-no-9-2013). Fee orders and regulations not found.",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Quarry and aggregate permit compliance register",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Quarry Act 2013 permit conditions, rehabilitation plans",
+     "unchecked": "Number of permit holders, periodic reporting duties, whether regulations exist"
+    },
+    {
+     "buyer": "Approved building certifiers, architects and small builders in Port Vila and Luganville",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "Building Act 2013 and VNBC 2025 edition: building permit needs a certificate from an approved building certifier; Director General of Internal Affairs keeps the register; Building Regulations 2025 not confirmed in force; no online permit portal found (https://duap.gov.vu/images/docs/VNBC%202025%20Edition.pdf).",
+     "existing": "None found",
+     "known_mark": "new",
+     "name": "Building certifier submission and permit-pack tool",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Building Act 2013 permit and certifier requirement, being enforced under a 2025 code and regulations",
+     "unchecked": "Whether the 2025 regulations are in force, number of certifiers, whether councils require paper submissions, enforcement start date"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "No domestic-worker-specific regime found. Employment Act Cap 160 and VNPF employer rules (register within 7 days, Form E, earners of VT 3,000+/month) are generic; sources do not say whether a household counts as employer. Nothing new beyond K03. Sources: https://employmentvanuatu.gov.vu/index.php/resources-2/employer-guideline/vnpf-employers-and-their-responsibilities ; https://employmentvanuatu.gov.vu/index.php/resources-2/business-advisory/labour-compliance (fetch of this page failed, snippet only). Unchecked: whether Employment Act has a domestic-worker part.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No Vanuatu scrap-dealer licence or register found in two searches (results were other countries). Market is thin: RecycleCorp (private) is the main scrap buyer/exporter in Port Vila and Luganville per a SPREP waste audit (https://library.sprep.org/content/vanuatu-national-waste-audit-analysis-report-august-2023). Too few operators for a product.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No Vanuatu second-hand dealer or pawnbroker Act found; search returned only Australian and South African laws. Only generic Business Licence Act [Cap 249] applies. Nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler licence found. Only import side: Import of Motor Vehicles (Control) Order 8 of 1994 (right-hand-drive ban, https://vanuatucustoms.gov.vu/images/legislations/Customs/Others/Import_of_Motor_VehiclesProhibitionOrder_8_of_1994.pdf), Customs inspection fees for used parts on the trade portal, and a pending Motor Vehicles (Control) Amendment emissions bill (status unverified; https://www.dailypost.vu/news/regenvanu-tired-of-vanuatu-being-a-dumping-ground/article_6b8667a1-e946-56fa-bd4b-f8495f9c8999.html).",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No beekeeper registration scheme in Vanuatu; only import biosecurity conditions for bee products (Biosecurity Vanuatu) and PHAMA reports on honey bee disease survey (https://phamaplus.com.au/wp-content/uploads/2024/07/TR-34-VAN10-Disease-Survey-of-Honey-Bees-FINAL-160413.pdf). Industry tiny. Nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "WOAH VLIM report (2023, https://rr-asia.woah.org/app/uploads/2024/08/20231026_Vanuatu-VLIM-Final-Report.pdf, read via pdftotext) says only two operating veterinarians in Vanuatu (the Principal Vet Officer and one private vet in Port Vila) and recommends creating a Veterinary Statutory Body and licensing, which does not yet exist. Buyer group is about 1 firm. Not viable.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "No lift, boiler or pressure-vessel inspection regime found. Only the generic Health and Safety at Work Act Cap 195 (inspectors, improvement notices; no plant register seen): https://paclii.org/vu/legis/consol_act1988/hasawa237 ; https://dol.gov.vu/index.php/about-us/health-and-safety-unit. Nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Pesticides (Control) Act Cap 226 (Act 11 of 1993): products must be registered (s.8, s.12), import permit per shipment (s.21), VT 2,000 application fee, and s.15 requires importers of restricted-use pesticides to keep a register. No dealer or applicator licence seen; no 2025 changes found. Very few importers, so weak. Sources: https://tradeportal.gov.vu/media/PesticidesControlCAP_226.pdf ; https://www.wipo.int/wipolex/en/legislation/details/7734. Unchecked: s.15 text, number of importers.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Burials Act Cap 101 covers municipal cemeteries of Port Vila and Luganville: death declaration within 24 hours, permits to inter, grave concessions with renewal (https://paclii.org/vu/legis/consol_act1988/ba96). Port Vila City Council runs the cemetery and plot reservations; old cemetery full, new Eratap cemetery opened. Funeral trade is one or two firms (Vanuatu Funerals Ltd took over Defloor, https://vbr.vu/news/vanuatu-funerals-takes-over-defloor-expands-embalming-and-repatriation-services/). No private-sector burial register duty; buyer is the municipality, so out of scope.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "No contractor licence found beyond the generic Business Licence Act. Building Act 2013 (No. 36) needs a building permit from an Approval Authority with a certificate from an approved building certifier; the Director General of Internal Affairs keeps the certifier register; Vanuatu National Building Code 2025 edition and Building Regulations 2025 mentioned, in-force status unverified (https://duap.gov.vu/images/docs/VNBC%202025%20Edition.pdf). Quarry Act 2013 (No. 9) sets prospecting, quarry and occasional permits issued by the Commissioner of Mines, with environment and rehabilitation plans (https://pacliirms.paclii.org/vu/legis/num_act/qa2013115). All buyer groups are very small.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Vanuatu domestic workers household employer registration employment act",
+    "Vanuatu scrap metal export licence dealers regulation",
+    "Vanuatu second-hand dealers pawnbrokers licence Act",
+    "Vanuatu used vehicle import dismantler spare parts regulation Customs",
+    "Vanuatu beekeeping honey biosecurity registration beekeepers",
+    "Vanuatu veterinary medicines veterinary practice registration Biosecurity Vanuatu Act",
+    "Vanuatu lift boiler pressure vessel inspection safety regulation Act",
+    "Vanuatu pesticide registration Pesticides Act agrochemical dealers licence",
+    "Vanuatu cemetery burial funeral services regulation Port Vila municipality",
+    "Vanuatu building contractor registration licence Building Act Physical Planning construction",
+    "Vanuatu domestic helper housegirl VNPF household employer obligation minimum wage",
+    "Vanuatu sand gravel aggregate extraction permit quarry Department of Geology Mines Water Resources licence",
+    "Vanuatu Biosecurity pesticide importers register restricted use 2025 agrochemical",
+    "Vanuatu Building Act 2013 regulations builders certification registration of builders National Building Code permit",
+    "Vanuatu Health and Safety at Work Act workplace registration plant machinery inspection employers",
+    "Vanuatu Building Regulations 2025 building certifiers register approved certifier building permit online",
+    "Port Vila scrap metal export vehicles wrecks cleanup Vanuatu scrap dealers",
+    "Vanuatu Business Licence Act 2023 amendment licensed activities registration annual renewal small business"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b83"
+ },
+ "opus:vanuatu:ALL1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated software, app or done-for-you service found for kava facility QM records or export documents in Vanuatu or Fiji. Existing resources: the PHAMA Plus Kava Quality Manual (paper guidance), the KavaLytics testing device/service (quality testing, not records), and the Vanuatu trade portal (lists steps only). Bislama/French-language search not run.",
+   "duty": "Kava Act No.7 of 2002 as amended by Kava (Amendment) Act No.6 of 2015 (export licence under Part 3A, renewal by application to the Director, in force 24 Jan 2017; penalty clause not reached). Biosecurity OPS-014 Kava Quality Management Procedures (Export): facility certification after inspection, then VCMB licence, annual facility audit; peeling, ~5% moisture, kavalactone/flavokavin testing with high-flavokavin lots rejected. Industry reminder issued 3 Aug 2026. Record-keeping requirements in OPS-014 not verified (the public page doesn't mention them).",
+   "market": "Very small. A Daily Post article says Santo kava exporters fell from 14 to 12 (undated in results; the page returned 429). Australian Commercial Kava Pilot data, as reported in search results, lists 45 Vanuatu exporters (Oct 2022), and a Daily Post article says 48. Eight exporters ship to New Caledonia. No current national register count was found. A likely total of roughly 30–60 certified exporters is my estimate, not a sourced figure.",
+   "reason": "I confirmed the duty, but the market is very small. Biosecurity Vanuatu requires each facility to be certified under OPS-014, then licensed by VCMB, then audited every year. Kava must be peeled, hold about 5% moisture and pass kavalactone/flavokavin tests. Biosecurity repeated this in a reminder on 3 Aug 2026. Under the Kava (Amendment) Act 2015, in force since Jan 2017, exporting needs a licence and the licence must be renewed. I could not see the penalty clause. No public source I found says OPS-014 requires batch records. I found no kava batch-record or export-document software, only PHAMA's paper Kava Quality Manual and KavaLytics testing. Exporters number only dozens (12 in Santo; 45–48 Vanuatu exporters in Australia's pilot in 2022), so few buyers and weak willingness to pay. A traceability premium (KavaLytics says about 20%) is the possible upside.",
+   "searches": 3,
+   "sources": "https://biosecurity.gov.vu/index.php/exports/kava-exports ; https://vbr.vu/news/biosecurity-reminds-kava-industry-to-meet-export-standards/ ; https://leap.unep.org/en/countries/vu/national-legislation/kava-amendment-act-no6-2015 ; https://pacliirms.austlii.edu.au/vu/legis/num_act/ka2015132 ; https://www.dailypost.vu/news/drop-in-number-of-kava-exporters-in-santo/article_cc65ab39-7ff1-5fe0-ac59-581ddeebeda4.html ; https://www.dailypost.vu/news/vanuatu-strives-to-boost-kava-exports-to-australia-as-fiji-and-tonga-surge-ahead/article_8f93ce5e-8ee2-5ed8-98a9-470851f29f49.html ; https://phamaplus.com.au/tag/vanuatu-kava-quality-manual ; https://cloud.sagitto.com/static/files/KavaLytics_October_2019_White_Paper.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b83"
+ },
+ "sonnet:vanuatu:ALL2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: DCIR guidance says licences renew each calendar year by 31 January, fees are based on prior-year gross turnover, and late payment carries a 10% monthly penalty. I did not read the Act text for the penalty. I found no Vanuatu compliance calendar or reminder app, and no online renewal portal. The new eBusiness Link covers registration only. Weak points: I found no business count (no licence totals from DCIR or the national statistics office), payment is in person at DCIR, buyers are very small and offline, and willingness to pay is low. The duty is annual, so a reminder tool has little recurring value. A calendar or reminder tool is thin and hard to charge for.",
+   "searches": 3,
+   "sources": "https://customsinlandrevenue.gov.vu/taxes-and-licensing/licensing/business-licencing.html ; https://vbr.vu/news/business-licences-must-be-renewed-before-february-2/ ; https://vbr.vu/?p=8008 ; https://tradeportal.gov.vu/procedure/213/step/225?l=en ; https://nsdp.vnso.gov.vu/ECO1-7-2/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b83"
+ },
+ "sonnet:vanuatu:ALL3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Co-operative Societies Act Cap 152 Part 6 has annual returns (s35), audit (s36) and Registrar inspection/inquiry (ss37-38), plus the 1987 Rules on accounts and audit. I could not read the section text, so deadlines and penalties are not verified. Market is 460 co-ops with 17,428 members (ICAP 2025 snapshot), with tiny revenue (about $8.6M across 113 reporting co-ops) and an unknown number of active ones. No local software or state portal found, but only 3 searches were run and none were Vanuatu-specific. Willingness to pay is very low, buyers are scattered across islands, and the Registrar's office is likely the only payer, which makes this a state or donor build and out of scope. Score is low.",
+   "searches": 2,
+   "sources": "https://cooperative.gov.vu/images/docs/152 Co-operative Societies Act consolided.pdf ; https://icaap.coop/wp-content/uploads/2026/06/2026-Vanuatu-Snapshot.pdf ; https://cooperative.gov.vu/index.php/about-us ; https://rms.paclii.org/vu/legis/sub_leg/csa1982cso1987572.pdf",
+   "suggested_score": 2,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b83"
+ },
+ "sonnet:vanuatu:ALL4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The AML/CTF Act 13 of 2014, consolidated through 2024 amendments, requires covered entities to register with the FIU before trading (s9). They must also appoint a compliance officer, do customer due diligence, and file STR/CTR/IFTR reports. Covered sectors per FIU press releases (2016, 2021): money exchange and remittance, real estate, high-value dealers over VT1m, and lawyers/accountants managing client property. No competing local product turned up, and the FIU registration looks paper-form based. But the market is tiny, probably a few hundred entities, with no count found. Willingness to pay is low and the FIU's own guidance is free. Reports are low volume, and the filing channel is unknown. Penalty amounts (VT25m claimed) were not verified. Score stays at 3.",
+   "searches": 2,
+   "sources": "https://fiu.gov.vu/reporting-entity ; https://fiu.gov.vu/Public/Obligations ; https://fiu.gov.vu/docs/2021%2010%2008%20Press%20Release%20No.%205%20of%202021.pdf ; https://fiu.gov.vu/docs/Consolidated AntiMoney Laundering and CounterTerrorism Financing Act No. 13 of 2014.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b83"
+ },
+ "triage:vanuatu": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "ALL1",
+     "reason": "New: kava facility certification and per-shipment export documents for small processors, not covered by any K idea."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL2",
+     "reason": "Sole traders' licence renewal and turnover returns; K01 is VAT reconciliation for accounting firms, so the buyer and duty differ (related K01)."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL3",
+     "reason": "Co-operative societies' annual return and audit is an in-scope association duty, and no K idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL4",
+     "reason": "AML reporting duty on small law, real estate and money-changer offices; in scope as small professional offices."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL5",
+     "reason": "Foreign investment certificate renewal and change notification is a recurring duty for small foreign-owned firms; no K idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL6",
+     "reason": "Annual liquor licence and municipal permit renewal for nakamals and bars is a new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL7",
+     "reason": "Tourism permit and insurance compliance for small operators is a new duty, with a 2026 reform adding a deadline."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL8",
+     "reason": "Annual public vehicle and driver permit renewal for taxi and bus owners is a new buyer group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL9",
+     "reason": "Employment Act annual return and work permits; K03 is the VNPF schedule, a different duty (related K03)."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL10",
+     "reason": "Recruitment agent annual licence is a new duty; it is unverified, not rejected."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL11",
+     "reason": "Fisheries licences and export permits for small processors are a new duty; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL12",
+     "reason": "Waste operator licence and plastic ban compliance is a new duty with fines; keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL13",
+     "reason": "Annual water-use licence for resorts and farms is a new duty; keep when unsure."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL14",
+     "reason": "Fuel retailers' price approval is a new duty; the bill is unconfirmed, so a verifier should decide."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL15",
+     "reason": "Money changer licensing and reporting is a different duty from the AML kit and is unverified; keep for verification."
+    },
+    {
+     "decision": "known",
+     "id": "ALL16",
+     "reason": "VSMS fiscal connector for VAT-registered SMEs is the same buyer and duty as K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS1",
+     "reason": "Same buyer (small licensed traders) and same duty (licence renewal and quarterly turnover tax) as ALL2.",
+     "ref": "ALL2"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Pesticide importer register is a new duty; the buyer group is tiny, but small size is for verifiers to judge."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Quarry permit compliance is a new duty on small permit holders; keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Building certifier permit submissions are a duty on small professional offices and builders; unverified."
+    }
+   ]
+  },
+  "tag": "w2b83"
  }
 }

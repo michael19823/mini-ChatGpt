@@ -1,0 +1,678 @@
+{
+ "discover:ALL:maldives": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Standalone community pharmacies and facility-based pharmacies (count unverified, likely a few hundred)",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://maldivesvoice.mv/3078 (fetched); https://adhadhu.com/84626; https://psmnews.mv/en/184782; https://edition.mv/news/52846",
+     "existing": "No pharmacy software or MFDA registry for pharmacy software found; Dhivehi competitor search returned nothing relevant. The state oneGov portal handles registration filings but not stock-versus-list checking.",
+     "known_mark": "new",
+     "name": "Pharmacy compliance pack for the new MFDA Medicines Regulation: licence cycle, change notices, essential-medicine stock grading, prescription and label rules",
+     "score": 4,
+     "status": "promising",
+     "trigger": "MFDA Medicines Regulation effective 22 October 2026: registration and 3-year licence, notify suspensions and changes, vaccine/biologics notification, Pharmacist Card, prescription and label content, online sale limits; plus MFDA order to stock 185 (community) or 381 (facility) essential medicines with grading and tracking and licence suspension for non-compliance. Fines MVR 10,000-100,000.",
+     "unchecked": "Number of pharmacies; exact stock-grading rules and deadlines; existing local POS or pharmacy software vendors; whether the regulation text sets record-keeping duties; whether the 22 October date is 2026 (report dated 28 July 2026 says so)."
+    },
+    {
+     "buyer": "Tea shops (sai hotaa), cafes, restaurants, bakeries, caterers, small food producers",
+     "category": "32. Food Safety Act 6/2024: food establishment registration and renewal",
+     "evidence": "https://one.gov.mv/support/guidelines/food-establishment-registration-158; https://mfr.mv/public-sector/maldives-tightens-food-safety-regulations; https://psmnews.mv/en/181229",
+     "existing": "Free state oneGov portal handles application and renewal. No HACCP or record-keeping duty found.",
+     "known_mark": "new",
+     "name": "Food establishment registration and inspection readiness (tea shops, cafes, bakeries, caterers)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Food Safety Act 6/2024; annual registration via oneGov; transitional self-registration due 23 Feb 2025; frequent inspections and closures; fines MVR 10,000-500,000. Residential-area outlets and temporary vendors exempt from registration.",
+     "unchecked": "Whether regulations require temperature logs, staff medical or training records; competitor search in Dhivehi not run (budget)."
+    },
+    {
+     "buyer": "Private and island-level water, sewerage and energy system operators, including guesthouse and industrial-island desalination or power plants",
+     "category": "13. Small water systems",
+     "evidence": "https://gazette.gov.mv/iulaan/278376 (fetched)",
+     "existing": "URA forms on ura.gov.mv; no private software seen.",
+     "known_mark": "new",
+     "name": "Small utility operators: URA facility registration and operating licence (water, sewerage, energy)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "URA Regulations R-105/2023 and R-78/2023; applications from 18 Feb 2024; existing energy systems by 6 Feb 2025, water and sewerage by 25 May 2025; new systems before operation. Penalties unspecified.",
+     "unchecked": "Size thresholds and renewal or periodic reporting duties; number of small operators; deadlines already passed so urgency is gone; competitor search not run (budget)."
+    },
+    {
+     "buyer": "MMA-licensed money changers (59 valid licences as of 9 Sep 2026)",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://standard.mv/mma-urges-public-to-avoid-unlicensed-foreign-currency-dealers/; https://www.ctlstrategies.com/latest/regulation-on-money-changing-businesses/; https://atolltimes.mv/post/business/10632",
+     "existing": "Not checked; no vendor seen in results.",
+     "known_mark": "new",
+     "name": "Money changer compliance kit (Tier 1/Tier 2 licensing, compliance officer, cash limits, bank-only B2B)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "MMA Regulation 92R2024 effective 1 Oct 2024 and 2025 amendment: permanent premises, security deposits, independent compliance officers, transaction limits, B2B via bank accounts; renewal fees raised.",
+     "unchecked": "MMA reporting formats and frequency; whether a goAML-style portal exists; very small buyer count; competitor search not run (budget)."
+    },
+    {
+     "buyer": "Registered employment agencies (Category A recruitment and work permit management; Category B permit management)",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "Search result summary of a Ministry of Economic Development article (URL not captured); https://presidency.gov.mv/Press/Article/31469",
+     "existing": "Expat government system is the portal; Mercans and global EOR providers (see K05).",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "Employment agency licence and permit-management tooling",
+     "score": 2,
+     "status": "weak",
+     "trigger": "MED agency registration: Category A 3-year licence, Category B 2-year licence; fines for recruiting without licence; quota and worksite declaration changes from 1 Jan 2026.",
+     "unchecked": "Number of agencies; whether agencies file through Expat for clients; overlap with K02."
+    },
+    {
+     "buyer": "Fully Maldivian-owned companies acting as agents for foreign tourist vessels",
+     "category": "35. Foreign tourist vessels and local agents (Regulation 2024/R-90 amendments)",
+     "evidence": "https://mfr.mv/travel-and-tourism/the-maldivian-government-has-introduced-key-amendments-to-the-anchoring-and-operations-of-foreign-tourist-vessels-in-the-maldives",
+     "existing": "Not checked.",
+     "known_id": "K08",
+     "known_mark": "new",
+     "name": "Local agent services for foreign tourist vessels (safaris, cruise liners)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Regulation 2024/R-90 amendments: foreign vessels must appoint a local agent; USD 5 passenger line fee; cruising permit and charter licence fees.",
+     "unchecked": "Agent count; reporting duties; whether permits are per voyage."
+    },
+    {
+     "buyer": "Private waste collectors, hazardous waste handlers, importers of plastics and packaging",
+     "category": "36. Waste Management Act amendments and EPR / mandatory packaging reporting",
+     "evidence": "https://psmnews.mv/en/186533; https://presidency.gov.mv/Press/Article/37207; https://zerowastemaldives.com/?p=4699",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Waste service provider licensing and EPR mandatory packaging reporting",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Amended Waste Management Act; four regulations planned (General, Service Provision, Single-Use Plastics, EPR); hazardous waste permits from EPA; Zero Waste Maldives project proposes a Mandatory Packaging Reporting Scheme.",
+     "unchecked": "Whether the regulations are gazetted; reporting formats; start dates; who bears the duty."
+    },
+    {
+     "buyer": "Construction contractors and construction material importers/producers",
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "evidence": "https://www.psmnews.mv/en/117715; https://one.gov.mv/entities/CNS",
+     "existing": "oneGov portal handles registration.",
+     "known_mark": "new",
+     "name": "Contractor registration and project-licence compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Construction Contractor Regulation (2019): contractor registration valid 2 years via oneGov; project licence for projects over about USD 97,000.",
+     "unchecked": "Amendments since 2019; any periodic site reporting; current ministry name."
+    },
+    {
+     "buyer": "Private clinics, labs and pharmacies enrolled with Aasandha (NSPA)",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://nspa.gov.mv/v2/?p=285; https://atolltimes.mv/post/news/6837",
+     "existing": "Claims system not found; may be run by the scheme administrator's own platform.",
+     "known_mark": "new",
+     "name": "Aasandha panel provider claims and compliance (private clinics and pharmacies)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Aasandha price list and pharmacy policy; pharmacies take over 60% of scheme spend; pre-opening provider applications noted.",
+     "unchecked": "Claim submission process and its software; audit rules; sources are partly old (2011-2012)."
+    },
+    {
+     "buyer": "Registered NGOs (about 2,500 registered, 1,100 active per 2023 report)",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://psmnews.mv/en/113775",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "NGO annual filing and status upkeep",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "NGO Act: registrar can require repeated document submissions within 90 days and dissolve non-filers.",
+     "unchecked": "Current filing calendar and ministry; the source is from 2023."
+    },
+    {
+     "buyer": "SME employers of expatriates (hairdressers, babysitters, electricians, accountants, guides and similar roles)",
+     "category": "37. Foreign employment regulation changes: worksite declaration (1 Jan 2026), role localization (Reg 2025/R-120), quota fee exemption",
+     "evidence": "https://presidency.gov.mv/Press/Article/31469; https://raajje.mv/178666",
+     "existing": "Expat government system.",
+     "known_id": "K02",
+     "known_mark": "known",
+     "known_note": "Same buyer group and duty as K02; new regulatory dates (2025/R-120, 1 Jan 2026 worksite declaration) strengthen the trigger but do not change the idea.",
+     "name": "Foreign worker localization and worksite declaration tracker",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Regulation 2025/R-120 effective 14 Dec 2025 phases out foreign hiring in listed roles; notarised Work Site Declaration and affidavit for permanent quotas from 1 Jan 2026; MVR 2,000 per worker quota fee exemption bill."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "No domestic-worker or household-employer registration regime found. 2024 Employment Act 8th amendment covers worksite registration, quota and work permit for foreign workers (falls under K02). Nannies/babysitters are on the Dec 2025 phase-out list of foreign roles (Reg 2025/R-120), which touches households.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Not searched (budget). No source seen.",
+     "status": "not_reached"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "One combined search returned no Maldives rules on pawn or second-hand trade; nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "No Maldives hallmarking or dealer licensing rule found in one search; AML status of jewellers unverifiable (FIU searches returned only other countries).",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Not searched (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Not searched (budget). Little livestock sector expected.",
+     "status": "not_reached"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Not searched separately; MFDA food registration (cand. 2) may cover butchers, unverified.",
+     "status": "not_reached"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No meaningful beekeeping sector in an atoll microstate.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Not searched (budget); sector very small.",
+     "status": "not_reached"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Covered via URA water and sewerage facility registration (R-105/2023): existing systems had to register and license by 25 May 2025. See candidate 3. Groundwater abstraction permit itself not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Waste Management Act amended; four new regulations planned (General, Service Provision, Single-Use Plastics, EPR). Text not found, status unverified. Private haulers operate beside WAMCO. Candidate 7.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Not searched (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "URA facility registration and operating licence (R-105/2023 water and sewerage, R-78/2023 energy); application from 18 Feb 2024; existing energy before 6 Feb 2025, existing water and sewerage before 25 May 2025. Candidate 3.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Not searched (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Employment agencies need MED registration: Category A (recruitment and permit management, 3-year licence) and B (permit management, 2-year licence). Expat system remains the portal. Candidate 5.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Burials handled by island councils and religious practice; no licensed funeral industry seen. Not searched.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "NGO Act: 2,500 registered NGOs, about 1,100 active (2023 report); registrar can require repeated document submission and dissolve non-filers. Candidate 10. No halal certification regime found.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "K08 already rejected. Safety certificate validity extended from 1 to 5 years in April 2024 (3,392 certificates issued over two years), which weakens any renewal-reminder idea further.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers: MMA Regulation 92R2024 (effective 1 Oct 2024) plus 2025 amendment; 59 licensed entities as of 9 Sep 2026. Candidate 4. Street vendors: food stalls exempt from formal MFDA registration.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Food establishments covered under Food Safety Act (candidate 2). Other premise types not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "No LPG or fuel distributor licensing rule found. Maldive Gas and the State Trading Organization dominate; sector is concentrated. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Not searched (budget). Importers of staples are STO-dominated, unchecked.",
+     "status": "not_reached"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Not searched (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Aasandha (NSPA scheme) covers private clinics via a price list and pharmacies take over 60% of spend. Claim submission system and panel rules not found. Candidate 9 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "MFDA new Medicines Regulation takes effect 22 October (2026 per report dated 28 July 2026): pharmacies registered and licensed every 3 years, change/suspension notifications, vaccine/biologicals notification, Pharmacist Card, prescription and label content rules, online sales restricted; fines MVR 10,000-100,000. Plus essential medicines stocking order (185 community / 381 facility pharmacies) with grading and tracking. Candidate 1.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Covered through the foreign employment regime (quota, worksite declaration from 1 Jan 2026, localization phase-out). Largely K02. Agencies: candidate 5.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Contractor registration via oneGov valid 2 years (consultants 1 year); Construction Contractor Regulation 2019; project licence for projects over about USD 97,000. Candidate 8 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Two FIU searches returned only other countries' material; Maldives DNFBP reporting regime unverifiable from search results. Not rejected.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "K01 covers this. Tourism ministry ran guesthouse inspection drives (Nov 2024) and revised the 2020 safety standards; presented a 2026 regulatory agenda to MATI in Feb 2026 (contents not seen). Nothing new beyond K01.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "K04 rejected. Import side: MFDA requires Export Health Certificates for animal-origin foods from 30 June 2026 (exporter-side duty, per Singapore Food Agency circular); not a Maldives small-business duty.",
+     "status": "screened"
+    },
+    {
+     "category": "31. MFDA Medicines Regulation (effective 22 Oct 2026)",
+     "found": "Candidate 1.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Food Safety Act 6/2024: food establishment registration and renewal",
+     "found": "Annual registration via oneGov with Efaas account; transitional self-registration deadline 23 Feb 2025; mass inspections (25 outlets shut Sep 2025). Candidate 2.",
+     "status": "screened"
+    },
+    {
+     "category": "33. URA facility registration and operating licence (water, sewerage, energy)",
+     "found": "Candidate 3.",
+     "status": "screened"
+    },
+    {
+     "category": "34. MMA money changing licences (Regulation 92R2024, 2025 amendment)",
+     "found": "Candidate 4.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Foreign tourist vessels and local agents (Regulation 2024/R-90 amendments)",
+     "found": "Only fully Maldivian-owned companies may act as agents for foreign tourist vessels; USD 5 passenger line fee. Candidate 6 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "36. Waste Management Act amendments and EPR / mandatory packaging reporting",
+     "found": "Candidate 7 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "37. Foreign employment regulation changes: worksite declaration (1 Jan 2026), role localization (Reg 2025/R-120, effective 14 Dec 2025), quota fee exemption",
+     "found": "Same buyers and duty as K02; recorded as known.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Maldives domestic workers employer registration Employment Act 2024 regulation",
+    "Maldives Food and Drug Authority pharmacy licence registration renewal controlled medicines",
+    "Maldives MIRA new regulation 2026 small business registration deadline",
+    "Maldives Financial Intelligence Unit reporting entities real estate agents jewellers AML DNFBP registration",
+    "Maldives fuel LPG cylinder distributor licence regulation 2025 MEE",
+    "Maldives guesthouse tourism ministry new regulation 2026 registers inspection",
+    "Maldives waste management regulation 2025 waste collector licence EPA permit island",
+    "Maldives Extended Producer Responsibility regulation importers reporting plastics 2026",
+    "Maldives Food and Drug Authority food business registration import permit food safety regulation 2025",
+    "Maldives NGO association registration annual report financial statements deadline 2025",
+    "Maldives Utility Regulatory Authority licence water sewerage private operators island reporting",
+    "Aasandha claims private clinics pharmacies enrolment panel provider claim submission",
+    "Maldives recruitment agency foreign worker agent licence quota 2026 new system",
+    "Maldives FIU designated non-financial businesses real estate dealers precious metals",
+    "MFDA Medicines Regulation 22 October 2026 pharmacies licence three years effective",
+    "Maldives contractor registration Construction Act regulation 2025 renewal",
+    "Dhivehi query: pharmacy software MFDA registry prescription",
+    "Maldives Transport Authority vessel registration safari boats dhoni licence 2025",
+    "Maldives Monetary Authority money changer licence regulation 2025",
+    "Maldives jewellery gold dealers licence hallmarking pawn second-hand",
+    "Food Safety Act 6/2024 Maldives HACCP software record keeping registration renewal MFDA"
+   ],
+   "searches": 22
+  },
+  "tag": "w2b81"
+ },
+ "gapfill:maldives": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Scrap metal traders and recyclers storing, cleaning or exporting metal",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "https://edition.mv/news/27340 ; https://www.adb.org/publications/metals-plastic-recycling-maldives",
+     "existing": "None seen",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "EPA waste/scrap storage-and-recycling permit tracker for scrap dealers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Waste Management Act permit; EPA notice of 8 March 2023 gave 30 days to apply; unpermitted activity punishable",
+     "trigger_note": "",
+     "unchecked": "Number of permit holders, renewal and reporting duties, whether export needs a separate approval. Only one 2023 statement found, no recurring filing seen."
+    },
+    {
+     "buyer": "Vehicle importers and garages (four-wheelers and heavy vehicles)",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://standard.mv/male-congestion-spurs-tougher-import-laws-ministry-enforces-garage-permits-and-vehicle-age-caps",
+     "existing": "The ministry portal handles applications",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Land-vehicle importer permit and garage-permit compliance tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Since 13 July 2025 transport ministry permission is required for each import, plus a garage/showroom/warehouse permit and vehicle age caps (6th amendment to the registration regulation)",
+     "unchecked": "Number of importers, whether anything recurs after the import permit, any dismantler register. Not related to K08, which concerned taxi and vessel licensing."
+    },
+    {
+     "buyer": "Shops, butchers, cafes and food sellers that must hold MFDA registration",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://one.gov.mv/support/guidelines/food-establishment-registration-158 ; https://mfr.mv/public-sector/maldives-tightens-food-safety-regulations",
+     "existing": "MFDA/oneGov online registration is free state tooling. No private vendor seen.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Annual MFDA food establishment registration and inspection tracker (butchers, shops, food sellers)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Food Safety Act 6/2024: licence and registration before operating, valid one year, fines USD 648-64,830, closures and public naming; 45 food premises ordered closed in Greater Malé in September 2026",
+     "unchecked": "Number of registered establishments, renewal steps, inspection record duties. No local-language competitor search was done (budget used). This may overlap the first pass's MFDA food registration idea, but no known id covers it."
+    },
+    {
+     "buyer": "Pesticide and agrochemical importers and sellers (1,057 permitted companies reported)",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://leap.unep.org/en/countries/mv/national-legislation/agricultural-pesticide-control-act-act-no-212019 ; https://psmnews.mv/en/169643",
+     "existing": "Ministry permit system; Makudi portal confirmed only for plant imports",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Agricultural chemical and pesticide import licence compliance tool",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Agricultural Pesticide Control Act 21/2019: licences for import, sale and repackaging, register of approved pesticides, fines for unlicensed trade",
+     "unchecked": "Licence renewal period, any recurring sales or stock report, the Act's enforcement status, whether many of the 1,057 are real dealers or one-off import permits. No competitor search run."
+    },
+    {
+     "buyer": "Pet shops, animal importers and clinics",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://psmnews.mv/en/144511 ; https://edition.mv/news/36238",
+     "existing": "None seen",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Pet shop and animal importer registration under the Animal Protection Act",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Animal Protection Act gazetted: animal importers and commercial animal sellers must register with the animal welfare ministry; MFDA authorisation for controlled vet medicines",
+     "unchecked": "Gazette date and text, number of pet shops and clinics. The sector is very small."
+    },
+    {
+     "buyer": "Warehouses holding rice, sugar and flour",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://psmnews.mv/en/153694",
+     "existing": "STO dominates staple imports. Nothing else seen.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Staple food warehouse registration and six-monthly inspection records",
+     "score": 2,
+     "status": "weak",
+     "trigger": "MFDA ordered staple warehouse registration with periodic re-inspection about every six months (Food Safety Act)",
+     "unchecked": "Article date, number of private warehouses, whether the order is in force. STO is state-owned, so the buyer base is likely small."
+    },
+    {
+     "buyer": "Registered co-operative societies and women's development committee savings groups",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://one.gov.mv/support/guidelines/cooperative-society-registration-changes-94 ; https://faolex.fao.org/docs/pdf/mdv85766.pdf",
+     "existing": "oneGov online registration",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Co-operative society and savings group annual filing helper",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Co-operative Societies Act (cited as Law 3/2007); audit of accounts and registry updates through oneGov",
+     "unchecked": "Number of societies, annual return and audit deadlines, fees, any savings-and-credit supervisor. No source gave filing rules."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "The EPA said on 8 March 2023 that storing, cleaning and recycling scrap metal needs a permit under the Waste Management Act. Operators already trading had 30 days to apply, and unpermitted work is punishable (https://edition.mv/news/27340). The ADB working paper on metals and plastic recycling covers scrap exporters but gives no count of permit holders (https://www.adb.org/publications/metals-plastic-recycling-maldives). I found no scrap-dealer register, no recurring report duty and no export licence rule. Trade flows are small (UN Comtrade-based aluminium, copper and ferrous scrap exports). Candidate C1 logged, weak.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "I found no dismantler or used-parts regime. Since 13 July 2025 the transport ministry requires permission to import any land vehicle except two-wheelers, requested through its portal (6th amendment to the motorised land vehicle registration regulation). Importers of four-wheelers also need a verified garage, showroom or warehouse permit, plus age caps (https://standard.mv/male-congestion-spurs-tougher-import-laws-ministry-enforces-garage-permits-and-vehicle-age-caps). The ministry scraps abandoned vehicles itself (281 in the Malé Traffic Decongestion Program by March 2024). Candidate C2 (vehicle importers) logged, weak.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "The livestock sector is tiny. The Ministry of Agriculture and Animal Welfare published biosecurity import guidelines in January 2026. Live animal imports need a permit, a vet certificate and a notification at least 24 hours before arrival, sent by email to the Plant and Animal Quarantine Unit or through the Agriculture Online System (https://en.mmtv.mv/7957). Imports of poultry and livestock are limited to registered farms (https://www.psmnews.mv/en/121030). The farm registry was compiled by email form with a 10 April 2025 deadline (https://edition.mv/news/40092). The buyer base is too small and sits mostly with commercial farms and pet importers. Nothing is worth a candidate beyond C5.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "The Food Safety Act (Act 6/2024) puts food-sale businesses under MFDA registration, with a one-year registration and fines from USD 648 to 64,830 (https://one.gov.mv/support/guidelines/food-establishment-registration-158, https://mfr.mv/public-sector/maldives-tightens-food-safety-regulations). I found no butcher-specific or slaughterhouse rule. The oneGov page does not list categories, fees or renewal steps. Candidate C3 (annual food establishment registration and inspections) logged.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "The MFDA issued a 2022 'Guideline for Regulation of Veterinary Medicines import and Pharmacy registration'. I could not read the PDF text (https://health.gov.mv/storage/uploads/9kobpVY8/vzqcg54c.pdf). A registered clinic can get MFDA authorisation for controlled medicines, as the Olhu Hiyaa shelter clinic did in August 2025. I found no general vet-clinic licensing scheme. The Animal Protection Act has been gazetted: animal importers and pet shops must register with the animal welfare ministry (https://psmnews.mv/en/144511). The sector is very small, so candidate C5 is weak.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "No Maldives lift, boiler or pressure-vessel inspection regime found. After an October 2024 child fall into a lift shaft in Malé, officials said no written regulation existed and it was unclear which institution was responsible. The housing ministry then inspected sites for open lift pits and voids. The Urban Planning and Management Act 15/2024 mentions permits but nothing I found on lifts. No candidate. Nothing new beyond the absence of a rule.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "The Agricultural Pesticide Control Act (Act 21/2019) licenses manufacture, import, export, sale and repackaging of pesticides and keeps a register of approved pesticides. Fines are MVR 5,000-100,000 as reported at bill stage. The ministry says 1,057 companies hold permits to import agricultural chemicals and pesticides (https://leap.unep.org/en/countries/mv/national-legislation/agricultural-pesticide-control-act-act-no-212019, https://psmnews.mv/en/169643). I found no fertiliser dealer rule, no renewal or reporting procedure, and the article is undated. Candidate C4 logged.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Rice, flour and sugar are imported mainly by STO at ministry-set prices, and the Cabinet has approved bulk import of some produce through STO. The MFDA has ordered registration of staple food warehouses (rice, sugar, flour), with re-inspection about every six months (https://psmnews.mv/en/153694; the article date is unconfirmed). The Food Safety Act chapter 6 covers imports. No private grain or coffee trading sector found. Candidate C6 logged, weak.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "The Co-operative Societies Act is cited as Law 3/2007 on oneGov (UNEP and FAO list it as Act 2/2007). Registration and changes are online through oneGov (page updated 20 July 2026), but the page does not state audit, annual return or fee rules (https://one.gov.mv/support/guidelines/cooperative-society-registration-changes-94). Women's Development Committees are legal entities. I found no 2025 or 2026 reform bill, no savings-and-credit regulator rule, and no society counts. Candidate C7 logged, weak, mostly unverified.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "Maldives scrap metal export licence regulation",
+    "Maldives vehicle scrap dismantling spare parts import regulation Transport Authority",
+    "Maldives livestock import animal quarantine permit Food and Drug Authority slaughterhouse butcher",
+    "Maldives veterinary clinic licence veterinary medicine registration",
+    "Maldives lift elevator inspection regulation owners certificate",
+    "Maldives pesticide import registration Maldives Food and Drug Authority agriculture fertiliser dealers",
+    "Maldives co-operative society registration Cooperatives Act savings group annual report Ministry of Economic Development",
+    "Maldives State Trading Organization rice flour sugar importers licence essential commodities price control",
+    "Maldives savings and credit cooperative society regulation 2025 2026 Cooperative Societies bill",
+    "Maldives waste scrap metal recycling export permit Ministry of Environment Waste Management Regulation licence",
+    "Maldives lift permit building elevator safety regulation Ministry of Housing Planning Act 2025",
+    "Maldives butcher shop meat slaughter permit MFDA Agriculture Ministry regulation slaughterhouse Malé",
+    "Maldives women's development committee savings group cooperative society island annual audit financial statements registrar",
+    "Agricultural Pesticide Control Act Maldives pesticide dealer licence renewal 2025 Ministry of Agriculture pesticide regulation",
+    "Metals and Plastic Recycling in Maldives ADB scrap metal exporters number of businesses permit",
+    "Maldives Ministry of Agriculture and Animal Welfare farm registration agriculture online system pesticide fertiliser import permit 2026",
+    "Maldives Food Safety Act 6/2024 importers warehouse registration food importers MFDA import permit commodity wholesalers",
+    "Maldives pet shop veterinary clinic registration Pet Ownership and Animal Welfare Act 2025 2026"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b81"
+ },
+ "opus:maldives:ALL1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Maldivian product that checks stock against the essential-medicines list. Partial overlaps exist. Generic pharmacy POS and inventory software is sold locally: BUSY (Indian) has a reseller in Male, MocDoc says it is integrated with Aasandha, and Odoo has a pharmacy module. Any of these could track 3-month averages and reorder levels. State Pharma, which took over the former STO pharmacy network, is building its own ERM and e-logistics system and a public portal showing medicine stock across its network, which covers a large share of pharmacies. Feb 2025 government reforms also planned an MFDA digital system for tracking medicine availability; I could not confirm whether it has launched. The oneGov portal handles registration filings only.",
+   "duty": "The duty is real and recent. On 22 July 2026 the MFDA revised its Guideline on Minimum Requirement of Essential Medicine in Pharmacy. Under it, every pharmacy must hold at least 80% of the essential medicines for its grade: 185 for community pharmacies and 381 for facility-based ones. Pharmacies must also calculate and track three-month sales averages and keep at least one month of buffer stock. Existing pharmacies have six months to comply, which works out to about late January 2027. The penalty is a 14-day licence suspension, and new pharmacies are registered only once their stock is complete (adhadhu.com/84626, atolltimes.mv/post/news/16610, both dated 23 July 2026). Separately, the MFDA Medicines Regulation takes effect on 22 October. The article, dated 28 July 2026, implies the year is 2026, but the year is not stated. It requires registration with a 3-year licence, notification for storing vaccines and biologics, a Pharmacist Card, prescription and labelling standards, and limits on online sales, with fines of MVR 10,000 to 100,000 (maldivesvoice.mv/3078). I did not see the regulation text, so its record-keeping duties are unverified. I found no recurring reporting duty to the MFDA.",
+   "market": "About 445 licensed pharmacies nationwide (270 in the atolls, 175 in Male), per an MMTV report from March 2026. In 2025 roughly 20 to 69 were newly registered and 20 to 33 lost their licences; outlets give conflicting figures. A meaningful share are run by the State Pharma network or by hospitals, which leaves perhaps 250 to 350 independent buyers.",
+   "reason": "The duties are real, mandatory and current: an 80% stock requirement against a list, with sales-average and buffer tracking, enforced by a 14-day suspension, plus a new regulation from 22 October 2026. But the market is tiny, at about 445 pharmacies, and many belong to State Pharma or hospitals that are building their own stock systems. The recurring part, checking stock against the list and reordering, is really a feature of ordinary pharmacy POS and inventory software, which is already sold locally. The licence cycle is every 3 years and change notices are rare. Willingness to pay is limited, and the one-off compliance push ends around January 2027. It could work as a feature or add-on for a POS vendor, but it is weak as a standalone product for a solo founder.",
+   "searches": 6,
+   "sources": "https://adhadhu.com/84626 ; https://atolltimes.mv/post/news/16610 ; https://maldivesvoice.mv/3078 ; https://en.mmtv.mv/8640 ; https://psmnews.mv/en/179671 ; https://busy.in/international/accounting-software-in-maldives.md ; https://mocdoc.com/aasandha-integrated-hms ; https://edition.mv/news/53978 ; https://presidency.gov.mv/Press/Article/33133",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b81"
+ },
+ "sonnet:maldives:ALL2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Food Safety Act 6/2024 requires food establishments to be registered and licensed with MFDA. Registration is valid for one year and is renewed via the free oneGov portal. Fines run MVR 10,000-500,000, and unlicensed outlets can be closed (45 closures in Greater Malé, Sept 2025). Residential-area outlets and temporary vendors are exempt. The state portal already does the core job (application and renewal). I found no mandated HACCP, temperature-log, medical or training records, so a compliance-records product has no clear basis. Buyers are low-margin tea shops with little willingness to pay. Market size was not found in a register. No private competitor was seen, but a Dhivehi-language competitor search found nothing new. Only an inspection-readiness checklist or reminder tool is possible, and it would be thin.",
+   "searches": 3,
+   "sources": "https://one.gov.mv/support/guidelines/food-establishment-registration-158; https://mfr.mv/public-sector/maldives-tightens-food-safety-regulations; https://psmnews.mv/en/181229; https://psmnews.mv/en/165457",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b81"
+ },
+ "sonnet:maldives:ALL3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "URA free forms on ura.gov.mv; no private software found (limited search)",
+   "duty": "Facility registration and operating licence under R-105/2023 and R-78/2023, Utility Regulatory Authority Act 26/2020; one-off per facility, no renewal frequency stated, penalty unspecified",
+   "market": "Not quantified; small number of private and island-level operators",
+   "reason": "The duty is real: the URA notice (Gazette 278376) requires registration and an operating licence for water, sewerage and energy facilities under R-105/2023 and R-78/2023. Existing-system deadlines passed on 6 Feb 2025 (energy) and 25 May 2025 (water and sewerage). New systems must register before operating. The notice gives no renewal, periodic reporting, size thresholds or penalties (\"necessary action\" only). Each operator probably files once, so there is no recurring workflow. The pool is tiny, with perhaps dozens to low hundreds of operators. The URA forms are free and no competing software turned up, but the demand is one-off and thin. I did not check for a registry count or private vendors, and only one competitor search was run. Weak candidate.",
+   "searches": 1,
+   "sources": "https://gazette.gov.mv/iulaan/278376",
+   "suggested_score": 2,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b81"
+ },
+ "sonnet:maldives:GAPS4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "none found; not searched beyond the Ministry permit system",
+   "duty": "Agricultural Pesticide Control Act 21/2019 requires a licence to import, sell or repackage pesticides. Reported fines are MVR 5,000 to 100,000 for unlicensed trade. Renewal frequency not confirmed.",
+   "market": "1,057 companies granted permits per the Ministry; active dealer count unknown.",
+   "reason": "The Act is real: ratified 9 Dec 2019, with licences required for import, sale and repackaging, and reported fines of MVR 5,000 to 100,000. I could not confirm the licence renewal period, any recurring sales or stock report, or enforcement status. The 1,057 figure is the Ministry's count of permits granted. The article doesn't say they are active dealers or recurring. It also describes only the Makudi portal for plant imports. No competitor or portal search was run for pesticides. The buyer pool is probably small, and the duty looks like a licence application rather than a recurring workflow. Willingness to pay is likely low.",
+   "searches": 1,
+   "sources": "https://leap.unep.org/en/countries/mv/national-legislation/agricultural-pesticide-control-act-act-no-212019 ; https://psmnews.mv/en/169643 ; https://www.ctlstrategies.com/articles/president-ratifies-act-on-control-of-agricultural-pesticides/",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b81"
+ },
+ "triage:maldives": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "ALL1",
+     "reason": "New pharmacy duty (MFDA Medicines Regulation, 22 Oct 2026); not in known list."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL2",
+     "reason": "Food establishment registration under Food Safety Act; earliest of the food registration candidates; no known match."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL3",
+     "reason": "Small utility operators' URA licensing is a new buyer group and duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL4",
+     "reason": "Money changers with MMA licensing and compliance duties; small regulated firms, new."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL5",
+     "reason": "Employment agencies are a different buyer group from K02 (SME employers); related to K02."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL6",
+     "reason": "Local agents for foreign vessels are a different buyer and duty from K08 (taxi/dhoni licensing); related K08, with new 2024/R-90 amendments."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL7",
+     "reason": "Waste service providers and packaging importers under the amended Waste Management Act/EPR; new, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL8",
+     "reason": "Small contractors' registration and project licences; new buyer group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL9",
+     "reason": "Aasandha panel clinics and pharmacies claims duty; new, verifiers to check."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL10",
+     "reason": "NGO annual filing is a recurring duty for associations; in scope and new."
+    },
+    {
+     "decision": "known",
+     "id": "ALL11",
+     "reason": "Same buyer group (SME employers of expatriates) and same work-permit/quota duty as K02; new rules only strengthen the trigger.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Scrap dealers' EPA waste permit is a new buyer group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Vehicle importers and garages permits: new buyer group and duty."
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS3",
+     "reason": "Same food establishment registration and inspection duty under Food Safety Act 6/2024, same shops/cafes/food sellers buyers.",
+     "ref": "ALL2"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Pesticide importers and sellers licensing under Act 21/2019; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Pet shops and animal importers registration under the Animal Protection Act; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Staple food warehouses are a distinct buyer group with their own registration and six-monthly inspection duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Co-operative societies and savings groups annual filing; distinct from NGOs and new."
+    }
+   ]
+  },
+  "tag": "w2b81"
+ }
+}

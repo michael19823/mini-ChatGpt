@@ -1,5 +1,66 @@
 # Germany A1: Mietwagen and taxi owner-operator compliance file
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10 (old score: 4/10).**
+
+**The case.** No state portal exists for the Mietwagen order book. Each firm must build its own record, and authorities now audit it with data analysis. Courts accept an order book "buchmäßig oder elektronisch" ([VG Regensburg RN 8 S 25.1192](https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2025-N-17340?hl=true)) and uphold permit revocations based on time-series checks of app data ([VGH München 11 CS 26.1088](https://www.gesetze-bayern.de/Content/Rtf/Y-300-Z-BECKRS-B-2026-N-19364?all=False)). The only product found that does part of this job is Fahrly, a fleet back-office for Uber and Bolt fleets. It has a basic return-duty check, but no order book or audit export was found. That leaves an opening for an audit-ready register with self-checks. The idea is held back by three things: the buyer base is small and price-sensitive, many firms do not want their breaches documented, and the return duty is under political pressure.
+
+**Room for improvement over current practice.**
+- There is no free state tool to beat. Firms keep paper books, use platform portals, or keep nothing ordered. The 2010 Bielefeld guidance still asks for a bound book ([Bielefeld](https://www.bielefeld.de/sites/default/files/dokumente/Mietwagenverkehr_Hinweis.pdf)).
+- Authorities ask for more and more data. In 2025 a Bavarian authority demanded the order book, platform web applications with order data, order e-mails, shift sheets and trip records. The court allowed inspection of these on site. It limited the demand to hand over all electronic data without a concrete reason ([VG Regensburg, 22 May 2025](https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2025-N-17340?hl=true)). In 2026 the VGH allowed a USB handover and a time-series analysis that found 50 breaches in 175 trips ([VGH München](https://www.gesetze-bayern.de/Content/Rtf/Y-300-Z-BECKRS-B-2026-N-19364?all=False)). A firm that cannot produce clean, consistent data on demand risks its permits.
+- Authorities may be getting tools of their own. A site called RouteProof offers "Digitale Kontrolle der Rückkehrpflicht im Mietwagenverkehr" ([routeproof.de](https://routeproof.de/)). A search summary described it as a tool for authorities that analyses digital trip logs and order books. The page content could not be read (unverified). If authorities analyse the data, firms need the same check first.
+- There are two retention regimes. PBefG requires the order record to be kept for one year. Tax law requires each trip to be recorded individually and kept for at least six years ([LSt Niedersachsen guidance](https://lstn.niedersachsen.de/download/153059); [BMF letter 11 Mar 2024](https://lfst.rlp.de/fileadmin/lfst.rlp.de/Service/Unternehmer/20240311_BMF___146a_AO_Aufzeichnung_und_Aufbewahrung_Taxi_u_Mietwagen.pdf)). One register that feeds both is real value.
+- Multi-client use: tax advisers already write about the return duty for Mietwagen clients and recommend "belastbare Dokumentation der Auftragsannahme" with trip-end and follow-on order times ([Intelligent Accounting, Kassel](https://intelligent-accounting.de/wissenswertes/ruckkehrpflicht-fur-mietwagen-rechtssicherheit-bei-uber-x)). Advisers and revocation lawyers could run the tool across several clients.
+- Data is available. Uber offers a "Fahrtaktivität" trip activity file that Fahrly already imports for its return-duty check ([Fahrly help search](https://intercom.help/fahrly-solutions-llc/de/?q=R%C3%BCckkehrpflicht)). Bolt and FREENOW exports were not confirmed (unverified).
+
+**Competitor reality check.**
+- **Fahrly** (founded 2021, Cardiff) targets Mietwagen fleets on Uber and Bolt ([CB Insights](https://www.cbinsights.com/company/fahrly)). Its help centre has a "Compliance & Sicherheit" section covering "Rückkehrpflicht, Führerschein, Bußgelder, Tankquittungen und Betrugserkennung" ([Fahrly help](https://intercom.help/fahrly-solutions-llc/de/)). The return-duty check imports Uber's Fahrtaktivität file and flags a breach when the shift start is farther from the office than a chosen threshold ([Fahrly help search](https://intercom.help/fahrly-solutions-llc/de/?q=R%C3%BCckkehrpflicht)). That is a crude, Uber-only check. No order book, no authority export, no Bolt or FREENOW check and no TSE link were found. No price is published, and fahrly.com is a parked domain. This is a partial incumbent. It is also the most likely company to close the gap, because it already sits in the same customers' daily workflow.
+- **TAXI-Experte** is a local Windows billing program with a cash book and an optional DATEV module. It costs about EUR 780 to 1,080 net, one-off. Its listing names no order book, return duty or TSE ([SoftGuide](https://www.softguide.de/programm/taxi-experte)). It is clunky and aimed at classic taxi billing.
+- **Platforms**: The Uber portal shows trips and earnings per driver and car ([Uber fleet management](https://www.uber.com/pl/pl/earn/fleet-management/)). FREENOW makes partners record orders in its Fleet Partner Dashboard ([FREENOW AGB](https://eu-assets.contentstack.com/v3/assets/blt6e28a7086c72dd55/blt88cec6d4f33f02d6/69f9b33d63b2b574c44a6a01/Allgemeine_Geschaftsbedingungen_-_Stand_12.2023.pdf)). No platform was found to produce a cross-platform § 49 register with return checks (unverified either way).
+- **Dispatch and GPS logbooks** (SuE-TaMi, taris, Webfleet, Vimcar) log orders or trips. None is sold as return-duty proof ([SoftGuide](https://www.softguide.de/programm/sue-tami-dispo); [OMR logbook ranking](https://omr.com/de/reviews/contenthub/beste-fahrtenbuch-apps)).
+- **TSE**: crowded and hardware-bound. Stay out, as in the first pass.
+
+**Price per customer.**
+- What firms pay today: platform fees of about 20 to 29% of fares (Berlin 25%), per an unofficial source ([wandernundmehr](https://www.wandernundmehr.at/faq/wie-viel-prozent-nimmt-bolt)). TSE hardware costs from EUR 500 per car ([IHK Lippe-Detmold](https://www.ihk.de/lippe-detmold/hauptnavigation/bilden-und-qualifizieren/sach-und-fachkundepruefungen-unterrichtung/fachkunde-personenbefoerderung/tse-pflicht-fuer-taxi-und-mietwagen-ab-2026-6586016)). Billing software costs EUR 780 to 1,080 one-off ([SoftGuide](https://www.softguide.de/programm/taxi-experte)). At stake: fines up to EUR 10,000 ([Bielefeld](https://www.bielefeld.de/sites/default/files/dokumente/Mietwagenverkehr_Hinweis.pdf)) and loss of 8 to 16 permits in single cases ([VGH München](https://www.gesetze-bayern.de/Content/Rtf/Y-300-Z-BECKRS-B-2026-N-19364?all=False)).
+- Average firm size: Berlin had 2,335 Mietwagen in 436 firms in March 2025, about 5.4 cars per firm ([Berlin Senate](https://www.berlin.de/sen/uvk/presse/pressemitteilungen/2025/pressemitteilung.1551176.php)).
+- Suggested price: EUR 12 per car per month, with a EUR 39 minimum per firm. A 5-car firm pays about EUR 60 per month, or EUR 720 per year (unverified, no comparable price found).
+- Audit pack: EUR 500 to 1,000 one-off when an authority demands data (unverified).
+- Advisers and lawyers: EUR 99 to 199 per month for multi-client access (unverified).
+
+**Revenue estimate (year 3).**
+- Buyers: about 4,000 to 8,000 Mietwagen firms nationwide, estimated from Berlin figures. There is no national count since 2016 ([Brandenburg Landtag answer](https://kleineanfragen.de/brandenburg/6/11595-mietwagen-und-taxiunternehmen-in-brandenburg.pdf)) (unverified estimate). The sector as a whole has about 23,800 taxi and Mietwagen businesses ([Taxiverband Geschäftsbericht 2025](https://www.lobbyregister.bundestag.de/media/02/74/778564/Geschaftsbericht-2025.pdf)).
+- Base case: 5,000 firms x 5% share = 250 firms x EUR 720 = EUR 180,000. Add 40 audit packs x EUR 750 = EUR 30,000. Add 15 advisers or lawyers x EUR 1,500 = EUR 22,500. **Total: about EUR 230,000 per year.**
+- Low case: 4,000 x 3% = 120 x EUR 600 = EUR 72,000, plus EUR 15,000 in audit packs = **about EUR 87,000.**
+- High case: 8,000 x 8% = 640 x EUR 900 = EUR 576,000, plus EUR 60,000 in audit packs and advisers = **about EUR 636,000.**
+- The base case supports one founder. It does not support a team.
+
+**Ease of implementation and sale.** Medium to low.
+- Build: medium. CSV imports per platform, a hash-chained register, a return-gap check against base address and times, and an export. There is no confirmed official API, so imports may break when platforms change their files (unverified).
+- Onboarding: easy if the firm can download Uber's Fahrtaktivität file. Drivers, many of whom do not read German, need simple multilingual guidance. Fahrly offers Arabic articles, which shows the need ([Fahrly help search](https://intercom.help/fahrly-solutions-llc/de/?q=R%C3%BCckkehrpflicht)).
+- Sale: hard. Firms are price-sensitive, and many break the duty on purpose. The pull is strongest just after an authority letter arrives, so revocation lawyers and specialist tax advisers are the best channel. Taxi associations are hostile to platform Mietwagen. The platform-friendly Bundesverband wirfahren is a better fit ([Lobbyregister R003822](https://www.lobbyregister.bundestag.de/suche/R003822)).
+
+**Remaining risks.**
+- Fahrly or the platforms could add an order book and export cheaply. Fahrly already has the data and the customers ([Fahrly help](https://intercom.help/fahrly-solutions-llc/de/)).
+- The rule could change. Lobby groups push to scrap the return duty or allow automatic app acceptance, and the 2021 reform is under evaluation ([Lobbyregister RV0023847](https://www.lobbyregister.bundestag.de/inhalte-der-interessenvertretung/regelungsvorhabensuche/RV0023847)). If the duty goes, the core value goes. If app acceptance is allowed "with documentation duties", demand could rise.
+- Buyer incentive: compliance means empty return trips. A tool that shows breaches is unwelcome to firms that rely on them.
+- The market may be shrinking or moving. Berlin's Mietwagen count roughly halved in a year, and fleets reportedly moved to districts outside Berlin ([Berlin Senate](https://www.berlin.de/sen/uvk/presse/pressemitteilungen/2025/pressemitteilung.1551176.php); [Tagesspiegel Background headline](https://background.tagesspiegel.de/verkehr-und-smart-mobility/briefing/mietwagenfirmen-umgehen-berlin), article not readable (unverified)).
+- Liability: the VGH holds that orders forwarded by app are not received at base ([VGH München](https://www.gesetze-bayern.de/Content/Rtf/Y-300-Z-BECKRS-B-2026-N-19364?all=False)). The product must flag risk, not promise legal compliance.
+- Proportionality limits: VG Regensburg held that firms need only make records available for inspection at their premises unless the authority gives a concrete reason for a handover ([VG Regensburg](https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2025-N-17340?hl=true)). This reduces the urgency of an export feature in routine checks.
+
+**New sources.**
+- https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2025-N-17340?hl=true
+- https://intercom.help/fahrly-solutions-llc/de/
+- https://intercom.help/fahrly-solutions-llc/de/?q=R%C3%BCckkehrpflicht
+- https://www.cbinsights.com/company/fahrly
+- https://www.softguide.de/programm/taxi-experte
+- https://routeproof.de/
+- https://intelligent-accounting.de/wissenswertes/ruckkehrpflicht-fur-mietwagen-rechtssicherheit-bei-uber-x
+- https://lstn.niedersachsen.de/download/153059
+- https://www.uber.com/pl/pl/earn/fleet-management/
+- https://omr.com/de/reviews/contenthub/beste-fahrtenbuch-apps
+- https://background.tagesspiegel.de/verkehr-und-smart-mobility/briefing/mietwagenfirmen-umgehen-berlin
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

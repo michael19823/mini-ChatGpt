@@ -1,5 +1,61 @@
 # Israel B1: Gemach licensing, periodic-report and AML-policy workspace
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10 (old score: 4/10).**
+
+**The case.** The state gives out a reporting template and portal for free. Under these criteria that is not a reason to reject. Two Capital Market Authority circulars, both dated 2 Aug 2026, leave a lot of work around the portal. The data circular (2026-10-5) asks for balance-sheet, P&L, cash-flow, deposit, donation, credit and arrears figures in a protected Excel file, starting 1 Jan 2027. The AML circular adds a policy, a risk assessment, board minutes and training logs ([data circular](https://www.gov.il/BlobFolder/dynamiccollectorresultitem/regulation-legislation311/he/Regulation-2026-10-5-P.pdf); [AML circular](https://www.gov.il/BlobFolder/dynamiccollectorresultitem/regulation-legislation310/he/Regulation-2026-8-2-P.pdf)). Israeli gemach software exists, but it covers day-to-day operations. None of the products I checked mentions regulatory reporting or AML. So there is an opening for a compliance layer. The ceiling is the buyer count: about 170 applicants, and only a handful licensed so far. Most of them are small, donation-funded and price-sensitive. That caps year-3 revenue at roughly NIS 0.3-0.6m. This is a good niche service-plus-software business, not a scalable SaaS.
+
+**Room for improvement over the portal and current practice**
+- **Turning the books into the template is real work.** The Excel file has four tabs (financial data, cash flow, deposits/donations/credit, arrears). Cash flow must be split by category, arrears by ageing, and every amount rounded to whole shekels ([data circular, s.3 and notes](https://www.gov.il/BlobFolder/dynamiccollectorresultitem/regulation-legislation311/he/Regulation-2026-10-5-P.pdf)). Operational gemach systems do not produce these cuts (see the competitor check below).
+- **The portal rejects bad files, and a rejected file does not count as filed.** It checks that assets equal liabilities plus equity, and that minimum equity is met. It also rejects hidden rows or columns and wrong file names (the name must follow `Gmach_<licence no>_QYY.xlsx`). A filing counts only when an "accepted" e-mail arrives ([data circular, s.3(4)-(6)](https://www.gov.il/BlobFolder/dynamiccollectorresultitem/regulation-legislation311/he/Regulation-2026-10-5-P.pdf)). Checking the file before upload is an obvious paid feature.
+- **Deadlines and frequency differ by licence type.** All licensees file yearly by 30 June. Extended licensees also file half-yearly by 30 September ([data circular, s.2(e)-(f)](https://www.gov.il/BlobFolder/dynamiccollectorresultitem/regulation-legislation311/he/Regulation-2026-10-5-P.pdf)). The AML yearly report is due 31 March in a separate protected file ([AML circular](https://www.gov.il/BlobFolder/dynamiccollectorresultitem/regulation-legislation310/he/Regulation-2026-8-2-P.pdf)). A deadline calendar is useful.
+- **Record-keeping the portal does not do.** This covers the AML policy and risk assessment (both reviewed yearly), board approval minutes kept 5 years, an AML officer, KYC and PEP records, terror-list screening, and training logs for staff *and volunteers* ([AML circular](https://www.gov.il/BlobFolder/dynamiccollectorresultitem/regulation-legislation310/he/Regulation-2026-8-2-P.pdf)). The portal only receives files.
+- **Expert opinion for "qualifying donation" gemachim.** From 1 Jan 2028, a gemach that takes donations carrying rights (refund, grant or future credit) must file a yearly external expert opinion. It must validate the economic model, run sensitivity tests and give a **50-year forecast** of sustainability, liquidity, break-even and credit-default ratios ([data circular, notes to s.2](https://www.gov.il/BlobFolder/dynamiccollectorresultitem/regulation-legislation311/he/Regulation-2026-10-5-P.pdf)). A modelling tool, or partnering with actuaries, is a high-value add-on.
+- **Individuals can hold licences too.** A licensee that is an individual must report the financial tab "from its internal bookkeeping and controls" ([data circular, s.2(c)](https://www.gov.il/BlobFolder/dynamiccollectorresultitem/regulation-legislation311/he/Regulation-2026-10-5-P.pdf)). Many of them have no accountant-grade books (unverified).
+- **Portal-pain evidence is thin so far.** The regime is new. The Authority itself said only about 10% of applications would pass if decided in Aug 2025 ([Calcalist](https://www.calcalist.co.il/local_news/article/s11rnrlyll)). About 20 of 170+ applications were "mature" in Dec 2025 ([ICE](https://www.ice.co.il/finance/news/article/1093943)). The Authority is now sending hearing letters to bodies that do not comply ([Funder, snippet; page 403](https://www.funder.co.il/article/209090)). That points to a preparation problem, not just a filing problem. I found no user complaints about the portal itself (unverified).
+
+**Competitor reality check**
+- **Amud HaChesed (עמוד החסד), by Malach Software.** The vendor says it is built for gemach managers, has served gemachim for 12 years and is widely recommended. The page lists no features, prices or platform, and no regulatory reporting ([gmach.m-pitronim.com](https://gmach.m-pitronim.com/)). It is the likely market leader in operations (unverified). It is also the most likely partner or fast follower.
+- **Moses Group gemach system.** It covers the loan-request workflow, guarantors, deposits, donations, loans against deposits, Masav direct debit and user management. Price is on request. It says nothing about AML, the Capital Market Authority or regulatory reports ([mosesnet.net](https://www.mosesnet.net/services/computerized-charity/)).
+- **Gmach Beclick (גמח בקליק).** A web app with loans, deposits, donations, receipts, Excel exports, bank-account checks and "AI". It shows no prices, no customers and placeholder statistics, so it looks early-stage. It has no AML or regulatory reporting ([gmach-share-hub.lovable.app](https://gmach-share-hub.lovable.app/); [pricing page 404](https://gmach-share-hub.lovable.app/pricing)).
+- **Generic lending software** (CAV Systems, Capterra listings) is built for interest-bearing lenders, not this regime ([CAV](https://cav.co.il/en/blog-post/recommended-mortgage-management-system-non-bank-lenders-israel); [Capterra IL](https://www.capterra.co.il/software/1082901/Loan-Management)).
+- **Advisers.** Large Israeli law firms sell financial-regulation work to non-bank providers ([Shibolet](https://www.shibolet.com/?p=13991)). I found no published gemach-specific compliance package or price list (unverified).
+- **Verdict on incumbents.** They do part of the job (operations ledger). None shows the compliance part: template export, validation, AML records, board and training logs, or the expert-opinion model. Prices are hidden, so I cannot judge whether they are reasonable (unverified). This is an opening, not a killer. The main threat is that Amud HaChesed adds an Excel export to the template. That is quick to build, but it would not cover the AML and governance records.
+
+**Price per customer** (my estimates, unverified)
+- The buyer's alternative is staff time, an outside AML officer and CPA hours. Officers carry personal responsibility ([Bizportal](https://www.bizportal.co.il/general/news/article/757639)). Bank accounts depend on the licence ([ICE](https://www.ice.co.il/finance/news/article/1093943)). I found no public prices for outsourced AML officers or gemach licence files (unverified).
+- **Basic licence (NIS 1-8m activity):** NIS 250-500/month (NIS 3,000-6,000/yr) for the template filler, validator, AML register and deadline calendar.
+- **Extended licence (over NIS 8m):** NIS 1,000-2,500/month (NIS 12,000-30,000/yr), because of the half-yearly reports, more users and an audit trail.
+- **Service add-ons:** AML-officer-as-a-service or policy drafting at NIS 1,000-3,000/month. Expert-opinion model support at NIS 10,000-30,000 a year per qualifying-donation gemach.
+- **Accountants:** NIS 400/month base plus NIS 150 per client entity, for charedi CPA offices serving several gemachim.
+
+**Revenue estimate (year 3, about 2029)**
+- Buyers: about 170 applicants ([ICE](https://www.ice.co.il/finance/news/article/1093943)). Assume about 100 licensed by 2029 (unverified; only 7 licensed by Sept 2026 per [Funder snippet](https://www.funder.co.il/article/209090)). Assume 85 basic and 15 extended.
+- Software only: basic 85 x 25% share x NIS 4,500 = NIS 95,600. Extended 15 x 33% share x NIS 20,000 = NIS 100,000 (5 customers). Total: about **NIS 196,000 (about USD 53k)**.
+- With services: add 12 AML-officer or policy clients x NIS 18,000 = NIS 216,000, plus 3 expert-opinion engagements x NIS 20,000 = NIS 60,000. Total: about **NIS 470,000 (about USD 127k)**.
+- Upside: if licensing speeds up and all ~170 licence, the same shares give about NIS 0.6m (145 basic x 25% x NIS 4,500 = NIS 163,000; 25 extended x 33% x NIS 20,000 = NIS 165,000; services about NIS 276,000). Exempt gemachim (under NIS 1m) are not buyers for compliance. They are buyers only for a cheap operations app, where incumbents already exist.
+
+**Ease of implementation and sale**
+- **Build: medium.** The template, field definitions and validation rules are public ([data circular](https://www.gov.il/BlobFolder/dynamiccollectorresultitem/regulation-legislation311/he/Regulation-2026-10-5-P.pdf)). An MVP that imports a trial balance, loan ledger or Excel file and outputs a validated `Gmach_*.xlsx`, plus AML registers, is a few weeks of work. Pulling data from Amud HaChesed or Moses needs a partner or an export (unverified).
+- **Sale: hard.** It is a closed charedi community. It needs Hebrew, trust and rabbinic or community endorsement, in-person selling and CPA referrals. The buyers are few but identifiable from the Authority's public register ([Walla](https://finance.walla.co.il/item/3558298)). The best routes are a reseller deal with Amud HaChesed or charedi CPA offices (unverified).
+
+**Remaining risks**
+- **Tiny, slow buyer base:** 7 licences after 4 years of the law ([Funder snippet](https://www.funder.co.il/article/209090)).
+- **Draft status:** both circulars were published for comment on 2 Aug 2026. Whether they are final is unverified. The AML circular phases in 18 months after final publication ([Calcalist](https://www.calcalist.co.il/local_news/article/rktbct3sfe)). The data circular starts 1 Jan 2027, so first yearly filings are due by 30 June 2028 for 2027 activity ([data circular, s.5](https://www.gov.il/BlobFolder/dynamiccollectorresultitem/regulation-legislation311/he/Regulation-2026-10-5-P.pdf)).
+- **Incumbents can add export features cheaply.** Moat comes from the AML and governance records and the service.
+- **Price sensitivity:** compliance costs could close small gemachim ([Bizportal 2026](https://www.bizportal.co.il/general/news/article/20027138)). The regulator says it deliberately kept reporting "basic" to limit compliance cost ([data circular, notes](https://www.gov.il/BlobFolder/dynamiccollectorresultitem/regulation-legislation311/he/Regulation-2026-10-5-P.pdf)).
+- **Liability and sensitive data:** the product holds AML and KYC data on depositors and donors.
+
+**New sources**
+- https://www.gov.il/BlobFolder/dynamiccollectorresultitem/regulation-legislation311/he/Regulation-2026-10-5-P.pdf (data-reporting circular 2026-10-5, dated 2 Aug 2026; full text extracted and read)
+- https://gmach.m-pitronim.com/ (Amud HaChesed, Malach Software)
+- https://www.mosesnet.net/services/computerized-charity/ (Moses Group gemach system)
+- https://gmach-share-hub.lovable.app/ (Gmach Beclick)
+- https://www.shibolet.com/?p=13991 (law-firm financial-regulation practice)
+- https://www.kikar.co.il/302125.html (law's passage; no data on counts or costs)
+- https://www.funder.co.il/article/209090 (403 again; snippet only)
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

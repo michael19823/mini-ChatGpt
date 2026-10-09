@@ -1,5 +1,71 @@
 # Mexico B2: ICSOE/SISUB filer and consistency checker for small REPSE contractors
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10. Old score: 5/10.**
+
+**The case.** Every REPSE contractor must file ICSOE (IMSS) and SISUB (INFONAVIT) three times a year. Both portals only accept data. They do not prepare it, check it against payroll or SUA, or keep a contract register ([IMSS ICSOE](https://imss.gob.mx/icsoe); [Praxium](https://praxiumconsultores.com/blog/icsoe-y-sisub-cuanto-cuesta-cumplir-cada-cuatrimestre)). The SISUB CSV format is fragile, and IMSS now publishes a list of inconsistent ICSOE filings, so there is real room for a "prepare, check, archive" tool ([contadormx](https://contadormx.com/errores-comunes-del-sisub-al-infonavit/); [IMSS Boletín 300/2025](https://www.imss.gob.mx/sites/all/statics/i2f_news/IMSS%20Boletin%20300.pdf)). I found no product, local or foreign, that builds and cross-checks both files for the contractor. The client-side REPSE platforms (BDO, Xternall) only collect and monitor documents ([BDO webinar](https://www.bdomexico.com/getmedia/514a6f9e-9faf-406d-b485-82f4be6a21c6/Webinar-REPSE-070825.pdf?ext=.pdf)). It stays a "maybe" because filing is only three times a year, willingness to pay is unproven, and a payroll suite could add an export.
+
+**Room for improvement over the portal or current practice**
+- **Data preparation.** Praxium puts the work at about 12 hours a period for a contractor with 5 clients and 18 workers. The hours go to updating the contract register (2 h), pulling CURP/NSS/SBC (3 h), reconciling with payroll and SUA (3 h), loading and fixing the file (3 h), and archiving acknowledgements (1 h) ([Praxium](https://praxiumconsultores.com/blog/icsoe-y-sisub-cuanto-cuesta-cumplir-cada-cuatrimestre)). The portals do none of the first three.
+- **Error-prone format.** The SISUB CSV rejects commas, empty cells and currency formats. Headers must stay in, although the official guide said to delete them. Income fields are bimonthly inside a four-monthly return. A worker on several contracts must be listed in one row with the contracts separated by full stops. Without headers, the system gives no acknowledgement and emails back an error file ([contadormx, Oct 2021](https://contadormx.com/errores-comunes-del-sisub-al-infonavit/)). Users still report "layout incorrecto" errors on official headers ([contadormx tag page](https://contadormx.com/tag/error-sisub/)). Praxium lists "format errors that only show up at validation" and SBC differences between payroll and IMSS as typical problems ([Praxium](https://praxiumconsultores.com/blog/icsoe-y-sisub-cuanto-cuesta-cumplir-cada-cuatrimestre)).
+- **Portal failures.** In September 2022 the SISUB upload failed near the deadline. INFONAVIT told filers to switch browsers, clear cookies, and email screenshots and all three Excel files to named staff before 11:59 pm ([IDC Online](https://idconline.mx/seguridad-social/2022/09/19/sisub-presenta-problemas-de-ultima-hora)). The layout changed again in June 2026 ("datos continuos") ([contadormx](https://contadormx.com/sisub-infonavit-guia-art-29-bis-informe-continuo/)).
+- **Inspection readiness.** IMSS publishes seven types of ICSOE inconsistency by name ([IMSS Boletín 300/2025](https://www.imss.gob.mx/sites/all/statics/i2f_news/IMSS%20Boletin%20300.pdf)). A pre-filing check against those rules is a clear gap.
+- **Monthly evidence pack.** Clients demand a monthly bundle by the last day of the next month: payroll CFDI, IMSS and INFONAVIT payment proofs, tax withholdings, VAT return and three positive compliance opinions. They also want the four-monthly ICSOE/SISUB acknowledgements ([BDO webinar](https://www.bdomexico.com/getmedia/514a6f9e-9faf-406d-b485-82f4be6a21c6/Webinar-REPSE-070825.pdf?ext=.pdf); [AXA](https://axa.mx/documents/51602/20700179/DOCUMENTO%20REPSE.pdf)). Assembling this pack per client makes the product monthly, not three times a year.
+- **Training demand.** Paid courses on just these two returns sell steadily, which shows practitioners struggle with them. COFIDE charges MXN 1,190 for 5 hours, covering special characters, field lengths and empty SISUB fields ([COFIDE](https://www.cofide.mx/cursos/icsoe-y-sisub-infonavit-e-imss-declaraciones-infomativas)). The Colegio de Contadores runs repeat workshops ([Colegio](https://www.contadoresmexico.org.mx/Curso/Repse-y-sus-informativas-en-el-ICSOE-y-Sisub)).
+- **Multi-client work.** Accountants file for many RFCs, each with its own e.firma, contracts and deadlines. Nothing in the portals gives a multi-client view (inferred from the [IMSS ICSOE](https://imss.gob.mx/icsoe) single-filer flow).
+
+**Competitor reality check**
+- **IMSS/INFONAVIT portals:** free. They cover submission and bulk upload (up to 3,000 workers), but no preparation, cross-checks or archive ([IMSS bulk guide](https://www.imss.gob.mx/sites/all/statics/icsoe/guias/3-Guia-Carga-Masiva-de-trabajadores.pdf)).
+- **elconta.mx:** free fill-in SISUB templates (a zip of blank files) and a paid recorded course. No generation from payroll and no validation ([elconta](https://elconta.mx/archivos-csv-sisub-infonavit/)). Not a real competitor.
+- **Payroll suites (CONTPAQi Nóminas, Aspel NOI, Nomipaq, Worky, Tress, Runa, Buk):** three more searches found no documentation that any of them exports ICSOE or SISUB files. Buk automates payment files only ([Buk](https://info.buk.mx/hubfs/Archivos%20y%20Pagos%20evoluciona_%20conoce%20la%20nueva%20automatizaci%C3%B3n%20(1).pdf)). The absence is unverified. One support call to each vendor would settle it.
+- **BDO REPSE SaaS:** client-side. It validates supplier REPSE status weekly, stores the monthly documents, sends alerts and connects to an ERP. It is priced by the number of suppliers, on quote ([BDO webinar](https://www.bdomexico.com/getmedia/514a6f9e-9faf-406d-b485-82f4be6a21c6/Webinar-REPSE-070825.pdf?ext=.pdf)). It does not build ICSOE or SISUB files.
+- **Xternall:** client-side supplier monitoring and document storage. No public price, client count or ICSOE/SISUB feature ([El CEO, Jan 2024](https://elceo.com/negocios/xternall-la-plataforma-que-ayuda-a-las-empresas-a-supervisar-a-sus-proveedores-repse/)).
+- **Consultancies (Praxium, BHR):** sell diagnosis and filing help. No published fees ([Praxium](https://praxiumconsultores.com/blog/icsoe-y-sisub-cuanto-cuesta-cumplir-cada-cuatrimestre)).
+- **Conclusion:** no incumbent does the contractor-side job. The client-side platforms are complementary. They create the demand, because they force suppliers to upload these documents.
+
+**Price per customer**
+- **Anchors.** About 36 staff hours a year ([Praxium](https://praxiumconsultores.com/blog/icsoe-y-sisub-cuanto-cuesta-cumplir-cada-cuatrimestre)). At an assumed MXN 300 an hour that is about MXN 10,800 a year (unverified rate). One ICSOE fine is MXN 58,655 to 234,620 ([BHR México](https://www.bhrmx.com/wp-content/uploads/2026/08/Servicios-especializados-el-riesgo-no-termina-con-el-REPSE.pdf)). A one-off course costs MXN 1,190 ([COFIDE](https://www.cofide.mx/cursos/icsoe-y-sisub-infonavit-e-imss-declaraciones-infomativas)). No published accountant fee for ICSOE/SISUB was found (unverified).
+- **Contractor (one RFC):** MXN 300 a month (MXN 3,600 a year, about USD 200 at about MXN 18/USD, unverified rate). That covers filing prep and the monthly evidence pack. Alternatively, MXN 900 per four-monthly filing for prep only. Both are proposals (unverified).
+- **Accountant or payroll bureau:** MXN 2,000 a month for up to 25 client RFCs, plus MXN 60 per extra RFC a month. That is about MXN 24,000 a year per firm (proposal, unverified).
+
+**Revenue estimate (year 3)**
+- **Buyer base.** About 89,000 firms on the REPSE register in May 2026 ([LexLatin](https://lexlatin.com/entrevistas/repse-mexico-nuevas-auditorias)). More than 35,000 were removed in 2025 for not renewing ([Alegra](https://blog.alegra.com/mexico/que-es-el-repse-guia-para-empresas/)), and only 53% re-qualified at the 2024 renewal ([IDC Online](https://idconline.mx/seguridad-social/2025/12/18/repse-una-deuda-pendiente-en-la-formalizacion-empresarial)). I use 50,000 active filers (unverified). Accounting firms that file for REPSE clients: assume 5,000 (unverified).
+- **Base case:**
+  - Direct contractors: 50,000 x 1% x MXN 3,600 = MXN 1.8M.
+  - Accounting firms: 5,000 x 3% = 150 firms x MXN 24,000 = MXN 3.6M.
+  - Total: about MXN 5.4M a year, about USD 300k.
+- **Low case:**
+  - Contractors: 50,000 x 0.5% x MXN 3,600 = MXN 0.9M.
+  - Firms: 5,000 x 1.2% = 60 firms x MXN 24,000 = MXN 1.44M.
+  - Total: about MXN 2.3M, about USD 130k.
+- Either case supports a one- or two-person business. Neither makes a large company.
+
+**Ease of implementation and sale**
+- **Build: medium.** Version 1 is file generation and validation. It needs an Excel/CSV import, a contract register, the ICSOE bulk template, the three SISUB layouts and rule checks. The hard parts are reading SUA data and keeping up with layout changes (Dec 2023, Jun 2026) ([contadormx](https://contadormx.com/sisub-infonavit-guia-art-29-bis-informe-continuo/)). The user still signs with the e.firma on the portal, so there is no API dependency ([IMSS ICSOE](https://imss.gob.mx/icsoe)).
+- **Onboarding: easy.** It is a web app. A user uploads payroll or SUA exports and gets the files and an error report back. No integration is needed for version 1.
+- **Sale: medium.** Deadline-driven search spikes each January, May and September ([IDC Online](https://idconline.mx/seguridad-social/2025/01/17/fecha-limite-para-presentar-icsoe-y-sisub-tercer-cuatrimestre-2024)). Other routes are accountant colleges and course providers (COFIDE, Colegio de Contadores) and CONTPAQi/Aspel resellers. The pitch "pass your client's supplier portal every month" is stronger than "file three times a year".
+
+**Remaining risks**
+- A payroll suite (CONTPAQi, NOI) may already export these files or add an export. This is unverified and is the biggest open point.
+- IMSS could pre-fill ICSOE from its own IDSE/SUA data (no plan found, unverified).
+- The buyer count is uncertain. The register churns heavily (35,000+ removals in 2025) ([Alegra](https://blog.alegra.com/mexico/que-es-el-repse-guia-para-empresas/)).
+- Three deadlines a year invite seasonal churn unless the monthly evidence pack holds customers.
+- Accountants may see an Excel template plus their own time as "good enough". No fee data was found to prove they would pay (unverified).
+- The tool handles NSS, CURP and salary data, so Mexico's personal-data law (LFPDPPP) applies.
+
+**New sources (this pass)**
+- https://lexlatin.com/entrevistas/repse-mexico-nuevas-auditorias
+- https://blog.alegra.com/mexico/que-es-el-repse-guia-para-empresas/
+- https://contadormx.com/errores-comunes-del-sisub-al-infonavit/
+- https://contadormx.com/tag/error-sisub/
+- https://idconline.mx/seguridad-social/2022/09/19/sisub-presenta-problemas-de-ultima-hora
+- https://www.cofide.mx/cursos/icsoe-y-sisub-infonavit-e-imss-declaraciones-infomativas
+- https://www.bdomexico.com/getmedia/514a6f9e-9faf-406d-b485-82f4be6a21c6/Webinar-REPSE-070825.pdf?ext=.pdf
+- https://elceo.com/negocios/xternall-la-plataforma-que-ayuda-a-las-empresas-a-supervisar-a-sus-proveedores-repse/
+- https://info.buk.mx/hubfs/Archivos%20y%20Pagos%20evoluciona_%20conoce%20la%20nueva%20automatizaci%C3%B3n%20(1).pdf
+- https://praxiumconsultores.com/blog/cuanto-cobra-un-contador-por-maquilar-la-nomina (no fee figures given)
+
 ## Summary
 
 **Verdict: maybe. Score: 5/10.**

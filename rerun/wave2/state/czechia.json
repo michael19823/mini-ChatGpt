@@ -841,6 +841,31 @@
   },
   "tag": "w2b24"
  },
+ "opus:czechia:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Ubytovačka.cz: online domovní and evidenční kniha plus booking system for pensions, apartments and cottages, with UbyPort UNL export and direct sending (UbyPort WS) in its Plus plan. Chekin: online check-in, automatic UbyPort reports, stay-fee calculation, and claims eTurista readiness. Better Hotel: links to UbyPort 2.0 through its API. Trevlix: UbyPort API reporting module. The police's own UbyPort is free, by manual form, UNL upload or web service. superhostem.cz publishes guidance for hosts. No eTurista integration is possible yet because no API is published.",
+   "duty": "In force: Act 326/1999 requires hosts to report foreign guests (including EU citizens) through UbyPort within 3 working days and to keep the domovní kniha for 6 years. Act 565/1990 and each municipality's decree require an evidenční kniha of all guests for the local stay fee. Not in force: the eTurista amendment to Act 159/1999. e-turista.cz (status dated 09.10.2026, last update 19.09.2026) says it awaits debate in the Chamber of Deputies, with a draft start date of 1 Jan 2028 that is not final. The claim's 100,000 CZK fine and 24h reporting come from the earlier draft and are not current law. EU Regulation 2024/1028 has applied since 20 May 2026, but it mainly places duties on platforms, and the Czech registration scheme has not been set up.",
+   "market": "ČSÚ counts about 10,012 collective accommodation establishments in 2025 (at least 5 rooms and 10 beds). Hotels and pensions make up about 70% of them, and pensions are about half in regions such as Liberec (451 of 920). Short-term-rental hosts and small private lodgings below the ČSÚ threshold come on top. Only a partial figure exists for Prague Airbnb listings (\"jednotky tisíc\" apartments, per a ČAPUS expert). No national count of STR hosts was found. The number of micro providers still on paper was not reached.",
+   "reason": "Refuted. Software already does the core job. The current duties are real: hosts must report foreign guests through UbyPort within 3 working days and keep a guest register (evidenční kniha) for the municipal stay fee. Several Czech vendors already send UbyPort reports and keep both books: Ubytovačka.cz (an online register built for small providers, with UNL export and direct UbyPort sending in its Plus plan), Chekin, Better Hotel and Trevlix. The police also offer UbyPort free, by manual form, file upload or direct link. eTurista is still not law. e-turista.cz says the bill awaits the Chamber of Deputies, now aims to take effect on 1 Jan 2028, and has no public API documentation for third-party software. The new duty this idea depends on is two or more years away and may change.",
+   "searches": 6,
+   "sources": "https://www.e-turista.cz/ ; https://chekin.com/cs/blog/ubyport-a-e-turista-jak-splnit-povinnosti-evidence-hostu/ ; https://www.ubytovacka.cz/ ; https://www.ubytovacka.cz/howto/ubyport/ ; https://better-hotel.com/en/blog/ubyport-2-0-plneni-zakonnych-povinnosti-zvladnete-s-better-hotelem-snadno-a-bez-starosti/ ; https://www.trevlix.cz/cz/hlaseni-pobytu-cizincu/ ; https://policie.gov.cz/reditelstvi-sluzby-cizinecke-policie/co-to-je-ubyport ; https://policie.gov.cz/soubor/ubytovani-dokumenty-ubyportpr5-pdf.aspx ; https://csu.gov.cz/pak/kapacita-a-navstevnost-hromadnych-ubytovacich-zarizeni-cestovniho-ruchu-v-pardubickem-kraji-v-roce-2025 ; https://csu.gov.cz/lbk/kapacity-ubytovacich-zarizeni-podle-kategorie-v-libereckem-kraji-v-roce-2025 ; https://www.seznamzpravy.cz/clanek/ekonomika-byznys-reality-airbnb-znovu-obsazuje-stred-prahy-dopad-muze-byt-citelny-273635 ; https://www.echo24.cz/a/Hn5Qa",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:czechia:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Vyhláška 252/2004 Sb., as amended by 176/2023 Sb., requires risk assessment and management for lead and Legionella. Per the SZÚ presentation, priority buildings include inpatient health facilities, residential social services and accommodation over 50 persons, under §3d of Act 258/2000. The 371/2023 Sb. citation in the claim looks wrong and I could not confirm it. Competition: the search found no Czech software, only UK/Ecolab products. Free SZÚ guidance (lead aid, care of internal water systems) exists, and consultants do the assessments. I found no 2026 deadline and no count of affected buildings. The one-off assessment is not a recurring workflow, and the buyers are diverse, mostly institutions. Score stays low. Searches were limited to two.",
+   "searches": 2,
+   "sources": "https://szu.gov.cz/wp-content/uploads/2025/01/Metodicka_pomucka_SZU_posouzeni_rizik_olova_v_pitne_vode_ve_VVaP_prosinec_2024.pdf, https://khsstc.cz/wp-content/uploads/2025/06/Doporuceni_SZU_pece_o_vnitrni_vodovody_20250620.pdf, https://szu.gov.cz/wp-content/uploads/2025/05/11_legionely_baudisova.pdf, https://www.epravo.cz/_dataPublic/sbirky/2023/sb0176-2023.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b28"
+ },
  "triage:czechia": {
   "result": {
    "decisions": [

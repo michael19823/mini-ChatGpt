@@ -1,0 +1,1029 @@
+{
+ "critic:belgium": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Commodity traders, millers, feed and grain warehouses (not_reached) plus FASFC feed-business registration",
+     "first_search": "FAVV registratie erkenning diervoederbedrijf handelaar graan opslag autocontrole kleine bedrijven",
+     "why": "Row 22 was never searched. Belgium has many small feed, grain and seed operators. The FASFC feed-sector approval and registration and the traceability and autocontrole duties fall on them. A not_reached row is a hole in the pass."
+    },
+    {
+     "category": "Small food producers and horeca hygiene/allergen duties (FASFC notification, autocontrole, sector guides)",
+     "first_search": "FAVV autocontrole gids G-040 horeca bakkerij meldingsplicht allergenen traceerbaarheid kleine zaak",
+     "why": "Belgium has a very large number of small food operators: bakeries, snack bars, frituren, caterers and farm shops. The FASFC notification, the autocontrole guide (G-040 for horeca and others), the allergen duties, and the controls and fee system (retributie) all fall on them. Only butchers were covered. Horeca GKS was rejected as a cash-register issue, and the hygiene workflow itself was not checked."
+    },
+    {
+     "category": "Environmental permits and annual reports for small Class 2/3 firms (VLAREM meldingen, Walloon permis d'environnement, Brussels permis d'environnement)",
+     "first_search": "omgevingsvergunning klasse 3 melding vervaldatum hernieuwing garage wasplaats VLAREM; permis d'environnement classe 3 déclaration renouvellement Wallonie",
+     "why": "Garages, car washes, small workshops and farms must notify or renew environmental permits and keep records. Permit expiry dates and municipal notifications hit many small firms at once. Only F-gas, tanks and waste were checked, and only for Flanders. Wallonia and Brussels were barely covered."
+    },
+    {
+     "category": "Self-employed and sole-trader obligations: sociale verzekeringsfonds contributions, BTW (VAT) small-business exemption regime (kleine ondernemingen), Belgian VAT listing and intrastat",
+     "first_search": "btw vrijstellingsregeling kleine ondernemingen 2025 2026 aangifte klantenlisting kleine ondernemer; franchise TVA petites entreprises 2025 déclaration",
+     "why": "Sole traders and family firms are the biggest buyer group. The VAT franchise regime for small businesses (vrijstellingsregeling, reformed in 2025), quarterly VAT returns, annual client listings and Intrastat are recurring mandatory filings. General accounting is out of scope, but the specific small-firm filings and the 2025-2026 changes were not examined."
+    },
+    {
+     "category": "Taxi, VTC, private hire and small driver-transport licensing (Brussels taxi/LVC reform, Walloon taxi decree) and the Brussels/Flemish low-emission zone (LEZ) vehicle rules for small fleets",
+     "first_search": "Brussels Mobility taxi LVC hervorming 2025 vergunning chauffeur taxidienst; LEZ Brussel Vlaanderen vrijstelling bestelwagen zelfstandige 2026",
+     "why": "K23 covers only Flemish taxis and was rejected for one-off licensing. Brussels has a separate taxi and LVC regime, and since 2024 a reform of the Brussels taxi rules. LEZ derogations and fleet renewals affect many one-van tradespeople, a group with large numbers of small operators. Row 18 was marked 'not searched separately'."
+    },
+    {
+     "category": "Pharmacies and health-professional compliance (FAGG reporting, medicine traceability, Belgian pharmacist reporting, RIZIV/INAMI) plus new mandatory e-health duties for small practices",
+     "first_search": "apotheker verplichtingen 2026 FAGG meldingsplicht geneesmiddelen tekort registratie apotheek; pharmacien obligation AFMPS 2026 petite officine",
+     "why": "Row 25 returned no Belgium-specific result from two searches in other languages. Row 9 (vets) was 'not searched'. Belgian pharmacies are overwhelmingly independent small businesses. Medicine verification (FMD), the stock-out reporting duty, and the e-prescription/e-health obligations are plausible. Dentists were covered, but not pharmacists, GPs, kinesitherapists or opticians."
+    }
+   ]
+  },
+  "tag": "w2b21"
+ },
+ "discover:A:belgium": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small scrap-metal yards, waste traders and car dismantlers in Flanders",
+     "category": "2. Scrap-metal dealers (also 5. Used car parts and vehicle dismantlers)",
+     "evidence": "https://ovam.vlaanderen.be/register-van-ingezamelde-verhandelde-of-gemakelde-afvalstoffen (fetched: fields include date, EURAL code, tonnes, carrier, processor ID); https://ovam.vlaanderen.be/registratie-als-inzamelaar-afvalstoffenhandelaar-makelaar; https://ovam.vlaanderen.be/documents/d/nl/q-a-webinar-23-april",
+     "existing": "Competitor search (Dutch/French) found no Belgium-specific scrap-yard software; only French weighbridge/waste tools and an AMCS blog. Generic waste ERPs and weighbridge vendors likely exist but were not identified.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "name": "Waste/scrap collector and dealer daily register kit (OVAM register and EVOA/MATIS reporting) for small scrap and car-dismantling yards",
+     "score": 3,
+     "status": "weak",
+     "trigger": "OVAM: collectors, waste traders and brokers must update a digital register every working day and keep it 5 years (VLAREMA); register as collector/trader through the OVAM Webloket; reporting via EVOA webloket or software.",
+     "unchecked": "Number of small registered yards in Flanders; whether OVAM publishes a register template or software list; Wallonia/Brussels equivalents; existing waste-ERP vendors (e.g. weighbridge integrators); police purchase-register duty for scrap if any."
+    },
+    {
+     "buyer": "Gold and jewellery buyers (opkopers van edele metalen)",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=nl&la=N&cn=1987081136&table_name=wet ; https://news.belgium.be/nl/minder-illegale-cashbetalingen-bij-tabaks-en-goudhandelaars (not fetched, 403)",
+     "existing": "None searched.",
+     "known_mark": "new",
+     "name": "Precious-metals buyer compliance kit (waarborgregister, EUR 3,000 cash cap, purchase records)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law of 11 Aug 1987 on precious metals: registration in the waarborgregister at the Royal Mint, clean criminal record, verified scale, posted prices; EUR 3,000 cash cap on purchases and sales.",
+     "unchecked": "Number of registered buyers; whether buyers must keep a per-purchase seller identity record (AML law for high-value goods dealers); any 2025-2026 change; existing jeweller/pawn software."
+    },
+    {
+     "buyer": "Authorised end-of-life vehicle dismantlers (Flanders, Wallonia, Brussels)",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://be.brussels/en/entrepreneurship-innovation/doing-business-brussels/licences-authorizations-and-access-profession/registration-dismantling-centres-end-life-vehicles-authorised-issue-disposal-certificates ; Vinçotte accreditation PDF https://www.vincotte.be/pdfs/856-vincotteMainNl.pdf",
+     "existing": "Febelauto system; no dismantler software identified.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "name": "Dismantling-centre destruction-certificate and Febelauto paperwork tool",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Regional approval with yearly follow-up inspection; destruction certificates issued only by approved centres or Febelauto system members.",
+     "unchecked": "Whether Febelauto already provides a free portal for certificates; number of centres; VLAREMA register content for end-of-life vehicles."
+    },
+    {
+     "buyer": "Small professional livestock hauliers and dealers (Belgian transporters)",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.dgz.be/varkens/i-r/vervoer ; https://dgz.be/regelgeving-voor-vervoerders-van-schapen-geiten-en-herten ; https://www.dgz.be/media/zzwf0kxm/cursus_vervoerder_van_dieren.pdf (2013, possibly outdated)",
+     "existing": "DGZ Veeportaal (free self-registration) and DGZ paper service for a fee; no third-party hauler software found.",
+     "known_mark": "new",
+     "name": "Animal transporter movement and cleaning-register assistant (Sanitel 7-day registration)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Belgian transporter must register movements in Sanitel within 7 days, hold a transporter register incl. dealer approval numbers, and keep cleaning/disinfection registers (3-5 years); transport authorisations from Animal Welfare and FASFC.",
+     "unchecked": "Number of Belgian professional transporters; whether Veeportaal has an API or bulk upload; effect of June 2022 royal decrees; Walloon equivalent (AWE); competitor search not run separately."
+    },
+    {
+     "buyer": "Independent butchers and small meat processors",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://favv-afsca.be/sites/default/files/2023-08/G-044_Praktijkhandboek_Nl_met_voorblad.pdf ; https://www.kiwa.com/be/nl-be/diensten/consultancy/autocontrolesysteem-in-de-slagerij/",
+     "existing": "Kiwa/LRQA consultancy and audit services; no butcher registration software identified in one search.",
+     "known_mark": "new",
+     "name": "Small-butcher autocontrole and traceability register app",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Royal decree of 14 Nov 2003: autocontrol (HACCP) system and traceability; sector guide G-003 for butchers, FASFC handbook G-044 for B2C sectors with registration forms.",
+     "unchecked": "Existing HACCP apps in Dutch/French (many generic food-safety apps likely); butcher federation (Navem) tools; number of butchers; small abattoirs not screened."
+    },
+    {
+     "buyer": "Farms and small businesses with their own wells (500 m3/yr or more)",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://vmm.vlaanderen.be/diensten-producten/heffing-op-winning-grondwater ; https://vmm.vlaanderen.be/diensten-producten/waterwinning-aan-of-afmelden",
+     "existing": "Free VMM online portal handles the declaration.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Farm groundwater-levy declaration helper (Flanders)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "VMM groundwater levy; annual declaration for farmers by 15 March via VMM heffingenloket; notification of new or stopped abstraction within 2 months; flow metering.",
+     "unchecked": "Whether a metering/logging add-on has demand; Walloon abstraction duties."
+    },
+    {
+     "buyer": "Small and micro vzw/ASBL and foundations",
+     "category": "17. Community and religious bodies: associations, charities",
+     "evidence": "https://www.jubel.be/je-hebt-een-vzw-opgericht-wat-nu-de-belangrijkste-verplichtingen/ ; https://legalnews.be/vennootschappen-verenigingen/vzws-en-stichtingen-neerlegging-jaarrekeningen-wordt-veralgemeend-giften-boven-de-e3-000-komen-in-register-legalnews-be/ ; https://www.ibr-ire.be/nl/actueel/pers-detail/jaarrekeningen-van-zeer-kleine-vzw-s-worden-amper-gepubliceerd-en-blijven-slordig ; https://www.vsdc.be/Repository/Downloads/verklaringopeer2026.docx",
+     "existing": "Accountants, VSDC (Flemish sports services) and Verenigingen101-type guides; no dedicated software seen.",
+     "known_mark": "new",
+     "name": "Small vzw/ASBL compliance calendar (accounts filing, UBO, volunteer declarations, possible gift register)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Annual accounts filing (enterprise court for micro/small, National Bank for large), UBO registration, volunteer-expense declaration of honour with 2026 caps; 2018 bill/plan for universal filing and a register of gifts above EUR 3,000 not confirmed as law.",
+     "unchecked": "Whether any 2024-2027 law made filing universal; UBO annual confirmation rule (unverified); willingness to pay of volunteer-run vzw; competitor search not run."
+    },
+    {
+     "buyer": "Independent nurseries and childminders",
+     "category": "20. Small licensed premises: childminders and nurseries",
+     "evidence": "https://www.opgroeien.be/aanbod/kinderopvang/voorzieningen/administratie ; https://www.opgroeien.be/aanbod/kinderopvang/voorzieningen/administratie/attesten-inkomenstarief",
+     "existing": "Free Opgroeien AARON app plus Mijn Opgroeien; own-IT providers use a webservice (vendors not named).",
+     "known_mark": "new",
+     "name": "Childcare provider attendance and fiscal-attest tool (Flanders and Wallonia)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Opgroeien: daily attendance register, monthly attendance submission by the 7th, fiscal attest and income-tariff attest; Wallonia ONE rules not checked.",
+     "unchecked": "Walloon/ONE autonomous accueillantes duties (search returned nothing current); private childcare software vendors."
+    },
+    {
+     "buyer": "Independent driving schools (Flanders, Brussels)",
+     "category": "20. Small licensed premises: driving schools",
+     "evidence": "https://www.vlaanderen.be/een-rijschool-starten-en-uitbaten/een-rijschool-starten-stap-voor-stap ; https://assets.vlaanderen.be/image/upload/v1590771060/RS004-Wijziging-erkenning_ktdlso.pdf",
+     "existing": "Driving-school management software not searched.",
+     "known_mark": "new",
+     "name": "Driving-school approval and staff-change paperwork assistant",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Flemish approval per site, EUR 342 application; new site, practice ground or extra staff each require a new application; change form RS004; royal decree of 11 May 2004 possibly replaced by a Flemish decree.",
+     "unchecked": "No recurring filing found; one-off approval only; software vendors."
+    },
+    {
+     "buyer": "Recognised wildbeheereenheden and independent hunting rights holders",
+     "category": "20. Small licensed premises: hunting outfitters",
+     "evidence": "https://www.vlaanderen.be/afschotplan-voor-grofwild ; https://natuurenbos.vlaanderen.be/sites/default/files/documenten/wildrapport2026.docx",
+     "existing": "ANB Word form and online electronic form; no third-party tool seen.",
+     "known_mark": "new",
+     "name": "Wildbeheereenheid annual wildrapport and cull-plan assistant (Flanders)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Annual ANB wildrapport (harvest per species, spring counts) and large-game cull-plan application before 15 September; shot game must be labelled and reported.",
+     "unchecked": "Legal mandatory status of wildrapport (not confirmed); number of WBEs; hunter associations' own tools."
+    },
+    {
+     "buyer": "Private persons employing domestic or care staff directly",
+     "category": "1. Household employers",
+     "evidence": "https://www.socialsecurity.be/citizen/nl/familie/huishoudhulp ; https://www.securex.be/nl/lex4you/werkgever/themas/aanwerven-arbeidsovereenkomst/voor-het-eerst-werkgever-worden/formaliteiten-tegenover-de-rijksdienst-voor-sociale-zekerheid",
+     "existing": "Social secretariats, service vouchers.",
+     "known_id": "K15",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as DIMONA/DmfA tooling (K15, rejected) and budget-holder payroll (K22).",
+     "name": "Private household employer helper for domestic staff (RSZ, Dimona, DmfA, accident insurance)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "RSZ employer registration, Dimona/DmfA, contributions, occupational accident insurance; exemption for occasional non-manual work up to 8 hours/week."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Private employers of household staff must register with RSZ, file Dimona and DmfA, and take occupational accident insurance (socialsecurity.be huishoudhulp page). Service vouchers are the alternative. Covered by social secretariats and the Dimona/DmfA and PAB ideas: nothing new beyond K15 and K22.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No Belgian police purchase-register rule found (search returned only Dutch law). Scrap dealers who collect or trade waste in Flanders must register with OVAM and keep a daily-updated digital waste register for 5 years (VLAREMA). One candidate (C01). Wallonia and Brussels not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Could not confirm any current Belgian police-register duty for second-hand dealers; results were French and Dutch law. Only the 1993 ambulant-trade law and the 1987 precious-metals law surfaced. Pawnbrokers not reached in any search. Marked unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Buyers of precious metals must be in the waarborgregister at the Royal Mint (law of 11 Aug 1987), need a clean criminal record extract and a verified scale, display buy prices, and are capped at EUR 3,000 cash per transaction. A news.belgium.be item on cash limits for gold dealers could not be fetched (403). Small group. One weak candidate (C02).",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Depollution/dismantling centres need regional approval (OVAM, Wallonia, Brussels) with an initial and yearly follow-up inspection (Vinçotte), plus Febelauto affiliation to issue destruction certificates. Daily waste register also applies (see C01). No dismantler-specific software found. One weak candidate (C03).",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Belgian transporters must register animal movements in Sanitel within 7 days and keep a transporter register plus cleaning/disinfection registers; transporter licences come from Animal Welfare (Flanders) and the FASFC. DGZ Veeportaal is free and DGZ keys documents for a fee. One weak candidate (C04). Rules possibly changed with the 2022 royal decrees; unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Butchers must run an autocontrole/HACCP system under the royal decree of 14 Nov 2003; sector guide G-003 and the generic FASFC practice handbook G-044 apply. Consultancies (Kiwa, LRQA) sell guidance; no butcher-specific registration software found. One weak candidate (C05).",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "All beekeepers must be registered with the FASFC and report notifiable bee diseases (royal decree of 7 Mar 2007); more than 24 hives counts as professional. Hobby-heavy, low willingness to pay. Nothing worth a candidate beyond a note.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Nothing new beyond K10 (antibiotic registration, rejected). Not searched further.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Flanders: abstractions of 500 m3/yr or more pay the VMM groundwater levy, farmers declare by 15 March through the free VMM heffingenloket, new or stopped abstractions are notified within 2 months, flow metering required. Free state portal covers the filing. Drillers: nothing new beyond K07. One weak candidate (C06).",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Nothing new beyond K06. Flemish waste transporters must register through the OVAM Webloket; no software gap found.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Lift owners must have periodic inspections by approved bodies (Vinçotte, Kiwa) and risk analyses for lifts over 15 years; Brussels uses approved SECT bodies. Regional rules for Wallonia and Flanders not confirmed. Buyer is mostly syndics: nothing new beyond K03. Boilers and pressure equipment not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "No Flemish source found on private wells used for drinking or food production; results were Dutch. Marked unverified. Own abstractions are covered by the VMM notification (see C06).",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Nothing new beyond K05 and K16. Not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Flemish temp agencies need regional approval under the decree on private employment mediation (BVR of 10 Dec 2010) with a code of conduct draft approved July 2025; no annual reporting duty confirmed. Large agencies and social-secretariat tools dominate. Nothing new beyond K01, K02, K17.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Nothing new beyond K09 (eLys, rejected). Not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Small vzw/ASBL file annual accounts with the enterprise court (large ones with the National Bank), keep a UBO registration, and give volunteers a declaration of honour with 2026 caps of EUR 44.02/day and EUR 1,760.83/year. A 2018 plan to make filing universal and add a register of gifts above EUR 3,000 could not be confirmed as law. One weak candidate (C07). Halal/kosher supervision not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Covered only through livestock transporters (C04) and the known taxi idea K23. No new small-fleet duty found; not searched separately.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Flanders abolished the prior ambulant-trade authorisation from 1 Apr 2024 (KBO registration suffices); Brussels needs a KBO registration for door-to-door sales. Bureaux de change register with the FSMA under the royal decree of 27 Dec 1994, but current rules and reporting were not confirmed. Nothing candidate-worthy.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Childcare (Flanders): daily attendance register kept 12 months, monthly attendance to Opgroeien by the 7th via free AARON or own IT via web service, fiscal and income-tariff attests via Mijn Opgroeien (C08). Driving schools: Flemish approval with per-site permit, EUR 342 fee, changes by form (C09). Hunting: WBEs file the annual wildrapport and apply for the large-game cull plan before 15 Sept (C10). Tattoo studios: no Belgian source found (results Dutch). Small food producers: only the butcher guidance (C05). Walloon ONE childminder duties: nothing current found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "schroothandelaars registratie verplichting metaal aankoopregister politie België",
+    "onthaalouders Opgroeien verplichtingen administratie fiscaal attest software",
+    "brocanteurs registre de police achat vente objets d'occasion obligation Belgique 2025",
+    "vzw UBO register jaarrekening neerleggen verplichtingen kleine vzw 2026",
+    "vzw giften boven 3.000 euro register neerlegging jaarrekening veralgemeend wet",
+    "FAVV bijenhouders registratie Sanitel verplichting",
+    "autodemontagebedrijf erkenning registers VLAREMA slooppark Febelauto",
+    "tatoeëerders piercing verplichtingen register Vlaanderen hygiëne",
+    "handelaars tweedehandsgoederen edele metalen register verplicht (gov domains)",
+    "veehandelaar erkenning transport van dieren vervoerder registratie DGZ Sanitel",
+    "grondwaterwinning aangifte heffing VMM kleine waterwinning boer",
+    "contrôle périodique ascenseurs propriétaires organisme agréé / liften keuring",
+    "kleine slagerij FAVV autocontrolegids traceerbaarheid registratie software",
+    "rijschool erkenning Vlaanderen administratie verplichtingen",
+    "wisselkantoor FSMA registration bureau de change reporting",
+    "kinderopvang aanwezigheidsregistratie Mijn Opgroeien software fiscaal attest",
+    "wildbeheereenheid jachtrapport afschotplan Vlaanderen rapportering",
+    "vrijwilligersvergoeding aangifte platform vzw 2026 RSZ",
+    "logiciel gestion ferrailleur registre déchets pesée casse auto Belgique",
+    "erkenning uitzendkantoor Vlaanderen rapportering; marktkramers ambulante machtiging; ONE accueillantes autonomes; huishoudhulp RSZ; liftkeuring Vlaanderen; software schroothandel OVAM register; eigen waterwinning voedingsbedrijf"
+   ],
+   "searches": 27
+  },
+  "tag": "w2b21"
+ },
+ "discover:B:belgium": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small approved cooling companies (koeltechnische bedrijven) and the shops, restaurants, butchers, bakeries and cold-store owners whose installations of 5 kW or more are classified under VLAREM II",
+     "category": "31. Refrigeration and F-gas installations",
+     "evidence": "VEKA regulation page https://www.vlaanderen.be/veka/energie-en-klimaatbeleid/energie-en-klimaatbeleid-voor-ondernemingen/f-gassen/regelgeving-inzake-het-gebruik-van-f-gassen (fetched: logbook may be digital, no online portal, contact is VEKA F-gas team); search snippets on leakage rules from Frixis note https://www.frixis.be/files/ckfinder/files/Vlaamse%20regelgeving%20inzake%20lekverliezen.pdf; EU certification timeline from https://iplo.nl/thema/lucht/ozon-en-f-gassen/nieuws-gassen/nieuwe-certificeringsregeling-koudemiddelen/ (Dutch source, EU-wide). Not a quiet industry but a small-firm trade with a recurring per-asset record and calculation duty.",
+     "existing": "Competitor search run (Dutch, 'koeltechnieker lekcontrole logboek software F-gassen Vlaanderen'): no Belgian or Flemish logbook product found; only international tools (Refcom, a free EFCTC logbook template based on the old Regulation 517/2014). Likely exist but not seen: refrigeration-wholesaler apps and generic service-management software.",
+     "known_id": "K21",
+     "known_mark": "new",
+     "known_note": "Not the same as heating-attest apps (K21): different duty and buyer.",
+     "name": "C01 F-gas leak-check and installation-logbook kit for small refrigeration contractors and operators (Flanders first)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "VLAREM II art. 5.16.3.3 (Flanders): installation-bound logbook with relative leakage after each top-up (max 5% a year), leak-check register open to inspectors, purchase invoices kept, written report to Handhaving within 14 days if leakage over 100% (systems over 30 kg) or over 10% two years running; leak-check every 12 months from 5 t CO2-eq, 6 months from 50 t, 3 months from 500 t. EU Regulation 2024/573 adds new personal certificates from 29 Mar 2026 and a ban on topping up with GWP 2,500+ from 1 Jan 2025 (extended to air conditioners and heat pumps 1 Jan 2026).",
+     "unchecked": "Wallonia and Brussels equivalents; number of Flemish cooling firms and operators; whether wholesalers (e.g. refrigerant suppliers) give a free logbook; Flemish technician certification register; whether inspectors require a specific format."
+    },
+    {
+     "buyer": "Small family heating-oil and propane dealers (Flanders)",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.vrt.be/vrtnws/nl/2026/03/13/vlaamse-overheid-wil-weten-stookolietank-heeft/ (fetched: not adopted, no date, 'binnenkort'); https://www.vlaanderen.be/bouwen-wonen-en-energie/verwarming-koeling-en-ventilatie/stookolietank/wijzigingen-regelgeving-stookolietanks-sinds-1-januari-2025 (fetched: tank owner and supplier duties, transition dates 2027, 2028, 2035, 2036); Minaraad/SERV questioned the need as OVAM/VEKA may already hold data (search snippet).",
+     "existing": "Competitor search not run (budget exhausted). Dealers likely use delivery-routing/ERP software that could export addresses.",
+     "known_mark": "new",
+     "known_note": "Related to tank rules but no known id.",
+     "name": "C02 Heating-oil and propane dealer customer-address reporting plus tank-certificate checks (Flanders)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Draft Flemish measure (announced by minister Bonte, VRT 13 Mar 2026): suppliers record who their customers are and send delivery addresses to VEKA at least yearly (databank under the Energy Decree art. 12.5.1); fines up to EUR 50,000 mentioned. Existing VLAREM II duty: suppliers may require the installation certificate or last periodic inspection certificate before delivery.",
+     "unchecked": "Whether the decree was adopted and when it starts; number of dealers; dealer software export; competitor search in Dutch ('software stookolie leveringen klantenregistratie')."
+    },
+    {
+     "buyer": "Small hosts: B&Bs, gites, small hotels and Airbnb-type landlords in Brussels, Flanders and Wallonia",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.vrt.be/vrtnws/nl/2026/04/01/9-op-10-airbnb-woningen-in-brussel-staan-niet-geregistreerd/ (9 of 10 Brussels Airbnb homes not correctly registered; inspectors act on listings); https://www.brussels.be/register-tourist-accommodation (registration free, 90-day duration); https://be.brussels/nl/belastingen-financien/belastingen/belastingen-op-bedrijven-en-beroepsactiviteiten/gewestbelasting-op-de-inrichtingen-van-toeristisch-logies; https://www.vlaanderen.be/vlaamse-regering/beslissingen-van-de-vlaamse-regering/wijziging-regelgeving-toeristische-logies-logiesbesluit-controle-stedenbouwkundige-conformiteit-en-handhaving-stedenbouwkundig-beleid-0 (fetched: no entry-into-force date); https://interieur.wallonie.be/files/documents/finances/MRT_21%20-%20S%c3%a9jour.doc (model communal tax regulation).",
+     "existing": "Competitor search run (French, 'logiciel gite taxe de sejour registre voyageurs Belgique'): no Belgian software found; only French-model tax portals and generic channel managers/PMS not checked.",
+     "known_mark": "new",
+     "known_note": "No known id for tourism.",
+     "name": "C03 Tourist-accommodation host kit: Brussels registration and regional tax, Flemish aanmelding, Walloon commune-by-commune tourist tax",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Brussels: register with Brussels Economie et Emploi before operating, then with Brussels Fiscalite within 31 days; regional tax. Flanders: Flemish Government draft of 29 May 2026 amends logies decree/besluit to implement EU Regulation 2024/1028 (registration number shown on platforms, urban-planning conformity certificate needed for recognition). Wallonia: communal tourist tax per person per night or per bed, hosts collect and file with the commune.",
+     "unchecked": "Whether hotels must keep a police guest register (not confirmed); Brussels penalty amounts; Flemish entry-into-force date; number of hosts; the bottleneck for Brussels hosts is the municipal urban-planning certificate, which software cannot fix; PMS vendors (channel managers) may add tax modules."
+    },
+    {
+     "buyer": "Small and mid-size Flemish building contractors and intermediate contractors that hire direct subcontractors",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "https://www.securex.be/nl/lex4you/werkgever/nieuws/nieuwe-vlaamse-ketenaansprakelijkheid-bij-illegale-tewerkstelling ; https://www.partena-professional.be/nl/node/22078 (flagged as possibly outdated); Flemish Social Inspectorate has a free online reporting tool (needs RSZ registration).",
+     "existing": "Competitor search run (Dutch, 'software gepaste zorgvuldigheid ketenaansprakelijkheid onderaannemers bouw Vlaanderen 2026'): no dedicated platform found, only legal guides; Check-in/Werfc/Conneqtr vendors in K17 cover site attendance, not the pre-contract file.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Same duty family as K01 (Flemish chain liability) but a different buyer group (construction).",
+     "name": "C04 Flemish construction subcontractor due-diligence file (duty of care on illegal employment, from 1 Jan 2026)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Flemish decree of 27 Jun 2025 and Flemish Government decision of 24 Oct 2025: from 1 Jan 2026 the contractor must request and keep identification, residence-status and employment data from the direct subcontractor (not just a written declaration) or risk criminal liability; withholding duty extended to unpaid social contributions of self-employed subcontractors.",
+     "unchecked": "Exact document list in the 24 Oct 2025 decision; sanction regime (sources conflict); whether social secretariats and construction-sector funds already publish templates; K01 may already be the same decree extended."
+    },
+    {
+     "buyer": "Independent estate agents (BIV registrants, 1-3 person offices)",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals",
+     "evidence": "https://www.lexgo.be/nl/nieuws-en-publicaties/12053-nieuw-antiwitwasreglement-voor-vastgoedmakelaars ; https://blog.forumforthefuture.be/nl/article/1.781overtredingen-vastgesteld-bij-vastgoedmakelaars-in-2021/15484 ; https://www.jubel.be/nieuw-antiwitwasreglement-voor-vastgoedmakelaars/",
+     "existing": "Competitor search not run (budget exhausted). Probable: BIV templates, estate-agent software (modules), generic KYC tools.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Different buyer from the syndic pack K03 (syndics are excluded from this AML regulation).",
+     "name": "C05 Anti-money-laundering client-due-diligence and risk-analysis file for small estate agencies",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Anti-money-laundering law of 2017 and BIV regulation in force since 1 Jul 2022: ID verification on authentic documents for buyers and tenants, per-transaction and per-client risk analysis, written procedures, suspicious-transaction reports to CTIF-CFI. FOD Economie inspection of 334 agents in 2021 found 1,781 infringements at 252 firms and 30% lacked a risk-analysis procedure.",
+     "unchecked": "Competitor search in Dutch ('software witwas cliëntenonderzoek vastgoedmakelaar BIV'); what BIV supplies free; number of agencies; whether recent enforcement happened after 2021."
+    },
+    {
+     "buyer": "Dentists billing health insurers",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://www.inami.fgov.be/nl/professionals/individuele-zorgverleners/tandartsen/uitoefening-van-uw-beroep/verplichte-elektronische-facturatie-voor-tandartsen ; https://www.inami.fgov.be/SiteCollectionDocuments/tandartsen_FAQ_elektronische_facturatie.pdf",
+     "existing": "Carried by MyCareNet-certified practice software; RIZIV lists the recognised packages.",
+     "known_mark": "new",
+     "known_note": "Close in spirit to K10 (vet) and K11 (POS): duty is delivered through certified software.",
+     "name": "C06 Dentist identity-check and eFact workflow (RIZIV, 1 Oct 2026)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Mandatory electronic invoicing since 1 Sep 2025 (eFact/eAttest); mandatory identity check when third-party payer applies, from 1 Oct 2026; electronic reading of the ID card optional in early 2026, mandatory date to be set.",
+     "unchecked": "Whether any small practices are underserved by their software."
+    },
+    {
+     "buyer": "Small private landlords with Flemish rental homes",
+     "category": "33. Private landlords and lease compliance",
+     "evidence": "https://www.vrt.be/vrtnws/nl/2026/06/18/huurwoningen-sint-truiden-verplicht-conformiteitsattest/ ; https://www.dewaele.com/nl/advies/ik-wil-mijn-woning-verhuren-welke-attesten-heb-ik-nodig ; https://www.londerzeel.be/sites/default/files/2026-05/2026-Conformiteitsattest.pdf",
+     "existing": "Housing-service.be guides and municipal pages; not searched for software.",
+     "known_mark": "new",
+     "known_note": "Related to K03/K04 only through housing but a different buyer.",
+     "name": "C07 Private landlord conformity-certificate and rental-compliance tracker (Flanders)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Conformity certificate phased in (sources conflict: 1 Jan 2026 for 1945-or-older homes per one guide; 1 Jan 2027 checks per a Flemish brochure); smoke detectors; EPC with listings; electronic registration of leases.",
+     "unchecked": "Whether landlords count as in scope (they are individuals, not employers or sole traders); exact start date; rental agencies already handle it."
+    },
+    {
+     "buyer": "Small electricians and PV/charge-point installers",
+     "category": "38. Electrical installation inspections (AREI)",
+     "evidence": "https://www.vlaanderen.be/arei-keuring-van-uw-zonnepanelen ; https://www.bobex.be/nl-be/zonnepanelen/keuring-zonnepanelen/ (commercial, unverified in Official Gazette).",
+     "existing": "Inspection bodies run their own booking portals; not checked.",
+     "known_mark": "new",
+     "name": "C08 AREI inspection-booking and file tracker for PV, EV-charger and battery installers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Royal decree of 6 Oct 2025 amending AREI Book 1 with effect 1 Apr 2026: DC installations explicitly inspected; per-phase inspection of PV by BELAC-accredited body (per secondary sources).",
+     "unchecked": "Official gazette text; installer pain; inspection-body portals; solar market slowdown."
+    },
+    {
+     "buyer": "Dog breeders (3+ litters), cat breeders, pet shops, pensions",
+     "category": "34. Animal-welfare businesses",
+     "evidence": "https://www.vlaanderen.be/natuur-milieu-en-klimaat/dieren/huisdieren-en-landbouwhuisdieren/een-erkenning-aanvragen-als-kwekerij-dierenasiel-dierenhandelszaak-of-dierenpension",
+     "existing": "Vets enter DogID data; stud-book associations cover pedigrees.",
+     "known_mark": "new",
+     "name": "C08b Recognition, DogID and pedigree-contract file for small dog/cat breeders, pet shops and pensions (Flanders)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Recognition with HK number from Dierenwelzijn Vlaanderen; chip and DogID/CatID registration before trade; pedigree in sales contracts from 1 Jul 2025 (Flemish breeding decree).",
+     "unchecked": "Annual reporting duties of recognised breeders; number of recognised firms."
+    },
+    {
+     "buyer": "Small vzw/asbl, foundations and co-ops",
+     "category": "23. Co-operatives, credit unions and savings groups (also 17)",
+     "evidence": "https://www.crowe.com/be/spark/insights/2026-ubo-register-jaarlijke-herbevestiging ; https://www.vsdc.be/nl/reviews/141381/2026/review-221-juni-2026/deadlines/print",
+     "existing": "Free state portal MyMinfin with e-Box reminder; accountants and Baker Tilly style notices.",
+     "known_mark": "new",
+     "name": "C09 vzw annual UBO re-confirmation reminder service",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Annual confirmation of beneficial owners in the UBO register, within 12 months of the previous one; changes within 30 days; administrative fines EUR 250-50,000; risk of administrative striking-off.",
+     "unchecked": "Whether a bundled vzw compliance calendar (UBO, annual accounts, register of members) is wanted."
+    },
+    {
+     "buyer": "Notaries and estate agents",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals",
+     "evidence": "https://legalnews.be/bouw-vastgoed/het-maatregelenregister-voor-notarissen-en-vastgoedmakelaars-eerst-checken-dan-verkopen-andersen/ (snippet only, not fetched)",
+     "existing": "State register; likely integrated by estate-agent software.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "C10 Flemish measures-register check for notaries and estate agents (from 1 Apr 2026)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Duty to consult the measures register under the Flemish enforcement framework decree at each property transaction from 1 Apr 2026 (per legalnews summary).",
+     "unchecked": "Everything beyond the snippet."
+    },
+    {
+     "buyer": "Small licensed security firms (bewakingsondernemingen)",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://news.belgium.be/nl/node/43543/pdf ; https://www.besafe.be/sites/default/files/2022-07/aanvraag_vernieuwing_bewakingsonderneming.pdf (search results only)",
+     "existing": "Not checked; sector bodies and PC 317 funds publish tools (accg brochure).",
+     "known_mark": "new",
+     "name": "C11 Private security firm licence-compliance file (Law of 2 Oct 2017, RD 25 Apr 2021)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Licence from FOD Binnenlandse Zaken requiring EUR 12,500 bank guarantee, proof of staff training and means; renewal; FOD lists licensed firms.",
+     "unchecked": "Recurring reports, training-register duties, number of small firms."
+    },
+    {
+     "buyer": "Small Antwerp diamond importers and dealers",
+     "category": "35. Antwerp diamond trade (also 30)",
+     "evidence": "https://www.awdc.be/node/868 (traceability deadline postponement notice); https://www.jckonline.com/editorial-article/eu-diamond-importers-diligence/ (search results only)",
+     "existing": "Not checked; AWDC and large traceability platforms probably cover the process.",
+     "known_mark": "new",
+     "name": "C12 Diamond-origin due-diligence statements for small Antwerp diamond importers/dealers (EU/G7, from 1 Jan 2026)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "EU rules implementing G7 ban on Russian-origin diamonds: self-declared due-diligence statement on diamond origin backed by traceability evidence from 1 Jan 2026; Kimberley Process certificate showing all countries of origin for mixed-origin rough.",
+     "unchecked": "Exact EU act and who must sign; whether AWDC offers a free tool; competitor search ('software diamant traceerbaarheid due diligence verklaring Antwerpen'); willingness of small dealers to pay."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "No new rule found for forecourt operators. Found a Flemish plan (draft, announced Mar 2026) that heating-oil and propane suppliers must record customers and report delivery addresses to the Flemish administration (VEKA energy databank) yearly or half-yearly, fines up to EUR 50,000; no adopted text or start date found. VLAREM II tank amendments in force 1 Jan 2025 with transition dates 2027/2028/2035/2036. See candidates C02.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "No search spent: budget used on categories with live 2026 rule changes. EUDR chocolate already rejected (K12). Antwerp is a cocoa/coffee/grain port, so this deserves a worker pass on FAVV feed/food-operator registrations and warehouse (entrepot) regimes.",
+     "status": "not_reached"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Credit unions and savings groups are not a meaningful small-business class in Belgium (not_applicable for those). The relevant duty for small co-ops and non-profits is the annual UBO re-confirmation in MyMinfin (free state portal): see C09, weak.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "RIZIV: electronic invoicing (eFact/eAttest) mandatory for dentists since 1 Sep 2025; identity check at the chair mandatory from 1 Oct 2026. Physiotherapists: MyCareNet available but not mandatory. Practice-management software vendors have to be certified by MyCareNet, so the duty is carried by existing software (C06, weak). Nothing else new.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Two searches returned no Belgian 2026 rule change (results were French, German, Australian). Only found the old FAGG notification for pharmacies selling OTC medicines online (2021 form). Nothing new beyond existing professional software. Explosive precursors rules (EU 2019/1148) not confirmed for Belgium.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Private security: licence from FOD Binnenlandse Zaken (Law of 2 Oct 2017), EUR 1,000 fee, EUR 12,500 bank guarantee, RD 25 Apr 2021 on staff and means; FOD publishes the licensed list (Apr 2026). No recurring small-firm reporting found beyond licensing (C13, weak). Cleaning attendance and chain liability already K01 and K18.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Flanders: strengthened duty of care against illegal employment of third-country nationals, in force 1 Jan 2026 for construction (decree of 27 Jun 2025, Flemish Government decision of 24 Oct 2025): contractors must obtain and keep documents from direct subcontractors; also withholding duty extended to unpaid social contributions of self-employed subcontractors. This extends K01 to a new buyer group (C04). Check-in/out from Apr 2027 is K17. Professional-skills requirement differs by region (abolished Flanders 2019, kept Brussels/Wallonia): no software angle. AREI changes from 1 Apr 2026 (C08).",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Estate agents: BIV anti-money-laundering regulation in force since 1 Jul 2022; FOD Economie inspection of 334 agents found 1,781 infringements at 252 firms and 30% had no risk-analysis procedure (C05). Flemish measures register must be consulted by notaries and agents at each property transaction from 1 Apr 2026 (C10, state register, weak). Syndic items are K03.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Brussels: registration with Brussels Economie et Emploi is mandatory and a regional tourist-accommodation tax applies (register with Brussels Fiscalite within 31 days; about EUR 4-5 per night); VRT/BRUZZ (1 Apr 2026) reports 9 in 10 Airbnb homes unregistered. Flanders: Flemish Government draft (29 May 2026) amends the logies decree/besluit to align with EU Regulation 2024/1028 and require an urban-planning conformity certificate for recognition; no entry-into-force date. Wallonia: tourist tax set commune by commune (model regulation Sept 2025; e.g. Flobecq EUR 1.50/person/night 2026-2037, Brugelette EUR 2 from Mar 2026). See C03.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "FAVV export: export recognition plus certificates through TRACES NT (FAVV starter guide v02, 15 Dec 2025); free EU tool, nothing new for small operators. EUDR already K12/K20. Diamonds: EU due-diligence statement for importers of certain cut diamonds from 1 Jan 2026 (C12, unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "31. Refrigeration and F-gas installations (Flemish VLAREM II 5.16.3.3 and EU 2024/573)",
+     "found": "Operator logbook with relative leakage calculation after each top-up, leak-check register, purchase invoices, 14-day written reports to Handhaving, service by approved technicians in approved cooling companies. New EU personal certification scheme (A1-D, E) from 29 Mar 2026 with old certificates valid to 12 Mar 2029 (source: Dutch NVKL/IPLO, applies EU-wide). VEKA page mentions no online portal. No Belgian logbook software seen. See C01.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Heating-oil and fuel tanks (VLAREM II inspections, decommissioning, supplier duties)",
+     "found": "Periodic inspections by approved technicians (3 yr for above-ground, 2-5 yr underground depending on size/zone), notification to the municipality for tanks of 5,000 kg or more, supplier may demand the installation certificate, decommissioned tanks to be cleaned in 36 months. Planned supplier reporting duty: see C02. Ruling out the consumer side: no private-household app angle.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Private landlords and lease compliance (Flanders housing quality)",
+     "found": "Conformity certificate for rental homes phased in (sources conflict: from 1 Jan 2026 for homes built 1945 or earlier per one guide; 1 Jan 2027 checks per a Flemish brochure; municipal schedules such as Sint-Truiden by 2036). Smoke detectors and EPC are standing duties. No landlord register found. See C07 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "34. Animal-welfare businesses (dog/cat breeders, pet shops, pensions, shelters), Flanders",
+     "found": "Recognition (HK number) from Dierenwelzijn Vlaanderen is required; dog breeders from 3 litters per year; DogID/CatID registration and microchip before trade; pedigree required in sales contracts from 1 Jul 2025 (Flemish breeding decree). Small buyer base, vets and stud-book associations cover most steps (C08b, weak).",
+     "status": "screened"
+    },
+    {
+     "category": "35. Antwerp diamond trade (importers, polishers, small family dealers)",
+     "found": "EU/G7 Russian-origin diamond rules: due-diligence statement on diamond origin for importers from 1 Jan 2026, plus Kimberley Process certificates for rough of mixed origin (AWDC notice on postponed traceability deadline). Not found: FOD Economie registration or AML specifics. See C12.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Excise (small breweries, distillers) and tobacco/e-cigarette retail",
+     "found": "Nothing Belgium-specific found: excise search returned Dutch material and Unizo general page (reduced rate for small independent brewers up to 200,000 hl). No Belgian tobacco-outlet registration duty found (search returned Dutch NVWA registration only).",
+     "status": "screened"
+    },
+    {
+     "category": "37. Waste registers for small waste producers (garages, workshops), Flanders",
+     "found": "OVAM: the waste part of the integrated environmental annual report no longer applies from 2026; data now taken from MATIS reported by collectors and processors, so small producers have no new reporting. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "38. Electrical installation inspections (AREI) and photovoltaic/EV charger inspectors and installers",
+     "found": "Royal decree of 6 Oct 2025 changed AREI Book 1 with effect 1 Apr 2026: DC installations (PV, charge points, home batteries) explicitly inspected; after a property sale the time to comply goes from 12 to 18 months; PV inspection by BELAC-accredited body at each phase (source: commercial sites, not verified in the Official Gazette). See C08.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "korte termijn verhuur registratienummer Vlaanderen EU-verordening 2024/1028 logies",
+    "vastgoedmakelaar BIV witwassen verplichtingen 2026 CFI",
+    "tankstation stookolie handelaar verplichtingen 2026 keuring tank Vlaanderen",
+    "F-gassen koeltechnici register lekcontrole certificaat Vlaanderen 2026",
+    "bewakingsonderneming vergunning FOD Binnenlandse Zaken verplichtingen 2026",
+    "tandarts kinesist verplichting 2026 RIZIV elektronische facturering MyCareNet",
+    "apotheek precurseurs explosifs registre AFMPS stupefiants 2026 (returned French results)",
+    "FAVV exporteur certificaat uitvoer TRACES kleine bedrijven 2026",
+    "vzw UBO-register jaarlijkse bevestiging 2026",
+    "garagisten gevaarlijk afval register OVAM 2026",
+    "verhuurder verplichtingen 2026 Vlaanderen conformiteitsattest huurregister",
+    "hotels gites Wallonie registre voyageurs taxe de sejour 2026",
+    "tabakshandelaars registratie FOD Volksgezondheid 2026 (returned Dutch results only)",
+    "controle installations electriques AREI 2026 installateurs",
+    "aannemers bouwplaats verplichting 2026 Vlaanderen registratie ketenaansprakelijkheid",
+    "hondenfokkers dierenwinkels dierenpension Vlaanderen erkenning 2026",
+    "diamanthandelaars Antwerpen verplichtingen 2026 traceerbaarheid",
+    "kleine brouwerijen accijns Belgie 2026",
+    "koeltechnieker lekcontrole logboek software F-gassen Vlaanderen Wallonie",
+    "logiciel gite taxe de sejour registre voyageurs Belgique; software ketenaansprakelijkheid onderaannemers bouw; apotheker FAGG 2026; stookoliehandelaars meldingsplicht; Brussel toeristisch verblijf registratie (5 further searches)"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b21"
+ },
+ "gapfill:belgium": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Solo and small-group physiotherapy practices that still invoice on paper or use non-recognised software (about 30,000 practitioners nationally; count unverified)",
+     "category": "24/31. Private health providers billing state schemes (kinesitherapeuten)",
+     "evidence": "https://www.inami.fgov.be/nl/professionals/individuele-zorgverleners/kinesitherapeuten/mycarenet-voor-de-kinesitherapeut (fetched); https://www.inami.fgov.be/nl/professionals/info-voor-allen/elektronisch-attesteren-met-eattest; RIZIV circular 2025/103 on paper fallback",
+     "existing": "NIC-recognised practice software packages (list on NIC site); CM FAQ; Member Data web app on MyCareNet portal. No local competitor search for kine software was run beyond one generic search, so which vendors cover eFact/eAttest is unverified.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Not related to any known idea; closest in type to K10 (vet software integrations killed it).",
+     "name": "Physiotherapist MyCareNet go-live pack (eAttest/eFact/eAgreement mandatory from 1 Jan 2027)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "RIZIV rule: use of MyCareNet eFact, eAttest, eAgreement and Member Data becomes mandatory on 1 Jan 2027; exemptions for 67+ and hospital billing",
+     "unchecked": "Which kine software packages are recognised and their price; share of practitioners still on paper; whether the date will be postponed (no postponement found); whether a lightweight web app can be recognised by NIC (certification cost is the likely barrier)"
+    },
+    {
+     "buyer": "Sole traders and tiny firms under the VAT franchise (EUR 25,000 cap): side-hustlers, freelancers, small craftspeople",
+     "category": "Self-employed obligations (VAT small-business exemption regime)",
+     "evidence": "https://www.accountable.eu/nl-be/help-center/hoe-dien-je-een-nihil-klantenlisting-in-via-intervat-als-btw-vrijgestelde-kleine-onderneming-vrijstellingsregeling/ (fetched); https://blog.forumforthefuture.be/nl/article/uitstel-tot-ten-laste-30-april-2026-voor-een-nihil-klantenlisting-in-via-intervat-als-btw-vrijgestelde-kleine-onderneming/30731; https://www.practicali.be/blog/btw-nieuws",
+     "existing": "Accountable (export plus Intervat upload guide), accountants, Intervat itself is free; generic accounting tools out of scope",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Different duty from K14/K15; mainly a reminder/filing-service idea, close to generic accounting so possibly out of scope.",
+     "name": "Annual client listing and nihil/turnover filing for VAT-franchise small businesses (Intervat, 31 March)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Law of 21 March 2024, in force 1 Jan 2025: annual client listing via Intervat; nihil listing plus total Belgian turnover required even with no clients; deadline 31 March (2027 for 2026 turnover); one-time extension to 30 April 2026",
+     "unchecked": "Number of franchise-regime firms; official penalty amount (EUR 50-3,000 appears only in one secondary source, Billy); whether accounting packages already automate the nihil filing; willingness to pay is likely very low for a yearly one-click filing"
+    },
+    {
+     "buyer": "Walloon garages (under 3 lifts/pits), fry shops, restaurants, bakeries, carpenters, small breweries, some livestock farms and others holding a class 3 declaration",
+     "category": "31. Environmental permits for small Class 2/3 firms (Wallonia)",
+     "evidence": "https://www.wallonie.be/fr/demarches/i/4122 (fetched); https://www.ucm.be/actualites/changements-en-vue-pour-le-permis-denvironnement (fetched); https://www.durbuy.be/wp-content/uploads/2026_CE_DOC_flyer-PE.pdf",
+     "existing": "Online filing via Mon Espace on wallonie.be (free); consultancies and communes do paper help. No Walloon software tool for expiry tracking was seen, but no competitor search was run for it.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "Related to K06 (Walloon septic paperwork) through the same region and communal declaration route, but a different buyer group and duty.",
+     "name": "Walloon class 3 environmental declaration expiry tracker and refiling service (10-year validity)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Declaration valid 10 years; must be refiled to the commune on expiry or after change, restart, extension or move (Code de l'environnement; wallonie.be procedure). Class 1-2 permit reform to operating-life duration with 5-year check-up pending, entry date unconfirmed",
+     "unchecked": "Number of live class 3 declarations and how many expire per year; whether communes remind operators; reform entry-into-force date and what the 5-year check-up requires; Flanders (no fixed expiry found) and Brussels permit regimes; Constitutional Court ruling 53/2026 (unread)"
+    },
+    {
+     "buyer": "Self-employed with older diesel vans and Brussels taxi/street-taxi drivers",
+     "category": "18. Transport operators; 31+. Brussels LEZ small fleets",
+     "evidence": "https://newmobility.news/en/2026/06/08/more-than-13000-vehicles-risk-brussels-lez-fines-from-july-1/; https://www.ayvens.com/nl-be/over-ayvens/blog/mobiliteit/lez-brussel/; https://be.brussels/nl/over-het-gewest/elektrificatie-van-de-brusselse-taxis-begeleidingsmaatregelen-om-de-transitie-beter-voorspelbaar-te; https://brusselstimes.com/301912/brussels-taxi-plan-officially-in-force-from-21-october",
+     "existing": "lez.brussels simulator and day-pass system; leasing firms (Ayvens, Athlon) publish guides",
+     "known_id": "K23",
+     "known_mark": "known",
+     "known_note": "Same buyer group as K23 (taxi), one-off duty. No further spend.",
+     "name": "Brussels LEZ and taxi-zero-emission transition support for one-van tradespeople and taxi/street-taxi drivers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Brussels LEZ: Euro 5 diesel and Euro 2 petrol banned from 1 Jan 2026, EUR 350 fines started (about 13,000 vehicles at risk from 1 July 2026); from 1 Jan 2027 new taxis must be zero-emission; replacement premium up to EUR 15,000",
+     "unchecked": "Whether a recurring workflow exists beyond a one-off fleet decision; current premium amounts; Flemish LEZ rules"
+    },
+    {
+     "buyer": "Bakeries, snack bars, frituren, caterers, farm shops",
+     "category": "20. Small licensed premises: small food producers; horeca",
+     "evidence": "https://www.horecavlaanderen.be/stream/haccp.pdf; https://favv-afsca.be/sites/default/files/2023-08/G-044_Praktijkhandboek_Nl_met_voorblad.pdf; https://favv-afsca.be/sites/default/files/Allergenes/2025_FAQ%20Allergenes%20Contamination%20croisee%20fr.pdf",
+     "existing": "Hygienecode Online (Flexiwebs), Octopus HACCP, MyFoodCheck (JRI), HACCP Master; Kiwa, Vincotte, Certalent, LRQA certification; FAVV free generic B2C guide, Quick Start and allergen posters",
+     "known_id": "K11",
+     "known_mark": "new",
+     "known_note": "Not K11 (cash register). Crowded by HACCP apps and free FAVV material.",
+     "name": "Small food-business hygiene and allergen registers (horeca, bakeries, snack bars, farm shops)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "KB 14/11/2003 on autocontrole, notification and traceability; Reg. 1169/2011 allergens; FAVV guides G-023 horeca, G-026 bakeries, G-007 retail, G-044 B2C handbook; HACCP knowledge proof required",
+     "unchecked": "Whether any Belgian-specific allergen-matrix or FAVV-audit-pack tool exists; actual price points; FAVV retributie rules for small operators"
+    },
+    {
+     "buyer": "Small feed, grain and seed traders and storage operators",
+     "category": "22. Commodity traders, millers, feed and grain warehouses",
+     "evidence": "https://www.kiwa.com/nl-be/nl/diensten/certificering/favv-autocontrolegids-g-001-voor-diervoeders/; https://favv-afsca.be/sites/default/files/2023-08/2013_02_07_LD_diervoeding_REV_1_NL_v2.pdf; https://favv-afsca.be/sites/default/files/2026-06/brochure%202026%20NL%20V2.pdf (title only, unread)",
+     "existing": "Kiwa and other certifiers; Foodweb portal for status lookup",
+     "known_id": "K12",
+     "known_mark": "new",
+     "known_note": "Different buyer group from K12 (EUDR chocolate); no live trigger found.",
+     "name": "FASFC feed-operator and grain-store registration plus traceability file for small traders",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "EU Reg. 183/2005 and Belgian feed registration/approval; G-001 feed autocontrole guide (certification gives FAVV contribution discount)",
+     "unchecked": "Operator count; any 2025-2026 rule change; the 2026 FAVV brochure (unread); entrepot/customs-warehouse regime; Intrastat for small traders"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Two searches (one more returned only NL/other-country noise). FAVV feed sector: registration/approval/authorisation via a single model form, KBO first; feed autocontrole guide G-001 (Kiwa certifies it) covers trade, storage/handling for third parties, premixes; G-001 certification gives a discount on FAVV contributions; Foodweb portal lets anyone check operator status. Nothing in the results shows a new 2026 duty or a pain point beyond K12 (EUDR). Entrepot/customs warehouse regime not searched (budget), and Antwerp customs software is covered by K13. No candidate; feed operators appear served by certifiers, consultants and FAVV forms. Unchecked: FAVV feed-sector operator counts, entrepot regime, Intrastat for small traders.",
+     "status": "screened"
+    },
+    {
+     "category": "Commodity traders, millers, feed and grain warehouses plus FASFC feed-business registration (duplicate of row 22)",
+     "found": "Same findings as row 22. FASFC registration, G-001 guide, traceability and contribution discount exist, but no new 2025-2026 rule was found. A 2024 Chamber petition to cut or abolish the FAVV contribution for small horticulture (under 3 ha) lapsed on dissolution of the Chamber, with no evidence of adoption. Weak gap only; marked weak candidate C6.",
+     "status": "screened"
+    },
+    {
+     "category": "Small food producers and horeca hygiene/allergen duties (FASFC notification, autocontrole, sector guides)",
+     "found": "Correction to the brief: G-040 is the primary-production guide, not horeca/bakery. Horeca is G-023 (v2, 2013), bakeries G-026 (2024 version listed in EU register), retail G-007, B2C practical handbook G-044. Horeca need FAVV authorisation (registration only for B&B-breakfast or pre-packed shelf-stable drinks/foods); proof of HACCP knowledge required; allergen info (Reg. 1169/2011, 14 allergens) can be oral if a verifiable procedure exists. Existing software: Hygienecode Online (Flexiwebs), Octopus HACCP, MyFoodCheck, plus Kiwa/Vincotte/Certalent certification and FAVV free generic B2C guide, Quick Start sheets and allergen posters. Crowded and partly free; no notification-style recurring filing found. Candidate C5 is weak.",
+     "status": "screened"
+    },
+    {
+     "category": "Environmental permits and annual reports for small Class 2/3 firms (VLAREM, Walloon permis d'environnement, Brussels)",
+     "found": "Flanders: class 3 is a notification (melding) via the omgevingsloket, acknowledged by the college; no fixed expiry found in sources, only duty to follow updated VLAREM. Wallonia (verified by fetch of wallonie.be): class 3 declaration is valid 10 years and must be refiled to the commune on expiry, or after change, restart, extension or move; covers garages with fewer than 3 pits/lifts, fry shops, restaurants, bakeries, carpenters, breweries, some livestock farms, heating-oil tanks of 3,000 L or more, septic units up to 20 PE. Filing is online via Mon Espace or on paper in four copies. Class 1-2 permits are 20 years, but a Walloon reform (UCM) moves them to operating-life duration with a 5-year check-up/monitoring; no entry-into-force date confirmed, Government order still needed, and a 2026 Constitutional Court ruling (no. 53/2026) touches the regime (unread). Brussels not reached. Candidate C1 (Walloon expiry tracker) is weak to unverified; close to K06 buyer group only for septic.",
+     "status": "screened"
+    },
+    {
+     "category": "Self-employed and sole-trader obligations: social insurance fund contributions, VAT small-business exemption regime, VAT listing and intrastat",
+     "found": "New recurring duty confirmed: since 1 Jan 2025 (law of 21 March 2024) VAT-franchise small businesses (turnover cap EUR 25,000 national; EUR 100,000 EU) must file an annual client listing via Intervat by 31 March (B2B Belgian VAT-number clients over EUR 250), and from 2026 must file a nihil listing and declare total Belgian turnover even with no clients. 2025 nihil deadline was extended once to 30 April 2026; next deadline 31 March 2027. A secondary source (Billy) cites a EUR 50-3,000 penalty (unverified). Accountable already offers an export plus Intervat upload guide; Intervat is free. Candidate C2: low willingness to pay. Sociale verzekeringsfonds contributions and Intrastat not searched (budget).",
+     "status": "screened"
+    },
+    {
+     "category": "Taxi, VTC, private hire and small driver-transport licensing; Brussels/Flemish LEZ vehicle rules for small fleets",
+     "found": "Brussels taxi: 2022 ordinance in force 21 Oct 2022 created taxi plus 'street taxi' (ex-LVC) categories with numerus clausus (1,425 classic, 1,850 street; review 2025 then every two years); taxis must be zero-emission when newly registered from 1 Jan 2027; 2026 strikes and a Lalieux action plan 2026-2027 (contents unread). No confirmed 2026 licensing text. Licensing is one-off and trips run through platforms (as in K23). LEZ Brussels: Euro 5 diesel and Euro 2 petrol vans banned from 1 Jan 2026; fines of EUR 350 started (13,000+ vehicles at risk from 1 July 2026 per newmobility.news); day pass EUR 35 (max 24/yr); Brussels replacement premium up to EUR 15,000 for self-employed (older source). One-off fleet decision, not a recurring filing. Candidate C4 weak. Flemish LEZ rules not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "Pharmacies and health-professional compliance (FAGG reporting, medicine traceability, RIZIV/INAMI) plus e-health duties for small practices",
+     "found": "No general new Belgian pharmacist reporting duty found for 2026 (FAGG publishes shortages of 2 weeks or longer; FarmaStatus register; ADR reporting via gelefiche is voluntary). Pharmacy searches in French returned only French sources. Found a concrete deadline: from 1 Jan 2027 physiotherapists (kinesitherapeuten) must use MyCareNet eFact, eAttest, eAgreement and Member Data (verified by fetch of the RIZIV page); exempt if aged 67+ on 1 Jan 2027, or for hospital-central billing; services only through NIC-recognised practice software. Doctors and dentists have used eAttest since 1 Sep 2025. Candidate C3. Vets, GPs, opticians and pharmacy FMD not searched (budget).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "FAVV registratie erkenning diervoederbedrijf handelaar graan opslag autocontrole",
+    "FAVV autocontrole gids G-040 horeca bakkerij meldingsplicht allergenen traceerbaarheid",
+    "omgevingsvergunning klasse 3 melding vervaldatum hernieuwing garage wasplaats VLAREM",
+    "btw vrijstellingsregeling kleine ondernemingen 2026 aangifte klantenlisting kleine ondernemer",
+    "Brussels taxi LVC hervorming vergunning chauffeur taxidienst 2026",
+    "apotheker verplichtingen 2026 FAGG meldingsplicht geneesmiddelen tekort apotheek",
+    "permis d'environnement classe 3 déclaration renouvellement Wallonie garage échéance permis",
+    "LEZ Brussel Vlaanderen 2026 bestelwagen zelfstandige vrijstelling Euro 5 diesel verbod",
+    "pharmacien obligation AFMPS 2026 petite officine rupture de stock déclaration vérification médicaments",
+    "AFSCA autocontrôle guide G-040 horeca boulangerie petits commerces notification allergènes",
+    "klantenlisting vrijgestelde kleine onderneming Intervat 31 maart 2027 boete btw-vrijstelling",
+    "durée de validité permis d'environnement classe 2 Wallonie renouvellement déclaration classe 3 durée",
+    "omgevingsvergunning exploitatie ingedeelde inrichting duur vergunning einde looptijd verlengen klasse 2 (returned Dutch NL-only results)",
+    "HACCP app horeca bakkerij autocontrole registratie temperatuur software België FAVV",
+    "FAVV diervoeder operatoren registratie landbouwer hoeve mengvoeder traceerbaarheid register bijdrage kleine bedrijven 2026",
+    "apotheker kinesitherapeut RIZIV verplichting 2026 kleine praktijk Recip-e MyCareNet",
+    "kinesitherapeut software eFact eAttest verplicht 1 januari 2027 praktijksoftware",
+    "klantenlisting nihil vrijgestelde kleine onderneming software tool herinnering Intervat"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b21"
+ },
+ "opus:belgium:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "KoudSmart by OutSmart (https://out-smart.com/features/koudsmart): Dutch-language digital F-gas logbook per installation that records refrigerant charge, top-ups and removals, cylinder stock, unit-linked leak checks and automatic F-gas reports, with a work order raised after a positive leak result. Its page does not mention Belgium/Flemish rules or the relative-leakage calculation. Joblogic (UK) has an F-gas logbook in its mobile field-service app. Leaklog (Slovakia) is an electronic circuit logbook with QR labels and operator access. Climalife's F-Gas Solutions is a free app for leak-check frequency and GWP calculations. EFCTC offers a free Excel logbook. In France, Extractivs does CERFA forms, which do not fit Belgium. Large players such as Engie Cofely have run in-house digital logbooks since 2010. Found no free state portal; VEKA says there is no online portal.",
+   "duty": "Confirmed (Flanders). Companies that install, maintain, repair or decommission stationary cooling installations with F-gases need a Flemish approval (annual fee EUR 145 in 2026, at least one approved technician, inspection by an approved inspection body), and they must fill in the installation-bound logbook completely and correctly. VLAREM II art. 5.16.3.3 applies to classified installations of 5 kW or more, including air conditioners and heat pumps. The relative leakage must be calculated and noted after each top-up, with a maximum of 5% a year, and leaks above 5% must be repaired within 14 days (Frixis). The EU leak-check frequencies come from Regulation (EU) 2024/573 art. 7. Wallonia has a similar framework: the AGW of 12 July 2007, amended in 2012, for systems of at least 12 kW or more than 3 kg, with an Annex III company register. The Flemish approval page notes that no active inspection body in Flanders currently issues the European certificate. Not checked: the Brussels rules and the exact penalties.",
+   "market": "Not reached. Flanders publishes a list of approved cooling companies (datasets.omgeving.vlaanderen.be PDF), but the fetch returned HTTP 503, and no published count was found in Dutch searches. Operators (shops, restaurants, butchers) are numerous, but the legal logbook duty in practice runs through the approved contractor, so the realistic paying buyer is the contractor. My guess, unverified: a few hundred to low thousands of firms in Flanders.",
+   "reason": "The duty is real. Approved Flemish cooling companies must keep a full installation-bound logbook, and VLAREM II art. 5.16.3.3 covers classified installations of 5 kW or more, including air conditioners and heat pumps. The claim of no competitor is wrong. OutSmart's KoudSmart, a Dutch-language field-service module, already provides a digital F-gas logbook per installation, links leak checks to each unit, raises repair work orders, tracks cylinders and produces F-gas reports. Joblogic, Leaklog, Climalife's free F-Gas Solutions app and the free EFCTC template cover parts of the job. The only gap is the Flanders-specific relative-leakage calculation and the report to Handhaving (enforcement), which KoudSmart's page does not mention. That gap is too thin for a standalone product. Buyers are a few hundred to a few thousand approved firms (count not reached).",
+   "searches": 6,
+   "sources": "https://www.vlaanderen.be/erkenning-als-koeltechnisch-bedrijf ; https://www.vlaanderen.be/informatie-voor-een-koeltechnisch-bedrijf ; https://www.vlaanderen.be/veka/energie-en-klimaatbeleid/energie-en-klimaatbeleid-voor-ondernemingen/f-gassen/regelgeving-inzake-het-gebruik-van-f-gassen ; https://www.frixis.be/files/ckfinder/files/Vlaamse%20regelgeving%20inzake%20lekverliezen.pdf ; https://www.frixis.be/files/ckfinder/files/Infofiche3_Het%20invullen%20en%20bijhouden%20van%20een%20logboek.pdf ; https://www.frixis.be/files/ckfinder/files/Ervaringen%20met%20vermijden%20lekverliezen%20van%20een%20koeltechnisch%20bedrijf.pdf ; https://out-smart.com/features/koudsmart ; https://www.joblogic.com/features/fgas-compliance-software/ ; https://www.szchkt.org/a/conf/submissions/637 ; https://apps.apple.com/gb/app/f-gas-solutions/id928450681 ; https://www.coolingpost.com/world-news/mandatory-f-gas-log-book-free-to-download/ ; https://awac.be/wp-content/uploads/2021/08/3.-Equipements-frigo-Entreprises-et-Techniciens-RW-30-11-2015.pdf ; https://wallex.wallonie.be/eli/arrete/2012/10/18/2012027162",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:belgium:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. OVAM's page says collectors, waste traders and brokers must update a digital register every working day and keep it 5 years. It lists the fields: date, EURAL code, tonnes, carrier, processor. The page states no penalty. A search result says OVAM offers a standard Excel template for this register, but I did not open the template page. That weakens willingness to pay, since a free template already covers the basic job. No Belgium-specific scrap-yard software turned up, but the search was thin and weighbridge/waste-ERP vendors probably cover it. I found no current count of registered businesses. One old OVAM study suggests thousands, mixed with carriers. Registered yards are a niche, EVOA/MATIS reporting is a separate duty, and Wallonia and Brussels were not checked. Pain is moderate and the market is small.",
+   "searches": 2,
+   "sources": "https://ovam.vlaanderen.be/register-van-ingezamelde-verhandelde-of-gemakelde-afvalstoffen; https://www.vlaanderen.be/registratie-als-inzamelaar-handelaar-of-makelaar-van-afvalstoffen; https://publicaties.vlaanderen.be/view-file/19637",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:belgium:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty confirmed on the current DGZ page. Movement documents must be registered in Sanitel within 7 days, with the document kept 5 years. A cleaning and disinfection register is kept 3 years. Walloon transport authorisation is valid 5 years. Veeportaal is a free state-linked tool for movement registration. DGZ offers a paid paper service. I found no third-party hauler software. The market is small and niche, and I found no count of Belgian transporters. The register is a simple form, so there is little pain, and the hauler or farmer can use free Veeportaal. Willingness to pay is likely low. I did not check for a Veeportaal API or bulk upload. I did not verify the 2022 royal decrees.",
+   "searches": 3,
+   "sources": "https://www.dgz.be/varkens/i-r/vervoer ; https://wallonie.be/nl/demarches/een-vergunning-aanvragen-als-vervoerder-van-dieren",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:belgium:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Holifresh, Alcomo HACCP, Hygiène Expert HACCP, Flowtify, Normec HACCPro; Kiwa/Vinçotte consultancy",
+   "duty": "Royal Decree of 14 Nov 2003 on autocontrol and traceability; sector guide G-003 for butchers; FASFC G-044 handbook",
+   "market": "About 3,432 independent butchers and delis (end of 2018, NSZ via RetailDetail), declining",
+   "reason": "The duty is real. The Royal Decree of 14 Nov 2003 requires HACCP-based autocontrol and traceability. Butchers follow guide G-003, and FASFC handbook G-044 covers B2C sectors. It is continuous, with FASFC inspections. I did not check the penalty. Competition already covers the core job. Generic HACCP and temperature-logging apps are sold in Belgium: Holifresh (Belgian, Mont-Saint-Guibert), Alcomo HACCP (claims use in Belgium), Hygiène Expert and Flowtify. Normec HACCPro is Dutch-oriented. Kiwa/Vinçotte sell consultancy and certification. I found no butcher-specific Belgian app, so a niche G-003 product might exist, but the tool is crowded, price-sensitive and sold into a shrinking market. About 3,432 independent butchers and delis existed in 2018, per NSZ via RetailDetail (2019). Small abattoirs were not screened. The paid-product pricing and the FASFC penalty were not checked.",
+   "searches": 4,
+   "sources": "https://favv-afsca.be/sites/default/files/2023-08/G-044_Praktijkhandboek_Nl_met_voorblad.pdf ; https://www.kiwa.com/be/nl-be/diensten/consultancy/autocontrolesysteem-in-de-slagerij/ ; https://www.retaildetail.be/nl/?p=36447 ; https://apps.apple.com/app/id1428695646 ; https://hygiene-expert.com/en ; https://www.digitalfoodlab.com/en/foodtech-database/flowtify",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:belgium:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duties are real. Small vzw's must file annual accounts with the enterprise court (the National Bank only above thresholds). Within 30 days of approval, so a calendar-year vzw files by 30 July. Annual UBO re-confirmation is mandatory, with sanctions of EUR 250 to 50,000 per Jubel and Crowe. Volunteer-expense declarations also apply. A 2024 IBR study found about 1 in 3 very small vzw's don't file. I found no dedicated compliance-calendar software. UBO confirmation is free on MyMinfin. Weak points: volunteer-run buyers, low willingness to pay, accountants and federations (VSDC) cover the need, and the universal-filing bill is unconfirmed. I did not check vendor products by name or the market size from the register.",
+   "searches": 4,
+   "sources": "https://www.jubel.be/je-hebt-een-vzw-opgericht-wat-nu-de-belangrijkste-verplichtingen/ ; https://www.ibr-ire.be/nl/actueel/pers-detail/jaarrekeningen-van-zeer-kleine-vzw-s-worden-amper-gepubliceerd-en-blijven-slordig ; https://www.crowe.com/be/spark/insights/2026-ubo-register-jaarlijke-herbevestiging ; https://www.jubel.be/ubo-register-verplichte-jaarlijkse-bevestiging/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:belgium:B13": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. Since 1 Jan 2026 EU sanctions require polished-diamond importers (stones of 0.5 ct or more) to provide a Due Diligence Statement on Diamond Origin with each import. Rough imports of mixed origin need a Kimberley Process certificate listing all origin countries. Belgian FPS Economy has run spot checks since May 2026, and goods can be blocked. I did not find the penalty level. AWDC gives members a free DDS template and a step-by-step plan. Tracr and Everledger already supply traceability records. The market is small: 1,470 active Antwerp diamond firms, over half of them small. The duty is a letter of attestation plus record-keeping, so the pain and willingness to pay are low. A niche tool for logging supplier origin evidence is possible, but a free template and a small, tight-knit buyer base limit it.",
+   "searches": 2,
+   "sources": "https://www.awdc.be/node/868 ; https://www.awdc.be/update-january-1-2026 ; https://www.awdc.be/node/1363 ; https://www.awdc.be/sites/default/files/2025-12/Due%20Dilligence%20Statement.pdf ; https://celnisprava.gov.cz/cz/Documents/2025-12-17--FAQs-sanctions-Russia-diamonds_en.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:belgium:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The supplier duty is only a draft. A March 2026 VRT article says \"binnenkort\", and I found no adopted decree or start date. The Minaraad/SERV questioned whether it is needed. The duty is a once-a-year address list for VEKA, with fines mentioned up to EUR 50,000. That is simple to export from existing dealer ERP or routing software, so there is little recurring pain. The buyer group is tiny and fragmented, and willingness to pay is low. A Dutch search found no niche product built for this, but I could not confirm competitors. Dealer count not found. The existing installer-reporting duty, with fines up to EUR 20,000, falls on installers, not dealers.",
+   "searches": 2,
+   "sources": "https://www.vrt.be/vrtnws/nl/2026/03/13/vlaamse-overheid-wil-weten-stookolietank-heeft/ ; https://www.vlaanderen.be/informatie-voor-verwarmingsprofessionals/meldingsplicht-voor-installateurs-van-stookolieketels ; https://www.vlaanderen.be/bouwen-wonen-en-energie/verwarming-koeling-en-ventilatie/stookolietank/wijzigingen-regelgeving-stookolietanks-sinds-1-januari-2025",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:belgium:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Brussels hosts must register with Brussels Economie et Emploi before operating, then with Brussels Fiscalite within 31 days. The fine is EUR 1,000 per unit. A monthly declaration is filed on MyTax, and a regional tax applies. Flanders requires aanmelding (over 29,700 aangemelde logies, undated). Wallonia tourist tax is communal (by rol per the model regulation), so it is fragmented and not a filing flow. No Belgian software specific to this found, but I didn't search PMS or channel managers. Weak points: the official MyTax portal does the filing, the Brussels bottleneck is the urban-planning certificate that software can't fix, Airbnb collects some data itself, and hosts are scattered. Wallonia has no uniform filing, so a unified kit is thin. Not checked: police guest register, Flemish entry-into-force date, and the Brussels host count (about 2,500 non-compliant listings per VRT).",
+   "searches": 5,
+   "sources": "https://www.brusselstimes.com/1838992/rules-dont-match-reality-100-days-after-hefty-fines-no-solution-in-sight-for-brussels-airbnb-hosts https://be.brussels/en/taxes-finances/taxes/taxes-businesses-and-professional-activities/regional-tax-tourist-accommodation-establishments https://www.airbnb.com/help/article/1400 https://www.vrt.be/vrtnws/en/2026/04/01/_9-out-of-10-brussels-airbnb-listings-are-being-rented-out-illeg/ https://toerismevlaanderen.be/nl/nieuws/onderzoek-logies https://www.vlaanderen.be/aanmelding-en-erkenning-van-een-toeristisch-logies https://interieur.wallonie.be/files/documents/finances/MRT_21%20-%20S%c3%a9jour.doc",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:belgium:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "antiwitwas.be (AntiWitwas tool for BIV-recognised estate agents, approved by FOD Economie, paid subscriptions by office size)",
+   "duty": "Belgian AML law of 18 Sep 2017 plus the BIV AML regulation (in force since 1 Jul 2022): client due diligence, written risk analysis, suspicious-transaction reports to CTIF-CFI.",
+   "market": "Not counted. The page does not say how many agents there are. The claim cites 334 agents inspected in 2021, which is a sample, not the full register.",
+   "reason": "The duty is real: the AML law of 18 Sep 2017 and the BIV AML regulation in force since 1 Jul 2022 cover buyer and tenant checks, written risk analysis and reports to CTIF. But the core job is already done by antiwitwas.be. That is a paid, subscription-based tool for BIV agents, sized by office, and approved by FOD Economie. It has client and counterparty screening, client and transaction risk scoring, a guided wizard, CTIF reporting and a 10-year record. A search result says using the BIV tools gives a presumption of compliance, so a rival product has to beat an endorsed incumbent. I did not check pricing, other vendors or a market count. The 2021 inspection figures came from the claim and I did not re-verify them.",
+   "searches": 3,
+   "sources": "https://www.antiwitwas.be ; https://www.lexgo.be/nl/nieuws-en-publicaties/12053-nieuw-antiwitwasreglement-voor-vastgoedmakelaars ; https://www.jubel.be/nieuw-antiwitwasreglement-voor-vastgoedmakelaars/",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:belgium:GAPS3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: wallonie.be says a class 3 declaration lasts 10 years and must be renewed on expiry, after a change to the class 3 list, or on a move. Sanctions are administrative (formal notice, suspension) and penal fines. No operator-side expiry tracker found; only commune tools (the SPW \"Déclarations\" tool, Urb@web with alerts). Weak product: a 10-year cycle is very infrequent, the free Mon Espace form already does the filing, and the buyer is a scattered group of micro-firms with little willingness to pay. Market size was not checked, and the pending permit reform is unconfirmed. The wallonie.be page does not make clear whether the 10-year validity is a maximum.",
+   "searches": 2,
+   "sources": "https://www.wallonie.be/fr/demarches/i/4122 ; https://permis-environnement.spw.wallonie.be/files/permis-env/documents/GuideUtilisateur_OutilCommunesDeclarations.pdf ; https://www.civadis.be/_files/ugd/8354a4_bfb49d2e4a3443289818df6a193c55d4.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b21"
+ },
+ "triage:belgium": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Flemish scrap/waste dealers and dismantlers; different buyer and duty from K06 (Walloon septic)."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Precious-metals buyers, recurring register and cash-cap duty; new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "End-of-life vehicle dismantlers; not the same as K06 septic paperwork."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Livestock hauliers Sanitel/cleaning registers; new buyer and duty (K10 is vets)."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Butchers' autocontrole/traceability; different from K01 chain-liability duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Farm groundwater levy declaration; different buyer and duty from K07 drilling firms."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small vzw/asbl compliance calendar; new buyer group in scope (associations)."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Childcare providers' attendance/fiscal attest; small licensed premises, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Driving schools approval paperwork; small business, new, weak but unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Hunting management units annual reporting; community bodies, new."
+    },
+    {
+     "decision": "known",
+     "id": "A11",
+     "reason": "Household employers' RSZ/Dimona/DmfA is the same buyer and duty as K15 (and K22); no new evidence to revive.",
+     "ref": "K15"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "F-gas logbook for small cooling firms/operators; different duty from K21 heating attests."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Heating-oil dealers' customer-address reporting; new buyer and duty, draft rule."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Small tourist-accommodation hosts' registration and tax; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Construction contractors' subcontractor due diligence; different buyer from K01 (cleaning, meat, parcel) and K17."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small estate agencies AML file; different buyer from K03 syndics."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Dentists' eFact identity check; new buyer, deadline 1 Oct 2026; verifiers check software vendors."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Private landlords' conformity certificate; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small electricians/PV installers AREI inspection files; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Breeders, pet shops recognition and DogID; new buyer."
+    },
+    {
+     "decision": "merge",
+     "id": "B10",
+     "reason": "Same buyer (small vzw/foundations) and UBO re-confirmation is part of A7's calendar.",
+     "ref": "A7"
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Notaries/estate agents measures-register check; different buyer and duty from K03 syndic pack."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Small licensed security firms licence compliance; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Small Antwerp diamond dealers' origin due diligence with 1 Jan 2026 deadline; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Physiotherapists' MyCareNet mandatory 1 Jan 2027 deadline; small clinics, new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "VAT-franchise sole traders' annual listing; statutory duty on small firms, unsure of generic-accounting overlap so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Walloon class 3 declaration renewal; different buyer and duty from K06."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "LEZ ban covers one-van tradespeople as well as taxis; broader buyer than K23 and a deadline hitting many small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Food-business hygiene/allergen registers; different buyer from K11 and K01; verifiers judge crowding."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Small feed/grain traders registration; different buyer from K12; unverified, so keep."
+    }
+   ]
+  },
+  "tag": "w2b21"
+ }
+}

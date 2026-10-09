@@ -1,4 +1,16 @@
 {
+ "challenge:south-korea:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No killer found. The main threat is NFQS's free 수입수산물 유통이력관리시스템 (nfqs.go.kr/imst), together with a small market of about 7,400 registered sites, a figure that includes retailers. Whether the portal offers excel or bulk upload is unverified, because the page returned only its title.",
+   "reason": "I found nothing that kills this, but it is weak. The duty is real. Reports are due within 5 days of each transfer, and from 2026-06-29 there are 27 items. The fine is up to 5,000,000 won (per articles from about 2021). NFQS's free 유통이력관리시스템 already does the filing, and paper filing is allowed. Searches for an ERP add-on (이카운트, 더존, 경리나라), an excel bulk-upload tool or a filing agent found no product. Whether the portal itself has bulk upload is still unverified: nfqs.go.kr/imst returned only its title. The market is small. One inspection article counted 7,428 sites registered in the system, and that figure includes retailers. A thin convenience layer over a free portal, sold to a few thousand firms, is worth about 3.",
+   "searches": 7,
+   "sources": "https://www.heraldk.com/article/2026060618000071661 ; https://www.foodtoday.or.kr/news/article.html?no=205361 ; https://www.etoday.co.kr/news/view/1944402 ; https://www.etoday.co.kr/news/view/2210408 ; https://m.dailian.co.kr/news/view/1068104 ; https://www.metroseoul.co.kr/article/20240310500171 ; https://www.nfqs.go.kr/imst/ ; https://khan.co.kr/article/202610042028015",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b21"
+ },
  "critic:south-korea": {
   "result": {
    "gaps": [
@@ -872,6 +884,139 @@
    "searches": 18
   },
   "tag": "w2b20"
+ },
+ "opus:south-korea:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "MOLIT plans an insurance-status information system for H1 2027 (Hankyung), linking 이륜차 사용신고 data and insurance status. That would cover the core check for free. 바로공제보험 (우아한청년들 with 배달서비스공제조합) is an insurance product only. I found no dedicated rider-insurance tracking software in Korean searches. Whether the dispatch programs (생각대로/Barogo, 부릉, 배민 systems) already have insurance-check features was not found.",
+   "duty": "The amended 생활물류서비스산업발전법 시행령 and 시행규칙 are in force from 2026-06-03 (MOLIT announcement). Riders must hold 유상운송 cover: unlimited bodily injury, and property damage of 20M won (one source says \"or more\", another says \"up to\"). Riders without cover cannot be contracted, and existing contracts end. 배달사업자 must check cover by the state system or by documents, recheck before expiry, and recheck every 3 months for policies of 6 months or more. Asia Economy (2026-06-25) says the check duty falls on 소화물배송대행서비스 인증사업자. It also gives a phase-in: new riders from 6/3, all riders by 12/3. Khan and Hankyung describe no phase-in. I found no fine for operators who fail to check. The only fine I saw is the separate, earlier 500만원 이하 fine for skipping the criminal-record or licence check.",
+   "market": "MOLIT's 2022 배달업 실태조사, as summarised in search results (I did not open the report), counts 7,794 regional delivery agencies and 51 delivery-agency platforms, with about 237,000 riders in H1 2022. The number of certified 인증사업자 was not found. If the duty applies only to them, the addressable group is much smaller.",
+   "reason": "The duty is real and in force. Amended rules under the 생활물류서비스산업발전법 started on 2026-06-03. Operators must check rider cover before it expires, and every 3 months on policies of 6 months or more. Two things are unclear. First, I found no penalty on operators. Second, Asia Economy says the check duty falls on certified 소화물배송대행서비스 인증사업자. If so, the buyers are mostly large platforms (Baemin, Barogo, Vroong) that build checks into their own systems, not the roughly 7,800 regional agencies. Hankyung says the government lookup system is due in H1 2027, which would leave only a short window of manual checking. I found no dedicated tracking tool, but I could not confirm what dispatch programs already offer. Hence unverifiable.",
+   "searches": 6,
+   "sources": "https://www.hankyung.com/article/202606022590i ; https://www.khan.co.kr/article/202606021118001 ; https://view.asiae.co.kr/article/2026062508551323715 ; https://www.kjob.news/news/493747 ; https://byline.network/2026/06/25_19028773/ ; https://www.etoday.co.kr/news/view/2207678 ; https://www.dailian.co.kr/news/view/1187229/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b21"
+ },
+ "opus:south-korea:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free state tool is NFQS's 수입수산물 유통이력관리시스템 (nfqs.go.kr/imst), run by NFQS since October 2020. It already does the core filing job for free. Three searches for private ERP, excel bulk-upload or done-for-you reporting tools (수산물 ERP 유통이력 자동신고, 일괄신고 엑셀) found no named product. data.go.kr has an NFQS lookup API (a list of which items each company handles), but it is not confirmed as a way to submit reports. Whether the portal offers excel or bulk upload: not reached, because nfqs.go.kr/imst returned 503. So a gap is plausible but unproven, and the product would be a convenience layer over a free mandatory portal.",
+   "duty": "수산물 유통의 관리 및 지원에 관한 법률 제31조 requires importers, and anyone trading designated imported seafood in Korea, to report each transaction stage. Each transfer must be reported within 5 days of the handover, broken down by buyer. Reports go through NFQS's 수입수산물 유통이력관리시스템 (nfqs.go.kr/imst) or on paper to the local NFQS branch. Transaction records must be kept for 1 year. Failing to report carries a fine of up to 5 million won (etoday, fetched). A Ministry of Oceans and Fisheries notice extended the designation for the existing 22 items to 2029-04-30 and added frozen mackerel, frozen hairtail, frozen pollack, frozen squid and chilled squid, for 27 items from 2026-06-29 (heraldk). It is in force and recurs with every sale.",
+   "market": "No registry count was found. Search summaries only, not opened (so not confirmed): a 2023 article reportedly counted 20,680 firms that import or distribute Japanese seafood, and a 2024 crackdown reportedly planned to target about 2,500 firms handling the priority items (live red sea bream, live scallops, chilled pollack) (metroseoul). The fnnews article I opened gave no total. Adding mass-market frozen mackerel, hairtail, pollack and squid probably brings in many more small wholesalers and market traders. A rough guess is several thousand to about 20,000 obligated firms.",
+   "reason": "The duty is real, recurs with every sale (5-day deadline, fine up to 5 million won) and grew in June 2026 to cover high-volume frozen items, which pulls in many small wholesalers. However, the state runs a free mandatory reporting portal, and paper filing is also allowed. No private tool was found, but the room for paid value is limited to bulk entry and syncing with existing ERP or sales records. Buyers are traditional seafood-market traders who are hard to reach and probably unwilling to pay much, and enforcement focuses on origin labeling. A simple MVP (turn invoices into report rows, plus deadline alerts) is feasible, but it depends on portal features that could not be checked (the site returned 503).",
+   "searches": 6,
+   "sources": "https://www.heraldk.com/article/2026060618000071661 ; https://www.etoday.co.kr/news/view/1944402 ; https://www.fnnews.com/news/202308301047004310 ; https://www.metroseoul.co.kr/article/20240310500171 ; https://data.go.kr/data/15130188/openapi.do ; https://www.nepla.ai/wiki/세금/관세/-유권해석-관세법-제240조의2-통관-후-유통이력-신고/-법제처-유권해석-수산물유통법-제정·시행-이후-수입수산물-유통이력의-신고에-대한-적용-법령-수산물-유통의-관리-및-지원에-관한-법률-제31조-및-관세법-제240조의2-등-관련-jxm9l7l2npgr",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:south-korea:A11": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Vet EMR vendors (e.g. PlusVet, per K10): not confirmed; no dedicated price-posting product found",
+   "duty": "Veterinary Act enforcement rules: post 20 priced items in the clinic and on the homepage (banner linking from the first page). Correction order, then a fine of up to 1M KRW or up to 1 month business suspension. The 3M KRW fine is a bill only, not confirmed passed.",
+   "market": "About 4,000 to 4,900 clinics (the 2025 survey covered 3,950 clinics treating dogs and cats; MAFRA published about 4,900 clinics).",
+   "reason": "The duty is real. The Veterinary Act rules require animal hospitals to post prices for 20 items inside the clinic and on their homepage. Homepage posting became mandatory in Aug 2025, with a grace period to Oct 2025. Non-compliance leads to a correction order, then a fine of up to 1M KRW or a business suspension. A bill to raise the fine to 3M KRW was introduced in Apr 2025, and I could not confirm it passed. The duty is one-off per price change, not recurring filing, and it is a simple static page. I found no dedicated product, but I could not confirm whether EMR vendors (K10) auto-publish prices. The registry count is about 4,900 clinics (MAFRA survey). The wedge is thin: it is a trivial webpage, the pain is low, and the EMR or homepage-agency overlap is likely. Keep it as a low-value add-on to K10.",
+   "searches": 3,
+   "sources": "https://www.dailyvet.co.kr/?p=250597 ; https://www.dailyvet.co.kr/print?id=253475 ; https://www.dailyvet.co.kr/?p=221440 ; https://www.dailyvet.co.kr/?p=293998 ; https://www.dailyvet.co.kr/?p=205130",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:south-korea:A14": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The 2026-05-15 notice date is confirmed only by the third-party ChemLinked page, which shows no scope, mandatory firms or exemptions. Registration under the Food Sanitation Act is mandatory only for certain categories, and for some (infant/special-purpose food, based on a 2018 rule) it is phased in by revenue bands down to 100M KRW. That points to limited, mostly mid-size coverage, not all small makers. Registration is also voluntary for others. The state already runs a free system (tfood.go.kr). I did not find the current law text or any vendors, and I did not find a penalty. The market count is not available. The small-maker pain looks low, so I give a low score.",
+   "searches": 3,
+   "sources": "https://food.chemlinked.com/database/view/6864 ; https://www.bokjiro.go.kr/ssis-tbu/cms/pc/news/promotion/1188992_1118.html ; https://members.wto.org/crnattachments/2018/TBT/KOR/18_1968_00_x.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:south-korea:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Religious bodies must file 지급명세서 on religious income by March 10 each year. Roughly 1% 가산세 applies for missing or wrong filings, per a tax-firm blog (not primary law). Electronic donation receipts are mandatory from 2025 only for bodies issuing over about 3억 won (blog claim). Smaller bodies can still use paper or e-receipts, so the duty is weaker for small churches. Hometax issues e-receipts free and then exempts the issuer from the 발급명세 and 발급합계표 filings, and NTS sends 모두채움 forms. Both limit the paid-software gap. I found no Korean church-specific tool bundling these, but my 3 searches returned mostly US results, so competition is not fully checked. I did not size the market (no register count found). Willingness to pay among small churches looks low. Primary law text was not opened.",
+   "searches": 3,
+   "sources": "https://blog.iquest.co.kr/entry/%EC%A0%84%EC%9E%90%EA%B8%B0%EB%B6%80%EA%B8%88%EC%98%81%EC%88%98%EC%A6%9D ; https://www.kacpta.or.kr/incpta/up_home/notice_file/2025 전자기부금영수증 제도 안내 리플렛.pdf ; https://taxly.kr/post/753-종교인과세-종교단체-세금신고",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:south-korea:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real but it falls on tank owners, not on haulers. The Sewerage Act (하수도법) art. 39 and its rule art. 33 require cleaning at least once a year, with a fine up to 1M KRW (art. 80). The claim cites the wrong statute, 분뇨 등의 관리 및 처리에 관한 법률. Haulers are licensed by local governments (art. 45). Searches found no mandatory national e-handover or weighing mandate for septic, and no software competitor. I did not confirm the absence of a competitor or mandate. Weighing is a local practice, and Seoul's 2012 electronic weighing was a pilot. Receipt keeping is 1 to 3 years depending on the locality. Firm count is only local (Yangpyeong has 5), with no national figure. The market is tiny and fragmented, there is no mandated reporting workflow, and sales go council by council. A hauler tool would be an optional record kit, with weak pull.",
+   "searches": 3,
+   "sources": "https://www.hanam.go.kr/www/contents.do?key=12811 ; https://news.seoul.go.kr/safe/archives/20587 ; https://www.ydp.go.kr/www/contents.do?key=2744& ; https://www.sankun.com/bid-industry/분뇨수집·운반업",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:south-korea:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real under the Groundwater Act (지하수법). Art. 20 requires periodic water-quality tests by a designated testing body. Enforcement Rule Art. 38 sets the interval: drinking use every 2 years (3 years if 30 t/day or less), other uses every 3 years. Fines: up to 3M KRW for skipping the test (Art. 40). Unregistered facilities face up to 5M KRW (notified wells) or 3 years/30M KRW (permitted wells). Municipalities run voluntary-registration windows and manage the wells themselves; Chungnam piloted a government app in 2017. I found no private product, but I did not search for one thoroughly. The user count is not verified. The market looks small, fragmented and rural, the event is infrequent (every 2-3 years), and the fines are low. Willingness to pay and distribution look weak.",
+   "searches": 2,
+   "sources": "https://korea.legal/wiki/%ec%a7%80%ed%95%98%ec%88%98%eb%b2%95-%ec%a0%9c40%ec%a1%b0/ ; https://korea.legal/wiki/%ec%a7%80%ed%95%98%ec%88%98%eb%b2%95-%ec%8b%9c%ed%96%89%ea%b7%9c%ec%b9%99-%ec%a0%9c38%ec%a1%b0/ ; https://mobile.newsis.com/view/NISX20201101_0001217801 ; https://smartcity.go.kr/2017/11/16/충남도-지하수-스마트관리시스템-구축-용역-중간보/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:south-korea:A9": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "출결버스, 에듀패밀리, 클래스업, 망고에듀, 통통통, 수납톡, 동네학원",
+   "duty": "Hagwon Act (학원법) §15: post 교습비 in a visible place and issue receipts; 교습소 must be registered or notified (one-off); overcharging above posted fees is penalised and reportable for a reward",
+   "market": "Nationwide 2025 count not found. Only 2008 Seoul figures: about 14.6k hagwon, 12.3k 교습소 and 12k individual tutors.",
+   "reason": "The duty is real. The Hagwon Act (학원법) §15 requires posting tuition (교습비) and issuing receipts, and the July 2026 rule change raised informant rewards to up to 2M KRW. But registration is a one-off, so the recurring part is only posting and updating fees. That is a thin workflow with no clear recurring filing. Many cheap or free hagwon and 교습소 apps already cover attendance, billing and receipts: 출결버스, 에듀패밀리, 클래스업, 망고에듀, 통통통, 수납톡. They sell to the same buyers, so the \"ERP likely exists\" worry holds. Buyers are fragmented solo tutors who pay little. Market size not found (only old Seoul figures for 2008). Weak standalone opportunity. A 2026 overcharging bill is only a proposal.",
+   "searches": 4,
+   "sources": "https://view.asiae.co.kr/article/2026071609093896101 ; https://www.wikitree.co.kr/articles/1146720 ; https://www.nepla.ai/wiki/교육-문화-언론/평생교육-학원/-유권해석-학원의-설립-운영-및-과외교습에-관한-법률-제15조-교습비등-w5dnz0w48e6k ; https://biz.sbs.co.kr/amp/article/10000934311 ; https://apps.apple.com/kr/app/id6443540844 ; https://www.asiatoday.co.kr/kn/view.php?key=292310",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:south-korea:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real and in force from 2025-11-28 (Electrical Safety Management Act Arts. 21-2, 21-3, 52). Operators, mandatory installers and owners of 13 building types with 50 or more spaces must report before installing or changing a charger. They must also hold no-fault liability insurance, with property cover of 1bn won per accident. Fines are up to 1M won (no report) and up to 3M won (no insurance). Insurance must be renewed at policy expiry or when the facility manager changes. The one-off window for existing facilities closed on 27 or 28 May 2026 (Incheon and Seoul give different dates). Recurring work is small: a one-time filing per site, occasional change filings and annual policy renewal. Buyers are fragmented and have few sites. Insurers and city offices handle the job, and the operator may buy the policy for the owner. I found no dedicated software, but I ran only two searches, so this is not exhaustive. Score is low because the workload is thin and the window has passed.",
+   "searches": 3,
+   "sources": "https://news.seoul.go.kr/env/report-charging; https://www.incheon.go.kr/env/ENV060204",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:south-korea:B7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The MOJ Q&A says the foreign-guest lodging report (출입국관리법 제81조의3) applies only when an infectious-disease alert of \"관심\" or higher, or a terror alert of \"주의\" or higher, is in force. It is not a recurring duty in normal times. The report goes by email, fax, phone or text on a MOJ form, with no portal needed. The 2026-08-04 amendment is real, per Newsis: urban-guesthouse and hanok operators must post fees and not charge more. Penalties are 5 days' suspension, 15 days, 1 month, then cancellation. It is a one-time posting rule, not a recurring workflow. I did not check operator counts or competing products beyond the claim's own evidence (Alchera eKYC), so the market is unquantified. The duty is event-driven, the posting rule is one-off, and willingness to pay is low.",
+   "searches": 1,
+   "sources": "https://www.immigration.go.kr/bbs/moj/184/539853/artclView.do ; https://mobile.newsis.com/view/NISX20260728_0003726604",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b21"
+ },
+ "sonnet:south-korea:GAPS3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Registration under 관광진흥법 is confirmed (unregistered operation: up to 2 years' prison or KRW 20M fine). The MCST tender for a 재난안전의무보험 study on 야영장업 and theme parks (bid 2026-05-27 to 06-02) confirms a mandatory-insurance regime exists and is under review. I could not confirm that the monthly self-check and half-yearly submission still exist; only 2015 press supports it. I found no current campsite count (a 2016 article had about 1,836 camps, 43% unregistered) and no dedicated competitor or state portal (a Korean-language search returned only US camp software). Operators are scattered, many unregistered, and the insurance is bought once a year, so the pain is low.",
+   "searches": 4,
+   "sources": "https://www.mcst.go.kr/site/s_notice/notice/bidView.jsp?pSeq=19900 ; https://m.go.seoul.co.kr/news/2015/06/18/20150618012009 ; https://view.asiae.co.kr/article/2015041309170686708 ; https://www.kukinews.com/article/view/kuk201606100202 ; https://www.data.go.kr/catalog/15103504/fileData.json",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b21"
  },
  "triage:south-korea": {
   "result": {

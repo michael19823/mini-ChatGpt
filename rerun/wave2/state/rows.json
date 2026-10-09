@@ -43,6 +43,36 @@
    "known": 1
   }
  },
+ "belgium": {
+  "batch": "w2b21",
+  "candidates": 30,
+  "checks": {
+   "opus": 1,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "B4 C04 Flemish construction subcontractor due-diligence file (duty of care on illegal employment, from 1 Jan 2026)",
+    "GAPS1 Physiotherapist MyCareNet go-live pack (eAttest/eFact/eAgreement mandatory from 1 Jan 2027)",
+    "GAPS2 Annual client listing and nihil/turnover filing for VAT-franchise small businesses (Intervat, 31 March)",
+    "GAPS4 Brussels LEZ and taxi-zero-emission transition support for one-van tradespeople and taxi/street-taxi drivers"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 6,
+   "refuted": 3,
+   "unverifiable": 1
+  },
+  "gaps": 7,
+  "id": "belgium",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 28,
+   "known": 1,
+   "merge": 1
+  }
+ },
  "canada": {
   "batch": "w2b3",
   "candidates": 44,
@@ -1217,6 +1247,53 @@
   "triage": {
    "keep": 31,
    "known": 4,
+   "merge": 1
+  }
+ },
+ "south-korea": {
+  "batch": "w2b21",
+  "candidates": 40,
+  "checks": {
+   "opus": 2,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "B4 Farmland owner response pack for the 2026 farmland census and mandatory disposal orders",
+    "B5 Employee health-certificate (보건증) and annual hygiene-training tracker for restaurants and food shops",
+    "B6 Home-care centre (방문요양) RFID attendance and claims audit pack",
+    "GAPS1 Digital work-order and month-end settlement pack for dental labs (치과기공소)",
+    "GAPS2 Insurance and safety-readiness pack for 도시민박, 한옥체험 and 농어촌민박 hosts (재난배상책임보험 extension)",
+    "GAPS4 Long-term-care provider licence-renewal (지정갱신) and 정기평가 evidence pack for small day-care and home-care centres",
+    "GAPS7 Individual taxi and freight owner compliance calendar (보수교육, 적성검사, 자동차검사)",
+    "GAPS9 Sole-trader monthly 지급명세서 / e-invoice filing reminder"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 2,
+   "disputed": 1,
+   "refuted": 2,
+   "unverifiable": 6
+  },
+  "gaps": 7,
+  "id": "south-korea",
+  "leads": [
+   {
+    "challenge": "survives 3",
+    "final": "disputed",
+    "id": "B2",
+    "mark": "new",
+    "name": "Imported-seafood distribution-history reporting (5-day reports) for importers and wholesalers",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "drop": 1,
+   "keep": 37,
    "merge": 1
   }
  },

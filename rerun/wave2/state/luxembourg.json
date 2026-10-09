@@ -1,4 +1,16 @@
 {
+ "challenge:luxembourg:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single killer. Things that weaken it: the free official guide and annexe template on myasbl.lu, a guide for medium ASBLs due in autumn 2026, ASBLs left out of the LBR sanctions phase with no date set, free filing help from the Agence du bénévolat, and filing by PDF upload. The ministry's templates timing (QP 64616) is unverifiable because the PDF text could not be extracted.",
+   "reason": "Nothing kills it outright. I found no Luxembourg-specific ASBL accounting or filing tool. Generic tools (My Member Software, AssoConnect, Odoo) and business tools such as Sage BOB do not show a Luxembourg fit. But the case is weak. The state gives free help: myasbl.lu has the small-association accounting guide in FR/EN/DE and an official \"annexe aux comptes ASBL\" template, and a guide for medium ASBLs is due in autumn 2026. Filing is a PDF/A upload, so a tool can't automate much. Paperjam says ASBLs are outside the LBR sanctions phase that started 21 September, with no date set for sanctions. The Agence du bénévolat helps small groups with filing for free. Buyers are volunteer treasurers with little money. I couldn't read the ministry's QP 64616 reply on templates.",
+   "searches": 7,
+   "sources": "https://myasbl.public.lu/ ; https://myasbl.public.lu/dam-assets/guide-et-flyer/annexe-aux-comptes-asbl.pdf ; https://paperjam.lu/article/la-conformite-des-comptes-des-organismes-non-lucratifs-reste-inconnue ; https://csv.lu/sites/default/files/parliamentary-question-replies/2026/qp_64616_1785912737870.pdf ; https://benevolat.lu/uploads/event/Les%20prochaines%20%C3%A9tapes%20apr%C3%A8s%20la%20finalisation%20des%20statuts%20d%27une%20asbl.docx ; https://guichet.public.lu/entreprises/en/gestion-juridique-comptabilite/registre-commerce/depots-publications/depot-comptes-annuels/ ; https://www.apideck.com/integrations/country/luxembourg/lang/fr.md ; https://fr.capterra.ca/software/167345/my-member-software",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b58"
+ },
  "discover:A:luxembourg": {
   "result": {
    "blocked_searches": 0,
@@ -671,6 +683,64 @@
     "WebFetch: gouvernement.lu EUDR press release 9 July 2026; eudr.lu redirect; environnement.public.lu EUDR page"
    ],
    "searches": 13
+  },
+  "tag": "w2b58"
+ },
+ "opus:luxembourg:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Luxembourg ASBL-specific accounting or filing software. Luxembourg accounting tools target businesses and fiduciaries (Sage BOB, WinBooks, Horus, Orbis Finance, Caseware Lux FinTax, PwC e-Accounts, KPMG). Free state help: the guide comptable de la petite association on myasbl.lu, the good-practices guide, the LBR helpdesk and the Agence du bénévolat. A parliamentary reply cited the ministry's plan for accounting templates for small and medium ASBLs; I could not extract the PDF text to confirm this, so their timing is unverified. Because filing is a PDF upload, a third-party tool cannot automate submission much. French and German association SaaS was not checked for Luxembourg fit (not_reached).",
+   "duty": "Law of 7 Aug 2023 (Luxembourg, in force): every ASBL keeps accounts. A small ASBL (at most 3 FTE, revenue at most EUR 50k, assets at most EUR 100k) prepares a receipts-and-expenses statement plus an annex; the annex form is set by a grand-ducal regulation of 17 Feb 2025. Larger ASBLs use double entry. The general assembly approves the accounts within 6 months of year end and they are filed with the RCS within the following month (guichet: within 7 months), electronically at lbr.lu with LuxTrust or eID. Annual. Possible sanctions: legal actions inadmissible, dissolution, penal (art. 71). Per Paperjam (9 Oct 2026), ASBLs are outside the coercive phase launched 21 Sep 2026; LBR can only measure compliance from 2026 accounts filed in 2027. A parliamentary document says ASBLs file in classic format (no eCDF) and the standard chart of accounts (PCN) does not apply to them.",
+   "market": "8,612 ASBLs registered at 30 June 2026 (LBR via Paperjam). Between 16 Dec 2025 and 16 Jun 2026 there were 5,138 ASBL filing requests, of which 1,403 were annual accounts. Most ASBLs are likely small cash-basis volunteer bodies; the share able to pay is unknown.",
+   "reason": "The duty is real. Under Luxembourg's law of 7 August 2023, every ASBL must keep accounts sized to its activity (small ones: a receipts-and-expenses statement plus a standard annex) and file them yearly at lbr.lu within about 7 months of year end. Possible sanctions are administrative or judicial dissolution and penal penalties (art. 71), but none have been applied to ASBLs yet; checks start with 2026 accounts filed in 2027. I found no Luxembourg ASBL-specific tool, only business software (Sage BOB, Orbis, Caseware) and fiduciaries. Against it: the free state accounting guide covers the small-ASBL job, the ministry plans free templates, filing is a simple PDF upload, the work is yearly, volunteer treasurers pay little, and the market is about 8,600.",
+   "searches": 6,
+   "sources": "https://paperjam.lu/article/la-conformite-des-comptes-des-organismes-non-lucratifs-reste-inconnue ; https://en.paperjam.lu/article/non-profit-account-compliance-rate-remains-unknown ; https://guichet.public.lu/entreprises/en/gestion-juridique-comptabilite/registre-commerce/depots-publications/depot-comptes-annuels/ ; https://www.lbr.lu/mjrcs/jsp/webapp/static/mjrcs/en/mjrcs/pdf/Webinaire_ASBL.pdf ; https://www.pwc.lu/en/newsletter/2023/loi-du-7-aout-2023-de-nouvelles-obligations-comptables.html ; https://myasbl.public.lu/dam-assets/ctie/documents/guide-comptable-petite-association.pdf ; https://wdocs-pub.chd.lu/docs/exped/0129/132/259321.pdf ; https://wdocs-pub.chd.lu/docs/exped/2026/06/QP_63799_1781697701133.pdf ; https://www.kehlen.lu/media/b10cee66-3598-4e70-9dde-b28218d91367/asbl-mi-mars-et-avril-2024.pdf",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b58"
+ },
+ "sonnet:luxembourg:A12": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real: guichet.public.lu describes MENJE agrement, a mandatory education-and-care contract, a 12-child cap, and CSA provider recognition with an annual activity report. The market is tiny and shrinking. A parliamentary document, probably from about 2022, gives 448 active assistants and says the number keeps falling, so I could not verify a current count. They are home-based sole carers with little spend. CSA reform (MENJE press kit, Jan 2026) and bill 8686 are in flux, which adds uncertainty. I did not read whether the state CSA portal already handles billing, and I found no dedicated software. The niche is too small to support a business. I ran only 2 searches and opened no pages, so the competition check is incomplete.",
+   "searches": 2,
+   "sources": "https://guichet.public.lu/fr/entreprises/creation-developpement/profession/profession-encadrement/assistance-parentale-agrement.html ; https://wdocs-pub.chd.lu/docs/Dossiers_parlementaires/8686/20260319_Avis.pdf ; https://men.public.lu/content/dam/men/catalogue-publications/dossiers-de-presse/2025-2026/dossier-presse-20260112-reforme-csa.pdf",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b58"
+ },
+ "sonnet:luxembourg:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: law of 23 Jan 2025, LBR sanctions phase began 21 Sep 2026 (registered letter at T, warning T+30d, extract notes T+60d, EUR 40/day capped at EUR 3,600 after 7 months, strike-off at 12 months). Paperjam counts about 53,337 dossiers in scope, mostly missing annual accounts (38,716), missing national ID numbers and address mismatches. Weaknesses: it is a one-off remediation wave rather than recurring, and defects are fixed once. The LBR portal shows defects to filers, and fiduciaries, PwC and law firms offer remediation. Luxgap sells RBE vs RCS cross-checking. Buyers are fragmented and the fix is a small filing task. Not a good fit for a standalone SaaS. Competitor search was shallow, and no direct micro-company monitor was found.",
+   "searches": 2,
+   "sources": "https://paperjam.lu/article/registres-53-337-dossiers-exposes-aux-sanctions ; https://lbrcontent.public.lu/dam-assets/actualites/phase-enforcement-lancement/lbr-avis-au-public-lancement-de-la-phase-de-sanctions-du-dispositif-de-mise-en-conformite.pdf ; https://www.pwc.lu/en/newsletter/2026/lbr-monitoring-compliance-procedure.html ; https://luxgap.com/services/agent-kyc/ ; https://www.ogier.com/news-and-insights/insights/luxembourg-circular-lbr-26-02-enforcement-phase-begins-for-rcs-and-rbe-compliance-procedure/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b58"
+ },
+ "sonnet:luxembourg:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Law of 12 Nov 2002 requires ministerial authorisation (5 years, renewable), per-agent approval with an honorability check, and prior approval of service-rule changes. Bill 8031 was adopted 7 Jul 2026 (law of 17 Jul 2026 per frontaliers-grandest). It takes effect 1 Nov 2026: no agency temps or self-employed guards, and a 25-150 EUR fee per approval request. Event-security access rules apply from 1 Feb 2027. No named competitor found, but I did not check generic tools. The firm count was not found, and the market looks tiny, probably a few dozen firms. Most duties are one-off approvals, not a recurring workflow, and large firms probably dominate. I could not verify the fines of 500-50,000 EUR. Low buyer volume, so the score is 3.",
+   "searches": 4,
+   "sources": "https://guichet.public.lu/fr/entreprises/sectoriel/gardiennage-surveillance/agences-securite/agrement-gardiennage.html ; https://frontaliers-grandest.eu/?p=67760 ; https://wdocs-pub.chd.lu/docs/Dossiers_parlementaires/8031/20260828_AccordDispenseSecondVote.pdf ; https://wdocs-pub.chd.lu/docs/Dossiers_parlementaires/8031/20260731_RapportCommission.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b58"
+ },
+ "sonnet:luxembourg:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Law of 23 Dec 2022 is real. Government timeline lists risk analyses in \"réseaux domestiques\" by 12.01.2029, so a duty is planned. I could not find the grand-ducal regulation listing lieux prioritaires, or the owner duties (sampling, registers, penalties), or site counts. The 2019 Santé circular on Legionella is recommendations only (sports halls, schools, campsites), not binding. No Luxembourg logbook software found. Only Novalair (service) and foreign vendors. The deadline is over 2 years away, the duty is unclear, buyers are scattered and the market is small, so urgency and willingness to pay are weak. The duty is likely to fall mostly on communes and large buildings, not small firms.",
+   "searches": 4,
+   "sources": "https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2023/01-janvier/12-drenkwaassergesetz.html ; https://maint.gouvernement.lu/dam-assets/circulaires/2019/juillet-decembre/3729.pdf ; https://en.paperjam.lu/article/disinfection-after-legionella-pollution ; https://ampeid.org/static/d92562ed5e1fa06bc784325af9083821/lux216230..pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
   },
   "tag": "w2b58"
  },

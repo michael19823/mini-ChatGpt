@@ -1,4 +1,15 @@
 {
+ "challenge:dominican-republic:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Nothing found kills the idea. Searches in Spanish turned up no DR-specific software for ASFLs or churches that prepares the ISFL-01. Foreign church tools (Aplos, Church Windows, Elexio) don't support the DGII. General DR tools (Alegra, MisCuentas, Odoo l10n_do) cover only 606/607. The duty is still in force: DGII states 120 days after year end, with annexes A-E. DGII's Guia28 says filing can be done through the Oficina Virtual. No pre-fill was confirmed. The market is small, though. CASFL figures: 6,782 registered, about 2,757 active public-benefit bodies; about 8,000 total, half inactive; roughly 800 receive state funds. Willingness to pay is low and accountants serve the niche, so I score it below the first check.",
+   "searches": 6,
+   "sources": "https://dgii.gov.do/contribuyentesRegistrados/regimenesEspeciales/asociacionesSinFinesLucro/Paginas/deberesFormales.aspx ; https://dgii.gov.do/publicacionesOficiales/bibliotecaVirtual/contribuyentes/Otros/Documents/Guia28SinFinesdeLucro.pdf ; https://www.elcaribe.com.do/panorama/dinero/afirma-centro-transparenta-la-gestion-de-los-fondos-publicos/ ; https://www.elcaribe.com.do/panorama/pais/dice-mayoria-ong-no-estan-afiliadas/ ; https://acento.com.do/economia/casfl-cierra-convocatoria-de-subvencion-con-solicitudes-fondos-por-mas-de-rd-7-mil-millones-9217492.html ; https://eldinero.com.do/321776/el-89-de-ong-rindieron-cuentas-de-manera-oportuna-pero-hace-falta-evaluacion-del-uso-de-fondos-publicos/ ; https://apps.odoo.com/apps/modules/18.0/nexprint_l10n_do_accounting ; https://www.capterra.es/directory/30902/church-accounting/software",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b60"
+ },
  "discover:A:dominican-republic": {
   "result": {
    "blocked_searches": 0,
@@ -626,6 +637,100 @@
     "empresas de ascensores República Dominicana mantenimiento mensual contrato certificación anual normativa dominicana sin regulación ascensores"
    ],
    "searches": 8
+  },
+  "tag": "w2b60"
+ },
+ "opus:dominican-republic:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No DR software found for ASFLs, churches or the ISFL-01. General DR accounting tools already produce the 606/607/608 reports: Alegra, and MisCuentas Contable (free tier, DGII 606/607 formats per its Capterra listing). Foreign church-accounting tools (Aplos, CDM+, Elexio, Church Windows) do not support the DGII. CASFL's SIGASFL portal handles registration, grant requests and accounting for state funds. Local accountants are the de facto service for the ISFL-01. Whether the DGII Oficina Virtual pre-fills the ISFL-01 was not checked (the DGII page says the return is filed at the local tax office).",
+   "duty": "Ley 122-05 plus DGII formal duties: annual ISFL-01 return with annexes A to E, due within 120 days of fiscal year end (30 April for a December close), with donor names and addresses, bank movements and beneficial owners. Confirmed on the DGII's Deberes Formales page. IR-3 and IR-17 monthly by the 10th if the body has staff or makes withholdings; IT-1 by the 20th if it withholds ITBIS. The DGII page does not mention 606/607. Ley 30-26 (18 June 2026): 3% monthly surcharge, capped at 100%, from 1 July 2026, per siemprealdia, PwC and Presidencia news (official law text not opened). The ISFL-01 involves no tax payment. CASFL rules: SIGASFL registration and sector approval; accounting for state funds under Decreto 40-08. The claimed 3-year renewal was NOT verified.",
+   "market": "More than 7,000 associations were in the CASFL Registro Nacional de Habilitación in 2019 (elnuevodiario/acento). No current figure was found. The total number of incorporated ASFLs, including churches, is probably higher, but only part of them are active and file. The share that use a paid accountant is unknown.",
+   "reason": "The DGII's own page confirms the annual ISFL-01 return with annexes A to E (donations, contracts, commercial activity, expenses, members and final beneficiaries), due 120 days after year end. IR-3 and IR-17 are due monthly by the 10th when they apply. Trade sources say Ley 30-26 set a 3% monthly late surcharge, capped at 100%, from 1 July 2026. The ISFL-01 is informational and carries no ISR payment, so the main risk is losing the exemption, not a large fine. No DR software for ASFLs or ISFL-01 was found. But Alegra and the free MisCuentas already produce the 606/607 reports, and accountants do the annual return. Many buyers are small churches with little money to spend. The 3-year CASFL renewal was not verified.",
+   "searches": 6,
+   "sources": "https://dgii.gov.do/contribuyentesRegistrados/regimenesEspeciales/asociacionesSinFinesLucro/Paginas/deberesFormales.aspx ; https://dgii.gov.do/publicacionesOficiales/bibliotecaVirtual/contribuyentes/Otros/Documents/Guia28SinFinesdeLucro.pdf ; https://siemprealdia.co/republica-dominicana/impuestos/reforma-al-codigo-tributario-ley-30-26/ ; https://siemprealdia.co/republica-dominicana/impuestos/calendario-de-implementacion-de-la-ley-30-26/ ; https://www.pwc.com/ia/es/publicaciones/Noticias-Tax-Legal/Tax-and-legal-2026/modificaciones-Ley-30-26.pdf ; https://elnuevodiario.com.do/convocan-a-representantes-de-asfl-a-presentar-candidaturas-para-el-periodo-2019-2021/ ; https://acento.com.do/economia/mepyd-capacita-asociaciones-sin-fines-lucro-nuevo-sistema-informatico-8649198.html ; https://blog.alegra.com/republica-dominicana/reportes-contables-606-607-608/ ; https://www.capterra.ca/software/1099737/MisCuentas-Contable",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b60"
+ },
+ "opus:dominican-republic:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no compliance-specific product, but the core job does not exist yet. Generic PMS and channel managers in the DR were not checked (not_reached).",
+   "duty": "No duty is in force. The MITUR draft resolution creating RENATUR (per-property registration, platforms delisting unregistered listings after 60 days, revocation as the sanction) was put to public consultation from late May to 22 July 2026. MITUR's legal counsel Brenda Morales then withdrew it on 20 July 2026 and took it off the institutional portal so a dialogue table with the sector could be held. In searches up to early October 2026 I found no re-issued or approved text, no new consultation and no date for the dialogue table. Airbnb has suggested the rule should go through Congress. Guest registers and tourism levies are not required: the draft itself said there would be no new taxes or licences. Recurrence was only a one-off registration plus updates.",
+   "market": "MITUR, as cited by ADORECO, puts it at about 60,000 short-term rental properties and more than 140,000 rooms. SITUR counted more than 49,000 properties and 114,938 rooms in six main tourist hubs in December 2025. MITUR reported 47,474 properties in February 2024.",
+   "reason": "The trigger has gone. MITUR withdrew the RENATUR draft on 20 July 2026 and moved to a dialogue table that has no set date. Searches up to October 2026 found no new or approved rule, so no small host faces a mandatory duty now. Even if the rule came back, it would be a one-off, free per-property registration with no levy or guest-register duty. Platforms like Airbnb would likely collect the number themselves, which leaves little recurring pain to sell against. The market is real (about 49k to 60k properties) and ADORECO gives a route to buyers, so this is worth re-checking if MITUR or Congress re-issues a rule. Today, though, there is no live duty to build around.",
+   "searches": 5,
+   "sources": "https://inmobiliario.do/renatur-en-pausa-que-proponia-el-borrador-y-que-sigue-ahora/ ; https://acento.com.do/turismo/rentas-cortas-son-invitadas-a-mesa-de-dialogo-para-definir-su-regulacion-pero-aun-no-hay-fecha-9724618.html ; https://inmobiliario.do/adoreco-informa-inicia-conversaciones-con-plataformas-y-sectores-estrategicos-tras-el-retiro-del-renatur/ ; https://diariolibre.com/economia/turismo/2026/07/21/proponen-registro-oficial-a-rentas-cortas-en-rd/3605417 ; https://acento.com.do/turismo/crece-renta-de-airbnb-en-la-altagracia-pero-la-regulacion-del-sector-aun-no-despega-9674669.html ; https://revistamercado.do/money-invest/daily-news/regulacion-de-rentas-cortas-en-republica-dominicana-claves-del-nuevo-marco-legal-y-fiscal/",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b60"
+ },
+ "sonnet:dominican-republic:A10": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Ley 225-20 is real (Oct 2020, covers collection and transport), but I could not confirm a recurring hauler registry, manifest or periodic report, its frequency, or its penalties. The executive summary mentions only generator registration \"in certain cases\", traceability as a principle, and minor/serious/very serious infractions with no amounts. I found no Dominican manifest software and no operational state manifest platform, only the #RDCeroResiduos transparency portal. The reform status is unconfirmed. Market size was not found. The duty looks weakly operationalised, so enforcement and willingness to pay are doubtful. The score is provisional.",
+   "searches": 2,
+   "sources": "https://phlaw.com/es/resumen-ejecutivo-ley-225-20-sobre-gestion-integral-y-coprocesamiento-de-residuos-solidos/ ; https://phlaw.com/wp-content/uploads/2025/12/LEY-225-20-SOBRE-GESTION-INTEGRAL-Y-COPROCESAMIENTO-DE-RESIDUOS-SOLIDOS.pdf ; https://www.opengovpartnership.org/members/dominican-republic/commitments/DO0063/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b60"
+ },
+ "sonnet:dominican-republic:A14": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. DIGEMAPS issued 11,826 registro sanitario licences in 2024, including 7,233 renewals, of which only 1,186 were for food and beverages. Validity looks like 5 years, but only from a regional news piece, not an official source. Renewal is infrequent and low-volume for food. Decree 117-18 (automatic renewal) and simplified procedures cut the paperwork. Samples are no longer required for renewals. DIGEMAPS already runs its own online filing, and I did not check its notice features. I found no commercial tracker but did not search thoroughly. The fee and penalty were not confirmed. Weak recurring pain (one renewal per product every 5 years), so a low score.",
+   "searches": 2,
+   "sources": "https://presidencia.gob.do/noticias/digemaps-emitio-mas-de-11000-licencias-de-registro-sanitario-durante-el-ano-2024 ; https://leap.unep.org/en/countries/do/national-legislation/decreto-no-117-18-reglamento-para-la-renovacion-automatica-de-los ; https://cdn.com.do/nacionales/paso-a-paso-sacar-registros-sanitarios-en-rd/ ; https://eldia.com.do/digemaps-emitio-11-mil-826-licencias-de-registro-sanitario-en-el-2024/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b60"
+ },
+ "sonnet:dominican-republic:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Ley 63-17 makes routes state property, served via INTRANT or ayuntamiento operating licences (5-year model licence issued to a company). Art. 346 forces associations and unions to incorporate as companies. Art. 44 fines unlicensed operation 5-10 minimum salaries. But I found no recurring filing, no firm deadline, and no current document checklist for passenger-route files. This is mostly a one-off transformation and licensing exercise, so frequency is low. The buyers are federations and unions, not many small firms. I found no dedicated competitor, but I ran only two searches, so that is not proven. I did not look for a market count. INTRANT Digital covers driver licences only. Weak recurring-SaaS fit.",
+   "searches": 2,
+   "sources": "https://intrant.panel-dev-pys.ogtic.gob.do/wp-content/uploads/2025/05/Modelo-Licencia-de-Operacin-SPTP.pdf ; https://intrant.panel-dev-pys.ogtic.gob.do/wp-content/uploads/2025/02/Resolucion-No.-008-2018-Sobre-Procedimiento-para-los-ente-Prestadores-del-Servicio-publico-de-Transporte-de-Pasajeros-Sindicatos-Empresas.pdf ; https://intrant.panel-dev-pys.ogtic.gob.do/wp-content/uploads/2025/02/Resolucion-Regulatoria-Num.-013-2023-Que-complementa-la-amnistia-para-viabilizar-el-proceso-de-transformacion-del-sector-transporte-de-pasajeros-inter-urbano.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b60"
+ },
+ "sonnet:dominican-republic:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Ley 311-68 and Reglamento 322-88 require representatives, distributors, formulators, retail agrochemical outlets and fumigators to register with Sanidad Vegetal. Resolución RES-MARD-2024-22 changed renewal rules, but only for product registration, and the page I read gives no business-renewal cycle, record rules, penalties or fees. I found no outlet count. A search for local competing software or a state portal found none, but I ran only one such search, so that is weak. The workflow looks like a one-off registration plus occasional inspections, not a frequent filing. The market is probably a few hundred to a few thousand outlets and WTP is likely low. I did not read the IDB inspector terms of reference. The 10MB manual PDF failed to load. Score stays low.",
+   "searches": 2,
+   "sources": "https://fc-abogados.com/todo-relacionado-con-el-registro-y-comercializacion-de-plaguicidas-en-republica-dominicana/ ; https://leap.unep.org/en/countries/do/national-legislation/resolucion-no-res-mard-2024-22-modificacion-y-adecuacion-del ; https://vucerd.gob.do/media/2337/exportación-plaguicidas-última-actualización.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b60"
+ },
+ "sonnet:dominican-republic:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Ley 42-01 and Reglamento de habilitación (cited as 11-38 or 1138-03) require an MSP habilitación licence. One press item says a licence was granted for 2 years, so renewal recurs, but I found only that one case. MSP closed 501 establishments from 2024 to April 2026. A public \"Establecimientos Habilitados\" lookup and a state system, SiHA, exist, so providers can already see their status. I found no private tracker, but I ran only two searches. Weak points: a licence renews about every 2 years (low frequency), the work is mostly one-off paperwork and inspection prep, there is little recurring workflow to automate, and the free state portal covers status checks. Fee and document details were not found.",
+   "searches": 2,
+   "sources": "https://www.infobae.com/republica-dominicana/2026/05/02/ministerio-de-salud-publica-clausura-mas-de-500-centros-sanitarios-y-esteticos-en-republica-dominicana/ ; https://elnuevodiario.com.do/salud-publica-pone-a-disposicion-consulta-para-verificar-centros-de-salud-y-exequatur-de-medicos-habilitados/ ; https://portuaria.gob.do/area-medica-de-autoridad-portuaria-dominicana-recibe-habilitacion-del-ministerio-de-salud-publica ; https://eldia.com.do/la-habilitacion-de-centros-es-la-garantia-de-la-calidad/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b60"
+ },
+ "sonnet:dominican-republic:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Ley 631-16 requires licence renewal, and MIP resolutions MIP-RR-0008-2025 and MIP-RR-0010-2025 set a surcharge grace period that ran to 31 Jan 2026. After that, holders face the law's sanctions, including seizure. I found no later extension, but I could not rule one out. The MIP already offers online renewal for individuals and for companies, so the state portal covers the filing. I found no competing software, but also no sign of demand for it. The only gap is a reminder or fleet tool for a small, hard-to-reach group of licensees, and the surcharge deadline has passed. I did not find the number of licensees or any armería-specific recurring duty. Pain, willingness to pay and buyer reach all look weak.",
+   "searches": 2,
+   "sources": "https://mip.gob.do/transparencia/images/docs/base_legal/Resoluciones/2025/Resolución%20núm.%20MIP-RR-0010-2025%20extiende%20el%20plazo%20de%20renovación%20de%20licencias%20de%20porte%20de%20armas.pdf ; https://mip.gob.do/transparencia/images/docs/base_legal/Resoluciones/2025/Resolución_núm._MIP-RR-0008-2025_Gracia_económica_Armas.pdf ; https://elnuevodiario.com.do/interior-y-policia-extiende-hasta-31-de-enero-de-2026-gracia-para-renovacion-de-licencias-de-armas-de-fuego/ ; https://elnuevodiario.com.do/ministerio-de-interior-y-policia-anuncia-nuevos-servicios-en-linea/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
   },
   "tag": "w2b60"
  },

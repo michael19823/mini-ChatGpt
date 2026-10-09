@@ -1,0 +1,861 @@
+{
+ "discover:A:el-salvador": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Owner-operators and small firms with cabezales, trailers, tipper trucks and rigid trucks (158,402 registered cargo units; 15,385 cabezales and 16,873 trailers)",
+     "category": "18. Transport operators: small trucking and bus fleets",
+     "evidence": "https://www.elsalvador.com/noticias/nacional/revision-transporte-carga-controles-vehiculares/1296171/2026/ ; https://www.elsalvador.com/noticias/nacional/revision-transporte-carga-vmt/1287692/2026/ ; https://www.eldiariodehoy.com/noticias/nacionales/vmt-restringe-carga-en-carretera-al-puerto-de-la-libertad/88173/2026/",
+     "existing": "None seen. Only 12 authorised workshops (7 RTV, 5 emissions); MOPT plans 50+. Booking procedure not described, so booking is likely handled by the state or the workshops.",
+     "known_id": "K11",
+     "known_mark": "new",
+     "known_note": "Same sector family as K11 (buses) but a different buyer (cargo) and a different duty (RTV, not the bus subsidy).",
+     "name": "Cargo-truck RTV (revisión técnica vehicular) tracker and booking for owner-operators and small fleets",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Resolución DGTC-JDAA-UTTC-003/2026 (8 Apr 2026): RTV mandatory for cabezales and trailers from 8 Aug 2026, all tipper trucks from 5 Oct 2026; due by the month the circulation card renews; cabezales annual, trailers every 2 years; units without a valid RTV can be seized at roadside checks. Next model years to be announced.",
+     "unchecked": "Competitor search in Spanish was not run (budget used). Is there a state booking portal or SIMPLE.SV flow? RTV fee? Dates for the next model-year phases? Willingness to pay of small truckers. Revisit if MOPT extends RTV to all cargo units, which would turn it into a mass deadline."
+    },
+    {
+     "buyer": "Small trucking firms, volqueta and hazmat carriers",
+     "category": "18. Transport operators",
+     "evidence": "https://www.elsalvador.com/noticias/nacional/revision-transporte-carga-controles-vehiculares/1296171/2026/ ; https://www.elsalvador.com/dinero-y-negocios/transporte-autobuses-viceministerio-de-el-salvador/1277676/2026/",
+     "existing": "Generic fleet GPS and maintenance tools probably exist; none checked.",
+     "known_id": "K11",
+     "known_mark": "new",
+     "known_note": "Overlaps with the RTV candidate; likely best merged with it.",
+     "name": "Cargo and hazardous-materials permit and document renewal tracker (VMT permits, tarjeta de circulación, RTV, hazmat permit) for small hauliers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "VMT cargo permits digitised on simple.sv; VMT seized 5 cargo vehicles lacking hazmat permits; RTV now tied to circulation card renewal.",
+     "unchecked": "Competitors; real renewal calendar; whether permits are online-only via simple.sv."
+    },
+    {
+     "buyer": "Small NGOs, foundations and associations receiving foreign funds; also all associations filing annual audited financial statements",
+     "category": "17. Community and religious bodies: associations, charities",
+     "evidence": "https://lexlatin.com/opinion/ley-agentes-extranjeros-el-salvador-efectos-un-ano-vigencia ; https://diario.elmundo.sv/politica/frenan-ley-que-exige-estados-financieros-a-asociaciones-fundaciones-e-iglesias ; https://www.icnl.org/research/library/el-salvador_csolaw/",
+     "existing": "Not checked; accounting firms and law firms likely advise.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Different buyer from K01's lawyers, notaries and accountants. Related only as a compliance kit.",
+     "name": "Foreign Agents Law (RAEX) and annual-filing compliance kit for small NGOs, foundations and associations",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ley de Agentes Extranjeros in force 7 Jun 2025: RAEX registration within 90 days, 30% tax on foreign funds, no operating without registration. Associations law: annual financial statements to the Registro by the last working day of April.",
+     "unchecked": "Competitor search not run. Many NGOs have already closed or left (Cristosal, Fudecso and others). Political risk. Real count of remaining small associations. Whether the fee and church accounting bill was ever passed."
+    },
+    {
+     "buyer": "Drilling companies and farmers or households who drilled wells",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "Search result summary of ASA documents; https://transparencia.gob.sv/institutions/asa/documents/544351/download",
+     "existing": "None seen. ASA runs the process.",
+     "known_id": "K03",
+     "known_mark": "known",
+     "known_note": "Same duty family as K03 (ASA wells); the driller buyer is slightly different but low volume.",
+     "name": "Well-driller legalisation and well-registration paperwork service (ASA)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley General de Recursos Hídricos (12 Jul 2022): art. 98 exploration permit (max 1 year), art. 169 legalisation by drillers and well users within 1 year (deadline probably passed), well registration form, then a use authorisation.",
+     "unchecked": "Whether the legalisation window was extended; number of drillers; whether ASA has an online portal."
+    },
+    {
+     "buyer": "Cattle traders, small ranchers, market operators",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.elsalvador.com/?p=1244514 ; https://diario.elmundo.sv/economia/el-salvador-suma-356-casos-de-gusano-barrenador-segun-el-mag",
+     "existing": "SIMPLE.SV already handles brand registration online.",
+     "known_mark": "new",
+     "name": "Livestock movement, brand (fierro) and traceability paperwork under the screwworm emergency",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Gusano barrenador emergency since Dec 2024 (2,973 cases to Jun 2025), MAG inspection points; brand registration valid 5 years and ownership transfer $33.90 via SIMPLE.SV.",
+     "unchecked": "Whether movement permits or a traceability register are mandatory; the current state of the emergency."
+    },
+    {
+     "buyer": "Agro-input shops (agroservicios) and agrovet retailers",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "Search result summary of MAG and legal texts: https://faolex.fao.org/docs/pdf/els133620.pdf ; https://transparencia.gob.sv/institutions/mag/documents/264091/download",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Pesticide sales control book (libro de control de ventas) and MAG establishment compliance for agroservicios",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Decree (2004) requires dealers and users to keep a sales control book with buyer name, DUI, signature and intended use; MAG authorised-establishment certificate; aerial application rules (2011).",
+     "unchecked": "Whether the book is paper or digital and who inspects it; whether the 2004 decree is still current; any DGSVA reporting; number of agroservicios; competitor search not run. Strong rural counter-trade fit if the duty is real."
+    },
+    {
+     "buyer": "Small vet clinics and vet pharmacies",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://local.cssp.gob.sv/wp-content/uploads/2016/06/EX-CD-N-15-2-RTA-CLINICA-VETERINARIA-ASISTENCIAL-EN-ONG’S-JVPMV-1.pdf ; https://local.cssp.gob.sv/wp-content/uploads/2016/11/EX-CD-N-58-3-RTA-CONSULTORIO-VETERINARIO-JVPMV-1.pdf",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Veterinary clinic compliance kit (controlled-products book, regente contract, JVPMV annual solvency, CSSP opening file)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "CSSP authorisation with JVPMV favourable report (95% critical, 75% major criteria); regente (min 8 h/day) keeps the controlled-products book; annual JVPMV solvency under DL 373.",
+     "unchecked": "Number of clinics, inspection frequency, whether any digital reporting exists."
+    },
+    {
+     "buyer": "Registered beekeepers and honey packers (about 2,467 registered, only 200-350 active exporters)",
+     "category": "8. Beekeepers",
+     "evidence": "https://www.infobae.com/el-salvador/2026/05/20/la-crisis-en-la-apicultura-de-el-salvador-reduce-exportaciones-y-numero-de-productores/ ; https://standardsfacility.org/printpdf/1483",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Beekeeper registration and honey-export traceability kit (Código Único de Apicultor, RTS 65.03.01:14)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "MAG registration and a unique code are needed for export honey; apiaries under zoosanitary control; sector in crisis.",
+     "unchecked": "Whether MAG requires periodic hive or production reports; market too small and shrinking."
+    },
+    {
+     "buyer": "Small slaughterhouses, butchers, dairy and honey processors",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://www.infobae.com/el-salvador/2026/04/30/el-salvador-busca-redefinir-la-autoridad-para-certificar-alimentos-carnicos-y-lacteos/",
+     "existing": "None.",
+     "known_mark": "new",
+     "name": "Meat, dairy and honey establishment certification (MAG reform) readiness kit for small abattoirs and butchers",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "MAG proposal (Apr 2026) to amend the Ley de Protección a la Sanidad Vegetal, Salud Animal e Inocuidad; sent to the Health, Agriculture and Environment Committee; not approved. No obligations or dates stated.",
+     "unchecked": "Whether it is enacted; what small butchers would have to file. Watch item only."
+    },
+    {
+     "buyer": "Private septic and waste haulers, small recyclers",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://leap.unep.org/en/countries/sv/national-legislation/decreto-legislativo-no-186-ley-especial-de-recoleccion ; https://www.elsalvador.com/noticias/nacional/asamblea-plenaria-ley-andres-residuos-solidos/1230018/2025/",
+     "existing": "None seen.",
+     "known_mark": "new",
+     "name": "Private waste, septic-sludge and hazardous-waste hauler permit tracking (MARN permit, ANDRES, fire-brigade certificates)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Ley Especial de Recolección, Aprovechamiento y Disposición Final de Residuos (DL 186, 20 Dec 2024) created ANDRES; art. 60 Environment Law permit for hazardous waste; MARN closed an unlicensed septic operator in 2023. Constitutional challenge pending.",
+     "unchecked": "Whether ANDRES or MARN requires a register or periodic report from private haulers; no regulation found."
+    },
+    {
+     "buyer": "Private placement agencies and domestic-worker placement agencies",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://oldri.ues.edu.sv/id/eprint/13441/1/TESIS%20FINAL%20AGENCIAS%20DE%20COLOCACION.pdf",
+     "existing": "None.",
+     "known_mark": "new",
+     "name": "Private employment agency compliance (MTPS Departamento Nacional de Empleo)",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "MTPS oversees private placement agencies (2017 thesis only); no current rule or register found.",
+     "unchecked": "Existence of current register, reporting duty, and number of agencies."
+    },
+    {
+     "buyer": "Private cemeteries, funeral homes, parish crypts",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://el-salvador.justia.com/nacionales/leyes/ley-general-de-cementerios/gdoc ; https://transparencia.gob.sv/institutions/alc-soyapango/documents/353833/download",
+     "existing": "None seen.",
+     "known_mark": "new",
+     "name": "Private cemetery and funeral-home municipal inspection and register compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley General de Cementerios (DL 320) and its 1977 regulation require municipal inspection every 6 months; the Code Municipal lets councils control private providers; Soyapango ordinance (2017) covers private cemeteries and funeral homes.",
+     "unchecked": "Burial register format; number of private operators; whether grave-lease billing is the real pain."
+    },
+    {
+     "buyer": "Driving schools (14 authorised, up to 100 unauthorised)",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://diario.elmundo.sv/nacionales/inspectores-del-vmt-supervisaran-que-escuelas-de-manejo-cumplan-nuevos-requerimientos ; https://diario.elmundo.sv/nacionales/hasta-100-escuelas-de-manejo-no-autorizadas-funcionan-en-el-pais-revela-ministro",
+     "existing": "VMT supplies the exam software.",
+     "known_mark": "new",
+     "name": "Driving-school compliance (VMT authorisation, cameras, exam software)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "VMT gave 90 days to meet new requirements (video surveillance with authority access, new exam software) after a corruption network was dismantled; date of articles unclear (probably 2022).",
+     "unchecked": "Current rules; market only about 14 schools."
+    },
+    {
+     "buyer": "Private nurseries and childcare centres",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://www.ey.com/es_ce/technical/tax/tax-alerts/el-salvador-reglamento-y-norma-tecnica-para-la-instalacion",
+     "existing": "None seen.",
+     "known_mark": "new",
+     "name": "Early-childhood centre (CDI / nursery) authorisation and renewal file",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Early-childhood reglamento: municipal site rating, MINSAL sanitary permit, fire-brigade safety certificate, MINEDUCYT accreditation (EY tax alert; date not confirmed).",
+     "unchecked": "Renewal frequency, ISNA role, number of centres, date of rule."
+    },
+    {
+     "buyer": "Vendors and market administrations",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://diario.elmundo.sv/politica/san-salvador-centro-crea-regimen-especial-para-reubicar-a-comerciantes-desalojados-en-mayo ; https://diario.elmundo.sv/politica/cual-seria-el-proceso-para-tener-permiso-de-vendedor-ambulante-y-de-temporada-en-san-salvador-centro",
+     "existing": "None.",
+     "known_mark": "new",
+     "name": "Municipal market-stall and street-vendor permit management (San Salvador Centro special regime)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Ordinance published 1 Jul 2026, valid 2 years, for ~250 vendors evicted from Centro Histórico; requires municipal, police and penal clearances, food handler card, medical certificate.",
+     "unchecked": "Municipality-by-municipality fragmentation; buyer is the municipality, not the vendors (the state's own system, out of scope)."
+    },
+    {
+     "buyer": "Households employing domestic workers (~140,254 workers)",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://observatoriolaboral.ormusa.org/wp-content/uploads/2021/10/ISSS-y-trabajadoras-del-hogar-2016-mayo-2021.pdf ; https://transparencia.gob.sv/institutions/isss/services/12006.pdf",
+     "existing": "ISSS itself; payroll covered by K06's free SPU.",
+     "known_id": "K06",
+     "known_mark": "known",
+     "known_note": "Voluntary regime, so no mandatory recurring duty. Revisit only if affiliation becomes compulsory.",
+     "name": "Domestic-worker ISSS voluntary registration",
+     "score": 1,
+     "status": "weak",
+     "trigger": "ISSS special regime since 2010 is voluntary; contributors never above ~2,500; NGOs (ORMUSA) are lobbying for mandatory affiliation.",
+     "unchecked": "Whether any 2025-2026 reform is moving."
+    },
+    {
+     "buyer": "Owners of lifts, boilers, pressure vessels",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://www.jurisprudencia.ues.edu.sv/oajc/leyes/LegislacionLaboral/ley general de prevension de riesgos en los lugares de trabajo.pdf",
+     "existing": "None.",
+     "known_mark": "new",
+     "name": "Lift / boiler / pressure-equipment periodic inspection",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Decreto 254 only names accredited experts for steam generators and pressure equipment; no periodic certification regime found.",
+     "unchecked": "Any MTPS technical regulation or OSN mandatory standards on inspection periodicity."
+    },
+    {
+     "buyer": "Mototaxi drivers",
+     "category": "18. Transport operators",
+     "evidence": "https://www.elsalvador.com/?p=1124124",
+     "existing": "n/a",
+     "known_mark": "new",
+     "name": "Mototaxi legalisation",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "No new permits since 2010 (DL 133, 2009-10); police seizures; no path to register.",
+     "unchecked": "Rejected on the evidence that the regulator issues no permits (press report, date unclear), so there is no recurring filing to automate."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "About 140,254 paid domestic workers (EHPM 2023) but ISSS affiliation is a voluntary regime (never above ~2,500 contributors); no mandatory duty, so little pull. Nothing new beyond ISSS/AFP payroll being covered by K06.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No national register or scrap-dealer law found; only a municipal (San Salvador Centro) enforcement case on a metal recycler. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No El Salvador pawnshop or second-hand register found (only a 2019 UES thesis on tax treatment). Whether AML duties apply is unverified (relates to K01).",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Same search as 3: nothing specific to El Salvador found. AML status unverified (K01 adjacent).",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler register or law found. Only the 2025 used-vehicle import rule (model year 2017 or newer), which is not a dismantler duty.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Brand (fierro) registration with MAG valid 5 years, via SIMPLE.SV, ownership transfer $33.90; New World screwworm emergency since Dec 2024 with inspection points at livestock markets (2,973 cases to June 2025). Movement-guide rules not confirmed. Weak candidate C5.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Municipal rastros inspect carcasses in practice; MAG proposed (Apr 2026) a reform naming MAG as certifier of meat, dairy and honey establishments, still in committee. No butcher duty confirmed. Candidate C9 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Beekeepers must be MAG-registered with a Código Único de Apicultor and follow RTS 65.03.01:14 for export honey; ~2,467 registered but only 200-350 active exporters; sector in crisis (Infobae May 2026). Candidate C8 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Clinics are authorised by the CSSP with a JVPMV favourable report (95% critical, 75% major criteria) and a regente who keeps the controlled-products book; annual solvency to the JVPMV. Candidate C7 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Ley General de Recursos Hídricos (2022): drillers and well users had to legalise with ASA, exploration permit up to 1 year (art. 98), well-registration form. Driller-side candidate C4, related to K03.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Ley Especial de Recolección, Aprovechamiento y Disposición Final de Residuos (DL 186, Dec 2024) created ANDRES; MARN fined or closed an unlicensed septic operator in 2023; hazardous-transport permit needs a MARN form plus fire-brigade certificates. No private hauler register found. Candidate C10 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Decreto 254 mentions accredited experts for steam generators and pressure equipment, but no periodic inspection or certification regime found for lifts, boilers or pressure vessels. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Nothing new beyond K03. ASA authorises juntas de agua inscription and use.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Dealers need a MAG-authorised establishment certificate and, under a 2004 decree, a sales control book recording buyer name, DUI, signature and intended use; aerial application rules from 2011. Candidate C6.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "MTPS Departamento Nacional de Empleo oversees private placement agencies (2017 UES thesis only); no current register or reporting rule found. Candidate C11 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Ley General de Cementerios (DL 320) covers municipal, private and mixed cemeteries; municipalities must inspect every 6 months and some (Soyapango 2017) have ordinances for private cemeteries and funeral homes. No national register or 2025 change found. Candidate C12 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Ley de Agentes Extranjeros in force 7 Jun 2025: RAEX registration within 90 days, 30% tax on foreign funds; many NGOs have closed. Annual audited financial statements are due to the Registro by end of April under the associations law; a fee/church-accounting bill stalled in the plenary in 2023 (status unknown). Candidate C1.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "New mandatory RTV for cargo (resolution DGTC-JDAA-UTTC-003/2026): cabezales from 8 Aug 2026 (annual), trailers (every 2 years), all tipper trucks from 5 Oct 2026; RTV is required for the circulation-card renewal; only 12 authorised workshops for 158,402 cargo units. Mototaxi permits not issued since 2010. Buses covered by K11. Candidate C2 and C3.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Vendors: San Salvador Centro special 2-year regime (Diario Oficial 1 Jul 2026) for ~250 evicted vendors, with municipal paperwork; permits are municipal and fragmented. Money changers not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Driving schools: only 14 authorised vs up to 100 unauthorised; VMT requires cameras and exam software. Early-childhood centres need municipal site rating, MINSAL sanitary permit, fire-brigade certificate and MINEDUCYT accreditation. Tattoo studios, hunting and small food producers not searched. Candidates C13 and C14 (weak).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "El Salvador trabajadores domésticos registro ISSS patronos inscripción obligatoria 2026",
+    "El Salvador chatarra compra venta chatarreras registro regulación Ley 2025",
+    "El Salvador casas de empeño compraventa oro joyerías registro Ley obligaciones 2025",
+    "El Salvador desarmadurías repuestos usados vehículos registro PNC Ley 2025",
+    "MAG El Salvador registro ganaderos movilización de ganado guía de transporte rastro matadero DGG 2025",
+    "El Salvador veterinarias registro Junta de Vigilancia medicina veterinaria medicamentos veterinarios MAG DGSVA requisitos",
+    "El Salvador ASA perforación de pozos empresas perforadoras registro permiso Ley General de Aguas 2025",
+    "El Salvador MARN transportistas desechos sólidos fosas sépticas permiso ambiental recolección Ley de Gestión Integral de Residuos",
+    "El Salvador inspección ascensores calderas recipientes a presión certificación anual MTPS Ley Seguridad y Salud Ocupacional",
+    "El Salvador plaguicidas agroservicios registro MAG DGSVA licencia expendio plaguicidas fertilizantes aplicadores",
+    "El Salvador agencias de empleo privadas autorización Ministerio de Trabajo registro intermediación laboral reglamento 2025",
+    "El Salvador funerarias cementerios privados registro Ministerio de Salud permiso funcionamiento cementerios municipales ley 2025",
+    "El Salvador asociaciones fundaciones sin fines de lucro Ley 2025 registro obligaciones informes Ministerio de Gobernación Registro de Asociaciones",
+    "El Salvador taxis mototaxis transportistas VMT concesiones registro vigencia permiso renovación 2026 transporte de carga",
+    "El Salvador vendedores ambulantes mercados municipales registro matrícula de comercio alcaldía puestos mercado tasas 2025",
+    "El Salvador autoescuelas escuelas de manejo guarderías centros de desarrollo infantil CDI ISNA autorización registro requisitos 2025",
+    "Ley de Agentes Extranjeros El Salvador asociaciones fundaciones reforma Ley de Asociaciones y Fundaciones sin Fines de Lucro registro 2026 plazo adecuación contable iglesias",
+    "revisión técnica vehicular RTV El Salvador cabezales remolques volquetas plazo 2026 VMT transportistas de carga flota",
+    "El Salvador rastros carnicerías destace permiso MAG Ministerio de Salud inspección apicultores registro apiarios",
+    "ANDRES Autoridad Nacional de Residuos Sólidos El Salvador registro recolectores transportistas privados autorización reglamento 2026"
+   ],
+   "searches": 20
+  },
+  "tag": "w2b63"
+ },
+ "discover:B:el-salvador": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Beneficiadores (70), pergamineros (61), exporters (158), roasters (39), plus nurseries and seed producers (ISC 2025/26 report)",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses (also 35)",
+     "evidence": "https://www.elsalvador.com/?p=1270075 (reform summary, published 15 Apr 2026, no effective date); https://diario.elmundo.sv/economia/la-cosecha-cafetalera-2025-2026-crecio-un-7-9-segun-el-isc (firm counts); https://diario.elmundo.sv/economia/isc-admite-limitaciones-presupuestarias-para-atender-al-sector-caficultor (ISC says its budget limits its capacity)",
+     "existing": "Competitor search (Spanish) found no ISC online reporting module and no private traceability software for beneficios or contract reporting. Only World Coffee Research seeking consultants for a seed traceability system, and an IDB project on coffee information systems (scope unclear).",
+     "known_mark": "new",
+     "known_note": "Related to nothing in known list.",
+     "name": "ISC coffee compliance kit: contract reporting, third-party intake, site accreditation, nursery registration",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Reform of the Ley Especial para la Comercializacion, Registro y Proteccion de la Propiedad del Cafe, approved April 2026 with 57 votes. Report export contracts to ISC within 10 business days; export permit valid 60 business days, renewable; report intake of third-party coffee; processing at other sites needs ISC accreditation (serious offence); trading with expired registration is a very serious offence; nurseries and seed producers must register.",
+     "unchecked": "Effective date and fine amounts; whether ISC has an online portal for permits and contracts (isc.gob.sv not opened); regulation text; how many of the 158 exporters are small; willingness to pay. Market is only about 330 firms plus nurseries."
+    },
+    {
+     "buyer": "Small private clinics, medical and dental offices, clinical laboratories, home-care and elderly-care providers",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://diario.elmundo.sv/nacionales/el-78-de-establecimientos-de-salud-inspeccionados-operaban-de-forma-irregular-y-fueron-clausurados-37-locales-en-el-ultimo-ano (published 4 Sep 2026); https://diario.elmundo.sv/politica/inicia-vigencia-de-nueva-facultad-del-cssp-para-autorizar-centros-de-salud-sin-juntas; CSSP service sheets on transparencia.gob.sv/institutions/cssp (dated 2017)",
+     "existing": "No software or done-for-you service found; no competitor search run on this one (budget exhausted).",
+     "known_mark": "new",
+     "known_note": "Not the same as K08 (pharmacy controlled drugs).",
+     "name": "Private clinic, lab and dental office authorisation and regularisation kit (CSSP/URES)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "CSSP inspections: 792 of 1,003 private establishments (78.9%) non-compliant, 37 closures (17 labs), Jun 2025 to May 2026. Reform in force 15 Oct 2025 changes the authorisation route (no junta favourable report) and widens CSSP scope to home medical care and elderly care. Requirements: Conadem accreditation, bio-waste contract, e-notification authorisation, lab test list.",
+     "unchecked": "Whether there are recurring duties (annual licence renewal, regent reporting, waste manifests); size of universe; competitor search in Spanish; whether insurers or state schemes impose billing duties. Articles name no recurring filing, so this may be a one-off registration duty."
+    },
+    {
+     "buyer": "Associations, foundations and NGOs receiving foreign funds, including small community and religious bodies",
+     "category": "31. Foreign-agent law and non-profits (also 17)",
+     "evidence": "https://www.elsalvador.com/noticias/nacional/raex-tendra-20-dias-habiles-para-aprobar-o-denegar-solicitudes-inscripcion/1224281/2025/ ; https://lexlatin.com/opinion/ley-agentes-extranjeros-el-salvador-tramites-impuestos-donaciones-financiamiento-internacional ; https://diario.elmundo.sv/politica/unas-mil-asociaciones-fundaciones-y-ong-se-han-inscrito-en-gobernacion-desde-2019 (headline only)",
+     "existing": "None seen; no competitor search run.",
+     "known_mark": "new",
+     "known_note": "Related to nothing in known list.",
+     "name": "Foreign-agent (RAEX) registration and 30% tax compliance for small associations and foundations",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ley de Agentes Extranjeros (approved May 2025): register within 90 days, 20 business days review, 10 days to cure; sworn declaration with funding, budget and books; 30% tax on foreign transactions and donations with a humanitarian and medical exemption (needs proof); fines $100,000 to $250,000; RAEX can request information and visit sites. One legal opinion says monthly reports to DGII.",
+     "unchecked": "Number of obliged entities and how many remain active; monthly DGII reporting; 2026 enforcement and amendments; competitor search; political and reputational risk of serving this segment; weak ability to pay."
+    },
+    {
+     "buyer": "Bitcoin and crypto exchanges, custodians, payment processors, advisers",
+     "category": "32. Digital asset service providers (also 28)",
+     "evidence": "https://dplnews.com/asamblea-el-salvador-reformo-ley-de-activos-digitales/ ; https://dplnews.com/?p=251495 (30 approved, 120+ applications); https://files.griddo.ecija.com/ley-de-emision-de-activos-digitales-final30.pdf",
+     "existing": "Generic AML tools exist (not searched); no local competitor search run.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Different buyer from K01 (crypto providers rather than lawyers, notaries and brokers).",
+     "name": "Digital asset service provider (PSAD) licensing and AML reporting kit",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley de Emision de Activos Digitales (2023) and later reform: mandatory CNAD registration, AML (GAFI), client asset protection, cybersecurity; beneficial-owner register and periodic reports to CNAD.",
+     "unchecked": "Reform year not confirmed; real count of obliged firms is under 200; reporting formats; competition from generic AML vendors."
+    },
+    {
+     "buyer": "Private security agencies (and firms hiring guards)",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://insightcrime.org/es/noticias/noticias-del-dia/el-salvador-logra-empresas-seguridad-privada-cumplan-regulaciones/ (date not visible in result); https://camjol.info/index.php/RPSP/article/view/1759/1569 (2014 study)",
+     "existing": "None seen; no competitor search run.",
+     "known_mark": "new",
+     "known_note": "Related to nothing in known list.",
+     "name": "Private security agency licence renewal and PNC reporting",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Ley de los Servicios Privados de Seguridad: PNC authorisation with inspection of premises, arms, munitions and personnel files; 30 business days; fines 2 to 60 minimum wages. Reports say 450+ agencies operated with lapsed papers and fines were never imposed.",
+     "unchecked": "Current law and reglamento, number of agencies in 2026, periodic report content (staff, arms), whether enforcement has tightened, existing guard-management software."
+    },
+    {
+     "buyer": "Independent gas station operators",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://dinero.com.sv/en/economy/item/7707-inspectors-locate-gas-stations-without-fuel-price-updates.html (404 on fetch, snippet only); https://dinero.com.sv/en/breaking_news/verification-of-prices-and-volume-at-fuel-stations-by-dgehm/ ; https://transparencia.gob.sv/institutions/direccion-general-de-energia-hidrocarburos-y-minas/services/10846.pdf",
+     "existing": "WhatsApp channel already used; larger chains handle it in-house.",
+     "known_mark": "new",
+     "known_note": "Related to nothing in known list.",
+     "name": "Fuel station price-change reporting and pump verification",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Report every price change to DGEHM (inspectors check timeliness; managers asked to use WhatsApp); volume, quality and safety inspections; pump calibration by firms evaluated by CIM/DGEHM.",
+     "unchecked": "Number of independent stations; formal reporting system; fines."
+    },
+    {
+     "buyer": "LPG filling companies and distributors",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.elsalvador.com/dinero-y-negocios/finanzas-personales/precios-gas-propano-economia/1286355/2026/ ; https://diario.elmundo.sv/economia/precios-del-gas-propano-subiran-en-octubre-impulsados-por-tensiones-en-medio-oriente",
+     "existing": "None checked.",
+     "known_mark": "new",
+     "known_note": "Related to nothing in known list.",
+     "name": "LPG envasadora subsidy claims and cylinder compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Fixed-price mechanism extended 1 Jun 2026 to 31 May 2027 with Hacienda transfers to envasadoras; DGEHM verifies price, cylinder weight and safety (Aug 2026).",
+     "unchecked": "Few envasadoras, probably large; claim process and small distributor duties."
+    },
+    {
+     "buyer": "Small coffee exporters, cooperatives and cocoa exporters selling to the EU",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://diario.elmundo.sv/economia/mas-de-280-fincas-se-han-identificado-como-origen-para-exportar-a-la-union-europea-con-certificado-de-libre-deforestacion ; https://elsalvadorinenglish.com/2025/10/26/how-el-salvador-is-securing-market-access-for-its-premium-coffee-in-the-eu/ ; https://dinero.com.sv/en/entrepreneurship/launch-of-the-el-salvador-coffee-business-guide-navigating-the-eudr-due-diligence-obligations/",
+     "existing": "Free ITC Deforestation-Free Trade Gateway portal (47 exporters in pilot) and the ITC/ISC business guide.",
+     "known_mark": "new",
+     "known_note": "Related to nothing in known list.",
+     "name": "EUDR traceability data for small coffee and cocoa exporters and farms",
+     "score": 2,
+     "status": "weak",
+     "trigger": "EUDR due diligence from 30 Dec 2026 (large/medium) and 30 Jun 2027 (micro/small); MARN to issue deforestation-free farm certificates.",
+     "unchecked": "Whether the free portal covers geolocation and DDS submission end to end; the final EU date; buyer demand for third-party tools."
+    },
+    {
+     "buyer": "Sole traders and small companies",
+     "category": "33. Commercial registry duties",
+     "evidence": "https://transparencia.gob.sv/institutions/cnr/documents/417843/download ; https://transparencia.gob.sv/institutions/cnr/documents/514728/download",
+     "existing": "CNR online renewal (10 steps); accountants already do it.",
+     "known_mark": "new",
+     "known_note": "Related to nothing in known list.",
+     "name": "CNR annual matricula renewal and balance deposit for small merchants",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Annual renewal of matricula de empresa (fee tied to assets, per-branch fee); balance deposit mandatory above a threshold (about $12,000 in assets in an undated slide).",
+     "unchecked": "Deadlines and fines in 2026; threshold; whether a reminder or filing service has demand."
+    },
+    {
+     "buyer": "Guest houses, small hotels, hostels and tourist lodgings",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.elsalvador.com/turismo/rutas-y-aventuras/contratar-servicio-turistico-el-salvador/1276476/2026/ ; https://transparencia.gob.sv/institutions/corsatur/documents/127611/download ; https://diario.elmundo.sv/economia/el-62-de-las-empresas-turisticas-se-dedican-a-la-alimentacion-en-el-salvador",
+     "existing": "None checked.",
+     "known_mark": "new",
+     "known_note": "Related to nothing in known list.",
+     "name": "Tourism special contribution (5% on accommodation) and RNT registration for small lodging",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Ley de Turismo art. 16 (5% on accommodation payments); Reglamento General de la Ley de Turismo (posted tariffs, safety, hygiene); RNT registration with Corsatur.",
+     "unchecked": "Who collects the 5% and how often it is declared; whether RNT registration is mandatory and renewed; guest-register duty; tourism is growing (Q1 2026 receipts up 19%) which raises the number of small lodgings."
+    },
+    {
+     "buyer": "Importers, distributors and industrial users of controlled chemicals",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://transparencia.mh.gob.sv/downloads/pdf/DC5146_11_Reglamento_de_Estupefacientes_Sicotropicos_Precursores_Sustancias_y_Productos_Quimicos_y_Agregados.pdf ; https://transparencia.gob.sv/institutions/bcr/services/6714.pdf ; https://www.eeas.europa.eu/node/464156_en",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "known_note": "Related to nothing in known list.",
+     "name": "Controlled chemicals and precursor users register",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Decreto 84 (1998) Reglamento de Estupefacientes, Sicotropicos, Precursores; BCR permits for import/export; Superintendencia de Regulacion Sanitaria involved in 2026.",
+     "unchecked": "Current authority, who must keep books and what they report, number of firms."
+    },
+    {
+     "buyer": "Small quarry and aggregate operators",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "https://el-salvador.justia.com/nacionales/leyes/ley-de-mineria/gdoc/ ; https://diario.elmundo.sv/politica/bukele-sanciono-la-ley-de-mineria-metalica-e-inicio-vigencia-el-7-de-enero",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "known_note": "Related to nothing in known list.",
+     "name": "Quarry and non-metal mining licensee reporting",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "1996 Ley de Mineria licences and concessions via DGEHM; 2025 metallic mining law is separate.",
+     "unchecked": "Periodic production reports and royalties; number of licensees; any 2025-26 reglamento."
+    },
+    {
+     "buyer": "Small co-operatives, federations",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://transparencia.gob.sv/institutions/insafocoop/documents/244896/download ; https://transparencia.gob.sv/institutions/insafocoop/documents/195298/download",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "known_note": "Related to nothing in known list.",
+     "name": "INSAFOCOOP annual statement and article 70 compliance for small co-operatives",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley General de Asociaciones Cooperativas art. 70; 2019 INSAFOCOOP circular requiring annual financial statements (status unverified).",
+     "unchecked": "Number of active cooperatives; current reporting formats and deadlines; any reform."
+    },
+    {
+     "buyer": "Small employers",
+     "category": "34. Occupational safety committees (MTPS)",
+     "evidence": "https://transparencia.gob.sv/institutions/mtps/documents/529396/download",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "known_note": "Related to nothing in known list.",
+     "name": "MTPS occupational safety committee accreditation and policy paperwork",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Ley General de Prevencion de Riesgos en los Lugares de Trabajo; committee formation and written safety policy; MTPS reports 1,003 accredited committees (year unknown).",
+     "unchecked": "Whether accreditation is mandatory and how often it is renewed; enforcement; competition from safety consultants."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Stations must report each price change to DGEHM (inspectors check; DGEHM asks managers to report by WhatsApp), and DGEHM checks volume, quality and safety; pump calibration must be done by firms evaluated in the CIM/DGEHM verification programme. LPG: fixed-price subsidy extended 1 Jun 2026 to 31 May 2027, paid by Hacienda to envasadoras; DGEHM verifying cylinder weight/price (Aug 2026). Pain is low and the buyers are few and larger. Two weak candidates logged.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Coffee law (Ley Especial del Café) reformed Apr 2026: contract reporting to ISC within 10 business days, export permit validity 60 business days, new duty to report third-party coffee intake, processing at other sites needs ISC accreditation, nurseries and seed producers must register. ISC 2025/26 report: 70 beneficiadores, 61 pergamineros, 158 exportadores, 39 torrefactores. Candidate logged. Grain, cocoa and warehouses not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "INSAFOCOOP: Ley General de Asociaciones Cooperativas (1986), art. 70 annual financial statements (2019 circular, current status unverified). No new law found. Cajas de crédito and bancos de los trabajadores: 54 entities, mostly within the FEDECREDITO system and supervised by SSF above a size threshold, so small and well-served. Nothing new beyond a weak INSAFOCOOP idea.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "CSSP found 792 of 1,003 inspected private establishments (78.9%) operating outside the rules between Jun 2025 and May 2026, with 37 temporary closures, 17 of them labs. Reform in force 15 Oct 2025 lets CSSP authorise facilities without the junta de vigilancia favourable report and extends CSSP scope to home medical care and elderly care. Requirements: Conadem accreditation, bio-waste contract, electronic notification authorisation, lab test list. Annual regularisation programme exists. No insurer or state-scheme billing duty checked.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Pharmacy controlled drugs: known K08, not rechecked. Precursors: Decreto 84 of 1998 (Reglamento de Estupefacientes, Sicotropicos, Precursores) still listed as in force; BCR handles replacement of import/export permits; Superintendencia de Regulacion Sanitaria and CND took part in May 2026 precursor training. Current register and reporting duties for users not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Private security: Ley de los Servicios Privados de Seguridad, registered and controlled by PNC (Division de Registro y Control de Servicios Privados de Seguridad), 30 business-day authorisation. Older reports (InSight Crime, undated in result) say 450+ agencies operated with expired papers and fines were never applied. Date and current numbers unverified. Cleaning and manpower agencies not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Quarries and non-metal minerals still under the 1996 Ley de Mineria (licences/concessions via DGEHM). Metallic mining ban repealed: Ley General de Mineria Metalica in force 7 Jan 2025, but it targets large operators. No quarry reporting reform or construction register found. MARN permits under the 1998 Ley del Medio Ambiente, no 2025-26 change found.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Nothing new beyond K01 (AML kit for newly obligated professionals); not rechecked. Related new buyer found in category 32 (digital asset providers).",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Ley de Turismo art. 16: special contribution of 5% on accommodation payments (plus $7 air departure). Registro Nacional de Turismo run by Corsatur: one source says 956 firms registered at end of July (year not shown), another says about 160 in 2019 growing 6.4x by 2026. The Reglamento General de la Ley de Turismo requires posted tariffs and safety measures. No guest-register or short-term-rental rule found. Declaration frequency of the 5% not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "EUDR: El Salvador rated standard risk; dates moved to 30 Dec 2026 (large/medium) and 30 Jun 2027 (micro/small). ISC and ITC run a free Deforestation-Free Trade Gateway portal: 47 exporters in pilot, 282 farms identified, MARN to issue deforestation-free farm certificates, ITC/EU-funded coffee guide. A free portal weakens the case. Cocoa has a traceability registry system (Apr 2025 item). Forced-labour importer declaration is K07, not rechecked. Fish and timber not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Foreign-agent law (RAEX) and non-profit associations with foreign funding",
+     "found": "Ley de Agentes Extranjeros approved May 2025: associations and foundations funded or directed by a foreign principal must register with RAEX (Ministerio de Gobernacion) within 90 days, 20 business-day review, 10 days to cure; 30% tax on foreign donations with an exemption for humanitarian or medical work; fines $100,000 to $250,000; one legal opinion says monthly reports to DGII (not confirmed in the official-news text). About 1,000 associations registered with Gobernacion since 2019 (headline only). Politically sensitive; many NGOs may have closed or fled.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Digital asset service providers (Bitcoin and crypto)",
+     "found": "Ley de Emision de Activos Digitales (Jan 2023) and later reform adding conduct rules and AML for Bitcoin service providers, supervised by CNAD. 30 entities approved of 120+ applications. Beneficial-owner register and periodic reports to CNAD. Very small buyer group.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Commercial registry duties: CNR matricula renewal and balance deposit for small merchants",
+     "found": "CNR matricula de empresa must be renewed every year (fee tied to assets; per branch $34.29 in the source). Sole merchants with assets under $12,000 deposit balances optionally; above that mandatory (undated training slide, unverified). CNR simplified online renewal to 10 steps. Accountants already handle it; no 2026 deadline found.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Occupational safety committees (MTPS) and workplace risk law",
+     "found": "Ley General de Prevencion de Riesgos en los Lugares de Trabajo; MTPS reports 1,003 accredited committees (year unknown). No registration platform or new 2026 duty found. MTPS and OEA/RIAL working on a self-assessment form for working conditions (May-Jun 2026).",
+     "status": "screened"
+    },
+    {
+     "category": "35. Coffee nurseries, seed producers and processors at the ISC",
+     "found": "Apr 2026 reform: seed producers and nursery operators (semilleristas, viveristas) must now register with ISC, which did not cover them under the March 2024 rules. World Coffee Research sought consultants for a seed and plant traceability system (TNS-MOCCA). Merged into the coffee candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Environmental permits and waste (MARN)",
+     "found": "Ley del Medio Ambiente (1998) unchanged for permits; hazardous-waste responsibility lies with the activity owner; $20 fine for littering reform (date unconfirmed). No new register of generators found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "gasolineras distribuidores GLP El Salvador DGEHM obligación reporte licencia 2026",
+    "Consejo Salvadoreño del Café registro beneficios exportadores obligación 2026",
+    "INSAFOCOOP cooperativas obligaciones informes anuales nueva ley 2025 2026 El Salvador",
+    "Consejo Superior de Salud Pública registro establecimientos clínicas laboratorios inscripción obligatoria El Salvador 2026",
+    "agencias de seguridad privada El Salvador PNC registro licencia ley servicios privados de seguridad 2025",
+    "Ministerio de Turismo El Salvador registro prestadores servicios turísticos hoteles obligación huéspedes 2026",
+    "precursores químicos sustancias controladas El Salvador registro importadores usuarios Junta de Vigilancia DNM 2025",
+    "Ley Especial de Agentes Extranjeros asociaciones sin fines de lucro registro informes Ministerio de Gobernación El Salvador 2026",
+    "Ley de Emisión de Activos Digitales prestadores servicios activos digitales registro CNAD obligaciones UIF 2026 El Salvador",
+    "MARN reforma Ley del Medio Ambiente 2025 2026 permiso ambiental registro generadores residuos pequeños negocios",
+    "Ley General de Minería El Salvador 2025 2026 licencias registro canteras materiales pétreos reglamento",
+    "El Salvador exportadores trazabilidad Reglamento deforestación UE café registro finca requisito 2026",
+    "contribución especial turismo 5% alojamiento hoteles declaración Hacienda Corsatur Registro Nacional de Turismo",
+    "CNR depósito de balances matrícula de empresa renovación comerciante individual plazo 2026 El Salvador",
+    "DGEHM estaciones de servicio gasolineras obligaciones sistema en línea informes inspección bombas calibración reglamento",
+    "comités de seguridad y salud ocupacional MTPS registro obligatorio empresas El Salvador plataforma 2026",
+    "cajas de crédito bancos de los trabajadores cooperativas SSF Ley de Intermediarios Financieros no bancarios 2025 reportes",
+    "software trazabilidad café beneficio ISC El Salvador reporte contratos exportación permisos sistema en línea Instituto Salvadoreño del Café"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b63"
+ },
+ "opus:el-salvador:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The claim that there is 'no ISC online reporting module' is wrong for the core contract and permit job. Since 12 Aug 2025, BCR, CIEX El Salvador and ISC have run a free, fully digital coffee export permit service. The exporter registers the export sales contract with ISC through an online system, gets pre-authorisation, authorises the operation in SICEX, then draws the permit, guarantee letter and certificate of origin from SFCE. 501 permits were issued from Aug to Dec 2025. BCR is moving export declarations from SICEX to CIEX365 from June 2026. Still open: no ISC portal or private product found for the monthly intermediary report, third-party intake, art. 14 annual reports or nursery registration. The channel ISC uses for these was not verified (isc.gob.sv not opened). Generic coffee traceability SaaS exists, and TechnoServe trained Salvadoran producer groups in traceability software with the old coffee council.",
+   "duty": "Partly confirmed. The Asamblea passed reforms to the Ley Especial para la Comercializacion, Registro y Proteccion de la Propiedad del Cafe on 15 Apr 2026 (El Mundo; elsalvador.com gives 57 votes). The duties it adds: exporters notify ISC of export contracts within 10 business days, and export permits are valid 60 business days and renewable. Intermediaries must keep a register of every coffee sale and report the previous month's operations (receipts, purchases, sales, stock) within the first 10 business days of each month. Beneficiadores, medium and large pergamineros, and torrefactores file an annual art. 14 report within 20 business days of the coffee-year close. Beneficiadores, pergamineros, intermediaries and exporters must report intake of third-party coffee. Semilleristas and viveristas must register with ISC. Processing coffee without ISC accreditation is a serious offence, and buying or selling with an expired registration is a very serious offence. Not found: fine amounts, the Diario Oficial publication or effective date, and the implementing regulation.",
+   "market": "The claim's figures are about 70 beneficiadores, 61 pergamineros, 158 exporters and 39 roasters (ISC 2025/26, per El Mundo; not re-checked). Intermediaries were not counted in the claim and are an extra, likely larger and less digitised group, but no figure was found. The number of nurseries and seed producers is not known. Total market is probably under 500 firms, and the larger exporters likely already have ERP systems.",
+   "reason": "The headline duties, contract reporting and export permits, are already handled by a free state digital channel run by ISC with BCR SFCE, SICEX and CIEX (live since Aug 2025, moving to CIEX365). That knocks out the core of the kit. What remains is uncovered as far as I could tell: monthly intermediary reports, logging third-party coffee intake, the art. 14 annual reports and nursery registration. These form a narrow niche of a few hundred firms, with no fine amounts and no confirmed effective date. Willingness to pay is uncertain because ISC may add its own forms. A possible small pivot is a bookkeeping and monthly-report tool for coffee intermediaries and small beneficios, but the market is very small.",
+   "searches": 5,
+   "sources": "https://diario.elmundo.sv/politica/reforman-ley-del-cafe-promueven-inscripcion-de-viveristas-y-dejan-analisis-de-calidad-no-vinculante-para-exportacion ; https://www.elsalvador.com/noticias/nacional/reformas-exportacion-cafe-el-salvador/1269777/2026/ ; https://www.eldiariodehoy.com/?p=65677 ; https://dinero.com.sv/?p=75595 ; https://dinero.com.sv/?p=52569 ; https://www.ey.com/es_ce/technical/tax/tax-alerts/el-salvador-el-salvador-implementa-el-sistema-ciex365-para-declaraciones-de-exportacion-a-partir-de-junio-de-2026 ; https://dinero.com.sv/economia/semilleristas-y-viveristas-de-cafe-deberan-registrarse-ante-el-isc-con-reforma-a-ley-cafetalera/ ; https://www.technoserve.org/our-work/projects/building-coffee-growers-capacity",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b63"
+ },
+ "opus:el-salvador:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Spanish searches found no software, done-for-you service or gestoría for CSSP/URES authorisation. Clinic and EHR software found is public-sector only (MINSAL SIS, ISSS electronic records). A dedicated gestor search was not run because of budget. No free state self-assessment tool found beyond CSSP's published technical-administrative requirements.",
+   "duty": "Prior CSSP authorisation (certificate of opening and operation) for private non-pharmaceutical health facilities under the Health Code. Reform in force since 15 Oct 2025 (El Mundo, 16 Oct 2025). Requirements: Conadem accreditation, bio-waste disposal contract, e-notification authorisation, lab test list, regency contract, police clearance (owner), fee about $114.29 (CSSP service sheet, 2017). Also an event-driven procedure for replacement, renewal, move, name change or category change. No annual renewal, annual fee or periodic report found (searched 'anualidad'; URES user guide unreachable, HTTP 525). Penalty: temporary closure (37 in Jun 2025 to May 2026) and referral to the Fiscalía; no fine amounts found. Recurrence: not_reached.",
+   "market": "No register total found. Jun 2025 to May 2026: 1,003 private establishments inspected (clinics, pharmacies, labs), 792 (78.9%) irregular, 37 closed. Disciplinary cases by profession: 153 medical, 47 dental, 18 nursing, 17 clinical lab. Small universe, probably low thousands of facilities (estimate, not sourced).",
+   "reason": "The duty is real: private clinics, dental offices and labs need CSSP/URES authorisation. A Health Code reform in the Diario Oficial took effect 15 Oct 2025. It drops the junta's favourable report, adds home-care and elder-care services, and requires Conadem accreditation, a bio-waste contract, e-notification authorisation and a lab test list. The fee is about $114.29 (2017 sheet) and the sanction is closure or referral to the Fiscalía. I found no fixed renewal or periodic filing, so this looks like a one-off duty plus event-driven changes (renewal, move, name change), not a recurring workflow. Search found no software or gestor offering CSSP filing, but that is not proof none exist. Market size is unverified: 1,003 sites inspected and 792 irregular, but no register total.",
+   "searches": 6,
+   "sources": "https://diario.elmundo.sv/nacionales/el-78-de-establecimientos-de-salud-inspeccionados-operaban-de-forma-irregular-y-fueron-clausurados-37-locales-en-el-ultimo-ano ; https://diario.elmundo.sv/politica/inicia-vigencia-de-nueva-facultad-del-cssp-para-autorizar-centros-de-salud-sin-juntas ; https://local.cssp.gob.sv/wp-content/uploads/2023/11/URES-JU-F-8-4-Guía-del-Usuario.pdf (search snippet only; fetch failed) ; https://www.transparencia.gob.sv/institutions/cssp/services/834.pdf (search snippet only; fetch 404)",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b63"
+ },
+ "sonnet:el-salvador:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty exists. The Ley de los Servicios Privados de Seguridad (2003 decree, still the framework) puts agencies under PNC authorisation and control. The PNC resolves applications in 30 business days after inspecting premises, arms, munitions and personnel files. Fines are 2 to 10 minimum wages (minor) and 11 to 60 (serious). I could not confirm the recurring renewal or reporting content, the regulation's status, or any 2026 enforcement change. InSight Crime (undated) says 450+ agencies had lapsed papers, no agency was ever sanctioned, and a court sided with a fined firm because the regulation was missing. That points to weak enforcement and low willingness to pay. No El Salvador vendor or free state tool was found, but generic guard-management tools (SoftGuard, Guardso, ShiftFlow) exist. The market is small: perhaps a few hundred agencies, and the only count found is 128 agencies in 2006.",
+   "searches": 3,
+   "sources": "https://insightcrime.org/es/noticias/noticias-del-dia/el-salvador-logra-empresas-seguridad-privada-cumplan-regulaciones/ ; https://el-salvador.justia.com/nacionales/leyes/ley-de-los-servicios-privados-de-seguridad/gdoc ; https://transparencia.gob.sv/institutions/mdn/documents/241540/download ; https://www.dcaf.ch/sites/default/files/publications/documents/NorthernTriangle-sec-el-salavador.pdf ; https://www.shiftflow.app/es/industries/security",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b63"
+ },
+ "triage:el-salvador": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New buyer (cargo owner-operators) and new duty (RTV with dated 2026 deadlines), not K11's bus subsidy."
+    },
+    {
+     "decision": "merge",
+     "id": "A2",
+     "reason": "Same small haulier buyer and overlapping vehicle-document renewal duty (RTV, circulation card); fold into A1.",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Associations and NGOs under the Foreign Agents Law and annual filing: a different buyer from K01 and a new duty."
+    },
+    {
+     "decision": "known",
+     "id": "A4",
+     "reason": "Well users and drillers under the ASA water law: same duty family as K03; the legalisation deadline has probably passed.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Livestock traders and ranchers with movement and brand paperwork under the screwworm emergency; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Agroservicios must keep a sales control book and MAG certificate; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small vet clinics have recurring duties (JVPMV solvency, controlled-products book); new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Beekeepers and honey packers need MAG registration and traceability; new buyer. Small group, so verify."
+    },
+    {
+     "decision": "drop",
+     "id": "A9",
+     "reason": "Only an unapproved proposal with no obligations or dates, so there is no mandatory duty yet (mandatory-duty rule)."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Waste and septic haulers face new permit duties under DL 186; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Unclear whether a current rule exists, but unverified rather than rejected; verifiers should check."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Private cemeteries and funeral homes face recurring municipal inspection; new buyer."
+    },
+    {
+     "decision": "drop",
+     "id": "A13",
+     "reason": "Only 14 authorised schools and a one-off 90-day requirement: no mass small-firm deadline and no recurring duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Nurseries need recurring multi-agency authorisation; new buyer, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Vendors need a 2-year municipal permit with several clearances. The group is small, but unsure, so keep for verification."
+    },
+    {
+     "decision": "drop",
+     "id": "A16",
+     "reason": "Regime is voluntary, so there is no mandatory duty (mandatory-duty rule); K06 already covers ISSS filing."
+    },
+    {
+     "decision": "keep",
+     "id": "A17",
+     "reason": "Equipment owners may face periodic inspection, but no regime has been found. Unverified, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "New April 2026 ISC coffee-law reform with recurring reporting duties for small coffee firms."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Small clinics, labs and dental offices face CSSP regularisation and a new 2025 reform; not K08."
+    },
+    {
+     "decision": "merge",
+     "id": "B3",
+     "reason": "Same associations and foundations buyer and the same RAEX and 30% tax duty.",
+     "ref": "A3"
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Digital asset providers are a different buyer from K01 and have licensing and reporting duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small security agencies have recurring PNC licence and reporting duties; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Independent fuel stations must report price changes and pass inspections; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "LPG envasadoras have recurring subsidy-claim and cylinder duties. Buyer size is unclear, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small exporters and cooperatives face EUDR with a dated deadline of 30 Jun 2027."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Annual matricula renewal and balance deposit apply to many sole traders; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Small lodging must pay the 5% tourism contribution and hold RNT registration; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Users of controlled chemicals face a register duty. Unverified, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Small quarry operators have licence reporting duties; unverified, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Co-operatives must file annual statements with INSAFOCOOP; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Small employers must form and accredit safety committees; new buyer and duty."
+    }
+   ]
+  },
+  "tag": "w2b63"
+ }
+}

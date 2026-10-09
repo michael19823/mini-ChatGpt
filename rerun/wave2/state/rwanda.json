@@ -1,0 +1,565 @@
+{
+ "discover:A:rwanda": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Used phone/electronics shops (200+ Kigali dealers applied in 2022)",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://www.police.gov.rw/media-archives/news-detail/news/rnp-rica-continues-awareness-on-regulations-governing-trade-of-used-electrical-equipment/ ; https://www.ktpress.rw/2022/07/regulators-set-standards-in-second-hand-electrical-equipment/",
+     "existing": "None seen (no search run)",
+     "known_mark": "new",
+     "name": "Used electronics dealer licence and purchase register (IMEI/serial, seller ID, 2-year retention)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "RICA Regulation DGO/REG/005 of 07/07/2022: operating licence (2 years, renewable), verify seller is rightful owner, keep records at least 2 years (category, brand, model, serial, IMEI, seller particulars); police use records for investigations",
+     "trigger_note": "",
+     "unchecked": "Whether licence deadlines are still enforced in 2026, whether inspections check records, any existing app; competitor search not run (search budget exhausted at 20)."
+    },
+    {
+     "buyer": "Churches, mosques and other faith groups, and consultants serving them",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://www.ktpress.rw/2025/03/rwanda-government-issues-additional-strict-regulations-for-faith-groups/ ; https://www.rgb.rw/publications/laws-policies ; Grace Room Ministries suspension May 2025 (reported in search result summary)",
+     "existing": "None seen (no search run)",
+     "known_mark": "new",
+     "name": "Faith-based organization annual report and compliance file for RGB",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Law 72/2018 and March 2025 RGB regulations: annual report, funding disclosure, qualifications, governance docs, building codes; compliance by March 2026; suspensions and revocations for missing annual reports",
+     "unchecked": "Low willingness to pay for small congregations; what happened after the March 2026 deadline; whether RGB runs an online reporting portal; competitor search not run."
+    },
+    {
+     "buyer": "Private desludging truck operators and waste-collection companies",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://leap.unep.org/en/countries/rw/national-legislation/regulation-governing-faecal-sludge-management-rwanda (fetch blocked 403; status 'Repealed' vs 'No' ambiguous in search snippet) ; https://www.rura.rw/fileadmin/docs/Board_Decisions/Regulations_Decentralized_Wastewater_Systems.pdf",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Faecal sludge hauler licence, trip log and RURA reporting pack",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "RURA Regulation 009/R/SAN-EWS/RURA/2023 (12 May 2023): licence regime, regular reporting, inspections; 2016 liquid waste collection regulation",
+     "unchecked": "Whether the 2023 regulation is in force; number of licensed haulers; RURA's plan to shift desludging to WASAC may shrink the buyer base; competitor search not run."
+    },
+    {
+     "buyer": "Private rural water operators (40+ firms and cooperatives with district contracts)",
+     "category": "13. Small water systems",
+     "evidence": "https://www.rura.rw/sectors/water-sanitation/sub-sectors-and-services/water ; https://www.rura.rw/fileadmin/user_upload/RURA/Latest_Publications/Rwanda_Rural_water_financial_report.pdf ; https://www.theeastafrican.co.ke/tea/rwanda-today/news/rwanda-private-water-suppliers-set-terms-for-lower-rural-tariffs--1357326",
+     "existing": "None seen; JICA brief says roles of WASAC RWSS, districts and operators were unclear (donor project underway)",
+     "known_mark": "new",
+     "name": "Rural piped-water operator reporting, tariff and licence compliance tool",
+     "score": 3,
+     "status": "weak",
+     "trigger": "RURA Regulation 002/RB/WAT-EWS/RURA/015 of 23/09/2015 on water supply services; RURA tariff caps (2017); district management contracts; RWB abstraction permit",
+     "unchecked": "Current reporting forms and frequency; whether WASAC/donors supply a monitoring system; small buyer count; competitor search not run."
+    },
+    {
+     "buyer": "About 48 registered slaughterhouses and 250+ meat retail shops, plus district-run abattoirs",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://www.newtimes.co.rw/article/196068/News/why-government-is-cracking-down-on-abattoirs-butcheries ; https://support.irembo.gov.rw/en/support/solutions/articles/47001262418-how-to-apply-for-a-slaughterhouse-license",
+     "existing": "Irembo licence application only; no inspection-readiness software seen (no search run)",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "Butchery and slaughterhouse RICA compliance, meat-handler health certificate and traceability log",
+     "score": 3,
+     "status": "weak",
+     "trigger": "RICA technical regulation DGO/REG/003 (25 Apr 2022), articles 54-65 (hygiene, traceability, equipment), article 28 (only inspected/stamped meat); 2010 ministerial order; staff medical exam every 6 months; RICA grace periods after scoring 50-69%",
+     "unchecked": "Close to K05 (meat supply chain log) but different buyer (butcheries); small buyer count and low software budgets; competitor search not run."
+    },
+    {
+     "buyer": "Licensed veterinary pharmacies/agrovet shops and wholesalers",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://www.policyvault.africa/policy/ministerial-order-determining-the-organization-of-veterinary-pharmacy-practice/ ; https://umuryango.rw/eng/politics/article/govt-mounts-crackdown-on-counterfeit-livestock-drugs ; https://www.newtimes.co.rw/article/82867/rab-streamlines-sell-of-vet-drugs/amp",
+     "existing": "None seen",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "Veterinary drug shop licence, stock and inspection register",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ministerial Order 008/11.30 (2010, current version Jan 2022): practice permit, facility licence, pharmacist-inspector inspections and records; crackdown on counterfeit livestock drugs",
+     "unchecked": "Overlaps with K04 (agro-dealer file) and K05; shops are often the same agrovets as K04 buyers, so could be a bundle; no register portal found; competitor search not run."
+    },
+    {
+     "buyer": "Irrigators over 1 ha, community water schemes, mineral washers, small industries",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://allafrica.com/stories/202608040076.html ; https://www.rwb.rw/actualites/info-details/800-water-use-permits-issued-to-water-users ; https://waterpermit.rwb.rw/",
+     "existing": "RWB runs a form-by-email process at waterpermit.rwb.rw; no commercial tool seen",
+     "known_mark": "new",
+     "name": "Water-use permit application and periodic reporting pack for farms, cooperatives and industrial users",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Law 49/2018 plus 2024 ministerial order: RWB water use permit, fee 35,000 RWF, 90-day decision, permit cancelled for missing reports or over-abstraction",
+     "unchecked": "Number of permit holders (800+ issued), whether RWB is building a portal, whether reports are actually enforced; competitor search not run."
+    },
+    {
+     "buyer": "Small local NGOs and the accountants who serve them",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://allafrica.com/stories/202509190131.html (search summary only; WebFetch returned 403); https://www.rgb.rw/updates/news-detail/public-notice-10",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "NGO annual report, bank declaration and 80/20 rule tracker for small NGOs",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "New NGO law (per allafrica Sep 2025 report): annual reports, bank account declaration, 80% core / 20% admin rule; comply by 18 July 2026 or lose legal status",
+     "unchecked": "Law number and exact duties not read; deadline already passed so urgency has gone; donor-funded NGOs may already use donor systems; competitor search not run."
+    },
+    {
+     "buyer": "The five Kigali moto-taxi cooperatives and upcountry cooperatives",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://support.irembo.gov.rw/en/support/solutions/articles/47001201381-how-to-apply-for-transport-license ; https://www.ktpress.rw/2022/11/rwanda-waives-moto-taxi-annual-license-fee/ ; https://fr.allafrica.com/stories/202411240150.html",
+     "existing": "Smart taximeters with GPS and mobile-money payment already mandatory in Kigali since 2020; Irembo licensing",
+     "known_mark": "new",
+     "name": "Moto-taxi cooperative rider roster, licence and EV-transition compliance tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "RURA cooperative operating licence (400,000 RWF, 2 years), rider authorisation (20,000 RWF), no new petrol moto-taxi registrations in Kigali from Jan 2025",
+     "unchecked": "Few buyers (consolidated cooperatives); metering/payment already done; fee waiver 2022 means annual licence fee may not apply."
+    },
+    {
+     "buyer": "Forex bureaus and businesses that price or receive foreign currency (hotels, tour operators, schools, car rental)",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://pkfea.com/publications/2025/new-foreign-exchange-regulation-now-in-effect-in-rwanda/ (fetch gave only headline facts) ; https://www.ktpress.rw/?p=78016",
+     "existing": "Forex bureau association information system (2018) for bureau reporting; no tool for authorised receivers seen",
+     "known_mark": "new",
+     "name": "Foreign-currency authorisation and pricing compliance for businesses and forex bureaus",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "BNR Regulation 89/2025 (30 May 2025): fines RWF 5m/10m for foreign-currency pricing, 50%/100% of transaction for unapproved FX; Special Regulations 4230/2025-00042 (17 Sep 2025) on operators authorised to receive foreign currency; forex bureau reporting through the association information system",
+     "unchecked": "Actual authorisation and reporting duties of 'business operators authorised to receive foreign currency' not read; number of bureaus is small; competitor search not run."
+    },
+    {
+     "buyer": "Prospective licensed private recruitment agencies",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://allafrica.com/stories/202608030488.html ; https://www.newtimes.co.rw/article/37870/news/rwanda/parliament-flags-seven-gaps-in-labour-mobility-policy/amp",
+     "existing": "None; no licensed regime yet",
+     "known_mark": "new",
+     "name": "Overseas recruitment agency licensing (future)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Parliament review (late Jul 2026) found licensing regulations for private recruitment agencies under the 2019 Labour Mobility Policy never made; MIFOTRA must give a roadmap within three months",
+     "unchecked": "Rules do not exist yet; watch for the MIFOTRA roadmap around late Oct 2026."
+    },
+    {
+     "buyer": "Small licensed mineral and gold traders",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.newtimes.co.rw/article/27499/customer-care-do-our-hotels-respect-standards-of-operation/amp (URL as returned for the suspension story) ; https://investegate.co.uk/announcement/rns/aterian--atn/restart-of-rwanda-mineral-trading-operations/8728156",
+     "existing": "RMB Inkomane system; OECD/RMI due diligence tools from large vendors",
+     "known_mark": "new",
+     "name": "Mineral/gold trading licence holder compliance (RMB, due diligence)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "2024 Mining Law; RMB suspended new mineral trading licence applications in June 2025 to review rules; Inkomane trading system",
+     "unchecked": "Buyer count small and mostly formal mining firms; belongs partly to group B category 27/30; no gold-buyer/jeweller regime found."
+    },
+    {
+     "buyer": "Garages and spare-part dealers in Kigali",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://www.newtimes.co.rw/article/4135/teacheras-mind-it-is-never-to-late-to-sit-in-class/amp (URL as returned; article dated Jan 2023)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Kigali garage and spare-parts dealer compliance (RICA garage guidelines)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "RICA guidelines on garage operation in Kigali (introduced 2022, six-month implementation); theft of spare parts targeted",
+     "unchecked": "Provisions on parts trading and any register not read; no vehicle dismantler licence found."
+    },
+    {
+     "buyer": "Small domestic food processors (flours, honey, bakery, beverages, confectionery) and their consultants",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://rwandafda.gov.rw/wp-content/uploads/2024/06/REQUIREMENTS-FOR-REGISTRATION-OF-LOW-RISK-FOODS_DOMESTIC.pdf ; https://rwandafda.gov.rw/wp-content/uploads/2022/11/1.-RFDA-FOOD-MANUFACTURING-PREMISE-LICENSE-REQUIREMENTS.pdf ; https://rwandafda.gov.rw/wp-content/uploads/2022/11/7.-RFDA-FOOD-PREMISE-REINSPECTION.pdf",
+     "existing": "State portal iRIMS handles applications; no document/SOP/CAPA pack tool seen (no search run)",
+     "known_mark": "new",
+     "name": "Small food processor RFDA premises licence, product registration and GMP inspection file",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Rwanda FDA guideline DIS/GDL/005 (effective 20/02/2022); 2024 regulation FD/FSMIL/TRG/007 Rev_1 (21/10/2024) on operational licences; 23 Oct 2024 inspection regulation; low-risk food product registration needs premises licence, iRIMS GMP inspection application, 3 packaged samples; re-inspection needs CAPA report",
+     "unchecked": "Number of small processors; whether iRIMS plus consultants already cover the file work; fee schedule; micro-processor exemptions; competitor search in local language not run (search budget exhausted)."
+    },
+    {
+     "buyer": "Private ECD centres and day-care operators (national count 32,205 incl. community-based)",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://ncda.gov.rw/updates/news-detail/rwanda-steps-up-efforts-to-fix-learning-quality-infrastructure-gaps-in-ecd-centres ; https://resourcecentre.savethechildren.net/document/early-childhood-development-ecd-financing-rwanda-baseline-report",
+     "existing": "NCDA state systems, donor-funded programmes",
+     "known_mark": "new",
+     "name": "Early childhood development (ECD) centre registration and quality compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Accreditation by districts or RDB; NCDA guidelines and quality gaps noted Jan 2026",
+     "unchecked": "Licensing criteria, inspection rhythm and fees not found; most centres are community home-based and unpaid."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "No domestic-worker-specific law or registration regime found (Global Press Journal says no dedicated laws; guide sites give conflicting RSSB rules). No clear recurring household-employer duty to an authority. Nothing to build on. https://globalpressjournal.com/africa/rwanda/mistreatment-underpayment-plague-domestic-workers-in-rwanda",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No Rwandan dealer licence or register found. Only a REMA warning on unpermitted scrap imports under the Basel Convention (https://www.newtimes.co.rw/article/188409/News/rema-issues-warning-over-illegal-importation-of-hazardous-waste). Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "RICA Regulation DGO/REG/005 of 07/07/2022 on used electrical and electronic equipment: operating licence (2 years), verify seller is rightful owner, keep records 2 years with serial/IMEI and seller particulars. Candidate C01. No pawnbroker regime found.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Mineral trading licences are issued by RMB under the 2024 Mining Law; RMB suspended NEW trading-licence applications in June 2025 (renewals continue); Inkomane trading system exists. No gold-buyer/jeweller-specific regime found. Candidate C12 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler or end-of-life vehicle licence found. RICA garage guidelines for Kigali (2022, fenced permanent premises) and a 2025 E-Moto motorcycle waste management plan (non-binding, 2026-2030 phased). Candidate C13 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "2026 Rift Valley fever quarantine in six districts from 26 June; markets reopening on set days to 28 Sep 2026; ear tags required to sell; national cattle registry (91.2% registered by July 2022); district-issued movement permits. UNDP tender (Aug 2026) for a farmer registration and livestock traceability platform (https://www.ungm.org/Public/Notice/309513) points to a state/donor system. Nothing new beyond K05.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "RICA licenses slaughterhouses and butcheries (technical regulation DGO/REG/003 of 25 Apr 2022; 2010 ministerial order); six-monthly medical certificates for meat handlers; traceability/hygiene rules; about 48 slaughterhouses and 250+ shops in 2024; Auditor General found none of 25 inspected slaughterhouses compliant. Candidate C05.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Ministerial order on hive positioning, harvesting equipment and beekeeping certificates (version Jan 2022); buyers require MINAGRI-certified suppliers and RSB S-Mark. The UNDP traceability tender also covers beekeeping cooperatives. Very small, low-income buyers. Nothing worth a candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Ministerial Order 008/11.30 (2010, current version Jan 2022): practice permit, facility licence for vet medicine wholesale/import, inspection by pharmacist inspector; 2018 joint RIB/RAB/RCVD operation on 52 pharmacies, 4 closed; counterfeit livestock-drug crackdown. Candidate C06 (related K05).",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "RWB water use permit under Law 49/2018 plus 2024 ministerial order; covers domestic/community supply, irrigation over 1 ha, industrial use, mineral washing; 35,000 RWF fee, 90-day decision, applications by email to info@rwb.rw; reports required or permit can be cancelled; 800+ permits issued. No driller licence found. Candidate C07.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "RURA Regulation 009/R/SAN-EWS/RURA/2023 (12 May 2023) creates a faecal sludge management licence with reporting and inspections (status ambiguous on FAOLEX); 2016 liquid waste collection regulation; RURA hazardous waste collection licence (200,000 RWF, 5 years). RURA plans to move desludging to the water utility in utility-served urban areas. Candidate C03.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Two searches (one query) found no Rwandan lift/boiler/pressure-vessel inspection regime; results were foreign statutes. RSB inspection functions reportedly moved to an independent body (unnamed). Unverifiable, nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "40+ private operators run rural piped schemes under district management contracts, licensed by RURA (Regulation 002/RB/WAT-EWS/RURA/015 of 2015); RURA-capped rural tariffs (2017); also need RWB abstraction permit. Candidate C04.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "No search spent: budget used on other categories; already covered by K04 (agrochemical dealer compliance file).",
+     "status": "not_reached"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "No licensing regulation for private overseas recruitment agencies exists; Parliament review (late July 2026) found the 2019 Labour Mobility Policy unimplemented and ordered MIFOTRA to submit a roadmap within three months (about late Oct 2026). Possible future trigger. Candidate C11 (weak). Domestic labour contractors not separately found.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Cemeteries are run by sectors (about 1,500); draft replacement of the 2013 cemetery law sent to Cabinet March 2026 (reuse period cut 20 to 10 years, ban on concrete graves); no funeral-home/mortuary business licence found. Government-side duty, no small-business buyer. Nothing to build on.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Law 72/2018 plus March 2025 RGB regulations: annual report to RGB, funding disclosure, qualifications, building codes; compliance deadline March 2026; RGB suspended Grace Room Ministries (May 2025) for missing annual reports and revoked legal personality of others (Oct 2024, Jan 2025). New NGO law: annual reports, bank-account declaration, 80/20 rule, comply by 18 July 2026 (per allafrica, 403 on fetch). Candidates C02 and C08.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Moto-taxi: Kigali cooperatives merged into five; RURA licence for cooperatives (400,000 RWF, 2 years), rider authorisation 20,000 RWF; smart taximeters mandatory in Kigali since Aug 2020; no new petrol moto-taxi registrations in Kigali from Jan 2025 (electrification). Meters/cashless already deployed. Candidate C09 (weak). Minibus/trucking not separately checked.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Street vendors: low income, city relocation to markets (see K15). Money changers: BNR Regulation 42/2022 (forex), Regulation 89/2025 of 30 May 2025 (RWF 5m/10m fines for pricing in foreign currency; 50%/100% fines for unapproved FX transactions), Special Regulations 4230/2025-00042 of 17 Sep 2025 on business operators authorised to receive foreign currency; forex bureaus report via the Rwanda Forex Bureau Association information system (2018). Candidate C10.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Small food producers: Rwanda FDA premises licence plus product registration for low-risk foods via iRIMS, GMP inspection, 2024 inspection and licensing regulations (Candidate C14). ECD centres: 32,205 centres, accreditation via districts/RDB, quality gaps noted (Candidate C15, weak). Driving schools: RURA licence (from an unverified wiki), RNP runs tests, nothing current found. Tattoo studios and hunting outfitters: not searched.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "Rwanda domestic workers employer RSSB registration declaration house helps law",
+    "Rwanda scrap metal dealers licence RDB regulation second-hand dealers",
+    "Rwanda veterinary practice licence RAB veterinary drug dealers inspection register",
+    "Rwanda water abstraction permit RWB borehole drillers licence",
+    "Rwanda moto-taxi cooperatives RURA licence transport operators digital tracking 2025",
+    "Rwanda recruitment agencies labour contractors licence MIFOTRA overseas employment 2025",
+    "Rwanda RGB faith-based organizations NGOs annual report compliance deadline 2025 law registration",
+    "Rwanda abattoir butchers meat inspection RAB licence slaughterhouse regulation 2025",
+    "Rwanda early childhood development centres nurseries licensing inspection NCDA daycare registration",
+    "Rwanda waste collection companies septic sludge faecal haulers licence RURA REMA permit",
+    "Rwanda gold dealers mineral trading licence RMB traders buying houses comptoir",
+    "Rwanda funeral services cemetery burial regulation law mortuary licence",
+    "Rwanda forex bureau money changers licence BNR regulation 2025 foreign exchange bureaus reporting",
+    "Rwanda driving schools licence RNP inspection regulation driving school operators",
+    "Rwanda lifts elevators boilers pressure vessels inspection law RSB certification periodic inspection",
+    "Rwanda livestock movement permit traders animal markets cattle transport RAB e-permit livestock identification traceability",
+    "Rwanda FDA small food processors registration licence Rwanda Food and Drugs Authority food premises inspection",
+    "Rwanda rural water supply private operators WASAC contract reporting water user associations regulation RURA licence small water systems",
+    "Rwanda garage vehicle dismantlers used spare parts dealers second-hand regulation RURA RRA 2025 end-of-life vehicles",
+    "Rwanda beekeepers honey cooperatives certification RAB apiary registration market vendors vendor registration Kigali digital"
+   ],
+   "searches": 20
+  },
+  "tag": "w2b62"
+ },
+ "discover:B:rwanda": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "RNP-licensed private security companies (about 15) and security cooperatives (75+), employing roughly 30,000 guards; also firms that hire guards (secondary)",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://police.gov.rw/media/news-detail/news/private-security-companies-guided-on-decent-work-and-service-standards/ ; https://www.ktpress.rw/2024/01/findings-uncover-plight-of-private-security-guards-in-rwanda/ ; https://police.gov.rw/media/news-detail/news/from-gatekeepers-to-professionals-how-rwanda-national-police-is-shaping-private-security-service/ ; https://www.mifotra.gov.rw/news-detail/owners-and-managers-were-challenged-to-enhance-decent-work-in-private-security-companies",
+     "existing": "Competitor search (security guard management software Rwanda payroll roster RSSB): no Rwanda-specific guard-firm product found. Only generic foreign tools (SecurityTime Australia, MANAGR UK, Guardhouse) and an Odoo Rwanda PAYE/RSSB payroll module by Pokutsoft, which is payroll only.",
+     "known_mark": "new",
+     "name": "Private security company and guard-cooperative compliance pack (vetting, contracts, RSSB, bank-paid wages, hours, RNP inspection file)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Law 16bis/2020 (guard training and vetting, RNP licence, no-notice inspections); MIFOTRA and RNP joint inspection 2024 found about 20.8% of guards without written contracts, missing RSSB, unpaid overtime; 28 Aug 2025 joint meeting warned of penalties for missing written contracts, bank-paid wages, RSSB, medical insurance, hours limits and vetted guards.",
+     "unchecked": "Actual penalties and statutory forms; whether RNP requires periodic reports or a guard register; willingness to pay of small cooperatives; real count of guards and firms; whether cleaning and manpower agencies carry similar duties; existing local HR or payroll vendors serving guard firms."
+    },
+    {
+     "buyer": "Individual real estate brokers and property managers (RWAREB members and informal brokers) in Kigali and other cities",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://allafrica.com/stories/202607210140.html ; https://www.newtimes.co.rw/article/37540/news/housing/new-rules-to-regulate-real-estate-brokers ; https://www.newtimes.co.rw/article/37694/news/housing/how-new-identification-system-will-work-in-real-estate-transactions ; https://www.ensafrica.com/news/detail/10825/strengthening-rwandas-anti-financial-crime-de",
+     "existing": "Competitor search: DomLift (Rwanda landlord and property management app with MTN MoMo rent collection, from about USD 7) and Ewawe Properties cover rental management, not broker licensing or compliance records.",
+     "known_mark": "new",
+     "name": "Real estate broker and property manager licensing, certification and property-code onboarding",
+     "score": 3,
+     "status": "weak",
+     "trigger": "NLA with RWAREB and RHA drafting a framework (reported July 2026) requiring broker and property manager certification and licence, digital property coding and consumer protection; consultations targeted to finish by September 2026; no effective date. FIC Law 045/2021 amended Jan 2025 raises DNFBP duties (whether brokers are covered is unconfirmed).",
+     "unchecked": "Whether the framework was finalised or took effect after Sept 2026; transition period and licence fees; whether AML reporting applies to brokers; number of brokers; whether NLA will provide a free state portal for listings and codes (would kill it)."
+    },
+    {
+     "buyer": "Small guest houses, lodges, serviced apartments and individual short-stay hosts (not covered by hotel PMS vendors)",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://atta.travel/resource/rwanda-parliament-passes-bill-setting-tourism-tax.html ; https://www.newtimes.co.rw/article/25080/news/tourism/treasury-chief-kabera-defends-new-3-per-cent-tourism-levy ; https://www.ktpress.rw/2025/05/new-taxes-come-into-force-what-you-will-pay ; https://taxnews.ey.com/news/2025-1272",
+     "existing": "Competitor search (property management software Rwanda tourism levy guest house): no Rwanda-specific guest house levy tool found; DomLift is long-let rental management and unconfirmed for nightly stays. Hotel PMS and EBM integration already judged saturated in K06/K12/K16.",
+     "known_id": "K12",
+     "known_mark": "new",
+     "name": "Tourism levy monthly return and records for small guest houses, lodges and Airbnb hosts",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Tourism levy law 015/2025 (promulgated 27 May 2025): 3% of room rate, register and remit monthly within 15 days after month-end, including Airbnb-type listings; backdated charges possible for unregistered hosts.",
+     "unchecked": "Whether the levy is in force and how RRA collects it (portal, form); whether OTAs (Airbnb, Booking) collect it directly; count of small hosts; whether RRA's own EBM/e-tax portal already covers the return; guest register duty to police (not found)."
+    },
+    {
+     "buyer": "Independent petrol station owners, LPG retailers and filling plants",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.rura.rw/sectors/energy/faqs ; RURA licensing portal petrol service station retail licence pages (https://licensing.rura.rw/ , search result for petrol station licence terms and conditions)",
+     "existing": "None found; competitor search not run (budget).",
+     "known_mark": "new",
+     "name": "Petrol station and LPG dealer RURA licence renewal and technical-compliance calendar (calibration, pressure tests, leak detection, meter verification)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "RURA licences: station installation licence 3 yrs, operation licence 5 yrs, LPG business licence; regulation N 08/R/GP-EWS/RURA/2023 requires tank leak detection and maintenance on a 2-year cycle, spill reporting, calibration charts, pressure test reports and measuring-unit verification.",
+     "unchecked": "Competitor search in French, English or Kinyarwanda; number of stations and how many are small owner-operators (most are in chains); whether RURA collects periodic reports; fee and document list varies between portal versions; LPG renewal term not stated."
+    },
+    {
+     "buyer": "Small controllers: clinics, private schools, SACCOs, small firms holding personal data",
+     "category": "32. Data controllers and processors (NCSA registration, Law 058/2021)",
+     "evidence": "https://dlapiperafrica.com/en/rwanda/insights/2023/deadline-for-mandatory-data-controller-set-to-expire-15-October.html ; https://www.dataguidance.com/notes/rwanda-data-protection-overview",
+     "existing": "Generic consultants; no check on local tools. Generic compliance, close to out-of-scope generic tooling.",
+     "known_mark": "new",
+     "name": "Data-protection registration and records for small clinics, schools and SACCOs (NCSA)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law 058/2021 art. 29: registration with NCSA mandatory; transition period ended 15 Oct 2023; late registration still allowed; fines RWF 2-5M or 1% of revenue.",
+     "unchecked": "Enforcement activity by NCSA; number registered; whether NCSA portal is free and sufficient; no 2025 deadline found."
+    },
+    {
+     "buyer": "Small quarry operators and mineral traders licensed by RMB or districts",
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "evidence": "https://trade.gov/country-commercial-guides/rwanda-licensing-requirements-professional-services ; https://www.mondaq.com/energy-and-natural-resources/989160/mining-comparative-guide ; https://practiceguides.chambers.com/practice-guides/mining-2025/rwanda",
+     "existing": "3T mineral traceability is run by RMB with ITSCI (https://www.itsci.org/wp-content/uploads/2022/12/ITSCI-brochure-Rwanda.pdf); not checked for quarries.",
+     "known_mark": "new",
+     "name": "Small quarry and non-commercial quarry licence file and reporting for district-licensed quarries",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Mining and Quarry Law 072/2024; district and sector authorities issue small and non-commercial quarry licences; REMA inspects; exploration holders report to RMB every 6 months.",
+     "unchecked": "Law 072/2024 text, reporting forms for quarries, small-trader duties, local-content rules, number of small quarries."
+    },
+    {
+     "buyer": "Licensed or aspiring warehouse operators storing grain for farmers and cooperatives",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://tralac.org/news/article/10718-rwandan-govt-moves-to-regulate-warehouse-business-for-commodities-exchange.html ; https://www.policyvault.africa/policy/law-n58-2017-of-21-1-2018-regulating-the-warehouse-receipt-system/?version=0 ; https://www.ea-africaexchange.com/news/warehouse-storage-facilities/eax-warehouse-receipts-system",
+     "existing": "East Africa Exchange (EAX) warehouse receipt system since 2014.",
+     "known_mark": "new",
+     "name": "Warehouse receipt operator compliance (Capital Markets Authority licence, receipts, inspections)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Law 58/2017 regulating warehouse receipt system; CMA licenses operators and inspects.",
+     "unchecked": "Whether implementing regulations are in force; operator count; any CMA reporting forms; MINICOM miller and grain trader rules not found."
+    },
+    {
+     "buyer": "Small horticulture, avocado and fresh-produce exporters",
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "evidence": "https://www.naeb.gov.rw/rwanda-fresh/for-exporters ; https://www.naeb.gov.rw/export-requirements ; https://www.naeb.gov.rw/publications/news/naeb-urges-avocado-value-chain-actors-to-comply-with-export-instructions ; https://allafrica.com/stories/202601260672.html",
+     "existing": "State portal eRALIS and NAEB-run packhouse support; this is a free state tool that likely covers the core job.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "Small horticulture and produce exporter file (NAEB export licence, RALIS/eRALIS phytosanitary, NAEB compliance campaigns)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "NAEB horticulture export licence (annual per community guide; free) and per-shipment phytosanitary certificate; NAEB avocado export instruction compliance campaigns; Jan 2026 NAEB packhouse and cold-chain consolidation scheme.",
+     "unchecked": "Fish, timber and meat export rules not found; EU buyer-driven requirements for non-coffee produce not checked; numbers of small exporters."
+    },
+    {
+     "buyer": "Small importers of bottled water, cosmetics, clothing, shoes, mattresses",
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "evidence": "https://rw.andersen.com/dist/environmental-levy.html ; https://www.ktpress.rw/2025/05/new-taxes-come-into-force-what-you-will-pay",
+     "existing": "Collected at the border with no separate importer filing found, so little room for software.",
+     "known_mark": "new",
+     "name": "Plastic-packaged import levy (0.2% customs value) importer records",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Law 010/2025 (promulgated 27 May 2025, effective 1 Jul 2025), collected at customs by RRA.",
+     "unchecked": "Whether importers must make any separate declaration or recordkeeping; clearing agents handle customs."
+    },
+    {
+     "buyer": "District SACCOs formed by merging Umurenge SACCOs; non-financial cooperatives audited under RCA",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.rca.gov.rw/1-1/non-financial-cooperatives-coordination ; https://www.rca.gov.rw/fileadmin/user_upload/RCA/Publications/RCA_Procedure_Manual__November__2022.pdf ; job postings reported via africarrieres.com (Indatwa SACCO Rusizi, Icyerekezo SACCO Nyarugenge)",
+     "existing": "Government automation programme for SACCOs referenced by KTPress (https://www.ktpress.rw/?p=41234) but not verified; core banking vendors not checked.",
+     "known_mark": "new",
+     "name": "SACCO/D-SACCO consolidation reporting and audit pack",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Cooperative Law 057/2024; deposit-taking microfinance Law 072/2021; BNR standards; RCA audit follow-up and procedure manual (Nov 2022).",
+     "unchecked": "Annual return and audit deadlines; whether consolidation shrinks the buyer pool; state-run SACCO core system; non-financial cooperatives reporting to RCA."
+    },
+    {
+     "buyer": "Small bus, taxi, truck and moto fleet owners (group A category 18 overlap)",
+     "category": "33. Commercial vehicle roadworthiness inspection (RNP)",
+     "evidence": "https://police.gov.rw/services/automobile-inspection/ ; https://allafrica.com/stories/202509180087.html ; https://support.irembo.gov.rw/en/support/solutions/articles/47001214170-how-to-apply-for-a-motor-vehicle-inspection-appointment",
+     "existing": "RNP and Irembo handle booking and payment online.",
+     "known_mark": "new",
+     "name": "Commercial vehicle 6-monthly roadworthiness reminder and fleet file for small transport operators",
+     "score": 2,
+     "status": "weak",
+     "trigger": "RNP inspection every 6 months for commercial vehicles; fine RWF 25,000 under Presidential Decree 85/01; draft traffic law (Sept 2025) would allow immobilisation of vehicles without inspections or licences.",
+     "unchecked": "Whether the draft traffic law passed; fleet management apps; RURA transport licence renewals not searched."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "RURA licences: petrol station installation (3 yrs), operation/retail (5 yrs; fee RWF 500k application + 5M licence per portal), LPG business licence (import, transport, filling, distribution, storage, retail), depots up to 15 yrs. Petrol station regulation N 08/R/GP-EWS/RURA/2023 (24/02/2023) requires leak detection/maintenance on 2-year cycle, calibration charts, pressure tests, meter verification, spill reporting. No periodic report forms confirmed. One weak candidate (C-RW-04).",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Coffee EUDR/traceability: nothing new beyond K03, K09. Warehouse receipt law 58/2017 gives Capital Markets Authority licensing power; implementation status unclear; operators few (EAX dominant). No MINICOM/RAB miller or grain trader licensing rules surfaced. Weak candidate C-RW-07 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Cooperative Law 057/2024; Umurenge SACCOs being consolidated into district D-SACCOs under BNR/Law 072/2021 (2026 job postings); RCA oversees audits of non-financial co-ops and keeps procedure manual (Nov 2022). No 2025 annual return deadlines found. Consolidation means fewer, larger buyers, and a state automation effort exists. Weak candidate C-RW-10.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Nothing new beyond K01, K07, K08, K13. Not re-searched.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Rwanda FDA import authorisation rules (DD/DIEC/TRG/001 v4; guideline DIS/GDL/047) and published lists of licensed importers (cosmetics/household chemicals list May 2026 with expiry dates). Nothing on controlled-drug or precursor registers surfaced; pharmacy ongoing obligations not confirmed. Pharmacies remain K01 phase 2. No new candidate; narcotics-register angle unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Strong lead. Private security licensed by RNP (Law 16bis/2020; vetting committee; 3-month guard training; recruit identity checks before training). MIFOTRA+RNP joint inspection 2024: ~20.8% of ~30,000 guards lacked written contracts, plus unpaid overtime, missing RSSB contributions. Aug 2025 meeting: written contracts, bank-paid salaries, RSSB, medical insurance, working-hour limits, vetted guards, penalties warned. About 15 licensed companies and 75+ security cooperatives. C-RW-01. Cleaning and manpower agencies not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Mining and Quarry Law 072/2024 (26 Jun 2024); RMB licences incl. industrial, commercial small-scale and non-commercial quarries; district/sector authorities issue small and non-commercial quarry licences; exploration holders report to RMB every 6 months; REMA inspects. No local-content reporting found. Construction contractor registers/permits not searched. Weak candidate C-RW-06 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "NLA draft framework (July 2026 reporting) to license/certify real estate brokers and property managers, with digital property coding and consumer protection; consultations targeted for completion by September 2026, effective date unknown. FIC Law 045/2021 amended Jan 2025 raising DNFBP obligations; whether brokers/notaries are named DNFBPs not confirmed. Notaries nothing found. C-RW-02.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Tourism levy: Law 015/2025 (promulgated 27 May 2025), 3% of room rate, applies to hotels, motels, lodges, apartments and Airbnb; accommodation businesses register and remit monthly within 15 days after month-end; effective date reported as 1 July 2025 (final effect not confirmed). Guest register rule not found. C-RW-03 (related K12).",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "NAEB horticulture export licence (free, annual, farm inspection per community guide) and phytosanitary certificate via RALIS/eRALIS portal (state tool); coffee EUDR is K03. Plastic-packaged import levy 0.2% of customs value (Law 010/2025, from 1 Jul 2025) is collected at the border by RRA with no separate filing found. No fish or timber rules found. Candidates C-RW-08, C-RW-09 weak.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Mineral traders and processors (3T traceability, Law 072/2024)",
+     "found": "RMB field officers run tagging/traceability with ITSCI; ITSCI not mandatory for all exports; no small-trader filing duties confirmed. Looks state-run; nothing promising. C-RW-06 covers mining and quarry. Search count limited.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Data controllers and processors (NCSA registration, Law 058/2021)",
+     "found": "Registration with NCSA mandatory (art. 29); transition deadline passed 15 Oct 2023; late registration still allowed; fines RWF 2-5M or 1% of revenue. Buyer group is generic across all sectors; clinics, schools and SACCOs are the quiet subset. C-RW-05, weak.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Commercial vehicle roadworthiness inspection (RNP)",
+     "found": "RNP inspects commercial vehicles every 6 months and private cars yearly at RNP centres (Remera, Gishushu, Ndera) with Irembo booking; fine RWF 25,000 under Presidential Decree 85/01; a draft traffic law (Sept 2025) would add vehicle immobilisation. Belongs to group A category 18; state-run booking via Irembo limits the gap. C-RW-11, weak.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Plastic-packaged import levy (Law 010/2025)",
+     "found": "0.2% of customs value, collected at border via RRA, from 1 Jul 2025; no importer-side filing seen. Folded into C-RW-09.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Early childhood development centres and private nurseries",
+     "found": "ECD under Ministry of Gender and Family Promotion; centres accredited by districts or RDB; harmonised ECD standards in development (Jan 2026 conference). No licensing register or periodic filing found. Nothing new; group A category 20 overlap.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Warehouse receipt operators (Law 58/2017, Capital Markets Authority)",
+     "found": "CMA licenses warehouse receipt operators; implementation status unconfirmed; EAX operates first system since 2014. Few operators, so buyer pool is small. Folded into C-RW-07.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "RURA petroleum retail licence fuel station LPG distributors Rwanda requirements 2025",
+    "RCA Rwanda cooperatives annual returns audit compliance SACCO Umurenge 2025",
+    "Rwanda FDA pharmacy licence controlled drugs importer register 2025 regulation",
+    "Rwanda Mines Petroleum Gas Board quarry mining licence reporting local content 2025",
+    "Rwanda private security companies licence Police regulation guards register employers 2025",
+    "Rwanda hotels guest houses guest register tourism levy Airbnb short-term rental RDB classification 2025",
+    "Rwanda real estate agents regulation licensing RDB anti-money laundering FIC reporting DNFBP notary 2025",
+    "Rwanda warehouse receipt system grain traders millers licence MINICOM RAB RSB",
+    "Rwanda mineral traders processors traceability ITSCI RMB licence tagging 3T",
+    "NCSA Rwanda data protection registration data controllers processors deadline 2025",
+    "NAEB export licence Rwanda exporters horticulture fish phytosanitary RAB export permit",
+    "Rwanda new law 2025 businesses must register annual return gazette RRA RDB",
+    "Rwanda environmental levy plastic packaging imports Law 010/2025",
+    "Rwanda Police vehicle inspection private garages driving schools RNP 2025 2026",
+    "security guard management software Rwanda payroll roster RSSB private security company app",
+    "Rwanda early childhood development centres nursery private schools licence REB inspection 2025",
+    "property management software Rwanda landlords rental agents Kigali tourism levy guest house software",
+    "(fetch) allafrica real estate broker rules; police.gov.rw security decent work meeting; rura.rw energy FAQs"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b62"
+ }
+}

@@ -1,4 +1,16 @@
 {
+ "challenge:uruguay:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single killer was found. Risks: the decree is still pending (180-day phase-in after it is published), the free state tools (RIHP and the Mintur online registry), and Anfy, a PMS sold in Uruguay to this segment that is already positioned around Ley 20.352.",
+   "reason": "Not refuted, but the duty doesn't bite yet. As of 13 Sep 2026 the decree under Ley 20.352 was still under review at Interior, MEF and MVOT. Hosts then get 180 days, so nothing is enforceable before about mid-2027. Mintur's registry will be free and online. Hotels already report guests through the Interior Ministry's free RIHP (Decreto 390/2013, 12-hour deadline), the likely channel for rentals too. No API spec was found. Anfy (anfy.app), a PMS and channel manager sold in Uruguay to cabins, apartments and hostels, already writes about this law. It stores guest data, so it could add the report cheaply. The market is mostly seasonal hosts (Punta del Este). Unsettled: final decree text, how guest reports are filed, number of hosts.",
+   "searches": 7,
+   "sources": "https://anfy.app/blog/registrar-alojamiento-turistico-uruguay.html ; https://www.impo.com.uy/bases/decretos/390-2013 ; https://www.gub.uy/ministerio-turismo/comunicacion/noticias/ministerio-turismo-presento-proyecto-regulacion-vivienda-turistica ; https://www.ambito.com/uruguay/la-reglamentacion-la-ley-alquileres-turisticos-se-demora-y-el-sector-reclama-mayor-celeridad-n6295417 ; https://www.gub.uy/unidad-reguladora-control-datos-personales/institucional/normativa/dictamen-n-16023 ; https://www.elobservador.com.uy/cafe-y-negocios/alquileres-airbnb-y-booking-comision-diputados-aprobo-proyecto-que-busca-regular-la-vivienda-turistica-n5960239",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b60"
+ },
  "discover:A:uruguay": {
   "result": {
    "blocked_searches": 0,
@@ -825,6 +837,17 @@
    "reason": "The duty is real. Ley 19.484 and Decreto 166/017, amended by Decreto 256/019 and 272/2022, require civil associations to file a notarised sworn declaration (Formulario B) with the BCU listing board members. Associations are exempt only if income is under UI 4M and assets under UI 2.5M, both at year-end. Changes must be reported within 30 days (90 days for non-residents); this comes from older sources. Penalties include fines and a suspended DGI certificate. No annual cycle was found, so it is mostly one-off plus update on change. No software competitor turned up, but a notary signature is required, and small buyers are scattered and low-paying. The market count and MEC census claim were not checked.",
    "searches": 4,
    "sources": "https://www.ferrere.com/en/news/uruguay-modificaciones-al-regimen-de-identificacion-y-comunicacion-de-beneficiarios-finales/ ; https://abogados.com.ar/registro-en-el-banco-central-del-uruguay-de-los-beneficiarios-finales-de-asociaciones-civiles/25349 ; https://uy.andersen.com/documents/Actualizaci%c3%b3n_al_r%c3%a9gimen_de_comunicaci%c3%b3n_al_BCU.pdf ; https://www.gub.uy/ministerio-economia-finanzas/book/19842/download",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b60"
+ },
+ "sonnet:uruguay:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Decreto 260/007 requires an annual sworn declaration, or a no-scope declaration. It covers brand owners, importers, contract packagers and packaging makers. The 2026 deadline was 6 April, because 30 March fell on a non-business day. The gub.uy page lists no penalties or fees. Filing is an online gub.uy procedure plus a signed paper, and the Ministry's Mesa de Entrada accepts it in person. The state portal already does the filing, so software would only add data prep. No dedicated software competitor turned up, but I searched only briefly. Plan Vale (Cámara de Industrias) handles adhesion for 2,500+ firms. Annual frequency, a free state channel and likely accountant or CIU help limit willingness to pay. Market size was not verified beyond the 2,500 figure.",
+   "searches": 2,
+   "sources": "https://www.gub.uy/tramites/registro-declaracion-jurada-empresas-envases ; https://www.gub.uy/ministerio-ambiente/politicas-y-gestion/sistema-gestion-envases ; https://www.elobservador.com.uy/free/plan-vale-todo-lo-que-tenes-que-saber-del-sistema-que-permite-devolver-envases-no-retornables-dinero-n6035266",
    "suggested_score": 3,
    "verdict": "confirmed"
   },

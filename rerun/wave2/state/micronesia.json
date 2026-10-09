@@ -1,0 +1,514 @@
+{
+ "discover:ALL:micronesia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small FSM employers and sole traders (shops, family firms) and the local bookkeepers who file for them",
+     "category": "31/32. GRT, wage-tax and FSMSSA employer returns",
+     "evidence": "https://www.fsmssa.fm/employers/ ; https://dofa.gov.fm/news/pohnpei-businesses-adopt-rms-for-faster-paperless-tax-returns/ ; https://www.yapstate.gov.fm/post/announcement-customs-tax-administration-yap-field-office ; https://dofa.gov.fm/wp-content/uploads/2021/09/Taxpayer-Services-Booklet.pdf ; https://www.fsmssa.fm/faq/",
+     "existing": "Free state portal (RMS / e-tax.gov.fm) now covers GRT and withholding filing; consultancy Aviaan (aviaanaccounting.com) markets bookkeeping and payroll services in Micronesia; no FSM-specific software found. Competitor search 'Pohnpei bookkeeping payroll tax preparation ... software' found no product.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Related to K01 (VAT / revenue authority kit) but different duty: existing quarterly taxes, not VAT.",
+     "name": "Small-employer quarterly compliance kit: wage tax + GRT + Social Security return in one workflow (paper SSA side plus accrual bookkeeping)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Quarterly: GRT and wage-tax returns online at e-tax.gov.fm (FSM Code Title 54; Q2 2026 deadline 31 July 2026); FSMSSA Employer's Quarterly Tax Return (FSM Code Title 53 ch. 9; 7.5% + 7.5%), with Business Gross Revenue form attached in Q4. GRT must be computed on accrual basis with no expense deductions.",
+     "trigger_note": "",
+     "unchecked": "Whether FSMSSA has any e-filing; whether RMS allows agents/accountants to file for clients; whether the VAT start date (K01) will force a combined return; actual number of small employers (population ~115k); willingness to pay."
+    },
+    {
+     "buyer": "Self-employed persons with no employees and small family firms",
+     "category": "1. Household employers (and 32)",
+     "evidence": "https://www.fsmssa.fm/employers/",
+     "existing": "None seen",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "Household and sole-trader Social Security 'No Payroll' / zero-return reminder service",
+     "score": 2,
+     "status": "weak",
+     "trigger": "FSMSSA requires a quarterly return even with no payroll (No Payroll This Quarter box) and a copy of the Business Gross Revenue form in Q4.",
+     "unchecked": "Penalty size, how many filers are zero filers, whether this is real pain; a feature of C01, not a standalone product."
+    },
+    {
+     "buyer": "Local insurance agents, solicitors, brokers",
+     "category": "33. Insurance licensing / 28. brokers",
+     "evidence": "https://fsmlaw.org/fsm/code/title37/T37_Ch03_2014.html ; https://unmission.fm/?p=9803 ; https://www.cfsm.gov.fm/wp-content/uploads/2024/08/CB-16-07.pdf",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Insurance agent/broker licence tracker (Title 37 Insurance Act 2006)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "FSM Code Title 37 ch. 3: licence per insurer for each agent; Banking and Insurance Board; CB 16-07 proposes broker indemnity cover.",
+     "unchecked": "Number of licensed agents (likely tens); renewal cycle; fees. Too small to sustain a product."
+    },
+    {
+     "buyer": "Owners of commercial boats under 12 m (water taxis, dive boats, ferries, fishing skiffs)",
+     "category": "18/36. Transport operators / small vessel regs",
+     "evidence": "https://www.tci.gov.fm/documents/transportation/marine/regulations/small-vessel-regulations.pdf (read via pdftotext)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Small commercial vessel annual inspection and operator licence manager",
+     "score": 2,
+     "status": "weak",
+     "trigger": "FSM Small Vessel Regulations (National Maritime Act 1997): initial inspection, periodic inspection at least every 12 months, $50 annual fee, operator licence, vessel marking.",
+     "unchecked": "Whether inspections are actually enforced; fleet size; state-level overlays (Kosrae Title 16 ch. 2 and Title 19 ch. 3 fishing vessel registration). Very small fleet and low fee."
+    },
+    {
+     "buyer": "Non-citizen business owners (retail, restaurants, construction) and employers sponsoring foreign workers",
+     "category": "15/34. Labour contractors / Foreign Investment Act",
+     "evidence": "https://fsmlaw.org/fsm/code/title32/T32_Ch02.htm ; https://www.rivermate.com/guides/micronesia/work-permits-and-visas ; https://unmission.fm/moratorium-restricts-foreign-labor-entry-into-fsm/",
+     "existing": "Employer-of-record sites (Rivermate, RemotePeople) only explain the process",
+     "known_mark": "new",
+     "name": "Foreign Investment Permit and non-citizen work/entry permit renewal tracker for employers and investors",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Foreign Investment Act 1997 (permit needed to engage in business; non-transferable); employer-sponsored work permits and entry permits (Worker) per state Division of Immigration and Labor, 1-2 years renewable; 2002 moratorium PL 12-13 may still limit categories.",
+     "unchecked": "Current permit counts, whether moratorium is in force, fees, renewal and reporting duties after issue. Likely handled by lawyers on paper."
+    },
+    {
+     "buyer": "Pohnpei sakau bar operators",
+     "category": "20/37. Small licensed premises",
+     "evidence": "https://fsmlaw.org/pohnpei/regulations/pnisakaubarreg.htm",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Sakau bar and food premises sanitation-certificate compliance (Pohnpei EPA)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Pohnpei EPA sakau bar regulation: operational and sanitation standards; certificate of compliance displayed (issued under 2000 cholera emergency order and State Law 3L-26-92).",
+     "unchecked": "Whether the certificate is still issued or renewed; number of bars; 2024-25 amendments. Informal, offline sector with no payment capacity."
+    },
+    {
+     "buyer": "Small exporters of agricultural products (pepper, noni, root crops, sakau) and parcel senders",
+     "category": "30. Small exporters and importers; 6. livestock",
+     "evidence": "https://fsmlaw.org/fsm/regulations/piv_x.htm ; https://leap.unep.org/en/countries/fm/national-legislation/plant-and-animal-quarantine-regulations-part-ix-export ; https://islandsbusiness.com/partner-advertorials/safe-pacific-strengthening-biosecurity-markets-and-community-livelihoods/",
+     "existing": "None seen; Customs side covered by ASYCUDAWorld (K02)",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "Plant/animal quarantine export and import permit helper for small exporters (phytosanitary certificate)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "FSM Plant and Animal Quarantine Regulations Part IV (permits for movement) and Part IX (export: phytosanitary certificates, inspection); biosecurity alerts up sharply in 2025.",
+     "unchecked": "Export volumes; fees; destination rules (CNMI, Guam, US); whether permits are on paper. Tiny export base."
+    },
+    {
+     "buyer": "Private clinics and practitioners (few)",
+     "category": "24. Private clinics, labs and health providers",
+     "evidence": "https://fsmlaw.org/fsm/code/title41/T41_Ch02_SubChI_2014.html ; https://hsa.gov.fm/wp-content/uploads/2024/07/RFP-Announcement-for-Medical-Specialty-Teams-002.pdf",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Medical licensing and clinic/practitioner licence renewal for private providers",
+     "score": 1,
+     "status": "weak",
+     "trigger": "FSM Medical Licensing Act (Title 41 ch. 2); board expanded to five members by Congressional Act 23-149 (January 2025); DHSA tenders require medical and business licences.",
+     "unchecked": "Private provider count (very few), renewal cycles, insurer billing. Public health system dominates."
+    },
+    {
+     "buyer": "Small lenders, Development Bank of FSM loan officers, finance companies",
+     "category": "35. Secured Transactions Act registry",
+     "evidence": "https://unmission.fm/fsm-to-launch-new-secured-transactions-act/ ; https://pacificpsdi.org/where-we-work/country/federated-states-of-micronesia",
+     "existing": "State registry itself is online and free to search",
+     "known_mark": "new",
+     "name": "Secured transactions notice filing and lender-side registry upkeep",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Secured Transactions Act: online notice filing at the Dept of Economic Affairs ($15 per notice); PSDI is upgrading the registry and pushing lender uptake.",
+     "unchecked": "Filing volumes, who files, whether lenders need continuation tracking. Buyers are few and not 'quiet' small businesses."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "No FSM register or duty found; FSM SSA taxes any employer with at least 1 employee (fsmssa.fm/employers), which would cover households, but no household-specific rule found. Budget.",
+     "status": "not_reached"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No search spent; no FSM dealer register surfaced in any result. Microstate.",
+     "status": "not_reached"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No search spent; nothing surfaced.",
+     "status": "not_reached"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "No gold trade or dealer register in FSM that surfaced; no search spent.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No search spent; nothing surfaced.",
+     "status": "not_reached"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Only the national Plant and Animal Quarantine Regulations (permits for moving animals/plants within FSM, Part IX export certificates). Nothing livestock-trader specific. Weak, see candidate C07.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "No search spent; nothing surfaced.",
+     "status": "not_reached"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No beekeeping regime surfaced; negligible sector.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "No vet practice register surfaced; sector negligible.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "No search spent. Budget.",
+     "status": "not_reached"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Pohnpei State Law 6L-66-06 (litter abatement, shipping container and motor vehicle waste disposal fee, Environmental Quality Fund) and FSM PL 21-76 plastics ban found; no hauler register or recurring report found.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Microstate with essentially no lifts or boilers; no register surfaced.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "No search spent; only quarantine regulations seen.",
+     "status": "not_reached"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Work permits and entry permits for non-citizen workers are sponsored by the employer via each state's Division of Immigration and Labor (Rivermate April 2025; RemotePeople). 2002 moratorium PL 12-13 on new foreign worker entry may still apply (unverified). No recruitment-agency licence found. See C05.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "FSM Registrar of Corporations (doj.gov.fm, roc.doj.gov.fm) focuses on offshore/major corporations; no non-profit annual-report regime or AML NPO rule found. Halal/kosher not applicable.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "No taxi or bus licensing source found for any state. National FSM Small Vessel Regulations (TCI) cover commercial boats under 12 m: annual inspection ($50), operator licence, marking. See C04.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "No money-changer regime surfaced; USD economy, so no currency exchange. Street vendors not searched.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Only Pohnpei EPA sakau-bar sanitation regulation with a certificate of compliance displayed on the premises (fsmlaw.org/pohnpei/regulations/pnisakaubarreg.htm, issued under 2000 cholera emergency order). See C06. Other premises types not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "FSM Petroleum Corporation took over wholesale fuel supply from Mobil (2008). No gas-station licence or periodic report found. Single state-owned wholesaler, so no small-buyer group.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "No such commodity trade; copra/pepper/sakau are tiny. No register surfaced.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "One search: no cooperative or credit union act or register surfaced in FSM results. Banking Board overview exists (bankingboard.gov.fm/overview.htm) but not opened. Nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "FSM Medical Licensing Board (Title 41 ch. 2; board enlarged to 5 members by Congressional Act 23-149, Jan 2025) licenses practitioners. DHSA contracts need medical and business licences. No insurer-billing regime found. Weak, C08.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Pharmacists fall under the Medical Licensing Act definition; no pharmacy register or controlled-substance reporting regime found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "No search spent beyond the work-permit material under 15.",
+     "status": "not_reached"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "No search spent. Budget.",
+     "status": "not_reached"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "One AML search returned nothing FSM-specific (all foreign results). No broker or notary reporting regime found. Insurance agents/brokers are licensed by the Banking and Insurance Board under Title 37 (C03). Unverified for AML reporting.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "No hotel occupancy tax, guest register or dive-operator licence rule found for FSM or any state. Yap Visitors Bureau exists. Nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Plant and Animal Quarantine Regulations Part IX export (phytosanitary certificate and inspection); SAFE Pacific biosecurity programme reports 17 significant pest alerts in ten months of 2025. Customs side already ASYCUDA (K02), fisheries K03. See C07.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Gross receipts tax and wage-tax withholding returns (CTA, DoFA)",
+     "found": "Quarterly GRT (3% above $10,000; accrual basis) and wage-tax returns are now filed online at e-tax.gov.fm; DoFA Revenue Management System (RMS) rolled out in phases, training in Pohnpei Oct 2025; Yap notice set a 31 July 2026 deadline for Q2 2026. Free state portal covers the filing itself. Gap is only bookkeeping/prep. See C01.",
+     "status": "screened"
+    },
+    {
+     "category": "32. FSM Social Security employer quarterly return (FSMSSA)",
+     "found": "Every employer with at least 1 employee files the Employer's Quarterly Tax Return; zero-payroll filers tick No Payroll This Quarter and attach the Business Gross Revenue form in Q4; rate 7.5% + 7.5% since 2013. No online filing or portal found. See C01 and C02.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Insurance Act 2006 (Title 37) licensing of agents, brokers, foreign insurer registration",
+     "found": "Banking and Insurance Board licenses agents, solicitors and brokers; a separate agent licence is needed per insurer; foreign insurers with at least $2m premiums must be licensed. Bill CB 16-07 proposes broker professional-indemnity cover (enactment unconfirmed). Tiny buyer group. See C03.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Foreign Investment Act permits (national and Pohnpei state)",
+     "found": "Noncitizens need a Foreign Investment Permit (FSM Foreign Investment Act 1997); non-transferable; state and national filing; Pohnpei reformed its law in 2018 (Green List, 49/51 partner rule, unverified if current). See C05.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Secured Transactions Act collateral registry",
+     "found": "Online notice filing at Dept of Economic Affairs, $15 per notice, free search (date unknown); PSDI supporting registry upgrade and lender uptake. Filers are mostly banks and the Development Bank, not quiet small firms. See C09.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Small vessel registration, inspection and operator licence (TCI)",
+     "found": "FSM Small Vessel Regulations under National Maritime Act 1997: vessels under 12 m, initial and at least 12-monthly inspection, $50 annual fee, operator licence, marking. See C04.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Environmental and litter laws: plastics import ban, waste disposal fee, sakau bars",
+     "found": "PL 21-76 (2020) bans one-time-use styrofoam/plastic food items and shopping bags import; Pohnpei litter/waste fee law 6L-66-06; sakau bar sanitation regulation. Importer-side compliance only. See C06.",
+     "status": "screened"
+    },
+    {
+     "category": "38. FSM Banking Board, remittances, financial institution licensing",
+     "found": "One search returned only foreign results; Banking Board overview page not opened. Unverifiable.",
+     "status": "not_reached"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "FSM Pohnpei business license regulation foreign investment permit requirements",
+    "Federated States of Micronesia Public Law 2024 2025 new law signed Congress",
+    "FSM unified revenue authority gross revenue tax wage tax filing small business 2025",
+    "Chuuk Yap Kosrae Pohnpei taxi license vessel boat registration small vessel inspection law",
+    "FSM Social Security Administration employer contribution reporting wage quarterly",
+    "FSM first insurance law Urusemal insurance agents brokers licensing Division of Insurance",
+    "FSM Banking Board money transfer remittance license anti-money laundering FIU",
+    "FSM Department of Health Services medical licensing board practitioners pharmacy license Pohnpei clinic",
+    "Pohnpei sakau kava market regulation license Pohnpei State law 2024 2025",
+    "FSM hotel occupancy tax Yap Pohnpei dive operator tourism license visitors bureau",
+    "FSM fuel petroleum importer license Pohnpei Petroleum Corporation gas station permit EPA",
+    "FSM Division of Immigration labor foreign worker permit employer non-citizen employment 2025",
+    "FSM secured transactions registry collateral registry Development Bank 2024",
+    "Pohnpei Legislature State Law 2025 container deposit plastic bag ban business license",
+    "FSM anti-money laundering act amendment 2024 2025 reporting entities",
+    "FSM Revenue Administration online tax filing portal e-filing gross revenue tax",
+    "FSM biosecurity quarantine import permit export pepper noni sea cucumber",
+    "FSM Social Security e-filing employer quarterly return online 2025 2026",
+    "Pohnpei Chuuk Yap cooperative credit union association registration nonprofit FSM",
+    "Pohnpei bookkeeping payroll tax preparation services small business FSM Social Security GRT software"
+   ],
+   "searches": 20
+  },
+  "tag": "w2b77"
+ },
+ "gapfill:micronesia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Sole proprietors and family firms with employees or over $10,000 gross revenue",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies (adjacent: employers generally)",
+     "evidence": "https://www.fsmssa.fm/employers (fetched). Paper forms; no online filing mentioned on the page. Market is only a few thousand firms across four states, and the buyer is covered by general payroll or accounting tools.",
+     "existing": "None seen; no portal mentioned on the page. FSMSSA ACH programme exists only for voluntary contributions (fsmssa.fm).",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Same authority-adjacent family as K01 (FSM tax and revenue admin) but a different duty (SSA quarterly return)",
+     "name": "FSM Social Security quarterly employer return and Business Gross Revenue filing helper for sole proprietors",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Every employer needs an EIN and files an Employer's Quarterly Tax Return with tax payment each quarter. Self-employed people file even with 'No Payroll This Quarter' and attach a Business Gross Revenue form to Q4 (5% of gross revenue deemed wages if over $10,000). Source: fsmssa.fm/employers.",
+     "trigger_note": "",
+     "unchecked": "Whether SSA offers e-filing; number of registered employers; whether Division of Revenue also needs a parallel gross-revenue tax return; real willingness to pay."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "fsmssa.fm/employers (fetched) says every employer needs an EIN and files an Employer's Quarterly Tax Return with payment each quarter, and that covered employers include sole proprietors with at least 1 employee or over $10,000 gross revenue. It lists domestic service as covered but gives no household-specific registration or reporting rule. Search snippets conflict: the 2014 FSM Code (Title 53 wages definition) appears to exclude domestic service in a private home, and bill CB 18-236 treats family employment as non-covered (enactment unconfirmed). No household register found. Small market and no distinct buyer group: nothing worth a candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "One combined search with category 3 and one on vehicles returned only foreign results. No FSM or Pohnpei dealer register or scrap licence found. Title 32 Ch 1 licences only importers, exporters, securities dealers and insurers. Nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No FSM or state pawnbroker or second-hand dealer rule found. Business licensing is by state or municipal licence (secondary source, a third-party guide). Nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler or junk-vehicle rule found. Used-vehicle importers exist, for example Go Alpha Enterprises in Kolonia, a self-described Japan-sourced used-car dealer. No dealer register or scrapping programme surfaced.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "No slaughter or butcher licensing rule found. The FSM National Food Safety Act (PL 7-116) and DHSA food-inspector job postings (personnel.gov.fm, 2026) show food-facility inspection exists nationally, but no register or report duty was seen. Nothing for software.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "No FSM or Pohnpei well-drilling or abstraction permit found. Only the national earthmoving permit (FSM Supreme Court case citing earthmoving regulations, with a Pohnpei EPA assessment role) surfaced. That is a per-project permit with no recurring duty.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Pohnpei Utilities Corporation (PUC) runs public water under Pohnpei State Code Title 34 Ch 1. Local-government water systems are excluded unless transferred to PUC. Pohnpei EPA lab tests drinking water (zero E. coli per 100 mL). Nothing on Chuuk, Yap or Kosrae. No small-operator register or reporting duty found.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "No FSM or state pesticide dealer or applicator licensing found. Only FSM Code Title 22 Ch 4 plant and animal quarantine permits (import of plants and produce) and a regional PRPRS harmonisation effort were seen. Nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Nothing FSM-specific found; the search returned only foreign results. No funeral or cemetery register seen.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "No manpower-agency or security-guard licensing found. Foreign worker entry is governed by entry and work permits and an older moratorium notice (2002, currency unknown), plus the Pohnpei Residents Employment Act 1991 (text not seen). Employers also face SSA quarterly returns. No agency register found.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "No contractor licensing or site register found. FSM Code Title 32 Ch 1 (fetched) licenses only importers, exporters, securities dealers and insurers. Foreign contractors need a Foreign Investment Permit (Title 32 Ch 2), though PL 14-48 exempts Compact infrastructure civil works. A 2006 item mentions national contractor pre-qualification for government projects. No local-content report found.",
+     "status": "screened"
+    },
+    {
+     "category": "38. FSM Banking Board, remittances, financial institution licensing",
+     "found": "bankingboard.gov.fm/overview.htm (fetched): the Board regulates only deposit-taking banks, which today are Bank of Guam and Bank of the FSM. Insurance companies, credit unions, money transfer entities, FSM Development Bank, MiCare and housing authorities are listed as non-regulated by the Board. Annual bank licence fee is $2,000 per office. No remittance licensing or reporting register at the Board. The AML law status (CB 14-205 Financial Transactions Reporting) is unconfirmed and no FSM mutual evaluation was found. Closed as a buyer group: only two regulated banks.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "FSM Banking Board financial institution license remittance Federated States of Micronesia",
+    "Federated States of Micronesia foreign investment permit contractor business license construction Pohnpei",
+    "Pohnpei State pesticide regulation dealer license applicator EPA",
+    "Pohnpei Utilities Corporation public water system regulations drinking water Chuuk Yap Kosrae EPA",
+    "Pohnpei State business license pawnshop second-hand dealer scrap metal junk vehicle regulation",
+    "Pohnpei State Code slaughterhouse meat inspection butcher license food safety regulation",
+    "Pohnpei EPA well drilling permit groundwater earthmoving permit regulations",
+    "Pohnpei State cemetery burial funeral home regulation law mortician",
+    "fsmssa.fm employers registration domestic household employee contributions FSM Social Security",
+    "FSM Department of Labor work permit non-citizen employer security guard manpower agency Pohnpei",
+    "FSM money transfer remittance business registration AML Financial Intelligence Unit Micronesia reporting entities",
+    "Pohnpei contractor license construction regulation Department of Public Safety building permit FSM Title 32",
+    "Federated States of Micronesia pesticides act import restricted pesticide permit agriculture quarantine Pohnpei",
+    "FSM Financial Transactions Reporting Act Public Law cash dealer money transmitter Banking Board APG mutual evaluation",
+    "Kolonia Pohnpei used cars dealer vehicle registration junk cars removal program Pohnpei Transportation",
+    "WebFetch: bankingboard.gov.fm/overview.htm; fsmssa.fm/employers; fsmlaw.org Title 32 Ch 01"
+   ],
+   "searches": 16
+  },
+  "tag": "w2b77"
+ },
+ "sonnet:micronesia:ALL1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. FSMSSA requires a quarterly Employer's Quarterly Tax Return, including a \"No Payroll\" return, on paper, with the Business Gross Revenue form attached in Q4. I found no penalty text and no online filing on the page. Yap's notice says withholding and gross revenue tax are filed through e-tax.gov.fm, with a Q2 2026 deadline of 31 July 2026. The national RMS portal is free, and a DoFA workshop covered GRT and withholding filing. Competition: the state portal does the core filing and no FSM-specific software turned up. Market is small (population about 115k, a few thousand firms). Willingness to pay is low, and I could not confirm whether agents can file for clients. Not independently checked here: the GRT accrual basis and Title 53/54 citations, and the 7.5%+7.5% Social Security rate (older Yap guides give 12% and 15%).",
+   "searches": 1,
+   "sources": "https://www.fsmssa.fm/employers/ ; https://www.yapstate.gov.fm/post/announcement-customs-tax-administration-yap-field-office ; https://dofa.gov.fm/news/pohnpei-businesses-adopt-rms-for-faster-paperless-tax-returns/ ; https://dofa.gov.fm/events/national-revenue-management-system-launch/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b77"
+ },
+ "triage:micronesia": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "ALL1",
+     "reason": "Quarterly GRT, wage-tax and FSMSSA employer returns are a different duty from K01 (VAT/URA transition); related to K01."
+    },
+    {
+     "decision": "merge",
+     "id": "ALL2",
+     "reason": "Same core duty (FSMSSA quarterly return, incl. no-payroll and Q4 gross revenue form) and overlapping sole-trader and family-firm buyers as ALL1.",
+     "ref": "ALL1"
+    },
+    {
+     "decision": "keep",
+     "id": "ALL3",
+     "reason": "Licence-per-insurer duty falls on small agents and brokers (small professional offices); no known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL4",
+     "reason": "Annual inspection and operator licence for small commercial boats is a recurring mandatory duty on sole traders and family firms."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL5",
+     "reason": "Foreign investment permit and worker/entry permit renewals are recurring duties on small employers; a new duty, not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL6",
+     "reason": "Sakau bar sanitation certificate is a mandatory duty on small licensed premises; a new duty and buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL7",
+     "reason": "Phytosanitary and quarantine permits are a different duty from K02 (customs declarations); related to K02."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL8",
+     "reason": "Licence renewal falls on small private clinics and practitioners (in scope); verifiers can judge the market size."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL9",
+     "reason": "Unsure whether notice filing is mandatory, since it perfects security interests and is arguably optional. Lenders are small finance firms, so keep for verification."
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS1",
+     "reason": "Same buyer group (sole proprietors and family firms) and same FSMSSA quarterly return duty as ALL1 and ALL2; ALL1 is the earliest candidate.",
+     "ref": "ALL1"
+    }
+   ]
+  },
+  "tag": "w2b77"
+ }
+}

@@ -1,0 +1,484 @@
+{
+ "discover:ALL:nauru": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Non-resident individual traders (retail, restaurant, vehicle rental and repair, top-up sellers) liable to Small Business Tax; also small Business Profits Tax filers",
+     "category": "31. Country-specific: Small Business Tax and cash-book regime (also 19 and 32)",
+     "evidence": "https://naurufinance.info/wp-content/uploads/2026/06/Education-Seminar-Questions-and-Answers.pdf ; https://naurufinance.info/nauru-revenue-office/nro-forms/ (forms in PDF/DOC, Chinese versions, cash-book templates, no e-filing) ; https://naurufinance.info/wp-content/uploads/2024/07/Business-Tax-Quarterly-Return-Form-2024-2025.pdf ; https://naurufinance.info/wp-content/uploads/2020/07/public_ruling_no_3_-_record_keeping.pdf",
+     "existing": "Competitor search (Chinese) found only generic bookkeeping firms (aviaanaccounting.com) and a HeadOffice accounting page saying Nauru tax returns are 'coming soon'. No Nauru-specific cash-book or SBT app found. NRO provides free PDF/Word templates.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Different duty (SBT/BPT, not ESTA withholding) and different buyer (traders, not payers), but same Nauru Revenue Office and the same tiny-market problem as K01.",
+     "name": "SBT and BPT quarterly return plus cash-book app for non-resident individual shopkeepers (English/Chinese)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Business Tax Act 2016: SBT 3.5% of quarterly gross sales (older rate sheets say 2.5%), return and payment by 15 Oct/Jan/Apr/Jul; cash book of daily sales and a salary and wages register must be kept; from 1 July 2026 only cash sales go in the cash book, online sales come from bank statements; NRO small-business record-keeping audits. BPT annual return due 30 Sept.",
+     "trigger_note": "",
+     "unchecked": "Number of SBT filers (likely a few hundred at most); whether an NRO online portal or FMIS portal will replace paper; whether SBT rate is 2.5% or 3.5% now; willingness to pay; Chinese-speaking owners reachable offline."
+    },
+    {
+     "buyer": "Registered hotels, guest houses, boarding houses and apartments",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://rms.paclii.org/nr/legis/num_act/ara2012277 (table of contents only; full text blocked 403/503) ; https://paclii.org/nr/legis/num_act/ara2007357",
+     "existing": "Not checked beyond one search; no NRO bed-tax form found on the forms page.",
+     "known_mark": "new",
+     "name": "Accommodation register and monthly bed-tax return for hotels and guest houses",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Accommodation Registration Act 2012 (registration, records, monthly return, bed tax; rate was AUD 10 from 1 July 2007).",
+     "unchecked": "Current in-force text, rate, return form, number of registered houses (probably under 10), whether the NRO or a tourism body collects."
+    },
+    {
+     "buyer": "Retailers and traders",
+     "category": "34. Country-specific: Consumer Protection Act 2024",
+     "evidence": "https://pacliirms.paclii.org/nr/legis/num_act/cpa2024246.pdf ; https://pacliirms.paclii.org/nr/other/NRGovGaz/2025/200.pdf",
+     "existing": "None looked for.",
+     "known_mark": "new",
+     "name": "Consumer Protection Act 2024 trader compliance",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Consumer Protection Act 2024 (Act No. 5 of 2024, certified 20 Aug 2024) creating the Consumer Protection Authority; Minister exemptions by notice.",
+     "unchecked": "Operative trader duties, any licence, register or reporting; regulations made under the Act."
+    },
+    {
+     "buyer": "Corporate service providers and registered agents in Nauru",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://rms.paclii.org/nr/legis/num_act/boa2017195 ; https://paclii.org/nr/legis/sub_leg/cafr2018394.pdf ; https://pacliirms.austlii.edu.au/nr/legis/num_act/alatfsa2023476.pdf",
+     "existing": "Not checked; global corporate-service software is the likely incumbent.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Same offshore-services niche as the rejected CBI ideas; likely too few buyers.",
+     "name": "Beneficial ownership and annual return filing for foreign-owned Nauru companies (service provider tool)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Beneficial Ownership Act 2017 (sections 42-43, annual-return statement); Corporations Regulations 2018 (annual return AUD 500, late lodgement AUD 500); AML-TFS Act 2023.",
+     "unchecked": "Number of agents, whether there is an online registry, sources conflict on registered-agent rules."
+    },
+    {
+     "buyer": "Small Nauruan employers hiring foreign workers",
+     "category": "37. Country-specific: Immigration local business (employment) visa",
+     "evidence": "https://rms.paclii.org/nr/legis/sub_leg/ia2014ir2023s82023494.pdf",
+     "existing": "None checked.",
+     "known_mark": "new",
+     "name": "Employer-sponsor records for local business (employment) visas",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Immigration Regulations 2023 (local business employment visa; employer justification, sponsor duties).",
+     "unchecked": "Whether any recurring employer report exists beyond the one-time application."
+    },
+    {
+     "buyer": "Bingo and sports-betting operators, and community fundraisers",
+     "category": "33. Country-specific: Gaming Act 2011",
+     "evidence": "https://pacliirms.austlii.edu.au/nr/legis/sub_leg/ga2016gr2016321.pdf ; https://naurufinance.info/nauru-revenue-office/nro-forms/",
+     "existing": "None.",
+     "known_mark": "new",
+     "name": "Gaming licence and bingo prize-fee tracker",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Gaming Act 2011 and Gaming Regulations (bingo 15% of prize value per event; betting AUD 10,000 per premises per 12 months, 2016 schedule).",
+     "unchecked": "Number of operators (probably very few); any return filing duty."
+    },
+    {
+     "buyer": "Licensed bars, restaurants, clubs, off-licences",
+     "category": "35. Country-specific: Liquor Control Act licensing",
+     "evidence": "https://pacliirms.paclii.org/nr/other/NRGovGaz/2025/202.pdf ; https://paclii.org/nr/legis/num_act/lcn2a2018304",
+     "existing": "None.",
+     "known_mark": "new",
+     "name": "Liquor licence renewal and compliance for bars, restaurants and off-licences",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Liquor Control Act and Forms and Fees Regulations 2021 (amended May 2025).",
+     "unchecked": "Number of licensees, any recurring report, which Act is in force (2011 vs 2017 naming conflict)."
+    },
+    {
+     "buyer": "Taxi and rental-car operators",
+     "category": "18. Transport operators",
+     "evidence": "https://pacliirms.paclii.org/nr/legis/num_act/mta2014153.pdf ; https://rms.paclii.org/nr/legis/num_act/mta2023233.pdf",
+     "existing": "None.",
+     "known_mark": "new",
+     "name": "Taxi and rental operator permit tracking",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Motor Traffic Act 2014 and Regulations (taxi/rental operator permits, registration, number plates; 2023 amendment).",
+     "unchecked": "Fleet size, renewal cycle."
+    },
+    {
+     "buyer": "Local artisanal fishers, fish buyers and processors",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://leap.unep.org/en/countries/nr/national-legislation/fisheries-management-act-2024-no-9-2024 ; https://leap.unep.org/en/countries/nr/national-legislation/coastal-fisheries-and-aquaculture-regulations-2026 (blocked 403)",
+     "existing": "Foreign-fleet systems (PNA, FFA, WCPFC) are K03, a different buyer group.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Different buyer (local artisanal fishers, not foreign fleets).",
+     "name": "Fish-buyer, fish-export facility and coastal fisheries licence compliance for local fishers",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Fisheries Management Act 2024 (No. 9 of 2024); Coastal Fisheries and Aquaculture Regulations 2026; 1997 Act fish-buyer and export-facility licences (status unclear).",
+     "unchecked": "Regulation text, local export volumes, logbook duties."
+    },
+    {
+     "buyer": "Nauruan employers and payers",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://naurufinance.info/wp-content/uploads/2024/06/QA-Employment-and-Services-Tax-2024-2025-1.pdf",
+     "existing": "",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Same buyer group and duty as K01; no re-check.",
+     "name": "Monthly ESTA withholding returns for employers (Forms A/B/C)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Employment and Services Tax Act 2014: withhold at the time of payment and pay by the 15th of the next month."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing specific. ESTA withholding applies to payers of employment income (NRO monthly withholding forms A/B/C, due 15th of following month); no household-employer scheme found. Nothing new beyond K01.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No scrap-dealer licensing regime found; phosphate and legacy scrap are state-handled. Tiny market.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No pawnbroker or second-hand dealer regime found in the Business Licences Act 2017 searches. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "No gold or jewellery trade in Nauru found; cash-export licence (Customs/NRO, AUD 5,000 cash threshold) is the only related duty (see 36).",
+     "status": "not_applicable"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Motor Traffic Act 2014 covers registration, inspection and number plates only. NRO cashbook templates exist for vehicle repair businesses (see 31). No dismantler licence found.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Only the Agricultural Quarantine Act 1999 (import certificates) found. Negligible livestock trade. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Food Safety Act 2005 exists (labelling). No abattoir licensing register found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No beekeeping sector of note; none found.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "No vet practices found; none surfaced in searches.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "No search spent. Water is supplied by the state utility (Nauru Utilities Corporation).",
+     "status": "not_reached"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "No search spent; state-run services assumed, unverified.",
+     "status": "not_reached"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "No lifts or boilers regime plausible on an island of about 12,000 people; none found.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Water is supplied through the state utility; not a private small-operator market.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Only the Agricultural Quarantine Act 1999 surfaced; no dealer regime. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Immigration Regulations 2023 create a local business (employment) visa tied to a Nauruan employer and sponsor; employers who hand a licence to a foreigner are excluded. No recruiter licence found (see 37).",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Nauru has no Cooperative Societies Act hits; no association or charity register found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Motor Traffic Act 2014 and regulations: taxi operator and rental car operator permits (AUD 200 in the 2016 schedule), vehicle registration, number plates; 2023 amendment exists but was not read. Tiny fleet; low value.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Small Business Tax regime covers non-resident individual traders (see 31). Cash export licence exists (see 36). No street-vendor regime found.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Food Safety Act 2005 only. No premises-inspection register surfaced. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "2013 energy overview: LPG and kerosene imported by the private sector; petrol and diesel distributed by Nauru Utilities Corporation. No fuel licensing Act found; Customs Tariff (Imposition of Fuel Levy) Regulations 2018 exist. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "No commodity trade; the phosphate export is state-run (RONPHOS).",
+     "status": "not_applicable"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "No Nauru co-operative statute found in the search results.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Health care is state-provided (RON Hospital); no private insurer-billing market found.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Only the Dangerous Drugs Ordinance 1952 (import licence) and the Illicit Drugs Control Act 2004 found; no pharmacy Act. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "No manpower-agency regime found; ESTA covers subcontractor service fees (see K01). Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Nothing local found. Regional Processing Centre contractors file ESTA at 30% (Form B), which is the K01 duty.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "AML and Targeted Financial Sanctions Act 2023 (FIU in the Department of Justice and Border Control) and Beneficial Ownership Act 2017 (annual-return statements, corporations annual return fee AUD 500, late lodgement AUD 500). No goAML-style portal or DNFBP list confirmed. Candidate recorded (see 38).",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Accommodation Registration Act 2012 (replaced 2006 Act, unverified): registration, records, monthly return and a bed tax (AUD 10 per bed per night from 1 July 2007, current rate unconfirmed). Full text blocked (403/503). No NRO bed-tax form found on forms page. Candidate recorded.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Fisheries Management Act 2024 (No. 9 of 2024) covers export, labelling and certification; Coastal Fisheries and Aquaculture Regulations 2026 cover local licensing and exports (page blocked); the Fisheries Act 1997 had fish-buyer and fish-export-facility licences. Foreign fleets are K03. Candidate recorded as unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Country-specific: Small Business Tax and cash-book regime for non-resident individual traders",
+     "found": "Key finding. SBT is 3.5% of quarterly gross sales (2.5% in older sheets); due 15 Oct/Jan/Apr/Jul; a cash book and a wages register are required; NRO runs record-keeping audits; the NRO issues cash-book templates for retail, restaurant, vehicle rental and vehicle repair, with Chinese translations; there is no online portal. Candidate recorded.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Country-specific: Business Profits Tax (20%) quarterly and annual returns",
+     "found": "Forms A (company), B (individual), C (partnership/trust); annual return due 30 Sept (3 months after the 30 June year end) even with a loss; quarterly instalments 15 Oct/Jan/Apr/Jul. Merged into the same candidate as 31.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Country-specific: Gaming Act 2011 (bingo, betting) licences",
+     "found": "Gaming Regulations: bingo fee 15% of prize value (AUD 100 if minimal prizes), betting AUD 10,000 per premises per 12 months (2016 schedule); issued by the NRO Revenue Division. Tiny, few operators. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Country-specific: Consumer Protection Act 2024 (Act No. 5 of 2024) and Consumer Protection Authority",
+     "found": "Certified 20 Aug 2024. Creates the Consumer Protection Authority; the Minister can exempt bodies (CBA exempted in May 2025). Trader duties not confirmed. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Country-specific: Liquor Control Act licensing (bar, restaurant, off-licence, club)",
+     "found": "Licence classes (bar, restaurant, nightclub, off-licence, club, special event, liquor import); Forms and Fees Regulations 2021 amended in May 2025 (bar and restaurant application AUD 3,000). Few licensees. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Country-specific: Cash export licence (AUD 5,000+ cash export, Customs and NRO Revenue Division)",
+     "found": "Customs order from 2023 bars export of AUD 5,000 or more without written approval; the NRO publishes an application form. Individual one-off permit. Not a software workflow.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Country-specific: Immigration local business (employment) visa, employer sponsor duties (Immigration Regulations 2023)",
+     "found": "Employer must justify the foreign hire, visa is tied to the employer; visa fee cannot be waived. Small employers apply case by case. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "38. Country-specific: AML/CFT and beneficial ownership annual filings for foreign-owned Nauru companies and corporate service providers",
+     "found": "AML-TFS Act 2023, Record Keeping Regulations 2023, Beneficial Ownership Act 2017 and Corporations Regulations 2018; the buyers are a handful of agents. Sources conflict; unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "39. Country-specific: Mobile top-up and telecom card retailers (Digicel and Neotel statements feed SBT)",
+     "found": "The NRO builds SBT returns for top-up sellers from Digicel and Neotel monthly statements and taxes 3.5% on full top-up value. Folded into candidate 31.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "Nauru business licence register Revenue Office requirements small business",
+    "Nauru Act 2024 gazette regulation licence",
+    "Nauru Employment Services Tax withholding employers return Nauru Revenue Office",
+    "Nauru Anti-Money Laundering Act reporting entities FIU registration DNFBP",
+    "Nauru Consumer Protection Act 2024 traders obligations price labelling licence",
+    "Nauru liquor licence Act retail alcohol licensing fees",
+    "Nauru motor vehicle registration taxi bus operator licence road traffic Act",
+    "Nauru Quarantine biosecurity import permit food importers Act 2024",
+    "Nauru guest house hotel accommodation licence tourism Act visitors register",
+    "Nauru pharmacy medicines Act pharmacist licence import of medicines controlled drugs",
+    "Nauru foreign worker work permit employer sponsor Immigration Act",
+    "Nauru Fisheries Management Act 2024 local fishing licence artisanal fish export",
+    "Nauru Revenue Office business tax return deadline Business Profit Tax annual return",
+    "Nauru Cooperative Societies Act associations registration annual return Registrar",
+    "瑙鲁 小企业税 营业执照 税务局 商户 申报 现金账簿",
+    "Nauru Small Business Tax quarterly return threshold cash export licence",
+    "Nauru fuel import distribution petroleum Act licence LPG",
+    "Nauru Gaming Act 2011 bingo betting licence returns",
+    "瑙鲁 华人商店 记账 报税 软件 小企业税 季度申报 服务",
+    "Nauru Corporations Act annual return registered agent beneficial ownership",
+    "Nauru Revenue Office FMIS portal Chinese traders top-up Digicel Neotel SBT",
+    "Nauru accommodation tax bed tax return monthly"
+   ],
+   "searches": 22
+  },
+  "tag": "w2b77"
+ },
+ "gapfill:nauru": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Private funeral providers and cemetery managers (if any)",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "Funeral Burial and Cremation Act 2017 (https://pacliirms.austlii.edu.au/nr/legis/num_act/fbaca2017253) exists with a Committee, cremation fees and 24-hour disposal rule, but I only saw its table of contents (full text returned HTTP 503). No evidence of any licensed private funeral operators or registers. Population of about 12,000 means at most a handful of buyers.",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Funeral, burial and cremation record/fee tool for Nauru funeral operators",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Funeral Burial and Cremation Act 2017 (No. 27 of 2017)",
+     "unchecked": "Act body text: whether operators need licences, what records they keep, who runs the cemeteries; any regulations under the Act; whether any private funeral businesses exist."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Nothing new beyond K03 and nothing viable. Nauru has no reticulated water network. Supply is desalination (state utility, tanker delivery; 2021 RO plant, 1800 m3/d), household rainwater tanks and brackish groundwater. The water sector is state-run (Nauru Utilities Corporation, formerly Authority). A 2010 stocktake lists only RonPhos and NRC as commercial water-delivery entities. I found no licensing regime for private desalination or tanker operators (the 2001 plan only says private desalination units are allowed and tankers must be kept clean). The ADB-funded project is meant to update water and sanitation regulatory codes, so a permit regime may emerge. No well-driller or abstraction-permit register found. Island of about 12,000 people, so no private buyer group.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Solid waste is a state service. NRC (Nauru Rehabilitation Corporation) collects weekly and free; households buy a 240L bin for about AUD 108. Japan donated two garbage trucks and two compactors in Nov 2025. No private waste haulers found. Sanitation is on-site (many septic tanks leaking, septage plants over capacity), and the ADB Sustainable and Resilient Urban Development Project (USD 37.5M grant approved Sept 2024) covers sanitation, composting and recycling, and tariff and cost-recovery updates. No private septic hauler licensing or register found, and no private buyer group. Not verified whether private septic desludging operators exist.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "The Funeral, Burial and Cremation Act 2017 (No. 27 of 2017, certified 19 Dec 2017, repealed the Cemeteries Act 1922) sets up a Funeral, Burial and Cremation Committee. It covers who controls funerals, disposal within 24 hours, burial at sea, cremation (with fees), a ban on home burials, health-practitioner certificates and burial of destitute persons. It regulates cemeteries and facilities for disposing of remains. The Act's full text could not be opened (AustLII returned HTTP 503 twice), so I could not confirm whether private funeral operators are licensed or must keep registers. No private funeral operators found in search. Likely very few operators, government or family-run, so buyer pool is negligible.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Nauru Utilities Corporation water supply desalination rainwater tanks regulation",
+    "Nauru sanitation septic waste collection Nauru Rehabilitation Corporation Utilities waste management",
+    "Nauru funeral cemetery burial regulation Act undertaker",
+    "Nauru private desalination water tanker delivery business licence permit",
+    "Nauru sewerage septic tanks households wastewater Sustainable Urban Development Project ADB",
+    "Nauru funeral services private business cemetery fees Funeral Burial and Cremation Committee",
+    "WebFetch pacliirms.austlii.edu.au Funeral Burial and Cremation Act 2017 (html) - HTTP 503",
+    "WebFetch pacliirms.austlii.edu.au Funeral Burial and Cremation Act 2017 (pdf) - HTTP 503"
+   ],
+   "searches": 8
+  },
+  "tag": "w2b77"
+ },
+ "sonnet:nauru:ALL1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: non-resident individuals liable to Small Business Tax must file the NRO Business Tax Quarterly Return and pay within 15 days of each quarter end (15 Oct, Jan, Apr, Jul). The form states 3.5% of gross revenue; a third-party guide says 2.5%, so the rate is unresolved. I found no online portal or e-filing. Filing is by PDF form, email or in person at the Revenue Office. No Nauru-specific app was found. I could not read the seminar PDF (binary), so cash-book rules, penalties and the 1 July 2026 change are unchecked. The market is tiny (probably a few hundred filers, no register found). Willingness to pay is low because free NRO templates exist. The Nauru-specific demand is too small for a solo founder.",
+   "searches": 1,
+   "sources": "https://naurufinance.info/wp-content/uploads/2024/07/Business-Tax-Quarterly-Return-Form-2024-2025.pdf ; https://naurufinance.info/nauru-revenue-office/nro-forms/ ; https://naurufinance.info/wp-content/uploads/2024/06/BPT-Annual-Return-Form-A-COMPANY-3.pdf ; https://www.expanship.com/nr/blog/nauru-tax-filing",
+   "suggested_score": 2,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b77"
+ },
+ "triage:nauru": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "ALL1",
+     "reason": "Different buyer (non-resident traders) and duty (SBT/BPT returns, cash book) from K01 ESTA withholding; in scope as sole traders."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL2",
+     "reason": "New duty (monthly accommodation return/bed tax) for small hotels and guest houses; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL3",
+     "reason": "New duty (Consumer Protection Act compliance) for small retailers; in scope, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL4",
+     "reason": "Different buyer (corporate service providers filing annual returns/beneficial ownership) from K04 CBI applicant due diligence; small professional offices in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL5",
+     "reason": "New duty (employer sponsor records for employment visas) on small employers; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL6",
+     "reason": "New duty (gaming licence and prize fee) on bingo/betting operators and community bodies; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL7",
+     "reason": "New duty (liquor licence renewal) on small bars and restaurants; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL8",
+     "reason": "New duty (taxi/rental operator permits) on sole-trader operators; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL9",
+     "reason": "Different buyer (local fishers/fish buyers) than K03 foreign fleets, and a different duty (local licences); related K03."
+    },
+    {
+     "decision": "known",
+     "id": "ALL10",
+     "reason": "Same buyer group (payers/employers) and same core duty (ESTA withholding returns) as K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "New duty (funeral/burial records and fees) for funeral operators; in scope, unverified."
+    }
+   ]
+  },
+  "tag": "w2b77"
+ }
+}

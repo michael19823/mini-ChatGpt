@@ -1,0 +1,946 @@
+{
+ "challenge:senegal:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Unsettled: (1) implementing decrees and transition period for existing agencies (not found); (2) regulator not yet set up, and it may copy the CNAPS model with its own state portal (risk, not verified); (3) agency count is only \"hundreds\" per press, unverified. The JO page shows the title only. The law text (JO p.724) was not read, so the obligations and any transition period in it were not checked.",
+   "reason": "Nothing found kills it, but the core duty is still undefined. The law exists: JO 7897 (4 Apr 2026) lists Loi n° 2026-07 relative aux activités de sécurité privée, dated 27 Feb 2026. No decree, no named or staffed regulator, no transition deadline, and no rules on agent cards, training, insurance or registers were found. So the recurring filing work is not yet defined. The regulator is studying France's CNAPS, which runs its own e-services, so a state portal could absorb the filing core. Local guarding-ops tools (Kolonell, BanetteOne) could add a compliance module. Press gives only \"hundreds of firms\", no count. No small-firm exemption or repeal found. Timing risk is high; revisit once the decrees are out.",
+   "searches": 7,
+   "sources": "https://www.vie-publique.sn/documents/13895/JO-7897-du-04-avril-2026 ; https://www.seneweb.com/fr/news/Politique/assemblee-ce-que-contient-le-projet-de-loi-pour-reguler-les-societes-de-securite-privee_n_483923.html ; https://fr.allafrica.com/stories/202602190473.html ; https://lesoleil.sn/actualites/societe-fait-divers/securite-privee-au-senegal-letat-encadre-le-secteur/ ; https://www.ndarinfo.com/Regulation-et-professionnalisation-Le-Senegal-se-dote-d-un-organe-de-controle-pour-la-securite-privee_a42977.html ; https://sn.linkedin.com/in/absall ; https://kolonell.com/fr/blog/logiciel-planning-main-courante-securite-privee-dakar-2026 ; https://kolonell.com/fr/blog/logiciel-gestion-societe-gardiennage-pointage-agents-2026",
+   "suggested_score": 4,
+   "verdict": "unclear"
+  },
+  "tag": "w2b74"
+ },
+ "discover:A:senegal": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small and mid-size Senegalese associations, foundations, community and religious bodies and donor-funded project units, plus the accountants serving them",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://www.ohada.com/actualite/6569/acte-uniforme-relatif-au-systeme-comptable-des-entites-a-but-non-lucratif-sycebnl.html ; https://www.ohada.com/actualite/7594/seminaire-sur-lacte-uniforme-relatif-au-systeme-comptable-des-entites-a-but-non-lucratif-du-21-au-25-janvier-2025-a-dakar.html ; https://www.icnl.org/wp-content/uploads/Senegal_decree.pdf ; https://eusee.hivos.org/assets/2026/03/Senegal-Baseline-FR.pdf",
+     "existing": "Competitor search (logiciel comptabilité SYCEBNL association ONG Sénégal): no named SYCEBNL-certified software found; only Excel templates (financial statements for development projects, minimal cash system), training seminars (BCT Sénégal, Dakar, Jan 2025) and accountancy firms offering opening-balance migration. Generic accounting packages not checked for SYCEBNL support.",
+     "known_mark": "new",
+     "name": "SYCEBNL financial-statement and donor-fund accounting pack for small associations and NGOs",
+     "score": 4,
+     "status": "promising",
+     "trigger": "OHADA Uniform Act on the accounting system of non-profit entities (SYCEBNL), adopted Niamey 22 Dec 2022, applicable 1 Jan 2024 (regional): annual inventory, financial statements and activity report, CAC certification, Art. 24 criminal sanctions; reinforced by Senegal decree 2022-1676 and AML law 2024-08 (origin-of-funds proof)",
+     "trigger_note": "",
+     "unchecked": "Number of associations actually obliged to file and with what size thresholds; where statements are filed (tax office, Interior ministry or none); whether Sage/Ciel/SAARI-type packages already ship SYCEBNL; willingness to pay of small associations (mostly low); overlap with the out-of-scope generic accounting exclusion."
+    },
+    {
+     "buyer": "Private professional operators (fermiers) and remaining ASUFOR committees running rural boreholes under OFOR",
+     "category": "13. Small water systems",
+     "evidence": "https://sn.linkedin.com/in/laaba-ngom-985a2917a (post relaying reform, unverified); https://concoursn.com/?p=453776 (OFOR is a public industrial and commercial body under the Hydraulics and Sanitation ministry)",
+     "existing": "Nothing found; OFOR may supply its own reporting tools (forages-ruraux.sn cited, not opened). No competitor search run (budget exhausted).",
+     "known_mark": "new",
+     "name": "Rural borehole operator back-office for OFOR affermage contracts (ASUFOR to professional operators)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Rural water reform: boreholes handed from user associations to professional operators under affermage contracts with OFOR as delegating authority; local consultation meetings April and July 2026",
+     "unchecked": "Contract reporting duties (meter readings, revenue remittance, maintenance logs); whether OFOR imposes its own platform; number of operators; competitor search not run."
+    },
+    {
+     "buyer": "Moto-taxi owners and riders, and small fleet owners renting Jakarta motorcycles",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://www.ndarinfo.com/Yankoba-Dieme-annonce-la-repression-systematique-des-motos-non-regularisees_a43060.html ; https://senego.com/les-conducteurs-de-moto-taxis-jakartamen-contestent-la-nouvelle-reglementation-imposee-par-letat_1790832.html ; https://fr.allafrica.com/stories/202602110380.html",
+     "existing": "Not searched for private fixers or apps. One-off deadline, state-run process, low-income buyers, riders lack the importer ID needed.",
+     "known_mark": "new",
+     "name": "Jakarta moto-taxi regularisation service (carte grise, insurance, plate)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Registration drive for motorcycles above 49 cc since 6 Jan 2025, systematic enforcement announced for end of March 2026, about 35,000 cartes grises still to issue; fees up to 28,000 FCFA and annual insurance cited at 39,000 FCFA (single driver source)",
+     "unchecked": "Whether the window is still open in October 2026; whether a recurring duty follows (annual insurance, technical visit); competitor search not run."
+    },
+    {
+     "buyer": "Private driving schools (auto-écoles) and instructors",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.seneweb.com/fr/news/41/permis-a-points-auto-ecoles-obligatoires-amendes-digitalisees-les-grandes-reformes-du-nouveau-code-de-la-route_n_486060.html ; https://www.seneweb.com/fr/news/41/securite-routiere-le-senegal-bascule-vers-le-permis-a-points-et-la-videoverbalisation-dici-2026_n_486122.html",
+     "existing": "None searched. Agrement, student register or reporting forms not found.",
+     "known_mark": "new",
+     "name": "Driving-school management and agrement compliance under the new road code",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "New Code de la route: mandatory driving schools, points licence, digital fines; regulatory-part workshop led by minister Yankhoba Diémé, application targeted before end of H1 2026 (adoption not confirmed)",
+     "unchecked": "Final decree text and date in force; student register and exam reporting duties; number of schools; competitor search not run."
+    },
+    {
+     "buyer": "Licensed scrap exporters and collector cooperatives (Kaolack, Dakar)",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "https://senego.com/renouvellement-des-licences-de-ferraille-serigne-momar-sokhna-lance-un-cri-de-coeur-contre-serigne-gueye-diop-et-interpelle-diomaye-faye_1992785.html ; https://senego.com/des-tonnes-de-ferraille-bloquees-la-demande-de-serigne-momar-sokhna-au-ministre-du-commerce-serigne-g-diop_1695691.html ; https://faolex.fao.org/docs/pdf/sen167050.pdf",
+     "existing": "None found. Process is a ministry licence decision, not a recurring filing; few operators.",
+     "known_mark": "new",
+     "name": "Scrap-metal collectors and exporters: export licence renewal and cahier des charges file",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Decree 2016-624 (24 May 2016) on export terms; ministerial order 16.591 (14 Nov 2016) creating the technical monitoring committee; June 2026 Commerce ministry instruction to prepare renewal files",
+     "unchecked": "Whether collectors must keep a purchase register; operator count; renewal file contents."
+    },
+    {
+     "buyer": "Private creches and garderies",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.seneweb.com/fr/news/8/prise-en-charge-tardive-defaut-d-acte-la-creche-cigogne-bleue-demasquee_n_356845.html",
+     "existing": "None found. One-off authorisation, not recurring.",
+     "known_mark": "new",
+     "name": "Private creche authorisation and inspection file",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Authorisation from the national early-childhood agency after a letter of intent to the prosecutor and mayor; enforcement against unlicensed creches (Cigogne Bleue case)",
+     "unchecked": "Recurring inspection or reporting duties; governing decree; number of creches."
+    },
+    {
+     "buyer": "Taxi owners, VTC drivers, AFTU member GIEs and minibus owners",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://fr.allafrica.com/stories/202604230118.html ; https://senego.com/senegal-yankhoba-dieme-annonce-larrivee-de-500-taxis-et-110-bus-au-gaz-pour-le-transport-urbain_1899988.html ; https://africasustainabilitymatters.com/senegal-to-launch-1000-hybrid-taxis-to-modernize-urban-transport-and-cut-emissions/",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Taxi and VTC licensing and fleet renewal compliance",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Draft VTC decree finalised at April 2026 workshop (adoption unconfirmed); 500 gas taxis and 110 buses announced for 2026 budget; 1,000 hybrid taxi programme with fleet-monitoring contractual requirements",
+     "unchecked": "Final decree and recurring reporting duties; whether state or AFTU supplies the tooling."
+    },
+    {
+     "buyer": "Private mechanical desludging truck operators",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://bdd.pseau.org/outils/biblio/resume.php?d=7347 (index entry only, unopened)",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Desludging (vidange) firm certification and sludge-trip register",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "ONAS certification process for desludging firms and market-structuring programme (Boues Mag no. 4, Dec 2014); current rules unverified",
+     "unchecked": "Whether certification is still live; any trip-ticket or dumping-fee reporting; operator count."
+    },
+    {
+     "buyer": "Agro-input shops and pesticide distributors",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.ndarinfo.com/Agriculture-Un-expert-denonce-l-anarchie-dans-la-distribution-des-pesticides_a396.html ; https://insah.cilss.int/wp-content/uploads/2023/08/REGLEMENTATION-COMMUNE-AUX-ETATS-MEMBRES-DU-CILSS_FRENCH.pdf",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Pesticide and input dealer licensing and unregistered-product enforcement",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Regional CILSS common registration regulation (1999 revision); DPV says over 30% of products unregistered (old press)",
+     "unchecked": "National dealer agrement text, stock registers, inspection frequency."
+    },
+    {
+     "buyer": "Authorised gold buying counters near Kedougou and jewellers buying gold",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.vie-publique.sn/documents/11240/arrete-organisation-activite-orpaillage-tambacounda-kedougou-mem-2013 ; https://lesoleil.sn/le-decodeur/filon-manquant-par-elhadji-ibrahima-thiam/",
+     "existing": "None found; press says counters were barely set up.",
+     "known_mark": "new",
+     "name": "Gold buying counters (comptoirs) and jeweller gold purchase register",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "2013 artisanal mining order (Tambacounda and Kedougou) requiring sale to authorised counters; mining code law 2003-36",
+     "unchecked": "Current licensing register, purchase-register format, AML duties for dealers."
+    },
+    {
+     "buyer": "Private veterinary practices",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://rr-africa.woah.org/app/uploads/2026/04/L2.5-SN-VP-Article-de-vulgarisation-cabinets-veterinaires-au-Senegal-V4_050925.pdf ; https://rr-africa.woah.org/app/uploads/2025/01/4.1.Senegal.pdf",
+     "existing": "None checked.",
+     "known_id": "K11",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K11 (veterinary pharmacies, rejected as small with no new reporting); no new reporting duty found.",
+     "name": "Private veterinary clinics: mandat sanitaire and vet-medicine sales records",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Law 2008-07, decree 95-645 (mandat sanitaire), law 92-52"
+    },
+    {
+     "buyer": "Dakar households",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "Not re-checked.",
+     "existing": "n/a",
+     "known_id": "K05",
+     "known_mark": "known",
+     "known_note": "No search spent; K05 and K06 cover it.",
+     "name": "Domestic worker employment pack",
+     "score": 0,
+     "status": "weak",
+     "trigger": "n/a"
+    },
+    {
+     "buyer": "Licensed manual money changers",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "Not re-checked.",
+     "existing": "n/a",
+     "known_id": "K04",
+     "known_mark": "known",
+     "known_note": "Nothing new found; not re-checked.",
+     "name": "Money changer BCEAO reporting",
+     "score": 0,
+     "status": "weak",
+     "trigger": "n/a"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing new beyond K05; no search spent (known idea, K06 covers IPRES/CSS rejection).",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No register or collector-licensing decree found. Regulation is export-focused: decree 2013-587 (suspension of scrap export), decree 2016-624 of 24 May 2016 (export terms), ministerial order 16.591 of 14 Nov 2016 (technical monitoring committee). Trade press (Senego, 11 Aug 2026) says the Commerce Ministry told exporters in June 2026 to prepare licence renewal files and the Kaolack cooperative has had no news since; an earlier article says 2 of 35 renewal requests were granted (trade source, unverified). Small operator count, ministry-driven licence process: weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No search spent (budget went to categories with sharper duties). No evidence either way.",
+     "status": "not_reached"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "No jeweller gold-purchase register found. Only the 2013 artisanal-mining order (Tambacounda/Kedougou) requiring artisanal gold to be sold to an authorised buying counter (comptoir), plus mining code law 2003-36. Press (Le Soleil) says counters were barely set up. No active licensing register or reporting flow found. Dealer AML duties under law 2024-08 not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No search spent (budget). Only adjacent finding: vehicle technical inspection privatisation debate (ndarinfo, dakaractu) which is outside this category.",
+     "status": "not_reached"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Only seasonal Tabaski logistics and transhumance news (Dahra foirail, 47,322 sheep moved May 2026; Mali closed border to transhumants Aug 2025). No trader register, movement permit or recurring report found. Nothing recurring for small traders.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Searched together with category 6. No butcher or abattoir authorisation text found; no candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No search spent (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Framework: law 92-52 (Order of vets), decree 95-645 (mandat sanitaire), law 2008-07 (veterinary profession and pharmacy). Private vet clinics act as retail distributors of vet medicines (WOAH-hosted study). No new reporting duty or wholesaler register found. Same buyer and duty as K11.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Search returned only Moroccan/French/Tunisian rules; no Senegalese driller licensing or abstraction declaration found. Water code (law 81-13, to verify) not read. Unverified, nothing to list.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "ONAS ran a certification process for desludging firms and a faecal-sludge market structuring programme (Boues Mag no. 4, Dec 2014, via pseau.org). Current certification rules, registers and sludge traceability duties not found. Listed as unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "No Senegalese rule found on periodic lift or pressure-equipment inspection; results were French. Labour-code route not checked. Nothing to list.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Rural borehole reform: OFOR (public body under the Hydraulics and Sanitation ministry) is moving boreholes from user associations (ASUFOR) to professional operators under affermage contracts; local consultation meetings held April and July 2026 (LinkedIn post, unverified). No operator reporting tool or software found. Listed as unverified candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Pesticide registration is regional (CILSS/Sahel Pesticide Committee, common regulation revised 1999); DPV official quoted that over 30% of pesticides in circulation are unregistered (old article). No dealer licence register, applicator accreditation or periodic report found. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "No Senegalese rule on private placement agency licensing found (results were Belgian, Swiss or Ivorian). Foreign-worker hiring needs a contract visa from the Labour ministry (practitioner site, no law cited). National labour migration strategy in preparation (ILO). Unverified, no candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Search returned only French and Geneva funeral law; no Senegalese text found. Nothing.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Strong finding: OHADA SYCEBNL accounting act for non-profits, in force 1 Jan 2024; covers associations, foundations and donor-funded projects; annual financial statements, CAC certification, criminal liability under Art. 24. Also decree 2022-1676 (NGO monitoring by Interior ministry) and AML law 2024-08 (origin-of-funds documentation) per Hivos/ICNL-type sources. No new association law for 2025-2026 found. Halal and kosher not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Moto-taxi (Jakarta) regularisation: free registration drive from 6 Jan 2025, systematic enforcement announced for end of March 2026 with about 35,000 carte grise still to issue; riders contest the document requirements. VTC/taxi decree drafted at April 2026 workshop, adoption not confirmed; 500 gas taxis and 110 buses announced for 2026; AFTU fleet renewal (14 GIE). Video-ticketing to follow the road code decree.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Commerce ministry census of trading places with a digital price-control platform (May 2023); eviction and relocation of street vendors in Dakar. No municipal pitch-fee digitisation found. Money changers: nothing new beyond K04.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Driving schools: new road code (points licence, mandatory driving school, digital fines) with implementing regulation workshop; ministry aimed for H1 2026 application, adoption and agrement rules not confirmed. Private creches: letter of intent to the prosecutor and mayor, authorisation by the national early-childhood agency, enforcement case against an unlicensed creche (Seneweb); low volume. Tattoo, food producers and hunting outfitters not searched.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "Sénégal décret ferrailleurs récupérateurs métaux registre autorisation commerce de ferraille",
+    "Sénégal bijoutiers achat d'or registre autorisation Direction des Mines et de la Géologie comptoirs d'achat or",
+    "Sénégal décret transport urbain taxis clando Ndiaga Ndiaye licence AFTU renouvellement flotte digitalisation",
+    "Sénégal vétérinaires privés mandat sanitaire Ordre des vétérinaires registre médicaments vétérinaires grossistes",
+    "Sénégal pesticides homologation distributeurs agréés applicateurs agrément phytosanitaire DPV engrais commerçants registre",
+    "Sénégal auto-écoles agrément moniteurs nouvelle réglementation permis de conduire 2025 2026 décret",
+    "Sénégal vidangeurs ONAS agrément entreprises vidange boues de vidange registre curage",
+    "Sénégal foreurs forages agrément DGPRE autorisation prélèvement eau déclaration forage décret 2025",
+    "Sénégal bétail marchés à bétail commerçants bétail carnet de transhumance abattoirs bouchers autorisation SERAS Direction élevage 2025",
+    "Sénégal entreprises de pompes funèbres cimetières agrément morgues réglementation décret 2025",
+    "ASUFOR Sénégal OFOR gestion forages ruraux comptabilité délégataires logiciel suivi abonnés",
+    "Sénégal agences de placement privées agrément recrutement travailleurs migrants ministère du Travail ONEMO bureau de placement obligation déclaration",
+    "Sénégal associations récépissé déclaration ministère de l'Intérieur obligation rapport annuel nouvelle loi associations 2025 2026 ONG financement",
+    "Sénégal motos Jakarta taxi-moto immatriculation enregistrement obligatoire casque assurance mototaxis 2026 réglementation",
+    "Sénégal crèches garderies agrément case des tout-petits ouverture autorisation privée ministère de la Famille inspection",
+    "SYCEBNL Sénégal associations comptabilité logiciel obligation 2024 états financiers entités à but non lucratif",
+    "Sénégal marchés municipaux droits de place commerçants ambulants recensement digitalisation collecte taxes mairie Dakar vendeurs",
+    "Sénégal ascenseurs appareils à pression chaudières vérification périodique organisme agréé contrôle technique",
+    "WebFetch senego.com ferraille licences renouvellement article (Aug 2026)",
+    "logiciel comptabilité SYCEBNL association ONG Sénégal états financiers"
+   ],
+   "searches": 20
+  },
+  "tag": "w2b74"
+ },
+ "discover:B:senegal": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed private security, guarding and escort companies (small and mid-size Dakar agencies, CCTV integrators)",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://fr.allafrica.com/stories/202602190473.html ; https://www.seneweb.com/fr/news/Politique/assemblee-ce-que-contient-le-projet-de-loi-pour-reguler-les-societes-de-securite-privee_n_483923.html ; https://www.ndarinfo.com/Regulation-et-professionnalisation-Le-Senegal-se-dote-d-un-organe-de-controle-pour-la-securite-privee_a42977.html ; https://www.vie-publique.sn/documents/5717/loi-interdisant-lexercice-de-certaines-activites-de-police-privee-et-soumettant-a-autorisation-preal ; promulgation and agent-card or training rules not confirmed",
+     "existing": "Competitor search run (logiciel gestion société de gardiennage Sénégal): Kolonell blog guides (QR/NFC rounds, planning, variable pay), BanetteOne (planning, hours, invoices, French), Hector Solution; none seen doing regulator authorisation filings or agent-card registers; Senegal payroll (IPRES/CSS) coverage unverified.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Private-security agency authorisation and compliance pack under the new law (agrément renewal, agent roster and cards, client contracts, regulator filings)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Bill 03/2026 on private security activities adopted by the Assembly 18 Feb 2026, replacing law 78-40 of 1978 (authorisation by ministerial order today); new regulator to issue authorisations, supervise and sanction. Transition deadline for existing agencies unknown.",
+     "trigger_note": "",
+     "unchecked": "Promulgation date and JO text; transition period for existing agencies; what the regulator requires (agent register, cards, training, insurance); number of licensed agencies; cleaning and manpower agencies; whether the regulator builds its own portal."
+    },
+    {
+     "buyer": "Small private clinics, medical practices, analysis labs and imaging centres",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://fr.allafrica.com/stories/202606250183.html (fetched: billing rules, tiers payant and platform not yet specified) ; https://lesoleil.sn/opinions/tribune-dexpert/assurance-et-prevoyance-maladie-au-senegal-quand-la-sante-privee-suffoque/ ; https://kolonell.com/fr/blog/logiciel-gestion-clinique-privee-dakar-prix-fcfa-2026 (vendor blog, claim 12% rejection, unverified)",
+     "existing": "Clinic management software marketed in Dakar (Kolonell blog); dedicated competitor search for SEN-CSU claims not run (budget). State likely to supply its own billing platform.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Adjacent to K08/K11 only by sector, not by duty.",
+     "name": "Private clinic and lab onboarding and claims pack for the SEN-CSU framework and IPM billing",
+     "score": 3,
+     "status": "weak",
+     "trigger": "June 2026 framework convention between SEN-CSU and the Alliance du Secteur Privé de la Santé; individual provider agreements to follow; IPM payment delays and claim rejections.",
+     "unchecked": "SEN-CSU billing platform and its integration rules; whether the state portal is free; agreement terms; competitor search in French for CSU claims software."
+    },
+    {
+     "buyer": "Small private higher-education institutions (about 298 listed; around a third not fully compliant)",
+     "category": "31. Private higher-education institutions (EPES) licensing and compliance",
+     "evidence": "https://fr.allafrica.com/stories/202607300099.html ; https://fr.allafrica.com/stories/202607300190.html ; https://guindima.sn/news/article/procedure-epes-2026-ouverture-dun-etablissement-prive-denseignement-superieur-au-senegal-guide-complet/",
+     "existing": "None seen; no competitor search run (budget).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Private higher-education institution (EPES) agrément and annual compliance tracker",
+     "score": 3,
+     "status": "weak",
+     "trigger": "DGES communiqué 29 July 2026 reminding rules: dossier for any opening or extension, provisional agrément, closure for breach; law 94-82, decree 2018-850; unofficial source gives filing window 2 Jan-31 Mar 2026.",
+     "unchecked": "Annual filing and reporting duties after agrément; whether schools buy compliance help; kindergartens/crèches and primary private schools under law 94-82; competitor search."
+    },
+    {
+     "buyer": "Small firms, clinics, shops, schools running CCTV, biometric time clocks or customer databases",
+     "category": "32. Personal-data and CCTV declarations to the CDP",
+     "evidence": "https://osiris.sn/cameras-de-surveillance-voici-les-nouvelles-dispositions-prises-par-le-ministre.html (fetched) ; https://www.dataguidance.com/sites/default/files/deliberation_2015-00186_cdp_sur_la_videosurveillance.pdf ; CDP quarterly notices on osiris.sn and the CDP document storage seen in search",
+     "existing": "No dedicated software or service found in one competitor-style search; law firms and consultants likely.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "CDP declaration and CCTV compliance service for SMEs",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Law 2008-12 (declaration and récépissé; prior authorisation for biometrics and health data); CDP deliberation 2016-00238 on workplace CCTV; CDP formal notices and refused receipts in 2025; Feb 2026 parliamentary debate on prior CDP authorisation for private CCTV.",
+     "unchecked": "Fine amounts; whether recurring renewals exist; volume of declarations (83 in Q1 2025 suggests low); CDP online declaration portal."
+    },
+    {
+     "buyer": "Mareyeurs-exporters and small fish processing units",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://ditp.sec.gouv.sn/sites/default/files/docs/Liste%20des%20%C3%A9tablissements%20agr%C3%A9%C3%A9s%20%C3%A0%20l%27exportation%20mise%20%C3%A0%20jour%20au%20%2006%20d%C3%A9cembre%202024%20.pdf ; https://fr.allafrica.com/stories/202512110496.html ; https://ditp.sec.gouv.sn/taxonomy/term/39",
+     "existing": "Not checked. No competitor search.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Fish mareyeur-exporter and approved-unit paperwork pack (cards, EU/export approvals, health certificates)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Decree 2009-1226 (mareyeur card per approved processing unit, prior declaration, RCCM number); DITP approved-establishment list updated 6 Dec 2024; Dec 2025 minister called for a regulatory framework for exports.",
+     "unchecked": "Number of mareyeur-exporters; renewal cycles; EU catch certificate or traceability duties for small exporters; competitor search; DITP e-services."
+    },
+    {
+     "buyer": "Private and temporary quarry operators and small construction-materials suppliers",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "https://www.vie-publique.sn/documents/11227/decret-2017-459-application-code-minier-senegal ; https://fr.allafrica.com/stories/202511130441.html ; https://practiceguides.chambers.com/practice-guides/mining-2026/senegal",
+     "existing": "Not checked.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Different buyer (quarries, not oil/gas/mining subcontractors) and duty (royalty and activity reports, not CNSCL local content).",
+     "name": "Quarry and artisanal-mine operator authorisation and royalty reporting pack",
+     "score": 2.5,
+     "status": "weak",
+     "trigger": "Mining Code 2016-32 and decree 2017-459: quarry authorisations (private 1 year renewable once for temporary, artisanal 5 years), quarterly and annual reports, surface and mining royalties; new mining code pending after the President's end-2025 target.",
+     "unchecked": "Whether the new code was adopted; number of quarry operators; real filing forms; competitor search."
+    },
+    {
+     "buyer": "Small companies registered at the RCCM, via their accountants",
+     "category": "33. Beneficial-ownership register filings",
+     "evidence": "https://www.vie-publique.sn/documents/11234/arrete-24577-beneficiaires-effectifs-senegal-2022-mfb ; https://www.vie-publique.sn/documents/11232/note-registre-central-beneficiaires-effectifs-dgid ; https://www.vie-publique.sn/documents/11284/decret-2025-1354-registre-beneficiaires-effectifs-2025",
+     "existing": "Free DGID e-services portal; accountants file on behalf.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Same accountant buyer as K03 but different duty.",
+     "name": "Beneficial-ownership annual declaration service for small SARLs",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Arrêté 24577 of 2 Sept 2022 and DGID note of 22 Feb 2022 (e-services declaration at creation, annually, and within 15 days of change); 1M FCFA fine for some breaches (finance law 2025); decree 2025-1354 of 27 Aug 2025 tightens extractive-chain RBE.",
+     "unchecked": "Actual enforcement; who files in practice."
+    },
+    {
+     "buyer": "Registered groundnut exporters (COPEGA members) and cashew exporters",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://fr.allafrica.com/stories/202601150477.html ; https://fr.allafrica.com/stories/202512030581.html ; https://lesoleil.sn/actualites/economie/accord-etat-copega-pour-faciliter-les-exportations/",
+     "existing": "Not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Groundnut and cashew exporter and collector compliance (export-proof, currency repatriation, new cashew export tax)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Jan 2026 State-COPEGA accord: floor price 305 FCFA/kg, export tax removed but exporters must prove exports and repatriate currency; Dec 2025 announced cashew export tax.",
+     "unchecked": "Seasonal and policy-dependent; number of exporters is small; no register text found."
+    },
+    {
+     "buyer": "Small mutual and co-operative savings and credit institutions and community health mutuelles (633 approved health mutuelles in 2019 per CMU presentation)",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.vie-publique.sn/documents/7617/loi-n-95-03-du-5-janvier-1995-portant-reglementation-des-institutions-mutualistes-ou-cooperatives-d-epargne-et-de-credit ; https://www.id4africa.com/2019_event/presentations/InF14/1-Mouhamed-SY-Senegal.pdf",
+     "existing": "Not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Reporting pack for mutuelles d'épargne et de crédit and mutuelles de santé",
+     "score": 2.5,
+     "status": "unverified",
+     "trigger": "Law 95-03 and law 2008-47 with Finance Ministry cell and BCEAO supervision; late-report penalties; health mutuelles tied to CSU.",
+     "unchecked": "Current reporting forms, frequency and portal; existing microfinance core-banking software; sources date from 2003-2010 and 1995."
+    },
+    {
+     "buyer": "Mobile-money distributors and sub-agents",
+     "category": "34. Mobile-money and agent networks",
+     "evidence": "https://launchbaseafrica.com/2025/09/15/senegal-scrambles-to-finalize-new-mobile-money-taxes-as-bceaos-instant-payment-system-nears ; https://www.osiris.sn/Apercu-du-secteur-des-services.html",
+     "existing": "Operators (Wave, Orange Money) run their own agent apps.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Mobile-money sub-agent and kiosk register",
+     "score": 1.5,
+     "status": "unverified",
+     "trigger": "BCEAO e-money framework; Sept 2025 proposed transfer tax.",
+     "unchecked": "No agent duty found; likely operator-managed."
+    },
+    {
+     "buyer": "Pirogue owners and fishing associations",
+     "category": "35. Artisanal fishing",
+     "evidence": "https://www.osiris.sn/Immatriculation-des-pirogues-et.html ; https://osiris.sn/quelque-19-009-pirogues-ont-ete-immatriculees-sur-les-20-000-embarcations.html",
+     "existing": "Not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Artisanal fishing permit and pirogue registration tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Fisheries Code 2015-18; permits and registration; 2012 freeze order; geolocation.",
+     "unchecked": "Willingness to pay, connectivity and permit renewal cycle."
+    },
+    {
+     "buyer": "Small hotels, maisons d'hôtes and furnished-flat owners",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.au-senegal.com/nouvelle-reglementation-touristique-pour-les-hebergements,16543.html (fetched, April 2023) ; https://au-senegal.com/hebergements-touristiques-la-police-traque-l-informel,15863.html",
+     "existing": "ASPT building its own TPT platform (per K09).",
+     "known_id": "K09",
+     "known_mark": "known",
+     "known_note": "Same buyer and tourism-tax duty as K09 (rejected); licensing one-off only.",
+     "name": "Hotel and guest-house agrément and authorisation tracker",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Agrément plus autorisation d'exploitation from the Direction de la réglementation touristique; tourist police campaigns against informal lodging; tourism tax about 1,000 FCFA per person per night.",
+     "unchecked": "No guest register or fiche de police rule found."
+    },
+    {
+     "buyer": "Private pharmacies (about 1,500+)",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://fr.allafrica.com/stories/202507140635.html ; https://www.seneplus.com/node/194331",
+     "existing": "Pharmacy software exists per K08.",
+     "known_id": "K08",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K08.",
+     "name": "Pharmacy sector (law 2023-06, ARP regional pole, wholesaler supply rule)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Law 2023-06; ARP Kaolack pole July 2025.",
+     "unchecked": "Not rechecked per instructions."
+    },
+    {
+     "buyer": "Station managers and independent station owners",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://seneweb.com/fr/news/Economie/on-ne-peut-pas-perdre-les-gerants-de-stations-service-previennent_n_476858.html (fetched) ; https://www.vie-publique.sn/documents/1057/JO-1250-du-20-juin-2020",
+     "existing": "Not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Fuel station gérants (leased stations) compliance and price-notice tracker",
+     "score": 1.5,
+     "status": "unverified",
+     "trigger": "Decree 2020-1255 siting and operation rules; price-cut enforcement by the Commerce Ministry (Dec 2025).",
+     "unchecked": "No recurring register or report duty found; decree text not read; oil-company systems likely dominant."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Decree 2020-1255 of 3 June 2020 (JO 1250, 20 June 2020) governs siting and operation of stations; operators contested it. Dec 2025: station managers (gérants, leased from oil companies) angry at state fuel price cut, some stations sealed by Commerce Ministry agents. No recurring register or report duty found for small stations, and the decree text was not retrieved. Nothing candidate-grade.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Groundnut 2025/26: State-COPEGA exporters accord (Jan 2026) with a 305 FCFA/kg floor price, the 40 FCFA/kg export tax lifted, and exporters must justify exports and repatriate currency. Cashew export tax announced Dec 2025, contested by Ziguinchor exporters. No collector licensing or register text found. Weak candidates only.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Law 95-03 (mutual and co-operative savings and credit institutions) and law 2008-47 (SFD, regional UMOA framework) with Finance Ministry cell (AT/CPEC) and BCEAO supervision; late-reporting penalties exist. Sources are old (2003-2010); current forms and deadlines not found. Unverified candidate only.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "June 2026: SEN-CSU and the Alliance du Secteur Privé de la Santé signed a framework convention opening the CSU to private clinics, labs, imaging, pharmacies; specific agreements to follow (billing rules, tiers payant and platform not yet public). Payment delays from IPMs of months, fee schedule unchanged since 1983, vendor blog claims 12% claim rejection. Candidate noted but unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Nothing new beyond K08. Law 2023-06 (June 2023) is the framework; ARP opened Kaolack regional pole July 2025; 4 licensed wholesalers (Laborex, Duopharm, Ubipharm, Sodipharm per 2024 union source); no national serialisation or traceability mandate found.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Strongest lead. Bill 03/2026 on private security activities adopted by the National Assembly on 18 Feb 2026 to replace the 1978 law (law 78-40); creates a regulatory body to grant authorisations, supervise and sanction; covers guarding, escort, close protection and video surveillance. Promulgation and implementing decrees not confirmed. Rota/payroll software exists (BanetteOne, Kolonell) but regulator-facing compliance not seen. Cleaning and manpower agencies not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Mining Code 2016-32 and decree 2017-459 (private/temporary quarry authorisations, quarterly and annual reports, royalties); new mining code under preparation (President asked for adoption by end 2025), not confirmed adopted. Local content is already K01. Nothing new beyond K01 apart from a weak quarry-operator idea.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "CENTIF 2024: 928 suspicious reports, almost all from banks; DNFBP participation is low and no DNFBP register or portal found. Beneficial ownership: Arrêté 24577 (2 Sept 2022) and DGID note require annual e-services declaration for RCCM-registered entities (not sole traders); decree 2025-1354 (27 Aug 2025) strengthens the extractive-chain RBE. Senegal was on the FATF list from Feb 2021 (status now not checked). Weak candidates.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Hotels need an agrément and an autorisation d'exploitation from the Direction de la réglementation touristique; tourist police campaigns against informal guest houses and furnished flats; tax about 1,000 FCFA per person per night (2025 guide). No fiche de police or platform-declaration rule found. Tourism tax is already K09 (rejected).",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Fish: mareyeur-exporteur card per approved processing unit (decree 2009-1226), DITP publishes a list of export-approved establishments (updated 6 Dec 2024); Dec 2025 minister said 230,072 t exported in 2024 and called for a regulatory framework. No catch-certificate or traceability mandate confirmed. Cashew and groundnut export taxes are covered under 22.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Private higher-education institutions (EPES) licensing and compliance (country-specific, MESRI/DGES)",
+     "found": "DGES communiqué of 29 July 2026: any opening, extension or relocation needs a full dossier; provisional agrément required; closure for non-compliance; about 298 EPES and roughly a third not fully compliant; legal basis law 94-82 and decree 2018-850. Candidate noted, details unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Personal-data and CCTV declarations to the CDP (country-specific, law 2008-12)",
+     "found": "Companies with CCTV must declare to the CDP and get a récépissé (deliberation 2016-00238); sensitive processing (biometrics, health) needs prior authorisation; CDP issued formal notices and refused receipts in 2025; Feb 2026 parliamentary debate stressed prior CDP authorisation for private CCTV. 83 declarations in Q1 2025, so low volume. Generic compliance, weak.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Beneficial-ownership register filings (country-specific, DGID arrêté 24577 / decree 2025-1354)",
+     "found": "See 28. Annual and 15-day change filings on DGID e-services for RCCM entities; fine of 1M FCFA noted for some breaches (finance law 2025). Accountant-side task, close to generic accounting; weak.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Mobile-money and agent networks (country-specific, BCEAO e-money rules)",
+     "found": "BCEAO regional switch and interoperability, proposed 0.5% mobile-money transfer tax (Sept 2025, adoption unconfirmed). No agent-register or reporting duty found for sub-agents. Not enough evidence; unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Artisanal fishing: pirogue registration, fishing permits, mareyeur cards (country-specific, Fisheries Code 2015-18)",
+     "found": "About 20,689 registered pirogues, 10,592 artisanal permits issued (about 51%, undated source); registration frozen since 2012 order, geolocation push; mareyeur card under decree 2009-1226. Fishers mostly offline and low spend; no new 2025-27 rule found. Weak.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "Sénégal stations-service distributeurs hydrocarbures agrément déclaration obligations GPL",
+    "Sénégal coopératives mutuelles d'épargne et de crédit SFD déclaration BCEAO ministère des Finances",
+    "Sénégal cliniques privées laboratoires facturation IPM CMU agrément",
+    "Sénégal agences de gardiennage sécurité privée agrément décret obligations",
+    "Sénégal loi sécurité privée 2026 promulguée autorité de régulation carte professionnelle",
+    "Sénégal cajou arachide collecteurs exportateurs agrément campagne 2026",
+    "Sénégal notaires agents immobiliers CENTIF déclaration de soupçon professions non financières",
+    "Sénégal hôtels auberges meublés fiche de police registre taxe de séjour 2026",
+    "Sénégal pêche artisanale pirogues licence mareyeurs agrément exportation DPM 2025",
+    "Sénégal pharmacies officines réglementation 2026 grossistes ARP traçabilité",
+    "Sénégal carrières exploitants autorisation déclaration redevance ministère des Mines 2025 2026",
+    "Sénégal agents mobile money distributeurs agréés BCEAO obligations 2026",
+    "décret 2020-1255 stations de distribution produits pétroliers raffinés Sénégal",
+    "Sénégal bénéficiaires effectifs registre RCCM déclaration obligatoire 2025 2026",
+    "Sénégal établissements privés d'enseignement autorisation crèches formation professionnelle 2025",
+    "logiciel gestion société de gardiennage sécurité privée Sénégal Dakar",
+    "CDP Sénégal déclaration traitement données vidéosurveillance entreprises PME",
+    "Sénégal mareyeur exportateur produits halieutiques carte agrément DITP 2026"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b74"
+ },
+ "gapfill:senegal": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Informal used-parts shops near gares routières and nascent dismantlers (e.g. SENDRA-type ELV centres)",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://autorecyclingworld.com/how-sendra-is-handling-abandoned-vehicles-in-dakar/ (sector entirely informal, 90-day impound before dismantling); https://www.afrik.com/vente-de-pieces-detachees-automobiles-un-business-lucratif-au-senegal (parts shops cluster at gares routières)",
+     "existing": "none seen",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Used-parts shop and vehicle dismantler (casse auto) compliance and register pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "No mandatory register or licence found; possible future ELV/depollution rules under the Code de l'environnement (DEEC) and the Oct 2025 import-age decree, unconfirmed",
+     "unchecked": "Whether any DEEC/classified-establishment licence or ELV decree exists; no mandatory recurring filing identified, so duty not established."
+    },
+    {
+     "buyer": "Colobane and other fripe wholesalers and retailers",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://lesoleil.sn/actualites/economie/senegal-dementi-officiel-sur-linterdiction-de-limportation-de-vetements-de-seconde-main-fegg-jay/ ; https://fr.apanews.net/business/limportation-de-vetements-de-seconde-main-nest-pas-interdite-au-senegal-ministre/",
+     "existing": "none seen",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Second-hand clothing (fripe) trader compliance if the import-phase-out is enacted",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Dec 2024 announcement of a future ban on second-hand clothing imports, denied as immediate and made conditional on textile revival; no enacted rule",
+     "unchecked": "No recurring register or report duty exists; no new rule after Dec 2024 found. This is a policy risk, not a software duty, so left unverified."
+    },
+    {
+     "buyer": "Brocanteurs and pawn lenders",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "Search results all French (e.g. https://www.creerentreprise.fr/livre-de-police-registre-objects-mobiliers-definition-reglementation-fonctionnement/), not applicable to Senegal",
+     "existing": "none seen",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Pawnbroker / second-hand dealer police register (livre de police)",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "No Senegalese register duty confirmed; French art. 321-7 code pénal analogue only",
+     "unchecked": "Senegalese penal code / commerce code text and whether police or mairies require a register; pawn lending status under BCEAO/UEMOA microfinance rules."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No Senegalese police-register (livre de police) regime for second-hand dealers or pawnbroker licensing found; searches returned only French law (art. 321-7 code pénal), so nothing transferable. No Senegalese mont-de-piété or pawn-lending regime found in 2 searches (pawn lending would fall under UEMOA/BCEAO credit rules, unconfirmed). Only relevant fact: the Dec 2024 announced ban on second-hand clothing (fripe) imports was officially denied by the Commerce ministry (conditional on textile industry revival, progressive); Colobane market is the hub. No 2025-2026 measure found. No recurring filing duty identified. Unchecked: Code pénal / Code de commerce text on registre des revendeurs, municipal market-fee regimes, fripe import rules in customs code.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No Senegalese law or decree on licensing of dismantlers (casses) or end-of-life vehicle (VHU) management found. Sector described as entirely informal (SENDRA, founded 2020, aims to be first official dismantling centre; 90-day impound then depollution, per autorecyclingworld.com). Used-part shops cluster around gares routières ('venant' parts). Import-age decree of Oct 2025 (10 yrs cars/light vans, 15 yrs passenger transport, moped under 50cc banned; number 2025-1752 per one source, unverified) concerns whole vehicles, not parts. French customs treat used-parts exports to Senegal as banned (not a Senegalese text). No registers or reporting duty found, so nothing new beyond the technical-inspection debate noted in first pass. Unchecked: DEEC classified-establishment rules, Code de l'environnement provisions on scrap/ELV.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No beekeeper registration, hive register, honey export approval or traceability duty found for Senegal. Sector is small and NGO/donor-supported (FAO Casamance honey study, Dutch cooperation, UNPS union, APS Jan 2026 dispatch on kits and training certificates); no GI or qualification scheme for 'miel de Casamance'. Results on traceability were all other countries (Argentina SITA, Guatemala STDF). Unchecked: ASN honey standard, EU-export approval by the veterinary/DIREL services, any 2025-2026 apiculture law.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "brocanteurs fripiers revendeurs d'occasion registre de police Sénégal réglementation",
+    "Sénégal casse automobile pièces détachées d'occasion véhicules hors d'usage réglementation",
+    "Sénégal apiculteurs miel réglementation agrément certification apiculture",
+    "Sénégal friperie fripiers commerce occasion autorisation DGID prêteurs sur gages BCEAO",
+    "Sénégal centre de démontage véhicules hors d'usage décret agrément recyclage épaves 2025",
+    "Sénégal miel exportation norme sénégalaise miel apiculture loi 2025 filière apicole traçabilité",
+    "Dakar prêt sur gage bijoux téléphones mont-de-piété OR prêteur sur gage Sénégal",
+    "Sénégal interdiction importation friperie 2026 décret vêtements seconde main commerçants Colobane"
+   ],
+   "searches": 7
+  },
+  "tag": "w2b74"
+ },
+ "opus:senegal:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The claim that no SYCEBNL software exists is wrong. Compta Expert (Compta Expert Informatique with the Cercle Gestion et Développement, announced on ohada.com on 22/11/2023) has the SYCEBNL chart of accounts built in. It produces the financial statements and notes to the accounts automatically, without Excel, and handles fixed assets. It is sold as a lifetime licence with no annual fee, aimed at associations, NGOs, professional orders and project units. The vendor appears to be in Congo; whether it serves Senegal was not checked. TOMPRO and Sage are long-standing NGO and project accounting tools, but nothing found confirms they offer SYCEBNL modules. There are also Excel templates for the simplified regime, plus OHADA, BCT and Cercle training and accountancy firms offering migration services.",
+   "duty": "Real, and it applies directly in Senegal through the OHADA Uniform Act on non-profit accounting (SYCEBNL), applicable since 1 Jan 2024. Every non-profit entity has to keep a donor register and an inventory book and produce annual financial statements plus an activity report, every year. Under Art. 24, managers who fail to do this face criminal penalties. There are two regimes: entities with subsidies, donations and bequests of 30M FCFA or less use the simplified cash-based regime (Système Minimal de Trésorerie, SMT); above that threshold the full system applies. That 30M figure comes from the OHADA Cotonou training report; a Cameroonian blog cites different thresholds. Not found: the Senegal-specific filing authority, the deadline, and actual enforcement. One secondary source (infoproff) claims associations are exempt from publishing accounts.",
+   "market": "No current register count was found. The latest ANSD figure (2009 non-profit monograph) is 1,756 organisations: 1,254 associations and 307 NGOs. Thousands more associations are probably declared with the Interior Ministry (unverified). Most are small, fall under the cash-based SMT regime and have little ability to pay. The paying segment is likely a few hundred donor-funded NGOs and project units, plus their accountants.",
+   "reason": "The duty is real, recurs every year and carries criminal penalties under OHADA SYCEBNL Art. 24. But the claim's main premise, that no SYCEBNL software exists, is contradicted: Compta Expert sells SYCEBNL-native accounting with automatic financial statements on a cheap lifetime licence. Excel templates and accountancy firms cover the small entities on the cash-based regime. The product is close to the out-of-scope 'generic accounting' exclusion. Most Senegalese associations are tiny and pay little, and Senegal-specific enforcement and filing rules were not found. The paying segment (donor-funded NGOs and projects) is small and already served by accountants and project tools. Distribution through accountants is possible, but pain and willingness to pay are both low.",
+   "searches": 6,
+   "sources": "https://www.ohada.com/actualite/7019/parution-dun-logiciel-de-comptabilite-et-de-production-automatique-des-etats-financiers-pour-les-entites-a-but-non-lucratif-conforme-au-sycebnl.html ; https://www.ohada.com/actualite/6970/compte-rendu-du-seminaire-de-formation-ohada-sur-le-systeme-comptable-des-entites-a-but-non-lucratif-de-lohada-tenu-du-3-au-6-octobre-2023-a-cotonou.html ; https://ohada.com/uploads/actualite/7598/programme.pdf ; https://www.ohada.com/actualite/7594/seminaire-sur-lacte-uniforme-relatif-au-systeme-comptable-des-entites-a-but-non-lucratif-du-21-au-25-janvier-2025-a-dakar.html ; https://premiere-urgence.org/wp-content/uploads/2024/12/tdr_pui_referent-technique-sycebnl_pui_vf.pdf ; https://www.vie-publique.sn/documents/9928/monographie-institutions-sans-but-lucratif-menages-senegal-2009-ansd ; https://www.infoproff.com/en/open-data/senegal/123/financial-reporting-obligations-for-companies-in-senegal ; https://lefisk.cm/blog/bilan-annuel-entreprise-association-cameroun-ohada-syscohada-sycebnl-etats-financiers",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b74"
+ },
+ "opus:senegal:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Ops software for guarding firms is sold in francophone Africa: Agenz (Obvious Technologies), Simply Secu, BanetteOne (planning, main courante, invoicing, agent app), VigiCom MCI, and Kolonell custom builds. None was seen handling regulator authorisation filings or agent-card registers. No state portal was found for the new regulator; it may not exist yet (not verified).",
+   "duty": "Loi n° 2026-07 relative aux activités de sécurité privée (27 Feb 2026, JO 7897 of 4 Apr 2026, p.724) is promulgated and replaces law 78-40 of 1978. Under the 1978 law the penalty was 2-6 months' prison and a fine of 100,000-500,000 FCFA. The new law creates a regulator that issues agréments, supervises and sanctions. Not reached: frequency of renewal, agent card, training, registers, reporting, transition period, implementing decrees, new penalties, and whether the regulator is operational.",
+   "market": "There is no official count. Seneweb (18 Feb 2026) describes \"hundreds of companies\" and \"thousands of agents\". No register of licensed agencies was found.",
+   "reason": "The law exists. Loi n° 2026-07 on private security activities, dated 27 Feb 2026, is listed in JO n° 7897 of 4 Apr 2026 and replaces law 78-40. It creates a regulator that grants agréments, supervises and sanctions. The recurring duties are not confirmed: I found no implementing decree, no detail on agent cards, registers, training or renewal, no transition deadline for existing agencies, and no sign the regulator is running yet. I did not open the full JO text (a 25 MB PDF). Generic guard-ops software (Agenz, Simply Secu, BanetteOne, Kolonell) covers planning and rounds, but none was seen doing regulator filings. The market is small: the press says \"hundreds\" of firms. There is a risk the regulator builds its own portal. Revisit once the decrees are out.",
+   "searches": 5,
+   "sources": "https://www.vie-publique.sn/documents/13895/JO-7897-du-04-avril-2026 ; https://www.seneweb.com/fr/news/Politique/assemblee-ce-que-contient-le-projet-de-loi-pour-reguler-les-societes-de-securite-privee_n_483923.html ; https://fr.allafrica.com/stories/202602190473.html ; https://lesoleil.sn/actualites/societe-fait-divers/securite-privee-au-senegal-letat-encadre-le-secteur/ ; https://www.vie-publique.sn/documents/5717/loi-interdisant-lexercice-de-certaines-activites-de-police-privee-et-soumettant-a-autorisation-preal ; https://www.solutions-numeriques.com/?p=247817 ; https://www.appvizer.fr/operations/planning-securite/simply-secu ; https://www.legalnest.fr/metiers/services-aux-entreprises/comparatif-des-logiciels-pour-entreprises-de-securite-privee ; https://kolonell.com/fr/blog/logiciel-gestion-societe-gardiennage-pointage-agents-2026",
+   "suggested_score": 4,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b74"
+ },
+ "sonnet:senegal:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The reform is real, but the buyer pool is too small. OFOR (Law 2014-13, a public industrial and commercial body) delegates rural water to private operators under affermage contracts. These operators must be legal entities (personnes morales). Le Soleil names only five main operators: Aquatech, Seoh, Flexeau, Soges and Sder. A 2019 presentation mentions about 8 delegation perimeters covering about 2000 boreholes. That is a handful of mid-size firms, not a mass SME market. The duty is contractual, not a statutory duty on small businesses. ASUFOR committees are being phased out. I did not find the reporting rules or any OFOR platform, and I did not open forages-ruraux.sn. I found no competing product, but my searches did not cover this niche in depth.",
+   "searches": 3,
+   "sources": "https://sn.linkedin.com/in/laaba-ngom-985a2917a ; https://lesoleil.sn/actualites/environnement/lurgence-de-repenser-lhydraulique-rurale-par-babacar-gueye-diop/ ; https://www.pseau.org/outils/ouvrages/ps_eau_synthese_role_acteurs_reforme_hydraulique_rurale_2025.pdf ; https://www.pseau.org/sites/default/files/0_repertoire_fichiers/1_pages_pays/senegal/newsletter_plateforme_dechange_ofor_ong_2.pdf",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b74"
+ },
+ "sonnet:senegal:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Senegal's motorcycle registration drive began 6 Jan 2025 for bikes above 49 cc. It needs carte grise, plate (about 28,000 FCFA) and insurance. The minister announced systematic enforcement from end of March 2026, with about 35,000 cartes grises still to issue. I found no Senegalese app or private service for the core job; the process is counter-based at state offices. I did not confirm whether the window is open in Oct 2026 or whether a recurring duty follows. The drive is mostly one-off, state-run and has low-income buyers who lack importer papers. Weak recurrence and willingness to pay. Market: 200,000 bikes registered in 3 months, plus 35,000 pending; no register total found.",
+   "searches": 2,
+   "sources": "https://senego.com/motos-jakarta-le-delai-de-rigueur-fixe-par-yankoba-dieme-avant-le-debut-de-la-repression-systematique_1929222.html ; https://fr.allafrica.com/stories/202503140176.html ; https://www.ndarinfo.com/Yankoba-Dieme-annonce-la-repression-systematique-des-motos-non-regularisees_a43060.html ; https://fr.allafrica.com/stories/202602110380.html ; https://au-senegal.com/les-nouvelles-plaques-d-immatriculation-se-mettent-en-place,15777.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b74"
+ },
+ "sonnet:senegal:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The 2022 road code law is real and mandates driving-school training. But the implementing regulations (600+ articles) were not confirmed adopted as of Oct 2026. The latest source (March 2026) only says the minister is targeting H1 2026 and that the technical work is 80% done. I found no decree, no agrement or student-register reporting duty, and no count of schools. Competitor search found no Senegalese driving-school software, but results were mostly French or other-country pages. The only market figure is a vendor blog claiming about 90,000 permits a year (not official). Recurring reporting duty unproven, so the score stays low.",
+   "searches": 4,
+   "sources": "https://fr.allafrica.com/stories/202603110373.html ; https://www.seneweb.com/fr/news/41/permis-a-points-auto-ecoles-obligatoires-amendes-digitalisees-les-grandes-reformes-du-nouveau-code-de-la-route_n_486060.html ; https://afrique.le360.ma/senegal/societe/2022/04/08/37619-senegal-adoption-dun-nouveau-code-de-la-route-instituant-le-permis-points-37619/ ; https://kolonell.com/fr/blog/site-web-auto-ecole-senegal-leads-planning",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b74"
+ },
+ "sonnet:senegal:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The framework convention is real (June 2026, SEN-CSU and ASPS). It covers clinics, practices, labs, imaging centres and pharmacies. It sets no billing mechanics. Specific per-provider conventions are still to come, so the recurring duty and its penalty are not yet defined. SEN-CSU already runs its own digital stack (SITFAC for billing follow-up, GESTAM, a national platform), so a state tool probably handles the core claims job. Kolonell and other Dakar vendors already sell IPM tiers-payant billing in clinic software, though those pages are marketing and their figures are unsourced. No register count was found, but private providers deliver about 45% of care. Pain is real, but the duty is vague, the state is likely to own the platform, and competitors exist. Not searched: Senegalese IPM claim rules and any SITFAC provider access.",
+   "searches": 2,
+   "sources": "https://fr.allafrica.com/stories/202606250183.html ; https://senego.com/la-sen-csu-et-lalliance-du-secteur-prive-signent-un-accord-pour-integrer-les-cliniques-a-la-csu_1976152.html ; https://fr.allafrica.com/stories/202512090248.html ; https://kolonell.com/fr/blog/logiciel-facturation-ipm-dossier-patient-clinique-dakar-2026",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b74"
+ },
+ "sonnet:senegal:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: DGES communiqué of 29 July 2026 restates law 94-82 and decree 2018-850. Opening, extension or relocation needs a full dossier, operation needs a provisional agrément, and breach can mean immediate closure. Reported figures are about 298 EPES, with roughly a third non-compliant (one source says about 100). Filing windows are one-off or yearly (2 Jan-31 Mar for opening; 2 Sep-2 Oct 2026 for 2027 LMD habilitation, online) and come from secondary sources. No competing software or state tool found, but only two searches were run. Weak case: the market is small (a few hundred buyers), filings are episodic, not a recurring monthly workflow, and the work is mostly consulting and paper dossiers. The 34-establishment and 333-total figures at lesoleil.sn were unreliable. Not checked: post-agrément annual reporting, and private primary or crèche duties.",
+   "searches": 2,
+   "sources": "https://fr.allafrica.com/stories/202607300099.html ; https://fr.allafrica.com/stories/202607300190.html ; https://guindima.sn/news/article/habilitation-institutionnelle-des-epes-2027-guide-complet-pour-le-depot-des-dossiers-lmd/ ; https://lesoleil.sn/actualites/education/enseignement-superieur-prive-la-dges-rappelle-les-regles-du-jeu-aux-epes/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b74"
+ },
+ "sonnet:senegal:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Decree 2009-1226 requires a professional mareyeur card, with a category-3 exporter card issued per approved processing unit, prior declaration and an RCCM number (via search summary of faolex/DITP pages, not opened). Renewal cycle and penalties not found. No Senegalese software or DITP e-service found, but my search was shallow. Market size is not found: no register count, only the DITP approved list and the UPAMES association. The population is probably a few dozen to low hundreds of approved units, which is small. EU catch certificates are validated by DPM offices. Most exports go to Côte d'Ivoire and Mali (APS, Dec 2025). Low frequency, a small buyer pool and an informal sector make the case weak.",
+   "searches": 3,
+   "sources": "https://faolex.fao.org/docs/pdf/sen96836.pdf ; https://ditp.sec.gouv.sn/taxonomy/term/37 ; https://www.cffacape.org/s/10-Gueye.pdf ; https://fr.allafrica.com/stories/202512110496.html ; https://www.cbi.eu/sites/default/files/vca-study_fish-senegal-en.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b74"
+ },
+ "triage:senegal": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Associations and NGOs under SYCEBNL annual statements; new buyer group, recurring duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Rural borehole operators and ASUFOR under OFOR contracts; new buyer and duty, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Moto-taxi owners with a registration deadline driving many small operators to act at once."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Driving schools under licensing and inspection; new buyer, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Scrap exporters with a licence renewal file and a deadline; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Creches need authorisation and inspection; small licensed premises, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Taxi and minibus owners facing licensing and fleet rules; new buyer, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Desludging firms with certification and trip register; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Agro-input dealers with licensing duties; new buyer, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Gold buying counters and jewellers with purchase register duty; new buyer."
+    },
+    {
+     "decision": "known",
+     "id": "A11",
+     "reason": "Private vets and vet-medicine sellers; same buyer and duty as K11.",
+     "ref": "K11"
+    },
+    {
+     "decision": "known",
+     "id": "A12",
+     "reason": "Household domestic-worker employment; same as K05.",
+     "ref": "K05"
+    },
+    {
+     "decision": "known",
+     "id": "A13",
+     "reason": "Licensed money changers' BCEAO reporting; same as K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Private security agencies facing a new law; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Private clinics and labs billing SEN-CSU and IPM; different duty from K08 and K11."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Private higher-education institutions with recurring agrement compliance; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "SMEs with CDP declarations and CCTV rules; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Fish mareyeur-exporters with card and approval paperwork; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Quarry operators with royalty and activity reports; differs from K01 in buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Beneficial-ownership annual declaration is a different duty from K03 e-invoicing."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Groundnut and cashew exporters with export-proof and repatriation duties; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Mutuelles and savings co-operatives with periodic reporting; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Mobile-money sub-agents with a register duty; new buyer, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Pirogue owners with permit and registration renewals; new buyer."
+    },
+    {
+     "decision": "drop",
+     "id": "B12",
+     "reason": "Hotel agrement is one-off licensing with no deadline wave; recurring tourism-tax duty is K09's."
+    },
+    {
+     "decision": "known",
+     "id": "B13",
+     "reason": "Pharmacies and same duty as K08.",
+     "ref": "K08"
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Leased fuel station managers with siting and price-notice rules; new buyer, unverified."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS1",
+     "reason": "No mandatory recurring duty found; speculative future rules only."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS2",
+     "reason": "No enacted rule, so no mandatory workflow exists."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS3",
+     "reason": "No Senegalese register duty confirmed; French analogue only."
+    }
+   ]
+  },
+  "tag": "w2b74"
+ }
+}

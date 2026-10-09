@@ -501,5 +501,100 @@
    "searches": 18
   },
   "tag": "w2b78"
+ },
+ "sonnet:timor-leste:ALL8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: FAOLEX says DL 10/2014 sets requirements for installing, operating and licensing slaughterhouses (public, private, mixed). It is listed as not repealed. I could not open the full text, so recurring record-keeping duties, penalties and frequency are unconfirmed. No software or free state portal was found, but I only ran two searches. No operator count found. Slaughterhouses in Timor-Leste are likely a handful of facilities, and most slaughter is informal. A one-off licensing step is not recurring, and buyers are few and have low willingness to pay. This is weak as a solo-founder SaaS. Score 2.",
+   "searches": 2,
+   "sources": "https://leap.unep.org/en/countries/tl/national-legislation/decree-law-no-102014-establishing-requirements-be-met-instalment",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b78"
+ },
+ "triage:timor-leste": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "known",
+     "id": "ALL1",
+     "reason": "Same buyers (kiosks, shops, small traders) and same core duty (MCI/DGC commercial licence filing); K05 was not rejected so no revive, new deadline evidence is for the verifier.",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "ALL2",
+     "reason": "New buyer group (agro-input dealers) with a new duty under Lei 2/2026; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL3",
+     "reason": "Guest houses and homestays are small firms with a licensing and register duty; no known idea covers them."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL4",
+     "reason": "Private petrol station owners and small fuel distributors, a new buyer group with licence, inspection and fee duties."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL5",
+     "reason": "Co-operatives are explicitly in scope and none of K01-K10 covers them."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL7",
+     "reason": "Small dealers and money transfer operators with a mandatory AML reporting duty; new buyer group, may be small but unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL8",
+     "reason": "Slaughterhouse operators are a different buyer from K04 livestock traders and vets, with a different licensing duty (related to K04)."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL9",
+     "reason": "Small security firms are in scope; the statute is unconfirmed, so leave it for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL10",
+     "reason": "Microlet and bus owners are small operators facing a dated rule from 27 Aug 2026; new buyer group."
+    },
+    {
+     "decision": "drop",
+     "id": "ALL11",
+     "reason": "Out of scope: the duty falls mainly on larger project proponents and contractors (duties that fall only on large firms)."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS1",
+     "reason": "Same buyers and same duty (commercial register and licence upkeep for small traders); adds the 31 Jan deadline but no new buyer group or duty.",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Bottled-water producers and tanker operators are a new buyer group with a recurring testing and licence duty under DL 5/2009."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Village water groups are community bodies in scope; recurring duty is unconfirmed, so leave it for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Small non-bank lenders are a new buyer group with a BCTL licensing and reporting duty; coverage unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Small fleet, taxi and minibus owners with recurring inspection and licence renewals; a different buyer and duty from K05. It overlaps with ALL10 in buyers but covers a different duty (inspection and renewal), so it is kept separate."
+    }
+   ]
+  },
+  "tag": "w2b78"
  }
 }

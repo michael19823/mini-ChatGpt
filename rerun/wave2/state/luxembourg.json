@@ -580,5 +580,254 @@
    "searches": 18
   },
   "tag": "w2b46"
+ },
+ "gapfill:luxembourg": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Owners and managers of 'lieux prioritaires' and private distribution installations (care homes, hotels, camping sites, leisure facilities); exact list unverified",
+     "category": "13. Small water systems",
+     "evidence": "https://eau.gouvernement.lu/dam-assets/eau-potable/documents/ppt-loi-ep-et-luxwsp-ckr-230904-20.pdf ; https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2023/01-janvier/12-drenkwaassergesetz.html ; https://maint.gouvernement.lu/dam-assets/circulaires/2019/juillet-decembre/3729.pdf ; Steinfort legionellosis cluster July 2025 https://luxtoday.lu/de/gesundheit-und-umwelt/legionellose-in-steinfort-untersuchung-geht-weiter",
+     "existing": "Competitor search (French, Luxembourg legionella logbook software): found no Luxembourg-specific software. Found only French carnet sanitaire sensor vendors (e.g. a Chauvin Arnoux document) and Novalair Luxembourg (disinfection and consulting service, not software). The state tool LuxWSP covers suppliers, not owners of private installations.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Adjacent to cat. 10 private-well idea seen in the first pass; no K id in the known list.",
+     "name": "Legionella / private distribution installation risk-assessment and logbook tool for owners of priority places (care homes, hotels, sports centres, schools)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Loi du 23 décembre 2022 relative à la qualité des eaux destinées à la consommation humaine (art. 10, deadline 12 Jan 2029 per ministry presentation), transposing Directive (EU) 2020/2184. The priority-places list is set by grand-ducal regulation that I could not find.",
+     "unchecked": "The grand-ducal regulation listing priority places; whether hotels or small sites are on it; the actual owner duties (sampling frequency, registers); whether the 12 Jan 2029 date applies to owners; the number of sites; how much the law differs from simply recommended practice; Belgian or German vendors that serve Luxembourg."
+    },
+    {
+     "buyer": "Micro and small Luxembourg operators and traders in EUDR-covered commodities (chocolatiers, coffee roasters, furniture and wood importers, leather goods); count unknown",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2026/07-juillet/09-reglement-deforestation.html ; https://environnement.public.lu/fr/natur/forets/eudr.html ; https://en.paperjam.lu/article/coffee-cocoa-timber-europe-is-imposing-new-rules-on-businesses",
+     "existing": "Generic EU EUDR platforms (osapiens, Greenly, eudr.co and similar) and the EU TRACES information system. Luxembourg market is very small and the May 2026 simplification package may cut the duties (unverified). The government page lists no SME tool beyond the portal and workshops.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Not close to K01-K06.",
+     "name": "EUDR due-diligence statement and geolocation service for small Luxembourg importers and traders (cocoa, coffee, leather/cattle, wood-based goods)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Regulation (EU) 2023/1115 (EUDR): 30 Dec 2026 for large and medium firms, 30 Jun 2027 for micro and small firms (timber micro/small firms possibly earlier, unverified). Ministry of Environment is the national authority; eudr.lu portal and webinars.",
+     "unchecked": "Number of Luxembourg operators in scope (no figure published); final simplification outcome; whether downstream traders are exempt from filing statements; whether LCB or Fedil offers a collective service."
+    },
+    {
+     "buyer": "Small wood and building-material traders and importers in Luxembourg",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://environnement.public.lu/dam-assets/documents/emweltprozeduren/forets/flegteutrpap/a4-diligence-raisonnee.pdf ; https://www.atibt.org/en/announcements/69/le-commerce-du-bois-strengthens-its-due-diligence-system-and-intensifies-its-fight-against-imported-deforestation",
+     "existing": "LCB (Le Commerce du Bois) collective due-diligence system, recognised EUTR monitoring organisation since 2015. Ministry documents date from 2013.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Timber trader EUTR/EUDR register and legality-evidence file (via LCB collective system or self-run)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "EUTR (995/2010) supplier and customer records kept for 5 years, now overtaken by EUDR for timber from Dec 2026. The Ministry of Environment published EUTR guidance in 2013 (a4-diligence-raisonnee.pdf).",
+     "unchecked": "Number of Luxembourg wood importers; whether LCB serves them; the post-2026 EUDR status of the ANF helpdesk; no Luxembourg-language competitor search run because the score is under 3."
+    },
+    {
+     "buyer": "Small organic food importers and first consignees in Luxembourg",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://www.certisys.eu/document/procedure-concernant-limportation-de-produits-bio ; https://wdocs-pub.chd.lu/docs/Dossiers_parlementaires/8156/20260226_Resume.pdf ; https://guichet.public.lu/fr/entreprises/import-export/exportation/export-vers-pays-tiers/certificat-export-aliments-origine-animale.html",
+     "existing": "Free EU TRACES NT; certification bodies guide importers. No Luxembourg-specific software seen.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Organic import / first-consignee compliance (TRACES NT e-COI) for small Luxembourg food importers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "EU organic rules: electronic certificate of inspection through TRACES NT, first-consignee duties; ALVA official controls; Bill 8156 on ALVA controls of third-country products (status unverified).",
+     "unchecked": "Whether any Luxembourg organic importers exist in meaningful numbers; whether ALVA runs its own procedure; status of Bill 8156; the Luxembourg control body for organic imports."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "13. Small water systems",
+     "found": "Public supply is run by communes and 6 water syndicates (SEBES, DEA, SEC, SES, SIDERE, SESE). The Law of 23 Dec 2022 (Mémorial A704, in force 1 Jan 2023, transposes Directive 2020/2184) sets risk-based duties. Dates: catchment-zone risk analysis by 12 Jul 2027; supply-system risk analysis by 12 Jan 2029. The state tool LuxWSP and the Drëpsi label (AGE audit) already cover supplier risk assessment, so no private software gap there. The law also covers 'installations privées de distribution' (owner's responsibility) and 'lieux prioritaires' (large places open to the public, to be listed by grand-ducal regulation). The list and the exact owner duties are unverified. Luxembourg Direction de la santé recommends hot-water 55-60C and keeping a network plan and maintenance protocol (circular 3729). I found no Luxembourg-specific hotel or campsite Legionella testing or logbook rule. Candidate C1 below. Small private operators of their own supply were not found beyond the 10 m3/day or 50-person exemption, which does not apply to commercial or public activity (this comes from the 2002 text; I did not confirm the 2022 thresholds).",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "The EUDR (2023/1115) national authority is the Ministère de l'Environnement, du Climat et de la Biodiversité. Government communication of 9 Jul 2026 and the eudr.lu portal give a generic webinar plus ASTA workshops for agriculture. Dates: 30 Dec 2026 for large and medium firms; 30 Jun 2027 for micro and small firms (a search summary says timber micro and small firms, already under the EUTR, are on the earlier date; unverified). Wood traders already have EUTR records; the LCB (Le Commerce du Bois) offers a collective due-diligence system. The EU TRACES NT system handles organic import certificates (e-COI) and first-consignee duties. Bill 8156 would set the ALVA official-controls framework for third-country products (status unverified). Luxembourg is landlocked, so fish catch certificates are not relevant. Only generic EU-wide EUDR vendors seen (osapiens, Greenly, eudr.co). No Luxembourg-specific operator count found. Candidates C2-C3 below.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "Luxembourg petits systèmes d'approvisionnement en eau potable exploitants privés contrôle qualité eau potable règlement grand-ducal",
+    "Luxembourg importateur bois règlement UE déforestation EUDR PME Luxembourg obligations diligence raisonnée",
+    "Luxembourg Wasserversorgung private Brunnen Hotels Camping Trinkwasser Legionellen Kontrolle Verordnung",
+    "loi 2022 eau destinée à la consommation humaine Luxembourg distribution privée hôtels évaluation des risques installations intérieures LuxWSP Drëpsi",
+    "EUDR Luxembourg autorité compétente ASTA ANF opérateurs bois négociants PME registre déclaration",
+    "lieux prioritaires eau potable Luxembourg installation privée de distribution légionelles propriétaires obligations 2029",
+    "Luxembourg importateurs denrées alimentaires pays tiers contrôle import ALVA agrément établissement bio importateur certificat d'inspection",
+    "Luxembourg petits fournisseurs d'eau potable syndicats communes logiciel gestion LuxWSP compteurs rapport annuel",
+    "règlement grand-ducal lieux prioritaires eau potable Luxembourg liste hôpitaux écoles hôtels piscines",
+    "Luxembourg négociants bois importateurs Fédération négociants en bois EUTR système de diligence raisonnée",
+    "Luxembourg EUDR Fedil Chambre de Commerce PME importateurs cuir cacao café géolocalisation outil logiciel 2026",
+    "logiciel plan de gestion légionelles carnet sanitaire eau Luxembourg hôtel maison de retraite",
+    "WebFetch: gouvernement.lu EUDR press release 9 July 2026; eudr.lu redirect; environnement.public.lu EUDR page"
+   ],
+   "searches": 13
+  },
+  "tag": "w2b58"
+ },
+ "triage:luxembourg": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Volunteer ASBL treasurers with mandatory accounts and RCS filing; in scope as associations."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Small taxi and VLC operators under a pending licensing regime; in scope, verify bill status."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Small agri suppliers and users with certificate and register duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Private well owners and small firms with a declaration and annual tax; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Annual apiary census and disease notification for small keepers; unsure, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Small dealers with AML cash-payment duties supervised by AED; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small vet practices with a mandatory antimicrobial reporting duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Small livestock keepers and operators with new registration duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small waste dealers and hauliers with authorization and register duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Small dismantlers with approval and record duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Small temp agencies and firms lending staff with authorization and notification duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Self-employed home childminders are a different buyer group from the K03 private crèches; related to K03.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Small studios with a hygiene notification duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Small landlords and businesses with periodic inspection duties; in scope."
+    },
+    {
+     "decision": "merge",
+     "id": "B1",
+     "reason": "Same buyer (small ASBL treasurers) and same duty (accounts and RCS filing) as A1.",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Micro-companies and sole traders facing the new LBR sanctions regime from Sep 2026; deadline-driven and in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Small licensed security firms with approval and roster rules; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small medical and dental practices billing under CNS rules; the duty falls on the practice, so in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Private owners letting short-term with declaration and day-cap duties; households in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Small and volunteer syndics under a pending reform; unsure, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small wine estates with mandatory declarations; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small building trades with a waste inventory duty on demolition; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Small shops and cafes with licence compliance duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Small domiciliation providers with AML supervision and an annual certification; in scope."
+    },
+    {
+     "decision": "known",
+     "id": "B12",
+     "reason": "Same buyer (main contractors) and same duty (subcontractor posting checks) as K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Owners of priority places such as care homes and hotels with a legal water-risk assessment duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Small importers with a deadline-driven EUDR due-diligence duty; in scope."
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS3",
+     "reason": "Timber traders' legality and due-diligence file is now the EUDR duty of GAPS2, with the same small importer buyers.",
+     "ref": "GAPS2"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Small organic importers with first-consignee and TRACES duties; in scope."
+    }
+   ]
+  },
+  "tag": "w2b58"
  }
 }

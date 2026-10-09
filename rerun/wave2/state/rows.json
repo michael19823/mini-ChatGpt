@@ -2892,6 +2892,34 @@
    "merge": 2
   }
  },
+ "serbia": {
+  "batch": "w2b56",
+  "candidates": 32,
+  "checks": {
+   "opus": 1,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B5 AML compliance kit for small real-estate brokers",
+    "B6 Short-term rental host compliance pack (eTurista check-in/out, flat tourist tax, listing ID)",
+    "GAPS1 Excise refund (refakcija) claim pack for small carriers, taxi operators and businesses heating premises"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 3,
+   "unverifiable": 4
+  },
+  "gaps": 3,
+  "id": "serbia",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 27,
+   "known": 4,
+   "merge": 1
+  }
+ },
  "singapore": {
   "batch": "w2b22",
   "candidates": 45,
@@ -2959,6 +2987,46 @@
   "triage": {
    "keep": 35,
    "known": 7,
+   "merge": 1
+  }
+ },
+ "slovakia": {
+  "batch": "w2b56",
+  "candidates": 27,
+  "checks": {
+   "opus": 3,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "A2 NGO income-and-donor statement filing for associations above 35,000 EUR"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 2,
+   "refuted": 3,
+   "unverifiable": 3,
+   "verified_4": 1
+  },
+  "gaps": 2,
+  "id": "slovakia",
+  "leads": [
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "B1",
+    "mark": "new",
+    "name": "goAML registration and AML programme pack for real estate agencies, accountants and tax advisers",
+    "opus": 5,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 23,
+   "known": 1,
    "merge": 1
   }
  },

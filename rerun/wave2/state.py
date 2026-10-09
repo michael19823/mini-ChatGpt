@@ -245,10 +245,13 @@ def main():
     print(f'done {len(done)}/{len(COUNTRIES)}; remaining {len(remaining)}; leads strong {leads["strong"]}, likely {leads["likely"]}; '
           f'agent spend so far about ${spent:.2f}')
     print(f'last finished batch {last_tag}: {added if added is not None else "-"} results kept' + (' (none: limit or outage?)' if added == 0 else ''))
-    print(f"running: {', '.join(e['tag'] + ' (' + e['run'] + ')' for e in busy) if busy else 'no'} [{len(busy)}/{MAX_PARALLEL}]")
+    max_par = load('parallel.json', {}).get('max', MAX_PARALLEL)
+    blocked = sum(c.get('blocked', 0) for c in costs.values() if c['tag'] == last_tag) if last_tag else 0
+    print(f"running: {', '.join(e['tag'] + ' (' + e['run'] + ')' for e in busy) if busy else 'no'} [{len(busy)}/{max_par}]"
+          f"; blocked searches in last finished batch: {blocked}")
     if waiting:
         print('waiting until ' + datetime.datetime.utcfromtimestamp(wait_until).strftime('%Y-%m-%d %H:%M UTC') + ': the last batch kept nothing')
-    full = len(busy) >= MAX_PARALLEL
+    full = len(busy) >= max_par
     held = claimed(runs, busy)
     free = [s for s in remaining if s not in held]
     if a.script and free and not full and not waiting:

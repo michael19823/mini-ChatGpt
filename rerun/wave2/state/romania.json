@@ -1,4 +1,28 @@
 {
+ "challenge:romania:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No full killer found. Two parts of the idea are weaker than claimed. First, according to StartupCafe's summary of a draft government decision, WorkinRomania itself refuses to generate a request once an agency exceeds the number of workers its authorisation covers. That means the platform enforces guarantee headroom. Second, the same draft has the platform automatically check contracts against the job offer, COR code and REGES-ONLINE records. Both points come from the draft and may change before adoption.",
+   "reason": "I found no commercial product for Romanian placement contracts, guarantees or worker rosters. That held in Romanian and English searches and among law-firm alerts (KPMG, Kinstellar, Crowe). The state platform weakens the pitch, though. Per a draft government decision (StartupCafe), it blocks requests above the authorised worker count, which covers guarantee headroom. It also auto-checks contracts against the job offer and REGES. What is left is mainly filling in the bilingual Ordin 655 contracts and keeping roster and permit deadlines, which is thin. The market is small and shrinking: the importers' employers' association PIFM expects 70-80% of small agencies to exit. I found no official count of authorised agencies. Parliament has not finished amending the ordinance: Senate changes, PLx 427/2026 still in Chamber committees in September, and Profit.ro reports relaxed rules for some agencies.",
+   "searches": 8,
+   "sources": "https://startupcafe.ro/workinromania-va-putea-limita-depunerea-cererilor-pentru-muncitorii-straini-ce-simplifica-si-ce-blocaje-raman-pentru-firme-103452 ; https://www.digi24.ro/stiri/economie/anofm-a-autorizat-online-primele-agentii-de-plasare-a-lucratorilor-straini-cum-functioneaza-platforma-workinromania-gov-ro-3933963 ; https://agerpres.ro/viata-parlamentara/2026/05/26/senat-modificari-privind-accesul-strainilor-pe-piata-muncii-din-romania--1560168 ; https://www.cdep.ro/comisii/munca/pdf/2026/sz090203.pdf ; https://profit.ro/stiri/social/restrictiile-la-angajarea-strainilor-impuse-de-guvern-relaxate-pentru-anumiti-angajatori-si-agentii-de-plasare-reducere-si-la-amenzi-22457687 (search result only, fetch returned 403) ; https://spotmedia.ro/stiri/social/schimbare-majora-pentru-firmele-care-aduc-muncitori-straini-garantia-de-75-000-de-euro-ar-putea-elimina-majoritatea-agentiilor ; https://www.rubinian.com/ordinul-655-2026-contracte-plasare-lucratori-straini ; https://kinstellar.com/news-and-insights/detail/4390/new-conditions-in-romania-for-the-recruitment-of-foreign-workers-necessary-reform-or-overregulation",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b24"
+ },
+ "challenge:romania:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "Law 88/2026 made RO e-Factura optional for hosts renting under their CNP (individuals). MEDAT said in June 2026 that issuance of EU 2024/1028 unique codes had not begun and depended on the technical solution and budget. The minister targets a legal framework by the end of 2026, so the main trigger is deferred.",
+   "reason": "Both new triggers have fallen away for now. 1) The e-Factura duty was removed. Law 88/2026 (Monitorul Oficial, 29 May 2026, in force 1 Jun 2026) made RO e-Factura optional for individuals taxed under their CNP, which covers hosts renting in hotel regime. 2) The unique code has not started. As of 10 Jun 2026, MEDAT said no unique codes under Reg. 2024/1028 were being issued, with timing depending on the technical solution and budget. The minister expects the legal framework only by the end of 2026, and Booking will enforce only once Romania launches the registry. I found nothing newer, so the code duty is unverified and may still be months away. What remains is old and handled by accountants: the annual D212, the monthly 301/390 VAT on platform commissions, and the accommodation occupancy sheet. The market size is still unknown.",
+   "searches": 6,
+   "sources": "https://startupcafe.ro/noile-reguli-ue-pentru-inchirierile-prin-airbnb-si-booking-modalitatea-de-implementare-in-romania-este-in-proces-de-analiza-spune-ministerul-turismului-101182 ; https://startupcafe.ro/inchirieri-pe-locuinte-pe-airbnb-booking-si-alte-platforme-vorbim-de-fisa-digitala-de-cazare-de-fiscalitate-de-siguranta-cetatenilor-ministrul-turismului-irineu-darau-100313 ; https://www.contzilla.ro/e-factura-furnizori-cu-cnp-agricultori-institute/ ; https://www.portalcontabilitate.ro/ro-e-factura-pentru-persoana-fizica-identificata-prin-cnp-223587.htm ; https://www.fiscalitatea.ro/amendament-ministerul-finantelor-e-factura-nu-va-ma-fi-obligatorie-pentru-persoanele-fizice-24854/ ; https://www.zarinacrm.ro/crm-hotel/ ; https://www.fiscalitatea.ro/ghid-complet-pentru-proprietarii-care-inchiriaza-prin-airbnb-si-booking-24874/",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b24"
+ },
  "critic:romania": {
   "result": {
    "gaps": [
@@ -970,6 +994,17 @@
    "reason": "CATUC (Legea 169/2026) was published 10 Aug and in force 25 Aug 2026, with a new certification of construction firms by experience and specialisation, per search summaries of profit.ro. But criteria, body, deadline, penalty and whether micro-contractors are covered could not be found. The profit.ro page returned 403 on fetch. ARACO/AIIR say the mechanism is unclear. Certification seems tied to public procurement, so it is likely not a recurring duty for small contractors. Competition: only generic construction CRM/site-diary tools were found (Zarina CRM, Site Productivity, Daily Report App); none targets the diriginte de șantier legal duties. Market size was not checked. The idea is weak and premature until the implementing norms appear.",
    "searches": 2,
    "sources": "https://profit.ro/opinii-avocat-ro/ce-schimba-noul-catuc-pentru-companiile-din-domeniul-constructiilor-22720362 ; https://actualdecluj.ro/codul-urbanismului-explicat-ce-se-intampla-cu-actele-si-autorizatiile-deja-depuse-inainte-de-25-august-cand-intra-in-vigoare-noul-act-normativ/ ; https://financialintelligence.ro/araco-si-aiir-codul-amenajarii-teritoriului-urbanismului-si-constructiilor-trebuie-sa-asigure-calitate-si-predictibilitate-nu-blocaje-administrative/ ; https://www.zarinacrm.ro/crm-constructii/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b24"
+ },
+ "sonnet:romania:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is partly real: Law 196/2018 sets simple-entry bookkeeping for associations, with fines of 4,000-9,000 lei for using the repair fund for current expenses. I found no authoritative source for the claimed D100 semester / D205 duties. Forums conflict on D100, D205 and civil-contract admins, and D112 only applies if someone is paid. Competition: HomeFile (about 3,000 associations, 2022 article) and E-Bloc cover collections and payment lists. I could not confirm whether they generate D112/D205. Association count (about 100,000) not verified. Most associations have no paid payroll, so the fiscal-filing niche is thin. The 2026 Law 196 amendments and the SAF-T exemption for associations were not confirmed. Buyers are volunteers with low willingness to pay.",
+   "searches": 4,
+   "sources": "https://www.fiscalitatea.ro/stii-ce-obligatii-ai-ca-administrator-sau-contabil-al-unei-asociatii-de-proprietari-24876/ ; https://www.economica.net/homefile-faciliteaza-zilnic-munca-a-mii-de-asociatii-de-proprietari-care-sunt-avantajele-aplicatiei-prezente-in-peste-30-de-orase_624425.html ; https://contabilul.manager.ro/a/28810/cum-se-tine-evidenta-contabila-la-o-asociatie-de-proprietari.html ; https://www.avocatnet.ro/forum/discutie_484594/Declaratia-205-la-asociatiile-de-proprietari.html",
    "suggested_score": 3,
    "verdict": "unverifiable"
   },

@@ -61,7 +61,11 @@ Constraints that shape every step:
 ## Launch a batch
 
 Up to `MAX_PARALLEL` (4) batches run at once, each on its own countries and each launched from its
-own turn (the 200-search cap is per turn). The user approved 4 on 2026-10-09.
+own turn (the 200-search cap is per turn). The user approved 4 on 2026-10-09, and up to 7 once 4
+run clean: when the first 4 batches that overlapped have all finished with results kept and 0
+blocked searches each (see the status line), write `{"max": 7}` to `state/parallel.json`, commit,
+and tell the user in one line. If any batch shows blocked searches or keeps no results while 4 run,
+stay at 4 (or go back to it) and tell the user.
 
 1. Run `state.py --script SCRIPT`, where SCRIPT is a new file name in the folder of the bootstrap
    script (for example `country-wave-batch-<UTC HHMM>.js`), so a running batch's script is never

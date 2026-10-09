@@ -1,4 +1,77 @@
 {
+ "challenge:turkey:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single killer found. The parts are covered piecemeal: the free KBS state portal (kbs.egm.gov.tr / Jandarma KBS Tesis 2), existing KBS XML tools (LKBS, 3T Kimbil, Kimlik Bildirim 2007), and platform-side permit checks through the ministry API. Not checked: whether Turkish PMS vendors (Elektraweb, Sistem Otel, HotelRunner PMS) already offer KBS web-service filing for villa units.",
+   "reason": "Not refuted, but weak. Recurring KBS guest reporting is the only real repeat chore. Hosts can file it free on the state portal (kbs.egm.gov.tr, Jandarma KBS Tesis 2), and cheap KBS tools for hotels and pensions already exist (LKBS, 3T Kimbil, Kimlik Bildirim 2007). The permit is a one-off e-Devlet application. Under circular 2026/4, platforms check permit numbers through the ministry API, and tax is the accountant's job. I found no villa or channel-manager product with KBS integration (searched HotelRunner, Elektraweb, Klik.villas, Hostaway). That gap, linking Airbnb and Booking bookings to KBS, is the defensible niche for villa management firms. Market size is unsettled: no national permit count found; one report cites about 16k applicants in Kaş, Kalkan and Fethiye alone.",
+   "searches": 7,
+   "sources": "https://cnnturk.com/turkiye/turizm-amacli-gunluk-kiralamalarda-kimlik-bildirim-donemi-basladi ; https://www.ekonomim.com/sehirler/villa-turizmcilerinde-izin-belgesi-sorunu-artiyor-haberi-751862 ; https://www.jandarma.gov.tr/kurumlar/jandarma.gov.tr/Jandarma/Uygulamalar/KBS/KBS_Tesis_2_Uygulama_TD.pdf ; https://www.tamindir.com/indir/lkbs-lider-kimlik-bildirim-sistemi/ ; https://www.tamindir.com/indir/kimlik-bildirim-2007/ ; https://multinet.com.tr/blog/insan-kaynaklari/kimlik-bildirimi-nedir ; https://oner.av.tr/konaklama-kimlik-bildirme-cezasi-itiraz/ ; https://istanbul.ktb.gov.tr/Eklenti/130313,kilavuzpdf.pdf ; https://www.cumhuriyet.com.tr/ekonomi/gunluk-kiralik-evler-icin-yeni-donem-1-milyon-liraya-kadar-cezasi-var-2160196",
+   "suggested_score": 4,
+   "verdict": "unclear"
+  },
+  "tag": "w2b20"
+ },
+ "challenge:turkey:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No named killer. The main threats are the free Ministry Bilgi Sistemi (it issues the permit, registers vehicles and handles platform checks) and the chance that existing Turkish rental software (already connected to the police KABİS system) simply adds age, km and permit fields. Not settled: whether the Bilgi Sistemi will have an API and how much it will check by itself; this can't be known until it launches (planned for 1 Jan 2027).",
+   "reason": "I found no product that kills this outright. No rental software, consultancy or association tool (TOKKDER, AKKON) mentions the yetki belgesi or the new Bilgi Sistemi. Still, the idea is weak. The permit is a one-off filing issued free through the Ministry's Bilgi Sistemi, which also registers vehicles and checks them for marketplaces, so the state tool may do the core job. What recurs is light: fleet age (6 years), km (180k/300k), muayene and insurance checks, and deposit caps. Existing rental software, already tied to the police KABİS system, can add those. The 5-vehicle (10 in big metro districts) minimum will push the smallest esnaf out. No small-firm exemption. No API, operator count, fines or renewal period published yet.",
+   "searches": 7,
+   "sources": "https://www.alomaliye.com/2026/08/17/motorlu-tasit-kiralama-yeni-donem/ ; https://www.alomaliye.com/2026/08/15/motorlu-kara-tasitlarinin-kiralanmasi-hakkinda-yonetmelikle-ilgili-kapsamli-ozet-ve-sss/ ; https://www.yeniasir.com.tr/yasam/2026/08/22/arac-kiralamada-yeni-donem-esnaf-durumdan-oldukca-memnun ; https://www.capital.com.tr/haberler/tum-haberler/arac-kiralama-sirketlerine-yetki-belgesi-zorunlulugu-getirildi ; https://yolcu360.com/blog/kiralik-arac-bildirim-sistemi-nedir-nasil-kayit-olunur/ ; https://www.lexpera.com.tr/resmi-gazete/metin/motorlu-kara-tasitlarinin-kiralanmasi-hakkinda-yonetmelik-33341 ; https://www.dunya.com/foto-galeri/ekonomi/arac-kiralamada-kurallar-degisti-yas-kilometre-ve-depozitoya-yeni-sinir-galeri-836296",
+   "suggested_score": 4,
+   "verdict": "unclear"
+  },
+  "tag": "w2b20"
+ },
+ "challenge:turkey:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "This duty is not new for the buyers named in the claim. Domestic carriers' trucks and buses have had to use digital tachographs since a 2012 rule change. Since 31/12/2019 a Ministry of Transport rule has required them to download that data and send it to the ministry (Webtekno, 3 Jan 2020). Drivers must also send their card data to STAUM, the TOBB-run tachograph centre. So K1/L1 hauliers and bus firms are already served by an established vendor market: Mobiliz Tachowise, Seyir Mobil, Teltonika TachoSync, a Turkish-built cable-plus-archive tool, and local tachograph workshops. Law 7574 also says records will be transferred to a state database that police and the Labour Ministry can audit, so the state already handles the upload channel.",
+   "reason": "The claim treats Law 7574 as a new tachograph and data duty for small hauliers and bus firms. In fact, download and sending data to the ministry has been compulsory for buses and trucks since end-2019. About 1.06 million vehicles were reported to fall under the digital tachograph rules, and several vendors already serve them. Law 7574 mainly moves the duty into the traffic law with police fines and model-year deadlines, and it routes records to a state database. The new buyers are vehicles outside the old transport-licence rules, a smaller and unclear group. NTV and the police (EGM) say it applies only to newly registered vehicles, which conflicts with the phase-in table in the law. The implementing regulation (due Feb 2027) was not found. There is still room for a cheaper done-for-you service, but the duty is not new and the market is not empty.",
+   "searches": 7,
+   "sources": "https://www.webtekno.com/otobus-kamyonlara-takograf-zorunlulugu-getirildi-h83014.html ; https://www.alomaliye.com/2026/02/27/2918-sayili-karayollari-trafik-kanununda-degisiklikler-yeni-duzenlemeler-ve-cezalar/ ; https://www.ntv.com.tr/otomobil/galeri-yeni-arac-alacaklar-dikkat-zorunlu-oldu-takmayanlara-75-bin-lira-ceza-1712684 ; https://www.und.org.tr/files/2026/02/karayollari-trafik-kanununda-degisiklik-yapilmasina-dair-kanun-yayimlandi.pdf ; https://www.cnnturk.com/turkiye/son-dakika-dijital-takografa-gecis-6-aylik-ertelendi-1471136 ; https://www.tgrthaber.com/ekonomi/turk-muhendislerin-yazilimiyla-surusler-daha-guvenli-olacak-2639836 ; https://www.teltonika-gps.com/tr/solutions/tachosync",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b20"
+ },
+ "critic:turkey": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Mandatory vehicle and equipment owner duties that hit many micro-firms: tachograph / SRC / K-yetki belgesi regime for small trucking and courier firms (UDHB K, L, D yetki belgeleri, annual renewal, driver SRC/psikoteknik)",
+     "first_search": "Karayolu Eşya Taşıma Yönetmeliği 2026 değişiklik yetki belgesi K1 K2 yenileme tahograf indirme zorunluluğu",
+     "why": "Coverage only has U-ETDS (rejected) and passenger vehicles; the freight authorisation-document regime (K1/K2/L1 yetki belgesi, 2025-26 amendments to Karayolu Taşıma Yönetmeliği, tachograph downloads) covers a huge number of sole-trader hauliers and taxi/dolmuş plate holders and was not screened."
+    },
+    {
+     "category": "Municipal and ministry licensing of small food and hospitality premises: İşyeri Açma ve Çalışma Ruhsatı, Gıda İşletme Kayıt/Onay, kafe-restoran, bakkal, fırın (Hijyen Eğitimi, yeni Gıda Kodeksi / Türk Gıda Kodeksi etiket and QR 'gıda sicil' rules)",
+     "first_search": "esnaf lokanta bakkal fırın 2026 yönetmelik değişikliği gıda işletme kayıt onay hijyen eğitimi belgesi zorunlu yeni uygulama",
+     "why": "Turkey has some of the densest small-food-business populations (bakkal, lokanta, fırın, pastane); only butchers and 'small food producers' were touched, with nothing on recurring duties like hygiene-training certificates, periodic water/analysis, Ticaret Bakanlığı fiyat etiketi and haksız fiyat (Haksız Fiyat Değerlendirme Kurulu) reporting."
+    },
+    {
+     "category": "Farmer and small agricultural-holding state programmes: Çiftçi Kayıt Sistemi (ÇKS) annual declaration, TARSİM insurance, destek başvuruları, hayvancılık (HAYBİS/TÜRKVET) ear-tag and birth/death notifications, organik tarım kayıtları",
+     "first_search": "ÇKS ürün beyanı 2026 son tarih küpeleme doğum ölüm bildirimi TürkVet çiftçi zorunlu bildirim yeni yönetmelik",
+     "why": "Millions of small farms must register crops and animals yearly in ÇKS/TürkVet to receive subsidies and insurance; coverage covers livestock transport and beekeepers only, not the core farm-level recurring notification duty (küpe, doğum/ölüm bildirimi, ÇKS beyan) or organic-certification record keeping."
+    },
+    {
+     "category": "Municipal and ministry rules for small manufacturers and shops: weights-and-measures / scale calibration, Ticaret Bakanlığı e-Ticaret (ETBİS) registration and Mesafeli Sözleşmeler duties for small online sellers, and consumer-complaint reporting (Tüketici Hakem Heyeti, Reklam Kurulu)",
+     "first_search": "ETBİS kayıt zorunluluğu küçük e-ticaret satıcı 2026 Ticaret Bakanlığı düzenleme ölçü ve ayar muayenesi tartı damga periyodik",
+     "why": "Law 6563 amendments (2022-2025) forced small online sellers and marketplaces to register in ETBİS and meet new liability rules; many small sellers face recurring ETBİS updates and 'Ticari Reklam' penalties. The coverage lists no e-commerce or measurement-instrument (ölçü ve ayar) periodic verification category, and scales are mandatory for every market, butcher and jeweller."
+    },
+    {
+     "category": "New 2024-2027 social-security and tax duties for micro-employers: SGK Güvence/İşe Giriş Bildirgesi changes, asgari ücret desteği ended, e-Defter/e-Belge geçiş thresholds, Esnaf Muaflığı / basit usul changes and Tax-on-Rent (kira geliri) declarations",
+     "first_search": "2026 basit usul vergi mükellefi e-defter e-belge zorunluluğu geçiş sınırı SGK işveren teşvik kaldırıldı mikro işletme yeni yükümlülük",
+     "why": "Annual wage minimum rounds, the 2025-26 end of some employer support schemes and new e-Defter and e-Arşiv thresholds for small firms create hard recurring deadlines; coverage hit only household employers under SGK and rejected generic e-invoicing, so micro-employer (1-5 staff) payroll-duty compliance for non-household small businesses is unexamined."
+    },
+    {
+     "category": "Hajj/umrah tour operators, small travel agencies (TÜRSAB A/B/C group), and tourist guides and rent-a-car firms",
+     "first_search": "seyahat acentesi belge yenileme teminat TÜRSAB 2026 Kültür ve Turizm Bakanlığı yönetmelik değişikliği rent a car yetki belgesi",
+     "why": "Turkey's tourism sector has thousands of small TÜRSAB agencies, guides and car-rental micro-firms with recurring Ministry (KTB) licence renewals, teminat (bank guarantee) tracking and, for hajj/umrah operators, Diyanet quota and manifest filing; only hotels and rentals were covered, with travel-agency API (circular 2026/4) listed as a weak sub-item."
+    }
+   ]
+  },
+  "tag": "w2b20"
+ },
  "discover:A:turkey": {
   "result": {
    "blocked_searches": 0,
@@ -318,5 +391,809 @@
    "searches": 28
   },
   "tag": "w2b19"
+ },
+ "discover:B:turkey": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Pansiyon, guest-house and small boutique-hotel owners (and their accountants) who use no PMS",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "alomaliye.com summary of circular 2026/1 (fetched): 'tüm konaklama tesisleri', deadline 15.05.2026, daily or monthly by the 15th, technical docs at tga.gov.tr/tesis-entegrasyon. https://www.alomaliye.com/2026/05/06/konaklama-tesisleri-icin-merkezi-turizm-veri-tabani-entegrasyonu-zorunlu-hale-getirildi/ ; https://www.alomaliye.com/2026/05/21/merkezi-turizm-veri-tabaninin-kullanilmasi-hakkinda-genelge/ ; konaklama vergisi: https://kpmgvergi.com/yayinlar/mali-bultenler/vergi/konaklama-vergisi-orani-11263-sayili-cumhurbaskani-karari-ile-yeniden-belirlendi/4483",
+     "existing": "Hotel PMS vendors (e.g. Sabee, https://www.sabeeapp.com/tga-integration) offer TGA integration for hotels. A manual Tesis Künye portal exists for facilities without a PMS (per a vendor blog; not confirmed from an official page). Competitor search 'Merkezi Turizm Veri Tabanı entegrasyonu pansiyon ön büro programı TGA' found no list of vendors serving small pensions.",
+     "known_mark": "new",
+     "name": "Monthly TGA / Merkezi Turizm Veri Tabanı reporting and konaklama vergisi for small pensions and guest houses without a PMS",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Ministry of Culture and Tourism circular 2026/1 (16 Apr 2026) under Law 2634 art. 11: daily API feed, or manual entry monthly by the 15th; 2025 data loaded once by 15 May 2026. Konaklama vergisi return every month, even when empty (1% until 31 Dec 2026).",
+     "trigger_note": "Fresh 2026 rule with a monthly recurring duty.",
+     "unchecked": "Whether the manual portal is free and workable for tiny pensions; penalties (the circular text gives none); how many unlicensed or non-PMS facilities exist; whether Tesis Künye and Belediye belgeli pansiyon fall inside scope; whether a Turkish small-hotel PMS already bundles it; whether KBS and TGA are one flow or two."
+    },
+    {
+     "buyer": "Oto servis, lastikçi, tamirhane and fuel-station service points that change engine oil (a very large number of micro workshops; count unverified)",
+     "category": "32. Motor oil change points and car-repair waste",
+     "evidence": "Provincial environment directorate guidance (MoYDeN şartlar ve üst yazı) https://webdosya.csb.gov.tr/v2/kirsehir/2026/01/MoYDeN-artlar-ve-st-Yaz-20260107093426.pdf ; TESK circular https://tesk.org.tr/resimler/2020164.pdf ; annual declaration guide https://webdosya.csb.gov.tr/db/samsun/menu/atik-motor-yagi-beyan-islemleri_20250320101217.pdf",
+     "existing": "Official ECBS portal (manual entry). Competitor search 'MoYDeN motor yağı değişim noktası izin belgesi oto servis yazılım program atık yağ bildirim' found no commercial tool or garage-software integration. Environmental consultancies (K06) sell multi-client waste tracking, but not this per-oil-change workflow.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "K06 (environmental-consultancy multi-client tracker) was rejected because Çevre Yazılım and others exist. This is a different buyer (garages) and duty (per-change MoYDeN filing); K06's rejection did not cover it.",
+     "name": "Motor-oil-change notification (MoYDeN) and waste declaration kit for small car-repair shops",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Atık Yağların Yönetimi Yönetmeliği (in force 2020): MoYDeN permit per branch, ECBS/Atık Yönetim Uygulaması registration, immediate notification of every oil change (plate, km, old and new oil quantity), change document to the owner, delivery of waste oil to an authorised collector, annual waste declaration 1 Jan-31 Mar.",
+     "unchecked": "Whether ECBS/MoYDeN has an API or only a manual form; whether servis programs (e.g. oto servis ERP vendors) already add MoYDeN; actual enforcement and fines; number of permitted points; waste-oil collectors as an alternative channel (they may already offer bundled paperwork); a 2026 update to the rule."
+    },
+    {
+     "buyer": "Owners and property managers of permitted holiday flats and villas; small management firms",
+     "category": "31. Short-term tourist rentals (Law 7464 permit holders) / 29. Short-term rentals",
+     "evidence": "https://www.lexpera.com.tr/mevzuat/kanunlar/konutlarin-turizm-amacli-kiralanmasina-ve-bazi-kanunlarda-degisiklik-yapilmasina-dair-kanun-7464 ; https://www.alomaliye.com/2026/08/18/belgesiz-konaklama-ilanlarina-siki-denetim/ (fetched) ; https://gonen.com.tr/wp-content/uploads/2024/03/GLO_Konutlarin-Turizm-Amaçli-Kiralanmasi.pdf",
+     "existing": "Airbnb lets hosts enter the permit number. Competitor search 'konut turizm amaçlı kiralama izin belgesi yazılım ev sahibi yönetim programı KBS bildirim Airbnb' found no host-side compliance software; the results were law-firm articles and Airbnb help pages.",
+     "known_mark": "new",
+     "name": "Short-term rental host compliance kit (Law 7464 permit, listing permit number, KBS guest ID, tax)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Law 7464 (in force 1 Jan 2024): e-Devlet permit, 100-day cap, 25% limit in buildings, inspection at least every two years; Ministry circular 2026/4 (14 Aug 2026): platforms and agencies may not list without permit and must integrate the verification API; KBS guest ID reporting under Law 1774 with the permit holder responsible; income-tax treatment as commercial earnings.",
+     "unchecked": "Whether KBS reporting is required for permitted homes in practice and how it is filed (portal vs web service); fine amounts (sources disagree: 100k TL to 1m TL); how many permits exist (new permits reportedly no longer issued); whether property managers already use channel managers with KBS; whether this is the same flow as the TGA feed above; the current inspection regime."
+    },
+    {
+     "buyer": "Small travel agencies (acentalar), local booking sites and channel managers that list accommodation",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.alomaliye.com/2026/08/18/belgesiz-konaklama-ilanlarina-siki-denetim/ (fetched)",
+     "existing": "Not searched for competitors; the buyer is mostly software-capable platforms.",
+     "known_mark": "new",
+     "name": "Verification-API integration for small travel agencies and listing intermediaries (circular 2026/4)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Circular 2026/4 of 14 Aug 2026: no electronic marketing or sale of a property without one of the four permit types; flagged listings must be removed completely; the Ministry's Data Verification System (API via tga.gov.tr facility-verify-api) must be integrated 'ivedilikle'.",
+     "unchecked": "Number of small agencies affected; whether they build in-house; any penalty amount; a competitor search was not run because the buyer is probably too technical and platform-sized."
+    },
+    {
+     "buyer": "Micro and small furniture, timber and paper exporters; wood suppliers; forest cooperatives",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://www.akib.org.tr/files/downloads/2025/11/2bd6055e7a9e4c2bd6055e7a9e4c2bd6055e7a9e4c2bd6055e.pdf ; https://www.aso.org.tr/uploads/attachments/AB Ormansızlaştırma Tüzüğü.pdf ; Ticaret Bakanlığı note https://ticaret.gov.tr/dis-iliskiler/yesil-mutabakat/ab-dongusel-ve-surdurulebilir-sanayi-politikalari/ab-ormansizlasmanin-onlenmesi-mevzuati/ormansizlasmanin-onlenmesi-tuzugu-basitlestirme-onerisi ; EMKOÜİB training noted in press",
+     "existing": "Global EUDR tools (Tracextech, Farmerline, Interu); competitor search 'EUDR yazılım mobilya ahşap ihracatçı coğrafi konum özen beyanı Türkiye KOBİ çözüm' found no Turkish-language SME product.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Same pattern as K04 (CBAM data pack for sub-tier suppliers) and K02; a different buyer and duty. The simplification proposal exempts downstream traders and lets low-risk-country primaries file a one-off declaration, which weakens the duty. Dates and scope may change again.",
+     "name": "EUDR geolocation and legality data pack for small Turkish wood, furniture and paper exporters and their forest suppliers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "EU Regulation 2023/1115 (EUDR): application 30 Dec 2026 for large and medium operators, 30 Jun 2027 for micro and small; Turkey classed low-risk (Implementing Reg 2025/1093); exporters must give the EU importer parcel polygons (above 4 ha) or points, harvest-date and legality evidence; cut-off 31 Dec 2020.",
+     "unchecked": "Whether the simplification text is final; how many micro and small Turkish wood and furniture firms export to the EU directly; whether EU buyers push data requests that justify paying; trade association tools."
+    },
+    {
+     "buyer": "Yapı kooperatifleri, tarımsal kalkınma and other small co-operatives run by volunteer boards",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.alomaliye.com/2026/04/24/kooperatifcilikte-dijital-donem-basliyor/ (fetched) ; https://www.alomaliye.com/2022/01/14/kooperatif-bilgi-sistemi-yonetmeligi/ ; https://www.muhasebetr.com/yazarlarimiz/evrenozmen/0266 ; https://www.alomaliye.com/2025/10/17/kooperatif-ve-ust-kuruluslarinin-denetimine-dair-yonetmelikte-degisiklik-17-10-2025/amp/",
+     "existing": "KOOPBİS itself is a state portal (e-Devlet login). Competitor search 'KOOPBİS kooperatif yönetim kurulu giriş yapı kooperatifi muhasebe programı genel kurul yazılımı' found no commercial co-operative software; the results were official and accountant pages.",
+     "known_mark": "new",
+     "name": "KOOPBİS board-liability data and general-assembly toolkit for small housing and agricultural co-operatives",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Kooperatifler Kanunu Kooperatif Bilgi Sistemi duty: board members must transfer registry, financial-statement, activity-report, general-assembly and member data (ID, share, payments) into KOOPBİS, deadline 26 Apr 2026, board members personally liable; the 17 Oct 2025 audit-regulation amendment; the external auditor's report must go to the general assembly or the accounts and release are invalid.",
+     "unchecked": "The recurring duty after the one-off load; whether the system already generates attendance lists and the state portal covers most needs; co-operative counts by type (60k+ co-operatives reportedly logged in, per an Ekonomi Gazetesi headline, unverified); willingness to pay; whether apartment-site software (K21, rejected) covers housing co-ops."
+    },
+    {
+     "buyer": "Galericiler (small used-car dealers)",
+     "category": "33. Used-vehicle dealers / 28. Professionals with AML reports",
+     "evidence": "https://www.alomaliye.com/2025/12/27/motorlu-kara-tasitlarinin-ticareti-hakkinda-yonetmelikte-degisiklik-27-12-2025/ ; https://hukukcularevi.com/masak-yukumlulukleri-idari-para-cezasi-kuyumcu-emlakci-galerici-avukat/ ; https://hukukcularevi.com/noterde-arac-satisi-odeme-masak-ikinci-el-tasit/",
+     "existing": "Dealer stock programs such as LUQU Oto Galeri (https://www.tamindir.com/windows/luqu-oto-galeri/); competitor search 'galerici programı oto galeri yazılımı MASAK kimlik tespiti noter satış e-Devlet araç stok' found none with MASAK or notary features. Trade-in is largely notary-led, so the MASAK burden may fall on the notary.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "known_note": "Adjacent to K05 (second-hand/scrap purchase register for Istanbul dealers) but a different buyer (vehicle dealers) and duty.",
+     "name": "Used-car dealer compliance bundle (yetki belgesi, MASAK identification, EİDS and listing rules)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Motorlu Kara Taşıtlarının Ticareti Yönetmeliği, amended 27 Dec 2025 and 29 Apr 2026; 5549 Law duties: identification, beneficial-owner check, suspicious-transaction report, 8-year retention; plate display in listings since 3 Feb 2025; EİDS authorisation.",
+     "unchecked": "Whether MASAK reporting by dealers is actually filed or sits with the notary; current status of the 6-month/6,000 km rule after 1 Jul 2026; the MASAK Online filing format; fines; competing dealer ERP vendors."
+    },
+    {
+     "buyer": "Small emlak offices and emlak danışmanları",
+     "category": "28. Notaries, land agents, real estate brokers",
+     "evidence": "https://www.alomaliye.com/2026/04/29/tasinmaz-ticareti-hakkinda-yonetmelikte-degisiklik-29-04-2026/ ; https://www.hukukihaber.net/tasinmaz-ticareti-hakkinda-yonetmelikte-degisiklik-1/amp",
+     "existing": "Real-estate CRM tools exist (not searched). The payment system is state-built, so the opportunity is thin.",
+     "known_mark": "new",
+     "name": "Real-estate agent compliance (yetki belgesi amendments, state payment system, MASAK)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Taşınmaz Ticareti Hakkında Yönetmelik amended 29 Apr 2026 (RG 33238): amend or renew the authorisation document within 10 days via the Bilgi Sistemi; new state payment system with simultaneous title and payment transfer, mandatory from 1 Jul 2026 (extendable by up to 3 months); MASAK duties.",
+     "unchecked": "Whether agents have recurring filing duties; final shape of the payment system; vendor landscape for emlak software; a competitor search was not run (score below 3)."
+    },
+    {
+     "buyer": "Prospective licensed grain stores",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://www.gzt.com/ekonomi/resmi-gazetede-yayimlandi-lisansli-depolara-dev-ayar-35-bin-ton-kapasite-ve-10-silo-sarti-geldi-4251161 ; https://www.foreks.com/haber/detay/6ac0678195016b5817e6487b/PICNEWS/tr/lisansli-depoculukta-ucret-tarifeleri-ve-sigorta-bedellerine-yeni-duzenleme-03-10-26/ ; https://www.dunya.com/ekonomi/lisansli-depoculukta-yeni-duzenlemeler-hayata-geciriliyor-haberi-836401",
+     "existing": "Not searched; the segment is 266 companies (press figure), well-capitalised.",
+     "known_mark": "new",
+     "name": "Licensed-warehouse (lisanslı depo) operators for grain and oilseed",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Hububat, Baklagiller ve Yağlı Tohumlar Lisanslı Depo Tebliği amendment (RG 14 Aug 2026, no. 33340): minimum 35,000 t per facility and paid-in capital TRY 20m-40m; Tarım Ürünleri Lisanslı Depoculuk Yönetmeliği amended 3 Oct 2026.",
+     "trigger_note": "Rejected on scale: the 2026 capital and capacity floors make the buyer a large firm (out of scope per definitions).",
+     "unchecked": "Whether transition provisions leave small existing stores in business; small-mill TMO duties not found."
+    },
+    {
+     "buyer": "Tüplü LPG bayileri (small)",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.lexpera.com.tr/mevzuat/tebligler/sivilastirilmis-petrol-gazlari-lpg-tuplerinin-piyasada-takip-edilmesine-iliskin-teblig",
+     "existing": "System is built by distributors; competitor search 'tüplü LPG bayi programı tüp takip sistemi bayi yazılımı' found no independent dealer software.",
+     "known_id": "K16",
+     "known_mark": "new",
+     "known_note": "Adjacent to K16 (fuel registers, rejected), different duty and buyer.",
+     "name": "Tüplü LPG dealer cylinder tracking (karekod) integration",
+     "score": 2,
+     "status": "weak",
+     "trigger": "LPG Tüplerinin Piyasada Takip Edilmesine İlişkin Tebliğ: distributors build and run the tracking system; dealers must connect and provide infrastructure.",
+     "unchecked": "Which distributors' systems are used; whether dealers have any duty beyond scanning; the number of dealers."
+    },
+    {
+     "buyer": "Jewellers and intermediaries",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports (also group A category 4, jewellers)",
+     "evidence": "https://hukukcularevi.com/kuyumcu-araci-kurulus-uyum-danismanligi-masak-kota-32-sayili-karar/ (snippet only)",
+     "existing": "unverified",
+     "known_mark": "new",
+     "name": "MASAK 'kuyumcu aracı kuruluş' quota decision item (18 Sep 2026 page)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Appears in a search snippet only: 'kuyumcu aracı kuruluş uyum danışmanlığı MASAK kota 32 sayılı karar' (hukukcularevi.com page dated 18 Sep 2026). Not opened.",
+     "unchecked": "Everything: the content was not opened and belongs to group A category 4 (gold and jewellery buyers); passed to the other worker."
+    },
+    {
+     "buyer": "Bakkal, market, kiosk and bar owners",
+     "category": "34. Tobacco and alcohol retail licences",
+     "evidence": "https://www.bloomberght.com/tutun-mamulleri-ve-icki-satis-belgelerinin-2026-bedelleri-belirlendi-3764990 ; https://www.lexpera.com.tr/mevzuat/tebligler/tutun-mamulleri-ve-alkollu-ickilerin-satisina-ve-sunumuna-iliskin-usul-ve-esaslar-hakkinda-46",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Tobacco and alcohol retail licence holders (annual fee and sale-place rules)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Tebliğ 2025/35 (RG 30 Dec 2025) sets 2026 fees; Tütün Mamulleri ve Alkollü İçkilerin Satışına ve Sunumuna İlişkin Usul ve Esaslar Hakkında Yönetmelik amended Sept 2023.",
+     "unchecked": "Whether a recurring report or inspection record exists beyond the annual fee; no new reporting duty found."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Nothing new beyond K16 for stations. LPG: tüplü LPG dealers are outside the EPDK licence regime; the distributor must build the cylinder tracking system (Datamatrix karekod, LPG Tüplerinin Piyasada Takip Edilmesine İlişkin Tebliğ) and the dealer only connects and supplies infrastructure, so the buyer is the distributor and the market is small. EPDK LPG licence regulation amended with effect from 1 Jan 2026 (affects licensed distributors only). Weak candidate logged.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Licensed-warehouse rules tightened: 14 Aug 2026 Resmî Gazete (33340) set a 35,000 t minimum per grain facility and TRY 20-40m minimum paid-in capital, and a 3 Oct 2026 amendment covers tariffs and insurance. This pushes the segment to large operators, so no small-firm buyer. No small-mill or TMO registration duty found. Logged as rejected.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "KOOPBİS (Kooperatif Bilgi Sistemi) is now live: board members must hold member, financial-statement, activity-report and general-assembly data in it, with the transfer deadline 26 Apr 2026, and board members carry personal liability. The Denetim Yönetmeliği was amended 17 Oct 2025. State system with no commercial wrapper found. Weak/unverified candidate logged.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Nothing new beyond K11/K01 on the billing side. 2026 changes seen: Sağlık Raporları Yönetmeliği (19 May 2026) moves reports to e-Nabız/e-Devlet; SGK Sağlık Uygulama Tebliği amended 17 Jan 2026. Medical-waste rules (2022) impose online-system delivery and MYK certification but no new small-clinic filing found. Could not confirm SBYS or MEDULA duties for small practices.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Pharmacies: nothing new beyond K11/K20. Precursors: the Kontrole Tabi Kimyasal Maddeler Yönetmeliği (2004) imposes event-based import/export permits with a 15-day post-shipment return to the Ministry and 5-year record keeping; no recurring annual filing found and the buyers are importers, not small shops. Logged as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "No new 2026 rule found for security or cleaning contractors. EGM ÖGG exam calendar and general alt-işveren law only. Nothing new beyond K10 and the generic labour rules.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Nothing new for small firms. Reported 25 Apr 2026 presidential decision repealing the 2005 mining permit regulation (unconfirmed from the gazette text); 2026 MAPEG tender fees; 1,702 sites suspended and 801 licences cancelled in 2026 (parliamentary answer). Contractor authorisation (YAMBİS) numbers are checked by the permitting authority. 'YİBF' not found. No small-supplier filing candidate identified.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Taşınmaz Ticareti Yönetmeliği amended 29 Apr 2026 (RG 33238): 10-day deadline to amend or renew the yetki belgesi through the Bilgi Sistemi and a new state payment system that makes title and payment change hands together, mandatory from 1 Jul 2026 with an extension of up to 3 months. MASAK duties for real-estate agents and car dealers (identification above TRY 185k, suspicious-transaction reports, 8-year retention). Weak candidates logged for agents and car dealers.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Strongest finding. Ministry circular 2026/1 (16 Apr 2026) created the Merkezi Turizm Veri Tabanı: all lodging facilities (or their PMS vendors) must feed Ministry web services, daily if integrated or monthly by the 15th if entered by hand, with 2025 data loaded once by 15 May 2026. Circular 2026/4 (14 Aug 2026) bars platforms and agencies from listing properties without a permit and requires them to integrate a permit data verification API. Law 7464 permit regime for tourism rentals (100-day rule, e-Devlet permit, inspection at least every two years). Konaklama vergisi is a monthly return even when empty, rate cut to 1% from 1 May 2026 to 31 Dec 2026 (Presidential Decision 11263).",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "EUDR: application dates are 30 Dec 2026 for large and medium operators and 30 Jun 2027 for micro and small; Turkey is low-risk (Implementing Reg 2025/1093); exporters do not file the declaration themselves, since the EU importer does, so the exporter's job is supplying parcel geolocation and legality data. Wood, furniture, paper, leather, rubber, coffee and soy are in scope. No Turkish-language SME tool found. Fish and food export certificates: no result, not verified. Related to K02/K04 only by pattern.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Short-term tourist rentals (Law 7464 permit holders)",
+     "found": "Home owners need an e-Devlet permit from the Ministry of Culture and Tourism. Rules found: 100-day cap, 25% limit in buildings with more than 3 units, unanimous owner approval, inspection at least every two years, KBS guest ID reporting (1774 Law, permit holder responsible), and the permit number must show on listings (circular 2026/4). Logged as a candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Motor oil change points and car-repair waste (Atık Yağların Yönetimi Yönetmeliği, MoYDeN)",
+     "found": "Any garage, station or service that changes engine oil needs an il müdürlüğü permit, must register in ECBS/UÇBS and notify each oil change at once through the MoYDeN module (plate, km, old and new oil quantity), hand the owner a change document, and make the annual waste declaration (1 Jan to 31 Mar). One permit per branch. No garage-software integration found. Strong candidate logged.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Used-vehicle dealers (Motorlu Kara Taşıtlarının Ticareti Yönetmeliği)",
+     "found": "Amended 27 Dec 2025 and 29 Apr 2026; yetki belgesi with chamber and tax registration and a professional qualification; the 6-month/6,000 km rule and the price-ad ban were extended to 1 Jul 2026 (current status unconfirmed); plate display in listings since 3 Feb 2025; EİDS e-Devlet listing authorisation. MASAK duties apply. Only generic dealer stock programs (LUQU Oto Galeri) found; none covers MASAK. Logged as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Tobacco and alcohol retail licences (Tarım ve Orman Bakanlığı)",
+     "found": "2026 licence fees set by Tebliğ 2025/35 (retail TRY 1,017-4,240; open-alcohol 6,792-17,704; wholesale 82,464) and Sept 2023 rule changes on sale locations. No new recurring reporting duty found. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Fishing vessels and small-scale fisheries (BAGİS, electronic logbook, support tebliği)",
+     "found": "Electronic logbook (BAGİS tablet) applies to vessels of 12 m and over; vessels under 12 m are covered by the 2024-2026 small-scale fisheries support tebliği, which collects catch data. No 2026 logbook rule for small boats found. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Medical waste producers (small clinics, dentists)",
+     "found": "Tıbbi Atıkların Kontrolü Yönetmeliği (2022 amendment): licensed carriers, online delivery system, MYK certificate for waste staff, 48-hour holding for producers under 1 kg per day. No filing duty specific to dental practices found. Unverified.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "akaryakıt bayi LPG tüplü gaz dağıtıcı EPDK yeni yönetmelik 2026 bayi yükümlülükleri",
+    "lisanslı depoculuk ürün senedi yeni düzenleme 2026 küçük depo hububat değirmen TMO",
+    "kooperatif denetim yönetmeliği 2026 Ticaret Bakanlığı kooperatif bildirim yükümlülüğü",
+    "özel muayenehane poliklinik SGK MEDULA e-Nabız SBYS zorunlu bildirim 2026",
+    "kısa dönemli kiralama konut turizm amaçlı kiralama izin belgesi 7464 yükümlülük 2026",
+    "MASAK kuyumcu emlak komisyoncusu şüpheli işlem bildirimi yeni tebliğ 2026",
+    "konaklama vergisi 2026 otel pansiyon beyanname KBS küçük pansiyon",
+    "özel güvenlik şirketi temizlik personel taşeron alt işveren yeni düzenleme 2026",
+    "yapı müteahhitleri YİBF taş ocağı ruhsat MAPEG yeni yönetmelik 2026",
+    "ahşap orman ürünleri su ürünleri ihracat EUDR Türkiye mobilya izlenebilirlik 2026",
+    "galerici ikinci el motorlu kara taşıtı ticareti yetki belgesi yönetmelik 2026",
+    "tütün bayii alkollü içki satış belgesi yeni yönetmelik 2026",
+    "konut turizm kiralama izin belgesi yazılım ev sahibi yönetim programı KBS",
+    "KOOPBİS kooperatif yönetim kurulu yapı kooperatifi programı",
+    "EUDR yazılım mobilya ahşap ihracatçı coğrafi konum Türkiye KOBİ",
+    "balıkçı teknesi av defteri elektronik av kayıt 2026",
+    "oto servis atık yağ atık akü beyan Çevre Bilgi Sistemi MOTAT 2026",
+    "tıbbi atık üreticisi diş kliniği muayenehane tıbbi atık takip bildirim",
+    "Merkezi Turizm Veri Tabanı entegrasyonu pansiyon ön büro programı TGA",
+    "MoYDeN motor yağı değişim noktası oto servis yazılım atık yağ bildirim"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b20"
+ },
+ "gapfill:turkey": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small independent rent-a-car firms and esnaf (about 5-30 vehicles), many of which list on marketplaces such as Yolcu360",
+     "category": "36. Car and vehicle rental firms (country-specific; also touches 18 transport operators)",
+     "evidence": "https://www.alomaliye.com/2026/08/15/motorlu-kara-tasitlarinin-kiralanmasi-hakkinda-yonetmelikle-ilgili-kapsamli-ozet-ve-sss/ ; https://www.alomaliye.com/2026/08/15/motorlu-kara-tasitlarinin-kiralanmasi-hakkinda-yonetmelik/ ; https://www.ekonomigazetesi.com/sektor-haberleri/arac-kiralamada-yetki-belgesi-zorunlu-oldu-85494 ; https://www.yeniasir.com.tr/yasam/2026/08/22/arac-kiralamada-yeni-donem-esnaf-durumdan-oldukca-memnun",
+     "existing": "Competitor search 'rent a car programı oto kiralama yazılımı yetki belgesi bilgi sistemi entegrasyon' found only generic rental back-office software (LISTRENT, SFIRent, Data Çözüm Rent A Car) with contract, maintenance and cash modules. None was seen mentioning the new Bilgi Sistemi integration, API or belge tracking. The Ministry portal is not yet built, so it could become a free state tool.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Rent-a-Car Yetki Belgesi and Fleet-Compliance Pack for Small Car-Rental Firms",
+     "score": 6,
+     "status": "promising",
+     "trigger": "Motorlu Kara Taşıtlarının Kiralanması Hakkında Yönetmelik (RG 33341, 15 Aug 2026): yetki belgesi required by 1 Jul 2027; fleet age, km and registration limits by 1 Jan 2028; 5-year record retention; deposit and damage rules; marketplaces must check the belge.",
+     "trigger_note": "Hard dated deadlines in 2027 with a one-year extension possible; the buyer group is a defined, previously unregulated esnaf population.",
+     "unchecked": "Renewal period, teminat and fine amounts; whether the Bilgi Sistemi will have an API or bulk upload; number of operators (no current count found; 2017 TOKKDER fleet estimate 330k vehicles is stale); Seviye 4 certificate availability; whether TOFED or TOKKDER offer member tools; whether big-fleet software vendors will add integration."
+    },
+    {
+     "buyer": "Small trucking firms (K1/L1 holders and sole-trader hauliers) and bus operators who now need tachographs and compliant data handling",
+     "category": "18. Transport operators: small trucking and bus fleets (country-specific 31 tachograph regime)",
+     "evidence": "https://hukukcularevi.com/takograf-zorunlulugu-takvimi-2026-2030/ ; https://www.alomaliye.com/2026/02/27/2918-sayili-karayollari-trafik-kanununda-degisiklikler-yeni-duzenlemeler-ve-cezalar/ ; https://www.seyirmobil.com/en/downloading-data-from-digital-tachograph ; https://hukukcularevi.com/surus-ve-dinlenme-sureleri-cezalari-2026-ktk-49/",
+     "existing": "Competitor search found Seyir Mobil offering remote download via TAVI or existing fleet trackers, plus other vendors (not named in the results) that analyse downloaded files. The market is not empty, but a low-cost done-for-you service for tiny fleets was not seen.",
+     "known_id": "K09",
+     "known_mark": "new",
+     "known_note": "Related to K09 (U-ETDS rejected) but a different duty and a different trigger; U-ETDS is a notification system and this is equipment, data download and driving-time compliance.",
+     "name": "Tachograph Download-and-Archive Service for Small Hauliers and Bus Firms (Law 7574)",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Law 7574 (Feb 2026) amending the Karayolları Trafik Kanunu: tachographs required by model year (2021+ by 31/12/2026, 2016-2020 by 31/12/2027, and so on), enforced at the next muayene; 75,000 TL fine for no tachograph, 10,000 TL for bad calibration, KTK m.49 fines for driving-time breaches; a regulation on retention and download is due within a year.",
+     "trigger_note": "A fresh law with dated deadlines and heavy fines, but equipment sales and fleet-tracking vendors already cover part of it.",
+     "unchecked": "Exact mandatory dates (two sources conflict); which vehicle classes are in scope; the implementing regulation's retention and download intervals; whether SGK or the Ministry will inspect operators; the number of newly affected small operators; pricing of existing vendors."
+    },
+    {
+     "buyer": "Bakkal, market, butcher, jeweller and bazaar vendors with electronic or mechanical scales; municipal ölçü ve ayar memurlukları",
+     "category": "33. Weights and measures, e-commerce and consumer-law duties",
+     "evidence": "https://www.alomaliye.com/2026/02/19/olcu-ve-olcu-aletleri-periyodik-muayeneleri-duyurusu/ ; https://www.alomaliye.com/2026/01/18/olcu-ve-olcu-aletleri-periyodik-muayeneleri-hakkinda-duyuru/ ; https://www.haberturk.com/hakkari-haberleri/116655166-hakkaride-olcu-ve-tarti-aletleri-denetleniyor ; https://www.alomaliye.com/2025/01/30/olcu-ve-olcu-aletleri-periyodik-muayene-basvuru-duyurusu/",
+     "existing": "No tracker software was found in the results. The state e-Devlet application and TSE portal cover filing. Scale suppliers and yetkili muayene servisleri likely remind their own customers.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Weighing-Instrument Stamp Renewal Tracker and Filing Service for Shops (Ölçü ve Ayar muayenesi)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "3516 Ölçüler ve Ayar Kanunu 15/c and the Tartı Aletleri Muayene Yönetmeliği: 2-year periodic inspection, application Jan-Feb of the year after the stamp expires through the Ministry site or e-Devlet; unstamped use fined at 5,811 to 116,230 TL per instrument (Hakkari report).",
+     "trigger_note": "A strong duty and a large buyer group, but the frequency is every two years and the value per shop is tiny; it fits better as a feature inside another product.",
+     "unchecked": "Number of instruments; whether yetkili servisleri already send reminders; whether the e-Devlet notice emails users; willingness to pay (very low-ticket, once every two years)."
+    },
+    {
+     "buyer": "Small fırın, pastane and home-scale packaged-food producers; label printers",
+     "category": "20/32. Small food premises and producers",
+     "evidence": "https://www.btso.org.tr/guncel/haberler-ve-duyurular/haber-duyuru-detay/60742 ; https://www.tesk.org.tr/resimler/2026095.pdf ; https://duzce.tarimorman.gov.tr/Belgeler/DUYURULAR/2026/Etiketleme_ve_Diger_Mevzuat_Duzenlemeleri.pdf",
+     "existing": "Label-design and printing houses and food-consultancy firms exist; no dedicated software seen.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Türk Gıda Kodeksi Label Conversion for Small Bakeries and Food Producers (31/12/2026 deadline)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "TGK Gıda Etiketleme ve Tüketicileri Bilgilendirme Yönetmeliği and Kılavuz amendments (10 Mar 2026): non-compliant labels cannot be on the market after 31/12/2026 regardless of shelf life; krema/kremsos naming, main-field-of-vision rules.",
+     "trigger_note": "One-off event (deadline 31/12/2026, less than 3 months after the research date), so a late build would miss it.",
+     "unchecked": "Whether small bakeries making unpackaged goods are in scope; any later extension; consultant pricing."
+    },
+    {
+     "buyer": "Small cattle, sheep and goat keepers",
+     "category": "31. Farmer and smallholder state programmes (TürkVet)",
+     "evidence": "https://www.mynet.com/karsta-hayvanlarin-kayit-ve-guncelleme-islemleri-ediyor-180101602580 ; https://www.alomaliye.com/2026/04/18/veteriner-biyolojik-urunler-ve-hayvan-tanimlama-ucretleri-tebligi/ ; https://www.ekonomist.com.tr/tarim/ciftcilerin-bekledigi-haber-geldi-2026-cks-donemi-acildi-64559",
+     "existing": "The state TürkVet and e-Devlet portals, plus ziraat odaları and ilçe müdürlükleri, do the filing. No private product found.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Livestock Holding Notification Reminder (ear tag, birth/death/movement) for Smallholders",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Hayvan Tanımlama ve Kayıt rules: death/zorunlu kesim within 30 days, birth within 6 months, movements within 7 days (sheep/goat text, unverified current validity); movement bans for non-reporters; ÇKS yearly declaration.",
+     "trigger_note": "Low willingness to pay and a state channel that is already free.",
+     "unchecked": "Current deadlines and fines; adoption of mobile reporting; willingness to pay among smallholders."
+    },
+    {
+     "buyer": "TÜRSAB agencies holding Diyanet umre contracts (a few hundred)",
+     "category": "35. Travel agencies and hajj/umrah operators",
+     "evidence": "https://www.alomaliye.com/2026/07/17/umre-sartnamesinde-sabit-teminat-uygulamasina-danistay-freni/",
+     "existing": "Not searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Umre Agency Guarantee and Diyanet Contract Filing Tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "2026-2027 Acenta Umre Şartnamesi: guarantee tied to pilgrim numbers (about 500 USD per pilgrim) after the Danıştay stay on a fixed 250,000 USD letter; Diyanet contract signing deadline 17 Jul 2026.",
+     "trigger_note": "A small, concentrated buyer group with a yearly but infrequent event.",
+     "unchecked": "Number of agencies, manifest filing portal, existing agency software, recurring annual cycle."
+    },
+    {
+     "buyer": "Sole traders and small firms selling through their own website or app",
+     "category": "33. Weights and measures, e-commerce and consumer-law duties",
+     "evidence": "https://www.ffkpartnerhukuk.com.tr/etbis-kaydi-kimler-icin-zorunludur-2026-guncel-rehber/ ; https://www.parasut.com/blog/elektronik-ticaret-sitelerinin-etbise-kayit-zorunlulugu ; https://www.ideasoft.com.tr/etbis-elektronik-ticaret-bilgi-sistemi-nedir-ve-nasil-kayit-olunur/",
+     "existing": "Ideasoft, Paraşüt and law-firm guides; e-commerce site builders handle QR placement.",
+     "known_id": "K14",
+     "known_mark": "new",
+     "known_note": "Registration is one-off and free; e-commerce platform vendors (Ideasoft, Paraşüt guides) already explain it. Marketplace-only sellers are out of scope. No recurring workflow found.",
+     "name": "ETBİS registration and QR upkeep for small online sellers",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Law 6563 ETBİS registration (free, eticaret.gov.tr, MERSİS and tax number, QR in site footer); fines for missing registration.",
+     "unchecked": "Any recurring ETBİS update duty; fine amounts."
+    },
+    {
+     "buyer": "Esnaf moved out of basit usul on 1 Jan 2026 (lokanta, goods trade, construction, vehicle repair, entertainment, intra-city transport)",
+     "category": "34. Micro-employer and small-taxpayer duties",
+     "evidence": "https://www.birgun.net/haber/vergide-yeni-donem-30-buyuksehirdeki-esnafin-bir-kismi-icin-sistem-degisiyor-652060 ; https://www.istiklal.com.tr/genel/belge-kolayligi-basit-usul-gercek-usul-1074985h ; https://www.ekonomigazetesi.com/ekonomi/basit-usulden-gercek-usule-gececek-mukellefler-belgelerini-kendi-oda-ve-birliklerinden-temin-edebilecek-65684",
+     "known_id": "K14",
+     "known_mark": "known",
+     "known_note": "Same buyer duty as K14/K18 (SME e-invoice and pre-accounting): Paraşüt, BirFatura, Faturaport and Sovos already sell to this group, and accountants do the books. Not re-checked.",
+     "name": "Basit usul to gerçek usul switch support for restaurants, repair shops and small traders in metros",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Presidential Decisions 10380 (8 Sep 2025) and 10679 (Dec 2025); e-arşiv for basit usul reported from 2027."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "18/31. Mandatory vehicle and equipment duties for small hauliers: K/L/D yetki belgesi regime and tachograph (UDHB, Law 7574)",
+     "found": "Karayolu Taşıma Yönetmeliği was amended 16 May 2026 (RG 33255): e-tebligat, seasonal-worker transport, vehicle registration, fines. No K1/K2 renewal change was found. Bigger find: Law 7574 (Feb 2026) amended the traffic law (KTK m.49) and makes tachographs mandatory by vehicle model year: 2021+ by 31/12/2026, 2016-2020 by 31/12/2027, 2011-2015 by 31/12/2028 and so on, enforced at the next muayene (one blog; another source gives different dates). Fines: 75,000 TL for no tachograph, 10,000 TL for bad calibration, 1,000-20,000 TL for driving-time breaches, and the operator can be fined too. The detailed rules on record retention and download are left to a regulation due within 1 year of the law. Seyir Mobil already sells remote tachograph download. U-ETDS stays rejected as K09.",
+     "status": "screened"
+    },
+    {
+     "category": "20/32. Small food premises: işyeri ruhsatı, gıda işletme kayıt/onay, hijyen eğitimi, label rules",
+     "found": "Kayıt/onay (2011 regulation) and Hijyen Eğitimi Yönetmeliği (2013) show no 2026 change. The one dated rule is the Türk Gıda Kodeksi labelling guide amendment (10 Mar 2026): products without compliant labels cannot be on the market after 31/12/2026 whatever their shelf life. It covers name and net quantity in the main field of vision, the 'aromalı' wording, and krema/kremsos naming. TESK circular 2026/95 passed it on to members. No exemption for small producers was found. This is a one-off deadline for many small producers, but each firm needs only a one-time label rework.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Farmer and smallholder state programmes: ÇKS, TürkVet ear tags and birth/death notifications, TARSİM",
+     "found": "The ÇKS window for production year 2026 ran 1 Sep to 31 Dec 2025. Registered farmers whose details are unchanged can declare via e-Devlet; others go to the il/ilçe müdürlüğü. For sheep/goat, an older amendment text gives 30 days for death, 6 months for birth and 7 days for movements (current validity unverified). Tebliğ 2026/2 (18 Apr 2026) sets ear-tag fees only. I found no new 2026 notification rule. The state portals (e-Devlet, TürkVet) and ziraat odaları dominate, and no private software angle appeared.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Weights and measures, e-commerce (ETBİS) and consumer-law duties for small shops and online sellers",
+     "found": "Weighing instruments have a mandatory periodic inspection (3516 Ölçüler ve Ayar Kanunu), with a 2-year stamp cycle. The application window is Jan-Feb of the year after the stamp expires, through the Ministry site or e-Devlet. The municipal ölçü ve ayar memurluğu handles small scales, TSE handles instruments over 2,000 kg, and yetkili muayene servisleri handle others. Fines are reported as 5,811 to 116,230 TL per instrument (Hakkari news) and the Ministry repeated its enforcement warning in its 2026 notices. No private tracking software was found. ETBİS covers sellers with their own website or app: free, via eticaret.gov.tr, with a QR code in the footer. Marketplace-only sellers are outside it. No new 2026 ETBİS rule was confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Micro-employer and small-taxpayer duties 2024-2027: basit usul to gerçek usul, e-belge, SGK incentives",
+     "found": "Presidential Decision 10380 (8 Sep 2025) moved basit usul taxpayers in metros and districts over 30k population to gerçek usul from 1 Jan 2026. It covers restaurants, goods trade and manufacture, construction, motor-vehicle repair, entertainment venues and intra-city passenger transport, but not barbers. Decision 10679 (Dec 2025) kept basit usul in villages under 2,000 population. Old basit usul documents had to be cancelled by 2 Feb 2026, and a GİB tebliğ lets switchers keep getting invoices from their chambers. Basit usul e-arşiv is reported to start in 2027 (589 VUK GT). TESK asked for a 3-year delay. SGK: the imalat-dışı employer premium discount was reduced, young-entrepreneur support was removed, and Law 7590 (31 Jul 2026) added a tourism premium support. Competitors are Paraşüt, BirFatura, Faturaport and Sovos (K14/K18), so this is judged covered.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Travel agencies (TÜRSAB), hajj/umrah operators, tourist guides",
+     "found": "No 2026 amendment to the Seyahat Acentaları Yönetmeliği was found; the last was 26 Jul 2024. The 2026-27 Diyanet Acenta Umre Şartnamesi required a fixed guarantee letter of about 250,000 USD, and the Danıştay 10th Chamber stayed that wording (reported 17 Jul 2026), so guarantees follow pilgrim numbers at about 500 USD per pilgrim. Guides were not searched (budget). This is a small, concentrated buyer group with a one-off contract-signing event.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Car and vehicle rental firms: new Motorlu Kara Taşıtlarının Kiralanması Hakkında Yönetmelik (RG 15 Aug 2026)",
+     "found": "Takes effect 1 Jan 2027. Existing firms must hold a yetki belgesi by 1 Jul 2027, and the fleet, age and km requirements apply from 1 Jan 2028. The Ministry may extend each by up to a year. Belge per business and per branch, issued by the ticaret il müdürlüğü through a Motorlu Kara Taşıtı Kiralama Bilgi Sistemi that the Ministry must build by 1 Jan 2027. Minimum fleet 10 (metro districts over 30k) or 5, with some in the firm's name. Vehicles at most 6 model-years old, under 180k km (300k for EV), with no heavy-damage record, valid muayene and traffic insurance. A Seviye 4 'kiralama danışmanı' vocational certificate is needed for the responsible person. Deposit caps of 3 days (up to 6-day rentals) or 7 days (7-29 days), refund within 7 days, an independent expert report for damage charges, contract records kept 5 years, and marketplaces must verify the belge. Fines under Laws 6563 and 6585. Not found: renewal period and teminat.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Karayolu Eşya Taşıma Yönetmeliği 2026 değişiklik yetki belgesi K1 K2 yenileme tahograf indirme zorunluluğu",
+    "esnaf lokanta bakkal fırın 2026 yönetmelik değişikliği gıda işletme kayıt onay hijyen eğitimi belgesi zorunlu yeni uygulama",
+    "ÇKS ürün beyanı 2026 son tarih küpeleme doğum ölüm bildirimi TürkVet çiftçi zorunlu bildirim yeni yönetmelik",
+    "ETBİS kayıt zorunluluğu küçük e-ticaret satıcı 2026 Ticaret Bakanlığı düzenleme ölçü ve ayar muayenesi tartı damga periyodik",
+    "2026 basit usul vergi mükellefi e-defter e-belge zorunluluğu geçiş sınırı SGK işveren teşvik kaldırıldı mikro işletme yeni yükümlülük",
+    "seyahat acentesi belge yenileme teminat TÜRSAB 2026 Kültür ve Turizm Bakanlığı yönetmelik değişikliği rent a car yetki belgesi",
+    "dijital takograf veri indirme yazılımı nakliyeci sürücü kartı 28 gün araç ünitesi 90 gün arşiv program",
+    "tartı aleti yıllık muayene ölçü ve ayar damgası esnaf bakkal kasap kuyumcu ceza 2026 periyodik muayene",
+    "TürkVet küpe doğum ölüm bildirimi süre idari para cezası hayvan işletme tescil yeni uygulama 2026",
+    "rent a car yetki belgesi yenileme zorunlu bildirim araç kiralama işletmeleri yönetmelik 2026 Ulaştırma Bakanlığı kiralama kayıt",
+    "rent a car programı oto kiralama yazılımı yetki belgesi bilgi sistemi entegrasyon Motorlu Kara Taşıtı Kiralama Bilgi Sistemi",
+    "basit usul kaldırıldı 2026 esnaf lokanta berber gerçek usul geçiş defter tutma muhasebe yükü Maliye Bakanlığı karar",
+    "Türk Gıda Kodeksi gıda etiketleme 31.12.2026 etiket uyum küçük üretici fırın pastane esnaf",
+    "Seyahat Acentaları Yönetmeliği değişiklik 2026 Resmi Gazete TÜRSAB acente belge iptal teminat hac umre organizatör Diyanet",
+    "takograf zorunluluğu Türkiye idari para cezası Karayolu Taşıma Yönetmeliği takograf kayıtları saklama süresi şirket kartı yetki belgesi sahibi",
+    "ölçü aleti muayene takip programı tartı damga hatırlatma yazılım esnaf market ölçü ayar bildirim e-devlet başvuru",
+    "Türkiye rent a car işletme sayısı yetki belgesi zorunluluğu esnaf RAC sektör TOFED şirket sayısı 2026",
+    "WebFetch alomaliye Motorlu Kara Taşıtlarının Kiralanması yönetmelik özet; WebFetch hukukcularevi takograf zorunluluğu takvimi 2026-2030"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b20"
+ },
+ "opus:turkey:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "State manual-entry channel: dunya.com describes the TGA-run 'Turizm Merkezi Veri Tabanı Sistemi', where facilities can enter data by hand. Sabee calls it the 'Tesis Künye' portal and says manual filers enter monthly in USD. Neither source states a fee, and no official page confirming the portal's details was reached: the tga.gov.tr/tesis-entegrasyon fetch returned only navigation. PMS vendors (e.g. SabeeApp) offer automated TGA integration. The circular obliges all software producers serving facilities to integrate, so Turkish pension programs are expected to bundle it. No HotelRunner or Elektraweb TGA page was found.",
+   "duty": "Kültür ve Turizm Bakanlığı Genelge 2026/1 (16.04.2026), based on 2634 s. Turizmi Teşvik Kanunu art.11 and 7183 s. TGA Kanunu. It covers all accommodation facilities and their software vendors. PMS-connected facilities report daily via the web service API; manual filers report monthly by the 15th. 2025 data had to be loaded once by 15.05.2026. Sabee says it took effect 16 June 2026. Neither the circular nor the news coverage states a penalty or sanction, so enforcement rests only on the general art.11 power. Konaklama vergisi (1%) monthly return: not re-checked in this session.",
+   "market": "Roughly 21,000 licensed accommodation facilities (Ministry-licensed plus basit konaklama, formerly 'belediye belgeli'), per older news citing Ministry data of 20,938 in total. A 2025 national total and a separate pension count were not found. The share without a PMS is unknown.",
+   "reason": "The duty is real. Circular 2026/1 (16.04.2026, Law 2634 art.11 and Law 7183) requires all accommodation facilities to report to the Merkezi Turizm Veri Tabanı: daily via a PMS API, or by hand monthly by the 15th. No specific penalty is stated. But the core job for pensions without a PMS is already covered by a state channel. Dunya.com says TGA's 'Turizm Merkezi Veri Tabanı Sistemi' lets facilities enter data by hand, and Sabee says the Tesis Künye portal does the same; neither source states a fee. Pensions that use a PMS get the integration from their vendor. Konaklama vergisi returns are routine accountant e-beyanname work handled by general tools. That leaves a thin wedge with weak enforcement and low willingness to pay.",
+   "searches": 6,
+   "sources": "https://www.alomaliye.com/2026/05/21/merkezi-turizm-veri-tabaninin-kullanilmasi-hakkinda-genelge/ ; https://www.alomaliye.com/2026/05/06/konaklama-tesisleri-icin-merkezi-turizm-veri-tabani-entegrasyonu-zorunlu-hale-getirildi/ ; https://www.dunya.com/sektorler/turizm/turizmde-verinin-gucuyle-yeni-donem-basliyor-haberi-825524 ; https://www.sabeeapp.com/tga-integration ; https://tga.gov.tr/tesis-entegrasyon ; https://www.cumhuriyet.com.tr/turkiye/muhittin-bocek-belgelendirme-ve-denetim-yetkisi-bakanlikta-2293424 ; https://www.alomaliye.com/2025/11/07/bakanlik-belgeli-konaklama-tesisi-istatistikleri-ekim-2025/",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b20"
+ },
+ "opus:turkey:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Free state MoYDeN/ECBS application does the per-change filing. Searches found no MoYDeN-integrated garage software and no public API. Generic servis takip programs found (OtoMix, Teknoasistan, BiServisim) do not mention MoYDeN. Lubricant brands such as Motul run permit trainings with consultancies. PETDER is the authorised waste-oil collector (its page did not load, so I could not check whether it bundles paperwork).",
+   "duty": "Atık Yağların Yönetimi Yönetmeliği (RG 21/12/2019 no. 30985, amended about 2023), in force. Duties: a MoYDeN permit for each location (the source summary says 5-year validity, unconfirmed); UCBS/ECBS registration; a notification in the MoYDeN application at the moment of every oil change; a change document to the vehicle owner; waste oil delivered to an authorised collector or refinery. Without a permit a business may not change oil. Penalties fall under Çevre Kanunu 2872; amounts not reached (the regulation PDF could not be parsed). Annual declaration timing (1 Jan-31 Mar) not independently re-checked.",
+   "market": "No register count of MoYDeN-permitted points found. The buyers are fuel stations, oto servis, tamirhane and lastikçi businesses that change oil, likely tens of thousands, but this is unverified.",
+   "reason": "The duty is real and still enforced. Atık Yağların Yönetimi Yönetmeliği (RG 30985, 21/12/2019) requires a free MoYDeN permit for each branch, registration in the ministry's system, a notification at the moment of every oil change (plate, km, quantities), a change document for the owner, and delivery of waste oil to an authorised collector. Provincial guidance from January 2026 confirms it still applies. I found no commercial tool or garage-software integration and no public API. However, the free state MoYDeN app already does the core filing, and each entry is short. PETDER, the central authorised collector, handles waste pickup. Fines exist under Çevre Kanunu 2872, but I did not find amounts. I also found no count of permitted points. The pain is low and willingness to pay is weak.",
+   "searches": 6,
+   "sources": "https://tesk.org.tr/resimler/2020164.pdf ; https://webdosya.csb.gov.tr/v2/kirsehir/2026/01/MoYDeN-artlar-ve-st-Yaz-20260107093426.pdf ; https://webdosya.csb.gov.tr/db/tokat/duyurular/moyden-il-md-d-kkat-ed-lmes--gereken-hususlar-20210108130929.pdf ; https://cevre.ibb.istanbul/wp-content/uploads/2024/07/Atik-Yaglarin-Yonetimi-Yonetmeligi-7.5.34051.pdf ; https://agid.org.tr/wp-content/uploads/2023/01/05_Gulsah-Reis.pdf ; https://www.petder.org.tr/en-US/toplama-projesi/1257575",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b20"
+ },
+ "opus:turkey:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no host-side compliance kit that combines KBS, permit and tourism share. KBS identity-reporting programs built for hotels and pensions exist: 3T Kimbil, LKBS Lider Kimlik Bildirim Sistemi and Kimlik Bildirim 2007 all generate KBS/AKBS XML. I did not confirm whether villa hosts can file through them or must use the police/gendarmerie KBS portal. Kira Takvimi (villa booking software with Airbnb and Booking sync) shows no KBS integration. Under circular 2026/4, platforms (Airbnb, Etstur and others) handle the permit-number check through the TGA API, so that part is not the host's problem. I did not check hotel PMS vendors with KBS modules (for example Elektraweb).",
+   "duty": "Law 7464 (in force 1 Jan 2024). A permit is required before any rental of 100 days or less (Art. 3(1)). Art. 3(8) applies Law 1774 identity reporting (KBS) to permitted homes and makes the permit holder responsible, so a filing is due for each guest. Art. 4 fines: 100k TL per unit for renting without a permit, then 500k TL, then 1m TL. Other fines: 100k TL for a missing plaque; 50k TL for ownership changes not reported within 30 days or tourism-share payment documents not submitted on time; 50k TL for not answering a Ministry information request within 30 days. The Ministry inspects and may delegate this to the governorship. I did not confirm the two-year inspection cycle in the claim, and the law text has no annual reporting duty. Circular 2026/4 (14.08.2026) obliges platforms and agencies, not hosts, to remove unpermitted listings and integrate the TGA facility-verify-api. I found no amount for the KBS non-reporting fine in the sources I read. I did not check the income-tax angle.",
+   "market": "I found no national permit count. TURVİB says about 16,000 villas applied in the Kaş/Kalkan/Fethiye area alone (ekonomim, July 2024), and many permits there were still not issued at that time. The national total of permit holders is unverified and probably in the tens of thousands. Buyers are concentrated in Muğla and Antalya villa clusters and in small management firms.",
+   "reason": "The duty is real. Law 7464, in force since 1 Jan 2024, requires a permit before any rental. Art. 3(8) applies the KBS identity-reporting law (1774) and makes the permit holder responsible. Fines run from 100k TL to 500k TL to 1m TL for operating without a permit, 100k TL for a missing plaque, and 50k TL for late ownership-change or tourism-share (turizm payı) filings. Circular 2026/4 (14 Aug 2026) makes platforms check permit numbers through the TGA API, but that falls on platforms, not hosts. I found no host-side tool that combines KBS, permit and tourism share. Hotel-style KBS programs exist (3T Kimbil, LKBS), and Kira Takvimi handles bookings without KBS. The only recurring host work is per-guest KBS and tourism share. I found no national permit count.",
+   "searches": 6,
+   "sources": "https://www.lexpera.com.tr/mevzuat/kanunlar/konutlarin-turizm-amacli-kiralanmasina-ve-bazi-kanunlarda-degisiklik-yapilmasina-dair-kanun-7464 ; https://www.alomaliye.com/2026/08/18/belgesiz-konaklama-ilanlarina-siki-denetim/ ; https://cnnturk.com/turkiye/turizm-amacli-gunluk-kiralamalarda-kimlik-bildirim-donemi-basladi ; https://www.ekonomim.com/sehirler/villa-turizmcilerinde-izin-belgesi-sorunu-artiyor-haberi-751862 ; https://www.tamindir.com/indir/3t-kimbil-kimlik-bildirim-yazilimi/ ; https://www.tamindir.com/indir/lkbs-lider-kimlik-bildirim-sistemi/ ; https://www.spendbase.co/tr/?p=22232",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b20"
+ },
+ "opus:turkey:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No product found that handles the permit or links to the Bilgi Sistemi. General Turkish rental software (Data Çözüm Rent A Car, Titarus, and others) offers contracts, fleet and accounting but nothing on the permit, integration or regulation-specific checks.\n\nThe main threat is that the Bilgi Sistemi itself is a free Ministry tool through which the permit is issued and vehicles are registered. That covers the core filing job. Existing rental software vendors could also easily add fields for vehicle age, mileage and permit status, and deposit-rule checks. No API or bulk upload has been announced.\n\nNot checked: whether the TOFED or TOKKDER associations offer member tools.",
+   "duty": "Real and in the law. The Motorlu Kara Taşıtlarının Kiralanması Hakkında Yönetmelik (Ministry of Trade regulation on motor vehicle rental) was published in Resmî Gazete 33341 on 15 Aug 2026 and takes effect on 1 Jan 2027. It covers merchants and esnaf (small tradespeople) who rent vehicles to consumers on short-term rentals. Rentals of 30 days or more, car sharing and camper rentals are excluded.\n\nKey requirements:\n- A yetki belgesi (operating permit) for each business and each branch. It is issued by the provincial trade directorate through the Motorlu Kara Taşıtı Kiralama Bilgi Sistemi, the Ministry's online system, which must be built by 1 Jan 2027.\n- Every rental vehicle must be registered in that system.\n- Existing firms must get the permit by 1 Jul 2027.\n- Minimum fleet, vehicle age (6 years), mileage (180k km, or 300k km for electric) and safety rules apply to existing firms from 1 Jan 2028. The Ministry can extend these deadlines by up to one year.\n- Minimum fleet: 10 vehicles in metropolitan districts over 30k population (at least 5 registered in the firm's name, and at least 2 hybrid or electric). Elsewhere: 5 vehicles (at least 2 in the firm's name).\n- The kiralama sorumlusu (person responsible for rentals) must hold a Seviye 4 (Level 4) vocational certificate.\n- Rental contracts must be kept for 5 years.\n- Cheques, promissory notes and guarantee letters may not be taken as deposits. Several outlets report a 7-day deposit refund deadline, which I did not confirm in the final text.\n- From 1 Jan 2028, listing platforms must check the permit before publishing a listing.\n\nPenalties are administrative fines under Laws 6563 and 6585; no amounts were found. Permit validity and renewal periods were not found. Every source I read was secondary; I did not open the Resmî Gazete text itself. Much of the work is a one-off application plus keeping the fleet up to date in a free state system.",
+   "market": "Sector representatives quoted in the press say roughly 1,500 to 2,000 short-term rental firms appear in official records, while trade chambers have about 15,000 to 16,000 businesses registered with rental activity. Many of those are side businesses (for example markets or barbers), which the regulation pushes out because only dedicated rental firms may rent. A realistic target is perhaps 2,000 to 6,000 dedicated small firms. This is an estimate; no official register count was found.",
+   "reason": "The duty is real, the deadlines are fixed and nothing commercial covers it yet. But the core filing (permit application and vehicle registration) runs through a free Ministry system that should be live by Jan 2027. What is left to automate is mostly a one-off permit project plus light fleet checks (age, mileage, minimum fleet mix, deposits) that existing rental software vendors can add cheaply. Recurring pain after 2027 is low, apart from keeping the fleet list current. The market is small and shrinking: about 2,000 formal firms, with many side-business renters leaving. A done-for-you service for permit and Seviye 4 certificate preparation before July 2027 could sell, but it is a short window. Fine amounts, renewal period and API availability are still unknown.",
+   "searches": 6,
+   "sources": "https://www.alomaliye.com/2026/08/15/motorlu-kara-tasitlarinin-kiralanmasi-hakkinda-yonetmelikle-ilgili-kapsamli-ozet-ve-sss/ ; https://www.capital.com.tr/haberler/tum-haberler/arac-kiralama-sirketlerine-yetki-belgesi-zorunlulugu-getirildi ; https://www.ekonomigazetesi.com/sektor-haberleri/arac-kiralamada-yetki-belgesi-zorunlu-oldu-85494 ; https://www.milliyet.com.tr/7642311 ; https://www.gazetebirlik.com/gundem/ticaret-bakanligindan-arac-kiralama-duzenlemesi-mesleki-belge-sart-mi-minimum-arac-sayisi-kac-724-hizmet-zorunlu-mu/948658 ; https://www.yeniasir.com.tr/yasam/2026/08/22/arac-kiralamada-yeni-donem-esnaf-durumdan-oldukca-memnun ; https://www.tamindir.com/indir/rent-a-car/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b20"
+ },
+ "opus:turkey:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Mobiliz Tachowise does remote, automatic download and reporting of tachograph and driver-card data, plus driving-time violation detection, and references AETR and the Turkish rules. Teltonika TachoSync is a paid cloud service with credit-based pricing, remote company-card authentication and scheduled downloads; Teltonika's older WEB TACHO is end-of-life as of mid-2026. Seyir Mobil offers remote download (cited in the claim). TGRT Haber reports a Turkish-developed remote download cable plus a web archive for STAUM. None of these vendors publishes prices. No low-cost done-for-you service aimed at micro-fleets was found. Arvento's tachograph offer was not checked.",
+   "duty": "Law 7574 (Resmi Gazete 27/02/2026) amending 2918 KTK. Art. 31(1)(b) requires tachographs on goods vehicles over 3,500 kg and on passenger vehicles over 3,500 kg with more than 17 seats. Geçici Madde 27 sets the phase-in at the first muayene after: 31/12/2026 for 2021+ models, 2027 for 2016-20, 2028 for 2011-15, 2029 for 1996-2010, and 2030 for 1985-95. Two clarifications: (1) The claim's conflict is resolved. The EGM news piece (dated 22/02/2026, before the law was published) said \"new registrations only\". The enacted text says the phase-in also covers existing vehicles by model year. (2) The one-year grace period applies only to urban and metropolitan passenger transport and official vehicles. Fines: 75,000 TL for no device or not using it; 3,000 TL for usage breaches; 10,000 TL for calibration breaches; 20,000 TL for breaking record-retention rules; 1,000-20,000 TL for driving-time and rest breaches under Art. 49, doubled when the driver is also the operator (işleten). The operator must supervise compliance. Retention and download intervals will be set by a joint Interior and Transport Ministry regulation due within one year of publication. That regulation was not found as issued, and the intervals were not verified. The Labour Ministry may check working hours using the Transport Ministry database.",
+   "market": "Not found. No source in this session gave the number of vehicles or operators affected. The scope is trucks and tractor units over 3.5 t and buses with more than 17 seats; many international hauliers already comply under AETR. Turkish truck and bus fleets are large and mostly held by small firms, but no TÜİK or UND figure was retrieved (not reached).",
+   "reason": "The duty is real. Law 7574 amends KTK Art. 31 and 49. It requires tachographs on goods vehicles over 3.5 t and on passenger vehicles over 3.5 t with more than 17 seats, phased in by model year at the first muayene after each date: 2021+ from 31/12/2026, 2016-20 from 2027, through 1985-95 from 2030. Fines are 75,000 TL for no device, 10,000 TL for calibration, 20,000 TL for breaking record-retention rules, and 1,000-20,000 TL for driving-time breaches, with the operator (işleten) also liable. The retention and download rules are still pending a joint regulation due by about Feb 2027, so the recurring workflow is undefined. Competitors already do the core job: Mobiliz Tachowise, Teltonika TachoSync and Seyir Mobil. Only a cheap done-for-you service for tiny fleets is untested. The count of affected small fleets was not found.",
+   "searches": 5,
+   "sources": "https://www.alomaliye.com/2026/02/27/2918-sayili-karayollari-trafik-kanununda-degisiklikler-yeni-duzenlemeler-ve-cezalar/ ; https://hukukcularevi.com/takograf-zorunlulugu-takvimi-2026-2030/ ; https://www.karar.com/guncel-haberler/emniyetten-arac-sahiplerine-takograf-uyarisi-2031176 ; https://mobiliz.com.tr/en/efficiency-2/takograf-nedir-surus-surelerinden-ceza-riskine-kadar-bilmeniz-gerekenler/ ; https://mobiliz.com.tr/en/faq/answer/digital-tachograph-solution-what-is-tachowise-what-does-it-do ; https://www.teltonika-gps.com/tr/solutions/tachosync ; https://www.teltonika-gps.com/tr/solutions/web-tacho ; https://www.tgrthaber.com/ekonomi/turk-muhendislerin-yazilimiyla-surusler-daha-guvenli-olacak-2639836",
+   "suggested_score": 5,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b20"
+ },
+ "sonnet:turkey:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Dijipark Dijital Dernek Programı 2.0, Dernek Yönetim Sistemi (tamindir listings), DERBİS (free state portal)",
+   "duty": "Law 5253 art. 19 and Yönetmelik art. 83: annual declaration by 30 April via DERBİS and on paper, with a fine (about 11,977 TL in 2025; 2026 amount not confirmed)",
+   "market": "About 114,218 active associations (Bianet citing DERBİS, undated); 88,852 active in 2011 (AA report, per memurlar.net)",
+   "reason": "The duty is real: Law 5253 art. 19 and Dernekler Yönetmeliği art. 83 require an annual declaration in the first four months of the year (30 April), filed through DERBİS, with an administrative fine for failure. The fine was about 11,977 TL in 2025, and the other figure of 15,000 TL is undated. About 114k active associations exist (Bianet citing DERBİS; undated). Competition is weak but present: cheap desktop dernek software (Dijipark, others) on tamindir download sites, with no DERBİS integration found, and DERBİS is the free state portal. Volunteer treasurers have low willingness to pay and the buyers are fragmented, and the declaration is only once a year. Only 3 searches were run, so vendor coverage is not exhaustive.",
+   "searches": 3,
+   "sources": "https://www.tamindir.com/indir/dernek-yonetim-sistemi/ ; https://www.tamindir.com/indir/dijipark-dijital-dernek-programi-20/ ; https://bianet.org/haber/icisleri-bakanligi-dernek-uyelerinin-bilgilerini-toplayacak-202093 ; https://www.siviltoplum.gov.tr/kurumlar/siviltoplum.gov.tr/IcSite/amasya/Dernek-Rehberlik-/DERNEK-BEYANNAMESI-FORMUNU-DOLDURMA-REHBERI.pdf ; https://alomaliye.com/wp-content/uploads/2025/01/2025-dernekler-guncel-para-had-mueyyideler-ipc.pdf ; https://www.hukukihaber.net/derbis-sistemi-uzerinden-derneklerde-valiliklere-yillik-bildirimin-yollanmamasi-halinde-1500029-tl-idari-para-cezasi-kesilir/amp",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b20"
+ },
+ "sonnet:turkey:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Jewellers are obliged parties under Law 5549. Reported rules: ID check at 185,000 TL and above, suspicious-transaction report within 10 working days, 8-year record retention. Fines are per violation, with a base of 30,000 TL for ID and 50,000 TL for reporting, revalued yearly. The exact 2026 amounts are unconfirmed, because the official table is an image; the 284k and 474k TL figures come only from a law-firm blog. No MASAK-specific jeweller product turned up (Cetasoft and MacGold list no such module), but ERPs may bundle it. The weak points are the thin value of the log itself, a fragmented and traditional buyer base, no jeweller count found, and a likely bundling competitor. Buyers also have little reason to keep an 8-year log unless inspected.",
+   "searches": 3,
+   "sources": "https://www.alomaliye.com/2026/01/19/masak-2026-yili-idari-para-cezalari/ ; https://hukukcularevi.com/masak-yukumlulukleri-idari-para-cezasi-kuyumcu-emlakci-galerici-avukat/ ; https://www.tamindir.com/indir/cetasoft-kuyumcu-programi-2005/amp/ ; https://www.milliyet.com.tr/ekonomi/3-sektore-kara-para-uyarisi-7327746",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b20"
+ },
+ "sonnet:turkey:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "ASENOVO; AsTakip; Asansis",
+   "reason": "The duty is real, but the claim that no product exists is wrong. A search for lift-specific software found three: ASENOVO, which covers maintenance, revision quotes and inspection tracking and is described in a LinkedIn post; AsTakip, an app store listing with signable maintenance forms; and Asansis, an \"Asansör Takip ve Raporlama Sistemi\" app. These are vendor claims and I did not verify them independently. Duty: the maintenance contract is mandatory, the periyodik kontrol is done by A-type bodies, and administrative fines apply under the 2025 amendment. The regulation was split into two, so the old 2015 text is repealed, and the colour label rules were not confirmed from a primary source. Market: about 477k lifts in 2016 and about 2.8k to 3.1k firms with CE or HYB certificates, per an old EMO document. Small maintenance firms are accessible, but the market is crowded and the ATS state system exists.",
+   "searches": 3,
+   "sources": "https://apps.apple.com/py/app/astakip/id6751758153 ; https://apps.apple.com/py/app/asansis/id6467523470 ; https://www.alomaliye.com/2025/08/05/asansor-periyodik-kontrol-yonetmeliginde-degisiklik-05-08-2025/amp/ ; https://hukukcularevi.com/asansor-periyodik-kontrol-etiket-bina-sorumlusu/ ; https://www.emo.org.tr/ekler/e1a149b15176543_ek.pdf ; https://www.alomaliye.com/2016/03/16/asansor-takip-sistemi-ile-etkin-denetim/",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b20"
+ },
+ "sonnet:turkey:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "none found (EKİPNET is the state module for inspectors; no owner-side reminder product located)",
+   "duty": "Periodic inspection of Annex-III work equipment by authorized persons, usually yearly; İSG-KATİP contract at least 1 day before; records kept; mobile equipment carries its last report.",
+   "market": "not found (no register count of equipment owners located)",
+   "reason": "Duty is real: Work Equipment Regulation amended 23 Dec 2025 (RG 33116). Periodic control applies only to Annex-III equipment, usually yearly for forklifts and air tanks. The İSG-KATİP contract is signed between employer and inspector at least 1 day before the inspection. The official EKİPNET module sits inside İSG-KATİP. Penalties fall mainly on the authorized inspector, not the owner. Competition could not be settled. Three Turkish searches found no reminder-only product, but also no vendor survey. The OSGB, CMMS and inspection-firm reminder question is open. The market count is not found. Likely buyers are small, low-willingness-to-pay, and the inspector or OSGB already books the inspection. The score stays at 3.",
+   "searches": 5,
+   "sources": "https://csgb.gov.tr/isggm/duyurular/24122025/ ; https://www.alomaliye.com/2025/12/23/is-ekipmanlarinin-kullaniminda-saglik-ve-guvenlik-sartlari-degisiklik-23-12-2025/ ; https://www.kiwa.com/tr/tr/hizmetler/muayene/periyodik-muayene-hizmetleri/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b20"
+ },
+ "sonnet:turkey:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty exists: households must register each day worked for under-10-day domestic workers through e-Devlet, and the Cott Group page matches the claim. I found no current fine amount for this regime. The same-day rule comes from a practice guide, not statute, so it is not firmly sourced. The e-Devlet screens and the older SMS route (5510) already do the filing. A 2017 Webrazzi article shows Temizlikyolda, a cleaning platform, integrated the SMS system, so a partial competitor exists. I found no dedicated reminder app. Searches were only 2, and I opened no pages; the search summaries relied on mostly old news (2016-2019). The market is a large number of households, but each files only a few days a month, so willingness to pay is weak. A reminder is a thin feature and the buyer is hard to reach. The premium helper adds little beyond a free state calculator.",
+   "searches": 2,
+   "sources": "https://www.cottgroup.com/en/component/zoo/item/ev-islerinde-10-gunden-az-calisanlarin-sigortalanmasi-ve-primlerin-odenmesi ; https://webrazzi.com/2017/04/07/temizlikyolda-sgknin-kisa-mesajla-gunluk-sigorta-sistemini-entegre-etti/ ; https://cnnturk.com/ekonomi/turkiye/bir-sms-yeterli-959-liraya-kadar-devlet-oduyor-907932",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b20"
+ },
+ "sonnet:turkey:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Circular 2026/4 (14 Aug 2026) bars electronic marketing or sale without one of four permit types. It requires full removal of flagged listings and urgent integration of the Ministry's verification API. Penalties are only \"administrative sanctions\", with no amounts, and no calendar deadline. The API is a free state tool with public docs (Basic auth, GET /document-list, POST /publication-notifications). It is aimed at platforms and agencies' own software, so the buyers are mainly software vendors, channel managers and OTAs that build it in-house. Small agencies rarely list property, and I found no competitor product. The buyer count was not verified: roughly 7,000 agencies is an undated, probably old figure. The market is thin, it is a one-off integration, and willingness to pay is low. Only a niche, such as a middleware or connector for small channel managers, is plausible.",
+   "searches": 3,
+   "sources": "https://www.alomaliye.com/2026/08/18/belgesiz-konaklama-ilanlarina-siki-denetim/ ; https://facility-verify-api.tga.gov.tr/docs ; https://www.alomaliye.com/2026/10/07/belgesiz-konaklama-ilanlarina-gecit-yok-platformlar-ilanlari-tamamen-kaldiracak/ ; https://www.alomaliye.com/2026/05/21/merkezi-turizm-veri-tabaninin-kullanilmasi-hakkinda-genelge/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b20"
+ },
+ "sonnet:turkey:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The EUDR (Reg. 2023/1115) is EU law, not Turkish law. It reaches Turkish firms only through EU buyers' data requests. Amending Reg. 2025/2650 (in force 26 Dec 2025) sets application at 30 Dec 2026 for large and medium operators and for micro/small firms already under the EU Timber Regulation, and 30 Jun 2027 for other micro/small firms. The Commission ruled out further delay. The simplification cuts the duty: downstream operators and traders only collect and keep references, and micro/small primary operators file a one-off declaration. Turkey's low-risk classification is only in a law-firm source; I did not check it against the EU act. Global vendors cover the job (Tracextech, Sourcemap, osapiens, Trustrace); I found no Turkish SME product. The Turkish market is not sized, and no per-firm count was found. The duty is weak and indirect, with global competition and a diffuse buyer.",
+   "searches": 3,
+   "sources": "https://www.cece.eu/news/eu-deforestation-regulation-eudr-targeted-revision-officially-published ; https://hlc.com/en/publications/eu-deforestation-regulation-commission-publishes-simplification-package-ahead-of-december-2026 ; https://ticaret.gov.tr/dis-iliskiler/yesil-mutabakat/ab-dongusel-ve-surdurulebilir-sanayi-politikalari/ab-ormansizlasmanin-onlenmesi-mevzuati/ormansizlasmanin-onlenmesi-tuzugu-basitlestirme-onerisi ; https://osapiens.com/?p=21239 ; https://www.sourcemap.com/blog/eudr-milestone-sourcemap-goes-live-with-eu-traces-and-sap-integrations",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b20"
+ },
+ "sonnet:turkey:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The KOOPBİS duty is real. The Kooperatif Bilgi Sistemi Yönetmeliği requires document upload before the general assembly and a general-assembly record within 5 working days after it. The data-load deadline was 26 Apr 2026. Late or missing uploads can expose board members to penalties, per a search summary. The fetched alomaliye article gave no penalty or liability text, so the personal-liability claim is unverified. I found no commercial co-op software, but the state portal covers the filing itself. Market: 49,475 co-operatives are registered, but only about 9,900 are active (Nov 2025), and the Trade Ministry covers 11,660. Volunteer boards pay little, and the one-off load is over. I found no housing or agricultural split. The score is low because of the small active base, low willingness to pay and a thin recurring job.",
+   "searches": 2,
+   "sources": "https://www.alomaliye.com/2026/04/24/kooperatifcilikte-dijital-donem-basliyor/ ; https://www.alomaliye.com/2022/01/14/kooperatif-bilgi-sistemi-yonetmeligi/ ; https://www.alomaliye.com/2025/12/23/turkiyede-49-bini-askin-kooperatif-var-kayitli-ortak-sayisi-4-67-milyona-ulasti/ ; https://esnafkoop.ticaret.gov.tr/data/670cc06f13b876dc68d93013/Kooperatif%20B%C3%BClteni%202026%20Ocak.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b20"
+ },
+ "sonnet:turkey:B7": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "LUQU Oto Galeri, Hursoft Oto Galeri Takip and ProGaleri cover stock and accounts but show no MASAK or EİDS features. No dedicated compliance tool found.",
+   "duty": "Law 5549 identification, beneficial owner, suspicious transaction report and 8-year retention; Ministry of Trade authorisation certificate; EİDS verification of listings.",
+   "market": "About 80,000 dealers (2020 association estimate, not official). 84,804 certificates issued cumulatively per the Ministry of Trade (June 2026).",
+   "reason": "The duties are real. Used-car dealers are obliged parties under Law 5549 art. 2 and the Measures Regulation art. 4. They must identify customers, check beneficial owners, report suspicious transactions within 10 business days, and keep records 8 years. The page also gives an identification threshold of 370,000 TL, updated Oct 2026. The Ministry of Trade authorisation certificate is mandatory, with 84,804 certificates issued cumulatively (June 2026) and 305m TL in fines for trading without one. EİDS verification applies to listings. The Dec 2025 amendment moved the deadlines to 1 Apr 2026 and 1 Jul 2026. Stock programs (LUQU, Hursoft, ProGaleri) show no MASAK or EİDS features. Weaknesses: MASAK dealer duties are mostly per-sale paperwork with no recurring filing, and the notary also identifies the parties. The page gives no fine amounts. Dealers are a low-spend, fragmented segment. Not checked: the MASAK Online filing format, the status of the 6-month/6,000 km rule after 1 Jul 2026, and dealer ERP vendors beyond the three above.",
+   "searches": 4,
+   "sources": "https://hukukcularevi.com/noterde-arac-satisi-odeme-masak-ikinci-el-tasit/ ; https://www.alomaliye.com/2025/12/27/motorlu-kara-tasitlarinin-ticareti-hakkinda-yonetmelikte-degisiklik-27-12-2025/ ; https://www.birgun.net/haber/ticaret-bakanligi-ndan-yetki-belgesiz-arac-ticaretine-305-milyon-lira-ceza-718266 ; https://www.takvim.com.tr/ekonomi/2026/04/29/lise-sartina-revize-ilkokul-mezunlari-da-oto-galerici-olabilecek-resmi-gazetede-yayimlandi ; https://www.tamindir.com/windows/luqu-oto-galeri/ ; https://www.arabam.com/yardim/eids-bireysel",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b20"
+ },
+ "triage:turkey": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Small associations' annual declaration duty; new buyer group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Jeweller MASAK ID and STR duty; new, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Lift maintenance firms and building managers inspection duty; K21 is site-management software, a different duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Work-equipment periodic inspection calendar for small workshops, new Dec 2025 rule; K10 is OSGB software, a different buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "One-year conversion window for child-club operators; deadline makes many small operators act."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Phased camera, tracking and panic-button mandate for passenger vehicle owners; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Households as employers, daily SGK notification; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Migratory beekeepers' registration and movement paperwork; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Vet clinic e-prescription and drug trace; K11 is pharmacies, a different buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Private employment bureaus' quarterly İŞKUR reporting; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Small waste haulers' UATF and licence tracking; K06 is consultancies, a different buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Livestock transport VSR and TÜRKVET duty; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Small money changers' ID-check duty; new buyer group, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Driving schools hold MEB reporting duties; weak but unsure, so keep for verification."
+    },
+    {
+     "decision": "known",
+     "id": "A15",
+     "reason": "Same Istanbul scrap/second-hand dealers and purchase register duty as K05.",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Monthly tourism data and accommodation tax for small pensions; new, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Garages' per-oil-change MoYDeN notification; different buyer and duty from K06."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Short-term rental hosts' permit and KBS duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small agencies and intermediaries must integrate the verification API by circular; new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small wood exporters' EUDR data duty; different buyer from K04."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Co-operative boards' KOOPBİS data duty with deadline; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Used-car dealers' licence and compliance duties; different buyer from K05 and A2."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small real-estate offices' authorisation and payment-system duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "LPG cylinder dealers' tracking duty; K16 is fuel registers, a different duty."
+    },
+    {
+     "decision": "merge",
+     "id": "B11",
+     "reason": "Jeweller MASAK compliance, same buyer and duty as A2; only a search snippet.",
+     "ref": "A2"
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Tobacco and alcohol retail licence holders' recurring fee and sale rules; new, unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Small rent-a-car firms' new licence and fleet duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Tachograph data duty for small hauliers; different from K09 U-ETDS."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Shops' recurring biennial scale stamp inspection; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Label conversion deadline of 31/12/2026 hits many small food producers at once."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Smallholder livestock notification duties; different duty from A12 transport."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Umre agencies' guarantee and contract filing; small professional offices, weak but keep."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS7",
+     "reason": "Out of scope: one-off free registration with no deadline or recurring workflow; the candidate itself found none."
+    }
+   ]
+  },
+  "tag": "w2b20"
  }
 }

@@ -1,0 +1,1079 @@
+{
+ "critic:south-korea": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Taxi, 개인택시 and 화물 운수 licensing: 운수종사자 / 택시 운송비용 전가금지, 택시 미터 and 개인택시 면허 renewals",
+     "first_search": "개인택시 개인화물 운송사업자 의무 보수교육 자격유지 신고 갱신 소상공인",
+     "why": "Korea has ~160k individual taxi owner-operators and ~400k 개인화물 truck owners who are sole traders with recurring duties (운행기록, 자동차검사, 택시 서비스평가, 화물운송종사자 보수교육, 운수종사자 자격유지). Coverage 18 only touched tachograph and says 'nothing new'; K04/K14 cover only freight rates and performance reports."
+    },
+    {
+     "category": "Small-business tax and e-invoice duties for sole traders: 전자세금계산서 의무발행 (개인사업자 기준금액 인하), 간이과세 변경, 현금영수증 의무발행업종, 사업장현황신고 (면세사업자)",
+     "first_search": "2026 개인사업자 전자세금계산서 의무발행 기준 변경 간이지급명세서 매월 제출 소규모 자영업자 가산세",
+     "why": "Mandatory, recurring, deadline-driven duties for ~7M 자영업자 and changed thresholds in 2024-2027 (전자세금계산서 의무 기준 8천만원, 현금영수증 의무발행 업종 확대). Coverage excluded generic accounting but never checked the specific mandated filings (e.g. 면세사업자 사업장현황신고, 일용근로소득 지급명세서, 간이지급명세서 monthly) as a regulatory-duty category; may overlap with K16 labour reporting but not for non-construction firms."
+    },
+    {
+     "category": "Private hagwon/childcare/elderly facility small-operator registers: 어린이집 (home daycare) 보육통합정보시스템, 노인요양시설·주야간보호센터 (long-term care) 및 장애인활동지원기관 e-billing, 학원 수강료 징수 and 교육청 정보공시",
+     "first_search": "가정어린이집 원장 의무 보고 보육통합정보시스템 CCTV 안전공제회 가입 연간 점검 2026",
+     "why": "Very large number of tiny operators (가정어린이집 ~13k, 주야간보호센터 ~5k, 학원 ~70k) with mandatory ministry registers, annual 평가인증/정보공시, 안전교육 and CCTV duties; the pass only touched 방문요양 RFID and 교습소 reward, and 어린이집 only via indoor air."
+    },
+    {
+     "category": "Short-term lodging and 농어촌민박 / 공유숙박 / 캠핑장 licensing: 농어촌민박사업 신고, 야영장업 등록 and 소방·안전점검, 숙박업 위생교육",
+     "first_search": "야영장업 등록 안전점검 의무보험 가입 농어촌민박 신고 소방시설 2026 개정",
+     "why": "Tens of thousands of family-run pensions, minbak and campgrounds face 소방안전, 영업배상책임보험 mandate for 야영장 (관광진흥법), annual 위생교육 and the 2025-2026 expansions (외국인관광 도시민박 and 안전점검). Coverage 29 only reached foreign-guest lodging reporting for 도시민박/한옥."
+    },
+    {
+     "category": "Small-fishery and aquaculture owners: 어선 출입항 신고, 수산물이력제, 양식업 면허/허가 갱신, 어업 경영체 등록, 낚시어선 beyond K19",
+     "first_search": "어선 출입항 신고 어업허가 갱신 수산물이력제 등록 의무 어업인 2026",
+     "why": "Korea has ~40k fishing households with mandatory 어선 안전·출입항 신고, 어업허가 renewals, 수산물 원산지 표시 and 수산물이력제 registration; coverage covered only imported seafood and fishing charters. Agri side: 농업경영체 등록 and 농약 PLS positive-list also unreached."
+    },
+    {
+     "category": "Other regulated lists (coverage 37 not_reached): 치과기공소 제작의뢰서, 안경업소, 의료기기 판매업 records, 화장품책임판매업 and 건강기능식품 판매업 reporting, 개인정보 보호법 duties for small shops",
+     "first_search": "치과기술소 제작의뢰서 보존 의무 안경업소 의료기기 판매업 기록 보관 위반 행정처분",
+     "why": "Marked not_reached with only a US-page search; Korea has ~8k dental labs, ~10k opticians and many 통신판매업 sellers with mandatory registers (의료기기 공급내역 보고 overlaps K03 but dental lab/optician duties are separate), plus 통신판매업 신고 and 개인정보 처리방침/CCTV duties for small firms."
+    }
+   ]
+  },
+  "tag": "w2b20"
+ },
+ "discover:A:south-korea": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Pig and livestock farms with 50-1000 m2 notifiable facilities and 1000 m2+ permitted facilities; 퇴비·액비 자원화시설 operators",
+     "category": "6. Livestock traders, markets and animal transport (also 14)",
+     "evidence": "Official free app '가축분뇨 전자인계서 앱' by 한국환경공단 offers agent-entry (대행작성) of manure and liquid-fertiliser handover and re-sending unsent forms; KECO added pre-alert for input deadlines and spreading bans; MoE notice relaxed deadlines, cut inspections from 2 to 1 and daily ledger now only on change (livesnews/pigpeople/kidd, dates unclear). 한돈협회 complained of complexity.",
+     "existing": "KECO free app and e-handover system; no private vendors found in 1 search",
+     "known_id": "K11",
+     "known_mark": "new",
+     "known_note": "Different buyer and system from Allbaro waste e-manifests, but same pattern killed by free state tool",
+     "name": "Livestock-manure e-handover (가축분뇨 전자인계) help for pig farms and compost/liquid-fertiliser plants",
+     "score": 2,
+     "status": "rejected",
+     "trigger": "가축분뇨법: e-handover mandatory since 2017 for 1000 m2+ pig farms and from Jan 2019 for 50-1000 m2 farms; GPS/weight-sensor vehicles; ledgers",
+     "trigger_note": "n/a",
+     "unchecked": "Whether farm-level ledgers for compost/liquid-fertiliser plants (not the handover form) are covered by any ERP; farms with GPS-vehicle contractors"
+    },
+    {
+     "buyer": "Certified or aspiring 가사서비스 제공기관 (cleaning/housework agencies)",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "Only ~50 certified agencies and ~460 workers as of Jul 2023 (newstomato); firms avoid certification due to cost and unawareness; 2025 survey says insurance subsidy is most helpful. Source: https://newstomato.com/ReadNews.aspx?no=1198344",
+     "existing": "Not searched (no competitor search run)",
+     "known_mark": "new",
+     "name": "Certified household-service agency (가사서비스 제공기관) operations pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "가사근로자법 (in force 2022-06-16): certified agencies must directly employ workers under written contracts, 4 insurances, min 15 hrs/week; 80% social-insurance subsidy for 3 years; VAT exemption",
+     "unchecked": "Current certified-agency count; 2026 requirement and subsidy changes; any dedicated software; whether subsidy claims are heavy"
+    },
+    {
+     "buyer": "Small churches, temples, associations, charities that issue donation receipts",
+     "category": "17. Community and religious bodies",
+     "evidence": "Many religious bodies still don't file religious-income returns; 61 religious bodies named in NTS 2019 false-receipt list (94% of named). Sources: https://www.ajunews.com/view/20191128090351366 , https://blog.iquest.co.kr/entry/%EC%A0%84%EC%9E%90%EA%B8%B0%EB%B6%80%EA%B8%88%EC%98%81%EC%88%98%EC%A6%9D , https://taxly.kr/post/753-종교인과세-종교단체-세금신고",
+     "existing": "Hometax free e-receipt issuing (individual and bulk Excel); 얼마에요 비영리 (accounting software); iQuest nonprofit ERP; kacpta leaflet. Competitor search run: found mostly accounting-software ads",
+     "known_mark": "new",
+     "name": "Small-church and non-profit tax compliance pack (종교인소득 지급명세서 + 전자기부금영수증 + 고유목적/수익사업 장부)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "종교인소득 withholding and annual 지급명세서; electronic donation receipts via Hometax (iquest blog: mandatory from 2025; paper filers must file 발급합계표 within 6 months of FY end); penalties for false receipts (법인세법 §75조의4, 소득세법 §81조의7); 공익법인 disclosure",
+     "unchecked": "Whether Hometax already makes the product redundant; willingness to pay of small churches; current 2026 rules; 공익법인 disclosure duties"
+    },
+    {
+     "buyer": "Small building owners/managers (관리주체) of elevators",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "Source: https://www.jjan.kr/article/20240805580169 and law summary results. Inspection is normally done by the maintenance firm, so buyer likely the maintenance contractor",
+     "existing": "Not checked",
+     "known_id": "K09",
+     "known_mark": "new",
+     "name": "Small lift/boiler owner self-inspection and registry input reminder",
+     "score": 2,
+     "status": "weak",
+     "trigger": "승강기안전관리법 §31: monthly self-inspection, input to 승강기안전종합정보망 within 10 days; fines to 10M / 5M KRW; false-inspection crackdown (Jeonbuk 2024)",
+     "unchecked": "Whether owner or contractor actually inputs data; existing contractor tools; boiler/pressure vessel duties not verified"
+    },
+    {
+     "buyer": "Small 분뇨수집운반업 / 정화조 cleaning firms (e.g., five in Yangpyeong county)",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "Sources: https://www.hanam.go.kr/www/contents.do?key=12811 , https://www.nocutnews.co.kr/news/4059433 , https://gangdong.go.kr/web/newportal/press/14388 , https://news.seoul.go.kr/safe/?p=20587",
+     "existing": "Competitor search in Korean found nothing Korean-language; unclear whether e-handover exists for septic",
+     "known_id": "K11",
+     "known_mark": "new",
+     "name": "Septic/sanitation hauler (분뇨수집운반업) volume and cleaning-record kit",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Annual tank cleaning duty on owners (fine 100k-1M KRW); fee schedules rising 2024-2026 in Hanam; volume-inflation allegations in Busan; Seoul electronic weighing pilot 2012",
+     "unchecked": "Whether an e-handover or cleaning-certificate system is mandatory; actual law (분뇨 등의 관리 및 처리에 관한 법률); number of firms; local weighing mandates"
+    },
+    {
+     "buyer": "Restaurants, bathhouses, factories, farms using permitted/notified groundwater; unregistered well owners",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "Sources: https://korea.legal/wiki/%ec%a7%80%ed%95%98%ec%88%98%eb%b2%95-%ec%a0%9c20%ec%a1%b0/ , https://www.newsis.com/view/NISX20260908_0003780015",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Small groundwater well user water-quality test and registration tracker",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "지하수법 §20 periodic tests by designated testers, §9-5 aftercare; unregistered small wells face 5M KRW fine / 3 yrs; 2026 levy merger (지하수이용부담금), further reform expected 2027",
+     "unchecked": "Test intervals under the Enforcement Rule; users count; whether municipalities already notify; competitor search not run"
+    },
+    {
+     "buyer": "Small 농약판매업 shops (e.g. cooperatives' branches, farm-supply stores)",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "Source: https://www.jjan.kr/articleAmp/20200902715833 ; RDA 농약안전정보시스템 plus private stock programmes mentioned",
+     "existing": "RDA 농약안전정보시스템 (free state system) and private stock programmes (names not found)",
+     "known_mark": "new",
+     "name": "Pesticide retailer sales-record (농약판매기록) stock programme",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "농약관리법 sales-record system (buyer name, address, phone, product, quantity, crop; 3-year retention); law amended effective 2026-05-12 (content unverified)",
+     "unchecked": "Details of the 2026-05-12 amendment; whether record-keeping is now digital-only; vendors"
+    },
+    {
+     "buyer": "금은방, 금 매입업자, 금사업자",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "Tax-blog source only (unverified): https://taxly.kr/post/1886-강서구-마곡-개인사업자-전문-세무사강서구-마곡-기장전문세무사-금지금-귀금속-업종-세무상-주의사항-및",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Gold/jewellery dealer gold-account and cash-receipt compliance",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "조세특례제한법 §106조의4 금거래계좌 for 금사업자; 시계·귀금속 소매업 is a mandatory cash-receipt trade (100k KRW+); FSC gold exchange plan",
+     "unchecked": "Primary-source law check; FSC gold-exchange status; competing POS/ERP"
+    },
+    {
+     "buyer": "Small 교습소, tutors, small hagwon",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "Sources: https://view.asiae.co.kr/article/2026071609093896101 , https://www.wikitree.co.kr/articles/1146720 , https://www.jjan.kr/article/20160811589129",
+     "existing": "Not checked; hagwon ERPs likely",
+     "known_mark": "new",
+     "name": "Unregistered 교습소 / private tutor registration and tuition posting helper",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "학원법: 교습비 posting, tutor notification (§14-2), reward for reporting unregistered operations raised from 200k to up to 2M KRW (effective 16 Jul 2026)",
+     "unchecked": "Whether registration is a one-off; competitor search not run"
+    },
+    {
+     "buyer": "Pharmacies selling human prescription drugs to animal hospitals (cross-listed to 25)",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "Source: https://www.dailypharm.com/user/news/340177",
+     "existing": "Likely pharmacy management systems (not verified)",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "Pharmacy-to-vet-clinic prescription-drug sales report to HIRA",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Since June 2026, mandatory electronic reporting of sales to HIRA (dailypharm); pharmacists' association wants vet use reporting added to 수의사법",
+     "unchecked": "Format and frequency; whether pharmacy software already supports it; volume of pharmacies serving vets"
+    },
+    {
+     "buyer": "Small animal hospitals",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "Source: https://www.dailyvet.co.kr/?p=244054 , https://www.dailyvet.co.kr/?p=171715",
+     "existing": "Vet EMR vendors (e.g. PlusVet, per K10) likely cover",
+     "known_id": "K10",
+     "known_mark": "known",
+     "known_note": "Same vet-clinic buyer; EMR vendors already kill reporting products",
+     "name": "Vet clinic 진료비 posting (20 items, homepage) compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "수의사법: 20 priced items posted from 2025-01-01 and published on homepage; bill to raise fine 1M to 3M KRW; MAFRA published 4,900 clinics' price survey",
+     "unchecked": "Whether EMRs auto-publish price lists"
+    },
+    {
+     "buyer": "Private ossuary operators (foundations or companies)",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "Source: https://www.jjan.kr/articleAmp/20250606580028 , https://www.jjan.kr/articleAmp/20250626580133",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Private ossuary (사설봉안시설) operator record and fee kit",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "장사법 §15 operator notification, fee notification, reserve deposits, inspection and reporting; 2025 Jeonju dispute and calls for stronger supervision",
+     "unchecked": "Reporting forms and frequency; number of operators; any existing tools"
+    },
+    {
+     "buyer": "Feed, manure, veterinary and livestock delivery vehicle owners entering farms",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "Source: https://www.dailyvet.co.kr/?p=185095 ; terminals 100% subsidised, state operator centre exists",
+     "existing": "State GPS operator centre (1544-3925)",
+     "known_mark": "new",
+     "name": "Unregistered 축산차량 GPS registration and terminal service",
+     "score": 2,
+     "status": "weak",
+     "trigger": "가축전염병예방법 축산차량 registration and GPS fitting; fines up to 1M-5M KRW; crackdowns after voluntary windows (2023, 1 Jul-31 Aug 2024)",
+     "unchecked": "Need for software beyond the free state service"
+    },
+    {
+     "buyer": "Small food processors, importers of listed categories",
+     "category": "20. Small licensed premises with inspections (small food producers)",
+     "evidence": "Source: https://food.chemlinked.com/database/view/6864 (unverified, third-party)",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Food-traceability standard (식품이력추적관리) for small food makers",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Third-party database lists new traceability standard in force 2026-05-15 (items: marine, special-purpose, health functional, infant food, livestock, dairy, produce); small-firm exemption not found",
+     "unchecked": "Primary MFDS notice; which firms are mandatory; existing vendors"
+    },
+    {
+     "buyer": "고물상 (about 12,000 yards, most unregistered)",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "Sources: https://kidd.co.kr/news/167705 , https://www.taxcanvas.kr/core/case/tt-998354 (login-gated)",
+     "existing": "Generic accounting software; no scrap-specific search done",
+     "known_mark": "new",
+     "name": "Scrap-yard purchase ledger and recycled-resource VAT evidence",
+     "score": 2,
+     "status": "weak",
+     "trigger": "No statutory ledger found; tax cases show handwritten purchase notebooks accepted vs. fictitious-transaction findings when evidence is lacking (재활용폐자원 purchase VAT credit)",
+     "unchecked": "Whether 매입자납부특례 or electronic evidence requirements apply; competitor search not run"
+    },
+    {
+     "buyer": "Small 유료직업소개사업 registrants",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "Source: https://www.ddm.go.kr/www/contents.do?key=653 and 2024 Hadong inspection report",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Fee-based job placement agency (유료직업소개소) inspection and ledger kit",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "직업안정법: local inspections of documents, surety renewal and fee caps; 5M/50M penalties for unregistered work",
+     "unchecked": "Actual ledger and reporting obligations; number of registrants"
+    },
+    {
+     "buyer": "Registered 비영리민간단체 receiving local subsidies",
+     "category": "17. Community and religious bodies",
+     "evidence": "Sources: https://www.incheon.go.kr/pub/PUB050304 and https://www.incheon.go.kr/pub/PUB050008/3069598",
+     "existing": "보탬e (state system); call centre 1660-1390",
+     "known_mark": "new",
+     "name": "Non-profit subsidy settlement helper for small associations (보탬e)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Local subsidy execution and settlement through 보탬e (nationwide since 2023); Incheon notes settlement ties to recovery",
+     "unchecked": "Willingness to pay; much of the work is evidence collection"
+    },
+    {
+     "buyer": "Village water associations",
+     "category": "13. Small water systems",
+     "evidence": "Source: https://www.incheon.go.kr/water/WA030104",
+     "existing": "Municipal programmes",
+     "known_mark": "new",
+     "name": "Cert. 가사서비스 / small-water-system / beekeeper items",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Municipality runs required water tests; owners mostly clean",
+     "unchecked": "Nothing buildable"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "가사근로자법 (in force 2022-06-16): government-certified 가사서비스 제공기관 must directly employ workers with 4 insurances; only ~50 certified agencies / ~460 workers as of Jul 2023 (newstomato). Also 아이돌봄 provider agencies (Ministry of Gender Equality) - no settlement-burden evidence found. Direct household employers (families) have no specific reporting duty found. Candidate C02 only.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "고물상: no Korean statute found requiring a transaction ledger or police registration; 폐기물관리법 §46 notification only above ~1000㎡ (metropolitan) / 2000㎡ (elsewhere) per an old report; ~12,000 yards, ~10,200 below threshold are free-trade. Tax-side proof (handwritten ledgers) matters for 재활용폐자원 purchase VAT credit. No copper-theft ID law found. Nothing new beyond tax-evidence angle (C12).",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No Korean second-hand/pawn ledger regime surfaced (search returned only Japan, Denmark, Sweden). Pawn in Korea is not a licensed ledger regime in results. Nothing found; unverified for 전당포 (대부업법).",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Per tax-blog only (unverified): 금사업자 must open 금거래계좌 (조특법 §106조의4); 시계·귀금속 소매업 is a mandatory cash-receipt trade (>=100k KRW cash); bank CTR is a bank duty not dealer duty. Gold spot exchange planned by FSC (date unknown). Candidate C13.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Nothing new: search found no e-handover or parts-record obligations specific to 자동차해체재활용업 (only 2003 rule allowing used parts sale and a 2015 Seoul reward for unregistered operators). Not verified against 자동차관리법 / 전자인계 system.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "축산차량 must be registered and carry GPS (가축전염병예방법); non-registration up to 1 yr prison or 10M KRW fine, non-function fines 1M/2M/5M; voluntary registration windows 2023 and 1 Jul-31 Aug 2024; 100% terminal subsidy (hardware, GPS operator centre 1544-3925). 가축거래상인 registration and 가축분뇨 e-handover (C01, C05) also surfaced.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Nothing new beyond K20. 식육판매업 must issue receipts with species/origin/traceability number and keep trade records 2 years; 식육즉석판매가공업 must self-test processed meat every 9 months (2014 rule, current status unverified). Covered by mtrace/이력스캔 per K20.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "양봉산업법 (amended 2025-07-22, in force 2026-01-23): 양봉농가 registration (§13) is a prerequisite for 2026 subsidy schemes (e.g. Jeonbuk equipment programme). No bee-movement notification found. Nothing worth building (subsidy-gated registration only).",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Nothing new beyond K10 for NIMS. New facts: 동물진료비 posting expanded to 20 items from 2025-01-01 and must appear on homepage; bill to raise fine 1M->3M KRW pending; 수의사법 시행규칙 amended 2026-04-21; since June 2026 pharmacies selling human prescription drugs to vet clinics must report electronically to HIRA (dailypharm). Candidates C10, C11.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "지하수법: users with permit/notification and certain uses (drinking, designated living/industrial/agri uses) must do periodic water-quality tests by approved testers and keep results (§20, Enforcement Decree §29); unregistered small wells face up to 5M KRW fine (notification) or 3 yrs/30M (permit); 2026: 수질개선부담금 merged into 지하수이용부담금 with 40% rate cut, reform study due 2027 (newsis 2026-09-08). Candidate C06 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "분뇨수집운반업: private sewage treatment facilities must be cleaned at least annually (fine 100k-1M KRW; Gangdong says up to 1M under 하수도법); collection-fee hikes 2024-2026 in Hanam; Busan reports of inflated collected volumes; Seoul pilot electronic weighing since 2012. No private software competitor found in two searches. Candidate C07. Allbaro covered by K11.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "승강기안전관리법 §31: monthly self-inspection and input to 승강기안전종합정보망 within 10 days; fines up to 10M/5M KRW; false-inspection crackdowns (Jeonbuk, Gyeonggi). Buyers are mostly maintenance firms; no small-owner duty distinct from maintenance contract. Boiler/pressure vessel current inspection regime could not be verified (search returned only old items). Candidate C04 weak.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "마을상수도 / 소규모급수시설: testing is carried out by the municipality (시장·군수·구청장) per 먹는물 수질기준 및 검사 등에 관한 규칙 §4, quarterly for treated water in examples; owner duty is mostly cleaning. Buyer is village/municipality, not a business. Nothing buildable (C08 weak).",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "농약판매업: sales-record system (buyer name, address, phone, product, quantity, crop) kept 3 years, via RDA 농약안전정보시스템 or linked private stock programs (2020 article); 농약관리법 amended effective 2026-05-12 (content unverified). Fertiliser dealer duties not found. Candidate C09 unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "유료직업소개사업: registration with local government, KRW 50M capital for corporations, 10㎡ office, periodic local inspections incl. surety renewal and fee caps; registration fee temporarily cut 2024-07-01 to 2026-06-30. Ledger/report duties not confirmed. Candidate C14 unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "장사법: private ossuaries (사설봉안시설) with 500+ remains need a foundation; ongoing duties incl. fee notification, reserve deposits, inspection and reporting; 2025 Jeonju private ossuary dispute and calls for stronger local oversight (jjan.kr). e-하늘 is a public facility reservation portal, not a private reporting channel. Candidate C10b weak (listed as C15).",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Electronic donation receipts via Hometax (mandatory from 2025 per iquest blog; paper-receipt filers must file 발급합계표 within 6 months of FY end; e-receipts exempt); false receipts penalised; 61 religious bodies named in NTS 2019 list for false receipts; religious-income tax filings by small churches often non-compliant; 비영리민간단체 subsidy settlement via 보탬e. Existing: 얼마에요 비영리 and iQuest ERP. Candidates C03, C16. Halal/kosher supervision not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Nothing new beyond K04/K14: digital tachograph (교통안전법 §55) fitting, retention and submission duties exist (fine levels unverified: 2015 draft proposed cut). 축산차량 GPS also surfaced (cat 6).",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers: nothing beyond K07. Street vendors: 노점 실명제 with 1-year road-occupation permits is municipal (Myeongdong ~1.3M KRW/yr, Namdaemun); 온누리상품권: merchants above KRW 3B prior-year sales or exchange lose eligibility (2026 report, date unverified). No buildable product.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Tattoo covered by K06. 학원: tuition must be posted and filed; 교습소/ unregistered-tutor reporting reward raised from 200k to up to 2M KRW from 16 Jul 2026 (asiae/wikitree) - trigger for unregistered 교습소/과외 to register. Small food makers: HACCP mandate is item/revenue based (not size); 식품이력추적관리 standard listed as in force 2026-05-15 (third-party DB, unverified). Nurseries/driving schools/hunting outfitters: no usable evidence.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 0,
+   "queries": [
+    "고물상 재활용업 신고 거래내역 장부 의무 대장 작성",
+    "중고물품 매매업 고물영업 중고자동차 매매업 장부 비치 경찰 신고 질서 폐지 2025",
+    "자동차해체재활용업 전자인계관리 중고부품 거래 신고 소규모 폐차장 프로그램",
+    "가축거래상인 등록 가축운송차량 등록 출입 신고 GPS 의무 2026",
+    "가사근로자 고용 인증기관 가사서비스 제공기관 정부 인증 소규모 의무 2026",
+    "정화조 청소업 분뇨수집운반업 전자인계 청소 실적 보고 소규모 업체 의무",
+    "지하수 개발·이용 신고 수질검사 이용부담금 소규모 지하수 관정 업체 의무 지하수법 2026",
+    "승강기 안전관리자 자체점검 월 1회 승강기안전종합정보망 소규모 건물 소유자 과태료 2026",
+    "소규모 급수시설 마을상수도 수질검사 의무 위생관리",
+    "농약판매업 비료판매업 장부 비치 판매 기록 농약 안전사용 농약관리법 개정 2026",
+    "유료직업소개사업 인력사업소 구인구직 장부 비치 보고 의무",
+    "장사시설 봉안시설 사설 묘지 장례식장 신고 사설봉안시설 의무 보고",
+    "비영리법인 공익법인 종교단체 기부금 영수증 전자발급 결산서류 공시 종교인소득 신고 프로그램",
+    "택시 전세버스 화물운송사업자 디지털운행기록계 제출 의무 과태료 2026",
+    "학원 교습비 게시 신고 학원 운영 의무 어린이집 소규모 자체점검",
+    "양봉 사육신고 양봉산업법 꿀벌 사육 등록 의무 2026",
+    "소규모 식품제조가공업 HACCP 의무 2026 자가품질검사 식품이력추적관리",
+    "금 매입업 귀금속 매매업 금은방 신고 의무 거래 기록 보고 2026",
+    "보일러 압력용기 열사용기자재 검사 의무 소규모 사업장 안전검사",
+    "동물병원 동물용의약품 판매업 동물약국 처방전 진료비 게시 개정 2026"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b20"
+ },
+ "discover:B:south-korea": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Regional 배달대행사 and other 배달사업자 that contract with riders (count not found)",
+     "category": "32. Delivery-rider paid-transport insurance",
+     "evidence": "https://www.hankyung.com/article/202606022590i (fetched: operator duties and the H1 2027 system); https://byline.network/2026/06/25_19028773/ (우아한청년들 and 배달서비스공제조합 launched 바로공제보험 in response); search snippets from kbmaeil.com and heraldk.com on the 2026-06-03 start.",
+     "existing": "바로공제보험 (an insurance product, not a tracking tool). I found no 배달대행 management software in the one Korean-language competitor search I ran; it returned English pages only, so the competitor check is not done. The 배달대행 dispatch programs used by agencies (names not found) probably add rider cover checks.",
+     "known_mark": "new",
+     "known_note": "Not close to K04 (container trucking).",
+     "name": "Rider-insurance verification and 3-month recheck tracker for delivery-agency operators (배달대행사)",
+     "score": 5,
+     "status": "promising",
+     "trigger": "생활물류서비스산업발전법 시행령 and 시행규칙 amendment in force 2026-06-03: no contract without 유상운송 cover (unlimited bodily injury, property damage of 20M won or more); check before expiry and every 3 months for policies of 6 months or more; existing contracts end if cover lapses. A reported full roll-out to all existing riders on 2026-12-03 is not confirmed by the second source. The government lookup system is planned for H1 2027, so for now operators collect documents and check by hand. Fines for operators were not stated in the sources I saw.",
+     "unchecked": "Number of 배달대행사 and riders; penalties on operators; whether dispatch software already tracks cover; whether the planned state system makes it redundant by 2027; the 12-month window until then; the 2026-12-03 date for existing riders; who bears the check when a platform sub-contracts to an agency."
+    },
+    {
+     "buyer": "Importers, wholesalers and distributors of designated imported seafood (27 items from 2026-06-29); number not found",
+     "category": "30. Small exporters and importers facing traceability or certification rules: fish",
+     "evidence": "https://www.heraldk.com/article/2026060618000071661 (fetched); https://www.etoday.co.kr/news/view/1944402 (reporting channel moved to the quality-management service; snippet only).",
+     "existing": "Official reporting system; no private tool seen. No competitor search was run (budget).",
+     "known_mark": "new",
+     "known_note": "Different duty from K20 (butcher traceability).",
+     "name": "Imported-seafood distribution-history reporting (5-day reports) for importers and wholesalers",
+     "score": 4,
+     "status": "promising",
+     "trigger": "수산물 유통의 관리 및 지원에 관한 법률: report each transfer of designated imported fish within 5 days, through the electronic system or the 국립수산물품질관리원 office. Items grew from 22 to 27 (frozen mackerel, hairtail, pollack, squid, chilled squid) from 2026-06-29. Existing items are designated until 2029-04-30. Penalties not seen.",
+     "unchecked": "Number of small wholesalers affected; whether the state portal already offers bulk or file upload; any ERP of the 수산 wholesale market that auto-reports; penalties; the competitor search."
+    },
+    {
+     "buyer": "Owners and operators of chargers in buildings with 50 or more parking spaces or 13 listed building types (apartments, factories, religious and training buildings, warehouses) and small 충전사업자",
+     "category": "33. EV charger reporting and liability insurance",
+     "evidence": "https://www.incheon.go.kr/env/ENV060204 (fetched); https://news.seoul.go.kr/env/report-charging",
+     "existing": "Insurers sell the policy; city offices take the filing. No software seen. No competitor search run.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "EV-charger report and liability-insurance pack for building owners and small charger owners",
+     "score": 3,
+     "status": "weak",
+     "trigger": "전기안전관리법 Art. 21-3 and 52, in force 2025-11-28: file before installing or changing; no-fault liability insurance, held by the facility owner; fines up to 1M won (no report) and 3M won (no insurance); applied from 2026-01-01 for new facilities. The deadline for existing facilities was 2026-05-27 (garbled on the page), so the one-off window has passed.",
+     "unchecked": "Number of owners; whether small owners below 50 spaces are exempt; renewal and manager-change triggers; who sells to this buyer."
+    },
+    {
+     "buyer": "Households that own farmland acquired since 1996 (about 1.05M parcels), and 영농조합법인 and 농업법인",
+     "category": "34. Farmland owners and 농업법인",
+     "evidence": "https://www.mafra.go.kr/bbs/home/793/578994/artclView.do ; https://www.fnnews.com/news/202610051022258094 (snippets only; I did not open them).",
+     "existing": "Lawyers, 행정사 and the ministry's own notices; no tool seen. No competitor search run.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Farmland owner response pack for the 2026 farmland census and mandatory disposal orders",
+     "score": 3,
+     "status": "weak",
+     "trigger": "농지법 Art. 31-3 census May to December 2026 (basic survey May to July, in-depth August to December); amendment passed 2026-05-07 makes 처분명령 mandatory and lets the minister issue it; 이행강제금 is 25% of value for non-compliance. The window is one-off and ends in December.",
+     "unchecked": "Whether owners buy software or only legal help; deadline for responses; 농업경영체 change-report duties; the 영농조합법인 annual reporting forms."
+    },
+    {
+     "buyer": "일반음식점 and other 식품접객업 owners with staff",
+     "category": "31. Food-service and food-handler compliance",
+     "evidence": "https://www.guro.go.kr/health/contents.do?key=1298& ; https://kyeonggi.com/article/20260106580338 (snippets).",
+     "existing": "Free 보건소 SMS reminders at some districts; no dedicated app found in the one search.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Employee health-certificate (보건증) and annual hygiene-training tracker for restaurants and food shops",
+     "score": 3,
+     "status": "weak",
+     "trigger": "식품위생법: staff 건강진단결과서 valid 1 year (some groups 6 or 3 months), 영업자 3 hours of 위생교육 a year; fines on the owner.",
+     "unchecked": "Willingness to pay (likely very low); whether POS or staff-schedule apps already include it; current fine amounts."
+    },
+    {
+     "buyer": "Small 재가장기요양기관",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://view.asiae.co.kr/article/2026071914143993457 ; carefor.co.kr PDFs (a 장기요양 vendor's notices; its product was not confirmed).",
+     "existing": "carefor.co.kr appears to serve this market, which suggests vendors exist; not confirmed.",
+     "known_mark": "new",
+     "known_note": "Related to K12 (claims integration) but a different buyer group.",
+     "name": "Home-care centre (방문요양) RFID attendance and claims audit pack",
+     "score": 3,
+     "status": "weak",
+     "trigger": "복지부 planned inspection of 44 centres from 2026-07-13 (RFID use, staffing, billing); 2026 notice adds 장기근속장려금 submission and senior-caregiver placement; 부당청구 findings 1,786 in 2024, worth 46.4bn won.",
+     "unchecked": "Vendor coverage; number of centres; whether RFID billing is already integrated in existing software."
+    },
+    {
+     "buyer": "Registered 외국인관광 도시민박업, 한옥체험업 and 관광숙박업 operators in Busan, Daegu, Ulsan and Gyeongsang; also fee-posting compliance from 2026-08-04",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://mobile.newsis.com/view/NISX20260728_0003726604 ; https://www.alchera.ai/resource/blog/ekyc-hotel-foreign-customer-authentication-process (eKYC vendor) ; the 법무부 PDF would not load.",
+     "existing": "Alchera sells eKYC for hotels; platforms enforce registration numbers.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Foreign-guest lodging report helper for 도시민박업 and 한옥체험업 operators",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "법무부 외국인 숙박신고제 notice of 2025-10-24; 관광진흥법 시행령 change with effect from 2026-08-04 (5-day suspension for unposted or higher rates).",
+     "unchecked": "The exact trigger (the sources conflict on whether the duty applies in normal times); reporting channel; number of operators."
+    },
+    {
+     "buyer": "Individual landlords and small agents",
+     "category": "35. Rental-housing contract reporting",
+     "evidence": "https://wikidocs.net/blog/@Insight_Lab/20960/ (blog); https://kbmaeil.com/article/20250509500152",
+     "existing": "The free state portal rtms.molit.go.kr and brokers.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Rental-contract report helper for individual landlords",
+     "score": 2,
+     "status": "weak",
+     "trigger": "부동산거래신고법: report within 30 days; fines from 2025-06-01.",
+     "unchecked": "Fine amount (30万 vs 1M won); portal usability."
+    },
+    {
+     "buyer": "의원 and 치과 clinics",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://medicaltimes.com/Main/News/NewsView.html?ID=1145662 ; https://kormedi.com/1577584/ (snippets).",
+     "existing": "EMR vendors (not confirmed that they generate the file).",
+     "known_id": "K12",
+     "known_mark": "new",
+     "known_note": "Same gatekeepers as K12, so likely also closed.",
+     "name": "Clinic 비급여 report helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "의료법 Art. 45-2: annual 비급여 report (about 1,400 items in 2026 per an unofficial blog); fines up to 2M won; publication on the 심평원 site scheduled from 2026-08-26 per a blog.",
+     "unchecked": "Whether EMRs already produce the report file; item counts."
+    },
+    {
+     "buyer": "Small 건설사업자 and 전문건설업체",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "https://blog.iquest.co.kr/entry/%EA%B1%B4%EC%84%A4%EA%B3%B5%EC%82%AC%EC%8B%A4%EC%A0%81%EC%8B%A0%EA%B3%A0 (an ERP vendor's guide)",
+     "existing": "ERP vendors such as iquest; the associations' own program (not confirmed).",
+     "known_id": "K16",
+     "known_mark": "new",
+     "known_note": "Adjacent to K16/K21 but a different duty.",
+     "name": "Annual 건설공사실적신고 helper for small contractors",
+     "score": 2,
+     "status": "weak",
+     "trigger": "건설산업기본법 Art. 23 annual report to the 건설협회 bodies; registration-standard sweeps.",
+     "unchecked": "Seasonal deadline; association filing tools; competitor search."
+    },
+    {
+     "buyer": "사회적협동조합 and larger ordinary co-operatives",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://blog.iquest.co.kr/entry/%ED%98%91%EB%8F%99%EC%A1%B0%ED%95%A9%EA%B2%BD%EC%98%81%EA%B3%B5%EC%8B%9C",
+     "existing": "Nonprofit ERP vendors (iquest).",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "사회적협동조합 annual disclosure and 결산 pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "협동조합기본법 경영공시 and 결산보고 duties (thresholds not fully seen).",
+     "unchecked": "Number of buyers; fines; the state disclosure portal."
+    },
+    {
+     "buyer": "Small sites that handle regulated chemicals (35,969 handlers in the 2024 survey)",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://www.heraldk.com/article/2026041915040850892 (snippet); https://biz.sbs.co.kr/amp/article/20000325633",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Small chemical-handler compliance pack (취급 report, 자체점검)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "화학물질관리법: self-inspections, handler training, statistics survey; 400 sites inspected in spring 2026.",
+     "unchecked": "Which duties fall on sites with fewer than 30 staff; the free state system; the 2026 rules."
+    },
+    {
+     "buyer": "Small timber importers",
+     "category": "30. Small exporters and importers facing traceability or certification rules: timber",
+     "evidence": "https://trade.forest.go.kr/legalTimber/guide/pdf/policyIntro ; https://forest.go.kr/images/data/down/보완서류제출가이드.pdf (snippets).",
+     "existing": "The state 목재자원관리시스템 and customs brokers.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Imported-timber legality notification helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "목재의 지속가능한 이용에 관한 법률 Art. 19-2: import notification with legality documents, checked by the 한국임업진흥원 before customs clearance.",
+     "unchecked": "Importer count (probably small); fines; the 2026 item list."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "2 searches. The 석유사업법 시행규칙 amendment (in force 2026-03-20, per one unconfirmed document) widens the 일반판매소 that stations may trade with from 면 to 읍 areas, adds electronic-report form changes and a longer disclosure period for revoked registrations. No new burden on small stations found, and station POS and 석유관리원 reporting is already the norm. The 2025 LPG law change (self-charging) does not change dealer duties. Nothing new beyond the existing reporting systems. Source: https://news.jkn.co.kr/post/769463 (the motir.go.kr attachments were not fetched).",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "1 search. The 양곡관리법 revision (in force 2026-08-27) concerns the government's annual supply plan and paddy acreage, not 가공업/매매업 reporting. The mill and dealer duties (the 2 t/day 도정업 threshold) are unchanged as far as I could confirm. Nothing found for coffee or cocoa. Nothing new; the 2026 version of the 시행규칙 was not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "1 search. 사회적협동조합 must make an annual 경영공시 and 결산보고 whatever their size; ordinary co-ops only above a size threshold (membership of 200 or more is one criterion, the rest not seen). Only a nonprofit-ERP vendor blog (iquest) turned up, with no dedicated filing tool seen. Weak candidate listed. 신협 and 새마을금고 are regulated financial firms and not a solo-founder buyer.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "3 searches. (a) 장기요양기관 (home-care centres): the 복지부 inspection from 2026-07-13 covers RFID attendance-tag misuse, and the 2026 notice adds 장기근속장려금 submission and senior-caregiver placement duties; 부당청구 findings run at about 1,800 a year. (b) 비급여 reporting: clinics must report annually (the March-month data) and fines reach 2M won, but the EMR vendors are the likely gatekeepers, as in K12. (c) 치과기공소 and 안경업소: the search returned only US pages, so these are unverified. Candidates listed.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "2 searches. Pharmacies report narcotics handling through NIMS (7-day reports for 중점관리 drugs, monthly for general ones, with a stock-report exception for pharmacies). A 묶음번호 (aggregation) amendment was only at plan stage in 2024 and I could not confirm it is in force. This is the same pattern as K10 and was not rechecked. Chemicals: the 6th 화학물질 통계조사 results came out on 2026-07-30 (35,969 handlers), and 400 sites were inspected in spring 2026. I found no small-site tool and no new rule. Weak and unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "1 search. The 경비업법 시행령 was amended with effect from 2026-01-08 (promulgated 2025-12-23), but I could not tell which clauses changed. I found no 2026 reporting change for 경비업체, and cleaning contractors are not licensed under the 경비업법. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "1 search. Annual 건설공사실적신고 under 건설산업기본법 Art. 23 goes to the 건설협회 bodies, and registration-standard sweeps (실태조사) continue. The 건설산업기본법 시행령 was amended on 2026-06-23. A vendor blog (iquest) already covers the filing, so ERP vendors are present. Daily-worker reporting is closed (K16, K21). Quarries and mining were not searched. Weak candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "2 searches. The 공인중개사법 시행령 amendment was pre-announced 2026-06-02 to 07-13 (content not seen). From 2026, foreign buyers of homes must file funding plans (a duty on the parties, not the broker). AML duties for lawyers, 법무사 and brokers are only under discussion, with no bill passed, so the FIU 2026 plan shows no such duty yet (source: blockmedia). Nothing new to build on now; watch for the 특금법 amendment.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "1 search plus 1 failed fetch. Foreign-guest lodging reporting (법무부 notice of 2025-10-24) applies to registered 관광숙박업, 도시민박업 and 한옥체험업 in Busan, Daegu, Ulsan and Gyeongsang, but its trigger conditions are unclear. From 2026-08-04, a 외국인관광 도시민박업 or 한옥체험업 that does not post its rates, or charges more than posted, is suspended for 5 days on the first offence. A 생활숙박시설 one-room pilot (500 units, via a platform) started in 2026. Airbnb enforces registration numbers. The 법무부 PDF would not load, so the lodging-report details are unverified. Candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "2 searches plus 1 fetch. Imported seafood 유통이력 reporting (수산물유통법): the designated items grow from 22 to 27 from 2026-06-29, including frozen mackerel, hairtail, pollack and squid. Importers and distributors must report within 5 days of each transfer. Timber: 합법목재 import notification already exists (since 2018), with 목재생산업 registration needed. CBAM is covered by K08. Candidates listed.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Food-service and food-handler compliance (country-specific: 식품위생법 annual duties)",
+     "found": "1 search. Employee 건강진단결과서 (보건증) is valid for 1 year, and a lapse brings a fine on the owner of about 200k to 1M won (2021 figures). 영업자 must also take 3 hours of 위생교육 a year. I found no dedicated tracking app. Free alternatives exist, such as 보건소 SMS reminders. Weak candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Delivery-rider paid-transport insurance (country-specific: 생활물류서비스산업발전법 시행령 amendment, in force 2026-06-03)",
+     "found": "2 searches plus 1 fetch. 배달사업자 must check rider cover (unlimited bodily injury and 20M won property damage) before contracting, before expiry, and every 3 months for policies of 6 months or more, and must terminate contracts if cover lapses. A government lookup system is planned only for H1 2027, so until then the check is by documents. Strongest new lead in this pass. Candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "33. EV charger reporting and liability insurance (country-specific: 전기안전관리법 amendment, in force 2025-11-28)",
+     "found": "1 search plus 1 fetch. Charging operators, and owners of chargers in buildings with 50 or more parking spaces or in 13 building types, must file before installing or changing, and owners must hold no-fault liability insurance (property damage 1bn won per accident). Fines are up to 1M won for failing to report and up to 3M won for no insurance, applied from 2026-01-01 for new facilities. The existing-facility deadline was 2026-05-27, which is past. Candidate listed (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "34. Farmland owners and 농업법인 (country-specific: 농지법 amendment passed 2026-05-07 and the 2026 farmland census)",
+     "found": "1 search. A full farmland survey runs May to December 2026 (1.05M parcels, 1.36M ha acquired since 1996). 처분명령 became mandatory instead of discretionary, with 이행강제금 of 25% of value. 농업법인 found in breach (real-estate business) fell to 272 in 2025. The 영농조합법인 reporting forms were not found. Candidate listed (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "35. Rental-housing contract reporting and landlord duties (country-specific: 부동산거래신고법 임대차 신고제)",
+     "found": "1 search. The grace period ended 2025-05-31. Reports are due within 30 days for deposits over 60M won or rent over 300k won, in the metropolitan area, cities and 세종, not in 군 areas. Fines are disputed (30万 vs up to 1M won). The state portal (rtms.molit.go.kr) and brokers already do the filing. Weak candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Indoor air quality, children's play facilities and other facility self-checks (country-specific: 실내공기질관리법, 어린이놀이시설안전관리법)",
+     "found": "1 search. 어린이집 and 산후조리원 are in the 건강민감층 facility group with maintenance standards (e.g. CO2 900 ppm) and self-measurement duties, with an exemption if the check result is within limits. I found nothing on 2026 changes or on 키즈카페 play-facility inspections, so those parts are not reached. No candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Other regulated lists scanned (country-specific: 약국/치과기공소/안경업소/화학물질)",
+     "found": "치과기공소 제작의뢰서 retention and 의료기기 판매업 records: the search returned only US pages and no Korean source, so unverified. The regulator registers (식품안전나라, 법제처 lists of regulated activities) were not opened because the WebSearch budget was used up; only 4 fetches were spent. Other 2024-2027 laws such as 대부업, 어린이통학버스, 택배 영업점 and 상조업 were not searched.",
+     "status": "not_reached"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "주유소 석유판매업 의무 보고 개정 2026 석유관리원 가짜석유 거래내역 보고",
+    "양곡관리법 양곡가공업 양곡매매업 신고 소규모 정미소 보고 의무 2026",
+    "사회적협동조합 협동조합 결산보고 경영공시 의무 소규모 협동조합 2026",
+    "약국 마약류 취급 보고 의무 2026 의약품 일련번호 공급내역 보고 약국",
+    "경비업 청소 용역업체 허가 신고 의무 2026 개정 경비원 교육 보고",
+    "공인중개사 개업공인중개사 의무 신고 2026 개정 중개대상물 확인설명 부동산거래 신고 과태료",
+    "숙박업 외국인관광 도시민박업 생활숙박시설 신고 의무 2026 투숙객 명부 여권 정보",
+    "목재수입유통업 신고 합법성 증명 수입 목재 산림청 2026 의무",
+    "건설업 실적신고 건설업 등록기준 실태조사 전문건설업체 2026 신고 대행 프로그램",
+    "장기요양기관 방문요양 센터 소규모 급여 청구 전자관리 출퇴근 RFID 부정수급 2026",
+    "영업자 종업원 건강진단결과서 보건증 만료 위생교육 식품접객업 2026 관리 앱",
+    "배달대행 이륜차 유상운송 책임보험 의무 생활물류서비스산업발전법 2026",
+    "배달대행 프로그램 라이더 유상운송보험 가입 확인 관리 배달대행사 보험 만료 알림 시스템",
+    "LPG 판매사업자 충전소 가스안전공사 안전관리 의무 2026 용기 이력관리",
+    "농업법인 영농조합법인 실태조사 보고 농지 이용실태조사 처분의무 2026",
+    "치과기공소 제작의뢰서 보관 의무 개설 등록 안경업소 의료기기 판매업 기록 보고 2026",
+    "임대차 신고 계도기간 종료 2026 임대인 과태료 임대사업자 보증보험 의무",
+    "화학물질관리법 취급시설 자체점검 화학물질 취급량 통계조사 보고 소규모 사업장 2026",
+    "전기차 충전시설 책임보험 의무 충전사업자 가입 대상 시행 2026",
+    "비급여 진료비용 보고 의원 의무 2026 심평원; 실내공기질 자가측정 어린이집 산후조리원 2026; 수산물 이력제 의무화 2026; 자금세탁방지 법무사 변호사 부동산중개 FIU 2026 (last four searches)"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b20"
+ },
+ "gapfill:south-korea": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Dental laboratories (치과기공소) and the dentists who order from them",
+     "category": "37. Other regulated lists scanned (치과기공소 제작의뢰서)",
+     "evidence": "https://www.nepla.ai/law/의료기사등에관한법률시행규칙 (Art. 12-5, 12-3, 16); https://www.venturesquare.net/1113266/ (founder who took over his father's 30-year-old lab describes recurring order errors, KakaoTalk edits and month-end reconciliation); https://www.nextunicorn.kr/company/d865afd5d8c519b8. Dental lab headcount (~8k) comes from the gap brief, unverified.",
+     "existing": "A startup digitising 기공의뢰 appears in the results (venturesquare, nextunicorn); no lab ERP products were identified by name. The last search returned no vendor list for 기공소 관리 프로그램, so the competitor check is incomplete.",
+     "existing_extra": "",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Related to K03 only in that both are dental/medical supply chains; the buyer and duty differ.",
+     "name": "Digital work-order and month-end settlement pack for dental labs (치과기공소)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "시행규칙 art. 12-5(2) of the Medical Technicians Act: the 치과기공물제작의뢰서 (Form 6) must be kept for 2 years by both the dentist and the lab; art. 16 requires a 14-day report on closure or transfer; technicians must renew their licence status report every 3 years and employing a suspended technician brings suspension or 10M+ KRW penalties.",
+     "trigger_note": "",
+     "unchecked": "Name and traction of the startup and any lab ERP vendors; whether dentist-side practice systems already send electronic orders; the order retention rule is a pure paper duty with no inspection evidence; number of labs; fine amounts (not found)."
+    },
+    {
+     "buyer": "About 9,800 외국인관광 도시민박업 and 2,300 한옥체험업 operators, plus existing 농어촌민박 hosts",
+     "category": "29. Hotels, guest houses and short-term rentals (Korean 숙박업/민박)",
+     "evidence": "https://www.dailian.co.kr/news/view/1673550/ (2026-08-02; about 12,000 sites; no start date); https://newsseoul.co.kr/news/view/1065574233775917 (Daejeon Seo-gu 2024 check, education and fire items); https://www.mois.go.kr/frt/sub/a06/b11/disasterGuarantee_4/screen.do; premium roughly 20,000 KRW per year per 100 sqm (news, unverified).",
+     "existing": "Airbnb publishes its own Korea rural-lodging guidance (news.airbnb.com PDF); no dedicated compliance software was seen. No competitor search was run for this idea.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Insurance and safety-readiness pack for 도시민박, 한옥체험 and 농어촌민박 hosts (재난배상책임보험 extension)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Planned amendment of the 재난 및 안전관리 기본법 시행령 to add urban minbak and hanok stays to the mandatory 재난배상책임보험 (fine 100k KRW at 10 days late, up to 3M KRW); 농어촌민박 hosts already need it, an annual safety/service education, fire equipment and municipal 26-item checks.",
+     "unchecked": "Decree start date; premium is tiny so willingness to pay for software is doubtful; the buyer may be served by the insurer; the platform guides (Airbnb) may already push compliance; overlap with category 29 worker's findings."
+    },
+    {
+     "buyer": "Registered campsite and glamping operators (count not found)",
+     "category": "29. Hotels, guest houses and short-term rentals (캠핑장)",
+     "evidence": "https://www.mcst.go.kr/site/s_notice/notice/bidView.jsp?pSeq=19900 (study tender); https://m.go.seoul.co.kr/news/2015/06/18/20150618012009; https://view.asiae.co.kr/article/2015041309170686708",
+     "existing": "None identified; competitor search not run.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Campsite (야영장업) safety-inspection log and insurance renewal pack",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "관광진흥법: registration under 시행규칙, 책임보험 mandatory since 2019-03-01, fire equipment (extinguisher per 100 sqm, flame-retardant tents, smoke detectors for glamping) and a reported monthly safety check with half-yearly submission (2015 press; current wording unverified); MCST is studying 재난안전의무보험 reform for 야영장업 and theme parks (bid May-June 2026).",
+     "unchecked": "Number of registered campsites; whether the monthly self-check log is still required; any state portal for campsite safety; unregistered operators are a larger problem than registered ones."
+    },
+    {
+     "buyer": "Small 재가 장기요양기관 owners (주야간보호센터, 방문요양), 12,081 sites in the 2026 정기평가 cohort",
+     "category": "Private hagwon/childcare/elderly facility small-operator registers (장기요양)",
+     "evidence": "https://www.heraldk.com/article/2025073015382293663 (Gwanak-gu renewal review); https://www.gangnam.go.kr/board/B_000031/1074561/view.do?mid=ID01; https://www.medicaltimes.com/Main/view.html?ID=1128759 and ID=1129415 (2026 evaluation, indicators cut 224 to 136); https://kmong.com/gig/674933 (freelance renewal consultants).",
+     "existing": "Freelance and consulting services on kmong; operators' associations; no software product seen. K03-like government e-billing is separate. No dedicated competitor search run beyond the above.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Long-term-care provider licence-renewal (지정갱신) and 정기평가 evidence pack for small day-care and home-care centres",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Law amended Dec 2019: designation valid 6 years, renewal review on 5 criteria (service capacity, plan, resources, staffing, quality), apply by 90 days before expiry; renewal can be refused for administrative sanctions or weak evaluation; 2026 정기평가 Feb-Dec for sites with even-numbered codes.",
+     "unchecked": "Renewal volume after the Dec 2025 first wave (each site recurs every 6 years); whether care-management software (e.g. 케어포 materials appear in results) already bundles evaluation-prep; operators already spend on consultants, which hints at willingness to pay."
+    },
+    {
+     "buyer": "Small 학원 and 교습소 operators (~70k per the gap brief, unverified)",
+     "category": "Private hagwon/childcare/elderly facility small-operator registers (학원)",
+     "evidence": "https://hangyo.com/mobile/article.html?no=108593 (overcharging bill); https://hangyo.com/news/article.html?no=10341; https://www.kukinews.com/article/view/kuk202607160082",
+     "existing": "Many general academy-management programs likely exist (not searched); the bill is not law.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Hagwon (private tutoring academy) 교습비 compliance and inspection-readiness kit",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "학원법 and local education rules: post registered 교습비 and refund terms; Jan-Jun 2026 inspections of 55,280 sites found 5,021 violations (6,691 actions, 1,286 fee-related); 2026-07-16 rule change raised informant rewards, so reporting by neighbours and rivals is incentivised; a July 2026 bill would add fines of 2x the excess fee and carry penalties to successors.",
+     "unchecked": "Competition from 학원 management software and the 나이스/학원 정보공시 portal; no search on CCTV or 정보공시 duties; the incentive effect of the reward hike is untested; also overlaps K-reward items from the first pass (교습소 reward)."
+    },
+    {
+     "buyer": "Registered fishing households (about 40k per the gap brief, unverified)",
+     "category": "Small-fishery and aquaculture owners (어업경영체 등록)",
+     "evidence": "https://www.kbmaeil.com/article/20250717500015 and results of the 2026 search (MOF notice summarised in the search snippet; original notice not opened)",
+     "existing": "Free registration through 행정복지센터 since Jan 2026; no private tool seen. Competitor search not run.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Fishing-household 어업경영체 evidence organiser (sales proof, fishing days)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "MOF 행정예고 2026-09-08 to 09-28 amending the 어업인 확인서 and 어업경영정보 등록기준: bank-transfer proof of sales and tighter fishing-day rules, after a May 2026 joint check of 8,669 registrations; registration status gates subsidies and fuel tax relief.",
+     "unchecked": "Final rule text; user base is elderly and offline; low willingness to pay; likely served by cooperatives and the fisheries cooperative (수협) at no cost."
+    },
+    {
+     "buyer": "개인택시 owner-drivers (~160k) and 개인화물 owners (~400k) (counts from gap brief, unverified)",
+     "category": "Taxi, 개인택시 and 화물 운수 licensing",
+     "evidence": "https://limeade.kr/%EB%8C%80%EA%B5%AC%EA%B5%90%ED%86%B5%EC%97%B0%EC%88%98%EC%9B%90-%EB%B3%B4%EC%88%98%EA%B5%90%EC%9C%A1-%EC%8B%A0%EA%B7%9C%EA%B5%90%EC%9C%A1-%EC%98%A8%EB%9D%BC%EC%9D%B8-%EC%8B%A0%EC%B2%AD-%EB%B0%8F/; https://dnublog.co.kr/2025/11/27/%ED%99%94%EB%AC%BC%EC%9A%B4%EC%86%A1%EC%9E%90%EA%B2%A9%EC%A6%9D-%EB%B3%B4%EC%88%98%EA%B5%90%EC%9C%A1-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95-%EB%A9%B4%EC%A0%9C-%EC%A1%B0%EA%B1%B4%EB%AF%B8%EC%9D%B4/; https://news.seoul.go.kr/traffic/?p=33044",
+     "existing": "Free regional 교통연수원 online booking; taxi-association and platform apps (not searched).",
+     "known_id": "K14",
+     "known_mark": "known",
+     "known_note": "Same transport-owner buyer family as K04/K14 but a different duty; kept at low score.",
+     "name": "Individual taxi and freight owner compliance calendar (보수교육, 적성검사, 자동차검사)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "여객자동차 운수사업법 and 화물자동차 운수사업법: 4-hour 보수교육 (taxi concentrated Mar-Apr in Daegu 2025), pre-booked online, no proxy attendance; 운전적성 정밀검사 for new and returning drivers; ride-refusal penalties of 20k/40k/60k KRW with licence suspension in the 2026 package.",
+     "unchecked": "Whether any fines are charged for missed education (not confirmed); the calendar is a thin duty and the duty is mostly once every few years; users are well served by free portals. Same buyer group as the freight idea K14 but a different duty."
+    },
+    {
+     "buyer": "Corporate taxi companies (not owner-drivers)",
+     "category": "Taxi, 개인택시 and 화물 운수 licensing (택시 운송비용 전가금지)",
+     "evidence": "https://news.seoul.go.kr/traffic/archives/32049; https://www.insight.co.kr/news/3765",
+     "existing": "Payroll software generally; no product dedicated to this rule was seen.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Taxi company 운송비용 전가금지 deduction auditor (법인택시)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "택시발전법 art. 12 bars passing vehicle purchase, fuel, wash and accident costs to drivers; fine of 5M KRW at first offence, escalating to licence cancellation; Seoul has fined firms first; Supreme Court 2022다307003 (2023) backs the rule.",
+     "unchecked": "Company count; firms are mid-size rather than quiet micro-businesses; compliance is a payroll rule, not a register; probably handled by labour-law offices."
+    },
+    {
+     "buyer": "Sole traders paying daily workers or freelancers",
+     "category": "Small-business tax and e-invoice duties for sole traders",
+     "evidence": "https://taxtimes.co.kr/news/article.html?no=250921 (2021 article, fetched); https://wikidocs.net/blog/@TaxSave/30158/",
+     "existing": "HomeTax is free; 세무사 handle filings; small-business accounting apps likely cover it (out of scope as generic accounting).",
+     "known_id": "K16",
+     "known_mark": "known",
+     "known_note": "Overlaps K16 (construction daily-worker reporting) which was rejected as too competitive.",
+     "name": "Sole-trader monthly 지급명세서 / e-invoice filing reminder",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Monthly 일용근로소득 and business-income 간이지급명세서 (since July 2021); wage 간이지급명세서 monthly (2022-07 per a 2021 article); penalty 0.25% of the amount; 20-or-fewer-employee firms get a one-year penalty waiver for semi-annual wage filing; e-invoice mandatory at 80M KRW threshold (unconfirmed).",
+     "unchecked": "Out of scope as generic tax; overlaps K16 labour reporting but kept for the record, not for building."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "37. Other regulated lists scanned (country-specific: 약국/치과기공소/안경업소/화학물질; 의료기기 판매업, 화장품책임판매업, 건강기능식품 판매업, 통신판매업, 개인정보)",
+     "found": "Dental labs: first search returned only US pages, but a fetch of nepla.ai 의료기사 등에 관한 법률 시행규칙 confirmed Art. 12-5(2): dentist and dental-lab operator must each keep the 치과기공물제작의뢰서 (Form 6) for 2 years; Art. 16 closure/transfer report within 14 days; 의료기사 3-yearly 실태신고 (Art. 12-2). A news item mentions a lab fined (3-month suspension or 10M+ KRW) for employing a technician with suspended licence. Opticians: Art. 12 개설등록, one shop per optician, online sale of glasses/contact lenses banned (Constitutional Court upheld 2024-03-28); no retention period or fine amounts found. Digital-order problem confirmed by a startup (venturesquare, nextunicorn) that digitises 기공의뢰. 의료기기 판매업, 화장품책임판매업, 건기식 판매업, 통신판매업 and 개인정보 duties were not separately verified (nothing found in the searches). 상조업, 대부업, 택배 영업점 (생활물류서비스산업발전법, amended 2026-02-27, in force 2026-08-28) searched once with no usable detail. Regulator registers (식품안전나라, 법제처 lists) not opened.",
+     "status": "screened"
+    },
+    {
+     "category": "Taxi, 개인택시 and 화물 운수 licensing: 운수종사자 / 택시 운송비용 전가금지, 택시 미터 and 개인택시 면허 renewals",
+     "found": "Individual taxi/freight drivers must do periodic 보수교육 (4 hours; freight blog says every 3 years, unverified; taxi concentrated Mar-Apr in Daegu), booked online at regional 교통연수원 (free or 10k KRW), with no proxy attendance. 운전적성 정밀검사 for new/returning drivers. Taxi 운송비용 전가금지 (택시발전법 art. 12) is a corporate-taxi duty (fine 5M KRW first offence, up to licence cancellation); a 2026 ministry rule package adds 20k/40k/60k KRW fines and licence suspension for refusal of rides. No official 자격유지 filing or renewal procedure found. Nothing new beyond K04/K14; no software need identified because booking is a free regional portal.",
+     "status": "screened"
+    },
+    {
+     "category": "Small-business tax and e-invoice duties for sole traders: 전자세금계산서 의무발행, 간이과세, 현금영수증 의무발행업종, 사업장현황신고, 간이지급명세서",
+     "found": "E-invoice mandatory for sole traders with prior-year supply value (incl. exempt) of 80M KRW or more per site (tax blog, June 2026 law basis; the threshold itself was not confirmed against NTS). Penalty on fake invoices raised from 3% to 4% from 2026; late or missing issue 1-2%. 일용근로소득 지급명세서 and withholding-type business income 간이지급명세서 have been monthly since July 2021, and wage 간이지급명세서 monthly from 2022-07 (per a 2021 article; later sources conflict on dates), with 20-or-fewer-employee firms getting one-year penalty relief on semi-annual filing; HomeTax is free and 세무사 handle delegated filing. 면세사업자 사업장현황신고 returned nothing. Generic tax/accounting, so low fit with the study definitions; overlaps K16 only partly.",
+     "status": "screened"
+    },
+    {
+     "category": "Private hagwon/childcare/elderly facility small-operator registers: 어린이집, 노인요양/주야간보호센터, 장기요양 e-billing, 학원 교습비, 정보공시",
+     "found": "Hagwon: 교습비 posting duty; Jan-Jun 2026 special inspection covered 55,280 sites, 5,021 violations, 6,691 administrative actions (1,286 fee-related); reward caps raised 2026-07-16 (200k KRW... actually 2M KRW for unregistered teaching, 1M KRW for overcharging/hours); a bill (July 2026) would fine overcharging at 2x the gain and carry penalties to relatives who reopen. Long-term care: 지정갱신제 (6-year validity; 5 criteria; apply at least 90 days before expiry; legacy sites had to pass by Dec 2025); 2026 정기평가 for 12,081 재가 sites (indicators cut from 224 to 136); consultants sell renewal help on kmong. Home daycare: CCTV rules (60-day storage, access log, internal management plan, fines 1M-3M KRW), 2025 guideline changes (CCTV immediate view needs doctor's note AND official), 안전공제 mandatory (wiki source only). No 보육통합정보시스템 reporting detail found; about one in three home daycares closed (2023 news).",
+     "status": "screened"
+    },
+    {
+     "category": "Short-term lodging and 농어촌민박 / 공유숙박 / 캠핑장 licensing: 농어촌민박 신고, 야영장업 등록, 소방·안전점검, 숙박업 위생교육",
+     "found": "농어촌민박: already in 재난배상책임보험 mandate (covers up to 150M KRW per person, 1B KRW property; fine up to 3M KRW). Per Dailian (2026-08-02) the interior ministry and culture ministry agreed to extend the mandate to 외국인관광 도시민박업 (~9,800) and 한옥체험업 (~2,300), about 12,000 sites, by amending the 재난 및 안전관리 기본법 시행령; no start date. 야영장업: registration under 관광진흥법, 책임보험 since 2019, fire equipment (extinguisher per 100 sqm, charcoal disposal), monthly safety checks reported half-yearly (2015 press, to verify); MCST tendered a study on revising 테마파크·야영장 재난안전의무보험 (May-June 2026). 농어촌민박: annual 안전·서비스 교육 (~3h + 2h fire + 1h hygiene, 2020 paper, to verify); municipalities run 26-item checks. Nothing found on commercial compliance software.",
+     "status": "screened"
+    },
+    {
+     "category": "Small-fishery and aquaculture owners: 어선 출입항 신고, 수산물이력제, 양식업 면허/허가 갱신, 어업경영체 등록, 낚시어선; agri 농업경영체 / PLS",
+     "found": "어선 출입항 신고 under 어선안전조업법 시행규칙 (amended 2026-06-30, in force 2026-07-01): owner or captain gets a 확인서 from the 신고기관 and keeps it on board. Coastal fishing licences run on a 5-year cycle (2024-01-01 to 2028-12-31), so no mass renewal in 2026; succession needs a report within 30 days. 어업경영체 등록 was simplified (counter at 행정복지센터 from Jan 2026) but a 행정예고 of 2026-09-08 to 09-28 tightens sales evidence (bank transfer proof) and fishing-day rules after a May 2026 joint inspection of 8,669 registrations. 수산물이력제 covers only 6.4% of domestic distribution and is voluntary (calls to mandate TAC species, Aug 2026); imported seafood traceability widened from 22 to 27 items (June 2026). 농업경영체 / PLS not searched. Fishing households are mostly offline and low-income, with free state portals.",
+     "status": "screened"
+    },
+    {
+     "category": "Other regulated lists (coverage 37 not_reached): 치과기공소 제작의뢰서, 안경업소, 의료기기 판매업 records, 화장품책임판매업 and 건강기능식품 판매업 reporting, 개인정보 보호법 duties for small shops",
+     "found": "Same as row 37: dental lab 2-year work-order retention confirmed from 시행규칙 Art. 12-5(2); optician registration and online-sale ban confirmed; 의료기기 판매업 records, 화장품책임판매업, 건기식 판매업, 통신판매업 and 개인정보 duties had no usable Korean source in the searches and remain unverified.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "치과기공소 작업의뢰서 보존 의무 의료기기 판매업 기록 보관 행정처분",
+    "개인택시 개인화물 운송사업자 의무 보수교육 자격유지 신고 갱신",
+    "2026 개인사업자 전자세금계산서 의무발행 기준 변경 간이지급명세서 가산세",
+    "가정어린이집 원장 의무 보고 보육통합정보시스템 CCTV 점검 2026",
+    "야영장업 등록 안전점검 의무보험 가입 농어촌민박 신고 소방시설 2026 개정",
+    "어선 출입항 신고 어업허가 갱신 수산물이력제 등록 의무 어업인 2026",
+    "치과기공소 개설등록 의료기사법 치과기공물제작의뢰서 보존 2년 위반 과태료",
+    "개인택시 면허 자격유지 검사 택시운송사업 개정 2026 국토교통부 택시 소상공인",
+    "주야간보호센터 장기요양기관 지정갱신 평가 보고 의무 2026 소규모 시설",
+    "학원 교습비 게시 정보공시 의무 학원 운영자 행정처분 2026 교육청",
+    "수산물이력제 등록 의무 확대 양식업 어업경영체 등록 2026 해양수산부",
+    "농어촌민박 신고 소방 안전점검 숙박업 위생교육 영업배상책임보험 가입 의무 2025 2026",
+    "안경업소 안경사 의료기기 판매업 신고 기록 보관 의무 통신판매업 신고 소상공인 과태료",
+    "택시 운송비용 전가금지 위반 개인택시 화물 운수종사자 자격 2026 개정안 시행",
+    "면세사업자 사업장현황신고 간이지급명세서 매월 제출 개인사업자 2026 일용근로소득 지급명세서",
+    "가정어린이집 폐원 원장 서류 부담 보육 행정업무 어린이집 평가 안전공제회 가입 의무",
+    "택배 영업점 등록 상조업 대부업 소규모 사업자 2026 시행 신규 의무 신고",
+    "치과기공소 관리 프로그램 제작의뢰서 전자 의뢰 거래명세 기공소 소프트웨어"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b20"
+ },
+ "triage:south-korea": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Small certified housework agencies with mandatory direct employment and insurance duties; in scope, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Small churches and charities with mandatory withholding and donation-receipt filings; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Elevator owners' monthly self-inspection input; different buyer and duty from K09 (apartment unit fire self-inspection)."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Septic hauler cleaning/volume records differ from K11 waste e-manifests; related K11."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Small groundwater users with mandatory water-quality tests; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Pesticide retailers' mandatory sales-record duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Gold dealers' gold-account and cash-receipt duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small tutoring premises with registration/posting duty and reporting incentives; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Pharmacies' prescription-drug sales report to HIRA; different duty from K03 (device distributor reports)."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Vet fee posting is a different duty from K10 (NIMS narcotics reporting); related K10."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Private ossuary operators with notification and fee duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Livestock vehicle owners' GPS registration duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Small food makers under a new traceability standard; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Scrap yards' purchase evidence for VAT credit; small sole traders, unsure of duty strength so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "A16",
+     "reason": "Fee-based job agencies with inspection and ledger duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A17",
+     "reason": "Small associations' subsidy settlement duty; in scope community bodies."
+    },
+    {
+     "decision": "drop",
+     "id": "A18",
+     "reason": "Required water tests are run by the municipality, so no mandatory recurring duty falls on the buyer group (rule: duty must fall on the small business or household)."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Delivery-agency operators with new mandatory insurance verification; new, not K04."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Seafood importers and wholesalers with 5-day reporting; different from K20."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Building owners with EV-charger report and insurance duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Farmland owners facing a one-off 2026 census with deadline; in scope for a one-off duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Restaurant owners' health certificate and hygiene training duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Home-care centres' RFID and billing inspection; different buyer from K12."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Urban minbak/hanok operators' foreign-guest and fee-posting duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Individual landlords' rental contract reporting; households in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Clinics' annual 비급여 report is a different duty from K12 claim integration; related K12."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Contractors' annual performance report differs from K16/K21 daily-worker reporting."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Co-operatives' annual disclosure and settlement duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Small chemical handlers' mandatory self-inspection and reporting; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Small timber importers' legality notification; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Dental labs' record-keeping and reporting duties; differs from K03."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Minbak hosts' disaster liability insurance duty; different duty from B7 reporting."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Campsite operators' safety check and insurance duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Care centre licence renewal is a different duty from B6 inspection/RFID audit."
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS5",
+     "reason": "Same hagwon/교습소 operators and same 교습비 posting/inspection duty as A9.",
+     "ref": "A9"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Fishing households' registration evidence gates subsidies; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Owner-driver training/inspection calendar is a different duty from K14 freight performance reporting; related K14."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Corporate taxi companies' cost-shifting prohibition; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS9",
+     "reason": "Sole traders' payment statements; different buyer from K16 construction; unsure so keep."
+    }
+   ]
+  },
+  "tag": "w2b20"
+ }
+}

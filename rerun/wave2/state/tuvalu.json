@@ -359,5 +359,143 @@
    "searches": 22
   },
   "tag": "w2b78"
+ },
+ "gapfill:tuvalu": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Importers and traders in Tuvalu who bring in levy-bearing goods",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://leap.unep.org/en/countries/tv/national-legislation/waste-management-act-2017 ; levy regulation and a waste audit mention (https://theprif.org/sites/theprif.org/files/documents/PRIF_Tuvalu-Waste-Audit_Final_webpub.pdf). Operative text not read (PacLII returned 403).",
+     "existing": "None seen; Customs/ASYCUDA likely collects at the border (see K02).",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Related to K02 (customs declaration helper); same border-collection channel, different duty.",
+     "name": "Waste levy deposit compliance for importers",
+     "score": 1.5,
+     "status": "weak",
+     "trigger": "Waste Management Act 2017 s10 special waste-related levies; Waste Management (Levy Deposit) Regulation 2019 (levy regime on imports reportedly still being developed)",
+     "trigger_note": "",
+     "unchecked": "Whether the levy is collected by Customs at declaration (which would make a separate tool pointless), who the importers are, the rate and the filing frequency. Fewer than a few dozen importers in a population of about 11,000."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Nothing new beyond K0x-free ground; no candidate. Biosecurity Act No. 24 of 2017 replaced the Importation of Animals Act Cap 44.20 (regs Cap 44.20.1 cover swine, cattle etc.); import permits and sanitary certificates handled by biosecurity officers (https://leap.unep.org/en/countries/tv/national-legislation/biosecurity-act-no-24-2017). Pigs on Funafuti are penned near the airport (RNZ 2019, https://amp.rnz.co.nz/article/91d6e1ee-05a6-42db-8d24-c63a4640674d). No livestock market or animal-transport licensing found. Buyer pool is a handful of households and importers; not a software market.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "No dedicated abattoir or meat-inspection regime found for Tuvalu. Public Health Act Cap 28.36 and Public Health Regulations Cap 28.36.1 let sanitary inspectors condemn unfit meat/food (https://pacliirms.paclii.org/tv/legis/consol_act_2022/pha2836143.pdf); no slaughter register or recurring report found. Business operating licence is issued annually by the Funafuti Kaupule (AUD 20-200; https://tuvalu.tradeportal.org/media/Ffuti%20Kaupule%20BOL%20(1).pdf), a paper process with very few firms. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Waste Management Act 2017 (Cap 35.08 in 2022 revision) provides for registration and licensing of private waste operators (s12), designated waste service areas and operators (ss14-18), and levies (s10); Waste Management (Levy Deposit) Regulation 2019 and Waste Management Regulations Cap 35.08.1 sit under it (https://leap.unep.org/en/countries/tv/national-legislation/waste-management-act-2017). Funafuti collection was historically run by the Kaupule with two trucks (SPREP, c.2012-13). No private hauler or septic-pumping sector found; PacLII full text blocked (403), so operator reporting duties unconfirmed. Only a weak import-levy lead (see ledger).",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Health is state-run through Princess Margaret Hospital and island clinics. Health Professional Act 2016 (Act 4 of 2016) requires registration of medical practitioners, dentists, nurses, pharmacists and allied health professionals with the Health Professionals Registration Board (https://pacliirms.paclii.org/tv/legis/num_act/hpa2016206). Only an unverified travel-site mention of one private clinic in Funafuti; local health insurance options are limited (360nations, unverified). No insurer-billing workflow. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "No contractor licensing, site register or local-content regime found. National Building Code for Tuvalu (1990, under review with GFDRR/World Bank) was reported as not legislated, with a Building Bill 2019 drafted (https://www.theprif.org/media/1411); a French-language source claims a Building Act 2019 and code published 2022, updated 2024 (conflicting, unverified). No mining. Regulator for permits unclear (ICC). Donor-funded works run through project procurement. Nothing new; if a Building Act is in force, permit and inspection workflow is worth a later check.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Tuvalu Biosecurity Act 2017 livestock import pigs animal quarantine",
+    "Tuvalu slaughter butcher meat inspection pigs Funafuti Public Health Act regulations",
+    "Tuvalu waste management septic sanitation Funafuti Waste Management Act regulations",
+    "Tuvalu private clinic health insurance Princess Margaret Hospital private practitioner registration Health Practitioners Act",
+    "Tuvalu building contractors registration Public Works Building Code Act Foreign Investment local content construction",
+    "Tuvalu Island Council business licence Funafuti Kaupule trade licence pig farm butcher shop",
+    "Tuvalu Building Code Act development permit Funafuti Kaupule building approval contractor",
+    "Tuvalu pig farming Ministry of Natural Resources Agriculture livestock department pigs Funafuti piggery regulation",
+    "Tuvalu Waste Management Act 2017 licensed private waste operator Funafuti waste collection contractor levy",
+    "WebFetch pacliirms.paclii.org/tv/legis/num_act/wma2017167 (403)",
+    "WebFetch pacliirms.paclii.org/tv/legis/consol_act_2022/wma3508184.pdf (403)"
+   ],
+   "searches": 11
+  },
+  "tag": "w2b83"
+ },
+ "sonnet:tuvalu:ALL1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "A duty exists but the market is tiny. The Tuvalu Fishing Crew Regulation (Parts II, IV, V) requires recruitment through an authorised, Tuvalu-national-only crewing agency, with conditions of authorisation (s14), a registry (s16) and a general penalty (s17). I could only read its table of contents. I could not confirm that it is in force, nor fees, renewal terms or penalty amounts. The LERA 2017 page returned 403, so the ss9-10 claim is unchecked. I found no local software and no digital agency register. The number of agents is not found but is probably only a handful, in a country of about 11,000 people. Buyer reach is easy, but willingness to pay is very low and a solo founder gets no scale. The claim's Marine Act link was not confirmed.",
+   "searches": 1,
+   "sources": "https://tuvalufisheries.tv/wp-content/uploads/2024/10/Fishing-Crew-Regulation.pdf ; https://tvship.com/Resources/Downloads/Circulars/MC-082012.pdf ; https://tuvalufisheries.tv/tag/ngo/",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b83"
+ },
+ "triage:tuvalu": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "ALL1",
+     "reason": "Crewing agents with recruitment licensing duty differ from K01 vessel operators' licence/logsheet duty."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL2",
+     "reason": "Small employers with mandatory TNPF registration and monthly returns; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL3",
+     "reason": "Small traders with recurring consumption/presumptive tax returns; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL4",
+     "reason": "Co-operative societies' annual accounts and audit duty; in scope association/co-op body."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL5",
+     "reason": "Seafarer cert/medical expiry is a different duty from ALL1 recruitment compliance; unverified so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL6",
+     "reason": "Small vessel owners' seaworthiness certificates are a recurring duty distinct from K01 fisheries licensing."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL7",
+     "reason": "Registered NGOs/church bodies with registrar duties; in scope community bodies."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL8",
+     "reason": "Small employers' permit duties for foreign staff; in scope and unchecked."
+    },
+    {
+     "decision": "drop",
+     "id": "ALL9",
+     "reason": "Voluntary annual ballot application by households, not a mandatory workflow owed to an authority (fails candidate definition)."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL10",
+     "reason": "Importers' biosecurity permits are a different duty from K02 customs declarations."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Waste levy deposit is a different duty from K02 customs declaration; related to K02 but new candidate."
+    }
+   ]
+  },
+  "tag": "w2b83"
  }
 }

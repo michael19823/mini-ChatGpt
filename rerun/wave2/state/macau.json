@@ -380,5 +380,244 @@
    "searches": 22
   },
   "tag": "w2b81"
+ },
+ "gapfill:macau": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "DSAL-licensed private employment agencies (about 134 in 2020; current count unverified), including the agencies that handle domestic helper hiring",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.gov.mo/en/services/ps-1388/ ; https://www.gov.mo/en/services/ps-1388b/ ; https://macaudailytimes.com.mo/?p=141141 (2020 report: 134 licensed agencies, MOP 300,000 guarantee, fee list sent to DSAL); DSAL 2026 reply via al.gov.mo/uploads/attachment/2026-07/b0d5d0a055c92171f144c8fd462e5033.pdf (fines MOP 50,000 to 100,000 for unlicensed activity)",
+     "existing": "Local-language competitor search (澳門 職業介紹所 管理系統 軟件 外僱 家務工作者 申請 系統 中介 工具): found no Macau agency-specific software; only Malaysian government online systems and DSAL replies. Generic HRMS products not checked. DSAL publishes its own licence list.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Same buyer group as K02 but a different duty (agency licensing rather than helper-employer admin). Duty is a licence renewal every few years plus a fee-list publication, so low frequency, and the buyer pool is only a few hundred firms. Likely a feature of K02 rather than a standalone product.",
+     "name": "Employment-agency licence, fee-list and guarantee compliance pack (Law 16/2020)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law 16/2020 licence, guarantee and fee-list duties (see evidence)",
+     "trigger_note": "",
+     "unchecked": "Licence validity period (not stated on the page); current agency count; whether agencies file periodic returns to DSAL; any existing practice-management software used by agencies; whether the helper-hiring workflow (Reg. 8/2010 forms) is done by agencies for employers at volume."
+    },
+    {
+     "buyer": "About 12,400 registered associations in Macau (about 60% active), mostly volunteer-run neighbourhood, clan, hometown and professional groups; secondary buyers are the secretaries and accountants who serve them",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://macaubusiness.com/macau-holds-first-public-consultation-on-associations-law-reform/ (17 Aug 2026: no reporting duties, no transition dates in the article); https://www.al.gov.mo/uploads/attachment/2021-05/7720860a36888adde9.pdf (Law 2/99/M art. 19 accounts publication for subsidised groups)",
+     "existing": "Local-language competitor search (澳門 社團 會計 帳目 公佈 軟件 社團管理 系統 會員 管理): found only generic overseas club and association accounting tools (Capterra, AssoConnect style) and no Macau-specific product. DSI runs the registry itself.",
+     "known_mark": "new",
+     "known_note": "Not enacted, no deadline, no confirmed recurring filing; buyers are volunteer groups with low willingness to pay. Worth a revisit if the bill adds annual accounts or member-register filing.",
+     "name": "Associations law transition kit (re-registration, dormancy and bylaw conformity for registered associations)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Draft associations law (consultation to 23 Sept 2026)",
+     "trigger_note": "",
+     "unchecked": "Draft text on annual reports, accounts and member-list filing; bill submission date and transition period; existing annual duties to DSI or DSF; subsidy-accounts publication (art. 19) compliance burden; whether big federations already have admin staff."
+    },
+    {
+     "buyer": "Vehicle repair workshops with spraying, welding, or lithium-battery assembly or dismantling (about 129 reported); private car yards and dismantlers",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "Search snippets of https://www.plataformamedia.com/zh-hant/2026/07/06/ (fetch returned 403, so figures unverified); Legal Affairs Bureau 2025 reply via https://al.gov.mo/uploads/attachment/2025-09/7209968c1421ec3542.pdf (bill on 2025 legislative plan, no workshop licensing now); 2026 reply on recycling sector at https://al.gov.mo/uploads/attachment/2026-06/91d2672457e12b69389f0d4ab859e029.pdf (snippet only)",
+     "existing": "None searched; no competitor search run because score is below 3. IAM, DSPA and fire service already run joint workshop inspections and issue a pollution-control guideline.",
+     "known_mark": "new",
+     "known_note": "One-off registration for a small number of firms, bill not enacted, and the same bill covers other trades (internet cafes, beauty salons, photo tours per snippet) that other workers may have screened. Much of the value would be a one-off paperwork service, not recurring software.",
+     "name": "Vehicle workshop and dismantler registration transition under the Specific Businesses Regulation regime",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Specific Businesses Regulation bill, 60-day registration after entry into force",
+     "trigger_note": "",
+     "unchecked": "Bill text and passage date; whether the regime also covers dismantlers and scrapyards; the number of firms across all covered trades; whether registration needs recurring renewals or inspections."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler licensing regime found. A 2021 Legislative Assembly (al.gov.mo) interpellation says about 5,000 end-of-life vehicles a year and that government and private car yards are near saturation. Workshops (including dismantling) are still governed by Decree-Law 47/98/M, which only sets night-time limits; there is no licence. A replacement bill, 'Regime for Regulation of Specific Businesses', was on the 2025 legislative plan and is reported (Plataforma Media, July 2026, via search snippet; the fetch returned 403) to be in consultation. The consultation text reportedly covers about 129 workshops doing spraying, welding or lithium-battery assembly or dismantling, keeps administrative approval, and sets a 60-day temporary registration after entry into force plus one year to remedy or relocate. Not yet enacted; one-off, small number of firms. See the candidate on this.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Nothing new. Slaughter is done by Macau Slaughterhouse Co. Ltd, in which the municipal bureau (IAM) holds 61.075% (Legislative Assembly reply). Retail meat stalls are licensed by IAM under the 1996 rules as amended by Administrative Regulations 17/2015 and 8/2016, which are premises and hygiene conditions with no recurring filing. Live animals come only from registered mainland farms, and checks are done by the state. No recurring duty falling on small butchers was found, so nothing for software.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "No Macau licence or register for septic, grease-trap or used-cooking-oil haulers found in three searches; results were mostly Hong Kong (EPD waste cooking oil collector registration, which is not Macau law). A Legislative Assembly interpellation (2021/2022) says used cooking oil collection in Macau is a near gap with few private collectors. The recycling trade has DSPA pollution-control guidelines and an equipment and vehicle subsidy scheme (2026 reply). Nothing mandatory and recurring found. Not verified on DSPA's own site.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Employment agencies are licensed by DSAL under Law 16/2020 (Employment Agency Activity Law). Licence renewal is 45 to 90 days before expiry (MOP 10,000; branch MOP 5,000; fee doubled if late; about 30 days processing). Fee-charging agencies must lodge a MOP 300,000 bank guarantee and publish and send DSAL a fee list. Job-seeker fees are capped at 50% of the first month's salary. Agencies must supply practitioners' names and licence numbers, and advertisements must show the licence number. Licensed agencies numbered 134 in 2020 (outdated). Only two designated agencies handle mainland-Chinese domestic helpers. Agencies cannot place non-residents already in Macau (2026 interpellation). The earlier 2018 bill coverage (macaubusiness) is superseded by Law 16/2020. No agency-specific software found (see candidate). The agencies are the same buyer as K02.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Public cemeteries and tombs are run by IAM. Administrative Regulation 12/2025 (Official Gazette, 13 Oct 2025) amends cemetery Regulation 37/2003; the text could not be fetched (host not reachable), so changes are unknown. Funeral services have no licensing regime found. A May 2024 interpellation says one company handles body transfers and funeral fees are opaque, and the Civil Registry plans a funeral-affairs website. Cremation is done on the mainland. Burial licences and 7-year tomb rights are IAM processes. No recurring register or return duty on private funeral firms found; nothing for software.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Associations are governed by Law 2/99/M (right of association) and the Civil Code. A government draft law to replace both went to 45-day public consultation from 17 Aug 2026 to 23 Sept 2026 (macaubusiness). The registry is run by DSI, which becomes sole supervisor. About 12,400 registered groups, about 60% active; the draft adds a dormancy mechanism, minimum 7 founders, stricter bylaws and names, and dissolution powers (including national security). No financial-reporting duty was confirmed in the draft. Law 2/99/M art. 19 requires publishing accounts for groups receiving public subsidies above a threshold. The Trade Union Law lets associations convert to unions between 1 Jan 2025 and 31 Dec 2027 (a few groups only). No halal or kosher supervision regime found. Candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "One search found nothing on Macau co-operatives (results were Taiwan law, AMCM fee orders and gaming credit law). From memory only and unverified: co-operatives sit under Decree-Law 52/99/M and are registered by DSE. No credit unions or savings groups found. No evidence of a recurring return duty or a sizeable buyer group. Unchecked: DSE co-operative register and count.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "澳門 報廢車輛 拆車 回收 牌照 環保局 汽車零件",
+    "澳門 肉類 屠宰 肉檔 許可 民政總署 衛生檢查 登記",
+    "澳門 化糞池 清潔 廢物 運輸 牌照 環保局 廢油 隔油池 回收商",
+    "澳門 職業介紹所 牌照 勞工事務局 外僱 家庭傭工 中介 年度 報告",
+    "澳門 殯儀 墳場 骨灰龕 殯葬服務 業者 牌照 民政總署 新法律",
+    "澳門 社團 年度 財務報告 法定義務 身份局 社團法人 登記 公益法人 稅務豁免 修改法律",
+    "澳門 合作社 信用合作社 儲蓄互助 法律 金融管理局 合作社 登記",
+    "Macau employment agency licence DSAL private employment agencies regulation domestic helpers",
+    "Macau funeral services licensing regulation 2025 2026 IAM funeral homes cemetery law",
+    "Macau associations law amendment 2025 2026 associations registration financial transparency legislative",
+    "澳門 汽車 廢車 回收 新規 2025 2026 環保局 報廢車輛 修理場 廢機油 電池",
+    "《職業介紹所法律制度》 澳門 法律 職業介紹所 發牌 勞工事務局 持牌 數目",
+    "澳門 合作社 經濟局 第52/99/M號 合作社 數目 活躍 年度報告 監察",
+    "澳門 《特定業務的規管制度》 法案 修車場 取代 第47/98/M號法令 2026",
+    "Macau employment agencies licensed number DSAL Law 16/2020 licence renewal obligations",
+    "澳門 職業介紹所 管理系統 軟件 外僱 家務工作者 申請 系統 中介 工具",
+    "Macau waste collection hauler licence DSPA grease trap septic used cooking oil collectors register 2026",
+    "澳門 社團 會計 帳目 公佈 軟件 社團管理 系統 會員 管理 澳門 協會 行政 服務"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b81"
+ },
+ "opus:macau:ALL1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Macau compliance-calendar product was found for the 10/5-year cycle, accounts deadlines or licence renewal. Nearby local apps: 澳物通 (Macau, Gaudisheng Tech; fee payment, repairs, complaints), Ulive (Hengqin Yun Ting; notices, fee bills, payment, repairs) and e管家/ec.Life (links owners, managers and owners' management bodies; notices, incident reports). Any of them could add reminders. Government help comes through the Building Maintenance Fund subsidies, and no state calendar tool was found.",
+   "duty": "Real, but mostly triggered by events rather than filed on a schedule. Law 14/2021 Art. 15(1) says maintenance is required \"when needed\": 10 years after the use licence, then every 5 years. Under Art. 15(7) the management body does the work on common parts in buildings with multiple owners. Under Art. 15(2) DSSCU can demand a technician's condition report only when it finds signs of poor upkeep. Fines under Art. 42: MOP 2,500–50,000 for individuals and 5,000–100,000 for legal persons for not submitting the report; MOP 5,000–200,000 for individuals and 15,000–500,000 for legal persons for not completing the works. A 2022 AL question says water and power can be cut off. Law 6/2026 (gazetted 11 May 2026, phased in from 1 June 2026) amended Arts. 4, 5, 7, 19–21, 25, 28, 42, 54, 57 and 58. Art. 15 shows no amendment marker on Wikisource, but the exact new Art. 42 amounts were not reached because the PDF could not be read. Law 14/2017 requires annual accounts to be reported and lets owners see documents (Art. 43). A court case (TSI 574/2021) confirms there are disputes over accounts. Under Law 12/2017 the IH licence lasts 3 years, can be renewed, and needs a technical director. The fire-safety mechanics of Law 15/2021 were not checked.",
+   "market": "Not found. Searches found no IH count of licensed building management companies or registered owners' management bodies. The licence regime is confirmed, but the number of licensees is unverified. Macau is small, so the number of licensed firms is probably limited (an inference, not checked). Owners' bodies in older buildings are often volunteers and are unlikely to pay.",
+   "reason": "The duties are real and in force, but they are soft and the market is small. Under Law 14/2021 Art. 15, maintenance at 10 years and then every 5 years is required \"when needed\". The building management body handles common parts. DSSCU asks for a condition report only when it sees signs of poor upkeep, so nothing is filed on a schedule. Fines are MOP 2,500–50,000 for individuals and up to 100,000 for companies. Law 6/2026 amended Art. 42 penalties but appears to leave Art. 15 alone. Law 14/2017 requires annual accounts and owner access, and IH management licences last 3 years. No Macau compliance-calendar tool was found. Local apps (澳物通, Ulive, e管家) cover fees, notices and repairs and could add this. The licensee count was not found. Buyers are few and mostly unpaid volunteers.",
+   "searches": 6,
+   "sources": "https://zh.wikisource.org/wiki/%E7%AC%AC14/2021%E8%99%9F%E6%B3%95%E5%BE%8B ; https://al.gov.mo/uploads/attachment/2022-06/36217629f0a3a34258.pdf ; https://www.al.gov.mo/uploads/attachment/2023-04/311196440c40100774.pdf ; https://al.gov.mo/uploads/attachment/2026-05/881866a0135b13b4be.pdf ; https://www.court.gov.mo/sentence/zh-1d4827ac708f754f.pdf ; https://zh.wikisource.org/zh/%E7%AC%AC14/2017%E8%99%9F%E6%B3%95%E5%BE%8B ; https://apps.apple.com/hn/app/%E6%BE%B3%E7%89%A9%E9%80%9A/id6449464929?l=en-GB ; https://apps.apple.com/app/id1532693283 ; https://apps.apple.com/py/app/e%E7%AE%A1%E5%AE%B6%E7%89%A9%E6%A5%AD%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0/id1569359398?l=en-GB",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b81"
+ },
+ "sonnet:macau:ALL2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real but thin. Law 5/2013 art. 5 requires food operators to keep incoming and outgoing records or documents \"within a specified period\"; no retention length or form is stated, and no penalty is tied to record-keeping alone. The MOP 50,000-600,000 fines and prison terms apply to unsafe or unquarantined food. IAM's Aug 2026 enforcement (25 cases, 5,800+ inspections) is a nudge, not a mandated log or e-filing. Nothing found that already does this job, but searches were limited and the market size was not found. Weak pain, no fixed frequency, no filing deadline, and a paper-habit buyer base with low willingness to pay. The IAM article itself was not opened.",
+   "searches": 5,
+   "sources": "https://www.plataformamedia.com/zh-hant/2026/08/25/市政署首七月開立25宗涉無檢疫食材案件-籲業者守/ ; https://zh.wikisource.org/zh-hans/第5/2013號法律 ; https://images.io.gov.mo/bo/i/2013/17/lei-5-2013.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b81"
+ },
+ "sonnet:macau:ALL7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty looks real. Press reports say pawnshops, jewellers, real estate agents and auction houses must report transactions of MOP 500,000 or more, and the 2006 AML law (Law 2/2006) is being replaced by a draft in departmental consultation. I could not open the law or GIF guidance, so frequency, penalty and in-force status are unconfirmed. I found no local AML software aimed at these sectors, but my searches were thin. The market is small: GIF's H1 2026 data puts \"other\" reporters at 7.6% of reports, and I found no firm counts. The reporting is event-driven rather than a recurring filing, and the draft law is not yet in force. Notaries are not covered. Willingness to pay is likely low, so the kit is a weak niche.",
+   "searches": 5,
+   "sources": "https://aman-alliance.org/Home/ContentDetail/102126 ; https://sigma.world/zh-hant/news/macau-anti-money-laundering-regulation-casinos/ ; https://sigma.world/news/macau-suspicious-transaction-reports-fall-2025/ ; https://macaubusiness.com/macau-real-estate-industry-to-slowly-adapt-to-new-anti-money-laundering-regulations-financial-crime-expert/ ; https://aman-alliance.org/Home/ContentDetail/104836",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b81"
+ },
+ "sonnet:macau:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The draft law is real. A 45-day consultation ran to 23 Sept 2026, covering about 12,400 registered associations. Roughly 40% have been inactive for at least five years. DSI would be the sole supervisor and would run a dormancy process: notify, then dissolve if there is no response. I found nothing on annual accounts, member-list filing, bylaw-conformity deadlines or a transition period. The bill is not enacted, so there is no recurring duty yet. Law 2/99/M art. 19 requires subsidised groups to publish accounts, but the government reportedly does not enforce it. The one-off dormancy/re-registration trigger is weak. Buyers are volunteer groups with low willingness to pay. I did not search for competitors beyond the claim's own search. Revisit if the bill adds annual filing.",
+   "searches": 2,
+   "sources": "https://macaubusiness.com/macau-holds-first-public-consultation-on-associations-law-reform/ ; https://www.al.gov.mo/uploads/attachment/2021-05/7720860a36888adde9.pdf",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b81"
+ },
+ "triage:macau": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "ALL1",
+     "reason": "Wider duty set (accounts, minutes, fire safety, 5/10-year maintenance) than K01's lift duty; related to K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "ALL2",
+     "reason": "Recurring food traceability record-keeping for small F&B operators; differs from K04 one-time licence."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL3",
+     "reason": "Vets and animal businesses with a licence transition deadline in 2027; in scope as small professional offices."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL4",
+     "reason": "Small tutoring and childcare centres with recurring compliance duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL5",
+     "reason": "Small taxi licence-holder firms with recurring duties; in scope, verifiers can judge weakness."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL6",
+     "reason": "Small private clinics with recurring monthly voucher claims; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL7",
+     "reason": "Different buyer group from K09 (pawnshops, jewellers, agents, auction houses); related to K09.",
+     "ref": "K09"
+    },
+    {
+     "decision": "keep",
+     "id": "ALL8",
+     "reason": "Small fit-out contractors and owners with a deadline-driven permit change; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL9",
+     "reason": "Hotels and guest houses with a recurring guest-data duty to security forces; unverified, so keep."
+    },
+    {
+     "decision": "known",
+     "id": "ALL10",
+     "reason": "Same buyer and core duty as K02, domestic-helper employer and agency admin.",
+     "ref": "K02"
+    },
+    {
+     "decision": "known",
+     "id": "ALL11",
+     "reason": "Lift and car-lift owner compliance is exactly K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Same buyer group as K02 (agencies) but a different duty (agency licence, guarantee, fee list); related to K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Associations are an in-scope buyer; duty is not yet enacted but the verifier should check."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Many small workshops must register within 60 days; deadline-driven one-off duty is in scope."
+    }
+   ]
+  },
+  "tag": "w2b81"
  }
 }

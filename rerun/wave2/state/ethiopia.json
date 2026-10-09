@@ -622,5 +622,328 @@
    "searches": 18
   },
   "tag": "w2b74"
+ },
+ "gapfill:ethiopia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Addis Ababa edir associations",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "The Reporter: Addis Ababa City Administration directive obliges all edirs to register with the Bureau for certification, limits councils to one per woreda/sub-city/city, and requires periodic audit reports; edirs can own property and sign contracts. URL: https://www.thereporterethiopia.com/39349/ (article date and full text not confirmed; fetch returned empty). Federal ACSO regime: https://www.icnl.org/resources/civic-freedom-monitor/ethiopia",
+     "known_id": "K04",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K04. The directive supports K04; no new buyer.",
+     "name": "Edir registration and periodic audit-report book (Addis Ababa edir directive)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "City directive: registration with the Bureau and periodic audit reports"
+    },
+    {
+     "buyer": "Honey collectors, primary cooperatives and small packers supplying EU-listed exporters",
+     "category": "8. Beekeepers",
+     "evidence": "UNIDO GMAP traceability system registers beekeepers and operators and tracks harvest, transport, processing and sales; validated June-July 2024; paper-based now, digitisation planned: https://hub.unido.org/news/establishing-standardized-traceability-system-honey-value-chain-ethiopian (fetch blocked 403, from search snippets). Directive 1028/2024 colony registration: https://www.moa.gov.et/wp-content/uploads/2024/12/1028-Apiculture-Resources-Development-and-Protection-Directive-No.-1028-2024.pdf (fetch 503, from snippets). MoA APMIS announced Dec 2025: https://www.moa.gov.et/apiculture-management-information-system-modernizes-the-beekeeping-sector/",
+     "existing": "Competitor search run (English, no useful local-language result): state APMIS (MoA/ICIPE, 135 woredas), Bees for Development offline mobile tool (Anderacha), Maritu Api (traceability, P4G/Helvetas grant), Lal Honey (vertically integrated), Anabi (hive sensors). Searching 'APMIS' returned no registration workflow detail.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "Honey collector and cooperative offline lot-record book (digital version of UNIDO GMAP paper forms)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "UNIDO/EADA/MoA traceability forms; EU Reg 2023/2652 listing and residue monitoring plan (exporter-side demand)",
+     "unchecked": "Whether UNIDO or MoA mandates the forms or a digital tool and who pays; APMIS data fields and whether it replaces private tools; Directive 1028 renewal, record-keeping and fee duties; whether the honey bill passed; the buyer is the collector or cooperative (not the exporter in K05) and willingness to pay is untested"
+    },
+    {
+     "buyer": "Commercial farms and pesticide applicators",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "Directive 1028/2024 requires anyone planning to apply chemicals near apiaries to notify beekeepers within 4 km 72 hours before (per Reporter and MoA summary): https://www.thereporterethiopia.com/42453/ and the MoA directive PDF above. Enforcement mechanism unverified.",
+     "known_mark": "new",
+     "name": "Pesticide-spraying 72-hour notice to beekeepers within 4 km",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Directive 1028/2024 notice duty",
+     "unchecked": "Whether anyone enforces it; who the applicators are (mostly state or large farms); no register or recipient database exists"
+    },
+    {
+     "buyer": "Town water utilities and woreda water offices (government/donor buyers)",
+     "category": "13. Small water systems",
+     "evidence": "Utilities run under regional laws (Amhara 34/2005, 94/2012 grading); no federal tariff or reporting rule found; USAID briefing treats tariffs and financial transparency as WASHCO viability indicators: https://dt-global.com/wp-content/uploads/2023/09/lowland-wash-activity-briefing-note-professionalization-of-water-services.pdf. Digital tools exist: Akvo FLOW, WPdx, mWater, RWIMS.",
+     "existing": "Competitor search run: no WASHCO tariff-collection app found in Ethiopia; Akvo FLOW, WPdx, RWIMS and national WASH MIS cover inventory/monitoring only",
+     "known_mark": "new",
+     "name": "Small-town water utility and WASHCO tariff and financial reporting tool",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "None confirmed",
+     "unchecked": "Regional rules (Oromia, SNNPR, Amhara) on reporting; whether donors or regional bureaus procure software; no mandatory filing duty found, so it is not a regulated workflow"
+    },
+    {
+     "buyer": "Large institutional groundwater users and well operators in Addis Ababa",
+     "category": "13. Small water systems",
+     "evidence": "AAWSA licensing and monitoring of private groundwater extraction, operation and marketing: min depth 250 m, min demand 100 m3/month, hydrological report, intended use, demand projection, meter. Addis Fortune, Apr 2024 (re-dated Dec 2025): https://addisfortune.news/addis-abeba-taps-private-sector-for-water-relief",
+     "known_mark": "new",
+     "name": "Private groundwater permit, meter and monitoring file (Addis Ababa AAWSA framework)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "AAWSA permit and monitoring framework",
+     "unchecked": "Whether the framework is in force, effective date, fees, reporting schedule; applicants are large users (hotels, breweries, developers), so likely outside the quiet-small-firm scope; overlaps category 10 (another worker)"
+    },
+    {
+     "buyer": "Small bottled-water factories",
+     "category": "20. Small licensed premises with inspections: small food producers",
+     "evidence": "Bottled water needs a Certificate of Manufacturing Competency from the food regulator (EFDA, Proclamation 1112/2019) and quarterly ECAE inspection and testing; monitoring and labelling gaps documented: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6047198/ and https://www.ejhd.org/index.php/ejhd/article/view/776",
+     "known_mark": "new",
+     "name": "Bottled-water producer quality and permit file (CMC, quarterly ECAE tests)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "EFDA licensing and quarterly testing",
+     "unchecked": "Number of small bottlers, current EFDA rules and renewal cycle; category belongs to another worker; sources are academic and may be dated"
+    },
+    {
+     "buyer": "Private funeral homes and cemetery offices",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "Funeral homes operate in Addis (Ethiopian Business Review: https://ethiopianbusinessreview.net/funeral-homes/); no licensing, burial-permit or register duty found. The only burial-permit source is an unreliable wiki page.",
+     "known_mark": "new",
+     "name": "Private funeral homes and mortuary transport",
+     "score": 1,
+     "status": "weak",
+     "trigger": "None confirmed",
+     "unchecked": "Trade licence class, municipal or health permits for body transport and mortuaries, Amharic sources on Addis cemetery office permits"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "8. Beekeepers",
+     "found": "Federal Apiculture Proclamation 660/2009 plus MoA Directive 1028/2024 (federal): modern-hive beekeepers must register colonies at woreda/kebele office within 3 months of placing a colony in a hive; commercial beekeeping and queen rearing need a business licence; ban on commercial import of live bees and used equipment; 72h notice to beekeepers within 4 km before pesticide spraying. Export side: MoA annual Residue Monitoring Plan (EU 96/23/EC), exporters prepare plans. UNIDO GMAP unified traceability system (registers beekeepers and operators; harvest, transport, processing, sales) validated June-July 2024, paper forms now, digitisation only planned. MoA announced a state APMIS (Dec 2025) for honey sourcing, production and quality data, with ICIPE support in 135 woredas. A draft honey and apicultural products bill (transport licensing, storage and sale standards) was reported Nov 2023, enactment unconfirmed. Existing players: Maritu Api, Lal Honey, Anabi, Bees for Development offline tool. Directive full text could not be fetched (HTTP 503), so renewal, record-keeping and fee duties are unchecked. Nothing clearly new beyond K05; APMIS is a state competitor.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Federal Water Resources Management Proclamation 197/2000 and Regulation 115/2005: permits for water supply and waterworks, water user cooperatives. Town utilities and community WASHCOs run under regional laws (for example Amhara Regulation 34/2005 and 94/2012 grading urban water services). No federal tariff, licence or reporting rule for small-town utilities or WASHCOs found. A May 2025 water bodies proclamation was approved by the House, not about utilities. Addis Ababa (AAWSA, city-level) is opening private groundwater extraction with licence plus monitoring: 250 m minimum depth, 100 m3/month minimum demand, hydrological report, meter; the target is large users (hotels, breweries, developers), not quiet small firms. Digital tools already used: Akvo FLOW, WPdx, mWater (wastewater), RWIMS, national WASH MIS. No tariff-collection app for WASHCOs found. Nothing quiet and recurring that a solo founder can sell to.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Addis Ababa cemeteries are run by the city administration cemetery office and by church and mosque compounds; no cemetery licence or register duty for private operators found. Private funeral homes exist (for example Bet-El, Addis) with no licensing rule found. Addis Ababa edir directive (city-level, issued by the Women, Children and Social Affairs Bureau; date unconfirmed): all edirs must register with the Bureau for certification, one council per woreda, sub-city and city, and submit periodic audit reports; this is the K04 buyer and duty. ACSO (Proclamation 1113/2019, Directive 938/2022) is the federal CSO regulator; whether edirs also fall under it is unconfirmed. The ICNL guide PDF could not be parsed, so CSO annual-report duties are unchecked. Nothing new beyond K04.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 8,
+   "queries": [
+    "Ethiopia honey beekeepers registration licence apiary Ministry of Agriculture honey export residue monitoring",
+    "Ethiopia small town water supply utility water user associations licensing Proclamation tariff reporting WASH",
+    "Ethiopia funeral services cemetery burial licence Addis Ababa Bureau burial ground management directive",
+    "Amharic: honey/bee registration, hive licence directive, Ministry of Agriculture",
+    "Amharic: burial permit, funeral service licence, Addis Ababa cemetery, edir registration",
+    "Ethiopia water supply service providers regulation proclamation 2024 2025 water utilities regulatory tariff licensing private water vendors",
+    "Ethiopia Authority for Civil Society Organizations edir iqub registration annual report Proclamation 1113/2019",
+    "Ethiopia bottled water vending kiosk water point operator private borehole license MoWE EFDA",
+    "WASHCO management mobile app Ethiopia water point payment monitoring software tariff collection",
+    "Ethiopia honey traceability platform exporters beekeepers cooperatives digital record EU residue monitoring plan 2025",
+    "Ethiopia private funeral service company coffin hearse Addis Ababa burial service business license",
+    "Ethiopia new water resources proclamation 2024 2025 water permit groundwater abstraction licence",
+    "Addis Ababa edir registration burial association Bureau directive 2024 2025",
+    "Addis Ababa Water and Sewerage Authority groundwater private permit water meter tanker operators regulation 2025",
+    "Ethiopia honey exporter traceability software app beekeepers collectors digital platform startup",
+    "Apiculture Management Information System APMIS Ministry of Agriculture Ethiopia beekeeper registration honey quality control"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b74"
+ },
+ "triage:ethiopia": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New buyer (overseas employment agencies) with a new federal law and deposit/reporting duties."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Different buyer group (registered CSOs/charities) and duty (licence renewal with audit) from K04 edir ledger; related K04."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "New buyer and duty (lift installer/inspector licensing); weak but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Annual trade-licence renewal for small Addis traders is a new buyer and duty, with fines and sealing."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Different buyer (small traders) and duty (gross-sales turnover tax records) from K01 e-invoice bridge; related K01."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Non-bank forex bureaus are small firms with a recurring NBE record/reporting duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small transport operators with new city-level GPS/registration duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Abattoirs and butchers are a different buyer group from K11 livestock traders/exporters; related K11."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Private kindergartens face yearly licence evaluation; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Vet drug sellers and importers with licence filings; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Agrochemical and fertiliser dealer competence certificates; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Well drillers with permit and report duties; new, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Small waste-collection enterprises with permit and zone records; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Gold intermediary licensing and NBE delivery records; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Small lodging operators with new municipal-tax and guest-register duty; differs from K01; strong deadline 19 Jun 2026."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Individual landlords with lease registration and rental-income duty; new household-side buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Cooperatives/SACCOs differ from K04 edir associations; new duty (audit and Commission reporting); related K04."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Private pharmacies with controlled-medicine recordkeeping under EFDA directive; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Pulse/oilseed/sesame exporters differ from K03 coffee exporters and face a different duty (ECX routing, 40-day clock); related K03."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Fuel stations with inventory and delivery reporting; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "EV charging operators with PEA licence and tariff duty; new, weak."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Private clinics with accreditation and insurer claims duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small contractors with annual licence renewal and grade upgrade; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Real estate brokers with licensing and transaction records; new."
+    },
+    {
+     "decision": "merge",
+     "id": "B11",
+     "reason": "Same buyer (overseas employment agencies) and same licensing/compliance duty as A1.",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Small MFIs and agents with NBE directives; unsure on size, so kept for verification."
+    },
+    {
+     "decision": "merge",
+     "id": "B13",
+     "reason": "Same gold trader buyer group and NBE sale/permit duty as A14.",
+     "ref": "A14"
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Coffee exporter licence upkeep is a different duty from K03 EUDR buyer pack; related K03."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "AML reporting for DNFBPs is a different duty and a broader buyer group than B10; unverified."
+    },
+    {
+     "decision": "known",
+     "id": "B16",
+     "reason": "Same e-invoicing duty and buyers as K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "known",
+     "id": "GAPS1",
+     "reason": "Same Addis edir buyer and registration/audit-report duty as K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "known",
+     "id": "GAPS2",
+     "reason": "Same honey collector traceability buyer and duty as K05.",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Pesticide applicators' 72-hour notice is a distinct duty; weak but in scope."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS4",
+     "reason": "Buyers are government and donor town utilities; the state's own system, with no confirmed duty."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS5",
+     "reason": "Targets large institutional groundwater users, which are large-firm duties out of scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Small bottled-water producers with recurring EFDA permit and quarterly testing; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Small funeral homes are a small-business buyer; no duty confirmed, so unverified rather than dropped."
+    }
+   ]
+  },
+  "tag": "w2b74"
  }
 }

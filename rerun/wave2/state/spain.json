@@ -1,4 +1,28 @@
 {
+ "challenge:spain:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Main weaknesses are not a single killer: the rule is confirmed only in the Basque Country (Orden 25/06/2020, amended 23/07/2020). Catalonia's Mossos order is still a 2019 draft that, according to its impact report, would bring its own regional IT tool. Elsewhere only the old paper rules apply (OM 1989, RO 1924). Reports go through the free euskadi.eus sede form, and I found no bulk upload or API.",
+   "reason": "I found nothing that kills it. Spanish and Catalan searches turned up no product that files these reports to the Ertzaintza or the Mossos, and no POS add-on that does. Free alternatives are the euskadi.eus sede form, paper books, or in-person filing with Ertzaintza permission. The 2020 Basque order replaced the 2019 one (marked derogated) and was amended in July 2020. It makes phone, electronics, second-hand shops, bazaars and platforms report within 24 hours. The market is small. The rule is confirmed only in the Basque Country. Catalonia's electronic-reporting order is a 2019 draft whose report lists a regional IT tool as the only cost, and I found no sign it was adopted. Elsewhere only the old 1989/1924 paper rules apply. I found no bulk upload or API, so integration would be fragile.",
+   "searches": 8,
+   "sources": "https://www.euskadi.eus/y22-bopv/es/bopv2/datos/2020/07/2002601a.shtml; https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2019/08/1903774a.shtml; https://vlex.es/vid/orden-23-julio-2020-846773415; https://laadministracionaldia.inap.es/noticia.asp?id=1147703; https://www.accio.gencat.cat/web/shared/Transparencia/normativa-en-tramit/INT/en-tramit/Projecte_ordre_objectes_usats/Proposta-Ordre-sobre-comerc-i-reparacio-dobjectes-usats-inclosa-lacti....pdf; https://www.accio.gencat.cat/web/shared/Transparencia/normativa-en-tramit/INT/en-tramit/Projecte_ordre_objectes_usats/memoria-avaluacio-impactes-projecte-Ordre-establiments-comerc-i-reparacio.pdf; https://www.3cat.cat/3catinfo/com-controlen-els-mossos-el-negoci-de-lor-amb-preus-pels-nuvols-i-record-de-compravendes/noticia/3380389/; https://www.accio.gencat.cat/web/shared/OVT/Departaments/INT/A_Policia__INT/Formularis/22292_Manual_d_instruccions_plataforma_comunicacions_recurrents_SCOM_Lloguer_de_Vehicles_v2_0.pdf",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b10"
+ },
+ "challenge:spain:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None confirmed. Main risks are timing (the decree and order are still pre-drafting, with no date) and the chance that MITECO's centralised registry is a free state portal installers file in directly. The AEPD report and the consultation PDF could not be read (binary output), so the data fields and who operates the registry are unverified.",
+   "reason": "Nothing found that kills it. Eight Spanish and English searches turned up no Spanish product built for the F-gas logbook or registry filing. STEL Order's F-gas page covers only gas stock, the gas fee on invoices and reports for the modelo 587 tax return. It shows no per-equipment logbook or leak-check tracking. The other tools found are foreign (Refcom/Joblogic, KoudSmart, GoCanvas) or free spreadsheets (an EFCTC Excel logbook from 2014). Madrid's annual logbook filing is a regional e-form. Not settled: the draft decree and order are only at the pre-drafting stage (consultation 9-24 Sept 2026), with no date or data fields. Nothing confirms who runs the centralised registry or whether it has an API. It may be a free MITECO portal. The installer count was not checked.",
+   "searches": 8,
+   "sources": "https://www.miteco.gob.es/es/cambio-climatico/participacion-publica/publica-registrofluorados.html ; https://www.stelorder.com/manipulador-de-gases-fluorados ; https://sede.comunidad.madrid/inscripciones-registro/libro-gestion-refrigerantes/tramitacion_cerrada ; https://www.aragon.es/instalaciones-y-equipos-industriales/instalaciones-frigorificas/formularios-impresos-y-modelos ; https://coolingpost.com/uk-news/refcom-offers-free-gas-tracking-software ; https://out-smart.com/features/koudsmart ; https://apps.apple.com/gb/app/f-gas-solutions/id928450681 ; https://www.gocanvas.com/mobile-forms-apps/1200-F-Gas-Log-Sheet",
+   "suggested_score": 4,
+   "verdict": "unclear"
+  },
+  "tag": "w2b10"
+ },
  "critic:spain": {
   "result": {
    "gaps": [
@@ -910,6 +934,117 @@
    "verdict": "refuted"
   },
   "tag": "w2b9"
+ },
+ "sonnet:spain:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No RCTIR-specific software found. Generic association management tools (Gestión de Asociaciones, Ciel Associations Evolution) do not mention it. The ministry's electronic form is free.",
+   "duty": "RD 609/2023: initial declaration within 1 month, update within 10 days of a change, annual January declaration (confirmation if unchanged). Penalty under Ley 10/2010 arts. 50 ff. Applies to entities not declared through another registry. I did not check the BOE text directly.",
+   "market": "Not quantified. The relevant population is only the associations and foundations that must file directly, and that depends on the origin-registry exemption, which I could not confirm.",
+   "reason": "The duty is documented in 2023 law-firm notes. RD 609/2023 requires a filing within one month of creation, a 10-day update after any change, and an annual January declaration, with sanctions under Ley 10/2010. It applies only to entities whose beneficial-owner data has not reached the RCTIR through their own registry. Associations and foundations that are registered normally have their data passed on by the origin registry, which was due by 19 Jun 2024. So the direct-filing population is probably small. An Uría note of Oct 2025 says the RCTIR is still only partly operational and does not mention an annual declaration. I found no specialised software, but the ministry's e-filing is free, volunteer associations will pay little, and a once-a-year nil filing is a weak product. I could not find an association count within budget.",
+   "searches": 2,
+   "sources": "https://www.garrigues.com/es_ES/noticia/asi-funcionara-nuevo-registro-central-titularidades-reales-recabara-informacion-verdaderos; https://www.uria.com/es/publicaciones/newsletter/1969-publico; https://www.osborneclarke.com/es/insights/creacion-de-un-registro-central-de-titularidades-reales-para-combatir-los-delitos; https://www.mjusticia.gob.es/ca/ciudadania/registros/registro-central-titularidades-reales",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b10"
+ },
+ "sonnet:spain:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real: RD 355/2024 (ITC AEM 1) was published in the BOE on 13 Apr 2024 and replaced the ITC under RD 88/2013. It covers maintenance, periodic OCA inspection and deficiency deadlines, with regional enforcement. Fines of up to 100,000 EUR appear in press only, not checked against the BOE.\n\nCompetition is partial. TÜV SÜD offers an online lift-inspection viewer for administradores de fincas. Finca software (Cegid Finca3, ADCOMUNIDAD) covers contracts and incidents. I found no dedicated lift-dates product, but I did not check those programs' lift modules or the maintainers' portals.\n\nMarket: about 1.1 million lifts (Alimarket 2019, dated), roughly 75% residential. The buyer is a community of owners, mostly via administrators, so this sits at the edge of scope. Willingness to pay is likely low, and OCA and maintainer tools can bundle the same data.",
+   "searches": 3,
+   "sources": "https://www.boe.es/eli/es/rd/2024/04/02/355; https://www.tuvsud.com/es-es/industrias/construccion-real-estate/ascensores-gruas-otros-aparatos-elevacion/ascensores-escaleras-rampas/inspeccion-ascensores; https://www.softwaredoit.es/adcomunidad/adcomunidad.html; https://www.cegid.com/ib/es/productos/programa-administracion-fincas/; https://www.alimarket.es/construccion/informe/305300/informe-2019-sobre-el-sector-de-elevacion-en-espana; https://www.comunidad.madrid/node/75749",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b10"
+ },
+ "sonnet:spain:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. RD 3/2023 (BOE 10 Jan 2023) requires a supply-specific autocontrol protocol as an annex to the Plan Sanitario del Agua, reviewed yearly. SINAC use is compulsory. Source-risk assessments for larger intakes are due 2 Jan 2027. I did not find the penalty regime or a fixed protocol deadline. No dedicated commercial compliance software turned up, only guides and sensor vendors such as akwaMetric. But diputaciones and provincial labs already do the core job for small municipalities: Prodestur in Segovia writes protocols and uploads to SINAC for 100+ municipalities, and Alicante funds sampling plus SINAC upload for towns under 10,000. Buyers are slow public bodies, regulation differs by autonomous community, and I found no register count of operators. Willingness to pay looks low.",
+   "searches": 3,
+   "sources": "https://www.boe.es/eli/es/rd/2023/01/10 ; https://www.comunidad.madrid/node/74209 ; https://procuradordelcomun.org/archivos/resoluciones/1_1578470385.pdf ; https://alicanteplaza.es/alicanteplaza/la-diputacion-destina-255000-euros-para-controles-de-la-calidad-del-agua-en-municipios ; https://www.iagua.es/noticias/grupo-mejoras/solucion-akwametricr-garantia-control-calidad-agua-redes-distribucion ; https://www.saludcastillayleon.es/en/aguasdeconsumo/revision-municipios-gestores-laboratorios",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b10"
+ },
+ "sonnet:spain:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated product found; generic POS or inventory tools with batch tracking (e.g. Odoo) likely suffice",
+   "duty": "RD 666/2023 art. 26 (as cited by the Madrid form): computerised register of each entry/exit with batch, plus annual stock inspection. Penalty not found.",
+   "market": "Not found; no official count of pet shops or registered \"other channel\" outlets.",
+   "reason": "The duty is real but narrow. Madrid's sede confirms that \"other sales channels\" selling only non-prescription medicines for dogs, cats, terrarium animals, birds, aquarium fish and small rodents must file a declaración responsable. They must keep a computerised register of each entry/exit (date, product, batch, quantity, supplier) under RD 666/2023 art. 26, and do an annual stock check. The same register applies in other regions, e.g. Euskadi. I could not find a penalty, a shop count, or the literal art. 26 text. No dedicated tool turned up, but a POS with batch tracking probably covers it. The niche is tiny, the register is a by-product of stock control, and there is no clear payer. Searches also suggest the decree has been amended or proposed for amendment, so the rule may have changed. Low value.",
+   "searches": 3,
+   "sources": "https://sede.comunidad.madrid/inscripciones-registro/dispensacion-medicamentos-veterinarios; https://www.euskadi.eus/comunicacion/venta-de-medicamentos-veterinarios/web01-tramite/es/; https://www.mapa.gob.es/en/ganaderia/temas/sanidad-animal-higiene-ganadera/higiene-de-la-produccion-primaria-ganadera/medicamentos-veterinarios/facs_venta_distancia_med_vet",
+   "suggested_score": 2,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b10"
+ },
+ "sonnet:spain:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Not confirmed; asest.es ERP for desguaces (from the claim, not opened)",
+   "duty": "Daily electronic reporting of copper entries and a libro-registro (LO 1/1992 art. 12, Orden 2/11/1989, INT/1920/2011); Basque Orden 14/10/2022",
+   "market": "Unverified; a private directory suggests about 4,790 firms in a broad scrap and recovery group",
+   "reason": "The duty is real. Orden INT/1920/2011 (in force since 13/07/2011) requires scrap yards and wholesale scrap dealers to keep the libro-registro (model in the 1989 order, annex IV). It also requires daily electronic reporting of copper entries to police or Guardia Civil. The Basque Country has its own regime (Orden of 14 Oct 2022, Ertzaintza). Catalonia has its own electronic regime (INT/175/2011, Mossos), so reporting is regional and fragmented. I found no penalty detail and did not check the current consolidated text. Competition was not resolved: no scrap-yard software was found, and ERP vendors such as asest.es probably cover it. Market size is unknown; a private directory gives about 4,790 firms for a broader scrap and recovery group. The buyers are few and often well-established, and there is a risk that ERPs already bundle the feature. The score is low.",
+   "searches": 5,
+   "sources": "https://www.boe.es/eli/es/o/2011/07/01/int1920/con ; https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2022/11/2204749a.shtml ; https://laadministracionaldia.inap.es/noticia.asp?id=1227475 ; https://empresite.eleconomista.es/RECUPERACIONES-MOLINO.html",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b10"
+ },
+ "sonnet:spain:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Orden TES/539/2026 (BOE 1 Jun 2026, in force 1 Jul 2026) requires electronic filing of co-op books via the Registro de Cooperativas information system, within 4 months of year-end, with no blank books. Paper is still allowed for FY ending in 2026. No commercial software was found, but the state system is the free filing channel. The scope is narrow because the state registry covers only co-ops operating beyond one region. Regional registries (e.g. Madrid) run their own procedures. About 12,000 co-ops were registered with Social Security in 2018, and the state-registry share is unknown. Willingness to pay is low, since gestorías already do this and the first forced cycle is around April 2028. Technical specs were not verified.",
+   "searches": 3,
+   "sources": "https://laadministracionaldia.inap.es/noticia.asp?id=1266262 ; https://www.notariosyregistradores.com/web/normas/informes-mensuales/informe-381-boe-junio-2026/ ; https://www.iberley.es/noticias/el-boe-regula-legalizacion-formato-electronico-libros-sociedades-cooperativas-36535 ; https://www.mites.gob.es/EconomiaSocial/en/iniciativas-financiacion/registro-cooperativas/index.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b10"
+ },
+ "sonnet:spain:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Docuten (automated upload to AICA registry, e-signature); Digitel TS (unverified)",
+   "duty": "Register food contracts with primary producers in AICA registry before delivery and on modification; RD 1028/2022 under Ley 12/2013; mandatory since 30 June 2023",
+   "market": "Not found; the registry is not public. Unverified.",
+   "reason": "Duty is real: RD 1028/2022 (in force 22 Dec 2022; mandatory registration since 30 June 2023) requires buyers to register contracts with primary producers in the AICA registry before delivery, plus modifications and addenda, and to keep records 4 years. Exemptions: cooperative-member contracts, cash-on-delivery, contracts under 1,000 euro. Fines reach 1M euro for serious cases (the 250-3,000 euro minor tier was not verified). Docuten already automates the upload, with e-signature templates. Pricing, Digitel and micro-buyer fit were not verified. The AICA portal is free. No business count was found, because the registry is not public. Many buyers are mid-size and already served. Weak niche and fragmented buyers, so low score.",
+   "searches": 3,
+   "sources": "https://www.boe.es/eli/es/rd/2022/12/20/1028 ; https://www.agronewscastillayleon.com/eumedia-aica-grant-thornton-y-docuten-organizan-un-evento-para-aclarar-dudas-sobre-el-registro-de-contratos-alimentarios-en-la-aica/ ; https://www.legaltoday.com/practica-juridica/derecho-publico/derecho-administrativo/tribuna-ejecon-el-registro-digital-de-los-contratos-alimentarios-2023-08-11/ ; https://agro-alimentarias.coop/docs_download/ponencia-obligaciones-contractuales-registro-de-contratos-alimentarios",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b10"
+ },
+ "sonnet:spain:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Real Decreto 564/2025 of 1 July (BOE 2 July 2025) amends RD 861/2018. Olive oil changes took effect 1 Oct 2025 and table olives 1 Sep 2025, per Iberley, a secondary source. I did not open the BOE text or find the penalty. Almazaras file an annual production declaration by category before marketing, and organic monthly declarations became annual. Orujo dryers file monthly. These are mostly annual, and SIMO and AICA are free state systems. Bulk movements go through the AICA app. No dedicated vendor found, but the search was thin and I could not confirm absence. The market count is unverified (about 1,700 mills from memory, not sourced). Low frequency, a free state portal and a small niche keep the score low.",
+   "searches": 4,
+   "sources": "https://www.boe.es/eli/es/rd/2025/07/01/564 ; https://www.mapa.gob.es/es/prensa/ultimas-noticias/detalle_noticias/el-gobierno-aprueba-cambios-normativos-para-dotar-de-mayor-transparencia-el-mercado-ole-cola/32e34264-ed52-4d79-a197-3a555bdba84c ; https://www.agronewscastillayleon.com/mapa-simplifica-aceite ; https://www.iberley.es/legislacion/articulo-4-normativa-basica-materia-declaraciones-obligatorias-sectores-aceite-oliva-aceitunas-mesa",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b10"
+ },
+ "sonnet:spain:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. The Extremadura Government Delegation guide says consumption books and blast records (actas) go in monthly, in the first 5 working days, via ACCEDA procedure 319. Order validity depends on those filings being current. The consumer authorisation is under RD 130/2017 Title VII. RD 277/2005 and Orden PRE/2426/2004 define the books; I did not confirm the Orden is still in force (Iberley lists it as current). No commercial Spanish product found; only blast-design tools and a Swiss app (ExploSKI). Market is unquantified and likely a few hundred holders. Niche, low willingness to pay, provincial form variations. Low score.",
+   "searches": 3,
+   "sources": "https://mpt.gob.es/dam/es/portal/delegaciones_gobierno/delegaciones/extremadura/servicios/Area_de_Industria_y_Energia/Instrucciones_Modelo_Pedido_Explosivos_V3.pdf ; https://www.iberley.es/legislacion/orden-pre-2426-2004-21-julio-determina-contenido-formato-llevanza-libros-registro-movimientos-consumo-explosivos-2212137 ; https://www.geotest.ch/en/innovation/exploski",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b10"
  },
  "triage:spain": {
   "result": {

@@ -1,0 +1,341 @@
+{
+ "discover:A:norway": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Farms and other professional pesticide users (growers, fruit and vegetable farms, greenspace and golf contractors)",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.mattilsynet.no/planter-og-dyrking/plantevernmidler/veileder-til-forskrift-om-plantevernmidler/journalforing-ved-bruk-av-plantevernmidler ; https://mattilsynet.no/hoeringer?bId=4000 ; https://mattilsynet.no/planter-og-dyrking/plantevernmidler/arbeid-med-ny-elektronisk-plantevernjournal (this page returned 429 on fetch; its content is known only from the search summary). Mattilsynet says private farm systems already cover much of the EU requirement and can send data to its API. Subsidy cut: https://www.statsforvalteren.no/rogaland/landbruk-og-mat/miljotiltak/forbod-mot-bruk-av-plantevernmiddel-nart-vatn/",
+     "existing": "Competitor search found no named vendor. Mattilsynet confirms private journal systems exist and an NLR template and a Gårdsdrift print template exist. Farm-management incumbents will likely ship the API connection.",
+     "known_mark": "new",
+     "name": "Electronic spray journal (plantevernjournal) for professional pesticide users",
+     "score": 4,
+     "status": "promising",
+     "trigger": "EU Reg 2023/564 requires an electronic register, from 1 Jan 2026 with member-state delay possible to 1 Jan 2027. Norway has run two consultations; final rule and date are unconfirmed. Existing duty: plantevernforskriften section 3 plus Reg 1107/2009 art 67; journal kept at least 3 years; a missing journal cuts production subsidy by 20 percent.",
+     "unchecked": "Final Norwegian rule and start date; which farm systems already connect to the Mattilsynet API; number of professional users; whether the free state solution covers the small-grower segment (the 2024 consultation's solution was changed)."
+    },
+    {
+     "buyer": "Small van carriers, courier subcontractors and owner-operators with vehicles of 2.5-3.5 t carrying goods for hire",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://www.regjeringen.no/no/aktuelt/innforer-krav-om-kjore-og-hviletid-og-fartsskriver-for-varebiler/id3168129/ ; https://www.vegvesen.no/kjoretoy/yrkestransport/fartsskriver/for-transportbedrifter ; https://www.vegvesen.no/kjoretoy/yrkestransport/transportloyver-og-tillatelser/nasjonalt-varebilloyve/",
+     "existing": "ABAX has launched ABAX Tachograph (from search snippet, not opened). Tachograph download and analysis vendors for trucks already exist; no vendor aimed at one-van operators found.",
+     "known_mark": "new",
+     "name": "Tachograph and driving-time compliance for 2.5-3.5 t van carriers (plus national van permit)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "National van permit from 1 Jan 2026. Driving/rest-time rules and tachograph for national haulage from 1 Apr 2027 (international from 1 Jul 2026). Company card needed; driver-card data downloaded at least monthly; employer must train drivers.",
+     "unchecked": "Number of affected operators; whether a cheap download-and-compliance tool for tiny carriers exists; own-goods exemption share; the 1 Apr 2027 date comes from a regjeringen page that one source dates 1 Jul 2026 (the search summary cites a 1 July 2026 press release; confirm on the page)."
+    },
+    {
+     "buyer": "Small voluntary associations, foundations and religious bodies registered in Frivillighetsregisteret, and central bodies that collect applications from local branches",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://www.regjeringen.no/no/tema/kultur-idrett-og-frivillighet/frivillighet/innsiktsartikler/merverdiavgiftskompensasjon-for-frivillige-organisasjoner/id3092362/ ; https://www.rodekors.no/globalassets/_rapporter/diverse/horinger/2025/251001_horingssvar_ny-forskrift-momskompensasjonsordningen-for-frivillige-organisasjoner.pdf ; https://media.parkinson.no/assets/pdfs/2025-Informasjonsbrev-til-foreningene_momskompensasjon.pdf",
+     "existing": "Competitor search found no program aimed at this task. Revisors and central bodies (idrett, Røde Kors) handle it. The state may fetch accounts from Regnskapsregisteret, which would shrink the gap.",
+     "known_mark": "new",
+     "name": "VAT-compensation (momskompensasjon) application helper for voluntary associations",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Annual application to Lotteri- og stiftelsestilsynet by 1 Sept (payment mid-Dec); simplified or documented model; audited accounts needed above a threshold; a new regulation was consulted in 2025 with a 2026 start.",
+     "unchecked": "Final 2025/26 regulation; whether the application is simple enough that no software is needed; who pays (local branches are not direct applicants)."
+    },
+    {
+     "buyer": "Owners of private waterworks serving a few homes or a hamlet (sameier, vannverkslag, farms, camps)",
+     "category": "13. Small water systems",
+     "evidence": "https://mattilsynet.no/drikkevannsforsyning/informasjon-til-sma-vannforsyningssystemer ; https://mattilsynet.no/drikkevannsforsyning/krav-til-vannverk-i-digitalsikkerhetsloven",
+     "existing": "Not checked. Municipal water companies and lab sampling services probably cover part of it.",
+     "known_mark": "new",
+     "name": "Private small waterworks owner compliance pack (risk assessment, annual sampling, internal control)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Drinking water regulation: registration, hazard assessment, at least 1 raw and 1 treated sample a year, internal control, notification when water is unsafe; stricter above 10 m3/day or with kindergartens/care homes; digital security act (1 Oct 2025) applies only above 2,000 m3/day.",
+     "unchecked": "Number of small registered systems; any 2025-2027 change from the EU drinking-water directive; willingness to pay by volunteer-run waterworks (likely low)."
+    },
+    {
+     "buyer": "Housing co-ops, sameier and small commercial building owners with lifts",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://www.regjeringen.no/no/aktuelt/enklere-og-sikrere-rapportering-av-heiser-og-lofteinnretninger/id3132142/ ; https://www.oslo.kommune.no/plan-bygg-og-eiendom/heiskontroll/",
+     "existing": "Inspection firms (e.g. a municipal inspection service in Oslo) book inspections and write to the register. Facility-management software probably includes reminders.",
+     "known_mark": "new",
+     "name": "Lift owner periodic-inspection and log tracking for small property owners",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Safety inspection at least every 2 years by an approved controller, logbook of repairs, report incidents, ownership change and decommissioning to the national installation register (Nireg). Oct 2025 consultation to move the register to DiBK and clarify who must register.",
+     "unchecked": "Whether the consultation was adopted; competitor software search not run in Norwegian for property owners."
+    },
+    {
+     "buyer": "Small staffing agencies (annual confirmation, 3-yearly documentation) and small firms hiring from them",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://arbeidstilsynet.no/globalassets/regelverkspdfer/forskrift-om-offentlig-godkjenning-av-bemanningsforetak ; https://www.tu.no/artikler/na-ma-alle-bemanningsforetak-ha-godkjenning-fra-arbeidstilsynet/532336",
+     "existing": "Not checked. The register is public and free, which reduces demand for a client-side checker.",
+     "known_mark": "new",
+     "name": "Staffing-firm annual confirmation and client-side verification of approved bemanningsforetak",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Approval scheme since 1 Jan 2024; Arbeidstilsynet register of approved, pending and refused firms; clients may not hire from unapproved firms.",
+     "unchecked": "Annual confirmation dates and format; overlap with cat 26 (screened by the group B worker)."
+    },
+    {
+     "buyer": "Small slamtømming contractors working for municipalities",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://www.bergen.kommune.no/innbyggerhjelpen/vann-vei-og-trafikk/vann-og-avlop/avlop-og-avlopshandtering/tomming-av-slamavskiller-septiktank ; https://www.kristiansand.kommune.no/globalassets/felles/bolig-kart-og-eiendom/vann-og-avlop/forskrift-om-tomming-av-slamanlegg-2020.pdf",
+     "existing": "Municipal operator systems (not identified).",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "Septic-tank emptying operators' per-municipality job reporting",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Municipal by-laws under Forurensningsloven section 26: emptying every 2 years (homes) or 4 years (cabins), operator reports after each emptying; formats differ by municipality.",
+     "unchecked": "Whether municipalities supply their own reporting app to contractors; number of independent contractors."
+    },
+    {
+     "buyer": "Gold, jewellery, antique and second-hand dealers",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://www.nhosh.no/contentassets/f20bd6ea26db47d6a02879a7c345e9ef/handel-med-verdifulle-gjenstander-oktober-2025.pdf (PDF could not be read; content from search summary) ; https://www.regjeringen.no/no/aktuelt/endringer-i-hvitvaskingsloven-og-verdipapirhandelloven/id2557647/",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Dealers in valuables: possible return as AML reporting entities",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Working-group proposal to make dealers in valuables and cultural objects reporting entities again; adoption unverified. Present rule: NOK 40,000 cash ban, supervised by Skatteetaten.",
+     "unchecked": "Whether the proposal became law; supervisor; start date; this belongs to a watch list until a rule exists."
+    },
+    {
+     "buyer": "Households hosting an au pair",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://www.udi.no/en/want-to-apply/au-pair/au-pair-permit/requirements-of-au-pairs-and-host-families/",
+     "existing": "Au pair agencies; UDI form is free.",
+     "known_mark": "new",
+     "name": "Au pair host-family contract and obligations tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "UDI standard contract, host family e-learning, 30 h/week cap, minimum pocket money, Norwegian course costs.",
+     "unchecked": "Number of host families; no recurring filing found, only one-off contract duties."
+    },
+    {
+     "buyer": "Small vet clinics",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://mattilsynet.no/dyr/dyrehelsepersonell/rapportering-til-vetreg-og-koder-til-resepter",
+     "existing": "Reporting is built into the Dyrehelseportalen and practice systems (per Mattilsynet guidance).",
+     "known_mark": "new",
+     "name": "Veterinary drug reporting to VetReg for pet practices (from 2028)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "7-day reporting to VetReg; pet reporting deferred to 2028.",
+     "unchecked": "Which practice systems clinics use; whether 2028 date still stands."
+    },
+    {
+     "buyer": "Drilling firms (water wells, energy wells, geotechnical borings)",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://www.ngu.no/en/node/8140 ; https://register.geonorge.no/data/documents/Produktark_Grunnvannsborehull_v3_produktark-grunnvannsborehull-ngu_.pdf",
+     "existing": "NGU's own template; not checked further.",
+     "known_mark": "new",
+     "name": "Well-driller and geotechnical-driller reporting to NGU (Granada and NADAG)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "1996 regulation on borehole reporting to NGU (status unclear in sources); statutory duty to report complete geotechnical investigations to NADAG from 2025.",
+     "unchecked": "Number of firms; whether reporting is a pain point; whether the 1996 regulation is in force."
+    },
+    {
+     "buyer": "Beekeepers",
+     "category": "8. Beekeepers",
+     "evidence": "https://mattilsynet.no/dyr/produksjonsdyr/bier/biroktere-ma-registrere-bigardsplassene-sine ; https://mattilsynet.no/skjemaer/registrere-eller-oppdatere-birokt-registreringsskjema",
+     "existing": "Mattilsynet's free form.",
+     "known_mark": "new",
+     "name": "Beekeeper apiary registration and self-certification renewal",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Register apiary sites, update, report closure, renew 2-year self-certification when moving bees, register extraction rooms and direct honey sales.",
+     "unchecked": "Beekeeper count and any association tool."
+    },
+    {
+     "buyer": "Tattoo and piercing studios; notification-only hair and skin salons",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.asker.kommune.no/helse-og-omsorg/miljorettet-helsevern/hygienekrav-for-frisor-hudpleie-eller-tatoveringsvirksomhet/ ; https://www.bergen.kommune.no/innbyggerhjelpen/naring-avgifter-og-anskaffelser/naring/tilsyn-og-kontroll-med-naringsvirksomhet/soknad-om-godkjenning-av-tatoveringsog-piercingsstudio",
+     "existing": "Not checked; per-municipality forms.",
+     "known_mark": "new",
+     "name": "Tattoo, piercing and hair/skin salon municipal approval and internal control",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Hygiene regulation: municipal approval before opening for tattoo/piercing, new application on owner change or refit, internal control documentation.",
+     "unchecked": "Whether a recurring report exists beyond the one-off approval."
+    },
+    {
+     "buyer": "Small driving schools",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.vegvesen.no/fag/trafikk/godkjenning-og-tilsyn-med-trafikkopplaring/utdanningskrav/ ; https://vegvesen.no/globalassets/fag/horinger/2024/23-68149-forslag-til-ny-forskrift-om-etterutdanning-og-regodkjenning-av-trafikklarere/vedlegg-2---vedtatt-forskrift.pdf",
+     "existing": "Not checked; driving-school management systems likely exist.",
+     "known_mark": "new",
+     "name": "Driving schools: TSK register and instructor re-approval tracking",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Statens vegvesen approval, TSK register entries, health-validity renewals, new regulation on instructor continuing education (35 h, 2024).",
+     "unchecked": "Re-approval cycle dates; vendors."
+    },
+    {
+     "buyer": "Farm shops and small food producers",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://mattilsynet.no/mat-og-drikke/matproduksjon/registrering-og-godkjenning-av-naeringsmiddelverksemder",
+     "existing": "CheckPoint (IWMAC) and Matilda FoodTech guides/courses seen in results; not opened.",
+     "known_mark": "new",
+     "name": "Small farm food producer registration and IK-mat documentation",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Registration through Altinn form 'Ny matbedrift'; IK-mat internal control; approval for animal products.",
+     "unchecked": "Whether any tool fits tiny farm producers; recurring filing absent."
+    },
+    {
+     "buyer": "Approved wreck receivers",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://www.statsforvalteren.no/contentassets/fe2fcdcc2c544ff7b21cecad3c8cfc54/atracco---gjeldende-tillatelse.pdf ; https://www.sintef.no/project/GjenVinn/Workshop 080409/Autoretur_Produsentansvaret.pdf",
+     "existing": "Autoretur's AutoStat is the incumbent national system (source is an old deck).",
+     "known_mark": "new",
+     "name": "Vehicle dismantler AutoStat reporting",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Statsforvalteren permit; vrakpant approval; reporting through Autoretur AutoStat and to the county governor.",
+     "unchecked": "Current reporting tool; no evidence of a gap, so not rejected."
+    },
+    {
+     "buyer": "Commercial animal transporters",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://mattilsynet.no/dyr/dyretransport/naeringsmessig-transport-av-dyr",
+     "existing": "Free Mattilsynet form and public list.",
+     "known_mark": "new",
+     "name": "Animal transporter and vehicle approval management",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Mattilsynet approval of transporters and vehicles (5-year vehicle approval for long journeys).",
+     "unchecked": "Number of operators; livestock markets not searched."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Private households are covered by the a-melding (Skatteetaten has a page on pay for work in the private employer's home). A regulation on work in the employer's home was consulted on for ILO C189 ratification; final status unverified. Au pair host families must use UDI's standard contract, take an e-learning course, and respect the 5 h/day and 30 h/week cap. This is a one-off set of duties, with no recurring filing. Nothing strong.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No Norwegian licensing or register duty for scrap dealers found (Denmark has a police licence for second-hand and pawn dealers, Norway does not appear to). Vehicle-wreck handling is covered under cat 5. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Dealers in objects were removed from the AML act in 2017 and now only face a NOK 40,000 cash ban, supervised by Skatteetaten. A working group has proposed re-including dealers in valuables as reporting entities; adoption unverified. Pawn lending is a financial licence matter (Finanstilsynet), not a quiet-business register. Watch item only.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "The Edelmetalloven (in force 2011) requires fineness stamps and a responsibility mark (register at Patentstyret). Justervesenet supervises, and goldsmiths pay an industry-funded annual fee. Økokrim published a valuables-dealer indicator list in Oct 2025. No recurring filing for a small buyer that software could handle.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Wreck receivers need a Statsforvalteren pollution permit; vrakpant approval is separate. Reporting runs through Autoretur's AutoStat system (source is an older presentation). The incumbent system is mandatory and national, so it is dominated. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Commercial animal transporters and vehicles are approved by Mattilsynet (form 'Ny dyretransportør eller dyretransportmiddel'; 5-year vehicle approval for journeys over 8 h; Statens vegvesen inspection for cattle, sheep, pigs, poultry and reindeer). Few operators. Livestock markets and dealers: not searched specifically.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Small slaughter is mostly done at approved plants. Poultry and hare slaughter under 10,000 a year is allowed on farm with Mattilsynet approval. Mobile slaughter units must be part of an approved plant. No small-business reporting duty found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Apiary sites must be registered with Mattilsynet, with certification and a 2-year self-certification renewal for moving bees, plus separate registration for honey extraction rooms and direct sales (form 'Registrere eller oppdatere birøkt'). Mattilsynet's own free form covers it; hobby buyers with low willingness to pay.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Vets must report drug use and dispensing to VetReg within 7 days. Pet reporting is deferred to 2028. Practice systems and Dyrehelseportalen already feed VetReg. Nothing strong.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Drilling firms must report groundwater boreholes (including energy wells) to NGU's Granada database. Since 2025 there is a statutory duty to report geotechnical investigations to NADAG. Buyers are a few hundred firms; the format is a fixed NGU template.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Slamtømming is a municipal scheme under Forurensningsloven section 26, with municipal by-laws and a contracted operator who reports back after each emptying (Bergen example). Contracted hauliers are few and reporting formats vary by municipality. Related to K04.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Lift owners must have a safety inspection at least every 2 years by an approved controller, keep a log, and report to the national installation register (Nireg, run by DiBK). An Oct 2025 consultation proposed moving the register to DiBK's platform and clarifying the registration duty; adoption unverified. Owners are mostly housing co-ops and building owners. Boilers and pressure equipment: no useful result.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Small supply systems (under 10 m3/day) must be registered, assess hazards, take at least 1 raw and 1 treated sample a year, keep internal control (not necessarily written), and notify customers and Mattilsynet when water is unsafe. Plan approval applies from 10 m3/day or for vulnerable users. The digital security act has applied since 1 Oct 2025 above 2,000 m3/day only.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Professional users must keep a spray journal for at least 3 years. EU Reg 2023/564 requires it to be electronic, from 1 Jan 2026 with member-state delay possible to 1 Jan 2027. Norway has consulted twice, and Mattilsynet says private farm systems can send data to its API; final Norwegian rule and date not confirmed. Missing journal cuts production subsidy by 20 percent (Statsforvalteren Rogaland).",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "The Arbeidstilsynet approval scheme for staffing firms has applied since 1 Jan 2024, with an annual confirmation and 3-yearly documentation (regulation section 6). Hiring from an unapproved firm is illegal for the client. Overlaps with cat 26 (group B). A March 2026 working group report on consultants' status is only a proposal.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Cemeteries are run by the church fellesråd or municipalities, which are public bodies and must keep a burial register under the burial regulation. Religious communities may seek their own burial sections under the 2021 changes. No software vendor surfaced. Funeral notification is K06 (rejected). Nothing new for small private buyers.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "VAT compensation for voluntary organisations: ~NOK 2.9bn paid for 2025, application deadline 1 Sept, payment mid-Dec, simplified or documented model, local branches apply via the central body, a new regulation was consulted in 2025 (auditor threshold NOK 5m to 7m proposed, rule-based allocation), and the ministry proposes pulling accounts from Regnskapsregisteret. No halal or kosher findings.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "National vans of 2.5-3.5 t carrying goods for hire need a national van permit from 1 Jan 2026, and will need driving/rest-time rules plus a tachograph from 1 Apr 2027 (international from 1 Jul 2026). Companies need a company card and must download driver-card data at least monthly. Own-goods hauling (tradesmen) is exempt. Taxi is K11.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Nothing on street or market trading permits in Norway. Finanstilsynet registers virtual-currency exchangers under the AML act; no Norwegian result on cash money changers. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Tattoo and piercing studios need municipal approval before opening plus internal control (hygiene regulation), with a different form per municipality. Driving schools and instructors are approved by Statens vegvesen and entered in the TSK register, and a 2024 rule on instructor continuing education (35 h) was adopted. Food businesses must register with Mattilsynet via Altinn, and IK-mat apps already exist (CheckPoint, Matilda). Nurseries: nothing new beyond K03. Hunting outfitters: not searched.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "husholdning som arbeidsgiver lønn a-melding husarbeid ansatt hjemme",
+    "skrothandler pantelåner bruktforretning registrering politiet hvitvasking høyverdivarer gull kjøp",
+    "bilvrak mottak godkjent bilvrakbedrift rapportering Autoretur vrakpant",
+    "birøkter registrering Mattilsynet bigård register krav",
+    "dyretransport transportør godkjenning Mattilsynet dyrehandler register husdyrregisteret",
+    "brønnborer rapportering borehull NGU Granada energibrønn krav",
+    "tømming av slam septiktank slamtømmer rapportering kommune tømmeregister avfallsforskriften",
+    "heis eier periodisk kontroll DSB heiseier plikter kontrollorgan trykkbeholder eier 2026",
+    "lite vannverk Mattilsynet godkjenning internkontroll vannverk eier krav private vannverk",
+    "sprøytejournal plantevernmidler sprøyteføring journal digital krav bonde Mattilsynet",
+    "småskala slakteri godkjenning Mattilsynet kjøttforedling egenkontroll slakt rapportering",
+    "veterinær legemiddel rapportering VetReg Mattilsynet dyrlege klinikk krav 2026",
+    "bemanningsforetak godkjenning Arbeidstilsynet register innleie rapportering 2026 nye krav",
+    "gravplass kirkelig fellesråd gravregister gravlegging trossamfunn gravplass programvare",
+    "momskompensasjon frivillige organisasjoner søknad frist regnskap revisor Lotteri- og stiftelsestilsynet",
+    "fartsskriver nedlasting kjøre- og hviletid lastebil småbedrift transportløyve krav Statens vegvesen 2026",
+    "valutavekslere registrering Finanstilsynet torghandel gatehandel bevilling kommune",
+    "tatovering virksomhet forskrift kommune melding tilsyn trafikkskole familiebarnehage godkjenning",
+    "edelmetallkontroll Justervesenet gullsmed stempling edelmetall registrering krav",
+    "varebil fartsskriver 1. april 2027 varebilløyve programvare fartsskriver nedlasting flåte"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b28"
+ }
+}

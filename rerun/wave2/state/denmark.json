@@ -947,12 +947,37 @@
   },
   "tag": "w2b28"
  },
+ "sonnet:denmark:A14": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Danish product found; Tank Track (foreign); municipal driftsdatabaser required in tenders",
+   "duty": "Owners of septic tanks must have them emptied under municipal regulativ (about yearly, e.g. Hedensted); contractors report electronically to the municipality",
+   "market": "Not quantified. Possibly tens of thousands of non-sewered properties, plus a few dozen contractors; BBR/DST drain data not retrieved.",
+   "reason": "The duty is real. Municipal tømningsregulativer under spildevandsbekendtgørelsen kap. 18 make owners of septic tanks (bundfældningstanke) have them emptied, typically yearly (Hedensted). I did not confirm the penalty or which version of the bekendtgørelse is in force. Contractors are appointed by the municipality or its utility (Randers, Odsherred). Tenders such as Viborg and Skive require electronic reporting into the municipality's driftsdatabase. So buyers are a few appointed haulers, and the customer system is set by the municipality. I found no Danish product and no free state portal for this job. Tank Track is a foreign tool. The market count is not found (BBR drain data could give it). The buyer group is narrow and procurement-driven, so a solo founder has little access. This matches known idea K03.",
+   "searches": 3,
+   "sources": "https://www.randers.dk/media/16946/toemningsregulativ-for-bundfaeldningstanke-i-randers-kommune.pdf ; https://www.odsherred.dk/media/pffflxjn/toemningsregulativ_bundfaeldningstanke.pdf ; https://hedensted.dk/media/vmll33xg/regulativ-for-toemning-af-septiktank-2016-web.pdf ; https://vardekommune.dk/regulativ_for_toemningsordninglogo ; https://tank-track.com/?p=3752",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b28"
+ },
  "sonnet:denmark:A2": {
   "result": {
    "blocked_searches": 0,
    "reason": "Duty is real: the spray journal order (BEK 1616 of 8 Dec 2025, guidance nr. 82) requires 10 ha or more, or nurseries with VAT turnover of DKK 50,000 or more, to report to SJI by 31 March. Fully digital journals are required by 31 Jan 2028. Forest area has counted toward the threshold since the 2021/22 period, so it is not a new rule. Golf courses are under a separate golf order (BEK 1573 of 5 Dec 2025) with their own journal, so they are a different duty. Competition: SEGES FarmTracking (about 5,000 users) and Næsgaard Mobile already work as spray journals. I found no dedicated forest, nursery or golf tool. The market is small and fragmented, and I found no firm count of forest owners. Free SJI manual entry limits willingness to pay. Mark Online not verified.",
    "searches": 4,
    "sources": "https://www2.mst.dk/Udgiv/publikationer/2025/12/978-87-7564-073-7.pdf ; https://www.lovguiden.dk/loven/sprøjtejournalbekendtgørelsen/5 ; https://landbrugsavisen.dk/stoerre-skove-skal-nu-indberette-sproejtejournal-187475 ; https://www.lovguiden.dk/loven/golfbekendtgørelsen/8 ; https://landbrugsavisen.dk/mark/mobilen-tager-over-i-marken-97199",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:denmark:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real and in force. BEK 498/2024 requires owners to keep an updated list of class A/B pressure equipment, with inspection by accredited bodies. BEK 461/2016 requires periodic lift inspection by a certified firm, with intervals set in annex 2. Searches found no Danish owner-side tracking software, but this was a thin check. Weak points: Denmark has no lift register (Arbejdstilsynet, 2022), so the market size is unknown. Inspection firms and lift service contractors probably remind customers as part of their service. Housing associations usually outsource to administrators. Willingness to pay for a standalone tool is low. Penalty and frequency were not verified from the full text. Score stays at 3.",
+   "searches": 3,
+   "sources": "https://www.retsinformation.dk/eli/lta/2024/498/pdf ; https://www.lovguiden.dk/loven/bekendtgørelse-om-anvendelse-af-trykbærende-udstyr/20 ; https://www.lovguiden.dk/loven/bekendtgørelse-om-anvendelse-m-v-af-elevatorer-rulletrapper-og-lignende-maskiner/kapitel-4 ; https://ft.dk/samling/20211/almdel/BEU/bilag/245/2568849.pdf",
    "suggested_score": 3,
    "verdict": "confirmed"
   },
@@ -969,6 +994,42 @@
   },
   "tag": "w2b28"
  },
+ "sonnet:denmark:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated RUT-check software found. Free virk.dk RUT register, SKAT digital tools for labour-hire tax, and advisory help from BDO.",
+   "duty": "Foreign providers register in RUT. From 2026 they upload the service agreement, employment contract and permits for non-EU/EEA workers. Hvervgivere in listed sectors must check RUT registration. Fines possible via Arbejdstilsynet; amount not confirmed.",
+   "market": "Not quantified. No RUT register count found.",
+   "reason": "The duty is real. Foreign providers must register in the RUT register on virk.dk. From 2026 they must also upload the service agreement, employment contract and permits for non-EU/EEA workers. Danish hvervgivere must check the provider's RUT registration (udstationeringsloven §7 d stk. 2, per a search summary only), and a fine is possible. The sector list is uncertain: sources conflict on whether it includes cleaning. I found no dedicated RUT-check software, but the free virk.dk register and advisers such as BDO already cover the need. Pain is low and episodic, because a hirer only needs to ask for the RUT proof and look it up. The buyer group is scattered, and a bigger risk (35.6% labour-hire withholding tax) is better served by SKAT's own tools. I could not confirm fine amounts or market size. The DI page was not opened, and no register count was found.",
+   "searches": 2,
+   "sources": "https://www.azets.com/da-dk/ressourcer/blog/skarpede-krav-til-indstationerede-medarbejdere ; https://www.bdo.dk/da-dk/faglig-info/depechen/depechen-artikler-2026/nye-regler-for-registrering-af-udenlandske-medarbejdere ; https://skat.dk/erhverv/ansatte-og-loen/udenlandsk-arbejdskraft/naar-din-virksomhed-har-udenlandske-underleverandoerer ; https://www.virk.dk/myndigheder/stat/ERST/selvbetjening/Registrering_af_udenlandske_tjenesteydere_RUT__Registration_of_Foreign_Services_RUT/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:denmark:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The Olietankbekendtgørelse (BEK 1257 of 27/11/2019) requires owners or users of installations of 6,000 L or more to do egenkontrol and keep journals for at least 5 years. Medium tanks must be inspected and leak-tested every 5 or 10 years. Municipalities enforce this (Varde 2026, deadline 1 Nov 2026). I found no Danish reminder software or central register, but the search was shallow. The market is small and shrinking: about 18,000 larger tanks (a 2010 ing.dk figure) and about 200,000 tanks in total (an unverified FAQ claim). The interval is 5 to 10 years, so frequency is low. PUFO-approved inspection firms are the natural channel and could easily add reminders. Willingness to pay is low, so the score stays at 3.",
+   "searches": 3,
+   "sources": "https://www.lovguiden.dk/loven/olietankbekendtgørelsen ; https://fredericia.dk/sites/default/files/edoc_files/Milj%C3%B8krav%20for%20mellemstore%20olietanke_WT.pdf ; https://brondby.dk/media/4oblv4im/passerdupadinolietank.pdf ; https://ing.dk/artikel/ulovlige-olietanke-slukker-varmen-i-skoler-og-plejehjem ; https://www.skagenonline.dk/faq/hvor-mange-liter-er-der-i-en-olietank",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:denmark:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Regulation (EU) 2025/2650 was published on 23 Dec 2025 and moves EUDR application to 30 Dec 2026. Sources disagree on the micro/small date. One says 30 Jun 2027 for micro/small firms not already under the EU Timber Regulation, and Dansk Industri TMI says timber products already under EUTR stay at 30 Dec 2026. So small timber importers get no extra time. Downstream operators and traders no longer file due diligence statements and only keep reference numbers, so most small roasters buying from importers have almost no workload. Only direct importers file statements. A Commission simplification review came out on 4 May 2026, so rules may still move. Many EUDR tools and advisers already exist (BDO, EY, CDX, Dansk Industri). The Danish operator count and the Miljøstyrelsen penalties were not verified. The audience is small and the dates are unstable, so the idea is crowded and weak.",
+   "searches": 2,
+   "sources": "https://www.danskindustri.dk/medlemsforeninger/foreningssites/tmi/nyhedsarkiv/2026/01/eudr-udsat-og-forenklet--endelig-officielt/ ; https://www.arendt.com/news-insights/news/eudr-simplification-review-published-what-the-2026-package-means-for-in-scope-companies/ ; https://www.stibbe.com/publications-and-insights/the-amended-eudr-what-has-changed-and-what-has-remained ; https://cm.twobirds.com/en/insights/2025/out-of-the-woods-the-eudr-postponed-and-simplified",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b28"
+ },
  "sonnet:denmark:B6": {
   "result": {
    "blocked_searches": 0,
@@ -977,6 +1038,17 @@
    "sources": "https://mst.dk/erhverv/sikker-kemi/kemikalier/fokus-paa-saerlige-produkter/koelemidler/videnscenter-for-koelemidler/regler-og-lovgivning ; https://www.retsinformation.dk/api/pdf/225192 ; https://www.tekniq.dk/brancheviden/fagomraaderne/koel-og-ventilation/koeleinstallationer/ ; https://iifiir.org/en/fridoc/34960",
    "suggested_score": 3,
    "verdict": "unverifiable"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:denmark:B7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: STPS guidance says every clinic doing cosmetic treatment must be registered in Behandlingsstedsregistret, with doctors and assistants registered too. STPS inspects (40 inspections in 2022; reports published; injunctions in 2026). Weak as a business: registration is one-off, inspections are rare and sampled, not a recurring filing. The market is about 730 sites (undated TV2 figure), and many are one-person clinics. Competitors were only partly checked: I found generic aesthetic-clinic software (Salonist) and the public checklists STPS publishes, but no dedicated Danish compliance kit. Saleable only as a niche template or journal add-on, so low willingness to pay and a small market. Not killed, but low priority.",
+   "searches": 4,
+   "sources": "https://retsinformation.dk/api/pdf/194785 ; https://cdn.stps.dk/stps/Media/638523949084878132/Stine Damkær Kosmetisk Klinik.pdf ; https://www.tv2kosmopol.dk/metropolen/ny-brancheforening-vil-udrydde-ulovlige-kosmetiske-behandlinger ; https://www.skagenonline.dk/faq/hvor-mange-kosmetiske-klinikker-er-der-i-danmark ; https://salonist.io/da/industries/aesthetics-clinic-software ; https://stps.dk:443/Media/638272675660687325/Erfaringsopsamling_Sundhedsfaglige tilsyn med kosmetiske behandlingssteder 2022.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
   },
   "tag": "w2b28"
  },

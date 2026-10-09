@@ -573,5 +573,214 @@
    "searches": 18
   },
   "tag": "w2b65"
+ },
+ "gapfill:malawi": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small garages, used-car dealers and scrap/dismantling yards, plus the few consultants who file for them",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://old.malawilii.org/node/3861 (Act, not fetched; details come from search summaries). https://malawilii.org/akn/mw/act/gn/2020/26/eng@2020-07-03/source (2020 fees). https://media.malawilii.org/files/government_gazette/files/mw-government-gazette-dated-2015-01-16-no-3.pdf (example renewal notice). https://mwnation.com/?p=139095 (undated, unregistered-garage closure project; page returned 404 on fetch).",
+     "existing": "No Malawi-specific garage or Board-compliance software found. Generic garage software (Capterra and Workshop Software listings) is aimed at other markets.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Same style of annual licence tracker as K03 (kabaza association register) but a different buyer group and a different Act. Not close enough to count as known.",
+     "name": "Garage, dealership and dismantler registration and annual renewal tracker (Automotive Trades Registration Board)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Automotive Trades Registration and Fair Practices Act Cap 50:05: annual registration renewal, gazetted notice of intent (s15(2)), Board renewal meeting (s21); fees under the Forms and Fees (Amendment) Regulations 2020",
+     "trigger_note": "Annual cycle, but the filing is a single renewal with a gazette notice, with no recurring report.",
+     "unchecked": "Section text and penalties for Cap 50:05 (malawilii returned 403/503); whether the Board is still active and how many garages are registered; whether the closure project had a date or deadline; the filing channel (paper, in person); any record-keeping duty for dismantled parts; the current renewal cycle. No local-language competitor search run, since the score is below 3."
+    },
+    {
+     "buyer": "Spare-parts shops and used-parts yards in Blantyre and Lilongwe",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "No Malawi-specific evidence gathered in this gap. Spare parts appear in MRA import statistics per a Nation article (https://mwnation.com/mccci-wants-used-cars-kaunjika-imports-ban/), but nothing shows how the shops invoice.",
+     "existing": "MRA free mobile POS and web portal (per K06).",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Same core duty (EIS) as K01 and K06; only the buyer vertical differs. Not re-checked.",
+     "name": "Spare-parts dealers EIS invoicing from legacy stock or POS",
+     "score": 0,
+     "status": "unverified",
+     "trigger": "MRA Electronic Invoicing System requirement for VAT-registered traders"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Governing law is the Automotive Trades Registration and Fair Practices Act (Cap. 50:05), enforced by the Automotive Trades Registration Board. Its 'garage' definition covers premises for breaking up old or damaged vehicles for scrap or salvage, and premises selling new or second-hand vehicles. So dismantlers and used-car dealers need annual registration and renewal. The Act requires a gazetted notice of intent to renew under s15(2), and the Board considers renewals at an annual meeting under s21. 2020 fee regulations: Grade 1 franchise/dealership K250,000, Grade 2 CBD garage K120,000, Grade 3 CBD garage K50,000, plus a K20,000 application fee. Press (The Nation, undated) says the government began a project to identify unregistered garages in Lilongwe, Blantyre and Mzuzu and close them. I found no register-keeping duty for parts, no stolen-parts dealer crackdown in Malawi, and no vehicle-scrapping or end-of-life policy. Used-vehicle import is not age-limited per trade sites (unverified); the Chamber of Commerce (MCCCI) has proposed a 10-year import cap. Malawilii full-text pages (Cap 50:05 sections, penalties) returned 403/503, so the section content was not read. Nothing relevant to this category beyond the single weak candidate below.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "Malawi used spare parts dealers vehicle importers second-hand vehicle regulation Road Traffic Directorate",
+    "Malawi MBS second-hand vehicle import inspection standards 2025 age limit",
+    "Malawi scrap vehicle dismantlers vehicle scrapping policy end-of-life vehicles",
+    "Malawi stolen vehicle spare parts dealers police crackdown second-hand spare parts Blantyre Lilongwe",
+    "Malawi Road Traffic Act 2024 motor vehicle dealers registration licence garage scrapyard Directorate of Road Traffic and Safety Services",
+    "Malawi used vehicle importers register dealers MRA customs clearing 2025 2026 vehicle dealers licence requirement",
+    "Automotive Trades Registration Board Malawi garages registration annual renewal unregistered garages closed",
+    "garage management software Malawi automotive trades registration board spare parts inventory app"
+   ],
+   "searches": 8
+  },
+  "tag": "w2b65"
+ },
+ "triage:malawi": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "NGOs/CBOs/faith bodies with annual NGORA licence and reporting duty; new buyer group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Small recruitment agencies with recurring ministry clearance duty; not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Drillers and commercial borehole owners with permit and licence duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Agro-dealer pesticide licensing is a different buyer and duty from K04 medicine stores (related: K04)."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Boiler/lift owners periodic examination duty under OSHW Act; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Vet drug shops are a different buyer from human medicine stores K04 (related: K04); unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Second-hand and scrap dealers registration duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Gold buyers and jewellers licensing and records duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "WUA kiosk operators remit to water boards (utility); weak evidence but unsure, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Cemetery and funeral operators with by-law permit duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Minibus owners fleet documents differ in buyer and duty from K03 kabaza association member register (related: K03)."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Licensed forex bureaus under new RBM framework; small licensed firms, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "ECD centres with council licensing and inspection; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "SACCOs with mandatory periodic returns to RBM; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Guest houses and lodges with new tourism licence and 1% levy duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Small contractors with annual NCIC renewal; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small clinics billing insurers is in scope (insurer counterparty); verifiers decide the weak statutory link."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Employer-side Pension Act remittance differs in buyer from K02 payroll bureaus pack (related: K02)."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Fuel station dealers with licensing and inspection duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Produce buyers with annual licence before harvest; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small-scale miners and gemstone dealers with production declaration; different buyer from A8, so not a duplicate."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small law firms and estate agents under AML reporting duty; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Private security firms licensing; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Small food processors with MBS two-year renewal; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Mid-size data controllers registering with MACRA; not only large firms, unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Licensed betting/casino operators with MAGLA returns; small licensed firms, keep for verification."
+    },
+    {
+     "decision": "known",
+     "id": "B14",
+     "reason": "Pharmacies and medicine stores PMRA compliance is the same buyer and duty as K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Garages and dealers under Automotive Trades Board renewal: different buyer and Act from K03 (related: K03)."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS2",
+     "reason": "EIS invoicing for VAT traders is the same core duty as K01, buyer vertical only differs.",
+     "ref": "K01"
+    }
+   ]
+  },
+  "tag": "w2b65"
  }
 }

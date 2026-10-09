@@ -1786,6 +1786,77 @@
    "known": 6
   }
  },
+ "peru": {
+  "batch": "w2b39",
+  "candidates": 39,
+  "checks": {
+   "opus": 5,
+   "sonnet": 9,
+   "unverifiedByCap": []
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 6,
+   "disputed": 3,
+   "unverifiable": 4,
+   "verified_4": 1
+  },
+  "gaps": 7,
+  "id": "peru",
+  "leads": [
+   {
+    "challenge": "unclear 4",
+    "final": "disputed",
+    "id": "A1",
+    "mark": "new",
+    "name": "Gold buyer / comercializador purchase-verification and register pack (RECPO, DL 1107 art. 11)",
+    "opus": 4,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "unclear 3",
+    "final": "disputed",
+    "id": "GAPS1",
+    "mark": "new",
+    "name": "Mototaxi operator-association compliance pack (permiso de operación, driver and vehicle padrón, renewals)",
+    "opus": 4,
+    "prov": 5,
+    "sonnet": null,
+    "src": "gapfill"
+   },
+   {
+    "challenge": "unclear 3",
+    "final": "disputed",
+    "id": "GAPS2",
+    "mark": "new",
+    "name": "Private school compliance kit under Ley 32562 (authorization file, 30-day cost notice, UGEL evidence, sanctions tracker)",
+    "opus": 4,
+    "prov": 4.5,
+    "sonnet": null,
+    "src": "gapfill"
+   },
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "B1",
+    "mark": "new",
+    "name": "Casino, slot-room and betting SPLAFT-in-a-box (Res SBS 01015-2026)",
+    "opus": 5,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 32,
+   "known": 6,
+   "merge": 1
+  }
+ },
  "philippines": {
   "batch": "w2b13",
   "candidates": 47,
@@ -2836,6 +2907,45 @@
    "keep": 31,
    "known": 5,
    "merge": 1
+  }
+ },
+ "vietnam": {
+  "batch": "w2b39",
+  "candidates": 40,
+  "checks": {
+   "opus": 1,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "GAPS3 Electronic three-step food check log and sample retention for school, factory and caterer kitchens",
+    "GAPS4 Pond diary, farm code and residue-record app for small shrimp and pangasius farms"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 2,
+   "disputed": 1,
+   "refuted": 5,
+   "unverifiable": 2
+  },
+  "gaps": 6,
+  "id": "vietnam",
+  "leads": [
+   {
+    "challenge": "survives 3",
+    "final": "disputed",
+    "id": "B1",
+    "mark": "new",
+    "name": "Real-estate broker and exchange AML reporting kit",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 35
   }
  }
 }

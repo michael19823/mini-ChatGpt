@@ -1,0 +1,597 @@
+{
+ "discover:ALL:sao-tome-and-principe": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "category": "31. Fisheries",
+     "evidence": "Lei 09/2022 on fisheries and aquaculture was published in DR on 22 June 2022. Artisanal licensing procedure not found online. https://faolex.fao.org/docs/pdf/sao211337.pdf",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Same buyer group and duty as K01; no new evidence.",
+     "name": "Artisanal fisher and palaiê licence and vessel register (revisit)",
+     "score": 0,
+     "status": "weak",
+     "unchecked": "Regulation implementing Lei 09/2022; licence fees; whether any renewal is done at a counter."
+    },
+    {
+     "buyer": "Households employing domestic workers, churches, private social solidarity institutions, non-profits, firms with turnover up to STN 108,000",
+     "category": "34. Social security (INSS) contribution regime changes (also 1 and 17)",
+     "evidence": "https://mirandalawfirm.com/en/insights-knowledge/publications/alerts/new-social-security-contribution-rate-2 ; INSS director says about 70% of workers are not covered: https://forbesafricalusofona.com/?p=77966",
+     "existing": "Foreign EOR payroll vendors (Ontop, Playroll) only. No local INSS filing software found.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Related to K03 (IVA tool for SMEs) only by the small-business buyer; the duty here is INSS, a different one.",
+     "name": "INSS rate-derogation and monthly contribution filing pack for domestic employers, churches, NGOs and micro firms",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DL 1/2025 of 7 Jan 2025 (third amendment of DL 19/2022): 12% rate from 1 Jan 2025; the old 10% rate requires INSS authorization.",
+     "unchecked": "Whether INSS runs an online declaration portal; how many registered employers; whether authorization is a one-off or yearly; filing deadlines; fines."
+    },
+    {
+     "buyer": "Small sand, gravel and quarry operators and builders who source aggregates",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "https://mirandalawfirm.com/en/insights-knowledge/publications/alerts/new-legal-regime-for-mining-and-extraction-of-aggregates-approved ; https://ceris.pt/2024/08/02/ceris-contributing-to-development-a-strategic-roadmap-to-combat-coastal-sand-extraction-in-sao-tome-and-principe/",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Sand and aggregate extraction licence and compliance tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Lei 9/2020 of 22 Sep 2020: coastal sand extraction is banned with exceptions; licences need no State or social security debt, safety and environmental compliance; fees set by joint order.",
+     "unchecked": "Number of licensed operators; whether extraction is mostly informal; any periodic reporting duty; the fee order."
+    },
+    {
+     "buyer": "Independent petrol stations and fuel retailers",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://forbesafricalusofona.com/?p=107955 ; ENCO holds the import monopoly (https://rdpc.uevora.pt/handle/10174/25522)",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Fuel pump calibration and inspection log for petrol stations",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "DERCAE inspections found nearly ten stations short-measuring fuel; stations were ordered closed temporarily and fines of 20,000 to 200,000 dobras were set (undated report).",
+     "unchecked": "Number of stations (likely very few); the regulating decree; any recurring filing; who owns the stations (ENCO or private)."
+    },
+    {
+     "buyer": "Notaries, real estate brokers, lawyers, dealers in valuables",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with AML reports",
+     "evidence": "https://www.fatf-gafi.org/en/publications/Mutualevaluations/Sao-Tome-and-Principe-MER-2024.html (HTTP 403 on fetch, unread); https://opj.ces.uc.pt/wp-content/uploads/2020/10/Legislac%CC%A7a%CC%83o-Sa%CC%83o-Tome%CC%81-e-Princi%CC%81pe.pdf",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "AML reporting tool for notaries, estate agents and other DNFBPs",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Lei 8/2013 of 15 Oct 2013 on AML/CFT; UIF created by DL 60/2009; GIABA mutual evaluation adopted Nov 2024 may force follow-up reforms.",
+     "unchecked": "The MER text: which DNFBPs are covered and supervised, and number of reports filed; whether a new AML law was passed after 2024."
+    },
+    {
+     "buyer": "Importers of meat, live animals and eggs; butchers; pig and poultry farms",
+     "category": "6. Livestock traders, markets and animal transport (also 7, 9)",
+     "evidence": "https://faolex.fao.org/docs/pdf/sao196904.pdf ; imports of beef from Portugal about USD 135k in 2023: https://tradingeconomics.com/sao-tome-principe/imports/portugal/meat-bovine-animals-frozen",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Animal and animal-product import/export and trade permits",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "DL 06/2019, DR I Série n.º 46 of 14 Aug 2019: rules for import, export and trade of live animals and animal products.",
+     "unchecked": "The decree text: permit steps, reporting and registers; number of importers (likely under 20)."
+    },
+    {
+     "buyer": "Small businesses in sectors with environmental requirements (quarries, fuel, agro-processing, hotels, waste)",
+     "category": "32. Environmental licensing",
+     "evidence": "https://portugalglobal.pt/noticias/2026/setembro/sao-tome-e-principe-atualiza-lei-de-base-do-ambiente/ ; https://leap.unep.org/en/countries/st/national-legislation/decree-law-no-042026-creating-national-environment-agency",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Environmental licensing and compliance under Lei 7/2026 and the new National Environment Agency",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Lei 7/2026 of 13 Aug 2026 (in force 18 Aug 2026) amended the Lei de Base do Ambiente; DL 04/2026 created the Agência Nacional do Ambiente.",
+     "unchecked": "Whether the law creates a licence or annual report for small firms; implementing regulations; transitional deadlines."
+    },
+    {
+     "buyer": "Small hotels, guest houses and ecolodges, including on Príncipe",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://cdn.optigest.net/you_tour/202407/PKT_418_6683e18fc578a.pdf ; visitor count about 41k in 2024: https://rtpafrica.rtp.pt/noticias/sao-tome-e-principe-regista-novo-recorde-de-quase-41-mil-visitantes-em-2024-com-portugal-a-liderar",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Tourist-tax collection and guest register for guest houses and small hotels",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Tourist tax of about EUR 2.10 per person per day collected at hotel reception (2024 brochure, unverified); an older report says EUR 3.10. No statute found.",
+     "unchecked": "The legal basis of the tax, who it is remitted to, any guest-register duty with immigration or police, the number of licensed lodgings."
+    },
+    {
+     "buyer": "Local suppliers and service firms to oil and gas operators",
+     "category": "35. Petroleum service-provider registration with ANP-STP",
+     "evidence": "https://mirandalawfirm.com/en/insights-knowledge/publications/alerts/new-oil-gas-legislation-2",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "ANP-STP service-provider registration for local oil and gas suppliers",
+     "score": 1,
+     "status": "weak",
+     "trigger": "DL 22/2022 of 14 Sep 2022, in force 1 Jan 2023: service providers must register with ANP-STP.",
+     "unchecked": "Whether any production or activity exists; how many local firms register; renewal duties."
+    },
+    {
+     "buyer": "Small exporters of vanilla, pepper, coffee and processed cocoa (non-cocoa-bean)",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://ippc.int/zh/countries/sao-tome-and-principe/publications ; https://www.ippc.int/static/media/files/reportingobligation/2016/09/09/Ante_projecto_do_Decreto_Lei_sobre_Sanidade_Vegetal.doc ; pepper exports about USD 254k in 2023 (WITS)",
+     "existing": "EU buyers' own traceability (see K02). Nothing local found.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Different buyer group (non-cocoa exporters) and different duty (phytosanitary and export paperwork), but the market is under 10 firms.",
+     "name": "Plant-health certificate and exporter paperwork for vanilla, pepper and palm oil exporters",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Phytosanitary certificates for export; a 2015 draft plant-health decree-law called existing rules outdated (adoption unconfirmed).",
+     "unchecked": "Exporter licence rules; number of exporters; whether certificates are issued manually."
+    },
+    {
+     "buyer": "Agents and small fintechs licensed by Banco Central",
+     "category": "33. Payments and mobile money agents",
+     "evidence": "https://forbesafricalusofona.com/?p=110346 ; https://migrantmoney.uncdf.org/wp-content/uploads/2025/05/Payment-Infrastructure-Assessment-SaoTome-April2025.pdf",
+     "existing": "Licensed local fintech GolFinTech and the SIBS-built Dobra24 system.",
+     "known_mark": "new",
+     "name": "Mobile money and payment agents reporting",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Banco Central licensing of non-bank payment firms; over 70% of residents pay by phone.",
+     "unchecked": "Any agent registration or periodic reporting duty; the UNCDF assessment content was not read."
+    },
+    {
+     "buyer": "Employers of foreign staff (restaurants, Chinese and Portuguese-run firms, lodges)",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.vda.pt/xms/files/05_Publicacoes/2019/Flashes_Newsletters/Flash_VdA_Legal_Partners_-_Novo_Codigo_do_Trabalho_de_Sao_Tome_e_Principe.pdf",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Foreign-worker permit and national-quota compliance for employers",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Lei 6/2019 (Labour Code) is said to regulate foreign workers and national worker quotas; the final rules were not read.",
+     "unchecked": "The Labour Code text; permit procedure; whether handled by the Direcção do Trabalho or the migration service."
+    },
+    {
+     "buyer": "Moto-taxi riders, market vendors, scrap dealers",
+     "category": "18/19/2",
+     "evidence": "No licensing regime found in the searches. A 2017 paper describes informal motoqueiros: https://periodicos.fclar.unesp.br/cadernos/article/download/10488/7429/32857",
+     "known_id": "K05",
+     "known_mark": "known",
+     "known_note": "No new rule found; no revive.",
+     "name": "Moto-taxi, market-vendor and scrap registers (revisit)",
+     "score": 0,
+     "status": "weak",
+     "unchecked": "Whether a new Road Code created a taxi licence."
+    },
+    {
+     "buyer": "STP SMEs",
+     "category": "36. Business registration and VAT",
+     "evidence": "IVA effective 1 June 2023 per academic sources (https://rdpc.uevora.pt/handle/10174/41760). No e-invoicing mandate found for STP, so no revive.",
+     "known_id": "K03",
+     "known_mark": "known",
+     "known_note": "No new evidence.",
+     "name": "IVA invoicing tool for SMEs (revisit)",
+     "score": 0,
+     "status": "weak",
+     "unchecked": "Whether small taxpayers have a simplified regime."
+    },
+    {
+     "buyer": "Cocoa exporters and co-operatives",
+     "category": "22. Commodity traders",
+     "evidence": "CECAB and CECAQ-11 export about 40% of cocoa (IFAD); CECAB sells to Kaoka: https://en.wikipedia.org/wiki/Organic_Cocoa_Production_and_Export_Cooperative",
+     "known_id": "K02",
+     "known_mark": "known",
+     "known_note": "Same as K02 and K04; nothing to revive.",
+     "name": "EUDR cocoa traceability (revisit)",
+     "score": 0,
+     "status": "weak",
+     "unchecked": "None."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Domestic sector is one of the entities that may keep the old 10% INSS rate (4% worker, 6% employer) only with INSS authorization, under DL 1/2025 (third amendment of DL 19/2022). No evidence of an online filing portal or of mandatory domestic-worker registration. Weak candidate C1.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "One combined query (sucata, ferro velho, ouro) returned nothing for STP. No licensing regime or register found. Consistent with K05.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No dedicated search. No sources surfaced incidentally.",
+     "status": "not_reached"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Covered only by the combined scrap/gold query: nothing on STP. No gold-dealer regime found; no gold mining sector to speak of.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Budget. No sources surfaced.",
+     "status": "not_reached"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "DL 06/2019 (DR I Série n.º 46, 14 Aug 2019) regulates import, export and trade of live animals and animal products (FAOLEX sao196904). Detailed licence and reporting duties not read. Candidate C6.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "No STP abattoir or butcher licensing text found; only DL 06/2019 on trade in animal products. Imported beef is small (Portugal about USD 135k in 2023).",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Budget. No sources surfaced.",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Same query as 6/7: nothing on vet practices or vet medicine sellers beyond DL 06/2019.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Budget. No sources surfaced.",
+     "status": "not_reached"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Budget. Only tangential: the Lei de Base do Ambiente was amended by Lei 7/2026 and a National Environment Agency was created by DL 04/2026 (see 32).",
+     "status": "not_reached"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Budget. No sources surfaced; near-zero lift stock expected on the islands (unverified).",
+     "status": "not_reached"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "AGER regulates telecom, postal, water and electricity (trade.gov guide). EMAE runs about 16 mostly gravity-fed systems. No AGER licensing text or community water-committee rules found.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Budget. Only a 2015 draft plant-health decree-law (CIAT-STP, ippc.int) surfaced; adoption not confirmed.",
+     "status": "not_reached"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Labour Code is Lei 6/2019. Rules on foreign workers and national quotas are mentioned, but the final text and any permit portal were not found.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Budget. No sources surfaced.",
+     "status": "not_reached"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "FONG-STP federation has over 200 NGO members (Forus). 2010 ordinance extended immediate association set-up to several registries. Churches, private social solidarity institutions and non-profits can keep the 10% INSS rate by authorization. No annual reporting duty found.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Nothing new beyond K05. A 2017 academic paper describes informal motoqueiros. The Road Code dated to 1954, and a new code was proposed (adoption unverified). No taxi or moto-taxi licensing regime found.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Nothing new beyond K05. INSS director estimates about 70% of the workforce is informal, mainly transport, fishing and trade (Forbes Africa Lusófona).",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Budget. No sources surfaced.",
+     "status": "not_reached"
+    },
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "ENCO holds the import and sale monopoly for petroleum products (older academic source). DERCAE (Direcção de Regulação e Controlo das Actividades Económicas) found fuel-pump fraud and set fines of 20,000 to 200,000 dobras (undated news). No licensing decree found. Candidate C4.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "2023 exports: cocoa about USD 10M, crude palm oil about USD 5.5M, pepper about USD 254k. Agripalma plant opened Dec 2019. Exporter licence and phytosanitary procedure not found. Cocoa EUDR is already covered by K02 and K04.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "CECAB (42 associations, about 3,000 growers) and CECAQ-11 export about 40% of cocoa. Microfinance and payment-institution licensing notices from the Banco Central were not found. UNCDF Payment Infrastructure Assessment (April 2025) is the likeliest source and was not read.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Lei 9/2018 (health bases) recognises private and mixed providers. The ADS (state employee health scheme) contract with private clinics was not found. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "No STP pharmacy or medicine-import licensing text found; only Timor-Leste and Angola results, which were ignored.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "No private security regime found. General INSS duties: 12% rate from 1 Jan 2025 (7% employer, 5% employee) under DL 1/2025. Payroll vendors (Ontop, Playroll) serve foreign employers only.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Lei 9/2020 of 22 Sep 2020 governs extraction of aggregates: coastal sand extraction is banned with exceptions, and licences come from the natural resources ministry. Informal beach sand extraction is widespread, and a World Bank-backed roadmap exists (Ceris, Aug 2024). No contractor alvará regime found. Candidate C3.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "AML law is Lei 8/2013 of 15 Oct 2013; the FIU (UIF) was created by DL 60/2009. The GIABA/FATF mutual evaluation was adopted in Nov 2024 (on-site June 2023). The report page returned HTTP 403, so DNFBP coverage is unverified. Candidate C5.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "A tourist tax of about EUR 2.10 per person per day is paid at hotels (2024 travel brochure, unverified); an older report says EUR 3.10. A 2016 tourism bill said the sector lacked a legal framework; no current accommodation licensing or guest-register decree found. Visitors reached about 41k in 2024. Candidate C8.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Cocoa is covered by K02 and K04. Vanilla, pepper and palm oil exporters: phytosanitary certificate model exists on IPPC, but the 2015 plant-health decree-law draft was not confirmed adopted. See C10.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Fisheries: artisanal fisher, palaiê and vessel registry under the Fisheries and Aquaculture Law",
+     "found": "Lei 09/2022 (DR 22 June 2022) replaced Lei 9/2001. The EU-STP protocol expired 22 May 2018 and talks were suspended. Artisanal licence and vessel registration procedure not found. Same buyer group and duty as K01.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Environmental licensing: Lei 7/2026 and the new National Environment Agency",
+     "found": "Lei 7/2026 of 13 Aug 2026 amended and republished the Lei de Base do Ambiente (in force 18 Aug 2026). DL 04/2026 created the Agência Nacional do Ambiente. The licensing and EIA procedure text was not found. Candidate C7.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Payments and mobile money agents, fintechs, Banco Central licensing",
+     "found": "Over 70% of people pay by mobile phone (BCSTP governor). The RTGS system was to go live in 2024, and SIBS runs Dobra24. GolFinTech says it has been licensed since 2021. No agent or reporting duty found.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Social security (INSS) contribution regime changes",
+     "found": "DL 1/2025 of 7 Jan 2025 raised the rate to 12% from 1 Jan 2025, with payments due Feb 2025. The old 10% rate is kept only with INSS authorization for churches, private social solidarity institutions, firms with turnover up to 90 UCSS (about STN 108,000), the domestic sector and non-profits. Employers hiring young first-job seekers can be exempt for up to a year. Candidate C1.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Petroleum service-provider registration with ANP-STP",
+     "found": "DL 22/2022 of 14 Sep 2022 set registration for service providers with ANP-STP, in force 1 Jan 2023 (Miranda alert). The duty falls mainly on larger or foreign firms; the small local share is unverified. Weak candidate C9.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Business registration and VAT (IVA) for small taxpayers",
+     "found": "Registration goes through the Guiché Único (Ministry of Justice), mostly in person (Deel guide, unverified). IVA took effect 1 June 2023 per 2025 and 2026 academic sources, while a 2019 law firm note gave 1 March 2020. E-invoicing is not found for STP. Covered by K03.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "São Tomé e Príncipe Diário da República licenciamento atividade decreto 2025",
+    "São Tomé e Príncipe combustíveis ENCO licença postos de abastecimento ANP regulação",
+    "São Tomé e Príncipe alojamento turístico registo hóspedes taxa turística Direção do Turismo licença",
+    "São Tomé e Príncipe cooperativas cacau exportação certificação CECAB DGA lei branqueamento de capitais notários imobiliário",
+    "São Tomé e Príncipe Direcção das Pescas licença pescador artesanal palaiês registo embarcações",
+    "São Tomé e Príncipe farmácias medicamentos importação licença Direção de Farmácia clínicas privadas seguro ADS",
+    "São Tomé e Príncipe táxis mototáxi licença Direção dos Transportes Terrestres inspeção automóveis",
+    "São Tomé e Príncipe empregadas domésticas segurança social INSS trabalhadores domésticos contribuições empresas de segurança",
+    "São Tomé e Príncipe novo regime IVA faturação electrónica Direção dos Impostos 2025 2026",
+    "São Tomé e Príncipe Lei anti-branqueamento 2024 2025 entidades obrigadas UIF notários imobiliárias casinos GAFI GIABA",
+    "São Tomé e Príncipe DERCAE licença comercial alvará actividades económicas registo estabelecimentos comerciais balcão único",
+    "São Tomé e Príncipe ONG associações registo obrigatório relatório anual lei das associações 2024",
+    "São Tomé e Príncipe veterinária matadouro talhos licença pecuária importação carne inspeção sanitária",
+    "São Tomé e Príncipe AGER licença água electricidade telecomunicações pequenos sistemas de água comunitários",
+    "São Tomé e Príncipe Banco Central microfinanças cooperativas de crédito instituições de pagamento mobile money licenciamento",
+    "São Tomé e Príncipe lei do turismo regulamento empreendimentos turísticos alojamento local guest house licenciamento",
+    "São Tomé e Príncipe trabalhadores estrangeiros autorização de trabalho empregadores Serviço de Migração e Fronteiras",
+    "São Tomé e Príncipe sucata ferro velho ouro compra metais agregados areia extração licença construção civil alvará",
+    "São Tomé e Príncipe exportação cacau café óleo de palma licença exportador certificado fitossanitário pimenta baunilha",
+    "São Tomé e Príncipe lei de base do ambiente 2026 licença ambiental; INSS declaração de remunerações online; mirandalawfirm new decree-law 2025 2026"
+   ],
+   "searches": 22
+  },
+  "tag": "w2b78"
+ },
+ "gapfill:sao-tome-and-principe": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "COOPAPIP (cooperative, about 31 members) / Príncipe regional government",
+     "category": "8. Beekeepers",
+     "evidence": "https://www.cepf.net/sites/default/files/final-report-100798.pdf ; https://birdlife.org/news/2019/07/12/forest-conservation-project-converts-bee-burners-to-beekeepers-on-principe-island ; https://bibliotecadigital.ipb.pt/bitstreams/59757fe9-b9aa-4eef-a488-69bf982d9ff3/download (2015 thesis: about 3 beekeepers nationally)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "known_note": "Buyer is a single small cooperative; far below viable market size.",
+     "name": "Príncipe certified-honey cooperative register (COOPAPIP) and bee-protection compliance",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Regional bee-protection law drafted 2017 with COOPAPIP: bans hive burning and selling honey unless by a certified cooperative member. Number, text and current status not found.",
+     "unchecked": "Law number and text; whether certification involves recurring filings; cooperative current size; any budget to pay."
+    },
+    {
+     "buyer": "Importers/sellers of plants, plant products and agro-inputs",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://leap.unep.org/en/countries/st/national-legislation/decree-law-no-52016-approving-plant-health-framework-act (search snippet; fetch returned 403) ; https://www.ippc.int/static/media/files/reportingobligation/2016/09/09/Ante_projecto_do_Decreto_Lei_sobre_Sanidade_Vegetal.doc ; https://ippc.int/countries/são-tomé-and-príncipe",
+     "existing": "None seen",
+     "known_mark": "new",
+     "known_note": "Overlaps loosely with K02 only through cocoa exports; different duty (inputs/plant health), not EUDR.",
+     "name": "Phytosanitary and agro-input dealer/importer compliance under DL 5/2016 (CIAT)",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Decreto-Lei 5/2016 Plant Health Framework Act (CIAT-STP authority); Decreto 40/99 phytosanitary certificates for exports; adoption of the 2015 draft now confirmed as DL 5/2016.",
+     "unchecked": "Whether dealer licensing, pesticide registers or applicator certificates exist; number of dealers; whether CIAT permits are paper-based. Probably only a few dozen importers or agro-dealers."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Two searches (second-hand/scrap licensing; pawnshops) found no STP-specific licensing or register regime for second-hand dealers or pawnbrokers. Only tangential: Decree-Law 13/2010 (National Payments System) and Law 9/2010 (AML/CFT amendment) exist but are not tied to pawnshops. Nothing new beyond K05 (informal registers rejected).",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No STP rules on dismantlers, scrap vehicles or used parts found. Vehicle import is said (commercial source, unverified) to have an age limit for used cars; no instrument found. Road Code: Lei 04/IX/11 (new Código de Estrada, final text Feb 2013, replacing the 1954 code) exists; no periodic-inspection or dismantler provisions seen. Roughly USD 5.6M cars imported in 2022 (tradingeconomics, secondary). No candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Sector is tiny (2015 thesis: about 3 beekeepers on STP island). Only regulated niche is Príncipe: regional bee-protection law drafted 2017 bans burning hives and selling honey unless by a certified COOPAPIP member (cooperative founded 2016, 31 members, Ponta do Sol). Law number and current status unverified. Too small and cooperative-run for software; listed as a weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Lei 07/2018 Lei-Quadro dos Recursos Hídricos (DR 55, 2 May 2018, in force 26 May 2018) found at ampeid.org and FAOLEX, but I could not read licence/permit articles or any implementing decree (summary page silent; FAOLEX PDF unreadable). No driller register or abstraction-permit workflow confirmed. Unchecked: Lei 07/2018 full text.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "No STP law on septic tanks or desludging found. Academic sources (2025 dissertation, UNILAB, Lusófona) describe open dumping and weak institutions; PNGIRSU (national solid-waste plan) mentioned without approval status. DL 14/2003 covers packaging waste only. Tangential items already in the gap note: Lei 7/2026 and DL 04/2026 (National Environment Agency). No candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Search returned no STP regime for lifts, boilers or pressure vessels (only Brazil NR-13 and Ontario TSSA). Nothing suggests a statutory inspection scheme. Near-zero lift stock remains an unverified assumption. Not a candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Update to the gap note: the plant-health framework was adopted as Decreto-Lei 5/2016 (Plant Health Framework Act, 88 articles, 8 chapters, 9 annexes), naming CIAT-STP as competent authority and binding public and private parties that produce, import, export or sell plants and plant products (FAOLEX summary via leap.unep.org, page 403 on fetch, summary only via search). Also Decreto 40/99 (CIAT phytosanitary border control, phytosanitary certificates for exports) and Decreto 20/2010 (phytosanitary agreement with Cape Verde). No pesticide registration, dealer licensing or applicator certification instrument found. No candidate; CIAT border permits are small-volume and state-run.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "No STP law, municipal cemetery regulation or funeral-agency licensing found in two searches (results were Portugal, Brazil, Cape Verde). Cemeteries likely run by distrital councils (unverified). Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Driving schools: Road Code Lei 04/IX/11 (2013) consulted driving-school representatives; DTT (Direcção dos Transportes Terrestres) is the authority; no school licensing or student-register rules seen. Nurseries: no STP instrument found. Food: Decreto-Lei 19/2011 (food safety, Codex-aligned, 10 June 2011) exists but licensing articles unread. Tattoo and hunting: no sources, assumed negligible. No candidate.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "STP decreto licenciamento comércio usados sucata compra e venda",
+    "STP oficina sucata peças automóveis usadas importação viaturas usadas lei",
+    "STP apicultura mel apicultores associação",
+    "STP furos de água poços licença recursos hídricos lei da água",
+    "STP resíduos sólidos saneamento fossas sépticas recolha lei decreto",
+    "STP pesticidas agrotóxicos importação licença decreto-lei fitossanitário",
+    "STP cemitério serviços funerários agência funerária regulamento",
+    "STP escola de condução licenciamento creches jardins de infância decreto",
+    "STP elevadores caldeiras equipamentos sob pressão inspeção regulamento",
+    "STP penhores casas de penhores usados segunda mão regulamento comércio",
+    "novo Código da Estrada STP aprovado escolas de condução inspeção periódica",
+    "STP 2025 decreto-lei produtos fitofarmacêuticos lei sanidade vegetal aprovada",
+    "STP Lei 07/2018 recursos hídricos licença captação águas subterrâneas furos",
+    "STP licença estabelecimento alimentar higiene padarias pequenos produtores HACCP",
+    "STP sector funerário óbito cemitério municipal Água Grande taxa sepultura",
+    "STP inspeção técnica automóvel centro inspeção viaturas oficinas DTT",
+    "COOPAPIP apicultores Príncipe lei proteção abelhas mel certificação"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b78"
+ },
+ "triage:sao-tome-and-principe": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "known",
+     "id": "ALL1",
+     "reason": "Same artisanal fisher licensing/register duty as K01; no new evidence.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "ALL2",
+     "reason": "Households as employers, churches and micro firms with a recurring INSS filing duty and a new 2025 rate rule; different duty from K03."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL3",
+     "reason": "Small quarry/sand operators with licence compliance duties under Lei 9/2020; in scope, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL4",
+     "reason": "Independent petrol stations with inspection/calibration duty and fines; small firms in scope, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL5",
+     "reason": "Notaries, brokers and small professional offices carry AML reporting duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL6",
+     "reason": "Small importers, butchers and farms need import/trade permits under DL 06/2019; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL7",
+     "reason": "New 2026 environmental law and agency create licensing duty for small firms; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL8",
+     "reason": "Guest houses and small hotels collect tourist tax and keep a guest register; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL9",
+     "reason": "Small local suppliers must register with ANP-STP under DL 22/2022; in scope, market size for verifiers."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL10",
+     "reason": "Different buyer group (non-cocoa exporters) and duty (phytosanitary paperwork) than K02; related K02."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL11",
+     "reason": "Small payment agents and fintechs licensed by Banco Central have a reporting duty; in scope, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL12",
+     "reason": "Small employers of foreign staff face permit and quota duties; in scope, unverified."
+    },
+    {
+     "decision": "known",
+     "id": "ALL13",
+     "reason": "Same moto-taxi, vendor and scrap registers as K05; no revive evidence.",
+     "ref": "K05"
+    },
+    {
+     "decision": "known",
+     "id": "ALL14",
+     "reason": "Same SME IVA invoicing duty as K03; no new evidence.",
+     "ref": "K03"
+    },
+    {
+     "decision": "known",
+     "id": "ALL15",
+     "reason": "Same cocoa EUDR traceability as K02/K04; nothing to revive.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Cooperative with a certification and bee-protection duty is in scope; market size is for verifiers."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Agro-input dealers and importers under DL 5/2016 are a different buyer and duty than K02; related K02."
+    }
+   ]
+  },
+  "tag": "w2b78"
+ }
+}

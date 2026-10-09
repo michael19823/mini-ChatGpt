@@ -1,0 +1,628 @@
+{
+ "discover:ALL:djibouti": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small car dealers, real estate intermediaries, gold and jewellery dealers, travel agencies, notaries, accountants and NPOs in Djibouti-ville",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports (also 4, 31)",
+     "evidence": "ANRF guideline, banque-centrale.dj, file dated April 2026: https://banque-centrale.dj/wp-content/uploads/2026/04/Guide-dorientation-ANRF-1-2.pdf (read via pdftotext: DNFBP list at section 1.2, cash reporting at section 4.1, channel at section 8.4). BCD annual report 2024 mentions the ANRF reorganisation as an autonomous agency: https://banque-centrale.dj/wp-content/uploads/2025/09/Rapport-Annuel_-V.Definitive.pdf (headings only seen).",
+     "evidence_note": "",
+     "existing": "No local vendor or software found in one competitor search in French (ANRF supervision, DNFBP, logiciel de conformite). Large international AML suites exist but the guideline targets banks first.",
+     "known_id": "K11",
+     "known_mark": "new",
+     "name": "AML/CFT compliance pack for non-bank designated professions (car dealers, property intermediaries, gold and precious-stone dealers, travel agencies): cash-transaction (DOE) tracking, NIL reports, KYC files",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Law 178/AN/25/9eme L amending AML Law 106/AN/24/9eme L, art. 2-1-1 (DNFBP list) and 3-3-2: every cash operation at or above 1,000,000 FDJ (about USD 5,600) reported to the ANRF, aggregated over rolling 30 days; NIL (NEANT) report when none; suspicious transaction reports with no minimum; identification above 177,000 FDJ for occasional operations. Reports go through the ANRF information system with credentials issued to the compliance officer. The guideline says non-bank categories will get sector-specific guidelines later.",
+     "unchecked": "Number of DNFBPs actually registered or supervised; whether the ANRF enforces on non-banks yet; when sector guidelines are issued; whether reports are filed on goAML or a custom portal; penalties; whether cash of 1M FDJ is common for car dealers or property deals. The guideline obligations for non-banks are marked as to be specified, so the duty may not be fully operational. A second local-language competitor search was not run (budget)."
+    },
+    {
+     "buyer": "Djiboutian SMEs and clinics processing personal data",
+     "category": "32. Digital Code 2025 and personal data protection",
+     "evidence": "Secondary sources only: https://www.consentstack.io/regulations/dj-digital-code , https://osiris.sn/djibouti-se-dote-d-un-code-du-numerique-pour-structurer-son-ecosysteme-digital.html . Official text not seen.",
+     "existing": "None searched. Generic privacy tools exist.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Digital Code 2025 data-protection compliance (CNDP notifications, breach register, DPO) for small firms",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Digital Code reportedly promulgated 30 June 2025 with a data-protection volume and a 72-hour breach notice; supervised by a CNDP of uncertain operational status.",
+     "unchecked": "Official text, CNDP existence, any registration or filing duty, enforcement. Likely too generic and unenforced."
+    },
+    {
+     "buyer": "Djiboutian associations and NPOs",
+     "category": "17. Community and religious bodies: associations, charities",
+     "evidence": "https://www.adds.dj/mffmiseas-a-workshop-on-the-identification-of-the-needs-of-the-associative-movement ; AIMF terms of reference document (https://aimf.asso.fr/wp-content/uploads/2024/12/TDR-evaluation-externe-du-projet-final-Djibouti-23-12-24.docx) ; ANRF guideline above.",
+     "existing": "None searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Association and NGO annual reporting and registration tracker",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "NPOs are designated under the AML law; associations register through the women/family ministry focal points and ADDS; framework under EU-funded reform (PASOC). No recurring filing confirmed.",
+     "unchecked": "The associations law, annual filing duty, number of registered associations, willingness to pay."
+    },
+    {
+     "buyer": "Licensed fuel and LPG distributors and service stations",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "FAOLEX texts surfaced in search: https://faolex.fao.org/docs/pdf/dji147154.pdf , https://faolex.fao.org/docs/pdf/dji221691.pdf ; French Tresor note says imports are handled by the state company SIHD: https://www.tresor.economie.gouv.fr/Pays/ET/petrole-des-ressources-en-hydrocarbures-limitees-qui-oblige-le-pays-a-recourir-aux-importations",
+     "existing": "None found.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Hydrocarbon licence holders and small fuel retailers: licence renewals, stock and sales returns",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Law 33/AN/13/7eme L as amended by Law 131/AN/21/8eme L (JO 15/07/2021); decree 2015-153/PR/MERN on licences and strategic stock.",
+     "unchecked": "Number of licence holders (likely a handful), any periodic return, station count. State-dominated supply chain makes the buyer base very small."
+    },
+    {
+     "buyer": "Few fish-handling establishments and fishers",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://sfda.gov.sa/sites/default/files/2021-08/Djibouti-Fish.pdf ; https://www.tresor.economie.gouv.fr/Pays/DJ/un-secteur-encore-delaisse-par-la-population-locale-expliquant-le-manque-de-valorisation-du-potentiel-de-peche-du-pays",
+     "existing": "None.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Fish exporter and establishment approval records (Saudi/Gulf-approved Djiboutian fish establishments)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Fisheries Code 2002 (Law 187/AN/02), 2000 arretes on hygiene and export marketing, per-establishment approval by importing countries.",
+     "unchecked": "Current number of approved establishments. Production about 2,200 tonnes per year, so the market is tiny."
+    },
+    {
+     "buyer": "Livestock exporters",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.standardsfacility.org/sites/default/files/STDF_PPP_Case_story_02_Djibouti_WEB_F.pdf",
+     "existing": "Prima International quarantine operator.",
+     "known_id": "K03",
+     "known_mark": "known",
+     "name": "Livestock export quarantine and consignment records at Damerjog",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Veterinary services sanitary certificate plus lab analysis; quarantine operated by Prima International under PPP.",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Small employers and accountants",
+     "category": "1. Household employers",
+     "evidence": "Rivermate summary seen in search results (generic); not re-checked.",
+     "existing": "",
+     "known_id": "K02",
+     "known_mark": "known",
+     "name": "Monthly ITS and CNSS employer declarations (15th of the month; annual summary before 31 March)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Monthly ITS and CNSS filings.",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Private clinics, pharmacies, labs",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://www.uneca.org/sites/default/files/keymessageanddocuments/discour_du_pdt_pour_business_forum.pdf ; https://africa24tv.com/djibouti-40-de-la-population-couverte-par-lassurance-maladie",
+     "existing": "None found.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Private health providers and pharmacies billing the AMU through CNSS (third-party payment)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "AMU/AMO run by CNSS with generalised third-party payment; over 40 percent coverage as of Dec 2024.",
+     "unchecked": "Whether private providers are accredited and how claims are submitted (portal or paper), number of providers, any CNSS software already supplied. Not enough found to score higher."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing new beyond K10 and K02. One search on CNSS employer filing found only generic Rivermate-type info (ITS+CNSS monthly by the 15th, annual summary by 31 March), no domestic-worker regime or employer portal.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No search spent (budget; low prior in a microstate).",
+     "status": "not_reached"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No search spent (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Dealers in precious metals/stones/art are designated non-financial professions under Law 178/AN/25/9eme L (ANRF guideline, 2026). See candidate C1. No separate licensing register found.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No search spent (budget). Motor vehicle dealers are DNFBPs (see C1).",
+     "status": "not_reached"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Nothing new beyond K03. Sanitary certificate from veterinary services plus lab analysis required for export; quarantine run under PPP by Prima International (STDF case story).",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Only an old undated FAOLEX tariff text (slaughter fee per head, isothermal carcass transport by the abattoir service). No butcher licence register or modern filing found.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No search spent (budget; very low prior).",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Vet drugs are imported and distributed free by the state DESV; no domestic manufacturer; one private rural clinic (2019 presentation). No private-seller reporting duty found.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "No search spent (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Solid waste is handled by the state OVD with informal pre-collectors; AFD/EU-funded Chebelley landfill. No operator licence regime or private reporting found.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "No search spent (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "No search spent (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "No search spent (budget; tiny agricultural sector).",
+     "status": "not_reached"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "No search spent (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "No search spent (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Associations and NPOs are designated entities under the AML law (ANRF guideline). Registration runs via the women/family ministry focal points and ADDS; the legal framework is described as restrictive and under EU-funded (PASOC) reform. No annual-report filing rule confirmed. See C3.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Only 2009 arretes found (cap on taxi numbers, suspension of new bus/minibus imports) via the CCD legal index; no current licensing or filing regime confirmed. Informal network.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Nothing new beyond K11 and K09.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Driving schools: no official text found; a 2016 study says driving-school training is not mandatory. Other sub-types not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Hydrocarbon import/storage/distribution is licensed by the energy ministry under Law 33/AN/13/7eme L (amended by Law 131/AN/21/8eme L, JO 15/07/2021) and decree 2015-153/PR/MERN; imports are run by the state SIHD. Small consumers are supplied through service stations by DOSC. No periodic-return rule found. See C4.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "No search spent (budget). Transit/corridor trade is covered by K01 and K04.",
+     "status": "not_reached"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "No search spent (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "The AMU is run by CNSS with third-party payment (AMO plus PASS); coverage above 40 percent of the population as of Dec 2024. No source on private clinic accreditation or billing portal found. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Import and wholesale of medicines are reserved for pharmacists; DMPL is the regulator; National Pharmaceutical Supply Strategy 2023-2027 (Law 14/AN/23/9eme L). No 2025 approval order or recurring return found. Very few buyers.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "No search spent (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Mining code of 1994 (Law 66/AN/94), new code prepared in 2016; no public quarry-licence register found and sources conflict on whether sand and gravel are exploited. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Strong lead: ANRF guideline (April 2026) lists the DNFBPs and imposes cash reporting at or above 1,000,000 FDJ, 30-day rolling aggregation, NIL reports, and suspicious transaction reports without delay; non-bank sectors are promised sector guidelines. See C1.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "The CCD legal index only shows 1972 hotel classification norms and investment-code approval orders. No guest-register or tourist-tax rule found.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Fisheries: artisanal fishing only, fisher card from the Direction de la Pêche, Fisheries Code 2002 (Law 187/AN/02), 2000 arretes on export marketing and hygiene; Saudi-approved Djiboutian fish establishments (one at Loyada). Tiny sector. See C5.",
+     "status": "screened"
+    },
+    {
+     "category": "31. AML designated non-financial professions (country-specific: Law 178/AN/25/9eme L, ANRF)",
+     "found": "See C1: car dealers, travel agencies, property intermediaries, precious-metal dealers, NPOs, lawyers, notaries, accountants, auctioneers, trade intermediaries, trust and company service providers.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Digital Code 2025 and personal data protection (CNDP)",
+     "found": "Digital Code reportedly promulgated 30 June 2025, about 800 articles with a GDPR-style data protection volume, 72-hour breach notice and a data protection authority (CNDP) whose operational status is unconfirmed. Secondary sources only. See C2.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Fisheries licences and fisher cards",
+     "found": "Fisher card and licence from the Direction de la Pêche; marginal sector (0.14 percent of employment in 2020). See C5.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Insurance: compulsory motor and import cargo insurance, brokers",
+     "found": "Two compulsory lines (motor, import cargo with local insurers); only two active insurers (AMERGA, GXA); motor cover policed by traffic police. No broker or agent licensing text found. Thin buyer base.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Tax and corporate registry duties (Finance Laws 2025 and 2026, RCS/ODPIC)",
+     "found": "Finance Law 2025 (Law 150/AN/24/9eme L, JO 29 Jan 2025): plastic-bottle levy, VAT on bank commissions, about 0.2 percent withholding on money transfers. Finance Law 2026 signed 31 Dec 2025, no detail found. No online e-tax portal or e-invoicing mandate found. Monthly ITS and CNSS by the 15th is K02.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Solid waste, sanitation and environmental permits",
+     "found": "No private operator licensing found (see category 11).",
+     "status": "screened"
+    },
+    {
+     "category": "37. Taxi and vehicle-count caps (2009 arretes)",
+     "found": "Old caps found; no evidence of a current renewal or reporting workflow.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Djibouti décret 2025 obligation déclaration registre activités réglementées",
+    "Djibouti distributeur hydrocarbures station-service licence ministère de l'énergie",
+    "Djibouti hôtels registre des voyageurs taxe de séjour ONTD agrément",
+    "Djibouti pharmacie grossiste importateur médicaments agrément ministère de la santé arrêté 2025",
+    "Djibouti Journal Officiel 2025 loi décret nouvelle obligation entreprises",
+    "Djibouti ANRF professions non financières désignées déclaration de soupçon notaires agents immobiliers négociants or",
+    "Djibouti EY Global Tax Alert October 2025 Djibouti tax",
+    "Djibouti vétérinaire pharmacie vétérinaire élevage exportation bétail Direction de l'élevage certificat sanitaire",
+    "Djibouti transport routier taxi minibus licence autorité de régulation transport terrestre 2025",
+    "Djibouti pêche exportation poisson agrément sanitaire pêcheurs licence ministère de la pêche",
+    "Djibouti déchets collecte ordures environnement permis ministère de l'environnement 2025",
+    "Djibouti loi 2025 2026 protection des données personnelles cybersécurité immatriculation obligation",
+    "Djibouti CNSS employeurs déclaration en ligne portail cotisations employés de maison",
+    "Djibouti auto-école permis de conduire agrément école de conduite",
+    "Djibouti association ONG enregistrement ministère de l'intérieur rapport annuel OBNL LBC/FT",
+    "Djibouti loi de finances 2026 nouvelles mesures fiscales déclaration patente",
+    "Djibouti carrière sable gravier exploitation autorisation code minier",
+    "Djibouti assurance automobile obligatoire courtiers agents généraux agrément BCD",
+    "Djibouti ANRF supervision professions non financières agents immobiliers concessionnaires agences de voyage logiciel conformité LBC",
+    "Djibouti DGI télédéclaration e-tax plateforme impôts en ligne ITS patente; Djibouti AMU cliniques privées conventionnement CNSS; Djibouti abattoir Balbala bouchers licence"
+   ],
+   "searches": 22
+  },
+  "tag": "w2b75"
+ },
+ "gapfill:djibouti": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed private employment and temp-work agencies in Djibouti (probably tens at most; count unverified)",
+     "category": "15. Labour contractors and recruitment agencies (also 26. Security, cleaning and manpower agencies)",
+     "evidence": "https://ccd.dj/wp-content/uploads/2022/06/prestataires-de-services.pdf (decree text, pp. 18-21). Search results on the IOM and Ministry of Labour recruitment study and the ILO migration strategy since 2024. No named software found. Competitor search not run because the 18-search cap was reached.",
+     "existing": "None found.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Related to K02 (CNSS and ITS declarations) only because the customer overlaps; the duty is different.",
+     "name": "Private employment and manpower agency compliance pack (deposit, fee agreements, pay grids)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Décret n°2004-0054/PR/MESN, art. 3-11 (text read in the CCD legal database, which cites the Journal Officiel). Agrément from the Employment Ministry. Deposit of 4,000,000 DJF to the Treasury, revised annually to 10% of accountant-certified turnover (art. 6). Fee agreements go to the labour inspectorate (art. 9). Pay-grid agreements go to the minister (art. 8). Fees capped at 10% (placement) or 15% (temp supply) of net monthly pay (art. 10). Workers must not be charged fees (art. 7).",
+     "unchecked": "Number of licensed agencies; whether any periodic report beyond the annual deposit revision exists; the 2024-2026 migration strategy may add rules; recruitment fees for migrants; local competitors."
+    },
+    {
+     "buyer": "Approved inspection experts (few) and owners of commercial or taxi fleets (many small); private car owners are a consumer market.",
+     "category": "5. Used car parts and vehicle dismantlers (adjacent: 18. Transport operators)",
+     "evidence": "https://ccd.dj/wp-content/uploads/2022/06/automobiles-et-produits-connexes.pdf (read via pdftotext). Used-car age limit (reported 8 years, decree n°2018-203, unverified): https://skmotorsdubai.com/en/car-export-from-dubai-to-djibouti-complete-2026-guide-for-importing-vehicles/",
+     "existing": "None found, but unchecked.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Not a known idea. Adjacent to the transport-operator category, which another worker covers.",
+     "name": "Vehicle technical-inspection scheduling and certificate register for fleet owners and inspection experts",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Vehicle technical-inspection decree in the CCD 'Automobile et produits connexes' compilation (number not extracted; date unverified). Art. 1: periodic inspections at intervals of at most six months or one year depending on category. Art. 3: inspection of every imported used vehicle before registration. Art. 4: inspection before every change of owner and before the registration certificate is transferred (seller pays). Art. 6: inspections only by experts approved by the Transport Minister. Art. 8: the inspection certificate must be shown at police and gendarmerie checks.",
+     "unchecked": "No competitor search run (cap reached). Whether the inspection regime is still enforced and who runs the centres (state versus private experts). Number of approved experts. Whether the inspection is digitised on the transport ministry or e-registration side. Consumer reminders alone are probably a weak business."
+    },
+    {
+     "buyer": "Independent scrap collectors and exporters",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "https://www.steelorbis.com/steel-news/latest-news/turkeys-corbus-signs-scrap-trade-agreement-with-djibouti-1205748.htm (fetched, dated 28 Jun 2021); https://kallanish.com/en/news/steel/market-reports/article-details/turkeys-corbus-signs-exclusivity-agreement-for-processing-use-and-export-of-scrap-in-djibouti-0621. Decree text via FAOLEX search results (https://faolex.fao.org/docs/pdf/dji71262.pdf, https://faolex.fao.org/docs/pdf/dji133794.pdf), not opened.",
+     "existing": "The Corbus exclusivity removes the independent-dealer market.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Scrap-metal collection and export software",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Scrap export was suspended by a 2007 decree, with a one-company exemption in 2013. A June 2021 agreement gave Corbus Metal exclusive collection, processing and export of all scrap, including old vehicles.",
+     "unchecked": "Whether the 2021 exclusivity is still in force after five years. If it lapsed, an independent dealer market could reappear."
+    },
+    {
+     "buyer": "Village water-management committees in rural Djibouti, organised under the water directorate",
+     "category": "13. Small water systems",
+     "evidence": "https://www.undp.org/fr/djibouti/publications/note-de-capitalisation-gouvernance-participative-de-leau (title and summary only, not fetched); https://openjicareport.jica.go.jp/pdf/12026423_04.pdf (not opened).",
+     "existing": "None found.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Rural water-point management committee fee and maintenance ledger",
+     "score": 2,
+     "status": "weak",
+     "trigger": "There is no confirmed statutory duty. The water directorate's guidance sets up committees to run and maintain rural water points, and fee collection is left to villages. A UNDP note from Feb 2026 on participative water governance is available.",
+     "unchecked": "Number of committees; whether they report to any authority; donor appetite to pay; connectivity in remote villages."
+    },
+    {
+     "buyer": "BCD-licensed microfinance institutions, including associative savings and credit bodies such as the CPEC (count unverified, probably under 10)",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://banque-centrale.dj/wp-content/uploads/2024/03/Loi-n%C2%B0179AN075eme-L-portant-reglementation-des-activites-de-Micro-finance-sur-le-Territoire-de-la-Republique-de-Djibouti.pdf (snippet only, not opened); https://banque-centrale.dj/wp-content/uploads/2024/03/Loi-n117lAN1164.-L-Portant-reglementation-des-cooperatives-financieres.pdf (not opened).",
+     "existing": "Core-banking and microfinance suites are not checked.",
+     "known_id": "K11",
+     "known_mark": "new",
+     "known_note": "Different buyer from K11 (money changers and remittance operators), but the same regulator and a small count.",
+     "name": "Microfinance and savings-co-operative regulatory reporting for the CPEC and associative MFIs",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Microfinance Law n°179/AN/07/5e L (2007): BCD authorisation and viability checks. Loi n°117/AN/11/6e L on financial co-operatives. Periodic prudential reporting to the BCD is likely but unconfirmed.",
+     "unchecked": "Number of institutions; reporting forms and frequency; whether the BCD has a reporting portal; existing core-banking vendors; the actual text of both laws."
+    },
+    {
+     "buyer": "Flour millers, packers and importers (very few)",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://faolex.fao.org/docs/pdf/dji133792.pdf (listed in search results, not opened); https://www.wto.org/french/tratop_f/tpr_f/s305_f.pdf (WTO trade policy review, not opened).",
+     "existing": "None found.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Overlaps the corridor trade importers in K01 only loosely.",
+     "name": "Wheat-flour fortification and quality-control records for millers and importers",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Arrêté n°2013-377/PR/MDC requires iron-and-vitamin fortification of wheat flour that is milled, packed or imported, with controls on quality, packaging and labelling. The 1988 special tax on imported flour (Loi 38/AN/88/2e L) may still apply.",
+     "unchecked": "Whether the arrêté is enforced; whether it requires lot records; number of mills (likely one or two plus large import houses)."
+    },
+    {
+     "buyer": "Private guarding and surveillance companies (count unverified)",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://ccd.dj/wp-content/uploads/2022/06/prestataires-de-services.pdf (pdftotext, arts. 1-25).",
+     "existing": "None found.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Private security (guarding) firm licence and compliance management",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Loi n°202/AN/07/5e L: the company applies for an agrément to the regional state representative (art. 4). The manager gets an individual authorisation (art. 15), which the Employment Ministry demands before it grants the final agrément. Civil-liability insurance is required (art. 14), a written contract for each client (art. 11), and a staff register is likely. Penalty of one year in prison and a 1,000,000 DJF fine for illegal operation (art. 25).",
+     "unchecked": "No recurring filing found, only one-off licences, insurance and individual authorisations. Firm count unknown. Likely served by general payroll tools (K08)."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No dealer-licence regime found. Scrap export was suspended by a 2007 decree, with a 2013 one-company exemption (Zimmerman). In June 2021 Turkey's Corbus Metal signed an exclusivity agreement for collecting, processing and exporting all ferrous and non-ferrous scrap, including old vehicles (SteelOrbis, 28 Jun 2021). Term and current status are unverified. Little room for independent dealers to need software.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "One search found no Djibouti rules on pawnbroking, brocante or friperie. Nothing new beyond the general trade licence (patente). Unverified rather than disproven.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler or parts-dealer regime found. Scrap and old vehicles fall under the Corbus exclusivity. Adjacent finding: used-car import is limited by vehicle age (reported 8 years, decree n°2018-203, not read). Every used import needs a technical inspection before registration, and every vehicle needs one before a change of owner (see candidate on vehicle inspection).",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Two searches (French and English) found no Djibouti beekeeping sector, association or register. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Water Code (Loi 93/AN/95/3e L) exists, and ONEAD (Loi 145/AN/06/5e L of 2006) holds exclusive drinking-water service rights. Water is wholly groundwater from about 50 deep boreholes near the capital, mostly state-run. I could not read the drilling-permit articles. No private driller or abstractor reporting duty confirmed. Nothing new beyond the state operator model.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "No Djibouti rule on lifts, boilers or pressure equipment found. Only foreign jurisdictions returned. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Rural water points are run by village water-management committees organised under the water directorate, within the agriculture and fisheries ministry. The state in principle pays for upkeep, and the directorate lacks staff and means. A UNDP capitalisation note on participative water governance was published in Feb 2026 (not read). No statutory tariff or reporting duty found. This is donor-funded, so a software buyer is unlikely.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "No Djibouti pesticide registration or dealer rule found. Only the WTO profile note that cattle-feed imports need Ministry of Agriculture authorisation. The agricultural sector is tiny. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Décret n°2004-0054/PR/MESN regulates private employment agencies. They need an Employment Ministry agrément, a moral-character check, and a deposit of 4,000,000 DJF paid to the Treasury. That deposit is to be revised annually to 10% of the last accountant-certified turnover. Fees are capped at 10% of net monthly pay for placement and 15% for temp-work supply. A copy of the fee agreement goes to the labour inspectorate, and the pay-grid agreement goes to the minister. Agency count unknown. An IOM and Ministry of Labour study of recruitment practices and an ILO-supported labour-migration strategy (since 2024) are in progress. See candidate C2.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "One search returned only French material, with no Djibouti sources on funeral operators, cemetery rules or burial permits. Burial is largely religious and community-run. Nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Arrêté n°2013-377/PR/MDC requires wheat flour (milled, packed or imported) to be fortified, with quality, packaging and labelling controls. A 1988 special tax on imported flour (Loi 38/AN/88/2e L) and an ONAC exemption order (n°93-0459/PRE) exist; both are old and their current force is unchecked. Cereal imports exceed 0.7 Mt a year but run through few large importers and the port, which K01/K04 cover. No stock-declaration duty found. Few buyers.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Microfinance Law n°179/AN/07/5e L (2007) puts microfinance institutions under Banque Centrale de Djibouti licensing. Associative bodies need no minimum capital but must first be declared to the oversight ministry. The Loi n°117/AN/11/6e L on financial co-operatives is on the BCD site (not read). The CPEC (Caisse Populaire d'Epargne et de Crédit) is the main body. No general co-operative law or register was found. Fishing and women's co-operatives exist, and the Ministry of Women has trained associations to become co-operatives. Buyer count is very small, and the reports are likely sent to the BCD.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Loi n°202/AN/07/5e L (2007) governs private guarding and surveillance. It requires an administrative agrément from the regional state representative, a police inquiry, Djiboutian nationality for managers, and civil-liability insurance (art. 14). It adds a ministry agrément for the employment side. Penalties: one year in prison and a fine of 1,000,000 DJF (art. 25, partly read). Manpower agencies are under Décret 2004-0054 (see cat. 15). No cleaning-firm regime found. All of these are one-off licences rather than recurring filings. Firm counts unknown.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "Djibouti récupération ferraille exportation métaux licence collecteur",
+    "Djibouti importation véhicules d'occasion pièces détachées garage concessionnaire réglementation",
+    "Djibouti forage puits autorisation eau code de l'eau forage ONEAD",
+    "Djibouti agence de recrutement placement travailleurs agrément ANPE ministère du travail",
+    "Djibouti société de gardiennage sécurité privée nettoyage agrément décret",
+    "Djibouti coopérative caisse d'épargne crédit mutuel microfinance agrément Banque Centrale",
+    "Djibouti pesticides importation homologation phytosanitaire autorisation importateur distributeur",
+    "Djibouti pompes funèbres cimetière inhumation autorisation décès déclaration",
+    "Djibouti minoterie farine blé importation entrepôt stockage denrées licence ministère commerce",
+    "Djibouti ascenseurs chaudières appareils à pression inspection contrôle technique bâtiments organisme agréé",
+    "Djibouti apiculture miel apiculteurs apiculture association production",
+    "Djibouti décret 2025 activités réglementées licence ministère commerce patente nouvelle obligation",
+    "Djibouti mont-de-piété prêteur sur gage brocante friperie marché d'occasion réglementation",
+    "Djibouti petits systèmes d'eau villages comités de gestion eau rural points d'eau gestion communautaire redevance",
+    "Djibouti loi coopératives agricoles pêcheurs registre coopératives ministère nombre coopératives",
+    "Djibouti agences d'intérim main-d'œuvre sociétés de gardiennage nombre employés CNSS inspection du travail",
+    "Djibouti ferraille Corbus 2025 véhicules hors d'usage épaves déchets métaux collecte",
+    "Djibouti importateurs riz sucre blé céréales stocks déclaration ministère commerce prix contrôle ONAC"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b75"
+ },
+ "opus:djibouti:ALL1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Djibouti-specific AML software or service in French searches ('logiciel conformité LBC/FT Djibouti déclaration ANRF'); results were Moroccan ANRF news and generic vendors (e.g. Ease in Luxembourg, AP Solutions). Whether the ANRF uses goAML (UNODC's free reporting tool) or a custom portal is not confirmed: the goAML search returned nothing for Djibouti. If goAML is the channel, its free web form covers the filing step itself.",
+   "duty": "Law 178/AN/25/9eme L (4 June 2025) amends AML/CFT Law 106/AN/24/9eme L. The BCD legal database dates it, and a secondary summary (regalert) says it widens obliged entities to real estate intermediaries, NGOs, VASPs and some professions and caps cash at 1,000,000 FDJ. The ANRF operational guideline (April 2026) applies it to obliged entities, non-financial professions included, and requires reports of cash, international wire and suspicious transactions. Both PDFs were compressed, so I could not read the exact articles, the NIL rule, deadlines or penalty amounts. The claim itself says non-bank obligations are 'to be specified' in later sector guidelines, so the duty may not yet be operational for DNFBPs (designated non-financial businesses and professions). The 2024 MENAFATF mutual evaluation rated most effectiveness outcomes Low; I could not open the report (403), so DNFBP supervision findings were not reached.",
+   "market": "Not found. I found no register count of DNFBPs (real estate intermediaries, car dealers, jewellers, notaries, accountants) in Djibouti. Given the economy's size this is probably low hundreds of firms, but that is an estimate. The MENAFATF report was not reachable (403).",
+   "reason": "The law is real. Law 178/AN/25/9eme L, which amends AML Law 106, is dated 4 June 2025 and posted on the Central Bank of Djibouti (BCD) site. A secondary summary says it adds real estate intermediaries, NGOs and other professions and caps cash payments at 1M FDJ. The ANRF guideline is dated April 2026. I could not read either PDF to confirm the cash-report, NIL and penalty clauses, and the guideline defers non-bank rules to later sector guidelines. The 2024 MENAFATF evaluation rates effectiveness mostly low, so enforcement on non-banks is doubtful. I found no local software, and the filing channel (goAML or a custom portal) is unconfirmed. The market is tiny: likely a few hundred firms, no register count found. Payment and mandatory pressure are weak today.",
+   "searches": 6,
+   "sources": "https://banque-centrale.dj/wp-content/uploads/2026/04/Guide-dorientation-ANRF-1-2.pdf ; https://banque-centrale.dj/wp-content/uploads/2026/03/Loi-178-LBC-FT-BONNE-VERSION.pdf ; https://regalert.today/document/de10168d-f69d-4b8b-b015-7df9cfe55da0 ; https://banque-centrale.dj/wp-content/uploads/2024/03/Djibouti_Loi_n196-AN-02-4me_L_Sur_le_Blanchiment_la_Confiscation_et_la_Coopration_Internationale_en_matire_de_produits_du_crime.pdf ; https://www.fatf-gafi.org/en/publications/Mutualevaluations/MER-Djibouti-2024.html ; https://www.fatf-gafi.org/fr/countries/detail/Djibouti.html ; https://banque-centrale.dj/wp-content/uploads/2024/10/AMI-SERVICES-DE-CONSULTANT-Projet-dappui-a-la-reforme-du-secteur-bancaire-et-financier-de-Djibouti-PAREFID.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b75"
+ },
+ "sonnet:djibouti:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Two searches found no evidence of an operating periodic inspection regime in Djibouti. The only support is third-party guides saying a used-vehicle registration needs a RAD (Régie Auto de Djibouti) document issued after a technical inspection, handled via the Ministry of Equipment and Transport's Directorate of Mines and Road Safety. That suggests a single state-linked inspection tied to registration, not a recurring fleet workflow. I found no approved private experts, no count of fleet owners and no software competitor. I could not confirm the decree or enforcement. Likely few buyers, a state-run chokepoint and a weak willingness to pay, so I score it low.",
+   "searches": 2,
+   "sources": "https://wikiprocedure.com/index.php/Djibouti_-_Registration_of_a_Vehicle ; https://iamovers.org/country-guide/djibouti/ ; https://ccd.dj/wp-content/uploads/2022/06/automobiles-et-produits-connexes.pdf",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b75"
+ },
+ "triage:djibouti": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "ALL1",
+     "reason": "DNFBP buyers (dealers, brokers, notaries) with a cash-report duty to ANRF; a different buyer group and duty from K11, which covers money changers.",
+     "ref": "K11"
+    },
+    {
+     "decision": "keep",
+     "id": "ALL2",
+     "reason": "Data-protection duty for small firms and clinics is a new duty. Whether it is enforced is for verifiers to check."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL3",
+     "reason": "Associations and NPOs are in scope. No recurring filing is confirmed yet, so verifiers should check."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL4",
+     "reason": "Licensed fuel and LPG retailers with licence and return duties are a new buyer group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL5",
+     "reason": "Fish establishments with export approval records are a new buyer group and duty, distinct from K03 and K01."
+    },
+    {
+     "decision": "known",
+     "id": "ALL6",
+     "reason": "Same buyer group (livestock exporters) and same duty (Damerjog consignment dossier) as K03.",
+     "ref": "K03"
+    },
+    {
+     "decision": "known",
+     "id": "ALL7",
+     "reason": "Same buyer group and same duty (monthly ITS and CNSS employer declarations) as K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "ALL8",
+     "reason": "Clinics, pharmacies and labs billing the AMU through CNSS are a small professional office group with a new duty, unrelated to K02."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Employment agencies have an agrément and deposit duty that is different from K02's declarations. Only the customer overlaps.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Periodic vehicle inspection for fleet owners is a new duty. No known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Village water committees are community bodies. No statutory duty is confirmed, so this is unverified, not out of scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Associative microfinance bodies reporting to the BCD are a different buyer from K11. The small buyer count is for verifiers to judge.",
+     "ref": "K11"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Flour millers and importers with fortification and quality records are a different buyer and duty from K01."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Private guarding firms with licence, insurance and contract duties are a different buyer and duty from K02."
+    }
+   ]
+  },
+  "tag": "w2b75"
+ }
+}

@@ -1,0 +1,360 @@
+{
+ "discover:ALL:dominica": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Cabinet-licensed Citizenship by Investment authorised agents in Dominica (law firms and boutique agencies). The count is unverified. Regional ECCIRA licensees such as due diligence providers and escrow agents are a possible extension.",
+     "category": "31 CBI agents (also 28 AML professionals)",
+     "evidence": "https://www.dominica.gov.dm/laws/2024/commonwealth_of_dominica_citizenship_by_investment_regulations_sro_8_of_2024.pdf ; https://www.imidaily.com/analysis/how-to-vet-a-cbi-agent-in-2026/ ; https://ntlinternational.com/press/caribbean-cbi-regulator-eccira-2026/ ; https://www.imidaily.com/caribbean/caribbean-nations-sign-agreement-creating-regional-cbi-regulatory-authority/",
+     "existing": "Competitor search 'CBI agent software case management compliance ... KYC tool' found only commentary (IMI Daily, armenian-lawyer.com) and no named case-management product. Generic KYC screening vendors (e.g. World-Check, mentioned in an older CIU guidance summary) cover screening, not agent workflow. Not checked in depth.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "C1. CBI authorised-agent file and ECCIRA compliance tracker (client due-diligence files, source-of-funds checklists, licence renewal and fee reminders, record keeping for regulator audit)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "CBI Regulations SRO 8 of 2024 (agent licensing, fees, due diligence). ECCIRA agreement enacted in all 5 states, with agent, developer, due diligence and escrow licensing, fines up to US$250,000, and licence revocation. Launch date unconfirmed: an Aug 2026 source says not yet operational, one source expected Sep 2026, and a low-reliability source says Q2 2026. Per one unverified source, files lodged before 30 Jun 2026 are grandfathered.",
+     "unchecked": "Number of licensed Dominica agents. Whether the CBI Unit or ECCIRA will offer a free portal. ECCIRA go-live date and agent reporting duties (periodic returns, record retention). Willingness to pay. This sector is high-profile and sells through relationships, not offline distribution. Sales may also be reputationally sensitive."
+    },
+    {
+     "buyer": "Shops and parlours, hucksters and vendors, and professionals (doctors, accountants, pharmacists, real estate agents, vets, guest house keepers), likely via accountants or associations.",
+     "category": "32 and 19 (also 28, 29)",
+     "evidence": "https://ird.gov.dm/tax-laws/licenses/store-parlour-license (fetched); huckster page https://ird.gov.dm/tax-laws/licenses/huckster-license (fetched); professional page https://ird.gov.dm/tax-laws/licenses/professional-license (fetched)",
+     "existing": "IRD mails remittance forms to taxpayers, so a reminder already exists. No software competitor searched.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "C2. Annual IRD licence renewal reminder and payment tracker (store/parlour, huckster, professional, liquor licences)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Trade and Professional Licences Act Cap 92:01: annual fee due 31 Jan, 10% late fee, fine up to EC$5,000 or 6 months.",
+     "unchecked": "Liquor, firearm and motor vehicle licence pages. Whether IRD has online payment. Single yearly deadline and low fees make this a weak standalone product."
+    },
+    {
+     "buyer": "Small tour operators, taxi tour drivers, guides and dive centres in Dominica's nature tourism sector.",
+     "category": "33 (also 20)",
+     "evidence": "https://leap.unep.org/en/countries/dm/national-legislation/tourism-regulation-and-standards-act-no-19-2005 ; https://digidomtest.dominica.gov.dm/?p=1503",
+     "existing": "None searched.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "C3. Tour operator, tour guide and dive operator licence-renewal and document pack (fire certificate, insurance, QA inspection, guide certification)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Tourism Regulation and Standards Act 19 of 2005 (First Schedule services need a Minister's licence; Quality Assurance Unit). The document checklist is from a test-subdomain gov.dm page.",
+     "unchecked": "Renewal cycle, number of operators, whether DDA runs an online portal, Dominica Watersports Association role."
+    },
+    {
+     "buyer": "Small companies and corporate service providers or accountants",
+     "category": "34",
+     "evidence": "https://www.expanship.com/dm/blog/dominica-annual-return",
+     "existing": "Not searched. CIPO may offer online filing.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "C4. Company annual return reminder and filing service (CIPO, 2 April)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Companies Act 21 of 1994, annual return due 2 April (secondary source only)",
+     "unchecked": "Primary source for deadline and penalties. Beneficial-ownership filing duty. Online filing availability. Overlaps with accountants' work already in K01 and K03."
+    },
+    {
+     "buyer": "Private medical laboratories and lab professionals",
+     "category": "24",
+     "evidence": "https://pressroomopm.gov.dm/cabinet-approves-the-appointment-of-the-medical-laboratories-council/ (fetched); https://printery.dominica.gov.dm/Gazettes/Details/2471",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "C5. Medical laboratory licensing and accreditation compliance (Medical Laboratories Act 12 of 2024)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Medical Laboratories Act 2024; Cabinet appointed the Medical Laboratories Council on 24 Mar 2026 to license and accredit labs and register staff. Licensing rules are not yet published.",
+     "unchecked": "Count of labs (likely under 10), regulations, fee and renewal cycle. Market is probably too small."
+    },
+    {
+     "buyer": "Private pharmacies",
+     "category": "25",
+     "evidence": "https://printery.dominica.gov.dm/Gazettes/Details/2471",
+     "existing": "None searched.",
+     "known_mark": "new",
+     "name": "C6. Pharmacy Act 11 of 2024 compliance (pharmacy premises licensing, pharmacist registration renewals, controlled-drug registers)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Pharmacy Act 2024 gazetted 3 Jan 2025. Provisions not read.",
+     "unchecked": "Act text, regulations, number of pharmacies, whether records or returns are required. Probably a few dozen pharmacies at most."
+    },
+    {
+     "buyer": "Private households employing nannies, carers and gardeners",
+     "category": "1",
+     "evidence": "https://dss.dm/contributors/definition-er/obligations-of-employers/ ; https://dss.dm/faq/",
+     "existing": "None. Whether DSS has a household-specific scheme was not confirmed.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "C7. Household employer Social Security helper (register worker, monthly C8 remittance by the 14th)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DSS rules: register employees, remit by the 14th with the C8 form, 10% late fee",
+     "unchecked": "Whether domestic workers are covered or exempt. Number of households. Low willingness to pay."
+    },
+    {
+     "buyer": "Prospective cannabis licence holders",
+     "category": "36",
+     "evidence": "https://www.caribbeannationalweekly.com/posts/dominica-to-establish-national-cannabis-regulatory-commission (status and date unverified)",
+     "existing": "None.",
+     "known_mark": "new",
+     "name": "C8. Medicinal cannabis licensing (cultivators, dispensaries)",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Medicinal Cannabis Bill and National Cannabis Regulatory Commission are proposed. No enacted regime found.",
+     "unchecked": "Whether a bill was passed in 2025 to 2026, and licence-holder reporting duties. Watch item only."
+    },
+    {
+     "buyer": "Fuel retailers and distributors",
+     "category": "21",
+     "evidence": "https://printery.dominica.gov.dm/ProductDocuments/Download/2487",
+     "existing": "None searched.",
+     "known_mark": "new",
+     "name": "C9. Petroleum price-cap compliance for fuel retailers",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Minister's orders under the Supplies Control Act Cap 20:01 set maximum wholesale and retail prices (newest seen Feb 2022)",
+     "unchecked": "Whether caps are still in force, whether retailers file any returns, and the number of stations (very few)."
+    },
+    {
+     "buyer": "Agro-input dealers",
+     "category": "14",
+     "evidence": "https://leap.unep.org/en/countries/dm/national-legislation/pesticides-control-act-cap-4010",
+     "existing": "Not searched.",
+     "known_id": "K02",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K02. Nothing new found.",
+     "name": "C10. OECS pesticide and agro-input licensing tracker",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Pesticides Control Act and 1987 licensing regulations; glyphosate import ban (2020)"
+    },
+    {
+     "buyer": "Guest houses and small hotels",
+     "category": "29",
+     "evidence": "https://ird.gov.dm/tax-laws/licenses/professional-license",
+     "existing": "Not searched.",
+     "known_id": "K05",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K05, already rejected.",
+     "name": "C11. Hotel and guest-house compliance tool",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Tourism licence plus IRD professional licence (EC$250 for 6 rooms or fewer)"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "No household-specific DSS rules found. General employer rules apply: register employees, remit by the 14th of the following month with the C8 form, 10% late fee (dss.dm). Employer rate figures conflict across sources. Small buyer base; nothing new beyond K01 and K07.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Budget; no search run. K07 covers second-hand dealers.",
+     "status": "not_reached"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No dedicated search. K07 already rejected as too small and informal.",
+     "status": "not_reached"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "One AML search found no Dominica-specific DNFBP list for jewellers. FSU is Money Laundering Supervisory Authority under MLPA 8 of 2011 (secondary source). Unverified whether jewellers are covered.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Only the Roseau Market Act Cap 20:08 surfaced. Administered by the Dominica Export Import Agency, with bye-laws on slaughter and hygiene. No licensing detail found.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "No Dominica butcher or abattoir licensing text found. Search results were Jamaican and other countries, and were not used. Roseau Market Act covers slaughterhouses in Roseau.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No search run. K07 already rejected.",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "The IRD professional licence lists veterinary surgeons. The Pesticides Control Act excludes animal endoparasites from 'pest'. No separate vet-medicine seller licence found. Population is tiny.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Pesticides Control Act (LRO 1/1991) and the 1987 Registration and Licensing Regulations require a licence to sell or import. A 2020 order bans glyphosate imports. Nothing new beyond K02.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Vehicles and Road Traffic Act (Cap 46:50), amended by Act 7 of 2023. Bus fares and taxi rates are set by Cabinet (Mar 2023). The Transport Board renewal process was not found.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "IRD Huckster Licence: EC$250 for a vehicle, EC$50 for a stall or tray. Due 31 Jan each year, 10% late fee, fine up to EC$5,000 (Trade and Professional Licences Act Cap 92:01). IRD mails remittance forms. Money changers fall under the FSU Money Services Business Act 8 of 2010.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Petroleum maximum wholesale and retail prices are set by Minister's orders under the Supplies Control Act Cap 20:01. Newest order seen is Feb 2022; current status unverified. No fuel station licence text found.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "FSU supervises credit unions and co-operatives under the Co-operative Societies Act 2 of 2011. Only about 6 to 7 credit unions exist. Annual-return forms not found. Tiny market.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "New Medical Laboratories Act 12 of 2024 (gazetted 3 Jan 2025). Cabinet appointed the Medical Laboratories Council on 24 Mar 2026 to license and accredit labs and register staff. Few labs. No state insurer billing scheme found.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "New Pharmacy Act 11 of 2024 (gazetted 3 Jan 2025). Provisions not read. Pharmacists are registered through gazette notices by the Registrar General. IRD professional licence applies to pharmacists (EC$500).",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Budget; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Real estate agents, attorneys and accountants pay the IRD annual professional licence (EC$500 to EC$1,000, due end Jan). AML supervision sits with the FSU. The AML Code of Practice 10 of 2014 and MLP Regulations SRO 4 of 2013 apply. Citizenship-by-investment agents are a separate, stronger lead (see candidates).",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Tourism Regulation and Standards Act 19 of 2005 requires a Minister's licence, with a Quality Assurance Unit. IRD professional licence for guest house keepers with 6 rooms or fewer is EC$250. Nothing beyond K05.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Fisheries regulations (SI of 2025) cover foreign fishing licences. No exporter, HACCP or traceability rule found for Dominica. Search results from Samoa were ignored.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Citizenship-by-investment (CBI) authorised agents and the new ECCIRA regime",
+     "found": "CBI Regulations SRO 8 of 2024: agents are Cabinet-licensed, must be Dominican citizens with a registered office and 3 or more staff, and are subject to due diligence. The regional ECCIRA treaty is enacted in all 5 states but its launch is unconfirmed; it will license agents, developers, due diligence providers and escrow agents. Candidate C1.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Annual trade, professional, liquor, firearm and motor vehicle licences (IRD, Trade and Professional Licences Act Cap 92:01)",
+     "found": "Store/parlour, huckster and professional licences fall due 31 Jan each year, with a 10% late fee and fines up to EC$5,000. IRD mails remittance forms. Liquor, firearms, motor vehicle and driver licence pages were not read. Candidate C2.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Tourism-service licensing: tour operators, tour guides, dive operators, taxi tour drivers",
+     "found": "A test-subdomain gov.dm services page lists tour operator licence documents: fire certificate, public liability insurance, emergency plan, Quality Assurance Unit report, guide and driver certificates. Renewal cycle unconfirmed. Candidate C3.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Company annual returns and registry filings (CIPO)",
+     "found": "One secondary source says annual returns are due 2 April under the Companies Act 21 of 1994. Penalties and beneficial-ownership rules are unconfirmed. IBC Act repealed from 1 Jan 2022. Candidate C4.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Money services, money lenders and AML compliance officers (FSU)",
+     "found": "Money Services Business Act 8 of 2010. FSU revoked the JN Money Services and Fash Cash licences on 15 Apr 2025. FSU registers compliance officers under the AML Code of Practice 10 of 2014. Moneylender regime not found. Very few entities.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Medicinal cannabis licensing",
+     "found": "Drugs (Prevention of Misuse) (Amendment) Act 16 of 2020 decriminalised adult possession. A medicinal cannabis bill and National Cannabis Regulatory Commission are only proposed; no enacted licensing regime found. Watch item.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Fishing vessels and fishers",
+     "found": "Only foreign fishing licence regulations (2025 SI) surfaced. Local vessel or fisher registers not found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "Dominica Social Security domestic workers employer registration contributions",
+    "Dominica Gazette 2025 regulations licence SRO",
+    "Dominica Financial Services Unit credit unions co-operative societies annual returns",
+    "Dominica Bureau of Standards petroleum fuel station licence LPG",
+    "Dominica Financial Intelligence Unit AML supervision DNFBP registration real estate agents jewellers",
+    "Dominica Citizenship by Investment authorised agents licence due diligence reporting requirements",
+    "Dominica Ministry of Agriculture pesticide dealers licence Pesticides Control Act veterinary",
+    "Dominica Transport Board minibus licence renewal bus permits Road Traffic Act",
+    "Discover Dominica Authority accommodation registration licence inspection guest house Tourism Act",
+    "Dominica Fisheries Division fishing vessel licence fish export HACCP exporter",
+    "ECCIRA Eastern Caribbean Citizenship by Investment Regulatory Authority agents licence 2026 Dominica operational",
+    "Dominica Medical Board pharmacy licence Pharmacy Council private clinics laboratory registration Ministry of Health",
+    "Dominica medicinal cannabis licence regulations 2025 Cannabis Act cultivators",
+    "Dominica Social Security contributors online portal employer e-filing contribution schedule 2025",
+    "Dominica Supplies Control price control gazette retailers price monitoring Fair Trading weights measures",
+    "Dominica Pharmacy Act 2024 / Medical Laboratories Act 2024 Parliament passed",
+    "Dominica CIPO annual returns companies beneficial ownership register filing deadline penalty",
+    "Dominica abattoir meat inspection livestock slaughter licence Public Health Act butchers",
+    "Dominica Parliament passes Act 2025 2026 new law businesses must register licence",
+    "CBI agent software case management compliance Caribbean citizenship by investment agents platform due diligence KYC tool"
+   ],
+   "searches": 22
+  },
+  "tag": "w2b75"
+ }
+}

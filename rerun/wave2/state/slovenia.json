@@ -476,6 +476,20 @@
   },
   "tag": "w2b67"
  },
+ "escalate:slovenia:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "State tools: AJPES issues the ID through the register (RNO), and per a search-result summary the register subtracts the permitted days per facility once the municipality reports the cap to AJPES. I could not open the primary source for the day counting. Guest reporting goes through the free AJPES eTurizem app. Stickers are free at SPOT points, and consent uses a standard form. Commercial: Rentlio and Clock PMS+ already connect to eTurizem/AJPES for guest reporting. I found no dedicated tool for collecting ZGos-1 consents, but that job recurs only every 3 years.",
+   "duty": "ZGos-1 (OG 77/25) has applied since 1 Jan 2026. Providers must enter the AJPES register of accommodation facilities and receive an ID number from AJPES on first entry, and that ID is mandatory in ads and in contracts made at a distance. Consent is required from all owners of the flat. In buildings with 3 or more flats, owners holding more than 3/4 of shares must also consent, including all owners of adjacent flats. Consent is valid for up to 3 years. The start date must be posted on a notice board, and a sticker on the entrance door must show the consent expiry date. Time caps apply from 1 Jan 2027 in 14 high-risk municipalities listed in May 2026: Ankaran, Bled, Bohinj, Bovec, Cerklje na Gorenjskem, Gorje, Izola, Koper, Kranjska Gora, Ljubljana, Piran, Preddvor, Radovljica and Žirovnica. The default cap is 60 days. Municipal acts adopted by 31 Oct 2026 can set 30-270 days; Koper set 270 for entrepreneurs and 180 for natural persons. Fines for renting without consent are 5-50k EUR for legal persons, 3-20k EUR for sole traders and 2-12k EUR for individuals. IRSOP is running targeted inspections. I found no source for the claimed 30 June 2026 data-supplement deadline beyond the Dec 2025 ministry notice.",
+   "market": "No official count of sobodajalci was found. Press figures put short-term rental flats at about 13,000 in 2023, up from 2,500 in 2019. The day caps hit only the 14 listed municipalities. An exact count would require querying the AJPES RNO (not reached).",
+   "reason": "The duty is real. ZGos-1 has applied since 1 Jan 2026: AJPES register entry and ID number, consent from all owners of the flat, plus more than 3/4 (75%) of building owners and all adjacent owners for 3+ flat buildings, valid 3 years, and a door sticker. Fines run 2,000-12,000 EUR (individuals) and 3,000-20,000 EUR (sole traders). Day caps start 1 Jan 2027 in 14 listed municipalities (default 60 days, local acts 30-270, due 31 Oct 2026). The state tools cover the core job. AJPES assigns the ID. Per a search snippet I could not open, AJPES's register subtracts the allowed days per facility. Stickers are free at SPOT points. Rentlio and Clock PMS already file eTurizem reports. The only gap left is collecting consents once every 3 years, which is too infrequent for a paid product.",
+   "searches": 6,
+   "sources": "https://www.gov.si/novice/2025-12-24-zakon-o-gostinstvu-in-ureditev-oddajanja-stanovanja-v-kratkotrajni-najem/ ; https://www.gov.si/novice/2026-09-23-inspekcijski-nadzor-nad-kratkotrajnim-oddajanjem-oskrbovanih-stanovanj/ ; https://www.gov.si/novice/2026-05-08-objavljen-sklep-o-dolocitvi-obcin-z-visokim-tveganjem-negativnih-vplivom-kratkotrajnega-najema/ ; https://tax-fin-lex.si/home/Novica/37452 ; https://spot.gov.si/assets/Novice/Dopis_SPOT-tocke_nalepke_ZGos-1.pdf ; https://www.tax-fin-lex.si/dokument/podrobnosti/6340e200-019b-47b5-b397-34a647fdd2ad ; https://help.rentl.io/en/articles/7973067-connecting-eturizem-with-rentlio ; https://www.clock-software.com/products/integrations/ajpes-police-export ; https://n1info.si/gospodarstvo/nepremicnine/kratkorocno-oddajanje-nepremicnin-bo-regulirano-kaj-to-pomeni-za-sobodajalce/",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b79"
+ },
  "gapfill:slovenia": {
   "result": {
    "blocked_searches": 0,
@@ -624,6 +638,17 @@
   },
   "tag": "w2b74"
  },
+ "sonnet:slovenia:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real and in force. Uradni list RS 6/2026 (published 30 Jan 2026) says in Art. 8(3) that distributors must send annual sales data electronically to UVHVVR by 31 March. The data is kept separately for retail and wholesale and for each location: purchases, sales, opening and closing stock, and withdrawn quantities. Art. 2 requires an advisor present at least 6 h/week. The fetched text gave no penalty. I found no dedicated distributor software, but I did not search vendors by name. The market is probably a few hundred permit holders, and I found no register count. The return is filed once a year as a simple data file, and any ERP or POS can likely produce it. That means low frequency, a small market and weak willingness to pay.",
+   "searches": 2,
+   "sources": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0165/pravilnik-o-pogojih-za-opravljanje-prometa-s-fitofarmacevtskimi-sredstvi-ter-o-vodenju-in-posredovanju-podatkov-o-prometu-fitofarmacevtskih-sredstev ; https://spot.gov.si/sl/dejavnosti-in-poklici/dejavnosti/promet-s-fitofarmacevtskimi-sredstvi-na-drobno",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b79"
+ },
  "sonnet:slovenia:A4": {
   "result": {
    "blocked_searches": 0,
@@ -634,6 +659,45 @@
    "verdict": "unverifiable"
   },
   "tag": "w2b74"
+ },
+ "sonnet:slovenia:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "AJPES eTurizem / register nastanitvenih obratov (state); no dedicated private software found",
+   "duty": "ZGos-1 short-term rental: register ID, co-owner consent (3 years), day caps, sticker",
+   "market": "Not quantified (no register count found); likely tens of thousands of private hosts, unverified",
+   "reason": "The duty is real: ZGos-1 (OG 77/25) has applied since 1 Jan 2026. It requires AJPES register entry and an ID number in ads, owner consent valid up to 3 years, a door sticker, and day caps. Fines are 3,000-20,000 EUR for sole traders. Application is partly postponed: secondary sources say registry deadlines were extended to June 2027, and caps apply from 1 Jan 2027 in high-risk municipalities. I did not verify these dates against an official act. No dedicated compliance software turned up, but AJPES eTurizem and the register cover registration and guest reporting. Pain is real, but it is mostly one-off and form-based, so frequency is low, the buyers are fragmented, and willingness to pay is weak. Existing channel managers and PMS may add the ID number field.",
+   "searches": 4,
+   "sources": "https://www.portoroz.si/app/uploads/2026/03/ZGos-1_SOS_11032026-Splosno.pdf ; https://www.rtvslo.si/gospodarstvo/sobodajalci-bodo-ministrstvu-predali-peticijo-zahtevajo-moratorij-za-zakon-o-gostinstvu/774330 ; https://sibiz.eu/slovenia-introduces-new-short-term-rental-rules-under-the-hospitality-act-in-2026-significant-impact-on-airbnb-and-booking-com-hosts ; https://www.forvismazars.com/si/en/content/download/1299466/file/Forvis%20Mazars%20SI%20-%20Tax-Newsletter%20June%202026%20ENG.pdf ; https://spot.gov.si/assets/Novice/Dopis_SPOT-tocke_nalepke_ZGos-1.pdf ; https://www.gov.si/novice/2025-12-24-zakon-o-gostinstvu-in-ureditev-oddajanja-stanovanja-v-kratkotrajni-najem/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b79"
+ },
+ "sonnet:slovenia:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated small-office ZPPDFT-2 kit found; generic KYC vendors such as didit.me and paid e-seminars on racunovodja.com",
+   "duty": "ZPPDFT-2: written risk assessment, customer due diligence, annual training programme, internal control; fines by firm size; supervised by Tržni inšpektorat",
+   "market": "About 5,000 entities per ZDSS 2022 (from the claim; not independently verified)",
+   "reason": "Duty is real: ZPPDFT-2 (Ur. l. 48/22, amended 145/22, 17/25, 56/25) obliges estate agents and accountants/tax advisers to keep a written risk assessment, do customer due diligence, hold annual training and internal control. Fines scale with firm size. Tržni inšpektorat supervises estate agents; its 2024 findings show missing risk assessments, due diligence and training plans. But the duty is internal documentation plus ad-hoc reports, with no recurring filing to an authority. Rental duties start only at 10,000 EUR a month. I found no Slovenian AML kit for small offices, only e-seminars and generic KYC vendors (didit.me). Not checked: Slovenian vendors, the 5,000 count, fine amounts. Weak recurrence, template-like, and the EU AML regulation from 2027 changes the rules.",
+   "searches": 3,
+   "sources": "https://gov.si/assets/organi-v-sestavi/UPPD/Dokumenti/Smernice/Smernice-za-izvajanje-ZPPDFT-2-dejavnost-poslovanja-z-nepremicninami.pdf ; https://www.tax-fin-lex.si/Dokument/Podrobnosti/40f0a84a-fea6-4e5d-aff4-10ddfeb9ef30 ; https://www.racunovodja.com/E-seminar/NalogeInObveznostiRacunovodskihServisovInDavcnihSvetovalcevPoZPPDFT_2 ; https://didit.me/solutions/countries/slovenia/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b79"
+ },
+ "sonnet:slovenia:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The Pravilnik on origin traceability for unpackaged meat is in force, and Tax-Fin-Lex shows a consolidated text applying from 18.10.2025. UL RS 76/2025 only moved the 31 Oct 2025 dates to 31 Oct 2027, which covers the SI receipt marking. No butcher-specific product turned up, but I could not confirm that POS and scale vendors lack support. Weak points: enforcement is thin (2024-25 special inspections found one violation), the deadline is a year away, a state mass-flow system is planned, and the market size was not found. Buyers are tiny and the likeliest route is a POS add-on, so the opportunity is niche.",
+   "searches": 3,
+   "sources": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-2637/pravilnik-o-spremembah-pravilnika-o-zagotavljanju-sledljivosti-porekla-za-nepredpakirano-sveze-ohlajeno-in-zamrznjeno-goveje-prasicje-ovcje-kozje-in-perutninsko-meso ; https://www.tax-fin-lex.si/Dokument/Podrobnosti/63e0d5a1-aaef-41d7-945a-eb46c4730bf8 ; https://www.gov.si/novice/2026-08-21-inspekcija-izvedla-izredni-nadzor-nad-oznacevanjem-porekla-prasicjega-mesa-v-trgovski-verigi/ ; https://www.24ur.com/novice/slovenija/sklenjen-nov-dogovor-o-sledljivosti-porekla-mesa.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b79"
  },
  "triage:slovenia": {
   "result": {

@@ -1,0 +1,947 @@
+{
+ "discover:A:guyana": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed old-metal dealers and scrap exporters (members of Guyana Metal Recyclers Association)",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "https://news.metal.com/newscontent/104099431-guyana-warns-scrap-dealers-continued-illegal-copper-trade-could-trigger-full-shutdown-of-scrap-metal-trade (fetched; Sept 7 2026; no new rule, no record-keeping detail); https://dpi.gov.gy/scrap-metal-exportation-to-resume-on-april-8-%E2%88%92minister-walrond ; https://mola.gov.gy/public/laws/Volume 18 Cap. 91.02 - 96.011695663913.pdf (not opened, snippet only)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "C01 Scrap-metal dealer licence, storage-site and export compliance pack",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Old Metal Dealers Act (Cap 91:08, amended 2006/2007): police-issued dealer licence, listed storage sites, per-shipment export licence and Scrap Metal Unit inspection; Sept 2026 Ministry of Tourism, Industry and Commerce warning of immediate licence cancellation and possible full trade shutdown over illegal copper.",
+     "unchecked": "Whether dealers must keep a purchase register or report to police; number of licensed dealers; whether a shutdown or new e-register is imminent; competitor search in local language not run (budget exhausted)."
+    },
+    {
+     "buyer": "GGB-licensed gold dealers, GGMC traders, goldsmiths/jewellers buying raw gold",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://dpi.gov.gy/mnr-ggdma-discuss-strengthened-enforcement-to-tackle-reduced-declarations/ (fetched); https://dpi.gov.gy/illegal-buying-and-selling-of-gold/ (snippet)",
+     "existing": "None seen",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Related to K03 (AML/STR helper for DNFBP and cambios) but different buyer (gold dealers/traders) and different duty (purchase records and GGB source declarations).",
+     "name": "C02 Gold dealer/trader purchase register and source-declaration helper",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Dec 2025 MNR and GGDMA agreed stricter audits of purchasing records, verification of source declarations, routine compliance checks, suspension or revocation for failures, rolled out immediately; only GGB dealer licence or GGMC trader licence may buy gold; goldsmiths must obtain raw gold from GGB.",
+     "unchecked": "Actual reporting forms and frequency; number of licensed dealers and traders (one undated GGB page says 9 dealers); whether declarations are made through a GGB system; competitor search not run."
+    },
+    {
+     "buyer": "Licensed pawnbrokers (and money lenders)",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://www.gra.gov.gy/?p=4729 (fetched: no ongoing reporting duties on page); https://mola.gov.gy/public/laws/Volume 18 Cap. 91.02 - 96.011695663875.pdf (table of contents only in snippet)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "C03 Pawnbroker books, pawn-ticket and pledge-sale register",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Pawnbroking Act Cap 91:09 requires books, pawn tickets, precious-metal pledge provisions, forfeiture/sale rules and surplus to public trustee; GRA licence renewed annually (G$25,000 to 50,000).",
+     "unchecked": "Whether any inspection or police return exists; number of pawn shops; no filing to an authority confirmed, only a book-keeping duty."
+    },
+    {
+     "buyer": "Used/reconditioned vehicle dealers and importers",
+     "category": "5. Used car parts and vehicle dismantlers (adjacent)",
+     "evidence": "https://gra.gov.gy/policy-dealers-general-licence/ ; https://stabroeknews.com/2024/12/15/news/guyana/gra-cracking-down-on-lemon-cars (snippets via search, not fetched)",
+     "existing": "None seen; customs side covered by free Guyana Trade Network (K05)",
+     "known_id": "K05",
+     "known_mark": "new",
+     "known_note": "Adjacent to rejected K05 (customs/single window) but buyer is the dealer and duty is licence/tax/inspection-certificate compliance, not customs entries.",
+     "name": "C04 Motor vehicle dealer licence and reconditioned-vehicle compliance (GRA Dealer's General Licence)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Motor Vehicles and Road Traffic Act s21: Dealer's General Licence (G$150,000/yr for 4 trade plates in 2022 notice), conditional on quarterly advance tax and tax returns paid, annual import declaration; from 1 Jan 2025 a pre-shipment inspection certificate required for reconditioned vehicles; GRA 'lemon car' crackdown.",
+     "unchecked": "Dealer count; whether duties are recurring filings beyond tax returns; pain level; no dismantler regime found; competitor search not run."
+    },
+    {
+     "buyer": "Licensed livestock traders, exporters, butchers",
+     "category": "6. Livestock traders, markets and animal transport / 7. Small abattoirs and butchers",
+     "evidence": "https://dpi.gov.gy/glda-engages-stakeholders-on-laws-governing-animal-slaughter/ ; https://kaieteurnewsonline.com/2026/06/24/glda-denies-onverwagt-abattoir-is-a-white-elephant/ (snippets)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "C05 Livestock trader/butcher licence and cattle-slaughter approval tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "GLDA Act Cap 71:10 licence to trade/export livestock and livestock products; Slaughter of Cattle (Control) Act Cap 71:09 (vet written approval for female or young cattle); Georgetown Abattoir By-Laws slaughterer register; Onverwagt abattoir fee G$3,000 per animal.",
+     "unchecked": "No recurring filing found; no movement permit regime found; laws called outdated by stakeholders, reform could change duties."
+    },
+    {
+     "buyer": "Beekeepers/honey packers",
+     "category": "8. Beekeepers",
+     "evidence": "https://guyanachronicle.com/?p=690445 (snippet; fetch returned 307); https://dpi.gov.gy/sweet-sucess-honey-fest-highlights-rapid-growth-in-guyanas-beekeeping-industry",
+     "existing": "Government-run NRTS pilot (free to state-registered users, unconfirmed)",
+     "known_mark": "new",
+     "name": "C06 Apiary registration and honey traceability (NRTS)",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Food Safety Act 2019 mandates registration, traceability, records and inspection; GFSA with GLDA pilot of National Registration and Traceability System with GPS-mapped apiaries and QR-coded batches.",
+     "unchecked": "Rejected on the evidence that the state's own NRTS platform already does the core job and the base is about 213 beekeepers; fee and mandatory status of NRTS not confirmed."
+    },
+    {
+     "buyer": "Veterinarians, animal health assistants, vet drug sellers/agro shops",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://parliament.gov.gy/new2/documents/acts/4622-13_of_2003.pdf ; https://www.stabroeknews.com/?p=174247 (snippets)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "C07 Veterinary drug seller and vet practice registration",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Veterinarians Act 2003 (Veterinary Board registration); Government Analyst Dept programme to regularise vet drug imports/sales; Act revision and licensing regulations proposed.",
+     "unchecked": "Very small buyer base; no recurring filing confirmed; revision status unknown."
+    },
+    {
+     "buyer": "Well drilling contractors, farms and businesses with wells",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://guyanachronicle.com/2017/03/10/hydromet-dept-pushes-for-well-drilling-compliance/ (snippet)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "C08 Well-drilling and groundwater abstraction licence tracking",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Water and Sewerage Act 2002 Part V: Hydromet Dept licence before drilling (after EPA clearance); renewal and conditions; registration campaign.",
+     "unchecked": "Current enforcement, licence volumes, renewal frequency, any online portal."
+    },
+    {
+     "buyer": "Small factories, workshops, sawmills, rice mills with boilers",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://dpi.gov.gy/taking-safety-and-health-to-the-workplace/ ; https://www.ilo.org/projects-and-partnerships/projects/strengthening-occupational-safety-and-health-systems-guyana ; Auditor General 2023 OSH inspection audit (snippets)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "C09 OSH workplace registration and boiler certificate renewals",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "OSH Act Cap 99:10 Part II registration of industrial establishments (annual re-registration reported by an OSH consultant, undated); Steam Boilers Regulation Act Cap 95:04 examination certificates; ILO-backed OSH Act reform March 2026 to June 2027.",
+     "unchecked": "Whether annual re-registration is enforced and how it is filed (paper or portal); count of registered establishments; no lift or pressure-vessel rule found; competitor search not run."
+    },
+    {
+     "buyer": "Agro-chemical shops, pest-control (extermination for reward) operators, importers",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://agriculture.gov.gy/wp-content/uploads/2016/02/cap6809-Pesticide-and-Toxic-Chemicals-Control-Board-Act.pdf ; https://agriculture.gov.gy/2016/10/24/roadside-dealing-of-pesticides-illegal-pesticides-board/ (snippets)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "C10 Pesticide/agrochemical vendor licence and premises registration",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Pesticides and Toxic Chemicals Control Act Cap 68:09 ss12-14: licence to sell, premises registration for storage, licence for extermination for reward; PTCCB enforcement against roadside vending.",
+     "unchecked": "Number of licensed dealers; renewal cycle and sales-record/returns duties; PTCCB website not opened; competitor search not run."
+    },
+    {
+     "buyer": "Recruitment agencies (oil-sector staffing, domestic and general)",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://guyanachronicle.com/2021/04/08/recruitment-agencies-must-register-to-operate-in-guyana/ (snippet; 2021, may be outdated)",
+     "existing": "None seen",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Adjacent to K01 local content reporting (oil-sector supply chain) but buyer is the agency and duty is Labour Ministry licensing/registration.",
+     "name": "C11 Recruitment agency licence and worker-placement records",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Recruiting of Workers Act Cap 98:06: licence plus prescribed security; 2021 Labour Ministry register drive via CRMA found agencies unregistered; planned work with oil operators to bring agencies into compliance.",
+     "unchecked": "Current register status, periodic reporting to Labour, agency count, any 2024-2026 rule changes; competitor search not run."
+    },
+    {
+     "buyer": "Funeral parlours",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://kaieteurnewsonline.com/2013/06/27/govt-seeks-to-regulate-funeral-parlour-business/ ; https://stabroeknews.com/?p=635821 (snippets)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "C12 Funeral parlour registration/licensing (reform pending)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Public Health Ordinance 1934 requires registration with Central Board of Health; Central Board of Health 2019 requirement for separate unit for decomposed bodies; reform proposals for annual licensing unconfirmed.",
+     "unchecked": "Whether the reform passed; very small buyer base."
+    },
+    {
+     "buyer": "Friendly, benevolent and burial societies, working men's clubs, lodges, religious associations",
+     "category": "17. Community and religious bodies: associations, charities",
+     "evidence": "https://www.stabroeknews.com/?p=111470 ; https://mola.gov.gy/public/laws/Volume 9 Cap. 36.02 - 46.071696911123.pdf (snippets); https://gbtibank.com/?p=952",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "C13 Friendly society/benevolent society annual return and audit pack",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Friendly Societies Act: annual returns to the Registrar of Friendly Societies (receipts, payments, assets, liabilities, membership, trustees) with auditor certification (2011 Ministry of Labour letter).",
+     "unchecked": "Actual number of active societies; whether returns are filed and enforced; any new NPO or AML registration (CFATF) obligations; halal supervision not searched."
+    },
+    {
+     "buyer": "Street vendors in Georgetown and other towns",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://hgptv.com/regularization-for-vending-to-be-in-place-by-mid-year/ (fetched, paywalled; dated Feb 2021) ; https://stabroeknews.com/?p=396915",
+     "existing": "None seen",
+     "known_id": "K08",
+     "known_mark": "known",
+     "known_note": "Market vendors rejected in K08 (government sole channel, low WTP); no new evidence to revive.",
+     "name": "C14 Municipal street-vendor registration (M&CC vending policy)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "M&CC announced vendor registration under the Municipal and District Councils Act; draft policy reported Feb 2021 and Jan 2025; seasonal vending spots G$3,000 weekly (Nov 2024); no adopted licence confirmed."
+    },
+    {
+     "buyer": "Day care centres, nurseries, after-school, home-based childcare (about 728 registered or licensed facilities, 2026)",
+     "category": "20. Childminders and nurseries",
+     "evidence": "https://mhsss.gov.gy/?p=3889 (fetched: renewal cycle, volumes and online system not on page); https://dpi.gov.gy/200-day-care-facilities-registered-53-licensed/ ; 2026 MHSSS figure of 352 licensed/376 registered from search summary",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "C15 Childcare/daycare licence renewal and standards compliance",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Childcare and Development Services Act 2011 and Regulations (in force 4 May 2016): CPA registration, then licence, requiring police clearance, food handler's and medical certificates, Fire Service, CH&PA and public health inspections; RLOs monitor against minimum standards.",
+     "unchecked": "Renewal frequency; staff-certificate expiry tracking pain; whether any e-registration exists; competitor search not run (budget exhausted)."
+    },
+    {
+     "buyer": "Small food processors, snackettes, food-service operators",
+     "category": "20. Small licensed premises: small food producers",
+     "evidence": "https://agriculture.gov.gy/guyana-food-safety-authority/ ; https://gra.gov.gy/provisional-shop-licence/ ; https://hgptv.com/ga-fdd-to-zero-in-on-eating-establishments (snippets)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "C16 Small food business licence and food-handler permit tracker (GFSA)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Food Safety Act 2019 licensing of food business operators, handlers' permits, premises approval via Guyana Food Safety Authority; Act under amendment; GRA provisional shop licence valid max 2 years pending fire and sanitary certificates; GA-FDD inspections of eating establishments.",
+     "unchecked": "Renewal cycles, certificate expiries, volume of licensed operators; amended Act content."
+    },
+    {
+     "buyer": "Households",
+     "category": "1. Household employers",
+     "evidence": "Search results only generic payroll sites (rivermate, getontop)",
+     "existing": "HeadOffice payroll, EOR providers (per K04)",
+     "known_id": "K08",
+     "known_mark": "known",
+     "known_note": "Rejected in K08; searches found no new duty.",
+     "name": "C17 Household employers (domestic workers)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "No household-specific NIS/PAYE rule found."
+    },
+    {
+     "buyer": "Minibus, hire-car operators",
+     "category": "18. Transport operators",
+     "evidence": "https://jamaica-gleaner.com/article/world-news/20260519/guyana-govt-issues-warning-public-transport-owners-over-increasing ; https://dpi.gov.gy/traffic-ranks-to-target-minibuses-violating-road-service-licence (snippets)",
+     "existing": "None seen",
+     "known_id": "K08",
+     "known_mark": "known",
+     "known_note": "Minibus operators rejected in K08; the new fare-display rule is a one-off posting, not a recurring filing, so no revive.",
+     "name": "C18 Minibus/taxi operators (road service licence, fare display)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "May 2026 Public Works Minister Edghill: licences suspended or revoked for fare gouging, approved fares to be displayed; 2019 minibus code requires association membership, uniform, training."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "No household-specific NIS/PAYE regime found; general employer rules only (PAYE by 14th, NIS by 15th of following month). Recruiting of Workers Act Cap 98:06 covers recruiting domestic servants via licensed agents. Nothing new beyond K08/K04.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Old Metal Dealers Act: dealer licence from Police Commander of division (G$40,000 in 2008), storage sites listed/inspected, export licence per shipment via commerce ministry plus Scrap Metal Unit inspection, minister power to ban exports up to 1 year. Sept 2026 warning: licence cancellation for handling illegal copper, possible full trade shutdown. See candidate C01.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Pawnbroking Act Cap 91:09 (books, pawn tickets, precious-metal pledges, surplus to public trustee). GRA pawn licence annual, G$25,000-50,000 by location, needs Magistrate's Court Money Lenders' Certificate and police clearance. No ongoing police reporting found. See C03. No second-hand dealer regime found.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Only Guyana Gold Board dealer licence or GGMC trader licence may buy gold; goldsmiths must source raw gold from GGB. Dec 2025 MNR/GGDMA meeting: stricter audits of purchase records and source-declaration verification, rolled out immediately. See C02.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler or spare-parts dealer licence found. Adjacent: GRA Dealer's General Licence (Motor Vehicles and Road Traffic Act s21), reconditioned-vehicle pre-shipment inspection certificate required from 1 Jan 2025. See C04.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "GLDA Act Cap 71:10 requires licence to trade/export livestock and livestock products; Slaughter of Cattle (Control) Act needs vet written approval for female/young cattle. No animal movement permit regime found. See C05.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Georgetown Abattoir By-Laws (register of slaughterers, slaughter licence); Onverwagt state abattoir charges butchers G$3,000 per animal (2026). Laws described as outdated by stakeholders. Folded into C05.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Pilot National Registration and Traceability System (GFSA with GLDA) registers apiarists, GPS-maps apiaries, QR-codes honey, under Food Safety Act 2019; registered beekeepers rose 160 to 213. State-run, tiny base. See C06.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Veterinarians Act 2003 (Veterinary Board registers vets and animal health assistants); Government Analyst Dept programme to regularise import/sale of vet drugs; Act revision pending. No licence process for sellers confirmed. Very small base. See C07.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Hydromet Department licence required before drilling wells (Water and Sewerage Act 2002, Part V), after EPA clearance; well registration campaign (2017). See C08.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "No septic hauler licence category found. EPA Water Quality Regulations require registration/authorisation for any discharge; EPA e-service for Environmental Authorisation live since 14 Oct 2025 (eservices.epa.gov.gy). Nothing new beyond K01 adjacency.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "OSH Dept registers workplaces (annual re-registration reported, undated) and issues steam boiler certificates (Steam Boilers Regulation Act Cap 95:04; OSH Act Cap 99:10 Part II). No lift or pressure-vessel regime found. ILO OSH Act reform project Mar 2026 to Jun 2027. See C09.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Nothing found on community/small water system licensing beyond Guyana Water Inc and Hydromet licensing. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "PTCCB Act Cap 68:09: product registration, sell licence (s13), premises registration for storage (s14), licence for pest extermination for reward; roadside vending enforcement. Number of licensed dealers not found. See C10.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Recruiting of Workers Act Cap 98:06 licence plus security required; 2021 Labour Ministry register drive, agencies mostly unregistered, oil-sector linkage. See C11.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Funeral parlours only need registration with Central Board of Health under archaic Public Health Ordinance; reform proposals (annual licensing) from 2013 unconfirmed. Cemeteries run by councils. See C12.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Friendly Societies Act: annual returns to Registrar with audited accounts (older source); no new NPO law found. Halal/kosher not searched. See C13.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Road service licence under Motor Vehicles and Road Traffic Act Cap 51:02; 2019 minibus code (association membership, uniforms, training); May 2026 Public Works Minister warned of licence suspension for fare gouging and ordered approved fares displayed. Nothing new beyond K08.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "M&CC street vending policy and vendor registration repeatedly announced (draft policy reported 2021 and again Jan 2025); no confirmed adopted licence. Money changers covered by K03. See C14.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Childcare and Development Services Regulations in force 4 May 2016; CPA registration then licence, with fire, CH&PA and public health inspections; 2026 MHSSS: 352 licensed, 376 registered facilities. GFSA licenses food business operators and handlers' permits under Food Safety Act 2019 (amendment under way). Tattoo studios, driving schools, hunting outfitters: nothing found. See C15, C16.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "Guyana scrap metal dealers licence regulations Act ban export",
+    "Guyana Pesticides and Toxic Chemicals Control Board registration dealers licence",
+    "Guyana gold dealers licence Guyana Gold Board declaration dealers pawnbrokers jewellers",
+    "Guyana minibus taxi route licence Transport Operators Licensing regulations 2025",
+    "Guyana EPA environmental authorisation waste haulers septic sludge permit well drilling licence",
+    "Guyana childcare nurseries day care centres registration regulations Childcare and Development Services Act",
+    "Guyana Ministry of Labour recruitment agencies employment agency licence regulation domestic workers",
+    "Guyana Livestock Development Authority abattoir butcher licence slaughter animal movement permit veterinary",
+    "Guyana driving school licence OR funeral home licence OR cemetery regulation",
+    "Guyana non-profit organisations charities registration annual returns Deeds Registry Friendly Societies Act NPO law",
+    "Guyana Food and Drugs Department food establishment registration small food producers licence GRA Weights and Measures",
+    "Guyana Revenue Authority household employer domestic worker NIS registration",
+    "Guyana used car dealers spare parts dealers licence GRA motor vehicle dismantling regulation 2026",
+    "Guyana veterinary practice registration Veterinary Council veterinary drugs sellers licence Animal Health Act",
+    "Guyana pawnbroking Act pawn shops register pledges licence police",
+    "Guyana water wells drilling Water and Sewerage Act licence abstraction small community water systems",
+    "Guyana street vendors market stall licence Georgetown City Council vending 2026",
+    "Guyana lifts elevators boilers pressure vessels inspection certificate OSH Act factories registration",
+    "Guyana beekeepers honey registration permit apiary Ministry of Agriculture",
+    "Guyana Ministry of Labour OSH Act registration of workplaces employers 2025 inspection certificate"
+   ],
+   "searches": 20
+  },
+  "tag": "w2b36"
+ },
+ "discover:B:guyana": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Independent petrol station and LPG outlet owners, small wholesalers",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://gea.gov.gy/pdf/Retail-Application-Guide.pdf ; https://www.gra.gov.gy/?p=4743 ; https://getlicensed.gea.gov.gy/retail_licence_documents_required ; https://dpi.gov.gy/gnbs-steps-up-scale-verification-to-protect-consumers/",
+     "existing": "GEA online 'getlicensed' application portal (state side only); no private compliance-tracking product seen",
+     "known_mark": "new",
+     "name": "C01 Multi-agency annual licence renewal pack for fuel stations and LPG dealers (GEA + Fire Service + GNBS pump certificate + GRA licence)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "GEA retail/wholesale licence under Petroleum and Petroleum Products Regulations; GRA gas-station licence valid 1 year, renewal needs Fire Service safety certificate; GNBS pump accuracy certificate; storage licence at 2,000 L+",
+     "unchecked": "Number of retail outlets and LPG dealers; whether GEA portal handles renewals and expiry reminders; whether 2004 or 2014 regulations apply; fee levels; competitor search not run (budget)"
+    },
+    {
+     "buyer": "Small co-operative societies and credit unions (secretaries, treasurers)",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://leap.unep.org/en/countries/gy/national-legislation/co-operative-societies-act-cap-8801 ; https://dpi.gov.gy/chief-co-operative-development-officer-assumes-control-of-the-guyana-public-service-co-operative-credit-union-ltd ; https://kaieteurnewsonline.com/2012/04/29/is-the-cooperative-movement-in-guyana-dying/",
+     "existing": "None found (no search run for credit-union accounting software in Guyana)",
+     "known_mark": "new",
+     "name": "C02 Annual audit, AGM and Audit Fund compliance pack for co-operative societies and credit unions",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Co-operative Societies Act Cap 88:01: annual audit of accounts, AGM after audit, Audit and Supervision Fund remittance to Co-operatives Division; CCDO may take control when AGM or audit is missed",
+     "unchecked": "Number of active societies and credit unions; return forms and deadlines; whether they already use core-banking or accounting software; the Co-operatives Division and the Act text were not opened; competitor search not run"
+    },
+    {
+     "buyer": "Private security companies licensed by the Commissioner of Police (and firms hiring guards)",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://parliament.gov.gy/new2/documents/bills/3088-private_security_services_(regulation)_bill_no._38_of_2009.pdf ; https://dpi.gov.gy/constant-background-checks-for-private-security-firms ; https://stabroeknews.com/?p=476679 ; https://kaieteurnewsonline.com/2023/01/23/slowe-calls-for-comprehensive-audit-of-all-private-security-companies/",
+     "existing": "Competitor search 'Guyana security guard company management software roster payroll NIS licence renewal Police Commissioner' found no guard-management or licence-compliance product for Guyana",
+     "known_mark": "new",
+     "name": "C03 Licence, guard register and renewal pack for private security agencies",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Private Security Services Act (2009): licence and annual renewal by Controlling Authority (Commissioner of Police), register and accounts to be kept by agencies, guard photo ID; NIS registration; Ministry wants checks at annual renewal",
+     "unchecked": "Enacted text of the Act and the actual register content; number of licensed firms (not found); whether renewal is paid online; guard payroll/NIS is crowded by K04 so the angle must be the register, police clearances and licence renewal"
+    },
+    {
+     "buyer": "Small and medium scale gold and diamond miners, dredge owners, and their operators",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "https://op.gov.gy/president-ali-unveils-stringent-measures-for-gold-mining/ ; https://dpi.gov.gy/ggmc-urges-miners-to-declare-gold-as-services-expand-in-mining-districts/ ; https://dpi.gov.gy/plans-to-brand-guyanas-gold-reduce-mercury-use-support-small-miners-in-2026-min-bharrat",
+     "existing": "No digital system mentioned in the GGMC page; no private product found",
+     "known_mark": "new",
+     "name": "C04 Small-scale miner declaration and dredge registration tracker",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Jan 2026 presidential order: declare all gold produced in 2025, dredges with no declaration to be deregistered; all miners to be registered with the Ministry and hold a local bank account; GGMC declaration at offices or visiting days",
+     "unchecked": "Number of registered miners and dredges; permit and returns forms (royalty, claim fees); mercury and environmental filings; internet access in the interior; willingness to pay; competitor search not run"
+    },
+    {
+     "buyer": "About 30-70 GGMC licensed traders and Gold Board licensed dealers, 4 exporters",
+     "category": "31. Gold dealers, traders and exporters",
+     "evidence": "https://dpi.gov.gy/mnr-ggdma-discuss-strengthened-enforcement-to-tackle-reduced-declarations/ ; https://dpi.gov.gy/illegal-buying-and-selling-of-gold/ ; https://fiu.gov.gy/?p=6190",
+     "existing": "None found",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "C05 Record and declaration audit pack for licensed gold dealers and traders",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Only licensed dealers/traders may buy gold; traders must use official receipt books; stricter audits of purchase records and source declarations announced after 10 Dec 2025; AML duties for cash transactions of G$2m or more (Gold Board is DNFBP supervisor)",
+     "unchecked": "Small buyer base; Gold Board Act text and any 2025 amendment not found; whether receipt books are paper-only; relation to K03 (same AML duty for a different buyer group); competitor search not run"
+    },
+    {
+     "buyer": "Guest houses, inns, small lodges",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.parliament.gov.gy/documents/regulations/17835-reg_16_of_2008.pdf ; https://dpi.gov.gy/guyana-tourism-authority-launches-official-tourism-business-licensing-portal ; https://www.stabroeknews.com/?p=227752",
+     "existing": "GTA online licensing portal (state), no guest-register product seen",
+     "known_mark": "new",
+     "name": "C06 Licence and register helper for guest houses and small tourism accommodation (GTA)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Guyana Tourism Authority Act and Tourism Accommodation Establishments Regulations 2008: licence with EPA and CEHO reports; GTA moving to licensing of local tourism businesses (about 235 businesses)",
+     "unchecked": "No guest-register or levy duty found; small market"
+    },
+    {
+     "buyer": "Private clinics, medical labs, small hospitals",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://health.gov.gy/service/standards-sechnical-services/ ; https://dpi.gov.gy/ministry-of-public-health-has-commenced-processing-applications-to-license-health-facilities-for-2019",
+     "existing": "None found",
+     "known_mark": "new",
+     "name": "C07 Health Facilities Licensing renewal pack for private clinics and labs",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Health Facilities Licensing Act 2007 and Regulations 2008, Central Board of Health licensing after inspection score sheets",
+     "unchecked": "Only about 55 facilities licensed in 2019; no insurer or scheme billing duty found; whether a newer Act exists"
+    },
+    {
+     "buyer": "Independent pharmacies and drug stores",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals",
+     "evidence": "https://www.gra.gov.gy/?p=5687 ; https://www.paho.org/en/news/24-7-2026-guyana-advances-establishment-national-pharmacovigilance-centre",
+     "existing": "None found",
+     "known_mark": "new",
+     "name": "C08 Pharmacy licence and controlled-drug register helper (Medicines Regulation Bill watch)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Pharmacy licence via GRA needs pharmacist certificate, Poison Control Board drug certificate, sanitary and fire certificates; Food and Drugs Regulations 2012; new Medicines Regulation Bill drafted",
+     "unchecked": "Whether a register or periodic return is mandatory; number of pharmacies; Medicines Regulation Bill status; Poison Control Board rules"
+    },
+    {
+     "buyer": "Betting shop operators and agents, small gaming lounges",
+     "category": "32. Gaming: casinos, betting shops, lotteries",
+     "evidence": "https://guyanachronicle.com/2026/07/28/gaming-authority-bill-targets-social-fallout-from-unregulated-betting/ (seen only in search results; fetch redirected) ; https://stabroeknews.com/?p=487316 ; https://gamblingmaps.org/map/regulations/guyana/for-operators",
+     "existing": "None found",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "C09 Betting shop and gaming operator compliance (Gaming Authority Bill 2026, AML, GRA bets tax returns)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Gaming Authority Bill 2026 (Bill No. 12 of 2026) licensing of shops and agents with AML duties; existing AML Act supervision by Gaming Authority; GRA tax on bets with returns and penalties",
+     "unchecked": "Bill passage and commencement; number of betting shops; frequency of returns; operators likely run own POS and betting software; competitor search not run"
+    },
+    {
+     "buyer": "Market vendors, shops, fuel stations, wholesalers using weighing or measuring instruments",
+     "category": "33. Weights and measures",
+     "evidence": "https://dpi.gov.gy/gnbs-steps-up-scale-verification-to-protect-consumers/ ; https://dpi.gov.gy/gnbs-seize-unapproved-and-unverified-weights-and-measures-raids-stabroek-and-bourda-market ; https://kaieteurnewsonline.com/2023/07/09/verification-of-measuring-instruments-resumes-in-july-to-ensure-accuracy-in-trade/",
+     "existing": "None; GNBS runs the rounds itself",
+     "known_id": "K08",
+     "known_mark": "new",
+     "name": "C10 Twice-yearly GNBS scale and instrument verification reminder and log",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Weights and Measures Act 1981: verification of trade instruments twice a year, seizure and prosecution of unverified instruments",
+     "unchecked": "Low willingness to pay and no filing (an inspector visits); only worth as a feature inside C01"
+    },
+    {
+     "buyer": "Any small business holding customer data, clinics, schools",
+     "category": "34. Data Protection Act 2023",
+     "evidence": "https://www.dataguidance.com/news/guyana-data-protection-act-gets-presidential-assent ; https://www.consentstack.io/regulations/gy-dpa",
+     "existing": "None",
+     "known_mark": "new",
+     "name": "C11 Data Protection Act 2023 controller registration and records (watch item)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Data Protection Act No. 18 of 2023: registration with Data Protection Office, DPO, DPIA, records of processing; commencement by ministerial order not yet made",
+     "unchecked": "Commencement date, regulator, transition period; generic compliance tooling is out of scope unless a registration deadline hits many small firms at once"
+    },
+    {
+     "buyer": "Owners of pharmacies, gas stations, house agents, shops needing several annual licences",
+     "category": "36. GRA annual trade licences",
+     "evidence": "https://www.gra.gov.gy/?p=4743 ; https://www.gra.gov.gy/?p=12847 ; https://www.gra.gov.gy/?p=5687 ; https://www.stabroeknews.com/?p=104431",
+     "existing": "None found",
+     "known_mark": "new",
+     "name": "C12 Annual licence and certificate renewal calendar for small businesses (GRA trade licences with Fire, Environmental Health, Poison Board prerequisites)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "GRA annual licences (gas station, pharmacy, real estate G$32,500) with prerequisite certificates from Fire Service, health and other agencies; fire safety certificate non-renewal common (2018)",
+     "unchecked": "Generic reminder tool risks being out of scope; needs one vertical (C01 is the best fit); full GRA licence list not opened"
+    },
+    {
+     "buyer": "Employers incl. security firms",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://www.gra.gov.gy/?p=13",
+     "existing": "HeadOffice and others per K04",
+     "known_id": "K04",
+     "known_mark": "known",
+     "name": "Payroll / PAYE / NIS (recurrence found in GRA and NIS context)",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "GRA PAYE and NIS monthly returns",
+     "unchecked": "Not re-checked"
+    },
+    {
+     "buyer": "Small DNFBPs under Guyana Compliance Commission, Real Estate Agents Authority, Gold Board, Gaming Authority",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals",
+     "evidence": "https://fiu.gov.gy/?p=6190 ; https://fiu.gov.gy/wp-content/uploads/2024/02/AMLCFTCPF-GUIDELINES-FOR-REAL-ESTATE-AGENTS-AND-BROKERS.pdf",
+     "existing": "Not checked",
+     "known_id": "K03",
+     "known_mark": "known",
+     "name": "AML threshold and STR helper for real estate agents, attorneys, notaries, accountants, gold dealers, betting shops",
+     "score": 0,
+     "status": "weak",
+     "trigger": "AML/CFT Act 2009 with 2023 supervisor changes (FIU table)",
+     "unchecked": "Same buyer group and duty as K03; no new search spent"
+    },
+    {
+     "buyer": "Rice millers, exporters",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://grdb.gy/licensed-exporters ; https://faolex.fao.org/docs/pdf/guy43219.pdf",
+     "existing": "Not checked",
+     "known_id": "K08",
+     "known_mark": "known",
+     "name": "Rice miller and exporter licensing (GRDB)",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "GRDB Act Cap 72:01 s.40 and 2009 Export Licence Regulations",
+     "unchecked": "K08 rejection was desk judgement only; I found only one-off licences and no recurring report, so no evidence to revive"
+    },
+    {
+     "buyer": "Petroleum contractors and subcontractors",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "Not searched (already in study)",
+     "existing": "n/a",
+     "known_id": "K01",
+     "known_mark": "known",
+     "name": "Local content reporting (petroleum contractors)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Local content rules",
+     "unchecked": "Not re-checked"
+    },
+    {
+     "buyer": "Importers, exporters, timber exporters",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "Not searched (already rejected in study)",
+     "existing": "Government single window and GTLAS",
+     "known_id": "K05",
+     "known_mark": "known",
+     "name": "Customs and trade permits via Guyana Trade Network; timber legality (GTLAS)",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Single window and FLEGT VPA",
+     "unchecked": "Not re-checked"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "GEA licenses import, wholesale, retail, storage (2,000 L+), carrier, export, consumer-installation under the Petroleum Regulations (2004 vs 2014 version unclear). Retail licence needs ID, title/lease, business registration, Guyana Fire Service petroleum licence (safety certificate on renewal), GNBS pump-accuracy certificate, GRA revenue licences (annual); gas-station licence valid 1 year. Fragmented 3-agency annual renewal pack is a candidate (C01). GEA has an online 'getlicensed' portal for applications, so state-side submission exists.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Rice is the dominant commodity: GRDB Act Cap 72:01 s.40 and 2009 Export Licence Regulations require miller and exporter licences (documents: registration, TIN, police clearance, letter of intent with destinations and paddy source). Nothing recurring found beyond licences; rice millers already rejected in K08 (desk judgement only). No coffee/cocoa sector of note.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Co-operative Societies Act Cap 88:01 (last amended 1991): accounts of every society audited at least annually, AGM follows audit, Audit and Supervision Fund remittance to the Co-operatives Division; CCDO has taken over societies that missed AGMs (GPSCU 2018). Number of societies not found. Candidate C02.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Health Facilities Licensing Act 2007 and Regulations 2008 (not a 2024 Act; the 2024 Act named in my query was not found). Central Board of Health licensing after inspection score sheets; 55 facilities recommended in 2019, including 10 labs. Small base and annual-ish licensing only. Nothing found on insurer or scheme billing. Candidate C07 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Pharmacy licence via GRA needs pharmacist certificate, Poison Control Board drug certificate, sanitary and fire certificates, business registration. Food and Drugs Regulations 2012 cover controlled-drug prescription records. A new Medicines Regulation Bill is drafted and a pharmacovigilance system is being built (PAHO 2026), so rules may change. Candidate C08 (weak/unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Private Security Services Act (2009; bill text seen, enacted text not confirmed): Commissioner of Police licenses security agencies, annual licence and renewal, register and accounts to be kept by agencies, guard ID cards; firms also need NIS registration. Calls for a sector audit in 2023. No count of firms and no local guard-management software found. Candidate C03.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Local-content reporting is already in K01/K02. Small-scale mining: President ordered in Jan 2026 that all gold produced in 2025 be declared and that dredges with no declaration be deregistered; miners must be registered with the Ministry and hold a local bank account. GGMC declaration is in person at offices or visiting days; no digital system mentioned. Candidate C04.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "FIU table: Guyana Compliance Commission supervises attorneys, commissioners of oaths, accountants and auditors (appointed 16/08/2023); Real Estate Agents Authority supervises real estate agents, brokers, dealers, valuers and developers (appointed 16/08/2023 per Act 2023; FIU page footnote says agents are still under GRA pending transition). GRA real-estate house-agent annual licence G$32,500. Tax Practice Certificate for accountants and lawyers renewed 1 Jan to 28 Feb. All of this sits inside K03's buyer group; nothing new beyond K03 except the regime change.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Guyana Tourism Authority Act and Tourism Accommodation Establishments Regulations 2008 cover hotels, apartments, guest houses (2+ bedrooms) and inns; licence needs EPA and Chief Environmental Health Officer reports. GTA online licensing portal since Aug 2022; about 235 local tourism businesses, 88% registered, move to licensing announced (Stabroek, about March 2026). No tourism levy found. Small market. Candidate C06 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Timber legality is K06 and customs single window is K05, both rejected. GRDB rice export licensing found (see 22). Gold export chain is covered by C04/C05. Nothing new for fish or food in the searches run (no search spent specifically on fish/seafood export; marked unchecked).",
+     "status": "screened"
+    },
+    {
+     "category": "31. Gold dealers, traders and exporters (Guyana Gold Board, GGMC trader licences)",
+     "found": "Only holders of a Gold Board dealer licence or GGMC trader licence may buy gold; official receipt books for traders; ministry announced stricter audits of purchase records, source-declaration checks and licence sanctions after 10 Dec 2025 meeting; about 30+ to 70 licensed traders, 4 exporters, 6 Gold Board offices; cash limit raised to G$6m. Dealers under AML (cash transactions of $2m or more). Candidate C05.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Gaming: casinos, betting shops, lotteries (Gaming Authority)",
+     "found": "Gaming Authority Bill 2026 (Bill No. 12 of 2026) tabled July 2026 for licensing, supervision, taxation of casinos, gaming lounges, betting shops, betting shop agents, remote gaming; includes AML duties and a Responsible Gaming Fund. Not confirmed passed. Gaming Authority already supervises betting shops, casinos, lotteries under AML Act; GRA tax on bets with returns. Candidate C09.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Weights and measures: trade scales, pumps, meters (GNBS legal metrology)",
+     "found": "Weights and Measures Act 1981: all trade measuring instruments verified twice yearly by GNBS (scales, masses, tanks, flow meters, petrol pumps); August 2026 second-half round under way; seizures and prosecution for unverified instruments. Tens of thousands of vendors but low willingness to pay; reminder or booking service only. Candidate C10 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "34. Data Protection Act 2023 (registration, DPO, impact assessments)",
+     "found": "Act No. 18 of 2023 assented 16 Aug 2023; reported as not in force as of 2026 (no commencement order found), Data Protection Office not established. Would require data controller registration. Watch item; candidate C11 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "35. Fire safety and petroleum certificates (Guyana Fire Service)",
+     "found": "Fire Prevention Act Cap 22:01; fire safety certificate renewal ignored by many businesses (2018 Chief Fire Prevention Officer). GFS certificate is a prerequisite for GRA/GEA petroleum, pharmacy and other licences. No current GFS portal or fee data found; folded into C01 and C12.",
+     "status": "screened"
+    },
+    {
+     "category": "36. GRA annual trade licences and fiscal returns (licence renewal calendar)",
+     "found": "GRA issues annual licences (gas station, pharmacy, house agent, others) with prerequisites from other agencies; VAT monthly returns due 21st for taxable turnover above G$15m (third-party source, unverified). No evidence of e-invoicing or fiscal-device mandate in Guyana. Payroll/VAT filing already covered by K04. Candidate C12.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "Guyana Energy Agency licence fuel station LPG distributor requirements",
+    "Guyana Rice Development Board rice miller exporter registration licence requirements",
+    "Guyana Co-operative Societies Act credit union annual returns audit Chief Co-operative Development Officer",
+    "Guyana Private Health Institutions Assessment Licensing Act 2024 private clinics lab licence Ministry of Health",
+    "Guyana Food and Drugs Department pharmacy licence Pharmacy Council controlled drugs register",
+    "Guyana Private Security Services Act security company licence Police Force manpower agency requirements",
+    "Guyana Geology and Mines Commission small scale miners returns declaration gold Guyana Gold Board 2026",
+    "Guyana Customs Anti-Money Laundering Countering Terrorism Financing Act real estate agents attorneys notaries registration supervisory authority reporting",
+    "Guyana Tourism Authority hotel guest house registration licence tourism levy Tourism Act 2026",
+    "Guyana Compliance Commission Act attorneys accountants notaries register annual return deadline 2026",
+    "GRA Guyana electronic invoicing fiscal device mandatory VAT registered businesses 2026",
+    "Guyana National Bureau of Standards weights and measures annual verification scales pumps traders deadline",
+    "Guyana Data Protection Act 2023 registration data controllers Data Protection Commissioner compliance deadline",
+    "Guyana Real Estate Agents Authority licensing deadline realtors licensed brokers 2026",
+    "Guyana Gambling Commission betting shops licence reporting operators 2026",
+    "Guyana Fire Service certificate of fire safety renewal businesses petroleum licence inspection",
+    "Guyana Gold Board licensed gold dealers buyers registers reporting requirements Gold Board Act amendment 2025",
+    "Guyana security guard company management software roster payroll NIS licence renewal Police Commissioner security firms number registered"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b36"
+ },
+ "opus:guyana:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no product for Guyana. The state portal (portal.gov.gy, 'Private security application') lists the licence as in person only, run by the Guyana Police Force, with no published steps, fees or requirements and no online renewal. Foreign guard-management tools (GuardsPro, Guardso, SecurityTime, Connecteam) handle rostering, guard tours and payroll. None mentions Guyana's licence, register or police-clearance requirements, but they could take the operations side of the market. Guard payroll and the national insurance (NIS) side are crowded by K04.",
+   "duty": "The licensing duty is real. Guyana's Private Security Services Act 2009 makes the Commissioner of Police the Controlling Authority. Nobody may run a private security service without his licence. The 2009 bill's section list covers renewal and cancellation of licences, registers and accounts the agencies must keep, guard photo-ID cards and uniforms, and penalties. In 2016 the government's news agency (DPI) reported that licences are renewed yearly, that the Minister wanted new checks at each renewal, and that police do random compliance checks. In February 2023 the Ministry of Home Affairs (MoHA) said all security services must be certified by the Police Academy. I could not check the enacted wording, penalty amounts or what the register must contain: the bill PDF returned a 404, and I found no consolidated Act online.",
+   "market": "The market is very small. No official count of licensed firms was found. The industry association GAPSO has about 17 members, both contract firms and in-house security services, covering roughly 4,500 officers (Stabroek News, likely March 2026). My estimate of the whole licensed sector is a few dozen to perhaps 100–150 firms, mostly small, with demand growing from the oil and gas sector. That estimate is not verified.",
+   "reason": "The duty looks real: a police licence, yearly renewal, registers and guard ID, with Police Academy certification added in 2023. No Guyana-specific tool exists, and the government licence process is in person only. But the buyer pool is tiny: GAPSO has about 17 members and the whole sector is perhaps under 150 firms. Annual renewal is low-frequency pain. The register and clearance features overlap with general guard-management SaaS such as GuardsPro and SecurityTime, and payroll/NIS is crowded. Willingness to pay for a narrow compliance pack is doubtful. It would need to be bundled with rostering to be worth buying, which pushes it into generic-tool territory. Selling through GAPSO is easy, but revenue potential is low.",
+   "searches": 5,
+   "sources": "https://dpi.gov.gy/constant-background-checks-for-private-security-firms ; https://moha.gov.gy/minister-benn-commissioner-hicken-warns-private-security-firms-to-be-compliant-professional/ ; https://portal.gov.gy/services/private-security-application ; https://parliament.gov.gy/new2/documents/bills/3088-private_security_services_(regulation)_bill_no._38_of_2009.pdf (404 when fetched; section headings seen in search results only) ; https://www.stabroeknews.com/?p=314936 ; https://guardspro.com/security-firms ; https://www.g2.com/products/securitytime/discuss",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b36"
+ },
+ "opus:guyana:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The GGMC E-Services portal (eservices.ggmc.gov.gy) has offered gold declaration since May 2025, though the announcement was aimed at goldsmiths. It also issues invoices, takes third-party payments and links to an ArcGIS mineral-tenure map. Dredge registration still appears to use a paper form; I could not confirm whether it can be done online. Declaration mostly happens when gold is sold to the Gold Board or licensed traders, who record it. I found no private software, but I only searched in English, which is the local language.",
+   "duty": "The duty is real and in force. Section 206A of Guyana's Mining Regulations requires every dredge or specified-machinery owner to register it with the GGMC Commissioner. A dredge licence needs that registration certificate, and owners must tell the GGMC about later equipment changes. In January 2026 President Ali ordered that registered dredges with no 2025 gold declaration be deregistered. The GGMC then suspended all operations and approvals of named non-compliant miners, and some foreign miners face prosecution and expulsion. Gold is declared continuously through GGMC offices, officials visiting mining districts on set days, the Guyana Gold Board and more than 30 licensed traders (GGMC, Aug 2026). I did not find fixed fine amounts.",
+   "market": "The latest count I found is 1,132 dredges registered and operating as of December 2018, from a GGMC-based overview. I found no 2025 figure. In 2018 small and medium-scale mines produced 58.5% of gold output. The market is probably a few thousand operators, many in remote interior areas with limited internet, and some are informal or foreign (Brazilian) operators.",
+   "reason": "The duty is real and enforcement is sharp after the January 2026 order: deregistration and suspensions. But the core job, declaring gold, happens when it is sold through the Gold Board, licensed traders and GGMC officials, and the state's E-Services portal already offers online declaration. A private tracker would only add reminders and record-keeping for dredge registration and licence renewals, which is low value. Buyers are hard to reach (interior, cash-based, partly informal or foreign, poor connectivity), and willingness to pay for software is doubtful. The market is small, about 1,100 dredges in 2018. Selling through the GGDMA (the miners' association) is possible but narrow. I didn't refute the idea because nothing does a full compliance tracker, but the opportunity is weak.",
+   "searches": 4,
+   "sources": "https://op.gov.gy/president-ali-unveils-stringent-measures-for-gold-mining/ ; https://dpi.gov.gy/president-ali-orders-immediate-deregistration-prosecution-of-non-compliant-miners ; https://guyanachronicle.com/?p=693182 ; https://www.ggmc.gov.gy/ggmc-service/specified-machinery/ ; https://www.ggmc.gov.gy/forms ; https://www.ggmc.gov.gy/2025/05/?paged=4 ; https://ggmc.gov.gy/node/334 ; https://kaieteurnewsonline.com/2026/08/31/ggmc-targets-mining-districts-to-boost-gold-declaration/ ; https://www.parc-amazonien-guyane.fr/sites/parc-amazonien-guyane.fr/files/available_docs/overview_of_gold_mining_sector_in_guyana.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b36"
+ },
+ "sonnet:guyana:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: the Old Metal Dealers Act (Cap 91:08) requires dealer registration and licensing, a register to be kept, a signboard, inspection, and Minister-controlled export suspension. The 2006 amendment added export offences. Enforcement is now by the Ministry of Tourism, Industry and Commerce and its Scrap Metal Unit. Sept 2026 warnings threaten licence cancellation. I could not read the PDF text, so frequency, fees and penalties are unverified. I found no Guyanese software, app or e-register, and no licensed-dealer count. The market is likely tiny, perhaps dozens of firms. Willingness to pay is doubtful, and the trade may be shut down or reshaped. The register duty is the only recurring workflow, and it is thin. Weak as a business.",
+   "searches": 2,
+   "sources": "https://mola.gov.gy/public/laws/Volume 18 Cap. 91.02 - 96.011695663913.pdf; https://news.metal.com/newscontent/104099431-guyana-warns-scrap-dealers-continued-illegal-copper-trade-could-trigger-full-shutdown-of-scrap-metal-trade; https://guyanachronicle.com/2026/09/06/protecting-public-assets/; https://parliament.gov.gy/new2/documents/bills/5336-bill_no.27_2006_2.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b36"
+ },
+ "sonnet:guyana:A10": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The Pesticides and Toxic Chemicals Control Act Cap 68:09, Part IV, covers product registration (s11), licences to manufacture, import or export (s12), licences to sell (s13) and premises registration for storage (s14). The PTCCB enforces it and the Ministry of Agriculture site says vendors must be certified. I found no software, app or online portal for it. The market is tiny: no dealer count was found, and the 2018 annual report returned 403. Renewal cycle and fees were not found. The duty looks like an occasional paper licence with no heavy recurring returns, and I did not confirm any recurring filings. A buyer base of perhaps dozens to a few hundred shops, with weak pain and weak willingness to pay, makes this a poor SaaS target.",
+   "searches": 2,
+   "sources": "https://agriculture.gov.gy/wp-content/uploads/2016/02/cap6809-Pesticide-and-Toxic-Chemicals-Control-Board-Act.pdf ; https://agriculture.gov.gy/2016/10/24/roadside-dealing-of-pesticides-illegal-pesticides-board/ ; https://agriculture.gov.gy/ptccb/",
+   "suggested_score": 2,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b36"
+ },
+ "sonnet:guyana:A11": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The licensing duty exists. Recruiting of Workers Act Cap 98:06 bars recruiting without a licence and requires prescribed security. The 2021 Guyana Chronicle article says the Labour Ministry was building a register and that no agency had registered with the CRMA. I found no periodic reporting or placement-record filing duty, no stated penalty, and no 2024-2026 rule changes. I found no competing software, but the duty is a one-off or renewal licence, not a recurring workflow. The market is probably tens of agencies, I found no count, and willingness to pay looks low. The need for software is weak.",
+   "searches": 2,
+   "sources": "https://guyanachronicle.com/2021/04/08/recruitment-agencies-must-register-to-operate-in-guyana/",
+   "suggested_score": 2,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b36"
+ },
+ "sonnet:guyana:A15": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Childcare and Development Services Act 2011 with Regulations in force 4 May 2016. Providers must register with the Childcare and Protection Agency, then be licensed. They need police clearance, food handler's and medical certificates, and Fire, CH&PA and Public Health inspections. I found no renewal cycle, fee or penalty in my two searches. I found no online registration or competing software. The process looks paper-based, with in-person visits to the Brickdam office. The market is small, at about 700 facilities. Most are informal, and owners pay little. Distribution is hard. The state is likely to run its own system. The pain is low-frequency, so it is only a thin MVP, such as a certificate-expiry tracker.",
+   "searches": 2,
+   "sources": "https://dpi.gov.gy/day-care-centres-to-be-licensed ; https://dpi.gov.gy/200-day-care-facilities-registered-53-licensed/ ; https://mhsss.gov.gy/?p=3889 ; https://portal.gov.gy/agencies/child-care-and-protection-agency ; https://www.parliament.gov.gy/new2/old.parliament.gov.gy/public_html/documents/acts/3632-act_no._12.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b36"
+ },
+ "sonnet:guyana:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: only a GGB dealer licence or GGMC trader licence permits buying gold. In Dec 2025 the MNR announced stricter audits of purchasing records, source-declaration verification and routine checks, with suspension or revocation for failures (DPI). No competing software or state portal found; a 2023 plan for an online declaration platform has no confirmed launch. The market is tiny: an undated MNR page says GGB has 9 dealers, and GGMC trader numbers were not found. No fixed filing frequency or form was found, so this is audit-readiness rather than a recurring filing. Buyers are few and politically sensitive, and a government platform could displace the product. Low score.",
+   "searches": 1,
+   "sources": "https://dpi.gov.gy/mnr-ggdma-discuss-strengthened-enforcement-to-tackle-reduced-declarations/ ; https://dpi.gov.gy/illegal-buying-and-selling-of-gold/ ; https://nre.gov.gy/?p=1256",
+   "suggested_score": 2,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b36"
+ },
+ "sonnet:guyana:A9": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty partly real. The Steam Boilers Regulation Act (Cap. 95:04, Act 22 of 1970) issues an annual licence per boiler only after examination and certification. The Chief Factories Officer keeps the register. The OSH Act (Act 32 of 1997, cited as Cap. 99:06, not 99:10) has a Part II on registering industrial establishments. Annual re-registration rests only on a 2019 DPI quote from an OSH consultant, and I found no statute text, fee schedule or enforcement data. I found no competing software. Market size is unknown: no count of establishments or boilers. Few boiler owners, a paper-based government process, small buyers and an ILO-backed OSH Act reform make this a thin, low-WTP niche.",
+   "searches": 2,
+   "sources": "https://dpi.gov.gy/press-release-the-ministry-of-labour-reminds-employers-of-their-duties-under-the-occupational-safety-and-health-act-chapter-99-06-laws-of-guyana ; https://mola.gov.gy//laws/Volume 18 Cap. 91.02 - 96.011695663354.pdf ; https://dpi.gov.gy/taking-safety-and-health-to-the-workplace/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b36"
+ },
+ "triage:guyana": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Scrap dealers: recurring police licence and export compliance, new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Gold dealers' purchase records and source declarations; different buyer and duty from K03."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Pawnbrokers: statutory books and annual licence, in scope and new."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Vehicle dealers' licence, tax and inspection duty; differs from K05 customs."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Livestock traders and butchers licence and slaughter approvals; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Vets and vet drug sellers registration; small professional offices, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Well drillers and abstraction licence; new, unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small factories OSH registration and boiler certificates; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Agro-chemical vendors licence and premises registration; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Recruitment agencies licensing; different duty from K01 local content."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Funeral parlours registration; small firms, new, unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Friendly societies annual returns and audit; community bodies in scope."
+    },
+    {
+     "decision": "known",
+     "id": "A14",
+     "reason": "Street/market vendors rejected in K08; no new evidence.",
+     "ref": "K08"
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Childcare centres licence renewal and inspections; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A16",
+     "reason": "Small food businesses GFSA licensing and permits; new."
+    },
+    {
+     "decision": "known",
+     "id": "A17",
+     "reason": "Household employers rejected in K08; no new duty found.",
+     "ref": "K08"
+    },
+    {
+     "decision": "known",
+     "id": "A18",
+     "reason": "Minibus operators rejected in K08; fare display is not recurring filing.",
+     "ref": "K08"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Fuel station and LPG multi-agency annual renewals; new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Co-operatives annual audit, AGM and fund duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Private security agencies licence and guard register; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small-scale miners declaration and dredge registration, deadline-driven; new."
+    },
+    {
+     "decision": "merge",
+     "id": "B5",
+     "reason": "Same gold dealers and traders, same purchase-record/source-declaration duty as A2.",
+     "ref": "A2"
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Guest houses GTA licensing; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Private clinics and labs facility licensing; small professional offices, new."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Pharmacies licence and controlled-drug records; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Betting shops licensing and bets-tax returns; broader than K03 AML helper."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Scale verification duty on shops, stations, wholesalers; different duty from K08 vendor idea."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Data protection registration, unverified watch item; keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Cross-agency annual licence calendar for various small firms; distinct from single-sector items."
+    },
+    {
+     "decision": "known",
+     "id": "B14",
+     "reason": "Same AML/STR helper for DNFBPs as K03.",
+     "ref": "K03"
+    },
+    {
+     "decision": "known",
+     "id": "B16",
+     "reason": "Same local content reporting for petroleum contractors as K01.",
+     "ref": "K01"
+    }
+   ]
+  },
+  "tag": "w2b36"
+ }
+}

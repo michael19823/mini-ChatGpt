@@ -1,4 +1,28 @@
 {
+ "challenge:uzbekistan:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Partial overlap: TRIS (metrology deadlines) and Eco-Himoya cylinder data integration under Res. 315; Res. 325 digitising industrial-safety services; planned oil and gas online-control system (draft due 1 Dec 2026).",
+   "reason": "Nothing I found kills this candidate. The text of Resolution 315 on lex.uz has no small-business exemption. It sets recurring duties: monthly test openings of spring valves, valve checks every 6 months for tanks, metrology verification, periodic vessel inspections and hydraulic tests, signed acts, and staff attestation (stations with uncertified staff are suspended from 1 Jan 2027). Searches in Russian and Uzbek found no private tracker. The state is absorbing parts of the job: TRIS access to calibration deadlines from 1 Sep 2026, linking Eco-Himoya cylinder data, a draft online-control resolution due 1 Dec 2026, and Resolution 325 putting industrial-safety services online. The number of independent owners is unverified. Willingness to pay is doubtful because winter gas limits shut down methane stations. The score stays at 4.",
+   "searches": 8,
+   "sources": "https://lex.uz/uz/docs/8280849 ; https://www.spot.uz/ru/2026/06/28/gas-station-safety/ ; https://gov.uz/oz/cirns/news/view/205851 ; https://kun.uz/en/news/2026/06/29/cabinet-of-ministers-approves-strict-new-safety-measures-for-fuel-stations-b1ca89 ; https://gov.uz/ru/cirns/news/view/196044 ; https://gov.uz/ru/cirns/news/view/196047 ; https://www.spot.uz/ru/2026/01/08/gas-stations/",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b38"
+ },
+ "challenge:uzbekistan:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "Nothing found that kills it outright. Two problems make it unclear: (1) E-mehmon has no public API or bulk import that I could find, so integration would depend on the state's permission or on scraping; (2) the bill raising fines was sent back for revision on 11 Aug 2026 (spot.uz), and its final amounts and start date are not settled. Not checked: the uzinfocom E-mehmon project page returned a 404 error; private connectors for Uzbek PMS users could not be confirmed either way.",
+   "reason": "No named product kills it. Searches in Russian, Uzbek and English found no Uzbek or foreign PMS (Exely, TravelLine, Bnovo, Shelter, 1C) advertising E-mehmon sync, and no public E-mehmon API, import channel or GitHub client. That is the decisive problem: without an official API, a founder would have to scrape the free state portal, which is fragile and may not be allowed. The trigger also weakened. On 11 Aug 2026 the Legislative Chamber sent the higher-fines bill (20-40 BRV, about 8.8-17.6M soums, on officials) back for revision. Deputies objected to the size of the fines and to E-mehmon's own technical failures, and cited a presidential instruction to lower fines on businesses. Officials say all accommodation providers are already connected to E-mehmon, so the tool would only cut manual entry work for the roughly 7,000 accommodation facilities.",
+   "searches": 9,
+   "sources": "https://www.spot.uz/ru/2026/08/11/e-mehmon-fine/ ; https://anhor.uz/news/v-uzbekistane-mogut-uzhestochit-pravila-registratsii-inostrannyh-grazhdan/ ; https://dgov.uz/en/solution/detail/48/ ; https://euronews.com/travel/2026/02/18/uzbekistan-targets-12-million-tourists-in-2026-as-ai-reshapes-hospitality ; https://podrobno.uz/cat/podrobno/v-uzbekistane-obyasnili-kak-mozh/ ; https://kontur.ru/hotel/api-uchet-gostey",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b38"
+ },
  "discover:A:uzbekistan": {
   "result": {
    "blocked_searches": 0,
@@ -315,5 +339,782 @@
    "searches": 20
   },
   "tag": "w2b27"
+ },
+ "discover:B:uzbekistan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Owners of small independent AGNKS, AGZS and propane filling stations, and small fuel retailers",
+     "category": "21. Fuel stations and fuel or LPG distributors (also 36)",
+     "evidence": "https://www.spot.uz/ru/2026/06/28/gas-station-safety/ (fetched: 6,196 sites inventoried, 46,737 violations, 464 stations suspended, 1,553 AGNKS registered in U-Gas); https://www.spot.uz/ru/2025/09/24/ugaz/ (U-Gas launch per search summary); https://gov.uz/ru/uzenergoinspeksiya/news/view/224797",
+     "existing": "U-Gas is the state system (accounting and monitoring of gas dispensed, linked to tax and MVD). No private compliance or inspection-readiness tool found. Competitor search in Russian not run (budget exhausted).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C1. Compliance tracker for small independent gas-station / AGNKS / propane-station owners (Resolution No. 315, U-Gas, equipment-life dates)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Cabinet Resolution No. 315 of 18 June 2026: from 1 Sept 2026 limits on old or unknown-date pressure equipment, container stations only if certified modular, double-wall tanks and auto shutdown; U-Gas registration mandatory for AGNKS; register of violators due 1 Sept 2026; phase-out plan for above-ground LPG tanks by 1 Dec 2026; Eco-Himoya cylinder inspection data to be linked to U-Gas",
+     "trigger_note": "",
+     "unchecked": "Number of small independent operators; whether equipment-life records and inspection certificates (service life, pressure tests, fire-safety) are the real pain; licence and inspection document list; competitor search; whether state inspectors accept third-party records"
+    },
+    {
+     "buyer": "New private LPG suppliers and cylinder-exchange operators that start serving households and businesses",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://anhor.uz/ru/news/uzbekistan-reformiruet-sistemu-snabzheniya-szhizhennym-gazom (fetched; no cylinder or registration details); https://podrobno.uz/cat/economic/postavku-szhizhennogo-gaza-naseleniyu-peredadut-chastnomu-sektoru/",
+     "existing": "None found. Concrete reporting and cylinder-marking duties not found.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C2. Starter kit for new private household LPG suppliers (exchange purchase, delivery, cylinder records)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Presidential decree of 12 Sept 2026 reforming LPG supply (private sector to be brought in gradually; LPG-Trade LLC under Hududgazta'minot; exchange trading; phased end of cross-subsidies); July 2026 rule that entrepreneurs may supply LPG imported or bought on the exchange",
+     "unchecked": "Actual registration, cylinder tracking and reporting duties for private suppliers (text of decree on lex.uz); resolution reference 07/26/326/0934 of 15 Sept 2026 mentioned in search, not opened; competitor search"
+    },
+    {
+     "buyer": "Guest houses, hostels, small hotels, sanatoria and also private clinics hosting foreign patients",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://anhor.uz/news/v-uzbekistane-mogut-uzhestochit-pravila-registratsii-inostrannyh-grazhdan/ (fetched); https://gov.uz/en/migration/news/view/199572; https://dgov.uz/en/solution/detail/48/; https://www.spot.uz/ru/2023/11/28/guest-house/",
+     "existing": "E-mehmon is the free state portal and app. Competitor search (Russian) found no Uzbek PMS with confirmed E-mehmon integration and no public API; Russian Kontur.Hotel has a similar passport-reporting API for a different system.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C3. Guest-house, hostel and small-hotel E-mehmon registration and tourist-fee helper (PMS link, bulk entry, fine protection)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Duty to register every guest in E-mehmon on arrival (Cabinet Resolution No. 845 of 22 Oct 2018; tourist fee calculated in the system); bill raising liability for missing or late E-mehmon data passed first reading in the Legislative Chamber (reported 23 July 2026); hostel establishment procedure approved Nov 2023",
+     "unchecked": "Fine amounts; whether E-mehmon has an API or import channel (decisive); tourist fee rate in 2026; how many small units; whether local PMS vendors already sync; bill's final text and effective date"
+    },
+    {
+     "buyer": "Independent pharmacies and drugstore kiosks",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://uza.uz/ar/posts/podlinnost-lekarstv-mozhno-proverit-cherez-mobilnoe-prilozhenie-asl-belgisi_567550; https://buxgalter.uz/ru/publish/doc/text171749_kak_v_sisteme_asl_belgisi_otrazit_rashod_lekarstv_kuplennyh_perechisleniem; https://www.uzdaily.uz/ru/prezident-uzbekistana-utverdil-mery-po-usileniiu-kontrolia-nad-tsifrovoi-markirovkoi-tovarov/",
+     "existing": "Competitor search (Russian) found no Uzbek pharmacy product; found only Russian 1C/MDLP tools and a manufacturer-side Cleverence/InSoftRetail deployment. Asl Belgisi app and operator tools exist. Uzbek pharmacy ERPs likely exist but were not found.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "K02 covers small multi-category retailers; pharmacies are a different buyer with a different rulebook",
+     "name": "C4. Pharmacy-side Asl Belgisi scan-and-dispense record helper for small pharmacies",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Mandatory Data Matrix marking of medicines since Sept 2022 (three groups phased in); retailers scan on receipt and sale; May 2025 presidential resolution tightened marking control",
+     "unchecked": "Pharmacy-specific scanning duties and write-off steps; existing pharmacy software with Asl Belgisi support; pharmacy count and chain share"
+    },
+    {
+     "buyer": "Small private clinics and labs",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://yuz.uz/ru/news/ot-litsenziy-do-tsifrovogo-monitoringa---kak-menyaetsya-meditsina-stran; https://anhor.uz/news/med-insurance/; https://president.uz/ru/lists/view/9164",
+     "existing": "Not searched",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C5. Accreditation-readiness pack for private clinics (health-insurance fund contract condition from April 2028)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "From April 2028 the health-insurance fund may not contract clinics without national or international accreditation; private clinics may provide budget-funded care from 1 July (year per source 2026); single licensing and accreditation centre",
+     "unchecked": "Whether the rules are adopted or proposals; accreditation checklist; recurring reporting to the fund; competitor search"
+    },
+    {
+     "buyer": "Prospective licensed private inspection stations",
+     "category": "32. Vehicle technical inspection and certification opened to private operators",
+     "evidence": "https://anhor.uz/news/gosudarstvo-planiruet-otdaty-v-chastnie-ruki-tehosmotr-ryad-funkciy-notariata-i-ohrani/; https://www.spot.uz/ru/tag/uztest/; https://podrobno.uz/cat/obchestvo/v-uzbekistane-perestanut-vydavat-talony-o-prokhozhdenii-tekhosmotra-dlya-avto-takzhe-menyayutsya-sro/",
+     "existing": "Not searched",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C6. Private technical-inspection and certification operators (record keeping)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Bill to hand mandatory vehicle inspection to licensed enterprises; Feb 2026 plan to hand testing and certification to private firms",
+     "unchecked": "Whether the bill was passed; the rule is not yet in force so no buyers exist"
+    },
+    {
+     "buyer": "Small importers and producers of packaged goods",
+     "category": "33. Packaging extended producer responsibility and eco-fee",
+     "evidence": "https://anhor.uz/news/plastic/; https://www.spot.uz/ru/2025/08/15/ecological-fee/; https://kun.uz/en/news/2025/01/10/uzbekistan-plans-to-ban-plastic-bags-starting-in-2027",
+     "existing": "Not searched",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C7. Packaging EPR and recycling-fee reporting for small importers and producers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Draft programme 2025-2027 on plastic pollution (producer/importer responsibility, recycling fee); unofficial source: phased start from 1 Aug 2026",
+     "unchecked": "Whether any EPR law was adopted; reporting form and fee rates"
+    },
+    {
+     "buyer": "Small businesses in licensed activities that start by notification and must obtain the licence within three months",
+     "category": "31. Licensing reform notification regime",
+     "evidence": "https://anhor.uz/ru/news/rabota-bez-licenzii-tri-mesyaca-biznes (from search summary; page not opened); https://norma.uz/novoe_v_zakonodatelstve/obnovleny_normy_licenzionno-razreshitelnyh_i_uvedomitelnyh_procedur",
+     "existing": "State portals (EPIGU, Yagona Darcha)",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C8. Notification-regime onboarding for 'work without a licence for 3 months' (ZRU-1164)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law ZRU-1164 of 13 Aug 2026 (in force 14 Aug): free notification via the electronic system or EPIGU, then three months to obtain the licence; voluntary pre-assessment of up to 20 days from 1 March 2026",
+     "unchecked": "Which activities are eligible; generic, one-off per firm"
+    },
+    {
+     "buyer": "Notary offices, small realtor firms",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://economist.kg/dengi/2026/05/14/v-uzbekistane-uzhestochaiut-kriterii-vyiavleniia-podozritelnykh-tranzaktsii/; https://www.norma.uz/uz/novoe_v_zakonodatelstve/usilivaetsya_kontrol_za_legalizaciey_dohodov",
+     "existing": "Not searched; state FIU reporting channel",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C9. AML and cash-ban compliance tool for notaries and realtor offices",
+     "score": 2,
+     "status": "weak",
+     "trigger": "May 2026 tightened suspicious-transaction criteria (1,000 BRV; 5,000 BRV for service imports; escrow deals exempt); enhanced due diligence for clients tied to non-cooperative states; bill to ban cash in housing deals (status unverified)",
+     "unchecked": "Whether realtors file periodic reports; competitor search"
+    },
+    {
+     "buyer": "Small grain receiving points and mills",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://ukragroconsult.com/ru/news/czifrovizacziya-i-strogij-uchet-uzbekistan-vvodit-novyj-poryadok-priemki-hlopka-i-zerna/",
+     "existing": "State systems are the tool",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C10. Cotton and grain acceptance e-accounting for small receiving points",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Government rules for accepting cotton and grain with e-accounting in state systems Agrotarozi, Hosil qabuli and AgroDocs (date not stated)",
+     "unchecked": "Date, buyer size (likely clusters, not quiet firms)"
+    },
+    {
+     "buyer": "Small fruit, vegetable and dried-fruit exporters and processors",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://commodity-board.com/uzbekistan-tightens-food-safety-and-phytosanitary-rules-to-deepen-eu-market-access; https://anhor.uz/news/documents-3/; https://www.freshplaza.com/asia/article/9866813/uzbekistan-strengthens-standards-to-expand-agricultural-exports-to-europe/",
+     "existing": "Not searched",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C11. EU traceability and export documentation for small dried-fruit and vegetable exporters",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Alignment of food-safety and phytosanitary regimes with EU/GSP+; Yagona Darcha filing for phytosanitary certificates",
+     "unchecked": "Specific mandatory traceability records; an exporters' association exists (35+ members) as a distribution channel; competitor search"
+    },
+    {
+     "buyer": "Small MFOs and credit unions",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.spot.uz/ru/tag/микрофинансовые организации/",
+     "existing": "Not searched",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C12. MFO and credit-union reporting",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Central Bank supervision of 129 MFOs; credit-union law of 2006",
+     "unchecked": "Reporting forms, the size of the credit-union segment, vendor landscape"
+    },
+    {
+     "buyer": "Licensed external-employment agencies; private security firms",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://gov.uz/ru/migration/faq (menu text only); https://anhor.uz/news/gosudarstvo-planiruet-otdaty-v-chastnie-ruki-tehosmotr-ryad-funkciy-notariata-i-ohrani/",
+     "existing": "Not searched",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C13. Overseas-employment agency and private security firm reporting",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Licence from the Agency for External Labour Migration; security firms licensed by MVD",
+     "unchecked": "Periodic reporting duties; number of firms"
+    },
+    {
+     "buyer": "Pharmacies holding controlled medicines; chemical users",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://lex.uz/ru/acts/7350962; https://lex.uz/docs/546233",
+     "existing": "Not searched",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C14. Narcotic and precursor stock registers for pharmacies and chemical users",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Law on narcotics, psychotropics and precursors; licence from Ministry of Health (a lex.uz licensing document shows repealed 30.01.2025, so the current regime must be checked)",
+     "unchecked": "Current register format (paper or electronic), who must keep it"
+    },
+    {
+     "buyer": "Shops and catering outlets selling alcohol or tobacco",
+     "category": "34. Alcohol and tobacco retail",
+     "evidence": "https://www.uzdaily.uz/ru/v-uzbekistane-vvoditsia-ezhemesiachnyi-sbor-za-pravo-prodavat-alkogol-i-realizovyvat-ego-zavedeniiam-obshchepita/; https://norma.uz/novoe_v_zakonodatelstve/optovaya_torgovlya_alkogolem_budet_licenzirovatsya",
+     "existing": "Not searched",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C15. Alcohol and tobacco retail licence, fee and age-check compliance",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Licence with distance limits; monthly fee for catering outlets; age check under 20; warning signs",
+     "unchecked": "Current rules (sources 2019-2021); excise-stamp and Asl Belgisi marking overlap with K02"
+    },
+    {
+     "buyer": "Small quarry and non-ore mineral operators",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "https://gov.uz/ru/kongeotexnazorat/news/view/202878",
+     "existing": "State online platform",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C16. Subsoil permit conversion for small quarry operators",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Old-style subsoil licences changed to 'permits' and procedures moved online (gov.uz, 6 Aug 2026)",
+     "unchecked": "Recurring reporting duties for quarry holders"
+    },
+    {
+     "buyer": "Small design organisations",
+     "category": "35. Private construction control for individual housing",
+     "evidence": "https://anhor.uz/news/building-rules/",
+     "existing": "Not searched",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "C17. Construction-control records for small design offices doing private control of individual houses",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Cabinet resolution of 13 April (year unverified): the design organisation carries out construction control on houses up to 2 floors, 12 m, 500 m2 and small non-residential objects",
+     "unchecked": "Year, record format, number of offices"
+    },
+    {
+     "buyer": "see K01-K05",
+     "category": "Group A items seen in K list",
+     "evidence": "Not re-checked, per contract",
+     "existing": "n/a",
+     "known_id": "K01-K05",
+     "known_mark": "known",
+     "known_note": "Not re-checked. E-invoicing (K06) and OFD (K07) not re-checked; no new evidence found.",
+     "name": "Known: e-scrap purchase acts / E-lom, Asl Belgisi agro-input, spray-to-apiary, animal identification",
+     "score": 0,
+     "status": "weak",
+     "trigger": "see known list"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Cabinet Resolution No. 315 of 18 June 2026 sets safety and equipment rules for gas stations; from 1 Sept 2026 old or unknown-date pressure equipment is restricted, U-Gas registration is mandatory for AGNKS (1,553 registered), and a register of non-compliant stations is due by 1 Sept 2026. 2025 inventory: 6,196 sites, 46,737 violations, 464 stations suspended. LPG supply to households is opening to private firms (presidential decree of 12 Sept 2026, LPG-Trade LLC; exchange trading). See candidates C1 and C2.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Government rules for accepting cotton and grain with e-accounting in Agrotarozi, Hosil qabuli and AgroDocs (date unverified). Mostly cluster and large-elevator level, and the state system is the tool. Mill and elevator licensing rules not found. Weak candidate C10.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "129 MFOs registered by Nov 2025, supervised by the Central Bank (mystery-shopper fines in June 2026). Credit-union law dates from 2006. No 2026 small-entity reporting rule found. Few firms and they are regulated financial firms, so low fit. C12 weak.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Reform: a single licensing and accreditation centre; from April 2028 the health-insurance fund cannot contract clinics without national or international accreditation; private clinics may serve budget-funded patients from 1 July. Most sources describe proposals; operational reporting formats not found. C5 unverified/weak. E-mehmon duty also falls on clinics for foreign patients (see C3).",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Mandatory Asl Belgisi Data Matrix marking of medicines since 2022 (operator CRPT Turon); pharmacies scan on receipt and sale. Pharmacy-side product for Uzbekistan not found in one search (only Russian 1C/MDLP). Narcotics/precursor licensing sits with the Ministry of Health; a lex.uz licensing document shows as repealed 30.01.2025, so the current regime is unclear. C4 and C14.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Private security firms are barred from guarding state and budget bodies (done by MVD 'Ohrana'); no ChOP reporting rule to MVD found. Overseas-employment agencies are licensed by the Agency for External Labour Migration but no reporting details found. Cleaning agencies: nothing found. No candidate with evidence; C13 unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Subsoil licences for ore and non-ore minerals converted to 'permits' and moved online (gov.uz, 6 Aug 2026; Resolution No. 133 of 2022). Private construction control for small houses (up to 2 floors, 12 m, 500 m2) is done by the design organisation (year unverified). No register or local-content duty found for small contractors. C16, C17 weak.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "May 2026: suspicious-transaction criteria tightened (1,000 BRV threshold; escrow deals exempt). Notaries and lawyers must apply enhanced due diligence for clients linked to non-cooperative states. Realtors supervised by the state competition committee; a bill to ban cash housing deals is pending. State FIU channel exists; no small-office reporting tool found. C9 weak.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Hotels, hostels, guest houses, sanatoria and clinics must register every guest in the state E-mehmon system on arrival (Resolution No. 845 of 2018; tourist fee calculated in the system). Bill raising liability for missing or late E-mehmon data passed first reading in the Legislative Chamber around July 2026. No open API for PMS integration confirmed; no local PMS with an E-mehmon module found. See C3.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Phytosanitary certificates and quarantine permits are filed through the Yagona Darcha (single window); the country is aligning food-safety and traceability rules with EU/GSP+ (agri exports to the EU up 71.8% in 2025). Associations of fruit and vegetable exporters exist (35+ members). Specific small-exporter traceability duties not confirmed. C11 weak.",
+     "status": "screened"
+    },
+    {
+     "category": "31. (country-specific) Licensing reform: 'work without a licence for 3 months' notification regime and voluntary pre-assessment",
+     "found": "Law ZRU-1164 of 13 Aug 2026 (in force 14 Aug) lets entrepreneurs start work after a free notification through the electronic system or EPIGU, for three months; law ZRU-1099 of 27 Nov 2025 and Decree UP-8 of 9 Jan 2024 trimmed licence procedures. Generic, so only a weak candidate (C8).",
+     "status": "screened"
+    },
+    {
+     "category": "32. (country-specific) Vehicle technical inspection and certification being opened to private operators",
+     "found": "Bill to hand mandatory vehicle inspection to licensed enterprises (needs MVD-licence-level equipment); inspection stickers being dropped; cars under 10 years exempt, 10-15 years every two years (dates unverified). Feb 2026: testing and certification services to be handed to private firms and UzTest merged into the standards institute. Unverified C6.",
+     "status": "screened"
+    },
+    {
+     "category": "33. (country-specific) Packaging extended producer responsibility and eco-fee",
+     "found": "Draft state programme 2025-2027 on plastic pollution proposes producer/importer responsibility, recycling fee and ban on plastic bags from 2027; an unofficial source says a phased start from 1 Aug 2026. No adopted law found. C7 unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "34. (country-specific) Alcohol and tobacco retail and catering licences, monthly fee for the right to sell alcohol",
+     "found": "Retail alcohol sale needs a licence with distance limits (200 m from schools, sports and religious sites) and a monthly fee for catering outlets; age checks and warning signs required. Sources are 2019-2021 and need a current check. No tool gap found. C15 weak/unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "35. (country-specific) Private construction control for individual housing and small buildings",
+     "found": "Cabinet resolution (13 April, year unverified) lets the design organisation carry out construction control for houses up to two floors, 12 m, 500 m2. Buyer would be small design offices. Unverified C17.",
+     "status": "screened"
+    },
+    {
+     "category": "36. (country-specific) Gas-cylinder and autogas station safety regime (U-Gas, Eco-Himoya cylinder inspection, Uzenergoinspeksiya)",
+     "found": "U-Gas online monitoring live since Sept 2025; Resolution No. 315 of 18 June 2026 adds hard dates (1 Sept and 1 Dec 2026) and a link to Eco-Himoya cylinder-inspection data. Same buyers as C1; see C1 and C2.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "АЗС газозаправочные станции Узбекистан требования учет реестр постановление 2025 малый бизнес",
+    "Узбекистан аптеки обязательная маркировка лекарственных средств Асл белгиси аптека требования 2026",
+    "Узбекистан гостиницы хостелы регистрация иностранных граждан e-mehmon туристский налог 2026",
+    "Узбекистан нотариус риелтор противодействие легализации доходов отчет подозрительные операции DNFBP 2025",
+    "Узбекистан частные клиники обязательное медицинское страхование 2026 реестр поставщиков ЭМК отчетность",
+    "Узбекистан частные охранные предприятия лицензия отчетность МВД клининг агентства трудоустройство за рубежом",
+    "Узбекистан зерно мельницы элеваторы хлебопродукты лицензия электронная система учета зерна",
+    "Узбекистан строительные подрядчики лицензирование карьеры недра реестр отчетность 2026",
+    "Узбекистан перечень лицензируемых видов деятельности 2026 новые лицензии уведомительный порядок",
+    "Узбекистан МФО кредитные союзы кооперативы отчетность Центральный банк лицензия 2026",
+    "Узбекистан экспортеры фитосанитарный сертификат трассируемость ЕС GlobalGAP агентство карантина",
+    "Узбекистан алкоголь табак розничная торговля лицензия акцизные марки 2026",
+    "Узбекистан сжиженный газ баллоны пункты обмена маркировка постановление 2026",
+    "Узбекистан техосмотр частные станции технического осмотра 2026",
+    "Узбекистан расширенная ответственность производителей упаковка утилизационный сбор 2026",
+    "Узбекистан прекурсоры наркотические средства лицензия аптеки учет журнал 2025 2026",
+    "программа для аптек Узбекистан Asl Belgisi учет маркировки 1С (competitor)",
+    "программа для гостиницы хостела Узбекистан интеграция e-mehmon PMS (competitor)"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b38"
+ },
+ "gapfill:uzbekistan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Existing small and family scrap collection points, yards and processors of ferrous and non-ferrous scrap that must now apply for a licence from the Ministry of Mining Industry and Geology",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "https://gov.uz/ru/mingeo/news/view/120927 ; https://uza.uz/ar/posts/qora-va-rangli-metall-parchalari-sohasida-litsenziyalashning-yangi-tartibi-joriy-etildi_880646 ; E-lom context https://anhor.uz/news/metal-control/ (500k t/yr shadow scrap market)",
+     "existing": "Competitor search in Russian (программа для пунктов приема металлолома Узбекистан учёт лома лицензия 2026) found no local software or service; only generic Russian 1C acts on infostart.uz-adjacent sites. State licensing is presumably through the licensing portal (not confirmed).",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Same buyer group as K03 but a different duty (licence application and condition compliance vs counter-side capture of purchase acts/E-lom).",
+     "name": "Scrap-metal licence application and compliance pack for scrap yards (new licensing regime, Resolution No. 175 / 2026)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Law of 15 Jan 2026 added licensing of procurement, processing and sale of ferrous and non-ferrous scrap; Cabinet Resolution No. 175 of 16 Apr 2026 approved the licensing procedure (documents list, review deadlines, licence conditions). Likely a one-off deadline when existing dealers must get licensed, plus ongoing licence-condition compliance. Effective date and transition period unconfirmed.",
+     "unchecked": "Effective date and transition period; licence conditions (site, scales, radiation control, CCTV, e-acts, staffing); fees; whether apply via licensing portal; number of existing yards (informal sector size); whether E-lom integration or a state app already issues the acts."
+    },
+    {
+     "buyer": "Scrap yards and collectors",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "https://dunyo.info/en/news/s-1-avgusta-v-uzbekistane-zapustyat-sistemu-kontrolya-za-oborotom ; https://anhor.uz/news/metal-control/ (no dealer obligations, forms or operator stated; launch not confirmed)",
+     "known_id": "K03",
+     "known_mark": "known",
+     "known_note": "Already K03; new evidence only that launch was announced for 1 Aug 2026 and details are still absent.",
+     "name": "E-lom ferrous scrap turnover platform (counter-side capture)",
+     "score": 0,
+     "status": "unverified",
+     "trigger": "E-lom announced 13 Jul 2026 by the President for launch 1 Aug 2026 for real-time control of ferrous scrap turnover; project office under government and digital product passports."
+    },
+    {
+     "buyer": "Beekeepers and pesticide applicators",
+     "category": "8. Beekeepers",
+     "evidence": "https://agritechobservatory.review.fao.org/ru/arizoruz ; https://www.kun.uz/en/news/2025/07/25/chemical-spraying-threatens-uzbekistans-beekeeping-industry",
+     "existing": "Arizor.uz, free FAO-backed app of the Association of Beekeepers of Uzbekistan, already records pesticide applications and pushes warnings (small user base, members only)",
+     "known_id": "K04",
+     "known_mark": "known",
+     "known_note": "Already K04. New evidence that a free association app overlaps its core job, which argues for lowering K04 further.",
+     "name": "Spray-to-apiary notification router",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Cotton-field pesticide spraying and bee poisoning (Resolution No. 189 per K04); July 2025 mass bee deaths in Fergana and Surkhandarya."
+    },
+    {
+     "buyer": "Beekeepers (about 80+ engaged businesses in dialogue; total count unknown)",
+     "category": "8. Beekeepers",
+     "evidence": "https://gov.uz/en/vetgov/news/view/139899 (title only readable); https://www.zakon.kz/obshestvo/6520124-pchelovodov-obyazhut-poluchat-veterinarnyy-pasport-paseki.html (Kazakhstan, not Uzbekistan)",
+     "existing": "None found",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Different duty from K04 (apiary registration and movement documents rather than spray notifications).",
+     "name": "Apiary registration / vet passport and migration paperwork for beekeepers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Possible new apiary rules after PQ-322 (31 Oct 2025, annex 3) and the March 2026 dialogue; Kazakhstan introduced an apiary vet passport (law 19 Jun 2026, in force 20 Aug 2026) as an analogy only. No Uzbek duty confirmed.",
+     "unchecked": "Whether Uzbekistan has any mandatory apiary registration, vet certificate for moving colonies, or new rules from PQ-322; read full PQ-322 annex 3 on lex.uz."
+    },
+    {
+     "buyer": "Beekeepers affected by pesticide drift",
+     "category": "8. Beekeepers",
+     "evidence": "https://www.kun.uz/en/news/2025/07/25/chemical-spraying-threatens-uzbekistans-beekeeping-industry",
+     "existing": "Arizor.uz maps colonies and spray events",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Not a recurring mandatory workflow; adjacent to K04.",
+     "name": "Bee-poisoning loss claim evidence kit for beekeepers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Disputed cause of July 2025 bee deaths; lab analyses later supported complaints; no confirmed compensation duty or deadline",
+     "unchecked": "Whether any formal compensation or incident-reporting procedure exists."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "New regime found. Law of 15 Jan 2026 (amending the Law on Licensing, Permit and Notification Procedures) introduced licensing of procurement, processing and sale of ferrous and of non-ferrous scrap and waste (https://gov.uz/ru/mingeo/news/view/120927). Cabinet Resolution No. 175 of 16 Apr 2026 approved the licensing procedure, with the Ministry of Mining Industry and Geology as licensing body (https://uza.uz/ar/posts/qora-va-rangli-metall-parchalari-sohasida-litsenziyalashning-yangi-tartibi-joriy-etildi_880646, published 8 Jul 2026). Neither source gives an effective date, transition period, fee or licence conditions (unchecked, lex.uz not readable). Separately, President announced E-lom (real-time ferrous scrap turnover platform) on 13 Jul 2026 for launch 1 Aug 2026 (https://dunyo.info/en/news/s-1-avgusta-v-uzbekistane-zapustyat-sistemu-kontrolya-za-oborotom, https://anhor.uz/news/metal-control/): about 500k t/yr of scrap is said to sit in the shadow market; operator, dealer obligations, forms and penalties not stated. 100% export duty on scrap from 1 Jul 2025 (gmk.center). No local software for scrap-yard accounting or licence compliance found in Russian or Uzbek searches. E-lom itself is already K03.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No Uzbek-specific apiary registration, vet passport or movement permit found (only Kazakhstan's new apiary vet passport law of 19 Jun 2026, in force 20 Aug 2026, unrelated to Uzbekistan). Existing solution relevant to K04: Arizor.uz, a free FAO-backed app run by the Association of Beekeepers of Uzbekistan that maps colony locations and pushes pesticide-application warnings to beekeepers (https://agritechobservatory.review.fao.org/ru/arizoruz); small uptake (100+ downloads as of Jan 2023), members only, not shown to be mandatory. Mass bee deaths from cotton-field pesticides in Fergana and Surkhandarya in July 2025; Veterinary Committee said chemicals may be a factor on 19 Jul (https://www.kun.uz/en/news/2025/07/25/chemical-spraying-threatens-uzbekistans-beekeeping-industry). Presidential Resolution PQ-322 of 31 Oct 2025 annex 3 led to an open dialogue with 80+ beekeeping businesses in Mar 2026 (https://gov.uz/en/vetgov/news/view/139899, page body not readable); content of any new beekeeper rules unchecked.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "приём лома чёрных и цветных металлов Узбекистан лицензия пункты приёма постановление",
+    "metall parchalari qabul qilish punktlari litsenziya Uzbekiston E-lom",
+    "пчеловодство Узбекистан регистрация пасек ветеринарное свидетельство пчелиные семьи постановление 2025",
+    "asalarichilik Oʻzbekiston asalarichilar reyestr pasport asalari oilalari qaror",
+    "лицензирование заготовки переработки реализации лома металлов Узбекистан Министерство горнодобывающей промышленности и геологии постановление 175 срок вступления",
+    "E-lom электронный учёт лома металлов приемные пункты программа акты закупки Узбекистан",
+    "Chemical spraying threatens Uzbekistan's beekeeping industry beekeepers",
+    "пчеловоды Узбекистан ветеринарный паспорт пасеки кочевка пчёл разрешение Комитет ветеринарии пчеловодство 2026",
+    "ПП-322 31 октября 2025 пчеловодство приложение пчеловоды ветеринарные требования регистрация пасек Узбекистан",
+    "программа для пунктов приема металлолома Узбекистан учёт лома лицензия 2026 приемосдаточный акт электронный"
+   ],
+   "searches": 11
+  },
+  "tag": "w2b38"
+ },
+ "opus:uzbekistan:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The state \"Xavfsiz lift\" (\"Bezopasny lift\") single interagency electronic platform of the Ministry of Construction and Housing launched on 1 May (the year was not stated in the results). According to news reports, it offers real-time monitoring of lifts in apartment buildings and holds the electronic register: the Industrial Safety Committee enters new lifts before they are put into use. District khokimiyats enter defects into it, and the cabin plate must show the platform registration number and the last periodic inspection. No private Uzbek lift-compliance software was found.",
+   "duty": "CM resolution No. 431 (12.07.2025) on the technical inspection of lifts, in force 01.07.2026. It requires an inspection by a specialized permitted organization at least once every 12 months, with green/blue/yellow/red marks, and use of red-marked lifts is banned. New lifts must be registered in an electronic system before use. Under the rules for apartment buildings (gov.uz CIRNS, Aug 2026), management bodies must arrange monthly maintenance and annual inspection, keep a lift log and run dispatch supervision. No specific fine amount was found. In Tashkent, 135 people were held administratively liable for industrial-safety violations in general.",
+   "market": "Tashkent has 9,147 lifts in apartment buildings (kun.uz, Nov 2025). The ministry planned inspections for 8,942 lifts in apartment buildings, and a senator cited about 11k lifts across more than 4k apartment buildings. In 2023, 2,422 of 8,857 registered lifts were non-compliant. The number of licensed lift installation and repair firms is listed on the CIRNS (Industrial Safety Committee) site and was not counted here.",
+   "reason": "The duty is real. CM resolution No. 431 of 12.07.2025 requires an inspection by an accredited organization at least every 12 months from 1 July 2026, and red-tagged lifts may not be used. Rules for apartment buildings also require monthly maintenance and a lift log. However, the Construction/Housing Ministry's free interagency \"Xavfsiz lift\" platform already does the core job. It registers lifts (new lifts can only enter service after registration), stores defects, and its registration number and last inspection date must be shown on the cabin plate. The market is small: about 9-11k lifts in apartment buildings, held by management bodies and khokimiyats. Willingness to pay is low and sales to the public sector are hard. No fine amounts were found.",
+   "searches": 5,
+   "sources": "https://uza.uz/ar/posts/2026-yil-1-iyuldan-lift-nazorati-boyicha-yangi-talablar-kuchga-kiradi_865527 ; https://anhor.uz/uzl/news/endilikda-liftlar-holatiga-qarab-rangli-yorliq-bilan-baholanadi/ ; https://gov.uz/oz/cirns/news/view/207220 ; https://uza.uz/ru/posts/razrabatyvaetsya-platforma-bezopasnyy-lift_688106 ; https://yuz.uz/ru/news/v-uzbekistane-razrabatvaetsya-platforma-bezopasny-lift ; https://kun.uz/ru/news/2025/11/11/v-liftax-mnogoetajnyx-domov-tashkenta-vyyavleno-boleye-37-tysyach-neispravnostey ; https://anhor.uz/news/lifts/ ; https://gov.uz/oz/cirns/pages/sanoat-radiatsiya-va-yadro-xavfsizligi-qo-mitasi-tomonidan-liftlarni-montaj-va-ta-mirlash-ishlari-bilan-shug-ullanish-xuquqini-beruvchi-ruxsatnoma-olgan-tashkilotlar",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b38"
+ },
+ "opus:uzbekistan:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No private compliance or inspection-readiness tracker for Uzbek stations was found in searches in Russian and Uzbek. Existing tools: U-Gas, the state system for gas-sales monitoring, linked to tax, MVD and Energocontrol, with Eco-Himoya cylinder data to be integrated (not a safety/equipment-life tracker). 1C:KA AZS covers accounting, warehouse and payroll for independent station networks, not safety deadlines. There may be a future risk: Resolution 325 digitises industrial-safety services and permits will use automated-control data from 2027, so state e-services could absorb part of the job. Local expert and inspection firms for pressure vessels exist as a category, but none specific to stations were identified. Benzamat-type pump automation was not confirmed.",
+   "duty": "Confirmed, in force. Uzbekistan Cabinet of Ministers Resolution No. 315 of 18 June 2026 approved minimum fire, industrial, ecological and process requirements for AZS, AGZS and AGNKS. Annex 3 covers industrial safety: gas pipelines and tanks in good order, safety valves checked at set intervals, automatic overpressure protection on compressors and pumps, and an evacuation plan. Reported document items include a licence, technical passports, working fire equipment, calibrated meters and qualified technical staff. From 1 Sept 2026 to 1 Jan 2030, pressure equipment that is past its service life or has an unknown manufacture date is restricted. Container stations are allowed only as certified modular units. U-Gas is mandatory for AGNKS. A register of violators was due 1 Sept 2026, and a phase-out procedure for above-ground LPG tanks is due 1 Dec 2026. The only penalty found is temporary suspension (464 stations). Fines not found. Oversight sits with the Industrial, Radiation and Nuclear Safety Committee, MChS, Uzenergoinspeksiya and the Ecology Committee. Related: Resolution No. 325 of 25 June 2026 moves industrial-safety state services online, and from 1 Jan 2027 automated control-system data is to be used in permits for hazardous facilities (one gov.uz Uzbek-language source).",
+   "market": "The 2025 inventory covered 6,196 fuel and gas sites (AZS, AGZS, AGNKS and household-cylinder refill points). 1,553 AGNKS are under supervision and registered in U-Gas (1,459 fully connected). The number of small or independent owners versus chains or state-owned stations was not found. The sector is under stress: gas deficits limited methane stations to 6 hours a day in Jan 2026, and no permits for new AGNKS are being issued, per the Deputy PM.",
+   "reason": "The duty is real, new and enforced through suspensions, and no private tracker was found. But the main pain is capital spending (replacing equipment, double-wall tanks, relocation), not paperwork. Recurring tasks like valve checks and service-life dates are simple calendar items. The market is small (about 6,200 sites, about 1,550 AGNKS) and its ownership mix is unknown. Gas shortages are squeezing margins, and the state is digitising industrial-safety services (Resolution 325, automated-control data in permits from 2027). The buyer can be reached through the Committee's outreach events and gas associations. Willingness to pay for software is doubtful. A done-for-you service bundled with expert or inspection firms is the more plausible angle.",
+   "searches": 6,
+   "sources": "https://www.spot.uz/ru/2026/06/28/gas-station-safety/ ; https://gov.uz/oz/cirns/news/view/205851 ; https://gov.uz/ru/cirns/news/view/196044 ; https://gov.uz/ru/cirns/news/view/196047 ; https://www.spot.uz/ru/2025/09/24/ugaz/ ; https://solutions.1c.ru/upload/reestr/2c0/oy7en9yzhj2lv0qwl980qgkrrf1pjxa8/Opisanie-funktsionalnykh-kharakteristik-1S-KA-AZS.pdf ; https://podrobno.uz/cat/obchestvo/predprinimatelyam-posovetovali-ne-stroit-novye-metanovye-zapravki-v/ ; https://www.spot.uz/ru/2026/01/08/gas-stations/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b38"
+ },
+ "opus:uzbekistan:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free state portal emehmon.uz has a legal-entity login, and there is a mobile app. Searches in Russian, Uzbek and English found no Uzbek or regional PMS advertising E-mehmon integration. Neither emehmon.uz nor the dgov.uz solution page shows a public API, Excel or bulk import, or connected partners. dgov.uz mentions only automatic transfer to Interior Ministry systems. Kontur.Hotel (Russia) offers a similar API for Russian Interior Ministry guest registration, not for E-mehmon. HSU integration software lists Shelter, Bnovo and 1C Hotel, with no E-mehmon support. Whether Shelter or Bnovo customers in Uzbekistan already have custom E-mehmon connectors was not verified.",
+   "duty": "CM Resolution No. 845 (22 Oct 2018) and No. 433 (2020): accommodation facilities and medical institutions must register foreign citizens and stateless persons in E-mehmon on arrival, for every stay. The system also tracks tourist-fee accruals. A bill tightening liability for failing to register guests or for late E-mehmon entry passed first reading in the Legislative Chamber (103 of 109 votes, reported 22-23 July 2026). Current fine amounts and the Administrative Code article were not found. The bill's final text and effective date were not reached. The 2026 tourist-fee rate was not checked.",
+   "market": "The Statistics Committee counted 1,156 hotels on 1 Jan 2021, led by Tashkent (243), Bukhara (193) and Samarkand (149). The deputy minister cited 1,442 accommodation facilities in 2021, including 210 new hostels. No 2025 count of guest houses was found. Demand is rising: 5.5 million foreign visitors in January-May 2026, up 27% (spot.uz/anhor). Private clinics serving foreign patients add some buyers, but they were not counted. A rough estimate is 2,000-4,000 facilities, not verified.",
+   "reason": "The duty is real. Hotels, motels, sanatoria, guest houses, recreation sites and medical institutions must enter every foreign guest into E-mehmon on arrival (CM Resolutions 845/2018 and 433/2020). A bill raising liability for late or missing E-mehmon entries passed first reading on 23 July 2026; its fine amounts and effective date are unpublished. I found no Uzbek PMS with E-mehmon sync. Neither emehmon.uz nor dgov.uz mentions an API, bulk import or PMS link. dgov.uz describes data transfer only to Interior Ministry systems. That makes the MVP depend on browser automation or a negotiated state integration, which is the decisive risk. Small properties already use the free portal and app. The market is modest: about 1,156 hotels in 2021, plus hostels and guest houses. Buyers are price-sensitive.",
+   "searches": 6,
+   "sources": "https://kun.uz/en/news/2026/07/23/uzbekistan-moves-to-strengthen-enforcement-of-foreign-guest-registration-rules ; https://anhor.uz/news/v-uzbekistane-mogut-uzhestochit-pravila-registratsii-inostrannyh-grazhdan/ ; https://www.spot.uz/oz/2026/07/22/migration-legislation/ ; https://dgov.uz/en/solution/detail/48/ ; https://emehmon.uz ; https://m.kun.uz/en/news/2021/09/24/statistics-committee-announces-data-on-the-number-of-hotels-in-uzbekistan ; https://kontur.ru/hotel/api-uchet-gostey ; https://hsu.systems/en/products/software-and-equipment/pms-integration-software/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b38"
+ },
+ "opus:uzbekistan:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated software or done-for-you service found. Applications go through the free state \"Litsenziya\" system (license.gov.uz) or my.gov.uz. A June 2026 gov.uz news item confirms this channel for licences in general, but not for the scrap licence specifically. Local lawyers and consultants usually handle one-off licence packs. The Russian-language search for scrap-yard software and Uzbek-language searches turned up no Uzbek vendor.",
+   "duty": "The duty is real and in force. The Law of 15 Jan 2026 (lex.uz -7996018, Art. 5) took effect on official publication. It added two licensed activities to the Law on Licensing, Permit and Notification Procedures: procurement, processing and sale of ferrous scrap and waste, and the same for non-ferrous scrap. The licensing body is the Ministry of Mining Industry and Geology, and the state fee is 30 BHM. Cabinet Resolution No. 175 of 16 Apr 2026, reported by UzA on 8 Jul 2026, approved the licensing passports: the documents list, the review procedure, decision deadlines, and licence requirements and conditions. The law sets no transition period. The law's preamble says it abolishes the exclusive rights of large state enterprises. Norma.uz and buxgalter.uz say this means Uzmetkombinat (ferrous) and Uzvtortsvetmet (non-ferrous) lose their monopolies, but I could not open those pages to read it myself. If so, the licence opens a market that was previously closed, and it is not a new burden on existing independent yards. This is mostly a one-off application, followed by ongoing compliance with licence conditions. Not found: the full text of Resolution 175, the specific licence conditions (site, scales, radiation control, CCTV), the licence term, and penalties. The buxgalter.uz answer on sanctions is paywalled.",
+   "market": "Unverifiable. No count of scrap collection points or applicants was found. Until 2026 the trade was legally limited to the networks of the state monopolies Uzmetkombinat and Uzvtortsvetmet. Uzvtortsvetmet was ordered in 2018 to open collection points in every city and district centre. Independent small yards were therefore mostly informal (the claim cites a shadow market of about 500k t/yr). The number of new licensees is likely in the low hundreds and skewed towards mid-size processors, but this is not confirmed.",
+   "reason": "The duty is real: the 15 Jan 2026 law and Resolution 175 of 16 Apr 2026, with a 30 BHM fee and the Ministry of Mining and Geology as the licensing body. However, it is mainly a one-off licence application, submitted free through license.gov.uz or my.gov.uz, and local lawyers can prepare the pack. The licence ends the state monopolies, so it creates market entry rather than a recurring burden on many existing small yards. The number of potential licensees is unknown and probably small. Licence conditions and ongoing reporting duties are unconfirmed. If those duties turn out to be heavy, value could come from ongoing compliance (purchase acts, radiation control, reporting), but that overlaps K03. Low frequency and a narrow market keep the score low.",
+   "searches": 6,
+   "sources": "https://gov.uz/ru/mingeo/news/view/120927 ; https://lex.uz/docs/-7996018 ; https://uza.uz/uz/posts/qora-va-rangli-metall-parchalari-sohasida-licenziyalashning-yangi-tartibi-zhoriy-etildi_880645 ; https://uza.uz/ar/posts/qora-va-rangli-metall-parchalari-sohasida-litsenziyalashning-yangi-tartibi-joriy-etildi_880646 ; https://buxgalter.uz/question/36879 ; https://gov.uz/oz/asillik/news/view/181921",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b38"
+ },
+ "sonnet:uzbekistan:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "News (finratings.kz, anhor.uz) reports electronic death certificates from 1 March 2026. It also reports a state \"unified electronic register of burial services\" module and app, due by 1 June 2026. In a Tashkent pilot from 1 July to 31 Dec 2026, the cemetery head issues burial permits only through the module or app, and paper records end. I found no legal text confirming these dates, and I did not confirm that the register went live. The lex.uz act 1874903 is a 2011 regulation on repatriating remains, not the register. The workflow is entered into the state's own system, by mostly municipal cemetery staff. That makes it the state's own system, so private software has little room. The buyers are few and public, willingness to pay is low, and there is no penalty regime. Mahalla helpers and private funeral firms are not shown to carry a duty. Market size was not found.",
+   "searches": 2,
+   "sources": "https://finratings.kz/news/9190-v-uzbekistane-vvodiat-elektronnye-spravki-o-smerti/ ; https://anhor.uz/news/what-18/ ; https://lex.uz/uz/acts/1874903",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b38"
+ },
+ "sonnet:uzbekistan:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "State portal my.gov.uz (YaIDXP) for permits and meter registration; state digital systems \"Raqamli suv xo'jaligi\" and \"Suv Hisobi\"; no private vendor found",
+   "duty": "Special water-use permit; mandatory registration and sealing of meters on wells and springs from 30 Nov 2025; fines for unpermitted abstraction",
+   "market": "Not quantified; no register figure found",
+   "reason": "Duty is real. The Water Code (ZRU-1076, 30 Jul 2025) took effect 31 Oct 2025. Special water use needs a permit via the state portal (my.gov.uz / YaIDXP). Well meters must be registered and sealed from 30 Nov 2025 (Cabinet Resolution 547). Fines apply per 1000 m3 taken without a permit; the sources I found give 30% of BRV, while the claim says 40%. I did not confirm a daily e-journal. Sources mention only a QR-coded e-act, and the state \"Raqamli suv xo'jaligi\" and \"Suv Hisobi\" systems. Those state systems and the portal filing already do the core job, and the duties are mostly one-off, not recurring. Market size is unknown and no register figure was found. Low willingness to pay, and a one-off permit and meter fee is the core cost. Weak SaaS case; at most a done-for-you filing service.",
+   "searches": 3,
+   "sources": "https://buxgalter.uz/oz/publish/doc/text210408_quduqlardan_suv_olishda_suv_hisoblash_vositalarini_qanday_urnatish_kerak ; https://buxgalter.uz/ru/publish/doc/text209795_novyy_vodnyy_kodeks_obzor_osnovnyh_polojeniy ; https://kun.uz/en/news/2025/09/04/uzbekistan-bans-use-of-underground-wells-without-meters ; https://centralasiaclimateportal.org/water-and-consumption-metering-in-uzbekistan-will-be-digitalized/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b38"
+ },
+ "sonnet:uzbekistan:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Law 1124 (25 Mar 2026) is confirmed only as administrative liability for illegal removal from collection sites. I could not confirm the 100-300 BRV geo-database fines, the monthly rating, or who files what and how often. The fetched pages (anhor.uz/news/illegal-waste, gov.uz eco 115772) do not mention them. A rating exists: the Agency for Waste Management rates operators green/yellow/red under decree PF-149 (2024). In 2025, 105 operators were rated and 11 fined. So the buyer pool is about 100 firms, many tied to state contracts, and the state runs the monitoring (Tozapoytaxt.uz, 700+ cameras). The duty is mostly state-side and the market is tiny. Few buyers, little recurring filing, so low willingness to pay. Competitor software search not conclusive.",
+   "searches": 4,
+   "sources": "https://anhor.uz/news/illegal-waste/ ; https://anhor.uz/news/za/ ; https://gov.uz/ru/eco/news/view/115772 ; https://gov.uz/oz/sanitation/news/view/104898 ; https://www.afisha.uz/uz/gorod/2025/11/12/toza-hudud",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b38"
+ },
+ "sonnet:uzbekistan:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Licensing and personal hallmarks for jewellers are real. Licences come from the State Assay Chamber under the Ministry of Finance, and a 2019 decree moved licensing there. The firms I found keep their own metal records, and I found no mandated record or scrap-log format or periodic filing. Digital labelling of jewellery is only a July 2026 draft: pilot to end-2027, mandatory from 2029 if adopted, and I could not confirm adoption. The state already runs digital licensing and assay services. A small niche with an unconfirmed core duty and no firm count. I ran only 2 searches, so no competitor search for jeweller software and no register count. Score 3.",
+   "searches": 2,
+   "sources": "https://kun.uz/en/news/2026/07/08/uzbekistan-may-introduce-mandatory-digital-labeling-for-jewelry-9c9a84; https://buxgalter.uz/oz/publish/doc/text150967_zargarlarga_licenziyalarni_asillik_darajasini_belgilash_palatasi_beradi; https://gov.uz/oz/asillik/news/view/221003; https://buxgalter.uz/ru/publish/doc/text150900_v_yuvelirnoy_otrasli_-_novye_pravila_i_lgoty",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b38"
+ },
+ "sonnet:uzbekistan:A9": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real only as a 2024 pilot. Cabinet Resolution No. 44 of 22.01.2024 ran 1 Apr to 1 Oct 2024. Legal entities carrying passengers or freight issue e-waybills themselves, free of charge, in the Ministry of Transport's state \"Elektron yo'l varaqa\" system (Uztrans). Traffic police and the transport inspectorate check them. Self-employed drivers are excluded. I found no source on whether it became permanent or mandatory after the pilot; no 2025-26 resolution turned up (4 searches, no fetches). No penalty was found. The free state platform already does the core job, and firms issue the waybills themselves, so there is little room for a paid tool. I did not check local fleet-management vendors. No register count of fleets was found. The score is low because of the free state tool and the unclear status.",
+   "searches": 4,
+   "sources": "https://www.spot.uz/ru/2024/01/25/driver-log/ ; https://buxgalter.uz/ru/publish/doc/text196198_kak_budet_rabotat_sistema_ucheta_elektronnyh_putevyh_listov ; https://buxgalter.uz/oz/publish/doc/text196208_elektron_yul_varaqalarini_hisobga_olish_tizimi_qanday_ishlaydi",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b38"
+ },
+ "sonnet:uzbekistan:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The yuz.uz article says the reforms are adopted (presidential decree of 5 May 2026) and that from April 2028 the insurance fund may not contract clinics without national or international accreditation. I could not confirm this in the decree text on lex.uz or in a second source. Norma.uz and advice.uz show the decree (PP-170 or PQ-170 and PF-74) but not the 2028 fund rule. The accreditation standards and checklist are not published yet. The duty is a one-off, tied to fund contracts, and the accreditation centre is only now starting. Market is large (9,000+ private clinics, 8.7k expected by end-2026). No competitor found, but the product is still undefined. Weak recurrence and an unclear MVP lead to a low score.",
+   "searches": 4,
+   "sources": "https://yuz.uz/ru/news/ot-litsenziy-do-tsifrovogo-monitoringa---kak-menyaetsya-meditsina-stran; https://www.norma.uz/novoe_v_zakonodatelstve/kachestvo_meduslug_budut_kontrolirovat_po_edinym_standartam; https://advice.uz/ru/news/3258; https://www.spot.uz/ru/2026/05/01/private-healthcare/; https://anhor.uz/healthcare/2027/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b38"
+ },
+ "triage:uzbekistan": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Lift owners and small lift firms, new inspection duty from 1 July 2026; new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Private kindergartens, new CCTV licence condition from July 2026; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Small recruitment agencies with recurring registration duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Funeral and cemetery operators, new e-register duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Small water users and well firms with permit, meter and journal duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Small sanitation operators, recurring reporting and rating duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Jewellers are a different buyer group and duty from K03 scrap yards; related K03."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "NGOs and associations with recurring reporting; explicitly in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small fleets with electronic waybill duty; in scope."
+    },
+    {
+     "decision": "known",
+     "id": "A10",
+     "reason": "Same agro-input dealers and marking/licensing duty as K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "known",
+     "id": "A11",
+     "reason": "Same sole-trader buyer group and cash-register/receipt duty family as K07.",
+     "ref": "K07"
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Market operators are a different buyer group from K07 sellers; new E-bozor duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Driving schools, licensed small premises with records; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Vet clinics with controlled-drug handling; different buyer from K05; unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Licensed pawnshops, small firms with licence duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Small fuel station owners with new Resolution 315 duties from Sept 2026."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "New private LPG suppliers; different buyer and duty from B1; in scope, unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Guest houses with mandatory E-mehmon guest registration; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Pharmacies are a different buyer group from K02 retailers; related K02."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small clinics facing accreditation condition for insurer contracts; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small private inspection operators under new rules; unsure so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Small importers and producers with packaging EPR reporting; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small firms under new notification-then-licence regime with three month deadline."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Notaries and realtor offices with AML duties; explicitly in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Small grain receiving points with e-accounting duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Small exporters with phytosanitary and traceability filings; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Small MFOs and credit unions with supervisory reporting; co-operatives in scope."
+    },
+    {
+     "decision": "merge",
+     "id": "B13",
+     "reason": "Overseas employment agencies duplicate A3; security firms add no separate evidence.",
+     "ref": "A3"
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Pharmacies' narcotic stock registers are a different duty from B4 marking."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Small alcohol and tobacco retailers with licence and age-check duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "Small quarry operators with permit conversion deadline; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B17",
+     "reason": "Small design offices with control duties; unsure so keep."
+    },
+    {
+     "decision": "known",
+     "id": "B18",
+     "reason": "Placeholder restating known ideas K01-K07 with no new candidate.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Scrap yards' licence application under Resolution 175 is a different duty from K03 purchase acts."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS2",
+     "reason": "Same scrap yards and E-lom capture duty as K03.",
+     "ref": "K03"
+    },
+    {
+     "decision": "known",
+     "id": "GAPS3",
+     "reason": "Same beekeepers and spray notification duty as K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Different duty from K04 (apiary registration); unverified so keep for check."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS5",
+     "reason": "Not a recurring mandatory workflow; no duty or deadline, a one-off claim kit."
+    }
+   ]
+  },
+  "tag": "w2b38"
  }
 }

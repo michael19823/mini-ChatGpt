@@ -1,0 +1,1273 @@
+{
+ "challenge:pakistan:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "Partial, not fatal: FBR's free DNFBP mobile app (registration, proscribed-person screening, STR generation) plus FMU goAML and simplified FBR CDD forms cover the core screening and reporting steps. Weak enforcement (IMF finding) and low willingness to pay among small dealers further limit demand. Not checked: S.R.O. 1439(I)/2026 text, and whether the NOC bar on unregistered builders took effect.",
+   "reason": "I found no Pakistani vendor that keeps the full CDD, record-retention and compliance-officer file for property dealers or builders. Global KYC/AML SaaS (Shufti Pro, AML Watcher) is built for banks and fintechs and does not target this group. However, FBR's free DNFBP app (iOS id1560978125) already handles registration, screening against the proscribed-persons list (CNIC/name) and STR generation, and FBR has simplified CDD forms. That leaves only file-keeping and risk assessment to sell. The market is real but thin: about 22,000 registered agents out of an estimated 500,000 dealers. Enforcement is weak; the IMF called DNFBP supervision unsatisfactory and STR numbers extremely low. Sole-trader dealers are unlikely to pay. Builders under S.R.O. 1439 are a better niche, but their NOC bar is unverified.",
+   "searches": 8,
+   "sources": "https://fbr.gov.pk/pr/fbr-completes-fatf-actions-on-dnfbps-ahead-of/163201/2021 ; https://apps.apple.com/ci/app/dnfbp/id1560978125 ; https://www.zameen.com/news/fbr-realtors-to-meet-fatf-requirements.html ; https://www.thenews.pk/print/1415116-imf-flags-low-number-of-suspicious-transaction-reports-in-real-estate-sector ; https://nukta.com/imf-urges-pakistan-strengthen-realestate ; https://nukta.com/fbr-registration-for-builders-developers ; https://www.dawn.com/news/amp/1656899 ; https://propakistani.pk/proproperty/?p=2120 ; https://fbr.gov.pk/aml-cft-legislation-regulations/152366/152370",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b37"
+ },
+ "critic:pakistan": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Tobacco, cigarette and pan/gutka retailers and small distributors under FBR Track and Trace / excise stamps",
+     "first_search": "ٹریک اینڈ ٹریس تمباکو ڈسٹری بیوٹر ریٹیلر رجسٹریشن ایف بی آر 2026",
+     "why": "Track and Trace is screened only at mid-sized units, but the tobacco and cigarette-pack tracking rules (and new 2025-26 enforcement on wholesalers and retailers) reach a very large number of small distributors and kiosk owners. Nothing in the ledger covers the downstream small-operator side."
+    },
+    {
+     "category": "Afghan transit trade, border and informal importers: Afghan Transit Trade, customs-agent and clearing-agent licensing, and small cross-border traders",
+     "first_search": "کسٹمز ایجنٹ لائسنس تجدید چھوٹے درآمد کنندگان افغان ٹرانزٹ ٹریڈ نئے قواعد 2026",
+     "why": "Small importers and clearing agents face PSW, customs agent licence renewals, and 2025-26 border-closure and Afghan transit rules. K09 is rejected only for the GD tool, not the small-trader licence and bond/guarantee duties."
+    },
+    {
+     "category": "Rickshaw, motorcycle and used-vehicle dealer duties: Excise and Taxation vehicle registration, token tax and smart card for small showrooms and car dealers; Motor Vehicle Dealer licensing and new FBR POS rule for dealers",
+     "first_search": "موٹر وہیکل ڈیلر لائسنس ایکسائز پنجاب شوروم رجسٹریشن نیا قانون 2026",
+     "why": "Pakistan has a huge number of used-car and motorcycle showrooms. Punjab introduced dealer registration, and FBR extended Tier-1 retailer / POS obligations in 2025-26. This is neither the scrap/ELV centre (C2) nor transport operators (C10)."
+    },
+    {
+     "category": "Private schools, madrassas and tuition academies: registration with provincial school education department, PEFIC/PSRA, fee-regulation and tax approvals",
+     "first_search": "پرائیویٹ سکول رجسٹریشن تجدید پنجاب پرائیویٹ ایجوکیشنل انسٹیٹیوشنز ریگولیٹری اتھارٹی فیس اضافہ منظوری",
+     "why": "Pakistan has hundreds of thousands of small private schools and academies subject to the Punjab Private Educational Institutions (Promotion and Regulation) Authority renewal, fee-increase approvals and the 2025 sales-tax on education services. K03 only covers a bill router, not the registration, renewal and fee-approval duty."
+    },
+    {
+     "category": "Agricultural and dairy small operators: milk shops, dairy farms, poultry farms and feed mills (Punjab Food Authority milk rules, Punjab Livestock/Poultry regulation), plus Zakat/Ushr and agricultural income tax on farmers",
+     "first_search": "زرعی انکم ٹیکس رجسٹریشن ریٹرن کاشتکار پنجاب ریونیو اتھارٹی 2026",
+     "why": "Dairy and poultry are among the biggest small-operator sectors, and the 2025 provincial agricultural income tax (Punjab Agricultural Income Tax Act amendments, registration and returns for farmers) creates a new mass filing duty. Beekeepers and vets are the only agri items touched, and beekeepers were not reached."
+    },
+    {
+     "category": "Retailer registration under FBR Tier-1 / POS integration and the Tajir Dost scheme, plus the Sindh/KP/Balochistan equivalents of provincial licences (Sindh Food Authority, Sindh Healthcare Commission, KP Healthcare Commission)",
+     "first_search": "تاجر دوست اسکیم ٹیئر ون ریٹیلر پوائنٹ آف سیل انضمام ایف بی آر دکاندار رجسٹریشن",
+     "why": "The pass is almost entirely Punjab and federal. Retailers' mandatory POS integration and the Tajir Dost scheme hit millions of small shops, and coverage of Sindh, KP and Balochistan duties is thin, so cross-province versions of the ledger items are missing."
+    }
+   ]
+  },
+  "tag": "w2b37"
+ },
+ "discover:A:pakistan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Auto dismantlers, scrap yards and prospective authorised scrapping facilities in Punjab (federal parts trade also affected)",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://propakistani.pk/2026/07/25/punjab-introduces-new-law-for-end-of-life-vehicles/ (ProPakistani returned 403 to fetch; seen in search snippet); https://www.dawn.com/news/2018180 (fetched: confirms s.74-A, s.74-B, cancellation under s.35, fitness trigger 39-A; rules still to come); https://en.dailypakistan.com.pk/26-Jul-2026/which-cars-will-be-scrapped-in-punjab-under-new-end-of-life-vehicle-law",
+     "existing": "Competitor search (ELV and dismantler query) found no software or service for scrap-yard registers or destruction certificates in Pakistan. No state portal known yet.",
+     "known_mark": "new",
+     "name": "C2. Authorised scrapping-centre and dismantler compliance kit under Punjab's end-of-life vehicle law",
+     "score": 4,
+     "status": "promising",
+     "trigger": "see buyer/trigger fields above",
+     "unchecked": "Final rules (licensing of facilities, certificate of destruction, record-keeping duties, timelines); how many yards will seek authorisation; whether Sindh, KP or federal rules follow; whether the Transport Department will issue its own portal; no Urdu competitor search run."
+    },
+    {
+     "buyer": "Small licensed OEPs (about 2,358 valid licences, per BEOE Jan 2026)",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://beoe.gov.pk/legal-framework; https://beoe.gov.pk/files/legal-framework/Emigration_Rules_1979_Updated_2023.pdf; https://www.brecorder.com/news/amp/40418963 (search snippet, not opened); https://en.dailypakistan.com.pk/13-Jul-2026/relief-for-overseas-job-seekers-as-pakistan-rolls-out-online-e-protector-system",
+     "existing": "Search for OEP software found no OEP back-office product; only the government e-Protector portal and BEOE OEP portal. Many OEPs probably run bespoke or Excel systems (unverified).",
+     "known_mark": "new",
+     "name": "C4. Overseas employment promoter (OEP) licence-validity and case-file compliance tool",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Emigration Ordinance 1979 and Emigration Rules 1979 (updated 2023), federal, administered by BEOE: licence, security, fees, renewal, responses to complaints and show-cause notices (issued July 2026). The e-Protector portal handles emigrant registration.",
+     "unchecked": "What OEPs must file regularly (not just on licence renewal); local competitor products in Urdu; actual pain; whether the license-validity gap (4,685 registered vs 2,358 valid) reflects non-compliance or closures; OEP association reachability (e.g. P@SHA)."
+    },
+    {
+     "buyer": "Households employing domestic workers; also domestic-worker agencies and housing societies",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://wise.pk/advancing-social-security-rights-for-domestic-workers/; https://profit.pakistantoday.com.pk/?p=138280; https://www.dawn.com/news/amp/1824220; https://stateofchildren.com/sindh-assembly-passes-bill-for-legal-cover-to-household-workers/; https://www.zameen.com/news/punjab-govt-introduce-app-tenant-registration.html",
+     "existing": "Competitor search (Urdu and English): only Lahore police verification app (identity checks, not employment compliance) and the PESSI site/app; no letter-of-employment or wage-record tool found.",
+     "known_mark": "new",
+     "name": "C1. Household-employer letter-of-employment and domestic worker registration kit (Punjab, ICT, Sindh)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Punjab Domestic Workers Act 2019 (provincial): letter of employment and PESSI registration; PESSI governing body decided to issue cards and require homeowner registration but the Rules are not notified as of 8 Jul 2026 (WISE). ICT Domestic Workers Act (federal capital) requires a letter copied to the Commissioner's office. Sindh Domestic Workers Welfare Bill 2025 reportedly passed in May 2026, assent unconfirmed.",
+     "unchecked": "Enforcement is near zero (14,717 registered by 2021); households have low willingness to pay; Rules not notified; no inspection culture. Revisit if Rules are notified and enforced."
+    },
+    {
+     "buyer": "Butchers, meat shops and small slaughterhouses in Punjab",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://bloompakistan.com/punjab-launches-massive-drive-to-register-all-slaughterhouses/; https://profit.pakistantoday.com.pk/?p=210160; https://cell.pfa.gop.pk/knowledge-base/pfa-and-butchers-associations-joins-hands-against-substandard-meat",
+     "existing": "PITB Smart Food Licensing System for PFA (free official app and portal, https://pitb.gov.pk/pfa); no third-party butcher compliance software found.",
+     "known_mark": "new",
+     "name": "C3. Meat-shop and small slaughterhouse licence and inspection-readiness tool (Punjab Food Authority)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Punjab Food Authority registration drive for slaughterhouses and meat shops; joint PFA-Livestock inspections; more than 62,000 meat-related units inspected since 1 Aug 2025, 216 sealed, Rs72.2m fines. Lahore shifting to private modern slaughterhouses with legislation pending (date unverified).",
+     "unchecked": "Whether renewals and fines are driven by a recurring register or paper duty (butchers are mostly informal and cash-based); willingness to pay; whether Sindh, KP food authorities mirror this; the free PFA app may cover the job."
+    },
+    {
+     "buyer": "Small goods-transport and passenger fleet owners (Punjab and Sindh)",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://propakistani.pk/2026/09/15/punjab-announces-deadline-for-vehicles-to-get-fitness-certificates/ (search snippet); https://transport.punjab.gov.pk/faqs; https://www.thenews.pk/print/1412906-june-30-set-as-deadline-for-digitisation-of-route-permits-and-fitness-certificates-sharjeel",
+     "existing": "Competitor search found no Pakistani fleet reminder product; government enforcement app exists for on-the-spot checks. Telematics vendors probably serve large fleets (unverified).",
+     "known_mark": "new",
+     "name": "C10. Fitness certificate, route permit and token tax expiry manager for small goods and bus operators",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Punjab Motor Vehicles Ordinance 1965 and Rules 1969 (provincial): fitness certificate under s.39 at PVICS centres, goods carrier permit (3 years) renewed one month before expiry. Punjab PTA announced action from 15 Oct 2026 against vehicles without a valid fitness certificate. Sindh digitised permits by 30 Jun 2026 (manual documents invalid).",
+     "unchecked": "Whether owners already use agents; whether portals expose data; deadline is a one-off; fleets are low-margin; no vendor search of telematics firms."
+    },
+    {
+     "buyer": "Licensed pesticide distributors and fertiliser dealers in Punjab",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://pestwarning-agripunjab.punjab.gov.pk/system/files/Pesticide%20Dealers%20District%20Licencing%20Committee.pdf; https://pitb.gov.pk/node/9337; https://sfri.punjab.gov.pk/fertilizers-registration (fetched: lists Act and SOPs only); https://www.fertilizerdaily.com/20240117-149-fertilizer-dealers-arrested-in-punjabs-market-regulation-drive",
+     "existing": "PITB online distributor registration; SFRI Khad Hisab app (purpose not verified). No private dealer software found.",
+     "known_mark": "new",
+     "name": "C6. Pesticide and fertiliser dealer licence and records tool (Punjab)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Punjab Agriculture Pesticide Rules 2018 (district licensing committees, fee schedule from 5 May 2025); Punjab Fertilizers Control Act 2025 and amended licensing SOPs (text not read); 2024 sale-point enforcement (149 dealers arrested, PLRA staff at sale points).",
+     "unchecked": "Act and SOP text (record-keeping duties, sale registers); what Khad Hisab does; no competitor search run (score under 3)."
+    },
+    {
+     "buyer": "Small factories and mills with boilers and pressure vessels in Punjab",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://icid.punjab.gov.pk/system/files/BOILERS%20AND%20PRESSURE%20VESSELS%20ORDINANCE%2C%202002_0.pdf (search snippet; section details not opened)",
+     "existing": "None searched.",
+     "known_mark": "new",
+     "name": "C7. Boiler registration and annual examination scheduling for small factories",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Punjab Boilers and Pressure Vessels Ordinance 2002 (amended 2013), provincial: registration, annual examination, certificate renewal (s.8), owner duties (s.13), accident reports (s.16).",
+     "unchecked": "Frequency of examination, whether inspections are a real pain point, buyers' count; no lift statute found."
+    },
+    {
+     "buyer": "Small charities, trusts, societies, madrassas",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://profit.pakistantoday.com.pk/2026/05/30/fbr-tightens-registration-rules-for-international-ngos-operating-in-pakistan; https://www.app.com.pk/business/secp-holds-session-on-aml-cft-obligations-for-npos; https://www.brecorder.com/news/amp/71701",
+     "existing": "Consultancy firms (Baco Consultants, ETTC) sell NPO compliance services; no software found (not specifically searched).",
+     "known_mark": "new",
+     "name": "C5. Small NPO and trust compliance file (FBR approval, s.42 AML/CFT, madrassa registration)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "SECP AML/CFT rules for licensed s.42 NPOs; FBR tax-exempt NPO approval; FBR May 2026 rules for foreign NGOs (out of scope); provincial NPO laws; madrassa registration under education department (status unsettled).",
+     "unchecked": "Whether small NPOs have recurring filings; low willingness to pay; madrassa law status; no competitor search (score under 3)."
+    },
+    {
+     "buyer": "Private veterinary clinics and vet medicine shops in Punjab",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://backend.arynews.tv/?p=450856 (search snippet); https://pitb.gov.pk/node/9482 (2023 PITB item on Animal Health Act, ear tags, PAITS).",
+     "existing": "None found.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "C8. Private veterinary clinic and veterinary medical store licensing (Punjab Veterinary Healthcare Commission)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Announced Punjab Veterinary Healthcare Commission (Buzdar-era livestock policy, about 2018-2022); no evidence it exists. Vet-pharma supply side is K01.",
+     "unchecked": "Whether the Commission or Animal Health Act now licenses clinics; timing."
+    },
+    {
+     "buyer": "Small employers, labour contractors and manpower suppliers in Punjab",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://absco.pk/insights/the-punjab-labour-code-2026-a-transformative-shift-in-employment-law-and-workplace-regulation/; https://propakistani.pk/2026/05/30/punjab-strengthens-worker-rights-under-new-labor-law/amp/",
+     "existing": "Generic payroll tools (out of scope); no contractor register tool found. First search returned mostly India's Punjab results.",
+     "known_id": "K10",
+     "known_mark": "new",
+     "name": "C9. Punjab Labour Code 2026 compliance for small employers and contractors",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Punjab Labour Code 2026 (Act IX of 2026, assent 10 Feb 2026), provincial; covers contract employees, gig and domestic workers. Sources disagree on whether it has been notified in the Gazette.",
+     "unchecked": "Notification date, rules on contractor licensing, registers, returns; overlap with K10 (EOBI/PESSI, rejected)."
+    },
+    {
+     "buyer": "Exchange Company B-category firms and authorised money changers",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.sbp.org.pk/press/2023/Pr-25-Sep-2023-1.pdf; https://nukta.com/pakistan-exchange-companies-sell-banks-fy26",
+     "existing": "None searched.",
+     "known_mark": "new",
+     "name": "C11. Exchange company (category B) and money-changer compliance",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "SBP exchange-company regulations; SBP suspended several B-category companies in 2022-2023; FY26 report of at least five exchange-company licence cancellations.",
+     "unchecked": "Count of remaining B-category firms (small), reporting duties, goAML use; likely too few buyers."
+    },
+    {
+     "buyer": "Street vendors (KP first), municipal bodies",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://arynews.tv/street-vendors-protection-bill-2026; https://propakistani.pk/2025/12/13/major-punjab-city-finally-introduces-designated-street-vendor-zones-after-30-years/amp/",
+     "existing": "Official digital certificate (state system).",
+     "known_mark": "new",
+     "name": "C12. Street vendor registration and QR vending certificate support (KP, pending in Punjab)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "KP Street Vendors Protection Bill passed Aug 2026: mandatory registration and digital QR vending certificates; Punjab only has proposals and Faisalabad vendor zones (Dec 2025).",
+     "unchecked": "Vendors are unbanked and low willingness to pay; the state issues the certificate; likely no software role."
+    },
+    {
+     "buyer": "Private driving schools in Punjab",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://tribune.com.pk/story/2619206/unapproved-driving-schools-face-crackdown; https://www.app.com.pk/?p=1249461",
+     "existing": "Punjab Police runs its own Driving Training Schools; online licence applications by the state.",
+     "known_mark": "new",
+     "name": "C13. Driving school registration and compliance (Lahore traffic police, Rule 23 Motor Vehicles Rules 1969)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Rule 23 of the Motor Vehicles Rules 1969; Lahore crackdown on unregistered driving schools in July 2026.",
+     "unchecked": "No recurring reporting duty confirmed; market small."
+    },
+    {
+     "buyer": "Jewellers and bullion dealers (now 'DPMS')",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://propakistani.pk/2026/08/28/gold-dealers-in-pakistan-now-face-tougher-fbr-money-launderin-law/",
+     "existing": "No search re-checked, per contract.",
+     "known_id": "K05",
+     "known_mark": "known",
+     "known_note": "Same buyer group and duty as K05; the August 2026 amendment widens the buyer group to bullion dealers and may help the case for K05.",
+     "name": "K05 fresh evidence: DPMS amendment S.R.O. 1439(I)/2026",
+     "score": 0,
+     "status": "weak",
+     "trigger": "S.R.O. 1439(I)/2026 of 27 Aug 2026 amends FBR AML/CFT DNFBP Regulations 2020: 'Jewellers' replaced with 'Dealers in Precious Metals and Dealers in Precious Stones (DPMS)', bullion dealers included; CDD records must be produced to FBR, law enforcement and FMU on request."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Punjab Domestic Workers Act 2019 (provincial) requires a letter of employment and PESSI registration of workers; PESSI governing body decided on cards and homeowner registration, but a WISE post dated 8 Jul 2026 says cards and Rules are still not notified. ICT Domestic Workers Act (federal capital; year reported as 2021 or 2022, unverified) requires a letter copied to the Commissioner. Sindh Domestic Workers Welfare Bill 2025 reportedly passed May 2026; assent unconfirmed. Only registration tool found is a Lahore police verification app (not an employment-compliance tool). Candidate C1.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "The search returned only Indian results. No Pakistani kabari licence or police-verification rule found. Possible link is the new Punjab end-of-life-vehicle law (see C2).",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No Punjab pawnbroker or second-hand dealer statute found. Phone-register angle is already K13 (rejected). Nothing new beyond K13.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Federal FBR DNFBP regime. S.R.O. 1439(I)/2026 of 27 Aug 2026 replaces 'Jewellers' with 'Dealers in Precious Metals and Dealers in Precious Stones (DPMS)', covering bullion dealers. Nothing new beyond K05, but the amendment is fresh evidence for K05.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Punjab Provincial Motor Vehicles (Third Amendment) Ordinance 2026 (July 2026) inserts Chapter VI-A and s.74-A/74-B: end-of-life vehicles must be scrapped at an authorised private or government facility, with rules to follow. Candidate C2.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Punjab: 112 cattle markets leased by online e-auction (PCMMDC/PITB, Rs 15.35bn in 2025). Government e-Cattle app and portal (June 2025) is free for dealers and buyers. Vaccination-certificate entry rule (Eid advisory 2025). The 2023 Animal Health Act and PAITS ear-tag plan was not confirmed. Nothing actionable beyond free state tools.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Punjab Food Authority registration drive for slaughterhouses and meat shops; more than 62,000 meat-related units inspected since 1 Aug 2025, 216 sealed, Rs72.2m fined; Lahore moving to private modern slaughterhouses. Candidate C3.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No search spent; no known licensing regime. Budget went to higher-signal categories.",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "No private veterinary clinic licensing found for Punjab. Only an old Buzdar-era announcement of a Punjab Veterinary Healthcare Commission, with no evidence it was created. Vet-pharma supply side is K01. Weak candidate C8.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Punjab Water Act 2019 allows groundwater abstraction licences, but the commission and regulator were reportedly not formed. Industrial extraction charges were set by order. No driller registration found. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "No Pakistani licence for sludge haulers found. Punjab EPA Sept 2025 order covers septic tank construction in housing schemes only. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Punjab Boilers and Pressure Vessels Ordinance 2002 (amended 2013): registration, annual examination and renewal, and owner duties. No Punjab lift statute found. Owners are mostly factories. Weak candidate C7.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "No search spent (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Punjab Agriculture Pesticide Rules 2018 with district dealer licensing committees and a fee schedule effective 5 May 2025. PITB runs an online Pesticide Distributor Registration System. The Punjab Fertilizers Control Act 2025 and revised licensing SOPs are listed by SFRI, but the text was not read. SFRI also has a Khad Hisab app. Candidate C6, unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Overseas employment promoters (OEPs) are federally licensed by BEOE. In Jan 2026 the BEOE said 4,685 OEPs were registered but only 2,358 were valid; show-cause notices were issued in July 2026; the e-Protector portal covers emigrant registration, not OEP back-office work. Candidate C4. Punjab Labour Code 2026 (Act IX of 2026, assent 10 Feb 2026) covers contract and domestic workers, but sources conflict on whether it has been notified (C9).",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Nothing found. Shehr-e-Khamoshan model graveyard and a 2017 Authority Act exist; Miani Sahib reportedly planned online grave booking; no mandatory reporting duty found.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "No mandatory NPO registration with SECP (only for s.42 companies, which have AML/CFT rules). Registration is under provincial laws or the Societies Act, and FBR approval is separate. FBR notified stricter rules for foreign NGOs on 20 May 2026 (large or foreign bodies, out of scope). The madrassa registration regime is unsettled. Halal certification bodies are accredited by PNAC under PS 4992:2022, a few bodies with expiry dates in 2026; the Pakistan Halal Authority (PHA) registers them. Weak candidate C5.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Punjab (Pakistan) route permits are required for goods and public vehicles, valid 3 years for goods, renewal by application one month before expiry (PKR 650 plus PKR 300 per month late fee). Fitness certificate is needed from PVICS centres. Punjab PTA announced in Sept 2026 that legal action starts 15 Oct 2026 against vehicles without a valid fitness certificate. Sindh set 30 Jun 2026 for digitised permits and certificates. No fleet reminder software found. Candidate C10 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Street vendors: KP Street Vendors Protection Bill passed Aug 2026 with QR digital vending certificates; Punjab has only proposals and Faisalabad zones (Dec 2025). Vendors have low willingness to pay. Money changers: B-category exchange companies were suspended in 2022-2023 and FY26 cancellations were reported by SBP; no tool angle found. Weak candidates C11 and C12.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Driving schools: Rule 23 of the Motor Vehicles Rules 1969, Lahore traffic police crackdown on unregistered schools (July 2026); small niche (C13, weak). Day care: the Punjab WDD e-portal is for workplace day care programmes, not a general private licence. Small food producers: PFA Smart Food Licensing System by PITB is free and official (app and portal), so covered by the state tool. Tattoo studios: not applicable (no regime found). Hunting outfitters: not reached.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "domestic workers registration Pakistan law Islamabad Punjab Sindh domestic workers act 2024 2025 employer registration",
+    "scrap dealers registration Punjab police verification kabari licence rules 2025",
+    "Punjab Pawn Brokers second-hand dealers registration act Pakistan jewellers FBR DNFBP FMU goAML registration",
+    "Punjab livestock traders cattle markets licence animal transport rules 2025 Punjab Livestock Department digital cattle market",
+    "Punjab Food Authority butchers slaughterhouse licence 2025 meat shops registration modern abattoir",
+    "overseas employment promoters licence Bureau of Emigration new rules 2026 Protector of Emigrants small recruitment agencies compliance portal",
+    "pesticide dealers licence Punjab Agriculture Department pesticide registers sale record 2026 fertiliser dealers licence digital",
+    "boiler inspection Punjab Boilers and Pressure Vessels Ordinance owners annual inspection lift inspection Punjab Lifts and Escalators Act",
+    "NPO registration SECP FBR charities non-profit organizations 2026 mandatory registration annual return AML supervision madrassa trust Pakistan",
+    "Punjab driving schools licence registration rules 2025 private nurseries day care registration Punjab Healthcare Commission veterinary clinics licence",
+    "Punjab Veterinary Healthcare Commission bill licence private veterinary clinics veterinary medical stores registration",
+    "groundwater extraction licence Punjab Water Act 2019 Punjab Water Resources Commission tubewell drillers registration charges commercial",
+    "PESSI domestic workers registration households employers card 2026 social security domestic workers Punjab homeowners must register",
+    "Punjab transport route permit goods transport operators fitness certificate smart vehicle inspection private bus wagon owners Punjab Transport Department 2026 new rules",
+    "exchange companies B category money changers Pakistan State Bank 2026 regulation franchise licence cancelled",
+    "Punjab Labour Code 2026 labour contractors registration third-party contractor licence employer registration portal establishments",
+    "Punjab street vendors licence registration 2026 Lahore hawkers Punjab Street Vendors Act markets traders Tajir Dost",
+    "Pakistan Halal Authority halal certification bodies registration 2025 2026 food exporters halal certificate rules",
+    "fertilizer dealers CNIC sale record Punjab Agriculture Department fertiliser dealers licence registration system 2025",
+    "Punjab end-of-life vehicle scrap policy auto dismantlers old vehicles registration cancellation junkyard car parts dealers Pakistan 2026"
+   ],
+   "searches": 27
+  },
+  "tag": "w2b37"
+ },
+ "discover:B:pakistan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed Umrah group organizers and small travel agents (federal, Ministry of Religious Affairs)",
+     "category": "31. Hajj and Umrah operators",
+     "evidence": "https://propakistani.pk/2026/07/16/pakistan-introduces-new-umrah-rules/ (snippets only, fetch blocked); https://arynews.tv/umrah-services-new-rules-for-pilgrims-in-pakistan; https://en.dailypakistan.com.pk/15-Jul-2026/pakistan-enforces-new-umrah-rules-to-improve-transparency-protect-pilgrims; https://na.gov.pk/uploads/documents/66d70a699d273_382.pdf (Act). Saudi 'No Booking, No Visa' needs a BRN per pilgrim (secondary source: blog.wego.com).",
+     "existing": "Competitor search (travel agency / Umrah software, Pakistan) found no Pakistan-specific vendor. Generic or foreign products: PHPTravels Umrah module, Umrah360 (Pakistan not listed), Odoo Hajj/Umrah add-on by ECOSIRE (from about USD 1,500; Nusuk integration is partner-gated).",
+     "known_mark": "new",
+     "name": "Umrah operator compliance and pilgrim file manager (Nusuk agreement, BRN, bank-payment trail)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Hajj and Umrah (Regulation) Act 2024; July 2026 ministry rules: only verified companies may serve pilgrims, operators must verify Nusuk agreements promptly, payments only through banks, approved operator list published",
+     "unchecked": "Number of licensed operators; licence fee and bank guarantee; whether operators must keep a register or file returns with the ministry; whether Nusuk Masar offers any API; seasonality; willingness to pay."
+    },
+    {
+     "buyer": "Property dealers, real estate agents, builders and developers (federal, FBR DNFBP Directorate)",
+     "category": "28. Notaries, land agents, real estate brokers",
+     "evidence": "https://propakistani.pk/2026/08/28/gold-dealers-in-pakistan-now-face-tougher-fbr-money-launderin-law/ (search snippet; fetch blocked 403); https://propakistani.pk/2022/09/02/fbr-mandates-dnfbp-requirement-for-real-estate-sector/; https://nukta.com/fbr-registration-for-builders-developers; https://fbr.gov.pk/aml-cft-legislation-regulations/152366/152370",
+     "existing": "Competitor search (software, DNFBP, real estate, Pakistan) returned only UAE products and FBR pages; no Pakistani vendor found. FBR red-flag guidance exists.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "Real-estate and builder DNFBP compliance file (registration, CDD, record retention, compliance officer)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "AML Act 2010 and AML/CFT Regulations for DNFBPs 2020 as amended by S.R.O. 1439(I)/2026 (27 Aug 2026) now name builders, developers, title-transferring authorities and brokers; FBR plans to bar regulators from approving projects for builders who lack DNFBP registration and a compliance officer (undated report); development authorities may not deal with unregistered agents (2022)",
+     "unchecked": "Whether DNFBPs file STR/CTR on goAML or another FMU channel; number of registered agents; STR volumes; penalties; whether notaries and accountants are in scope; real willingness to pay among small dealers."
+    },
+    {
+     "buyer": "Licensed private security agencies (provincial Home Departments: Sindh, Punjab, Balochistan, KP)",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://propakistani.pk/2025/07/15/sindh-govt-shuts-down-36-security-companies/amp/; https://www.thenews.pk/print/1402608-home-dept-cancels-licences-of-43-private-security-companies; https://www.techjuice.pk/punjab-introduces-safety-app-feature-for-security-guards/; https://www.pakistantruth.com/punjab-security-guard-registration/ (single, weak source, fetch blocked)",
+     "existing": "Competitor search (security guard registration app/software, Punjab) found only the PSCA Public Safety App guard feature; no commercial agency-management product found. Sindh runs its own EVMS.",
+     "known_mark": "new",
+     "name": "Private security agency licence and guard-verification pack",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Private Security Agencies Regulation and Control Ordinance/Act (provincial): Sindh revoked 43 licences in Mar 2026 and 36 in 2025 and requires guard vetting through its Employee Verification Management System; Punjab guard registration via PSCA app (unverified); Balochistan online portal",
+     "unchecked": "Whether a Punjab guard-registration mandate exists officially; per-province duties and forms; agency numbers in Punjab and KP; whether the state apps replace any third-party tool; payroll and EOBI links (K10 rejected)."
+    },
+    {
+     "buyer": "Retail petrol pump owners/dealers (federal OGRA; provincial VAT in Sindh)",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://propakistani.pk/2026/08/01/pm-orders-fbr-style-fuel-tracking-system-to-curb-hoarding/amp/ (snippet only, fetch blocked); https://www.brecorder.com/news/amp/40432843; https://www.brecorder.com/news/amp/40403048",
+     "existing": "Competitor search (fuel station POS FBR Pakistan) found oscar.pk fuel-station POS, e-invoicing.pk Fuel Station FBR POS, and Sindh VAT features sold by POS vendors. The state will likely supply the tracking system.",
+     "known_id": "K12",
+     "known_mark": "new",
+     "name": "Petrol pump compliance pack for the OGRA digital fuel-tracking mandate",
+     "score": 3,
+     "status": "weak",
+     "trigger": "PM directive (Aug 2026) to OGRA to build an FBR-style real-time fuel tracking system; OGRA Raahguzar app lists legal outlets; OMAP/OGRA/FBR digitalization drive against illegal decanting",
+     "unchecked": "What pumps must install or report and by when; whether a mandatory FBR link exists for pumps; number of pumps; whether the system will be an open API."
+    },
+    {
+     "buyer": "Flour mills and licensed atta chakkis in Punjab (Punjab Food Department, Foodstuffs (Control) Act 1958)",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://profit.pakistantoday.com.pk/2025/04/26/flour-millers-reject-punjab-governments-wheat-stocking-directive-warn-of-industry-disruption; https://www.thenews.pk/print/1418546-punjab-freezes-declared-private-wheat-stocks; https://www.thenews.pk/print/1426098-flour-mills-warn-of-shutdown-over-wheat-permit-suspension; https://tribune.com.pk/story/2617754/pindi-flour-mills-permits-suspension-triggers-protest",
+     "existing": "Competitor search not run in Urdu; the state portal itself is the tool and policy is volatile.",
+     "known_mark": "new",
+     "name": "Flour mill and atta chakki wheat permit and daily ledger helper",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Punjab Wheat Release and Flour Distribution Order 2025; daily wheat purchase and grinding entries in the department's Flour Ledger MIS; June 2026 freeze of declared private stocks; July 2026 permit suspensions for Rawalpindi and Islamabad mills",
+     "unchecked": "Number of mills and chakkis; whether mills keep a parallel internal ledger that needs reconciling; mill software vendors; stability of the rules."
+    },
+    {
+     "buyer": "LPG distributors, dealers and plant operators (OGRA, LPG Rules 2001)",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.brecorder.com/news/525626; https://www.app.com.pk/?p=1237565; https://profit.pakistantoday.com.pk/2020/06/28/ogra-issues-63-lpg-licences-in-first-nine-months-of-fy20",
+     "known_mark": "new",
+     "name": "LPG distributor stock and price-compliance register",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Price publication (rule 18), monthly status reporting by non-operating licensees (2019 advisory), OGRA surprise stock checks and sealing of plants",
+     "unchecked": "No 2026 return format, portal or deadlines found; counts are from 2020; marketers are mid-sized and distributors are tiny."
+    },
+    {
+     "buyer": "Shopkeepers, grain and goldsmith traders with scales (provincial Weights and Measures wings)",
+     "category": "33. Weights and measures verification",
+     "evidence": "https://doi.punjab.gov.pk/node/62; https://www.sindhlaws.gov.pk/setup/publications_SindhCode/PUB-16-000006.pdf",
+     "known_mark": "new",
+     "name": "Weights and measures verification reminders for traders",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Punjab Weights and Measures (International System) Enforcement Act 1975; Sindh code requires verification at least every 12 months (Punjab interval not confirmed)",
+     "unchecked": "Punjab frequency, e-pay portal, fee, penalty levels and enforcement intensity; tiny ticket size."
+    },
+    {
+     "buyer": "Brick kiln owners (provincial EPDs)",
+     "category": "32. Brick kilns",
+     "evidence": "https://www.brecorder.com/news/amp/40089674; https://tribune.com.pk/story/2499136/brick-factories-continue-to-employ-polluting-methods",
+     "known_mark": "new",
+     "name": "Brick kiln owner environmental compliance tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Court-backed zigzag conversion deadlines in Punjab; disputed conversion claims; owners litigating at Lahore High Court",
+     "unchecked": "No 2026 deadline found; sources undated; low willingness to pay; recurring registers are not identified."
+    },
+    {
+     "buyer": "Solar installers and small commercial prosumers (NEPRA, DISCOs)",
+     "category": "34. Solar installers and prosumers",
+     "evidence": "https://digitalpakistan.pk/nepra-overhauls-net-metering-rules-for-solar/; https://www.thenews.pk/print/1412764-nepra-scraps-licence-requirement-for-below-25kv-solar-users",
+     "known_mark": "new",
+     "name": "Solar installer net-billing application filing service",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "NEPRA Prosumer/Net Metering Regulations 2026 (Feb 2026); concurrence fee Rs 1,000/kW above 25 kW; licence requirement for 25 kW or below dropped from 9 Feb 2026 per reports",
+     "unchecked": "Sources conflict on the current rule; a one-off application per installation, not a recurring duty; installer registration; DISCO portals."
+    },
+    {
+     "buyer": "Tile makers, spinning mills and green leaf threshing units (federal)",
+     "category": "35. FBR Track and Trace",
+     "evidence": "https://profit.pakistantoday.com.pk/?p=223202; https://www.brecorder.com/news/580373",
+     "known_mark": "new",
+     "name": "FBR Track and Trace extension: small tile, textile spinning and GLT units",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "FBR plan reported 9 Jan 2026 to extend TTS and electronic monitoring; Rule 150ZF, Sales Tax Rules 2006",
+     "unchecked": "Rollout date; whether units must buy hardware from the licensee; units are mid-sized rather than quiet or small."
+    },
+    {
+     "buyer": "Small construction firms (PEC)",
+     "category": "36. Contractor and consultant licensing",
+     "evidence": "https://www.epads.gov.pk/opportunities/federal/procurements/44699; https://propakistani.pk/2022/10/14/pec-set-to-introduce-amnesty-scheme-for-construction-and-consulting-firms/",
+     "known_mark": "new",
+     "name": "PEC contractor renewal and tender eligibility pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "PEC licence renewal (valid to 30 June, 1 July undertaking under the Registration Policy 2017); tenders require valid PEC registration or proof of renewal",
+     "unchecked": "Crowded with tender-alert and consultant services; no 2026 rule change found."
+    },
+    {
+     "buyer": "Single-doctor clinics, labs and diagnostic centres (Punjab)",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://os.phc.org.pk/licensingfee.aspx; https://punjab.gov.pk/node/2310",
+     "known_id": "K06",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K06 (healthcare-waste/MSDS evidence trail); nothing new.",
+     "name": "Healthcare establishment licensing and MSDS file (Punjab Healthcare Commission)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Punjab Healthcare Commission Act 2010; Licensing Regulations 2020; MSDS"
+    },
+    {
+     "buyer": "Private guesthouses and hotels in Punjab",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://propakistani.pk/2025/05/22/punjab-makes-guest-tracking-mandatory-by-june-15/amp/; https://www.app.com.pk/?p=1086772",
+     "known_id": "K07",
+     "known_mark": "known",
+     "known_note": "Same as K07.",
+     "name": "Hotel Eye guest registration for guesthouses",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Hotel Eye mandatory for private guesthouses by 15 June 2025"
+    },
+    {
+     "buyer": "Rice exporters",
+     "category": "30. Small exporters facing traceability or certification rules",
+     "evidence": "https://profit.pakistantoday.com.pk/2025/07/12/senate-panel-reviews-sharp-drop-in-rice-export-interceptions-after-sps-reforms/; https://www.app.com.pk/domestic/tdap-organizes-seminars-workshops-on-aflatoxin-mrl-management-in-rice-exports/",
+     "known_id": "K04",
+     "known_mark": "known",
+     "known_note": "Same as K04; the new data point is that EU interceptions have dropped sharply (77 in 2024 to 5 through April 2026 in one report), which weakens the urgency.",
+     "name": "Rice exporter MRL and aflatoxin evidence pack",
+     "score": 0,
+     "status": "weak",
+     "trigger": "PNAC-lab testing circular; EU interceptions; TDAP seminars Sep 2026"
+    },
+    {
+     "buyer": "Gold and jewellery dealers (DPMS)",
+     "category": "28. Notaries, land agents, real estate brokers",
+     "evidence": "https://propakistani.pk/2026/08/28/gold-dealers-in-pakistan-now-face-tougher-fbr-money-launderin-law/",
+     "known_id": "K05",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K05; the 2026 amendment is a fresh trigger for K05 but not a new idea.",
+     "name": "Jewellers/DPMS AML compliance (renamed category in S.R.O. 1439(I)/2026)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "S.R.O. 1439(I)/2026, Rs 2 million cash CDD threshold unchanged"
+    },
+    {
+     "buyer": "Private hospitals and clinics empanelled under provincial Sehat Card schemes",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://propakistani.pk/2022/08/22/kp-govt-warns-hospitals-of-suspending-sehat-card-services/amp/",
+     "known_mark": "new",
+     "name": "Sehat Card empanelled private hospital claims reconciliation",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Insurer or state-scheme claims and payment delays (2022 reports only)",
+     "unchecked": "No 2026 data found; hospital size is likely above the quiet segment; the scheme probably runs its own claims portal."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Federal (OGRA, LPG Rules 2001). PM ordered OGRA in Aug 2026 to build an FBR-style real-time fuel tracking system from port to pump, and OGRA runs the Raahguzar app listing legal outlets. Pump-side duties and a deadline are unconfirmed because the article fetch was blocked. FBR POS for fuel stations is already sold by oscar.pk and e-invoicing.pk. LPG: about 200 marketers and 7,000+ distributors (2020 data), price publication duty, no 2026 return format found.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Provincial (Punjab Food Department). Flour mills and licensed atta chakkis need wheat permits under the Punjab Wheat Release and Flour Distribution Order 2025. The state's own Flour Ledger MIS records daily wheat purchased and ground. In June and July 2026 private declared stocks were frozen and Rawalpindi and Islamabad permits were suspended, which gives pain but the state portal is the tool. Candidate recorded as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Provincial (Cooperative Societies Act 1925 as amended, Punjab and Sindh registrars). The English search returned Indian Punjab only. The Urdu search showed only the Act and registrar powers, with no audit deadlines, return formats or software. Nothing new found; no candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Provincial (Punjab Healthcare Commission Act 2010, Licensing Regulations 2020, MSDS). Category III covers single-doctor clinics, labs and diagnostic centres. This is the same buyer and duty as K06, so nothing new beyond K06. Sehat Card Plus claim-delay search returned only 2022 material and Indian results; the claims-billing angle is unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Federal (DRAP Controlled Drugs Division, Ministry of Narcotics Control, ANF, CNS Act 1997). No 2026 precursor licensing or registration scheme found. Quota allocation is by a committee; ANF Punjab page is dated. Retail pharmacies are covered by K15 and K01. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Provincial. Sindh Home Department revoked 36 licences in July 2025 and 43 in March 2026 under the Private Security Agencies ordinance and uses an Employee Verification Management System (302 registered agencies in 2025). Balochistan has an online portal. Punjab: one unverified blog (Apr 2026) says guards must register digitally via PSCA; PSCA does have a Public Safety App guard feature. One candidate recorded. Manpower and cleaning agencies are not covered by K10.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "found": "Federal (PEC). PEC licences are renewed annually with a 30 June validity, and tenders ask for proof of renewal. Contractor-side tender eligibility is crowded and generic. Mining and quarry search returned only Indian Punjab, so provincial mineral rules (Punjab, KP, Balochistan, Sindh) are unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with AML reports",
+     "found": "Federal (FBR DNFBP Directorate, AML Act 2010, AML/CFT Regulations for DNFBPs 2020). S.R.O. 1439(I)/2026 of 27 Aug 2026 renames jewellers to DPMS, keeps the Rs 2 million cash threshold, and expressly covers builders, developers, title-transferring authorities and property brokers. Development authorities may not deal with unregistered agents. One real-estate candidate recorded; jewellers are K05. Notaries and accountants were not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "found": "Provincial (Punjab Home and Tourism departments). Hotel Eye registration was mandatory for private guesthouses from 15 June 2025 and covers local and foreign guests. Same buyer and duty as K07; nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "found": "Federal (TDAP, DPP, PNAC labs). EU interceptions of Pakistani rice fell from 77 (2024) to 38 (2025) and 5 through April 2026 according to one report; other 2024 figures conflict. Rice shipments need MRL, mycotoxin and heavy-metal tests from PNAC-accredited labs; TDAP held MRL seminars in Sep 2026. Rice exporters are K04. Fish and timber exporters were not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Hajj and Umrah operators (Hajj and Umrah (Regulation) Act 2024)",
+     "found": "Federal (Ministry of Religious Affairs). July 2026 rules: only ministry-verified Umrah companies may serve pilgrims, operators must verify Nusuk agreements, an approved list is published, and payments go through banks. A private Hajj portal is proposed in the 2027-2030 policy. One candidate recorded.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Brick kilns (Punjab Environment Protection Department zigzag rules)",
+     "found": "Provincial. Kilns are told to convert to zigzag technology under court-backed deadlines; conversion claims are disputed and no 2026 deadline was found. Owners are numerous but pay little; candidate recorded as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Weights and measures verification (Directorate General Industries, Prices, Weights and Measures)",
+     "found": "Provincial (Punjab Weights and Measures (International System) Enforcement Act 1975). Verification and re-verification against a fee, with e-payment now available. The 12-month interval is confirmed only in the Sindh code. Candidate recorded as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Solar installers and prosumers (NEPRA Prosumer Regulations 2026)",
+     "found": "Federal (NEPRA, DISCOs). The Feb 2026 rules moved net metering to net billing and briefly required NEPRA concurrence for all sizes at Rs 1,000/kW; reports say this was dropped for systems up to 25 kW from 9 Feb 2026, though sources conflict. Installer-specific registration not found. One unverified, weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "35. FBR Track and Trace (Sales Tax Rules 2006 Chapter XIV-B)",
+     "found": "Federal. Covers tobacco, sugar, cement and fertiliser, with plans (Jan 2026) to extend to tiles, textile spinning and green leaf threshing. Units are mid-sized or larger and the licensee supplies the system. Tobacco manual stamping by small manufacturers is a known problem. Candidate recorded as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Contractor and consultant licensing (Pakistan Engineering Council)",
+     "found": "Federal. PEC Registration Policy 2017 allows renewal for 1 to 3 years with an undertaking each 1 July; a July 2026 federal procurement ruling accepted a pending renewal with a payment challan. No 2026 rule change found. Crowded tender-support space; weak.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "OGRA LPG marketer distributor licence monthly returns compliance Pakistan 2026",
+    "Punjab Food Authority flour mills wheat licence stock register 2026 Pakistan",
+    "Punjab Healthcare Commission licence private clinics laboratories requirements 2026",
+    "Pakistan security agencies licence Home Department private security company register guards 2026",
+    "FBR DNFBP real estate agents jewellers AML registration goAML STR 2026 Pakistan",
+    "Punjab Cooperative Societies audit returns registrar (returned Indian Punjab)",
+    "DRAP chemical precursors licence ephedrine acetic anhydride ANF registration dealers 2026",
+    "PEC contractor registration renewal construction 2026 new rules",
+    "Punjab tourism hotels guest houses registration Hotel Eye 2026",
+    "Pakistan rice exporters registration TDAP EU RASFF pesticide residue 2026",
+    "FBR track and trace system sectors small manufacturers licensed 2026",
+    "petrol pumps FBR real-time monitoring fuel stations POS sales tax Pakistan",
+    "Punjab weights and measures verification scales traders annual stamping 2026",
+    "brick kilns zigzag technology registration Punjab EPD deadline 2026",
+    "Umrah tour operators Hajj group organizers licence Ministry of Religious Affairs new rules 2026",
+    "NEPRA net metering solar installers registration licensing Pakistan 2026",
+    "Sehat Card Plus empanelled private hospitals claims delay 2026",
+    "real estate agents property dealers FBR DNFBP registration deadline penalty goAML Pakistan 2026",
+    "Punjab minerals stone crusher quarry lease royalty portal 2026 (returned Indian Punjab)",
+    "Punjab private security companies licence renewal guards verification 2026"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b37"
+ },
+ "escalate:pakistan:GAPS4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no commercial MSDS readiness software or Pakistani consultancy in English searches. I did not search in Urdu, so informal local consultants are not ruled out. Free state alternatives cover much of the core job: PHC publishes MSDS manuals by facility type for download on os.phc.org.pk, trains facility staff on MSDS, and runs the HCE web portal. SHCC launched an online registration and licensing system in June 2025, linked to the Sindh Business One Stop Shop. Third-party MSDS checklists also circulate free on Scribd.",
+   "duty": "Healthcare establishments must register and get a licence from their provincial commission: PHC Act 2010 (Punjab), SHCC Act 2013 (Sindh), KP HCC Act 2015. Punjab: registration, then a provisional licence and the MSDS manual, then up to 6 months to comply before inspection. Full compliance gives a regular licence, partial compliance a conditional one. Fines go up to Rs500,000, or the facility is closed until it complies. PHC set a 31 Jul 2025 MSDS deadline and restarted inspections on 1 Aug 2025. It made over 18,500 inspection visits in a recent fiscal year (April APP report, year not stated) and is nearly through all allopathic facilities. Sindh: a regular licence needs more than 90% compliance and no critical issues, and is valid 5 years. A July 2026 Tribune report found 11 of 18 Karachi facilities unregistered and gave 7-day notices. Recurrence is weak: licence renewal every 5 years plus surprise inspections. There is no regular filing.",
+   "market": "Punjab: 60,690 HCEs registered, public and private (undated PHC board figure). A 2021 figure was more than 64,000 registered and 41,000 licensed. Sindh: 11,802 registration forms, 827 in inspection, and only 86 private facilities with a regular licence (2018-2024, Dawn). KP: 23,041 registered in total, 2,574 new in 2025-26. The claim's '23,041 across KP, Sindh and Punjab' is wrong; that is KP alone. Roughly 95,000 registered across the three provinces, mostly small clinics.",
+   "reason": "The duty is real. Under the PHC Act 2010, SHCC Act 2013 and KP HCC Act 2015, every clinic, lab and dental clinic needs a licence. A regular licence (5 years in Punjab and Sindh) is granted only after an inspection against the MSDS (Minimum Service Delivery Standards). Penalties: fines up to Rs500,000, then sealing. Enforcement rose in 2025-26. I found no commercial readiness software. The PHC gives out its MSDS manuals (about 18-23 standards and 47-74 indicators per facility type) and the staff training free. The claim's 23,041 figure is KP only, not three provinces. The checklist is small and done once every five years, and doctors resent the regime. That points to low willingness to pay and low frequency. Merge with K06.",
+   "searches": 6,
+   "sources": "https://os.phc.org.pk/licensingprocess.aspx ; https://os.phc.org.pk/licensingFAQs.aspx ; https://os.phc.org.pk/MSDS_Download_.aspx ; https://punjab.gov.pk/node/2310 ; https://pakobserver.net/punjabs-hospitals-directed-to-implement-msds-till-july-31/ ; https://www.app.com.pk/?p=1201227 ; https://pk.dental-tribune.com/news/sindh-healthcare-commission-outlines-dentist-registration-and-licensing-process/ ; https://www.dawn.com/news/amp/1926771 ; https://tribune.com.pk/story/2619029/cracks-in-care-healthcentres-fail-shcc-inspections ; https://tnnenglish.com/annual-report-shows-sharp-rise-in-crackdown-on-illegal-healthcare-facilities-in-kp ; https://galluppakistandigitalanalytics.com/punjab-healthcare-commission/ ; https://www.brecorder.com/news/amp/40130061",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b37"
+ },
+ "gapfill:pakistan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Landholders and orchard owners above the exempt threshold, farm companies, and the roughly 15,000 tax practitioners in the Pakistan Tax Bar Association who file for them",
+     "category": "35. Agricultural and dairy operators and agricultural income tax",
+     "evidence": "https://pkrevenue.com/ptba-punjab-agricultural-income-tax-return-deadline/ (fetched); search snippets from https://www.ict.edu.pk/blogs/agricultural-income-tax-punjab-2026 , https://profit.pakistantoday.com.pk/?p=210529 (Sindh portal; fetch blocked), https://www.brecorder.com/news/amp/40158515 (fetch blocked)",
+     "existing": "No filing software or named consultant service for Punjab AIT found in the targeted search (results were Indian ITR services). The official online system exists but practitioners complain about it.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "Punjab agricultural income tax return filing and error-correction assistant for farmers and tax practitioners",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Punjab Agricultural Income Tax Act 1997 as amended 2024; Tax Year 2026 is the first year of online return filing, deadline 30 Sep 2026. The Tax Bar Association asked for an extension to 31 Oct 2026 and flagged no mechanism to correct errors or complete missing data. A recurring annual duty with penalties for non-filing (raised in the 2024 amendment). The Sindh Revenue Board also has a separate online AIT portal, so a multi-province version is possible.",
+     "trigger_note": "",
+     "unchecked": "Name and workings of the Punjab portal; whether it takes bulk or practitioner logins; number of actual filers (the 12.5-acre and Rs 600,000 exemptions may shrink the base); whether the deadline was extended; penalty size; the rate dispute (April 2026 Speaker ruling reported by one blog, unverified); whether PLRA data auto-fills returns, which would cut the value; competitor search not run because the budget was spent."
+    },
+    {
+     "buyer": "Private owners of filtration and bottled-water plants in Punjab, many one-person operators; Rawalpindi alone had 246 private plants",
+     "category": "13. Small water systems",
+     "evidence": "https://www.app.com.pk/domestic/pfa-issues-new-sops-for-commercial-water-filtration-plants/ ; https://www.app.com.pk/?p=1282999 ; https://www.app.com.pk/?p=1276627 ; https://propakistani.pk/2026/09/12/punjab-sets-deadline-for-700-water-filtration-plants/ (search summary; fetch blocked 403)",
+     "existing": "None seen; the PFA portal itself takes uploads. Not checked beyond that.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Commercial and community water filtration plant compliance pack (PFA monthly lab tests, evidence upload, licence file)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Punjab Food Authority SOPs for commercial water plants: monthly tests from PFA-approved labs, filter replacement, evidence uploaded to the PFA portal; plants sealed for failed samples or missing licence, staff medicals and lab records. Punjab decided to outsource 5,180 government plants with lab testing, adding a contractor-side reporting layer.",
+     "unchecked": "Exact PFA portal workflow and whether it is free and easy; operator count and spend; whether labs already send results straight to the portal; competitor search not run."
+    },
+    {
+     "buyer": "Small private schools and academies (Punjab has a very large number; Islamabad is PEIRA-regulated)",
+     "category": "34. Private schools, madrassas and tuition academies",
+     "evidence": "https://propakistani.pk/2026/07/30/punjab-agrees-on-major-changes-to-the-private-school-system/ (search summary; fetch blocked) ; https://propakistani.pk/2026/02/16/islamabad-introduces-online-system-for-private-school-registration/amp/ ; https://pepris.pesrp.edu.pk/support ; https://www.app.com.pk/?p=1282995",
+     "existing": "Free official portals (PEPRIS, PEIRA); general school-management vendors (e.g. OpenEduCat) claim the formats. No dedicated registration-tracker found.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "Private school registration, renewal and fitness-certificate tracker for Punjab and Islamabad",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Punjab registration via PEPRIS with annual fees; July 2026 agreement to move to four-year registration with a tuition-linked fee and simpler building-fitness certificates, law pending. Islamabad PEIRA: online-only registration and renewal from 10 Feb 2026, renewal window 1 Mar to 30 Apr yearly, optional three-year renewal.",
+     "unchecked": "I found no fee-increase approval regime; the 2025 education sales-tax filing duty was not confirmed; frequency is low (four-year cycle if the reform passes), so willingness to pay is doubtful; competitor search not run."
+    },
+    {
+     "buyer": "Small private clinics, labs, dental and aesthetic clinics: 23,041 registered in KP, Sindh and Punjab commissions with the same pattern",
+     "category": "36. Sindh, KP, Balochistan provincial licences (Healthcare Commissions)",
+     "evidence": "https://tnnenglish.com/annual-report-shows-sharp-rise-in-crackdown-on-illegal-healthcare-facilities-in-kp ; https://pk.dental-tribune.com/news/sindh-healthcare-commission-outlines-dentist-registration-and-licensing-process/ ; https://pk.dental-tribune.com/news/shcc-seals-10-illegal-aesthetic-clinics-in-dha-karachi-crackdown/ ; https://tribune.com.pk/story/2443961/lhc-directs-phc-to-establish-body-for-regular-licenses-halt-provisional-license ; https://os.phc.org.pk/licenseRenewal_Revoc.aspx",
+     "existing": "Official portals only (PHC HCE web portal, SHCC online system); I found no commercial readiness tool.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "name": "Healthcare Commission licence-readiness and MSDS inspection file for small clinics, labs and dental or aesthetic clinics (Sindh, KP, Punjab)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Sindh Healthcare Commission Act 2013 (registration, provisional licence, then regular licence after MSDS training and inspection, 5-year validity; notices then penalties then sealing); KP HCC (2,574 registered and 154 fully licensed in 2025-26, Health Policy 2026 to strengthen it); Punjab Healthcare Commission (5-year licence, inspection against MSDS; Lahore High Court told the Commission to stop leaving facilities on provisional licences).",
+     "unchecked": "Whether a clinic would pay for a compliance file beyond K06's waste angle; the MSDS checklist size per facility type; deadlines in 2026 (none found); competitor search not run; overlap with K06 (waste and MSDS evidence for Punjab) should be merged by the verifier."
+    },
+    {
+     "buyer": "Authorised new-vehicle dealerships in Punjab (about 102 licensed under DVRS, 96 of them motorcycle dealers)",
+     "category": "33. Motorcycle, rickshaw and used-vehicle dealers",
+     "evidence": "https://propakistani.pk/2026/07/17/punjab-introduces-new-requirement-for-vehicle-registration/ (search snippet; fetch blocked) ; https://www.pakwheels.com/blog/punjab-new-vehicle-registration-before-delivery/",
+     "existing": "The Excise system itself is the tool; manufacturer dealer systems likely cover it.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Punjab Dealer Vehicle Registration System (DVRS) workflow for motorcycle and car dealerships",
+     "score": 2,
+     "status": "weak",
+     "trigger": "July 2026 Punjab Excise directive: no new vehicle may leave a showroom unregistered; dealers register through DVRS and charge a service fee of Rs 500 to 4,000 per vehicle.",
+     "unchecked": "Small buyer base; no licence regime for used-car or rickshaw showrooms found."
+    },
+    {
+     "buyer": "Licensed customs agents and their small firms",
+     "category": "32. Afghan transit trade, border and informal importers",
+     "evidence": "https://propakistani.pk/2022/03/25/fbr-tightens-procedure-for-customs-agent-licenses/ ; https://download1.fbr.gov.pk/Tenders/2026551151037851ADVERTISEMENTCAExams.pdf ; https://download1.fbr.gov.pk/Docs/2026331103462842SRO517.pdf ; https://thestandard.com.pk/processing-fee-imposed-on-items-imported-via-afghan-transit-trade-agreement/",
+     "existing": "PSW covers GD processing.",
+     "known_id": "K09",
+     "known_mark": "known",
+     "name": "Customs clearing-agent licence, training and activity tracker (renewal every two years, no-GD-in-a-year cancellation risk)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Customs Rules 2001 r.91 licensing (competitive, 2026 intake); two-year renewal, half-yearly training with cancellation for two missed modules; draft 2026 SROs amending transit and warehousing rules.",
+     "unchecked": "Small population; the renewal duty is light. Same buyer and core duty as K09 (a different licence-maintenance angle, but weak)."
+    },
+    {
+     "buyer": "Tier-1 retailers: about 11,800 of the 37,122 integrated branches; small shops fall outside the rule",
+     "category": "36. Retailer FBR Tier-1 / POS and Tajir Dost",
+     "evidence": "https://www.fbr.gov.pk/pos-integrated-retailers/163085/163089 ; https://www.xstak.com/blog/fbr-pos-integration-guide-for-retailers ; https://profit.pakistantoday.com.pk/2025/03/24/fbr-considering-new-registration-scheme-for-shopkeepers-after-tajir-dost-failure",
+     "existing": "Vendors such as Xstak and licensed integrators already sell POS integration; large and mid-sized buyers; Tajir Dost registered about 70-75k of a 3.5 million target and I found no 2026 mass-retailer extension.",
+     "known_id": "K12",
+     "known_mark": "new",
+     "name": "FBR Tier-1 retailer POS integration support (onboarding, per-invoice reporting, penalty-risk tracking)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Sales Tax Act s.3(9A) and the 2023 Tier-1 SRO; input-tax cut of up to 60 percent and penalties Rs 0.5 to 3 million, then sealing, for non-integration; Rs 1 per invoice charge.",
+     "unchecked": "Whether FBR will widen Tier-1 to small shops; thresholds conflict across sources."
+    },
+    {
+     "buyer": "Milk shops, dairy units and small food businesses; Sindh Food Authority targets about 600,000 food businesses",
+     "category": "35. Agricultural and dairy operators; 36. Sindh Food Authority",
+     "evidence": "https://dailytimes.com.pk/563860/pfa-seals-dairy-units-ice-factory-for-storing-adulterated-milk/ ; https://www.app.com.pk/?p=1205221 ; https://www.app.com.pk/?p=1222874 ; https://www.brecorder.com/news/amp/40408659",
+     "existing": "Not searched; food-authority inspection checklists are generic, and this category belongs mainly to another worker (small food producers).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Food-licence record file for milk shops and small food outlets (Punjab Food Authority and Sindh Food Authority)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "PFA Act 2011 and Sindh Food Authority licensing: inspectors cite missing mandatory records, employee medical certificates and training certificates; shops are sealed or fined and FIRs registered after failed milk samples. SFA issued about 10,000 licences in Karachi and plans e-challans and help desks.",
+     "unchecked": "Whether any app already digitises the PFA/SFA checklist; willingness to pay of a milk shop; competitor search not run."
+    },
+    {
+     "buyer": "Cigarette wholesalers and kiosks",
+     "category": "31. Tobacco, cigarette and pan/gutka retailers and small distributors",
+     "evidence": "https://ipor.com.pk/uploads/6974613ed7f30.pdf ; https://www.thenews.pk/print/1395111-only-22-of-477-cigarette-brands-comply-with-track-and-trace-rules ; https://fbr.gov.pk/registered-tobacco-brands/152962/173717",
+     "existing": "None found.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "Cigarette and tobacco retailer or wholesaler tracking-stamp compliance",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "FBR Track and Trace (Sales Tax Act s.40E, tax stamp with UIM). Duty sits on manufacturers; the Minister said retail enforcement belongs to provincial governments; a January 2026 IPOR survey found 286 of 413 retail brands had no stamp.",
+     "unchecked": "No retailer or distributor registration or filing duty found, so there is no workflow to automate; provincial retail rules and pan/gutka rules not checked."
+    },
+    {
+     "buyer": "Small apiaries and honey sellers",
+     "category": "8. Beekeepers",
+     "evidence": "https://tdap.gov.pk/wp-content/uploads/2022/03/3.1-REPORT_ON_HONEY.pdf ; https://startup.pk/tamman-farms-reestablishing-organic-honey-in-pakistan/ (search results only)",
+     "existing": "None.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Beekeeper registration or honey-sale compliance",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "PFA notices to honey manufacturers under PFA Act 2011; PSQCA honey standard. No beekeeper licence or register found.",
+     "unchecked": "Provincial livestock/agriculture apiary programmes and honey export certification were not checked."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "8. Beekeepers",
+     "found": "No beekeeper registration or licensing regime found in two searches (English and Urdu). Only Punjab Food Authority notices to honey manufacturers under PFA Act 2011 (SOPs, market sampling), a PSQCA honey standard (2012) and the Honeybee Research Institute Islamabad. No recurring register or report for small apiaries. Nothing buildable; unchecked: provincial livestock/agri department apiary schemes and TDAP honey export registration.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "PCRWR tests but does not license. Punjab Food Authority regulates commercial filtration plants: new SOPs require monthly tests from PFA-approved labs, filter replacement and evidence uploaded to the PFA portal; repeated sealing of plants for failed samples or missing food licence and staff medicals. Punjab Saaf Pani / Clean Water Programme is installing government plants (700 in Rawalpindi Division by 30 Nov 2026; 1,886 projects province-wide; Rawalpindi alone has 246 privately operated plants). See candidate C2.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Tobacco, cigarette and pan/gutka retailers and small distributors (FBR Track and Trace / excise stamps)",
+     "found": "FBR Track and Trace (Sales Tax Act s.40E brand registration, tax stamps with UIM) binds manufacturers. A January 2026 IPOR survey of 1,520 retail outlets found only 19 of 413 brands fully compliant. The Minister of State for Finance said retail enforcement falls to provincial governments. I found no wholesaler or retailer registration duty and no recurring filing, so there is no small-operator workflow to build on. Unchecked: provincial excise or food-authority retail rules, and pan/gutka specifics.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Afghan transit trade, border and informal importers: customs-agent licensing and small cross-border traders",
+     "found": "Customs agent licences are competitive under Customs Rules 2001 r.91 (2026 intake: scrutiny 10 Jun 2026, IBA-run exam); initial two-year non-transferable licence renewable every two years; half-yearly training; a licence can be blocked or cancelled if no GD is filed in a year (a report whose date is unclear). Draft SROs 517(1), 525(1) and 1066(I) of 2026 amend the Transshipment Rules 1969 and Customs Rules r.510; April 2026 reports mention a processing fee on Afghan transit imports and validity extensions of expired transit documents. The licensed-agent population is small (a few thousand) and PSW already covers GD work (K09). No small-importer-specific licence or bond duty found. See C6.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Motorcycle, rickshaw and used-vehicle dealers (Excise registration, token tax, dealer licensing, POS)",
+     "found": "July 2026 Punjab Excise directive (DG Excise): every new vehicle must be registered before delivery, done by authorised dealers through the Dealer Vehicle Registration System (DVRS). Only about 102 dealerships hold DVRS licences (about 96 motorcycle, 6 car). Service charge reportedly Rs 500 to 1,000 for motorcycles and Rs 2,000 to 4,000 for cars (reports conflict). Car dealers objected to licensing every showroom. No licensing or register regime found for used-car or rickshaw showrooms, and no new FBR POS rule specific to dealers. See C5.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Private schools, madrassas and tuition academies (registration, renewal, fee approval, tax)",
+     "found": "Punjab: registration via the PEPRIS portal (fees reportedly Rs 5,000 or 7,000 registration, Rs 500 or 1,000 annual; undated manual). July 2026: School Education Department and the private-school association agreed in principle to four-year registration, simpler building-fitness certificates and a fee linked to tuition (Rs 10,000 at Rs 1,500 monthly fee up to Rs 1 million above Rs 20,000); law still to be drafted, expected from next academic year. Islamabad: PEIRA online-only registration and renewal from 10 Feb 2026, renewal window 1 Mar to 30 Apr yearly. I found no fee-increase approval regime or education sales-tax filing detail. See C3.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Agricultural and dairy operators (milk shops, dairy and poultry farms, feed mills) and agricultural income tax",
+     "found": "Strongest finding: Punjab Agricultural Income Tax returns for Tax Year 2026 are filed online for the first time (Board of Revenue Punjab, Punjab AIT Act 1997 as amended Nov 2024, rules amended Mar 2025). Deadline 30 Sep 2026. The Pakistan Tax Bar Association asked for an extension to 31 Oct, citing no way to correct errors or complete information; the grant is unconfirmed. Reports say filing is linked to Punjab Land Record Authority data under self-assessment. Sindh Revenue Board also has an online AIT portal. Individual relief reportedly up to 12.5 acres and the first Rs 600,000 of income, and the 2026-27 budget proposed per-acre changes. Milk shops: Punjab Food Authority mass sampling and sealing, inspectors cite missing records, staff medical and training certificates. Nothing found on poultry-farm or feed-mill regulation. See C1 and C4.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Retailer FBR Tier-1 / POS and Tajir Dost, plus Sindh, KP and Balochistan provincial licences (Sindh Food Authority, Sindh Healthcare Commission, KP Healthcare Commission)",
+     "found": "Tier-1 POS (Sales Tax Act s.3(9A); 2023 SRO, 236H withholding above Rs 100,000 test, area and electricity tests): FBR list to 30 Jun 2026 shows 13,454 integrations, 37,122 branches, 11,798 Tier-1 retailers; Rs 1 per invoice charge; thresholds conflict across sources; small shops not covered, and I found no 2026 extension. Tajir Dost ran 2024 with about 70-75k registrations against a 3.5 million target and FBR considered a replacement in March 2025. Sindh: SHCC has an online clinic licensing system (June 2025), seals unregistered clinics and aesthetic clinics; Sindh Food Authority issued about 10,000 licences in Karachi and targets about 600,000 food businesses across Sindh (Sep 2026). KP Healthcare Commission: 23,041 registered facilities by 30 Jun 2026, only 154 fully licensed in the year. Punjab Healthcare Commission: 5-year licences, provisional to regular via inspection against MSDS. Balochistan: not reached. See C4, C7, C8.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "Pakistan beekeeping honey registration licence beekeepers law Punjab",
+    "Pakistan water supply scheme registration testing PCRWR water filtration plant licence Punjab Safe Water Authority",
+    "ٹریک اینڈ ٹریس تمباکو ڈسٹری بیوٹر ریٹیلر رجسٹریشن ایف بی آر 2026",
+    "کسٹمز ایجنٹ لائسنس تجدید چھوٹے درآمد کنندگان افغان ٹرانزٹ ٹریڈ نئے قواعد 2026",
+    "موٹر وہیکل ڈیلر لائسنس ایکسائز پنجاب شوروم رجسٹریشن نیا قانون 2026",
+    "پرائیویٹ سکول رجسٹریشن تجدید پنجاب پرائیویٹ ایجوکیشنل انسٹیٹیوشنز ریگولیٹری اتھارٹی فیس اضافہ منظوری",
+    "زرعی انکم ٹیکس رجسٹریشن ریٹرن کاشتکار پنجاب ریونیو اتھارٹی 2026",
+    "تاجر دوست اسکیم ٹیئر ون ریٹیلر پوائنٹ آف سیل انضمام ایف بی آر دکاندار رجسٹریشن",
+    "FBR tracking tobacco cigarette wholesalers retailers registration track and trace 2026 Pakistan stamps",
+    "شہد کی مکھی پالنے والے رجسٹریشن لائسنس شہد فوڈ اتھارٹی پاکستان مکھی پال",
+    "Sindh Healthcare Commission registration clinics KP Healthcare Commission licence deadline 2026 Sindh Food Authority licence",
+    "Punjab Food Authority milk shops dairy licence 2026 poultry farm feed mill regulation Punjab",
+    "FBR POS retailers Tier-1 2026 new category shopkeepers mandatory POS integration small retailers deadline",
+    "Punjab agricultural income tax return online filing tax year 2026 farmers portal Board of Revenue deadline",
+    "Punjab 700 water filtration plants Rawalpindi deadline Punjab Food Authority licence lab testing Saaf Paani",
+    "private school management software Pakistan fee voucher PEIRA registration PEPRIS Punjab",
+    "agricultural income tax return filing service software Pakistan farmers Punjab AIT e-filing portal tax consultants",
+    "Punjab Healthcare Commission licence clinics hospital renewal 2026 Sindh SHCC licence fee unregistered clinics sealed software"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b37"
+ },
+ "opus:pakistan:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "English searches for Pakistani scrapping-centre, certificate-of-destruction or dismantler software found nothing. The Urdu search found news coverage only. No Punjab Transport Department portal has been announced yet. The risk is a state-run system: in Indian states the scrapping-centre certificate is issued inside the transport department's own vehicle software (the Chhattisgarh example). Punjab could do the same through its e-registration and fitness systems, leaving little room for third-party compliance software.",
+   "duty": "Punjab Provincial Motor Vehicles (Third Amendment) Ordinance 2026, promulgated by the governor in late July 2026 and in force immediately. It inserts Chapter VI-A into the Provincial Motor Vehicles Ordinance 1965 (ss.74-A/74-B). Vehicles whose registration lapsed or was cancelled under s.35, that fail fitness or emission checks under s.39-A, or that are written off must be scrapped at a private authorised or government facility. Scrapping covers depollution, dismantling, parts recovery and crushing. The duties on facilities (licensing, certificate of destruction, registers, reporting frequency, penalties) are left to rules that were not yet notified in any source found as of the latest coverage (Aug 21, 2026); no gazette notification of rules was found. No report of the Punjab Assembly passing a replacement bill was found. Ordinances usually lapse unless replaced, which would be around late Oct 2026 (not verified). The duty on the businesses themselves is therefore not yet defined: not_reached.",
+   "market": "No register or statistic of dismantlers or scrap yards in Punjab was found. Large informal clusters exist: Bilal Gunj in Lahore (no shop count found) and Sultan Ka Khoo in Rawalpindi (reported 900+ spare-parts shops). Most are informal parts dealers, not prospective authorised facilities. The number of facilities that will seek authorisation is unknown and likely small (tens) at first.",
+   "reason": "The law exists: the Provincial Motor Vehicles (Third Amendment) Ordinance 2026 adds Chapter VI-A on end-of-life vehicles. But the rules on licensing scrapping facilities, certificates, record-keeping, timelines and penalties had not been issued in any coverage up to Aug 21, 2026, and no authorised facility exists yet. It is still an ordinance; no Assembly bill passed was found. Pakistani ordinances normally lapse unless the legislature replaces them, so the law could expire. No Pakistani software or state portal was found, but the transport department may well build its own system, as Indian states did. Few small yards will seek authorisation. Too early to score higher: watch for the rules and whether the ordinance becomes an Act.",
+   "searches": 6,
+   "sources": "https://www.dawn.com/news/2018180 ; https://minutemirror.com.pk/punjab-moves-to-scrap-old-polluting-vehicles-615495/ ; https://minutemirror.com.pk/punjab-introduces-new-vehicle-scrapping-law-for-unfit-and-damaged-cars-598735/ ; https://propakistani.pk/2026/08/21/punjab-to-scrap-old-vehicles/ ; https://propakistani.pk/2026/07/25/punjab-introduces-new-law-for-end-of-life-vehicles/ ; https://en.dailypakistan.com.pk/26-Jul-2026/which-cars-will-be-scrapped-in-punjab-under-new-end-of-life-vehicle-law ; https://www.techjuice.pk/?p=245278 ; https://www.app.com.pk/domestic/rawalpindis-old-auto-parts-markets-where-affordability-meets-unseen-deals/ ; https://en.wikipedia.org/wiki/Bilal_Gunj ; https://www.drishtiias.com/state-pcs-current-affairs/transport-minister-inaugurated-the-state-first-registered-vehicle-scrapping-centre/print_manually",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b37"
+ },
+ "opus:pakistan:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no commercial OEP or manpower-agency compliance software in Pakistan, in English or Urdu searches. State tools cover the core per-case workflow: the BEOE OEP Licence Profile Management System (2018), the OEP Permission Management System (2018, which auto-posts job demands), the BEOE OEP Portal, and the e-Protector portal (2026). Agencies such as Pakistan Progressive Associates and Asil describe their own in-house pipelines. Generic ERPs (Odoo, Ramco for GCC manpower firms) exist but have no BEOE module. Not checked: small local software houses selling to OEPs informally.",
+   "duty": "Federal Emigration Ordinance 1979 and Emigration Rules 1979 (updated 2023, S.R.O. 1058(I)/2023), administered by BEOE. Per the BEOE FAQ (search snippet), a licence is valid for 3 calendar years. Renewal is on Form 3 through the Protector of Emigrants, at least 1 month before expiry, at Rs15,000 per year plus a Rs1,000 late fee. The renewal period depends on workers sent in the last 3 years: 50 or more gives 3 years, 10-49 gives 2 years, fewer than 10 gives 1 year. The Director-General can refuse renewal for misconduct, poor performance or breaches. Penalties include suspension, cancellation and loss of the security deposit. The BEOE news feed shows suspensions and show-cause notices to OEPs (e.g. Jul-Aug 2025). The per-worker demand-permission and emigrant protector registration are recurring, but they run on BEOE systems. Not reached: whether the Rules require periodic returns or registers. Both copies of the Rules failed to open (BEOE PDF returned 403; the FIA PDF could not be read).",
+   "market": "4,685 OEPs registered with BEOE. Of these, 2,358 held valid licences in January 2026; 1,256 had expired, 724 surrendered, 172 cancelled and 148 were invalid (Aaj TV report quoting BEOE). The high expiry and surrender numbers suggest closures as well as lapses. About 762,499 emigrants registered in 2025, so the case volume is concentrated in active OEPs.",
+   "reason": "The duty is real and current under Pakistan's Emigration Ordinance and Rules 1979 (updated 2023). A licence lasts up to 3 calendar years. Renewal is on Form 3, filed at least a month before expiry, at Rs15,000 a year plus a late fee. Weak performance shortens the renewal to 1 or 2 years, and misconduct can mean refusal, suspension or loss of the security deposit. BEOE issues show-cause notices often. I found no commercial OEP back-office software. However, the per-worker steps (demand permission, emigrant registration, e-Protector) already run on BEOE's own OEP portal and permission system. So the leftover job is renewal reminders plus case files: infrequent and low value. I could not confirm any other recurring returns because both copies of the Rules failed to open. About 2,358 valid licences: a small market that pays little.",
+   "searches": 6,
+   "sources": "https://english.aaj.tv/news/30290818 ; https://beoe.gov.pk/faqs ; https://beoe.gov.pk/legal-framework ; https://beoe.gov.pk/files/legal-framework/Emigration_Rules_1979_Updated_2023.pdf (403, not opened) ; https://beoe.gov.pk/events?page=3 ; https://beoe.gov.pk/news-updates?page=105 ; https://www.techjuice.pk/pakistan-moves-to-digitalize-overseas-employment-payments-and-crack-down-on-exploitation/ ; https://pakobserver.net/protector-process-goes-digital-in-major-relief-for-pakistanis-seeking-jobs-abroad/ ; https://www.goodfirms.co/company/pakistan-progressive-associates ; https://asil.com.pk/overseas-recruitment/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b37"
+ },
+ "opus:pakistan:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The core pilgrim-file workflow (contracting, visa submission, permits, pre-arrival data, transport orders) runs inside Saudi Arabia's mandatory Masar Nusuk / Nusuk business platform, which is free. I found no public API, so third-party tools can only sit beside it as a CRM or back office. On the Pakistan side, MoRA has a dedicated wing that verifies Umrah agreements and publishes the approved list itself. Generic or foreign tools exist: PHPTravels Umrah module, Umrah360 (it advertises 'Umrah Nusuk Information'), and the ECOSIRE Odoo Hajj/Umrah add-on (from USD 1,500). I found no Pakistan-specific compliance tool, but the compliance layer it would serve is thin.",
+   "duty": "Partly confirmed. The Hajj and Umrah (Regulation) Act 2024 (Act XVII of 2024) is enacted: gazetted 30 Aug 2024 and in force at once. Its table of contents lists registration criteria, operator liability, complaint and appellate committees, blacklisting and a Penalty section. I could not read the operative text because the PDF pages are image-based. In July 2026 the Ministry of Religious Affairs (MoRA) issued a notification: only ministry-approved companies may serve Umrah pilgrims, operators must promptly verify their Nusuk agreements, and an approved list will be published. One report says the policy takes effect only after federal cabinet approval. Payment through banks and keeping receipts is advice to pilgrims, not an operator filing duty. I found no recurring return, register or reporting duty to MoRA. The Pakistan-side duty is effectively a yearly approval and agreement verification, and no concrete Pakistani penalty is stated beyond complaints and blacklisting. On the Saudi side, Ministry of Hajj and Umrah contract terms require agents to contract digitally through Masar Nusuk each season. They also require Saudi Umrah companies (and possibly agents) to enter pre-arrival data in the Nusuk business platform no more than 24 hours before arrival. That is the real operational workflow.",
+   "market": "Small. An older MoRA figure, undated in the results, is about 600 companies registered for Umrah operations. The verified lists were 37 in Sep 2024, 53 in the first phase of Aug 2025, and 113 approved companies in Sep 2025. I found no 2026 count. Sub-agents and unregistered agents are more numerous but are not the ones carrying the duty.",
+   "reason": "The regulation is real but the recurring Pakistani compliance task is thin. It amounts to yearly MoRA approval and verification of the Nusuk agreement, with no reporting or register duty found and no clear penalty beyond complaints and blacklisting. The day-to-day pilgrim-file work runs in Saudi Arabia's mandatory, free Masar Nusuk system, which publishes no API, so an MVP can't automate the core job. Verification is done by a MoRA wing, not the operators. The market is small: about 113 approved firms in 2025 and about 600 registered historically. Generic Umrah back-office tools (PHPTravels, Umrah360, the Odoo add-on) already cover the operations side. Pain is moderate and seasonal, and willingness to pay is unproven. I couldn't read the Act's penalty and registration sections.",
+   "searches": 5,
+   "sources": "https://arynews.tv/umrah-services-new-rules-for-pilgrims-in-pakistan ; https://en.dailypakistan.com.pk/15-Jul-2026/pakistan-enforces-new-umrah-rules-to-improve-transparency-protect-pilgrims ; https://www.techjuice.pk/govt-tightens-umrah-oversight-with-new-regulatory-framework/ ; https://na.gov.pk/uploads/documents/66d70a699d273_382.pdf ; https://www.app.com.pk/?p=10563 ; https://arynews.tv/tag/umrah-companies ; https://propakistani.pk/2024/09/25/ministry-of-religious-affairs-issues-list-of-verified-umrah-operators/amp/ ; https://www.app.com.pk/?p=1209245 ; https://media1.haj.gov.sa/Uploads/Documents/409.pdf ; https://phptravels.com/features/umrah ; https://www.linkedin.com/showcase/umrah360/ ; https://ecosire.com/ur/apps/odoo/hajj-umrah-management",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b37"
+ },
+ "opus:pakistan:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Pakistani AML/CDD software vendor for real estate DNFBPs. The only products found were UAE ones (amluae.com) and LSEG World-Check (enterprise, high price). Free state tools cover part of the job: the FBR DNFBP portal (registration and questionnaire), FMU goAML (STR/CTR filing), FBR's sanctions screening page, and simplified Urdu/English CDD forms. FBR also cut real estate reporting to four standards and sent teams to realtor associations. So the record-keeping and CDD file workflow is not automated by anyone, but the state's simplification lowers the pain.",
+   "duty": "AML Act 2010 s.7A and the FBR AML/CFT Regulations for DNFBPs 2020 (SRO 924(I)/2020), with sanctions under SRO 950(I)/2020, require real estate agents to register with the FBR DNFBP Directorate. They must also do CDD on property purchases and sales, keep records, screen against targeted financial sanctions, answer the Offsite Monitoring Questionnaire, and file STRs/CTRs with FMU through goAML (the FBR portal links 'File STR or CTR with the FMU via GoAML'). S.R.O. 1439(I)/2026 of 27 Aug 2026 widened the definition to builders, developers, title-transferring authorities and brokers. It also added duties to keep records until litigation ends and to answer CDD requests from FBR, LEAs and FMU promptly. Since 1 Jan 2022, development authorities may not deal with unregistered agents. The plan to make builders' NOCs depend on DNFBP registration plus a compliance officer was reported on 29 May 2025 (Nukta), but I did not confirm it was formalized. FBR has fined and inspected agents. I did not find the specific amounts in SRO 950. The duty is per transaction (CDD) plus periodic (questionnaire, inspections).",
+   "market": "About 22,000 real estate DNFBPs registered with FBR, out of an estimated 500,000 property dealers and developers (Dawn/IIPS/Graana; the figure is dated, from around 2021-22). SBCA alone oversees more than 5,000 builders and developers (Nukta, 2025). I found no current official count.",
+   "reason": "The duty is real and was widened in Aug 2026 to builders and developers. No local software does the CDD file, record retention and goAML prep. Against that: small property dealers are largely informal and resist the rules, only about 22k of 500k are registered, and they are price-sensitive. FBR has deliberately simplified the forms and supports dealers through associations, and filing and registration are on free state portals. Builders and developers, if the NOC gating is enacted, are the better-paying segment (compliance officer, sanctions screening, record-keeping), but that gating is unconfirmed. Distribution through realtor associations is possible. A simple Urdu mobile CDD/record vault MVP is feasible, but willingness to pay and enforcement intensity are uncertain.",
+   "searches": 6,
+   "sources": "https://nukta.com/fbr-registration-for-builders-developers ; https://propakistani.pk/2026/08/28/gold-dealers-in-pakistan-now-face-tougher-fbr-money-launderin-law/ ; https://pkrevenue.com/fbr-aml-rules-high-value-jewellers-cash-deals/ ; https://fbr.gov.pk/aml-cft-legislation-regulations/152366/152370 ; https://www.dawn.com/news/amp/1649981 ; https://www.dawn.com/news/amp/1643649 ; https://iips.com.pk/registered-dnfbps-in-the-real-estate-sector/ ; https://profit.pakistantoday.com.pk/?p=134333 ; https://fbr.gov.pk/red-flag-indicators-dnfbps/152366/152797 ; https://download1.fbr.gov.pk/SROs/202693891819441SRO1497-2026.pdf",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b37"
+ },
+ "opus:pakistan:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "State tools: Sindh Home Department EVMS (mandatory guard verification) and the Punjab PSCA app (reported, unverified). Commercial: HysabOne security-services ERP (guard management, shifts, biometric attendance, patrols, billing, FBR/GST; from PKR 3,499/month; doesn't advertise licence or verification compliance). International: EasyGuarding (guard documents, verification status, licence expiry tracking) and Guard360. A gap may remain for assembling compliance packs and tracking expiry dates, but the state systems do the core verification.",
+   "duty": "Sindh: the Private Security Agencies Regulation and Control Ordinance sets licence/NOC conditions. Rule 10 cancellation was used against 43 firms in March 2026 and 36 in July 2025, with 41 show-cause notices. Agencies must register and verify all guards' data on the Home Department's Employee Verification Management System (EVMS). I didn't find the specific violations, the renewal frequency or a fine schedule. Punjab: the only source for mandatory guard registration through a PSCA app is pakistantruth.com (April 2026), which cites no official notification. Punjab has separately halted revalidation of manual arms licences, including those held by security companies. Rules in KP and Balochistan were not reached.",
+   "market": "Sindh: 302 registered agencies (July 2025), minus about 79 cancelled since. Nationwide: about 250 APSAA members (PACRA, 2018); 300+ companies with more than 300,000 guards (Defence Journal, 2023); one undated estimate says 600+. I found no counts for Punjab or KP. It is a small, concentrated market.",
+   "reason": "The duty is real in Sindh. In March 2026 the Home Department cancelled 43 licences under Rule 10 of the Private Security Agencies Regulation and Control Ordinance. In July 2025 it cancelled 36 and served notices on 41, when 302 agencies were registered. But guards are vetted through the province's own free, mandatory EVMS. Punjab's reported PSCA guard-registration app also runs on the state's side, though only one weak source supports it. So the core verification job is a state tool, and it is not built to be replaced by a third party. HysabOne, a local ERP from PKR 3,499/month, already sells guard management, attendance and billing to agencies. Only about 300-600 firms exist nationwide. I didn't confirm the renewal frequency or penalties for each province.",
+   "searches": 5,
+   "sources": "https://www.thenews.pk/print/1402608-home-dept-cancels-licences-of-43-private-security-companies ; https://english.aaj.tv/news/330424323/sindh-cancels-licences-of-36-private-security-firms-puts-41-others-on-notice ; https://propakistani.pk/2025/07/15/sindh-govt-shuts-down-36-security-companies/amp/ (search snippet only, fetch 403) ; https://www.pakistantruth.com/punjab-security-guard-registration/ (weak) ; https://www.app.com.pk/domestic/punjab-halts-revalidation-computerisation-of-manual-arms-licences/ ; https://hysabone.com/industries/security-services/ ; https://www.g2.com/products/easyguarding/reviews ; https://defencejournal.com/2023/07/17/regulating-the-security-industry ; https://www.pacra.com/summary_report/20180412162827_185Yaldram_Rating Report_Apr18.pdf",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b37"
+ },
+ "opus:pakistan:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Free state tools: PITB's 'Agriculture Income Tax' app handles registration with CNIC and selfie checks plus field verification, issues an AIT number, and is linked to PLRA land records and FBR. Returns are filed through the official AIT Web Module. I could not confirm whether PLRA data auto-fills the return or whether practitioners get logins. Calculators exist, such as MyTaxCalculator.pk, along with consultancy blogs (ICT, Baco Consultants). I found no dedicated third-party filing software or SaaS for Punjab AIT; the search for one returned Indian ITR services.",
+   "duty": "Punjab Agricultural Income Tax Act 1997 as amended (2024/25), administered by the Board of Revenue Punjab. It requires an annual statement of agricultural income and landholding. Tax Year 2026 is the first year of online filing, with a deadline of 30 Sep 2026. PTBA asked for an extension to 31 Oct (pkrevenue). I found no official extension; Sindh's extension and the FBR extension to 15 Oct do not apply. Section 8 penalty for not filing: 0.1% of tax due per day or Rs1,000 per day, with minimums of Rs10k/20k/50k by income band (ict.edu.pk blog, a secondary source). Section 10 late-payment surcharge: the higher of 12% or KIBOR+3%. Uncertainty: the Punjab Assembly Speaker ruled the Board of Revenue rate notifications void on 20-21 Apr 2026 (reported via Dawn in the ICT blog; I did not verify this independently). The Finance Bill 2026 proposed higher per-acre rates; I did not confirm whether they were enacted.",
+   "market": "About 396,000 Punjab taxpayers declared Rs293bn of agricultural income on federal returns for TY2025, out of about 445,000 nationally (ICT blog, a secondary source). Provincial AIT collections were Rs4.08bn in 2024-25. The FY26 revised estimate was Rs3.99bn, cut because of implementation delays, against a budget of Rs10.5bn (thenews.pk via search). I found no official count of provincial AIT filers or registrants. The Pakistan Agricultural Coalition estimates about 95% of farmers earn below the Rs600k threshold.",
+   "reason": "The duty is real. The Punjab AIT Act 1997 (amended 2024) requires an annual statement. The penalty for not filing is 0.1% of tax per day or Rs1,000 per day, with minimums of Rs10k, Rs20k or Rs50k depending on income. TY2026 is the first year of online filing. I found no extension notice. Filing runs through the Board of Revenue's free PITB app (registration, linked to PLRA and FBR) and its AIT Web Module (returns). I found no third-party software. That makes this an add-on to a free state portal. Some 396k Punjab taxpayers declared agricultural income on FBR returns, but about 95% of farmers fall under the threshold. The April 2026 Speaker ruling voiding the rate notifications adds legal uncertainty. Willingness to pay is low and rural buyers are hard to reach, so practitioners are the only realistic channel.",
+   "searches": 6,
+   "sources": "https://pkrevenue.com/ptba-punjab-agricultural-income-tax-return-deadline/ ; https://apps.apple.com/us/app/-/id6737752705 ; https://www.ict.edu.pk/blogs/agricultural-income-tax-punjab-2026 ; https://www.thenews.pk/print/1420979-govt-eyes-213pc-jump-in-agriculture-income-tax-collection ; https://propakistani.pk/2026/06/17/punjab-proposes-increase-in-agricultural-tax-and-water-charges/ ; https://propakistani.pk/2026/09/30/fbr-extends-2026-tax-return-deadline/ ; https://profit.pakistantoday.com.pk/?p=216821 ; https://bacoconsultants.com/blogs/agricultural-income-tax-punjab-sindh-2026-rates",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b37"
+ },
+ "sonnet:pakistan:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real on paper: the Punjab Domestic Workers Act 2019 requires a letter of employment and PESSI registration (Arab News). The Sindh bill requires an employment letter copied to the labour inspector, but assent is unconfirmed. Rules are not notified and the WISE page says frameworks are undefined. Enforcement is negligible (14,717 workers registered by 2021, per Pulitzer Center). The PESSI site and app already take registrations. I found no letter or wage-record tool, but that gap exists because households have no pressure and little willingness to pay. Households number in the millions, but with no penalty enforcement the pain is low. I did not check the ICT Act or penalty amounts. Revisit only if Rules are notified.",
+   "searches": 2,
+   "sources": "https://www.arabnews.pk/node/1617126; https://wise.pk/?p=8439; https://pulitzercenter.org/node/29190; https://stateofchildren.com/sindh-assembly-passes-bill-for-legal-cover-to-household-workers/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b37"
+ },
+ "sonnet:pakistan:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. Under the Punjab Food Authority Act 2011, every food business needs a licence valid for one year and renewed annually. Operating without one carries up to 1 year in jail or a Rs500,000 fine. A 2025-26 drive has inspected 62,000+ meat units, sealed 216 and fined Rs72.2m, and PFA says it will register all slaughterhouses. I found no third-party butcher compliance software. PFA has a free fee calculator and licensing portal (PITB), which covers the filing itself. The market is weak: butchers are informal, cash-based and low-margin, and the fee is set by business scale. Not checked: the number of butchers, any butcher-specific fee, and Sindh/KP equivalents. Willingness to pay is likely low, and the drive is enforcement-led.",
+   "searches": 2,
+   "sources": "https://bloompakistan.com/punjab-launches-massive-drive-to-register-all-slaughterhouses/; https://www.app.com.pk/?p=1167688; https://pfa.gop.pk/wings/resource-licensing; https://cell.pfa.gop.pk/knowledge-base/operating-food-business-without-license-will-result-in-upto-1-year-jail-five-hundred-thousand-fine; https://www.zameen.com/blog/punjab-food-authority.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b37"
+ },
+ "sonnet:pakistan:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The Punjab transport department FAQ says every public-service or goods vehicle needs a route permit and a fitness certificate, and goods-carrier permits run 3 years. I found no Pakistan-specific expiry-reminder product. Generic Odoo/ERPNext modules and the Pak Flexible GPS app exist, and e-Pay handles token tax lookup and payment. The claim's trigger is mis-framed. The 15 Oct 2026 Punjab PTA enforcement targets private cars (about 2.3M vehicles), not goods or bus fleets. Commercial vehicles already needed fitness certificates. The Sindh digitisation deadline and the penalty details were not verified. Buyers are fragmented, low-margin owner-operators who rely on agents, and I found no register count. Willingness to pay is weak.",
+   "searches": 2,
+   "sources": "https://propakistani.pk/2026/09/15/punjab-announces-deadline-for-vehicles-to-get-fitness-certificates/; https://transport.punjab.gov.pk/faqs; https://www.gari.pk/news/punjab-sets-october-15-deadline-for-private-car-fitness-5546/; https://apps.apple.com/us/app/-/id6503220779; https://apps.odoo.com/apps/modules/18.0/fleet_management_pro",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b37"
+ },
+ "sonnet:pakistan:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The PM directive (late Jul/Aug 2026) to build an FBR-style fuel tracking system is real (Dawn, Business Recorder, Aaj). It is a directive to develop a system, not a rule on pump owners. No deadline, penalty, or pump-side filing is specified. OGRA already runs the Digital Sales Entry System at pumps, Rahguzar app, tanker tracking and depot telemetry. The state supplies these tools, so there is little room for a private compliance pack. Pump POS vendors (oscar.pk, e-invoicing.pk) already sell FBR POS. I found no official source that FBR POS is mandatory for pumps. About 12,000 pumps exist, a small market. The one concrete deadline is the SBP Raast QR mandate for pumps by 31 Jan 2027, from a search summary only. The different duty and buyer (Raast QR) was not verified. Score stays low.",
+   "searches": 2,
+   "sources": "https://www.brecorder.com/news/amp/40432843 ; https://www.dawn.com/news/2019807 ; https://english.aaj.tv/news/330465911 ; https://www.pakwheels.com/blog/pakistan-petrol-queues-hoarding-fia-crackdown-2026/ ; https://www.e-invoicing.pk/fbr-pos-fuel-stations.html ; https://oscar.pk/blog/the-best-petrol-pump-or-petrol-station-pos-in-pakistan",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b37"
+ },
+ "sonnet:pakistan:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The wheat permit regime is real. In July 2026 the Punjab Food Department suspended permits for Rawalpindi and Islamabad mills. In September 2026 mills announced a Punjab-wide strike over permits, with alleged bribe demands for permits. The department also runs the PITB-built Flour Ledger and a wheat permit portal. I found no private software competitor, but the state portal is the tool. I could not confirm the daily-entry duty, its penalty, or the legal basis in the sources I opened; the Foodstuffs (Control) Act citation is unchecked. Market size is unclear: only dated figures (204 mills involved in the 2020 crisis, 129 in Multan division) and nothing on chakkis. Rules are volatile, the problem is corruption and politics rather than software, and mills are unlikely to pay, so the score is low.",
+   "searches": 2,
+   "sources": "https://tribune.com.pk/story/2617754/pindi-flour-mills-permits-suspension-triggers-protest; https://www.thenews.pk/print/1426098-flour-mills-warn-of-shutdown-over-wheat-permit-suspension; https://propakistani.pk/2026/09/21/flour-millers-to-go-on-strike-across-punjab/amp/; https://profit.pakistantoday.com.pk/2020/01/31/licences-of-28-mills-suspended-after-flour-crisis-lhc-told; https://pitb.gov.pk/node/5570",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b37"
+ },
+ "sonnet:pakistan:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: PFA SOPs (Nov 2025) require bottled/commercial water units in Punjab to change filters monthly, test monthly via PFA-approved labs, and upload filter-change video and lab reports to the PFA FBO Portal; non-compliant plants are sealed (deadline was 15 Dec 2025). No commercial compliance software found, but the state portal is the system of record and takes the uploads, so the added value is thin. Buyers are tiny, price-sensitive owners and enforcement is Punjab-only. Market count was not verified (Rawalpindi 246 plants is from the claim; 700 plants in the ProPakistani headline was not opened). Licence conditions and the portal's ease of use not verified. Low willingness to pay and a weak MVP wedge.",
+   "searches": 2,
+   "sources": "https://www.app.com.pk/domestic/pfa-issues-new-sops-for-commercial-water-filtration-plants/ ; https://www.app.com.pk/?p=1282999 ; https://pfa.gop.pk/water-filtration-plants-training-awareness-seminar-conducted-by-pfa-training-school-sialkot/ ; https://newcell.pfa.gop.pk/knowledge-base/pfa-fails-153-water-filtration-plants-for-not-meeting-standards",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b37"
+ },
+ "sonnet:pakistan:GAPS3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "PEPRIS (PITB) and PEIRA portals; no third-party tracker found",
+   "duty": "Punjab annual private school registration and renewal via PEPRIS, with fitness and hygiene certificates; Islamabad PEIRA renewal each 1 Mar-30 Apr (optional 3-year)",
+   "market": "Lahore alone has more than 14,000 private institutions (DEA, July 2026); no Punjab or Islamabad total found",
+   "reason": "Duty is real. Punjab: PEPRIS registration and annual renewal, with a building-fitness certificate (PEC engineer) and hygiene certificate. Lahore DEA is sealing unregistered schools (324 sealed, 744 notices, July 2026). The four-year term is only a proposal. Islamabad: PEIRA online-only filing since 10 Feb 2026, renewal window 1 Mar-30 Apr, optional 3-year renewal, and sealing or fines for default. Market is large (Lahore alone has 14,000+ private institutions; no provincial total found). Weak points: free official portals (PEPRIS, PEIRA) do the filing, the paperwork is a one-off fee plus a DEA visit, and renewals will be rarer if multi-year terms pass. No dedicated third-party tracker was found. Owners are price-sensitive and the pain is mainly fitness certificates, which software can't fix. A done-for-you service is more plausible than a SaaS tool.",
+   "searches": 5,
+   "sources": "https://pepris.pesrp.edu.pk/support ; https://propakistani.pk/2026/02/16/islamabad-introduces-online-system-for-private-school-registration/amp/ ; https://propakistani.pk/2026/07/30/punjab-agrees-on-major-changes-to-the-private-school-system/amp/ ; https://www.ilmkidunya.com/edunews/lahore-private-schools-survey-delayed-dea-discovers-and-seals-324-unregistered-schools ; https://pitb.gov.pk/pepris",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b37"
+ },
+ "sonnet:pakistan:GAPS4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. The Punjab Healthcare Commission (PHC) Act 2010 requires licensing of clinics, dental clinics and diagnostic centres. A regular licence needs full MSDS compliance, renews every 5 years after inspection, and failure to meet standards brings fines up to Rs 500,000 or closure. SHCC registration and licensing went online in June 2025 via SBOSS. I found no commercial readiness software, only official portals and PHC e-Certification training. But the duty recurs only every 5 years, enforcement is weak (Dawn: only 86 private facilities held a regular licence), and the claimed 23,041 figure is unverified. Sindh counts conflict: about 14,000 registered against 100,000 facilities. Willingness to pay is doubtful, and the idea overlaps K06 (waste and MSDS evidence for Punjab).",
+   "searches": 2,
+   "sources": "https://os.phc.org.pk/licensingprocess.aspx ; https://os.phc.org.pk/licenseRenewal_Revoc.aspx ; https://pakobserver.net/punjabs-hospitals-directed-to-implement-msds-till-july-31/ ; https://www.dawn.com/news/amp/1926771 ; https://pk.dental-tribune.com/news/sindh-healthcare-commission-outlines-dentist-registration-and-licensing-process/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b37"
+ },
+ "sonnet:pakistan:GAPS6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. A 2026 FBR advertisement cites Customs Rules 2001 r.91 for competitive licensing. SRO 431(I)/2022 requires bi-annual WeBOC training, with revocation for two missed modules. SRO 2049/2022 adds automated renewal reminders linked to the customs system. The two 2022 SROs differ on the exact revocation trigger, and I did not read the SRO texts. The 2026 draft SROs on transit and warehousing were not checked. Competition is partial. The PSW mobile app (July 2026) and WeBOC cover GD tracking, and HysabOne C&F sells generic clearing-agent accounting from PKR 3,499/month. No dedicated licence or training tracker was found. The population is small (no register count found), and the duty is light and infrequent, so willingness to pay is low. This overlaps K09 and is weak.",
+   "searches": 2,
+   "sources": "https://download1.fbr.gov.pk/Tenders/2026551151037851ADVERTISEMENTCAExams.pdf ; https://propakistani.pk/2022/03/25/fbr-tightens-procedure-for-customs-agent-licenses/ ; https://download1.fbr.gov.pk/SROs/20223251435944372SRO431-2022.pdf ; https://download1.fbr.gov.pk/SROs/2022111811114536156SRO2049-2022.pdf ; https://propakistani.pk/2026/07/22/pakistan-single-window-launches-official-mobile-app-to-digitalize-trade-management/ ; https://hysabone.com/industries/clearing-forwarding/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b37"
+ },
+ "triage:pakistan": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New: dismantlers under Punjab ELV law, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "New: small OEP licence and case-file duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Households as employers; letter of employment differs from K10 contribution payroll for bureaus."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "New: butchers and small abattoirs under PFA."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "New: small fleet fitness and permit renewals."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "New: pesticide and fertiliser dealer licensing."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "New: small factories with boilers, annual examination duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "New: small NPOs, trusts and madrassas compliance."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Vet clinics and shops are a different buyer from K01 vet-pharma makers; existence of the commission is unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Labour code duty for small employers differs from K10 social security contributions; related K10."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "New: money changers, small regulated firms; verifiers can check size."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "New: street vendor registration, mandatory in KP."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "New: driving school registration."
+    },
+    {
+     "decision": "known",
+     "id": "A14",
+     "reason": "Same jewellers/DPMS buyer and AML duty as K05; amendment is fresh evidence for an existing opportunity, not a rejected idea.",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "New: Umrah operators under 2024 Act and 2026 rules."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Different buyer (property dealers, builders) from K05 jewellers; related K05."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "New: private security agency licensing."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Petrol pump fuel-tracking duty differs from K12 provincial services POS; related K12."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "New: flour mills and chakkis wheat ledger duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "New: LPG distributor reporting duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "New: recurring scale verification for traders."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "New: brick kiln compliance deadlines."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "New: solar installers filing net-billing applications."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "New: Track and Trace extension to other sectors; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "New: PEC contractor annual renewal."
+    },
+    {
+     "decision": "known",
+     "id": "B12",
+     "reason": "Same clinic and lab buyer, healthcare commission/MSDS duty as K06.",
+     "ref": "K06"
+    },
+    {
+     "decision": "known",
+     "id": "B13",
+     "reason": "Same guesthouse Hotel Eye duty as K07.",
+     "ref": "K07"
+    },
+    {
+     "decision": "known",
+     "id": "B14",
+     "reason": "Same rice exporter evidence pack as K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "known",
+     "id": "B15",
+     "reason": "Same jewellers DPMS AML duty as K05.",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "New: hospital claims reconciliation with state schemes; weakly evidenced, let verifiers decide."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Agricultural income tax filing for farmers differs from K02 input-tax reconciliation; related K02."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "New: private water plant owners under PFA SOPs."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "School registration and renewal duty differs from K03 bill routing; related K03."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS4",
+     "reason": "Same small clinic and lab buyer and healthcare-commission/MSDS duty as K06, extended to other provinces.",
+     "ref": "K06"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "New: vehicle dealers under Punjab DVRS directive."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Agent licence and training duty differs from rejected K09 GD tool; related K09."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Federal Tier-1 POS duty differs from K12 provincial services POS; related K12."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "New: milk shops and small food outlet licence records."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS9",
+     "reason": "Tobacco retailer/wholesaler stamp duty is new; K01 is pharma. Unverified whether duty falls on them."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS10",
+     "reason": "New buyer group; duty unverified, so left to verifiers."
+    }
+   ]
+  },
+  "tag": "w2b37"
+ }
+}

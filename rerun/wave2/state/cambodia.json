@@ -1,0 +1,1019 @@
+{
+ "challenge:cambodia:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single killer was found. The weak points are partial: the state FWCMS portal is mandatory and is where all filing happens, the deadlines are fixed and the same for every employer (so trackers add little), law-firm reminders are free, and EOR/agent services exist (Playroll, Mercans).",
+   "reason": "I found nothing that kills the idea outright. No Cambodian HR product with a work-permit or FMQ module turned up; MIHCM claims Cambodia compliance, but I could not confirm any permit feature. Whether FWCMS sends its own reminders is still unverified. Still, the case for software is weak. Every deadline is the same for all employers: quota applications run 1 Sep-30 Nov, renewals are due by 31 Mar and permits expire 31 Dec. So tracking each worker's expiry date adds little, and law firms' free newsletters (KPMG, DFDL, Andersen) already send the reminders. All filing must happen inside the state FWCMS portal, which runs on LACMS data, and I found no sign of an outside API. Employer-of-record firms (Playroll, Mercans) and agents handle permits as a service. I found no current count of employers or permits; the newest figure was 118,280 permit registrations in Jan-Aug 2018. Agent prices were not found.",
+   "searches": 8,
+   "sources": "https://kpmg.com/kh/en/insights/2026/09/mlvt-notification-no--025-26-dated-31-august-2026-on-the-applica.html ; https://www.dfdl.com/insights/legal-and-tax-updates/cambodia-2027-foreign-employee-quota-application/ ; https://kpmg.com/kh/en/insights/2025/09/deadline-approaching-apply-for-2026-foreign-manpower-quota-by-november.html ; https://www.playroll.com/work-permit-visas/cambodia ; https://mercans.com/employer-of-record-payroll-peo/cambodia/ ; https://mihcm.com/hr-landing/bn ; https://www.tilleke.com/insights/cambodia-new-online-application-foreigners-obtain-work-permits/ ; https://en.vietstock.vn/2018/09/work-permits-double-in-2018-977-335697.htm ; https://www.rajahtannasia.com/viewpoints/reminder-on-foreign-quota-application-for-the-year-2025/ ; https://movetocambodia.com/expat-life/whats-going-on-with-work-permits-in-cambodia/",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b35"
+ },
+ "discover:A:cambodia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Owners and managers of buildings with lifts (condominiums, hotels, small commercial towers, hospitals); also small licensed inspectors and installers",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://www.rajahtannasia.com/?p=191148 (fetched, gives dates, 2-year cycle, 21-day review, 1-year transition); https://www.rajahtannasia.com/viewpoints/regional-round-up-cambodia-q2-2026/ (confirms both prakas). The deadline hits many owners at once, but most lift owners are mid-size, not tiny.",
+     "existing": "None seen. A Khmer-language search for the prakas found only the law-firm notes, no software.",
+     "known_mark": "new",
+     "name": "Elevator owner compliance tracker: certificate of elevator use plus 2-yearly licensed inspection",
+     "score": 4,
+     "status": "promising",
+     "trigger": "MLMUPC Prakas 008 (29 Jan 2026): each lift needs a certificate of elevator use (21 working days to review, displayed on site) and a quality and safety inspection every 2 years by a licensed inspector, then a certification letter via the One-Window Service Office. Existing lift owners get a 1-year transition (to about Jan 2027, my arithmetic). Prakas 033 (31 Mar 2026) adds a 3-year installer licence.",
+     "unchecked": "Number of lifts and owners in Cambodia; real fees; whether the transition deadline is exact; which inspectors are licensed; local-language competitor search 'software + lift certificate + owner' not done (budget)."
+    },
+    {
+     "buyer": "Family-run private water supply operators (about 454, per a MISTI item) licensed by the Ministry of Industry, Science, Technology and Innovation (MISTI)",
+     "category": "13. Small water systems",
+     "evidence": "https://www.dfdl.com/insights/legal-and-tax-updates/cambodia-law-on-management-of-clean-water-supply-dated-11-march-2023/; https://misti.gov.kh/en/pressroom/news-and-events/mwO12ifGqVNg; https://www.worldbank.org/en/results/2020/07/22/partnering-for-impact-strengthening-institutions-to-bring-water-and-sanitation-services-to-cambodias-rural-areas",
+     "existing": "Not searched. The MISTI monitoring system is a state tool, not a billing product.",
+     "known_mark": "new",
+     "name": "Private water operator licence, tariff and monitoring-report tool",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Law on Clean Water Supply Management (11 Mar 2023): three-step licensing (feasibility permit, business licence, operating certificate); tariff review every 5 years; expansion needs prior approval and 80% coverage of the approved area; MISTI Water Supply Monitoring System collects KPIs.",
+     "unchecked": "Exact operator reporting duties and frequency; whether the monitoring system is manual entry; existing billing and meter software; operators' willingness to pay; competitor search not done."
+    },
+    {
+     "buyer": "Small registered associations and local NGOs (Ministry of Interior (MOI) register)",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://www.dfdl.com/insights/legal-and-tax-updates/cambodia-notification-on-the-obligation-to-comply-with-the-law-on-associations-and-non-governmental-organizations; https://b2b-cambodia.com/articles/moi-notice-on-compliance-with-lango; https://www.voacambodia.com/a/conservation-ngo-suspended-for-allegedly-not-providing-adequate-documentation-/5391644.html",
+     "existing": "Not searched. Many NGOs already use accountants and donor reporting tools.",
+     "known_mark": "new",
+     "name": "Association and charity annual-report and bank-account filing kit (LANGO)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Law on Associations and NGOs Art. 25: annual activity and financial reports to MOI and MEF before end of February (Notification 571, Feb 2025); bank-account list within 30 days (Art. 10; backlog due end of March 2025); notify changes within 15 days; keep reports 5 years. Non-compliance can lead to removal from the register.",
+     "unchecked": "Number of small associations; whether MOI has an online portal; willingness to pay; sensitivity (civil-society politics); competitor search not done."
+    },
+    {
+     "buyer": "Existing and new small and medium factories and workshops with machinery and capital USD 50,000 to 500,000, in six sectors I could not confirm",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.dfdl.com/insights/legal-and-tax-updates/cambodia-new-environmental-compliance-rules-for-smes-in-cambodia-what-business-owners-need-to-know-now/ (fetched; sectors not listed); https://assets.kpmg.com/content/dam/kpmg/kh/pdf/technical-update/2025/english/MoE - TU 3591 on EIA Assessment.pdf",
+     "existing": "None seen. Consultancies probably do this as a service.",
+     "known_mark": "new",
+     "name": "Ministry of Environment agreement filing for small and medium factories (Prakas 9540)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "MoE Prakas 9540 (26 Nov 2025) with Prakas 3591 (May 2025): Environmental Protection Agreement plus management plan; 30 working day review; periodic compliance; fines, suspension, revocation.",
+     "unchecked": "The six sectors and the exact filing deadline; whether food producers, scrap yards or dismantlers are covered; periodic reporting frequency; competitor search not done."
+    },
+    {
+     "buyer": "Jewellery shops and gold traders",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://data.opendevelopmentmekong.net/laws_record/prakas-no-228-on-the-business-management-of-precious-metals-and-gemstones-as-jewelry; unofficial translation at https://cambodiantr.gov.kh/?p=1849",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Gold and jewellery shop licence renewal and register",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Prakas 228 (2009, Ministry of Commerce permission) and National Bank of Cambodia licence valid 12 months (Type A domestic, Type B import/export); revocation for non-compliance including unpaid tax.",
+     "unchecked": "Whether a transaction register or AML report is required; current status of the 2009 rules; shop count; no 2025 gold AML rule found."
+    },
+    {
+     "buyer": "Licensed private recruitment agencies (overseas under Sub-Decree 190; local under Prakas 463)",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://data.opendevelopmentmekong.net/th/laws_record/-sub-decree-190-on-the-management-of-sending-cambodian-workers-abroad-through-private-recruitment-a; https://ticambodia.org/library/?p=1277",
+     "existing": "Not searched.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "Recruitment agency licence, renewal and worker-file reporting",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Sub-Decree 190 (2011); Prakas 463 (2016): 5-year licence, renew with 30 days' notice. Reporting duties not confirmed.",
+     "unchecked": "Whether a 2025-26 replacement of Sub-Decree 190 exists; agency count; reporting duties; existing agency software."
+    },
+    {
+     "buyer": "Animal-health shops, feed and medicine sellers, small veterinary practices",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://ampeid.org/documents/cambodia/prakas-no-384-prorkorkorsorkor-of-the-ministry-of-agriculture-forestry-and-fisheries-dated-on-02-october-2020-on-the-procedures-for-managing-veterinary-medicines-and-biological-materials-in-trade-and-mixing/; https://leap.unep.org/en/countries/kh/national-legislation/joint-prakas-no-363-maff-moh-management-production-import-export",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Veterinary medicine seller permit, stock and mixing records",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Law on Animal Health and Production (2016); Prakas 414 (1 Oct 2019) and Prakas 384 (2 Oct 2020) on permits for trading, stockpiling, mixing and transporting veterinary medicines (the two sources conflict on numbers and dates).",
+     "unchecked": "Record-keeping and renewal duties; which instrument is current; shop count."
+    },
+    {
+     "buyer": "Agro-input retailers and distributors",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://fia.maff.gov.kh/dfptq/wp-content/uploads/2024/05/Law-on-Management-of-Pesticides-and-Fertilizers-EN.pdf; https://www.cirs-group.com/en/agrochemicals/pesticide-regulation-pesticide-registration-in-cambodia",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Pesticide and fertiliser dealer permit and storage certificate",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law on Management of Pesticides and Fertilizers (14 Jan 2012): MAFF approval for trading and a storage registration certificate. No retailer annual report found.",
+     "unchecked": "Dealer-level recurring duties; renewal terms; dealer count."
+    },
+    {
+     "buyer": "Small pig and cattle slaughter operators",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://leap.unep.org/en/countries/kh/national-legislation/prakas-no-226-maff-form-permit-application-form-establishing; https://opendevelopmentcambodia.net/news/the-slaughterhouse-blues/",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Slaughterhouse and slaughter-business permit renewal and inspection log",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Prakas 226 (2008): establishment permit 5 years, slaughter business permit 1 year; Prakas 131 (2010) veterinary inspection.",
+     "unchecked": "Enforcement level; whether rules were replaced after 2020; operator count. Operators are mostly informal and cannot pay."
+    },
+    {
+     "buyer": "Livestock traders and animal transporters",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://rr-asia.woah.org/app/uploads/2023/12/4-3-cambodia_practices-of-internation-trade.pdf",
+     "existing": "Not searched. MAFF issues the certificates and fees are small.",
+     "known_mark": "new",
+     "name": "Livestock movement permit and sanitary certificate handling",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Prakas 178 (2009) and Sub-Decree 16 (2003): MAFF permission and sanitary certificate for animal movement; importers and exporters need a MAFF business licence.",
+     "unchecked": "Current procedure; volume; whether CNSW covers it (see K06)."
+    },
+    {
+     "buyer": "Licensed money changers",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://dfdl.com/?p=20025",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Money changer licence and reporting",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "National Bank of Cambodia prakas dated 19 Oct 2009 (ref B-9-09-230) on money changer licences; reporting duties not found.",
+     "unchecked": "Periodic reporting; licence term; any newer rule; Cambodia Financial Intelligence Unit reporting."
+    },
+    {
+     "buyer": "Private and community nurseries for children under 6",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.dfdl.com/insights/legal-and-tax-updates/cambodia-sub-decree-254-on-the-management-of-nurseries/",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Nursery licence and standards file (Sub-Decree 254)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Sub-Decree 254 on nurseries: MoEYS licence, staff ratio 4 per 25 children, 3-year plan; the implementing prakas and any inspection cycle not found.",
+     "unchecked": "Date of the sub-decree; prakas; inspection and renewal cycle; nursery count."
+    },
+    {
+     "buyer": "All registered small commercial enterprises (via bookkeepers or agents)",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.rajahtannasia.com/viewpoints/regional-round-up-cambodia-q2-2026/ (fetched; deadline not stated; only the headline fields were visible)",
+     "existing": "Not searched.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "Annual declaration of commercial enterprise under simplified registration, Phase II",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Ministry of Commerce Prakas 044 MOC.BRD.PrK (26 May 2026) on Business Registration Simplification Phase II: annual declaration, filings on company secretary, branches, dissolution.",
+     "unchecked": "Annual declaration deadline and fee; whether it applies to sole proprietors; overlap with existing MoC annual filing and the CamDX/BRD portal; competitor search not done."
+    },
+    {
+     "buyer": "Employers (enterprises, not households)",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://kpmg.com/kh/en/insights/2025/07/cambodia-labor-compliance-updates-kpmg-july2025.html",
+     "existing": "Covered by the K01 LaCMS idea.",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Same buyer group and a LaCMS-type filing; no household-employer duty found, so category 1 has no new candidate.",
+     "name": "Prakas 110/25 enterprise opening and closing declaration to MLVT",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Prakas 110/25 (5 May 2025) replaces Prakas 288 of 2001: opening declaration before commencing operations."
+    },
+    {
+     "buyer": "Individual vendors and self-employed workers",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://opendevelopmentcambodia.net/announcements/notification-on-conditions-forms-and-procedures-for-registering-self-employed-individuals-in-the-national-social-security-fund/",
+     "existing": "State portal handles it.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "NSSF informal-economy registration for self-employed vendors and domestic workers",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Sub-Decree 289 (14 Dec 2024); NSSF opened self-employed registration 22 Jan 2025; needs an informal-economy certificate from the One-Window Service Office.",
+     "unchecked": "Individuals are voluntary and cannot pay."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "No domestic-worker or household-employer registration rule found for 2025-26. Sub-Decree 289 (14 Dec 2024) on informal-economy registration lets self-employed people, reportedly including domestic workers, join NSSF (opened 22 Jan 2025). It does not cover a household that employs a worker as a wage earner. Prakas 168 (2022, NSSF employer registration) may or may not reach households (unverified). Nothing new beyond K01.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No domestic licensing or register regime for scrap dealers found. Only the Ministry of Environment import/export permit for metal waste (Sub-Decree 17 of 2020 per WTO listing). Possible exposure to the Ministry of Environment small-business agreement rules (Prakas 9540, see candidate).",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No pawn or second-hand dealer register found for Cambodia (first search returned only foreign regimes). Nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Prakas 228 (2009) requires Ministry of Commerce permission for precious metals and gemstones as jewellery. A National Bank of Cambodia licence (Type A domestic, Type B import/export) is valid 12 months. No Cambodian AML reporting rule for gold shops found in the search (unverified). See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler-specific rule found. A 2017 regional study says dismantling is informal. Possible coverage by the Ministry of Environment Prakas 3591/9540 (sectors not confirmed).",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Prakas 178 (2009) and Sub-Decree 16 (2003) require MAFF permission and a sanitary certificate for animal movements. Importers and exporters need a MAFF business licence. Notification 3525 (2017) applies to live-animal importers. Prakas 360 covers animal identification. No 2025 update found. Weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Prakas 226 (2008): slaughterhouse establishment permit valid 5 years, slaughter business permit valid 1 year. Prakas 131 (2010) covers veterinary inspection. A 2018 MAFF directive 115 addressed cartels in slaughter. Weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Budget used on higher-value categories. No search run. Unlikely to be a regulated register in Cambodia.",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Law on Animal Health and Production (2016); Joint Prakas 363 MAFF/MOH; Prakas 414 (1 Oct 2019) and Prakas 384 (2 Oct 2020) on permits for trading, mixing and stocking veterinary medicines. Current status of each is unclear. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "No dedicated search; budget spent on other categories. The water-supply side was covered under category 13.",
+     "status": "not_reached"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Sub-Decree 113 (2015) lets sub-national authorities contract private waste collectors; Sub-Decree 36 (1999) is the older framework. No licence regime for collectors or septic desludgers found in the search. Nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Lifts: new MLMUPC Prakas 008 (29 Jan 2026, certificate of elevator use, biennial licensed inspection, 1-year transition) and Prakas 033 (31 Mar 2026, installer licence). See candidate. No Cambodian boiler or pressure-vessel regime found.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Law on Clean Water Supply Management (11 Mar 2023); MISTI licences private water operators (258 licences in 2019; 454 operators per a MISTI item), with a Water Supply Monitoring System, 5-yearly tariff review and expansion approval. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Law on Management of Pesticides and Fertilizers (14 Jan 2012). Trading needs MAFF approval; a separate storage registration certificate exists. No retailer annual-report duty found. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Sub-Decree 190 (2011) for overseas placement. Prakas 463 (2016) for local placement, with a 5-year licence renewable on 30 days' notice. Prakas 103/25 (labour contractors) is already K02. See candidate for recruitment-agency licensing and reporting.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "No search run; budget.",
+     "status": "not_reached"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "LANGO Art. 25: annual activity and financial reports to the Ministry of Interior (MOI) and the Ministry of Economy and Finance (MEF), due end of February (Notification 571, Feb 2025). Bank-account notice within 30 days; changes notified within 15 days; reports kept 5 years. See candidate. Halal supervision not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Ministry of Public Works and Transport (MPWT) runs vehicle technical inspection with online booking; older reports give taxis a 2-year interval (unverified). Tuk-tuk and ride-hail drivers pushed to take driving tests. Prakas 100 (21 Jun 2021) covers digital ride-hail operators. Individual drivers are too small to be a buyer. Weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers: a National Bank of Cambodia prakas dated 19 Oct 2009 (ref B-9-09-230) covers the licence; periodic reporting not confirmed. Informal vendors: Sub-Decree 289 (Dec 2024) informal-economy registration with NSSF. Weak candidates.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Sub-Decree 254 on nurseries (MoEYS licence, staff ratios, 3-year plan). Driving-school training is mandatory for licence types C and above. Small and medium factories face the Ministry of Environment Prakas 9540 agreement duty. Nothing on tattoo or hunting.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "Khmer: second-hand buyers / scrap iron dealers registration",
+    "Cambodia domestic workers regulation Prakas household employer 2025",
+    "Cambodia scrap metal dealers license Ministry of Industry",
+    "Cambodia private recruitment agency licence MLVT sub-decree",
+    "Cambodia veterinary drugs sellers licence MAFF",
+    "Cambodia pesticide dealers registration MAFF",
+    "Cambodia slaughterhouse butcher licence MAFF",
+    "Cambodia money changer licence NBC prakas",
+    "Cambodia private water supply licence MISTI",
+    "Cambodia driving school / taxi / tuk-tuk / technical inspection MPWT",
+    "Cambodia LANGO associations annual report MOI",
+    "Cambodia lift boiler pressure vessel inspection",
+    "Cambodia waste collection / septic desludging permit",
+    "Cambodia private preschool nursery licence MoEYS",
+    "Cambodia domestic workers sub-decree 2025/2026 NSSF household employer",
+    "Khmer: elevator certificate prakas MLMUPC inspection",
+    "Cambodia gold jewelry shops AML dealers precious metals",
+    "Cambodia livestock movement permit traders registration",
+    "Cambodia MoE 2025 prakas small business environmental screening scrap/dismantling",
+    "WebFetch: Rajah & Tann elevator Prakas 008/033; DFDL SME environmental rules (Prakas 9540); Rajah & Tann Cambodia Q2 2026 round-up"
+   ],
+   "searches": 20
+  },
+  "tag": "w2b35"
+ },
+ "discover:B:cambodia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small hotels, guesthouses, hostels, homestays and dormitories (thousands of owner-run properties); also Airbnb-style hosts",
+     "category": "29. Hotels, guest houses and short-term rentals (also 33)",
+     "evidence": "Andersen Jan 2026 Legal and Tax Digest (https://kh.andersen.com/wp-content/uploads/2026/03/January-2026-Andersen-in-Cambodia-Legislative-Developments-Digest.pdf, read in full); Rajah & Tann summary (https://www.rajahtannasia.com/viewpoints/sub-decree-on-the-management-of-safety-and-security-in-concentrated-residential-areas/); FPCS guide (https://cambodianess.com/article/fpcs-explained-a-practical-2026-guide-for-foreigners-and-landlords); VOA Khmer 2020 on FPCS-GDI app and earlier weekly passport-copy handover. Accommodation tax 2% under MEF Ministerial Order 173 (2024) via Bloomberg Tax summary. Penalty figure for undocumented occupants from Andersen; blog claim of USD 1,000 matches.",
+     "existing": "Competitor search (Khmer and English) found only the free state FPCS-GDI app; no third-party guest-register, FPCS-entry or PMS-integration product found. Hotel PMS vendors (not named in results) not checked. Gap: FPCS is a manual per-occupant entry, so an offline-friendly register that also keeps the 1-year movement log, passport scans, 24h reminders and accommodation-tax invoicing could add value.",
+     "known_mark": "new",
+     "name": "Guesthouse, hotel and dormitory resident-register and FPCS foreigner-report tool (Sub-Decree 03)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Sub-Decree 03 of 5 Jan 2026: keep accurate resident records (paper or electronic), report foreigners within 24h, report residency changes, check entry/residence documents, keep CCTV data 90 days and entry/exit records 1 year; fines KHR 400,000 (about USD 100) and KHR 4,000,000 (about USD 1,000) per illegal foreigner. Foreigner registration runs through the GDI FPCS app/web (owner creates account, adds each occupant with passport and visa data).",
+     "trigger_note": "New inspections announced by commentators for 2026",
+     "unchecked": "Official text of Sub-Decree 03; whether FPCS has an API or bulk upload; how many guesthouses actually comply; enforcement start date; whether small owners will pay; PMS vendors already in Cambodia (e.g. Khmer-language PMS); whether the Ministry of Tourism also requires a register."
+    },
+    {
+     "buyer": "SMEs, restaurants, shops, schools, clinics, factories and Chinese, Korean, Vietnamese and Western-run firms with foreign staff; immigration and HR agents who file for them",
+     "category": "31. Foreign-worker work permits and FMQ",
+     "evidence": "KPMG (https://kpmg.com/kh/en/insights/2026/09/mlvt-notification-no--025-26-dated-31-august-2026-on-the-applica.html, fetched); KPMG 2025 FMQ notice (https://kpmg.com/kh/en/home/insights/2025/09/deadline-approaching-apply-for-2026-foreign-manpower-quota-by-november.html); Tilleke on 2025 renewal extension (Notification 009/25); Andersen reminder (https://kh.andersen.com/?p=1121). Quota 10% of workforce (3% office, 6% skilled, 1% unskilled) per Prakas 196 (2014) and 277/20 (2020), from one secondary summary.",
+     "existing": "Competitor search found no third-party tracker or reminder software; only the state FWCMS portal (operated with E-Solution (Cambodia) Co. Ltd) and a Playroll work-permit page (employer-of-record service). Law firms and agents handle filings manually. 2016 fee info: USD 30 per quota request and USD 30 per permit request (may be outdated).",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "Annual foreign manpower quota and work-permit cycle manager for SMEs employing foreigners",
+     "score": 4,
+     "status": "promising",
+     "trigger": "MLVT Notification 025/26 (31 Aug 2026): 2027 FMQ applications 1 Sep-30 Nov 2026 on FWCMS (fwcms.mlvt.gov.kh); approved FMQ is a prerequisite for work permits; permits run per calendar year to 31 Dec and 2026 renewal deadline was 31 Mar 2026; new arrivals need a permit within 90 days; LACMS must be linked with FWCMS; missing FMQ fines KHR 12.2m-18m (Labour Law Art. 369). Window is open now (today 9 Oct 2026).",
+     "unchecked": "Whether FWCMS already sends expiry alerts or bulk upload; number of small employers with foreigners; competing local agents; willingness to pay software vs agent fees; how much the foreign-worker duty can ride on the K01 payroll pack (shares LACMS data)."
+    },
+    {
+     "buyer": "Owners/managers of buildings, condos, hotels with lifts; small elevator installation and maintenance firms",
+     "category": "32. Elevator owners, installers and building safety certificates (group A cat 12)",
+     "evidence": "Rajah & Tann Q2 2026 round-up (https://www.rajahtannasia.com/viewpoints/regional-round-up-cambodia-q2-2026/, fetched); DFDL/Rajah summary of construction-lab Prakas 050 in same wave (https://www.dfdl.com/insights/legal-and-tax-updates/cambodia-construction-laboratory-licensing-requirements/).",
+     "existing": "No competitor search run (budget exhausted at 18). Certificate renewal frequency, fees and deadlines unknown.",
+     "known_mark": "new",
+     "name": "Elevator owner certificate-of-use and installer-licence compliance (Prakas 008 and 033 of 2026)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "MLMUPC Prakas 008 DNS/K.K.C/PRK (29 Jan 2026): all elevator owners/users must apply for a certificate of elevator use and an elevator safety and quality certification letter; Prakas 033 (31 Mar 2026): installers need Level 1 (national) or Level 2 (sub-national) licence; penalties apply.",
+     "unchecked": "Official text, renewal periodicity, whether a fixed compliance deadline exists, number of elevators/owners, existing elevator maintenance contractors' systems, competitor search in Khmer."
+    },
+    {
+     "buyer": "Boreys, condo and apartment management offices, co-ownership buildings, factory/SEZ dormitory operators, small landlords with foreign tenants",
+     "category": "33. Landlords, condominiums and collective residential areas",
+     "evidence": "Andersen Jan 2026 digest and Rajah & Tann (same sources as C1); FPCS guide (https://cambodianess.com/article/fpcs-explained-a-practical-2026-guide-for-foreigners-and-landlords)",
+     "existing": "No competitor search run for this buyer group; apartment-management and access-control vendors not checked. Could be built as an extension of C1 sharing the same data model.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "Landlord, condominium and factory-dormitory resident register and CCTV/entry-log keeper",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Sub-Decree 03 (5 Jan 2026) duties on heads of units, owners and managers: resident lists, residency-change reports, foreigner checks, CCTV 90 days, entry/exit logs 1 year, inspections",
+     "unchecked": "Whether management offices already use access-control software; guard-company role; who pays; enforcement actions."
+    },
+    {
+     "buyer": "Small LPG cylinder shops/depots, rural petrol stations and mixed petroleum-LPG stations",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "MME rules page (https://mme.gov.kh/resources/rules-and-regulations/page/3, fetched, titles only); older reporting duty (https://opendevelopmentcambodia.net/news/petrol-firms-told-to-open-books/). Context: nearly 2,000 petrol stations shut in a fuel shortage (https://www.intellinews.com/nearly-2-000-cambodian-petrol-stations-shut-amid-fuel-shortages-431196/, snippet only, date not checked); LPG supplier halted sales March 2026 (Malay Mail).",
+     "existing": "No competitor search run. Large oil companies likely run own systems.",
+     "known_mark": "new",
+     "name": "LPG cylinder storage station and petrol station permit and record keeper",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "MME Prakas on operation of petroleum, LPG and joint stations (13 Sep 2024); Prakas delegating permits for commercial LPG cylinder storage stations to town/district administrations (29 Apr 2025); MME technical safety certificates for downstream activities (23 Jul 2024). Possible monthly stock/sales reporting (2015 press, unconfirmed).",
+     "unchecked": "Actual PDF content of the three Prakas, renewal cycles, reporting duties, number of small stations, who inspects, fees."
+    },
+    {
+     "buyer": "Small private security firms and guard agencies registered with the National Police",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "Andersen Jan 2026 digest; Cambodia Investment Review 2022 on registration with National Police (https://cambodiainvestmentreview.com/2022/09/14/prince-security-service-aims-to-address-the-unmet-security-needs-of-cambodia/); Prakas 463 mention in search result",
+     "existing": "None searched.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "Private security company compliance (registration, CCTV retention, guard roster)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Sub-Decree 03 (Jan 2026) imposes obligations on private security providers; MLVT Prakas 463 (2016) five-year licence for private recruitment agencies",
+     "unchecked": "Whether a periodic guard-register report exists; individual guard licensing; the dedicated private security law status."
+    },
+    {
+     "buyer": "Local construction testing laboratories (small count)",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "Search result summary of DFDL note (https://www.dfdl.com/insights/legal-and-tax-updates/cambodia-construction-laboratory-licensing-requirements/), snippet only",
+     "existing": "None searched.",
+     "known_mark": "new",
+     "name": "Construction laboratory licence and test reporting (Prakas 050, June 2026)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "MLMUPC Prakas 050 (5 Jun 2026): construction laboratory licence required for local and foreign firms",
+     "unchecked": "Number of labs, reporting duties, renewal cycle."
+    },
+    {
+     "buyer": "Small producers and exporters of goods in 126 HS codes shipping to the US",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://cambodiainvestmentreview.com/2025/05/12/cambodia-introduces-new-export-compliance-rules-for-u-s-bound-goods/",
+     "existing": "Free MoC process; likely handled by forwarders and customs brokers; no competitor search run.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "name": "US-bound Origin Certification Letter application helper for small exporters",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Inter-ministerial Prakas signed 30 Apr 2025, effective 12 May 2025: MoC Origin Certification Letter attached to customs declaration; no fee",
+     "unchecked": "Whether the OCL is online, volume of applicants, whether requirement is still in force in Oct 2026."
+    },
+    {
+     "buyer": "About 2,425 agricultural cooperatives (678,954 members) and cooperative unions; informal savings groups seeking registration",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "ICA 2025 Cambodia snapshot (https://icaap.coop/wp-content/uploads/2025/08/2025-Cambodia-Snapshot.pdf); MAFF DACP technical documents (https://dacp.maff.gov.kh/asset/technicals/56951.pdf)",
+     "existing": "None searched.",
+     "known_mark": "new",
+     "name": "Cooperative registration and annual reporting to MAFF",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Law on Agricultural Cooperatives 2013; MAFF registration office collects cooperative data; annual report template dated 2016",
+     "unchecked": "Actual report contents and deadlines, NGO or donor tools already in use, cooperative ability to pay."
+    },
+    {
+     "buyer": "Private clinics and polyclinics contracted by NSSF",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://www.nssf.gov.kh/wp-content/uploads/2023/02/3.-Inter-Ministerial-Prakas-291.pdf; https://www.tilleke.com/insights/cambodia-new-mandatory-health-insurance-scheme/",
+     "existing": "None searched.",
+     "known_mark": "new",
+     "name": "NSSF health-scheme provider claims and contract admin for small private clinics",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Inter-Ministerial Prakas 291 (provider agreement with NSSF); Prakas 109/184 benefit rules; new mandatory NSSF health scheme planned",
+     "unchecked": "Whether claims are submitted on an NSSF portal, number of contracted private providers, whether new scheme has launched."
+    },
+    {
+     "buyer": "Pharmacies, medicine importers, users of precursors for medical purposes",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://lic-public.wto.org/en/legislations/2999; https://niph.org.kh/niph/uploads/library/pdf/LD149__mgt_of_Pharmaceutical_(1996)_Eng.pdf",
+     "existing": "None searched.",
+     "known_mark": "new",
+     "name": "Pharmacy and narcotics/precursor licence records (Prakas 1467)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Prakas 1467 (first published March 2022, updated and notified to WTO April 2025): MoH licences for narcotics, psychotropics and precursors; 1996 pharmaceutical law",
+     "unchecked": "Retail record keeping duties, number of pharmacies, MoH reporting forms."
+    },
+    {
+     "buyer": "Existing and new small factories with USD 50,000-500,000 capital in six sectors (brick, food processing, garment sub-contract etc. unconfirmed)",
+     "category": "34. Small and medium factories: environmental protection agreements",
+     "evidence": "https://www.dfdl.com/insights/legal-and-tax-updates/cambodia-new-environmental-compliance-rules-for-smes-in-cambodia-what-business-owners-need-to-know-now/ (fetched; no deadline, fees or sector list shown). Waste-burning ban Notification 333: https://kpmg.com/kh/en/insights/2025/02/technical-update.html",
+     "existing": "Competitor search not run (budget exhausted). Environmental consultants likely handle EPAs as one-off documents; periodic reporting content unknown.",
+     "known_mark": "new",
+     "name": "Small and medium factory Environmental Protection Agreement (EPA) preparation and periodic compliance (Prakas 9540)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "MoE Prakas 9540 (26 Nov 2025): EPA and environmental management plan, 30-working-day review, ongoing periodic compliance; scope tied to Prakas 3591 (May 2025); fines, suspension or revocation",
+     "unchecked": "Six-sector list, filing deadline for existing factories, periodic report format, consultant pricing, whether MoE has an online submission system."
+    },
+    {
+     "buyer": "Private kindergartens, schools, language and tutoring centres",
+     "category": "35. Private schools, kindergartens and tutoring centres",
+     "evidence": "https://opendevelopmentcambodia.net/tag/private-schools (snippet); tax Prakas 172 MEF.Prk.GDT of 20 Mar 2024 (https://royal-cta.odoo.com/blog/tax-update-1/tax-incentives-for-the-education-sector-14)",
+     "existing": "None searched.",
+     "known_mark": "new",
+     "name": "Private kindergarten, school and tutoring-centre licensing and reporting",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "MoEYS licensing of private education institutions; draft sub-decrees on private schools; suspension of new private school openings in Phnom Penh (undated)",
+     "unchecked": "Whether sub-decrees were adopted, annual reporting forms, number of small centres."
+    },
+    {
+     "buyer": "Karaoke bars, massage and spa shops",
+     "category": "36. Karaoke, massage, spa and entertainment venues",
+     "evidence": "https://opendevelopmentcambodia.net/news/cambodian-massage-parlours-told-to-shape-up/; https://www.jica.go.jp/Resource/cambodia/office/information/investment/ku57pq00001vq7zz-att/administrative_procedure_14.pdf",
+     "existing": "None searched.",
+     "known_mark": "new",
+     "name": "Karaoke, massage and spa venue licence and staff-certification tracker",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Ministry of Tourism tourism licence (karaoke fee by room count), 2015 directive requiring 30% of massage staff certified; city-level directives",
+     "unchecked": "All sources old; current rules, renewal cycle, fee amounts."
+    },
+    {
+     "buyer": "Small registered companies and the accountants/lawyers who file for them",
+     "category": "37. Business registration annual declaration and company secretary (MoC)",
+     "evidence": "https://www.rajahtannasia.com/viewpoints/regional-round-up-cambodia-q2-2026/ (fetched)",
+     "existing": "Free MoC online business registration system is the state tool; competitor search not run. Fits as an add-on to the K03 multi-client filing workbench rather than a standalone product.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "MoC annual declaration, company-secretary data and registration upkeep for small companies",
+     "score": 3,
+     "status": "weak",
+     "trigger": "MoC Prakas 044 (26 May 2026) Business Registration Phase II, building on Prakas 117 (9 Dec 2025): annual declaration of commercial enterprise, company secretary info, branch registration, dissolution",
+     "unchecked": "Annual declaration deadline and penalty, whether filing is fully online, fee, number of small companies, practitioner fees."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "MME Prakas on operation of petroleum, LPG and joint stations (13 Sep 2024); Prakas delegating permits for commercial LPG cylinder storage stations to town/district administrations (29 Apr 2025); import/export licence Prakas (6 Mar 2025). Only titles seen on mme.gov.kh listing; no reporting duties confirmed. A 2015 press item says the 8 importers/distributors had to report monthly imports/sales/stock (unconfirmed still in force). Candidate C5 logged. LPG supply disruption March 2026 and fines for withholding fuel are enforcement context.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Rice exports go through 48 companies (Jan-Apr 2025), mostly mid/large; 80 mills met food-safety standards. Phytosanitary certificates via MAFF DPPSP/DAALI; cassava exporters must register with DPPSP (secondary source). No small-trader recurring register found; nothing strong. Rice miller licence Prakas not found.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Law on Agricultural Cooperatives 2013; 2,425 cooperatives, 678,954 members (ICA 2025 snapshot), most doing credit/savings/input supply; MAFF registration office collects cooperative data; MAFF annual report template dated 2016. No 2025 new rule found. Weak candidate C10 logged as unverified. NBC rules for savings groups/MFIs not found.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "NSSF health scheme runs on Inter-Ministerial Prakas 291 (provider agreements) and Prakas 109/184; a new mandatory NSSF health scheme noted by Tilleke but undated and details undefined. No 2025 clinic-licensing Prakas found. Candidate C9 logged unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "1996 Law on Management of Pharmaceuticals (MoH authorisation for pharmacies); Prakas 1467 on import/export/distribution of narcotics, psychotropics and precursors (notified to WTO, latest April 2025). No retail reporting duty confirmed. 5.89 t drugs and 42.81 t precursors seized in 2025 (enforcement context). Candidate C11 unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Sub-Decree 03 (5 Jan 2026) places duties on private security providers and requires CCTV retention 90 days, entry/exit records 1 year. Security companies registered with National Police (2022 trade press); MLVT Prakas 463 (2016) licences private recruitment agencies for 5 years. Individual guard licensing unconfirmed. Candidate C6 logged weak. Labour-contractor angle already K02.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "found": "2019 Construction Law; MLMUPC Guideline 291 (4 Feb 2026) on construction permits and occupancy certificates; Prakas 033 (31 Mar 2026) elevator installer licences; Prakas 008 (29 Jan 2026) certificate of elevator use for all elevator owners; Prakas 050 (5 Jun 2026) construction laboratory licence. Contractor grading regime not located. Candidates C3 (elevators) and C7 (construction labs) logged. Mining/quarry not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "CAFIU 2010 Prakas names real estate agents, lawyers, notaries, accountants as reporting entities; replaced by 2020 AML/CFT Law with enhanced due diligence and cash and suspicious transaction reporting. Threshold and 2025 updates not confirmed; real estate broker licensing authority not confirmed. No candidate scored; flagged as unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Strongest finding: Sub-Decree 03 (5 Jan 2026) covers hotels, guesthouses, dormitories, condos, factories; owners must keep resident records, report foreigners within 24h, keep CCTV 90 days and movement records 1 year; fines KHR 400,000 and KHR 4,000,000 per illegal foreigner. Foreigners registered through the free GDI FPCS app/web. Accommodation tax 2% under MEF Ministerial Order 173 (2024). Ministry of Tourism licence under Prakas 63 (2007). Candidate C1 logged.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "found": "Inter-ministerial Prakas (signed 30 Apr 2025, effective 12 May 2025): Origin Certification Letter from MoC for US-bound goods across 126 HS codes, attached to customs declaration, no fee. Timber export licence via MoC/Forestry Admin and PC-1 transport permit (third-party portal); no national timber traceability system. Rubber EUDR already K05; CNSW K06. Candidate C8 logged weak.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Foreign-worker work permits and annual foreign manpower quota (FMQ)",
+     "found": "Country-specific. MLVT Notification 025/26 (31 Aug 2026): 2027 FMQ window 1 Sep-30 Nov 2026 via FWCMS; work permit within 90 days of entry; calendar-year permits (2026 renewal deadline was 31 Mar 2026); LACMS must be linked to FWCMS; fines KHR 12.2m-18m. Candidate C2.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Elevator owners, installers and building safety certificates",
+     "found": "Prakas 008 DNS/K.K.C/PRK (29 Jan 2026) certificate of elevator use for all elevator owners/users; Prakas 033 (31 Mar 2026) installer licences Level 1 national/Level 2 sub-national. New 2026 regime, enforcement details unchecked. Candidate C3. (Overlaps group A category 12; listed because found.)",
+     "status": "screened"
+    },
+    {
+     "category": "33. Landlords, condominiums and collective residential areas (resident records, FPCS)",
+     "found": "Sub-Decree 03 scope includes boreys, condos, apartments, co-ownership buildings, dormitories, factories and SEZs, with resident lists, change reports, CCTV and entry/exit logs. Same law as C1 but a different buyer group (landlords, condo management, dormitory operators). Candidate C4.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Small and medium factories: environmental protection agreements",
+     "found": "MoE Prakas 9540 (26 Nov 2025): EPA plus environmental management plan for factories with USD 50k-500k capital in six sectors (list not seen), applies to existing operations, 30-working-day MoE review, ongoing periodic obligations; linked to Prakas 3591 (May 2025). Also MoE Notification 333 (Jan 2025) ban on burning textile/leather waste. No filing deadline seen. Candidate C12 (EPA).",
+     "status": "screened"
+    },
+    {
+     "category": "35. Private schools, kindergartens and tutoring centres",
+     "found": "Licensing is a live issue (unlicensed kindergartens; MoEYS suspended new private institutions in Phnom Penh; two sub-decrees on private education drafted, adoption unconfirmed, undated). Education tax incentive Prakas 172 (Mar 2024) to end 2028. No recurring report identified. Candidate C13 unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Karaoke, massage, spa and entertainment venues",
+     "found": "Licensed by Ministry of Tourism (fee by room count); 2015 directive required 30% of massage staff trained; Phnom Penh municipal directives vary. Only old sources; no 2025-26 rule found. Candidate C14 unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Business registration annual declaration and company secretary (MoC)",
+     "found": "MoC Prakas 044 (26 May 2026) Business Registration Simplification Phase II, building on Prakas 117 (9 Dec 2025): annual declaration of commercial enterprise, company-secretary data, branch registration, dissolution. MoC online system is the state tool. Candidate C15 logged weak, related K03.",
+     "status": "screened"
+    },
+    {
+     "category": "38. Food businesses under the 2022 Law on Food Safety",
+     "found": "Law on Food Safety promulgated June 2022; high-risk food must be registered; Khmer labelling required; MoC CCF is lead enforcer; implementing sub-decree status and restaurant registration rules not found. Nothing scoreable; unverified.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "Cambodia fuel station LPG distributor license MME Prakas 2025 reporting",
+    "Cambodia rice miller exporter registration paddy warehouse licence MAFF Prakas 2025",
+    "Cambodia agricultural cooperative law 2025 annual report MAFF cooperatives registration microfinance savings group NBC",
+    "Cambodia private clinic NSSF health care insurer claims MoH licence 2025 Prakas",
+    "Cambodia pharmacy licence MoH Prakas 2025 drug sellers reporting precursor chemicals",
+    "Cambodia security guard company private security services law Prakas 2025 licence manpower agency",
+    "Cambodia construction contractor licence MLMUPC Prakas 2025 building permit engineers registration",
+    "Cambodia real estate agent broker licence AML CAFIU reporting notary lawyer 2025",
+    "Cambodia guesthouse hotel Ministry of Tourism licence guest register accommodation tax Prakas 2025",
+    "Cambodia export timber fish cassava cashew phytosanitary exporter registration Prakas 2025 traceability",
+    "Cambodia foreign worker employment card quota work permit renewal MLVT 2025 2026",
+    "Cambodia food safety law 2025 food business registration restaurants CamControl",
+    "Cambodia private school kindergarten tutoring licence MoEYS Prakas 2025",
+    "Cambodia environmental annual report small enterprises MoE licence waste 2025 sub-decree",
+    "Cambodia karaoke massage spa entertainment licence 2025 Ministry of Tourism Interior",
+    "Khmer: guest management system guesthouse hotel foreigner registration police software",
+    "Cambodia hotel guesthouse PMS software guest registration foreigners police Sub-Decree 03 2026",
+    "Cambodia work permit foreign manpower quota FWCMS service provider software tracker expiry reminder agency"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b35"
+ },
+ "gapfill:cambodia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Private well drillers and commercial groundwater users (factories, hotels, bottled-water and small piped-water operators)",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://leap.unep.org/en/countries/kh/national-legislation/law-water-resources-management-kingdom-cambodia ; https://www.sei.org/about-sei/press-room/cambodia-groundwater-regulation/ (403 on fetch; snippet only). No driller register, no abstraction-reporting rule, and no licence-holder counts found.",
+     "existing": "None found",
+     "known_mark": "new",
+     "name": "Commercial groundwater licence and abstraction log for private well owners and drillers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "2007 Law on Water Resources Management: MOWRAM water-use licence for commercial use of groundwater and aquifers. A national groundwater management framework is under development (2025), which could add driller licensing or abstraction reporting.",
+     "unchecked": "Whether commercial groundwater licences are issued and enforced in practice; the number of holders; any draft sub-decree or prakas on groundwater from the 2025 framework; whether drillers need a Ministry of Commerce or MOWRAM registration. Re-check if a groundwater sub-decree is published."
+    },
+    {
+     "buyer": "Private funeral providers in Phnom Penh (about 3 funeral homes in 2017) and pagoda committees",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://cambodia.embassy.gov.au/penh/deaths.html ; https://www.asianews.it/en/south-east-asia/cambodia/phnom-penh-free-funeral-rites-for-the-poor ; https://en.vietstock.vn/2017/10/business-insider-digging-out-a-niche-in-funeral-services-977-298278.htm",
+     "existing": "None found",
+     "known_mark": "new",
+     "name": "Funeral service and pagoda cremation coordination and fee-transparency tool",
+     "score": 1,
+     "status": "weak",
+     "trigger": "No mandatory recurring duty found. Possible soft triggers are Ministry of Health cremation permission (secondhand, via Australian Embassy) and Phnom Penh City Hall's push on temple cremation price lists and free cremation for the poor.",
+     "unchecked": "Whether a cremation or burial permit and death-registration workflow exists that funeral providers file for families; any City Hall rule requiring pagodas to publish or report fees; market size beyond Phnom Penh."
+    },
+    {
+     "buyer": "Members of the CBHE federation (about 780 wild-honey collectors in six provinces)",
+     "category": "8. Beekeepers",
+     "evidence": "https://ntfp.org/?p=3479 ; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11766281/",
+     "existing": "None found",
+     "known_mark": "new",
+     "name": "Wild-honey PGS record keeping for 'Khmum Prey' community enterprises",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Voluntary participatory guarantee system with agreed community protocols and quality control, not a legal duty. Some members were certified under PGS in 2022.",
+     "unchecked": "Whether there is any state honey or food-safety registration, or export (EU, China) traceability duty for honey. Buyers are NGO-supported smallholders with very low willingness to pay."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "8. Beekeepers",
+     "found": "No regulated register or MAFF registration scheme found for beekeepers or honey producers (English and Khmer searches). A 2025 review in Insects (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11766281/) names lack of official documentation and data, weak organisation of beekeepers, and unregulated bee imports as gaps, so there is no mandatory recurring duty to build on. Only voluntary activity exists: the CBHE federation of about 780 wild-honey collectors in six provinces runs a participatory guarantee system (PGS) for the 'Khmum Prey' label (NTFP-EP, https://ntfp.org/?p=3479). Nothing found on hive registration, apiary movement records or honey export traceability. Not a regulated-register category in Cambodia; only a weak, community-led certification niche.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "The 2007 Law on Water Resources Management lists use of groundwater and aquifers for commercial purposes among activities needing a MOWRAM water-use licence (https://leap.unep.org/en/countries/kh/national-legislation/law-water-resources-management-kingdom-cambodia). No prakas, sub-decree or register specific to well drillers or drilling permits found in Khmer or English. A June 2025 national dialogue (SEI, https://www.sei.org/about-sei/press-room/cambodia-groundwater-regulation/; the page itself returned 403 on fetch, so this rests on search snippets) says groundwater governance is fragmented with limited regulatory framework and enforcement, and that MOWRAM is only starting a national groundwater framework. Private rural drillers operate on a merchant basis (World Bank Mirep note, 2010, dated) with no association or registry found. Possible future trigger if the groundwater framework produces driller licensing or abstraction reporting; nothing in force found. Unverified: whether commercial groundwater licences are actually issued and how many holders exist; the full law text and any MOWRAM licence forms were not opened.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "No dedicated funeral-business, cemetery or crematorium licensing regime found. A 2017 account says the Ministry of Commerce had no licence class for funeral homes and registered the firm as a funeral service provider (https://en.vietstock.vn/2017/10/business-insider-digging-out-a-niche-in-funeral-services-977-298278.htm). The Australian Embassy says local law requires Ministry of Health permission for cremation (https://cambodia.embassy.gov.au/penh/deaths.html), secondhand and unverified. Cremation is mostly done at pagodas; Phnom Penh City Hall closed the last traditional temple crematoriums in 2010 (https://english.cambodiadaily.com/2010/02/19/capitals-last-traditional-crematoriums-ordered-to-close/) and later offered free cremation for the poor after a public row over temple price lists (https://www.asianews.it/en/south-east-asia/cambodia/phnom-penh-free-funeral-rites-for-the-poor, undated). Only about three funeral homes existed in Phnom Penh in 2017, so the market is tiny and informal. No recurring filing duty identified. Unchecked: current Ministry of Health cremation or burial permit procedure, Ministry of Cults and Religion rules for pagoda crematoria, any recent City Hall funeral-fee prakas.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "Cambodia beekeeping honey registration MAFF regulation beekeepers",
+    "Cambodia well drilling license Ministry of Water Resources groundwater drillers prakas",
+    "Cambodia funeral services cemetery regulation Ministry of Interior pagoda crematorium license",
+    "(Khmer) prakas licence well digging groundwater MOWRAM (first attempt garbled by a typo, wasted)",
+    "(Khmer) ប្រកាស អាជ្ញាប័ណ្ណ ជីកអណ្តូង ខួងអណ្តូង ទឹកក្រោមដី ក្រសួងធនធានទឹក",
+    "(Khmer) ក្រសួងធនធានទឹក និងឧតុនិយម អាជ្ញាប័ណ្ណប្រើប្រាស់ទឹក ក្រុមហ៊ុនខួងអណ្តូង ចុះបញ្ជី",
+    "(Khmer) ក្រសួងមហាផ្ទៃ សេវាបូជាសព បុណ្យសព ... ទីបញ្ចុះសព",
+    "Cambodia private well drillers borehole drilling companies association rural water supply tube well contractors registered",
+    "(Khmer) ឃ្មុំ ទឹកឃ្មុំ ក្រសួងកសិកម្ម ចិញ្ចឹមឃ្មុំ ចុះបញ្ជី សហគមន៍ ស្តង់ដារ",
+    "Cambodia sub-decree water use licence groundwater extraction commercial permit MOWRAM prakas 2023 2024 2025",
+    "Phnom Penh funeral company cremation pagoda price list regulation city hall funeral service business",
+    "Cambodia Law on Water Resources Management groundwater drilling permit drilling licence required drillers Khmer Times",
+    "WebFetch https://www.sei.org/about-sei/press-room/cambodia-groundwater-regulation/ (HTTP 403)"
+   ],
+   "searches": 13
+  },
+  "tag": "w2b35"
+ },
+ "opus:cambodia:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No software or app was found for the owner-side workflow, in English or Khmer. No public list of licensed inspectors was found. The likely real competition is a service: lift OEM agents and maintenance contractors (Hitachi, KONE via Comin, and others) who already hold maintenance contracts and can bundle certificate filing and the 2-yearly inspections. Law firms and permit agents can also file at the One-Window office. Competition check was limited to web search.",
+   "duty": "Prakas No. 008 DNS/K.K.C/PRK (MLMUPC, 29 Jan 2026), in force on issue according to law-firm summaries. Each lift needs a certificate of elevator use from MLMUPC via the One-Window Service Office (review up to 21 working days, certificate valid indefinitely, one certificate per lift, displayed on site). A quality and safety inspection by an MLMUPC-licensed inspector is due every 2 years, and the inspector issues a certification letter of elevator safety and quality once any defects are fixed. Lifts operating before the Prakas have a 1-year transition (about late Jan 2027). Penalties: written warning, suspension or revocation of the certificate, and an immediate stop order for operating without one. Prakas 033 (31 Mar 2026) adds Level 1 and Level 2 licences for installers, valid 3 years. Fees not found. Official Prakas text not found; only law-firm summaries (Rajah & Tann, Andersen).",
+   "market": "There is no official register of lifts. Wikipedia reports about 1,902 high-rise buildings in Phnom Penh (about 1,877 of 14-20 floors as of June 2025; community-edited and approximate). A 2022 study counted 2,534 high-rises built nationally since 2000, 1,674 of them in Phnom Penh. Add hotels and low-rise buildings with lifts and that is perhaps 2,000-4,000 owners with several thousand lifts (my extrapolation). Most are mid-size or large owners and developers, not micro-businesses.",
+   "reason": "The duty is real. MLMUPC Prakas 008 (29 Jan 2026) requires a certificate of use for each lift, applied for at the One-Window office (21 working days to review) and displayed on site. Licensed inspections are due every 2 years. Pre-existing lifts have 1 year, to about Jan 2027. Penalties: warning, suspension or revocation, or an order to stop operating. No software found. But the certificate is one-off (valid indefinitely) and inspections come every 2 years, so frequency is low. Buyers are mid-to-large building owners, not tiny firms. Market is roughly 1,900 high-rises in Phnom Penh (Wikipedia, approximate). Licensed lift installers and maintainers will probably bundle the paperwork as a service. Better as a one-off done-for-you filing service near the deadline than as SaaS.",
+   "searches": 5,
+   "sources": "https://www.rajahtannasia.com/?p=191148 ; https://www.rajahtannasia.com/viewpoints/regional-round-up-cambodia-q2-2026/ ; https://kh.andersen.com/wp-content/uploads/2026/03/March-2026-Andersen-in-Cambodia-Legislative-Developments-Digest.pdf ; https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_Cambodia ; https://opendevelopmentcambodia.net/news/2534-high-rise-buildings-completed-by-2022/ ; https://en.vietstock.vn/2019/10/construction-boom-elevating-lift-demand-39-372368.htm",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b35"
+ },
+ "opus:cambodia:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The World Bank Water and Sanitation Program built the Enterprise Resource Management System (ERMS), a management and billing application for Cambodian water service providers. GRET's business-development-services package for private operators lists it among its tools; I could not read the GRET PDF to confirm cost or uptake. KOBELCO ran a JETRO-backed pilot with Kampong Thom Water Supply covering everything from the treatment plant to bill collection. GEOCRAFT has an AQUA Crew mapping project with MISTI. Banks such as KB PRASAC and ABA already collect bills for private suppliers. I found no commercial Cambodian vendor selling billing or compliance software to private operators, and no product that files reports into the monitoring system; whether that system needs manual entry is not reached. JETRO notes that meter reading and bill collection are still mostly manual.",
+   "duty": "The Law on Clean Water Supply Management (NS/RKM/0323/002, 11 Mar 2023) is in force, according to FAOLEX/LEAP and DFDL. It requires a feasibility-study permit, a business licence and an operating certificate from MISTI. Expansion needs prior MISTI approval and at least 80% supply of the approved area. Penalties run from warnings and licence suspension or revocation up to fines and prison. The claim's \"tariff review every 5 years\" is done by MISTI, not by the operator, so it is not an operator workflow. Licences reportedly last 20 years, so licensing is rare rather than recurring. I found no source giving the frequency or content of periodic operator reporting. The World Bank says only that operator KPIs are \"increasingly available\" in MISTI's Water Supply Monitoring System; who enters the data and how often is not reached. The recurring compliance duty is therefore unconfirmed.",
+   "market": "A MISTI statement (March 2025), as quoted in search results, gives 454 private water operators serving 55% of 1.4 million connections; I could not open the MISTI page myself because it was blocked. There were 258 licences in 2019 (World Bank). The ERMS description says many suppliers are unlicensed. The market is small: about 450 buyers, many of them family firms.",
+   "reason": "The licensing duty is real and current, but its core steps are rare: 20-year licences, a MISTI-led tariff review every 5 years, and occasional expansion approvals. I could not confirm a recurring operator reporting duty or its frequency. There is a donor-built billing and management tool (World Bank ERMS), and banks already handle bill collection. The real day-to-day pain is manual meter reading and billing, which is a generic utility-billing tool rather than compliance software. With about 454 operators and limited ability to pay, the market is small. A billing-plus-monitoring-system-reporting tool could still work if MISTI requires periodic KPI submission, but that is not verified.",
+   "searches": 6,
+   "sources": "https://www.dfdl.com/insights/legal-and-tax-updates/cambodia-law-on-management-of-clean-water-supply-dated-11-march-2023/ ; https://leap.unep.org/en/countries/kh/national-legislation/law-clean-water-supply-management-2023 ; https://www.worldbank.org/en/results/2020/07/22/partnering-for-impact-strengthening-institutions-to-bring-water-and-sanitation-services-to-cambodias-rural-areas ; https://sidalc.net/search/Record/dig-okr-1098610466 ; https://gret.org/wp-content/uploads/2021/10/Fiche-BDS-V1-v2.pdf ; https://www.jetro.go.jp/ext_images/_News/announcement/2022/0e80b8da931addc9/KOBELCO_en.pdf ; https://www.kbprasacbank.com.kh/?p=14354 ; https://www.misti.gov.kh/en/public-digital-systems ; https://misti.gov.kh/en/pressroom/news-and-events/mwO12ifGqVNg (fetch blocked; figure seen in search results only)",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b35"
+ },
+ "opus:cambodia:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free state FPCS-GDI app (iOS, Android and web, from the General Department of Immigration, released Oct 2019) already does the core foreigner-reporting job. Its store listing says it captures guest information at check-in, scans ID documents to extract the data, uploads documents, tracks past submissions and has a daily statistics dashboard. So the manual per-occupant data entry is already eased by the state's own OCR. I found no third-party FPCS integration, API or bulk upload in English or Khmer searches. International PMS products are present in Cambodia (mycloud via its partner Techsider, 2019; Softinn), but I found no evidence that any of them file to FPCS. What remains open is the Sub-Decree 03 resident register and the 1-year entry/exit log, though paper satisfies both.",
+   "duty": "Real and in force. Sub-Decree 03 was issued on 5 Jan 2026 and covers \"concentrated residential areas\", which explicitly include hotels, guesthouses, dormitories, resorts, apartments, pagodas and churches. Owners and managers must: keep accurate resident records (on paper or electronically); report changes of residency to the police and the commune or sangkat office; report foreigners within 24 hours; check that a foreigner can lawfully reside in Cambodia before letting them stay; keep CCTV footage for at least 90 days; and keep entry and exit records for at least 1 year. The Rajah & Tann summary (fetched) does not give fines or an effective date. Andersen and blogs cite KHR 400,000 and USD 1,000 per undocumented occupant, but I could not check this against the official Khmer text. The separate FPCS duty (operators report each foreign guest within 24 hours in the GDI app) dates from 2020 and is tied to visa extensions. One older source cites a fine of KHR 30,000 per foreigner. The duty recurs with every check-in.",
+   "market": "CEIC, republishing Ministry of Tourism data, lists about 2,272 guesthouses in Cambodia in 2024 (Phnom Penh 321, Siem Reap 293). I did not find the number of hotel establishments. CEIC gives 47,655 hotel rooms in 2023 and 32,134 guesthouse rooms in 2022. Adding hotels, homestays, dormitories and rental apartments, the total is probably about 4,000 to 10,000 properties (my estimate, not a register count). Boreys, condos and factory dormitories also carry the Sub-Decree duty.",
+   "reason": "The duty is real, recurring and enforced through visa linkage and police spot checks. But the core foreigner report is already handled by the free GDI FPCS app, which includes passport scanning and submission history. What is left (the resident register, the 1-year entry/exit log, 24h reminders) can legally be kept on paper. Buyers are mostly owner-run guesthouses that are price-sensitive and probably have little willingness to pay. There is no known FPCS API, so an add-on can't automate filing and would mean entering data twice. A bigger PMS bundle would compete with established vendors. The market is small, perhaps a few thousand properties. A niche add-on for boreys and dormitories may be worth more than one for guesthouses.",
+   "searches": 6,
+   "sources": "https://www.rajahtannasia.com/viewpoints/sub-decree-on-the-management-of-safety-and-security-in-concentrated-residential-areas/ ; https://kh.andersen.com/wp-content/uploads/2026/03/January-2026-Andersen-in-Cambodia-Legislative-Developments-Digest.pdf ; https://mwm.ai/apps/fpcs-gdi/1484912224 ; https://cambodianess.com/article/fpcs-explained-a-practical-2026-guide-for-foreigners-and-landlords ; https://ips-cambodia.com/landlords-guide-to-fcps-registration ; https://khmer.voanews.com/a/foreign-residents-to-forgo-visa-renewals-for-failing-to-register-in-new-online-system-/5395385.html ; https://ceicdata.com/en/cambodia/number-of-guesthouses-and-guesthouse-rooms ; https://ceicdata.com/en/cambodia/number-of-hotels-and-hotel-rooms ; https://insights.ehotelier.com/suppliers/2019/12/10/mycloud-hospitalitys-first-move-into-cambodian/ ; https://www.stampednomad.com/digital-nomad-news/cambodia-tightens-residency-rules-and-immigration-oversight",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b35"
+ },
+ "opus:cambodia:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The mandatory state portal FWCMS (run with E-Solution (Cambodia) Co. Ltd since 2016) already handles quota, permit and employment-card filing online. Once LACMS is linked, it can auto-generate lists of Cambodian and foreign staff (per secondary summary). Whether FWCMS sends expiry alerts is unverified. Law firms and advisers (KPMG, DFDL, Andersen, Tilleke, VDB Loi, HBS Law, Sciaroni) and employer-of-record firms such as Playroll offer filing as a service. I found no Cambodia HR software with a work-permit or FMQ module, and no standalone tracker (English and Khmer searches). Current agent prices were not found.",
+   "duty": "Confirmed in force. MLVT Notification 025/26 (31 Aug 2026) covers all factories and enterprises that employ or plan to employ foreigners in 2027. They must apply for the 2027 FMQ on FWCMS (fwcms.mlvt.gov.kh) between 1 Sep and 30 Nov 2026. An approved FMQ is a prerequisite for work permits. Foreigners must get a permit within 90 days of first entry. LACMS must be linked with FWCMS. Missing the FMQ draws a Labour Inspector fine of KHR 12.2m-18m (~USD 3,050-4,500; Art. 369 Labour Law, Prakas 326). Working without a permit draws KHR 50.4m (Joint Prakas 498), as reported in a 2025 summary. The quota cap is 10% of the Cambodian workforce (3% office, 6% skilled, 1% unskilled); exceeding it requires an application under Prakas 277/20. The cycle is annual, with permits running per calendar year. Sources are law-firm and Big-4 summaries; I did not open the official MLVT text.",
+   "market": "Not found. My searches turned up no published MLVT count of foreign work permits or of enterprises holding an FMQ for 2024-2025. Who carries the duty is broad: companies, branches, representative offices, NGOs and associations with any foreign staff. The number of small employers with foreigners remains unverified.",
+   "reason": "The duty is real and in force. KPMG and DFDL summaries of MLVT Notification 025/26 say every enterprise employing foreigners in 2027 must get FMQ approval on FWCMS between 1 Sep and 30 Nov 2026. Work permits need that quota, new arrivals have 90 days, and LACMS must be linked to FWCMS. Fines run from KHR 12.2m to 18m (Labour Law Art. 369). I found no third-party tracker software. Still, the required state portal FWCMS already does the filing, and law firms and agents sell the done-for-you service. That leaves software only reminders and quota-ratio checks. The cycle is once a year plus new hires. The buyers are scattered foreign-run firms that already pay agents. I found no market count. Best sold as an add-on to the K01 payroll/LACMS pack.",
+   "searches": 6,
+   "sources": "https://kpmg.com/kh/en/insights/2026/09/mlvt-notification-no--025-26-dated-31-august-2026-on-the-applica.html ; https://www.dfdl.com/insights/legal-and-tax-updates/cambodia-2027-foreign-employee-quota-application/ ; https://kpmg.com/kh/en/home/insights/2025/09/deadline-approaching-apply-for-2026-foreign-manpower-quota-by-november.html ; https://kh.andersen.com/?p=1121 ; https://www.tilleke.com/insights/cambodia-new-online-application-foreigners-obtain-work-permits/ ; https://www.aseanbriefing.com/news/cambodia-opens-foreign-employee-quota-application-for-2025/ ; https://b2b-cambodia.com/news/prakas-no-352-on-online-management-systems-for-foreigner-workers-sciaroni-associates ; https://www.playroll.com/work-permit-visas/cambodia ; https://www.vdb-loi.com/kh_publications/cambodia-legal-update-labor-law-deadline-to-apply-for-foreign-employees-quota-approval-for-2021/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b35"
+ },
+ "sonnet:cambodia:A13": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "MoC registrationservices.gov.kh (free state portal); DFDL and Emerhub filing services; Deloitte and KPMG advisories",
+   "duty": "ADCE annual filing within 3 months before the registration anniversary plus 15 days grace. Fine of KHR 2,000,000 per year missed. Three consecutive years unfiled can mark the company inactive. Penalty relief under Announcement 0051 (Jan 2026), extended by MoC Notification 2463 (10 Jul 2026).",
+   "market": "not_reached: no register count found. The duty covers limited companies, foreign branches and representative offices, not sole proprietors.",
+   "reason": "The duty is real, but it is narrower than the claim. The annual declaration (ADCE) applies to limited companies, foreign branches and representative offices, not sole proprietors. The window runs from three months before the registration anniversary, plus a 15-day grace period. The penalty is KHR 2,000,000 per missed year. Prakas 044 (26 May 2026) only lists the ADCE as a topic, and I found no text showing it changes the rules. The state portal registrationservices.gov.kh handles filing, now behind CamDigiKey, and the MoC sends reminders. Law firms and company-secretary providers (DFDL, Emerhub) sell it as a service. I found no dedicated ADCE software. Buyers are corporate service providers, and filing is a single online form, so willingness to pay is low. It is best treated as an add-on to K03. I did not find a count of affected entities.",
+   "searches": 3,
+   "sources": "https://www.rajahtannasia.com/viewpoints/second-phase-of-regulatory-development-on-the-simplified-business-registration/ ; https://www.rajahtannasia.com/viewpoints/regional-round-up-cambodia-q2-2026/ ; https://www.rajahtannasia.com/viewpoints/new-regulatory-development-on-simplified-business-registration/ ; https://www.dfdl.com/?p=67410 ; https://emerhub.com/cambodia/annual-compliance-in-cambodia/ ; https://kpmg.com/kh/en/insights/2026/02/technical-update.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b35"
+ },
+ "sonnet:cambodia:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: DFDL says MoE Prakas 9540 (26 Nov 2025) requires an Environmental Protection Agreement and management plan from existing and new factories with USD 50k-500k capital, 30 working day review, with fines, suspension and revocation. Not confirmed: the six sectors, the filing deadline, the periodic reporting frequency, and the market size. I ran no competitor search. The duty looks mostly like a one-off document for consultants, with no clear recurring workflow. Buyers are fragmented and the legal text is probably Khmer-only. Together these make it a weak software fit, so I scored it 3.",
+   "searches": 1,
+   "sources": "https://www.dfdl.com/insights/legal-and-tax-updates/cambodia-new-environmental-compliance-rules-for-smes-in-cambodia-what-business-owners-need-to-know-now/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b35"
+ },
+ "sonnet:cambodia:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Prakas 228 (28 Oct 2009, MoC) is listed as in force and requires jewellery traders to obtain MoC permission. I could not confirm the claimed 12-month NBC licence, the Type A/B split, renewal frequency, penalties or any register/reporting duty. I found no full text and no 2025-26 gold-specific rule. The 2007 AML/CFT law covers precious-metal dealers, but I found no CAFIU guidance for jewellers. I found no competing software, and no shop count. A licence renewal is infrequent (about once a year), the market is small and informal, and there is no recurring filing workflow for software to ease. The score is low.",
+   "searches": 2,
+   "sources": "https://data.opendevelopmentmekong.net/laws_record/prakas-no-228-on-the-business-management-of-precious-metals-and-gemstones-as-jewelry; https://icj.org/wp-content/uploads/2013/06/Cambodia-Law-on-Anti-Money-Laundering-and-Combating-the-Financing-of-Terrorism-2007-eng.pdf",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b35"
+ },
+ "sonnet:cambodia:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Sub-Decree 190 (2011) is real and was the current framework in every source found. I found no 2025-26 replacement, but that is not confirmed either way. The buyer pool is tiny: a Cambodia Daily list named about 77 licensed agencies (undated). The licence is renewed only every 5 years, so frequency is low and the pain is mostly one-off. Agencies are few and each filing is occasional, so willingness to pay is weak. I found no agency-specific software and no state portal for outbound agencies. Only the inbound-worker FWCMS portal turned up, which is a different job. Per-worker file reporting duties were not confirmed. I did not retrieve the primary texts of Prakas 463 or the penalties. I suggest 2, below the provisional 3.",
+   "searches": 4,
+   "sources": "https://data.opendevelopmentmekong.net/th/laws_record/-sub-decree-190-on-the-management-of-sending-cambodian-workers-abroad-through-private-recruitment-a; https://ticambodia.org/library/?p=1277; https://english.cambodiadaily.com/?p=131059; https://www.ilo.org/resource/news/ilo-welcomes-improvements-protection-cambodian-migrant-workers; https://www.ilo.org/meetings-and-events/regional/launch-code-conduct-private-recruitment-agencies-cambodia",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b35"
+ },
+ "sonnet:cambodia:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Prakas 384 (2 Oct 2020) exists, as does Prakas 414 (2019) on permits for trading, stockpiling and distribution. Only summaries were readable. The PDF was unreadable and I could not confirm the record-keeping, renewal frequency or penalty rules. No current shop count exists: the only figures are a 2013 two-province survey (about 100 shops) and unknown private-vet numbers. I found no competing software or state app, but the search was thin and untargeted. The market is small and informal, buyers pay little, and enforcement looks weak. The workflow is mostly a permit and licensing process, not a recurring filing. That makes it a poor fit for a solo founder, so I score it low.",
+   "searches": 4,
+   "sources": "https://leap.unep.org/en/countries/kh/national-legislation/prakas-no-384-prorkorkorsorkor-ministry-agriculture-forestry-and; https://ampeid.org/documents/cambodia/prakas-no-384-prorkorkorsorkor-of-the-ministry-of-agriculture-forestry-and-fisheries-dated-on-02-october-2020-on-the-procedures-for-managing-veterinary-medicines-and-biological-materials-in-trade-and-mixing/; https://www.peopleinneed.net/media/publications/736/file/1433429458-pin-cambodia-2013-veterinary-business-competence-survey.pdf; https://leap.unep.org/en/countries/kh/national-legislation/joint-prakas-no-363-maff-moh-management-production-import-export",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b35"
+ },
+ "sonnet:cambodia:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is partly confirmed. The MME rules page lists two prakas: 13 Sep 2024 (operation of petroleum, LPG and joint stations) and 29 Apr 2025 (delegating LPG cylinder storage station permits to town/district administrations). I did not find the 23 Jul 2024 safety certificate prakas on that page. I could not read the texts, so renewal cycle, reporting duty, fees and penalties are unknown. I ran no competitor search for software. Market: the Ministry of Commerce counted more than 6,300 stations nationwide in March 2026 (per a search summary), but I found no LPG shop count. Scoring is low because permits are infrequent and are handled by local administrations, buyers are fragmented, and the software job is unclear.",
+   "searches": 2,
+   "sources": "https://mme.gov.kh/resources/rules-and-regulations/page/3, https://www.intellinews.com/nearly-2-000-cambodian-petrol-stations-shut-amid-fuel-shortages-431196/, https://mme.gov.kh/resources/rules-and-regulations/page/5",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b35"
+ },
+ "triage:cambodia": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Lift owners must hold a use certificate and 2-yearly inspection; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Family-run water operators have recurring licence, tariff and KPI duties to MISTI."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Small associations have a recurring annual report and bank-account duty to MOI."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Small factories face a recurring EPA duty to the Ministry of Environment."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Jewellery shops renew a 12-month licence; the duty falls on small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Licence renewal for recruitment agencies is a different duty from the overtime and contractor declaration in K02 (related: K02)."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Vet medicine sellers must hold permits and keep records; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Agro-input dealers need MAFF permits and storage certificates; unsure, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small slaughter operators have permit renewals and inspections."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Livestock traders need permits and sanitary certificates for each movement."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Money changers are small licensed firms with licence duties; keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Nurseries need an MoEYS licence and standards file; in scope as small licensed premises."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "The MoC annual declaration is a different duty and authority from the GDT filing in K03 (related: K03)."
+    },
+    {
+     "decision": "known",
+     "id": "A14",
+     "reason": "Enterprise opening declaration is a LaCMS filing by employers, the same buyer group and duty as K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Self-employed vendors registering with NSSF are a different buyer and duty from the employer payroll pack in K01 (related: K01)."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Owner-run guesthouses must keep a resident register and report foreigners within 24h under Sub-Decree 03."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "The annual foreign manpower quota and work-permit cycle is a new duty with a deadline (related: K01)."
+    },
+    {
+     "decision": "merge",
+     "id": "B3",
+     "reason": "Same lift owners and same Prakas 008 certificate-of-use duty as A1.",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Landlords, condo offices and dormitory operators are a different buyer group from B1's hotels under Sub-Decree 03 (related: K01)."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small LPG depots and petrol stations have permit and record duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small security firms are a different buyer from K02's labour contractors; unsure, so keep (related: K02)."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "The new construction laboratory licence under Prakas 050 falls on small firms; unsure, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "The US-bound Origin Certification Letter is a different duty from the CNSW licence preparation in K06 (related: K06)."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Co-operatives have registration and annual reporting duties to MAFF."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Small clinics contracted by NSSF have claims and contract duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Pharmacies hold licences and records for controlled drugs and precursors."
+    },
+    {
+     "decision": "merge",
+     "id": "B12",
+     "reason": "Same small factories and same Prakas 9540 EPA duty as A4.",
+     "ref": "A4"
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Private schools and tutoring centres are a different buyer from A12's nurseries, with licensing and reporting duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Karaoke and massage venues have licence and staff-certification duties."
+    },
+    {
+     "decision": "merge",
+     "id": "B15",
+     "reason": "Same MoC Prakas 044 annual declaration duty and buyers as A13.",
+     "ref": "A13"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Commercial groundwater users need a licence; unsure, so keep for verification."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS2",
+     "reason": "No mandatory recurring duty found, which fails the 'mandatory workflow' definition."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS3",
+     "reason": "The wild-honey PGS is voluntary, not a mandatory duty owed to an authority."
+    }
+   ]
+  },
+  "tag": "w2b35"
+ }
+}

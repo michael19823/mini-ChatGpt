@@ -1,4 +1,41 @@
 {
+ "critic:norway": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Hunting, firearms and weapons licensing (jakt, våpenhandlere, skytebaner, hunting outfitters)",
+     "first_search": "våpenhandler register politiet våpenforskriften krav til næringsdrivende våpenregisteret rapportering 2026",
+     "why": "Norway has very many small hunting and fishing outfitters and gun dealers. Dealers keep a weapons register for the police under the våpenforskrift, and a revised våpenlov/våpenforskrift has been in play. The coverage table folds hunting outfitters into row 20 and no ledger candidate came from it."
+    },
+    {
+     "category": "Excise-duty and special-tax filings by small producers and importers (særavgifter, Tollvesenet, TVINN)",
+     "first_search": "særavgift registrering avgiftspliktig oppgjør Skatteetaten Tolletaten lite bryggeri destilleri avgiftsoppgave frist 2026",
+     "why": "Small breweries, distilleries, cider and mineral-water makers, importers of sugar or chocolate, and electric-car or battery sellers must file periodic excise returns and hold registrations. Tolletaten has been modernising its systems, including a new digital system and the Tolletaten 2025-26 changes to avgiftsoppgjør. Only the alcohol licence turnover report was covered."
+    },
+    {
+     "category": "Small-scale farm and reindeer-herding duties (landbruk and reindrift: produksjonstilskudd, søknad om tilskudd, dyrehold-registers)",
+     "first_search": "produksjonstilskudd søknad frist 2026 Landbruksdirektoratet Altinn husdyrregister rapportering flytting dyr Mattilsynet",
+     "why": "Norway has tens of thousands of family farms and reindeer-herding siidas that run state programmes, such as the twice-yearly produksjonstilskudd application with Landbruksdirektoratet, Husdyrregisteret and Kukontrollen/Storfekjøttkontrollen, and Mattilsynet's livestock movement reporting. Only grain buyers, beekeepers and animal transport were screened. Reindeer herding has annual reindrift reports to Landbruksdirektoratet."
+    },
+    {
+     "category": "Cruise, tourism and outdoor-activity operators: guide, rental and boat services (ferdsel, charter, snow-scooter, RIB, rorbu), plus passenger boat safety",
+     "first_search": "småfartøy passasjerer næringsvirksomhet Sjøfartsdirektoratet krav til utleie sertifikat sikkerhetsstyring turistbåt RIB 2026",
+     "why": "Tourism is a sector with a very large number of tiny operators. Sjøfartsdirektoratet regulates small passenger vessels and charter boats, with registration, safety management and certificates. Kommunal and Statsforvalter rules cover motorised-vehicle use, and Fiskeridirektoratet rules apply to tourist-fishing. Only K05 and the tourist levy are known."
+    },
+    {
+     "category": "Electrical installers, certified electricians and low-voltage owners (DSB Elvirksomhetsregisteret, egenkontroll, el-tilsyn)",
+     "first_search": "registrering elvirksomhet DSB samsvarserklæring dokumentasjon el-tilsyn næringsbygg periodisk kontroll krav 2026 forskrift om elektriske lavspenningsanlegg",
+     "why": "Registered electrical firms must be in DSB's register, keep a documentation system and issue samsvarserklæring for each job. Owners of agricultural and commercial buildings face periodic electrical checks (el-tilsyn) under the FEL and FSE regulations. Row 12 covers lifts and boilers but not this much larger group, and nothing in the ledger touches it."
+    },
+    {
+     "category": "Waste and hazardous-waste handling by small producers (farlig avfall, EE-avfall, batteries and tyres: producer responsibility registers; the wasteful-handling declaration)",
+     "first_search": "farlig avfall deklarasjon små virksomheter avfallsdeklarering.no produsentansvar tekstiler forskrift 2026 batterier registrering",
+     "why": "Garages, workshops, dentists and farms must declare hazardous waste (deklarasjonsskjema, Avfallsdeklarering.no) and report to producer-responsibility bodies such as Grønt Punkt, Renas, Batteriretur and Dekkretur. A new batteries regulation and extended producer responsibility for textiles, with a Norwegian rule expected from 2025-26, are new. Row 11 covers only septic haulers, and construction waste is known as K02."
+    }
+   ]
+  },
+  "tag": "w2b30"
+ },
  "discover:A:norway": {
   "result": {
    "blocked_searches": 0,
@@ -337,5 +374,668 @@
    "searches": 28
   },
   "tag": "w2b28"
+ },
+ "discover:B:norway": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Holders of salgs- and skjenkebevilling (small restaurants, cafes, grocery and specialist shops, caterers), plus accountants who serve them",
+     "category": "31. Alcohol sales and serving licences",
+     "evidence": "https://www.oslo.kommune.no/skatt-og-naring/salg-servering-og-skjenking/omsetningsoppgave-og-bevillingsgebyr/ ; https://www.asker.kommune.no/naringsliv/serverings--salgs--og-skjenkebevillinger/omsetningsoppgave-for-alkohol/ ; https://www.baerum.kommune.no/tjenester/skatt-og-naring/skjenking-og-servering/omsetningsoppgave-og-bevillingsgebyr/ ; https://www.bergen.kommune.no/innbyggerhjelpen/naring-avgifter-og-anskaffelser/naring/bevilling-og-tillatelser/bevillingsgebyr-salgsog-skjenkebevillinger-20252026-frist-er-17februar-2026",
+     "existing": "Competitor search in Norwegian found no program for this report. Only municipal Excel and PDF forms. Whether POS systems export litres by drink group is unchecked.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "Alcohol turnover report and licence-fee compliance for small bars, restaurants and shops",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Alkoholloven and alkoholforskriften: annual omsetningsoppgave in litres by drink group 1/2/3 per outlet. Fee is based on expected volume, then recalculated. Deadlines differ by municipality (Oslo 16 Mar 2026, Bærum 1 Mar, Bergen 17 Feb 2026). Some municipalities want an auditor's confirmation. Missing reports count towards penalty points.",
+     "unchecked": "Number of licence holders; whether POS or accounting vendors export litres per drink group; willingness to pay; small amounts of money at stake; possible add-on for the points system and internal control (internkontroll alkohol)."
+    },
+    {
+     "buyer": "Small cleaning firms (and firms and sameier that buy cleaning and must check approval and cards)",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://arbeidstilsynet.no/globalassets/regelverkspdfer/forskrift-om-godkjenning-av-renholdsvirksomheter-m.m ; https://kommunikasjon.ntb.no/pressemelding/18508829/arbeidstilsynet-kontrollerer-renholdsbransjen?lang=no ; https://inte.arbeidstilsynet.no/contentassets/6d4363525e69423983033191375d1e09/skjema-1---rutine-ved-kjop-av-renhold--juni-2021.docx",
+     "existing": "Competitor search in Norwegian found nothing specific to cleaning. Only construction tools (HMSREG, Certior site board). Buyers use a free Arbeidstilsynet checklist and a public register.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Cleaning-firm approval upkeep, HMS-card and hours-record compliance, plus buyer-side checks",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Forskrift om godkjenning av renholdsvirksomheter: Arbeidstilsynet approval, public register, HMS cards, documentation of occupational health service, safety representative, written contracts, tariff compliance, injury compensation; periodic re-documentation (the exact renewal rule in section 7 is unconfirmed). Buyers must not use unapproved firms. 2025 campaign found missing HMS cards, incomplete hours records and deficient contracts.",
+     "unchecked": "Number of approved firms; renewal cycle and cost of documentation; whether general payroll or time-recording tools already cover the hours record; overlap with K07 products if those add cleaning."
+    },
+    {
+     "buyer": "Small companies, associations, sameier and foundations that have not registered or must keep entries current; accountants",
+     "category": "34. Beneficial-owner register",
+     "evidence": "https://www.sticos.no/fagstoff/frist-for-a-registrere-reelle-rettighetshavere ; https://www.revisorforeningen.no/fag/register-over-reelle-rettighetshavere/ ; https://cms12.info.altinn.no/en/forms-overview/bronnoysund-register-centre/register-beneficial-owners",
+     "existing": "Free state filing in Altinn. No competitor search was run (score under 4 not needed but noted).",
+     "known_mark": "new",
+     "name": "Beneficial-owner (reelle rettighetshavere) registration done-for-you for small firms, associations and sameier",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Duty since 1 Oct 2024, deadline 31 July 2025. Coercive-fine warnings reportedly sent 2 June 2026 (single commercial source), 3 weeks to comply. New entities: 14 days.",
+     "unchecked": "Date and facts of the June 2026 warnings from Brønnøysund directly; count of unregistered entities; whether the duty is one-off and so a shrinking market; accountants likely already do it."
+    },
+    {
+     "buyer": "Owners of coastal fishing boats under 15 m, especially 8-10 m",
+     "category": "35. Small-vessel fisheries electronic reporting",
+     "evidence": "https://www.regjeringen.no/no/aktuelt/ny-side4/id3117999/ ; https://www.fiskeridir.no/hoeringer/horing-om-innforing-av-forbud-mot-grensekryssende-fiske/horing-om-endringer-i-ers-forskriften.pdf ; https://www.regjeringen.no/no/aktuelt/rapporteringskrav-for-den-minste-fiskeflaten-utsettes-til-2026/id3077905/",
+     "existing": "Competitor search found only the state-owned Kystfiskeappen, run by an outside firm and described as neglected. No commercial small-boat app found. The regulation requires Fiskeridirektoratet's own app/message format, so a third party app may not be allowed (unchecked).",
+     "known_mark": "new",
+     "name": "Small-vessel ERS/VMS catch reporting aid for 8-10 m coastal fishers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "ERS/VMS to apply down to 8 m from 1 Jan 2026 (simplified), under 8 m postponed; soft enforcement for 8-11 m extended; Sept 2025 consultation merges Kystfiskeappen into the ERS rules. Equipment support 7,700 via Garantikassen.",
+     "unchecked": "Whether third-party apps are permitted; the state app's operator and its replacement plan; fleet size in the 8-10 m class; fishers' willingness to pay; sales through Fiskarlaget."
+    },
+    {
+     "buyer": "Private and small short-term rental hosts, small guest houses",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.regjeringen.no/no/aktuelt/lanserer-veileder-om-kortidsutleie/id3153968/ ; https://www.nhoreiseliv.no/contentassets/de4fc818306043ffb0be6b77cff34505/brev_korttidsutleie_fellesforbundet_nhoreiseliv_okt_2025.pdf ; https://www.skatteetaten.no/en/press/nyhetsrommet/rapporteringsplikt-for-airbnb-og-andre-utleiere-synliggjor-milliardinntekter/",
+     "existing": "Not searched.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "Short-term rental registration (EU STR regulation) for private hosts",
+     "score": 3,
+     "status": "weak",
+     "trigger": "EU Regulation on short-term rental data; Norway has not implemented it. Social partners asked for immediate implementation (Oct 2025). Ministry guidance for municipalities (March 2026) on when letting becomes business activity. 90-day cap in sameier.",
+     "unchecked": "Whether Norway will incorporate the regulation and when; a watch item only until a national duty exists."
+    },
+    {
+     "buyer": "Small estate agencies and accounting firms",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.finanstilsynet.no/nyhetsarkiv/tilsynsrapporter/2026/tilsynsrapport---meglergaarden-as/ ; https://www.regnskapnorge.no/globalassets/dokumenter/kvalitetskontroll/2-4-3_rutine_hvitvaskingsloven_rutine.pdf ; https://www.sticos.no/produkter/sticos-oversikt/kundekontroll",
+     "existing": "Sticos Kundekontroll (AML/KYC module), Kundesjekk.no (bought by BankID BankAxept, about 400 customers), Regnskap Norge template (2019 version), Eiendom Norge template.",
+     "known_mark": "new",
+     "name": "Template-based AML risk assessment and routines for small brokers and accountancy firms",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Hvitvaskingsloven section 7 and the risk regulation: firm-specific written risk assessment, kept updated. Finanstilsynet reports and fines in 2025-26 (e.g. a 150,000 NOK fine, and a report dated 12 Feb 2026) criticise generic templates and stale systems.",
+     "unchecked": "Whether the trade associations' tools cover the whole routine package; the firms' willingness to pay beyond association tools."
+    },
+    {
+     "buyer": "Small exporters of covered goods to the EU, small importers selling to the Norwegian market",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://www.miljodirektoratet.no/aktuelt/fagmeldinger/2026/september-2026/oppdatert-veileder-og-status-for-avskogingsforordningen/ ; https://www.miljodirektoratet.no/ansvarsomrader/arter-naturtyper/avskogingsforordningen/avskogingsforordningen-eudr/",
+     "existing": "Large international EUDR compliance platforms exist (Tracextech, Interu and others in search results); a local product for tiny firms was not found.",
+     "known_mark": "new",
+     "name": "EUDR documentation help for small Norwegian exporters and importers of wood, coffee and rubber products",
+     "score": 2,
+     "status": "weak",
+     "trigger": "EUDR: Norway not expected to adopt by the 2026/27 turn, but exporters to the EU must show compliance if treated as a third country. Small firms not under the old timber rules: from 30 June 2027. Miljødirektoratet's step-by-step guidance exists.",
+     "unchecked": "Number of small Norwegian exporters; EU simplification and delays; the Norwegian forskrift's final text; Norway's wood and furniture exporters' real needs."
+    },
+    {
+     "buyer": "Private physiotherapists, dentists and clinics with direct-settlement agreements; private practitioners who requested lab tests",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://www.helsedirektoratet.no/nyheter/har-du-fatt-avslatt-krav-om-dekning-av-utgifter-fra-helfo-na-kan-saken-vurderes-pa-nytt ; https://www.regjeringen.no/no/aktuelt/horing-om-laboratorieanalyser-rekvirert-av-helprivate-behandlere/id3134614/ ; https://helfo.no/kontroll/analyse-og-kontrollrapporter-fra-helfo/Kontrollrapport_fysioterapiomr%C3%A5det.pdf",
+     "existing": "Not searched. Practice systems probably already settle claims (unverified).",
+     "known_mark": "new",
+     "name": "Helfo claim-deadline and lab-referral changes for private health providers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Claim-deadline interpretation change (refusals before 30 Oct 2025 re-assessed). Proposed end of lab refunds for tests requested by private practitioners without a public agreement (planned 1 May 2026, adoption unconfirmed). Helfo post-audits find undocumented or unperformed treatments; repayments by set-off.",
+     "unchecked": "Which vendors dominate physio and dental practice systems; the final adoption of the lab change; any documentation-audit tool gap."
+    },
+    {
+     "buyer": "Small chemical distributors, laboratories and other holders of scheduled substances",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://www.dmp.no/contentassets/c1f13563adfb42b4be25da661c0d994d/horingsnotat-narkotikaprekursorer.pdf ; https://europalov.no/rettsakt/overvaking-av-handel-med-stoffer-som-kan-benyttes-til-ulovlig-fremstilling-av-narkotika/id-253",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Drug-precursor licence and reporting for small chemical users and sellers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "DMP consultation (Sept 2025) on implementing EU precursor rules in Norwegian regulations and adding 4-piperidone and 1-boc-4-piperidone. Possible new registration or reporting duty.",
+     "unchecked": "Final rules; number of licensed operators; whether any annual report is needed; no pharmacy duty found."
+    },
+    {
+     "buyer": "Grain buyers and seed-trade businesses (few, mostly co-operatives)",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://www.skatteetaten.no/bedrift-og-organisasjon/rapportering-og-bransjer/tredjepartsopplysninger/jordbruk-skogbruk-og-fiske/kjop-fra-primarnaring/korn/",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Grain-buyer third-party reporting and market-scheme paperwork",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Duty to report all purchases from producers to Skatteetaten; registration for price-reduction subsidy under the grain market scheme.",
+     "unchecked": "Number of independent buyers (likely a handful of large co-operatives); the same primary-producer purchase reporting for other farm goods bought by small traders."
+    },
+    {
+     "buyer": "Dental clinics and small imaging providers",
+     "category": "37. Radiation-protection duties of dental and X-ray clinics",
+     "evidence": "https://www.dsa.no/publikasjoner/veileder-14-veileder-om-stralebruk-innen-odontologi/Veileder_14_odontologi.pdf ; https://www.dsa.no/tilsyn/tilsyn-med-bruk-av-dental-cbct-ved-dental-norge-as-avd.kristiansand/Tilsynsrapport%20Dental%20Norge%20AS%20avdeling%20Kristiansand.pdf",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Dental and small X-ray clinic radiation register and quality-control upkeep (DSA)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Radiation regulation section 11: report all X-ray units to DSA's register (EMS) on purchase, move or disposal; CBCT approval; coordinator, equipment checks, physicist checks. 2025 inspection found an unreported unit.",
+     "unchecked": "Number of clinics; chain-owned clinics dominate; vendors and physicists already provide QA."
+    },
+    {
+     "buyer": "Boards of small sameier and borettslag",
+     "category": "33. Housing co-operatives and condominium associations",
+     "evidence": "https://www.regjeringen.no/no/aktuelt/ny-lov-for-boligsameier-trer-i-kraft-1.-januar/id2582468/ ; https://www.firesafe.no/wp-content/uploads/2022/06/Brannsikkerhet-for-borettslag-og-sameie.pdf",
+     "existing": "Not searched; this is a crowded area with large property managers (unverified).",
+     "known_mark": "new",
+     "name": "Housing co-operative and sameie board compliance pack (accounts, auditor, fire safety)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Sameier with 21 or more sections must keep accounts under the Accounting Act and have an authorised or registered auditor; boards carry fire-safety internal control; pre-1985 buildings need fire upgrades.",
+     "unchecked": "Software competition; whether anything changed in 2026; no new rule found."
+    },
+    {
+     "buyer": "Small shops and kiosks selling tobacco",
+     "category": "32. Tobacco sales licences",
+     "evidence": "https://www.regjeringen.no/contentassets/84b02470c330437480feef20b7440ddf/hoeringsnotat.pdf ; https://www.stor-elvdal.kommune.no/_f/p1/ifffa9181-5026-43c2-bdfc-612e9d14eabd/orientering-om-arlig-justering-i-gebyrsatser-for-alkohol-og-tobakksavgifter-for-2026.pdf",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Tobacco retailer licence and internal-control upkeep",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Municipal licence since 2015: knowledge test, vandel certificate, internal-control description, annual fee (rates adjusted 1 Jan 2026).",
+     "unchecked": "Nicotine pouch rules; any 2026 licensing change; low value per customer."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Only DSB municipal/fire-brigade supervision under the hazardous-substance regulation (container stations were the 2019 campaign theme) and the biofuel sales-obligation report to Miljødirektoratet by 31 March (obligated sellers, mostly large). Nothing new for small operators; no recurring small-firm filing found.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Grain buyers must give Skatteetaten third-party reports of all purchases from producers; Landbruksdirektoratet runs the grain market scheme and publishes delivery statistics. Buyers are few and large (co-ops). Low-score candidate only. Coffee falls under EUDR, see category 30.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Samvirkelag only update the Enhetsregisteret after the annual meeting (attach minutes) and file accounts. Nothing new beyond K03. Housing co-operatives are screened under 33.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Helfo direct settlement. Claim-deadline interpretation changed (refusals before 30 Oct 2025 can be re-assessed). Proposal to end refunds for lab tests requested by private practitioners without a public agreement (planned 1 May 2026, adoption not confirmed). Helfo post-audits of physiotherapists. Practice systems presumably already handle claims (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "DMP consultation (Sept 2025) on implementing the EU drug-precursor rules and adding 4-piperidone and 1-boc-4-piperidone. No pharmacy-specific or explosive-precursor duty found. Final rules and any new registration or reporting duty are unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Cleaning-firm approval scheme (Arbeidstilsynet): approval, public register, HMS cards, annual notification and re-documentation. Buyers may not buy from unapproved firms. 500+ inspections in 2 years. Most common breaches: missing HMS cards, incomplete hours recording, deficient contracts. No cleaning-specific software found. Security guards and staffing agencies not researched.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "found": "Quarries need a Mineral Act driftskonsesjon and a DMF-approved operating plan. I could not find a recurring annual production report. Construction is already covered by K02 and K07, and the sentral godkjenning (ansvarsrett) scheme is voluntary. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Finanstilsynet fines and reports (2025-26) on brokers' AML risk assessments and routines. Templates must be firm-specific and kept updated. Sticos Kundekontroll, Kundesjekk.no and Regnskap Norge templates exist. Beneficial-owner register enforcement (June 2026) is listed under 34.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "found": "No Norwegian guest-register duty found. Municipal-guidance veileder on short-term rental (March 2026). EU short-term-rental registration regulation not implemented in Norway. 90-day cap in sameier. Airbnb reports to Skatteetaten. Levy is K01.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "found": "EUDR: Norway not expected to incorporate it by the 2026/27 turn (Miljødirektoratet, 28 Sept 2026). Exporters to the EU must prove compliance anyway. Small firms not under the old timber rules: from 30 June 2027. Fish and ERS reporting is under 35.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Alcohol sales and serving licences (country-specific)",
+     "found": "Annual turnover report (omsetningsoppgave) in litres by drink group and by outlet, with municipality-specific forms and deadlines (Oslo 16 Mar 2026, Bærum 1 Mar, Bergen 17 Feb 2026). Fee based on expected volume, with later settlement. Missing report is grounds for penalty points, and Oslo has revoked licences. No tool found.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Tobacco sales licences (country-specific)",
+     "found": "Municipal licensing since 2015: knowledge test, vandel certificate, internal-control description, annual fees (rates adjusted 1 Jan 2026). No new rule. Little to build.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Housing co-operatives and condominium associations (sameier, borettslag) (country-specific)",
+     "found": "Sameier with 21 or more sections must keep accounts under the Accounting Act and use an authorised or registered auditor (existing since 2018). Boards carry fire-safety internal control. No new 2026 duty found. Software competition probably heavy (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "34. Beneficial-owner register (reelle rettighetshavere) (country-specific)",
+     "found": "Duty since 1 Oct 2024. Deadline 31 July 2025 passed. Per Sticos, Brønnøysund sent coercive-fine warnings on 2 June 2026 to all firms still unregistered. New entities have 14 days.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Small-vessel fisheries electronic reporting (ERS/VMS) (country-specific)",
+     "found": "Requirements down to 8 m from 1 Jan 2026 (simplified), under 8 m postponed, 8-11 m soft enforcement extended. Equipment support 7,700. Kystfiskeappen is a state-owned app run by an outside firm, described as neglected. Sept 2025 consultation proposes folding it into the ERS regulation.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Building-responsibility approvals (ansvarsrett, DiBK) (country-specific)",
+     "found": "Central approval is voluntary. DiBK/Husbanken merger from 1 January is mentioned only in a job ad (unverified). No 2026 rule found.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Radiation-protection duties of dental and X-ray clinics (DSA) (country-specific)",
+     "found": "All X-ray units must be reported to DSA's electronic register (EMS). CBCT clinics need approval. Veileder 14 revised April 2025, and DSA is collecting CBCT dose data. Inspections found unreported units. No new regulation found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 0,
+   "queries": [
+    "bensinstasjon tillatelse drivstoff anlegg DSB tilsyn rapportering årlig",
+    "samvirkelag kooperativ lag årsrapport Brønnøysund frist styre registrering små",
+    "private helseaktører refusjon HELFO oppgjør fysioterapeut tannlege krav 2026 nytt system",
+    "apotek eksplosivforløpere kjemikalier registrering tillatelse narkotikaprekursorer virksomheter",
+    "renholdsbyrå godkjenningsordning Arbeidstilsynet bemanningsforetak registrering 2026",
+    "eiendomsmegler regnskapsfører hvitvasking tilsyn Finanstilsynet rapportering små foretak 2026",
+    "skjenkebevilling omsetningsoppgave kommune gebyr innrapportering frist",
+    "elektronisk fangstdagbok fiskefartøy under 11 meter krav Fiskeridirektoratet 2026",
+    "avskogingsforordningen EUDR Norge importører treprodukter små importører",
+    "kortidsutleie bolig ny lov 2026 registrering utleier Norge",
+    "DMF årlig rapportering masseuttak pukk grus driftsplan",
+    "register over reelle rettighetshavere frist foretak 2026",
+    "bevilling tobakk salg nikotin kommune ny ordning 2026",
+    "Statens strålevern tannklinikk røntgen melding registrering 2026",
+    "kornkjøper kornmottak Landbruksdirektoratet godkjenning rapportering",
+    "ERS app småbåt fangstrapportering leverandør fiskere under 10 meter",
+    "hvitvasking system regnskapsfører eiendomsmegler programvare kundekontroll",
+    "renholdsregisteret Arbeidstilsynet fornyelse dokumentasjon HMS-kort digitalt verktøy",
+    "ansvarsrett små foretak DiBK sentral godkjenning ny forskrift 2026",
+    "borettslag sameie nye krav 2026 lovpålagt rapportering",
+    "ny eierseksjonslov sameier regnskapsplikt revisjon 21 seksjoner",
+    "overnatting gjesteregister brannsikkerhet pensjonat registrering tilsyn",
+    "program verktøy omsetningsoppgave alkohol skjenkebevilling restaurant kassasystem"
+   ],
+   "searches": 23
+  },
+  "tag": "w2b30"
+ },
+ "gapfill:norway": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small certified elkontroll firms (NEK 405-4) and electricians offering periodic control; owner side: farms and commercial building owners",
+     "category": "35. Electrical installers, certified electricians and low-voltage owners",
+     "evidence": "https://fgsikring.no/siteassets/regler/elkontroll/infoark-om-fg-kontroll-mars-2025.pdf ; https://fgsikring.no/siteassets/fg-kontroll/informasjon-om-fg-kontroll/registrering-av-elkontroll---arbeidsflyt-info-2025-3.pdf ; https://www.nemko.com/no/personellsertifisering/sertifisering-av-elkontrollører-for-næringsbygg ; https://res.cloudinary.com/forsikringsdrift/image/upload/FG-1400_10-Kontrollklasser-elkontroll-utgave-10-2026.pdf",
+     "existing": "FGkontroll.no (the insurers' portal for registration and upload). Competitor search 'elkontroll rapport programvare kontrollør NEK 405' found no named third-party report software, which could mean a gap or that vendors are simply not visible.",
+     "known_mark": "new",
+     "name": "Elkontroll report and deviation tracker for small certified electrical-inspection firms and their farm/commercial customers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Insurer-required periodic elkontroll (FG 1400 control classes, farms in class 3) under NEK 405-3. Deviations TG2/TG3 must be closed before status turns green. Reports must be uploaded in FGkontroll.no.",
+     "unchecked": "Whether commercial electrician ERP/field tools (for example ones used by installation firms) already generate NEK 405 reports and FG export; number of certified firms; whether the duty is legal or only insurance-driven; whether FGkontroll.no offers a free reporting form that covers it."
+    },
+    {
+     "buyer": "Small shipping companies running vessels under 24 m with 12 or fewer passengers: fjord and RIB tours, sea-fishing and wildlife boats, charter and taxi boats",
+     "category": "34. Cruise, tourism and outdoor-activity operators / passenger boat safety",
+     "evidence": "https://www.sdir.no:443/contentassets/0801b2893e3942e8ad553d323a4322ce/rsr022020-forskriftstekst.pdf ; https://www.regjeringen.no/globalassets/departementene/nfd/dokumenter/vedlegg/forskrift-om-fartoy-under-24-m-som-forer-12-eller-farre-passasjerer-003.pdf ; https://www.nhoreiseliv.no/contentassets/e6154f8cac6745dd976c4ca491825ecf/veileder_for_tilbydere_av_forbrukertjenester_til_sjos.pdf ; https://norsk-fartoyvern.no/wp-content/uploads/Mal-Sikkerhetsstyringssystem.pdf",
+     "existing": "Only static templates (the Norsk Fartøyvern PDF, the NHO Reiseliv veileder) and Sdir's egenkontroll form. Competitor search for an app/software for SMS and egenkontroll on 12-pax vessels found none in Norway (the Swedish EKAN e-service is not relevant).",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "Safety-management and annual-review pack for small tourist boat, RIB and rental operators (12 passengers or fewer)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Forskrift FOR-2020-01-14-63: notify Sdir before passenger transport starts, keep a documented SMS with risk assessment, drills and emergency plans, and carry out an annual verifiable review.",
+     "unchecked": "Operator count from Sdir's register; whether Sdir requires periodic reporting beyond the one-time notification; whether Sdir's own guidance or maritime consultants already sell digital SMS packs; whether the 2025 rule changes for smaller cargo ships or any other Sdir change affects it. Seasonal use limits willingness to pay."
+    },
+    {
+     "buyer": "Small alcohol producers registered for alcohol and packaging excise (craft breweries, micro-distilleries, cider/mead makers)",
+     "category": "32. Excise-duty and special-tax filings by small producers and importers",
+     "evidence": "https://www.skatteetaten.no/en/eksempler/saravgifter/saravgiftsregnskap/alkohol/ ; https://www.skatteetaten.no/bedrift-og-organisasjon/avgifter/saravgifter/rapportere/endre-lokale/ ; https://www.regjeringen.no/no/dokumenter/prop.-1-ls-20262027/id3176120/?ch=23 ; https://www.ssb.no/alkohol",
+     "existing": "ELSÆR is the free state filing system. Searching 'særavgiftsregnskap lite bryggeri regnskapsprogram' found no named software for small breweries. Accounting packages and production/brewery management tools were not checked.",
+     "known_mark": "new",
+     "name": "Excise bookkeeping (særavgiftsregnskap) and ELSÆR filing helper for craft breweries, distilleries and cider makers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Monthly skattemelding for alcohol and beverage-packaging excise in ELSÆR. A särskilt movement-based særavgiftsregnskap is required for the approved premises. Small-brewery reduced rates exist, and a 2027 proposal sets NOK 19.88/l up to 50,000 l for 3.7-4.7% beer.",
+     "unchecked": "Number of registered small producers; whether brewery production systems or accounting packages already compute the packaging/alcohol excise; whether the 2027 small-brewery rate was adopted; sugar-tax and chocolate importers, distillery rules and excise on EVs/batteries."
+    },
+    {
+     "buyer": "Businesses that sell clothing, textiles and shoes in Norway, including small shops, webshops and importers",
+     "category": "36. Waste and hazardous-waste handling: producer responsibility",
+     "evidence": "https://www.miljodirektoratet.no/hoeringer/2026/mai-2026/horing-av-forslag-til-forskriftsregulering-av-utvidet-produsentansvar-for-tekstiler-og-handtering-av-tekstilavfall/ ; https://www.miljodirektoratet.no/aktuelt/fagmeldinger/2026/mai-2026/produsentansvar-for-tekstiler-gi-innspill-til-forskrift/ ; https://www.regjeringen.no/no/aktuelt/tekstilprodusenter-ma-belage-seg-pa-a-betale-for-tekstilavfall/id3158677/",
+     "existing": "The PROs (once approved) will likely handle onboarding and reporting themselves, as Grønt Punkt does for packaging. No competitor search was done because details are unknown.",
+     "known_mark": "new",
+     "name": "Textile producer-responsibility (EPR) onboarding and volume reporting for small fashion, shoe and textile sellers",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Miljødirektoratet's draft regulation on extended producer responsibility for textiles: producers must join an approved producer responsibility organisation (PRO) and pay it; proposed in force 1 January 2027. The hearing closed 21 August 2026.",
+     "unchecked": "Final regulation, thresholds and reporting content; who the approved PROs will be; whether per-product volume reporting falls on sellers; competitor search for existing tools. Likely taken over by PRO portals."
+    },
+    {
+     "buyer": "Small importers and sellers of batteries, e-bikes, tools and EVs",
+     "category": "36. Waste and hazardous-waste handling: batteries",
+     "evidence": "https://www.miljodirektoratet.no/hoeringer/2026/april-2026/horing-av-endringer-i-batteriforskriften/",
+     "existing": "The established battery PROs (such as Batteriretur) handle registration. The page did not show details.",
+     "known_mark": "new",
+     "name": "Battery producer-responsibility registration and reporting for small importers and sellers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Batteriforskriften changes implementing the EU battery regulation: EPR for batteries placed on the market before entry into force, and product-passport registry.",
+     "unchecked": "Registration and reporting duties for small firms; PRO portals' coverage; hearing deadline (11 May 2026 per the page; 30 July 2026 per one search summary)."
+    },
+    {
+     "buyer": "Valdleder, jaktleder and landowner associations running elk, deer and roe hunts",
+     "category": "31. Hunting, firearms and weapons licensing",
+     "evidence": "https://www.ringerike.kommune.no/contentassets/3ebc3b8c11e84a2da897e310d06f94e0/administrasjonskriv-ringerike-2025.pdf ; https://trysil.kommune.no/_f/p1/i5e4fff25-f97f-4d37-8a07-b5e7d0e7f733/informasjon-om-elg-og-hjortejakta-2024.pdf ; https://www.jeger.no/raadyrjakt/ny-jakt-rapportering",
+     "existing": "Hjorteviltregisteret (free state tool, with an app), the app 'Sett og skutt', and a private rapporteringsløsning called Viltrapporten.",
+     "known_mark": "new",
+     "name": "Elk/deer hunting-team (valdleder) kill reporting",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Report seen/shot animals and a kill report to the municipality via the Hjorteviltregisteret; the municipality reports onward to SSB (older sources: within 10 days after the season; unverified for now).",
+     "unchecked": "Whether Viltrapporten is a commercial product with paying customers; hunting-lot leasing and landowner revenue administration."
+    },
+    {
+     "buyer": "Small businesses producing more than 1 kg of hazardous waste per year",
+     "category": "36. Waste and hazardous-waste handling by small producers",
+     "evidence": "https://www.miljodirektoratet.no/aktuelt/fagmeldinger/2026/juni-2026/ny-avfallsdeklarering-er-klar-til-bruk/ ; https://www.statsforvalteren.no/siteassets/fm-agder/dokument-agder/miljo-og-klima/avfall-og-gjenvinning/faktaark/farlig-avfall-ii-deklarering.pdf",
+     "existing": "Killed by the free state tool Avfallsdeklarering.no (new solution June 2026), plus the option to give the waste receiver a fullmakt to declare on the producer's behalf, which many small firms use.",
+     "known_mark": "new",
+     "name": "Hazardous-waste declaration for garages, workshops and clinics",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Avfallsforskriften chapter 11/12 declaration duty in Avfallsdeklarering.no, with an annual delivery duty.",
+     "unchecked": "Nothing material."
+    },
+    {
+     "buyer": "Family livestock farms",
+     "category": "33. Small-scale farm and reindeer-herding duties",
+     "evidence": "https://data.norge.no/en/datasets/fc60d5ea-4352-3f2f-8c75-734295c62d7b ; https://mattilsynet.no/dyr/produksjonsdyr/storfe/rapport-til-husdyrregisteret ; https://mattilsynet.no/dyr/produksjonsdyr/sau-og-geit/regler-for-a-flytte-sau-eller-geit/registrering-mottak",
+     "existing": "State Altinn forms and registers, municipal farm offices, Norsk Landbruksrådgiving (NLR), and Animalia tools. Competitor search for a private app found nothing Norwegian (the hits were Danish CHR).",
+     "known_mark": "new",
+     "name": "Farm subsidy application (produksjonstilskudd) and Husdyrregisteret movement-reporting helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Twice-yearly produksjonstilskudd application in Altinn (15 March, 15 October); movement reports to Mattilsynet's Husdyrregisteret within 7 days.",
+     "unchecked": "Whether Landbruksdirektoratet prefills the application; the state of the sheep/goat sending-holder reporting gap; commercial herd software (for example Animalia's). Reindeer MOR (annual Melding om reindrift) was also seen, with a very small buyer group and a state e-form, so not scored separately."
+    },
+    {
+     "buyer": "Small registered electrical firms and sole-trader installers",
+     "category": "35. Electrical installers, certified electricians and low-voltage owners",
+     "evidence": "https://info.altinn.no/en/forms-overview/the-norwegian-directorate-of-civil-protection-dsb/registration-of-enterprises-performing-work-relating-to-electrical-installations-or-repairs-electrical-equipment-elvirksomhetsregisteret/ ; https://www.dsb.no/contentassets/1bc9ad95de3a4716ac66498be66ad7ad/instruks-for-dle-2027.pdf ; https://www.huseierne.no/nyheter/dette-ma-du-vite-om-samsvarserklaring",
+     "existing": "The competitor search found no named product; small installers almost certainly use general job/ERP tools, which are not verified.",
+     "known_mark": "new",
+     "name": "Electrical-firm registration and samsvarserklæring documentation tool for small installers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "DSB Elvirksomhetsregisteret registration; samsvarserklæring and documentation for each job (FEK, FEL); DLE audits.",
+     "unchecked": "Existing installer software with samsvarserklæring modules; DLE audit findings on documentation; number of small firms."
+    },
+    {
+     "buyer": "Licensed gun and weapon-parts dealers",
+     "category": "31. Hunting, firearms and weapons licensing",
+     "evidence": "https://www.politiet.no/globalassets/tjenester-admin/vapen/melding-om-erverv-av-vapendel.pdf ; https://www.politiet.no/tjenester/vapen/vapen-inn-og-ut-av-norge/import-og-salg ; https://www.regjeringen.no/contentassets/ea8e137522ec47aa80fe87877664c190/hoyringsnotat-om-ny-vapenforskrift.pdf",
+     "existing": "Not checked; the police form is a one-page PDF. The buyer group is tiny.",
+     "known_mark": "new",
+     "name": "Firearms-dealer register and sale reporting",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Report to the police within one week of selling a regulated weapon part; trade licence under våpenloven section 23; storage under våpenforskriften 6-4; a revised våpenforskrift was in consultation.",
+     "unchecked": "The new våpenforskrift's dealer duties and date; dealer protocol rules; number of dealers; shooting ranges and skytterlag."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31. Hunting, firearms and weapons licensing (våpenhandlere, skytebaner, jakt, hunting outfitters)",
+     "found": "Dealers need police import permit plus trade licence (bevilling, våpenloven section 23) and must report sales of regulated weapon parts to the police district within one week (politiet.no melding om erverv av våpendel). Storage rules in våpenforskriften 6-4. A new våpenforskrift hearing exists but no dealer register or reporting rule for 2026 was confirmed. The dealer's own protocol/stock-book rules were not found. The buyer group is small (hundreds of dealers at most, unverified). Elk/deer hunting teams (valdleder) file kill reports in the free state Hjorteviltregisteret or the private Viltrapporten; municipalities cannot mandate either. Shooting ranges, skytterlag and hunting outfitters not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Excise-duty and special-tax filings by small producers and importers (særavgifter, ELSÆR, Tolletaten/TVINN)",
+     "found": "Alcohol producers must register with Skatteetaten per excise type, have an approved premises (særavgiftslager), keep a særavgiftsregnskap of all goods movements, and file a monthly skattemelding in ELSÆR (the SSB page says by the 18th; unverified). Tolletaten collects the excise at import for unregistered firms via TVINN. No new 2026 excise system was found, and Digitoll was not confirmed. A small-brewery rate (NOK 19.88/l up to 50,000 l for 3.7-4.7% beer) is proposed in Prop. 1 LS (2026-2027) for 2027 and is not yet confirmed as adopted. No named software for small breweries found. Sugar, chocolate and EV/battery excise sellers not screened.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Small-scale farm and reindeer-herding duties (produksjonstilskudd, Husdyrregisteret, reindrift)",
+     "found": "Produksjonstilskudd part 1 (livestock, count date 1 March, deadline 15 March, NOK 1,000/day late penalty) and part 2 (15 October 2026, per a municipal calendar) go through Altinn. Municipal farm offices and NLR help farmers. Movements of cattle, pigs, sheep and goats must be reported to the Mattilsynet Husdyrregisteret within 7 days (page dated March 2024 says only the receiving sheep/goat holder can report so far). A fertiliser plan is required for subsidy recipients. Reindeer: each siidaandel/reinlag files an annual Melding om reindrift (MOR) under reindriftsloven section 18 to Statsforvalteren; the final deadline regulation was not found. No private software seen. Both groups are served by state forms and advisers.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Cruise, tourism and outdoor-activity operators: guide/rental/boat services and passenger boat safety",
+     "found": "Vessels under 24 m with 12 or fewer passengers fall under the 2020 Sdir forskrift (FOR-2020-01-14-63). Shipping companies must notify Sdir before starting passenger transport (meldeplikt), keep a documented safety management system (SMS) with risk assessment, emergency and drill routines, and carry out an annual verifiable review. Vessels with 13-100 passengers have no separate regulation; the older Sdir guidance points to the 12-pax regulation and its egenkontroll form. NHO Reiseliv has a veileder for consumer sea services, and sample SMS templates exist as PDFs. Sweden has a digital EKAN e-service; Norway has no equivalent that was found. Snow-scooter and motor-traffic permits, rorbu and tourist-fishing duties were not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Electrical installers, certified electricians and low-voltage owners (DSB Elvirksomhetsregisteret, samsvarserklæring, el-tilsyn)",
+     "found": "Registration in DSB's Elvirksomhetsregisteret is mandatory for every business and sub-unit doing electrical work (FEK section 3, Altinn form). The installer issues a samsvarserklæring per job and keeps documentation (retention stated as 5 years under FEL section 13 in one source and as the installation's lifetime in another; unverified). DLE (the local electricity supervision) audits firms. Periodic elkontroll of commercial and farm buildings follows NEK 405 (part 3, with certified inspectors under part 4). It is driven mainly by insurers (FG 1400 control classes; reports go into the insurer portal FGkontroll.no) and not by a direct legal interval. No named software for electrician documentation or elkontroll reports was found in the search.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Waste and hazardous-waste handling by small producers (farlig avfall, EE, batteries, tyres, textiles EPR)",
+     "found": "Businesses with more than 1 kg of hazardous waste per year must deliver to a lawful receiver at least annually and declare it in Avfallsdeklarering.no. Miljødirektoratet and DSA launched a new declaration solution in June 2026 (ID-porten plus Altinn 3 access; the old admin module closed on 19 June 2026), and receivers can declare on the producer's behalf with a fullmakt. Textile EPR: Miljødirektoratet's draft regulation (hearing closed 21 Aug 2026) would make sellers of clothing, textiles and shoes join an approved PRO from 1 Jan 2027 and pay it fees; thresholds and reporting duties were not seen. Battery regulation changes (hearing closed 11 May 2026 per the page, 30 July 2026 per a search summary) cover EPR for legacy batteries and the product-passport registry; registration duties were not confirmed. Tyre and EE producer bodies were not reached.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "våpenhandler register politiet våpenforskriften krav til næringsdrivende våpenregisteret rapportering 2026",
+    "særavgift registrering avgiftspliktig oppgjør Skatteetaten Tolletaten lite bryggeri destilleri avgiftsoppgave frist 2026",
+    "produksjonstilskudd søknad frist 2026 Landbruksdirektoratet Altinn husdyrregister rapportering flytting dyr Mattilsynet",
+    "småfartøy passasjerer næringsvirksomhet Sjøfartsdirektoratet krav til utleie sertifikat sikkerhetsstyring turistbåt RIB 2026",
+    "registrering elvirksomhet DSB samsvarserklæring dokumentasjon el-tilsyn næringsbygg periodisk kontroll krav 2026 forskrift om elektriske lavspenningsanlegg",
+    "farlig avfall deklarasjon små virksomheter avfallsdeklarering.no produsentansvar tekstiler forskrift 2026 batterier registrering",
+    "elgjakt jaktfeltet valdansvarlig rapportering felt vilt Hjorteviltregisteret jaktlag grunneierlag frist",
+    "reindrift driftsenhet årlig melding reindriftsregnskap Landbruksdirektoratet siida rapportering frist 2026",
+    "Tolletaten nytt avgiftssystem særavgift importør registrering 2026 Tvinn Digitoll alkohol bryggeri lagerhaver",
+    "forskrift fartøy 12 passasjerer meldeplikt rederi risikovurdering sikkerhetsstyring turistbåt",
+    "elkontroll næringsbygg periodisk kontroll krav eier internkontroll elektriske anlegg FEL programvare",
+    "våpenhandler krav våpenforskriften handel skytevåpen næringsdrivende ervervstillatelse politiet",
+    "samsvarserklæring elektriker programvare elinstallatør dokumentasjonssystem FEK app",
+    "sikkerhetsstyringssystem fartøy 12 passasjerer digital app egenkontroll turistbåt utleie programvare",
+    "særavgiftsregnskap lite bryggeri regnskapsprogram ELSÆR skattemelding alkohol håndverksbryggeri",
+    "verksted farlig avfall deklarering fullmakt mottak bilverksted tannlege avfallsdeklarering",
+    "elkontroll rapport programvare kontrollør NEK 405 termografering rapportverktøy",
+    "gårdsbruker søknad produksjonstilskudd hjelp landbruksregnskap program Husdyrregisteret app flytting dyr",
+    "WebFetch miljodirektoratet textile EPR hearing page",
+    "WebFetch miljodirektoratet batteriforskrift hearing page"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b30"
+ },
+ "triage:norway": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Farms and professional pesticide users, mandatory spray journal; new vs all K."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Small van carriers, tachograph and permit duty with 2026-27 deadlines; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Voluntary associations, annual VAT-compensation application; in scope, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Private waterworks owners, recurring sampling and internal control; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Co-ops and small owners, lift inspection and register duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Small staffing firms and clients, annual confirmation; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Septic-emptying haulers reporting to municipalities; different buyer and duty from K04 (mini sewage plant service firms), related K04."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Small dealers, possible AML duty; unverified, keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Households as employer-like au pair hosts, recurring obligations; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Small vet clinics, VetReg reporting; in scope, deadline 2028."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Small drilling firms, statutory reporting duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Beekeepers, registration and renewal duties; sole traders/households in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Small studios, municipal approval and internal control; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Small driving schools, registry and renewal duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Farm food producers, registration and IK-mat; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A16",
+     "reason": "Small dismantlers, mandatory AutoStat reporting; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A17",
+     "reason": "Small animal transporters, approval duties; weak but unchecked."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Alcohol licence holders' annual turnover report is a different buyer and duty from K01 tourist levy; related K01."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Cleaning firms' approval and HMS-card duty is a different buyer group from K07 construction crew lists; related K07, verify whether HMSREG-type tools cover it."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Beneficial-owner registration for small entities, fine warnings; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small coastal fishers' ERS reporting; different from K05 tourist camps, but related to it."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "EU short-term rental registration is a different duty from K01 levy; related K01."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small brokers and accountants, AML risk assessment duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Small exporters/importers, EUDR traceability with 2027 deadline; weak but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small private health providers' Helfo claims; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small chemical holders, possible precursor duty; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Grain buyers' third-party reporting; small co-ops, unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Dental clinics' radiation register duty; small offices in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Sameier boards' accounts, auditor and fire safety duties; associations in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Small tobacco retailers, municipal licence and annual fee; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Small elkontroll firms and farm customers, insurer-required periodic control; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Small passenger boat operators' SMS and review is a different duty from K05 catch reporting; related K05."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Craft brewers' excise bookkeeping and monthly filing; small producers, new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Small textile sellers' EPR, proposed 2027 deadline; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Small battery importers' EPR; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Family farms' subsidy applications and movement reporting; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS9",
+     "reason": "Small installers' registration and documentation duty; different from GAPS1 (inspection reports); unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS10",
+     "reason": "Small firearms dealers' reporting to police; unverified, keep."
+    }
+   ]
+  },
+  "tag": "w2b30"
  }
 }

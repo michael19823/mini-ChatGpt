@@ -1,4 +1,41 @@
 {
+ "critic:argentina": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Monotributo / autónomos / simplified-regime recategorization and household-level ARCA duties for sole traders (not generic accounting)",
+     "first_search": "recategorización monotributo ARCA 2026 régimen simplificado cambios RG exclusión parámetros",
+     "why": "Millions of monotributistas must recategorize semiannually (Jan/Jul) and face exclusion checks; a different buyer group from K11 and not covered in the 36 categories. Unsure whether free ARCA simulators kill it, but not checked."
+    },
+    {
+     "category": "Taxi, remís, app-driver and school-transport licensing (provincial/municipal) plus RTO/VTV and driver ficha",
+     "first_search": "renovación habilitación remís taxi municipalidad requisitos VTV obligatoria 2026 ordenanza",
+     "why": "Cat. 18 only found fragmented school transport. Taxis/remises have mandatory periodic municipal habilitation, VTV, libreta sanitaria and insurance, and a large owner base. Also VTV/RTO workshops as small operators were not probed."
+    },
+    {
+     "category": "Cannabis/hemp and other new regulated agri-lines: industrial hemp (cáñamo) producers under ARICCAME/Decreto 405/2023 and seed producers (INASE registers)",
+     "first_search": "INASE inscripción registro comercial semillas declaración jurada anual multiplicadores 2026 resolución",
+     "why": "Cat. 33 covers REPROCANN only. INASE seed multipliers, RNCyFS registers and hemp growers have annual declarations; many small farms. Not in coverage table."
+    },
+    {
+     "category": "Small mining, lapidary, fishing and artisanal fisheries: Registro de Pesca / SENASA fish plants and CFP permits",
+     "first_search": "declaración jurada de captura pesca artesanal permiso de pesca Subsecretaría de Pesca resolución 2026 desembarques obligatoria",
+     "why": "Argentina has many small fishing boat owners and processing plants with mandatory catch declarations and landings reports; Mar del Plata/Chubut clusters. Category 30 mentions fish only as exports; no catch-reporting duty searched."
+    },
+    {
+     "category": "Municipal tasas, habilitación comercial renewals and Ingresos Brutos local regimes (ARBA/AGIP/Rentas, Convenio Multilateral SIFERE/SIRCREB, padrón de agentes de retención)",
+     "first_search": "Convenio Multilateral CM05 anual 2026 cambios SIFERE pequeños contribuyentes régimen simplificado ingresos brutos",
+     "why": "Provincial gross-income duties (monthly DDJJ, agentes de percepción/retención, CM03/CM05 Convenio Multilateral) fall on every small firm and sole trader; none of the 36 categories touches ingresos brutos or habilitaciones comerciales municipal renewal. Likely competitive, but must be screened."
+    },
+    {
+     "category": "Consorcios de propietarios (property-administrator duties: RPA registry, expensas, labour of encargados/porteros, SUTERH F.931)",
+     "first_search": "Registro Público de Administradores de Consorcios renovación anual Ley 941 administradores obligaciones 2026 AGIP",
+     "why": "Consorcios are the largest household-style employer group (building doormen/encargados) and administrators must be registered (CABA RPA Ley 941, annual renewal; provincial equivalents). Only the elevator angle was touched; K16 covers domestic staff only."
+    }
+   ]
+  },
+  "tag": "w2b29"
+ },
  "discover:A:argentina": {
   "result": {
    "blocked_searches": 0,
@@ -641,6 +678,398 @@
     "mutuales ayuda económica régimen informativo INAES Res 1279/2026 software"
    ],
    "searches": 24
+  },
+  "tag": "w2b29"
+ },
+ "gapfill:argentina": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Independent property administrators registered in CABA (and later other provinces) managing several buildings each",
+     "category": "36. Consorcios de propietarios",
+     "evidence": "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/847840 ; https://boletinoficial.buenosaires.gob.ar/normativaba/norma/838956 ; https://mercado.com.ar/ruta-digital/sanciones-a-administradores-de-consorcios-cayeron-624-en-la-ciudad-en-2026 ; https://buenosaires.gob.ar/tramites/declaracion-jurada-de-administradores-de-consorcios",
+     "existing": "Octavo Piso (quoted as reducing errors), CONSO (Capterra, payroll module), Unitify (expensas), other expensas platforms. None seen that explicitly builds the TAD per-consorcio DDJJ file; TAD itself is the state portal.",
+     "known_id": "K16",
+     "known_mark": "new",
+     "known_note": "K16 is household domestic employers only; this is a different buyer (professional administrators) and duty (registry). Not covered by K08 either.",
+     "name": "Consorcio administrator RPA compliance pack (CABA Ley 941: annual matrícula update, per-consorcio DDJJ via TAD, alta/baja in 30 days, certificate display)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ley 941 arts 8, 12; DGDYPC Disp 2615/2026 (2025 DDJJs due 30-11-2026), Disp 1129/2026 (alta/baja within 30 days), earlier Disp 882/2025, 916/2024; sanctions for late filing",
+     "trigger_note": "",
+     "unchecked": "Number of registered administrators; whether Octavo Piso or similar already automate the DDJJ; provincial registries (Buenos Aires province law awaiting regulation); willingness to pay. Competitor search run: 'software administración de consorcios...' found CONSO, Unitify; not a clean kill."
+    },
+    {
+     "buyer": "Consorcios and their administrators (building doormen/encargados under Ley 12.981 and CCT)",
+     "category": "36. Consorcios de propietarios",
+     "evidence": "https://contadoresenred.com/consorcios-como-saber-si-deben-aportes-y-contribuciones-sindicales-a-sus-trabajadores/ ; https://www.capterra.es/software/1111352/CONSO ; https://eleconomista.com.ar/politica/mas-libertad-menos-expensas-proyecto-busca-reducir-poder-suterh-modernizar-consorcios-n77980",
+     "existing": "CONSO payroll module; generic payroll software; accountants. Product scope likely generic payroll (out of scope per contract) unless built as SUTERH-specific.",
+     "known_id": "K16",
+     "known_mark": "new",
+     "known_note": "Adjacent to K16 (domestic staff) but different employer type",
+     "name": "Encargado/portero payroll and SUTERH-FATERyH-OSPERyH contributions engine for consorcios",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Monthly payroll, F.931 and union contributions shown on expensas (Ley 941 art 10 b)",
+     "unchecked": "Whether CONSO/others compute SUTERH scales and additional items; status of Bongiovanni bill."
+    },
+    {
+     "buyer": "Monotributistas (millions) or accountants serving them",
+     "category": "31. Monotributo / simplified-regime",
+     "evidence": "https://www.ambito.com/informacion-general/arca-recordo-las-fechas-limite-la-primera-recategorizacion-del-monotributo-2026-n6234657 ; https://www.iprofesional.com/impuestos/446225-tabla-monotributo-aplica-arca-para-exclusiones-2026 ; https://www.minutouno.com/alerta-el-monotributo-los-motivos-los-que-arca-te-puede-excluir-del-regimen-julio-n6300298",
+     "existing": "ARCA free simulator, ARCA Móvil simplified recategorization with prefilled billing; invoicing SaaS (K11/K15) usually show category limit; no dedicated alert app found.",
+     "known_id": "K11",
+     "known_mark": "new",
+     "known_note": "Same buyer group as K11 invoicing, different duty; likely absorbed by invoicing SaaS",
+     "name": "Monotributo recategorization and exclusion early-warning for sole traders",
+     "score": 2.5,
+     "status": "weak",
+     "trigger": "Semester recategorization (Jan/Feb and Jul/Aug), Ley 27.743 parameters, ARCA ex-officio recategorization and exclusion based on bank/card/wallet cross-checks",
+     "unchecked": "Whether invoicing apps (e.g., TusFacturasAPP, Facturante) already alert on category limits; paid demand."
+    },
+    {
+     "buyer": "Remisería agency owners and taxi licence holders; small school-transport owners",
+     "category": "32. Taxi, remís, app-driver, school-transport licensing",
+     "evidence": "https://buenosaires.gob.ar/tramites/renovacion-de-licencia-de-taxi ; https://munilocal.sanfrancisco.gov.ar/digesto/archivos_ordenanzas/pdf/3594.pdf ; https://estacion.gualeguaychu.gov.ar/adjuntos/transparencia/ordenanzas/o12591021.pdf ; https://yo-facturo.com/gestion-flota/",
+     "existing": "YoFacturo fleet module (VTV/insurance/patente reminders, AFIP invoicing, AR$20k-75k/month plans plus AR$30k tracking add-on); does not mention habilitación, driver documents or municipal compliance. SITaRe academic prototype only. Competitor search run, partial coverage.",
+     "known_id": "K17",
+     "known_mark": "new",
+     "known_note": "Cat. 18 earlier found only fragmented school transport; K17 (pest control) is a different sector but same municipal fragmentation lesson",
+     "name": "Remis/taxi/school-transport owner compliance calendar (habilitación, VTV, insurance, libreta sanitaria, driver licences) per municipality",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Municipal ordinances (e.g., San Francisco Córdoba semiannual police certificate and libreta sanitaria; Gualeguaychú homologated odometer/app; CABA annual taxi licence renewal within 30-day window)",
+     "unchecked": "Number of remisería/taxi owners; whether dispatch apps (remis software) already store driver credentials; VTV/RTO workshop operators not probed; provincial transport rules (PBA, Córdoba, Santa Fe)."
+    },
+    {
+     "buyer": "Coastal/industrial fishing armadores and small processing plants (Mar del Plata, Chubut, Santa Cruz)",
+     "category": "34. Small fishing / fish plants",
+     "evidence": "https://faolex.fao.org/docs/pdf/arg104033.pdf ; https://www.argentina.gob.ar/normativa/nacional/norma-227621/texto ; https://cfp.gob.ar/resoluciones/res04-2000.pdf",
+     "existing": "Not seen; state electronic systems presumably handle it (unverified).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Cat. 30 only covered fish exports",
+     "name": "Fishing vessel owner catch reporting (Parte de Pesca Final, annual DDJJ update) and plant landing returns",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Res 167/2009 (sworn parte de pesca final before unloading), Res 375/2011, Res 39/2014 (annual update of sworn declarations under Res 514/2009), Res CFP 4/2000 quota data",
+     "unchecked": "Current electronic reporting system; whether obligations still as in 2009-2014 norms; artisanal/provincial duties; vessel counts; any vendor software."
+    },
+    {
+     "buyer": "Small seed multipliers, dealers and processors; technical directors",
+     "category": "33. Seed producers / INASE registers",
+     "evidence": "https://www.boletinoficial.gob.ar/detalleAviso/primera/306627/20240430?anexos=1 ; https://news.agrofy.com.ar/noticia/150961/soja-obligatoriedad-declarar-semilla-utilizada-y-reservada ; https://blogdelcontador.com.ar/el-inase-simplifica-el-regimen-de-informacion-de-las-especies-incluidas-en-el-sisa",
+     "existing": "INASE own online management; agronomy consultancy. No vendor product seen.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Related agro-regulatory buyer set, different register",
+     "name": "INASE RNCyFS seed firm compliance (annual fee, lot registration, own-use declarations, cotton annual DDJJ)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Res INASE 153/2024 and 474/2024 (RNCyFS categories and lots), Res SeBio 1/2024 (annual fee), Res INASE 245/2024 (own-use declaration), Res 579-E-2017 cotton 31 Jan DDJJ (current status unverified)",
+     "unchecked": "Count of RNCyFS firms; whether any recurring per-firm report exists beyond lot registration; adjacency to K01/K05 buyers (agro sales)."
+    },
+    {
+     "buyer": "Hemp growers and breeders",
+     "category": "33. Hemp / ARICCAME",
+     "evidence": "https://bruchoufunes.com/nuevo-requisito-para-la-inscripcion-de-variedades-de-canamo-en-el-registro-nacional-de-cultivares/ ; https://bichosdecampo.com/liberen-al-canamo-mientras-resuelven-sus-taras-respecto-del-cannabis-el-gobierno-flexibilizo-requisitos-para-que-se-pueda-cultivar-la-variedad-industrial-de-esa-planta/",
+     "existing": "None seen.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Cat. 33 REPROCANN already screened elsewhere",
+     "name": "Industrial hemp (cáñamo) grower and variety licence/declaration tracking",
+     "score": 1.5,
+     "status": "weak",
+     "trigger": "ARICCAME licence (Res 1/2024), Res Conjunta INASE-ARICCAME 1/2025",
+     "unchecked": "Number of licensees; ARICCAME intervention status in 2026; no recurring declaration found."
+    },
+    {
+     "buyer": "Firms above provincial agent thresholds (e.g., ARBA RN 7/2026 ARS 7,800M) and their accountants",
+     "category": "35. Ingresos Brutos / Convenio Multilateral",
+     "evidence": "https://contadoresenred.com/convenio-multilateral-vencimientos-2026-del-sifere-sircar-sircreb-sircupa-y-sirtac/ ; https://auren.com/ar/wp-content/uploads/2026/02/RSNF-874.pdf ; https://www.deloitte.com/latam/es/services/tax/perspectives/tax-update-fines-abril-2026.html",
+     "existing": "ERP/accounting suites and accountant-run tools; thresholds are large so agent duty falls on larger firms (out of scope).",
+     "known_id": "K11",
+     "known_mark": "new",
+     "known_note": "Accountant/ERP territory; same buyer circle as e-invoicing",
+     "name": "Ingresos Brutos retention/perception agent padrón-alícuota bridge for mid-size retailers and wholesalers (ARBA, API Santa Fe, SIRTAC)",
+     "score": 1.5,
+     "status": "weak",
+     "trigger": "Monthly padrón publication (ARBA, Santa Fe PARP Res API 37/2025), SIRTAC adaptations (San Luis DPIP 10/2026)",
+     "unchecked": "Small agents under special regimes; competitor search not run because score under 3."
+    },
+    {
+     "buyer": "Small shopkeepers and multi-local owners",
+     "category": "35. Municipal habilitación",
+     "evidence": "https://www.analisisdigital.com.ar/locales/2026/08/18/la-municipalidad-de-parana-implementa-un-nuevo-regimen-que-simplifica-las-habilitaciones-comerciales ; https://sibom.slyt.gba.gob.ar/bulletins/14350/contents/2346932",
+     "existing": "No software found; municipalities themselves digitising and lengthening validity, reducing pain.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Highly fragmented, trend is toward less renewal burden",
+     "name": "Municipal habilitación comercial renewal and annual DDJJ tracker across municipalities",
+     "score": 1.5,
+     "status": "weak",
+     "trigger": "Municipal ordinances: annual renewal or periodic renewal tied to tasa debt (General Belgrano), annual DDJJ (San Antonio de Gálvez SUHAM), Paraná Decreto 1736/2026 (4-6 year validity, QR)",
+     "unchecked": "No competitor search run (below 3); thousands of municipalities."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31. Monotributo / autónomos / simplified-regime recategorization and sole-trader ARCA duties",
+     "found": "Real recurring duty (semester recategorization, Feb and Aug 2026; exclusion checks; Ley 27.743 parameters adjusted by IPC; ARCA cross-checks bank/card/wallet data and can recategorize or exclude ex officio, July 2026 reinforcement). But ARCA already prefills 12-month billing in a simplified recategorization flow (ARCA Móvil, for taxpayers with e-invoice POS), offers a free simulator, and sends fines/ex-officio notices through the Domicilio Fiscal Electrónico. No third-party alert app found in one search. Buyer is the sole trader (low willingness to pay) or accountants (K11-adjacent, commodity). Weak candidate, not killed.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Taxi, remís, app-driver, school-transport licensing plus RTO/VTV and driver ficha (extends cat. 18)",
+     "found": "Municipal duties confirmed but fragmented: CABA taxi license renewal is online (miBA level 3, window 30 days before to 30 days after expiry, then extemporaneous), needs insurance, patentes, vehicle technical check, taximeter and app/radio checks, driver card (D1/D2/D21). Interior ordinances (San Francisco Córdoba: semiannual police certificate, libreta sanitaria, professional licence, age limit 60; Gualeguaychú: homologated odometer/app platform; Río Grande: remis licence merit register) differ per city. Competitor: YoFacturo fleet module sets VTV/insurance/patente reminders (page does not mention habilitación, driver documents or municipal compliance). Academic SITaRe (Córdoba) only. Workshops (VTV/RTO plants) not probed (budget). No 2026 national trigger.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Industrial hemp (ARICCAME) and INASE seed multiplier/dealer registers (RNCyFS)",
+     "found": "RNCyFS firm registration, lot registration and annual fee are real (Res INASE 153/2024, 474/2024, Res SeBio 1/2024 fees, Res 162/2025 bulk sales, Res 286/2025 two-year validity of identification documents, Res 245/2024 grower own-use declarations). A fixed annual DDJJ is confirmed only for cotton dealers/processors (Res 579-E-2017, 31 Jan, current validity unverified). No hemp acreage declaration found; ARICCAME was intervened (Decreto 833/2024), hemp variety registration needs ARICCAME licence (Res Conjunta 1/2025); projects up to 100 ha pay no fee. Segment small and informal. INASE already runs its own online management system (SIGI-type, unverified name).",
+     "status": "screened"
+    },
+    {
+     "category": "34. Small fishing, artisanal fisheries, fish plants: catch reporting and landing duties",
+     "found": "National duties exist for vessel owners with permits under Ley 24.922: Parte de Pesca Final as sworn declaration at port entry before unloading (Res 167/2009, modified by Res 375/2011), annual update of sworn declarations (Res 39/2014 referencing Res 514/2009), conversion-factor declaration for processing vessels. Mostly on industrial/coastal armadores, with electronic systems likely replacing paper (not verified). No national obligation specific to artisanal fishers found; only a 2021 bill for inland artisanal fishing. Provincial (Chubut, Buenos Aires, Santa Cruz) and SENASA plant registers not reached. No software or killer product seen.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Municipal habilitación comercial renewals and Ingresos Brutos local regimes (ARBA/AGIP/Rentas, Convenio Multilateral, retention agents)",
+     "found": "Heavy provincial/municipal duties but accountant-served and tool-saturated. Convenio Multilateral: CM03/CM04 monthly and CM05 annual (due 30-6-2026, Comisión Arbitral RG 20/2025) filed via SIFERE Web; SIRCREB/SIRCUPA/SIRTAC regimes. CABA simplified IIBB regime redesigned (AGIP Res 559/2025) and merged into Monotributo payment; new CABA transparency rule Res 169/2026 requires 'ALÍCUOTA ISIB CABA xx,xx%' legend on consumer receipts (invoicing software will cover it). Retention/perception agents: ARBA RN 7/2026 thresholds ($7,800M general), Santa Fe PARP padrón (Res API 37/2025), San Luis DPIP 10/2026; large agents only. Municipal habilitaciones: Paraná Decreto 1736/2026 (digital via SIAT, QR certificate, 4-6 year validity, post-inspection for low risk), General Belgrano auto-annual renewal blocked by tasa debt, San Antonio de Gálvez annual DDJJ via SUHAM. Trend is toward fewer renewals and municipal digitisation; no cross-municipality gap product found.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Consorcios de propietarios: administrator duties (RPA Ley 941), expensas, encargados labour (SUTERH, F.931)",
+     "found": "Strongest of the six gaps. CABA Ley 941: annual matrícula update plus one sworn DDJJ per consorcio administered via TAD (miBA level 3); Disposición DGDYPC 2615/2026 (published 10-4-2026) sets 2025 DDJJs due by 30-11-2026; Disposición 1129/2026 requires alta/baja of consorcios reported within 30 days; displays of registry certificate required; sanctions 73 administrators in H1 2026 (68 orders, ARS 122.9M), down from 191 in H1 2025. Provincial Buenos Aires registry law awaiting reglamentación (Liga del Consorcista, unverified). Software exists for expensas and some payroll: CONSO (Capterra, payroll module, ARS 2,950 start), Unitify, Octavo Piso, Mis Expensas-type platforms; none seen that specifically produces the TAD per-consorcio DDJJ file. SUTERH encargado payroll scales are union-set; bill by Bongiovanni (2024) would loosen the encargado regime, status unknown. Registered administrator count not found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "recategorización monotributo ARCA 2026 régimen simplificado cambios RG exclusión parámetros",
+    "monotributo calculadora recategorización app alerta categoría automática ARCA simulador gratuito",
+    "monotributistas excluidos de oficio ARCA 2026 controles cruce datos tarjetas servicios públicos categoría real",
+    "renovación habilitación remís taxi municipalidad requisitos VTV obligatoria 2026 ordenanza",
+    "licencia de taxi CABA renovación revisión técnica obligatoria VTV taxis 2026",
+    "software gestión remisería control vencimientos habilitación VTV seguro choferes Argentina",
+    "INASE inscripción registro comercial semillas declaración jurada anual multiplicadores 2026 resolución",
+    "cáñamo industrial ARICCAME inscripción registro productores INASE 2026 declaración jurada superficie",
+    "INASE semilleros libro de movimiento declaración de existencias RNCyFS anualidad obligación",
+    "declaración jurada de captura pesca artesanal permiso Subsecretaría de Pesca resolución 2026 desembarques",
+    "Argentina pesca artesanal embarcaciones permiso DDJJ captura plantas SENASA",
+    "partes de pesca declaración jurada de captura Consejo Federal Pesquero buques costeros",
+    "Convenio Multilateral CM05 anual 2026 cambios SIFERE pequeños contribuyentes régimen simplificado",
+    "ingresos brutos pequeños contribuyentes agentes de percepción retención padrón software 2026 ARBA",
+    "habilitación comercial renovación anual municipalidad tasa seguridad e higiene software vencimientos 2026",
+    "Registro Público de Administradores de Consorcios renovación anual Ley 941 obligaciones 2026 AGIP",
+    "software administración de consorcios expensas liquidación sueldos encargados SUTERH",
+    "administradores de consorcios declaración jurada anual Registro Público TAD sanciones 2026 software"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b29"
+ },
+ "triage:argentina": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New buyer (car dismantlers) and duty (RUDAC part traceability), differs from K06 scrap books."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Slaughterhouses/matarifes with SIF records; different buyer and duty from K03."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Small effluent haulers under provincial register; differs from K04 hazardous manifests."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "One-off RENSPA re-registration with 90-day deadline hitting many small producers."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Recurring annual lift registration duty on small administrators and maintainers; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Small jewellers have mandatory UIF obligations; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small associations and foundations with IGJ annual filing; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Small food producers face registration transition with deadline; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Different buyer (vehicle dealers/workshops) and duty (BA police-rubricated book) than K06; related to A1 but distinct duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Funeral firms annual DJ; small firms, mandatory, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Veterinary shops psychotropic book/list is a different duty from K05 SIGTRAZAVET."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Livestock hauliers vehicle habilitation is a different buyer and duty from K03."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Small real estate brokers with UIF duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Small co-operatives and mutuales with new INAES filing regime; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Small chemical users newly covered by RENPRE after 56-substance addition."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small wineries with INV declarations; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Gun shops with ANMaC register duties; small businesses, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Growers' associations REPROCANN registration; community bodies, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Small acopios and cooperatives with 24-hour SISA reporting duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Independent fuel stations and new mobile stations with reporting duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small GNC workshops with ENARGAS duties; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Individual insurance producers with SSN registry and AML duties; small offices."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Notaries with UIF reports; different buyer from B1 brokers."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Short-term rental owners with provincial registers and guest declarations."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Small exporters facing EUDR deadline; many small firms act at once."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Small importers with mandatory technical filings; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Small private security agencies with licence renewal duties; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "Construction employers' IERIC registration is a different buyer and duty from K08 contractor control; verifiers can judge shrinking value."
+    },
+    {
+     "decision": "keep",
+     "id": "B17",
+     "reason": "Pharmacies with controlled-drug/e-prescription duties; small offices in scope."
+    },
+    {
+     "decision": "known",
+     "id": "B18",
+     "reason": "Same clinics/labs insurer billing duty as K09, K13 and K19.",
+     "ref": "K09"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Professional administrators' registry duty is a different buyer and duty from K16 and K08."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Consorcios as employers of doormen with union contributions; differs from K16 household employers."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Sole traders' monotributo recategorization is a different duty from K11 invoicing; verifiers judge overlap."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Remis/taxi owners' municipal licensing calendar; new buyer, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Small fishing vessel owners and plants with catch reporting; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Small seed firms with INASE registers; different buyer and duty from K01."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Hemp growers with licence/declaration duties; different from B6 REPROCANN."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS8",
+     "reason": "Out of scope: duties fall only on firms above large provincial agent thresholds (ARS 7,800M) and accountant/ERP territory."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS9",
+     "reason": "Small shopkeepers' municipal habilitación renewals; in scope, fragmentation left to verifiers."
+    }
+   ]
   },
   "tag": "w2b29"
  }

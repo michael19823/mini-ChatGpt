@@ -561,5 +561,288 @@
    "searches": 18
   },
   "tag": "w2b62"
+ },
+ "gapfill:rwanda": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Agrochemical retail shops, distributors and importers (Rwanda Agriculture Inputs Dealers Association members)",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://support.new.irembo.gov.rw/en/support/solutions/articles/47001285897-how-to-apply-for-an-agrochemical-dealer-license ; https://support.new.irembo.gov.rw/en/support/solutions/articles/47001286083-how-to-apply-for-agrochemical-premise-registration- ; https://www.newtimes.co.rw/article/144406/News/agric-ministry-moves-to-enforce-regulation-of-pesticide-business",
+     "known_id": "K04",
+     "known_mark": "known",
+     "known_note": "Same buyer and same core duty as K04. Re-confirmed only; no new trigger or competitor found.",
+     "name": "Agrochemical dealer licence, premises registration and qualified-personnel compliance file",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Agrochemicals law (2012) and ministerial orders; RICA premises registration, dealer licence and renewal; routine inspections",
+     "unchecked": "Current licence validity and fees; whether the diploma requirement was kept in the final order; number of licensed dealers."
+    },
+    {
+     "buyer": "Licensed fumigation/pest-control operators, including those treating warehouses, stores and grain",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://support.new.irembo.gov.rw/en/support/solutions/articles/47001285895-how-to-apply-for-an-agrochemical-fumigation-operating-license (page appears partly copied from a butchery template, so details are indicative); https://www.minagri.gov.rw/updates/news-details/hon-minister-mukeshimana-advisory-council-members-discuss-on-professionalising-agrochemical-business-in-rwanda",
+     "existing": "Competitor search found no Rwanda-specific product. Generic tools exist: Verifume (iPad fumigation app), GoCanvas fumigation form templates, and general pest-control field-service software.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Different buyer group (fumigators, not shops) with a different duty (treatment and certificate records). Related to K04 and K05.",
+     "name": "Fumigator and pest-control operator record log (agrochemicals used, fumigation certificates issued) and licence renewal",
+     "score": 3,
+     "status": "weak",
+     "trigger": "The RICA agrochemical fumigation operating licence requires records of agrochemicals used and records of fumigation certificates issued; fumigators are a separate registered dealer class in the agrochemicals regulations",
+     "unchecked": "Number of licensed fumigators (probably very small, tens at most); whether RICA inspects or audits the records; whether a certificate format is mandated; willingness to pay; no register of licensed fumigators found."
+    },
+    {
+     "buyer": "Subsidised-fertiliser agro-dealers (about 1,046 registered in 2019)",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.minagri.gov.rw/updates/news-details/stakeholders-in-agro-inputs-supply-chain-train-in-smart-nkunganire-system ; https://www.mfw4a.org/news/rwanda-rab-bk-techouse-sign-agreement-streamline-agriculture-inputs-distribution",
+     "existing": "Smart Nkunganire System (state-backed, BK TecHouse) and its IKOFI tool",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Different duty (subsidy ordering and stock in a state system) from K04's licence and inspection file. The state platform already covers the core workflow, as with K09.",
+     "name": "Agro-dealer stock and subsidy-claim reconciliation for Smart Nkunganire",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Dealers must register farmers, order inputs and manage stock in the government Smart Nkunganire System (BK TecHouse with RAB); a 2019 survey found input-access loopholes",
+     "unchecked": "Whether dealers have a back-office pain (reconciliation, credit, payment delays) that the state system leaves open; the current number of dealers and subsidy scale in 2025-26."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "The duty sits with RICA (Rwanda Inspectorate, Competition and Consumer Protection Authority), via Irembo, under the 2012 agrochemicals law and its orders. Dealers (importers, distributors, retailers, fumigators) need three things. First, a premises registration (14 days; setbacks of 50 m from schools, health facilities and water, 20 m from food manufacturing, no residential use). Second, a dealer operating licence (5 days; needs a notarized diploma and contract for qualified personnel, a labelled carrier vehicle, and an RDB certificate). Third, for fumigators, a fumigation operating licence (14 days, reportedly 50,000 Rwf; needs records of agrochemicals used and fumigation certificates issued). Inspectors do routine inspections. Penalty for banned agrochemicals: up to 3 years' prison and up to Rwf 5m fine (undated Umunota report). Product registration (pesticides, fertiliser, biopesticides) is separate and is done by manufacturers/importers with trials, so it is out of scope. Licence validity (reported as 5 years, renewable, from an undated New Times piece) and renewal fees are unconfirmed. Subsidised-fertiliser agro-dealers (about 1,046 registered in 2019) transact through the government-run Smart Nkunganire System (BK TecHouse with RAB), which covers ordering, farmer registration and stock management. That overlaps K04 and K09's state-system problem. No 2025-2026 rule change, crackdown or dealer-software product was found. Nothing new beyond K04, except the fumigator niche (see ledger).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "RAB pesticide dealers registration Rwanda agrochemical import licence regulation",
+    "Rwanda Agriculture Board abacuruzi b'imiti yica udukoko ifumbire amategeko ibyemezo",
+    "Rwanda fertilizer dealers agro-dealers licensing certification pesticide applicators training RAB 2025",
+    "Smart Nkunganire System agro-dealers stock reporting subsidy fertilizer agro-dealer obligations Rwanda",
+    "RICA agrochemical premises registration inspection dealers Rwanda fumigation pest control operators licence",
+    "RICA ababaruje amaduka acuruza imiti y'ubuhinzi agrochemical dealers crackdown unlicensed 2025",
+    "fumigation records software pest control company Rwanda fumigation certificate RICA licensed fumigators list",
+    "WebFetch: Irembo agrochemical dealer licence page",
+    "WebFetch: New Times 2017 pesticide business enforcement article"
+   ],
+   "searches": 9
+  },
+  "tag": "w2b62"
+ },
+ "opus:rwanda:A14": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The state portal iRIMS handles applications and payments only. I found no commercial software and no named Rwandan consultancy offering dossier, SOP, GMP or CAPA preparation in 2 English-language searches. Rwanda FDA's own support is workshops run with donors (USDA TRASE / Land O'Lakes Venture 37, plus the Private Sector Federation, 2022). I didn't run a Kinyarwanda or French search, so informal consultants can't be ruled out.",
+   "duty": "Rwanda FDA food premises licence for manufacturers (Guideline DIS/GDL/005, effective 20/02/2022, revision added sanctions and fines; Regulation FD/FSMIL/TRG/007 Rev_1 on operational licences, adopted 21/10/2024). GMP Regulations for food manufacturers FDISM/FDIC/TRG/008 Rev_0, in force 30/12/2022. Regulations on inspections of processed food dated 23/10/2024. Product registration for low-risk domestic foods (flours, honey, beverages, confectionery, bakery) needs the premises licence, a mandatory GMP inspection application through iRIMS, payment through iRIMS and 3 packaged samples. High-risk foods also need a GMP certificate and a stability study on 3 batches. The New Times (2022) calls premises licensing annual, at about Rwf200,000 per component. Unverified: the exact validity term in the 2024 regulation, the fine amounts, and any micro-enterprise exemption. The application form does have an SME manufacturer category.",
+   "market": "Rwanda FDA mapped 813 agro-processing factories in 2019 to May 2020. Of these, 514 had applied for a premises licence and 155 were licensed (New Times, Feb 2022). NAEB counts 258 horticulture processors, 57% of them cooperatives. Rwanda FDA publishes licensee lists (food manufacturers with an FBO licence, June 2026; with a premises licence, March 2026), but those PDFs returned 404, so I have no current count. A rough estimate is under 1,000 formal small processors.",
+   "reason": "The duty is real. Rwanda FDA requires a food premises licence (DIS/GDL/005, effective 20/02/2022; operational-licence regulation FD/FSMIL/TRG/007 Rev_1, adopted 21/10/2024) and GMP rules (in force 30/12/2022). Low-risk products also need registration through iRIMS, a GMP inspection and 3 samples. The premises licence is annual, per a 2022 New Times report. Fees are about Rwf200k per component, and owners already call that too high for small firms. I found no software or consultancy for the dossier, SOP or CAPA work, but my competitor search was in English only. The market is small: 813 agro-processing factories were mapped in 2020, and only 155 were licensed. I couldn't reach the current Rwanda FDA licensee lists (404). Fines and validity terms are unverified. A small market with low ability to pay means a low score.",
+   "searches": 6,
+   "sources": "https://rwandafda.gov.rw/wp-content/uploads/2022/11/1.-RFDA-FOOD-MANUFACTURING-PREMISE-LICENSE-REQUIREMENTS.pdf ; https://rwandafda.gov.rw/wp-content/uploads/2024/06/REQUIREMENTS-FOR-REGISTRATION-OF-LOW-RISK-FOODS_DOMESTIC.pdf ; https://rwandafda.gov.rw/wp-content/uploads/2024/06/REQUIREMENTS-FOR-REGISTRATION-OF-HIGH-RISK-FOODS_DOMESTIC.pdf ; https://rwandafda.gov.rw/wp-content/uploads/2022/12/GMP-Regulations-Food-Manufacturers_final-version-on-19-12-2022.pdf ; https://rwandafda.gov.rw/wp-content/uploads/2024/10/23-10-2024-_-Regulations-Governing-Regulatory-Inspections-for-Processed-food-products-and-related-products.docx ; https://rwandafda.gov.rw/wp-content/uploads/2022/11/RFDA-APPLICATION-FORM-PREMISE-LICENSE.pdf ; https://www.newtimes.co.rw/article/193362/Events/featured-new-effort-to-scale-up-food-safety-compliance-in-agro-factories/amp ; https://www.minagri.gov.rw/updates/news-details/horticulture-is-our-a-priority-value-chain-hon-minister-mukeshimana",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b62"
+ },
+ "opus:rwanda:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Rwanda-specific guard-firm compliance or roster product was found. Generic tools already cover the payroll/RSSB core: the Odoo l10n_rw_payroll module, Workpay, Mercans managed payroll, and EOR firms (Ontop, Playroll). FaidiHR publishes Rwanda payroll guides, but I did not confirm it sells a product. The state's MyRRA e-tax portal (unified PAYE/RSSB declaration) is free. None of these covers vetting or training certificates, guard deployment or hours, or an RNP inspection file.",
+   "duty": "Duties have been in force since the September 2020 private security law, with compliance due after a 2-year grace period. The RNP ISPSP department licenses firms after a joint vetting committee review. Guards are vetted and must complete at least 3 months of training at a police-approved centre. Inspections are ongoing, and penalties are suspension, licence withdrawal or prosecution. Labour duties were restated at the 28 Aug 2025 MIFOTRA/RNP meeting: written contracts, wages paid through banks, RSSB, medical insurance, limits on hours, vetted guards, and regular self-evaluation. Officials warned of penalties but named no specific fines. The monthly PAYE+RSSB declaration to RRA is due by the 15th; vendor pages say late-filing penalties are 20-60%. I found no statutory periodic report to RNP or guard-register form (not verified).",
+   "market": "The RNP article reports 15 licensed private security companies and over 75 active cooperatives. Guard numbers are about 30,000 (2024 inspection) or 23,000+ across 16 firms (around 2022). That makes about 90 buyers at most, concentrated in a few large firms.",
+   "reason": "The duties are real. A September 2020 private security law gave firms a 2-year grace period to comply. Under it, RNP vets and licenses firms, requires 3 months of training for guards, and inspects. Penalties are suspension, licence withdrawal or prosecution. At the August 2025 MIFOTRA/RNP meeting, firms were told to use written contracts, pay wages through banks, pay RSSB and medical insurance, and limit hours, with penalties threatened. I found no RNP periodic report or statutory guard register. No guard-specific Rwandan tool turned up, but the core payroll/RSSB job is already sold: Odoo l10n_rw_payroll, Workpay, Mercans, FaidiHR (not confirmed as a product). Monthly PAYE/RSSB filing on MyRRA is free. The market is tiny: 15 licensed companies and 75+ cooperatives. The cooperatives likely pay little.",
+   "searches": 4,
+   "sources": "https://police.gov.rw/media/news-detail/news/private-security-companies-guided-on-decent-work-and-service-standards/ ; https://police.gov.rw/media/news-detail/news/from-gatekeepers-to-professionals-how-rwanda-national-police-is-shaping-private-security-service/ ; https://www.mifotra.gov.rw/news-detail/owners-and-managers-were-challenged-to-enhance-decent-work-in-private-security-companies ; https://www.ktpress.rw/2024/01/findings-uncover-plight-of-private-security-guards-in-rwanda/ ; https://www.newtimes.co.rw/article/200282/News/police-tips-security-companies-on-professionalism ; https://apps.odoo.com/apps/modules/19.0/l10n_rw_payroll ; https://dsr.mercans.com/?p=863 ; https://www.myworkpay.com/blogs/navigating-regulatory-compliance-in-rwanda-a-must-know ; https://faidihr.com/blog/rwanda-payslip-guide",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b62"
+ },
+ "sonnet:rwanda:A10": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: BNR Regulation 89/2025 (gazetted 30 May 2025, in force on publication) bans pricing, quoting or invoicing in foreign currency without BNR authorisation. Fines are RWF 5-10m, or 50-100% of the transaction. Forex bureaus also report through a shared association system (RFBAIS, 2018) and BNR electronic data templates. I found no software for the core job. But for most businesses the duty is simply \"don't quote in dollars\", so there is no recurring workflow to automate. Bureaus are few and already served by the association system. Authorised receivers are a niche whose criteria I could not read. I did not read the gazetted text. Low pain, frequency and willingness to pay, so I score 3.",
+   "searches": 2,
+   "sources": "https://rw.andersen.com/dist/foreign-exchange-regulation.html ; https://pkfea.com/publications/2025/new-foreign-exchange-regulation-now-in-effect-in-rwanda/ ; https://www.ktpress.rw/2025/06/charging-goods-or-services-in-foreign-currency-to-be-fined-up-to-rwf-10-million/ ; https://aacb.org/node/1399",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b62"
+ },
+ "sonnet:rwanda:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is likely real. RURA Regulation 009/R/SAN-EWS/RURA/2023 (12 May 2023) sets a licensing regime and requires regular reporting and inspections. A 2016 liquid waste collection regulation (005/R/SAN-EWS/RURA/2016) also exists. The FAOLEX status is ambiguous: one search said \"Repealed\" and another said not repealed. I could not open the full text, so penalties, reporting frequency and licence categories are unconfirmed. I found no count of licensed haulers and no competing software, though the search was shallow. The buyer base looks tiny, probably dozens of operators. RURA also plans to move desludging to WASAC with sanitation fees on water bills, which could remove the buyer. Willingness to pay is likely low, so I score it 2.",
+   "searches": 3,
+   "sources": "https://leap.unep.org/en/countries/rw/national-legislation/regulation-governing-faecal-sludge-management-rwanda ; https://iwa-network.org/wp-content/uploads/2022/08/9-Towards-improving-faecal-sludge-management-in-Kigali-Rwanda.pdf ; https://ampeid.org/static/f1ae2b4304cb2174299dce4fb494ef3d/Regulations_Governing__liquid_waste_collection_and_transportation..pdf ; https://allafrica.com/stories/202507280078.html",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b62"
+ },
+ "sonnet:rwanda:A8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty looks real. Law N° 058/2024, in force 19 July 2024 per PwC, requires NGOs to file annual reports, declare bank accounts, and keep admin costs to 20% (Article 9). The AllAfrica report gives a 18 July 2026 compliance deadline, which has passed, and I found no extension. I could not read the law text. It is not clear how often NGOs file, what the penalty is for each duty, or how many NGOs are registered, so I have no market count. The RGB notice I fetched covers faith-based organisations, not NGOs, and cites no law number. I found no dedicated NGO compliance software or RGB filing portal, but the search was thin. Weak points: the deadline has passed, buyers are small donor-funded NGOs that may already report to donors, and willingness to pay is low.",
+   "searches": 2,
+   "sources": "https://allafrica.com/stories/202509190131.html ; https://www.pwc.com/rw/en/assets/pdf/balancing-impact-and-overheads.pdf ; https://www.rgb.rw/updates/news-detail/public-notice-10 ; https://www.rgb.rw/1/civil-society-faith-based-and-political-organisations/non-governmental-organisations",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b62"
+ },
+ "triage:rwanda": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Used-electronics dealers must hold licence and keep 2-year purchase register; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Faith bodies have mandatory annual reporting to RGB with a March 2026 deadline; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Desludging operators face RURA licensing and reporting duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Small private water operators have recurring RURA reporting and licence duties."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Butcher/slaughterhouse hygiene, health certificate and RICA inspection duty differs from K05's treatment/withdrawal log; related to K05."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Vet drug shop licence/stock/inspection register is a different buyer and duty from K05 vet treatment log."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Water-use permit and reporting for farms and small users is a recurring duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Small NGOs must comply with new law by 18 July 2026 deadline; association scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Moto-taxi cooperatives have RURA licence and rider authorisation duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Forex bureaus and FX-pricing businesses face new BNR fines and authorisation rules; verifiers to test."
+    },
+    {
+     "decision": "drop",
+     "id": "A11",
+     "reason": "No licensing regulation exists yet, so there is no current mandatory workflow (not a recurring or deadline-driven duty)."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Small licensed mineral traders have RMB duties; weak but unchecked, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Garages and parts dealers have RICA garage guideline duties; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Small food processors have recurring RFDA licence, registration and inspection duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Private ECD centres need registration and quality compliance; matches childminder and nursery scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Security companies and guard cooperatives face vetting, contract and inspection duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Brokers face certification plus AML duties under FIC law; keep for verification despite no effective date for the new framework."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Tourism levy monthly return for small guest houses and hosts is a different buyer and duty from K12's POS/PMS integration; related to K12."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Independent fuel stations and LPG dealers have recurring RURA licence and technical compliance duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small data controllers must register with NCSA under Law 058/2021; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "District-licensed small quarries have licence and reporting duties; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Warehouse receipt operators have licence and inspection duties under CMA; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Horticulture exporters' NAEB licence and per-shipment phytosanitary duty differs from K03 coffee EUDR; related to K03."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small importers pay a new plastic-packaging levy at customs from July 2025; in scope though weak."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "SACCOs and cooperatives have recurring RCA/BNR reporting and audit duties; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Six-monthly RNP roadworthiness for small commercial fleets is a distinct recurring duty from A9's licensing."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS1",
+     "reason": "Same agrochemical dealer buyer and licence/inspection duty as K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Fumigators are a different buyer with a different duty (treatment and certificate records); related to K04."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Subsidy ordering and stock in Smart Nkunganire is a different duty from K04; state-platform overlap is for verifiers."
+    }
+   ]
+  },
+  "tag": "w2b62"
  }
 }

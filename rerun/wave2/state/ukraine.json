@@ -316,5 +316,582 @@
    "searches": 20
   },
   "tag": "w2b64"
+ },
+ "discover:B:ukraine": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Independent realtors, sole-trader brokers (КВЕД 68.31) and small agencies; also lessors and consultants where rent is 400,000 UAH/month or more",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports (also 37)",
+     "evidence": "https://glavcom.ua/economics/finances/novi-pravila-finmonitorinhu-uhod-z-nerukhomistju-rijeltori-stali-dibki--1111875.html ; https://buh.ligazakon.net/news/243301_listi-vd-mnfnu-chomu-fop-u-sfer-nerukhomost-zagrozhuyut-shtrafi ; https://news.dtkt.ua/accounting/reposts/81383-yak-rieltori-mayut-zvituvati-do-dps ; https://news.dtkt.ua/state/other/109722-diialnist-rijeltoriv-ta-vimogi-shhodo-finmonitoringu-u-2026-roci-detali-vid-minfinu ; https://news.dtkt.ua/law/inspections/108121-oboviazkovii-e-kabinet-subjektiv-finmonitoringu-z-2-liutogo-2026-iak-notariusam-podavati-povidomlennia. Glavcom reports an association of realtors saying the rules overlap with banks and notaries and that about 90% of the market operates informally. That raises willingness-to-pay doubts but also shows the unregistered demand.",
+     "existing": "Competitor search run (the 'CRM для агентств нерухомості ... фінмоніторинг ... ДПС' query). It found no Ukrainian realtor CRM that advertises a finmonitoring module or a Order 497 report. The Russian CRMs it returned are irrelevant. AML.point (https://jobs.dou.ua/companies/aml-point/) targets banks, payment firms and insurers, not realtors. Not confirmed: the DSFM e-cabinet is free, and big portals or CRMs may add a module.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Not close to any known idea.",
+     "name": "Realtor / real-estate intermediary compliance kit: DSFM client questionnaire and risk log plus quarterly ДПС rental-contract report",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Law 361-IX makes realtors primary financial monitoring subjects. The DSFM e-cabinet became mandatory on 2 Feb 2026. Minfin warning letters came in April 2026 (fine 5,100-34,000 UAH). Registration is required before the first client contract and needs an e-cabinet plus a U-FM notification. Minfin's realtor regulation requires a responsible officer, client identification, internal checks and staff training. Separately, a quarterly report on rental contracts with individual landlords under Minfin Order 497 is due within 40 days of quarter end.",
+     "unchecked": "Number of registered versus active realtors; the actual DSFM-approved questionnaire format; whether Minfin's rules require recurring reports from realtors (the 2-фінмон report mentions intermediaries); the status of the planned realtor law; whether large portals (DOM.RIA, OLX) or CRM vendors already add this; the real size of the paying segment given informality; the fine amounts, from one secondary article."
+    },
+    {
+     "buyer": "Independent pharmacies and small pharmacy chains",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://7eminar.ua/news/20168-z-3-travnya-diyut-novi-vimogi-do-licenziativ-xto-pidpadaje ; https://medplatforma.com.ua/news/111164-03-03-2026-naberut-chynnosti-novi-litsenziini-vymogy-do-aptek-u-medzakladakh ; https://www.dls.gov.ua/wp-content/uploads/2026/06/проєкт-Змін-доопрацьований.docx",
+     "existing": "No competitor search run: budget exhausted, so this is not yet checked.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Same buyer group as K03 but a different duty.",
+     "name": "Pharmacy licence-condition catch-up pack (aggressor-state declaration, accessibility audit, Держлікслужба filing within six months of 3 May 2026)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Changes to the pharmacy licence conditions in force from 3 May 2026: licensees confirm no ties to the aggressor state, carry out an accessibility audit, and submit information to Держлікслужба within six months, i.e. about 3 Nov 2026 (my date inference). Also Resolution 1135 of 17 Sep 2026 amends Resolution 929, content unknown.",
+     "unchecked": "The exact deadline and the form of the submission; whether the Держлікслужба portal already offers a free form; the one-off nature makes recurrence low; the competitor search."
+    },
+    {
+     "buyer": "Independent pharmacies",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://7eminar.ua/news/23893-z-21-serpnya-posileno-perevirki-derzprodspozivsluzbi-shho-zminilosya ; https://news.dtkt.ua/society/community/114184-zmini-u-roboti-nackatalogu-cin-na-likarski-zasobi-2026-kmu-uxvaliv-risennia",
+     "existing": "No competitor search run. Pharmacy management systems probably embed price checks; unverified.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Same buyer group as K03 but a different duty.",
+     "name": "Pharmacy price-catalogue compliance checker (Національний каталог цін on medicines)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "From 21 Aug 2026 inspections of compliance with the price rules for medicines in the National Price Catalogue were tightened. A new inspection act form came with Minekonomiky Order 7399 of 08.07.2026. Patients can also scan a QR code on the e-prescription leaflet to see the lowest prices, from 15 Jun 2026.",
+     "unchecked": "Fine levels; whether pharmacy POS or the ЕСОЗ e-prescription already blocks over-pricing; competitor search."
+    },
+    {
+     "buyer": "Small grocery shops, kiosks and sole traders selling alcohol or tobacco",
+     "category": "31. Retail alcohol and tobacco licences (country-specific)",
+     "evidence": "https://bip.net.ua/articles/zmina-vartosti-licenzij-na-alkogol-i-tyutyun/ ; https://www.actum.com.ua/blog-3-1/skilki-koshtuye-liczenziya-na-alkogol-ta-pravila-oplati ; https://7eminar.ua/news/22733-yak-splacuvati-cergovii-platiz-za-licenziyu-na-alkogol-ta-tyutyun",
+     "existing": "No competitor search run: budget exhausted. Retail POS and accountants likely already cover reminders; the ДПС portal handles applications.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Alcohol and tobacco retail licence tracker for small shops (quarterly payments per cash register, minimum-wage re-pricing, web-shop register)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Law 3817-IX art. 52 ties retail licence fees to the minimum wage on 1 Jan. 2026 fees: 12,970.50 UAH/yr per cash register in a city and 691.76 in a village, paid quarterly. One licence per point of sale. Sites selling alcohol or tobacco must be entered in a register. Fines under art. 73.",
+     "unchecked": "Sources disagree on licence validity (one says to 7 Dec 2026, another says indefinite); the real missed-payment penalty; whether it is only a reminder (low value); competitor search."
+    },
+    {
+     "buyer": "Mini-hotels, guest houses and renters acting as tax agents",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://buhplatforma.com.ua/news/113360-turystychnyi-zbir-2026-khto-ie-platnykom-stavky-zboru-splata-terminy-podannia-zvitnosti ; https://news.dtkt.ua/taxation/other/115094-turisticnii-zbir-i-jedinii-podatok-dlia-goteliv-u-2026-roci-roziasnennia-dps-ta-komentar-redakciyi",
+     "existing": "No competitor search run. Hotel PMS vendors may include the levy; unverified.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Tourist levy tracker for small hotels, guest houses and flat renters (per-council rates, quarterly declaration)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Tourist levy is set by each council (domestic cap 43.24 UAH/day in 2026) and collected by accommodation providers. Quarterly declaration: Q3 due 10 Nov 2026, payment by 19 Nov; some councils require monthly advances by the 30th. A single-tax hotel must keep the collected levy out of income (ДПС consultation of 27.08.2026).",
+     "unchecked": "No state register of payers or guest-register duty found; the number of small operators that really comply; competitor search; guest-register rules not checked."
+    },
+    {
+     "buyer": "OSBB chairs and the small management companies that serve them",
+     "category": "34. Condominium associations (ОСББ) and housing management",
+     "evidence": "https://news.dtkt.ua/accounting/reposts/114116-ci-maje-osbb-zvituvati-do-tck-pro-avtotransport-u-2026-roci-roziasnennia-minoboroni ; https://thepage.ua/ua/news/zvitnist-osbb-do-tck-2026-podannya-danih-pro-transport ; https://news.dtkt.ua/society/real-estate/109859-novi-pravila-dlia-osbb-u-radi-zarejestruvali-zakonoprojekt-pro-standarti-poslug-i-kontrol-upraviteliv ; https://7eminar.ua/news/18331-yuridicna-osoba-dlya-koznogo-bagatokvartirnogo-budinku-nova-zitlova-reforma",
+     "existing": "No competitor search run. Several OSBB management apps likely exist; unverified.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "Same wartime-reporting family as K06 but a different buyer (associations) and duty (vehicle accounting).",
+     "name": "OSBB (condominium association) compliance bundle: twice-yearly ТЦК vehicle report, wartime duties, and the coming housing-management law",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Defence Ministry letter of 15.07.2026: Resolution 1921 vehicle accounting applies to all organisations including OSBB, even with no vehicles, twice a year. Bill 15124 (service standards and manager control) was registered on 2 Apr 2026. A further bill would require a legal entity per building and a housing-stock register, possibly from 2027. Statuses not confirmed.",
+     "unchecked": "Whether bills pass; whether the TCC report is simple enough to need software; competitor search; related to K06, which was rejected for competition."
+    },
+    {
+     "buyer": "Small farms and farm sole traders",
+     "category": "35. Agrarian register and small-farm reporting",
+     "evidence": "https://news.dtkt.ua/tematic/agriculture/113210-silske-gospodarstvo-0690-28072026-r ; https://thepage.ua/ua/news/nova-deklaraciya-orendnoyi-plati-za-derzhzemli-silgosppriznachennya-z-1-sichnya-2026/amp",
+     "existing": "No competitor search run. Agri accounting and farm management software exists (unverified).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Touches the K06 booking topic but is not the same duty.",
+     "name": "Small-farm state reporting pack (ДАР data, new Держстат form 50-сг, state-land rent declaration)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Resolution 549/2025 on the Державний аграрний реєстр; Resolution 862 of 1 Jul 2026 on criticality re-confirmation through the register (agri deadline 10 Aug 2026, past); new form 50-сг first filing by 28 Feb 2027 (Order 174 of 09.07.2026); new declaration for state agricultural land rent from 1 Jan 2026.",
+     "unchecked": "Whether small farms must register in ДАР; which farms file 50-сг; competitor search; K06 overlap on criticality."
+    },
+    {
+     "buyer": "Licensed holders of precursor / narcotic licences (pharmacies, clinics, small chemical users)",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://medplatforma.com.ua/article/1816-zvt-do-derjlkslujbi ; https://pravdop.com/en/publications/kommentarii-zakonodatelstva/dopusk-personala-k-rabote-s-prekursorami-trebovaniya-i-otvetstvennost-06-2026-167/",
+     "existing": "No competitor search run.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Narcotics and precursor circulation reporting for licensed handlers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Licence conditions under Resolution 282 of 06.04.2016 and periodic reports on circulation to Держлікслужба; staff clearance and record-keeping checked in inspections.",
+     "unchecked": "Report forms, deadlines, number of holders; whether current rules are still Resolution 282; competitor search."
+    },
+    {
+     "buyer": "Small fishery users, pond operators and aquaculture sole traders",
+     "category": "32. Fisheries: special use of aquatic bioresources",
+     "evidence": "https://buhplatforma.com.ua/news/70584-v-ukraini-zapustili-proekt-eriba ; https://biz.ligazakon.net/news/242577_ribniy-bznes-v-umovakh-energokrizi-kabmn-mozhe-dozvoliti-timchasoviy-paperoviy-oblk-vilovu",
+     "existing": "The free state eRyba / ЄДЕСУГРГ system already covers permits and catch entry. That is a likely killer, not fully verified.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Fishing catch journal and report assistant for small fisheries and ponds (eRyba / ЄДЕСУГРГ)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Catch journal is mandatory for fishery users; catch report goes to Держрибагентство; a draft would allow paper journals during blackouts (unconfirmed adoption); the state eRyba platform handles permits and contracts under Resolution 765 of 28.06.2024.",
+     "unchecked": "Number of small users; whether the state system leaves a usability gap; competitor search."
+    },
+    {
+     "buyer": "Notaries (private)",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://7eminar.ua/news/18323-notariusam-poyasnili-yak-uviiti-v-e-kabinet-finmonitoringu ; https://news.dtkt.ua/accounting/automation/109141-avtorizaciia-notariusiv-u-e-kabineti-derzfinmonitoringu-2026-vimoga-shhodo-vikoristannia-kep-fizicnoyi-osobi",
+     "existing": "Notaries are served by the Notary Chamber and the state notary registers; unverified.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Notary DSFM e-cabinet reporting helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Mandatory e-cabinet from 2 Feb 2026; notaries must use a personal КЕП; the Notary Chamber reported access problems.",
+     "unchecked": "The number of notaries is small and the Chamber probably supports them; no competitor search."
+    },
+    {
+     "buyer": "Small credit unions",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://news.dtkt.ua/finance/bank-system/96197-vimogi-do-informsistem-ta-personifikovanogo-obliku-kreditnoyi-spilki-risennia-nbu ; https://7eminar.ua/news/9152-nbu-posilyuje-zaxist-prav-spozivaciv-kreditnix-spilok ; https://finliteracy.bank.gov.ua/admin_uploads/article/proekt_2025-01-06.pdf",
+     "existing": "Likely entrenched credit-union back-office vendors; unverified.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Small credit union NBU information-system and consumer-rule compliance",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "NBU Resolution 18 of 14.02.2025 (information systems, personalised accounting); consumer-information rules of 05.09.2025 (Nos. 111, 112) with a transition to 1 Jan 2026; a January 2025 draft moved reporting to monthly (adoption unconfirmed).",
+     "unchecked": "Number of active credit unions; vendors; competitor search."
+    },
+    {
+     "buyer": "Small security firms and sole traders",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://7eminar.ua/news/16097-oxoronnii-biznes-u-2026-roci-podaite-zayavu-do-10-sicnya ; https://buh.ligazakon.net/news/241295_podatkvts-rozpovli-pro-podatkov-zmni-dlya-okhoronnogo-bznesu",
+     "existing": "General accounting and tax software; out of scope.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Generic accounting, so out of scope.",
+     "name": "Security agencies off the single tax (Law 4698-IX)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Security activity barred from the single tax from 1 Jan 2026, forcing a move to the general system and VAT.",
+     "unchecked": "No security-specific register or recurring report found."
+    },
+    {
+     "buyer": "Small grain warehouses",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://protocol.ua/ua/pro_zerno_ta_rinok_zerna_v_ukraini_stattya_37/ ; https://jurliga.ligazakon.net/news/116028_dlya-restru-skladskikh-dokumentv-ne-treba-podavati-sertifkat-vdpovdnost-tekhreglamentu",
+     "existing": "State register held by Мінагрополітики, administered by ДП Держреєстри.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Small grain warehouse receipts register duty",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Law on grain: simple and double warehouse certificates entered in the Держреєстри main register.",
+     "unchecked": "No 2026 changes found; sources are old."
+    },
+    {
+     "buyer": "Fuel stations",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://news.dtkt.ua/state/cash-handling/114359-vixid-z-ladu-rro-na-azs-ta-provedennia-rozraxunkiv-u-2026-roci-roziasnennia-dps",
+     "existing": "Already K10.",
+     "known_id": "K10",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty.",
+     "name": "Fuel excise / specialised RRO at stations",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Licence per site; specialised RRO.",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Wood suppliers",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://news.dtkt.ua/state/licenses/106027-uriad-zapustiv-pilotnii-projekt-kontroliu-poxodzennia-derevini",
+     "existing": "Already K02.",
+     "known_id": "K02",
+     "known_mark": "known",
+     "known_note": "Same buyer group and duty.",
+     "name": "EUDR origin-control pilot for timber",
+     "score": 0,
+     "status": "weak",
+     "trigger": "КМУ Resolution 1552 of 28.11.2025 (pilot origin-control project for EUDR).",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Employers",
+     "category": "36. Employer vehicle accounting for ТЦК",
+     "evidence": "https://news.dtkt.ua/accounting/reposts/114116-ci-maje-osbb-zvituvati-do-tck-pro-avtotransport-u-2026-roci-roziasnennia-minoboroni",
+     "existing": "K06 was rejected for competition.",
+     "known_id": "K06",
+     "known_mark": "known",
+     "known_note": "No new evidence for a revive.",
+     "name": "Wartime employer military-registration and vehicle reporting",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Resolution 1921 vehicle accounting.",
+     "unchecked": ""
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Nothing new beyond K10. Retail fuel needs a per-site licence under Law 3817-IX and a specialised RRO (cash register) with fuel stock data in shift reports; the search found no small-station simplifications. Sources: news.dtkt.ua licences and cash-handling pages. Hardware-bound, so same as K10.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Only the grain warehouse receipt regime (simple and double warehouse certificates in the state Держреєстри register, administered by ДП Держреєстри). Found no 2026 changes and no small-operator pain. Unverified, score 2.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Credit unions are under NBU rules: Resolution 18 of 14.02.2025 on information systems, consumer-information rules of 05.09.2025 (Nos. 111 and 112) with transition to 1 Jan 2026, and a January 2025 draft moving reporting from quarterly to monthly (not confirmed as adopted). Few small buyers remain and vendors are likely entrenched. Service co-operatives are not NBU-supervised. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Private labs under the НСЗУ medical guarantees programme get a reduced coefficient from 2026 (about 33% compensation, per The Page/Interfax, being contested in court). Referrals and results go through ЕСОЗ, which clinic software vendors already integrate. Found no small-buyer reconciliation gap. Weak, unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "K03 already covers reimbursement. New 2026 licence-condition changes from 3 May 2026 (aggressor-state ties declaration, accessibility audit, data to Держлікслужба within six months). Price-catalogue inspections tightened from 21 Aug 2026. Precursor and narcotics licensing is run under Resolution 282 with periodic reports to Держлікслужба; no software gap seen.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Security activity was added from 1 Jan 2026 to the activities barred from the single tax (Law 4698-IX), forcing small agencies onto the general system and VAT. That is a one-off accounting shift (generic accounting, out of scope). Found no security-specific register or report. Cleaning and manpower agencies not separately searched.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "found": "Mostly sources of unclear age. ДАБІ liquidation and a move from contractor licensing to foreman certification are reported but I could not confirm the current status. Е-будівництво has a public qualification-certificate register. Site journal rules (Resolution 466) not confirmed. Unverified; no candidate scored.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Strongest finding. The updated DSFM e-cabinet has been mandatory since 2 Feb 2026. Minfin and DSFM have sent registration warning letters to realtors and sole traders (April 2026); fines 5,100-34,000 UAH. Realtors also owe a quarterly report to ДПС on rental contracts with individual landlords (Minfin Order 497, due within 40 days of quarter end). Notaries must log in with a personal КЕП.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "found": "The tourist levy is set by local councils (cap 43.24 UAH/day domestic in 2026). Accommodation providers act as tax agents and file a quarterly declaration (Q3 due 10 Nov 2026, payment by 19 Nov). Rates differ by council. No state register of payers found. Possible small niche.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "found": "Timber: КМУ Resolution 1552 of 28.11.2025 launched a pilot origin-control project for EUDR (K02 covers it); e-wood accounting duty falls on forest users, not clearly on sawmills. Fish: eRyba / ЄДЕСУГРГ government platform exists. Nothing new beyond K02.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Retail alcohol and tobacco licences (country-specific, Law 3817-IX)",
+     "found": "Per-point licences are paid quarterly and sized by the minimum wage on 1 Jan (2026: 12,970.50 UAH/yr per cash register in a city, 691.76 in a village). A new register of web shops selling alcohol or tobacco applies. Applications run through the ДПС portal. Candidate scored 3.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Fisheries: special use of aquatic bioresources and catch logs (eRyba / ЄДЕСУГРГ)",
+     "found": "Users keep a catch journal and file a catch report with Держрибагентство. The government eRyba platform was extended by Resolution 765 of 28.06.2024. A draft would allow paper journals during blackouts (not confirmed adopted). The free state system limits the opportunity.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Timber and forestry e-accounting (country-specific)",
+     "found": "Single state electronic wood accounting (Order 621 of 27.09.2021) applies to forest users. Minekonomiky Order 2813 of 19.02.2026 set unified electronic forestry forms. Resolution 1552 started the EUDR pilot. Obligations for sawmills and yards could not be confirmed. K02 related.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Condominium associations (ОСББ) and housing management",
+     "found": "OSBB must report vehicle holdings (or none) to ТЦК twice a year under Resolution 1921 (Defence Ministry letter of 15.07.2026). Bill 15124 (registered 2 Apr 2026) would set service standards and controls. Another bill would require a legal entity per building plus a housing-stock register, possibly from 1 Jan 2027. Statuses unconfirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Agrarian register and small-farm reporting (Resolution 549 of 13.05.2025 and related)",
+     "found": "The Державний аграрний реєстр is governed by Resolution 549/2025. Resolution 862 of 1 July 2026 requires criticality re-confirmation through the register (agri deadline 10 Aug 2026, now past). New Держстат form 50-сг (Order 174 of 09.07.2026), first filing by 28 Feb 2027. A new declaration for state-land rent applies from 1 Jan 2026. Whether small farms must register was not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Employer vehicle accounting for ТЦК (Resolution 1921) and wartime duties",
+     "found": "Covers all enterprises, including OSBB, filed twice a year. Same buyer group as K06, which was rejected for competition. No new evidence that the rejection no longer holds.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Real estate intermediary rental-contract report to ДПС",
+     "found": "Realtors who broker rentals with individual parties file a quarterly report on contracts (Order 497 of 13.05.2017; 40-day deadline; a 1,360 UAH fine was cited). Merged into the realtor candidate.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "АЗС ліцензія роздрібна торгівля пальним звітність 2026 малі АЗС вимоги РРО",
+    "аграрні розписки зерносховище складські свідоцтва реєстр зернових складів 2026 нові вимоги",
+    "кредитні спілки обслуговуючі кооперативи звітність НБУ 2026 нові вимоги малі кооперативи",
+    "приватні клініки лабораторії Програма медичних гарантій НСЗУ звітність договір 2026",
+    "туристичний збір 2026 готелі міні-готелі посуточна оренда квартир реєстр платників звітність декларація",
+    "охоронна діяльність ліцензія 2026 нові вимоги охоронні агенції реєстр охоронців закон",
+    "ріелтори нотаріуси фінмоніторинг ДСФМ суб'єкти первинного фінансового моніторингу звітність 2026 е-кабінет",
+    "прекурсори ліцензія облік звіт Держлікслужба 2026 суб'єкти господарювання",
+    "програма для ріелторів фінмоніторинг анкета клієнта СПФМ ріелтор автоматизація сервіс",
+    "електронний облік деревини лісопильні склади деревини реєстр 2026 ЄДЕО",
+    "ОСББ 2026 закон нові обов'язки звітність реєстр ОСББ",
+    "будівельні підрядники 2026 ліцензія ДАБІ Е-будівництво журнал робіт реєстр кваліфікація сертифікація",
+    "ліцензія роздрібна торгівля алкоголем тютюном 2026 малі магазини ФОП продовження ліцензії ЄДРМ",
+    "рибні господарства облік вилову спеціальне використання водних біоресурсів електронний журнал звітність 2026",
+    "аптеки 2026 нові вимоги закон обов'язки аптек ліцензійні умови е-рецепт реєстр цін",
+    "Державний аграрний реєстр 2026 фермери звітність обов'язкові подання даних сільгосптехніка",
+    "ріелтор ФОП КВЕД 68.31 реєстрація СПФМ Держфінмоніторинг штраф 2026 Мінфін листи ріелторам",
+    "CRM для агентств нерухомості Україна фінмоніторинг модуль анкета клієнта звіт оренда ДПС посередник"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b64"
+ },
+ "opus:ukraine:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Software that analyses tachograph data (.ddd files) and flags working-time violations already exists. It is built on EU/AETR rules, which Ukraine's international regime largely follows. Examples: Inelo TachoScan/4Trans (Poland, from EUR 525, with its own Tacho USB download device), the CAST tachograph-card reading module on Wialon, Navixy's tachograph compliance feature, Teltonika remote tachograph download, and Shtrih-M TakhoReport (a Russian product). The state is building its own Smart-Tacho / eInspector enforcement system, which is for control, not for carriers. Tachograph service centres also bundle downloading with installation. I found no Ukrainian-language SaaS aimed at small minibus carriers, but I did not verify whether the foreign tools are offered in Ukrainian. Whether a gap exists is unclear.",
+   "duty": "Partly confirmed, from news reports only. Several outlets (nakordoni.eu, ua.news) report that the Ministry of Development (Мінрозвитку) amended the Regulation on drivers' working and rest time (Положення про робочий час і час відпочинку водіїв, Order No. 340). From 26 July 2026, 6-9 seat vehicles (driver included) on international passenger routes must carry a tachograph. Either a digital or a smart tachograph is allowed, and a 45-minute break is required after 4.5 hours of driving. The reports tie the duty to carriers whose drivers work under an employment or civil-law contract. None of them says whether a sole trader (ФОП) who drives his own vehicle is covered, which could exclude a large part of the target group. Not reached: the amending order's number, its date and the official text. Penalties come from Article 60 of the Law on Road Transport No. 2344-III and are not specific to this change. Reported examples are 17,000 UAH for a tachograph violation (Supreme Court case 440/5873/23, 7eminar, 12.06.2025) and 34,000 UAH for missing printouts. EU practice, per a vendor article and not confirmed for Ukrainian law: download driver cards about every 28 days and the vehicle unit about every 90 days.",
+   "market": "About 3,000 international passenger carriers as of May 2024 (just over 1,000 legal entities and more than 1,900 ФОП), running about 11,000 buses (Interfax via the Mindev/ministry statistic). No figure was found for operators of 6-9 seat vehicles. That segment is largely informal, and owner-drivers may not be covered. The realistic paying market is probably a few hundred to low thousands of firms.",
+   "reason": "Only news reports confirm the duty: a tachograph is required on 6-9 seat vehicles on international passenger routes from 26 July 2026. Coverage of ФОП who drive their own vehicles is unclear, and the amending order was not reached. The core job, reading and analysing .ddd files under EU/AETR rules, is already done by TachoScan/4Trans, the Wialon CAST module, Navixy and Teltonika. Service centres also bundle downloads with installation. The buyers are informal, price-sensitive owner-operators who often run cross-border trips grey, and the true segment size is unknown (about 3,000 international carriers in total). A Ukrainian-language, low-cost compliance pack might find a niche. But hardware dependence (card readers), weak willingness to pay and an existing EU-standard toolset make it a weak solo-founder play.",
+   "searches": 6,
+   "sources": "https://nakordoni.eu/uk/news/2026-07-08/tahograf-mikroavtobusy-minivany-z-26-lypnia ; https://ua.news/ua/all-news/v-ukrayini-takhograf-stane-oboviazkovim-dlia-mikroavtobusiv-na-mizhnarodnikh-reisakh ; https://7eminar.ua/news/8884-taxograf-ne-zabaganka-vs-pidtrimav-straf-ukrtransbezpeki ; https://7eminar.ua/news/5408-straf-34-tis-grn-za-manipulyaciyi-z-taxografom ; https://interfax.com.ua/news/economic/1086120-amp.html ; https://sklep.inelo.pl/en/?p=13144 ; https://wialon.com/resource/89e58703-e157-43d9-8362-92e1ebb548ef ; https://www.navixy.com/docs/user/ru/guide/devices-and-settings/tachograph-and-compliance ; https://www.teltonika-gps.com/ru/use-cases/logistics-and-delivery-services/digital-tachograph-monitoring ; https://mindev.gov.ua/news/v-ukraini-startuvalo-zamovlennia-ta-vydacha-kartok-do-smart-takhohrafiv",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b64"
+ },
+ "opus:ukraine:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Filing: the free state channels (Diia, the my.gov.ua e-service and CNAP offices) already handle submission, and the state says refusal to register is not allowed, so there is little to gain on filing. Inspections: the specialised or expert organisations that do inspections, expert surveys and boiler checks (about 2.5k–10k UAH per boiler in ProZorro tenders) plan their own work and are the natural owners of the reminder. Generic CMMS and asset-maintenance tools (for example Siemens) cover inspection calendars. Searches for software built for small Ukrainian businesses to track high-hazard equipment inspections found none. Outsourced labour-safety specialists are allowed under Art. 15 of the Law on Labour Protection, but no named turnkey MTB-plus-inspection vendor came up.",
+   "duty": "The duty is real and in force under Ukrainian law. CMU Resolution 1107 of 26.10.2011 requires an employer, FOP or legal entity to register a declaration that its material-technical base (MTB) meets labour-safety law before operating group B high-hazard machines and equipment (Annex 8 form). It must be filed at least 5 working days before work starts, and an updated declaration is due within 7 working days of any change or error being found. Registration is free and can be done through Diia, the my.gov.ua portal or a CNAP office. Since 12 July 2026, registration through the eDozvil system is paused because the CMU 795/2024 pilot ended. That is a change of filing channel, not a new duty. Periodic technical inspection and expert survey follow CMU Order 687/2004, amended by CMU 319/2021 (in force from 1 May 2022) and carried out by specialised or expert organisations. For boilers and pressure vessels, NPAOP 0.00-1.81-18 (Minsotspolityky order 333/2018) sets the intervals. The exact intervals for lifts and pressure equipment were not extracted. The declaration is mainly a one-off filing, so the recurring part is the inspections. I did not find a specific fine for operating without a declaration. Art. 265 of the Labour Code (KZpP) allows general labour-law fines, but the exact provision was not confirmed. The claim's me.gov.ua source is actually dated 01.07.2021, not 02.10.2026.",
+   "market": "The Ministry of Economy says more than 27,000 MTB declarations are registered each year (2021 figure), across all group B work and equipment types, not just boilers and lifts. No count of small owners of boilers, lifts or pressure vessels was found. Lifts sit mostly with condominium associations (OSBBs), management companies and municipal bodies, and boilers with larger firms and the public sector.",
+   "reason": "The legal duties are real, but this is weak for a solo founder. The declaration is mostly a one-off filing that is free through Diia and CNAP, and the 12 July 2026 change only paused one channel (eDozvil). The recurring part, technical inspection, is done and scheduled by accredited expert organisations, which naturally act as the reminder service. Most owners of boilers, lifts and pressure vessels are mid-size firms, municipal bodies or OSBBs, not micro-businesses. Willingness to pay for a calendar is low, and generic CMMS tools exist. I found no dedicated product for small businesses, so I am not refuting the claim, but there is little pain and few buyers. Specific fines were not confirmed, and the claim's me.gov.ua source is from 2021, not 2026.",
+   "searches": 6,
+   "sources": "https://news.dtkt.ua/accounting/reposts/110730-deklaraciia-mtb-2026-koli-robotodavciam-slid-onovliuvati ; https://news.dtkt.ua/state/licenses/112854-rejestraciiu-deklaracii-z-oxoroni-praci-cerez-sistemu-jedozvil-timcasovo-prizupineno ; https://www.me.gov.ua/News/Print/6dc379ef-79bb-4ec0-b4e3-2b758aaed8e8?lang=uk-UA ; https://7eminar.ua/news/21190-roboti-pidvishhenoyi-nebezpeki-koli-slid-podati-deklaraciyu-vidpovidnosti-materialno-texnicnoyi ; https://kosht.media/ekonomiia-chasu-deklaratsiiu-vidpovidnosti-mtb-mozhna-oformyty-v-dii/ ; https://buh.ligazakon.net/news/202925_kabmn-zmniv-pravila-oglyadu-mekhanzmv-ta-ustatkuvannya-pdvishcheno-nebezpeki ; https://news.dtkt.ua/labor/labor-relations/82343-pravila-oxoroni-praci-pid-cas-ekspluataciyi-obladnannia-shho-praciuje-pid-tiskom ; https://prozorro.gov.ua/tender/UA-2023-10-04-003499-a/print/limited-reporting/pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b64"
+ },
+ "opus:ukraine:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Ukrainian realtor CRM or SaaS that offers a finmonitoring module (KYC questionnaire, risk profile, internal-rules pack, U-FM file) or the Order 497 rental report. In my searches only G-PLUS CRM (built for developers) and generic or foreign CRMs came up, and none of them mention finmonitoring. Law and accounting firms offer to draft internal finmonitoring documents, which are well covered for accountants. I found no realtor-specific done-for-you provider. The DSFM e-cabinet is the state's own free channel for U-FM and suspicious-transaction filings. The Order 497 report is most likely filed through the free tax e-cabinet or ordinary accounting software, but I did not check this.",
+   "duty": "The duty is real and in force under Law 361-IX. Realtors, and real-estate consultants on rentals of 400,000 UAH/month or more, are primary financial monitoring subjects (СПФМ). They must register with Держфінмоніторинг before the first client contract, by sending a U-FM file with message type 1 through the e-cabinet. The e-cabinet has been fully running since 2 Feb 2026. Minfin letter No. 26120-06-10/10018 of 09.04.2026 reminds them of this. They must also apply a risk-based approach to KYC. Minfin Order 465 of 28.12.2022 sets the risk criteria used for client risk profiles. They need internal rules and a programme naming the responsible staff and covering due diligence, internal checks and staff training. Reports to the regulator are needed only for suspicious operations. Minfin said on 2 and 14 April 2026 that \"report every deal over 400k\" is false, that the rules are not new, and that its current stance is non-punitive. Fines for ignoring the rules are 5,100-34,000 UAH (Ligazakon). Separately, there is a tax report on rental deals where the landlord is an individual who is not a ФОП (Minfin Order 497). It follows the tax-calculation schedule: within 40 days after quarter end for ФОП, and monthly for legal entities. Minfin updated the form in 2026. The fine is 680 UAH, or 1,360 UAH for a repeat violation (per secondary sources).",
+   "market": "Not reached. I found no register count for КВЕД 68.31. ЄДР filters by main activity only, so it would undercount. More than 800 realtors, accountants and tax consultants combined attended Minfin's 13 April 2026 briefing. Glavcom quotes the realtor association as saying about 90% of the market is informal. That suggests a fairly small number of registered, compliance-minded buyers, probably a few thousand.",
+   "reason": "The duty is real and current. Registration, KYC with a risk profile and internal rules have been mandatory under 361-IX since 2020, and Minfin sent reminder letters in April 2026. No realtor-specific tool exists. But the recurring workload is light. Reporting covers only suspicious operations, and Minfin openly says it is not taking a punitive approach. Registration is a one-off filing through a free e-cabinet. The Order 497 rental report is simple and only applies when the landlord is an individual who is not a ФОП. Most of the market is informal, so few buyers will pay. Willingness to pay is likely low: a one-time document pack for a small fee, not a subscription. The best fit would be a cheap template/KYC-form add-on, or a partnership with realtor CRMs or associations.",
+   "searches": 6,
+   "sources": "https://www.kmu.gov.ua/news/minfin-nadav-roziasnennia-shchodo-pravyl-finmonitorynhu-dlia-riieltoriv-bukhhalteriv-i-podatkovykh-konsultantiv ; https://buh.ligazakon.net/news/243301_listi-vd-mnfnu-chomu-fop-u-sfer-nerukhomost-zagrozhuyut-shtrafi ; https://glavcom.ua/economics/personal-money/dijut-davno-minfin-rozjasniv-pravila-finmonitorinhu-dlja-rijeltoriv-1111651.html ; https://glavcom.ua/economics/finances/novi-pravila-finmonitorinhu-uhod-z-nerukhomistju-rijeltori-stali-dibki--1111875.html ; https://buh.ligazakon.net/analitycs/219206_fnmontoring-pro-shcho-sld-znati-rltoram ; https://buh.ligazakon.net/news/242620_mnfn-zatverdiv-novu-formu-zvtnost-dlya-rlterv ; https://news.dtkt.ua/accounting/reposts/111024-zvit-rejeltora-u-2026-roci-pidstavi-vimogi-ta-misce-podannia ; https://news.dtkt.ua/state/other/109722-diialnist-rijeltoriv-ta-vimogi-shhodo-finmonitoringu-u-2026-roci-detali-vid-minfinu ; https://interfax.com.ua/news/press-release/870761.html",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b64"
+ },
+ "sonnet:ukraine:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. CMU Resolution 68 of 30.01.2019 requires a written contract, KVED 97.00/88.91 and local social-protection filing, and the rules were widened in 2024 by Resolution 664 (IDP families, children to 6). The market is tiny. The ministry reports about 1,877 families and 2,300 children in Nov 2024, and 2,480 families for 2025 per search summaries. That means only a few thousand nannies and parents, not a mass market. The duty is a per-family compensation claim rather than a standing recurring compliance duty, and the filings are simple templates. No dedicated software was found, but willingness to pay is low and the buyers are fragmented. I did not check the 2026 funding amount or any periodic reporting duty.",
+   "searches": 2,
+   "sources": "https://www.kmu.gov.ua/news/ukrainski-batky-korystuiutsia-posluhoiu-munitsypalna-niania-dohliad-otrymuiut-2300-ditei ; https://buhplatforma.com.ua/news/17545-yak-opodatkovu-dohd-fop-shcho-nada-poslugu-muntsipalna-nyanya ; https://mindev.gov.ua/diialnist/informatsiia-dlia-vpo/derzhavna-dopomoha-dlia-vpo/sotsialni-posluhy/posluha-munitsypalna-niania-dohliad-za-dytynoiu-do-3-rokiv",
+   "suggested_score": 2,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b64"
+ },
+ "sonnet:ukraine:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real: Law 1445-VI as amended by 1648-VII requires ID and registration of farm animals in the Unified State Register of Animals, and farms must report movements, slaughter and deaths. Fines exist but I found no amounts, and I could not confirm that the current text is in force. Registration is done by the state: the state agency's regional branches for legal entities, and state vet hospitals for individuals. It looks free for household owners, and owners do not file much themselves. A state portal (agro-id.gov.ua) exists. I found no private owner-side app, but ran only 2 searches and 1 fetch. The owner-side software gap is small: the state does the registering and smallholders pay little. About 560k animals were registered by mid-2026, but I did not find a count of keepers. Keep the score low.",
+   "searches": 2,
+   "sources": "https://dpss.gov.ua/news/identyfikatsiia-tvaryn-v-ukraini-za-piat-misiatsiv-zareiestrovano-ponad-560-tysiach-tvaryn; https://buhplatforma.com.ua/news/5365-vvoditsja; https://buhplatforma.com.ua/news/5629-reyestratsija; https://dpss.gov.ua/news/identyfikatsiia-ta-reiestratsiia-tvaryn-shcho-tse-take-i-chomu-tse-vazhlyvo",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b64"
+ },
+ "triage:ukraine": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New: tachograph and working-time duty for small minibus carriers, from 26 Jul 2026."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "New: periodic inspection and declaration duty for small owners of boilers, lifts and pressure vessels."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "New: household employers (parents) and FOP nannies; written contract and filing duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Different buyer (smallholders and traders) and duty (animal ID and movement register) from K04, which covers vet prescriptions.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "New: small-volume slaughter and local-supply limits for farm shops and small butchers."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Different duty from A1 (licence upkeep and transport manager, not tachograph); new vs known."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "New: accredited driving schools with a mandatory electronic lesson journal."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "New: annual Report filing duty for small non-profits and religious bodies."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "New: phytosanitary operator re-registration for small farms and exporters; different duty from K02 (EUDR)."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "New: NBU activity-plan duty for currency-licensed pawnshops; narrow but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "New buyer (beekeepers); only a draft bill, so verifiers should check whether a duty exists."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "New: recurring declaration duty for small recruitment agencies; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "New: well permit and metering duty for small businesses with their own water abstraction."
+    },
+    {
+     "decision": "known",
+     "id": "A14",
+     "reason": "Same buyer and duty as K05 (scrap reception acceptance-act register).",
+     "ref": "K05"
+    },
+    {
+     "decision": "known",
+     "id": "A15",
+     "reason": "Pet e-passports and vet pharmacies are K08 and K11, both rejected; no new evidence offered to revive them.",
+     "ref": "K08"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "New: realtors as AML subjects (DSFM e-cabinet) plus quarterly rental report; no known equivalent."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Same buyer as K03 but a different duty (pharmacy licence-condition changes).",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Same buyer as K03 but a different duty (price-catalogue inspection compliance).",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "New: alcohol and tobacco retail licence fees and register duties for small shops."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "New: tourist levy collection and quarterly declaration for small accommodation providers."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Different buyer (OSBB) and duty (vehicle accounting and housing law) from K06, which covers employer military registration.",
+     "ref": "K06"
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "New: small-farm state reporting (agrarian register, form 50-sg, state-land rent); a different duty from K06."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "New: narcotics and precursor circulation reporting by licensed handlers; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "New: catch journal and report for small fishery users."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Different buyer (notaries) from B1 (realtors), though a similar DSFM duty; note the overlap for verifiers.",
+     "ref": "B1"
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "New: small credit unions with NBU reporting and consumer-rule duties; unverified."
+    },
+    {
+     "decision": "drop",
+     "id": "B12",
+     "reason": "Out of scope: a tax-regime change (leaving the single tax) is generic accounting/tax software, not a mandatory filing workflow."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "New: warehouse-certificate register duty for small grain warehouses; unverified."
+    },
+    {
+     "decision": "known",
+     "id": "B14",
+     "reason": "Same buyer and duty as K10 (fuel station excise and RRO); no new evidence.",
+     "ref": "K10"
+    },
+    {
+     "decision": "known",
+     "id": "B15",
+     "reason": "Same buyer and duty as K02 (EUDR timber traceability).",
+     "ref": "K02"
+    },
+    {
+     "decision": "known",
+     "id": "B16",
+     "reason": "Same buyer and duty as K06 (rejected); no new evidence to revive it.",
+     "ref": "K06"
+    }
+   ]
+  },
+  "tag": "w2b64"
  }
 }

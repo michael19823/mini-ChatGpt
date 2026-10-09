@@ -1,5 +1,72 @@
 # Paraguay A2: register, beneficial-owner and transparency pack for non-profits
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10 (old score: 4/10).**
+
+**The case.** The free portals (the beneficial-owner register and MEF's SIARA) only take filings. They do not keep the records the law asks for. Those records are a funds register, donor ID files, PEP checks, an AML manual and risk assessment, and the fund-use page published every six months. ICNL's January 2025 checklist lists 84 separate duties for a Paraguayan non-profit, and no local product covers them. The bishops say compliance "requires hiring professionals" at real cost, which shows the pain and the budget line. The paying base is small: hundreds to low thousands of funded NGOs, church-linked bodies and their accountants. At about Gs. 70,000-250,000 a month, that supports roughly USD 50k-115k a year by year 3. Pending court challenges to Ley 7363 and the politics around it keep this at "maybe".
+
+### Room for improvement over the portal or current practice
+
+- **Records the portal does not keep.** Ley 7363 needs a register of all funds or goods received and of the actions they paid for. It also needs board minutes and the supporting receipts, kept ready for MEF checks (ICNL checklist items 77-81: https://www.icnl.org/wp-content/uploads/Contreras_Enero2025_Informe3-Checklist-w-Logo.pdf). SIARA receives forms but is not a ledger (https://impuestospy.com/impuestos/decreto-n-4806-2025/).
+- **The SEPRELAD AML programme is pure record-keeping.** It covers a compliance officer, with changes reported within 5 days. It also needs a training plan, an annual work plan, registers of income by type and spending by destination, and list screening. Donors must be identified whatever the amount. ID copies are needed for gifts of USD 1,000 or more, plus a source-of-funds sworn statement at USD 10,000. There are also PEP checks, mass-fundraising event reports, and, for level 3, a manual, a code of ethics, a risk assessment and an external audit (ICNL checklist items 37-66, same PDF). These are checklists and registers, which is what simple software does well.
+- **Data preparation before filing.** Forms A-E (activities, funding, staff, linked persons, balance sheet) are sworn statements due by 30 June. They must meet the trust-services law (Ley 6822/2021) (Decreto 4806/2025 arts. 8 and 12: https://impuestospy.com/impuestos/decreto-n-4806-2025/). A tool can build them from the funds register and validate them before the user pastes them in.
+- **A publication duty with no tool.** Fund-use data must go on the organisation's own website every six months, in open-data formats, with the history kept (art. 14, same source). Many small bodies have no website (unverified).
+- **Deadline sprawl.** The deadlines are 30 June (forms A-E and the beneficial-owner update), 31 July and 31 January (publication), 15 business days for register changes, 5 days for SEPRELAD officer changes, 30 days for SEPRELAD board changes, and monthly tax filings (ICNL checklist; Decreto 4806/2025). TEDIC counts more than 13 mandatory registries (https://www.tedic.org/en/?p=27007).
+- **Evidence of pain.** The Episcopal Conference says compliance needs paid professionals and creates "considerable costs". It says rural bodies lack the staff and technology to meet the deadlines. It asked MEF for a 12-month extension and for free help and digital tools (https://www.ultimahora.com/ley-garrote-obispos-cuestionan-implicancia-economica-y-duplicacion-de-controles). In 2020 the Colegio de Contadores asked for relief from a late-filing fine of about Gs. 8 million under the beneficial-owner register. Thousands of bodies had missed the window (https://www.abc.com.py/nacionales/2020/11/18/se-dilata-resolucion-sobre-multa-a-contribuyentes/). Publicly funded NGOs must also account to the Contraloría and to Congress. In 2025, MEF only funded NGOs that had "satisfactorily closed" their 2023 accounts (https://www.abc.com.py/economia/2025/01/16/presupuesto-destinara-a-las-ong-mas-de-g-56000-millones/).
+- **No evidence found** of SIARA technical faults, error rates or help videos (searched; unverified either way).
+
+### Competitor reality check
+
+- **No local product does this job.** Spanish searches found no Paraguayan software for the funds register, the SEPRELAD OSFL programme, forms A-E or the transparency page (see the Competition section below, plus a new search that found only foreign catalogue entries: https://www.capterra.es/directory/31355/nonprofit-accounting/software). Spanish tools such as "Gestión de asociaciones" handle member dues and cash, not Paraguayan duties (https://www.softwaredoit.es/gestion-de-asociaciones/gestion-de-asociaciones.html).
+- **Local accounting software** (for example Contasys) targets the tax law (Ley 6380/19), not non-profit registers (https://edydsi1.odoo.com/documents/content/G3P0uyJpSrKMhcLnMNUCHQo36, a promotional page; unverified).
+- **Price benchmark from a nearby local SaaS.** FacturaSend, for SIFEN e-invoicing (which art. 11 also imposes on in-scope OSFL), costs Gs. 100,000 a month for 200 documents. Extra users cost Gs. 20,000 a month, and integrators with more than 3 clients get half price (https://www.facturasend.com.py/). So Paraguayan buyers already pay about USD 13 a month for a single-duty tool.
+- **Current practice is people, not software.** Accountants and law firms do the work (Ferrere and Berkemeyer alerts in the Sources below). No public fee tables were found (searched; unverified). The bishops' statement confirms people are hiring professionals (https://www.ultimahora.com/ley-garrote-obispos-cuestionan-implicancia-economica-y-duplicacion-de-controles).
+- **Possible free substitute.** The bishops asked MEF for free digital tools (same source). If MEF adds a hosted transparency page or a funds register to SIARA, part of the product loses value. Art. 14 already allows publication on the authority's portal "in justified cases" (https://impuestospy.com/impuestos/decreto-n-4806-2025/).
+
+### Price per customer
+
+- **Funded NGO or foundation (full pack):** Gs. 200,000-300,000 a month (about USD 26-39). This covers the funds register, donor KYC and PEP files, the AML manual and risk templates, forms A-E prep, the transparency page and the calendar. That is under 10% of a monthly minimum wage of Gs. 3,044,000 (https://cazvid.com/es/blog/cuanto-gana-un-contador-en-paraguay, unverified). One avoided Gs. 8 million fine pays for about 3 years (https://www.abc.com.py/nacionales/2020/11/18/se-dilata-resolucion-sobre-multa-a-contribuyentes/).
+- **Small association (calendar, beneficial-owner file, transparency page):** Gs. 80,000-100,000 a month, in line with FacturaSend's entry plan (https://www.facturasend.com.py/).
+- **Accountant plan:** Gs. 60,000-80,000 per client a month, with a floor of 5 clients (my proposal; untested).
+- Exchange rate used: about Gs. 7,650 per USD, taken from ABC's Gs. 56,672 million = USD 7.4 million (https://www.abc.com.py/economia/2025/01/16/presupuesto-destinara-a-las-ong-mas-de-g-56000-millones/).
+
+### Revenue estimate (year 3)
+
+| Segment | Buyers | Share | Price | Annual revenue |
+|---|---|---|---|---|
+| Funded NGOs and foundations (114 on the 2025 state budget, plus donor-funded ones) | 1,000 (unverified) | 15% = 150 | Gs. 250,000/month | 150 x 250,000 x 12 = Gs. 450M (about USD 59k) |
+| Clients served through accountants | 40 firms x 10 clients = 400 (unverified) | (already counted) | Gs. 70,000/month | 400 x 70,000 x 12 = Gs. 336M (about USD 44k) |
+| Church-linked schools and charities (Episcopal Conference channel) | 300 (unverified) | 20% = 60 | Gs. 150,000/month | 60 x 150,000 x 12 = Gs. 108M (about USD 14k) |
+| **Total** | | | | **about Gs. 894M, or about USD 117k** |
+
+Sources: 114 funded NGOs (https://www.abc.com.py/economia/2025/01/16/presupuesto-destinara-a-las-ong-mas-de-g-56000-millones/). In 2020, about 30,000 legal persons, companies included, had filed in the beneficial-owner register (https://www.abc.com.py/nacionales/2020/11/18/se-dilata-resolucion-sobre-multa-a-contribuyentes/). No count of SIARA registrants was found (unverified). The low case is half the shares and half the accountant count, about USD 50-60k. That is a solid one-person business, but not more.
+
+### Ease of implementation and sale
+
+- **Build: easy to medium.** The product is registers, checklists, templates, a calendar, a static open-data page and a multi-client dashboard. There is no SIARA API, so filing stays manual copy and paste (unverified). The hard part is legal content: writing the AML manual and risk templates to SEPRELAD Res 490/2022, which needs a local compliance expert (https://www.abc.com.py/politica/2024/10/05/la-ong-presidida-por-esposa-de-leite-aparece-como-inactiva-ante-seprelad/).
+- **Onboarding: easy.** An organisation loads its board, donors and grants, and the rest follows.
+- **Sale: medium to hard.** Buyers are spread out, short of money and hostile to the law. Accountants are the best channel. The Colegio de Contadores already speaks for clients on these registers (https://www.abc.com.py/nacionales/2020/11/18/se-dilata-resolucion-sobre-multa-a-contribuyentes/). A lead list exists: the state-budget transfer list (https://www.abc.com.py/economia/2025/01/16/presupuesto-destinara-a-las-ong-mas-de-g-56000-millones/). Position the product as "protect your funding and bank account", not as backing the law.
+
+### Remaining risks
+
+- **The law could fall.** Two constitutional actions are pending (https://www.abc.com.py/nacionales/2026/07/08/organizaciones-de-la-sociedad-civil-presentan-segunda-accion-contra-la-ley-anti-ong/). The SEPRELAD and beneficial-owner duties would remain (ICNL checklist), so the product shrinks but does not die.
+- **MEF could add free tools,** as the bishops asked (https://www.ultimahora.com/ley-garrote-obispos-cuestionan-implicancia-economica-y-duplicacion-de-controles).
+- **The buyer count is unconfirmed.** No count was found for SIARA registrants or SEPRELAD-registered OSFL (unverified). Whether the 12-month extension was granted is also unverified.
+- **No published fines on non-profits were found** (unverified). Pressure comes from banks, funders and the Contraloría more than from penalties.
+- **Liability:** forms are sworn statements (art. 8, https://impuestospy.com/impuestos/decreto-n-4806-2025/). The tool must prepare, not sign.
+
+### New sources
+
+- https://www.icnl.org/wp-content/uploads/Contreras_Enero2025_Informe3-Checklist-w-Logo.pdf (read in full this pass)
+- https://www.ultimahora.com/ley-garrote-obispos-cuestionan-implicancia-economica-y-duplicacion-de-controles
+- https://www.abc.com.py/nacionales/2020/11/18/se-dilata-resolucion-sobre-multa-a-contribuyentes/
+- https://www.abc.com.py/economia/2025/01/16/presupuesto-destinara-a-las-ong-mas-de-g-56000-millones/ (now read in full)
+- https://www.facturasend.com.py/
+- https://www.capterra.es/directory/31355/nonprofit-accounting/software
+- https://www.softwaredoit.es/gestion-de-asociaciones/gestion-de-asociaciones.html
+- https://edydsi1.odoo.com/documents/content/G3P0uyJpSrKMhcLnMNUCHQo36
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

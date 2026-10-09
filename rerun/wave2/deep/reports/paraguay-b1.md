@@ -1,5 +1,74 @@
 # Paraguay B1: AML compliance kit for vehicle importers, dealers and used-car lots (SEPRELAD Res 196/2020)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10 (old score: 5/10).**
+
+### The case
+
+SEPRELAD's own annual reports show a sector that is failing its duties and is now being pushed. In 2024 it sent warning notes to 454 vehicle firms for missed objective duties (negative reports, operation reports, annual form, audit and internal-control reports), and only 32% of the sector had caught up on annual reports by 2025 ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf); [Memoria 2025](https://www.seprelad.gov.py/wp-content/uploads/2026/02/Memoria-Anual-de-Gestion-Ano-2025.pdf)). Fines have started: a formal sanction case against a vehicle firm in 2024 and a "significant" monetary fine on one in 2025 (same sources). The portal (SIRO) only receives filings. It does not keep the KYC files, the manual, the training records or a deadline calendar, and the firm still has to turn its own sales records into operation reports. No local product does that whole job. The core buyer base is small, about 330-450 active firms, so the case depends on a low-touch product, sale through auditors, and reuse for real estate.
+
+### Room for improvement over the portal or current practice
+
+- **Operation-report data preparation.** Res 196 Art. 31 requires operation reports (RO) through SIRO ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)). In 2025, 453 vehicle firms reported 156,019 operations: 82,591 sales, 51,698 imports and 21,730 purchases ([Memoria 2025](https://www.seprelad.gov.py/wp-content/uploads/2026/02/Memoria-Anual-de-Gestion-Ano-2025.pdf)). That is about 344 operations per firm per year. A tool that builds and checks these reports from the dealer's sales log is the clearest gap. Whether SIRO accepts bulk file upload or needs one-by-one entry is (unverified). The first pass missed this duty.
+- **Deadline tracking.** Duties fall on different dates: negative reports when no ROS is filed in a quarter (Art. 37), the annual form by 31 May, the internal report and the external audit report, and the annual SIRO user fee ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)). 454 warnings in one year show that firms miss them (same source).
+- **Records the portal does not keep.** Customer KYC files with PEP checks, the AML manual, the code of ethics, training records and the risk self-assessment. SEPRELAD's planned SIRO risk-matrix module will ask firms to *declare* their manual, self-assessment and training, not produce them ([Memoria 2025](https://www.seprelad.gov.py/wp-content/uploads/2026/02/Memoria-Anual-de-Gestion-Ano-2025.pdf)).
+- **Inspection readiness.** SEPRELAD did 35 on-site inspections of vehicle firms in 2025, picked by its risk matrix, and 51 vehicle-sector people attended sessions on remedial actions after inspections (same source). Random inspections ask for the manual, the officer appointment and training proof ([Ferrere](https://ferrere.com/es/novedades/inspecciones-aleatorias-de-seprelad-bajo-resolucion-36-21/)).
+- **Portal friction.** 532 registration requests were cancelled in 2024 and 450 in 2025 for not meeting SIRO requirements ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf); [Memoria 2025](https://www.seprelad.gov.py/wp-content/uploads/2026/02/Memoria-Anual-de-Gestion-Ano-2025.pdf)). SEPRELAD still runs SIRO training sessions in October 2026 ([SEPRELAD](https://www.seprelad.gov.py/?p=4442)). I found no direct user complaints (unverified).
+- **Multi-client work.** SEPRELAD admitted 64 external AML auditors in 2024 and recommended 71 more in 2025 (same sources). Each auditor serves several small firms and needs clean, comparable client files. A multi-client view for auditors and accountants is a real gap (inference).
+- **Correction to the first pass.** SIRO is not free. SEPRELAD charges an annual user fee ("canon") for it (Res 30/2024), and ran an amnesty for unpaid fees in 2024 ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)). The amount for vehicle firms is (unverified).
+
+### Competitor reality check
+
+- **SEPRELAD SIRO.** It handles registration, ROS, negative reports, operation reports and the annual form ([Memoria 2025](https://www.seprelad.gov.py/wp-content/uploads/2026/02/Memoria-Anual-de-Gestion-Ano-2025.pdf)). It is building a risk-matrix module, starting with the vehicle sector, that prefills data from operation reports (same source). That will take over part of a risk-assessment feature. It does not prepare data, keep KYC files, write a manual or track training. The homepage lists no model manual or forms ([seprelad.gov.py](https://www.seprelad.gov.py/)).
+- **Compliance Paraguay.** It sells a database of 9,000+ PEPs aimed at car dealers and other obliged firms. No price, client count, manual, KYC file or reporting feature is mentioned ([La Nación, Aug 2024](https://www.lanacion.com.py/negocios/2024/08/13/consultora-presenta-herramienta-que-identifica-a-personas-expuestas-politicamente/)). It is a screening input, not a compliance system.
+- **International KYC APIs.** TheKYB and Shufti Pro offer Paraguayan company and PEP/sanctions checks ([TheKYB](https://thekyb.com/our-data/paraguay/); [Shufti Pro](https://shuftipro.com/supported-countries/paraguay/)). They are developer APIs built for fintechs, with no Res 196 workflow. A car lot cannot use them directly (inference).
+- **Law firms and auditors.** Ferrere and Amaral sell advice and training ([Ferrere](https://ferrere.com/es/novedades/nuevo-reglamento-de-prevencion-de-lavado-de-activos-y-financiamiento-del-terrorismo-para-personas-fisicas-o-juridicas-involucrad/); [InfoNegocios](https://infonegocios.com.py/default/capacitacion-en-prevencion-de-lavado-obligacion-legal-para-algunos-ventaja-estrategica-para-todos)). No prices are published, and the work is custom documents, not ongoing record-keeping (unverified).
+- **Regional SaaS.** A search snippet described an Argentine "CONLAFT" web platform for the risk matrix, KYC, client file, monitoring and reports ([Cancillería AR PDF](https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf)). I did not open the source, and found no sign of it in Paraguay or on SIRO (unverified). I found no regional AML SaaS marketed to Paraguayan car lots.
+- **Bottom line.** No incumbent covers the whole job. The only real threat is SEPRELAD itself adding features to SIRO.
+
+### Price per customer
+
+- **What they pay or risk today.** A warning note, a fine (one in 2025), a sanction case, and the risk of losing bank access when off the register ([Memoria 2025](https://www.seprelad.gov.py/wp-content/uploads/2026/02/Memoria-Anual-de-Gestion-Ano-2025.pdf); [GAFILAT MER 2022](https://www.pj.gov.py/descargar/ID1-148_informe_de_evaluacion_mutua_de_paraguay_2022.pdf), para. 445). They also pay an external auditor every year and the SIRO fee. I found no published price for audits, manuals or outsourced compliance (unverified).
+- **Single lot or dealer:** USD 25-40 a month (USD 300-480 a year), plus about USD 100-150 to set up the manual, code and risk assessment (unverified estimate). This should sit well below an annual external audit fee (unverified).
+- **Larger importers and distributors (CADAM members):** USD 80-150 a month, for higher operation volume and several users (unverified estimate).
+- **Auditors and accountants:** USD 10-15 per client entity a month, or about USD 150 a month for up to 15 clients (unverified estimate).
+
+### Revenue estimate (year 3)
+
+- **Active vehicle firms.** About 450: 453 filed operation reports in 2025, 331 filed the annual form in 2025 and 357 in 2024 ([Memoria 2025](https://www.seprelad.gov.py/wp-content/uploads/2026/02/Memoria-Anual-de-Gestion-Ano-2025.pdf); [Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)).
+- **Other registered firms.** About 1,000 more, from 1,642 on the register in 2021 and 229 new vehicle registrations in 2025 ([GAFILAT MER 2022](https://www.pj.gov.py/descargar/ID1-148_informe_de_evaluacion_mutua_de_paraguay_2022.pdf); [Memoria 2025](https://www.seprelad.gov.py/wp-content/uploads/2026/02/Memoria-Anual-de-Gestion-Ano-2025.pdf)). How many still trade is (unverified).
+- **Vehicle sector only:**
+  - Active firms: 450 x 20% x USD 400 = USD 36,000.
+  - Other registered firms: 1,000 x 5% x USD 300 = USD 15,000.
+  - Total: about **USD 51,000 a year**.
+- **With real estate on the same engine.** 803 real-estate firms filed the annual form in 2025, 512 filed operation reports, and 1,238 were warned in 2024 (same sources). 800 x 15% x USD 400 = USD 48,000.
+- **Combined:** about **USD 100,000 a year** by year 3. Part of this would come through auditors at a per-client price. These shares are assumptions (unverified).
+
+### Ease of implementation and sale
+
+- **Build: medium.** Version 1 is a Spanish web app with a sales and KYC log, operation-report export, a deadline calendar, manual templates and an evidence folder. The hard parts are the SIRO report formats and the official text of Res 196, which I still have not seen (unverified).
+- **Onboarding: easy if it starts from the dealer's sales list.** Owners are small and not technical (inference).
+- **Sale: medium.** Buyers are easy to find on SEPRELAD's public register and through CIVU and CADAM ([Ferrere](https://ferrere.com/es/novedades/la-serpelad-crea-un-modulo-de-consultas-para-verificar-el-catastro-de-sujetos-obligados-registrados-en-el-siro/); [Última Hora](https://www.ultimahora.com/seprelad-el-50-playa-autos-eluden-el-control-antilavado-n2852685.html)). The fresh wave of warnings and fines gives a timely pitch. The 64-71 registered auditors per year are the best channel (inference). Buyers are price-sensitive and many are informal.
+
+### Remaining risks
+
+- **SEPRELAD extends SIRO** (risk-matrix module, unified firm profile) and absorbs part of the value ([Memoria 2025](https://www.seprelad.gov.py/wp-content/uploads/2026/02/Memoria-Anual-de-Gestion-Ano-2025.pdf)).
+- **Small market and low willingness to pay.** No price benchmarks were found (unverified).
+- **Enforcement may stay light.** One fine in 2025 is a start, not a pattern.
+- **Auditors may give away templates** with the audit (unverified).
+- **SIRO formats and bulk upload are unknown** (unverified). If SIRO only takes manual entry, the data-preparation value shrinks to checking and tracking.
+- **Liability** if a template manual fails an inspection.
+
+### New sources
+
+- https://www.seprelad.gov.py/wp-content/uploads/2026/02/Memoria-Anual-de-Gestion-Ano-2025.pdf
+- https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf
+- https://www.seprelad.gov.py/?p=4442
+- https://www.seprelad.gov.py/?page_id=1972
+- https://shuftipro.com/supported-countries/paraguay/
+- https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf
+
 ## Summary
 
 **Verdict: maybe. Score: 5/10.**

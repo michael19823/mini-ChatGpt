@@ -1,5 +1,66 @@
 # Romania B2: verification and revision register for ANRE EDIB gas firms
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10. Old score: 4/10.**
+
+**The case.** About 2 million verification and revision sheets are written each year by ANRE-authorised EDIB firms. Each firm must also keep an annual electronic register of its jobs in the Annex 6 format ([Order 179/2015, art. 9, 12](https://www.distrigazsud-retele.ro/wp-content/uploads/2023/11/Ordinul-ANRE-nr.-179.2015-actualizat-07.11.2023.pdf)). The two large distributors now run free portals where firms file sheets. But those portals only take the filing. They do not fill in the sheet on site, capture signatures, keep the firm's own register, or build a customer book for the next job. I found no Romanian product that does this job. The weak points are a small, low-margin buyer base of trade firms, an unknown firm count, and distributors who keep adding features. A simple, cheap tool could reach about €50k a year by year 3. That is a modest side business, not a big one.
+
+**Room for improvement over the portal or current practice.**
+- Filing is covered, the paperwork is not. Distrigaz Sud Rețele (DSR) runs a module in ePortalDGSR where firms "register and submit" sheets within 5 working days. Since 28 Sep 2026 it also handles restoring supply after a revision ([DSR](https://www.distrigazsud-retele.ro/parteneri/firme-autorizate/verificari-si-revizii/)). The guide says a sheet can be submitted "with a single click" ([DSR ePortal guide](https://www.distrigazsud-retele.ro/parteneri/firme-autorizate/ghid-eportaldgsr/)). This corrects the first pass, which pointed to the connection portal (racordaresd) instead.
+- Delgaz Grid also has a free platform, with an "operator economic" account ([portal.delgaz.ro](https://portal.delgaz.ro/inregistrare/operator-economic)). The firm types the 10-digit consumption-point code, and the platform pre-fills the customer data. It then asks for the work type, sheet number and dates. Paper originals must still reach Delgaz within 30 days ([Delgaz protocol](https://delgaz.ro/getattachment/9b0a2a69-b345-4c59-b644-c3ca21789412/Protocol-inregistrare-electronica-fise-Revizii-si-Verificari.pdf)). I saw this only in a search summary because the PDF returned 403 (unverified).
+- The sheet itself is still a paper or Word form. DSR publishes Annex 4 and Annex 5 as .docx files to print and fill in ([DSR](https://www.distrigazsud-retele.ro/parteneri/firme-autorizate/verificari-si-revizii/)). Its guide warns that missing signatures or tick boxes can get a sheet rejected ([DSR guide](https://www.distrigazsud-retele.ro/wp-content/uploads/2026/07/Ghid-Fise-Verificare-Tehnica-IUGN.pdf)). So the firm writes the sheet on paper and then retypes it into a portal. That double entry is the main pain a tool can remove.
+- Neither portal page mentions the firm's Annex 6 register, an export of the firm's own jobs, bulk upload or status tracking ([DSR](https://www.distrigazsud-retele.ro/parteneri/firme-autorizate/verificari-si-revizii/); [DSR ePortal guide](https://www.distrigazsud-retele.ro/parteneri/firme-autorizate/ghid-eportaldgsr/)) (absence unverified, since I could not log in).
+- Each distributor has its own procedure ([Order 96/2023, art. II](https://www.ppcenergy.ro/wp-content/uploads/ord-96-2023.pdf)). A firm that works in more than one distributor's area deals with several portals or email channels. One tool that produces the sheet once and tracks all filings helps here.
+- The firm has to keep its own customer book with next due dates if it wants the repeat job. The distributor database and the supplier notices go to the customer, not to the firm ([Order 179/2015, art. 5, 13-14](https://www.distrigazsud-retele.ro/wp-content/uploads/2023/11/Ordinul-ANRE-nr.-179.2015-actualizat-07.11.2023.pdf)).
+- Pressure is rising after safety incidents. After the October 2025 Rahova incident, firms had to repeat checks and complete new sheets before gas came back on ([HotNews](https://hotnews.ro/?p=2089206)).
+- Evidence gap: I found no user complaints, error rates or rejection counts for these portals (unverified). The pain argument rests on the double entry and the rejection warnings, not on measured data.
+
+**Competitor reality check.**
+- No dedicated software found. Twelve searches in this pass (Romanian and English) found no product for EDIB firms that fills in sheets, keeps the Annex 6 register or tracks due dates. That makes about 27 searches across all passes. Absence of a product cannot be proven by search, so treat this as (unverified).
+- Distributor portals: free, but filing only (see above). They are a complement, not a rival, as long as a tool can feed them. It can feed them by hand-off, not by API: I found no API or file import (unverified).
+- Flam Install: a free iOS app for one firm's own customers, not a tool sold to other firms ([App Store](https://apps.apple.com/gb/app/flam-install/id6479674236)).
+- Supplier bundles such as Engie ASIGAZ and Premier Energy's verification service compete for the end customer, not for the firm's tooling ([Engie](https://www.engie.ro/wp-content/uploads/2023/04/Condiții-generale-ASIGAZ.pdf); [Premier Energy](https://premierenergy.ro/verificare-si-revizie-clienti-casnici)). I saw the Premier Energy page only in search results (unverified).
+- Generic field-service apps (forms, photos, signatures) exist abroad. I found no Romanian vendor or Romanian-language template for the Annex 4 and 5 sheets (unverified). Without that template they do not do the job out of the box.
+- No killer under the owner's criteria.
+
+**Price per customer.**
+- Firms charge about 150-250 lei per flat verification and up to 600 lei for a revision ([bzi.ro](https://www.bzi.ro/care-este-pretul-pentru-o-verificare-a-gazelor-iata-de-ce-sunt-importante-reviziile-periodice-la-instalatia-de-gaz-5514055); [playtech.ro](https://playtech.ro/2026/revizia-la-centrala-termica-si-la-instalatiile-gaze-cat-costa-si-ce-se-intampla-daca-nu-o-faci/)).
+- Value test (my estimate, unverified): a firm doing 1,500 sheets a year earns about 300,000 lei from them. If the tool saves 10 minutes of retyping and register work per sheet, that is 250 hours a year. At about 30 lei an hour for office staff, that is 7,500 lei of time.
+- Suggested price (my estimate): 99 lei a month (about €20) for a small firm, plus 29 lei a month per extra installer login. A firm with 3 installers (the new legal minimum) pays about 157 lei a month, or about €375 a year. That is under 1% of the firm's sheet revenue and well under the time saved. A per-sheet option of 1 leu a sheet suits firms with few jobs.
+- Exchange rate assumed: about 5 lei per euro (unverified).
+
+**Revenue estimate (year 3).**
+- Buyers: EDIB firm count unknown. I assume 2,000 (unverified). The ANRE register has filters and an Excel export but returned no rows to my fetch ([ANRE register](https://portal.anre.ro/PublicLists/AtestatGN)). A figure of "almost 5,700" ANRE-authorised gas firms of all types circulates, but I could not trace its source (unverified).
+- Base case: 2,000 firms x 10% share x €300 a year = **€60,000 a year**.
+- Low case: 1,500 firms x 6% x €240 = €21,600 a year.
+- High case: 3,000 firms x 15% x €375 = €168,750 a year.
+- Upside not counted: a bundle with the ISCIR boiler workbench (K02), since many of the same firms service boilers ([playtech.ro](https://playtech.ro/2026/revizia-la-centrala-termica-si-la-instalatiile-gaze-cat-costa-si-ce-se-intampla-daca-nu-o-faci/)).
+
+**Ease of implementation and sale.**
+- Build: medium-easy. Two fixed forms (Annex 4 and 5), field rules from the DSR guide, signature capture, PDF output, an Annex 6 export and a due-date book ([DSR guide](https://www.distrigazsud-retele.ro/wp-content/uploads/2026/07/Ghid-Fise-Verificare-Tehnica-IUGN.pdf)). No integrations are needed on day one, because firms already file through the portals. Onboarding is a login and a logo.
+- Sale: hard. The buyers are small trade firms with low software habits (unverified). The ANRE register gives a free call list with phone and county ([ANRE](https://anre.ro/consumatori/gaze-naturale/care-sunt-operatorii-economici-autorizati-pentru-efectuarea-verificarilor-la-instalatiile-de-gaze/)). No trade association was found.
+- Timing helps a little. Order 17/2026 raises the minimum to 3 installers and adds in-house welders, with 3 months for existing holders to comply ([capital.ro](https://www.capital.ro/noul-regulament-anre-pentru-companiile-din-domeniul-gazelor-dispar-firmele-fara-capacitate-reala-cum-se-vor-acorda-autorizatiile.html); [profit.ro](https://profit.ro/perspective/schimbari-legislative-pentru-firme/nou-regulament-de-autorizare-a-operatorilor-economici-din-domeniul-gazelor-naturale-22461813)). The firms that remain will be fewer but bigger, which suits a per-installer price.
+
+**Remaining risks.**
+- Distributors add on-site digital sheets with signatures. DSR is clearly digitising this service ([DSR](https://www.distrigazsud-retele.ro/parteneri/firme-autorizate/verificari-si-revizii/)). This is the main threat.
+- Firm count unknown, and Order 17/2026 will shrink it.
+- Low price ceiling. A firm earning 150-250 lei a job will not pay much.
+- No measured evidence of portal pain (rejection rates, complaints) (unverified).
+- No API to the portals. The tool's value stops at producing the sheet and the register (unverified).
+
+**New sources.**
+- https://www.distrigazsud-retele.ro/parteneri/firme-autorizate/verificari-si-revizii/
+- https://www.distrigazsud-retele.ro/parteneri/firme-autorizate/ghid-eportaldgsr/
+- https://www.distrigazsud-retele.ro/wp-content/uploads/2023/11/Ordinul-ANRE-nr.-179.2015-actualizat-07.11.2023.pdf
+- https://portal.delgaz.ro/inregistrare/operator-economic
+- https://delgaz.ro/getattachment/9b0a2a69-b345-4c59-b644-c3ca21789412/Protocol-inregistrare-electronica-fise-Revizii-si-Verificari.pdf (search summary only; 403 on fetch)
+- https://premierenergy.ro/verificare-si-revizie-clienti-casnici
+- https://hotnews.ro/?p=2089206
+- https://profit.ro/perspective/schimbari-legislative-pentru-firme/nou-regulament-de-autorizare-a-operatorilor-economici-din-domeniul-gazelor-naturale-22461813
+- https://www.capital.ro/noul-regulament-anre-pentru-companiile-din-domeniul-gazelor-dispar-firmele-fara-capacitate-reala-cum-se-vor-acorda-autorizatiile.html
+- https://portal.anre.ro/PublicLists/AtestatGN
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

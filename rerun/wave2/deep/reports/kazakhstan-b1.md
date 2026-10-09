@@ -1,5 +1,79 @@
 # Kazakhstan B1: compliance kit for private security firms (quarterly MVD report, weapons register, 5-day notices)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10. Old score: 3/10.**
+
+**The case.** About 4,200 private security firms operate in Kazakhstan, with roughly 97,000 guards. That is about 22 guards per firm, so these are real payroll businesses, not micro-firms (https://24.kz/ru/news/social/702739-skolko-chastnykh-okhrannykh-predpriyatij-dejstvuet-v-kazakhstane; https://kapital.kz/gosudarstvo/144505/trebovaniya-k-ohrannym-organizaciyam-v-kazahstane-usilyat.html). Since 2026 they owe a quarterly 13-block report to the MVD by email, 5-working-day notices, and weapons duties (https://mybuh.kz/news/okhrannye-agentstva-budut-sdavat-otchety-v-mvd/). There is no state portal and no local product: firms do it by hand. The report alone is too thin to sell. But a cheap register-plus-deadlines tool for guards, weapons, posts and branches, which produces the MVD report as a by-product, has no real competitor. The weak points are the lack of a fine for the report itself and a hard, fragmented sale.
+
+### Room for improvement over the portal or current practice
+
+- **There is no portal to improve on.** The report goes as a plain email to the police security-control unit, with no template format stated (https://mybuh.kz/news/okhrannye-agentstva-budut-sdavat-otchety-v-mvd/). Firms must keep the source data themselves.
+- **Record-keeping the state does not do for the firm.** Ten of the 13 blocks are registers a firm must keep all year: service weapons by type, special equipment, weapons held but not used, protected schools and preschools, terrorism-vulnerable sites, employee crimes, and staff dismissed for negative reasons (same source). Today this most likely lives in Excel (unverified).
+- **Deadlines that are easy to miss.** These are the report by the 25th, a 5-working-day notice of suspension, resumption or work outside the registered place, a 10-working-day weapons hand-in on suspension, and control firing of rifled weapons, where a missed deadline can suspend the permit (https://kapital.kz/gosudarstvo/144505/trebovaniya-k-ohrannym-organizaciyam-v-kazahstane-usilyat.html).
+- **Multi-branch work.** The report covers each branch and representative office (https://mybuh.kz/news/okhrannye-agentstva-budut-sdavat-otchety-v-mvd/). Many firms run several branches (https://statsnet.co/companies/kz/59706887).
+- **Inspection readiness.** Joint order MVD No. 389 / MNE No. 67 of June 2026 rewrote the risk criteria and checklists for this sector (https://zakon.uchet.kz/kaz/docs/V2600038906). A tool that mirrors the checklist has a clear selling point. The 5-day notice as a risk criterion comes from the earlier check and was not re-read (unverified).
+- **Pain evidence is weak.** I found no complaints, guides or paid filing help for this report. The duty is only months old. The real pain signal is the regulator's: weapons of about 800 suspended firms are unaccounted for, which is why the rules were tightened (https://24.kz/ru/news/social/702739-skolko-chastnykh-okhrannykh-predpriyatij-dejstvuet-v-kazakhstane).
+
+### Competitor reality check
+
+- **State system.** No portal exists. "E-kuzet" still cannot be confirmed: a direct search found nothing (https://www.inform.kz/ru/v-kazahstane-ne-uchteno-oruzhie-800-ohrannih-kompaniy-deputat-e894d2 was seen only in an earlier search summary; unverified).
+- **1C.** No industry configuration for Kazakh security firms turned up. The nearest 1C product is for occupational safety, not guards or weapons (https://www.1cbit.kz/1csoft/ohrana-truda-predpriyatiay/).
+- **Bitrix24 apps (Russian).** "CRM Okhrannoe predpriyatie" by ITConstruct covers equipment sales, service pipelines and complaints. It has no guard register, weapons, licences or police reports. It has 106 installs and requires a paid Bitrix24 Market Plus subscription (https://www.bitrix24.ru/apps/app/itconstruct.crm_okhrannoe_predpriyatie/). Another ready CRM targets alarm installers (https://www.bitrix24.ru/apps/app/152747.gotovaya_crm_dlya_okhrannykh_organizatsii/). Neither does the job.
+- **Anolla.** It does shift scheduling, with a free plan and paid features at unpublished prices. It has no weapons register, licence tracking or official reporting, and no Kazakh language (https://anolla.com/ru/programmnoe-obespecenie-dlia-oxrannyx-uslug).
+- **Alarm-monitoring software** such as "Fregat Pult" handles alarm consoles, not compliance (https://apps.apple.com/ru/app/%D1%84%D1%80%D0%B5%D0%B3%D0%B0%D1%82-%D0%BF%D1%83%D0%BB%D1%8C%D1%82-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F/id1571259285).
+- **International guard tools** (GuardsPro, QR-Patrol, TrackTik) are English-only and not localised, as listed in the Competition section below.
+- **Bottom line:** the incumbent is Excel plus email. That is an opening, not a killer.
+
+### Price per customer
+
+- **What firms pay today.** Outsourced accounting in Almaty averages 200,000 to 250,000 tenge a month (https://digitalbusiness.kz/2025-11-20/kazhdomu-ip-v-kazahstane-ponadobitsya-buhgalter-rasskazivaem-skolko-eto-budet-stoit/). A first Art. 470 fine for a small firm is 40 MRP, about 173,000 tenge. A repeat costs 80 MRP or more and can carry a ban on activity (https://kodeksy-kz.com/ka/ob_administrativnyh_pravonarusheniyah/470.htm; MRP 4,325: https://kapital.kz/gosudarstvo/143213/mrp-mzp-i-drugie-raschetnye-pokazateli-na-2026-god.html). A suspended weapon permit stops armed contracts (https://kapital.kz/gosudarstvo/144505/trebovaniya-k-ohrannym-organizaciyam-v-kazahstane-usilyat.html).
+- **Report-only tool:** 2,000 to 3,000 tenge a month at most (unverified estimate). Not worth building on its own.
+- **Register plus deadlines plus report:** 10,000 to 15,000 tenge a month per firm, plus about 3,000 tenge per extra branch (unverified estimate). A year at 15,000 tenge is 180,000 tenge, about one first fine, and under 10% of one month of outsourced accounting.
+- **With shift schedules and timesheets for guards:** 20,000 to 30,000 tenge a month (unverified estimate). This is in line with international guard tools at about USD 10 to 40 a month (https://www.guardspro.com/trackforce-alternative; https://www.capterra.com/p/144873/ProxiGuard-Patrol-Management/).
+- **Per accountant or consultant:** there is no sign that accountants or consultants file this report for firms (unverified). So multi-client pricing is not a main lever.
+
+### Revenue estimate (year 3)
+
+- **Buyers:** about 3,500 active firms. That is 4,200 operating per a deputy, less some attrition (https://24.kz/ru/news/social/702739-skolko-chastnykh-okhrannykh-predpriyatij-dejstvuet-v-kazakhstane). This excludes alarm installers and training centres, which are not counted.
+- **Base case:** 3,500 x 6% share x 150,000 tenge a year (12,500 tenge a month) = 31.5 million tenge, about USD 63,000 at roughly 500 tenge per USD (exchange rate unverified).
+- **Good case** (shift module included): 3,500 x 8% x 300,000 tenge a year (25,000 tenge a month) = 84 million tenge, about USD 168,000.
+- **Low case:** 3,500 x 3% x 120,000 tenge = 12.6 million tenge, about USD 25,000.
+- A small but real business for one or two people in the base case. It is not a large company.
+
+### Ease of implementation and sale
+
+- **Build: easy.** It needs a Russian and Kazakh web app with registers, reminders and an Excel export of the 13 blocks. There is no state API to integrate, because filing is by email.
+- **Onboarding: medium.** Each firm must load its guards, weapons and sites once. That is about 20 to 100 records for a typical firm (unverified estimate).
+- **Sale: medium to hard.** The buyers are fragmented, conservative directors, often ex-police. There is no accountant channel. Possible routes are the Association of Security Organisations (https://kazpravda.kz/n/sila-v-edinstve-xd/; activity unverified), direct outreach via registers by OKED code (https://statsnet.co/companies/kz/59706887), and accounting media such as mybuh.kz, which covers this duty.
+- **Product-led selling is plausible.** A free quarterly-report generator could serve as the lead magnet for the paid register.
+
+### Remaining risks
+
+- **No fine for the report itself.** Art. 470 lists other breaches but not the report or the notices (https://kodeksy-kz.com/ka/ob_administrativnyh_pravonarusheniyah/470.htm). The pitch must rest on inspections, weapons permits and saved staff time.
+- **The rule is not pinned down.** The MVD order number and the official template were still not found. A Kazakh-language search turned up Order No. 83 (the Committee's regulation) and the June 2026 risk-criteria order, but no report form (https://zakon.uchet.kz/kaz/docs/G26C0000083; https://zakon.uchet.kz/kaz/docs/V2600038906).
+- **A state system could appear.** If "E-kuzet" or an MVD portal takes over the report (unverified), the export feature loses value. The registers and deadlines would still be needed.
+- **Data sensitivity.** Weapons and school-site data may make firms wary of the cloud. Offering local export and data hosted in Kazakhstan would help.
+- **Weak pain evidence.** No complaints or consultant market for this report were found. Pilot demand must be tested before building much.
+
+### Fixes to the first pass
+
+- The weapons hand-in deadline in the final law is 10 working days (https://kapital.kz/gosudarstvo/144505/trebovaniya-k-ohrannym-organizaciyam-v-kazahstane-usilyat.html). The 2024 draft said 15 (https://mybuh.kz/news/izmeneniya-dlya-okhrannykh-organizatsiy). The 2024 draft also moved inspections of security firms to a new Art. 20-1 of the security law (same source; final text unverified).
+- The 4,200 operating and 800 suspended figures come from the 24.kz article itself, dated 2 April 2025. The article does not mention E-kuzet.
+- The cited training-centre decree (P1100000751) and earlier named-centre decrees appear to have been repealed (search summary of https://zakon.uchet.kz/rus/docs/P1100000751; unverified). Treat the current training-centre rules and counts as unknown.
+
+### New sources
+
+- https://mybuh.kz/news/izmeneniya-dlya-okhrannykh-organizatsiy
+- https://zakon.uchet.kz/kaz/docs/G26C0000083
+- https://zakon.uchet.kz/kaz/docs/V2600038906
+- https://www.1cbit.kz/1csoft/ohrana-truda-predpriyatiay/
+- https://www.bitrix24.ru/apps/app/itconstruct.crm_okhrannoe_predpriyatie/
+- https://www.bitrix24.ru/apps/app/152747.gotovaya_crm_dlya_okhrannykh_organizatsii/
+- https://apps.apple.com/ru/app/%D1%84%D1%80%D0%B5%D0%B3%D0%B0%D1%82-%D0%BF%D1%83%D0%BB%D1%8C%D1%82-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F/id1571259285
+- https://digitalbusiness.kz/2025-11-20/kazhdomu-ip-v-kazahstane-ponadobitsya-buhgalter-rasskazivaem-skolko-eto-budet-stoit/
+- https://tengrinews.kz/kazakhstan_news/mvd-raskryilo-itogi-masshtabnyih-proverok-nakazanyi-603119/ (checked: says nothing on security firms)
+
 ## Summary
 
 **Verdict: no-go. Score: 3/10.**

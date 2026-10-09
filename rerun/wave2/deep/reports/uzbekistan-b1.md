@@ -1,5 +1,76 @@
 # Uzbekistan B1: Compliance tracker for small gas-station, AGNKS and propane-station owners
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10. Old score: 3/10.**
+
+### The case
+
+Resolution No. 315 puts a stack of paper duties on every fuel and gas station. These include monthly valve test acts, 6-monthly tank valve tests, vessel passports, staff certificates, insurance, and U-Gas notices with 1-day and 5-day deadlines (https://lex.uz/ru/docs/8280849). The state systems named in the resolution are built for inspectors, not for operators. TRIS lets inspectors watch metrology dates, the Licence system tracks staff for the ministry, and point 4(b) is a task for two ministries (https://lex.uz/ru/docs/8280849). No operator-side tool was found. Enforcement is heavy: 46,737 violations, 3,354 officials held liable and 464 stations suspended (https://yuz.uz/uz/news/146318). A cheap station compliance file with a Telegram reminder bot is easy to build. But the buyer base is about 6,200 sites with unknown ownership, part of it (methane) is in distress, and willingness to pay is unproven. That caps this at "maybe".
+
+### Room for improvement over the portal or current practice
+
+- **No operator register.** Res. 315 needs many records but sets no journal and offers no tool to keep them. The list covers valve test acts with a tag showing the next test date, vessel and valve passports, manometer checks, staff certificates, orders appointing responsible persons, an evacuation plan and an insurance e-policy (https://lex.uz/ru/docs/8280849). Today these are paper files at the station (unverified).
+- **Deadline tracking.** There are monthly spring-valve tests, 6-monthly tank valve tests and yearly tests of other valves (Annex 3, items 12-13). Vessel inspection and hydraulic tests are periodic (https://lex.uz/ru/docs/8280849). From 1 Jan 2027, stations with uncertified staff are suspended (https://lex.uz/ru/docs/8280849). A calendar per station and per staff member fits this well.
+- **U-Gas notice clocks.** Operators must report a fixed violation within 1 day, a suspension within 5 days and an owner or lease change within 1 day, through the personal cabinet. A sync gap of more than one working day is a violation (https://lex.uz/ru/docs/8280849). Software can flag these clocks. U-Gas itself records dispensing, not the operator's safety file (https://www.spot.uz/ru/2025/09/24/ugaz/).
+- **Inspection readiness.** Inspectors found 46,737 violations and wrote 79,049 orders to operators (https://yuz.uz/uz/news/146318). Sources disagree on whether 7,166 items were left unfixed or were fixed (https://yuz.uz/uz/news/146318; https://www.spot.uz/oz/2026/06/29/gas-station-safety/). Either way, tracking open orders until they are closed is a real job.
+- **Pressure equipment flag.** From 1 Sep 2026 to 1 Jan 2030, equipment past its service life or with an unknown date is restricted (https://lex.uz/ru/docs/8280849). An equipment register with build dates shows owners their exposure.
+- **Multi-client work.** Expert organisations, safety outsourcers and attestation centres could run many stations from one account. Such firms exist (https://www.goldenpages.uz/rubrics/?Id=1697; https://glotr.uz/showcase/ooo-xavfsiz-hayot-15597/), but their number and prices were not found (unverified).
+- **Portal pain.** No public complaints about U-Gas or the Committee's e-services were found in Russian or Uzbek searches (unverified). The pain shown is enforcement, not a slow portal.
+
+### Competitor reality check
+
+- **State tools.** U-Gas covers gas metering, vehicle and cylinder checks, dispenser use and staff on shift (https://www.spot.uz/ru/2025/09/24/ugaz/). It does not hold valve acts, vessel passports or certificate expiry. TRIS, the Licence system and the point 8 oil-and-gas online control are inspector-side (https://lex.uz/ru/docs/8280849). The online control project for oil and gas products is only a draft due 1 Dec 2026 and is about fuel volumes (https://www.spot.uz/ru/2026/06/28/gas-monitoring/). So the state does not do the operator's job. It is not a killer.
+- **1C.** 1C:KA AZS does fuel trade, stock and payroll, not safety deadlines (https://solutions.1c.ru/upload/reestr/2c0/oy7en9yzhj2lv0qwl980qgkrrf1pjxa8/Opisanie-funktsionalnykh-kharakteristik-1S-KA-AZS.pdf). 1C:Production Safety covers labour safety and industrial safety in Russia (https://v8.1c.ru/upload/static/1s-proizvodstvennaya-bezopasnost.pdf), but no Uzbek version or price was found (unverified). It is a heavy enterprise product and a poor fit for a one-station owner.
+- **Chains.** Lukoil runs its own station management system (https://lukoil.ru/api/presscenter/exportpressrelease?id=207502). Chains are not the target.
+- **Local products.** Searches for Uzbek station automation or industrial-safety software found none (searches in this pass; no URL to cite).
+- **Net.** No product does the whole job. The gap is open.
+
+### Price per customer
+
+- **What non-compliance costs.** Stations sold 3.6 trillion soums of fuel in June 2026 (https://podrobno.uz/cat/economic/azs-uzbekistana-zarabotali-za-mesyats-3-6-trilliona-sumov/). Over about 6,200 sites that is about 580 million soums of sales per site per month, or about 19 million soums (about USD 1,500) per day (own estimate). One day of suspension costs more than a year of software.
+- **Fines.** Fire-safety fines on officials are 3-10 BRV, about 1.2-4.1 million soums (https://www.spot.uz/ru/2026/04/23/fire-fines/). 3,354 officials were held liable in the inventory (https://yuz.uz/uz/news/146318).
+- **Staff alternative.** A part-time safety engineer or an outsourced safety service is the current option. No price was found (unverified).
+- **Proposed price.**
+  - Single station: 200,000-300,000 soums (about USD 16-24) a month, so about USD 200-290 a year (own estimate).
+  - Consultant or expert firm: about USD 60-100 a month for up to 20 client stations (own estimate).
+  - One-off "pre-inspection audit plus digital file" service: 2-5 million soums per station (own estimate, unverified).
+
+### Revenue estimate (year 3)
+
+- Buyer base: 6,196 sites (https://www.spot.uz/oz/2026/06/29/gas-station-safety/). Assume about 20% belong to chains with their own systems. That leaves about 5,000 sites (own estimate).
+- Base case: 8% of 5,000 = 400 sites x USD 240 a year = **USD 96,000**. Add 25 consultant accounts x USD 960 = USD 24,000. Total **about USD 120,000 a year**.
+- Low case: 4% = 200 sites x USD 240 = USD 48,000, plus 10 consultants x USD 960 = USD 9,600. Total **about USD 58,000**.
+- High case: 15% = 750 sites x USD 240 = USD 180,000, plus 40 consultants x USD 960 = USD 38,400. Total **about USD 218,000**.
+- Upside if the same engine is extended to other hazardous production facilities. Uzbekistan has more than 59,000 industrial enterprises (https://gov.uz/ru/cirns/news/view/196046), but how many run registered hazardous facilities is not known (unverified).
+
+### Ease of implementation and sale
+
+- **Build: easy.** It is a checklist from Annexes 1-5, an equipment and staff register, a deadline engine, a photo archive of signed acts and a Telegram bot in Uzbek and Russian (https://lex.uz/ru/docs/8280849). No integration with U-Gas is needed for version 1.
+- **Onboarding: easy.** One visit or one call per station to enter vessels, valves, meters and staff.
+- **Sale: medium to hard.** Owners are scattered. No owners' association was found (https://www.base.spinform.ru/show_red.fwx?rid=72099). The best route is through expert organisations and attestation centres, which see every station and gain from the 1 Jan 2027 staff rule (https://lex.uz/ru/docs/8280849).
+- **Overall: medium.**
+
+### Remaining risks
+
+- **Methane stress.** Methane stations were cut to 6 hours a day and closed to private cars in March 2026 (https://www.spot.uz/ru/2026/03/06/methane-closed/). Owners were selling stations in bulk as early as 2023 (https://podrobno.uz/cat/obchestvo/v-uzbekistane-vladeltsy-gazovykh-zapravok-massovo-prodayut-svoy-biznes-/). Cash-strapped owners spend on equipment first.
+- **Capex dominates.** The costly part is replacing old vessels and tanks (https://lex.uz/ru/docs/8280849). A tracker does not pay for that.
+- **Unknown ownership.** The number of distinct owners and single-site owners is still not found (unverified).
+- **State creep.** From 1 Jan 2027, automated control data will feed permits for hazardous facilities (https://yuz.uz/uz/news/146318). A future state operator cabinet could absorb deadline alerts (unverified).
+- **Weak facts fixed.** The violation breakdown differs between sources. Spot.uz (Uzbek) gives 7,949 fire, 7,875 process, 3,354 ecology and 2,218 construction (https://www.spot.uz/oz/2026/06/29/gas-station-safety/). Yuz.uz uses 3,354 for officials held liable and 7,875 for fixed items (https://yuz.uz/uz/news/146318). Treat the sub-totals as unverified. The 46,737 total and 464 suspensions agree across sources.
+- **Liability.** If a station misses a reminder and then has an accident, the vendor's name is attached to it.
+
+### New sources
+
+- https://yuz.uz/uz/news/146318
+- https://www.spot.uz/oz/2026/06/29/gas-station-safety/
+- https://www.spot.uz/ru/2026/06/28/gas-monitoring/
+- https://gov.uz/ru/cirns/news/view/196046
+- https://v8.1c.ru/upload/static/1s-proizvodstvennaya-bezopasnost.pdf
+- https://glotr.uz/showcase/ooo-xavfsiz-hayot-15597/
+- https://podrobno.uz/cat/obchestvo/v-uzbekistane-vladeltsy-gazovykh-zapravok-massovo-prodayut-svoy-biznes-/
+- https://lex.uz/ru/docs/8280849 (re-read for operator record duties and U-Gas notice deadlines)
+
 ## Summary
 
 **Verdict: no-go. Score: 3/10.**

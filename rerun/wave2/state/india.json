@@ -1,4 +1,89 @@
 {
+ "challenge:india:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No outright killer. Partial overlap: ADDA Compliance and AMC Tracker and NoBrokerHood statutory renewal alerts (generic, not lift-specific). ElevatorPlus (AMC alerts for lift firms). IncorpX consultancy with renewal reminders. State portals (HP e-district, TN Form G online, Assam EODB, UP portal) handle filing. Telangana Act not enacted (July 2026 report) and AP commencement unconfirmed.",
+   "reason": "I found no single product or rule that kills this, so it survives, but only weakly. The general tools that come closest are ADDA's Compliance and AMC Tracker and NoBrokerHood's renewal-deadline alerts. Both let society committees set statutory expiry reminders, and neither page I found mentions lift licences. ElevatorPlus tracks AMC renewals for lift companies. IncorpX sells renewal reminders as part of its consultancy. Several states have online portals: HP e-district, the TN Form G online filing, Assam EODB and UP. Some of the trigger is weaker than claimed. The Telangana bill was still unenacted as of July 2026, and I found no notified commencement for AP. Renewal intervals vary by state (yearly in TN, possibly up to 5 years elsewhere). Tracking a few dates a year is a thin job, and AMC firms often absorb it.",
+   "searches": 8,
+   "sources": "https://blog.ind.adda.io/?p=21800 ; https://www.incorpx.io/lift-installation-license-in-delhi ; https://www.capterra.ca/software/1075289/ElevatorPlus ; https://www.tribuneindia.com/news/himachal/lift-safety-norms-to-be-enforced-strictly ; https://sewasetu.assam.gov.in/site/service-apply/license-for-operating-a-lift-installed-before-the-commencement-of-the-act ; https://www.india.gov.in/application-renewal-licence-working-lift?page=1 ; https://www.siasat.com/telangana-cm-clears-draft-law-on-lift-safety-after-hc-push-3511228/ ; https://www.deccanchronicle.com/southern-states/telangana/telangana-govt-to-table-lifts-and-escalators-bill-in-cabinet-1972992 ; https://elevatorworld.com/news/daily-news/india-passes-andhra-pradesh-lifts-and-escalators-bill/ ; https://www.kaanoon.com/222138/lift-license",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b14"
+ },
+ "challenge:india:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single killer. The main weakness is market size: about 6,244 BIS-licensed packaged drinking water makers as of Feb 2024 (Lok Sabha AU1206), with low willingness to pay. A light monthly testing duty that NABL labs, consultants (Corpseed, IndiaFilings) or a generic app like myFSC can absorb.",
+   "reason": "Nothing kills it outright. I found no product built for Indian packaged-water plants that tracks the FSSAI Scheme of Testing in force since 1 Jan 2026. Secondary summaries say that scheme requires monthly microbiological tests, holding batches after a failure, five consecutive passing batches before restart, and records kept 5 years. The only FoSCoS upload duty I found is the general 2023 six-monthly lab-report order. Still weak: India had only about 6,244 BIS-licensed packaged-water makers (Lok Sabha, Feb 2024); unlicensed units won't buy compliance software; and the core recurring job is one monthly external lab report plus logs, which a spreadsheet, the testing lab, or a consultant (Corpseed, IndiaFilings) can cover. Not verified: the order text itself (PDF unreadable) and whether reports must be uploaded to FoSCoS.",
+   "searches": 7,
+   "sources": "https://eparlib.nic.in/bitstream/123456789/2974098/1/AU1206.pdf ; https://www.fssai.gov.in/upload/advisories/2025/12/6944f19f64122Scheme of Testing PDW MW.pdf ; https://www.freyrsolutions.com/consumer-industry-news/fssai-removes-mandatory-bis-certification-for-packaged-drinking-water-and-mineral-water-introduces-new-testing-scheme-from-january-2026 ; https://www.storyboard18.com/amp/how-it-works/fssai-scraps-mandatory-bis-mark-for-packaged-water-rolls-out-stricter-testing-regime-from-january-2026-86193.htm ; https://foodsafetyworks.com/news/fssai-order-manufacturers-including-repacker-and-relabeller-to-upload-or-link-mandatory-lab-testing-report-six-monthly-on-foscos/ ; https://www.printweek.in/news/fssai-action-unlicensed-water-packaging-units-21015?amp=1 ; https://desireenergy.com/?p=526 ; https://www.corpseed.com/news/fssai-rolls-out-mandatory-testing-scheme-for-packaged-drinking-and-mineral-water",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b14"
+ },
+ "challenge:india:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. The main weaknesses: the state district portal handles submission; the filing is mostly a one-time registration with yearly renewal; thresholds (more than 100 students in Rajasthan, 50 in the central guidelines) exclude small tutors; Rajasthan's rules and portal are not yet notified.",
+   "reason": "I ran 6 searches, 2 of them in Hindi, and found no product or service that kills the idea. Coaching ERPs and the big filing firms (Vakilsearch, IndiaFilings) show no coaching-registration offering. The duty is real and recurs in Haryana: a 3-year certificate costing Rs 10,000, renewals at Rs 5,000, and information sent to the District Authority every year. But it is mostly a one-off registration plus a light annual return, filed on the state's own district portal. The thresholds also leave out the smallest tutors: more than 100 students in Rajasthan and 50 in the central guidelines. Rajasthan's rules and portal don't appear to be notified yet, and other states are still drafting. The market is fragmented, willingness to pay is low, and ERPs could add the feature cheaply. A done-for-you registration service fits better than SaaS.",
+   "searches": 6,
+   "sources": "https://teamleaseregtech.com/updates/article/59094/haryana-private-coaching-institutes-registration-and-regulation-rules-2026/ ; https://test.uniindia.com/news/north/education-haryana-coaching/3954668.html ; https://swarajyamag.com/news-brief/haryana-makes-coaching-centre-registration-mandatory-under-new-rules ; https://www.indiacode.nic.in/bitstream/123456789/22460/1/english.pdf ; https://www.iasgyan.in/daily-current-affairs/rajasthans-bill-on-coaching-centres ; https://okcredit.in/blog/how-to-start-a-coaching-centre-in-english/ ; https://www.deccanherald.com/india/karnataka/govt-mandates-registration-for-iaskas-coaching-centres-in-karnataka-2850094 ; https://hindinews.careers360.com/rajasthan-coaching-center-bill-passed-fine-for-violation-of-rules-all-coaching-institutes-information-on-web-portal ; https://vajiramandravi.com/upsc-daily-current-affairs/prelims-pointers/coaching-centre",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b14"
+ },
+ "challenge:india:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No outright killer. Partial substitutes: AD bank portals (ICICI Trade Online/Trade OneView shows outstanding export bills and is linked to EDPMS), the free ICEGATE RBI-EDPMS lookup, Kyzer Software's EDPMS/IDPMS platform sold to banks with a client portal, and Seasaw AI (EDPMS compliance automation for e-commerce exporters, from $200/month)",
+   "reason": "I found no single product that kills this idea, but free and paid substitutes already cover much of the core job. ICICI's free Trade Online \"Trade OneView\" dashboard shows outstanding export bills and is linked to EDPMS, so exporters can match payments to open entries there. ICEGATE has a free EDPMS status lookup by shipping bill number. Kyzer Software sells EDPMS/IDPMS software to banks that includes a portal for their corporate clients. Seasaw AI, from $200/month, automates EDPMS closure and e-BRC for e-commerce/D2C exporters. The trigger looks real: secondary sources agree on the 9-month rule and the 22 Sep 2026 amendment, and a May 2026 Customs notice ties export incentives to EDPMS reconciliation. Still open: whether a firm banking with several banks would pay for one cross-bank tracker, and whether Tally add-ons already offer one. My Tally search found nothing.",
+   "searches": 8,
+   "sources": "https://www.icici.bank.in/business-banking/trade-service/onlinetrade ; https://www.softwaresuggest.com/seasaw-ai ; https://www.getapp.com/all-software/a/edpms-idpms-management/ ; https://www.softwareadvice.com.au/software/367469/edpms-idpms-management ; https://www.taxmann.com/post/blog/rbi-restores-export-proceeds-realisation-period-to-9-months/ ; https://taxguru.in/?p=1082965 ; https://mundhraconsulting.com/wp-content/uploads/2026/06/indirect-Tax-Newsletter-MCS-May-2026.pdf ; https://www.indianbank.in/wp-content/uploads/2025/12/FAQ_EDPMS.pdf ; https://www.cygnet.one/topic/challenges-in-tracking-shipping-bills-across-idpms-and-edpms-systems/",
+   "suggested_score": 4,
+   "verdict": "unclear"
+  },
+  "tag": "w2b14"
+ },
+ "critic:india": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Shops and Establishments Acts: trade licence, municipal trade licence, and Professional Tax registers/returns for sole traders and small shops",
+     "first_search": "Shops and Establishments Act registration renewal professional tax return small business state portal 2026",
+     "why": "Nearly every small business in India owes state Shops & Establishments registration/renewal, municipal trade licence (e.g. BBMP/GHMC/MCD), and monthly or annual Professional Tax returns. This is a very large buyer group with a mandatory recurring duty, and none of it appears in the coverage table or ledger. Many states have changed the rules (e.g. Maharashtra 2025 amendment, Karnataka PT)."
+    },
+    {
+     "category": "Hotels, guest houses and homestays: state homestay registration, police guest register, and fire/tourism licences (category 29 was not_reached)",
+     "first_search": "homestay registration scheme 2026 tourism department renewal guest register police Himachal Kerala Uttarakhand Goa",
+     "why": "Tourism-heavy states (Kerala, Goa, Himachal, Uttarakhand, Rajasthan, J&K) have new homestay registration schemes and local police and municipal guest-record duties. K09 rejects only the foreign-guest FRRO Form C angle, not the domestic guest-register, state homestay registration or tourism-department renewal duties. The search budget was never spent here."
+    },
+    {
+     "category": "Pesticide, seed and fertiliser dealers: state-level licence renewal and the new Pesticide Management Bill / Seeds Bill (category 14 was not_reached)",
+     "first_search": "Seeds Bill 2025 dealer registration pesticide dealer licence renewal DAESI certificate e-register portal 2026",
+     "why": "K06 covers the monthly-return core job. The 2025-26 draft Seeds Bill 2025 and Pesticide Management Bill, plus dealer licence renewals, DAESI certificate requirements and state e-licensing, may change the duty or the buyer group. There is nothing yet on whether K06's 7/10 rating still holds or whether the seed-dealer and licensed applicator variants are separate candidates."
+    },
+    {
+     "category": "Employer social-security filings by small employers: EPFO, ESIC, labour-code registration, and Gratuity/Shram Suvidha returns after the Codes took effect in Nov 2025",
+     "first_search": "EPFO ESIC monthly return small establishment Code on Social Security 2025 unified registration Shram Suvidha employer compliance",
+     "why": "Small firms with 10-20 employees must file monthly EPF ECR and ESIC contributions, and have new registration and return duties under the Code on Social Security and OSH Code. K14 rejected payroll software in general, but the statutory-filing-only buyer (small firms using no payroll tool, plus household and trust employers) and the gig/platform-worker registration under the Social Security Code were not screened. Check for specific 2026 changes: the ELI scheme UAN activation, and the 'establishment registration' unified portal."
+    },
+    {
+     "category": "Customs, DGFT and export-import duties for small exporters: RoDTEP/RoSCTL claims, IEC annual update, EDPMS/BRC realisation (forex receipts), and MSME export-obligation tracking",
+     "first_search": "IEC annual update DGFT EDPMS BRC export realisation pending small exporter RoDTEP claim deadline 2026",
+     "why": "Category 30 covered only APEDA/MPEDA/RCMC. Lakhs of small exporters must update the IEC annually, reconcile export proceeds via RBI EDPMS/BRC within the deadline (FEMA), and claim RoDTEP and drawback. Missed realisation triggers authorised dealer bank queries and penalties. This is a sector with an unusually large number of small operators (Surat, Tirupur, Moradabad, Ludhiana). The CBAM rejection in K16 covers only the EU carbon duty."
+    },
+    {
+     "category": "Small manufacturers' pollution-control consents: State Pollution Control Board Consent to Operate (CTO) renewals, Form-V environmental statement, and hazardous-waste returns for MSME units",
+     "first_search": "Consent to Operate renewal MSME Form V environmental statement 30 September hazardous waste annual return SPCB portal 2026",
+     "why": "State PCB consent (Water/Air Acts) is a mandatory recurring duty for lakhs of orange/red/green-category MSME units, with annual Form V environmental statements by 30 September and hazardous-waste Form 4 returns. The pass covers crushers, kilns and EPR, but not the general MSME CTO/CTE renewal and returns; the Water (Prevention and Control of Pollution) Amendment Act 2024 decriminalised some of this and some SPCBs are moving to a new category system. Not yet in the ledger."
+    }
+   ]
+  },
+  "tag": "w2b14"
+ },
  "discover:A:india": {
   "result": {
    "blocked_searches": 0,
@@ -316,5 +401,999 @@
    "searches": 28
   },
   "tag": "w2b13"
+ },
+ "discover:B:india": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Dental clinics with OPG/IOPA, small diagnostic and X-ray centres, nursing homes (many sole practitioners; count not verified)",
+     "category": "31. Radiation facilities (also 24)",
+     "evidence": "https://aerb.gov.in/images/PDF/DiagnosticRadiology/e-LORA-Diagnostic-Radiology-Guidelines.pdf ; https://aerb.gov.in/english/consenting-process-in-radiation-facilities ; https://www.infralens.in/formats/statutory/aerb-license-tracker ; https://www.legalraasta.com/blog/?p=36674",
+     "existing": "Competitor search found no dedicated renewal-reminder software, only the free eLORA portal, consultant blogs and a generic infralens tracker template for project builders.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Same clinic buyer class as K03 but different duty (radiation licensing, not PC-PNDT).",
+     "name": "AERB Licence, RSO and Periodic-QA Tracker with eLORA Renewal Service for Dental and Diagnostic X-ray Units",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Radiation Protection Rules 2004: AERB licence via eLORA, renewal before expiry (one commercial source says 5 years, unverified), periodic QA at least every 2 years, RSO nomination, incident reporting",
+     "trigger_note": "",
+     "unchecked": "Whether eLORA sends expiry notices; licence validity; number of dental X-ray units; dental registration track (separate dental guidelines not fetched); QA vendor/ERB-accredited tester landscape; fees charged by consultants."
+    },
+    {
+     "buyer": "Small builders, private owners-developers and contractors with 10+ workers (state building-worker welfare boards)",
+     "category": "27. Construction contractors: site registers and returns",
+     "evidence": "https://www.taxmann.com/post/blog/analysis-bocw-cess-under-code-on-social-security/ ; https://factohr.com/?p=48887 ; https://www.wblc.gov.in/standard-operating-procedures/registration-establishment-under-bocwa",
+     "existing": "Competitor search found no dedicated cess software; only payroll/compliance outsourcers (Patron Accounting) and generic guides. State boards run their own portals (online registration, e.g. West Bengal).",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Related to K04 (developers' waste EPR) only by buyer class; different duty.",
+     "name": "BOCW Cess Self-Assessment and Form XV-XVIII Return Desk for Small Builders and Contractors (1% cess, Code on Social Security)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Cess Act 1996 repealed; levy now under Code on Social Security 2020 Ch. VIII; rate fixed at 1% by S.O. 2322(E) of 8 May 2026; advance payment on self-assessment certified by a chartered engineer (Rule 41); Form XV within 60 days (changes 30 days), cost form XVI, stoppage and completion returns within 60 days, interest 1% a month; scrutiny only above Rs 10 lakh",
+     "unchecked": "State-by-state portal and rate differences (some sources still say 1-2% or old Act); whether state boards have adopted the Code rules; how many small builders file themselves versus through CAs; engineer-certificate dependence."
+    },
+    {
+     "buyer": "Small and mid-size registered promoters and single-project builders, plus real-estate agents (agent registration is state-specific)",
+     "category": "28. Real estate brokers and promoters with periodic reports",
+     "evidence": "https://www.corpseed.com/law-update/punjab-rera-circular-1-2026-late-fees-form-5 ; https://teamleaseregtech.com/updates/article/53406/krera-issued-a-circular-regarding-the-penalty-for-delay-in-quarterly-updates/ ; https://www.propnewz.com/blog/k-rera-quarterly-report-penalties-karnataka-2026 ; https://calcguru.in/?p=4950",
+     "existing": "TeamLease RegTech publishes RERA updates (tracking service); no dedicated small-promoter filing tool found; CAs and consultants do the filing. No competitor search run (budget exhausted).",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Same buyer group as K04 (developers) but a different duty.",
+     "name": "RERA Quarterly-Update and Form-5 Filing Service for Small Promoters (Punjab, Karnataka, Maharashtra and others)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "RERA 2016 s.11: quarterly updates (K-RERA within 15 days of quarter end; MahaRERA within 20 days) and annual audited Form 5. Punjab RERA Circular 1/2026 dated 27 Jul 2026, effective 1 Oct 2026: Rs 500/day (quarterly) and Rs 1,000/day (Form-5), capped at 30 days. K-RERA: Rs 25,000 per late quarterly update, with a 31 Mar 2026 amnesty window",
+     "unchecked": "Competitor search (e.g. RERA compliance software for builders); whether state portals have APIs; whether Punjab circular figures are accurate (single secondary source); small-promoter share of the market."
+    },
+    {
+     "buyer": "Nidhi companies (mutual-benefit lenders to members; count not verified), usually small, locally run",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.caclubindia.com/news/mca-alerts-nidhi-companies-to-file-ndh-3-by-30th-april-2026-26418.asp ; https://ca2013.com/rule-21-nidhi-rules-2014/ ; https://taxguru.in/company-law/nidhi-rules-2014-amendment-vide-nidhi-rules-2022.html",
+     "existing": "Compliance-service pages (incorpx.io, taxclue.in) bundle filings; MCA V3 portal is free. No competitor search run.",
+     "known_mark": "new",
+     "name": "Nidhi Company Half-Yearly NDH-3 / NDH-4 Compliance Pack",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Nidhi Rules 2014 r.21 (substituted 2023): NDH-3 within 30 days of each half-year (30 Apr and 30 Oct), certified by CA/CS/CMA; Nidhi (Amendment) Rules 2022: NDH-4 within 120 days of incorporation, 200 members, NOF Rs 20 lakh, Rs 10 lakh paid-up capital. Next NDH-3 due 30 Oct 2026",
+     "unchecked": "Number of active Nidhis; who files (CA/CS retainer); whether member ledgers and deposit/loan ratio checks (Nidhi Rules) are the real pain; competitor tools; sources conflict on NDH-4 window (60 vs 120 days) and NOF (Rs 10 vs 20 lakh)."
+    },
+    {
+     "buyer": "Small private coaching institutes and tuition centres (every branch registers separately under central 2024 guidelines)",
+     "category": "32. Coaching centres: state registration laws 2025-26",
+     "evidence": "https://www.scconline.com/blog/post/2026/08/25/draft-maharashtra-private-coaching-centers-act-2026/ ; https://www.lawrbit.com/article/key-highlights-of-guidelines-for-regulation-of-coaching-centers-2024/ ; https://news.careers360.com/andhra-pradesh-draft-coaching-institutions-regulation-control-rules-2026-mandatory-wellness-cells-dlmc-monitoring-fee-transparency ; https://news.careers360.com/assam-assembly-passes-bill-regulate-coaching-centres",
+     "existing": "Not checked. Generic institute ERPs likely exist but none confirmed as registration tools. No competitor search run.",
+     "known_mark": "new",
+     "name": "Coaching Centre Registration and Compliance Manager (state-by-state: Rajasthan, Haryana, Assam, AP, Maharashtra, Puducherry)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Rajasthan Coaching Centres Act 2025 (assent 23 Sep 2025); Haryana Private Coaching Institutes Rules 2026 (notified 24 Aug 2026, district portal, fee/refund/batch disclosure); Assam Act passed 2025; Puducherry Feb 2026; AP and Maharashtra drafts 2026; central 2024 guidelines: fire safety, CCTV, 1 sq m per student, age 16+",
+     "unchecked": "Competitor search; whether state rules require recurring reports (fee disclosure, student counts, counsellor logs) or are a one-time registration; thresholds conflict (100 students in Rajasthan vs 20 in Nagaland); fragmented state portals; willingness to pay by small tutors."
+    },
+    {
+     "buyer": "Small and marginal shrimp farmers and hatcheries on the coast (mainly Andhra Pradesh; counts unverified)",
+     "category": "30 / 38. Fish and aquaculture regulated by CAA",
+     "evidence": "https://caa.gov.in/uploaded/2025/Document/List of farms expiring in the month of Jan to Apr-2026.pdf ; https://caa.gov.in/faq.html ; https://www.caa.gov.in/uploaded/2026/Citizen Charter2026.pdf ; https://www.intrafish.com/aquaculture/india-simplifies-aquaculture-rules-easing-compliance-for-small-scale-farmers/2-1-1501750",
+     "existing": "None seen; farmers file through district committees or CAA Chennai, often via consultants.",
+     "known_mark": "new",
+     "name": "Coastal Aquaculture Authority Farm and Hatchery Renewal Desk (Form-I and Form-H, expiry-list lead source)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Coastal Aquaculture Authority Act 2005 as amended 2023; 2024 Rules: renewal 90 days before expiry (CAA FAQ and Citizen Charter say two months), 5-year term, late fee twice the renewal fee; CAA publishes monthly lists of expiring farms",
+     "unchecked": "The expiry PDF could not be read by WebFetch (binary), so scale unknown; renewal is 5-yearly so low frequency; which channel applies; competitor search not run."
+    },
+    {
+     "buyer": "Small manpower and housekeeping contractors and the firms that hire them (principal employers)",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://taxguru.in/?p=1072788 ; https://teamleaseregtech.com/contract-labour-act-1970/ ; https://www.patronaccounting.com/payroll-services-for-security-agencies",
+     "existing": "TeamLease RegTech, Simpliance, outsourced payroll firms (Patron Accounting) offer contract-labour compliance.",
+     "known_id": "K14",
+     "known_mark": "new",
+     "known_note": "K14 rejected payroll and labour-codes software as too competitive; this is the narrower contractor/principal-employer duty but the same competitors apply. New 2026 OSH Rules do not remove TeamLease/Simpliance; not a revive.",
+     "name": "Contract-Labour Licence and Work-Order Compliance for Small Contractors under OSH Rules 2026",
+     "score": 3,
+     "status": "weak",
+     "trigger": "OSH Code Central Rules 2026: Form XXI licence on Shram Suvidha; no fee under 50 workers but compliance still applies; work orders intimated in 15 days; Form XVII annual return by end of February; renewal 90-30 days before expiry (25% late fee); principal employer pays unpaid wages within 15 days (Rule 98(8))",
+     "unchecked": "Effective date of OSH Code is reported inconsistently across sources; state-level rules; whether the Shram Suvidha auto-registration reduces work."
+    },
+    {
+     "buyer": "Small private security agencies (state Controlling Authority licensees)",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://thetaxcorp.in/article/psara-license-renewal-in-india-end-to-end-compliance-deadlines-penalty-risks ; https://calcguru.in/?p=2641 ; https://www.patronaccounting.com/payroll-services-for-security-agencies",
+     "existing": "Competitor search found no PSARA-specific app; payroll outsourcers (Patron Accounting) generate PF/ESI/wage registers and deployment records.",
+     "known_mark": "new",
+     "name": "PSARA Licence Renewal and Guard Deployment Register for Small Security Agencies",
+     "score": 3,
+     "status": "weak",
+     "trigger": "PSARA 2005 and state rules: 5-year licence, renewal about 45 days before expiry (secondary source), 100+60 hours guard training, supervisor ratio 1:15",
+     "unchecked": "State portals; number of agencies; whether training records are the pain; overlap with K14."
+    },
+    {
+     "buyer": "Clinics, dispensaries and nursing homes (occupiers under BMW Rules 2016)",
+     "category": "37 / 24. Small healthcare facilities",
+     "evidence": "https://cag.gov.in/uploads/download_audit_report/2024/22-Ch-8-Regulatory-Mechanism-067567e0a6133b1.85815415.pdf ; https://ppcb.punjab.gov.in/media/documents/AnnualReport2015.pdf",
+     "existing": "Not checked; waste operators and SPCB portals likely handle barcoding and reports. No competitor search run.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Same hospital/nursing-home buyer as K02, different duty.",
+     "name": "Bio-Medical Waste Authorisation and Annual Report Service for Clinics and Small Nursing Homes",
+     "score": 3,
+     "status": "weak",
+     "trigger": "BMW Management Rules 2016: SPCB authorisation for every occupier regardless of volume; annual report to SPCB; CAG audits found many facilities without authorisation and late annual reports",
+     "unchecked": "SPCB portal status by state; CBWTF-supplied tools; annual report form and date; competitor search."
+    },
+    {
+     "buyer": "Retail chemists (state-licensed; count unverified)",
+     "category": "25. Pharmacies",
+     "evidence": "https://medicaldialogues.in/news/industry/pharma/no-prescription-no-sale-drug-controller-warns-pharmacies-on-schedule-h-h1-x-drugs-169880 ; https://calcguru.in/?p=4879 ; https://calcguru.in/?p=5171",
+     "existing": "Not checked; pharmacy billing suites (e.g. Marg, Gofrugal, Vyapar) probably include H1 registers. No competitor search run.",
+     "known_mark": "new",
+     "name": "Schedule H1 Register and Pregabalin Transition Tool for Retail Chemists",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Drugs Rules Sch. H1 register kept 3 years; pregabalin added by G.S.R. 377(E) of 13 May 2026, in force 180 days after publication (about mid-Nov 2026); Drug Controller warning May 2026; draft of 19 Aug 2026 may extend the list (unverified)",
+     "unchecked": "Whether billing software already generates the H1 register; one-off event rather than recurring; competitor search."
+    },
+    {
+     "buyer": "ART clinics (Level 1 and 2) and gamete banks",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://www.thc.nic.in/Central Governmental Rules/Assisted Reproductive Technology (Regulation) Rules, 2022,  .pdf ; https://www.fogsi.org/wp-content/uploads/announcements/Registration-Fees-ART-Surrogacy.pdf",
+     "existing": "Not checked; the registry portal is the state's own system.",
+     "known_mark": "new",
+     "name": "ART / Surrogacy Clinic and Bank National Registry Compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "ART (Regulation) Act 2021 and Rules 2022 (G.S.R. 419(E), 7 Jun 2022): registration valid 5 years, donor-data updates to the National Registry, annual report",
+     "unchecked": "Annual return requirements and MTP approved-centre register were not found; universe is small (a few thousand clinics at most, unverified)."
+    },
+    {
+     "buyer": "State/central FSSAI licence holders in manufacturing, repacking, and milk businesses",
+     "category": "34. Food business licences",
+     "evidence": "https://cleartax.in/s/fssai-annual-returns ; https://www.psrcompliance.com/blog/fssai-annual-return-filing-form-d1-2026 ; https://www.kanakkupillai.com/learn/fssai-annual-return-form-d1-filing-process/",
+     "existing": "Free FoSCoS portal plus ClearTax, PSR Compliance, Kanakkupillai, Patron Accounting and many consultants.",
+     "known_mark": "new",
+     "name": "FSSAI Form D-1 / D-2 Return Service for Small Food Manufacturers and Dairies",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Annual return D-1 due 31 May, Rs 100/day late fee; milk businesses D-2 half-yearly (dates conflict)",
+     "unchecked": "Eligibility conflicts (basic registration exempt or not); price points; competitor depth; milk D-2 dates."
+    },
+    {
+     "buyer": "Shopkeepers, vendors, petrol pumps and small packers",
+     "category": "33. Legal Metrology",
+     "evidence": "https://calcguru.in/?p=4506 ; https://www.corpseed.com/news/legal-metrology-packaged-commodities-third-amendment-rules-2026 ; https://www.deccanherald.com/india/karnataka/bengaluru/verification-stamping-fee-hiked-weights-2049124",
+     "existing": "Not checked; state controllers run camps and portals.",
+     "known_mark": "new",
+     "name": "Legal Metrology Stamping Calendar and Packer (LMPC) Update Service",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Weights and measures verification (yearly or two-yearly by state), fines Rs 2,000-10,000; LMPC registration (one-time Rs 500 per one source; another claims annual updates from 1 Jun 2026); Packaged Commodities Third Amendment Rules 2026",
+     "unchecked": "Annual-vs-lifetime LMPC conflict; per-state frequency; willingness of tiny shops to pay; competitor search."
+    },
+    {
+     "buyer": "Petrol pump dealers, LPG distributors, SKO/bulk fuel retailers",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.agileregulatory.com/blogs/peso-license-explained-complete-guide-for-manufacturers-and-importers ; https://www.psrcompliance.com/blog/peso-license-lpg-dealership-process-2026 ; https://www.softwaresuggest.com/petrometer",
+     "existing": "Petrometer, PetroPulse360, Petro Genius and PetroMunimji handle sales and stock but not licence expiry; no competitor search for licence tracking beyond the first query.",
+     "known_mark": "new",
+     "name": "Petrol Pump / LPG Godown PESO Licence and Gas Cylinders Rules Expiry Tracker",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Petroleum Rules 2002 (Forms XIV/XV), Gas Cylinders Rules 2016 and 2026 amendments, LPG Distribution Amendment Order 2026; renewal at least 30 days before expiry per one source",
+     "unchecked": "Whether OMCs hold and renew licences for dealers; validity periods conflict (3 years vs 31 December); LPG order fetch showed no dealer duties."
+    },
+    {
+     "buyer": "Wheat traders, wholesalers, retailers and processors",
+     "category": "22. Grain traders, millers and warehouses",
+     "evidence": "https://www.theweek.in/wire-updates/business/2025/05/29/del77-biz-wheat-stock-limit.html ; https://cropgpt.ai/india-lifts-restrictions-on-wheat-stock-brings-changes-in-grain-declaration-protocol ; https://egazette.gov.in/WriteReadData/2025/265752.pdf",
+     "existing": "Government portal only; episodic and price-linked.",
+     "known_mark": "new",
+     "name": "Wheat / Foodgrain Weekly Stock Declaration Tool for Traders and Millers (foodstock.dfpd.gov.in)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Essential Commodities Act stock-limit orders; reported Feb 2026 lifting of limits with continued weekly stock declaration (secondary sources only, unverified)",
+     "unchecked": "Whether a weekly declaration is still required; pulses orders; episodic trigger."
+    },
+    {
+     "buyer": "Small registered warehouses, FPOs, PACS",
+     "category": "22. Warehouses",
+     "evidence": "https://eng.ruralvoice.in/wdra-removes-fixed-security-deposit-for-warehouse-registration-introduces-dynamic-deposit-for-enwr-business ; https://www.corpseed.com/law-update/wdra-new-agricultural-non-agricultural-commodities-registered-warehouses ; https://wdra.gov.in/enwr",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "WDRA Warehouse Registration and eNWR Compliance for Small Warehouses, FPOs and PACS",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "WDRA Act 2007 registration; fixed security deposit removed, dynamic deposit for eNWR; June 2026 notification widening commodity lists (unverified)",
+     "unchecked": "Recurring duties after registration; counts (about 2,184 registered warehouses in 2023-24 per WDRA annual report); rice-miller custom milling duties not found."
+    },
+    {
+     "buyer": "Multi-state co-operative societies (small universe)",
+     "category": "23. Co-operatives",
+     "evidence": "https://www.taxmanagementindia.com/visitor/detail_act.asp?ID=15423 ; https://studycafe.in/audit-framework-and-compliance-of-multi-state-cooperative-societies-government-update-413766.html",
+     "existing": "None found; state co-op audit portals exist (Odisha Samabaya Sameekshya) and PACS ERP is state-driven.",
+     "known_mark": "new",
+     "name": "Multi-State Co-operative Society Section 120 Return and Panel-Audit Desk",
+     "score": 2,
+     "status": "weak",
+     "trigger": "MSCS Act 2002 s.120 returns within 6 months of year end; panel auditor appointed at AGM (s.70) with report in 6 months; 2023 amendment adds related-party disclosures",
+     "unchecked": "Count of multi-state societies; Central Registrar online filing; competitor search."
+    },
+    {
+     "buyer": "State ration dealers",
+     "category": "35. Public distribution fair price shops",
+     "evidence": "https://organiser.org/2026/08/21/376301/bharat/annapurna-modern-promise-up-raises-commission-for-78000-fair-price-shop-dealers-to-rs-125-per-quintal-launches-e-pos-feedback-system/ ; https://www.goa.gov.in/wp-content/uploads/2024/10/FAIR-PRICE-SHOP.pdf",
+     "existing": "State ePoS systems; no private gap found.",
+     "known_mark": "new",
+     "name": "Fair Price Shop (Ration Dealer) Support",
+     "score": 1,
+     "status": "weak",
+     "trigger": "ePoS and e-KYC mandates; commission hikes (UP Rs 125/quintal, Aug 2026)",
+     "unchecked": "Monthly reconciliation rules not found; likely state-closed systems."
+    },
+    {
+     "buyer": "Wine shops and bars (state-specific)",
+     "category": "36. Liquor licensees",
+     "evidence": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-government-to-issue-orders-on-renewal-of-wine-shop-licences-1986315 ; https://informatics.nic.in/files/websites/july-2026/escms.php ; https://busy.in/accounting-software/retail-shop/liquor-store/",
+     "existing": "State track-and-trace systems; Busy, Vyapar and POS vendors for stock.",
+     "known_mark": "new",
+     "name": "Liquor Retail Excise Renewal and Stock Register Tools",
+     "score": 1,
+     "status": "weak",
+     "trigger": "State excise-year renewals (AP 1 Oct 2026 to 30 Sep 2027 at 38% of fee; MP e-tender 2026-27); state track-and-trace",
+     "unchecked": "State-run systems dominate and rules vary by state; no evidence of a gap."
+    },
+    {
+     "buyer": "Retailers selling medical devices exclusively",
+     "category": "25. Pharmacies and device sellers",
+     "evidence": "https://corpseed.com/knowledge-centre/medical-device-wholesalers-traders-and-retailers-registration-cdsco-form-md-42 ; https://www.agileregulatory.com/blogs/what-is-medical-device-sales-license-and-how-to-obtain-it-",
+     "existing": "Consultants.",
+     "known_mark": "new",
+     "name": "Medical-Device Retailer Registration (MD-41/MD-42)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Medical Devices (Fifth Amendment) Rules 2022; no 2026 retailer deadline found",
+     "unchecked": "One-time registration; no recurring duty found."
+    },
+    {
+     "buyer": "Licensed sawmills and timber depots (state forest departments)",
+     "category": "39. Timber depots and sawmills",
+     "evidence": "https://fed.gujarat.gov.in/writereaddata/images/pdf/Saw-Mill.pdf ; https://www.kanakkupillai.com/learn/apply-timber-license-online/",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Sawmill / Timber Depot Register and Transit-Permit Tool",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "State forest rules (e.g. Gujarat sawmill licence requiring registers and periodic returns; Odisha in-lieu transit permit)",
+     "unchecked": "No 2026 rule change or state-level portal evidence; state not chosen."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "PESO licences (Petroleum Rules 2002 Form XIV/XV; Gas Cylinders Rules 2016, amended 2026) and LPG (Regulation of Supply and Distribution) Amendment Order 2026 (issued 25 May 2026, notified Jul 2026; fetch showed only consumer PNG-exit rule, no dealer duties). Petrol pump software exists (Petrometer, PetroPulse360, Petro Genius, Vyapar) but none tracks licence expiry. Unverified whether dealer or OMC holds licences. One weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Wheat stock limits lifted Feb 2026 but weekly stock declaration on foodstock.dfpd.gov.in reportedly continues (secondary sources only, unverified). WDRA: fixed deposit dropped, June 2026 commodity expansion (unverified). Rice-miller custom-milling/FCI and coffee/cocoa/tea not found. Two weak/unverified candidates.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Nidhi companies: NDH-3 half-yearly return (next due 30 Oct 2026 for Apr-Sep 2026), NDH-4, CA/CS-certified. Multi-state co-op societies: s.120 returns within 6 months, panel auditors; no dedicated software seen but small universe. PACS covered by government ERP/state audit portals (e.g. Odisha Samabaya Sameekshya). Chit funds not found (state laws, not searched further).",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Searched regulatory side (CEA 2010 plus state laws, BMW Rules 2016, AERB eLORA, ART Act 2021 registry). Insurer/PM-JAY claims billing not searched (generic HMS territory). K02 and K03 already cover FRRO and PC-PNDT. New candidates: AERB X-ray licence/QA tracker, BMW annual report, ART registry.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Retail drug licence has no renewal (retention fee within 5-year block, per G.S.R. 1337(E) of 2017); Schedule H1 register 3 years; pregabalin added to H1 via G.S.R. 377(E) of 13 May 2026, effective ~180 days later (mid-Nov 2026); e-pharmacy rules still only a 2018 draft; medical-device retailer registration (MD-41/42) since Sept 2022, no 2026 retailer deadline. Controlled-chemical/precursor users (NCB, Form D) not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "PSARA 5-year licence, renewal ~45 days before expiry (secondary source). Contract labour now under OSH Code Central Rules 2026 (Shram Suvidha Form XXI licence, fee from 50 workers, work-order intimation in 15 days, Form XVII annual return by end Feb, principal employer must pay unpaid wages within 15 days, renewal 90-30 days before expiry). Competition: TeamLease RegTech, Simpliance, outsourced payroll firms (Patron Accounting). Effective date of the OSH Code is reported inconsistently (21 Nov 2025 per some sources).",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "BOCW cess moved into Code on Social Security 2020 Ch. VIII; rate fixed at 1% by S.O. 2322(E) of 8 May 2026; Rules 41-42 self-assessment certified by a chartered engineer; Forms XV-XVIII and 60-day deadlines; interest 1% a month. No dedicated cess software found. Quarry/crusher covered by K01. Mining local-content not applicable in India.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "RERA: promoter quarterly updates and annual Form 5; Punjab RERA Circular 1/2026 (27 Jul 2026, effective 1 Oct 2026) sets Rs 500/day (quarterly) and Rs 1,000/day (Form-5) late fees, 30-day cap; K-RERA Rs 25,000 per late quarterly update; agent registration state-wise. Notaries and AML duties of brokers not searched (PMLA reporting for DPMS/real estate not reached).",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "No search spent (budget went to other categories). K09 already rejects Form C/FRRO automation (Ecobillz, PMS vendors). No new evidence gathered for state homestay registration or tourism levies.",
+     "status": "not_reached"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "APEDA RCMC (Rs 5,000 + GST) and reported RCMC waiver for exports up to Rs 3 lakh (unverified, DGFT notification not seen). MPEDA residue control plan and SHAPHARI. Coastal Aquaculture Authority farm and hatchery renewals (2024 Rules: 90 days before expiry, late fee twice the renewal fee; CAA publishes expiring-farm lists). TRACES NET/Agrinet and EUDR-type timber rules not found. K16 (CBAM) already rejected.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Radiation facilities: diagnostic X-ray, dental OPG and imaging centres (AERB eLORA)",
+     "found": "One candidate (AERB licence and QA tracker).",
+     "status": "screened"
+    },
+    {
+     "category": "32. Coaching centres: state registration laws 2025-26",
+     "found": "Rajasthan Coaching Centres Act 2025 (assent 23 Sep 2025); Haryana Private Coaching Institutes Rules 2026 (notified 24 Aug 2026, district portal); Assam Act passed 2025; Puducherry order Feb 2026; Andhra Pradesh and Maharashtra drafts 2026; central 2024 guidelines (fire, CCTV, per-branch registration). Portals are state or district specific.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Legal Metrology: weighing-instrument verification and packer/importer registration",
+     "found": "Annual or biennial stamping depends on state; fines Rs 2,000-10,000; LMPC registration reportedly one-time Rs 500, with sources conflicting on annual updates from 1 Jun 2026 (unverified); General Rules amended Jul 2026 for high-capacity instruments; Packaged Commodities Third Amendment Rules 2026 (text not seen).",
+     "status": "screened"
+    },
+    {
+     "category": "34. Food business licences: FSSAI Form D-1/D-2 returns",
+     "found": "D-1 annual return due 31 May, Rs 100/day late fee; milk D-2 half-yearly (dates conflict: 31 Oct/30 Apr vs 1 Aug/1 Feb). Free FoSCoS portal plus many CA/consultant bundles (ClearTax, Patron Accounting, others).",
+     "status": "screened"
+    },
+    {
+     "category": "35. Public distribution fair price shops",
+     "found": "State ePoS and e-KYC systems cover the flow; UP commission raised to Rs 125/quintal (Aug 2026). No private compliance gap found.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Liquor licensees: excise renewals and stock registers",
+     "found": "State-controlled: AP wine shop renewal for 1 Oct 2026 to 30 Sep 2027 at 38% of fee, 2,931 of 3,650 A4 shops renewed; MP full e-tender 2026-27; Manipur eSCMS track and trace. Government track-and-trace systems dominate.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Bio-medical waste: authorisation and annual reports by small healthcare facilities",
+     "found": "BMW Rules 2016 require SPCB authorisation for every occupier (clinics, nursing homes) regardless of size; annual report; CAG audits found many facilities unauthorised and annual reports late.",
+     "status": "screened"
+    },
+    {
+     "category": "38. Coastal aquaculture: shrimp farm and hatchery registration (CAA)",
+     "found": "See category 30 and candidate C12.",
+     "status": "screened"
+    },
+    {
+     "category": "39. Timber depots and sawmills (state forest-department licences and registers)",
+     "found": "State-wise licences, transit permits and registers (Gujarat sawmill licence, Odisha in-lieu transit permit); no 2026 rule or software found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "petrol pump dealers compliance PESO LPG distributor licence renewal software India 2026",
+    "stock limit order wheat pulses traders portal weekly stock declaration millers warehouse 2026 India",
+    "PACS multi-state cooperative societies audit return Registrar annual filing software 2026",
+    "Clinical Establishments Act registration small hospitals biomedical waste annual report SPCB nursing home compliance software",
+    "chemist druggist drug licence retail pharmacy Schedule H1 register e-pharmacy rules 2026 CDSCO",
+    "contract labour licence security agency PSARA licence renewal register Shram Suvidha 2026 labour codes",
+    "RERA quarterly update real estate agent registration annual return small promoters penalty 2026",
+    "FSSAI annual return Form D1 FoSCoS due date 2026 small food business licence renewal",
+    "Legal Metrology weighing instruments verification stamping packer importer registration 2026",
+    "export APEDA RCMC traceability MPEDA shrimp hatchery registration exporter small 2026",
+    "AERB eLORA diagnostic X-ray unit licence renewal RSO dental OPG clinics 2026",
+    "ART Act 2021 National Registry IVF clinics banks annual returns MTP register",
+    "Nidhi company NDH-3 return Nidhi Rules 2022 chit fund registrar returns 2026",
+    "coaching centre registration act rules 2025 2026 state fire safety CCTV portal",
+    "medical devices retailer distributor licence registration MD-41 MD-42 2026",
+    "fair price shop dealers ePoS monthly stock reconciliation PDS 2026",
+    "WDRA warehouse registration e-NWR rice millers custom milling FCI 2026",
+    "BOCW cess registration building workers welfare board contractors returns 2026",
+    "saw mill licence timber depot transit permit register forest department 2026",
+    "AERB licence renewal reminder software service diagnostic centre (competitor)",
+    "PSARA compliance software security agency guard attendance wage register PF ESI (competitor)",
+    "Coastal Aquaculture Authority shrimp farm registration renewal 2025 2026",
+    "liquor retail bar excise stock register software licence renewal state excise 2026",
+    "BOCW cess software contractors construction labour welfare cess return filing (competitor)"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b14"
+ },
+ "escalate:india:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no dedicated self-serve cess and Form XV-XVIII tool aimed at small builders. What exists:\n- TeamLease RegTech says it provides support for BOCW cess assessment and deposit, plus statutory registers and returns. It pairs its RegTrack software with managed services and serves enterprises (450+ clients).\n- Simpliance is a general labour-law compliance tool from Rs 20,000 a year, with no BOCW module that I could confirm.\n- Patron Accounting and ALP Consulting are done-for-you services.\n- The state side covers payment and registration: Tripura has a cess deposit portal (labourcess.tripura.gov.in), Assam takes cess through EGRAS, Haryana has an online cess calculator and Form 1 filing, West Bengal has online registration, and Shram Suvidha handles central registration.\n- The main thing that weakens the idea is not a rival product: local authorities collect the cess at plan approval and government buyers deduct it at source, so the money side is largely handled already.",
+   "duty": "The duty is real and in force. BOCW cess now falls under Chapter VIII (ss.100-108) of the Code on Social Security, 2020. The Code took effect on 21 Nov 2025 according to Taxmann and other commentary; I did not check the Gazette for that date. S.O. 2322(E) of 8 May 2026 sets the rate at 1% of construction cost, excluding land, and supersedes the 1996 notification S.O. 2899. Under the rules as Taxmann reports them:\n- Rule 41: advance payment on a self-assessment certified by a chartered engineer, using the PWD/CPWD schedule of rates or the RERA cost (Form XVI). Projects over one year can pay in yearly instalments.\n- Form XV within 60 days of starting work or paying cess; changes within 30 days.\n- Form XVII for stoppage or reduction of work, within 60 days.\n- Form XVIII return and final self-assessment (s.103) within 60 days of completing each project.\n- The assessing officer can scrutinise a return only if the self-assessed cess exceeds Rs 10 lakh, and must act within 180 days or the self-assessment becomes final.\n- Interest is 1% a month. Penalty is up to the amount of cess (s.104).\n\nIn practice, cess on government or PSU work is deducted from contractor bills, and in many states (e.g. J&K, Meghalaya, Odisha) the local authority collects 1% upfront when it approves the building plan. That leaves small private builders with mainly the returns and final adjustment. Taxmann does not mention the 10-worker threshold in the claim. I could not confirm whether each state board has adopted the Code rules and the new forms.",
+   "market": "I found no national count. CAG reports point to low registration and enforcement. Rajasthan registered only 2,464 establishments between 2017 and 2022, 40% of them late. CAG audits of Jharkhand and Maharashtra also found weak cess collection. The number of firms that actually file is probably small, in the low tens of thousands nationally, and many are covered by plan-approval collection. That last figure is my inference, not a sourced statistic.",
+   "reason": "The duty is real and current: 1% cess under the Code on Social Security, S.O. 2322(E) of May 2026, with Forms XV-XVIII, a chartered engineer certificate and 1% monthly interest. No small-builder tool does the core job. But for small private builders, the money is mostly collected at plan approval by local authorities, and government work has it deducted from bills, so what is left is a few filings per project, not a monthly pain. Enforcement and registration are weak (Rajasthan: 2,464 establishments in five years), rules and portals differ by state, and the engineer certificate needs a professional. Enterprise vendors (TeamLease RegTech) and outsourcers cover larger firms. Willingness to pay and frequency look low.",
+   "searches": 6,
+   "sources": "https://www.taxmann.com/post/blog/analysis-bocw-cess-under-code-on-social-security/ ; https://www.taxheal.com/notification-of-1-construction-cess-levy-under-the-code-on-social-security-2020.html ; https://studycafe.in/1-construction-cess-now-mandatory-centre-issues-fresh-labour-code-notification-420487.html ; https://jkbocw.gov.in/StaticPages/CESS.aspx ; https://urban.odisha.gov.in/sites/default/files/2023-09/26042016_748_Construction%20Workers%20Welfare%20Cess.pdf ; https://www.meghalaya.gov.in/meghalaya/sites/default/files/gos/Order_dt_30march_2011.pdf ; https://teamleaseregtech.com/blogs/177/bocw-compliance-7-common-mistakes-construction-companies-make-and-how-to-avoid-them ; https://simpliance.in/simpliance-classic ; https://www.patronaccounting.com/payroll-services-for-construction-real-estate-industry ; https://labourcommissioner.assam.gov.in/department-highlights-level-two/process-flow-online-deposit-cess-through-egras-portal/building-and-other-construction-workers ; https://www.simpliance.in/India/LEI/govt_notification/tripura/online-payment-of-cess-amount-under-bocw-in-tripura-1763 ; https://cag.gov.in/uploads/download_audit_report/2025/AR-BOCW-GoR-English-0699591721b9cc5.05195640.pdf ; https://www.wblc.gov.in/standard-operating-procedures/registration-establishment-under-bocwa",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b14"
+ },
+ "escalate:india:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no product or service built for coaching-centre registration or annual filing under the Haryana or Rajasthan rules. Generic coaching ERPs (Techjockey listings such as Coachpresso, Kumudy and G Infosoft; Jupsoft; OpenEduCat) handle enquiries, fees, batches and attendance, but I saw no regulatory-filing feature. Some of that data overlaps with the disclosures, so an ERP could add the feature cheaply. The state's own district portal handles submission. CA and consultant registration services probably exist but none came up in my searches. Competitor search: 2 queries, English only (Hindi was not tried).",
+   "duty": "Haryana (strongest, verified): the Private Coaching Institutes (Registration and Regulation) Rules 2026 were notified on 24 Aug 2026 (S.O. 44/H.A. 12/2024/S.16/2026) under the Haryana Act 12 of 2024 and are in force. Institutes apply online on the District Authority portal; the fee is Rs 10,000 and the certificate lasts 3 years. Renewal costs Rs 5,000, must be sought 1 month before expiry and is valid for 1 year. Institutes must keep prescribed records, publish them on their website and file information with the District Authority every year. Disclosures cover fees, refund policy, batch size, teacher qualifications and facilities. Each branch registers separately. Home tuition with up to 50 students a day is exempt. Fines are reported at Rs 25,000 to Rs 1 lakh per violation plus cancellation (secondary sources disagree on the figures). Rajasthan: the bill was introduced in March 2025. One vendor blog says it was gazetted on 26 Sep 2025, with a threshold of 100 students and fines of Rs 50,000, then Rs 2 lakh, then cancellation. I found no notified rules and no live portal, so the Rajasthan rules and portal are unverified. I did not check Assam, AP, Maharashtra or Puducherry. The central 2024 MoE guidelines are only advisory: in 2025 the Ministry told Parliament that the states regulate coaching centres. Frequency is low: registration, then annual filing and yearly renewal.",
+   "market": "Nationally there were about 68,000 coaching centres in 2024 (Dinamalar), and the Federation of Coaching Centres estimates 48,000 registered ones. No Haryana registration count exists yet. A 2024 Tribune report put Faridabad alone at over 100 centres, and another Tribune headline says 400+ there lack safety compliance. The 50- and 100-student thresholds leave out the smallest tutors. The addressable market in Haryana and Rajasthan is probably a few thousand institutes (my estimate, not a register figure).",
+   "reason": "The duty is real and in force in Haryana, with an annual filing, a yearly renewal, website disclosure and per-branch registration. That supports a recurring service, and I found no tool that does it. But the work happens about once a year, the content is mostly static disclosures, and the rules differ by state, with Rajasthan's rules and portal still unconfirmed. Thresholds of 50 to 100 students exclude micro-tutors. The buyers are mid-size institutes that would likely hand the job to a CA or a one-off consultant, and existing coaching ERPs could add a compliance module. That makes the best fit a done-for-you registration service sold together with fee and refund policy templates. Pain and willingness to pay are moderate, and it is hard to defend as standalone SaaS.",
+   "searches": 6,
+   "sources": "https://teamleaseregtech.com/updates/article/59094/haryana-private-coaching-institutes-registration-and-regulation-rules-2026/ ; https://swarajyamag.com/news-brief/haryana-makes-coaching-centre-registration-mandatory-under-new-rules ; https://test.uniindia.com/news/north/education-haryana-coaching/3954668.html ; https://www.tribuneindia.com/news/haryana/faridabad-private-coaching-centres-on-radar-registration-process-to-begin-soon-627246/amp ; https://prsindia.org/files/bills_acts/acts_states/haryana/2024/Act12of2024HR.pdf ; https://news.careers360.com/rajasthan-passes-coaching-regulation-bill-2025-no-enrollment-below-16-mandatory-registration-for-institutes/amp ; https://news.allen.in/rajasthan-coaching-centres-bill-2025/ ; https://okcredit.in/blog/how-to-start-a-coaching-centre-in-english/ ; https://www.techjockey.com/compare/coachpresso-vs-kumudy-coaching-management ; https://www.dinamalar.com/news/kalvimalar-katturaikal-en/-the-surge-of-coaching-centers-in-india-an-overview/1847 ; https://compass.khaitanco.com/is-it-time-to-coach-the-coach-regulating-coaching-centres-in-india",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b14"
+ },
+ "gapfill:india": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small merchant exporters and trading firms in textile, handicraft and engineering clusters (Surat, Tirupur, Moradabad, Ludhiana) with an IEC, plus the CAs and freight forwarders who serve them",
+     "category": "35. Customs, DGFT and export-import duties for small exporters (also cat 30)",
+     "evidence": "https://taxguru.in/?p=1082965 ; https://foxmandal.in/wp-content/uploads/2026/10/Corporate-compliance-newsletter-October-2026-2.pdf ; https://www.setindiabiz.com/?p=27730 ; conflicting view at https://www.corplawupdates.in/updates/fema-export-realisation-period-9-months-first-amendment-2026 ; https://razorpay.com/blog/edpms-and-idpms-compliance-guide/",
+     "existing": "Only explainers and manual tracking sheets (Razorpay, Xflow EDPMS pages); bank EDPMS portals; no named tracker app found in one competitor search. ERP and GST tools (Tally, Zoho) not checked for this.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Export proceeds realisation clock and EDPMS declaration tracker for small exporters",
+     "score": 5,
+     "status": "promising",
+     "trigger": "RBI FEMA Export and Import Regulations 2026 in force 1 Oct 2026; per Taxguru/Fox Mandal a 22 Sep 2026 amendment cut realisation to 9 months (12 for INR). Unrealised proceeds beyond the due date push the exporter to advance payment or LC and Caution List risk. Entries up to Rs 10 lakh closed by exporter declaration (quarterly bulk option); services EDF within 30 days of month end.",
+     "unchecked": "Confirm the 9-month rule on rbi.org.in (sources conflict). Check whether AD banks or ERP/export-doc tools (e.g. shipping-bill/documentation software) already give pending-realisation alerts. IEC annual update duty unverified. Willingness to pay and whether CAs or freight forwarders are the channel. Local-language competitor search not run."
+    },
+    {
+     "buyer": "Sole-trader shops and small establishments with 1-20 workers in PT states (Maharashtra, Karnataka, West Bengal, others)",
+     "category": "31. Shops and Establishments Acts, trade licence, Professional Tax",
+     "evidence": "https://tallysolutions.com/business-guides/professional-tax-return-due-date-business-compliance-guide/ ; https://www.mahagst.gov.in/en/what-is-new?page=6 ; https://www.lawrbit.com/article/maharashtra-shops-establishments-act-2025/ ; https://ipr.nagaland.gov.in/node/16658",
+     "existing": "PT filing agencies (Patron Accounting), payroll tools (Tally, HRone, Kredily) and compliance blogs; state portals free. Competitor search in local language not run.",
+     "known_id": "K14",
+     "known_mark": "new",
+     "name": "Professional Tax and Shops and Establishments renewal/return service for micro-employers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "State PT registration and return: Maharashtra monthly (liability above Rs 50K) or annual by 31 March; Karnataka monthly by 20th; West Bengal monthly by 21st. S&E registration or renewal under state Acts; Maharashtra raised the registration threshold to 20 workers in Oct 2025 (intimation only below that).",
+     "unchecked": "Per-state due dates conflict across sources; municipal trade licence (BBMP/GHMC/MCD) not searched; whether small shops pay anyone for PT returns; amount of work is small, so willingness to pay likely low."
+    },
+    {
+     "buyer": "Owners of 1-6 room homestays in tourism states",
+     "category": "29. Hotels, guest houses and short-term rentals (state homestay schemes)",
+     "evidence": "https://www.newkerala.com/news/a/ktaka-govt-makes-homestay-registration-mandatory-309.htm ; https://karnatakatourism.org/en/news/official-karnataka-homestay-registration-guidelines/ ; https://www.tribuneindia.com/news/himachal/have-a-re-look-at-notified-homestay-rules-sukhu-orders-tourism-department/amp ; https://www.wbtourism.gov.in/assets/pdf/principal-notice/Final WB Homestay Policy 2026.pdf",
+     "existing": "State portals are free; OTA and PMS vendors; K09 killers cover Form C only. No registration-help product searched.",
+     "known_id": "K09",
+     "known_mark": "new",
+     "name": "Homestay registration and renewal desk (Karnataka first, then Goa/Himachal/West Bengal)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Karnataka Homestay Registration Guidelines 2025 make registration mandatory, valid 5 years; Himachal Homestay Rules 2025 (under review); West Bengal Homestay Policy 2026; Goa online portal with 5-year renewal.",
+     "unchecked": "No official source found for a domestic police guest register or tourism levy. Renewal only every 5 years, so low frequency and likely a one-off consultancy rather than software. Deadlines and penalties per state not found. Kerala renewal terms and Uttarakhand rules not found. Competitor search not run."
+    },
+    {
+     "buyer": "Licensed seed dealers and distributors, many of whom are also K06's agri-input shops",
+     "category": "14. Pesticide and fertiliser dealers and applicators (seed variant)",
+     "evidence": "https://www.civilsdaily.com/news/centre-releases-draft-seeds-bill-2025/ ; https://www.newsonair.gov.in/govt-to-introduce-seed-act-2026-in-budget-session-of-parliament ; https://www.outlookbusiness.com/news/govt-to-introduce-stringent-seed-law-in-budget-session-says-agriculture-minister",
+     "existing": "None searched; sources are exam-prep sites, not the draft text.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "name": "Seed dealer registration and QR traceability log (Seeds Bill 2025 extension of K06)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Draft Seeds Bill 2025 would require state registration for all dealers and distributors, QR-coded packs and a Central Seed Traceability Portal; fines up to Rs 30 lakh for unregistered seed. Government said it would bring a Seed Act in the 2026 budget session; passage not confirmed.",
+     "unchecked": "Whether the Bill became law and the dealer record-keeping duties in the text. Best treated as a feature of K06 rather than a separate product. Pesticide applicator (licensed PCO) variant not searched."
+    },
+    {
+     "buyer": "Orange and green category MSME factories holding State Pollution Control Board consents",
+     "category": "36. Small manufacturers' pollution-control consents",
+     "evidence": "https://www.scconline.com/blog/post/2026/06/11/gpcb-discontinues-physical-submission-xgn-portal-2026/ ; https://teamleaseregtech.com/updates/article/52184/control-of-water-pollution-grant-refusal-or-cancellation-of-consent-amendment-guidelines-2026/ ; https://bspcb.bihar.gov.in/Annual report format  Form IV_HW.pdf",
+     "existing": "Consultants and compliance platforms (Corpseed, Simpliance/TeamLease RegTech); state board portals (GPCB XGN, MPCB online Form V). No tracker product found.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "MSME pollution-board annual returns calendar (Form V by 30 Sep, hazardous waste Form 4 by 30 June)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Form V environmental statement due 30 Sep each year (Environment Protection Rules 1992 rule 14); hazardous-waste Form 4 annual return due 30 June (Hazardous and Other Wastes Rules 2016); GPCB online-only from June 2026. Jan 2026 consent guidelines make CTO valid till cancelled, which removes the renewal part of the duty.",
+     "unchecked": "Whether Form V continues unchanged after the Jan 2026 guidelines; how many MSMEs file themselves versus pay consultants; competitor search not run. Duty is annual and data heavy; may suit a consultant-served model more than software."
+    },
+    {
+     "buyer": "Agri-input dealers",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.icar.org.in/index.php/hi/node/25896 ; https://nabarangpur.odisha.gov.in/sites/default/files/2024-09/Enrollement%20of%20Fertilizer%20and%20Pesticide%20Dealers%20for%20DAESI%20Training%20CDAO%20letter_0.pdf",
+     "existing": "Government-run training (MANAGE, state NTIs)",
+     "known_id": "K06",
+     "known_mark": "known",
+     "known_note": "Same buyer and same shop as K06; DAESI is a one-off training, not a recurring filing. No 2026 change found. No new evidence to move K06.",
+     "name": "Pesticide/fertiliser dealer licence renewal and DAESI certificate support",
+     "score": 0,
+     "status": "weak",
+     "trigger": "DAESI diploma mandatory for continuing licences in many states since about 2017-18; state licence renewals"
+    },
+    {
+     "buyer": "Firms with 10-20 employees, household or trust employers",
+     "category": "34. Employer social-security filings by small employers",
+     "evidence": "https://www.scconline.com/blog/post/2025/12/15/esic-implementation-circular-social-security-code/ ; https://www.setindiabiz.com/blog/epfo-compliance-employers-registration-contributions",
+     "existing": "Payroll tools and registration firms as listed in K14",
+     "known_id": "K14",
+     "known_mark": "known",
+     "known_note": "No specific 2026 evidence found to revive; ELI UAN deadlines ended mid-2025. Statutory-filing-only buyer and gig-worker registration not screened separately.",
+     "name": "Small-employer EPFO/ESIC monthly filing and labour-code registration",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Code on Social Security in force 21 Nov 2025; EPF at 20 employees, ESIC at 10; Shram Suvidha registration; ECR by the 15th"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Nothing displaces K06. Per a ICAR case study and Odisha district letter (2023), the DAESI diploma has been mandatory for continuing agri-input dealer licences since about 2017-18, enforced state by state (https://www.icar.org.in/index.php/hi/node/25896; https://nabarangpur.odisha.gov.in/sites/default/files/2024-09/Enrollement%20of%20Fertilizer%20and%20Pesticide%20Dealers%20for%20DAESI%20Training%20CDAO%20letter_0.pdf). DAESI is a one-off training, not a recurring filing, so it is weak as a standalone product. Draft Seeds Bill 2025 would require every seed dealer/distributor to hold a state registration certificate and adds a Central Seed Traceability Portal with QR codes (https://www.civilsdaily.com/news/centre-releases-draft-seeds-bill-2025/); the minister said it would come in the 2026 budget session, but I found no confirmation it was introduced or passed. The draft Pesticides Management Bill 2025 focuses on product registration and digital licensing, with no dealer detail found (https://www.theweek.in/news/india/2026/01/07/pesticides-management-bill-explained-how-new-law-could-help-farmers-and-industry.amp.html). K06's 7/10 rating is not contradicted. Seed-dealer variant listed as weak candidate. Licensed pesticide applicator (pest control operator) variant not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "State homestay registration is a real recurring duty but varies by state. Karnataka made registration mandatory under the Homestay Registration Guidelines 2025 (1-6 rooms, owner resident, certificate valid 5 years); about 500 applications by July 2026 (https://www.newkerala.com/news/a/ktaka-govt-makes-homestay-registration-mandatory-309.htm; https://karnatakatourism.org/en/news/official-karnataka-homestay-registration-guidelines/). Goa has a single online portal with 5-year validity and no extra documents on renewal, and a July 2025 amendment for rural homestays (https://tourism.gov.in/sites/default/files/2025-12/PIB2204113.pdf). Himachal notified Homestay Rules 2025 with higher fees; the CM ordered a re-look (https://www.tribuneindia.com/news/himachal/have-a-re-look-at-notified-homestay-rules-sukhu-orders-tourism-department/amp). West Bengal Homestay Policy 2026 exists (https://www.wbtourism.gov.in/assets/pdf/principal-notice/Final WB Homestay Policy 2026.pdf). I found no official source for a domestic police guest register or a tourism levy; the only mention was an unofficial wiki (righttoinformation.wiki), unverified. Kerala renewal terms and Uttarakhand rules not found. Renewal is every 5 years, so frequency is low and the foreign-guest Form C angle stays closed (K09). Weak candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Shops and Establishments Acts: trade licence, municipal trade licence, Professional Tax registers and returns for sole traders and small shops",
+     "found": "Registration, renewal and Professional Tax (PT) are state-specific and a mandatory buyer group of lakhs of small shops, but the duty is mostly low frequency or a small amount of work. Maharashtra: the Oct 2025 ordinance raised the S&E registration threshold from 10 to 20 workers, so smaller shops now file an intimation instead of a certificate; a Bill (4 Nov 2025) was to replace the ordinance and passage is unconfirmed (https://www.lawrbit.com/article/maharashtra-shops-establishments-act-2025/; https://khaitanco.com/thought-leadership/Maharashtra-promulgates-key-ordinance-to-amend-shops-and-establishments-law). Andhra Pradesh has auto-renewal via the portal (https://ipr.nagaland.gov.in/node/16658 for Nagaland daily penalty). PT: Maharashtra monthly if liability above Rs 50K, otherwise annual by 31 March on mahagst.gov.in; Karnataka monthly by 20th on Khajane-2; West Bengal monthly by 21st; sources conflict (https://tallysolutions.com/business-guides/professional-tax-return-due-date-business-compliance-guide/; https://www.mahagst.gov.in/en/what-is-new?page=6). Existing: PT filing services such as Patron Accounting (https://www.patronaccounting.com/pt-returns/pune), and payroll tools (Tally, HRone, Kredily) cover PT. Municipal trade licence (BBMP, GHMC, MCD) not searched. One weak candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Hotels, guest houses and homestays: state homestay registration, police guest register, fire/tourism licences",
+     "found": "Duplicate of the category 29 gap; findings recorded there. In addition: Gujarat homestay policy requires a police verification certificate for the applicant, not a guest register (https://www.gujarattourism.com/content/dam/gujrattourism/images/business-opportunities/policy-for-registration-of-homestay-establishments.pdf). Fire licences and Uttarakhand/Rajasthan/J&K schemes not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Pesticide, seed and fertiliser dealers: state licence renewal and the Seeds Bill / Pesticide Management Bill",
+     "found": "Duplicate of the category 14 gap; findings recorded there. Both bills are still drafts or unconfirmed as introduced, so no firm new duty yet. Revisit once enacted. No evidence K06 is weakened; the Seeds Bill would add a state dealer registration and QR-based traceability, which would widen K06's seed side if it passes.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Employer social-security filings by small employers: EPFO, ESIC, labour-code registration, Gratuity/Shram Suvidha returns after the Codes took effect in Nov 2025",
+     "found": "The Code on Social Security took effect 21 Nov 2025; EPF threshold stays 20 employees and ESIC 10; registration is possible on the Unified Shram Suvidha Portal or ESIC portal; ESIC circular (Dec 2025) adopted the new wage definition and told employers to register newly eligible staff, including contractual (https://www.scconline.com/blog/post/2025/12/15/esic-implementation-circular-social-security-code/). Draft Central Rules proposed yearly OSH returns (https://lexplosion.in/government-issues-draft-of-the-code-on-social-security-central-rules-2025-invites-comments-within-13-02-2026/). ELI scheme UAN-activation deadlines ran through 30 June 2025; I found nothing for 2026 (https://cleartax.in/s/uan-activation-and-aadhaar-linking-deadline). No new evidence to revive K14. Statutory-filing-only buyer, household employers and gig-worker registration not found in sources; not separately screened.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Customs, DGFT and export-import duties for small exporters: RoDTEP/RoSCTL, IEC annual update, EDPMS/BRC realisation, export-obligation tracking",
+     "found": "Strong finding. The RBI FEMA (Export and Import of Goods and Services) Regulations 2026 (FEMA 23(R)/2026-RB, notified 13 Jan 2026) take effect 1 Oct 2026; a 22 Sep 2026 amendment cut the realisation period from 15 to 9 months (12 months for INR exports), per Taxguru and Fox Mandal (https://taxguru.in/?p=1082965; https://foxmandal.in/wp-content/uploads/2026/10/Corporate-compliance-newsletter-October-2026-2.pdf). One source (CorpLawUpdates) says the opposite for post-1 Oct, so confirm on RBI.org. Entries up to Rs 10 lakh can be closed on the exporter's own declaration, with a quarterly bulk option; services need an EDF within 30 days of month end. RoDTEP extended only to 30 Sep 2026 with halved rates, extension beyond not notified (https://teamleaseregtech.com/updates/article/53105/dgft-notified-regarding-the-rationalisation-of-the-rodtep-rates). IEC annual update not confirmed in any source. Existing: Razorpay and Xflow explainers on EDPMS, no named tracker app found. One candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Small manufacturers' pollution-control consents: SPCB CTO renewals, Form V, hazardous-waste returns for MSME units",
+     "found": "MoEFCC amended the Air and Water consent guidelines in Jan 2026 (G.S.R. 62(E)/63(E), in force 27 Jan 2026): CTO stays valid until cancelled, one-time fees for 5-25 years, deemed consent to establish for micro/small units in notified estates, central consent portal to come (https://teamleaseregtech.com/updates/article/52184/control-of-water-pollution-grant-refusal-or-cancellation-of-consent-amendment-guidelines-2026/). This shrinks the renewal duty. Form V is due 30 Sep each year and hazardous-waste Form 4 by 30 June; GPCB moved to online-only submission in June 2026 via the XGN portal (https://www.scconline.com/blog/post/2026/06/11/gpcb-discontinues-physical-submission-xgn-portal-2026/). KSPCB auto-renewal from Nov 2025 and MPCB auto-renewal exist (https://www.corpseed.com/law-update/kspcb-implements-auto-renewal-of-consent-from-november-2025). Existing: consultants (Corpseed, Simpliance/TeamLease RegTech). No compliance-tracker product found. Whether Form V continues unchanged under 2026 guidelines not confirmed. One weak candidate listed.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "Shops and Establishments Act registration renewal professional tax return small business state portal 2026",
+    "homestay registration scheme 2026 tourism department renewal guest register police Himachal Kerala Uttarakhand Goa",
+    "Seeds Bill 2025 dealer registration pesticide dealer licence renewal DAESI certificate e-register portal 2026",
+    "EPFO ESIC monthly return small establishment Code on Social Security 2025 unified registration Shram Suvidha employer compliance",
+    "IEC annual update DGFT EDPMS BRC export realisation pending small exporter RoDTEP claim deadline 2026",
+    "Consent to Operate renewal MSME Form V environmental statement 30 September hazardous waste annual return SPCB portal 2026",
+    "Karnataka homestay registration mandatory deadline penalty 2026 guest register",
+    "professional tax return filing monthly small employer Maharashtra Karnataka West Bengal due date penalty 2026 PTRC",
+    "DAESI mandatory pesticide dealer licence renewal 2026 agriculture department input dealers",
+    "EPFO ELI scheme employer UAN activation ECR deadline small employers 2026 extension",
+    "RBI Foreign Exchange Management Export of Goods and Services Regulations 2026 realisation period EDPMS small exporters software",
+    "MoEFCC consent guidelines 2026 consent to operate valid till cancelled one-time fee MSME Form V environmental statement continues",
+    "export realisation tracker software EDPMS BRC reconciliation pending shipping bills small exporters app",
+    "Form V environmental statement 2026 filing SPCB online software compliance tracker MSME units annual return hazardous waste Form 4",
+    "Maharashtra Shops and Establishments Act 2025 amendment registration exemption 20 employees small shops renewal notice",
+    "exporters 9 months realisation new FEMA export regulations 1 October 2026 small exporters tracking pending BRC concern",
+    "Seeds Bill 2026 Parliament introduced status Pesticide Management Bill 2026 dealer registration",
+    "WebFetch: taxguru.in/?p=1082965 (FEMA Export and Import Regulations 2026 guide)"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b14"
+ },
+ "opus:india:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Several states have filing portals: UP's e-portal (Oct 2024), Haryana CEI's lift new/renewal service (since Feb 2025), Delhi e-district, Assam EODB, Karnataka online applications, and Maharashtra CEI online services. These handle filing, not tracking deadlines across many lifts. ElevatorPlus (Pune) is software for lift companies that sends AMC renewal alerts 60 days before expiry. I couldn't verify whether it tracks statutory licences because GoodFirms returned 403. ADDA society ERP tracks AMC renewal dates only. IncorpX sells licence-assistance consultancy. Not checked: Telugu and Tamil competitor searches, and boilers.",
+   "duty": "Owner licence or registration plus periodic inspection under state lift acts. UP (Lifts and Escalators Act 2024, rules notified July 2024): register before installation, existing lifts within six months, registration renewable every five years at Rs 5,000 per lift, and the maintenance certificate uploaded every year. Penalty amounts were not found. TN: Lifts and Escalators (Amendment) Act 2025 in force from 3 Feb 2026 (G.O.Ms.No.13), and the India.gov.in renewal service page says owners apply on Form G three months before expiry. Maharashtra: Act 2017 plus Bombay Lift Rules 1958, with an annual inspection of lifts section on the Chief Electrical Inspector's site. Renewal period is conflicting, 3 or 5 years in non-official sources. Karnataka: Act 2012, Rules 2015, with periodic inspections. Haryana and Delhi run online renewal services (Delhi Lift Rules 1942). AP: bill passed March 2025, no commencement notice found as of a July 2026 report. Telangana: still a draft awaiting Cabinet and legislature.",
+   "market": "UP: about 16,000 lifts across about 12,600 registrations since Oct 2024, more than 80% in Noida. No national or per-state count of installed lifts was found for Karnataka or Maharashtra. The buyers are the many housing societies and building owners with lifts, plus the AMC firms that handle licences on their behalf.",
+   "reason": "The duty is real and in force in several states. In UP, existing lifts had to be registered within six months, registration is renewed every five years and the yearly maintenance certificate is uploaded on an e-portal. Tamil Nadu's amendment took effect on 3 Feb 2026, and Karnataka, Maharashtra, Haryana and Delhi also have licensing. Andhra Pradesh's bill passed in March 2025 but I found no commencement notice, and Telangana's is still a draft. Nothing dedicated tracks licence deadlines across many lifts. State portals handle filing but don't send multi-lift reminders. ElevatorPlus serves AMC firms with AMC-contract alerts, but I couldn't confirm it tracks statutory licences. Renewal is yearly to five-yearly and penalties are vague. AMC firms already do this for owners, and a reminder tool is a thin feature. Housing societies are unlikely to pay much for it.",
+   "searches": 6,
+   "sources": "https://therealtytoday.com/news/trending/lift-and-escalator-act-2024-noida-dominates-registration-drive-across-uttar-pradesh ; https://teamleaseregtech.com/updates/article/52526/tamil-nadu-govt-notified-the-tamil-nadu-lifts-and-escalators-amendment-act-2025/ ; https://elevatorworld.com/news/daily-news/india-passes-andhra-pradesh-lifts-and-escalators-bill/ ; https://www.siasat.com/telangana-cm-clears-draft-law-on-lift-safety-after-hc-push-3511228/ ; https://ceiharyana.com/StaticPage3.aspx ; https://labour.delhi.gov.in/hi/node/3942 ; https://www.india.gov.in/application-renewal-licence-working-lift ; https://www.ceimah.in/online-services ; https://www.kaanoon.com/222138/lift-license ; https://www.goodfirms.co/software/elevatorplus ; https://ind.adda.io/association-erp ; https://elevatorworld.com/news/daily-news/indian-state-rolls-out-lift-registration-portal/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b14"
+ },
+ "opus:india:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Tracko (tracko.co.in, Commute by Tracko) markets AIS-140/VLTD school-bus compliance for Maharashtra, with a parent app, RFID attendance and panic and overspeed alerts. Entab CampusCare 10X transport module covers RFID/biometric boarding, driver verification digitisation and parent GPS view. TRAKOM (Asti Infotech) and LOQQAT offer GPS, RFID and parent apps. Ceinsys (Nagpur) offers fleet monitoring. No product was found that is focused only on alerts for expiring staff verification, medical or fitness documents. Not checked: the state platform's own app, if any.",
+   "duty": "Maharashtra Motor Vehicles (Regulations for School Buses) (First Amendment) Rules 2026, notification MVR-0625/C.R.347/Tra-2 of 16 Jul 2026 (read via the TeamLease summary, not the gazette). Rules 6B and 6C: written appointment after background and medical checks, staff records kept for RTO and police, daily student boarding and de-boarding attendance (school and operator). Rule 10A: Digital Safety Monitoring System with VLTD, state-platform integration, CCTV, and a certified app meeting AIS-004/AIS-140 with ARAI/ICAT approval. CCTV backup must be kept at least 30 days. News reports give a three-month window, ending about mid-October 2026. The TeamLease text gives no commencement date and no penalties; a Pune police warning and RTO fitness fines (Wardha: Rs 26 lakh on 175 vehicles) show enforcement is active. Frequency is continuous or daily for records, plus annual fitness. A link between CCTV and fitness renewal was not found in the rule text.",
+   "market": "No statewide count of school buses and vans was found. The Bombay HC asked the state for a count by affidavit, but no figures were found. District inspection figures are about 283 vehicles inspected in Bhandara and 175 fined in Wardha, which suggests tens of thousands of vehicles statewide (an estimate, unverified). The Parivahan registration dataset on Dataful may break out the school-bus category; this was not checked. Operators are mostly fragmented owners of one to five vans, plus schools.",
+   "reason": "The duty is real. Notification MVR-0625/C.R.347/Tra-2, issued 16 Jul 2026, requires a Digital Safety Monitoring System (AIS-140 VLTD with state-platform integration, CCTV, a certified parent app with digital attendance), 30-day CCTV backup, daily boarding records, and staff verification and medical records available to RTO and police. But the core of the pack is already sold. Tracko markets AIS-140/VLTD school-bus compliance specifically for Maharashtra, with RFID attendance and a parent app. Entab CampusCare, TRAKOM and LOQQAT cover tracking, attendance and driver verification. The tech side also requires ARAI/ICAT-approved hardware, which a solo founder can't build. The only open gap is a small register for staff documents and expiry dates, a thin and price-sensitive niche. The fitness-renewal link to CCTV was not confirmed in the rule summary.",
+   "searches": 5,
+   "sources": "https://teamleaseregtech.com/updates/article/58169/maharashtra-motor-vehicles-regulations-for-school-buses-first-amendment-rules-2026/ ; https://www.punekarnews.in/?p=240815 ; https://www.punekarnews.in/?p=242110 ; https://www.freepressjournal.in/amp/education/maharashtra-regulates-school-bus-fares-for-first-time-makes-cctv-gps-and-seat-belts-mandatory ; https://tracko.co.in/blog/school-bus-tracking-system/how-ais140-gps-and-vltd-certification-ensure-school-bus-safety-in-maharashtra ; https://tracko.co.in/trackoweb/website/tracko-school.html ; https://entab.in/entab-blog-gps-track.html ; https://sourceforge.net/software/school-transportation/india/ ; https://navbharatlive.com/maharashtra/wardha/wardha-school-bus-fitness-certificate-rto-action-26-lakh-fine-1846365.html ; https://navbharatlive.com/maharashtra/amravati/bhandara-rto-school-bus-and-van-inspection-safety-rules-violation-2026-1818454.html ; https://dataful.in/datasets/22439",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b14"
+ },
+ "opus:india:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "eMigrate (V2.0 since Oct 2024, DigiLocker-linked) is the state system for RA and employer registration and emigration clearance. Not verified: whether Form IV is filed through it (MEA/eMigrate pages returned 403). No India-specific RA compliance software found. General recruitment CRMs exist (Recruit CRM, Ezymigrate for migration lawyers), as does enterprise staffing ERP (Ramco). RichAutomate markets a WhatsApp workflow to licensed RAs for eMigrate status and GAMCA medicals, but it is not a compliance tool. Local-language search not run.",
+   "duty": "Confirmed: Emigration Rules 1983 (Refworld text, MEA RA guidelines) require a monthly Form IV return to the PGE or Protector of Emigrants by the 10th of the next month, ad copies filed with the PoE, and registers kept per demand (emigrant bio-data, PoE-authenticated contracts). The service charge cap is 45 days' wages, max Rs 20,000. The RC is valid 5 years initially (MEA guidelines); I could not check the 10-year claim. Penalties: not confirmed from primary text; RC suspension or cancellation under the Act is likely but unverified. Pending: the Overseas Mobility (Facilitation and Welfare) Bill 2025 would repeal the 1983 Act. A July 2026 report still calls it 'proposed'. Not enacted per the sources found. Local-language search not run; the regulation is English-language national law.",
+   "market": "2,164 registered RAs nationwide per eMigrate data cited in a Lok Sabha reply (13 Dec 2024). How many hold a currently valid licence is unknown. FIMCA claims 1,500+ licensed agencies in Mumbai/Maharashtra (association figure).",
+   "reason": "The duty is real and in force. Under the Emigration Act 1983 and its Rules, a registered RA must file a monthly Form IV return by the 10th of the next month and send ad copies to the Protector of Emigrants. A 45-day-wage service charge cap of Rs 20,000 also applies. No dedicated RA compliance software turned up. One WhatsApp vendor targets licensed RAs. I could not confirm whether eMigrate 2.0 now takes the Form IV return online, which would make a tool redundant, because the MEA pages returned 403. The market is small: 2,164 registered RAs (Lok Sabha, Dec 2024). The Overseas Mobility Bill 2025 would repeal the 1983 Act, which makes regulation unstable. This is a narrow niche with a low ceiling.",
+   "searches": 6,
+   "sources": "https://www.mea.gov.in/Images/attach/RecruitingAgents_new.pdf (in search results; fetch returned 403) ; https://www.refworld.org/legal/decreees/natlegbod/1983/14440 (in search results; fetch returned 403) ; https://eparlib.sansad.in/bitstream/123456789/2985940/1/AS265_nTgKWl.pdf ; https://www.tribuneindia.com/news/business/fimca-calls-for-strengthened-and-inclusive-overseas-mobility-bill-2025/amp ; https://www.mea.gov.in/overseasmobilitybill2025.htm ; https://www.policyedge.in/p/government-releases-stakeholder-recommendations-on-proposed-overseas-mobility-bill ; https://hcipos.gov.in/page/emigrate ; https://richautomate.in/blog/whatsapp-overseas-manpower-recruitment-agents-india-2026 ; https://rsdebate.nic.in/bitstream/123456789/419223/1/PQ_108_23031979_U2141_p137_p138.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b14"
+ },
+ "opus:india:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Partial: myFSC (Food Safety Works, iOS) manages water and food testing certificates, audit certificates and FSSAI licence-expiry reminders, with a basic version free for individuals and small businesses (per the developer's own listing). myAuditor offers FSSAI audit checklists. Food Labz is a testing-services platform. FoodDocs and Smart Food Safe are generic food-safety and QMS tools with no FSSAI-specific lab tracking confirmed. NABL labs and consultants (IndiaFilings water testing, Corpseed) sell testing and compliance as a service. FoSCoS covers licensing, inspection and annual returns, but in what I found it does not track lab reports. I found no tool built specifically for water plants. I did not run a Hindi-language search.",
+   "duty": "The FSSAI order dated 17 Dec 2025 sets a compulsory 'Scheme of Testing' for packaged drinking water (FSSR 2.10.8) and mineral water (FSSR 2.10.7), in force from 1 Jan 2026. It follows the 17 Oct 2024 notification that dropped mandatory BIS certification. Manufacturers must keep test records showing conformity across the whole production and test their source water. They must run monthly microbiological tests for E. coli, coliforms, Pseudomonas, Salmonella, Vibrio cholerae and other organisms. If a test fails, they must pull the affected batches and can resume only after 5 consecutive compliant batches. Incident records must be kept for 5 years. Foxmandal reports the category is now high-risk, which brings mandatory third-party audits. Penalties fall under the general FSS Act (penalties and/or imprisonment), but I did not verify specific amounts. I could not extract the annex text from the official PDF, so chemical and source-water testing frequencies are unverified. I found nothing saying FoSCoS requires test reports to be uploaded; my searches only showed it covers licensing, inspection and annual returns.",
+   "market": "About 6,244 BIS-licensed packaged drinking water makers and 32 mineral water makers as of 2 Feb 2024 (parliamentary reply cited in search results). BIS reported more than 6,200 in Sept 2022, so the number has been roughly flat. A further unknown number of unlicensed RO units exist, but these are unlikely buyers. I found no 2025–26 figure.",
+   "reason": "The duty is real and recurring. An FSSAI order dated 17 Dec 2025 created a testing scheme for packaged drinking water and mineral water, in force from 1 Jan 2026. It requires monthly microbiological tests, test records covering the whole production, and source-water testing. A failed result means withdrawing the batch and needing five compliant batches before production restarts, with records kept for five years. I found no later postponement. The market is small, though: about 6,244 licensed makers. The plants also sit on low margins, and many unlicensed units would not pay for compliance. A partial competitor exists: myFSC is an Indian app that tracks water-testing certificates and FSSAI licence expiry, with a free basic tier for small businesses. NABL labs and consultants such as Corpseed and IndiaFilings sell testing bundles. A simple test-schedule tracker is easy to build but easy to copy.",
+   "searches": 6,
+   "sources": "https://www.fssai.gov.in/upload/advisories/2025/12/6944f19f64122Scheme of Testing PDW MW.pdf ; https://foxmandal.in/news/bis-mark-for-packaged-water-replaced-with-compulsory-testing-scheme/ ; https://www.freyrsolutions.com/consumer-industry-news/fssai-removes-mandatory-bis-certification-for-packaged-drinking-water-and-mineral-water-introduces-new-testing-scheme-from-january-2026 ; https://www.corpseed.com/news/fssai-rolls-out-mandatory-testing-scheme-for-packaged-drinking-and-mineral-water ; https://cliniexperts.com/regulatory-update/compliance-of-scheme-of-testing-for-packaged-drinking-water-mineral-water/ ; https://rsdebate.nic.in/bitstream/123456789/758727/1/PQ_267_11022025_U838_p217_p219.pdf ; https://services.bis.gov.in/php/BIS_2.0/BISBlog/?p=610 ; https://apps.apple.com/app/id6737019104 ; https://www.indiafilings.com/water-testing/gurgaon",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b14"
+ },
+ "opus:india:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no dedicated SaaS for tracking AERB renewals or QA. The free eLORA portal stores expiry dates; I could not confirm whether it sends reminders. AERB-authorised QA service agencies (many on IndiaMART) do the QA tests and are selected in eLORA by the clinic. Registration consultants are Corpbiz, Corpseed, LegalRaasta and PSR Compliance. RTI Ocean Next is QA measurement software, not a renewal tool. The infralens page is only a generic tracker template.",
+   "duty": "AERB licence or registration via eLORA is required for every X-ray unit (Rule 3 of the Radiation Protection Rules 2004; dental units mandatory in eLORA since 1 Dec 2013). AERB's guidance for new facilities requires periodic QA at least once every 2 years and after repairs that affect radiation safety, renewal before expiry, and a nominated RSO. AERB's 2019 annual report says dental registration validity was extended from 5 to 10 years; other medical X-ray licences are about 5 years according to consultants (not confirmed from AERB). AERB has sealed unlicensed units (Delhi and Kolkata, 2015). Draft SHANTI Rules published 14 Aug 2026 propose to supersede the 2004 rules; not yet confirmed as final. I could not fetch the penalty text (AERB PDFs returned 503).",
+   "market": "AERB annual reports give eLORA totals for all diagnostic X-ray equipment: 61,488 (Dec 2018), 77,346 licensed (Dec 2019) and 87,432 licensed (Dec 2020). I found no separate count of dental units or facilities. There are fewer facilities than units, and many facilities are unregistered according to a 2015 report.",
+   "reason": "The duty is real. Under Rule 3 of India's Radiation Protection Rules 2004, every medical and dental X-ray unit needs an AERB licence or registration through eLORA. Periodic QA is due at least every 2 years, and a licence must be renewed before it expires. But the cycle is too slow to make a strong business. AERB's 2019 annual report says dental registration validity went from 5 to 10 years. The QA work is done by AERB-authorised service agencies, and they also handle the eLORA uploads for clinics. Consultants such as Corpbiz, Corpseed, LegalRaasta and PSR Compliance already sell AERB registration services. Draft SHANTI Rules from August 2026 would replace the 2004 rules, so the requirements could change. The market is about 87k licensed units (2020). I found no dedicated tracker, but willingness to pay looks low.",
+   "searches": 6,
+   "sources": "https://www.aerb.gov.in/hindi/regulatory-requirements-and-guidelines-for-upcoming-radiology-facility ; https://aerb.gov.in/images/PDF/Annual_report/ar2019/AR_Engg/files/basic-html/page22.html ; https://aerb.gov.in/images/PDF/Annual_report/ar2020/English/English/files/basic-html/page24.html ; https://aerb.gov.in/images/PDF/Annual_report/ar2018/highlightsannualreport2018.pdf ; https://medicaldialogues.in/aerb-cracks-down-on-x-ray-units-in-delhi-and-kolkata ; https://corpbiz.io/learning/how-to-get-aerb-approval-for-dental-x-ray-equipment/ ; https://www.corpseed.com/knowledge-centre/aerb-license-aerb-registration-online ; https://www.legalraasta.com/blog/?p=36674 ; https://www.psrcompliance.com/aerb-certification ; https://m.indiamart.com/proddetail/aerb-approved-quality-assurance-qa-testing-for-diagnostic-x-ray-20589613830.html ; https://teamleaseregtech.com/updates/article/58850/draft-sustainable-harnessing-and-advancement-of-nuclear-energy-for-transforming-india-shanti-rules-2026/ ; https://www.etvbharat.com/amp/en/technology/department-of-atomic-energy-releases-draft-rules-of-shanti-act-enn26081504169",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b14"
+ },
+ "opus:india:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Seasaw AI (seasaw.ai) is a direct partial competitor. Its listings say it matches shipping bills to realisation records, closes open export-monitoring entries, generates realisation certificates and handles GST refunds, connecting bank, DGFT, GST and ICEGATE data in one place. It targets e-commerce/D2C exporters, and one directory lists it from $200/month; I did not confirm the price on the vendor's site or find deadline alerts on its listing. Skydo says an automatic EDF-closure tool is coming soon. Eximpe, Razorpay and Winvesta publish EDPMS guides and cover their own payment flows. AD bank portals let banks see EDPMS status. I did not check Tally, Zoho or other export-documentation ERPs. My Hindi search turned up only explainers, not software.",
+   "duty": "Real and in force. The RBI's Foreign Exchange Management (Export and Import of Goods and Services) (Amendment) Regulations, 2026 (Notification FEMA 23(R)/(1)/2026-RB, 22 Sep 2026), confirmed on rbi.org.in, change regulation 5(1) of the principal FEMA 23(R)/2026-RB rules: 15 months becomes 9 months, and 18 months becomes 12 months for INR-invoiced exports. They take effect 1 Oct 2026, the same day the principal 2026 regulations start. The sources that seemed to conflict are about a separate change: a 5 Jun 2026 First Amendment (FEMA 23(R)/(8)/2026-RB) that took the old 2015 Export Regulations from 15 months back to 9. Both amendments say 9 months, so there is no real conflict. The 9-month clock runs from the shipment date for goods and the invoice date for services, and the AD bank can extend it. Penalties: Caution List exposure (per the Leather Council, any shipping bill open more than two years in EDPMS without an extension), with existing Caution List orders continuing under the new Regulation 13 proviso. Two secondary sources (a Mondaq summary of the regulations, Skydo) say entries up to Rs 10 lakh can be closed on the exporter's declaration, including quarterly bulk closure; I did not confirm this on rbi.org.in. Services exporters must file the EDF within 30 days of month end; this is also from secondary sources. The claim's 'advance payment or LC' consequence comes from secondary sources and was not checked against the primary text. Separately, FTP 2023 para 2.05(d) requires every IEC holder to update the IEC each year between April and June, and DGFT flagged about 59,000 IECs for deactivation in 2025.",
+   "market": "Not reached: I found no current count of active IEC holders or exporting MSMEs. The only partial figures are about 59,000 IECs DGFT flagged for deactivation in 2025 (TEXPROCIL circular) and an outdated 2001 count of 139,889 IEC holders. The likely buyer base is tens of thousands of small goods exporters, but that is an estimate.",
+   "reason": "RBI's own notification confirms the duty. The core job is not fully unserved, though. Seasaw AI, a startup listed from about $200/month, says it matches shipping bills to bank realisation records, closes open export-monitoring entries and files refunds, but it targets e-commerce/D2C exporters. I found no deadline alerts on its listing. Payment firms that offer EDPMS help (Skydo, which says an automatic EDF-closure tool is coming, Eximpe, Razorpay) and AD bank portals cover part of the job for their own customers. Pain is real (Caution List, advance-payment or LC restrictions), but realisation is tracked per shipment and banks follow up. Small merchant exporters in clusters are price-sensitive. CAs or forwarders as a channel is plausible but untested. I found no current count of affected businesses. The MVP is simple, so a plain tracker would be easy to copy.",
+   "searches": 6,
+   "sources": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13714 ; https://www.taxmann.com/post/blog/rbi-restores-export-proceeds-realisation-period-to-9-months/ ; https://www.winvesta.in/blog/businesses/export-realisation-period-nine-months-october-2026 ; https://www.mondaq.com/article/1736644 ; https://leatherindia.org/realization-of-export-proceeds-caution-listing-of-exporters/ ; https://www.legaltechnologyhub.com/vendors/seasaw-ai/ ; https://peerlist.io/seasaw/project/seasaw-ai ; https://www.softwaresuggest.com/seasaw-ai ; https://web.skydo.com/blog/export-declaration-form ; https://eximpe.com/blog/b2b/edpms-vs-idpms ; https://texprocil.org/circular/1757054033-Eserve-154_of_2025.pdf ; https://www.wolterskluwer.com/es/expert-insights/new-annual-requirement-announced-for-iec-holders-in-india",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b14"
+ },
+ "sonnet:india:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real and in force: FC-4 is due 31 Dec each year, CA-certified, with nil returns required. Missing it risks penalty, cancellation or prosecution. ITR-7 is due 31 Oct, 10BD is due 31 May, and 10AB renewal is due before expiry. The FCRA Amendment Bill 2026 was referred to a JPC on 12 Aug 2026 and is not law. Competition is not empty: Eklavya sells NGO software with 80G receipts, FCRA tracking and 10BD/10BE, and many CA firms (Patron from about Rs 8,000/month, IncorpX, NGO Experts) do done-for-you filing. Buyers are small, rely on CAs, and have low willingness to pay. Filing is on government portals and needs CA certification. The market count was not found. The Form 10AB condonation dates and Income Tax Act 2025 details were not checked. Sources are mostly vendor and secondary pages.",
+   "searches": 2,
+   "sources": "https://www.incorpx.io/blog/ngo-compliance-calendar-2026-27-deadlines ; https://donate.eklavyaindia.org/features ; https://www.patronaccounting.com/ngo-and-non-profit-accounting-services/gurugram ; https://www.fmsfindia.org.in/notice-board/dyk137 ; https://www.drishtiias.com/daily-updates/daily-news-analysis/foreign-contribution-regulation-amendment-bill-2026/print_manually ; https://www.icnl.org/wp-content/uploads/India-FCRA-amendments-briefer-June-2026_Aug-2026-update_Final2.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b14"
+ },
+ "sonnet:india:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: GSR 799(E) of 28 Dec 2020 makes precious-metal dealers reporting entities for cash of Rs 10 lakh or more. Reporting is CTR monthly and STR within 7 days. Penalties are Rs 10k-1 lakh per failure, but only a blog says so. BIS HUID hallmarking is mandatory in 380 districts. Weaknesses: the Rs 10 lakh trigger rarely hits small jewellers because Section 269ST caps cash receipts below Rs 2 lakh. Jewellery ERPs and billing apps already handle HUID billing, though I could not confirm their FIU-IND export. Per the Businessworld report, under 1% of about 2.5 lakh jewellers registered. Market count is unverified. HUID and PMLA are two different duties bundled together. Competitor search found only generic ERP vendor pages (Auric Suite, Sci-Net), nothing specific.",
+   "searches": 4,
+   "sources": "https://calcguru.in/?p=4955 ; https://www.rsm.global/india/sites/default/files/media/RSM%20India/Publications/2021/rsm_india_newsflash_-_record_of_cash_transactions_in_gems_jewellery_over_and_above_rs._10_lakhs_mandatory_under_pmla.pdf ; https://businessworld.in/article/budget-woes-for-jewellers-rs-2-lakh-cash-limit-may-be-reduced-to-rs-50k-524287 ; https://gjc.org.in/pdf/AML-CFT-CPF Guidelines_DPMS_29.11.2023.pdf ; https://newsonair.gov.in/bis-expands-hallmark-unique-identification-based-silver-hallmarking-ecosystem/ ; https://mybillbook.in/blog/?p=10066",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b14"
+ },
+ "sonnet:india:A8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. A.P. (DIR) Circular 17 of 3 Dec 2025 requires FFMCs and AD Cat-II to file the LRS daily return (R010), including nil returns, directly on CIMS from 1 Jan 2026. The FEM (Authorised Persons) Regulations 2026 bar new FFMC licences and give franchisees two years to end or convert to Forex Correspondents. Not checked: the A.P. DIR 17 of 24 Jun 2026 quarterly franchisee lists, and whether FXPlus or Money Soft support CIMS. I found no dedicated CIMS-filing product. The market is small and shrinking (FFMC count not found, and no new licences). The buyers are niche and already have back-office vendors who can add CIMS export. The RBI CIMS portal is free, and the daily return is a simple upload. Score stays low.",
+   "searches": 4,
+   "sources": "https://website.rbi.org.in/documents/d/rbi/ap-dir-circular03122025 ; https://www.taxmann.com/post/blog/rbi-allows-ad-category-ii-banks-and-ffmcs-to-file-lrs-returns-directly-on-cims ; https://www.indialaw.in/blog/banking-and-finance/fema-authorised-persons-regulations-2026/ ; https://www.khaitanco.com/sites/default/files/2026-06/FEM%20(Authorised%20Persons)%20Regulations_9%20June%202026.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b14"
+ },
+ "sonnet:india:B13": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Legal Metrology Act 2009 s.33 fines Rs 2,000-10,000 for unverified weights; verification is periodic and varies by state (Assam notice: 12 or 24 months by instrument). The LMPC conflict is resolved by secondary sources: the Packaged Commodities Third Amendment (G.S.R. 418(E), 29 May 2026) makes registration valid indefinitely but requires an annual online update. I did not read the gazette text, so that is unverified. I found no reminder software. State departments serve notices, and an unofficial WhatsApp-reminder marketing article exists. The market is huge (Punjab alone has about 2 lakh establishments), but tiny shops pay little. Verification needs a physical visit to the state office, so software adds little. Only packers use LMPC, and they are few. Weak willingness to pay and no clear distribution channel.",
+   "searches": 3,
+   "sources": "https://www.corpseed.com/news/legal-metrology-packaged-commodities-third-amendment-rules-2026 ; https://calcguru.in/?p=4506 ; https://morungexpress.com/weights-measures-users-notified-annual-verification-and-stamping ; https://www.emapan.punjab.gov.in/HomePages/about.html ; https://richautomate.in/blog/whatsapp-weighbridge-weighing-scale-dealers-india-2026 ; https://www.indiacode.nic.in/bitstream/123456789/6927/1/legal_metrology_act_2009.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b14"
+ },
+ "sonnet:india:B14": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. PESO's 5 Jan 2021 circular replaced auto-renewal with paperless renewal under the Petroleum Rules 2002, Gas Cylinders Rules 2016 and SMPV Rules 2016, so licensees must renew themselves. I did not confirm validity periods, the 30-day lead time, penalties, or whether OMCs hold and renew dealer licences. Sources conflict on validity. Competition is thin but not empty. No dedicated tracker turned up, but an Odoo fuel-management app includes licence expiry reminders. Market size: about 100,266 fuel stations (PPAC, Nov 2025) and 25,605 LPG distributorships (Mar 2026), roughly 125k buyers. Weak points are low pain (a few licences per site, renewed every few years), the chance that OMCs handle the renewals, and consultants already doing it. Score stays at 3.",
+   "searches": 3,
+   "sources": "https://www.peso.gov.in/web/sites/default/files/2021-01/auto%20renewal%20circular.pdf ; https://apps.odoo.com/apps/modules/18.0/dev_fuel_management ; https://www.outlookbusiness.com/news/indias-petrol-pump-count-crosses-1-lakh-doubles-in-a-decade ; https://ianslive.in/25605-lpg-distributorships-in-india-17677-in-rural-areas-govt--20260316143435 ; https://calcguru.in/?p=4887",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b14"
+ },
+ "sonnet:india:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: S.O. 2322(E) of 8 May 2026 sets 1% cess under s.100(1) of the Code on Social Security 2020. Self-assessment is certified by a chartered engineer, and payment is due within 60 days of completion. Forms XV, XVII and XVIII carry 60/30-day windows (from the old Cess Rules; I did not confirm Code-era form numbering). No dedicated cess software turned up. Weaknesses: states run their own portals (Delhi online-only from April 2024, Tripura, Assam EGRAS, Haryana auto-calculation). Rates, forms and portals differ by state. Filing is per project, not strictly recurring. Small builders mostly use CAs or engineers, and the state-by-state fragmentation hurts a solo founder. Register size not found. Competition search was thin.",
+   "searches": 3,
+   "sources": "https://www.taxheal.com/notification-of-1-construction-cess-levy-under-the-code-on-social-security-2020.html ; https://www.taxmann.com/post/blog/analysis-bocw-cess-under-code-on-social-security/ ; https://cavirtual.webtel.in/detail/60314.aspx ; https://comply4hr.com/showfulltext.asp?act=BOCWCA ; https://greythr.com/notifications/online-payment-of-cess-amount-under-bocw-in-tripura ; https://labourcommissioner.assam.gov.in/department-highlights-level-two/process-flow-online-deposit-cess-through-egras-portal/building-and-other-construction-workers",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b14"
+ },
+ "sonnet:india:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Umber Ghar; Bhoomi360; Cyret",
+   "duty": "RERA 2016 s.11 quarterly updates and annual Form 5; Punjab RERA Circular 1/2026 late fees (secondary source only)",
+   "market": "About 1.38 lakh projects and 95,987 agents registered (Economic Survey 2024-25, Jan 2025); Maharashtra about 50k projects",
+   "reason": "Duty is real: RERA s.11 quarterly updates and Form 5. The Punjab circular (1/2026, effective 1 Oct 2026, Rs 500/day and Rs 1,000/day, 30-day cap) appears only in secondary sources. I could not find it on the official site. The Karnataka HC struck down K-RERA's circular-based late fee on 19 Sep 2025, so the Karnataka Rs 25,000 trigger is doubtful and Punjab's could be challenged too. The core job is already served: Umber Ghar (SaaS to prepare, approve and file quarterly RERA returns, with a filing service), Bhoomi360 and Cyret (RERA compliance software for builders). The real bottleneck is CA/engineer/architect certificate reconciliation, which CAs handle. Market is about 1.38 lakh projects and about 96k agents, but the filing is a CA-led service with different forms per state.",
+   "searches": 3,
+   "sources": "https://www.saascounter.com/products/umber-ghar ; https://www.softwaresuggest.com/bhoomi360 ; https://www.saascounter.com/products/cyret ; https://www.corpseed.com/law-update/punjab-rera-circular-1-2026-late-fees-form-5 ; https://rentu.in/property-news/1-38-lakh-projects-registered-under-rera-pmay-u-2-0-targets-one-crore-homes/1365 ; https://taxguru.in/corporate-law/rera-tech-audit-reality-surviving-crackdown-forensic-reconciliation.html",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b14"
+ },
+ "sonnet:india:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. NDH-3 is half-yearly, due within 30 days of each half-year, certified by a CA, CS or CMA. The MCA reminded Nidhis of the 30 April 2026 deadline, so about 30 October 2026 is next. But the market is tiny: the MCA lists only 395 declared Nidhis, of which 298 are active. Competition exists. Dedicated Nidhi software (CloudHouse, Adysoft, AOPAY, others on Capterra and TrustRadius) bundles member, deposit and loan ledgers, NOF monitoring and NDH-1/NDH-3 generation. CA and CS retainers and compliance services such as incorpx also cover filing. With about 300 buyers, an incumbent niche and a professional certifier in the loop, a solo founder has little room. NDH-4 and NOF details conflict across sources; I did not resolve them.",
+   "searches": 3,
+   "sources": "https://www.caclubindia.com/news/mca-alerts-nidhi-companies-to-file-ndh-3-by-30th-april-2026-26418.asp ; https://cloudhousetechnologies.com/services/nidhi-company-compliance-software ; https://www.corplawupdates.in/updates/mca-advisory-nidhi-companies-ndh4-395-list-2026 ; https://www.capterra.in/software/150392/nidhi-company-software ; https://www.incorpx.io/nidhi-company-compliance",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b14"
+ },
+ "sonnet:india:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. Haryana rules were notified 24 Aug 2026: registration costs Rs 10,000, the certificate lasts 3 years, renewal is Rs 5,000 and the renewal certificate lasts 1 year, with annual information returns, website disclosure of fees, refunds and batches, and penalties of Rs 25k-1 lakh. Rajasthan Act 16 of 2025 (assent 23 Sep 2025) requires registration for each branch, with a 3-year validity and penalties (sources disagree on amounts). Assam, Meghalaya and others have laws or rules, while Bihar, AP and Maharashtra are drafts. Weaknesses: registration is mostly one-time or 3-year, not high-frequency. Thresholds and portals differ by state. Rajasthan's commencement notification is unconfirmed. Generic coaching ERPs exist, but none were found doing registration. Small tutors have low willingness to pay. The state portals are the official channel, so software would only be a form-filling and records helper. No sizing figure was found.",
+   "searches": 4,
+   "sources": "https://teamleaseregtech.com/updates/article/59094/haryana-private-coaching-institutes-registration-and-regulation-rules-2026/ ; https://swarajyamag.com/news-brief/haryana-makes-coaching-centre-registration-mandatory-under-new-rules ; https://prsindia.org/files/bills_acts/acts_states/rajasthan/2025/Act16of2025RJ.pdf ; https://news.allen.in/rajasthan-coaching-centres-bill-2025/ ; https://news.careers360.com/assam-assembly-passes-bill-regulate-coaching-centres ; https://meghalaya.gov.in/announce/content/50433 ; https://jupsoft.com/coaching-institute",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b14"
+ },
+ "triage:india": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Lift owners (RWAs, small building owners) have a recurring state-law licence and inspection duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Small school bus operators face a new Maharashtra 2026 rule with a deadline; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Small recruiting agents have monthly Form IV and records duties to the authority; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Small packaged water plants face a new FSSAI testing and licence duty from Jan 2026; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Small trusts, societies and NGOs have annual FCRA and 12A/80G duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Small jewellers have PMLA/FIU and BIS HUID duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Pawnbrokers and scrap dealers need police licences and registers; in scope, though weak."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Small money changers face a new RBI daily return and franchisee transition; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small waqf mutawallis have a mandatory UMEED registration deadline; religious and community bodies are in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Commercial borewell users and drillers have recurring groundwater NOC and return duties; unverified, so kept."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Battery dealers and collectors are a different buyer from K05 (recyclers) with a different duty; related to K05."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Registered vehicle scrapping facilities are a different buyer and duty from K07 (used-vehicle dealers); related to K07."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Creches and playschools have a new registration and inspection regime; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Households as employers with a draft registration duty; in scope as a watch item."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Clinics have an AERB licence and QA duty, which differs from K03 (PC-PNDT); related to K03."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Small builders and contractors owe cess returns, a different duty from K04; related to K04."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Small promoters owe RERA quarterly updates, a different duty from K04's waste EPR; related to K04."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Nidhi companies have half-yearly NDH-3 filings with a near-term deadline; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small coaching centres face new state registration laws; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small shrimp farms and hatcheries must renew CAA registration; in scope."
+    },
+    {
+     "decision": "known",
+     "id": "B7",
+     "reason": "Contractor licence and returns compliance is covered by K14, which names TeamLease RegTech and Simpliance; the new OSH Rules are not specific new evidence.",
+     "ref": "K14"
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small security agencies have a PSARA licence renewal and register duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Clinics have a bio-medical waste authorisation and annual report duty, which differs from K02 (FRRO); related to K02."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Retail chemists have an H1 register duty with a new drug added; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "ART clinics have registry and annual report duties; small professional offices are in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Small food manufacturers and dairies have an annual FSSAI return; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Shopkeepers and small packers have a legal metrology stamping duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Petrol pump and LPG dealers have PESO licence renewal duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Grain traders owe weekly stock declarations to the authority; in scope, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "Small warehouses, FPOs and PACS have a WDRA registration duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B17",
+     "reason": "Co-operative societies have a statutory return and audit duty; in scope, small universe."
+    },
+    {
+     "decision": "keep",
+     "id": "B18",
+     "reason": "Ration shopkeepers are small businesses with ePoS and e-KYC mandates; weak, but verifiers decide."
+    },
+    {
+     "decision": "keep",
+     "id": "B19",
+     "reason": "Liquor retailers have state excise renewals and stock registers; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B20",
+     "reason": "Medical device retailers have a registration duty; in scope, weak evidence."
+    },
+    {
+     "decision": "keep",
+     "id": "B21",
+     "reason": "Sawmills and timber depots have register and transit-permit duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Small exporters have a recurring realisation and EDPMS duty with new 2026 rules; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Professional tax and S&E filings are a state duty different from K14's payroll software; micro-employers are in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Homestay registration and renewal is a different duty from K09's Form C, which was rejected; related to K09."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS4",
+     "reason": "Seed dealers are the same agri-input shop buyer as K06, which already covers seed stock reconciliation; the Seeds Bill is not enacted.",
+     "ref": "K06"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "MSME factories owe pollution-board returns, a different buyer from K01 (crushers and quarries); related to K01."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS6",
+     "reason": "Same agri-input dealer buyer as K06; DAESI is a one-off requirement with no new rule.",
+     "ref": "K06"
+    },
+    {
+     "decision": "known",
+     "id": "GAPS7",
+     "reason": "EPFO/ESIC filing is covered by K14's payroll and labour-codes rejection, with no new evidence to revive it.",
+     "ref": "K14"
+    }
+   ]
+  },
+  "tag": "w2b14"
  }
 }

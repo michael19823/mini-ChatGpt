@@ -628,5 +628,260 @@
    "searches": 18
   },
   "tag": "w2b31"
+ },
+ "gapfill:cote-d-ivoire": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Informal and micro traders, including friperie, second-hand goods and phone sellers, who must hold the merchant card",
+     "category": "3. Second-hand dealers and pawnbrokers (also touches 19. Market traders, street vendors)",
+     "evidence": "https://fr.allafrica.com/stories/202604300370.html: census launched 29 April 2026, run field-based by Unitec under state concession, relayed by Fenacci; 127,457 paid vs 338,422 unpaid at 31 Jan 2026. Also https://loidici.biz/?p=60040 (text of decree 2024-381). Card also summarised at https://economie-ivoirienne.ci/activites-sectorielles/commerce-interieur.html",
+     "existing": "State/Unitec field agents handle issuance; no private competitor searched. No named software product found.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Different buyer (all micro-traders) and duty than K04 (transport owners' documents). Close in spirit only.",
+     "name": "Carte de commerçant renewal and census compliance helper for small traders (done-for-you registration, fee tracking)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Decree 2024-381 of 12 June 2024 makes the carte de commerçant mandatory for every trader and entrepreneur; national census May-July 2026 aims to register 1.5 million operators",
+     "unchecked": "Annual renewal rules, sanctions, whether the census deadline was extended past July 2026, whether the card is renewed periodically, and willingness to pay of informal traders. One-off, state-run, field-based; likely not a software market."
+    },
+    {
+     "buyer": "Phone and electronics shops, importers and used or refurbished phone resellers",
+     "category": "3. Second-hand dealers and pawnbrokers (used phones)",
+     "evidence": "https://connectionivoirienne.net/2024/07/03/alerte-artci-de-faux-certificats-dhomologation-dequipements-telecoms-en-circulation/ ; https://www.digitalbusiness.africa/cote-divoire-l-artci-somme-les-falsificateurs-de-certificats-dhomologation-des-equipements-telecom-consultez-la-liste-des-produits-homologues/. The 2019 GSMA 'We Care' stolen-phone blocking initiative is at https://www.gsma.com/newsroom/?p=15800",
+     "existing": "ARTCI publishes the list of homologated devices on its website. No reseller-side software found.",
+     "known_mark": "new",
+     "name": "ARTCI terminal-equipment homologation compliance for phone and electronics resellers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ordinance 2012-293 of 21 March 2012 art. 83 and decree 2013-301 of 2 May 2013: equipment must be ARTCI-homologated before sale; July 2024 ARTCI alert on forged certificates; law 2024-352 of 6 June 2024 on electronic communications",
+     "unchecked": "Whether used phones need re-homologation (probably not once the model is approved), any 2025-26 shop inspections or fines (none found), and whether resellers must keep a sales or IMEI log (none found). The duty falls mainly on importers and makers, not small resellers."
+    },
+    {
+     "buyer": "Licensed or authorised gold and diamond buyers and sellers, buying offices and collectors",
+     "category": "4. Gold and jewellery buyers (found while screening 3; assigned to another worker)",
+     "evidence": "https://fr.allafrica.com/stories/202602070164.html (SAVOD-CI delegates installed in Savanes, no card or fees mentioned); https://fr.allafrica.com/stories/202407220276.html (illegal gold mining measures, conviction of an unauthorised gold buyer at Bongouanou); https://www.financialafrik.com/2026/04/20/a-washington-la-cote-divoire-defend-sa-vision-de-la-gouvernance-de-lor-artisanal/ ; text of arrêtés at https://faolex.fao.org (docs ivc167093 and ivc71174)",
+     "existing": "Competitor search (French, 'logiciel registre achats or diamants comptoir...') found no software or electronic register product for Ivorian buying offices. Only the legal texts and Kimberley Process reports appeared. State SIMEP and the national buying office may centralise the process (a risk).",
+     "known_mark": "new",
+     "name": "Gold and diamond buyer authorisation and purchase register (SAVOD-CI members, local buying authorisations)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Mining code (law 2014-138 of 24 March 2014) and arrêtés 502/MIM and 503/MIM/CAB of 10 Nov 2014 on buying-office approval, purchase authorisation and identification of collectors; Kimberley Process for rough diamonds; planned national gold-buying office under SIMEP, refinery due H1 2027; SAVOD-CI opening local offices (Savanes, Feb 2026; Buyo, Apr 2026) that reportedly issue local authorisations to buy and sell",
+     "unchecked": "Whether buyers must keep a purchase register or file periodic reports with the Ministry of Mines; the exact gold-buyer licensing text (the arrêtés found cover rough diamonds); whether SIMEP's national comptoir will replace private buyers; fees; number of authorised buyers; payment ability. Category 4 belongs to another worker, so it is flagged for them rather than deepened."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Searched friperie, used phones/electronics resellers, pawnbrokers (prêt sur gage), brocanteurs and police registers, and general used-goods trade rules. Found no Ivorian rule requiring second-hand dealers or pawnbrokers to keep a police-style register or file periodic reports. Pawn lending presumably falls under UEMOA/BCEAO microfinance rules, but no source on this (unverified). Friperie: the 1975 import ban (ordonnance 75-647) was cited, but no current friperie-specific licence or registry found. Used-phone resellers: the only sector duty is ARTCI pre-sale homologation of terminal equipment (decree 2013-301; ordinance 2012-293 art. 83), with a July 2024 warning about forged certificates; the 2019 GSMA 'We Care' stolen-IMEI blocking scheme puts no found duty on resellers. General duty on every trader: carte de commerçant (decree 2024-381 of 12 June 2024). A national trader census ran May-July 2026 (Unitec concession, field-based, 1.5 million target; 127,457 paid and 338,422 unpaid at 31 Jan 2026), so this is a generic state-run workflow, not a niche. Vehicle-age limit for used cars is category 5, not covered here. Nothing new beyond K04 for transport and no match to any known idea.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Four searches (French) turned up no Ivorian beekeeping register, hive declaration, licence or export certification. Sources: https://www.aip.ci/?p=244560 and https://adf-magazine.com/fr/2022/01/lart-de-lapiculture-se-developpe-en-cote-divoire. The sector is small and informal. UNSCA-CI (national union of beekeeping cooperatives) has 11 regional unions and about 5,600 beekeepers (FIRCA training, Sept 2025). Estimated output 20-30 tonnes/yr, mostly a side activity for farmers. In Sept 2026 the cashew interprofession (OIA Anacarde) backed hives in cashew orchards (training 7-9 Sept 2026, Yamoussoukro). Export is only an aspiration. No mandatory recurring filing found. Not a viable software buyer group.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Côte d'Ivoire friperie commerce d'occasion réglementation friperies décret registre",
+    "Côte d'Ivoire téléphones d'occasion revendeurs registre IMEI ARTCI vente de téléphones reconditionnés réglementation",
+    "Côte d'Ivoire apiculteurs apiculture réglementation agrément miel ministère agriculture",
+    "Côte d'Ivoire prêt sur gage prêteurs sur gages mont-de-piété autorisation microfinance",
+    "Côte d'Ivoire brocanteurs marchands de biens d'occasion registre de police objets mobiliers receleurs loi",
+    "Côte d'Ivoire miel exportation apiculteurs UNSCA-CI certification traçabilité 2025",
+    "décret apiculture Côte d'Ivoire ressources animales arrêté déclaration des ruchers loi",
+    "Abidjan vente d'occasion vendeurs ambulants ministère du Commerce nouvelle réglementation 2025 2026 revendeurs articles d'occasion",
+    "Côte d'Ivoire bijoutiers or achat d'or comptoirs d'achat registre acheteurs d'or ministère des Mines carte d'acheteur",
+    "ARTCI commerçants revendeurs téléphones homologation contrôle boutiques sanction 2025 2026",
+    "décret 2024-381 carte de commerçant Côte d'Ivoire obligation commerçants délai",
+    "apiculture Côte d'Ivoire 2026 miel apiculteurs coopérative projet filière apicole nationale",
+    "logiciel registre achats or diamants comptoir acheteurs Côte d'Ivoire autorisation d'achat de substances précieuses code minier",
+    "WebFetch: fr.allafrica.com/stories/202602070164.html (SAVOD-CI)",
+    "WebFetch: fr.allafrica.com/stories/202604300370.html (census of traders / carte de commerçant)"
+   ],
+   "searches": 13
+  },
+  "tag": "w2b31"
+ },
+ "triage:cote-d-ivoire": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New buyer group (associations, religious bodies, NGOs) with recurring annual OSC reporting duty; no related known idea."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Moto/tricycle owners are a different buyer group from K04 (wôrô-wôrô and taxi owners) with a deadline-driven registration duty.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Small hauliers with DUT, technical inspection and licence duties; different buyer from K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Restaurants, maquis and small hotels face a tourism authorisation duty with inspections; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Water Code authorisation or declaration for commercial abstraction; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Vet practices and veterinary medicine sellers with licensing duties; new, small professional offices in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Pesticide distributor agrement renewal is a recurring licensing duty; unsure on size so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Mandatory trader card and census for micro-traders; new buyer group and deadline-driven duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Unsure; scrap collectors face licence rules and the weak evidence is for verifiers to judge."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Used-vehicle dealers with registration and age-limit duties; new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Crèche approval and inspection duty; different buyer from K05 (driving schools)."
+    },
+    {
+     "decision": "drop",
+     "id": "A12",
+     "reason": "No mandatory recurring filing to an authority was found; village water committees do not owe a defined duty, so there is no candidate workflow."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Gold and jewellery buyers; unchecked, so unverified rather than rejected."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Recruitment agency reporting duty; unverified, so keep for checking."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Lift and pressure-equipment inspection duty unverified; keep for checking."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Taxe de nuitée collection and monthly return for small hotels; new buyer and recurring duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Labour-inspectorate annual statement and employer register is a different duty from K12 payroll and CNPS filing.",
+     "ref": "K12"
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Cashew buyers and pisteurs are a different buyer group and regulator from K03 cocoa cooperatives.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Non-cocoa small exporters facing EUDR; different buyer group from K03 cocoa cooperatives.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Clinics and labs billing CMU are a different buyer group from K01 pharmacies.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Entreprenant declaration and communal taxes is a different duty from the trader card in A8."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Beneficial-owner declaration and SYCEBNL filing is a different duty from K02 (FNE purchase-side).",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Private schools and nurseries are a different buyer group from K05 driving schools.",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Manual exchange bureaux re-licensing deadline with BCEAO rules; new buyer and duty."
+    },
+    {
+     "decision": "known",
+     "id": "B10",
+     "reason": "Same buyer (cocoa cooperatives) and same core duty (ARS 1000 compliance) as K03; only new facts, no revival evidence.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Fuel station price display and metrology compliance; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Real-estate agents and notaries AML and approval duties; small professional offices in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "ICPE declaration and annual fee for small workshops; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Security-company approval and agent declaration; new buyer, unverified so keep."
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS1",
+     "reason": "Same buyer group (micro-traders) and same core duty (carte de commerçant and census) as A8.",
+     "ref": "A8"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "ARTCI homologation for phone and electronics resellers; new buyer and duty."
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS3",
+     "reason": "Same buyer group (gold and diamond buyers) and same duty as A13.",
+     "ref": "A13"
+    }
+   ]
+  },
+  "tag": "w2b31"
  }
 }

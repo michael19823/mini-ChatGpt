@@ -606,5 +606,318 @@
    "searches": 18
   },
   "tag": "w2b68"
+ },
+ "gapfill:paraguay": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed stone and lime quarries and cantereros, about 151 on the MOPC cadastre, concentrated in Ita, Emboscada, San Lazaro and Concepcion. Possibly also explosives importers and intermediaries.",
+     "category": "27. Construction, mining and quarry contractors and suppliers (also touches 25, controlled chemicals)",
+     "evidence": "https://www.abc.com.py/policiales/2026/06/17/explosivos-usados-en-el-megaataque-en-santa-rita-fueron-declarados-como-utilizados-en-una-cantera-de-emboscada/ ; https://www.abc.com.py/policiales/2026/06/18/megaasalto-en-santa-rita-que-sabe-hasta-ahora-la-digemabel-sobre-los-explosivos/ ; https://www.ultimahora.com/senado-busca-flexibilizar-acceso-legal-a-explosivos-para-canteras-y-frenar-desvios-al-mercado-negro ; https://infonegocios.com.py/y-ademas/desde-piribebuy-la-industria-del-explosivo-mueve-mas-de-g-100-000-millones-bajo-control-de-la-digemabel ; https://infonegocios.com.py/infoconstruccion/extraccion-de-piedra-calcarea-y-basalto-paraguay-tiene-151-canteras-habilitadas-en-operacion",
+     "existing": "Local competitor search found no private quarry software for blast plans or consumption records. Only Digemabel's own system (SID), where one named user per quarry files the declarations, and paper-based control (La Nacion 2023). Mining software such as blast-design tools was not checked.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Same style of duty as K03 (controlled-substance traceability) but a different buyer group and regulator.",
+     "name": "Quarry explosives purchase and consumption compliance helper (plan de fuego, coded-unit use declarations, blast log)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Digemabel/Dimabel regime: plan de fuego approval before purchase, post-use declaration of coded units in the Digemabel system, and Res. 260/2026 (18 Jun 2026) with in-person oversight of every blast in the priority zones and scrutiny of declared-versus-actual use. A false declaration at one quarry became a national scandal. Senate working group (Jul 2026) on easing purchase while keeping traceability.",
+     "unchecked": "Whether Digemabel offers an API or bulk upload (the product may only be a private ledger that mirrors SID); real number of active explosive users; whether the new controls make quarries want a record tool or just shrink the market; the exact SID declaration fields and deadlines; whether quarries have the budget (the sector is under pressure and its owners may be informal); the Senate easing outcome."
+    },
+    {
+     "buyer": "Licensed private security agencies, about 135-252 on the Policia register (counts conflict). A second ring is the roughly 300 unregistered firms that would need to formalise if the amended law passes.",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://www.lanacion.com.py/investigacion/2022/10/25/mas-de-300-empresas-de-seguridad-operan-en-negro-sin-dar-garantias/ ; https://www.lanacion.com.py/pais_edicion_impresa/2023/06/14/registran-135-empresas-de-seguridad-habilitadas/ ; https://www.abc.com.py/policiales/2023/12/01/quien-regula-las-empresas-de-seguridad-privada-en-paraguay/ ; https://www.abc.com.py/economia/2026/07/27/ips-ministra-de-trabajo-presenta-informe-sobre-empresas-de-limpieza/ ; https://www.ultimahora.com/analizan-proyecto-de-seguridad-privada ; https://www.hoy.com.py/nacionales/2024/09/19/presentan-proyecto-de-ley-que-regula-servicio-de-los-guardias-de-seguridad-privada ; https://www.contrataciones.gov.py/reporte/convocatoria/391661-servicio-guardia-seguridad-sede-central-regionales-snpp-plurianual-1/consultas.pdf",
+     "existing": "Local competitor search found no Paraguayan guard-management or compliance product. Only foreign generic guard-patrol and shift software (C-Guard Pro, Guard Patrol, ShiftFlow, OfficerReports) and a local access-control distributor (Control Center SRL), which does not appear to sell this. Some DNCP tenders require a Sistema de Control de Guardias, so state-contract agencies already ask for rosters.",
+     "known_id": "K10",
+     "known_mark": "new",
+     "known_note": "Adjacent to K10/K12 (IPS payroll, rejected) but the buyer group and duty differ: Policia licensing and guard credentials plus contract-proof.",
+     "name": "Private security agency compliance and guard roster/credential tracker (Ley 5424 + labour and IPS proof for state contracts)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Ley 5424/15 (Policia Nacional licence for the agency, guard credentials, annual verification of armoured fleets). Senate bill to amend it is under working-group review. Jul 2026: the Labour Minister is pushing DNCP contract administrators to check labour compliance of outsourcers, and a bill is planned to stop MTESS-sanctioned firms from bidding again. IPS may register workers ex officio after MTESS inspections (Res. C.A. 016-006/2026).",
+     "unchecked": "Actual filing duties to the Policia (periodic lists, insurance or bond, renewal) are not confirmed, since Ley 5424 and Res. 2/2016 text was not read. Bill text and whether it adds a digital register. Willingness to pay of small agencies. Overlap with generic payroll and shift-roster tools (K10/K12 rejected the generic payroll angle, so the product must stay specific to the Ley 5424 credential and contract-evidence workflow)."
+    },
+    {
+     "buyer": "Cleaning and janitorial firms that hold or bid on state contracts (IPS, ministries), and the public contract administrators who must now check them",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://www.abc.com.py/economia/2026/07/27/ips-ministra-de-trabajo-presenta-informe-sobre-empresas-de-limpieza/ ; https://www.ultimahora.com/senado-tratara-proyecto-ley-compras-publicas-n3019533",
+     "existing": "No local product found. A competitor search was not run on this specific idea (score below 3 threshold not reached, but see unchecked).",
+     "known_id": "K10",
+     "known_mark": "new",
+     "name": "Cleaning-company labour-compliance evidence pack for state contracts (wages, IPS, MTESS) and sanction watch",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Jul 2026: Labour Minister Recalde said the cleaning sector is highly denounced, MTESS has sanctioned some firms, DNCP administrators are to learn labour law, and a bill would block sanctioned firms from bidding. Procurement bill (Senate, Jul 2026) lengthens bans from 3 to 5 years and extends them to related companies.",
+     "unchecked": "No dedicated registry or reporting form exists yet. The bill is only announced. The buyer count is unknown. Probably folds into the guard-agency idea above or into generic payroll (K10/K12)."
+    },
+    {
+     "buyer": "Licensed quarries and builders with MADES environmental licences, plus the consultants (CTCA-registered) who sign audits",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "https://contrataciones.gov.py/reporte/convocatoria/420826-elaboracion-auditoria-ambiental-aplicacion-plan-gestion-ambiental-diferentes-termina-1/consultas.pdf ; https://www.abc.com.py/este/2022/02/27/duenos-de-canteras-se-escudan-en-licencia-de-mades-afirman/ ; https://www.lanacion.com.py/judiciales/2025/12/09/pdte-franco-acusan-a-propietario-de-cantera-itami-por-delitos-ambientales/",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Quarry MADES environmental-compliance (PGA audit) calendar and evidence file",
+     "score": 2.5,
+     "status": "unverified",
+     "trigger": "MADES licence with Plan de Gestion Ambiental; audit reports must follow SEAM Res. 201/2015 and be prepared by a CTCA consultant (Decreto 954/13). Municipal and MADES enforcement actions against quarries (Presidente Franco, Mbocayaty).",
+     "unchecked": "Audit frequency and filing deadlines (not found), whether MADES has an online filing system, buyer count. Category 37 (environmental) belongs to another worker, so recorded only as a lead."
+    },
+    {
+     "buyer": "Small construction firms and other MIPYMES that employ labourers",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "https://impuestospy.com/ ; https://infonegocios.com.py/amp/y-ademas/del-control-a-la-formalizacion-inmediata-asi-funcionara-la-nueva-resolucion-del-instituto-de-prevision-social",
+     "existing": "Generic payroll and HR tools, and the MTESS online system. Overlaps the rejected K10/K12, so likely generic.",
+     "known_id": "K10",
+     "known_mark": "known",
+     "known_note": "Same core duty family as the rejected IPS/payroll ideas; not re-checked.",
+     "name": "Digital Libros de Informacion Laboral and MIPYME contract registration for small builders and contractors",
+     "score": 2,
+     "status": "weak",
+     "trigger": "MTESS Res. 462/2026 (digital Libros de Informacion Laboral), Res. 805/2026 (extension for fiscal 2025), Res. 220/2026 (registration and traceability of employment contracts under Ley 7444/2025). Source is a tax-portal summary and a law-firm note, not the official texts.",
+     "unchecked": "Official texts of the three resolutions; whether MTESS provides a free filing portal; whether this is specific to construction at all."
+    },
+    {
+     "buyer": "Explosives importers and intermediaries registered with Dimabel (a handful of firms)",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "https://www.abc.com.py/policiales/2026/06/17/megaasalto-en-santa-rita-explosivos-fueron-adquiridos-a-traves-de-digemabel/ ; https://www.ultimahora.com/fiscalia-allana-sede-de-la-dimabel-en-pirebebuy-por-la-presunta-fuga-de-explosivos",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Explosives intermediary registration and compliance for importers and distributors (Dimabel Res. 244/22)",
+     "score": 1.5,
+     "status": "weak",
+     "trigger": "Mandatory registry for intermediaries under Dimabel Res. 244/22 (ISO 9001:2015 certificate for products offered), plus the 2026 traceability crackdown and a Fiscalia raid on Dimabel in Piribebuy (Jul 2026) over an alleged leak of 100,000-180,000 kg, which is unconfirmed.",
+     "unchecked": "Buyer is too few firms and enterprise-like; likely better merged with the quarry candidate as a second buyer."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Private security is regulated by Ley 5424/15; the Policia Nacional (Departamento de Control y Fiscalizacion de Empresas de Seguridad, under Delitos Economicos) licenses agencies and issues guard credentials (reglamento: Resolucion Policia N 2 of 4 Jan 2016). Licensed counts conflict across sources and are dated: 352 registered with about 100 removed for inactivity, about 252 authorised (La Nacion, Oct 2022); 135 registered (La Nacion, Jun 2023); roughly 300 more operate unregistered. About 60,000 guards (union figure, 2023). A Senate working group is amending Ley 5424 (Ultima Hora; the page is dated 2023 although its header shows later, and a separate Ultima Hora listing is dated 21 Jul 2026; bill text not found). Electronic-security installers have a separate personal licence. Armoured cash-transport fleets need annual verification (art. 50, per a DNCP tender query). In Jul 2026 the Labour Minister (Recalde) met IPS and DNCP about cleaning and guard outsourcers: many complaints, some already sanctioned by MTESS, and a planned bill so sanctioned firms cannot bid again. DNCP contract administrators are to be trained in labour law. The public-procurement bill in the Senate (Jul 2026) would lengthen supplier bans from 3 to 5 years. IPS Res. C.A. 016-006/2026 lets IPS register workers and employers ex officio after MTESS inspections. No dedicated MTESS registry of outsourcing firms found. Capital, bond and renewal requirements not found (unverified). Local guard-control software: none found; DNCP tenders sometimes require a Sistema de Control de Guardias. Only generic foreign products (C-Guard Pro, Guard Patrol, ShiftFlow).",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Quarries: MOPC Viceministerio de Minas y Energia runs a Catastro de Canteras Web (about 151 licensed stone and lime quarries, article dated 23 Jan 2025). Permits needed: prior MADES environmental licence, municipal patente and Digemabel/Dimabel authorisation to buy explosives. Digemabel makes quarries file a plan de fuego, get approval, then declare use of each coded unit in its system (SID). After the Jun 2026 Santa Rita bank robbery, which used explosives declared as used at a quarry in Emboscada, Digemabel Res. 260/2026 (18 Jun 2026) set extraordinary controls: mandatory in-person oversight of each blast in Ita, Emboscada and San Lazaro, purchase restrictions, and scrutiny of declared-versus-actual use. Operators pay part of the fiscalisation cost (fuel and some military staff). The Senate (Jul 2026) is working on easing legal purchase while keeping control. Imports of explosives exceed 2,000,000 kg per year (2024), 98% going to quarrying, worth about G. 100,000 million. Intermediaries must register under Dimabel Res. 244/22. MADES environmental audit reports follow SEAM Res. 201/2015 and must be signed by a consultant in the CTCA register (Decreto 954/13); a general audit period for quarries or builders was not found. No MOPC contractor registry or category scheme found; the only contractor list is the DNCP supplier registry (SICP/IDAP), and CAPACO is a trade body. No Paraguay-specific construction-site safety rule from 2025-2026 found. General labour rules apply to builders: digital Libros de Informacion Laboral (MTESS Res. 462/2026, extension Res. 805/2026) and MIPYME contract registration (Res. 220/2026 under Ley 7444/2025). Sand and river-dredging permit rules not found (unverified).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 7,
+   "queries": [
+    "empresas de seguridad privada Paraguay registro Ministerio del Interior habilitación ley 6 años",
+    "Paraguay tercerización servicios empresas intermediarias MTESS registro limpieza seguridad ley 2024",
+    "Paraguay registro de contratistas construcción obras públicas MOPC inscripción Registro Nacional de Constructores",
+    "Paraguay canteras licencia ambiental MADES extracción áridos registro explotación arena piedra triturada",
+    "Ley 5424/15 seguridad privada Paraguay empresas guardias habilitación Policía Nacional requisitos póliza credenciales renovación anual",
+    "Viceministerio de Minas y Energía Paraguay registro de operadores mineros canteras areneras informe producción trimestral regalías",
+    "Paraguay empresas de limpieza guardias de seguridad trabajadores IPS inscripción terceros responsabilidad solidaria MTESS fiscalización",
+    "Paraguay Digemabel explosivos canteras autorización compra registro usuarios explosivos constructoras renovación",
+    "minasyenergia.mopc.gov.py requisitos habilitación cantera licencia extracción áridos dragado río arena Paraguay",
+    "Paraguay constructoras obligaciones registro obreros construcción IPS MTESS planilla obras seguridad ocupacional Resolución 2025 2026",
+    "Paraguay seguridad privada agencias clandestinas Policía Nacional proyecto ley modifica 5424 guardias registro 2026",
+    "software control de guardias seguridad privada Paraguay planilla turnos rondas empresa de seguridad sistema gestión",
+    "MADES Paraguay auditoría ambiental plan de gestión ambiental informe de cumplimiento canteras constructoras plazo presentación consultores",
+    "Paraguay registro de empresas constructoras MOPC categorías capacidad contratar CAPACO inscripción constructores obras municipales",
+    "Digemabel sistema informático usuarios explosivos declarar uso canteros Itá Emboscada cantidad de canteras registradas explosivos 2026",
+    "software gestión de canteras explosivos plan de fuego trazabilidad Paraguay sistema control consumo explosivos empresas canteras",
+    "proyecto de ley empresas sancionadas MTESS limpieza seguridad tercerizadas registro proveedores del Estado inhabilitar DNCP 2026",
+    "Paraguay guardias de seguridad empresas habilitadas Policía Nacional cantidad 2025 2026 carné guardia renovación curso habilitación agencias de seguridad"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b68"
+ },
+ "triage:paraguay": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New: SEPRELAD obligated pawnshops/jewellers/gold buyers, small owner-run firms."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "New: associations/juntas/cooperadoras annual register and beneficial-owner duty (Ley 6446/19), no known match."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Community Juntas de Saneamiento are a different buyer group than K04 (private aguaterias) and a different duty (SENAVE/SENASA statutes, registers, billing).",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "New: dismantlers' DISA certificate and part-identifier duty; unverified, not a reason to drop."
+    },
+    {
+     "decision": "known",
+     "id": "A5",
+     "reason": "Same IPS registration/payment duty as rejected K10 (free REI system); no new rule or evidence offered to revive.",
+     "ref": "K10"
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "New: borehole/water-use register for drillers and owners; no known match."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "New: DINAVISA R.E./RSPA duties for small food producers, fresh 2025 resolutions."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "New: money changers' BCP registration and semi-annual report; tiny group but in scope, verifiers decide."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Different buyer (traders, fairs, hauliers) than K02 (mid/large ranches) and a movement-certificate duty.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Unverified lift-inspection duty; unsure, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "New: agroveterinary sellers' register under Ley 2426/04; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "New: nursery/childminder licence file; small premises with inspections."
+    },
+    {
+     "decision": "known",
+     "id": "A13",
+     "reason": "Same buyer (scrap acopiadores) and duty as K05; no new evidence changing rejection.",
+     "ref": "K05"
+    },
+    {
+     "decision": "known",
+     "id": "A14",
+     "reason": "Same applicators and application records as K06.",
+     "ref": "K06"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "New: Res 196/2020 AML duties for used-car lots, a large small-business group (1,142 lots)."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Real-estate agents are a distinct SEPRELAD buyer group beyond A1's pawn/jewellery focus; related to A1.",
+     "ref": "A1"
+    },
+    {
+     "decision": "merge",
+     "id": "B3",
+     "reason": "Same annual Ley 6446/19 beneficial-owner update duty as A2 (associations/co-ops/legal entities).",
+     "ref": "A2"
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Pharmacy tirzepatide unit traceability is a different duty than K03 controlled-drug declaration.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "New: Registur registration for holiday rental owners; weak but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "New: bingo/slot/betting operators' CONAJZAR records and licences."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "New: BCP register and reporting for small lenders and credit houses."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "New: INFONA forest guides and export registry for charcoal/timber firms."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "New: MADES compliance-audit reporting deadlines for small licensed sites."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "New: private clinics and labs habilitation tracking; small health offices in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "New: small co-operatives' INCOOP reporting; filing rule unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "New: SEPRELAD Res 314/2021 duties for virtual-asset providers; small group but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "New: Ley 7593/2025 data-protection duty with a deadline; verifiers decide if generic."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Different duty (annual SENAVE register renewal) and wider buyer group than K06 record book.",
+     "ref": "K06"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "New buyer group (quarries) and regulator (Dimabel); strong 2026 trigger.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "New: private security agencies' Policia licensing and guard credentials, not IPS payroll filing.",
+     "ref": "K10"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Different buyer (cleaning contractors on state contracts) and duty (labour-compliance evidence/sanction watch) than K10 IPS filing.",
+     "ref": "K10"
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS4",
+     "reason": "Same MADES environmental audit/PGA duty as B9, narrowed to quarries.",
+     "ref": "B9"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Revive: new 2026 MTESS resolutions (462/2026, 805/2026, 220/2026) create digital labour books and contract registration, unlike K10's IPS payroll filing, which was annual planillas only.",
+     "ref": "K10"
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS6",
+     "reason": "Same Dimabel explosives regime and buyer chain as GAPS1; a handful of intermediaries.",
+     "ref": "GAPS1"
+    }
+   ]
+  },
+  "tag": "w2b68"
  }
 }

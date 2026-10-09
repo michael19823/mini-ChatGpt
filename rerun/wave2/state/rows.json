@@ -244,6 +244,34 @@
    "merge": 2
   }
  },
+ "bahrain": {
+  "batch": "w2b64",
+  "candidates": 26,
+  "checks": {
+   "opus": 3,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B6 C6 Quarterly tourism levy and BTEA fee returns for hotel apartments and furnished apartments",
+    "B13 C13 Clinic licence and professional licence renewal tracker"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 5,
+   "unverifiable": 4
+  },
+  "gaps": 1,
+  "id": "bahrain",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "drop": 2,
+   "keep": 18,
+   "known": 1,
+   "merge": 4
+  }
+ },
  "bangladesh": {
   "batch": "w2b44",
   "candidates": 38,
@@ -1865,6 +1893,30 @@
   "triage": {
    "keep": 44,
    "known": 2,
+   "merge": 1
+  }
+ },
+ "jordan": {
+  "batch": "w2b64",
+  "candidates": 26,
+  "checks": {
+   "opus": 0,
+   "sonnet": 4,
+   "unverifiedByCap": []
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 1,
+   "unverifiable": 3
+  },
+  "gaps": 2,
+  "id": "jordan",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 21,
+   "known": 4,
    "merge": 1
   }
  },
@@ -4245,6 +4297,51 @@
    "drop": 1,
    "keep": 32,
    "merge": 2
+  }
+ },
+ "ukraine": {
+  "batch": "w2b64",
+  "candidates": 31,
+  "checks": {
+   "opus": 3,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "A9 Plant-protection operator re-registration follow-up (phytosanitary documents)",
+    "B2 Pharmacy licence-condition catch-up pack (aggressor-state declaration, accessibility audit, Держлікслужба filing within six months of 3 May 2026)",
+    "B3 Pharmacy price-catalogue compliance checker (Національний каталог цін on medicines)",
+    "B4 Alcohol and tobacco retail licence tracker for small shops (quarterly payments per cash register, minimum-wage re-pricing, web-shop register)",
+    "B5 Tourist levy tracker for small hotels, guest houses and flat renters (per-council rates, quarterly declaration)",
+    "B6 OSBB (condominium association) compliance bundle: twice-yearly ТЦК vehicle report, wartime duties, and the coming housing-management law",
+    "B7 Small-farm state reporting pack (ДАР data, new Держстат form 50-сг, state-land rent declaration)"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 4,
+   "disputed": 1,
+   "unverifiable": 4
+  },
+  "gaps": 0,
+  "id": "ukraine",
+  "leads": [
+   {
+    "challenge": "survives 3",
+    "final": "disputed",
+    "id": "B1",
+    "mark": "new",
+    "name": "Realtor / real-estate intermediary compliance kit: DSFM client questionnaire and risk log plus quarterly ДПС rental-contract report",
+    "opus": 4,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "drop": 1,
+   "keep": 25,
+   "known": 5
   }
  },
  "united-arab-emirates": {

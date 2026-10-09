@@ -696,5 +696,177 @@
    "searches": 24
   },
   "tag": "w2b32"
+ },
+ "gapfill:peru": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Mototaxi companies and associations (personas jurídicas) holding or seeking a municipal Permiso de Operación; small district mototaxi federations",
+     "category": "36. Transport and mototaxi / taxi formalization and operator registers at municipalities",
+     "evidence": "El Peruano 26 Jul 2025 https://www.elperuano.pe/noticia/275508-atencion-mototaxistas-sepan-los-requisitos-que-fija-el-reglamento-de-la-ley-31917-para-brindar-el-servicio ; https://eltiempo.pe/nacional/aprueban-nuevo-reglamento-que-exige-chaleco-con-placa-y-pruebas-medicas-a-mototaxistas/ ; https://www.expreso.com.pe/actualidad/mtc-aprueba-reglamento-para-mototaxis-nuevas-disposiciones-para-formalizacion-mototaxistas-ministerio-de-transportes-y-comunicaciones-noticia/1209497/ ; Correo on municipalities without money or staff https://diariocorreo.pe/edicion/huancayo/junin-municipios-sin-dinero-ni-personal-para-aplicar-norma-que-regula-mototaxis-noticia/",
+     "existing": "None found for association-side software. AFOCAT search surfaced only the MTC CAT web service, and the municipal padrón is handled by hand (Huamachuco resolutions).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Not a duplicate of K-series items; K list has no transport entry.",
+     "name": "Mototaxi operator-association compliance pack (permiso de operación, driver and vehicle padrón, renewals)",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Ley 31917, DS 011-2025-MTC and DS 004-2026-MTC: operation only through a registered legal entity with a district permit; driver files (licence class B-IIc, medical certificate); per-vehicle CITV, SOAT or CAT and placa checks; renewal 60 days before expiry; vests and holographic stickers from 22 Jan 2026; medical and psychological tests until 31 Dec 2026; new national transporter register in SINARETT",
+     "unchecked": "No dedicated competitor search ('software mototaxi asociación padrón') was run within budget. Final transitional deadlines in DS 011-2025-MTC and DS 004-2026-MTC were not read. Number of formal personas jurídicas unknown. Permit validity is disputed (10 years in the law, 6 in an MTC report). Association willingness to pay is unknown. Not checked: whether the 2 Mar 2026 amending bill passed."
+    },
+    {
+     "buyer": "Small private schools, academias and promoters (owners and directors); informal-to-formal schools facing closure risk",
+     "category": "35. Private schools, academies, CETPRO and nurseries (MINEDU / UGEL)",
+     "evidence": "https://elperuano.pe/noticia/291816-promulgan-ley-que-refuerza-el-control-sobre-colegios-privados-y-combate-la-informalidad ; https://lpderecho.pe/ley-32562-refuerzan-control-colegios-privados-endurecen-sanciones-contra-informalidad/ (snippet only, page returned 403) ; https://busquedas.elperuano.pe/dispositivo/NL/2518486-1 ; https://andina.pe/ingles/noticia-colegios-privados-deben-informar-monto-pensiones-30-dias-antes-de-matricula-780980.aspx ; UGEL Lambayeque oficio https://cdn.www.gob.pe/uploads/document/file/7736048/87944-oficio-multiple-n-000027-2025-gr-lamb-gred-ugel-chic.pdf",
+     "existing": "SieWeb (school intranet with online pension payment, per mercadonegro.pe); SIAGIE is the free mandatory MINEDU system for enrolment, grades and attendance. No compliance-specific product found.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Private school compliance kit under Ley 32562 (authorization file, 30-day cost notice, UGEL evidence, sanctions tracker)",
+     "score": 4.5,
+     "status": "promising",
+     "trigger": "Ley 32562 (22 Mar 2026) modifying Ley 26549: prior authorization, basic conditions, expanded information duty to parents, sanctions up to 100 UIT and closure, joint owner liability; draft regulation published by RM 307-2026-MINEDU (22 May 2026); standing art. 14 duty to give written pension, enrolment and regulation information 30 days before enrolment and before year end; UGEL oficios requesting evidence (e.g. by 1 Mar 2025)",
+     "unchecked": "Final regulation (60-day deadline after the law) not confirmed. Schools needing authorization and their adaptation deadlines unknown. Local school-software vendors and prices not found. Nurseries (cunas, PRONOEI), CETPRO and academias were not separately searched. Buyer willingness to pay is uncertain because many are tiny and informal. The competitor search was general (school management software) rather than compliance-specific."
+    },
+    {
+     "buyer": "Formalized recycler associations and the municipalities that report RSIV; sellers to EO-RS operators",
+     "category": "34. Solid-waste and recycling informal collectors (recicladores)",
+     "evidence": "https://www.mef.gob.pe/contenidos/presu_publ/migl/FT_Indicador_3_2_Tramo_III.pdf (2025 methodology) ; https://cdn.www.gob.pe/uploads/document/file/9295950/7624341-resolucion-de-sub-gerencia-000001-2026-sglp.pdf ; https://sinia.minam.gob.pe/sites/default/files/sial-sialtrujillo/archivos/public/docs/om_-_formalizacion_de_recicladores_-1.pdf",
+     "existing": "None found in two searches. Not verified that none exist.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "Recycler association back-office (padrón, compras y ventas, comprobantes, RSIV evidence)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ley 29419 / DS 005-2010-MINAM as modified by DS 001-2022-MINAM: municipal register inscription, member list with DNI and waste type, commitment to report results to the municipality; sales documents must come from registered associations or liquidaciones de compra to registered recicladores to count towards the MEF RSIV incentive indicator",
+     "unchecked": "No 2026 RSIV reporting rules or deadlines found (the only methodology is for Jan-May 2025). Number of associations unknown. Paying capacity of recycler associations is low. Buyer may really be the municipalities, which is the state's own system and so out of scope. No dedicated competitor search."
+    },
+    {
+     "buyer": "Market administration bodies and juntas de comerciantes holding the corporate licencia de funcionamiento; stall holders (carnicerías, pescaderías, comida)",
+     "category": "31. Municipal and sectoral licensing of street/market traders and food vendors",
+     "evidence": "https://www.gob.pe/22377 ; https://munisanmiguel.gob.pe/Transparencia/archivos/subgerencia_licencias/2023/licencia-de-funcionamiento-corporativa-para-mercados-de-abastos-galerias-comerciales-y-centros-comerciales-con-itse-previa.pdf ; https://andina.pe/agencia/noticia-necesitas-un-carne-sanidad-conoce-donde-tramitarlo-y-cuanto-cuesta-obtenerlo-1060142.aspx ; https://www.digesa.minsa.gob.pe/Orientacion/REGLAMENTO_SANITARIO_MERCADOS_ABASTO_RM_282-2003-SA-DM.pdf ; https://diariocorreo.pe/edicion/huanuco/intensifican-operativos-de-control-sanitario-en-puesto-de-venta-de-carnes-en-huanuco-noticia/",
+     "existing": "None found.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Market (mercado de abastos) corporate licence and stall-holder file: ITSE, carné de sanidad and licence tracker for juntas de comerciantes",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ley 28976 art. 9 (TUO DS 163-2020-PCM): corporate licence for the market; ITSE ex post for each stall, renewed every 2 years; carné de sanidad for each food handler (6 months direct handlers, 1 year others, varies by ordinance); RM 282-2003-SA/DM sanitary regulation for markets; municipal inspections (Huánuco example)",
+     "unchecked": "Licence validity is indefinite and the ITSE is only biennial. No fines data found. Fragmentation across about 1,800 municipalities (count not verified). Willingness to pay is low. No competitor search run."
+    },
+    {
+     "buyer": "Bodegas, restaurants, hostales, small clinics, academies and shops with a 2-year ITSE certificate; indirectly the consultoras that file for them",
+     "category": "32. Defensa Civil ITSE / inspección técnica de seguridad en edificaciones",
+     "evidence": "Municipal renewal resolutions https://cdn.www.gob.pe/uploads/document/file/8015782/6733547-resolucion-000248-2025-sgrd.pdf ; https://www.gob.pe/22377 ; CENEPRED context https://sni.org.pe/decreto-supremo-que-aprueba-el-nuevo-reglamento-de-inspecciones-tecnicas-de-seguridad-en-edificaciones/",
+     "existing": "Not searched. The filing is municipal and often handled by freelance tramitadores.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "ITSE biennial renewal reminder and filing service for small premises",
+     "score": 3,
+     "status": "weak",
+     "trigger": "DS 002-2018-PCM art. 24: certificate valid 2 years; for low and medium risk, renewal is a tasa plus declaración jurada; high and very high risk need a new inspection",
+     "unchecked": "No competitor search. TUPA fees and portals differ by municipality. Whether municipalities email or notify renewals unknown. The one-premises-one-filing-every-two-years cycle gives low frequency. No 2026 rule change found."
+    },
+    {
+     "buyer": "AFOCAT associations (regional or provincial accident funds) registered with the SBS",
+     "category": "36. Transport and mototaxi / taxi formalization and operator registers (AFOCAT)",
+     "evidence": "https://cdn.www.gob.pe/uploads/document/file/7468135/6357663-directiva-n-002-2024-mtc-18-lineamientos-tecnologicos-minimos-para-la-emision-del-certificado-contra-accidentes-de-transito-electronico-cat-electronico.pdf ; https://cdn.www.gob.pe/uploads/document/file/7468134/6357663-resolucion-directoral-n-039-2024-mtc-18.pdf ; https://elperuano.pe/noticia/305123-mototaxistas-no-necesitan-empadronarse-ante-las-municipalidades-para-acceder-al-subsidio-de-s-4",
+     "existing": "Not found. Not verified.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "AFOCAT CAT-electrónico issuance and registry back-office",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "DS 004-2024-MTC and Directiva 002-2024-MTC/18: AFOCAT must issue electronic CAT through an MTC web service and feed the MTC database; RD 039-2024-MTC/18 set 23 Jun 2025 as the deadline for the MTC to enable it. DU 011-2026 mototaxi fuel subsidy requires SOAT or an AFOCAT CAT",
+     "unchecked": "Buyer count is small (AFOCAT are few dozen, unverified), so market is niche. Current AFOCAT tooling, SBS registration status and any 2026 supervisory rule not found."
+    },
+    {
+     "buyer": "Ambulante associations and district municipalities",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://busquedas.elperuano.pe/dispositivo/NL/2552648-1",
+     "existing": "None found.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Street-vendor (ambulante) authorization and municipal padrón tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "District ordinances (Lima 1787-MML, 1933-MML; La Victoria May 2025; Punta Hermosa Sep 2026) requiring temporary municipal authorization, registration and formalization programmes",
+     "unchecked": "Rules are district-specific with no common register or deadline. Vendors have very low willingness to pay, and a municipal buyer would make this the state's own system (out of scope)."
+    },
+    {
+     "buyer": "Importers and carriers moving foreign merchandise from ports to warehouses; micro-firms with RUS excluded (unverified)",
+     "category": "33. Electronic invoicing and SUNAT regime obligations for micro-firms",
+     "evidence": "https://www.sunat.gob.pe/legislacion/superin/2026/000124-2026.pdf ; https://www.sunat.gob.pe/legislacion/superin/2026/000108-2026.pdf ; https://bybconsultores.pe/?p=11665",
+     "existing": "SUNAT's free SEE-SOL and SEE del contribuyente (per a secondary source); commercial e-invoicing vendors already sell GRE modules (Softland, Yo Facturo, EDICOM seen in results).",
+     "known_id": "K11",
+     "known_mark": "known",
+     "name": "GRE guía de remisión electrónica cut-off for ticket de salida (1 Nov 2026)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "RS 000108-2026/SUNAT and RS 000124-2026/SUNAT: ticket de salida valid until 31 Oct 2026, GRE with terminal-port citation or delivery order from 1 Nov 2026; RS 000031-2026 extends the non-sanction period for paper guides",
+     "unchecked": "Final end date of the non-sanction regime in RS 000031-2026 not seen. RUS exemption unverified. Same group as K11 (e-invoicing/SIRE) and covered by every invoicing vendor."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers already K05. Street vendors: licensing is purely municipal and fragmented (e.g. Lima Ordenanza 1787-MML/1933-MML on temporary authorizations and registration of ambulantes; Punta Hermosa ordinance published 12 Sep 2026; La Victoria May 2025). No national register, no common deadline, tiny willingness to pay. Market stall holders (puestos) are covered under the next row. Candidate C3 (weak) and C4 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "31. Municipal and sectoral licensing of street/market traders and food vendors (Ley 28976 / TUO DS 163-2020-PCM; RM 282-2003-SA/DM; carné de sanidad)",
+     "found": "Markets (mercados de abastos, galerías) need a corporate licencia de funcionamiento (Ley 28976 art. 9) held by the market's collective body; individual stalls get an ITSE ex post, and the ITSE renews every 2 years. Licence validity is indefinite (Surquillo 2026 resolutions confirm). Food handlers need a carné de sanidad from the municipality (6 months if handling food directly, 1 year otherwise, per Andina; varies by ordinance). Meat and fish stalls are inspected by municipalities, not SENASA or SANIPES (these cover slaughterhouses and fishing infrastructure). No 2026 rule change found. Candidate C4 (weak). Not confirmed: whether the market stall carné cycle is digitised by any municipality.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Defensa Civil ITSE / inspección técnica de seguridad en edificaciones for small premises (DS 002-2018-PCM)",
+     "found": "DS 002-2018-PCM is still in force: 2026 municipal resolutions still cite it. ITSE certificates last 2 years, and renewal for low and medium risk premises is a tasa plus a declaración jurada (art. 24). High and very high risk premises need a full inspection. No 2026 reform found. The 2020 DL 1497 validity extension is a pandemic item and is no longer relevant. Candidate C5 (weak). Competitors not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Electronic invoicing and SUNAT regime obligations for micro-firms (RUS/RER/RMT), GRE guía de remisión electrónica",
+     "found": "RS 000108-2026/SUNAT (29 May 2026, in force 1 Jun) changes who must issue the GRE-remitente. It is aimed at foreign-trade and port transfers. RS 000124-2026/SUNAT moves to 1 Nov 2026 the end of the 'ticket de salida' as a supporting document, which stays valid until 31 Oct 2026. RS 000031-2026 extends SUNAT's non-sanction discretion for paper guides. Scope is narrow (foreign merchandise leaving ports), and issuing is free through SEE-SOL or the SEE del contribuyente. A secondary source says the new RUS is exempt, but this is unverified. Related to K11. Candidate C6 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "34. Solid-waste and recycling informal collectors (recicladores), Ley 29419 / DS 005-2010-MINAM / DS 001-2022-MINAM",
+     "found": "Municipalities keep a Registro Municipal de Organizaciones de Recicladores. Associations need a constancia de formalización (DS 001-2022-MINAM). The register requires the ficha registral, a member list with DNI and waste type, and a sworn statement per member. Sales documents (boletas, facturas, liquidaciones de compra to registered recicladores) support the municipal RSIV indicator in the MEF incentive programme. Santa María del Mar approved a formalization ordinance in Aug 2026. SIGERSOL reporting falls mainly on municipalities. Not found: any 2026 deadline for RSIV reporting, or any software for recycler associations. Candidate C2 (weak, related K03).",
+     "status": "screened"
+    },
+    {
+     "category": "35. Private schools, academies, CETPRO and nurseries (MINEDU / UGEL registration and annual reporting)",
+     "found": "Ley 32562 (promulgated 22 Mar 2026 after legislative insistence) modifies Ley 26549. It requires prior authorization from MINEDU, basic conditions (infrastructure, staff, pedagogy, management) and wider information duties to parents. It sets leve/grave/muy grave sanctions, fines up to 100 UIT, closure, and joint liability of the owner or promoter. It repeals DS 005-2021-MINEDU. RM 307-2026-MINEDU (22 May 2026) published the draft regulation for comment, and the final regulation is unconfirmed. The existing duty under art. 14 requires pension and enrolment information in writing at least 30 days before enrolment, and UGELs send oficios demanding evidence (e.g. by 1 Mar 2025). SIAGIE is the free mandatory MINEDU system. A vendor named SieWeb sells school intranet and pension payment. Candidate C1 (promising). Nurseries, CETPRO and academies were not separately searched.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Transport and mototaxi / taxi formalization and operator registers at municipalities (ATU, SUTRAN, municipal permits); SOAT/AFOCAT/CITV",
+     "found": "Ley 31917 and its regulation DS 011-2025-MTC (El Peruano, 26 Jul 2025) require mototaxi (L5) service to be provided by a legal entity registered in Registros Públicos and active in RUC. The entity needs a Permiso de Operación and Certificado de Operación from the district municipality, with renewal filed 60 days before expiry (automatic approval). Vehicles need CITV, SOAT or CAT, an authorized colour and the placa. Vests with plate and holographic stickers issued by municipalities were due from 22 Jan 2026. Medical and psychological tests stay mandatory until 31 Dec 2026. DS 004-2026-MTC (20 Jan 2026) sets implementation measures, but the text could not be read (the congreso.gob.pe PDF returned 404). SINARETT will gain a Registro Nacional de Transportadores de Mototaxi. A Congress committee approved an amending bill on 2 Mar 2026. Correo reports that municipalities lack money and staff to apply the rules. DS 005-2024-MTC and DS 004-2024-MTC let CITV and police check SOAT and CAT electronically in the MTC database, so vehicle insurance paperwork is becoming digital. AFOCAT issue the CAT electronico via an MTC web service (Directiva 002-2024-MTC/18). ATU and SUTRAN were not searched. Candidates C7 (promising) and C8 (unverified).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "licencia de funcionamiento mercado de abastos comerciantes ITSE renovación Ley 28976 municipalidad 2026",
+    "ITSE renovación certificado Defensa Civil DS 002-2018-PCM plazo vigencia bodegas restaurantes 2026",
+    "SUNAT guía de remisión electrónica remitente obligados MYPE RUS cronograma 2026 resolución de superintendencia",
+    "registro recicladores formalizados asociaciones SIGERSOL Ley 29419 reglamento reporte municipal 2026",
+    "colegios privados UGEL reporte SIAGIE comunicación de costos pensiones Ley 26549 obligaciones 2026 Registro de Instituciones Educativas Privadas",
+    "AFOCAT SOAT digital obligatoriedad vehículos CITV revisión técnica vencimiento mototaxis ordenanza municipal 2026",
+    "Ley 31917 mototaxis reglamento padrón municipal formalización plazo vehículos menores L5 autorización 2026",
+    "software sistema facturación guía de remisión electrónica bodegas mypes SUNAT 1 noviembre 2026 ticket de salida",
+    "comerciantes ambulantes formalización registro municipal comercio ambulatorio ordenanza empadronamiento autorización vendedores 2026 Perú",
+    "sistema de gestión para colegios privados Perú SIAGIE UGEL software pensiones matrícula comunicación costos",
+    "software colegio pensiones cobranza boletas electrónicas SIAGIE sistema escolar Perú precio mensual",
+    "ITSE 2026 nuevo decreto supremo reglamento inspecciones técnicas de seguridad en edificaciones modificación PCM CENEPRED",
+    "mototaxis persona jurídica permiso de operación plazo adecuación reglamento DS 011-2025-MTC asociaciones municipalidad padrón conductores",
+    "asociaciones de recicladores plataforma registro formalización software gestión reporte RSIV municipalidades programa de incentivos 2026",
+    "AFOCAT 2026 SBS registro asociaciones CAT electrónico transportistas mototaxis cobertura renovación sistema software",
+    "Ley 32562 colegios privados informalidad obligaciones directores reglamento plazo Minedu autorización funcionamiento RIEP",
+    "empresas de mototaxi asociaciones formalizarse permiso de operación 2026 plazo ley 31917",
+    "vendedores de comida mercado puestos carnicerías autorización sanitaria municipal registro sanitario ambulante carné de sanidad 2026 Perú"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b32"
  }
 }

@@ -623,5 +623,382 @@
    "searches": 24
   },
   "tag": "w2b25"
+ },
+ "gapfill:taiwan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Owner-run 大眾化消費飲食店 with monthly sales above NT$200k on the 1% assessed regime (about 5,300 per MOF, 11,684 still on the concession at end-2025; higher figures of about 70,000 quoted by officials); also KIOSK/POS vendors and accountants who file for them",
+     "category": "Business-tax and e-invoice duties for micro-businesses (小規模營業人 查定課徵, e-invoice rollout)",
+     "evidence": "https://udn.com/news/story/7243/9387561 ; https://www.ctee.com.tw/news/20260318701988-431401 ; https://uanalyze.com.tw/articles/6854449241 ; https://www.peoplenews.tw/articles/lifestyle/22258 ; https://udn.com/news/story/7243/9392911. Exact ratio targets and the application procedure were not confirmed from an official MOF/NTA page (my fetches of two news articles did not contain them). The duty is recurring (quarterly condition) with a hard 2029 deadline, but the date is flagged as adjustable.",
+     "existing": "Competitor search (Chinese) found no dedicated product. Only general KIOSK/POS vendors seen (Everyware self-ordering, Oby Pay in generic results); KIOSK makers can file the concession application for the shop; mobile-payment providers and e-invoice platforms (MOF) are free or bundled. Whether iCHEF, Ocard or bank/e-wallet merchant dashboards already show the concession ratio was not checked.",
+     "known_mark": "new",
+     "name": "Mobile-payment ratio tracker and tax-concession compliance helper for mass-market eateries (soy-milk, noodle, bento, buffet shops) on 1% assessed business tax",
+     "score": 4,
+     "status": "promising",
+     "trigger": "MOF revised 查定課徵營業人使用行動支付及多媒體資訊服務機適用租稅優惠作業規範 (March 2026): buffer 2026-01-01 to 2028-12-31, application by 2028-06-30, concession lost if mobile-payment share of assessed sales is below target or quarterly sales hit NT$2.4m; uniform invoices mandatory from 2029-01-01 for those at or above NT$200k",
+     "unchecked": "Official ratio targets by quarter; whether payment providers already report the ratio; who counts the share (NTA from payment-provider data?); whether the 2029 date is changed; number of shops truly affected (5,300 vs 70,000); willingness to pay among very small eateries; rival of a free MOF e-invoice app (電子發票整合服務平台 / 營業人 app)."
+    },
+    {
+     "buyer": "Traditional Chinese-medicine retail shops and their staff (count not found), plus unions/associations",
+     "category": "Chinese-medicine shops, drug dealers (藥商) and health-food sellers",
+     "evidence": "https://newtalk.tw/news/view/2025-03-22/961762 ; https://newtalk.tw/news/view/2026-06-23/1042839 (Chiayi investigation of falsified sales documents). No deadline, count or penalty found; pharmacists' union asked withdrawal.",
+     "existing": "No software or service seen. No competitor search run (score under 3).",
+     "known_mark": "new",
+     "name": "Chinese-medicine seller (中藥販賣業藥商) qualification and registration paperwork pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "MOHW Department of Chinese Medicine and Pharmacy letter of 2025-03-18 under Pharmaceutical Affairs Act Art. 103(3): existing operators with business-proof documents plus coursework, or graduates with 1 year of practice, may register with county health bureaus",
+     "unchecked": "Number of shops; whether there is a deadline or sunset; ongoing record-keeping and renewal duties; whether the order was withdrawn or challenged; related to pharmacies chemical/precursor items in the study."
+    },
+    {
+     "buyer": "Motorcycle shops, garages and petrol stations acting as waste lubricant collection points (count not found; very large micro-shop population)",
+     "category": "37. Vehicle repair shops and motorcycle shops (waste oil, tyre records)",
+     "evidence": "https://recycle.ntpc.gov.tw/Article/Index/category57 (New Taipei recycling pages surfaced; the 3-year retention wording came from the search summary of the New Taipei EPB page and was not fetched). No filing to the authority, only records for inspection; no evidence of fines.",
+     "existing": "No software seen. No competitor search run (score under 3).",
+     "known_mark": "new",
+     "name": "Motorcycle-shop waste-oil hand-over log (3-year record of hauler, date, quantity) and household waste-oil collection records",
+     "score": 2,
+     "status": "weak",
+     "trigger": "EPA household-waste classification rule effective 2012-01-01 (local guidance, New Taipei): non-business waste oil to licensed haulers, keep records of hauler/processor name, date and quantity for 3 years for audit",
+     "unchecked": "Whether other counties impose the same record duty; whether any online declaration applies to shops; enforcement evidence; whether waste-oil collection payments or fund subsidies exist."
+    },
+    {
+     "buyer": "Motorcycle shops licensed as emissions-inspection stations (count not found)",
+     "category": "37. Vehicle repair shops and motorcycle shops (waste oil, tyre records)",
+     "evidence": "https://motor.ntpc.gov.tw/station/newspdf/機車排放空氣污染物檢驗站設置及管理辦法.pdf ; https://newtalk.tw/news/view/2025-06-30/979083 (rider-side news). Station software, data-upload format and station count were not verified.",
+     "existing": "Not checked. Likely the state or equipment makers supply the inspection and reporting software, which would kill the idea.",
+     "known_mark": "new",
+     "name": "Private motorcycle emissions-inspection station (機車排氣定檢站) operations and data-upload tool for motorcycle shops",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Air Pollution Control Act Art. 18 and 機車排放空氣污染物檢驗站設置及管理辦法 (amended 2019-07-03): certified station, trained inspectors, camera monitoring; periodic inspection mandatory for riders (fine NT$500, then NT$3,000)",
+     "unchecked": "Whether the inspection system and upload are supplied by MOENV or by testing-equipment vendors; station count; whether stations pay per upload; customer-reminder (SMS) gap now that paper notices are being dropped."
+    },
+    {
+     "buyer": "Restaurants, stall holders and sellers with business registration (very large count, not verified)",
+     "category": "Restaurants, food stalls, night-market vendors, small food manufacturers: food-business registration and traceability",
+     "evidence": "https://www.hlc.moj.gov.tw/53445/53490/53501/53503/257444 ; https://news.ltn.com.tw/amp/news/life/breakingnews/5442492 (Taitung health bureau, May 2026). Free state portal fadenbook.fda.gov.tw with free hotlines, and health bureaus offer on-site help.",
+     "existing": "Free state portal and local health-bureau assistance; no private tool seen. No competitor search run (score under 3).",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "Food-business registry (fadenbook) annual reconfirmation reminder and filing helper for restaurants, stalls and night-market vendors",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Food Safety and Sanitation Act food-business registration (since 2014-05-01); annual reconfirmation with sticker; failure after correction notice: NT$30k-3m",
+     "unchecked": "Current fine amounts; whether registration scope expanded in 2025-2026; whether traceability extends to restaurants (none found); willingness to pay for a task done once a year on a free portal."
+    },
+    {
+     "buyer": "Small employers with up to 30 staff",
+     "category": "Employers of all small firms: labour-law, wage, working-hours and insurance filings",
+     "evidence": "https://www.president.gov.tw/PORTALS/0/BULLETINS/PAPER/PDF/7196-4.PDF ; https://blog.104.com.tw/labor-inspection-illegal-cases-misrepresentation-record/ ; https://judgment.judicial.gov.tw/FILES/KSDV/115%2c%e5%8b%9e%e8%a8%b4%2c71%2c20260611%2c1.pdf. No filing to an authority; no 2025-2026 amendment confirmed.",
+     "existing": "Not searched in depth; payroll and attendance products exist but were not named by this pass. Falls in the contract's generic payroll exclusion.",
+     "known_mark": "new",
+     "name": "SME employer labour-law records pack (wage ledger, attendance records kept 5 years, workplace-harassment procedures, inspection-ready folder)",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Labor Standards Act Arts. 23, 30 and 79 (fine NT$90k-450k; surprise inspections); 2023 Gender Equality in Employment Act amendments",
+     "unchecked": "Evidence for rejection is only the contract's generic-payroll exclusion and absence of a state upload; named local vendors were not identified."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "37. Vehicle repair shops and motorcycle shops (waste oil, tyre records); also row 'Vehicle repair, motorcycle shops and used-car dealers (waste oil, waste batteries/tyres, ELV records)'",
+     "found": "Taiwan duty now partly verified. Waste lubricant oil: per New Taipei EPB guidance (rule effective 2012-01-01 under EPA household-waste classification), motorcycle shops/garages/petrol stations act as household waste-oil collection points; their own waste oil must go to a licensed hauler/processor, and they must keep hauler/processor name, date and quantity records for 3 years for audit (local-level source; other counties unverified). No evidence found that small repair shops must file online waste declarations: I could not confirm whether 汽車修理業 is in the MOENV online-declaration designated list (the list is threshold-based). Waste batteries/tyres go through the responsible-manufacturer recycling-fund system (fee paid by makers/importers), not by the shop. No dedicated Taiwan-language workshop software found (search returned only foreign products: Tallermatic, MotorWorks, Workshop Software), but that was one English-skewed search, so competition is unverified. Possible real bridge: private motorcycle emissions-inspection stations (機車排氣定檢站, Air Pollution Control Act Art. 18 / 檢驗站設置及管理辦法, amended 2019-07-03) are mostly motorcycle shops with required certificates, trained inspectors and camera monitoring; paper reminders are being replaced by SMS (New Taipei from 2026-01-01); late-inspection fines are NT$500 then NT$3,000. Online upload format, software requirement and station count were not verified. Nothing new beyond a weak/unverified lead.",
+     "status": "screened"
+    },
+    {
+     "category": "Restaurants, food stalls, night-market vendors, small food manufacturers: food-business registration (食品業者登錄) and traceability (食品追溯追蹤管理系統)",
+     "found": "Registration (fadenbook.fda.gov.tw, in force since 2014-05-01) covers manufacturers, processors, restaurants, importers and sellers with factory, business or company registration, and from the 2015 notice also stall holders in registered or licensed stalls; existing businesses must reconfirm annually (a Taitung health bureau report of May 2026 mentions an annual confirmation sticker). Failure to correct after notice: NT$30k-3m fine under Food Safety Act (2015 notice; current amount not verified). The traceability duty (非追不可, K01) applies to designated categories (22 categories, about 4,700 firms as of 2017) and restaurants are not on the list seen; FDA 2026 workshop concerns manufacturing-sector reporting fields only. No 2025-2026 notice extending traceability to restaurants was found. The registration is free and run by the state; annual reconfirmation is a thin software hook. Restaurant tier of traceability: nothing new beyond K01.",
+     "status": "screened"
+    },
+    {
+     "category": "Employers of all small firms: labour-law, wage, working-hours and insurance filings",
+     "found": "Duties are long-standing, not new: wage ledger (Labor Standards Act Art. 23) and attendance records to the minute (Art. 30) kept 5 years since 2016-01-01; fine NT$90k-450k (Art. 79); surprise labour inspections; 2023 Act of Gender Equality in Employment amendments (10-29 staff: complaint channel; 30+: prevention rules). No 2025-2026 amendment was confirmed (searched, found none). This is general payroll / attendance software, which the contract excludes as generic, and no specific bridge to an authority upload was found. A June 2026 court order cited the 5-year record duty. Not pursued further: excluded as generic payroll.",
+     "status": "screened"
+    },
+    {
+     "category": "Waste Disposal / Resource Recycling rules: business waste (事業廢棄物) declaration, recycling-fund fee declaration, single-use tableware and beverage-cup restrictions",
+     "found": "Online business-waste declaration (Waste Disposal Act Art. 31) applies only to designated businesses by threshold (tonnage / hazardous kg / sector), listing expanded over years (about 38,000 firms around 2013); I could not confirm that small shops are listed. Responsible-party recycling-fund duty: manufacturers/importers of listed recyclables declare operating or import volumes online on odd months (30th) via the 應回收廢棄物責任業者管理辦法; this falls on makers/importers/chains, not micro shops. Single-use tableware restrictions (amended 2023-08-01) and beverage-cup rules (chain drink shops, convenience stores, fast food, supermarkets: NT$5 discount for own cup since 2022-07-01, plastic single-use cups phased out from September 2024 or 2025 with local timetables; breakfast shops and night markets outside scope) are in-store compliance rules with no filing; at most a signage / discount-tracking need. No filing bridge found. Nothing new beyond K02 / K05.",
+     "status": "screened"
+    },
+    {
+     "category": "Chinese-medicine shops, drug dealers (藥商) and health-food sellers: record-keeping, GDP/GSP, drug traceability",
+     "found": "GDP (Pharmaceutical Affairs Act Art. 53-1) binds Western-drug wholesalers/importers/exporters (permit required since 2019-01-01; cold chain from 2022-01-01); drug traceability reporting (Art. 6-1; monthly by the 10th; fines NT$30k-2m under Art. 92) binds licence holders and wholesalers of listed categories, not retail pharmacies or Chinese-medicine retailers on the evidence seen. New 2025 development: on 2025-03-18 MOHW's Department of Chinese Medicine and Pharmacy issued a rule letting Chinese-medicine sellers with a business-proof document plus coursework (or graduates with 1 year of practice, 35 credits) register as 中藥販賣業藥商 with their county health bureau (Pharmaceutical Affairs Act Art. 103(3)); pharmacists' union objected. Chinese-medicine shops must have a resident qualified person. A June 2026 Chiayi case shows investigators checking forged sales documents used to obtain the business-proof certificate. Count of shops not found. Record-keeping years and licence renewal cycle unverified. Small one-off qualification/registration wave with a possible compliance-paperwork angle, but the rule's stability is contested.",
+     "status": "screened"
+    },
+    {
+     "category": "Business-tax and e-invoice duties for micro-businesses (小規模營業人 查定課徵, e-invoice rollout)",
+     "found": "Strongest finding. Ministry of Finance rule (announced March 2026): 大眾化消費飲食店 (soy-milk shops, ice shops, noodle shops, buffet, bento) previously exempt from uniform invoices at 1% assessed tax will stop being 'specially operated' businesses from 2029-01-01 (ROC 118); shops with average monthly sales at or above NT$200,000 must then issue uniform invoices at 5%. A 3-year buffer (2026-01-01 to 2028-12-31) lets approved shops keep 1% and no invoices if they adopt mobile payment or KIOSK checkout; application deadline reported as 2028-06-30; stop conditions reported as mobile-payment share of assessed sales at zero or below a target (e.g. under 5% cumulative over 4 quarters) or quarterly sales reaching NT$2.4m. Affected counts conflict: about 5,300 shops at NT$200k+ per MOF versus about 70,000 on the 1% assessed regime per officials; 11,684 shops still on the concession at end-2025 (9,281 restaurants). Chain or franchise stores must use uniform invoices. KIOSK vendors can file the concession application for shops. MOF says the 2029 date may be adjusted ('rolling'). Separately, e-invoice upload duty (Business Tax Act Art. 32-1): upload within 7 days for business buyers and 2 days for non-business; fines NT$1,500-15,000 since 2025-07-01. No 2026-2027 expansion of B2B e-invoice mandates was found. Candidate created.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "機車行 汽車修理業 廢機油 廢輪胎 廢鉛蓄電池 回收 申報 環保署 網路申報 規定",
+    "食品業者登錄 追溯追蹤 餐飲業 小型業者 公告 2025 食藥署 應登錄 範圍 擴大",
+    "勞動基準法 出勤紀錄 保存五年 工資清冊 小型事業單位 違規 罰鍰 2025 修正 勞動部 檢查",
+    "事業廢棄物 申報 小型事業 免洗餐具 飲料杯 限制使用 2025 零售業 應回收廢棄物 責任業者",
+    "藥商 中藥販賣業 藥品優良運銷規範 GDP 藥品追溯追蹤 藥局 申報 食藥署 2025",
+    "電子發票 強制 開立 小規模營業人 2026 財政部 統一發票 擴大 實施 時程 營業人 B2B 上傳",
+    "廢機油 機車行 汽車修理 回收 環境部 資源循環署 補貼 清除 規定",
+    "大眾化消費飲食店 118年 統一發票 電子發票 財政部 緩衝期 小店 導入",
+    "餐飲業 食品追溯追蹤 登錄 公告 食藥署 114年 115年 應建立 餐飲業者 食品追溯管理系統",
+    "事業廢棄物 網路申報 公告 事業範圍 環境部 汽車修理 保養 列管 事業",
+    "2026 勞基法 修正 雇主 工資清冊 出勤紀錄 職場性騷擾 小型企業 合規 勞動檢查 軟體 薪資系統",
+    "中藥販賣業 藥商 換照 藥品追溯 申報 衛生局 中藥商 紀錄 保存 規定 食藥署 2026",
+    "大眾化消費飲食店 行動支付 KIOSK 申請 查定課徵 緩衝期 POS 業者 方案 小吃店 導入 補助",
+    "食品業者登錄 餐飲業 未登錄 罰款 食品業者登錄平台 FoodBusiness 每年 確認 小吃店 夜市 攤販",
+    "機車行 民間機車排氣定檢站 委託檢驗 連線上傳 檢驗系統 軟體 環境部 定檢 2026 新制",
+    "小吃店 行動支付 比率 查定課徵 優惠 申請 軟體 收款 整合 店家 後台 報表 國稅局",
+    "手搖飲 一次用飲料杯 限制使用 公告 2026 環境部 飲料店 自備杯 優惠 業者 申報 稽查",
+    "機車行 維修管理系統 工單 進銷存 軟體 機車行專用 定檢 客戶管理 SaaS 台灣"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b25"
+ },
+ "opus:taiwan:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Taiwanese jewellery POS or ERP product with an AML module. Searches in Chinese for 銀樓 POS/系統/軟體 and 洗錢防制 returned only foreign jewellery ERPs (GoldMatrix, NB Jewel, Aurum, BUSY, Odoo/ERPNext add-ons) and none of them is built for Taiwan's AML rules. The free alternatives are MOEA's Q&A, its quick guide, its internal control and risk assessment template (114.4 edition) and paper reporting forms. Whether the MJIB has an online reporting portal was not reached. Whether local POS vendors bundle AML features was not reached.",
+   "duty": "The duty is confirmed in the MOEA rule 銀樓業防制洗錢與打擊資恐辦法, last amended 114.04.24 (2025-04-24). It covers any company or firm that sells precious metals, gems or jewellery wholesale or retail, whether or not it belongs to the trade association. Rules: ID check (CDD) for cash deals of NT$500k or more. Cash-transaction report to the MJIB within 5 business days, on a stamped form sent by mail, fax or email. Suspicious-transaction report within 10 business days; urgent cases go by fax first. Sanctions-list match report within 10 business days. Enhanced checks (EDD) for PEPs and high-risk customers. Records kept in original form for 5 years. Risk assessment report updated every 2 years. Internal control and audit system. Owner or designated officer trained every 2 years, plus training for new staff. MOEA inspects each year, on site or off site. Penalty under the Money Laundering Control Act for designated non-financial businesses: NT$50k to 1M per a Taipei City government deck. A 2026 news item on accounting firms cites NT$50k to 5M, so the current upper limit is unconfirmed. I found no enforcement cases against jewellery shops.",
+   "market": "No official count of jewellery shops was found. An older 理財周刊 article estimates over 4,000 jewellery shops in Taiwan, from a survey around 2005. A current figure would need business-register data by industry code or the national jewellery association's membership list; neither was reached.",
+   "reason": "The duty is real and in force. Taiwan's 銀樓業防制洗錢與打擊資恐辦法 (last amended 2025-04-24) requires ID checks and a report to the Investigation Bureau within 5 business days for cash deals of NT$500k or more. Suspicious deals must be reported within 10 business days. Shops must keep records for 5 years, update a risk assessment every 2 years, and train staff every 2 years. MOEA inspects every year. Fines are about NT$50k to 1M, though the current upper limit is unconfirmed. I found no Taiwanese jewellery POS or AML product, but MOEA gives out free templates and paper forms. Most small shops rarely see NT$500k cash deals, and the heavier tasks come only every two years. That means low frequency and low willingness to pay. The likely channel is the trade association or an add-on module sold by POS vendors.",
+   "searches": 6,
+   "sources": "https://6laws.net/6law/law3/銀樓業防制洗錢與打擊資恐辦法.htm ; https://6laws.net/6law/law3/銀樓業防制洗錢與打擊資恐施行及申報辦法.htm ; https://gcis.nat.gov.tw/F/t70512 ; https://gcis.nat.gov.tw/F/t70517_p ; https://gcis.nat.gov.tw/F/t70408_p ; https://www-ws.gov.taipei/001/Upload/305/relfile/11455/102917/2e624f17-230f-4db0-baf4-c86874554f39.pdf ; https://uanalyze.com.tw/articles/5481053397 ; https://www.moneyweekly.com.tw/Magazine/Info/理財周刊/2547",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b25"
+ },
+ "opus:taiwan:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "State system: NLMA documents (2020) say firms and inspectors must upload photos of completion and safety inspections and of each monthly maintenance record form, with the lift's unique code, to a national system (Taipei calls it the 昇降設備/機械停車設備使用許可證全國連線交換系統). That partly covers record-keeping. In practice, maintenance firms often apply for the inspection on the owner's behalf. The Shinyi 社區幫 app covers community notices but not lift tracking. Foreign field-service tools (SmartService, FieldBoss, Shifton, Planfix) cover the vendor side, but none found is localised for Taiwan. No Taiwan-specific commercial reminder or tracker was found.",
+   "duty": "Building Act Art. 77-4 (cited via secondary sources): a lift needs a use permit, and the manager must have a registered professional firm maintain it every month. Regulation (建築物昇降設備設置及檢查管理辦法; latest version seen dated 2020-06-12 via a Changhua copy that returned 503): yearly safety inspection, with the permit issued by the inspection body. Application window: 'within 30 days before the permit expires' per NLMA documents; 'within 2 months' per the Taichung lift manager's guide and the NCUT procedure. This conflict is unresolved because the law.moj text was not reached. Monthly maintenance record in two copies, signed by the manager and the technician. Penalty: a lift that fails is not allowed to operate and the permit can be revoked after spot checks. The fine amount for not applying was not verified.",
+   "market": "I found no national lift count. Control Yuan figure (c. 2014): Taipei alone had 31,587 lifts, and at least 13,000 nationally missed inspection deadlines. The MOI dataset 14376 lists the number of professional firms, technicians and inspection bodies, but no values were visible; the link points to ROC year 109. National lifts plausibly number 100k or more and registered firms a few hundred, but both are unverified.",
+   "reason": "The duty is real. Building Act Art. 77-4 and the lift regulation require monthly maintenance by a registered firm and a yearly safety inspection to renew the use permit. Sources disagree on the window: national documents say apply within 30 days before expiry, Taichung and school documents say within 2 months. I found no Taiwan tracker for management committees. Pain is low, though. Maintenance firms usually file the inspection for owners, and the state upload system already holds photos of monthly records. Volunteer committees are hard to sell to and unlikely to pay. Lift firms would compare a vendor edition against field-service software. The regulation text and penalty amount were not read directly.",
+   "searches": 6,
+   "sources": "https://www.ud.taichung.gov.tw/media/406774/電梯管理人管理須知.pdf ; https://oga.ncut.edu.tw/var/file/54/1054/img/633/165998440.pdf ; https://www.nlma.gov.tw/uploads/files/aa81bc343dcf9eeb75b1deb0e3a2111d.pdf ; https://www-ws.gov.taipei/001/Upload/825/relfile/61163/9080696/c63bd365-9383-4bd8-a06d-7a137ceaae38.pdf ; https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/8297 ; https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/39369 ; https://data.gov.tw/dataset/14376 ; https://www.jjes.tp.edu.tw/wp-content/uploads/doc/jjes131/建築物昇降設備設置及檢查管理計畫.pdf ; https://www.smartservice.com/industry/elevator-service-software",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b25"
+ },
+ "opus:taiwan:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The core reporting job is already covered for free by the state soilmove e-manifest system and app, and some cities run their own (Taichung's app, Tainan's QR-code checks at yards). NLMA-approved GPS vendors sell boxes bundled with their own fleet platforms, offering live tracking and trip history. One vendor (a LINE official page) claims a single unit meets both NLMA and MOENV specs. Neither the state system nor the GPS vendors appear to link dispatch, manifests and cost or disposal-fee ledgers in a SaaS for small haulers, but I did not reach that conclusion exhaustively. Foreign analogues exist (SoilFLO, Soil Connect eRegulatory) but they are not localized for Taiwan. I could not confirm whether the state system offers an API or data export, so integration risk is high.",
+   "duty": "Real and in force. Since 1 Jan 2026 the NLMA's (國土管理署) nationwide full-flow regime for construction surplus soil (營建剩餘土石方) applies. Every trip from site to receiving yard needs an electronic manifest (電子聯單) showing the project, route, soil type and volume, and every truck must carry a GPS unit that has passed NLMA type approval. The type-approval procedure is published on nlma.gov.tw. The NLMA gave a GPS transition buffer to the end of February 2026 and opened GPS applications to small trucks. The frequency is every trip. Penalties are not uniform yet: enforcement currently runs through the administrative scheme and local rules, and I did not find a specific national fine. The draft Waste Disposal Act Article 10-1 (MOENV notice of 29 May 2025) would make online reporting and GPS mandatory and let MOI set national rules and penalties. UDN reported on 18 May 2026 that the bill was only in Legislative Yuan committee review. One summary mentions a third reading, but I could not date it or confirm that the soil clause survived. Treat the amendment as pending or unverified.",
+   "market": "About 15,000 gravel and soil trucks nationwide (UDN and CTEE, Jan-Feb 2026). One undated report gives 6,743 NLMA GPS applications, of which 6,223 were cleared to operate, plus 1,649 MOENV-equipped trucks. There are about 140 soil storage and processing yards (土資場), but only 18 operating sites with fill capacity (Dec 2025). I found no register count of hauling firms; a guess of a few thousand mostly small owner-operator firms is unverified.",
+   "reason": "The duty is real, applies to every trip, and caused a national crisis in early 2026 (the \"土方之亂\"). But the state e-manifest system is free, and GPS vendors already bundle fleet tracking, so the remaining gap is only the dispatch and ledger layer that ties manifests to fees and costs. Small haulers are fragmented owner-operators who are not very digital and are price-sensitive (GPS units sell for around NT$380). Whether the state system has an API is unknown, which makes the MVP risky. The pending Waste Disposal Act changes may alter the rules again. GPS vendors and industry associations are the natural channels, but those vendors could add this feature themselves. The opportunity is moderate to low for a solo founder.",
+   "searches": 6,
+   "sources": "https://udn.com/news/story/7314/9249045 ; https://ec.ltn.com.tw/article/breakingnews/5309823 ; https://udn.com/news/story/124743/9296469 ; https://www.nlma.gov.tw/uploads/files/9b6e8f7f212c52a4b5872e8ea0d949fb.pdf ; https://www.ctee.com.tw/news/20250529702233-430104 ; https://udn.com/news/story/7266/9509133 ; https://www.ctee.com.tw/news/20260204700086-430601 ; https://money.udn.com/money/amp/story/5621/9255877 ; https://page.line.me/mhb6106n ; https://www.nownews.com/news/6775655",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b25"
+ },
+ "opus:taiwan:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no named commercial AML/KYC software for land scriveners or brokers in 5 local-language searches. What exists is free: Interior Ministry and land-office Q&A booklets, flyers and form templates, plus MJIB's reporting channel (its format was not checked). Not checked: franchise headquarters' in-house tools (信義, 永慶, 住商, 21世紀) and existing scrivener case-management software vendors that might add AML modules. Guild materials not reached.",
+   "duty": "Duty (MLCA s.5(3)(ii); MOI 地政士及不動產經紀業防制洗錢及打擊資恐辦法, amended 2021): for every property sale, identify the client, the person who really owns or controls it, and any agent; the identity check must be done in-house, not by a third party. Also: sanctions and politician (PEP) screening, record keeping, internal controls with a designated officer, a risk assessment report, cash deals of NT$500k or more reported to MJIB within 10 working days, and suspicious-transaction reports. MOI order 台內地字第1140261234號 of 20 Mar 2025: when acting as trustee, file trust information with MOI within 30 days of the trust being set up or changed, and disclose trustee status within 5 business days. Fines for designated non-financial businesses: NT$50k to NT$1m for identity-check and record-keeping breaches (Taipei City document and PTS news; exact article numbers after the 2024 amendment not checked against the official law database). MOI inspects each year, on site or remotely.",
+   "market": "Licensed land scriveners: 10,482 at end of 2022, down from 10,897 at end of 2021 (Taiwan Real Estate Yearbook 2023, via search summary). Real-estate broker firms (brokerage, presales agents and overseas property firms together): about 9,300 to 9,800 registered in 2025, depending on which count is used. Brokerage-only firms and branches: 5,062 at end of 2025 (MOI figures quoted by Commercial Times). Overall about 15,000 to 20,000 small offices, many of them franchise members.",
+   "reason": "The duty is real and in force. Under the Money Laundering Control Act, land scriveners and real-estate brokers count as designated non-financial businesses for property sales. For each sale they must check the client's identity and identify the person who really owns or controls the client. They must also screen for sanctioned persons and politicians, keep records, write a risk assessment, report cash deals of NT$500k or more to the investigation bureau within 10 working days, and file trust information within 30 days. Fines run from NT$50k to NT$1m, and the Interior Ministry inspects each year. I found no named software in five searches, so the verdict is confirmed. The score is low because offices handle few cases, the checks are mostly free paper templates, the identity check cannot be handed to a third party, franchise headquarters probably supply tools in-house (unchecked), and willingness to pay is unproven.",
+   "searches": 5,
+   "sources": "https://www-ws.land.ntpc.gov.tw/001/upload/oldfile/userfiles/fe/file/地政士及不動產經紀業防制洗錢辦法-總說明與逐條說明.pdf ; https://landoffice.chcg.gov.tw/files/行政院公報_124_1140409.pdf ; https://landoffice.chcg.gov.tw/files/16附件地政士及不動產經紀業防制洗錢問答集_122_1120627.pdf ; https://6laws.net/6law/law3/地政士及不動產經紀業防制洗錢及打擊資恐辦法.htm ; https://landoffice.chcg.gov.tw/files/2.110年地政士及不動產經紀業防制洗錢及打擊資恐辦法修正內容及實務執行QA_127_1100706.pdf ; https://www-ws.gov.taipei/001/Upload/305/relfile/11455/102917/2e624f17-230f-4db0-baf4-c86874554f39.pdf ; https://news.pts.org.tw/article/411866 ; https://www.ncscre.nccu.edu.tw/sites/default/files/2023nian_jian_-3-3.pdf ; https://www.ctee.com.tw/news/20260210700871-430601 ; https://money.udn.com/money/story/5621/8873795",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b25"
+ },
+ "opus:taiwan:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The design of the scheme already does the core job. Per the Kaohsiung National Taxation Bureau, as relayed by the 104 blog and Commonwealth Magazine (GVM): the shop cannot apply itself and must authorise every mobile-payment provider it uses to apply for it, and those providers send the shop's sales data straight to the tax office. The tax office therefore calculates the mobile-payment share from provider data, and KIOSK makers can apply for the shop. That leaves only a nice-to-have dashboard. Whether iCHEF or other POS systems show the share was not confirmed, but payment providers' merchant back-ends already show mobile-payment totals. The 2029 switch to e-invoices is covered by many existing POS and e-invoice vendors and by MOF's free e-invoice platform.",
+   "duty": "Real and in force. In December 2025 the Ministry of Finance (MOF) amended and renamed the guideline to 查定課徵營業人使用行動支付及多媒體資訊服務機適用租稅優惠作業規範. Small businesses taxed on assessed sales that take mobile payments or use a KIOSK with mobile-payment checkout keep the 1% assessed rate and stay exempt from uniform invoices until 2028-12-31, even above NT$200k a month. Applications close 2028-06-30. The concession stops in any of three cases: a quarter's mobile-payment share of assessed sales is zero; the cumulative share misses its target; or a quarter's sales reach NT$2.4m. Press reports give the cumulative targets as 5% for quarters 1-4, then 9%, 13%, 17% and 21% for later two-quarter periods. Their layout is garbled, and I did not confirm these figures from the official text. From 2029-01-01, mass-market eateries (大眾化飲食店) with assessed monthly sales of NT$200k or more must issue uniform invoices (reported by CTEE in March 2026). The penalty is losing the concession: the shop moves to the 5% general regime and must issue invoices. The condition is checked quarterly. I found no reports that the 2029 date has changed.",
+   "market": "Small. Earlier reporting (Yahoo/news) put the number of small shops using the 1% mobile-payment concession at about 16,000. The 11,684 figure for end-2025 in the claim is in the same range. The roughly 5,300 eateries above NT$200k a month are the group facing the 2029 deadline. The 70,000 figure was not verified.",
+   "reason": "The duty is real and checked every quarter, but the core job is not the shop's. Mobile-payment providers must file the application for the shop and report its sales data to the tax office, which calculates the mobile-payment share. A shop only needs to keep taking mobile payments, and the ratio targets are low (about 5-21%). The providers' own dashboards already show mobile-payment totals. The buyers are very small, cost-sensitive eateries, likely around 5,000-16,000 shops, and few would pay for a ratio tracker. The 2029 switch to uniform invoices is a bigger pain, but POS and e-invoice vendors and MOF's free platform already serve it. The only possible angle is a feature sold through KIOSK/POS vendors, not a standalone product.",
+   "searches": 3,
+   "sources": "https://udn.com/news/story/7243/9387561 ; https://www.ctee.com.tw/news/20251212701776-430503 ; https://www.ctee.com.tw/news/20260318701988-431401 ; https://blog.104.com.tw/small-merchants-use-mobile-payments/ ; https://www.gvm.com.tw/article/67788 ; https://tw.stock.yahoo.com/news/%E5%97%B6-%E6%B6%88%E8%B2%BB%E8%A1%8C%E5%BE%97%E9%80%9A-%E8%A1%8C%E5%8B%95%E6%94%AF%E4%BB%98%E7%87%9F%E6%A5%AD%E7%A8%851-%E5%84%AA%E6%83%A0-%E7%B4%841-074212559.html ; https://tw.stock.yahoo.com/news/%E5%B0%8F%E5%BA%97%E5%AE%B6%E7%94%A8%E8%A1%8C%E5%8B%95%E6%94%AF%E4%BB%98%E7%A7%9F%E7%A8%85%E5%84%AA%E6%83%A0%E5%BB%B6%E9%95%B73%E5%B9%B4-%E5%BC%95%E9%80%B2kiosk%E4%B9%9F%E9%81%A9%E7%94%A8-114126785.html",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b25"
+ },
+ "triage:taiwan": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Jewellery shops as AML-designated small entities; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Lift owners/committees annual inspection duty; differs from K03 fire-safety filing.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Registered associations' statutory filings; community bodies in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Licensed well-drilling firms licence/staff filings; small firms with recurring duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Well owners' registration duty; different buyer from A4 (users not drillers)."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Beekeeper declaration/traceability; small part-time producers, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Septic/night-soil haulers have a different duty (permit/vehicle list) than K02 renovation-waste declarations.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Household employers are the buyer, not brokers as in K09; different buyer group.",
+     "ref": "K09"
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Animal-drug sellers and small vet clinics with purchase-proof and training duties."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Community simple water-supply operators with sampling duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Small taxi companies' driver reporting duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Money-changer quarterly report and AML duty on small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Pig transport GPS retention and cleaning duties on small firms; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Childminders and home-childcare centres, listed small licensed premises."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Driving schools are small licensed premises; rule change unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A16",
+     "reason": "Pawnshops are named second-hand/pawn small businesses; duties unverified, not rejected."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Soil e-manifest and GPS from 1 Jan 2026 is a different duty and buyer than K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Land scriveners and brokers are small offices with AML/trust filing duties; distinct from A1 buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "B&B operators have half-yearly reports and tax-tier duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Unregistered factories have annual counselling fee and deadline-driven registration; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Condo committees are community bodies with filing duty to local authority."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small chemical operators with monthly/quarterly online record reports."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Clinic EMR duties fall on small clinics; unverified, so keep for checking."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Online alcohol sellers: draft rule, passage unconfirmed; unverified not rejected."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Security firms' guard screening duty; draft rule unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Small seafood processors have EU IUU verification and retention duty; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "LPG dealers' cylinder re-test and weight-check duties; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Eateries on 1% assessed tax have a deadline-driven mobile-payment ratio duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Chinese-medicine sellers' registration with a dated MOHW letter; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Motorcycle shops' 3-year waste-oil hand-over record duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Emissions-inspection stations run by motorcycle shops; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Annual registration reconfirmation differs from K01 traceability upload duty; related to K01.",
+     "ref": "K01"
+    }
+   ]
+  },
+  "tag": "w2b25"
  }
 }

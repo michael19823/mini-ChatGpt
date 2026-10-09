@@ -278,5 +278,492 @@
    "searches": 20
   },
   "tag": "w2b26"
+ },
+ "discover:B:ecuador": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small and mid-size private security companies, now required to be limited-liability companies with minimum capital of 75 SBU. Police counts: 556 with valid permits, 135 in process, 203 expired.",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://www.vistazo.com/politica/nacional/2026-02-07-sercop-inspecciona-empresas-seguridad-privada-ecuador-clausura-falta-de-permisos-FA10671765 ; https://www.primicias.ec/seguridad/sercop-irregularidades-empresas-privadas-vigilancia-ecuador-110724/ ; https://nmslaw.com.ec/en/blog/2024/02/14/ley-vigilancia-seguridad-privada-ecuador/ ; https://www.elcomercio.com/actualidad/ecuador-guardiasdeseguridad-policia-informalidad-capacitacion/ ; https://www.expreso.ec/actualidad/uniformados-refuerzo-empresas-esperan-reglamento-214314.html",
+     "existing": "Competitor search in Spanish ('software control guardias empresa de seguridad privada Ecuador cumplimiento ...') found no vendor and no state portal or software. Control looks like inspection and document checks. Guard-tour or ERP vendors not checked.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Compliance file and permit tracker for small private security companies (operating permit, guard roster, ID cards, insurance and guarantees, arms register)",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Ley Orgánica de Vigilancia y Seguridad Privada (RO 9 Feb 2024): operating permit from the Ministerio del Interior, liability and accident insurance, ID cards and uniforms, accreditation and bachillerato for guards, payroll through bank accounts. Defence ministry arms-registry reglamento (July 2025). SERCOP/Interior/IESS/MDT joint inspections of Feb 2026 closed 2 firms for no permit and checked permits, guarantees, payroll, uniform permits and training certificates.",
+     "trigger_note": "",
+     "unchecked": "Whether the general reglamento was ever issued; permit renewal cycle (old rule 2 years, industry asked for 4); any electronic Interior portal; reporting frequency (none found); guard-tour or workforce software already sold locally; exact number of firms and willingness to pay (industry says 9 state bodies regulate them); cleaning and manpower agencies not covered."
+    },
+    {
+     "buyer": "The 398 private clinics and centres among the 454 IESS-accredited external providers (about 370 paid in 2026). Smaller clinics and diagnostic centres in particular.",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://www.primicias.ec/sociedad/iess-prestadores-externos-seguridad-social-pagos-hospitales-auditorias-afiliados-salud-publica-125918/ ; https://www.expreso.ec/actualidad/iess-deuda-prestadores-externos-auditada-252-millones-180331 ; https://www.eldiario.ec/manabi/la-facturacion-anual-de-prestadores-externos-ha-superado-los-usd-157-millones-en-manabi-08092025/",
+     "existing": "Competitor search ('prestadores externos IESS ... software validación planillas') found no vendor. It surfaced only the historical Prosick platform run by R.DES for the IESS validation and Espoltel as auditor. Clinic HIS or billing vendors not checked.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "IESS claims/planilla preparation and objection-response tool for private clinics and labs (validation code, tarifario, glosas)",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Providers bill IESS by planilla under the MSP tarifario. Since Jan 2026 IESS enforces the validation code (MSP regulation 140 art. 34, in force from 17 May 2023) and the auditor Espoltel objects to planillas without it. Providers report objections of 90-95%, against 5-10% historically. IESS paid USD 395 million Jan-Jun 2026 against pending debt of about USD 1,500 million.",
+     "trigger_note": "",
+     "unchecked": "Whether HIS/clinic-management vendors (and the IESS or MSP RPIS systems) already include validation-code tracking; the actual electronic format and objection-appeal deadlines; whether the pain is mostly IESS arrears (not a software problem); willingness of cash-strapped clinics to pay; also ISSFA/ISSPOL and private insurer billing."
+    },
+    {
+     "buyer": "About 136 segment-4 and about 50 segment-5 cooperatives (SEPS, Feb 2026). Different from the cajas comunales of K04.",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.seps.gob.ec/wp-content/uploads/SEPS-SGD-IGS-2025-10401-OFC.pdf.pdf ; https://www.seps.gob.ec/wp-content/uploads/SEPS-SGD-INGINT-2024-08906-OFC.pdf.pdf ; https://www.primicias.ec/economia/cooperativas-pequenas-numerosas-liquidacion-superintendencia-economia-popular-solidaria-121041/ ; https://www.expreso.ec/economia-y-negocios/listado-cooperativas-liquidacion-ecuador-ambato-lidera-cierres-285977.html",
+     "existing": "No competitor search run (budget exhausted). Core-banking vendors for cooperatives probably already generate these files.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "SEPS information-submission pack for segment 4-5 savings and credit cooperatives (cartera data structures, periodic uploads)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "SEPS information requirements are mandatory for segments 4-5. Technical manuals for credit-portfolio data structures v13.0 (11 Mar 2024) and an April 2025 update under a JPRF resolution. SEPS 'Gestión de envío de información' system. Purge: 38 cooperatives in liquidation by May 2026.",
+     "trigger_note": "",
+     "unchecked": "Competitor search: local cooperative core-system vendors and whether they output SEPS structures. Submission frequency and format (monthly/quarterly). Whether the small cooperatives still keep data in spreadsheets. Offline channel via cooperative federations."
+    },
+    {
+     "buyer": "Small foundations, associations and OSSFL registered with the Ministerio de Gobierno (number not found).",
+     "category": "32. Non-profit organisations (Ley Orgánica de Transparencia Social); also 17. Community and religious bodies",
+     "evidence": "Search summary citing Corte Constitucional copies of the Registro Oficial: https://esacc.corteconstitucional.gob.ec/storage/api/v1/10_DWL_FL/eyJjYXJwZXRhIjoicm8iLCJ1dWlkIjoiMzcxNWFiYTYtMDRkYi00YTUyLTk4YTEtZWM2NTc1NmI5M2EyLnBkZiJ9 (texts not opened). Related background: https://www.primicias.ec/economia/organizaciones-fundaciones-superintendencia-economia-popular-solidaria-101753/",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Annual transparency reporting kit for non-profit organisations (foundations, associations) under the Ley Orgánica de Transparencia Social",
+     "score": 4,
+     "status": "unverified",
+     "trigger": "Reglamento General, Decreto Ejecutivo 191 (RO Supl. 153, 28 Oct 2025) and Acuerdo MDG-SMS-2026-0012-A (RO Supl. 243, 13 Mar 2026) on transparency of OSSFL. Report contents and deadlines not seen.",
+     "trigger_note": "",
+     "unchecked": "The whole duty: what is reported, to whom (Ministerio de Gobierno platform?), frequency, deadlines, penalties, number of organisations; competitors (law firms, accountants); the Acuerdo and Decreto 191 texts were not opened. A group A worker covers category 17; verify there."
+    },
+    {
+     "buyer": "Individual Airbnb-type hosts and small guest houses on the mainland (Cuenca alone: 160 registered units against many more active, per Mintur).",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://primicias.ec/noticias/economia/anfitrion-airbnb-turismo-requisitos-alojamiento ; https://primicias.ec/noticias/economia/airbnb-reglamento-turismo-ecuador ; https://www.expreso.ec/actualidad/el-auge-del-airbnb-foco-del-concejo-cantonal-de-cuenca-270866.html",
+     "existing": "Competitor search found no certified PMS or e-submission to Mintur. Airbnb and Booking already hold guest data; the guest book is only handed over on request, so the pull is weak.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Guest-book, SITURIN registration and LUAF renewal helper for small hosts and hostales (Alojamiento en Inmuebles Habitacionales)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Reglamento de Alojamiento Turístico en Inmuebles Habitacionales (RO 21 Sep 2023): free SITURIN registration, annual LUAF from the GAD, guest book (name, stay time, adults and minors, phone) kept 6 months and given to Mintur or authorities on request.",
+     "trigger_note": "",
+     "unchecked": "Enforcement level and fines; any 2025-26 amendment or electronic submission channel; migration reporting for hotels to the Ministerio del Interior (seen only in a thesis); host willingness to pay for a one-time duty."
+    },
+    {
+     "buyer": "Small fuel comercializadoras (18 sanctioned in May 2026) and the 448 stations whose stocks were unreported.",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.vistazo.com/negocios/economia/2026-06-09-gobierno-verifica-abastecimiento-combustibles-actualizacion-precios-junio-ecuador-HE11046331 ; https://www.eldiario.ec/centro/combustible-en-ecuador-arch-activa-protocolos-para-garantizar-abastecimiento-de-gasolina-y-diesel-08052026/ ; https://faolex.fao.org/docs/pdf/ecu167323.pdf",
+     "existing": "No competitor search run (budget). Station POS/tank-gauge vendors and the ARCH SICOHI system likely already cover this.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "ARCH stock-reporting service for small fuel comercializadoras and station owners",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "ARCH opened sanction proceedings 9-12 May 2026 against 18 comercializadoras for not reporting stocks of 448 gasolineras. An ARCH norm requires real-time information to a control centre (fragment seen only). Hoarding checks during the 2026 shortages.",
+     "trigger_note": "",
+     "unchecked": "Which entity must report what and how (SICOHI or another system); frequency; whether the May 2026 duty was a one-off emergency measure; competitor search; fuel is a volatile political area."
+    },
+    {
+     "buyer": "Licensed or registered sports-betting operators (65 expressed interest to the SRI; many offshore or large).",
+     "category": "31. Sports-betting operators (country-specific)",
+     "evidence": "https://www.ecija.com/en/news-and-insights/operadores-de-pronosticos-deportivos-como-sujetos-obligados-a-reportar-ante-la-uafe/ ; https://sigma.world/es/news/ecuadors-betting-market-attracts-65-companies/ ; https://www.eldiario.ec/negocios/apuestas-deportivas-mueven-cerca-de-usd-135-millones-en-ecuador-20012026/",
+     "existing": "No competitor search run (budget). Law firms and GRC tools likely serve (as in K08).",
+     "known_id": "K05",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "UAFE compliance pack for licensed sports-betting operators (compliance officer, risk manuals, registration code)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "UAFE-DG-2026-0005 makes them obligated subjects with 3 months to comply; Decreto 487 LOPD licence; SRI 15% levy and RUC registration; UAFE data analytics from Jan 2027.",
+     "trigger_note": "",
+     "unchecked": "Report frequency and format; number of locally resident small operators (the Ley del Deporte requires residence); competitors; likely served by law firms and large GRC vendors; weak buyer fit (not quiet small firms)."
+    },
+    {
+     "buyer": "Pharmacies and medicine handlers",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://www.gob.ec/arcsa/tramites/entrega-reportes-mensuales-manuales-medicamentos-contengan-sustancias-catalogadas-sujetas-fiscalizacion",
+     "existing": "",
+     "known_id": "K02",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K02; note the filing may also go to the Ministerio de Gobierno/Interior (SISALEM) as well as ARCSA.",
+     "name": "Monthly controlled-medicines report (sustancias catalogadas) for pharmacies",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Monthly report due within the first 10 business days; SISALEM, with a manual form as fallback",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Cocoa and coffee traders and associations",
+     "category": "22. Grain, coffee, cocoa and other commodity traders",
+     "evidence": "https://www.eldiario.ec/ecuador/ecuador-registrara-a-mas-de-100-000-productores-de-cacao-y-cafe-para-cumplir-normas-de-la-union-europea-09092025/",
+     "existing": "",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K01. Counter-evidence: the state registers farmers free of charge in GUIA ('Mi finca, mi huella') and gives them georeferenced deforestation reports, which covers part of the farm-level job; the traders' lot-to-farm bridge remains a gap.",
+     "name": "Lot-to-farm EUDR traceability for cocoa and coffee middlemen",
+     "score": 0,
+     "status": "weak",
+     "trigger": "EUDR; Agrocalidad GUIA registry",
+     "unchecked": ""
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "No daily/periodic duty on small stations confirmed. ARCH opened sanction proceedings 9-12 May 2026 against 18 comercializadoras for not reporting stocks of 448 stations (Vistazo 2026-06-09), so the duty sits on comercializadoras. LPG cylinder depots must be registered via comercializadora (gob.ec/arch). Candidate recorded as unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Nothing new beyond K01. EUDR: Agrocalidad GUIA registration of 100,000+ cocoa/coffee producers is free ('Mi finca, mi huella'); this pressures K01 because the state registry covers producer registration. Application dates in sources are inconsistent and the EU delay was not verified.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "SEPS requires information submissions from segment 4 and 5 savings cooperatives (data-structure manuals v13.0, 2024; 2025 update). About 136 segment-4 and about 50 segment-5 co-ops as of Feb 2026; 38 in liquidation by May 2026. New candidate recorded (close to K04, different buyer).",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "IESS external-provider billing crisis: objections up to 90-95% in 2026, validation code enforced since Jan 2026, 454 accredited providers (398 private clinics or centres). New candidate recorded. ACESS inspection and closure activity in 2026 (clinics, CETAD) found but no recurring report identified. RDACAA/MSP reporting not confirmed for private providers.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Monthly reports on medicines containing sustancias catalogadas are due within the first 10 business days of the next month (gob.ec ARCSA/MDI; SISALEM, manual form as fallback) = K02. No monthly duty found for industrial precursor users beyond qualification, movement records and database updates (Ministerio del Interior/Gobierno procedures); unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Ley Orgánica de Vigilancia y Seguridad Privada (RO 9 Feb 2024) is in force. SERCOP/Interior/IESS/MDT inspections Feb 2026 closed 2 firms for no operating permit. Police figures: 556 firms with valid permits, 135 in process, 203 expired; 68,737 registered guards. New candidate recorded. Nothing found on cleaning or labour-outsourcing agencies or on the firms that hire their workers.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Nothing new beyond K03. Artisanal and small-scale mining is covered under category 34.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Nothing new beyond K05 (UAFE obligated subjects). UAFE-DG-2026-0005 adds sports-betting operators (see category 31). No separate search on notaries and registrars.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Reglamento de Alojamiento Turístico en Inmuebles Habitacionales (RO 21 Sep 2023, mainland only). Hosts need a free SITURIN tourism registration (Quito Turismo in Quito) and an annual licence (LUAF). They must keep a guest book (name, stay length, adults/minors, phone) for 6 months and give it to the authority on request. Hotels also face migration reporting to the Ministerio del Interior (university thesis only). No certified PMS or e-submission channel found. Candidate recorded.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "EUDR/GUIA covered under K01. Shrimp: all aquaculture establishments need a permit plus traceability records and registration with the Subsecretaría de Calidad e Inocuidad (MAG: USD 75, valid 6-12 months). Small-exporter-specific reporting not confirmed. No timber or fish candidate found.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Sports-betting operators (Ley de Eficiencia Económica, Decreto 487 LOPD licence, SRI 15% levy, UAFE-DG-2026-0005)",
+     "found": "65 companies declared an interest in the regulated market. UAFE resolution makes them obligated subjects: risk-based prevention system, manuals, registered compliance officer, 3 months to comply. UAFE analytics from Jan 2027. Mostly offshore or larger operators. Candidate recorded as unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Non-profit organisations: Ley Orgánica de Transparencia Social (Decreto 191, RO 28 Oct 2025) and Acuerdo MDG-SMS-2026-0012-A (RO 13 Mar 2026)",
+     "found": "New transparency regime for OSSFL (foundations and associations). Report content and deadlines not found, only the existence of the rule. Candidate recorded as unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Aquaculture and shrimp farms (camaroneras): permits and traceability",
+     "found": "The legalisation of 724 camaroneras in beaches and bays (Decreto 408, 2022) was a one-off and has likely expired. Permits, traceability records and sanitary registration exist but no recurring small-farm report was found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Artisanal and small-scale mining permits and reports (ARCERNNR)",
+     "found": "Nothing verified for 2026: no new deadline or recurring report found. Artisanal permits last up to 10 years with one permit per person; an exceptional regularisation instructivo exists. Search results were polluted by Peru. Not a candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Extended producer responsibility and agricultural plastic waste (MAATE-2024-0084-A, CEREP)",
+     "found": "The 2024-25 agricultural plastic waste rule covers importers, manufacturers and formulators of agro-inputs. The annual EPR declaration exists (gob.ec/mae). Annual frequency means K07 reasoning applies. Weak, not listed as a candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Casinos and gaming halls (including those opened as foundations)",
+     "found": "Physical casinos remain prohibited. The Procuraduría (Oficio 16528, May 2026) says no municipality can license them. Nothing legal to serve.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "37. Weapons, ammunition and explosives dealers and users (Ministerio de Defensa reglamento, RO suplemento 8 Jul 2025)",
+     "found": "The 2025 reglamento creates a centralised registry from import or manufacture through to the end user. Only the table of contents was seen, so the text is unverified. Folded into the security-firm candidate. No separate gun-shop candidate.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "ARCERNNR estaciones de servicio gasolineras reporte obligatorio comercializadoras GLP distribuidores Ecuador 2026",
+    "SEPS cooperativas reporte obligatorio 2026 segmento 4 5 resolución",
+    "ACESS centros de salud privados laboratorios obligaciones reporte RDACAA 2026",
+    "empresas de seguridad privada Ministerio del Interior obligaciones registro guardias limpieza tercerizadoras 2026",
+    "Ministerio de Turismo alojamiento registro turístico alquiler temporal Airbnb registro huéspedes 2026",
+    "Reglamento Alojamiento Inmuebles Uso Turístico Registro Oficial plazo registro huéspedes",
+    "reglamento Ley de Seguridad Privada 2025 registro armas empresas de seguridad plazo",
+    "Reglamento EUDR Agrocalidad trazabilidad cacao café georreferenciación 2026",
+    "ARCERNNR minería artesanal pequeña minería informes obligatorios regularización 2026",
+    "SETED sustancias catalogadas sujetas a fiscalización informe mensual usuarios precursores",
+    "MAATE responsabilidad extendida del productor registro importadores neumáticos baterías 2026",
+    "camaroneras Viceministerio de Acuacultura registro trazabilidad camarón 2026",
+    "casas de apuestas salas de juego casinos Ley 2025 2026 UAFE Ecuador",
+    "software control guardias empresa de seguridad privada Ecuador cumplimiento Ministerio del Interior (competitor)",
+    "software gestión alojamiento registro huéspedes Ecuador Ministerio de Turismo LUAF (competitor)",
+    "prestadores externos IESS clínicas facturación glosas plataforma software validación planillas (competitor)",
+    "gasolineras Ecuador ARCH SICOHI reporte diario ventas inventario estaciones de servicio",
+    "Registro Oficial 2026 nueva obligación cooperativas asociaciones fundaciones organizaciones sociales reporte"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b26"
+ },
+ "opus:ecuador:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated software was found in searches for software, compliance, Ley de Transparencia Social, fundaciones and SUIOS. Law firms (NMSLaw, ECIJA) publish advisory notes, and Deltech Audit sells done-for-you compliance help, not software. Elyex is an information site, not a vendor. SUIOS is the free state registry, but it only receives filings. It does not produce integrity manuals, alert channels, report templates or deadline tracking. General NGO accounting tools were not checked one by one.",
+   "duty": "The duty is real and in force. The Ley Orgánica de Transparencia Social was published on 28 Aug 2025 (Third Supplement, Registro Oficial No. 112). Its General Regulation, Decreto Ejecutivo 191, was published around 27-28 Oct 2025. Non-profits that manage funds (foundations, corporations, NGOs) must register in SUIOS, which the Ministerio de Gobierno runs. Sources give the deadline as 180 days from the law taking effect; the 24 Feb 2026 date is my calculation, not a source's. One legal summary says the regulation sets 30 days, so the deadline is unclear. I found no extension. The SRI requires a current SUIOS certificate to obtain or update the RUC (tax ID). SEPS sorts organisations into three risk tiers. Low risk: a simplified report every 2 years, director changes sent within 30 days, a simplified integrity manual and a transparency officer. Medium risk: an annual report, integrity policies, an internal alert channel, and financial statements reviewed by an independent accountant within 3 months of year end. High risk: a full integrity system under COIP art. 49, a compliance officer, donor due diligence, audited statements and an ethics committee. SEPS sanctions late or incomplete reports; penalties under the law range from suspension to loss of legal personality. Unregistered bodies cannot act legally or manage funds. The Constitutional Court admitted case 118-25-IN and related suits on 11 Feb 2026. A further suit against the law and its regulation (court order of 11 Mar 2026) asks for provisional suspension. No search result shows a suspension or a final ruling, but the court's case portal was not checked directly.",
+   "market": "Per the government bill, citing Grupo Faro, there were 71,786 social organisations in SUIOS in Jan 2024, of which 61,025 were active. About 48% sat under MIES. Not all fall under the new law: it covers non-profits that manage financial resources. No 2026 count or breakdown by risk tier was found. Most are probably low risk, with light duties every two years.",
+   "reason": "The duty is real and wide: about 61k active organisations, a SUIOS registration duty and tiered SEPS reporting. Each body must keep a director register, an integrity manual, an alert channel and reports. No dedicated software was found, only law firms and audit consultancies. Weaknesses: the 2026 registration deadline has probably passed. Most small bodies are likely low risk with reports only every 2 years, so frequency is low. Volunteer treasurers have little budget. The Constitutional Court suits are still pending and could change the rules. An MVP is simple: templates for the integrity manual and reports, deadline alerts, a director-change tracker and a hosted alert channel. Distribution through accountants, churches and second-tier federations is possible. Medium-risk bodies are the best target.",
+   "searches": 6,
+   "sources": "https://www.primicias.ec/economia/obligaciones-organizaciones-sociales-ecuador-riesgo-108374/ ; https://www.eldiario.ec/ecuador/ley-de-transparencia-social-ya-esta-vigente-tras-publicacion-en-registro-oficial-28082025/ ; https://nmslaw.com.ec/blog/2025/11/05/ecuador-reglamento-ley-organica-transparencia-social/ ; https://www.lexis.com.ec/noticias/ley-de-transparencia-social-promulgada-en-el-registro-oficial ; https://www.primicias.ec/politica/corte-constitucional-admite-demandas-ley-transparencia-social-ley-fortalecimiento-crediticio-daniel-noboa-115859/ ; https://www.prensa-latina.cu/2026/02/12/corte-de-ecuador-revisara-dos-leyes-de-noboa-aprobadas-en-2025/ ; https://elyex.com/verifique-si-su-osfl-cumple-la-ley-en-ecuador/ ; https://www.primicias.ec/uploads/files/2025/07/29/PROYECTO-DE-LEY-ORGANICA-PARA-EL-CONTROL-DE-FLUJOS-IRREGULARES-DE-CAPITALES.pdf ; https://www.gob.ec/regulaciones/reglamento-general-ley-organica-transparencia-social",
+   "suggested_score": 5,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b26"
+ },
+ "opus:ecuador:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no commercial off-the-shelf product aimed at juntas. What exists is many university and custom systems for junta billing, meter reading and bills (Mollepamba/UTA, Zapotal/UPSE, Pesillo/UPS, San José de Raranga, Guaranda/UEB, El Progreso on FoxPro), plus the tax agency's (SRI) free e-invoicing tool. Idrica's GoAigua serves a large public utility (EPA), not juntas. I found no ARCA tool for calculating tariffs or costs, but I could not check this fully. Local IT vendors are likely to sell custom billing systems to juntas, which makes the core billing job crowded and fragmented. A cost-guide tariff calculator would be a narrower gap.",
+   "duty": "Partly confirmed, but no recurring duty found. Under the Ley Orgánica de Recursos Hídricos (Ecuador, in force), community providers such as juntas set their own tariffs following regulations from the national water authority (Autoridad Única del Agua) through ARCA. ARCA controls the juntas and evaluates their service. The tariff rules require technical and actuarial studies (sources: faolex ecu166291 and ampeid ecu166292). Resolution ARCA-DE-027-2024, the 'Guía de Costos por la Prestación de los Servicios de Agua Potable y Saneamiento', is listed in Registro Oficial 756 of 6 March 2025, according to a search summary. I could not open the full text because the PDF is over 10 MB. So I have not confirmed whether the guide binds juntas, whether costs must be recalculated on a schedule, or what the penalty is. The one recurring report I found (Regulación 003, annual data through SNIM, the national municipal information system, by 31 March) is filed by the municipal governments (GADs), not by the juntas. If a junta breaks ARCA's technical rules, it is notified and must draw up an improvement plan; I found no fine. The Quito waste-fee dispute is local: an ordinance from December 2025 set a six-month review, and the juntas refuse to collect the fee.",
+   "market": "A secondary source citing the former SENAGUA database gives 3,682 legally registered juntas across 203 cantons (date not given). Ayuda en Acción estimates that about 3.5 million rural people get water through juntas. Primicias (4 March 2026) counts 94 juntas in Quito's metropolitan district.",
+   "reason": "The tariff duty exists in principle (LORHI; ARCA cost guide, RO 756, 2025), but I could not confirm a recurring deadline, a periodic report from juntas to ARCA, or a penalty. The only annual report I found is filed by municipalities through SNIM. The juntas are volunteer bodies, often with small budgets: Pifo charges USD 4.22 a month. Willingness to pay is therefore low. Billing software for them is already a crowded mix of custom and university-built systems. A cost-guide tariff calculator could be a simple product to build, but it would be used once or rarely, not on a recurring basis. About 3,700 juntas exist, and junta federations or the municipalities' association (AME) could be a sales channel. Overall the opportunity looks weak.",
+   "searches": 6,
+   "sources": "https://www.primicias.ec/quito/municipio-cobro-tasa-recoleccion-basura-juntas-agua-comunitario-dmq-reclamo-legal-117235/ ; https://faolex.fao.org/docs/pdf/ecu166291.pdf ; https://ampeid.org/static/1de35d607f8704cc25de4e9d93f33d00/ecu166292..pdf ; https://gualaceo.gob.ec/download/37/secretaria/2891/02-recordatorio-de-solicitud-reporte-de-informacion-de-servicios-publicos-de-agua-potable.pdf ; https://strapi.lexis.com.ec/uploads/RO_756_20250306_dca357971f.pdf (search snippet only, fetch failed) ; https://repositorio.uta.edu.ec/bitstream/123456789/33671/1/t1865si.pdf ; https://repositorio.upse.edu.ec/bitstream/46000/4866/1/UPSE-TIN-2019-0008.pdf ; https://dspace.ueb.edu.ec/handle/123456789/7927 ; https://www.iagua.es/noticias/idrica/idrica-digitalizara-facturacion-agua-norte-peru ; https://deceac-el.espe.edu.ec/wp-content/uploads/2024/09/3-Perfil-proyecto-Juntas-Agua-Nilda-Avellan.pdf ; https://ayudaenaccion.org/proyectos/acceso-agua-segura/ ; https://www.asambleanacional.gob.ec/es/node/116849",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b26"
+ },
+ "opus:ecuador:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "State: SICOSEP, the Interior/Gobierno ministry system for issuing and renewing permits, uploading documents and paying fees. Third-party blogs say it also holds the registry of guard accreditations and training. It handles the filing but does not appear to track expiries across policies, guard credentials and arms permits. Private: none found locally. G4S uses its own in-house CVP app for post and incident control, which it does not sell. Generic international guard time-tracking exists (ShiftFlow) but has no Ecuador compliance features. I did not check local ERP or payroll vendors or the VigiControl app seen on Scribd.",
+   "duty": "Confirmed in force. LOVSP (RO 496, 9 Feb 2024), art. 38: operating permit valid 2 years. The renewal must be filed 90 days before expiry through SICOSEP. The ministry inspects the firm (COSP unit) before renewing. Art. 39 requires civil liability insurance (once the firm contracts arms) and life and personal accident insurance with an updated beneficiary list, each valid at least 2 years. Other requirements: a sworn statement listing contracts, operating staff and arms with valid permits; a 2-year lease; sworn statements of no disqualification (art. 35); and capital of 75 SBU (art. 34). Fees: USD 50, plus USD 200 for each year unrenewed if late. Firms face random inspections, and the Feb 2026 SERCOP/Interior inspections temporarily closed 2 firms with no permit. Not found: whether the general reglamento was issued (due within 90 days of the law), and any monthly or annual reporting duty. The gob.ec procedure page lists none.",
+   "market": "Police count (undated, El Comercio): 556 firms with valid permits, 135 in process and 203 expired, about 894 in total, with 68,737 registered guards. Vistazo cites 1,600 registered firms with more than USD 1.1bn in revenue. That makes a few hundred to about 1,600 buyers, a small market.",
+   "reason": "The duty is real and in force. Ley Orgánica de Vigilancia y Seguridad Privada (RO 496, 9 Feb 2024), art. 38, sets a 2-year operating permit. Renewal must be filed 90 days before expiry through the Interior ministry's SICOSEP system, with both insurance policies, a lease and sworn lists of contracts, guards and arms. Late filers pay USD 200 for each year unrenewed, and the Feb 2026 inspections closed firms. SICOSEP is the free state portal for filing and guard accreditation, but I found no vendor that tracks expiries across the compliance file. Weak points: the main cycle runs every 2 years, the market is small (about 556 to 894 firms on police counts, 1,600 in the trade press), and I could not confirm the general reglamento.",
+   "searches": 6,
+   "sources": "https://www.gob.ec/mdi/tramites/renovacion-permiso-operacion-companias-vigilancia-seguridad-privada ; https://www.gob.ec/mdi/tramites/emision-permiso-operacion-companias-vigilancia-seguridad-privada ; https://nmslaw.com.ec/blog/2025/07/28/requisitos-capital-minimo-lovsp-ecuador/ ; https://nmslaw.com.ec/blog/2024/02/14/ley-vigilancia-seguridad-privada-ecuador/ ; https://www.gob.ec/regulaciones/ley-organica-vigilancia-seguridad-privada ; https://www.ministeriodegobierno.gob.ec/wp-content/uploads/2018/05/MANUAL-DE-USUARIO-COMPAÑÍAS-DE-SEGURIDAD-PRIVADA-V2.0.pdf ; https://elyex.com/consultas-en-la-plataforma-sicosep-ministerio-del-interior/ ; https://www.elcomercio.com/actualidad/ecuador-guardiasdeseguridad-policia-informalidad-capacitacion/ ; https://www.vistazo.com/politica/nacional/2026-02-07-sercop-inspecciona-empresas-seguridad-privada-ecuador-clausura-falta-de-permisos-FA10671765 ; https://www.primicias.ec/seguridad/sercop-irregularidades-empresas-privadas-vigilancia-ecuador-110724/ ; https://securityjournalamericas.com/g4s-ecuadors-leading-banks/ ; https://www.shiftflow.app/es/industries/security",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b26"
+ },
+ "opus:ecuador:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No commercial HIS or billing vendor with an IESS planillaje, validation-code or glosa module turned up in Spanish searches. I tried \"planillaje IESS software\", \"software facturación planillas IESS tarifario\", \"sistema gestión hospitalaria ... prestadores externos\" and \"software clínicas ... ISSFA ISSPOL\". The only tools found were general accounting and e-invoicing products (Pulso Finance, Ecuafact), which do not cover this. On the IESS side there is the external-provider portal and a historical evaluation platform (Prosick/R.DES, 2017 audit). IESS's planned SAGS system with CNT/Healthbird was dropped after Healthbird announced in December 2025 that it would leave the country. Established Ecuadorian clinic HIS vendors were not checked by name, so their coverage is not_reached.",
+   "duty": "In force. MSP regulation 140 art. 34 requires an IESS validation code for every referral an external provider makes inside its own unit (labs, imaging, interconsultations), effective 17 May 2023. IESS has enforced it since January 2026, and Espoltel objects to planillas without the code. Billing follows the MSP national tarifario. Planillas are submitted in each billing cycle (monthly or recurring). The penalty is non-payment: objections of up to 90-95%, against 5-10% before. Per Primicias, IESS provincial coordinations assign the code, so the provider cannot produce it itself. I did not find the official objection-appeal procedure, its deadlines or the electronic format.",
+   "market": "Primicias reports 454 IESS-accredited external providers, of which 398 are private clinics or centres, and says about 370 are in the external network. An IESS bulletin (August 2026) reports payments to more than 336 providers between December 2025 and July 2026. This is a small, concentrated buyer pool, and the larger hospitals probably have in-house systems.",
+   "reason": "The duty is real. MSP regulation 140 art. 34 has required a validation code for internal referrals since 17 May 2023. IESS began enforcing it in January 2026, and its auditor Espoltel objects to planillas that lack the code. I found no vendor that does this job. Even so, software can fix little here. IESS provincial coordinations assign the code, so a tool cannot generate it. The objections hit services from 2023 to 2025 that were billed before the code was publicised, which a new tool cannot repair. The underlying pain is arrears of about USD 1.5bn and policy, not data preparation. The buyer pool is small (about 370 to 454 providers) and short of cash. At most a pre-billing checklist could add value going forward.",
+   "searches": 6,
+   "sources": "https://www.primicias.ec/sociedad/iess-prestadores-externos-seguridad-social-pagos-hospitales-auditorias-afiliados-salud-publica-125918/ ; https://www.extra.ec/noticia/servicios-y-tramites/codigo-freno-salud-crisis-silenciosa-iess-golpea-clinicas-pacientes-151642.html ; https://www.teleamazonas.com/uploads/files/2026/08/05/Bajo-el-liderazgo-del-presidente-Noboa-IESS-prioriza-atencion-de-pacientes-de-dialisis-y-oncologicos-con-pagos-por-mas-de-USD-47-millones-a-prestadores-externos-en-julio-de-2026.pdf ; https://www.expreso.ec/actualidad/iess-deuda-prestadores-externos-auditada-252-millones-180331 ; https://www.expreso.ec/actualidad/que-opciones-hay-para-gestion-hospitalaria-ya-que-acuerdo-con-healthbird-no-va-267151.html ; https://iess.gob.ec/documents/10162/7648688/0021-IESS-AI-2017 ; https://www.primicias.ec/sociedad/guayas-salud-prestadores-externos-iess-hospitales-85631",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b26"
+ },
+ "sonnet:ecuador:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "None found; ARCSA's own portal (controlsanitario.gob.ec) and gob.ec procedures handle permits",
+   "duty": "ARCSA operating permit (permiso de funcionamiento) under ARCSA-DE-2023-001-AKRG as expanded by ARCSA-ARCSA-2026-0007-R; sanctions up to 10 basic salaries and closure",
+   "market": "Not quantified; no register count found",
+   "reason": "The duty is real. Resolución ARCSA-ARCSA-2026-0007-R (RO 245, 17 Mar 2026) added categories to the operating permit: salons, barbershops, spas, hotels and guest houses, child-development centres, pools, and pesticide sellers. The deadline was extended to about 16-18 June 2026. Controls check a valid permit and sanitary notifications, with fines up to 10 basic salaries and closures. I found no software or reminder app for this; ARCSA runs its own portal. Weaknesses: microenterprises reportedly pay $0, and the permit renews only periodically, so it is a low-frequency task. These buyers are hard to reach and will pay little. A tracker would be basically generic reminders. I did not confirm the renewal term, or whether any extension came after June. I found no register count of affected firms.",
+   "searches": 2,
+   "sources": "https://elmercurio.com.ec/salud-noticias/2026/08/04/arcsa-permiso-funcionamiento-barberias-controles/ ; https://www.teleamazonas.com/actualidad/noticias/ecuador/arcsa-lista-actualizada-negocios-permiso-funcionamiento-ecuador-125125/ ; https://www.lexis.com.ec/noticias/registro-oficial-del-dia-arcsa-amplia-plazo-para-implementacion-de-nuevas-tasas-en-permisos-de-funcionamiento ; https://nmslaw.com.ec/?p=16443",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b26"
+ },
+ "sonnet:ecuador:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real: IESS affiliation from day one, aviso de entrada within 15 days, monthly planilla, SBU USD 482 in 2026 (Primicias, Ecuadorlegalonline). Penalty is under the Reglamento de Responsabilidad Patronal, but I could not confirm the amount. The Ministerio del Trabajo contract-registration fine of USD 200 comes from an old El Comercio piece. Market is small: only 63,340 domestic-worker affiliations in Dec 2025, down from 104,806 in 2015. Households comply poorly, which means low willingness to pay. The free IESS portal does the core job, and HomeLex (a private app covering contract, Ministerio registration and IESS) existed, though I couldn't confirm it is still live. Rated 3 because the buyer is a fragmented, low-value household, with a mostly informal market and a free portal.",
+   "searches": 4,
+   "sources": "https://www.primicias.ec/economia/trabajadoras-remuneradas-hogar-trabajo-domestico-ecuador-derechos-afiliaciones-iess-119217/ ; https://www.ecuadorlegalonline.com/laboral/como-afiliar-al-iess-empleada-domestica ; https://elmercurio.com.ec/?p=883470 ; https://www.primicias.ec/revistagestion/analisis/empleo-domestico-afiliacion-seguro-social-ecuatoriano-118036/ ; https://www.elcomercio.com/actualidad/empleadas-domesticas-afiliacion-ecuador-subempleo/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b26"
+ },
+ "sonnet:ecuador:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real but not recurring. Regulation: Resolución 005-DIR-2022-ANT governs non-professional driving schools. Per El Diario, schools must request ANT authorisation up to 15 days before each course and register the exact student count. I found no periodic report. The trigger was the ANT closure and intervention (Caso Jaque, from 30 Jan 2026), the same bottleneck that killed K11, and the ANT announced a progressive reactivation on 20 Feb. Inspections intensified on 31 Aug 2026, with 3 closures in 2026. Market: Federation figures say about 40 schools were affected, against the claim's 182. Both are small, which limits willingness to pay. I found no Ecuador-specific competitor. Generic driving-school software exists but does not handle ANT permits. The ANT's own portal handles the permit filings. This is a thin, low-frequency niche, so the score is low.",
+   "searches": 2,
+   "sources": "https://www.eldiario.ec/centro/escuelas-de-conduccion-suspenden-cursos-por-falta-de-permisos-tras-intervencion-de-la-ant-11022026/ ; https://www.eldiario.ec/manabi/restricciones-en-la-ant-frenan-cursos-de-conduccion-no-profesionales-en-manabi-09022026/ ; https://www.gob.ec/regulaciones/reglamento-escuelas-formacion-capacitacion-entrenamiento-conductores-no-profesionales ; https://www.vistazo.com/actualidad/nacional/2026-02-27-escuelas-conduccion-advierten-crisis-cierre-ant-corrupcion-PG10705578 ; https://www.teleamazonas.com/actualidad/noticias/ecuador/ant-operativo-escuelas-conduccion-no-profesionales-quito-126758/",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b26"
+ },
+ "sonnet:ecuador:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. SEPS manuals exist for segment 4-5 credit-portfolio structures (C01/C02), and LOEPS art. 12 requires periodic reporting. SEPS training in 2022 and 2025 covered key requests and uploads, including an Excel template for these segments. Frequency is unclear: a 2020 SEPS panorama showed quarterly receipt for segments 4-5, while a Dec 2024 table suggests monthly C01/C02. I could not open the manuals to confirm. Market is about 136 segment-4 and 50 segment-5 co-ops (Primicias, Feb 2026). Three searches found no vendor naming SEPS structure output, so competition is unknown. Core-system vendors likely cover it, and SEPS already supplies an Excel template and portal. Buyers are tiny, reachable only via federations, and willingness to pay is low. Score 4.",
+   "searches": 3,
+   "sources": "https://seps.gob.ec/wp-content/uploads/11-Manual-Tecnico-Segmentos-4-y-5-version-5.0-fin.pdf ; https://www.seps.gob.ec/wp-content/uploads/01_Capacitación-5-de-junio-de-2025_1erdía.pdf ; https://www.seps.gob.ec/wp-content/uploads/Panorama-SEPS-abr-2020.pdf ; https://www.primicias.ec/economia/cooperativas-pequenas-numerosas-liquidacion-superintendencia-economia-popular-solidaria-121041/ ; https://www.vistazo.com/negocios/sectores/2026-08-19-mas-30-cooperativas-liquidadas-desde-2022-controles-seps-ecuador-GG11179719",
+   "suggested_score": 4,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b26"
+ },
+ "sonnet:ecuador:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "ARCH's free Google Forms upload. No paid competitor found; POS and tank-gauge vendors not searched.",
+   "duty": "Daily stock-availability reporting per station by comercializadoras to ARCH (Ley de Hidrocarburos, Nov 2025 circular). Penalty: fines and suspension. Sanction proceedings opened May 2026.",
+   "market": "About 18 comercializadoras sanctioned; 448 stations affected. The full register count was not found.",
+   "reason": "The duty is real. ARCH opened sanction proceedings against 18 comercializadoras for failing to log daily stock at 448 stations between 9 and 12 May 2026 (Vistazo, Teleamazonas, Primicias). The legal basis is cited as the Ley de Hidrocarburos. Reporting is a daily upload by 09:00 through a link ARCH assigns to each comercializadora, under a Nov 2025 circular. The sector says ARCH collects it with a free Google Form, so a state channel already exists. I found no mention of SICOHI and no paid competitor. The duty looks like an emergency measure and its penalties are unconfirmed. The buyer is a small niche of about 18 firms, and the sector is politically volatile. Real-time telemetry would favour POS and tank-gauge vendors. Not checked: station and comercializadora counts from a register, and whether the circular remains in force.",
+   "searches": 2,
+   "sources": "https://www.teleamazonas.com/actualidad/noticias/economia/sancion-18-comercializadoras-no-reportar-stock-gasolina/ ; https://www.vistazo.com/actualidad/nacional/2026-05-19-arch-abrio-procesos-sancionatorios-comercializadoras-gasolina-no-reportar-stocks-FO10967741 ; https://kchcomunicacion.com/?p=413036 ; https://www.primicias.ec/economia/gobierno-arch-comercializadoras-combustible-gasolinera-ecuador-proceso-sancion-123130/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b26"
+ },
+ "sonnet:ecuador:B7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. UAFE-DG-2026-0005, signed 13 Apr 2026, makes Ecuador-resident sports-betting operators on authorised digital platforms obligated subjects. They need a risk-based AML manual, a compliance officer, a UAFE registration code (3-month transition, which has now lapsed) and ROS reporting. No dedicated software was found. Competition probably comes from law firms, consultants and RegTech vendors, and I did not check this further. The market is very small: the claim cites 65 firms that expressed interest to the SRI, many offshore or large, and the residency requirement cuts the local pool further. These are not quiet small firms, so buyer fit is weak. The deadline is also past, which makes the duty a one-off. Not checked: report frequency and format, the full resolution text, and vendor pricing.",
+   "searches": 2,
+   "sources": "https://www.ecija.com/actualidad-insights/operadores-de-pronosticos-deportivos-como-sujetos-obligados-a-reportar-ante-la-uafe/ ; https://nmslaw.com.ec/blog/2026/04/20/ecuador-uafe-pronosticos-deportivos-sujetos-obligados-reportar/ ; https://www.vistazo.com/2026-04-13-operadores-pronosticos-deportivos-uafe-ecuador-HP10861152 ; https://www.eldiario.ec/ecuador/nueva-resolucion-de-la-uafe-regula-a-plataformas-de-pronosticos-deportivos-para-prevenir-el-lavado-de-activos-en-ecuador-14042026/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b26"
+ },
+ "triage:ecuador": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Non-profit transparency-law duties (SUIOS, risk-tier reports) are a different buyer and duty from K04 cajas comunales."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Community water boards with a tariff-costing and legal-personality duty are a new buyer group in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "ARCSA operating permits for newly covered micro-businesses are a different buyer group and duty from K09 and K02."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Households as employers with a monthly IESS duty are in scope, and no known idea covers them."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Private child-development centres have an annual report and permit file, which is in scope and not covered by a known idea."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Driving schools have ANT permit duties, a different buyer from K11 used-car lots."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Cattle traders have movement-guide and vaccination duties, a new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Permit renewal and member-list filing is a different duty from the K06 settlement and invoicing idea, though the buyer is the same. Related: K06.",
+     "ref": "K06"
+    },
+    {
+     "decision": "known",
+     "id": "A9",
+     "reason": "Same buyer and same UAFE RESU/NO-RESU filing duty as K05.",
+     "ref": "K05"
+    },
+    {
+     "decision": "known",
+     "id": "A10",
+     "reason": "Same hazardous-waste annual declaration as rejected K07, and no new evidence that the rejection no longer holds.",
+     "ref": "K07"
+    },
+    {
+     "decision": "drop",
+     "id": "A11",
+     "reason": "Outside scope: it is not a mandatory recurring workflow, because the candidate itself found no recurring duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Small private security companies have a Ministry of the Interior permit and roster duty, a new buyer in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Small private clinics and labs billing IESS have a recurring claims and objection duty, which is new and in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Segment 4-5 cooperatives have a SEPS reporting duty, a different buyer from K04 cajas comunales."
+    },
+    {
+     "decision": "merge",
+     "id": "B4",
+     "reason": "Same non-profit buyer group and the same transparency-law duty as A1.",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small hosts have guest-book, SITURIN and LUAF duties, a new buyer group in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small fuel comercializadoras have an ARCH stock-reporting duty, which is new and in scope; verifiers can check the evidence."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Sports-betting operators are a different buyer group from K05 small obligated subjects, though the UAFE duty is related. Related: K05.",
+     "ref": "K05"
+    },
+    {
+     "decision": "known",
+     "id": "B8",
+     "reason": "Same pharmacy buyer and same controlled-medicines monthly report as K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "known",
+     "id": "B9",
+     "reason": "Same cocoa and coffee middleman buyer and same traceability duty as K01.",
+     "ref": "K01"
+    }
+   ]
+  },
+  "tag": "w2b26"
  }
 }

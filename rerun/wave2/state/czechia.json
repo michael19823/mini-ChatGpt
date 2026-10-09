@@ -1,4 +1,41 @@
 {
+ "critic:czechia": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Czech Trade Licensing Act (živnostenský zákon) regulated trades: firearms-adjacent and vehicle trades beyond dismantlers, e.g. technical inspection stations (STK), emission stations (SME), tachograph workshops and driving-school registers",
+     "first_search": "stanice měření emisí STK povinnosti ISTK hlášení software malé provozovny 2026",
+     "why": "Thousands of small family garages must file inspection results to the state vehicle register (CRV/ISTK) and calibrate and report tachograph and emission checks; strict, recurring and state-mandated. Only dismantlers and driving schools were touched, and STK/SME was never screened."
+    },
+    {
+     "category": "Municipal local-fee and register duties on small operators: místní poplatky, poplatek za komunální odpad, and the new construction-act and waste-law municipal registers (e.g. sběrné dvory, zpětný odběr)",
+     "first_search": "povinnosti výrobců a prodejců obalů zpětný odběr hlášení EKO-KOM malé e-shopy 2026 PPWR",
+     "why": "Act 541/2020 and the EPR system (extended producer responsibility) put reporting duties on small producers and sellers of packaging, electronics, batteries and tyres via collective schemes (EKO-KOM, ASEKOL, Elektrowin). Small e-shops and importers face growing obligations from 2025-2026 (packaging regulation PPWR), and this was only screened as K11 waste records."
+    },
+    {
+     "category": "Excise and customs duties on small Czech producers other than distilleries and wine: breweries (minipivovary), cider and mead makers, spirit bottlers, tobacco/hemp (CBD) sellers",
+     "first_search": "minipivovar spotřební daň evidence výroby přiznání celní správa software malý pivovar",
+     "why": "Czechia has one of the densest micro-brewery and craft-spirit scenes in Europe; they file excise returns to Customs, keep production records and, for small brewers, claim reduced excise rates. K15 rejected only distilleries; minibreweries are not covered at all."
+    },
+    {
+     "category": "Daňový/ pension and social-security small-business filings: OSVČ annual returns, přehled pro ČSSZ a zdravotní pojišťovny, and new 2026 flat-tax (paušální daň) changes",
+     "first_search": "paušální daň 2026 změny OSVČ přehled ČSSZ zdravotní pojišťovna povinnosti software",
+     "why": "The largest group of Czech micro-firms are OSVČ (sole traders, about 1 million). Annual overviews to ČSSZ and health insurers, paušální režim thresholds and deadlines, and 2026 changes to the tax-and-insurance regime are a mandatory recurring workflow. It may be crowded (generic accounting), but no coverage row exists and the scoping against generic accounting was not tested."
+    },
+    {
+     "category": "Housing associations and owner communities: SVJ (společenství vlastníků jednotek) and bytová družstva",
+     "first_search": "SVJ povinnosti správa domu evidence skuteční majitelé účetní závěrka výpisy software pro společenství vlastníků",
+     "why": "Roughly 50,000+ SVJ and housing co-operatives are small associations with statutory duties: annual accounts, assembly minutes, the Real Beneficial Owners register, energy/heat-cost allocation, lift and gas revisions, electronic register of the Cadastre. Category 17 covered associations and co-operatives 23 only as credit unions; SVJ is a big, Czech-specific population."
+    },
+    {
+     "category": "New laws 2024-2027 hitting small operators: whistleblower act (zákon 171/2023, 50+ employees; 2026 amendments), accessibility act (zákon 424/2023, EAA from June 2025 for e-shops and microenterprise exemptions), and beneficial-owner register (evidence skutečných majitelů) sanctions",
+     "first_search": "evidence skutečných majitelů povinnost zápis spolek firma pokuta 2026 whistleblowing kanál 50 zaměstnanců malé firmy",
+     "why": "These are deadlines that make many small firms act at once. EAA/accessibility of e-shops and the whistleblower channel for 50+ staff employers are recent duties not mentioned in the coverage table; evidence skutečných majitelů is a recurring filing duty for associations and companies."
+    }
+   ]
+  },
+  "tag": "w2b24"
+ },
  "discover:A:czechia": {
   "result": {
    "blocked_searches": 0,
@@ -617,6 +654,354 @@
     "ubytovací kniha program UbyPort hlášení cizinců software eTurista (competitor); vinařská evidence software (competitor); DORA registr informací zprostředkovatel software (competitor); rostlinolékařský pas ÚKZÚZ; dobíjecí stanice ověření ČMI 2026"
    ],
    "searches": 24
+  },
+  "tag": "w2b24"
+ },
+ "gapfill:czechia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Chairs and committees of small self-managed SVJ and small bytová družstva (volunteers), or small property-management firms serving them",
+     "category": "35 Housing owner communities: SVJ and bytová družstva",
+     "evidence": "https://arws.cz/news-at-arrows/association-of-unit-owners-in-2027 ; https://www.tzb-info.cz/facility-management/133060-s-svj-komunikujeme-pres-mobilni-aplikaci-nejstarsi-uzivatelce-je-pres-70-let-rika-zdenek-picek-z-svj-v-ostrave ; https://www.ista.com/cz/technologie-a-produkty/ista24/ ; https://brunata.com/solutions/brunata-online ; https://www.dauc.cz/clanky/4046/ucetnictvi-spolecenstvi-vlastniku-jednotek-6-cast . The ARROWS article says the notice can be a portal or app with individual passwords, and a notice board is not acceptable under GDPR.",
+     "existing": "ista24 and EcoTrend, Brunata Online (Plus and Premium tiers), Techem monitoring portal, Bytové konto (a 69-flat Ostrava SVJ uses it), Sousedé.cz. The measurement firms supply the monthly notice with their billing, so that part is largely served.",
+     "known_mark": "new",
+     "name": "SVJ / housing co-operative statutory pack: heat and hot-water monthly-notice portal plus annual billing and accounts, for small self-managed SVJ",
+     "score": 3,
+     "status": "weak",
+     "trigger": "From 1 Jan 2027 all heat and hot-water meters must be remotely readable without entering flats, and the SVJ must give owners consumption information at least monthly (Act 67/2013 on services, Decree 269/2015, EED transposition by Act 424/2022). The State Energy Inspectorate fines non-compliance. Annual accounts under Decree 504/2002 must be approved and filed in the sbírka listin; service advances are billed annually.",
+     "trigger_note": "",
+     "unchecked": "Number of SVJ and BD (about 50,000 is the gap-brief estimate, unverified); Bytové konto pricing and product scope; whether SVJ that bill through Techem, ista or Brunata get the monthly notice at no extra cost; cost of the new portal for SVJ with non-remote meters; whether a niche exists for small SVJ in cities served by municipal heat suppliers or not served by the big metering firms; competitor search for SVJ administration software was inconclusive (no product pricing found)."
+    },
+    {
+     "buyer": "Small e-shops, importers and craft producers who place packaging, electronics, batteries or tyres on the Czech market",
+     "category": "32 Municipal fees and waste/EPR duties on small producers and sellers",
+     "evidence": "https://www.businessinfo.cz/navody/tip-pro-podnikatele-jak-na-narizeni-ppwr/ ; https://files.socr.cz/assets/2026/08/ppwr-klicove-milniky-pro-obchod-a-horeca-20260810.pdf ; https://portal.gov.cz/sluzby-vs/navrh-na-zapis-do-seznamu-osob-obalove-evidence-dle-zakona-o-obalech-S15857 ; https://www.ekokom.cz/wp-content/uploads/2026/07/EKOKOMunikace_2_26.pdf ; https://www.pravniprostor.cz/zmeny-v-legislative/vyslo-ve-sbirce-zakonu/nove-zakony-o-odpadech-o-vyrobcich-s-ukoncenou-zivotnosti",
+     "existing": "EKO-KOM (authorised packaging company, a contract removes the duty), ASEKOL, Elektrowin, legal and consulting firms (Deloitte PPWR page), the state portal for the Seznam osob. No dedicated small-seller tool seen.",
+     "known_id": "K11",
+     "known_mark": "new",
+     "name": "Packaging and product-EPR compliance desk for small e-shops and importers (packaging register, EKO-KOM, ASEKOL, Elektrowin, PPWR role check)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "PPWR (Regulation 2025/40) applies from 12 Aug 2026, with duties for producers, importers, distributors and e-commerce operators and penalties due by 12 Feb 2027. Under the Czech packaging law, the MŽP Seznam osob entry within 60 days and an annual evidence fee by 15 Feb are needed unless a contract with an authorised packaging company covers the duty. Act 542/2020 requires sellers of new electronics to show the recycling cost separately; ČOI enforces it.",
+     "trigger_note": "K11 covered waste records, not the producer and seller EPR duties.",
+     "unchecked": "Whether the PPWR-driven Czech packaging-law amendment exists and its date; the current de-minimis limits (300 kg and 4.5M Kč from an old ePravo article); how many small e-shops fall outside an EKO-KOM contract; whether a collective scheme already gives small sellers a free portal; no competitor search run in Czech for a software product beyond the above; the value is more likely a consulting-led service than software."
+    },
+    {
+     "buyer": "Czech minibreweries and brewpubs producing under 10,000 hl/year",
+     "category": "33 Excise duty on small producers other than distilleries and wine",
+     "evidence": "https://celnisprava.gov.cz/cz/dane/spotrebni-dane/ostatni/Informace/Informace_23_20365.pdf ; https://www.epravo.cz/_dataPublic/sbirky/2025/Sb_2025_451_PZZ.pdf . The Customs PDF fetch returned 404 on direct fetch, so the facts above come from search snippets.",
+     "existing": "No dedicated minibrewery software found in two Czech searches. The official varný list route means Excel or paper is accepted. The grower-distillery precedent (SYScore, K15) suggests such niches do have small vendors.",
+     "known_id": "K15",
+     "known_mark": "new",
+     "name": "Minibrewery excise records and returns helper (varný list per batch, XML for Customs)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Excise Act 353/2003 §37 to §38 requires beer production records; Customs allows them on an extended varný list for breweries up to 10,000 hl (Info 20365/2023); electronic return formats are set by Decree 451/2025 Sb., with beer records in annex 32.",
+     "trigger_note": "Same pattern as K15 (distilleries) but a different buyer group: beer.",
+     "unchecked": "Number of minibreweries and brewpubs (not found; reputedly several hundred, unverified); the reduced excise rate for small brewers; whether brewery management software (production and tank planning) already includes the Customs records; cider, mead and spirit bottlers and hemp or tobacco sellers not searched. Competitor search was inconclusive, not a confirmed gap."
+    },
+    {
+     "buyer": "About 1,200 small emission stations inside authorised garages (figure from an opinion article, unverified)",
+     "category": "31 Vehicle-inspection trades beyond dismantlers: STK, SME, tachograph workshops",
+     "evidence": "https://md.gov.cz/getattachment/Dokumenty/Silnicni-doprava/SME/Schvalene-pristroje-a-softwary-pro-mereni-emisi-vo/Obsluzny-SW-pro-komunikaci-s-IS-TP-TEAS-Caris-Emise.pdf.aspx?lang=cs-CZ ; https://www.businessinfo.cz/navody/stanice-mereni-emisi/ ; https://www.businessinfo.cz/clanky/stk-bitva-o-vynosny-byznys/",
+     "existing": "Ministry-approved software already serves the duty: DEKRA Emise 2021, CIS Emise 1.6, TEAS Caris Emise 1.17, Florian (ISTP CIS Emise), Belohradský, ETS v25, EMITEST ETC, AVL DSS. Instrument makers supply the software, and a new product would need Ministry approval.",
+     "known_mark": "new",
+     "name": "Emission-measurement station (SME) workshop software for protocols and IS TP upload",
+     "score": 2,
+     "status": "rejected",
+     "trigger": "Decree 211/2018 Sb. on technical inspections and the Ministry of Transport methodology require approved instruments and software that communicate with the IS TP inspection information system; stations must keep the municipal permit.",
+     "trigger_note": "Rejected on named approved products and the approval barrier.",
+     "unchecked": "A narrow add-on (customer reminders, garage management) was not checked; STK software and Czech tachograph workshop duties were not found."
+    },
+    {
+     "buyer": "Czech e-shops and booking sites, mostly non-microenterprise",
+     "category": "36 New laws 2024-2027 hitting small operators",
+     "evidence": "https://www.pwc.com/cz/cs/blog/pravo/digitalni-pristupnost-pro-eshopy.html ; https://www.grantthornton.cz/en/news/accessibility-of-digital-services-is-mandatory-from-june-it-also-applies-to-e-shops/ ; https://coi.gov.cz/wp-content/uploads/2025/08/25-08-25-ui-coi-z-106.pdf",
+     "existing": "Generic WCAG audit tools and consultancies; I did not name a Czech product.",
+     "known_mark": "new",
+     "name": "E-shop accessibility (European Accessibility Act) audit and statement tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Act 424/2023 Sb. applies from 28 Jun 2025; ČOI checks the accessibility statement and compliance; fines up to 10M Kč; existing contracts may run to 28 Jun 2030.",
+     "trigger_note": "Generic web-compliance, many microenterprises probably exempt (wording unclear), not a register or a recurring authority filing.",
+     "unchecked": "The exact microenterprise exemption in Act 424/2023; named competitors; enforcement volume."
+    },
+    {
+     "buyer": "Employers with 50 to 250 staff, municipalities and bodies in special sectors",
+     "category": "36 New laws 2024-2027 hitting small operators",
+     "evidence": "https://www.businessinfo.cz/clanky/whistleblowing-pro-firmy-nad-50-zamestnancu-jak-se-na-posledni-chvili-pripravit/ ; https://www.epravo.cz/top/clanky/pripravte-se-na-whistleblowing-uz-nyni-114318.html",
+     "existing": "Not searched for vendors; many SaaS and law-firm offers are assumed (unverified).",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "Whistleblowing internal channel for employers with 50+ staff (Act 171/2023)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Act 171/2023 Sb. requires an internal reporting system with a designated person from 15 Dec 2023 for 50+ employees; fines up to 1M Kč (secondary source).",
+     "trigger_note": "Mid-size firms, generic compliance, the same buyer class as K03.",
+     "unchecked": "Named vendors, pricing, whether the duty is a one-time setup (so weak recurring value)."
+    },
+    {
+     "buyer": "Spolky, nadace and other entities not auto-filled from public registers",
+     "category": "36 New laws 2024-2027 hitting small operators",
+     "evidence": "https://dostupnyadvokat.cz/blog/evidence-skutecnych-majitelu ; https://www.epravo.cz/top/clanky/prakticky-prehled-k-nove-evidenci-skutecnych-majitelu-113124.html",
+     "existing": "Free justice.cz electronic form, notaries and law firms.",
+     "known_id": "K11",
+     "known_mark": "new",
+     "name": "Beneficial-owner (EVSM) filing for associations and small companies",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Act 37/2021 Sb. on the register of beneficial owners; manual filing via justice.cz or a notary; the fine up to 500,000 Kč comes from a blog (unverified).",
+     "trigger_note": "One-off filing plus changes, free state form.",
+     "unchecked": "SVJ exemption (a bank glossary says exempt, unverified); filing volumes and deadlines in 2026."
+    },
+    {
+     "buyer": "About 1 million sole traders (gap-brief estimate, unverified)",
+     "category": "34 OSVČ tax and social-security filings",
+     "evidence": "https://www.dauc.cz/aktuality/1705/pausalni-dan-2026-novinky-terminy-a-doporuceni-pro-osvc ; https://financnisprava.gov.cz/cs/financni-sprava/media-a-verejnost/tiskove-zpravy-gfr/tiskove-zpravy-2025/pausalni-dan-2026-novinky-terminy",
+     "existing": "Pohoda, Money, Fakturoid, the free Finanční správa portal; the paušální regime itself removes annual filings.",
+     "known_mark": "new",
+     "name": "OSVČ paušální daň and ČSSZ/health-insurer annual overviews",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Annual returns and overviews; paušální režim 2026 changes (first band about 10,000 Kč/month; limit 2M Kč; entry window closed 12 Jan 2026).",
+     "trigger_note": "Generic accounting out of scope under the contract; the paušální regime removes most filings.",
+     "unchecked": "No niche cut by profession tested."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31 Vehicle-inspection trades beyond dismantlers: STK, SME (emission stations), tachograph workshops",
+     "found": "SME: about 1,200 emission stations vs about 380 STK (one opinion article, businessinfo.cz/clanky/stk-bitva-o-vynosny-byznys, unverified). Stations must be inside a manufacturer-authorised workshop or an STK, need a municipal permit and certificate, and connect to the Ministry of Transport inspection information system (IS TP / CIS STK). The Ministry of Transport approves the measuring and control software and lists it on md.gov.cz: DEKRA Emise 2021, CIS Emise, TEAS Caris Emise, Florian, Belohradský, ETS v25, EMITEST, AVL DSS. That is a closed, vendor-served market. Tachograph workshops: no Czech source found on workshop record or software duties; only foreign vendor Idha seen. Not checked: Czech tachograph workshop duties and who serves them.",
+     "status": "screened"
+    },
+    {
+     "category": "32 Municipal fees and waste/EPR duties on small producers and sellers (packaging, electronics, batteries, tyres)",
+     "found": "PPWR (EU 2025/40) applies from 12 Aug 2026, most concrete duties from 2028-2030, national penalties due by 12 Feb 2027; the Czech adaptation law is not confirmed. Czech packaging law: persons placing packaging on the market register in the MŽP Seznam osob within 60 days, with an 800 Kč fee and an annual evidence fee due by 15 Feb. A contract with EKO-KOM removes the duty. A de-minimis exemption exists for up to 300 kg packaging and up to 4.5M Kč turnover (old ePravo article, unverified). Act 542/2020 (EPR for electronics, batteries, tyres): ČOI found violations in 202 of 458 checks in Q1 2023, mainly missing disclosure of recycling cost at sale. A battery-law amendment, sněmovní tisk 58, is awaiting a first reading. Municipal local fees were not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "33 Excise duty on small producers other than distilleries and wine: minibreweries, cider, mead, spirit bottlers, tobacco or hemp sellers",
+     "found": "Only minibreweries were searched. Customs (Celní správa) Information 20365/2023 lets breweries up to 10,000 hl/year keep the excise records (§37 of the excise act) directly on an extended varný list (brew sheet), optional, with each batch released to free circulation in one go. The excise returns use the electronic formats in Decree 451/2025 Sb. (annex 32 covers beer records). I found no brewery software, so the state's own shortcut makes a paper or Excel workflow adequate. Not checked: number of minibreweries, the reduced rate for small brewers, cider and mead makers, hemp sellers.",
+     "status": "screened"
+    },
+    {
+     "category": "34 OSVČ tax and social-security filings: annual returns, ČSSZ and health-insurer overviews, paušální daň",
+     "found": "Paušální režim in 2026: income limit 2M Kč, the first band is about 10,000 Kč/month, and the entry or exit window closed 12 Jan 2026. The regime replaces annual returns and insurance overviews. This is generic accounting and tax, served by Pohoda, Money, Fakturoid and the free state portal, so it is out of scope. I did not test a niche cut.",
+     "status": "screened"
+    },
+    {
+     "category": "35 Housing owner communities: SVJ and bytová družstva",
+     "found": "Statutory duties: annual accounts approved by the assembly and filed in the sbírka listin, annual billing of service advances, the repair fund, and (from 1 Jan 2027) remotely readable heat and hot-water meters plus a monthly consumption notice to owners, supervised by the State Energy Inspectorate with fines of tens to hundreds of thousands of CZK (ARROWS law firm). Existing products: ista24 and EcoTrend, Brunata Online, the Techem portal, Bytové konto (a 69-flat Ostrava SVJ reference), Sousedé.cz. The number of SVJ was not confirmed. The transition from walk-by to remote readout on 1 Jan 2027 is a deadline that makes many SVJ act at once.",
+     "status": "screened"
+    },
+    {
+     "category": "36 New laws 2024-2027 hitting small operators: whistleblowing (Act 171/2023), accessibility (Act 424/2023), beneficial-owner register",
+     "found": "Whistleblowing: internal channel required for 50+ employees since 15 Dec 2023, fine up to 1M Kč (secondary sources). Accessibility: Act 424/2023 applies to e-shops from 28 Jun 2025, ČOI supervises, fines up to 10M Kč, and the microenterprise exemption is described inconsistently across sources. Beneficial owners: associations not in a public register must file manually via justice.cz, and one blog cites fines up to 500,000 Kč. A bank glossary says SVJ are exempt (unverified). All three are generic compliance workflows with many consultants and website audit tools. Not checked: named vendors, the precise exemption text.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "stanice měření emisí STK povinnosti ISTK hlášení software malé provozovny 2026",
+    "povinnosti výrobců a prodejců obalů zpětný odběr hlášení EKO-KOM malé e-shopy 2026 PPWR",
+    "minipivovar spotřební daň evidence výroby přiznání celní správa software malý pivovar",
+    "paušální daň 2026 změny OSVČ přehled ČSSZ zdravotní pojišťovna povinnosti software",
+    "SVJ povinnosti správa domu evidence skuteční majitelé účetní závěrka výpisy software pro společenství vlastníků",
+    "evidence skutečných majitelů povinnost zápis spolek firma pokuta 2026 whistleblowing kanál 50 zaměstnanců malé firmy",
+    "program pro SVJ a bytová družstva správa domu vyúčtování služeb fond oprav online aplikace cena",
+    "evidence pivovar program spotřební daň minipivovar výroba piva software evidence celní správa",
+    "zákon o přístupnosti 424/2023 e-shop mikropodnik výjimka povinnosti červen 2025 dozor ČOI",
+    "STK software pro stanice technické kontroly ISTK program měření emisí autoservis dílna",
+    "zákon o výrobcích s ukončenou životností povinnosti prodejců e-shop elektro baterie pneumatiky evidence hlášení MŽP novela 2026 malí prodejci",
+    "software pro SVJ správa společenství vlastníků Bytové konto Domovní portál konkurence aplikace pro výbor SVJ",
+    "dálkový odečet měřidel teplo SVJ povinnost 2027 měsíční informace o spotřebě vyhláška 269/2015 novela 2026",
+    "dílna digitální tachograf kalibrace evidence povinnosti software autorizované dílny ministerstvo dopravy 2026",
+    "seznam osob nositelů povinnosti zpětného odběru obaly e-shop registrace evidenční poplatek MŽP novela zákona o obalech 2026",
+    "SVJ měsíční informace o spotřebě tepla portál pro vlastníky aplikace Techem ista Brunata Bytové konto cena pro SVJ",
+    "pivovarský software varní list evidence piva spotřební daň minipivovary program ke stažení",
+    "program pro stanice měření emisí protokol o měření emisí dodavatel software SME evidence zákazníků"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b24"
+ },
+ "opus:czechia:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Free state filing channels already exist: the eAgri/Portál farmáře Registr vinic (built by CCV Informační systémy) and the SZPI portal for declarations and wine classification. They cover filing only, not the cellar books. In six Czech and English searches I found no Czech winery evidence-book software, only foreign tools (vintrace, InnoVint, Vintners Advantage, Vinsight, and the Slovenian EVINAR). It is possible that Czech ERP add-ons or small local vendors exist and are poorly indexed. That remains unverified.",
+   "duty": "Act 321/2004 Sb. and decree 88/2017 Sb. § 13 (amended by 305/2023 Sb.), which replaced 323/2004 Sb. (the transition ended 31 Jul 2017). Evidence books follow Annexes 12-26: grape harvest and intake, purchase slips, processing and output by quality class, sucrose and enrichment, monthly wine stocks, and per-vessel stock and treatment cards. Producers under 500 hl a year may use the combined Annex 23/24. The decree explicitly allows electronic books if software makes each entry irreversible and records who made it, so the claim's doubt on this point is resolved. Deadlines for most books follow the directly applicable EU rules. Reg. 436/2009 has been replaced, I believe by Delegated Reg. 2018/273 and Implementing Reg. 2018/274, but I did not confirm this in the session. For bulk wine, entries are due by the next working day and monthly stocks by the 3rd working day. Declarations: harvest by 15 Jan (only growers who sell grapes or must), production and stocks (2025 calendar: stocks as of 31 Jul due by 10 Sep), and Wine Fund levy reports. These go through the free eAgri/Portál farmáře Registr vinic or the SZPI portal. SZPI supervises, and the NSS ruling upholds fines for incomplete records. I did not check fine amounts or the 2026 dates.",
+   "market": "2,236 registered wine producers under § 11 of Act 321/2004, plus 596 bulk-wine sellers under § 16b (MZe information-request response, 2021). 13,732 growers with planted vineyards at 31 Dec 2022 (Česká spořitelna, using ÚKZÚZ data), and 16,541 growers in the ČSÚ Vinice 2020 survey. Most are very small, many of them hobby growers.",
+   "reason": "The duty is real and in force. Act 321/2004 Sb. and its implementing decree 88/2017 Sb. (amended by 305/2023; it replaced 323/2004) require evidence books in Annexes 12-26: intake, processing, monthly stocks, per-vessel cards, and a simplified Annex 23/24 for producers under 500 hl. The decree explicitly allows electronic books if every entry is irreversible and names who made it. Wineries also file harvest, production and stock declarations through free eAgri/Portál farmáře and SZPI portals, and NSS case law upholds fines for late or incomplete entries. In six Czech searches I found no Czech vendor, only foreign tools. A niche of about 2,200 registered producers, many of them hobby-sized, limits willingness to pay. A low-cost subscription that prints the books and pre-fills the declarations is plausible.",
+   "searches": 6,
+   "sources": "https://www.dauc.cz/predpisy/1416/88-2017-sb ; https://www.epravo.cz/top/zakony/sbirka-zakonu/vyhlaska-ze-dne-3-rijna-2023-kterou-se-meni-vyhlaska-c-882017-sb-o-provedeni-nekterych-ustanoveni-zakona-o-vinohradnictvi-a-vinarstvi-24937.html ; https://portal.gov.cz/sluzby-vs/S19407 ; https://mze.gov.cz/public/portal/mze/-a54336---l4RokNv5/kalendar-pro-vinohradniky-a-vinare-2025 ; https://mze.gov.cz/public/portal/mze/-q335635---s2lriK1I/manual-pro-podavani-el-hlaseni-vinaru ; https://sbirka.nssoud.cz/cz/vinohradnictvi-a-vinarstvi-vedeni-evidence-lhuta-pro-zapis-do-evidencnich-knih.p2882.html ; https://www.lupa.cz/tiskove-zpravy/vyssi-ochrana-spotrebitele-diky-it/ ; https://mze.gov.cz/public/portal/mze/-q412235---kNHyrkQe/poskytnute-informace-na-zadosti-o-2 ; https://cdn0.erstegroup.com/content/dam/cz/csas/www_csas_cz/Dokumenty-korporat/Dokumenty/Vinařský_trh_v_Česku_10_2023.pdf ; https://www.szpi.gov.cz/soubor/zatridovani-vin-clanek-doc.aspx",
+   "suggested_score": 5,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b24"
+ },
+ "triage:czechia": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Wineries are a different buyer and duty from K15 (grower distilleries); new candidate, related K15."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Dismantlers' MA ISOH end-of-life vehicle logging is a different buyer and duty from K11 waste records; related K11."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Small cemetery operators (municipalities, parishes) with statutory grave-lease and cemetery-book duty; in scope, unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Cesspit hauliers' proof-of-emptying duty is a new buyer and duty, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Associations' annual accounts filing in the register is a new community-body duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "VTZ register and revisions for small owners; K04 covers boiler technicians' ISPOP filing, a different buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small water suppliers and priority buildings' risk assessment is a new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Distributors' receipt/issue records differ from K08 (farmers' POR e-records); different buyer, related K08."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Money changers' ČNB and AML reporting is a new small-firm duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Gold and jewellery buyers' AML and assay records is a new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Well drillers' ČGS registration is a new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Body-care and tattoo operators' 2026 notification rule change creates a deadline for many small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Accommodation guest registers differ from K01 fiscalisation in both buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Small EV charger operators' CMI verification cycle from 1 Jan 2026 is a new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Small real-estate brokers and other small obliged persons' AML duty is new."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small insurance intermediaries' DORA register filing to ČNB is a new buyer and duty."
+    },
+    {
+     "decision": "merge",
+     "id": "B5",
+     "reason": "Same small winery buyer and same Act 321/2004 records and declarations duty as A1.",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Dental/vet X-ray registrants' SÚJB duty differs from K09 antimicrobials; related K09."
+    },
+    {
+     "decision": "known",
+     "id": "B7",
+     "reason": "Same JMHZ employer-reporting duty as K10; no new evidence the rejection fails.",
+     "ref": "K10"
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Pharmacies' narcotics and precursor records are a new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small timber traders and sawmills are a different buyer from K02 forest managers; related K02."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Own-tank fuel dispensing records for farms, hauliers, municipalities is a new customs duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Vape and nicotine-pouch sellers' new excise permit and returns from 2025 is a new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Nurseries' plant passport and operator records is a new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Staffing agencies' licence compliance is a new buyer; unverified but unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Small SVJ and housing co-operatives with the 2027 remote-metering and monthly-notice deadline; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Small e-shops and importers' packaging and product EPR registration differs from K11 waste records; related K11."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Minibreweries' excise records are a different buyer from K15 distilleries; related K15."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "E-shop accessibility duty under Act 424/2023 with ČOI enforcement; unsure on firm size so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Whistleblowing channel for 50+ employers is a different duty from K03 NIS2; related K03."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Beneficial-owner filing for associations is a different duty from K11; related K11 and A5."
+    }
+   ]
   },
   "tag": "w2b24"
  }

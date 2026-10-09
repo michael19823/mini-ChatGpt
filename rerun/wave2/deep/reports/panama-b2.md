@@ -1,5 +1,85 @@
 # Panama B2: SONF compliance kit for small law firms, accountants and other non-financial obliged subjects
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10. Old score: 5/10.**
+
+**The case.** About 7,900 lawyers, law firms and accountants are registered SONF, and the duties they carry mostly live outside the free state portals ([SSNF dashboard, Dec 2025](https://monitoreo.antai.gob.pa/api/submissions/491290/files/107632/download)). The portals take filings. They do not keep the client file, the risk matrices, the yearly review, the training log or the 5-year history the SSNF guide demands ([SSNF Guía de Matriz de Riesgo del SONF](https://ssnf.gob.pa/wp-content/uploads/2022/11/Guía-de-Matriz-de-Riesgo-del-SONF.pdf)). The SSNF's own FAQ shows real portal pain: three separate registrations, an Excel bulk upload that rejects a whole batch over one bad field, and pages that time out and wipe typed data ([SSNF RUBF FAQ v3.0](https://cdn.corprensa.com/la-prensa/uploads/2023/04/17/Preguntas%20frecuentes%20sobre%20el%20registro.pdf)). No local product found does the whole job; the ones found are screening tools with, at most, a client risk matrix. A cheap Spanish "SONF programme in a box", sold to small offices and through compliance firms, could reach roughly US$110k-310k a year by year 3. That is a fair bootstrapped business, but not a big one, and the buyers are price-sensitive lawyers.
+
+**Room for improvement over the portal or current practice**
+
+- **Three portals, no single view.** A SONF must register in UAF en Línea, SSNF en Línea and, as a resident agent, the RUBF reached through Panamá Digital ([SSNF RUBF FAQ v3.0](https://cdn.corprensa.com/la-prensa/uploads/2023/04/17/Preguntas%20frecuentes%20sobre%20el%20registro.pdf)). Nothing ties the three together or tracks their deadlines.
+- **Bulk upload is fragile.** The SSNF says the RUBF Excel template will not load if any field has an error. It tells users to clean all data first and load 50 to 100 records at a time ([same FAQ, Q31](https://cdn.corprensa.com/la-prensa/uploads/2023/04/17/Preguntas%20frecuentes%20sobre%20el%20registro.pdf)). Data preparation and validation before upload is a clear software job.
+- **The portal loses work.** If the user is slow, the page refreshes and erases the data entered, so users must save as they go (Q32). Users also hit "error 403" and a "your connection is not private" warning they are told to click through (Q33-34) ([same FAQ](https://cdn.corprensa.com/la-prensa/uploads/2023/04/17/Preguntas%20frecuentes%20sobre%20el%20registro.pdf)).
+- **The portal asks users to keep side records.** For listed companies, the RUBF could not yet record them properly, and the SSNF asked resident agents to "keep a file" of those entities until it adds the feature ([same FAQ, Q19](https://cdn.corprensa.com/la-prensa/uploads/2023/04/17/Preguntas%20frecuentes%20sobre%20el%20registro.pdf)).
+- **Tight deadlines on request.** A resident agent has 5 business days to complete RUBF registration once invited, and 30, 60 or 90 days to load all its companies, depending on how many it serves ([same FAQ, Q6](https://cdn.corprensa.com/la-prensa/uploads/2023/04/17/Preguntas%20frecuentes%20sobre%20el%20registro.pdf)). The self-assessment questionnaire must come back within 15 business days of the SSNF email ([Res. S-022-2025, art. 4](https://www.organojudicial.gob.pa/uploads/blogs.dir/2/2026/06/728/resolucion-n0-s-022-2025-de-21-de-marzo-de-2025-uso-de-cuestionarios-de-autoevaluacion-para-medir-los-riesgos-asociados-al-blanqueo-de-capitales-63-66.pdf)). Answers ready from a client book save real time.
+- **Record-keeping the portals never do.** Firm and client risk matrices, a yearly review of policies and matrices with every version kept 5 years, an independent review every 2 years, and an annual training plan with attendees, dates, hours and tests ([SSNF Guía de Matriz de Riesgo del SONF](https://ssnf.gob.pa/wp-content/uploads/2022/11/Guía-de-Matriz-de-Riesgo-del-SONF.pdf)).
+- **Supervision volume is high.** The SSNF ran about 9,000 extra-situ supervisions and 600 on-site visits in 2020-2024 ([La Estrella, 24 Mar 2025](https://www.laestrella.com.pa/economia/registro-unico-de-beneficiario-final-alcanza-una-carga-del-91-JB11321967)). In 2025 alone, 2,576 subjects got questionnaires ([SSNF dashboard, Dec 2025](https://monitoreo.antai.gob.pa/api/submissions/491290/files/107632/download)). So inspection readiness is a live need, not a remote one.
+- **Time is the main complaint.** The president of the Colegio Nacional de Abogados said lawyers drop resident-agent work because the time to meet all the requirements is not worth the fee, and old client profiles are hard to document ([La Estrella, 30 Aug 2022](http://www.laestrella.com.pa/articulo/LE476625)). A vendor blog describes today's practice as scattered Excel files, loose screenshots and processes held in email ([sof-IA](https://sof-ia.net/blog/sujetos-obligados-no-financieros-ssnf-panama)).
+
+**Competitor reality check**
+
+| Product | Does it do the SONF job? | Price | Verdict |
+|---|---|---|---|
+| SSNF en Línea, UAF en Línea, RUBF (state) | Filing and registration only. No client file, matrix, review log or training log. Fragile bulk upload ([SSNF FAQ](https://cdn.corprensa.com/la-prensa/uploads/2023/04/17/Preguntas%20frecuentes%20sobre%20el%20registro.pdf)) | Free | Complement, not rival |
+| PEP Check (sof-IA, Panama City) | Sanctions, PEP and adverse-news screening with an audit trail; case tracking via SIGOC. No risk matrix, training log or questionnaire support mentioned ([sof-IA](https://sof-ia.net/blog/sujetos-obligados-no-financieros-ssnf-panama)) | Not published; "free consultation" only | Partial. Possible screening partner |
+| AgileCheck (AML, News, Defense) | Screening, KYC/KYB forms and a client risk matrix; lists Panama among 7 countries and targets lawyers and accountants. No mention of the SSNF, the firm-level matrix, training records, the questionnaire or the RUBF ([AgileCheck](https://agilecheck.odoo.com/)) | Not published; per-use credits with no monthly minimum per directory listings ([GetApp ZA](https://www.getapp.za.com/software/2085710/agilecheck-express)) | Partial, regional, generic |
+| InteliCumplo (APC Intelidat) | AML tool for Panamanian law, launched 2019 ([La Estrella, 2019](https://www.laestrella.com.pa/economia/apc-pais-prevenir-blanqueo-intelidat-DMLE412067)) | Not found | Current status unverified |
+| 35+ SSNF-registered compliance firms | Help with due diligence, KYC, manuals and policies. No software or fees mentioned ([Morgan & Morgan via Legal500](https://www.legal500.com/firms/51255-morgan-morgan/c-panama/news-and-developments/the-role-of-regulated-compliance-companies-in-the-non-financial-regulated-sector)) | Not published | Service, not software. Best treated as resellers |
+| Generic APIs (Didit, Sanction Scanner) | Screening only ([Didit](https://didit.me/blog/aml-screening-api-panama-50537/)) | Usage-based | Input, not rival |
+
+Four targeted searches (Spanish and English) for a Panama-specific SONF compliance SaaS found none. No incumbent covers the whole duty list, and none publishes a price. That is an opening, not a killer.
+
+**Price per customer**
+
+- **What they pay today.** No published fees were found for compliance firms or outsourced compliance officers (unverified). Bundled per-company prices show that RUBF upkeep is already billed per entity. One provider charges US$1,099 a year per Panamanian S.A., covering the resident agent, RUBF registration and a compliance calendar, plus the US$300 franchise tax ([Expanship pricing](https://www.expanship.com/pa/compliance/pricing)).
+- **What failure costs.** The minimum fine for not registering is US$5,000. A search summary of SSNF guidance also reports US$1,000 per legal entity plus suspension for resident agents who do not register ([SSNF Comunicado 004-2022](https://ssnf.gob.pa/wp-content/uploads/2022/06/Comunicado-004-2022.pdf); [Panamá América](https://www.panamaamerica.com.pa/economia/ssnf-anuncia-registro-masivo-de-agentes-residentes-1218290)) (per-entity figure unverified).
+- **Suggested prices (estimates, unverified):**
+  - Sole practitioner: US$29/month (about US$350/year).
+  - Small firm, 2-20 staff: US$79/month (about US$950/year).
+  - Resident-agent add-on for RUBF data checks and change tracking: US$0.50 per company per month, so US$600/year for 100 companies.
+  - Compliance firm or accountant serving many clients: US$15 per client entity per month, with a US$150/month floor (about US$1,800+/year).
+- These are a small share of one fine, and below one hour a month of a lawyer's time (unverified rate).
+
+**Revenue estimate (year 3)**
+
+- Professional-sector SONF: 7,915 ([SSNF dashboard, Dec 2025](https://monitoreo.antai.gob.pa/api/submissions/491290/files/107632/download)).
+- Base case:
+  - Small offices: 7,915 x 5% = about 400 customers x US$600 blended = **US$240,000**.
+  - Compliance firms: 35 x 30% = about 10 x US$3,000 = **US$30,000**.
+  - Real estate and construction SONF: 2,130 x 2% = about 40 x US$600 = **US$24,000** ([same dashboard](https://monitoreo.antai.gob.pa/api/submissions/491290/files/107632/download)).
+  - Total: about **US$294,000 a year**.
+- Low case: 7,915 x 3% = about 240 customers x US$480 = **about US$115,000 a year**, with no reseller or real-estate revenue.
+- Shares and blended prices are estimates (unverified).
+
+**Ease of implementation and sale: medium.**
+
+- **Build: fairly easy.** The core is a client file, two risk matrices using the published SSNF method, reminders, a training log, version history and exports. It needs no integration with the SSNF; users still type into the portal. A RUBF pre-check that validates and splits data into 50-100 row Excel batches is simple ([SSNF FAQ](https://cdn.corprensa.com/la-prensa/uploads/2023/04/17/Preguntas%20frecuentes%20sobre%20el%20registro.pdf)). The exact current RUBF template was not checked (unverified).
+- **Onboarding: medium.** Old client files are incomplete, which is the same reason lawyers quit ([La Estrella, 2022](http://www.laestrella.com.pa/articulo/LE476625)). A CSV import plus a "fill the gaps" checklist is needed.
+- **Sale: medium to hard.** Lawyers are slow buyers and value local trust. Channels exist: the Colegio Nacional de Abogados, compliance firms as resellers, and SSNF training events (644 sessions in 2020-2024) ([La Estrella, 24 Mar 2025](https://www.laestrella.com.pa/economia/registro-unico-de-beneficiario-final-alcanza-una-carga-del-91-JB11321967)). The 2027 FATF evaluation gives a deadline to sell against ([La Estrella, 24 Oct 2025](https://www.laestrella.com.pa/economia/panama-inicia-su-preparacion-de-cara-a-la-quinta-evaluacion-del-gafi-en-2027-KI16968561)).
+
+**Remaining risks**
+
+- **Low fear of fines.** Only 117 sanctions to date ([SSNF dashboard](https://monitoreo.antai.gob.pa/api/submissions/491290/files/107632/download)). The SSNF was created in 2020 ([Deloitte on Ley 124](https://www2.deloitte.com/content/dam/Deloitte/pa/Documents/tax/taxnews/2020/Ley-124-2020-Superintendencia-sujetos-no-financieros.pdf)), so that is about 117 in five to six years, not nine as the old Summary implies. It is still rare.
+- **Many registrants are idle.** Many sole practitioners may have few regulated clients and see little value (unverified).
+- **The RUBF pain may be past its peak.** The initial load was 91% done by 2024 ([La Estrella, 24 Mar 2025](https://www.laestrella.com.pa/economia/registro-unico-de-beneficiario-final-alcanza-una-carga-del-91-JB11321967)). Ongoing updates are smaller, so the bulk-upload angle is a feature, not the core.
+- **The state could add modules.** No plan was found, but the SSNF already runs three systems.
+- **A regional vendor could add SSNF templates.** AgileCheck already targets Panamanian lawyers ([AgileCheck](https://agilecheck.odoo.com/)).
+- **Liability and licensing.** A wrong risk rating may feature in a sanction. Selling a service, not pure software, may need registration as a compliance firm (unverified).
+
+**New sources**
+
+- SSNF, RUBF FAQ v3.0 (hosted by La Prensa): https://cdn.corprensa.com/la-prensa/uploads/2023/04/17/Preguntas%20frecuentes%20sobre%20el%20registro.pdf
+- AgileCheck: https://agilecheck.odoo.com/
+- GetApp ZA, AgileCheck Express: https://www.getapp.za.com/software/2085710/agilecheck-express
+- Expanship, Panama compliance pricing: https://www.expanship.com/pa/compliance/pricing
+- Morgan & Morgan via Legal500, role of compliance companies: https://www.legal500.com/firms/51255-morgan-morgan/c-panama/news-and-developments/the-role-of-regulated-compliance-companies-in-the-non-financial-regulated-sector
+- La Estrella, 24 Mar 2025 (RUBF 91%, 9,000 extra-situ supervisions): https://www.laestrella.com.pa/economia/registro-unico-de-beneficiario-final-alcanza-una-carga-del-91-JB11321967
+- La Estrella, 30 Aug 2022 (lawyers on compliance time): http://www.laestrella.com.pa/articulo/LE476625
+- Panamá América, mass registration of resident agents: https://www.panamaamerica.com.pa/economia/ssnf-anuncia-registro-masivo-de-agentes-residentes-1218290
+- Deloitte, Ley 124 of 2020: https://www2.deloitte.com/content/dam/Deloitte/pa/Documents/tax/taxnews/2020/Ley-124-2020-Superintendencia-sujetos-no-financieros.pdf
+- sof-IA, PEP Check: https://sof-ia.net/blog/sujetos-obligados-no-financieros-ssnf-panama
+
 ## Summary
 
 **Verdict: maybe. Score: 5/10.**

@@ -1,0 +1,1277 @@
+{
+ "challenge:switzerland:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "Two things kill it. (1) The market is far smaller than claimed. Parliament narrowed the bill: own-use residential purchases are exempt, as are deals under CHF 5m paid through banks, and the Finance Minister said 99% of property transactions are unaffected (Blick). (2) A Swiss vendor already covers the reform. Legalian (legalian.ch) markets a GwG platform at the 1 Oct 2026 reform, aimed at \"lawyers, notaries, fiduciaries and other advisors\", with Real Estate as a target sector. It offers register and UBO searches, PEP and sanctions screening, client questionnaires, risk scoring, signed reporting packages and ongoing monitoring, and integrates with Vertec, the practice software common among Swiss fiduciaries. It also states the 1 Dec 2026 SRO deadline.",
+   "reason": "The SRO deadline is confirmed. WEKA (a Burkhalter law-firm article) and Legalian both say advisers active on 1 Oct 2026 must apply to an SRO by 1 Dec 2026. The thresholds for professional activity are CHF 50k revenue, more than 20 clients or more than CHF 2m in transactions. But the exemptions for own-use residential deals and bank-paid deals under CHF 5m leave about 1% of property deals in scope. Those are mostly commercial deals, investment deals and deals with unusual payment routes, handled by few and often larger brokers. Fiduciaries and company-formation advisers are already served by Legalian (with Vertec integration), Zyphe and law-firm services. A broker-specific pack would be a thin wedge in a tiny niche. Unverified: SRO fees and whether SROs supply their own tools.",
+   "searches": 7,
+   "sources": "https://legalian.ch/en ; https://www.legalian.io/en/ch ; https://www.weka.ch/themen/bau-immobilien/immobilien/immobilienkauf-und-verkauf/article/immobilienmakler-revision-des-geldwaeschereigesetzes/ ; https://www.blick.ch/politik/anwaelte-und-treuhaender-geschont-staenderat-verwaessert-geldwaeschereigesetz-die-quittung-droht-2027-id20979204.html ; https://www.bdo.ch/de-ch/publikationen/beratung-neu-dem-geldwaschereigesetz-(gwg)-unterstellt-diese-pflichten-gelten-ab-1-oktober-2026 ; https://www.zyphe.com/ch/ressourcen/leitfaeden/gwg-schweiz",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b23"
+ },
+ "critic:switzerland": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Motor-vehicle trade and garages: AGVS/cantonal registers, Händlerschilder (Wechselschilder) and the new 2024+ MFK/periodic inspection and Abgaswartung (OBD) records",
+     "first_search": "Händlerschilder Bewilligung Fahrtenkontrolle Garagist Strassenverkehrsamt Pflichten Abgaswartung Protokoll Garage",
+     "why": "Switzerland has thousands of small garages and car dealers. Dealer plates require cantonal permits with log books, and garages must keep emissions-check records. Coverage only touched used parts and dismantlers (cat. 5), not dealers' plate logbooks or the emissions-service regime."
+    },
+    {
+     "category": "Gastro and retail licensing: Wirtepatent/Gastgewerbebewilligung, alcohol and tobacco/e-cigarette sales rules (new Tabakproduktegesetz 2024), age-check and Kleinhandel registers",
+     "first_search": "Tabakproduktegesetz TabPG Meldepflicht Verkauf E-Zigaretten Detailhandel Pflichten Wirtepatent Kleinhandelsbewilligung Alkohol Kanton",
+     "why": "Restaurants, bars and kiosks are among the most numerous small operators. Cantonal Wirtepatent and Kleinhandel permits, plus the Tabakproduktegesetz (in force 1 Oct 2024) with its notification and sales-control duties, were not screened. Cat. 37 only covers fire safety."
+    },
+    {
+     "category": "Agricultural farm-level duties: Direktzahlungen, Ökologischer Leistungsnachweis (ÖLN), Suisse-Bilanz/nutrient balance, Agate, GIS-Meldung, and Tierhalter registers (Behandlungsjournal)",
+     "first_search": "Erhebung landwirtschaftliche Strukturdaten Agate AGIS Direktzahlungen ÖLN Aufzeichnungen Suisse-Bilanz Software Landwirt Pflichten",
+     "why": "Swiss farms are numerous and family-run and must file annual data to cantonal agricultural offices via Agate/AGIS and keep treatment journals. Only beekeepers, pesticides, livestock trading and vets were covered, not the farm-level annual declaration. Software competition from LAWI/Agrisoft needs checking."
+    },
+    {
+     "category": "Lotteries, Swiss gambling and fundraising by associations: Lotteriegesetz/Geldspielgesetz permits for tombolas, raffles and club events, plus Sunday/event permits",
+     "first_search": "Kleinlotterie Tombola Bewilligung Verein Geldspielgesetz Abrechnung Lotterie Kanton Gesuch Verein Veranstaltung",
+     "why": "Switzerland has hundreds of thousands of associations and clubs. Small lotteries and tombolas need cantonal permits and reporting, and the revised Geldspielgesetz applies. Cat. 17 covered only foundations' accounts, not event or lottery permitting."
+    },
+    {
+     "category": "Occupational safety and health: ASA/EKAS industry solutions, Branchenlösung enrolment and SUVA risk records for small firms; also Arbeitszeiterfassung duty (ArGV 1 Art. 73)",
+     "first_search": "Arbeitszeiterfassung Pflicht KMU Verzicht Art. 73a ArGV 1 Software; ASA Branchenlösung Kleinbetriebe Dokumentation EKAS Richtlinie 6508",
+     "why": "Every employer must meet the ArG/UVG safety duties. Small firms join an ASA Branchenlösung or hire a safety specialist. Time-recording duties and the exemption agreements (Verzicht auf Arbeitszeiterfassung) also fall on small employers. Neither was screened."
+    },
+    {
+     "category": "Swiss customs and export small-operator duties: Ursprungsnachweis (EUR.1, Ursprungserklärung, REX), export Lieferantenerklärung, and VAT import deferral for small exporters; agricultural direct-sale (Hofläden) and Pflichtlager for fuel importers",
+     "first_search": "Ursprungserklärung Ermächtigter Ausführer Lieferantenerklärung KMU Schweiz Ursprungsnachweis Freihandelsabkommen Pflichten Software",
+     "why": "Swiss SMEs exporting to the EU/EFTA must prove origin and issue supplier declarations. The Passar rejection covered only import declarations. The Switzerland-EU Bilaterale III package may bring new customs duties. Export origin documentation was not covered."
+    }
+   ]
+  },
+  "tag": "w2b23"
+ },
+ "discover:A:switzerland": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Private households that employ live-in carers directly, and small 24h-care placement agencies",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://www.bern.ch/themen/gesundheit-alter-und-soziales/alter/betreuung/betreuung-zu-hause-1/druckversion/24-anstellung-betreuung-zu-hause.pdf/download ; https://www.newsd.admin.ch/newsd/message/attachments/52957.pdf ; https://sh.ch/CMS/get/file/d300ebbb-928c-4b94-868a-644644d4a554",
+     "existing": "Competitor search (two queries) found no Swiss time-recording tool or app for live-in carers; only cantonal/city info sheets and Austrian/German material. Quitt, Chèque service and Fairboss already cover K22 registration and payroll.",
+     "known_id": "K22",
+     "known_mark": "new",
+     "known_note": "Different duty (working-time and presence records for live-in care) from K22's registration and social-insurance service.",
+     "name": "Live-in (24h) carer employment pack: Modell-NAV working/presence/rest-time records for private households and care agencies",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Federal Modell-NAV for 24h care sets the national minimum (working, presence and rest time, documentation chapter); cantons are to extend their NAV Hauswirtschaft. Placement or leasing agencies need an AVG permit. Exact time-recording duty not seen in full text.",
+     "unchecked": "Whether the Modell-NAV records duty is binding in each canton; number of households or agencies; whether Quitt or Fairboss already offer time sheets; which cantons have adopted the NAV."
+    },
+    {
+     "buyer": "Small water co-operatives and small municipal water supplies (many unpaid or part-time Brunnenmeister)",
+     "category": "13. Small water systems",
+     "evidence": "https://www.zh.ch/de/news-uebersicht/mitteilungen/2024/gesundheit/lebensmittel/merkblatt--informationspflicht-trinkwasserqualitaet-.html ; https://rrb.so.ch/beschlussnummer/2023_1505/download/4d362244997b49498013fcf23d41ae33 ; https://www.gr.ch:443/DE/institutionen/verwaltung/dvs/alt/lebensmittel/Documents/Beispiel%20Selbstkontrollkonzept%20Wasserversorgung%20Ok120719.pdf",
+     "existing": "Competitor search found DQW (Waelli AG Ingenieure, aqua-suisse-zuerich.ch): web tool with offline journal, task reminders, W12 support. Eawag has a Trinkwasserdatenbank. Cantons give free templates.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Small water-supply self-control and annual results reporting (Wassergenossenschaften, small communal supplies)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Self-control duty under the food law (LMG Art. 26); SVGW guidelines W1, W12 and W1014; SG requires annual submission of analysis results; ZH requires at least annual consumer information; canton templates (GR).",
+     "unchecked": "DQW pricing and customer base; number of small supplies still using paper; whether cantonal labs run their own upload portals; buyers may be municipalities rather than quiet firms."
+    },
+    {
+     "buyer": "Farms, gardeners, landscapers, caretakers, training-course providers",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.sz.ch/public/upload/assets/91217/Informationsschreiben_zur_Fachbewilligung_Pflanzenschutz_FaBe.pdf?fp=2 ; https://www.permis-pph.admin.ch/dam/de/sd-web/D50EB9mlTmdE/FaBe_Weiterbildungen_Infos_20250703.pdf ; https://www.fr.ch/de/grangeneuve/landwirtschaft/pflanzenschutzdienst",
+     "existing": "Federal register, QR-code training credit and FaBe-PSM app (Identitas, permis-pph.admin.ch) built by the state, so the user-side tracking is covered. Providers must be BAFU-recognised.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Related to K03 (input traders and contractors) but a different duty.",
+     "name": "FaBe-PSM continuing-education tracking for professional pesticide users (and training-course admin for providers)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "From 1 Jan 2027 a valid digital Fachbewilligung is needed to buy and apply pesticides; valid 5 years, extended by recognised training (4-8 h for 2027-31 per Schwyz); registration deadline 30 Jun 2026; providers must enter courses in the register at least 7 working days ahead.",
+     "unchecked": "Whether the register offers an API or bulk upload for course providers; whether a deadline wave of late registrations or non-renewals follows after 30 Jun 2026. Original WebFetch of the SBV PDF was unreadable."
+    },
+    {
+     "buyer": "Day-family organisations and small communal day-care coordinators",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://www.horgen.ch/public/upload/assets/801/2025_04_Merkblatt%20Melde-%20und%20Aufsichtspflicht%20Tagesfamilien.pdf?fp=4 ; https://media.bs.ch/original_file/c97147466c614e4b6721291b0125cb6a1d184d22/erlaeuterungenktv.pdf",
+     "existing": "No day-family-specific software found; Abacus is mentioned only as municipal finance. kitAdmin (K12) targets Kitas.",
+     "known_id": "K12",
+     "known_mark": "new",
+     "known_note": "Adjacent to K12 (Kita voucher reporting) but a different buyer.",
+     "name": "Day-family (Tagesfamilien) organisation admin: PAVO notifications, annual supervision visits, billing",
+     "score": 2,
+     "status": "weak",
+     "trigger": "PAVO Art. 12 reporting duty (care for children under 12, e.g. over 25 hours per week per Horgen guide); PAVO Art. 10 supervision at least yearly; cantonal recognition of organisations.",
+     "unchecked": "Number of organisations; which software they use; whether canton or municipality already provides a system."
+    },
+    {
+     "buyer": "Small taxi and limousine operators holding municipal or cantonal permits",
+     "category": "18. Transport operators",
+     "evidence": "https://stadt.winterthur.ch/themen/leben-in-winterthur/verkehr-mobilitaet/taxiwesen/grundlage/verordnung_ueber_das_taxiwesen.pdf/download ; https://www.astra.admin.ch/de/arv-1-chauffeurverordnung",
+     "existing": "Mobatime TachoPlus covers ARV 1 only. Whether software can replace the control card for taxis is unconfirmed.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Taxi permit holder driver control cards and permit change reporting (ARV 2)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Municipal taxi ordinances (e.g. Winterthur, Basel-Stadt): holder monitors working/driving/rest time with control cards, keeps sheets 1 year, reports relevant changes within 30 days.",
+     "unchecked": "Each canton's rules; fleet sizes; app-based operators; whether paper cards are still the norm."
+    },
+    {
+     "buyer": "Small trucking and coach firms with professional drivers",
+     "category": "18. Transport operators",
+     "evidence": "https://www.berufsberatung.ch/de/aus-weiterbildungen/die-fahrermacher/berufsfahrer-in-czv-weiterbildungskurse",
+     "existing": "Not checked; fleet and tachograph software may already track training.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "CZV continuing-training tracker for small trucking and bus firms",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "CZV: 35 hours (5 days) of continuing training per 5 years to renew the Fachausweis.",
+     "unchecked": "Whether firms already track this; whether the state registers courses; competitor search not run."
+    },
+    {
+     "buyer": "Small driving schools and instructors",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://www.svsa.sid.be.ch/content/dam/svsa_sid/dokumente/de/allg-dokumente/cug-fahrlehrer/svsa-fahrlehrerverodnung-wiedereinsteiger-d.pdf ; https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/mobilitaet/fuehrerausweis-fahren-lernen/fahrschulen/Meldung%20Fahrlehrperson%20im%20Praktikum.pdf",
+     "existing": "Only German driving-school management suites seen (FahrSchule 3.0, clickclickdrive); no Swiss compliance tool found.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Driving-school permit and instructor continuing-education file",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Fahrlehrerverordnung Art. 22: regular continuing education; cantonal authority withdraws the permit if missed (Art. 27 e); ZH requires notifications for trainees.",
+     "unchecked": "Whether the requirement is 5 days per 5 years (draft only); small buyer count; association-provided tools."
+    },
+    {
+     "buyer": "Small temp and placement agencies",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.zh.ch/de/wirtschaft-arbeit/gewerbe-betriebsbewilligungen/private-arbeitsvermittlung-und-personalverleih.html ; https://awa.tg.ch/public/upload/assets/163742/Merkblatt%20Personalverleih.pdf?fp=1",
+     "existing": "Not found in one search. General staffing and payroll suites assumed.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Personalverleih small-agency deposit and hours statistics",
+     "score": 2,
+     "status": "weak",
+     "trigger": "AVG licence; deposit CHF 50,000, CHF 100,000 above 60,000 hours in prior year; annual hours statistics to the canton.",
+     "unchecked": "Actual reporting forms and portals; software used by small agencies; GAV Personalverleih contribution reporting."
+    },
+    {
+     "buyer": "Owners and property managers of buildings with lifts",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://parlzhcdws.cmicloud.ch/parlzh5/cdws//Files/f3bebca6ed2f4cc0952472c15568d917-332/1/pdf",
+     "existing": "Not checked; property-management suites and lift makers' service contracts likely cover it.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Lift periodic-inspection and maintenance tracking for owners and property managers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Zurich BBV I Para 32: inspection at least every 5 years; about 70% of inspected lifts had defects (ZH Regierungsrat). Other cantons vary.",
+     "unchecked": "Other cantons; a lift register; competitors; buyer is property managers, not quiet firms."
+    },
+    {
+     "buyer": "Small operators of boilers, compressed-air tanks and pressure vessels",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://www.suva.ch/de-ch/praevention/nach-gefahren/gefaehrliche-materialien-strahlungen-und-situationen/explosionen-durch-brennbare-und-leichtentzuendliche-stoffe/druckgeraeteverwendungs-verordnung-dgvv",
+     "existing": "Suva handles notification and inspection directly; no software found.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Pressure-equipment operator notification and periodic inspection (DGVV)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "DGVV (SR 832.312.12): notify Suva before first use and after major changes; periodic inspection by the Kesselinspektorat.",
+     "unchecked": "Inspection intervals (EKAS 6516), number of small operators, any pain point."
+    },
+    {
+     "buyer": "Beekeepers (mostly hobbyists)",
+     "category": "8. Beekeepers",
+     "evidence": "https://www.blv.admin.ch/de/bienen ; https://www.veterinaeramt.bs.ch/dam/jcr:84dd91f7-5702-4295-8f6c-4a3eaa1119b4/230110_Checkliste%20Pflichten%20Imkernde.pdf",
+     "existing": "BLV provides free templates; own electronic systems allowed.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Beekeeper treatment journal and inventory (TAMV)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "TAMV Art. 26 f and 28: treatment journal and inventory list, kept 3 years; apiary registration under TSV.",
+     "unchecked": "Whether paid apps exist; hobbyist buyers have low willingness to pay."
+    },
+    {
+     "buyer": "Veterinary practices",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://www.blv.admin.ch/de/isabv-datenerfassung ; https://www.blv.admin.ch/blv/de/home/tiere/tierarzneimittel/antibiotika/isabv/psw.html",
+     "existing": "The BLV publishes an interface specification for practice-software vendors, so practice software already integrates.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Vet practice antibiotic reporting (IS ABV)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Antibiotic prescription, supply and use must be entered in IS ABV via web app or practice software.",
+     "unchecked": "Which practice-software products have the interface; group-therapy entries only via web app."
+    },
+    {
+     "buyer": "Municipal cemetery offices; Winterthur tendered in 2026",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://tenderlift.ch/tenders/zurich/beschaffung-bestattungs-und-friedhofsoftware-8a022677 ; https://www.softguide.de/firma/hades-software-gmbh",
+     "existing": "HADES-X (HADES Software GmbH) claims Swiss users; PC-FRIEDHOF; Chronicle.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Cemetery and funeral administration software (Friedhofsverwaltung)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Municipal burial administration; no small-business duty found.",
+     "unchecked": "Swiss market share; buyer is a municipality, so out of the quiet-business scope."
+    },
+    {
+     "buyer": "Small foundations (including family and charitable) and their boards",
+     "category": "17. Community and religious bodies",
+     "evidence": "https://www.AR.ch/fileadmin/user_upload/Departement_Inneres_Sicherheit/DepSekretariat/Stiftungen/Vollstaendigkeitserklaerung_fuer_revisionsbefreite_Stiftungen.pdf ; https://stiftungschweiz.ch/wp-content/uploads/2025/04/Die-gemeinnuetzige-Stiftung-im-Schweizerischen-Recht_DE.pdf",
+     "existing": "Not checked. SwissFoundations publishes a model annual account. Association rules not found for Switzerland.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Small foundations and associations: annual accounts filing to cantonal supervision",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Annual report and accounts to cantonal Stiftungsaufsicht; revision exemption (Art. 83b ZGB) needs a completeness declaration (SO) and balance sheet below CHF 200,000 (AR).",
+     "unchecked": "Whether cantonal portals exist; software used by small foundations; association duties; accounting suites likely cover it."
+    },
+    {
+     "buyer": "Tattoo and permanent make-up studios",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://www.zh.ch/de/news-uebersicht/mitteilungen/2023/gesundheit/gebrauchsgegenstaende/taetowieren.html ; https://www.blv.admin.ch/dam/blv/de/dokumente/gebrauchsgegenstaende/kosmetika-schmuck-textilien/faq-tattoo.pdf",
+     "existing": "BLV good-practice guideline; no software checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Tattoo studio customer-sheet and hygiene documentation",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Notification since 1 May 2017 (LGV Art. 62), cantonal inspections of hygiene, ink and documentation; no licence required.",
+     "unchecked": "Whether studio software offers digital consent forms."
+    },
+    {
+     "buyer": "Commercial buyers of old precious metals (CHF 50,000 or more per year)",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.bazg.admin.ch/de/gewerbsmaessiger-ankauf-von-altedelmetallen",
+     "existing": "",
+     "known_id": "K06",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K06; not re-checked.",
+     "name": "Altedelmetall purchase register for old-gold buyers",
+     "score": 0,
+     "status": "weak",
+     "trigger": "BAZG Zentralamt registration or permit since 1 Jan 2023 (transition ended 1 Jan 2024).",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Small money-changing offices",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.finma.ch/ueberwachung/branchenuebergreifende-themen/geldwaescherei/",
+     "existing": "Not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Money changers: GwG SRO duties for small exchange offices",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "GwG Art. 14: SRO membership (VQF, ARIF) before starting; due-diligence records; MROS reports.",
+     "unchecked": "Whether small independent exchange offices exist; SRO tools; likely many are banks or hotels."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing new for domestic workers beyond K22. One adjacent candidate: live-in 24h care (Modell-NAV for 24-hour care with working/presence/rest time and documentation chapters; cantons to extend their NAV Hauswirtschaft). Care agencies need an AVG licence.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No Swiss-wide licence or purchase-register duty for ferrous/non-ferrous scrap dealers found. Zurich requires a waste-facility permit only for scrap recycling plants. The Swiss register duty applies to precious metals only (K06). Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Pawnbroking is cantonal, based on Art. 907 ZGB (BS, FR, ZG, SZ, VS), with a pawn book. Often limited to public or non-profit operators, so very few buyers. Trödel/second-hand rules vary by canton. Nothing viable.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Since 1 Jan 2023 (transition ended 1 Jan 2024), commercial buying of old precious metals needs registration or a permit if the annual value is CHF 50,000 or more (BAZG Zentralamt). Same duty as K06.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Cantonal permit per site under VeVA for end-of-life vehicle recyclers; garages that trade used cars are exempt. No occasion-parts reporting duty found. Nothing new beyond K13.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "No search spent; K21 (Identitas eTransit, ATV-Viehhandel) already covers it. Budget used on other categories.",
+     "status": "not_reached"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Swiss duty is a written self-control system (LMG Art. 23, LGV Art. 49-55, VSFK Art. 20). No slaughter-data reporting duty and no small-abattoir software found. Probably consistent with K16 (HACCP, no trigger).",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Apiary registration (TSV Art. 18a/19a) and a treatment journal plus inventory list (TAMV Art. 26/28, kept 3 years). The BLV supplies free templates. Hobbyist buyers, so low willingness to pay.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Antibiotic prescriptions must be entered in IS ABV (BLV) via the web app or via practice software with an interface. The BLV publishes a page for practice-software vendors, so vet software is already integrated.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "No search spent; K05 (Erdwärmesonden notification pack) already covers it. Budget used on other categories.",
+     "status": "not_reached"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "One search returned only German municipal rules and an Obwalden leaflet. No Swiss haulage permit, manifest or reporting rule found. Unverified: Swiss VeVA/VVEA rules for sewage-sludge hauling were not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Lifts: Zurich requires a periodic inspection every 5 years (BBV I Para 32); rules are cantonal and no lift register was found. Pressure equipment: DGVV (SR 832.312.12), reporting to Suva and periodic inspection by the Kesselinspektorat. Intervals unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Water supplies must keep a self-control concept (SVGW guidelines W1/W12/W1014). Some cantons require annual reporting of lab results (SG) and consumer information (ZH). Cantons supply templates (GR). Commercial tool DQW (Waelli AG) exists.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "From 1 Jan 2027 professional users need a digital Fachbewilligung (FaBe PSM) to buy and apply pesticides. Permit valid 5 years and extended by recognised continuing education. The federal register, app and course-provider registration are run by the state (permis-pph.admin.ch, Identitas). No Swiss pesticide spray-record software or dealer duty confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Cantonal operating permit under AVG; SECO permit for cross-border work. Deposit of CHF 50,000 (100,000 above 60,000 hours). Statistics on hours worked feed the deposit. Software for agencies not checked; general staffing suites likely exist.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Mostly municipal buyers. Winterthur tendered funeral and cemetery software (deadline 22 Jun 2026). HADES-X claims Swiss users (unverified). No small-business duty found.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Swiss foundations file annual reports and accounts with a cantonal supervisory authority. Revision exemption under Art. 83b ZGB for small foundations (balance sheet under CHF 200,000). Association-specific results were German, not Swiss. No state halal or kosher supervision found.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Taxis are municipal or cantonal permits under ARV 2 control cards (permit holder must keep sheets 1 year and report changes within 30 days, e.g. Winterthur). CZV needs 35 hours of continuing training per 5 years for professional drivers. Digital tachograph rules under ARV 1 (over 3.5 t, over 16 passengers). Software only found for ARV 1 (Mobatime).",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Itinerant trade (Reisendengewerbe) permit is issued by cantons and valid across Switzerland (SECO). Markets set by municipalities. Money changers fall under GwG and need SRO membership (VQF, ARIF); nothing specific to small exchange offices found.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Tattoo studios: notification only since 1 May 2017 (LGV Art. 62), no licence. Driving schools: federal Fachausweis plus continuing education (FV Art. 22), cantonal permits. Childminders: PAVO reporting duty and annual supervision visits. Hunting outfitters and small food producers not searched.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Altmetall Schrotthändler Bewilligung Buchführungspflicht Schweiz Kanton",
+    "Personalverleih Bewilligung SECO Kaution Meldepflicht Software Verleiher",
+    "Bienenhalter Meldepflicht Bienenstände Behandlungsjournal Tierarzneimittel Imker Schweiz",
+    "Tierarztpraxis Antibiotika Meldung IS ABV Tierarzneimittel Abgabe Dokumentation Software",
+    "Fahrzeugdemontage Autoverwerter Altauto Entsorgung Bewilligung Schweiz",
+    "Pfandleiher Occasionshändler Bewilligung Register Ankaufskontrolle Kanton",
+    "Kleinschlachtbetrieb Metzgerei Schlachtkontrolle Selbstkontrolle Schweiz",
+    "Wasserversorgung Selbstkontrolle Trinkwasser Genossenschaft kleine Wasserversorgung Schweiz",
+    "Aufzugskontrolle Liftkontrolle Eigentümer periodische Kontrolle Schweiz",
+    "Kleinkläranlage Grubenentleerung Transportbewilligung Entsorgungsnachweis Kanton",
+    "Pflanzenschutzmittel Fachbewilligung Anwender Aufzeichnungen Schweiz",
+    "Bestattungsinstitut Friedhofverwaltung Software Gemeinde Schweiz",
+    "Taxi Bewilligung Taxihalter Fahrtenschreiber ARV Chauffeur",
+    "Verein Stiftung Aufsicht Jahresrechnung Gemeinnützigkeit Verein Software",
+    "Tätowierstudio Bewilligung Kanton Hygiene Kontrolle Kundenregister",
+    "Fachbewilligung Pflanzenschutz 1. Januar 2027 Register BAFU Weiterbildung",
+    "24-Stunden-Betreuung Agentur Personalverleih Normalarbeitsvertrag Hauswirtschaft",
+    "Tagesfamilien Bewilligung Aufsicht PAVO Tagesfamilienorganisation Software",
+    "Chauffeurzulassungsverordnung CZV Weiterbildung 35 Stunden Nachweis Kleinunternehmen",
+    "Druckgeräte Betreiber wiederkehrende Prüfung Schweiz SVTI Betreiberpflichten"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b23"
+ },
+ "discover:B:switzerland": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small real estate brokers, land agents, fiduciary and company-formation advisers who help with property purchases or set up non-operating entities (not FINMA-licensed)",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.finma.ch/dokumentation/dossier/dossier-geldwaeschereibekaempfung/hinweise-zur-revision-des-geldwaeschereigesetzes-und-der-geldwaeschereiverordnung/ ; https://www.weka.ch/themen/bau-immobilien/immobilien/immobilienkauf-und-verkauf/article/immobilienmakler-revision-des-geldwaeschereigesetzes/ ; https://www.bdo.ch/de-ch/publikationen/beratung-neu-dem-geldwaschereigesetz-(gwg)-unterstellt-diese-pflichten-gelten-ab-1-oktober-2026 ; https://law.ch/lawnews/2026/06/geldwaescherei-bundesrat-setzt-schaerfere-regeln-und-neues-transparenzregister-in-kraft/",
+     "existing": "Competitor search found Zyphe and KYC Spider (aimed at financial intermediaries, not brokers), GwGIMMO (German GwG), Didit (generic ID checks). No broker-specific Swiss pack found. SROs (11 FINMA-recognised) will offer their own tools and training; SVIT position unchecked.",
+     "known_mark": "new",
+     "name": "AML onboarding pack for real estate brokers and other newly covered 'Berater' under the revised GwG",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Revised GwG and GwV in force 1 Oct 2026 (Federal Council decision of 17 June 2026, GwV amendment of 26 Sep 2025). Covered advisers must join a SRO, do KYC, keep records and report to MROS. FINMA licence holders active on 1 Oct 2026 must notify FINMA by 1 Dec 2026. One law-firm source gives 1 Dec 2026 as the SRO application deadline for existing advisers (unverified); another says extensions were being discussed. Exemptions: own-use residential property and deals under CHF 5m paid through a bank.",
+     "unchecked": "Final SRO deadline and any extension; which SROs accept real estate brokers and their fees and tools; how many brokers fall inside the scope after the CHF 5m/bank-payment exemption; MROS reporting mechanics; whether SROs supply software."
+    },
+    {
+     "buyer": "Operators of systems over 3 kg (supermarkets, butchers, restaurants, small industry, property managers) and the small refrigeration and heat-pump service firms who do the checks",
+     "category": "31. Stationary refrigeration, air-conditioning and heat-pump systems over 3 kg refrigerant (Anhang 2.10 ChemRRV)",
+     "evidence": "https://www.bafu.admin.ch/de/kaeltemittel ; https://so.ch/verwaltung/bau-und-justizdepartement/amt-fuer-umwelt/abfall-chemie/gefahrstoffe/kaeltemittel-und-kaelteanlagen/ ; https://fws.ch/wp-content/uploads/2024/10/Positionspapier-Vollzug-Dichtigkeitskontrolle.pdf ; https://media.bs.ch/original_file/1c7724e81ca11bee7549bcf3d1d6578e6caec930/bericht-kampagne-kaelteanlagen.pdf (41% missing leak-check proof, 85% mismatched reporting data in Basel-Stadt campaign) ; https://www.bafu.admin.ch/dam/bafu/de/dokumente/chemikalien/uv-umwelt-vollzug/anlagen-und-geraete-mit-kaeltemitteln-betrieb-und-wartung.pdf.download.pdf/UV-0615-D_Kaelteanlagen-Wartung_2025.pdf",
+     "existing": "Competitor search found no Swiss-specific logbook software; only a generic Lumiform checklist. Reporting platform is Lombardi SA per BAFU; the Solothurn page mentions cooling-reg.ch (conflict, unresolved). Large service firms probably have internal tools.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "Refrigerant system logbook, leak-check and reporting service for operators and small refrigeration firms",
+     "score": 4,
+     "status": "promising",
+     "trigger": "ChemRRV Annex 2.10 Ziff. 3.4, 3.5, 5: leak checks, Wartungsheft, reporting of commissioning, changes and decommissioning. Amended Annex 2.10 applies from 1 Jan 2027 (Federal Council decision of 29 Oct 2025). Industry body FWS disputes whether a Wartungsheft is required for heat pumps (2024 position paper).",
+     "unchecked": "What the 2027 amendment changes; Lombardi SA / cooling-reg.ch role and whether they offer an operator portal or API; whether the sector has its own tool (FWS, SVK, Swissolar for heat pumps); number of operators; overlap with heat-pump installers in K01."
+    },
+    {
+     "buyer": "Small wine merchants, importers, restaurants that resell wine, and small cellars (Valais, Vaud, Ticino, Zurich and other cantons)",
+     "category": "32. Wine trade and wine cellars (Weinhandelskontrolle, Kellerbuch, vintage reports)",
+     "evidence": "https://www.rister.ch/de/post/weinhandel-schweiz-gruenden-bewilligung/ ; https://www.vs.ch/de/web/sca/weinlesekontrolle-und-e-vendanges ; https://medialine.com/media/business-software/boxxer-vino",
+     "existing": "Competitor search: Abacus ERP at Weinkellereien Aarau; boxxer vino (Medialine, German market); generic wine ERP tenders. No SWK-specific export or Swiss Kellerbuch tool found. The SWK states a warehouse or ERP system may replace paper cards.",
+     "known_mark": "new",
+     "name": "Wine-trade control pack: SWK annual inventory and volume return plus Kellerbuch for small wine merchants and cellars",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Registration with the Schweizerische Weinhandelskontrolle before trading; inventory at 31 Dec and litres sold entered in the SWK customer account by 31 Jan with no reminder; Kellerbuch with one card per wine and vintage; 10-year retention; risk-based inspections. Valais requires harvest control via e-Vendanges by 15 Nov (late harvest 28 Feb) with interfaces for cellar software.",
+     "unchecked": "Number of SWK-registered businesses; whether the SWK portal has an upload or API; cantonal harvest-control systems outside Valais; whether any Swiss vendor (for example Vinolog-type products) already covers it; price tolerance of micro merchants."
+    },
+    {
+     "buyer": "Tank-revision firms, heating-oil delivery firms, communes and property managers",
+     "category": "33. Heating-oil tanks and tank revision firms (GSchG Art. 22, cantonal tank rules)",
+     "evidence": "https://www.vs.ch/de/web/sen/tank ; https://umwelt.tg.ch/public/upload/assets/22287/Ausserbetriebsetzung-und-Kontrolle-von-Tankanlagen.pdf?fp=3 ; https://www.fr.ch/de/energie-landwirtschaft-und-umwelt/wasser/grundwasser/kontrolle-der-tankanlagen-zum-schutz-des-grundwassers ; https://www.AR.ch/fileadmin/user_upload/Departement_Bau_Volkswirtschaft/Amt_fuer_Umwelt/Umwelt/Publikationen/Merkblaetter/Heiz-undTankanlagen/Betrieb_und_Wartung_Lageranlagen_01.pdf",
+     "existing": "Search for tank software found nothing for dealers or revision firms. Tank volumes are shrinking as heating switches to heat pumps (which is also K01's market).",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "Heating-oil tank register, vignette and revision reminders for tank-revision firms and oil dealers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "GSchG Art. 22: inspection at least every 10 years, leak-detection check every 2 years. Valais: vignette required for tanks over 450 L since 1 Jan 2025, valid 10 years, suppliers may fill only vignette-marked tanks. Thurgau: revision firm must report decommissioning with rapport, Tankdokument and plate. Cantons differ.",
+     "unchecked": "Whether cantons run their own tank registers with firm portals; size of the revision-firm market; any tank-register vendor; whether the Valais vignette creates a dealer-side lookup problem."
+    },
+    {
+     "buyer": "Independent control bodies and small inspection firms; secondarily property owners and managers",
+     "category": "34. Periodic inspection of electrical installations (NIV, independent control bodies)",
+     "evidence": "https://www.esti.admin.ch/inhalte/pdf/NIV_I/Deutsch/Publikationen/2017_2018/Infoblatt_Periodische_Kontrolle_de.pdf ; https://www.esti.admin.ch/inhalte/pdf/NIV_I/Deutsch/Publikationen/2017_2018/2018-09_aufforderung_periodische-kontrolle_d.pdf ; https://primeo-energie.ch/magnolia/dam/jcr:32b9ed92-774a-434e-bb37-182b3e423e68/PE_FS_PeriodischeSicherheitspr%C3%BCfung.pdf",
+     "existing": "Competitor search found no software for control bodies. Network operators already run the reminder step. K10 (ElektroForm, M2-Hub) covers installers, not control bodies.",
+     "known_id": "K10",
+     "known_mark": "new",
+     "name": "Periodic electrical-installation inspection scheduler and Sicherheitsnachweis tool for independent control bodies",
+     "score": 4,
+     "status": "promising",
+     "trigger": "NIV Art. 36: owner must submit a Sicherheitsnachweis after each inspection period of 1, 5, 10 or 20 years; network operator reminds at least 6 months ahead and hands non-compliance to ESTI after two reminders. 2023 ESTI document expects a strong rise in periodic inspections over the next five years.",
+     "unchecked": "Number of independent control bodies and accredited inspection bodies; what tools they use (possibly ElektroForm modules); whether the 2023 shortage persists; whether network operators accept digital submission (BFE says they cannot require electronic only)."
+    },
+    {
+     "buyer": "Unlisted AG, GmbH and Genossenschaften, and the small fiduciaries who serve them",
+     "category": "35. Transparency register for legal entities (TJPG, in force 1 Oct 2026)",
+     "evidence": "https://www.admin.ch/de/newnsb/L0rkU9ZvCFSw ; https://www.weka.ch/themen/recht/gesellschaftsrecht/aktiengesellschaft/article/transparenzregister-neue-meldepflichten-fuer-gesellschaften/ ; https://www.forvismazars.com/ch/de/insights/swiss-tax-newsletter/swiss-tax-newsletter-juli-2026/transparenzregister ; https://www.gtai.de/de/trade/schweiz/recht/transparenzregister-2001480",
+     "existing": "Competitor search found only law-firm, bank and Treuhand explainers, no software. The state portal is free and fiduciaries will bundle filings into annual services. Mostly a one-off per company with few changes afterwards.",
+     "known_mark": "new",
+     "name": "TJPG transparency-register filing service for small AG, GmbH and Genossenschaft",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Federal Act on Transparency of Legal Entities (TJPG) in force 1 Oct 2026; one-time registration plus change reports within one month (sources differ); transition up to two years depending on legal form and audit status; reports via EasyGov.swiss or cantonal commercial register office.",
+     "unchecked": "Final deadlines by company type; whether foundations and associations are covered (sources conflict); whether the register has an API for fiduciary bulk filing; whether Abacus, bexio or Run my Accounts add it."
+    },
+    {
+     "buyer": "Doctor, dentist and vet practices with X-ray units; firms doing acceptance and constancy tests",
+     "category": "36. Medical, dental and veterinary X-ray installations (BAG licence, RöV)",
+     "evidence": "https://www.bag.admin.ch/de/medizinische-roentgenanlagen ; https://www.bag.admin.ch/de/strahlenschutz-bewilligungen-voraussetzungen-und-aufsicht ; https://www.bag.admin.ch/de/firmenbewilligungen-fuer-roentgensysteme-handel-einrichtung-und-qs",
+     "existing": "BAG RPS online portal for applications and notices. Test firms probably handle renewal reminders. No competitor search run for software.",
+     "known_mark": "new",
+     "name": "X-ray licence and constancy-test tracker for medical, dental and vet practices",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "BAG licence valid 10 years, lapses on practice transfer or move; named responsible persons with trained qualifications; filings through BAG RPS portal; test firms need their own licence and QA system.",
+     "unchecked": "Test intervals and records duties in Switzerland (search returned German rules); practice-software coverage; vet and dental specifics."
+    },
+    {
+     "buyer": "Small restaurants, bars, guest houses",
+     "category": "37. Fire-safety self-control in restaurants and lodging (VKF, cantonal building insurers)",
+     "evidence": "https://www.muemliswil-ramiswil.ch/public/upload/assets/263/Checkliste-Brandschutz-fuer-Gastrobetriebe-und-Veranstaltungen_2026.pdf?fp=2 ; https://www.fr.ch/de/sr/news/staatsrat-will-praeventionsmassnahmen-fuer-brandschutz-in-oeffentlichen-gaststaetten-verstaerken",
+     "existing": "Not searched. No explicit written self-check duty found.",
+     "known_mark": "new",
+     "name": "Fire-safety self-check log for restaurants and accommodation",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "VKF fire-protection rules and cantonal inspections: operator responsible at all times; Bern police focus since Feb 2026; Aargau insurer checks about 900 caterers a year; Fribourg checks lodging at least every 5 years.",
+     "unchecked": "Whether any canton requires a documented self-check; extinguisher and emergency-lighting test intervals in Switzerland."
+    },
+    {
+     "buyer": "Small general contractors and site managers in Ticino and Geneva",
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "evidence": "Search summary only: https://www.laregione.ch/1502847 ; https://www4.ti.ch/fileadmin/DFE/DR-SL-COMMESSE/4791/25133_ca_capitolato_appalto_e_modulo_offerta_d.pdf ; https://ge.ch/grandconseil/data/texte/PL13620A.pdf",
+     "existing": "No software found; mostly public-procurement rules rather than a general duty.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "Subcontractor and worker-list pack for main contractors in Ticino and Geneva",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Ticino LEPICOSC: construction firms must be in the cantonal register for works above CHF 30,000 (since 1 Jan 2014); tenders require an updated list of workers on site per employer and a 20% penalty for violations; Geneva procurement rules require announcing subcontractors before they start, with immediate suspension otherwise.",
+     "unchecked": "Whether the rules apply to private works; the actual form and portal used; relation to K02 (posted-work pack for EU firms)."
+    },
+    {
+     "buyer": "Private hosts, Airbnb and B&B hosts, small guest houses",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://www.burgdorf.ch/wAssets/docs/Stadtmarketing/Informationsschreiben_Kurtaxe_Gaestekarte_Burgdorf.pdf ; https://ettiswil.ch/wp-content/uploads/2026/05/Kurtaxen-und-Beherbergungsabgabereglement-2027.pdf ; https://help.guesty.com/hc/en-gb/articles/34480820984477-Connecting-AutoComply-in-Switzerland ; https://sh.ch/CMS/get/file/0c390287-1796-4c65-a754-3bbca462d494",
+     "existing": "Feratel/Chekin, Easycheckin (Omnisoftory), Guesty AutoComply, Cloudbeds integration, and Airbnb agreements with ZH, BS, BL, SH, ZG (date of that source unknown).",
+     "known_mark": "new",
+     "name": "Tourist-levy and guest registration for small hosts across communes",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Cantonal and communal Beherbergungsabgabe and Kurtaxe regulations (Bern city register via Bern Welcome; Burgdorf covers private hosts; Luzern communes; new regulations such as Ufhusen and Ettiswil from 1 Jan 2027); guest reporting via Feratel or cantonal portals (Schaffhausen gast.sh.ch).",
+     "unchecked": "Which hosts still file by hand; per-commune workload; price tolerance of private hosts."
+    },
+    {
+     "buyer": "Small wood traders, sawmills, joiners that first place or resell timber",
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "evidence": "https://www.bafu.admin.ch/de/holzhandel ; https://www.waldwissen.net/de/waldwirtschaft/holz-und-markt/holzmarkt/wie-wirksam-sind-rechtsnormen-im-kampf-gegen-den-illegalen-holzhandel",
+     "existing": "BAFU guidance and association materials; no software searched.",
+     "known_id": "K18",
+     "known_mark": "new",
+     "name": "Wood-trade due-diligence and traceability file (HHV) for small timber and joinery traders",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Holzhandelsverordnung and USG Art. 35e-35h since 1 Jan 2022: first placers need a due-diligence system; traders must record supplier and customer. No filing to an authority found.",
+     "unchecked": "Number of obliged firms, inspection frequency, sector tools. Related to K18 only by theme."
+    },
+    {
+     "buyer": "Small medical practices, therapists, labs",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://www.css.ch/de/leistungserbringer/leistungen-abrechnen/tarifliches/gesamttarifsystem.html ; https://info.onedoc.ch/en/blog/all-specialties/tardoc-2026 ; https://www.swisscom.ch/de/business/enterprise/angebot/health/solutions/tarifsystem.html",
+     "existing": "Practice-software vendors (curaMED, Swisscom and others) have adapted and train users. The change happened in January, so the trigger has passed.",
+     "known_id": "K09",
+     "known_mark": "new",
+     "name": "TARDOC / ambulatory flat-rate billing migration for small practices and labs",
+     "score": 2,
+     "status": "weak",
+     "trigger": "TARDOC and ambulatory flat rates replaced TARMED from 1 Jan 2026; invoices in XML 5.0; no mixing within a treatment; tariff updated yearly; TARMED invoices for 2025 treatments can be submitted until 31 Dec 2030.",
+     "unchecked": "Residual billing errors and rejection rates; niche specialities not in the new system."
+    },
+    {
+     "buyer": "Grain and feed importers, millers above quantity thresholds",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://www.lexfind.ch/tolv/212481/de ; https://www.srf.ch/news/schweiz/pflichtlager-des-bundes-werden-jetzt-die-notvorraete-aufgestockt",
+     "existing": "Réservesuisse runs the reporting; few, mostly large firms.",
+     "known_mark": "new",
+     "name": "Pflichtlager reporting for grain and feed importers and millers",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Pflichtlager ordinance: importers and first placers above thresholds sign a contract and report quantities periodically to Réservesuisse.",
+     "unchecked": "Thresholds and the number of small firms in scope."
+    },
+    {
+     "buyer": "Pharmacies, Drogerien, doctors' dispensing practices",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://www.tg.ch (Merkblatt Umgang mit kontrollierten Substanzen 03.2023) via https://gesundheit.tg.ch/public/upload/assets/142554/Merkblatt%20Umgang%20mit%20kontrollierten%20Substanzen%2003.2023.pdf?fp=1 ; https://www.bazg.admin.ch/de/betaeubungsmittel-und-vorlaeuferstoffe",
+     "existing": "Likely handled in pharmacy software; no product named or checked.",
+     "known_mark": "new",
+     "name": "Narcotics and precursor bookkeeping for pharmacies and drugstores",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "BetmKV Art. 57 bookkeeping per substance and form, 10-year retention; electronic books allowed; inspection by canton.",
+     "unchecked": "Drogerie-specific duties; software coverage in drugstores; Swissmedic reporting of magistral preparations."
+    },
+    {
+     "buyer": "Small temp-staffing, cleaning and security firms",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://www.zh.ch/de/wirtschaft-arbeit/gewerbe-betriebsbewilligungen/private-arbeitsvermittlung-und-personalverleih.html ; https://syna.ch/images/gav-personalverleih-2024-27-de.pdf ; https://unia.ch/fileadmin/user_upload/Beruf-Branchen/Reinigung/gav_broschure_de_web-1763457929.pdf",
+     "existing": "None searched; payroll vendors may cover.",
+     "known_mark": "new",
+     "name": "Personalverleih / cleaning and security GAV compliance (Lohnbuchkontrolle) preparation",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "AVG licence and deposit; GAV Personalverleih 2024-27, Reinigung GAV 2026-2029; joint commissions audit wage books (Lohnbuchkontrolle).",
+     "unchecked": "Whether payroll software already generates GAV audit packs; fine levels; number of small firms."
+    },
+    {
+     "buyer": "Small employers with foreign staff or cross-border workers",
+     "category": "38. Withholding-tax (Quellensteuer) payroll reporting by small employers",
+     "evidence": "https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-122-nr-1-mitwirkung-der-schuldnerin-oder-des-schuldners-der-steuerbaren-leistung",
+     "existing": "Swissdec-certified payroll (bexio, others) as in K08.",
+     "known_id": "K08",
+     "known_mark": "known",
+     "name": "Quellensteuer monthly reporting for small employers",
+     "score": 1,
+     "status": "weak",
+     "trigger": "ELM Quellensteuer monthly returns require Swissdec-certified payroll; paper forms still possible (cantonal differences).",
+     "unchecked": "Nothing further."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "No fuel-station or LPG-specific duty found in budget. Heating-oil side: GSchG Art. 22 tank inspection every 10 years, leak-detection check every 2 years; Valais requires a 10-year vignette on tanks over 450 L since 1 Jan 2025 and suppliers may only fill tanks that carry it (see candidate 'Heating-oil tank register / vignette'). Related to K04 only loosely. LPG, Mineralölsteuer Steuerlager not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Pflichtlager grain and feed: importers and first placers above thresholds sign a Pflichtlager contract and report quantities periodically to Réservesuisse (BWL). Few firms, mostly large; small millers are below the thresholds. Nothing buildable. Coffee/cocoa EUDR is K18.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "No credit-union or savings-group duty found. New TJPG transparency register (in force 1 Oct 2026) covers Genossenschaften (candidate C2). Housing co-operatives and foundation supervisory reports (Stiftungsaufsicht) not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "TARDOC plus ambulatory flat rates replaced TARMED on 1 Jan 2026, XML 5.0 invoicing; practice-software vendors (curaMED, Swisscom, others) have adapted. Spitex billing is K09. Medical X-ray licences (BAG, 10-year, RPS portal) screened as C7.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Narcotics bookkeeping (BetmKV Art. 57, 10-year retention) can be electronic and is kept in-house for inspection; pharmacies are under cantonal supervision, annual accounts go to Swissmedic only for wholesale-licensed ones. Drogerie-specific duties not found. Likely covered by pharmacy software; unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Personalverleih needs cantonal/SECO licence with deposit (CHF 50,000-100,000 depending on source). GAV Personalverleih 2024-27, Reinigung GAV Deutschschweiz 2026-2029; joint commissions (PK) run Lohnbuchkontrollen. No reporting software gap found.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Ticino LEPICOSC register for construction firms doing works above CHF 30,000 (since 2014) and worker lists on tenders; Geneva must announce subcontractors. No mandatory site-access system. Related to K02. Asbestos diagnosis and demolition-waste duties not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Strong new lead: revised GwG in force 1 Oct 2026 adds 'Beraterinnen und Berater' (real estate transactions, setting up non-operating entities). SRO affiliation mandatory; FINMA notification due 1 Dec 2026 for FINMA licence holders; exemptions. Candidate C1. Notaries are cantonal, not screened separately.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Levies and guest registration are set per canton and commune (Bern, Luzern, Schaffhausen portal gast.sh.ch with OpenAPI). Feratel/Chekin, Easycheckin (Omnisoftory), Guesty AutoComply, Cloudbeds already integrate. Many communes issue new regulations for 1 Jan 2027. Candidate C10 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Holzhandelsverordnung (since 1 Jan 2022): traders must document supplier and customer; first placers need a due-diligence system. No filing to an authority. Wood declaration is a consumer-information rule. Fish and EUDR not searched (EUDR is K18).",
+     "status": "screened"
+    },
+    {
+     "category": "31. Stationary refrigeration, air-conditioning and heat-pump systems over 3 kg refrigerant (Anhang 2.10 ChemRRV)",
+     "found": "Operators must keep a Wartungsheft, run periodic leak checks and report commissioning and decommissioning; reports go through Lombardi SA since 1 Oct 2021. Annex 2.10 amended from 1 Jan 2027 (Federal Council decision of 29 Oct 2025). Basel-Stadt campaign found 41% had no leak-check proof and 85% had reporting data that did not match. Candidate C3.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Wine trade and wine cellars (Weinhandelskontrolle, Kellerbuch, vintage reports)",
+     "found": "Candidate C4. SWK registration before trading, annual inventory and volume report by 31 Jan, Kellerbuch per wine and vintage, 10-year retention. Valais has e-Vendanges harvest control with interfaces for cellar software.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Heating-oil tanks and tank revision firms (GSchG Art. 22, cantonal tank rules)",
+     "found": "Candidate C5. Valais vignette since 1 Jan 2025; Thurgau requires revision firms to report decommissioning; AR dropped firm licensing; Fribourg provides reminder templates for communes.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Periodic inspection of electrical installations (NIV, independent control bodies)",
+     "found": "Candidate C6. Owners must have the installation inspected every 1, 5, 10 or 20 years by an independent control body; network operator reminds 6 months ahead and escalates to ESTI after two reminders; a 2023 ESTI document expects a strong rise in inspections over the next five years.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Transparency register for legal entities (TJPG, in force 1 Oct 2026)",
+     "found": "Candidate C2. Register live since 1 Oct 2026; reports via EasyGov.swiss or cantonal commercial register offices; transition up to two years; not public. Sources conflict on whether foundations and associations are covered.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Medical, dental and veterinary X-ray installations (BAG licence, RöV)",
+     "found": "Candidate C7. Licence valid 10 years, lapses on practice transfer or move; filings through BAG RPS portal; firms doing acceptance and constancy tests need their own licence. No Swiss-specific dental or vet detail found.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Fire-safety self-control in restaurants and lodging (VKF, cantonal building insurers)",
+     "found": "Candidate C8 (weak). Operators are responsible at all times; Aargau insurer checks about 900 catering businesses a year; Bern police have focused on fire-safety licence conditions since Feb 2026; Fribourg checks accommodation at least every 5 years. No explicit duty to keep a written self-check log found.",
+     "status": "screened"
+    },
+    {
+     "category": "38. Withholding-tax (Quellensteuer) payroll reporting by small employers",
+     "found": "Covered: ELM Quellensteuer requires Swissdec-certified payroll, monthly returns, paper still possible. Related to K08. Nothing new.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "Kälteanlagen Kontrollheft Kältemittel Wartungsheft Pflicht Schweiz ChemRRV Meldung",
+    "Weinbau Kellerbuch Weinhandelskontrolle Erntemeldung Software Kellerkontrolle Kanton",
+    "Immobilienmakler Geldwäscherei SRO Meldepflicht Revision GwG 2026 Berater Schweiz",
+    "Beherbergungsabgabe Kurtaxe Gästemeldung Airbnb Registrierungspflicht Kanton 2026 Vermieter",
+    "Personalverleih Bewilligung SECO Kaution Sicherheitsdienst Reinigung GAV Paritätische Kommission Kontrolle Software",
+    "Holzhandelsverordnung Deklarationspflicht Holz Sorgfaltspflicht Schweiz Händler Meldung",
+    "Heizöl Händler Tankanlagen Kontrolle Tankrevision Tankstelle Betreiber Pflichten Kanton Software",
+    "Arztpraxis Röntgen Strahlenschutz Qualitätssicherung Meldung BAG Zahnarztpraxis (returned German results)",
+    "TARDOC ambulante Pauschalen 2026 Arztpraxis Abrechnung Software Einzelpraxis",
+    "Pflichtlager Getreide Futtermittel Lagerhalter Meldung BWL Müllerei Importeur",
+    "Apotheke Drogerie Betäubungsmittel Buchführung Meldung Swissmedic Vorläuferstoffe Software Schweiz",
+    "Transparenzgesetz Schweiz Register wirtschaftlich berechtigte Personen Inkrafttreten Meldepflicht",
+    "Baustelle Zutrittskontrolle Registrierung Arbeitnehmer Subunternehmer Kanton Tessin Genf",
+    "Quellensteuer Arbeitgeber monatliche Abrechnung ELM Kanton Meldung Grenzgänger Software",
+    "Brandschutz Eigenkontrolle Betrieb Notbeleuchtung Feuerlöscher VKF Gastgewerbe Protokoll",
+    "Röntgenanlage Schweiz Bewilligung BAG Strahlenschutz Praxis Abnahmeprüfung Konstanzprüfung",
+    "Transparenzregister TJPG Eintragung Dienstleistung Treuhand KMU Software",
+    "Immobilienmakler SRO Anschluss Geldwäscherei Beraterinnen Beratern 1. Oktober 2026 SVIT",
+    "Kältetechnik Wartungsheft Dichtigkeitskontrolle Software App Kälteanlagen cooling-reg",
+    "Unabhängige Kontrollorgane Elektroinstallationen periodische Kontrolle Kontrollbericht Software ESTI"
+   ],
+   "searches": 23
+  },
+  "tag": "w2b23"
+ },
+ "gapfill:switzerland": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small Swiss manufacturers and traders that export to the EU or EFTA, and their domestic suppliers",
+     "category": "Swiss customs and export small-operator duties",
+     "evidence": "https://www.bazg.admin.ch/dam/de/sd-web/n9tXfQRJwDGq/freihandelsabkommenwassindlieferantenerklaerungeniminland.pdf ; https://www.bazg.admin.ch/dam/de/sd-web/UPwXWF-Dz-ZU/Lieferantenerkl%C3%A4rung%2010.25%20IN%20DE.pdf ; https://www.aeb.com/de/magazin/artikel/lieferantenerklaerung-lle-3tipps.php ; https://international.post.ch/blog/ursprungszeugnis-schweiz-eur1",
+     "existing": "AEB (German) tips and content only; Passar and Certificat are BAZG tools for the declaration itself; ERP modules not checked",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Lieferantenerklärung (LE/LLE) and Ursprungsnachweis tracker for small Swiss exporters and their domestic sub-suppliers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "FHA origin rules and BAZG: domestic LE and long-term LLE (up to 2 years) must be issued, renewed and held, or preferential treatment is lost. EA authorisation numbers must appear on invoice declarations.",
+     "trigger_note": "Related to K07 (Passar), but a different duty.",
+     "unchecked": "Swiss competitors (ERP origin modules, Handelskammer services, Swiss-specific LE software). Number of exporters that are small. Effect of Bilaterale III on origin duties."
+    },
+    {
+     "buyer": "About 4,000 AGVS garages and car dealers (small, family-run)",
+     "category": "Motor-vehicle trade and garages",
+     "evidence": "https://www.zh.ch/de/mobilitaet/fahrzeuge-kontrollschilder/fahrzeuggewerbe/fahrzeugbetriebe.html ; https://www.baselland.ch/politik-und-behorden/direktionen/sicherheitsdirektion/motorfahrzeugkontrolle/fahrzeugzulassung/kontrollschilder/haendlerschild ; https://www.bazg.admin.ch/dam/de/sd-web/f4nFab7vtNkj/Haendlerschilder_Merkblatt_d_Jan2022.pdf ; https://lexfind.ch/tolv/223770/de ; https://www.tcs.ch/de/auto-zweirad/kontrollen-unterhalt/abgaswartung.php",
+     "existing": "None found in search; garage DMS (not searched by name) probably already log service records",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Garage compliance pack: Händlerschilder (Kollektivschilder) usage log and Abgaswartung records",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Cantonal dealer-plate permits (VVV Art. 22-29, Annex 4) limit use to listed trip types and make the holder liable; Art. 35 VTS / Art. 59a VRV requires signed Abgaswartung documents and printouts kept until the next service",
+     "unchecked": "No Swiss trip-log duty was confirmed (the only logbook rules found were German). OBD and new-car exemptions shrink the Abgaswartung volume. Existing garage DMS coverage. Whether any 2024+ MFK change applies."
+    },
+    {
+     "buyer": "Swiss clubs and associations that run tombolas, lotteries and raffles at events (hundreds of thousands of associations, low frequency each)",
+     "category": "Lotteries and fundraising by associations",
+     "evidence": "https://www.sz.ch/public/upload/assets/65846/Merkblatt_Kleinlotterien_2023.pdf?fp=1 ; https://sg.lexwork.naz.ch/de/dta/455.1.pdf ; https://gdb.ow.ch/frontend/versions/1678/download_pdf_file ; https://lex.vs.ch/frontend/versions/96/download_pdf_file",
+     "existing": "None found; official PDF forms per canton or commune",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Association tombola / Kleinlotterie permit and final-accounts router",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Art. 32-34 BGS plus cantonal acts; prize plan, concept, fee, draw supervision and some Schlussabrechnung to municipality or canton",
+     "unchecked": "Zürich and Bern rules. Whether any online portal exists. Willingness to pay of volunteer clubs. Cantons differ and the permit goes to municipalities in some cantons."
+    },
+    {
+     "buyer": "Swiss family farms (farms receiving direct payments)",
+     "category": "Agricultural farm-level duties",
+     "evidence": "https://www.ag.ch/media/kanton-aargau/dfr/dokumente/landwirtschaft/direktzahlungen-beitraege/aktuelle-kampagne/anleitung-lawis-plus-anmeldung-2026.pdf ; https://www.gr.ch/DE/institutionen/verwaltung/dvs/alg/ueberuns/aktuell/Seiten/Umstellung-von-Agricola-auf-das-neue-interkantonale-Agrarinformations-system-%C2%ABNikA%C2%BB.aspx ; https://www.barto.ch/docs/Deutsch/Bausteine%20Wegleitungen/FactSheet_SuisseBilanz.pdf ; https://www.bio-inspecta.ch/docs/transfer/22_552.pdf",
+     "existing": "Barto (Suisse-Bilanz CHF 43/yr), Agrosoft, 365FarmNet; the state portal NikA/LAWIS plus is free",
+     "known_id": "K21",
+     "known_mark": "new",
+     "name": "Farm-level compliance on Swiss farms: NikA/LAWIS plus transition and antibiotic Behandlungsjournal",
+     "score": 3,
+     "status": "weak",
+     "trigger": "DZV: ÖLN on the whole farm, annual agate/NikA registration and structure-data survey; Tierarzneimittel-record rules (5-year retention); Suisse-Bilanz nutrient balance",
+     "trigger_note": "Different buyer from K21 (livestock trader); related by agate/TVD.",
+     "unchecked": "Whether Barto or Agrosoft include a digital Behandlungsjournal. Public NikA interface for vendors. Agridea/Agroscope tools. The 2027 registration changes."
+    },
+    {
+     "buyer": "All Swiss employers without a GAV waiver (esp. small trades)",
+     "category": "Occupational safety and health / working-time recording",
+     "evidence": "https://www.kmu.admin.ch/de/arbeitszeiterfassung-pflicht-fuer-arbeitgebende ; https://www.weka.ch/themen/personal/arbeitszeit-und-absenzen/arbeitszeiterfassung/article/arbeitszeiterfassung-die-gesetzlichen-pflichten/ ; https://www.sgv-usam.ch/media/7584/20181203_vnla_arbeitszeiterfassung_de.pdf ; https://media.abacus.ch/abacus/produkte/zeiterfassung/Prosp_Abacus_Zeiterfassung_2019_de_web.pdf",
+     "existing": "Abacus, Proffix and many generic time-tracking apps; Excel is accepted",
+     "known_id": "K19",
+     "known_mark": "new",
+     "name": "Arbeitszeiterfassung compliance tool for trades and SMEs",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Art. 46 ArG; Art. 73 ArGV 1 (five-year retention); Art. 73a waiver needs GAV and above CHF 120,000; Art. 73b simplified recording",
+     "trigger_note": "Rejected as a generic tool already served by vendors.",
+     "unchecked": "None needed; generic time tracking is out of scope and Abacus/Proffix cover it."
+    },
+    {
+     "buyer": "Firms under 10 staff with special hazards (crafts, construction)",
+     "category": "Occupational safety and health",
+     "evidence": "https://www.suva.ch/praevention/lebenswichtige-regeln-und-bestimmungen/asa-richtlinie/gefahrdungsermittlung-kleinbetriebe ; https://ekas.admin.ch/fileadmin/Dokumente/Kurzbeschriebe_ueBL_ASA-Loesungen/Branchenloesungen/DE/BL_04_Bauhauptgewerbe_und_Steinverarbeitung.pdf",
+     "existing": "Suva Kundenportal checklists; sicuro (building trade); industry associations",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "ASA Branchenlösung / Suva hazard-checklist records for micro-firms",
+     "score": 2,
+     "status": "weak",
+     "trigger": "ArG/UVG and EKAS Richtlinie 6508: prove hazard identification with Suva checklists or a Branchenlösung",
+     "unchecked": "Whether any commercial SaaS exists. Whether firms actually have to submit anything or only prove it on inspection (no periodic filing found)."
+    },
+    {
+     "buyer": "Livestock dealers and commercial animal transporters",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.zh.ch/de/umwelt-tiere/tiere/handel-gewerbe-tiere.html ; https://so.ch/verwaltung/volkswirtschaftsdepartement/amt-fuer-landwirtschaft/tiere-und-lebensmittel/tiergesundheit/tierverkehr/gewerbsmaessige-internationale-transporte/",
+     "existing": "Identitas eTransit, ATV-Viehhandel (per K21)",
+     "known_id": "K21",
+     "known_mark": "known",
+     "known_note": "Same buyers and duty as K21; no new evidence to revive it.",
+     "name": "Livestock trader and animal transporter licences (Viehhandelspatent renewals, transport licence per vehicle, TVD)",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Tierseuchenverordnung SR 817.190: annual patent renewal; transport licence per vehicle; TVD entries",
+     "unchecked": "Tachograph and vehicle-record duties."
+    },
+    {
+     "buyer": "Drilling firms",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://www.opensource.admin.ch/de/softwares/eod5b9 ; https://models.geo.bs.ch/Modellbeschreibungen/BK_Bohrkataster_KGDM_V1_0.pdf",
+     "existing": "State databases swissgeol boreholes / swissforages (free)",
+     "known_id": "K05",
+     "known_mark": "known",
+     "known_note": "Same duty as K05; the state borehole databases are free.",
+     "name": "Erdwärmesonde / water-well drilling notification and borehole data",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Cantonal Gewässerschutz and geology-data rules (GeoIG, LGeolV)",
+     "unchecked": "Cantonal reporting deadlines."
+    },
+    {
+     "buyer": "Retailers, kiosks, bars selling tobacco and e-cigarettes",
+     "category": "Gastro and retail licensing",
+     "evidence": "https://so.ch/verwaltung/staatskanzlei/medien/medienmitteilung/news/e-zigaretten-neu-erst-ab-18-jahren-erhaeltlich-verstaerkte-kontrollen/ ; https://www.bag.admin.ch/de/faq-produktmeldung-und-tabacinfo",
+     "existing": "Not checked",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Gastro / kiosk tobacco and e-cigarette retail compliance (age-18 rule, TabPG)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "TabPG: age-18 minimum from 1 Oct 2024; cantonal test purchases and fines; product notification only for manufacturers and importers",
+     "unchecked": "No recurring filing or register found for retailers; Kleinhandel alcohol permits."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Nothing new beyond K21. Viehhandelspatent is cantonal (seat canton), valid 3 years, renewed annually, with a refresher course after 4 renewals; animal-transport licences are per vehicle (Type 1 under 8h, Type 2 over 8h), drivers need FBA training (SVV is a recognised provider); movements go into TVD on agate.ch. Sources: zh.ch handel-gewerbe-tiere, so.ch gewerbsmaessige-internationale-transporte, gr.ch Tierverkehr, BLV training list. No tachograph or vehicle-record evidence found.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Nothing new beyond K05. The first search returned only German and Austrian results. The second found the Swiss frame (GeoIG SR 510.62, LGeolV SR 510.624, cantonal Bohrkataster such as Basel-Stadt, swisstopo borehole database boreholes.swissgeol.ch / swissforages.ch). The reporting duty and deadlines differ by canton and could not be confirmed. Drilling firms are few and the state databases are free, so no candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "Motor-vehicle trade and garages: AGVS/cantonal registers, Händlerschilder (Wechselschilder) and the new 2024+ MFK/periodic inspection and Abgaswartung (OBD) records",
+     "found": "Händlerschilder (Kollektiv-Fahrzeugausweis, VVV Art. 22-29 and Annex 4) are cantonal: one full-time specialist, a location permit, and liability insurance. Permitted trips are listed exhaustively. I found no Swiss duty to keep a dealer-plate trip log (only German rules turned up). Abgaswartung (Art. 35 VTS, Art. 59a VRV): the garage must sign the document and keep printouts until the next service. OBD vehicles are exempt, and new vehicles no longer need the test. I found no evidence of a 2024-25 regime change. About 4,000 AGVS garages. No Swiss garage software was confirmed for the plate or emissions modules (unchecked, since garage DMS exist but were not searched by name).",
+     "status": "screened"
+    },
+    {
+     "category": "Gastro and retail licensing: Wirtepatent/Gastgewerbebewilligung, alcohol and tobacco/e-cigarette sales rules (new Tabakproduktegesetz 2024), age-check and Kleinhandel registers",
+     "found": "Nothing worth building. TabPG product notification (Tabacinfo) falls on manufacturers and importers only. Retailers have only the age-18 rule (federal since 1 Oct 2024) and cantonal controls (e.g. SO). Wirtepatent and Betriebsbewilligung are cantonal, personal and one-off, with a fee of CHF 600 in Basel-Stadt; Basel-Stadt has proposed abolishing the Wirtepatent and the presence duty (outcome unverified). No recurring filing found. Kleinhandel alcohol permits were not found in the results.",
+     "status": "screened"
+    },
+    {
+     "category": "Agricultural farm-level duties: Direktzahlungen, Ökologischer Leistungsnachweis (ÖLN), Suisse-Bilanz/nutrient balance, Agate, GIS-Meldung, and Tierhalter registers (Behandlungsjournal)",
+     "found": "Annual farm-data collection and programme registration run through agate.ch. Cantons are moving from Agricola to the new NikA / LAWIS plus system (built by Softec; pilot canton Schwyz; 2026 registration 15 Aug-15 Sep in AG). That is a free state portal. Software competition exists: Barto (Suisse-Bilanz module CHF 43/yr, BLW-approved; reuse for GMF and ÖLN), Agrosoft (Feldmanager, SwissGAP records, TVD), 365FarmNet link. The antibiotic Behandlungsjournal is still a paper form (Bio-Inspecta, 5-year retention); no digital product found. No public NikA vendor API found.",
+     "status": "screened"
+    },
+    {
+     "category": "Lotteries, Swiss gambling and fundraising by associations: Lotteriegesetz/Geldspielgesetz permits for tombolas, raffles and club events, plus Sunday/event permits",
+     "found": "Small lotteries and tombolas need a permit under Art. 32-34 BGS plus cantonal law. The authority varies: the municipality in SG and OW, the canton in SZ and others. The application needs a prize plan and a concept; some cantons limit it to one per year, require a local seat, and set a 3-month lead for supra-regional events. Fees are 2-10% in VS and capped at CHF 500 in OW. Local, patchwork and low-frequency per club. No portal or software found; Zürich and Bern were not covered.",
+     "status": "screened"
+    },
+    {
+     "category": "Occupational safety and health: ASA/EKAS industry solutions, Branchenlösung enrolment and SUVA risk records for small firms; also Arbeitszeiterfassung duty (ArGV 1 Art. 73)",
+     "found": "Time recording: Art. 46 ArG and Art. 73 ArGV 1, five-year retention. The Art. 73a waiver needs a GAV and income above CHF 120,000, and Art. 73b allows simplified recording, so almost all SMEs must record. Excel and IT-login records are accepted. Vendors: Abacus and Proffix modules (dated sources); generic time-tracking is out of scope. ASA: firms under 10 staff with special hazards prove hazard identification with checklists from the Suva portal or a Branchenlösung (e.g. sicuro for building trades; EKAS list). Nothing recurring that is unserved was found.",
+     "status": "screened"
+    },
+    {
+     "category": "Swiss customs and export small-operator duties: Ursprungsnachweis (EUR.1, Ursprungserklärung, REX), export Lieferantenerklärung, and VAT import deferral for small exporters; agricultural direct-sale (Hofläden) and Pflichtlager for fuel importers",
+     "found": "Origin proof is a real recurring duty for exporters: invoice declaration by an authorised exporter (EA, with an authorisation number) or EUR.1 certified by BAZG, with the EUR.1 threshold of EUR 6,000 / CHF 10,300 per the Post. Domestic supplier declarations (LE) and long-term LLE (valid up to 2 years) must be issued and renewed or the origin chain breaks. BAZG docs: Lieferantenerklärung 10.25. Generic expiry tracking is only covered by German AEB content. No Swiss SME-specific tool was confirmed. Pflichtlager, Hofläden and VAT deferral were not searched (budget).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 0,
+   "queries": [
+    "Händlerschilder Bewilligung Fahrtenkontrolle Garagist Strassenverkehrsamt Pflichten Abgaswartung Protokoll Garage",
+    "Tabakproduktegesetz TabPG Meldepflicht Verkauf E-Zigaretten Detailhandel Pflichten Wirtepatent Kleinhandelsbewilligung Alkohol Kanton",
+    "Erhebung landwirtschaftliche Strukturdaten Agate AGIS Direktzahlungen ÖLN Aufzeichnungen Suisse-Bilanz Software Landwirt Pflichten",
+    "Kleinlotterie Tombola Bewilligung Verein Geldspielgesetz Abrechnung Lotterie Kanton Gesuch Verein Veranstaltung",
+    "Arbeitszeiterfassung Pflicht KMU Verzicht Art. 73a ArGV 1 Software; ASA Branchenlösung Kleinbetriebe Dokumentation EKAS Richtlinie 6508",
+    "Ursprungserklärung Ermächtigter Ausführer Lieferantenerklärung KMU Schweiz Ursprungsnachweis Freihandelsabkommen Pflichten Software",
+    "Tierverkehrsdatenbank Viehhändler Bewilligung Tiertransport Transporteur Dokumentation Tiertransportfahrzeuge Fahrtenschreiber Schweiz",
+    "Brunnenbauer Wasserentnahme Bewilligung Grundwasserfassung Bohrung Meldepflicht Bohrprofil Kanton Brunnen Bohrfirma",
+    "Bohrungen Meldepflicht Bohrprofil Geologiegesetz Kanton Bohrfirma Grundwasserbohrung Brunnen Schweiz swisstopo",
+    "Garage Software Schweiz Händlerschilder Verwaltung Abgaswartung Garagenverwaltung AGVS",
+    "Wirtepatent Gastgewerbebewilligung Kanton Betriebsbewilligung Pflichten Meldung Wechsel Betriebsleiter Alkoholausschank",
+    "Behandlungsjournal Tierhalter Software Landwirtschaft Schweiz Betriebsführung Aufzeichnungen ÖLN Suisse-Bilanz Programm",
+    "Arbeitszeiterfassung Software Schweiz KMU gesetzeskonform ArGV 1 Zeiterfassung Handwerk",
+    "Langzeit-Lieferantenerklärung Ursprung Software Schweiz KMU Ursprungsnachweis Verwaltung Lieferantenerklärungen Exporteur",
+    "NikA LAWIS plus Agricola Ablösung Schnittstelle Betriebsdaten Landwirt Software Anbieter agate Anmeldung 2026",
+    "Abgaswartung Änderung Garagen Pflicht OBD Abgaswartungsdokument Aufhebung Verordnung 2024 2025 Motorfahrzeuge periodische Prüfung",
+    "ASA Branchenlösung Kleinbetrieb Mitgliedschaft Gefährdungsermittlung Arbeitssicherheit Handwerk online Tool Sicherheitsbeauftragter KMU Schweiz Dokumentation",
+    "Verein Lotterie Tombola Bewilligung online Gesuch Portal Gemeinde Gewinnplan Abrechnung Meldung Kanton Zürich Bern Merkblatt Verein"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b23"
+ },
+ "opus:switzerland:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Nothing found that is specific to Swiss real estate brokers or advisers. Generic Swiss AML/KYC software exists: Zyphe (ID checks, PEP and sanctions screening, beneficial-owner lookup, MROS report drafts), KYC360 and PXL GWG Ident (aimed at banks and fintechs), plus Goldblum's outsourced compliance officer and SRO-audit readiness service. The 11 FINMA-recognised SROs (e.g. VQF, ARIF) set member rules and forms, and may supply templates. Whether any SRO offers software, and which SROs accept brokers, was not verified. No SVIT SRO solution found.",
+   "duty": "Revised GwG (Art. 2 para. 3bis/3ter, Art. 8b-8c, Art. 12) and GwV (Art. 12f, 12g), in force 1 Oct 2026. Professional advisers who help third parties with the financial side of property purchases or sales, or with setting up, administering or trading non-operating entities, must: identify the client and the beneficial owner; establish the purpose of the transaction; clarify higher-risk cases; document and keep records for 10 years; report suspicions to MROS; and have training, internal controls and sanctions measures. These duties apply from 1 Oct 2026 with no transition. Advisers already active must file an SRO membership application by 1 Dec 2026, and new advisers within 2 months of starting. Until the SRO decides, existing relationships may only be continued. An external audit firm checks compliance, at the member's cost. Without a timely application or with a refusal, the activity must stop, and SROs can impose sanctions. Criminal penalty amounts were not verified. FINMA-supervised advisers must notify FINMA via EHP by 1 Dec 2026. Exemptions: owner-occupied residential property; deals under CHF 5m paid only through regulated banks or intermediaries; family and inheritance transfers; intra-group services; agricultural land for owner-cultivators; and others.",
+   "market": "Not quantified. No count of brokers or advisers in scope was found. The government's cost study (BASS for SIF) reportedly contains a headcount estimate, but it was not reached. The exemptions (own-use homes; bank-paid deals under CHF 5m) remove much of the ordinary residential brokerage. Brokers would still need to screen each deal to decide whether it is in scope. The likely buyers are brokers handling investment or commercial property, high-value deals, and fiduciaries or company-formation and domicile providers. For context, about 485,000 companies are on the commercial register (these are the companies themselves, not the advisers).",
+   "reason": "The duty is real and in force. FINMA confirms the revised GwG/GwV took effect on 1 Oct 2026. According to BDO (citing Art. 12g nGwV) and WEKA, advisers already active must apply to an SRO by 1 Dec 2026. KYC, beneficial-owner, record-keeping, MROS-reporting and training duties apply with no transition period, and records must be kept 10 years. I found no broker-specific Swiss tool. What exists is generic financial-intermediary KYC/AML software (Zyphe, KYC360, PXL GWG Ident) and outsourced compliance (Goldblum). The market is narrow because of broad exemptions: owner-occupied homes, and deals under CHF 5m paid through banks. That makes per-deal scope screening plus KYC a real but small niche. The number of brokers affected was not found. SROs will likely supply forms, and the SVIT position was not found.",
+   "searches": 6,
+   "sources": "https://www.finma.ch/dokumentation/dossier/dossier-geldwaeschereibekaempfung/hinweise-zur-revision-des-geldwaeschereigesetzes-und-der-geldwaeschereiverordnung/ ; https://www.bdo.ch/de-ch/publikationen/beratung-neu-dem-geldwaschereigesetz-(gwg)-unterstellt-diese-pflichten-gelten-ab-1-oktober-2026 ; https://www.weka.ch/themen/bau-immobilien/immobilien/immobilienkauf-und-verkauf/article/immobilienmakler-revision-des-geldwaeschereigesetzes/ ; https://www.rsm.global/switzerland/de/node/741 ; https://www.zyphe.com/ch ; https://www.goldblum.ch/knowledgebase/aml-compliance/ ; https://kyc360.com/kyc-compliance-swiss-financial-intermediaries ; https://www.pxl-vision.com/hubfs/Resources/Whitepapers%20and%20One%20Pagers/GWG-Ident-OnePager/OnePager-PXL-GWG-Ident-EN.pdf ; https://www.vqf.ch/de/dokumente/beitritt/358-vqf-dok-nr-201-5/file ; https://www.weka.ch/themen/management/unternehmensfuehrung/compliance/article/gwg-neue-pflichten-nach-tjpg-und-der-gwg-reform/",
+   "suggested_score": 5,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b23"
+ },
+ "opus:switzerland:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Reporting: the free official platform cooling-reg.ch, run by Lombardi SA for BAFU, handles registration, changes, deregistration and vignette orders, works on mobile, and paper is still accepted. Its BAFU page mentions no API and no electronic logbook. This settles the unresolved Lombardi vs. cooling-reg.ch question in the claim: they are the same service. The reporting office also sells the paper logbook and vignette. I found no Swiss-specific digital logbook in German or French searches. Foreign F-gas logbook tools exist (Refcom/Joblogic and FGASmanager in the UK, GoCanvas templates), and general trade software such as STREIT (Germany) is used by refrigeration firms. I did not check SVK/ASF tools or Swiss field-service suites.",
+   "duty": "ChemRRV Annex 2.10 (Swiss federal law, in force). Owners of stationary systems with more than 3 kg of refrigerant must make sure a maintenance logbook (Wartungsheft) is kept, with the owner's name in it. After each job the technician records the date, the work done, the leak-check result, the refrigerant type and quantity removed or added, the firm and a signature. Leak checks are required at least at every intervention and maintenance visit for systems over 3 kg (ozone-depleting or air-stable refrigerants) or over 5 t CO2-eq. Leaks must be repaired without delay. Commissioning, changes and decommissioning must be reported to the BAFU reporting office. The leak-check frequency comes from the French BAFU page and guidance search results; I could not open the 2025 BAFU guidance itself (HTTP 502). The Federal Council decision of 29 Oct 2025 (AS 2025 747), effective 1 Jan 2027 for import and 1 Jul 2027 for supply to third parties, mainly adds bans on placing certain air-stable-refrigerant systems on the market. Search summaries described no logbook change, but I did not read the legal text. Not found: no specific fine amounts. Basel-Stadt and national campaigns found many faults (two thirds of 211 systems flagged nationally). FWS (fws.ch) disputes whether the maintenance duty applies to heat pumps.",
+   "market": "BAFU statistics (data to 2022, published May 2024): about 230,000 systems over 3 kg in operation, with more than 13,000 new ones a year, and heat pumps growing fastest. I did not find the number of distinct owners or of refrigeration and heat-pump service firms. The likely buyers are service firms rather than the many owners, and that is a few hundred to low thousands of firms (my estimate, not verified).",
+   "reason": "The duty is real, but the gap is narrow. Owners of systems over 3 kg must keep a maintenance logbook, have leak checks done at every intervention and maintenance visit, and report commissioning, changes and decommissioning (ChemRRV Annex 2.10). The free BAFU platform cooling-reg.ch, run by Lombardi SA, already handles the reporting. No source showed it has an electronic logbook, and I found no Swiss logbook app. The 2027 amendment mainly bans placing certain systems on the market, so it brings no new logbook deadline. Service firms, not owners, write the logbook and probably use field-service software. Owners are unlikely to pay, there is no fixed check interval, and FWS disputes the duty for heat pumps. I made 8 searches, 2 over the budget of 6.",
+   "searches": 8,
+   "sources": "https://www.bafu.admin.ch/de/meldung-kw ; https://www.bafu.admin.ch/de/kaeltemittel ; https://www.bafu.admin.ch/fr/fluides-frigorigenes ; https://www.bafu.admin.ch/dam/de/sd-web/wE7R4UuX6wDw/anlagen_mit_kaeltemittel_in_der_schweiz.pdf ; https://www.bafu.admin.ch/dam/de/sd-web/GQnOJ-XN2kz1/GrafischeZusammenfassungderRegelungenzumInverkehrbringenstationrerAnlagenmitKltemitteln(StandApril2026).pdf ; https://so.ch/verwaltung/bau-und-justizdepartement/amt-fuer-umwelt/abfall-chemie/gefahrstoffe/kaeltemittel-und-kaelteanlagen/ ; https://www.fws.ch/wp-content/uploads/2024/10/Prise-de-position-Contole-etancheite.pdf ; https://media.bs.ch/original_file/1c7724e81ca11bee7549bcf3d1d6578e6caec930/bericht-kampagne-kaelteanlagen.pdf ; https://refindustry.com/news/refcom-s-powerful-software-platform-goes-mobile/ ; https://www.acrjournal.uk/uk/control-compliance-with-fgasmanager ; https://www.streit-software.de/erfahrungen/streit-und-kaelte-klima-betrieb-frigoclim",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b23"
+ },
+ "opus:switzerland:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Swiss product marketed as SWK-compliant or offering an SWK export. The SWK portal is free and the annual return is entered by hand (two figures). Generic ERPs (Abacus at Weinkellereien Aarau) and stock systems are accepted in place of Kellerbuch cards. Wine-specific software exists, such as BOXXER VINO (Medialine, a digital Kellerbuch). Valais provides gateways from cellar software into e-Vendanges, so Swiss cellar-software vendors exist, but none are named on the cantonal page. Harvest control goes through free state portals (e-Vendanges, Agate/Gelan eAttest). Not reached: Romandie cellar-software vendors that have e-Vendanges gateways, and whether the SWK portal has an upload or API.",
+   "duty": "Swiss Weinverordnung (SR 916.140) Art. 33–41: anyone trading wine commercially must notify the SWK before starting (Art. 34 exemptions apply). Cellar accounting must be kept continuously, one card per wine and vintage; a warehouse or ERP system may replace the cards. Every year the 31 Dec inventory and the litres sold must be entered in the SWK customer account by 31 Jan, with no reminder sent. Records are kept 10 years under the OR. Inspections are risk-based, about every 6–8 years. Firms selling only labelled bottles to end consumers can get simplified accounting (two annual lists, no inventory) after their first inspection. Penalties are mainly administrative orders, such as backdated cellar accounting (BVGer B-4173/2022, 2024); I found no fine amounts. Separately, cellars do their own harvest control: Valais via e-Vendanges by 15 Nov (late harvest 28 Feb), and German-speaking cantons via eAttest on Agate/Gelan.",
+   "market": "The SWK controlled 1,480 wine-trade businesses in 2017 and 1,336 in 2018 (SWK activity report via 1815.ch). From 2019 about 1,100 self-cellarers (Selbsteinkellerer) also came under the SWK. Statista has the registered count to Dec 2024 behind a paywall, so the current total is unverified; a rough estimate is 3,000–4,000 registered businesses. The BLW Weinjahr 2022 PDF returned a 502 error.",
+   "reason": "The duty is real. Weinverordnung SR 916.140, Art. 33–41, requires SWK notification and continuous Kellerbuch records. The 31 Dec inventory and litres sold go into the SWK customer account by 31 Jan. In 2024 the Federal Administrative Court ordered cellar accounting backdated to 2019. No Swiss tool specific to SWK turned up. But the annual return is only two figures entered by hand, and the SWK accepts any ERP or stock system in place of paper cards. Small bottle sellers can get simplified accounting, and inspections come every 6–8 years. Valais offers gateways from cellar software into e-Vendanges, so cellar-software vendors exist. About 1,480 firms were controlled in 2017, plus about 1,100 self-cellarers from 2019. Pain and willingness to pay look low.",
+   "searches": 6,
+   "sources": "https://www.rister.ch/de/post/weinhandel-schweiz-gruenden-bewilligung/ ; https://www.rister.ch/post/creer-entreprise-commerce-vin-suisse/ ; https://www.vs.ch/fr/web/sca/controle-de-vendange-et-e-vendanges ; https://www.vs.ch/fr/web/sca/informations-pour-les-encaveurs ; https://www.gr.ch/DE/institutionen/verwaltung/dvs/lbbz/beratungfachwissen/weinbau/GesetzlicheGrundlagen/KontaktstellenWeinkontrolle.pdf ; https://www.liebegg.ch/upload/rm/20/26/2026-weisungen-fuer-die-weinlesekontrolle-dch-mit--1.pdf ; https://www.bvger.ch/media-releases/1a6c5f9e-d023-495b-b446-142d13d99996/de/mm_b-4173-2022_de_web.pdf ; https://1815.ch/news/schweiz/news-schweiz/weinhandelskontrolle-stellt-in-19-betrieben-verstoesse-fest ; https://1815.ch/news/schweiz/news-schweiz/weinkontrolleure-stellen-2018-in-19-faellen-gravierende-maengel-fest ; https://medialine.com/media/business-software/boxxer-vino ; https://www.abacus.ch/fileadmin/ablage/10_success_stories/wka/2023_success-story_weinkellereien-aarau_auftragsbearbeitung_de.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b23"
+ },
+ "opus:switzerland:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Brunner Informatik's 'Meldewesen M2' suite has a product made for control bodies: infraDATA express, described as 'Software zur effizienten Abwicklung von Elektro-Kontrollen'. Its product page says it tracks open jobs and their due steps, sets appointments with a calendar per employee, and keeps an order list. It generates the Sicherheitsnachweis, Messprotokoll (test record), inspection report, quote and invoice with one click. It can take data from the measuring device, works offline and sends forms straight to the network operator. Brunner's ElektroForm EVU / infraDATA EVU covers the network operators' side, including reminders. ElektroForm online is already used for submissions, e.g. in the ewz (Zurich) network area. A related gap: on-device reminders to the owner are not explicitly listed for infraDATA express.",
+   "duty": "Real and in force under the Swiss NIV (SR 734.27), Art. 32 and 36–37. Owners must have their installations inspected every 1, 5, 10 or 20 years, plus at a change of ownership when the 10/20-year period has run at least 5 years. An independent control body or an accredited inspection body issues the Sicherheitsnachweis (safety certificate). The network operator must send a written reminder at least 6 months before the deadline. After the reminders are ignored, enforcement passes to ESTI (the federal electrical inspectorate). The legal duty falls on the owner. The control body is a service provider, not the party with the duty. Penalty: ESTI enforcement, with orders and fees, up to cutting off the power supply (ESTI publication 2017-12 'Unterbrechen der Stromzufuhr').",
+   "market": "ESTI's NIV annual report for 2019 counted 2,568 valid inspection permits (Kontrollbewilligungen): 849 individuals and 1,719 firms. The figure has been stable at about 2,500–2,650 since 2013. Not every permit holder is an independent control body. No more recent count was found. The secondary buyers, property owners, are many, but network operators already remind them for free.",
+   "reason": "The duty is real, recurring and enforced (NIV Art. 36). But it sits on owners, while the proposed buyer, independent control bodies, numbers only about 2,500 permit holders (ESTI 2019). The claim that no control-body software exists is wrong. Brunner Informatik's infraDATA express is sold to control bodies for running electrical inspections: job tracking with due steps, per-employee calendars, one-click Sicherheitsnachweis and test records, data from measuring devices, and direct submission to network operators. The same vendor's ElektroForm already dominates installer reporting to network operators (known idea K10) and has network-operator modules. Owner reminders are already done for free by network operators. The market is small and the incumbent is entrenched, which leaves only niche differentiation.",
+   "searches": 8,
+   "sources": "https://www.brunnerinformatik.ch/loesungen-und-produkte/ ; https://brunnerinformatik.ch/loesungen-und-produkte/meldewesen-m2/kontrollorgane/infradata-express/ ; https://www.esti.admin.ch/inhalte/pdf/NIV_I/Deutsch/Publikationen/2017_2018/Infoblatt_Periodische_Kontrolle_de.pdf ; https://www.esti.admin.ch/inhalte/2021-0201_Jahresbericht_NIV_2019_-_DE.pdf ; https://primeo-energie.ch/magnolia/dam/jcr:32b9ed92-774a-434e-bb37-182b3e423e68/FAQ%20Periodische%20Sicherheitspr%C3%BCfung_0125.pdf ; https://www.esti.admin.ch/inhalte/pdf/NIV_I/Deutsch/Publikationen/2017_2018/2017-12_unterbrechen_stromzufuhr_d.pdf",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b23"
+ },
+ "sonnet:switzerland:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real but soft. The Arbeitsgesetz excludes private households (Art. 2 Abs. 1 lit. g ArG). Art. 359 Abs. 2 OR makes cantons issue a NAV for household staff. The SECO Modell-NAV is a minimum standard that cantons are expected to adopt, not a binding federal rule. It has Dokumentationspflichten, but I could not read the PDF text (compressed), so frequency, penalty and per-canton adoption are unverified. Cantons have differing rules (SZ 45h, GR 44h). Zug revised its NAV on 1 Sept 2025 with working-time documentation. A NAV breach has no direct fine. No Swiss live-in time-recording tool was found (generic apps only: bexio, tagwerCH). Market size was not found; the buyers are fragmented households with low willingness to pay.",
+   "searches": 3,
+   "sources": "https://zg.ch/de/news/2025/September/seit-dem-1-september-gilt-der-revidierte-normalarbeitsvertrag-privathaushalt ; https://www.newsd.admin.ch/newsd/message/attachments/52957.pdf ; https://sz.ch/public/upload/assets/42470/25_60.pdf?fp=1 ; https://www.bexio.com/de-CH/arbeitszeiterfassung ; https://mwm.ai/apps/tagwerch/6789006520",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b23"
+ },
+ "sonnet:switzerland:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Drinking water counts as food, so suppliers must run a risk-based self-control (HACCP-type) concept with sampling under SVGW W1. They must also inform consumers at least annually. Cantons check this (FR, ZH, SG). I did not confirm penalties or the exact LMG article. Market: about 3000 public supplies, but the figure comes from an old gwa 2009 source. The SVGW survey covers roughly 670. Many are municipal and are consolidating. Competition: the DQW tool from the claim (not re-verified by my searches) plus free canton templates, the Eawag database and the ZH Trinkwasser Map. Buyers are mostly municipalities with small budgets, so willingness to pay is low and sales are slow. Weak fit for a solo founder.",
+   "searches": 3,
+   "sources": "https://www.zh.ch/de/news-uebersicht/mitteilungen/2024/gesundheit/lebensmittel/merkblatt--informationspflicht-trinkwasserqualitaet-.html ; https://www.fr.ch/de/energie-landwirtschaft-und-umwelt/agro-alimentaire/die-lebensmittelsicherheit/trinkwasser/trinkwasserversorgung-selbstkontrolle-analysen-und-informationspflicht ; https://www.svgw.ch/media/10004/20240228_mm_svgw_wasserstatistik_22.pdf ; https://www.eawag.ch/fileadmin/Domain1/Beratung/Beratung_Wissenstransfer/Kompetenzzentrum_Trinkwasser/struktur_organisation_wasserversorgung.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b23"
+ },
+ "sonnet:switzerland:B10": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real but fragmented. Kurtaxe and Beherbergungsabgabe are set by canton and commune, and private hosts are covered (Bern law clarified 2014 per law.ch). Schaffhausen also requires a guest register for private hosts. The core job is partly handled already. Airbnb collects automatically under about 10 agreements, the latest St. Gallen in July 2025. Chekin, Lodgify and Guesty handle guest reporting. Commune rules and portals differ, so one product is hard to build. Hosts pay little, and reaching them commune by commune is slow. I did not verify host counts, per-commune filing workload or the Ettiswil and Ufhusen 2027 rules. Several sources date from 2014-2019.",
+   "searches": 2,
+   "sources": "https://law.ch/lawnews/2017/10/airbnb-teil-3-oeffentliche-abgaben-einkommenssteuer-mehrwertsteuer-und-kurtaxe/ ; https://news.airbnb.com/de/airbnb-zieht-tourismusabgaben-automatisch-ein-jetzt-auch-im-kanton-st-gallen/ ; https://www.comparis.ch/mobilitaet/reisen/tourismusabgaben ; https://www.burgdorf.ch/wAssets/docs/Stadtmarketing/Informationsschreiben_Kurtaxe_Gaestekarte_Burgdorf.pdf ; https://lodgify.com/de/digitale-gaesteregistrierung/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b23"
+ },
+ "sonnet:switzerland:B16": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Under the Thurgau tax practice text and the Zurich ELM page, the employer (the SSL, Schuldner der steuerbaren Leistung) must settle withholding tax with the canton. In Thurgau this is monthly. The employer is liable regardless of fault, and Zurich pays a 2% collection commission that can be cut. Competition already covers the core job. Swissdec-certified payroll handles ELM Quellensteuer. Some cantons offer a free web application for employers whose software lacks ELM (Solothurn, in a 2016 document). Cantonal paper and portal routes also exist. This overlaps known idea K08. No register count was found. Fine amounts were not found either. A standalone product is weak.",
+   "searches": 2,
+   "sources": "https://www.zh.ch/de/steuern-finanzen/steuern/quellensteuer/quellensteuer-abrechnen/quellensteuerabrechnung-elm.html; https://steuerpraxis.tg.ch/steuerpraxis/2026-09/stp-122-nr-1-mitwirkung-der-schuldnerin-oder-des-schuldners-der-steuerbaren-leistung; https://www.zh.ch/de/steuern-finanzen/steuern/quellensteuer/quellensteuer-abrechnen.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b23"
+ },
+ "sonnet:switzerland:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "none found",
+   "duty": "GSchG Art. 22 periodic tank inspection (about every 10 years), cantonal vignette and Kontrollheft rules",
+   "market": "not_reached: no register count found; the firm list is held by CITEC Suisse",
+   "reason": "Duty is real: GSchG Art. 22 (regular inspection, about every 10 years by a specialist firm). Valais vignette for tanks over 450 L since 1 Jan 2025, valid 10 years, and suppliers may only fill vignette-marked tanks. Thurgau bans filling without a valid Kontrollheft and requires firms to report to the canton. I did not check the GSchG text or the penalty directly. No dedicated tank-register software or vendor turned up in 3 searches, and no national tank count. Weak case: the cycle is 10 years, so frequency is low. Volumes are shrinking with heat pumps. Rules differ by canton, so the MVP is fragmented. The buyer pool of CITEC-listed firms and oil dealers is small, and the pain is modest. Not checked: whether cantons run firm portals, and Valais dealer lookup.",
+   "searches": 3,
+   "sources": "https://www.vs.ch/de/web/sen/tank ; https://umwelt.tg.ch/public/upload/assets/122868/Merkblatt_Befuellung_von_Tankanlagen.pdf?fp=1 ; https://zg.ch/de/natur-umwelt-tiere/wasser-und-gewaesser/tankanlagen/betrieb-und-kontrolle ; https://www.zh.ch/de/umwelt-tiere/umweltschutz/tankanlagen/betrieb-kontrollen-tankanlagen.html ; https://www.baselland.ch/politik-und-behorden/direktionen/bau-und-umweltschutzdirektion/umweltschutz-energie/tankanlagen",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b23"
+ },
+ "sonnet:switzerland:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real and in force: TJPG and its ordinance took effect 1 Oct 2026 (admin.ch). Non-listed AG, GmbH and Genossenschaften must report beneficial owners via EasyGov.swiss. Changes are due within 1 month. Fines run up to CHF 500k for intentional breaches. Transition deadlines per bexio and Grant Thornton: AG with ordinary audit end Dec 2026, GmbH with ordinary audit Jan 2027, AG without ordinary audit Feb 2027, other GmbH Mar/Apr 2027, up to 2 years if owners are already in the commercial register. Foundations and associations are excluded (Forvis Mazars). The state portal is free. I found no dedicated software, but fiduciaries will bundle filing, and it is mostly a one-off with few later changes. No company count found (roughly 300k+ entities is my unverified estimate). Weak recurring revenue, a short window.",
+   "searches": 3,
+   "sources": "https://www.admin.ch/de/newnsb/L0rkU9ZvCFSw ; https://www.bexio.com/de-CH/blog/view/tjpg ; https://www.grantthornton.ch/globalassets/1.-member-firms/switzerland/insights/2026/08---transparenzregister/2608-transparenzregister-de.pdf ; https://www.forvismazars.com/ch/de/insights/swiss-tax-newsletter/swiss-tax-newsletter-juli-2026/transparenzregister ; https://www.gtai.de/de/trade/schweiz/recht/transparenzregister-2001480 ; https://media.bs.ch/original_file/80ffd0c4e4cf24485eacd141a5c160730ad13921/merkblatt-tjpg.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b23"
+ },
+ "sonnet:switzerland:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is weaker than claimed. Per BAZG, a domestic LE is issued only when a supplier chooses to pass on preferential origin (VAU, 23 May 2012). It is not mandatory for every firm, and it is usable only for domestic supply. It cannot be used for CH-EU cross-border trade. Retention is 3 years (5 for Korea/India); long-term LE up to 2 years. No fixed frequency or penalty found; the exporter bears the risk of a wrong LE. Competition: the AEB supplier portal exists, but its Swiss coverage is unchecked. No Swiss-specific product, ERP module or Handelskammer service was found, but only 3 searches were run. The number of small exporters was not found. Bilaterale III effect not checked. The niche is narrow, optional and fragmented, so the score stays at 3.",
+   "searches": 3,
+   "sources": "https://www.bazg.admin.ch/dam/de/sd-web/n9tXfQRJwDGq/freihandelsabkommenwassindlieferantenerklaerungeniminland.pdf ; https://www.bazg.admin.ch/dam/de/sd-web/UPwXWF-Dz-ZU/Lieferantenerkl%C3%A4rung%2010.25%20IN%20DE.pdf ; https://www.industrial-production.de/dienstleistungen/lieferantenportal-von-aeb.htm ; https://www.aeb.com/de/magazin/artikel/lieferantenerklaerung-lle-3tipps.php",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b23"
+ },
+ "sonnet:switzerland:GAPS4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real: DZV/ÖLN, annual structure-data survey, Suisse-Bilanz, and a Behandlungsjournal (Agridea says 3 years retention, not the 5 claimed). But the core job is already covered. The cantons' NikA/LAWIS (Softec) portal is free and state-run. Barto, backed by Agridea, Identitas and Fenaco, offers a Suisse-Bilanz module and 365FarmNet, plus a \"Control Dossier\" module that won an innovation prize at Suisse Tier 2025 for inspection prep. Arenenberg lists several digital record-keeping tools (e.g. AGROPLUS). Whether any tool has a Behandlungsjournal was not confirmed. Not checked: NikA vendor interface, 2027 changes, farm count (roughly 45-48k farms, from memory only). The buyer is hard to reach and has low willingness to pay, because the incumbents are co-op-backed.",
+   "searches": 3,
+   "sources": "https://www.gr.ch/DE/institutionen/verwaltung/dvs/alg/ueberuns/aktuell/Seiten/Umstellung-von-Agricola-auf-das-neue-interkantonale-Agrarinformations-system-%C2%ABNikA%C2%BB.aspx ; https://www.bio-inspecta.ch/en/blog/blog-377~innovation-prize-for-the-control-dossier-a-shared-milestone-for-swiss-agriculture.html ; https://www.barto.ch/docs/Deutsch/Bausteine%20Wegleitungen/FactSheet_SuisseBilanz.pdf ; https://arenenberg.tg.ch/public/upload/assets/146842/2023_Dossier_Merkblaetter_Digitale_Aufzeichnungshilfen_V3.pdf?fp=1 ; https://www.gr.ch:443/DE/institutionen/verwaltung/dvs/alt/tiere/Documents/Anleitung%20Behandlungsjournal%20und%20Inventarliste_d.pdf",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b23"
+ },
+ "triage:switzerland": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Working/presence/rest-time records for live-in care differ from K22's registration and social-insurance duty; also covers agencies."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Small water co-operatives with self-control and reporting duty; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Pesticide user continuing-education deadline (2027) differs from K03's delivery reporting for traders."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Day-family organisations with PAVO duties are a different buyer and duty from K12 Kita vouchers."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Taxi permit holders' control-card and change-reporting duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "CZV training tracking for small transport firms; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Driving schools' permit and continuing-education duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Temp agencies' deposit and hours statistics to canton; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Lift inspection duty on building owners; new, verifier to check."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Pressure-equipment operator notification and inspection; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Beekeeper treatment journal duty; new, weak but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Vet practices' antibiotic reporting duty; new, verifiers decide on existing tools."
+    },
+    {
+     "decision": "drop",
+     "id": "A13",
+     "reason": "Out of scope: municipal cemetery offices, no small-business duty; building the state's own system."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Small foundations' annual filing to cantonal supervision; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Tattoo studios' notification and hygiene documentation under inspection; new."
+    },
+    {
+     "decision": "known",
+     "id": "A16",
+     "reason": "Same buyer and duty as K06 old-gold purchase register.",
+     "ref": "K06"
+    },
+    {
+     "decision": "keep",
+     "id": "A17",
+     "reason": "Money changers' GwG SRO duties; small professional offices, new."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "New GwG duty from 1 Oct 2026 for brokers and advisers with deadline; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Refrigerant logbook and reporting duty differs from K01 heating-replacement permits; changes 1 Jan 2027."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Wine-trade control annual returns; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Oil tank inspection and vignette duty differs from K04 Feuerungskontrolle."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Periodic electrical-installation inspection for control bodies differs from K10 grid notifications."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "TJPG transparency register, one-off with deadline hitting many small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "X-ray licence duty on practices; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Fire-safety self-control for restaurants and lodging; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Swiss contractors' worker lists in Ticino/Geneva differ from K02 EU posted-work firms (related to K02)."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Tourist levy and guest registration for small hosts; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Timber due-diligence duty differs from K18 EUDR chocolate and coffee."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "TARDOC billing for practices and labs differs from K09 Spitex residual financing (related to K09)."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Pflichtlager reporting for grain and feed importers; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Narcotics bookkeeping for pharmacies; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "GAV Lohnbuchkontrolle preparation is a different duty from A8's deposit and hours statistics."
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "Quellensteuer monthly reporting by employers is a different duty from K08 telework-day tracking; payroll tools to be checked by verifiers."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Export origin declarations (LE/LLE) differ from K07 import declarations."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Garage dealer-plate and exhaust-service records; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Association tombola permits and final accounts; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Farm-level DZV records differ from K21 livestock-trader documents."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Micro-firm occupational safety records; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS9",
+     "reason": "Tobacco retail age-limit compliance on kiosks and bars; new."
+    }
+   ]
+  },
+  "tag": "w2b23"
+ }
+}

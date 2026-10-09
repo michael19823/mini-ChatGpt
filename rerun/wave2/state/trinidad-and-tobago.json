@@ -1,4 +1,28 @@
 {
+ "challenge:trinidad-and-tobago:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single killer. The partial substitutes are the free TTConnect/Companies Registry filing route, general accounting and corporate-secretarial firms (Andersen TT annual returns service, Grant Thornton ORBIT), and donor-funded CSO compliance support (Cropper Foundation IGNITE CSOs). The RGD's postponement of the suspension (new date not found) weakens urgency.",
+   "reason": "Nothing kills it outright. I found no dedicated software or packaged NPO Form 6 service, and the duty is real: about 3,000+ NPOs were flagged in the RGD notice of 26 Mar 2026. The case is still weak. Filing is free on the state route (TTConnect / Companies Registry). General firms already sell annual-return filing: Andersen TT lists \"Business Registration & Annual Returns\", and Grant Thornton offers corporate secretarial services. The donor-funded Cropper Foundation IGNITE CSOs project already helps NPOs with compliance, partnering with FIUTT and the NGO Unit. The suspension/cancellation exercise was postponed with no new date found, so the enforcement pressure has eased. Buyers are mostly volunteer-run clubs and churches with little ability to pay. I could not confirm the size of the register or the Form 6 fee.",
+   "searches": 7,
+   "sources": "https://eusee.hivos.org/?p=5183 ; https://www.forus-international.org/en/pdf/tcf-letter-to-rgd-april-2026 ; https://trinidadexpress.com/opinion/columnists/ensuring-fairness-in-npo-compliance/article_10fbde4c-b0d5-4408-b587-e7b5954da1fa.amp.html ; https://trinidadexpress.com/opinion/letters/registrar-general-must-do-better/article_f37e9b7d-bdcd-4d3b-b017-4faab1db9e65.html ; https://www.ttconnect.gov.tt/?p=558 ; https://tt.andersen.com/?p=935 ; https://www.grantthornton.global/globalassets/1.-member-firms/global/member-firm-fast-facts-pdfs/grant_thornton_trinidadtobago_fastfacts.pdf ; https://finance.gov.tt/wp-content/uploads/2025/02/Summary-Report-by-the-Minister-of-Finance-on-FIUTT-Annual-Report-2024.pdf",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b55"
+ },
+ "challenge:trinidad-and-tobago:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single killer was found. The strongest blows are the IRD FAQ exemption for hotels subject to Hotel Accommodation Tax, which shrinks the Tobago guest-house and villa segment, and the very simple calculation.",
+   "reason": "Nothing kills this outright. I found no local LBS software, and the IRD itself says it has no official calculator. The duty applies to every landlord, quarterly, with a 5% late charge and 15% interest. But the case is weak:\n(1) The tax is one rate times gross quarterly rent, so the software adds little.\n(2) The IRD FAQ exempts hotels liable to Hotel Accommodation Tax. That likely removes the registered Tobago guest houses and villas the claim targets.\n(3) Registration was in person at IRD offices and closed 30 June 2026, so the rush is over.\n(4) Finance Bill 2026 changed the fee to one per landlord, made LBS creditable against income tax, and moves due dates to 31 Mar, 30 Jun, 30 Sep and 31 Dec. Before that the dates were 30 Apr, 31 Jul, 31 Oct and 31 Jan. Accountants already do landlords' annual returns, and they can absorb this.\nHow to pay online is still unconfirmed.",
+   "searches": 5,
+   "sources": "https://www.ird.gov.tt/landlord-business-surcharge/faqs ; https://trinidadexpress.com/news/local/tancoo-higher-fines-no-new-taxes/article_c8f57a24-fda7-4d74-9d24-50d52405983f.html ; https://www.finance.gov.tt/media-release-finance-bill-2026-laid-in-parliament/ ; https://www.pwc.com/tt/en/publications/assets/pwc-trinidad-and-tobago-tax-news-alert-2nd-quarter-2026.pdf (search snippet only) ; https://www.ird.gov.tt/news/public-notice-landlord-business-surcharge-calculation ; https://www.finance.gov.tt/2026/08/18/",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b55"
+ },
  "discover:A:trinidad-and-tobago": {
   "result": {
    "blocked_searches": 0,
@@ -605,6 +629,397 @@
     "CDAP pharmacies private doctors laboratories claims Medical Board registration renewal"
    ],
    "searches": 18
+  },
+  "tag": "w2b55"
+ },
+ "gapfill:trinidad-and-tobago": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Individual and small-company landlords, including owners of Tobago villas, guest-house rooms and apartment lets, and rent-collecting agents",
+     "category": "37. Tobago House of Assembly rules / related to 29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.ird.gov.tt/landlord-business-surcharge/faqs ; https://www.finance.gov.tt/wp-content/uploads/2026/05/Media-Release-Landlord-Business-Surcharge-Registration-Deadline-Extended-to-June-30th-2026-Following-Public-Engagement-2.pdf ; https://www.pwc.com/tt/en/publications/assets/pwc-trinidad-and-tobago-tax-news-alert-2nd-quarter-2026.pdf ; https://trinidadexpress.com/business/local/compliance-and-cost/article_7ff021da-a0c0-42df-bd3d-d27638e3e82b.html",
+     "existing": "IRD forms and e-Tax portal (assumed to be the filing route, unverified); accountants. No dedicated landlord software seen.",
+     "known_id": "K09",
+     "known_mark": "new",
+     "known_note": "Same authority and portal family as K06 and K09 (IRD e-Tax), but a different buyer group and a new recurring duty. K09 was rejected for general return preparation, not for this surcharge.",
+     "name": "Landlord Business Surcharge registration and quarterly-return helper for small landlords (incl. Tobago villa and room owners)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Finance Act 2025 Landlord Business Surcharge: landlords (anyone receiving rent) must register with the BIR (one-time fee TT$2,500, plus deeds, ID and utility bills), then pay quarterly on gross rent (2.5% up to TT$20,000 per quarter, 3.5% above) on 31 Mar, 30 Jun, 30 Sep and 31 Dec. Penalty per the IRD FAQ is TT$1,000 per six months of non-registration for individuals. The registration deadline went from 30 May 2026 to 30 June 2026 per a Ministry of Finance release. The Finance Bill 2026 may change due dates (PwC Q2 2026 alert, excerpt cut off).",
+     "unchecked": "Competitor search in the local language was NOT run (budget used). Not checked: whether filing is online-only through e-Tax (which would resemble the K06 rejection), how many landlords registered, whether another worker covering categories 28 or 29 already lists this, and the Finance Bill 2026 changes. A one-off registration rush that ended 30 June 2026 reduces the registration angle; the recurring quarterly return is the durable part."
+    },
+    {
+     "buyer": "Occupiers of factories and workplaces with lifts, boilers or compressed-air receivers (bakeries, laundries, hotels, bottlers, small manufacturers), and the small inspection and engineering firms that examine them",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "OSH Act PDF https://www.finance.gov.tt/wp-content/uploads/2019/07/The-Occupational-Safety-and-Health-Act.pdf (read locally; Form 5 abstract and ss.18-20 of the Prescribed Forms Order); https://www.finance.gov.tt/legislation/the-occupational-safety-and-health-act/",
+     "existing": "None found in T&T. Generic CMMS and inspection software exists; none searched in a local-language competitor query.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known idea. Different from K04, which is quarries.",
+     "name": "Annual examination register for lifts, steam boilers and air receivers (competent-person reports and General Register)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "OSH Act Chap. 88:08 (unofficial 2015 text): examine every hoist or lift every 12 months, steam boilers every 12 months and after repairs (new or second-hand ones tested and certified before use), and air pressure containers hydraulically tested every 12 months, with each report entered in or attached to the General Register kept for inspection. Boilers Regulations GN 2-1949 and GN 3-1949 continue in force.",
+     "unchecked": "Whether the periodic-examination duty is enforced; whether the 2004/2006 OSH Act changed or replaced it (the text read is an older consolidation); size of the buyer pool; who the competent persons are; local-language competitor search not run. Weak because enforcement may be thin and the register is low-frequency (one entry per asset per year)."
+    },
+    {
+     "buyer": "Licensed cocoa and coffee buying agents, exporters, s.4(2)(j) permit holders and licensed coffee hullers; also registered growers (registration only)",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://faolex.fao.org/docs/pdf/tri123834.pdf (read locally); https://leap.unep.org/en/countries/tt/national-legislation/cocoa-and-coffee-industry-regulations-cap-6420",
+     "existing": "None found. The Board's current form and e-filing status were not found.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known idea.",
+     "name": "Cocoa and Coffee Board monthly return pack for buying agents, exporters and coffee hullers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Cocoa and Coffee Industry Regulations (GN 84/1967): monthly purchase returns (Forms 10-11b) and sales returns (Forms 12-13b) with duplicate bills by the 15th of the next month for buying agents; monthly returns for exporters plus an annual return by 31 October; monthly Form 19 for hullers by the 15th; purchase-book records; bonds of TT$750 (agent) and TT$1,000 (exporter).",
+     "unchecked": "Current regulations (the text is an unofficial 2013 consolidation); the number of active agents and hullers (probably very small); whether the Board has digitised returns; recent reforms (a Trinitario certification trademark is in the news but is not a filing duty); local-language competitor search not run. The tiny buyer pool and a possible public-sector cocoa revival programme are why it scores low."
+    },
+    {
+     "buyer": "Private water-truck operators and water sellers",
+     "category": "13. Small water systems",
+     "evidence": "https://trinidadexpress.com/news/local/water-racket/article_351e1424-d686-11ed-aa6b-cfed62be1117.html ; https://www.guardian.co.tt/news/wasa-our-truck-borne-water-service-is-free-6.2.1455747.f99f5c90af",
+     "existing": "n/a",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known idea.",
+     "name": "Private water-truck and small water-seller registration (a regulatory gap, not yet a duty)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "None in force. WASA's chairman said legislative support would be needed to clamp down on private truck sales, and no bill or gazette notice was found.",
+     "unchecked": "Any 2024-2026 water-sector bill or WASA regime for haulers; watch only."
+    },
+    {
+     "buyer": "Tobago guest houses, villas, B&Bs and small hotels (about 580 properties, 3,700 rooms in a THA-linked audit)",
+     "category": "37. Tobago House of Assembly rules",
+     "evidence": "https://www.ttparliament.org/wp-content/uploads/2021/12/MR-J-LASC-Rep2-R1-THA.pdf ; https://www.tha.gov.tt/news/tourism-stakeholders-asked-to-register/ ; https://gottbs.com/tttic/",
+     "existing": "n/a",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known idea; related to category 29 (assigned elsewhere).",
+     "name": "Tobago accommodation compulsory registration and TTTIC annual certification renewals (watch item)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Voluntary today (THA Tourism Industry Registry; TTTIC certification valid one year). The THA supported compulsory registration in its 2021 response, which may need legislation.",
+     "unchecked": "Whether any THA ordinance or regulation has since been enacted; the guest-register or levy duty (category 29's scope, not searched); competitor search not run."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Web searches returned no T&T-specific page (only foreign results), but the OSH Act text (Chap. 88:08, unofficial LRO version updated to 31 Dec 2015, fetched as PDF from finance.gov.tt) contains the duty: every hoist or lift must be thoroughly examined every 12 months by a competent person; steam boilers, economisers and superheaters every 12 months and after major repairs, and new or second-hand ones must be examined, hydraulically tested and certified before use; air pressure containers cleaned, examined and hydraulically tested every 12 months. Each report must be entered in or attached to the General Register. The Boilers Regulations (GN 2-1949) and Air Pressure Containers Regulations (GN 3-1949) stay in force under s.98(2). The buyer is any workplace occupier with a lift, boiler or compressor; the duty is annual, with a paper register and no central portal seen. Unverified: current text (the 2015 version is unofficial and the 2004/2006 OSH Act commencement may have changed it), approved-inspector lists, and whether OSHA enforces the periodic certificate in practice. No local software competitor found in the searches, but no local-language competitor search was run.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "No licensing regime for small or private water systems found. Private water trucks: a Trinidad Express report (2023) quotes WASA's chairman saying buying water from private trucks is illegal and that suppliers use a delivery-fee loophole; WASA says it needs legislative support to act. WASA's own truck-borne water is free and may not be resold. WASA has a form for high-volume users such as car washes (WTC2022-004). No bottled-water or small-system rule found either (Food and Drugs Act is the only general hook). Nothing recurring and mandatory for a defined group; no candidate beyond a weak watch item.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Cocoa and Coffee Industry Act and Regulations (Chap. 64:20, unofficial text updated to 31 Dec 2013, fetched from FAOLEX): growers must register with the Board; buying agents need a Board licence and a TT$750 bond and must keep purchase books and submit monthly purchase and sales returns (Forms 10-13b) by the 15th of the following month; exporters need a licence and a TT$1,000 bond and file monthly returns and an annual return by 31 October; permit holders under s.4(2)(j) file monthly returns; coffee hullers need an annual licence and a monthly return (Form 19) by the 15th. Sale of Produce Act (Chap. 63:52): dealers in licensable produce need a Magistrate's licence with a bond. The current definition lists mace, nutmegs, kola nuts, tonca beans and rubber, so it is probably irrelevant to cocoa and coffee. Rice, flour and sugar trade not found to need a trader licence. The buyer pool is small (likely dozens of agents, hullers and exporters) and the rules may have been amended since 2013. Rice, sugar and flour milling were not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Tobago House of Assembly rules (Tobago-specific tourism/licensing)",
+     "found": "No mandatory THA accommodation licence found. The THA Tourism Industry Registry (2019 notice) was a voluntary online sign-up through the Tobago Tourism Agency. A THA response to the 2021 Joint Select Committee report supports compulsory registration and standards but says it may need legislation, so mandatory registration was still a proposal when I looked and I found no later enactment. TTTIC certification (national TT standards TTS 22-1/22-2/22-3) is voluntary and valid for one year. A THA-linked audit counted at least 3,700 rooms in 580 properties. The only mandatory item seen is national, the BIR Landlord Business Surcharge, which also covers Tobago landlords (see candidate). Unchecked: whether the THA has since passed a tourism accommodation ordinance, and Tobago-specific food-premises or vendor permits.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "Trinidad and Tobago Occupational Safety and Health Act pressure vessel boiler lift registration inspection certificate OSHA",
+    "Trinidad and Tobago WASA private water systems small water supply licence Water and Sewerage Authority regulations",
+    "Trinidad and Tobago cocoa coffee rice flour sugar traders licence Ministry of Agriculture registration dealers",
+    "Tobago House of Assembly tourism accommodation licence guest house registration Division of Tourism requirements",
+    "OSHA Trinidad pressure vessels OR lifting equipment OR elevators registration certificate of inspection OSH Act 2004 Authority",
+    "Cocoa and Coffee Industry Board buying agent licence coffee huller licence returns records Trinidad",
+    "Tobago short-term rental guest house registration mandatory THA Tobago Tourism Agency unregistered properties 2025",
+    "Trinidad private water truck operators registration WASA water haulers regulation 2025",
+    "Trinidad Factories Ordinance OR Factories Act boiler steam boiler certificate examination Ministry of Labour OSH Authority lift inspection company",
+    "Trinidad lift elevator inspection certificate required building owners OSH Authority elevator inspection Port of Spain law",
+    "Trinidad and Tobago OSH registration of workplaces OSHA certificate of registration pressure vessel inspection competent person Ministry of Labour",
+    "Cocoa and Coffee Industry Board Trinidad registered cocoa growers buying agents 2025 licence application",
+    "Tobago House of Assembly Act 2021 tourism accommodation licensing legislation THA Division of Tourism regulation of guest houses Villas",
+    "Sale of Produce Act Chap 63:52 Trinidad licensable produce dealers cocoa coffee rice definition magistrate licence",
+    "Trinidad bottled water vendors private water supply packaged water WASA Chemistry Food and Drugs Division licence water treatment small system",
+    "Trinidad Tobago Finance Act 2025 landlord business surcharge register rental properties Board of Inland Revenue Tobago",
+    "WebFetch: tha.gov.tt Tourism stakeholders asked to register",
+    "WebFetch: finance.gov.tt OSH Act pdf (read locally with pdftotext)",
+    "WebFetch: faolex tri123834.pdf Cocoa and Coffee Industry Act and Regulations (read locally with pdftotext)"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b55"
+ },
+ "opus:trinidad-and-tobago:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Filing is free on the state route: TTConnect lists 'File Annual Returns' and 'Comply with the NPO Act' as e-services, and the Companies Registry takes filings in person. I found no dedicated software or packaged NPO-compliance service. Local law firms and corporate secretarial agents probably offer this ad hoc, but that is unverified.",
+   "duty": "Non-Profit Organisations Act No. 7 of 2019, as amended in 2024-2025 (LN 236 of 2024; Miscellaneous Provisions (FATF Compliance) Act 2025). An annual Form 6 return reporting controllers, members and beneficiaries is due within 30 days of the anniversary of registration or incorporation. The penalty is suspension and then cancellation of registration, and operating an unregistered NPO is an offence carrying a fine and imprisonment. The RGD issued its notice on 26 Mar 2026 and published the defaulter list on 13 Apr. It set suspension for 28 Apr 2026 and cancellation for 28 May 2026, then postponed both; no new date found. I could not read the fee or the exact LN 236 text because the gazette PDF had no extractable text. FIUTT supervises only a subset of NPOs (17 of 504 risk questionnaires in one period), which is a separate reporting stream.",
+   "market": "More than 3,000 NPOs were flagged as non-filers in April 2026. I found no total register count; the figure was not reached in RGD or FIUTT reports. The 4,841 FIUTT supervised entities are not NPOs. A plausible total is several thousand registered NPOs, but that is unverified.",
+   "reason": "The duty is real. Under NPO Act No. 7 of 2019 as amended, every registered NPO must file a Form 6 annual return within 30 days of its registration or incorporation anniversary. Form 6 details controllers, members and beneficiaries. A filer that misses it risks suspension and then cancellation, and operating while unregistered is an offence. In April 2026 the RGD listed more than 3,000 defaulters, then postponed enforcement; I did not find a new date. Many groups were confused about Form 29 versus Form 6, and some filings were rejected. The only tool found is the free TTConnect/RGD portal. I found no software or packaged service, but corporate secretaries likely do this informally. The filing is once a year and the form is simple. Buyers are volunteer-run with low ability to pay, so this suits an add-on or a cheap reminder-and-prep service.",
+   "searches": 6,
+   "sources": "https://eusee.hivos.org/?p=5183 ; https://trinidadexpress.com/opinion/columnists/ensuring-fairness-in-npo-compliance/article_10fbde4c-b0d5-4408-b587-e7b5954da1fa.amp.html ; https://www.forus-international.org/en/pdf/tcf-letter-to-rgd-april-2026 ; https://www.ttconnect.gov.tt/?p=558 ; https://finance.gov.tt/wp-content/uploads/2025/02/Summary-Report-by-the-Minister-of-Finance-on-FIUTT-Annual-Report-2024.pdf ; https://www.central-bank.org.tt/cbtt_storage/2026/02/miscellaneous-provision-fatf-compliance-act-7-of-2025-february-2026.pdf ; https://fiu.gov.tt/wp-content/uploads/2025/10/28_Oct_25_CFT-Guidance-for-NPOs.pdf",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b55"
+ },
+ "opus:trinidad-and-tobago:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no T&T software, app or done-for-you service aimed at this surcharge. Searches only turned up generic foreign landlord apps (Landlordy, LandlordTracks, Rental Tracker) with no local tax logic. The IRD says it has no official LBS calculator and that calculators circulating online are not authorised. That shows there is demand for one, and it also adds a trust barrier. A Guardian columnist says the payment method is unclear and asks whether online payment will come. None of the IRD and MoF pages I read describe e-Tax filing for the surcharge, so filing may be at BIR offices or banks. I did not confirm this. The main substitute is an accountant. The core sum is trivial (one rate on gross rent), so the software adds little.",
+   "duty": "Real and in force. The Landlord Business Surcharge was created by the Finance Act 2025 under the Miscellaneous Taxes Act and has applied since 1 Jan 2026 (per the PwC tax summary). The IRD FAQ sets out the rules. All landlords and rent-collecting agents must register, whether resident or not. Registration costs a one-time TT$2,500 and has to be completed in person at one of four BIR offices: Port of Spain, San Fernando, Tunapuna or Scarborough (Tobago). The surcharge is paid quarterly on gross rent. It is 2.5% when quarterly rent is up to TT$20,000. Above that, 3.5% applies to all the rent, not just the excess (IRD public notice). The IRD gives due dates of 31 Mar, 30 Jun, 30 Sep and 31 Dec. Search snippets of the PwC Q2 2026 alert, whose PDF I could not open, suggest the current law has different dates (Q2 due 31 July) and that Finance Bill 2026, still awaiting assent, would move them to the dates above. So the exact dates are uncertain. Late registration costs TT$1,000 per six months for individuals and TT$2,500 for companies. Late payment adds 5% plus 15% a year interest. Changes must be reported within 30 days. Registration deadlines moved from 31 Mar to 30 May to 30 Jun 2026, and an MoF notice dated 18 Aug 2026 says registration is still open. Exempt: the State, state enterprises, hotels liable to Hotel Accommodation Tax, and public charitable, church and educational bodies. Tobago villas and guest houses registered for HAT therefore appear exempt, which weakens the Tobago angle of the claim.",
+   "market": "Not reached. No source gave the number of landlords registered, and the Minister said early on that he had no exact figures. Reports of long queues at BIR offices suggest many thousands of individual landlords, but I found no registry count or census figure on rental dwellings.",
+   "reason": "The duty is real, recurring each quarter and carries penalties, and I found no local tool for it. But the task is simple: one rate applied to gross rent each quarter. Registration needs an office visit and the one-off rush is over, although registration is still open. Payment appears to happen at BIR or outside software (unconfirmed), so automation has little to do. Hotels under HAT, which likely include many Tobago villas and guest houses, are exempt. Small landlords are scattered, sensitive to cost and wary of unofficial calculators. A rent ledger with surcharge reminders and receipt records, sold through property agents, is possible but would earn little. Due dates may change under Finance Bill 2026.",
+   "searches": 6,
+   "sources": "https://www.ird.gov.tt/landlord-business-surcharge/faqs ; https://www.ird.gov.tt/news/public-notice-landlord-business-surcharge-calculation ; https://www.guardian.co.tt/article/landlord-registration-surcharge-fee-made-simple-6.2.2576260.79cf8aacc6 ; https://www.finance.gov.tt/public-notice-landlord-business-surcharge-registration-continues/ ; https://www.finance.gov.tt/wp-content/uploads/2026/05/Media-Release-Landlord-Business-Surcharge-Registration-Deadline-Extended-to-June-30th-2026-Following-Public-Engagement-2.pdf ; https://taxsummaries.pwc.com/trinidad-and-tobago/corporate ; https://www.pwc.com/tt/en/publications/assets/pwc-trinidad-and-tobago-tax-news-alert-2nd-quarter-2026.pdf (fetch returned 403; content seen only in search snippets)",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b55"
+ },
+ "sonnet:trinidad-and-tobago:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The Real Estate Agents Act 2020 (Act 12 of 2020) exists. It requires registration valid 3 years, renewable, with notice of changes to the Registrar General, and makes trading unregistered an offence. Commencement is by Presidential proclamation. I found no proclamation notice. A Guardian TT article dated 6 Aug 2023 says it \"awaits proclamation\", and the agents' association was still waiting on Registrar General licensing criteria. So the duty is probably not in force, and the registration regime and register do not appear to be operating. FIUTT registration and AML duties are separate, in force under the Proceeds of Crime Act, and already covered as K02. Competitor search was not run beyond this. Market size was not found. Score is low because there is no live mandate, and the one running duty is K02.",
+   "searches": 3,
+   "sources": "https://www.ttparliament.org/publication/the-real-estate-agents-act-2020/ ; https://www.ttparliament.org/wp-content/uploads/2022/01/b2020h02g.pdf ; https://www.guardian.co.tt/article/uptick-in-middleincome-housing-sales-6.2.1769601.037642c954 ; https://fiu.gov.tt/wp-content/uploads/2025/07/FAQs-Registration-Approved.pdf",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b55"
+ },
+ "sonnet:trinidad-and-tobago:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "LN 700 of 2026 (fetched) proclaims only s.76 and Schedule 6 (as applied to s.76) of the Gambling (Gaming and Betting) Act 2021 from 15 Sep 2026. I could not find the text of s.76, so the claim that it is a notification duty for ex-Liquor Licences Act clubs is unconfirmed. A third-party site (gamblingmaps.org) says the licensing sections are not yet proclaimed, so the licensing and fee duty looks not in force. Frequency and penalty were not found. Competitor search was not run beyond general queries; no product was found. The market is tiny (about 85 premises, per the claim's 2025 article, which I did not open), and the duty is largely one-off with a bespoke regulator process. Weak recurring SaaS case.",
+   "searches": 2,
+   "sources": "https://www.ttparliament.org/wp-content/uploads/2021/06/ln2026-700.pdf ; https://gamblingmaps.org/map/regulations/trinidad-and-tobago/for-operators ; https://ggbnews.com/article/trinidad-and-tobago-launch-gambling-control-commission",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b55"
+ },
+ "sonnet:trinidad-and-tobago:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "TTPS licensing exists (ttconnect: needs a list of intended staff, training proof \"if available\", background checks), but the page gives no fees, renewal cycle or penalties, so no recurring duty is documented. The Private Security Industry Bill (2019, 2022, and on the 2026 agenda) would create a Private Security Service Authority. I found no evidence it has passed, been tabled in 2026, or contains guard-register duties. Market: about 50,000 guards and \"hundreds\" of firms (unsourced letter and Senate motion), with no official firm count. No competing software found, but only one general competitor search was run. The duty is speculative, so the score stays low.",
+   "searches": 3,
+   "sources": "https://ttconnect.gov.tt/operate-a-security-firm-license ; https://www.ttparliament.org/publication/the-private-security-industry-bill-2022/ ; https://guardian.co.tt/news/government-outlines-legislative-agenda-for-2026-6.2.2493336.78d9136082 ; https://www.ttparliament.org/motions/private-motion-private-security-firms/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b55"
+ },
+ "sonnet:trinidad-and-tobago:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "CDAP is real and pharmacies self-source IT to Ministry specifications (TT$68,000 fee removed). But the claims system is a state-procured computerised system run with NIPDEC and the Pharmacy Board, and I found no spec, vendor or open claim format. Pharmacies likely must use the state-mandated platform, so third-party software has no clear integration point. There is no penalty or recurring statutory filing, and the buyer pool is small (about 250-290 pharmacies). Competition and free-tool status could not be confirmed. Searches covered English only, with no deeper checks.",
+   "searches": 2,
+   "sources": "https://www.ttt.live/?p=115757 ; https://nipdec.com/?p=660 ; https://health.gov.tt/node/45 ; https://trinidadexpress.com/newsextra/300-000-citizens-to-receive-better-medication-under-revised-cdap/article_2c3dc0b3-0f00-45a0-92d2-beed658cb8d5.html",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b55"
+ },
+ "sonnet:trinidad-and-tobago:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Petroleum Act Ch. 62:01 and Petroleum Regulations require a Retail Marketing Licence. The Ministry's renewal page sets a fee scale by prior-year sales (TT$1,000 for stations under 1m litres). The inspection checklist is used at renewal. A 2016 Guardian report says licences last one year, and I could not confirm the current term. No local software was found, only generic inspection apps (Fulcrum). The market is tiny: about 115-138 stations, and many are NP or Unipet-affiliated, with wholesalers handling compliance. Renewal is annual and involves a few documents, so pain and willingness to pay are low. Fine as a niche service, not a scalable SaaS. I did not verify the TTBS 6-month pump verification and did not open the renewal page.",
+   "searches": 3,
+   "sources": "https://www.energy.gov.tt/services/renewal-of-licences-for-the-marketing-of-petroleum-products ; https://www.energy.gov.tt/wp-content/uploads/2013/11/MEEA_Service_Station_Inspection_Checklist.pdf ; https://www.guardian.co.tt/news/2016-02-19/137-gas-stations-operating-illegally ; https://www.energy.gov.tt/wp-content/uploads/2018/03/Feature-Address-at-the-NP-Monroe-Road-Service-Station-Opening.pdf ; https://fulcrumapp.com/apps/fuel-station-inspection",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b55"
+ },
+ "sonnet:trinidad-and-tobago:B7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: the 2024 Companies Act amendments require companies to keep a beneficial owner register (10% threshold), verify it, and file annual returns. PwC reports a fine of TT$10,000 and imprisonment for non-compliance. The amnesty ran to 31 Jan 2025, and about 63,000 companies were removed. I found no 2026 deadline or strike-off exercise. I found no dedicated software product, but only two searches ran (not the planned six), so competition is not fully checked. Accountants and law firms already serve this, and the filing is episodic, so recurring pain is weak. The register is kept internally, so there is little to automate. The TTSEC regime applies only to listed entities. Market size is not quantified; the Registrar's reported 60,373 annual-return defaulters is the only figure. Low frequency and a generic-compliance feel keep the score low.",
+   "searches": 2,
+   "sources": "https://www.pwc.com/tt/en/publications/assets/pwc-tt-companies-act-beneficial-ownership.pdf ; https://pwc.com/tt/en/publications/assets/trinidad-tobago-beneficial-ownership-reporting-update-2024.pdf ; https://www.guardian.co.tt/news/alrawi-60373-companies-failed-to-file-annual-return-info-6.2.2109160.b5730fd0b7 ; https://www.ttsec.org.tt/industry/aml-cft-cpf/frequently-asked-questions-faqs/bo-faqs/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b55"
+ },
+ "triage:trinidad-and-tobago": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "NPO Form 6 annual return is a new buyer group and duty; K02 is FIUTT AML for listed businesses."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Scrap metal dealers and collectors are a new group; K04 is quarries."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Maxi taxi owners with an annual PBR permit renewal are a new group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Pesticide premises licensing is a new group and duty; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Pawnbroker and precious-metals annual licence and register is a different duty from K02 AML; related K02."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Well drillers and abstraction licence holders are a new group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Waste haulers and septic cleaners are a new group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Recruiter licensing is a new group and duty; weak but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Burial ground licence for funeral and cemetery operators is a real duty; weak, so verifiers decide."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Vendor permits are a new group; the regularisation deadline makes many small operators act at once."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Nursery and daycare licence and inspection is a new group and duty."
+    },
+    {
+     "decision": "known",
+     "id": "A12",
+     "reason": "Same household-employer buyer and NIS pay-record duty as K03.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Real estate agent registration is a different duty from K02 AML; related K02."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Gambling licensing and notification differs from K06 gaming tax filing; related K06."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Private security firm licensing is a new group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Pharmacies' CDAP authorisation and reorders are a small professional office duty, new."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Pharmacy annual licence and product registration; same buyer as B4 but different duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Service station licence renewal and inspection is a new group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Beneficial ownership register and annual returns for small companies; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Co-operative and credit union annual audit and return; new group."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Private hospital and clinic licensing and fire certificates; small health office duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Contractor prequalification file is a recurring requirement; weak, related K04 only by sector. Unsure, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Fish exporter licence and certificate paperwork is a new group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Tobago short-term rental registration and levy is a new group; no regime found, so a watch item for verifiers."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Customs brokers' declarations are a new group; unsure, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "OSH Act workplace compliance for small employers; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Cannabis licence applicants; commencement unconfirmed, so verifiers should check."
+    },
+    {
+     "decision": "drop",
+     "id": "B16",
+     "reason": "Bills with no text, dates or enactment: no existing mandatory recurring duty, so it fails the candidate definition."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Landlord Business Surcharge is a new buyer and recurring quarterly duty; K09 was rejected only for general returns; related K09."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Annual lift, boiler and receiver examination register under the OSH Act; no related known idea."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Cocoa and coffee board monthly returns for agents and exporters; new."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS4",
+     "reason": "No duty in force and no bill: a regulatory gap, not a mandatory workflow, so it fails the candidate definition."
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS5",
+     "reason": "Same Tobago accommodation host buyer group and registration duty as B12.",
+     "ref": "B12"
+    }
+   ]
   },
   "tag": "w2b55"
  }

@@ -651,5 +651,474 @@
    "searches": 24
   },
   "tag": "w2b54"
+ },
+ "gapfill:thailand": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small contract spray-drone operators and farmer-pilots (one to three drones), plus cooperatives and farm-input shops that sell spraying services",
+     "category": "32. Drone, radio and telecom-equipment licences",
+     "evidence": "https://www.bangkokbiznews.com/news/news-update/1193577 (opened: 2025 relaxation notice details); https://www.infoquest.co.th/?p=520228 (CAAT registration push); https://www.thailand.go.th/issue-focus-detail/caat-issues-rules-for-agricultural-drone-use; https://uasportal.caat.or.th/images/infographic/guidelines/Guidelines_for_UAS_Service_Applicants_as_9_June_2025_2.pdf; DEPA 1,500-pilot target and DOA 10,000 target (infoquest/thansettakij results)",
+     "existing": "Competitor search run (แอปพลิเคชัน โดรนเกษตร บริหารจัดการ รับจ้างพ่นยา บันทึกการบิน ประกัน UAS Portal): found only the free CAAT UAS Portal web and app, an academic Naresuan booking site (2021) with LINE alerts, and a foreign Purdue flight-log app. No Thai product tying job booking, per-job flight notice, insurance expiry and spray log together was found.",
+     "known_id": "K08",
+     "known_mark": "new",
+     "name": "Agricultural Spray-Drone Operator Compliance Pack (CAAT UAS Portal flight notices, registration/insurance expiry, spray logs)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "CAAT notices of 2025-26: operator and drone registration on UAS Portal, third-party insurance, 12-hour advance flight notice per job with copies to police or headman, 06:00-18:00 and 30 m limits, and a possible approved pilot course within 1 year under a May 2569 notice (unverified). Spray use also falls under pesticide rules (K08 context).",
+     "trigger_note": "Rules changed twice in 12 months, so there is a live deadline pressure.",
+     "unchecked": "Actual number of registered spray operators (only targets found); whether each job needs a separate notice or only a fixed-area notice; the May 2569 CAAT notice text and effective date; whether the course is mandatory for agricultural drones; insurance rules in force; willingness to pay by operators who are often farmers; pesticide-spray permit requirement; whether Thai drone dealers (DJI/XAG resellers) already bundle an app."
+    },
+    {
+     "buyer": "Farm-input shops holding or needing a DOA fertiliser sales licence",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://so05.tci-thaijo.org/index.php/pimjournal/article/view/65606 and DOA/news results on the Saraburi seizure of unregistered fertiliser; DOA Region 5 licence database mention (search result, not opened)",
+     "existing": "Competitor search run (ร้านค้าปัจจัยการผลิตทางการเกษตร ขายปุ๋ย ใบอนุญาตขายปุ๋ย ต่ออายุ โปรแกรมบริหารร้านค้าเกษตร POS): no Thai POS or register tool for input shops found; DOA runs its own licensing database. Result set was mostly foreign.",
+     "known_id": "K08",
+     "known_mark": "new",
+     "name": "Fertiliser-Seller Licence and Registered-Product Tracker for Farm-Input Shops",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Fertiliser Act 2518 (amended 2550): sales licence; selling chemical fertiliser that is not registered is an offence (reported 6 months-3 years, THB 20,000-120,000). A sales-record or periodic-report duty is NOT confirmed.",
+     "unchecked": "Whether sellers must keep a sales ledger or file reports (not found in any readable source; read the Act on krisdika); licence duration and renewal cycle; whether DOA has a public register of registered fertiliser formulas that a shop could check against; whether this is best sold as an add-on to K08."
+    },
+    {
+     "buyer": "Owners of commercial fishing boats (8,139 commercial licence applications in the 2569-70 round) and the larger small-scale boats",
+     "category": "33. Fishing vessels and small-scale fisheries",
+     "evidence": "https://thaipublica.org/2024/01/the-fisheries-department-opens-applications-for-commercial-fishing-licenses-for-the-year-2024-2025/ ; https://www.prachachat.net/economic/news-1976928 ; https://www.infoquest.co.th/?p=155695 ; https://www4.fisheries.go.th/local/file_document/20240403154647_1_file.pdf (not opened)",
+     "existing": "Government PIPO system, VMS and the Fisheries Touch app; no commercial vessel-owner desk found (no dedicated competitor search for a private product was run for lack of budget).",
+     "known_id": "K18",
+     "known_mark": "new",
+     "name": "Fishing-Vessel Owner Filing Desk (annual licence round, PIPO in/out notices, logbook, crew documents)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Royal Ordinance on Fisheries 2558: fishing-year licence applications (Feb 2569 window for 2569-70), PIPO notices for vessels of 30 GT and over (or 10 GT with trawl, purse seine or anchovy lift nets), fishing logbook, crew seaman books and hygiene certificate, VMS. New PIPO system rolled out nationally around May 2569.",
+     "trigger_note": "Different buyer and duty from K18 (export catch certificates); the buyer base is only a few thousand boats.",
+     "unchecked": "Logbook deadline and format; whether most boats are served by port agents or fleet managers who already do this; vessel counts by size class; interest from owners outside large fleets; whether the new PIPO system leaves any manual workflow; DOF notices after 2569."
+    },
+    {
+     "buyer": "Community enterprises (วิสาหกิจชุมชน) and OTOP food producers",
+     "category": "20. Small food producers and community enterprises",
+     "evidence": "https://www.dailynews.co.th/news/3374152/ ; https://data.go.th/en/dataset/smce-registration ; https://www.gotoknow.org/posts/619773",
+     "existing": "Free DOAE SMCE online e-Form platform; OTOP registration platform. No private software found.",
+     "known_id": "K16",
+     "known_mark": "new",
+     "name": "Community-enterprise registration renewal and annual-report reminder desk",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Community Enterprise Promotion Act 2548: registration update and renewal through DOAE SMCE; FDA, GMP or HACCP standard required for OTOP food registration. Annual report duty and renewal cycle unconfirmed.",
+     "trigger_note": "Low willingness to pay; the state platform covers the filing.",
+     "unchecked": "Whether an annual report is legally required and what happens on lapse; number of registered enterprises (data.go.th holds the count, not read); willingness to pay of groups that are largely grant-funded."
+    },
+    {
+     "buyer": "Sole traders and family firms that pay withholding tax or are VAT-registered",
+     "category": "31. Value-added tax and small-business tax duties",
+     "evidence": "https://flowaccount.com/blog/author/saranrat/ ; https://thestandard.co/cabinet-extend-tax-measures-e-withholding/ ; https://www.krungsri.com/th/business/cash-management/payment/e-withholding-tax ; https://www.marketingoops.com/?p=255353",
+     "existing": "RD Prep and e-Filing (free), FlowAccount and other accounting software, bank e-WHT services (Krungsri, Krungthai x Thammanit). The generic route is excluded as out of scope and well served.",
+     "known_id": "K15",
+     "known_mark": "new",
+     "name": "e-Withholding Tax / ภ.ง.ด.3 and ภ.พ.30 filing for sole traders",
+     "score": 2,
+     "status": "rejected",
+     "trigger": "Monthly ภ.ง.ด.3/53 and ภ.พ.30 (due 15th of next month online); e-WHT 1% rate extended to 31 Dec 2570",
+     "trigger_note": "Rejected on the evidence of free RD tools plus bank and accounting vendors.",
+     "unchecked": "A niche landlord (room-rental) filer vertical was not found to have any gap; ภ.ง.ด.94/90 are filed on the RD free portal."
+    },
+    {
+     "buyer": "Small online sellers and parallel importers selling TISI-controlled goods (power strips, power banks, hair dryers, helmets, motorcycle exhausts)",
+     "category": "34. Cross-border trade duties on small operators",
+     "evidence": "https://www.thansettakij.com/economy/660767 ; https://www.matichon.co.th/economy/news_3389629 ; https://www.kasikornbank.com/th/kbiz/article/pages/commercial-registration.aspx ; https://www.prachachat.net/?p=1938309 (search results; not opened)",
+     "existing": "TISI e-License (about 4 working days average), platform API checks and QR verification, Customs MOUs with five marketplaces. No private seller-side tool searched for.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "name": "TISI controlled-goods compliance and e-commerce DBD registration for small online sellers and importers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "TISI mandatory standards; importer must hold a licence or notify before import; platform pre-sale checks (Shopee API from 26 May 2569, TikTok partnership); DBD e-commerce registration within 30 days; duty and VAT on parcels under THB 1,500 from 1 Jan 2569",
+     "trigger_note": "State and platforms carry the checks, and a generic online-seller tool is excluded.",
+     "unchecked": "Whether TISI or Customs publishes a lookup that platforms use (it likely kills the product); number of sellers fined; any rule requiring seller-side records; the exact list of controlled goods."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Fertiliser side: DOA licenses manufacture, import, export and sale of fertiliser under the Fertiliser Act 2518 (amended 2550); selling unregistered chemical fertiliser is penalised (news: 6 months-3 years, THB 20,000-120,000; enforcement seen in Saraburi). I could NOT confirm any sales-record or periodic-report duty for sellers in the Act text (krisdika and leap.unep.org were not readable; unep returned 403). DOA Region 5 built a licence database for input-shop licences. No Thai fertiliser-shop POS/register product found. Applicator side: agricultural spray drones are the new applicator group, see the drone candidate. Nothing else new beyond K08.",
+     "status": "screened"
+    },
+    {
+     "category": "Pesticide and fertiliser dealers (cat 14 not_reached): fertiliser licence and hazardous-substances dealer duties",
+     "found": "Fertiliser-seller licence exists (DOA, Fertiliser Act 2518), but the record/report duty is unverified, so it stays a low-confidence adjunct to K08 (same buyer, partly different duty). Hazardous-substances dealer duties were not searched separately; K08 covers the pesticide register. No free state tool or vertical software found for fertiliser-shop licence tracking.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small food producers and community enterprises (Thai FDA licences, GMP, OTOP / community-enterprise registration)",
+     "found": "Community enterprises (Community Enterprise Promotion Act 2548) register, update and renew online through the DOAE SMCE platform (smce.doae.go.th) with e-Form; DOAE issues renewal reminders. OTOP food products must hold at least one standard (FDA, GMP or HACCP). I could not confirm any annual-report duty or a 3-year renewal cycle. A free state e-Form platform already exists. Weak candidate only; nothing found on FDA renewal beyond K16.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Value-added tax and small-business tax duties (VAT 1.8m threshold, e-filing, withholding tax ภ.ง.ด.3/53, e-Withholding Tax)",
+     "found": "VAT return ภ.พ.30 is due on the 15th of the following month. ภ.ง.ด.3/53 are filed through RD Prep or e-Filing, and accounting vendors such as FlowAccount already explain the file route. Cabinet extended the 1% e-WHT rate for 1 Jan 2569 to 31 Dec 2570 (via banks such as Krungsri, and Thammanit x Krungthai). Generic accounting is out of scope. Niche check on landlords: individuals renting out rooms file ภ.ง.ด.94 (September) and ภ.ง.ด.90 (March) themselves, with the RD free e-Filing. No gap found.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Drone, radio and telecom-equipment licences (2024-26 drone registration rules)",
+     "found": "CAAT agricultural-drone relaxation from 11 Aug 2025: both operator and drone registered on the free UAS Portal; third-party liability insurance (a non-official source says THB 1m); flight notice 12 hours ahead via the portal, with copies to CAAT and local police; spray or spread only; 06:00-18:00; max 30 m; penalty up to 1 year and/or THB 40,000. A search snippet says a May 2569 CAAT notice for drones up to 25 kg requires a CAAT-approved pilot course within 1 year, numbered markings and flight-plan approval; I could not verify the effective date or text (the Bangkok Biznews page I opened covered only the 2025 notice). NBTC role not confirmed. DEPA targets 1,500 pilots, and DOA once targeted 10,000 spray operators. No actual registered-operator count found.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Fishing vessels and small-scale fisheries (licences, PIPO port-in/port-out, logbooks, crew)",
+     "found": "Fishing-year licence round 2569-2570 ran 1-28 Feb 2569 (9,135 applications: 8,139 commercial, 996 small-scale; licence period starts 1 April 2569). Vessels of 30 GT and over, or 10 GT and over with trawl, purse seine or anchovy lift nets, must notify PIPO on every entry and exit. A new PIPO system was piloted at Samut Prakan on 27 Mar 2569 and rolled out nationally around May 2569, with employer or authorised-person training in 22 provinces. Fisheries Touch app and VMS exist (3,323 of 5,082 vessels on the app in Sept 2023). Logbook deadline and crew-contract details were not confirmed. Government systems cover most of the workflow; the buyer base is a few thousand boats.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Cross-border trade duties on small operators (low-value parcels, e-commerce registration, TISI marks)",
+     "found": "From 1 Jan 2569 the duty exemption for imports under THB 1,500 ended, so duty plus 7% VAT is charged from the first baht; Customs signed MOUs with Lazada, Shopee, TikTok Shop, SHEIN and Temu for data and collection. DBD e-commerce registration must be completed within 30 days of starting trade and gives a DBD Registered mark. TISI now screens online listings: TikTok partnership (Feb 2569) and a Shopee API pre-sale check live from 26 May 2569 (40,806 checks by 9 Jun). Importers of controlled goods must hold or notify TISI before importing. Platforms and the state carry the main burden, so the gap for a solo-founder tool is thin.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "พ.ร.บ.ปุ๋ย พ.ศ. 2518 ผู้ขายปุ๋ย ใบอนุญาต บัญชีรับจ่าย รายงาน กรมวิชาการเกษตร",
+    "วิสาหกิจชุมชน รายงานประจำปี กรมส่งเสริมการเกษตร ทะเบียน ผู้ประกอบการ OTOP อย. สถานที่ผลิตอาหาร ต่ออายุ",
+    "ภ.ง.ด.3 ภ.พ.30 ผู้ประกอบการรายย่อย ยื่นแบบ ออนไลน์ หัก ณ ที่จ่าย อิเล็กทรอนิกส์ กรมสรรพากร 2569",
+    "โดรนเกษตร ขึ้นทะเบียน กสทช. กพท. ใบอนุญาตนักบิน พ่นสารเคมี ผู้ประกอบการ 2568",
+    "เรือประมงพาณิชย์ ใบอนุญาตใช้เรือ ต่ออายุ สมุดบันทึกการจับสัตว์น้ำ ลูกเรือ ขึ้นทะเบียน กรมประมง พ.ร.ก.การประมง 2558",
+    "ผู้ขายออนไลน์ จดทะเบียนพาณิชย์อิเล็กทรอนิกส์ DBD มอก. บังคับ สินค้านำเข้า ภาษีมูลค่าเพิ่ม พัสดุ 2569 ผู้ประกอบการรายย่อย",
+    "ผู้ขายปุ๋ย ต้องมีใบอนุญาตขายปุ๋ย บัญชีการขาย พ.ร.บ.ปุ๋ย มาตรา",
+    "วิสาหกิจชุมชน ต้องส่งรายงานผลการดำเนินงานประจำปี พ.ร.บ.ส่งเสริมวิสาหกิจชุมชน 2548",
+    "แอปพลิเคชัน โดรนเกษตร บริหารจัดการ รับจ้างพ่นยา บันทึกการบิน ประกันภัย UAS Portal ผู้รับจ้างโดรน",
+    "สมุดบันทึกการทำการประมง ประมงพื้นบ้าน ใบอนุญาตประมงพื้นบ้าน ต่ออายุ ระบบ ePIPO ลูกเรือ ประกาศ 2569",
+    "e-Withholding Tax ระบบหัก ณ ที่จ่ายอิเล็กทรอนิกส์ กรมสรรพากร 2569 SME",
+    "สมอ. มอก.บังคับ ผู้ขายออนไลน์ ตรวจจับ สินค้าไม่ได้มาตรฐาน 2569 ผู้นำเข้า ใบอนุญาตนำเข้า",
+    "พระราชบัญญัติปุ๋ย 2518 ผู้รับใบอนุญาตขาย ปุ๋ยเคมี เก็บรักษา รายงาน ทำบัญชี ตัวบท",
+    "โดรนเกษตร 2569 กพท. ประกันภัยบุคคลที่สาม นักบินโดรนเกษตร ใบรับรอง หลักสูตร",
+    "เจ้าของเรือประมง ส่งสมุดบันทึกการทำการประมง PIPO ต้องแจ้งเข้าออก ซอฟต์แวร์ แอป 2569",
+    "ให้เช่าห้อง ค่าเช่า ภาษี ภ.ง.ด.94 ภ.ง.ด.90 ผู้ให้เช่าห้องพัก หอพัก โปรแกรม ยื่นภาษี",
+    "ร้านค้าปัจจัยการผลิตทางการเกษตร ขายปุ๋ย ใบอนุญาตขายปุ๋ย ต่ออายุ โปรแกรมบริหารร้านค้าเกษตร POS",
+    "ทะเบียนวิสาหกิจชุมชน ต่อทะเบียน ระบบสารสนเทศวิสาหกิจชุมชน SMCE จำนวนวิสาหกิจชุมชนที่จดทะเบียน 2569"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b54"
+ },
+ "opus:thailand:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Thai-language searches for money-changer software, POS and reporting systems found no Thai vendor. Foreign tools such as CurrencyXchanger (multi-currency POS with AML record-keeping) exist, but nothing found shows they produce BOT DAP files. BOT itself provides a free DAP Encryption Application and DAP API documentation, which handle submission but not record-keeping or building the report. Bank exchange booths are a different segment. Absence of a Thai competitor is based on limited searching and is not exhaustive.",
+   "duty": "Under Thai exchange control law, licensed non-bank money changers (บุคคลรับอนุญาต) must file a monthly transaction report through BOT's DAP system (iservice.bot.or.th), encrypted, within 7 days of month-end, including empty files for months with no activity. Changes to branches or service channels and outsourcing are reported by email. Thai PBS reports a further duty to report to AMLO any customer whose foreign-currency trades exceed THB 2m; this was not checked against the AMLO rule itself. Current capital rule: either a hotel business, or registered capital of at least THB 10m plus a qualifying business (department store, hostel, travel company), or at least THB 1m with all-Thai shareholders and directors. BOT draft rules, now in public hearing, would revise capital, branch management, system standards, customer service limits and licence formats. New applications for 2027 are accepted only in December 2026, then in March and September from 2028. Under the draft, every existing licensee must upgrade in 2027 and submit evidence for case-by-case BOT review. Tilleke says licensees that cannot meet the new criteria risk licence revocation, but no specific fines are listed. Specific thresholds were not reached because the draft PDF could not be parsed.",
+   "market": "Thansettakij, citing BOT, reported 2,365 licensees at 31 Mar 2021, down from 2,382 in 2019; the figure is dated. BOT publishes yearly lists of licensees by province, but no 2025-26 total was found. The upgrade is likely to cut the count, and some licensees are hotels or department stores whose exchange counter is a sideline.",
+   "reason": "The duty is real. BOT's money-changer page says licensed money changers must file an encrypted transaction report through BOT's DAP system within 7 days of each month-end, even when they had no transactions. BOT's hearings (19 Aug-18 Sep, 8 Sep-7 Oct and 21 Sep-20 Oct 2026) confirm a 2027 upgrade covering capital, branches, system standards and customer limits. Licensees who fail it may lose their licence. The new rules are still drafts, and specific numbers were not read because the PDF could not be parsed. Searches in Thai found no Thai money-changer compliance software. The market is small: about 2,365 licensees in 2021, likely to shrink after the upgrade. It is a niche, one-off upgrade spike on top of a simple monthly file. Score 5.",
+   "searches": 5,
+   "sources": "https://www.bot.or.th/th/our-roles/financial-markets/foreign-exchange-regulations/foreign-exchange-business/money-changer.html ; https://www.bot.or.th/th/laws-and-rules/public-hearing/public-hearing-20260921-money-changer.html ; https://www.bot.or.th/th/laws-and-rules/public-hearing/public-hearing-20260907-money-changer.html ; https://www.bot.or.th/th/laws-and-rules/public-hearing/public-hearing-20260819-money-changer.html ; https://www.tilleke.com/insights/thailand-proposes-overhaul-of-licensing-framework-for-money-changers/8/ ; https://www.thansettakij.com/business/475731 ; https://www.thaipbs.or.th/news/content/260182 ; https://www.bot.or.th/content/bot/th/our-services/data-acquisition-publication/da-and-standard/data-submission-dmsda.html ; https://clearviewsys.screenstepslive.com/s/manuals/m/User_Manual/l/209867-what-is-currencyxchanger",
+   "suggested_score": 5,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b54"
+ },
+ "opus:thailand:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free DHSS e-licensing portal esta.hss.moph.go.th handles licence applications and caregiver registration, and licences are renewed online. CloudNurse is a Thai SaaS used by 40+ nursing homes: e-care records, eMAR, incidents, finance, inventory and staff rosters. I did not confirm that it has a compliance or licence module. NEC has a Chiang Mai pilot and NSTDA has Well-Living, but both target care delivery, not compliance. A Thai-language search found no product that reconciles licensed beds and area with actual occupancy, tracks caregiver registration for each staff member, or prepares centres for DHSS inspections.",
+   "duty": "Health Establishments Act B.E. 2559 plus the ministerial regulation on elderly and dependent-person care businesses (published 31 Jul 2020, in force 27/28 Jan 2021). Operators need a business licence, tied to the beds and floor area approved, and a manager licence. Every caregiver must register with DHSS on esta.hss.moph.go.th after a recognised course of at least 420 hours. A DHSS manual cited in search results says the business licence lasts 5 years under section 14, renewed with form สพส.3 before it expires. The annual fee was not confirmed. A Thairath headline mentions waivers of annual fees for spas, massage shops and elder-care premises, but I did not open it. The penalty seen is revocation of the operator and manager licences under s.28, which shuts the centre, plus police complaints (Kanchanaburi, Oct 2026). Fine and jail amounts were not checked. The reported draft regulation on new standards was not reached: Bangkokbiznews 1255384 does not mention it. The duty has no confirmed periodic reporting cycle. It is driven by events and inspections, with renewal every 5 years.",
+   "market": "About 1,200 centres are registered with DHSS (Bangkokbiznews, Oct 2026). In 2021, Thai Post put the sector at 3,000+ businesses, with about 28,000 caregivers. A 2026 operators' association estimate cited in Bangkokbiznews is about 4,000. The share that is small or family-run was not found.",
+   "reason": "The duty is real, but it rarely needs action. The ministerial regulation on elder-care businesses under the Health Establishments Act 2559 has applied since 28 Jan 2021. It requires an operator licence, a manager licence and DHSS registration of every caregiver after a 420-hour course, done through the free DHSS portal esta.hss.moph.go.th. DHSS manuals say the operator licence lasts 5 years. The Oct 2026 Kanchanaburi revocation (50 beds licensed, about 129 found) and the 2-month inspection of about 1,200 centres create a short spike of urgency. I found no Thai tool that matches licensed beds and floor area to actual use, or tracks caregiver registration for inspections. CloudNurse covers care operations and could add this. Pain between inspections is low, the market is small and many centres are paper-based.",
+   "searches": 6,
+   "sources": "https://www.bangkokbiznews.com/health/1255384 ; https://www.naewna.com/n/?p=101604 ; https://www.thaipost.net/main/detail/96487 ; https://hemd.hss.moph.go.th/wp-content/uploads/2025/02/6.คู่มือสำหรับประชาชน-ผู้ให้บริการสูงอายุ.pdf ; https://www.thairath.co.th/money/economics/thai_economics/2239073 ; https://bangkokpost.com/thailand/pr/2900172/cloudnurse-launches-thailands-first-digital-elderly-care-platform ; https://www.jetro.go.jp/j-bridge/companies/2026/cloud_nurse.html ; https://www.healthcareitnews.com/news/asia/nec-expands-digital-elderly-care-system-trial-chiang-mai",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b54"
+ },
+ "opus:thailand:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free DOE e-WorkPermit portal is the official filing channel. Licensed import agents and registered \"ผู้ดำเนินการแทน\" (proxies) file for employers; one report counts 81,551 employers registered on the portal. Thai and English searches found no named employer-side SaaS for tracking expiries or renewals of migrant-worker permits. That is not_reached as a full vendor scan, since I did no regional vendor-specific checks.",
+   "duty": "Employers must renew work permits for Lao, Myanmar and Vietnamese workers expiring 11 Dec 2026 on e-workpermit.doe.go.th. The renewal runs one year to 11 Dec 2027 under the cabinet resolution of 14 Jul 2026. Employing a worker without a valid permit carries a fine of 10,000-100,000 baht per worker, and repeat offenders can be barred from hiring foreign workers for 3 years. Renewal cycles recur through annual cabinet resolutions, and there are separate deadlines such as the MOU cohort to 13 Feb 2027. The fee and window details from the claim are reported by news articles. The PRD page returned HTTP 503, so I could not open it.",
+   "market": "About 770,000 workers are due in this cohort (InfoQuest, Thai Post and PRD reports of the cabinet resolution). Ministry of Labour data from Feb 2024 put foreign workers in Thailand at about 3.29 million. The number of distinct employers in this cohort was not found; one report counts 81,551 employers registered on e-WorkPermit.",
+   "reason": "The duty is real. The 14 Jul 2026 cabinet resolution covers about 770,000 Lao, Myanmar and Vietnamese workers whose permits expire on 11 Dec 2026. Employers must renew through the DOE e-WorkPermit portal. Under the Foreign Workers Management decree the fine is 10,000-100,000 baht per worker, which corrects the claim's \"up to 200,000\". Cycles repeat each year by cabinet resolution, and several groups overlap: MOU workers run to 13 Feb 2027 and Cambodians follow a separate track. I found no employer-side software. However, the core filing job is done on the free state portal, and licensed import agents and proxies already file at scale. The buyers are scattered small employers who are sensitive to price. The opening is mostly a multi-cohort expiry tracker plus a filing desk, which is hard to tell apart from agents.",
+   "searches": 6,
+   "sources": "https://www.infoquest.co.th/?p=615165 ; https://www.thaipost.net/general-news/1032256/ ; https://www.prd.go.th/th/content/category/detail/id/39/iid/521864 ; https://www.prd.go.th/th/content/category/detail/id/39/iid/531308 (search snippet only; fetch returned 503) ; https://www.thaipbs.or.th/news/content/508271 ; https://www.bangkokbiznews.com/news/1247207 ; https://www.matichon.co.th/local/news_1748363 ; https://www.thairath.co.th/news/politic/2917222 ; https://sea.peoplemattersglobal.com/news/economy-policy/thailand-makes-online-work-permits-mandatory-for-foreign-workers-46835",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b54"
+ },
+ "opus:thailand:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "None found. Three Thai-language searches (rubber buying-yard software, latex weighing/DRC programs, online reporting system) returned only research papers and news. No commercial rubber-yard ledger product and no DOA online monthly-report portal were found. The substitutes are paper, Excel, or generic accounting (Express). Risk: DOA could add the report to its existing NSW/e-service licence system.",
+   "duty": "Rubber Control Act B.E. 2542 (1999), section 23 per DOA guide: licensed rubber traders (buyers for domestic resale, rubber processors, exporters, importers, manufacturers) must record monthly rubber purchases, sales and stock on hand on the prescribed form and submit it to the DOA officer by the 10th of the following month. Frequency: monthly. The Act is in force (cited in enforcement news Oct 2025). The penalty for not filing was not verified (DOA PDF fetch failed with 503). The filing channel (paper vs online) is unconfirmed. DOA uses NSW/e-service for licences and permits, but no online monthly-report portal was found.",
+   "market": "Not reached. No count of licensed rubber traders was found. The rubber control division's statistics yearbook may have it. The scale is plausibly thousands of buying yards across the south, east and northeast, but this is unverified.",
+   "reason": "The duty is real. Search excerpts of the DOA guide (02-KA.pdf) say licensed rubber traders must keep a monthly purchase/sale/stock account on the form the Director-General sets (section 23) and send it to officials by the 10th of the next month. Thansettakij (Aug 2022) confirms the monthly reporting to DOA. A Thansettakij report from Oct 2025 shows the Act is still enforced. Not checked: the penalty amount, whether filing is online, and the number of licensees, because DOA PDFs returned 503. Three Thai searches found no buying-yard or ledger software. Still, the buyers are low-tech family yards, and the monthly form is simple enough that Excel or paper works. DOA may also add online filing through its NSW/e-service. That means low willingness to pay, so this needs bundling with weighing/DRC pricing or EUDR traceability.",
+   "searches": 6,
+   "sources": "https://www.doa.go.th/rubber/wp-content/uploads/2019/02/02-KA.pdf (search snippet only; fetch 503) ; https://www.thansettakij.com/economy/trade/537576 ; https://www.thansettakij.com/economy/trade-agriculture/640654 ; https://doa.go.th/research/attachment.php?aid=2928 ; https://www.doa.go.th/oard2/wp-content/uploads/2019/05/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%83%E0%B8%9A%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%8D%E0%B8%B2%E0%B8%95%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%B2%E0%B8%87.pdf (search result; fetch 503)",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b54"
+ },
+ "opus:thailand:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free CAAT UAS Portal (web and app) handles registration and flight-plan filing, which is the core regulatory job. True Drone, per a Seven Peaks case study, is a Thai farmer-to-pilot booking platform where pilots upload their drone licence. I found only search snippets for it and did not check whether it handles flight notices or insurance. Foreign tools (Rantizo AcreConnect, Perfect Flight) cover work orders and as-applied spray records. A Naresuan University booking prototype from 2564 (2021) exists. I found no Thai product that combines per-job CAAT filing, insurance and licence expiry tracking, and spray logs. I did not check DJI/XAG dealer apps.",
+   "duty": "Confirmed in force. The CAAT drone rules replacing the 2558 (2015) Ministry of Transport notice took effect on 17 May 2569. They require: registration through the online system and registration marks on every drone; an online flight plan for each flight, giving purpose, date, area, pilot and insurance documents, approved by CAAT before flying; third-party insurance of at least 1M baht per occurrence; a CAAT-approved course within 1 year; and a licence valid for 5 years, renewed at least 30 days before expiry (PPTV). Commercial work is in the 'Specific Category', which needs a risk assessment. Two points are not verified: whether agricultural drones get a carve-out, and how drones over 25 kg are treated. The August 2568 border notices set penalties of up to 1 year in prison and/or a fine of up to 40,000 baht, plus the 12-hour notice, the 06:00-18:00 window and the 30 m limit. Those notices were temporary, and a December 2568 notice no. 12 required 3-day advance requests in border-sensitive areas. The Department of Agriculture promotes a spray-operator course and SOP and says unregistered drones can be barred from flying. I did not confirm a mandatory pesticide-spray permit.",
+   "market": "Not found. I found no count of registered agricultural drones or pilots for 2568-2569. The only figures are targets: the Department of Agriculture aims to train 5,000 spray-drone operators by 2570, and DEPA aims for 500 communities using agricultural drones, with 86 in its first batch. The claim's 1,500-pilot and 10,000 targets were not re-verified here.",
+   "reason": "The duty is real and has tightened. The 2025 per-job 12-hour notices were temporary emergency measures linked to the Thai-Cambodian border situation. New CAAT rules took effect on 17 May 2569 (PPTV, 13 May 2569). Under them, every flight needs an online flight plan with insurance documents and prior approval, third-party cover of at least 1M baht, an approved course within 1 year, marked registration and a 5-year licence. The Department of Agriculture also pushes spray-operator training and SOPs. However, the core filing happens in the free CAAT UAS Portal, so a paid product would only wrap it. I could not find a count of registered operators, only targets. Buyers are often farmers who pay little, and I could not confirm whether spray drones over 25 kg follow the same rules.",
+   "searches": 6,
+   "sources": "https://www.pptvhd36.com/news/%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1/275388 ; https://www.bangkokbiznews.com/news/news-update/1193577 ; https://www.bangkokbiznews.com/tech/innovation/1239630 ; https://www.thaipbs.or.th/news/content/355195 ; https://www.thaipbs.or.th/news/content/355419 ; https://www.infoquest.co.th/?p=520228 ; https://sevenpeakssoftware.com/case-studies-v2/thai-farmers-can-now-find-book-and-pay-for-drone-crop-spraying-online-without-calling-anyone ; https://ww2.agi.nu.ac.th/nred/Document/is-PDF/2564/geo_2564_08_Abstract.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b54"
+ },
+ "sonnet:thailand:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Health Business Establishments Act B.E. 2559 (in force 27 Sep 2016). Licences last 5 years (s.14), renewal on form สพส.3, and there is an annual fee and sticker. Service providers must register after a DHSS-approved course. Frequency is weak: renewal every 5 years, and annual fees are sometimes waived (waived 18 Mar 2565 to 17 Mar 2566). The search found no dedicated licence-tracking software, but I did not search salon/spa POS products. The current premise count was not found; older articles say tens of thousands. Pain is low, since renewal is rare and the real issue is staff turnover. Willingness to pay is likely low. Score 3.",
+   "searches": 2,
+   "sources": "https://uthaihealth.moph.go.th/ossc/document/establishment/health_establishment04.pdf ; https://hemd.hss.moph.go.th/wp-content/uploads/2025/02/6.คู่มือสำหรับประชาชน-ผู้ให้บริการสูงอายุ.pdf ; https://www.matichon.co.th/local/news_154852",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b54"
+ },
+ "sonnet:thailand:B15": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The Forest Department guidance for licensed sawmills (Forest Act 1941) does describe a log ledger and a sawn-timber ledger. I could not open the PDF (HTTP 403), so I could not confirm the filing frequency, who receives the ledgers, or the penalty. I found no Thai-language software for this ledger. The only sawmill ERPs that surfaced were foreign (Pinja, SawInfo, TimberTec, acadon, Proginov), and none was confirmed to support Thai rules. I found no national mill count; NSO table 21.9 exists but I could not read it. The market looks small and fragmented, with unclear willingness to pay. The EUDR angle is weak because Thailand is rated low-risk. I also could not check whether any free Forest Department e-system exists.",
+   "searches": 4,
+   "sources": "https://www.forest.go.th/forestprotect-operation/wp-content/uploads/sites/108/2023/06/แนวทางปฏิบัติของผู้รับอนุญาตตั้งโรงงานแปรรูปไม้.pdf ; https://pinja.com/?p=4319 ; https://www.nso.go.th/public/e-book/Statistical-Yearbook/SYB-2021/638/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b54"
+ },
+ "sonnet:thailand:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The 50 t notification rule (volume, storage place, price) traces to a 2017 DIT request for maize middlemen, framed as cooperation, not a current statutory filing. I found no 2026 source confirming it is in force. The 2026 inspections (21 Aug to 9 Sep, 151 sites, 15 offences) concern certified moisture meters, scales and posted prices, not a stock ledger. The Naewna 26 Aug 2026 article names no notification duty or penalty. The Matichon page returned 403. The inspection scheme covers about 1,475 buying points, which is a small, seasonal market. The only competitor check was a search for software, with nothing relevant; it was not exhaustive. Weak recurring-filing pain, so the score is low.",
+   "searches": 2,
+   "sources": "https://www.naewna.com/n/?p=25489 ; https://www.naewna.com/n/?p=55301 ; https://www.infoquest.co.th/?p=350396 ; https://www.matichon.co.th/article/news_637958 (403)",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b54"
+ },
+ "sonnet:thailand:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The LivingOS / JuristicOS (free, condo and village), Urbanice app, accounting firms that audit juristic-person accounts",
+   "duty": "Housing-estate juristic persons (Land Allocation Act 2000) and condo juristic persons (Condominium Act 1979) must hold meetings and keep accounts. Frequency, filing deadline and penalty not verified from statute text in this session.",
+   "market": "Not found: no official count of juristic persons located by search",
+   "reason": "The duty is only partly confirmed. The Land Allocation Act 2000 creates housing-estate juristic persons (s.44-46), and the Condominium Act 1979 covers condos, but my searches found no statute text on annual meeting, accounts or filing deadlines and no penalties. No national count of entities was found. Competition exists: The LivingOS (JuristicOS) is free for both condos and housing estates. Urbanice is a resident app. Accounting firms sell audit services to these entities. No accounting-specific package was found. Buyers are volunteer committees or management firms with low willingness to pay, and the market is crowded with property-management products. Score stays at 3.",
+   "searches": 4,
+   "sources": "https://www.thelivingos.com/en/home-en-3/ ; https://www.yellowpages.co.th/lp/paudit-law/catalog/item/ตรวจสอบบัญชีนิติบุคคลหมู่บ้าน-และอาคารชุด-EckGdk2 ; https://so01.tci-thaijo.org/index.php/gradlawtujournal/article/view/188873",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b54"
+ },
+ "sonnet:thailand:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Market is large: about 79,600 village and urban community funds (79,604 in 2020 news, 79,595 more recently). Funds are supervised by the National Village and Urban Community Fund Office (SVF office, สทบ.), which has bookkeeping rules and a red/yellow/green ranking. I did not open any source and did not find the legal basis, report frequency, penalty, or the actual forms. I also could not confirm whether the office supplies a free bookkeeping or reporting system. Academic papers mention packaged accounting programs used by only about 10 funds. Buyers are volunteer committees with low willingness to pay, and the state is the likely channel and competitor. Distribution would depend on the office, not direct sales. The 200,000 baht scheme date was not checked.",
+   "searches": 2,
+   "sources": "https://so04.tci-thaijo.org/index.php/JLPRU/article/view/69026 ; https://www.thansettakij.com/business/439057 ; https://www.bangkokbiznews.com/news/906518 ; https://ph01.tci-thaijo.org/index.php/snru_journal/article/view/9898",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b54"
+ },
+ "sonnet:thailand:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "DOA NSW fertiliser system (state portal, import/export); no Thai private shop tool found",
+   "duty": "DOA fertiliser sales licence under Act 2518; seller ledger/report duty and renewal term unconfirmed",
+   "market": "not found",
+   "reason": "The Fertiliser Act B.E. 2518 (amended 2550) and a DOA sales licence are corroborated indirectly. I could not read the Act text, the licence term, the renewal cycle, or any seller record-keeping or reporting duty. The recurring workflow is therefore unproven; the claim itself says a ledger duty is unconfirmed. Three searches found no Thai software for fertiliser shops. DOA's own e-system is an NSW portal for import and export, so it does not cover shop compliance. Enforcement exists (51 cases in 2568 across the Fertiliser, Hazardous Substances and Plant Varieties acts). The market is the number of fertiliser-selling shops, which I did not find. This is probably a weak standalone product, since renewal is infrequent. It is better as an add-on to K08. Score 3.",
+   "searches": 3,
+   "sources": "https://so05.tci-thaijo.org/index.php/pimjournal/article/view/65606 ; https://doa.go.th/ac/lampang/wp-content/uploads/2024/03/61_คู่มือการใช้งานระบบปุ๋ย-สำหรับผู้ประกอบ.pdf ; https://li01.tci-thaijo.org/index.php/pajrmu/article/view/248805 ; https://www.opsmoac.go.th/loei-manual-files-441191791817",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b54"
+ },
+ "triage:thailand": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New buyer group (BOT-licensed money changers) with a 2026-27 licence-upgrade deadline."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "New buyer group (elder-care centres) with licence, bed-count and caregiver registration duties."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "New buyer (spa/massage shops) with recurring licensing duty; earliest of the spa pair."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Pawnshop licence and daily-book duty is a different buyer group from gold shops; related to K10.",
+     "ref": "K10"
+    },
+    {
+     "decision": "known",
+     "id": "A5",
+     "reason": "Same gold-shop buyer group and same cash/KYC duty as K10.",
+     "ref": "K10"
+    },
+    {
+     "decision": "known",
+     "id": "A6",
+     "reason": "Same licensed scrap/second-hand dealer buyer and same seller-record duty as K09.",
+     "ref": "K09"
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Different buyer (moto-taxi/taxi/app drivers) and duty (licence and inspection expiry) from K19 truck GPS."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "New buyer group (small slaughterhouses) with notification and licence duties."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Village waterworks committees have a recurring water-quality testing duty; unsure, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Septic haulers' licence and disposal records differ from K02 industrial waste manifests; related to K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "New buyer group (drillers and groundwater users) with recurring licence and fee duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Work-permit renewal is a different duty from K07 SSO onboarding, with a dated deadline of 11 Dec 2026."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "New buyer group (rubber dealers) with a monthly mandatory ledger report."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "New buyer group (maize and cassava buyers) with a notification and stock-control duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Housing estate and condo juristic persons are a new buyer group with recurring accounts and meeting duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Village funds and savings groups are a new buyer group with reporting duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Real estate brokers are a different buyer group from gold shops; related to K10.",
+     "ref": "K10"
+    },
+    {
+     "decision": "merge",
+     "id": "B8",
+     "reason": "Same spa/massage buyer group and same Health Establishments Act licensing duty as A3.",
+     "ref": "A3"
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "New buyer group (dormitory owners) with licence, insurance and lease duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "New buyer group (tour operators and guides) with licence duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Hotel licensing is a different duty from K17 TM30 filing."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Clinic licence renewal is a different duty from K13 claims."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "New buyer group (retail liquor and tobacco licensees) with licence and sales-report duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "New buyer group (small security-guard firms) with licence duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Domestic timber ledger duty for sawmills differs from K06 EUDR evidence pack; related to K06.",
+     "ref": "K06"
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "New buyer group (LPG retailers) with cylinder and refill record duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B17",
+     "reason": "Chemical sellers' type-3 licence is a different buyer and duty from K08; related to K08.",
+     "ref": "K08"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Spray-drone operators are a new buyer group with CAAT registration and flight-notice duties; related to K08.",
+     "ref": "K08"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Fertiliser sales licence and registered-product duty differs from K08 pesticide register; unsure, so keep for verification.",
+     "ref": "K08"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Fishing-vessel owner annual licence and PIPO duties differ from K18 catch certificates."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Community enterprise registration renewal is a different buyer and duty from K16 food-factory licence."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Small online sellers' TISI and DBD duties differ from K06 EUDR exporters."
+    }
+   ]
+  },
+  "tag": "w2b54"
  }
 }

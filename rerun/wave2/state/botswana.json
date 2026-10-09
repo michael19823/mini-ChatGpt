@@ -1,0 +1,584 @@
+{
+ "discover:A:botswana": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed scrap-metal dealers and scrap-yard operators, mainly council areas",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "https://testelaws.botswanalaws.com/PDF/StatutesActpdf/2010Subsidiarypdf/CENTRAL DISTRICT COUNCIL (SCRAP METAL AND SCRAP-YARD CONTROL) BYE-LAWS, S. I. NO. 7 OF 2010.pdf ; https://testelaws.botswanalaws.com/PDF/StatutesActpdf/2014subsidiarypdf/CONTROL OF GOODS (RESTRICTION ON EXPORTATION OF FERROUS AND NON-FERROUS METAL SCRAP AND WASTE) REGULATION, S. I. NO. 153 OF 2014.pdf",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Scrap-metal dealer register and licence pack",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Council Scrap Metal and Scrap Yard Control Bye-laws (e.g. Central District S.I. 7 of 2010): register of metals, seller names, dates, prices; licence naming yards; export registration under Control of Goods S.I. 153 of 2014",
+     "unchecked": "Whether other councils have equivalent bye-laws; enforcement and how many dealers; whether registers are inspected by police or councils; competitor search not run"
+    },
+    {
+     "buyer": "Licensed local recruitment agencies and individual recruiters",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.gov.bw/index.php/trade/recruiters-licence ; https://www.gov.bw/labour-administration/recruiters-permit (via search; page fetch gave 503)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Recruiter licence and quarterly returns service",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Employment Act Cap 47:01 Part V: recruiter licence (Type A P20, Type B P100), renewal needs quarterly returns of employees recruited per district",
+     "unchecked": "Number of licensed recruiters; real enforcement; whether returns are filed on paper; competitor search not run"
+    },
+    {
+     "buyer": "Small factories, laundries, hotels, food processors, workshops owning steam boilers, cranes or lifts",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://gov.bw/occupational-health-safety/examination-steam-boilers-when-cold ; https://gov.bw/taxonomy/term/134?page=1 (via search; fetch gave 503)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Boiler, pressure-vessel and lifting-equipment examination tracker",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Factories Act 1973 s.37(7): steam boilers examined at least every 14 months by DOHS-authorised examiners; report kept on premises; ss.31-34 cover lifts, cranes and lifting-tackle register",
+     "unchecked": "Number of regulated sites; lift and crane intervals; list of authorised examiners; fees; competitor search not run"
+    },
+    {
+     "buyer": "Registered societies: churches, burial societies, clubs (about 10,000 per 2023 report)",
+     "category": "17. Community and religious bodies",
+     "evidence": "https://e-laws.botswanalaws.com/?p=1628 ; https://botswanalaws.com/bulletin/principal-legislation/bulletin-2025/act-5-of-2025-societies-amendment-act",
+     "existing": "None seen",
+     "known_id": "K05",
+     "known_mark": "known",
+     "known_note": "Same buyer and core duty as K05. New fact: the 2025 amendment (AML-driven) adds officer verification and residency rules; church bodies objected.",
+     "name": "Societies Act 2025 amendment compliance for churches and burial societies",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Societies (Amendment) Act 5 of 2025, in force 24 Jan 2025: Registrar identity checks on controllers, residency of two-thirds of office-bearers, new ss.4B, 29B-29D (content not read)"
+    },
+    {
+     "buyer": "Agro-dealers and fertiliser sellers",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://e-laws.botswanalaws.com/PDF/StatutesActpdf/1999Actpdf/AGROCHEMICALS ACT, 18 OF 1999.pdf ; https://testelaws.botswanalaws.com/PDF/StatutesActpdf/2003Subsidiarypdf/AGROCHEMICALS REGULATIONS, S. I. NO. 37 OF 2003.pdf",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Agrochemical dealer licence and registration compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Agrochemicals Act 18 of 1999 s.15; Agrochemicals Regulations S.I. 37 of 2003 (Form 7, P200); unregistered fertiliser sale is an offence",
+     "unchecked": "No recurring return found; licence validity period; dealer count"
+    },
+    {
+     "buyer": "Small waste collection and septic/sewage haulers",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://www.gov.bw/environmental-management/waste-carrier-license ; https://cms2.gov.bw/sites/default/files/2020-03/Waste%20Management%20Act.pdf",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Waste carrier and septage hauler licence admin",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Waste Management Act Cap 65:06 s.12-13 waste carrier licence; facility licence valid one year",
+     "unchecked": "Whether septage is controlled waste; whether s.13 is enforced; fees; renewal cycle; page fetch gave 503"
+    },
+    {
+     "buyer": "Small borehole drilling firms and private borehole owners",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://cms2.gov.bw/environmental-management/water-rights-application ; https://gov.bw/land-management/borehole-registration?page=3 ; https://dailynews.gov.bw/news-detail/74066",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Borehole drillers: completion certificates and water-right filings",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Borehole completion certificate and Form GS 184 with chip and soil samples to Borehole Registry; water-right applications to Water Apportionment Board; Water Act and Borehole Act under review (Minister, 2023)",
+     "unchecked": "Number of drillers; whether reform has been enacted; fees"
+    },
+    {
+     "buyer": "Used motor dealers and small vehicle importers",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://www.parliament.gov.bw/documents/DAILY-HANSARD--5-MARCH-2025---Budget-Meeting--Mixed-Version--2nd-Meeting-of-the-1st-session-of-the-13th-Parliament_05_01_44_12_06_2025.pdf ; https://www.gov.bw/taxonomy/term/84?page=0",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Used-vehicle dealer and grey-import compliance",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Motor Dealer Licence (used) via DRTS, about P1,690 per gov.bw; March 2025 Finance Minister statement on grey-import non-compliance (under-valuation, false declarations); SACU five-year rule enforced by BURS",
+     "unchecked": "Dealer count, any dealer register or recurring return, dismantler rules; mostly importer clearing, close to generic customs work"
+    },
+    {
+     "buyer": "Agro-vet shops and vet product sellers",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://rr-africa.woah.org/app/uploads/2000/11/motshegwa.pdf ; https://www.bomra.co.bw/download/274/vet-guidelines/31144/submission-of-applications-for-exemption-from-registration-of-vmps-1.pdf",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Veterinary medicine seller permit (Diseases of Animals Act s.16)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Diseases of Animals Act Cap 37:01 s.16 permits to sell vet medicines (2017 source); BOMRA vet product registration and exemption guideline (Nov 2023)",
+     "unchecked": "Current permit regime, whether BOMRA now licenses sellers, recurring duties"
+    },
+    {
+     "buyer": "Citizen owner-operators of taxis, minibuses and call cabs",
+     "category": "18. Transport operators",
+     "evidence": "https://gov.bw/transport-permits/taxi-service-permit ; https://gov.bw/transport-permits/call-cab-permit?page=0 ; https://testelaws.botswanalaws.com/?p=38164",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Taxi, combi and call-cab permit renewal and inspection pack",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Road Transport (Permits) Cap 69:03 via DRTS: renewal needs expired permit and token, vehicle inspection certificate, BOCRA licence for call cabs; processing listed at 39 working days",
+     "unchecked": "Operator count; renewal cycle; whether renewal is online; whether associations already do this; competitor search not run"
+    },
+    {
+     "buyer": "Licensed bureaux de change (about 60 at end-2020)",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.bankofbotswana.bw/content/bureau-de-change-0 ; https://testelaws.botswanalaws.com/?p=37997",
+     "existing": "None seen",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "Bureau de change AML and licence compliance kit",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Bank of Botswana Act s.30 licence; Bureaux de Change Regulations 2004 (conditions, annual fees; reported P10,000 daily cash limit, unverified); AML duties",
+     "unchecked": "Current bureau count; reporting forms and frequency (returns to the Bank / FIA); existing bureau software; competitor search not run"
+    },
+    {
+     "buyer": "Private day-care and early-childhood centres",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://testelaws.botswanalaws.com/PDF/StatutesActpdf/2014subsidiarypdf/KWENENG DISTRICT COUNCIL (EARLY CHILDHOOD CARE AND EDUCATION) BYE-LAWS, S. I. NO. 129 OF 2014.pdf ; https://testelaws.botswanalaws.com/PDF/StatutesActpdf/2010Subsidiarypdf/LOBATSE TOWN COUNCIL (DAY CARE CENTRE) BYE-LAWS, S. I. NO. 65 OF 2010.pdf",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Day-care centre licence renewal and inspection pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Council Day Care / Early Childhood Care bye-laws (e.g. Kweneng S.I. 129 of 2014, Lobatse S.I. 65 of 2010): 12-month licence, renewal fee, multi-agency inspections",
+     "unchecked": "Number of centres; per-council fragmentation; recurring reports"
+    },
+    {
+     "buyer": "Driving schools and instructors",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://gov.bw/transport-permits/driving-school-permit ; https://www.gov.bw/transport/driving-instructor-certification",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Driving school permit and instructor annual renewal",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DRTS driving school permit (P390, renewal P260); instructor certificate renewed annually",
+     "unchecked": "Number of schools; no recurring filing beyond renewal"
+    },
+    {
+     "buyer": "Households employing domestic workers (minimum P1,500/month since 1 Feb 2024)",
+     "category": "1. Household employers",
+     "evidence": "https://wageindicator.org/en-bw/work-in-botswana/minimum-wage",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Domestic worker minimum wage and contract compliance for household employers",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Regulation of Minimum Wages Order S.I. 7 of 2024; Employment Act Cap 47:01",
+     "unchecked": "No employer registration or filing found; no authority collects reports"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Domestic service minimum wage P1,500/month from 1 Feb 2024 (S.I. 7 of 2024, per WageIndicator). No employer registration or filing duty found; nothing recurring for an authority. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Council bye-laws (e.g. Central District Council Scrap Metal and Scrap Yard Control Bye-laws S.I. 7 of 2010): dealer licence P200, licence names scrapyards and metals, mandatory register of sellers/metals/prices. Export of scrap needs Ministry registration (S.I. 153 of 2014). Candidate C01.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No Botswana second-hand dealer or pawnbroker statute or register found; Trade Regulations 2008 list shows no such category (unverified). Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Precious and Semi-Precious Stones (Protection) Act: dealer licences via Minister / Dept of Mines (semi-precious dealer licence service on gov.bw). Nothing found on gold or a jewellery register. Not enough to judge.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler or spare-parts rules found. Motor Dealer Licence (new/used) is issued by DRTS, fee about P1,690 per gov.bw (undated). Finance Minister said in March 2025 that grey used-vehicle imports are a major non-compliance source. Candidate C08 weak.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Nothing new beyond K10 (not re-searched, per contract).",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Livestock and Meat Industries Act Cap 36:03; Red Meat Abattoir Regs S.I. 56/2007 and Poultry Abattoir Regs S.I. 55/2007 cover abattoir and cutting-premises licences. A butchery needs a Trade Act fresh-produce licence (citizen-reserved). No small-butcher recurring filing found.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No beekeeper registry or permit found. A 2025 review says there is no legal framework for the sub-sector. National Apiculture Strategy runs to 2027. Importation of Bees Act is old. Nothing to build on.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Diseases of Animals Act s.16 permit to sell, manufacture or import vet medicines (2017 source). BOMRA runs vet product registration and exemptions. No recurring seller register or return found. Candidate C09 weak.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Drillers hold Ministry of Trade licences (Minister's 2023 statement). Borehole Completion Certificate, Form GS 184 and borehole registry are run by the Dept of Water and Sanitation. Water rights go to the Water Apportionment Board. The Water Act and Borehole Act were said to be under review. Candidate C07 weak.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Waste Management Act Cap 65:06 s.12-13: waste carrier licence for moving controlled waste, plus a facility licence valid one year. Unclear whether septage is controlled waste. The gov.bw page returned 503 when fetched. Candidate C06 weak.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Factories Act 1973 s.37(7): steam boilers examined at least every 14 months by a DOHS-authorised examiner. Report kept on site. Provisions for lifts (s.31), cranes (s.33) and a lifting-tackle register (s.34). Candidate C03.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Budget used on other categories; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Agrochemicals Act 18 of 1999 s.15: licence to import, sell or distribute (Form 7, P200); product registration includes fertilisers. Fertiliser sold unregistered is an offence (2014 warning). Candidate C05 weak.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Employment Act Part V: recruiter licence (Type A P20, Type B P100) and individual recruiter permits from the Dept of Labour. Renewals need quarterly returns of employees recruited per district. Candidate C02.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Council cemetery bye-laws require burial permits and a burial register kept by the council. No national funeral-parlour licensing found. Burial societies fall under the Societies Act (K05).",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Societies (Amendment) Act 5 of 2025 in force 24 Jan 2025 (SI 1/2025): new s.4, 4B, 29B-D; Registrar must verify controllers' identity; two-thirds of office-bearers must reside in Botswana. Electronic re-registration closed 24 Feb 2024; annual returns carry a P50 charge. About 10,000 societies. Same buyer and duty as K05. Candidate C04 known K05.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Road Transport (Permits) Cap 69:03 via DRTS: taxi, call-cab and minibus permits are reserved for citizens; renewal needs the expired permit and token, listed at 39 working days; vehicle inspection certificate needed; call cabs need a BOCRA radio licence. Candidate C10.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Hawking and street vending are licensed by council bye-laws (1985-2010 versions). Bureaux de change are licensed by the Bank of Botswana under Bank of Botswana (Bureaux de Change) Regulations 2004, with about 60 operating at end-2020 and some licences revoked. Candidate C11.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Day-care centres are licensed by council bye-laws with 12-month licences. Driving school permit is BWP 390 with BWP 260 renewal, and instructor certificates renew annually (gov.bw). Tattoo, food-producer and hunting rules not searched. Candidates C12 and C13.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "Botswana domestic workers employer registration Employment Act minimum wage domestic 2026",
+    "Botswana scrap metal dealers licence regulations second-hand dealers pawnbrokers",
+    "Botswana precious stones gold dealers licence Diamond Act jewellery register 2025",
+    "Botswana veterinary medicine sellers registration Veterinary Council agrovet licence 2025",
+    "Botswana borehole drilling permit water use licence Water Apportionment Board drillers register",
+    "Botswana minibus combi taxi operators permit Transport Controller PSV licence renewal 2026",
+    "Botswana pesticide dealers registration Agricultural Chemicals Act fertiliser licence Department of Crop Production",
+    "Botswana private employment agencies licence Department of Labour recruitment agency regulations",
+    "Botswana funeral parlour licence regulations burial societies cemetery by-laws Funeral Services",
+    "Botswana childcare centre registration day care licence Ministry of Local Government early childhood",
+    "Botswana Factories Act pressure vessels boilers lifts inspection certificate registration of factories DOHS",
+    "Botswana waste management licence waste collectors sewage haulers septic Waste Management Act licence",
+    "Botswana butchery abattoir licence Meat Inspection regulations small butchers Department of Veterinary Services 2026",
+    "Botswana driving school licence Road Traffic Act driving instructors licence requirements",
+    "Botswana forex bureau money changers licence Bank of Botswana street vendors hawkers licence council",
+    "Botswana Trade Act amendment 2025 licensing second-hand goods dealers licence Ministry of Trade",
+    "Botswana Societies Act amendment 2025 registrar of societies NGO registration annual returns",
+    "Botswana used car dealers vehicle importers registration dismantlers spare parts BURS CIPA 2025",
+    "Botswana beekeeping honey producers registration Apiculture permit Ministry of Agriculture honey export",
+    "Botswana societies re-registration 2026 deadline churches burial societies Societies Amendment Act compliance"
+   ],
+   "searches": 20
+  },
+  "tag": "w2b57"
+ },
+ "discover:B:botswana": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Domestic and commercial guesthouses (fewer than ten rooms), self-catering units and small lodges, mostly citizen-owned family operations",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://gov.bw/index.php/tourism/application-tourist-enterprise-licence-tel (listed in search) ; https://cms2.gov.bw/sites/default/files/2020-03/GUIDELINES%20FOR%20DOMESTIC%20GUEST%20HOUSE2.pdf ; https://testelaws.botswanalaws.com/PDF/StatutesActpdf/2010Subsidiarypdf/BOTSWANA TOURISM ORGANISATION REGULATIONS, S. I. NO. 47 OF 2010.pdf ; https://dailynews.gov.bw/news-detail/76532 (2023 statement that grading is mandatory)",
+     "existing": "Competitor search run (last query): no Botswana-specific tool found, only PwC/Andersen company secretarial services and the official gov.bw pages. Generic guesthouse property-management systems exist but none seen for BTO returns. Not exhaustively checked.",
+     "known_mark": "new",
+     "name": "Guesthouse and small lodge compliance pack: BTO licence and grading renewal, monthly Training Levy return, monthly accommodation statistics, guest register",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Tourism Act Cap 42:09 and BTO Regulations S.I. 47 of 2010: mandatory grading, annual grading renewal, ungraded operation up to P20,000 and/or 5 years. Domestic guesthouse guidelines list monthly Training Levy returns, monthly accommodation statistics, guest register and residents-only alcohol rule.",
+     "unchecked": "Whether the monthly levy and statistics returns are filed online or on paper; who receives the levy (HRDC vs BTO); current fee schedule; how many guesthouses are licensed (BTO register not opened); whether Booking.com-type hosts are in scope."
+    },
+    {
+     "buyer": "Independent and citizen-owned retail filling stations and small LPG or fuel distributors",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.bera.co.bw/downloads/COMMS/BERA statement on non-compliant filing stations.pdf (title found; PDF body unreadable by WebFetch, details from search summary) ; https://www.bera.co.bw/downloads/Petroleum Regulations DRAFT.pdf ; https://www.bera.co.bw/downloads/Petroleum/Press Release - Issues Warning Against Unlicensed Trading Activities v2 - signed.pdf",
+     "existing": "No competitor search run (score is 3 or above, so one is owed). No Botswana station-compliance product seen in the general searches.",
+     "known_mark": "new",
+     "name": "Fuel station regulatory-compliance tracker for independent filling stations (BERA licence, environmental and safety inspection readiness, oil-water separator maintenance)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "BERA Act licensing; Petroleum Products Regulations 2024; nationwide BERA enforcement operation from May 2026, six stations temporarily shut (statement 18 June 2026).",
+     "unchecked": "Number of licensed retail stations; whether BERA requires periodic returns or only inspections; whether oil majors already supply compliance support to branded dealers; BERA's new Licensee Regulatory Management System (tender 0016.25.26) may become a free state portal; competitor search for fuel station compliance software in Botswana."
+    },
+    {
+     "buyer": "Citizen-owned bars, bottle stores, liquor depots and nightclubs",
+     "category": "31. Liquor licensees",
+     "evidence": "https://botswanalaws.com/consolidated-statutes/subsidiary-legislation/liquor-subsidiary-legislation ; https://gov.bw/trade/liquor-licence-application?page=1 ; https://allafrica.com/stories/202603240265.html",
+     "existing": "Competitor search (last query) returned no Botswana liquor licence software; only government pages and law/accounting firms.",
+     "known_mark": "new",
+     "name": "Liquor licence renewal and compliance tracker for bars, bottle stores and depots (per-location licences, annual returns, newspaper notice, zoning)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Liquor Act: renewal on Form 4 under section 17, P100 fee, one licence per location; applications need latest annual returns, premises proof, zoning validation, and 21-day notice. A 2026 amendment bill proposes online licensing and director-level licensing.",
+     "unchecked": "Whether the amendment passed and an online government portal will replace paper process (which would kill the opportunity); number of licensees; willingness to pay is likely low; tie-in with a bundle (see trade licence candidate)."
+    },
+    {
+     "buyer": "Citizen-owned general dealers, car washes, cleaning firms, small contractors and other family companies",
+     "category": "32. Trade licence holders at district councils / 33. Companies on the CIPA register",
+     "evidence": "https://gov.bw/trade/trade-license-application ; https://wikiprocedure.com/index.php/Botswana_-_Renew_Business_or_Trade_Licence (secondary) ; https://www.rsm.global/botswana/news/beneficial-ownership ; https://dailynews.gov.bw/news-detail/38506 (2017 penalty report)",
+     "existing": "Competitor search run: PwC Botswana and Andersen Botswana sell company secretarial services (https://pwc.com/bw/en/services/company-secretarial-services.html); no self-serve app found.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "Micro-business licence and company-registry calendar: council trade licence anniversary renewal plus CIPA annual return and beneficial ownership update, bundled as a done-for-you subscription",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Trade Act Cap 43:02 section 14 renewal on anniversary date (annual returns form is a renewal document); Companies Act annual returns in incorporation month with deregistration risk; beneficial-ownership duty from the Companies (Amendment) Act 2019. A 2019 Trade Bill may change the regime.",
+     "unchecked": "Current CIPA fee and penalty schedule; whether CIPA's OBRS sends reminders; whether the Trade Bill was enacted and removed licences; low value per client, so a subscription needs bundling with K05-type services."
+    },
+    {
+     "buyer": "Small private GP practices, labs, dental and allied clinics",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://www.moh.gov.bw/regulatory.html (fetched: renewal form is a PDF, no portal mentioned) ; https://bomaid.co.bw/node/491 ; https://bomaid.co.bw/node/373 ; https://thepatriot.co.bw/bomaid-introduces-a-new-fund-administration-system",
+     "existing": "Competitor search run: no Botswana-specific practice-management product found; South African GoodX and NetPractice do not mention Botswana. BOMAID is building a provider self-service claims platform that could cover the claims side.",
+     "known_mark": "new",
+     "name": "Private clinic and laboratory licence renewal plus medical-aid claims deadline tracker (MoH private practice licence, BHPC and Nursing Council registration, indemnity cover, BOMAID 120-day claim window and pre-authorisation)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Annual private practice licence renewal (2025/26 opened 5 May; only 28 labs renewed by 18 July); MOH PPL Guidelines V2 May 2024; BOMAID claim window and pre-auth list.",
+     "unchecked": "Whether BOMAID's provider portal and BPOMAS cover claims submission electronically; number of small practices; whether MoH has an online renewal; BPOMAS claim rules not found."
+    },
+    {
+     "buyer": "Independent retail pharmacies, dispensaries in surgeries, wholesalers",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://www.bomra.co.bw/download/58/licensing-and-enforcement/25543/guidelines-for-operating-a-standalone-pharmacy-bomra-il-il-p01-g01-q-rev.docx ; https://botswanalaws.com/bulletin/principal-legislation/bulletin-2025/act-29-of-2025---medicines-and-related-substances-act ; https://tradebarriers.org/ntm/regulations/view/219",
+     "existing": "Not checked; pharmacy dispensing systems usually carry controlled-drug registers.",
+     "known_mark": "new",
+     "name": "Pharmacy licence and scheduled-medicine and precursor register keeping (BoMRA)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Medicines and Related Substances Act (2013, replaced by Act 29 of 2025); separate registers per schedule category and for precursors; BoMRA standalone-pharmacy guideline effective 15 April 2026.",
+     "unchecked": "Whether Act 29 of 2025 is in force and kept the register rules; BoMRA reporting frequency; existing pharmacy software; number of pharmacies."
+    },
+    {
+     "buyer": "Small traders and exporters of veldt products (firewood, thatching, wild fruit, possibly mophane worms)",
+     "category": "35. Veldt product harvesters, dealers and exporters",
+     "evidence": "https://gov.bw/natural-resources/veldt-product-exporters-permit ; https://www.gov.bw/natural-resources/veldt-product-dealers-permit",
+     "existing": "None seen.",
+     "known_mark": "new",
+     "name": "Veldt product dealer, harvester and exporter permit handling (30-day permits)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DFRR veldt product permits: exporter permit valid 30 days, P500 citizens; dealer permit valid 30 days.",
+     "unchecked": "Volume of permits; whether permit is issued per consignment; low fee and informal buyers."
+    },
+    {
+     "buyer": "Registered co-operative societies and savings and credit co-operatives (SACCOs)",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://faolex.fao.org/docs/pdf/bot26312.pdf ; https://policyvault.africa/policy/co-operative-societies-act/",
+     "existing": "None seen; no search on vendors.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "Savings and credit co-operative annual accounts and audit filing support",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Co-operative Societies Act Cap 42:04: annual accounts and audit reports lodged with the Commissioner for Co-operative Development.",
+     "unchecked": "Number of active societies; whether NBFIRA supervises SACCO lending; current filing process and deadlines."
+    },
+    {
+     "buyer": "Commercial and restricted maize millers",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://e-laws.botswanalaws.com/?p=36794",
+     "existing": "None seen.",
+     "known_mark": "new",
+     "name": "Maize miller licence (Control of Maize Milling Act, 31 December expiry)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Licences under the Control of Maize Milling Act expire 31 December each year.",
+     "unchecked": "Number of licensed millers is probably tiny; fees look outdated."
+    },
+    {
+     "buyer": "Licensed betting operators and LPM operators (10 betting and 6 LPM licences issued)",
+     "category": "34. Gambling licensees",
+     "evidence": "https://www.vixio.com/insights/gc-botswana-hails-progress-towards-licensing-betting-gaming-machines ; https://botswanalaws.com/consolidated-statutes/principle-legislation/gambling",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Betting and limited payout machine operators: licence and machine registration compliance",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Gambling Act: machine registration and electronic monitoring system.",
+     "unchecked": "Operators few, mostly large; electronic monitoring is regulator-run."
+    },
+    {
+     "buyer": "Citizen-owned security companies",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://www.gov.bw/trade/private-security-services-license-application?page=2 ; https://botswanalaws.com/consolidated-statutes/principle-legislation/private-security-services",
+     "existing": "n/a",
+     "known_id": "K04",
+     "known_mark": "known",
+     "name": "Security company licence renewal and wage-compliance pack (Private Security Services Licensing Board)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Private Security Services Act: annual licence renewal; BURS tax compliance; employment-law compliance.",
+     "unchecked": "Not rechecked."
+    },
+    {
+     "buyer": "Citizen-owned contractors and service firms",
+     "category": "27. Construction, mining and quarry contractors",
+     "evidence": "https://www.trade.gov/country-commercial-guides/botswana-selling-public-sector",
+     "existing": "n/a",
+     "known_id": "K03",
+     "known_mark": "known",
+     "name": "Tender-readiness and PPRA registration for citizen-reserved tenders",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Public Procurement Act 2021 section 76 reservations; PPRA IPMS registration.",
+     "unchecked": "Not rechecked."
+    },
+    {
+     "buyer": "Estate agents, small legal and accounting firms, dealers",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals",
+     "evidence": "https://www.nbfira.org.bw/goaml/ ; https://dailynews.gov.bw/news-detail/92783",
+     "existing": "n/a",
+     "known_id": "K02",
+     "known_mark": "known",
+     "name": "AML kit for DNFBPs (goAML registration with FIA; FI Act 2022; amendment bill August 2026)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Financial Intelligence Act 2022; Financial Intelligence (Amendment) Bill reported passed August 2026 (assent unconfirmed).",
+     "unchecked": "Not rechecked; the August 2026 amendment bill could be a trigger worth a look for a revive or update of K02."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "BERA licenses retail stations, LPG and storage. BERA statement dated 17-18 June 2026: nationwide enforcement since May 2026, six filling stations temporarily shut for environmental and safety breaches (missing or non-working oil-water separators). Petroleum Products Regulations 2024 cited by BERA; a 2018 draft is also on its site (version in force unconfirmed). The statement PDF could not be read by WebFetch, so details come from search snippets. No Botswana station-compliance software found (competitor search not run).",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Control of Maize Milling Act: commercial and restricted miller licences expire 31 December each year (fees in the schedule look dated). BAMB holds the statutory purchase role for grain; 2023 directive restricted grain import and export. No 2026 licensing change found. Small niche, nothing strong.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Co-operative Societies Act (Cap 42:04, 1964 base): registration, annual accounts and audit reports go to the Commissioner for Co-operative Development. NBFIRA regulates non-bank lenders and may cover lending activity. No filing portal or software found. Close to K05 in shape (society annual returns) but a different buyer group.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Ministry of Health Private Practice Licensing Office issues annual licences (Guidelines MOH PPL GLN V2, May 2024). The 2025/26 renewal opened 5 May, and only 28 labs had renewed by 18 July 2025. Private practice renewal form is a downloadable PDF with no online portal mentioned. BOMAID requires claims within 120 days and pre-authorisation for listed services; it is rolling out a provider self-service claims platform. Government owes private providers a large arrears amount (2025 medicine shortage emergency). No Botswana practice-management product found; the South African products GoodX and NetPractice do not mention Botswana.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "BoMRA regulates under the Medicines and Related Substances Act. Act 29 of 2025 continues BoMRA (commencement unconfirmed). BoMRA standalone-pharmacy licensing guideline carries an effective date of 15 April 2026. Separate registers are required for each scheduled-medicine category and for precursor chemicals; import and export need a BoMRA application. Not enough to judge a software gap.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Private Security Services Act: licensing board, annual licence renewal, citizen-director rule, BURS tax compliance check. Employment-law non-compliance (wages, deductions) is documented in the sector. Cleaning services is a citizen-reserved trade licence. Nothing beyond K04. No 2024 Act found.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Public Procurement Act 2021, PPRA registration through IPMS, and section 76 reservations for 100% citizen-owned firms. Citizen economic empowerment and local-procurement schemes appear in tender evaluation (BERA tenders). I could not confirm any 'Citizen Economic Empowerment Act 2025'. Nothing new beyond K03 and K08.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Financial Intelligence Act 2022 (in force 25 Feb 2022), goAML registration through FIA. A Financial Intelligence (Amendment) Bill was reported passed in August 2026 (assent and commencement unconfirmed). FIA risk notice of 23 Feb 2026 on enhanced due diligence. CIPA beneficial-ownership duty under the Companies (Amendment) Act 2019. Nothing new beyond K02.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Tourism Act (Cap 42:09) and Botswana Tourism Organisation Regulations (S.I. 47 of 2010): tourist enterprise licence, mandatory grading (offence of operating ungraded carries up to P20,000 and/or 5 years), annual grading renewal. Domestic guesthouse guidelines list ongoing duties: monthly Training Levy returns, monthly accommodation statistics, guest register, residents-only alcohol sales. Not covered by any known idea. No Botswana software found for these returns.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "DFRR veldt-product permits (harvester, dealer, exporter; the dealer and exporter permits are valid 30 days; exporter fee P500 for citizens). Hides and Skins Export Act needs a permit per consignment. No traceability scheme found for charcoal, timber or mophane worms. Small-volume permit work, not a recurring filing.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Liquor licensees (bars, bottle stores, depots, nightclubs)",
+     "found": "Liquor Act: licence renewal on Form 4 with P100 fee; one licence per location; bar, bottle store, depot and nightclub licences are reserved for citizens. Applications need annual returns, premises proof and zoning validation. March 2026 news: a Liquor Act amendment bill would abolish liquor control authorities, introduce online licensing, and drop highway and church distance buffers; Kanye councillors rejected it. Passage unconfirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Trade licence holders at district councils (general dealers, car washes, cleaning, auctioneers)",
+     "found": "Trade Act (Cap 43:02): licences are issued by district councils, renewed on the anniversary date, with the latest company annual returns as a renewal document. Some licences are reserved for citizens. A 2019 Trade Bill proposing a move to a 'positive' licence list has unknown status. Older Trade Act provision on import and export returns may still apply (unconfirmed).",
+     "status": "screened"
+    },
+    {
+     "category": "33. Companies on the CIPA register (annual returns and beneficial ownership)",
+     "found": "Annual returns are due in the incorporation month; non-filing risks removal from the register (a 2017 report gives P900 penalty plus P300 annual fee; current schedule unconfirmed). Beneficial-ownership duty exists under the Companies (Amendment) Act 2019. Law firms and accountants (PwC, Andersen, RSM) sell company secretarial services. No self-serve tool found.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Gambling licensees (betting shops, limited payout machines, casinos)",
+     "found": "Gambling Authority issued the first betting licences (10) and limited payout machine licences (6) after a 2023 call. Machine registration and electronic monitoring system exist in the Act. Operators are few and mostly large or foreign. Weak for a solo founder.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Veldt product harvesters, dealers and exporters",
+     "found": "DFRR permits: harvester (citizens 18+, Omang), dealer and exporter, 30-day validity, 3-day processing. Mophane worms not named on the permit pages (unconfirmed). Low value per client.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Public procurement bidders (PPRA registration, citizen-reserved tenders)",
+     "found": "Registration of bidders through PPRA IPMS, with section 76 reservations for 100% citizen-owned firms. Overlaps K03 on the buyer side, so counted as known.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Tourist enterprise licensees: lodges, camps, safari operators (HRDC training levy and statistics returns)",
+     "found": "Monthly Training Levy returns and accommodation statistics named in domestic guesthouse guidelines; grading and licence renewals under BTO. Covered with category 29.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Botswana Energy Regulatory Authority fuel station licence retail petroleum requirements 2026",
+    "Botswana Agricultural Marketing Board grain miller trader licence Act 2026",
+    "NBFIRA Botswana savings and credit co-operative societies registration annual returns Registrar",
+    "Botswana private clinics medical aid claims Health Professions Council licence private health facility regulations 2025",
+    "Botswana pharmacy licence controlled substances register Medicines and Related Substances Act precursors",
+    "Botswana Tourism Organisation licence guest house lodge grading levy tourism regulations 2025",
+    "Financial Intelligence Agency Botswana registration accountable institutions goAML DNFBP 2026",
+    "Botswana private security guards licence Private Security Services Act regulations compliance",
+    "Botswana Citizen Economic Empowerment Act 2025 PPRA registration contractors reserved procurement",
+    "CIPA Botswana beneficial ownership annual return deadline penalty 2026",
+    "Botswana Liquor Act liquor licence renewal bottle store bar licensing authority",
+    "Botswana Trade Act 2025 trade licence renewal Ministry licensing regime",
+    "Botswana Gambling Authority licence casino gaming machines operators returns",
+    "Botswana Companies Act beneficial ownership register CIPA filing annual return penalty",
+    "Botswana export permit hides skins charcoal timber veld products Department of Forestry licence",
+    "Botswana liquor licence 2026 licensing authority council shebeen amendment",
+    "practice management software Botswana clinic medical aid claims BOMAID BPOMAS",
+    "Botswana company secretarial service annual returns trade licence renewal guesthouse liquor licence compliance software app"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b57"
+ }
+}

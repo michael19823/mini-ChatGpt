@@ -1,0 +1,745 @@
+{
+ "discover:A:moldova": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed currency exchange offices (CSV), including sole-owner and family ones, and hotels that exchange currency",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.bnm.md/ro/print/content/instructiunea-privind-raportarea-la-banca-nationala-moldovei-de-catre-casele-de-schimb ; https://bnm.md/files/Instr raportarea CSV si H HCE254.pdf (text read: daily 10:00/16:00, monthly by 5th, QES) ; https://spcsb.gov.md/storage/utilitati/Anexa3%20Instructiune%20unitatile%20de%20schimb%20valutar.pdf",
+     "existing": "Competitor search (RO and RU) found no named exchange-office software. Unverified: vendors may exist but did not surface. The BNM portal is the filing channel and may offer manual entry.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Money-changer (casa de schimb valutar) reporting desk: daily rates and monthly operations reports to BNM, plus SPCSB AML form",
+     "score": 5,
+     "status": "promising",
+     "trigger": "BNM Instruction under HCE 254/2025 (Monitorul Oficial 565-568, 13.11.2025, art. 1000), in force 1 January 2026: rate reports daily by 10:00 (16:00 if rates change), monthly operations reports by the 5th, filed through the BNM portal with a qualified electronic signature, kept 5 years. SPCSB order 20 of 03.08.2023 adds a special AML form.",
+     "trigger_note": "new rule in force Jan 2026 plus daily deadlines",
+     "unchecked": "Number of active exchange offices; whether the BNM portal accepts bulk upload or API; whether existing cash-desk software already exports the reports; price tolerance; SPCSB form frequency."
+    },
+    {
+     "buyer": "Farms, orchards, vineyards, and legal entities that provide plant-protection services",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://logos-pres.md/noutati/ansa-le-reaminteste-fermierilor-tineti-evidenta-tratamentelor-fitosanitare-aplicate-in-livezi-si-podgorii/ ; https://leap.unep.org/en/countries/md/national-legislation/government-decision-no-hg4512025-validating-regulation-content (fetch returned 403, so only the search snippet was used) ; https://particip.gov.md/ro/download_attachment/30271",
+     "existing": "Competitor search found no electronic treatment-register app in Moldova. Unverified: farm-management tools may include one.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Plant-protection treatment register for farms and spraying service providers (HG 451/2025 format)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Farmers keep a treatment register that ANSA territorial units certify and seal (paper). HG 451/2025 (adopted 16.07.2025) sets the content and format of professional users' records; FAOLEX gives entry into force as 1 January 2027, which would force many small farms to change at once.",
+     "unchecked": "Confirm 1 January 2027 date on the primary text (legis.md); whether the new rule allows electronic registers and drops ANSA sealing; farm count and willingness to pay; overlap with the BeeProtect spray notices."
+    },
+    {
+     "buyer": "Agro-input shops and distributors",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.ansa.gov.md/sites/default/files/documents/Aparatul%20central/DCS/an_1_1045.pdf ; https://particip.gov.md/ro/download_attachment/30271",
+     "existing": "None found.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Pesticide and fertiliser dealer stock and import register under Law 21/2025",
+     "score": 3,
+     "status": "weak",
+     "trigger": "The model register and quarterly stock reporting under HG 1045/2005 no longer match Law 21/2025, per a consultation document, so a new regulation is expected.",
+     "unchecked": "Whether the replacement regulation has been adopted; dealer count; reporting channel."
+    },
+    {
+     "buyer": "Licensed small taxi firms (legal persons)",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://monitorul.fisc.md/operatorii-de-transport-rutier-care-presteaza-servicii-in-regim-de-taxi-urmeaza-sa-se-conecteze-la-sia-mev/ ; https://www.revistabiz.ro/bolt-intra-pe-piata-din-moldova-taxi-european-acum-la-chisinau/",
+     "existing": "Competitor search found no named integration vendor. Bolt and local dispatch apps likely cover the larger fleets (unverified).",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Adjacent to the rejected e-Factura issuing idea but a different buyer and duty.",
+     "name": "Taxi operator fiscal and SIA MEV compliance pack",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Law 284/2023 amends Road Transport Code 150/2014: taxi operators connect to SIA MEV of the State Fiscal Service for trip payments, and booking platforms must be run by Moldovan legal entities. TAXI18 payroll regime repealed from 1 July 2026.",
+     "unchecked": "Technical deadlines and integration specs; number of small taxi operators; whether dispatch platforms already do the SIA MEV link."
+    },
+    {
+     "buyer": "Jewellers, gold buyers and pawnshops in the CSSM register (about 421 entities)",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.cssm.md/sites/default/files/document/attachments/darea_de_seama_privind_activitatea_cssm_anul_2024.pdf ; https://www.mf.gov.md/sites/default/files/Modul%20de%20receptionare%20metale%20pretioase.doc",
+     "existing": "Not checked: no competitor search returned a product.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Precious-metal trader and pawnshop provenance and AML file desk",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Law 282/2004 on precious metals; provenance documents are needed for hallmarking; CSSM controls marking and AML compliance and keeps the special register of traders and pawnshops.",
+     "unchecked": "Periodic reporting terms and forms; pawnshop-specific duties; competitor software."
+    },
+    {
+     "buyer": "Authorised vehicle dismantlers and scrap yards",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://gov.md/sites/default/files/media/documents/sedinte-de-guvern/2025-05/nu-870-midr-2024_0_0.pdf ; https://logos-pres.md/noutati/a-fost-propus-un-mecanism-care-permite-ridicarea-autovehiculelor-abandonate/",
+     "existing": "None found.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Same waste and EPR family as K02 but a different buyer (dismantlers) and duty.",
+     "name": "End-of-life vehicle dismantler records and EPR reporting",
+     "score": 3,
+     "status": "weak",
+     "trigger": "HG 93/2023 on end-of-life vehicles (transposes Directive 2000/53/EC), with producer responsibility; waste oil rules HG 731/2022 and batteries HG 586/2020 also apply.",
+     "unchecked": "Number of authorised dismantlers; the reporting form and frequency; overlap with the SIA Managementul deșeurilor system."
+    },
+    {
+     "buyer": "Small businesses with their own wells or special water-use permits (farms, food processors, fish farms)",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://ipm.gov.md/upfiles/menu_files/Control Intreprinderea Individuală N.Procop din 01.07.2026.pdf ; https://www.informea.org/en/content/legislation/government-decision-no-hg7312025-validating-regulation-study-exploitation-and ; https://am.gov.md/sites/default/files/document/attachments/Captarea%20autorizat%C4%83%20a%20resurselor%20de%20ap%C4%83%20cu%20scopul%20folosin%C8%9Bei%20%C3%AEn%20Acvacultur%C4%83_Piscicultur%C4%83%2C%20anul%202023.pdf",
+     "existing": "None found.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Water abstraction register and annual water-use report (1-gospodărirea apelor) plus well closure duties",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Water-use register and annual statistical report nr. 1 to Apele Moldovei (HG 835/2013 regime); HG 731/2025 on conserving and closing defective wells.",
+     "unchecked": "Who is subject; whether the 835/2013 regulation is still in force; filing channel; number of filers."
+    },
+    {
+     "buyer": "Small rural and municipal water and sewerage licence holders and associations",
+     "category": "13. Small water systems",
+     "evidence": "https://anre.md/storage/upload/administration/acts/173/Hot_564.pdf ; https://www.old.ipn.md/en/anre-to-regulate-public-water-supply-and-sewerage-services-7967_1003869.html",
+     "existing": "None found.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "known_text": "",
+     "name": "Small water-operator licence reporting (ANRE Instruction 564/2020) and tariff justification",
+     "score": 3,
+     "status": "weak",
+     "trigger": "ANRE licenses public water and sewerage operators for 25 years, and Instruction 564/2020 sets periodic reporting for all holders; ANRE sets cost-based tariffs.",
+     "unchecked": "How many small operators hold licences; reporting frequency and format; their budgets; whether ANRE already provides a portal."
+    },
+    {
+     "buyer": "Condominium associations, small firms and boiler-house owners",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://storage.mtender.gov.md/get/c5c205bc-24d4-47cf-bbea-05b813eb53a9-1727343633982 ; https://achizitii.md/en/public/tender/21524420/lot/12205867",
+     "existing": "Inspections are bought through public tenders and by Moldelectrica-type bodies; no software found.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Lift and pressure-equipment inspection calendar for owners and condominium associations",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "HG 506/2017 minimum safety requirements for lifts; Law 151/2022 on industrial safety of hazardous objects (boilers, pressure vessels, lifting equipment) with periodic technical checks.",
+     "unchecked": "The inspection interval, the current supervisory authority, and who sells the inspections; the first-named authority acronym in my query was unconfirmed."
+    },
+    {
+     "buyer": "Small scrap collection points",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "https://storage.mtender.gov.md/get/23ce1bbf-ea11-4786-8a16-294748604d5c-1734280082919 (permit sample found via search) ; https://gov.md/sites/default/files/Filepdf/nu-468-mm-2024_0.pdf",
+     "existing": "None found.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Same waste records family as K02.",
+     "name": "Scrap-metal collector waste-flow register",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Environmental permit for waste management obliges records of type, weight, and handover to permitted operators; export only for final disposal (Basel Convention).",
+     "unchecked": "Whether there is a periodic report to the Agency of Environment or the SIA waste system; number of collectors."
+    },
+    {
+     "buyer": "About 9,000 beekeepers",
+     "category": "8. Beekeepers",
+     "evidence": "https://monitorul.fisc.md/cum-se-va-realiza-schimbul-interactiv-de-informatii-dintre-apicultori-si-agricultorii-care-utilizeaza-produse-de-uz-fitosanitar/ ; https://radiomoldova.md/p/37574",
+     "existing": "BeeProtect, a free state web app (HG 369/2023), covers registration by GPS and spray notices within 7 km; over 2,000 users.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Beekeeper apiary registration and spray notification app",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Law 70/2006 apiary law, Law 154/2022 registration fines, HG 369/2023 BeeProtect.",
+     "unchecked": "Breeding-farm bonitation sheet due to ANSA by 1 December and paper livestock registers are minor niches."
+    },
+    {
+     "buyer": "Licensed private employment agencies",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://monitorul.fisc.md/agentiile-private-de-angajare-vor-coordona-cu-anofm-proiectul-contractului-de-intermediere-a-muncii ; https://logos-pres.md/noutati/moldova-introduce-standarde-europene-pentru-lucratorii-straini/",
+     "existing": "None found.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Recruitment agency placement reports and contract coordination with ANOFM",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law 102/2003, Law 180/2008 on labour migration; ANOFM draft requires licence and an activity report on emigrant placements; draft contract coordination; June 2026 draft removes citizen-only recruitment.",
+     "unchecked": "Whether the drafts were adopted; the number of agencies; any foreign-worker permit workflow."
+    },
+    {
+     "buyer": "Smallholders, traders and collection points",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://gov.md/sites/default/files/media/documents/sedinte-de-guvern/2026-05/NU-893-MAIA-ANSA-2025_1.pdf ; https://faolex.fao.org/docs/pdf/mol223139.pdf",
+     "existing": "State SIA RSA with free forms.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Livestock event declarations in the State Animal Register",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law 231/2006 plus a 2026 draft amendment adding traceability; ANSA runs SIA RSA.",
+     "unchecked": "Whether RSA forms are online for farmers; market operator duties."
+    },
+    {
+     "buyer": "Family-type childcare providers and employer-run services",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://serviciialternative.gov.md/storage/library/45/1713181157-nc9fabvsmb.pdf ; https://eurydice.eacea.ec.europa.eu/ro/eurypedia/moldova/variatii-organizationale-si-structuri-alternative",
+     "existing": "There is a state portal serviciialternative.gov.md (content not examined).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Alternative childcare services (Law 367/2022) authorisation and compliance file",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law 367/2022 and HG 572/2023 standards; private early-education units also need ASP registration and an ANSP sanitary authorisation.",
+     "unchecked": "Count of providers and their reporting duties."
+    },
+    {
+     "buyer": "Associations, foundations and small firms",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://monitorul.fisc.md/precizarile-serviciului-fiscal-de-stat-referitor-la-termenul-limita-de-prezentare-a-informatiei-privind-beneficiarii-efectivi/",
+     "existing": "ASP register filing is the channel.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Association beneficial-owner filing with ASP",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Beneficial-owner filing deadline of 31 December 2025, fines of 1,000-1,500 UC.",
+     "unchecked": "Whether update duties recur on a schedule; the deadline has already passed."
+    },
+    {
+     "buyer": "Micro food producers and farm direct sellers",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://monitorul.fisc.md/lista-activitatilor-care-se-supun-inregistrarii-in-domeniul-sigurantei-alimentelor-va-fi-completata/",
+     "existing": "None found; the regime is deliberately light.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Small food producer simplified registration with ANSA (HG 6/2025)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "HG 6/2025 simplified requirements; ANSA list of activities subject to registration; 2026 draft widens direct sales within 150 km.",
+     "unchecked": "Record-keeping burden after registration."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "No employer-side register or periodic report found for private households. Only context: patent for home care of the elderly allowed from 11 March 2025 (Law 93/1998 position 2.54); CNAM paper notice within 10 working days for employees without a personal ID number. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Environmental permits for waste management oblige holders to keep records of waste type and weight collected and handed over, and to hand over only to permitted ferrous/non-ferrous operators (Agency of Environment sample permit AM24040901). No public register or periodic report found. Weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Pawnshops are listed in the CSSM special register with precious-metal traders and fall under AML control. No pawnshop-specific reporting rule found. See precious-metals candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Camera de Stat pentru Supravegherea Marcării (CSSM) keeps a register of about 421 entities under Law 282/2004, controls marking and AML compliance, and requires provenance documents (customs declaration, invoice) when articles are submitted for hallmarking. Periodic reporting terms not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "End-of-life vehicle regulation HG 93/2023 (transposes Directive 2000/53/EC) is in force; the Agency of Environment monitors it and the Environmental Inspectorate controls it. Dismantler authorisation procedure and reporting forms not found.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "State Animal Register (SIA RSA, run by ANSA) under Law 231/2006 issues movement certificates and event declarations. A 2026 draft amendment adds traceability duties. It is a state system with free forms, so little room for a private product. Rules for markets and animal transport not found.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Nothing new. Law 196/2024 on animal health and Law 82/2024 on official controls are cited as extending traceability and authorisation duties, with entry into force expected in 2026. Small-abattoir rules and register not found.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Apiary data registration is mandatory since Law 154/2022, with fines of 24-35 UC for individuals and 40-70 UC for legal entities, and apiary passports are required. The state BeeProtect app (HG 369/2023) is free and notifies beekeepers of spraying within 7 km. About 9,000 beekeepers; under a third hold a valid passport. Killed by the free state tool.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "ANSA inspection checklist for veterinary units (Law 221/2007 art. 18, Law 119/2018 art. 24). Staffing rules are being tightened (Veterinary College proposal, Laws 82/2024 and 196/2024). No periodic reporting duty found for private vets.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "HG 731/2025 sets mandatory procedures for conserving, rehabilitating and closing defective or abandoned water abstraction wells, with owner duties of operation, monitoring and reporting. Special water users keep a water register and file the annual statistical report 'nr. 1-gospodărirea apelor' with Apele Moldovei (HG 835/2013 regime). Household thresholds not found.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Not specifically searched. Waste hauler permits sit under the Agency of Environment regime, already covered by K02 and the scrap-metal finding.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "HG 506/2017 sets minimum safety requirements for operating lifts. Law 151/2022 on industrial safety of hazardous objects covers pressure vessels, boilers and lifting equipment, with attested staff training and an information notice valid 12 months. Owners (condominium associations, small firms) must keep these inspections current. Inspection calendar tools not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "ANRE licenses all public water and sewerage operators, including small settlement-level ones, for 25 years. Instruction 564/2020 sets periodic reporting for all licence holders, and ANRE sets tariffs on cost-justification sheets. Number of small operators and existing tools not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Farmers and plant-protection service providers must keep a treatment register, certified and sealed at ANSA territorial units. HG 451/2025 sets the content and format of professional users' records; FAOLEX gives entry into force as 1 January 2027 (not confirmed on the primary text). Law 21/2025 makes the dealer register under HG 1045/2005, with quarterly stock reporting, obsolete.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Agencies need a licence from the Licensing Chamber (Law 102/2003, Law 180/2008) and ANOFM's list requires an activity report on emigrant placements. A June 2026 draft from the Ministry of Labour would remove the Moldovan-citizens-only recruitment limit; adoption not confirmed. Thin and dated.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "No national funeral or cemetery law in force. HG 1072/1998 plus municipal rules apply, with cemetery administrators keeping grave records. A cemeteries and crematoria bill (initiative 101/2023) is pending. Buyers are municipalities, which are hard for a solo founder.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Associations had to file beneficial-owner data with ASP by 31 December 2025, with fines of 1,000-1,500 UC. That deadline has passed, so only a recurring update duty remains. Halal/kosher not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Law 284/2023 requires taxi operators to connect to the SFS SIA MEV and bars foreign-only booking platforms. The TAXI18 payroll tax regime is repealed from 1 July 2026. ANTA planned 498 controls for 2026. Bolt entered Chisinau in September 2025, working only with licensed taxi firms. Regular-route programme changes are contested by APOTA.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers: BNM Instruction under HCE 254/2025, in force 1 January 2026, replaces the 2016 rules. Daily rate reports are due by 10:00 (and 16:00 if rates change), monthly operations reports by the 5th, via the BNM web portal with a qualified electronic signature, and records are kept at least 5 years. SPCSB also has a special AML form for exchange units. Market traders and street vendors not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Small food producers: HG 6/2025 simplified requirements and ANSA registration list (Law 221/2024). Alternative childcare services under Law 367/2022 and HG 572/2023. Driving schools: accreditation mechanism being revised and instructor exam-attendance pilot until 1 September 2026. Tattoo studios and hunting outfitters not reached.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "colectori fier vechi deșeuri metalice autorizare registru Moldova Agenția de Mediu",
+    "ANSA medic veterinar practica privată registru medicamente veterinare Moldova 2025",
+    "ISRM verificare tehnică ascensoare cazane instalații sub presiune Moldova autorizare",
+    "agenții de recrutare plasare forță de muncă străinătate licență Moldova ANOFM registru 2025",
+    "Inspectoratul pentru Supravegherea Marcării metale prețioase bijuterii registru comercianți obligații raportare Moldova",
+    "dezmembrare autovehicule scoase din uz Moldova autorizație extinderea responsabilității producătorului demolatori",
+    "identificarea și înregistrarea animalelor Moldova ANSA bovine ovine registru fermieri târguri de animale transport animale",
+    "apicultori Moldova registru stupine înregistrare stupi ANSA obligații apicultură lege 2025",
+    "BeeProtect sistem informatic apicultori notificare tratamente fitosanitare obligația notificare reciprocă",
+    "abatoare mici măcelării autorizare ANSA unități de sacrificare registru evidență Moldova cerințe 2025",
+    "forajul sondelor apă autorizație specială utilizarea apei Agenția Apele Moldovei foraj puțuri raportare volume",
+    "lucrători casnici îngrijitori la domiciliu angajator persoană fizică contract Moldova CNAS raportare 2025",
+    "transport rutier taxi microbuze licență ANTA 2026 taxiuri rapoarte Moldova",
+    "produse de uz fitosanitar comercianți aplicatori registru evidență tratamente ANSA Moldova",
+    "autoșcoli școli de șoferi autorizare Moldova ASP registru instructori 2025",
+    "case de amanet case de schimb valutar Moldova raport SPCML beneficiar efectiv raportare asociații obștești",
+    "servicii funerare cimitire autorizare Moldova primării registru mormintelor regulament 2025",
+    "aqueduct rural asociații de apă operatori mici ANRE raportare licență Moldova 2025",
+    "grădinițe private creșe servicii alternative autorizare sanitară ANSP producători mici alimente ANSA Moldova 2025",
+    "программа учёта обменный пункт отчётность НБМ Молдова 2026 новая инструкция (+ 3 competitor searches: registru electronic tratamente fitosanitare aplicație; program casa de schimb valutar soft; SIA MEV taxi soluție software)"
+   ],
+   "searches": 20
+  },
+  "tag": "w2b59"
+ },
+ "discover:B:moldova": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small independent real estate agents and agencies (sole traders and micro firms); number of agents not found",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://logos-pres.md/noutati/certificatele-de-agent-imobiliar-vor-incepe-sa-fie-valabile-incepand-cu-23-ianuarie-2027/ ; https://monitorul.fisc.md/activitatea-agentilor-imobiliari-va-fi-reglementata.-acestia-vor-fi-obligati-sa-detina-un-certificat-de-competenta-profesionala/ ; https://gov.md/sites/default/files/media/documents/sedinte-de-guvern/2025-07/IL-90-2025.pdf (appears to be the bill, not read). A UTM training programme for agents was also announced (logos-pres, not read).",
+     "existing": "None found for the new regime. No competitor search run (budget used up); generic property CRMs and portals likely exist.",
+     "known_mark": "new",
+     "name": "Real estate agent certification, ANGC register listing and brokerage-contract reporting desk",
+     "score": 4,
+     "status": "promising",
+     "trigger": "New law on real estate agents: published 23.04.2026, in force 23.01.2027, 12-month transition for existing agents. Agents need a competence certificate (initial training 30+ credits, 10+ credits every 4 years in the first draft), a listing in the ANGC 'Agenti imobiliari' module, written client contracts, and (in the first-reading draft) a report on every brokerage contract within 15 working days of its end. Final text of the reporting duty not confirmed.",
+     "unchecked": "Final law number and text; whether per-contract reporting survived second reading; subordinate acts due before 23.01.2027; number of agents; software or portal tools for agents in Romanian or Russian; whether ANGC will provide a free reporting form; AML duties for agents under Law 308/2017."
+    },
+    {
+     "buyer": "Small and family wine producers and grape growers (plots over 0.15 ha); count not found",
+     "category": "31. Wine and viticulture producers (SINVV declarations, vineyard register)",
+     "evidence": "https://ansa.gov.md/sites/default/files/2024-11/SA%202%20an_2_120_md.docx ; https://www.ansa.gov.md/sites/default/files/2025-08/SA_2%20final%20modificat%2022.07.25.docx ; https://maia.gov.md/sites/default/files/PressReleas/Documente%20Atasate/3.%20Poster_RO.pdf ; https://www.mediafax.ro/social/autoritatile-au-lansat-varianta-online-a-registrului-plantatiilor-viticole-21712687/amp (RPV Online; Romanian outlet, so possibly about Romania; unverified)",
+     "existing": "State RPV Online / SINVV app (view and possibly file); no private vendor found.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Small winemaker declarations desk (harvest, production, stocks, input-output register)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Law 57/2006 art. 266 and GD 356/2015: harvest declaration by 1 December, production declaration by 15 January, plantation changes declared in time, input-output register for wine; ANSA inspection form revised July 2025.",
+     "unchecked": "Whether declarations are filed online or on paper; how many small producers; current deadlines in the 2026 law; competitor search not run; free state portal may already cover filing. Different duty from K07 (excise traceability)."
+    },
+    {
+     "buyer": "SMEs processing personal data: clinics, shops, agencies, employers",
+     "category": "32. Personal data protection under Law 195/2024",
+     "evidence": "https://logos-pres.md/noutati/au-intrat-in-vigoare-noile-norme-privind-protectia-datelor-cu-caracter-personal/ ; https://datepersonale.md/wp-content/uploads/2026/02/CONSIDERENTE_Legea_195.pdf ; https://monitorul.fisc.md/din-anul-2026-va-fi-pusa-in-aplicare-o-noua-lege-privind-protectia-datelor-cu-caracter-personal/",
+     "existing": "Not searched; GDPR tools and consultants are generic and likely to exist.",
+     "known_mark": "new",
+     "name": "Law 195/2024 data-protection compliance kit for small controllers (records of processing, risk analysis, responsible person)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law 195/2024 in force from 23 Aug 2026 with a 2-year transition; requires processing records, risk analyses and a designated responsible person. CNPDCP consulting on investigation rules (to 10 July 2026).",
+     "unchecked": "Whether registration or notification duties remain; SME exemptions; fines and enforcement plans; borders on the out-of-scope generic compliance tools."
+    },
+    {
+     "buyer": "Attested site supervisors (diriginti de santier), technical managers and small design or expertise firms",
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "evidence": "https://gov.md/en/print/pdf/node/10089 (PDF text unreadable; summary came from a search result) ; https://gov.md/sites/default/files/media/documents/sedinte-de-guvern/2026-06/NU-297-MIDR-2026.pdf (linked, not read) ; attestation certificate examples on storage.mtender.gov.md",
+     "existing": "None found; competitor search not run.",
+     "known_mark": "new",
+     "name": "Site supervisor and technical manager electronic registration and quarterly reporting (construction)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Announced amendments (MIDR draft NU-297-2026, per gov.md node 10089, undated): electronic registration of project-verification opinions and expert reports; quarterly activity reports from site supervisors. Attestation certificates are valid 5 years (issued by MIDR).",
+     "unchecked": "Whether adopted and in force; which system receives the reports (state portal would kill it); number of supervisors; read the NU-297-MIDR-2026 draft."
+    },
+    {
+     "buyer": "Small private medical institutions and labs contracted by CNAM",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://scr.md/wp-content/uploads/2026/01/Contract-CNAM-IMSP-SCR-Timofei-Mosneaga-2026.pdf (public hospital contract; private clause assumed identical, unverified) ; https://particip.gov.md/ro/document/comments/29948 (private provider union comments on 2026 draft)",
+     "existing": "Unknown; clinic information systems and the state system probably already feed CNAM. No competitor search run.",
+     "known_mark": "new",
+     "name": "CNAM monthly reporting and contract-compliance desk for small private clinics",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "CNAM model contract (GD 770/2022): monthly activity report by the 5th, report on cases of harm to the insured by the 10th, patient-level data into the DRG case-mix system.",
+     "unchecked": "How many small private providers hold CNAM contracts; whether reporting is automatic from the state EHR; existing clinic software."
+    },
+    {
+     "buyer": "Savings and loan associations (AEI); count unknown",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://bnm.md/ro/print/content/sanctiuni-aplicate-asociatiilor-de-economii-si-imprumut-publicate-conformitate-cu ; https://www.bnm.md/en/print/node/69828",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Savings and loan association (AEI) reporting to the National Bank",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Law 139/2007, supervision by BNM; sanctions published in 2026, which suggests reporting and control duties exist.",
+     "unchecked": "Number of AEI (probably a few hundred, rural); reporting forms and deadlines; which supervisor receives reports (BNM vs CNPF); core banking vendors that already serve AEI."
+    },
+    {
+     "buyer": "Small farmers and rural accountants/consultants applying to AIPA",
+     "category": "33. Agricultural subsidies and the Farmers' Register (AIPA/MAIA)",
+     "evidence": "https://aipa.gov.md/wp-content/uploads/2026/07/Ordin-nr.-98-din-03.07.2026.pdf ; https://logos-pres.md/noutati/aipa-in-al-doilea-trimestru-al-anului-2026-fermierilor-li-s-au-acordat-subventii-in-valoare-de-peste-442-de-milioane-de-lei/ ; https://logos-pres.md/noutati/completarea-registrului-fermierilor-din-moldova-va-fi-stimulata-prin-granturi-din-partea-pnud/",
+     "existing": "Not searched; AIPA runs its own online application module (monitorul.fisc.md mention), so a free state portal likely covers filing.",
+     "known_mark": "new",
+     "name": "AIPA subsidy dossier and active-farmer declaration service for small farmers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "AIPA application windows (diesel excise compensation, drought aid, investment subsidies), active-farmer income declaration (AIPA Order 98 of 03.07.2026), Farmers' Register registration drive (MAIA contracts 1 Sep to 15 Dec 2026).",
+     "unchecked": "Whether the state portal handles filing end to end; consultants' fees; farmer willingness to pay; the annual deadline (1 Feb to 31 Oct poster may be outdated)."
+    },
+    {
+     "buyer": "Licensed petroleum importers and wholesalers; 84 retail licensees run 577 stations",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://anre.md/storage/upload/projects/announcements//tmp/phpojD2la/Hotărâre modificată Stocuri  2026 .pdf (title only; not read) ; https://anre.md/storage/upload/administration/reports/1629/Raport privind rezultatele monitorizării pieții produselor petroliere a RM pentru I trimestru al anului 2026.pdf",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Petroleum emergency stock and licence-condition compliance tracker for fuel traders",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "ANRE amended a 2026 stocks decision ('Hotarare modificata Stocuri 2026'); Law 461/2001 on petroleum products; licence renewals every 5 years.",
+     "unchecked": "Content of the stocks decision; who is obliged (probably importers, few and larger); reporting format."
+    },
+    {
+     "buyer": "Grain importers, traders and warehouses",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://www.gov.md/ru/node/743 ; https://radiomoldova.md/p/22267/moldova-to-licence-wheat-corn-and-sunflower-imports",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Grain import licence and storage compliance (wheat, maize, sunflower)",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Import licensing regime set Oct 2023, extended to 30 June 2025; later status not found.",
+     "unchecked": "Whether the regime still exists; whether any register or stock report applies to small traders."
+    },
+    {
+     "buyer": "Small licensed security firms",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://storage.mtender.gov.md/get/e9e4a468-c84e-4171-a868-4362d2a0f4f9-1784204795241 (procurement document, secondary source)",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Private security agency licence and guard-file compliance",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Law 283/2003 and GD 667/2005; guard training certificates, medical certificates and criminal records on file; licence reportedly valid to 2030 in one document.",
+     "unchecked": "Whether any periodic report is owed to the police; current licensing body; number of firms."
+    },
+    {
+     "buyer": "Small accounting firms and SMEs",
+     "category": "36. e-Factura B2B timing (country-specific check)",
+     "evidence": "https://invoicedataextraction.com/blog/moldova-e-factura-requirements",
+     "existing": "AIFactura, Abac, 1C integrators and the SFS portal, per K03.",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K01 (inbound/reconciliation) and K06; I did not recheck. Possible new fact: the B2B date 1 Oct 2026 lands just before today, which may raise urgency for K01, but it is unverified and from a blog.",
+     "name": "e-Factura B2B mandate from 1 Oct 2026 (inbound and reconciliation for small accountants)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "B2B e-Factura reportedly mandatory from 1 Oct 2026 (private blog; not confirmed officially)"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "ANRE licensing: 84 retail licensees running 577 stations at 31.03.2026 (607 stations in register at 31.12.2025, 447 mixed). Law 461/2001 on petroleum products market. ANRE amended a petroleum stocks decision in 2026 (title only seen, content unread). No small-operator reporting pain found; market is small and operators are mid-sized. Nothing new beyond a weak, unverified stocks-compliance idea.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Only the wheat/maize/sunflower import licensing regime (set Oct 2023, extended to 30 June 2025; status after that not confirmed). No grain warehouse register or ANSA stock-reporting duty found. Coffee/cocoa not applicable.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Savings and loan associations (AEI) are supervised by the National Bank of Moldova under Law 139/2007 (BNM sanctions page, decision of 11.06.2026); the CNPF material seen appears older. Reporting forms and deadlines not found; number of AEI unknown.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "CNAM model contract (GD 770/2022; 2026 contracts signed 31.12.2025): provider must send monthly activity reports by the 5th, harm-to-insured cases by the 10th, and hospital data through the DRG case-mix system. Private-provider union objected to a 2026 draft favouring public providers. No gap or product evidence.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "AMDM authorisations for narcotics, psychotropics and precursors under Law 382/1999 and GD 1088/2004, multi-year validity (latest seen valid to 2029). No periodic reporting pain found. Pharmacy eRetete/CNAM already K05 (rejected).",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Security agencies are licensed under Law 283/2003 and GD 667/2005; the issuing body appears to be MAI's national public security inspectorate (single procurement document, unverified). Guard training and medical checks are required. Nothing found on 2025-2026 rule changes; cleaning and manpower agencies not found.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Site supervisors (dirigintii de santier) are attested by the Ministry of Infrastructure and Regional Development (certificates valid 5 years). A government announcement (gov.md node 10089, undated, linked to MIDR draft NU-297-2026) says amendments will require electronic registration of project-verification opinions and expert reports, and quarterly activity reports from site supervisors. The PDF text could not be read. Mining and quarry duties not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "New real estate agents law: voted 26.03.2026, published 23.04.2026, in force 23.01.2027 (logos-pres). Agents need a competence certificate issued by ANGC and a listing in a new 'Agenti imobiliari' module of the Real Estate Price Register; the first-reading draft also required reporting each brokerage contract within 15 working days. AML (Law 308/2017) reporting for agents and notaries not confirmed; SPCSB has run real estate AML training.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Nothing current. Only a 2012 reference to an Integrated Tourist Registration System (unconfirmed), and the tourism promotion tax that applies to travel agencies and operators, not accommodation. H1 2026 accommodation arrivals were up 15.8% (257.3 thousand). No local guest-register or levy rule confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "ANSA phytosanitary certificate fees for export and re-export were abolished from 5 Feb 2026 (Law 227/2025); animal-product exports need an official sanitary-veterinary certificate (Order 57/2023). Walnut share in EU market fell to 2.2% in H1 2026. No EUDR-relevant Moldovan commodity trade found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Wine and viticulture producers (SINVV declarations, vineyard register)",
+     "found": "Law 57/2006 art. 266: harvest declaration by 1 December, production declaration by 15 January, plantation changes declared in time, input-output register; vineyard plots over 0.15 ha and wine units are registered in the vine and wine information system. A state RPV Online app lets users view their data. Small winemakers up to 1,000 hl dispute a 250,000 lei guarantee (ONIV, Feb 2026).",
+     "status": "screened"
+    },
+    {
+     "category": "32. Personal data protection under Law 195/2024",
+     "found": "Law 195/2024 (GDPR-style) in force since 23 Aug 2026, with a 2-year transition; it requires records of processing, risk analyses and a designated responsible person (arts. 37 and 39). Whether controller registration or notification with CNPDCP survives, and whether SMEs are exempt, is not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Agricultural subsidies and the Farmers' Register (AIPA/MAIA)",
+     "found": "AIPA subsidy dossiers (historic window 1 Feb to 31 Oct; may be outdated), diesel excise compensation (applications from 11 May 2026), drought-loss aid from 25 May, and an active-farmer income declaration form (AIPA Order 98 of 03.07.2026). The Farmers' Register has about 20,000 farmers; MAIA data-collection and training contracts run 1 Sep to 15 Dec 2026.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Transport and freight documents (goods consignment note, e-Transport)",
+     "found": "No Moldovan e-Transport system exists in the results (that is Romania). The consignment note (aviz de insotire) is a special-regime primary document with a simplified issuing procedure; no mandatory electronic version found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Tourism promotion tax and travel agencies",
+     "found": "The promotion tax (10-30 lei by destination) falls on travel agencies and tour operators, collected via the tax service; the notice was undated so current status is unconfirmed. No product angle seen.",
+     "status": "screened"
+    },
+    {
+     "category": "36. e-Factura B2B timing (country-specific check)",
+     "found": "A private blog (invoicedataextraction.com) says B2B e-Factura becomes mandatory from 1 Oct 2026; not confirmed on an official site. Today is 2026-10-09, so the mandate may just have started. Already covered by K01, K03 and K06.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "stații de alimentare carburanți ANRE Moldova licență raport obligatoriu 2026",
+    "cereale depozite licență Moldova registru comercianți cereale ANSA raportare stocuri 2025",
+    "asociații de economii și împrumut cooperative de credit Moldova CNPF raportare 2026",
+    "instituții medico-sanitare private CNAM contractare raportare servicii medicale laboratoare 2026 Moldova",
+    "farmacii Moldova Agenția Medicamentului și Dispozitivelor Medicale substanțe precursori stupefiante registru 2026",
+    "agenții de pază private licență Inspectoratul General al Poliției Moldova lege 2025 2026 activitate de pază",
+    "Inspectoratul de Stat în Construcții Moldova registru atestare constructori diriginți de șantier jurnal de lucrări electronic 2026",
+    "SPCSB raportare agenți imobiliari notari contabili prevenirea spălării banilor Moldova 2026 raportare obligatorie",
+    "pensiuni turistice Moldova evidența turiștilor registru taxa turistică chirie pe termen scurt 2026",
+    "ANSA export produse alimentare certificat sanitar-veterinar operatori înregistrare trasabilitate EUDR Moldova nuci miere 2026",
+    "e-Transport aviz de însoțire electronic Moldova obligatoriu persoane fizice întreprinzători SFS 2026",
+    "ONVV registrul viticol declarația de recoltă producători vin Moldova obligații 2026 legea viei și vinului",
+    "legea 195/2024 protecția datelor cu caracter personal Moldova 2026 responsabil protecția datelor înregistrare operatori CNPDCP IMM",
+    "agenți imobiliari lege adoptată Parlament Moldova certificat competență profesională modul registrul prețurilor imobiliare ANGC",
+    "program software evidență viticolă registru vitivinicol producători vin mici declarație de producere ONVV aplicație",
+    "AIPA subvenții fermieri cerere depunere Registrul agricol evidența exploatațiilor Moldova 2026 termen declarații"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b59"
+ },
+ "triage:moldova": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New buyer (money changers), new BNM duty from 1 Jan 2026; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Farms and sprayers' treatment register under HG 451/2025 with a 2027 deadline; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Agro-input dealers' stock and import register; a different buyer and duty from any known idea."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Taxi operators' SIA MEV duty; a different buyer and duty from K03, which is related."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Precious-metal traders and pawnshops, a recurring regulated duty; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Dismantlers' ELV records are a different buyer and duty from K02; related to K02."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small businesses' annual water-use report to Apele Moldovei; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Small water operators' ANRE reporting; in scope as a small body with a recurring duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Condominium associations and small firms' periodic lift and boiler checks; in scope."
+    },
+    {
+     "decision": "known",
+     "id": "A10",
+     "reason": "Scrap collectors' waste-flow records are the same core duty as K02 (SME waste records).",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Licensed small recruitment agencies' reporting duty to ANOFM; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Smallholders' and traders' livestock event declarations to the state register; recurring duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Small childcare providers' authorisation and compliance file; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Associations' beneficial-owner filing; the 2025 deadline has passed but unsure whether it recurs, so verifiers decide."
+    },
+    {
+     "decision": "keep",
+     "id": "A16",
+     "reason": "Micro food producers' ANSA registration under HG 6/2025; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Small real estate agents under a new law with a deadline of 23 Jan 2027; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Harvest and production declarations are a different duty from K07's excise traceability, which is related; the rejection does not cover this."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "SMEs' obligations under Law 195/2024 with a deadline; the buyer group is broad but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Site supervisors and small design firms' quarterly reports; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small private clinics' monthly CNAM reports; a different duty from K05, which covers pharmacies."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Savings and loan associations (co-operatives) reporting to BNM; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Small farmers' AIPA applications and declarations; a recurring duty, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Licensed fuel importers and wholesalers' stock and licence duties; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Grain import licence regime; later status not found, so verifiers decide."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Small security firms' licence and guard-file duties; in scope."
+    },
+    {
+     "decision": "known",
+     "id": "B11",
+     "reason": "Same buyer (small accountants) and same inbound e-Factura duty as K01; K06 covers the broader mandate.",
+     "ref": "K01"
+    }
+   ]
+  },
+  "tag": "w2b59"
+ }
+}

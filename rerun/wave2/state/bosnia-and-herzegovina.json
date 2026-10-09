@@ -1,4 +1,16 @@
 {
+ "challenge:bosnia-and-herzegovina:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Gaps not settled: the FOO electronic STR/CTR reporting channel, local consultancies selling templates (I found none with prices), and the number of obliged entities.",
+   "reason": "I found nothing that kills it. Bosnian, Serbian and Croatian searches turned up no local or regional AML software, model-act generator or free state tool for small non-financial obliged entities. Asseco's AML product is built for banks, and UK tools (FigsFlow, SmartSearch) have no BiH forms. Enforcement is real: in January 2026 the RS Inspectorate gave randomly chosen accountants, bookkeepers and tax advisers 10 days to submit internal acts, a 13-item questionnaire and a checklist, with fines up to 200,000 KM. That burden on sole traders drew public complaints. RS notaries also got risk-assessment guidelines in January 2026. Against it: BiH is a small market, buyers are price-sensitive, and the core need is a one-off document set that consultants can sell. Not checked: whether the FOO has an electronic reporting portal, and how many entities there are.",
+   "searches": 8,
+   "sources": "https://www.paragraf.ba/dnevne-vijesti/29012026/29012026-vijest1.html ; https://www.paragraf.ba/dnevne-vijesti/21012026/21012026-vijest3.html ; https://fuzip.gov.ba/wp-content/uploads/2026/03/Vodic-za-trgovce-nekretninama_ZA-WEB.pdf ; https://see.asseco.com/news-events/news/3630/?L=-5776 ; https://figsflow.com/us/best-aml-software-solutions-for-accountants/ ; https://www.rrif.hr/clanak-12858/ ; https://coe.int/en/web/belgrade/news/-/asset_publisher/tM7Uo4CVRhTF/content/call-for-tender",
+   "suggested_score": 5,
+   "verdict": "survives"
+  },
+  "tag": "w2b57"
+ },
  "discover:A:bosnia-and-herzegovina": {
   "result": {
    "blocked_searches": 0,
@@ -585,6 +597,370 @@
     "Pravilnik o ambalaži i ambalažnom otpadu FBiH operater sistema obveznik prijava količina"
    ],
    "searches": 18
+  },
+  "tag": "w2b57"
+ },
+ "gapfill:bosnia-and-herzegovina": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small and medium mills (including custom-milling mills) and flour importers or traders in BiH",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "Full rulebook text read from uino.gov.ba/portal/wp-content/uploads/PROPISI/6_Ostali_propisi/2_Evidencija_markica_za_brašno/B/B-1-Evidencijske_markice_za_brasno_260106-B.pdf. Zitounija piece (n1info.rs/biznis/a681496-Politika-Zitounija-trazi-pomoc-drzave-oko-ukidanja-markica-za-brasno/) says BiH stamps still apply to Serbian flour exports (about 40,000 t a year), but the piece is undated.",
+     "existing": "Competitor search in local language found no mill, stamp or custom-milling software in BiH. Could be handled in Excel by mills. Not 'none exist', only 'none found'.",
+     "known_mark": "new",
+     "name": "Flour stamp and milling ledger for small mills and flour traders",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Rulebook on recording and marking flour placed on the market (Council of Ministers, 29.12.2005): stamps ordered on form A1 at least 30 days before delivery, ledger of issued and used stamps (A3) kept by the obligor, monthly records of grain milled and flour produced split own versus custom milling by owner with owner cards, damaged or destroyed stamps listed by serial number in a report, unused stamps returned within 15 days of closure, records shown on request to MVTEO or another authority.",
+     "unchecked": "Whether the stamp regime is still enforced in 2026 or was amended or repealed; number of registered mills (likely tens to low hundreds); fees and who now issues stamps; Brcko and RS handling; willingness to pay of mills; real filing frequency. Low volume of buyers and a possible repeal are the main risks."
+    },
+    {
+     "buyer": "Natural persons and farm households in Republika Srpska who bring in non-immediate-family helpers for sowing, harvest, pig slaughter and similar",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies (adjacent: households as employers of casual help)",
+     "evidence": "https://www.paragraf.ba/dnevne-vijesti/30122025/30122025-vijest2.html (news report, accountant interpretation). Tax Administration officials said inspectors will not check private homes. Law text, effective date, forms and portal not found.",
+     "existing": "None found for RS. Probably a free Poreska uprava RS e-service or simple form; unconfirmed. Competitor search in local language found nothing.",
+     "known_mark": "new",
+     "name": "Seasonal and helper registration tool for farm households (RS)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "RS Zakon o radnom angažovanju na sezonskim i drugim poslovima privremenog karaktera, adopted under urgent procedure Dec 2025: helpers other than spouse, children and parents in the same household must be registered with Poreska uprava RS before work starts, contributions paid, and a work-engagement confirmation issued; reported fine 1,500 KM.",
+     "unchecked": "Official text in Sl. glasnik RS and effective date; whether registration is a simple online form (kills a product); frequency per household (a few times a year); enforcement intensity; whether it also covers cleaners or carers; whether FBiH or Brcko adopt similar rules."
+    },
+    {
+     "buyer": "Legal entities storing grain in FBiH (silos and floor stores)",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "Search summaries of the rulebook at fmpvs.gov.ba (Poljoprivreda legislative, pravpolj2-13.pdf) and faolex bih145956. Full text not opened.",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Grain warehouse register compliance for FBiH storage operators",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Pravilnik o minimalnim tehnicko-tehnoloskim i kadrovskim uslovima za skladistenje zitarica (SN FBiH 2/13): federal ministry decision on conditions, entry in the cantonal Registar skladista zitarica on form 2, continuous quality control with records and an authorised lab when none in-house.",
+     "unchecked": "Whether the rulebook is still in force or amended; number of registered warehouses (likely few); one-off registration rather than a recurring duty; RS equivalent."
+    },
+    {
+     "buyer": "Wheat buyers (otkupljivaci) and small mills buying from farmers in FBiH",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "Full draft text read from fmpvs.gov.ba/wp-content/uploads/2026/02/03-Pravilnik%20Javna%20Rasprava%20-%20P%C5%A1enica.pdf. Contains quality rules but no reporting duty seen in the part read.",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Wheat buyer compliance pack (proof of origin, calibrated meters, quality class records)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Draft FBiH Pravilnik o parametrima kvalitete i kvalitativnim klasama psenice u otkupu (public consultation Feb 2026): farmer supplies proof of origin, moisture and protein measured on meters with annual verification stamp, quality classes and moisture above 14.5% to drying, homogeneous loads. Based on Law on Food (SN BiH 50/04).",
+     "unchecked": "Adoption and entry into force; whether any record-keeping or reporting duty sits in the remainder; seasonal use (June to August); RS and Brcko equivalents."
+    },
+    {
+     "buyer": "Mjesna zajednica committees and user groups running local waterworks, plus municipal utilities taking them over",
+     "category": "13. Small water systems",
+     "evidence": "https://mp.ks.gov.ba/sites/mp.ks.gov.ba/files/2025-11/Zakon-o-vodama-44-22.pdf; https://skupstina.ks.gov.ba/sites/default/files/2025-06/a.hodzic_0.pdf; Donji Vakuf court dispute cited at paragraf.ba/strucni-dokumenti/uslov-za-upravljanje-mjesnim-vodovodom-od-strane-javnog-komunalnog-preduzeca.html.",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Local water supply (mjesni vodovod) operator tool for village committees",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Cantonal water laws (for example Sarajevo Canton SN KS 44/22): data on sources, user numbers and treatment to the public health institute, municipality and canton ministry; water-quality monitoring under the drinking-water rulebook; handover to a registered utility.",
+     "unchecked": "FBiH and RS water laws and what filings small systems must make; number of such systems; who pays (volunteer committees, municipalities moving to utilities); fragmentation by canton makes one product hard; no per-system software demand seen."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "No household-employer register or dedicated regime found in FBiH, RS or Brcko. General rules apply: FBiH employers (natural persons included) file JS3100 with the Porezna uprava FBiH (e-filing allowed); RS Zakon o radu covers natural-person employers, and RS tax law requires registration the day before work starts. RFE/UN Women piece (slobodnaevropa.org/a/zene-bih-zaposlenje-domacinstva/31494224.html) says much household and elder care is in the grey zone; contributions are about 70% of net pay; reform only proposed. New lead found: RS Zakon o radnom angažovanju na sezonskim i drugim poslovima privremenog karaktera (passed by urgent procedure, late Dec 2025, per paragraf.ba) makes natural persons (farm households) register helpers with Poreska uprava RS before work, pay contributions and issue a work-engagement confirmation; reported fine 1,500 KM. Law text, effective date and portal not seen. Nothing found for Brcko or for FBiH carer rules. No software competitor found.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Water rules are cantonal in FBiH and entity-level in RS; there is no single federal rule. Sarajevo Canton Zakon o vodama (SN KS 44/22) defines local (mjesni) waterworks as user-built systems for up to 50 residents. The municipality must hand municipal systems to a registered utility within 12 months and operators must send source, user-count and treatment data to the public health institute, municipality and canton ministry. Central Bosnia Canton has utilities managing local systems with 500+ residents with municipal consent; a Donji Vakuf court dispute shows ownership conflict with Mjesna zajednica. The drinking-water regulation sets monitoring frequencies and allows exemptions below 50 consumers or 10 m3/day. Rural water often fails microbiology tests (Krivoglavci, Vogosca). Rules are fragmented by canton and the buyer is mostly volunteer local committees with little money to pay. RS water law and Brcko not found. Nothing strong beyond a weak lead.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Found three duties. (1) BiH-level Pravilnik o posebnim uslovima evidentiranja i obiljezavanja brasna (Vijece ministara, 29.12.2005; text on uino.gov.ba): every first placer of flour (mill, custom-milling owner, trader, importer, exporter) must stick state evidence stamps on packs, apply to MVTEO on form A1 at least 30 days before delivery, keep an issued/used stamp ledger (A3), and keep monthly records of grain milled and flour produced, split own versus custom milling by owner (Art. 11). Current status in 2026 not confirmed; Zitounija (Serbia) called the stamps a non-tariff barrier. (2) FBiH Pravilnik o minimalnim uvjetima za skladistenje zitarica (SN FBiH 2/13): legal entities storing grain must be in the Registar skladista zitarica kept by the cantonal ministry; quality records required. Legal persons only. (3) FBiH draft Pravilnik o parametrima kvalitete i klasama psenice u otkupu (public consultation Feb 2026, fmpvs.gov.ba): buyers need proof of origin from farmers and calibrated moisture and protein meters; adoption not confirmed. Fitosanitarni registar (Uprava BiH za zastitu zdravlja bilja) covers importers and distributors of plants and plant products; whether it covers grain or coffee traders was not confirmed. RS grain buyer or warehouse rules not found. No software for mills or flour stamps found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "kućna pomoćnica njegovateljica zapošljavanje u domaćinstvu prijava radnika BiH zakon o radu domaćinstvo poslodavac",
+    "seoski vodovod upravljanje mjesni odbor vodovodno društvo koncesija mali vodovodi BiH zdravstvena ispravnost vode",
+    "otkup žitarica registar skladišta silos mlinovi registracija Uprava za zaštitu zdravlja bilja BiH trgovac žitaricama kafa uvoznik",
+    "rad u domaćinstvu kućne pomoćnice sivo tržište rada Republika Srpska njegovateljica ugovor o djelu fizičko lice poslodavac",
+    "Pravilnik o registru skladišta žitarica Federacija BiH registracija skladišta žitarica",
+    "ruralni vodovodi BiH udruženja korisnika vode mjesna zajednica uzorkovanje vode zavod za javno zdravstvo",
+    "Republika Srpska otkupljivači pšenice licenca registar otkupljivača pravilnik skladišta žitarica",
+    "mlinovi BiH registar mlinova obaveza izvještavanja proizvodnja brašna uvoz pšenice kvota",
+    "Zakon o radu RS rad u domaćinstvu poslodavac fizičko lice prijava Poreska uprava",
+    "evidencijske markice za brašno UINO mlinovi trgovci obaveza evidencija 2025 2026",
+    "markice za brašno UINO naručivanje mlin uvoznik izvještaj",
+    "Zakon o radnom angažovanju na sezonskim i drugim poslovima privremenog karaktera RS prijava Poreska uprava potvrda",
+    "lokalni vodovod bez dozvole nadležnost općina FBiH mjesni vodovodi udruženja građana",
+    "FBiH kućna pomoćnica njegovateljica prijava radnika Porezna uprava fizičko lice poslodavac JS3100",
+    "Poreska uprava RS sezonski rad zakon 2026 primjena prijava domaćinstvo kazna 1.500 KM",
+    "program softver evidencija mlin uslužna meljava vlasničke kartice markice za brašno BiH",
+    "MVTEO evidencijske markice za brašno zahtjev 2025 ukidanje markica BiH"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b57"
+ },
+ "opus:bosnia-and-herzegovina:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No product built for association filings was found in two Bosnian-language searches. Accountants and bookkeeping firms do this as a routine service. Local accounting packages (for example Pantheon or Minimax) were named only from general knowledge in a search summary and were not checked to see whether they support NPO forms. Whether FIA filing is electronic, and what its processing fee is, was not verified; a unija.com page mentions a processing fee and a CD submission.",
+   "duty": "Annual financial statements to FIA by 28 Feb for all legal entities including associations and foundations (Zakon o računovodstvu i reviziji FBiH, Sl. novine FBiH 15/2021). Enforced in 2026: in May 2026 the Tax Administration issued misdemeanour orders to 125 entities that didn't file for 2025. Fines of 5,000-15,000 KM per entity and 500-3,000 KM per responsible person come from a 2019 source, so 2021-law amounts are unverified. Half-year reports apply mainly to companies; only 45 associations filed one for H1 2019. Rulebook 81/21 not verified. RS (APIF) and Brcko rules not reached.",
+   "market": "9,209 associations and foundations were registered in FBiH at the end of 2018, according to an FIA publication; the number was falling (9,821 in 2017). 2,811 associations did not file for 2018, which points to a large dormant or non-compliant group. One undated media estimate puts NGOs across BiH at about 12,000, with few of them active.",
+   "reason": "The duty is real. Profit and non-profit legal entities in FBiH, associations included, must file annual financial statements with FIA by 28 February under the FBiH Accounting and Auditing Law (Sl. novine FBiH 15/2021). In May 2026 the Tax Administration fined 125 non-filers for 2025, so enforcement is current. Fines were 5,000-15,000 KM per entity plus 500-3,000 KM for the responsible person in 2019; current amounts are unverified. Half-year filing hardly matters: only 45 associations filed in H1 2019. About 9,200 associations are registered, but 2,811 didn't file for 2018, which suggests many are dormant. No dedicated product turned up, though local accountants and their software already handle this cheaply. Buyers are poor, filing is once a year, and it's hard to stand out.",
+   "searches": 6,
+   "sources": "https://fia.ba/Upload/eBook/Knjiga2_Udruzenja/files/basic-html/page7.html ; https://unija.com/bs/racunovodstvo-fbih-kazne-za-izvjestaje/ ; https://unija.com/bs/zavrsni-obracuni-obaveze-rokovi-finansijski-izvjestaji/ ; https://unija.com/bs/u-fbih-nije-predano-oko-1400-polugodisnjih-finansijskih-izvjestaja/ ; https://www.paragraf.ba/dnevne-vijesti/25052026/25052026-vijest5.html ; https://www.paragraf.ba/dnevne-vijesti/13052019/13052019-vijest3.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b57"
+ },
+ "opus:bosnia-and-herzegovina:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No BiH or ex-YU vendor of AML or KYC compliance software for small non-financial obliged entities was found. Bosnian/Croatian-language searches covered software, apps, risk-assessment tools and services for accountants and agencies. The results showed:\n- UK/US/NZ tools (Credas, Thirdfort, FigsFlow, Xama, AMLHUB, SmartSearch) built for UK and other foreign rules, without BiH forms or language;\n- Asseco SEE's AML system, which targets banks;\n- consultancy articles (unija.com) and paid seminars (Paragraf).\nThere is no free state tool for the internal kit (risk assessment, procedures, client file). The FUZIP guides are only guidance. Not checked: whether the FOO has an electronic reporting portal for STRs, and local consultancies that sell document templates.",
+   "duty": "The duty is current and in force (state law, Sl. glasnik BiH 13/2024, applies across FBiH, RS and Brcko). Art. 5 obliged entities include audit firms, providers of accounting, bookkeeping and tax services, and notaries, lawyers and law firms, but the professions only when they take part in specified financial or property transactions. Under Art. 5(2) real estate intermediaries are covered, rentals only where monthly rent is 20,000 KM or more. Duties are:\n- a documented risk assessment, updated at least yearly and sent to the supervisory body (Art. 10);\n- internal policies approved by management (Art. 9(3)-(4));\n- an authorised person and a deputy (Art. 9(2)(h));\n- staff training;\n- CDD and beneficial-owner identification, including for transactions of 30,000 KM or more (Art. 12(1)(b));\n- record keeping (Art. 9(2)(l));\n- suspicious transaction reports to the FOO (Art. 33, 42).\nThe Council of Ministers adopted the rulebook in early Jan 2026 and published it in early Feb 2026, with 90 days to align internal acts. FUZIP risk-assessment guidelines have been out since April 2026. FUZIP's special inspection programme ran from 28 Sep 2026 to end-2026 and covered bookkeeping, accounting and tax firms, auditors, gambling operators, TCSPs, vehicle and precious-goods dealers and real estate intermediaries. Fines run from 5,000 to 200,000 KM, and 20,000-80,000 KM for no risk analysis or for CDD failures. This is all under a June 2026 FATF action plan. Not checked: the 5-year retention period (Art. 93 and the penalty articles were truncated in the fetch) and supervision of RS and Brcko entities.",
+   "market": "FBiH has 135 registered real estate agencies with 177 certified agents (Federal Ministry of Trade register, as quoted by prostor.ba, undated). Around 2022 the FBiH Chamber estimated about 150 legal brokers and many unregistered ones. I found no count of accounting or bookkeeping firms, or of RS and Brcko agencies. Bookkeeping agencies are likely the bigger segment, plausibly low thousands nationwide, but this is unverified. Auditors, gambling operators and dealers in vehicles and precious goods are also obliged entities and could be added.",
+   "reason": "The duty is real and being enforced now. The state AML/CFT law (Sl. glasnik BiH 13/2024) Art. 5 lists bookkeeping, accounting and tax firms, auditors, real estate intermediaries, lawyers and notaries as obliged entities. They must keep a documented risk assessment updated at least yearly and sent to the supervisor (Art. 10), keep internal procedures, appoint an authorised person and deputy, run client ID checks and report to the FIU. The implementing rulebook was published in Feb 2026 and gave 90 days to align. FUZIP market inspectors began special AML checks on 28 Sep 2026, running to end-2026, with fines of 5,000-200,000 KM. I found no local or regional SMB AML tool, only UK tools (Credas, Thirdfort, FigsFlow, Xama) and Asseco's bank-grade system. The market is small: 135 agencies in FBiH, and accountant counts were not found.",
+   "searches": 6,
+   "sources": "https://www.paragraf.ba/propisi/bih/zakon-o-sprecavanju-pranja-novca-i-finansiranja-teroristickih-aktivnosti.html ; https://www.paragraf.ba/dnevne-vijesti/01102026/01102026-vijest1.html ; https://www.paragraf.ba/dnevne-vijesti/05012026/05012026-vijest4.html ; https://www.paragraf.ba/dnevne-vijesti/12112025/12112025-vijest3.html ; https://prostor.ba/en/clanak/37 ; https://www.kfbih.com/en/?p=29519 ; https://thenegotiator.co.uk/news/credas-technologies-launches-new-aml-platform/ ; https://figsflow.com/uk/top-6-aml-software-for-accountants-in-2025/ ; https://see.asseco.com/news-events/news/3630/?L=-5776 ; https://www.coe.int/bs/web/sarajevo/-/stronger-money-laundering-and-terrorism-financing-prevention-through-enhanced-risk-based-supervision-of-the-non-financial-sector",
+   "suggested_score": 6,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b57"
+ },
+ "sonnet:bosnia-and-herzegovina:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "None found in one local-language search (software, app, evidence, lift, upravnik). Inspection bodies and lift service firms do the inspections. Search was shallow.",
+   "duty": "Lift owner must ensure a regular technical inspection at least once a year (Naredba o sigurnosti liftova, Sl. glasnik BiH 99/12, art. 24). Penalties were not found.",
+   "market": "Not quantified. No count of buildings with lifts or of upravnici was found.",
+   "reason": "The duty is real. Art. 24 of the Naredba o sigurnosti liftova (Sl. glasnik BiH 99/12) requires the owner to ensure a technical inspection at least once a year. In 2019 the Sarajevo canton found lifts in service without an inspection and warned building managers. Not checked: the fine amounts, and whether the Naredba is still in force unchanged; Republika Srpska has its own Pravilnik (Sl. glasnik RS 105/2024). I found no dedicated lift-inspection scheduling software, but I ran only one competitor search. The task is a single annual date per lift. That is a thin product, and buyers are mostly unpaid owners' boards, so willingness to pay is low. The market is fragmented across entities and cantons, and I found no lift or building count. Lift service firms could add reminders at little cost. Score 3.",
+   "searches": 2,
+   "sources": "https://ks105.ks.gov.ba/sites/default/files/2024-04/d.kristic_343.pdf ; https://arhivask.ks.gov.ba/sites/arhivask.ks.gov.ba/files/maric_25.9_mpz_inspekcija_liftovi.pdf ; https://mkipgo.ks.gov.ba/sites/mkipgo.ks.gov.ba/files/2023_05_05_15_53_15_OCR.pdf ; https://www.paragraf.rs/propisi_download/pravilnik_o_pregledima_liftova_u_upotrebi.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b57"
+ },
+ "sonnet:bosnia-and-herzegovina:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The FBiH rulebook is not just a draft. A search summary says it was published in Sl. novine FBiH 58/2024 (26 July 2024) and amended in Sl. novine FBiH 36/2026 (May 2026). It covers small-business waste operators outside environmental-permit scope: permits, collection and storage, and a waste management elaborate. I could not read the PDF, so frequency, penalties and the information-system duties are unverified. I found no BiH-specific software or state portal, but only two searches were run, so absence of competition is weak evidence. Market size is unknown and the segment is informal and fragmented. Entity-level split (RS differs) and low willingness to pay limit the score. The permit is mostly one-off, not recurring.",
+   "searches": 2,
+   "sources": "https://fmoit.gov.ba/wp-content/uploads/dokumenti/Pravilnik-o-izdavanju-dozvole-za-aktivnosti-male-privrede-u-upravljanju-otpadom4.pdf ; https://fmoit.gov.ba/wp-content/uploads/dokumenti/PRAVILNIK-O-IZMJENAMA-I-DOPUNAMA-PRAVILNIKA-O-IZDAVANJU-DOZVOLE-ZA-AKTIVNOST-MALE-PRIVREDE-U-UPRAVLJANJU-OTPADOM.pdf ; https://leap.unep.org/en/countries/ba/national-legislation/regulation-issuing-permits-small-business-activities-waste",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b57"
+ },
+ "sonnet:bosnia-and-herzegovina:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The EU rule is real and in force since 1 July 2026: G2V2 is required on vehicles of 2.5-3.5 t in international carriage or cabotage for hire or reward (secondary sources only). BiH is not an EU member. A search summary cited a Paragraf.ba report that Serbian-registered vans have no duty because AETR has not been amended. That would likely apply to BiH too, but I did not read that article, and the Paragraf page I fetched does not mention AETR or registration country. I found no BiH-specific law, penalty or vendor search results. Market size is unknown. Demand is mostly an installation purchase from certified workshops, not recurring software. Frotcom and similar fleet vendors cover tacho downloads. Weak SaaS case.",
+   "searches": 3,
+   "sources": "https://courierexchange.co.uk/blog/tachographs-for-couriers-new-rules-for-2026/ ; https://www.mapon.com/dk/blog/new-tachograph-rules-for-2-5-t-vehicles-in-2026 ; https://www.paragraf.ba/dnevne-vijesti/02072026/02072026-vijest3.html ; https://www.frotcom.com/sr-RS/blog/2022/08/podaci-tahografa-kljucni-alat-za-upravljanje-vasom-flotom",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b57"
+ },
+ "sonnet:bosnia-and-herzegovina:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real, but it is not a recurring software workflow. Paragraf.ba (11 Jul 2025) confirms the FBiH inspectorate checked BAS EN 16942 dispenser labelling and the prescribed fuel-movement documentation from Jul to Oct 2025. The article names no penalties, and the campaign has ended. Labelling is a one-off physical task. Fuel-movement documents are probably handled by suppliers and ERP or POS vendors. I could not confirm the OPC/OPM filing channel (eopc.fmt.gov.ba) or the full law text. No station-software competitor turned up, but the search was thin. The 719-station market is tiny, and stations will likely buy fiscalization (ESET) software instead, under the new FBiH Fiscalization Law (Sl. novine 9/2026).",
+   "searches": 4,
+   "sources": "https://www.paragraf.ba/dnevne-vijesti/11072025/11072025-vijest3.html ; https://www.paragraf.ba/dnevne-vijesti/17022026/17022026-vijest2.html",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b57"
+ },
+ "sonnet:bosnia-and-herzegovina:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The FBiH 2026 support programme (190M KM, Sl. novine FBiH 6/26, adopted 23.04.2026) requires entry in the Register of Agricultural Holdings/Register of Clients. The register data has an annual update deadline, normally 31 March, extended in 2024 and 2025. But the FBiH ministry says the whole process is already electronic, from application to payment, with a Farmer web portal and a ministry application for processing payments. Applications are filed through municipal and ministry channels, and extension services and cooperatives already help with the paperwork. Farms are small, so willingness to pay is low. A private packager would sit on top of state systems, with no mandatory-software hook. Counts of farms and beekeepers, and competing private tools, were not checked.",
+   "searches": 2,
+   "sources": "https://www.paragraf.ba/dnevne-vijesti/27042026/27042026-vijest2.html ; https://fmpvs.gov.ba/wp-content/uploads/2026/04/Program%20poticaja%202026%2032-26.pdf ; https://predstavnickidom-pfbih.gov.ba/files/Zastupnička pitanja/05_1-02-15_22 - 15-22 Odg. na zastupničko pitanje (2).pdf",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b57"
+ },
+ "sonnet:bosnia-and-herzegovina:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Only one source, a Paragraf.ba news report of 30 Dec 2025, says the RS assembly passed the law under urgent procedure. It reports a 1,500 KM fine and pre-work registration of helpers with Poreska uprava RS, but this is an accountant's reading. It gives no effective date. My searches found no official text, Sl. glasnik RS entry, form or portal, and no vendor. The Tax Administration said inspectors won't check private homes, so enforcement is weak. The likely channel is a free state e-service, as in Serbia. Households register a few times a year, so willingness to pay is low and distribution to scattered farmers is hard. Law text, effective date and portal are all unconfirmed.",
+   "searches": 4,
+   "sources": "https://www.paragraf.ba/dnevne-vijesti/30122025/30122025-vijest2.html",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b57"
+ },
+ "triage:bosnia-and-herzegovina": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Small associations' annual financial filing is a new buyer group and duty, not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Annual lift inspection duty on building managers/owners, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Small waste/scrap permit and register duty, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Jewellers and used-gold buyers' purchase register, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Licensed money changers' licence/AML duty, new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Tachograph and driver-hours duty for small vans differs from K01's EES 90/180 planning; related to K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Buyer is livestock traders/markets, not vet stations as in K05; related to K05.",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Beekeeper register and migratory-site paperwork, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Farm treatment diary buyer is farms/prescribing vets, a different duty from K05 animal ID; related to K05.",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Hunters' associations holding hunting grounds, new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Driving schools' inspection records, new."
+    },
+    {
+     "decision": "known",
+     "id": "A12",
+     "reason": "Same employers/agents and foreign-worker permit duty as K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "known",
+     "id": "A13",
+     "reason": "Haulier visa/Schengen pain is the same buyer and duty area as K01; supporting fact only.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "AML/CFT duty for small obliged professionals, new."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Fuel station price notices and inspection documents differ from K06 fiscalization; related to K06.",
+     "ref": "K06"
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Farm register and subsidy applications by farmers; different from A8 (beekeepers only) and K05; related to K05.",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Solar installers/households subsidy and connection paperwork, new; one-off call but many small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Packaging-waste EPR reporting for small producers, new."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Employer disability quota and contribution duty, new."
+    },
+    {
+     "decision": "known",
+     "id": "B8",
+     "reason": "Same FBiH fiscalization duty and buyers as K06/K08/K10 and K03; no revive evidence.",
+     "ref": "K06"
+    },
+    {
+     "decision": "known",
+     "id": "B9",
+     "reason": "Same EUDR wood exporter idea as K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Agricultural cooperatives' audit and register duty, new."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Private clinics' reporting to cantonal insurers, new."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Prospective cannabis licensees; speculative but unsure, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Mills' flour stamp and ledger duty, new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Farm households as employers of seasonal helpers in RS, new rule."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Grain storage operators' register duty, new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Wheat buyers' origin and quality records, different duty from GAPS3."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Village waterworks committees' reporting duty, new."
+    }
+   ]
   },
   "tag": "w2b57"
  }

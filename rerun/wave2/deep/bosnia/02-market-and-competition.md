@@ -18,7 +18,7 @@ Date: 9 Oct 2026. Builds on [the B1 report](../reports/bosnia-and-herzegovina-b1
   - Pantheon Web Light accounting software: from EUR 15.33 a month ([Datalab BH](https://www.datalab.ba/pantheon/accounting/)).
   A software line of 250-450 KM a year is plausible. A document pack priced above zero is not.
 - **Competition:**
-  - No BiH software product was found in 45 searches across four languages.
+  - No BiH software product was found in this pass (45 searches in four languages, plus direct checks of association, regulator and vendor sites).
   - A-count (Croatia) is still the only close analogue, at EUR 0, 281 or 540 a year. It is in Croatian only and makes no BiH claim ([a-count.hr](https://a-count.hr)).
   - Datalab (Pantheon) has a BiH office, an accounting-office edition and a paid add-on ("Granule") model. It is the most likely local entrant, or a partner ([Datalab BH](https://www.datalab.ba/cjenovnik-dodatnih-usluga/)).
 - **Revised year-3 revenue:** about **60,000-170,000 KM a year** (base case about 90,000 KM). B1 put the base case at 135,000 KM. The most promising route is a partnership with SRRRS and an approved FBiH CPD provider: "the official model pack, filled in and kept current".
@@ -135,7 +135,7 @@ Two extra notes:
 ## Channels
 
 - **SRRRS (Banja Luka).**
-  - Profile: mandatory membership; 10 regional societies plus a Brčko association; Board chair Prof. Dragan Mikerević ([SRRRS](https://srrrs.org/o-nama/drustva/); [Finconsult agenda](https://finconsult.ba/wp-content/uploads/2026/06/Program-i-agenda-Panel-diskusija-Racunovodstvena-profesija-u-BIH-stanje-i-perspektive-i-Promocija-knjige-Profesionalno-financijsko-racunovodstvo.pdf)).
+  - Profile: mandatory membership; 9 regional societies plus a Brčko association; Board chair Prof. Dragan Mikerević ([SRRRS](https://srrrs.org/o-nama/drustva/); [Finconsult agenda](https://finconsult.ba/wp-content/uploads/2026/06/Program-i-agenda-Panel-diskusija-Racunovodstvena-profesija-u-BIH-stanje-i-perspektive-i-Promocija-knjige-Profesionalno-financijsko-racunovodstvo.pdf)).
   - Reach: it runs paid webinars with the magazine Finrar through its "eRačunovođa" platform, and a yearly international congress in September ([SRRRS webinar](https://srrrs.org/pdv-tretman-prekogranicnih-transakcija-i-kontrola-obveznika-11007/); [30th congress](https://srrrs.org/30-medjunarodni-kongres-racunovodstvene-i-revizorske-profesije-republike-srpske-23-25-09-2026-10491/)).
   - Already gives members tools: calculators, templates and an audit software pack ([SRRRS tools](https://srrrs.org/alati/softverski-paket-za-revizore/)).
   - The pitch: "a digital, auto-filled version of your model pack, plus the client register". This is the strongest single channel.

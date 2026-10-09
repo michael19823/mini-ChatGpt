@@ -1,4 +1,40 @@
 {
+ "challenge:argentina:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. There is no Argentine jeweller-specific AML product, no free UIF tool beyond the filing portal, and no exemption for small firms.",
+   "reason": "The duty is real and recurring. Res. 55/2024 covers the whole jewellery and precious-metal chain with no size exemption. It requires a monthly RSM for operations above 20 SMVM, an annual RSA, a compliance officer, an annual manual review, annual training records, and a two-yearly self-assessment (first due 30 Apr 2026). Firms above 180 SMVM a year also need an external review (first due 31 Oct 2026); smaller legal persons need an internal audit. Five searches found no Argentine AML software for these firms, only law and consulting firms. Risks: the market size is unknown, past enforcement was weak (2014: fines of AR$221.7M imposed, about AR$250k collected), and thresholds may be revised. Accountants pressed UIF in 2026 for extensions and new thresholds, and UIF already moved accountants' external review to March 2027.",
+   "searches": 8,
+   "sources": "https://www.argentina.gob.ar/normativa/nacional/norma-397648/texto ; https://www.marval.com/Publicacion/novedades-de-la-uif-sobre-sujetos-dedicados-a-la-compraventa-de-arte-joyas-y-bienes-suntuarios-16794 ; https://www.facpce.org.ar/wp-content/uploads/2026/04/Nota-FACPCE-a-UIF-31-03-26.pdf ; https://consejo.org.ar/noticias/2026/reiteramos-prorroga-para-la-presentacion-del-informe-de-autoevaluacion-de-riesgos-ante-la-uif ; https://siap.blogdelcontador.com.ar/novedades/uif-prorrogo-marzo-2027-informe-revision-externa-contadores/ ; https://www.pagina12.com.ar/diario/economia/2-242795-2014-03-27.html ; https://stabogados.com.ar/civil/empresas/compliance-sujetos-obligados/",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b32"
+ },
+ "challenge:argentina:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Partial overlap: UIF's free SRO/SRO+ portal for the monthly report; the free FACPCE ITAER guide and matrix; CONLAFT S.R.L. AML platform, which targets other obligated sectors and doesn't mention brokers. Risk to watch: a draft bill to deregulate broker licensing (May 2026, not confirmed as filed).",
+   "reason": "I found no product, free tool or rule that does the whole job for brokers under Res UIF 43/2024. The one local AML platform I found, CONLAFT, sells to mutuales, cooperatives and accountants, not brokers. I found no AML module from Tokko or Xintel, and no broker-specific extension of the deadlines. The 2026 extension to March 2027 covers accountants (Res 42/2024), not brokers. The weak points: UIF's free SRO portal already handles the monthly report. The self-assessment is only due every two years, so the next one is likely in 2028. The external review only applies to larger firms. Free templates exist (the FACPCE ITAER guide). Small brokers may not pay much, and enforcement is uneven. A government bill to drop the mandatory broker licence (reported May 2026, status unknown) could blur who is obliged, since the rules cover licensed brokers. Market: COFECI says it has 35,000+ licensed members, but the number of active UIF-registered brokers is unknown.",
+   "searches": 8,
+   "sources": "https://www.argentina.gob.ar/normativa/nacional/397424/texto ; https://www.marval.com/Publicacion/la-uif-actualiza-la-normativa-aplicable-a-los-agentes-o-corredores-inmobiliarios-15804 ; https://www.consejo.org.ar/noticias/2026/uif-se-prorroga-la-presentacion-del-informe-de-revision-externa-independiente ; https://www.consejo.org.ar/noticias/2026/reiteramos-prorroga-para-la-presentacion-del-informe-de-autoevaluacion-de-riesgos-ante-la-uif ; https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf ; https://www.facpce.org.ar/wp-content/uploads/2026/04/GUIA-PARA-ELABORAR-EL-INFORME-TECNICO-DE-AUTOEVALUACION-DE-RIESGOS-ITAER-002.pdf ; https://www.argentina.gob.ar/uif/instructivos/rsm-compra-yo-venta-de-bienes-inmuebles ; https://www.elancasti.com.ar/politica-y-economia/el-gobierno-prepara-una-reforma-inmobiliaria-que-elimina-la-matricula-obligatoria-n613708 ; https://www.iprofesional.com/realestate/455879-se-viene-la-desregulacion-inmobiliaria-en-junio-puntos-calientes-que-alertan-al-sector ; https://www.iprofesional.com/realestate/422390-agentes-inmobiliarios-podran-operar-sin-matricula-y-el-sector-esta-en-alerta ; https://stabogados.com.ar/civil/empresas/compliance-sujetos-obligados/",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b32"
+ },
+ "challenge:argentina:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. The partial threats are INAES's own free web transmission system (Res 1279/2026), accountants who already serve mutuales, and the chance that mutual ERPs such as Grupo Neo Sistemas add the INAES annexes.",
+   "reason": "Nothing kills it. Spanish searches found no vendor that files the INAES ayuda economica return or the nomina for mutuales. The only mutual ERP found was Grupo Neo Sistemas (MutualOnline app), and no INAES export was confirmed for it. INAES Res 1567/2026 (published 3 Aug 2026) adds another recurring duty on the same web system: an AML module with annual sworn statements, a quarterly statistical ROS report and an initial filing within 90 days. That widens the bundle. The weaknesses stay: filing goes through INAES's free web entry, with no import or API found. Accountants and the Consejo Profesional advisory desk already serve these entities. The number of active lending mutuales was not found. The buyers are volunteer boards, and the work is mostly data entry, not a tool gap.",
+   "searches": 8,
+   "sources": "https://www.argentina.gob.ar/normativa/nacional/norma-427021/texto ; https://contadoresenred.com/nuevo-sistema-de-cumplimiento-antilavado-para-cooperativas-y-mutuales/ ; https://contadoresenred.com/inaes-regimen-informativo-del-servicio-de-ayuda-economica-mutual-transmision-web-instructivo/ ; https://apps.apple.com/ca/app/mutualonline/id6480014182 ; https://consejo.org.ar/herramientas-profesionales/asesoramiento/asesoramiento-presencial/area-cooperativas-y-mutuales ; https://siap.blogdelcontador.com.ar/novedades/arca-e-inaes-avanzan-con-el-intercambio-automatico-de-informacion-financiera-en-mutuales/ ; https://abogados.com.ar/se-implementa-un-sistema-web-para-informar-ayuda-economica-mutual-facilitando-la-carga-de-datos-y-reemplazando-metodos-anteriores/39481",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b32"
+ },
  "critic:argentina": {
   "result": {
    "gaps": [
@@ -681,6 +717,20 @@
   },
   "tag": "w2b29"
  },
+ "escalate:argentina:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Reports are filed on UIF's free SRO+ portal, which handles submission but not record-keeping, risk scoring or the self-assessment. Three Spanish-language searches for Argentine AML software (jewellers, DNFBPs, RSM/legajo) found no jeweller-specific product. The only jeweller-specific AML tool that came up, kyc-systems.com, is Mexican (LFPIORPI). Accountants and AML consultants offer generic services, and the professional councils (consejo.org.ar, FACPCE) publish self-assessment guides for their own members. Regional or generic AML vendors were not checked exhaustively.",
+   "duty": "UIF Res. 55/2024 (in force since 26/03/2024), under Ley 25.246 art. 20 inc. 16. Clients are defined at 6 or more SMVM. The monthly RSM covers operations over 20 SMVM and is filed between days 1 and 15; a \"sin movimientos\" report is required in months with nothing to report. The annual RSA is filed between 2 Jan and 15 Mar. The ITAER risk self-assessment and the risk tolerance declaration are due every two years by 30 April (first deadline 30/04/2026, covering 2024 and 2025). Legal persons need a compliance officer and an internal audit. An independent external review is required above 180 SMVM a year (first report due by 31/10/2026). Sanctions follow Ley 25.246 Ch. IV. Res. 54/2024 covers art, antiques and numismatics, not jewellery. Registration in SRO+ was fully digitalised by Res. 37/2026. I could not open the 2025 Boletín Oficial notice (aviso 305168, 503 error), so it is not_reached.",
+   "market": "Unverified. I found no UIF statistic on how many inc. 16 entities are registered, and the UIF 2024 management summary PDF could not be parsed. The scope is broad (mining, gold buyers, refiners, manufacturers, artisans, retailers), but how many are actually registered and above the thresholds is unknown, and enforcement against small informal gold buyers is likely weak.",
+   "reason": "The duty is real and in force. UIF Res. 55/2024 (BO 26/03/2024, which replaced Res. 28/2011) covers the whole jewellery and precious-metal chain down to retailers and artisans. It requires a monthly RSM report (days 1-15, operations over 20 SMVM, or a \"sin movimientos\" filing when there are none), an annual RSA (2 Jan-15 Mar) and a two-yearly risk self-assessment due by 30 April (first one in 2026). It also requires a compliance officer and an internal audit, plus an external review above 180 SMVM a year. Penalties follow Ley 25.246 Ch. IV. Filing itself goes through UIF's free SRO+ portal. I found no jeweller-specific Argentine AML software. Downsides: I found no figure for how many firms are in scope, many small jewellers are informal, willingness to pay is likely low, and accountants already sell this as a service.",
+   "searches": 6,
+   "sources": "https://www.argentina.gob.ar/normativa/nacional/norma-397648/texto ; https://www.marval.com/Publicacion/novedades-de-la-uif-sobre-sujetos-dedicados-a-la-compraventa-de-arte-joyas-y-bienes-suntuarios-16794 ; https://www.argentina.gob.ar/node/172339 ; https://www.colegio-escribanos.org.ar/noticias/2026_04_14_UIF-Res-37-26-Informe.pdf ; https://consejo.org.ar/noticias/2026/solicitamos-prorroga-para-la-presentacion-del-informe-de-autoevaluacion-de-riesgos-ante-la-uif ; https://kyc-systems.com/actividades-vulnerables/software-antilavado-metales-joyas.html",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b32"
+ },
  "gapfill:argentina": {
   "result": {
    "blocked_searches": 0,
@@ -884,6 +934,34 @@
   },
   "tag": "w2b32"
  },
+ "opus:argentina:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free state SIF web portal already does the core recording job: manual entry, plus a 'romaneo import' tool that loads a consolidated file generated by the plant's own system, plus manual or automatic import of the 'lista de matanza'. The REC is issued on the ARCA (formerly AFIP) web portal. Visor SIF (visorsif.magyp.gob.ar) shows romaneo data to producers. No Argentine private product was found that bridges SIF and the REC for small plants. The only meat-plant software found was foreign: Pyramis (Spain), Marel Innova, CIJAM, and a GeneXus custom build for Marfrig Uruguay. Large plants already have their own ERP or weighing systems that produce the import file. Whether RFID reader vendors (e.g. Datamars) bundle SIF integration was not checked. A possible niche remains: a cheap tool that turns scale and RFID reads at small plants into the SIF import file.",
+   "duty": "Real and in force. Min. Economía Res. 40/2026 (RESOL-2026-40-APN-MEC, Boletín Oficial 27 Jan 2026, edition 337796; in force 1 Jan 2026) created the Sistema Integral de Faena (SIF), run by DNCCA (the former ONCCA). Slaughter plants must record animal intake, slaughter authorisation, romaneo and daily meat stock in cold rooms in SIF. The physical stock and egress books are replaced by the digital 'Existencias de Carne' module. The Remito Electrónico Cárnico (REC) is mandatory for every dispatch of beef, buffalo or pork. Operators who are not properly registered get an automatic block on issuing DT-e. Reading electronic ear tags on the slaughter line and linking each tag to the garrón number became mandatory on 1 Jul 2026 (Bichos de Campo, 2 Jul 2026). That article attributes the deadline to Res. 40/2026, while another source says Res. 50/2026 set the date, so the exact resolution number is not confirmed. No extension was found. The work happens daily, per tropa. No specific fine amounts were found; the enforcement found is the DT-e block. Whether municipal and provincial-only plants are covered on the same dates was not confirmed: the sources say only 'establecimientos faenadores/frigoríficos'. The full Boletín Oficial text was not opened.",
+   "market": "DNCCA data reported by Bichos de Campo: about 370 places slaughtered bovines in 2023 and 2024 (400 in 2019), and 4,300 registered operators (matarifes or usuarios de faena) sent cattle to them. The top 50 plants handle about 60% of the kill, so the long tail is about 300 small plants, many of them municipal or cooperative. Pig, sheep and goat plants add some more. The REC was estimated at launch (2018) to reach about 4,250 faenadores, usuarios de faena, consignatarios and depots. The buyer pool for line integration is small, roughly 300 plants.",
+   "reason": "The duty is real, recurring every day and enforced through the DT-e block. The 1 Jul 2026 e-ID line-reading deadline has created real integration pain. But the free state SIF portal already does the core job, with manual entry and file import for romaneo and the slaughter list. A product would only be a thin bridge from scale and RFID reads to the import file. The market is about 300 small plants, often municipal, with weak willingness to pay and slow public procurement. Larger plants have their own ERPs. Line reading needs hardware, so an MVP is not simple and RFID reader vendors could bundle the same feature. Buyers are reachable through the slaughter-plant chambers, but revenue is capped. It is related to K03 but has a separate buyer group.",
+   "searches": 6,
+   "sources": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337796/20260127 ; https://www.argentina.gob.ar/node/511831 ; https://www.estudio-ofarrell.com/?p=24992 ; https://economis.com.ar/tag/sif/ ; https://bichosdecampo.com/es-bastante-mas-que-eliminar-un-viejo-libro-el-renovado-sistema-integral-de-faena-sif-destierra-los-molestos-sellos-violeta-sobre-la-carne-y-resuelve-la-principal-critica-hacia-las-caravanas-el/ ; https://bichosdecampo.com/que-no-se-corte-se-comenzo-a-exigir-a-los-frigorificos-la-trazabilidad-en-la-faena-vacuna-para-prolongar-la-cadena-iniciada-pr-los-criadores-con-la-caravana-electronica-puesta-a-los-terneros/ ; https://www.lavozdesanjusto.com.ar/industria-frigorifica-eliminan-la-obligatoriedad-de-impresion-de-formulario-70480 ; https://bichosdecampo.com/quien-manda-en-el-negocio-de-la-carne-hubo-370-lugares-donde-se-sacrificaron-bovinos-en-2023-pero-los-primeros-cincuenta-manejan-casi-60-de-la-faena ; https://blogdelcontador.com.ar/resolucion-general-4256-afip-se-implementa-el-remito-electronico-carnico/ ; https://www.softwaredoit.es/pyramis/pyramis.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b32"
+ },
+ "opus:argentina:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No software found for Argentine desagote or atmospheric-truck manifests. Hits were generic fleet tools, US hazmat manifest tools (HazmatManager, EPA haztrak) and Colombia's Atica MovAt. Risk: the DGI will probably build its own register and electronic manifest, which would be a state system. Generic GPS fleet trackers already cover the geolocation requirement.",
+   "duty": "Ley 9.706 (Mendoza, passed ~Apr 2026; press dated 15 Apr 2026) covers the collection, transport and disposal of sanitary and industrial effluents. The authority is the Departamento General de Irrigación (DGI). The law creates a public Registro Provincial de Transportistas, and trucks cannot operate without valid registration. There is a manifiesto de carga that works as a sworn declaration from origin to disposal, and authorised vehicles need monitoring and geolocation systems. Transporters pay a canon, and industrial effluents need pretreatment before pickup. Sanctions run from warnings to fines, suspension, closure and seizure; no amounts were found. Not found: publication in the Boletín Oficial, reglamentación, deadlines, and whether the manifest is electronic.",
+   "market": "Not found. No register count of atmospheric-truck operators in Mendoza turned up; the estimate is tens to low hundreds of small operators, plus the generators that hire them. Related regimes elsewhere: Buenos Aires province Decreto 4.867/85 (habilitación sanitaria for atmospheric trucks), Santa Fe Res. 145/2007, Rosario's municipal register, and OSSE's manifest. All are fragmented.",
+   "reason": "Mendoza's Ley 9.706 passed in April 2026. It creates a public DGI register: atmospheric trucks cannot operate without valid registration. It adds a sworn load manifest, a canon (fee), mandatory GPS monitoring, and sanctions from warnings to seizures. I found no desagote or manifest software for Argentina. But the reglamentación (implementing rules), deadlines, manifest format and fine amounts were not found. Irrigación is digitalising and will likely run its own register and manifest, which is a state system and out of scope. The buyers are a small, probably low-margin niche in one province; the operator count was not found but is likely tens to low hundreds. Other provinces' rules (Santa Fe, Buenos Aires) are fragmented and run per municipality or plant. Small market, unclear core job left for a vendor.",
+   "searches": 5,
+   "sources": "https://www.sitioandino.com.ar/politica/la-legislatura-mendoza-regulo-el-transporte-efluentes-cloacales-e-industriales-controles-y-sanciones-n5721085 ; https://abogados.com.ar/mendoza-regula-toda-la-cadena-de-gestion-de-efluentes-cloacales-e-industriales/39159 ; https://leap.unep.org/en/countries/ar/national-legislation/ley-9706-regula-la-actividad-de-recoleccion-transporte-operacion (403 on fetch; search snippet only) ; https://normas.gba.gob.ar/documentos/BjYGYAIy.html ; https://www.rosario.gob.ar/web/sites/default/files/resolucion_camiones_atmosfericos.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b32"
+ },
  "opus:argentina:B1": {
   "result": {
    "blocked_searches": 0,
@@ -894,6 +972,133 @@
    "searches": 6,
    "sources": "https://www.argentina.gob.ar/normativa/nacional/397424/texto ; https://www.marval.com/Publicacion/la-uif-actualiza-la-normativa-aplicable-a-los-agentes-o-corredores-inmobiliarios-15804 ; https://www.argentina.gob.ar/uif/instructivos/rsm-compra-yo-venta-de-bienes-inmuebles ; https://siap.blogdelcontador.com.ar/novedades/uif-prorrogo-marzo-2027-informe-revision-externa-contadores/ ; https://abogados.com.ar/resolucion-uif-902026-suspension-transitoria-de-la-primera-presentacion-del-rei-para-abogados-sujetos-obligados/39988 ; https://www.colegio-escribanos.org.ar/?p=144363 ; https://www.dnrpi.jus.gob.ar/descargas/nueva_matriz.pdf ; https://www.comparasoftware.com/tokko-broker ; https://www.comparasoftware.com/xintel ; https://www.iprofesional.com/realestate/422390-agentes-inmobiliarios-podran-operar-sin-matricula-y-el-sector-esta-en-alerta ; https://www.baenegocios.com/negocios/Advierten-que-mitad-de-inmobiliarias-portenas-corre-riesgo-por-ley-de-alquileres-20180314-0006.html ; https://stabogados.com.ar/civil/empresas/compliance-sujetos-obligados/",
    "suggested_score": 5,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b32"
+ },
+ "opus:argentina:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The filing itself goes through INAES's own free web system. According to the resolution text, it completely replaces the spreadsheet download and upload flow. It offers manual web entry with validations, autocomplete and partial save, and issues a PDF receipt. No file import or API was found. That means a third-party tool cannot simply generate a file to upload; it would need assisted entry or browser automation, which makes an MVP harder. Mutual management ERPs exist: Grupo Neo Sistemas (NeoConsultores S.A.) sells an integral system for mutuales, with the MutualOnline app. Whether any ERP prepares the INAES annex data was not confirmed. A generic member tool, Gestion Socios, has no INAES features. No vendor was found that specifically offers INAES filing for mutuales.",
+   "duty": "Real and in force. INAES Res 1279/2026 was signed on 23-06-2026 and published in the Boletin Oficial No. 35937 on 25-06-2026. It applies to mutuales under the monthly regime of Res 1418/03 art. 17(b) (text ordered by Res 3034/2024). Each month, within 20 business days of month end, they must report compliance with arts. 5, 6, 9 and 10 (Annexes I-V and VII) to INAES and to the local provincial authority. It applies from the July 2026 period, and overdue periods must also be filed through the new system. The resolution itself sets no penalty. Enforcement comes from other rules: Res 1687/2026 gave lending mutuales 30 days to cure missing filings, and Res 878/879/2024 ordered sumarios against thousands of non-compliant entities (secondary sources). Separately, Res 756/2025 requires all co-operatives and mutuales to file a member and authorities roll every year, and quarterly if they are UIF 99/2023 obligated parties (deadline extended by Res 2147/2025). Lending mutuales are UIF obligated parties.",
+   "market": "No current national count was found. An older Mercado article cites about 32,000 registered co-operatives and mutuales, but the figure is undated and the register has since been purged; INAES suspended 20,612 co-operatives and 1,847 mutuales in 2019. In 2020 Santa Fe had 850 mutuales, of which 300 offered ayuda economica. The lending-mutual segment that carries the monthly duty is probably around 1,000 to 2,000 nationally, but this is an extrapolation and unverified.",
+   "reason": "The duty is real, monthly and newly changed: from July 2026 the new INAES web system replaces the old spreadsheets and is manual entry only, and overdue periods must be re-entered there. That creates fresh pain for lending mutuales. However, the filing channel is free, the reachable segment is small (probably low thousands of lending mutuales), and the mid-size ones likely already run mutual ERPs such as Neo Sistemas, which may add INAES support. Because there is no import path, a third-party tool would depend on browser automation, which is brittle. Many entities have volunteer boards, so willingness to pay is doubtful. Distribution through accountants and provincial federations is plausible. The yearly or quarterly member roll adds some recurring value.",
+   "searches": 6,
+   "sources": "https://www.argentina.gob.ar/normativa/nacional/norma-427021/texto ; https://rionegro.gov.ar/info/297/servicio-de-ayuda-economica-mutual-se-pone-en-marcha-el-nuevo-sistema-de-transmision-web ; https://tributum.news/res-1279-2026-inaes-mutuales-ayuda-economica-regimen-informativo-plataforma-web-presentacion-de-anexos/ ; https://siap.blogdelcontador.com.ar/novedades/inaes-30-dias-mutuales-presentar-informacion-adeudada-prestamos/ ; https://contadoresenred.com/cooperativas-y-mutuales-sistema-integrado-de-nomina-de-asociados-y-autoridades/ ; https://apps.apple.com/ca/app/mutualonline/id6480014182 ; https://www.santafe.gob.ar/noticias/noticia/267621/ ; https://mercado.com.ar/revista/numero-1057/el-inaes-busca-corregir-un-sistema-anacronico-y-poco-fiable/ ; https://www.diariodecuyo.com.ar/noticias/hay-1-700-puestos-de-trabajo-en-juego-por-la-medida-de-suspender-a-las-cooperativas-330303.html",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b32"
+ },
+ "opus:argentina:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free state Sistema Nacional de Trazabilidad de Precursores Químicos (RENPRE web service) is the mandatory and only legally valid channel for reporting movements. Veriquim is a commercial tool that registers transactions through the RENPRE web service and builds the quarterly report file; its vendor page cites Res. 900/12, so I could not confirm how current it is. Inscription and renewal paperwork is also handled by consultants, customs brokers and chambers such as CIRA and CDA, which published notices on the decree and the resolution. Institutions such as the UBA pharmacy faculty run the reporting in-house.",
+   "duty": "Ley 26.045 and Decreto 593/2019 are in force, as amended by Decreto 128/2026 (published in the BO on 4 Mar 2026). The decree took effect on publication with no transition period; its Art. 2 sets only the in-force date. It adds 56 substances: 31 to List I and 25 to List III. Operators of List I/II substances must register with RENPRE before operating, renew 60 to 30 days before expiry, and file quarterly reports (declaración jurada). Since 2014 those reports go through the free state Sistema Nacional de Trazabilidad de Precursores Químicos (Res. SEDRONAR 900/12). Not registering or renewing means operating is prohibited and administrative sanctions apply. Res. MSEG 424/2026 (signed 6 May 2026) updates the Res. 1122/2019 procedures manual; I did not read its contents. Key contradiction: under Decreto 593/2019, operators handling ONLY List III substances are not required to register (abogados.com.ar summary; the Córdoba guidance explains the same rule with examples). All the solvents in the claim (methyl acetate, butyl acetate, cyclohexane, styrene, carbon tetrachloride) are new List III additions. So the claimed buyer (small paint, cleaning and workshop users of these solvents) does not gain a registration duty. Registered operators only have to add these substances to their declared inventory. Not verified: whether the new Annex II or Res. 424/2026 changed the List III exemption, and the quantity thresholds.",
+   "market": "More than 5,500 registered RENPRE operators with about 7,500 establishments (Misiones Online, 2023, quoting official data). These include large chemical firms, universities, public bodies and municipalities. I found no 2026 figure and no count of operators newly covered by the decree. The List I additions are mostly niche designer-drug precursors (e.g. 4-piperidone, P-2-P esters). 1,4-butanediol has some industrial use. The newly covered small-business population looks small.",
+   "reason": "The claim's premise is wrong. The solvents it names are List III, and under Decreto 593/2019, operators handling only List III substances do not have to register with RENPRE. That removes most of the claimed small-business buyers. The List I additions mainly affect a few specialised importers and labs. Firms that are already registered report through the free, mandatory state traceability system, and Veriquim plus consultants cover the gaps. The base is about 5,500 operators, many of them large or public. Decreto 128/2026 gave no compliance window, so there was no wave of deadline-driven sign-ups. One caveat: I did not read the text of the new Annex II or of Res. 424/2026, so I can't rule out that they changed the List III exemption.",
+   "searches": 5,
+   "sources": "https://www.argentina.gob.ar/normativa/nacional/norma-423619/texto ; https://www.marval.com/Publicacion/precursores-quimicos-se-actualiza-el-listado-del-renpre-17568 ; https://abogados.com.ar/registro-nacional-de-precursores-quimicos-nuevo-decreto-5932019/24432 ; https://www.cba.gov.ar/wp-content/4p96humuzp/2012/07/sal_farm_requisitos060111.doc ; https://www.ignacioonline.com.ar/resolucion-900-12-sedronar-rnpq/ ; https://www.argentina.gob.ar/normativa/nacional/norma-196943/texto ; https://misionesonline.net/2023/06/06/protocolo-contra-el-narcotrafico/ ; https://www.argentina.gob.ar/normativa/nacional/norma-425594/texto ; https://cda.org.ar/detalle_noticia.php?id=42508 ; https://www.argentina.gob.ar/seguridad/renpre",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b32"
+ },
+ "sonnet:argentina:A11": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty exists. SENASA Res. 979/1993 (art. 3 replaced by Res. 75/2004) requires veterinarias to archive signed prescriptions for 2 years to justify psychotropic outflows. A later SENASA resolution requires a rubricated entry/exit book, signed by the technical director. It also requires a semi-annual buyer list to the Colegio/Consejo. Provincial rules vary; for example, Buenos Aires Decreto 3046/87 sets official prescription pads from the Colegio. I did not check the current text, so whether it is in force today is unconfirmed. No software or free state tool was found, but I only ran two searches and did not look for vendors by name. Market size not found. The duty is thin: few shops stock psychotropics, the book is physical and rubricated, and rules differ by province. Digital acceptance is unclear. Low score.",
+   "searches": 2,
+   "sources": "https://e-legis-ar.msal.gov.ar/htdocs/legisalud/migration/pdf/3650.pdf ; https://www.argentina.gob.ar/normativa/nacional/norma-35971/texto ; https://normas.gba.gob.ar/documentos/047JLqh3.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b32"
+ },
+ "sonnet:argentina:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. SENASA Res. 679/2026 was published on 29 Jul 2026 and took effect on 30 Jul. Producers whose RENSPA entry or last update is over 1 year old must update within 90 calendar days. That puts the deadline around 27-28 Oct 2026, about 3 weeks from today. This date is my own count, not a figure printed in the sources. After the deadline the registration is blocked or removed, and Ley 27.233 sanctions may apply. I found no extension. The procedure is free and self-service (ARCA clave fiscal or SENASA office), and I found no software or gestoría doing it. It looks one-off, not recurring, and the window is too short to build a product. Market size was not found. The earlier Res. 255/21 automatic annual update for family farmers shows SENASA is trying to reduce this burden. Score stays low.",
+   "searches": 3,
+   "sources": "https://www.cira.org.ar/?p=25976 ; https://siap.blogdelcontador.com.ar/novedades/renspa-senasa-fija-90-dias-para-actualizar-los-datos-y-preve-la-baja-de-registros/ ; https://www.infocampo.com.ar/agricultores-familiares-tendran-la-actualizacion-anual-automatica-del-renspa/ ; https://bichosdecampo.com/estimado-ganadero-tenes-90-dias-para-actualizar-tu-informacion-en-el-renspa-antes-de-que-te-den-de-baja-por-que-tanto-apuro/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b32"
+ },
+ "sonnet:argentina:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. CABA requires owners or consorcio administrators to declare each lift in the Registro de Conservación de Elevadores. The QR sticker expires 31 Dec and is renewed by 31 Mar. The conservadora must validate or reject. The official page says the filing is free and online (miBA level 3) and lists no penalty. The city portal already does the core filing for free. I found no private software for it, but the workflow is a short annual form, so willingness to pay is low. The value would be reminders for administrators with many buildings, and the market is a niche confined to CABA. I did not check the market size, penalties or non-CABA rules. The \"1 search\" count below is approximate.",
+   "searches": 2,
+   "sources": "https://buenosaires.gob.ar/tramites/declaracion-de-elevadores-propietarios ; https://buenosaires.gob.ar/tramites/conservacion-y-mantenimiento-de-elevadores-alta-instalacion-validacion-empresas ; https://boletinoficial.buenosaires.gob.ar/normativaba/norma/228933",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b32"
+ },
+ "sonnet:argentina:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real and in force. UIF Res. 55/2024 (text read) covers the whole jewellery and precious-metal chain, including retailers. Obligations: monthly RSM (days 1-15) when monthly operations exceed 20 SMVM; annual RSA (2 Jan-15 Mar); ROS within 24h; biennial risk self-assessment (first due 30 Apr 2026); compliance officer registered in SRO+. Sanctions go through Ley 25.246 ch. IV. No size exemption, though proportionality applies. Competition: I found no jeweller-specific UIF software; the only free tool is the state SRO+ for filing. I did not check generic Argentine AML vendors, so the competition check is partial. Market size not found; the jeweller count is unverified. Pain is real, but buyers are tiny, the Argentine retail base is fragmented, and willingness to pay is low. Res. 54/2024 text was not opened.",
+   "searches": 3,
+   "sources": "https://www.argentina.gob.ar/normativa/nacional/norma-397648/texto ; https://www.marval.com/Publicacion/novedades-de-la-uif-sobre-sujetos-dedicados-a-la-compraventa-de-arte-joyas-y-bienes-suntuarios-16794 ; https://www.argentina.gob.ar/node/408570 ; https://siap.blogdelcontador.com.ar/novedades/la-uif-digitaliza-por-completo-la-registracion-de-sujetos-obligados-y-endurece-el-control-documental-en-el-sro/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b32"
+ },
+ "sonnet:argentina:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. IGJ RG 9/2026 (Boletín Oficial 2 Jul 2026) makes annual accounts filing digital through ARCA Clave Fiscal, with a ~30-day deadline after the assembly for asociaciones civiles (categories I-III) and 15 business days for fundaciones. It also adds an ultra-simplified regime for tiny clubs. I found no filing-specific competitor, only generic member-management tools such as Gestión Socios. Weak points: the state is digitising the filing itself, accountants handle it and are the real buyers, and the simplified regime shrinks the pain. Entity count not found. The technical circular on formats is pending. The donation and PEP/UIF claims were not verified. Provincial registries, halal and kosher bodies not checked.",
+   "searches": 4,
+   "sources": "https://www.boletinoficial.gob.ar/detalleAviso/primera/343932/20260702?busqueda=1 ; https://www.argentina.gob.ar/node/506446 ; https://abogados.com.ar/la-igj-dispuso-modificaciones-en-la-presentacion-de-estados-contables/39560 ; https://bruchoufunes.com/nuevo-regimen-digital-para-la-presentacion-de-estados-contables-ante-la-igj/ ; https://www.capterra.in/software/1238063/Gestion-Socios",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b32"
+ },
+ "sonnet:argentina:A9": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Ley 13.081 (BO 23/07/2003) is a real Buenos Aires province law. Decreto 1381/03 requires a book foliado y rubricado by the comisaría, plus a registry under the Ministerio de Seguridad. The Código de Faltas art. 87 is reported to fine omitted records, and unregistered shops face closure. I found no digital-book rule: the procedure is paper and police-gated, so software can't replace the book. I found no competing software. The 2018 bill to extend the law to used autoparts is unconfirmed as enacted. Each shop files once and then keeps the book, so frequency is low. No official count found. This is a low-value fit; the pain is small and the buyers are fragmented. Same mechanism as K06.",
+   "searches": 2,
+   "sources": "https://normas.gba.gob.ar/ar-b/ley/2003/13081/3788 ; https://normas.gba.gob.ar/documentos/VmM3NtlV.html ; https://normas.gba.gob.ar/ar-b/decreto/2003/1115/50488",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b32"
+ },
+ "sonnet:argentina:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: CIU within 48h (Res INV 3/2025), weekly CEC-01, annual CEC-05 within 6 weeks of last intake (Nov 2024 change; older text says 5). A court injunction in Dec 2025 suspended Res 37/2025, which had tried to eliminate the CIU, so the duty stands for now but the final ruling is unverified. The INV already provides free online filing (servicios.inv.gob.ar, Clave Fiscal), so the bridge only adds data entry convenience. The market is small: 1,220 registered wineries (895 producing) and about 20,900 vineyards, with about 15k growers in 2022. Harvest is seasonal. No API or batch upload was found, so an MVP is hard. Willingness to pay is likely low.",
+   "searches": 4,
+   "sources": "https://www.argentina.gob.ar/normativa/nacional/norma-408364/texto ; https://www.argentina.gob.ar/normativa/nacional/norma-345834/texto ; https://www.boletinoficial.gob.ar/detalleAviso/primera/316641/1 ; https://www.losandes.com.ar/economia/vitivinicultura-vargas-arizu-celebro-la-cautelar-mantener-el-ciu-n5974504 ; https://www.argentina.gob.ar/inv/principales-datos-vitivinicolas ; https://www.diariodecuyo.com.ar/noticias/declaraciones-juradas-del-inv-seran-gratuitas-1000044.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b32"
+ },
+ "sonnet:argentina:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Armerías must record firearm and main-part movements daily in the state SIGIMAC/MUCOM. Ammunition and special-materials dealers also keep official paper books and send quarterly reports to ANMaC. The reports are signed and stamped book copies plus an ASCII file. The next quarterly deadline is 15 October. I found no commercial armería software, and the state tool is free. The page I fetched lists no penalties. Weaknesses: the market is small, and I found no armería count (only a roughly 14,000 control targets figure for all categories). Paper books are still required, and the state tool already covers the daily record. ANMaC was converted into RENAR (Decreto 445/2025), which adds policy risk. The niche is a thin ASCII-export and book-printing helper with low willingness to pay.",
+   "searches": 2,
+   "sources": "https://www.argentina.gob.ar/registrar-operaciones-comerciales-de-municiones-y-material-de-uso-especial ; https://chequeado.com/el-explicador/el-gobierno-elimino-la-anmac-y-restablecio-el-renar-que-cambia-y-como-impacta-en-las-politicas-de-control-de-armas-de-fuego/ ; https://chequeado.com/el-explicador/radiografia-de-las-armas-en-la-argentina/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b32"
+ },
+ "sonnet:argentina:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Res MSAL 1780/2025 (BO 23/05/2025) repealed 3132/2024. Legal-entity permits last one year; third-party growers also get one year, and self-growers three. Legal entities must file semiannual sworn reports (plants, patients, genetic varieties), per-lot chromatographic reports, a user list with consents, and confidential records. Penalty is revocation or deregistration. I found no renewal procedure in the text, and no later amendments, though a search snippet hinted the text may have been updated in 2026. I found no Argentine software for this niche; the state portal handles only registration, so it doesn't do the compliance-file job. Weaknesses: the market is tiny (association count not found), the sector is politically precarious and under review, health data is sensitive, and buyers have little money. Competitor search was thin (one query).",
+   "searches": 2,
+   "sources": "https://www.argentina.gob.ar/normativa/nacional/norma-413121/texto ; https://www.boletinoficial.gob.ar/detalleAviso/primera/325794/20250523 ; https://allende.com/life-sciences/nuevo-regimen-de-acceso-al-cannabis-medicinal-08-26-2024/ ; https://argentina.gob.ar/sites/default/files/2025-02-instructivo_reprocann.pdf",
+   "suggested_score": 3,
    "verdict": "confirmed"
   },
   "tag": "w2b32"

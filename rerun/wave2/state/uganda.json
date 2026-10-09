@@ -1,0 +1,906 @@
+{
+ "discover:A:uganda": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed external-employment recruitment agencies (about 228 listed at 7 Apr 2026, after 275 licences were revoked in April 2026), plus applicants seeking a licence",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.pulse.ug/story/list-licenses-of-275-labour-export-companies-in-uganda-revoked-2026042013032509223 (revocation, 228 licensed at 7 Apr 2026); https://www.monitor.co.ug/uganda/oped/commentary/how-labour-export-has-been-streamlined-3881420 (EEMIS, S.I. 47 of 2022, 276 agencies); https://sanyufm.com/government-intensifies-campaign-on-safe-external-labour-migration/ (274 licensed); https://globallawexperts.com/how-to-recruit-workers-for-employment-abroad-uganda/ (EEMIS filing sequence)",
+     "existing": "Competitor search run (EEMIS + agency returns + software): found only the state EEMIS and trade association UAERA; no vendor tool for agencies seen",
+     "known_mark": "new",
+     "name": "External employment (labour export) agency compliance and EEMIS file desk",
+     "score": 4,
+     "status": "promising",
+     "trigger": "S.I. 47 of 2022 licensing (fee reportedly Shs2m per two years); contracts and supporting documents filed through EEMIS, pre-departure clearance and post-placement monitoring and record keeping (law-firm guide, secondary); mass revocation April 2026 for fraud and trafficking; February 2026 warning on unlicensed travel firms",
+     "unchecked": "Actual agency return forms and deadlines; whether EEMIS has an API or bulk upload; relicensing criteria after the revocations; whether agencies are mostly Kampala firms reachable via UAERA; the buyer pool is small (about 230)"
+    },
+    {
+     "buyer": "Licensed Tier 4 money lenders (894 institutions licensed at end 2020, mix of SACCOs, MFIs and lenders) and unlicensed lenders being pushed to regularise",
+     "category": "3. Second-hand dealers and pawnbrokers (adjacent: Tier 4 lenders)",
+     "evidence": "https://www.monitor.co.ug/uganda/business/finance/law-to-regulate-moneylenders-takes-effect-july-1706524; https://umra.go.ug/renewal-of-licenses-for-calendar-year-2024/ (renewal notice names SACCOs, moneylenders, non-deposit MFIs); https://umra.go.ug/umra-licenses-894-money-lending-institutions-as-the-regulator-closes-2020/; https://eagle.co.ug/2021/08/30/umra-to-track-down-unlicensed-money-lenders/",
+     "existing": "Competitor search not run; no money-lender-specific software seen",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "Money lender licence renewal and loan-register pack (UMRA)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Tier 4 Microfinance Institutions and Money Lenders Act 2016: licence required (s.84), annual renewal notices (e.g. calendar 2024), receipts and repayment records for every loan; UMRA enforcement against unlicensed lenders; Tier 4 lending conditions regulations 2024 in preparation",
+     "unchecked": "Whether money lenders file periodic returns (K04 covers SACCO quarterly returns; lender duties not confirmed); current licence count; PDF of the 2024 renewal notice; whether pawnbrokers exist as a regulated class"
+    },
+    {
+     "buyer": "Urban households employing house helps, cooks and gardeners; domestic-worker agencies",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://globallawexperts.com/ugandas-new-employment-law-what-every-worker-and-employer-should-know/ (single secondary source, commencement date unverified); https://www.pla-uganda.org/component/content/category/faq/workers/domestic-workers?start=12 (homes not inspected under the 2006 Act)",
+     "existing": "Competitor search not run",
+     "known_mark": "new",
+     "name": "Household employer contract and records kit under the Employment (Amendment) Act 2026",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Employment (Amendment) Act 2026 (assent 29 Apr 2026, in force 5 Jun 2026 per one article): covers households; casual status cannot last beyond 6 continuous months; written-contract and dismissal-notice rules",
+     "unchecked": "No authority collects filings from households and homes are hard to inspect, so there is no hard deadline or enforcement; official text of the 2026 Act and whether NSSF applies to households"
+    },
+    {
+     "buyer": "Daycare centres and nursery schools that run under-3 daycare (many informal Kampala and urban operators)",
+     "category": "20. Small licensed premises with inspections: nurseries, childminders",
+     "evidence": "https://www.pulse.ug/story/why-uganda-has-stopped-nursery-schools-from-doubling-as-daycare-centres-2026042717163790193; https://www.monitor.co.ug/uganda/news/national/what-it-takes-to-start-a-daycare-centre-in-uganda-5412026",
+     "existing": "Competitor search not run",
+     "known_mark": "new",
+     "name": "Daycare centre separate registration and inspection pack (ECCE policy 2026)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "2026 Early Childhood Care and Education policy separates daycare (under 3) from nursery; daycare needs its own registration, separate facility; government promised guidelines within 90 days of April 2026 (that window has passed by today)",
+     "unchecked": "Whether the guidelines and registration form were actually issued after the 90 days; which authority registers (MGLSD or Education); re-registration deadline; inspection frequency; number of operators"
+    },
+    {
+     "buyer": "Veterinary surgeons, about 3,700 unregistered para-professionals, clinics and veterinary drug shops",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://allafrica.com/stories/202605010204.html (372 vets, 998 paras, 11 clinics registered vs need 4,529 / 19,719 / 2,191); https://www.agriculture.go.ug/veterinary-practitioners-act-2024/; https://www.monitor.co.ug/uganda/news/national/1-500-veterinary-graduates-stuck-over-lack-of-licences-3909644",
+     "existing": "Competitor search not run; article mentions no online registration system",
+     "known_id": "K07",
+     "known_mark": "revive",
+     "known_note": "K07 was rejected as annual NDA/DVO licensing only. New evidence: 2024 Act adds a second regulator (Council) and first-time mandatory registration of paraprofessionals and clinics, with a large enforcement gap and 2026 fee dispute. Frequency still annual and the fee dispute may be suspended or reversed, so the revival is weak.",
+     "name": "Veterinary Council registration and licence renewal tracker for vets, paraprofessionals, clinics and vet drug shops",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Veterinary Practitioners Act 2024 creates the Uganda Veterinary Council and mandatory registration of all service providers (including paraprofessionals); annual licence fees raised April 2026 (Shs150k to 500k vets, 100k to 340k paras), petition against them; NDA inspection certification also required for vet outlets",
+     "unchecked": "Registration deadlines and penalties under the Act; whether fees were suspended; dispensing-register duty for vet drug shops; whether the Council runs an online portal"
+    },
+    {
+     "buyer": "Agro-input dealers and agrochemical shops (UNADA members); fumigators",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.swisscontact.org/en/news/raising-the-standard-for-ugandas-agro-dealers; https://www.monitor.co.ug/uganda/news/national/maaif-disposes-of-counterfeit-agro-inputs-worth-shs2b-4073160; https://nru.uncst.go.ug/handle/123456789/9478",
+     "existing": "Competitor search not run",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Agro-input dealer registration, premises and stock register for MAAIF inspections",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Agricultural Chemicals Control Act: MAAIF registers dealers, premises and fumigators; about 46% of dealers unregistered and 40% untrained; counterfeit input destruction drive (90 tonnes); certification training handed to MAAIF Nov 2024",
+     "unchecked": "Renewal cycle and any periodic returns or sales registers required; fertiliser law status (no 2025 fertiliser act confirmed); dealer count; overlap with NDA-style licensing"
+    },
+    {
+     "buyer": "Bank of Uganda licensed forex bureaus and money remitters",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.monitor.co.ug/uganda/news/national/city-forex-bureau-sues-bank-of-uganda-1757044; https://eagle.co.ug/2025/01/24/bou-declines-to-renew-empire-forex-bureaus-license/; https://archive.bou.or.ug/bou/bou-downloads/acts/other_acts_regulations/Guidelines-for-the-licensing-and-operation-of-Forex-Bureaus-and-Money-Remmittance-companies-2018.pdf",
+     "existing": "Competitor search not run; BoU may provide its own return templates or portal",
+     "known_mark": "new",
+     "name": "Forex bureau monthly returns and AML records tool",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Foreign Exchange Act 2004 and 2006 Regulations: monthly returns to BoU, record-keeping and AML; 2018 revocation for missed Nov/Dec returns; Jan 2025 non-renewal of Empire Forex; Foreign Exchange (Amendment) Bill 2023 proposed periodic returns and civil penalties",
+     "unchecked": "Number of licensed bureaus; whether the Amendment Bill passed; return format and any BoU portal; existing bureau back-office software"
+    },
+    {
+     "buyer": "Licensed drilling contractors and hydrogeological consultants (roughly 100 firms; count unverified); possibly abstraction-permit holders",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://www.monitor.co.ug/resource/blob/5597550/1b978b93e60420b70a75d763bf7e1388/min-water-registered-and-licensed-drilling-firm-data.pdf; https://leap.unep.org/en/countries/ug/national-legislation/water-resources-regulations-si-no-33-1998; https://rwsn.blog/2019/04/30/regulating-the-private-sector/",
+     "existing": "Competitor search not run",
+     "known_mark": "new",
+     "name": "Borehole drilling and hydrogeological firm annual permit and completion-report pack",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Water Resources Regulations (S.I. 33 of 1998 as amended): drilling permits and hydrogeological firm registration renewed each 1 July to 30 June; borehole completion reports to the Directorate of Water Resources Management; 2026/27 registered-firm notice published",
+     "unchecked": "Whether the 1998 regulations are repealed (LEAP marks consolidated version as repealed); current forms and fees; whether the ministry has an online permit system; firm count"
+    },
+    {
+     "buyer": "Registered NGOs, CBOs (district-level registration) and community associations",
+     "category": "17. Community and religious bodies: associations, charities",
+     "evidence": "https://mondaq.com/compliance/534224/quick-guide-to-establishing-and-operating-a-foreign-not-for-profit-organisation-ngo-in-uganda; https://cof.org/content/nonprofit-law-uganda; https://allafrica.com/stories/202601140260.html; https://news.fundsforngos.org/2026/03/24/proposed-ngo-funding-bill-in-uganda-sparks-civil-society-backlash/",
+     "existing": "Competitor search not run; many NGO accounting packages exist but none checked",
+     "known_mark": "new",
+     "name": "NGO and CBO annual permit and annual-returns pack",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "NGO (Amendment) Act 2024 (replaced 2016 Act per one source): annual permit renewal, audited financial statement and annual returns within 6 months of year end; CBOs renew annually through District NGO Monitoring Committees; NGO Bureau suspensions January 2026; NGO Funding Bill 2026 proposed",
+     "unchecked": "Current Act text and deadlines; number of CBOs; willingness to pay is low; political risk and NGO Bureau legitimacy dispute (August 2026 petition)"
+    },
+    {
+     "buyer": "National sports federations and associations (dozens)",
+     "category": "17. Community and religious bodies: associations, charities",
+     "evidence": "https://nbssport.co.ug/article/uganda-sports-organisations-on-notice-as-june-deadline-nears (25 May 2026)",
+     "existing": "Competitor search not run",
+     "known_mark": "new",
+     "name": "National sports organisation compliance file (National Sports Regulations 2025)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "National Sports Act Cap 151 and National Sports Regulations 2025; National Council of Sports compliance deadline 7 June 2026 (no extension); recognition certificates revoked for non-compliant bodies; audited accounts, lawful elections, constitution alignment",
+     "unchecked": "Whether annual or one-off; clubs not covered; buyer pool very small"
+    },
+    {
+     "buyer": "Small workplaces, workshops and premises needing an OSH certificate",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://bills.parliament.ug/attachments/Laws of Uganda (Acts) - THE OCCUPATIONAL SAFETY AND HEALTH ACT, 2006.pdf; https://www.kaa.co.ug/wp-content/uploads/2022/08/KAA-workplace-registered-compliant.pdf",
+     "existing": "Competitor search not run",
+     "known_mark": "new",
+     "name": "Workplace registration and incident register service under the OSH Act",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Occupational Safety and Health Act 2006: workplace registration with the MGLSD Commissioner, renewable every 3 years (secondary source), incident register and inspection checklist; occupying a workplace without a certificate is an offence",
+     "unchecked": "Renewal interval confirmed only by a law-firm article; any lift, boiler or pressure-vessel examination schedule not found; generic compliance risk; enforcement intensity; online registration"
+    },
+    {
+     "buyer": "Licensed cattle traders and livestock transporters, district veterinary offices",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://ulii.org/akn/ug/act/ord/1943/12; https://www.wikiprocedure.com/index.php/Uganda_-_Applying_for_Animal_Registration_permit_(local_animal_movement_permit); https://kfm.co.ug/traders-stuck-with-cattle-after-ban-on-animal-movement-in-northern-uganda",
+     "existing": "Competitor search not run",
+     "known_mark": "new",
+     "name": "Cattle trader licence and livestock movement permit tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Cattle Traders Act (Cap 43): licence per area from a veterinary officer; Animal Diseases (Restriction of Movement of Cattle) Rules: movement permits via DVO, no night movement, district bans",
+     "unchecked": "Permit fee about Shs1,000 and issued by hand at the district; fragmented district control; no e-permit system confirmed"
+    },
+    {
+     "buyer": "Kampala cesspool emptiers (about 27, older study) and waste collection firms",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://fin.parliament.go.ug/news/495/sanitation-operators-petition-parliament-over-multiple-fees; https://afrik21.africa/en/uganda-nema-chooses-six-companies-to-manage-faecal-sludge-in-kampala; https://www.kcca.go.ug/news/192/festival",
+     "existing": "Competitor search not run",
+     "known_mark": "new",
+     "name": "Pit emptier and sanitation hauler licence consolidation",
+     "score": 2,
+     "status": "weak",
+     "trigger": "NEMA waste transporter licence under the 1999 Waste Management Regulations, KCCA service fees, NWSC disposal fees, trading licence; 2023 petition to Parliament over multiple fees; NEMA appointed six faecal sludge companies on one-year terms",
+     "unchecked": "Buyer pool tiny; current licence cycle unknown"
+    },
+    {
+     "buyer": "Boda boda stage associations and riders in Kampala and other cities",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi",
+     "evidence": "https://www.monitor.co.ug/uganda/news/national/govt-issues-deadline-for-boda-boda-registration-3717166; https://www.monitor.co.ug/uganda/news/national/unregistered-boda-boda-riders-banned-from-city-3953426; https://www.pulse.ug/business/boda-boda-riders-say-shs75000-for-registration-training-exercise-is-too-high/l28b10v",
+     "existing": "Competitor search not run",
+     "known_mark": "new",
+     "name": "Boda boda rider and stage association registration",
+     "score": 2,
+     "status": "weak",
+     "trigger": "KCCA rider registration with IDs, stage recommendation letters and training fees (2022 census, deadline 16 Sep 2022); unregistered riders banned from the city; court challenge by the Lord Mayor",
+     "unchecked": "No 2025 or 2026 data found; rider-level payments are small; state-run registration may supersede private tools"
+    },
+    {
+     "buyer": "Butchers and small slaughter facilities, starting with Kampala",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://www.kcca.go.ug/uploads/acts/Kcc Meat Ordinance,2006.pdf; https://publicisteastafrica.com/ministry-of-agriculture-steps-up-measures-to-ensure-meat-safety-ahead-of-eid-adha-celebrations/; https://www.foodbusinessmea.com/unbs-implements-stringent-measures-to-enhance-meat-quality-in-uganda/",
+     "existing": "Competitor search not run",
+     "known_mark": "new",
+     "name": "Butchery and slaughterhouse hygiene and licence compliance records",
+     "score": 2,
+     "status": "weak",
+     "trigger": "KCC (Meat) Ordinance 2006 licensing of slaughterhouses and butchers; UNBS US 736:2019 butchery hygiene; June 2025 MAAIF plan for national slaughter facility guidelines and inspection kits",
+     "unchecked": "Whether guidelines were issued; no periodic return identified; whether a Meat Bill exists (none found)"
+    },
+    {
+     "buyer": "Licensed driving schools (list published by the Ministry of Works and Transport, updated Feb 2026)",
+     "category": "20. Small licensed premises with inspections: driving schools",
+     "evidence": "https://www.pulse.ug/story/list-of-approved-driving-schools-in-uganda-2026020608093551640; https://monitor.co.ug/uganda/news/national/driving-schools-face-tighter-controls-4346492; https://wikiprocedure.com/index.php/Uganda_-_Apply_for_Driving_school_Licence",
+     "existing": "Competitor search not run",
+     "known_mark": "new",
+     "name": "Driving school and instructor licence file",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Traffic and Road Safety (Driving Schools and Driving Instructors) Regulations: school and instructor licences (Form 11), completion certificates required before the driving test; tighter controls reported",
+     "unchecked": "Renewal cycle and learner records requirement; number of schools; whether the Ministry runs an online driver licensing portal that already covers learners"
+    },
+    {
+     "buyer": "n/a",
+     "category": "2, 5 and 16 (scrap metal; used car parts; cemeteries and funeral services)",
+     "evidence": "Searches returned only Kenyan and other-country regimes for scrap metal; no dealer registration or used-parts excise found (https://www.monitor.co.ug/uganda/business/auto/why-we-all-need-used-car-parts-3327724); funeral and burial only a KCCA planning approval note (https://www.monitor.co.ug/uganda/news/national/kcca-to-clear-justice-kanyeihamba-burial-5128204)",
+     "existing": "None checked",
+     "known_mark": "new",
+     "name": "Scrap metal, used car parts, funeral and cemetery operators",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "No Uganda-specific licensing regime or periodic register found for these groups",
+     "unchecked": "Local council by-laws, Hoima scrap trade ban details, Public Health Act burial regulations; not worth further searches at this stage"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Employment (Amendment) Act 2026 (signed 29 Apr 2026, in force 5 Jun 2026 per one law-firm article, globallawexperts.com) now covers households employing house helps, cooks, gardeners; casual status capped at 6 months. No registration or filing authority for households found; 2006 Act treated homes as uninspectable (PLA Uganda). NSSF employer definition does not clearly name households (unverified). One candidate, weak.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No Uganda licensing regime found; only a local Hoima city security-committee ban/lifting on scrap trade (undated). Results dominated by Kenya. Nothing usable.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No pawnbroker or second-hand dealer regime found. UMRA Tier 4 categories named are SACCOs, non-deposit MFIs, self-help groups and money lenders; pawnbrokers not mentioned. Money lenders listed as a candidate (adjacent to K04).",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "nothing new beyond K03 (no search spent, per rule on known ideas)",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Kisekka/Ndeeba/Katwe used-parts trade is informal; no dealer registration, register or excise duty on used parts found. Vehicle import rules (US845 PVoC, URA warehousing age limits) concern importers, not parts dealers. Nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Cattle Traders Act (Cap 43, 1943): licence from the veterinary officer per area, register kept by the Commissioner; Animal Diseases movement rules (night movement ban, district bans) and DVO movement permits per consignment. Paper, district-level, low fees. Weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "KCC (Meat) Ordinance 2006 licenses slaughterhouses, butchers, meat transporters; UNBS US 736:2019 butchery hygiene standard; MAAIF announced June 2025 national guidelines for slaughter facilities and 1,200 inspection kits. No periodic return or register software need confirmed. Weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No search spent (budget used on higher-yield categories).",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Veterinary Practitioners Act 2024 creates the Uganda Veterinary Council and registers para-professionals and clinics; April 2026 petition against fee hikes (vets Shs150k to 500k, paras Shs100k to 340k). Only 372 vets, 998 paras and 11 clinics registered against need of 4,529, 19,719 and 2,191 (allafrica 1 May 2026). Revisit of K07 listed.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Water Resources Regulations: drilling permits and hydrogeological firm registration are annual (1 Jul to 30 Jun), with borehole completion reports; the ministry's 2026/27 registered-firm notice exists. Small buyer pool. Abstraction-permit holder returns unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Pit emptiers pay NWSC disposal fees, NEMA operational licence, KCCA service fees and trading licences; 2023 petition to Parliament over multiple fees. About 27 cesspool operators in Kampala (older study). Very small buyer pool. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "OSH Act 2006: all workplaces must be registered with the MGLSD Commissioner, certificate renewable every 3 years (secondary source). No lift/boiler examination interval found. Generic OSH candidate recorded as unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Six regional Umbrella Authorities manage about 380 towns; tariffs approved by the Ministry of Water and Environment; rural water user committees set tariffs informally. Buyers are umbrella bodies (state-linked), not small private firms. Nothing sellable found.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Agricultural Chemicals Control Act: MAAIF keeps registers of chemicals, dealers, premises and fumigators; about 46% of agro-input dealers unregistered and about 40% untrained; counterfeit-input destruction drive; UNADA association. No 2025 fertiliser law confirmed. Candidate recorded.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "External employment agencies: S.I. 47 of 2022; EEMIS filing; 275 licences revoked April 2026, 228 listed as licensed at 7 Apr 2026; licence fee Shs2m per two years (one 2024 report). Strongest group-A lead.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "No undertaker licensing found; KCCA says city burials need Physical Planning Committee approval under the Public Health Act. Nothing usable.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "NGO (Amendment) Act 2024 replaced the 2016 Act; annual permit renewal and annual returns with audited accounts; CBOs registered at district level; NGO Bureau suspended groups in January 2026; NGO Funding Bill 2026 proposed. National Sports Regulations 2025 compliance deadline 7 June 2026 for national sports organisations. No halal supervision data found.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Boda boda registration is run by KCCA with rider IDs, stage letters and training fees (2022 data); litigation and fee disputes; no 2025 data found. Rider-level, low willingness to pay. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Forex bureaus: Foreign Exchange Act 2004 and 2006 Regulations require record-keeping, monthly returns and AML duties; BoU revoked a bureau in 2018 for missed returns and declined an Empire Forex renewal in Jan 2025. Market traders and street vendors not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "2026 ECCE policy bars nurseries from running daycare under the same licence; separate daycare registration promised within 90 days (pulse.ug, 27 Apr 2026). Driving schools licensed by the Ministry of Works and Transport (list updated Feb 2026). Tattoo studios, small food producers and hunting outfitters not searched.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 7,
+   "queries": [
+    "Uganda scrap metal dealers regulation licence 2025 registration",
+    "Uganda boda boda riders registration KCCA permit SACCO digital 2025",
+    "Uganda Ministry of Water water abstraction permit borehole drillers registration",
+    "Uganda external employment recruitment agencies licence returns labour export 2025",
+    "Uganda pesticide agro-input dealers registration MAAIF Fertilizer Act 2025",
+    "Uganda Animal Diseases livestock movement permit traders markets cattle traders registration DVO",
+    "Uganda veterinary practitioners Veterinary Council registration annual practising certificate vet drug shops",
+    "Uganda NGO Bureau annual returns permit renewal community based organisations deadline 2026",
+    "Uganda KCCA childcare centres nursery licensing inspection requirements Children Act",
+    "Uganda sanitation waste collectors NEMA waste transporter licence cesspool emptier registration",
+    "Uganda domestic workers house helps employers registration NSSF Employment Act maids contract 2025",
+    "Uganda abattoir butcheries licensing meat inspection Meat Act Bill Uganda 2025 slaughterhouse",
+    "Uganda driving schools licence Ministry of Works Transport registration driving instructors UNBS standard",
+    "Uganda Occupational Safety and Health Act workplace registration lifts boilers pressure vessels inspection annual certificate",
+    "Uganda second-hand motor vehicle spare parts dealers Kisekka market registration URA excise used parts",
+    "Uganda money lenders licence UMRA Tier 4 Microfinance Institutions and Money Lenders Act pawnbrokers returns",
+    "Uganda forex bureau licence Bank of Uganda small money changers Foreign Exchange Act returns",
+    "Uganda water user associations rural piped water scheme operators Water and Sanitation Authority umbrella reporting tariffs",
+    "Uganda funeral homes cemetery burial permit regulation public health undertakers licence",
+    "EEMIS External Employment Management Information System Uganda recruitment agencies software returns placement reporting"
+   ],
+   "searches": 20
+  },
+  "tag": "w2b31"
+ },
+ "discover:B:uganda": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small employers of any size (factories, workshops, schools, clinics, hotels, contractors), via consultants or OSH practitioners",
+     "category": "31. Occupational Safety and Health (Amendment) Act 2025",
+     "evidence": "https://www.ktaadvocates.com/wp-content/uploads/2025/10/KTA-LEGAL-ALERT-ON-OSH-ACT.pdf ; https://www.kaa.co.ug/?p=12709 ; https://www.ktaadvocates.com/uganda-expands-workplace-safetyobligations-under-the-occupationalsafety-and-health-amendment-act2025/",
+     "existing": "None seen. Competitor search not run (budget used up).",
+     "known_mark": "new",
+     "name": "OSH Amendment Act 2025 compliance pack for small employers (safety committee, incident and accident register, audits, health surveillance plan)",
+     "score": 5,
+     "status": "promising",
+     "trigger": "OSH (Amendment) Act No. 20 of 2025 in force 25 July 2025: all workplaces covered; s.20A notification of accidents and incidents; s.46 risk assessments and annual audits; s.20(2)(a) health surveillance plan to the Commissioner. Registration certificate comes with an incident register.",
+     "unchecked": "Whether regulations, forms or fees have been issued; enforcement activity so far; local OSH software or consultants; how many workplaces are registered; Ministry portal. Duties may stay vague until regulations arrive."
+    },
+    {
+     "buyer": "Small businesses, NGOs, clinics, schools, SACCOs, lenders that hold personal data",
+     "category": "32. Data Protection and Privacy Act 2019",
+     "evidence": "https://www.afriwise.com/blog/beat-the-data-protection-registration-deadline ; https://afmpanga.com/compliance-with-registration-and-annual-compliance-report-under-the-data-protection-and-privacy-act-cap-97/ ; https://www.dlapiperafrica.com/en/uganda/insights/2025/CLIENT-ALERT",
+     "existing": "Law-firm advisory notes and the PDPO online portal (free state tool). Competitor search not run.",
+     "known_mark": "new",
+     "name": "PDPO registration, renewal tracker and annual compliance report service for small data controllers",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Data Protection and Privacy Act 2019 s.29 and Regulations 2021 reg.15: register and renew yearly; annual compliance report listing complaints and breaches about 90 days after financial year end. Enforcement from Dec 2022; 2025 enforcement order against Google.",
+     "unchecked": "Number of registered entities; whether small firms really comply; PDPO fees; whether a paid reminder or compliance-report product already exists. Risk: the portal is simple, so willingness to pay may be low."
+    },
+    {
+     "buyer": "Dealers and artisanal or small-scale miners of tin, tungsten, gemstones, sand, stone and similar minerals (distinct from gold buyers)",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "https://globallawexperts.com/how-to-register-as-a-mineral-dealer/ ; https://globallawexperts.com/mining-law-uganda/ ; https://www.pulse.ug/story/miners-start-exodus-to-new-mining-laws-and-regulations-2024073111030946429",
+     "existing": "MCRS portal (state). Competitor search not run.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "Mineral dealer licence and purchase register for construction-mineral, sand, quarry and artisanal-mineral dealers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Mining and Minerals Act 2022 and Licensing Regulations 2023: any buyer, seller, dealer or exporter needs a Mineral Dealer's Licence via MCRS; the Mines Commissioner has urged all dealers, artisanal miners and transporters to register.",
+     "unchecked": "Whether construction minerals are really covered; returns and reporting duties; record formats; number of dealers. Sources are practitioner guides, not the regulations."
+    },
+    {
+     "buyer": "Small hotels, guest houses, lodges, hostels and homestays",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.monitor.co.ug/uganda/news/national/tourism-board-hotel-owners-lock-horns-over-new-licences-4799696 ; https://ugandaradionetwork.net/story/20-accommodation-facilities-closed-for-non-compliance ; https://www.tourismupdate.com/article/uganda-clamps-down-on-unlicensed-accommodation",
+     "existing": "UTB online licensing portal (state). Competitor search not run.",
+     "known_mark": "new",
+     "name": "Tourism operating licence renewal and minimum-standards tracker for guest houses and lodges",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Tourism Act 2008 ss.13-14 and 2014 Accommodation Regulations: UTB licence required; closures of unlicensed facilities began 18 Nov 2024 with Police (20 sealed); inspections cover hygiene and sanitation.",
+     "unchecked": "No guest-register or levy duty found; annual fee about UGX 200,000 unconfirmed; the portal makes licensing easy, so the duty is annual only."
+    },
+    {
+     "buyer": "Small licensed private security organisations (about 160-200 licensed) and the firms that hire guards",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://www.citizen.digital/news/should-private-security-guards-have-guns-sobering-lessons-from-uganda-228854 ; https://eagle.co.ug/2026/03/09/police-releases-list-of-licensed-private-security-firms-and-gun-dealers-for-2026 ; https://allafrica.com/stories/202603300773.html ; https://www.monitor.co.ug/uganda/news/national/police-cancel-licences-for-40-private-security-firms--1837546",
+     "existing": "None seen. Competitor search not run.",
+     "known_mark": "new",
+     "name": "Private security organisation guard register, annual guard re-registration and Police licence pack",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Police (Control of Private Security Organisations) rules 2013: guards must be registered with Police before hire and renewed yearly; PSO licence from the IGP; Police-supervised guard training (2026 change); annual list of licensed PSOs.",
+     "unchecked": "Exact Police forms and renewal dates; fee levels; whether Police run an online system; number of small PSOs; guard-payroll tools already used. Regulator is also a competitor in the sector, which may sour relations."
+    },
+    {
+     "buyer": "Licensed and unlicensed money lenders (a different buyer from SACCOs)",
+     "category": "36. Money lenders under the Tier 4 Act 2016 (also 23. Co-operatives)",
+     "evidence": "https://umra.go.ug/renewal-of-licenses-for-calendar-year-2024/ ; https://umra.go.ug/?p=122 ; https://newvision.co.ug/category/news/umra-to-start-enforcement-operations-against-NV_190583",
+     "existing": "None seen. Competitor search not run.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "Money-lender licence renewal and register pack",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Tier 4 Microfinance Institutions and Money Lenders Act 2016 s.84 and s.89 (interest cap); UMRA annual licence renewal and enforcement against unlicensed lenders.",
+     "unchecked": "Returns frequency and forms; number of licensed lenders; whether the interest-cap rule is currently enforced; UMRA PDF notice not read."
+    },
+    {
+     "buyer": "Drug shops, pharmacies and allied health professionals running outlets",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals",
+     "evidence": "https://www.clearhq.org/news/uganda-clarity-on-authority-to-license-drug-shops-7-1-26 ; https://allafrica.com/stories/202606260032.html ; https://bills.parliament.ug/attachments/HEA3-26-Report on the National Drug and Health Products Authority Bill,2025.pdf ; https://pmc.ncbi.nlm.nih.gov/articles/PMC7027211",
+     "existing": "None seen. Competitor search not run.",
+     "known_id": "K07",
+     "known_mark": "revive",
+     "name": "NDA drug-outlet licensing change and dispensing and controlled-drug register for drug shops and pharmacies",
+     "score": 3,
+     "status": "weak",
+     "trigger": "June-July 2026 Ministry of Health directive: NDA alone licenses drug outlets; AHPC must stop. National Drug and Health Products Authority Bill 2025 / Act 2026 replaces Cap 198. Pharmacies must keep dispensing and controlled-prescription books; 49 of 100 sampled pharmacies had a controlled-drugs book.",
+     "unchecked": "Whether the 2026 Act was actually enacted and what register or return duties it adds; NDA inspection frequency; existing pharmacy software. K07 note said dispensing-register software was never researched; this is only a regime change, not yet a new recurring duty."
+    },
+    {
+     "buyer": "Small law, notary and accounting offices; possibly real estate agents",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals",
+     "evidence": "https://www.fia.go.ug/sites/default/files/downloads/Signed_FIA_Uganda_Online_Registration_Guidelines-Final_(Jan_2024).pdf ; https://fia.go.ug/goaml/ ; https://fia.go.ug/?p=568",
+     "existing": "FIA goAML portal (free state system). Competitor search not run.",
+     "known_mark": "new",
+     "name": "FIA goAML registration, STR and large-cash-transaction reporting service for small designated professionals (advocates, notaries, accountants, possibly agents)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Anti-Money Laundering Act 2013 (as amended): register on goAML (only route), appoint an MLCO, file STRs and LCTRs, notify changes within 15 days; failure to register is an offence (s.133, s.136(2)).",
+     "unchecked": "Whether real estate agents are accountable persons (not seen); FIA's Second Schedule in full (guidelines PDF returned 503); the volume of STRs from small firms; FIA inspection and penalty activity. The same duty could extend to betting shops and gold buyers."
+    },
+    {
+     "buyer": "Small and mid-sized manufacturers of water, soda, spirits, beer, sugar, cooking oil and similar goods (about 1,680 firms registered)",
+     "category": "35. Excise Digital Tax Stamps (URA)",
+     "evidence": "https://www.monitor.co.ug/uganda/business/markets/tax-red-flags-that-will-put-businesses-in-trouble-in-2026-27-5594104 ; https://www.monitor.co.ug/uganda/business/markets/1-680-manufacturers-importers-now-using-digital-stamps-says-ura-5596318 ; https://allafrica.com/stories/202509300530.html",
+     "existing": "SICPA Uganda portal and URA systems; accounting packages. Competitor search not run.",
+     "known_mark": "new",
+     "name": "Digital Tax Stamp reconciliation (stamps ordered vs produced vs sold) for small excisable-goods manufacturers",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Excise rules require digital tax stamps. URA's 2026/27 risk areas include mismatches between stamped quantities and declared production or sales; government expects an extra UGX 267b from wider enforcement.",
+     "unchecked": "Whether a reconciliation tool is already offered; the stamp ordering and return process; which products are in scope today; real small-firm count. Overlaps with the EFRIS area (K01/K05), so check for duplication."
+    },
+    {
+     "buyer": "Retail betting shops and small gaming operators",
+     "category": "33. Betting, casinos and lotteries",
+     "evidence": "https://altenar.com/blog/gambling-laws-and-regulations-in-uganda-licensing-compliance-and-market-reality/ ; https://allafrica.com/stories/202607230035.html ; https://eagle.co.ug/2026/01/07/melbet-exits-ugandan-market-after-gaming-board-withdraws-its-license/",
+     "existing": "NLGRB e-licensing portal (state). Competitor search not run.",
+     "known_mark": "new",
+     "name": "Betting-shop and small gaming operator compliance pack (NLGRB licence, FIA reporting, responsible-gaming records)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Lotteries and Gaming Act: calendar-year licences, 2025 Responsible Gaming Directives, MLCO appointment and suspicious transactions reported within 2 working days; July 2026 plan to raise penalties.",
+     "unchecked": "Details come from vendor blogs, not the regulator; operator count and size; likely mostly foreign-owned platforms that already have systems."
+    },
+    {
+     "buyer": "49 licensed brokers, 33 loss adjusters or risk advisors, 22 bancassurance agents",
+     "category": "34. Insurance intermediaries (IRA)",
+     "evidence": "https://ira.go.ug/144-players-set-to-drive-insurance-business-in-2026/ ; https://globallawexperts.com/ira-esg-guidelines-uganda/",
+     "existing": "Not checked. Competitor search not run.",
+     "known_mark": "new",
+     "name": "Insurance broker, loss adjuster and agent regulatory returns pack",
+     "score": 3,
+     "status": "weak",
+     "trigger": "IRA annual licensing (2026 list effective 2 Jan 2026), regulatory returns forms, 2026 ESG guidelines for intermediaries.",
+     "unchecked": "Return forms and deadlines (not retrieved); market is very small (about 100 firms), which limits revenue."
+    },
+    {
+     "buyer": "Independent retail fuel station owners (about 5,100 stations)",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://infrastructure.go.ug/government-to-tighten-up-on-fuel-stations-that-dont-comply ; https://allafrica.com/stories/202603310294.html ; https://monitor.co.ug/uganda/news/national/fuel-stations-disguising-to-avoid-closure-over-noncompliance-unbs-4722056",
+     "existing": "Not checked. Competitor search not run.",
+     "known_mark": "new",
+     "name": "Petroleum retail station compliance records (siting, canopy, fuel-marking and quality monitoring)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Petroleum Supply Act and Petroleum Supply (Amendment) Act 2023; MEMD and UNBS Fuel Marking and Quality Monitoring Programme; closure campaigns for non-compliance; 10% of product value fine for adulteration.",
+     "unchecked": "No recurring report found that the owner must file; licence terms and renewal cycle not found; most compliance is physical (siting, canopy), not data. Large OMC networks dominate."
+    },
+    {
+     "buyer": "Private and public warehouse keepers handling agricultural commodities",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://www.ecolex.org/details/legislation/warehouse-receipt-system-regulations-2007-si-no-33-of-2007-lex-faoc145742/ ; https://old.ulii.org/ug/legislation/statutory-instrument/2007/33 ; https://core.ac.uk/works/99185032",
+     "existing": "Not checked. Competitor search not run.",
+     "known_mark": "new",
+     "name": "Warehouse Receipt System licence and stock-record compliance for licensed warehouse keepers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Warehouse Receipt System Act 2006 and Regulations 2007: licensed warehouses, keepers and inspectors; written deposit contracts; negotiable receipt books; bonding and insurance.",
+     "unchecked": "Whether the system is active today (a study said the state wants to reinstate it, focusing on an electronic WRS); current licensee count; return duties."
+    },
+    {
+     "buyer": "Local firms supplying oil and gas projects (1,752 registered entities in 2018)",
+     "category": "27. Construction, mining and quarry contractors and suppliers (local-content)",
+     "evidence": "https://ugandaradionetwork.net/story/petroleum-authority-compiles-new-supplier-database ; https://www.monitor.co.ug/uganda/business/prosper/1-000-firms-fit-to-supply-in-oil-chain-1820080",
+     "existing": "PAU database (state). Competitor search not run.",
+     "known_mark": "new",
+     "name": "Oil and gas supplier National Suppliers Database registration and annual update support",
+     "score": 2,
+     "status": "weak",
+     "trigger": "PAU rules: vendors to oil companies must be on the National Suppliers Database, which PAU said it would refresh annually; local content plans under Petroleum Acts 2013.",
+     "unchecked": "Current NSD cycle, fees and count; sources are 2017-2019; buyers are mostly mid-size firms that already use consultants."
+    },
+    {
+     "buyer": "Small industrial and construction developers subject to NEMA audits",
+     "category": "37. Environmental audits and compliance (NEMA)",
+     "evidence": "https://budget.finance.go.ug/sites/default/files/Sector%20Spending%20Agency%20Budgets%20and%20Performance/National%20Environment%20Management%20Authority_27.pdf",
+     "existing": "Not checked. Competitor search not run.",
+     "known_mark": "new",
+     "name": "NEMA environmental audit and improvement-notice response support for small factories and developers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "NEMA reviewed 2,086 audit documents and issued 283 improvement notices in FY2025/26; 208 criminal cases from 188 operations.",
+     "unchecked": "The recurring filing duty for small firms (audit frequency, forms); consultancy-heavy, so software hook is unclear."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "About 5,118 retail stations in the FQMP database (June 2024). Petroleum Supply (Amendment) Act 2023 appears enacted (NOC monopoly on imports). Enforcement targets siting breaches (road reserves, canopy space, spacing), stations rebranding to dodge closure, and a 10% fuel-adulteration fine (UNBS/MEMD, March 2026). No Ugandan LPG distributor licensing rules found (searches returned Kenya EPRA only); LPG licensing details are unverified. Weak candidates only (C09).",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Warehouse Receipt System Act 2006 and 2007 Regulations: licensed public and private warehouses, keepers and inspectors, bonding and insurance. Current licensing and return duties, and UCDA buyer returns, could not be confirmed. Coffee EUDR is already K02/K06. One weak unverified candidate (C10).",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "SACCO returns are K04. Money lenders are licensed under the same Tier 4 Act 2016 (s.84), so they are a different buyer group (C06). The UMRA 2024 renewal notice gives no deadline or returns detail; the PDF behind it was not read.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "The National Health Insurance Scheme Bill has not become law: passed by Parliament in 2021, withdrawn, revised version awaiting Cabinet in 2025, being repackaged in April 2026. No state-scheme claims duty exists to build for yet. Nothing new; watch for NHIS enactment.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "The National Drug and Health Products Authority Bill 2025 would replace the NDP&A Act Cap 198. A June 2026 Ministry of Health letter says the NDA alone licenses drug outlets and the Allied Health Professionals Council must stop licensing drug shops; allied health professionals now need NDA premises approval. Import returns for narcotics are due within 30 days (2014 Regulations). A compliance study found only 49 of 100 pharmacies had a controlled-drugs book. Revive lead on K07 (C07).",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Private security organisations need an IGP licence under the Police (Control of Private Security Organisations) rules 2013. Guards must be registered with Police before hire and renewed yearly. Police publish an annual list of licensed PSOs and gun dealers (2026 list issued March 2026). Police took over guard training in March 2026. The industry body TUPSA complains of heavy fees. Estimated 50,000-82,000 guards. Cleaning and manpower agencies: nothing found (C05).",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Mining and Minerals Act 2022 (in force 13 Oct 2022) and Licensing Regulations 2023 create small-scale and artisanal licences. A mineral dealer licence is needed for any mineral, including construction minerals, via the MCRS portal. Returns and sand/quarry duties not confirmed. PAU National Suppliers Database (oil and gas suppliers): 1,752 registered entities in 2018, annual refresh; current status unknown. Candidates C03 and C11.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "FIA Online Registration Guidelines (Jan 2024): goAML is the only registration route. Second Schedule includes advocates, notaries and accountants; real estate agents not confirmed in the excerpt seen. Duties: MLCO, STRs and LCTRs on goAML, change notifications within 15 days. The FIA guidelines PDF returned a 503 when fetched. Candidate C08.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Uganda Tourism Act 2008 (ss.13-14) and Registration and Licensing of Tourist Accommodation Regulations 2014. Annual operating licence (about UGX 200,000, fee unconfirmed). UTB began closing unlicensed facilities on 18 Nov 2024 with Police; 20 sealed. No guest-register or levy duty found. No 'Tourism Act 2022' exists. Candidate C04 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Fish: Department of Fisheries Resources is the competent authority; exporters must be HACCP-compliant (only about 9 established processors), so the buyer base is too small. Timber export needs a forestry licence (NFTPA s.44); illegal timber and DRC trade is a live issue but no registry or software hook found. Coffee is K02/K06. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Occupational Safety and Health (Amendment) Act 2025: all workplaces",
+     "found": "Act No. 20 of 2025, in force 25 July 2025, removes the 20-employee threshold. Duties: safety committees and officers, workplace health surveillance plan approved by the Commissioner, notification of accidents and disease outbreaks (s.20A), risk assessments, annual audits (s.46), medicals, certified operator training. Regulations are not yet enacted. Workplace registration with the Commissioner already exists (C01).",
+     "status": "screened"
+    },
+    {
+     "category": "32. Data Protection and Privacy Act 2019: PDPO registration and annual compliance report",
+     "found": "Every data collector, controller and processor must register and renew yearly (renewal fee about UGX 100,000 per a 2025 summary). Enforcement from Dec 2022; Google was ordered to register in 2025. Annual compliance report due about 90 days after financial year end (sources conflict). Offence: fine or up to 3 months in prison (C02).",
+     "status": "screened"
+    },
+    {
+     "category": "33. Betting, casinos and lotteries (National Lotteries and Gaming Regulatory Board)",
+     "found": "Lotteries and Gaming Act: e-licensing, calendar-year licences, 2025 Responsible Gaming Directives, FIA MLCO and STR duties. MelBet licence withdrawn Jan 2026. A July 2026 five-year plan proposes tougher penalties. Betting-shop specifics come from vendor blogs only (C12).",
+     "status": "screened"
+    },
+    {
+     "category": "34. Insurance intermediaries (Insurance Regulatory Authority)",
+     "found": "IRA list for 2026: 144 players, including 49 brokers, 33 loss adjusters or risk advisors and 22 bancassurance agents. A 'Regulatory Returns Forms' page exists but its contents and deadlines were not retrieved. Small buyer count (C13).",
+     "status": "screened"
+    },
+    {
+     "category": "35. Excise Digital Tax Stamps (URA)",
+     "found": "More than 1,680 manufacturers and importers use DTS (beer, spirits, wine, soda, water, cement, tobacco, others). URA's 2026/27 risk list flags mismatches between stamps and declared output or sales; government expects an extra UGX 267b. Manufacturers complain about stamp cost. SICPA is the operator (C14).",
+     "status": "screened"
+    },
+    {
+     "category": "36. Money lenders under the Tier 4 Microfinance Institutions and Money Lenders Act 2016",
+     "found": "Section 84 prohibits unlicensed lending. UMRA publishes annual renewal notices for SACCOs, moneylenders and NDMFIs and has announced enforcement against unlicensed lenders. The prescribed interest cap is 2.8% (UMRA FAQ, date unknown). Count of licensed lenders not found (C06).",
+     "status": "screened"
+    },
+    {
+     "category": "37. Environmental audits and compliance (NEMA)",
+     "found": "FY2025/26: NEMA reviewed 2,086 audit documents, issued 283 improvement notices, ran 188 enforcement operations and 208 criminal cases (Ministerial Policy Statement 2026/27). Nothing on sand mining, brick-making or small-business permits specifically (C15).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "Uganda fuel station licence Ministry of Energy petroleum supply act 2023 retail outlet compliance",
+    "Uganda warehouse receipt system licensed warehouse operators UCDA coffee buyers licence returns",
+    "Uganda private health facility NHIS National Health Insurance Scheme Act 2023 accreditation providers claims",
+    "Uganda Financial Intelligence Authority accountable persons registration real estate agents lawyers goAML reporting 2025",
+    "Uganda Tourism Act 2022 hotel guest house registration Uganda Tourism Board licensing guest register",
+    "Uganda National Drug Authority pharmacy licence controlled drugs register psychotropic returns pharmacists 2025",
+    "Uganda private security organisations licence Police guards register Ministry of Internal Affairs private security regulations 2024",
+    "Uganda local content register oil gas suppliers Petroleum Authority national suppliers database",
+    "Uganda money lenders licence UMRA Tier 4 money lenders register returns deadline 2025 2026",
+    "Uganda timber export permit fish export EU HACCP competent authority registration forest produce dealers licence",
+    "PDPO Uganda Personal Data Protection Office registration data collectors processors annual renewal deadline enforcement",
+    "Uganda Mining and Minerals Act 2022 regulations 2023 mineral dealers licence small scale miners returns sand quarry",
+    "Uganda National Lotteries and Gaming Regulatory Board betting shops licence compliance 2026",
+    "Uganda LPG cylinder regulations 2025 licence LPG distributors retailers UNBS cylinder filling",
+    "Uganda Occupational Safety and Health workplace registration DOSH inspection fees certificate 2025 employers",
+    "NEMA Uganda environmental compliance audit annual report small businesses sand mining brick making permit 2026",
+    "URA digital tax stamps 2025 2026 excise stamps manufacturers importers small distributors",
+    "Uganda Insurance Regulatory Authority insurance agents brokers loss adjusters licence annual returns 2026"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b31"
+ },
+ "gapfill:uganda": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Honey exporters, processors and aggregators planning EU sales (probably a few dozen at most)",
+     "category": "8. Beekeepers",
+     "evidence": "https://agrinfo.eu/book-of-reports/mandatory-listing-of-establishments-exporting-honey-and-clarifications-on-animal-products/ ; https://www.monitor.co.ug/uganda/business/prosper/honey-exports-down-despite-good-quality-1508834 ; https://tunadobees.org/?p=7291",
+     "existing": "None seen locally. TraceX (India) offers hive-to-honey traceability. AGRINFO publishes free guides. The EU listing itself is done by MAAIF, not by the exporter.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "Same EU-compliance theme as K06 (coffee EUDR) but a different commodity and buyer group.",
+     "name": "EU honey-establishment listing and residue/traceability pack for Ugandan honey exporters and aggregators",
+     "score": 2,
+     "status": "weak",
+     "trigger": "EU Delegated Reg. 2023/2652: establishments must be listed in TRACES (since 29 Nov 2024). Reg. 2024/2598 country annex applies from 3 Sep 2026. Uganda's MAAIF residue control plan and listing are the dependencies.",
+     "trigger_note": "",
+     "unchecked": "Whether Uganda is in the Annex to Reg. 2024/2598 or on the EU establishment list. How many Ugandan honey firms actually export to the EU. Whether MAAIF runs an exporter registration. No competitor search run (score under 3)."
+    },
+    {
+     "buyer": "Commercial beekeepers, honey sellers and bee-equipment sellers",
+     "category": "8. Beekeepers",
+     "evidence": "https://tradebarriers.org/ntm/measures/view/4316 ; https://tradebarriers.org/ntm/measures/view/8262",
+     "existing": "No local product seen. Donor pilots only (Farmerlink, Sevi, Kucheza; Makerere hive-monitoring thesis app).",
+     "known_mark": "new",
+     "name": "Beekeeper and bee-product seller production records and annual returns (SI 73/2004)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Animal Diseases (Control of Bee Diseases) Rules 2004, SI 73/2004: keep production records for inspection by the Commissioner and file annual returns.",
+     "unchecked": "Whether the annual-returns duty is actually enforced and who collects the returns. Whether a returns form exists. Willingness to pay of smallholders is likely very low, and there is no sign of an inspection campaign. Source is a secondary summary and the original SI text was not read."
+    },
+    {
+     "buyer": "Honey aggregators, collection centres and Rural Transformation Centres buying from smallholders",
+     "category": "8. Beekeepers",
+     "evidence": "https://www.naroinfohub.naro.go.ug/RepDetails.aspx?pn=411 ; https://monitor.co.ug/uganda/business/commodities/certify-honey-products-for-global-markets-unbs-1552052 ; https://includeplatform.net/wp-content/uploads/2022/02/Two-pager-Beyond-bees-flight-paths-from-apiculture-in-Uganda_02-2022.pdf",
+     "existing": "TraceX (India) hive-to-honey platform. Donor apps. No Ugandan vendor found.",
+     "known_mark": "new",
+     "name": "Honey batch traceability and quality-record tool for TUNADO-linked collection centres and processors",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Buyer-driven drum-level traceability, UNBS standards mark and Codex quality requirements. The Rules 2004 Rule 18 quality duty applies to sellers.",
+     "unchecked": "Number of aggregators, whether any mandatory register exists, and the UNBS certification obligations. Mostly a voluntary or buyer-driven need and not a mandatory filing. No competitor search run."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "8. Beekeepers",
+     "found": "No beekeeper licence or registration scheme found. Legal basis is the Animal Diseases (Control of Bee Diseases) Rules 2004 (SI 73/2004): beekeepers and sellers of bees or bee products must keep production records for the Commissioner and file annual returns (tradebarriers.org/ntm/measures/view/4316, secondary summary). Rule 18 requires honey producers, sellers and exporters to meet UNBS/Codex quality standards. The UNBS table-honey standard DUS DEAS 36-1:2019 was a draft at WTO notification, and its final status is unchecked. Uganda has been EU-listed for honey since about 2005 via a MAAIF national residue monitoring plan. EU rules now (Reg. 2023/2652) require each exporting establishment to be listed in TRACES by the competent authority, since 29 Nov 2024. From 3 Sep 2026, countries must also appear in the Annex to Reg. 2024/2598. I could not confirm Uganda's status in that annex or its current establishment list. Reports (Monitor, undated and 2018) say exports are far below the 200 t/yr EU opportunity because of costs, certificates and buyer requirements, and that most honey is uncertified. TUNADO (apex body, about 100,000 farmers, 23 trained honey inspectors) exists. Digital tools seen are donor-linked pilots (Farmerlink, Sevi, Kucheza) and a Makerere hive-monitoring app thesis. The buyer pool for an EU-compliance product is tiny and exports are minimal, and nothing in the 1.2M-beekeeper base shows willingness to pay. Nothing new beyond weak candidates below.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "Uganda beekeeping honey regulation licence registration UNBS honey exporters",
+    "Uganda Apiculture Act beekeepers registration MAAIF honey traceability residue monitoring plan",
+    "Uganda honey export EU third country list honey exporters certificate beekeepers association",
+    "Uganda honey 2024/2598 list third countries honey establishments TRACES MAAIF listed honey exporters",
+    "TUNADO honey collection centres beekeepers records traceability app digital honey Uganda",
+    "Uganda honey exporters EU listing 2025 TRACES Uganda honey establishments approved MAAIF apiculture"
+   ],
+   "searches": 6
+  },
+  "tag": "w2b31"
+ },
+ "opus:uganda:A11": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free state portal OSHMIS (oshmis.mglsd.go.ug, cited in a ministry speech) handles online registration and certificates. Per a 2022 Monitor article, the ministry's online system also lets workplaces report problems. I found no commercial Ugandan OSH compliance software. The only local efforts are the UNCST-listed \"OSH Tracking and Measurement System\" (a prototype), Kashari Consults' digital OSH compliance system (in development, per VC4A) and a Makerere research prototype for construction. There are generic international apps such as OHS Assist. Local OSH consultancies are a likely service competitor (not checked).",
+   "duty": "OSH Act Cap. 231 (2006): workplaces must register with the MGLSD Commissioner, and occupying one without a certificate is an offence. A law firm and a ministry speech (seen only as a search snippet; the PDF returned 404) say the certificate is renewable every 3 years. The OSH (Amendment) Act No. 20 of 2025, in force from 25 July 2025, extends the Act to all workplaces (the earlier 20-employee limit is repealed). Per search summaries it adds health surveillance plans submitted to the Commissioner and mandatory training or certification for machinery operators. Penalty amounts and safety committee thresholds were not reached, because the KTA alert PDF could not be decoded. No lift, boiler or pressure-vessel examination schedule was found.",
+   "market": "Not confirmed. UBOS has published the 2019/20 Census of Business Establishments report, but I did not get its totals. The 2001/02 census listed about 160,000 or more fixed-premise establishments, mostly with fewer than 5 employees. The 2009/10 Uganda Business Inquiry put 96% of establishments in the informal economy. Since the 2025 amendment, all workplaces are in scope in principle, which is likely hundreds of thousands, but formal firms that can pay are a much smaller group. The number of registered workplaces was not found.",
+   "reason": "The duty is real. Under the OSH Act (Cap. 231), anyone using premises as a workplace must register it with the MGLSD Commissioner, and doing so without a certificate is an offence. A ministry speech and a law firm say the certificate is renewable every 3 years. The OSH (Amendment) Act No. 20 of 2025 took effect on 25 July 2025 and removed the 20-employee threshold, so all workplaces are now covered. However, registration itself is filed through the free state portal OSHMIS (oshmis.mglsd.go.ug), so the software would be selling only the record-keeping and amendment compliance pack. I found no commercial Ugandan OSH software, only a UNCST prototype and Kashari Consults (in development). Weaknesses: most firms are informal, enforcement looks weak, willingness to pay is low, and no lift or boiler inspection schedule was confirmed.",
+   "searches": 4,
+   "sources": "https://www.kaa.co.ug/?p=12709 ; https://www.kaa.co.ug/wp-content/uploads/2022/08/KAA-workplace-registered-compliant.pdf ; https://www.ktaadvocates.com/uganda-expands-workplace-safetyobligations-under-the-occupationalsafety-and-health-amendment-act2025/ ; https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2025/enhancing-workplace-safety-with-new-health-and-safety-law ; https://www.mediacentre.go.ug/sites/default/files/media/SPEECH%20BY%20HON.%20GIDUDU%20MAFWABI%20DOMINIC%20MINISTER%20OF%20STATE%20FOR%20ELDERLY%20AFFAIRS.pdf (search snippet only, fetch 404) ; https://www.monitor.co.ug/uganda/news/national/ministry-introduces-online-system-to-monitor-workers-4015048 ; https://www.innovations.uncst.go.ug/innovation/296 ; https://vc4a.com/ventures/kashari-consults-u-limited/ ; https://www.ubos.org/2025/08/14/2019-2020-census-of-business-establishments-cobe-report/ ; https://unstats.un.org/unsd/economic_stat/Economic_Census/Korea/Uganda-paper.pdf",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b31"
+ },
+ "triage:uganda": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Licensed recruitment agencies with recurring EEMIS filings; new buyer group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Licensed money lenders differ from K04's SACCO quarterly returns; licence renewal and loan register is a different duty (related K04)."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Households as employers under the 2026 Act; squarely in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Small licensed premises (daycares) with a new registration duty; verify."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Revive K07: the 2024 Veterinary Practitioners Act adds a Council and first-time mandatory registration of paraprofessionals and clinics, plus the 2026 fee changes."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Agro-input dealers and fumigators are a different buyer group and duty from K07's drug and vet outlets (related K07)."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Forex bureaus with monthly BoU returns; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Drilling firms with annual permit renewal and completion reports; small firms, new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "NGOs and CBOs with annual permit and returns; in-scope community bodies."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Sports associations had a hard deadline; weak but in scope, so verify."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Small workplaces with OSH registration and incident register; the earliest candidate for this duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Cattle traders' licences and movement permits; recurring duty for small traders."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Small sanitation haulers with multiple recurring licences."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Boda boda stage associations and rider registration; a defined group with a municipal duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Butchers with licence and hygiene records, a municipal duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A16",
+     "reason": "Small driving schools with licence files; in scope."
+    },
+    {
+     "decision": "drop",
+     "id": "A17",
+     "reason": "No buyer group and no mandatory recurring workflow found; fails the candidate definition."
+    },
+    {
+     "decision": "merge",
+     "id": "B1",
+     "reason": "Same buyer group (small employers and workplaces) and same OSH compliance duty as A11; the 2025 amendment adds detail only.",
+     "ref": "A11"
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Small data controllers must register and file annual reports with PDPO; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Dealers in construction and artisanal minerals differ from K03's small gold buyers (related K03)."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small guest houses with a UTB licence and inspections; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small private security firms with annual guard re-registration; new duty."
+    },
+    {
+     "decision": "merge",
+     "id": "B6",
+     "reason": "Same money-lender buyer group and licence-renewal duty as A2; related K04.",
+     "ref": "A2"
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Revive K07: the 2026 directive moves drug-outlet licensing to NDA alone and the new Act replaces Cap 198; dispensing registers were never researched."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small law, notary and accounting offices have goAML registration and reporting duties; in scope as professional offices."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small excisable-goods manufacturers with digital tax stamp reconciliation; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Small betting shops with licence and reporting duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Small insurance brokers and agents with IRA returns; small professional offices."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Independent fuel station owners with recurring compliance records."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Warehouse keepers with licence and receipt-book duties; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Local suppliers with an annual database update; weak but in scope, so verifiers decide."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Small developers and factories facing NEMA audits and notices; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Honey exporters have a different commodity and buyer from K06 coffee, and a TRACES listing duty (related K06)."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Beekeepers' production records and annual returns are a distinct duty and buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Collection centres' traceability is a different buyer and a buyer-driven duty from GAPS2; unverified, so keep."
+    }
+   ]
+  },
+  "tag": "w2b31"
+ }
+}

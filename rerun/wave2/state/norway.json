@@ -1,4 +1,16 @@
 {
+ "challenge:norway:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. The weak points are a small market (about 3,600 approved firms in 2016, the latest count found), free buyer tools (register, open data, hmskort.no lookup) and general time and HR tools that cover the hours record. CleanPilot's features remain unverified.",
+   "reason": "Nothing kills it. Six searches in Norwegian found no cleaning-specific tool for re-documentation, HMS-card tracking or buyer checks. Lovdata confirms the duty recurs: §7 requires a report to Arbeidstilsynet every year and full documentation every three years, and §11 says HMS cards last two years and lapse when employment ends. But the market is small. The latest count I found is about 3,600 approved firms in 2016, and many are sole traders without staff. The yearly report is light work. Buyers can check for free through the register, open data and the hmskort.no lookup. General time, payroll and HR tools cover the hours record and contracts. A new rule on client liability for HMS cards took effect on 1 July 2026, but I couldn't confirm what it changes for cleaning.",
+   "searches": 8,
+   "sources": "https://lovdata.no/dokument/SF/forskrift/2012-05-08-408 ; https://data.norge.no/en/datasets/b3642673-6855-3af9-93b0-fe6f01fbaa5d ; https://www.regjeringen.no/no/aktuelt/strammar-inn-nye-reglar-skal-sikre-at-fleire-folgjer-hms-krav/id3168426/ ; https://www.anskaffelser.no/sites/default/files/2026-06/sjekkliste-ved-kontroll-av-hms-2026.docx ; https://kommunikasjon.ntb.no/pressemelding/18508829/arbeidstilsynet-kontrollerer-renholdsbransjen?lang=no ; https://thehub.io/startups/ren-hub-as ; https://tamigo.com/workforce-management-solution/time-attendance",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b30"
+ },
  "critic:norway": {
   "result": {
    "gaps": [
@@ -866,6 +878,136 @@
    "sources": "https://www.regjeringen.no/no/aktuelt/innforer-krav-om-kjore-og-hviletid-og-fartsskriver-for-varebiler/id3168129/ (403 on fetch; content via search snippet) ; https://www.vegvesen.no/kjoretoy/yrkestransport/fartsskriver-og-sjaforkort/fartsskriver/ ; https://www.vegvesen.no/kjoretoy/yrkestransport/fartsskriver-og-sjaforkort/for-transportbedrifter/ ; https://www.vegvesen.no/om-oss/presse/aktuelt/2025/01/innforer-nasjonalt-loyve-for-varebil/ ; https://www.vegvesen.no/om-oss/presse/aktuelt/2025/08/fra-september-kan-du-ta-eksamen-for-nasjonalt-varebilloyve/ ; https://www.nhoreiseliv.no/contentassets/2a9ba11d1c294faeb133ae0c1f4d8a31/nhoreiseliv_horingssvar_kjore--og-hviletid-og-krav-til-fartsskriver.pdf ; https://admin.mekke.no/data/downloads/1268/TachographflayerII.pdf ; https://www.abax.com/no/smart-connect/oems ; https://www.mtlogistikk.no/emne/kj%C3%B8re-%20og%20hviletid",
    "suggested_score": 3,
    "verdict": "refuted"
+  },
+  "tag": "w2b30"
+ },
+ "opus:norway:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No product dedicated to this report turned up in 3 Norwegian searches, including searches naming the POS vendors Trivec, Munu, Tellix and Zettle. Whether POS systems export litres per drink group was not confirmed either way; it was not reached. Submission is increasingly handled by free public channels:\n- Oslo has its own bevillingsportal with Altinn login, and auditors can confirm the figures digitally in Altinn.\n- Digitale Helgeland (16 municipalities) is building a shared omsetningsoppgave service on Altinn Studio, which is open source and can be shared. Digi Rogaland and Digi Agder are following.\n- Helsedirektoratet's report of April 2025 proposes a national alcohol licensing portal.\nThat leaves only the step of calculating litres by group from sales data, which a POS product report plus a spreadsheet already covers for most businesses.",
+   "duty": "Real and in force. Under alkoholloven and alkoholforskriften chapter 6, every holder of a salgs- or skjenkebevilling must file an omsetningsoppgave for the previous year once a year. It gives litres per drink group 1/2/3 per outlet, plus expected volume. Each municipality sets its own deadline: Oslo 16 Mar 2026, Bærum 1 Mar. The fee rates from 1 Jan 2026 (set by Helse- og omsorgsdepartementet on 28 Nov 2025) are: salg 0.26/0.75 kr per litre; skjenking 0.63/1.62/5.35 kr per litre. Minimum fee is 2,130 kr for salg and 6,600 kr for skjenking. Oslo and Bærum require confirmation from an auditor or authorised accountant (ISAE 3000 for audited firms); without it the report counts as not delivered. Oslo penalty: 2 prikker per missed deadline until the report is delivered and the fee paid. 12 points in 2 years means at least 1 week of suspension. If nothing is filed, the municipality sets the fee at its own discretion.",
+   "market": "Helsedirektoratet's figures for 2024: 4,733 salgsbevillinger (about 85% held by grocery stores, mostly chain-run) and 8,801 skjenkebevillinger. That is about 13,500 licences, many of them multi-outlet chains or group-run.",
+   "reason": "The duty is real, recurring and enforced with prikker, and the auditor confirmation adds friction. But it happens once a year, the work is light (litres per 3 groups from sales data) and the fees are small, so the pain is low. Grocery licences, about 85% of salg, sit with chains that have head-office systems. Municipalities are moving filing to Altinn portals (Oslo, Digi Helgeland), and a national portal has been proposed, which shrinks the space for an independent submission tool. The realistic product is a POS-integrated litres-by-group report, which POS vendors could easily add themselves. At best it is an add-on to a larger compliance tool for internkontroll alkohol and prikk tracking. Willingness to pay is low and the market is about 13.5k licences.",
+   "searches": 6,
+   "sources": "https://www.oslo.kommune.no/skatt-og-naring/salg-servering-og-skjenking/omsetningsoppgave-og-bevillingsgebyr/ ; https://www.helsedirektoratet.no/rundskriv/alkoholforskriften-med-kommentarer/kapittel-6-bevillingsgebyr ; https://www.baerum.kommune.no/tjenester/skatt-og-naring/skjenking-og-servering/omsetningsoppgave-og-bevillingsgebyr/ ; https://www.asker.kommune.no/naringsliv/serverings--salgs--og-skjenkebevillinger/omsetningsoppgave-for-alkohol/ ; https://www.helsedirektoratet.no/rapporter/tall-om-alkohol/forvaltning-av-alkoholloven/kommunal-forvaltning-av-alkoholloven ; https://www.helsedirektoratet.no/rapporter/veien-til-en-smidigere-brukerreise-for-forvaltningen-og-naeringslivet--helsedirektoratets-utredning-pa-alkoholomradet/kunnskapsgrunnlag-og-innsiktsarbeid/digitale-helgeland ; https://www.helsedirektoratet.no/rapporter/veien-til-en-smidigere-brukerreise-for-forvaltningen-og-naeringslivet--helsedirektoratets-utredning-pa-alkoholomradet",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b30"
+ },
+ "opus:norway:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no software specific to cleaning firms for approval re-documentation, HMS-card tracking or buyer checks. The only cleaning tool I found was CleanPilot, mentioned in a Sodexo job ad for reporting and planning; its features were not checked. Construction HMS and time systems (Holte, HMSREG and others) and general time and HR tools probably cover the hours record. Buyers have free options: the Arbeidstilsynet register and open dataset (updated daily), hmskort.no card lookup, and the Arbeidstilsynet and Anskaffelser.no checklists. This free tooling makes the buyer-side check easy without paid software.",
+   "duty": "FOR-2012-05-08-408 (forskrift om godkjenning av renholdsvirksomheter), in force and last amended by FOR-2023-12-18-2278 from 1 Jan 2024 (Lovdata). § 7(2): approved firms must send documentation to Arbeidstilsynet every third year, counted from the approval decision. § 7(3) and § 19: approval can be revoked. § 11: HMS cards are valid for 2 years and lapse when employment ends, so cards must be reordered on every hire and change of employer. § 17: buyers may only buy cleaning from approved firms. § 20: breaches are criminal under Working Environment Act ch. 19. Per the NTB press release of 29 Apr 2025, missing HMS cards or missing approval will as a rule lead to an administrative fine. Arbeidstilsynet's buyer routine (Sept 2025 version) recommends checking approval and HMS cards at least once a year, plus contracts, timesheets and payslips.",
+   "market": "More than 3,600 approved firms in early 2016, according to the data.norge.no dataset description. I found no current count. The live dataset on data.norge.no can be counted by status 'Godkjent'. Buyers potentially include many firms and sameier, but their duty is light (an annual check against free tools).",
+   "reason": "The duty is real and enforced. Every three years firms must re-document their approval, HMS cards expire every 2 years and must be reordered on every hire, buyers may only use approved firms, and missing cards or approval normally bring a fine. Arbeidstilsynet's 2025 campaign named missing HMS cards and poor time records as the most common breaches. I found no tool built for cleaning firms. However, the approval refresh comes only every three years. General time and HR tools and construction HMS tools likely cover the hours record. Buyer checks are free through the register and hmskort.no. The roughly 3,600 firms (2016 figure) are small, low-margin and often run by immigrants, so willingness to pay is modest. A niche bundle of compliance checks is feasible but limited.",
+   "searches": 6,
+   "sources": "https://lovdata.no/dokument/SF/forskrift/2012-05-08-408 ; https://kommunikasjon.ntb.no/pressemelding/18508829/arbeidstilsynet-kontrollerer-renholdsbransjen?lang=no ; https://data.norge.no/en/datasets/b3642673-6855-3af9-93b0-fe6f01fbaa5d ; https://prod.arbeidstilsynet.no/contentassets/6d4363525e69423983033191375d1e09/nn_skjema-1-av-3_rutine-ved-kjop-av-renhold_september2025.docx ; https://www.regjeringen.no/no/aktuelt/styrkjer-godkjenningsordninga-for-reinhald/id2582804/ ; https://finn.no/402051597 ; https://holte.no/en/modul/hse-qa/ ; https://www.anskaffelser.no/sites/default/files/2026-06/sjekkliste-ved-kontroll-av-hms-2026.docx",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b30"
+ },
+ "sonnet:norway:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real, but it is a voluntary grant application, not a mandatory duty. Lotteri- og stiftelsestilsynet runs the scheme; applications open in April and close 1 Sept (the 2026 round has closed). Payment comes mid-Dec. The simplified model needs a 100,000 NOK basis and the documented model 7,000 NOK in VAT cost. Over 25,000 organisations apply each year. Many are clients of auditors and accountants (Revisorforeningen course page). Local branches apply through central bodies, which handle it themselves. Rules were updated in 2026, and from base year 2026 branches must track volunteer hours, activities and costs. I found no dedicated software, but accounting exports and revisors cover it. Few buyers, low willingness to pay, one deadline per year. I did not open the regulation text or lottstift.no; the Revisorforeningen fetch returned 403.",
+   "searches": 3,
+   "sources": "https://www.revisorforeningen.no/andre-nyheter/momskompensasjon/ ; https://www.revisorforeningen.no/kurs/kursliste/momskompensasjon-for-frivillige-organisasjonar---ekurs/ ; https://www.naf.no/frivillig/dokumentasjon-av-frivillig-aktivitet ; https://www.nrr.no/wp-content/uploads/2024/09/nrr_merverdiavgiftskompensasjon.pdf ; https://www.nfunorge.org/contentassets/d413527296e249b9afe69d0da5c81283/horinger/2025/horingssvar-nfu-ny-forskrift-om-momskompensasjon-2025.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b30"
+ },
+ "sonnet:norway:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Drikkevannsforskriften §17 requires registration, and small systems (under 10 m3/day, about 50 people) must do a hazard assessment, take at least 1 raw and 1 treated sample a year, keep internal control, and notify consumers and Mattilsynet when water is unsafe. Under 10 m3/day the internal control need not be written. The Mattilsynet page names no penalty. Mattilsynet already offers a free mobile registration form. I found no dedicated private-waterworks software; municipal tools (MimerVA, SmartDoc) exist but are not for private owners. I found no register count of small systems. FHI counts only systems serving 50 or more people (1,390 in 2023) and calls small-system data incomplete. The owners are mostly volunteers or households, the duty is light (one sample a year), and the market is fragmented, so willingness to pay is low and the MVP is thin. Not checked: any EU directive change. The digital security act applies only above 2,000 m3/day.",
+   "searches": 4,
+   "sources": "https://mattilsynet.no/drikkevannsforsyning/informasjon-til-sma-vannforsyningssystemer ; https://www.fhi.no/publ/2024/rapportering-av-data-for-vannforsyningssystemer-i-norge-for-2023/ ; https://www.mattilsynet.no/drikkevannsforsyning/veileder-til-drikkevannsforskriften",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b30"
+ },
+ "sonnet:norway:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Under TEK17 ch. 16 the owner must have an approved safety inspection body (SKO) inspect each lift at least every 2 years, keep it in safe condition (usually through a service contract), report accidents and near-accidents to the municipality, and notify the municipality of demolition or decommissioning. I did not open the regulation text, so the penalty is unverified. The Oct 2025 consultation (move Nireg to DiBK, clarify who must register) shows no adoption in my searches. Norwegian searches found no dedicated owner-side lift software. But the work is mostly done by inspection and service firms (e.g. Kiwa) that send reports to Nireg and the owner. An owner has only one reminder every 2 years per lift. Willingness to pay is low and the niche is narrow. No lift-owner count was found.",
+   "searches": 3,
+   "sources": "https://www.regjeringen.no/no/aktuelt/enklere-og-sikrere-rapportering-av-heiser-og-lofteinnretninger/id3132142/ ; https://www.kiwa.com/no/no/vaare-tjenester/inspeksjon/heis-naeringsbygg/ ; https://www.kiwa.com/no/no/innsikt/nyheter/kontrollerer-heis-i-innlandet/ ; https://byggforsk.no/byggeregler/kapittel/16",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b30"
+ },
+ "sonnet:norway:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: the Arbeidstilsynet approval scheme has been in force since 1 Jan 2024. Approved firms must send an annual confirmation in Altinn, with no attachments. Every 3 years they must send documentation. Missing the deadline can mean revocation and the status \"ulovlig\". Clients using unapproved firms risk a fee of up to 15 G and a claim for permanent employment. Competition is weak for the core job, but the free public register has an open-data API (data.norge.no, openapi.arbeidstilsynet.no; endpoints not verified), and Altinn reminders cover the annual filing. That makes both a client-side checker and a filing reminder thin products. The annual confirmation is a trivial one-click filing. No market count was found. Low willingness to pay; the best case is a small add-on to supplier-control or HR tools.",
+   "searches": 3,
+   "sources": "https://arbeidstilsynet.no/globalassets/regelverkspdfer/forskrift-om-offentlig-godkjenning-av-bemanningsforetak ; https://kommunikasjon.ntb.no/pressemelding/18330905/paminnelse-til-bemanningsforetak-husk-arlig-melding-til-arbeidstilsynet?lang=no ; https://data.norge.no/en/datasets/d6315e32-fe58-3c96-aea9-7a138dc52346 ; https://www.tu.no/artikler/na-ma-alle-bemanningsforetak-ha-godkjenning-fra-arbeidstilsynet/532336",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b30"
+ },
+ "sonnet:norway:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real: the register opened 1 Oct 2024, the registration deadline was 31 July 2025, and coercive fines apply from 1 Aug 2025. Warnings reportedly started 2 June 2026, with three weeks to comply. A search summary, not a page I opened, says about 98% of obliged entities had registered by Sept 2026, leaving about 2% and a shrinking one-off market. Brreg says that associations and sameier normally have no beneficial owners. Only commercial or accounting associations must register. Borettslag must still register \"none\". Registration is a simple free Altinn form (RRH-0100), and accountants can fill it in. I found no dedicated software. Weak demand and a one-off duty make this a poor recurring product.",
+   "searches": 2,
+   "sources": "https://www.sticos.no/fagstoff/manglende-registrering-av-reelle-rettighetshavere-gir-tvangsmulkt ; https://www.revisorforeningen.no/fag/nyheter/reelle-rettighetshavere---utsending-av-tvangsmulkt/ ; https://brreg.no/?p=47887 ; https://www.brreg.no/reelle-rettighetshavere/reelle-rettighetshavere-i-ulike-organisasjonsformer/ ; https://kommunikasjon.ntb.no/pressemelding/18704552/75-000-foretak-i-stor-fare-for-a-fa-tvangsmulkt",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b30"
+ },
+ "sonnet:norway:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. ERS/VMS applies to boats down to 8 m, with soft enforcement for 8-11 m extended until further notice and under-8 m postponed (regjeringen, Sept 2025). Kystfiskeappen was abolished from 1 Jan 2026 (the search summary says the ministry adopted this 1 Dec 2025), and its scope moved into the ERS regulation. The market is a subsidised, soft-enforced niche. The regulation allows only reporting systems that Fiskeridirektoratet has confirmed, so a third-party app needs approval. Existing ERS vendors (e.g. CLS, Fisknett eCatch) likely cover small boats, and I did not check this. Fleet size in the 8-10 m class was not found. Equipment support of NOK 7,700 comes from Garantikassen. Willingness to pay is low and the pain is weak because enforcement is soft. Not refuted, but not confirmed either.",
+   "searches": 3,
+   "sources": "https://www.regjeringen.no/no/aktuelt/ny-side4/id3117999/ ; https://www.fiskeridir.no/hoeringer/horing-om-endringer-i-ers-forskriften-og-opphevelse-av-forskrift-om-kystfiskeappen/_/attachment/inline/6acbecb6-b923-463b-8b0f-392fbe5d3704:8f3d71b0dce94d44c0cf97dd83747ea462d256fd/hoering-endringer-ers-forskriften-opphevelse-kystfiskeappen.pdf ; https://www.fiskeridir.no/English/Fisheries/Electronic-Reporting-Systems",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b30"
+ },
+ "sonnet:norway:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "competition": "Not searched. The search found no Norwegian host-registration product, and none could exist without a duty. Platforms (Airbnb and others) handle DPI tax reporting themselves.",
+   "duty": "No current national duty. The EU regulation is not incorporated in Norway. Existing host-side rules are the 90-day cap in sameier and the municipal business-activity guidance (March 2026), neither of which is a recurring registration workflow.",
+   "market": "Not quantified. Skatteetaten's press item on platform reporting gives a sense of scale but was not opened.",
+   "reason": "As of Oct 2026 there is no Norwegian host registration duty. The government's EEA note (April 2026) says Regulation (EU) 2024/1028 is still under assessment by the Ministry of Trade, Industry and Fisheries (NFD). It has applied in the EU since 20 May 2026 but is not incorporated in Norway. No national registry, deadline or penalty exists, so nothing is mandatory or recurring. Support for a Norwegian scheme is political only: NHO Reiseliv and Fellesforbundet asked for one in Oct 2025, and Labour has it in its programme. Tax reporting (DPI) falls on platforms, not hosts, and the only host-side rules are the 90-day cap and the municipal guidance. Keep it as a watch item and revisit if the EEA incorporation decision lands. Not checked: the regjeringen.no guidance page and the NHO letter were not opened. Market size was not searched.",
+   "searches": 2,
+   "sources": "https://www.regjeringen.no/no/sub/eos-notatbasen/notatene/2024/mai/forordning-om-innsamling-og-deling-av-data-knyttet-til-korttidsutleietjenester/id3118243/ ; https://www.nhoreiseliv.no/contentassets/de4fc818306043ffb0be6b77cff34505/brev_korttidsutleie_fellesforbundet_nhoreiseliv_okt_2025.pdf ; https://www.skatteetaten.no/bedrift-og-organisasjon/rapportering-og-bransjer/tredjepartsopplysninger/andre-bransjer/digital-plattforminformasjon-dpi/",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b30"
+ },
+ "sonnet:norway:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is insurance-driven (insurers require NEK 405 control per FG-1400 classes; edition 10 valid from 18.06.2026), not statute, so it is weaker than a legal duty. FG-kontroll is the insurers' portal. Certified inspectors and firms get access free, and owners see their own data free. Inspectors upload reports and register TG2/TG3 deviation closure there, so the core upload and status job is covered by a free system. I found no third-party NEK 405 report software, but only 2 searches were run and no vendor sites were checked. I did not find certified-firm counts, and fgkontroll.no could not be opened. The buyer pool is small. Penalty is loss of insurance terms, not a fine.",
+   "searches": 2,
+   "sources": "https://fgsikring.no/siteassets/fg-kontroll/informasjon-om-fg-kontroll/registrering-av-elkontroll---arbeidsflyt-info-2025-3.pdf ; https://res.cloudinary.com/forsikringsdrift/image/upload/FG-1400_10-Kontrollklasser-elkontroll-utgave-10-2026.pdf ; https://fgsikring.no/siteassets/regler/elkontroll/infoark-om-fg-kontroll-mars-2025.pdf",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b30"
+ },
+ "sonnet:norway:GAPS4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is only proposed. Miljødirektoratet's draft would make it start 1 Jan 2027, and the hearing closed 21 Aug 2026. I found no sign it has been adopted. The draft requires producers to join an approved PRO and pay it. The pages I read give no thresholds, reporting content or penalties, and I did not open the full draft. Competition is likely: TekstilPRO was reportedly launched in 2025 by Virke, Varner, Voice, Kappahl, Lindex, KID and Grønt Punkt Norge. That claim comes from a search summary, not a page I opened. As with packaging, such a PRO would probably run onboarding and reporting itself. No market count was found. The buyer group is large but fragmented, and a solo founder would find the final scope and PRO portal dependence a risk.",
+   "searches": 2,
+   "sources": "https://www.miljodirektoratet.no/hoeringer/2026/mai-2026/horing-av-forslag-til-forskriftsregulering-av-utvidet-produsentansvar-for-tekstiler-og-handtering-av-tekstilavfall/ ; https://www.miljodirektoratet.no/aktuelt/fagmeldinger/2026/mai-2026/produsentansvar-for-tekstiler-gi-innspill-til-forskrift/ ; https://www.arendalsuka.no/program/hva-skal-til-for-at-produsentansvaret-for-tekstiler-faktisk-skal-fungere ; https://ilaks.no/?p=237287",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
   },
   "tag": "w2b30"
  },

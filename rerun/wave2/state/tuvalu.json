@@ -1,0 +1,363 @@
+{
+ "discover:ALL:tuvalu": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed crewing and manning agents in Funafuti; possibly TOSU and Ministry of Labour",
+     "category": "31. Seafarer recruitment, certification and placement / 15. Labour contractors and recruitment agencies",
+     "evidence": "https://paclii.org/tv/legis/TV-consol_act_2008/msamscr661 ; https://pacliirms.paclii.org/tv/legis/num_act/laera2017332 ; https://tvship.com/Resources/Downloads/Circulars/MC-082012.pdf ; https://tuvalufisheries.tv/tag/ngo/ ; https://www.ilo.org/publications/scoping-study-explore-opportunities-tuvaluan-seafarers-within-international",
+     "existing": "None found for Tuvalu agents. Ship Registry runs Tuvalu On-line Registry (vessels only); SPC Neptune seafarer database exists regionally (adoption in Tuvalu unclear).",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Different buyer (crewing agents, not vessel operators) and different duty (recruitment licensing, contracts, insurance) from the fisheries licence and logsheet tool K01.",
+     "name": "C1 Crewing agent / seafarer recruitment compliance tool (Tuvalu-flagged fishing crew and overseas merchant seafarers)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Labour and Employment Relations Act 2017 ss9-10 (recruitment agents); STCW regulations requiring licensed private seafarer recruitment with compensation insurance; Ship Registry MC 08/2012 (MLC recruitment); 2025 safe fishing and crew employment workshop on crew recruitment for Tuvalu-flagged seine vessels",
+     "trigger_note": "Not scored higher because agent count is likely under 10 and market tiny.",
+     "unchecked": "Number of crewing agents; whether a licence register exists; current licence fees and renewal terms; White List status; whether TOSU or the Ministry already keeps a digital register. Competitor search (seafarer database Tuvalu) found nothing local."
+    },
+    {
+     "buyer": "Small private employers (shops, guest houses, church bodies, fishing companies)",
+     "category": "1. Household employers / 32. Provident fund employer duties",
+     "evidence": "https://paclii.org/tv/legis/consol_act_2008/pfapfr627 ; https://paclii.org/tv/legis/sub_leg/pfapfr1999707 ; no online employer portal found (search 21)",
+     "existing": "Nothing found; seems paper-based. Generic payroll guides only.",
+     "known_mark": "new",
+     "name": "C2 TNPF employer registration and monthly contribution return helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Provident Fund (Registration) Regulations: register within 7 days of first employee; Contributions Regulations: monthly contribution returns and payment statements with approved forms and name and membership number per employee",
+     "unchecked": "Number of private employers; actual TNPF forms and rate; whether TNPF has any portal. Total private payrolls in Tuvalu are very small."
+    },
+    {
+     "buyer": "Small shops and traders (turnover under or around 100k)",
+     "category": "19. Market traders, street vendors / 33. Consumption tax and presumptive tax",
+     "evidence": "https://pacliirms.paclii.org/tv/legis/consol_act_2022/cta2602228.pdf ; https://paclii.org/tv/legis/num_act/ita2017196 ; https://tuvalu.tradeportal.org/media/New Registration form.pdf",
+     "existing": "No online portal found.",
+     "known_mark": "new",
+     "name": "C3 Consumption tax and presumptive tax return helper for small traders",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Consumption Tax Act 2008 (quarterly periods, registration over about 100k per old form); Income Tax (Amendment) Act 2017 presumptive tax (annual under 50k, quarterly 50k-100k, Schedule 9)",
+     "unchecked": "Current thresholds and rates; filing channel; number of registrants. Presumptive tax is simple so little for software to do."
+    },
+    {
+     "buyer": "Island co-operative societies and the Registrar of Co-operatives",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://paclii.org/tv/legis/consol_act_2008/csacsr577",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "C4 Island co-operative society annual accounts and audit helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Co-operative Societies Act Cap 40.20 and Regulations (annual accounts and report, audit and supervision fund, register of members)",
+     "unchecked": "How many societies are active; whether returns are enforced. Text of Part 6 audit sections not read."
+    },
+    {
+     "buyer": "Seafarers and their agents; TMTI; TOSU",
+     "category": "31. Seafarer recruitment, certification and placement",
+     "evidence": "https://www.adb.org/sites/default/files/project-documents/educational-issues.pdf ; https://tvship.com/Resources/Downloads/Circulars/MG 2-2012-1_Medical Certs_rev1.pdf",
+     "existing": "Bahamas and Liberia digital seafarer record books are for other flags; nothing found for Tuvalu seafarers.",
+     "known_mark": "new",
+     "name": "C5 Seafarer qualification and medical certificate expiry tracker (for TMTI, TOSU, agents)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "STCW COE endorsement validity, medicals every 2 years (Ship Registry circular), ADB finding that Tuvalu paper records could not identify seafarers needing upgrades",
+     "unchecked": "Whether Tuvalu has adopted SPC Neptune database; buyer is mostly state or union (outside scope if it is the state's own system); willingness to pay by individual seafarers."
+    },
+    {
+     "buyer": "Owners of small passenger and trading vessels",
+     "category": "18. Transport operators",
+     "evidence": "https://pacliirms.paclii.org/tv/legis/consol_act_2022/lsa4812186.pdf ; https://tvship.com/Resources/Downloads/Regulations/Non-Convention regulations for vessels of more than 12 metres in length, Edition 1 July 2024.pdf",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "C6 Inter-island and lagoon vessel seaworthiness certificate tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Lagoon Shipping Act (2022 rev.) certificate of seaworthiness, passenger limit, certificated officers; Merchant Shipping (Safety) Regulations 2008 local safety certificate; Non-Convention regulations for vessels over 12 m (July 2024 edition)",
+     "unchecked": "Number of private small-vessel owners (many ferries are government-owned); survey frequency."
+    },
+    {
+     "buyer": "Registered NGOs and church bodies",
+     "category": "17. Community and religious bodies",
+     "evidence": "https://paclii.org/tv/legis/consol_act_2008/ionoa523",
+     "existing": "TANGO provides training, no software found.",
+     "known_mark": "new",
+     "name": "C7 NGO registrar compliance helper",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Incorporation of Non-Governmental Organizations Act Cap 32.03 (registration, Registrar inspection)",
+     "unchecked": "Any annual return duty; number of registered NGOs."
+    },
+    {
+     "buyer": "Small employers hiring non-citizens",
+     "category": "15. Labour contractors / 34. Foreign-worker permits",
+     "evidence": "https://paclii.org/tv/legis/sub_leg/iaicr1991481",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "C8 Employer work-permit tracker for expatriate staff",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Immigration regulations: permit to enter and reside (AUD 200 adult, AUD 20 extensions), authority to work for visitors",
+     "unchecked": "Current fees (old consolidation); employer count. Very small."
+    },
+    {
+     "buyer": "Tuvaluan households (applicants)",
+     "category": "35. Falepili Mobility Pathway",
+     "evidence": "https://pina.com.fj/2026/04/21/tuvaluans-get-second-shot-at-australia-visa-under-falepili-pathway/ ; https://www.falepilipathway.gov.au/overview",
+     "existing": "Government Falepili Mobility Pathway Support Service covers visa process and pre-departure support.",
+     "known_mark": "new",
+     "name": "C9 Falepili Mobility Pathway annual ballot registration helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Annual ballot window (2026-27 round ran 1 May to 1 June 2026; 280 places; AUD 25 fee; ImmiAccount), then visa application",
+     "unchecked": "Whether migration-agent regulation in Australia restricts paid help; the ballot is free-to-use online. Not a duty on a business."
+    },
+    {
+     "buyer": "Biosecurity clearance agents and importers of food and plants",
+     "category": "30. Small exporters and importers",
+     "evidence": "https://paclii.org/tv/legis/num_act/ba2017156 ; https://tuvalu.tradeportal.org/procedure/20?l=en",
+     "existing": "Customs Tuvalu and Quarantine Office handle by paper; Tuvalu trade portal is the state's own site.",
+     "known_mark": "new",
+     "name": "C10 Biosecurity clearance agent / importer permit helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Biosecurity Act 2017 (Act No 24): import permits, quarantine, SPS certificates; permit fee AUD 10 (private importers AUD 2) per trade portal",
+     "unchecked": "Whether clearance agents are actually licensed; regulations listing regulated goods not found."
+    },
+    {
+     "buyer": "Importers and brokers",
+     "category": "30. Small exporters and importers",
+     "evidence": "Not re-checked",
+     "existing": "ASYCUDA (per K02)",
+     "known_id": "K02",
+     "known_mark": "known",
+     "name": "C11 Customs declaration helper (already rejected)",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Customs filing"
+    },
+    {
+     "buyer": "Licensed vessels",
+     "category": "36. Fisheries sector",
+     "evidence": "https://tuvalufisheries.tv/2026/06/23/fisheries-management-regulations-2025/ (page does not give logbooks, fees or deadlines; PDF not read)",
+     "existing": "See K01",
+     "known_id": "K01",
+     "known_mark": "known",
+     "name": "C12 Fisheries licence and logsheet compliance tool (already rejected)",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Fisheries Management Regulations 2025"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Labour and Employment Relations Act 2017 (PacLII laera2017332) applies to all employers/workplaces; written contracts, wage statements, employment records, record inspection. No domestic-worker-specific rule found. TNPF registration within 7 days of first employee (Provident Fund (Registration) Regulations) and monthly paper contribution returns. Tiny formal employer base. See C2.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Not searched. Atoll microstate (~11k people); no scrap-dealer licence class in the Licences Act schedules seen.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Not searched. Nothing seen in Licences Act schedules; market too small.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Not searched. No sign of a regulated activity; no gold sector.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Not searched. Few vehicles; Traffic Act Cap 50.10 licensing is by council area only (no dismantler regime seen).",
+     "status": "not_applicable"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Not searched specifically (budget). Biosecurity Act 2017 governs animal imports; pig keeping is subsistence.",
+     "status": "not_reached"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Not searched (budget). Nothing surfaced incidentally.",
+     "status": "not_reached"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Not searched; no apiculture sector evident in a coral-atoll economy.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Pharmacy and Therapeutic Products Act 2016 applies in part to veterinary drugs, but no private vet practices surfaced. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Not searched; atolls use rainwater/desalination, government-run.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Not searched (budget).",
+     "status": "not_reached"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Not searched; essentially no lifts or boilers in the private sector.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Not searched; public/household rainwater tanks, government-run supply.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Not searched; negligible agriculture. Biosecurity Act covers imports.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Labour and Employment Relations Act 2017 ss9-10 regulate recruitment agents; STCW regs require private seafarer recruitment services to be licensed with compensation insurance; 2025 workshop on crew recruitment for Tuvalu-flagged seine vessels involved crewing agents (tuvalufisheries.tv). Feeds C1.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Not searched; burial is family/church/kaupule-run.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Incorporation of Non-Governmental Organizations Act (Cap 32.03) with a Registrar of NGOs and inspection powers; TANGO is the umbrella body. No evidence of annual-return duty or fee found. Weak (C7).",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Traffic Act Cap 50.10 and Traffic Regulations (public service vehicles, taxis) licensed by council area; Lagoon Shipping Act 2022 requires certificate of seaworthiness, passenger limits and certificated officers for inter-island and lagoon trading vessels. Very few operators. Weak (C6).",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Licences Act Cap 26.24 (2010 amendment order schedules: hawker AUD 50, hairdresser/barber AUD 20, insurance agent AUD 500). Presumptive tax for turnover under 100k (Income Tax (Amendment) Act 2017). Weak (C3).",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Nothing surfaced in the Licences Act schedules or searches for these categories.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Petroleum Ordinance (1990 Rev. Cap 42) and Petroleum (Licence Fee) Regulations 1992 exist; storage thresholds. Fuel is a handful of government/state-linked importers. Nothing buildable.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Not searched; no commodity trading beyond small-scale copra. Copra search found no scheme documents.",
+     "status": "not_applicable"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Co-operative Societies Act (Cap 40.20, 2008 Rev.) with Registrar and Regulations on annual accounts, audit and an audit and supervision fund. Island co-op societies are very few and run in a handful of units. Weak (C4).",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Not searched specifically; health is state-run (Princess Margaret Hospital).",
+     "status": "not_reached"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Pharmacy and Therapeutic Products Act No 6 of 2016 (Cap 28.32 2022): pharmacy licence, import authorisation, Tuvalu Medicines Schedule. Pharmacy is government-run at the central medical store; no private pharmacy base found.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Crewing/manning agents and seafarer recruitment are the only live manpower sector (see C1).",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Not searched (budget). No mining; donor-funded construction handled by projects.",
+     "status": "not_reached"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "One AML search returned only Vanuatu and Cook Islands material; no Tuvalu reporting-entity list or FIU found. Unverified. Land is customary, no broker market.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "No Tuvalu law or register for guest houses or accommodation found; Licences Act schedules seen do not list lodging. Handful of guest houses.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Biosecurity Act 2017 (Act No 24): import permits, biosecurity clearance agents, SPS certificates; permit fee AUD 10 (AUD 2 private importers) per trade portal. Fisheries Management Regulations 2025 on ALCs, permits, FAD reporting (known K01). Few importers; nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Seafarer recruitment, certification and placement (Tuvalu seafarers on foreign ships)",
+     "found": "STCW regs (Merchant Shipping), Ship Registry MLC circular MC 08/2012, TMTI trains ~120 cadets/yr; ADB noted inaccurate paper records of seafarer qualifications. No Tuvalu seafarer database found. See C1, C5.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Provident fund (TNPF) employer registration and contributions",
+     "found": "Provident Fund (Registration) and (Contributions) Regulations: register within 7 days of first employee, monthly contribution returns and payment statements with approved forms; no online employer portal found. Rate sources conflict (5 to 7.5%). See C2.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Consumption tax and presumptive tax for small businesses",
+     "found": "Consumption Tax Act 2008 (rate 3% from 1 July 2009 per regulations; quarterly period; registration threshold around 100k per an old form, unverified) and presumptive tax under 100k turnover. No online filing portal found. See C3.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Foreign-worker permits and immigration (employers sponsoring expatriates)",
+     "found": "Immigration regulations: permit to enter and reside AUD 200 adult, extension AUD 20, visitors need authority to work from non-government employers (AUD 10). Small numbers of employers. Weak (C8).",
+     "status": "screened"
+    },
+    {
+     "category": "35. Falepili Mobility Pathway visa ballot and applicant support",
+     "found": "Annual ballot (2026-27 ballot 1 May to 1 June 2026, 280 places incl. dependants, AUD 25 fee, ImmiAccount); government Support Service already exists; no employer duty. Weak (C9).",
+     "status": "screened"
+    },
+    {
+     "category": "36. Fisheries sector: crew, observers, FAD users and local fishing operators",
+     "found": "Fisheries Management Regulations 2025 (published 23 June 2026 on tuvalufisheries.tv): permits, ALCs, FAD monitoring and reporting, observer protections. Page does not mention exporters, processors, local agents or fees; full PDF not read. Known K01.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "Tuvalu business licence requirements Business Licensing Act Tuvalu Business Registry",
+    "Tuvalu 2025 2026 new regulations gazette Act passed Parliament",
+    "Tuvalu Ministry of Health pharmacy regulation Pharmacy Act medicines import licence Tuvalu",
+    "Tuvalu Tax Administration GST income tax return small business filing",
+    "Tuvalu National Provident Fund employer contributions register employers",
+    "Tuvalu cooperative societies Act island cooperative registrar annual returns audit",
+    "Tuvalu liquor licence Falekaupule kaupule licensing bar kava fuel petroleum import",
+    "Tuvalu Ship Registry Maritime Administration small vessels inter-island ferry survey inspection regulations",
+    "Tuvalu seafarers manning agency recruitment licence TMTI seafarer certificate renewal STCW",
+    "Tuvalu Biosecurity Act 2017 import permit quarantine requirements importers Funafuti",
+    "Tuvalu guest house hotel licence tourism Act accommodation register",
+    "Tuvalu copra Kaupule cooperative society Falekaupule Trust Fund copra scheme",
+    "Tuvalu Consumption Tax Act registration threshold return monthly taxable person",
+    "Tuvalu Money Laundering Proceeds of Crime Act reporting entities FIU",
+    "Falepili Mobility Pathway Tuvalu ballot registration 2026 applicants employers",
+    "Tuvalu work permit employer foreign worker Immigration Act renewal fee",
+    "Tuvalu NGO registration Incorporated Societies Act charitable trusts annual return TANGO",
+    "Tuvalu Employment Relations Act 2017 employer obligations records domestic workers minimum wage",
+    "Tuvalu motor vehicle licensing road traffic registration motorbike commercial vehicle Act",
+    "TNPF Tuvalu National Provident Fund online employer portal; Tuvalu seafarers database system recruitment agencies (2 searches)"
+   ],
+   "searches": 22
+  },
+  "tag": "w2b78"
+ }
+}

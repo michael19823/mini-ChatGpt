@@ -564,5 +564,143 @@
    "searches": 18
   },
   "tag": "w2b78"
+ },
+ "sonnet:tonga:ALL1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real but weak. The Intoxicating Liquor (Amendment) Act 2010 (not \"Liquor Licensing Act\") created a police-chaired Liquor Licensing Authority with 7 licence types. Renewal is due 30 days before expiry, with tax clearance, Works suitability permit, fire, police and health reports. These details come only from an undated third-party wiki. The wiki shows a $50 late fee, which is a tiny penalty. I found no official source confirming current fees or procedure, no licensee count, and no competitor or online portal. Tonga is tiny, so licensees likely number in the low hundreds. Renewal is annual, and licensees can file by hand at the Central Police Station. Willingness to pay is low and the market is too small for a solo founder. I could not confirm that nothing exists, and the Act's renewal text was not read.",
+   "searches": 1,
+   "sources": "https://paclii.org/to/legis/num_act/ila2010320 ; https://wikiprocedure.com/index.php/Tonga_-_Obtain_Liquor_Licence ; https://matangitonga.to/print/6485",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b78"
+ },
+ "sonnet:tonga:ALL2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The Business Licences Act as amended requires an annual online \"notice of continued business activity\". The Registrar cancels the licence if it is not filed within 3 months of the due date. Reinstatement needs the notice plus late fees and penalties. The government registry (businessregistries.gov.to) already does the core job: it shows the due month on login and takes the online filing. The fees I saw (online renewal $25, late fee $50, reinstatement $100) come from an unofficial wiki. I found no private competitor, but also no gap. The filing is a single low-value form, so willingness to pay is low. Market size is not found. The 2013 \"permanent licence\" report was not checked, though the amended Act (2012) and the registry guide both describe yearly renewal.",
+   "searches": 1,
+   "sources": "https://businessregistries.gov.to/Documentation/TO/How to obtain a business licence.pdf ; https://paclii.org/to/legis/num_act/bla2012263 ; https://businessregistries.gov.to/?p=250 ; https://wikiprocedure.com/index.php/Tonga_-_Obtain_Business_Licence",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b78"
+ },
+ "sonnet:tonga:ALL3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Under the Fisheries Management (Processing and Export) Regulations 2008, an export licence requires a licensed establishment with an effective HACCP system, weekly Fish Processing Log sheets (Form 1, Schedule 3) sent to the Ministry, and a health certificate per consignment. The Ministry publishes the forms (Forms 5, 8, 11), and FAOLEX lists the regulations as not repealed. I found no software or e-portal doing this job and no electronic submission rule. The market is tiny, probably a handful of licensed establishments, and I found no register count. The Ministry is paper-based, and local consultants such as Quality Solutions sell HACCP services. Buyer count and willingness to pay are very low, so it is not a viable solo-founder SaaS. Not checked: establishment count, amendments after 2010, and the competent authority for seafood safety.",
+   "searches": 2,
+   "sources": "https://leap.unep.org/en/countries/to/national-legislation/fisheries-management-processing-and-export-regulations-2008 ; https://tonga.tradeportal.org/media/FisheriesManagementExportandProcessingRegulations.pdf ; https://www.tongafish.gov.to/images/documents/Application%20Forms/ProcessingExport/FORM%208.pdf ; https://matangitonga.to/node/40836",
+   "suggested_score": 2,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b78"
+ },
+ "triage:tonga": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "ALL1",
+     "reason": "Small licensed premises with recurring renewal evidence pack; in scope, not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL2",
+     "reason": "Business licence and registry renewal is a different duty from K03 (consumption tax/bookkeeping); related K03."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL3",
+     "reason": "Fish processors and seaweed exporters are a different buyer group and duty from K01 kava; related K01."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL4",
+     "reason": "Small family accommodation registration; unverified, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL5",
+     "reason": "Small operator group with annual licence and season duties; in scope, verifiers decide size."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL6",
+     "reason": "Deadline-driven one-off for many small importers; different duty from K04 customs entry; related K04."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL7",
+     "reason": "Co-operatives, societies and church bodies with annual filings are explicitly in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL8",
+     "reason": "Small pharmacies bear premises and import licence duties; in scope."
+    },
+    {
+     "decision": "known",
+     "id": "ALL9",
+     "reason": "Same MTO/forex provider group and AML duty as K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "known",
+     "id": "ALL10",
+     "reason": "Kava exporter permits and phytosanitary paperwork is the same group and duty as K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "ALL11",
+     "reason": "Private lessors and lessees of registered leases; recurring rent and renewal duty, unverified so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Fuel station owners face recurring safety and licence inspections; in scope."
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS2",
+     "reason": "Same licensed premises buyer group and liquor licence renewal duty as ALL1.",
+     "ref": "ALL1"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Licensed private security providers with renewal duty; small firms, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Licensed electrical contractors with licence and inspection duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Pesticide dealers hold a licence and restricted-use records; small firms, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Village water committees are community bodies with recurring water-safety duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Beekeepers and their association face registration and export traceability; different from K01."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Commercial water takers need permits from the Lands CEO; small firms, in scope."
+    }
+   ]
+  },
+  "tag": "w2b78"
  }
 }

@@ -1,5 +1,5 @@
 <context>
-Today's date is 2026-10-08. Your training data ends well before this date. Laws, licences, portals, deadlines, operator counts and software products change often, so check them with search before you rely on them, even when you feel sure. Things that can't change need no check.
+Today's date is 2026-10-09. Your training data ends well before this date. Laws, licences, portals, deadlines, operator counts and software products change often, so check them with search before you rely on them, even when you feel sure. Things that can't change need no check.
 Overall goal: find software opportunities a solo founder could build and sell to small regulated businesses, especially "quiet" ones: small, often family-run businesses that rarely post online but must keep registers or file recurring reports with an authority. The study covers about 200 countries. This is the discovery pass for one country, named in <item> at the end. The study already has ideas for this country, listed in <known>; this pass looks for what the study missed. Your job is recall: find and list every plausible candidate. A separate stage verifies or dismisses them, so don't hold candidates back.
 </context>
 

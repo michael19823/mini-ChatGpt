@@ -1,4 +1,65 @@
 {
+ "challenge:singapore:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Partial overlaps: OFWAS, MOM's free system where employers register worker addresses, and GoBusiness for licence renewals.",
+   "reason": "I found nothing that kills the idea. There is no FEDA-specific operator software in Singapore. MOM's systems (OFWAS addresses, FWMOMCare, GoBusiness licensing) serve employers, workers and licensing, not day-to-day operator compliance. But the recurring workload is light: a full licence lasts 3 years, the nominal roll is due only \"in the form, manner and frequency\" MOM sets, and incidents, changes and evictions are one-off events. Employers already update worker addresses in the free OFWAS system. The market is small. MOM projected about 1,600 dorms in total, and by June 2024, 78% were licensed. About 200 of them are contractors' temporary quarters, which are short-lived and often run by larger builders. Not settled: how often the nominal roll and management reports are actually due (the licence-condition PDFs would not parse) and how much operators would pay.",
+   "searches": 8,
+   "sources": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/housing/apply-for-a-feda-licence ; https://www.mom.gov.sg/newsroom/press-releases/2022/0906-expanded-feda ; https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2024/0806-written-answer-to-pq-on-percentage-of-foreign-worker-dormitories-licenced-under-feda ; https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2023/0704-written-answer-to-pq-on-construction-temporary-quarters-inspection-under-feda ; https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2025/1015-written-answer-to-pq-on-commercial-dormitory-bed-supply ; https://www.mom.gov.sg/newsroom/press-releases/2020/0610-workers-in-dormitories-returning-to-work-and-updates-on-accesscode ; https://www.mom.gov.sg/-/media/mom/documents/foreign-manpower/housing/fcd-forms-updated/fcd-ofwas-registration-form.docx ; https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/housing/requirements-for-dormitory-operators/setting-up-a-new-dormitory ; https://apps.odoo.com/apps/modules/16.0/dormitory_management_odoo",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b22"
+ },
+ "challenge:singapore:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "The claim mixes up MUIS's own categories. According to MUIS's 2022 EE launch FAQ (Annex A) and its Category 1/2 infographic, Category 1 covers hawker stalls, snack bars, bakeries, school canteens and short-term stalls. MUIS says these 'are no longer required to establish a Halal Team and HalMQ plan', have less documentation, and hawker and school canteen stalls may buy from supermarkets. The HalMQ plan, halal team and internal audits apply to Category 2: restaurants, kiosks, halal sections, and chain, franchise and central-kitchen outlets. Chains usually run their own QA. The smallest buyers therefore have light duties. MUIS certification is also voluntary under AMLA, and MUIS's free e-service portal handles menu and ingredient submissions and renewals.",
+   "reason": "As framed, the candidate fails. MUIS says Category 1 outlets (hawkers, bakeries, canteen and short-term stalls) are exempt from the HalMQ plan and halal team and have reduced paperwork. The heavier record-keeping falls on Category 2 restaurants and chains, and chains often have in-house QA. Certification is voluntary. The free MUIS e-service covers submissions. Generic halal-assurance software also exists: Malaysia's Dagangasia HIAS is listed on the Microsoft marketplace for SMEs. A pivot to small independent Category 2 restaurants could still be worth checking, but that market is small: MUIS said it certified more than 4,000 premises in 2016 (I found no newer figure), and that count includes manufacturers and chains. I couldn't parse the v4.1 PDFs, so whether the 2026 text kept the Category 1 exemption is unverified.",
+   "searches": 8,
+   "sources": "https://muis.gov.sg/-/media/Files/Halal/HCC-2022-ver-1/Annex-A---FAQ_EE_Launch-of-Muis-HCC.ashx ; https://muis.gov.sg/-/media/Files/Halal/HCC-2022-ver-1/infographics/Eating-Establishment-Scheme--Catergories-1--22022.ashx ; https://file.go.gov.sg/hcc-eec2.pdf ; https://gobusiness.gov.sg/licensing-faqs/halal-certification ; https://marketplace.microsoft.com/product/web-apps/daganghalal.hias_v1 ; https://rafflescorporateservices.com/?p=5553 ; https://www.muis.gov.sg/Halal/About ; https://www.foodnavigator.com/Article/2020/04/27/Faster-cheaper-halal-certification-WhatsHalal-targets-food-firms-in-Malaysia-and-Indonesia/",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b22"
+ },
+ "critic:singapore": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Private hire / taxi / ride-hail drivers and vehicle owners (LTA Point-to-Point Passenger Transport Industry Act)",
+     "first_search": "Point-to-Point Passenger Transport Industry Act private hire car driver vocational licence renewal operator obligations LTA 2026",
+     "why": "Coverage for transport only looked at lorry speed limiters; Singapore has tens of thousands of self-employed taxi/PHV drivers and small fleet and rental operators with LTA licence, vocational licence, inspection and platform-reporting duties, and 2024-2026 rules (e.g. driver and operator obligations, platform-work Act) add recurring tasks."
+    },
+    {
+     "category": "Platform Workers Act 2024 (in force 1 Jan 2025): small platform operators and self-employed platform workers, CPF and work-injury compensation",
+     "first_search": "Platform Workers Act 2024 platform operator obligations CPF work injury compensation small operators MOM",
+     "why": "A new 2024-2027 law creating recurring contribution, WICA insurance and reporting duties on small delivery and ride operators; absent from coverage."
+    },
+    {
+     "category": "Skilled-trade and building-professional licensing: electrical workers, gas installers, plumbers, air-conditioning/refrigerant and renovation contractors (EMA, PUB, BCA)",
+     "first_search": "EMA licensed electrical worker renewal licensed electrical installation periodic inspection PUB licensed plumber registration requirements",
+     "why": "Many small contractors (licensed electrical workers, PUB licensed plumbers, EMA gas service workers, BCA-registered contractors) have licence-renewal, CPD and inspection-record duties; the coverage only addressed lifts and pressure vessels."
+    },
+    {
+     "category": "Pest-control operators and general pest-control / fumigation record duties; also NEA dengue/mosquito-breeding compliance for premises and construction sites",
+     "first_search": "NEA pest control operator licence record keeping pesticide use report requirement Singapore",
+     "why": "Marked only partly screened under category 14, and NEA mosquito-control fines, with housekeeping and site-inspection records, hit many small premises and contractors every year."
+    },
+    {
+     "category": "Data protection and personal-data duties: PDPA, Data Protection Officer registration and breach notification for small firms and clubs",
+     "first_search": "PDPA DNC Registry check small business obligation Data Protection Officer BizSAFE PDPC breach notification SME",
+     "why": "A mandatory recurring duty (DPO appointment, breach notification to PDPC within 3 days, DNC registry checks before marketing) that falls on every small business and association; not in coverage and risks being a generic tool unless a narrow done-for-you angle exists."
+    },
+    {
+     "category": "Skills and levy-based obligations: foreign worker levy, work permit and S Pass quota, and SkillsFuture/Progressive Wage compliance for small SMEs (non-FDW)",
+     "first_search": "MOM work permit renewal levy quota Dependency Ratio Ceiling Local Qualifying Salary 2026 SME employer obligations",
+     "why": "Foreign worker work-permit renewals, levy payments, quota and dormitory/medical rules fall on thousands of small firms (construction, F&B, marine, process) and were only covered for FDW households and dormitory operators; the 2026 COMPASS and local-qualifying-salary changes are recent."
+    }
+   ]
+  },
+  "tag": "w2b22"
+ },
  "discover:A:singapore": {
   "result": {
    "blocked_searches": 0,
@@ -388,5 +449,875 @@
    "searches": 28
   },
   "tag": "w2b21"
+ },
+ "discover:B:singapore": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small MCSTs (esp. 100 units or fewer) and small managing agents",
+     "category": "31. MCSTs and managing agents (BMSMA)",
+     "evidence": "https://www.allenandgledhill.com/sg/perspectives/articles/32566/sgkh-bca-consults-on-review-of-strata-management-regime-to-enable-mcsts-to-maintain-and-run-estates-better ; https://www.rajahtannasia.com/viewpoints/public-consultation-on-proposed-review-of-building-strata-management-act-regarding-mcst-obligations-authority-and-processes/",
+     "existing": "Qornerstone Estate (PSG pre-approved, MCSTs of 100 units or fewer), iCondo, ADDA, custom builders (https://www.gobusiness.gov.sg/images/psg/IBASE_Technology_20200155_Annex_3_20200625151908_Part_12.pdf ; https://blog.ind.adda.io/?p=9259)",
+     "known_mark": "new",
+     "known_note": "Not near any known id; K10/K19 are construction permits.",
+     "name": "MCST annual compliance and BCA submission pack (AGM, sinking fund, essential facilities records)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Building Maintenance and Strata Management Act; BCA consultation 9 Mar to 8 Apr 2026 proposes annual submission of budget tables, audited accounts, management and sinking fund balances, lift budget and age, plus mandatory council training and penalty rise from S$3,000 to S$5,000. Proposals only, no legislation date.",
+     "unchecked": "Number of MCSTs; whether the BCA submission becomes law and when; managing-agent incumbents' coverage; local-language search not applicable (English)."
+    },
+    {
+     "buyer": "Small licensed travel agencies (General and Niche Licence)",
+     "category": "32. Licensed travel agents (Travel Agents Act)",
+     "evidence": "https://www.stb.gov.sg/licensing-support/licenses/travel-agent-licence/ ; https://www.stb.gov.sg/about-stb/media-publications/media-centre/suspension-of-travel-agent-licence--vacanza-global-travels-pte--ltd--/ ; https://www.stb.gov.sg/about-stb/media-publications/media-centre/revocation-of-travel-agent-licence--sports-travel-360-pte--ltd-/ ; https://sleek.com/sg/resources/start-a-travel-agency/",
+     "existing": "None seen; accounting firms likely cover it",
+     "known_mark": "new",
+     "name": "Licensed travel agent net-value, audited accounts and ABPR tracker",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Travel Agents Regulations 2017 reg 9(1)(b): net value at least S$100,000 at all times (General Licence); audited accounts and Annual Business Profile Return within 6 months of FYE (third-party source); 2-year licence renewal via TRUST. 2026 enforcement: Vacanza suspended Jun 2026, Sports Travel 360 revoked May 2026.",
+     "unchecked": "Number of licensed agents; Niche net-value figure (sources conflict); ABPR deadline from STB itself; competitor search not run (budget)."
+    },
+    {
+     "buyer": "Licensed employment agencies, including maid agencies (Comprehensive and Select licences)",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://www.mom.gov.sg/employment-agencies/renew-a-licence ; https://www.mom.gov.sg/employment-agencies/notify-mom-of-changes ; https://www.mom.gov.sg/-/media/mom/documents/employment-agencies/basic-compliance-checklists/self-assessment-compliance-checklist-comprehensive-all-non-fdw.docx",
+     "existing": "Only RationalGo custom AI app builder marketing page seen (https://rationalgo.ai/resources/app-builder-singapore/singapore-recruitment-agency-app-builder); no dedicated EA compliance product found",
+     "known_id": "K12",
+     "known_mark": "new",
+     "known_note": "Different buyer and duty from K03/K12 (security and cleaning licensees); related to Group A cat 1 and 15 workers.",
+     "name": "Employment agency licence compliance tracker (personnel registration, change notices, fee-scale and dispute disclosures)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Employment Agencies Act and Licence Conditions: renewal about 2 months before expiry with late fee S$100; branch changes within 7 working days; deregister personnel within 3 working days; signboard, written fee scale, registration cards; MOM self-assessment checklists.",
+     "unchecked": "Number of EAs; record-retention rules in the Licence Conditions; whether maid-agency systems already bundle this."
+    },
+    {
+     "buyer": "Small CSPs: corpsec firms, accountants, nominee-director and registered-office providers",
+     "category": "28. Notaries, land agents, brokers and AML-reporting professionals",
+     "evidence": "https://www.acra.gov.sg/news-events/news-announcements/865/ ; https://www.clydeco.com/en/insights/2025/08/the-corporate-service-providers-act-2024-csp-act",
+     "existing": "AlgoCandy (CSP-specific AML platform, TrustRadius listing: https://www.trustradius.com/products/algocandy); generic AML platforms; firm cost estimate S$1,500 to S$6,000 per year",
+     "known_id": "K13",
+     "known_mark": "new",
+     "known_note": "K13/K17 cover corporate secretarial calendars; this is a different duty (AML under the CSP Act). A product already targets CSPs.",
+     "name": "CSP Act AML and registration pack for small corporate service providers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Corporate Service Providers Act 2024 in force 9 Jun 2025: registration with ACRA, CDD, risk assessment, staff screening and training; fines for senior management; unregistered operation up to S$50,000 or 2 years.",
+     "unchecked": "Number of registered CSPs; whether the in-house corpsec suites bundle CDD; ACRA reporting forms."
+    },
+    {
+     "buyer": "Licensed moneylenders (Registry of Moneylenders, MinLaw)",
+     "category": "28. Notaries, land agents, brokers and AML-reporting professionals",
+     "evidence": "https://rom.mlaw.gov.sg/files/Licence%20Conditions/Licence_Conditions_wef_1_Apr_2026.pdf ; https://eservices.mlaw.gov.sg/rom/",
+     "existing": "Competitor search found no moneylender back-office software for Singapore (only consumer pages and spam). Not proof that none exists.",
+     "known_id": "K22",
+     "known_mark": "new",
+     "known_note": "K22 (money changers, MAS-supervised) is a different regulator and buyer.",
+     "name": "Moneylender back-office and returns compliance kit",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Moneylenders Act 2008, Rules 2009 and Licence Conditions wef 1 Apr 2026: per-premises manager written test, Registrar approval for share changes, nominee registers within 7 days, filing of moneylender returns via e-services portal, Notes to Borrowers display.",
+     "unchecked": "Number of licensees; return frequency and content (User Guide for Filing of Moneylender's Returns not read); lender-record rules; low willingness to pay not assessed."
+    },
+    {
+     "buyer": "SFA-licensed rice importers and wholesalers",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://www.enterprisesg.gov.sg/e-services/rice-stockpile-scheme/rice-stockpile-scheme ; https://www.customs.gov.sg/businesses/national-single-window/tradenet/competent-authorities-requirements/SFA-Rice ; https://sfa.gov.sg/docs/default-source/public-consultation/5-fssb-reach-segment-d.pdf",
+     "existing": "None seen; SFA portal handles submissions",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "K02 is FSSA recall for food importers; this is a stockpile duty for rice only.",
+     "name": "Rice importer and wholesaler Minimum Stockholding Requirement tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Rice Stockpile Scheme (SFA since 1 Apr 2023): Monthly Import Quantity commitment (white rice minimum 50 tonnes) and stock at designated warehouse (about twice MIQ); draft Food Safety and Security Bill makes it a standalone Minimum Stockholding Requirement.",
+     "unchecked": "Number of licensees (likely few dozen); whether FSSB passed; warehouse operators' reporting."
+    },
+    {
+     "buyer": "Small GP, dental and TCM clinics and lab licensees under HCSA",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://www.moh.gov.sg/hcsa/what-is-hcsa/apply-for-license/how-to-apply ; https://www.allenandgledhill.com/sg/publication/articles/13989/healthcare-services-bill-passed-in-parliament-provisions-introduced-to-strengthen-governance-requirements-for-providers-of-healthcare-services",
+     "existing": "None seen; HALP portal is state system; clinic management systems (K08) cover EMR",
+     "known_id": "K08",
+     "known_mark": "new",
+     "known_note": "K08 is NEHR middleware; this is licence administration, low frequency.",
+     "name": "HCSA licence-change deadline and CGO approval tracker for small clinics",
+     "score": 2,
+     "status": "weak",
+     "trigger": "HCSA: renewal window 6 to 2 months before expiry (late fee), new premises application 2 months ahead, cessation or name change 1 month ahead, amendments 10 days ahead, Clinical Governance Officer needs prior DG approval.",
+     "unchecked": "Licence term length; whether clinics outsource to consultants; claims-submission software for CHAS/Medisave not checked."
+    },
+    {
+     "buyer": "Small retail pharmacies and dispensing GP clinics",
+     "category": "25. Pharmacies, medicine importers, controlled chemicals users",
+     "evidence": "https://www.hsa.gov.sg/other-regulations/retail-pharmacy-licence/overview/ ; https://www.hsa.gov.sg/other-regulations/controlled-drugs-psychotropic-substances/controlled-drugs/apply/ ; https://www.sma.org.sg/sma_news/3011/news/3011n1.html",
+     "existing": "Modeus electronic controlled drug register (vendor claim, Singapore presence), PharmaPOS (Capterra, price from US$299; no CD register feature stated): https://www.capterra.com.sg/software/1083818/PharmaPOS",
+     "known_id": "K08",
+     "known_mark": "new",
+     "known_note": "Overlaps clinic management systems that may already include dispensing registers.",
+     "name": "Poisons and controlled-drug register for dispensing clinics and small retail pharmacies",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Misuse of Drugs Regulations regs 14 to 17 (registers, same-day entry, preservation; 2 years poisons and 3 years controlled drugs per SMA article); retail pharmacy licence under Health Products Act; HSA e-licences from 25 Mar 2026.",
+     "unchecked": "Whether the certified GP CMSs (Plato, Clinic Assist etc.) already include registers; precursor chemical users not searched."
+    },
+    {
+     "buyer": "Small licensed hotels, hostels and guest houses (4 or more rooms)",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.hlb.gov.sg/amendments-to-hotels-licensing-regulation/ ; https://www.mha.gov.sg/media-room/newsroom/requirement-for-presentation-of-physical-identity-card-when-checking-into-local-hotels/ ; https://isomer-user-content.by.gov.sg/1/e95795f8-8c89-48e0-91dd-4d837fa6ad51/EVA ToU 13 Feb 26.pdf",
+     "existing": "Duve EVA integration, OKKAMI EVA-Ready, Mews marketplace add-ons",
+     "known_mark": "new",
+     "name": "Hotel and hostel guest ID and EVA reporting for small accommodation",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Hotels Licensing Regulations and National Registration Regulations: record guest details; guest ID presented at check-in (5 Aug 2026 PQ answer); STB EVA system for non-resident guests (Terms of Use 13 Feb 2026), mandatory status unconfirmed.",
+     "unchecked": "Number of small hotels/hostels; EVA mandatory or voluntary; short-term rental (URA 3-month rule) not searched."
+    },
+    {
+     "buyer": "Convenience shops, provision shops, bars, small F&B licensees",
+     "category": "34. Tobacco retail and liquor licensees",
+     "evidence": "https://www.hsa.gov.sg/tobacco-regulation/ ; https://www.gobusiness.gov.sg/licensing-faqs/tobacco-retail-licence ; https://www.police.gov.sg/-/media/SPF/Images/Licences-Documents/Conditions-for-liquor-licence-1-May-2026.pdf",
+     "existing": "POS age-check prompts generic; none specific seen",
+     "known_mark": "new",
+     "name": "Tobacco retail and liquor licence conditions log",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Tobacco and Vaporisers Control Act from 1 May 2026 (per-outlet licence, 3-day change reporting, suspension for minor sales); Police liquor licence conditions wef 1 May 2026.",
+     "unchecked": "No recurring filing found; mostly licence conduct, not records; counts of licensees."
+    },
+    {
+     "buyer": "Dental, GP, vet and industrial X-ray licence holders",
+     "category": "35. NEA radiation licence holders",
+     "evidence": "https://www.nea.gov.sg/our-services/radiation-safety/guidelines-for-licence-application-and-annual-payment/additional-licensing-information",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "NEA radiation licence renewal and dose-record keeper for dental and X-ray clinics",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Radiation Protection Act: licence for irradiating apparatus via GoBusiness, renewals and annual payments; ionising radiation regulations amendments consulted 2022.",
+     "unchecked": "Dosimetry record duties, licence term, number of holders, whether GoBusiness reminders suffice."
+    },
+    {
+     "buyer": "Tuition and enrichment centres with 10 or more learners; CPE-registered small PEIs",
+     "category": "36. Private education institutions (MOE/CPE)",
+     "evidence": "https://www.moe.gov.sg/private-education/register-school ; https://www.gobusiness.gov.sg/browse-all-licences/SkillsFuture-Singapore-(SSG)/Registration-of-Private-Education-Institutions",
+     "existing": "Tuition management apps exist (not checked); K11 covers preschools only",
+     "known_id": "K11",
+     "known_mark": "new",
+     "known_note": "K11/K20 are preschool management; different buyer.",
+     "name": "Private education institution registration and renewal tracker (tuition, enrichment, language, music schools)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Private Education Act: registration with MOE or CPE; CPE renewal at least 3 months before expiry; GoBusiness filing; course write-ups and fire safety certificate.",
+     "unchecked": "Annual submission duty, teacher registration cycle, counts, competitor search."
+    },
+    {
+     "buyer": "Small trading companies exporting listed dual-use goods",
+     "category": "30. Small exporters and importers",
+     "evidence": "https://www.customs.gov.sg/businesses/strategic-goods-control/permit-and-registration-requirements/ ; https://www.customs.gov.sg/files/Frequently_Asked_Questions_SGCO2025.pdf",
+     "existing": "TradeNet declaration agents and front-ends (K16)",
+     "known_id": "K16",
+     "known_mark": "known",
+     "known_note": "Customs/TradeNet permit preparation already rejected as too competitive.",
+     "name": "Strategic Goods permit support for small traders",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Strategic Goods (Control) Order 2025 effective 1 Dec 2025; permits at least 5 working days before shipment; bulk permit updates."
+    },
+    {
+     "buyer": "Construction contractors",
+     "category": "27. Construction contractors",
+     "evidence": "https://www.allenandgledhill.com/vn/publication/articles/31433/mom-aligns-reporting-and-compensation-requirements-under-workplace-safety-and-health-act-2006-and-work-injury-compensation-act-2019",
+     "known_id": "K19",
+     "known_mark": "known",
+     "known_note": "Already rejected (K10/K19).",
+     "name": "Construction ePTW and WSH documentation (reappeared via WSH search)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "WSH Act; occupational disease list aligned with WICA from 1 Dec 2025"
+    },
+    {
+     "buyer": "Cleaning and security licensees",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "Covered by known ideas",
+     "known_id": "K03",
+     "known_mark": "known",
+     "known_note": "K03/K12 already cover this.",
+     "name": "Cleaning and security workforce compliance (seen via EA search)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "PWM and licensing"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Only SCDF Petroleum and Flammable Materials storage licence (LPG at eating establishments exempt at 200 kg or less) surfaced; no recurring small-operator filing found. Nothing new beyond K15-type fire-licence items. Petrol-station reporting not verified.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Rice import/wholesale licences (SFA, since 1 Apr 2023) with stockpile obligation; draft Food Safety and Security Bill would turn it into a standalone Minimum Stockholding Requirement. Few licensees, mid-size firms. One weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Registry of Co-operative Societies (MCCY) publishes an annual statutory checklist (Apr 2023) and AFS-based reporting; few and mostly large co-ops, no software gap found. Nothing worth a candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "HCSA licence-change deadlines (renewal 6 to 2 months before expiry, add premises 2 months before, CGO now needs prior DG approval); CHAS/Medisave/Healthier SG changes in 2026. NEHR middleware already K08. One weak HCSA tracker candidate; claims software not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "HSA retail pharmacy licence, Misuse of Drugs Regulations registers (poisons 2 yrs, controlled drugs 3 yrs per SMA article), HSA e-licences from 25 Mar 2026. Vendors Modeus and PharmaPOS exist. Precursor/chemical users not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Security and cleaning already K03/K12. New angle: Employment Agency licence holders (MOM self-assessment checklists, personnel registration, 7-working-day change notices). Candidate EA compliance tracker.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "No official 2026 WSH deadline for small contractors confirmed; occupational disease list aligned across WSHA and WICA from 1 Dec 2025 (reporting change). Site permits are K10/K19. BCA strata consultation led to category 31.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Corporate Service Providers Act in force 9 Jun 2025 (registration, AML, CDD, training). Moneylenders Act licence conditions updated 1 Apr 2026. Estate agents (CEA) and notaries/lawyers not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Hotels Licensing Regulations amended 1 Jan 2025 (GoBusiness filing); guest ID must be presented at check-in (parliamentary answer 5 Aug 2026); STB EVA system reports guest data to ICA, vendors (Duve, OKKAMI) already integrate. Short-term rental rules not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Strategic Goods (Control) Order 2025 in force 1 Dec 2025; permit via Customs; a reported Apr 2026 amendment is unconfirmed. Food import traceability is K02. Timber, fish and CITES not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "31. (Singapore-specific) MCSTs and managing agents under the Building Maintenance and Strata Management Act",
+     "found": "BCA consultation 9 Mar to 8 Apr 2026 proposes annual MCST submission of budgets, audited accounts, fund balances and lift data, mandatory council training, higher penalties. Not yet law. Software exists (Qornerstone Estate, iCondo, ADDA).",
+     "status": "screened"
+    },
+    {
+     "category": "32. (Singapore-specific) Licensed travel agents (Travel Agents Act 1975)",
+     "found": "Net value at least S$100,000 for General Licence at all times, audited accounts and Annual Business Profile Return, TRUST contact updates. STB suspended Vacanza (Jun 2026) and revoked Sports Travel 360 (May 2026) for these failures. No software competitor search run.",
+     "status": "screened"
+    },
+    {
+     "category": "33. (Singapore-specific) Licensed moneylenders (Moneylenders Act 2008)",
+     "found": "Registry of Moneylenders licence conditions wef 1 Apr 2026: manager written test, prior approval for share changes, nominee registers sent within 7 days, e-services portal for returns. Search found no compliance or back-office software.",
+     "status": "screened"
+    },
+    {
+     "category": "34. (Singapore-specific) Tobacco retail and liquor licensees",
+     "found": "Tobacco and Vaporisers Control Act from 1 May 2026; per-outlet licence, 3-day change reporting, suspension for sales to minors. Police liquor licence conditions wef 1 May 2026. No recurring filing found; weak.",
+     "status": "screened"
+    },
+    {
+     "category": "35. (Singapore-specific) NEA radiation licence holders (dental, X-ray users)",
+     "found": "X-ray apparatus needs NEA licence through GoBusiness; renewal and annual payment. Dosimetry record rules not found; unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "36. (Singapore-specific) Private education institutions and tuition or enrichment centres (MOE and CPE registration)",
+     "found": "Registration with MOE or CPE for 10 or more learners; CPE renewal at least 3 months before expiry; no annual submission rule confirmed. Unverified.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "Singapore petrol station LPG dealer licence record keeping requirements 2026",
+    "Singapore Food Agency rice stockpile scheme importers licence requirements 2026",
+    "Registry of Co-operative Societies Singapore annual returns audit requirements co-operatives",
+    "Healthcare Services Act 2026 clinics new licensee requirements MOH reporting deadline",
+    "HSA pharmacy controlled drugs register poisons licence Singapore retail pharmacy requirements",
+    "Employment Agencies Act Singapore licence renewal record keeping MOM employment agency 2026",
+    "Corporate Service Providers Act ACRA registered CSP AML obligations small corporate service providers 2025",
+    "Hotels Act Singapore Hotels Licensing Board guest register requirements licence 2026 amendment",
+    "Singapore Strategic Goods Control permit exporters small trading companies requirements 2026 Customs",
+    "Singapore licensed moneylenders Registry of Moneylenders requirements returns 2026 new rules",
+    "MCST management corporation Singapore statutory duties AGM sinking fund periodic structural inspection software",
+    "Committee for Private Education private education institutions annual submission registration requirements tuition centres 2026",
+    "Singapore travel agent licence STB Travel Agents Act annual requirements licensed travel agents 2026",
+    "Singapore tobacco retail licence HSA liquor licence Police licensee obligations 2026 changes",
+    "NEA Radiation Protection Act licence dental clinics X-ray irradiating apparatus renewal dosimetry records Singapore",
+    "Singapore Medisave Healthier SG CHAS MediClaims GP clinic claims submission software 2026 changes",
+    "Singapore Workplace Safety and Health 2026 new regulations contractors small firms deadline WSH Act amendment",
+    "MCST management software Singapore condo strata management app managing agent sinking fund AGM platform",
+    "employment agency software Singapore MOM compliance EA licence maid agency management system",
+    "CSP Act AML compliance software small corporate service provider Singapore risk assessment CDD tool"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b22"
+ },
+ "gapfill:singapore": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small PHV rental/leasing companies and car-owner fleets (LTA-licensed or partnered with Grab/other platforms)",
+     "category": "18. Transport operators (private hire / taxi, P2P Act)",
+     "evidence": "https://www.lta.gov.sg/content/ltagov/en/newsroom/2024/12/news-releases/award_of_operator_licences_and_implementation_of_phase_1.html ; https://www.mot.gov.sg/news-resources/newsroom/breakdown-of-pdvl-and-tdvl-first-time-approvals-and-renewal-patterns-for-past-five-years/ ; https://sso.agc.gov.sg/Act/PPPTIA2019",
+     "existing": "Grab Rentals and platform-side checks; RationalGo bespoke app builder pages; no off-the-shelf PDVL-expiry fleet product found; no LTA bulk status API found.",
+     "known_mark": "new",
+     "name": "PHV and taxi rental-fleet driver licence and operator-conditions tracker",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Point-to-Point Passenger Transport Industry Act 2019; PDVL/TDVL validity 3 years; operator licence renewals and updated conditions from 1 Jan 2025; 3-year ownership rule for PHCs from 19 Feb 2025; annual inspection for PHCs aged 3-10 yrs (third-party summary, Nov 2022 data).",
+     "unchecked": "Number of small PHV rental operators; whether platforms already block expired PDVLs so operators need no tool; LTA operator licence conditions text; local-language competitor search not run."
+    },
+    {
+     "buyer": "Small delivery, ride, courier and gig-matching operators that meet the PWA platform-operator definition",
+     "category": "31. Platform Workers Act 2024",
+     "evidence": "https://www.mom.gov.sg/employment-practices/platform-workers-act/mandatory-notification-of-platform-operators ; https://www.mom.gov.sg/employment-practices/platform-workers-act/what-it-covers ; https://www.roedl.com/insights/newsflash-asean/2025_01/singapore-new-platform-workers-act-2024",
+     "existing": "Not searched; larger platforms build in-house; CPF/payroll vendors may cover remittance.",
+     "known_mark": "new",
+     "name": "Platform Workers Act compliance pack for small platform operators (CPF remittance, WIC insurance, earning slips, notification)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Platform Workers Act 2024 in force 1 Jan 2025: notify MOM within 14 days, monthly CPF deduction and remittance, WICA-level insurance, worker records and earning slips.",
+     "unchecked": "Count of small notified operators (MOM list not read); earning-slip and record-keeping rules; competitor search not run; likely few buyers beyond 5-10 big platforms."
+    },
+    {
+     "buyer": "Small LEW/electrical contractor firms that act as appointed LEW for many shops, F&B outlets, factories",
+     "category": "32. Skilled-trade licensing (EMA electrical)",
+     "evidence": "https://ema.gov.sg/regulations-licences/licences/electrical-supply-installation-licences/roles-and-responsibilities ; https://ema.gov.sg/resources/faqs/installation-licences/electrical-supply-installation-licence/how-do-i-renew-an-electrical-installation-licence ; https://www.mti.gov.sg/newsroom/written-reply-to-pq-on-electrical-installations-regulations/",
+     "existing": "No dedicated Singapore reminder/inspection software found in competitor search; EMA sends renewal notices; consultancies sell renewal as a service.",
+     "known_mark": "new",
+     "name": "LEW installation inspection and licence-renewal book for small electrical contractors",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Electrical installation licence: appointed LEW must inspect at required frequency (at least annually, more often for high-risk sites) and keep reports; renewal notice 6 weeks before expiry, filing at least 1 month before via ELISE.",
+     "unchecked": "Number of LEW firms and installations under one LEW; whether ELISE already offers bulk views; willingness to pay; which installations need licences (above 45 kVA threshold relevant for electricians)."
+    },
+    {
+     "buyer": "Small Licensed Gas Service Worker firms and F&B/commercial gas users",
+     "category": "32. Skilled-trade licensing (EMA gas)",
+     "evidence": "https://www.ema.gov.sg/resources/faqs/gas/gas-installation-and-inspection/when-is-my-gas-installation-due-for-an-inspection ; https://www.ema.gov.sg/regulations-licences/licences/worker-licences/gas-service-workers-licence",
+     "existing": "None searched; SP Group sends notification letters.",
+     "known_mark": "new",
+     "name": "Gas installation annual inspection and Certificate of Fitness log for non-residential gas users and gas contractors",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Annual inspection of non-residential gas installations by PE(Mech) or LGSW with Certificate of Fitness submission; SP Group notice 3 months ahead; Gas Act regs amended 1 Sep 2025.",
+     "unchecked": "Submission channel for the CoF; the 2025 amendments; number of LGSW firms; any existing portal that makes a tool redundant."
+    },
+    {
+     "buyer": "PUB licensed plumbers and small plumbing contractors",
+     "category": "32. Skilled-trade licensing (PUB plumbers)",
+     "evidence": "https://www.pub.gov.sg/Professionals/Requirements/Licensed-Plumbers/Application-for-Plumber-Licence ; https://gobusiness.gov.sg/browse-all-licences/Public-Utilities-Board-(PUB)/Plumber-Licence",
+     "existing": "Not searched.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Licensed plumber 3-year refresher and sanitary/water works record tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Licence for life but refresher course every 3 years or cancellation; works notification/permits not checked.",
+     "unchecked": "Number of licensed plumbers; PUB works submission duties and who files them; adjacency to K07 grease-trap log."
+    },
+    {
+     "buyer": "NEA-registered vector control operators and small pest-control firms",
+     "category": "14. Pesticide applicators / pest control (NEA vector control)",
+     "evidence": "https://www.nea.gov.sg/our-services/pest-control/vector-control-operator/conditions-of-licensing ; https://www.nea.gov.sg/our-services/pest-control/pest-control-operators",
+     "existing": "FieldCamp (markets to NEA VCOs: chemical log, VCO/VCT certificate records, fogging reminders), Pest Reports Pro, generic field-service tools (Jobber, Housecall Pro, Briostack), RationalGo bespoke.",
+     "known_mark": "new",
+     "name": "Vector control operator fogging-notification and licence-renewal tracker (NEA)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "NEA conditions: ePortal notification at least 24 hours before fogging (2 days for weekends/holidays), renewals of operator, technician and worker licences at least 1 month before expiry, licensed technician with 3+ years kept employed.",
+     "unchecked": "Number of VCOs; whether NEA requires any per-job record beyond fogging notices; validity periods not stated on the page; construction-site mosquito housekeeping record angle not tested (NEA fines S$3,000+ and Stop Work Orders)."
+    },
+    {
+     "buyer": "Micro-businesses and associations without a DPO",
+     "category": "33. PDPA / data protection duties",
+     "evidence": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Advisory-Guidelines/duty-to-check-dnc-register---part-iii-(270717).pdf?la=en ; https://pdpc.gov.sg/report-data-breach/before-you-report-a-data-breach-3/info ; https://www.pdpc.gov.sg/dptm",
+     "existing": "GDPRLocal, DPO-Consulting, Hawksford, MyWare outsourced DPO services; PDPC free tools and guides; DPTM consultants.",
+     "known_mark": "new",
+     "name": "Outsourced DPO and breach-notification kit for micro-SMEs and clubs",
+     "score": 2,
+     "status": "weak",
+     "trigger": "PDPA: DPO appointment, 3-calendar-day PDPC breach notification, DNC register checks before marketing; PDPC penalties of S$5,000-20,000 on SMEs in 2019.",
+     "unchecked": "Whether PDPC offers a free DNC or breach tool covering the gap; generic, no vertical angle found."
+    },
+    {
+     "buyer": "Small construction, F&B, marine, process and manufacturing employers with foreign workers",
+     "category": "34. Foreign worker levy, quota and work permit renewal (non-FDW SMEs)",
+     "evidence": "https://www.excellencesg.com/foreign-worker-levy-quota-singapore/ ; https://www.singaporesecretaryservices.com/singapore-work-permit-2026-eligibility-quota-levy-and-application-guide/ ; https://www.mom.gov.sg/maintenance/passes-and-permits/work-permit-for-foreign-worker/eservices-and-forms",
+     "existing": "MOM free quota calculator and levy e-service; JustLogin permit-expiry and levy alerts; Info-Tech and QuickHR payroll levy modules; SBO.sg levy calculator; RationalGo bespoke tracker.",
+     "known_id": "K18",
+     "known_mark": "known",
+     "name": "SME work permit / S Pass levy, quota and expiry tracker",
+     "score": 0,
+     "status": "weak",
+     "trigger": "MOM DRC quotas by sector, Local Qualifying Salary change from 1 Jul 2026 (S$1,800/S$900, unverified), monthly levy, renewals 7-8 weeks before expiry.",
+     "unchecked": "Generic HR/payroll; same buyer-duty as rejected K18 and adjacent to K03; no new angle found."
+    },
+    {
+     "buyer": "Licensed slaughter-houses and meat processors",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://gobusiness.gov.sg/browse-all-licences/Singapore-Food-Agency-(SFA)/Licence-to-Operate-Slaughter-house",
+     "existing": "None found.",
+     "known_id": "K02",
+     "known_mark": "known",
+     "name": "Small abattoir and butcher records (SFA slaughter-house licence)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "SFA slaughter-house licence (about S$4,000 livestock, S$1,000 poultry per GoBusiness, unverified); FSSA traceability.",
+     "unchecked": "Number of licensed slaughterhouses not found; likely a handful of plants, no quiet small-business population."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "SFA licenses slaughter-houses (GoBusiness: livestock licence about S$4,000, poultry about S$1,000 plus application fee; unverified currency; WSQ Food Safety L1 for handlers). No count of licensed slaughterhouses or butchers found; the sector is a handful of large plants plus wet-market stalls, no small abattoir population. Nothing new beyond K02 (FSSA traceability). Source: https://gobusiness.gov.sg/browse-all-licences/Singapore-Food-Agency-(SFA)/Licence-to-Operate-Slaughter-house",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No Singapore beekeeper register, licence or SFA/NParks registration found in one search (results were Australia, Canada, South Africa). Practically no regulated beekeeper population; treat as not applicable unless NParks/SFA rules are found later.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets (private hire / taxi / ride-hail drivers and vehicle owners, LTA Point-to-Point Passenger Transport Industry Act)",
+     "found": "Two layers: individual PDVL/TDVL (typically 3-year validity, shorter at 65+, renewal fee about S$40 per LTA form) and LTA operator licences (renewals and updated conditions took effect 1 Jan 2025; non-exclusive driver partnership, safety standards; LTA can require trip and fleet data, up to S$10,000 per offence; companies must keep PHC ownership 3 years before sale to individuals from 19 Feb 2025). PDVL first-time approvals 2021-2025: 4,203 / 5,078 / 10,204 / 9,550 / 11,302 (MOT Feb 2026 reply). Platforms (Grab, GrabRentals, etc.) dominate and already police licence validity; only bespoke builder RationalGo found for small fleets. Weak candidate C01. Operator licence conditions text itself not retrieved.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Platform Workers Act 2024 (in force 1 Jan 2025): platform operators, CPF and work-injury compensation",
+     "found": "MOM: operators must notify within 14 days of meeting the definition, deduct and remit CPF monthly (rates rising up to 3.5 pts/yr operator, 2.5 pts/yr worker; 2026 transition offset 75%), provide WIC insurance at WICA level, keep worker records and earning slips. MOM pages show no size threshold or exemption. Operator population is mostly large platforms (Grab, Gojek-type, Foodpanda, Deliveroo, Lalamove); small operators not quantified, MOM publishes a list but no count found. Weak candidate C02. Pages on records/earning slips not opened. Source: https://www.mom.gov.sg/employment-practices/platform-workers-act/mandatory-notification-of-platform-operators",
+     "status": "screened"
+    },
+    {
+     "category": "32. Skilled-trade licensing: electrical workers, gas workers, plumbers (EMA, PUB, BCA)",
+     "found": "Electrical: installation licence holder must appoint a LEW, have the installation inspected at required frequency (at least annually; 6-monthly for public/HDB common areas; monthly at construction sites per EMA/MTI) and keep the report; renewal notice 6 weeks before expiry, application at least 1 month before, filed by the LEW via ELISE. Gas: lifetime GSW licences (no renewal; 65+ medical every 3 yrs for restricted class); non-residential gas installations need annual inspection and Certificate of Fitness by PE(Mech) or LGSW; SP Group sends notice 3 months ahead; Gas Act regs amended 1 Sep 2025 (changes not read). PUB plumbers: licence for life, mandatory refresher every 3 years or cancellation, three intakes a year. No dedicated reminder or inspection-record software found; EMA and SP Group already send notices. Candidates C03 (LEW inspection and renewal book), C04 (gas CoF annual inspection log), C05 (plumber refresher); all weak. BCA contractor registration and aircon refrigerant duties not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators (pest-control operators and NEA vector control)",
+     "found": "NEA conditions of licensing (fetched): operator certificate displayed at all premises; renewal for operator, technician (VCT) and worker at least 1 month before expiry; one full-time VCT with 3+ years experience; ePortal notification at least 24 hours before thermal fogging (2 days for weekends/holidays); carry licence while working; no logbook or return required by NEA on that page. No NEA pesticide-use report found (SFA's use records are for farms only). Construction-site mosquito breeding: fines S$3,000 first offence (2020) with court action and Stop Work Orders for repeats, NEA figures partly inconsistent. Software exists: FieldCamp markets to NEA VCOs, plus generic pest-control field software. Weak candidate C06.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Data protection duties: PDPA, DPO, breach notification, DNC checks",
+     "found": "Duties on every organisation: appoint a DPO, notify PDPC of notifiable breaches within 3 calendar days of assessing, check DNC registers before marketing messages. PDPC fined SMEs S$5,000-20,000 in 2019 for no DPO or policy. Outsourced DPO and PDPA services are crowded (GDPRLocal, DPO-Consulting, Hawksford, MyWare); DPTM (SS 714:2025) is voluntary with claimed SME co-funding (unverified). No narrow vertical angle found; generic. Candidate C07 weak.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Foreign worker levy, quota and work permit renewal for non-FDW SMEs",
+     "found": "Third-party guides (MOM figures unverified, sources disagree): DRC construction/process 83.3% (one guide 87.5%), marine 75%, manufacturing 60%, services 35%; S Pass sub-quota 10% services, 15% other; Local Qualifying Salary rising to S$1,800 full / S$900 half from 1 Jul 2026; renewal opens 7-8 weeks before expiry; levy via GIRO, late penalty capped at 30% (unverified). Free MOM quota calculator and levy e-service exist; JustLogin, Info-Tech, QuickHR payroll modules and RationalGo bespoke track permit expiry and levy. Generic HR/payroll (known K18). Candidate C08 weak.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "SFA licensed slaughterhouse Singapore number of licensed meat processing butchers wet market licence",
+    "Singapore beekeeping licence honey bee farm SFA registration beekeepers",
+    "Point-to-Point Passenger Transport Industry Act private hire car driver vocational licence renewal operator obligations LTA 2026",
+    "Platform Workers Act 2024 platform operator obligations CPF work injury compensation small operators MOM",
+    "EMA licensed electrical worker renewal licensed electrical installation periodic inspection PUB licensed plumber registration requirements",
+    "NEA pest control operator licence record keeping pesticide use report requirement Singapore",
+    "PDPA DNC Registry check small business obligation Data Protection Officer BizSAFE PDPC breach notification SME",
+    "MOM work permit renewal levy quota Dependency Ratio Ceiling Local Qualifying Salary 2026 SME employer obligations",
+    "LTA taxi private hire operator licence conditions 2025 fleet vehicle inspection driver records rental company small operators",
+    "Platform Workers Act platform operator notification MOM list of platform operators number of operators WICA insurance CPF filing",
+    "EMA licensed electrical installation periodic inspection requirement 3 years licensed electrical worker certificate of fitness software",
+    "NEA mosquito breeding construction sites fines 2025 Environmental Control Officer Vector Control Operator licence pest control",
+    "pest control management software Singapore NEA vector control service report job scheduling app",
+    "Singapore private hire car rental company drivers management software fleet LTA PDVL expiry tracking",
+    "EMA gas service worker licence renewal gas installation periodic inspection town gas LPG installation licensed gas installer Singapore",
+    "work permit levy tracker software Singapore SME foreign worker pass expiry renewal reminder quota calculator app",
+    "PDPA compliance service small business Singapore outsourced DPO subscription DPO register data protection trustmark SME grant",
+    "licensed electrical worker LEW appointment electrical installation licence renewal reminder service Singapore annual inspection management platform"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b22"
+ },
+ "opus:singapore:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no FEDA-specific compliance or dorm-management SaaS in Singapore. The search turned up MOM's FWMOMCare app (built by NCS, for workers and not operators), the pandemic-era AccessCode on SGWorkPass, and generic overseas products: WelfareAI, Fedena's hostel module and Dormlander (Thailand). Job postings show large operators using unnamed in-house or vendor dormitory management systems, and MOM's NESST Tukang speech mentions an integrated dormitory management system. DASL is the industry association and a possible channel. Not checked: local property-management or hostel vendors that sell without public marketing pages.",
+   "duty": "FEDA licence for every foreign-worker dormitory with 7+ beds since 1 Apr 2023, in four classes: 7-99, 100-299, 300-999 and 1000+ beds. It is valid for 3 years, and the renewal goes through GoBusiness at least 3 months before expiry to avoid a late fee. Serious incidents must be emailed to MOM within 3h, with a report within 24h. Changes to licence information must be notified within 14 days, and MOM needs 21 days' notice before an eviction. Changes to directors or structure, and religious, race-related or political events, need MOM's prior approval. The 2022 factsheet adds a resident nominal roll to MOM, plus regular management reports for commercial dorms. I couldn't read the factsheet PDF, so these points come from search snippets. Fees from 1 Apr 2026 are occupancy x $1.50 x years, plus a $100 base fee. Penalty: up to $50,000 and/or 12 months' jail per breach of a licence condition (2019 MOM prosecution release, via search snippet). Set A dorms must meet DTS interim standards by 31 Dec 2030.",
+   "market": "MOM's 2022 estimate was about 1,600 dormitories and 439,000 beds under the expanded FEDA, up from 53. As of June 2024, 78% of foreign-worker dormitories were FEDA-licensed (PQ reply). About 200 construction temporary quarters existed per year (2023 PQ). I found no current breakdown by class. Most of the roughly 1,500 newly licensable dorms are small, employer-run CTQs and factory dorms.",
+   "reason": "The duty is real. FEDA has applied to dormitories with 7 or more beds since 1 Apr 2023. Class 1 covers 7-99 beds, and fees changed again from 1 Apr 2026. Operators must report incidents (3h/24h), changes (14 days) and evictions (21 days), and file renewals 3 months ahead. I found no FEDA-specific SaaS, only generic or overseas dorm software and in-house systems. But most duties are triggered by events, not periodic, and the licence itself recurs only every 3 years. Many licensees are employers (contractors' temporary quarters, factory dorms) handling only a few incidents a year. The market is about 1,500 dorms, and big operators run their own systems. Willingness to pay is likely low. The 2030 DTS interim-standards upgrade deadline is a possible hook.",
+   "searches": 6,
+   "sources": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/housing/apply-for-a-feda-licence ; https://www.mom.gov.sg/newsroom/press-releases/2022/0906-expanded-feda ; https://www.mom.gov.sg/-/media/mom/documents/press-releases/2022/factsheet---key-expanded-feda-requirements.pdf ; https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2024/0806-written-answer-to-pq-on-percentage-of-foreign-worker-dormitories-licenced-under-feda ; https://www.mom.gov.sg/newsroom/parliament-questions-and-replies/2023/0704-written-answer-to-pq-on-construction-temporary-quarters-inspection-under-feda ; https://www.mom.gov.sg/-/media/mom/documents/foreign-manpower/housing/briefing-on-dts-and-grant-for-dorm-operators.pdf ; https://www.mom.gov.sg/newsroom/press-releases/2019/0704-dormitory-operator-and-its-director-prosecuted-under-the-feda ; https://www.ncs.co/en-sg/insights/tracking-the-health-status-of-migrant-workers-in-a-pandemic/ ; https://mom.gov.sg/newsroom/speeches/2026/0117-opening-of-nesst-tukang-dormitory",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b22"
+ },
+ "opus:singapore:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The MUIS Halal Certification E-Service Portal is free and covers applications, menu and ingredient updates, renewals and status checks. Live QR e-certificates have been issued since 1 Oct 2025. WhatsHalal ATeMS is a Singapore startup platform, live since 2019, that claims to manage the full certificate lifecycle and daily halal assurance bookkeeping. I found no evidence of it after 2020, and it may have refocused on Malaysia and Indonesia, so its current status is unverified. Halal consultancies (HalalHub Consultants, HCS Consultants) prepare documentation and audit readiness. MUIS runs its own HalMQ training and workshops. I found no other Singapore halal records software for eateries.",
+   "duty": "Confirmed in force. Search snippets of the MUIS files HCC EEC1 and EEC2 give Version 4.1, effective 9 Mar 2026. The PDF text could not be extracted, so I did not check clause-level record formats. HalMQ has been compulsory for all MUIS applicants and certificate holders since 1 Jan 2010. You need at least 2 Muslim staff (3 for catering and central kitchens) who pass the Halal Competency Assessment, which has a mandatory refresher. MUIS audits the site, and inspects again after certification. Ingredient documents scale with risk: a questionnaire for low and medium-risk items, a MUIS-recognised certificate for high-risk items. Penalties: rejection or revocation, then a block of at least 90 days before reapplying (v3.0, Dec 2023). Renewals are auto-submitted 120 days before expiry. Digital certificates have been issued since 1 Oct 2025. I did not find how Category 1 differs from Category 2.",
+   "market": "About 4,000+ MUIS halal-certified eating establishments out of about 23,600 retail food establishments, according to Muis as cited by NTU/NIE in May 2026. The count is growing about 10% a year. In 2025, 75% of new and renewal applications were approved. The Category 1 subset is not found, and many outlets belong to chains such as McDonald's, Burger King and Subway that have in-house QA, so there are fewer small independent buyers.",
+   "reason": "The duty is real and in force. MUIS halal conditions for eating establishments, EEC1 and EEC2 v4.1, took effect on 9 Mar 2026. HalMQ has been compulsory since 2010, and a rejection or revocation brings a 90-day blackout before reapplying. But the market is small: about 4,000 certified eateries, many of them chain outlets, and I could not find how many are Category 1. The MUIS portal already handles menu and ingredient updates, applications, auto-renewals and e-certificates. Consultants (HalalHub, HCS) do the documentation work. WhatsHalal's ATeMS (Singapore, live 2019) claims to cover halal record-keeping after certification, but I found no news of it after 2020. Small eateries pay little for this beyond about S$1k per outlet. The opening is narrow and needs a niche: supplier certificate expiry tracking and audit packs.",
+   "searches": 6,
+   "sources": "https://file.go.gov.sg/hcc-eec1.pdf ; https://file.go.gov.sg/hcc-eec2.pdf ; https://muis.gov.sg/-/media/Files/Halal/Documents/MUISCIR-2723-Revised-Muis-Halal-Certification-Conditions-HCC-for-EE.ashx ; https://muis.gov.sg/halal/halal-certification/halal-quality-management ; https://www.ntu.edu.sg/nie/news-events/news/detail/what-becoming-halal-certified-means-for-singapore-restaurants ; https://kr-asia.com/singaporean-foodtech-startup-whatshalal-raises-seed-funding-from-fundedhere ; https://www.foodnavigator.com/Article/2020/04/27/Faster-cheaper-halal-certification-WhatsHalal-targets-food-firms-in-Malaysia-and-Indonesia/ ; https://www.muis.gov.sg/resources/media-releases/muis-launches-enhanced-recognition-framework-and-new-digital-halal-certificates/ ; https://gobusiness.gov.sg/licensing-faqs/halal-certification ; https://www.crescentrating.com/magazine/all/4035/singapore-halal-food-concentration-map-mastercard-crescentrating-halal-food-lifestyle-report-singapore-2021.html",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b22"
+ },
+ "opus:singapore:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "HACCP/FSMS software listed on Capterra/GetApp Singapore: FoodDocs (builds HACCP plans, daily task checklists), ChefComply (HACCP checklists, temperature logs, audit reports), EazyHaccp (restaurant temperature and cleaning logs), MoreFromFood (digital HACCP, automated temperature monitoring), GoHACCP, HACCP Nexus, Food Guard (IoT temperature alerts). The klikit POS covers SAFE and offers temperature logging. Certification bodies (e.g. TUV SUD for SS 590 / SS 444) and FSC Level 4 (AFHO) training providers (e.g. NYP) serve the certified route. I found no product built specifically around SS583 or SAFE, and no published consultancy prices.",
+   "duty": "The SFA SAFE framework's Phase 1 has been in force since 19 Jan 2026 and grades by track record: A needs more than 3 years with no major lapse. Category 1 establishments (caterers, restaurants with kitchens of 16 m2 or more, in-house kitchens, food processors) can fast-track to A with a 1-year clean record, an Advanced Food Hygiene Officer (AFHO) and a certified FSMS. In Phase 2, an AFHO plus a certified or uncertified FSMS (SS583 counts as uncertified) becomes a requirement for A, with details by 2027 and no start date set. The consequences are grade-related, not fines; a major lapse means an immediate downgrade to C. Separately, caterers must already submit a HACCP-based FSMS referencing SS583:2022, a pre-licensing condition since 1 Jun 2014 that was extended to licences with ancillary catering from 1 Apr 2019. The FSMS is voluntary for restaurants unless they want an A grade.",
+   "market": "About 45,000 SFA-licensed establishments fall under SAFE (SFA). I couldn't find a separate count for Category 1 establishments; it is a subset made up of caterers, larger-kitchen restaurants, in-house kitchens and food processors. The number of licensed caterers was not reached.",
+   "reason": "The SAFE framework is real. Phase 1 has been in force since 19 Jan 2026 for about 45,000 establishments. But for restaurants an FSMS is only a condition for getting or keeping an A grade: it speeds up the route to A in Phase 1 and is needed for A in Phase 2, which can be uncertified. It is not a licence duty, Phase 2 details only come by 2027, and SFA's page names no fines. Caterers already have to submit an SS583-based HACCP FSMS before licensing (since 2014, and since 2019 for ancillary catering), so consultants already serve that need. Generic HACCP apps listed in Singapore (FoodDocs, ChefComply, EazyHaccp, MoreFromFood, GoHACCP) already digitise logs and HACCP plans. I didn't check whether any of them fits SS583 or SAFE.",
+   "searches": 6,
+   "sources": "https://www.sfa.gov.sg/news-publications/newsroom/new-safety-assurance-for-food-establishment--safe--framework--to-strengthen-food-safety ; https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-management ; https://sfa.gov.sg/food-retail/food-safety-management-system ; https://www.rajahtannasia.com/viewpoints/sfa-implements-new-safety-assurance-for-food-establishments-safe-framework-to-enhance-food-safety-phase-1-commences-on-19-january-2026/ ; https://www.getapp.sg/software/2046592/fooddocs ; https://www.capterra.com.sg/software/1112317/ChefComply ; https://www.capterra.com.sg/software/1100126/EazyHaccp ; https://www.capterra.com.sg/software/1014279/morefromfood ; https://www.getapp.sg/software/2051407/gohaccp-compliance-software ; https://klikit.io/en/learn/sfa-safe-framework-singapore-restaurants-2026 ; https://www.tuvsud.com/en-sg/services/management-system-certification/ss-590 ; https://uataci.nyp.edu.sg/training-for-individuals/short-courses/food-and-beverage-service/food-safety-course-level-4",
+   "suggested_score": 4,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b22"
+ },
+ "sonnet:singapore:A10": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: ROS requires the annual return within one month of the AGM (or of financial year end if no AGM). The president, secretary and treasurer verify it online, and audited accounts are attached. The Charity Portal requires the annual report and GEC within 6 months of year end. Free state portals do the filing. The only competitor found is a document template pack (captain.legal), not a filing product. Society count not found; charities were about 2,281 in 2019. Pain is low: one filing a year, volunteer bodies pay little, and they are fragmented and hard to reach. Penalty amounts were not checked. The one-stop filing, IRAS donation reporting and Chinese-language needs were not checked.",
+   "searches": 4,
+   "sources": "https://ros.mha.gov.sg/manage-your-society/annual-returns/ ; https://www.charities.gov.sg/Pages/Charities-and-IPCs/Manage-Your-Charity/Annual-Submissions.aspx ; https://www.charities.gov.sg/PublishingImages/Resource-and-Training/Guides-Templates-Awards/Guides/Documents/Preparing%20Annual%20Submissions.pdf ; https://www.captain.legal/sg/non-profit/agm-minutes-annual-return-pack-singapore/ ; https://www.mccy.gov.sg/about-us/news-and-resources/charities-statistics-and-publications/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b22"
+ },
+ "sonnet:singapore:A12": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. MOM's renewal page says the licence lasts 3 years, with renewal started 4 months before expiry and an eGuarantee security bond. Late renewal costs $100, and all EA activity stops until the licence is renewed. The cycle is only every 3 years, so frequency is low. The renewal workflow is a short MOM-portal and bank process, so little is left for software. Market is about 3,900 licensed agencies (2020 figure, not current). No dedicated EA compliance product found, but I did not find proof that none exists. Only generic RationalGo and matching apps (Emaid, Ministry of Helpers) turned up. Competition is thin, but pain, frequency and willingness to pay are weak. Record formats that MOM audits were not checked.",
+   "searches": 3,
+   "sources": "https://www.mom.gov.sg/employment-agencies/renew-a-licence ; https://peoplemattersglobal.com/?p=26098 ; https://rationalgo.ai/resources/app-builder-singapore/singapore-recruitment-agency-app-builder ; https://apps.apple.com/mx/app/emaid/id6740226745",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b22"
+ },
+ "sonnet:singapore:A13": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The SCFA income ceiling rise to S$6,500 from Jan 2027 is confirmed only by an MSF ask.gov.sg answer. MSF's main SCFA page still shows S$4,500. Administrators are audited and must follow MSF terms and conditions. I could not open the MSF procedures page (the fetch returned empty), so the six-monthly reporting duty and its penalty are unverified. Parents apply through SupportGoWhere and HOMES, which means-tests them. Centres mainly deduct the subsidy MSF pays them, so the workflow is light. Taidii lists student care among its clients and holds a PSG grant listing at S$5.7k-13.5k, so competition exists. LittleLives and Qoqolo are preschool-focused, and I found no SCFA-specific product. The market is about 330 administrators, which is small. A subsidy-driven pricing and reporting module has little unique pain.",
+   "searches": 4,
+   "sources": "https://msf.gov.sg/what-we-do/student-care/scc-operators/operational-procedures-for-scfa-administrator-student-care-centres ; https://ask.gov.sg/msf/questions/clwr714ma004us6kbfwerwydw ; https://www.msf.gov.sg/what-we-do/student-care/for-parents/student-care-fee-assistance ; https://file.go.gov.sg/case1-termsandconditionsonly-final-29nov2022.pdf ; https://www.gobusiness.gov.sg/productivity-solutions-grant/solutionrepo/201304337W-Td-SMART-IT-SLN-for-PrSCH-PMS-Eform-EC ; https://littlevoices.littlelives.com/top-5-school-management-systems-in-singapore",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b22"
+ },
+ "sonnet:singapore:A16": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "HAH! Help At Home; HelperMate; MOM eServices",
+   "duty": "MOM FDW employer duties: pay salary within 7 days, monthly rest day, 6-monthly medical exam",
+   "market": "about 300k to 309k migrant domestic workers, so roughly that many employer households",
+   "reason": "The duty is real. MOM requires salary within 7 days of period end and not below the declared amount, a non-compensable monthly rest day since 1 Jan 2023, and a 6-monthly medical exam. The market is about 300k households (roughly 308,700 MDWs in Sep 2025, from a secondary blog). But ready-made apps already do the core job. HAH! has expiry reminders and payslips. HelperMate is freemium and has reminders for permit renewal, the 6-monthly medical and passport expiry, plus salary records. MOM eServices also exist. Buyers are consumers, not businesses, so willingness to pay is low and there is no register-based channel. The MOM employer guide itself was not opened, and I did not verify HAH! traction.",
+   "searches": 3,
+   "sources": "https://alternativeto.net/software/helpermate/about/ ; https://chrome-stats.com/d/sg.hah.app ; https://www.mom.gov.sg/-/media/mom/documents/publications/monthly-edm-mdw-ers/edm-202309-paying-your-mdw-salary.pdf ; https://www.mom.gov.sg/maintenance/passes-and-permits/work-permit-for-foreign-domestic-worker/employers-guide/rest-days-and-well-being/ ; https://dollarsandsense.sg/business/at-a-glance-understanding-singapores-foreign-workforce-number/",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b22"
+ },
+ "sonnet:singapore:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real and in force: speed limiters are mandatory on lorries of 3,501-12,000 kg, in phases. The next deadline is 1 Jan 2027 for lorries of 5,001-12,000 kg registered from 2018. Penalty is up to $1,000 or 3 months' jail, and MHA plans to raise the fine to $10,000. Non-compliant lorries cannot be driven or renew road tax, and bizSAFE audits flag them. I found no compliance-tracker product, only hardware and telematics vendors. The weak points are that the duty is a one-off hardware install by one of 61 authorised agents, the PSG grant ends 31 Mar 2027, and the final deadline is mid-2027. About 94% of the earlier cohort (about 2,300 lorries) already complied, so the window is short and the market small. Not recurring, little software value.",
+   "searches": 2,
+   "sources": "https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Speed-Limiter-Announcement ; https://www.police.gov.sg/Media-Hub/News/2025/10/20251024_mandatory_installation_of_speed_limiters_on_lorries ; https://www.police.gov.sg/media-hub/news/2026/07/20260710_two_day_islandwide_operation_against_companies_on_installation_of_speed_limiters ; https://www.singaporepsa.com/wp-content/uploads/2026/06/CIRCULAR-Speed-Limiter-Requirement-For-Lorries-SHD01012026.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b22"
+ },
+ "sonnet:singapore:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. NEA requires cooling tower registration (fee $100 per system from 1 Apr 2026) and monthly SAC-lab water testing, with results submitted via ePortal by the 14th of the next month. The NEA page covers cooling towers only, so the water fountain part of the claim is unsupported. Penalty, number of registered systems and small-owner share were not found. The free ePortal with Excel bulk upload covers the filing itself. The search found no Singapore-specific vendor, only US-focused Legionella SaaS. Labs and water-treatment contractors likely file for owners already, though I did not confirm this. Owners are few, and tower count is not reached. Buyers are mostly managed by contractors, so the niche is thin. Score stays low.",
+   "searches": 2,
+   "sources": "https://www.nea.gov.sg/our-services/pollution-control/water-quality/aerosol-generating-systems ; https://www.nea.gov.sg/docs/default-source/air-quality/revised-ags-registration-fee.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b22"
+ },
+ "sonnet:singapore:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: MOM requires registering air receivers, steam receivers, refrigerating receivers, steam boilers/autoclaves, economisers and superheaters, through an Authorised Examiner. Exams are yearly for boilers and every 2 years for receivers, plus 10-year hydrostatic and thickness tests. Owners must book an examiner before the due date. MOM stopped sending owner reminders from 5 Aug 2023, so a due-date gap exists. Examiners file via the free WSH eServices portal, and owners can only enquire and de-register there. I found no Singapore-specific reminder product, only generic CMMS vendors (Oxmaint, Fabrico). Not checked: fines, and the number of vessels or owners (no count found). The market is small and niche, and the pain is low (a calendar or the examiner's own follow-up covers it). Distribution would need the roughly dozens of examiner firms.",
+   "searches": 4,
+   "sources": "https://www.mom.gov.sg/maintenance/workplace-safety-and-health/pressure-vessels/regular-inspections ; https://www.mom.gov.sg/workplace-safety-and-health/pressure-vessels/register-a-pressure-vessel ; https://www.mom.gov.sg/workplace-safety-and-health/pressure-vessels/pressure-vessel-eservices-and-forms ; https://enviliance.com/regions/southeast-asia/sg/report_11171 ; https://oxmaint.com/industries/manufacturing-plant/pressure-vessel-inspection-maintenance-manufacturing-plant",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b22"
+ },
+ "sonnet:singapore:A7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Both BCA evidence URLs returned 404 and the LEAP owner slides were unreadable, so the duty details (monthly maintenance, annual SPE exam, PTO renewal, 5-year records, penalties) were not confirmed first-hand. Search results confirm BCA's LEAP portal handles PTO creation and renewal and has an owner role. Lifts: about 79,000 (Nov 2025), about 70% residential (town councils, MCSTs, managing agents). That leaves roughly 20-25k non-residential lifts, mostly with professional managing agents. The contractor and SPE book the work and file in LEAP. TUV SUD Lift Manager and other RM&D tools exist. Owners pay contractors, so the buyer is poorly accessible and the state portal covers the core job. Low score.",
+   "searches": 3,
+   "sources": "https://www2.bca.gov.sg/leap/training-materials/content/LEAPBriefingSlides/LEAP_Training_Owners.pdf ; https://www.tuvsud.com/en-za/landing/global/exploring-lift-manager ; https://www.mnd.gov.sg/api/media/2b411212-8ed3-4879-86cb-c83a73e8832a",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b22"
+ },
+ "sonnet:singapore:A9": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Police SHOTS (free government portal)",
+   "duty": "SGDA 2007: submit purchase transaction records to SHOTS and screen serial-numbered goods; fine up to S$20,000 or 12 months' jail",
+   "market": "Not found; no register count located",
+   "reason": "The SGDA duty is real: dealers must submit purchase records to SHOTS and screen serial-numbered items, with a fine up to S$20,000 or 12 months' jail. Scrap-metal premises need URA permission. I could not confirm that scrap metal is a scheduled good, because the Act (sso.agc.gov.sg) returned 403. Scrap metal rarely has serial numbers, so the screening duty may not apply. The free Police SHOTS portal, which also works on mobile, already does the core job. I found no bulk upload or API and no third-party software. The market is small, possibly a few hundred dealers, and I found no register count. This is the same buyer as K06 and gives only a thin add-on. Weak willingness to pay.",
+   "searches": 3,
+   "sources": "https://police.gov.sg/e-Services/Police-Licences/Secondhand-Goods-Dealers-Licence ; https://eservices1.police.gov.sg/phub/eservices/landingpage/secondhand-goods-dealers-transaction-records-system ; https://www.police.gov.sg/business-e-services/submit-secondhand-goods-transaction-record ; https://www.gobusiness.gov.sg/browse-all-licences/Singapore-Police-Force-(SPF)/Secondhand-Goods-and-Dealers-Licence",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b22"
+ },
+ "triage:singapore": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New buyer (small dormitory operators) and FEDA licence duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Small halal-certified eateries, MUIS recurring records duty; not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "SAFE framework is a different duty from K07 grease-trap log."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Small lorry owners, speed limiter deadline; many act at once."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Small owners of cooling towers/fountains, recurring NEA lab filing."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Small factories, statutory pressure-vessel examinations."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small-building lift owners, annual PTO and monthly maintenance records."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Pawnbrokers: small licensed offices with monthly returns; not in known."
+    },
+    {
+     "decision": "known",
+     "id": "A9",
+     "reason": "Scrap/second-hand dealer Police screening of purchases is the SHOTS duty in K06.",
+     "ref": "K06"
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Volunteer-run societies and charities, recurring mandatory filings."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Funeral parlours/memorial contractors, new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Employment agencies licence and records; first of the duplicate pair."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Student care centres differ from preschool buyer in K11; related K11."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Massage establishments, SPF register duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Waste collectors' fleet/crew register is a different duty from K07; related K07."
+    },
+    {
+     "decision": "keep",
+     "id": "A16",
+     "reason": "Households as employers of FDWs, recurring MOM duties."
+    },
+    {
+     "decision": "keep",
+     "id": "A17",
+     "reason": "Licensed small farms with SFA records duty; new."
+    },
+    {
+     "decision": "known",
+     "id": "A19",
+     "reason": "Jewellers PSPM CDD/CTR is K05.",
+     "ref": "K05"
+    },
+    {
+     "decision": "known",
+     "id": "A21",
+     "reason": "Grease-trap log for food premises is K07.",
+     "ref": "K07"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Small MCSTs, annual compliance duty; not near known."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Small travel agents with net value and audited filings duty."
+    },
+    {
+     "decision": "merge",
+     "id": "B3",
+     "reason": "Same buyer (licensed employment agencies) and same licence duty as A12.",
+     "ref": "A12"
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "CSP AML registration is a different duty from K13/K17 calendars."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Moneylenders, different regulator and buyer from K22."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Rice stockholding duty differs from K02 recall duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "HCSA licence administration for small clinics differs from K08 NEHR."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Controlled-drug registers for pharmacies/clinics; different duty from K08."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small hotels guest ID reporting; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Tobacco/liquor licensees with new 1 May 2026 conditions."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Small clinics' radiation licence duty; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Tuition/enrichment centres differ from K11 preschool buyer."
+    },
+    {
+     "decision": "known",
+     "id": "B13",
+     "reason": "Permit preparation for trade is K16.",
+     "ref": "K16"
+    },
+    {
+     "decision": "known",
+     "id": "B14",
+     "reason": "Construction WSH documentation is K10/K19.",
+     "ref": "K19"
+    },
+    {
+     "decision": "known",
+     "id": "B15",
+     "reason": "Cleaning/security workforce compliance is K03/K12.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Small PHV/taxi fleet operators with LTA licence duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Small platform operators under Platform Workers Act; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Small LEW firms with inspection and licence duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Gas installation annual inspection; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Plumbers' refresher duty is different from K07 grease-trap log."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Vector control operators with NEA notification duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Micro-SMEs and clubs with PDPA duties; not in known."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS8",
+     "reason": "Work permit/levy tracking is the HR/PWM payroll area in K18.",
+     "ref": "K18"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS9",
+     "reason": "Slaughter-house licensees differ from K02 food importers; related K02."
+    }
+   ]
+  },
+  "tag": "w2b22"
  }
 }

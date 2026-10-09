@@ -1,5 +1,69 @@
 # Mexico B1: Registro Nacional compliance keeper for private-security firms
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10 (old score: 5/10).**
+
+**The case.** Licensed guard firms must keep a register of every staff, uniform, vehicle, arm and branch change. Federal firms report it to the DGSP in the first 10 calendar days of each month (https://mley.mx/LFSP/articulo/13/), and the DGSP sanctions firms that miss it (https://sidof.segob.gob.mx/notas/docFuente/5795399). States add their own monthly reports. Baja California's is a pack of up to 8 files sent by email, built from Excel formats, and it is due even when nothing changed (https://seguridadbc.gob.mx/Planeacion/padron/GUIA%20LLENADO%20CORRECTO%20DEL%20INFORME%20MENSUAL.pdf). No software I found builds these reports. The guard tools on the market cost about USD 5-10 per user per month and stop at patrols, shifts and licence-expiry alerts (https://www.guardspro.com/pricing ; https://www.comparasoftware.com/c-guard-pro). That leaves a clear gap for a small Spanish tool: a register plus a monthly report generator. The weak points are the market size, which has no reliable count, and the unknown federal filing channel.
+
+**Room for improvement over the portal or current practice**
+- **No real portal to improve on, only formats and email.** In Baja California, firms download formats from the state site and email the monthly report to reportesdsp@seguridadbc.gob.mx. The report is a monthly list of new hires, one "cédula de baja" per leaver, a copy of the latest payroll or the SUA, a staff "cardex" in Excel, a fee receipt, an activity report and an arms summary in Excel (https://seguridadbc.gob.mx/Planeacion/padron/GUIA%20LLENADO%20CORRECTO%20DEL%20INFORME%20MENSUAL.pdf).
+- **Error-prone reconciliation.** The same guide warns firms to fill every field, not to change surnames, and not to convert the cardex to PDF. It also says "the cardex, the private-security system and the payroll must be exactly the same" (same source). This is classic work for software: one staff master that feeds payroll, the cardex and the cédulas.
+- **The report is due with or without changes:** "SE TENGA O NO SE TENGA MOVIMIENTO, DEBE PRESENTAR CADA REPORTE" (same source). That makes a deadline tracker and a pre-filled pack useful every month.
+- **The same monthly duty exists in other states.** Tamaulipas law (art. 36) requires a report of altas, bajas and sanctions in the first 5 business days of each month, and the data flows on to the national public-security register (https://congresotamaulipas.gob.mx/Parlamentario/Archivos/Dictamenes/LXIII-919%20DICTAMEN%20PDF%20-%20OBLIGACIONES%20DE%20LOS%20PRESTADORES%20DE%20SERVICIOS%20DE%20SEGURIDAD%20PRIVADA.pdf, 2019 committee report). A federal firm working in several states owes the DGSP report and one report per state (reasoned from the above).
+- **The inspection findings are register gaps.** DGSP files from 2026 show unreported altas and bajas (2 altas and 114 bajas at Multisistemas Uribe: https://sidof.segob.gob.mx/notas/docFuente/5795770), unreported training within the first 10 days of the month (Oblak, July 2026: https://sidof.segob.gob.mx/notas/docFuente/5795399), uniforms and the manager's details (COSSEPPA, 1,000 UMA = MXN 117,310: https://sidof.segob.gob.mx/notas/docFuente/5799650). Firms fix these during the visit and are still sanctioned. An "inspection pack" and an audit trail answer this directly.
+- **Exam and CUIP tracking.** Operational staff need medical, toxicology and psychological evaluations (https://mley.mx/Reg_LFSP/articulo/34/), and firms must request CUIP altas (https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gestor-gubernamental-en-cuauhtemoc-BA3B0D3F75D2544A61373E686DCF3405). Today a paid "gestor gubernamental" tracks this by hand (same job ad).
+- **Still unknown:** how the DGSP takes the federal monthly report. Neither of the two 2026 sanction files I read says (https://sidof.segob.gob.mx/notas/docFuente/5795770 ; https://sidof.segob.gob.mx/notas/docFuente/5795399). I found no SSPC online system (unverified; the gob.mx SSPC page returned an error).
+
+**Competitor reality check**
+- **C-Guard Pro:** a cloud tool for guards, patrols, GPS, QR/NFC rounds, incidents, shifts and payroll. USD 5 per user per month. It has no DGSP, Registro Nacional, CUIP, state monthly report or REPSE features (https://www.comparasoftware.com/c-guard-pro). It does not do this job.
+- **GuardsPro:** USD 5-10 per user per month, with add-ons at USD 1-2. It includes licence upload and expiry alerts but no regulatory reporting (https://www.guardspro.com/pricing). It does this partly: expiry alerts only.
+- **Mexican payroll (Aspel NOI, CONTPAQi Nóminas):** these cover CFDI payroll and IMSS, not the security register (https://www.elcontribuyente.mx/2024/12/que-software-de-nomina-usan-las-empresas-top-descubre-las-4-opciones-mas-populares-en-mexico/). They are a data source to import from, not a rival.
+- **Mexican security-specific software:** none found in three Spanish searches. The results showed only guard directories, job ads and DOF notices (search runs in this pass; no URL for a negative result).
+- **Gestores and gestorías:** the real incumbent. One CDMX firm hires an in-house gestor for DGSP and state permits, renewals and CUIP altas and bajas (https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gestor-gubernamental-en-cuauhtemoc-BA3B0D3F75D2544A61373E686DCF3405). I found no published gestoría fee for this work (unverified). The gestor is a channel or a user of the tool, not a killer.
+- **Conclusion:** the incumbents are cheap generic tools that skip the duty, plus manual work by gestores. That is an opening, not a killer.
+
+**Price per customer**
+- **What firms risk or pay today:** fines of MXN 113,140-169,710 per sanction in 2026 (https://sidof.segob.gob.mx/notas/docFuente/5795553 ; https://sidof.segob.gob.mx/notas/docFuente/5797220), and public reprimands on the SSPC website (https://sidof.segob.gob.mx/notas/docFuente/5795770). State fees alone are MXN 12,740 a year to revalidate in Michoacán (https://ssp.michoacan.gob.mx/wp-content/uploads/2024/05/COSTOS-DE-AUTORIZACI%C3%93N-SEGURIDAD-PRIVADA.-LEY-DE-INGRESOS-DEL-ESTADO-DE-MICHOACAN-2024.pdf) and MXN 14,114 in Tabasco (https://papelea.com/mx/estado-de-tabasco/revalidacion-del-permiso-o-autorizacion-para-la-prestacion-del-servicio-portal-tabasco-1). Firms bill clients MXN 6,200-15,000 per guard per month (https://modelosdeplandenegocios.com/blogs/news/cuanto-cuesta-servicio-seguridad-privada, blog).
+- **Proposed price per firm:** MXN 1,500 a month base (up to 50 active staff), plus MXN 10 per extra active staff, plus MXN 500 a month for each extra state report. A typical federal firm with 150 guards in 2 states would pay MXN 1,500 + 1,000 + 500 = MXN 3,000 a month, or MXN 36,000 a year (about USD 2,000 at roughly MXN 18 per USD; my estimate). That is about a third of one fine. It is also 20-50% of what a firm bills for one guard post in a month (reasoned from the sources above).
+- **Per gestor or consultant:** MXN 5,000 a month for up to 15 client firms, then MXN 300 per extra firm (my estimate, unverified).
+- **Check:** a per-user guard app at USD 5-10 per user would cost a 150-guard firm USD 750-1,500 a month if every guard had a login (https://www.guardspro.com/pricing). So MXN 3,000 (about USD 170) a month for the compliance job is modest next to that. Willingness to pay must still be tested in interviews (unverified).
+
+**Revenue estimate (year 3)**
+- **Buyers.** No current official count. AMESP estimates more than 8,000 firms (https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260908-II-1-2.html). A trade article puts it at 6,600 firms, about half of them registered, and cites 1,090 federal and 2,266 state authorisations in 2012 (https://thelogisticsworld.com/historico/crecen-exponencialmente-empresas-de-seguridad, search snippet only, unverified). I use **3,500 registered firms** and **about 2,000 with 30+ staff** that can pay (unverified estimate). I also count **about 150 gestorías and payroll accountants** serving the sector (unverified estimate).
+- **Base case:** 2,000 firms x 6% share = 120 firms x MXN 36,000 = MXN 4.32M. Plus 150 gestors x 15% = 22 x MXN 60,000 = MXN 1.32M. **Total about MXN 5.6M a year (about USD 310k).**
+- **Low case:** 2,000 x 2.5% = 50 firms x MXN 30,000 = MXN 1.5M, plus 8 gestors x MXN 60,000 = MXN 0.48M. **Total about MXN 2.0M (about USD 110k).**
+- **High case:** 3,500 x 6% = 210 firms x MXN 36,000 = MXN 7.56M, plus MXN 1.32M from gestors. **Total about MXN 8.9M (about USD 490k).**
+- This is enough for a one- or two-person business. It is not a venture-scale market.
+
+**Ease of implementation and sale: medium.**
+- **Build is easy.** The data model is small: people, equipment, branches, changes with dates and causes. The output is Excel and PDF in fixed state formats (https://seguridadbc.gob.mx/Planeacion/padron/GUIA%20LLENADO%20CORRECTO%20DEL%20INFORME%20MENSUAL.pdf). No government API is needed.
+- **Onboarding is easy.** Import the current cardex or payroll list from Excel. Firms already keep the data, so it is a move, not new work (reasoned).
+- **Sale is harder.** The sector is relationship-driven and Spanish-only. Each state adds a format to build. Leads are free: the DOF names sanctioned firms (https://sidof.segob.gob.mx/notas/docFuente/5799650), and states publish lists of authorised firms (https://www.sspo.gob.mx/wp-content/uploads/2026/09/EMPRESAS-VIGENTES-AGOSTO-SEPTIEMBRE.pdf, listed in search). AMESP has 250 members (https://zetatijuana.com/2026/08/advierten-aumento-de-empresas-irregulares-de-seguridad-privada-piden-padron-unico/).
+
+**Remaining risks**
+- **Federal channel unknown.** If the DGSP launches its own capture system, the product becomes a pre-filler and record keeper. That still has value but is worth less (unverified either way).
+- **Market count is soft.** All firm counts are estimates or 2012 data. Many firms are small or informal and will not pay (unverified).
+- **State fragmentation.** Each state needs its own format. Start with the DGSP report plus 2-3 big states.
+- **Law reset.** A Ley General de Seguridad Privada has been overdue since 2021, and AMESP wants a single national register (https://zetatijuana.com/2026/08/advierten-aumento-de-empresas-irregulares-de-seguridad-privada-piden-padron-unico/). That could change formats, which might help a tool or replace part of it.
+- **Sensitive data.** The tool would hold exam results and personal IDs, which brings duties under the private-sector data protection law (reasoned; unverified detail).
+- **Willingness to pay.** Most sanctions are reprimands, not fines (https://sidof.segob.gob.mx/notas/docFuente/5795770 ; https://sidof.segob.gob.mx/notas/docFuente/5795399). Small firms may stay with spreadsheets.
+
+**New sources (this pass)**
+- https://seguridadbc.gob.mx/Planeacion/padron/GUIA%20LLENADO%20CORRECTO%20DEL%20INFORME%20MENSUAL.pdf (read in full this time)
+- https://sidof.segob.gob.mx/notas/docFuente/5795770
+- https://sidof.segob.gob.mx/notas/docFuente/5795399
+- https://congresotamaulipas.gob.mx/Parlamentario/Archivos/Dictamenes/LXIII-919%20DICTAMEN%20PDF%20-%20OBLIGACIONES%20DE%20LOS%20PRESTADORES%20DE%20SERVICIOS%20DE%20SEGURIDAD%20PRIVADA.pdf
+- https://www.comparasoftware.com/c-guard-pro (price and features read)
+- https://www.guardspro.com/pricing
+- https://www.elcontribuyente.mx/2024/12/que-software-de-nomina-usan-las-empresas-top-descubre-las-4-opciones-mas-populares-en-mexico/ (search snippet)
+- https://ssp.michoacan.gob.mx/wp-content/uploads/2024/05/COSTOS-DE-AUTORIZACI%C3%93N-SEGURIDAD-PRIVADA.-LEY-DE-INGRESOS-DEL-ESTADO-DE-MICHOACAN-2024.pdf (search snippet)
+- https://modelosdeplandenegocios.com/blogs/news/cuanto-cuesta-servicio-seguridad-privada (search snippet)
+- https://thelogisticsworld.com/historico/crecen-exponencialmente-empresas-de-seguridad (search snippet; fetch returned 403)
+- https://www.sspo.gob.mx/wp-content/uploads/2026/09/EMPRESAS-VIGENTES-AGOSTO-SEPTIEMBRE.pdf (listed in search)
+
+**Corrections to the first pass.** The first pass said it could not read the Baja California guide. This pass read it. Filing there is by email with Excel formats, so the old "filing channel unknown" risk now applies only to the federal DGSP report. The Multisistemas Uribe sanction is file DGSP/DELC/PAS/132/2026, dated 20 July 2026, at https://sidof.segob.gob.mx/notas/docFuente/5795770, not 5798322.
+
 ## Summary
 
 **Verdict: maybe. Score: 5/10.**

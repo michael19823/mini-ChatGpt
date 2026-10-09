@@ -1,12 +1,46 @@
 # BiH AML/CFT law for small obliged entities, turned into product requirements
 
-Status: draft, research in progress (2026-10-09). Primary source for the law: the official Službeni glasnik BiH 13/2024 issue (19 Feb 2024), PDF hosted by the judiciary portal ([Sl. glasnik BiH 13/24, PDF](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392)). Article numbers below are from the Bosnian-language version in that issue. Short name below: "the Law" or "ZSPNFTA".
+Status: complete as of 2026-10-09 (open questions listed at the end). Primary source for the law: the official Službeni glasnik BiH 13/2024 issue (19 Feb 2024), PDF hosted by the judiciary portal ([Sl. glasnik BiH 13/24, PDF](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392)). Article numbers below are from the Bosnian-language version in that issue. Short name below: "the Law" or "ZSPNFTA".
 
 Abbreviations: FOO = Financial Intelligence Department of SIPA (the FIU). FUZIP = FBiH Administration for Inspection Affairs. RUIP = RS Republic Administration for Inspection Affairs. CDD = client identification and monitoring ("identifikacija i praćenje"). STR = suspicious transaction report. CTR = cash transaction report. PEP = politically exposed person. AMLS = FOO's reporting software.
 
 ## Summary
 
-(in progress)
+- **Two texts set almost every duty.** The state Law, Sl. glasnik BiH 13/2024, has been in force since 27 Feb 2024. The implementing Rulebook, Sl. glasnik BiH 8/2026, has applied since 11 Feb 2026. Firms had to align their internal acts by 12 May 2026 ([Sl. glasnik BiH 13/24](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392); [Rulebook](https://sipa.gov.ba/assets/files/foo-docs/Pravilnik%20BH.pdf)). The same rules apply in FBiH, RS and Brčko. Only the supervisor, the forms and the language or script differ.
+- **Who is obliged.** Audit firms; bookkeeping and accounting companies and sole traders; tax advisers; real estate intermediaries (sales, and rentals only at 20,000 KM a month or more); dealers in precious metals, stones and art above 20,000 KM; vehicle, vessel and aircraft dealers; and TCSPs (Law Art. 5).
+  - There is no micro-firm exemption. Firms with 4 or fewer employees get only two reliefs: the owner is the default authorised person, and there is no yearly independent audit (Art. 48(4), 55(5)).
+- **What must exist on paper.**
+  - A business-wide risk assessment, updated and sent to the supervisor at least once a year (Art. 10(2)).
+  - A written risk-assessment programme (RB Art. 5).
+  - Policies covering the 13 elements of Art. 56(3).
+  - An authorised person and deputy, notified to the FOO within 8 days (Art. 48(5); RB Art. 42).
+  - A training plan by 31 March, a training register, and training for new staff within 60 days (Art. 54; RB Art. 43-45).
+  - Its own indicator list, built on the FOO sector list and sent to the FOO and the supervisor within 30 days (Art. 57).
+  - CDD files with fixed data fields and time-stamped ID copies (Art. 15). PEP status cannot rest on the client's word alone (RB Art. 22).
+  - Eleven registers (Art. 60), kept for 10 years (Art. 59, 92).
+- **Reporting to the FOO.** Reports go through the FOO's own AMLS software, not goAML. Post or e-mail is allowed only in exceptional cases, with confirmation by the next working day (Art. 46-47).
+  - An STR must be sent before the transaction is executed (Art. 42).
+  - Cash of 30,000 KM or more, linked cash, and transactions of 30,000 KM or more with listed countries must be reported within 3 days (Art. 43).
+  - A new AMLS is planned for mid-2027 ([FOO report 2025](https://sipa.gov.ba/assets/files/foo-docs/FOOIZVJESTAJ2025BOS.DOC)).
+- **Supervisors.** FUZIP covers FBiH, RUIP covers RS, and the Directorate for Finance (Tax Administration) covers Brčko (Art. 93(1)(k)).
+  - FUZIP's 49-item questionnaires for accountants and real estate agents (Oct 2026) work as a ready-made product spec. They say which documents must be attached ([FUZIP Q](https://fuzip.gov.ba/wp-content/uploads/2026/10/UPITNIK-ZSPNFT_Racunovodstvene-i-knjigovodstvene-usluge.pdf)).
+  - The RS 13-item questionnaire of Jan 2026 is known only from press reports.
+- **Enforcement is real.**
+  - FUZIP did 7 AML inspections in 2024 and issued 14 misdemeanour orders worth 392,010 KM ([FUZIP report 2024](https://fuzip.gov.ba/wp-content/uploads/2025/12/25.02.04-godisnji-izvjestaj-Federalne-uprvae-za-inspekcijske-poslove.pdf)).
+  - FUZIP is running a special programme from 28 Sep to end-2026 ([Paragraf, 1 Oct 2026](https://www.paragraf.ba/dnevne-vijesti/01102026/01102026-vijest1.html)).
+  - Fines are 5,000-200,000 KM for legal persons, 1,000-20,000 KM for responsible persons and 2,000-10,000 KM for sole traders (Art. 100).
+- **FATF grey list.** FATF listed BiH on 19 Jun 2026. The action plan includes consistent DNFBP supervision, timely BO data, feedback on STR quality and sanctions for TFS breaches ([FATF](https://fiaumalta.org/app/uploads/2026/06/FATF-On-going-Process-19-June-2026-Increased-monitoring.pdf)). Expect pressure through at least 2028 (my estimate).
+- **Sanctions screening is still moving.** The Rulebook makes UN-sanctioned persons "unacceptable clients". A new TFS law passed the House of Peoples in May 2026, but its final duties are (unverified).
+- **Product.** 71 testable requirements follow, each traced to an article. The core is:
+  - a risk-assessment and programme generator;
+  - the act set;
+  - a CDD, BO and PEP register;
+  - the FOO indicator library;
+  - deadlines;
+  - STR and CTR drafting, never automatic sending;
+  - UN and country-list screening;
+  - a FUZIP questionnaire pre-fill.
+  The vendor must not do monitoring for the customer, because monitoring cannot be outsourced (Art. 27(4); RB Art. 19(3)).
 
 ## Who is obliged
 
@@ -40,7 +74,7 @@ Cash rule for everyone (not only obliged entities): a seller of goods, real esta
 ## Duty-by-duty table
 
 Legal sources used in this table:
-- "Law" = Zakon o sprječavanju pranja novca i finansiranja terorističkih aktivnosti, Sl. glasnik BiH 13/2024, in force 27 Feb 2024 (8th day after 19 Feb 2024 publication, Art. 105) ([Law](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392)).
+- "Law" = Zakon o sprječavanju pranja novca i finansiranja terorističkih aktivnosti, Sl. glasnik BiH 13/2024, in force 27 Feb 2024 (8th day after 19 Feb 2024 publication, Art. 105; the RS Inspectorate gives 28 Feb 2024) ([Law](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392)).
 - "Rulebook" = Pravilnik o provođenju Zakona o sprečavanju pranja novca i finansiranja terorističkih aktivnosti, Sl. glasnik BiH 8/2026 of 3 Feb 2026, adopted by the Council of Ministers on 29 Dec 2025. In force 8 days after publication, i.e. 11 Feb 2026 (Art. 48). Obliged entities had 90 days to align internal acts, i.e. to 12 May 2026 (Art. 46). It repealed the old rulebook 41/15 and 24/23 (Art. 47) ([Rulebook](https://sipa.gov.ba/assets/files/foo-docs/Pravilnik%20BH.pdf), scan of the gazette pages 79-91 published by SIPA; deadline dates also in [BDK Advokati, 18 Feb 2026](https://bdkadvokati.com/aml-rulebook-in-bosnia-and-herzegovina-sets-90-day-implementation-deadline-12-may-2026)).
 - "FUZIP Q" = FUZIP questionnaire for bookkeeping and accounting providers, period Jan-Dec 2026 ([FUZIP questionnaire](https://fuzip.gov.ba/wp-content/uploads/2026/10/UPITNIK-ZSPNFT_Racunovodstvene-i-knjigovodstvene-usluge.pdf)).
 - Penalties are from Art. 100 of the Law. Legal persons: para (1) 5,000-20,000 KM; para (2) 20,000-80,000 KM; para (3) 50,000-200,000 KM. Responsible person in the legal person: 1,000-5,000 / 3,000-10,000 / 5,000-20,000 KM (paras 5-7). A natural person doing independent activity (e.g. a sole-trader bookkeeper, "preduzetnik"): 2,000-10,000 KM for any of them (para 8) ([Law](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392)).
@@ -175,23 +209,216 @@ Supervisors must send the FOO the minutes of every AML inspection and the measur
 
 ## Entity differences
 
-(in progress)
+**What is the same everywhere (one rule engine is enough):**
+- One state Law, one Rulebook, one FIU (FOO/SIPA), one set of FOO indicator lists, one FOO country list. They apply in FBiH, RS and Brčko alike ([Law](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392); [Rulebook](https://sipa.gov.ba/assets/files/foo-docs/Pravilnik%20BH.pdf)).
+- Thresholds, deadlines, retention periods and penalty ranges are the same in all three units (Law Art. 12, 42-43, 59, 92, 100).
+- The JMBG personal number and ID documents are state-wide (my inference).
+
+**What differs and the product must handle:**
+
+| Item | FBiH | RS | Brčko District | Source |
+|---|---|---|---|---|
+| Supervisor of bookkeepers, auditors, tax advisers, real estate agents | FUZIP (Federal Market Inspectorate) | RUIP (Inspektorat RS) | Directorate for Finance / Tax Administration of BD | Law Art. 93(1)(k) ([Law](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392)) |
+| Where the yearly risk assessment and the indicator list go | FUZIP (+ FOO for indicator list) | RUIP (+ FOO) | Tax Administration BD (+ FOO) | Law Art. 10(2), 57(3); FUZIP guidelines Art. 6(3) |
+| Published guidance and questionnaire | FUZIP guidelines of 20 Apr 2026; 49-item questionnaires per sector (Oct 2026) | 13-item questionnaire and checklist (Jan 2026), text not found | Not found | [FUZIP Q](https://fuzip.gov.ba/wp-content/uploads/2026/10/UPITNIK-ZSPNFT_Racunovodstvene-i-knjigovodstvene-usluge.pdf); [Paragraf, 29 Jan 2026](https://www.paragraf.ba/dnevne-vijesti/29012026/29012026-vijest1.html) |
+| Language and script in practice | Bosnian and Croatian, Latin. FUZIP mixes Croatian terms ("članak", "stavak", "točka") into Bosnian text | Serbian. RS institutions mostly use Cyrillic (my observation; Latin is also official). The Rulebook's Serbian version and FOO's Serbian indicator lists are in Cyrillic | All three languages, both scripts | [FUZIP Q](https://fuzip.gov.ba/wp-content/uploads/2026/10/UPITNIK-ZSPNFT_Racunovodstvene-i-knjigovodstvene-usluge.pdf); [SIPA FOO, SR page](https://www.sipa.gov.ba/sr/dokumenti/foo-podzakonski-akti); [Rulebook](https://sipa.gov.ba/assets/files/foo-docs/Pravilnik%20BH.pdf) p. 79 |
+| Official text of the Law | Published in Bosnian, Croatian and Serbian in Sl. glasnik BiH 13/24 (three ISSNs). Croatian version uses "članak/stavak/točka" | | | [Sl. glasnik BiH 13/24](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392) |
+| FOO materials | Bosnian and Croatian versions | Serbian (Cyrillic) versions | Any | [SIPA FOO, BS](https://www.sipa.gov.ba/bs/dokumenti/foo-podzakonski-akti); [HR](https://www.sipa.gov.ba/hr/dokumenti/foo-podzakonski-akti) |
+| Beneficial ownership register | None found (unverified) | Live in test phase since May 2026 | Being set up (2025) | [Paragraf, 11 May 2026](https://www.paragraf.ba/dnevne-vijesti/11052026/11052026-vijest3.html); [CoE](https://www.coe.int/bs/web/sarajevo/-/br%C4%8Dko-district-engages-in-concrete-action-towards-establishing-beneficial-ownership-register) |
+| Business register for look-ups (Law Art. 16(4), 18(3)) | Court registers of business entities (bizreg.pravosudje.ba) (unverified) | APIF single registration system (bizreg.esrpska.com) (unverified) | Basic Court of BD register (unverified) | my knowledge |
+| Where fines go | FBiH budget | RS budget | BD budget | Law Art. 100(11) |
+| Political risk | none specific | RS adopted laws in 2025 banning SIPA's work in RS; the BiH Constitutional Court suspended them in March 2025. RS's own Inspectorate still enforces the state AML Law for DNFBPs in 2026 | none specific | [N1, Mar 2025](https://n1info.ba/english/news/bihs-const-court-temporarily-suspends-controversial-rs-entity-laws/); [Paragraf, 29 Jan 2026](https://www.paragraf.ba/dnevne-vijesti/29012026/29012026-vijest1.html) |
+
+Note: RS Inspectorate pages cite the Law as Sl. glasnik BiH "12/24" in force "28 Feb 2024" (search snippet of [Inspektorat RS](https://inspektorat.vladars.rs/index.php/en/2026/04/28/information-to-business-entities-of-non-financial-sector-relating-to-implementation-of-law-on-preventing-money-laundering-and-terrorist-activity-financing/)). The official gazette says 13/2024, published 19 Feb 2024 ([Law](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392)). Templates should cite 13/24.
 
 ## Upcoming changes
 
-(in progress)
+| What | Status | Effect on the product | Source |
+|---|---|---|---|
+| TFS law ("Zakon o ograničavanju raspolaganja imovinom s ciljem sprečavanja terorizma, finansiranja terorizma i finansiranja širenja oružja za masovno uništenje") | Sent by the Council of Ministers 12 Mar 2026; adopted by the House of Peoples in early May 2026. Gazette and in-force date (unverified) | New screening, freezing and reporting duties for "obliged entities"; new supervisor sanction powers (FATF item 9) | [Paragraf, 13 Mar 2026](https://www.paragraf.ba/dnevne-vijesti/13032026/13032026-vijest2.html); [Paragraf, 7 May 2026](https://www.paragraf.ba/dnevne-vijesti/07052026/07052026-vijest2.html) |
+| New AMLS (FOO reporting system), EU-funded via ICMPD | Technical specification drafted in 2025; procurement and go-live planned for mid-2027 | Report formats and access may change in 2027. Do not hard-wire today's channel | [FOO report 2025](https://sipa.gov.ba/assets/files/foo-docs/FOOIZVJESTAJ2025BOS.DOC) |
+| FATF action plan (grey list since 19 Jun 2026) | Ongoing; MONEYVAL follow-up report due Dec 2026 | More DNFBP inspections, sanctions, STR-quality feedback, TFS checks | [FATF, 19 Jun 2026](https://fiaumalta.org/app/uploads/2026/06/FATF-On-going-Process-19-June-2026-Increased-monitoring.pdf); [CoE](https://www.coe.int/en/web/sarajevo/-/bosnia-and-herzegovina-urged-to-strengthen-efforts-against-money-laundering-and-terrorist-financing) |
+| FOO country list | FOO list on SIPA site was still the February 2026 FATF version when checked on 9 Oct 2026; FATF plenaries are in Feb, Jun and Oct | Need a feed that updates after each plenary, without waiting for the FOO | [FOO country list](https://sipa.gov.ba/assets/files/foo-docs/Lista%20zemalja%20sa%20strateskim%20nedostacima-BOS.doc) |
+| FOO sector indicator lists | Current lists issued under the 2026 Rulebook; must be updated at least every 2 years | Versioned indicator library; prompt customers to re-send their own list within 30 days of each change | Rulebook Art. 7(4) ([Rulebook](https://sipa.gov.ba/assets/files/foo-docs/Pravilnik%20BH.pdf)); Law Art. 57(3) |
+| Higher-likelihood country list (Law Art. 86(1)(b)) | To be set by the Council of Ministers and sent to obliged entities via supervisors, not published | Product must accept a customer upload of a non-public list | Rulebook Art. 37(2)-(4) ([Rulebook](https://sipa.gov.ba/assets/files/foo-docs/Pravilnik%20BH.pdf)) |
+| PEP public-functions by-law (Law Art. 34(6)) | Not found (unverified) | Replace the vendor-maintained PEP function list when it arrives | [Law](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392) |
+| Beneficial ownership registers | RS live (test); RS plans a dedicated law; FBiH and BD pending | Add register look-ups as they open | [Paragraf, 11 May 2026](https://www.paragraf.ba/dnevne-vijesti/11052026/11052026-vijest3.html) |
+| National risk assessment | Must be updated at least every 4 years (Law Art. 7(2)); FATF item 1 asks for deeper risk understanding | Risk-assessment templates must cite the current NRA | [Law](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392) |
+| EU AML package alignment | The Law aligns only with AMLD4/AMLD5 and the 2018 cash regulation (Art. 1(2)). The EU AML Regulation (EU) 2024/1624 applies in the EU from 10 Jul 2027. As an EU candidate BiH will have to align at some point; no BiH draft found | Expect a new or amended law after 2027 (my estimate): possible EUR 10,000 cash cap, more detailed CDD and BO rules. Keep the rule engine data-driven | [Law](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392); no BiH draft found in searches (unverified) |
+| Supervisor may require AML IT systems for DNFBPs | Allowed by Rulebook Art. 32(2); FUZIP questionnaire item 39 already asks whether a firm has an IT system | Selling point; watch for supervisor decisions | [Rulebook](https://sipa.gov.ba/assets/files/foo-docs/Pravilnik%20BH.pdf); [FUZIP Q](https://fuzip.gov.ba/wp-content/uploads/2026/10/UPITNIK-ZSPNFT_Racunovodstvene-i-knjigovodstvene-usluge.pdf) |
 
 ## PRODUCT REQUIREMENTS
 
-(in progress)
+Each requirement is testable. "Basis" gives the legal source: "Law" = Sl. glasnik BiH 13/24; "RB" = Rulebook, Sl. glasnik BiH 8/26; "FQ" = FUZIP questionnaire 2026 (item number); "ZZLP" = Law on Personal Data Protection 12/25. Sources are linked in the sections above.
+
+**A. Scope, profile and set-up**
+
+1. The system must ask the firm's Art. 5 category (audit firm; bookkeeping/accounting company or sole trader; tax adviser; real estate intermediary; precious metal/stone dealer; art dealer; vehicle/vessel/aircraft dealer; TCSP; non-bank lender or money transfer) and store it. Test: each category produces the matching supervisor, indicator list and questionnaire. Basis: Law Art. 5, 93.
+2. For threshold categories the system must record whether the firm is obliged: dealers in precious metals/stones only for cash deals of 20,000 KM or more; art dealers for deals or linked deals of 20,000 KM or more; real estate intermediaries for all sales and for rentals only at 20,000 KM monthly rent or more. Test: a rentals-only agency with 1,500 KM rents is marked "not obliged for rentals". Basis: Law Art. 5(2).
+3. The system must derive the supervisor from the firm's seat: FUZIP (FBiH), RUIP (RS), Directorate for Finance / Tax Administration (Brčko). Test: changing the seat changes the addressee on every cover letter and submission. Basis: Law Art. 93(1)(k), (n), (p), (r).
+4. The system must store the number of employees and apply exactly two size rules: (a) with 4 or fewer employees and no appointment, the legal representative is shown as authorised person; (b) firms with 4 or fewer employees (non-financial) are exempt from the yearly independent internal/external audit. No other duty may be switched off by size. Test: a 1-person firm still gets risk assessment, training, indicator list and CDD tasks. Basis: Law Art. 48(4), 55(5); FQ footnotes 3-4.
+5. Every generated document must be available in Bosnian (Latin), Croatian (Latin) and Serbian (Latin and Cyrillic). Article references must use each language's terms (član/članak, stav/stavak, tačka/točka). Default: Serbian Cyrillic for RS seats, user-selectable everywhere. Test: one click switches an act between the four variants with identical article numbers. Basis: Law published in three languages (Sl. glasnik BiH 13/24); FOO materials issued in BS, HR and SR Cyrillic.
+
+**B. Business-wide risk assessment**
+
+6. The risk-assessment wizard must cover the four factor groups (clients; countries/geography; products, services, transactions; distribution channels) and the Rulebook sub-factors under each. The output must contain a written analysis of each factor. Test: the PDF has a separate section per factor with text, not only scores. Basis: Law Art. 10(1); RB Art. 6(2); FQ 21.
+7. The assessment must show inherent risk, mitigating measures and residual risk, and assign one of four overall levels: less significant, moderately significant, significant, very significant. Basis: RB Art. 3(1)(b)-(c), 14(2).
+8. The assessment must include the firm's policies, measures and procedures (or reference the adopted act) and cite the national risk assessment and the supervisor's guidelines. Basis: Law Art. 10(3), (5); RB Art. 15(3).
+9. The system must version every assessment, record management approval (name, function, date) and block "final" status without it. Basis: Law Art. 9(4) (approval of policies), 10(2).
+10. The system must schedule a review no later than 12 months after the last approved version, and record each delivery to the supervisor (date, channel, reference, proof file). Test: a dashboard shows "overdue" on day 366. Basis: Law Art. 10(2); RB Art. 15(2); FUZIP guidelines Art. 6(3).
+11. The system must keep a log of change-triggered assessments (new service, outsourcing, new channel, new technology) that must be completed before the change goes live. Basis: Law Art. 10(6), 32; RB Art. 12; FQ 22-23.
+12. The system must generate the written internal risk-assessment programme: client risk categories and criteria, scoring method, review triggers, record of rating changes with reasons, whole-business assessment, effectiveness check, and a statement that it is part of staff training. Basis: RB Art. 5; FQ 24.
+
+**C. Internal acts**
+
+13. The policy generator must produce one or more acts that contain all 13 elements of Law Art. 56(3)(a)-(m), with a coverage checklist that fails if any element is missing. Basis: Law Art. 56(3).
+14. The act set must also include: CDD procedure (Law Art. 11(2)); PEP procedure (Art. 34(1)); internal-control act naming who, how and when (RB Art. 40(2)); data-security act for FOO data (Law Art. 89); anonymous internal whistleblowing procedure with anti-retaliation and false-report rules (Art. 58); staff integrity screening procedure (Art. 53); cooperation between the authorised person and other units (Art. 51(2)); linked-cash-transaction procedure (RB Art. 36(3)); EDD policy for high-risk countries and situations (RB Art. 27(1)); SDD conditions (RB Art. 10, 28-29).
+15. Each act must store its approval by the top management body and its effective date. Acts approved before 12 May 2026 must be flagged "check alignment with Rulebook 8/26". Basis: Law Art. 9(4), 56(4); RB Art. 46.
+
+**D. Authorised person and FOO registration**
+
+16. The system must generate a decision appointing the authorised person and at least one deputy, with an eligibility checklist (qualifications and experience; no final conviction and no pending criminal case, traffic offences excepted; knowledge of the business) and attachments for proof. Basis: Law Art. 48(1), 49; FQ 40-43.
+17. The system must produce the FOO/AMLS registration pack with: name of the responsible senior manager; names of authorised person and deputy; phone and e-mail of each; firm name, address, seat and JIB; plus (first registration) current court-register extract or registration decision and the statistical classification notice. Basis: RB Art. 42(1)-(2); Law Art. 48(5).
+18. Any appointment or change must start an 8-day countdown for notifying the FOO and record the sending date and proof. Test: a change entered on day 0 shows "due" on day 8. Basis: Law Art. 48(5).
+
+**E. Training**
+
+19. The system must create the annual training plan and require its approval by 31 March of the current year. Basis: Law Art. 54(3); FQ 46.
+20. The training register must store date, duration, content, participant list with job titles and functions for each session. Basis: RB Art. 45(1).
+21. The default training content must cover the 7 minimum topics (definitions; legal framework and duties; risk assessment and risk-based approach; internal policies incl. CDD; suspicious-transaction indicators and reporting; product/service vulnerabilities; internal controls), plus data protection and the indicator list. Basis: RB Art. 44(1); Law Art. 54(2).
+22. The system must track new employees and flag any who have not completed initial training within 60 days of starting. Basis: RB Art. 43(2).
+23. The system must record an effectiveness check per session (e.g. a test score) and absences without justification. Basis: RB Art. 45(2)-(3).
+
+**F. Client due diligence**
+
+24. The client form must hold every Art. 15(1) field for each party type (natural person, sole trader/"obrt", legal person, beneficial owner, proxy/representative), and mark as mandatory the subset required by the trigger (new relationship: 15(1)(a), (c), (d), (f), (g), (h), (k)). Test: a new legal-person client cannot be saved as "verified" without BO data and source of funds. Basis: Law Art. 15(1), (5)-(9).
+25. For foreigners without a personal ID number, the form must accept ID document type, number, issuer and country instead. Basis: Law Art. 15(3).
+26. Each ID copy must be stored with the date and time of identification and the name of the employee who did it, and a note that the original was seen. Basis: Law Art. 15(14), 61(2); RB Art. 30(1); FQ 32.
+27. Each public-register look-up must be logged with date, time and the name of the person who looked, and register extracts older than 3 months must be rejected. Basis: Law Art. 16(4), 18(2)-(3), 60(a).
+28. The system must check and record that a representative or proxy is authorised (power of attorney) and identify that person in person. Basis: Law Art. 11(3), 17.
+29. The BO module must calculate direct and indirect ownership and voting rights, flag every natural person at 25% or more, record control by other means, fall back to senior managing officials when no owner qualifies, and log verification difficulties. Basis: Law Art. 4(p), 18(4), 60(c), 61(1)(m); FQ 27.
+30. For trusts and similar arrangements the module must capture settlor, trustee, protector, beneficiaries or class, others in control, ID data, trustee address and a copy of the deed. Basis: Law Art. 18(5); RB Art. 18.
+31. A client cannot be set to "active" until identity and BO are verified, except a logged low-risk deferral that must be closed "as soon as possible". If CDD cannot be completed, the system must offer "refuse / terminate" and prompt the user to consider an STR, and count refusals per year. Basis: Law Art. 14(1)-(2), (4)-(5); FQ 31.
+32. For lawyers and similar roles acting in legal defence, the refusal-and-STR prompt must be suppressible with a recorded reason. Basis: Law Art. 14(6), 45.
+33. The system must flag foreign legal persons that transact for re-identification at least once a year. Basis: Law Art. 18(9).
+34. The engagement-letter template must oblige the client to report changes in its documentation within 8 days. Basis: Law Art. 18(13).
+35. Foreign-language documents not in a BiH language must be flagged "certified translation required". Basis: RB Art. 30(2).
+36. Transaction entries must convert foreign currency to KM at the official rate at the time of the transaction and trigger CDD at 30,000 KM (single or linked) and for occasional transfers at 2,000 KM. Basis: Law Art. 4(c), (k), 12(1)(b)-(c).
+
+**G. Client risk, PEP, EDD and SDD**
+
+37. Each client must get a low, medium or high rating with stored reasons, and a separate "unacceptable" flag (incl. UNSC-sanctioned persons and unlicensed businesses). Every rating change must be logged with date, reason and user. Basis: RB Art. 5(2)(d), 8(2), 13(3); FQ 24-25.
+38. The system must re-open the rating on any Rulebook Art. 16(3) trigger (EDD situation, unusual activity or STR, authority request, TFS hit, big change in activity, adverse media) and set review intervals by risk. Basis: RB Art. 16; Law Art. 27(3).
+39. PEP status must not be closeable on the client's self-declaration alone: at least one other source (official/public database, vetted commercial database, media, asset-declaration register) must be recorded. Basis: RB Art. 22.
+40. The system must ship and maintain a list of domestic and foreign PEP functions per Law Art. 4(s)-(t) and RB Art. 25(2), and capture family members (RB Art. 25(5) list) and close associates (RB Art. 25(3)). PEP measures must stay on for at least 12 months after the person leaves office. Basis: Law Art. 34(4)-(5); RB Art. 25.
+41. Onboarding or continuing a PEP, or a client linked to a high-risk country, must require a stored written approval by senior management before activation. Basis: Law Art. 29(4), 34(2)(b), 34(3), 35(1)(e); RB Art. 23(1)(b).
+42. EDD cases must capture source of wealth and source of funds evidence (e.g. VAT and profit-tax returns, audited statements, payslips) and set enhanced monitoring. Basis: Law Art. 34(2)(a), 35(1); RB Art. 23, 27(4).
+43. Non-face-to-face onboarding, high-risk-country links, high-risk activities, unusual transactions and new technologies must automatically require EDD. Basis: Law Art. 29(1).
+44. SDD may be selected only for a documented low-risk client category, with the client's written statement attached; it must be blocked when there is suspicion or a high-risk trigger. Basis: Law Art. 30; RB Art. 9-10, 28-29.
+
+**H. Monitoring, unusual and linked transactions**
+
+45. The system must schedule periodic client reviews by risk level and log each review (who, when, result). Monitoring tasks must be assigned only to the firm's own users. Basis: Law Art. 27, 60(a); monitoring cannot be outsourced (Law Art. 27(4); RB Art. 19(3)); FQ 29, 35.
+46. For bookkeepers, the periodic review must present the FOO accounting-sector indicators as a checklist against the client's books. Basis: Law Art. 57(4); FOO list for auditors/accountants/tax advisers.
+47. The system must let users open an unusual-transaction case and, when no suspicion is found, produce an "official note" (službena zabilješka) kept in a register available to the FOO and supervisor. Basis: Law Art. 33(2), 60(d); FQ 36.
+48. The system must aggregate the client's cash transactions to detect linked transactions reaching 30,000 KM, with no fixed time window. Basis: Law Art. 4(c), 43(1)(b); RB Art. 36(1)-(2).
+
+**I. Indicator list, STR, CTR and FOO requests**
+
+49. The system must ship the current FOO sector indicator lists (general + sector list) as a locked base layer of the firm's own list, allow firm-specific additions, version the list and record each update. Basis: Law Art. 57(1), (4)-(5); RB Art. 7.
+50. When the firm's list is created or amended, the system must start a 30-day deadline to send it to both the FOO and the supervisor, and store proof for each. Basis: Law Art. 57(3); FQ 59-60.
+51. The STR draft must contain all Art. 61(1) fields, the reasons for suspicion linked to the indicators used, and the expected execution period. It must show the rule "report before executing; if impossible, by the next working day with reasons". The system must never send an STR automatically. Basis: Law Art. 42(2)-(4), 61(1).
+52. The system must log each FOO submission: channel (AMLS, or fallback post/courier/e-mail/phone/fax), time and reference; for e-mail, phone or fax it must create a follow-up task due the next working day for AMLS or postal confirmation. Basis: Law Art. 46(1)-(3).
+53. STR data must be visible only to the authorised person, deputy and named management; other users must not see that an STR exists. Basis: Law Art. 51(1)(a), 88(1).
+54. The system must detect cash transactions of 30,000 KM or more, linked cash totals of 30,000 KM or more, and any transaction of 30,000 KM or more with persons located or seated in list countries, and start a 3-day reporting deadline. Basis: Law Art. 43(1)-(2).
+55. The system must log FOO requests with an 8-working-day deadline, FOO suspension and monitoring orders, and a note of any oral order received. Basis: Law Art. 60(j)-(k), 64(3), 67(2), 68(3).
+56. The system must keep and export all Art. 60 registers (a)-(k) on paper-equivalent PDF or electronic form. Basis: Law Art. 60; FQ 47.
+
+**J. Sanctions and country lists**
+
+57. Every client, BO and representative must be screened against the UN Security Council consolidated list at onboarding and again whenever the list changes, with match review, decision and evidence stored. Basis: RB Art. 13(3), 16(3)(d), 32; FATF action-plan item 9.
+58. The screening module must be able to load additional lists without code changes (BiH designations under the 2026 TFS law, EU lists). Basis: 2026 TFS law (details unverified).
+59. The country module must hold the FOO list of countries with strategic deficiencies (FATF call-for-action and increased-monitoring lists), update it after each FATF plenary, and accept a customer upload of the non-public "higher likelihood" list. A client or transaction linked to a listed country must trigger EDD and the 30,000 KM report rule. Basis: Law Art. 29(1)(f), 35, 43(1)(c)-(d), 86; RB Art. 37.
+
+**K. Internal control and audit**
+
+60. The system must schedule an internal compliance check at least once a year and before each significant business change, using a checklist, and store the result for at least 4 years. Basis: RB Art. 38-39; Law Art. 55(1), 92(2); FQ 20.
+61. For firms with more than 4 employees, the system must generate the annual internal-audit report with all RB Art. 41(2)(a)-(k) contents (report counts, internal reports not forwarded, remote IDs, indicator use, internal controls, IT audit, training, data protection, third-party reliance, restrictive measures), keep the gap between reports at 12 months or less, and allow export within 3 days of a request. Basis: Law Art. 55(2)-(5); RB Art. 41.
+
+**L. Records, retention, security and data protection**
+
+62. Retention must be 10 years from the end of the relationship or the occasional transaction for CDD and transaction records, and at least 4 years from the event for authorised-person, training and internal-control records. After expiry personal data must be deleted or anonymised, unless a legal hold is set. Test: a client closed on 1 Mar 2026 is purged no earlier than 1 Mar 2036. Basis: Law Art. 59(1), 92(1)-(2), (6).
+63. Transaction records must allow reconstruction of individual transactions; all edits must be in an append-only audit log. Basis: Law Art. 59(2).
+64. Access must be role-based, encrypted at rest and in transit, and backed up, as described in the firm's Art. 89 act. Basis: Law Art. 89; ZZLP Art. 34.
+65. The vendor must sign a processor agreement with each customer, keep records of processing, notify customers of breaches without delay so they can meet the 72-hour notice, and host data in BiH or in a location that meets ZZLP Art. 47. Basis: ZZLP Art. 30, 32, 35, 47; Law Art. 88(6).
+
+**M. Inspection readiness and deadlines**
+
+66. The system must pre-fill the FUZIP 49-item questionnaire (accounting, real estate and other sector versions) from stored data, attach the required documents, and produce the liability statement for signature by the authorised person. Basis: FQ items 1-47, 59-60, XI.
+67. The system must hold a configurable questionnaire template so the RS (RUIP) and Brčko forms can be added without code changes. Basis: Law Art. 56(5); RS 13-item request (text unverified).
+68. The system must export a full "inspection pack" (risk assessment, programme, acts, appointment decision and FOO notice, training plan and register, indicator list and submissions, registers, internal-control results) within minutes. Basis: Law Art. 11(7), 56(5); FUZIP announcement of 7 Oct 2026.
+69. One deadline dashboard must show: yearly risk-assessment update and submission; training plan by 31 March; new-staff training at 60 days; indicator-list submission at 30 days; authorised-person notice at 8 days; CTR at 3 days; FOO request at 8 working days; STR next-working-day fallback; yearly re-identification of foreign legal persons; ID and extract expiry; yearly internal control. Basis: Law Art. 10(2), 18(9), 42(4), 43(2), 48(5), 54(3), 57(3), 64(3); RB Art. 39(2), 43(2).
+
+**N. Role of the vendor**
+
+70. The product must record every CDD, monitoring, risk and reporting decision as made by a named user of the obliged entity. The vendor must not act as a "third party" for CDD or perform monitoring for the customer. Basis: Law Art. 23(3) (outsourcing providers are not third parties), 24(4), 27(4); RB Art. 19(3)-(4).
+71. Every template must show the law version and article numbers it relies on, so it can be updated when the TFS law, the new AMLS (mid-2027) or later amendments arrive. Basis: Law Art. 10(5) (risk assessment must follow by-laws and guidelines), 56(4) (management must keep acts adequate); RB Art. 46 (90-day alignment after the Rulebook).
 
 ## Open questions
 
-(in progress)
+1. **AMLS access for small firms.** How a bookkeeper gets AMLS credentials, whether AMLS is a web form, desktop client or file upload, and whether the "Instruction on forms and electronic data entry" (Sl. glasnik BiH 41/15) still defines the fields. Ask the FOO directly. (unverified)
+2. **Risk-assessment submission.** Format, channel (e-mail, post, portal) and any fixed date for the yearly delivery to FUZIP, RUIP and the Brčko Tax Administration. FUZIP says "deliver"; no channel found. (unverified)
+3. **RS questionnaire.** The text of RUIP's 13 items and checklist (Jan 2026), and any RS risk-assessment guidelines. The RS Inspectorate site returned HTTP 503 / TLS errors from this environment. (unverified)
+4. **Brčko.** Whether the Tax Administration of BD has issued guidelines, a questionnaire or done any AML inspections. Nothing found. (unverified)
+5. **TFS law 2026.** Gazette number, entry into force, which body publishes domestic designations, and what DNFBPs must do (screen, freeze, report to whom, deadline). This is needed before the screening module is final. (unverified)
+6. **Supervisor IT-system requirement.** Whether FUZIP, RUIP or Brčko will use Rulebook Art. 32(2) to require AML software for DNFBPs. (unverified)
+7. **PEP functions by-law** (Law Art. 34(6)) and the non-public "higher likelihood" country list (Law Art. 86(1)(b); RB Art. 37(2)): adopted or not. (unverified)
+8. **CTR scope for bookkeepers.** Whether the FOO expects bookkeepers to file Art. 43 reports on client cash they only see in the books, or only on cash they receive themselves. (unverified)
+9. **Who is the client for a real estate agent:** buyer, seller, or both (and landlord/tenant for 20,000 KM+ rentals). The Law defines "client" generally (Art. 4(kk)); no BiH guidance found. (unverified)
+10. **Sole traders and penalties.** Whether a sole-trader bookkeeper ("preduzetnik") is fined as a "natural person doing independent activity" (2,000-10,000 KM, Art. 100(8)) or under the legal-person ranges. (unverified)
+11. **Drafting glitch.** Art. 100(1)(b) penalises failure to align the risk analysis "under Art. 10(6) and (7)", but Art. 10 has only 6 paragraphs. Check how supervisors apply it. (my observation from the gazette text)
+12. **Data hosting.** Whether hosting customer data in an EU member state needs a Council of Ministers adequacy decision under ZZLP Art. 47, or is covered by Art. 47(2). (unverified)
+13. **Published sanctions.** No Art. 98 publication of final AML fines was found on FUZIP's site; the 2024 FUZIP fines (14 orders, 392,010 KM) are not broken down by sector. (unverified)
+14. **National risk assessment.** Which NRA version is current (Law Art. 7(2) requires an update at least every 4 years), so templates cite the right one. (unverified)
+15. **MONEYVAL MER details** for DNFBPs (IO.3/IO.4 ratings, R.22/23/28) could not be read: coe.int and fatf-gafi.org returned HTTP 403 here. (unverified)
 
 ## Sources
 
-- https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392 (Sl. glasnik BiH 13/2024, full official text)
-- https://www.paragraf.ba/propisi/bih/zakon-o-sprecavanju-pranja-novca-i-finansiranja-teroristickih-aktivnosti.html
-- https://www.paragraf.ba/dnevne-vijesti/05012026/05012026-vijest4.html
-- https://www.paragraf.ba/dnevne-vijesti/01102026/01102026-vijest1.html
+Primary legal texts
+- Law on Prevention of Money Laundering and Financing of Terrorist Activities, Sl. glasnik BiH 13/2024 (full gazette issue): https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392
+- Same law, free partial text (Art. 1-35): https://www.paragraf.ba/propisi/bih/zakon-o-sprecavanju-pranja-novca-i-finansiranja-teroristickih-aktivnosti.html
+- Rulebook on implementation of the Law, Sl. glasnik BiH 8/2026 (scan published by SIPA): https://sipa.gov.ba/assets/files/foo-docs/Pravilnik%20BH.pdf
+- SIPA FOO by-laws, indicator lists and country list (BS / SR / HR): https://www.sipa.gov.ba/bs/dokumenti/foo-podzakonski-akti ; https://www.sipa.gov.ba/sr/dokumenti/foo-podzakonski-akti ; https://www.sipa.gov.ba/hr/dokumenti/foo-podzakonski-akti
+- FOO indicator list, auditors/accountants/tax advisers: https://sipa.gov.ba/assets/files/foo-docs/Lista%20indikatora%20revizija%2C%20racunovodstvo%20BO.doc
+- FOO indicator list, real estate intermediaries: https://sipa.gov.ba/assets/files/foo-docs/Lista%20indikatora%20nekretnine%20BO.doc
+- FOO list of countries with strategic deficiencies (Feb 2026): https://sipa.gov.ba/assets/files/foo-docs/Lista%20zemalja%20sa%20strateskim%20nedostacima-BOS.doc
+- FOO statistics and typologies 2025: https://sipa.gov.ba/assets/files/foo-docs/FOOIZVJESTAJ2025BOS.DOC
+- Old (repealed) rulebook 41/15 and 24/23: https://advokat-prnjavorac.com/zakoni/Pravilnik-o-sprovodenju-Zakona-o-sprecavanju-pranja-novca-i-finansiranja-teroristickih-aktivnosti.pdf
+- Law on Personal Data Protection, Sl. glasnik BiH 12/2025: https://bhas.gov.ba/data/Dokumenti/pdf/Zakon_o_zastiti_licnih_podataka_12-25_BS.pdf
+
+Supervisors
+- FUZIP questionnaire, accounting/bookkeeping 2026: https://fuzip.gov.ba/wp-content/uploads/2026/10/UPITNIK-ZSPNFT_Racunovodstvene-i-knjigovodstvene-usluge.pdf
+- FUZIP questionnaire, real estate intermediaries 2026: https://fuzip.gov.ba/wp-content/uploads/2026/10/UPITNIK-ZSPNFT_PROMET-NEKRETNINAMA.pdf
+- FUZIP announcement, 7 Oct 2026: https://fuzip.gov.ba/obaveze-u-oblasti-sprecavanja-pranja-novca-upitnik-za-pruzaoce-knjigovodstvenih-i-racunovodstvenih-usluga/
+- FUZIP gambling questionnaire page: https://fuzip.gov.ba/obaveze-u-oblasti-sprecavanja-pranja-novca-upitnik-za-priredjivace-igara-na-srecu/
+- FUZIP risk-assessment guidelines, 20 Apr 2026: https://fuzip.gov.ba/wp-content/uploads/2026/04/Smjernice-za-procjenu-rizika-od-pranja-novca-i-finansiranja-teroristickih-aktivnosti-april-2026.pdf
+- FUZIP notice to non-financial sector, 29 Apr 2026: https://fuzip.gov.ba/obavjestenje-poslovnim-subjektima-iz-nefinansijskog-sektora-u-vezi-sa-provodjenjem-zakona-o-sprecavanju-pranja-novca-i-finansiranja-teroristickih-aktivnosti/
+- FUZIP annual report 2024: https://fuzip.gov.ba/wp-content/uploads/2025/12/25.02.04-godisnji-izvjestaj-Federalne-uprvae-za-inspekcijske-poslove.pdf
+- FUZIP work plan 2025: https://fuzip.gov.ba/wp-content/uploads/2025/12/25.01.06-Plan-rada-FUZIP-a-za-2025.-godinu.pdf
+- RS Inspectorate AML notice, 28 Apr 2026 (search snippet only; site unreachable): https://inspektorat.vladars.rs/index.php/en/2026/04/28/information-to-business-entities-of-non-financial-sector-relating-to-implementation-of-law-on-preventing-money-laundering-and-terrorist-activity-financing/
+
+News and secondary
+- Paragraf, 29 Jan 2026 (RS questionnaire): https://www.paragraf.ba/dnevne-vijesti/29012026/29012026-vijest1.html
+- Paragraf, 1 Oct 2026 (FUZIP programme): https://www.paragraf.ba/dnevne-vijesti/01102026/01102026-vijest1.html
+- Paragraf, 5 Jan 2026 (Rulebook adopted): https://www.paragraf.ba/dnevne-vijesti/05012026/05012026-vijest4.html
+- Paragraf, 12 Nov 2025 (RS Tax Administration, risks): https://www.paragraf.ba/dnevne-vijesti/12112025/12112025-vijest3.html
+- Paragraf, 13 Mar 2026; 16 Mar 2026; 7 May 2026 (TFS law): https://www.paragraf.ba/dnevne-vijesti/13032026/13032026-vijest2.html ; https://www.paragraf.ba/dnevne-vijesti/16032026/16032026-vijest6.html ; https://www.paragraf.ba/dnevne-vijesti/07052026/07052026-vijest2.html
+- Paragraf, 11 May 2026 (RS BO register): https://www.paragraf.ba/dnevne-vijesti/11052026/11052026-vijest3.html
+- Paragraf, 1 Dec 2025 (RS registration law amendments): https://www.paragraf.ba/dnevne-vijesti/01122025/01122025-vijest3.html
+- BDK Advokati, 18 Feb 2026 (Rulebook summary): https://bdkadvokati.com/aml-rulebook-in-bosnia-and-herzegovina-sets-90-day-implementation-deadline-12-may-2026
+- FATF increased-monitoring statement, 19 Jun 2026 (copy): https://fiaumalta.org/app/uploads/2026/06/FATF-On-going-Process-19-June-2026-Increased-monitoring.pdf
+- FENA, 21 Jun 2026: https://fena.ba/article/1684605/fatf-places-bosnia-and-herzegovina-on-the-list-of-countries-under-increased-monitoring
+- FATF MER page (MONEYVAL 2024): https://www.fatf-gafi.org/en/publications/Mutualevaluations/Bosnia-Herzegovina-MER-2024.html
+- CoE Sarajevo on MONEYVAL report: https://www.coe.int/en/web/sarajevo/-/bosnia-and-herzegovina-urged-to-strengthen-efforts-against-money-laundering-and-terrorist-financing
+- CoE Sarajevo, Brčko BO register: https://www.coe.int/bs/web/sarajevo/-/br%C4%8Dko-district-engages-in-concrete-action-towards-establishing-beneficial-ownership-register
+- N1, Constitutional Court suspends RS laws (Mar 2025): https://n1info.ba/english/news/bihs-const-court-temporarily-suspends-controversial-rs-entity-laws/

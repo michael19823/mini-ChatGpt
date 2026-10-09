@@ -297,5 +297,272 @@
    "searches": 20
   },
   "tag": "w2b34"
+ },
+ "discover:B:azerbaijan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Hotels, guest houses and other accommodation providers",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "Read the decision text (nk.gov.az/uploads/doc/docs/old/241b1a6d6aea452fb4ded7c6f92c4256.pdf). Art. 1.5: the Program is built by the State Tourism Agency and provided free of charge to accommodation providers; login is through Vahid Giriş (unified login).",
+     "existing": "State Guest Registration Program (free)",
+     "known_mark": "new",
+     "known_note": "Killed by the free state program named above.",
+     "name": "Hotel and guest-house electronic guest registration software",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Cabinet decision 86 of 17 Mar 2023 under Tourism Law 448-VIQ: guests must be registered electronically at check-in by a named responsible person via the Guest Registration Program; anonymised data goes to the Tourism Registry; check-out changes must be updated; breaches carry Administrative Offences Code liability.",
+     "unchecked": "Whether the state tool has a third-party API or whether hotels want a PMS bridge; not searched."
+    },
+    {
+     "buyer": "Guest houses, apartment owners and Airbnb-style hosts with foreign guests",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "Search summary only (query 4 results); official page not fetched.",
+     "existing": "State Migration Service e-services (not checked)",
+     "known_mark": "new",
+     "name": "Migration registration reminders for hosts of foreign guests (guest houses, landlords, short-term rentals)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Foreigners staying more than 15 days must be registered at their place of stay; the host or accommodation provider files with the State Migration Service within 15 days with a passport copy (from a search summary; migration.gov.az and the Migration Code not opened).",
+     "unchecked": "Current deadline, fines, whether it is online and free, and how many hosts handle long stays."
+    },
+    {
+     "buyer": "Small real estate brokers and agencies, and independent accountants and tax advisers; notaries to be checked",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "Search summaries of the State Tax Service guidance; the full guidance text was not opened. Notaries have separate targeted-sanction freezing duties.",
+     "existing": "Competitor search (query 17, local language): no AML software for realtors or notaries found; only the State Tax Service guidance and FMS site were returned.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "AML/CFT internal-control kit for realtors, independent lawyers and accountants (and notaries)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Law 781-VIQ of 30 Dec 2022 on AML/CFT: internal control programme, customer due diligence, PEP identification, record retention and reporting to the Financial Monitoring Service; State Tax Service guidance (taxes.gov.az/uploads/2024/Tələblər.docx) and an FMS order of 21 Feb 2023.",
+     "unchecked": "Whether supervision of realtors is active, how many exist, whether FMS has a free portal for reports, fines. The buyer group is informal and small, and willingness to pay is unknown."
+    },
+    {
+     "buyer": "Licensed credit unions",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "Search summary (query 2) citing uploads.cbar.az and regalert.today; text not opened.",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Credit union prudential reporting and loan classification pack",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Law on Credit Unions and Central Bank (CBA) prudential rules (2017 rules of the former regulator; CBA now supervises; 2024 CBA inspection regulation covers credit unions). Quarterly statements by the 7th day of the next month (secondary source, unverified).",
+     "unchecked": "Number of active credit unions (likely very few), the CBA reporting channel, vendors."
+    },
+    {
+     "buyer": "Small employers (construction, hospitality, farms) hiring foreign workers",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "Search summaries; migration.gov.az press pages cited but not opened. Cabinet decision 323 of 30 Oct 2025 (fetched) only lists systems integrated into a Highly Qualified Migrant portal.",
+     "existing": "State Migration Service e-services (not checked)",
+     "known_mark": "new",
+     "name": "Foreign-worker work permit, quota and forecast handling for small employers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Migration Code: work permit required before employment; annual Cabinet quota; employer forecast (older sources: due 1 May); State Migration Service inspection and liability.",
+     "unchecked": "Current deadlines and online process; volume of small employers; whether state portals already handle it."
+    },
+    {
+     "buyer": "Small food importers and traders",
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "evidence": "Search summary citing afsa.gov.az pages; not opened.",
+     "existing": "AQTA Automated Food Safety Information System (state); competitor search not run (budget).",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "Food importer document pack for AQTA import notification and health act",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Food Safety Law (in force 1 Jan 2023); Cabinet decision 442 of 7 Dec 2023: pre-import notification, document, identity and physical checks, import health act, Azerbaijani-language labels, facility approval for high-risk veterinary products.",
+     "unchecked": "Competitors; importer count; whether customs brokers already do this."
+    },
+    {
+     "buyer": "Independent pharmacies",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "Search summary (query 13) citing nk.gov.az and lspedia.com; no 2026 deadline found.",
+     "existing": "Pharmacy POS vendors and the state system (not checked)",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "Pharmacy medicine track-and-trace (scan and report) compliance helper",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Cabinet 'Statute on the medicines track-and-trace system': each sale recorded; GS1 Datamatrix; phased start (non-official source: 1 Jan 2024, psychotropics first).",
+     "unchecked": "Phase dates, whether pharmacy software vendors already cover it, penalties."
+    },
+    {
+     "buyer": "Small gas-installation maintenance contractors; commercial gas users; LPG and fuel sellers",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "Search summaries (queries 1, 18); the 242 decision (fetched) concerns protection zones for system operators and is not relevant to small firms.",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Gas installation maintenance records for specialized contractors and commercial gas users",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Gas Supply Law 233-VIIQ (8 Jul 2025): attested specialized contractors for technical maintenance; a registry of inspection and maintenance data approved in 2026; gas-storage permit from 1 Jan 2026 (Law 234-VIQD).",
+     "unchecked": "Registry rules, who must report, deadlines, existing vendors."
+    },
+    {
+     "buyer": "Smallholder farmers (about 178-246 thousand declare each season)",
+     "category": "31. Farmers: EKTİS declarations and subsidies",
+     "evidence": "Search summaries of report.az and azertag.az pieces (query 9); pages not opened.",
+     "existing": "State EKTİS portal and DAİM advisory centres (free)",
+     "known_mark": "new",
+     "name": "EKTİS crop declaration and subsidy assistance for smallholders",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Autumn declarations from 1 Sep for 4 months; spring and perennial from 1 Feb to 31 May; wrong declaration can cut subsidy for 1-2 years; fines under Administrative Offences Code 411-2.",
+     "unchecked": "Whether farmers pay for intermediaries; app adoption in rural areas."
+    },
+    {
+     "buyer": "Small shops and wholesalers of alcohol and tobacco",
+     "category": "32. Excise-stamped goods (alcohol, tobacco) retail and wholesale",
+     "evidence": "Search summary (query 10); no new 2026 rule found.",
+     "existing": "State Tax Service tools (not checked)",
+     "known_mark": "new",
+     "name": "Excise stamp stock and sales log for alcohol and tobacco retailers and wholesalers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Cabinet rules on excise stamps (Law 650-VIQD of 2022); seizures and criminal cases for unstamped goods reported.",
+     "unchecked": "Whether retailers keep stamp records at all; any track-and-trace roll-out."
+    },
+    {
+     "buyer": "Private clinics and dental offices",
+     "category": "33. Hazardous and medical waste generators (clinics, dental offices, garages)",
+     "evidence": "Search summary only (query 11); nothing current found.",
+     "existing": "Not searched",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Hazardous and medical waste passport and log for clinics",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Cabinet decision 41 of 2003 on hazardous waste passports (current status unconfirmed).",
+     "unchecked": "Current waste rules, contractor use, enforcement."
+    },
+    {
+     "buyer": "Restaurants, cafés and fuel stations",
+     "category": "34. Fire-safety permits and inspections for catering, fuel and public premises",
+     "evidence": "Search results (query 12) citing report.az (Tovuz fuel station) and azertag.az (Baku suspensions).",
+     "existing": "Not searched",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "Fire-safety compliance checklist for catering and fuel sites",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Fire Safety Law; State Fire Control Service inspections lead to suspensions for missing alarms and extinguishing systems.",
+     "unchecked": "Whether there is a recurring register or certificate; one-off fixes are not software."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "New Gas Supply Law No. 233-VIIQ (8 Jul 2025); Law 234-VIIQD adds a gas-storage permit from 1 Jan 2026; Cabinet decision 242 of 29 Jul 2026 sets protection-zone requirements (fetched, applies to system operators, not small retailers); Law 472-VIIQD of 14 Jul 2026 is a small consequential amendment (fetched). Fuel-station licensing was amended in 2025 (Cabinet decision 174, new item 31). Fire-service suspensions of fuel stations are reported (Tovuz). No recurring register or report for small LPG or balloon fillers was confirmed; sector is dominated by large chains. Only a weak, unverified lead.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "One search found no grain warehouse, elevator or buyer registry in Azerbaijan; results were tax e-services only. The farmer side (EKTİS subsidies) is covered under cat. 31. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Credit unions now supervised by the Central Bank (CBA); they need a CBA licence to lend, and quarterly prudential reporting dates from the 2017 rules of the former regulator (secondary source, unverified). Buyer pool is small and the sector is tiny. A 2025 credit union law mentioned only by a secondary site, unverified. Weak lead only.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Nothing new beyond K07 (claims to mandatory health insurance, rejected). One search on medical/dental waste found no current Azerbaijani rule beyond the 2003 hazardous waste passport procedure (Cabinet decision 41); unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "A Cabinet 'Statute on the medicines track-and-trace system' exists (GS1 Datamatrix; one non-official source says it started 1 Jan 2024, psychotropic drugs first). Same buyer group as K02 but a different duty. No 2026 deadline found. Precursor users not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Search returned no Azerbaijan-specific security or cleaning agency rules (mostly foreign results). Foreign-worker rules found: work permit from the State Migration Service, annual quota and forecast (older sources say forecast due 1 May), employer liability. Weak lead only.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "No construction contractor licence-to-permit change found. Quarries fall under the Subsoil Law (subsoil use permit, reclamation plan within 3 months, state ecological expertise); no small-quarry periodic report confirmed. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Realtors, independent lawyers and accountants are AML/CFT obliged persons under Law 781-VIQ (30 Dec 2022): internal control programme, customer due diligence, PEP checks, record keeping and reports to the Financial Monitoring Service (FMS), per State Tax Service guidance (taxes.gov.az Tələblər.docx) and a 21 Feb 2023 FMS order. The competitor search found no dedicated software. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Cabinet decision 86 of 17 Mar 2023 requires electronic guest registration at check-in through the Guest Registration Program of the State Tourism Agency, given free of charge (art. 1.5; fetched and read). Foreigners staying over 15 days must be registered with the Migration Service by the host (snippet only). Hotel property tax relief outside Baku, Sumqayit, Xirdalan and Absheron ends Jan 2026. No separate tourism levy found.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Nothing new beyond K03 on the export side. Import side: AQTA (the Food Safety Agency) requires pre-import notification, document, identity and physical checks and an import health act through its automated food safety system, with facility approval for high-risk veterinary products (Cabinet decision 442 of 7 Dec 2023). No timber or forest-risk rule checked.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Farmers: EKTİS declarations and subsidies",
+     "found": "Subsidies are paid via the state EKTİS portal and Farmer Card. Autumn crop declaration from 1 Sep for 4 months; spring and perennial declarations from 1 Feb to 31 May. Satellite checks; wrong declarations can mean the subsidy is cut for 1-2 years (Administrative Offences Code 411-2). The state DAİM centres help for free. Weak lead.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Excise-stamped goods (alcohol, tobacco) retail and wholesale",
+     "found": "Excise stamp rules exist (Cabinet rules under Law 650-VIQD of 2022); excise rates rose from 1 Jan 2024; seizures and criminal cases for unstamped goods are reported. No new 2026 track-and-trace obligation for small shops found.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Hazardous and medical waste generators (clinics, dental offices, garages)",
+     "found": "Only the 2003 hazardous waste passport rule (Cabinet decision 41) was found. Current rules not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Fire-safety permits and inspections for catering, fuel and public premises",
+     "found": "The State Fire Control Service (Ministry of Emergency Situations) suspends premises for missing alarms and extinguishing systems (Baku, Tovuz fuel station). No new 2026 rule found. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Employers of foreign workers (work permits, quota, forecast)",
+     "found": "Work permit required before an employment contract (Migration Code); annual quota set by the Cabinet; employers submit a forecast (older sources: by 1 May); passport retention banned; State Migration Service control and employer liability. A 30 Oct 2025 Cabinet decision 323 lists the information systems integrated into a 'Highly Qualified Migrant' portal (fetched; only the State Tax Service system listed). Current forecast dates unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Food importers (AQTA import notification and approval)",
+     "found": "See cat. 30. Candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Gas installation maintenance contractors under the new Gas Supply Law",
+     "found": "The amended law introduces 'specialized contractor' (technical maintenance by an attested legal entity or person) and a registry of inspection and maintenance data (per a search summary; the text was not read). Cabinet decision 36 of 2023 on gas installations is cancelled by a 2026 decision (title only). Unverified.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "yanacaqdoldurma məntəqələri qaz balon doldurma lisenziya tələblər qeydiyyat 2025",
+    "kredit ittifaqı kooperativ qeydiyyat hesabat Mərkəzi Bank qeyri-bank kredit təşkilatları 2025",
+    "mühafizə fəaliyyəti lisenziya özəl mühafizə təşkilatları təmizlik şirkətləri hesabat 2025",
+    "mehmanxana qonaq evi qonaqların qeydiyyatı turizm vergisi qısamüddətli icarə Azərbaycan 2025",
+    "yerləşdirmə vasitələrində qonaqların elektron qeydiyyatı proqram Turizm Reyestri qonaq evi PMS",
+    "taxıl anbarı elevator qeydiyyat Kənd Təsərrüfatı Nazirliyi Aqrar Xidmətlər taxıl alıcıları",
+    "daşınmaz əmlak vasitəçi notarius monitorinq iştirakçısı Maliyyə Monitorinq hesabat qeydiyyat",
+    "tikinti fəaliyyəti lisenziya icazə tikinti podratçı reyestr 2025 Dövlət Tikinti Nəzarəti",
+    "ƏKTİS fermer qeydiyyat subsidiya əkin sahəsi bəyannamə 2026",
+    "akciz markası tütün alkoqol topdan satış izlənmə sistemi qeydiyyat kiçik mağaza 2026",
+    "tibbi tullantılar özəl klinika stomatoloji tullantı müqaviləsi uçot jurnalı tullantı pasportu",
+    "yanğın təhlükəsizliyi icazə ictimai iaşə obyektləri yoxlama 2026 kiçik sahibkarlıq",
+    "dərman vasitələrinin markalanması izlənməsi sistemi aptek 2026 DTMS",
+    "əcnəbi işçi cəlb edən işəgötürən iş icazəsi kvota hesabat miqrasiya 2026",
+    "AQTA idxalçı qeydiyyatı qida məhsulları idxal elektron izlənmə yeni qayda 2026",
+    "karxana tikinti materialları qum çınqıl istismar icazəsi hesabat yer təkindən istifadə",
+    "ƏL/TMM daxili nəzarət proqramı proqram təminatı rieltor notarius MMX qeydiyyat avtomatlaşdırma (competitor)",
+    "qaz təchizatı qanunu 2026 qaz qurğuları texniki xidmət reyestri balon doldurma məntəqəsi icazə saxlama"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b41"
  }
 }

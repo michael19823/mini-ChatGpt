@@ -1,4 +1,28 @@
 {
+ "challenge:honduras:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No killer found. I found no Honduran software or packaged service built for DIRRSAC filings. The only nonprofit accounting tools that turned up are generic foreign ones (Capterra list, Baarasoft from Spain).",
+   "reason": "The duty is real and recurs every year. Associations and ONGD must file activity reports and audited financial statements with DIRRSAC, usually by 28 February. Missing two years in a row can lead to suspension or cancellation. In 2025 Acuerdo 120-2025 gave a 31-day extension. In 2023 the government said more than 8,000 NGOs were registered and about 6,000 had preliminary irregularities. No competitor was found, but the opportunity is weak. The core output must be audited and signed by colegiado accountants, and DIRRSAC's own platform takes the upload. Most buyers, like patronatos, churches and small associations, have tiny budgets. Enforcement comes in political campaigns. I couldn't confirm the 2026 deadline or how many organisations are active today.",
+   "searches": 6,
+   "sources": "https://portalunico.iaip.gob.hn/ver_archivo/MTY2MTM1NA== ; https://portalunico.iaip.gob.hn/ver_archivo/MjMzMTI2Ng== ; https://portalunico.iaip.gob.hn/ver_archivo/MTQ2MzY5Mw== ; https://www.elheraldo.hn/honduras/gobierno-honduras-anuncia-cierre-ong-irregularidades-estados-financieros-OA13130394 ; https://www.elheraldo.hn/honduras/fundecima-violo-sus-estatutos-y-la-ley-especial-de-fomento-de-las-FPEH571620 ; https://latinnews.com/component/k2/item/59852.html ; https://consortiumlegal.com/2021/07/09/honduras-compliance-para-las-ongs/ ; https://www.capterra.es/directory/31355/nonprofit-accounting/software",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b43"
+ },
+ "challenge:honduras:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No killer confirmed. The likely partial killer is the CNBS's own free digital RCBF platform: pilot Oct-Nov 2026, launch about Jan 2027. Its details (who may file, bulk upload) are unverified because the Reglamento PDF was unreadable.",
+   "reason": "I found no commercial RCBF tool in Spanish searches, and the duty is real. CNBS Circular 010/2026 (Res. GEE 617/18-09-2026, published 25 Sep 2026) approved the Reglamento. Per press, the CNBS planned a pilot for Oct-Nov, formal registration from January 2027, then 4 months to file. That points to a free CNBS platform doing the core filing, which would leave only a multi-client layer for accountants: document collection, ownership chain, the 30 May renewal and 10-day change alerts. I couldn't read the Reglamento PDF (compressed and image-based), so whether third parties can file, bulk upload or an API, and small-company simplifications are unverified. The count of existing companies is also unverified; only 2024 new-registration figures (~15k in the two main cities) were found. This is mostly a one-off spike in 2027 with a light annual duty afterwards.",
+   "searches": 7,
+   "sources": "https://circulares.cnbs.gob.hn/ ; https://circulares.cnbs.gob.hn/Archivo/Viewer/6706/010-2026%20REGLAMENTO%20BENEFICIARIO%20FINAL%20f.pdf ; https://proceso.hn/el-reglamento-de-la-ley-del-beneficiario-final-sera-aprobada-el-28-de-septiembre-preve-comisionado-de-la-cnbs/ ; https://proceso.hn/cnbs-tendra-seis-meses-para-crear-registro-que-identificara-a-los-beneficiarios-finales-de-empresas-en-honduras/ ; https://abriendobrecha.tv/nacionales/cnbs-dispone-de-seis-meses-para-crear-registro-de-beneficiarios-finales-de-empresas-en-honduras/ ; https://leyes.hn/ley/de-transparencia-y-registro-centralizado-de-beneficiario-final-127-2026 ; https://www.laprensa.hn/portada/ley-beneficiarios-finales-honduras-cnbs-reglamento-registro-FE31353710 ; https://www.latribuna.hn/2025/02/27/en-2024-se-registraron-14955-nuevas-empresas/",
+   "suggested_score": 4,
+   "verdict": "unclear"
+  },
+  "tag": "w2b43"
+ },
  "discover:A:honduras": {
   "result": {
    "blocked_searches": 0,
@@ -549,6 +573,20 @@
   },
   "tag": "w2b36"
  },
+ "escalate:honduras:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no software or done-for-you service focused on DIRRSAC filings. The state's own DIRRSAC platform is used for data updates and report submission, but it only receives filings; it does not prepare the activity report or financial statements. In practice the job is done by the lawyers and colegiado accountants that the rules require. I ran one competitor search and it returned nothing relevant, so coverage is thin.",
+   "duty": "The duty is real and annual. Under the Ley Especial de Fomento para las ONGD (art. 21) and its reglamento, every association or ONGD whose legal personality was granted by the Secretaría de Gobernación, Justicia y Descentralización must file each year with DIRRSAC (the former URSAC). The filing covers updated data including the board, a narrative activity report and financial statements. A ministerial acuerdo published in La Gaceta in January 2023 set 28 February as the deadline and requires filing through the DIRRSAC platform. Acuerdo 120-2025 (La Gaceta, 22 March 2025) gave a 31-day extension, describes the deadline as two months and requires audited financial statements when the organisation spends funds. The documents listed for filing include an income statement and balance sheet signed by a colegiado accountant, an activity report signed by the legal representative, the RTN and a TGR payment receipt, filed through a lawyer registered with the Colegio de Abogados. The penalty is suspension or cancellation of legal personality after two consecutive years of not filing (art. 26). Search summaries mention about 5,429 cancellations in 2020 under decreto 770-A-2013, and in 2023 the government announced mass suspensions. I did not confirm the exact 2026 deadline. I found no evidence of a \"SIRIN\" or \"SEDECOAS\" portal.",
+   "market": "More than 8,000 registered NGOs and associations, according to Gobernación as reported by El Heraldo in April 2023. In 2014 there were more than 16,000 registered, of which about 10,000 were irregular. The register includes religious, environmental and social-assistance bodies.",
+   "reason": "The duty is mandatory, annual and enforced by mass cancellations, and I found no dedicated software. But the filing must go through a lawyer and include statements signed by a colegiado accountant, so the professionals keep the core job. A tool could only prepare documents or send deadline reminders, mainly for lawyers and accountants who serve NGOs. Most associations are small churches and patronatos with very low budgets that tend to ignore compliance. There are only about 8,000 registered organisations, the filing happens once a year, and the state platform already takes submissions. Willingness to pay and frequency are both low. A niche service for law firms that handle NGOs could work, but this is not a strong software business.",
+   "searches": 5,
+   "sources": "https://portalunico.iaip.gob.hn/ver_archivo/MjMzMTI2Ng== ; https://portalunico.iaip.gob.hn/ver_archivo/MTY2MTM1NA== ; https://www.elheraldo.hn/honduras/gobierno-honduras-anuncia-cierre-ong-irregularidades-estados-financieros-OA13130394 ; https://www.elheraldo.hn/honduras/las-ong-tienen-un-mes-para-evitar-su-cierre-AKEH702992 ; https://www.laprensa.hn/honduras/ordenan-revisar-personerias-juridicas-de-ongs-en-honduras-BGLP564371 ; https://consortiumlegal.com/2021/07/09/honduras-compliance-para-las-ongs/ ; https://www.elheraldo.hn/honduras/aparece-el-expediente-matriz-de-fundecima-sin-estados-financieros-AOEH565342",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b43"
+ },
  "gapfill:honduras": {
   "result": {
    "blocked_searches": 0,
@@ -683,6 +721,78 @@
    "verdict": "unverifiable"
   },
   "tag": "w2b36"
+ },
+ "sonnet:honduras:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: the ERSAPS 2023 requirements list sets an annual deadline of 30 April. It asks for financial statements signed by a perito mercantil, the Anexo 1 form, an activities report with photos, and water quality analysis. I found no commercial JAA billing or report software. Sanctions are unverified. Enforcement looks weak: 900 juntas reported by Aug 2018, 618 processed in 2021, against an unverified claim of about 7,000 JAAs. Buyers are volunteer boards that depend on donors, with low ability to pay and hard distribution. I did not identify the two billing systems ERSAPS promotes, and I did not check whether SIASAR duplicates the report. Score stays at 3.",
+   "searches": 3,
+   "sources": "https://www.ersaps.hn/documentos/formatos/REQUISITOS JAA_2023.pdf; https://www.ersaps.hn/documentos/Indicadores/Informe_indicadores_2021.pdf; https://www.ersaps.hn/documentos/formatos/4.Anexo I.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b43"
+ },
+ "sonnet:honduras:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "none found",
+   "duty": "IHTT Permiso de Explotación and Certificado de Operación; national mototaxi census update (Sep 2026); fine L1,600-2,500 for late census registration, from an undated article",
+   "market": "about 20,000 mototaxis in Tegucigalpa (IHTT estimate); 27,700 nationally (undated La Prensa); only 3,216 registered in 2019",
+   "reason": "Duty is real: the IHTT began a depuración of the national mototaxi census on 28 Sep 2026. It said municipal authorisations and permisos eventuales do not replace the IHTT Permiso de Explotación or Certificado de Operación. The market is large, with about 20k mototaxis in Tegucigalpa alone and 27.7k reported nationally. I found no competing software or app. But the duty looks like a one-off census and a formalisation drive, not a recurring workflow. No deadline or schedule was found. Owners are informal, low-income and largely lack permits, so willingness to pay is weak. The only fine found (L1,600-2,500 for late census registration) comes from an undated article. Enforcement is sporadic seizures. The IHTT permit process is manual and the legal route is mostly blocked, so software has little to automate. I did not fetch the La Tribuna article (the search summary was enough) and checked no vendors beyond two searches.",
+   "searches": 2,
+   "sources": "https://www.latribuna.hn/2026/09/28/ihtt-inicia-depuracion-y-actualizacion-del-censo-nacional-de-mototaxis/ ; https://www.elheraldo.hn/tegucigalpa/dnvt-identifica-32-puntos-mototaxis-irregulares-tegucigalpa-HO31956032 ; https://www.elheraldo.hn/fotogalerias/tegucigalpa/transporte-estima-mas-20-mil-mototaxis-circulan-tegucigalpa-DM30876041",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b43"
+ },
+ "sonnet:honduras:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "SENASA Trazar-Agro platform and mobile app (state, free)",
+   "duty": "GUIASA on every animal movement (Acuerdo C.D. SENASA-001-2020; PCM 032-2018); in force since 1 Oct 2020; plus fierro certificate and sale letter. Penalty not found.",
+   "market": "143,253 people and 148,726 establishments registered on Trazar-Agro (per an official note found in search). Not all are traders.",
+   "reason": "The duty is real. SENASA Acuerdo C.D. SENASA-001-2020 requires a GUIASA (sworn declaration) on animal movements, and it took effect on 1 Oct 2020. The state Trazar-Agro platform and its mobile app already cover the registry and the guide, with 143,253 people and 148,726 establishments registered. I found no third-party tool. The state tool is free and official, so a paid paperwork add-on has little room. The fierro certificate and carta de venta are one-off documents per sale, so the volume that software could serve is thin. Not confirmed for Honduras: whether the GUIASA is issued online or at SENASA offices (the only online workflow I found was Guatemala's), and how the fierro is certified. Only 2 searches were run, so the competition check is thin.",
+   "searches": 2,
+   "sources": "https://www.tsc.gob.hn/web/leyes/Acuerdo-SENASA-001-2020.pdf ; https://faolex.fao.org/docs/pdf/hon185505.pdf ; https://portalunico.iaip.gob.hn/ver_archivo/NDA3OTA4 ; https://apps.maga.gob.gt/simplificacion/Formularios/Download/762",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b43"
+ },
+ "sonnet:honduras:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. Under the ONGD law (art. 21) associations with legal personality must file annual activity and audited financial reports with DIRRSAC (formerly URSAC/DIRSAC). The deadline has been end of February, with a 31-day extension from 1 March 2025. Legal personality can be cancelled or suspended after 2 years of non-filing (5,429 NGOs were targeted in 2014). Filing is by a state online platform, and filings must go through a registered lawyer. I found no private software doing this, but I ran no vendor search. The state portal and the lawyer-gatekeeper model weaken the opportunity: the buyer is the lawyer, the fee is small, and the filing is mostly PDF upload. The register size is not found. \"SIRIN\" was not found. The 2026 deadline is unconfirmed. The claim's \"board changes\" point is confirmed as a platform procedure.",
+   "searches": 3,
+   "sources": "https://www.icnl.org/?p=78622 ; https://www.elheraldo.hn/honduras/las-ong-tienen-un-mes-para-evitar-su-cierre-AKEH702992 ; https://www.laprensa.hn/honduras/ordenan-revisar-personerias-juridicas-de-ongs-en-honduras-BGLP564371 ; https://consortiumlegal.com/2021/07/09/honduras-compliance-para-las-ongs/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b43"
+ },
+ "sonnet:honduras:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The receipt rule (comprobantes de compra sent to IHCAFE within 15 business days) appears only in an old FAOLEX regulation (hon17357.pdf, 1990s, citing Decreto 143/93). I could not confirm it is still in force. The 2018 reform (Decreto 297-2002 arts. 13-14: US$1.50/qq retention, US$2.75/sack certificate) appears only as a proposal in news; I found no evidence it was enacted or applied. I found no IHCAFE online receipt system, but I also did not find that none exists. The market is a small, niche registry of intermediaries and exporters. Buyers would pay little, the levy is a simple retention, and IHCAFE or the state could issue its own forms. Pain and willingness to pay look low. I did not search for GrainChain or donor tools, so K08's competition claim is unchecked.",
+   "searches": 2,
+   "sources": "https://faolex.fao.org/docs/pdf/hon17357.pdf",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b43"
+ },
+ "sonnet:honduras:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The only Honduran source is the UNDP note: REPEL was socialised as a draft on 18 March 2025. Two searches found no evidence of approval or publication in La Gaceta, and no content on register, manifest, thresholds, deadlines or penalties. So no current mandatory recurring duty is confirmed. Competition was not checked beyond the claim's own search. I found no Honduran product, but also no duty for one to serve. Enforcement looks weak (the claim cites 80% of firms without environmental licence). Market size was not found. A transport regulation for hazardous goods exists per an ITU slide, but its requirements and status are unknown. Watch-list only.",
+   "searches": 2,
+   "sources": "https://www.undp.org/es/node/514921; https://itu.int/en/ITU-T/climatechange/201303/Documents/Presentations-ES/Nelly_Calix_s2p1_S.pdf",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b43"
  },
  "triage:honduras": {
   "result": {

@@ -579,5 +579,332 @@
    "searches": 18
   },
   "tag": "w2b40"
+ },
+ "gapfill:mauritius": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Private borehole holders: farms, hotels, bottlers and industrial sites with a groundwater licence or water-use permit. Roughly 400 private boreholes nationally, inferred from about 600 total minus a third owned by CWA.",
+     "category": "13. Small water systems (overlaps 10. Well drillers and water abstraction)",
+     "evidence": "https://leap.unep.org/en/countries/mu/national-legislation/ground-water-regulations-2011-gn-no-240-2011 ; https://leap.unep.org/en/countries/mu/national-legislation/water-resources-act-no-9-2024 (Parts III-IV per search snippet) ; https://fr.allafrica.com/stories/202502050630.html (about 600 boreholes, enforcement; fetch returned 403, snippet only) ; https://fr.allafrica.com/stories/202407110360.html (Water Resources Commission and register, snippet only)",
+     "existing": "None found. A search for borehole licence software or apps in Mauritius returned only a consultancy (Geocrust Ltd, https://myjob.mu/companies/802/geocrust-ltd), no product. Renewal looks like a consultant or one-off job, not recurring software.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known id. K01-K08 are tourism, AML, payroll and tax, none about water.",
+     "name": "Groundwater/water-use permit compliance pack for private borehole holders (permit renewal, abstraction records) under Water Resources Act 2024",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ground Water Act 1969 and Ground Water Regulations 2011 (licence up to 7 years, non-transferable). Water Resources Act No. 9 of 2024 introduces water-use permits with conditions, a Water Resources Commission and a permit register. Enforcement drive on illegal or expired-permit boreholes reported Feb 2025.",
+     "unchecked": "Whether the Act is in force and its commencement date. The permit form, fees and any periodic abstraction or meter returns. The actual count of private permit holders. Whether any recurring reporting exists beyond renewal. Not run: the competitor search required for a score of 3 or more, because the score is 2."
+    },
+    {
+     "buyer": "Small bottled-water and drinks producers that use a groundwater licence or non-domestic CWA supply",
+     "category": "13. Small water systems (overlaps 22 and 30)",
+     "evidence": "https://leap.unep.org/en/countries/mu/national-legislation/central-water-authority-production-drinks-fees-and-other-charges ; https://faolex.fao.org/docs/pdf/mat124044.pdf (revocation, per search summary)",
+     "existing": "unknown",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known id.",
+     "name": "Metered-water returns for drinks and bottled-water producers",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "The CWA (Production of Drinks) (Fees and Other Charges) Regulations 2011 required a monthly return of litres produced, with an export split added in 2012. Revoked by GN 74 of 2013. No successor found.",
+     "unchecked": "Whether any successor return or fee regime exists after 2013. How many small producers there are. Whether the 2024 Act reintroduced a charge."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "13. Small water systems",
+     "found": "Mauritius has no real small private water-system sector. CWA produces, treats and distributes drinking water, and CWA labs sample daily (AllAfrica interview, June 2026, per search snippet). The only private-side duty found is groundwater abstraction. Under the Ground Water Act 1969 and Ground Water Regulations 2011 (GN 240/2011), a licence is needed to abstract. It runs up to 7 years and is non-transferable, with a written application in the Second Schedule form. The Water Resources Act No. 9 of 2024 (Gazette 25 July 2024) adds water-use permits (Part III) and borehole regulation (Part IV), with a Water Resources Commission to keep a permit register. This was only partly confirmed: I did not verify commencement or renewal rules, and the UNEP/LEAP page and AllAfrica pages returned HTTP 403 on fetch. A February 2025 AllAfrica snippet says there are about 600 boreholes nationally, a third owned by CWA, and that illegal or expired-permit operators are being pursued. That leaves roughly 400 private permit holders, which is too few to sell to. Drinks producers once had to file monthly metered-water returns under the CWA (Production of Drinks) Regulations 2011. Those were revoked in 2013 (GN 74/2013), and I found no successor. Bottled water falls under Food Regulations 1999 reg. 421 and the Environment Protection (Drinking Water Standards) Regulations 1996; not checked whether these are still in force. I found no private tanker or water-vendor licensing regime: the only tanker news was an internal CWA probe of its own drivers selling water illegally (Feb 2025). Nothing new beyond K01/K03 and nothing sellable in this category.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Mauritius private borehole water licence Central Water Authority groundwater abstraction Water Resources Unit",
+    "Mauritius Water Resources Act 2023 bulk water supplier licence water quality testing small producers bottled water",
+    "Maurice licence forage eau potable exploitation eau souterraine permis Water Resources Unit",
+    "Water Resources Commission Mauritius licence water abstraction borehole holders meter reading returns 2026",
+    "Maurice camions-citernes eau vendeurs d'eau autorisation CWA qualité de l'eau citerne",
+    "Central Water Authority (Production of Drinks) Regulations Mauritius licence water used in drinks production fees",
+    "Mauritius borehole licence renewal software OR app OR consultant hydrogeologist groundwater licence application hotel farm"
+   ],
+   "searches": 7
+  },
+  "tag": "w2b40"
+ },
+ "opus:mauritius:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no software, app or online state portal for Mauritian borehole permits or abstraction returns. The only known provider is the drilling and hydrogeology consultancy Geocrust Ltd, reported by the discovery pass and not re-checked here. Not checked: whether a govmu e-licensing route exists.",
+   "duty": "The Water Resources Act 2024 (Act 9 of 2024, assent and Gazette No. 77, 25 July 2024) requires water use permits, permit payments, and borehole drilling and use controls, and provides for registration of existing water rights. Commencement (s.82), the transitional rules (s.81), registration deadlines and penalties were not reached: the PDF text could not be extracted and the LEAP page returned 403. The earlier Ground Water Regulations 2011 required an application to the CWA, an approved meter at the abstraction point and monthly returns and charges. Whether these were superseded is unverified. A February 2025 enforcement case under the old regime involved an expired borehole permit, and the CWA anti-fraud section and police acted. The Water Resources Commission was publishing reservoir data in 2026, which suggests it is operating, but this does not prove the Act is in force.",
+   "market": "No register count found. Press (fr.allafrica.com, February 2025) says private boreholes exist across the island, owned by farmers, industrialists and other approved applicants. The discovery pass reported about 600 boreholes from a snippet; I did not verify this. In February 2025 about 174 boreholes were being tested or drilled, mostly by the state. The likely market is a few hundred private permit holders at most.",
+   "reason": "I confirmed the Water Resources Act 2024 exists: Act 9 of 2024, Gazette No. 77 of 25 July 2024. It sets up water use permits (s.21-27, including payment for the permit), boreholes (s.44-47) and registration of existing water rights. I could not find a proclamation of commencement, the text of transitional s.81, or a deadline. The 2011 Ground Water Regulations required metered abstraction and monthly returns, so there is some recurring duty, but it is unclear whether those rules still stand. I found no software or online portal, but the market is small: press mentions private boreholes owned by farmers and industrialists, with no register count. Most of the work is a one-off permit or registration, best handled by a consultant. Low frequency and few buyers.",
+   "searches": 6,
+   "sources": "https://data.inafran.ru/files/Doc/Mauritius/Akt%20O%20Vodnykh%20Resursakh%20(Prinjat%20V%202024).pdf ; https://leap.unep.org/en/countries/mu/national-legislation/water-resources-act-no-9-2024 ; https://fr.allafrica.com/stories/202502050630.html ; https://fr.allafrica.com/stories/202407110360.html ; https://fr.allafrica.com/stories/202606080768.html ; https://allafrica.com/stories/202502180455.html ; https://faolex.fao.org/docs/pdf/mat117046.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b40"
+ },
+ "opus:mauritius:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no dedicated software or state portal for this licensing work in my searches, but competitor checking was limited (no dedicated competitor query). The likely substitutes are lawyers and consultants handling the one-off licence application.",
+   "duty": "Private Recruitment Agencies Act 2023 (proclaimed Feb 2024) plus Private Recruitment Agencies Regulations 2025 (in force Oct 2025). A Ministry of Labour licence is needed for each type of recruitment: local, Mauritians abroad, or foreign workers into Mauritius. New companies must post a Rs 1m guarantee and show capitalisation, a business plan, 3 years of financial statements, proof of recruitment experience and a legal representative. Penalty for recruiting without a licence: Rs 500,000 to 1m and up to 5 years in prison. Licences are valid until 2029, so the main duty is a multi-year application rather than a recurring filing. Recurring returns, inspections and register duties were not confirmed because the Gazette text was not found.",
+   "market": "20 licensed agencies as of June 2026, per the Minister of Labour as reported by L'Express via AllAfrica: 10 local-to-local, 4 placing Mauritians abroad, 6 bringing foreign workers into Mauritius. The total number of applicants is unknown but probably small, from a few dozen up to perhaps 100.",
+   "reason": "The duty is real. The Private Recruitment Agencies Act 2023 was proclaimed in February 2024, and its 2025 Regulations took effect in October 2025. Agencies need a separate licence for each recruitment type, a Rs 1m guarantee for new companies, a business plan, 3 years of accounts and proof of experience. Recruiting without a licence carries a fine of Rs 500k to 1m and up to 5 years in prison. No competitor was found, but I ran only a light check. The market is tiny: the minister reported 20 licences in June 2026 (10 local, 4 placing Mauritians abroad, 6 bringing foreign workers in). Licences run until 2029, so renewal is rare. I did not confirm any recurring returns or a placement register because I could not find the Gazette text. Buyers are likely to use lawyers or consultants for the one-off application. There is too little frequency and too few buyers to support a product.",
+   "searches": 3,
+   "sources": "https://fr.allafrica.com/stories/202606250577.html; https://fr.allafrica.com/stories/202509240101.html; https://fr.allafrica.com/stories/202509150216.html; https://www.expat.com/fr/expat-mag/9287-actu-de-la-semaine-nouveau-cadre-legal-pour-les-agences-de-recrutement-de-main-doeuvre-etrangere.html",
+   "suggested_score": 2,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b40"
+ },
+ "opus:mauritius:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The core steps run through free state systems: the E-Work Permit platform/NELS (applications and tracking), the Mauritius Job Platform (job listings and candidate search) and the EIC certificate. EDB runs a free G2G digital recruitment platform with India's NSDC. Licensed foreign-labour recruitment agencies (six authorised, 20 agency permits issued since October 2025) and work-permit consultants do the paperwork as a service. No private software found for tracking local-recruitment evidence, but search depth was limited.",
+   "duty": "Proposed, not confirmed as in force. On 25 June 2026 (allAfrica/l'express) Labour Minister Reza Uteem described a recommendation from an interministerial committee. Employers would have to prove they tried to recruit locally by publishing the job offer and consulting local databases, including the Mauritius Job Platform. An Employment Information Centre certificate \"sera nécessaire\" (future tense) before any request to recruit abroad. No Gazette notice or start date was found by October 2026. Already in force: work permit applications have long needed proof of advertising in two newspapers (secondary source, undated). New or renewal permits are refused if fewer than 90% of workers with expired permits have been regularised. The penalty for the proposed rule is not specified, and the minister said the law must change before the ministry can impose administrative sanctions. Government Notice 129 of 2026, under the Workers' Rights Act, is in force but targets fictitious associations and co-operatives, not local recruitment.",
+   "market": "As of 31 May 2026, 51,945 foreign workers held a valid work permit or exemption certificate: 23,249 in manufacturing and 15,542 in construction. From June 2025 to March 2026 there were 41,833 work permit applications. The number of employers was not found and is probably low thousands, heavily concentrated in larger manufacturers and construction firms.",
+   "reason": "The duty is still only proposed. In June 2026 Minister Uteem described a recommendation from an interministerial committee: employers would advertise, consult the Mauritius Job Platform and get an Employment Information Centre certificate. No Gazette text or start date was found as of October 2026. Workers are 51,945, but the number of employers is unknown. The work is tied to free state systems (the E-Work Permit portal, NELS, the Job Platform, the EIC). Licensed recruitment agencies already handle the paperwork. That leaves a thin layer for evidence tracking, with low frequency and a small market. GN 129/2026 is about fictitious associations, not this duty.",
+   "searches": 5,
+   "sources": "https://fr.allafrica.com/stories/202606250577.html ; https://fr.allafrica.com/stories/202607210282.html ; https://fr.allafrica.com/stories/202603270354.html ; https://fr.allafrica.com/stories/202509110383.html ; https://www.expat.com/en/guide/africa/mauritius/17726-work-permit-for-mauritius.html ; https://edbmauritius.org/newsletter-july-2026-indian-workers ; https://edbmauritius.org/wp-content/uploads/2026/05/NSDC-Guideline.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b40"
+ },
+ "sonnet:mauritius:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The Consumer Protection (Scrap Metal) Regulations 2019 (GN 151/2019) have applied since 16 Sept 2019. They require a licence from the Permanent Secretary, with a yearly fee of Rs 15,000 per the 2016 amendment and a 35% late surcharge. The MRA notice requires customs registration for exporters. Searches found no software, state portal or public register doing the job. I did not search in French. I did not find the number of licensed dealers, so the market is probably tens to low hundreds of firms. That is a tiny, informal, low-tech buyer base with weak willingness to pay and no clear distribution channel. Whether the 2019 text still includes the exporter category after the 2016 amendment is unclear. Low score for market size.",
+   "searches": 2,
+   "sources": "https://www.tradebarriers.org/library/regulations/Mauritius/Consumer Protection (Scrap Metal) Regulations 2019.pdf ; https://www.mcci.org/media/165421/consumer-protection-scrap-metal-amendment-no-41-regulations-2016.pdf ; https://www.mra.mu/download/NoticeScrapMetal.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b40"
+ },
+ "sonnet:mauritius:A11": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real, but I only saw the ICNL copy of the 1978 Act, so any later amendment is unchecked. Under s.23(1) the secretary must file an annual return within 3 months of the accounting date. It contains the certified AGM statement, officer names and addresses, the membership count and any amended rules. Officer changes must be reported within 14 days (s.23(2)). The AGM is required under s.22. Penalty under s.37 is a fine of up to Rs 500 and/or up to 3 months in prison, which is trivial. Searches found no software or online portal for associations. I found no association count. Willingness to pay is low (volunteer secretaries, low penalty, a simple form), so the score is 3.",
+   "searches": 2,
+   "sources": "https://www.icnl.org/research/library/mauritius_associations78/; https://www.actogether.mu/fr/professionnels/legislation",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b40"
+ },
+ "sonnet:mauritius:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "None found",
+   "duty": "Jewellery Act 2007 and Jewellery (Dealer's Registration and Transactions) Regulations 2012: dealer registration (up to 3 years, renewable) and records and receipts",
+   "market": "not_reached: no public count of registered dealers found",
+   "reason": "Duty is real: Jewellery Act 2007 (in force 9 May 2008, bar ss.21 and 25) Part IV, plus Dealer's Registration and Transactions Regulations 2012. These cover dealer registration valid up to 3 years, and records and receipts. The 2012 regulations are amended (GN 9 of 2012). I did not re-verify the 5-year retention, the 10-day holding period or the 25% surcharge, and I found no 2025-26 amendments. No software or free state tool for Mauritian dealers appeared in two searches. The market is tiny and I found no public dealer count. The Assay Office has no public register, so the buyer list is hard to reach. Enforcement frequency is unknown. Low willingness to pay, so the idea is only viable as a K02 add-on.",
+   "searches": 2,
+   "sources": "https://www.tradebarriers.org/library/regulations/Mauritius/Jewellery%20(Dealer%E2%80%99s%20Registration%20and%20Transactions)%20Regulations%202012.pdf ; https://www.mcci.org/media/35818/jewellery-act-2007.pdf ; https://www.tradebarriers.org/ntm/documents/view/461 ; https://www.wikiprocedure.com/extensions/Amp/ampfiles/Mauritius_-_Apply_for_Renewal_as_Dealer_in_Jewelry.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b40"
+ },
+ "sonnet:mauritius:A8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "I could not confirm the legal basis. Four searches found no Mauritian text on lift, boiler, pressure-vessel or lifting-gear examination: no regulation name, interval, penalty or authority. Third-party summaries (Rivermate) only name the OSH Act 2005, and none of its listed regulations covers this equipment. The Apave Mauritius page confirms it sells regulatory inspections of pressure and lifting equipment, but it cites no law, interval or software, and does not mention lifts. I found no local tracker software and no owner count. The duty is plausible but unproven. Inspections are done by third-party inspectors, so the owners' pain is mainly scheduling, and the market is small. A solo founder would likely have to sell through the inspectors.",
+   "searches": 4,
+   "sources": "https://africa.apave.com/en/Apave-in-Africa/Our-locations-and-contacts-in-Africa/Apave-Mauritius, https://rivermate.com/guides/mauritius/health-and-safety",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b40"
+ },
+ "sonnet:mauritius:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Data Protection Act 2017 requires controller registration, valid 3 years, renewal within 3 months before expiry. Failure is an offence (fine up to Rs 200,000 or 5 years). Section 33 requires a record of processing. Fees come from the Data Protection (Fees) Regulations 2020. No Mauritius-specific SME software turned up. Only generic frameworks (theartofservice, consentstack, clym) and local consultants (e.g. rogerscapital.mu) appeared. Weaknesses: the DPO already runs an online registration portal, so the core filing is free to do; renewal comes once per 3 years; fees are low. Market size is not quantified, and the local-language search was not done. The fee table was not retrieved. Low revenue per customer and a thin recurring workflow keep the score at 3.",
+   "searches": 2,
+   "sources": "https://www.dlapiperdataprotection.com/index.html?c=MU&t=law ; https://wikiprocedure.com/index.php/Mauritius_-_Online_Registration_of_Data_Controller ; https://www.dlapiperafrica.com/en/mauritius/insights/2020/new-data-protection-regulations-.html ; https://afrinic.net/assets/pdf/misc/DPA_2017_updated.pdf ; https://rogerscapital.mu/?p=989",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b40"
+ },
+ "sonnet:mauritius:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "None found; search was not conclusive. The official CIDB portal exists per the article, unverified.",
+   "duty": "CIDB Act 2008 contractor registration and grading; renewal frequency and penalty unconfirmed. The article cites 1 Jan 2026 and 30 June 2026 deadlines, uncorroborated.",
+   "market": "Not found. No register count reached.",
+   "reason": "Only one source supports the claim, a commercial law-firm blog that mixes the names CIA, CIDB and CIAM. It gives no renewal period, fees, penalties or section numbers. I could not reach any official Mauritian source (CIDB site, Laws of Mauritius, Gazette), and search results were mostly South Africa and Sri Lanka. The duty is plausible, since the CIDB Act 2008 does register and grade contractors. The renewal cycle and penalty are unconfirmed, and registration looks like a one-off or periodic renewal per firm, not a frequent workflow. Competitors were not found, and I could not check them directly. The market is probably a few thousand contractors. Willingness to pay looks low and the workflow is thin (a reminder tracker). Keep the score at 3.",
+   "searches": 3,
+   "sources": "https://globallawexperts.com/contractor-registration-mauritius/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b40"
+ },
+ "triage:mauritius": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Scrap-metal dealers' registers and licence renewal; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Jewellery Act trade-in records are a different duty from K02 AML; related to K02 but new.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Borehole permits and water-rights registration under the 2024 Act; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Recruitment agency licensing and deposit; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Employer duty for foreign worker permits and local-recruitment evidence; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Waste and septic carrier licences; small operators, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Agro-chemical retailers' licence and stock records; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Periodic statutory equipment inspections for small owners; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small vet practice duty (registration, CPD); in scope, verifiers decide."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Small slaughterhouses and butchers' annual licence; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Associations' annual return; in scope (associations)."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Small taxi and bus operators' licensing; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Money changers' returns to the central bank; small licensed firms, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Pre-school and childminder registration; small premises, in scope."
+    },
+    {
+     "decision": "merge",
+     "id": "B1",
+     "reason": "Same buyer (employers of foreign workers) and permit and local-recruitment duty as A5.",
+     "ref": "A5"
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Data Protection Act controller registration for small firms; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Small private clinics and labs permit and tariff duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small contractors' registration renewal; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small bookmakers' licence and terminal compliance; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Liquor licence annual renewal for small licensees; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Private security company police licence; small firms, unverified."
+    },
+    {
+     "decision": "merge",
+     "id": "B8",
+     "reason": "Same associations and same section 23 annual return duty.",
+     "ref": "A11"
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Co-operatives' audit and AGM filing; co-operatives are in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Small fish exporters' health certificates; unverified, keep."
+    },
+    {
+     "decision": "merge",
+     "id": "B11",
+     "reason": "Same buyer (recruitment agencies) and licensing duty as A4.",
+     "ref": "A4"
+    },
+    {
+     "decision": "known",
+     "id": "B12",
+     "reason": "Same buyer and duty as K01, tourist fee and guest register.",
+     "ref": "K01"
+    },
+    {
+     "decision": "known",
+     "id": "B13",
+     "reason": "Same small DNFBPs and AML/CFT duty as K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS1",
+     "reason": "Same borehole holders and water permit duty as A3.",
+     "ref": "A3"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Bottled-water producers' metered returns are a different buyer and duty; unverified, keep."
+    }
+   ]
+  },
+  "tag": "w2b40"
  }
 }

@@ -594,6 +594,33 @@
    "merge": 1
   }
  },
+ "finland": {
+  "batch": "w2b37",
+  "candidates": 33,
+  "checks": {
+   "opus": 1,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "GAPS3 Small restaurant and cafe alcohol compliance pack (omavalvontasuunnitelma plus semi-annual serving report)"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 7,
+   "refuted": 1,
+   "unverifiable": 2
+  },
+  "gaps": 6,
+  "id": "finland",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 23,
+   "known": 2,
+   "merge": 2
+  }
+ },
  "france": {
   "batch": "w2b8",
   "candidates": 44,
@@ -1639,6 +1666,56 @@
   "triage": {
    "keep": 27,
    "known": 2
+  }
+ },
+ "pakistan": {
+  "batch": "w2b37",
+  "candidates": 40,
+  "checks": {
+   "opus": 6,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "GAPS8 Food-licence record file for milk shops and small food outlets (Punjab Food Authority and Sindh Food Authority)"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 8,
+   "disputed": 2,
+   "refuted": 1,
+   "unverifiable": 4
+  },
+  "gaps": 8,
+  "id": "pakistan",
+  "leads": [
+   {
+    "challenge": "survives 3",
+    "final": "disputed",
+    "id": "B2",
+    "mark": "new",
+    "name": "Real-estate and builder DNFBP compliance file (registration, CDD, record retention, compliance officer)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "survives 3",
+    "final": "disputed",
+    "id": "GAPS4",
+    "mark": "new",
+    "name": "Healthcare Commission licence-readiness and MSDS inspection file for small clinics, labs and dental or aesthetic clinics (Sindh, KP, Punjab)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": 4,
+    "src": "gapfill"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 34,
+   "known": 6
   }
  },
  "philippines": {

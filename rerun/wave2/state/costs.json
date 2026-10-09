@@ -825,18 +825,26 @@
  },
  "wf_2bdb86c5-000/a17688ee67858be32": {
   "blocked": 0,
-  "cost": 0.0985,
+  "cost": 0.5895,
   "label": "discover:A:albania",
   "model": "sonnet",
-  "searches": 4,
+  "searches": 20,
   "tag": "w2b34"
  },
  "wf_2bdb86c5-000/a2bf3cf8b7e4bb27f": {
   "blocked": 0,
-  "cost": 0.1106,
+  "cost": 0.5416,
   "label": "discover:B:albania",
   "model": "sonnet",
-  "searches": 5,
+  "searches": 18,
+  "tag": "w2b34"
+ },
+ "wf_2bdb86c5-000/ab7ef4bcd463e26ff": {
+  "blocked": 0,
+  "cost": 0.3189,
+  "label": "gapfill:albania",
+  "model": "sonnet",
+  "searches": 12,
   "tag": "w2b34"
  },
  "wf_321b8831-e3e/a0e9b570d3cc34af0": {
@@ -1462,6 +1470,22 @@
   "model": "opus",
   "searches": 6,
   "tag": "w2b29"
+ },
+ "wf_46e765b1-55f/a7fdbb407a0eb3407": {
+  "blocked": 0,
+  "cost": 0.1188,
+  "label": "discover:A:guinea",
+  "model": "sonnet",
+  "searches": 6,
+  "tag": "w2b36"
+ },
+ "wf_46e765b1-55f/a990ba9064eaacbb6": {
+  "blocked": 0,
+  "cost": 0.0985,
+  "label": "discover:B:guinea",
+  "model": "sonnet",
+  "searches": 4,
+  "tag": "w2b36"
  },
  "wf_473cee5c-38b/a0986c9afbdfbe99f": {
   "blocked": 0,
@@ -2294,6 +2318,30 @@
   "model": "opus",
   "searches": 7,
   "tag": "w2b3"
+ },
+ "wf_61ba9e42-c48/aadba09e8c031cec3": {
+  "blocked": 0,
+  "cost": 0.5692,
+  "label": "discover:A:burkina-faso",
+  "model": "sonnet",
+  "searches": 20,
+  "tag": "w2b35"
+ },
+ "wf_61ba9e42-c48/ab36a08d47651b9b9": {
+  "blocked": 0,
+  "cost": 0.5507,
+  "label": "discover:B:burkina-faso",
+  "model": "sonnet",
+  "searches": 18,
+  "tag": "w2b35"
+ },
+ "wf_61ba9e42-c48/ae68a9da748179b72": {
+  "blocked": 0,
+  "cost": 0.1937,
+  "label": "gapfill:burkina-faso",
+  "model": "sonnet",
+  "searches": 8,
+  "tag": "w2b35"
  },
  "wf_6987f516-dd4/a04def30d4305878d": {
   "blocked": 0,
@@ -3911,6 +3959,22 @@
   "searches": 18,
   "tag": "w2b31"
  },
+ "wf_9a13be1f-beb/a20fce839adfde359": {
+  "blocked": 0,
+  "cost": 0.0667,
+  "label": "sonnet:uganda:A6",
+  "model": "sonnet",
+  "searches": 3,
+  "tag": "w2b31"
+ },
+ "wf_9a13be1f-beb/a2a97b29c0a97cf85": {
+  "blocked": 0,
+  "cost": 0.18,
+  "label": "challenge:uganda:A1",
+  "model": "opus",
+  "searches": 6,
+  "tag": "w2b31"
+ },
  "wf_9a13be1f-beb/a3cd8ce791d0b6905": {
   "blocked": 0,
   "cost": 0.5794,
@@ -3945,10 +4009,10 @@
  },
  "wf_9a13be1f-beb/a7425c3c0d2f449ea": {
   "blocked": 0,
-  "cost": 0.0801,
+  "cost": 0.174,
   "label": "opus:uganda:B2",
   "model": "opus",
-  "searches": 3,
+  "searches": 5,
   "tag": "w2b31"
  },
  "wf_9a13be1f-beb/a74d4d7a1af19bd5f": {
@@ -3993,10 +4057,10 @@
  },
  "wf_9a13be1f-beb/a960c060d98ac9595": {
   "blocked": 0,
-  "cost": 0.11,
+  "cost": 0.1852,
   "label": "opus:uganda:B5",
   "model": "opus",
-  "searches": 4,
+  "searches": 6,
   "tag": "w2b31"
  },
  "wf_9a13be1f-beb/a96233e00b527e695": {
@@ -4023,6 +4087,14 @@
   "searches": 6,
   "tag": "w2b31"
  },
+ "wf_9a13be1f-beb/aab2a5c2e386053aa": {
+  "blocked": 0,
+  "cost": 0.0453,
+  "label": "sonnet:uganda:B8",
+  "model": "sonnet",
+  "searches": 2,
+  "tag": "w2b31"
+ },
  "wf_9a13be1f-beb/aab62ba909d76aaa7": {
   "blocked": 0,
   "cost": 0.084,
@@ -4039,12 +4111,36 @@
   "searches": 2,
   "tag": "w2b31"
  },
+ "wf_9a13be1f-beb/ab990b25050c6feec": {
+  "blocked": 0,
+  "cost": 0.1683,
+  "label": "challenge:uganda:B2",
+  "model": "opus",
+  "searches": 5,
+  "tag": "w2b31"
+ },
  "wf_9a13be1f-beb/abe45f29398febac2": {
   "blocked": 0,
   "cost": 0.084,
   "label": "triage:uganda",
   "model": "sonnet",
   "searches": 0,
+  "tag": "w2b31"
+ },
+ "wf_9a13be1f-beb/ac45505abcc804239": {
+  "blocked": 0,
+  "cost": 0.0592,
+  "label": "sonnet:uganda:A7",
+  "model": "sonnet",
+  "searches": 3,
+  "tag": "w2b31"
+ },
+ "wf_9a13be1f-beb/ac8a298a930104443": {
+  "blocked": 0,
+  "cost": 0.1709,
+  "label": "challenge:uganda:A11",
+  "model": "opus",
+  "searches": 6,
   "tag": "w2b31"
  },
  "wf_9a13be1f-beb/acdd87e392f31abdd": {
@@ -4055,10 +4151,34 @@
   "searches": 5,
   "tag": "w2b31"
  },
+ "wf_9a13be1f-beb/ace81d7f19850ddfe": {
+  "blocked": 0,
+  "cost": 0.0506,
+  "label": "sonnet:uganda:A4",
+  "model": "sonnet",
+  "searches": 2,
+  "tag": "w2b31"
+ },
+ "wf_9a13be1f-beb/ad9b374981c321d71": {
+  "blocked": 0,
+  "cost": 0.0463,
+  "label": "sonnet:uganda:A2",
+  "model": "sonnet",
+  "searches": 2,
+  "tag": "w2b31"
+ },
  "wf_9a13be1f-beb/add007e0985fca1e2": {
   "blocked": 0,
   "cost": 0.048,
   "label": "sonnet:cote-d-ivoire:B3",
+  "model": "sonnet",
+  "searches": 2,
+  "tag": "w2b31"
+ },
+ "wf_9a13be1f-beb/ae34caa6d2e0ee499": {
+  "blocked": 0,
+  "cost": 0.0447,
+  "label": "sonnet:uganda:B9",
   "model": "sonnet",
   "searches": 2,
   "tag": "w2b31"
@@ -4583,6 +4703,14 @@
   "searches": 3,
   "tag": "w2b32"
  },
+ "wf_b2268d5d-76e/a8605eff5d99d5d7b": {
+  "blocked": 0,
+  "cost": 0.0768,
+  "label": "critic:peru",
+  "model": "sonnet",
+  "searches": 0,
+  "tag": "w2b32"
+ },
  "wf_b2268d5d-76e/a89db0c5155b7d7cb": {
   "blocked": 0,
   "cost": 0.0438,
@@ -4623,12 +4751,20 @@
   "searches": 7,
   "tag": "w2b32"
  },
+ "wf_b2268d5d-76e/ad6789e1654e10dbf": {
+  "blocked": 0,
+  "cost": 0.124,
+  "label": "gapfill:peru",
+  "model": "sonnet",
+  "searches": 6,
+  "tag": "w2b32"
+ },
  "wf_b2268d5d-76e/adc9883bb14446059": {
   "blocked": 0,
-  "cost": 0.1793,
+  "cost": 0.7992,
   "label": "discover:A:peru",
   "model": "sonnet",
-  "searches": 8,
+  "searches": 28,
   "tag": "w2b32"
  },
  "wf_b2268d5d-76e/af2dddd056f79afbd": {
@@ -4641,10 +4777,10 @@
  },
  "wf_b2268d5d-76e/af8d4314a4f1f98eb": {
   "blocked": 0,
-  "cost": 0.1786,
+  "cost": 0.773,
   "label": "discover:B:peru",
   "model": "sonnet",
-  "searches": 8,
+  "searches": 26,
   "tag": "w2b32"
  },
  "wf_b59f2b1c-ad3/a2c49f2e3c7005443": {
@@ -6223,12 +6359,20 @@
   "searches": 0,
   "tag": "w2b33"
  },
+ "wf_df36235e-e43/a4f1be33dc74dcd0d": {
+  "blocked": 0,
+  "cost": 0.2201,
+  "label": "opus:oman:B2",
+  "model": "opus",
+  "searches": 6,
+  "tag": "w2b33"
+ },
  "wf_df36235e-e43/a60addd426504f754": {
   "blocked": 0,
-  "cost": 0.0479,
+  "cost": 0.205,
   "label": "opus:oman:B1",
   "model": "opus",
-  "searches": 3,
+  "searches": 6,
   "tag": "w2b33"
  },
  "wf_df36235e-e43/a6b22b17f290c62ea": {
@@ -6237,6 +6381,30 @@
   "label": "discover:B:qatar",
   "model": "sonnet",
   "searches": 18,
+  "tag": "w2b33"
+ },
+ "wf_df36235e-e43/a6c870f3039a62ed8": {
+  "blocked": 0,
+  "cost": 0.0485,
+  "label": "sonnet:oman:B3",
+  "model": "sonnet",
+  "searches": 2,
+  "tag": "w2b33"
+ },
+ "wf_df36235e-e43/a7888bdc698b81016": {
+  "blocked": 0,
+  "cost": 0.1963,
+  "label": "challenge:oman:B1",
+  "model": "opus",
+  "searches": 6,
+  "tag": "w2b33"
+ },
+ "wf_df36235e-e43/a7b84b65b451d7948": {
+  "blocked": 0,
+  "cost": 0.0,
+  "label": "discover:A:kuwait",
+  "model": "sonnet",
+  "searches": 0,
   "tag": "w2b33"
  },
  "wf_df36235e-e43/a9121f920b14ea986": {
@@ -6255,10 +6423,26 @@
   "searches": 20,
   "tag": "w2b33"
  },
+ "wf_df36235e-e43/a962c1aebeb59e2fd": {
+  "blocked": 0,
+  "cost": 0.0538,
+  "label": "sonnet:oman:B5",
+  "model": "sonnet",
+  "searches": 2,
+  "tag": "w2b33"
+ },
  "wf_df36235e-e43/a9e347fb552693a81": {
   "blocked": 0,
   "cost": 0.0632,
   "label": "sonnet:qatar:B3",
+  "model": "sonnet",
+  "searches": 3,
+  "tag": "w2b33"
+ },
+ "wf_df36235e-e43/aa07d38d0a2679e26": {
+  "blocked": 0,
+  "cost": 0.0725,
+  "label": "sonnet:oman:A2",
   "model": "sonnet",
   "searches": 3,
   "tag": "w2b33"
@@ -6279,6 +6463,14 @@
   "searches": 2,
   "tag": "w2b33"
  },
+ "wf_df36235e-e43/ac7c5e48c1862d842": {
+  "blocked": 0,
+  "cost": 0.2072,
+  "label": "opus:oman:B4",
+  "model": "opus",
+  "searches": 6,
+  "tag": "w2b33"
+ },
  "wf_df36235e-e43/ac81f98bed59fd531": {
   "blocked": 0,
   "cost": 0.0734,
@@ -6297,16 +6489,48 @@
  },
  "wf_df36235e-e43/ace985478321f30de": {
   "blocked": 0,
-  "cost": 0.042,
+  "cost": 0.2087,
   "label": "opus:oman:A1",
   "model": "opus",
-  "searches": 2,
+  "searches": 6,
   "tag": "w2b33"
  },
  "wf_df36235e-e43/ad7393ca5db8b81a2": {
   "blocked": 0,
   "cost": 0.0376,
   "label": "sonnet:qatar:A2",
+  "model": "sonnet",
+  "searches": 1,
+  "tag": "w2b33"
+ },
+ "wf_df36235e-e43/ad8a0452cef196c97": {
+  "blocked": 0,
+  "cost": 0.0,
+  "label": "discover:B:kuwait",
+  "model": "sonnet",
+  "searches": 0,
+  "tag": "w2b33"
+ },
+ "wf_df36235e-e43/adad9d294e66cd9dd": {
+  "blocked": 0,
+  "cost": 0.0468,
+  "label": "sonnet:oman:A3",
+  "model": "sonnet",
+  "searches": 2,
+  "tag": "w2b33"
+ },
+ "wf_df36235e-e43/ae9959cf49de3c150": {
+  "blocked": 0,
+  "cost": 0.0702,
+  "label": "sonnet:oman:B8",
+  "model": "sonnet",
+  "searches": 3,
+  "tag": "w2b33"
+ },
+ "wf_df36235e-e43/af1b84f4f672627b0": {
+  "blocked": 0,
+  "cost": 0.034,
+  "label": "sonnet:oman:B9",
   "model": "sonnet",
   "searches": 1,
   "tag": "w2b33"
@@ -6559,6 +6783,14 @@
   "searches": 6,
   "tag": "w2b30"
  },
+ "wf_e7aff4c1-323/a3046935124c65687": {
+  "blocked": 0,
+  "cost": 0.1992,
+  "label": "opus:finland:B1",
+  "model": "opus",
+  "searches": 6,
+  "tag": "w2b30"
+ },
  "wf_e7aff4c1-323/a35e3a0d728d0134a": {
   "blocked": 0,
   "cost": 0.1859,
@@ -6569,7 +6801,7 @@
  },
  "wf_e7aff4c1-323/a3606a47cdbbad766": {
   "blocked": 0,
-  "cost": 0.375,
+  "cost": 0.5989,
   "label": "gapfill:finland",
   "model": "sonnet",
   "searches": 18,
@@ -6591,12 +6823,28 @@
   "searches": 18,
   "tag": "w2b30"
  },
+ "wf_e7aff4c1-323/a69cc41663ad00427": {
+  "blocked": 0,
+  "cost": 0.0804,
+  "label": "triage:finland",
+  "model": "sonnet",
+  "searches": 0,
+  "tag": "w2b30"
+ },
  "wf_e7aff4c1-323/a6d57d877b66525b4": {
   "blocked": 0,
   "cost": 0.0846,
   "label": "sonnet:norway:A4",
   "model": "sonnet",
   "searches": 4,
+  "tag": "w2b30"
+ },
+ "wf_e7aff4c1-323/a7f35daa7a8903603": {
+  "blocked": 0,
+  "cost": 0.0624,
+  "label": "sonnet:finland:A2",
+  "model": "sonnet",
+  "searches": 3,
   "tag": "w2b30"
  },
  "wf_e7aff4c1-323/a81db588cd2716f22": {
@@ -6613,6 +6861,14 @@
   "label": "discover:B:finland",
   "model": "sonnet",
   "searches": 24,
+  "tag": "w2b30"
+ },
+ "wf_e7aff4c1-323/a934a7878e12d201d": {
+  "blocked": 0,
+  "cost": 0.0465,
+  "label": "sonnet:finland:A5",
+  "model": "sonnet",
+  "searches": 2,
   "tag": "w2b30"
  },
  "wf_e7aff4c1-323/aa384cec4bd63a6db": {
@@ -6645,6 +6901,14 @@
   "label": "critic:finland",
   "model": "sonnet",
   "searches": 0,
+  "tag": "w2b30"
+ },
+ "wf_e7aff4c1-323/ac50c8316b422447d": {
+  "blocked": 0,
+  "cost": 0.0526,
+  "label": "sonnet:finland:A1",
+  "model": "sonnet",
+  "searches": 2,
   "tag": "w2b30"
  },
  "wf_e7aff4c1-323/ad7e29abe04803a87": {
@@ -6693,6 +6957,22 @@
   "label": "sonnet:norway:A3",
   "model": "sonnet",
   "searches": 3,
+  "tag": "w2b30"
+ },
+ "wf_e7aff4c1-323/af6cf6e2c5a2c9545": {
+  "blocked": 0,
+  "cost": 0.0944,
+  "label": "sonnet:finland:B4",
+  "model": "sonnet",
+  "searches": 4,
+  "tag": "w2b30"
+ },
+ "wf_e7aff4c1-323/afed214de963c9879": {
+  "blocked": 0,
+  "cost": 0.0532,
+  "label": "sonnet:finland:A3",
+  "model": "sonnet",
+  "searches": 2,
   "tag": "w2b30"
  },
  "wf_f31a3b5c-7b6/a06bc9f305d1f4197": {

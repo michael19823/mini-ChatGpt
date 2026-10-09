@@ -1,0 +1,700 @@
+{
+ "critic:peru": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Municipal and sectoral licensing of street/market traders and food vendors (category 19, not_reached)",
+     "first_search": "licencia de funcionamiento mercado de abastos comerciantes ITSE renovación Ley 28976 municipalidad 2026",
+     "why": "Peru has among the largest informal micro-trade populations in Latin America (mercados de abastos, ambulantes, comedores, ferias). Each municipality requires a licencia de funcionamiento and ITSE/Defensa Civil renewals, and the municipal Ley 28976 / TUO 2023 regime plus the sanitary registers for food sellers are unexamined. Only money changers were covered."
+    },
+    {
+     "category": "Defensa Civil ITSE / inspección técnica de seguridad en edificaciones for small premises",
+     "first_search": "ITSE renovación certificado Defensa Civil DS 002-2018-PCM plazo vigencia bodegas restaurantes 2026",
+     "why": "ITSE (DS 002-2018-PCM) and its periodic renewal apply to nearly every hostal, restaurant, clinic, school and shop. This is a recurring mandatory file for tens of thousands of small premises, and no candidate in the ledger addresses it."
+    },
+    {
+     "category": "Electronic invoicing and SUNAT regime obligations for micro-firms (RUS/RER/RMT), e.g. new comprobantes, PLE or SIRE thresholds, GRE guía de remisión electrónica",
+     "first_search": "SUNAT guía de remisión electrónica remitente obligados MYPE RUS cronograma 2026 resolución de superintendencia",
+     "why": "Only K11 (SIRE for accountants) was examined and rejected. The duty falling on MYPE sole traders (the RUS to RMT migration, the obligation to issue electronic guías de remisión for transport of goods, and the 2025-2027 SUNAT deadlines) is a different buyer group and was not screened."
+    },
+    {
+     "category": "Solid-waste and recycling informal collectors (recicladores) and municipal segregation programmes (Ley 29419 / DL 1501 / RS)",
+     "first_search": "registro recicladores formalizados asociaciones SIGERSOL Ley 29419 reglamento reporte municipal 2026",
+     "why": "Recicladores formalised in associations must register with the municipal Registro de Recicladores and report to MINAM's SIGERSOL. The thousands of small associations and the household and commercial segregation duty were not screened, and K03 covers only hazardous-waste operators."
+    },
+    {
+     "category": "Private schools, academies, CETPRO and nurseries (SUNEDU / MINEDU / UGEL registration and annual reports)",
+     "first_search": "colegios privados UGEL reporte SIAGIE comunicación de costos pensiones Ley 26549 obligaciones 2026 Registro de Instituciones Educativas Privadas",
+     "why": "Peru has a very large number of small private schools and academias that must file with UGEL (Registro de Instituciones Educativas Privadas, Ley 26549 / DL 882, annual cost and fee notifications under DS 005-2021-MINEDU, SIAGIE enrolment reporting). Childcare was marked unverified and only touched in passing, and this broader education group was never screened."
+    },
+    {
+     "category": "Transport and mototaxi / taxi formalization and operator registers at municipalities (ATU, SUTRAN, municipal permits) beyond the colectivo item",
+     "first_search": "AFOCAT SOAT digital obligatoriedad vehículos CITV revisión técnica vencimiento mototaxis ordenanza municipal 2026",
+     "why": "Mototaxi (Ley 27189), urban taxi and ATU Lima/Callao permits, together with the SOAT/AFOCAT/CITV vehicle compliance cycle, hit hundreds of thousands of owner-drivers. Coverage only mentioned colectivos and trucking GPS, and the AFOCAT insurance-association regime was not examined."
+    }
+   ]
+  },
+  "tag": "w2b32"
+ },
+ "discover:A:peru": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small gold buyers, comercializadores and small plantas de beneficio (about 12,418 RECPO registrants in Feb 2025; 2,328 plantas in the REINFO after the Aug 2025 clean-up)",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://busquedas.elperuano.pe/api/visor_html/2471915-1 (fetched: art. 11 data list; the text creates no purchase register); https://energiminas.com/2025/02/27/en-el-peru-existen-mas-de-12-mil-comercializadores-de-oro-cifra-excesiva-que-debe-transparentarse (fetched: 12,418 RECPO registrants, regulation pending, an expert thinks only about 2,000 should remain); https://www.cuatrecasas.com/es/latam/publico/art/reinfo-amplian-plazo-2026; https://proactivo.com.pe/minem-propone-reglamento-para-el-ingreso-y-permanencia-al-registro-especial-de-comercializadores-y-procesadores-de-oro-recpo/",
+     "existing": "Competitor search 'software registro de compras de oro comercializador planta de beneficio sistema trazabilidad' found no commercial product. Only articles about regulatory gaps and a Minem pilot traceability system (energiminas.com/?p=38092, details not read).",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Same sector as K02 (cyanide/mercury register) and K04 (mine contractor accreditation) but a different buyer (gold buyers) and a different duty (seller verification).",
+     "name": "Gold buyer / comercializador purchase-verification and register pack (RECPO, DL 1107 art. 11)",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Ley 32537 (Dec 2025) changed DL 1107 art. 11: the buyer must verify the seller's RUC, identity and address, a valid Código Único de Concesión, the Autorización de Explotación, and a current REINFO or similar status, and check authenticity in the official systems. The REINFO formalization period ends 31 Dec 2026 or when the Ley MAPE takes effect, which forces buyers to re-check every supplier. DS 012-2012-EM older rule requires an electronic register of each gold purchase. The RECPO regulation and the Minem traceability pilot are still pending.",
+     "unchecked": "Whether the DS 012-2012-EM purchase register is still in force. Whether the RECPO regulation was issued after the 2021 draft. Status of the Minem pilot system and whether it replaces private tools. Whether the REINFO cut-off will be extended again. Many buyers are informal and unlikely to pay. Who inspects them (SUNAT, Minem)."
+    },
+    {
+     "buyer": "Small jewellers and traders of jewellery, precious metals and stones",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://lpderecho.pe/sbs-norma-prevencion-lavado-activos-financiamiento-terrorismo-uif-peru/; https://www.sbs.gob.pe/normativa/normas-legales/resolucion-sbs-789-2018; https://cms.law/en/media/local/cms-grau/files/publications/newsletter/resolucion-sbs-789-2018",
+     "existing": "No competitor search run (budget). Generic SPLAFT consultancy is likely.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "known_note": "Related to K05 (SPLAFT-in-a-box for money changers and pawn shops), but a different buyer group.",
+     "name": "Compliance pack for jewellers and precious-metal traders (UIF-Perú)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Res SBS 789-2018 (the current AML rule) lists the jewellery, precious metals and stones trade as sujetos obligados under UIF-Perú supervision. They need a compliance officer, a transaction register and suspicious-activity reporting. The SBS publishes sanctions.",
+     "unchecked": "Exact thresholds and whether jewellers under size limits are exempt. Registration channel (UIF register of sujetos obligados). Competitor products. How many small jewellers are actually enforced."
+    },
+    {
+     "buyer": "Asociaciones, fundaciones, comités and IPREDA/ONGD receiving foreign donations",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://internacional.sunat.gob.pe/sites/default/files/inline-files/i128-2020-7T0000.pdf; https://www.gob.pe/institucion/apci/noticias/1404252-apci-amplia-plazo-para-que-ongd-y-entidades-privadas-receptoras-de-cooperacion-presenten-informe-anual-2025; https://misha.pe/?p=43209 (secondary)",
+     "existing": "No competitor search run (budget). Accountants and legal firms probably handle it by hand.",
+     "known_mark": "new",
+     "name": "Annual beneficial-owner and APCI filing for small associations and ONG",
+     "score": 3,
+     "status": "weak",
+     "trigger": "SUNAT requires associations, foundations and committees to file the beneficial-owner declaration (DL 1372, DS 003-2019-EF; Informe 128-2020). A secondary source says it is yearly when the board changes (unverified). APCI requires the Informe Anual and Plan Anual in SIGCTI; the 2025 report was extended to 30 Jun 2026 (RDE 058-2026/APCI-DE); not filing blocks the IGV refund. Ley 32301 (Apr 2025) changed the APCI framework.",
+     "unchecked": "Number of buyers. Willingness to pay. Whether the free SIGCTI and SUNAT forms are easy enough. Whether a Registro de Entidades Perceptoras de Donaciones renewal adds work. SUNAT Registro de Entidades Exoneradas (the lpderecho result suggests removal risk)."
+    },
+    {
+     "buyer": "JASS, rural water boards, plus the municipal areas that supervise them (thousands of boards, mostly volunteers)",
+     "category": "13. Small water systems",
+     "evidence": "https://repositorio.uni.edu.pe/bitstream/20.500.14076/28464/1/ugarte_gw.pdf; https://cdn.www.gob.pe/uploads/document/file/7520975/6394321-resol-0289-2024-sunass-df.pdf; https://radiorsd.pe/noticias/ancash-sunass-promueve-pago-de-cuota-familiar-entre-usuarios-rurales-de-sihuas",
+     "existing": "No competitor search run (budget). SUNASS/OTASS likely have free tools; not checked.",
+     "known_mark": "new",
+     "name": "Rural water committee (JASS) compliance and fee kit",
+     "score": 3,
+     "status": "weak",
+     "trigger": "TUO of the Reglamento de Calidad de la Prestación (RCD 058-2023-SUNASS-CD) requires chlorine monitoring records and disinfection registers; the cuota familiar must be approved yearly by the assembly using SUNASS's method; the municipal organizaciones comunales register applies. A thesis found many JASS non-compliant.",
+     "unchecked": "Whether JASS must report to a regulator and how often. Willingness to pay (very low). Whether OTASS or SUNASS tools already cover it. Offline use and connectivity."
+    },
+    {
+     "buyer": "Agrovet shops selling agricultural pesticides and veterinary products",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://agraria.pe/noticias/senasa-fiscaliza-las-actividades-comerciales-de-los-plaguici-34831; https://andina.pe/agencia/noticia-senasa-fiscaliza-actividades-comerciales-los-plaguicidas-y-verifica-autorizacion-uso-974622.aspx; https://sinia.minam.gob.pe/sites/default/files/sinia/archivos/public/docs/ds_001-2015-minagri.pdf; https://faolex.fao.org/docs/pdf/per75366.pdf",
+     "existing": "No competitor search run (budget). Generic POS software for agrovets may exist.",
+     "known_mark": "new",
+     "name": "Agroveterinaria compliance: pesticide and veterinary-medicine sellers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "DS 001-2015-MINAGRI: only SENASA-registered pesticides may be sold; categories Ia/Ib need an agronomist prescription; SENASA inspects shops (Feb 2024 and earlier). Vets: DS 015-98-AG and Res 031/98 required authorized sellers with a responsible vet (old, current status unverified). No sales-log duty confirmed.",
+     "unchecked": "Whether a periodic report or sales book exists. SENASA's pesticide-sale controls and any e-prescription. Fertiliser rules. Current status of the vet sellers rules. Number of shops."
+    },
+    {
+     "buyer": "MTC-authorized escuelas de conductores (a few hundred, unverified)",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://larepublica.pe/sociedad/2025/06/06/mtc-conductores-del-servicio-de-transporte-deberan-realizar-curso-de-actualizacion-obligatorio-desde-julio-2025-303684; https://tramitesperu.com/mtc/escuelas-conductores/",
+     "existing": "MTC supplies the biometric system itself. Nothing else checked.",
+     "known_mark": "new",
+     "name": "Driving school biometric course records",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DS 040-2008-MTC conditions; DS 038-2010-MTC tightened control; mandatory 6-hour update course every 5 years for professional drivers from July 2025 with biometric attendance in the MTC system. Sutran supervises.",
+     "unchecked": "Number of schools. Whether schools have unmet admin duties (invoices, attendance logs). Competitors."
+    },
+    {
+     "buyer": "Municipal and private small camales (categories 1-2)",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://cdn.www.gob.pe/uploads/document/file/9351000/7665897-r-j-n-d000273-2025-midagri-senasa-jn.pdf; https://elbuho.pe/?p=405671",
+     "existing": "None found; no competitor search.",
+     "known_mark": "new",
+     "name": "Camal (small slaughterhouse) sanitary authorization file",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DS 015-2012-AG: a camal needs a SENASA sanitary authorization with a good-practice manual, HACCP and a traceability plan; clandestine slaughter is sanctioned; Cusco fine of 100% UIT in 2025.",
+     "unchecked": "Whether a periodic record is required. Most buyers are municipalities, which lowers willingness to pay."
+    },
+    {
+     "buyer": "Colectivo operators outside Lima; small cargo carriers",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://elperuano.pe/noticia/292409-proceso-de-formalizacion-de-taxi-colectivos-se-ampliaria-hasta-el-2031; https://www.frotcom.com/es-ES/blog/2017/09/peru-obliga-por-ley-que-todos-los-vehiculos-de-transporte-de-mercancias-y-carga",
+     "existing": "Telematics vendors and the free SUNAT GRE tools.",
+     "known_mark": "new",
+     "name": "Taxi colectivo and trucking small-fleet records",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley 31096 formalization, possible extension to 24 Dec 2031 (committee opinion only). SUNAT GRE-Transportista (Res 000108-2026/SUNAT, 1 Jun 2026). SUTRAN GPS monitoring since 2017.",
+     "unchecked": "Whether any new 2025-26 rule exists. Pricing and competition."
+    },
+    {
+     "buyer": "Intermediación laboral firms and their user firms",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://lacamara.pe/reglas-basicas-de-la-intermediacion-laboral/; https://lpderecho.pe/tercerizacion-intermediacion-laboral-diferencias/",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Labour intermediation firms RENEEIL",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley 27626, DS 003-2002-TR: RENEEIL registration at MTPE; exclusive corporate purpose; risk of workers moving onto the user's payroll.",
+     "unchecked": "Whether the periodic filings exist; overlaps group B cat 26 so deferred to that worker."
+    },
+    {
+     "buyer": "Retailers and resellers of new and used phones",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://lpderecho.pe/modifican-reglamento-registro-nacional-equipos-terminales-moviles-renteseg-decreto-supremo-017-2025-in/; https://www.osiptel.gob.pe/media/gr4n10zf/np22042024-bloqueo-celulares.pdf",
+     "existing": "OSIPTEL's free whitelist check exists.",
+     "known_mark": "new",
+     "name": "Mobile phone resellers and RENTESEG",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DL 1338 and DS 017-2025-IN; importers must register devices before transfer; unregistered devices blocked from 22 Jul 2024. Duty falls on importers and operators rather than resellers.",
+     "unchecked": "Whether DS 017-2025-IN adds duties to resellers. Penalties for resellers."
+    },
+    {
+     "buyer": "Used auto-parts sellers and dismantlers",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://lpderecho.pe/reglamentan-decreto-legislativo-1214-dicta-medidas-prevencion-delitos-patrimoniales-relacionados-vehiculos-automotores-autopartes/ (blocked 403 on fetch; read via search snippet only)",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Vehicle parts dealers under DL 1214",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "DL 1214 and DS 016-2019-IN (24 articles) aim to formalize the parts market and prevent theft; the register or log duty for sellers is unknown.",
+     "unchecked": "The articles. Whether a register exists and is enforced. Whether the rule has been in practice since 2019. Read DS 016-2019-IN in El Peruano."
+    },
+    {
+     "buyer": "Well-drilling firms and consultants",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://www.ana.gob.pe/sites/default/files/normatividad/files/69-RD-1085-2025-05.pdf",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Well drillers ANA register",
+     "score": 2,
+     "status": "weak",
+     "trigger": "ANA Registro de Consultores y Empresas Perforadoras de Agua Subterránea (RATN-ANA-001-2021); RJ 010-2025-ANA art. 32-A simplified steps for family farmers.",
+     "unchecked": "Any periodic reporting; number of firms."
+    },
+    {
+     "buyer": "Private nurseries and guarderías",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://elperuano.pe/noticia/285384-tienes-hijos-pequenos-lima-aprueba-reglamento-para-servicios-de-cuidado-infantil (fetched); https://lpderecho.pe/ley-32562-refuerzan-control-colegios-privados-endurecen-sanciones-contra-informalidad/",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "name": "Private childcare and nursery regime",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Lima Ordenanza 2625 with Decreto de Alcaldía 018 (19 Dec 2025) covers municipal centres. I could not find whether private providers are covered. Ley 32562 (2025) covers private schools only.",
+     "unchecked": "The full Lima text and any national rule."
+    },
+    {
+     "buyer": "Zoocriaderos, centros de custodia and wildlife traders",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://busquedas.elperuano.pe/normaslegales/aprueban-formato-del-libro-de-operaciones-de-centros-de-tra-resolucion-no-156-2015-serfor-de-1314930-1/",
+     "existing": "Not checked.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "Same type of duty as K06 (timber libro de operaciones) but a different buyer group.",
+     "name": "Wildlife zoocriadero libro de operaciones (SERFOR)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Libro de operaciones is mandatory; failing to keep it is a very serious infraction (Res 156-2015-SERFOR-DE); new formats proposed with a one-year adaptation.",
+     "unchecked": "Number of buyers; current formats."
+    },
+    {
+     "buyer": "Households",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "Already K07.",
+     "known_id": "K07",
+     "known_mark": "known",
+     "known_note": "Not re-checked.",
+     "name": "Domestic worker employer compliance",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Ley 31047 / DS 009-2021-TR"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing new beyond K07. Duties confirmed: Ley 31047 and DS 009-2021-TR, T-Registro alta/baja at SUNAT, MTPE Registro de Trabajadores del Hogar, written contract, SUNAFIL protocol v2 (RS 202-2022-SUNAFIL). Official 'Verifica tu Chamba' check exists.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No Peruvian scrap-dealer register or purchase-log duty found in one search. SUNAT bienes fiscalizados regime covers chemicals, not scrap. Only related item is chatarreo of vehicles (see cat 5). Nothing.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Pawn and money-changer duty is already K05 (SBS Registro de casas de cambio, préstamos y empeños; Res SBS 789-2018). Second-hand mobile phone resellers touched by RENTESEG (DL 1338, DS 017-2025-IN) but the duty mainly falls on importers and operators: weak candidate C10.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Two new candidates: gold buyers/RECPO under DL 1107 art. 11 as changed by Ley 32537 (C1), and jewellery and precious-metal traders as SBS 789-2018 sujetos obligados (C2). RECPO had 12,418 registrants in Feb 2025; the REINFO deadline of 31 Dec 2026 is near.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "DL 1214 and DS 016-2019-IN (8 chapters, 24 articles) govern vehicle and parts crime prevention, but I could not read the articles. lpderecho returned 403 and vlex is paywalled. Obligations on parts dealers are unconfirmed (C11, unverified). Chatarreo regime: DS 028-2011-MTC, DS 016-2021-MTC, DS 014-2024-MTC, mostly state and depot facing.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Peru: Certificado Sanitario de Tránsito Interno from SENASA is required to move livestock (2018 Cajamarca and 2014 Puno sources, old). No current register for traders or fairs confirmed. Search results were mostly Argentine. Nothing usable.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "DS 015-2012-AG sanitary slaughter regulation. Camal needs SENASA authorization with HACCP, good-practice manual and traceability plan (Jaén Nov 2025 case). Three camal categories. The buyers are mostly municipalities. Weak candidate C7.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Ley 26305 only requires a voluntary registro codificado, and associations report hive counts annually. No SENASA apiary register found. Nothing.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Only old rules found: DS 015-98-AG, Res 031/98/AG/SENASA (registration of distributors and sellers, responsible vet), RD 1257-2007. No current recipe or antimicrobial-sales log rule found. Folded into agroveterinaria candidate C5 (unverified for vets).",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "ANA keeps a Registro de Consultores y Empresas Perforadoras de Agua Subterránea (RATN-ANA-001-2021). RJ 010-2025-ANA (Jan 2025) added art. 32-A, which waives steps for family farmers up to 10 ha. No periodic extraction report found. Weak (C12).",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "EO-RS register at MINAM (indefinite validity, vehicles listed) and hazardous-waste manifests: K03 covers this. Rules for septic sludge haulers could not be located; unclear whether they need EO-RS. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "No Peruvian mandatory periodic lift or boiler inspection regime found. Lift maintenance is a condominium matter under Ley 27157 regulation arts. 137-138. Results were Spanish. Nothing.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "JASS: municipal register of organizaciones comunales, annual cuota familiar by SUNASS methodology, chlorine records (TUO RCPSS, RCD 058-2023-SUNASS-CD). One thesis found many JASS non-compliant. Candidate C3 (low willingness to pay).",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "DS 001-2015-MINAGRI: dealers must sell only SENASA-registered products; categories Ia/Ib need an agronomist prescription. SENASA runs inspections (2024). No sales-book duty confirmed. Fertiliser rules not searched. Candidate C5.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "RENEEIL at MTPE (Ley 27626, DS 003-2002-TR). The exclusive corporate purpose rule and the risk that a worker moves onto the user firm's payroll are real. This overlaps group B cat 26, so I did no deeper screening. Note only (C9, weak).",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Ley 26298 and DS 03-94-SA (amended by DS 031-2021-SA): sanitary authorization of indefinite validity. No periodic reporting duty found. Nothing.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Associations, foundations and committees must file the SUNAT beneficial-owner declaration (Informe SUNAT 128-2020). IPREDA/ONGD must file the APCI Informe Anual (extended to 30 Jun 2026 by RDE 058-2026/APCI-DE). Ley 32301 (Apr 2025) reworked APCI rules. Candidate C4. Halal and kosher: not applicable, no Peruvian market.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Taxi colectivo formalization: Ley 31096, with a committee opinion to extend the deadline from 24 Dec 2027 to 2031 (not confirmed as law). Trucking: GPS to SUTRAN since 2017, SUNAT GRE-Transportista, Res 000108-2026/SUNAT in force 1 Jun 2026. These are covered by free state tools or telematics vendors. Weak (C8).",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers are K05. I spent no search on street vendors or market traders (budget). Municipal licensing is likely local and fragmented.",
+     "status": "not_reached"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Driving schools: MTC authorization (DS 040-2008-MTC), biometric record of the 6-hour course for professional drivers, Sutran supervision (C6, weak). Childcare: Lima Ordenanza 2625 / DA 018 (19 Dec 2025) covers municipal CIM/GIM, and I could not find a private-provider regime (C13, unverified). Wildlife zoocriaderos: SERFOR libro de operaciones (C14). Tattoo studios, small food producers, hunting outfitters: not searched.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 6,
+   "queries": [
+    "trabajadores del hogar empleador T-Registro Ley 31047 SUNAFIL",
+    "chatarra recicladores registro obligatorio SUNAT bienes fiscalizados",
+    "casas de empeño compraventa oro joyerías UIF-Perú sujetos obligados",
+    "desguace autopartes usadas registro desmanteladoras MTC",
+    "DL 1214 autopartes registro comercializadores libro",
+    "SENASA registro establecimientos veterinarios venta registro (returned Argentina)",
+    "camales ferias ganaderas SENASA guía movimiento (returned Argentina)",
+    "ANA licencia uso de agua pozos empresas perforadoras registro",
+    "escuelas de conductores MTC registro obligaciones",
+    "intermediación laboral RENEEIL obligaciones",
+    "cementerios privados Ley 26298 registro autorización",
+    "taxis colectivos mototaxis formalización norma 2025 2026",
+    "SENASA plaguicidas comercializadores DS 001-2015-MINAGRI",
+    "JASS SUNASS OTASS cloro residual cuota familiar",
+    "camales Perú SENASA autorización sanitaria 2025",
+    "EO-RS residuos no municipales cisternas sépticos manifiesto",
+    "RECPO comercializadores de oro REINFO plazo 2026",
+    "celulares usados RENTESEG OSIPTEL comerciantes",
+    "clínicas veterinarias Perú SENASA registro medicamentos veterinarios",
+    "asociaciones sin fines de lucro beneficiario final APCI informe anual",
+    "Ley 32537 comercializadores de oro datos mínimos DL 1107",
+    "cunas guarderías privadas registro Perú",
+    "transporte de carga SUTRAN GPS guía de remisión transportista 2026",
+    "SERFOR zoocriaderos libro de operaciones",
+    "software registro de compras de oro comercializador (competitor check)",
+    "ascensores calderos inspección Perú",
+    "SENASA ferias ganaderas certificado sanitario de tránsito",
+    "apicultores registro de apiarios SENASA Perú"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b32"
+ },
+ "discover:B:peru": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small casinos and slot-machine rooms (salas de juego), including single-site family operators; online betting operators",
+     "category": "28/31. AML reporting entities / Gaming",
+     "evidence": "https://focusgn.com/latinoamerica/peru-endurece-controles-sobre-casinos-y-apuestas-online-para-prevenir-el-lavado-de-activos-y-financiamiento-del-terrorismo ; https://sigma.world/es/news/norma-anti-lavado-casinos-peru-2026/ ; https://elperuano.pe/noticia/293055-carlos-caro-nueva-norma-contra-lavado-de-activos-implica-menor-tolerancia-ante-fallas-de-cumplimiento ; https://focusgn.com/latinoamerica/peru-multo-a-30-empresas-titulares-de-salas-de-juegos-de-azar",
+     "existing": "Competitor search 'software SPLAFT casinos tragamonedas salas de juego oficial de cumplimiento sistema registro de operaciones Perú' found no commercial SPLAFT software for Peru gaming. State systems seen: SUCTR (machine monitoring, MINCETUR/SUNAT) and ROSEL (UIF reporting portal). Large casino vendors and international compliance tools were not checked.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "Casino, slot-room and betting SPLAFT-in-a-box (Res SBS 01015-2026)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "New SBS AML regime of 8 Apr 2026 for gaming operators",
+     "unchecked": "Effective date and adaptation window; number of authorised small slot rooms; whether large operators already use in-house or casino-management systems; whether the RO is submitted to UIF or only kept on file; willingness to pay."
+    },
+    {
+     "buyer": "Private clinics and consultorios still on SITEDS Cliente (about 122 of 508 had not migrated per the cited figures)",
+     "category": "24. Private clinics, labs and health providers billing insurers",
+     "evidence": "https://consultorsalud.com/peru-susalud-acredita-salud-plazo-octubre-2026/ ; https://elperuano.pe/noticia/303322-susalud-conoce-el-nuevo-plazo-para-implementar-el-modelo-acredita-salud ; https://busquedas.elperuano.pe/dispositivo/NL/2547391-1",
+     "existing": "Competitor search 'Acredita Salud SITEDS software clínicas pequeñas consultorios IPRESS integración proveedor' found no named commercial integrator; SUSALUD offers Acredita Salud free via web, and clinic-management (HIS) vendors presumably integrate. Not confirmed.",
+     "known_mark": "new",
+     "name": "Private IPRESS migration to Acredita Salud before 31 Oct 2026",
+     "score": 3,
+     "status": "weak",
+     "trigger": "RS 000143-2026-SUSALUD/SUP: IAFAS and private IPRESS must implement the Acredita Salud transaction model by 31 Oct 2026; SITEDS Passarella cannot handle volume.",
+     "unchecked": "Whether remaining non-migrated clinics can use the free web platform (then no need for software); whether a further extension is likely; one-off nature and only 21 days left from today (9 Oct 2026); HIS vendor coverage."
+    },
+    {
+     "buyer": "REINFO-registered small and artisanal miners (31,610 registered, 23,861 valid, 7,749 suspended at 20 Apr 2026)",
+     "category": "27. Mining contractors and suppliers (and 32. REINFO/MAPE)",
+     "evidence": "https://gestion.pe/economia/reinfo-se-extendera-hasta-finales-del-2026-congreso-dio-luz-verde-noticia/ ; https://proactivo.com.pe/gobierno-anuncia-reemplazo-del-reinfo-por-nueva-ley-mape-a-partir-de-2026/ ; https://www.elperuano.pe/noticia/290550-si-esta-en-el-reinfo-revise-contratos-y-planillas-para-evitar-sanciones-de-sunafil ; https://proactivo.com.pe/minem-crea-plataforma-virtual-para-simplificar-el-proceso-de-formalizacion-minera/",
+     "existing": "Competitor search 'REINFO IGAFOM mineros artesanales software plataforma gestión formalización' found only free state tools (MINEM IGAFOM virtual system, Ventanilla Unica, assistance campaigns, 1,185 miners helped in June 2026); no private software found. Law-firm and consultancy services not checked.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "REINFO to MAPE transition kit for registered small miners (deadline 31 Dec 2026)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "REINFO sunset 31 Dec 2026 and pending MAPE law",
+     "unchecked": "The rules are not settled (MAPE law content unknown, so the product could be obsolete quickly); miners' ability to pay; links to K02/K04 buyers; whether SUNAT daily register applies to these miners (one source says formalizing miners are exempt from the monthly consolidated communication)."
+    },
+    {
+     "buyer": "REINFO titleholders employing workers",
+     "category": "26/27. Manpower / mining",
+     "evidence": "https://www.elperuano.pe/noticia/290550-si-esta-en-el-reinfo-revise-contratos-y-planillas-para-evitar-sanciones-de-sunafil ; https://elperuano.pe/noticia/287983-agenda-laboral-2026-principales-obligaciones-que-impactaran-en-la-gestion-empresarial",
+     "existing": "Generic payroll software exists (out of scope as generic); no mining-specific tool found. No dedicated competitor search run.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "Planilla electronica compliance for REINFO miners (SUNAFIL Directive 001-2026)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "SUNAFIL RS 0051-2026 approves Directive 001-2026-SUNAFIL/DINI to verify registration of workers in the planilla electronica; El Peruano advises reviewing contracts and planillas to avoid sanctions.",
+     "unchecked": "Count of REINFO employers with workers; audit frequency; sanctions; fits better as a feature inside the REINFO/MAPE kit."
+    },
+    {
+     "buyer": "Locales de venta de GLP (LVGLP): small shops and bodegas selling cylinders; FISE agents",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://proactivo.com.pe/osinergmin-supervisa-grifos-para-que-reporten-precios-actualizados-de-glp/ ; https://cdn.www.gob.pe/uploads/document/file/8216367/6865739-rcd-proyecto-normativo_-lvglp-multimarca-22-04-2025.pdf ; https://www.gob.pe/institucion/electropuno/pages/21337-ser-un-agente-autorizado-glp-fise ; https://proactivo.com.pe/osinergmin-suspende-27-locales-de-venta-de-glp-sin-autorizacion-y-sanciona-a-grifos-en-espinar/",
+     "existing": "Competitor search 'software locales de venta GLP envasado registro de inventarios PVO' found no third-party software; official PVO modules are free web. Station POS vendors cover fuel stations (see K13) but not obviously small LVGLP shops.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "GLP retail-shop pack: PRICE price reporting, FISE redemption notebook, multi-brand rules",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Art. 63(b) of the GLP marketing regulation (DS 01-94-EM as amended by DS 019-2021-EM) obliges price reporting to Osinergmin (PRICE module linked to SCOP by RCD 237-2022-OS/CD); sanctions up to suspension of the Registro de Hidrocarburos; FISE agents must keep redemption records and signage (RCD 138-2012-OS/CD); RCD 75-2025-OS/CD allows multi-brand cylinders; RCD 60-2026-OS/CD inventory rule covers cylinders sold from racks.",
+     "unchecked": "Number of LVGLP; whether price reporting is a simple app step (Facilito/PRICE) with low pain; whether they use POS at all; digital FISE vouchers settle automatically, which reduces the need."
+    },
+    {
+     "buyer": "Registered RCBF users: chemical input dealers, distributors, transporters (the exact range is not confirmed)",
+     "category": "25. Controlled chemicals or precursors users",
+     "evidence": "https://www.sunat.gob.pe/legislacion/superin/2026/000135-2026.pdf ; https://bybconsultores.pe/insumos-quimicos-fiscalizados/registro-operaciones-insumos-quimicos-fiscalizados-resolucion-135-2026-sunat/ ; https://orientacion.sunat.gob.pe/01-introduccion-insumos-quimicos",
+     "existing": "Not searched for competitors. SUNAT portal is the filing channel.",
+     "known_id": "K02",
+     "known_mark": "known",
+     "known_note": "Same core duty as K02 (Ley 32412 daily register); only the buyer subset (non-mining chemical dealers) may differ and is unchecked.",
+     "name": "Chemical-input (IQBF/RCBF) daily register for distributors and transporters, not only miners",
+     "score": 0,
+     "status": "weak",
+     "trigger": "SUNAT RS 000135-2026 (published 17 Jul 2026, effective around 1 Sep 2026), implementing arts 8-9 of Ley 32412: daily operations register per establishment, loss/spill/surplus reporting, via SUNAT Operaciones en Linea; RCBF registration must be kept current."
+    },
+    {
+     "buyer": "Fuel retail stations",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.gob.pe/institucion/osinergmin/noticias/1389286-osinergmin-establece-que-grifos-reporten-sus-inventarios-de-combustibles-de-manera-digital (fetch blocked, HTTP 418; read via search summary) ; https://proactivo.com.pe/osinergmin-establece-que-grifos-reporten-sus-inventarios-de-combustibles-de-manera-digital/",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K01/K13.",
+     "name": "Fuel-station daily inventory register in PVO (RCD 60-2026-OS/CD)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Mandatory from 15 May 2026; condition for SCOP purchase orders."
+    },
+    {
+     "buyer": "Sawmills, timber depots",
+     "category": "30. Exporters/importers with traceability rules",
+     "evidence": "https://andina.pe/agencia/noticia-loreto-presentan-nuevo-formato-del-libro-operaciones-para-mejorar-registro-forestal-901334.aspx",
+     "known_id": "K06",
+     "known_mark": "known",
+     "known_note": "Same as K06; no new 2026 rule found.",
+     "name": "Timber libro de operaciones (SERFOR)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Ley 29763 art. 175; Libro de Operaciones electronico in MC-SNIFFS; Loreto pilot of a balance format."
+    },
+    {
+     "buyer": "Coffee and cocoa cooperatives and exporters",
+     "category": "22. Commodity traders / 30. Exporters",
+     "evidence": "https://gestion.pe/economia/pasos-pendientes-para-que-peru-se-adecue-a-exportacion-libre-de-deforestacion-los-retos-union-europea-midagri-noticia/ ; https://www.gob.pe/institucion/midagri/noticias/1319697-midagri-peru-has-made-significant-progress-in-complying-with-the-eudr-regulation",
+     "known_id": "K09",
+     "known_mark": "known",
+     "known_note": "No new evidence that the K09 rejection no longer holds; not revived.",
+     "name": "EUDR traceability for coffee and cocoa",
+     "score": 0,
+     "status": "weak",
+     "trigger": "EUDR, reported by MIDAGRI as postponed to 30 Dec 2026; Agrodigital geolocation (over 150,000 polygons)."
+    },
+    {
+     "buyer": "Level 1 Coopac (small savings co-operatives)",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.elperuano.pe/noticia/300503-sbs-modifica-reglas-para-las-coopac-y-extiende-hasta-2029-el-plazo-para-constituir-provisiones ; https://infomercado.pe/sbs-actualiza-regulacion-cooperativas-ahorro-credito/",
+     "existing": "Not searched; core-banking vendors for Coopacs probably exist but were not confirmed.",
+     "known_mark": "new",
+     "name": "Coopac level 1 SBS reporting and identity-mechanism compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Quarterly financial statements and reports to the SBS; RS 01690-2026 changes to accounting manuals and Reports 3/3-A; RS 01586-2026 titularidades financieras mechanism; provisioning deadline extended to 31 Dec 2029.",
+     "unchecked": "Number of level 1 Coopac; which rules apply to them (several changes aim at levels 2-3); competitor vendors; dates of the 2026 reports."
+    },
+    {
+     "buyer": "Small clinics, consultorios and any SME processing personal data",
+     "category": "33. Data protection (country-specific)",
+     "evidence": "https://lpderecho.pe/reglamento-ley-proteccion-datos-personales-decreto-supremo-016-2024-jus/ ; https://www.gob.pe/institucion/minjus/noticias/1331848-anpd-impuso-multas-por-mas-de-s-11-millones-y-reforzo-la-proteccion-de-datos-personales-durante-el-2025",
+     "existing": "Not searched; law firms and consultancies likely sell this.",
+     "known_mark": "new",
+     "name": "Personal data compliance kit for clinics and small offices (DS 016-2024-JUS)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "New reglamento in force since 30 Mar 2025: data bank registration (reportedly automatic approval), data protection officer with a longer deadline, 48-hour incident reporting; ANPD fines over S/ 11.3 million in 2025.",
+     "unchecked": "Transitional provision deadlines; competitor offers; generic nature probably puts it out of scope."
+    },
+    {
+     "buyer": "Private residential homes for older adults (355 CAR identified by MIMP)",
+     "category": "34. Elderly residential care (country-specific)",
+     "evidence": "https://www.gob.pe/institucion/mimp/noticias/1402378-ministra-edith-pariona-inaugura-nuevo-centro-de-atencion-de-noche-para-personas-adultas-mayores-en-huancayo",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Residential elderly care centre (CEAPAM) accreditation and register",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley 30490: municipal licence, then MIMP accreditation, supervision.",
+     "unchecked": "Periodic reporting duties; no 2025-2026 deadline found; small market."
+    },
+    {
+     "buyer": "Hostales, guest houses, small hotels",
+     "category": "29. Hotels and guest houses",
+     "evidence": "https://lpderecho.pe/modifican-reglamento-establecimientos-hospedaje-decreto-supremo-005-2021-mincetur/ ; https://sni.org.pe/aprueban-reglamento-de-establecimientos-de-hospedaje/",
+     "existing": "Not searched; hotel PMS vendors likely cover it.",
+     "known_mark": "new",
+     "name": "Hostal guest register (DS 001-2015-MINCETUR) digital register",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Registro de huespedes (book, card or digital) with prescribed fields, minors rule under Ley 30802 and DS 005-2021-MINCETUR; sanctions.",
+     "unchecked": "No 2026 trigger found; whether municipal or MINCETUR inspections are frequent; no short-term-rental decree found."
+    },
+    {
+     "buyer": "Quarries, small miners, polvorin holders",
+     "category": "37. Explosives (country-specific)",
+     "evidence": "https://proactivo.com.pe/sucamec-incauta-25-mil-fulminantes-y-50-mil-metros-de-mecha-que-eran-transportados-a-un-polvorin-sin-autorizacion-vigente/",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Gold-miner/small-contractor explosives records (SUCAMEC)",
+     "score": 0,
+     "status": "unverified",
+     "trigger": "SUCAMEC authorisations and exceptional-use authorisation for formalizing miners (expired ones led to seizure of 25,000 detonators).",
+     "unchecked": "No reporting rule found; one search only."
+    },
+    {
+     "buyer": "Coffee and agricultural cooperatives collecting grain from smallholders",
+     "category": "40. Coffee cooperatives (country-specific)",
+     "evidence": "Search summary of https://agraria.pe/tag/cooperativas?page=3 and related results; no primary source read.",
+     "existing": "Not searched.",
+     "known_id": "K09",
+     "known_mark": "new",
+     "name": "Coffee cooperatives: tax effect of DS 015-2026-EF (Ley 32434)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Reglamento of Ley 32434 reportedly removes the acto de representacion; single-source, entry into force unconfirmed.",
+     "unchecked": "The decree text, whether it creates a recurring filing duty or only changes tax treatment, and the number of cooperatives affected."
+    },
+    {
+     "buyer": "Leasing firms not regulated under Ley 26702",
+     "category": "39. UIF reporting entities (country-specific)",
+     "evidence": "https://lpderecho.pe/empresas-arrendamiento-financiero-comprendidas-ley-sistema-financiero-reportar-operaciones-uif-peru-decreto-supremo-008-2026-jus/",
+     "existing": "Not searched.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "name": "Leasing companies as new UIF reporting entities (DS 008-2026-JUS)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DS 008-2026-JUS makes them sujetos obligados to report to the UIF.",
+     "unchecked": "Number of firms, adaptation deadline and SPLAFT components applicable."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Osinergmin RCD 60-2026-OS/CD makes daily inventory registration in the PVO mandatory for fuel retail outlets from 15 May 2026, a condition for SCOP purchase orders (K01/K13 known). New angle: GLP retail shops (locales de venta de GLP) have separate duties (price reporting via PRICE, FISE voucher redemption, RCD 75-2025-OS/CD multi-brand sales), and the PVO GLP inventory module (RCD 089-2022-OS/CD) covers envasadoras, gasocentros and minimum-stock agents. Osinergmin suspended 27 unregistered GLP shops in Espinar. Official PVO is free web.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Nothing new beyond K09 (EUDR, MIDAGRI Agrodigital) and K12 (rice mill IVAP). No mandatory register of coffee/cocoa acopiadores found. EUDR date reported by MIDAGRI as postponed to 30 Dec 2026. One unverified single-source lead: DS 015-2026-EF (reglamento of Ley 32434) reportedly removes the 'acto de representación' used by coffee cooperatives; not confirmed. NTP 208.040:2026 cocoa is voluntary.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Coopac regime: SBS RS 01690-2026 (24 Jun 2026) amends accounting manuals and Reports 3/3-A for levels 1-3; provisions deadline extended to 31 Dec 2029; RS 01586-2026 on Mecanismo de Identificacion de Titularidades Financieras tags Coopac; level 1 files quarterly financial statements. No level-1-specific AML rule found. Core-banking vendors for Coopacs likely exist but not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "SUSALUD RS 000143-2026-SUSALUD/SUP sets 31 Oct 2026 as the deadline for private IPRESS (formerly SITEDS Cliente) to move to Acredita Salud; 386 of 508 had migrated. Platform is free from SUSALUD. Also RENIPRESS registration and libro de reclamaciones duties, nothing dated 2026. Data protection (DS 016-2024-JUS) applies to clinics.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "SUNAT RS 000135-2026 (published 17 Jul 2026, effective around 1 Sep 2026) requires a daily operations register and loss/spill reporting for chemical inputs under Ley 32412 arts 8-9 (K02 known). Small miners in formalization are reportedly exempt from the consolidated monthly communication. No 2026 controlled-drug (estupefacientes/psicotropicos) register news found; K08 already rejected.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Nothing new for periodic reporting. SUCAMEC DL 1213 / DS 005-2023-IN, draft training directive RS 00065-2026-SUCAMEC (consultation), fines 2-10 UIT; RENEEIL registry for labour intermediation; DS 001-2022-TR core-business outsourcing ban is legally contested. SUNAFIL Directive 001-2026-SUNAFIL/DINI audits planilla electronica compliance of REINFO holders.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "REINFO runs to 31 Dec 2026 (Ley 32537) or until the MAPE law; 31,610 registered at 20 Apr 2026 (23,861 valid, 7,749 suspended); the executive plans to send the MAPE bill by 15 Oct 2026. MINEM offers free IGAFOM virtual system and assistance campaigns. SUNAFIL planilla audits of REINFO holders. SUCAMEC explosives: no reporting rule found. No construction-contractor register found.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "New: SBS Res 01015-2026 (8 Apr 2026) new SPLAFT regime for casinos, slot rooms and online betting; DS 008-2026-JUS adds unregulated leasing firms as UIF reporting entities. Notaries report ROS to UIF; agente inmobiliario register (Ley 29080, DS 010-2016-VIVIENDA) unchanged, no 2026 change found.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Nothing new. Guest register duty under DS 001-2015-MINCETUR (amended by DS 005-2021-MINCETUR, minors rule per Ley 30802); no 2026 decree on short-term rentals or platforms found; 2023 bill on a national platform registry, status unknown. No national tourism levy found.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Nothing new beyond K06 (timber Libro de Operaciones, SERFOR e-libro in MC-SNIFFS) and K09 (EUDR). SANIPES export health certificates go through VUCE (3 working days); no new mandatory digital platform for small exporters found. SANIPES e-notifications to plants exist.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Gaming: casinos, slot-machine rooms, betting (country-specific)",
+     "found": "SBS Res 01015-2026: SPLAFT with 13 components, Registro de Operaciones (US$2,500 reference), ROS in 24 hours via ROSEL, fines up to 8 UIT; MINCETUR DGJCMT supervises; slot machines already connect via SUCTR. Sanctions news: 30 gaming-room owners fined.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Small-scale mining formalization: REINFO to MAPE transition (country-specific)",
+     "found": "Ley 32537 extends REINFO to 31 Dec 2026; MAPE bill and Ley 32213 reglamento (Sistema Interoperable) pending; SUNAFIL Directive 001-2026; free MINEM IGAFOM and Formalizacion Responsable assistance (1,185 miners in June 2026). No private software found.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Personal data protection duties for SMEs (DS 016-2024-JUS, in force 30 Mar 2025) (country-specific)",
+     "found": "Registration of data banks, data protection officer (longer deadline, exact date not confirmed), 48-hour incident reporting; ANPD fined over S/ 11.3 million in 2025 and inspected 760 entities. Generic across all SMEs, so likely out of scope; the Transitional Provisions were not read.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Elderly residential care centres (MIMP accreditation) (country-specific)",
+     "found": "MIMP identified 388 CEAPAM, 355 of them residential (June 2026); needs municipal licence then MIMP accreditation under Ley 30490. No 2025-2026 adaptation deadline found. Small buyer pool.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Artisanal fishing and landing sites (PRODUCE/SANIPES) (country-specific)",
+     "found": "Artisanal formalization closed to new applications on 31 Jul 2023, with the resolution period running to 31 Jul 2026 (pota and perico); draft rule from Jan 2026 would lapse permits after 2 years of inactivity (status unconfirmed); SANIPES sanitary habilitation of 4,721 boats. No logging/reporting software lead.",
+     "status": "screened"
+    },
+    {
+     "category": "36. FISE social energy programme: GLP voucher redemption agents (country-specific)",
+     "found": "GLP shops registered as FISE agents must keep a redemption notebook, display signage (RCD 138-2012-OS/CD) and report to the electricity distributor; digital vouchers settle automatically at the terminal. DU 002-2026 adds a one-off S/10 voucher through 31 Dec 2026. Sources are partly old.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Explosives and detonators handlers (SUCAMEC) (country-specific)",
+     "found": "Only enforcement news (seizure of 25,000 detonators bound for an unauthorised polvorin in Cajamarca; destruction authorisations). No periodic reporting rule found in one search.",
+     "status": "screened"
+    },
+    {
+     "category": "38. Chemical inputs RCBF users under Ley 32412 (country-specific)",
+     "found": "RCBF registration must be renewed or the user cannot operate; SUNAT RS 135-2026 daily register. Same duty as K02; user population beyond miners (distributors, transporters) not quantified.",
+     "status": "screened"
+    },
+    {
+     "category": "39. Newly added UIF reporting entities: unregulated leasing firms (DS 008-2026-JUS) (country-specific)",
+     "found": "DS 008-2026-JUS adds leasing companies outside Ley 26702 as sujetos obligados. Thin: number of firms and deadlines not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "40. Coffee cooperatives under Ley 32434 / DS 015-2026-EF (country-specific)",
+     "found": "Single-source claim that the DS 015-2026-EF reglamento removes the acto de representacion used by coffee cooperatives to collect grain from smallholders; entry into force and effect not confirmed.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "OSINERGMIN grifos GLP distribuidores obligaciones reporte SCOP 2025 2026",
+    "cooperativas ahorro y crédito SBS FENACREP oficial de cumplimiento UIF 2026",
+    "IPRESS clínicas SUSALUD registro obligatorio reporte 2026",
+    "IQBF insumos químicos fiscalizados SUNAT registro usuarios 2026",
+    "registro de huéspedes hospedajes MINCETUR alquiler temporal 2026",
+    "UIF sujetos obligados inmobiliarias notarios agentes inmobiliarios 2026",
+    "SUCAMEC seguridad privada obligaciones reporte planillas contratos 2026",
+    "SERFOR libro de operaciones depósitos de madera trazabilidad 2026",
+    "DIGEMID estupefacientes psicotrópicos libro oficial farmacias 2026",
+    "REINFO vence 2026 Ley MAPE formalización plazo",
+    "casinos tragamonedas MINCETUR reporte UIF registro 2026",
+    "pesca artesanal PRODUCE SANIPES declaración desembarque 2026",
+    "Registro del Agente Inmobiliario MVCS Ley 29080 2026",
+    "intermediación laboral tercerización RENEEIL SUNAFIL 2026",
+    "SUCAMEC explosivos minería canteras reporte polvorín 2026",
+    "centros de atención residencial adultos mayores MIMP 2025 2026",
+    "Coopac nivel 1 reportes SBS 2026 prevención lavado",
+    "FISE vale descuento GLP agentes autorizados Osinergmin 2026",
+    "hospedajes Mincetur 2026 reglamento viviendas turísticas registro",
+    "DS 016-2024-JUS datos personales mypes registro bancos de datos 2026; competitor searches: software SPLAFT casinos; software GLP inventarios PVO; Acredita Salud software clínicas; REINFO IGAFOM software mineros; acopiadores café cacao registro 2026; exportadores SANIPES SENASA digital 2026"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b32"
+ }
+}

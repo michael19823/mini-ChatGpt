@@ -599,5 +599,408 @@
    "searches": 24
   },
   "tag": "w2b30"
+ },
+ "gapfill:finland": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small self-managed housing companies (asunto-osakeyhtiöt), small property managers",
+     "category": "34. Small-scale energy producers and heating-system owners (fire-safety duties)",
+     "evidence": "https://www.kaleva.fi/palovaroittimet-siirtyvat-taloyhtioiden-vastuulle/11427440 ; https://www.spek.fi/wp-content/uploads/2024/03/Palovaroitinvastuu_kysymyksia_ja_vastauksia_tietopaketti-1.pdf ; Kiinteistöliitto/Safetum slides (https://kliittonew2.kiinteistoliitto.fi/media/mkwftmyw/safetum_kiinteistoliitto_seminaariristeily_040225.pdf)",
+     "existing": "Safetum offers alarm service; property-management suites may add it (unverified). No dedicated log app found.",
+     "known_id": "K14",
+     "known_mark": "new",
+     "known_note": "Different duty from the share register: fire-safety documentation by the building owner",
+     "name": "Housing-company smoke-alarm responsibility log (palovaroitinvastuu from 1 Jan 2026)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Rescue Act amendment 436/2023: building owner (housing company) procures, maintains, replaces and documents smoke alarms; transition ended 31 Dec 2025.",
+     "unchecked": "Competitor search (e.g. 'palovaroitin huoltoloki taloyhtiö ohjelma') not run for lack of budget; whether the law requires any formal register or only documentation; vendors bundle service."
+    },
+    {
+     "buyer": "About 50 paliskunta co-operatives (poroisäntä, treasurer) and about 4,000 owners",
+     "category": "31. Reindeer herding co-operatives (paliskunnat)",
+     "evidence": "https://www2.eduskunta.fi/pdf/PTK+51/2026+9+vp?lang=fi ; https://valtioneuvosto.fi/-/1410837/poronhoitolain-uudistus-turvaa-laidunten-kestavyytta-ja-selkeyttaa-poromaarien-hallintaa ; https://www.ruokavirasto.fi/globalassets/tuet/asiointipalvelut/lomakkeet/227.pdf",
+     "existing": "No software found in two searches; the likely status is Excel/paper (unverified).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known id",
+     "name": "Reindeer herd-quota and reduction planner for paliskunnat (poronhoitolaki amendment, 1 Jun 2026)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Amended Reindeer Husbandry Act in force 1 Jun 2026: annual herd-reduction decision, owner-specific maximum numbers, administrative penalty, grazing plans every 10 years, annual poroluettelo to Ruokavirasto, support application with POMU income statement.",
+     "unchecked": "Whether Paliskuntain yhdistys or Ruokavirasto offers a register tool; real willingness to pay; only about 50 buyers; competitor search not run."
+    },
+    {
+     "buyer": "Small restaurants, bars, cafes with serving licence; shops and kiosks with retail licence; future delivery licensees",
+     "category": "35. Alcohol serving and retail licences, small restaurants/cafes/kiosks",
+     "evidence": "https://api.hankeikkuna.fi/asiakirjat/83954632-ef2f-44e6-be84-7b42ec426786/8404c606-6d3c-4ea7-9cbb-11c3b36e6dbf/LAUSUNTOPYYNTO_20251007124506.PDF ; https://www.finlex.fi/api/assets/extra/statute-book-of-finland-pdf/fin/2002/20020202.pdf (older act, unverified relevance) ; https://stm.fi/-/uusi-alkoholilaki-tulee-voimaan-kokonaisuudessaan-maaliskuun-alussa",
+     "existing": "POS and accounting systems may supply the sales figures (unverified); free Valvira/LVV templates likely (unverified).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Extends the Oiva food self-monitoring theme to the alcohol regime",
+     "name": "Small restaurant and cafe alcohol compliance pack (omavalvontasuunnitelma plus semi-annual serving report)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Alcohol Act 1102/2017: self-monitoring plan is a condition for a licence. Draft STM ministerial decree (Sept 2025, consulted Oct 2025) sets plan contents (storage, business concept, responsible person duties) and twice-yearly notification of serving value, staff and purchases to the licensing authority (now LVV, per Valvira redirect).",
+     "unchecked": "Whether the twice-yearly report is already in force or is only a draft; reporting channel (Alluportaali?); competitor search not run; the report is arguably something a POS already supplies."
+    },
+    {
+     "buyer": "Housing companies and property holders with civil-defence shelters",
+     "category": "34. Small-scale energy producers and heating-system owners (fire-safety and rescue duties)",
+     "evidence": "https://valtioneuvosto.fi/-/1410869/pelastuslain-uudistukset-lausuntokierrokselle",
+     "existing": "Unknown",
+     "known_id": "K14",
+     "known_mark": "new",
+     "known_note": "Same buyer group as K14 but a different duty",
+     "name": "Housing-company shelter (väestönsuoja) operating plan and function-check tracker",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Pelastuslaki stage-2 reform proposals (consultation 5 Jun to 17 Jul 2026) tighten shelter operation plan and function-check duties for the building holder; not yet enacted.",
+     "unchecked": "Final bill, entry-into-force date, shelter count per company, vendor landscape."
+    },
+    {
+     "buyer": "Small harvesting and forestry service contractors; forest owners (about 600,000)",
+     "category": "32. Forest owners and forestry service providers",
+     "evidence": "https://www.metsakeskus.fi/sites/default/files/document/tiedote-liite-hannes-myrsky-poikkeusmenettely.pdf ; https://www2.riksdagen.fi/pdf/EV+67/2026 ; https://www.taloustaito.fi/Rahat/metka-aika-alkoi-metsissa-ensimmaisia-tukia-voi-jo-hakea/",
+     "existing": "Metsään.fi is free and state-run with service-provider consent flow; forest-industry and Metsänhoitoyhdistys tools dominate (unverified).",
+     "known_id": "K15",
+     "known_mark": "new",
+     "known_note": "Core felling-notice duty, not EUDR",
+     "name": "Forestry-contractor felling-notification and nature-rules checker (metsänkäyttöilmoitus, nesting season, flying-squirrel procedure)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Forest Act s.14 notification before felling; HE 30/2026 changes to Forest Act and Nature Conservation Act; flying-squirrel procedure from 1 Jan 2026; METKA support applications to Metsäkeskus.",
+     "unchecked": "Contractor workflow and who files; open API; competitor search not run."
+    },
+    {
+     "buyer": "Small family farms",
+     "category": "33. Farm subsidy, CAP and nitrate rules on small family farms",
+     "evidence": "https://maatalous.nivala.fi/wp-content/uploads/2026/05/Ekojarjestelmatuen-ja-ymparistokorvauksen-muutokset-2026.pdf ; https://apps.apple.com/us/app/id1238678513",
+     "existing": "Vipu (free state portal), ilmastosuunnitelma.fi (free), Sirppi/Peltotuki (listing says free with a farm ID), municipal rural services give guidance.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "None",
+     "name": "Farm record-keeping and CAP/environmental-compensation helper for small family farms",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Vipu support application, plot records, environmental compensation 2026 changes, climate and environment plan.",
+     "unchecked": "Whether Sirppi's free claim is accurate; Wisu/Farmit scope not checked."
+    },
+    {
+     "buyer": "Finnish web shops importing small consignments from non-EU suppliers",
+     "category": "36. Small exporters and importers: customs, excise and VAT one-stop-shop filings",
+     "evidence": "https://www.sttinfo.fi/tiedote/72158601/uusi-tullimaksu-tulee-heinakuussa-tullattaville-verkkokauppaostoksille-paivitetty-2662026?lang=fi ; https://www.yrittajat.fi/uutiset/kiina-pakettien-uuden-lisamaksun-suuruus-varmistui-voimaan-marraskuussa/",
+     "existing": "Carriers (DHL, FedEx, Posti) clear and bill the duty; IOSS sellers are mostly non-EU.",
+     "known_id": "K11",
+     "known_mark": "new",
+     "known_note": "Related to rejected Intrastat; again low-value, shrinking pain for Finnish small operators",
+     "name": "Small web-shop non-EU import duty and handling-fee tool (EUR 3 duty from 1 Jul 2026, EUR 2 fee from Nov 2026)",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "EU duty of EUR 3 per item category on consignments up to EUR 150 from 1 Jul 2026; handling fee EUR 2 per item announced for Nov 2026.",
+     "unchecked": "Whether Finnish small importers self-clear and need tooling."
+    },
+    {
+     "buyer": "Online alcohol retailers, delivery services, small producers selling remotely",
+     "category": "36. Small exporters and importers (excise) / 35. Alcohol licences",
+     "evidence": "https://api.hankeikkuna.fi/asiakirjat/c9bc6c0a-3210-42c8-98e3-d99bc6c1c2b3/eb1dfe2a-1170-4a4a-90c4-ba4db862b03e/LAUSUNTO_20250730171418.PDF ; https://www.vero.fi/tietoa-verohallinnosta/uutishuone/lehdist%C3%B6tiedotteet/2023/ulkomaisesta-nettikaupasta-tilatusta-alkoholista-pitaa-yha-maksaa-valmistevero--verohallinnon-ja-tullin-tehovalvonta-on-vahentanyt-nettitilauksia-yli-60-prosentilla/",
+     "existing": "Unknown",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "None",
+     "name": "Alcohol delivery licence holders and distance-sale excise compliance",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Draft Alcohol Act amendment creates a new delivery licence, with Customs noting Valvira supervision (July 2025 statement). Excise falls on whoever arranges delivery.",
+     "unchecked": "Whether the delivery licence has been enacted; buyer count likely small."
+    },
+    {
+     "buyer": "Small chimney-sweep firms, building owners",
+     "category": "34. Small-scale energy producers and heating-system owners",
+     "evidence": "https://www.taloustaito.fi/koti/muistithan-tilata-nuohoojan-unohduksesta-raju-riski/ ; https://www.taloustaito.fi/koti/riittaako-nuohoojia-nousevatko-hinnat-nuohous-vapautui-kilpailulle/",
+     "existing": "Unknown; sweeps already run their own booking systems (unverified).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "None",
+     "name": "Chimney-sweeping companies and household scheduling/records (nuohous)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Rescue Act duty to keep flues swept; market opened to competition; rescue authorities supervise through inspections.",
+     "unchecked": "Sweep-firm software, whether the sweep must report to rescue services, number of firms."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31. Reindeer herding co-operatives (paliskunnat) and Sámi/reindeer owners",
+     "found": "Amended Reindeer Husbandry Act (HE 161/2025) in force 1 Jun 2026: each paliskunta must decide a herd reduction every year to stay under the maximum permitted number, allocate reductions to members by owner-specific maximum, draw 10-year grazing plans (first within about 2 years), administrative penalty for non-compliance. Paliskunta also supplies the annual herd register (poroluettelo) to Ruokavirasto; owners apply for animal-based support (form 227 to ELY, needs bookkeeping, 80+ reindeer). Reindeer slaughterhouse/meat inspection moves to Ruokavirasto from 2026. No dedicated software product found. Market is tiny (about 50 paliskunnat, about 4,000 owners). Electronic-system and owner-notification details not confirmed. valtioneuvosto.fi page returned 403 on fetch.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Forest owners and forestry service providers (forest-use declaration, METKA/Kemera support, felling notices)",
+     "found": "Metsänkäyttöilmoitus is mandatory (Forest Act s.14) and filed electronically via Metsäkeskus Metsään.fi (free state portal; owners can consent to service providers viewing data). Hannes storm exceptions (Dec 2025). HE 30/2026 amends the Forest Act, Nature Conservation Act and forest-data act (flying-squirrel procedure from 1 Jan 2026; nesting-season info proposal). Wider Forest Act reform (metsänuudistamisilmoitus) was on consultation until 7 Aug 2026 for entry into force 2027. Kemera ended end-2023, replaced by METKA (applications to Metsäkeskus). No contractor-specific compliance tool found; the Metsäkeskus page fetch returned 404.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Farm subsidy, CAP and nitrate rules on small family farms (Ruokavirasto)",
+     "found": "Vipu is the free state application portal; plot-level records (tillage, fertilising, sowing, spraying) must match the applications. 2026 environmental-compensation changes (collector-crop cap 35%, payment-level raises, valuation of the climate and environment plan at ilmastosuunnitelma.fi, deadline 30 Apr 2026 with 20% penalty). Minimum 5 ha (1 ha horticulture). Free or established farm software exists (Sirppi / Peltotuki per App Store listing, unverified). Nothing a solo founder could add.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Small-scale energy producers and heating-system owners (chimney sweeping, fire-safety inspections, smoke alarms, EPBD)",
+     "found": "Smoke-alarm duty shifted from residents to building owner (housing company) from 1 Jan 2026 (Rescue Act 436/2023, s.17 and s.12); housing companies must procure, replace, document and supervise. Chimney sweeping opened to competition, owner must keep flues swept. Pelastuslaki stage 2 reform was on consultation 5 Jun to 17 Jul 2026 (shelter operation plan and function check by building holder to be clarified; rescue plan quality). Energy certificates already required for most housing companies. No 2026-specific heating-system inspection duty found; EPBD not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Alcohol serving and retail licences for small restaurants, cafes and kiosks (LVV/Valvira)",
+     "found": "Valvira's web address now redirects to lvv.fi, so alcohol licensing now sits with the Lupa- ja valvontavirasto (lvv.fi returned 403 on fetch). Licence requires a self-monitoring plan (omavalvontasuunnitelma). A Sept 2025 draft ministerial decree (STM, consulted Oct 2025) adds plan content for serving, retail and a new delivery licence, and obliges serving-licence holders to notify the licensing authority twice a year about the value of serving, staff count and purchased alcohol (retail licensees once a year). Whether this is already in force or only a draft is unverified. Annual supervision fee reported at EUR 380 or 760 (2021 figure, old). Alcohol passport training is widespread. No dedicated compliance software found.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Small exporters and importers: customs, excise and VAT one-stop-shop filings (EU low-value-parcel reform)",
+     "found": "EUR 3 customs duty per item category on consignments up to EUR 150 from 1 Jul 2026 (IOSS sellers or their carriers clear and pay; consumers can no longer self-clear VAT-prepaid parcels). A further EUR 2 per-item handling fee is announced for Nov 2026 (Yrittäjät, 25 Sep 2026; the exact date is not confirmed). VAT rules unchanged. EU Customs Data Hub due 2028. Carriers (DHL, FedEx, Posti) handle clearance. Alcohol distance sales: excise falls on seller or the party arranging shipment, buyer liability widened; draft Alcohol Act change would add a delivery licence (not confirmed as enacted). Mostly non-EU sellers affected, not a Finnish small-operator niche.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 7,
+   "queries": [
+    "paliskunta poronomistaja ilmoitusvelvollisuus porotilasto poronhoitoilmoitus Paliskuntain yhdistys",
+    "metsänkäyttöilmoitus pakollinen Metsäkeskus metsänomistaja urakoitsija hakkuu ilmoitus 2026",
+    "maatila Vipu-palvelu tukihakemus lannoitus muistiinpanot ympäristökorvaus 2026 muutokset pienviljelijä",
+    "nuohous palotarkastus omatoiminen varautuminen pelastuslaki taloyhtiö energiatodistus lämmitysjärjestelmä tarkastus 2026",
+    "alkoholilupa anniskelu omavalvonta ravintola Lupa- ja valvontavirasto vuosi-ilmoitus myynti anniskelumaksu",
+    "verkkokauppa tulli 150 euron tullivapautuksen poistuminen pienyrittäjä tuonti arvonlisäverokäsittely OSS IOSS 2026",
+    "poronhoitolaki uudistus 2026 poroluettelo porotilasto paliskunta osakas ilmoitus sähköinen järjestelmä",
+    "paliskunta poroluettelo ohjelma poronomistajat teurastusilmoitus paliskunnan rahastonhoitaja tietojärjestelmä",
+    "metsäurakoitsija ohjelma metsänkäyttöilmoitus tehdä urakoitsijan puolesta Metsään.fi rajapinta metsäpalveluyrittäjä",
+    "taloyhtiö palovaroitin vastuu 1.1.2026 kirjaus huoltoloki tarkastus isännöitsijä ohjelma palovaroittimien hallinta",
+    "anniskelupaikka omavalvontasuunnitelma ohjelma ravintola alkoholilaki kahdesti vuodessa ilmoitus anniskelun arvo Valvira LVV",
+    "Tulli käsittelymaksu 1.11.2026 verkkokauppa tuonti pienyritys EORI tullausohjelma",
+    "anniskeluluvan haltijan ilmoitus kaksi kertaa vuodessa anniskelun arvo henkilöstömäärä valvontamaksu Valvira Alluportaali",
+    "pelastuslaki uudistus 2026 pelastussuunnitelma omatoiminen varautuminen rakennuksen omistaja velvollisuudet muutos",
+    "Kemera tuki 2026 metsänhoitotyöt metsänomistaja hakemus Metsäkeskus uusi laki METKA",
+    "maatilan lohkokirjanpito ohjelma lannoituskirjanpito ruiskutuspäiväkirja sovellus viljelijä Wisu Farmit Vipu muistiinpanot",
+    "alkoholijuomien etämyynti valmistevero verkkokauppa Suomeen yritys lupa Tulli valmisteverovelvollinen pienyrittäjä",
+    "poronomistajat ilmoitukset Ruokavirasto porotalous poro-osakas poronhoitovuosi teurastus ilmoitus paliskunta"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b30"
+ },
+ "opus:finland:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Tievahti (tievahti.fi, app.tievahti.fi) is a web service built for tiekunnat, and it is free \"now and in the future\". It covers roads and properties, shareholders, road units, linking a bank account, billing road fees, bookkeeping, meeting notices, running meetings, and archiving documents. It has a municipal portal (kunta.tievahti.fi), municipalities use it for private-road grant applications, and it works with Maanmittauslaitos, Metsäkeskus and Elinvoimakeskus. It makes money from paid road-manager (tieisännöinti) and bearing-capacity measurement services. Other options: TIKO-certified road-manager firms such as Marin kirjanpito ja tieisännöintipalvelut handle shareholder lists, unit calculations and fee billing. Municipalities also run their own registers, such as Tiekuntarekisteri.fi hosted by Matriset Oy and Äänekoski's Wintie.",
+   "duty": "Real, but the new part is not yet law. The government bill amending the Private Roads Act (yksityistielaki 560/2018), HE 125/2026, went to Parliament on 2.7.2026 with a planned start date of 1.1.2027. It would make the tiekunta's governing body (toimielin) keep a shareholder register (osakasluettelo) and give shareholders easier access to documents. It also changes road-fee appeals and governance. I did not check whether Parliament has passed it. Duties already in force: keep the association's details current in the Maanmittauslaitos private road register, hold the annual meeting, keep road-unit records and bill road fees. In practice no penalty applies. The sanction is that disputes go to Maanmittauslaitos road proceedings or court, and municipal or state grants depend on proper records.",
+   "market": "About 50,000 tiekunnat, a figure taken from a Kaleva reader's opinion piece and not checked against the Maanmittauslaitos register. Most are tiny, volunteer-run and spend very little.",
+   "reason": "The duty is real, and the 2027 bill would add a formal shareholder-register duty. But Tievahti already does the core job for free: it handles shareholders, road units, road-fee billing, bookkeeping, meetings and document archiving. Municipalities also use it for grant applications. Road-manager firms cover the outsourced, done-for-you end of the market. The buyers are volunteer boards that spend little, and a free, government-linked incumbent is already in place, so there is almost no room for a paid tool from a solo founder. The Kaleva article is an opinion piece about the STEK project, not a product. The claim's \"no dominant tiekunta software\" is wrong.",
+   "searches": 6,
+   "sources": "https://tievahti.fi ; https://valtioneuvosto.fi/-/1410829/hallitus-esittaa-muutoksia-yksityistielakiin ; https://www.edilex.fi/he/20260125 ; https://www.kaleva.fi/tiekunnista-tekoalyajan-palvelualustoja/13615221 ; https://www.yrittajat.fi/yritykset/marin-kirjanpito-ja-tieisannointipalvelut ; https://huittinen.fi/wp-content/uploads/2025/01/Yksityistierekisteri.pdf",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b30"
+ },
+ "sonnet:finland:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The AML duty is real and in force: the Rahanpesulaki applies to pawn lenders, and the regional agency (AVI) ran intensified supervision after rating pawn lending highest risk in Dec 2023. Six pawnshops got sanction fees, including 14,000 EUR for Oulun Panttilainakonttori. Supervision has since moved to Lupa- ja valvontavirasto, which started 1.1.2026. Searches found no Finnish pawnshop AML or ledger software, only foreign pawn systems. The market is tiny: AVI did 8 pawnshop inspections in 2024, and the real count is probably a few dozen. Willingness to pay is limited, and the larger chains likely have in-house systems. Not checked: the official number of licensed pawnshops, and any pawn-ledger rules beyond AML. The score stays low because of the market size.",
+   "searches": 2,
+   "sources": "https://www.sttinfo.fi/tiedote/70848602/aluehallintovirasto-teki-vuonna-2024-runsaasti-rahanpesulain-mukaisia-tarkastuksia-panttilainaamoita-valvottiin-tehostetusti?lang=fi ; https://www.kaleva.fi/tehovalvonnassa-maarattiin-seuraamusmaksuja-kuudel/13509926 ; https://www.sttinfo.fi/tiedote/71700931/suomen-suurimpiin-virastoihin-kuuluva-uusi-lupa-ja-valvontavirasto-aloittaa-112026?lang=fi ; https://www.sttinfo.fi/tiedote/72306129/valitysliikkeiden-riskiarvioista-87-percent-oli-puutteellisia?lang=fi",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b30"
+ },
+ "sonnet:finland:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: horse keeping places must be registered, and ammattimainen or large-scale keeping needs a written notice. The threshold is unclear. The claim says 6 adult horses to AVI. Oulu material citing the horse welfare decree 321/2025 says 7 to Ruokavirasto, and I could not check the law text. I found no Finnish stable software with a legal medication log, only foreign tools (Equine Medirecord, Die Pferde App). Ratsastajainliitto and Hippos tools were not checked. Market is roughly 16,000 stables and 67,300 horses (Hevosala lukuina 2025), but most are private. The duty is event-driven record keeping, not a periodic filing. Frequency is low, enforcement is weak and willingness to pay is small, so the score is low.",
+   "searches": 3,
+   "sources": "https://www.ouka.fi/media/19001/download ; https://www.ratsastus.fi/site/assets/files/32839/hevostalous_lukuina_2025_1.pdf ; https://www.tohmajarvi.fi/documents/1739083/2715459/Hevostalliohje+2023.pdf/0904e02c-3aa0-6d19-5c51-55cf71e19f85 ; https://www.tampere.fi/sites/default/files/2022-12/hevostalliohje_saavutettava.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b30"
+ },
+ "sonnet:finland:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty partly real: Minilex says open-ended ELY taxi licences become fixed-term, new/renewed licences last 10 years, first expiries 2029, and Traficom says it will remind holders before expiry. That reminder, plus Traficom's online filing, undercuts a tracker. Traficom's page also lists 2026 changes: 21h training, a medical report, and 7h refresher training for driver-licence renewal between 1 Nov 2026 and 31 Aug 2034. Fixed expiry dates are a one-off per licence and 2029 is far off. I found no competing software, but I did not read the Taksiliitto licence count or the primary law text. Buyers are sole traders, a fragmented market with low willingness to pay, and Traficom's own reminders cover the core job.",
+   "searches": 2,
+   "sources": "https://www.minilex.fi/node/15225 ; https://traficom.fi/en/commercial-transport/changes-taxi-transport-regulation ; https://moottori.fi/uutinen/yli-500-taksiliikennelupaa-on-peruttu-seuraava-pommi-muhii-jo/ ; https://www.yrittajat.fi/uutiset/yli-2-000-taksilupaa-peruttu-syyna-puuttuva-y-tunnus-tai-yrittajakoe/",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b30"
+ },
+ "sonnet:finland:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. The Hissiturvallisuuslaki 1134/2016 requires the holder to keep a maintenance programme, fix defects promptly, and have periodic inspections every 2 years by Tukes-approved bodies. Documents must be available to maintainers and inspectors. Penalty and in-force status were not checked directly. No dedicated lift-tracker software for housing companies turned up. Maintenance firms (KONE sensor monitoring) and inspection bodies (Kiwa) cover the core job. Property managers handle it as part of management suites, which is why K14 was rejected. Buyers are fragmented, the inspection is only every 2 years, and the inspectors already send reminders. Willingness to pay is low and the buyer is the same as K14's. Market size was not quantified. Score stays low.",
+   "searches": 2,
+   "sources": "https://www.kiwa.com/fi/fi/ajankohtaista/blogi/hissien-tarkastukset-turvallisuus-ja-vaatimukset/ ; https://www.isannointiliitto.fi/wp-content/uploads/2021/11/esitysmateriaali-miten-ennakoida-hissin-korjaustarpeita-tekoalyn-avulla-webinaari-23112021.pdf ; https://www.isannointiliitto.fi/wp-content/uploads/2022/11/esitysmateriaali-mita-pitaa-huomioida-jos-taloyhtiossa-on-hissi-webinaari-22112022.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b30"
+ },
+ "sonnet:finland:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is not yet law. HE 83/2026 vp (submitted 30.4.2026) would add a Building Act duty to keep a record of short-term rental days and show it to building control on request. The 90/180-day limits apply only in detailed-plan areas to non-primary dwellings, and the sections would start from 1.1.2027. I found no evidence of passage as of 9.10.2026, only a committee opinion (TaVL 20/2026). Finland has no registration duty. Yle (14.7.2025) says TEM has no register measures pending, so the EU 2024/1028 number system is unconfirmed here. No penalty or fine is stated in what I saw. No Finnish competitor found, but the search was thin. The duty is only record-keeping on request, with weak enforcement, and the host count is unknown. Platforms and generic PMS/calendar tools could cover it. Low pain, low willingness to pay.",
+   "searches": 5,
+   "sources": "https://www2.eduskunta.fi/pdf/HE+83/2026+vp?lang=fi; https://www.edilex.fi/he/20260083; https://valtioneuvosto.fi/-/1410903/hallitus-esittaa-rakentamislakiin-saannoksia-lyhytvuokrauksesta; https://yle.fi/a/74-20172060; https://www2.riksdagen.fi/pdf/TaVL+20/2026+vp?lang=fi",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b30"
+ },
+ "triage:finland": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "AML duty on pawnshops differs from K18 (scrap dealers, police register); in scope as small supervised obligated entities."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Registration and medication-log duties for small commercial stables; new buyer group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Sole-trader taxi licence renewal and competence duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Associations' small-fundraising notification duty to police; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Lift inspection duty differs from K14's share register and manager compliance; unsure, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Pesticide-use records and certificates for small farms; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Beekeeper registration and primary-production notice; new group, weak but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "New 2026 client notice duty for firms using foreign agency workers; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Tiekunta shareholder-register duty from 2027 law; different buyer and duty from K04."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "F-gas service log duty for small refrigeration firms; new."
+    },
+    {
+     "decision": "merge",
+     "id": "B3",
+     "reason": "Same core AML risk-assessment and due-diligence duty on small AVI-supervised obligated entities, including pawnshops.",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Households and small hosts' short-term rental day-limit duty; new."
+    },
+    {
+     "decision": "merge",
+     "id": "B5",
+     "reason": "Same taxi operator group and same licensing/competence compliance duty as A3.",
+     "ref": "A3"
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Tobacco retail licence and self-monitoring for kiosks; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Small private security firms' licensing duty; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small builders' qualification and site-manager notice under the Building Act; differs from K13 reporting."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "STUK radiation-use duties for small dental and vet practices; new."
+    },
+    {
+     "decision": "known",
+     "id": "B10",
+     "reason": "Same EUDR duty and forestry buyers as K15; no specific revival evidence.",
+     "ref": "K15"
+    },
+    {
+     "decision": "known",
+     "id": "B11",
+     "reason": "Same tilaajavastuu and construction-site reporting duty and buyers as K13.",
+     "ref": "K13"
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "LVV provider registration is a different duty from K03 vouchers and K07 Kanta; unsure, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Smoke-alarm documentation duty for housing companies; differs from K14 share register."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Paliskunta co-operatives under the new 2026 reindeer law; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Alcohol self-monitoring and serving reports for small restaurants; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Shelter operation-plan duty for housing companies; different duty from K14 and A5, though not yet enacted."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Felling-notification duty for forest owners and contractors differs from K15's EUDR duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "New delivery-licence duty for distance alcohol sellers; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS9",
+     "reason": "Chimney-sweep firms and household flue-sweeping records; new, unverified."
+    }
+   ]
+  },
+  "tag": "w2b30"
  }
 }

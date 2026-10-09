@@ -1,4 +1,70 @@
 {
+ "argentina": {
+  "batch": "w2b32",
+  "candidates": 39,
+  "checks": {
+   "opus": 6,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "B7 Grain plant movement and stock reporting for small acopios, cooperatives and silos (SISA, 24-hour rule)",
+    "B12 Provincial short-term rental and lodging register router (CABA, Neuquen, Mendoza, Catamarca, La Pampa)",
+    "B13 EU deforestation regulation (EUDR) due-diligence and geolocation file for small timber, furniture, leather, soy and beef exporters",
+    "B16 IERIC fines instalment plan and registration migration to ARCA (Ley 27.802, Decreto 407/2026)",
+    "GAPS1 Consorcio administrator RPA compliance pack (CABA Ley 941: annual matrícula update, per-consorcio DDJJ via TAD, alta/baja in 30 days, certificate display)",
+    "GAPS4 Remis/taxi/school-transport owner compliance calendar (habilitación, VTV, insurance, libreta sanitaria, driver licences) per municipality"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 10,
+   "refuted": 2,
+   "verified_4": 3
+  },
+  "gaps": 6,
+  "id": "argentina",
+  "leads": [
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "B1",
+    "mark": "new",
+    "name": "UIF compliance kit for small real estate brokers (self-assessment, external reviewer, monthly and annual reports)",
+    "opus": 5,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "B2",
+    "mark": "new",
+    "name": "INAES compliance desk for small co-operatives and mutuales (monthly web filing, CRS identification, member roll, assembly documents)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "A6",
+    "mark": "new",
+    "name": "AML compliance pack for small jewellers and precious-metal buyers (UIF Res. 54/2024 and 55/2024)",
+    "opus": 4,
+    "prov": 3,
+    "sonnet": 4,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "drop": 1,
+   "keep": 37,
+   "known": 1
+  }
+ },
  "australia": {
   "batch": "w2b6",
   "candidates": 40,

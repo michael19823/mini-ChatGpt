@@ -860,6 +860,17 @@
   },
   "tag": "w2b37"
  },
+ "sonnet:finland:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real: a service log and leak checks are required under the EU F-gas rules and decree 766/2016. For equipment of at least 5 t CO2e, the leak check interval is 12 months. SYKE supervision forms check the log. The replacement decree (VN/9344/2025) was only a draft in Aug 2025, and I found no final text or entry-into-force date. No Finnish electronic log product turned up in three searches; only foreign tools (KoudSmart, NL) and Danfoss reference apps appeared. Vendor sites and generic service-management software were not checked. Firm counts were not found; the Tukes register is not searchable here. Nothing is filed with an authority, only kept for inspection, so the pain is low. The niche is small, and field-service tools probably cover it.",
+   "searches": 4,
+   "sources": "https://api.hankeikkuna.fi/asiakirjat/ee3dfc8d-5823-4c72-9fef-1e9971cf3876/7b331965-ae0e-4873-adbf-2caca00c1390/LAUSUNTO_20250819215529.PDF; https://www.ymparisto.fi/sites/default/files/documents/SYKE_Valvontatarkastuksen_lomake_osa_1_tulostettava_2020.pdf; https://out-smart.com/features/koudsmart; https://www.danfoss.com/fi-fi/service-and-support/downloads/dcs/apps-and-software-for-refrigeration-and-air-conditioning/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b37"
+ },
  "sonnet:finland:B4": {
   "result": {
    "blocked_searches": 0,
@@ -870,6 +881,31 @@
    "verdict": "unverifiable"
   },
   "tag": "w2b30"
+ },
+ "sonnet:finland:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Safetum, Elisa (fire-safety service with documentation); property-manager and maintenance-firm services",
+   "duty": "Pelastuslaki s.17, as amended by 436/2023: the building owner keeps smoke alarms working. In force 1 Jan 2026. Recurring upkeep, with a SPEK-recommended annual check. Penalty and formal log requirement not verified.",
+   "market": "Not quantified from a register. The claim says small housing companies; Finland has roughly 80-90k housing companies (from memory, unverified).",
+   "reason": "Duty is real: from 1 Jan 2026 the building owner (housing company) must keep smoke alarms working under Pelastuslaki s.17, after a two-year transition (Kaleva/SPEK/Isännöintiliitto sources). It is a standing duty with no filing cycle. Search results found no statutory log or register. They say only that documenting testing and servicing is advisable, and that responsibility cannot be outsourced. The SPEK PDF could not be read, so penalty and any formal documentation requirement are unverified. Competition: Safetum and Elisa sell alarm services with documentation, and property managers and maintenance firms can add it. I found no dedicated log app. Market is large (tens of thousands of housing companies), but the duty is not filed with anyone and vendors bundle it. Weak mandatory pull and a thin product, so a low score.",
+   "searches": 3,
+   "sources": "https://www.spek.fi/wp-content/uploads/2024/03/Palovaroitinvastuu_kysymyksia_ja_vastauksia_tietopaketti-1.pdf ; https://kliittonew2.kiinteistoliitto.fi/media/mkwftmyw/safetum_kiinteistoliitto_seminaariristeily_040225.pdf ; https://www.verkkouutiset.fi/a/vastuu-palovaroittimista-on-nyt-taloyhtioilla/ ; https://www.kaleva.fi/myos-kerrostaloasuntoon-kannattaa-tehda-syyshuolto/13663352",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b37"
+ },
+ "sonnet:finland:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The amended Poronhoitolaki took effect 1.6.2026 (MMM release 29.5.2026). Paliskunnat must decide annually on herd reductions, with a possible 20% lower maximum for one year. A penalty fee applies if they fail to reduce. They must also prepare 10-year grazing plans and notify Ruokavirasto, the Lapin elinvoimakeskus and Paliskuntain yhdistys. I did not verify penalty amounts or the transition period. Two searches found no dedicated herd-quota software; the only related tools are Liiteri (a map service) and Poro-Harava (2017, GIS-like). The market is tiny, about 50 buyers, all clients of Paliskuntain yhdistys. Willingness to pay is likely low, the duty is simple, and Excel suffices. I did not fetch the Ruokavirasto or Paliskuntain yhdistys pages.",
+   "searches": 2,
+   "sources": "https://valtioneuvosto.fi/-/1410837/poronhoitolain-muutoslaki-voimaan-uudet-saannokset-tukevat-poronhoidon-edellytyksia ; https://valtioneuvosto.fi/-/1410837/poronhoitolain-uudistus-turvaa-laidunten-kestavyytta-ja-selkeyttaa-poromaarien-hallintaa ; https://www2.eduskunta.fi/pdf/EV+63/2026+vp?lang=fi ; https://portti.kansallisarkisto.fi/fi/aineisto-oppaat/paliskunnat-ja-poronhoitoyhdistykset",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b37"
  },
  "triage:finland": {
   "result": {

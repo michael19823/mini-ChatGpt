@@ -1,0 +1,760 @@
+{
+ "discover:A:nicaragua": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Used and new car lots, jewellers and precious-metal traders (small, often family-run)",
+     "category": "3/4/5. Second-hand dealers; Gold and jewellery buyers; Vehicle dealers (Ley 977 sujetos obligados)",
+     "evidence": "https://nicaragua.justia.com/nacionales/resoluciones/normativa-de-prevencion-deteccion-y-reporte-de-actividades-relacionadas-con-el-la-ft-a-traves-de-actividades-y-profesiones/gdoc ; https://www.laprensani.com/2016/03/15/economia/2002408-unidad-analisis-financiero-nicaragua-incorpora-nuevos-sujetos-obligados ; https://sajurin.enriquebolanos.org/docs/G-2018-07-20.pdf",
+     "existing": "Competitor search (software cumplimiento PLA/FT UAF Nicaragua sujetos obligados comerciantes de vehículos joyerías) found no Nicaraguan software or UAF tool aimed at these dealers; only the legal texts. Bank-grade AML vendors were not checked. Sales reports are submitted through the UAF electronic platform, whose features are unchecked.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Different buyer (dealers, jewellers) and duty (UAF AML) from K03 (CONAMI pawn register).",
+     "name": "UAF monthly report and compliance kit for vehicle dealers and jewellers",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Ley 976/977 and the UAF normativa for activities and professions: monthly Sales Reports to the UAF in official formats (vehicles: cash sales of USD 5,000+ used, USD 10,000+ new; jewellers: local sales of USD 5,000+ aggregated over 30 days, exports of USD 10,000+), ROS within 30 days, monthly absence report (RAII) by day 10, client profile, 5-year records, written manual, annual training, annual external audit, risk assessment every 2 years. Thresholds from the Justia text of the normativa (fetched). Registration in the UAF register under UAF-N-023-2023 (per search summary).",
+     "trigger_note": "",
+     "trigger_short": "UAF monthly reports",
+     "unchecked": "Number of registered vehicle dealers and jewellers; whether UAF offers a free report-builder or upload template; accounting firms bundling the service; actual enforcement and fines; whether the 2019 normativa has been replaced by a newer one"
+    },
+    {
+     "buyer": "Pawnshops and licensed money changers",
+     "category": "3. Second-hand dealers and pawnbrokers (also 19 money changers)",
+     "evidence": "https://www.laprensani.com/2016/03/15/economia/2002408-unidad-analisis-financiero-nicaragua-incorpora-nuevos-sujetos-obligados ; search summary of the UAF reports (leybook UAF resolutions)",
+     "existing": "Not searched separately; no product seen.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Same buyer group as K03 but a different duty (UAF, not CONAMI). Could be bundled with C01.",
+     "name": "UAF sales-report and register tool for casas de empeño and casas de cambio",
+     "score": 3,
+     "status": "weak",
+     "trigger": "UAF monthly reporting for casas de empeño (sales of unredeemed pledges once the monthly total reaches USD 3,000, per press note) and casas de cambio; the primary threshold text was not read.",
+     "unchecked": "Primary text for the pawn and exchange normativa (the financial-institutions normativa is a different instrument); count of pawnshops; overlap with CONAMI compliance book K03; the K08 rejection reason (politically sensitive money changers) may apply"
+    },
+    {
+     "buyer": "Community water committees (CAPS) and the NGOs and municipal units that support them",
+     "category": "13. Small water systems",
+     "evidence": "https://nicaragua.justia.com/nacionales/leyes/ley-especial-de-comites-de-agua-potable-y-saneamiento-jun-14-2010/gdoc ; https://faolex.fao.org/docs/texts/nic97756.doc",
+     "existing": "None searched.",
+     "known_mark": "new",
+     "name": "CAPS (rural water committees) legalisation, tariff and accounts tool",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ley 722 (consolidated La Gaceta 217, 29 Nov 2023) and Decreto 50-2010: municipal registration certificate within 30 days, then central registry certificate; duty to account to users. Regulator named as INAA in older text and ANA in a later version.",
+     "unchecked": "Number of CAPS in Nicaragua; periodic report formats; who pays (donors, NGOs); whether the state mandates its own system"
+    },
+    {
+     "buyer": "Veterinary pharmacies, expendios menores and regente veterinarians",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://www.ipsa.gob.ni/Portals/0/3 Salud Animal/Registro Veterinario/Registro y Control de Insumos Pecuarios/Documentos/Requisitos Renovación Licencia de Regente veterinario.pdf ; https://faolex.fao.org/docs/pdf/nic180643.pdf",
+     "existing": "IPSA SINAIP free online portal (sinaip.ipsa.gob.ni).",
+     "known_mark": "new",
+     "name": "Registered-vet-pharmacy and regente compliance file (IPSA)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley 291 art. 49 and NTON 20001-15: IPSA establishment licence plus regente licence; regente renewal needs a request letter, ID copy, previous licence, vet certificate and payment, done online on SINAIP.",
+     "unchecked": "Recurring reporting by vet pharmacies (e.g. controlled drug books); inspection frequency"
+    },
+    {
+     "buyer": "Agrovets and agrochemical retailers",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.minsa.gob.ni/sites/default/files/2022-10/Autorizacion_y%2BEmision_de_Licencia_Sanitaria_de_Funcionamiento_de_Establecimientos2.942.pdf ; https://sajurin.enriquebolanos.org/docs/G-1998-07-30.pdf",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Pesticide and agrochemical dealer sanitary-licence and regente file",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley 274 and Decreto 49-98; MINSA Dirección de Farmacia sanitary operating licence (fee C$5,000 in the document); regente absence notice 15 days ahead.",
+     "unchecked": "Whether dealers file periodic sales or stock reports with IPSA; renewal cycle; number of dealers"
+    },
+    {
+     "buyer": "Private employment agencies",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://nicaragua.justia.com/nacionales/acuerdos-ministeriales/relativo-a-la-normacion-del-funcionamiento-de-las-agencias-de-empleo-privadas-jun-11-2007/gdoc",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Private employment agency register and placement book (MITRAB)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Código del Trabajo art. 16; Acuerdo Ministerial JCHG-004-04-07 (La Gaceta 109, 11 Jun 2007): register with MITRAB (Dirección General de Empleo y Salario), commission only from employer.",
+     "unchecked": "Periodic reporting duties, renewal, number of agencies, whether the 2007 acuerdo is still in force"
+    },
+    {
+     "buyer": "Households that employ domestic workers",
+     "category": "1. Household employers",
+     "evidence": "https://nicaragua.justia.com/nacionales/reglamentos/reglamento-de-aplicacion-del-seguro-social-a-los-trabajadores-del-servicio-domestico-apr-27-1979/gdoc ; https://www.laprensani.com/2016/12/12/politica/2148768-empleadores-cumplen-ley-del-trabajo-domestico",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Household employer INSS registration and payroll service",
+     "score": 2,
+     "status": "weak",
+     "trigger": "INSS Reglamento de Aplicación del Seguro Social a los Trabajadores del Servicio Doméstico (1979): register worker, report hires and exits within 3 working days.",
+     "unchecked": "Current enforcement; current INSS online channels; evidence of willingness to pay (compliance under 10% in 2016 suggests very low)"
+    },
+    {
+     "buyer": "Registered non-profit organisations (OSFL)",
+     "category": "17. Community and religious bodies",
+     "evidence": "https://www.icnl.org/resources/civic-freedom-monitor/nicaragua ; https://www.infobae.com/nicaragua/2026/04/30/el-gobierno-de-nicaragua-disuelve-la-personalidad-juridica-de-12-organizaciones-sin-fines-de-lucro/",
+     "existing": "Not searched; accounting firms likely.",
+     "known_mark": "new",
+     "known_note": "Politically sensitive, similar in risk profile to K08.",
+     "name": "Ley 1115 financial-reporting file for associations, churches and foundations",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ley 1115 (2023) and the 2025 Normativa Prudencial: registration, reporting, financial disclosure and sanctions; cancellations for unfiled financial statements (more than 5,600 closed since 2018; 12 more in April 2026).",
+     "unchecked": "Exact filing calendar and formats; safety and reputational risk of serving organisations targeted by the state; no competitor search run"
+    },
+    {
+     "buyer": "Municipal rastros and private slaughter establishments",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "Search summary from IPSA/La Gaceta references and https://nicaragua.justia.com/nacionales/normas-tecnicas/norma-tecnica-para-el-control-ambiental-en-mataderos-aug-15-2000/gdoc",
+     "existing": "None found. K04 cattle traceability is state-run.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "Slaughterhouse (rastro) and butcher compliance file under IPSA Res. 063-2024",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "IPSA Resolución 063-2024 (La Gaceta 171, 13 Sep 2024) on sanitary meat inspection for bovine and pork; municipal permit and environmental norm for slaughterhouses.",
+     "unchecked": "Resolution text and recurring records; number of rastros; buyer is mostly municipalities"
+    },
+    {
+     "buyer": "Well drillers and hydrology consultants",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://faolex.fao.org/docs/pdf/nic215636.pdf (image-only PDF, text not read)",
+     "existing": "None checked.",
+     "known_mark": "new",
+     "name": "Well driller and consultant ANA register",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "ANA RATN-ANA-001-2021 under Ley 1046 (register of consultants and well drillers).",
+     "unchecked": "Requirements, renewal, reporting, number of drillers, any water-abstraction licence reporting"
+    },
+    {
+     "buyer": "Small gold buyers and artisanal miner collectives (about 30,000 miners in about 2,000 groups per FEDEMNIC via La Prensa)",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.laprensani.com/2026/09/24/economia/3789644-nuevos-actores-en-el-sector-oro-han-exportado-us100-millones-a-ee-uu-entre-2023-y-2026 (403, unread) ; https://www.revistaeyn.com/lasclavesdeldia/nicaragua-experimenta-un-boom-en-exportaciones-de-oro-PPEN1484380",
+     "existing": "Not searched.",
+     "known_id": "K08",
+     "known_mark": "known",
+     "known_note": "Gold buyers already rejected in K08; no new revival evidence.",
+     "name": "Gold trader and artisanal miner traceability or sales book",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "No gold-buyer register found. Ley 387 and reglamento (consolidated 2023) tie commercialisation to the concession. 2026 press reports a boom of new gold exporters; Caminic wants artisanal miners in certification.",
+     "unchecked": "Whether MEM or BCN requires registration or reporting from gold buyers; US import rules on gold; K08 rejected gold buyers as informal"
+    },
+    {
+     "buyer": "Scrap and recycling collection centres",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "https://www.laprensani.com/2014/07/20/seccion-domingo/203992-llego-el-chatarrero",
+     "existing": "None.",
+     "known_mark": "new",
+     "name": "Scrap-metal dealer purchase book",
+     "score": 1,
+     "status": "weak",
+     "trigger": "No current duty found (only a 2014 note on restrictions and C$5,000-50,000 fines).",
+     "unchecked": "Municipal ordinances; battery export authorisation list"
+    },
+    {
+     "buyer": "About 60 funeral companies and private cemeteries",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://www.leybook.com/doc/8039/pdf ; https://observador.cr/el-boom-de-los-servicios-funerarios-en-nicaragua-en-tiempos-de-covid-19/",
+     "existing": "None.",
+     "known_mark": "new",
+     "name": "Funeral home and private cemetery licensing file",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Ley 198 (1976) and Decreto 394 (1988); no recurring filing found.",
+     "unchecked": "Current licence authority and renewal"
+    },
+    {
+     "buyer": "Small processed-food makers",
+     "category": "20. Small licensed premises (small food producers)",
+     "evidence": "https://www.minsa.gob.ni/sites/default/files/2022-10/BROCHUR%20LICENCIA%20Y%20REGISTRO.pdf",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Small food producer sanitary licence and registro sanitario renewal tracker",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "MINSA licencia sanitaria via SILAIS and registro sanitario (5-year validity, RTCA 67.01.31).",
+     "unchecked": "Whether artisanal products count as processed; renewal dates and fees; any 2024-26 changes"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "INSS 1979 domestic-service regulation: employer must register the worker and report hires/exits within 3 working days. Compliance very low (La Prensa 2016: under 10% registered; 26,591 insured vs 200-280k estimated workers). No dedicated product found. Households will not pay and the duty is rarely enforced. Weak, see candidate C07.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No current Nicaraguan register, police permit or purchase-book rule found. Only historic export bans (1961/1963) and a 2014 La Prensa note: collection centres may not buy from municipal collector crews, used batteries are restricted, fines C$5,000-50,000. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Pawnshops (casas de empeño) are UAF sujetos obligados: a 2016 press note says they report monthly, including sales of unredeemed pledges once the monthly total reaches USD 3,000 (threshold not confirmed in the primary text). CONAMI register is K03. UAF duty is a different duty, see C02. General second-hand dealers: no rule found.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Jewellers and precious-metal/stone traders are UAF sujetos obligados under Ley 977 and the UAF activities-and-professions normativa: monthly sales reports (local sales from USD 5,000, exports from USD 10,000), client profile, 5-year records, annual external audit and manual. No MEM/MIFIC gold-buyer register found; the Ley 387 concession covers commercialisation. 2026 press says new gold exporters shipped about USD 100M to the US in 2023-26 (La Prensa fetch returned 403, unread). See C01 and C11.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler register found. Used and new vehicle dealers are UAF sujetos obligados (cash sales of USD 5,000+ used and USD 10,000+ new, monthly report), see C01. A parts or scrap dismantler regime was not searched separately.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Nothing new beyond K04. IPSA CUBE farm-code traceability is government-run and free. Livestock transport permits were not confirmed for Nicaragua; the results that mentioned a transport guide were from Costa Rica.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "IPSA Resolución 063-2024 (La Gaceta 171, 13 Sep 2024) sets sanitary and physical requirements and meat inspection for authorised bovine and pork establishments. Municipal rastros need a municipal permit under the environmental norm for slaughterhouses. UNA thesis shows weak compliance in municipal rastros. Few private buyers, municipal customers. See C10.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Only IPSA Resolución 032-2021 (EU honey export requirements, La Gaceta 59, 25 Mar 2021). No beekeeper or apiary register or recurring report found. Nothing buildable.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "IPSA licenses vet establishments and regentes under Ley 291/862 and NTON 20001-15; regente licence renewal is done online on the IPSA SINAIP portal (sinaip.ipsa.gob.ni). A free state portal exists, so the gap is small. See C04.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "ANA Nicaragua resolution RATN-ANA-001-2021 (under Ley 1046 reforming Ley 620) creates a register of consultants and well drillers. The FAOLEX PDF is image-only, so requirements, fees and renewals are unread. Small group. See C08.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "No specific register for septic or sludge haulers found. General MARENA permit regime under Decreto 20-2017 and norm NTON 05 014-02 for non-hazardous waste; municipal licences likely. Unverified for this activity.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "The search returned only Spanish and Argentine regimes. No Nicaraguan regulation for periodic lift or boiler inspection was confirmed. MITRAB/Ley 618 is the likely frame but is not verified.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "CAPS (water committees) are regulated by Ley 722 and its regulation (consolidated text La Gaceta 217, 29 Nov 2023): municipal registration certificate, then central registry. The authority is named as INAA in older text and ANA in a later version (conflict). No periodic report format found. See C07.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Ley 274 and Decreto 49-98: single pesticide register, regente required for larger establishments, MINSA Dirección de Farmacia sanitary licence (registration fee C$5,000 in the document seen), and an annual report by the authority. No recurring dealer-level report found. See C05.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Código del Trabajo art. 16 and Acuerdo Ministerial JCHG-004-04-07 (La Gaceta 109, 11 Jun 2007): private employment agencies register with MITRAB, may not charge workers. Renewal and reporting details not found. See C06.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Ley 198 (1976) on private cemeteries (application to the Junta Local de Asistencia Social) and Decreto 394 (1988) sanitary rules. About 60 funeral companies in 2020 (Confidencial via Observador). No current recurring filing found. Weak, see C13.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Ley 1115 (2023) puts OSFL oversight under the Ministerio de Gobernación / MINT; a 2025 Normativa Prudencial adds registration, reporting, financial disclosure and sanctions. Cancellations for missed financial statements are frequent (more than 5,600 closed since 2018; 12 more in April 2026 by Acuerdo 06-2026-OSFL). Politically sensitive and risky as a product. See C09. Halal/kosher: not applicable.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Ley 524 and Decreto 42-2005: concession or licence from MTI (intermunicipal) or municipalities, cooperatives need an operating licence, tariffs reviewed every six months. No 2025-26 rule change found. Moto-taxi is rejected in K08. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Casas de cambio are UAF sujetos obligados with monthly reports (press note, thresholds unverified). Money changers are in K08 (rejected, politically sensitive). Market traders and street vendors: no register found. Nothing new beyond K08.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Food: MINSA licencia sanitaria through SILAIS plus registro sanitario (5-year validity) with RTCA GMP; sources 2011-2023, so artisanal treatment is unconfirmed. Driving schools and nurseries: no Nicaraguan sources found (results were from other countries). Tattoo studios and hunting outfitters: not searched, hunting not applicable. See C14.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "Nicaragua trabajadores domésticos INSS inscripción empleador hogar Ley 666 obligaciones",
+    "Nicaragua chatarra compra venta chatarreras registro MARENA Policía Nacional permiso",
+    "Nicaragua comercializadores de oro registro Ministerio de Energía y Minas compraventa de oro permiso",
+    "IPSA Nicaragua registro establecimientos veterinarios farmacias veterinarias requisitos",
+    "Nicaragua ANA Autoridad Nacional del Agua licencia perforación de pozos perforadores registro permiso",
+    "Nicaragua MITRAB agencias de empleo privadas reempleo autorización registro reclutamiento",
+    "Nicaragua transporte interurbano cooperativas taxi moto taxi MTI registro concesión 2025 nueva normativa",
+    "Nicaragua IPSA registro plaguicidas distribuidores regente agroquímicos establecimientos informe",
+    "Nicaragua mataderos municipales carnicerías licencia sanitaria MAG IPSA inspección matanza guía de traslado ganado",
+    "Nicaragua asociaciones sin fines de lucro Ministerio de Gobernación informe anual ley 1040 1115 cancelación 2025",
+    "Nicaragua apicultores apiarios registro IPSA trazabilidad miel exportación inscripción",
+    "Nicaragua cementerios funerarias licencia MINSA alcaldía servicios funerarios requisitos",
+    "Ley 977 Nicaragua UAF sujetos obligados actividades no financieras joyerías compraventa de vehículos casas de empeño reporte",
+    "Nicaragua comisión nacional de minería oro compradores de oro registro mineros artesanales Ley 387",
+    "Nicaragua MITRAB inspección calderas ascensores equipos a presión certificación Ley 618",
+    "Nicaragua MARENA permiso ambiental transporte residuos camiones cisterna fosas sépticas registro operadores",
+    "Nicaragua CAPS comités de agua potable y saneamiento registro legalización ANA INAA tarifas",
+    "Nicaragua escuelas de manejo; centros de desarrollo infantil privados; registro sanitario alimentos artesanales MINSA",
+    "UAF Nicaragua inscripción registro sujetos obligados comerciantes metales preciosos vehículos plazo 2025 2026",
+    "software cumplimiento PLA/FT UAF Nicaragua sujetos obligados comerciantes de vehículos joyerías herramienta reportes"
+   ],
+   "searches": 20
+  },
+  "tag": "w2b53"
+ },
+ "discover:B:nicaragua": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small vehicle dealers, remittance agencies, casinos and gaming halls, jewellery dealers, pawnshops",
+     "category": "33. UAF monthly reporting by non-financial obligated subjects",
+     "evidence": "https://www.panamaamerica.com.pa/economia/nicaragua-pone-control-las-remesas-familiares-partir-de-500-dolares-1133268 ; https://nicaragua.justia.com/nacionales/resoluciones/normativa-de-prevencion-deteccion-y-reporte-de-actividades-relacionadas-con-el-la-ft-a-traves-de-actividades-y-profesiones/gdoc ; https://www.uaf.gob.ni/images/Pdf/Documentos_ALA-CFT/Actualizacin-de-la-ENR-2023_202408.pdf",
+     "existing": "None seen. The UAF reporting channel (portal vs forms) and any free state tool are unchecked.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "UAF monthly-report and register kit for non-financial obligated subjects (used/new vehicle dealers, jewellers, casinos, remittance agents)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Ley 977 as reformed (Ley 1000); registration under UAF-N-023-2023; 2019 decree sets monthly reporting thresholds (vehicles US$10,000 new / US$5,000 used, remittances US$500, pawn sales US$3,000). 10-day reply to UAF requests; closure and registry cancellation for repeat serious breaches (2023 decree).",
+     "trigger_note": "",
+     "unchecked": "Whether the 2019 thresholds and monthly cadence still apply; how the UAF takes reports (free portal?); number of dealers registered; competitor search in Spanish not run (budget exhausted). Pawnshop part overlaps K03 but the duty is the UAF report, not the CONAMI register."
+    },
+    {
+     "buyer": "Licensed real estate brokers and their agents",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.ey.com/es_ce/technical/tax/alertas-migratorias/nicaragua-nueva-ley-de-correduria-de-bienes-raices-de-nicaragua",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Real estate broker compliance pack under Ley 1129 (MIFIC licence, agent register, UAF registration, 10-year file, beneficial-owner certificates)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ley 1129 (Gaceta 8 Sep 2022): MIFIC licence valid 5 years, register each agent, UAF registration within 30 business days, 10-year record retention, beneficial-owner certificate in contracts for company parties. Fines up to US$350.",
+     "trigger_note": "",
+     "unchecked": "Number of licensed brokers; whether any recurring periodic filing exists beyond licence renewal and UAF reports; competitor search not run."
+    },
+    {
+     "buyer": "Registered NPOs, churches, associations, foundations (group A category 17 overlap)",
+     "category": "31. NPO (OSFL) annual financial filing, Ley 1115 (also category 17)",
+     "evidence": "https://www.theworldlawgroup.com/membership/news/news-nicaragua-npos-annual-obligation-filing-of-financial-statements-for-fiscal-year-end-2025 ; https://www.ey.com/es_ce/technical/tax/tax-alerts/nicaragua-reglamento-de-la-ley-no-1115-ley-general-de-regulacion",
+     "existing": "Competitor search found no specific software or approved format; accounting firms and CPAs do the work. Portal upload format unknown.",
+     "known_mark": "new",
+     "name": "Annual NPO financial filing pack for the Ministry of the Interior (DGRC-OSFL)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ley 1115 art. 44 and Decreto 01-2023: file CPA-certified statements, trial balance, cash flow, donations and project reports in paper by 28 Feb, then upload to the MINT portal within 3-5 days; fines C$5,000-10,000, revocation of legal status.",
+     "trigger_note": "",
+     "unchecked": "Political risk (government has cancelled hundreds of NPOs and confiscated assets), buyer fear of exposure, number of active NPOs left, whether the portal accepts file uploads."
+    },
+    {
+     "buyer": "Small sociedades mercantiles and their lawyers or notaries",
+     "category": "32. Beneficial-owner registry and corporate powers",
+     "evidence": "https://garciabodan.com/en/?p=45814 ; https://ecija.com/sala-de-prensa/nicaragua-comision-especial-de-registros-dicta-normativa-especifica-del-registro-de-beneficiario-final-de-las-sociedades-mercantiles ; https://www.ey.com/es_ce/technical/tax/tax-alerts/nicaragua-se-reforma-la-normativa-de-registro-de-beneficiarios",
+     "existing": "Law firms and notaries handle it. No software seen.",
+     "known_mark": "new",
+     "name": "Annual beneficial-owner and corporate-powers compliance service for small companies (Ley 1035 / Ley 1282)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "12-month update of the beneficial-owner declaration at the Registro Publico (Acuerdo 577 of the Corte Suprema); refusal of later registrations and court filings without compliance certificate; Ley 1282 (Gaceta 111, 19 Jun 2026) requires registering shareholder powers of attorney at the Registro Mercantil.",
+     "trigger_note": "",
+     "unchecked": "Whether the declaration is filed on an online portal or by a notary only; Ley 1282 deadlines and penalties; competitor search not run. Buyer is effectively the notary or lawyer, so this may be generic."
+    },
+    {
+     "buyer": "Small agricultural, savings and service cooperatives",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://faolex.fao.org/docs/pdf/nic114563.pdf ; https://www.leybook.com/doc/2147/pdf ; https://www.uaf.gob.ni/images/Pdf/CancelacionesRegistro/DisposicionLegal/2025/Mayo/Notificacin-Resolucin-No.-UAF-CDRSO-047-2025-Cooperativa-San-Francisco-de-Ass.pdf (503 on fetch)",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Cooperative books and annual-report pack for INFOCOOP (post Ley 1233 reform)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ley 499 art. 108 and art. 49: sealed minute and accounting books, financial statements to authority within 30 days of year end, management report; Ley 1233 (Gaceta 9, 17 Jan 2025) reforms INFOCOOP and the registry. UAF also keeps cooperatives on its obligated-subject register.",
+     "trigger_note": "",
+     "unchecked": "What Ley 1233 changed in reporting duties and deadlines; number of active cooperatives; any INFOCOOP reporting portal; competitor search not run."
+    },
+    {
+     "buyer": "Sawmills, timber depots, plantation owners, timber transporters",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://faolex.fao.org/docs/pdf/nic190732.pdf ; https://cdn2.globalwitness.org/archive/files/import/informe_021.pdf",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Forest industry intake/output book and transport-guide system for sawmills and timber yards (INAFOR)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Decreto 45-93 forestry regulation: INAFOR-sealed intake and output books at each processing site; forestry guides and transport permits (Res. Administrativa 44-2014 for plantation wood); export needs guides and sawing invoices.",
+     "trigger_note": "",
+     "unchecked": "Whether books are still sealed paper or digital; current INAFOR enforcement; size of legal timber sector; link to EUDR; competitor search not run."
+    },
+    {
+     "buyer": "Small hotels, hostels, guest houses, rural lodgings",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "Titles and Gaceta references only, from search summaries; texts not read.",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Hotel and guest-house compliance under Ley General de Turismo 1210 and INTUR 2024 technical regulation",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Ley 1210 (Gaceta 141, 2 Aug 2024) and INTUR-2024-151 (Gaceta 236, 20 Dec 2024).",
+     "trigger_note": "",
+     "unchecked": "Everything: guest-register duty, licence renewal, tourism levy filing, short-term-rental rules. Could not locate the regulation text."
+    },
+    {
+     "buyer": "Small private security agencies",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://www.leybook.com/doc/28677/pdf",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Private security company licence and personnel register (Ley 903)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Ley 903 (consolidated Gaceta 9, 18 Jan 2024): licencia de operacion from the Policia Nacional.",
+     "trigger_note": "",
+     "unchecked": "Recurring reports, guard register, weapons and uniform rules; regulation text; police-controlled buyer environment."
+    },
+    {
+     "buyer": "Notaries public and lawyers",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://leybook.com/doc/22629/pdf ; https://vlex.com/vid/nicaragua-actualizacion-obligaciones-abogados-913237525",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Notary and lawyer AML obligations (Ley 977/1000, Ley 1113 of 2022)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Obligated subjects, registered via the Poder Judicial; 10-day reply to UAF; CNACJ normatives of Sep 2019.",
+     "trigger_note": "",
+     "unchecked": "Reporting cadence, form and channel (Poder Judicial portal?), count of notaries; whether a free state tool exists."
+    },
+    {
+     "buyer": "Pharmacies and their regentes",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://nicaragua.justia.com/nacionales/decretos-ejecutivos/de-reforma-del-decreto-no-6-99-reglamento-de-la-ley-de-medicamentos-y-farmacias-mar-7-2002/gdoc ; https://sherloc.unodc.org/cld/uploads/res/document/nic/ley-de-medicamentos-y-farmacias_html/Nicaragua_Ley_de_medicamentos_y_farmacia.pdf",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Pharmacy controlled-drug book and regente filings (Ley 292, Ley 177/285)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Control book for narcotics and psychotropics rubricated by MINSA; regente files procedures; MINSA authorisation for controlled substances.",
+     "trigger_note": "",
+     "unchecked": "Whether the rubricated paper book can be digital; periodic report to MINSA; sources are from 2002."
+    },
+    {
+     "buyer": "Beneficiadores, internal coffee traders, small exporters",
+     "category": "34. Coffee single register RUCN",
+     "evidence": "https://nicaragua.justia.com/nacionales/leyes/ley-para-la-transformacion-y-desarrollo-de-la-caficultura-dec-17-2013/gdoc",
+     "existing": "VUCEN/CETREX and EUDR vendors (see K06, K07)",
+     "known_id": "K06",
+     "known_mark": "known",
+     "name": "Coffee RUCN registration and mill/internal-trader records",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley para la Transformacion y Desarrollo de la Caficultura (2013) RUCN; CETREX export forms.",
+     "trigger_note": "",
+     "unchecked": "Whether RUCN involves a recurring report; likely already covered by VUCEN."
+    },
+    {
+     "buyer": "Gold exporters (32 listed), concession holders",
+     "category": "35. Mining concessions and gold export registry",
+     "evidence": "https://www.revistaeyn.com/lasclavesdeldia/nicaragua-experimenta-un-boom-en-exportaciones-de-oro-PPEN1484380 ; https://www.revistaeyn.com/centroamericaymundo/gobierno-de-nicaragua-cancela-20-concesiones-mineras-BC16635466",
+     "existing": "Not searched",
+     "known_id": "K08",
+     "known_mark": "known",
+     "name": "Gold exporter registration (VUCEN plus UAF) and mining concession upkeep",
+     "score": 1,
+     "status": "weak",
+     "trigger": "VUCEN exporter registration, UAF registration; Ley 1128 cancellation of inactive concessions (20 cancelled Dec 2023).",
+     "trigger_note": "",
+     "unchecked": "Tiny buyer pool and sanctions context; no new evidence to revive K08."
+    },
+    {
+     "buyer": "LPG agencies and detallistas, small fuel stations",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://nicaragua.justia.com/nacionales/acuerdos-ministeriales/normativa-de-multas-y-sanciones-en-la-comercializacion-del-gas-licuado-de-petroleo-envasado-el-ministro-de-energia-y-minas/gdoc ; https://nicaragua.justia.com/nacionales/acuerdos-ministeriales/normativa-tecnica-para-centros-o-puestos-de-distribucion-de-combustibles-nov-20-2012/gdoc",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Fuel and LPG retailer licence file (Ley 277, Decreto 39-2011, INE price and safety checks)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Licence displayed, official INE price sign, extinguisher and training certificate, 24h accident notice; progressive sanctions by INE.",
+     "trigger_note": "",
+     "unchecked": "No periodic report found; sources 2006-2012; licence renewal cycle unknown."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Licensing under Ley 277 and Decreto 39-2011 (MEM Dirección General de Hidrocarburos, INE enforces). LPG retailers must show licence, official INE price sign, 20-lb extinguisher, LPG-handling training certificate; wholesalers give INE inventory data and report accidents within 24h. No periodic (monthly) report found for small retailers. Sources are 2006-2012 so currency unverified. No candidate scored 3+.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Coffee: Ley 2013 caficultura creates RUCN (producers, internal traders, beneficiadores, exporters); exports via CETREX/VUCEN; MAG reports 94 exporters in 2025. No registry found for grain collectors or silos (Ley 930 covers producers only). Coffee export docs are already covered by VUCEN (K06) and EUDR (K02, K07). One weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Ley 499 reformed by Ley 1233 (Gaceta 9, 17 Jan 2025); INFOCOOP is regulator, director now appointed by the Procurador. Pre-reform duties: sealed minute and accounting books, financial statements to authority within 30 days of year end (art. 108), management report (art. 49). UAF also registers cooperatives as obligated subjects (a UAF 2025 resolution cancelling a cooperative's registration exists; page returned 503 on fetch). Post-2025 duties not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Only background: INSS buys services from EMP/CMP by per-capita capitation (PAHO), supervised by MINSA. No 2024-26 rule, licensing register or claims-reporting duty found. Per-capita payment means little per-claim billing, so weak fit. Not scored.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Ley 292 (consolidated text in Gaceta 2, 9 Jan 2024), MINSA is regulator; regente farmaceutico files all procedures; psychotropic/narcotic control book must be rubricated and sealed by MINSA (fee C$50, 2002 reform); Ley 177/285 controlled substances need MINSA authorisation; customs and MINSA reconcile controlled-substance imports quarterly. MINSA Resolucion Administrativa 0020-2025 puts medical-device import procedures online. Rubricated paper book limits software value.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Private security: Ley 903 (2015; consolidated Gaceta 9, 18 Jan 2024), licence de operacion from the Policia Nacional; regulation and filing duties not found. Cleaning and manpower agencies: nothing found. One unverified candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Mining: 299 concessions (MEM, 2023); Ley 1128 reform led to cancellation of 20 inactive concessions in Dec 2023; gold export needs VUCEN exporter registration plus UAF registration (32 gold exporters listed). Concessionaires must allow artisanal mining under Ley 387. No construction-contractor register or local-content report found. Sector is politically sensitive (US Treasury sanctions on Direccion General de Minas, 2022).",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Ley 1129 (Gaceta 8 Sep 2022): real estate brokers need a MIFIC licence valid 5 years, must register each agent, register with UAF within 30 business days, keep records 10 years, include beneficial-owner certificate for company parties; fines up to US$350. Notaries and lawyers are obligated subjects (Ley 977 via Ley 1000; Ley 1113 of 2022) and register with UAF through the Poder Judicial; CPAs through the Colegio de Contadores. UAF Resolution UAF-N-023-2023 governs registration. 10-day reply to UAF requests.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Ley General de Turismo 1210 (Gaceta 141, 2 Aug 2024) and INTUR Reglamento Tecnico for tourism service providers (INTUR-2024-151, Gaceta 236, 20 Dec 2024). Neither text was reached, so guest-register, short-term-rental and levy duties are unverified. No short-term-rental registry found.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Timber: Decreto 45-93 forestry regulation requires industries to keep INAFOR-sealed intake/output books; transport permits from forestry guides (INAFOR Res. 44-2014). Exports run through VUCEN (K06). Cattle is killed by the state system (K04). Fish and food exporters: no search, not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "31. NPO (OSFL) annual financial filing, Ley 1115 (country-specific)",
+     "found": "All registered NPOs must file CPA-certified financial statements in paper with the Ministry of the Interior DGRC-OSFL by 28 Feb each year, plus a project report, donor agreements and a DGI tax-return copy, and upload data to the MINT portal within 3-5 days. Audit required at C$50M or more. Fines C$5,000-10,000, up to revocation. Regulation is Decreto 01-2023. Many NPOs have been cancelled for non-reporting. Political risk is high.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Beneficial-owner registry and corporate powers (Ley 1035, Ley 1282 of 2026) (country-specific)",
+     "found": "Companies must update the beneficial-owner declaration at the Registro Publico every 12 months and on any change. Initial deadlines ran Apr 2021 to Apr 2022. Ley 1282 (Gaceta 111, 19 Jun 2026) requires representation powers to be registered in the Registro Publico Mercantil or the acts are ineffective, and sets record-retention rules (5 years for firms, 10 for NPOs). No deadline or penalty found for Ley 1282.",
+     "status": "screened"
+    },
+    {
+     "category": "33. UAF monthly reporting by non-financial obligated subjects (vehicle dealers, pawnbrokers, casinos, remittance agents) (country-specific)",
+     "found": "A 2019 decree (Gaceta 25 Apr 2019, via press) lists monthly UAF reports: remittances of US$500 or more, transfers of US$5,000 or more, pawnshop sales of unclaimed items at US$3,000 a month, casino prizes of US$1,000 or more, real estate sales of US$100,000 or more, vehicle sales of US$10,000 (new) and US$5,000 (used). Source is old press, so currency is unverified. Registration rule is UAF-N-023-2023.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Coffee single register RUCN, mills and internal traders (country-specific)",
+     "found": "RUCN requires beneficiadores, internal traders and exporters to register. Relevant to the existing K02/K06/K07 ideas. No new duty found.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Mining concessions and gold export registry (country-specific)",
+     "found": "Gold exporters register with VUCEN and UAF (32 listed). Ley 1128 allows cancellation of inactive concessions. Very small buyer pool and sanctions context; related to rejected K08.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "Nicaragua estaciones de servicio combustible INE registro informe mensual distribuidoras gas LPG requisitos",
+    "Nicaragua cooperativas MIFIC INFOCOOP registro informes anuales obligaciones ley 499 2025",
+    "Nicaragua clínicas privadas MINSA habilitación INSS empresas médicas previsionales registro obligaciones 2025",
+    "Nicaragua farmacias regulación sanitaria MINSA registro sustancias controladas precursores químicos ley 2025",
+    "Nicaragua UAF sujetos obligados notarios inmobiliarias reporte operaciones ley 977 registro 2025 normativa",
+    "Nicaragua INTUR registro hospedaje alquiler corto plazo Airbnb registro obligatorio turismo 2025 ley",
+    "Nicaragua empresas de seguridad privada Policía Nacional registro licencia agencias vigilancia ley 2024 2025 reglamento",
+    "Nicaragua ley 2025 nueva ley registro obligatorio empresas Gaceta decreto negocios reporte anual",
+    "INAFOR Nicaragua aserríos depósitos de madera registro libro de operaciones forestales plan de manejo guía de transporte",
+    "Nicaragua minería artesanal concesiones INE minas informe trimestral comercializadores de oro registro MEM CONAMI 2025",
+    "Nicaragua beneficios de café registro exportadores CAFENICA MIFIC MAG ley granos básicos silos acopiadores registro obligatorio",
+    "Nicaragua Registro de Beneficiarios Finales sociedades mercantiles plazo declaración Registro Público Mercantil reglamento",
+    "software contabilidad estados financieros organizaciones sin fines de lucro Nicaragua Ministerio del Gobernación DGRC-OSFL presentación servicio contador",
+    "Reglamento Técnico prestadores de servicios turísticos INTUR-2024-151 hospedaje registro de huéspedes obligaciones renovación licencia",
+    "UAF Nicaragua actividades no financieras designadas lista joyerías casinos vendedores vehículos contadores inscripción 2025 2026 plazo",
+    "Nicaragua farmacias libro de registro psicotrópicos estupefacientes regente farmacéutico informe MINSA Dirección de Regulación",
+    "Nicaragua pequeñas empresas nuevas obligaciones 2026 DGI factura electrónica facturación obligatoria resolución plazo contribuyentes"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b53"
+ },
+ "sonnet:nicaragua:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The UAF does regulate casas de empeño y préstamo and casas de cambio under Ley 793. It publishes a ROS guide for pawnshops, and its normativa requires compliance officers and AML plans. The press note says monthly reporting applies. I could not read the primary text, so the USD 3,000 threshold, the monthly cadence, penalties and the current in-force status are unconfirmed. A 2023 Bloomberg Línea piece says the UAF was still debating how to regulate pawnshops and cambistas, which conflicts with the other sources. No commercial software was found, but the UAF probably supplies its own reporting formats. The sector is small, with no count found. Nicaragua's political risk is high, since the state controls the regulator and money changers are sensitive, as in K08. Payment is likely low and a sale would be a niche compliance-officer tool. Sources: leybook doc 18388, UAF ROS guide, laprensani 2018, Bloomberg Línea 2023.",
+   "searches": 2,
+   "sources": "https://www.uaf.gob.ni/images/Pdf/Documentos_ALA-CFT/Guia-ROS-Casas-de-empeo-y-prestamo.pdf ; https://www.bloomberglinea.com/2023/01/18/nicaragua-analiza-establecer-regulacion-antilavado-a-casas-de-empeno-y-cambistas/ ; https://www.laprensani.com/2018/11/27/economia/2500392-la-unidad-de-analisis-financiero-emite-dos-nuevas-normativas-sobre-control-antilavado-en-nicaragua ; https://www.leybook.com/doc/18388/pdf ; https://nicaragua.justia.com/nacionales/resoluciones/normativa-para-la-supervision-de-los-sujetos-obligados-regulados-y-fiscalizados-directamente-por-la-uaf-en-materia-de-pld/gdoc",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b53"
+ },
+ "sonnet:nicaragua:B7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is partly real: Ley 1210 (Gaceta 141, 2 Aug 2024) requires providers to register in INTUR's Registro Nacional de Turismo and renew licences yearly (EY summary). Decreto 15-2024 and INTUR-2024-151 exist. I could not read the law text (INTUR PDF returned 503), so penalties and the lodging-specific guest-register duty are unconfirmed. An older INTUR regulation, undated in the results, describes a sealed paper guest book, a monthly report, and a 2% INTUR room charge declared by day 10-15. No lodging software or INTUR portal found, but only 2 searches were run. Market size not found. Filings are paper-based or go through INTUR and the rules are opaque, so willingness to pay is low and the market is small.",
+   "searches": 2,
+   "sources": "https://www.ey.com/es_ce/technical/tax/tax-alerts/nicaragua-asamblea-nacional-publica-ley-general-de-turismo ; https://intur.gob.ni/wp-content/uploads/2024/08/Ley-1210-Ley-General-de-Turismo.pdf ; https://climate-laws.org/document/presidential-decree-no-15-2024-regulation-of-law-no-1210-general-tourism-law_a971 ; https://sajurin.enriquebolanos.org/docs/99LEY 306.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b53"
+ },
+ "triage:nicaragua": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "UAF monthly AML reports for dealers and jewellers; different buyer and duty from K03."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "UAF reporting for pawnshops and casas de cambio; different duty from K03 (CONAMI) and not K08's gold/moto-taxi."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "CAPS legalisation and accounting duty under Ley 722; community bodies in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Vet pharmacy and regente IPSA licensing; small professional offices, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Agrochemical dealer sanitary licence and regente file; new duty and buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Private employment agency register with MITRAB; small firms, unverified but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Households as employers INSS registration; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Ley 1115 NPO financial reporting; new, associations and churches in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Rastro sanitary inspection compliance; different buyer and duty from K04 traceability."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Well driller ANA register; small firms, unverified."
+    },
+    {
+     "decision": "known",
+     "id": "A11",
+     "reason": "Gold buyers already rejected in K08, no new revival evidence.",
+     "ref": "K08"
+    },
+    {
+     "decision": "drop",
+     "id": "A12",
+     "reason": "No mandatory recurring duty found; fails the recurring mandatory workflow definition."
+    },
+    {
+     "decision": "drop",
+     "id": "A13",
+     "reason": "No recurring filing found; one-off licensing with no deadline-driven mass action."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Small food producer sanitary licence renewals; recurring, in scope."
+    },
+    {
+     "decision": "merge",
+     "id": "B1",
+     "reason": "Same UAF monthly reporting duty for the same non-financial subjects as A1.",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Real estate brokers Ley 1129 compliance; new buyer group and duty."
+    },
+    {
+     "decision": "merge",
+     "id": "B3",
+     "reason": "Same NPO annual financial filing under Ley 1115 as A8.",
+     "ref": "A8"
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Beneficial-owner annual update for small companies; new duty, with a new 2026 rule."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Cooperative books and annual reports to INFOCOOP; co-operatives in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Sawmill INAFOR books and transport guides; new duty and buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Small hotel compliance under Ley 1210 and INTUR rules; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small security agency licensing and personnel register; in scope, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Notaries and lawyers AML duties; small professional offices, different buyer from A1."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Pharmacy controlled-drug book and regente filings; small professional offices."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "RUCN registration and mill records differ from K06 export documents and EUDR ideas; unverified, keep."
+    },
+    {
+     "decision": "known",
+     "id": "B12",
+     "reason": "Gold exporters and concessions fall under K08 rejection; no new evidence.",
+     "ref": "K08"
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Fuel and LPG retailer licence and INE checks; small firms, new."
+    }
+   ]
+  },
+  "tag": "w2b53"
+ }
+}

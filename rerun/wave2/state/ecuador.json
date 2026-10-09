@@ -1,4 +1,28 @@
 {
+ "challenge:ecuador:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Weakening points, none decisive: SEPS supplies a standard template for low-risk compliance manuals (Primicias). The Constitutional Court challenges are admitted and pending, with a request to suspend the rules. I found no 2026 SEPS rule setting risk tiers or deadlines.",
+   "reason": "I found nothing that kills the idea. No dedicated software turned up in Spanish searches. The only paid offers are advisory: law-firm notes (NMSLaw, ECIJA) and Deltech Audit's done-for-you service. The duty applies to foundations, corporations and NGOs that handle funds. Primicias reports no size exemption, and an early-2024 count found about 61,000 active organisations in SUIOS. Four things stay open. First, three Constitutional Court challenges (118-25-IN, 160-25-IN, 167-25-IN) are admitted and pending, and one asks for the rules to be suspended. Second, I found no 2026 SEPS control rule, risk-tier thresholds or official registration deadline. Third, SEPS supplies a standard template for low-risk manuals. Fourth, volunteer treasurers have little money, and accountants may cover the reports.",
+   "searches": 8,
+   "sources": "https://www.primicias.ec/economia/obligaciones-organizaciones-sociales-ecuador-riesgo-108374/ ; https://nmslaw.com.ec/blog/2025/11/05/ecuador-reglamento-ley-organica-transparencia-social/ ; https://elyex.com/verifique-si-su-osfl-cumple-la-ley-en-ecuador/ ; https://www.primicias.ec/politica/corte-constitucional-admite-demandas-ley-transparencia-social-ley-fortalecimiento-crediticio-daniel-noboa-115859/ ; https://ishr.ch/wp-content/uploads/2026/04/ISHR-Amicus-Constitutional-Court-of-Ecuador.pdf ; https://www.eldiario.ec/ecuador/ley-de-transparencia-social-ya-esta-vigente-tras-publicacion-en-registro-oficial-28082025/ ; https://www.primicias.ec/uploads/files/2025/07/29/PROYECTO-DE-LEY-ORGANICA-PARA-EL-CONTROL-DE-FLUJOS-IRREGULARES-DE-CAPITALES.pdf ; https://www.ecija.com/actualidad-insights/ley-de-transparencia-social-establece-nuevas-obligaciones-para-organizaciones-en-ecuador/",
+   "suggested_score": 4,
+   "verdict": "unclear"
+  },
+  "tag": "w2b26"
+ },
+ "challenge:ecuador:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. SICOSEP (state, free) handles the permit filing but does not track expiries across documents. Guard-tour apps are not compliance tools. Limits that remain: renewal only every 2 years, a small market of about 400 to 556 firms, and the reglamento apparently never issued.",
+   "reason": "I found nothing that kills it, but it is weak. SICOSEP, the state system, handles the permit filing itself. The permit renews every 2 years, and the application is due 90 days before expiry (gob.ec page MDI-61, updated June 2025). It requires a list of contracts, guards and arms with valid permits, plus two-year liability and life/accident insurance policies. So the gap is tracking expiries and keeping files ready for inspection, a job a spreadsheet can also do. Guard-tour apps (SoftGuard VigiControl, CGuardPro, ShiftFlow) do not do Ecuadorian compliance, and I found no local vendor. The general reglamento still does not appear to have been issued. The market is small: about 400 to 556 firms, from mostly older counts. There is no periodic reporting, and enforcement is sporadic (SERCOP inspections, Feb 2026).",
+   "searches": 8,
+   "sources": "https://www.gob.ec/mdi/tramites/renovacion-permiso-operacion-companias-vigilancia-seguridad-privada ; https://www.gob.ec/sites/default/files/sign/procedure-MDI-60-20260808282828-20249542-signed.pdf ; https://www.expreso.ec/actualidad/uniformados-refuerzo-empresas-esperan-reglamento-214314.html ; https://www.asambleanacional.gob.ec/es/noticia/casepeg-presento-aportes-al-proyecto-de-reformas-ley-de ; https://www.primicias.ec/noticias/sociedad/seguridad-privada-rol-policia-ecuador ; https://www.elcomercio.com/actualidad/ecuador-guardiasdeseguridad-policia-informalidad-capacitacion/ ; https://syscom.mx/blog/vigicontrol-monitoreo-de-rondas-y-guardias-en-tiempo-real-para-centrales-de-seguridad ; https://www.comparasoftware.com/c-guard-pro ; https://elyex.com/companias-o-guardias-de-seguridad-privado-sicosep/ ; https://www.vistazo.com/politica/nacional/2026-02-07-sercop-inspecciona-empresas-seguridad-privada-ecuador-clausura-falta-de-permisos-FA10671765",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b26"
+ },
  "discover:A:ecuador": {
   "result": {
    "blocked_searches": 0,
@@ -521,6 +545,20 @@
     "Registro Oficial 2026 nueva obligación cooperativas asociaciones fundaciones organizaciones sociales reporte"
    ],
    "searches": 18
+  },
+  "tag": "w2b26"
+ },
+ "escalate:ecuador:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no named product that markets SEPS structure generation for segment 4-5 cooperatives. Vistazo says all of Ecuador's roughly 524 cooperatives and mutualistas use management software, and names COBIS (Cobiscorp) and Denarius as core vendors, plus 45 financial software firms listed on aesoftmarket.com. SEPS publishes the manuals, and a 2021 oficio mentions a SEPS-built solvency application for FS01. Core systems most likely already export these files. That is inferred, not confirmed.",
+   "duty": "Real and in force. LOEPS art. 12 lets SEPS require periodic information. Under the SEPS 'Sistema de Acopio' / information-submission manuals, segment 4 sends B11 financial statements monthly (20-day deadline), C01/C02 credit portfolio and D01 deposits monthly (1-month deadline), S01 members quarterly (15 days), FS01 solvency quarterly (1 month) and L01 liquidity monthly (20 days). Segment 5 has a similar schedule, with FS01 due within 2 months and no L01. Sources: 2022 SEPS training deck; June 2025 deck, from search results only (my fetch returned 404). The segment-4/5 credit-portfolio manual is at v13.0 (11 Mar 2024), per a SEPS 2024 oficio as summarised in search results; my fetch could not read the PDF body. I did not find the penalty amount (not_reached).",
+   "market": "136 active segment-4 and about 50 segment-5 cooperatives as of February 2026 (Primicias, citing SEPS). Another 29-30 are in liquidation. The sector had 394 cooperatives at the end of 2025, and the count is falling.",
+   "reason": "The duty is real and recurring. A 2022 SEPS training deck, and a June 2025 deck as summarised in search results, list monthly B11, C01/C02 and D01 submissions and quarterly S01 and FS01 for segments 4-5, based on LOEPS art. 12. Manual v13.0 dates from 11 Mar 2024. I could not read the oficio PDF or find the penalty, so the penalty is unverified. I found no named vendor that outputs the SEPS structures, so I can't say whether anything already does the core job. Vistazo reports that all of the roughly 524 cooperatives and mutualistas run management software, and core vendors such as COBIS and Denarius exist, so these files are most likely a built-in feature of the core system. That would leave little room for a separate reporting tool. The market is small and shrinking: 136 segment-4 and about 50 segment-5 cooperatives, with about 30 in liquidation.",
+   "searches": 6,
+   "sources": "https://seps.gob.ec/wp-content/uploads/Capacitaciones-SFPS_segmentos-4-y-5_17-y-18-noviembre2022_VF.pdf ; https://www.seps.gob.ec/wp-content/uploads/01_Capacitación-5-de-junio-de-2025_1erdía.pdf (fetch returned 404; only the search summary was used) ; https://www.seps.gob.ec/wp-content/uploads/SEPS-SGD-INGINT-2024-08906-OFC.pdf.pdf (fetch could not read the PDF body; only the search summary was used) ; https://seps.gob.ec/wp-content/uploads/Manual-Técnico-Segmentos-4-y-5-versión-10.0.pdf ; https://seps.gob.ec/wp-content/uploads/Manual-de-Depositos_V6_11nov2022.pdf ; https://www.primicias.ec/economia/cooperativas-pequenas-numerosas-liquidacion-superintendencia-economia-popular-solidaria-121041/ ; https://www.vistazo.com/enfoque/ecuador-se-destaca-por-sus-soluciones-especializadas-de-core-bancario-FDVI216311 ; https://esacc.corteconstitucional.gob.ec/storage/api/v1/10_DWL_FL/e2NhcnBldGE6J3NvcnRlbycsIHV1aWQ6JzFkMjJhNzliLWNjZTQtNDZkNy04NjliLTMxZjEwOGQzMDNkZC5wZGYnfQ==",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
   },
   "tag": "w2b26"
  },

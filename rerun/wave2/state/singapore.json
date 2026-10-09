@@ -23,6 +23,18 @@
   },
   "tag": "w2b22"
  },
+ "challenge:singapore:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "Not a single killer. Caterers have had to keep an FSMS since 2014, so they are already served. SFA's free FSMS templates and generic HACCP apps (FoodDocs, ChefComply, EazyHaccp, SafetyCulture) cover the core logging. Phase 2 rules are not yet published.",
+   "reason": "I found no single product that refutes this, but it is weaker than claimed. Caterers, the core buyer, have had to submit an HACCP-based FSMS referencing SS 583 since 2014. Licences with ancillary catering were added in April 2019. So that segment already has FSMS documents and consultants. SFA publishes free FSMS templates as a Word file (temperature logs, premises checks, supplier lists, training records). Generic HACCP apps already cover the logging: FoodDocs, ChefComply, EazyHaccp, MoreFromFood, SafetyCulture's free templates, and Testo Saveris sensors. Phase 2 has no start date or FSMS details yet (\"by 2027\"). FSMS is needed only to get or keep grade A, so it is voluntary. I found no count of Category 1 establishments. The opening left is a SAFE/SS 583 wrapper for restaurants that are new to FSMS.",
+   "searches": 5,
+   "sources": "https://www.sfa.gov.sg/docs/default-source/food-retailing/fsms-templates.docx ; https://www.sfa.gov.sg/food-for-thought/article/detail/safe-framework---strengthening-food-safety-together--one-grade-at-a-time ; https://www.sfa.gov.sg/news-publications/newsroom/new-safety-assurance-for-food-establishment--safe--framework--to-strengthen-food-safety ; https://www.sfa.gov.sg/regulatory-standards-frameworks-guidelines/food-safety-management ; https://www.tuvsud.com/en-sg/knowledge-hub/articles/food-safety-management-system-for-the-hospitality-industry ; https://safetyculture.com/library/hospitality/food-safety-management-system-template ; https://www.capterra.com.sg/software/1112317/ChefComply ; https://www.capterra.com.sg/software/1100126/EazyHaccp ; https://www.testo.com/en-SG/solutions/food-safety-management ; https://ras.org.sg/resources/f-b-food-safety-hygiene-in-singapore",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b22"
+ },
  "critic:singapore": {
   "result": {
    "gaps": [
@@ -757,6 +769,20 @@
     "CSP Act AML compliance software small corporate service provider Singapore risk assessment CDD tool"
    ],
    "searches": 24
+  },
+  "tag": "w2b22"
+ },
+ "escalate:singapore:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "MOM's WSH eServices (launched 11 Aug 2023) is used by AEs to register vessels and submit examination reports, and by owners to view vessel details and reports through Corppass. It sends no reminders. AE and inspection firms such as LRQA, TUV and Munich Re HSB do the examinations and probably remind their own clients; this is unverified. Generic inspection schedulers exist (for example a Kissflow app), but I found no Singapore-specific pressure-vessel or statutory-equipment tracker. Search coverage was limited, so this is not conclusive.",
+   "duty": "WSH (General Provisions) Regulations: owners must register pressure vessels through an AE and must engage an AE before each due date. Steam boilers are due every year; air and steam receivers and autoclaves every 2 years; autoclaves also need a 6-year external shell examination; steam receivers and packaged fire-tube boilers need a 10-year shell examination; all types need a 10-year hydrostatic test and thickness gauging. An AE can extend a due date by up to 3 months. MOM stopped sending reminder notifications from 5 Aug 2023. I could not confirm the owner's penalty for missing an examination. A 2013 circular gives fines of up to S$20k or 2 years' jail for AE misconduct, and the 2024 review raised maximum WSH fines to S$50k for serious-harm offences. The registration guidelines PDF could not be parsed.",
+   "market": "Not found. MOM publishes no count of registered pressure vessels or owners that I could find; stats.mom.gov.sg was not checked. Air receivers, which sit with compressors in workshops, factories and F&B, are likely the largest group, probably several thousand owners. That figure is an estimate, not a sourced number. The AE register is small: AEs must be PEs in Pressure Vessel Engineering, with a list on MOM's site, which I did not count.",
+   "reason": "The duty is real and in force. MOM requires pressure vessels to be registered through an Authorised Examiner (AE). Steam boilers must be examined every year, air and steam receivers and autoclaves every 2 years, autoclaves also get a 6-year shell examination, and all types need a 10-year hydrostatic test and thickness gauging. Since 5 Aug 2023 MOM no longer sends owners reminders, so owners have to track due dates themselves, which is a real gap. I found no Singapore product built for this, but the core job is little more than a reminder calendar. AEs already file everything in MOM's WSH eServices and probably remind their own clients. The pain is low: the work comes every 1-2 years and the AE does it. I did not find the penalty or the number of vessels. The idea fits better as a feature inside a broader statutory-equipment tracker.",
+   "searches": 6,
+   "sources": "https://www.mom.gov.sg/workplace-safety-and-health/pressure-vessels/regular-inspections ; https://www.mom.gov.sg/eservices/services/register-and-manage-pressure-vessels ; https://www.iac.gov.sg/-/media/mom/documents/safety-health/circulars/2023/circular-20230726-new-wsh-eservices-system-enhanced-features-for-le-pv.pdf ; https://www.mom.gov.sg/faq/pressure-vessels/can-i-extend-the-due-date-for-a-pressure-vessel-examination ; https://iac.gov.sg/-/media/mom/documents/safety-health/circulars/2013/circular-20130702-prohibition-of-use-of-proxies-to-conduct-test-examination-of-equipement.pdf ; https://www.rahmatlim.com/publication/articles/28276/mom-implements-increases-in-maximum-fines-and-mandatory-video-surveillance-to-improve-workplace-safety-and-health ; https://www.munichre.com/hsb/en/services/engineering/global-inspection/international-codes/singapore-mom.html ; https://kissflow.com/appstore/annual-inspection-management-scheduling-governance",
+   "suggested_score": 3,
+   "verdict": "confirmed"
   },
   "tag": "w2b22"
  },

@@ -1,0 +1,1060 @@
+{
+ "critic:sweden": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Taxi and ride-hire operators: taxi traffic permit (taxitrafiktillstånd), taxameter, and the new taxi-law rules",
+     "first_search": "taxitrafiktillstånd nya regler 2026 taxiförare enskild firma Transportstyrelsen taxameter kontrollenhet",
+     "why": "Category 18 covered only light-van tachographs. Sweden has many sole-trader taxi firms. They hold a Transportstyrelsen permit, depend on the yrkestrafikregister, and must use a certified taxameter and control unit. Taxi law was tightened after the 2024-2025 inquiries. This is a distinct buyer group from the light-van hauliers already in the ledger."
+    },
+    {
+     "category": "Alcohol serving licences (serveringstillstånd) and egenkontroll for small restaurants and bars",
+     "first_search": "serveringstillstånd årlig redovisning alkoholomsättning kommun tillsynsavgift egenkontroll alkohollagen småföretag",
+     "why": "Municipal alcohol licences carry the duty to file annual alcohol turnover statements (alkoholförsäljning) with the municipality for the licence fee, plus egenkontroll under alkohollagen. Restaurants and cafes are among Sweden's most numerous small operators. Category 34 covers only personalliggare, and the farm-gate alcohol idea in known (K22) is a different buyer group."
+    },
+    {
+     "category": "Reindeer herding, sami villages and small forestry/hunting/fishing operators (rennäring, jakt, fiske)",
+     "first_search": "renskötsel rapportering Sametinget Länsstyrelsen renlängd slakt rovdjursersättning samebyar administration",
+     "why": "Category 6 and 7 covered livestock transport and slaughter, but not reindeer herders. Samebyar and herders must keep records and report to Länsstyrelsen and Sametinget. Reindeer slaughter and predator-compensation reporting add duties. Reindeer herding is a Sweden-specific sector with many family firms. Related checks: fishing-licence and catch reporting by small commercial fishers and fish farmers (K17 only covers the logbook)."
+    },
+    {
+     "category": "Food business registration and egenkontroll for small food operators and food-contact importers (livsmedelsföretag) including the new Livsmedelsverket e-registration",
+     "first_search": "livsmedelsföretag registrering kommun årlig kontrollavgift egenkontroll HACCP småföretag nya regler 2026 livsmedelskontroll",
+     "why": "Category 20 lists farm-shop and food-producer egenkontroll only as a weak idea. Sweden has tens of thousands of registered food businesses (cafes, kiosks, pizzerias, food trucks). They register with the municipality, pay annual control fees, and face the 2024-2026 changes to food-control fees and the allergen and origin rules. The pass did not check the municipal annual-fee and registration duties directly."
+    },
+    {
+     "category": "Beekeepers, apiary registration and other small animal-keeper registers (Jordbruksverket) -- category 8 was not_reached",
+     "first_search": "biodlare registrering bigård Jordbruksverket anmälan bisjukdomar lagen om provtagning på djur djurhållare register",
+     "why": "The one search returned nothing, so the register duty was never confirmed. Sweden has a registration duty for animal keepers (djurhållare) with Jordbruksverket and a national bee-disease control (bisjukdomar, biodlare, bigårdsregistrering). Sheep and goat, horse (hästregister) and poultry keepers must also register their holdings and report movements. This needs to be run again with Swedish terms."
+    },
+    {
+     "category": "Taxi, transport, delivery and platform couriers: food-delivery and cargo-bike sole traders, plus mandatory F-skatt and platform reporting for gig workers",
+     "first_search": "plattformsarbete direktiv genomförande Sverige utredning 2026 budbolag skatteverket kontroll F-skatt kurir",
+     "why": "The 2024-2026 coverage of platform and gig work is thin. DAC7 was noted but only as a platform duty. A gig-courier sole trader has to keep a tax record and meet F-skatt and VAT duties, and Skatteverket has run control actions on the restaurant and delivery sectors. The EU Platform Work Directive must be implemented by December 2026 and Sweden has an inquiry underway. A research pass should check the national bill and what duty falls on the small operator."
+    }
+   ]
+  },
+  "tag": "w2b22"
+ },
+ "discover:A:sweden": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Police-registered dealers in used goods (jewellery and precious metals, bikes, mobiles, computers, boats, mopeds), gold-buying shops and second-hand shops",
+     "category": "3. Second-hand dealers and pawnbrokers / 4. Gold and jewellery buyers",
+     "evidence": "https://polisen.se/en/services-and-permits/permits-and-licences/trade-in-second-hand-goods/ ; https://data.riksdagen.se/dokument/sfs-1999-272.html ; https://polisen.se/sv-ll/tjanster-tillstand/tillstand-ansok/begagnade-varor/ . Two searches found no dedicated inköpsnota software, but a search result stated that the rules do not say the notes must be on paper; digital acceptance was not confirmed.",
+     "existing": "None found for inköpsnota. General POS and kassasystem exist (cash-register rules are a separate duty).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Inköpsnota Keeper: digital purchase-note register for registered second-hand and gold dealers",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Lag 1999:271 and förordning 1999:272: register with the police before trading. Numbered chronological inköpsnotor with date, item, make and serial number, price, and seller ID. Items tagged to the note, held one month before resale or processing, notes kept 10 years, police may demand copies and systematic reporting.",
+     "unchecked": "Number of registered dealers (ask police). Whether police accept digital or electronic notes and how they require 'systematic reporting'. Whether an existing POS handles notes (e.g. pawn or gold-buying vendors). Demand among small gold buyers, since large chains may have in-house systems."
+    },
+    {
+     "buyer": "Small hauliers, courier and craft firms running 2.5-3.5 t vans internationally or doing cabotage",
+     "category": "18. Transport operators",
+     "evidence": "https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2026/fler-omfattas-av-eus-kor--och-vilotidsregler/ ; https://www.ela.europa.eu/sites/default/files/2026-08/Driving%20light%20commercial%20vehicles_SV.pdf ; https://bilweb.se/nyheter/965/fler-ska-omfattas-av-eu-s-kor-och-vilotidsregler . The Transportstyrelsen page gives no count of affected firms.",
+     "existing": "Sveriges Åkeriföretag member service for driving and rest-time analysis (2024 document, https://www.akeri.se/sites/default/files/2024-01/sa_analys_2024_0114.pdf). Card-reader and download vendors presumably exist but the search found no specific products.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Light-van tachograph and driving-time desk for small hauliers (2.5-3.5 t international and cabotage)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "From 1 Jul 2026 EU driving and rest time rules apply to international goods transport with 2.5-3.5 t vehicles: smart tachograph v2, driver card, company card, data download and 12-month storage, working-time instructions.",
+     "unchecked": "Count of affected firms. Competing tachograph analysis and fleet SaaS. Value is tied to hardware retrofitting by accredited workshops, which a solo founder cannot supply. Many firms may only buy installation."
+    },
+    {
+     "buyer": "Samfällighetsföreningar and other small shared waterworks serving homes or food businesses",
+     "category": "13. Small water systems",
+     "evidence": "https://e-tjanster.kristianstad.se/oversikt/getflowform/273/151 ; https://www.foretag.vaxjo.se/download/18.6b72feac17955ce547bec79/1710926674592/Program%20f%C3%B6r%20regelbundna%20unders%C3%B6kningar%20och%20dokumentation%20av%20egenkontroll%20f%C3%B6r%20dricksvattent%C3%A4kt.pdf ; https://sundsvall.se/kommun/bygga-bo-och-miljo/vatten-och-avlopp/dricksvatten/eget-dricksvatten",
+     "existing": "Municipal templates and SPAT (water sampling) agreements. No dedicated software found, but no competitor search run.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Shared-waterworks compliance kit for samfällighetsföreningar (faroanalys, undersökningsprogram, raw-water sampling)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "LIVSFS 2022:12: registration with the municipal nämnd, faroanalys and undersökningsprogram approved by the nämnd and valid at most 6 years, raw-water sampling from 2026 (Kristianstad template), notice to members of results.",
+     "unchecked": "Number of such shared waterworks. Whether the 2026 raw-water sampling starts uniformly. Competitor search (no budget left). Distinct buyer from K06 (own wells) but same duty family."
+    },
+    {
+     "buyer": "Tattoo and piercing studios and similar hygienic-treatment businesses",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://habokommun.se/globalassets/naringsliv-och-arbete/tillstand-regler-och-tillsyn/dokument/hygienlokaler/information-om-anmalningspliktiga-hygienlokaler.pdf ; https://www.sverigesradio.se/artikel/5468263",
+     "existing": "Municipal forms and PDFs. No software found; no competitor search run.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Hygiene-premises notification and egenkontroll pack (tattoo, piercing, other hygienic treatment)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Miljöbalken: anmälan to the municipality 6 weeks before start (3,000 SEK sanction fee if missed), drawing of premises, egenkontroll documentation (Socialstyrelsen guidance), ink labelling and written ink information, inspection about every other year in one municipality.",
+     "unchecked": "Number of studios; one-off notification per business plus light egenkontroll means low recurring pain."
+    },
+    {
+     "buyer": "Small shops selling e-cigarettes and refills, tobacco-free nicotine products (tobacco itself needs a municipal permit)",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://lagen.nu/2019:223 ; https://www.mark.se/download/18.7941165618efbb868ada73cf/1713859276623/Anvisning%20egenkontrollprogram%20e-cigaretter%20och%20p%C3%A5fyllningsbeh%C3%A5llare.pdf ; https://www.lansstyrelsen.se/dalarna/samhalle/social-hallbarhet/andts/tillsyn-inom-alkohol-tobak-och-nikotinprodukter/nya-regler-for-nikotinprodukter.html",
+     "existing": "Municipal guidance and template programs.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Egenkontrollprogram for e-cigarette and nicotine-product retailers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Lag 2018:2088 and förordning 2019:223: notify the municipality before sale with a written egenkontrollprogram; annual supervision fee in some municipalities; tobacco-free nicotine products need notification since 1 Aug 2022.",
+     "unchecked": "Number of sellers; whether any recurring reporting beyond notification exists."
+    },
+    {
+     "buyer": "Ideella föreningar and other non-profits, especially those collecting or forwarding money",
+     "category": "17. Community and religious bodies",
+     "evidence": "https://data.riksdagen.se/dokument/sfs-2017-631.html ; https://lagen.nu/dir/2023:49 ; https://data.riksdagen.se/dokument/HBB149",
+     "existing": "Bolagsverket's own e-service. No third-party tool searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Beneficial-owner register filings for associations (Bolagsverket) if widened",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Lag 2017:631: associations register only once a beneficial owner is named to a bank or other obliged entity (4-week deadline); fundraising associations must register board and signatories. Dir. 2023:49 asked for registration of nearly all legal persons and management. Outcome and in-force date of any wider duty are not verified.",
+     "unchecked": "Whether the penningtvättsutredning's SOU or a bill extends the register to all associations, and the start date (the EU AML regulation is understood to apply from mid-2027, unverified here). Competitor search not run. Free state e-service may make it a low-pain filing."
+    },
+    {
+     "buyer": "Small registered currency exchangers and other small financial businesses",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://regeringen.se/contentassets/d460b6e785d44c18921e6b32c9b73ae5/forstarkt-reglering-av-valutavaxlare-och-andra-finansiella-institut.pdf ; https://data.riksdagen.se/dokument/HB01FiU7",
+     "existing": "AML software and consultants exist generally; not searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Currency-exchange office compliance (FI registration, owner and management review, suspicious-transaction reports)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Registration with Finansinspektionen mandatory for all providers from 1 Jan 2024; annual review of owners and management; suspicious-transaction reporting to the police (Penningtvättslagen).",
+     "unchecked": "Number of registered exchangers; goAML channel not confirmed. Likely served by AML vendors and consultants."
+    },
+    {
+     "buyer": "Länsstyrelsen-authorised bilskrotare and small dismantlers",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://www.naturvardsverket.se/vagledning-och-stod/avfall/bilskrotning/ ; https://lagen.nu/2007:186",
+     "existing": "Not checked; scrapper industry systems probably exist (e.g. via the producer-responsibility body).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Authorised car-scrapper (bilskrotare) certificate and reporting tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Bilskrotningsförordning 2007:186: authorisation (max 5 years), mottagningsbevis and skrotningsintyg sent electronically to Transportstyrelsen, direct-notification rules in förordning 2019:383; since 1 May 2023 owners may hand end-of-life cars only to producers' systems or authorised scrappers.",
+     "unchecked": "Existing scrapper software, number of authorised scrappers, and the exact electronic reporting channel."
+    },
+    {
+     "buyer": "Small trafikskolor with a Transportstyrelsen permit",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2026/trafikskola-forlorar-tillstand-efter-allvarliga-brister/ ; https://transportstyrelsen.se/infotrafikskola ; https://www.transportstyrelsen.se/sv/vagtrafik/korkort/foretag/forarutbildning-och-kunskapsprov/tillstand/",
+     "existing": "Not searched; driving-school booking software almost certainly exists.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Driving-school (trafikskola) register and student-card tool",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Lag om trafikskolor 1998:493: permit, approved manager and training manager, staff and premises reported, teaching plan filed, training cards and student register kept for the current and previous year; unpermitted operation can now carry prison up to 2 years; April 2026 permit revocation of Körskolan i Piteå (court upheld).",
+     "unchecked": "Competitor search not run (budget). Existing driving-school systems and how they handle utbildningskort and the elevregister. Number of schools."
+    },
+    {
+     "buyer": "Jaktlag and älgskötselområden",
+     "category": "20. Small licensed premises with inspections (hunting)",
+     "evidence": "https://www.lansstyrelsen.se/nationellt-innehall/djur/jakt-och-vilt/algjakt.html ; https://jagareforbundet.se/globalassets/nationella-block/nyhetsbrev_vov_260707.pdf",
+     "existing": "Älgdata (state), Viltdata and its app (Jägareförbundet), Jaktrapport, Wehunt.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Älgdata and Viltdata hunting-team reporting",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Report each moose within 14 days and a final closing report in Älgdata; fee paid after closing.",
+     "unchecked": "Nothing material; free state and association tools already cover it."
+    },
+    {
+     "buyer": "Small abattoirs, mobile and farm slaughter operators",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/slaktvolymen-for-gardsslakteri_gh02l709/ ; https://www.ksla.se/wp-content/uploads/2024/08/7.-Dahlbom-och-Bransell.pdf",
+     "existing": "None found.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Small abattoir and farm-slaughter paperwork",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Motion 2025/26:2642 asks for simpler rules (slaughter days notified well ahead, limited use of local vets); RISE guidelines 2025:3 for small-scale slaughter; nothing enacted.",
+     "unchecked": "Number of small slaughterhouses; which records are mandatory (Livsmedelsverket rules not read)."
+    },
+    {
+     "buyer": "Gårdsbutiker, farm dairies, egg packers, small food producers",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://www.ale.se/download/18.36fad92218bcc47b33c240/1699987209388/Starta%20livsmedelsverksamhet.pdf ; https://kontrollwiki.livsmedelsverket.se/artikel/print/pdf/110",
+     "existing": "Rentokil digital egenkontroll; Chefstein (Finnish tool for professional kitchens); municipal templates; Livsmedelsverket branschriktlinjer.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Farm-shop and small food producer egenkontroll",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Registration with the municipality at least 14 days before opening (fee e.g. 1,650 SEK in Ale) plus written egenkontroll; primary producers register with Länsstyrelsen.",
+     "unchecked": "Whether a tool aimed at small farm producers exists."
+    },
+    {
+     "buyer": "Scrap-metal dealers",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/hardare-reglering-av-handel-med-metallskrot_ha02940/ ; https://regeringen.se/contentassets/7307f2c1c7b343be8fd0f075684d9fd7/handel-med-begagnade-varor-och-med-skrot---vissa-kontrollfragor-sou-201472",
+     "existing": "None relevant.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Scrap-metal trade licensing watch item",
+     "score": 1,
+     "status": "weak",
+     "trigger": "A cash ban and permit requirement have been proposed repeatedly (SOU 2014:72, motion 2024/25:1462) but no law was found.",
+     "unchecked": "Whether the Miljöstraffrättsutredningen (M 2022:4) or a bill proposes a new regime."
+    },
+    {
+     "buyer": "Private persons paying nannies, cleaners or carers",
+     "category": "1. Household employers",
+     "evidence": "https://www.skatteverket.se/download/18.1522bf3f19aea8075ba32c5/1765961519362/forenklad-arbetsgivardeklaration-for-privata-tjanster-skv448-utgava31.pdf ; https://skatteverket.se/anlitaenprivatperson",
+     "existing": "Free Skatteverket form. Payroll vendors (general payroll is out of scope).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Household employer simplified declaration (SKV 448)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Monthly simplified employer declaration for pay above about 10,000 SEK per person per year (lönebesked, tax and contributions due the 12th).",
+     "unchecked": "Number of households filing; any done-for-you services."
+    },
+    {
+     "buyer": "Assistance providers and users",
+     "category": "1. Household employers",
+     "evidence": "Listed in the study already.",
+     "existing": "Approved suppliers.",
+     "known_id": "K11",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K11, already rejected.",
+     "name": "Personal-assistance time reporting",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Late reports no longer paid from 2026.",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Equine vets",
+     "category": "9. Veterinary practices",
+     "evidence": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svar-pa-skriftlig-fraga/obligatorisk-rapportering-av-veterinarers_hd12344/",
+     "existing": "",
+     "known_id": "K10",
+     "known_mark": "known",
+     "known_note": "Same as K10.",
+     "name": "Horse-medicine reporting by vets",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "From 1 Jan 2026, per written question 2025/26:344.",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Farmers",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "Not re-checked.",
+     "existing": "",
+     "known_id": "K09",
+     "known_mark": "known",
+     "known_note": "Same as K09.",
+     "name": "Electronic sprutjournal for farmers / pesticide records",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "EU 2023/564.",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Well drillers",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://resource.sgu.se/dokument/publikation/rm/rm44rapport/rm44-rapport.pdf ; https://www.osthammar.se/globalassets/dokument/information/vattenforeskrifter-borstil-ed/bilaga-6---sgu-brunnar.pdf",
+     "existing": "",
+     "known_id": "K05",
+     "known_mark": "known",
+     "known_note": "Overlaps K05 (SGU protocol); no separate score.",
+     "name": "Energy-well and drilled-well reporting to SGU (lag 1975:424)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Drillers must send well logs to SGU's Brunnsarkiv; about 80% of new wells reported per a municipal source.",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Property owners and brf",
+     "category": "12. Lift, boiler and pressure-equipment owners",
+     "evidence": "Not re-checked.",
+     "existing": "",
+     "known_id": "K16",
+     "known_mark": "known",
+     "known_note": "Same as K16.",
+     "name": "OVK ventilation inspection protocols",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Mandatory ventilation control; certificate displayed.",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Waste collectors and sludge producers",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://www.regeringen.se/contentassets/ad861afad6d64ee99daafbf75f7d1b02/skara-kommun.pdf",
+     "existing": "",
+     "known_id": "K07",
+     "known_mark": "known",
+     "known_note": "Same buyer group and duty family as K07 and K08.",
+     "name": "Waste and sludge reporting by collectors and plants",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Collector statistics; proposed sludge register at Naturvårdsverket (31 March deadline), status unverified.",
+     "unchecked": ""
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Private employers use Skatteverket's simplified employer declaration SKV 448 (monthly, due the 12th; threshold about 10,000 SEK per person per year). Low frequency, free state form, no software gap seen. Personal-assistance reporting is K11; work-permit conditions are K04.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No new law in force. Only motions and SOU 2014:72 proposing a cash ban and permits; the issue is now with the Miljöstraffrättsutredningen (M 2022:4). Watch item only.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Dealers in listed used goods must register with the police and keep numbered chronological purchase notes (inköpsnotor) under lag 1999:271 and förordning 1999:272. The notes must be kept for 10 years, goods held one month, and goods tagged to the note. Pawnbanks fall under pantbankslagen 1995:1000 and are out of this regime. See candidate C1.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Same regime as category 3: gold, silver, platinum, gems and jewellery are on the registrable-goods list. Cash-register (kassaregister) rules also apply. See candidate C1.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Länsstyrelsen authorises scrappers under bilskrotningsförordning 2007:186 (max 5 years). Authorised scrappers issue mottagningsbevis and skrotningsintyg to Transportstyrelsen electronically. Existing systems were not checked. Weak candidate C8.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Länsstyrelsen inspects animal transport vehicles. By-product transporters register with Jordbruksverket. No new reporting duty or 2026 rule found. Nothing new beyond K10.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Only motion 2025/26:2642 on simpler rules for small abattoirs, plus RISE guideline 2025:3 for small-scale slaughter. No enacted change. Weak candidate C10.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "One search returned nothing on apiary registration. Whether bee yards must be registered with Jordbruksverket could not be confirmed. Unverifiable.",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Veterinary reporting framework re-enabled 1 Oct 2025 (prop. 2024/25:91, djurhälsodata). Horse-medicine reporting from 1 Jan 2026 (written question 2025/26:344) is K10. Nothing new beyond K10.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Drillers must send well logs to SGU's Brunnsarkiv under lag 1975:424. About 80% of new wells are reported according to a municipal source. Overlaps K05.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Municipal procurement of sludge emptying (kommunal slamtömning). A proposed sewage-sludge register at Naturvårdsverket (due 31 March) only appears in a consultation response, with small sewage plants and samfälligheter objecting; in-force status not verified. Nothing new beyond K07 and K08.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Lifts get annual inspection by an accredited body (Boverket BFS 2025:11, per a vendor, unverified). No owner register found. OVK is K16. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Under LIVSFS 2022:12, small shared waterworks need a faroanalys and undersökningsprogram approved by the municipality (valid at most 6 years), plus raw-water sampling from 2026 (per Kristianstad's template). Buyer group is samfällighetsföreningar and shared waterworks. See candidate C3 (related K06).",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Kemikalieinspektionen runs an e-portal for annual quantity reporting by product-approval holders, importers and sellers. Class 3 purchase-certificate checks were only a 2019 consultation proposal. Sprutjournal is K09. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "No licensing or register for staffing agencies in Sweden. Lag 1993:440 needs no permit, and a registration idea was only discussed in a working group. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Burial is run by Svenska kyrkan parishes (plus Stockholm and Tranås municipalities); Länsstyrelsen supervises. No funeral-director register or new rule found. Bouppteckning is K12. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Associations only register beneficial owners after giving the owner's details to a bank or other obliged entity (lag 2017:631, 4-week deadline). Dir. 2023:49 aims to widen this to all legal persons. The outcome and start date were not verified. Älgdata and Viltdata are free hunting-team reporting channels. See C6 and C9.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "From 1 Jul 2026 international transport and cabotage with 2.5-3.5 t vehicles needs a smart tachograph v2, driver and company cards, and driving and rest time rules (Transportstyrelsen). Taxi: annual taxameter inspection, April 2026 compliance report says compliance is high, no new rule found. See C2.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers: FI registration required for all since 1 Jan 2024, plus annual owner and management review and suspicious-transaction reporting to the police. Small and niche. Weak candidate C7.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Tattoo and piercing studios notify the municipality 6 weeks ahead and keep egenkontroll. Driving schools need a Transportstyrelsen permit, with student register and training cards, and a Piteå permit was revoked in April 2026. Private pedagogisk omsorg needs municipal approval. E-cigarette and nicotine-product retailers notify and need an egenkontrollprogram. Farm shops register with the municipality and need egenkontroll. Älgdata and Viltdata cover hunting teams. See C4, C5, C9, C10, C11, C12.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "skrothandlare metallskrot registrering lag polisen kabelstölder ny lag 2026",
+    "bilskrotare auktorisation bilskrotningsregistret rapportering Transportstyrelsen bildemontering",
+    "bigårdsregistrering Jordbruksverket biodlare registrera bigård krav",
+    "brunnsborrare SGU brunnsarkivet rapportera borrade brunnar krav",
+    "slamtömning slamsugare avloppsanläggning kommun register entreprenör rapportering",
+    "hiss periodisk besiktning fastighetsägare register Boverket krav bostadsrättsförening",
+    "verklig huvudman ideell förening registrering Bolagsverket krav",
+    "färdskrivare lätta lastbilar 2,5 ton internationell transport 1 juli 2026 åkeri",
+    "second hand pantbank guldköpare registrering lag handel med begagnade varor polisen anmälan",
+    "djurtransport transportör tillstånd Jordbruksverket djurtransportör journal rapportering 2026",
+    "småskaligt slakteri gårdsslakt mobilt slakteri Livsmedelsverket nya regler 2026 egenkontroll",
+    "privatperson anställa hushållsarbete nanny städare arbetsgivardeklaration Skatteverket",
+    "bemanningsföretag registrering tillstånd krav ny lag 2026 arbetsmiljöverket bemanningsregister",
+    "tatuerare tatueringsstudio anmälan kommun hygienlokal egenkontroll krav",
+    "trafikskola tillstånd Transportstyrelsen krav trafikskolor register rapportering körkortsutbildning 2026",
+    "begravningsbyrå gravplats begravningsavgift Svenska kyrkan gravsättning registrering tillsyn ny lag",
+    "tobak e-cigaretter detaljhandel anmälan kommun egenkontrollprogram tillsyn 2026",
+    "taxi taxiföretag taxameter kontrollenhet krav nya regler 2026 Transportstyrelsen",
+    "pedagogisk omsorg enskild förskola anmälan kommun Skolinspektionen ny lag 2026",
+    "valutaväxling växlingskontor registrering Finansinspektionen penningtvätt rapportering"
+   ],
+   "searches": 27
+  },
+  "tag": "w2b22"
+ },
+ "discover:B:sweden": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small private dental clinics and sole-practitioner dentists that started before 1 Jan 2026 and are not in IVO's vårdgivarregister or lack a permit. Praktikertjänst's remissvar expects about 2,800 applications from private dental providers up to 2 Jan 2029.",
+     "category": "31. Private dental care providers (tandvårdslagen) permit and Försäkringskassan connection",
+     "evidence": "https://regeringen.se/rattsliga-dokument/departementsserien-och-promemorior/2026/06/nya-overgangsbestammelser-med-anledning-av-tillstandsplikt-for-privata-tandvardgivare/ ; https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/starkt-kontroll-over-tandvardssektorn_hd01sou7/html/ ; https://tandlakarforbundet.se/app/uploads/2026/06/Sveriges-Tandlakarforbund_Remissvar-Promemoria-overgangsbestammelser-med-anledning-av-tillstandsplikt-for-privata-tandvardgivare.pdf ; https://www.forsakringskassan.se/tandvard/for-dig-inom-tandvarden/anslutning-till-det-statliga-tandvardsstod . Per the sources: IVO has decided 7 permit cases (6 refusals, 1 approval); processing takes months; the application fee is estimated at SEK 30,000; TEV wants forms adapted for small clinics.",
+     "existing": "Competitor search 'tandläkare ansöka tillstånd IVO hjälp mall konsult tjänst' found no consultant, template or software offer; only IVO forms and association contacts. Not exhaustive.",
+     "known_mark": "new",
+     "name": "Dental IVO Permit and Register Pack for small private dental clinics",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Permit duty for private dental providers from 1 Jan 2026 (IVO). Connection to the state dental subsidy requires entry in the vårdgivarregister. Ministry memo of 8 Jun 2026 proposes: apply before 1 Jan 2027 and keep operating until the final decision; proposed in force 23 Aug 2026 (a proposal, not decided). The Försäkringskassan connection fee proposal (SEK 5,000 per clinic) is unconfirmed.",
+     "unchecked": "Whether the transitional rule was adopted; real count of unregistered small clinics; IVO's e-service and forms; whether dental software vendors (e.g. Carestream/Julie-type systems) or Tandläkarförbundet offer application help; willingness to pay given a SEK 30,000 fee and a one-off, deadline-driven need; whether the IVO scrutiny is mostly about owner suitability and finances (less software-solvable)."
+    },
+    {
+     "buyer": "Sports clubs and other associations holding Spelinspektionen licences for bingo or lotteries (the audit covered 17 holders). Registered small lotteries are municipal or controller-based and are a larger pool, count unconfirmed.",
+     "category": "32. Non-profit lotteries, bingo and public-benefit gaming (spellagen / Spelinspektionen)",
+     "evidence": "https://casinobeats.com/se/2026/04/20/spelinspektionen-slar-till-mot-15-ideella-licenshavare/ (fetch returned 410; used the search snippet) ; https://www.spelinspektionen.se/globalassets/dokument/tillsynsbeslut/avskrivna/karlholms-goif---anmarkning-och-sanktionsavgift-forandring-i-personkrets-2026-04-09.pdf ; https://lagen.nu/sifs/2019:1 ; https://www2.spelinspektionen.se/globalassets/dokument/ansokningsblanketter/spel-for-allmannyttigt-andamal/lotteri---vagledning-for-kalkyl-och-redovisning.pdf",
+     "existing": "Competitor search 'bingo lotteri program förening licens Spelinspektionen styrelseändring...' found no dedicated association software, only Spelinspektionen forms and guidance. Not exhaustive.",
+     "known_mark": "new",
+     "name": "Non-profit lottery and bingo licence compliance kit (14-day board-change alert, redovisning, spelrapport)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "4 kap. 11 § spellagen: report changes in the 'personkrets' within 14 days. 15 non-profits sanctioned in April 2026 (e.g. Karlholms GoIF SEK 7,000 sanction fee). SIFS 2026:1 supervisory fees from 1 Mar 2026. Redovisning form per lottery and running game report for technical bingo (SIFS 2019:1).",
+     "unchecked": "Number of non-profit licence holders (likely small, tens to a few hundred); whether bingo hall suppliers or association-management systems (e.g. Idrottonline-type) already alert on board changes; sanction sizes are small (SEK 7,000), so willingness to pay is doubtful."
+    },
+    {
+     "buyer": "Small shops, restaurants and kiosks using older certified cash registers",
+     "category": "33. Cash registers (kassaregister) and control units",
+     "evidence": "https://bjornlunden.com/se/bjornkoll/blogg/nasta-ar-infors-nya-regler-for-kassaregister/ (blog, not Skatteverket; unverified)",
+     "existing": "Cash register vendors will handle compliance; not searched.",
+     "known_mark": "new",
+     "name": "Cash register 2027 XML-export replacement check for small retailers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "SKVFS 2021:17 requirements apply from 1 Jan 2027: registers with journal memory must export registrations in XML.",
+     "unchecked": "Skatteverket's own page; how many registers are non-compliant; vendor upgrade paths. The duty is mainly on vendors."
+    },
+    {
+     "buyer": "Kiosks, grocers and petrol-station shops selling tobacco or tobacco-free nicotine products",
+     "category": "35. Tobacco and nicotine product retail (tobakslagen)",
+     "evidence": "https://www.fohm.se/contentassets/77cf1730be594cc19f2522a9a9c0ca2c/vagledning-for-kommunernas-och-polismyndighetens-tillsyn-over-detaljhandel-tobaksprodukter.pdf ; https://www.svenskhandel.se/api/documents/remissvar/remissyttrande-foreskrifter-egenkontrollprogram-och-kontrollkop_svensk-handel.pdf",
+     "existing": "Not searched; Svensk Handel and municipal templates exist.",
+     "known_mark": "new",
+     "name": "Nicotine/tobacco retailer notification and egenkontrollprogram service",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Municipal permit for tobacco (since 2019). Prior notification for nicotine products (Aug 2022) with egenkontrollprogram. Folkhälsomyndigheten's rules on egenkontroll programmes and test purchases in consultation; a county board proposed a permit for nicotine products (unconfirmed).",
+     "unchecked": "Final egenkontroll regulation and date; number of notified sellers; existing templates and apps; competitor search was not run."
+    },
+    {
+     "buyer": "Permit holders of petrol stations",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/Luftkvaliet-i-tatorter/bensingasaterforing ",
+     "existing": "Not searched; the accredited testers and fuel-chain operators likely handle it.",
+     "known_mark": "new",
+     "name": "Petrol-station vapour-recovery and driftjournal tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Annual control measurement of the vapour-return system by an accredited body; driftjournal per pump; measurements after major works (Transportstyrelsen). Automatic monitoring systems allow 3-yearly checks.",
+     "unchecked": "Number of independent stations; whether tank-monitoring vendors cover it; no 2026 change found."
+    },
+    {
+     "buyer": "Micro and small importers or traders of wood and derived products",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://business.gov.nl/amendments/only-imports-deforestation-free-products-allowed-eudr/ ; https://www.skogsindustrierna.se/siteassets/bilder-och-dokument/hero-banner-och-landningssidor/prioriterade-fragor/eudr-informationspaket/2.-skogsindustriernas-eudr-fragor-och-svar_250815.pdf",
+     "existing": "K13 competitors (Descartes, Pinja, Stratsys, Biometria VIOL) cover forestry. Importer-side tools not searched.",
+     "known_id": "K13",
+     "known_mark": "known",
+     "known_note": "Same EUDR duty but for importers rather than forest owners; related K13.",
+     "name": "EUDR readiness for small Swedish wood importers and traders",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "EUDR: 30 Dec 2026 for large operators and 30 Jun 2027 for SMEs per a Dutch government page (dates unconfirmed after the Dec 2025 postponement).",
+     "unchecked": "Current EU dates; number of small Swedish wood and paper importers; importer-focused tools."
+    },
+    {
+     "buyer": "Small advisory firms and dealers registered in Bolagsverket's AML register",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with AML reports",
+     "evidence": "https://www.lansstyrelsen.se/skane/samhalle/betalning-ekonomi-och-pengar/forhindra-penningtvatt-och-finansiering-av-terrorism.html ; https://www.regeringen.se/contentassets/e1509a6be3d5484f9eb72a0f79ff00dd/lansstyrelsen-i-stockholms-lan.pdf",
+     "existing": "Not searched; accounting vendors and AML SaaS likely exist.",
+     "known_mark": "new",
+     "name": "AML onboarding pack for Länsstyrelsen-supervised small firms (pantbanker, accounting and tax consultants, company formation agents, cash goods and art dealers)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Penningtvättslagen (2017:630); register with Bolagsverket; risk assessment and customer due diligence; EUR 5,000 cash threshold for goods dealers (figure from a consultation response, may be out of date).",
+     "unchecked": "No periodic report identified, so this may be a generic compliance tool; EU AMLR timing (mid-2027) not checked; competitor search not run."
+    },
+    {
+     "buyer": "Small independent real estate brokerages registered with FMI",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with AML reports",
+     "evidence": "https://fmi.se/media/vb3logmb/rapport-tematillsyn-maklarforetags-arbete-mot-penningtvatt.pdf ; https://www.realtid.se/fastighetsmaklare-i-riskzonen-penningtvatt/",
+     "existing": "Brokerage systems (not searched); likely covered by incumbent broker software.",
+     "known_mark": "new",
+     "name": "Estate-agent AML (FMI) risk assessment and customer due diligence tool",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "SAMO raised broker AML risk to high; FMI thematic review and disciplinary removals for missing customer due diligence and risk profiles; low suspicious-transaction reporting.",
+     "unchecked": "Competitor search not run; which broker systems already include KYC; Realtid dates were inconsistent."
+    },
+    {
+     "buyer": "Small hemtjänst and LSS companies",
+     "category": "37. Private social-care providers (hemtjänst, LSS, HVB) under IVO permit and LOV contracts",
+     "evidence": "https://www.ivo.se/globalassets/dokument/publikationer/rapporter/rapporter-2026/starkt-tillsyn-inom-aldreomsorgen.pdf ; https://doc.taby.se/handlingar/Äldrenämnden/2025/2025-10-20/Handlingar/07.03 Rapport Avtalsuppföljning hemtjänst och dagverksamhet.pdf",
+     "existing": "Not searched; likely care-system vendors.",
+     "known_id": "K11",
+     "known_mark": "new",
+     "name": "Private home-care and LSS provider IVO permit and egenkontroll pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "IVO permit with owner and management assessment; LOV contract follow-ups of permit, finances, insurance and egenkontroll; Jan 2026 government assignment to IVO on stronger elder-care supervision.",
+     "unchecked": "Any new 2026 periodic filing; competitor search not run."
+    },
+    {
+     "buyer": "Small electrical contractors",
+     "category": "36. Electrical installation firms (elsäkerhetslagen 2016:732)",
+     "evidence": "https://www.elsakerhetsverket.se/globalassets/pdf/anlaggning/egenkontrollprogram/mall-för-dokumentation-av-egenkontrollprogram.pdf (URL as returned in search, spaces/diacritics may differ)",
+     "existing": "Free Elsäkerhetsverket template; trade-body templates; not searched further.",
+     "known_mark": "new",
+     "name": "Elinstallation egenkontrollprogram and registration helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Registration with Elsäkerhetsverket, appointed elinstallatör för regelefterlevnad, egenkontrollprogram (ELSÄK-FS 2017:3).",
+     "unchecked": "2026 changes not found; low recurrence of filing."
+    },
+    {
+     "buyer": "Private hosts and small B&B or cabin operators",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "No Swedish source found. DAC7 duty is on platforms: https://www.skatteverket.se/plattformsekonomi",
+     "existing": "n/a",
+     "known_mark": "new",
+     "name": "Short-term rental host registration (EU 2024/1028) in Sweden",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "EU data regulation applies from 20 May 2026; Swedish implementation, host registration or register not found.",
+     "unchecked": "Swedish implementing law, designated authority, Boverket or Tillväxtverket pages; Swedish tourism is not a registered-accommodation regime as far as found."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Fuel-law reporting (hållbarhetsbesked, reduktionsplikt) is being rewritten by Energimyndigheten (STEMFS 2025:5 apparently replaces STEMFS 2017:3, content not confirmed) and targets distributors, not small stations. Station-level duties: annual vapour-recovery control measurement by an accredited body plus a driftjournal per pump (Transportstyrelsen); municipal LBE permits; new MCFFS 2026:2 (Jan 2026) tells municipalities how to plan LBE supervision (state-side). Nothing a solo founder clearly owns; no competitor check run.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Only Jordbruksverket grain-stock statistics (farm survey) and TRACES plant-health import notifications surfaced. No licensing register or periodic duty for small grain traders found. Feed-business registration not confirmed (search returned nothing on it). Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Ekonomiska föreningar file annual reports and beneficial-owner notices with Bolagsverket (existing duties). SOU 2026:59 proposes a micro-company category in the annual accounts act from 1 Jan 2028 (proposal only). Nothing new beyond K01.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Strong 2026 trigger: private dental providers need an IVO permit from 1 Jan 2026, and must be in IVO's vårdgivarregister before connecting to Försäkringskassan's tandvårdsstöd. Ministry memo of 8 Jun 2026 proposes a new transitional rule (apply before 1 Jan 2027, in force 23 Aug 2026). IVO has decided only 7 cases so far (6 refusals). See candidate. No other clinic-billing duty found.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Läkemedelsverket permits under the narcotics control act (1992:860) and precursor rules exist, but searches returned only old statute versions. No periodic reporting duty for small businesses confirmed. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Security guard firms are approved by Länsstyrelsen (rules from SOU 2021:38, outcome not confirmed). Personalliggare does not cover general cleaning or staffing. ID06 asked in Dec 2024 (response to SOU 2024:61) that cleaning and transport be considered, but the government did not extend the ledger. No firm trigger.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "found": "Byggherre must register each building site with Skatteverket and provide electronic personalliggare equipment. The exemption threshold is 4 price base amounts (SEK 236,800 excl. VAT for 2026). Mature market (ID06, personalliggare vendors). No new 2026 rule found.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with AML reports",
+     "found": "FMI supervises brokers; SAMO raised the broker risk level to high; FMI thematic review and sanctions exist. Länsstyrelsen supervises pantbanker, accounting consultants, tax advisers, company formation agents, and goods and art dealers taking cash of EUR 5,000 or more. Most must register with Bolagsverket's AML register. No new rule or deadline confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "found": "No Swedish guest-register or host-registration duty found. DAC7 reporting falls on platforms (Skatteverket). EU Reg. 2024/1028 applies from 20 May 2026, but I found no Swedish implementing law, host registration number or register (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "found": "EUDR: a Dutch government page gives 30 Dec 2026 for large operators and 30 Jun 2027 for SMEs (after the Dec 2025 postponement; EU dates unconfirmed). Food and plant imports are notified in TRACES by importers or agents. Nothing beyond K13 found.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Private dental care providers (tandvårdslagen) permit and Försäkringskassan connection",
+     "found": "See candidate: IVO permit and register obligations for small dental clinics.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Non-profit lotteries, bingo and public-benefit gaming (spellagen / Spelinspektionen)",
+     "found": "Licence holders must report any change in board or management within 14 days (4 kap. 11 § spellagen). Spelinspektionen's audit that ended in April 2026 sanctioned 15 of 17 non-profit licence holders. New supervisory fee rules SIFS 2026:1 took effect 1 Mar 2026. Bingo with technical draw equipment needs a running game report (SIFS 2019:1). Registered lotteries run up to 5 years and are reported to a controller afterwards.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Cash registers (kassaregister) and control units",
+     "found": "From 1 Jan 2027 cash registers with journal memory must meet SKVFS 2021:17 and export registrations in XML (source: a Björn Lundén blog; not a Skatteverket page). Obligation falls on register vendors and retailers replacing hardware.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Personalliggare sectors (restaurant, hair, laundry, vehicle service, body care, food and tobacco wholesale)",
+     "found": "Existing duty with electronic option and Skatteverket control visits. Exemption for owner-only or family-only firms. The government did not adopt mandatory digital ledgers in SOU 2024:61. A 2025/26 motion asks for a review. Mature vendor market; nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Tobacco and nicotine product retail (tobakslagen)",
+     "found": "Tobacco sales need a municipal permit (since July 2019). Tobacco-free nicotine products need a prior notification to the municipality (since Aug 2022), with an egenkontrollprogram attached. Folkhälsomyndigheten's rules on egenkontroll programmes and test purchases were in consultation (final status unconfirmed).",
+     "status": "screened"
+    },
+    {
+     "category": "36. Electrical installation firms (elsäkerhetslagen 2016:732)",
+     "found": "Firms working on others' installations must register with Elsäkerhetsverket, appoint an elinstallatör för regelefterlevnad and keep an egenkontrollprogram (ELSÄK-FS 2017:3). Elsäkerhetsverket publishes a documentation template. No 2026 change found.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Private social-care providers (hemtjänst, LSS, HVB) under IVO permit and LOV contracts",
+     "found": "IVO permit with owner and management review; municipalities check permit, finances, insurance and egenkontroll under LOV. A Jan 2026 government assignment to IVO on elder-care supervision exists (outcome not seen). No small-firm periodic filing identified.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "bensinstation drivmedel hållbarhetsbesked rapportering små drivmedelsdistributörer 2026",
+    "fastighetsmäklare penningtvätt Fastighetsmäklarinspektionen tillsyn 2026",
+    "personalliggare städbranschen frisör restaurang Skatteverket 2026 elektronisk",
+    "bevakningsföretag tillstånd länsstyrelsen rapportering ordningsvakter nya regler 2026",
+    "tillstånd detaljhandel tobak nikotinprodukter egenkontrollprogram kommun tillsyn 2026",
+    "privata vårdgivare ersättning Försäkringskassan tandvård rapportering 2026",
+    "korttidsuthyrning Airbnb Skatteverket DAC7 hyresvärdar 2026",
+    "byggarbetsplats byggherre ID06 personalliggare nya krav 2026",
+    "apotek Läkemedelsverket narkotika prekursorer tillstånd rapportering",
+    "import trä fisk EUDR små importörer Jordbruksverket Livsmedelsverket 2026",
+    "ekonomisk förening årsredovisning Bolagsverket nya regler 2026 verklig huvudman",
+    "nya lagar 1 januari 2027 företag registreringsplikt småföretag",
+    "registreringsnummer korttidsuthyrning Sverige EU 2024/1028",
+    "länsstyrelsen tillsyn penningtvätt verksamhetsutövare pantlånare kontanter 2026",
+    "Elsäkerhetsverket elinstallationsföretag registrering egenkontrollprogram 2026",
+    "IVO tillstånd privata tandvårdsgivare ansökan före 1 januari 2027",
+    "lotteri förening tillstånd Spelinspektionen redovisning 2026",
+    "hemtjänst privata utförare IVO tillstånd 2026 egenkontroll LOV",
+    "obemannad bensinstation brandfarliga varor tillsyn egenkontroll 2026",
+    "tandläkare ansöka tillstånd IVO hjälp mall konsult"
+   ],
+   "searches": 23
+  },
+  "tag": "w2b22"
+ },
+ "gapfill:sweden": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Sole-trader and small-company taxi permit holders (8,658 permit holders in the 2025 survey, whose year-column order I could not fully confirm)",
+     "category": "18. Transport operators: taxi and ride-hire (taxitrafiktillstånd)",
+     "evidence": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/yrkestrafik/rapport-tillstandsmatning-taxi-2025.pdf ; https://www.transportstyrelsen.se/sv/vagtrafik/yrkestrafik/taxi/taxiforetag/redovisningscentraler-for-taxi/ ; https://www.realtid.se/juridik/skatteverkets-jakt-pa-fuskande-taxi-gav-76-miljoner-kronor/ ; https://www.realtid.se/it-tech/bolts-nya-app-taxameter-ska-stoppa-svarttaxi/ ; https://www.svenskforfattningssamling.se/sites/default/files/sfs/2024-12/SFS2024-1201.pdf",
+     "existing": "Licensed redovisningscentraler handle taxameter data. Booking centrals and taxameter suppliers serve most operators. Bolt announced an app-based taxameter in Aug 2026. Competitor search 'redovisningscentral taxi tjänst enskild firma taxameter personlig tidbok digital app' found only the regulator pages and no named SME software, but I did not name-check the individual redovisningscentral providers.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Taxi permit-holder compliance pack (tidbok register, weekly taxameter-upload check, vehicle notifications, financial-standing evidence)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Taxitrafiklagen (2012:211) and taxitrafikförordningen (2012:238), as amended by SFS 2024:1201: taxameter or approved special equipment, weekly upload to a redovisningscentral, personal tidböcker kept 12 months, price notice, vehicle notification, capital requirement (SEK 100,000 for one vehicle, 50,000 for each extra). Transportstyrelsen and Skatteverket checks (470 investigations since 2020).",
+     "trigger_note": "",
+     "unchecked": "Whether a digital personal tidbok is accepted for taxi (TSFS 2015:17 scope was not confirmed for taxi); which redovisningscentral providers sell compliance dashboards; share of permit holders that are one-car sole traders versus firms inside a central; annual fees paid to centrals."
+    },
+    {
+     "buyer": "Restaurants and bars with a stadigvarande serveringstillstånd",
+     "category": "Alcohol serving licences (serveringstillstånd)",
+     "evidence": "https://epost.umea.se/download/18.2f33b4ca18cca41e39f37e05/1704797689588/Anvisning%20restaurangrapport.pdf ; https://dokument.gotland.se/IntegrationService.svc/doc/content/16395 ; https://ulricehamn.se/innehall/2025/04/Taxa-Serveringstillstand-2025.pdf",
+     "existing": "Folkhälsomyndigheten's free e-service takes the report; the paper form goes to the municipality. Related to K22 (farm-gate alcohol) but a different buyer group.",
+     "known_id": "K22",
+     "known_mark": "new",
+     "name": "Restaurangrapport (annual alcohol-turnover report) reminder and fee reconciliation",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "9 kap. 14 § alkohollagen (2010:1622) and FoHMFS 2014:5: annual report due 1 March (Umeå); the municipality uses it to set the turnover-banded supervision fee; failure leads to a warning and then revocation (9 kap. 17-18 §).",
+     "unchecked": "The municipal fee invoice side. A single yearly figure is entered into a free state tool, so there is little left to sell."
+    },
+    {
+     "buyer": "Small shops, kiosks and grocers selling folköl and tobacco",
+     "category": "Alcohol serving licences / small retailers",
+     "evidence": "https://www.mark.se/download/18.7941165618efbb868ada73d0/1713859276674/Anvisning%20egenkontrollprogram%20folk%C3%B6l.pdf ; https://media.helsingborg.se/uploads/networks/1/sites/2/2026/06/ekp_folkol_2025.pdf",
+     "existing": "Free municipal templates (Ystad, Falkenberg, Helsingborg, Mark). No paid tool found in the search.",
+     "known_id": "K22",
+     "known_mark": "new",
+     "name": "Folköl/tobacco-seller egenkontrollprogram kit for kiosks, grocers and petrol shops",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Alkohollagen requires a written egenkontrollprogram for folköl sellers (a sales ban or warning if missing); tobacco sales have a parallel regime under tobakslagen that I did not search.",
+     "unchecked": "Tobacco and e-cigarette egenkontroll and licence-fee duties; number of retailers; whether any POS or grocery software already bundles this."
+    },
+    {
+     "buyer": "Small food operators registered with their municipality",
+     "category": "20. Small food producers and food-business registration",
+     "evidence": "https://avesta.se/globalassets/for-alla-sidor/bygga-bo-och-miljo/taxor-och-avgifter/blad-broschyrer-dokument/information-taxa-livsmedel-2026.pdf ; https://koping.se/download/18.bc9b75619b2beb072a8ae26/1767793934121/Taxa%20livsmedel%20%C3%A5r%202026.pdf ; https://www.livsmedelsverket.se/4ac882/globalassets/foretag-regler-kontroll/blanketter/livsmedelsforetag/livs_093_2025-11-anmalan-om-registrering-av-livsmedelsanlaggning.pdf ; https://www.tingstad.com/se-en/alla-kategorier/smartmate-by-tingstad/smartmate-digital-egenkontroll",
+     "existing": "SmartMate by Tingstad (egenkontroll plus temperature alarms from SEK 219/month) and generic app-store egenkontroll apps. Registration is a one-off and municipal e-services handle it.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Food-business egenkontroll and municipal registration pack (kiosks, pizzerias, food trucks)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Livsmedelsförordningen registration, hourly control fee set by each municipality for 2026, sanction fee SEK 2,500-75,000 for unregistered operation, mandatory egenkontroll.",
+     "trigger_note": "",
+     "unchecked": "Contents of SFS 2026:940; other Swedish egenkontroll vendors beyond the one found; the allergen and origin rule changes."
+    },
+    {
+     "buyer": "Samebyar and reindeer-herding enterprises",
+     "category": "6/7. Reindeer herding (rennäring)",
+     "evidence": "https://lagen.nu/stfs/2007:2 ; https://lagen.nu/2001:724 ; https://www.slu.se/contentassets/a9044b533ad34559986f49eaf445f4a6/yttrande_slu-969.pdf",
+     "existing": "No software or e-service found for samebyar. The buyer group is tiny, sensitive and administered through the Sami institutions.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Samebyar renlängd and predator-compensation administration tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Rennäringsförordningen (1993:384) and Sametinget's STFS 2007:2: renlängd and persons per enterprise to the county board by 1 July; compensation application to Sametinget within 3 months (viltskadeförordningen 2001:724), logged in Rovdjursforum; a 2025 proposal would reduce the reporting.",
+     "unchecked": "Number of herding enterprises and samebyar; whether the 2025 proposal was adopted; Sametinget's own e-services; reindeer-slaughter record duties."
+    },
+    {
+     "buyer": "Beekeepers (mostly hobbyists, with some commercial beekeeping firms)",
+     "category": "8. Beekeepers",
+     "evidence": "https://www.lansstyrelsen.se/vastmanland/djur/skota-visa-behandla-eller-transportera-djur/biodling.html ; https://www.lansstyrelsen.se/gotland/djur/skotsel-av-djur/biodling.html ; https://linneakoloni.se/wp-content/uploads/2025/02/Regler-fran-Jordbruksverket-ovriga-djur-bin-och-humlor-2025-01-30.pdf",
+     "existing": "County board forms, with some digital forms and an xlsx template for many sites. Foreign journal app Beetight (varroa and treatment logging, not tied to the legal register). Competitor search found no Swedish paid tool.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Bigård registration, move notices and treatment register for beekeepers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "15 § bisjukdomsförordningen (1974:212): register apiary sites with Länsstyrelsen, report moves within a week; secondary-source medicine register, 5 years.",
+     "trigger_note": "",
+     "unchecked": "Number of beekeepers and commercial beekeeping firms; whether the medicine-register duty exists in Jordbruksverket's rules; whether Svensk Biodling or SBR sells a record tool."
+    },
+    {
+     "buyer": "Small Swedish platform operators and courier firms that run algorithmic dispatch (not the individual courier)",
+     "category": "18. Transport operators / platform couriers and gig workers",
+     "evidence": "https://regeringen.se/pressmeddelanden/2026/01/regeringen-tar-emot-betankandet-fran-utredningen-om-genomforande-av-plattformsdirektivet/ ; https://www.foretagarna.se/nyheter/riks/2026/januari/plattformsdirektivet-gor-om-och-gor-ratt/ ; https://data.riksdagen.se/dokument/HEB33 ; https://www.realtid.se/samhalle/manga-fel-nar-skatteverket-kontrollerat-matbudsleveranser/",
+     "existing": "Competitor search (DAC7 plus courier) found only DAC7 vendor guidance and egenanställning firms, no Swedish compliance product for small platform operators.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Platform Work Act readiness for small Swedish courier, ride and delivery platforms",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Directive 2024/2831, transposition by 2 Dec 2026; SOU 2026:3 proposes a Lag om plattformsarbete (employment presumption, information and notification duties, algorithm transparency; Arbetsmiljöverket and IMY supervise). No government bill confirmed. Skatteverket control of food delivery (74 investigations).",
+     "trigger_note": "",
+     "unchecked": "Whether a bill was submitted and its date; how many small operators fall in scope; specific reporting duties in the proposed text; the buyers are few and the law is largely generic employment and algorithm governance, so it may be out of the quiet-industry target."
+    },
+    {
+     "buyer": "Horse businesses, sheep, goat and poultry keepers",
+     "category": "8. Beekeepers and other small animal-keeper registers",
+     "evidence": "https://www.lansstyrelsen.se/vastra-gotaland/djur/djur-i-verksamheten/tillstand-for-sallskapsdjur-och-hast.html ; https://www2.jordbruksverket.se/download/18.423e763c15ca39ababb3c8bf/1519305950841/JSB3_1.pdf",
+     "existing": "Jordbruksverket's free 'Registrera anläggning' e-service. Horse medication reporting is K10 (rejected because of a free e-service and journal systems).",
+     "known_id": "K10",
+     "known_mark": "known",
+     "name": "Horse and livestock-holder register duties (anläggningsregister, commercial horse permit)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "All keepers of land animals must register the site with Jordbruksverket; commercial horse activity and 10+ horses over 24 months need a Länsstyrelsen permit.",
+     "unchecked": "Recurring duties after initial registration (movement reporting for sheep and goats, annual counts); permit-renewal frequency."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "8. Beekeepers (and other small animal-keeper registers)",
+     "found": "Resolved: apiary (bigård) registration is a duty to the county board (Länsstyrelsen), not Jordbruksverket, under 15 § bisjukdomsförordningen (1974:212); moves must be reported within a week; bee-disease control is run by local bitillsynsmän. A beekeepers' medicine register (date, product, dose, origin; kept 5 years) is reported only by a local club handout, unverified against Jordbruksverket. No 2026 sanction-fee bill for unregistered apiaries found. Other animal keepers (horses, sheep, goats, poultry) must register the holding with Jordbruksverket via the free 'Anläggningsregistret' e-service; horse business needs a Länsstyrelsen permit (10+ horses, or any commercial horse activity). Horse medication reporting is K10. Buyers are mostly hobbyists, and free forms and a foreign journal app (Beetight) exist, so nothing strong.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: taxi traffic permit (taxitrafiktillstånd), taxameter and new taxi-law rules",
+     "found": "Transportstyrelsen's 2025 compliance survey (published 2026) lists 8,658 permit holders. Duties on the permit holder: taxameter or special taxi equipment (allowed since 2021, TSFS 2020:3), an inspected taxameter with a control report in the vehicle, weekly wireless taxameter upload to a licensed redovisningscentral (a booking central does not count), a price notice with a 10 km/15 min comparison price, and personal tidböcker with a list, kept 12 months. Checks found a fault in 40% of roadside controls. Only a minority involved the taxameter, and the main fault was the tidbok. Skatteverket reports 470 taxi tax investigations since 2020, with 8 in 10 assessed higher, SEK 76m in total. Current changes: SFS 2024:1201 (permit decision content, vehicle notification) and a government assignment on price info and rest time (partial report due 30 Jun 2027). I found no new 2026 sole-trader rule. Bolt announced an app-taxameter in Aug 2026.",
+     "status": "screened"
+    },
+    {
+     "category": "Alcohol serving licences (serveringstillstånd) and egenkontroll for small restaurants and bars",
+     "found": "The recurring duty is the annual restaurangrapport on turnover (food, alcohol, alcopops, soft drinks) under 9 kap. 14 § alkohollagen and FoHMFS 2014:5. It is due by 1 March (Umeå), filed through Folkhälsomyndigheten's free e-service, with a paper form as fallback and a zero report required. Late filing brings a warning (9 kap. 17 §) and then revocation (9 kap. 18 §). Municipal supervision fees combine a fixed part (e.g. SEK 1,700 in Gotland 2025) with a turnover-banded part and surcharges for late hours. Egenkontrollprogram is mandatory for folköl sellers, but holders of a serveringstillstånd are covered by their licence rules, and municipalities hand out free templates. A free state e-service covers the report, so no gap found.",
+     "status": "screened"
+    },
+    {
+     "category": "6/7. Reindeer herding, sami villages and small forestry/hunting/fishing operators (rennäring)",
+     "found": "Samebyar must give the county board a copy of the fixed renlängd, the persons in each reindeer-herding enterprise and the person responsible, by 1 July each year (STFS 2007:2). Sametinget keeps the company register. Predator compensation (viltskadeförordningen 2001:724): the sameby applies to Sametinget within 3 months of the damage with number, sex, age and owner of the animals. The county board verifies and logs it in Rovdjursforum. A 2025 Sametinget proposal would shrink what samebyar report to the county board. I found no software or e-service for samebyar, but the buyer group is tiny and run through the Sami institutions. Fishing and forestry were not searched further; K17 (logbook) and K13 (EUDR wood) remain the references.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Food business registration and egenkontroll for small food operators (livsmedelsföretag)",
+     "found": "Registration goes to the municipality (Livsmedelsverket for approved animal-product plants, fee SEK 1,050; form LIVS 093, Nov 2025). Operators pay an hourly control fee set locally for 2026 (e.g. Avesta SEK 1,461, Köping SEK 1,435), and many municipalities moved from prepaid annual fees to invoicing after each visit (Sundsvall since 2023). Operating without registration risks a sanction fee of SEK 2,500-75,000 depending on turnover. SFS 2026:940 amended the livsmedelsförordning (June 2026), but I couldn't read what it changes. I found no new Livsmedelsverket e-registration. Competition for egenkontroll exists (SmartMate by Tingstad from SEK 219/month with temperature alarms, plus app-store egenkontroll apps). Nothing new beyond a weak idea.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Taxi, delivery and platform couriers: food-delivery and cargo-bike sole traders, F-skatt and platform reporting (gig workers)",
+     "found": "The Platform Work Directive 2024/2831 must be transposed by 2 Dec 2026. The inquiry SOU 2026:3 (delivered 12 Jan 2026, consultation Mar 2026) proposes a new Lag om plattformsarbete: an employment presumption, information and notification duties, algorithm transparency, and Arbetsmiljöverket plus IMY as supervisors, in force 2 Dec 2026 per Regelrådet. I found no government bill yet. The duties fall mainly on platform operators, not on the individual courier. Skatteverket has run food-delivery control since 2022 (74 investigations closed, 9 in 10 led to tax increases per a Realtid article dated 13 Jul / 19 Sep 2026, so check the date). F-skatt revocation rules were tightened by SFS 2024:1136. DAC7 has applied to platforms since 1 Jan 2023 (the seller sends the platform a yearly form). Couriers' bookkeeping is generic accounting and egenanställning firms (4-6% fee) already serve them, so it's out of scope.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "biodlare registrering bigård Jordbruksverket anmälan bisjukdomar djurhållare register",
+    "taxitrafiktillstånd nya regler 2026 taxiförare enskild firma Transportstyrelsen taxameter kontrollenhet",
+    "serveringstillstånd årlig redovisning alkoholomsättning kommun tillsynsavgift egenkontroll alkohollagen",
+    "renskötsel rapportering Sametinget Länsstyrelsen renlängd slakt rovdjursersättning samebyar administration",
+    "livsmedelsföretag registrering kommun årlig kontrollavgift egenkontroll nya regler 2026 livsmedelskontroll",
+    "plattformsarbete direktiv genomförande Sverige utredning 2026 budbolag skatteverket kontroll F-skatt kurir",
+    "restaurangrapport alkoholförsäljning e-tjänst kommun serveringsställe lämna uppgift",
+    "taxi kontrollenhet taxameter skatteverket kassaregister taxiföretag krav intygsmärkning 2026",
+    "Livsmedelsverket e-tjänst registrera livsmedelsanläggning ny digital registrering 2026",
+    "egenkontroll livsmedel digital app checklista restaurang pizzeria kiosk temperaturlogg pris",
+    "sanktionsavgift oregistrerad bigård biodlare lagförslag bisjukdomar nytt register 2026",
+    "renägare samebyar digital tjänst renlängd renräkning Sametinget e-tjänst system programvara",
+    "hästhållare registrera häst anläggning Jordbruksverket platsregister får getter fjäderfä",
+    "proposition lag om plattformsarbete 2026 regeringen plattformsdirektivet rapportering budförare",
+    "egenkontrollprogram alkohollagen serveringsställe digitalt verktyg program restaurang",
+    "redovisningscentral taxi tjänst enskild firma taxameter personlig tidbok digital app",
+    "biodlare app journal bigårdar läkemedelsregister varroa dokumentation program SBR",
+    "matbud budföretag enskild firma egenanställning skatteverket kontrollbesök DAC7 kurir bokföring"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b22"
+ },
+ "opus:sweden:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no software for Swedish inköpsnotor or for electronic reporting to the police in 6 searches, which covered Swedish phrases for inköpsnota software, begagnathandel kassasystem, guldköp systems and BankID seller ID. Results were only general purchasing tools (Pleo, SAP, ClickUp) and POS/kassaregister vendors that cover the separate cash-register duty. The police do not offer a portal for submitting notes. SOU 2014:72 calls the paper note method outdated and inefficient ('föråldrad och ineffektiv') and says nothing about electronic notes.",
+   "duty": "The duty is in force. Lag (1999:271) requires dealers to register with the police before trading in the listed used goods (gold, silver and platinum items, mobiles, computers, cameras, bikes, mopeds, boats and others). Förordning (1999:272), consolidated through SFS 2026:434, sets the per-purchase rules. §9: special inköpsnotor numbered in chronological order, recording date, type and condition, make and serial number, agreed price, and the seller's name and address, plus personnummer and ID type if the seller is unknown to the dealer. §10: goods must be labelled with the note reference. §11: a holding period (liggetid) of at least one month under the law, which the police can waive. §12: notes kept 10 years and may not be erased. §13: the police may demand information, including systematic reporting. §3: exempt below 500 kr, or 2,000 kr for art. The obligation applies to every purchase. Police regulations RPSFS 2009:3 were repealed from the end of February 2026 (PMFS 2/2026), so the ordinance's text now governs the details. The penalty level was not checked. The ordinance does not say whether notes may be kept electronically. Pawnbroking is not covered by the registration duty.",
+   "market": "No national count was found. SOU 2014:72 gives registered dealers per region as of December 2013: Stockholm about 850, Västra Götaland about 510, Östergötland about 430. It also says many covered dealers have never registered. A rough extrapolation from those regions suggests about 3,000 to 5,000 registered dealers nationally; this is an estimate, not a figure from a source. Most are small shops dealing in phones, gold, bikes or general second-hand goods.",
+   "reason": "The duty is real, current (SFS 2026:434) and applies to every purchase: numbered notes, seller ID, labelling, a one-month hold and 10-year retention. No dedicated tool was found. The market is small, probably a few thousand registered dealers. Many dealers never register, and enforcement looks weak (SOU 2014:72), so willingness to pay is limited. Some shops will add a note field to their POS instead. It is unclear whether the police accept electronic notes, because the ordinance says 'särskilda numrerade inköpsnotor'. The MVP would be simple: numbered notes, ID capture, label printing, hold-period alerts and export for police requests. Gold buyers face money-laundering scrutiny, which helps the pitch. Distribution through police registration lists or trade bodies is uncertain.",
+   "searches": 6,
+   "sources": "https://data.riksdagen.se/dokument/sfs-1999-272.text ; https://data.riksdagen.se/dokument/sfs-1999-271.html ; https://polisen.se/siteassets/forfattningssamling/upphavande-fap/pmfs-2-2026-tillg.pdf ; https://lagen.nu/sou/2014:72 ; https://polisen.se/tjanster-tillstand/tillstand-ansok/begagnade-varor/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b22"
+ },
+ "triage:sweden": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New: police-registered dealers' purchase-note duty, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "New: July 2026 deadline hits many small van hauliers at once."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Different buyer (shared waterworks associations) from K06 own-well owners; related K06."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "New: tattoo/piercing studios notification and egenkontroll."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "New: e-cigarette/nicotine retailer egenkontroll."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "New: association beneficial-owner filings; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "New: small currency exchangers' FI and AML duties."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "New: authorised car scrappers' reporting duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "New: small driving schools' register duties."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "New: small abattoir paperwork; weak but unchecked."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "New: farm-shop food registration and egenkontroll."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "New buyer group; unverified watch item, keep when unsure."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Household employers' monthly declaration; in scope and new."
+    },
+    {
+     "decision": "known",
+     "id": "A18",
+     "reason": "Well drillers' SGU well-log reporting overlaps K05 SGU protocol.",
+     "ref": "K05"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "New: dental clinic IVO permit with a 2026-27 deadline for many small clinics."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "New: non-profit lottery/bingo licence duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "New: 1 Jan 2027 cash register deadline for small retailers."
+    },
+    {
+     "decision": "merge",
+     "id": "B4",
+     "reason": "Same nicotine/tobacco retailer notification and egenkontroll duty as A5.",
+     "ref": "A5"
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "New: petrol-station permit holders' vapour-recovery duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Different buyer (wood importers) from K13 forest owners; related K13."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "New: Länsstyrelsen-supervised small firms' AML duties."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "New: estate-agent AML duties, a different buyer from B7."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Different duty (IVO permit/egenkontroll) from K11 assistance time reporting; related K11."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "New: electrical contractors' registration and egenkontroll."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "New: short-term rental host duty; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "New: taxi permit holders' recurring duties."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Folköl egenkontroll is a distinct alcohol-law duty from K22 farm-gate permits; related K22 and A5."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Different buyer (kiosks, pizzerias, food trucks) from A12 farm shops."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "New: samebyar reporting duties."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "New: beekeeper registration and treatment register; includes some firms."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "New: platform work act transposition deadline for small platform operators."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Registration/permit duty differs from K10 vet medication reporting; related K10."
+    }
+   ]
+  },
+  "tag": "w2b22"
+ }
+}

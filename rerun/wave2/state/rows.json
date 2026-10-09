@@ -1151,6 +1151,76 @@
    "merge": 2
   }
  },
+ "singapore": {
+  "batch": "w2b22",
+  "candidates": 45,
+  "checks": {
+   "opus": 3,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "B1 MCST annual compliance and BCA submission pack (AGM, sinking fund, essential facilities records)",
+    "B2 Licensed travel agent net-value, audited accounts and ABPR tracker",
+    "B4 CSP Act AML and registration pack for small corporate service providers",
+    "B5 Moneylender back-office and returns compliance kit",
+    "GAPS1 PHV and taxi rental-fleet driver licence and operator-conditions tracker",
+    "GAPS2 Platform Workers Act compliance pack for small platform operators (CPF remittance, WIC insurance, earning slips, notification)",
+    "GAPS3 LEW installation inspection and licence-renewal book for small electrical contractors",
+    "GAPS9 Small abattoir and butcher records (SFA slaughter-house licence)"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 5,
+   "disputed": 2,
+   "refuted": 1,
+   "refuted_on_challenge": 1,
+   "unverifiable": 3
+  },
+  "gaps": 8,
+  "id": "singapore",
+  "leads": [
+   {
+    "challenge": "survives 3",
+    "final": "disputed",
+    "id": "A1",
+    "mark": "new",
+    "name": "FEDA Small-Dormitory Operator Compliance Pack (7-999 beds)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "refuted 3",
+    "final": "refuted_on_challenge",
+    "id": "A2",
+    "mark": "new",
+    "name": "Halal Certification Records Pack for Category 1 Eating Establishments",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "unclear 3",
+    "final": "disputed",
+    "id": "A3",
+    "mark": "new",
+    "name": "SAFE Framework Food Safety Management System Pack for Small Caterers and Restaurants",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 35,
+   "known": 7,
+   "merge": 1
+  }
+ },
  "south-africa": {
   "batch": "w2b17",
   "candidates": 38,

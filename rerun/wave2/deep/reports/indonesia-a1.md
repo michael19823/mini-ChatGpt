@@ -1,5 +1,84 @@
 # Indonesia A1: Refill drinking-water depot (DAMIU) SLHS and lab-test compliance desk
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 4/10. Old score: 4/10.**
+
+**The case.** About 84,558 refill water depots must hold an SLHS, test their water at an accredited lab, and keep the records an inspector checks. Only 4.01% hold the SLHS ([Kontan](https://industri.kontan.co.id/news/upaya-mendorong-kepatuhan-pelaku-usaha-depot-air-isi-ulang)). No state tool or commercial product keeps the owner's recurring records, so the gap is open. But the buyers are family micro-businesses. Most ignore even the cheap state route. Enforcement is local and comes in bursts. A WhatsApp logbook plus a done-for-you SLHS and lab-booking service can earn money, but the reachable year-3 revenue is only about Rp1.1 billion (about US$65k), and it takes field sales in one city at a time. The new criteria do not change the score much. The first pass did not reject the idea because of a portal. It marked it down because the buyers pay little.
+
+### Room for improvement over the portal or current practice
+
+- **There is no owner tool at all.** OSS only takes the SLHS application in some districts ([Lumajang SOP](https://dinkesp2kb.lumajangkab.go.id/uploads/pengumuman/2_SOP_SLHS_Kesling_.pdf)). After that, nothing tracks tests, logs or renewals for the owner. The one digital inspection system I found (Depok, "Dsimfoniku") is for inspectors. It was built because paper inspection records caused delays and errors ([Unigal journal](https://jurnal.unigal.ac.id/abdimasgaluh/article/download/17612/9440)).
+- **Records the inspector scores, which no portal keeps.** The IKL form for depots asks for proof of microfilter changes, the UV or RO install date, raw-water purchase receipts, yearly staff health checks, training certificates, tests "at the frequency set by the rules", and water results reported to Dinkes at least twice a year ([Form IKL DAM](https://mbg.bogorkab.go.id/web/docref/Form_IKL_DAM.pdf)). Depots usually keep these in paper notebooks ([IT Telkom Purwokerto thesis](https://repository.ittelkom-pwt.ac.id/10573/4/BAB%20I.pdf)).
+- **Inspection readiness matters.** Cities score depots on the IKL form. Padang inspects every depot and gives a sticker only to depots that score at least 80 ([Times Indonesia, 14 Oct 2025](https://timesindonesia.co.id/indonesia-positif/559948/904-depot-air-minum-di-kota-padang-diminta-aktif-periksa-kualitas-air)). A self-check against the 165-point form before the visit has clear value.
+- **The SLHS file is hard to put together.** You need a lab result no older than 1 month from an accredited lab, plus ID, a floor plan, training certificates and staff health letters ([Medcom](https://www.medcom.id/ekonomi/bisnis/1bVrY67b-asdamindo-dorong-depot-air-minum-taat-regulasi); [izin.co.id](https://izin.co.id/jasa-sertifikat-laik-sehat.php)). Kemenkes had to publish a 17-page pocket guide just for applying for SLHS through OSS ([Kemenkes repository, 2024](https://repository.kemkes.go.id/book/1347)). Small businesses have long complained that OSS sends them out to other ministry systems and that local offices are not ready ([Hukumonline](https://www.hukumonline.com/berita/a/pelaku-ukm-masih-kesulitan-urus-izin-lewat-oss-lt6156b854eea45?page=all)). That complaint is general, not specific to SLHS.
+- **Deadline tracking is needed, and the rules are unclear.** Kepmenperindag 651/2004 says test at least every 6 months ([Hukumonline](https://www.hukumonline.com/klinik/a/izin-usaha-depot-air-minum-lt57f5cb1631360)). The scraped text of Permenkes 2/2023 only says drinking water is tested "periodically" (*secara berkala*). I found no fixed interval for depots in it ([pasal.id](https://pasal.id/peraturan/permen/permenkes-no-2-tahun-2023)). SLHS validity is 3 years in one source and 2 years in another ([Warta Ekonomi](https://wartaekonomi.co.id/read577010/air-jernih-belum-tentu-aman-jiva-svastha-ajak-warga-cek-ulang-depot-isi-ulang); [izin.co.id](https://izin.co.id/blog/sertifikat-laik-sehat-depot-air-minum/)). A tool that sets the right local schedule would help, but it must be set up district by district.
+- **Owners also have a non-compliance problem.** With paper notebooks, operators can record fewer gallons than they actually fill ([Panca Budi journal](https://jurnal.pancabudi.ac.id/index.php/Juti/article/download/85/69); [UMK journal](https://jurnal.umk.ac.id/index.php/elkon/article/download/9678/3946)). Pairing the compliance log with a simple sales log gives owners a reason to open the app every day.
+
+### Competitor reality check
+
+- **Software.** I found no commercial product that does the compliance job. Searches in Indonesian return only student prototypes for ordering, cashier and IoT systems ([Atma Luhur](https://repository.atmaluhur.ac.id/handle/123456789/4870); [UPB Batam](https://ejournal.upbatam.ac.id/index.php/comasiejournal/article/view/6775); [UNP](https://ejournal.unp.ac.id/index.php/voteknika/article/download/118934/107504)). A UNP paper notes that few mobile apps serve refill-water sales ([UNP](https://ejournal.unp.ac.id/index.php/voteknika/article/download/118934/107504)). General POS apps such as Majoo list depot franchises, but I found no compliance features (unverified; [Majoo](https://majoo.id/layanan/franchise/detail/voss-water-indonesia)). I did not check Play Store listings directly (unverified).
+- **Permit agents.** izin.co.id sells SLHS processing. It publishes no price and does not track anything after the certificate is issued ([izin.co.id](https://izin.co.id/jasa-sertifikat-laik-sehat.php)). That covers one step out of many.
+- **State.** Kemenkes says the SLHS itself is free. Only sampling and testing cost money, about Rp1–2 million in the free-meal kitchen (SPPG) context ([detik, 5 Dec 2025](https://finance.detik.com/berita-ekonomi-bisnis/d-8244663/bgn-minta-dapur-mbg-urus-sertifikat-laik-higiene-1-bulan/amp)). Sanitarians inspect, but they do not keep the owner's records.
+- **Result: no killer.** Every option is partial: the free state route, a one-off agent, cheap labs. That leaves an opening.
+
+### Price per customer
+
+What depots spend or lose today:
+- A typical depot sells about 100 gallons a day at Rp7,000. That is about Rp17.5 million revenue a month. The same article budgets Rp2 million for permits and certification (lab and admin) at start-up ([Mojok, 26 Aug 2024](https://mojok.co/terminal/menghitung-modal-bisnis-air-minum-isi-ulang-yang-semakin-seksi/)). A franchise model assumes 25 gallons a day at Rp9,000, which is far less ([Majoo/VOSS](https://majoo.id/layanan/franchise/detail/voss-water-indonesia)).
+- A lab microbiology test is about Rp40,000. A chemistry package is Rp580,000–615,000 ([Bukittinggi Labkes](https://labkes.bukittinggikota.go.id/storage/faq/DOcC8IQyPMuaVFUITIUTTNDrt8ZbQehunzBhNC9u.pdf)).
+- A DPR member said SLHS certificates are "sold" for Rp6–10 million ([detik, 29 Sep 2025](https://news.detik.com/berita/d-8135648/legislator-ragu-slhs-cegah-keracunan-mbg-bisa-dibeli-tipu-tipu-juga-itu)). This was about kitchens, and it is a claim, not proof. It suggests some businesses pay far above the official cost to get the paper.
+- The cost of failing is closure, not a fine. Jakarta closed 18 depots in October 2026 ([industry.co.id](https://www.industry.co.id/read/156986/satpol-pp-dki-tutup-18-depot-air-minum-yang-tak-berizin-dan-bermasalah)). A week of closure costs a 100-gallon depot about Rp4 million in sales (my arithmetic from the Mojok figures).
+
+Realistic prices (all unverified until field-tested):
+- **Logbook app (WhatsApp plus web):** Rp50,000 a month per depot (Rp600,000 a year). That is under 0.3% of revenue for a 100-gallon depot.
+- **SLHS done-for-you package:** Rp1.5 million one-off, plus lab cost at pass-through. That is below the Rp2 million start-up budget above and far below the claimed Rp6–10 million.
+- **Annual "test and log" plan:** Rp150,000 a month including 2 micro tests and 1 chemistry test a year.
+- **Multi-client:** franchise owners and chains at Rp35,000 per outlet per month. There is no accountant or consultant layer here. Labs and permit agents could resell at Rp25,000 per depot per month (unverified).
+
+### Revenue estimate (year 3)
+
+Exchange rate assumed: Rp16,500 = US$1 (unverified).
+
+- **Logbook subscriptions:** 84,558 depots × 1.5% reachable share = about 1,270 depots × Rp600,000 = **Rp761 million**.
+- **SLHS packages:** 400 a year × Rp500,000 margin after lab costs and staff time (unverified) = **Rp200 million**.
+- **Lab referral fees:** 1,270 depots × 3 tests × Rp40,000 average referral (unverified) = **Rp152 million**.
+- **Total: about Rp1.1 billion a year (about US$68k).**
+
+Why 1.5%: only about 3,390 depots (4.01%) hold an SLHS now ([JawaPos](https://www.jawapos.com/ekonomi/2607290097/70-persen-depot-air-isi-ulang-tak-higienis-kemendag-soroti-rendahnya-kepatuhan-pelaku-usaha)). They are the most likely buyers. Winning about a third of them plus some depots in sweep areas gives about 1,270. Without a strong channel (Asdamindo, labs or Dinkes), 0.5% (about 420 depots, about Rp400 million in total) is more likely.
+
+### Ease of implementation and sale
+
+- **Build: easy.** A WhatsApp bot with photo upload, reminders and the IKL checklist. No government API is needed.
+- **Onboarding: medium.** Owners are low-tech. The district schedule and documents must be set per Dinkes office.
+- **Sale: hard.** About 84,000 small, scattered owners. Each sale is worth little and usually needs a visit or a lab or association referral. Demand spikes only where Satpol PP or Dinkes is sweeping. Asdamindo's membership size is still unknown (unverified).
+
+### Remaining risks
+
+- **Low willingness to pay.** 96% of depots skip even the cheap state route ([Kontan](https://industri.kontan.co.id/news/upaya-mendorong-kepatuhan-pelaku-usaha-depot-air-isi-ulang)). The real barrier is the cost of sanitation upgrades, not paperwork ([Kontan Insight](https://insight.kontan.co.id/news/isu-higienitas-ganjal-bisnis-depot-air-minum-isi-ulang)).
+- **Patchy enforcement.** Jakarta closes depots. Padang uses stickers. Other areas mainly educate ([industry.co.id](https://www.industry.co.id/read/156986/satpol-pp-dki-tutup-18-depot-air-minum-yang-tak-berizin-dan-bermasalah); [Times Indonesia](https://timesindonesia.co.id/indonesia-positif/559948/904-depot-air-minum-di-kota-padang-diminta-aktif-periksa-kualitas-air)).
+- **Unclear test interval.** Permenkes 2/2023 says "periodically" ([pasal.id](https://pasal.id/peraturan/permen/permenkes-no-2-tahun-2023)). Local rules fill the gap.
+- **The service side carries liability and needs local staff.**
+- **Better adjacent market.** SPPG kitchens face hard SLHS deadlines and closure, and they are state-funded ([JPNN](https://m.jpnn.com/news/492-sppg-di-wilayah-sumatra-yang-belum-mendaftar-slhs-disuspend); [DDTC](https://news.ddtc.co.id/berita/nasional/1815131/didanai-pajak-bgn-akan-tutup-dapur-mbg-yang-tak-urus-slhs)). The same IKL, lab and logbook engine could serve both. It may be the better first market.
+
+### New sources
+
+- https://industri.kontan.co.id/news/upaya-mendorong-kepatuhan-pelaku-usaha-depot-air-isi-ulang
+- https://jurnal.unigal.ac.id/abdimasgaluh/article/download/17612/9440
+- https://timesindonesia.co.id/indonesia-positif/559948/904-depot-air-minum-di-kota-padang-diminta-aktif-periksa-kualitas-air
+- https://repository.kemkes.go.id/book/1347
+- https://www.hukumonline.com/berita/a/pelaku-ukm-masih-kesulitan-urus-izin-lewat-oss-lt6156b854eea45?page=all
+- https://pasal.id/peraturan/permen/permenkes-no-2-tahun-2023
+- https://jurnal.pancabudi.ac.id/index.php/Juti/article/download/85/69
+- https://jurnal.umk.ac.id/index.php/elkon/article/download/9678/3946
+- https://ejournal.upbatam.ac.id/index.php/comasiejournal/article/view/6775
+- https://finance.detik.com/berita-ekonomi-bisnis/d-8244663/bgn-minta-dapur-mbg-urus-sertifikat-laik-higiene-1-bulan/amp
+- https://news.detik.com/berita/d-8135648/legislator-ragu-slhs-cegah-keracunan-mbg-bisa-dibeli-tipu-tipu-juga-itu
+- https://mojok.co/terminal/menghitung-modal-bisnis-air-minum-isi-ulang-yang-semakin-seksi/
+- https://www.cnbcindonesia.com/news/20251029161006-4-680399/konsumsi-air-minum-isi-ulang-aman-sehat-begini-faktanya-di-lapangan
+- https://m.jpnn.com/news/492-sppg-di-wilayah-sumatra-yang-belum-mendaftar-slhs-disuspend
+- https://news.ddtc.co.id/berita/nasional/1815131/didanai-pajak-bgn-akan-tutup-dapur-mbg-yang-tak-urus-slhs
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

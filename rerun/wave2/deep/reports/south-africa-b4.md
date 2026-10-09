@@ -1,5 +1,76 @@
 # South Africa b4: annual RMCP filing kit for small law firms and other Schedule 1 institutions
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10 (old score: 5/10).**
+
+**The case.** Directive 12 makes about 46,000 FIC registrations upload a board-approved RMCP through goAML every year, plus an amended RMCP within 10 days of any later approval ([Moonstone](https://www.moonstone.co.za/fic-revises-annual-rmcp-deadlines-in-final-directive-12/); [Moonstone, RCR groups](https://www.moonstone.co.za/fic-flags-filing-errors-as-rcr-deadline-closes/)). goAML only takes the file. It does not help write, tailor, approve, version or track the RMCP. The market is plainly struggling: only 9.7% of legal practitioners had filed their 2026 RCR two weeks before the deadline, and the FIC's top inspection finding is "no RMCP" ([Moonstone](https://www.moonstone.co.za/fic-flags-filing-errors-as-rcr-deadline-closes/); [Moonstone](https://www.moonstone.co.za/?p=61901)). No local product does the whole job at a fair yearly price. A guided RMCP builder with approval log, amendment tracker and a multi-client view for accountants and consultants could reach about R3m a year by year 3. That is a good small business, but the seasonal demand, low typical fines and the nCino/LSSA tie-up keep it below "go".
+
+### Room for improvement over the portal or current practice
+
+- **goAML is upload-only.** The FIC's own steps are: save a PDF named `YYYYMMDD_RMCP.pdf`, open "My Org Details", attach, submit ([Accounting Weekly](https://www.accountingweekly.com/financial-intelligence-centre/fic-urgent-reminder-submit-your-rmcp-by-march-12), describing the 2025 round). A successful upload only proves the file format, not that the RMCP is adequate ([Moonstone](https://www.moonstone.co.za/fic-revises-annual-rmcp-deadlines-in-final-directive-12/)).
+- **Drafting and tailoring.** The FIC says generic templates are not enough and a one-person firm "does not need a 200-page document" ([Moonstone](https://www.moonstone.co.za/fic-urges-businesses-to-simplify-compliance-focus-on-risks-not-paperwork/)). GN 7B (Aug 2026) added proliferation-financing and new-product risk, so most existing RMCPs need a rewrite ([nCino KYC](https://blog.kycafrica.ncino.com/fic-updates-directive-10-draft-directive-12-guidance-note-7b)). Many firms also lack a documented business risk assessment ([Moonstone, May 2025](https://www.moonstone.co.za/?p=56167)).
+- **Version control and the 10-day rule.** Any RMCP approved after the yearly filing must be re-filed within 10 days. The FIC refused to limit this to material changes ([Moonstone](https://www.moonstone.co.za/fic-revises-annual-rmcp-deadlines-in-final-directive-12/)). Nothing in goAML tracks approval dates or reminds the firm.
+- **Multi-registration work.** Each Schedule 1 item registration needs its own submission; standalone branches file their own ([Moonstone](https://www.moonstone.co.za/fic-revises-annual-rmcp-deadlines-in-final-directive-12/)). Accountants and consultants who look after many small institutions have no dashboard.
+- **Deadline sprawl.** RMCP (9 Oct or 31 Oct), Directive 10 location updates (31 Oct 2026), RCR cycles and 90-day registration changes all live in the same portal with different dates ([nCino KYC](https://blog.kycafrica.ncino.com/fic-updates-directive-10-draft-directive-12-guidance-note-7b); [acts.co.za](https://acts.co.za/news/blog/2026/04/fic-directive-11-2026-rcr-submission)).
+- **Evidence of portal and process pain.**
+  - 2026 RCR, 31 July group (40,827 institutions): 11.82% filed by 15 July; legal practitioners 9.7%, estate agents 11.8% ([Moonstone](https://www.moonstone.co.za/fic-flags-filing-errors-as-rcr-deadline-closes/)).
+  - 30 June group (5,636 institutions): 36.1% on time, 48.1% by 15 July; accounting-practice company service providers 38.85% on time ([Moonstone](https://www.moonstone.co.za/fic-flags-filing-errors-as-rcr-deadline-closes/); [Accounting Weekly](https://www.accountingweekly.com/financial-intelligence-centre/nearly-half-tcsps-still-to-file-their-risk-and-compliance-returns-rcrs)).
+  - FIC-flagged errors: wrong information, last-minute registration fixes causing a backlog, RMCPs uploaded instead of RCRs, and separate returns per branch ([Moonstone](https://www.moonstone.co.za/fic-flags-filing-errors-as-rcr-deadline-closes/)).
+  - Only 11,147 RMCPs reached the FIC in 2025/26 against about 60,000 registrations ([Moonstone](https://www.moonstone.co.za/?p=61901)).
+  - Inspectors of estate agencies now expect the RMCP, risk assessments, CDD files and screening evidence on demand (search summary of [BusinessTech](https://businesstech.co.za/news/finance/861026/government-cracking-down-on-estate-agents-in-south-africa/), page not opened).
+  - Paid "how to submit your RMCP" webinars exist for estate agents ([Quicket/IEASA](https://www.quicket.co.za/events/395674-ieasa-webinar-how-to-submit-rmcp-the-step-by-step-guidance-on-the-new-directive/)).
+
+### Competitor reality check
+
+- **nCino KYC (formerly DocFox).** Its core is KYC/CDD for law firms. On RMCPs it offers a team of experts who help compile a tailored RMCP; the page gives no price and does not say whether this is in the subscription ([nCino KYC](https://blog.kycafrica.ncino.com/fic-updates-directive-10-draft-directive-12-guidance-note-7b)). It has an LSSA partnership with free onboarding and training ([GoLegal](https://www.golegal.co.za/docfox-lssa-fica/)). I found no public price after two searches (unverified). It is a consultant-style service bolted onto a KYC platform, not a self-serve RMCP builder with amendment tracking or a multi-client view. Partial, and strongest with attorneys.
+- **Moonstone FICA Toolkit.** A one-off editable Word template, risk register and instructions for R4,995 excl. VAT, with hourly help (five-hour minimum) ([Moonstone](https://www.moonstone.co.za/new-do-it-yourself-fica-compliance-solution-for-accountable-institutions/)). It is aimed at simple institutions. It does not tailor, record approval, track the 10-day rule or remind. Partial and fairly priced for a template, but static.
+- **Free tools.** FIC PCC 53 template and the LSSA 55-page guide ([Moonstone](https://www.moonstone.co.za/fic-publishes-risk-management-and-compliance-programme-guide-for-smaller-non-financial-entities/); [LSSA](https://www.lssa.org.za/wp-content/uploads/2025/10/Final-Draft-RMCP-Guidelines-6-5-25-Final.pdf)). Content only, and both warn that a template is not compliance.
+- **Others.** ClearComply tracks CIPC/SARS deadlines from R99/month but does not build RMCPs ([ClearComply](https://www.clearcomply.co.za/blog/fica-compliance-south-africa)). AML GO and VOCA do screening and CDD (unverified). Consultants and law firms do not publish RMCP fees; MJK's site lists fixed-fee packages and retainers but no RMCP price ([MJK](https://mjkinc.co.za/rmcp)).
+- **Conclusion.** I found no local product that interviews the firm, writes a short tailored RMCP and risk assessment, logs approval, names the PDF ready for upload, tracks the 10-day amendment rule and serves many entities from one login. The incumbents are partial. This is an opening, not a killer.
+
+### Price per customer
+
+- **Anchors.** Moonstone template R4,995 once plus hourly help ([Moonstone](https://www.moonstone.co.za/new-do-it-yourself-fica-compliance-solution-for-accountable-institutions/)). nCino values its onboarding at R7,500-R45,000 ([GoLegal](https://www.golegal.co.za/docfox-lssa-fica/)). Non-filing penalties cited at R10,000-R50,000 ([Accounting Weekly](https://www.accountingweekly.com/financial-intelligence-centre/nearly-half-tcsps-still-to-file-their-risk-and-compliance-returns-rcrs)); average finalised small-firm sanction about R10,000 in 2025/26 ([Moonstone](https://www.moonstone.co.za/?p=61901), my calculation); R300,000 for having no RMCP in one FSP case (search summary of [Moonstone](https://www.moonstone.co.za/no-rmcp-no-excuse-fsca-fines-three-fsps-a-combined-r735-000/)). Industry webinars cost R300-R400 ([Quicket/IEASA](https://www.quicket.co.za/events/358861-ieasa-webinar-a-to-z-of-compliance-in-an-estate-agency-17-february-2026)).
+- **Direct plan (one entity).** About R2,500 a year (≈R210/month), including the first build, yearly review, approval log and reminders. Optional "attorney review" add-on R1,500 (my estimate, unverified).
+- **Accountant/consultant plan.** About R900 per entity per year, minimum 10 entities (R9,000/year), with a multi-client dashboard and white-label PDFs (my estimate, unverified). Accounting practices are themselves item 2 filers, so they buy for themselves too.
+
+### Revenue estimate (year 3)
+
+- **Core buyers.** 9,307 law firms ([LSSA](https://www.lssa.org.za/about-us/about-the-attorneys-profession/statistics-for-the-attorneys-profession/)) + 5,636 institutions in the 30 June RCR group (TCSPs, non-bank credit providers, crypto providers, casinos) ([Moonstone](https://www.moonstone.co.za/fic-flags-filing-errors-as-rcr-deadline-closes/)) ≈ 14,900.
+- **Direct:** 14,900 × 6% = ~900 customers × R2,500 = **R2.24m**.
+- **Channel:** 40 accountants/consultants × 25 entities × R900 = **R0.90m**.
+- **Total ≈ R3.1m a year** (about US$170k at roughly R18/US$, unverified rate).
+- **Upside.** Adding dealers in high-value goods and the rest of the 31 July group (40,827 incl. estate agents, which overlap with the separate estate-agent idea) at 2%: 40,827 × 2% × R2,500 ≈ R2.0m more. Further upside if the FIC extends yearly filing to all accountable institutions ([Moonstone](https://www.moonstone.co.za/fic-revises-annual-rmcp-deadlines-in-final-directive-12/)).
+- **Downside.** Law firms only, 4%: 9,307 × 4% × R2,500 ≈ R0.93m.
+
+### Ease of implementation and sale
+
+- **Build: medium-easy.** A questionnaire that writes a Word/PDF RMCP, a risk matrix, an approval log, reminders and a client list. No integration with goAML is needed, since the upload is a manual attachment ([Accounting Weekly](https://www.accountingweekly.com/financial-intelligence-centre/fic-urgent-reminder-submit-your-rmcp-by-march-12)). English only. The hard part is content: it must map to s42(2) and GN 7B and should be reviewed by a FICA attorney.
+- **Onboarding: easy.** A sole practitioner can finish in an afternoon; no data migration.
+- **Sale: medium.** Buyers are reachable through LSSA/LEAD, GoLegal, IEASA-style webinars, Moonstone and Accounting Weekly readers, and accountants. But demand peaks in September-October, and the LSSA channel is partly held by nCino.
+
+### Remaining risks
+
+- **Template distrust and liability.** The FIC and LSSA reject generic templates ([Moonstone](https://www.moonstone.co.za/fic-urges-businesses-to-simplify-compliance-focus-on-risks-not-paperwork/); [LSSA](https://www.lssa.org.za/wp-content/uploads/2025/10/Final-Draft-RMCP-Guidelines-6-5-25-Final.pdf)). Output must be visibly tailored, and terms must limit liability.
+- **Seasonality.** The 9 October 2026 deadline is today; the next big window is September-October 2027, apart from the 31 October group, new registrants (90 days) and 10-day amendments.
+- **Low typical fines.** About R10,000-R50,000 for most small firms caps urgency, though R7.7m and R300,000 cases exist ([Moonstone](https://www.moonstone.co.za/r7-7m-fine-stands-as-fic-appeal-board-rules-against-law-firm/)).
+- **nCino/LSSA.** If nCino bundles a cheap RMCP builder into its law-firm subscription, the attorney segment shrinks. Its RMCP price is unknown (unverified).
+- **FIC tooling.** The FIC could add a builder to goAML; no sign of this (unverified).
+- **Weak counts.** Per-item FIC registration numbers for items 2, 11 and 20 are not published in what I found; the 5,636 and 40,827 group totals are the best proxy.
+
+### New sources
+
+- https://www.moonstone.co.za/fic-flags-filing-errors-as-rcr-deadline-closes/
+- https://www.accountingweekly.com/financial-intelligence-centre/nearly-half-tcsps-still-to-file-their-risk-and-compliance-returns-rcrs
+- https://www.accountingweekly.com/financial-intelligence-centre/fic-urgent-reminder-submit-your-rmcp-by-march-12
+- https://www.moonstone.co.za/?p=56167
+- https://www.moonstone.co.za/no-rmcp-no-excuse-fsca-fines-three-fsps-a-combined-r735-000/
+- https://businesstech.co.za/news/finance/861026/government-cracking-down-on-estate-agents-in-south-africa/
+- https://www.quicket.co.za/events/358861-ieasa-webinar-a-to-z-of-compliance-in-an-estate-agency-17-february-2026
+- https://mjkinc.co.za/rmcp
+- https://blog.kycafrica.ncino.com/fic-updates-directive-10-draft-directive-12-guidance-note-7b (re-read for nCino's RMCP service)
+
 ## Summary
 
 **Verdict: maybe. Score: 5/10.**

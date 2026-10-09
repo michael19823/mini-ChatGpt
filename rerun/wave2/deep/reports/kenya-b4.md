@@ -1,5 +1,96 @@
 # Kenya: licensing and compliance pack for non-deposit-taking credit providers (CBK NDTCP Regulations)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10 (old score: 5/10).**
+
+**The case.** Under the new rules, about 281 licensed digital lenders now carry stricter ongoing duties. About 548 more applicants are stuck in the CBK queue. More offline lenders must apply by about 29 March 2027 ([Tech-ish](https://tech-ish.com/2026/10/04/cbk-raises-licensed-lenders-annual-fee-to-kes-500000-from-kes-20000/), [Business Daily](https://www.businessdailyafrica.com/bd/economy/complaints-about-digital-lenders-jump-five-times--5528224)). The CBK portal and the BSA returns system only take submissions. They do not draft the policy set, run the complaints clock, log rate-change approvals or track the 31 December fee and return. No local product covers that job: law firms sell hourly advice, loan-management systems focus on the loan book, and the one local compliance-calendar tool is generic. These buyers already pay KES 250k–500k a year in CBK fees alone, so a KES 15k a month tool is a small line item. The case is a small, niche business with year-3 revenue of roughly KES 15–27m (about USD 115k–210k). It is not a big SaaS business, and the offline-lender pool is still unmeasured.
+
+**Room for improvement over the portal or current practice.**
+- **Applications stall on documents, not on the portal.** In March 2024, 429 of 480 applications were "pending documentation". The lenders' association said members "lack clarity on what to submit" and asked CBK for guidance notes ([Business Daily, Mar 2024](https://www.businessdailyafrica.com/bd/economy/digital-lenders-seek-cbk-help-to-unlock-429-licences-4551784)). In July 2026, about 548 of 800+ applications were still under review ([Business Daily, Jul 2026](https://www.businessdailyafrica.com/bd/economy/complaints-about-digital-lenders-jump-five-times--5528224)). CBK itself says most are "largely awaiting the submission of requisite documentation" ([CBK press release](https://www.centralbank.go.ke/uploads/press_releases/1035898107_Press%20Release%20-%20Licensing%20of%20Digital%20Credit%20Providers%20-%20July%202026.pdf)). A guided document pack with a checklist for each director and officer goes straight at this bottleneck.
+- **Ongoing duties need records that the portal does not keep.** These are listed in the final rules or the draft:
+  - CBK written approval before any interest-rate change, plus 30 days' notice to customers (regs 26 and 55) ([Tech-ish](https://tech-ish.com/2026/10/04/cbk-raises-licensed-lenders-annual-fee-to-kes-500000-from-kes-20000/)).
+  - Complaints handled on a 7-day, 48-hour and 30-day clock, and reported to CBK.
+  - Annual agent approvals and an agent register.
+  - 30 days' notice to a borrower before CRB listing.
+  - An annual compliance return by 31 December ([CBK draft](https://www.centralbank.go.ke/wp-content/uploads/2025/08/Draft-Central-Bank-of-Kenya-Non-Deposit-Taking-Credit-Providers-Regulations-2025.pdf)).
+  
+  These need a product-change log, a complaints register with timers, an agent register and a calendar.
+- **Missing a deadline is now costly.** Paying the annual fee in the three months after 31 December costs double: KES 1m for a licence, KES 500k for registration. After that, CBK may revoke the licence ([Tech-ish](https://tech-ish.com/2026/10/04/cbk-raises-licensed-lenders-annual-fee-to-kes-500000-from-kes-20000/)). Deadline tracking alone has clear value.
+- **Complaints are a growing exposure.**
+  - Complaints about digital lenders to the Competition Authority rose from 67 to 355 in a year ([Business Daily](https://www.businessdailyafrica.com/bd/economy/complaints-about-digital-lenders-jump-five-times--5528224)).
+  - The data regulator (ODPC) has logged 5,284 complaints since 2021 and issued eight penalty notices ([Money254 via search summary](https://money254.co.ke/post/40-digital-lenders-under-investigation-over-data-breaches)) (unverified, from a search summary only).
+  
+  A complaints register that keeps an audit trail helps with inspections.
+- **Lenders face several regulators at once.** The digital lenders' association (DFSAK) complains of "operational challenges posed by the multiplicity of regulatory requirements" across CBK, ODPC and CAK ([The Standard, Aug 2025](https://thestandard.ke/sports/business/article/2001527611/www.digger.co.ke)). One tool that maps CBK, ODPC and CAK duties is a real usability gain.
+- **Returns are spreadsheet-based.** BSA training covered downloading the "Outstanding Digital Credit Return" template, completing it and uploading it ([CM Advocates, via search summary](https://cmadvocates.com/blog/legal-alert-upcoming-bank-supervision-application-bsa-user-training-for-non-deposit-taking-credit-providers-stay-compliant/)). Checking the data before upload is a possible add-on. The full return list and frequencies are still (unverified).
+- **Multi-client work.** Law firms and accountants handle many lenders each (Bowmans, CDH, Oraro and CM Advocates all advertise the work). A multi-entity dashboard for advisers is a second sales line.
+
+**Competitor reality check.**
+- **CBK portal and BSA:** free, but they only accept submissions and returns. They draft nothing and track nothing ([CBK procedures](https://centralbank.go.ke/wp-content/uploads/2024/11/Procedures-for-licensing-Digital-Credit-Providers-Revised-October-2024.pdf)). Not a killer.
+- **Law firms** (Bowmans, CDH, Oraro, CM Advocates): they advise on applications and liaise with CBK ([search results summary; Bowmans DCP note](https://www.bowmanslaw.com/insights/banking-and-financial-services-regulatory/kenya-central-bank-of-kenya-digital-credit-providers-regulations-2021/)). None publishes a price. Their fees are likely far above a template pack (unverified). They are a channel more than a rival.
+- **Loan-management systems:**
+  - SuperLMS says it serves 40 MFIs and digital lenders and covers "the reports your regulator expects". It names no CBK return, complaints register, policy set or calendar, and publishes no price ([Super Systems](https://supersystems.co.ke/)).
+  - Lendsqr charges USD 0, 200 or 500 a month. It lists no regulatory reporting features, and its pricing page shows no Kenya pricing ([Lendsqr pricing](https://lendsqr.com/pricing)).
+  
+  These cover the loan book and maybe returns, not the conduct duties. They are partial at best.
+- **Trigarc Compliance (FNJ & Associates, Nairobi):** a generic compliance-calendar platform with self-assessments, corrective actions, licence tracking and an audit trail. Its target clients include digital lenders. It shows no NDTCP content, no policy library and no complaints register, and its price is "request a quote" ([FNJ](https://fnjassociates.co.ke/?p=2402)). This is the closest rival: generic and of unknown price. It is an opening, not a killer.
+- **YouVerify and Zigram:** KYC and AML screening only ([Business Daily](https://www.businessdailyafrica.com/bd/corporate/technology/nigerian-startup-youverify-launches-in-kenya-4247756), [Zigram](https://www.zigram.tech/?p=37915)).
+- **Conclusion:** I found no well-priced local product that does the whole NDTCP job.
+
+**Price per customer.**
+- **Anchors:**
+  - CBK charges KES 100k to apply and KES 250k or 500k a year ([Tech-ish](https://tech-ish.com/2026/10/04/cbk-raises-licensed-lenders-annual-fee-to-kes-500000-from-kes-20000/)).
+  - A late fee doubles the annual fee.
+  - Draft penalties reach KES 2m plus KES 10k a day ([CBK draft](https://www.centralbank.go.ke/wp-content/uploads/2025/08/Draft-Central-Bank-of-Kenya-Non-Deposit-Taking-Credit-Providers-Regulations-2025.pdf)).
+  - Licensed lenders had lent KES 165.1bn across 9.6m loans by August 2026 ([Tech-ish](https://tech-ish.com/2026/10/04/cbk-raises-licensed-lenders-annual-fee-to-kes-500000-from-kes-20000/)), so the average licensed lender is not a micro firm.
+  - Lendsqr software costs USD 200–500 a month (about KES 26k–65k) ([Lendsqr](https://lendsqr.com/pricing)).
+- **Proposed prices:**
+  - **Application kit (one-off):** KES 75k–150k (about USD 580–1,160). Add an optional advocate review through a partner.
+  - **Ongoing compliance tool for each lender:** KES 10k–20k a month (KES 120k–240k a year). Plan on KES 15k a month, or KES 180k a year.
+  - **Adviser plan (law firm or accountant, up to 20 lender clients):** KES 40k–60k a month. Plan on KES 600k a year.
+- All of these are my estimates (unverified). I found no published consultant prices.
+
+**Revenue estimate (year 3, 2029).** Exchange rate assumed at about KES 129 per USD (unverified).
+- **Recurring lenders.** The pool is 281 licensed lenders today ([Tech-ish](https://tech-ish.com/2026/10/04/cbk-raises-licensed-lenders-annual-fee-to-kes-500000-from-kes-20000/)). Add perhaps 300–500 newly licensed or registered firms from the backlog and the offline lenders (unverified). That gives about 600–800 firms. Reachable share is 10–15%, so 60–120 lenders. 60–120 × KES 180k = **KES 10.8m–21.6m**.
+- **Adviser plans:** 5–8 firms × KES 600k = **KES 3.0m–4.8m**.
+- **Application kits for new entrants and registration-to-licence upgrades:** 10–15 a year × KES 100k = **KES 1.0m–1.5m**.
+- **Year-3 total: about KES 14.8m–27.9m, or roughly USD 115k–215k a year.**
+- **Year 1 bonus, not recurring.** The March 2027 rush covers about 548 pending applicants plus offline lenders. 5–8% of about 700 is 35–56 kits. 35–56 × KES 100k = **KES 3.5m–5.6m**. Only possible if the kit ships by about December 2026.
+
+**Ease of implementation and sale: medium.**
+- **Build: easy.** The product is a questionnaire-driven policy generator plus registers (complaints, agents, product changes) and a calendar. It needs no integration with CBK systems. BSA data checks can come later.
+- **Content: the harder part.** It needs an advocate to draft or review policies against LN 191. The gazetted text is confirmed only through secondary reading ([Tech-ish](https://tech-ish.com/2026/10/04/cbk-raises-licensed-lenders-annual-fee-to-kes-500000-from-kes-20000/)).
+- **Sale: easy to target.**
+  - The buyers are named on CBK's public directory and press lists ([Money254](https://www.money254.co.ke/post/cbk-issues-licenses-to-25-new-digital-lenders-list)).
+  - Two associations reach them: DFSAK and DLAK.
+  - Law firms that write NDTCP alerts are natural resellers.
+  - Regtech sales cycles in Nairobi are said to be 90–270 days ([devcommx, vendor claim](https://www.devcommx.com/demand-generation/nairobi/regtech)) (unverified). That is too slow for the March 2027 rush unless the kit is sold through law firms.
+- **Language:** English is enough, since the regulations and filings are in English.
+
+**Remaining risks.**
+- **The rush is short.** The application window closes about 29 March 2027, under six months away. After it, only the recurring product remains.
+- **Fee shock.** The fee rose from KES 20k to 500k a year. That may shrink the registered (small-lender) tier, and the offline pool is still uncounted (unverified).
+- **Legal-practice rules.** The Advocates Act may restrict non-advocates from selling drafted legal policies (unverified). Mitigation: sell through a partner law firm or include its review.
+- **Unread details.** Return frequencies and the full LN 191 text are not read in the primary source. CBK's impact statement only mentions "enhanced reporting requirements" ([CBK RIS](https://www.centralbank.go.ke/wp-content/uploads/2026/06/Regulatory-Impact-Assessment-Central-Bank-of-Kenya-Non-Deposit-Taking-Credit-Providers-Regulations-2025.pdf)).
+- **Rivals could add the module.** LMS vendors (SuperLMS, Craft Silicon) or Trigarc could add NDTCP content. CBK could also publish guidance notes, which DFSAK has asked for.
+- **What would lift this to "go".** One partner law firm agrees to resell. Five licensed lenders say they would pay about KES 15k a month in discovery calls.
+
+**New sources.**
+- Tech-ish, LN 191 fees, threshold and regulation numbers (read): https://tech-ish.com/2026/10/04/cbk-raises-licensed-lenders-annual-fee-to-kes-500000-from-kes-20000/
+- Business Daily, CAK complaints and 548 pending applications, Jul 2026 (read): https://www.businessdailyafrica.com/bd/economy/complaints-about-digital-lenders-jump-five-times--5528224
+- Business Daily, DFSAK asks CBK to unlock 429 licences, Mar 2024 (read): https://www.businessdailyafrica.com/bd/economy/digital-lenders-seek-cbk-help-to-unlock-429-licences-4551784
+- The Standard, DFSAK on overlapping regulators, Aug 2025 (read, paywalled): https://thestandard.ke/sports/business/article/2001527611/www.digger.co.ke
+- Super Systems, SuperLMS (read): https://supersystems.co.ke/
+- Lendsqr pricing (read): https://lendsqr.com/pricing
+- FNJ & Associates, Trigarc Compliance (read): https://fnjassociates.co.ke/?p=2402
+- CBK Regulatory Impact Statement (text extracted): https://www.centralbank.go.ke/wp-content/uploads/2026/06/Regulatory-Impact-Assessment-Central-Bank-of-Kenya-Non-Deposit-Taking-Credit-Providers-Regulations-2025.pdf
+- Money254, ODPC complaints and investigations (search summary only): https://money254.co.ke/post/40-digital-lenders-under-investigation-over-data-breaches
+- Money254, list of licensed lenders: https://www.money254.co.ke/post/cbk-issues-licenses-to-25-new-digital-lenders-list
+- Bowmans, DCP regulations note (search summary only): https://www.bowmanslaw.com/insights/banking-and-financial-services-regulatory/kenya-central-bank-of-kenya-digital-credit-providers-regulations-2021/
+- devcommx, Nairobi regtech sales cycle (vendor claim, search summary only): https://www.devcommx.com/demand-generation/nairobi/regtech
+
+
 ## Summary
 
 **Verdict: maybe. Score: 5/10.**

@@ -1,5 +1,84 @@
 # South Africa B2: compliance pack for small estate agencies (PPRA trust-account audit, FIC registration, RMCP and RCR)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10 (old score: 5/10).**
+
+**The case.** About 9,086 estate-agent registrations sit on the FIC's goAML system, and only 6% of them sent in their RMCP when the FIC asked in March 2025 ([FIC web notice, 10 Mar 2025](https://www.fic.gov.za/wp-content/uploads/2025/03/2025.3-WN-Update-on-Compliance_Submission-of-RMCP-.pdf)). That gap is now a yearly duty: Directive 12 makes every estate agent upload an approved RMCP to goAML by 31 October ([Moonstone](https://www.moonstone.co.za/fic-revises-annual-rmcp-deadlines-in-final-directive-12/)), on top of the trust audit, the RCR and FFC renewal. The free portals only take filings, so there is real room for a records, evidence and deadline tool. But the field is no longer empty. Realty Comply (R999 a month plus R499 per seat, IEASA partner), eFICA (RMCP Builder R3,500 a year) and Entegral Vault (pay per check) already cover parts of the job ([Realty Comply](https://www.realtycomply.com/); [eFICA](https://efica.co.za/); [Entegral](https://www.entegral.net/blog/product-updates/introducing-vault-simplify-your-fica-compliance-and-onboarding/)). The opening is a cheap, deadline-led tool for one- and two-person agencies and for the accountants and auditors who serve many of them, which would make a small but real business.
+
+### Room for improvement over the portal or current practice
+
+- **goAML is a filing channel only.** Agents must submit the RMCP on goAML and check its message board daily ([FIC notice](https://www.fic.gov.za/wp-content/uploads/2025/03/2025.3-WN-Update-on-Compliance_Submission-of-RMCP-.pdf)). It does not draft the RMCP, keep training or screening logs, or remind anyone of deadlines ([Moonstone](https://www.moonstone.co.za/fic-revises-annual-rmcp-deadlines-in-final-directive-12/)).
+- **Evidence of portal and process pain:**
+  - Only 568 of 9,086 estate-agent registrations (6%) had sent their RMCP by 10 Mar 2025, against a 12 Mar deadline. The figure for all sectors was 6% ([FIC notice](https://www.fic.gov.za/wp-content/uploads/2025/03/2025.3-WN-Update-on-Compliance_Submission-of-RMCP-.pdf)).
+  - About 70% of estate agents had filed the earlier RCR by April 2025, so about 30% had not ([STBB](https://stbb.co.za/?p=40089)).
+  - goAML registrations get rejected for missing ID copies and missing business fields. Password resets, login changes and adding users fill the FIC's call lines ([Moonstone](https://www.moonstone.co.za/fic-registration-turmoil/); [Accounting Academy](https://accountingacademy.co.za/news/read/fic-goaml-login-information)). These reports are older (2016-2019).
+  - An RCR cannot be edited or withdrawn once filed, so mistakes go through a formal FIC query ([Nanogram](https://www.nanogram.co.za/blog1.html)). This makes checking the data before filing worth paying for.
+  - IEASA sells paid webinars on how to submit the RMCP under Directive 12 ([Quicket](https://www.quicket.co.za/events/395674-ieasa-webinar-how-to-submit-rmcp-the-step-by-step-guidance-on-the-new-directive/)). Consultants such as MJK Inc sell FIC help to estate agents ([MJK](https://mjkinc.co.za/fica/estate-agents)).
+- **Inspection readiness.** Agencies are now expected to produce their RMCP, risk assessments and due-diligence files at once during inspections ([BusinessTech, May 2026](https://businesstech.co.za/news/finance/861026/government-cracking-down-on-estate-agents-in-south-africa/)). A fine of R266,000 was upheld because compliance existed "only on paper" (same source).
+- **Many dates, many bodies.** A new principal must handle CIPC, PPRA firm and principal registration, FFCs, tax clearance, B-BBEE, a trust account, an IRBA auditor, FIC registration, an RMCP, CDD, CPD and FFC renewal between 1 Jul and 31 Oct ([ProCompare](https://www.procompare.co.za/articles/accountants/ppra-compliance-roadmap-new-principal)). No single free tool tracks these.
+- **RCR date fixed.** Two sources give 31 July 2026 for estate agents under Directive 11 ([STBB](https://stbb.co.za/newsflash-the-fic-issues-directive-11-on-2026-risk-and-compliance-return-submissions/); [Nanogram](https://www.nanogram.co.za/blog1.html)). This replaces the "unverified" date in the first pass.
+
+### Competitor reality check
+
+| Product | What it does against the duty list | Price | Verdict |
+|---|---|---|---|
+| Realty Comply | PPRA audit file with mandate index and timestamped trail, "digital RMCP framework", beneficial-owner checks, 5-year record store, POPIA vault, principal dashboard, CPD link. No sign of Directive 12 upload help, RCR prep, FFC tracking, a deadline calendar, trust-audit prep or a training register on its home page ([Realty Comply](https://www.realtycomply.com/)). | R999/month per agency plus R499/month per seat. A sole principal pays about R1,498/month, about R18,000 a year (same source). | The closest rival. Claims "30+ agencies" and is an IEASA Corporate Benefit Partner (same source). Small user base and high price for a one-person agency. A real rival, not a killer. |
+| eFICA | KYC screening, risk rating, CDD, UBO mapping, free RMCP manager with change log ([eFICA](https://efica.co.za/)). No goAML, RCR, training register or deadline features shown (same source). | Pay per search. RMCP Pro R8,500 once; RMCP Builder R3,500 a year from Nov 2026; both R10,000 (excl VAT) (same source). | Covers client checks and the RMCP document. Not the PPRA side. Says it "accepts no responsibility for the regulatory adequacy of the RMCP" (same source). |
+| Entegral Vault | FICA onboarding: questionnaires, risk rating, audit trail, ID checks, screening ([Entegral](https://www.entegral.net/blog/product-updates/introducing-vault-simplify-your-fica-compliance-and-onboarding/)). | No monthly fee. R14.99 ID check, R9.49 address, R8.29 screening, incl VAT (same source). | Client KYC only. Not firm-level RMCP, RCR, audit or FFC. |
+| Moonstone FICA Toolkit | RMCP and risk-register templates and a course ([Moonstone](https://www.moonstone.co.za/new-do-it-yourself-fica-compliance-solution-for-accountable-institutions/)). | R4,995 excl VAT plus at least 5 paid hours (same source). | Documents only. |
+| Nanogram | Offers "automated compliance readiness" to agencies in Sandton and Fourways ([Nanogram](https://www.nanogram.co.za/blog1.html)). | Not published. | Features and size unknown (unverified). |
+| REBOSA template, goAML, MyPPRA | Free template and free filing portals ([GoLegal](https://www.golegal.co.za/rmcp-accountable-institution/)). | Free. | Starting point only; REBOSA says not to rely on it blindly (same source). |
+
+Bottom line: no product found does the whole list at a sole-agency price. Realty Comply is broad but costs about R18,000 a year for one person. eFICA and Entegral are KYC tools. Nobody visibly sells a multi-client view for the accountants and auditors who serve many small agencies (unverified).
+
+### Price per customer
+
+- **What they pay today:**
+  - Trust audit: R5,750 plus R3,450 to file the report, for a sole agency in 2018 ([Property Professional, 2018](https://propertyprofessional.co.za/trust-accounts-unnecessary-expense-or-necessity/)). A cost guide gives R19,000-63,000 for small and medium audits in general ([ProCompare](https://www.procompare.co.za/articles/accountants/ppra-compliance-roadmap-new-principal)).
+  - RMCP help: R4,995 template kit plus hours ([Moonstone](https://www.moonstone.co.za/new-do-it-yourself-fica-compliance-solution-for-accountable-institutions/)); R8,500 drafted RMCP or R3,500 a year self-service ([eFICA](https://efica.co.za/)).
+  - Full platform: about R18,000 a year for one principal ([Realty Comply](https://www.realtycomply.com/)).
+  - Penalties: R20 a day late audit, then R25,000 ([ProCompare](https://www.procompare.co.za/articles/accountants/ppra-compliance-roadmap-new-principal)); FIC fine of R266,000 upheld ([Accounting Weekly](https://www.accountingweekly.com/trending-news/fic-upholds-penalties-on-estate-agency-for-compliance-failures)).
+- **Proposed price:**
+  - Sole or small agency: R299 a month or R2,990 a year, all duties, no per-seat charge for the first 3 users. This undercuts Realty Comply by about 80% and sits near eFICA's R3,500 RMCP Builder (judgement, unverified).
+  - Accountant or auditor multi-client plan: R150 per client agency a month, minimum 10 clients, about R18,000 a year per firm (judgement, unverified).
+  - Optional RMCP review by a partner consultant: R2,500 once (judgement, unverified).
+
+### Revenue estimate (year 3)
+
+- Buyer base: 9,086 estate-agent registrations on goAML ([FIC notice](https://www.fic.gov.za/wp-content/uploads/2025/03/2025.3-WN-Update-on-Compliance_Submission-of-RMCP-.pdf)). About 65% of agencies are small firms or sole traders ([BusinessTech](https://businesstech.co.za/news/business/770346/bee-rules-for-real-estate-agents-in-south-africa-non-negotiable-property-authority/); unverified). 9,086 x 65% = about 5,900 small buyers. Whether a registration is a firm or a person is not stated (unverified).
+- Direct small agencies: 5,900 x 7% share = about 410 agencies x R2,990 = **R1.23m a year**.
+- Accountants and auditors: 60 firms x 15 client agencies x R1,800 a year = **R1.62m a year** (number of firms serving agencies is unverified). These 900 client agencies overlap with the 5,900 base, so direct plus channel reach about 1,300 agencies, about 22% of the small base. That is ambitious.
+- RMCP reviews: 150 a year x R2,500 = **R0.38m**.
+- **Total: about R3.2m a year (about US$175,000 at about R18 to the dollar; rate unverified).** A cautious case at half these shares gives about R1.6m (about US$90,000).
+
+### Ease of implementation and sale
+
+- **Build: medium.** A deadline calendar, questionnaire-driven RMCP builder, evidence logs and checklists are plain web software. All in English. No licence is needed. The hard part is legal content that keeps up with the FIC: Directive 12 dates moved between draft and final ([Moonstone](https://www.moonstone.co.za/fic-revises-annual-rmcp-deadlines-in-final-directive-12/)), and the FIC punishes paper-only programmes ([BusinessTech](https://businesstech.co.za/news/finance/861026/government-cracking-down-on-estate-agents-in-south-africa/)). A paid compliance reviewer is needed.
+- **Onboarding: easy.** One questionnaire, then a calendar and checklists. No integration with goAML is needed or possible; the user still uploads by hand.
+- **Sale: medium.** The 31 Oct RMCP and 31 Aug audit deadlines create yearly buying moments. But IEASA already partners with Realty Comply ([Realty Comply](https://www.realtycomply.com/)), so the easiest trade-body channel is taken. REBOSA, small audit firms and accountants are the open routes (unverified).
+
+### Remaining risks
+
+- **Competitors move down-market.** Realty Comply or eFICA could cut prices or add a calendar and Directive 12 pack. The space has filled since the first pass.
+- **Thrifty buyers.** Many one-person agencies may stay with the free REBOSA template and pay only when fined.
+- **Shrinking audit duty.** Trust-account exemptions via payment agents such as PayProp remove the audit ([PayProp](https://www.payprop.com/za/blog/why-getting-trust-account-exemption-is-the-smartest-business-decision-you-can-make-this-year)). Firms under R2.5m revenue may need only an independent review ([ProCompare](https://www.procompare.co.za/articles/accountants/ppra-compliance-roadmap-new-principal); unverified).
+- **Liability.** A generic RMCP that fails inspection hurts the user and the vendor's name.
+- **Unknowns.** PPRA count of firms and exemptions, accountant channel size and current consultant rates were not found (unverified).
+
+### Sources (new in this re-assessment)
+
+- https://www.fic.gov.za/wp-content/uploads/2025/03/2025.3-WN-Update-on-Compliance_Submission-of-RMCP-.pdf
+- https://www.realtycomply.com/
+- https://efica.co.za/
+- https://www.entegral.net/blog/product-updates/introducing-vault-simplify-your-fica-compliance-and-onboarding/
+- https://www.nanogram.co.za/blog1.html
+- https://www.procompare.co.za/articles/accountants/ppra-compliance-roadmap-new-principal
+- https://propertyprofessional.co.za/trust-accounts-unnecessary-expense-or-necessity/
+- https://www.moonstone.co.za/fic-registration-turmoil/
+- https://accountingacademy.co.za/news/read/fic-goaml-login-information
+- https://www.golegal.co.za/rmcp-accountable-institution/
+
 ## Summary
 
 **Verdict: maybe. Score: 5/10.**

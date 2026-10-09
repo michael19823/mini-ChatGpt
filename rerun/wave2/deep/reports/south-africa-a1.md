@@ -1,5 +1,76 @@
 # South Africa: an annual FICA compliance pack for high-value goods dealers in jewellery and precious metals (south-africa-a1)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe (leaning go if a pilot sells). New score: 6/10. Old score: 4/10.**
+
+Re-assessed 9 October 2026. Budget used: 12 web searches and 7 page fetches. None was blocked.
+
+**The case.** The buyer base is now counted, and it is bigger than the first pass feared. At 31 March 2025 the FIC had 5,184 registered item 20 dealers: 4,072 motor, 386 precious metals (including Krugerrands), 220 precious stones and 506 other goods ([FIC Annual Report 2024/25, pp. 26 and 30](https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf)). Their compliance is poor: only 54% to 83% filed the risk and compliance return, and only 1,451 of them sent in an RMCP when the FIC asked in March 2025 ([same, pp. 30-31](https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf)). Inspection pressure on jewellers is high: 90 of the FIC's 556 inspections in 2024/25 were of precious metal or stone dealers, out of about 606 registered ([same, p. 35](https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf)). No product found does the whole yearly job (RMCP, deadline calendar, transaction and report register, inspection file). A simple annual pack at about R9,000 a year could reach roughly R3m to R4m a year by year 3 across all item 20 dealers.
+
+### Room for improvement over the portal or current practice
+
+- **goAML is only a filing channel.** It takes the RMCP upload and the reports. It does not draft the RMCP, keep a CDD file, track deadlines or build an inspection file. A successful upload does not even mean the FIC accepts the RMCP ([GoLegal](https://www.golegal.co.za/?p=74912)).
+- **Low filing rates show real pain.** Risk and compliance returns received by 31 March 2025: motor dealers 2,183 of 4,072 (54%), precious metals 231 of 386 (60%), other goods 285 of 506 (56%), precious stones 182 of 220 (83%) ([FIC AR 2024/25, p. 30](https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf)).
+- **Few RMCPs were filed.** When the FIC asked for RMCPs by 12 March 2025, only 9,281 of all 55,262 registered institutions sent one. High-value goods dealers sent 1,451, about 28% of 5,184 ([FIC AR 2024/25, p. 31](https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf)). Directive 12 now makes this a yearly filing, due 31 October for item 20 ([Moonstone](https://www.moonstone.co.za/?p=61635)).
+- **Portal access is a known problem.** Many institutions filed on the last day, so the FIC accepted late RMCPs but called them non-compliant. The FIC said it "continues to receive numerous enquiries on how to access goAML", mostly password and login resets ([Moonstone](https://www.moonstone.co.za/fic-accepting-rmcps-after-the-12-march-deadline/)).
+- **Thin RMCPs.** Many RMCPs are only three or four pages and fail the FIC's test ([DealerFloor](https://dealerfloor.co.za/industry-news/seven-key-points-to-become-fully-fica-compliant); [FAnews](https://www.fanews.co.za/article/compliance-regulatory/2/general/1082/fica-reality-check-2026-brings-reckoning-for-sa-s-high-value-goods-dealers/43138)).
+- **Real reporting volume to manage.** Item 20 dealers filed 10,037 cash threshold reports and 28,028 suspicious and unusual transaction reports in 2024/25 ([FIC AR 2024/25, p. 28](https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf)). A register that flags R50k+ cash and keeps the CDD copies has a clear job.
+- **More filings keep arriving.** Directive 10 (every office location, due about 29 October 2026), Directive 12 (yearly RMCP) and draft PCC 126 (one registration per SADPMR permit) all add work in 2026 ([Acts Online](https://acts.co.za/news/blog/2026/08/fic-directive-10-geographic-location-reporting); [Moonstone](https://www.moonstone.co.za/?p=61913)).
+- **Multi-entity work.** Dealer groups and jewellers with several permits or branches need one registration per permit under PCC 126 and must list every branch under Directive 10. That suits per-entity and per-consultant pricing.
+
+### Competitor reality check
+
+- **nCino KYC (formerly DocFox).** Sells paperless client verification, watchlist screening, risk rating and a compliance helpdesk to motor dealers. Its dealer page does not mention RMCP drafting, goAML filing, cash report tracking or deadline tracking. No price or customer count is published ([nCino KYC](https://blog.kycafrica.ncino.com/the-best-motor-dealerships-across-south-africa-are-already-using-ncino-kyc-africa-heres-why-yours-should-too)). It covers the CDD part well, not the yearly filing part. A new product should complement it, not fight it.
+- **Moonstone FICA Toolkit.** R4,995 excl. VAT for a generic RMCP template, risk register and legal library. It dates from June 2023. Help to build the RMCP is billed hourly, five hours minimum ([Moonstone](https://www.moonstone.co.za/new-do-it-yourself-fica-compliance-solution-for-accountable-institutions/)). Moonstone has no bullion-dealer template ([Moonstone](https://www.moonstone.co.za/?p=57175)). It has no calendar, register or yearly update. Partial.
+- **ClearComply.** From R99 a month. Tracks deadlines and FICA registration status, but shows no RMCP drafting or goAML features ([ClearComply](https://www.clearcomply.co.za/blog/fica-compliance-south-africa)). Partial.
+- **Law firms and consultancies (mjkinc, GoLegal, acpas).** Custom RMCPs and advice. mjkinc lists fee pages, but no rand figures are shown for this work ([mjkinc](https://mjkinc.co.za/rmcp)). Prices unverified. Bespoke and not recurring software.
+- **Conclusion.** Every incumbent does one slice. None is a well-priced product that does the whole yearly job for a dealer. This is an opening, not a killer.
+
+### Price per customer
+
+- **What they face today.**
+  - FIC fines: 118 fines of R10,000 each were paid in 2024/25 under the FIC's "admission of non-compliance" process. The 25 formal sanctions on non-financial businesses totalled R782,000 ([FIC AR 2024/25, p. 37](https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf)). Listed sanctions on other sectors for not filing the risk and compliance return ran at R10,000 to R50,000 each ([same, p. 38](https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf)). The legal maximum is R50m for a company ([same](https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf)).
+  - DIY: R4,995 template plus at least five consultant hours ([Moonstone](https://www.moonstone.co.za/new-do-it-yourself-fica-compliance-solution-for-accountable-institutions/)). Law-firm RMCP work is probably R10,000 to R30,000 (unverified).
+- **Suggested pricing.**
+  - Single dealer: R750 a month or R8,000 to R9,000 a year. This covers the RMCP builder and yearly update, the deadline calendar, the transaction and report register and the inspection file.
+  - Each extra branch or permit: R250 a month.
+  - Consultants and accountants: about R2,500 a month for up to 10 dealer clients, then R200 per client (unverified willingness).
+  - Optional: a one-off RMCP review by a partner attorney at R3,000 to R5,000 (unverified).
+- **Why this works.** R9,000 a year is below one R10,000 FIC fine and close to the cost of a template plus five consultant hours.
+
+### Revenue estimate (year 3)
+
+Buyer base: 5,184 registered item 20 dealers at 31 March 2025, growing by 563 that year ([FIC AR 2024/25, p. 26](https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf)). Many more unregistered dealers likely exist (unverified).
+
+- **Jewellery and precious-metal niche only:** 606 dealers (220 stones + 386 metals) x 15% share = about 90 customers x R9,000 = **about R0.8m a year**. Too small on its own.
+- **All item 20 dealers:** 5,184 x 7% = about 360 customers x R9,000 = **about R3.3m a year**.
+- **Plus consultants:** 30 consultants or accounting firms x R30,000 a year = **R0.9m**.
+- **Realistic year-3 total: about R3m to R4m a year** (about US$170k to US$230k at roughly R17.5 to the dollar; rate unverified). This needs the product to sell to motor and other dealers, not only jewellers.
+
+### Ease of implementation and sale
+
+- **Build: easy to medium.** A guided RMCP questionnaire, a deadline calendar, a simple register and a PDF inspection file. No goAML integration is needed at first; the dealer uploads the files. Work is in English.
+- **Onboarding: easy.** A short questionnaire per dealer and a few hours of setup.
+- **Sale: medium.** Deadlines create clear buying moments (31 October RMCP, RCR window, Directive 10). Channels exist: the Jewellery Council, *The Jeweller*, SADPMR permit lists (unverified access), refiners, and dealer media such as DealerFloor ([DealerFloor](https://dealerfloor.co.za/industry-news/seven-key-points-to-become-fully-fica-compliant)). Motor dealers are the hardest group, because nCino KYC already courts them.
+
+### Remaining risks
+
+- **Liability.** An RMCP must reflect the dealer's own risks. A template that fails an inspection hurts the brand. An attorney review step is needed ([nCino KYC](https://blog.kycafrica.ncino.com/breaking-the-myths-around-fica-outsourcing)).
+- **nCino KYC could add RMCP and calendar features** (unverified; nothing announced).
+- **Motor dealers decide the revenue.** They are 79% of registered item 20 dealers (4,072 of 5,184). Many use dealer-group compliance teams or existing vendors (unverified).
+- **Willingness to pay is untested.** Low filing rates show pain, but may also show indifference.
+- **Draft PCC 126 may change** after comments close on 16 October 2026 ([Moonstone](https://www.moonstone.co.za/?p=61913)).
+
+### New sources
+
+- https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf (pp. 26, 28, 30, 31, 35, 37, 38)
+- https://www.moonstone.co.za/fic-accepting-rmcps-after-the-12-march-deadline/
+- https://blog.kycafrica.ncino.com/the-best-motor-dealerships-across-south-africa-are-already-using-ncino-kyc-africa-heres-why-yours-should-too
+- https://dealerfloor.co.za/industry-news/seven-key-points-to-become-fully-fica-compliant
+- https://mjkinc.co.za/rmcp
+- https://www.moonstone.co.za/?p=57175
+
 Research date: 9 October 2026. Budget used: 20 web searches and 12 page fetches. None was blocked.
 
 ## Summary

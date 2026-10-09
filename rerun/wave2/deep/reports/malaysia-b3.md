@@ -1,5 +1,81 @@
 # Malaysia B3: community pharmacy poisons registers and pharmacist attendance records
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10 (old score: 4/10).**
+
+**The case.** There is no state portal for these records at all. Each community pharmacy has to keep its own Form B, Form C, Form D and Form E records, plus codeine/DXM/ephedrine/pseudoephedrine records, for 5 years, ready for a yearly inspection ([ST.164/2025](https://repositori.parlimen.gov.my/bitstream/123456789/3521/121/ST.164.2025); [K-FR-36/3](https://pharmacy.moh.gov.my/sites/default/files/document-upload/senarai-semak-pemeriksaan-premis-berlesen-bawah-akta-racun-1952-versi-3.0.pdf)). Record-keeping is the most-breached rule for community pharmacists in the one inspection study found ([Iraqi J Pharm Sci 2024](https://www.bijps.uobaghdad.edu.iq/index.php/bijps/article/view/2508)). No Malaysian product found advertises these statutory records. That leaves a clear, easy-to-build niche. But the market is about 3,000 independent outlets that pay little, and pharmacy POS vendors could add the same reports. It works as a small, cheap "inspection-ready" add-on, sold through POS vendors or pharmacist bodies. It does not look like a large business.
+
+**Room for improvement over current practice.** No portal exists, so all of the work is on the pharmacy:
+- **Evidence of pain.** In Sarawak, community pharmacist compliance with the Poisons Act and Sale of Drugs Act was only 58.6% (2016) and 61.1% (2020). Records for codeine, dextromethorphan, ephedrine and pseudoephedrine were the most common failure, at 12.3%-24.1% of premises each year ([Iraqi J Pharm Sci 2024](https://www.bijps.uobaghdad.edu.iq/index.php/bijps/article/view/2508)). Nationally, 2024 inspections led to 405 reminder letters and 323 warning letters ([MOH Statistics Report 2024](https://pharmacy.moh.gov.my/sites/default/files/document-upload/laporan-statistik-program-perkhidmatan-farmasi-2024-compressed.pdf)). The MOH checklist itself says licensees keep repeating offences after warnings ([K-FR-36/3](https://pharmacy.moh.gov.my/sites/default/files/document-upload/senarai-semak-pemeriksaan-premis-berlesen-bawah-akta-racun-1952-versi-3.0.pdf)).
+- **Counter-evidence.** MOH's national KPI says 99.39% of inspected licensed premises were compliant ([MOH Statistics Report 2024](https://pharmacy.moh.gov.my/sites/default/files/document-upload/laporan-statistik-program-perkhidmatan-farmasi-2024-compressed.pdf)). This KPI probably uses a looser test than item-level checks (unverified). Felt pain may be lower than the Sarawak figures suggest.
+- **New duties since 2025.** Form D (engagement record, due before the first shift and within a day of exit) and Form E (daily time-in/time-out per pharmacist) are new ([ST.164/2025](https://repositori.parlimen.gov.my/bitstream/123456789/3521/121/ST.164.2025)). Generic time clocks do not hold the IC number or the annual certificate number. They do not produce Form E in the prescribed layout either (unverified). Locum pharmacists make this harder, because each locum shift needs a Form D and a Form E entry. Locums are common at RM25-28 an hour ([Maukerja listing](https://www.maukerja.my/en/job/LQtFH5jNFT-part-time-locum-pharmacist); [Payscale](https://www.payscale.com/research/MY/Job=Locum_Pharmacist/Hourly_Rate)).
+- **What software would add:**
+  - Running-balance records for the codeine, DXM, ephedrine and pseudoephedrine group, which is the top breach.
+  - Form C serial numbers linked to labels.
+  - An append-only edit log and 5-year retention.
+  - One-click inspection printouts and a self-check built from K-FR-36/3.
+  - An evidence pack for the Internal Compliance Programme. The ICP offers licences of up to 3 years to firms with documented internal controls and a yearly audit of their record system ([ICP guide](https://pharmacy.moh.gov.my/sites/default/files/document-upload/panduan-program-pematuhan-dalaman-icp-pemegang-lesen-jenis-b-bawah-akta-racun-1952-.21072026.pdf)).
+  - Multi-outlet views for small chains.
+- **Consultants.** No consultant market selling help with these records was found. One firm named "APMRC Pharmacy Management & Retails Consultancy" appears in job ads, but its services could not be checked ([Maukerja](https://www.maukerja.my/en/job/27044421-pharmacy-assistant), page blocked, unverified).
+
+**Competitor reality check.**
+- **MaxERP.** It markets "Pharmacy Store Software in Malaysia" with POS, dispensing, prescription types and insurance pricing. Its page names no poison book, Prescription Book, Poisons Act, controlled-drug, codeine/DXM or pharmacist-attendance feature. It gives no price ("Get Quote") and no named pharmacy clients ([MaxERP](https://www.maxerp.org/pharmacy-store-software-malaysia)).
+- **Others.** MyScripts, Faris and GS Vision were found in the first pass, but their features and prices could not be checked (MyScripts profile page returned 429; unverified).
+- **Searches.** English, Malay and Chinese searches for poison-book or Prescription Book software in Malaysia found no product that claims Form B/C/D/E compliance. Generic Odoo pharmacy modules and foreign systems do not cover Malaysian forms ([Odoo app](https://apps.odoo.com/apps/modules/15.0/bi_pos_pharmacy_management)).
+- **Chains.** Chains (BIG 282 and Caring 199 outlets in 2022; Alpro 280 in 2023; AA Pharmacy 84 in 2026) are likely served by in-house or enterprise systems ([Vulcan Post](https://vulcanpost.com/834724/big-pharmacy-caring-malaysia-7-eleven-acquisition/); [The Edge](https://theedgemalaysia.com/node/689911); [Hiredly](https://my.hiredly.com/companies/aa-pharmacy-healthcare-sdn-bhd)).
+- **Reading.** The incumbents are generic POS/ERP tools that have not visibly done this job. That is an opening. The risk is that they add a report once a customer asks.
+
+**Price per customer.**
+- **Benchmarks:**
+  - A Malaysian clinic system starts at RM45 a month for a solo practice ([AdvisoryApps FAQ](https://www.medicalmet.advisoryapps.com/faq/how-much-does-clinic-management-software-cost-in-malaysia/)).
+  - The Type A licence costs about RM270 a year (first-pass calculation from the [MOH Statistics Report 2024](https://pharmacy.moh.gov.my/sites/default/files/document-upload/laporan-statistik-program-perkhidmatan-farmasi-2024-compressed.pdf)).
+  - Pharmacist time costs about RM25 an hour ([Payscale](https://www.payscale.com/research/MY/Job=Locum_Pharmacist/Hourly_Rate)). Saving one hour a week of record work is worth about RM100 a month (own estimate).
+  - The fine is up to RM5,000 per offence ([ST.164/2025](https://repositori.parlimen.gov.my/bitstream/123456789/3521/121/ST.164.2025)).
+- **Realistic prices:**
+  - Single outlet: RM39-59 a month.
+  - Small chains: about RM39 per outlet per month, plus a one-off RM300 set-up fee to load pharmacists and opening balances.
+  - POS vendor white-label: about RM15-20 per outlet per month.
+  - Blended average: about RM50 per outlet per month, or RM600 a year (estimate).
+
+**Revenue estimate (year 3).**
+- **Buyers.** There were 4,320 private community pharmacy premises in 2024 ([MOH Statistics Report 2024](https://pharmacy.moh.gov.my/sites/default/files/document-upload/laporan-statistik-program-perkhidmatan-farmasi-2024-compressed.pdf)). The large chains above hold roughly 850-1,300 outlets, counting Watsons and Guardian pharmacies as unverified. That leaves about 3,000 independent and small-chain outlets (estimate).
+- **Base case:** 3,000 x 8% x RM600 = **RM144,000 a year** (about USD 34k).
+- **Good case** (MPS or a POS-vendor partnership): 3,000 x 15% x RM600 = RM270,000. Add set-up fees of 450 x RM300 = RM135,000 spread over three years (about RM45,000 a year). That gives about **RM315,000 a year** (about USD 75k).
+- **Upside, unverified:** GP clinics that dispense must keep the Prescription Book too, and their Prescription Book non-compliance was the most common GP breach in Sarawak ([Iraqi J Pharm Sci 2024](https://www.bijps.uobaghdad.edu.iq/index.php/bijps/article/view/2508)). Clinic systems may already cover it (unverified).
+
+**Ease of implementation and sale.**
+- **Build: high.** The forms and fields are fully defined in the regulations and the checklist. A small team can build a PWA in weeks.
+- **Onboarding: high.** The app needs no integration to start. CSV import from POS is a nice extra.
+- **Sale: medium-low.** Buyers are fragmented, often family-run, and need content in Malay, English and Chinese. Direct sales are slow. The channels to test are:
+  - MPS, which has signed digital-health MOUs before.
+  - The Tigas banner group of independents (70+ stores in 2011; [Wikipedia](https://en.wikipedia.org/wiki/Tigas)).
+  - Wholesalers.
+  - POS vendors as white-label partners.
+- **Regulatory: medium.** It is still unconfirmed whether state enforcement officers accept app-generated forms and cloud storage as kept "on the premises" (unverified).
+
+**Remaining risks.**
+- **POS bundling.** A POS vendor could add Form C/D/E reports cheaply.
+- **Low felt pain.** The 99.39% national KPI and warning letters as the first step mean owners may not feel much pressure ([MOH Statistics Report 2024](https://pharmacy.moh.gov.my/sites/default/files/document-upload/laporan-statistik-program-perkhidmatan-farmasi-2024-compressed.pdf)).
+- **Small revenue ceiling.** A base case of about RM144k a year makes this a side business unless the clinic upside or a white-label deal comes through.
+- **Rules that may change.** The 2027 prescription format and the Pharmacy Bill could change the records required (unverified, see below).
+- **Bound-book rules.** Psychotropic and dangerous drugs registers must stay in bound books, so the product cannot cover everything ([K-FR-36/3](https://pharmacy.moh.gov.my/sites/default/files/document-upload/senarai-semak-pemeriksaan-premis-berlesen-bawah-akta-racun-1952-versi-3.0.pdf)).
+- **Weak market-size data.** Industry estimates of total pharmacies vary from 3,000 to 4,300+ ([The Edge, 2023](https://theedgemalaysia.com/node/689911)).
+
+**New sources (this re-assessment).**
+- https://www.bijps.uobaghdad.edu.iq/index.php/bijps/article/view/2508 (Sarawak compliance study abstract, read)
+- https://www.maxerp.org/pharmacy-store-software-malaysia (read)
+- https://vulcanpost.com/834724/big-pharmacy-caring-malaysia-7-eleven-acquisition/ (read)
+- https://theedgemalaysia.com/node/689911 (read)
+- https://en.wikipedia.org/wiki/Tigas (read)
+- https://www.payscale.com/research/MY/Job=Locum_Pharmacist/Hourly_Rate (search snippet)
+- https://www.maukerja.my/en/job/LQtFH5jNFT-part-time-locum-pharmacist (search snippet)
+- https://www.medicalmet.advisoryapps.com/faq/how-much-does-clinic-management-software-cost-in-malaysia/ (search snippet)
+- https://my.hiredly.com/companies/aa-pharmacy-healthcare-sdn-bhd (search snippet)
+- https://apps.odoo.com/apps/modules/15.0/bi_pos_pharmacy_management (search snippet)
+- https://www.maukerja.my/en/job/27044421-pharmacy-assistant (blocked, 403)
+- https://www.einpresswire.com/article/528803443/small-retail-pharmacies-likely-targets-of-larger-chains-in-malaysia-retail-pharmacy-market-ken-research (read; it gives about 10,000 poison licences in 2019 but no independent share)
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

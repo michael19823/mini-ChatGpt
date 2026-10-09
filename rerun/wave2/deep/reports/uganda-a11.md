@@ -1,5 +1,68 @@
 # Uganda: workplace registration and OSH record-keeping service (uganda-a11)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10 (old score: 4/10).**
+
+**The case.** OSHMIS, the free state portal, only covers registering the workplace. The bigger 2025 duties are all record-keeping that no portal does: a safety committee and officer, a health surveillance plan, risk assessments, annual audits, an incident log, medical exams and operator certificates ([KTA alert](https://www.ktaadvocates.com/wp-content/uploads/2025/10/KTA-LEGAL-ALERT-ON-OSH-ACT.pdf), [WageIndicator](https://wageindicator.org/en-ug/work-in-uganda/labour-law/health-and-safety)). No local commercial product does this job. The only local efforts I found are a prototype and a consultancy's tool that is still in development ([UNCST](https://www.innovations.uncst.go.ug/innovation/296), [VC4A](https://vc4a.com/ventures/kashari-consults-u-limited/)). So the gap is real and nobody owns it. What holds the score down is weak enforcement and regulations that have not been issued yet, so buyers feel little urgency. A cheap "compliance file" product with reminders, sold to formal employers in high-risk sectors and to OSH consultants as a multi-client tool, could reach a small but real business of about USD 60,000-190,000 a year by year 3.
+
+**Room for improvement over the portal or current practice**
+- **The portal does registration only.** OSHMIS is described as the online channel for registration and certificates ([KAA](https://kaa.co.ug/?p=12709)). The ministry still issues the incident register and inspection checklist as documents ([KAA](https://kaa.co.ug/?p=12709)). I found no evidence that OSHMIS holds committee minutes, surveillance plans, risk assessments, audit reports, medical exam records or operator certificates (unverified; the portal returned HTTP 503 when fetched again on 9 Oct 2026, and searches find no public user guide for it).
+- **New records to keep, all outside the portal:** a committee in every workplace regardless of size ([WageIndicator](https://wageindicator.org/en-ug/work-in-uganda/labour-law/health-and-safety)); a surveillance plan sent to the Commissioner (s. 20(2)(a)); accident and incident notification (s. 20A); noise, dust and vibration risk assessments (s. 46(3)); annual audits (s. 46(4)); certified operators (ss. 70, 72, 83) ([KTA alert](https://www.ktaadvocates.com/wp-content/uploads/2025/10/KTA-LEGAL-ALERT-ON-OSH-ACT.pdf)).
+- **Inspection readiness:** inspectors can demand registers, documents, certificates and notices, and obstructing an inspector carries up to 48 currency points or a year in prison ([WageIndicator](https://wageindicator.org/en-ug/work-in-uganda/labour-law/health-and-safety)). A secondary source says the April 2026 Employment (Amendment) Act requires OSH incident logs and risk assessments to be kept and produced on request ([Global Law Experts](https://globallawexperts.com/uganda-employment-law-changes-2026/), unverified against the gazette).
+- **Deadline tracking:** 3-year certificate renewal ([KAA](https://kaa.co.ug/?p=12709)), annual audits, periodic medical exams and operator re-certification. Nothing in the portal is known to remind employers (unverified).
+- **Evidence of pain with the old process:** before the online system, firms travelled "more than 400 kilometres" to Kampala to collect forms, and the ministry called manual inspection "tiresome" ([Monitor, 2022](https://www.monitor.co.ug/uganda/news/national/ministry-introduces-online-system-to-monitor-workers-4015048)). I found no user complaints, help videos or error-rate data about OSHMIS itself (unverified). Portal pain is not the main selling point. The record-keeping gap is.
+- **Current practice is weak.** Employers are "reluctant" to appoint safety officers ([Monitor, 2025](https://www.monitor.co.ug/uganda/news/national/gov-t-tasks-employers-to-designate-labour-safety-officers-5032054)). A 2024 Kyambogo study of four labs found 76-88% compliance, with gaps blamed on low budgets and lax management ([Kyambogo](https://kyuspace.kyu.ac.ug/items/98ca809d-3bb4-498e-b6a1-934fbb140ba0)).
+
+**Competitor reality check**
+- **OSHMIS (state, free):** registration only, as far as is known. It is often unreachable (503 on both passes). It is a complement, not a rival.
+- **Kashari Consults:** a Kampala consultancy building an incident-reporting and compliance tool. It is still in development and has no public price ([VC4A](https://vc4a.com/ventures/kashari-consults-u-limited/)). It is a possible partner or a future rival.
+- **UNCST "OSH Tracking and Measurement System":** a prototype, not on sale ([UNCST](https://www.innovations.uncst.go.ug/innovation/296)).
+- **Makerere HSE app:** a 2022 student dissertation, not a product ([Makerere](https://dissertations.mak.ac.ug/handle/20.500.12281/14232)).
+- **Global HSE tools** (DNV Synergi, Access Group, Notify, ehs4safety): generic, priced for large firms, and none mention Uganda's forms or the 2025 duties ([DNV](https://dnv.com/services/hse-risk-management-and-incident-reporting-mobile-app-synergi-life-connect-3697), [Access Group](https://www.theaccessgroup.com/en-gb/compliance/software/health-and-safety-software/incident-reporting/)).
+- **Conclusion:** no local product does the whole job. There is no killer here.
+
+**Price per customer**
+- **Anchor: a safety officer's pay.** A health and safety officer in Uganda earns about UGX 1.34-3.15 million a month gross ([Paylab](https://paylab.com/ug/salaryinfo/security-protection/health-and-safety-officer); fewer than 20 respondents). Every workplace now needs a designated officer ([KTA alert](https://www.ktaadvocates.com/wp-content/uploads/2025/10/KTA-LEGAL-ALERT-ON-OSH-ACT.pdf)). A tool that lets an existing staff member act as the officer is worth a small fraction of that pay.
+- **Anchor: fines.** Up to 1,000 currency points (UGX 20 million) for uncertified operators ([WageIndicator](https://wageindicator.org/en-ug/work-in-uganda/labour-law/health-and-safety); currency point = UGX 20,000 per [FAOLEX](https://leap.unep.org/en/countries/ug/national-legislation/occupational-safety-and-health-act-2006)). Enforcement is rare, though, so fines alone will not drive sales.
+- **Anchor: regional fees.** Kenya's draft 2025 OSH fee schedule charges OSH advisers and auditors KES 15,000 a year for approval, which shows the licensed-practitioner model Uganda's s. 15A may copy ([Kenya Times via search](https://thekenyatimes.com/latest-kenya-times-news/occupational-safety/), unverified).
+- **Proposed prices (my estimate, unverified):**
+  - Single employer: UGX 75,000-100,000 a month, or about UGX 900,000-1,200,000 a year (about USD 245-330). That is 3-7% of one officer's monthly pay, per month.
+  - OSH consultant or practitioner, multi-client: UGX 300,000 a month (about USD 1,000 a year) for up to 20 client workplaces, then about UGX 15,000 per extra workplace per month.
+  - Optional done-for-you setup (surveillance plan, policy, first risk assessment) through partner practitioners: UGX 500,000-1,500,000 once.
+
+**Revenue estimate (year 3)**
+- Buyer base: 33,200 active NSSF-paying employers ([Monitor](https://www.monitor.co.ug/uganda/oped/commentary/nssf-puzzle-why-just-850-000-active-members--5233588)). The core targets are factories, construction, hotels, agribusiness exporters and firms facing lender, donor or buyer audits (size of this segment unverified; I assume about a quarter, about 8,000).
+- Conservative: 250 employers x UGX 900,000 = UGX 225 million (about USD 62,000). That is 0.75% of active employers, or about 3% of the core segment.
+- Base: 500 employers x UGX 1,200,000 = UGX 600 million, plus 30 consultants x UGX 3.6 million = UGX 108 million. Total UGX 708 million (about USD 194,000).
+- FX of about UGX 3,650 per USD (unverified). The number of OSH consultancies in Uganda is not published (unverified). For comparison, ICPAU lists only 275 licensed accounting firms in 2026 ([Sanyu FM](https://sanyufm.com/icpau-publishes-register-of-accounting-firms-cautions-against-quacks/)), and accountants are not a natural OSH channel.
+- Upside: if the regulations set audit and risk assessment deadlines and s. 15A licensing starts, the base case could double. That is speculative.
+
+**Ease of implementation and sale**
+- **Build: easy.** Templates, a register, a document vault, reminders and an inspection-ready PDF export. There is no portal integration to build. English is the language of law and business. The work is low-risk for a small team.
+- **Onboarding: easy to medium.** A 15-minute intake per site. The surveillance plan and risk assessments need sector content and, ideally, review by a practitioner.
+- **Sale: medium to hard.** Demand is driven by audits from lenders, donors and buyers, and by large clients' supplier rules, more than by the state. Selling through OSH consultants, UMA training courses and law firms that publish OSH alerts is the realistic path ([UMA](https://uma.or.ug/wp-content/uploads/2025/02/UMA-Training-Courses-Prospectus-2025-1.pdf), [KTA](https://www.ktaadvocates.com/uganda-expands-workplace-safetyobligations-under-the-occupationalsafety-and-health-amendment-act2025/)).
+
+**Remaining risks**
+- **Weak enforcement:** the department is about 70% staffed ([Monitor, 2025](https://www.monitor.co.ug/uganda/news/national/gov-t-tasks-employers-to-designate-labour-safety-officers-5032054)), and fewer than half of workplaces were inspected over two years ([EPRC](https://library.eprcug.org/publication/the-business-case-for-labour-inspection-in-uganda-a-case-of-cocoa-coffee-and-hospitality-subsectors-in-the-albertine-and-rwenzori-subregions)).
+- **Pending regulations:** the deadlines for audits and risk assessments, and the practitioner licensing rules, have not been issued. I found no gazetted regulations as of October 2026 (unverified) ([KTA alert](https://www.ktaadvocates.com/wp-content/uploads/2025/10/KTA-LEGAL-ALERT-ON-OSH-ACT.pdf)).
+- **OSHMIS may grow:** the state could add incident notification and plan upload. That would take the filing step, but not the internal records.
+- **Licensing:** if s. 15A requires a licensed practitioner to sign plans and audits, the product must partner with practitioners.
+- **Facts still unverified:** the registration fee, the penalty for an unregistered workplace, the count of registered workplaces, and OSHMIS's current features.
+
+**New sources (re-assessment)**
+- https://www.monitor.co.ug/uganda/news/national/ministry-introduces-online-system-to-monitor-workers-4015048
+- https://wageindicator.org/en-ug/work-in-uganda/labour-law/health-and-safety
+- https://paylab.com/ug/salaryinfo/security-protection/health-and-safety-officer
+- https://kyuspace.kyu.ac.ug/items/98ca809d-3bb4-498e-b6a1-934fbb140ba0
+- https://globallawexperts.com/uganda-employment-law-changes-2026/
+- https://sanyufm.com/icpau-publishes-register-of-accounting-firms-cautions-against-quacks/
+- https://thekenyatimes.com/latest-kenya-times-news/occupational-safety/ (search summary only)
+- https://dnv.com/services/hse-risk-management-and-incident-reporting-mobile-app-synergi-life-connect-3697
+- https://www.theaccessgroup.com/en-gb/compliance/software/health-and-safety-software/incident-reporting/
+- https://allafrica.com/stories/202606020287.html (checked; no figures on enforcement)
+- https://oshmis.mglsd.go.ug (HTTP 503 on 9 Oct 2026)
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

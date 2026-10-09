@@ -1,5 +1,86 @@
 # Peru B1: Casino, slot-room and betting SPLAFT-in-a-box (Res. SBS 01015-2026)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10. Old score: 4/10.**
+
+**The case.** About 325 land-based firms and about 91 online licence holders must run a full anti-money-laundering system (SPLAFT) under rules rewritten in Oct 2025 and Apr 2026. The rules demand records the state portals do not keep: a daily operations register (RO) held "in IT systems" and uploaded on an SBS template, due-diligence files with refresh cycles, a 30-day staff induction with proof, and an annual report (IAOC) built from monthly statistics. The local tools I found are list-screening services and consultancies. None of them covers the casino RO, promo-winner logging or the IAOC for gaming. A cheap, gaming-specific workflow tool sold to operators and to the outsourced compliance officers who serve them could reach about US$ 190,000 a year by year 3. The ceiling is the small buyer base and light enforcement, so it stays a "maybe".
+
+### Room for improvement over the portal or current practice
+
+- **The portals only receive files.** Portal PLAFT is only for the compliance officer to send confidential data to UIF-Perú. ROSEL takes suspicious-transaction reports. SISDEL takes officer designations ([SBS Portal PLAFT](https://www.sbs.gob.pe/prevencion-de-lavado-activos/supervisados/plaft-portal-de-prevencion-de-lavado-de-activos-y-financiamiento-del-terrorismo); [Res. SBS 03622-2025](https://img.lpderecho.pe/wp-content/uploads/2025/10/Resolucion-SBS-03622-2025-LPDerecho.pdf)). They do not hold the registers, files or evidence behind those filings.
+- **The RO must live in software and be uploaded.** For online operators the RO must be logged on the day of the operation, in date order, "in IT systems and/or applications", with a backup copy. It is then sent in the structure and frequency the SBS sets, on a template that only the registered officer can download from Portal PLAFT (Res. SBS 03622-2025, arts. 22.4 and 22.6, [PDF](https://img.lpderecho.pe/wp-content/uploads/2025/10/Resolucion-SBS-03622-2025-LPDerecho.pdf)). This corrects the first pass, which assumed the RO was only kept on file. The same rule for land-based rooms is likely but unverified, because the full text of 01015-2026 was not reachable.
+- **The land-based RO got bigger.** It now includes every chip or ticket cash-out of US$ 2,500 or more, plus every promotional prize winner at any amount. The old prize-winner register (REGAP) was merged into it ([PRCP](https://prcp-r2-prd.postedin.com/FT-y-FP-incorporadas-por-la-Resolución-SBS-N°-01015-2026.pdf)). Rooms run frequent raffles, so this means many more manual rows (volume unverified).
+- **The IAOC is a data-assembly job.** It must give monthly counts and amounts for the RO, unusual operations and suspicious reports. It must also list training counts (including who was trained more than once), shareholder and manager IDs, and every room location. It needs board or manager approval within 30 days of year end and is due by 15 February (Res. SBS 03622-2025, arts. 26.1-26.3, [PDF](https://img.lpderecho.pe/wp-content/uploads/2025/10/Resolucion-SBS-03622-2025-LPDerecho.pdf); [PRCP](https://prcp-r2-prd.postedin.com/FT-y-FP-incorporadas-por-la-Resolución-SBS-N°-01015-2026.pdf)). An internal-audit report (IAI) goes with it as an annex by the same date (art. 33.4, same PDF). A tool that already holds the registers can pre-fill most of this.
+- **Cycles and deadlines to track.** Each new worker or director needs an induction within 30 days, with written proof. Worker and director files must be checked once a year, supplier files at least every 2 years, and the risk assessment at least every 3 years ([PRCP](https://prcp-r2-prd.postedin.com/FT-y-FP-incorporadas-por-la-Resolución-SBS-N°-01015-2026.pdf); [El Peruano](https://elperuano.pe/noticia/293055-carlos-caro-nueva-norma-contra-lavado-de-activos-implica-menor-tolerancia-ante-fallas-de-cumplimiento)). A missing induction record is now a named infraction ([PRCP](https://prcp-r2-prd.postedin.com/FT-y-FP-incorporadas-por-la-Resolución-SBS-N°-01015-2026.pdf)).
+- **Multi-entity work.** A corporate compliance officer must file one IAOC per entity in the group (art. 26.4, [PDF](https://img.lpderecho.pe/wp-content/uploads/2025/10/Resolucion-SBS-03622-2025-LPDerecho.pdf)). The rule lets firms use third parties for due diligence and training (arts. 19-20, same PDF). That favours outsourced officers and consultants who serve many small firms, and a multi-client mode fits them.
+- **Evidence of pain.** Law firm PRCP publishes a yearly step-by-step guide to approving and sending the IAOC and IAI ([PRCP 2021 guide](https://blog.prcp.com.pe/wp-content/uploads/2022/01/GUIA-APROBACION-Y-ENVIO-DEL-INFORME-ANUAL-O-SEMESTRAL-DEL-OFICIAL-DE-CUMPLIMIENTO-Y-EL-INFORME-ANUAL-DE-AUDITORIA-INTERNA-DEL-ANO-2021.pdf); [PRCP 2022 guide](https://prcp-r2-prd.postedin.com/GUIA-APROBACION-Y-ENVIO-DEL-INFORME-ANUAL-O-SEMESTRAL-DEL-OFICIAL-DE-CUMPLIMIENTO-Y-EL-INFORME-ANUAL-DE-AUDITORIA-INTERNA-DEL-ANO-2022.pdf)). MINCETUR sanctioned 10 gaming firms in one year for not sending the IAOC ([Focus Gaming News](https://focusgn.com/latinoamerica/peru-multo-a-30-empresas-titulares-de-salas-de-juegos-de-azar)). Pirani, a vendor, says the hard part of SPLAFT is keeping it running, and that spreadsheets make this slow and fragile ([Pirani](https://www.piranirisk.com/es/hub-regulatorio/splaft-uif-sistema-antilavado-peru)). I found no direct user complaints about the portals (unverified).
+
+### Competitor reality check
+
+- **Pirani AML (Colombian SaaS).** It markets to Peruvian SPLAFT users. Its Peru page covers due diligence, segmentation, list screening and report traceability. It does not mention the RO, IAOC or training, and it lists no gaming sector ([Pirani](https://www.piranirisk.com/es/hub-regulatorio/splaft-uif-sistema-antilavado-peru)). There is a free risk-map tier; AML pricing is by quote ([Pirani AML](https://piranirisk.com/solutions/risk-aml)). It is a generic risk tool, not a casino RO tool.
+- **Inspektor, sold by PLAFT Suite and Risk Global Consulting.** List screening across 18 countries, with bulk queries and match alerts. PLAFT Suite adds consulting packages (officer programme, manual, training, UIF reports, internal audit). Its target sectors are mining, metals, construction, machinery and real estate, not gaming. No prices are published ([PLAFT Suite](https://plaft-suite.com/risk-consulting); [Risk Global Consulting](https://www.riskglobalconsulting.com/es-pe/inspektor/)).
+- **Experian Perú "Listas PLAFT".** Online and batch list and PEP screening with change alerts. It is screening only ([Experian](https://www.experian.com.pe/grandes-empresas/autenticacion-y-prevencion-del-fraude/listas-plaft)).
+- **verifica.id.** A PEP and watch-list API and dashboard on fixed monthly plans. It takes one ID number per query and shows no bulk upload or published price. It also sells a MINCETUR gambling-ban (ludopatía) check, so it already touches gaming ([verifica.id](https://verifica.id/reporte-pep-plaft-aml/)).
+- **Online KYC vendors.** GBG and KYCAID serve online operators for identity checks ([GBG](https://www.gbg.com/en/blog/igaming-and-kyc-in-peru/); [KYCAID](https://kycaid.com/blog/peru-vs-brazil-compliance-comparison/)). They do not run the SPLAFT records or the IAOC (unverified).
+- **Law firms and consultants.** PRCP, Caro & Asociados and Grupo Contable sell SPLAFT design, implementation or training. None publish prices ([PRCP](https://prcp-r2-prd.postedin.com/FT-y-FP-incorporadas-por-la-Resolución-SBS-N°-01015-2026.pdf); [El Peruano](https://elperuano.pe/noticia/293055-carlos-caro-nueva-norma-contra-lavado-de-activos-implica-menor-tolerancia-ante-fallas-de-cumplimiento); [Grupo Contable](https://www.grupocontable.pe/blog/juridico-4/que-es-plaft-y-como-implementarlo-62)).
+- **Verdict on incumbents.** Screening is well served and should be bought in or linked through a partner, not built. No product I found covers the gaming-specific RO, promo winners, the induction tracker or the IAOC. The incumbents are partial, so this is an opening, not a killer. Casino-management systems may already capture cash-outs at large chains (unverified).
+
+### Price per customer
+
+- **What they risk.** The top fine is about 8 UIT, or S/ 44,000 (UIT S/ 5,500 in 2026) ([PRCP](https://prcp-r2-prd.postedin.com/FT-y-FP-incorporadas-por-la-Resolución-SBS-N°-01015-2026.pdf); [El Peruano](https://elperuano.pe/noticia/285208-mef-establece-en-s-5-500-la-unidad-impositiva-tributaria-para-2026)). A licence-dependent business also risks its standing with MINCETUR (unverified).
+- **What they pay today.** I found no public prices for outsourced compliance officers or SPLAFT consulting (unverified). Outsourced bookkeeping for a micro firm in Peru costs about S/ 1,050 a month ([ByB Consultores](https://bybconsultores.pe/servicios/outsourcing-contable-y-tributario/)). A part-time outside officer plausibly costs a similar amount or more (unverified).
+- **Proposed prices (estimates, unverified):**
+  - Single-room operator: S/ 300 a month (S/ 3,600 a year).
+  - Small chain (2-10 rooms): S/ 800 a month (S/ 9,600 a year).
+  - Online operator: S/ 1,200 a month (S/ 14,400 a year), because of the larger RO and the deposit and bet logging.
+  - Outsourced officer or consultant: S/ 150 per client entity a month, with a minimum of S/ 750 a month.
+  - Screening passed through at cost, or through a partner such as verifica.id or Inspektor.
+
+### Revenue estimate (year 3)
+
+Buyer counts: about 325 land-based firms ([Congreso PDF](https://www.congreso.gob.pe/Docs/comisiones2023/comercio/files/ppt_mincetur_congreso_-_ica_-_dgjcmt.pdf), undated, unverified) running 714 rooms and 19 casinos ([Focus Gaming News](https://focusgn.com/latinoamerica/peru-multo-a-30-empresas-titulares-de-salas-de-juegos-de-azar)). About 91 online licences ([El Búho](https://elbuho.pe/?p=428097), unverified).
+
+- Single-room and small land-based firms, direct or through consultants: assume 250 of the 325 firms are small. 30% share = 75 firms x S/ 3,600 = **S/ 270,000**.
+- Small chains: assume 50 chains. 25% share = 12 x S/ 9,600 = **S/ 115,200**.
+- Online operators: 91 x 15% = 14 x S/ 14,400 = **S/ 201,600**.
+- Setup and onboarding fees: 101 customers x S/ 500 = **S/ 50,500** (spread over three years, shown once here).
+- **Total: about S/ 637,000 a year, or about US$ 185,000** (at S/ 3.45 per US$, the rate implied by the first pass's S/ 44,000 = US$ 12,800).
+- Upside not counted: the same engine can serve other UIF-supervised obligated subjects, such as real-estate agents, vehicle dealers and notaries, which have their own SBS guides ([SBS guías del SPLAFT](https://www.sbs.gob.pe/prevencion-de-lavado-activos/Supervisados-UIF/Guias-del-SPLAFT)).
+
+### Ease of implementation and sale
+
+- **Build: medium-easy.** It is forms, registers, reminders and report templates. The hard parts are mapping the SBS RO template and importing cash-desk or CMS exports. The RO template sits behind Portal PLAFT, which only registered officers can open, so a partner officer is needed from day one (art. 22.6, [PDF](https://img.lpderecho.pe/wp-content/uploads/2025/10/Resolucion-SBS-03622-2025-LPDerecho.pdf)).
+- **Onboarding: easy for small rooms.** Load staff, suppliers and shareholders once, then log daily. In very small firms the general manager can act as the officer (MEPECO tax category, 10 or fewer workers, not in a group), which makes a guided tool more valuable (art. 5.4, same PDF; land-based equivalent unverified).
+- **Sale: medium.** The buyers are few, known and listed in MINCETUR's public register. They gather at the Peru Gaming Show and in SONAJA ([Yogonet](https://www.yogonet.com/international/news/2026/06/01/122462-peru-gaming-show-2026-confirms-conference-agenda-and-participation-of-more-than-50-brands-in-lima)). Outsourced officers are the fastest channel, since one officer brings several firms (unverified).
+- **Timing.** The online rule took effect the day after publication on 14 Oct 2025, with 120 days to implement (arts. 4 and 9, [PDF](https://img.lpderecho.pe/wp-content/uploads/2025/10/Resolucion-SBS-03622-2025-LPDerecho.pdf)), so that window has passed. The land-based rule's adaptation window is still unverified. The 15 February IAOC and IAI deadline gives a yearly sales peak in December and January.
+
+### Remaining risks
+
+- **Small ceiling.** About 400 buyers in total. Even good penetration tops out near US$ 200,000 a year unless the product spreads to other obligated sectors.
+- **Light enforcement.** The last public AML sanctions I found are 10 firms in 2022, and fines cap at about 8 UIT ([Focus Gaming News](https://focusgn.com/latinoamerica/peru-multo-a-30-empresas-titulares-de-salas-de-juegos-de-azar); [PRCP](https://prcp-r2-prd.postedin.com/FT-y-FP-incorporadas-por-la-Resolución-SBS-N°-01015-2026.pdf)). Small rooms may keep using spreadsheets.
+- **Existing workarounds.** The duty dates from Res. SBS 1695-2016, so operators already have officers and manuals ([PRCP](https://prcp-r2-prd.postedin.com/FT-y-FP-incorporadas-por-la-Resolución-SBS-N°-01015-2026.pdf)).
+- **Consultants may resist or copy.** Law firms could bundle their own templates, or Pirani or Inspektor could add a gaming module.
+- **Data in a sensitive sector.** RO data is confidential by law (art. 22.1, [PDF](https://img.lpderecho.pe/wp-content/uploads/2025/10/Resolucion-SBS-03622-2025-LPDerecho.pdf)). Security and liability terms must be solid.
+- **Unverified facts.** These remain unconfirmed: the effective date and adaptation window of 01015-2026; whether the land-based RO is uploaded on a schedule; the 2026 count of firms; and what outsourced officers charge.
+
+### New sources
+
+- https://img.lpderecho.pe/wp-content/uploads/2025/10/Resolucion-SBS-03622-2025-LPDerecho.pdf (full text of Res. SBS 03622-2025, El Peruano 14 Oct 2025)
+- https://prcp-r2-prd.postedin.com/FT-y-FP-incorporadas-por-la-Resolución-SBS-N°-01015-2026.pdf (re-read in full)
+- https://www.sbs.gob.pe/prevencion-de-lavado-activos/supervisados/plaft-portal-de-prevencion-de-lavado-de-activos-y-financiamiento-del-terrorismo (search summary)
+- https://www.sbs.gob.pe/prevencion-de-lavado-activos/Supervisados-UIF/Guias-del-SPLAFT (search summary)
+- https://blog.prcp.com.pe/wp-content/uploads/2022/01/GUIA-APROBACION-Y-ENVIO-DEL-INFORME-ANUAL-O-SEMESTRAL-DEL-OFICIAL-DE-CUMPLIMIENTO-Y-EL-INFORME-ANUAL-DE-AUDITORIA-INTERNA-DEL-ANO-2021.pdf (search result)
+- https://prcp-r2-prd.postedin.com/GUIA-APROBACION-Y-ENVIO-DEL-INFORME-ANUAL-O-SEMESTRAL-DEL-OFICIAL-DE-CUMPLIMIENTO-Y-EL-INFORME-ANUAL-DE-AUDITORIA-INTERNA-DEL-ANO-2022.pdf (search result)
+- https://www.piranirisk.com/es/hub-regulatorio/splaft-uif-sistema-antilavado-peru
+- https://piranirisk.com/solutions/risk-aml (search summary)
+- https://plaft-suite.com/risk-consulting
+- https://www.riskglobalconsulting.com/es-pe/inspektor/ (search summary)
+- https://www.experian.com.pe/grandes-empresas/autenticacion-y-prevencion-del-fraude/listas-plaft (search summary)
+- https://verifica.id/reporte-pep-plaft-aml/
+- https://www.grupocontable.pe/blog/juridico-4/que-es-plaft-y-como-implementarlo-62
+- Not reachable: https://lpderecho.pe/la-sbs-actualiza-el-estandar-plaft-para-casinos-y-tragamonedas/ (403), https://lpderecho.pe/norma-prevenir-lavado-activos-financiamiento-terrorismo-casinos-tragamonedas-apuestas-deportivas-resolucion-sbs-01015-2026/ (403), https://www.sbs.gob.pe/Portals/5/jer/guias_oc/files/IAOC_Guia_Rapida.pdf (redirect loop), https://regalert.today/document/b62d44dd-a0f8-4c36-bd47-ceb273d7c701 (429)
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

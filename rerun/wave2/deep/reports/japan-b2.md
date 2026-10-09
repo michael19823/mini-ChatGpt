@@ -1,5 +1,79 @@
 # Japan: animal-business ledger and annual report tool (動物取扱業 帳簿・定期報告)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10 (old score: 5/10).**
+
+**The case.** The annual 定期報告 is only one part of the job. A type-1 animal business must keep up to six records for 5 years. They are the facility and animal check record, the breeding record, the trade record, the per-animal ledger, health certificates and the annual report ([Saitama 狭山保健所 guide, 25.11.20版](https://www.pref.saitama.lg.jp/documents/281787/doutoriminasamahe260831.pdf)). Inspectors check these records often. In FY2023 prefectures made 19,135 on-site inspections of type-1 businesses, at 15,034 sites, out of about 50,000 registrations ([環境省 R6 table 2_1_3](https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_1_3.pdf); [環境省 R6 2_1_1](https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_1_1.pdf)). No Japanese software that keeps these records or produces the report was found in 12 more searches. Today people use free paper and Excel templates. A cheap "inspection-ready records" app for dog and cat breeders and small pet shops could reach about ¥20 million a year by year 3. Willingness to pay is still unproven, so this is a maybe and not a go.
+
+### Room for improvement over the portal or current practice
+
+- **No portal for the records at all.** The state gives only reference forms (参考様式 9, 10 and 11, plus a ledger with no set form). The business fills them in by hand or in Excel ([Saitama guide](https://www.pref.saitama.lg.jp/documents/281787/doutoriminasamahe260831.pdf); [Tokyo](https://www.hokeniryo.metro.tokyo.lg.jp/douso/dt_gyou/doubutuhanbaigyoushatou.html)). Only the annual report can be e-filed, through LoGo forms in Tokyo and Saitama ([Tokyo](https://www.hokeniryo.metro.tokyo.lg.jp/douso/dt_gyou/doubutuhanbaigyoushatou.html)).
+- **Many records, by category.** The facility and animal check record applies to every category with a facility, boarding and training included. The trade record also covers boarding, training and auction businesses ([Saitama guide](https://www.pref.saitama.lg.jp/documents/281787/doutoriminasamahe260831.pdf)). So the record-keeping duty reaches far beyond the 28,555 registrations that file the report.
+- **The report should come from the ledger.** The 定期報告 must be based on the per-animal ledger. It gives counts owned, handed over and dead in the year, and is due by 30 May ([Saitama guide](https://www.pref.saitama.lg.jp/documents/281787/doutoriminasamahe260831.pdf)). A rise in dog or cat deaths can lead to an order to submit death certificates (same source). Software can add up the counts and flag unusual death rates before filing.
+- **Breeding limits need a lifetime count.** A dog may be mated only up to age 6 and have at most 6 litters. A cat may be mated only up to age 6. The age-7 exception needs proof from the breeding record of fewer than 6 litters for dogs or fewer than 10 for cats ([環境省 運用指針 extract](https://www.env.go.jp/nature/dobutsu/aigo/2_data/pamph/r0305a/03_6.pdf); [Kyoto](https://www.pref.kyoto.jp/doubutsu/6doubutuwohansyoku.html)). This was unverified in the first pass. It is a natural automatic warning.
+- **Deadlines with no reminders.** Registration lasts 5 years. Health centres in principle send no expiry notice ([Saitama guide](https://www.pref.saitama.lg.jp/documents/281787/doutoriminasamahe260831.pdf)). Other dated tasks are the yearly responsible-person training, the yearly report, and the microchip deadlines of 30 days or before sale.
+- **Microchip portal friction.** Registration and changes cost ¥400 online and ¥1,400 on paper, one animal at a time ([環境省 chip](https://www.env.go.jp/nature/dobutsu/aigo/pickup/chip.html)). The ministry page mentions no bulk upload, CSV or business account (same source). The earlier ¥300/¥1,000 figures were the old fees ([Mie](https://www.pref.mie.lg.jp/SHOKUSEI/HP/p0015300021.htm)). One vendor article says shops type chip data into the database by hand ([jisaku.com](https://jisaku.com/posts/retail-pet-shop-it-pc), weak source).
+- **Inspection readiness.** Inspections are frequent, but formal sanctions are rare. In FY2023 there were 15 recommendations (勧告), 31 orders, 1 suspension and 4 cancellations nationwide ([環境省 R6 2_1_3](https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_1_3.pdf)). The practical pain is the inspector's request to see 5 years of records, not the fine.
+- **Weak evidence of pain.** No user complaints, help videos or consultants selling filing help were found. No 行政書士 fee for the report was found either. The pain case rests on the volume of records and on inspection frequency, not on direct complaints (unverified).
+
+### Competitor reality check
+
+- **Japanese products.** None was found that keeps the 帳簿 or the breeding record, or outputs 様式第11の2. This held in 12 more Japanese searches, after about 20 earlier ones. Search results returned only prefecture templates and foreign apps ([search hits: Kyoto](https://www.pref.kyoto.jp/doubutsu/documents/dai1doutori.pdf); [Kumamoto](https://www.pref.kumamoto.jp/uploaded/attachment/160283.pdf)).
+- **jisaku.com "pet management software" (¥80,000-200,000 a year).** The listed product names could not be confirmed and look invented, so this is not a real benchmark ([jisaku.com](https://jisaku.com/posts/retail-pet-shop-it-pc)).
+- **Generic pet-shop POS and kintone builds.** These handle sales, not the legal ledgers ([aurant-technologies](https://aurant-technologies.com/?p=27904)).
+- **Foreign breeder apps.** BreederHQ, Breeder Cloud Pro and Husbandry.Pro track litters and health. None has Japanese forms or a Japanese interface ([G2](https://www.g2.com/products/breederhq/discuss); [GetApp](https://www.getapp.com/sales-software/a/breeder-cloud-pro/)).
+- **Puppy marketplaces and big chains.** Their breeder-side tools and in-house systems could not be checked (unverified). These are the most likely hidden competitors.
+- **Conclusion.** No incumbent was found. The substitutes are free templates and paper, which leaves an opening.
+
+### Price per customer
+
+- **Benchmarks.** Registration costs ¥15,000 per category, renewed every 5 years ([Aichi](https://www.pref.aichi.jp/site/gyoute/75190.html)). The legal maximum fine is ¥200,000 for the ledger or report ([e-Gov Art. 49](https://laws.e-gov.go.jp/api/1/lawdata/348AC1000000105)). No consultant fee for this work was found (unverified).
+- **Breeder or small pet shop.** About ¥1,980-2,980 a month, or ¥24,000-36,000 a year. That is below generic cloud POS at up to ¥15,000 a month ([aurant-technologies](https://aurant-technologies.com/?p=27904)). This is a guess (unverified).
+- **Boarding, training and exhibition sites.** A lighter check-record and trade-record plan at about ¥980 a month, or ¥12,000 a year (unverified).
+- **Chains and multi-site operators.** About ¥3,000 a month per site, which is ¥36,000 a year per site (unverified).
+- **Season pack.** About ¥4,980 one-off for the April-May report only, for very small users (unverified).
+- **Per-accountant pricing.** Not relevant, because no accountant or 行政書士 market for this report was found.
+
+### Revenue estimate (year 3)
+
+Buyer counts come from [環境省 R6 2_1_1](https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_1_1.pdf). Shares and prices are estimates (unverified).
+
+| Segment | Buyers | Share | Customers | Price per year | Revenue |
+|---|---|---|---|---|---|
+| Dog and cat sellers (breeders and shops) | 16,886 | 3% | ~507 | ¥30,000 | ¥15.2M |
+| Other sellers, exhibitors, renters, 譲受飼養 | ~11,600 (22,334 − 16,886 + 4,352 + 1,601 + 268) | 1.5% | ~174 | ¥20,000 | ¥3.5M |
+| Boarding and training only (lighter plan) | ~20,000 (unverified, after overlap) | 1% | 200 | ¥12,000 | ¥2.4M |
+| **Total** | | | **~880** | | **≈ ¥21M (about US$140,000)** |
+
+Arithmetic: 507 × ¥30,000 = ¥15.2M; 174 × ¥20,000 = ¥3.5M; 200 × ¥12,000 = ¥2.4M; total ¥21.1M. A few chain deals could add more, but none was confirmed. If willingness to pay is only ¥1,000 a month, the total drops to about ¥10M.
+
+### Ease of implementation and sale
+
+- **Build: easy.** The forms are national and uniform (様式第11の2 and the 参考様式). The data model is simple: animals, events, dams and litters, staff and dates ([Saitama guide](https://www.pref.saitama.lg.jp/documents/281787/doutoriminasamahe260831.pdf)). Electronic records are allowed ([Tokyo](https://www.hokeniryo.metro.tokyo.lg.jp/douso/dt_gyou/doubutuhanbaigyoushatou.html)). No API is needed. LoGo filing can be done by copying the generated totals.
+- **Onboarding: easy to medium.** Users can import an existing Excel ledger. Older home breeders may resist apps (unverified).
+- **Sale: medium to hard.** Buyers are many and small. Channels are SEO around the spring report (定期報告 書き方), yearly responsible-person training, auction houses, breed clubs and vets. All are unconfirmed (unverified).
+
+### Remaining risks
+
+- **Low willingness to pay.** Formal sanctions are rare: 4 cancellations and 31 orders nationwide in FY2023 ([環境省 R6 2_1_3](https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_1_3.pdf)).
+- **Hidden competitors.** Marketplace or chain tools could not be checked (unverified).
+- **State tool creep.** The 環境省 chip database already holds breeding-related fields ([データモデル](https://showcase.env.go.jp/wp-content/uploads/A024025_動物愛護管理法に基づく犬猫へのマイクロチップ装着義務化に係る情報登録電子システム_概念データモデル_v1.0.pdf)).
+- **Law changes.** No current law-review document was found that changes the ledger rules (unverified).
+- **Reputation.** The pet-sales sector is publicly criticised. Serving it may draw attention from welfare groups (unverified).
+
+### New sources
+
+- https://www.pref.saitama.lg.jp/documents/281787/doutoriminasamahe260831.pdf
+- https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_1_3.pdf
+- https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/gyosei-jimu_r06.html
+- https://www.env.go.jp/nature/dobutsu/aigo/pickup/chip.html
+- https://www.env.go.jp/nature/dobutsu/aigo/2_data/pamph/r0305a/03_6.pdf
+- https://www.pref.kyoto.jp/doubutsu/6doubutuwohansyoku.html
+- https://www.pref.mie.lg.jp/SHOKUSEI/HP/p0015300021.htm
+- https://www.pref.aichi.jp/site/gyoute/75190.html
+- https://www.pref.kumamoto.jp/uploaded/attachment/160283.pdf
+
 ## Summary
 
 **Verdict: maybe. Score: 5/10.**

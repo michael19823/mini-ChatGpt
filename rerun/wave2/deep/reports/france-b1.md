@@ -1,5 +1,78 @@
 # France B1: Tourist-rental registration and renewal manager for conciergeries (API Meublés)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10 (old score: 5/10).**
+
+**The case.** Conciergeries are legal intermediaries under the loi Le Meur. They carry four duties per unit: collect and check the owner's registration number and sworn statement, show the number on every listing, pull listings that pass the 120-night cap, and send activity data to API Meublés every quarter. Lawyers cite fines of 12,500 EUR per unit for the first group and 50,000 EUR per unit or listing for the data and cap duties ([Derhy Avocat](https://derhy-avocat.com/conciergeries-intermediaires-touristiques-loi-le-meur-2026/); [Welkomz](https://www.welkomz.com/loi-le-meur-obligations-conciergeries/)). The state gives a receiving pipe, not a working tool. No product found does the whole job: a per-unit register, a diligence file, a night-cap watch and the quarterly data pack. A compliance add-on at 1.5 to 2.5 EUR per unit per month, sold to about 5,000 conciergeries, gives a small but real business. The main threat is PMS vendors adding the same features.
+
+### Room for improvement over the portal or current practice
+
+- **The state side is only a receiver.** API Meublés is a "guichet unique" that collects data from intermediaries and shows it to communes. The DGE page gives intermediaries an account (via a Démarche Numérique form) and "l'interface vous permettant de transmettre les données d'activité aux communes". It publishes no technical documentation for intermediaries, only for communes ([DGE](https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/lapi-meubles-guichet-unique-de-centralisation)). Whether a small conciergerie can upload a file or must call an API is still unverified.
+- **Data preparation.** Each quarter the conciergerie must send, per unit: the number, the exact address, every listing URL and the nights rented, within one month of the quarter's end ([Légifrance, décret 2026-196 art. 6](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053703536)). These come from the PMS, the listings and the owner files. Merging and checking them is the job software can do.
+- **Which communes count.** The duty applies only to units in communes registered on API Meublés, and the list grows over time ([DGE](https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/lapi-meubles-guichet-unique-de-centralisation); [commune list](https://apimeubles.finances.gouv.fr/communes-list)). A tool can match the portfolio against the list and flag new duties.
+- **Record-keeping the state does not do.** A lawyer advises keeping, per unit, the owner's sworn statement, a copy of the number, proof that its validity was checked, and the listing history ([Derhy Avocat](https://derhy-avocat.com/conciergeries-intermediaires-touristiques-loi-le-meur-2026/)). Welkomz calls this a "dossier de diligence" per property ([Welkomz](https://www.welkomz.com/loi-le-meur-obligations-conciergeries/)). No state tool holds it.
+- **Re-registration wave.** Old commune numbers become invalid after a transition window whose length is unpublished. The national teleservice slipped from 20 May 2026 to Q4 2026 ([DGE](https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/lapi-meubles-guichet-unique-de-centralisation); [service-public.gouv.fr](https://www.service-public.gouv.fr/particuliers/actualites/A18880)). A conciergerie with 50 owners must chase 50 re-filings. A status board per unit (old number, new number, missing) fixes that.
+- **Night caps.** The cap is 120 nights for a main residence, and a commune can lower it to 90 ([HostLegal](https://www.hostlegal.fr/blog/decrets-application-loi-le-meur-2026)). Units spread over many communes with different caps need a counter across all channels.
+- **Evidence of pain is thin.** I found many guides and lawyer notes, but no user complaints about the API Meublés interface and no late-filing figures. The system is too new (unverified).
+
+### Competitor reality check
+
+| Product | What it really does against the duty list | Price |
+|---|---|---|
+| API Meublés (state) | Receives data. No register, no diligence file, no cap counter, no validation help for intermediaries. | Free ([DGE](https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/lapi-meubles-guichet-unique-de-centralisation)) |
+| Biloki (PMS for conciergeries) | Centralises registration numbers on a dashboard, pushes a changed number to all platforms, makes reports by property and period. It shows nights on the owner dashboard, and its AI can flag a booking that would pass the cap. It does not say it sends data to API Meublés. | Not listed; free trial ([Biloki](https://blog.biloki.fr/fr/blog/api-meubles-proprietaire-airbnb-abritel-guide-2026)) |
+| Superhote (French PMS) | No registration, cap or API Meublés feature found. | About 67 EUR HT/month for 3 units + 7 EUR per extra unit, so about 8 to 12 EUR per unit (indicative) ([comparatifchannelmanager](https://comparatifchannelmanager.fr/?p=2312)) |
+| Smoobu, Lodgify | Store the number and sync it to channels. No API Meublés export found. | Subscription ([Smoobu](https://www.smoobu.com/fr/?p=63976)) |
+| Hostaway, Guesty, Tweelo | No API Meublés or compliance feature found in searches. | Quote-based (Hostaway, unverified) |
+| HostLegal | Lends its carte G (loi Hoguet), contract templates and regulatory watch to conciergeries. Not a registration or reporting tool. | From 49.90 EUR HT/month ([HostLegal](https://www.hostlegal.fr/blog/decrets-application-loi-le-meur-2026)) |
+| Hostcare | Files one owner's registration under a mandate. One-off, no tracking. | 39 EUR TTC per unit ([Jotform](https://form.jotform.com/260773313676361)) |
+
+The incumbents are partial. Biloki is the closest, and it covers the register and reports but not the transmission or the diligence file. Two searches for a dedicated conformity tool for conciergeries found none ([search results incl. Tweelo, Livret Accueil](https://www.tweelo.fr/blog/loi-le-meur-2026-ce-que-ca-change-pour-les-conciergeries)). HostLegal shows that conciergeries already pay a monthly fee for a compliance-only service.
+
+### Price per customer
+
+- **Anchors.** Conciergeries pay a PMS about 8 to 12 EUR per unit per month ([comparatifchannelmanager](https://comparatifchannelmanager.fr/?p=2312)). They pay HostLegal from 49.90 EUR HT per month for carte G cover ([HostLegal](https://www.hostlegal.fr/blog/decrets-application-loi-le-meur-2026)). Done-for-you filing costs 39 EUR per unit ([Jotform](https://form.jotform.com/260773313676361)). The fine risk is 12,500 to 50,000 EUR per unit ([Derhy Avocat](https://derhy-avocat.com/conciergeries-intermediaires-touristiques-loi-le-meur-2026/)).
+- **Proposed price.** 2 EUR per unit per month, minimum 29 EUR per month. A 30-unit conciergerie pays 60 EUR per month, about 720 EUR a year. That is about 20% of its PMS bill and under 1.5 times a HostLegal subscription (my estimate, unverified).
+- **Add-on.** Assisted re-registration at 20 to 30 EUR per unit, one-off, under the 39 EUR Hostcare price (my estimate, unverified).
+- **Multi-client.** Real-estate agencies with seasonal rentals and conciergerie franchise networks could pay per entity or per branch at the same per-unit rate (unverified).
+
+### Revenue estimate (year 3)
+
+- Buyers: about 5,000 conciergeries ([Xerfi](https://www.xerfi.com/blog/conciergeries-airbnb-un-marche-en-plein-essor-bouscule-par-la-loi-le-meur_2321)). Assume half run 10 or more units, so about 2,500 good targets (unverified).
+- Realistic share by year 3: 6% of 2,500 = 150 customers.
+- Average size: 30 units × 2 EUR × 12 months = 720 EUR a year.
+- Recurring revenue: 150 × 720 EUR = **about 108,000 EUR a year**.
+- One-off filing help in years 1 and 2: 150 customers × 15 units × 25 EUR = about 56,000 EUR in total, not recurring.
+- High case: 10% of 2,500 = 250 customers × 900 EUR = 225,000 EUR a year. Low case: 3% = 75 × 600 EUR = 45,000 EUR a year.
+
+### Ease of implementation and sale
+
+- **Build: medium.** A unit register, CSV import from PMS exports, a cap counter and a quarterly data pack are simple. Direct sending to API Meublés depends on DGE onboarding and unpublished intermediary specs ([DGE](https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/lapi-meubles-guichet-unique-de-centralisation)). PMS connectors (Smoobu, Lodgify, Superhote, Biloki) add work.
+- **Onboarding: easy.** Import one file of units and owners, then send each owner a link to upload the number and sign the sworn statement.
+- **Sale: medium.** The buyers are easy to reach through trade media (Welkomz, Rentalscaleup) and associations (CLF, SPLM, UNPLV). The fines are high and well publicised. But many conciergeries are tiny, and they will ask their PMS first.
+
+### Remaining risks
+
+1. **PMS absorption.** Biloki already centralises numbers and builds reports ([Biloki](https://blog.biloki.fr/fr/blog/api-meubles-proprietaire-airbnb-abritel-guide-2026)). Others can follow. The best answer is to sell through PMS marketplaces, or to make the diligence file and multi-PMS view the core.
+2. **Unclear channel.** If small intermediaries get a simple web form, the transmission pain falls. The record-keeping and cap duties stay (unverified).
+3. **Timing.** The full version and the teleservice are set for Q4 2026 and have slipped before ([DGE](https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/lapi-meubles-guichet-unique-de-centralisation)).
+4. **Fine amounts.** The 12,500 and 50,000 EUR figures come from a lawyer and a trade site, not the consolidated code (unverified). The DGE confirms the host fine of up to 10,000 EUR ([DGE](https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/lapi-meubles-guichet-unique-de-centralisation)).
+5. **Buyer churn and carte G pressure.** Small conciergeries open and close fast, and the loi Hoguet push may consolidate them ([Rentalscaleup](https://www.rentalscaleup.com/fr/locations-de-courte-duree-en-france-et-la-loi-hoguet-que-dit-le-rapport-fnaim-davril-2026/)).
+6. **Platform reporting.** Airbnb and Booking report their own data. If communes and the DGE treat platform data as enough, they may not enforce conciergerie reporting hard (unverified).
+
+### New sources
+
+- https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/lapi-meubles-guichet-unique-de-centralisation (re-read 9 Oct 2026; updated 23 Jul 2026)
+- https://apimeubles.finances.gouv.fr/communes-list
+- https://derhy-avocat.com/conciergeries-intermediaires-touristiques-loi-le-meur-2026/
+- https://www.welkomz.com/loi-le-meur-obligations-conciergeries/
+- https://www.hostlegal.fr/blog/decrets-application-loi-le-meur-2026
+- https://blog.biloki.fr/fr/blog/api-meubles-proprietaire-airbnb-abritel-guide-2026
+- https://comparatifchannelmanager.fr/?p=2312
+- https://www.tweelo.fr/blog/loi-le-meur-2026-ce-que-ca-change-pour-les-conciergeries
+- https://www.leazly.fr/paris/reglementation/api-meubles-location-saisonniere-paris
+
 ## Summary
 
 **Verdict: maybe. Score: 5/10.**

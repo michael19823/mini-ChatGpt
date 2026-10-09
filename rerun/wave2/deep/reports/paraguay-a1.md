@@ -1,5 +1,87 @@
 # Paraguay A1: SIRO compliance kit for pawnshops, jewellers and gold buyers
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10 (old score: 3/10).**
+
+**The case.** Jewellers and pawnshops alone are too few (about 131 paying SIRO users) and face no enforcement, so they cannot carry a business on their own. The same duties apply, almost word for word, to vehicle dealers (Res. 196/20, which the lead's buyer list already includes) and to real-estate firms (Res. 201/20). Together that is about 2,400 paying firms, and SEPRELAD does enforce on them: in 2024 it warned 1,692 of the 2,043 firms it checked through SIRO ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)). SIRO only receives filings. It does not keep the manual, the risk assessment, the KYC file, the calendar or the inspection evidence, and small firms key their operations reports one by one. I found no local product for this. Willingness to pay is the open question, because the state fee buyers know is only about US$30-45 a year.
+
+### Room for improvement over the portal or current practice
+
+- **Most of the duty sits outside SIRO.** Res. 196/20 and Res. 201/20 require a risk assessment every 2 years, a manual, a code of ethics, a compliance officer, an annual internal review within 90 days, an external audit within 180 days, and KYC with thresholds ([Ferrere on Res. 196/20](https://ferrere.com/es/novedades/nuevo-reglamento-de-prevencion-de-lavado-de-activos-y-financiamiento-del-terrorismo-para-personas-fisicas-o-juridicas-involucrad/); [Ferrere on Res. 201/20](https://ferrere.com/es/novedades/nuevo-reglamento-de-prevencion-de-lavado-de-activos-y-financiamiento-del-terrorismo-para-empresas-y-personas-involucradas-en-la/)). SIRO is a reporting channel, not a record-keeping tool ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)).
+- **Missed deadlines are common.** SEPRELAD's 2024 remote check found failures at 1,692 of 2,043 firms, about 83%. The failures were missing negative reports, operations reports and annual forms, and 1,238 real-estate firms and 454 vehicle dealers got warning notes ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)). A deadline calendar with reminders targets this directly.
+- **Annual-form filing is low.** Only 357 vehicle dealers and 526 real-estate firms filed the annual form in 2024 ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)). Compare 845 and 1,451 firms that paid the SIRO fee in 2025 ([SIRO statistics](https://www.seprelad.gov.py/siro/estadisticaExterna/estadistica.xhtml), per the first pass). These figures come from different years, so the gap is indicative only.
+- **Registration in SIRO fails often.** Of 2,042 registration requests in 2024, 532 were annulled for not meeting SIRO's requirements, about 26% ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)).
+- **Users ask for help.** SEPRELAD's help tool, E-porandu, answered 855 questions between 14 Aug and Dec 2024. The top topics were SIRO access, registration requirements, and how to send an operations report or a suspicious-operations report. The listed users include consultants, advisers, lawyers, accountants and external auditors ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)), which suggests intermediaries already do this work for clients.
+- **No bulk upload for small firms.** SIRO takes operations reports as a JSON file, but only from firms with "hundreds or thousands" of operations a month and their own system. Small firms type each operation into a form ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)). A tool that prepares, validates and exports that JSON, or a clean list for keying, is a real data-preparation gap. Whether SEPRELAD opens the JSON route to third-party tools is unverified.
+- **Fee arrears are common.** SEPRELAD had to run a fee amnesty (Res. 226/2024) for unpaid SIRO fees from earlier years ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)).
+- **The rules keep changing.** In 2025 a new real-estate operations-report form was approved (Res. 03/25), and SEPRELAD began rewriting the pawnshop resolution under the GAFILAT action plan ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)). Each change means template and form updates, which a subscription can deliver.
+
+### Competitor reality check
+
+- **SIRO** is free apart from a yearly fee of about Gs 217,000-334,000. It handles registration, filing and the fee. It does not hold the manual, risk matrix, KYC files, training records or a calendar ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)). It complements a product rather than replacing it.
+- **No local software found.** Five searches in Spanish found no Paraguayan AML compliance software for small obligated subjects. Searches for SIRO integration tools also found nothing. Foreign tools such as CONLAFT target Argentina ([CONLAFT brochure](https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf)). Shufti Pro and TheKYB sell identity checks only ([Shufti](https://shuftipro.com/supported-countries/paraguay/); [TheKYB](https://thekyb.com/our-data/paraguay/)).
+- **The real competitors are people.** SEPRELAD's register had 64 newly admitted specialist external auditors in 2024 ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)). Accountants and law firms (Ferrere, Amaral) also work in this space. Their prices are not published (unverified). They are better treated as a sales channel than as a rival.
+- **SEPRELAD itself** gives free training (27 events and 533 participants in 2024) and is building a supervision module ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)). That raises pressure to comply but does not do the firm's own record-keeping.
+
+### Price per customer
+
+- **Anchors.**
+  - The SIRO fee is about Gs 217,000-334,000 a year (US$30-45), which is low ([SIRO statistics](https://www.seprelad.gov.py/siro/estadisticaExterna/estadistica.xhtml), per the first pass).
+  - Fines under Ley 1015/97 reach up to 500 minimum wages for people and 5,000 for companies ([Ferrere](https://ferrere.com/es/novedades/inspecciones-aleatorias-de-seprelad-bajo-resolucion-36-21/)). With a minimum wage of Gs 2,899,048 from July 2025, 500 minimum wages is about Gs 1.45bn ([Decreto 4122/2025](https://impuestospy.com/impuestos/decreto-n-4122-2025/)). In practice SEPRELAD has issued warnings, with only one fine in 2025.
+  - The other anchor is the owner's or bookkeeper's time to write a manual and a biennial risk assessment, and the cost of an outside consultant to do it. Consultant prices were not found (unverified).
+- **Suggested prices** (all unverified until tested):
+  - **Single firm:** about Gs 150,000-250,000 a month (about US$20-33). This covers the calendar, templates, KYC register and an evidence folder.
+  - **Accountant, auditor or consultant plan:** about Gs 1,000,000 a month (about US$130) for up to 25 client entities.
+  - **One-off setup pack:** about Gs 1-2m (about US$130-260) for a manual, code of ethics and risk matrix.
+- **Blended estimate:** about US$300 per firm per year, and about US$1,500 per multi-client professional per year.
+
+### Revenue estimate (year 3)
+
+Buyer counts are firms that paid the SIRO fee in 2025, from the first pass ([SIRO statistics](https://www.seprelad.gov.py/siro/estadisticaExterna/estadistica.xhtml)).
+
+| Scope | Buyers | Reachable share | Price/yr | Revenue |
+|---|---|---|---|---|
+| Jewellers + pawnshops only | 108 + 23 = 131 | 15% = 20 | US$240 | about US$4,800 |
+| Plus vehicle dealers (the lead's full buyer list) | 131 + 845 = 976 | 12% = 117 | US$300 | about US$35,100 |
+| Plus real estate (same duties, Res. 201/20) | 976 + 1,451 = 2,427 | 10% = 243 | US$300 | about US$72,900 |
+| Multi-client plans for auditors and accountants | 64 auditors admitted in 2024 plus accountants | 15 accounts | US$1,500 | about US$22,500 |
+
+- **Widest realistic case:** about US$72,900 + US$22,500 = **about US$95,000 a year**. Firms served through a professional's plan are not counted again in the direct rows.
+- **The niche alone is not a business.** The jewellers-and-pawnshops line earns about US$5,000.
+- **What could lift these figures:** nonprofits (1,919 paid the fee in 2025, per the first pass) also file the annual form. Adding them would raise the ceiling, but nonprofits pay little (unverified).
+
+### Ease of implementation and sale
+
+- **Build: low to medium difficulty.**
+  - The core is plain software: a calendar per resolution, document templates, a KYC register with minimum-wage thresholds, and an evidence log.
+  - The JSON export for operations reports depends on a SIRO schema I could not see (unverified).
+  - The three resolutions (196/20, 201/20, 222/20) share one structure, so one template engine covers all of them ([Ferrere on Res. 196/20](https://ferrere.com/es/novedades/nuevo-reglamento-de-prevencion-de-lavado-de-activos-y-financiamiento-del-terrorismo-para-personas-fisicas-o-juridicas-involucrad/); [Ferrere on Res. 201/20](https://ferrere.com/es/novedades/nuevo-reglamento-de-prevencion-de-lavado-de-activos-y-financiamiento-del-terrorismo-para-empresas-y-personas-involucradas-en-la/)).
+- **Onboarding: easy.** It is a questionnaire, then generated documents, then reminders. The product needs no integration with a client's own systems.
+- **Sale: medium difficulty.**
+  - SEPRELAD's public register of obligated subjects gives a lead list ([Ferrere](https://ferrere.com/es/novedades/la-serpelad-crea-un-modulo-de-consultas-para-verificar-el-catastro-de-sujetos-obligados-registrados-en-el-siro/)).
+  - The 1,692 warned firms are a warm segment.
+  - Registered auditors and accountants are a natural channel.
+  - Buyers are price-sensitive and used to a US$45 state fee (unverified willingness to pay).
+
+### Remaining risks
+
+- **Low willingness to pay.** The only enforcement so far is warning notes, plus one fine in 2025 ([SIRO statistics](https://www.seprelad.gov.py/siro/estadisticaExterna/estadistica.xhtml), per the first pass). Firms may tolerate warnings rather than pay.
+- **SEPRELAD could extend SIRO** with a supervision module, and might add calendar or reminder features ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)).
+- **Liability.** SEPRELAD could reject a generated manual or risk matrix. Selling "compliant" documents carries professional-liability risk.
+- **Informal firms.** Many jewellers and small car lots may never register.
+- **Thin pricing data.** No consultant or auditor fees were found. Every price above needs 10-15 customer interviews to confirm.
+- **Upside risk.** The GAFILAT action plan is rewriting the pawnshop rules ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)). A new evaluation round could raise enforcement on all non-financial obligated subjects (unverified).
+
+### New sources
+
+- https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf (text read in full this pass: 2,043 checked, 1,692 warned, 532 of 2,042 registrations annulled, 855 E-porandu questions, JSON bulk upload limited to large filers, annual forms 357/526/771, Res. 226/2024 fee amnesty, Res. 03/25, pawnshop resolution under review)
+- https://ferrere.com/es/novedades/nuevo-reglamento-de-prevencion-de-lavado-de-activos-y-financiamiento-del-terrorismo-para-personas-fisicas-o-juridicas-involucrad/ (Res. 196/20, vehicle dealers)
+- https://ferrere.com/es/novedades/nuevo-reglamento-de-prevencion-de-lavado-de-activos-y-financiamiento-del-terrorismo-para-empresas-y-personas-involucradas-en-la/ (Res. 201/20, real estate)
+- https://impuestospy.com/impuestos/decreto-n-4122-2025/ (minimum wage from July 2025)
+- https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf (Argentine AML software, not localised for Paraguay)
+- https://www.seprelad.gov.py/siro/estadisticaExterna/estadistica.xhtml (query form confirmed live; figures as captured by the first pass)
+
 ## Summary
 
 **Verdict: no-go. Score: 3/10.**

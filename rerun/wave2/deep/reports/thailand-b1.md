@@ -1,5 +1,97 @@
 # Thailand B1: Work-Permit Renewal Desk for Small Employers of Lao, Myanmar and Vietnamese Workers (e-WorkPermit)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10 (old score: 4/10).**
+
+**The case.** Under the owner's criteria, the free portal is not the obstacle it seemed. e-WorkPermit is slow, buggy and backlogged. Middlemen sell queue slots, and documents can sit for months ([Naewna](https://www.naewna.com/local/972023); [Thansettakij](https://www.thansettakij.com/general-news/668193)). The best buyer is not the small employer but the multi-client filer. That means the 17,619 registered proxy filers and 331 licensed import companies, who juggle many employers, cohorts and deadlines ([Daily News](https://www.dailynews.co.th/news/5314014/)). I found no Thai software that does this job; the near tools are generic expiry add-ons ([ECOSIRE Odoo app](https://ecosire.com/ja/apps/odoo/odoo-visa-passport-expiry)). A back-office tool for these filers, priced per active worker, could plausibly reach about 4-9 million baht a year by year 3. It stays a "maybe" because the price that agents will pay is not confirmed and the rules change with every cabinet resolution.
+
+### Room for improvement over the portal or current practice
+
+- **The portal has documented faults.** The DOE admitted problems with user registration and with employers not finding their own workers' permit data. It let employers file on paper with a screenshot of the error, until 28 Jan 2026 ([InfoQuest](https://www.infoquest.co.th/?p=542101)).
+- **Backlogs are severe.** Capacity was 254,760 queue slots a month in June 2026. The operator wanted 658,955 ([Post Today](https://www.posttoday.com/business/743372)). In April 2026 more than 2 million people were queuing ([Thansettakij](https://www.thansettakij.com/general-news/657139)). Some documents waited up to 4 months for registrar approval. Daily volume ran above 10,000 sets and some days hit 90,000, against a contract figure of 6,000 ([Thansettakij](https://www.thansettakij.com/general-news/668193)).
+- **Middlemen profit from the friction.** In June 2026 the Labour Minister's visit heard that middlemen charge about 2,000 baht per worker for queue slots. Some Samut Sakhon workers had to book in Mae Sot, and many workers fell out of the system ([Naewna](https://www.naewna.com/local/972023)).
+- **The operator is in dispute with the state.** Future Sky says it is owed about 715 million baht and has sued ([Thansettakij](https://www.thansettakij.com/general-news/668193)). This keeps the portal unstable.
+- **What the portal does not do (gaps a tool could fill):**
+  - A register across cohorts. One employer can have workers on the 11 Dec 2026 cohort, a 30 Jun 2027 passport and visa deadline, MOU terms and regularisation permits ([Nation Thailand](https://www.nationthailand.com/news/policy/40069723); [Thansettakij](https://www.thansettakij.com/general-news/657139)). I found no evidence that the portal sends expiry reminders (unverified).
+  - Pre-filing checks per worker: passport or substitute, a health certificate from a DOE-linked clinic, the right type of health or social-security cover by sector, and a power of attorney with the correct stamp duty ([Bangkok Biznews](https://www.bangkokbiznews.com/news/news-update/1250827)). Missing items cause rejections and lost slots (unverified).
+  - Multi-client work. A filer who serves 20 employers has to track each client's workers, powers of attorney, fees paid and status by hand (unverified, based on the portal's per-employer design).
+  - Section 13 hire and exit notices within 15 days, with fines up to 20,000 baht ([drthawip.com law text](https://www.drthawip.com/book/export/html/3263)).
+  - Inspection readiness. The DOE inspected 74,265 workplaces in FY2026 ([Bangkok Biznews](https://www.bangkokbiznews.com/news/1250192)). A clean per-worker file is useful at the gate.
+  - Language. Workers speak Burmese, Lao or Vietnamese. Many rely on brokers partly because of language barriers ([BHRRC](https://business-humanrights.org/en/latest-news/thailand-migrant-workers-from-myanmar-face-financial-hardships-as-broker-fees-for-work-permit-renewals-soar), search summary).
+- **Consultants sell exactly this tracking work** in the expat segment. One firm tells HR teams to keep a central tracker of visa and permit expiries, with alerts at 90 and 60 days ([Issa Compass](https://www.issacompass.com/insights/thailand-work-permit-compliance-for-companies-what-hr-teams-must-know-to-avoid-f)).
+
+### Competitor reality check
+
+- **e-WorkPermit (free).** It handles filing, fee payment and status updates by email, SMS and LINE ([PRD English](https://thailand.prd.go.th/en/content/category/detail/id/2874/iid/429777)). It is a filing channel, not a multi-client register. It has the faults listed above.
+- **Licensed import companies and proxies.** They sell a service, not software. Directory listings advertise MOU and document work with no prices ([Yellow Pages, PCT Business](https://www.yellowpages.co.th/catalog/item/บริการรับทำเอกสารต่างด้าว-qaDwNTJ); [JobBKK](https://www.jobbkk.com/company/188599)). They are customers for a tool, not rivals to it.
+- **Software.** Four Thai and English searches found no Thai product built for migrant-worker permit cycles. What exists is generic: Odoo visa and passport expiry add-ons from about USD 299 one-off ([ECOSIRE](https://ecosire.com/ja/apps/odoo/odoo-visa-passport-expiry)), and foreign HR systems such as SafeHR ([SafeHR](https://www.safe-hr.com/hr-software/engagement/)). None knows Thai cabinet-resolution cohorts or the e-WorkPermit document set. I did not check Thai payroll vendors such as HumanSoft or Prosoft (unverified).
+- **Issa Compass** sells software-backed visa and work-permit services, but for Non-B expat staff, not for the Lao, Myanmar and Vietnamese cohorts ([Issa Compass](https://www.issacompass.com/insights/thailand-work-permit-compliance-for-companies-what-hr-teams-must-know-to-avoid-f)).
+- **Bottom line.** No incumbent does the whole job. This is an opening, not a killer.
+
+### Price per customer
+
+- **What the market pays today.** The state fee is 1,000 baht per worker ([Bangkok Biznews](https://www.bangkokbiznews.com/news/news-update/1250827)). Queue middlemen take about 2,000 baht per worker ([Naewna](https://www.naewna.com/local/972023)). Brokers charge workers 10,000-18,500 baht ([BHRRC](https://business-humanrights.org/en/latest-news/thailand-migrant-workers-from-myanmar-face-financial-hardships-as-broker-fees-for-work-permit-renewals-soar), search summary). Thai law says recruitment costs should fall on the employer, not the worker ([Five Corridors Project](https://fivecorridorsproject.org/myanmar-thailand/myanmar-thailand-tackling-fraud-abuse)). A lapse costs the employer 10,000-100,000 baht per worker ([drthawip.com](https://www.drthawip.com/book/export/html/3263)).
+- **What filers charge employers per renewal** was not found (unverified). This is the biggest pricing gap.
+- **Proposed prices (hypotheses, unverified):**
+  - Proxy or small agent: about 1,000 baht a month (12,000 a year) for up to 200 active workers, plus 5 baht per extra worker per month.
+  - Licensed import company: about 2,500 baht a month (30,000 a year).
+  - Direct employer with 20 or more migrant workers: about 500 baht a month (6,000 a year).
+- These prices are tiny next to the fees per worker above. A filer with 200 workers pays 60 baht per worker a year.
+
+### Revenue estimate (year 3)
+
+All shares are my assumptions (unverified). Buyer counts come from [Daily News](https://www.dailynews.co.th/news/5314014/), counted in the portal's first month, so the real totals are likely higher.
+
+| Segment | Buyers | Share | Price/year (baht) | Revenue (baht) |
+|---|---|---|---|---|
+| Licensed import companies | 331 | 15% = 50 | 30,000 | 1,500,000 |
+| Proxy filers | 17,619 | 3% = 529 | 12,000 | 6,348,000 |
+| Direct employers (20+ workers) | 81,551 x 20% = 16,310 (unverified) | 1% = 163 | 6,000 | 978,000 |
+| **Total** | | | | **about 8.8 million** |
+
+- 8.8 million baht is roughly USD 270,000 at about 33 baht per USD (unverified rate).
+- Many of the 17,619 proxies are likely employers' own staff or one-off filers (unverified). If only half the proxy revenue is real, the total falls to about 5.7 million baht.
+- A cautious range is 4-9 million baht a year. That is a fair small business, not a large one.
+
+### Ease of implementation and sale
+
+- **Build: medium-easy.** The core is a register, a rules table per cohort, reminders, checklists and a POA generator. LINE is the right channel; the DOE itself uses LINE OA @doewp ([Thansettakij](https://www.thansettakij.com/social-biz/655341)).
+- **No portal integration exists** that I found (unverified). Data entry is manual or by spreadsheet import. Scraping the portal would be fragile.
+- **Upkeep: medium.** Each cabinet resolution sets new dates and conditions ([Thai PBS](https://www.thaipbs.or.th/news/content/508271)). This is also a moat, because a generic tool will not keep up.
+- **Sale: medium.** Proxies and import firms are reachable through LINE and Facebook groups and around DOE service centres (unverified). Each one brings many employers. Deadline crunches (Mar, Apr and Dec 2026) create urgency ([Thansettakij](https://www.thansettakij.com/general-news/657139)).
+
+### Remaining risks
+
+- **Unknown willingness to pay** of proxies and import firms (unverified). Many may work from spreadsheets and resist a monthly fee.
+- **Portal change.** The state could add reminders or a bulk employer view. The operator dispute could also cause a system swap ([Thansettakij](https://www.thansettakij.com/general-news/668193)).
+- **Physical queues are the main pain.** Software cannot fix a shortage of biometric slots ([Post Today](https://www.posttoday.com/business/743372)).
+- **Policy churn.** Cohorts may be merged or regularisation reopened ([Naewna](https://www.naewna.com/local/972023)).
+- **Reputation.** The agent trade is tied to worker exploitation ([Five Corridors Project](https://fivecorridorsproject.org/myanmar-thailand/myanmar-thailand-tackling-fraud-abuse)). A tool should help employers file directly and keep fees transparent.
+- **Cambodian workers** were reportedly left out of the 2 Dec 2025 resolution ([Thai PBS Verify](https://www.thaipbs.or.th/verify/content/7424), search summary). Their track needs separate checking.
+
+### Corrections to the first pass
+
+- The stamped power of attorney is confirmed. The worker can file in person, or the employer or import company can file under a power of attorney with correct stamp duty ([Bangkok Biznews](https://www.bangkokbiznews.com/news/news-update/1250827)).
+- Myanmar workers without a passport may submit it later ([Bangkok Biznews](https://www.bangkokbiznews.com/news/news-update/1250827)).
+- Exempt sectors such as domestic work, agriculture and livestock need health insurance for at least 1 year ([Bangkok Biznews](https://www.bangkokbiznews.com/news/news-update/1250827)).
+- About 1.6 million cards had been issued through Aug 2026 ([Thansettakij](https://www.thansettakij.com/general-news/668193)).
+
+### Sources (new in this re-assessment)
+
+- https://www.infoquest.co.th/?p=542101
+- https://www.posttoday.com/business/743372
+- https://www.thansettakij.com/general-news/668193
+- https://www.thansettakij.com/social-biz/655341
+- https://www.naewna.com/local/972023
+- https://www.bangkokbiznews.com/news/news-update/1250827
+- https://fivecorridorsproject.org/myanmar-thailand/myanmar-thailand-tackling-fraud-abuse
+- https://www.issacompass.com/insights/thailand-work-permit-compliance-for-companies-what-hr-teams-must-know-to-avoid-f
+- https://www.yellowpages.co.th/catalog/item/บริการรับทำเอกสารต่างด้าว-qaDwNTJ
+- https://ecosire.com/ja/apps/odoo/odoo-visa-passport-expiry (search summary)
+- https://www.safe-hr.com/hr-software/engagement/ (search summary)
+- https://www.thaipbs.or.th/verify/content/7424 (search summary)
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

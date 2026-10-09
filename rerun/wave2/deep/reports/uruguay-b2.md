@@ -1,5 +1,88 @@
 # Uruguay B2: AML/PLAFT compliance kit for small non-financial obliged subjects (SENACLAFT)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10 (old score: 3/10).**
+
+**The case.** SENACLAFT's inspections keep finding gaps that simple software would close. Firms skip the written risk analysis, keep no copy of the due diligence, do not identify the beneficial owner, and print list searches without dates ([Ferrere, 2023](https://ferrere.com/es/novedades/principales-debilidades-detectadas-por-senaclaft-en-los-procesos-inspectivos-de-sujetos-obligados/)). The state offers only optional Word/PDF forms from 2021 and no online workflow ([SENACLAFT guías](https://www.gub.uy/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/comunicacion/publicaciones/guiasformularios-para-debida-diligencia-para-sujetos-obligados-sector-3)). Two local products, Cumplo360 and HADA, already cover the workflow. Neither publishes a full price, and neither is built around the one-person notary or estate agent. A cheap, fixed-price, notary- and agency-first tool could still win a slice of about 11,000 obliged subjects. Light enforcement and two incumbents keep this at "maybe".
+
+### Room for improvement over the portal or current practice
+
+- **The state gives forms, not a system.** SENACLAFT publishes six due-diligence forms (simplified, normal and intensified, for people and companies) plus an instructivo. They are Word and PDF files dated 2021, use is "not mandatory", and there is no online system to fill them in ([SENACLAFT guías](https://www.gub.uy/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/comunicacion/publicaciones/guiasformularios-para-debida-diligencia-para-sujetos-obligados-sector-3)). They predate Ley 20.469's new cash threshold, *permuta* and virtual-asset rules ([Ferrere](https://www.ferrere.com/es/novedades/cambios-significativos-al-regimen-plaft/)).
+- **Inspection findings match what software does.** At an April 2023 webinar, SENACLAFT listed the main weaknesses it finds in non-financial subjects ([Ferrere](https://ferrere.com/es/novedades/principales-debilidades-detectadas-por-senaclaft-en-los-procesos-inspectivos-de-sujetos-obligados/)):
+  - no written risk analysis to set the due-diligence level;
+  - no physical or digital backup of the due diligence done;
+  - no beneficial-owner identification or check;
+  - list searches with no saved evidence, printed without dates, and matches not analysed or ruled out;
+  - no documents for income or source of funds.
+  Each of these is a form field, a timestamped search log, a document upload or a required step in a guided file.
+- **Proof matters more after Res. 61/2026.** RSM says the main exposure is "not being able to show technically that you complied" ([RSM](https://www.rsm.global/uruguay/es/node/772)). That is an audit-trail and inspection-readiness job.
+- **Ley 20.469 forces an update.** Firms must update risk matrices and manuals. Due diligence now reaches shareholders and fund contributors, and the cash threshold drops ([Ferrere](https://www.ferrere.com/es/novedades/cambios-significativos-al-regimen-plaft/)).
+- **People pay for help today.** Crowe sells per-client due-diligence files for estate agents, auctioneers and notaries, delivered in 72 working hours with an evidence file and inspection support ([Crowe](https://www.crowe.com/uy/plaft-ag-inmob-y-rematadores)). On 4/09/2026 SENACLAFT warned that subjects may hire due-diligence firms but keep the responsibility, and that it does not register or approve such firms ([SENACLAFT communiqué](https://www.gub.uy/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/sites/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/files/2026-09/Comunicado%20SENACLAFT%20-%20DDC%20-%2004SET2026.pdf), via search snippet; the PDF is a scan). The warning suggests an active market for outsourced due diligence (inference, unverified).
+- **Notaries complain about the burden.** The notaries' association said it wants controls "rationalised" and that some deals have become harder ([El Observador](https://www.elobservador.com.uy/nota/nueva-norma-antilavado-que-cambio-para-los-abogados-escribanos-y-contadores--201812311224)). Officials considered easing notaries' requirements after their complaints ([Funds Society](https://www.fundssociety.com/es/?p=57209), date unverified).
+
+### Competitor reality check
+
+- **Cumplo360 (Devsys, Montevideo).** It has list search backed by Dow Jones, auditable client files, continuous screening, configurable risk assessment and transaction monitoring. It is web-based and multi-user. The page does not mention ROS drafting. It claims 350+ clients across several countries and 8,000+ users in Latin America. Named clients include an exchange in Paraguay, a Peruvian fintech, Zonamerica, one Uruguayan estate agency, two notary/professional firms and one accounting firm. Pricing is "scalable plans", with no public price ([Cumplo360](https://cumplo360.com/es/uruguay-antilavado/)). **Read:** a capable, regional, finance-grade product. It does the job, but it is probably priced and pitched for mid-size firms (unverified, no price).
+- **HADA (GNS Software).** It has three tiers. The Prepaid tier ("from US$10 + tax") is list screening only. Lite adds history and alerts. Only Full adds a risk matrix, simplified/normal/intensified due diligence, a document manager with expiry alerts, self-service client profiles and ROS generation. Lite and Full are annual plans with no public price. The page names no notaries, estate agents or accountants as clients, and does not mention multi-user access or an audit trail ([HADA](https://hada.com.uy/)). **Read:** it covers the full duty list only on the unpriced top tier. The US$10 anchor is for screening, not compliance files.
+- **Crowe.** A done-for-you service per client, not software. No public price ([Crowe](https://www.crowe.com/uy/plaft-ag-inmob-y-rematadores)).
+- **Notary practice software.** A search found no Uruguayan notary software with a PLAFT module (searched, none found; not exhaustive).
+- **Bottom line.** Both incumbents do the core job, so a generic "PLAFT suite" has no gap. The openings are price transparency, a sector-specific flow for notaries and estate agents, and quick Ley 20.469 updates. This is a real but narrow opening, not a killer.
+
+### Price per customer
+
+- **Today's costs.** Fines start at UI 1,000 and go up to UI 20,000,000 ([RSM](https://www.rsm.global/uruguay/es/node/772)). UI was about UYU 6.50 in March-April 2026 ([INE](https://www5.ine.gub.uy/documents/Estad%C3%ADsticasecon%C3%B3micas/PDF/UI/2026/UI%20Marzo%202026.pdf)). So the minimum fine is about UYU 6,500, or about US$160 at roughly UYU 40 per dollar (exchange rate unverified). Crowe's per-file fee and consultants' manual fees are not public (unverified).
+- **Suggested pricing.**
+  - Solo notary or estate agent: US$20-30 a month (US$240-360 a year), with unlimited client files, a timestamped search log of the free UN, OFAC and SENACLAFT PEP lists, and PDF export of each file (my estimate, unverified).
+  - Per-file option for low-volume users: US$5-10 per file (my estimate, unverified).
+  - Accountant or consultant running files for several obliged clients: US$60-100 a month per firm, priced per client entity (my estimate, unverified).
+  - One-off Ley 20.469 matrix and manual update kit: US$100-200 (my estimate, unverified).
+- **Planning figure:** a blended US$300 a year per customer.
+
+### Revenue estimate (year 3)
+
+- **Buyers.** Registered non-financial subjects in May 2019 ([GAFILAT IEM](https://biblioteca.gafilat.org/wp-content/uploads/2024/07/IEM-Uruguay.pdf)):
+  - notaries: 7,368;
+  - core segment: about 3,700 (estate agencies 2,058, accountants 949, auctioneers 391, corporate-service providers 165, lawyers 133);
+  - total: about 11,000, excluding free zones and casinos.
+  Notaries are covered when they act on property sales and the other listed operations ([IMPO Decreto 379/018 art. 40](https://impo.com.uy/bases/decretos/379-2018/40)). The 2026 counts are not public (unverified).
+- **Reachable share for a third entrant by year 3** (my assumption, unverified): 3% of the core segment and 2% of notaries.
+  - Core: 3,700 x 3% = 111 customers.
+  - Notaries: 7,368 x 2% = 147 customers.
+  - Total: 258 customers x US$300 = **about US$77,000 a year**.
+- **Upside case:** 5% of all 11,000 = 550 x US$300 = US$165,000, plus 200 update kits x US$150 = US$30,000 once.
+- **Downside case:** 1.5% of 11,000 = 165 x US$300 = about US$50,000.
+- **Read:** about US$50,000-165,000 a year, with a central case near US$77,000. That is a viable side business or a small team's income. It is not a large one.
+
+### Ease of implementation and sale
+
+- **Build: easy.** The core is guided forms that follow SENACLAFT's six forms, a risk score with stated reasons, a check of the free lists with date and result logged, document uploads, and PDF export. No state integration is needed. The SENACLAFT PEP list is free and updated (latest June 2026) ([lista PEP](https://www.gub.uy/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/comunicacion/publicaciones/lista-pep)). Licensed list data such as Dow Jones would add cost; free lists keep costs low.
+- **Onboarding: easy.** A single user needs no setup beyond a firm profile and a risk-matrix template.
+- **Sale: medium.** Buyers are many one-person firms that are price-sensitive and lightly policed. Channels are the notaries' association, the Cámara Inmobiliaria (800+ firms) and the accountants' college (~7,500 members) (see Channels below). SENACLAFT will not endorse any vendor ([communiqué](https://www.gub.uy/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/sites/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/files/2026-09/Comunicado%20SENACLAFT%20-%20DDC%20-%2004SET2026.pdf), via search snippet).
+
+### Remaining risks
+
+- **Incumbents could cut prices.** Cumplo360 or HADA could publish a cheap notary or agency plan ([Cumplo360](https://cumplo360.com/es/uruguay-antilavado/); [HADA](https://hada.com.uy/)). Their actual prices are still unknown (unverified). They should be asked for quotes before building.
+- **Light enforcement.** There were 50 sanctions in 2023, 14 of them fines ([Ferrere](https://ferrere.com/es/novedades/resumen-de-actividades-y-sanciones-aplicadas-por-la-senaclaft-durante-2023/)). Many small firms may stay on the free Word forms. Data for 2024-2025 was requested under a freedom-of-information request but could not be read (scanned PDF) ([Presidencia res. 268/2025](https://medios.presidencia.gub.uy/legal/2025/resoluciones/04/presidencia_ps_268.pdf)).
+- **Pending regulation.** Ley 20.469 is not yet regulated, so product logic may change ([Ferrere](https://www.ferrere.com/es/novedades/cambios-significativos-al-regimen-plaft/)).
+- **Political easing.** Notaries' lobbying has eased rules before, for example the LUC cash-threshold change ([Funds Society](https://www.fundssociety.com/es/?p=57209)). Ley 20.469 now cuts the threshold again ([Ferrere](https://www.ferrere.com/es/novedades/cambios-significativos-al-regimen-plaft/)).
+- **Stale buyer counts.** The counts date from 2019 ([GAFILAT](https://biblioteca.gafilat.org/wp-content/uploads/2024/07/IEM-Uruguay.pdf)). How many notaries actively do property deeds is unknown (unverified).
+
+### New sources
+
+- https://ferrere.com/es/novedades/principales-debilidades-detectadas-por-senaclaft-en-los-procesos-inspectivos-de-sujetos-obligados/
+- https://www.gub.uy/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/comunicacion/publicaciones/guiasformularios-para-debida-diligencia-para-sujetos-obligados-sector-3
+- https://hada.com.uy/
+- https://cumplo360.com/es/uruguay-antilavado/
+- https://impo.com.uy/bases/decretos/379-2018/40
+- https://www5.ine.gub.uy/documents/Estad%C3%ADsticasecon%C3%B3micas/PDF/UI/2026/UI%20Marzo%202026.pdf
+- https://www.elobservador.com.uy/nota/nueva-norma-antilavado-que-cambio-para-los-abogados-escribanos-y-contadores--201812311224
+- https://www.fundssociety.com/es/?p=57209
+- https://medios.presidencia.gub.uy/legal/2025/resoluciones/04/presidencia_ps_268.pdf
+- https://www.gub.uy/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/sites/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/files/2026-09/Comunicado%20SENACLAFT%20-%20DDC%20-%2004SET2026.pdf
+- https://www.crowe.com/uy/plaft-ag-inmob-y-rematadores
+- https://www.gub.uy/secretaria-nacional-lucha-contra-lavado-activos-financiamiento-terrorismo/comunicacion/publicaciones/lista-pep
+
 ## Summary
 
 **Verdict: no-go. Score: 3/10.**

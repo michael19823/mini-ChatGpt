@@ -1,5 +1,76 @@
 # Czechia A1: Wine-grower record books and declarations desk
 
+## Re-assessment (owner's criteria)
+
+**Verdict: no-go. New score: 3/10 (old score: 2/10).**
+
+**The case.** The portal is not the problem here. The gap is the cellar evidence books, and the portal does not keep them. But Czech products that keep the books already exist and are cheap. Vitipad costs 3,800 Kč a year and VineOS Pro costs 2,490 Kč a year, with a free tier (https://vitipad.cz/cenik ; https://vineos.cz/). Adoption still looks low. Vitipad reports only "over 60 wineries" after about ten years (https://vitipad.cz/). So many small producers probably still use paper (unverified). That points to weak demand, not to a bad incumbent. A newcomer would have to sell below about 4,000 Kč a year to around 1,300 levy-paying wineries. That caps year-3 revenue at roughly 1 to 1.7 million Kč (40,000 to 70,000 EUR) even in a good case.
+
+### Room for improvement over the portal or current practice
+
+- **What the portal leaves undone.** Portál farmáře / Registr vinic takes the harvest, production and stock declarations, but the winery keeps the evidence books itself (https://portal.gov.cz/sluzby-vs/S19396 ; https://portal.gov.cz/sluzby-vs/S19411 ; https://www.zakonyprolidi.cz/cs/2017-88). Books, batch traceability, purchase slips and per-vessel cards are a real gap for software.
+- **Portal pain is weak.** I found no current user complaints about the filing portal. Filing needs no electronic signature (https://mze.gov.cz/public/portal/mze/-q335635---s2lriK1I/manual-pro-podavani-el-hlaseni-vinaru). One court case had a winery blaming an outdated portal form for a wrong reference date. The court did not accept it (https://vyhledavac.nssoud.cz/DokumentOriginal/Index/544212 ; https://vyhledavac.nssoud.cz/DokumentOriginal/Index/544383) (which file holds this case is unverified).
+- **Record-keeping pain is real.** Court cases show fines for books not kept in the set scope or on time, for missing purchase slips, and for batches that could not be traced to grapes (https://sbirka.nssoud.cz/cz/vinohradnictvi-a-vinarstvi-vedeni-evidence-lhuta-pro-zapis-do-evidencnich-knih.p2882.html ; https://vyhledavac.nssoud.cz/DokumentOriginal/Index/556055). One ruling involved a fine of 1,000,000 Kč for two offences (seen in a search snippet, unverified). The Valtice course has officials explain the "common mistakes they find in inspections" (https://www.vinarska-akademie.cz/kurz-digitalni-evidence.html).
+- **Inspection volume.** SZPI reported 4,167 wine-related inspections in 2019 and 3,470 in 2020 (https://www.szpi.gov.cz/soubor/15-2021-redigovano-pdf.aspx) (from a search snippet; unverified). I found no 2024 wine-only figures (unverified).
+- **Possible openings.** (1) A done-for-you service for producers still on paper. (2) Multi-client use for enology service firms and contract winemakers who keep books for several small producers. None of the incumbents mentions multi-client use (https://www.agrowin.cz/ ; https://vitipad.cz/ ; https://vineos.cz/). How many such firms exist is unverified.
+
+### Competitor reality check
+
+| Product | Does it do the job? | Price | Who uses it | Reasonably priced? |
+|---|---|---|---|---|
+| Vitipad (Vialtek s.r.o., Brno) | Yes for the books. Claims to meet the decree 88/2017 electronic-book rules. Prints tables for SZPI. Grape intake to bottling. https://vitipad.cz/ | 380 Kč a month or 3,800 Kč a year, flat. Includes support, setup and updates. https://vitipad.cz/cenik | "Over 60 wineries" since 2015, incl. Arcibiskupské zámecké víno Kroměříž. https://vitipad.cz/ | Yes |
+| VineOS | Yes. PDF wine book, ÚKZÚZ stock, production and Wine Fund reports pre-filled (PDF/XLSX/XML), with deadlines. Offline, e-label. https://vineos.cz/ | Free up to 3 batches. Pro 2,490 Kč (99 EUR) a year. https://vineos.cz/ | No count given. Built by one Moravian winemaker; contact is a Gmail address. https://vineos.cz/ | Yes, very cheap. Vendor risk is high. |
+| Agrowin Sklepmistr (WIN, CLOUD, "Vinařský sešit") | Yes. Automatic evidence books for SZPI, declarations, Portál farmáře import, batch costing. https://www.agrowin.cz/ | Not published (unverified) | Taught in the Valtice course. https://www.vinarska-akademie.cz/kurz-digitalni-evidence.html | Unknown |
+| Vinservis eVin 6 / eVin Blok | Yes for books and costing. The site does not mention declarations. https://www.vinservis.cz/ | 1,200 Kč a month hosted (14,400 Kč a year). https://www.vinservis.cz/Content/CenikEvin.aspx | No count given. https://www.vinservis.cz/ | Pricey for small wineries |
+
+- At least two products do the whole job at 2,490 to 3,800 Kč a year. Under the owner's test this is a well-priced local product that already does the job. That is the killer.
+- The incumbents are not polished leaders. VineOS is a one-person project and Vitipad is small. That leaves room to win share, but the price ceiling stays low.
+
+### Price per customer
+
+- **Software.** Small winery: 2,500 to 4,000 Kč a year, set by Vitipad and VineOS (https://vitipad.cz/cenik ; https://vineos.cz/). Medium winery (20,000 to 200,000 l): up to about 14,400 Kč a year, set by eVin (https://www.vinservis.cz/Content/CenikEvin.aspx).
+- **Budget check.** The average small winery pays only 2,736 Kč a year in Wine Fund levy, which implies about 5,500 l of wine (https://vinarskyfond.cz/wp-content/uploads/2026/06/Prinos-VF_2026.pdf).
+- **Training benchmark.** The Valtice course costs 9,500 Kč, or 1,710 Kč with subsidy (https://www.vinarska-akademie.cz/kurz-digitalni-evidence.html).
+- **Service.** A done-for-you "season close and declarations" package might sell at 4,000 to 8,000 Kč a year. I found no Czech provider or price to anchor this (unverified).
+- **Multi-client.** An enology firm keeping books for many producers might pay 1,500 to 2,500 Kč per client a year (unverified; no market evidence found).
+
+### Revenue estimate (year 3)
+
+Buyers from the Wine Fund 2025 data: 1,061 small, 237 medium and 44 large levy-paying wineries (https://vinarskyfond.cz/wp-content/uploads/2026/06/Prinos-VF_2026.pdf). Exchange rate about 25 Kč per EUR (from VineOS 2,490 Kč = 99 EUR, https://vineos.cz/).
+
+- Small wineries, software: 1,061 x 10% x 3,500 Kč = about 371,000 Kč.
+- Medium wineries, software: 237 x 10% x 12,000 Kč = about 284,000 Kč.
+- Paper-book producers, service: 100 clients x 6,000 Kč = 600,000 Kč (the client count is my guess, unverified).
+- **Total: about 1.26 million Kč a year, or about 50,000 EUR.** A 15% share in each software segment and 150 service clients gives about 1.9 million Kč (about 76,000 EUR). This is the ceiling, and it assumes taking share from four existing vendors.
+
+### Ease of implementation and sale
+
+- **Build: medium.** The forms are fixed in decree 88/2017 Annexes 12 to 26. Entries must be irreversible and name their author (https://www.zakonyprolidi.cz/cs/2017-88). One developer could build it, but must reach parity with VineOS (offline, e-label, ÚKZÚZ exports) (https://vineos.cz/).
+- **Sale: hard.** The buyers are small, rural and price-sensitive. The subsidised Valtice course already trains winemakers on Sklepmistr and Vitipad (https://www.vinarska-akademie.cz/kurz-digitalni-evidence.html). Good channels exist: the Wine Fund newsletter reaches over 1,600 subjects (https://vinarskyfond.cz/wp-content/uploads/2026/06/Prinos-VF_2026.pdf).
+- **Service: easy to start, hard to scale.** It needs Czech-speaking staff in South Moravia during the January filing peak.
+
+### Remaining risks
+
+- Low willingness to pay. Ten years of Vitipad gave only about 60 customers (https://vitipad.cz/).
+- A cheap incumbent (VineOS) with a free tier and an AI assistant sets the price floor (https://vineos.cz/).
+- Liability for errors in books that carry fines up to 5,000,000 Kč (https://www.zakonyprolidi.cz/cs/2004-321).
+- No 2026 MZe calendar found, so this year's deadlines are unconfirmed (https://mze.gov.cz/public/portal/mze/-a54336---l4RokNv5/kalendar-pro-vinohradniky-a-vinare-2025) (unverified for 2026).
+- The share of producers still on paper is unknown (unverified). It is the key number for any service play.
+
+### New sources
+
+- https://vitipad.cz/
+- https://vitipad.cz/cenik
+- https://vineos.cz/
+- https://www.agrowin.cz/
+- https://www.vinservis.cz/
+- https://www.vinarska-akademie.cz/kurz-digitalni-evidence.html
+- https://portal.gov.cz/sluzby-vs/S19396
+- https://vyhledavac.nssoud.cz/DokumentOriginal/Index/544212
+- https://vyhledavac.nssoud.cz/DokumentOriginal/Index/544383
+- https://www.szpi.gov.cz/soubor/15-2021-redigovano-pdf.aspx
+- https://ct24.ceskatelevize.cz/clanek/ekonomika/desiva-hygiena-falsovany-med-voda-v-rybach-a-pochybne-vino-stalice-v-hitparade-kontrol-inspekce-82703 (2018. Lists wine as a "persistent problem" commodity in SZPI checks; wine figures not broken out.)
+
 ## Summary
 
 **Verdict: no-go. Score: 2/10.**

@@ -1,5 +1,85 @@
 # Scottish visitor levy returns assistant (UK, C02)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10 (old score: 4/10).**
+
+**The case.** The free platform visitorlevy.scot is a manual entry form. Each quarter it asks for monthly money figures for each premises, and it does not import booking data ([Edinburgh guide v2.1, Sep 2026, p.14](https://www.edinburgh.gov.uk/downloads/file/40692/edinburgh-visitor-levy-scheme-information-for-accommodation-providers); [VisitScotland FAQ 7.3](https://support.visitscotland.org/binaries/content/assets/bsh/2025/10/visitor-levy-faqs.pdf)). A small tool that turns Airbnb, Booking.com and direct-booking exports into those figures, and keeps the 5-year evidence file, fills a real gap. No incumbent does the whole job. The tool is easy to build, because most councils are expected to use the same national platform and return. The ceiling is the problem. The Scottish market is a few thousand small hosts plus a few dozen letting managers, and each saves only an hour or two per quarter. Realistic year-3 revenue is about £40k-£100k, unless England's levy (from about 2028-29) opens a larger market.
+
+### Room for improvement over the portal or current practice
+
+- **No data import.** The platform registers premises, takes quarterly returns and shows the levy due. "System prompts" ask for cap and start-date figures. Nothing describes CSV upload, OTA links or an API ([VisitScotland FAQ 7.3](https://support.visitscotland.org/binaries/content/assets/bsh/2025/10/visitor-levy-faqs.pdf)). The site's help pages could not be read, so bulk upload is still unconfirmed (unverified).
+- **The return is detailed.** Each quarter, for every month, the host enters three figures: accommodation-only revenue, revenue booked before 1 Oct 2025, and revenue beyond night 5. On request, the council can also ask for five monthly counts: availability, occupied nights, nights booked before 1 Oct 2025, bookings over 5 nights and nights beyond the 5th ([Edinburgh guide v2.1, p.14](https://www.edinburgh.gov.uk/downloads/file/40692/edinburgh-visitor-levy-scheme-information-for-accommodation-providers)). A host using two or three channels has to rebuild this by hand.
+- **No safe calculator.** The council says the platform calculator and OTA calculations are not endorsed and are used "at the user's own risk" ([Edinburgh guide v2.1, pp.3, 13](https://www.edinburgh.gov.uk/downloads/file/40692/edinburgh-visitor-levy-scheme-information-for-accommodation-providers)). A tool that shows each booking's working fills that gap.
+- **Record-keeping.** Section 28 requires records of each stay, transaction and payment for 5 years. There are penalties for failing to keep records (s.54) and for inaccurate information (s.59). The council can also inspect premises (s.38) and make its own assessment (s.45) ([Act contents](https://www.legislation.gov.uk/asp/2024/8/contents)). The portal stores returns, not the evidence behind them. An evidence pack per return is a clear gap.
+- **Multi-property and multi-council work.** A host with property in several councils must deal with each council separately ([VisitScotland FAQ 1.4](https://support.visitscotland.org/binaries/content/assets/bsh/2025/10/visitor-levy-faqs.pdf)). Section 9 allows third-party arrangements, but a third party can file only with council consent (s.9 title confirmed at [Act contents](https://www.legislation.gov.uk/asp/2024/8/contents); consent detail unverified). No agent or accountant login on the portal was found (unverified). Letting managers who file for dozens of owners need a per-owner workspace.
+- **Evidence of pain.** Operators report that booking systems cannot handle the levy. Staff spend about 8 minutes correcting each bill by hand ([Caterer Licensee, Aug 2026](https://catererlicensee.com/sta-urges-councils-to-learn-from-edinburgh-visitor-levy-problems-as-businesses-face-mounting-costs/); [MCA Insight](https://www.mca-insight.com/legislation/scottish-tourism-alliance-warns-of-mounting-costs-from-edinburgh-visitor-levy/722927.article)). A Bookster podcast names accurate calculation with complex pricing, and unclear remittance guidance, as host problems ([Bookster podcast](https://www.booksterhq.com/podcast/158982-the-visitor-levy)). In Parliament, the Minister accepted that some non-compliance may come from providers "still becoming accustomed to the new system" ([SJHLG Committee report, Sep 2026, para 23](https://www.parliament.scot/chamber-and-committees/committees/committee-reports/sjhlg/2026/9/14/sjhlgs072026r1/pdf)). No late-filing data exists yet, because the first returns close on 30 Oct 2026 ([same report](https://www.parliament.scot/chamber-and-committees/committees/committee-reports/sjhlg/2026/9/14/sjhlgs072026r1/pdf)).
+- **Deadlines.** There are two dates per quarter: a return window of 30 days and a payment date about 2 weeks later ([Edinburgh guide v2.1, p.13](https://www.edinburgh.gov.uk/downloads/file/40692/edinburgh-visitor-levy-scheme-information-for-accommodation-providers)). Reminders are an easy add-on.
+
+### Competitor reality check
+
+- **visitorlevy.scot (free).** Handles filing and payment only. It does not prepare the figures or keep evidence (see above).
+- **Bookster.** It adds a levy uplift to bookings. As of its last post, a report for the council return was still something it "plans to review" before October 2026 ([Bookster](https://www.booksterhq.com/news/159016-visitor-levy)). Directory listings give £25/month for up to 3 rentals on Solo and £44/month on Pro ([Capterra UK](https://www.capterra.co.uk/reviews/151130/bookster); unverified on Bookster's own site). That is fair value for a full booking system, but it only helps hosts who move their bookings into Bookster.
+- **freeonlinebooking.** It has two levy reports a host can email to the council, plus night caps and refunds ([freeonlinebooking blog](https://www.freeonlinebooking.com/en/Blog/scottish-visitor-levies.aspx)). The PMS price is not stated. Whether its reports match the portal's monthly fields is unverified.
+- **Hop Software.** Has a Visitor Levy finance report from night audit ([Hop help](https://help.hopsoftware.com/support/solutions/articles/43000782980-edinburgh-visitor-levy)). It is a hotel PMS, not a tool for single-unit hosts.
+- **freetobook, Roommaster.** Guidance and guest-facing levy display. No return report was found ([freetobook](https://en.freetobook.com/blog/scottish-visitor-levy-tax/); [Roommaster](https://www.roommaster.com/hotel-tax/edinburgh)).
+- **Eviivo, Little Hotelier, Lodgify, Guesty.** Searches found no Scottish levy feature (unverified).
+- **Airbnb, Booking.com.** Hosts must collect and remit the levy themselves ([Airbnb help 4105](https://www.airbnb.com/help/article/4105)).
+- **Letting managers.** Houst charges about 14% of nightly income for full management in Edinburgh ([Houst](https://www.houst.com/blog/edinburgh-airbnb-host-guide)). A search snippet said Houst collects and remits the levy for owners, but the page did not confirm it (unverified). Managers are a buyer for a multi-owner tool, not a competitor to it.
+- **Accountants.** No priced levy-return service was found (unverified).
+- **Bottom line.** The incumbents are partial. Each one works only inside its own booking system. None takes exports from several channels, produces the portal's monthly fields per premises, and keeps an evidence pack. This is an opening, not a killer.
+
+### Price per customer
+
+- **Value anchors.**
+  - **Retention.** The 2% retention on a £30,000-a-year unit is about £30 a year (assumption; [Edinburgh guide v2.1](https://www.edinburgh.gov.uk/downloads/file/40692/edinburgh-visitor-levy-scheme-information-for-accommodation-providers)).
+  - **Late-return penalty.** The first penalty is about £108-£398 for residential premises. Late payment adds 10% of the levy ([penalty framework v1](https://www.edinburgh.gov.uk/downloads/file/40690/visitor-levy-penalty-framework-v1)).
+  - **Time.** About 1-3 hours a quarter for a small host (estimate). An accountant would likely charge £50-£150 per quarterly return (unverified; no published fee found).
+  - **Software spend.** Hosts already pay about £25-£44 a month for a booking system ([Capterra UK](https://www.capterra.co.uk/reviews/151130/bookster); unverified).
+- **Suggested prices.**
+  - **Single host:** £6-£8 per property per month, or £25 per return. That is about £70-£100 a year.
+  - **Letting managers and accountants:** £2-£3 per property per month, with a £30 monthly minimum.
+
+### Revenue estimate (year 3, 2029)
+
+- **Buyers.** Edinburgh has 3,209 short-term let licences ([gov.scot STL statistics](https://www.gov.scot/publications/short-term-lets-licensing-statistics-scotland-to-31-december-2025/pages/licences-in-operation-local-areas/)) and about 200 guest houses and B&Bs ([Lichfields](https://lichfields.uk/blog/2022/september/15/tourist-accommodation-in-edinburgh-more-not-less-is-needed)). Glasgow (Jan 2027), Aberdeen, Stirling and West Dunbartonshire join in 2027 ([Glasgow](https://www.glasgow.gov.uk/article/14799/Glasgow-s-Visitor-Levy); [West Dunbartonshire](https://www.west-dunbarton.gov.uk/business/visitor-levy/)). That gives an estimated 5,000-7,000 small liable persons by 2029 (estimate, unverified), plus about 30-60 letting managers (estimate).
+- **Base case.**
+  - Hosts: 6,000 × 5% = 300 × £80 = £24,000.
+  - Managers: 25 × 60 properties × £30 a year = £45,000.
+  - Total: about **£69,000 a year**.
+- **Low case.**
+  - Hosts: 5,000 × 3% = 150 × £70 = £10,500.
+  - Managers: 10 × 40 × £24 = £9,600.
+  - Total: about **£20,000 a year**.
+- **High case.** Scotland plus an early English launch (unverified timing). Scotland gives about £100,000. Each English mayoral area that adopts a percentage levy adds more ([ICAEW, Sep 2026](https://www.icaew.com/insights/tax-news/2026/sep-2026/government-confirms-new-tourist-levy); [Irish News](https://www.irishnews.com/news/uk/holidaymakers-face-tourism-tax-with-new-powers-for-mayors-across-england-WQ6JGNUL7FM6PLUG4EIEHUENA4/)).
+
+### Ease of implementation and sale
+
+- **Build: high.** The product is CSV parsers for Airbnb, Booking.com and Vrbo, a rules engine (rate, 5-night cap, pre-1-Oct-2025 exemption, check-out quarter, extras), and output matched to one national form. Most councils are expected to use visitorlevy.scot, which keeps returns standard ([VisitScotland FAQ 7.3-7.5](https://support.visitscotland.org/binaries/content/assets/bsh/2025/10/visitor-levy-faqs.pdf)). An MVP is about 4-6 weeks of work (estimate).
+- **Onboarding: high.** The host uploads files and gets figures to copy into the portal. There is no integration to sign off.
+- **Sale: medium.** The demand is seasonal, peaking at each quarter's filing window. It sells through ASSC, the Edinburgh Guest House Association, ICAS accountants and letting managers ([ICAS](https://icas.com/news-insights-events/news/tax/visitor-levy-what-accommodation-providers-need-to-know/)). Councils will not endorse a tool ([Edinburgh guide v2.1](https://www.edinburgh.gov.uk/downloads/file/40692/edinburgh-visitor-levy-scheme-information-for-accommodation-providers)).
+
+### Remaining risks
+
+- **Flat rates.** Section 6A now lets councils set a fixed amount per night ([Act contents](https://www.legislation.gov.uk/asp/2024/8/contents); [Scottish Business News](https://scottishbusinessnews.net/scottish-councils-given-power-to-charge-flat-fee-tourist-tax/)). Under a flat rate the sum becomes simple and most of the value goes. England's levy is planned as a percentage, which helps ([Irish News](https://www.irishnews.com/news/uk/holidaymakers-face-tourism-tax-with-new-powers-for-mayors-across-england-WQ6JGNUL7FM6PLUG4EIEHUENA4/)).
+- **Platform upgrades.** The Improvement Service could add CSV upload (unverified plans).
+- **Competitors catch up.** PMS vendors, Bookster for one, could ship reports that match the return.
+- **OTA collection.** Airbnb or Booking.com could sign collection agreements with councils.
+- **Low value per customer.** Each customer is worth well under £100 a year, so acquisition has to be cheap.
+- **Liability.** The tool must leave submission to the user and state clearly what it does not cover.
+
+### Sources (new in this re-assessment)
+
+- https://support.visitscotland.org/binaries/content/assets/bsh/2025/10/visitor-levy-faqs.pdf
+- https://www.parliament.scot/chamber-and-committees/committees/committee-reports/sjhlg/2026/9/14/sjhlgs072026r1/pdf
+- https://www.legislation.gov.uk/asp/2024/8/contents
+- https://www.mca-insight.com/legislation/scottish-tourism-alliance-warns-of-mounting-costs-from-edinburgh-visitor-levy/722927.article
+- https://www.booksterhq.com/podcast/158982-the-visitor-levy
+- https://www.capterra.co.uk/reviews/151130/bookster
+- https://www.houst.com/blog/edinburgh-airbnb-host-guide
+- https://www.irishnews.com/news/uk/holidaymakers-face-tourism-tax-with-new-powers-for-mayors-across-england-WQ6JGNUL7FM6PLUG4EIEHUENA4/
+- https://www.edinburgh.gov.uk/downloads/file/40692/edinburgh-visitor-levy-scheme-information-for-accommodation-providers (re-read: v2.1, Sep 2026, return fields p.14)
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

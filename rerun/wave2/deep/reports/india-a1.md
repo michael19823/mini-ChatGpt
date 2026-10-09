@@ -1,5 +1,79 @@
 # India A1: Lift licence, inspection and AMC compliance tracker
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 4/10 (old score: 3/10).**
+
+**The case.** The free state portals do one thing: they take a filing and a fee. The ongoing work sits outside them, and it is mostly left undone. That work is monthly AMC logbooks, yearly AMC and certificate uploads, mock drills, accident reports and renewals across many lifts and states. Only about 11,800 of more than 80,000 lifts in the Noida district were registered 18 months after UP's Act took effect (https://www.amarujala.com/delhi-ncr/noida/lift-act-only-1475-registration-in-one-and-a-half-years-noida-news-c-23-1-lko1064-94589-2026-05-12). The best buyer is the lift AMC firm, which already does the monthly checks for dozens of buildings. A "compliance pack per lift" module for these firms, or a done-for-you filing service for housing societies, could sell. Still, the buyer base is small and price-sensitive, enforcement is weak, and AMC software incumbents can add the feature. That keeps the score modest.
+
+**Room for improvement over the portal or current practice.**
+- The portals file and approve, and nothing more. UP approves automatically once the fee is paid (https://elevatorworld.com/news/daily-news/indian-state-rolls-out-lift-registration-portal/). The duties that recur after filing are kept outside the portal:
+  - In UP: a comprehensive AMC, a yearly AMC copy upload, a monthly fitness certificate, a logbook, two mock drills a year, CCTV, and accident reports within 24 hours (https://www.teamleaseregtech.com/updates/article/32469/uttar-pradesh-lifts-and-escalators-act-2024).
+  - In Maharashtra: the AMC firm records monthly checks in a logbook that the inspector reviews. Society office-bearers can face criminal charges after an accident (https://citizenmatters.in/explainer-how-to-ensure-maintenance-and-safety-of-your-lifts/).
+- Non-compliance is large. In the Noida district, 11,800 of 80,000+ lifts were registered by May 2026, about 14.75%. The fine for registering late is three times the fee: Rs 5,000 plus a Rs 10,000 penalty (Amar Ujala, above). In Ghaziabad, about 1,000 of 4,000 lifts were still unregistered in Dec 2025 (https://www.etvbharat.com/en/state/repeated-lift-accidents-expose-safety-gaps-as-over-1000-lifts-remain-unregistered-in-ups-ghaziabad-enn25121302477). This corrects the first pass, which doubted the 80,000 figure: Amar Ujala now reports it as well.
+- In Karnataka, licences reportedly need renewal every two years, and many establishments fail to renew (Deccan Herald, 4 Aug 2026, seen as a search snippet; the page returned 403) (https://deccanherald.com/india/karnataka/bengaluru/four-in-10-bengalureans-dread-stepping-into-a-lift-survey-4098155) (unverified against the Rules). The first pass did not know the Karnataka interval.
+- AMC firms have new duties too. In UP they must register with the Director of Electrical Safety. By Feb 2026 only 98 AMC agencies and 87 manufacturers had done so (https://therealtytoday.com/news/trending/lift-and-escalator-act-2024-noida-dominates-registration-drive-across-uttar-pradesh).
+- The software gap is a multi-lift, multi-state register that does four things:
+  - holds each lift's licence or registration number and expiry;
+  - keeps the monthly logbook entries and the yearly upload papers;
+  - tracks mock drills;
+  - produces a one-page inspection-ready pack for each building.
+  No portal does this (portal sources above). I found no direct evidence of portal usability complaints. The pain is low compliance and scattered records, not a broken portal (unverified).
+- TN works against this case. Its 2025 amendment made licences auto-generated and valid for 5 years (https://prsindia.org/files/bills_acts/bills_states/tamil-nadu/2025/Bill22of2025TN.pdf).
+
+**Competitor reality check.**
+- **ElevatorPlus (Accucia, Pune).** This is the closest product. Its features:
+  - AMC expiry alerts at 60 and 30 days;
+  - digital PM checklists and logs with PDF reports to clients;
+  - breakdown dispatch;
+  - a client portal and an "Inspection Management" module.
+  It claims 200+ elevator businesses in 20+ countries. It charges a one-time implementation fee plus a fixed yearly fee, with no published prices (https://elevatorplus.app ; https://elevatorplus.app/pricing). Its site does not mention tracking state licences or registrations, or filing them. So it covers the maintenance side well, but the statutory side only partly.
+- **Service CRM (IndiaMART).** Lift maintenance software at Rs 20,000 a year. It is generic scheduling, with no statutory features listed (https://m.indiamart.com/service-crm).
+- **ADDA.** Its "Compliance & AMC Tracker" is described only as helping "prevent missed deadlines and penalties". Nothing lift-specific is shown (https://blog.ind.adda.io/?p=21800). ADDA's price is about US$0.14 per unit per month, or US$39-59 per community per month (https://tekpon.com/software/adda/reviews/ ; https://us.fitgap.com/products/025832/adda-erp) (unverified, sources conflict). It is a generic date reminder, not a lift register.
+- **Consultants.** IncorpX sells lift licence help "starting @ Rs 14,999", which is a one-off service (https://www.incorpx.io/lift-installation-license-in-bengaluru).
+- **Verdict on competitors.** None does the whole job. ElevatorPlus is the real threat, because it could add statutory fields cheaply. That makes the gap an opening, but a narrow one.
+
+**Price per customer.**
+- **Lift AMC firm (multi-client).** The benchmark is general lift-service software at Rs 20,000 a year (Service CRM, above). A statutory compliance and logbook module could charge:
+  - Rs 25,000-60,000 a year, flat; or
+  - Rs 300-600 per lift per year.
+  The per-lift figure compares with AMC fees of Rs 10,000-50,000 per lift per year (https://www.studiomatrx.org/guides/lift-amc-evaluation-guide-india) (inference).
+- **Housing society or AOA (done-for-you service).** A society today pays:
+  - Rs 14,999+ to a consultant (IncorpX, above);
+  - a late-registration fee of Rs 15,000 per lift in UP (Amar Ujala, above).
+  A filing plus yearly compliance pack could charge Rs 8,000-15,000 per society per year (inference).
+
+**Revenue estimate (year 3).**
+- **Path A: AMC firms.** UP alone has 98 registered AMC agencies (therealtytoday, above). India has 350+ lift manufacturers (2018 count) plus many regional players (https://consultmcg.com/blog/comments/feed/pdf2020/Indian%20Elevator%20Market%20MCG%202018.pdf). Assume 1,500 AMC firms across the main lift-act states (unverified). 1,500 firms x 5% share x Rs 40,000 = **Rs 30 lakh (about US$36,000)**.
+- **Path B: society service in NCR and Bengaluru.** Ghaziabad has 200+ high-rise societies (https://elevatorworld.com/news/daily-news/high-rise-society-lifts-not-registered-deadline-looming). Assume about 3,000 lift-owning societies are reachable in NCR and Bengaluru (unverified). 3,000 x 5% x Rs 12,000 = **Rs 18 lakh (about US$22,000)**.
+- **Combined: about Rs 48 lakh, or roughly US$58,000 a year.** A per-lift upside: if AMC firms push it to their clients, 20,000 lifts x Rs 500 = Rs 1 crore (optimistic, unverified).
+
+**Ease of implementation and sale.**
+- **Build: easy.** It is a lift register with reminders, logbook entries, document uploads and a PDF pack. The state rules engine is the only fiddly part, because intervals differ by state (first pass, Duty section).
+- **Sale: hard.** AMC firms are fragmented and price-sensitive, and many already use ElevatorPlus or spreadsheets. Societies act only when a notice arrives.
+- **Onboarding: easy.** Lifts can be imported from a spreadsheet.
+
+**Remaining risks.**
+- Enforcement is weak. Amar Ujala reports that no penalties have been imposed in the Noida district and that 50+ complaints went without action (Amar Ujala, above). Without enforcement, demand stays latent.
+- TN-style auto-licensing (5-year validity, decriminalised penalties) may spread and remove the renewal pain (TN bill, above).
+- ElevatorPlus or ADDA could add a statutory module.
+- The number of AMC firms and societies is not confirmed (unverified).
+- The HP Lifts (Amendment) Act 2026 exists, but its renewal terms were not confirmed (https://simpliance.in/India/EHS/govt_notification/himachal-pradesh/bill-notification-of-the-himachal-pradesh-lifts-amendment-act-2026-9129) (unverified).
+
+**New sources.**
+- https://www.amarujala.com/delhi-ncr/noida/lift-act-only-1475-registration-in-one-and-a-half-years-noida-news-c-23-1-lko1064-94589-2026-05-12
+- https://therealtytoday.com/news/trending/lift-and-escalator-act-2024-noida-dominates-registration-drive-across-uttar-pradesh
+- https://citizenmatters.in/explainer-how-to-ensure-maintenance-and-safety-of-your-lifts/
+- https://elevatorplus.app
+- https://elevatorplus.app/pricing
+- https://deccanherald.com/india/karnataka/bengaluru/four-in-10-bengalureans-dread-stepping-into-a-lift-survey-4098155
+- https://elevatorworld.com/news/daily-news/high-rise-society-lifts-not-registered-deadline-looming
+- https://consultmcg.com/blog/comments/feed/pdf2020/Indian%20Elevator%20Market%20MCG%202018.pdf
+- https://tekpon.com/software/adda/reviews/
+- https://us.fitgap.com/products/025832/adda-erp
+- https://www.incorpx.io/lift-installation-license-in-bengaluru
+- https://simpliance.in/India/EHS/govt_notification/himachal-pradesh/bill-notification-of-the-himachal-pradesh-lifts-amendment-act-2026-9129
+
 ## Summary
 
 **Verdict: no-go. Score: 3/10.**

@@ -1,5 +1,77 @@
 # Argentina B1: UIF compliance kit for small real estate brokers
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10 (old score: 5/10).**
+
+**The case.** The UIF portal only takes the finished monthly and annual reports. Everything a broker must do before that is left to Word templates, Excel and paper: the client file, the risk rating, PEP checks, alerts, the manual, training records and the two-yearly self-assessment ([Res. 43/2024](https://www.argentina.gob.ar/normativa/nacional/397424/texto); [UIF RSM guide](https://www.argentina.gob.ar/uif/instructivos/rsm-compra-yo-venta-de-bienes-inmuebles)). The only local AML platform found, CONLAFT, is a young firm with 5 systems deployed and no broker focus ([CONLAFT profile](https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf)). Real estate CRMs show no AML module ([DevelopArgentina](https://developargentina.com/blog/software-inmobiliaria-argentina-2026)). So the gap is real and nobody local fills it well. What holds the score at 6 is willingness to pay: enforcement is thin, and a deregulation draft could change who is obliged. A cheap add-on of about USD 25-35 a month, sold through colegios, CRM vendors and accountants, could plausibly reach USD 100,000-150,000 a year by year 3 (my estimate, unverified).
+
+**Room for improvement over the portal or current practice**
+- **The portal does filing only.** SRO+/SROMasivo takes the monthly report as a bulk template. It checks CUIT digits and that shares add up to 100% ([UIF RSM guide](https://www.argentina.gob.ar/uif/instructivos/rsm-compra-yo-venta-de-bienes-inmuebles)). It does not keep the client file, rate risk, screen PEPs, log alerts or track the 15/150-day suspicious-report clock. All of these are duties under Res. 43/2024 ([Res. 43/2024](https://www.argentina.gob.ar/normativa/nacional/397424/texto)).
+- **Data preparation.** Each sale needs about 10 fields per buyer and seller, plus payment method and cadastral data, in the UIF's fixed template ([UIF RSM guide](https://www.argentina.gob.ar/uif/instructivos/rsm-compra-yo-venta-de-bienes-inmuebles)). Software that fills this from the client file and checks it before upload saves re-keying and rejected files.
+- **Lease threshold tracking.** Leases count only once a client reaches 300 SMVM a year across one or more operations ([Res. 43/2024](https://www.argentina.gob.ar/normativa/nacional/397424/texto)). The SMVM changes several times a year ([Canal 26](https://www.canal26.com/economia/2026/09/02/asi-quedo-el-aumento-del-salario-minimo-vital-y-movil-cuanto-se-cobrara-entre-septiembre-de-2026-y-abril-de-2027/)). A running total per client is hard in Excel and easy in software.
+- **Records the portal does not keep.** Client files must be kept for 10 years and refreshed every 1, 3 or 5 years by risk level. The manual must be reviewed every 2 years, and training must be logged every year ([Res. 43/2024](https://www.argentina.gob.ar/normativa/nacional/397424/texto)).
+- **Current practice is static templates.** The Santa Fe brokers' colegio published a model UIF manual for members, written under the old rule ([CCI Santa Fe model manual](https://ccisantafe.org.ar/wp-content/uploads/2020/06/01.-Manual-Operativo-UIF-Colegio-de-Corredores-Inmobiliarios-de-la-Prov.-Sta.-Fe-1%C2%AA-Circ..pdf); the link now returns 404, so its content is unverified). Reporte Inmobiliario gave subscribers editable Word templates for the manual, client file forms and PEP and funds-origin declarations ([Reporte Inmobiliario](https://www.reporteinmobiliario.com/article2940-norma-uif-obligatoria-para-inmobiliarios-como-evitar-sanciones.html)). Templates show demand, but they do not track deadlines, refreshes or evidence.
+- **Portal pain in the same UIF system.** FACPCE told the UIF on 31 Mar 2026 that the accountants' reporting form "was not available in time" on the platform, and asked for deadlines to be moved ([FACPCE note to UIF](https://www.facpce.org.ar/wp-content/uploads/2026/04/Nota-FACPCE-a-UIF-31-03-26.pdf)). The notaries' colegio runs an adviser desk that answers questions about filing the monthly report ([Colegio de Escribanos FAQ](https://www.colegio-escribanos.org.ar/2025/07/24/uif-consulta-frecuente-sobre-el-rsm-y-el-ros/)). No broker-specific complaints were found (unverified).
+- **Multi-client work.** Accountants who act as external reviewer (REI) or internal auditor for several brokers need the same evidence pack from each one ([Res. 43/2024](https://www.argentina.gob.ar/normativa/nacional/397424/texto)). A shared reviewer view is a real feature to sell them.
+- **The self-assessment.** The notaries' colegio gives its members a self-assessment app. It kept the app open for late filings after the 30 April 2026 deadline and has released a version 2.0 ([Colegio de Escribanos UIF news](https://www.colegio-escribanos.org.ar/category/noticias/uif/)). No broker colegio offers the same (searches found none; unverified).
+
+**Competitor reality check**
+- **CONLAFT S.R.L.** Founded 20 May 2024, with 8 staff and 5 systems deployed. It sells to mutuales, cooperatives, savings companies and accountants. It claims to cover the risk matrix, KYC, client file, monitoring and reports, and it also writes self-assessments and manuals ([CONLAFT profile](https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf)). It does not mention brokers. Its website shows no features or prices ([conlaft.com](https://www.conlaft.com/)). Its own pitch says obliged firms use "manual spreadsheets or costly, incomplete systems" ([CONLAFT profile](https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf)). It is a possible future rival, not a killer.
+- **Real estate CRMs** (Tokko Broker, Xintel, InmoPC). No UIF module was found. Tokko costs USD 80-300 a month ([DevelopArgentina](https://developargentina.com/blog/software-inmobiliaria-argentina-2026); [ComparaSoftware](https://www.comparasoftware.com/tokko-broker)). They are a channel more than a threat.
+- **Screening APIs** (e.g. Didit). They screen PEP and sanctions lists by API but do not run the broker's programme ([Didit](https://didit.me/blog/aml-screening-api-argentina-52282/)). A broker product could use one as a component.
+- **Law firms and consultants** (e.g. ST Abogados). They write manuals and matrices and defend inspections, but publish no prices ([ST Abogados](https://stabogados.com.ar/civil/empresas/compliance-sujetos-obligados/)). They are one-off and costly for a sole broker (unverified).
+- **Free templates** (FACPCE ITAER guide; property registry matrix). These were written for accountants and registries, not brokers ([FACPCE guide](https://www.facpce.org.ar/wp-content/uploads/2026/04/GUIA-PARA-ELABORAR-EL-INFORME-TECNICO-DE-AUTOEVALUACION-DE-RIESGOS-ITAER-002.pdf); [DNRPI matrix](https://www.dnrpi.jus.gob.ar/descargas/nueva_matriz.pdf)).
+- **Conclusion.** No local product does the whole job for brokers at a known, fair price. This is an opening.
+
+**Price per customer**
+- **Benchmarks.** Brokers already pay USD 80-300 a month for a CRM ([DevelopArgentina](https://developargentina.com/blog/software-inmobiliaria-argentina-2026)). Getting a licence in 2026 costs about ARS 4.67 million: ARS 4 million to register, ARS 650,000 a year, and a ARS 15,000 bond ([El Cronista, 29 Jul 2026](https://www.cronista.com/economia-politica/desregulacion-inmobiliaria-el-proyecto-de-sturzenegger-abre-la-puerta-a-la-uberizacion-del-corretaje-y-reordena-ganadores/)). A fine for a non-reporting breach is 15 to 2,500 módulos, about ARS 0.8 million to ARS 135 million ([Infoleg](https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/62977/texact.htm); [UIF resolutions](https://www.argentina.gob.ar/uif/normativa/resoluciones)).
+- **Small agency or sole broker:** about USD 25-35 a month (USD 300-420 a year) for the client file, risk rating, lease tracker, monthly export, manual and training log (my estimate, unverified). That is about 10-15% of a typical CRM bill.
+- **Self-assessment pack:** about USD 150-300 per two-year cycle, or included in the annual plan (unverified).
+- **Accountant or consultant seat:** about USD 60-100 a month for up to 10-15 broker clients, with a reviewer view (unverified).
+- **Colegio white-label:** a flat fee of about USD 10,000-25,000 a year, or USD 1-3 per member a month (unverified).
+
+**Revenue estimate (year 3)**
+- **Buyers.**
+  - There are about 35,000-40,000 licensed brokers ([HCDN 6505-D-2024](https://www4.hcdn.gob.ar/dependencias/dsecretaria/Periodo2024/PDF2024/TP2024/6505-D-2024.pdf); [iProfesional](https://www.iprofesional.com/realestate/422390-agentes-inmobiliarios-podran-operar-sin-matricula-y-el-sector-esta-en-alerta)).
+  - Perhaps 10,000-25,000 of them are obliged firms. Of those, perhaps 5,000 are agencies that close sales every month (unverified).
+- **Direct agencies:** 5,000 x 5% share x USD 360 a year = **USD 90,000**.
+- **Accountants and consultants:** 40 seats x USD 900 a year = **USD 36,000**.
+- **One colegio white-label deal:** **USD 15,000** (unverified).
+- **Total:** about **USD 140,000 a year**.
+  - Low case: 5,000 x 2% x USD 300 = USD 30,000, plus 15 x USD 900 = USD 13,500. Total about USD 45,000.
+  - High case: one CRM partnership and two colegio deals could take it to USD 250,000 or more (unverified).
+
+**Ease of implementation and sale**
+- **Build: medium-easy.** The core is forms, a risk-scoring rule set, reminders and an export in the UIF's bulk-template format ([UIF RSM guide](https://www.argentina.gob.ar/uif/instructivos/rsm-compra-yo-venta-de-bienes-inmuebles)). PEP screening can come from a third-party API ([Didit](https://didit.me/blog/aml-screening-api-argentina-52282/)).
+- **Onboarding: easy.** Each agency sets up once, imports its clients and gets an auto-filled manual.
+- **Sale: medium-hard.** Small brokers buy only when pushed. The best pushers are:
+  - the colegios, which already hand out model manuals ([CCI Santa Fe](https://ccisantafe.org.ar/wp-content/uploads/2020/06/01.-Manual-Operativo-UIF-Colegio-de-Corredores-Inmobiliarios-de-la-Prov.-Sta.-Fe-1%C2%AA-Circ..pdf));
+  - CRM vendors, which already hold the sale data ([ComparaSoftware](https://www.comparasoftware.com/xintel));
+  - accountants who act as REI.
+- **Pricing in pesos is a hassle.** Prices need indexing or quoting in USD, because the SMVM and fines are reset often ([Canal 26](https://www.canal26.com/economia/2026/09/02/asi-quedo-el-aumento-del-salario-minimo-vital-y-movil-cuanto-se-cobrara-entre-septiembre-de-2026-y-abril-de-2027/)).
+
+**Remaining risks**
+- **Weak enforcement.** There were 68 sanction proceedings and 25 fines across all sectors in 2024 ([UIF 2024 summary](https://www.argentina.gob.ar/sites/default/files/2016/09/uif_resumen_ejecutivo_gestion_2024_-_v03.pdf)). No fine against a broker under Res. 43/2024 was found (unverified). This is the main brake on price and uptake.
+- **Deregulation draft.** As of 29 Jul 2026, the draft had not formally entered Congress. It would lower the academic requirement and let brokers work through platforms without each agent holding a licence ([El Cronista](https://www.cronista.com/economia-politica/desregulacion-inmobiliaria-el-proyecto-de-sturzenegger-abre-la-puerta-a-la-uberizacion-del-corretaje-y-reordena-ganadores/)). Colegiación is provincial, so provinces would have to adhere ([Diario Uno](https://www.diariouno.com.ar/sociedad/la-camara-inmobiliarias-mendoza-analiza-ir-la-justicia-si-avanza-la-desregulacion-del-sector-n1578265)).
+  - Res. 43/2024 refers to licensed brokers, but the law covers anyone who does brokerage ([Infoleg](https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/62977/texact.htm)).
+  - The draft would weaken the colegio channel. It could also add unlicensed obliged brokers, but that is unverified.
+- **Relief for brokers.** The UIF eased deadlines for accountants and lawyers ([abogados.com.ar](https://abogados.com.ar/resolucion-uif-902026-suspension-transitoria-de-la-primera-presentacion-del-rei-para-abogados-sujetos-obligados/39988)). It could do the same for brokers.
+- **Competition.** CONLAFT could add a broker edition ([CONLAFT profile](https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf)). A CRM vendor could also build a basic module (unverified).
+- **Small totals.** Even the base case is a small business of about USD 140,000 a year (my estimate, unverified).
+
+**New sources (this pass)**
+- https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf
+- https://www.conlaft.com/
+- https://www.facpce.org.ar/wp-content/uploads/2026/04/Nota-FACPCE-a-UIF-31-03-26.pdf
+- https://www.colegio-escribanos.org.ar/2025/07/24/uif-consulta-frecuente-sobre-el-rsm-y-el-ros/
+- https://www.colegio-escribanos.org.ar/category/noticias/uif/
+- https://ccisantafe.org.ar/wp-content/uploads/2020/06/01.-Manual-Operativo-UIF-Colegio-de-Corredores-Inmobiliarios-de-la-Prov.-Sta.-Fe-1%C2%AA-Circ..pdf
+- https://www.reporteinmobiliario.com/article2940-norma-uif-obligatoria-para-inmobiliarios-como-evitar-sanciones.html
+- https://www.cronista.com/economia-politica/desregulacion-inmobiliaria-el-proyecto-de-sturzenegger-abre-la-puerta-a-la-uberizacion-del-corretaje-y-reordena-ganadores/
+- https://www.diariouno.com.ar/sociedad/la-camara-inmobiliarias-mendoza-analiza-ir-la-justicia-si-avanza-la-desregulacion-del-sector-n1578265
+- https://didit.me/blog/aml-screening-api-argentina-52282/
+
 ## Summary
 
 **Verdict: maybe. Score: 5/10.**

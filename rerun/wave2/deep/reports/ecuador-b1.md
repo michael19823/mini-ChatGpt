@@ -1,5 +1,78 @@
 # Ecuador B1: compliance file and expiry tracker for private security companies
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10 (old score: 4/10).**
+
+**The case.** Every private security firm in Ecuador must keep a large, fast-changing file current: a two-year operating permit, two mandatory insurance policies, a guard list in SICOSEP, two-yearly guard retraining, arms permits and IESS enrolment. A lapsed policy or permit means permanent cancellation of the business ([RO 496, arts. 85-86](https://asobanca.org.ec/wp-content/uploads/2024/03/Publicacion-Registro-Oficial-Ley-de-Vigilancia-y-Seguridad-Privada.pdf)). Inspections rose sharply in 2026, and firms were closed for missing permits ([Vistazo, Feb 2026](https://www.vistazo.com/politica/nacional/2026-02-07-sercop-inspecciona-empresas-seguridad-privada-ecuador-clausura-falta-de-permisos-FA10671765); [Primicias, Apr 2026](https://www.primicias.ec/seguridad/control-armas-fuerzas-armadas-empresas-seguridad-inspecciones-guardias-privados-riesgo-crimen-organizado-120326/)). SICOSEP is a filing and look-up system, and no local product tracks the whole file. A cheap, per-guard-priced "compliance file and inspection pack" is a credible niche product for roughly 700-1,100 firms. Year-3 revenue would be about USD 100-200k. That is fine for a small bootstrapped business, but the evidence of portal pain is thin, and the buyers run on thin margins.
+
+**Room for improvement over the portal or current practice.**
+
+- **Expiry tracking across sources.** The dates live in different places: the permit in SICOSEP, arms permits in the armed forces' SincoAr, policies with insurers, IESS enrolment with IESS, and retraining with training centres ([Primicias, Apr 2026](https://www.primicias.ec/seguridad/control-armas-fuerzas-armadas-empresas-seguridad-inspecciones-guardias-privados-riesgo-crimen-organizado-120326/); [RO 496, arts. 39, 41, 52](https://asobanca.org.ec/wp-content/uploads/2024/03/Publicacion-Registro-Oficial-Ley-de-Vigilancia-y-Seguridad-Privada.pdf)). I found no source showing that SICOSEP sends expiry alerts to firms (unverified). Renewal must be filed 90 days before expiry, and observations must be fixed within 10 days ([MDI-61](https://www.gob.ec/sites/default/files/sign/procedure-MDI-61-20260909171717-20332781-signed.pdf)). Both are deadline-driven steps that software can schedule.
+- **Data entry.** Third-party guides describe adding or removing guards in SICOSEP one by one ("dar de alta" / "dar de baja") through a form ([elyex guide](https://elyex.com/sicosep-consulta-y-tramite-en-linea-paso-a-paso/)). I found no bulk upload (unverified). With an average of 60-90 guards and high churn, a register that prepares and validates each change is useful.
+- **Inspection readiness.** In Feb 2026, SERCOP inspectors checked operating permits, faithful-performance guarantees, civil liability guarantees and personal accident policies. IESS checked employer duties, and the labour ministry checked working conditions ([Vistazo](https://www.vistazo.com/politica/nacional/2026-02-07-sercop-inspecciona-empresas-seguridad-privada-ecuador-clausura-falta-de-permisos-FA10671765)). A one-click pack of these documents fits that check directly.
+- **Records the portal does not keep.** Guarantees for public contracts, lease expiry, per-contract staffing, and retraining plans are not in SICOSEP (unverified, as I could not read the manual). The 2018 SICOSEP user manual is a scanned image with no searchable text, so its features could not be checked ([manual](https://www.ministeriodegobierno.gob.ec/wp-content/uploads/2018/05/MANUAL-DE-USUARIO-COMPAÑÍAS-DE-SEGURIDAD-PRIVADA-V2.0.pdf)).
+- **Slow, centralised processes.** Firms call arms processes overly bureaucratic and centralised in Quito, and renewing an existing weapon permit takes at least two months ([Primicias, Apr 2023](https://www.primicias.ec/noticias/sociedad/seguridad-privada-rol-policia-ecuador)). Long lead times make early warnings worth more.
+- **Evidence of portal pain is weak.** I found no press complaints about SICOSEP outages or errors. The pain signal is indirect: a third-party site runs many SICOSEP how-to pages ([elyex](https://elyex.com/companias-o-guardias-de-seguridad-privado-sicosep/)), and firms keep getting caught without permits or IESS enrolment. An industry body said only about half of 120,000 accredited guards were in IESS ([Primicias, Apr 2023](https://www.primicias.ec/noticias/sociedad/seguridad-privada-rol-policia-ecuador)).
+
+**Competitor reality check.**
+
+- **SICOSEP (state, free).** It handles permit filing, guard accreditation and public look-ups ([gob.ec emission](https://www.gob.ec/mdi/tramites/emision-permiso-operacion-companias-vigilancia-seguridad-privada); [elyex](https://elyex.com/companias-o-guardias-de-seguridad-privado-sicosep/)). It is the system of record, not a firm-side compliance tool. No alerts or exports were confirmed (unverified).
+- **Secusoft.** Its Ecuador site lists shift planning, hours, NFC rounds, a digital logbook, reports, staff management, instructions, invoicing and quotes. It lists no permit, policy, accreditation or arms expiry tracking. No prices are published, and no Ecuadorian customers are named. Its address is in the Netherlands ([secusoft.ec](https://www.secusoft.ec/)). It is a rostering tool, and it is a possible partner or a later competitor, not an incumbent for this job.
+- **G4S.** Its CVP app is in-house and not sold ([Security World Market](https://www.securityworldmarket.com/int/News/Business-News/g4s-takes-care-of-banking-in-ecuador1)).
+- **Payroll and HR.** Runa offers payroll outsourcing in Ecuador at USD 14 per employee per month, with setup from about USD 1,100 ([Runa EC](https://runahr.com/ec/outsourcing-de-nomina/)). It covers wages, IESS and tax, not LOVSP permits, policies, accreditation or arms.
+- **Lawyers and consultants.** Searches found no firm advertising LOVSP or SICOSEP compliance packages, and no published fees (unverified). This is a gap, and these advisers are a channel.
+- **Conclusion.** No local product does the whole job. The nearest tools are partial (rostering or payroll) and priced per employee.
+
+**Price per customer.**
+
+- **Anchors.** A light infraction costs USD 482, and a serious one costs USD 2,892 plus suspension on repeat. A lapsed policy or permit means cancellation ([RO 496, arts. 81-86](https://asobanca.org.ec/wp-content/uploads/2024/03/Publicacion-Registro-Oficial-Ley-de-Vigilancia-y-Seguridad-Privada.pdf)). A late renewal costs USD 200 per year unrenewed ([MDI-61](https://www.gob.ec/sites/default/files/sign/procedure-MDI-61-20260909171717-20332781-signed.pdf)). Payroll outsourcing costs USD 14 per employee per month ([Runa EC](https://runahr.com/ec/outsourcing-de-nomina/)). Guard wages start near the SBU of USD 482 ([El Diario](https://www.eldiario.ec/centro/salarios-minimos-sectoriales-en-ecuador-2026-estas-son-las-proyecciones-tras-el-nuevo-sueldo-basico-de-482-22012026/)), and public contract prices are described as low ([Primicias, Feb 2026](https://www.primicias.ec/economia/bajos-montos-contratos-seguridad-vigilancia-privada-sercop-irregularidades-inspecciones-suspension-116508/)).
+- **Proposed price.** A base of USD 39/month per firm, plus about USD 1 per guard per month. A typical 80-guard firm would pay about USD 120/month, or USD 1,400/year. That is under 10% of what the same firm would pay for payroll outsourcing, and less than one serious fine. Small firms (under 30 guards) would pay about USD 60-70/month. (My estimate, not tested with buyers.)
+- **Multi-client.** Lawyers, insurance brokers and training centres that serve many firms could pay about USD 25 per firm per month at wholesale, with a 10-firm minimum (my estimate, unverified).
+
+**Revenue estimate (year 3).**
+
+- **Buyers.** Between 400 operating firms (ANESI, Apr 2023) ([Primicias](https://www.primicias.ec/noticias/sociedad/seguridad-privada-rol-policia-ecuador)) and at least 1,130 registered firms in 2026 ([Primicias, Apr 2026](https://www.primicias.ec/seguridad/control-armas-fuerzas-armadas-empresas-seguridad-inspecciones-guardias-privados-riesgo-crimen-organizado-120326/)). The working figure is 900 firms with live permits.
+- **Base case.** 900 firms × 10% share × USD 1,400/year = **USD 126,000/year**.
+- **Low case.** 700 firms × 7% × USD 1,000/year = **USD 49,000/year**.
+- **High case.** 1,100 firms × 15% × USD 1,500/year = USD 247,500/year. Adding about 10 advisers at 15 firms each × USD 300/year = USD 45,000 brings the total to about **USD 290,000/year**. This assumes the adviser firms are not already counted as direct customers.
+- **Beachhead.** The 178 SERCOP catalogue suppliers face the most inspections ([Primicias, Feb 2026](https://www.primicias.ec/economia/bajos-montos-contratos-seguridad-vigilancia-privada-sercop-irregularidades-inspecciones-suspension-116508/)). At 25% × USD 1,400, they alone give about USD 62,000/year.
+
+**Ease of implementation and sale: medium.**
+
+- **Build: easy.** It is a Spanish web app with registers, document storage, an Excel import, email and WhatsApp alerts, and a PDF pack. There is no state integration to build, because there is no public SICOSEP API (unverified). An MVP takes about 4-6 weeks.
+- **Onboarding: medium.** It needs a guard list import plus scanned permits and policies. Help with data entry may be needed as a paid setup service.
+- **Sale: medium-hard.** The buyers are traditional, cost-squeezed firms. Channels exist: trade bodies (ANESI with 95 members in 2023 ([Primicias](https://www.primicias.ec/noticias/sociedad/seguridad-privada-rol-policia-ecuador)), AEESPRIV, CASEPEG), insurance brokers who sell the mandatory policies, and accredited training centres doing the 18-hour two-yearly retraining ([gob.ec retraining](https://www.gob.ec/mdi/tramites/emision-autorizacion-cursos-reentrenamiento-formacion-personal-vigilancia-seguridad-privada)). Inspection waves create urgency.
+
+**Remaining risks.**
+
+- **Art. 43 accreditation.** Firms providing "connected services", including software design, may need ministry accreditation ([RO 496, art. 43](https://asobanca.org.ec/wp-content/uploads/2024/03/Publicacion-Registro-Oficial-Ley-de-Vigilancia-y-Seguridad-Privada.pdf)). Whether this covers a compliance SaaS is (unverified). This must be checked first.
+- **Missing reglamento.** I found no decree issuing the general reglamento as of Oct 2026 (unverified). Policy amounts and requirements could change.
+- **State upgrade.** The ministry could add alerts to SICOSEP. That would cut the core value, but not the inspection pack or the records the portal does not keep.
+- **Buyer quality.** Many firms are informal or tied to crime, and others are being closed ([Primicias, Feb 2026](https://www.primicias.ec/seguridad/infiltracion-criminal-seguridad-privada-ecuador-modus-mafias-115594/)). That shrinks the base and calls for customer vetting.
+- **Willingness to pay is untested.** No buyer interviews have been done. Spreadsheets remain the free substitute.
+- **Liability.** A missed alert could cost a customer its permit. The terms of service need care.
+
+**Corrections to the first pass.**
+
+- **Vistazo inspection items.** On re-reading, the Vistazo Feb 2026 article lists permits, guarantees, liability and accident policies, IESS employer duties and labour conditions. It does not mention staff lists, uniform permits or training certificates ([Vistazo](https://www.vistazo.com/politica/nacional/2026-02-07-sercop-inspecciona-empresas-seguridad-privada-ecuador-clausura-falta-de-permisos-FA10671765)). That part of the first pass is (unverified).
+- **ANESI figures.** The "400 operating firms" and "120,000 accredited guards" figures are from April 2023, not current ([Primicias](https://www.primicias.ec/noticias/sociedad/seguridad-privada-rol-policia-ecuador)).
+- **SICOSEP manual.** It is a scanned image PDF, so the first pass's feature claims about it cannot be checked from text.
+
+**New sources.**
+
+- https://www.vistazo.com/politica/nacional/2026-02-07-sercop-inspecciona-empresas-seguridad-privada-ecuador-clausura-falta-de-permisos-FA10671765
+- https://www.secusoft.ec/
+- https://runahr.com/ec/outsourcing-de-nomina/
+- https://www.primicias.ec/noticias/sociedad/seguridad-privada-rol-policia-ecuador
+- https://www.primicias.ec/seguridad/infiltracion-criminal-seguridad-privada-ecuador-modus-mafias-115594/
+- https://www.primicias.ec/economia/bajos-montos-contratos-seguridad-vigilancia-privada-sercop-irregularidades-inspecciones-suspension-116508/
+- https://elyex.com/sicosep-consulta-y-tramite-en-linea-paso-a-paso/
+- https://elyex.com/companias-o-guardias-de-seguridad-privado-sicosep/
+- https://www.gob.ec/mdi/tramites/emision-autorizacion-cursos-reentrenamiento-formacion-personal-vigilancia-seguridad-privada
+- https://www.securityworldmarket.com/int/News/Business-News/g4s-takes-care-of-banking-in-ecuador1
+- https://www.gob.ec/sites/default/files/sign/procedure-MDI-61-20260909171717-20332781-signed.pdf
+
 ## Summary
 
 **Verdict: maybe. Score: 4/10.**

@@ -1,5 +1,74 @@
 # Philippines A2: BSP and AMLC compliance pack for money changers (MC/FXD)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 4/10 (old score: 3/10).**
+
+**The case.** Small money changers have a real, growing paperwork load. BSP Circular 1222 added a written reporting system, board-approved report policies, nine kinds of BSP reports and daily fines for late or wrong reports ([Circular 1222](https://www.bsp.gov.ph/Regulations/Issuances/2025/1222.pdf)). BSP has no filing portal for these reports. They go by plain email in BSP forms, so nothing checks the data before it is sent ([Circular 1222](https://www.bsp.gov.ph/Regulations/Issuances/2025/1222.pdf)). That leaves clear room for a cheap tool covering the counter log, the USD 10k/50k limits, a deadline calendar and report drafts. No product checked does this for the Philippines. The weak points are a buyer base of probably only a few hundred firms, low fines, and no known association to sell through. Even a good product would likely earn USD 40-115k a year by year 3. That suits a side product or a module of a pawnshop tool, not a standalone business.
+
+**Room for improvement over the portal or current practice**
+- BSP side: no portal at all. The Appendix M-6 reports are emailed to dsa-MSB@bsp.gov.ph from the registered address ([Circular 1222](https://www.bsp.gov.ph/Regulations/Issuances/2025/1222.pdf)). That leaves data preparation, validation, deadline tracking and proof of submission to the firm.
+- New governance duties that software or templates can meet: an MIS sized to the business, written report policies, periodic independent review, and an escalation log ([Circular 1222](https://www.bsp.gov.ph/Regulations/Issuances/2025/1222.pdf)).
+- Record duties that no portal handles: 5-year daily transaction records and money-changing tickets ([Circular 1222](https://www.bsp.gov.ph/Regulations/Issuances/2025/1222.pdf)). There are also per-customer sales caps of USD 10,000 per transaction and USD 50,000 a month ([Circular 1206](https://www.bsp.gov.ph/Regulations/Issuances/2024/1206.pdf)). Tracking the monthly cap by hand across visits is error-prone.
+- Event-based reports with short deadlines (24 hours for ML/TF risk events, 5 days for reputation events, 10 days for crimes and losses) ([Circular 1222](https://www.bsp.gov.ph/Regulations/Issuances/2025/1222.pdf)). A CPA law firm lists "missing event-based reports", weak proof of submission, data that does not reconcile, and reliance on one employee as common failures. It sells reporting calendars and AML help to BSP-supervised firms ([Aureada guide](https://www.aureadalaw.com/post/bsp-reporting-requirements-for-financial-entities-a-simplified-guide)).
+- AML side: the AMLC portal is free, but a firm cannot operate or file reports without an active, renewed certificate of registration ([Respicio](https://www.respicio.ph/commentaries/amlc-registration-renewal-guidelines-philippines)). The MTPP must be risk-based and fitted to the business. A guide warns that a copied template is noticed by examiners ([Verihubs](https://verihubs.com/ph/blog/aml-compliance-philippines)). A guided MTPP builder and a renewal tracker have value.
+- Paid training shows a market for help. A private one-day AMLA course cost PHP 2,980-3,980 per person in 2025 ([CGBP](https://cgbp.org/information/q-infoid=1483&type=seminarrun)). InCorp ran a PHP 1,000 AML registration seminar ([InCorp](https://philippines.incorp.asia/events/event-aml-registration-requirements-in-the-philippines/)).
+- Evidence gap: I found no user complaints, error rates or late-filing numbers for GoTRACS or BSP MSB reporting (unverified). Realtors did ask for changes to the AMLC registration process in 2022 ([Tribune](https://tribune.net.ph/2022/12/09/realtors-seek-amendments-in-amlc-registration-process)) (details unverified).
+
+**Competitor reality check**
+- CurrencyXchanger (Clear View Systems, Canada) has a POS and AML module. Its reporting APIs name FINTRAC, AUSTRAC, FinCEN, Fiji and New Zealand, not BSP or AMLC. No prices are published, and the Philippines appears only in the demo form's country list ([Clear View Systems](https://www.clearviewsys.com/)). It does not do the BSP job.
+- Biz4x (Biz4x Pte Ltd, Singapore) is a money-changer operating system with stock, rates, customers and "regulatory compliance". It names no Philippine reports and shows no prices ([Biz4x](https://biz4x.com/resources/news/manage-your-stock-of-local-and-foreign-currencies)). Whether it has PH customers is unverified.
+- FXPlus, Money Exchanger and PSTForex show no BSP or AMLC output ([Capterra FXPlus](https://www.capterra.com/p/153887/FXPlus/); [Capterra Money Exchanger](https://www.capterra.com/p/127046/Money-Exchanger/); [mwm.ai](https://mwm.ai/apps/pst-forex/1357935284)).
+- Tookitaki sells enterprise AML to banks and large firms. It is far above a one-counter changer's budget (price unverified) ([Tookitaki](https://www.tookitaki.com/compliance-hub/aml-software-philippines)).
+- Local vendors: two searches for Philippine money-changer or pawnshop systems with BSP or AMLC modules found none (searches listed below). Local pawnshop software houses may exist and may add an FX module (unverified).
+- Consultants are the real incumbent: CPA and law firms sell reporting calendars, governance documents and AML help ([Aureada](https://www.aureadalaw.com/post/bsp-reporting-requirements-for-financial-entities-a-simplified-guide); [InCorp](https://philippines.incorp.asia/events/event-aml-registration-requirements-in-the-philippines/)). Their prices are not published (unverified). A tool sold to them, or through them, is a channel, not a blocker.
+- Conclusion: no incumbent does the whole job at a fair price. This is an opening, not a killer.
+
+**Price per customer**
+- Today's benchmarks: a part-time remote bookkeeper job paid USD 250 a month (about PHP 14,500) for 5-10 hours ([HireTalent job post](https://hiretalent.ph/job/304QwgAAA)). Part-time bookkeeping retainers run USD 300-600 a month ([HireTalent guide](https://hiretalent.ph/blog/filipino-bookkeeper-salary-guide)). SME legal retainers run PHP 15,000-50,000 a month ([Respicio](https://www.respicio.ph/commentaries/corporate-lawyer-monthly-retainer-in-the-philippines-typical-scope-and-fees)). Fixed costs include the PHP 20,000 annual BSP fee for a type F changer ([Circular 1206](https://www.bsp.gov.ph/Regulations/Issuances/2024/1206.pdf)).
+- Fine exposure is low per report (PHP 150 a day for small MSBs) ([Circular 1222](https://www.bsp.gov.ph/Regulations/Issuances/2025/1222.pdf)). The real threat is licence cancellation, which BSP used about 10-14 times a year in 2022-2023 ([Fintech News PH](https://fintechnews.ph/62441/fintech/bsp-cancels-nikko-mart-registration-amid-oversight-on-money-service-businesses/)).
+- Realistic price: PHP 2,500-4,000 a month (PHP 30,000-48,000 a year, about USD 520-830) per single-office changer, plus PHP 500-1,000 a month per extra branch. That is well under a bookkeeper's monthly cost.
+- For accountants and consultants: PHP 1,500-2,000 per client entity a month, with a minimum of about 5 entities (my estimate; unverified).
+- One-off add-on: MTPP and report-policy template pack at PHP 5,000-10,000, priced above a training seat ([CGBP](https://cgbp.org/information/q-infoid=1483&type=seminarrun)).
+
+**Revenue estimate (year 3)**
+- Buyers: in 2022 there were 743 MSB head offices of all types ([Philstar](https://philstar.com/business/2023/07/05/2278647/2-money-changers-closed)). Stand-alone changers are a small slice of registrations. In BSP's December 2016 list, 12 of about 330 new registrations I could classify were FXD/MC only. Another 27 were FXD/MC/RA, mostly branches of one chain, 219 were remittance agents and 74 were pawnshops ([BSP CL-2017-014](https://www.bsp.gov.ph/Media_And_Research/Media%20Releases/2012_01/pawnshops.pdf); my count from the PDF). I assume 300-600 reachable small changer and remittance head offices (unverified).
+- Low case: 300 buyers x 15% x PHP 30,000 = PHP 1.35M a year (about USD 23k at PHP 58 per USD, the rate implied in the [HireTalent post](https://hiretalent.ph/job/304QwgAAA)).
+- Base case: 450 buyers x 20% x PHP 40,000 = PHP 3.6M a year (about USD 62k).
+- High case: 600 buyers x 25% x PHP 48,000 = PHP 7.2M a year (about USD 124k). Add 10 consultants x 10 entities x PHP 18,000 = PHP 1.8M (USD 31k), though these entities overlap with the direct buyers.
+- Upside only if the same core is sold to pawnshops, which number in the thousands (Verihubs cites about 6,700 pawnshops holding MSB licences, an old figure) ([Verihubs](https://verihubs.com/ph/blog/money-service-business-philippines)). That is a separate idea (K07).
+
+**Ease of implementation and sale**
+- Build: medium-easy. The core is a ticket log, a customer register with running totals, a deadline calendar, and Excel or PDF exports in BSP form layout. No portal integration is needed, because BSP takes email and AMLC files go through GoTRACS ([Circular 1222](https://www.bsp.gov.ph/Regulations/Issuances/2025/1222.pdf); [Verihubs](https://verihubs.com/ph/blog/money-service-business-philippines)). The exact BSP report templates still have to be obtained (unverified).
+- Onboarding: easy for a one-counter shop if the app also prints the money-changing ticket. That ticket is a record of original entry under Circular 1222 ([Circular 1222](https://www.bsp.gov.ph/Regulations/Issuances/2025/1222.pdf)), so the app replaces work rather than adding it.
+- Sale: hard. No directory of changers was found, and the BSP lists are old monthly lists ([BSP CL-2017-014](https://www.bsp.gov.ph/Media_And_Research/Media%20Releases/2012_01/pawnshops.pdf)). No association was found (unverified). Buyers are cash-based family firms (unverified). Best channels: AML training providers, small audit firms, and walk-in visits around Binondo, Malate and Pasay (unverified).
+- Timing helps. The Circular 1222 observation period ends about one year after effectivity, so fines start around late 2026 (exact date unverified; sources give September or October 2025 for publication) ([regalert](https://regalert.today/document/51288957-a596-4bad-84e2-e5e50b6a7f89); [Circular 1222](https://www.bsp.gov.ph/Regulations/Issuances/2025/1222.pdf)).
+
+**Remaining risks**
+- Buyer count is unknown. If small changers number under 300, the base case halves (no official count found; unverified).
+- Low willingness to pay: fines are PHP 150 a day and AMLC filing is free ([Circular 1222](https://www.bsp.gov.ph/Regulations/Issuances/2025/1222.pdf)). Small firms spend proportionally more of their assets on AML than large ones (about 0.10% vs 0.05% in 2019), which helps only a little ([LexisNexis](https://risk.lexisnexis.com/global/-/media/files/financial%20services/presentation/true%20cost%20of%20compliance%202019_philippines%20snapshot_presentation-nxr12578-00-0419-en-us.pdf)).
+- BSP may issue separate guidelines or a portal for the financial package, which would cut the report-drafting value ([Circular 1222](https://www.bsp.gov.ph/Regulations/Issuances/2025/1222.pdf)).
+- Shrinking segment: registered MSB offices fell from 7,584 in 2022 to 7,357 in 2023 ([Philstar](https://philstar.com/business/2023/07/05/2278647/2-money-changers-closed); [Fintech News PH](https://fintechnews.ph/62441/fintech/bsp-cancels-nikko-mart-registration-amid-oversight-on-money-service-businesses/)).
+- Liability if an MTPP or STR rule set fails an exam.
+- No direct evidence of portal pain (unverified). Demand must be tested with interviews.
+
+**New sources (this pass)**
+- https://www.clearviewsys.com/
+- https://biz4x.com/resources/news/manage-your-stock-of-local-and-foreign-currencies
+- https://www.capterra.com/p/127046/Money-Exchanger/
+- https://www.aureadalaw.com/post/bsp-reporting-requirements-for-financial-entities-a-simplified-guide
+- https://www.respicio.ph/commentaries/amlc-registration-renewal-guidelines-philippines
+- https://www.respicio.ph/commentaries/corporate-lawyer-monthly-retainer-in-the-philippines-typical-scope-and-fees
+- https://verihubs.com/ph/blog/aml-compliance-philippines
+- https://cgbp.org/information/q-infoid=1483&type=seminarrun
+- https://tribune.net.ph/2022/12/09/realtors-seek-amendments-in-amlc-registration-process
+- https://hiretalent.ph/job/304QwgAAA
+- https://hiretalent.ph/blog/filipino-bookkeeper-salary-guide
+- https://www.bsp.gov.ph/Media_And_Research/Media%20Releases/2012_01/pawnshops.pdf
+- https://regalert.today/document/51288957-a596-4bad-84e2-e5e50b6a7f89
+- https://risk.lexisnexis.com/global/-/media/files/financial%20services/presentation/true%20cost%20of%20compliance%202019_philippines%20snapshot_presentation-nxr12578-00-0419-en-us.pdf
+- Searches that found no Philippine money-changer or pawnshop software with BSP or AMLC modules: "money changer system software Philippines Binondo" and "pawnshop and money changer management system Philippines BSP reports AMLC CTR module price" (web search, Oct 2026).
+
 ## Summary
 
 **Verdict: no-go as a standalone software business. Score: 3/10.**

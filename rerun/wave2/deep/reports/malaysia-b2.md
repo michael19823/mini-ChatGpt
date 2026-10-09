@@ -1,5 +1,60 @@
 # Malaysia B2: Co-operative compliance desk (accounts, audit and AGM pack for small koperasi)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 4/10. Old score: 3/10.**
+
+**The case.** The duty is real and widely missed. In 2023 only 5,740 of 8,239 koperasi due for audit were audited (69.7%), and SKM sent 572 compound cases to the prosecutor for failing to hold AGMs, audit accounts, or file AGM minutes and board lists (SKM Annual Report 2023, pp. 87 and 93: https://www.skm.gov.my/images/06-Pusat-Sumber/laporan-tahunan/SKM%20-%20Laporan%20Tahunan%202023.pdf). But the regulator is building the core product itself. Its free Excel tool "Easy Co-op" has run since 2022 for small and micro koperasi, and "EASY COOP 2.0" went to tender in 2026 (same report, p. 88; https://www.skm.gov.my/images/01-utama/sebutharga/pelawaan/2026/1.IKLANSEBUTHARGAS0052026.pdf). What is left is a narrower job: a multi-client tool for the approved auditors and accountants who serve many koperasi, and an AGM and SKM-filing pack. That is a small market of a few hundred firms, so this is a modest side business at best.
+
+**Room for improvement over the portal or current practice.**
+- There is no koperasi filing portal to improve on. SKM's online services cover registration and auditor approval. A portal for audited accounts was not found (https://www.skm.gov.my/en/frequently-asked-question). SKM has an "integrated co-operative management system" (SPKB) project that started in January 2025, but its modules and users are not public (https://www.posdigicert.com.my/news/kick-off-session-spkb-project-suruhanjaya-koperasi-malaysia). Whether it will take filings is (unverified).
+- Easy Co-op is an Excel workbook, not a cloud system ("Excel Accounting System for Co-operative Societies", SKM Annual Report 2023, p. 88, link above). Excel gives no multi-user access, no audit trail, no deadline alerts and no multi-client view.
+- Errors are common. SKM reviewed 578 privately audited statements in 2023. It found breaches of the law, mistakes in the statutory profit split ("pembahagian berkanun") and presentation that did not follow GP23, SKM's reporting format (SKM Annual Report 2023, p. 89, link above). A GP23 template with built-in checks and an automatic statutory-split calculation answers this directly.
+- The deadlines are many and easy to miss. Books must be ready within 2 months of year-end and the AGM held within 6 months (by-law template: https://anyflip.com/xpxqb/iakj/basic). The audit must finish within 2 months of the auditor getting the statements. The signed statements are due 30 days after that. The auditor must send the appointment letter to the SKM state office (GP26 paras 19-21: https://www.skm.gov.my/images/01-utama/perundangan/garis-panduan/gp26-01-09-2024.pdf). Members get the statements 15 days before the AGM (IKMa, as seen in a search snippet: https://ikma.edu.my/images/dokumen/penerbitan/demensi/demensi-koop-63/DIMENSI-KOOP-BIL63-1-7.pdf (unverified)). AGM minutes and board lists go to SKM. Missing any of these can lead to a compound (SKM Annual Report 2023, p. 93).
+- Practitioners carry many clients. An ICMA-route auditor may audit up to 150 koperasi, or 50 if they work alone (GP26 appendix, link above). Those auditors need a multi-client tracker, document requests and working papers in GP23 format.
+- SKM runs its own catch-up programmes. PKASA, its accounts-strengthening programme, held 98 sessions for 1,442 koperasi in 2023 (SKM Annual Report 2023, p. 88). That shows the demand, but it is also free competition.
+
+**Competitor reality check.**
+- **SKM Easy Co-op (Excel, since 2022).** Free (unverified, but issued by SKM). It covers bookkeeping and statements for small and micro koperasi, and SKM says it supports compliance with sections 58, 60 and 39 and the AGM. In 2023 its workshops reached 700 koperasi. SKM reports 100% satisfaction and 97% saying data entry is easy (SKM Annual Report 2023, p. 88). 700 is a small share of about 16,000 koperasi. It is single-user Excel, with no multi-client view and no reminders.
+- **SKM EASY COOP 2.0 (in tender).** The tender closed 21 May 2026. It covers development, data migration and training (https://www.skm.gov.my/images/01-utama/sebutharga/pelawaan/2026/1.IKLANSEBUTHARGAS0052026.pdf). Its scope beyond accounting, its go-live date and its price are (unverified). If it is web-based and free, it takes the micro-koperasi bookkeeping market.
+- **MOCCIS SPBK.** A web system for membership, financing, accounts and cash. SKM reviewed it against the reporting guidelines. The flyer is from about 2016 and gives no price. It suits koperasi that lend money, not dormant micro ones (https://pustaka2.upsi.edu.my/index/wp-content/uploads/2016/08/Flyer-SPBK.pdf).
+- **Generic SME accounting, for example Bukku.** RM0-135 a month (RM350-1,350 a year), with up to 25% off for NGOs and a bulk discount above 5 companies (https://www.bukku.my/pricing). It is cheap and good, but it is not built for koperasi. GP23 statements, the statutory profit split, the SKM AGM pack and the dividend approval rules are not advertised (unverified).
+- **Accountants and auditors (manual service).** There were 251 approved private auditors in 2023 (SKM Annual Report 2023, p. 89). No koperasi-specific practice software was found.
+- **Overall.** There is no paid local product that does the whole job. The real threat is the free tool from the regulator, not a priced incumbent.
+
+**Price per customer.**
+- **What koperasi spend today.** SKM gives a one-off grant of RM3,000 (Peninsular) or RM3,500 (Sabah and Sarawak) for audit and accounting (https://thesun.my/news/malaysia-news/over-7000-cooperatives-fail-to-maintain-accounts-skm-offers-guidance-support-ramanan-gg13401135/). That suggests a small koperasi's yearly accounts plus audit cost about this much (unverified). SKM itself audits small and micro koperasi for a fee, and collected RM3.41 million in audit fees in 2023 (SKM Annual Report 2023, p. 87). Compounds collected came to RM364,350 against 572 cases, roughly RM640 per case (SKM Annual Report 2023, p. 93). That figure is approximate, since not every case ended in a paid compound.
+- **Koperasi direct, active small or medium koperasi.** RM300-600 a year for a GP23 ledger, a deadline calendar and an AGM pack. That is about 10-20% of the accounts-plus-audit spend and below Bukku's mid tiers.
+- **Auditors and accountants, multi-client.** RM1,800-3,600 a year per firm (RM150-300 a month), or about RM60-100 per koperasi client a year. One auditor may carry dozens of koperasi, and the tool saves time on each one.
+- **Micro and dormant koperasi.** Close to zero. Reach them only through auditors or ANGKASA, or as a free tier.
+
+**Revenue estimate (year 3).**
+- Firms: 251 approved auditors, plus about 150 accounting firms that prepare koperasi accounts (unverified estimate), gives about 400 firms. A 15% share is 60 firms. At RM2,400 a year that is **RM144,000**.
+- Koperasi direct: 8,239 koperasi were due for audit in 2023 (SKM Annual Report 2023, p. 87). About 14% of all koperasi are not micro (https://ir.uitm.edu.my/140611/1/140611.pdf). 8,239 x 14% gives about 1,150 audited non-micro koperasi. A 15% share is about 170 koperasi. At RM500 a year that is **RM85,000**.
+- Small-koperasi tier through firms or ANGKASA: 2% of the roughly 7,000 audited micro koperasi is 140. At RM200 a year that is **RM28,000**.
+- **Total: about RM257,000 a year, or roughly USD 55,000-60,000** (exchange rate approximate, unverified). If EASY COOP 2.0 launches as a free web system, the direct koperasi lines could shrink sharply. That would leave about RM144,000.
+
+**Ease of implementation and sale.**
+- **Build: medium.** A GP23 statement template, the statutory profit-split rules, a deadline engine and AGM document templates in Malay are well defined. Optional integration with SKM is the hard part, because no API or portal is known.
+- **Onboarding: medium-low.** Volunteer board members, many of them rural, with heavy Sabah and Sarawak counts (https://www.bernama.com/radio/news.php?id=2575395 (unverified which article holds the state figures)).
+- **Sale: medium.** The 251 auditors are a short, named list held by SKM, which makes them easy to reach. Koperasi are reached through ANGKASA, IKMa and SKM state offices, and those bodies run competing free programmes.
+
+**Remaining risks.**
+1. **The regulator's free product.** EASY COOP 2.0 may become a free web system covering the core (tender link above). The SPKB scope is unknown (unverified).
+2. **The law changes.** A new Co-operative Act was planned for gazettement in June 2026 and to come into force in December 2026 (https://www.utusan.com.my/ekonomi/2025/08/ruu-koperasi-baharu-dijangka-berkuatkuasa-akhir-2026/). In December 2025 it was still a draft headed to Cabinet (https://www.bharian.com.my/amp/berita/nasional/2025/12/1482310/bhplus). Whether it has passed is (unverified). Templates and deadlines may change.
+3. **Weak payers.** About 86% of koperasi are micro (https://ir.uitm.edu.my/140611/1/140611.pdf), and the grants pay accountants, not software.
+4. **Small total market.** Even the good case is under USD 100,000 a year.
+
+**New sources.**
+- https://www.skm.gov.my/images/06-Pusat-Sumber/laporan-tahunan/SKM%20-%20Laporan%20Tahunan%202023.pdf (SKM Annual Report 2023, read as PDF text: pp. 87-89 audit, Easy Co-op and PKASA; p. 93 compounds)
+- https://www.skm.gov.my/images/01-utama/perundangan/garis-panduan/gp26-01-09-2024.pdf (GP26 read in full: paras 19-21 and the auditor-category caps)
+- https://www.posdigicert.com.my/news/kick-off-session-spkb-project-suruhanjaya-koperasi-malaysia (SPKB kick-off, January 2025)
+- https://www.bukku.my/pricing (generic accounting prices)
+- https://angkasa.coop/wp-content/uploads/2026/05/16468-koperasi-catat-aset-RM186.75-bilion-ANGKASA-terus-perkasa-ekonomi-rakyat.pdf (confirms 16,468 koperasi and 7.3 million members in 2025; Sahih, 13 May 2026)
+- https://ikma.edu.my/images/dokumen/penerbitan/demensi/demensi-koop-63/DIMENSI-KOOP-BIL63-1-7.pdf (GP23 statements and the 15-day rule; search snippet only)
+- **Corrections to the first pass.** "Easy Coop" 1.0 is SKM's Excel tool, launched in 2022, so it does exist. The first pass's "16,468" count is now confirmed by ANGKASA (link above). Compounds for missed AGMs and audits are confirmed to be in use: 572 cases and RM364,350 collected in 2023.
+
+
 ## Summary
 
 **Verdict: no-go. Score: 3/10.**

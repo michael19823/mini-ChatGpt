@@ -1,5 +1,80 @@
 # Firearm Business Register and Inspection Pack (South Africa)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 5/10 (old score: 4/10).**
+
+**The case.** No state portal or local software exists for these registers. Firms keep bound paper books in ink, and police and PSIRA inspect them often, without warning ([Reg 22](https://www.acts.co.za/firearms/r345_22__registers_in_respect_of_a_holder_of_a_licence_for_business_purposes); [PMG NW2477](https://pmg.org.za/committee-question/37997/); [SAnews](https://www.sanews.gov.za/node/79677)). Private security firms alone hold about 126,500 licensed firearms, so a few thousand firms carry a heavy daily issue-and-return workload ([Daily Maverick, Jan 2025](https://www.dailymaverick.co.za/article/2025-01-16-private-militias-warning-after-cape-town-taxi-shootout)). A simple tool for issue/return, daily reconciliation, expiry alerts and an inspection pack has a clear job and no real local rival. The ceiling is modest: about R3.6 million (about US$200,000) a year by year 3 on the numbers below. It is a fair small business, but the sale is slow, the buyers are cost-squeezed, and the rules lean toward paper.
+
+**Room for improvement over current practice**
+
+- There is no portal to improve on. SAPS never built the dealer link ordered by the court, and FCMS covers licence applications only ([Daily Maverick, 2023](https://www.dailymaverick.co.za/article/2023-07-13-sas-gun-controls-dire-dealers-association-speaks-out); [ProtectionWeb](https://www.protectionweb.co.za/civil-security/saps-detail-progress-and-partnerships-in-new-firearms-management-system/)). Even SAPS writes its own firearm issues by hand since its biometric system collapsed ([IOL, Jul 2026](https://iol.co.za/news/politics/2026-07-30-cachalia-defends-sapss-strict-firearm-control-amid-manual-recording-concerns/)).
+- Current practice is error-prone. In the Durban case, police found firearms missing from the premises, an improperly completed register and pencil entries ([Pretoria News](https://pretorianews.co.za/news/2026-03-20-calvin-mathibelis-security-firm-under-scrutiny-for-incomplete-firearms-records/)). Security firms reported 847 firearms lost or stolen in half a year (2024/25) ([Daily Maverick](https://www.dailymaverick.co.za/article/2025-01-16-private-militias-warning-after-cape-town-taxi-shootout)).
+- Inspections are frequent and carry high stakes. PSIRA ran 2,411 firearm inspections in 2025/26. These check licences, firearm registers, ammunition records and competencies. PSIRA suspended or withdrew 2,427 businesses that year (all causes) ([PMG NW2477](https://pmg.org.za/committee-question/37997/)). Operation Buyisa also checks safes and daily issuing registers ([Business Report](https://businessreport.co.za/news/2026-03-20-calvin-mathibelis-security-firm-under-scrutiny-for-incomplete-firearms-records/)).
+- Paper books do not reconcile stock, do not flag licence or competency expiry, and do not track the monthly Reg 21 refresher training that large firms run. That training appears in armourer job ads ([Fidelity armourer ad](https://www.myjobmag.co.za/job/armourer-fidelity-services-group-1)). They also do not combine records across sites or produce an inspection bundle.
+- The legal form is workable for software. Reg 22 says entries must be "written or printed in permanent ink" on numbered pages, and alterations must be crossed out and signed ([Reg 22](https://www.acts.co.za/firearms/r345_22__registers_in_respect_of_a_holder_of_a_licence_for_business_purposes)). "Printed" suggests that numbered, locked printouts could qualify. Whether inspectors accept them is (unverified). Dealers may already keep registers as monthly computer printouts under Reg 37 ([Reg 37](https://www.acts.co.za/firearms/r345_37__registers_in_respect_of_a_dealer)).
+
+**Competitor reality check**
+
+- I found no South African product that does this job. Searches in English and Afrikaans turned up only the regulations and news ([Afrikaans regulations, NATSHOOT](https://natshoot.co.za/wp-content/uploads/2025/03/Regulasies-2004-Afrikaans.pdf)).
+- CybateSoft, the "South African" lead from the first pass, looks like a general software house with no firearm product. Its profile lists web, mobile, ERP and gaming work ([Latka](https://getlatka.com/companies/virtualdoxx.com/competitors)). That it is Indian rather than South African is (unverified). It is not a real competitor.
+- The foreign armoury systems (NextGen IoT, FN SAM, ArmorerLink) are built for military and police. They are quote-priced, and FN SAM is tied to FN hardware ([Capterra ZA](https://www.capterra.co.za/software/1080884/NextGen-IoT-Armory-Management); [FN](https://fnherstal.com/en/security/small-arms-management/fn-sam-software/)). An unnamed biometric issue/return system for the SADC region is listed on G2, but its vendor and its local use are (unverified) ([G2](https://www.g2.com/products/chips-firearms/competitors/alternatives)). None of these products prints Reg 22 formats.
+- Guarding software sold in South Africa covers rostering, the officer app, occurrence books, billing and payroll. It has no armoury module ([Kolonell guide](https://kolonell.com/en/blog/facility-management-security-guarding-software-cost-johannesburg-2026)). The real incumbents are paper books, Excel and in-house armourers. That is an opening, not a killer.
+
+**Price per customer**
+
+- Benchmarks: guarding SaaS costs €4 to €9 per officer per month, and a bespoke system for a 900-officer firm costs US$20,000 to 46,000 plus US$400 to 1,000 a month ([Kolonell](https://kolonell.com/en/blog/facility-management-security-guarding-software-cost-johannesburg-2026)). Reg 21 firearm training is priced at about R750 per firearm (unverified, from a search snippet) ([Schoolhive](https://schoolhive.co.za/the-south-african-security-academy-prices/)). PSIRA registration agents charge about R2,990 ([Company Partners](https://companypartners.co.za/psira-registrations/)). Large firms pay full-time armourers ([Fidelity ad](https://www.myjobmag.co.za/job/armourer-fidelity-services-group-1)).
+- Proposed prices (my estimates):
+  - Small armed security firm (up to about 30 firearms, one armoury): R500 a month.
+  - Mid-size firm (several sites): R1,500 a month.
+  - Dealer (Reg 37 registers plus weekly returns): R1,000 a month.
+  - Game farm, hunting outfitter or range: R400 a month.
+  - Optional inspection-readiness audit: R3,000 to R8,000 per visit.
+- Blended price for security firms: about R800 a month (R9,600 a year). On average a firm holds about 38 firearms (126,529 firearms ÷ 3,340 firms). The two figures are years apart, so this is rough ([Daily Maverick](https://www.dailymaverick.co.za/article/2025-01-16-private-militias-warning-after-cape-town-taxi-shootout); [PMG NW2280](https://pmg.org.za/committee-question/6974/)).
+- Security compliance consultants could manage several client firms. A consultant tier (for example R2,500 a month for up to 10 firms) is plausible (unverified, no such consultants found).
+
+**Revenue estimate (year 3)**
+
+| Segment | Buyers | Share | Price per year | Revenue |
+|---|---|---|---|---|
+| Armed security firms | 3,340 ([PMG NW2280](https://pmg.org.za/committee-question/6974/)) | 8% = 267 | R9,600 | R2.56m |
+| Other business holders (outfitters, ranges, farms, trainers) | about 5,000 ([PMG NW2280](https://pmg.org.za/committee-question/6974/)) | 3% = 150 | R4,800 | R0.72m |
+| Dealers | about 300 ([SAAADA](https://pmg.org.za/files/1/firearmsbill_SAAADA.htm)) | 10% = 30 | R12,000 | R0.36m |
+| **Total** | | **447 customers** | | **about R3.64m (about US$200,000 at about R18/US$, unverified rate)** |
+
+Audits and setup fees could add perhaps 10 to 20% (my estimate). The buyer counts are old (2017 and earlier) and are (unverified) for today.
+
+**Ease of implementation and sale**
+
+- **Build: easy to medium.** The product is a register app with signature capture, numbered PDF printouts, an append-only audit log, expiry alerts and an offline mode. It needs no state API, because none exists.
+- **Onboarding: medium.** The firearm list can be imported from licence records. Each armoury needs a tablet, and maybe a barcode scanner, plus armourer training.
+- **Sale: medium to hard.** Buyers are many small firms that are wary of putting firearm data in the cloud. They also need to know that inspectors will accept the output. Channels exist through SASA, training providers, PSIRA agents and trade media (see Channels below). Inspection news creates urgency ([DA call for KZN audit](https://www.da.org.za/2026/03/da-calls-for-province-wide-audit-of-private-security-companies-in-kzn-following-saps-raid)).
+
+**Remaining risks**
+
+- Inspectors may insist on bound, hand-written books. Software then becomes a shadow system plus a printing tool, though it still helps with reconciliation and inspection readiness. This is the key open question ([Reg 22](https://www.acts.co.za/firearms/r345_22__registers_in_respect_of_a_holder_of_a_licence_for_business_purposes)).
+- Many small guarding firms run on thin margins. PSIRA suspends or withdraws many firms each year ([PMG NW2477](https://pmg.org.za/committee-question/37997/)), so churn and bad debt will be high (my judgement).
+- Data sensitivity: a list of firearms and storage sites is a theft target, so an on-premises or encrypted offline option is needed.
+- A guard-management vendor could add an armoury tab. FCMS could add business-holder e-services, but nothing has been announced ([ProtectionWeb](https://www.protectionweb.co.za/civil-security/saps-detail-progress-and-partnerships-in-new-firearms-management-system/)).
+- Policy could shrink the market (the amendment bill) or grow demand (the draft PSIRA tracking-device rules). Both are still pending (unverified status).
+
+**Killer under the new criteria: none.** No local product does the job. The buyers can pay modest fees. The duty is in force and enforced.
+
+**New sources**
+
+- https://www.dailymaverick.co.za/article/2025-01-16-private-militias-warning-after-cape-town-taxi-shootout
+- https://www.acts.co.za/firearms/r345_22__registers_in_respect_of_a_holder_of_a_licence_for_business_purposes
+- https://pmg.org.za/committee-question/37997/
+- https://kolonell.com/en/blog/facility-management-security-guarding-software-cost-johannesburg-2026
+- https://www.myjobmag.co.za/job/armourer-fidelity-services-group-1
+- https://getlatka.com/companies/virtualdoxx.com/competitors
+- https://www.g2.com/products/chips-firearms/competitors/alternatives
+- https://natshoot.co.za/wp-content/uploads/2025/03/Regulasies-2004-Afrikaans.pdf
+- https://schoolhive.co.za/the-south-african-security-academy-prices/
+- https://www.da.org.za/2026/03/da-calls-for-province-wide-audit-of-private-security-companies-in-kzn-following-saps-raid
+- https://iol.co.za/news/politics/2026-07-30-cachalia-defends-sapss-strict-firearm-control-amid-manual-recording-concerns/
+- https://businessreport.co.za/news/2026-03-20-calvin-mathibelis-security-firm-under-scrutiny-for-incomplete-firearms-records/
+
 Deep research pass on lead `south-africa-gaps1`. Research date: 9 October 2026.
 
 ## Summary

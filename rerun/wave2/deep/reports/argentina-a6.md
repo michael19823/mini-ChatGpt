@@ -1,5 +1,78 @@
 # Argentina A6: AML compliance pack for small jewellers and precious-metal dealers (UIF Res. 55/2024)
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 4/10 (old score: 2/10).**
+
+**The case.** Res. 55/2024 gives every registered jeweller and precious-metal dealer a long list of duties that the free UIF portal does not cover: client files, risk ratings, a two-yearly self-assessment, a manual, training records and deadline tracking ([Res. 55/2024](https://www.argentina.gob.ar/normativa/nacional/norma-397648/texto)). No software vendor I found serves this sector. The two AML tools I found selling in Argentina target accountants, notaries, mutuals and financial firms, not jewellers ([Puntobiz on Conlaft](https://puntobiz.com.ar/negocios/contadores-crearon-inedita-plataforma-para-cumplir-normas-antilavado-20251211600); [Pirani](https://www.piranirisk.com/es/hub-regulatorio/prevencion-lavado-activos-argentina-cumplimiento-uif)). The product is easy to build, because the rules are explicit and fixed in SMVM units. But the buyer base is only about 360 registered firms, enforcement is light, and a realistic year-3 revenue is roughly US$15k-45k. That is a good side line or a sector module, not a stand-alone business.
+
+### Room for improvement over the portal or current practice
+
+- **The portal only files.** SRO+ handles registration and RSM, RSA and ROS filing ([Res. 37/2026 summary](https://www.colegio-escribanos.org.ar/noticias/2026_04_14_UIF-Res-37-26-Informe.pdf); [UIF RSM page](https://www.argentina.gob.ar/uif/rsm)). It keeps no client files, risk scores, manual, training log or 10-year archive, all of which Res. 55/2024 requires ([Res. 55/2024](https://www.argentina.gob.ar/normativa/nacional/norma-397648/texto)).
+- **Threshold arithmetic.** Every trigger (client at 6 SMVM, RSM above 20 SMVM, external review above 180 SMVM) moves when the minimum wage changes ([Res. 55/2024](https://www.argentina.gob.ar/normativa/nacional/norma-397648/texto)). UIF reference amounts are updated twice a year ([Colegio de Escribanos, July 2025 amounts](https://www.colegio-escribanos.org.ar/2025/07/01/uif-montos-vigentes-a-partir-del-1-de-julio/)). Software that applies the current SMVM to each sale removes a manual, error-prone step.
+- **Portal traps.** Filing "sin movimientos" for a month blocks any later operation report for that month ([UIF reporting FAQ](https://www.argentina.gob.ar/node/172339)). A pre-filing check helps here.
+- **Portal pain.** In 2024 the UIF extended the RSM deadline twice because the reporting system had not been updated for rule changes ([Colegio de Escribanos, 8 Apr 2024](https://www.colegio-escribanos.org.ar/2024/04/08/uif-extension-del-plazo-para-el-rsm-de-abril/); [same, 29 Apr 2024](https://www.colegio-escribanos.org.ar/2024/04/29/uif-nueva-extension-del-plazo-para-el-rsm/)). Bulk filing needs a separate desktop app, now version 7.2 ([UIF RSM page](https://www.argentina.gob.ar/uif/rsm)). Firms that do not keep SRO+ data current are blocked from filing ([Res. 37/2026 summary](https://www.colegio-escribanos.org.ar/noticias/2026_04_14_UIF-Res-37-26-Informe.pdf)).
+- **Self-assessments are hard to get right.** The UIF reviewed 859 self-assessment reports filed in 2024. It found reports with no methodology or a weak one, and in some sectors 26% to 37% were filed late ([UIF, IT AER 2025 quality review](https://www.argentina.gob.ar/sites/default/files/informe_tecnico_de_autoevaluaciones_de_riesgo_2025.pdf)). Those figures cover financial and insurance firms, not jewellers, whose first report was due in 2026.
+- **Jewellers have no professional body doing this for them.** Notaries get a free self-assessment platform and a free external review from their Colegio ([Colegio de Escribanos, inspection tool](https://www.colegio-escribanos.org.ar/2026/08/04/importante-nueva-herramienta-online-para-la-inspeccion-uif/); [self-assessment app guide](https://www.colegio-escribanos.org.ar/apps/UIF-autoevaluacion/instructivo.html)). Accountants get FACPCE templates ([FACPCE ITAER guide](https://www.facpce.org.ar/wp-content/uploads/2026/04/GUIA-PARA-ELABORAR-EL-INFORME-TECNICO-DE-AUTOEVALUACION-DE-RIESGOS-ITAER-002.pdf)). I found no equivalent for jewellers (unverified).
+- **Current practice.** Small obliged firms often use "homemade spreadsheets or disorganised processes", according to an Argentine AML vendor ([Puntobiz](https://puntobiz.com.ar/negocios/contadores-crearon-inedita-plataforma-para-cumplir-normas-antilavado-20251211600)). This is a vendor's claim.
+
+### Competitor reality check
+
+- **Conlaft (Rosario, founded May 2024).** A web platform for risk matrix, KYC, client files, monitoring and UIF reports. It also drafts self-assessments and manuals and runs training ([Conlaft profile, Cancillería](https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf)). It has 8 staff and 5 systems deployed. Its stated sectors are mutuals, cooperatives, savings societies and accountants ([same](https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf)). In December 2025 it served 10-20 accounting firms plus some co-ops and one group. It charges a flat monthly fee with no setup fee, but publishes no price ([Puntobiz](https://puntobiz.com.ar/negocios/contadores-crearon-inedita-plataforma-para-cumplir-normas-antilavado-20251211600)). Jewellers are not mentioned. It is the nearest rival, and it is small and young.
+- **Pirani AML (regional).** Risk matrix, self-assessment, due diligence, list screening and ROS workflow. Its target sectors are financial, insurance, health, mining and others, not jewellers. It does not mention the RSM. No price is shown on its Argentina page ([Pirani](https://www.piranirisk.com/es/hub-regulatorio/prevencion-lavado-activos-argentina-cumplimiento-uif)).
+- **Free state and professional tools.** SRO+ and the RSM Masivo app only file ([UIF RSM page](https://www.argentina.gob.ar/uif/rsm)). The free tools from the notaries' Colegio and FACPCE cover their own members only (see links above).
+- **Consultants and law firms.** Firms such as ST Abogados design self-assessment matrices to order and reject templates ([ST Abogados](https://stabogados.com.ar/civil/empresas/compliance-sujetos-obligados/)). No prices found (unverified).
+- **Mexico's KYC Systems** is the only jeweller-specific tool found. It is built for Mexican law and starts at MXN 5,000 a month ([KYC Systems](https://kyc-systems.com/actividades-vulnerables/software-antilavado-metales-joyas.html)).
+- **Conclusion.** No local product does the jeweller job end to end at a known price. Conlaft could add a jeweller template quickly, so a niche entrant must move first and own the sector.
+
+### Price per customer
+
+- **What non-compliance costs.** A non-ROS breach carries a fine of 15 to 2,500 módulos ([ST Abogados](https://stabogados.com.ar/penal/leyes-penales-especiales/ley-25246/arts-24-26/)). At AR$54,140 per módulo that is about AR$0.8M to AR$135M per breach ([Res. 95/2025](https://www.argentina.gob.ar/normativa/nacional/norma-414295/texto)). In practice fines have been small: in 2025 a compliance officer at a trust firm was fined AR$100,000, per a search summary of a Boletín Oficial notice ([Boletín Oficial aviso 317543](https://www.boletinoficial.gob.ar/pdf/aviso/primera/317543/20250507)) (unverified; the page returned an error).
+- **What they pay today.** Consultants and accountants. I found no published fees (unverified).
+- **Benchmark.** KYC Systems charges from MXN 5,000 a month in Mexico ([KYC Systems](https://kyc-systems.com/actividades-vulnerables/software-antilavado-metales-joyas.html)). Argentine jewellers are poorer and enforcement is weaker, so price well below that.
+- **Suggested prices (my estimate, unverified).**
+  - Small jeweller: about US$40-50 a month, billed in pesos.
+  - Self-assessment and manual pack: about US$300 one-off, every two years.
+  - Accountant or AML consultant: about US$100-150 a month for up to 10 obliged clients, then about US$10 per extra entity.
+
+### Revenue estimate (year 3)
+
+- **Buyers.** 360 registered dealers in March 2024 ([FATF MER 2024, Table 1.2](https://www.mpf.gob.ar/procelac-lavado/files/2020/04/Argentina-Mutual-Evaluation-Report-2024.pdf.coredownload.inline.pdf)). From 2019 to 2024 there were 125 applications and 77 rejections, so about 48 accepted, or about 10 a year ([same, Table 6.1](https://www.mpf.gob.ar/procelac-lavado/files/2020/04/Argentina-Mutual-Evaluation-Report-2024.pdf.coredownload.inline.pdf)). That gives about 360 + 5 x 10 = **about 410 by 2029** (my arithmetic).
+- **Base case.** 410 x 15% = about 61 firms. Each pays US$50 x 12 = US$600 a year, plus a US$300 pack every two years (US$150 a year). That is US$750 a year. 61 x US$750 = **about US$46,000 a year.**
+- **Low case.** 410 x 8% = about 33 firms x US$480 a year (US$40 a month, no pack) = **about US$16,000 a year.**
+- **Upside.** Selling through accountants who already serve obliged clients, and adding art dealers (Res. 54/2024) and other small sectors, could add revenue. That puts the product against Conlaft (unverified size).
+
+### Ease of implementation and sale
+
+- **Build: high ease.** The duties are listed article by article, with fixed SMVM thresholds and fixed deadlines ([Res. 55/2024](https://www.argentina.gob.ar/normativa/nacional/norma-397648/texto)). FACPCE's free model matrix gives a starting structure ([FACPCE ITAER guide](https://www.facpce.org.ar/wp-content/uploads/2026/04/GUIA-PARA-ELABORAR-EL-INFORME-TECNICO-DE-AUTOEVALUACION-DE-RIESGOS-ITAER-002.pdf)). A first version is forms, rules, templates and a calendar.
+- **Onboarding: high ease.** A jeweller has few clients above 6 SMVM, so setup is short (unverified).
+- **Sale: low to medium ease.** I found no active national jewellers' chamber (unverified). The UIF has inspected this sector only 16 times in about five years ([FATF MER 2024, Table 6.4](https://www.mpf.gob.ar/procelac-lavado/files/2020/04/Argentina-Mutual-Evaluation-Report-2024.pdf.coredownload.inline.pdf)), so fear of a fine is weak. The best route is accountants and registered external reviewers who already serve these firms.
+
+### Remaining risks
+
+- **Small ceiling.** Even the base case is about US$46k a year. This needs to be one module of a wider tool, or a side business.
+- **Weak enforcement.** Few inspections and small actual fines keep willingness to pay low ([FATF MER 2024, para. 577](https://www.mpf.gob.ar/procelac-lavado/files/2020/04/Argentina-Mutual-Evaluation-Report-2024.pdf.coredownload.inline.pdf)).
+- **Fast follower.** Conlaft already does the generic job and could add a jeweller template ([Puntobiz](https://puntobiz.com.ar/negocios/contadores-crearon-inedita-plataforma-para-cumplir-normas-antilavado-20251211600)).
+- **Rule changes.** The UIF moved accountants' deadlines in 2026 ([Consejo CABA](https://www.consejo.org.ar/noticias/2026/uif-se-prorroga-la-presentacion-del-informe-de-revision-externa-independiente)). I found no extension for jewellers, so the 31/10/2026 external-review date may still stand (unverified).
+- **Weak fact from the first pass.** The Boletín Oficial holds versions of aviso 305168 dated 26/05/2025 and 05/09/2025 ([BO 26/05/2025](https://www.boletinoficial.gob.ar/pdf/aviso/primera/305168/20250526); [BO 05/09/2025](https://www.boletinoficial.gob.ar/pdf/aviso/primera/305168/20250905)). These may be updated texts of Res. 55/2024, so "no 2025 change" is not fully confirmed. Both PDFs returned errors (unverified).
+- **Peso pricing.** Inflation and the exchange rate make subscriptions hard to price (unverified).
+
+### New sources
+
+- https://puntobiz.com.ar/negocios/contadores-crearon-inedita-plataforma-para-cumplir-normas-antilavado-20251211600
+- https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf
+- https://www.piranirisk.com/es/hub-regulatorio/prevencion-lavado-activos-argentina-cumplimiento-uif
+- https://www.argentina.gob.ar/sites/default/files/informe_tecnico_de_autoevaluaciones_de_riesgo_2025.pdf
+- https://www.colegio-escribanos.org.ar/2024/04/08/uif-extension-del-plazo-para-el-rsm-de-abril/
+- https://www.colegio-escribanos.org.ar/2024/04/29/uif-nueva-extension-del-plazo-para-el-rsm/
+- https://www.colegio-escribanos.org.ar/2025/07/01/uif-montos-vigentes-a-partir-del-1-de-julio/
+- https://www.colegio-escribanos.org.ar/2026/08/04/importante-nueva-herramienta-online-para-la-inspeccion-uif/
+- https://www.colegio-escribanos.org.ar/apps/UIF-autoevaluacion/instructivo.html
+- https://www.consejo.org.ar/noticias/2026/uif-se-prorroga-la-presentacion-del-informe-de-revision-externa-independiente
+- https://www.boletinoficial.gob.ar/pdf/aviso/primera/317543/20250507
+- https://www.boletinoficial.gob.ar/pdf/aviso/primera/305168/20250526
+- https://www.boletinoficial.gob.ar/pdf/aviso/primera/305168/20250905
+
 ## Summary
 
 **Verdict: no-go. Score: 2/10.**

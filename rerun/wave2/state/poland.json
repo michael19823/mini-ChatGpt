@@ -1,0 +1,1242 @@
+{
+ "challenge:poland:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "tfgraport.pl (Recode Software). It is an AI tool that reads agency documents (PDF, Excel/CSV, scans, emails), builds the monthly wykaz umów in the UFG format and submits it as a batch file or through the API. Plans start at 99 PLN/month for up to 150 contracts and go up to 699 PLN/month. On top of that, UFG's own TFG Portal is free and accepts manual form entry, CSV/JSON batch uploads (templates provided) and a JSON API.",
+   "reason": "This is the core job, and a dedicated, cheap product already does it. tfgraport.pl generates the monthly UFG contract register, including the July 2026 file due 14 Aug, and sends it as CSV/JSON or through the API. The free UFG TFG Portal also takes manual entry or CSV built in Excel, which is enough for micro agencies. UFG's FAQ settles the open question on payments: actual advance payments and refunds, with dates, are part of the register. That raises the effort somewhat, but the existing tools already handle it. The duty is not new either; the register has been mandatory since 2018. Booking systems such as Otiumo cover the space next to it and may add exports. A solo founder would be entering a market that is already served, so differentiation is thin. Merlinx's export capability was not checked.",
+   "searches": 7,
+   "sources": "https://tfgraport.pl/ ; https://tfg.ufg.pl/tresc/126/Wykaz_umow_pytania_i_odpowiedzi ; https://www.otiumo.pl/blog/ ; https://www.otiumo.pl/ ; https://api.sejm.gov.pl/sejm/term10/prints/1762/1762-uzasadnienie.docx ; https://eli.gov.pl/api/acts/DU/2025/1806/text/I/D20251806.pdf",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b11"
+ },
+ "challenge:poland:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No killer found. Weaknesses: the duty is old (since 2014) and handled in Excel or on paper, which the rules allow; the market is about 5,000 firms (unverified); enforcement is light (about 111 inspections a year in 2018).",
+   "reason": "Nothing kills it. Eight Polish searches found no dedicated tool for the wykaz pracowników ochrony, the legitymacja register, criminal-record check dates or the 5-year course deadline. Anolla and ShiftFlow handle scheduling and time tracking, and HRappka and wFirma are generic HR tools. But the idea is weak. These duties date from 1 January 2014, so agencies have kept these lists in Excel or on paper for more than 12 years, and the regulation explicitly allows paper or electronic records. The market is small and unconfirmed: one undated trade article says about 5,000 firms. Enforcement is light (MSWiA inspected 111 agencies in 2018, opening 27 proceedings), although one inspection did end with a revoked licence. This is a feature for a guard-scheduling app, not a stand-alone product. Not checked: the current concession count and the 14-day notice wording.",
+   "searches": 8,
+   "sources": "https://www.prawo.pl/biznes/od-1-stycznia-przedsiebiorcy-swiadczacy-uslugi-ochrony-maja-nowe-obowiazki,209752.html ; https://eli.gov.pl/api/acts/DU/2017/1307/text.html ; https://www.prawo.pl/biznes/wyniki-kontroli-agencji-ochrony-tajfun-po-gdanskim-finale-wosp,360276.html ; https://superbiz.se.pl/firma/jak-otworzyc-firme-ochroniarska-aa-K1Ag-19U6-P62T.html ; https://anolla.com/pl/oprogramowanie-dla-ochrony ; https://www.shiftflow.app/pl/industries/security ; https://hrappka.pl/blog/jaki-system-dla-agencji-pracy/ ; https://pomoc.wfirma.pl/-szkolenia-bhp-i-badania-lekarskie-wprowadzenie-terminow-waznosci",
+   "suggested_score": 3,
+   "verdict": "survives"
+  },
+  "tag": "w2b11"
+ },
+ "critic:poland": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Security agencies and licensed private detectives (ochrona osób i mienia): licence regime, employee-protector lists, police/KWP reporting",
+     "first_search": "koncesja ochrona osób i mienia obowiązki sprawozdawcze KWP lista pracowników ochrony ewidencja małe agencje",
+     "why": "Cat 26 searched only staffing agencies; security-agency licensing under the 1997 Act was explicitly not searched. Many small licensed firms owe the police and the interior ministry (MSWiA) licence data, personnel lists, and records. Detective licensing is a separate regime."
+    },
+    {
+     "category": "Taxi and passenger-transport small carriers: licence, vehicle extract, and tachograph or driver-time records (not only taxi intermediaries)",
+     "first_search": "tachograf inteligentny V2 obowiązek modernizacji 2026 mali przewoźnicy odczyt danych karty kierowcy archiwizacja",
+     "why": "The pass covers taxi intermediaries and K05, but small road hauliers (1 to 5 vehicles) must hold transport licences and keep tachograph data, driver-time records and the Transport Register. The EU Mobility Package and the smart-tachograph (G2V2) retrofit deadline from 2025 to 2026 hit many micro-firms at once. Moto-taxi and trucking were listed in the category but nothing was found."
+    },
+    {
+     "category": "Cash-register and e-receipt duties, and fiscal-device reporting (kasy fiskalne online, e-paragon, KSeF-linked POS)",
+     "first_search": "koniec zwolnień z kasy fiskalnej 2027 kasa online obowiązek usługodawcy zwolnienie przedłużone rozporządzenie ministra finansów",
+     "why": "Cat 19 mentions cash-register exemptions through 2027 and e-receipts but nothing was assessed. Phase-outs of exemptions (service trades, small retail) and mandatory online registers hit a very large number of sole traders and give a deadline-driven wave. Only partly overlaps K14."
+    },
+    {
+     "category": "Agricultural holdings and farmers as small operators: ARiMR/KOWR/ KRUS duties, subsidy reporting, farm-level records (rolnicy, gospodarstwa rodzinne)",
+     "first_search": "Program azotanowy plan nawożenia ewidencja nawozów gospodarstwo rolne obowiązek 2026 dziennik zabiegów ekoschematy dokumentacja",
+     "why": "Poland has about 1.3 million farms, and the ledger is thin here beyond livestock and bees. Missing are the CAP eco-scheme and agri-environment records, cross-compliance (KPO / Eco-schemes diaries), the nitrogen plan and manure storage records (nawozy, Program azotanowy), and the 2027 farm records mandate. K13 and K25 are rejected, but the nitrate and fertiliser plan duties are untouched."
+    },
+    {
+     "category": "Housing communities and co-owners (wspólnoty mieszkaniowe, spółdzielnie mieszkaniowe): chimney, gas, electrical and fire inspections, energy-certificates and heat-meter duties",
+     "first_search": "wspólnota mieszkaniowa obowiązki przeglądy budowlane roczne pięcioletnie książka obiektu budowlanego zarządca terminarz opomiarowanie ciepła 2027 liczniki zdalnego odczytu",
+     "why": "Tiny volunteer-run bodies bear legal duties: five-year building inspections (PINB), annual chimney and gas checks, and heat-cost allocation under new EU energy efficiency rules (remote meters from 2027). Only a UDT lift tracker exists in the ledger, and the K06 chimney sweep idea is on the supplier side only. The housing-community buyer is thin."
+    },
+    {
+     "category": "Inland and sea fishing, aquaculture and fish traders: logbooks, first-sale notes, recreational and fish-farm registers",
+     "first_search": "rozporządzenie kontrolne rybołówstwo 2023/2842 elektroniczny dziennik połowowy małe statki rybackie obowiązki 2026 PIRiP rejestr sprzedaży pierwszej",
+     "why": "The EU Control Regulation (2023/2842) requires electronic logbooks and catch reporting for all vessels (small ones from 2028) and tracking for small boats. Fish-pond operators and traders also keep registers with the Fisheries Inspectorate and the veterinary service. The coverage table names fish only in the export lens and has no fishing category."
+    }
+   ]
+  },
+  "tag": "w2b11"
+ },
+ "discover:A:poland": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Farms, small businesses, allotment/plot owners with wells built without a water permit or notification; best reached through well drillers, hydrogeologists and surveyors who prepare the technical study (operat wodnoprawny)",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://eli.gov.pl/api/acts/DU/2026/1033/text/T/D20261033L.pdf ; https://www.infor.pl/akt-prawny/DZU.2026.215.0001033,metryka,ustawa-o-zmianie-ustawy-prawo-wodne.html ; https://www.tvp.info/94250005/abolicja-dla-wlascicieli-niezgloszonych-studni-senat-za-zwolnieniem-z-kar-przy-legalizacji-niezarejestrowanych-dotad-studni-konieczny-wniosek-do-konca-2027-r ; https://blog.ongeo.pl/abolicja-nielegalna-studnia-legalizacja-prawo-wodne-2026 . Estimates of affected wells vary from tens of thousands to about 40,000 farms (not official). Sources disagree on the exact deadline date (30 Sep 2027 in earlier drafts, 31 Dec 2027 in the final text).",
+     "existing": "Competitor search 'legalizacja studni wniosek pomoc firma usługa operat wodnoprawny generator wniosku' found no generator or SaaS, only advisory blogs and surveying/geology services such as ongeo.pl. Not exhaustive.",
+     "known_id": "K30",
+     "known_mark": "revive",
+     "known_note": "K30 was rejected for having 'no recurring filing worth software'. New evidence: a statutory, dated amnesty with a hard cut-off (31 Dec 2027) that makes many small owners act at once. It is a one-off, which hurts the score.",
+     "name": "Well Legalisation Amnesty Desk (art. 524a Prawo wodne) for unregistered-well owners via drillers and hydrogeologists",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Ustawa o zmianie ustawy Prawo wodne, Dz.U. 2026 poz. 1033 (signed 30 Jul 2026, art. 524a in force about 17 Aug 2026): fee of PLN 6,600 and fines of PLN 5,000 to 1 million waived if a complete application is filed with Wody Polskie by 31 Dec 2027. Wells over 30 m deep or abstraction over 5 m3/day need a permit and an operat.",
+     "unchecked": "Final operat requirements and whether Wody Polskie accepts e-submission; real number of unregistered wells; whether drillers or hydrogeology firms would pay for a document-pack tool; competition from Wody Polskie's own guides; B2C is hard to reach without the driller channel."
+    },
+    {
+     "buyer": "Licensed vehicle dismantling stations (stacje demontażu pojazdów) and collection points (punkty zbierania)",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://eli.gov.pl/eli/DU/2025/1227/ogl/pol/pdf ; https://api.sejm.gov.pl/eli/acts/DU/2026/857/text.pdf ; https://www.zpp.pl/storage/library/2026-05/07ede64d54bbc4d654be14d96c099cbd.pdf ; https://www.auto-swiat.pl/wiadomosci/aktualnosci/od-2026-r-wyrejestrowanie-pojazdu-bedzie-automatyczne-koniec-z-wizytami-w-urzedzie/tw8940d ; https://bdo.mos.gov.pl/wp-content/uploads/2023/11/BDO_EWI_IS-Karta-ewidencji-pojazdow-wycofanych-z-eksploatacji-wer.1.2.pdf",
+     "existing": "Competitor search 'program dla stacji demontażu pojazdów autozłom oprogramowanie ... CEP BDO' found only a simple 'Zaświadczenia o przyjęciu pojazdów' program in the instalki.pl catalogue (no stated CEP link) and the BDO's own card. No integrated product found; BDO vendors named in K08/K28 may add it.",
+     "known_id": "K28",
+     "known_mark": "new",
+     "known_note": "Related to K28 (scrap yards, rejected for itopen.pl plus BDO vendors) but a different buyer (licensed vehicle dismantlers) and a different duty (CEP transmission and certificates).",
+     "name": "Dismantling-Station CEP Data Transmission and Certificate Register Pack",
+     "score": 4,
+     "status": "promising",
+     "trigger": "From 30 Jun 2026 (Min. Cyfryzacji notices of 31 Jul 2025 and 28 Aug 2025, Dz.U. 2025 poz. 1227) stations must send dismantling or incomplete-vehicle data to CEP through an interface; the vehicle is then deregistered without the owner visiting the office. MI regulation Dz.U. 2026 poz. 857 requires a certificate register per certificate type. BDO vehicle card and annual reporting continue.",
+     "unchecked": "Whether the CEP interface actually went live on 30 Jun 2026 and who may connect (certificates or API access); number of stations (not found); whether existing yard ERP vendors have already integrated; willingness to pay."
+    },
+    {
+     "buyer": "Businesses and farms with a water permit that must report measured abstraction",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://www.gov.pl/web/wody-polskie-bydgoszcz/sprawozdawczosc-z-art-304-prawa-wodnego---spelnij-swoj-obowiazek-latwiej ; https://www.gov.pl/web/wody-polskie-szczecin/sprawozdawczosc-z-art-304-prawa-wodnego",
+     "existing": "Wody Polskie publishes a standard electronic form; no commercial tool searched.",
+     "known_mark": "new",
+     "name": "Annual Water-Abstraction Report (art. 304 Prawo wodne) Filing Helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Art. 304 Prawa wodnego: one annual report of measurement results to Wody Polskie by 1 March for the previous year (next: 1 Mar 2027); fixed and variable water-service fees.",
+     "unchecked": "Number of small permit holders; fee calculators; competitors; the form is free and annual."
+    },
+    {
+     "buyer": "Beekeepers (including hobby beekeepers with a few hives)",
+     "category": "8. Beekeepers",
+     "evidence": "https://samorzad.gov.pl/web/gmina-zabrodzie/komunikat-powiatowego-lekarza-weterynarii-w-wyszkowie-dla-pszczelarzy ; https://www.gov.pl/web/arimr/nabor-2026---pomoc-dla-pszczelarzy-do-przezimowanych-rodzin-pszczelich",
+     "existing": "Competitor search found no beekeeping app with this report; ARiMR IRZplus applies to other livestock. Not exhaustive.",
+     "known_mark": "new",
+     "name": "Beekeeper Apiary Register and Biannual PLW Report Tool",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Animal Health Act of 21 Nov 2025 (in force 18 Mar 2026): apiary registration with the district vet (deadline 18 Jun 2026, passed); per one PLW communique, art. 68 pt 4 requires apiary location and hive count to be reported twice a year (31 Mar and 30 Sep). The veterinary number conditions legal sale of bee products and subsidies.",
+     "unchecked": "Whether the twice-yearly report is real (one PLW communique only) and how it is submitted; hobbyist willingness to pay; may be a free PIW form."
+    },
+    {
+     "buyer": "Small livestock hauliers and livestock traders with their own vehicles",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://trans.info/pl/transport-zywych-zwierzat-zobacz-jakie-warunki-musza-spelnic-przewoznik-i-kierowca-160857 ; https://repozytorium.ur.edu.pl/handle/item/11711",
+     "existing": "Not searched; telematics and fleet tools likely exist.",
+     "known_id": "K25",
+     "known_mark": "new",
+     "known_note": "Adjacent to K25 (livestock traders and IRZplus) but a different duty (transport paperwork).",
+     "name": "Livestock-Transporter Journey Log and Authorisation Tracker",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "EU Reg. 1/2005 plus the animal-protection law: GIW authorisation (type 1 or 2), PLW vehicle approval certificates, driver licences (up to 5 years), journey logs and route plans for trips over 8 hours.",
+     "unchecked": "Number of transporters, how journey logs are submitted (paper or TRACES), current tools."
+    },
+    {
+     "buyer": "Parishes, religious communities and municipal cemetery managers",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://www.prawo.pl/akty/dz-u-2001-90-1013,16908686.html ; NIK audit PDFs at https://nik.gov.pl/kontrole/wyniki-kontroli-nik/pobierz,lki~p_16_087_201603221211361458648696~id4~02,typ,kj.pdf (one manager kept only one of the three books)",
+     "existing": "Not searched. Funeral-home software is K09/K19; cemetery-specific software was not checked.",
+     "known_id": "K09",
+     "known_mark": "new",
+     "known_note": "Adjacent to K09 and K19 (funeral homes) but a different buyer: cemetery managers.",
+     "name": "Cemetery Manager Grave-Book and Annual Report Tool (parishes and small communal cemeteries)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "MSWiA regulation Dz.U. 2001 nr 90 poz. 1013: three cemetery books (graves, persons buried within 7 days, alphabetical index), paper or IT form; communal managers send an annual report to the gmina by 31 Dec.",
+     "unchecked": "Existing cemetery software; willingness of parishes to pay; no recurring filing to an authority for church cemeteries."
+    },
+    {
+     "buyer": "Plant-protection product retailers (agro shops)",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.gov.pl/web/piorin/zasady-sprzedazy-sor-dla-pro ; https://superbiz.se.pl/agro/rewolucja-w-zakupie-opryskow-nowe-przepisy-moga-zablokowac-rolnikom-dostep-aa-fT4k-mZjP-NTEf.html",
+     "existing": "The state register itself is the verification tool; shop POS vendors not checked.",
+     "known_id": "K13",
+     "known_mark": "new",
+     "known_note": "Related to K13 (plant-protection e-records, rejected) but a different buyer (retailers).",
+     "name": "Pesticide Retailer Buyer-Verification and Fumigant Buyer Ledger",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Plant-protection law amendment of 21 Nov 2025, in force 6 Mar 2026: sellers verify buyer qualifications in an electronic training register; fumigant sales need a buyer ledger and invoice. School certificates are valid for professional-product purchases only to 30 Mar 2027.",
+     "unchecked": "Whether the register has an API for retailers; fumigant volume."
+    },
+    {
+     "buyer": "Registered employment agencies",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://hrappka.pl/?p=35268 ; https://kadry.infor.pl/zatrudnienie/inne/5773522,agencje-zatrudnienia-wpis-do-rejestru-to-podstawa.html",
+     "existing": "HRappka already offers KRAZ-IDZ support.",
+     "known_id": "K10",
+     "known_mark": "known",
+     "known_note": "Same buyer group as K10 and K21; HRappka already covers it.",
+     "name": "Employment Agency KRAZ-IDZ Annual Report",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Annual KRAZ-IDZ report to the marshal by 31 Jan under the Labour Market Act of 20 Mar 2025."
+    },
+    {
+     "buyer": "Housing communities and managers, small firms owning lifts, boilers and pressure equipment",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://www.udt.gov.pl/faq/faq-najczesciej-zadawane-pytania/dozor-techniczny/inspekcja",
+     "existing": "No dedicated tracker found in one search; property-management software likely covers it. Unchecked.",
+     "known_mark": "new",
+     "name": "UDT Decision Expiry Tracker for Housing Communities and Small Owners of Lifts and Boilers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "UDT technical supervision: decisions valid 1 to 4 years; a missed periodic inspection voids the decision and forces a new acceptance inspection; a new owner must register the device.",
+     "unchecked": "Property-management tools; UDT's own reminders; willingness to pay."
+    },
+    {
+     "buyer": "Gminas and small waterworks operators (about 8,700 waterworks, over 90% under 1,000 m3/day)",
+     "category": "13. Small water systems",
+     "evidence": "https://www.gov.pl/web/psse-lobez/sekcja-higieny-komunalnej ; https://www.gov.pl/attachment/aa03e109-b10d-4f37-828a-640a22fcef60",
+     "existing": "Not searched; laboratories likely supply reports. Unchecked.",
+     "known_mark": "new",
+     "name": "Small Waterworks Internal-Control and Sanitary-Monitoring Scheduler",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Min. of Health regulation of 7 Dec 2017: internal quality control, sanitary monitoring, notices to residents, remedial schedules.",
+     "unchecked": "Software gap; buyers are local government, so procurement is slow."
+    },
+    {
+     "buyer": "Small taxi and ride-hailing intermediaries and taxi radio companies",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://www.prawo.pl/biznes/przewoz-osob-tylko-z-licencja-taksowkowa-lex-uber,503501.html ; https://www.ifirma.pl/blog/lex-uber-nowe-regulacje-dla-taksowek/",
+     "existing": "Taxi-dispatch apps (not checked).",
+     "known_mark": "new",
+     "name": "Taxi Intermediary Electronic Order and Driver Register",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Lex Uber: intermediaries keep an electronic register of transport orders and a driver register for 5 years; criminal-record certificates required; a 2027 draft adds foreign criminal-record certificates and maximum fares.",
+     "unchecked": "Existing dispatch software; the number of small intermediaries."
+    },
+    {
+     "buyer": "Licensed currency exchange offices",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.ifirma.pl/blog/jak-otworzyc-kantor-wymiany-walut/ ; https://pro.rp.pl/prawo-w-firmie/art4913411-jak-zalozyc-kantor-wymiany-walut",
+     "existing": "Dedicated kantor software almost certainly exists; not checked.",
+     "known_mark": "new",
+     "name": "Currency Exchange Office (kantor) Register and AML Pack",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "NBP currency-exchange register, a transaction register or confirmation software, annual criminal-record certificates, AML duties to GIIF.",
+     "unchecked": "Existing vendors and GIIF reporting formats."
+    },
+    {
+     "buyer": "Antique dealers and auction houses",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://arslege.pl/ksiega-ewidencyjna-zabytkow-przyjetych-lub-oferowanych-do-zbycia/k175/a105073/ ; https://bank.pl/?p=365514",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Antiquities and Art Dealer Heritage-Register and AML Pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Heritage-protection law: register book for objects above PLN 10,000; AML law amendment covering art and antiques dealers at EUR 10,000 or more.",
+     "unchecked": "Number of dealers (small niche); current text of the rules; existing tools."
+    },
+    {
+     "buyer": "Vet practices treating food animals; later companion-animal clinics",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://www.ema.europa.eu/en/veterinary-regulatory-overview/antimicrobial-resistance-veterinary-medicine/european-sales-use-antimicrobials-veterinary-medicine-esuavet-annual-surveillance-reports ; https://vetpol.org.pl/wp-content/uploads/2024/03/26102023_Regulacje_UE_-_Polska_zobowiazana_do_zmian_w_raportowaniu_zuzycia_antybiotykow.pdf",
+     "existing": "Practice-management systems (not checked).",
+     "known_mark": "new",
+     "name": "Veterinary Antimicrobial-Use Reporting for Practices (EU Reg. 2019/6)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "EU Reg. 2019/6 use reporting: cattle, pigs, chickens and turkeys from 2024; other food species from 2027; dogs and cats from 2030. The Polish collection system for practices was not found.",
+     "unchecked": "Who in Poland reports (practice, wholesaler or keeper) and by which system; dates are partly inconsistent across sources."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "One search; no household-employer-specific 2026 rule found. Only general items (labour-contract reclassification reform, expected 8 Jul 2026, per PIP communications; unverified). Nothing new beyond existing payroll/ZUS tooling. Care-agency angle is K27.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Nothing new beyond K28 and K08. Buying from individuals needs internal vouchers, weighing tickets and a purchase notebook, plus a waste-collection register entry with the starosta (infor.pl, fakturaxl.pl, podatki.biz; older sources). VAT reverse charge on scrap sales.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Pawnbrokers must keep a loans and pledged-items register under the KPiR regulation, and are excluded from lump-sum tax. No police-notification duty found. Antique dealers: heritage-object register book (objects above PLN 10,000) and AML coverage for art/antiques dealers at EUR 10,000 or more (sources are old or project-stage). Niche; one weak candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Prawo probiercze (hallmarking) plus AML duties. A deregulation draft would allow in-house assay points; its status is unknown. No recurring filing for small buyers found. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "New: from 30 Jun 2026 vehicle dismantling stations and collection points must send dismantling data directly to CEP through an interface (Min. Cyfryzacji notices; project data-scope regulation). A new MI regulation (Dz.U. 2026 poz. 857) requires a certificate register. BDO vehicle register card and reporting already exist. No integrated product found. One candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "The Animal Health Act of 21 Nov 2025 took effect 18 Mar 2026. Livestock traders and IRZplus are K25 (rejected). Live-animal transporters: GIW authorisation, vehicle approval, journey log and driver licences under Reg. 1/2005. Not checked for software; weak candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Nothing new. RHD, MLO and direct sale are registered with the district vet and have light paperwork (GHP/GMP, origin records). On-farm slaughter for own use is regulated. No recurring filing worth software found.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "New regime under the Animal Health Act (in force 18 Mar 2026): every apiary must be registered with the district vet (PIW), deadline 18 Jun 2026 now passed. Per a PLW communique, apiary location and hive counts are reported twice a year (31 Mar, 30 Sep); unverified. Subsidies need the PIW certificate (ARiMR 2026 call). No app found. Weak candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "New Animal Health Act in force 18 Mar 2026: one-off data completion by about 18 Jun 2026 (passed). EU Reg. 2019/6 antimicrobial-use reporting: production species from 2024, other food species 2027, dogs/cats 2030. The Polish reporting system for practices was not found. Unverified candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Strong new rule: the Prawo wodne amendment (Dz.U. 2026 poz. 1033, signed 30 Jul 2026, art. 524a in force about 17 Aug 2026) waives the PLN 6,600 legalisation fee and fines (PLN 5,000 to 1 million) for unregistered wells if a complete application is filed by 31 Dec 2027. Also the annual art. 304 abstraction report (by 1 March) to Wody Polskie. Two candidates listed.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Nothing new beyond K24 (and K08 for BDO). Not searched, to save budget.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "UDT decisions expire after 1 to 4 years; the owner or manager (for example a housing community) must book periodic inspections, or the decision lapses and a new acceptance test is needed. No tracking software found. Chimney sweeps are K06. Weak candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "About 8,700 waterworks, over 90% small (under 1,000 m3/day). Duties: internal quality control, sanitary inspectorate monitoring, notices to residents. The gmina is responsible. Not checked for software; weak candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Since 6 Mar 2026 sellers must verify the buyer's qualification, with an electronic training register and a ledger of fumigant buyers. School certificates are valid for professional-product purchases only to 30 Mar 2027. Plant-protection e-records are K13 (postponed to 1 Jan 2027). Weak candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Annual KRAZ-IDZ activity report to the marshal (deadline 31 Jan) under the new Labour Market Act of 20 Mar 2025; HRappka already offers KRAZ-IDZ. Foreign-worker work is K10/K21 and K27. Listed as known.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Funeral homes are K09/K19 (rejected). Cemetery managers must keep three books (graves, persons buried within 7 days, alphabetical index); paper is allowed, and communal managers send an annual report to the gmina by 31 Dec. No dedicated software was searched. Unverified candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Associations and foundations must report beneficial owners to CRBR and update within 14 days (since 2021). Halal and kosher certification is private (MZR, Rabbinate) with no public register or statutory audit. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Taxi: licence per entrepreneur, vehicle extract, intermediaries keep an electronic order register and driver records for 5 years; a 2027 draft would add criminal-record certificates and maximum fares. Small bus carriers are K05. Nothing new strong.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Currency exchange offices: NBP register, AML duties; software surely exists but was not checked. Market traders: cash-register exemptions through 2027 and e-receipts; no new filing duty found. Weak, unverified candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Nurseries are K01, K11; driving schools K26; hunting K29; tattoo studios K30. Day carers (dzienny opiekun): the 'Aktywny dzienny opiekun w gminie 2026' programme (PLN 60m) is settled between the gmina and the voivode, with no software found. Small food producers (RHD/MLO) have light paperwork. Nothing strong new.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "skup złomu ewidencja obowiązki rejestr przedsiębiorcy skupujący metale 2026",
+    "lombard antykwariat skup używanych rzeczy rejestr ewidencja obowiązek policja ustawa",
+    "stacja demontażu pojazdów CEP centralna ewidencja pojazdów raport obowiązek sprawozdanie 2026",
+    "pszczelarze rejestr pasiek obowiązek zgłoszenia ARiMR weterynaria 2026 nowe przepisy",
+    "ustawa o zdrowiu zwierząt 2026 obowiązki zakłady weterynaryjne rejestr leków",
+    "agencja zatrudnienia KRAZ sprawozdanie roczne marszałek obowiązek termin 2026",
+    "cmentarz parafialny gminny ewidencja grobów księga cmentarna obowiązek system oprogramowanie",
+    "stowarzyszenia fundacje obowiązki sprawozdanie KRS CRBR nowe przepisy 2026",
+    "kantor wymiany walut rejestr działalności kantorowej NBP obowiązki GIIF oprogramowanie",
+    "UDT urządzenia techniczne dozór windy kotły terminy badań wspólnoty program do ewidencji",
+    "zbiorowe zaopatrzenie w wodę małe wodociągi wiejskie sanepid monitoring jakości wody",
+    "sprzedawcy środków ochrony roślin rejestr sprzedaży zaświadczenie PIORiN 2026",
+    "taxi przewóz osób licencja kasa fiskalna taksometr 2026 nowe obowiązki",
+    "rzeźnia ubój zwierząt dokumentacja ubojowa małe zakłady RHD MLO oprogramowanie",
+    "opiekun domowy pracownik domowy zatrudnienie ZUS ZUA PIT 2026",
+    "przewóz zwierząt zezwolenie przewoźnika dziennik podróży TRACES",
+    "wyroby z metali szlachetnych jubiler skup złota urząd probierczy ewidencja 2026",
+    "opłata za pobór wody studnia pozwolenie wodnoprawne sprawozdanie Wody Polskie 2026",
+    "komis samochodowy handlarz używanych aut nowe obowiązki 2026 CEP",
+    "legalizacja studni abolicja art. 524a Prawo wodne do 31 grudnia 2027 (plus competitor search: legalizacja studni usługa/generator wniosku; stacja demontażu program CEP BDO)"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b11"
+ },
+ "discover:B:poland": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "About 5,000 registered tour organisers and linked-travel-service facilitators, 95-96% micro (per the industry chamber ITRP); small agencies running spreadsheets or basic booking tools",
+     "category": "31. Travel organisers and agents: TFG/UFG register and monthly reporting",
+     "evidence": "Industry chamber letter ITRP/01/06/2026 of 2 Jun 2026 (https://ttgpolska.pl/wp-content/uploads/2026/06/stanowisko-itrp-nowelizacja-ustawy-tfg.pdf): only three training sessions for ~5,000 firms, ~932 mln PLN held in TFG/TFP accounts, objection to payment-by-payment reporting. Ministry reply to interpellation 18287 of 10 Aug 2026 (https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDWUHSJ/i18287-o1.pdf): confirms new contract-register rules, 1 Jul 2026 entry into force, deletion and 3-year ban, and says industry points will be analysed. Register field list from search (unverified against the statute): https://eli.gov.pl/eli/DU/2025/1806/ (act text not opened). ZPUTFG platform: https://www.gov.pl/web/popcwsparcie/zintegrowana-platforma-uslug-turystycznego-funduszu-gwarancyjnego-zputfg. I read both PDFs from the saved fetch files with pdftotext because WebFetch could not parse them. One secondary search source said payments are not part of the register; the chamber letter says they are. Unresolved.",
+     "existing": "Competitor search 'oprogramowanie dla biur podróży ... moduł TFG deklaracja UFG wykaz umów' found no named Polish product with a TFG/UFG module; only generic travel software (Anolla, PHPTRAVELS, Innowise) and a 2021 tender mentioning Merlinx and JPK export. The state ZPUTFG portal handles declarations and the register in the UFG system. Booking systems used by Polish agencies (Merlinx etc.) were not checked and may ship a feed.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Different buyer and duty from K05 (bus carriers) and K02 (tourist fee).",
+     "name": "UFG contract-register (wykaz umów) monthly feed and payment-date reporting for small travel agencies",
+     "score": 6,
+     "status": "promising",
+     "trigger": "Act of 7 Nov 2025 amending the tourist events act (Dz.U. 2025 poz. 1806), signed 15 Dec 2025, in force 1 Jul 2026. Contract register in the UFG system or elsewhere with monthly transfer to UFG by the 14th for the previous month; changes within 14 days; the chamber says each client payment and instalment with exact dates must now be reported. Refusal after a call = gross breach, deletion from the register, 3-year ban. Monthly TFG/TFP contribution declarations to UFG already exist (ZPUTFG platform).",
+     "trigger_short": "",
+     "unchecked": "Exact UFG upload format or API; whether the 14th-of-month file is the same across systems; actual text of Dz.U. 2025 poz. 1806 on payments; whether Merlinx or other booking tools already export to UFG; price anchor; number of agencies that keep a register outside the UFG system; whether the chamber's request to postpone was granted."
+    },
+    {
+     "buyer": "Private owners and small landlords renting flats by the night, small apartment managers; also wspólnoty and spółdzielnie facing the planned right to ban",
+     "category": "29. Hotels, guest houses and short-term rentals (also 32)",
+     "evidence": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-02/transcripts/230 ; https://pewnylokal.pl/unijny-rejestr-najmu-krotkoterminowego-w-polsce ; https://www.infor.pl/prawo/nowosci-prawne/7567596 ; MSiT letter confirms the transposition work is ongoing (https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDWUHSJ/i18287-o1.pdf).",
+     "existing": "Competitor search 'rejestr najmu krótkoterminowego numer rejestracyjny oprogramowanie dla wynajmujących ...' found only tax and legal blogs (iFirma, Podatnik.info), PriceLabs and Smoobu blogs; no named tool for municipal numbers (none exists yet because the register does not exist). Channel managers will likely add a number field.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Related to K02 (tourist fee). Different duty (registration and compliance, not fee collection) and wider buyer group (private owners).",
+     "name": "Short-term rental registration number and platform-data compliance desk for small hosts and apartment owners",
+     "score": 4,
+     "status": "promising",
+     "trigger": "EU Reg. 2024/1028 applies from 20 May 2026. Bill druk 2865 (amendment to the hotel services act): registration in an ewidencja with numbers issued by the wójt/mayor, house-rules notice, 24h contact, fines up to 50,000 PLN, platforms passing nights and guests to gminas. First reading 2 Sep 2026, committee report due 20 Oct 2026; amendment 2865-A would let wspólnoty ban rentals by resolution from 1 Jan 2028.",
+     "unchecked": "Whether the bill passes and the final dates; whether the state builds a free portal (likely, as with CWTON); number of affected hosts; whether this is only a one-off registration (low recurrence); whether a recurring duty falls on the host (reports) or only on platforms."
+    },
+    {
+     "buyer": "Small real estate brokerages and accounting offices that never filed the GIIF identification form",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with AML reports",
+     "evidence": "https://rpms.pl/formularz-identyfikacyjny-instytucji-obowiazanej-do-giif/ ; https://rpms.pl/procedura-przeciwdzialania-praniu-brudnych-pieniedzy-aml-w-praktyce-posrednikow-nieruchomosci/ ; https://rpms.pl/notariusz-jako-instytucja-obowiazana-w-kontekscie-aml-co-musi-posiadac-i-jakie-obowiazki-wykonywac/",
+     "existing": "Competitor search found Comarch apfino (accounting offices), consultancy procedure packs (Akademia LTCA 'Procedury AML - Pakiet pełny', RPMS) and generic AML platforms (TTMS). No broker-specific tool seen.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "AML starter pack and GIIF identification-form filing for small real estate brokers and other one-person obliged entities",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Obliged entities active before the 2025 amendment that never filed the identification form have until 31 Dec 2026 (secondary source; fine up to 1 mln PLN under art. 150 ust. 2); also written AML procedure, risk assessment and CRBR discrepancy notes.",
+     "unchecked": "Statute text for the 31 Dec 2026 deadline; number of unregistered brokers; whether the duty is one-off (it is mostly one-off plus procedures); price points; PMS/CRM add-ons for brokers."
+    },
+    {
+     "buyer": "Small cardiology, mammography and cytology providers with NFZ contracts",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://www.nfz.gov.pl/aktualnosci/aktualnosci-centrali/komunikat-dla-swiadczeniodawcow-centralna-e-rejestracja%2C8947.html",
+     "existing": "Not searched; clinic management systems likely integrate. Only the NFZ notice was seen.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "CeR (Centralna e-Rejestracja) slot feed for small NFZ specialists",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Schedules to CeR by 31 May 2026; from 1 Jul 2026 each appointment slot registered in CeR.",
+     "unchecked": "Competition; whether the duty continues to other specialities; provider count."
+    },
+    {
+     "buyer": "Micro and small Polish roasters, chocolate makers, furniture and wood-product importers and traders downstream",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://grantthornton.pl/publikacja/eudr-2026-podsumowanie-ostatnich-zmian/ ; https://taxnews.ey.com/news/2026-0237-eu-deforestation-regulation-application-postponed-to-30-december-2026 ; https://www.prawo.pl/biznes/beda-zmiany-w-eudr-istotne-dla-malych-i-srednich-firm,536168.html",
+     "existing": "Competitor search not run (budget). Consultancies and global compliance platforms seen in results only.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Related to K04 (sawmills). Different buyer group.",
+     "name": "EUDR desk for small coffee roasters, chocolate makers and furniture or wood-product importers",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Reg. 2023/1115 as amended by Reg. 2025/2650: 30 Dec 2026 for large and medium firms and for timber previously under EUTR; 30 Jun 2027 for micro and small firms on other products; downstream traders must keep the DDS reference number.",
+     "unchecked": "Competitor search in Polish; the CN codes for furniture; exact dates (sources conflict on the 2027 vs 2030 extension of scope); number of small firms; the simplified one-off declaration for micro operators."
+    },
+    {
+     "buyer": "Shops, restaurants, hotels and offices that own refrigeration or air-conditioning equipment with at least 3 kg F-gas, and their servicers",
+     "category": "34. F-gas operators and servicers",
+     "evidence": "https://www.gov.pl/web/klimat/centralny-rejestr-operatorow-cro ; https://www.gov.pl/web/klimat/sprawozdania-w-zakresie-f-gazow-i-szwo-do-bazy-danych-sprawozdan5",
+     "existing": "State CRO and reports database are free. Commercial servicer software not searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "CRO device-card and F-gas report service for small operators",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Device cards in CRO (ICHP), annual F-gas report by 28 Feb.",
+     "unchecked": "Competitor search; counts of operators; whether servicers already do this for clients."
+    },
+    {
+     "buyer": "Dental practices and small imaging rooms using X-ray",
+     "category": "37. Dental and other small X-ray rooms",
+     "evidence": "https://eli.gov.pl/eli/DU/2022/2759/ogl/pol/pdf ; https://ks.oil.lodz.pl/komisja-stomatologiczna/gabinet/obowiazek-powiadamiania-o-wplywie-rtg-na-srodowisko.html?pdf=1",
+     "existing": "Not searched; physics service firms likely hold the records.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Dental and small X-ray room compliance records (tests, protocols, permits)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Atomic Law permits, acceptance and periodic operational tests (Dz.U. 2022 poz. 2759), protocols kept for inspections, website notice.",
+     "unchecked": "Test periodicity, number of rooms, competitor search."
+    },
+    {
+     "buyer": "Registered employment agencies",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://hrappka.pl/?p=35268 ; https://zielonalinia.gov.pl/wpis-do-rejestru-agencji-zatrudnienia-co-warto-wiedziec/",
+     "existing": "HRappka already carries KRAZ-IDZ.",
+     "known_id": "K10",
+     "known_mark": "new",
+     "known_note": "Same buyer group as K10/K21 (HRappka already covers); different duty, but covered by the same vendor.",
+     "name": "KRAZ-IDZ annual report for staffing agencies",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Annual activity report by 31 Jan to the marshal, via STOR with qualified signature or Profil Zaufany; non-filing risks loss of the right to serve foreigners needing permits.",
+     "unchecked": "Security-agency (ochrona osób i mienia) licence reports not searched; legal basis change under the 2025 labour market act."
+    },
+    {
+     "buyer": "Small firms with boilers, generators or waste storage",
+     "category": "33. Environmental-use fee returns",
+     "evidence": "https://www.podatki.biz/artykuly/do-31-marca-zloz-informacje-o-korzystaniu-ze-srodowiska_34_58189.htm ; https://poradnikprzedsiebiorcy.pl/-oplaty-srodowiskowe",
+     "existing": "EkoPłatnik (many marshal offices), KOBiZE preparation tool, Gofin DRUKI form, commercial programs.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Environmental-use fee return (wykaz do marszałka) service",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Annual wykaz to the marshal by 31 Mar; annual fee under 800 PLN per type is not payable but the wykaz is still filed.",
+     "unchecked": "Names of commercial vendors; small-firm count."
+    },
+    {
+     "buyer": "Small camp, colony and day-camp organisers, associations and parishes",
+     "category": "38. Organisers of children's holiday camps",
+     "evidence": "https://www.gov.pl/web/edukacja/zanim-zacznie-sie-wakacyjna-przygoda-bezpieczenstwo-z-men-w-2026-roku ; https://www.kuratorium.opole.pl/wp-content/uploads/2025/06/informacje_dla_organizatorow_wypoczynku.pdf",
+     "existing": "State database (wypoczynek.men.gov.pl).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Children's holiday camp organiser notification",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Notice to the school superintendent 14-21 days ahead through the state MEN database; 18,225 approved notices by 24 Jun 2026.",
+     "unchecked": "Whether any recurring reports beyond the notice; private tools."
+    },
+    {
+     "buyer": "Small shops, bars and restaurants, chiefly those with outlets in several gminas",
+     "category": "35. Alcohol sales permits",
+     "evidence": "https://samorzad.gov.pl/web/gmina-krempna/oplata-za-zezwolenie-na-sprzedaz-alkoholu-w-2026-roku ; https://warszawa19115.pl/pl/-/op%C5%82ata-za-zezwolenia-alkoholowe-2",
+     "existing": "Not searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Alcohol permit annual declaration and fee instalments for multi-outlet sellers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Declaration by 31 Jan; fee instalments 31 Jan / 31 May / 30 Sep; permit lapses 30 days after a miss.",
+     "unchecked": "Multi-gmina share; e-delivery use; competitors."
+    },
+    {
+     "buyer": "Small purchasers of poppy, hemp and raw milk",
+     "category": "22. Grain, coffee, cocoa and other commodity traders",
+     "evidence": "https://www.gov.pl/web/kowr/aktualnosci?page=2",
+     "existing": "Not searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "KOWR poppy, hemp and milk first-purchaser contract reports",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Purchaser register at KOWR; contract data by late July; 1,000 PLN fine for missed updates (from search summary, not verified).",
+     "unchecked": "Whole item: statute, buyer counts, existing tools."
+    },
+    {
+     "buyer": "Independent vehicle inspection stations",
+     "category": "39. Vehicle inspection stations",
+     "evidence": "https://www.radiokrakow.pl/wideo/zmiany-na-stacjach-kontroli-pojazdow-platnosc-z-gory-i-wyniki-w-systemie-cepik-20",
+     "existing": "Stations already run integrated SKP software.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "SKP CEPiK test-result entry and prepayment",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Sejm-passed amendment of the traffic law (up-front payment, test results visible in CEPiK); effective date unconfirmed.",
+     "unchecked": "Everything; the law's status."
+    },
+    {
+     "buyer": "About 21,000 registered RHD farms",
+     "category": "36. Farm direct sales",
+     "evidence": "https://podr.pl/wp-content/uploads/2025/12/RHD-i-MLO.pdf",
+     "existing": "Not searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Farm direct-sales (RHD/MLO) registrations",
+     "score": 1,
+     "status": "weak",
+     "trigger": "One-off registration and supply limits; no recurring filing found.",
+     "unchecked": "Any periodic register or limit-reporting duty."
+    },
+    {
+     "buyer": "Biocomponent producers and farmers making biofuel for own use",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://lexlege.pl/ustawa-o-biokomponentach-i-biopaliwach-cieklych/rozdzial-6-zasady-sporzadzania-sprawozdawczosci-i-tryb-przedkladania-sprawozdan/6456/",
+     "existing": "Not searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Quarterly biocomponent reports to KOWR",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Quarterly report within 45 days; annual for farmers.",
+     "unchecked": "Number of filers (probably small)."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "One search. Only biofuel/biocomponent reporting (quarterly reports to KOWR by biocomponent producers, annual by farmers making biofuel for own use) and a 2026 fuel-quality monitoring regulation that concerns company-owned stations. No recurring filing for small public stations found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "One search. No grain-buyer register or report found. KOWR runs buyer registers for poppy, hemp and milk (poppy/hemp contract data by late July, 1,000 PLN fine); farmers' insolvency-compensation window changed 13 May 2026 (FOR). Niche only. Coffee/cocoa handled under EUDR candidate (cat 30).",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "One search. Only Prawo spółdzielcze consolidated text Dz.U. 2026 poz. 521 and a KRS amendment (Dz.U. 2025 poz. 1556, parts effective 1 Apr 2027) whose relevance to co-op member registers is unconfirmed. SKOK reporting material is outdated. Nothing new beyond that; KRS amendment unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "One search. MZ regulations on data processed by providers amended 3 Mar and 17 Jun 2026 (Dz.U. 2026 poz. 270, 822; another from 19 Aug 2026 effective partly 1 Nov 2026). Centrala e-Rejestracja (CeR): cardiology, mammography and cytology providers with NFZ contracts must load schedules by 31 May 2026 and register every slot from 1 Jul 2026. Private labs without NFZ contract generally do not file via SZOI. Candidates: CeR slot feed (weak), dental X-ray compliance (cat 37).",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "One search. Precursor category 2A users and category 2 traders must register with the Inspector for Chemical Substances (Reg. 273/2004); no recurring small-business filing found. Pharmacy reporting is K23. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "One search (agencies; security-agency licensing not searched). KRAZ staffing agencies file annual activity report (KRAZ-IDZ) by 31 Jan via STOR with qualified signature or Profil Zaufany; the 2025 act on the labour market (20 Mar 2025) may change the legal basis. HRappka already offers KRAZ-IDZ. Weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "One search. Nothing new: no new contractor register or electronic site-diary duty found; c-KOB is K17 (rejected). Mandatory OC insurance exists only for architects and engineers.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Two searches. AML Act obliges notaries, real estate brokers (sale of any value; lettings at 10,000 EUR/month or more) and accounting offices. Institutions active before the 2025 amendment that never filed the GIIF identification form have until 31 Dec 2026 (fine up to 1 mln PLN, art. 150 ust. 2, per secondary source rpms.pl, not verified against the statute). Comarch apfino serves accounting offices; consultancies sell AML procedure packs. Candidate: AML pack for small brokers (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Two searches. EU Reg. 2024/1028 applies from 20 May 2026. Polish implementing bill (druk 2865, amendment to the hotel services act) had first reading 2 Sep 2026; committee report due 20 Oct 2026; mayors would issue registration numbers, with fines up to 50,000 PLN, a host contact line, a house-rules notice, and platforms passing nights/guests to municipalities. Tourist fee is K02. Candidate: STR registration-number and compliance desk.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "One search. EUDR now applies to large and medium firms from 30 Dec 2026; micro and small firms from 30 Jun 2027 for products not previously under EUTR, but timber products formerly under EUTR keep 30 Dec 2026; Commission said it will not reopen the regulation (secondary sources, to verify). Sawmills are K04. Different buyer groups (coffee roasters, chocolate makers, furniture importers) listed as a candidate. Fish and food export certificates not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Travel organisers and agents (tour operators, agencies): TFG/UFG register and monthly reporting (country-specific)",
+     "found": "Four searches plus two documents read. Act amending the 2017 tourist events act signed 15 Dec 2025, in force 1 Jul 2026. Reporting duties: contract register (wykaz umów) kept in the UFG system or elsewhere, with data sent to UFG by the 14th of each month; changes within 14 days; evasion after a call is a gross breach, with deletion from the register and a 3-year activity ban. The industry chamber says it now covers every client payment and instalment with exact dates. About 5,000 operators, 95-96% micro. Strong new candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Short-term rental registration under EU 2024/1028 (country-specific)",
+     "found": "See cat 29. Treated as a separate category because the duty falls on private owners and small landlords (registration number, house rules, 24h contact), not on registered hotels.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Environmental-use fee returns (opłaty środowiskowe, wykaz do marszałka) (country-specific)",
+     "found": "Two searches. Annual wykaz and fee due 31 Mar to the marshal office (filing needed even if fee under 800 PLN threshold), BDO register by 15 Mar. Free EkoPłatnik apps from many marshal offices, a KOBiZE tool and Gofin forms exist, plus commercial programs. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "34. F-gas operators and servicers: CRO device cards and annual report (country-specific)",
+     "found": "Two searches. F-gas/ODS report due 28 Feb through the Reports Database; Central Operators Register (CRO, run by ICHP) device cards required for equipment with at least 3 kg F-gas; servicers can subscribe to card updates at dbcro.ichp.pl. State tool is free. Unverified competitors.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Alcohol sales permits: annual sales declaration and fee (country-specific)",
+     "found": "One search. Sellers file a declaration of previous-year alcohol sales by 31 Jan at the gmina, fee instalments 31 Jan / 31 May / 30 Sep, permit lapses 30 days after a miss; fixed fees 525 PLN / 2,100 PLN below thresholds (single-gmina, simple). Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Farm direct sales: RHD / MLO / sprzedaż bezpośrednia (country-specific)",
+     "found": "One search. Registered with the district vet; 21,063 registered RHD entities in 2024 (MRiRW). No recurring filing or software duty found. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Dental and other small X-ray rooms: Atomic Law permits, operational tests, records (country-specific)",
+     "found": "One search. Permit, acceptance tests, periodic tests and protocols, patient-dose analysis, and a website notice on environmental impact, per Atomic Law and the 2022 MZ regulation (Dz.U. 2022 poz. 2759). Recurring but low-frequency; no vendor checked.",
+     "status": "screened"
+    },
+    {
+     "category": "38. Organisers of children's holiday camps (wypoczynek) notification (country-specific)",
+     "found": "One search. Notice to the school superintendent 21 days before (14 for day camps and trips abroad) via the MEN holiday database; 18,225 approved notices by 24 Jun 2026. State portal exists. Seasonal, small.",
+     "status": "screened"
+    },
+    {
+     "category": "39. Vehicle inspection stations (SKP): CEPiK test results and prepayment (country-specific)",
+     "found": "One search. Sejm passed an amendment requiring payment up front and test results entered in CEPiK; effective date unconfirmed. Stations already run integrated SKP software. Weak.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "stacje paliw obowiązki sprawozdawcze koncesja biopaliwa raport małe stacje 2026",
+    "ewidencja pobytu gości obiekty noclegowe rejestr krótkoterminowy najem 2026",
+    "notariusze biura nieruchomości GIIF AML CRBR sprawozdanie 2026 oprogramowanie",
+    "spółdzielnie SKOK spółdzielnie socjalne obowiązki sprawozdawcze KRS 2026",
+    "gabinety prywatne laboratoria NFZ SZOI sprawozdawczość nowy obowiązek 2026",
+    "agencje ochrony agencje pracy tymczasowej KRAZ sprawozdanie roczne 2026",
+    "prekursory narkotykowe pozwolenie rejestr sprawozdanie użytkownicy kategorii 2 apteki hurtownie",
+    "dziennik budowy elektroniczny OC robót budowlanych małe firmy budowlane 2026",
+    "skup zbóż skupy rolne magazyny zbożowe sprawozdanie KOWR ARiMR rejestr",
+    "opłaty za korzystanie ze środowiska wykaz KOBiZE marszałek mali przedsiębiorcy 31 marca",
+    "gabinet stomatologiczny RTG PAA rejestr dawki testy eksploatacyjne 2026",
+    "zezwolenie na sprzedaż alkoholu oświadczenie o wartości sprzedaży 31 stycznia 2026",
+    "rolniczy handel detaliczny MLO rejestr sprawozdanie PLW 2026",
+    "F-gazy sprawozdanie KOBiZE CRO karta urządzenia serwisanci",
+    "biura podróży TFG UFG CEOTUR sprawozdanie obowiązki 2026 nowe",
+    "stacje kontroli pojazdów CEPiK ewidencja badań nowy obowiązek 2026",
+    "program dla biura podróży UFG TFG raportowanie umów nowe obowiązki 2026 oprogramowanie",
+    "rejestr najmu krótkoterminowego numer rejestracyjny oprogramowanie dla wynajmujących 2026",
+    "organizatorzy wypoczynku dzieci kuratorium baza wypoczynku 2026",
+    "wykaz umów UFG od 1 lipca 2026 biura podróży system rezerwacyjny",
+    "EUDR małe firmy Polska palarnie kawy importerzy mebli termin 2026 2027",
+    "program do sprawozdań wykaz korzystania ze środowiska opłata środowiskowa oprogramowanie",
+    "oprogramowanie dla biur podróży Polska moduł TFG deklaracja UFG wykaz umów",
+    "program AML pośrednicy nieruchomości formularz identyfikacyjny GIIF 31 grudnia 2026"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b11"
+ },
+ "gapfill:poland": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small licensed security agencies (ochrona osób i mienia) holding an interior-minister concession; the compliance owner is the owner-manager, often the one on the qualified-protector list",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://www.prawo.pl/biznes/od-1-stycznia-przedsiebiorcy-swiadczacy-uslugi-ochrony-maja-nowe-obowiazki,209752.html ; https://lexlege.pl/ustawa-o-ochronie-osob-i-mienia/rozdzial-4-zasady-prowadzenia-dzialalnosci-gospodarczej-w-zakresie-uslug-ochrony-osob-i-mienia-oraz-kontrola-tej-dzialalnosci/4986/ ; https://pro.rp.pl/prawo-w-firmie/art10050181-skutki-zatrudnienia-skazanych-prawomocnymi-wyrokami-na-stanowiskach-pracownikow-ochrony ; https://pro.rp.pl/prawo-w-firmie/art4939191-jak-zalozyc-agencje-ochrony",
+     "existing": "Competitor searches (two, Polish) found no dedicated tool for this register; general staff-scheduling and ERP packages may include it but were not seen. Not exhaustive.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Not close to K27 (care agencies) or K10; different buyer and duty",
+     "name": "Security-agency compliance desk: wykaz pracowników ochrony, KRK re-checks, qualification and training expiry, 14-day licence-change notices",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Ustawa z 22.08.1997 o ochronie osób i mienia: wykaz pracowników ochrony with PESEL, list entry, weapon-permit number, contract and training dates and criminal-record check dates; change notice within 14 days (art. 18 ust. 3); notice of start, suspension and closure; 5-year retention; licence revoked for unverified criminal records; OC insurance",
+     "trigger_note": "Ongoing duty plus inspections; no new deadline found",
+     "unchecked": "Number of active concessions (MSWiA register); current wording of the documentation regulation; whether scheduling products with a wykaz module exist (Polish ERPs, grafik apps); how many agencies are really tiny; willingness to pay; whether KRK checks via e-service can be integrated"
+    },
+    {
+     "buyer": "Licensed detectives (voivodeship police licence)",
+     "category": "35. Licensed private detectives",
+     "evidence": "https://slaska.bip.policja.gov.pl/KWK/pozwolenia-i-listy-kwal/278,Licencja-detektywa.pdf ; https://www.ifirma.pl/blog/wlasne-biuro-detektywistyczne/",
+     "existing": "None checked",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Private detective office register helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ustawa z 6.07.2001 o usługach detektywistycznych: final client report, medical and psychological exams",
+     "unchecked": "Whether any periodic report to the police exists; total licensed detectives (probably under 1,500, unverified)"
+    },
+    {
+     "buyer": "Micro and small hauliers and van carriers (2.5-3.5 t) on international work, about 40k vehicles affected",
+     "category": "18. Transport operators: small trucking and bus fleets",
+     "evidence": "https://trans.info/pl/tachografy-w-busach-juz-obowiazkowe-czesc-przewoznikow-wciaz-nie-zdazyla-z-montazem-495757 ; https://www.infor.pl/prawo/nowosci-prawne/7481724,tachografy-w-busach-dmc-2535-tony-obowiazkowe-od-lipca-2026-r-jest-kilka-wyjatkow-kara-12-tys-zl-za-brak-nowoczesnego-urzadzenia-g2v2.html ; https://trans.info/pl/lipcowa-rewolucja-w-europejskim-transporcie-tachografy-w-busach-czarne-skrzynki-w-ciezarowkach-i-zmiany-w-oplatach-drogowych-486160",
+     "existing": "Tachospeed Expert (Infolab), EasyTacho (uploads DDD file, verifies, generates documents), Navifleet checklist, Kienzle telematics, remote download from telematics vendors",
+     "known_id": "K05",
+     "known_mark": "new",
+     "known_note": "Different buyer and duty from K05 (bus timetable/NeTEx) but the same transport world; K26 pattern of many ready vendors",
+     "name": "G2V2 tachograph data download, archive and driver-time desk for van and micro-haulier fleets",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Mobility Package, Reg. 2020/1054; G2V2 mandatory for 2.5-3.5 t international vans from 1 Jul 2026; no general grace period; company-card downloads of vehicle unit and driver cards, retention (one source: 12 months), driver-time rules, fines in Poland up to 12k PLN (Infor)",
+     "unchecked": "Whether the cheap, simple layer (for 1 to 3 vans) is served; price of existing tools; real count of affected micro-firms"
+    },
+    {
+     "buyer": "Small parking operators (from 1 Apr 2026, from first zloty), vending-machine operators (from 1 Apr 2027), septic-emptying firms (per Infor)",
+     "category": "31. Cash registers and e-receipts",
+     "evidence": "https://www.podatki.biz/artykuly/urzadzenia-vendingowe-od-2027-r-z-kasa-fiskalna_56_59649.htm ; https://www.ifirma.pl/blog/miejsce-parkingowe-a-kasa-fiskalna-nowy-obowiazek-od-kwietnia-2026-dla-wynajmujacych/ ; https://eparagony.pl/en/integrations/fiscal-devices/",
+     "existing": "Fiscal-register dealers and virtual-register offers; eparagony.pl; the duty is a purchase of certified hardware, not a filing",
+     "known_id": "K24",
+     "known_mark": "new",
+     "known_note": "Septic firms link to rejected K24; cash register is a different duty from KSeF (K14/K18)",
+     "name": "Parking, vending and septic-service cash-register transition helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "MF exemption regulation of 17.12.2024 as amended (Dz.U. 2026 poz. 420); exemptions end 31 Dec 2027; invoicing from registers ends 31 Dec 2026",
+     "unchecked": "Post-2027 regulation; operator counts; whether the software layer has any value beyond register vendors"
+    },
+    {
+     "buyer": "Farms above 10 ha or 10 DJP (plan mandatory above 100 ha / 50 ha intensive / 60 DJP)",
+     "category": "32. Agricultural holdings (nitrates programme, eco-scheme records)",
+     "evidence": "https://wiescirolnicze.pl/nawozenie/aplikacja-inter-naw-sporzadzamy-plan-nawozowy ; https://www.gov.pl/web/arimr/arimr-nie-zamierza-sankcjonowac-rolnikow-z-powodu-aplikacji-wykorzystanej-do-stworzenia-planu-nawozowego ; https://wiescirolnicze.pl/uprawy/ewidencja-nawozenia-i-zabiegow-ochrony-roslin-co-i-jak-gromadzic",
+     "existing": "Free state INTER-NAW (KSChR, schr.gov.pl) for the nitrogen plan and fertiliser record; 365FarmNet; ARiMR does not inspect the tool used; the plant-protection record has a free ARiMR tool (K13)",
+     "known_id": "K13",
+     "known_mark": "known",
+     "known_note": "Same buyer group and a sibling duty to K13 (electronic plant-protection records); rejected on the free state tool INTER-NAW",
+     "name": "Nitrogen plan and fertiliser record for mid-size farms",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Program działań azotanowy: fertiliser record kept 3 years, fines up to 734.13 PLN; 2026 programme review",
+     "unchecked": "2026 programme review changes"
+    },
+    {
+     "buyer": "Wspólnoty mieszkaniowe, small housing co-operatives, and managers of multi-unit buildings",
+     "category": "33. Housing communities and co-owners",
+     "evidence": "https://www.gazetaprawna.pl/biznes/energetyka/artykuly/11199649,sejm-przyjal-zmiane-ustawy-o-efektywnosci-energetycznej.html (403 on fetch, search snippet only) ; https://bip.mos.gov.pl/fileadmin/user_upload/bip/skargi_wnioski_petycje/Petycje_2024/Petycja_nr_93.2024.docx ; https://www.ista.com/pl/kontakt-i-wsparcie/najczesciej-zadawane-pytania/ ; https://www.orange.pl/medias/sys_master/root/heb/h31/15219818332190/case-study-TBS-Myszkow.pdf",
+     "existing": "Meter makers and readers (ista, Techem, Orange IoT case study) already supply hardware, reading and cost-allocation billing",
+     "known_id": "K17",
+     "known_mark": "new",
+     "known_note": "Different duty from K17 (c-KOB building book); one-off deadline of 1 Jan 2027 is the trigger",
+     "name": "Housing community remote-meter (ciepłomierze/wodomierze/podzielniki) replacement tracker for wspólnoty and managers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Prawo energetyczne art. 45a ust. 7a/7b via the 2021 amendment: replace non-remote heat meters, cost allocators and hot-water meters installed before 22 May 2021 by 1 Jan 2027; fines up to 10k PLN cited by media (unverified); EED 2023/1791 transposition pending",
+     "unchecked": "Whether the deadline moved in the 2026 law; real share of non-compliant buildings; whether wspólnoty buy software or just hardware; competition from housing-management suites"
+    },
+    {
+     "buyer": "Wspólnoty mieszkaniowe and their managers",
+     "category": "33. Housing communities and co-owners",
+     "evidence": "https://www.nik.gov.pl/kontrole/wyniki-kontroli-nik/pobierz,lpo~i_12_002_201205311346481338464808~id4~01,typ,kj.pdf ; https://www.m4.krakow.pl/upload/pliki_pdf/1654174070.pdf ; https://rynekpierwotny.pl/wiadomosci-mieszkaniowe/obowiazkowe-przeglady-w-domu/9471/",
+     "existing": "The free GUNB c-KOB app (see K17); management suites not named",
+     "known_id": "K17",
+     "known_mark": "known",
+     "known_note": "Same duty and buyer as the building-log idea; rejected on the free GUNB app and the 2032 date",
+     "name": "Housing-community inspection calendar (annual/5-year, chimney, gas, electrical, fire) with książka obiektu entries",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Prawo budowlane art. 62 ust. 1: annual and 5-year inspections; NIK audits found missing protocols",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Small coastal fishing boats under 12 m (Baltic), pond-fish farms and fish traders",
+     "category": "34. Fishing, aquaculture and fish traders",
+     "evidence": "https://eumonitor.eu/9353000/1/j9vvik7m1c3gyxp/vm977m5d1cp4 ; https://www.ecolex.org/details/legislation/regulation-eu-20232842-amending-council-regulation-ec-no-12242009-and-amending-council-regulations-ec-no-19672006-and-ec-no-10052008-and-regulations-eu-20161139-eu-20172403-and-eu-2019473-of-the-european-parliament-and-of-the-council-as-regards-fisheries-control-lex-faoc223709/ ; https://api.sejm.gov.pl/eli/acts/DU/1999/750/text/U/D19990750Lj.pdf",
+     "existing": "Not searched; the state probably supplies a logbook app (unverified)",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Nothing similar among K01-K30",
+     "name": "Small-vessel (<12 m) electronic catch logbook and first-sale notes for coastal fishers; pond-farm RRW-22 and fishery documentation",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Reg. (EU) 2023/2842 art. 15a (electronic logbook for under-12 m); several application dates 2026-2028 listed (not matched to rule); inland fisheries act documentation; annual RRW-22 to IRS Olsztyn",
+     "unchecked": "Polish small-vessel logbook timeline; the state tool; fleet size; first-sale register; the body behind PIRiP; the Polish rules for pond farms and fish traders with the veterinary service"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "26. Security agencies (ochrona osób i mienia) - licence regime, employee-protector lists, police reporting",
+     "found": "Concession from the interior minister after KWP opinion. Duties on the firm: a wykaz pracowników ochrony (ID, PESEL, list-entry dates, weapon-permit number, contract dates, training dates, criminal-record check dates), a 14-day notice of changes to the licence data (art. 18 ust. 3), notice of start/suspension/closure, OC insurance, 5-year document retention, and criminal-record checks (a licence was revoked when the firm relied on employee declarations). The form of the register is set by interior-ministry regulation. Qualified protectors retrain every 5 years. No small-firm relief found. No dedicated compliance software for these registers surfaced in two Polish searches (not exhaustive). Candidate S1. Unchecked: number of licensed firms, current regulation text, whether guard-scheduling vendors already include the wykaz.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Licensed private detectives (ustawa o usługach detektywistycznych)",
+     "found": "Licence from the voivodeship police commander. The only recurring duties found are a final report for the client, periodic medical and psychological exams, and confidentiality. No register or periodic filing to an authority was found. Too small and thin: weak candidate S2.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: small trucking, vans and bus fleets (tachograph, driver-time records, transport register)",
+     "found": "G2V2 smart tachographs have been mandatory since 1 July 2026 for 2.5-3.5 t vans on international work (about 40k vehicles, per trans.info). A trans.info report of 13 Aug 2026 says over a third of surveyed firms had not finished installing, with no general grace period. Ongoing duties: download data from tachograph and driver card with a company card, keep it (one source says at least 12 months, unverified), analyse infringements. A de minimis subsidy was only a draft. Many vendors already cover this: Tachospeed Expert (Infolab), EasyTacho, Navifleet checklist, Kienzle, telematics. Road-haulage licensing: starosta permit, GITD Community licence, transport manager certificate, KREPTD register; no small-firm periodic filing found. Candidate T1 (weak, competitive). Unchecked: the exact retention period, which vendors serve mixed or van fleets, whether KREPTD requires periodic updates.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Cash registers and e-receipts (kasy rejestrujące, e-paragon, virtual registers)",
+     "found": "Exemption regulation of 17 Dec 2024 runs to 31 Dec 2027; amended in 2026 (Dz.U. 2026 poz. 420): from 1 Apr 2026 parking services must be recorded on a register from the first zloty, with an exception for housing co-operatives and communities (31 Mar 2026). Vending and customer-operated machines: from 1 Apr 2027 for those not previously using a register. Invoicing on registers ends 31 Dec 2026 (KSeF). The Infor source says septic-emptying services were added to the obligation (cross-link to K24). MF says virtual registers are not universal. eparagony.pl already integrates with fiscal devices. This is mostly a hardware purchase and a dealer or service-centre business, not a software filing. Candidate C1 (weak). Unchecked: the post-2027 exemption regulation and whether online-register reporting is expanded.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Agricultural holdings: nitrates programme, fertiliser records, eco-scheme documentation",
+     "found": "Nitrate programme: all farms except those up to 10 ha and up to 10 DJP keep a fertiliser record (kept 3 years). A nitrogen fertilisation plan is mandatory above 100 ha UR, intensive crops above 50 ha, or above 60 DJP. Fines up to 734.13 PLN. The programme review is due in 2026. Free state tool INTER-NAW (KSChR/MRiRW at schr.gov.pl) covers the plan and the nitrogen record, and ARiMR does not check which tool was used. 365FarmNet is a commercial rival. ARiMR also offers a free plant-protection tool (see K13). Candidate A1: rejected.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Housing communities and co-operatives (wspólnoty, spółdzielnie): building inspections, chimney/gas/electrical checks, heat and water remote meters",
+     "found": "Prawo budowlane art. 62: annual and 5-year inspections, with protocols in the książka obiektu budowlanego (NIK audits found missing protocols); K17 (c-KOB) covers digital building books. Remote-reading deadline: 1 Jan 2027 to replace heat meters, cost allocators and hot-water meters installed before 22 May 2021 without remote reading, on the owner or manager of a multi-unit building (Prawo energetyczne art. 45a ust. 7a/7b), fines up to 10k PLN cited by media (unverified). Ministry admitted ambiguity on water meters; the EED 2023/1791 transposition draft of 15 May 2026 is pending. Meter makers and readers (ista, Techem, Orange case study) already supply the meters. Candidate H1 (weak). Unchecked: whether the deadline moves in the new law, the real count of communities, dedicated inspection-calendar software.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Fishing, aquaculture and fish traders (EU Control Regulation 2023/2842, inland fisheries)",
+     "found": "Thin evidence. EU Reg. 2023/2842 introduces art. 15a on electronic logbooks and systems for vessels under 12 m; several application dates between 2026 and 2028 were listed, with no clear match to the logbook rule. Poland-specific implementation, the first-sale register and the body abbreviated PIRiP were not found. Inland pond farms: documentation duty under the inland fisheries act, and an annual RRW-22 return to IRS Olsztyn (free ministry form). A draft EU delegated act mentions VMS for small boats in the Baltic. Candidate F1 (unverified). Unchecked: Polish small-vessel logbook timeline, size of the under-12 m fleet, first-sale note regime.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "koncesja ochrona osób i mienia obowiązki sprawozdawcze KWP lista pracowników ochrony ewidencja małe agencje",
+    "tachograf inteligentny V2 obowiązek modernizacji 2026 mali przewoźnicy odczyt danych karty kierowcy archiwizacja",
+    "koniec zwolnień z kasy fiskalnej 2027 kasa online obowiązek usługodawcy zwolnienie przedłużone rozporządzenie ministra finansów",
+    "Program azotanowy plan nawożenia ewidencja nawozów gospodarstwo rolne obowiązek 2026 dziennik zabiegów ekoschematy dokumentacja",
+    "wspólnota mieszkaniowa obowiązki przeglądy budowlane roczne pięcioletnie książka obiektu budowlanego zarządca terminarz opomiarowanie ciepła 2027 liczniki zdalnego odczytu",
+    "rozporządzenie kontrolne rybołówstwo 2023/2842 elektroniczny dziennik połowowy małe statki rybackie obowiązki 2026 PIRiP rejestr sprzedaży pierwszej",
+    "program dla agencji ochrony ewidencja pracowników ochrony kwalifikowanych licencje koncesja MSWiA oprogramowanie",
+    "licencja detektywa obowiązki ewidencja zleceń sprawozdanie komendant wojewódzki policji detektyw prowadzenie dokumentacji",
+    "busy tachograf 1 lipca 2026 przesunięty termin G2V2 oprogramowanie do rozliczania czasu pracy kierowców małe firmy transportowe",
+    "licencja na przewóz rzeczy Rejestr Przedsiębiorców Transportu Drogowego zarządzający transportem certyfikat kompetencji zawodowych małe firmy obowiązki sprawozdawcze ITD",
+    "kasa fiskalna wirtualna e-paragon obowiązek 2026 2027 nowe zwolnienia usługi szamba parkingi kasa online przedsiębiorcy rozporządzenie 2026",
+    "dyrektywa efektywności energetycznej liczniki ciepła zdalny odczyt wspólnoty mieszkaniowe 2027 ustawa wdrożenie podzielniki kosztów Polska",
+    "program dla wspólnot mieszkaniowych harmonogram przeglądów książka obiektu budowlanego terminarz przeglądów aplikacja zarządca",
+    "elektroniczny dziennik połowowy statki poniżej 12 m Polska rybacy morscy 2026 aplikacja e-dziennik połowowy Ministerstwo Rolnictwa rybołówstwo przybrzeżne",
+    "gospodarstwa stawowe hodowla ryb rejestr ewidencja obowiązki dziennik połowów rybołówstwo śródlądowe rejestr rybacki operat rybacki zgłoszenie połowów",
+    "aplikacja dla rolników ewidencja nawożenia plan nawożenia azotem program azotanowy ekoschematy dokumentacja rejestr zabiegów",
+    "zdalne ciepłomierze wodomierze 2027 termin wymiany wspólnoty spółdzielnie koszty nowelizacja ustawy o efektywności energetycznej kary zarządca",
+    "system grafików dla firm ochroniarskich agencja ochrony program wykaz pracowników ochrony badania karalność grafik służb aplikacja"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b11"
+ },
+ "opus:poland:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no dedicated software, generator or SaaS. A gov.pl Wody Polskie page titled 'Legalizacja urządzenia wodnego' turned up in search, but my fetch only returned the generic gov.pl portal page. Whether there is an ePUAP form or e-submission was not verified. The existing alternatives are licensed hydrogeologists and operat writers, drilling firms (for example the dambat.pl blog guide) and advisory blogs (ongeo.pl, which sells plot reports, not legalisation). An expired pepper.pl post advertised 'darmowe zalegalizowanie studni' but did not say who offered it. Wody Polskie's own guidance and the local nadzór wodny are free alternatives for the paperwork. The professional documentation step is the real cost, and software cannot replace it.",
+   "duty": "Art. 524a Prawo wodne, added by the Ustawa z 19.06.2026 o zmianie ustawy Prawo wodne (Dz.U. 2026 poz. 1033), which the President signed. It took effect on 17 or 18 Aug 2026 (sources differ), and I could not read the official PDF to settle the date. Owners of groundwater intakes built without a water permit or notification before the act took effect are exempt from the legalisation fee (about PLN 6,600) and from the art. 472aa administrative penalty (500% of the variable abstraction fee, min PLN 5,000, max PLN 1M) if they file a complete legalisation application with Wody Polskie water supervision (nadzór wodny) by 31 Dec 2027. Earlier drafts said 30 Sep 2027. Each water installation needs its own application. Exemption from the permit applies below 5 m3/day (annual average); 30 m depth is the reported threshold. It is a one-off duty, not recurring. Media report a case in which a farmer was fined PLN 60k.",
+   "market": "There is no official count. Press estimates (from coverage of the bill) say up to about 40,000 farms could benefit, plus non-farm owners. Other press speaks of 'thousands' of owners and 'hundreds of thousands' unaware of the rules. Wody Polskie reportedly imposed about PLN 14M in fines for illegal groundwater abstraction over two years. I found no register-based figure.",
+   "reason": "The duty is real. The 19 Jun 2026 amendment (Dz.U. 2026 poz. 1033) adds art. 524a Prawo wodne, which waives the roughly PLN 6,600 legalisation fee and the PLN 5,000 to 1M fines if a complete application reaches a Wody Polskie water-supervision unit by 31 Dec 2027. Sources disagree on the entry-into-force date (17 or 18 Aug 2026). I found no SaaS, document generator or free state tool, but the core job is an operat wodnoprawny or hydrogeological documentation, which needs a licensed professional. Software adds little. It is a one-off with no recurrence, and the only market figure is about 40k farms (a press estimate). Buyers are scattered rural owners, best reached through drillers. The revive is justified as a deadline-driven one-off, but the score stays low.",
+   "searches": 6,
+   "sources": "https://muratordom.pl/prawo/formalnosci-budowlane/masz-nielegalna-studnie-bedziesz-mogl-ja-teraz-zglosic-nowelizacja-prawa-wodnego-wchodzi-w-zycie-17-sierpnia-2026-aa-Vvs4-sF9i-2WSK.html ; https://www.infor.pl/akt-prawny/DZU.2026.215.0001033,metryka,ustawa-o-zmianie-ustawy-prawo-wodne.html ; https://eli.gov.pl/api/acts/DU/2026/1033/text/T/D20261033L.pdf ; https://www.tvp.info/94250005/abolicja-dla-wlascicieli-niezgloszonych-studni-senat-za-zwolnieniem-z-kar-przy-legalizacji-niezarejestrowanych-dotad-studni-konieczny-wniosek-do-konca-2027-r ; https://blog.ongeo.pl/abolicja-nielegalna-studnia-legalizacja-prawo-wodne-2026 ; https://www.infor.pl/prawo/nowosci-prawne/7485151,nowa-ulga-dla-posiadaczy-studni-ktora-wzbudza-kontrowersje-zwolnienie-z-oplaty-i-mozliwosc-unikniecia-nawet-60-tys-zl-kary.html ; https://api.sejm.gov.pl/sejm/term10/interpellations/18173/body ; https://dambat.pl/en/blogs/news/does-the-well-need-to-be-reported-legalization-of-deep-wells-in-2026 ; https://www.pepper.pl/promocje/darmowe-zalegalizowanie-studni-w-gospodarstwie-1331204 ; https://www.gov.pl/web/wody-polskie/legalizacja-urzadzenia-wodnego",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b11"
+ },
+ "opus:poland:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "AutoSoft (iautosoft.pl/cepik.html), a \"Program dla Stacji Demontażu Pojazdów\", claims full two-way CEPiK 2.0 integration for SDP with real-time data exchange. It handles the certificate set-up: you generate the CSR in the program, apply through the OWoC service and load the .p12 file. Its pricing is not public. The ministry FAQ says ready-made products are on the market and that integration is the producer's job. A software vendor had to be in place by the 30 Jun 2026 deadline, and the workshops told stations to apply for production certificates by 15 Jun 2026. So the forced-purchase wave has already passed and stations are now locked into vendors. I did not find a public list of vendors, so the number of other integrated producers is unverified.",
+   "duty": "Confirmed and in force in Poland. The Minister of Digital Affairs notice of 28 Aug 2025 (Dz.U. 2025 poz. 1227) set 30 Jun 2026 as the go-live date for dismantling stations (SDP) and collection points (PZP) to send dismantling and incomplete-vehicle data to CEP. The official CEPiK FAQ (gov.pl) confirms the production environment has been available since 30.06.2026. Stations must send each certificate (ioDP) \"niezwłocznie\" (without delay), or within 3 working days if a failure outside their control prevents it. CEPiK offers only an API, with no state app and no web form. Each user needs their own SSL certificate on a crypto card, and each site needs a VPN certificate; both are valid for 2 years. Stations must buy software from the market. The FAQ also says the law sets no penalty for late transmission. The certificate templates and a separate register for each certificate type are set by Dz.U. 2026 poz. 857 (claimed; I saw it only in search results). BDO vehicle cards continue.",
+   "market": "I found no current register count. The latest figure I found, FORS data cited in search results, is about 924 stations and 134 collection points at the end of 2014, so roughly 1,000 to 1,100 businesses. The current figure would be in the voivodeship marshals' lists (wykazy marszałków), which I did not reach. About 585,562 cars were dismantled in 2025, according to CEPiK data reported by Interia.",
+   "reason": "The duty is real and recurring: every dismantling certificate has to go to CEPiK by API, and that can only be done through third-party software. But the buying trigger (30 Jun 2026) has already passed. Stations had to have integrated software and certificates by mid-June 2026, and at least one dedicated SDP vendor (AutoSoft) openly claims CEPiK 2.0 integration. The market is small, at roughly 1,000 businesses, and the law sets no penalty for late transmission. Building it means getting test-environment access, handling crypto cards and VPN, and keeping up with API changes, which is not a simple MVP. A late entrant could only win switchers from weak incumbents. That leaves a small niche with an incumbent already in place, so this is refuted as an open gap.",
+   "searches": 6,
+   "sources": "https://eli.gov.pl/eli/DU/2025/1227/ogl/pol/pdf ; https://www.gov.pl/web/cepik/pytania-i-odpowiedzi ; http://iautosoft.pl/cepik.html ; https://ekoauto.org/wp-content/uploads/2026/05/Prezentacja_SDP_PZP_Warsztaty_20260430.pdf ; https://motoryzacja.interia.pl/wiadomosci/news-masz-stare-auto-na-zlom-od-30-czerwca-zniknie-uciazliwy-obow,nId,23490443 ; https://api.sejm.gov.pl/eli/acts/DU/2026/857/text.pdf",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b11"
+ },
+ "opus:poland:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Polish commercial product found that advertises generating or exporting the wykaz umów to UFG. Searches covering Merlinx, booking systems, a 'TFG module' and 'wykaz umów' turned up only generic travel software (PHPTRAVELS, Anolla). Merlinx's export capability is still unknown. The main substitute is the free state option: firms can keep the register directly in the UFG system, and the ZPUTFG platform handles declarations and reports. That covers the core job manually for low-volume agencies. No UFG import format (CSV/XML) or API documentation was found publicly, which is a risk for an MVP.",
+   "duty": "Confirmed (Polish law, in force). Dz.U. 2025 poz. 1806 was published 17 Dec 2025. Its general start date is 1 Jan 2026, and selected provisions apply from 1 Jul 2026. The consolidated text is Dz.U. 2026 poz. 925, with the law as it stood on 1 Jul 2026. Under the new art. 9 ust. 2a, organisers and linked-travel-service facilitators who keep the contract register (wykaz umów) outside the system in art. 7 ust. 1 pkt 3 lit. a must send it through that system by the 14th of each month for the previous calendar month. Under ust. 2b, data already in the system must be updated within 14 days of a change. Under ust. 2c-2d, if a firm defaults, UFG issues a call through the system with a deadline of up to 14 days and notifies the marshal. UFG can then ask the marshal for an administrative decision. Search summaries indicate the register fields now include the contract type and subject, revised price and place fields, and a new pkt 10 on whether advance payments (przedpłaty) are collected. The pre-2026 register already had to list the dates and amounts of advance payments actually received (2016 UFG presentation). That supports the chamber's point that payments are reported, though the exact current wording was not read. The deletion and 3-year ban were not checked in the statute text: the PDFs could not be parsed. They rely on the ministry's interpellation reply cited in the claim. Monthly TFG/TFP contribution declarations already existed.",
+   "market": "About 5,000 tour organisers and linked-travel-service facilitators, per the ITRP letter of 2 Jun 2026, holding ~932 mln PLN in TFG/TFP accounts. This was not checked against the CEOTiPUNPUT register count. The share that keeps the register outside the UFG system, and so faces the monthly transfer, is unknown.",
+   "reason": "The duty is real and in force. It comes from art. 9 ust. 2a-2d of the tourist events act as amended by Dz.U. 2025 poz. 1806, which applies from 1 Jul 2026. A firm that keeps its contract register outside the UFG system must send it through that system by the 14th of each month and update changes within 14 days. If it doesn't, UFG issues a call and then asks the marshal for a decision. I found no commercial product that exports this register to UFG. The free UFG system lets firms keep the register directly in it, which is a manual substitute for micro agencies with few contracts. The upload format, an API and Merlinx support remain unverified. The buyer group (~5,000 firms) is reachable through ITRP, but its willingness to pay is uncertain.",
+   "searches": 6,
+   "sources": "https://eli.gov.pl/api/acts/DU/2025/1806/text/I/D20251806.pdf ; https://api.sejm.gov.pl/eli/acts/DU/2026/925/text/O/D20260925.pdf ; https://eli.gov.pl/eli/DU/2025/1806/ogl ; https://ttgpolska.pl/wp-content/uploads/2026/06/stanowisko-itrp-nowelizacja-ustawy-tfg.pdf ; https://api.sejm.gov.pl/sejm/term10/interpellations/attachment/ATTDWUHSJ/i18287-o1.pdf ; https://files.lubuskie.pl/sites/1/cms/szablony/123/pliki/tfg_prezentacja_15112016.pdf ; https://www.gov.pl/web/popcwsparcie/zintegrowana-platforma-uslug-turystycznego-funduszu-gwarancyjnego-zputfg ; https://standardyprawa.pl/akt/444/art/51607",
+   "suggested_score": 5,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b11"
+ },
+ "opus:poland:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated Polish tool for the municipal registration number was found. Searches for Hotres, Smoobu and IdoBooking found no confirmation that they offer a registration-number field, so this is unverified, but channel managers will very likely add one. Tax and legal firms (iFirma, Captain Legal, MDDP, Podatnik.info) already publish guidance and could offer done-for-you registration. Whether the state builds a free CWTON/ewidencja e-form is not confirmed, but the bill design (gmina-run, numbers issued centrally) makes a free state channel likely.",
+   "duty": "Not yet in force. Druk 2865 (UC135, amending the hotel services act) would require an entry in a gmina-run ewidencja/CWTON and a registration number from the wójt, burmistrz or prezydent miasta, shown in every listing. It would also require house rules, a 24h contact, a visible notice outside the unit and a fire-safety declaration. Fines would be up to 50,000 PLN, and a fee is reportedly charged for the entry and for changes. Status: first reading with autopoprawka 2865-A on 2 Sep 2026. After the second reading in October 2026 the bill went back to committee instead of to a vote. Finwire (6 Oct 2026) forecasts passage in H1 2027. The 1 Jan 2028 ban by wspólnoty/municipalities is planned, with a majority of all eligible voters required. EU Reg. 2024/1028 has applied since 20 May 2026, but Poland has not set up the register or a single digital entry point, so hosts cannot get numbers yet. The existing gmina ewidencja under the current hotel services act is already in force for some objects (Kraków accepts applications electronically, by post or in person). Recurrence for hosts looks low: a one-off registration plus updates. No sources found on recurring host reports; platforms pass nights and guests to gminas.",
+   "market": "About 65,000 flats were offered for short-term rental in 2024, nearly 60,000 of them on Airbnb (estimates from the Polish Short-Term Rental Association, PSWK, cited by Demagog and Finwire). Mieszkanicznik estimates about 60,000. Eurostat counts 44.4m platform nights in Poland in 2025. Many of these are professional operators, not private hosts.",
+   "reason": "The duty is not yet law. Druk 2865 went back to committee after the October 2026 second reading, and passage is forecast for H1 2027, so dates and the final procedure are unknown. For hosts the core job is mostly a one-off registration with a gmina, plus putting the number in listings. Platforms carry the recurring data reporting. A free state register (CWTON) is planned, and channel managers will likely add the number field. The market is about 65,000 units, many run by managers who already use PMS tools. Pain is high once the rule is enforced (fines up to 50k PLN), but recurrence and willingness to pay for software are low. A one-off registration service could work in a short window. Worth watching, not building now.",
+   "searches": 6,
+   "sources": "https://api.sejm.gov.pl/sejm/term10/proceedings/64/2026-09-02/transcripts/230 ; https://finwire.pl/artykuly/najem-krotkoterminowy-2026-ustawa-utknela-drugie-czytanie-zakaz-wspolnot-2028 ; https://muratordom.pl/ludzie-i-firmy/wynajmujesz-mieszkanie-turystom-musisz-je-zarejestrowac-projekt-ustawy-o-najmie-krotkoterminowym-przewiduje-wysokie-kary-aa-Yp5n-iqTC-Sds8.html ; https://forsal.pl/nieruchomosci/aktualnosci/artykuly/11276349,rzad-przyjal-projekt-najem-krotkoterminowy-zostanie-objety-centralnym.html ; https://www.captain.legal/pl/blog/cwton-najem-krotkoterminowy-polska/ ; https://bip.krakow.pl/uslugi/WT-1 ; https://demagog.org.pl/wypowiedzi/kto-korzysta-z-najmu-krotkoterminowego-sprawa-jest-nieoczywista/ ; https://comparic.pl/historyczny-awans-polski-w-turystyce-wyprzedzilismy-chorwacje-z-wynikiem-prawie-45-mln-noclegow/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b11"
+ },
+ "opus:poland:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Polish tool found that keeps the statutory staff register, ID-card log, criminal-record dates or qualification and exam expiry. Anolla (Polish-language, free plan) does guard scheduling and bookings; it mentions training and certificates in passing but not the statutory register. ShiftFlow does time tracking for guards. Ajax PRO Desktop is an alarm-company platform with staff roles. Generic HR file software (e.g. Asystent Akta Osobowe) has nothing specific to security. Foreign products such as Guardhouse (Australia, licence checks) and Trackforce are not adapted to Polish rules. Large Polish HR/ERP suites were not checked. There is no free state tool for the agency-side register; the police keep the qualified-guard list.",
+   "duty": "Real, under the ustawa z 22.08.1997 o ochronie osób i mienia (consolidated text Dz.U. 2025 poz. 532, which exists). Agencies must keep personnel documentation, including the staff register (wykaz pracowników ochrony) with name, birth details, address, PESEL, date of qualified-list entry and the authority that made it, ID card (legitymacja) number, contract start and end dates and criminal-record check dates. They must also keep a log of issued, exchanged and returned ID cards (Dz.U. 2017 poz. 1306/1307), on paper or electronically. Records are kept 5 years after the business closes, and the agency must notify the licensing authority (organ koncesyjny) when it starts, suspends or ends the activity. The 14-day notice in art. 18 ust. 3 covers changes to concession data under ust. 1 pkt 1, 1a, 2 and 4 (owners, managers and the qualified persons among them), not every change of staff. A separate 14-day duty falls on the qualified guard personally, who must report changes to the voivodeship police commander. Medical and psychological exams are every 3 years per a secondary commentary, not checked in the statute. Not verified: the current wording of the documentation article (the lexlege fetch failed), penalties and revocation grounds, and how often criminal-record re-checks are required. Frequency is mostly event-driven (hires, exits, expiries) plus police and ministry inspections.",
+   "market": "No current count found. Wprost (around 2000) put concessions at about 8,000. The ministry tracks concession holders in an e-koncesje system but no public total was found. Oferteo lists 3,331 security firms, which is a directory, not the register. The sector is dominated by large groups (Impel, Solid, Konsal), and the share of tiny agencies is unknown. A rough estimate is a few thousand concession holders; not verified.",
+   "reason": "The duty exists, but it is mostly event-driven record-keeping rather than a recurring filing. Agencies must keep a staff register (wykaz pracowników ochrony) with PESEL, qualified-list entry, ID card number, contract dates and criminal-record check dates. They also keep a log of issued and returned guard ID cards (Dz.U. 2017 poz. 1306/1307) and retain records for 5 years. The claim overstates the 14-day rule (art. 18 ust. 3). It covers changes to concession data, such as owners or managers on the qualified list, not every guard hire. Penalties and the current consolidated text (Dz.U. 2025 poz. 532) were not checked. No Polish tool for the register or expiry tracking was found; Anolla and ShiftFlow only do scheduling. The number of firms is unknown, and pain and willingness to pay look modest.",
+   "searches": 6,
+   "sources": "https://www.prawo.pl/biznes/od-1-stycznia-przedsiebiorcy-swiadczacy-uslugi-ochrony-maja-nowe-obowiazki,209752.html ; https://www.infor.pl/akt-prawny/DZU.2025.114.0000532,ustawa-o-ochronie-osob-i-mienia.html ; https://standardyprawa.pl/akt/296/art/37982 ; https://eli.gov.pl/api/acts/DU/2017/1307/text.html ; https://eli.gov.pl/api/acts/DU/2017/1306/text.html ; https://www.gov.pl/web/mswia/uzyskaj-koncesje-na-wykonywanie-dzialalnosci-gospodarczej-w-zakresie-uslug-ochrony-osob-i-mienia ; https://www.wprost.pl/5672 ; https://www.oferteo.pl/agencje-ochrony ; https://anolla.com/pl/oprogramowanie-dla-ochrony ; https://www.shiftflow.app/pl/industries/security ; https://ajax.systems/pl/pro-desktop/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b11"
+ },
+ "sonnet:poland:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "market": "Not counted this session. The register is held by district vets and a public GIW apiary register exists. Beekeeper count is unverified.",
+   "reason": "Duty is real: Animal Health Act of 21 Nov 2025 (Dz.U. 2025 poz. 1795, in force 18 Mar 2026), art. 68 pt 4, requires apiary location and hive count to be sent to the district vet by 31 Mar and 30 Sep. Registration is under Regulation Dz.U. 2026 poz. 292. Only one PLW notice was fetched, and it names no penalties. Submission is a simple form, in person or by e-Doręczenia/Profil Zaufany. Competition: hive-log apps such as BeeConnect exist, but none does the vet report. The pain is low: a hobbyist sends a two-number form twice a year and will pay little. The market is large (many tens of thousands of beekeepers) but fragmented. Distribution through beekeeper associations is possible. The idea is a weak standalone product and fits better as a feature of a hive-record app.",
+   "searches": 2,
+   "sources": "https://samorzad.gov.pl/web/gmina-zabrodzie/komunikat-powiatowego-lekarza-weterynarii-w-wyszkowie-dla-pszczelarzy ; https://apps.apple.com/pl/app/beeconnect/id6743763119 ; https://www.obi.pl/porady-i-inspiracje/ogrod-i-wypoczynek/zwierzeta-w-ogrodzie/wymagania-prawne-i-przepisy-dotyczace-hodowli-pszczol-w-polsce",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b11"
+ },
+ "sonnet:poland:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The AML duty on brokers (ustawa AML of 1 Mar 2018, art. 2 ust. 1) is real, with fines up to 1 mln PLN (art. 150 ust. 2), per rpms.pl. I could not confirm the 31 Dec 2026 identification-form deadline in a primary source. A second source (dudkowiak.com) describes a draft (UC75) with SIGIIF registration of \"other\" entities on 29 Oct-11 Nov 2026, so the timeline is unstable. The duty is mostly one-off plus procedures, not recurring. Competition is crowded: procedure packs (Akademia LTCA, RPMS), Comarch apfino for accounting offices, and generic AML tools. The state's own SIGIIF form is free. Willingness to pay is low, so it is a thin niche.",
+   "searches": 3,
+   "sources": "https://rpms.pl/formularz-identyfikacyjny-instytucji-obowiazanej-do-giif/ ; https://www.dudkowiak.com/blog/aml-2026-amendment-new-crbr-rules-and-the-sigiif-system/ ; https://akademialtca.pl/sklep/procedury-aml-pakiet-pelny ; https://ttms.com/pl/ryzyka-aml-w-branzy-nieruchomosci-jak-automatyzacja-zmniejsza-podatnosc-na-naduzycia/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b11"
+ },
+ "sonnet:poland:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "EUDR (Reg. 2023/1115 as amended by 2025/2650, published 23 Dec 2025) is in force. Application dates are 30 Dec 2026 for large and medium firms and 30 Jun 2027 for micro and small firms. One adviser says micro and small timber firms start on 30 Dec 2026. I did not check this against the regulation text. The amendment puts the DDS duty only on the first operator placing goods on the EU market. Downstream traders, who are most small roasters, chocolate makers and furniture sellers, are exempt from filing their own DDS. So the buyer group is mostly not an operator, and the \"simplified declaration\" for micro operators was not confirmed. Competition: global platforms such as Tracextech already offer EUDR furniture and wood DDS and supplier data collection for Poland, plus Polish consultancies (Akademia LTCA, Crowe, Grant Thornton). I found no Polish register count of small firms. A Polish implementing act is still a draft. Demand is thin and dates keep changing.",
+   "searches": 2,
+   "sources": "https://trade.ec.europa.eu/access-to-markets/pl/news/opoznienie-do-grudnia-2026-r-i-inne-zmiany-we-wdrazaniu-rozporzadzenia-eudr ; https://www.gov.pl/web/ijhars/eudr ; https://tracextech.com/?p=25619 ; https://akademialtca.pl/blog/eudr-w-praktyce-jak-ocenic-obowiazki-swojej-firmy-w-5-krokach ; https://www.crowe.com/pl/insights/rozporzadzenie-eudr-nowe-obowiazki-dla-przedsiebiorcow",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b11"
+ },
+ "sonnet:poland:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: the 2015 act on ozone-depleting substances and F-gases (art. 19 CRO, art. 39 reports) requires operators to keep device cards in CRO (run by ICHP; threshold 3 kg or 5 t CO2e). The annual BDS report is due 28 Feb. CRO was updated in March 2024 for Reg. 2024/573. I could not confirm current penalty amounts, current report scope, operator counts, or a commercial competitor. The free state CRO and BDS cover the core filing. No dedicated servicer software was found in 3 searches, but the search was weak. Real pain is on servicers, who often enter data on the client's account. Buyers are fragmented, with low willingness to pay. Niche, so a low score.",
+   "searches": 3,
+   "sources": "https://www.gov.pl/web/klimat/centralny-rejestr-operatorow-cro ; https://www.gov.pl/web/klimat/sprawozdania-w-zakresie-f-gazow-i-szwo-do-bazy-danych-sprawozdan5 ; https://viessmann-serwis.pl/pdf/fgazy_dla_instalatora.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b11"
+ },
+ "sonnet:poland:B7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Dental X-ray rooms need a permit or notification under Prawo atomowe, and operational tests are set by the 2022 Health Ministry regulation (Dz.U. 2022 poz. 2759, in force from 28 Dec 2022). I could not confirm the current test frequencies or penalties. Older sources give 12 to 24 months for specialist tests, but those are for older or draft rules. I found no Polish software product, and no free state tool, for dental X-ray records. Service firms with medical physicists and radiation protection inspectors probably do the testing, but I found no specific offers. No count of dental X-ray rooms was found; PAA reports over 4,000 units in all sectors. The work is physical measurement done by licensed labs, not software. Test intervals of 1 to 2 years make it infrequent, and the buyer base is fragmented.",
+   "searches": 4,
+   "sources": "https://eli.gov.pl/api/acts/DU/2022/2759/text.html ; https://www.infor.pl/akt-prawny/DZU.2022.361.0002759,rozporzadzenie-ministra-zdrowia-w-sprawie-testow-eksploatacyjnych-urzadzen-radiologicznych-i-urzadzen-pomocniczych.html ; https://primadent.busko.pl/informacja_rtg.pdf ; https://rtg.ifj.edu.pl/artykuly/testy_specjalistyczne.pdf ; https://www.prawo.pl/kadry/zmiana-czestotliwosci-testow-urzadzen-radiologicznych,191063.html",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b11"
+ },
+ "sonnet:poland:GAPS3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Vans of 2.5-3.5 t on international haulage need a G2V2 tachograph from 1 Jul 2026, and Infor and Trans.info report fines up to 12k PLN. I found no postponement. Exemptions exist for own-account use, domestic-only work and vehicles carrying up to 9 persons. The core job is already served. Tachospeed Expert (14-day demo), Webfleet Tacho Manager (download, analysis and archiving, with data kept for at least 2 years), Inelo TachoZdalnie/TachoReader remote download, and the MT TACHO smartphone card reader all do it. Prices were not found. I did not find a register count; the claim's 40k vehicles is unchecked. Only a thin cheap layer for 1-3 vans might remain, with weak differentiation.",
+   "searches": 2,
+   "sources": "https://www.infor.pl/prawo/nowosci-prawne/7481724,tachografy-w-busach-dmc-2535-tony-obowiazkowe-od-lipca-2026-r-jest-kilka-wyjatkow-kara-12-tys-zl-za-brak-nowoczesnego-urzadzenia-g2v2.html ; https://trans.info/pl/brak-tachografu-moze-kosztowac-nawet-12-000-zl-co-zmieni-sie-dla-przewoznikow-od-1-lipca-2026-r-488292 ; https://media.webfleet.com/fl_attachment/media/doc/datasheets/tacho-manager/wf-tacho-manager.pl.pdf ; https://tachospeed.pl/?p=122024 ; https://faq.inelo.pl/article-tags/tachograf ; https://trans.info/pl/odczyt-karty-kierowcy-w-trasie-teraz-wystarczy-smartfon-2-500941",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b11"
+ },
+ "sonnet:poland:GAPS6": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "ista, Techem, Orange IoT remote-reading platforms",
+   "duty": "Art. 16 of the 2021 amendment (Prawo energetyczne art. 45a ust. 7a): replace non-remote meters by 1 Jan 2027",
+   "market": "not_reached: no register count found",
+   "reason": "The duty looks real. Art. 16 of the 20 April 2021 amendment requires owners or managers of multi-unit buildings to replace pre-22 May 2021 heat meters, cost allocators and hot-water meters with remote-read ones by 1 Jan 2027. I found no sign the deadline moved, but the secondary sources (media, a ministry petition reply) were not checked against the statute text. The 10k PLN fine is media-reported only and not confirmed in the law. The rule is a one-off deadline, not recurring. It is a hardware swap handled by ista, Techem and Orange IoT, which bundle reading apps and billing, so a tracker adds little. The deadline passes within about 12 weeks, so there is little time to sell. I did not count buildings (no register or statistic found). The claim is therefore unverifiable on market size and competition detail; the score stays at 3.",
+   "searches": 3,
+   "sources": "https://www.gazetaprawna.pl/biznes/energetyka/artykuly/11199649,sejm-przyjal-zmiane-ustawy-o-efektywnosci-energetycznej.html ; https://bip.mos.gov.pl/fileadmin/user_upload/bip/skargi_wnioski_petycje/Petycje_2024/odpowiedz_na_petycje_nr_93.2024.docx ; https://www.orange.pl/duze-firmy/zdalny-odczyt ; https://www.ista.com/pl/uslugi/odczyt-zuzycia-wody/ ; https://muratordom.pl/instalacje/instalacja-wodna/juz-trwa-obowiazkowa-wymiana-wodomierzy-w-calej-polsce-kara-jest-sroga-nawet-10-tys-zlotych-aa-XiuM-rGzj-4iBa.html",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b11"
+ },
+ "triage:poland": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Revive K30: new statutory amnesty with hard 31 Dec 2027 cut-off makes many small well owners act at once.",
+     "ref": "K30"
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Licensed dismantlers and a CEP transmission duty differ from K28 scrap yards; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Recurring annual abstraction report; different buyer and duty from K30 drillers."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Beekeepers with recurring biannual reporting; not in known list."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Transport authorisation and journey logs differ from K25 IRZplus trader reporting."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Parishes and cemetery managers with annual and register duties; different buyer from K09/K19."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Retailer buyer-verification duty differs from K13 user-side records."
+    },
+    {
+     "decision": "known",
+     "id": "A8",
+     "reason": "Employment agencies, same buyer group as K10/K21.",
+     "ref": "K10"
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Recurring UDT inspection duty on small owners and housing communities; not known."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Small waterworks operators with recurring monitoring duty; unsure on scope, so keep for verification."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Taxi intermediaries with recurring register duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Small licensed exchange offices with register and AML duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Small antique dealers with register and AML duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Small vet practices with antimicrobial reporting duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Small travel agencies with monthly UFG reporting from 1 Jul 2026; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Registration and compliance for small hosts differs from K02 fee collection."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Small brokers and one-person offices with a 31 Dec 2026 deadline; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small NFZ providers with recurring slot feed duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Different buyer group from K04 sawmills, with a 30 Jun 2027 deadline for small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small F-gas equipment owners with annual report and device cards; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Dental practices with recurring X-ray records; new."
+    },
+    {
+     "decision": "known",
+     "id": "B8",
+     "reason": "Employment agencies, same buyer as K10 and the same duty as A8.",
+     "ref": "K10"
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small firms with annual wykaz to the marshal; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Associations and parishes organising camps with a notice duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Small alcohol sellers with annual declaration and instalments; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Small purchasers with annual KOWR contract reporting; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Small inspection stations with a new CEPiK duty; unsure, so keep."
+    },
+    {
+     "decision": "drop",
+     "id": "B14",
+     "reason": "One-off registration with no recurring filing and no deadline forcing many small firms to act at once."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Small producers with quarterly KOWR reports; weak but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Small security agencies with recurring register and notice duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Licensed detectives are sole traders with a register duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Small hauliers' tachograph duty differs from K05 bus timetable filing."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Cash-register duty differs from K24 septic quarterly reports and from KSeF."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Meter replacement by 1 Jan 2027 is a different duty from K17 and a deadline hits many communities."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS7",
+     "reason": "Same housing-community buyer and same building-log inspection duty as K17.",
+     "ref": "K17"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Small fishers and pond farms with a logbook duty; not in known list."
+    }
+   ]
+  },
+  "tag": "w2b11"
+ }
+}

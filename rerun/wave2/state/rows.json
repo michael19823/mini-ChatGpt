@@ -429,6 +429,70 @@
    "merge": 1
   }
  },
+ "netherlands": {
+  "batch": "w2b11",
+  "candidates": 37,
+  "checks": {
+   "opus": 5,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "GAPS5 Smart tachograph v2 download and driving-time compliance for small van operators",
+    "GAPS6 BKR / 3-uursregeling attendance log and PRK-VOG tracker for small kinderdagverblijf and BSO houders"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 5,
+   "disputed": 2,
+   "refuted": 3,
+   "refuted_on_challenge": 1,
+   "unverifiable": 3
+  },
+  "gaps": 6,
+  "id": "netherlands",
+  "leads": [
+   {
+    "challenge": "survives 3",
+    "final": "disputed",
+    "id": "A1",
+    "mark": "new",
+    "name": "C13 Gastouderbureau quality-law compliance tracker (training hours, coaching hours, pedagogical work plans, two-bureau cap)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "refuted 3",
+    "final": "refuted_on_challenge",
+    "id": "B1",
+    "mark": "new",
+    "name": "Energy-saving information duty (informatieplicht) filing pack for SMEs above 50,000 kWh",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "unclear 3",
+    "final": "disputed",
+    "id": "GAPS2",
+    "mark": "revive",
+    "name": "Hirer evidence dossier for zzp low-rate employment presumption and Wet DBA (small firms hiring zzp'ers)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "gapfill"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 28,
+   "known": 3,
+   "merge": 3
+  }
+ },
  "new-zealand": {
   "batch": "w2b7",
   "candidates": 38,
@@ -471,6 +535,56 @@
    "keep": 30,
    "known": 3,
    "merge": 1
+  }
+ },
+ "poland": {
+  "batch": "w2b11",
+  "candidates": 37,
+  "checks": {
+   "opus": 5,
+   "sonnet": 7,
+   "unverifiedByCap": []
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 2,
+   "disputed": 1,
+   "refuted": 2,
+   "refuted_on_challenge": 1,
+   "unverifiable": 6
+  },
+  "gaps": 6,
+  "id": "poland",
+  "leads": [
+   {
+    "challenge": "refuted 3",
+    "final": "refuted_on_challenge",
+    "id": "B1",
+    "mark": "new",
+    "name": "UFG contract-register (wykaz umów) monthly feed and payment-date reporting for small travel agencies",
+    "opus": 5,
+    "prov": 6,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "survives 3",
+    "final": "disputed",
+    "id": "GAPS1",
+    "mark": "new",
+    "name": "Security-agency compliance desk: wykaz pracowników ochrony, KRK re-checks, qualification and training expiry, 14-day licence-change notices",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "gapfill"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "drop": 1,
+   "keep": 32,
+   "known": 3
   }
  },
  "spain": {

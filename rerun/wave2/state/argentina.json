@@ -1,0 +1,647 @@
+{
+ "discover:A:argentina": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed desarmaderos and used-autoparts sellers (small family yards), plus the businesses that handle parts",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://www.argentina.gob.ar/normativa/nacional/norma-418349/texto ; https://www.argentina.gob.ar/normativa/nacional/norma-418350/texto ; https://www.argentina.gob.ar/normativa/nacional/norma-415881/texto ; https://dolarhoy.com/economia/digitalizan-desarmaderos-y-mejoran-trazabilidad-202584112811 ; https://cca.org.ar/wp-content/uploads/2025/10/DI-730-2025-RUDAC-DESARMADEROS.pdf",
+     "existing": "Competitor search 'software gestión desarmadero autopartes RUDAC' found no commercial product, only the rules (not conclusive). Generic autoparts ERP/stock tools not checked. DNRPA platform is the state channel.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "Different buyer (car dismantlers, not scrap and non-ferrous dealers) and different duty (RUDAC part traceability, not provincial scrap books). Related to K06.",
+     "name": "RUDAC digital dismantler operations book: vehicle-to-part traceability, part codes, photos and stock declaration",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Ley 25.761; Decreto 536/2025 (removed annual renewal, mandatory online baja and part declaration with photos, DNRPA part identification code); DNRPA Disp. 730/2025 (new TAD-based RUDAC regime) and 732/2025 (identifier model); Disp. 545/2025 (baja with part recovery); Disp. 123/2026 reportedly replaced the identifier. Police inspect stock. Records kept 10 years.",
+     "unchecked": "Exact current identifier (Disp. 123/2026) and whether DNRPA offers an API or bulk upload; number of registered desarmaderos; any unconfirmed registration deadline; whether DNRPA platform already handles most workflow for free; existing autoparts stock systems (e.g. ERP for repuestos) adding RUDAC modules."
+    },
+    {
+     "buyer": "Small faenadores: municipal and provincial abattoirs, matarifes and abastecedores with own slaughter; related carnicerías for REC",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://www.estudio-ofarrell.com/el-ministerio-de-economia-crea-un-nuevo-sistema-integral-de-faena-y-actualiza-el-regimen-de-trazabilidad-e-identificacion-de-carnes/ ; https://www.argentina.gob.ar/node/511831 ; https://bichosdecampo.com/trazabilidad-del-ganado-los-frigorificos-tendran-hasta-el-1-de-julio-para-adecuar-sus-sistemas-realizar-la-lectura-de-las-caravanas-electronicas-en-la-linea-de-faena-y-evitar-su-perdida/",
+     "existing": "State SIF/SIGICA portal; no private SIF bridge product found. Competitor search for this not run (budget). REC tooling unchecked.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "K03 is the producer/feedlot RFID reconciliation for the SENASA movement record; this is the slaughter-side buyer (faenadores) and duty (SIF records). Related to K03.",
+     "name": "SIF electronic slaughter records for small, municipal and provincial slaughterhouses and matarifes (stock, romaneo, REC, e-ID at line)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Min. Economía Res. 40/2026 (SIF, in force 1 Jan 2026; data is declaración jurada; physical stock and egress books replaced by digital 'Existencias de Carne'; REC mandatory); Res. 50/2026 requires reading electronic ID on the slaughter line from 1 Jul 2026 (already past). SENASA plants use SIGICA, treated as equivalent. National level, enforced by DNCCA.",
+     "unchecked": "Whether the SIF web portal already offers batch upload or an API; number of small faenadores in scope; whether small municipal plants are in scope at the same dates; text of Res. 40/2026 and 50/2026 in Boletín Oficial (edition 337796, 27 Jan 2026); competitor search; RFID reader hardware vendors bundling this."
+    },
+    {
+     "buyer": "Small desagote and atmospheric-truck operators in Mendoza; generators that hire them (also similar municipal registers in Santa Fe/Rosario and OSSE manifest in Buenos Aires province)",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://www.sitioandino.com.ar/politica/la-legislatura-mendoza-regulo-el-transporte-efluentes-cloacales-e-industriales-controles-y-sanciones-n5721085 ; https://abogados.com.ar/mendoza-regula-toda-la-cadena-de-gestion-de-efluentes-cloacales-e-industriales/39159 ; https://www.rosario.gob.ar/web/sites/default/files/resolucion_camiones_atmosfericos.pdf ; https://www.osmgp.gov.ar/osse/wp-content/uploads/2025/06/INSTRUCTIVO-LIMPIEZA-TRATAMIENTO-Actualizado.pdf",
+     "existing": "No software found. Competitor search not run (budget).",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "K04 is a multi-jurisdiction hazardous-waste manifest router for transporters; this is non-hazardous sanitary effluent haulers under water-authority regimes. Related to K04.",
+     "name": "Mendoza Ley 9.706 atmospheric-truck register, manifest and canon for effluent haulers",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Mendoza Ley 9.706 (2026, provincial) creates the public Registro Provincial de Transportistas run by Dpto. General de Irrigación; no operation without valid registration; canon; press reports a load manifest with declaración jurada value and geolocation (one source did not mention manifest, so unverified). Santa Fe Res. 145/2007 requires municipal registers; OSSE requires a manifest at its plants.",
+     "unchecked": "Law publication date, reglamentación and registration deadline; whether the manifest is electronic and run by Irrigación; number of operators (likely hundreds in Mendoza only); other provinces copying; competitor search; municipal fragmentation."
+    },
+    {
+     "buyer": "Small livestock producers (and rural advisers who serve them) with RENSPA entry older than one year",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.agrolatam.com/actualidad/tramite-obligatorio-renspa-90-dias-productores-2026/ ; https://news.agrofy.com.ar/noticia/216308/nuevo-tramite-obligatorio-campo-senasa-fijo-plazo-90-dias ; https://www.cira.org.ar/?p=25976",
+     "existing": "Competitor search found no gestoría or software service; SENASA procedure is free and self-service. Timing is tight.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "known_note": "K05 is the agrovet/rural vet SIGTRAZAVET bridge; this is a one-off RENSPA data-update duty. Near K03/K05 buyer groups. Related to K05.",
+     "name": "RENSPA mandatory re-registration (done-for-you bulk service via agroveterinarias, agronomists and cooperatives)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "SENASA Res. 679/2026 (27-29 Jul 2026): all RENSPA producers with registration or last update older than 1 year must re-register within 90 calendar days or be blocked, then deregistered. Exempt: bovine and bubaline producers in FMD-vaccination zones if updated through SIGSA. Online with Clave Fiscal/ARCA or at SENASA offices. National. Deadline falls around late Oct 2026.",
+     "unchecked": "Exact entry-into-force date and deadline; whether beekeepers and other producers are in scope; whether the deadline is extended; if recurring annually afterwards (would raise score)."
+    },
+    {
+     "buyer": "Property administrators and small conservadora firms in CABA (buildings with lifts)",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://buenosaires.gob.ar/tramites/declaracion-de-elevadores-propietarios ; https://buenosaires.gob.ar/tramites/conservacion-y-mantenimiento-de-elevadores-alta-instalacion-validacion-empresas ; https://boletinoficial.buenosaires.gob.ar/normativaba/norma/228933",
+     "existing": "Free city portal; building-administration software likely to cover. Not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Annual elevator registration and conservation validation for CABA property administrators and small lift maintainers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "CABA Registro de Conservación de Elevadores (AGC; Res. 412-AGC-19 replaced Res. 430-AGC-13): QR oblea expires 31 Dec, renewal by 31 Mar; conservadora must validate or reject; owner prints and displays code.",
+     "unchecked": "Whether fee applies; scope outside CABA (provincial lift rules); boilers and pressure vessels not researched; competitor search not run (budget)."
+    },
+    {
+     "buyer": "Small jewellers, gold buyers and precious-metal traders (sujetos obligados)",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.marval.com/Publicacion/novedades-de-la-uif-sobre-sujetos-dedicados-a-la-compraventa-de-arte-joyas-y-bienes-suntuarios-16794 ; https://www.argentina.gob.ar/normativa/nacional/norma-397648/texto ; https://ferrere.com/es/novedades/nuevo-procedimiento-para-registro-como-sujetos-obligados-del-sector-comercio-de-joyas-piedras-y-metales-preciosos/ (Paraguay-related, SEPRELAD)",
+     "existing": "Generic AML/UIF compliance software exists (unchecked); likely a generic category. Competitor search not run (budget).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "AML compliance pack for small jewellers and precious-metal buyers (UIF Res. 54/2024 and 55/2024)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "UIF Res. 54/2024 and 55/2024 (March 2024) replaced Res. 28/2011; national; obligations for the whole production chain, registration and reporting.",
+     "unchecked": "Size thresholds and reporting frequency of Res. 54/55; number of small jewellers actually in scope; the 2025 Boletín Oficial notice; local competitors."
+    },
+    {
+     "buyer": "Clubs, cooperadoras and small associations and foundations in CABA registered with IGJ (usually served by an accountant)",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://www.consejosalta.org.ar/wp-content/uploads/igj-9.pdf ; https://www.ignacioonline.com.ar/fundaciones-vence-plazo-de-presentacion-de-declaracion-jurada-en-igj/",
+     "existing": "Mostly handled by accountants; no product found. Search not run.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "IGJ annual filing and compliance assistant for small asociaciones civiles and fundaciones",
+     "score": 3,
+     "status": "weak",
+     "trigger": "IGJ RG 9/2026 (published 2 Jul 2026) changed annual accounts submission (SODA, ARCA login; NIIF or NIIF for PyMEs); donation origin-of-funds and PEP declarations; UIF Res. 30/11 status. National level for IGJ jurisdiction (CABA); provincial registries differ.",
+     "unchecked": "Exact RG 9/2026 content and deadlines; number of IGJ entities; provincial equivalents; halal and kosher bodies; competitor search."
+    },
+    {
+     "buyer": "Small and artisanal food producers and importers",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.derechoenzapatillas.com/2026/decreto-697-2026-senasa-codigo-alimentario-argentino/ ; https://abogados.com.ar/nuevas-regulaciones-de-la-industria-alimenticia-emergentes-del-decreto-6972026/39788 ; https://allende.com/life-sciences/modificaciones-al-codigo-alimentario-argentino-y-al-sistema-nacional-de-control-de-alimentos-08-06-2026/",
+     "existing": "Not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Food producer registration transition (Decreto 697/2026, SENASA takes over RNE/RNPA)",
+     "score": 2.5,
+     "status": "unverified",
+     "trigger": "Decreto 697/2026 (3 Aug 2026): SENASA absorbs ANMAT/INAL registration, habilitation and inspection duties and creates a single national register of products and establishments; existing registrations keep validity. National.",
+     "unchecked": "Whether any recurring filing results; deadlines; provincial and municipal habilitation still needed; competitor search."
+    },
+    {
+     "buyer": "Workshops, used-vehicle dealers and autopart sellers in Buenos Aires province",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "https://intranet.hcdiputados-ba.gov.ar/proyectos/10-11D1044012018-04-1712-46-25.pdf (referenced text; secondary)",
+     "existing": "Not checked; no digital-book acceptance rule found.",
+     "known_id": "K06",
+     "known_mark": "known",
+     "known_note": "Same mechanism as K06 (police-rubricated books); different buyer; low value unless police accept digital books.",
+     "name": "Digital rubricated register book for used-car and autoparts trades under BA Ley 13.081",
+     "score": 2.5,
+     "status": "weak",
+     "trigger": "BA Ley 13.081: libro de registro foliado y rubricado by the local comisaría; Registro de Control de Comercios Vinculados a la Actividad de Automotores (Min. Seguridad). Provincial level.",
+     "unchecked": "Whether paper book is still required; enforcement level; whether Ley 13.081 is current."
+    },
+    {
+     "buyer": "Funeral firms operating in CABA",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/649537 ; https://boletinoficial.buenosaires.gob.ar/normativaba/norma/273107",
+     "existing": "Not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Funeral companies' annual declaración jurada and register in CABA",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley 4977 (Ley 6.588 consolidation) and DGCEM dispositions; annual DJ by TAD since Disp. 32/2023.",
+     "unchecked": "Other provinces and municipalities; cemetery burial book digitisation; size of market."
+    },
+    {
+     "buyer": "Veterinarias (comercios) selling psychotropic-containing veterinary products",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://e-legis-ar.msal.gov.ar/htdocs/legisalud/migration/pdf/3650.pdf ; https://www.cira.org.ar/es/servicios/normativas-servicios/resolucion/resolucion-61-2026/",
+     "existing": "Not checked.",
+     "known_id": "K05",
+     "known_mark": "known",
+     "known_note": "Same buyer group as K05 (rural vets and agrovets); different duty. Likely thin.",
+     "name": "Veterinary psychotropic recetario and semi-annual buyer list for veterinary shops",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "SENASA Res. 979/1993 (psychotropics, Ley 19.303); rubricated book and semi-annual list to Colegio/Consejo Veterinario (vigencia unconfirmed); SENASA Res. 11/2025 marco regulatorio for veterinary products.",
+     "unchecked": "Whether current; how many shops handle psychotropics; Colegio rules per province."
+    },
+    {
+     "buyer": "Small livestock hauliers (jaulas) and their clients",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.argentina.gob.ar/normativa/nacional/norma-417744/texto ; https://bichosdecampo.com/se-cierra-el-cerco-sobre-la-jaula-en-pocas-semanas-mas-senasa-no-autorizara-el-movimiento-de-hacienda-si-los-camiones-no-estan-debidamente-registrados",
+     "existing": "Generic fleet reminder apps (e.g. YoFacturo gestión de flota) exist; not checked for SENASA.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Related to K03 buyer ecosystem; small simple reminder use case.",
+     "name": "Animal-transport vehicle habilitation tracker (SENASA Res. 723/2025 linked to DT-e)",
+     "score": 2.5,
+     "status": "weak",
+     "trigger": "SENASA Res. 723/2025: habilitación and biennial rehabilitación of each vehicle; DT-e shows whether vehicle habilitation is valid or expired (reported 2025 plan, application dates unclear).",
+     "unchecked": "Enforcement dates; fee; number of vehicles."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing new beyond K16 (rejected offline). No search spent.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Nothing new beyond K06. Provincial registers confirmed: BA Ley 13.564 (libro foliado y rubricado por comisaría), Santa Fe Ley 14.191 (Rosario adhered 2023), Río Negro Ley 5669. National bill 4697-D-2024 only a project.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No pawnbroker-specific Argentine rule found. BA Ley 13.081 requires police-rubricated register book for used-vehicle and used-autopart trades; BA bills for used-phone register are projects only. Weak candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "UIF Res. 54/2024 and 55/2024 (replaced Res. 28/2011) put jewellers, precious-metal buyers and dealers in the AML sujetos obligados regime. Weak candidate listed; AML software competitor not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Strong: Decreto 536/2025 and DNRPA Disp. 730/2025 and 732/2025 created a fully digital RUDAC regime (TAD, part-level identification codes, photos, stock declaration); Disp. 123/2026 reportedly replaced the identifier. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "K03 known. New: SENASA Res. 723/2025 (biennial vehicle habilitation, linked to DT-e from 2025). RENSPA mandatory re-registration (Res. 679/2026). RUCA for consignatarios reportedly eliminated in 2025 (ARCA text, secondary source).",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Res. 40/2026 (SIF) in force 1 Jan 2026: electronic intake, slaughter authorisation, romaneo, daily meat stocks; physical books eliminated; REC mandatory; Res. 50/2026 requires electronic-ID reading on the slaughter line from 1 Jul 2026. Carnicerías RUCA (Res. 306/2018) status unconfirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Nothing new beyond K07. RENAPA free; 1,209 SENASA-approved extraction rooms (Res. 1186/2023); no 2026 change found.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Nothing new beyond K05. Context: SENASA Res. 11/2025 marco regulatorio for veterinary products; Res. 979/1993 psychotropic regime with rubricated recetario and semi-annual buyer list to Colegio (vigencia unconfirmed).",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Only Mendoza permit/restriction material (Irrigación resolutions; Res. 1542/17 request register). No driller licence or recurring small-business reporting found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "New: Mendoza Ley 9.706 (2026) creates Registro Provincial de Transportistas for atmospheric trucks with canon and traceability; Santa Fe Res. 145/2007 and Rosario municipal register; OSSE manifest. CABA pathogenic-waste register (Ley 154, Dec. 706/05) context for K04.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "CABA Registro de Conservación de Elevadores: QR oblea expires 31 Dec each year, renewal by 31 Mar; owner or administrator registers, conservadora validates. Boilers and pressure equipment not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Nothing concrete. ERAS covers only the AySA area; in BA province ADA/OCABA control cooperatives (Dec. 878/03, Ley 13.154). No small-system reporting duty or 2026 trigger found.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Nothing new beyond K01. No search spent.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Search returned mostly Spain and Peru. Only RENATRE registration of rural employers and contractors surfaced. No agency register or 2026 trigger found. Weak coverage.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "CABA only: Ley 4977 (consolidated Ley 6.588), funeral-company register, annual declaración jurada via TAD (Disp. 32/2023). Small and single-city. No digital burial-book rule found.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "IGJ RG 9/2026 (published 2 Jul 2026) changed annual financial-statement filing for asociaciones civiles and fundaciones via SODA with ARCA login; older IGJ origin-of-funds and PEP declarations. Halal and kosher not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "School transport is municipal and fragmented (Orán, Santa Fe, Gualeguaychú categories); fleet apps incl. YoFacturo gestión de flota exist. Grain CPE regime changed by RG Conjunta 5821/2026. No single 2026 trigger for small fleets found.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Nothing new. BCRA 2017 rules on arbolitos; municipal feria ordinances (e.g. Santa Fe Ord. 13.008, Dec 2024). No recurring register found.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Tattoo, driving schools, nurseries: municipal/provincial and fragmented (CABA Ley 1897, Ley 621, Mendoza three-agency approval). New: Decreto 697/2026 (3 Aug 2026) moves food registration to SENASA with a single national register. Hunting: national cotos and operators register, 5-year validity, annual update and insurance proof.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "registro único chatarreros metales no ferrosos desarmaderos ley 25.761 RUDAC inspección 2026",
+    "compraventa de oro joyerías registro UIF sujetos obligados resolución 2026 compradores de oro",
+    "SENASA registro transportistas de animales vehículos habilitación libro de movimientos matarifes 2026 resolución",
+    "pozos de agua perforistas registro de perforistas permiso uso de agua subterránea Mendoza Córdoba 2026",
+    "remises taxis transporte escolar habilitación municipal software gestión flota VTV CNRT minibus",
+    "cementerios privados servicios fúnebres registro habilitación libro de inhumaciones digital Argentina",
+    "asociaciones civiles IGJ balance anual UIF sujetos obligados fundaciones 2026",
+    "agencias de colocación servicios eventuales registro Capital Humano RENATRE contratistas 2026",
+    "ascensores conservadores registro libro de inspecciones CABA registro de conservación elevadores 2026",
+    "autoescuelas academias de conducir registro municipal software gestión",
+    "jardines maternales habilitación registro libro de inspecciones CABA 2026",
+    "camiones atmosféricos desagote pozos ciegos registro transportistas manifiesto",
+    "Mendoza ley 9706 camiones atmosféricos registro manifiesto Irrigación plazo inscripción",
+    "carnicerías matarifes abasto registro SENASA trazabilidad carne 2026 resolución",
+    "cooperativas de agua potable pequeñas ente regulador análisis de agua 2026",
+    "casas de empeño compraventa de usados libro rubricado policía registro Argentina",
+    "Sistema Integral de Faena SIF Resolución 40/2026 frigoríficos municipales matarifes plazo",
+    "elaboradores artesanales RNE RNPA pequeños productores alimentos registro 2026",
+    "apicultores RENAPA SENASA sala de extracción habilitación registro 2026",
+    "software sistema de gestión desarmadero autopartes RUDAC stock declaración jurada código identificatorio"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b29"
+ },
+ "discover:B:argentina": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Matriculated real estate brokers and brokerage firms (sales, and leases of 300 SMVM a year or more); the external reviewer applies above 875 SMVM or 50+ activities",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.marval.com/Publicacion/la-uif-actualiza-la-normativa-aplicable-a-los-agentes-o-corredores-inmobiliarios-15804 ; https://www.argentina.gob.ar/normativa/nacional/397424/texto ; https://www.consejosalta.org.ar/wp-content/uploads/UIF-93.pdf (context on related 2026 UIF changes). Competitor search 'herramienta online inmobiliarias prevencion lavado UIF matriz de riesgo' found only the FACPCE ITAER guide/matrix template, an Excel risk-matrix and the Registro de Propiedad's own matrix, and no dedicated broker SaaS.",
+     "existing": "FACPCE ITAER guide and matrix (free template), Excel matrices, advisory firms. No broker-specific SaaS found (not exhaustively checked).",
+     "known_mark": "new",
+     "name": "UIF compliance kit for small real estate brokers (self-assessment, external reviewer, monthly and annual reports)",
+     "score": 5,
+     "status": "promising",
+     "trigger": "Res UIF 43/2024 (national): biennial risk self-assessment filed by 30 April, external independent reviewer report within 120 days after, systematic monthly and annual reports, client risk segmentation, suspicious-transaction alert signals. First deadlines 30 Apr 2026 and 31 Aug 2026 have passed; the next cycle and follow-up inspections are ahead.",
+     "trigger_note": "",
+     "unchecked": "Number of obligated brokers; whether UIF's free reporting portal (SRO) covers the monthly and annual reports; whether UIF extended the 2026 deadlines (the consolidated text amended by Res UIF 56/2024 was not read); real estate software vendors (Tokko, Xintel and similar) adding AML modules; willingness to pay by small brokers."
+    },
+    {
+     "buyer": "Mutuales that run the ayuda economica (lending) service, plus small cooperatives and mutuales that must file assembly documents, accounts and the roll of members and authorities",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://www.argentina.gob.ar/normativa/nacional/norma-427021/texto ; https://abogados.com.ar/se-implementa-un-sistema-web-para-informar-ayuda-economica-mutual-facilitando-la-carga-de-datos-y-reemplazando-metodos-anteriores/39481 ; https://blogdelcontador.com.ar/sumario-a-cooperativas-y-mutuales-por-incumplimientos ; https://www.consejosalta.org.ar/wp-content/uploads/Res-2147-2025.-INAES.pdf",
+     "existing": "INAES provides its own web transmission (free). Competitor search 'mutuales ayuda economica regimen informativo INAES software gestion mutual' returned no software vendors, so mutual management software was not confirmed either way.",
+     "known_mark": "new",
+     "name": "INAES compliance desk for small co-operatives and mutuales (monthly web filing, CRS identification, member roll, assembly documents)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "INAES Res 1279/2026: monthly regime reported by web transmission within 20 business days of month end, from the July 2026 period, arrears must also use the new system, replacing spreadsheet upload; Res 1038/2026 (26 May 2026) member identification for automatic exchange of financial account information; Res 1687/2026 30-day cure period for lending mutuales; Res 756/2025 and 2147/2025 member and authorities roll; Res 878-879/2024 and 3208/2024 sumarios and suspensions of non-filers.",
+     "trigger_note": "",
+     "unchecked": "Count of active cooperatives and mutuales and how many are tiny; whether existing mutual management ERPs already export the INAES files; provincial bodies (local competent authority) also receive the filing; UIF obligations of mutuales and cooperatives not checked; willingness to pay by volunteer-run boards."
+    },
+    {
+     "buyer": "Small operators that buy, store, use or sell precursor chemicals (paint, cleaning, fertiliser, plastics, lab and workshop users, distributors of solvents such as methyl acetate, cyclohexane, styrene, carbon tetrachloride)",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://www.marval.com/Publicacion/precursores-quimicos-se-actualiza-el-listado-del-renpre-17568 ; https://cda.org.ar/detalle_noticia.php?id=42508 ; https://www.argentina.gob.ar/seguridad/renpre . Competitor search found Veriquim (commercial register of receipts/purchases with RENPRE web service; page referenced the older Res 900/12 so currency is unverified) and RENPRE's own Codigo de Conducta.",
+     "existing": "Veriquim (vendor page, possibly dated); RENPRE official procedures; consultants.",
+     "known_mark": "new",
+     "name": "RENPRE register and operations log for small chemical users (new 56 controlled substances)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Decreto 128/2026 (4 Mar 2026) replaced Annex II of Decreto 593/2019 adding 56 substances (31 List I, 25 List III) under Ley 26.045 so newly covered operators must register or re-register with RENPRE (Ministerio de Seguridad, national); Res MSEG 424/2026 (8 May 2026) updated the procedures manual of Res 1122/2019; operating unregistered, even mere possession, is an infraction.",
+     "trigger_note": "",
+     "unchecked": "Whether the decree sets a compliance window; how many small operators are newly covered; the exact operator category thresholds (pequeno operador) and monthly or annual operation reporting; whether RENPRE offers a free upload tool; Veriquim's current coverage and price."
+    },
+    {
+     "buyer": "Small and family wineries, viñateros and home winemakers in Mendoza, San Juan, Salta, Rio Negro etc.",
+     "category": "31. Wine and vine sector (INV): grape intake, harvest and production declarations",
+     "evidence": "https://www.cira.org.ar/es/servicios/normativas-servicios/resolucion/resolucion-3-2025 ; https://www.argentina.gob.ar/normativa/nacional/norma-345834/texto ; https://argentina.gob.ar/sites/default/files/2024/10/declaracion_jurada_elaboracion_de_vino_casero.pdf . Competitor search 'software bodega INV declaracion jurada ingreso de uva CIU CEC-01' found no software certified for the INV formats; only Spanish products (eVins from about EUR 40 a month, Bacosoft) with no stated INV export.",
+     "existing": "INV's own online services (servicios.inv.gob.ar, Clave Fiscal); Spanish winery software that does not appear to export INV formats; Argentine winery ERPs not searched.",
+     "known_mark": "new",
+     "name": "INV harvest and winery declaration bridge for small wineries and viñateros (CIU, CEC-01, CEC-05, vino casero)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Res INV 3/2025: CIU grape intake declaration transmitted within 48 h of arrival, unique numbers per vineyard; Res 35/2020 plus Dec 2024 change: weekly CEC-01, annual CEC-05 within six weeks after the last intake (some sources say five weeks, to be verified), CEC-04; home winemakers declare before 1 June each year; keep copies for 5 years; false or late declaration is an infringement of art. 24 Ley 14.878.",
+     "trigger_note": "",
+     "unchecked": "Whether INV exposes an API or batch upload; Argentine winery ERPs (large winery software may already do it); seasonality (harvest Feb-Apr); number of small wineries and viñateros; discrepancy between five and six weeks for CEC-05."
+    },
+    {
+     "buyer": "Licensed gun shops and ammunition or special materials retailers (usuarios comerciales)",
+     "category": "32. Firearms, ammunition and controlled materials dealers (ANMaC)",
+     "evidence": "https://www.argentina.gob.ar/registrar-operaciones-comerciales-de-municiones-y-material-de-uso-especial ; https://www.argentina.gob.ar/normativa/nacional/norma-202924/texto . Competitor search 'sistema gestion armeria software libro de registro SIGIMAC MUCOM' found no private Argentine armeria software; only the official online SIGIMAC and foreign institutional armory systems.",
+     "existing": "SIGIMAC-MUCOM (free, web, state); no commercial local product found.",
+     "known_mark": "new",
+     "name": "ANMaC armeria daily register and quarterly ammunition book keeper",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Disp 643/2012 SIGIMAC-MUCOM daily recording of firearms and main parts; paper official books for ammunition and special materials with periodic and quarterly reports to ANMaC; Res 149/2024 showroom and storage security conditions; Res 45/2025 Tenencia Express for sales.",
+     "trigger_note": "",
+     "unchecked": "Number of armerias (likely a few thousand at most, unverified); whether ANMaC accepts files or only manual entry; paper-book legal requirement may block a digital-only product; policy change risk."
+    },
+    {
+     "buyer": "Civil associations, foundations and legal entities, plus third-party growers, registering under REPROCANN",
+     "category": "33. Medical cannabis growers' associations and cultivators (REPROCANN)",
+     "evidence": "https://www.anbariloche.com.ar/noticias/2025/05/23/98379-el-gobierno-modifico-los-requisitos-para-el-uso-y-cultivo-de-cannabis-medicinal ; https://www.boletinoficial.gob.ar/detalleAviso/primera/325794/20250523 ; https://allende.com/life-sciences/nuevo-regimen-de-acceso-al-cannabis-medicinal-08-26-2024/",
+     "existing": "Ministry of Health portal (free); no competitor search run (budget).",
+     "known_mark": "new",
+     "name": "Medical cannabis growers' associations: REPROCANN legal-entity registration and annual renewal file",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Res MSAL 3132/2024 required an annual vigencia certificate for associations and closed new registrations; Res 1780/2025 (May 2025) repealed it and reopened registration for third-party growers and legal entities; one-year authorisation for legal entities reported.",
+     "trigger_note": "",
+     "unchecked": "Whether annual renewals still exist after Res 1780/2025; association count; patient data sensitivity and reputational or legal risk; competitor search."
+    },
+    {
+     "buyer": "Small acopios, farmer plants, rural co-operatives and silos with at least one active SISA plant",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://blogdelcontador.com.ar/news-45847-arca-implementa-nuevo-regimen-obligatorio-de-registracion-para-movimientos-y-existencias-de-granos ; https://blogdelcontador.com.ar/news-45842-arca-actualiza-el-sisa-y-endurece-controles-sobre-plantas-y-retenciones-en-operaciones-con-granos ; https://www.consejosalta.org.ar/wp-content/uploads/ARCA-5673.pdf",
+     "existing": "Not searched (competitor search not run, budget used). Acopio ERPs are likely to exist.",
+     "known_mark": "new",
+     "name": "Grain plant movement and stock reporting for small acopios, cooperatives and silos (SISA, 24-hour rule)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "ARCA RG 5689/2025 (7 May 2025): all grain and legume entries and exits plus shrinkage, discards and transfers are reported within 24 hours via the Registro Sistemico de Movimientos y Existencias de Granos, backed by electronic carta de porte or internal remito; repeated failures can lead ARCA to limit carta de porte and liquidation vouchers; RG 5894/2026 modifies SISA rules (RG 4310) tying production information, grain movement documents and IVA withholding refunds to producers; RUCA dropped; RG 5673/5686/2025 on plants.",
+     "trigger_note": "Adjacent to K01 and K03 (same agri sector) but a different buyer and a different duty.",
+     "unchecked": "Competitor search (acopio and cooperative ERPs probably already integrate ARCA web services); count of small plants; RG 5894/2026 content was not opened."
+    },
+    {
+     "buyer": "Independent fuel stations; new mobile fuel station operators (portable modules up to 40 m3, tanker units up to 4,500 l)",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.marval.com/Publicacion/expendio-de-combustibles-regulacion-de-estaciones-moviles-17516 ; https://www.sitioandino.com.ar/economia/las-estaciones-servicio-tendran-que-informar-si-los-intendentes-cobran-tasas-la-nafta-n5684142",
+     "existing": "Station management systems (not searched); competitor search not run.",
+     "known_mark": "new",
+     "name": "Fuel station price and volume module reporting plus mobile station registration",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Res SE 1102/2004 bocas de expendio register; Res 504/2025 (Dec 2025) mobile stations: register, report sold volumes and prices through the Modulo de Informacion de Precios y Volumenes de Combustibles, safety audit by an authorised audit entity (Annexes I-III); Res 259/2024 sign on municipal/road fees; Res 147/2025 self-service technical certificate.",
+     "trigger_note": "",
+     "unchecked": "No recurring pain proven; vendors; number of mobile operators (likely few)."
+    },
+    {
+     "buyer": "GNC mounting workshops and compression stations (ENARGAS)",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "Search summary of Boletin Oficial ENARGAS results (https://www.boletinoficial.gob.ar/detalleAviso/primera/341551/20260505 listed; text unread)",
+     "existing": "SICGNC official system; none found.",
+     "known_mark": "new",
+     "name": "GNC mounting workshop (taller de montaje) and cylinder regulation paperwork",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "ENARGAS Res 3437/06 audits and penalties for workshops, Res 287/2019 user manual and SICGNC access, NAG-E 408 technical certification, Res 2629/02 for stations. 2026 Res 477/2026 changes the accreditation framework for certifying bodies (content not read).",
+     "trigger_note": "",
+     "unchecked": "Everything about current obligations, workflow and competitors."
+    },
+    {
+     "buyer": "Individual insurance producers and producer firms",
+     "category": "34. Insurance producers and brokers (SSN registry, Ley 22.400)",
+     "evidence": "https://todoriesgo.com.ar/wp-content/uploads/2026/04/194-BO.pdf ; https://desafiospublicos.argentina.gob.ar/sites/default/files/ssn_circular_1254_5841.pdf",
+     "existing": "Insurance broker software (not searched).",
+     "known_mark": "new",
+     "name": "Insurance producers: SSN registry fees and AML duties",
+     "score": 2,
+     "status": "weak",
+     "trigger": "SSN annual registry fee 2026 (ARS 33,000, REPAS, 30 Apr 2026, 50 percent surcharge after); AML duties under SSN Circular 1254/2006 and Ley 25.246.",
+     "trigger_note": "",
+     "unchecked": "Current UIF obligation set for producers; whether any recurring report is required."
+    },
+    {
+     "buyer": "Notary offices (registros notariales)",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.colegio-escribanos.org.ar/noticias/2026_04_01_Resumen-Normativa-UIF-Escribanos-2026.pdf ; https://www.colegio-escribanos.org.ar/noticias/2025_06_05_Informe_Res_UIF_78-25.pdf",
+     "existing": "Notary colleges publish guides and tools (free); notary software vendors not searched.",
+     "known_mark": "new",
+     "name": "Escribanos (notaries) UIF periodic reporting helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Res UIF 242/2023, Res 78/2025 (monthly systematic report threshold on cash property sales raised to 750 SMVM, bars requiring tax filings for client profile), Res UIF 3/2026 (UN list freezing, stop the deed).",
+     "trigger_note": "",
+     "unchecked": "Colleges likely supply the tooling; competitor search not run."
+    },
+    {
+     "buyer": "Owners of short-term rentals, guest houses and small extra-hotel lodging",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://turismo.buenosaires.gob.ar/sites/turismo/files/resolucion-8-2025-ATT-ENTUR.pdf ; https://www.noticiasnqn.com.ar/noticias/2024/06/03/297926-propietarios-de-alquileres-turisticos-deberan-inscribirse-en-el-registro-publico-provincial-de-alojamientos-a-corto-plazo ; https://www.elsol.com.ar/wp-content/uploads/2026/09/328444_anexo.pdf",
+     "existing": "Spanish guest-register tools (Chekin and similar) are built for Spain; Argentine competitors not found or not searched.",
+     "known_mark": "new",
+     "name": "Provincial short-term rental and lodging register router (CABA, Neuquen, Mendoza, Catamarca, La Pampa)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Provincial and municipal regimes: CABA ATT/ENTUR Res 8/2025; Neuquen Ley 3440 (2024) short-term register with gas and electricity declaration and constancia shown to guests, Res 137/21 signed guest declaration kept two years, registration valid three years; Mendoza Emetur resolution (Sept 2026) classification and register; Catamarca new lodging law; La Pampa provincial register. No national guest register found.",
+     "trigger_note": "",
+     "unchecked": "Whether registration is one-off or periodic; renewal cycles; Argentine vendors; very fragmented by jurisdiction; Airbnb-style platforms may already ask for the registration number."
+    },
+    {
+     "buyer": "Small exporters of wood and furniture, soy, beef, leather and derivatives to the EU, and their suppliers",
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "evidence": "https://cancilleria.gob.ar/es/actualidad/noticias/la-argentina-destaca-la-postergacion-de-la-implementacion-del-reglamento-de-la ; https://www.magyp.gob.ar/mercadosagropecuarios/estandares.php",
+     "existing": "Not searched (competitor search not run).",
+     "known_mark": "new",
+     "name": "EU deforestation regulation (EUDR) due-diligence and geolocation file for small timber, furniture, leather, soy and beef exporters",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Regulation (EU) 2023/1115 postponed again to 30 Dec 2026; Argentina relies on traceability schemes registered with SAGyP and seeks low-risk country status; SME date may differ (a 2025 bill mentioned 30 Jun 2026, since replaced).",
+     "trigger_note": "",
+     "unchecked": "Whether the date will move again; Argentine low-risk classification; SME treatment; competitors (foreign EUDR platforms); not a national authority duty but an importer-side duty."
+    },
+    {
+     "buyer": "Small importers and sellers of electrical equipment, chargers, lighting, toys and food-contact products",
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "evidence": "https://www.cda.org.ar/detalle_noticia_imprimir.php?id=42354 ; https://abogados.com.ar/novedades-sobre-el-reglamento-tecnico-de-equipamiento-electrico-resolucion-162025/36438 ; https://www.cira.org.ar/es/servicios/normativas-servicios/resolucion/resolucion-428-2025/",
+     "existing": "Certifiers, customs brokers and consultants; no software seen.",
+     "known_mark": "new",
+     "name": "Small importers' technical regulation filings (electrical safety DJC, toys conformity mark, food-contact)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Res 16/2025 (equipment) declaration of conformity via TAD, 2-year certificates with surveillance, verification moved from Customs to DNRT; Res 17/2025 tools; toys Res 163/2005, conformity mark deadlines in 2025; Res 313/2025 food-contact.",
+     "trigger_note": "",
+     "unchecked": "Whether surveillance renewal tracking is a repeated pain; later extensions after 2025; deregulation trend."
+    },
+    {
+     "buyer": "Private security agencies and technical directors",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://grupoclarin-la-voz-prod.cdn.arcpublishing.com/sucesos/permisos-y-corrupcion-emplazan-a-mas-de-150-agencias-privadas-a-renovar-habilitaciones ; https://www.noticiasnqn.com.ar/noticias/2022/03/10/255941-reglamentaron-ley-que-rige-la-actividad-de-empresas-de-seguridad-privada",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Private security agency licence renewal and operations records (provincial)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Cordoba Ley 10.571: annual renewal, notices to more than 150 agencies to renew within 90 days, 60-day compliance orders, Ciudadano Digital registration; Neuquen Ley 2772 authorisation and control. Other provinces unchecked.",
+     "trigger_note": "",
+     "unchecked": "Registers, logbook (libro de novedades) duty, provincial coverage, vendors. Cleaning and manpower firms not searched."
+    },
+    {
+     "buyer": "Construction employers (Ley 22.250)",
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "evidence": "https://www.cronista.com/economia-politica/cambios-en-la-construccion-que-tiene-que-hacer-de-diferente-el-contador-que-liquida-sueldos-del-sector/ ; https://www.colegio-escribanos.org.ar/noticias/2025_07_02_Instituto-Estadistica-Construccion-Res-50-25.pdf",
+     "existing": "Payroll software and accountants.",
+     "known_id": "K08",
+     "known_mark": "known",
+     "known_note": "Same buyer group as contractor control (K08, K12); the duty is shrinking as IERIC registration moves to ARCA.",
+     "name": "IERIC fines instalment plan and registration migration to ARCA (Ley 27.802, Decreto 407/2026)",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Ley 27.802 art. 155 and Decreto 407/2026: registration only with ARCA, ARCA to adapt within 120 days; IERIC Res 50/2025 instalment plan for fines up to 31 Jul 2026, adhesion until 31 Jul 2027."
+    },
+    {
+     "buyer": "Pharmacies",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://allende.com/life-sciences/reglamentacion-de-la-ley-no-27-553-sobre-recetas-electronicas-y-digitales-03-01-2023/ ; https://beccarvarela.com/novedades/disposicion-anmat-n-6223-2025/ ; https://www.noticiasnqn.com.ar/noticias/2026/01/20/326873-anmat-dio-de-baja-habilitacion-de-45-droguerias-por-certificados-vencidos-de-medicamentos",
+     "existing": "Pharmacy management systems almost certainly cover this (not searched).",
+     "known_mark": "new",
+     "name": "Pharmacy controlled-drug book and e-prescription register (libro recetario digital, SNT)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Ley 27.553 and Decreto 98/2023: e-prescriptions logged in a secure digital register; Decreto 345/2024 substitution recording, progressive; ANMAT Disp 6223/2025 widens traceability list; provincial narcotics books (e.g. Mendoza).",
+     "trigger_note": "",
+     "unchecked": "Competitor search not run; no new trigger found."
+    },
+    {
+     "buyer": "Clinics, labs, practitioners",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "No new evidence in this pass.",
+     "existing": "Traditum and others (see K09).",
+     "known_id": "K09",
+     "known_mark": "known",
+     "known_note": "Nothing new beyond K09, K13 and K19.",
+     "name": "Private clinics, labs and health providers billing insurers",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Insurer billing and debit (debito) disputes"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "No new 2026 sworn-declaration rule found. Existing duties: Bocas de Expendio registry (Res SE 1102/2004), price and volume reporting module, Res 259/2024 (sign on municipal/road fees), Res 147/2025 (self-service certificate), Res 504/2025 (mobile stations: registry plus volume/price reporting plus safety audit, Dec 2025). Mostly national (Secretaría de Energía) and served by pump/station vendors (not checked). GLP depots fall under a separate national industry registry (not explored). Weak candidates only.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "ARCA RG 5689/2025 (7 May 2025): every plant with at least one active SISA plant must report each grain movement and stock within 24 hours, backed by electronic carta de porte or remito; RUCA dropped; RG 5894/2026 tightens SISA links to IVA refund. National. Coffee and cocoa not applicable to Argentina. Yerba mate (INYM) and rice/other millers not searched. Competitor products (acopio ERPs) not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "INAES (national) 2025-2026 stream: Res 756/2025 and 2147/2025 member and authorities roll (deadline 11 Dec 2025, expired); Res 1279/2026 monthly web transmission for mutuales with ayuda economica (within 20 business days of month end, from July 2026 period, arrears must also use it); Res 1038/2026 CRS identification of members; Res 1687/2026 30-day cure for lending mutuales; Res 878-879/2024 and 3208/2024 summary proceedings and suspensions for non-filers of assembly documents and accounts. Candidate 2.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Nothing new beyond K09, K13 and K19 (billing already covered by Traditum and others). Search for REFES and provider registers returned Colombia/Chile noise and no Argentine 2026 rule. Not repeated.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "RENPRE: Decreto 128/2026 (4 Mar 2026) added 56 substances (31 List I, 25 List III, e.g. methyl acetate, cyclohexane, styrene, carbon tetrachloride); Res MSEG 424/2026 (8 May 2026) updated the RENPRE procedures manual; Veriquim sells purchase/receipt registers with RENPRE web service. Pharmacies: ANMAT Disp 6223/2025 widened the traceability list; Ley 27.553 libro recetario may be digital; Decreto 345/2024 substitution recording; ANMAT dropped 45 wholesalers in Jan 2026. No new pharmacy duty. Candidate 3.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Only security agencies searched. Private security is provincial: Cordoba Ley 10.571 (annual renewal, notices to renew), Neuquen Ley 2772. No 2026 trigger or vendor found. Cleaning and manpower agencies (servicios eventuales) not searched. Weak candidate only.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "IERIC: Ley 27.802 (labour modernisation) art. 155 and Decreto 407/2026 move construction worker registration exclusively to ARCA; ARCA has 120 days to adapt and exchange data with IERIC, so the IERIC registration duty is shrinking. IERIC Res 50/2025 fines instalment plan (up to 48 instalments, fines up to 31 Jul 2026, adhesion until 31 Jul 2027). Contractor document control already K08 and K12 (Certronic, Exactian). Mining and quarry not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "UIF Res 43/2024 for real estate brokers (self-assessment due 30 Apr 2026, external reviewer report by 31 Aug 2026 above 875 SMVM or 50 activities, systematic monthly and annual reports). Notaries: Res UIF 242/2023, 78/2025 (monthly systematic report threshold 750 SMVM), 3/2026 (UN list freezes). Res UIF 93/2026 reshapes registries of property from 8 Nov 2026 (state registries, out of scope). Insurance producers: SSN REPAS annual fee 2026; AML duty from older SSN Circular 1254. Candidates 1, 10, 11.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "No national guest-register or Migraciones rule found. Provincial and municipal fragmentation: CABA ATT/ENTUR Res 8/2025 (short-term rental register), Neuquen Ley 3440 (2024) short-term register plus Res 137/21 signed guest declaration kept two years, Mendoza Emetur resolution (Sept 2026) classification and register, Catamarca new lodging law, La Pampa provincial register, Santa Fe Ord 12731. National bill 0496-D-2025 is a draft. Candidate 12.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "EU deforestation regulation postponed again to 30 Dec 2026 (Cancilleria and Ministerio de Agricultura sources); Argentina relies on SAGyP-registered traceability schemes, aims for low-risk classification. Technical safety regimes for importers: Res 16/2025 electrical (DJC via TAD, 2-year certificates), Res 17/2025 tools, toys Res 163/2005 and conformity mark deadlines of 2025, Res 313/2025 food-contact. Fish exports not searched. Candidates 13, 14.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Wine and vine sector (INV): grape intake, harvest and production declarations",
+     "found": "Found via INV rules: Res INV 3/2025 (CIU grape intake declaration within 48 h), Res 35/2020 harvest system (weekly CEC-01, annual CEC-05, CEC-04), home winemakers declaration before 1 June each year, 5-year retention, Clave Fiscal access at servicios.inv.gob.ar. National register (Mendoza, San Juan, Salta etc. run local offices). Candidate 4.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Firearms, ammunition and controlled materials dealers (ANMaC)",
+     "found": "Armerias must log firearms daily in SIGIMAC-MUCOM (Disp 643/2012) and ammunition and special materials in official paper books, with periodic reports to ANMaC; Res 149/2024 security conditions for showrooms; Res 45/2025 Tenencia Express via MiAnmac. No private compliance software found. Candidate 5.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Medical cannabis growers' associations and cultivators (REPROCANN)",
+     "found": "Res MSAL 3132/2024 (annual vigencia certificate for associations) was repealed by Res 1780/2025 (May 2025) which reopened registration for associations, foundations and growers for third parties; legal entities get 1-year authorisation versus 3 years for self-growers per the older text (renewal rules after 1780 unconfirmed). Candidate 6.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Insurance producers and brokers (SSN registry, Ley 22.400)",
+     "found": "SSN 2026 annual registry fee for individual producers ARS 33,000 via REPAS, due 30 Apr 2026, 50 percent surcharge after; Res SSN 194/2026 admissions. AML duties rest on SSN Circular 1254/2006 and Ley 25.246. No new trigger. Weak candidate 10.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Imports under technical safety regulations (electrical, toys, food-contact)",
+     "found": "See category 30. Candidate 14.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Labour reform (Ley 27.802 and Decreto 407/2026) effects on sectoral registers (IERIC and similar)",
+     "found": "Registration of construction workers moves to ARCA; IERIC loses function and is reported to seek access to ARCA digital payroll books. Treated as a shrinking duty, not a build opportunity.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "ENARGAS talleres de montaje GNC estaciones de carga obligación registro 2026",
+    "Secretaría de Energía estaciones de servicio registro declaración jurada obligación 2026",
+    "RENPRE precursores químicos registro operaciones obligación 2026",
+    "INAES cooperativas mutuales presentación balance obligación 2026",
+    "UIF sujetos obligados escribanos corredores inmobiliarios resolución 2025 2026",
+    "alquiler temporario registro obligatorio hoteles parte de huéspedes Migraciones 2026",
+    "INV bodegas viñateros declaración jurada cosecha elaboración 2026",
+    "ARCA acopiadores granos registro operadores de granos RG 2026",
+    "ANMaC armerías libro de registro obligación 2026",
+    "REPROCANN renovación anual cultivadores asociaciones civiles 2026",
+    "empresas de seguridad privada registro habilitación renovación libro de novedades 2026",
+    "IERIC constructoras inscripción obligación 2026",
+    "farmacias trazabilidad medicamentos ANMAT SNT 2026 libro recetario estupefacientes",
+    "exportadores madera SENASA reglamento UE deforestación Argentina 2026",
+    "laboratorios clínicas habilitación REFES registro prestadores 2026 (returned Colombia/Chile noise)",
+    "Superintendencia de Seguros productores asesores UIF SSN 2026",
+    "importadores certificación seguridad productos eléctricos juguetes 2025 2026",
+    "software inmobiliarias UIF corredores autoevaluación revisor externo Res 43/2024",
+    "RENPRE software gestión operadores libro de operaciones pequeños operadores",
+    "mutuales ayuda económica régimen informativo INAES Res 1279/2026 software"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b29"
+ }
+}

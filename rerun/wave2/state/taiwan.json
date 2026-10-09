@@ -1,4 +1,371 @@
 {
+ "critic:taiwan": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Vehicle repair, motorcycle shops and used-car dealers (waste oil, waste batteries/tyres, end-of-life vehicle records) - row 37 not_reached",
+     "first_search": "機車行 汽車修理業 廢機油 廢輪胎 廢鉛蓄電池 回收 申報 環保署 網路申報 規定",
+     "why": "Taiwan has one of the world's densest motorcycle and car-repair shop populations (tens of thousands of micro-shops). EPA waste-oil/battery/tyre declaration and recycling-fee/subsidy filings apply to them, and the pass never verified the Taiwan duty (its only search returned Hong Kong results)."
+    },
+    {
+     "category": "Restaurants, food stalls, night-market vendors and small food manufacturers: Act Governing Food Safety and Sanitation traceability and food-business registration (食品業者登錄, 食品追溯追蹤管理系統)",
+     "first_search": "食品業者登錄 追溯追蹤 餐飲業 小型業者 公告 2025 食藥署 應登錄 範圍 擴大",
+     "why": "Food businesses are by far the largest small-operator group in Taiwan. The pass has no dedicated food-business row (only a thin 'small food producers' mention). TFDA has phased in mandatory registration on the food-business registry (FoodBusiness registry) and upload of traceability records (非追不可 is already known as K01, but the restaurant, catering and retail tier is separate), plus mandatory certified food-sanitation staff (廚師證照) and grease-trap and oil-fume duties."
+    },
+    {
+     "category": "Employers of all small firms: labour-law, wage, working-hours and insurance filings (勞工保險/勞退/就業保險 e-filing, 工資清冊, 出勤紀錄 retention, 性別工作平等 workplace-harassment rules, 2025-2026 amendments)",
+     "first_search": "勞動基準法 出勤紀錄 保存五年 工資清冊 小型事業單位 違規 罰鍰 2025 修正 勞動部 檢查",
+     "why": "Every small employer must keep attendance records for 5 years, a wage ledger, and file labour insurance, pension (6% contribution) and the new rules (for example the minimum-wage hike and the 2024-2026 Labour Standards and Act of Gender Equality in Employment amendments). The pass screened household employers and labour brokers but never covered ordinary SME employer compliance, which is the broadest Taiwan duty. It would need to check whether it falls under 'general payroll', which is excluded."
+    },
+    {
+     "category": "Small manufacturers, restaurants and retailers under the Waste Disposal and Resource Recycling rules: business waste (事業廢棄物) declaration, 'Non-waste' reuse, and the mandatory Plastic/Single-use tableware and packaging restrictions (限塑政策, 一次用飲料杯/免洗餐具)",
+     "first_search": "事業廢棄物 申報 小型事業 一般事業廢棄物 免洗餐具 飲料杯 限制使用 2025 零售業 連鎖 應回收廢棄物 營業稅 申報 責任業者",
+     "why": "Waste-related duties (事業廢棄物申報, 資源回收管理基金 fee declaration for 應回收廢棄物 manufacturers/importers, 2025 beverage-cup and tableware restrictions) apply to many small shops and drinks stalls (Taiwan's bubble-tea sector has tens of thousands of micro-operators). The pass covered only soil, septic, and recycling-yard theft."
+    },
+    {
+     "category": "Sector with many micro-operators: Funeral (殯葬) is covered, but betel-nut sellers, Chinese-medicine shops and health-food sellers are not; health food and traditional Chinese medicine dealers (中藥販賣業, 藥商) record-keeping and GDP/GSP",
+     "first_search": "藥商 中藥販賣業 藥品優良運銷規範 GDP 藥品追溯追蹤 藥局 申報 食藥署 2025",
+     "why": "Taiwan has thousands of Chinese-medicine shops and drug dealers (藥商) with licence renewal, 藥品優良運銷規範 (GDP) and records of purchases and sales. TFDA has tightened GDP and the 2024-2026 Pharmaceutical Affairs Act amendments, and also requires recording of drug sales to the electronic Drug Traceability platform. The pass checked pharmacies only as chemical users and the vet drug sellers."
+    },
+    {
+     "category": "Business-tax and e-invoice duties for micro-businesses (營業稅 小規模營業人 定額課稅, 電子發票 mandatory rollout, 2025-2026 changes to unified invoice and the digital-economy cross-border platform VAT)",
+     "first_search": "電子發票 強制 開立 小規模營業人 2026 財政部 統一發票 擴大 實施 時程 營業人 B2B 上傳",
+     "why": "Taiwan's business-tax regime has many small firms on the fixed-amount (查定課徵) system with periodic turnover thresholds. In 2026-2027 the Ministry of Finance is expanding mandatory e-invoicing (B2B e-invoice, 電子發票全面) and tightening the 小規模 thresholds. Many small operators face new e-invoice upload and tax-filing deadlines, although the pass may regard it as generic accounting. It should at least be screened for a specific compliance bridge."
+    }
+   ]
+  },
+  "tag": "w2b25"
+ },
+ "discover:A:taiwan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small jewellery shops (銀樓業) and gold buyers; also advisers and the trade association",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://gcis.nat.gov.tw/F/t70512 ; https://gcis.nat.gov.tw/F/t70517 ; https://gcis.nat.gov.tw/F/t70408_p ; Ministry quick guide, Q&A and forms summarised in search results. Shop count not found. A WebFetch of the PDF on gcis returned no readable text.",
+     "existing": "Competitor search '銀樓 洗錢防制 系統 軟體 銀樓業者 客戶盡職審查 資恐名單 比對 銀樓 POS' found only regulator guidance and templates; no jewellery AML or POS software product seen.",
+     "known_mark": "new",
+     "name": "Jewellery-shop AML compliance kit (cash-transaction and suspicious-transaction reporting, KYC log, risk assessment)",
+     "score": 4.5,
+     "status": "promising",
+     "trigger": "Jewellery businesses are designated AML entities: cash transactions of NT$500k or more must be reported to the Investigation Bureau within 5 business days; suspected laundering within 10 business days; ID and transaction records kept 5 years; internal control and audit system with a risk assessment report updated every 2 years (MOEA Commercial Development Agency guidance, template 114.4).",
+     "trigger_note": "",
+     "unchecked": "Number of jewellery shops and gold buyers; whether jewellery POS vendors already bundle AML modules; enforcement actions or fines; willingness to pay; whether MJIB offers a free online reporting form."
+    },
+    {
+     "buyer": "Building management committees, small building owners, and small lift-maintenance firms serving them",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "Search result summaries of the regulation and Control Yuan finding that the Interior Ministry lacked data on lifts and inspections: https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/39369 ; school plan https://www.jjes.tp.edu.tw/wp-content/uploads/doc/jjes131/建築物昇降設備設置及檢查管理計畫.pdf ; https://www.nlma.gov.tw/uploads/files/f9ce4194243c05717d041f165fe54f3d.docx",
+     "existing": "Competitor search '昇降機 定期檢查 到期 提醒 管理系統 社區管委會 電梯 保養 紀錄 平台 電梯檢查 預約 App' found no Taiwan reminder or tracking product; only regulator documents and maintenance contracts.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "Lift owner and management-committee inspection renewal and maintenance-record tracker (with a vendor edition for lift maintenance firms)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Annual safety inspection must be applied for before the use permit expires (30 days or 2 months, sources differ; confirm) under the Building Lift Equipment Installation and Inspection Management Regulation; monthly maintenance records required; maintenance firms need insurance and technician quotas; non-compliant lifts are tagged out of service.",
+     "unchecked": "Exact renewal window and inspection frequency by lift type (the regulation text was not read); number of lifts and maintenance firms; whether the inspection association (昇降設備安全檢查協會) already offers an online portal; whether maintenance firms already send reminders; willingness of volunteer management committees to pay. Related to K03 (fire-safety inspection) but a different duty and buyer."
+    },
+    {
+     "buyer": "Registered social associations and small charities, usually run by volunteers or a part-time secretary",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://www.sw.ntpc.gov.tw/userfiles/1100200/files/%E7%A4%BE%E6%9C%83%E5%9C%98%E9%AB%94%E4%BE%9D%E6%B3%95%E4%BB%A4%E8%A6%8F%E5%AE%9A%E9%A0%88%E5%A0%B1%E8%AB%8B%E4%B8%BB%E7%AE%A1%E6%A9%9F%E9%97%9C%E6%A0%B8%E8%99%95%E4%B9%8B%E6%9C%83%E5%8B%99%E4%BA%8B%E9%A0%85%E4%B8%80%E8%A6%BD%E8%A1%A8(1).pdf ; https://laws.gov.taipei/law/Interpretation/Content/FE278583",
+     "existing": "The people-organisation search surfaced no management software. A dedicated competitor search was not run.",
+     "known_mark": "new",
+     "name": "Association secretariat tool: annual plan, budget, report, accounts and director re-election filings for registered associations",
+     "score": 3,
+     "status": "weak",
+     "trigger": "People's Organisations Act art. 34 and Social Organisations Financial Handling Rules: work plan and budget before the year starts, report and accounts within 2-3 months of year end (Taipei: end of March), director/supervisor terms up to 4 years with re-election filings; member-list handling must follow the Personal Data Protection Act.",
+     "unchecked": "Number of associations; local competitors (association SaaS, church or temple software); whether competitors exist; low willingness to pay of volunteer bodies; whether the Ministry of the Interior offers an online filing system."
+    },
+    {
+     "buyer": "Licensed groundwater drilling firms (A, B, C grades)",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://6laws.net/6law/law3/地下水鑿井業管理規則.htm (fetched). The authority already keeps a drilling-business management system.",
+     "existing": "None searched; authority system exists for the registry side.",
+     "known_mark": "new",
+     "name": "Well-drilling firm licence, staff-registration and training-hours manager",
+     "score": 2.5,
+     "status": "weak",
+     "trigger": "Groundwater Drilling Business Rules (amended 2015-08-24): 5-year licence renewable 60-30 days before expiry with training-hour proofs; completion data within 30 days; 30-day filings for staff departures and company changes; 6 hours of training every 5 years logged in the authority's system.",
+     "unchecked": "Number of licensed firms (likely a few hundred or fewer); newer amendments after 2015; whether firms use any software; willingness to pay."
+    },
+    {
+     "buyer": "Owners of unregistered or 'managed' wells (farms, small factories)",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://www.wrs.taichung.gov.tw/media/309126/地下水水權登記申請手冊.pdf ; https://www.ethics.taichung.gov.tw/media/408538/佳作-水利局-守護用水權益真安心-水井申報納管好便利.pdf",
+     "existing": "Free municipal declaration systems and apps (Taichung); government helps with registration.",
+     "known_mark": "new",
+     "name": "Existing-well declaration and water-right registration helper for farmers and small factories",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Water Act art. 42 and groundwater control areas: wells must be registered; cities run well-declaration systems (Taichung has an online system and app); Taoyuan requires metering for large users.",
+     "unchecked": "Whether the national amendments of Water Act art. 84-1 (reporting for large water users) have taken effect; one-off nature; free government help."
+    },
+    {
+     "buyer": "Registered beekeepers (small, mostly part-time)",
+     "category": "8. Beekeepers",
+     "evidence": "https://files.chcg.gov.tw/files/119_20240605105737153_農糧署養蜂申報程序DM.pdf ; https://www.taiwannews.com.tw/zh/news/3628436",
+     "existing": "Free 'bee calendar' and nectar-source map system from Miaoli DARES; the Taiwan Beekeeping Association runs certification.",
+     "known_mark": "new",
+     "name": "Beekeeper declaration and traceability record pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Beekeeping fact declaration at township office; domestic honey certification and QR traceability.",
+     "unchecked": "Number of beekeepers; whether the free system is widely used."
+    },
+    {
+     "buyer": "Small licensed clearance firms for septic and night-soil waste (code D-0104)",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://www.rdec.taichung.gov.tw/media/1305294/1140916-2-臺中市水肥非法傾倒事件源頭管理與查處及文山焚化爐汰舊換新工程進度專案報告-環保.pdf ; https://www.epd.ntpc.gov.tw/UploadFile/Bulletin/20220714094538060313.pdf ; https://www.epb.taichung.gov.tw/media/1147031/清除許可證申請功能操作手冊ver11210.pdf (permit application manual)",
+     "existing": "EPA WCDS portal for permit lookups. No competitor search run (budget).",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "Septic and night-soil hauler permit, vehicle list and trip log tool",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Clearance permit under Waste Disposal Act art. 41-42 listing each vehicle; vehicles must display firm name, phone and permit number; unlisted vehicles face criminal penalties (art. 46). Taichung illegal-dumping case in 2025 led to source-management and tracking measures.",
+     "unchecked": "Whether a trip manifest or GPS is required for night soil; number of firms; any 2025-2026 tracking rule after the Taichung case; competitor search. Related to K02 (renovation-waste hauler declaration) but a different waste stream and duty."
+    },
+    {
+     "buyer": "Families employing migrant live-in caregivers",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://www.mol.gov.tw/1607/1632/1640/43637/ ; https://www.mol.gov.tw/1607/1632/1640/16853/ ; Control Yuan report https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/50098",
+     "existing": "MOL one-stop website for applications and a 24-hour hotline; no private product searched.",
+     "known_id": "K09",
+     "known_mark": "new",
+     "name": "Household-employer helper for domestic caregiver paperwork (pre-hire training, address-change notice, death-transfer deadline, pay and rest records)",
+     "score": 2.5,
+     "status": "weak",
+     "trigger": "Employment Service Act art. 48-1 training; 7-day written notice of address change; 30-day transfer after care recipient's death; draft Family Domestic Worker Protection Act would add rest-day and pay duties but has not passed.",
+     "unchecked": "Whether the Family Domestic Worker Protection Act has been enacted in 2026; consumer willingness to pay; whether broker apps cover it. Different buyer from K09 (agencies)."
+    },
+    {
+     "buyer": "Animal-drug retailers, pharmacies supplying vets, small animal hospitals",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://6laws.net/6law/law3/動物用藥品販賣業管理辦法.htm ; https://6laws.net/6law/law3/人用藥品用於犬貓及非經濟動物之使用管理辦法.htm",
+     "existing": "No Taiwan e-reporting scheme found; clinic management software surely exists but was not searched. K12 (pesticide dealers) was rejected because the regulator supplies software.",
+     "known_mark": "new",
+     "name": "Animal-drug seller and pet-clinic purchase-proof and manager-training compliance log",
+     "score": 2.5,
+     "status": "weak",
+     "trigger": "Animal Drug Dealer Regulations: resident technical manager with continuing education every 2 years, 30-day suspension filings; Human Drugs for Dogs, Cats and Non-Economic Animals regulation: purchase certificate kept 3 years by both pharmacy and vet.",
+     "unchecked": "Number of shops; vet clinic software coverage; whether the authority runs an animal-drug electronic system."
+    },
+    {
+     "buyer": "Village and community simple water-supply operators",
+     "category": "13. Small water systems",
+     "evidence": "https://laws.gov.taipei/law/LawSearch/LawArticleContent/FL048860 ; https://web.wra.gov.tw/WraLib/wSite/books_69597",
+     "existing": "Local governments run the programmes; operators self-maintain.",
+     "known_mark": "new",
+     "name": "Small water-system (simple tap water) sampling and maintenance log",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Water Supply Act-based local regulations: water quality equal to art. 10 standards, local survey and sampling programmes.",
+     "unchecked": "Filing frequency and number of systems; buyers are mostly villages and local authorities."
+    },
+    {
+     "buyer": "Small taxi companies and fleets",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://laws.gov.taipei/law/LawSearch/LawArticleContent/FL012445 ; https://www.laws.taipei.gov.tw/law/File/0000186370",
+     "existing": "Not searched; taxi dispatch and fleet apps are numerous.",
+     "known_mark": "new",
+     "name": "Taxi company driver hire and dismissal reporting and registration-card tracker",
+     "score": 2.5,
+     "status": "weak",
+     "trigger": "Motor Vehicle Transportation Business Regulations: taxi operators report hiring or dismissal of drivers to the police unit that issues driver registration cards; MOTC regulation version dated 2026-05-06 on the search result.",
+     "unchecked": "Whether driver reports are already online; annual vehicle inspection rules; competitors."
+    },
+    {
+     "buyer": "Licensed foreign-currency exchange points (shops, hotels, small businesses)",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.cbc.gov.tw/tw/public/Attachment/772416391771.pdf ; https://finance.technews.tw/2021/10/22/foreign-currency-exchange-limit/ ; https://www.laws.taipei.gov.tw/Law/File/0000222138",
+     "existing": "Not searched; Bank of Taiwan receives reports.",
+     "known_mark": "new",
+     "name": "Money-changer (外幣收兌處) quarterly report and AML log",
+     "score": 2.5,
+     "status": "weak",
+     "trigger": "Foreign Currency Exchange Point Rules: quarterly report to Bank of Taiwan by the 15th after quarter end; USD 3,000 limit per person per transaction; books kept 10 years, slips 5 years; AML SOP and audit (2021 amendment).",
+     "unchecked": "Number of exchange points; effective date of the USD 3,000 limit; existing exchange-counter software."
+    },
+    {
+     "buyer": "Small pig-transport firms, meat-market consignors",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.taiwannews.com.tw/zh/news/6236646 ; https://news.tvbs.com.tw/life/1061872 ; https://wantrich.chinatimes.com/news/20251022900634-420501",
+     "existing": "GPS vendors presumably supply tracking; not searched.",
+     "known_mark": "new",
+     "name": "Live-pig and carcass transport GPS retention and cleaning-log service",
+     "score": 2.5,
+     "status": "unverified",
+     "trigger": "Animal Transport Management Regulation art. 12 and Animal Protection Act art. 9: GPS on live-pig and carcass vehicles with 30-day track retention; 2025 African swine fever outbreak led to ban and cleaning/disinfection duties.",
+     "unchecked": "Number of transport firms; whether GPS vendors cover the compliance log; 2026 rule changes."
+    },
+    {
+     "buyer": "Home-childcare service centres and registered childminders",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.society.taichung.gov.tw/media/909771/臺中市居家托育人員提升托育品質計畫.pdf ; https://www.sw.ntpc.gov.tw/userfiles/1102400/files/1120406%E6%BA%96%E5%85%AC%E6%9C%8D%E5%8B%99%E4%BD%9C%E6%A5%AD%E8%A6%81%E9%BB%9E.pdf (fetch returned no readable text)",
+     "existing": "At least four daily-record apps for nurseries exist (Skybaby, KIDSDAY, 愛托付, 開蒙), which cover daily care records but not obviously subsidy claims.",
+     "known_mark": "new",
+     "name": "Home-childcare centre subsidy-claim and childminder contract workflow (quasi-public childcare)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Local quasi-public childcare rules: contract copy to the service centre within 7 days of each new child, centre lists the childminders for annual claims by 20 December (Taichung).",
+     "unchecked": "Whether a government system already handles the claims; number of childminders; actual claim steps."
+    },
+    {
+     "buyer": "Private driving-training institutions",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.setn.com/news/1667961 ; https://cars.tvbs.com.tw/life/322073",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Driving-school training-record manager (rule change in 2026)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "MOTC proposed amendments to the Private Motor Vehicle Driver Training Institution Management Regulation (retraining before re-testing after long licence bans); planned for 30 June 2026, final status not confirmed.",
+     "unchecked": "Whether the amendment took effect; any reporting duty to the monitoring office; number of schools."
+    },
+    {
+     "buyer": "Licensed pawnshops",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "No Taiwan source found in two searches.",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Pawnbroker ledger and police/authority reporting (Pawnbroking Act)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Pawnbroking Act duties exist but the search returned only foreign laws, so Taiwan's reporting duties are unconfirmed.",
+     "unchecked": "The Act's ledger and reporting duties, the number of shops, and any software. Needs a search with 全國法規資料庫 wording."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Employer duties: pre-hire training (Employment Service Act art. 48-1), 7-day written notice of change of workplace/residence, 30-day transfer after care recipient dies, MOL one-stop online application. Family Domestic Worker Protection Act is still a draft (no evidence of passage), so no working-hours or pay-record duty yet. Free MOL tools exist; no new software gap found (see candidate C07). K09 covers the broker side.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "The search returned only foreign rules. No Taiwan-specific scrap register found beyond K05 (recycling-yard theft log). Nothing new beyond K05.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Searches for Taiwan pawn (典當業法) and second-hand rules returned only Japanese, US and other foreign material. Taiwan has no Japan-style 古物商 licence that I could confirm. Pawn-shop reporting duties are unverified, not rejected.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Jewellery shops (銀樓業) are AML-regulated: cash of NT$500k or more reported to MJIB within 5 business days, suspected-laundering reports within 10 business days, 5-year records, risk assessment updated every 2 years, MOEA templates (114.4 edition). No dedicated software found. See candidate C01.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "EPA handles vehicle-body recycling and MOTC handles registration cancellation; reward-subsidy system and EPA motor-vehicle portal (epamotor.epa.gov.tw) exist. No specific small-firm duty or software gap found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Live-pig and carcass transport vehicles must carry GPS, with 30-day track retention (Animal Transport Management Regulation art. 12; Animal Protection Act art. 9). 59 pig slaughterhouses including 23 meat markets. The African swine fever case in Taichung in 2025 led to a nationwide movement and slaughter ban, later lifted. See candidate C08 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Market butchers must show the slaughter-inspection stamp and keep slaughter certificates on delivery. No stall-level reporting or software gap found. Nothing new. Poultry-slaughter registration not found.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Beekeepers file a 'beekeeping fact declaration' at the township office (COA/Agriculture and Food Agency procedure, 2024 leaflet). Miaoli DARES provides a free 'bee calendar' record and traceability system. Free public tool, small niche. See candidate C05 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Animal-drug sellers must keep a resident qualified manager with training renewed every 2 years and file closure within 30 days. Pharmacies and vets must keep purchase proof for human drugs used on pets for 3 years (paper or electronic). No Taiwan e-reporting of antimicrobial use found. See candidate C09 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Well-drilling firms (Groundwater Drilling Business Rules, amended 2015): 5-year licence renewable 60-30 days before expiry, completion report data within 30 days, 30-day filings for staff or ownership changes, 6-hour training every 5 years logged in the authority's management system. Existing wells: city 'well declaration and registration' systems (Taichung has an app). See candidates C04 and C05b.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Septic and night-soil haulers need a clearance permit covering waste code D-0104 under the Waste Disposal Act; unlisted vehicles face criminal penalties; Taichung illegal-dumping incident in 2025 raised enforcement. Whether a manifest is required for night soil is unconfirmed. See candidate C06.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Lift managers (owners or management committees) must apply for an annual safety inspection before the permit expires (30 days or 2 months, sources differ) and keep monthly maintenance records. Maintenance firms need insurance and at least 6 technicians for up to 200 lifts. The Control Yuan found the Ministry of the Interior lacked data on lift numbers and inspection status. No reminder app found. Boilers and pressure vessels not reached. See candidate C02.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Simple water supply systems (簡易自來水) are governed by local regulations under the Water Supply Act and maintained by the operators themselves. Local governments run annual survey and sampling programmes. Filing frequency not found. See candidate C10 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Nothing new beyond K12 (rejected: the regulator supplies the software). Not re-searched. Fertiliser dealers not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Nothing new beyond K09 (rejected). Not re-searched.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Pre-need funeral contracts require a firm with at least NT$30M paid-in capital and 3 years of operation, which excludes small operators. Taipei revised its penalty table effective 2026-02-01. Results from mainland China's 2026 funeral regulations are not Taiwan law. Nothing new for small firms.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Associations must file an annual work plan and budget before the year starts, a report and accounts within 2-3 months of year end (Taipei: by end of March), and re-elect directors on time (terms up to 4 years). No association-management software found. Halal certification is run by the Chinese Muslim Association and the Taiwan Muslim Association; no fee or software data found. See candidate C03.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Taxi operators must report hiring and dismissal of drivers to the police unit that issued the driver's registration card (Motor Vehicle Transportation Business Regulations, version dated 2026-05-06 on the search result). Annual vehicle inspection rules not found. See candidate C11.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers (外幣收兌處): quarterly report to Bank of Taiwan by the 15th of the month after quarter end, cap raised-risk limit of USD 3,000 per person per transaction (2021 amendment), books kept 10 years and exchange slips 5 years, AML procedures. Vendor-side duties not searched. See candidate C12.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Childminders and nurseries: subsidy contracts submitted to the home-childcare service centre within 7 days, annual claims by 20 December (Taichung), nursery accreditation cycles; at least four daily-record apps already exist (Skybaby, KIDSDAY, 愛托付, 開蒙). Driving schools: MOTC proposed tighter rules for 2026 (retraining after licence revocation), final status unconfirmed. Tattoo studios, hunting outfitters and small food producers not reached; K01 covers food traceability.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "家庭看護工 雇主 申報 外籍看護 雇主義務 系統 2026",
+    "廢金屬 回收業 收購 登記 簿冊 申報 古物商 警察局 電子化",
+    "古物商 買賣紀錄 古物登記簿 電子 系統 警政署 當鋪 典當業 申報",
+    "報廢車 汽車解體業 回收 申報 環保署 廢汽車 解體 管理系統",
+    "畜禽 運輸 屠宰場 肉品市場 豬隻 運送 登記 非洲豬瘟 申報",
+    "昇降機 定期檢查 業主 申報 內政部 昇降機檢查 簽證 維護保養 業者 系統",
+    "動物用藥品販賣業 動物醫院 管制藥品 紀錄 申報 獸醫 系統",
+    "水井 鑿井業 地下水 取水 登記 水利署 鑿井業者 水權 用水量 申報",
+    "化糞池 清除 水肥 廢棄物清除業 一般廢棄物 清運 申報 聯單",
+    "殯葬業 殯葬禮儀服務業 申報 殯葬管理條例 2025 2026 修正",
+    "托嬰中心 居家托育人員 準公共 托育 登記 系統 填報",
+    "遊覽車 計程車 小型客車租賃 汽車運輸業 駕駛人 申報 計程車行 管理系統",
+    "蜂農 養蜂 登記 蜂蜜 標示 養蜂管理 農業部 養蜂登錄",
+    "小型供水 簡易自來水 社區自來水 水質檢驗 申報",
+    "銀樓業 洗錢防制 珠寶商 大額通貨交易 申報 經濟部",
+    "典當業 典當業法 當票 帳冊 申報 警察機關",
+    "外幣收兌處 申報 中央銀行 外匯收兌 外幣收兌處 管理辦法",
+    "汽車駕駛訓練班 駕訓班 申報 學員 管理 系統 監理 管理規則 2026 修正",
+    "清真 認證 餐廳 台灣 清真 稽核 年度 展延 小型業者",
+    "人民團體 理監事 會員名冊 年度工作報告 社團 管理系統 軟體"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b25"
+ },
  "discover:B:taiwan": {
   "result": {
    "blocked_searches": 0,

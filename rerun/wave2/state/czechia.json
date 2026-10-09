@@ -1,0 +1,623 @@
+{
+ "discover:A:czechia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small and family wineries and grape growers (several thousand, mostly South Moravia); no verified count",
+     "category": "20. Small food producers (wine producers)",
+     "evidence": "MZe 2025 calendar for vine growers and winemakers; portal.gov.cz service S19407; NSS ruling on the deadline for entering records (sbirka.nssoud.cz p2882). Filing runs through the free Portál farmáře, but the books themselves are kept by the winery. Czech law may not allow electronic books; this was not confirmed.",
+     "existing": "Competitor searches (two, Czech) found only foreign winery tools (Vinosoft, VinBalance, InnoVint, EVINAR) and no Czech winery software or Excel template. Not verified that none exists.",
+     "known_id": "K15",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Wine-grower record books and declarations desk",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Evidence books (Act 321/2004 Sb., vyhl. 323/2004 Sb.) must be written up by the next working day after grape intake (per NSS ruling citing Reg. 436/2009, which may have been replaced; check). Annual declarations to ÚKZÚZ: harvest by 15 Jan, production if 1,000 l or more, stocks (stocks date in the 2025 calendar was 10 Sept), plus a quarterly or annual vineyard-area report for the Wine Fund. SZPI checks the books and fines errors.",
+     "trigger_note": "",
+     "unchecked": "Whether Czech rules allow electronic evidence books; Czech vendors; current Reg. 436/2009 replacement; number of winemakers; SZPI fine levels; 2026 dates."
+    },
+    {
+     "buyer": "Authorised dismantlers (autovrakoviště), a few hundred; count unverified",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "ČT24 'Každý vrak bude mít svůj profil v databázi MŽP'; Czech POINT registration document for MA ISOH (July 2026 version); pravniprostor.cz amendment note.",
+     "existing": "Competitor search (Czech) found no dismantler-management software. MA ISOH itself was built by INISOFT for MŽP/CENIA, so INISOFT may sell add-ons (unverified).",
+     "known_id": "K11",
+     "known_mark": "new",
+     "name": "Auto-dismantler intake and MA ISOH reporting assistant",
+     "score": 3,
+     "status": "weak",
+     "trigger": "End-of-life vehicles must be logged in the state MA ISOH module (vyhl. 345/2021 Sb.) with identification data and photos, reportedly within about 4 days. Planned new law on end-of-life products with recertification of all dismantlers and stricter record-keeping.",
+     "unchecked": "Photo deadline and whether MA ISOH has an import API; number of dismantlers; whether the new law is in force or pending; parts-stock and sales tools already on the market."
+    },
+    {
+     "buyer": "Municipalities and parishes running cemeteries; the total count was not found and many are tiny",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "MMR guide 'Pohřeb a pohřebiště'; Feb 2026 national qualification standard for cemetery administrators; Czech POINT service S435 (grave lease via data box).",
+     "existing": "Competitor search (Czech) found no cemetery software. Municipal office systems and GIS vendors are likely competitors (unverified).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Cemetery book and grave-lease register for small operators",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Act 256/2001: written grave leases, a cemetery book and rent collection; MMR advises moving off paper cards; VAT treatment of grave rent is under review (MMR/MF 2023).",
+     "unchecked": "Vendors such as municipal office suites; willingness to pay; buyer is the public sector, so procurement and sales cycles."
+    },
+    {
+     "buyer": "Licensed cesspit haulers (trade holders) and treatment-plant operators; count unknown",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "arecenze.cz 2026 articles on cesspit documents; estav.cz note on the tightened wastewater law.",
+     "existing": "Competitor search found no hauler software. Generic route-planning and invoicing tools could cover it.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Cesspit emptying proof (doklad o vývozu) tool for haulers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Since 2021 (Act 544/2020 Sb. amending the Water Act) owners must show 2 years of proofs; the proof must carry date, volume, site and destination plant. 2026 articles say enforcement and fines are increasing (reported CZK 5,000 to 20,000 for owners; up to 100,000 for illegal disposal, unverified).",
+     "unchecked": "Whether proofs must be on paper; hauler count; whether treatment plants already issue weighbridge tickets that serve as proof."
+    },
+    {
+     "buyer": "Small spolky (tens of thousands) and parish bodies",
+     "category": "17. Community and religious bodies: associations",
+     "evidence": "epravo.cz overview of year-end duties 2025; pravniprostor and krajský úřad notes on collections.",
+     "existing": "Pohoda, Money and general accountants cover small non-profit accounting (unverified for filing).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Associations: annual accounts filing and public-collection compliance",
+     "score": 3,
+     "status": "weak",
+     "trigger": "§ 21a Accounting Act: accounts must be filed in the public register; fine up to CZK 100,000 and possible dissolution proceedings. Public-collection law amended by 239/2024 Sb. from 1 Jan 2025.",
+     "unchecked": "Dedicated spolek tools; whether filing is a real pain point; EPO/ESM duties for associations (not confirmed)."
+    },
+    {
+     "buyer": "Small operators with lifts, gas, pressure and electrical equipment (for example building owners, workshops)",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "pravniprostor.cz summary of Act 250/2021; tzb-info explanation of the register duty; ARROWS note on gas revision technicians' five-year retesting.",
+     "existing": "No competitor search run; revision-management software is probably already sold (unverified).",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "Regulated technical equipment (VTZ) register and revision reminder for small owners",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Act 250/2021 Sb. (in force 1 Jul 2022; amended by 318/2025 Sb.): a responsible person keeps the VTZ register and ensures revisions on schedule.",
+     "unchecked": "Competing products; real inspection and fine pressure on small owners."
+    },
+    {
+     "buyer": "Small water suppliers and operators of priority buildings (schools, nurseries, care homes, accommodation)",
+     "category": "13. Small water systems",
+     "evidence": "SZÚ simplified method for small systems (2018); SZÚ recommendation on care of internal water systems (June 2025); law notes on 167/2023 and 371/2023 Sb.",
+     "existing": "Free SZÚ method; consultancy firms. No competitor search run.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Small drinking-water systems and building water risk-assessment kit (legionella and lead)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Act 258/2000 Sb. as amended 2017 and 2023 (371/2023 Sb.): risk assessment and management of supply systems. EU directive 2020/2184 adds priority-building checks for lead and legionella.",
+     "unchecked": "2026 deadlines for priority buildings; competing consultants and tools; number of small suppliers."
+    },
+    {
+     "buyer": "ÚKZÚZ-registered distributors and shops",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "portal.gov.cz service S12715 (inspection of plant-protection products on the market) and ÚKZÚZ information sheets.",
+     "existing": "Likely covered by ERP and shop systems (unverified). Applicator side is K08 (rejected).",
+     "known_id": "K08",
+     "known_mark": "new",
+     "name": "Plant-protection product distributors' record keeping",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Running receipt and issue records, check of the buyer's professional certificate, storage standards, and reporting duties on movement of products (Act 326/2004 Sb., enforced by ÚKZÚZ).",
+     "unchecked": "Report formats and deadlines; number of distributors; software already used."
+    },
+    {
+     "buyer": "Licensed money changers (count not found)",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "ČNB licensing page and statement RS2020-11; ARROWS note on money changers and AML.",
+     "existing": "Not searched. The segment is small and has already been under ČNB supervision for years.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Money changers: ČNB record and report plus AML",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Act 277/2013 Sb.: ČNB licence, premises notified in REGIS, record and reporting rules (ČNB statement RS2020-11); FAÚ suspicious-transaction report within 5 days.",
+     "unchecked": "Report formats; existing vendors; operator count."
+    },
+    {
+     "buyer": "Jewellers and gold buyers",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "ARROWS note 'Zlatnictví a AML'; puncovní úřad page on businessinfo.cz; finance ministry guidance on selling gold.",
+     "existing": "Not searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Gold and precious-metal buyers: AML and assay-office records",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "AML Act 253/2008 Sb. (cash of EUR 10,000 or more, FAÚ reporting) and the assay law 539/1992 Sb. (inspection).",
+     "unchecked": "Whether a gold-purchase register duty exists; existing jewellers' POS systems."
+    },
+    {
+     "buyer": "Drilling firms and geological-work organisations",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "portal.gov.cz service S1900 'Evidence geologických prací'.",
+     "existing": "Free state form and portal.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Well-drilling firms: ČGS geological-works registration",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Register planned geological works (including water wells) with the Czech Geological Survey about 30 days before starting; report changes within 30 days.",
+     "unchecked": "Number of firms; real enforcement."
+    },
+    {
+     "buyer": "Hairdressers, cosmetic, nail, tattoo and piercing businesses",
+     "category": "20. Small licensed premises (tattoo studios and body-care)",
+     "evidence": "mzd.gov.cz page 'Změna povinností pro osoby podnikající ve službách péče o tělo od ledna 2026' (fetched). It states no deadline for existing operators and no fines.",
+     "existing": "Free ministry template for the operating rules.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Body-care and tattoo operators: 2026 notification and operating-rules update",
+     "score": 2,
+     "status": "weak",
+     "trigger": "From 1 Jan 2026 (amendment of Act 258/2000 Sb.) operators notify the health authority by the day they start; the operating rules (provozní řád) no longer need approval and must be updated when conditions change.",
+     "unchecked": "Whether existing operators must re-notify; client-record duty (not found)."
+    },
+    {
+     "buyer": "Beekeepers (large count; unverified)",
+     "category": "8. Beekeepers",
+     "evidence": "ČMSCH call for the 2025 report: free web form eagri.cz/HlaseniVcely with a personal code, no account needed.",
+     "existing": "Free state web form (the killer).",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Beekeepers' annual colony report",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Annual report of colonies and apiary sites by 15 Sept; three years without a report ends the registration.",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Keepers of cattle, sheep, goats and pigs, including a single sheep",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "MZe/ČMSCH documents; MZe statement that keeping even one sheep makes you a keeper; Portál farmáře is the reporting channel.",
+     "existing": "Free Portál farmáře (IZR) and ČMSCH as the appointed entity.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Small livestock keepers' 7-day movement reporting",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Births, deaths and movements within 7 days (vyhl. 136/2004 Sb., amended 174/2019 Sb.).",
+     "unchecked": ""
+    },
+    {
+     "buyer": "Employers and agencies hiring foreigners",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "mpsv.gov.cz page 'Hlášení nástupu cizince od 1. 4. 2026'.",
+     "existing": "Payroll software already implements it.",
+     "known_id": "K10",
+     "known_mark": "known",
+     "known_note": "Same duty as K10 (rejected); nothing new.",
+     "name": "Foreign-worker hiring registration through JMHZ (REGZEC)",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Since 1 Apr 2026 hiring is reported only through JMHZ."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "One search; nothing found. Only generic employer rules and the 1 Jan 2026 health-insurance change (state-paid category for carers of 2+ children abolished), which affects parents, not people who hire nannies. No household-employer register or filing duty found; not a mass segment in Czechia. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Cash purchases from individuals banned since 2015 (non-cash only); records fall under waste law (ISOH/ISPOP), already rejected as K11. Nothing new beyond K11.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Pawnbroking is a free (ohlašovací) trade; the only duty found is ID checks of sellers, from an old, unverified source. No register or periodic report found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "AML duty applies to precious-metal traders (cash of EUR 10,000 or more; report to FAÚ within 5 days) plus puncovní (assay office) supervision under Act 539/1992. No gold-purchase register duty confirmed. Logged as a weak, unverified candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Dismantlers report end-of-life vehicles in the state MA ISOH module (vyhl. 345/2021 Sb.). Intake photos and records appear to be due within about 4 days; this comes from a secondary source and is unverified. A new law with recertification of all dismantlers is planned. No commercial dismantler software found. Candidate logged.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Keepers must report births, deaths and movements to the central register within 7 days (vyhl. 136/2004 Sb., amended by 174/2019 Sb.). Reporting is through the free Portál farmáře and ČMSCH. Even a keeper of one sheep counts as a keeper. Logged as rejected: free state tool.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Only found that SVS runs the register of farms and animals. Slaughter-reporting formats and any software were not found. Thin result; the category is not exhausted.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Annual report of colonies by 15 Sept via the free web form eagri.cz/HlaseniVcely (ČMSCH, no account needed). Rejected: free state tool. A 2026 subsidy decree (NV 126/2026 Sb.) is about grants only.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Nothing new beyond K09 (rejected).",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Organisations doing geological works, including water-well drilling, must register them with the Czech Geological Survey (ČGS) about 30 days before starting and report changes within 30 days. Free portal procedure. Few firms; low pain. Logged as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Since 2021 (Act 544/2020 Sb.) homeowners must prove cesspit emptying for the last 2 years, with hauler-issued proof showing date, volume, site and destination plant. Inspections and fines are stepping up (2026 articles). No haulers' software found. Candidate logged.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Regime is Act 250/2021 Sb. (in force 1 Jul 2022; amended by 318/2025 Sb.): operators keep a register of regulated technical equipment (VTZ) and revision schedules. Not checked: competing revision-management tools. Boiler inspector side is K04. Logged as unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Risk assessment and management of drinking-water systems is mandatory (Act 258/2000 Sb., 2023 amendment). The state health institute (SZÚ) publishes a simplified method for small systems (2018). Priority buildings for lead and legionella (schools, nurseries, health and social facilities, some accommodation) come from the EU directive 2020/2184. 2026 deadlines not confirmed. Logged as unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Registered distributors (ÚKZÚZ register) must keep running receipt and issue records, check the professional certificate at sale, and pass storage inspections. Applicator records are K08 (rejected). Distributor side logged as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "The agency-employment deposit of CZK 500,000 and insolvency insurance date from 2017. Since 1 Apr 2026, hiring foreigners is reported only through JMHZ/REGZEC, which is K10. No 2026 agency-licence amendment found. Nothing new beyond K10.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Act 256/2001, with the last big amendment in 2017. Operators (mostly municipalities, also parishes) must hold written grave leases and keep a cemetery book. Sources describe paper card files as a risk. A Feb 2026 qualification standard expects knowledge of cemetery-book software. No commercial software found by search. Candidate logged.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Associations must file annual accounts in the public register (§ 21a Accounting Act; fine up to CZK 100,000; repeated failure can lead to dissolution proceedings). Public-collection law amended by 239/2024 Sb. from 1 Jan 2025. Public access to the beneficial-owner register (ESM) was closed in Dec 2025. Halal and kosher supervision: nothing found. Generic accounting competes. Logged as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Taxi rules were last changed in 2020 (Act 115/2020 Sb., evidence sticker, driver permit). No 2026 amendment found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers: ČNB licence (Act 277/2013 Sb.), premises notified electronically via REGIS, ČNB statement RS2020-11 on records and reporting, FAÚ reports within 5 days. Few operators (number unverified). Market traders: EET 2.0 is covered by K01 and K13. Money changers logged as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Tattoo and body-care: from 1 Jan 2026 operators only notify the health authority (no operating-rules approval); this is deregulation and no deadline for existing operators was found. Driving schools: no 2026 filing change found; a 2026 digital-licence change only affects learners. Nurseries: K05. Hunting: K16. Small food producers: new candidates below, wine growers and breweries (breweries covered by existing customs guidance).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "výkup kovů evidence povinnosti zákon 2026",
+    "autovrakoviště evidence ISPOP MA ISOH povinnosti 2026 software",
+    "zastavárna bazar evidence zákon registr 2026",
+    "včelaři evidence včelstev hlášení 2026",
+    "vyvážení žump evidence kalů doklad povinnost 2026",
+    "agentury práce povolení novela zákona o zaměstnanosti 2026 kauce",
+    "taxislužba novela zákona o silniční dopravě 2026",
+    "autoškoly nová povinnost 2026 evidence výuky",
+    "evidence skutečných majitelů spolky 2026",
+    "vyhrazená technická zařízení revize výtahů nový zákon 2026",
+    "malé vodovody posouzení rizik směrnice 2020/2184 2026",
+    "pohřebnictví hřbitovy evidence hrobových míst software 2026",
+    "vinaři vinařská evidence hlášení o sklizni program",
+    "minipivovar evidence spotřební daň 2026",
+    "program pro autovrakoviště MA ISOH fotodokumentace",
+    "směnárna ČNB FAÚ zlatnictví puncovní úřad evidence",
+    "spolek účetní závěrka sbírka listin veřejné sbírky 2026",
+    "chovatelé hospodářských zvířat hlášení ústřední evidence 7 dnů",
+    "zaměstnávání cizinců hlášení JMHZ REGZEC 2026",
+    "vrty studny geologické práce evidence ČGS 2026"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b24"
+ },
+ "discover:B:czechia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Pensions, guest houses, campsites and holiday-flat landlords (including Airbnb/Booking hosts) who must keep the domovní kniha, evidenční kniha and municipal fee records",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://chekin.com/cs/blog/ubyport-a-e-turista-jak-splnit-povinnosti-evidence-hostu/ (11 Jun 2026: not finally approved, launch postponed repeatedly, phased 2026-2027 draft); https://www.finance.cz/553173-aplikace-eturista-mela-od-cervence-hlidat-ubytovatele-zatim-vsak-zustava-jen-na-papire (30 Jun 2025: awaiting third reading, 24h reporting, fine up to 100,000 CZK); https://policie.gov.cz/reditelstvi-sluzby-cizinecke-policie/povinnosti-ubytovatele; MMR presentation https://www.mmr.gov.cz/getmedia/a589f674-8d07-4217-8a31-a30476620461/8-Prezentace-V-Kruzliak.pdf.aspx?ext=.pdf (STR duties via eTurista from 20 May 2026)",
+     "existing": "Chekin (online check-in plus UbyPort/eTurista automation); property-management systems with UbyPort links; the free UbyPort app; no eTurista API documentation found",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Same bridge-to-state-API shape as K01 but a different buyer (accommodation) and duty (guest register); K01 is fiscalisation.",
+     "name": "eTurista and UbyPort guest-register bridge for small accommodation providers",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Act 326/1999 (UbyPort, 3 working days), Act 565/1990 (local fee, evidence book, fines to 500,000 CZK) and the pending eTurista amendment of Act 159/1999 (registration number per unit, 24h reporting, fine to 100,000 CZK in the 2025 draft); Short-term-rental Regulation 2024/1028 applicable from 20 May 2026 with eTurista as intended channel",
+     "unchecked": "Whether the amendment passed or lapsed after the autumn 2025 elections and its current effective date; whether eTurista will publish an API for third-party software; municipal fee reporting formats; number of micro providers still using paper; Czech competitors beyond Chekin (competitor search ran but returned mostly Chekin content)"
+    },
+    {
+     "buyer": "Small operators of public or commercial chargers billed per kWh: municipalities, hotels, shops, small CPOs, installers servicing them",
+     "category": "31. Public EV charging point operators",
+     "evidence": "https://cmi.gov.cz/sites/all/files/public/download/Aktuality/Informace k EVSE.pdf ; https://zpravy.kurzy.cz/862203-nova-pravidla-pro-nabijecky-bez-certifikovaneho-meridla-nelze-legalne-uctovat/",
+     "existing": "No dedicated software found; only CMI process and news; charger back-ends do not track verification",
+     "known_mark": "new",
+     "name": "EV charge-point verification and revision tracker (CMI 4-year cycle)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Metrology Act 505/1990 and decree 345/2002 item 5.1.4: public chargers are regulated measuring instruments from 1 Jan 2026, verification valid 4 years, only validly verified meters may be used; revisions under Act 250/2021",
+     "unchecked": "Transitional deadline for chargers installed before 2026; number of affected operators; whether back-office vendors already add verification reminders; low frequency (every 4 years) makes it a feature, not a product"
+    },
+    {
+     "buyer": "Small real-estate offices and sole-trader brokers, precious-stone dealers, insolvency administrators (limited duties), financial advisers",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.epravo.cz/top/clanky/aml-a-diskriminace-v-realitni-praxi-chyby-ktere-mohou-vyjit-draho-121334.html ; https://ekonomickydenik.cz/stat-rozsiruje-okruh-osob-povinnych-hlasit-transakce-lidi-o-insolvencni-spravce-a-obchodniky-s-dranymi-kameny/ ; https://portal.pohoda.cz/dane-ucetnictvi-mzdy/ucetnictvi/aml-povinnosti-a-rizika-pro-ucetni/",
+     "existing": "Not checked: only advice articles and accounting-software content seen",
+     "known_mark": "new",
+     "name": "AML compliance kit for small real-estate brokers and other newly obliged persons",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Act 253/2008 as amended by 107/2024 Sb. (from 1 May 2024): client identification, risk assessment, 10-year retention, staff training (fine up to 5M CZK), contact person notified to FAU (fine up to 10M CZK); EU AMLR from Jul 2027",
+     "unchecked": "Competitor search not run (budget used up); risk of being a generic compliance tool; number of small brokers; whether FAU offers a free client-ID or risk-assessment template"
+    },
+    {
+     "buyer": "Independent insurance brokers and agents, possibly tied agents",
+     "category": "34. Insurance intermediaries (DORA, CNB SDAT)",
+     "evidence": "https://www.cnb.cz/cs/statistika/sdat/dora/ ; https://www.cnb.cz/cs/verejnost/servis-pro-media/autorske-clanky-rozhovory-s-predstaviteli-cnb/Pocet-registraci-pojistovacich-zprostredkovatelu-dosahuje-temer-180-000 (almost 180,000 registrations)",
+     "existing": "Generic DORA register tools only (mgm-tp low-code, USU Register Manager, Complete Control); no Czech intermediary-specific tool found",
+     "known_mark": "new",
+     "name": "DORA register of information filer for small insurance intermediaries",
+     "score": 3,
+     "status": "weak",
+     "trigger": "DORA (EU 2022/2554) Art. 28: annual register of ICT third-party contracts submitted to CNB through SDAT; CNB lists insurance, reinsurance and ancillary-insurance intermediaries among reporters; last collection deadline 2 Mar 2026",
+     "unchecked": "Whether micro-enterprises are relieved, how tied agents are treated, annual not monthly frequency, how many true standalone intermediaries remain, whether CNB provides a free template or the principal reports for agents"
+    },
+    {
+     "buyer": "Small family wineries and growers in Moravia and Bohemia",
+     "category": "32. Wine growers and producers",
+     "evidence": "https://mze.gov.cz/public/portal/mze/-q335635---s2lriK1I/manual-pro-podavani-el-hlaseni-vinaru ; https://portal.gov.cz/sluzby-vs/S19407 ; https://sbirka.nssoud.cz/cz/vinohradnictvi-a-vinarstvi-vedeni-evidence-lhuta-pro-zapis-do-evidencnich-knih.p2882.html (courts uphold fines for incomplete evidence)",
+     "existing": "Free eAgri / Portal farmare filing; foreign winery systems (vintrace, InnoVint) not Czech-format; no Czech winery-records vendor found in this search",
+     "known_id": "K15",
+     "known_mark": "new",
+     "known_note": "Adjacent to rejected grower distilleries (K15) but a different buyer and duty; same vendor-gap pattern.",
+     "name": "Winery records and declarations (harvest, production, stock) for small vintners",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Act 321/2004 and decree 323/2004: evidence books in prescribed format, harvest declaration by 15 Jan, production declaration for 1,000 l or more, stock declaration, filed in Registr vinic",
+     "unchecked": "Czech vendors of winery software (search was dominated by foreign results); how many micro-wineries; free state records tool; SZPI inspection frequency"
+    },
+    {
+     "buyer": "Dental practices, vet clinics with X-ray, bone-density centres",
+     "category": "33. Dental and veterinary X-ray registrants",
+     "evidence": "https://sujb.gov.cz/fileadmin/sujb/docs/radiacni-ochrana/formulare/Formulare_OEHO/web_obecne_info_k_registraci.pdf ; https://sujb.gov.cz/fileadmin/sujb/docs/dokumenty/publikace/MP_stomatologie_kontrola_kvality.pdf",
+     "existing": "No program for practices found in the search",
+     "known_id": "K09",
+     "known_mark": "new",
+     "known_note": "Same vet buyer group as K09 but a different duty (radiation, not antimicrobials).",
+     "name": "SUJB registrant records for dental and veterinary X-ray users",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Atomic Act 263/2016 section 10 registration (form A1), decrees 422/2016 and 409/2016, radiation-protection person",
+     "unchecked": "Whether there is any recurring filing (dose records, constancy tests); whether vendors of dental software already include it"
+    },
+    {
+     "buyer": "Small employers, households-as-employers, agencies hiring foreigners that still file by hand",
+     "category": "35. Employers of foreign workers / 26. firms that hire agency workers",
+     "evidence": "https://mpsv.gov.cz/casto-kladene-dotazy-2 ; https://mpsv.gov.cz/zmena-v-oznamovaci-povinnosti-pri-zamestnavani-cizincu-od-1-rijna-2025 ; https://www.pruvodcepodnikanim.cz/clanek/zamestnavani-cizincu-2026-prehled-novinek/",
+     "existing": "Every payroll package and the CSSZ ePortal form / XML upload / API",
+     "known_id": "K10",
+     "known_mark": "known",
+     "known_note": "Same JMHZ duty rejected as K10; no new evidence that the rejection fails (payroll vendors implemented it).",
+     "name": "Foreign-worker onboarding tracker (REGZEC via JMHZ) for small employers without payroll software",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Employment Act amendment: notice at least 8 days before start (from 1 Oct 2025), only through JMHZ/REGZEC from 1 Apr 2026; update of existing foreigners by 30 Apr 2026; fine up to 3M CZK; ICAS employer box planned",
+     "unchecked": "Whether the ICAS employer box in 2027 creates a new gap"
+    },
+    {
+     "buyer": "Pharmacies",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://sukl.gov.cz/wp-content/uploads/2026/04/Plneni-ohlasovaci-povinnosti-provozovatelu-lekaren-–-rocni-hlaseni-navykovych-latek-2025-1.pdf ; https://sukl.gov.cz/wp-content/uploads/2026/03/Kontrola-zachazeni-s-navykovymi-latkami-a-prekursory-drog-v-lekarnach-v-roce-2025-8.pdf",
+     "existing": "Pharmacy information systems (not verified by name); 98.7 percent of pharmacies filed on time",
+     "known_mark": "new",
+     "name": "Narcotics and precursor records for pharmacies",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Act 167/1998 annual report by end Feb; precursor Act 272/2013 and decree 71/2014 records",
+     "unchecked": "Whether pharmacy software generates the report; non-pharmacy users of category 1 precursors (labs, small chemical firms) not screened"
+    },
+    {
+     "buyer": "Small timber traders, sawmills and importers (as opposed to forest managers in K02)",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://www.businessinfo.cz/clanky/eu-zjednodusila-pravidla-pro-obchod-s-produkty-z-oblasti-zasazenych-odlesnovanim/ ; https://gerlach-customs.com/news/knowledge-base/eudr-2026-customs-requirements/",
+     "existing": "Not searched",
+     "known_id": "K02",
+     "known_mark": "known",
+     "known_note": "Adjacent to K02 (forest managers); downstream traders mostly pass on information rather than filing a DDS.",
+     "name": "EUDR information duties for small timber traders and sawmills",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Regulation 2023/1115 as amended: dates conflict between sources (30 Dec 2026 medium/large, 30 Jun 2027 micro/small; one source says timber from Dec 2026 regardless of size)",
+     "unchecked": "Exact small-firm dates, who in Czechia supervises, whether traders must file"
+    },
+    {
+     "buyer": "Farms, small hauliers, municipalities with own tank over 5 m3",
+     "category": "38. Own-tank fuel users (dispensing units over 5 m3)",
+     "evidence": "https://www.celnisprava.cz:443/cz/dane/registr-phm/Informace_registr_PHM/Informace_13_43083.pdf ; https://www.celnisprava.cz:443/cz/dane/registr-phm/Informace_registr_PHM/Informace_15_31853.pdf",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Own-tank fuel dispensing record for farms, hauliers and municipalities",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Act 311/2006 customs interpretation: daily dispensing record kept 3 years; sales outside the VAT group may count as distribution",
+     "unchecked": "Whether any inspection or enforcement trend exists; whether fleet and fuel-card software already logs dispensing"
+    },
+    {
+     "buyer": "Small vape shops and importers",
+     "category": "37. Vape and nicotine-pouch sellers",
+     "evidence": "https://www.finance.cz/kalkulacky/zdaneni-u-cigaret/ ; https://portal.pohoda.cz/rychle-zpravy/jake-zmeny-prinesl-rok-2025-ve-spotrebni-dani",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Vape and nicotine-pouch seller excise permit and returns",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Excise Act 353/2003 extended to e-liquid and nicotine pouches from 2025 (1.20 CZK/g and 7.50 CZK/ml in 2026); permit replaces registration",
+     "unchecked": "Which businesses need a permit, return frequency and formats, any control-stamp plan, competitors"
+    },
+    {
+     "buyer": "Nurseries and garden centres authorised to issue plant passports",
+     "category": "36. Plant nurseries and garden centres",
+     "evidence": "https://portal.gov.cz/sluzby-vs/S10890 ; https://mze.gov.cz/public/portal/-q417399----PVYtmVC/informace-vydavani-rl-pasu-ukzuz",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Plant passport and operator records for nurseries",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Regulation 2016/2031 with UKZUZ registration and passport authorisation",
+     "unchecked": "Record-keeping frequency, enforcement, existing nursery software"
+    },
+    {
+     "buyer": "Temporary-work agencies",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://www.epravo.cz/top/clanky/novela-zakona-o-zamestnanosti-ovlivni-cinnost-pracovnich-agentur-i-zamestnavani-osob-se-zdravotnim-postizenim-105746.html",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Staffing agency licence compliance (responsible person, insolvency insurance proof)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Proposed amendment of employment act 435/2004 (adoption unconfirmed)",
+     "unchecked": "Whether the amendment passed, number of agencies, whether it creates recurring filings"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Act 311/2006: distributors registered with Customs (20M CZK deposit), buy only from registered distributors, monthly electronic report within 20 days; owners of dispensing units with tanks over 5 m3 must keep a daily dispensing record for 3 years. No 2026 change found. Public EV chargers became legally regulated measuring instruments on 1 Jan 2026 (see candidate). Otherwise nothing new beyond the regime already served by fuel-station vendors.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Only MZe statistical return Obil (MZe) 7-02, now half-yearly from 2026, aimed at millers/bakers buying over 999 t and maltsters over 499 t, so not small firms. Nothing found for small grain buyers or warehouses. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Družstevní záložny report to CNB under decree 426/2013 (last amended by 55/2023 from 1 Jul 2023) and publish CRR Part 8 disclosures. The sector is a handful of institutions with niche banking vendors, so not a solo-founder market. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "eRecept, eNeschopenka and insurer billing are state systems with established clinic software; GP complaints are about workload, not a missing product. Dental and vet X-ray registrants (SÚJB) found as a niche (see candidate). Nothing else new.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Pharmacies file an annual narcotics report to SÚKL by end Feb (2,449 pharmacies and 201 other dispensers in 2026; only 34 late, 33 fixed after reminder), and SUKL ran 382 inspections in 2025 under Act 167/1998 and precursor Act 272/2013. High compliance and pharmacy software suggest a weak gap. No new 2026 duty found.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Proposed amendment to the employment act: responsible person on a 20h/week contract, new licence-withdrawal grounds (2 years inactivity, missing insolvency insurance proof); adoption unconfirmed. Foreign-worker onboarding must go through JMHZ/REGZEC from 1 Apr 2026 (see candidate). Security agencies not searched separately.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Construction waste handled by Decree 273/2021 and Act 541/2020 (already K11 rejected). Mining-waste plans go to the district mining office every 5 years, a niche. No local-content type reports exist. Nothing new beyond K11/K12.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "AML Act 253/2008 amended by 107/2024 Sb. (from 1 May 2024): insolvency/restructuring administrators and precious-stone dealers newly obliged; contact person to FAU required since end 2024 (fine up to 10M CZK); 10-year retention; unreported suspicious deal up to 5M CZK. EU AMLR (2024/1624) applies from Jul 2027 (own knowledge, unverified here). One candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Current duties: domovní kniha for foreigners kept 6 years, UbyPort report within 3 working days, evidenční kniha plus municipal poplatek z pobytu (fines up to 500,000 CZK). eTurista amendment (central register, registration number per unit, 24h guest reporting, fine up to 100,000 CZK in the 2025 draft) was still not finally adopted as of 11 Jun 2026; launch dates slipped repeatedly. Strongest new lead of this pass.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "EUDR: sources conflict on small-firm dates (30 Dec 2026 for medium/large, 30 Jun 2027 for micro/small; one source says timber applies from Dec 2026 regardless of size). Downstream traders do not file their own DDS once the first operator has. K02 already covers forest managers. Food and fish importers not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Public EV charging point operators (country-specific: metrology law change from 1 Jan 2026)",
+     "found": "CMI: public chargers are verified measuring instruments from 1 Jan 2026 (item 5.1.4 of decree 345/2002, 4-year verification), plus revisions under Act 250/2021. Transitional deadline for pre-2026 chargers not found. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Wine growers and producers (country-specific: Registr vinic, Act 321/2004)",
+     "found": "Harvest declaration by 15 Jan, production declaration (producers of 1,000 l or more), stock declaration, all filed through the free eAgri/Portal farmare; records in the format of decree 323/2004 are fined if incomplete (SZPI inspects). No Czech winery-records software found in search. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Dental and veterinary X-ray registrants (country-specific: Atomic Act 263/2016, SUJB registration)",
+     "found": "Dental, veterinary X-ray and bone densitometers need SUJB registration since 2017, application A1, radiation-protection person required. No recurring filing found, mostly a one-off plus internal quality records. See weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Insurance intermediaries (country-specific: DORA register of information to CNB)",
+     "found": "CNB lists insurance, reinsurance and ancillary-insurance intermediaries as DORA reporters of the register of information via SDAT; last deadline 2 Mar 2026; about 180,000 registrations. Micro-enterprise relief and tied-agent treatment unverified. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Employers of foreign workers (country-specific: REGZEC/JMHZ from 1 Apr 2026, advance notice from 1 Oct 2025)",
+     "found": "Start of work of every foreigner including EU citizens must be notified at least 8 days before, only through JMHZ/REGZEC since 1 Apr 2026; unreported work fine up to 3M CZK; ICAS employer box planned (EU citizens 2027). Payroll vendors cover JMHZ (K10).",
+     "status": "screened"
+    },
+    {
+     "category": "36. Plant nurseries and garden centres (country-specific: plant passports, EU 2016/2031)",
+     "found": "Professional operators register with UKZUZ and authorised operators issue plant passports themselves; 30-day registration; no 2026 change found. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Vape and nicotine-pouch sellers (country-specific: excise extended to e-liquid and nicotine pouches from 2025)",
+     "found": "Excise 2026: nicotine pouches 1.20 CZK/g, e-liquid 7.50 CZK/ml; excise registration replaced by permit from 2025. Control stamps found only for Slovakia, not Czechia. Permit and return duties for small shops unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "38. Own-tank fuel users: farms, hauliers, municipalities (country-specific: dispensing units over 5 m3)",
+     "found": "Customs interpretation: daily dispensing record kept 3 years; no novelty or 2026 change found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "čerpací stanice povinnosti evidence pohonné hmoty distributor registr Celní správa 2026",
+    "družstva spořitelní a úvěrní družstvo registr povinnosti hlášení ČNB malé družstvo 2026",
+    "ordinace praktický lékař povinnosti 2026 eRecept ePreskripce eNeschopenka vykazování pojišťovnám novinky",
+    "lékárny prekurzory drog evidence hlášení povinnost 2026 SÚKL nová povinnost",
+    "ubytovatel povinnosti 2026 evidenční kniha hlášení cizinců poplatek z pobytu krátkodobý pronájem registr ubytování",
+    "realitní makléři AML povinnosti Finanční analytický úřad nový zákon 2026 povinné osoby registrace",
+    "agentura práce zprostředkování zaměstnání povinnosti 2026 novela zákona o zaměstnanosti",
+    "stavební firmy povinnosti 2026 evidence odpadů stavební suť recyklát lomy hlášení báňský úřad",
+    "eTurista účinnost 2027 ubytovatelé registrační číslo ubytovací jednotky software PMS napojení API",
+    "dovozce dřeva EUDR malé firmy Česko 2026 prohlášení náležité péče obchodníci s dřevem",
+    "výkupny obilí sklady zemědělské komodity povinnost evidence hlášení SZIF ČSÚ mlýny 2026",
+    "notáři exekutoři insolvenční správci AML povinnosti hlášení 2026 evidence skutečných majitelů",
+    "vinaři evidence hlášení sklizňové hlášení zásobové hlášení ÚKZÚZ vinařský registr",
+    "SÚJB zubní ordinace rentgen registrace povinnosti radiační ochrana evidence zdrojů záření",
+    "provozovatelé dobíjecích stanic povinnosti 2026 hlášení NAP ERÚ licence",
+    "pojišťovací zprostředkovatelé DORA ČNB malé firmy povinnost 2026 registr informací",
+    "zaměstnavatel cizinci hlášení nástupu Úřad práce povinnosti 2026 JMHZ REGZEC",
+    "spotřební daň nikotinové sáčky e-cigarety Česko 2026 registrace kontrolní známky",
+    "neveřejné čerpací stanice registrace celní správa výdejní jednotka evidence",
+    "ubytovací kniha program UbyPort hlášení cizinců software eTurista (competitor); vinařská evidence software (competitor); DORA registr informací zprostředkovatel software (competitor); rostlinolékařský pas ÚKZÚZ; dobíjecí stanice ověření ČMI 2026"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b24"
+ }
+}

@@ -5,15 +5,15 @@ Part 3 of the Bosnia deep dive: product, technical design and development plan. 
 ## Summary
 
 - **Build a plain, server-rendered web app** (Python/Django, PostgreSQL, HTMX) hosted in an EU region, with a lawyer-editable content layer: Word templates with simple tags, risk rules as tables with golden tests, indicator and questionnaire libraries, all versioned. One senior developer can build it; two make it fast.
-- **The FUZIP questionnaire is the product spec.** The 2026 bookkeeper questionnaire has 60 items and asks for annexes: risk assessment with a written analysis per factor, policies, PEP procedure, AP decision, training plan, indicator list and records. Item 39 asks whether the firm has an *information system* for client risk and monitoring. The product answers that item by existing ([questionnaire](https://fuzip.gov.ba/wp-content/uploads/2026/10/UPITNIK-ZSPNFT_Racunovodstvene-i-knjigovodstvene-usluge.pdf)).
+- **The FUZIP questionnaire is the product spec.** The 2026 bookkeeper questionnaire has 49 items (numbered up to 60) and asks for annexes: risk assessment with a written analysis per factor, policies, PEP procedure, AP decision, training plan, indicator list and records. Item 39 asks whether the firm has an *information system* for client risk and monitoring. The product answers that item by existing ([questionnaire](https://fuzip.gov.ba/wp-content/uploads/2026/10/UPITNIK-ZSPNFT_Racunovodstvene-i-knjigovodstvene-usluge.pdf)).
 - **The law text gives hard deadlines the app can own:** risk assessment updated yearly (Art. 10); AP and deputy notified to the FOO within 8 days (Art. 48(5)); own indicator list sent to the FOO and supervisor within 30 days (Art. 57(3)); training plan by end of March (Art. 54(3)); 10-year retention of client data and 4 years for AP, training and control records, then deletion (Art. 92) ([gazette](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392)). FUZIP's Apr 2026 guidelines add a 4-level firm rating, 3 client risk levels plus "unacceptable", and re-rating triggers.
 - **MVP (12 weeks):** onboarding wizard to firm risk assessment; internal acts generator (DOCX/PDF); AP register; training plan, log and one course with quiz; client register with CDD, BO and PEP statement; UN/EU/OFAC screening with review; client risk scoring with approvals; reminders; one-click FUZIP inspection pack. Bosnian UI; Bosnian and Serbian Cyrillic documents; FBiH, RS and Brcko variants (mainly supervisor and questionnaire differences, since the AML law is state-level).
 - **v1 (months 4-9):** client self-service link, MRZ OCR, Excel import, confidential case log with STR and 30,000 KM cash-report drafts (filed by the user in the FOO's AMLS, which has no known API), real estate pack, RS and Brcko questionnaires, Croatian and Serbian Latin, consultant dashboard, retention engine and an "archive only" plan.
 - **Data sources:** UN, EU and OFAC lists are free XML and were all downloaded on 9 Oct 2026 (UN 1,010 records; EU about 6,200; OFAC 19,416). The EU public-token file was 17 days old, so use a personal token. No machine-readable BiH sanctions list exists yet. PEP data is the weak spot: OpenSanctions has 266 BiH PEPs and charges EUR 0.03-0.10 per check; the law's domestic PEP list is far wider, so combine self-declaration, OpenSanctions and a curated BiH list. Business registers: Brcko publishes a daily open-data XML (6,689 entities, no owners); the FBiH register is an old web app with no API found; RS's beneficial-owner register is in test.
 - **IDs and signatures:** BiH ID cards follow ICAO 9303 (ID-1, TD1 MRZ, chip). Read the MRZ in-house (Tesseract and PassportEye, MIT); do not send IDs to US OCR clouds. Four qualified e-signature issuers exist, IDDEEA's is free, and FBiH tax e-services now use them, so accepting QES-signed PDFs in v1 is realistic.
 - **Privacy:** BiH's GDPR-style law (Sl. glasnik BiH 12/2025) applies: 72-hour breach notice, fines up to 40 million KM, transfers abroad need an adequacy decision or safeguards. I found no adequacy list or standard clauses, so get a lawyer's opinion on EU hosting in week 1. We are processor for client data; the 10-year AML hold overrides erasure requests.
-- **Running cost is small:** about EUR 70-135 a month at 50 customers, EUR 310-445 at 300, EUR 800-1,135 at 1,000 (my estimates), i.e. 5-15% of expected revenue. People are the cost.
-- **Build cost:** MVP about EUR 27,000-47,000 cash and year 1 about EUR 75,000-118,000 with two developers, which is close to the B1 year-3 revenue estimate. A bootstrapped founder should go lean: concierge kits first (EUR 3,000-6,000), one developer, year 1 about EUR 40,000-60,000.
+- **Running cost is small:** about EUR 70-135 a month at 50 customers, EUR 310-445 at 300, EUR 800-1,135 at 1,000 (my estimates), about 4-14% of expected revenue. People are the cost.
+- **Build cost:** MVP about EUR 27,000-47,000 cash; a full first year with two developers about EUR 95,000-150,000, which is more than the B1 year-3 revenue estimate (EUR 69,000-115,000 a year). A bootstrapped founder should go lean: concierge kits first (EUR 3,000-6,000), then one developer, about EUR 55,000-80,000 in year 1; or about EUR 15,000-25,000 if the founder codes.
 - **Do the concierge MVP now.** FUZIP inspections run to end-2026, before any software could ship. Sell semi-manual document kits from week 3 (Nov-Dec 2026), then pilot the software in Jan-Feb 2027 and launch on 1 Mar 2027, before the end-of-March training-plan deadline.
 
 ## Users and jobs
@@ -46,13 +46,13 @@ A-count's founder, who runs an accounting office, lists the failures inspectors 
 
 ### Legal requirements behind the features (from the law text)
 
-These come from the gazette text of the Law on Prevention of Money Laundering and Financing of Terrorist Activities, Sl. glasnik BiH 13/2024, 19 Feb 2024 ([gazette PDF](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392)). The law agent covers the law in full. These are the articles that drive features.
+These come from the gazette text of the Law on Prevention of Money Laundering and Financing of Terrorist Activities, Sl. glasnik BiH 13/2024, 19 Feb 2024 ([gazette PDF](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392)). The law and Rulebook are covered in full in [01-law-and-requirements.md](01-law-and-requirements.md). These are the articles that drive features.
 
 - **Risk assessment.** Must cover client, country or area, product or service, and channel risk. It must be documented and updated at least once a year (Art. 10(1)-(2)). Feature: firm risk assessment wizard with a yearly review task.
 - **Policies.** Approved by top management (Art. 9(4)); internal acts must define identification procedures (Art. 11(2)). Feature: internal acts generator with an approval/signature step.
 - **Authorised person and deputy.** Every obliged entity appoints one, plus one or more deputies (Art. 48(1)). In firms with four or fewer employees, the legal representative counts as the authorised person if nobody is appointed (Art. 48(4)). Name and job title of both, and of the senior manager responsible, go to the FOO within 8 days of appointment or change (Art. 48(5)). Feature: authorised person register with a "notify FOO within 8 days" task.
 - **Authorised person must have unrestricted access, and others must not know why** (Art. 51(1)(a)). Feature: suspicious-activity cases visible only to the authorised person and deputy.
-- **Indicator list.** Each obliged entity draws up its own list of indicators, following FOO and supervisor guidance, and keeps it updated (Art. 57(1)). It must send the list and every update to the FOO and its supervisor within 30 days (Art. 57(3)). A Council of Ministers by-law sets a mandatory core list (Art. 57(5)). Feature: indicator list generator (core list + sector list + firm additions) with a "send within 30 days" task.
+- **Indicator list.** Each obliged entity draws up its own list of indicators, following FOO and supervisor guidance, and keeps it updated (Art. 57(1)). It must send the list and every update to the FOO and its supervisor within 30 days (Art. 57(3)). The official list must form part of the firm's own list (Art. 57(5)). The FOO publishes sector lists as Word files on the SIPA site, including "revizija, računovodstvo" (audit, accounting), "nekretnine" (real estate), "terorizam" and a list of countries with strategic deficiencies ([SIPA FOO documents](https://www.sipa.gov.ba/bs/dokumenti/foo-podzakonski-akti), checked 9 Oct 2026); the Rulebook says the FOO updates them at least every two years (Rulebook Art. 7, per [01-law-and-requirements.md](01-law-and-requirements.md)). Feature: indicator list generator (FOO sector list + firm additions) with a "send within 30 days" task, and a re-send prompt whenever the FOO list changes.
 - **Copies of ID.** The firm keeps a copy of the ID document, noting that the original was seen, with the date and the employee who did the check (Art. 15(14), Art. 61). Paper or electronic copies are both allowed (Art. 15 and Art. 60 last paragraph). Feature: ID upload with "original seen by / on" stamp.
 - **Remote identification.** Video identification is allowed under conditions (Art. 21). Identification by a qualified certificate for e-signature or e-seal is allowed (Art. 22). Feature for later: accept a qualified-signature-signed client form.
 - **PEPs.** Defined as holding a prominent public function now or in the last 12 months (Art. 4(r)). The domestic list is broad: Presidency members, chair of the Council of Ministers, ministers, deputy ministers and other heads of state institutions and agencies; presidents, prime ministers, ministers and deputies at entity, Brcko and canton level; mayors and municipal heads, all legislators down to canton level, members of party presidencies and party governing bodies, top judges and prosecutors, Central Bank board, diplomats, Joint Staff, and board members and directors of companies majority-owned by any level of government (Art. 4(s)). Family members and close associates are covered (Art. 4(u)-(v)). Firms must have a procedure to find out whether a client or its beneficial owner is a PEP. PEP clients need written senior-management approval and enhanced monitoring, and measures last at least 12 months after the person leaves office (Art. 34). A Council of Ministers by-law will set how the official list of public functions is formed and published (Art. 34, last paragraph). Feature: PEP self-declaration in the CDD form, PEP screening, and a "senior management approval" step.
@@ -70,7 +70,7 @@ These come from the gazette text of the Law on Prevention of Money Laundering an
   - the whole-business rating has four levels: less significant, moderately significant, significant, very significant (Art. 12(2));
   - client risk must be re-rated after triggers: unusual activity or reports, authority requests, sanctions breaches, big changes in activity, adverse media (Art. 13(4));
   - CDD data fields to collect (Art. 17) and the ID copy rule with the time and the employee's name (Art. 18).
-- **FUZIP questionnaire for bookkeeping and accounting providers (2026).** 60 numbered items in 11 sections, signed by the authorised person "under full material and criminal liability". Many items ask for annexes: the risk assessment with a written analysis of each risk factor (item 21), policies, the PEP procedure, the AP appointment decision, the training plan, the indicator list and the records ([questionnaire PDF](https://fuzip.gov.ba/wp-content/uploads/2026/10/UPITNIK-ZSPNFT_Racunovodstvene-i-knjigovodstvene-usluge.pdf)). Item 39 asks whether the firm has an information system supporting client risk assessment and monitoring, and to describe it.
+- **FUZIP questionnaire for bookkeeping and accounting providers (2026).** 49 items in 11 sections (numbered 1-47, then 59-60; numbers 48-58 are skipped in the published form), signed by the authorised person "under full material and criminal liability". Many items ask for annexes: the risk assessment with a written analysis of each risk factor (item 21), policies, the PEP procedure, the AP appointment decision, the training plan, the indicator list and the records ([questionnaire PDF](https://fuzip.gov.ba/wp-content/uploads/2026/10/UPITNIK-ZSPNFT_Racunovodstvene-i-knjigovodstvene-usluge.pdf)). Item 39 asks whether the firm has an information system supporting client risk assessment and monitoring, and to describe it.
 - **RS inspectorate.** In Jan 2026 it asked randomly chosen bookkeepers, accountants and auditors for internal acts, a 13-item questionnaire and a checklist within 10 days ([Paragraf, 29 Jan 2026](https://www.paragraf.ba/dnevne-vijesti/29012026/29012026-vijest1.html)). I could not see the 13 items (unverified). We need a copy from a pilot customer.
 
 ### What to copy from A-count and UK tools
@@ -86,13 +86,13 @@ These come from the gazette text of the Law on Prevention of Money Laundering an
 |---|---|---|---|
 | Accounts and roles | Firm workspace; roles owner, authorised person, deputy, staff; MFA; consultant with many firms | Consultant portfolio dashboard; bulk actions; white-label PDF headers for consultants | SSO; API |
 | Onboarding wizard -> firm risk assessment | 25-35 questions (supervisor/entity, sector, staff, clients by type, services, cash, foreign links, channels, PEPs in ownership). Draft with a written analysis per risk factor and a 4-level rating (less significant, moderately significant, significant, very significant), as the FUZIP guidelines Art. 12 ask | Yearly update wizard that shows what changed; the "new product/technology" assessment (FUZIP questionnaire items 22-23) | Benchmark against peers (anonymised) |
-| Internal acts generator | Policy and procedures (PKP); risk assessment document; decision appointing the authorised person and deputy; notice of the authorised person to the FOO; annual training plan; indicator list and cover letter to the FOO and supervisor; PEP procedure; client CDD form; PEP and BO statement. DOCX and PDF, versioned, with an approval record and upload of the signed scan | Internal control checklist and internal audit report (firms with more than 4 staff); data protection notice for clients; record of refused clients | Qualified e-signature of acts |
+| Internal acts generator | Policy and procedures (PKP); risk assessment document; decision appointing the authorised person and deputy; notice of the authorised person to the FOO and AMLS registration letter; annual training plan; indicator list and cover letter to the FOO and supervisor; PEP procedure; client CDD form; PEP and BO statement. DOCX and PDF, versioned, with an approval record and upload of the signed scan | Internal control checklist and internal audit report (firms with more than 4 staff); data protection notice for clients; record of refused clients | Qualified e-signature of acts |
 | Authorised person register | Current and past appointments, deputy, qualifications (Art. 49), FOO notice date | Absence/substitution log | |
 | Training | Annual plan by 31 March; log (date, topic, trainer, attendees, hours, evidence); 1 short course with a 10-question quiz and certificate | 4-6 micro-courses (law basics, CDD and BO, PEPs, indicators for bookkeepers, indicators for real estate, data protection); per-person history | Paid courses for CPD points if the professional bodies allow it (unverified) |
 | Client register and CDD | Person, sole trader (obrt), company; BO tree with the 25% rule; purpose and nature; source of funds; ID upload with "original seen by/on" stamp (Art. 15(14)); ID expiry; register extract upload with the date of the check; PEP self-declaration | Client self-service link; Excel import; ID MRZ reading; JMBG check-digit validation; proxy/representative handling (FUZIP item 33) | Register look-ups (FBiH/Brcko bizreg, RS BO register) |
 | Sanctions and PEP screening | UN, EU, OFAC lists refreshed every 6 hours; fuzzy matching with diacritics and Cyrillic; review screen (true/false match with reason); nightly re-screen of all clients against changes; PEP self-declaration | OpenSanctions PEP check on demand; curated BiH PEP list (state, entity, canton, mayors); BiH domestic list entered by hand from the gazette | Adverse media search with a saved result |
 | Client risk scoring | Rules from a lawyer-edited catalogue; low / medium / high / unacceptable (FUZIP guidelines Art. 8 and 10); explanation; manual override with reason; senior-management approval for PEP and high risk | Re-rating triggers from FUZIP guidelines Art. 13(4) (unusual activity, authority request, sanctions, big change, adverse media) | |
-| Ongoing monitoring and reminders | Review dates by risk (default high 6 months, medium 12, low 24; firm can change); ID expiry; yearly risk assessment; training plan by 31 March; 8-day AP notice; 30-day indicator list notice; weekly e-mail digest | Event log per client ("client changed activity"), with a 2-line note and a document, as A-count recommends | |
+| Ongoing monitoring and reminders | Review dates by risk (default high 6 months, medium 12, low 24; firm can change); ID expiry; yearly risk assessment; training plan by 31 March; new staff trained within 60 days (Rulebook Art. 43(2)); 8-day AP notice; 30-day indicator list notice; weekly e-mail digest | Event log per client ("client changed activity"), with a 2-line note and a document, as A-count recommends | |
 | Indicators and case log | Indicator library (core + sector) used to build the firm's list | Confidential case log for authorised persons; indicator checklist per case; decision record (report / do not report, with reasons); unusual-transaction register (Art. 33) | |
 | FOO reports | Not in MVP (rare event; give a Word template) | Draft STR and 30,000 KM cash report in the AMLS field order, PDF copy, log of filing date and AMLS reference. The product never files | AMLS integration only if the FOO ever opens an interface (unverified that any exists) |
 | Records and retention | Registers per Art. 60 shown as lists; retention date on every record | Retention engine: 10 years after the relationship ends; 4 years for AP, training and internal control records (Art. 92); deletion job with a log; full export; low-cost "archive only" plan | |
@@ -195,6 +195,7 @@ UX rules: mobile-friendly but desktop-first (bookkeepers work at desks); plain l
 | FBiH and RS business registers | Company checks | Web portals, no API found | Free, manual |
 | ID cards and passports | CDD data entry | In-house MRZ OCR | Free (open source) |
 | Qualified e-signature issuers | Signed client statements and acts | PDF signature validation | Free to validate |
+| FOO sector indicator lists and country list (SIPA site) | Indicator library; high-risk country rules | Word (.doc) files, checked weekly for changes | Free |
 | FOO AMLS | Reports | Manual filing by the user | Free |
 
 ### Sanctions lists (all free, all machine-readable; checked 9 Oct 2026)
@@ -208,7 +209,7 @@ UX rules: mobile-friendly but desktop-first (bookkeepers work at desks); plain l
 
 ### BiH-specific lists
 
-- **No machine-readable BiH sanctions list was found.** The Council of Ministers has adopted ad-hoc decisions freezing assets of persons linked to terrorism ([RFE/RL](https://www.slobodnaevropa.org/a/isil-bosna-hercegovina-sankcije/33683345.html)). A new state law on restricting the disposal of assets to prevent terrorism, its financing and proliferation financing was adopted by the Council of Ministers in March 2026 and by the House of Peoples on 4 May 2026. It is meant to give BiH a working mechanism for UN sanctions, which MONEYVAL found missing in Dec 2024 ([tportal, 4 May 2026](https://www.tportal.hr/vijesti/clanak/bih-deblokiran-dom-naroda-s-vaznom-odlukom-ali-i-dalje-rizik-sive-liste-moneyvala-20260504); [Paragraf, 16 Mar 2026](https://www.paragraf.ba/dnevne-vijesti/16032026/16032026-vijest6.html)). Whether it is published and creates a national designation list is (unverified). Design: a "BiH domestic list" table that staff fill by hand from Sl. glasnik BiH decisions until an official feed exists.
+- **No machine-readable BiH sanctions list was found.** The Council of Ministers has adopted ad-hoc decisions freezing assets of persons linked to terrorism ([RFE/RL](https://www.slobodnaevropa.org/a/isil-bosna-hercegovina-sankcije/33683345.html)). A new state law on restricting the disposal of assets to prevent terrorism, its financing and proliferation financing was adopted by the Council of Ministers in March 2026 and by the House of Peoples on 4 May 2026. It is meant to give BiH a working mechanism for UN sanctions, which MONEYVAL found missing in Dec 2024 ([tportal, 4 May 2026](https://www.tportal.hr/vijesti/clanak/bih-deblokiran-dom-naroda-s-vaznom-odlukom-ali-i-dalje-rizik-sive-liste-moneyvala-20260504); [Paragraf, 16 Mar 2026](https://www.paragraf.ba/dnevne-vijesti/16032026/16032026-vijest6.html)). The other house, publication and entry into force were not confirmed in my searches; nor whether it creates a national designation list (unverified). Design: a "BiH domestic list" table that staff fill by hand from Sl. glasnik BiH decisions until an official feed exists.
 
 ### PEP data
 
@@ -227,7 +228,7 @@ UX rules: mobile-friendly but desktop-first (bookkeepers work at desks); plain l
 |---|---|---|---|---|
 | FBiH court register of business entities (Federal Ministry of Justice) | `https://bizreg.pravosudje.ba/pls/apex/f?p=186:20` (Bosnian; 183/185/187 for other languages) | Search by name or ID; main ledger is public (FBiH regulation on the register, [Uredba 93/23](https://advokat-prnjavorac.com/zakoni/Uredba-o-vodenju-registra-poslovnih-subjekata-FBiH.pdf)) | An old Oracle APEX web app; no API or open data found (unverified). Scraping is fragile and terms are unclear | MVP: deep link and "upload extract + date checked". Later: on-demand look-up with the user watching, if terms allow |
 | Brcko District e-Registar (Judicial Commission of Brcko) | `https://bizreg.osbd.ba/` | Search, decisions, and **open data**: daily XML of all entities at `https://bizreg.osbd.ba/Public/PublicPortal/OpenData?handler=ExportXML` | Yes. 4.3 MB XML, 6,689 entities on 9 Oct 2026, fields: name, tax ID, legal form, MBS, status, NACE, address, registration and last-change dates. No owners or directors | MVP+: autocomplete and validation for Brcko clients. Side note: 64 active companies with main activity 69.20 (accounting/bookkeeping/audit/tax) and 16 with 68.31 (real estate agencies) in Brcko on 9 Oct 2026 (sole traders are not in this register) |
-| RS Unified Information System for business registration (APIF) | RS registration portal (`bizreg.esrpska.com`, unreachable from my test environment) | Main ledger public by law ([RS registration law](https://www.paragraf.ba/propisi/republika-srpska/zakon-o-registraciji-poslovnih-subjekata-u-republici-srpskoj.html)) | Unknown (unverified) | Deep link and upload |
+| RS Unified Information System for business registration (JIS, run with APIF) | RS registration portal (`bizreg.esrpska.com`, unreachable from my test environment) | Main ledger is public by law ([RS registration law](https://www.paragraf.ba/propisi/republika-srpska/zakon-o-registraciji-poslovnih-subjekata-u-republici-srpskoj.html)). Today firms buy extracts through APIF. A reform started in Oct 2025 would end the need to fetch APIF extracts every three months and give direct register access when contracts are signed ([Paragraf, 9 Oct 2025](https://www.paragraf.ba/dnevne-vijesti/09102025/09102025-vijest4.html)). The Dec 2025 bill (urgent procedure) gives notaries electronic access to the main ledger and creates the legal basis for a beneficial owner register ([Paragraf, 3 Dec 2025](https://www.paragraf.ba/dnevne-vijesti/03122025/03122025-vijest4.html)) | No public API found (unverified) | Deep link and upload now; watch for direct-access rules that might extend to AML obliged entities |
 | RS register of beneficial owners | Through the RS unified registration system website | In a first test phase with over 90% of data entered; a special law is still to come ([Paragraf, 11 May 2026](https://www.paragraf.ba/dnevne-vijesti/11052026/11052026-vijest3.html)) | Unknown | Watch; add when public |
 | FBiH and Brcko beneficial owner registers | — | None found (unverified) | — | BO must come from the client's statement plus register extracts. The law says BO data for registered entities is taken from the registration decision or a register extract (Art. 18(10)) |
 
@@ -250,6 +251,8 @@ Obrti (sole traders) are registered by municipalities, not courts, so there is n
 ### FOO reporting (AMLS)
 
 - Reports go through the FOO's AMLS software (Art. 46-47 of Law 13/2024, [gazette](https://portalfo1.pravosudje.ba/vstvfo-api/vijest/download/127392)). I found no public API for obliged entities (unverified). The product should generate a filled-in report draft (PDF and a copy-paste view in the AMLS field order) and log the filing date and AMLS reference that the user enters.
+- AMLS access starts with a registration letter to the FOO: the AP appointment decision with names, phones and e-mails, firm data and JIB, plus (for non-financial firms) a court-register extract and the statistical classification notice (Rulebook Art. 42, per [01-law-and-requirements.md](01-law-and-requirements.md)). The MVP generates this letter with the AP decision.
+- An EU-funded new AMLS is planned for mid-2027 (FOO 2025 report, per [01-law-and-requirements.md](01-law-and-requirements.md)). Keep report drafts as data plus a template, so the layout can change without code.
 
 ## Data model
 
@@ -432,7 +435,7 @@ Browser (HTMX)  ->  Caddy (TLS)  ->  Django app (web)  ->  PostgreSQL (RLS, PITR
 | **Total** | **about 70-135** | **about 310-445** | **about 800-1,135** |
 | Per customer per month | about 1.4-2.7 | about 1.0-1.5 | about 0.8-1.1 |
 
-At the planned average price of about 450 KM (EUR 230) a year, or about EUR 19 a month per customer (from the [B1 re-assessment](../reports/bosnia-and-herzegovina-b1.md)), infrastructure is 5-15% of revenue. People, not servers, are the cost.
+At the planned average price of about 450 KM (EUR 230) a year, or about EUR 19 a month per customer (from the [B1 re-assessment](../reports/bosnia-and-herzegovina-b1.md)), infrastructure is about 4-14% of revenue. People, not servers, are the cost.
 
 One-off and yearly extras: penetration test EUR 2,000-5,000 a year; DPO service EUR 100-300 a month if external; legal content upkeep (see budget). All my estimates (unverified).
 
@@ -461,12 +464,12 @@ The plan assumes a start on Mon 19 Oct 2026, with a holiday buffer from 28 Dec 2
 |---|---|---|---|---|
 | 1 (19 Oct) | 10-12 interviews: 5 FBiH bookkeepers (1-2 in Croat-majority areas), 3 RS bookkeepers, 1 Brcko, 2 real estate agencies, 1 consultant. Collect their current AML papers, the FUZIP questionnaires, and the RS 13-item questionnaire | Repo, CI, hosting account, Django skeleton, auth with MFA, tenant model | Landing page "FUZIP kontrole do kraja 2026" with a waitlist and kit pre-order | Kick-off with the lawyer: scope, hours, liability split |
 | 2 (26 Oct) | Document list and variable dictionary; risk factor catalogue v0 (from the law and FUZIP guidelines); FUZIP item map | Data model, roles, RLS policies and tests; i18n scaffolding | Pick concierge price (for example 199-299 KM per kit) | **LC1:** content outline approved; written opinion on EU hosting and transfers |
-| 3 (2 Nov) | Lawyer drafts Bosnian master: policy (PKP), risk assessment, AP decision, AP notice to FOO, training plan | Onboarding wizard (firm profile); document pipeline (docxtpl + Gotenberg) | **Concierge starts:** online form -> script -> lawyer/founder check -> DOCX by e-mail | |
-| 4 (9 Nov) | Indicator list v0 (core + bookkeeping + real estate); PEP and BO statement; CDD form | Rules engine v0 with golden tests; firm risk assessment output | First 5-10 paid kits delivered; note every manual fix | |
+| 3 (2 Nov) | Lawyer drafts Bosnian master: policy (PKP), risk assessment, AP decision, AP notice to FOO, training plan | Onboarding wizard (firm profile); document pipeline (docxtpl + Gotenberg) | **Concierge starts:** online form -> script -> lawyer/founder check -> DOCX by e-mail | **LC2a:** the 5 core kit documents approved for concierge sales (nothing is sold before this) |
+| 4 (9 Nov) | Indicator library v0 from the FOO lists (accounting/audit, real estate, terrorism) plus firm-specific examples; PEP and BO statement; CDD form | Rules engine v0 with golden tests; firm risk assessment output | First 5-10 paid kits delivered; note every manual fix | |
 | 5 (16 Nov) | Training course 1 text and 10-question quiz | Second developer joins. Client register, persons, BO tree, ID upload with encryption | Webinar with an association or seminar organiser (target 50 attendees) | |
-| 6 (23 Nov) | Serbian (ijekavian) variant and Cyrillic check | Sanctions ingestion (UN, EU, OFAC), versioning, diffs; matching; hit review screen | 20-30 kits sold (target) | **LC2:** templates v1 reviewed and signed off |
+| 6 (23 Nov) | Serbian (ijekavian) variant and Cyrillic check | Sanctions ingestion (UN, EU, OFAC), versioning, diffs; matching; hit review screen | 20-30 kits sold (target) | **LC2b:** full template set v1 (incl. CDD forms, indicator list, Serbian variant) signed off |
 | 7 (30 Nov) | Client risk factor tables; review intervals | Client risk scoring, overrides, senior-management approval; tasks and reminders; weekly digest e-mail | Recruit 10-15 pilot firms from kit buyers | |
-| 8 (7 Dec) | Questionnaire mapping text for items 1-60 | Training module (plan, log, course player, certificate); AP register; indicator list builder | | |
+| 8 (7 Dec) | Questionnaire mapping text for all 49 items | Training module (plan, log, course player, certificate); AP register; indicator list builder | | |
 | 9 (14 Dec) | ToS, DPA, privacy notice, disclaimers, security policies | Inspection pack (pre-filled questionnaire, annexes incl. item 39 "information system" description, ZIP and merged PDF); Cyrillic output | | **LC3:** risk rules, questionnaire mapping, ToS/DPA and disclaimers approved |
 | 10 (21 Dec, light week) | Pilot onboarding guide and 5 short videos | Hardening: audit log hash chain, backup and restore drill, load test, external light penetration test | Pilot contracts (free until 1 Mar 2027 in exchange for weekly feedback) | |
 | Buffer (28 Dec-10 Jan) | Holidays | Fix pen-test findings | | |
@@ -476,7 +479,7 @@ The plan assumes a start on Mon 19 Oct 2026, with a holiday buffer from 28 Dec 2
 ### Definition of done for the MVP
 
 1. A new firm in any of the three variants goes from sign-up to a full, approved document set in **under 60 minutes**, without our help, in at least 8 of 10 pilot firms.
-2. The inspection pack answers **all 60 FUZIP bookkeeper items**, with annexes, for a pilot firm with real data; the lawyer's mock inspection finds no missing document.
+2. The inspection pack answers **all 49 FUZIP bookkeeper items**, with annexes, for a pilot firm with real data; the lawyer's mock inspection finds no missing document.
 3. Client onboarding with ID, BO, PEP statement, screening and risk level takes **under 10 minutes** for a simple client.
 4. Screening: lists refresh automatically; a test set of 50 known listed names (with diacritics, Cyrillic and spelling variants) is caught; false positives stay under 1 per 20 BiH clients on a pilot data set (target to tune).
 5. Reminders fire correctly for all deadline types in an automated time-travel test.
@@ -484,6 +487,10 @@ The plan assumes a start on Mon 19 Oct 2026, with a holiday buffer from 28 Dec 2
 7. All templates show version and legal review date; LC1-LC3 signed off.
 8. Bosnian Latin UI; documents in Bosnian and Serbian Cyrillic; RS and Brcko variants produce correct supervisor names and addresses.
 9. At least 5 pilot firms say they would pay the planned price.
+
+### If there is only one developer
+
+The 12-week plan assumes a second developer from week 5. With one developer, plan 16-18 weeks for the same scope, or keep 12-14 weeks by moving the course player, Cyrillic output and the consultant role to v1. Keep the concierge track unchanged either way.
 
 ### After week 12: months 4-12
 
@@ -521,7 +528,7 @@ The plan assumes a start on Mon 19 Oct 2026, with a holiday buffer from 28 Dec 2
 
 ### Build budget (EUR, cash costs, founder unpaid)
 
-| Item | MVP (12 weeks) | v1 (months 4-9) | Year-1 total |
+| Item | MVP (12 weeks) | v1 (months 4-9) | Months 1-9 total |
 |---|---|---|---|
 | Senior developer | 10,000-16,000 | 18,000-24,000 | 28,000-40,000 |
 | Mid developer | 4,000-7,000 | 11,000-16,000 | 15,000-23,000 |
@@ -536,30 +543,30 @@ The plan assumes a start on Mon 19 Oct 2026, with a holiday buffer from 28 Dec 2
 | Contingency (about 15%) | 3,500-6,000 | 6,000-9,000 | 9,500-15,000 |
 | **Total** | **about 27,000-47,000** | **about 48,000-71,000** | **about 75,000-118,000** |
 
-In KM: MVP about 53,000-92,000; year 1 about 147,000-231,000 (at 1.95583 KM/EUR).
+Months 10-12 add about EUR 20,000-30,000 at the same team size. So a **full first year with two developers costs about EUR 95,000-150,000** (about 186,000-293,000 KM). The MVP alone is about 53,000-92,000 KM (at 1.95583 KM/EUR).
 
-**Reality check.** The B1 re-assessment puts year-3 revenue at about EUR 69,000-115,000 a year ([B1 report](../reports/bosnia-and-herzegovina-b1.md)). A full two-developer year 1 costs about as much as year-3 revenue. A bootstrapped founder should take the **lean path**:
+**Reality check.** The B1 re-assessment puts year-3 revenue at about EUR 69,000-115,000 a year ([B1 report](../reports/bosnia-and-herzegovina-b1.md)). A full two-developer first year costs more than that. A bootstrapped founder should take the **lean path**:
 
-- concierge kits first (EUR 3,000-6,000), then
-- one senior developer only, with the founder as product owner and tester, stretching v1 to month 12;
-- lean year-1 cash cost about EUR 40,000-60,000 (about 78,000-117,000 KM) (my estimate);
-- add the second developer only once about 150 paying customers or EUR 25,000 of yearly recurring revenue is reached.
+- concierge kits first (EUR 3,000-6,000), which also pay for themselves if 30 or more sell;
+- one senior developer only, with the founder as product owner, content manager and tester; v1 stretches to month 12;
+- lean first-year cash cost about EUR 55,000-80,000 (about 108,000-156,000 KM): developer EUR 36,000-48,000, lawyer EUR 8,000-12,000, the rest design, pen test, translation, tools and contingency (my estimate);
+- add the second developer only at about 150 paying customers (about EUR 35,000 a year of revenue).
 
-If the founder writes code, the MVP cash cost falls to about EUR 10,000-18,000 (lawyer, design, pen test, tools).
+If the founder writes the code, first-year cash cost falls to about EUR 15,000-25,000 (lawyer, design, pen test, translation, tools).
 
 ## Risks
 
 | Risk | Why it matters | Mitigation |
 |---|---|---|
 | **Content liability** | A customer is fined and blames our templates | Lawyer review with dated versions; owner approval recorded; liability cap; insurance; "tool, not advice" positioning |
-| **Pending by-laws change the content** | The core indicator list (Art. 57(5)) and the list of public functions for PEPs (Art. 34) are by-laws I could not find (unverified); the new asset-freeze law may create a BiH list | Content in tables and templates, not code; quarterly law watch; 30-day update promise |
+| **Rules and lists change** | FOO sector indicator lists are updated at least every 2 years; the list of public functions for PEPs (Art. 34) is still to come (unverified); the new asset-freeze law may create a BiH list; a new AMLS is planned for mid-2027 | Content in tables and templates, not code; weekly check of the SIPA files; quarterly law watch; 30-day update promise |
 | **Data breach of ID images and JMBGs** | High harm, 72-hour notice, fines up to 40 million KM | Envelope encryption, MFA, minimal staff access, pen tests, no US OCR, incident plan |
 | **Transfer rules unclear for EU hosting** | No adequacy list or Agency clauses found (unverified) | Lawyer opinion in week 1; DPA with customers; BiH-hosted fallback |
 | **Screening noise** | Common BiH names produce false hits; users stop looking | Birth date and nationality scoring; tuned thresholds; one-click "not the same person" with reason; re-alert only on list changes |
 | **PEP coverage gaps** | OpenSanctions covers 266 BiH PEPs; the law covers thousands | Self-declaration plus a curated list; say clearly what is covered |
 | **Registers lack APIs** | FBiH register is an old web app; RS unreachable from tests; BO registers not public | Upload with "date checked" in MVP; Brcko open data; add look-ups only where terms allow |
 | **AMLS has no interface** | We cannot file for users | Prepare drafts and log references; never claim to file |
-| **Supplier price shocks** | Hetzner raised prices sharply in Jun 2026; OpenSanctions bundles may change | Keep infra under 15% of revenue; portable Docker setup; official lists are free |
+| **Supplier price shocks** | Hetzner raised prices sharply in Jun 2026; OpenSanctions bundles may change | Keep infrastructure under 15% of revenue; portable Docker setup; official lists are free |
 | **Bus factor** | One developer holds everything | Boring stack, docs, CI, infrastructure as code, second developer or retained contractor |
 | **Language and script politics** | Users in RS expect Cyrillic; Croat-majority areas expect Croatian | Variants planned; auto-Cyrillic in the MVP; Croatian in v1 |
 | **Low digital comfort** | Older sole bookkeepers may struggle | Printable everything, video help, phone onboarding in the pilot, consultant channel |
@@ -568,7 +575,7 @@ If the founder writes code, the MVP cash cost falls to about EUR 10,000-18,000 (
 
 ## Open questions
 
-1. Has the Council of Ministers adopted the core indicator list (Art. 57(5)) and the list of public functions for PEPs (Art. 34)? Where are they published?
+1. Has the list of public functions for PEPs (Art. 34) been adopted and published? (The FOO sector indicator lists are published on the SIPA site.)
 2. Has the 2026 law on restricting the disposal of assets (terrorism, proliferation) been published, and does it create a BiH designation list with a machine-readable feed?
 3. What is the exact RS inspectorate questionnaire (13 items) and checklist? Does Brcko's Finance Directorate use its own questionnaire?
 4. Does the FOO's AMLS offer obliged entities any import format (XML/CSV) or only manual entry? What fields does the STR form have?
@@ -599,15 +606,18 @@ URLs cited in the text, grouped. Local downloads and tests were run on 9 Oct 202
 - https://www.un.org/sc/suborg/en/sanctions/un-sc-consolidated-list.html
 - https://support.stp.one/hc/en-us/articles/33434862798877-LEXolution-Sanctions-Lists
 - https://www.opensanctions.org/licensing/
-- https://www.opensanctions.org/faq/api/metering/
+- https://www.opensanctions.org/api/
 - https://opensanctions.org/articles/2022-10-04-saas-api/
 - https://www.slobodnaevropa.org/a/isil-bosna-hercegovina-sankcije/33683345.html
 - https://www.tportal.hr/vijesti/clanak/bih-deblokiran-dom-naroda-s-vaznom-odlukom-ali-i-dalje-rizik-sive-liste-moneyvala-20260504
 - https://www.paragraf.ba/dnevne-vijesti/16032026/16032026-vijest6.html
 - https://www.opensanctions.org/countries/ba/
-- https://www.opensanctions.org/api/
+- https://www.opensanctions.org/faq/api/metering/
 - https://www.novosti.rs/republika-srpska/vesti/1075224/imovinu-skrivaju-mare-izabrani-predstavnici-gradjana-bih-ignorisu-dostavljanje-izjava-imovinskom-stanju
 - https://www.slobodnaevropa.org/a/gradjani_uskraceni_za_uvid_u_imovinu_politicara_nvo_razocarane/24285780.html
+- https://www.paragraf.ba/dnevne-vijesti/09102025/09102025-vijest4.html
+- https://www.paragraf.ba/dnevne-vijesti/03122025/03122025-vijest4.html
+- https://www.paragraf.ba/dnevne-vijesti/11052026/11052026-vijest3.html
 
 **Competitors and UX references**
 
@@ -646,7 +656,6 @@ URLs cited in the text, grouped. Local downloads and tests were run on 9 Oct 202
 **News and context**
 
 - https://www.paragraf.ba/dnevne-vijesti/29012026/29012026-vijest1.html
-- https://www.paragraf.ba/dnevne-vijesti/11052026/11052026-vijest3.html
 - https://www.paragraf.ba/dnevne-vijesti/01102026/01102026-vijest1.html
 
 **Data endpoints tested directly**

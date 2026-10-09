@@ -622,5 +622,349 @@
    "searches": 24
   },
   "tag": "w2b48"
+ },
+ "gapfill:china": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Individual businesses and micro-firms selling on Taobao, Pinduoduo, Douyin, WeChat shops and livestream anchors or MCNs, and the bookkeepers who serve them",
+     "category": "31. Online platform sellers and livestreaming e-commerce merchants (platform tax-info reporting)",
+     "evidence": "https://www.news.cn/fortune/20260730/2b0aafc160a0436785ba6633f0f5273e/c.html (July 2026: many shop and livestream operators received gap reminders; compares gross platform income, not net of fees; operators advised to export all platform and payment-channel statements and reconcile); https://jiangsu.chinatax.gov.cn/art/2025/12/31/art_16701_1696295.html and https://www.stdaily.com/web/gdxw/2025-11/28/content_439115.html (over 7,000 platforms reporting); https://www.gov.cn search results on Decree 810 (not opened). Job a tool would do: import platform and WeChat/Alipay statements, build the gross-income view tax offices use, map it to the declared figures, and produce correction or explanation documents. Operators otherwise pay little or no tax under current preferences, which limits willingness to pay.",
+     "existing": "Competitor search ran (万里牛, 旺店通 ERP and multi-platform reconciliation articles): ERPs reconcile orders against platform bills, and no result showed a tax-gap comparison feature. 12366 hotline and local tax offices are the official route. Free accounting agencies and 代账 services unverified.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Same broad buyer class as the rejected K04/K05 (domestic SME tax SaaS) but this is a narrow new duty (platform-reported income comparison, 2025-26) rather than invoicing or general bookkeeping; K04's licensing and accessibility objection still applies and must be tested.",
+     "name": "Platform-income vs tax-declaration reconciliation and tax-reminder response pack for online shop and livestream sellers",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Decree 810 and SAT Announcement 2025 No.15: platforms report operator identity and gross income quarterly (first window October 2025); from 2026 tax offices compare against filings and SMS-remind operators with large gaps (Xinhua 2026-07-30)",
+     "unchecked": "Whether Taobao, Douyin or Alipay already give sellers a tax self-check view; willingness to pay given low tax liability; ICP or licence needs for a web product (see K04 rejection); statement export formats; number of reminded operators."
+    },
+    {
+     "buyer": "Small limited companies registered before 2024-06-30 with a remaining subscribed-capital term over 5 years from 2027-07-01 (many family and sole-owner firms)",
+     "category": "32. Individual businesses and micro-firms: 2024 Company Law capital paid-in deadline",
+     "evidence": "https://www.gov.cn/zhengce/202407/content_6960502.htm; https://www.cs.com.cn/xwzx/hg/202412/t20241230_6465010.html; https://www.allbrightlaw.com/CN/10475/4264ed846912b286.aspx (reduction as one option, not for all). Deadline roughly 8 months away from 2026-10-09, so demand peaks in H1 2027. A one-off, deadline-driven task.",
+     "existing": "Competitor search ran (认缴期限调整 小程序 工具 ...): returned only law-firm explainers, no tool or named 代办 vendor. Business-registration agents (代办) and lawyers likely sell this as a service, unverified.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Different duty from K04 general SME compliance SaaS; one-off, service-led.",
+     "name": "Company Law capital paid-in term adjustment and reduction pack for small LLCs (2027-06-30 deadline)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "State Council Decree 784 (2024-07-02): amend the articles and publish on the credit publicity system by 2027-06-30; otherwise correction order, then a public mark on the system. Changes must be published within 20 working days. Capital reduction needs creditor notice, which lawyers call complex.",
+     "unchecked": "How many firms must act (no figure found); whether local registrars offer an online wizard or free template; whether the task is simple enough that owners do it themselves; one-off revenue only."
+    },
+    {
+     "buyer": "About 120 million registered individual businesses (figure from the study's gap note, not verified here)",
+     "category": "32. Individual businesses and micro-firms: annual report",
+     "evidence": "https://scjgj.huainan.gov.cn/group1/M00/27/CF/rB406mhjn-6ALGArAABgM9CTEwM003.doc (Huainan penalty case, 2021-2023 reports missed); https://www.fadada.com/article/Basics-004399 (not opened). Filing is free on the state system and takes minutes.",
+     "existing": "Free official portal and registrars (the national credit publicity system); mobile registrar apps unverified. No paid tool found.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Killed by the free state portal and the trivial form; listed only for coverage.",
+     "name": "Individual business (个体工商户) annual report reminder and filing assistant",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Annual Report Measures: file 1 Jan to 30 Jun on the National Enterprise Credit Information Publicity System or at the registrar; non-filers flagged as abnormal; local case of a fine up to 10,000 yuan for filing none in three years",
+     "unchecked": "Whether paid 代办 vendors have real volume."
+    },
+    {
+     "buyer": "Licensed restaurants and small food businesses where the local registrar applies the SAMR main-responsibility rule (applicability to small restaurants not confirmed)",
+     "category": "33. Food business licensing: 日管控 周排查 月调度 records",
+     "evidence": "https://tidenews.com.cn/news.html?id=3088263; https://www.lingbao.gov.cn/group1/M00/06/61/CqDI22mBqOuAQIXqAAR9LO63EmA46.docx (checklist for licensed restaurants: daily, weekly, monthly forms, monthly app-based assessment); https://paper.people.com.cn/rmrb/html/2023-08/28/nw.D110000renmrb_20230828_2-11.htm (2023 backlash: a small restaurant owner filling daily forms; SAMR said it would stop excess burden). Weak because regulators oppose formalism and the 'scale' threshold is local.",
+     "existing": "Competitor search ran (日管控 周排查 月调度 小程序): one unverified download-site app (jb51) that exports the three forms; the Lingbao checklist mentions a government food-safety assessment app. No identified commercial vendor.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Not close to K02/K03 (different buyer and duty).",
+     "name": "Daily/weekly/monthly food-safety risk-control record keeper for licensed restaurants and food shops",
+     "score": 3,
+     "status": "weak",
+     "trigger": "SAMR rule on enterprises' food-safety main responsibility (in force 2025-04-15): Daily Inspection Record, Weekly Report, Monthly Meeting Minutes; Lingbao small-operator checklist expects the forms",
+     "unchecked": "Whether small restaurants must keep the records (local thresholds); whether provincial apps are mandated and free; real market size and payment appetite."
+    },
+    {
+     "buyer": "Canteen operators and small nurseries, care homes and workplace canteens covered by the SAMR rule on 集中用餐单位 (in force 2025-04-15)",
+     "category": "33. Food business licensing: 集中用餐单位 food-safety responsibility",
+     "evidence": "Search summary only: the SAMR rule on 集中用餐单位 in force 2025-04-15 (see https://www.shanghai.gov.cn/cmsres/5a/5a34e81df0fe4cbb8d8a8a2e3389dc00/0a03cf2d0fb72d06658f0c02aef76e23.doc for a Shanghai elder-care guide; official rule text not opened).",
+     "existing": "Not searched (budget). Contract caterers and school canteen platforms likely cover it, unverified.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Food-safety director/officer record and duty tracker for school, nursery, elder-care and workplace canteens (集中用餐单位)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "The rule covers food-safety managers' appointment and duties, and requires the director to be management-level; some local guidance asks for retained records of appointments, duty reports and training and assessment",
+     "unchecked": "The rule text; number of small operators among canteens; vendor coverage; local mandated platforms."
+    },
+    {
+     "buyer": "Non-academic training bodies (art, sports, music studios; 108,400 on the national platform as of May 2025)",
+     "category": "34. Private schools, tutoring and training bodies",
+     "evidence": "https://www.news.cn/politics/20250327/9c0d6adef0854c5c9cda15d8a64457cd/c.html; https://www.cqyz.gov.cn/IGI/upload/file/2025/02/12/2025021206275604105Q.docx; https://www.beijing.gov.cn/hudong/gfxwjzj/qjzjxx/202311/P020231116615509160395.doc (Shi Jing Shan draft). Duty falls on the studios but the state platform is the main channel.",
+     "existing": "Competitor search ran (培训机构 管理系统 SaaS ... 系统接入): no named SaaS vendor documentation found. State platform and its institution app (校外培训机构端) cover listing, selling and funds; existing studio SaaS vendors (校管家 is named only in my query, not confirmed) unverified.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Nurseries and driving schools were already named in the category list but not as this duty.",
+     "name": "Off-campus training prepaid-fee escrow and national-platform ledger integration for micro training studios",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Ministry of Education 2025-03-26 management measures for the National Off-Campus Training Supervision and Service Platform: join directly or connect systems, record sales, refunds and supervised-fund movements in the platform ledger; prepaid fees must be fully supervised by bank escrow or deposit; local consumption-synchronised release (Chongqing Yuzhong 2025)",
+     "unchecked": "Connection standards and whether third parties can certify; studio payment behaviour; existing SaaS (e.g. class-management vendors) already integrating."
+    },
+    {
+     "buyer": "Small cross-border sellers and trading firms exporting to overseas warehouses under 9810 who claim VAT refund or exemption",
+     "category": "35. Export/import micro-operators: cross-border e-commerce sellers, export tax refund",
+     "evidence": "https://cn.chinadaily.com.cn/a/202502/09/WS67a7f5b2a310be53ce3f4a4d.html; https://www.gz.gov.cn/attachment/7/7760/7760891/10114383.docx; https://www.tid.gov.hk/en/tradecircular/files/2025/ci2025132a.pdf; also the 2026-2027 return exemption (same HK circular). Pain: matching FX receipts, customs value and overseas sales is manual.",
+     "existing": "Competitor search ran (跨境电商 出口退税 申报 软件 服务商 9810): cross-border ERPs and tax-software firms exist; 擎天全税通 is cited in two 2026 marketing articles (14万 customers claimed, unverified). Customs brokers and agents handle declarations.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Same broad export lens as K01 but a different buyer (cross-border sellers) and a different duty (tax-refund settlement, not CBAM data).",
+     "name": "9810 overseas-warehouse pre-refund reconciliation and sale-settlement tracker for small cross-border exporters",
+     "score": 3,
+     "status": "weak",
+     "trigger": "SAT announcement (in force 2025-01-27): 'leave-then-refund, settle on sale', refund code HWC-YT; sold and unsold goods declared separately; tax offices push lists of cleared-but-unsettled pre-refund data that sellers must reconcile to actual sales; refund conditions vary by locality",
+     "unchecked": "Number of small sellers claiming refunds; whether ERP and 退税 vendors already provide pre-refund settlement tracking; current Yiwu 1039 and 9710 e-contract filing rules (blog claims unverified)."
+    },
+    {
+     "buyer": "Franchise courier outlets and community pickup stations; also express operators' network managers",
+     "category": "36. Courier, express and logistics sub-stations (快递末端网点, 驿站)",
+     "evidence": "https://www.elawcn.com/rule/2026/0619/1851.html (text of regulations); https://amr.yn.gov.cn/__local/1/4F/FF/DF986BB2B14F94669C405972A1A_C6141D2F_1A9C2.pdf (Kunming 2024 inspection plan listing the 20-day filing); the 2018 real-name measures and Anyidi app (secondary sources). Duties mostly sit with the express brand, which supplies its own PDA or app and screening machines.",
+     "existing": "Competitor search ran (驿站 管理软件 ...): 驿站助手, 小扁担驿站, 快宝驿站 and the Cainiao station app cover parcel intake, pickup notices and stock; real-name and screening features were not seen. Brand-provided operator systems and the national real-name platform likely cover the legal duties.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Pickup-station and courier-outlet compliance pack (20-day filing, real-name collection, inspection and screening log)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Express Delivery Interim Regulations Art. 19 (file within 20 days; fine up to 10,000 yuan under Art. 50), Art. 23 real-name collection, Art. 32 inspection, Art. 33 screening; 2025 revision in force 2025-06-01 (packaging chapter)",
+     "unchecked": "Whether independent pickup-only stations face any filing or real-name duty; whether any 2026 revision changed outlet duties; actual enforcement against stations."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31. Online platform sellers and livestreaming e-commerce merchants (platform tax-info reporting, platform rules)",
+     "found": "State Council Decree 810 (Provisions on Internet Platform Enterprises Reporting Tax-Related Information) plus SAT Announcement 2025 No.15: platforms report operator and practitioner identity and income quarterly (first window 2025-10-01 to 10-31; over 7,000 platforms by Nov 2025); livestream platforms also report MCN-to-anchor links. By 2026-07-30 (Xinhua) tax offices compare platform-reported income (gross, before platform fees) against self-declared income and send SMS reminders to online shop and livestream operators with large gaps. Operators must self-check, correct and pay, or submit platform records and bank statements. Candidate C1 below. Not checked: any SAT free tool, platform-side self-check tools (Taobao, Douyin), operator counts.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Individual businesses (个体工商户) and micro-firms: annual report, deregistration, Company Law 2024 capital paid-in deadline",
+     "found": "State Council Decree 784: LLCs registered before 2024-06-30 with more than 5 years of remaining subscribed-capital term from 2027-07-01 must shorten it to 5 years or less and amend the articles by 2027-06-30; if not, the registrar orders correction, then marks the firm publicly on the credit publicity system. Changes must be published within 20 working days. Individual-business annual report is due 1 Jan to 30 Jun each year on the free national credit publicity system; non-filers are flagged as abnormally operating (local case: fine up to 10,000 yuan). Candidates C2 (capital adjustment) and C3 (annual report, rejected). Not found: number of affected companies, simplified deregistration rules, any commercial annual-report or capital-adjustment tool.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Food business licensing and small producers: food-safety self-inspection, catering licence, daily/weekly/monthly risk-control records",
+     "found": "SAMR rule on enterprise food-safety main responsibility (in force 2025-04-15) requires a risk-control list plus daily control (food-safety officer, Daily Inspection Record), weekly investigation (food-safety director or officer, Weekly Report) and monthly scheduling (principal, Monthly Meeting Minutes); a local Lingbao checklist expects licensed restaurants to hold these forms. A separate SAMR rule from the same date covers 集中用餐单位 (schools, nurseries, elder-care, hospital and office canteens). I found no authority that small restaurants must appoint a food-safety director (the 'certain scale' threshold is set locally). In 2023 SAMR responded to a press story about a small restaurant owner burdened by the daily forms and said it would stop local excess. Candidates C4 and C5. Not checked: local thresholds, state-mandated apps (a 食品安全考核APP is mentioned in the Lingbao checklist), commercial products.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Private schools, tutoring and training bodies (non-academic training filing, prepaid fee supervision)",
+     "found": "Prepaid fees of subject and non-subject tutoring bodies must be fully supervised through bank escrow or a risk deposit (2021 and 2022 notices; local rules use 'consumption-synchronised release', e.g. Chongqing Yuzhong). Ministry of Education: 108,400 non-academic bodies were on the national supervision platform and 95,400 (88%) under escrow or deposit as of May 2025. The Ministry of Education's 2025-03-26 management measures for the National Off-Campus Training Supervision and Service Platform require bodies to join the platform directly or connect their system, and record course sales, refunds and supervised-fund movements in the platform ledger; banks must connect to the platform; 'study first, pay later' is live. The 2025 financial-management rules apply to bodies serving ages 3-6 and school pupils. Candidate C6 (weak: the state platform is the main tool). Not checked: API/connection standards, named SaaS vendors (no vendor documentation found), number of micro-operators needing the integration.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Export/import micro-operators: cross-border e-commerce sellers, 9610/9710/9810 customs declaration, export tax refund and market-procurement (1039) rules",
+     "found": "SAT announcement (in force 2025-01-27): goods exported to overseas warehouses under 9810 qualify for refund or exemption on leaving China, shown with the code HWC-YT, with 'pre-refund then settle on sale'; tax offices push lists of cleared-but-unsettled pre-refund data for sellers to reconcile, and sellers should declare sold and unsold goods separately. Returned cross-border goods (codes 1210, 9610, 9710, 9810) from 2026-01-01 to 2027-12-31 are exempt from import duty and import-stage VAT/excise if returned within 6 months, after repaying any refund (food excluded). Market procurement (1039): VAT exemption with filing for individual traders and SMEs (2013 NDRC source; may be outdated; Yiwu reform plan Dec 2024). Software vendors seen: 擎天全税通 (marketing articles only, 140,000 customers claimed, unverified). Candidate C7. Not checked: Customs electronic-contract filing for 9710, 1039 current rules, and small-seller counts.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Courier, express and logistics sub-stations (快递末端网点, 驿站): real-name collection, inspection, security screening, filing",
+     "found": "Express Delivery Interim Regulations (revised by State Council decision 2025-04-13/18, in force 2025-06-01; the revision mainly adds an express-packaging chapter): Art. 19 requires an outlet to file with the local postal regulator within 20 days of opening, with no business licence needed; Art. 23 real-name collection; Art. 32 inspection before sealing; Art. 33 screening, with equipment meeting national standards and background checks on staff; Art. 50 fine up to 10,000 yuan for not filing. Duties sit with the express operator, not a standalone outlet rulebook. Real-name uses the 2018 Postal Bureau measures and the national real-name platform (Anyidi app for operators that lack a system). Pickup-station apps exist (驿站助手, 小扁担驿站, 快宝驿站, Cainiao station app) and cover parcel intake, pickup notices and stock, not found with real-name or screening records. Candidate C8 (weak, mostly operator-side). Not checked: whether independent pickup-only stations carry any filing or real-name duty, and any 2026 changes.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "平台企业涉税信息报送 个体工商户 网店 直播带货 2025 税务 合规",
+    "公司法 认缴出资期限 5年 2027年6月30日 小微企业 减资 注销 年报 个体工商户",
+    "食品安全总监 食品安全员 日管控 周排查 月调度 餐饮服务提供者 小餐饮 记录 要求",
+    "校外培训机构 预收费监管 资金托管 非学科类 审批 备案 小微机构 2025 平台",
+    "跨境电商 出口 9810 9710 海关申报 出口退税 小微 卖家 合规 2025 2026 市场采购贸易 备案",
+    "快递 末端网点 实名收寄 收寄验视 过机安检 驿站 备案 快递暂行条例 修订 2025",
+    "快递驿站 备案 实名收寄 安检 邮政管理局 末端 小微 管理系统 软件",
+    "餐饮 食品安全 日管控 周排查 月调度 记录 小程序 软件 小餐饮 食安员 系统",
+    "认缴期限调整 小程序 工具 公司减资 简易注销 网店 个体工商户 年报 代办 服务 2026",
+    "网店 个体户 税务 对账 工具 平台报送 收入 核对 软件 淘宝 抖音 商家 税务合规 助手",
+    "市场采购贸易 义乌 个体商户 备案 联营体 出口 报关 软件 系统 9710 9810 退税 申报 工具",
+    "校外培训机构 预收费 监管 SaaS 软件 退费 家长 小微 培训机构 管理系统 资金监管平台 对接",
+    "个体工商户 年度报告 6月30日 未报 经营异常 严重违法 代办 2026 年报 提醒",
+    "驿站 管理软件 快递100 驿站掌柜 实名寄件 安检 出入库 小程序",
+    "培训机构 管理系统 SaaS 校管家 预收费 资金监管 对接 全国校外教育培训监管与服务综合平台 系统接入",
+    "跨境电商 出口退税 申报 软件 服务商 9810 海外仓 退税 管家 小卖家 代办",
+    "食品安全总监 小餐饮 是否必须配备 食品安全员 食品经营许可证 2025年4月 规定 小型餐饮 豁免 规模",
+    "电商 网店 财务 税务 对账 SaaS 万里牛 旺店通 个体户 申报 平台收入 税务比对 工具 上线"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b48"
+ },
+ "triage:china": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Small hazardous waste producers/collectors: mandatory plan, ledger, e-manifest; new buyer and duty vs K03."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Pet clinics, new e-licence and filing duty; different from K03 farm-input shops."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Small nurseries with mandatory filing and change duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Gold buy-back shops ID register; different from K02 recyclers; trigger is advisory but unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Small slaughter sites with mandatory record duties under 2025 provincial rule."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Market operators/stall holders with mandatory seller archives and certificate checks."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small labour dispatch firms with mandatory annual report by 31 March."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Small property managers as lift user unit with recurring inspection/record duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Drone spraying teams are a different buyer and duty than K03; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Small water abstractors with annual summary and tax duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Fuel stations with hard 2026-11-01 deadline; different buyer from K05 e-invoicing reconciliation; accessibility to be tested."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Grain brokers/small mills ledger duty effective 2026-04-01; different from K03."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Small pharmacies/clinics with mandatory traceability code scan and upload; no known pharmacy idea."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small real estate brokerages with AML duty in force 2025-09-01."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Farmer cooperatives with annual report and revocation risk; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small LPG dealers with traceability and real-name rules; unverified, keep."
+    },
+    {
+     "decision": "merge",
+     "id": "B7",
+     "reason": "Same buyer group (small waste producers like garages, labs) and same hazardous waste plan/ledger/manifest duty as A1.",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Auto repair shops with mandatory e-record upload and filing; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small manufacturers with mandatory annual occupational hazard declaration and testing."
+    },
+    {
+     "decision": "drop",
+     "id": "B10",
+     "reason": "Out of scope: the trigger is a voluntary standard with no mandatory duty to an authority; fails the 'mandatory workflow' definition."
+    },
+    {
+     "decision": "known",
+     "id": "B11",
+     "reason": "Same hotel/homestay guest registration duty as rejected K09; the pilot is no specific new evidence of a killer gap.",
+     "ref": "K09"
+    },
+    {
+     "decision": "known",
+     "id": "B12",
+     "reason": "Recyclers reverse invoicing is K10 (and K02 ledger); no new evidence offered.",
+     "ref": "K10"
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Small contractors with mandatory real-name and wage account rules; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Aquaculture farms with customs filing duty for export supply; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Dental and small clinics with radiation licence and dose-record duties; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "New narrow duty (platform-income comparison reminders) for online sellers, not general SME SaaS; accessibility to be tested vs K04."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "One-off duty with 2027-06-30 deadline hitting many small LLCs at once; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Small restaurants with mandated daily/weekly/monthly risk-control records; applicability to be verified."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Canteen operators and small nurseries/care homes with food-safety officer duty; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Micro training studios with mandatory platform ledger and prepaid-fee escrow duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Small cross-border exporters with 9810 refund settlement duty; different buyer and duty from K01."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Courier outlets and pickup stations with filing, real-name and inspection duties."
+    }
+   ]
+  },
+  "tag": "w2b48"
  }
 }

@@ -474,6 +474,20 @@
   },
   "tag": "w2b45"
  },
+ "escalate:croatia:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Croatian tool for tracking permits or expiry dates was found in three searches. Foreign products exist (HRappka in Poland, SAP SuccessFactors Visa & Permits, Pandahrms). The state HZZ/MUP application covers filing, but news reports say it is buggy and has no status tracking. Employment agencies, lawyers and accountants do the core permit work as a service. Croatian payroll and HR vendors (e.g. modules for workers' records) were not checked one by one, so there is a risk this is a generic HR-document feature.",
+   "duty": "Zakon o strancima as amended by NN 55/26 (in force 4.6.2026). Only an employer that actively carries out the registered business tied to the job can get a permit. A worker hired after a labour-market test may work only in that police district. Change of employer is allowed after 6 months. Under Art. 95, the employer must notify police within 15 days when the contract or another permit condition ends. Fine for a legal person under Art. 251: 660-920 EUR, plus 60-390 EUR for the responsible person, as cited in Varaždin court decisions. Courts have often prosecuted this. Seasonal permits must be renewed at least 15 days before expiry. Under the workers' records rulebook (Pravilnik o evidencijama o radnicima), the permit or work registration certificate is a mandatory field. Corrections to the claim: the A1.1 exam obligation is postponed to 4.6.2027. The 30-day board-member rule and the 5,000-20,000 EUR fines were not verified.",
+   "market": "MUP 2024: 172,499 residence and work permits (68,912 construction, 45,868 tourism and hospitality). About 117,549 foreign workers held valid permits at the end of 2024. MUP: 213k applications by October 2025. HUP expects more than 200k foreign workers. The number of employers is not published; it is likely in the low tens of thousands (estimate, not verified).",
+   "reason": "The duty is real. NN 55/26 has been in force since 4 June 2026 and adds the active-business test, a limit to the police district where the labour-market test was done, and easier change of employer. Two details in the claim are wrong. The Croatian language exam is postponed to 4 June 2027. The 5,000-20,000 EUR fines were not verified; the fine I found for late notice to police is 660-920 EUR. Courts do prosecute these cases often. I found no Croatian product that tracks permits, but the core job (applying for permits) is done by the HZZ/MUP portal plus agencies and lawyers. That leaves a tracker for expiry dates and 15-day notices, which is close to generic HR software. Volume is high: 172,499 permits in 2024.",
+   "searches": 6,
+   "sources": "https://www.rrif.hr/izmjene_zakona_o_strancima_stupaju_na_snagu_4_lipn-2521-vijest/ ; https://teb.hr/novosti/2026/rad-stranaca-na-temelju-misljenja-hzz-a-nakon-izmjena-zakona/ ; https://www.tportal.hr/vijesti/clanak/velike-promjene-za-strane-radnike-bez-znanja-jezika-nema-ostanka-sindikati-nezadovoljni-odredbom-foto-20260424 ; https://www.zakon.hr/c/sudska-praksa/654468/pp-1412-2025-4---opcinski-sud-u-varazdinu ; https://unija.com/hr/pravilnik-o-sadrzaju-i-nacinu-vodenja-evidencija-o-radnicima/ ; https://moj-posao.net/EN/Faq/Details/83934/Lani-je-izdano-vise-od-170-tisuca-dozvola-stranim-radnicima-najvise-u-graditeljstvu/2 ; https://www.novilist.hr/?p=1523976 ; https://mojafirma.hr/clanci/zaposljavanje-stranaca-radne-dozvole ; https://hrappka.pl/en/?p=55001",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b49"
+ },
  "gapfill:croatia": {
   "result": {
    "blocked_searches": 0,
@@ -615,6 +629,75 @@
    "sources": "https://www.zakon.hr/z/3880/zakon-o-upravljanju-i-odrzavanju-zgrada ; https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2502.html ; https://www.teb.hr/novosti/2024/zakon-o-upravljanju-i-odrzavanju-zgrada-nar-nov-br-15224/ ; https://dgu.gov.hr/UserDocsImages/dokumenti/Pristup informacijama/Zakoni i ostali propisi/Upute/UPUTA_RZS (OSS)_UPRAVITELJI.pdf ; https://www.zakon.hr/c/podzakonski-propis/541016/nn-86-2025-%284.6.2025.%29%2C-pravilnik-o-sadrzaju-i-nacinu-vodenja-registra-upravitelja-zgrada ; https://narodne-novine.nn.hr/clanci/sluzbeni/2025_06_86_1178.html ; https://informator.hr/vijesti/u-sabor-upucen-konacni-prijedlog-izmjena-zakona-o-upravljanju-zgradama ; https://www.rrif.hr/clanak-10352/",
    "suggested_score": 4,
    "verdict": "unverifiable"
+  },
+  "tag": "w2b49"
+ },
+ "opus:croatia:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "AGRONET (APPRRR, free) already handles declarations, vineyard register changes and e-accompanying documents, so most of the claimed kit is covered by the state. Nothing found for the cellar book (Obrazac 3) in Croatia. Foreign or general products found: EOS WineSuite (Italy, Dynamics 365 based; covers cellar, transport documents and telematic registers, but not shown to be adapted to Croatia) and eVineyard (vineyard management, not cellar records). Slovenian or German cellar-book vendors in Croatia: not found.",
+   "duty": "Pravilnik o vinarstvu NN 81/2022 (consolidated up to NN 75/2023 and later) replaced NN 48/14 under its Article 56. Article 7 sets the declarations, which are filed with APPRRR through AGRONET: harvest declaration (A1/A2) by 15 January, expected harvest declaration (protected-designation wines) by 31 July, production declaration (A3-A5) by 15 January, and stock declaration (as of 31 July) by 10 September. Exemptions: all grapes delivered to a winery, or family use under 10 hl. Under Articles 8-10, each consignment needs a prateći dokument requested and confirmed electronically in AGRONET. Under Article 43 (with Wine Act NN 32/19, Article 62(4)), the cellar book (podrumska evidencija) is kept on Obrazac 3, with entries within 3 days of each operation. Wine Act penalty amounts: not found.",
+   "market": "APPRRR data at 31 December 2017: 39,014 farms with vineyards and 23,919 entered in the Vinogradarski registar. For the 2017 wine year, 3,729 farms filed mandatory grape and wine declarations; this is the best proxy for buyers who would need the cellar book. No current figure found.",
+   "reason": "The duty is real, but the claim cites a repealed rulebook. Article 56 of Pravilnik o vinarstvu (NN 81/2022, consolidated text on zakon.hr) repeals NN 48/14. The free state tool AGRONET already handles the declarations and accompanying documents: harvest and production declarations are due 15 January, expected harvest 31 July and stock 10 September. Only the cellar book (Obrazac 3, entries within 3 days) seems to be kept outside AGRONET. No Croatian cellar-book product was found, only Italy's EOS WineSuite. Wine Act fines were not found. Market numbers are old: 3,729 farms filed declarations in 2017. Gap: a cellar-book app only, for micro wineries with low willingness to pay.",
+   "searches": 7,
+   "sources": "https://www.zakon.hr/c/podzakonski-propis/57373/pravilnik-o-vinarstvu-%E2%80%93-procisceni-tekst ; https://narodne-novine.nn.hr/clanci/sluzbeni/2014_04_48_925.html ; https://www.zakon.hr/c/podzakonski-propis/29289/pravilnik-o-registru-vinograda%2C-obveznim-izjavama%2C-pratecim-dokumentima%2C-podrumskoj-evidenciji-i-proizvodnom-potencijalu ; https://vlada.gov.hr/UserDocsImages/2016/Sjednice/2018/09%20rujan/114%20sjednica%20Pula/Novo/114%20-%204.pdf ; https://www.apprrr.hr/wp-content/uploads/2018/02/Kako-funkcionira-AGRONET.pdf ; https://eos-solutions.it/en/nawino-en.html ; https://webcatalog.io/apps/evineyard ; https://www.zakon.hr/cms.htm?id=3878",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b49"
+ },
+ "sonnet:croatia:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The amending act (NN 77/2026, in force 23 July 2026) requires a permit per vehicle, special plates, and the operator checking the AKD driver card by QR. Platforms must keep registers (6-month deadline), and municipalities must align by 31 March 2027. Operators already must keep an electronic vehicle register and report changes within 8 days. The NN text itself returned 503, so I used zakon.hr and secondary summaries. The duty is thin and mostly one-off: a free QR check, a small register, and permit renewals that cost about 93 EUR. Fines of 1,980-6,630 EUR for a missing card fall on the responsible person. No Croatian taxi compliance software turned up, but only generic dispatch tools were found. The market is small and fragmented, and willingness to pay is low. Operator count not found.",
+   "searches": 2,
+   "sources": "https://www.zakon.hr/c/vijest/1057888/nova-pravila-za-autotaksi-prijevoz-i-digitalne-platforme ; https://narodne-novine.nn.hr/clanci/sluzbeni/2026_07_77_901.html ; https://www.gov.hr/hr/e-usluga-e-taksi-2718/2718 ; https://www.zagreb.hr/UserDocsImages/Obrasci/ZAHTJEV%20ZA%20OBNOVU%20DOZVOLE%20ZA%20AUTOTAKSI%20PRIJEVOZ.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b49"
+ },
+ "sonnet:croatia:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: new Zakon o deviznom poslovanju (NN 27/26, in force 26.3.2026) requires a certified programme for all exchange transactions, reversals and cash changes, plus a quarterly report to HNB by the 10th of the next month. Fee and card-exchange rules apply from 26.12.2026. Penalties were not found. HNB ran a consultation on a new certified-programme decision (to 27.4.2026) and no final adoption was found. The market is tiny and gated: HNB certifies programmes and keeps a register of vendors, and a 2019 note suggests one vendor existed then. Vendor names and exchange-office count were not retrieved. A solo founder would need HNB certification, and the buyer pool is small. Weak opportunity.",
+   "searches": 3,
+   "sources": "https://teb.hr/novosti/2026/osvrt-na-zakon-o-deviznom-poslovanju/ ; https://hnb.hr/en/core-functions/payment-system/register-of-authorised-exchange-offices-and-register-of-programmes-certified-for-authorised-exchange-office-operations ; https://www.hnb.hr/documents/20182/5587919/h-ocitovanje-nacrt-odluke-certificirani-program-za-mjenjacko-poslovanje-ovlastenih-mjenjaca_29042026 ; https://www.hnb.hr/documents/20182/2623732/h-ocitovanje-nacrt-odluke-mjenacki-poslovi-17062019.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b49"
+ },
+ "sonnet:croatia:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real: NN 55/26 (published 27 May 2026) took effect 4 June 2026. The language exam applies from 4 June 2027, and old permits stay valid until they expire. I could not verify the police-district limit, board-member permits, the fine amounts or the A1.1 level in the pages I opened; the TEB page does not cover them. Two searches found no Croatian permit-tracking product, only legal explainers, and HZZ offers a state application for seasonal permits. The core job is mostly one-off permit applications by small employers, not a recurring filing, so frequency is weak. Employers can use generic HR tools and accountants, and law changes mean the product would need constant updating. Market size is not quantified. Score is low to moderate.",
+   "searches": 2,
+   "sources": "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_05_55_692.html ; https://teb.hr/novosti/2026/zakon-o-izmjenama-i-dopunama-zakona-o-strancima/ ; https://mojafirma.hr/clanci/zaposljavanje-stranaca-radne-dozvole",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b49"
+ },
+ "sonnet:croatia:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The EU duty is real (Reg. 2023/1115 as amended by 2025/2650). Application dates are 30 Dec 2026 for medium and large firms and 30 Jun 2027 for micro and small. Sources conflict on whether micro and small firms already covered by the old EU Timber Regulation (EUTR) start on the earlier date, so I could not settle the timber date. Downstream traders mostly need to keep supplier and customer records and reference numbers for 5 years. I found no Croatian implementing law and no Croatian-language product. A FSC Adria document from 2024 names the Ministry of Environmental Protection and Green Transition as coordinator. The market is small, and the duty is light for downstream traders, who need little beyond record-keeping. Generic EUDR platforms (Coolset, Tracextech, osapiens) exist. Croatian wood-trader counts were not found. The Commission's 30 April 2026 simplification review outcome was not checked.",
+   "searches": 3,
+   "sources": "https://globaltaxnews.ey.com/news/2026-0237 ; https://www.coolset.com/academy/eudr-downstream-operator-what-the-new-category-means-and-what-you-need-to-do ; https://www.tanso.de/en/news/eudr-simplification-and-postponement-adopted ; https://adria-balkan.fsc.org/sites/default/files/2024-09/HR_FSC%20RJE%C5%A0ENJA_20.09.24.pdf ; https://omr.com/en/reviews/category/eudr-compliance",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b49"
+ },
+ "sonnet:croatia:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real and in force (NN 30/23, in force from 16.03.2023). Art. 36 requires campsites, marinas, social-care and health facilities serving 20 or more people to test Group A four times a year and Group B every six years. Food businesses must test Group A once a year. Small suppliers must monitor under Art. 48 and register under Art. 34. Fines are EUR 6,630-13,270 for legal persons (Art. 71) and EUR 3,980-9,290 for suppliers (Art. 72). I did not confirm that Art. 36 applies only to own-source premises, and Art. 46 sets Legionella and lead monitoring for priority facilities at least once a year. No dedicated Croatian water-monitoring scheduler was found. DHM (Digital HACCP Manager) is a general HACCP app, and I found nothing on its water-test features. Weaknesses: a small niche, labs already do the sampling, buyers pay little for reminders, and it would likely be a HACCP add-on. I did not check the market size, the Art. 81-82 text, or the Art. 34 registry's applicability to premises.",
+   "searches": 2,
+   "sources": "https://www.zakon.hr/z/584/zakon-o-vodi-za-ljudsku-potrosnju ; https://narodne-novine.nn.hr/clanci/sluzbeni/2024_04_43_749.html ; https://mwm.ai/apps/dhm-digital-haccp-manager/6769028063",
+   "suggested_score": 3,
+   "verdict": "confirmed"
   },
   "tag": "w2b49"
  },

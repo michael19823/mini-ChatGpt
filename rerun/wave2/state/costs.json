@@ -431,6 +431,30 @@
   "searches": 5,
   "tag": "w2b15"
  },
+ "wf_0f1e5c7d-c5c/a8d6022fb644df988": {
+  "blocked": 0,
+  "cost": 0.4967,
+  "label": "discover:B:zambia",
+  "model": "sonnet",
+  "searches": 18,
+  "tag": "w2b50"
+ },
+ "wf_0f1e5c7d-c5c/af931177e24d5a76b": {
+  "blocked": 0,
+  "cost": 0.0764,
+  "label": "gapfill:zambia",
+  "model": "sonnet",
+  "searches": 2,
+  "tag": "w2b50"
+ },
+ "wf_0f1e5c7d-c5c/afcb08f1c9ef995bd": {
+  "blocked": 0,
+  "cost": 0.5357,
+  "label": "discover:A:zambia",
+  "model": "sonnet",
+  "searches": 20,
+  "tag": "w2b50"
+ },
  "wf_1320e829-9e2/a171ff9cb28fbafed": {
   "blocked": 0,
   "cost": 0.0311,
@@ -2705,16 +2729,32 @@
  },
  "wf_5774286d-6e9/a023ea7b22037a77e": {
   "blocked": 0,
-  "cost": 0.136,
+  "cost": 0.2257,
   "label": "opus:croatia:B2",
   "model": "opus",
-  "searches": 5,
+  "searches": 7,
   "tag": "w2b49"
  },
  "wf_5774286d-6e9/a2e69da27dfbf3ed0": {
   "blocked": 0,
   "cost": 0.2758,
   "label": "opus:croatia:B1",
+  "model": "opus",
+  "searches": 6,
+  "tag": "w2b49"
+ },
+ "wf_5774286d-6e9/a2f306f537106e781": {
+  "blocked": 0,
+  "cost": 0.3073,
+  "label": "challenge:croatia:B1",
+  "model": "opus",
+  "searches": 10,
+  "tag": "w2b49"
+ },
+ "wf_5774286d-6e9/a3df39dd37a1fdf09": {
+  "blocked": 0,
+  "cost": 0.2065,
+  "label": "escalate:croatia:B3",
   "model": "opus",
   "searches": 6,
   "tag": "w2b49"
@@ -2727,12 +2767,44 @@
   "searches": 0,
   "tag": "w2b49"
  },
+ "wf_5774286d-6e9/a47aefe2fa60bf85f": {
+  "blocked": 0,
+  "cost": 0.0608,
+  "label": "sonnet:croatia:A2",
+  "model": "sonnet",
+  "searches": 2,
+  "tag": "w2b49"
+ },
+ "wf_5774286d-6e9/a95c7a704e7b9d325": {
+  "blocked": 0,
+  "cost": 0.0537,
+  "label": "sonnet:croatia:B3",
+  "model": "sonnet",
+  "searches": 2,
+  "tag": "w2b49"
+ },
+ "wf_5774286d-6e9/aa4e189989650e4f0": {
+  "blocked": 0,
+  "cost": 0.0563,
+  "label": "sonnet:croatia:GAPS2",
+  "model": "sonnet",
+  "searches": 2,
+  "tag": "w2b49"
+ },
  "wf_5774286d-6e9/abe931955ecf68a4b": {
   "blocked": 0,
-  "cost": 0.0499,
+  "cost": 0.0632,
   "label": "sonnet:croatia:A3",
   "model": "sonnet",
   "searches": 2,
+  "tag": "w2b49"
+ },
+ "wf_5774286d-6e9/ac4d6122d5062c159": {
+  "blocked": 0,
+  "cost": 0.0649,
+  "label": "sonnet:croatia:B5",
+  "model": "sonnet",
+  "searches": 3,
   "tag": "w2b49"
  },
  "wf_5774286d-6e9/acadf7c803d6ba693": {
@@ -2741,6 +2813,14 @@
   "label": "opus:croatia:A1",
   "model": "opus",
   "searches": 6,
+  "tag": "w2b49"
+ },
+ "wf_5774286d-6e9/ad767d07800baea09": {
+  "blocked": 0,
+  "cost": 0.0546,
+  "label": "challenge:croatia:B3",
+  "model": "opus",
+  "searches": 3,
   "tag": "w2b49"
  },
  "wf_5bafbc31-635/a0338da0e6ab60ab9": {
@@ -9927,6 +10007,22 @@
   "searches": 28,
   "tag": "w2b48"
  },
+ "wf_fae3a7a2-5c5/a83d143e01522f942": {
+  "blocked": 0,
+  "cost": 0.1236,
+  "label": "opus:china:A1",
+  "model": "opus",
+  "searches": 6,
+  "tag": "w2b48"
+ },
+ "wf_fae3a7a2-5c5/a9fdccf9356285c89": {
+  "blocked": 0,
+  "cost": 0.0871,
+  "label": "opus:china:B2",
+  "model": "opus",
+  "searches": 4,
+  "tag": "w2b48"
+ },
  "wf_fae3a7a2-5c5/abac97edb813a8627": {
   "blocked": 0,
   "cost": 0.6811,
@@ -9945,10 +10041,18 @@
  },
  "wf_fae3a7a2-5c5/acf3a697837b561c6": {
   "blocked": 0,
-  "cost": 0.1637,
+  "cost": 0.475,
   "label": "gapfill:china",
   "model": "sonnet",
-  "searches": 6,
+  "searches": 18,
+  "tag": "w2b48"
+ },
+ "wf_fae3a7a2-5c5/ad396854167aba474": {
+  "blocked": 0,
+  "cost": 0.0829,
+  "label": "triage:china",
+  "model": "sonnet",
+  "searches": 0,
   "tag": "w2b48"
  }
 }

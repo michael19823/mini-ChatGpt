@@ -1,5 +1,96 @@
 # Slovakia B1: goAML registration and AML programme pack for small obliged firms
 
+## Re-assessment (owner's criteria)
+
+Re-assessed 9 October 2026. Budget used: 12 web searches, 9 page fetches.
+
+**Verdict: maybe. New score: 5/10 (old score: 4/10).**
+
+**The case.** The free goAML portal only handles registration and report filing. It does nothing for the daily work: client files, multi-source beneficial-owner (KÚV) evidence, PEP and sanctions checks with a dated audit trail, risk scoring, the §20 programme and training records ([pravnenoviny](https://pravnenoviny.sk/?p=20193), [FSJ PPPO](https://www.minv.sk/swift_data/source/policia/fsj/goaml/PPPO.pdf)). No Slovak product was found that does this job for small agencies, accountants or tax advisers. But the price ceiling is low. A Czech tool, AML PROOF, already has a Slovak-language page with EUR prices of EUR 3–5 per check and no monthly fee ([AML PROOF SK](https://amlproof.ai/sk)). The buyer base is a few thousand small firms, and enforcement is light. A cheap, Slovak-law tool sold per check or for a small fee, mainly to accounting firms with many corporate clients, could reach a modest five-figure to low six-figure revenue. That makes it a good side product, not a stand-alone business.
+
+### Room for improvement over the portal or current practice
+
+- **goAML is only a filing channel.** It covers registration, unusual-transaction (NOO) reports and XML report upload. Users must set up two-factor login with Google Authenticator, and the manual has a chapter on losing access and resetting the account ([FSJ PPPO](https://www.minv.sk/swift_data/source/policia/fsj/goaml/PPPO.pdf)). Setting up access and verifying data "takes a few days" ([pravnenoviny](https://pravnenoviny.sk/?p=20193)). No user complaints about goAML were found (unverified as a pain point).
+- **The beneficial-owner check got harder.** A register extract is no longer enough. Firms must check the real owner against several reliable sources, for every client ([pravnenoviny](https://pravnenoviny.sk/?p=20193), [podnikajte](https://www.podnikajte.sk/zakonne-povinnosti-podnikatela/novela-zakona-o-ochrane-pred-legalizaciou-prijmov-z-trestnej-cinnosti-aml-zakon)). Nothing in goAML helps with this. A tool that pulls the business register and RPVS and keeps a dated record of each source fits the gap.
+- **A client's own word is not enough.** The FSJ says a client's statement that they are not a PEP or sanctioned is insufficient without verification. It points to EU, UN and OFAC lists and paid databases such as World-Check ([FSJ guidance on remote identification](https://www.minv.sk/swift_data/source/policia/fsj_biro/usmernenia/Identifikacia%20klienta%20bez%20fyzickej%20pritomnosti%20a%20pouzitie%20par%2012%20zakona.pdf)). Small firms cannot afford World-Check. A cheap screening step with a saved result fills that gap.
+- **Manual practice fails at inspection.** A note saying "checked, nothing found" with no time stamp, source or name is "almost worthless" to the regulator. Manual list searches are error-prone, and an accounting firm with a hundred clients cannot keep up on paper ([epravo.cz](https://www.epravo.cz/top/clanky/digitalizace-aml-povinnosti-jak-technologie-meni-plneni-povinnosti-pro-tisice-povinnych-osob-121236.html); Czech source written by a vendor, but the Slovak duties are similar).
+- **Records are weak today.** In the FSJ's own survey of real estate agencies, 39% kept no record of internal NOO reviews and almost 23% did not vet staff. In 86% of agencies the AML officer also does other work ([FSJ TPU-RS](https://www.minv.sk/swift_data/source/policia/fsj/kpo/TPU-RS.pdf)). The FSJ often finds programmes with vague risk assessments ([epravo.sk](https://www.epravo.sk/top/clanky/program-vlastnej-cinnosti-povinnej-osoby-v-podmienkach-slovenskej-pravnej-upravy-pre-oblast-amlcft-od-roku-2018-4335.html)).
+- **Programmes need rewrites.** The programme must be updated when the law changes ([AKMV](https://www.akmv.sk/aml-dokumentacia-program-vlastnej-cinnosti/)). Act 73/2026 and the EU AMLR from 10 July 2027 ([epravo.cz](https://www.epravo.cz/top/clanky/digitalizace-aml-povinnosti-jak-technologie-meni-plneni-povinnosti-pro-tisice-povinnych-osob-121236.html)) mean two rewrites in about a year. One-off law-firm documents do not update themselves.
+- **Multi-client work.** Accounting firms check every corporate client. A per-client file with re-check reminders is what they lack. No Slovak accounting suite was found with an AML module (KROS search found nothing; [podnikajte KROS](https://www.podnikajte.sk/uctovnictvo/kros-uctovna-firma); not confirmed absent).
+
+### Competitor reality check
+
+| Option | Does it do the job? | Price | Verdict |
+|---|---|---|---|
+| goAML (FSJ) | Registration and NOO filing only. No client files, checks or programme. | Free ([pravnenoviny](https://pravnenoviny.sk/?p=20193)) | Not a competitor for the ongoing work. |
+| AKMV and other law firms | Write the programme, NOO form, client questionnaire and training template once. No software, no updates, no goAML help. | From EUR 600 per pack for agencies ([AKMV agencies](https://www.akmv.sk/pravne-sluzby/aml-dokumentacia-pre-realitnu-kancelariu/)); EUR 130 per hour otherwise ([AKMV](https://www.akmv.sk/aml-dokumentacia-program-vlastnej-cinnosti/)) | Partial. Covers the document, not the daily record-keeping. A likely partner. |
+| FinStat AML | PEP database (1,300+ EU officials, 400+ relatives) via portal or API, under contract ([FinStat](https://finstat.sk/nase-clanky/analyzy/Nova-databaza-FinStat-Politicky-exponovane-osoby-v-instituciach-EU), [CRZ contract](https://www.crz.gov.sk//data/att/4639290.pdf)) | Not public; the AML page returns 403 (unverified) | Partial. A data source, not a workflow. Could be a supplier. |
+| Sumsub and other global KYC vendors | ID, PEP and sanctions checks for larger, fintech-type buyers ([Sumsub SK](https://sumsub.com/sk/kyc-compliance/)) | Not checked (unverified) | Too heavy for a one-person agency. No programme or KÚV file. |
+| AML PROOF (Czech) | Full workflow: client ID, sanctions, PEP and adverse-media screening, risk scoring, internal policy, NOO reports, 10-year archive with audit trail, training. Built for Czech law only. Its Slovak page names no Slovak law, FSJ, goAML or RPVS ([AML PROOF SK](https://amlproof.ai/sk), [AML PROOF CZ](https://amlproof.ai/cs)) | No monthly fee. EUR 3 per individual check, EUR 5 per company check. Internal policy CZK 990 and training CZK 490 per person per year ([AML PROOF SK](https://amlproof.ai/sk), [AML PROOF CZ](https://amlproof.ai/cs)) | Not usable in Slovakia today, but cheap and close. The biggest risk: it could add Slovak law quickly. |
+| Codamore "JUDICIUM" | A LinkedIn snippet says a Slovak online AML app was written for small accounting firms and sole traders ([LinkedIn](https://sk.linkedin.com/in/peter-tengler)) | Unknown | Not verified: no product page found. Must be checked before building. |
+| Chambers (SKDP, NARKS, SKCU) | Reminders and info pages. No tool or template found in public pages ([SKDP](https://www.skdp.sk), [NARKS](https://www.narks.sk)) | Free to members | Member areas not checked (unverified). |
+
+So no Slovak product does the whole job at a fair price (as far as public sources show). The incumbents are partial. The Czech price anchor is the real constraint on what can be charged.
+
+### Price per customer
+
+What buyers pay or risk today:
+- A one-off programme from a lawyer: from EUR 600 ([AKMV agencies](https://www.akmv.sk/pravne-sluzby/aml-dokumentacia-pre-realitnu-kancelariu/)). Updates at EUR 130 per hour ([AKMV](https://www.akmv.sk/aml-dokumentacia-program-vlastnej-cinnosti/)).
+- Fines averaged about EUR 10,000 in 2019–2022 ([epravo.sk](https://www.epravo.sk/top/clanky/aml-a-pokuty-5453.html)). An accountant was fined EUR 50,000 in 2025 ([FSJ PKC2026](https://www.minv.sk/swift_data/source/policia/fsj/kpo/PKC2026.pdf)). The legal ceiling is EUR 1m per podnikajte; BDO speaks of "several million euros" ([podnikajte](https://www.podnikajte.sk/zakonne-povinnosti-podnikatela/novela-zakona-o-ochrane-pred-legalizaciou-prijmov-z-trestnej-cinnosti-aml-zakon), [BDO](https://www.bdoslovakia.com/en-gb/insights/amendment-to-the-act-against-money-laundering-from-1-6-2026)).
+- The nearest software price: EUR 3–5 per check, no monthly fee ([AML PROOF SK](https://amlproof.ai/sk)).
+
+Realistic prices (my proposal, unverified with buyers):
+- **Small agency or sole-trader accountant:** EUR 9–15 per month (about EUR 100–180 per year), including the programme template, its yearly update and about 20 checks. Extra checks at EUR 2–4.
+- **Accounting firm with 30–150 corporate clients:** EUR 30–60 per month (about EUR 360–720 per year), priced by number of client files.
+- **Programme-only package:** EUR 99–199 one-off, well below the EUR 600 law-firm pack.
+
+### Revenue estimate (year 3)
+
+Buyer counts are weak. None of these is confirmed by a register:
+- Real estate agencies: 1,000–2,000 (unverified). 223 answered the FSJ questionnaire ([FSJ PKC2026](https://www.minv.sk/swift_data/source/policia/fsj/kpo/PKC2026.pdf)). RE/MAX alone has 36 offices ([SITA](https://sita.sk/rok-2025-potvrdil-silu-siete-rok-2026-bude-rokom-transformacie/)).
+- Accounting firms and sole traders with external clients: about 4,000 active (unverified). A commercial database lists 57,261 records under NACE 69.20, but that count includes inactive and side-line firms ([InfobelPRO](https://www.infobelpro.com/companies/slovakia/accounting-and-tax)).
+- Tax advisers about 1,000 and audit firms several hundred (both unverified).
+
+Arithmetic, base case:
+- Small firms: 5,500 x 5% = 275 customers x EUR 150 = **EUR 41,250**
+- Multi-client accounting firms: 1,000 x 8% = 80 customers x EUR 500 = **EUR 40,000**
+- Extra checks and programme packages: about **EUR 10,000** (unverified)
+- **Total: about EUR 90,000 per year.**
+
+Range: low case (2–3% share, lower prices) about EUR 30,000. High case (10% share, with a chamber or accounting-software partner) about EUR 180,000.
+
+### Ease of implementation and sale
+
+- **Build: medium.** The core is a client file, a sanctions list import (EU list is public), lookups in the business register and RPVS, a PDF export and a programme template. Slovak legal review of the template is needed, at law-firm hourly rates ([AKMV](https://www.akmv.sk/aml-dokumentacia-program-vlastnej-cinnosti/)). A PEP source costs extra; FinStat is the local option (price unverified).
+- **Onboarding: easy.** Web app, no integration needed. Each firm sets up in under an hour (unverified).
+- **Sale: medium to hard.** Buyers are tiny, and the inspection risk is low (about 10 on-site checks a year in 2025, [FSJ PKC2026](https://www.minv.sk/swift_data/source/policia/fsj/kpo/PKC2026.pdf)). Fear alone will not sell it. Channels that reach many at once exist: NARKS and ZRKS (the FSJ used them for its survey), SKDP, and SKCU (unverified as partners).
+
+### Remaining risks
+
+- **AML PROOF localises for Slovakia.** It already has a Slovak-language page and EUR prices ([AML PROOF SK](https://amlproof.ai/sk)). If it adds Slovak law, a new entrant must compete on price with a funded, finished product.
+- **Weak enforcement keeps willingness to pay low.** About 10 inspections in 2025 and EUR 142,000 in total fines ([FSJ PKC2026](https://www.minv.sk/swift_data/source/policia/fsj/kpo/PKC2026.pdf)).
+- **Unverified local rival.** The Codamore "JUDICIUM" app was seen only in a search snippet (unverified).
+- **The 30 Nov 2026 deadline is too close** to use as a launch hook. The better hook is the EU AMLR on 10 July 2027.
+- **Small, unconfirmed buyer counts.** All counts above are estimates (unverified).
+- **Liability and GDPR.** A generated programme that fails an inspection hurts trust. Storing ID copies needs EU hosting.
+
+### New sources
+
+- https://amlproof.ai/sk
+- https://amlproof.ai/cs
+- https://www.epravo.cz/top/clanky/digitalizace-aml-povinnosti-jak-technologie-meni-plneni-povinnosti-pro-tisice-povinnych-osob-121236.html
+- https://www.akmv.sk/aml-dokumentacia-program-vlastnej-cinnosti/
+- https://www.bdoslovakia.com/en-gb/insights/amendment-to-the-act-against-money-laundering-from-1-6-2026
+- https://www.minv.sk/swift_data/source/policia/fsj_biro/usmernenia/Identifikacia%20klienta%20bez%20fyzickej%20pritomnosti%20a%20pouzitie%20par%2012%20zakona.pdf
+- https://www.epravo.sk/top/clanky/program-vlastnej-cinnosti-povinnej-osoby-v-podmienkach-slovenskej-pravnej-upravy-pre-oblast-amlcft-od-roku-2018-4335.html
+- https://sita.sk/rok-2025-potvrdil-silu-siete-rok-2026-bude-rokom-transformacie/
+- https://www.infobelpro.com/companies/slovakia/accounting-and-tax
+- https://www.podnikajte.sk/uctovnictvo/kros-uctovna-firma
+- https://sk.linkedin.com/in/peter-tengler (search snippet only; page blocked)
+- https://pravnenoviny.sk/?p=20193 (re-read)
+- https://www.crz.gov.sk//data/att/4639290.pdf
+
+
 Research date: 9 October 2026. Budget used: 20 web searches, 12 page fetches.
 
 ## Summary

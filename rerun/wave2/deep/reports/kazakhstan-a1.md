@@ -1,5 +1,74 @@
 # Kazakhstan A1: Licensing-readiness file for private kindergartens and mini-centres
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10 (old score: 5/10).**
+
+**The case.** About 6,500 private kindergartens must get a licence for preschool education from 1 January 2027 ([Tengri](https://tengrinews.kz/tengri-institutions/novyie-pravila-chto-jdt-chastnyie-detsadyi-v-kazahstane-594367/amp/); [informburo, 1 Oct 2026](https://informburo.kz/novosti/vladelcy-castnyx-detsadov-v-kazaxstane-poprosili-edinyx-pravil-licenzirovaniia)). The state portal only takes the application. It does not tell an owner whether the kindergarten is ready, and the rules sit with several agencies whose regional offices read them differently. I found no local product that does this job, and the one consultant found has no preschool package and no price. The best product is a one-off readiness check and document pack that turns into a monthly subscription. That subscription would cover staff training and category records, the mandatory teaching plans, and inspection readiness. It can earn roughly US$100,000-230,000 a year by year 3. That is a decent small business, but not a big one, and the recurring part is not yet proven.
+
+**Room for improvement over the portal and current practice.**
+- The portal is only a filing channel. Applications go through eGov or elicense.kz. A commission checks the documents, then staff visit the site and take photos and video ([zakon.kz](https://www.zakon.kz/stati/6515172-zachem-vvodyat-litsenzirovanie-detsadov-v-kazakhstane-i-kak-poluchit-razreshenie-na-rabotu.html); [MTRK](https://mtrk.kz/ru/2026/07/24/licenzirovanie-detskikh-sadov-startu/)). Nothing in this process checks readiness before filing.
+- The rules are scattered and unclear. On 1 October 2026, owners and Atameken asked for one joint explanation covering licensing, land, construction, sanitary and fire rules. They also asked for the rules on proving teacher qualifications to be clarified. Atameken says one region accepts an existing kindergarten's documents while another demands a change of land or building use ([informburo](https://informburo.kz/novosti/vladelcy-castnyx-detsadov-v-kazaxstane-poprosili-edinyx-pravil-licenzirovaniia)). A tool with plain checklists and notes for each region fills that gap.
+- What inspectors check is wide. It includes sanitary and fire rules, video cameras and security, food quality and programme content ([24.kz, 1 Sep 2026](https://24.kz/ru/news/obrazovanie-i-nauka/789330-obyazatelnoe-litsenzirovanie-detskikh-sadov-startuet-s-2027-goda)). Unannounced inspections of organisations serving children have been allowed since 1 February 2026 ([Tengri](https://tengrinews.kz/tengri-institutions/novyie-pravila-chto-jdt-chastnyie-detsadyi-v-kazahstane-594367/amp/)). Keeping the evidence ready is ongoing work, not a one-off.
+- There are recurring records the state systems do not keep. Teachers must keep three documents: a long-term plan, a cyclogram and an individual development plan for each child ([Forbes.kz, Jan 2023](https://forbes.kz/news/newsid_292550)). The licence rules add staff shares, teacher categories and 36 hours of training every 3 years (from the first check of Order 473 as amended by Order 268; the order text did not load this time, so this is unverified here). Templates and expiry alerts for these are a natural subscription.
+- The state tools cause their own pain. Indigo and ED24 cover attendance and funding confirmation. Parents complain about having to install several apps, codes that never arrive and slow registration. Teachers say the extra checks add to their workload ([zakon.kz, Jan 2024](https://www.zakon.kz/stati/6420659-verifitsiruy-menya-ili-zachem-kazakhstanskim-roditelyam-navyazyvayut-novoe-prilozhenie-dlya-detsadov.html)). None of these tools handles licence or inspection readiness.
+- Demand is spread over several years. New kindergartens are licensed from 2027, and a phased schedule for existing ones runs to 2030 ([inbusiness.kz, Nov 2024](https://www.inbusiness.kz/ru/news/kakie-peremeny-gotovit-licenzirovanie-detsadov-roditelyam-i-biznesu)). North Kazakhstan plans to check more than 200 of its 429 institutions in 2027 ([MTRK](https://mtrk.kz/ru/2026/07/24/licenzirovanie-detskikh-sadov-startu/)). That gives three or four years of new licence buyers, not one January spike.
+
+**Competitor reality check.**
+- *Ybcase* (licensing consultant). It offers general help "at every stage" of an education licence. It has no preschool package and publishes no price. The only figure it gives is the state fee of about 43,200 tenge ([ybcase](https://ybcase.com/fintech/polucit-licenziu-na-obrazovatelnuu-deatelnost-v-kazahstane)). It does not do the job as a product and is likely costly per client (unverified).
+- *Dogovor24* sells templates, for example a job description for a kindergarten head ([dogovor24](https://dogovor24.kz/documents/dolzhnostnaya-instrukciya-zaveduyushchego-detskogo-sada-1349.html)). These are generic documents, not a readiness check.
+- *Kindergarten apps.* BALAM covers health, menus and schedules for parents ([newtimes.kz](https://newtimes.kz/obshchestvo/157867-cifrovizaciya-v-obrazovanii-kazahstanka-pridumala-mobilnoe-prilozhenie-dlya-detsadov)). "Sadik" by Global-Soft does attendance, menus and payments. It looks like a Russian product, has up to 1,000 downloads and has no licensing features ([RuStore](https://www.rustore.ru/catalog/app/gs.sadik)). Neither does the job.
+- *ED24 / Indigo.* These are state-funded systems built by a private developer, which regional education departments pay by subscription ([zakon.kz](https://www.zakon.kz/stati/6420659-verifitsiruy-menya-ili-zachem-kazakhstanskim-roditelyam-navyazyvayut-novoe-prilozhenie-dlya-detsadov.html)). They are not a competitor today. They are the most likely player to bolt on a licensing module, because they already reach every kindergarten (unverified).
+- *Pricing.* No local price was found for kindergarten licence preparation. One reference point: a Russian firm charges 60,000 roubles for a "turnkey" education licence ([els24](https://els24.com/services/russia/litsenziya-na-obrazovatelnuyu-deyatelnost/)). It is a different country and only a rough guide.
+- *Bottom line.* There is no incumbent. The gap is open.
+
+**Price per customer.** These are my estimates. No market price was found.
+- *What owners earn.* The average preschool fee was about 30,000 tenge a month in February 2026: 38,200 in Almaty and 36,000 in Astana ([inbusiness.kz, Apr 2026](https://inbusiness.kz/ru/last/skolko-platyat-za-detsad-v-kazahstane)). Private kindergartens in some cities charge 70,000 tenge or more ([inform.kz](https://www.inform.kz/ru/skolko-stoit-obuchenie-v-chastnih-detskih-sadah-kazahstana-30b0b5)). A 100-child kindergarten therefore takes in roughly 3-7 million tenge a month (estimate).
+- *What is at stake.* A kindergarten without a licence cannot operate and loses the state order ([zakon.kz](https://www.zakon.kz/sovety-yurista/6520878-kakie-detskie-sady-zakroyut-s-novogo-goda-gotov-sadik-letom.html)). School directors running without a licence were fined over 92,000 tenge ([kapital.kz](https://kapital.kz/gosudarstvo/131843/v-kazakhstane-oshtrafovali-58-shkol-za-ot-sut-stviye-litsenzii.html)).
+- *Suggested prices:*
+  - Readiness check plus document pack: 50,000-100,000 tenge one-off (about US$100-200).
+  - Subscription for staff records, teaching-plan templates and an inspection checklist: 8,000-15,000 tenge a month per site (about US$16-30). That is under 0.5% of a typical kindergarten's revenue.
+  - Consultants and chains: 25,000-50,000 tenge a month for up to 10 sites (unverified demand).
+- *Against that.* Owners say funding is thin ([inbusiness.kz](https://inbusiness.kz/ru/last/uvelichit-podushevoe-finansirovanie-v-chastnyh-detsadah-prosba-kostanajskih-predprinimatelej)), so prices must stay low.
+
+**Revenue estimate (year 3, about 2029; my arithmetic, ~500 tenge per US$).**
+- *Buyers.* 6,526 private kindergartens ([Tengri](https://tengrinews.kz/tengri-institutions/novyie-pravila-chto-jdt-chastnyie-detsadyi-v-kazahstane-594367/amp/)). Private mini-centres are left out because their number is unknown.
+- *Base case:*
+  - Subscriptions: 6,500 × 6% = 390 kindergartens × 120,000 tenge a year = 46.8 million tenge.
+  - One-off packs from the phased tail of licensing: 300 × 60,000 tenge = 18 million tenge.
+  - Total: about 65 million tenge, or roughly US$130,000.
+- *Good case:*
+  - Subscriptions: 6,500 × 10% = 650 × 150,000 tenge = 97.5 million tenge.
+  - Packs: 400 × 75,000 = 30 million tenge.
+  - Total: about 128 million tenge, or roughly US$255,000.
+- *Low case:* 3% subscribe at 96,000 tenge a year, or 18.7 million tenge plus about 10 million in packs. That makes about 29 million tenge, roughly US$58,000.
+
+**Ease of implementation and sale: medium.**
+- *Building it is easy.* It needs a questionnaire, a red/amber/green report, document templates, a staff register with alerts and plan templates. There is no integration with government systems.
+- *Content is the hard part.* It must be in Russian and Kazakh, it must track Order 473/268, and it needs notes for each region.
+- *Onboarding is easy.* An owner can fill it in within an hour or two (estimate).
+- *Selling is the harder part.* Buyers are small, low-tech owners spread across 17 regions. The cheap channels are Atameken and the private-kindergarten associations, which run the licensing dialogue ([informburo](https://informburo.kz/novosti/vladelcy-castnyx-detsadov-v-kazaxstane-poprosili-edinyx-pravil-licenzirovaniia)), plus Instagram and WhatsApp owner groups (unverified).
+
+**Remaining risks.**
+- *Softening or delay.* Owners have asked for a transition period, separate rules for existing kindergartens, and no loss of the state order over unfinished paperwork. No decision was found as of 1 October 2026 ([informburo](https://informburo.kz/novosti/vladelcy-castnyx-detsadov-v-kazaxstane-poprosili-edinyx-pravil-licenzirovaniia)).
+- *Physical problems decide many outcomes.* Land use, premises and lease length cannot be fixed by software ([inbusiness.kz](https://inbusiness.kz/index.php/ru/news/kazahstan-riskuet-ostatsya-bez-poloviny-chastnyh-detsadov)).
+- *A state vendor could bundle the feature.* The ED24/Indigo developer could add a readiness module and offer it free through education departments (unverified).
+- *Ability to pay is unproven.* No owner interviews have been done, and no price paid to a consultant was found. Licence term for kindergartens is still unconfirmed. If the licence is open-ended, recurring revenue rests on inspections and records.
+- *The legal text was not checked.* The order text (V2500037500) did not load, so the detailed requirements remain unverified here.
+
+**New sources.**
+- https://24.kz/ru/news/obrazovanie-i-nauka/789330-obyazatelnoe-litsenzirovanie-detskikh-sadov-startuet-s-2027-goda
+- https://informburo.kz/novosti/vladelcy-castnyx-detsadov-v-kazaxstane-poprosili-edinyx-pravil-licenzirovaniia
+- https://www.inbusiness.kz/ru/news/kakie-peremeny-gotovit-licenzirovanie-detsadov-roditelyam-i-biznesu
+- https://forbes.kz/news/newsid_292550
+- https://www.zakon.kz/stati/6420659-verifitsiruy-menya-ili-zachem-kazakhstanskim-roditelyam-navyazyvayut-novoe-prilozhenie-dlya-detsadov.html
+- https://inbusiness.kz/ru/last/skolko-platyat-za-detsad-v-kazahstane
+- https://www.inform.kz/ru/skolko-stoit-obuchenie-v-chastnih-detskih-sadah-kazahstana-30b0b5
+- https://ybcase.com/fintech/polucit-licenziu-na-obrazovatelnuu-deatelnost-v-kazahstane
+- https://www.rustore.ru/catalog/app/gs.sadik
+- https://dogovor24.kz/documents/dolzhnostnaya-instrukciya-zaveduyushchego-detskogo-sada-1349.html
+- https://els24.com/services/russia/litsenziya-na-obrazovatelnuyu-deyatelnost/
+
 ## Summary
 
 **Verdict: maybe. Score: 5/10.**

@@ -1,5 +1,77 @@
 # Croatia B3: compliance kit for employers of third-country workers
 
+## Re-assessment (owner's criteria)
+
+**Verdict: maybe. New score: 6/10. Old score: 5/10.**
+
+**The case.** Employers of third-country workers must keep permits, notices, housing and renewals in order, and the state tools only take applications. Those tools are slow and buggy, with no status tracking ([Novi list, 2 Sep 2025](https://www.novilist.hr/?p=1523976); [Informator, 25 Aug 2025](https://informator.hr/vijesti/8627)). I still found no Croatian product that tracks foreign-worker permits and deadlines. The best first buyers are the 752 active employment agencies, which run many workers and many client employers at once ([Novi list, 17 Jan 2026](https://www.novilist.hr/?p=1610671)). A simple register, deadline engine and pre-filing checklist could reach about 200,000 EUR a year by year 3. That is a fair small business, but willingness to pay is not yet proven.
+
+### Room for improvement over the portal or current practice
+
+- **The portal itself is painful.** An agency director said the HZZ/MUP application "constantly crashes, is full of errors and bugs". It also locks a worker's record so the workplace cannot be changed. Requests that took 7 days took 2-3 months ([Novi list, 2 Sep 2025](https://www.novilist.hr/?p=1523976)).
+- **Long waits and no status view.** The crafts chamber (HOK) says employers wait more than four months for a permit. It asked for a digital platform to file and track status ([Informator, 25 Aug 2025](https://informator.hr/vijesti/8627)). Status checks were only "being examined" by HZZ ([Novi list](https://www.novilist.hr/?p=875299)). Software cannot fix state delays. It can keep an employer's own case list, statuses and chase dates in one place.
+- **More data to prepare before each filing.** Since 30 April 2026, a permit request needs housing proof: an owner's statement on new form 18a with rent and floor area. Visa-regime workers also need health and vaccination proof, and extensions need a health exam certificate ([Informator, 11 May 2026](https://informator.hr/vijesti/bitne-izmjene-pravilnika-o-boravku-drzavljana-trecih-zemalja)). Flats in buildings with 4+ units need co-owner consent if more than four unrelated adults live there (same). Occupancy caps apply: at most 8 workers in a 56 m² flat, 10 per 150 m² house (ministry presentation as reported in a search summary; (unverified)). A pre-filing checklist and housing check fits this well.
+- **Short deadlines the portal does not track.** Notice to police after dismissal: 5 days according to an agency director ([Novi list, 2 Sep 2025](https://www.novilist.hr/?p=1523976)). The exact legal deadline is still (unverified). Address changes: 8 days (from a 2025 report; (unverified)). Posting abroad: 8 days ([zakon.hr, Art. 178](https://www.zakon.hr/z/142/Zakon-o-strancima)).
+- **Enforcement got stricter.** An agency owner said that until a December 2025 change, employers often deregistered workers 2-3 days after expiry and paid a fine of about 60 EUR ([Novi list, 17 Jan 2026](https://www.novilist.hr/?p=1610671)). Current fines for the same lapses are 500-3,000 EUR ([zakon.hr, Art. 251](https://www.zakon.hr/z/142/Zakon-o-strancima)). Missing a date now costs much more.
+- **Multi-client work.** In 2024, 41% of foreign workers worked through temporary-work agencies ([Novi list, 17 Jan 2026](https://www.novilist.hr/?p=1610671)). Agencies juggle many workers, client sites and police areas. The new police-area limit makes this harder ([RRiF](https://www.rrif.hr/izmjene_zakona_o_strancima_stupaju_na_snagu_4_lipn-2521-vijest/)).
+- **Inspection readiness.** The permit is a required field in the statutory worker register ([Pravilnik, NN 55/24](https://narodne-novine.nn.hr/clanci/sluzbeni/2024_05_55_969.html)). Inspectors found 961 illegally working third-country nationals in 2025 and closed 263 employers ([DIRH 2025 report](https://dirh.gov.hr/UserDocsImages/dokumenti/GODISNJI%20IZVJESTAJ%20O%20RADU%20DIRH%20ZA%202025.%20godinu.pdf)).
+- **Demand for help is visible.** HGK Varaždin ran a seminar on 7 Oct 2026, "Strani radnici i nove obveze poslodavaca u 2026", with police, HZZ and visa speakers ([HGK programme](https://hgk.hr/documents/program-zakon-o-strancima7-10-266a859819dbcbf.pdf)). Informator sells a 125 EUR workshop on the topic ([informator.hr](https://informator.hr/seminari/novosti-u-zaposljavanju-i-radu-drzavljana-trecih-zemalja-primjeri-i-iskustva-iz-prakse)).
+
+### Competitor reality check
+
+- **Moja Firma** (Croatian HR app): free up to 5 staff, 29.99 EUR/month up to 25, 59.99 EUR/month up to 100. Features are time records, leave, travel orders, a document archive and "HR overview and warnings". The price page says nothing about foreign workers, permits or expiry reminders ([mojafirma.hr/cijene](https://mojafirma.hr/cijene)). It does publish a foreign-worker guide ([mojafirma.hr](https://mojafirma.hr/clanci/zaposljavanje-stranaca-radne-dozvole)). It is cheap and close, so it is the likeliest fast follower. It does not do the job today.
+- **DigRa ERV** and similar Croatian working-time apps cover records, leave and shifts. No permit tracking was found ([App Store](https://apps.apple.com/us/app/id6751578393)). Some digital record tools can track ID-card or medical-exam expiry, but none was confirmed for residence permits ([Unija](https://unija.com/hr/kadrovska-evidencija-kljucna-za-uspjesno-poslovanje/)).
+- **Payroll suites** (Pantheon, Synesis): one targeted search found no foreign-worker module (unverified; not checked vendor by vendor).
+- **Foreign tools**: HRappka handles foreign-worker legalisation under Polish law only ([hrappka.pl](https://hrappka.pl/en/?p=61870)). An Odoo expiry add-on costs about 249 USD but has no Croatian rules ([ecosire](https://ecosire.com/apps/odoo/hr-employee-documents-expiry)).
+- **EOR firms** charge about 199-599 USD per worker per month. They handle third-country permits only through partners, case by case ([employsome](https://employsome.com/employer-of-record/best-croatia-eor/); [People Managing People](https://peoplemanagingpeople.com/tools/best-employer-of-record-services-croatia/)). This is far too expensive for seasonal hotel or building staff.
+- **Agencies and lawyers** do the filing as a service. Their fees are not published ([Novi list](https://www.novilist.hr/?p=1523976) says commissions vary). They are more likely buyers than rivals.
+- **Conclusion:** no local product does the whole job, and the near ones are partial. This is an opening, not a killer.
+
+### Price per customer
+
+- **Anchors.** HR app: 29.99-59.99 EUR/month ([mojafirma.hr/cijene](https://mojafirma.hr/cijene)). A 2.5-hour workshop: 125 EUR ([informator.hr](https://informator.hr/seminari/novosti-u-zaposljavanju-i-radu-drzavljana-trecih-zemalja-primjeri-i-iskustva-iz-prakse)). One missed notice: 500-3,000 EUR fine. Lifting a 30-day shutdown: 3,981.68 EUR per worker ([DIRH](https://dirh.gov.hr/UserDocsImages/dokumenti/GODISNJI%20IZVJESTAJ%20O%20RADU%20DIRH%20ZA%202025.%20godinu.pdf)). State fees: 74.32 EUR per permit plus 31.85 EUR card ([EU Immigration Portal](https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/employed-worker-croatia_en)).
+- **Direct employer:** 2-3 EUR per foreign worker per month, or tiers of about 25-79 EUR/month. Typical small employer: about 40 EUR/month (estimate).
+- **Agency or accountant (multi-client):** 99-299 EUR/month by worker count. Typical: about 150 EUR/month (estimate). One avoided fine pays for a year.
+- These prices are my estimates. No buyer has confirmed them (unverified).
+
+### Revenue estimate (year 3)
+
+- **Agencies:** 752 active agencies ([Novi list, 17 Jan 2026](https://www.novilist.hr/?p=1610671)) x 8% share = 60 customers x 150 EUR x 12 = **108,000 EUR**.
+- **Direct employers:** 10,000 employers (low end of my 10,000-25,000 estimate, (unverified)) x 2% = 200 customers x 40 EUR x 12 = **96,000 EUR**.
+- **Total base case: about 204,000 EUR a year.**
+- Low case: 30 agencies x 100 x 12 = 36,000 + 100 employers x 30 x 12 = 36,000 = **72,000 EUR**.
+- High case: 100 agencies x 200 x 12 = 240,000 + 400 employers x 50 x 12 = 240,000 = **480,000 EUR**.
+- Note: a Sep 2025 article said about 800 agencies registered but only about 50 active ([Novi list](https://www.novilist.hr/?p=1523976)). The Jan 2026 ministry figure (752 active) is used here. If the real active base is nearer 50-100 serious agencies, the agency line falls to about 20,000-40,000 EUR.
+
+### Ease of implementation and sale
+
+- **Build: easy to medium.** Version 1 is a worker register, a deadline engine, a pre-filing checklist (form 18a, health proof, zadužnica, turnover) and an inspection export. Excel import gets data in fast. No state API is needed.
+- **Onboarding: easy.** Agencies already keep worker lists in spreadsheets (unverified). Import plus reminders shows value in a day.
+- **Sale: medium.** Agencies are a named, countable list. HGK county seminars, Informator, RRiF and TEB reach HR staff and accountants ([HGK programme](https://hgk.hr/documents/program-zakon-o-strancima7-10-266a859819dbcbf.pdf)). Small hotels and builders are seasonal and price-sensitive.
+- **Upkeep: the hard part.** Rules changed in March 2025, April 2026 and June 2026, and more rulebooks are due by about December 2026 ([zakon.hr](https://www.zakon.hr/z/142/Zakon-o-strancima)). The product needs a lawyer on call.
+
+### Remaining risks
+
+- Willingness to pay is not tested. Agencies may stay on spreadsheets.
+- Moja Firma or a payroll vendor could add a permit-expiry field cheaply.
+- Permits fell 17% in 2025 ([moj-posao.net](https://moj-posao.net/EN/Faq/Details/83934/Lani-je-izdano-vise-od-170-tisuca-dozvola-stranim-radnicima-najvise-u-graditeljstvu/2)). Stricter rules may push out small employers.
+- The real number of active agencies and employers is unclear (see above).
+- A wrong deadline in the tool could cause a fine. Terms must exclude legal advice.
+- The state may add status tracking to the HZZ app, which would remove one selling point (but not deadline or housing tracking).
+
+### New sources
+
+- https://www.novilist.hr/?p=1523976
+- https://www.novilist.hr/?p=1610671
+- https://informator.hr/vijesti/8627
+- https://informator.hr/vijesti/bitne-izmjene-pravilnika-o-boravku-drzavljana-trecih-zemalja
+- https://mojafirma.hr/cijene
+- https://hgk.hr/documents/program-zakon-o-strancima7-10-266a859819dbcbf.pdf
+- https://apps.apple.com/us/app/id6751578393
+- https://hrappka.pl/en/?p=61870
+- https://employsome.com/employer-of-record/best-croatia-eor/
+- https://www.rrif.hr/clanak-24840/ (found in search, not read)
+
 ## Summary
 
 **Verdict: maybe. Score: 5/10.**

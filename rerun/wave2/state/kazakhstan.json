@@ -1,4 +1,28 @@
 {
+ "challenge:kazakhstan:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. The closest risks are that the job is a one-off licence, that state-order compliance already covers most requirements, and that the deadline is very close (1 Jan 2027).",
+   "reason": "No product or named consultant does this job; the duty is real and firm. A zakon.kz lawyer piece (10 Jun 2026) says licensing starts 1 Jan 2027 with no transition period. Until then only notification applies, so all ~12,000 kindergartens may apply at once. The Almaty akimat counts 896 private kindergartens in the city alone. Weaknesses: the duty is mostly one-off. Unlike the 5-year licence for children's camps, a recurring kindergarten licence is unverified. 96% of private kindergartens already meet similar state-order rules (CCTV, alarm button, fire and sanitary norms). Applications go through the free state licensing service. With about 12 weeks to the deadline, the build-and-sell window is tight. Inspection-readiness after licensing could make it recurring.",
+   "searches": 7,
+   "sources": "https://www.zakon.kz/sovety-yurista/6520878-kakie-detskie-sady-zakroyut-s-novogo-goda-gotov-sadik-letom.html ; https://bes.media/news/detskie-sadi-budut-rabotat-po-litsenzii-s-2027-goda-postanovlenie-prinyato-268796/ ; https://www.zakon.kz/stati/6515172-zachem-vvodyat-litsenzirovanie-detsadov-v-kazakhstane-i-kak-poluchit-razreshenie-na-rabotu.html ; https://www.inbusiness.kz/ru/news/kakie-peremeny-gotovit-licenzirovanie-detsadov-roditelyam-i-biznesu ; https://www.gov.kz/memleket/entities/edu/press/news/details/1250867?lang=ru ; https://forbes.kz/news/newsid_282922 ; https://ybcase.com/fintech/polucit-licenziu-na-obrazovatelnuu-deatelnost-v-kazahstane",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b27"
+ },
+ "challenge:kazakhstan:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. The real risks are that Excel plus email is good enough and that a still-unverified MVD system (E-kuzet) could take over reporting.",
+   "reason": "Nothing I found kills it. I found no Kazakh product, 1C configuration or MVD portal that does the job. E-kuzet still can't be confirmed: two more searches in Russian and Kazakh found nothing. The 5-day notice duty is confirmed as a risk criterion in inspection checklists: joint order MVD No. 389 / MNE No. 67 (June 2026). The market is real: about 4,200 active firms (800 more suspended), or 5,129 registered. The case is weak, though. The quarterly report is a 13-block email submission an office worker can fill in Excel. I found no penalty for missing it and no order number for the reporting rule. Inspections may be the stronger driver, and the pull to pay for software looks low.",
+   "searches": 7,
+   "sources": "https://mybuh.kz/news/okhrannye-agentstva-budut-sdavat-otchety-v-mvd/ ; https://zakon.uchet.kz/rus/docs/V2600038906 ; https://prg.kz/m/amp/document/33750577 ; https://24.kz/ru/news/social/702739-skolko-chastnykh-okhrannykh-predpriyatij-dejstvuet-v-kazakhstane ; https://bes.media/amp/tokaev-podpisal-zakon-ob-uzhestochenii-pravil-dlya-ohrannih-organizatsiy-v-kazahstane/ ; https://inbusiness.kz/ru/last/prezident-kazahstana-podpisal-popravki-po-voprosam-ohrannoj-deyatelnosti",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b27"
+ },
  "discover:A:kazakhstan": {
   "result": {
    "blocked_searches": 0,
@@ -774,6 +798,20 @@
   },
   "tag": "w2b27"
  },
+ "opus:kazakhstan:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Kazakh vendor or 1C configuration found for security agencies. A search summary of the inform.kz article (fetch returned 403) says an MVD information system called \"E-kuzet\" is in pilot in all regions. Per that summary, stage 1 digitises trained guards and stage 2 adds reporting tools, which could absorb the core job. Two direct searches for E-kuzet found nothing, so this is unverified. Today the report is plain email, with no portal.",
+   "duty": "Law signed in February 2026 amending the security-activity law (Z000000085). Search summaries give it as No. 263-VIII of 12.02.2026; bes.media, dated 12.02.2026, confirms the signing but not the number. Duties: report to the authority; notify the territorial police within 5 working days of a suspension, resumption or work outside the registered place; hand weapons and ammunition to the police for storage when suspended. The quarterly report goes by email to the MVD police security-control unit by the 25th after quarter-end, with 13 data blocks (mybuh.kz, 19.05.2026). The MVD order number and form were not confirmed: two fetches of zakon.uchet.kz, including candidate act V2600038906, timed out. Penalty not found. Order No. 83 of 09.02.2026 set up the MVD Committee for control of security activity (bizmedia.kz).",
+   "market": "Sources disagree on the count: 5,129 private security organisations and 97,116 licensed guards (inbusiness.kz / 24.kz); about 4,500 registered (Senate report); about 4,200 operating, of which 800 have suspended work (a deputy, per inform.kz). In Almaty, 283 of 581 are active and 66 hold service-weapon permits (kapital.kz, undated). So the reachable market is roughly 3,000 to 4,000 active firms, and only a minority have weapons.",
+   "reason": "The duty is real. A law signed in February 2026 (No. 263-VIII per a search summary; bes.media dated 12.02.2026 does not give the number) requires security organisations to report to the authority, notify within 5 working days of a suspension or resumption, and hand in weapons when suspended. mybuh.kz (19.05.2026) describes a quarterly email report with 13 blocks, due by the 25th. The MVD order number, its in-force date and any penalty could not be confirmed. No vendor product turned up. The risk is an MVD system called \"E-kuzet\", which a search summary of an inform.kz article (fetch blocked) says is in pilot, with reporting tools planned for stage two. The market is about 4,200 to 5,129 organisations. The report is a simple email template, so willingness to pay is likely low.",
+   "searches": 7,
+   "sources": "https://mybuh.kz/news/okhrannye-agentstva-budut-sdavat-otchety-v-mvd/ ; https://bes.media/amp/tokaev-podpisal-zakon-ob-uzhestochenii-pravil-dlya-ohrannih-organizatsiy-v-kazahstane/ ; https://inbusiness.kz/ru/last/prezident-kazahstana-podpisal-popravki-po-voprosam-ohrannoj-deyatelnosti ; https://24.kz/ru/news/social/702739-skolko-chastnykh-okhrannykh-predpriyatij-dejstvuet-v-kazakhstane ; https://kapital.kz/gosudarstvo/16328/v-stolitse-iz-581-okhrannoy-organizatsii-rabotayet-lish-283.html ; https://www.inform.kz/ru/v-kazahstane-ne-uchteno-oruzhie-800-ohrannih-kompaniy-deputat-e894d2 (seen in search only, fetch 403) ; https://bizmedia.kz/2026-02-23-chem-budet-zanimatsya-komitet-po-kontrolyu-za-ohrannoj-deyatelnostyu-mvd-rk/ ; https://zakon.uchet.kz/rus/history/Z000000085_/12.07.2026 (fetch timed out)",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b27"
+ },
  "opus:kazakhstan:GAPS1": {
   "result": {
    "blocked_searches": 0,
@@ -785,6 +823,64 @@
    "sources": "https://zakon.uchet.kz/rus/docs/V2500036218 ; https://kapital.kz/gosudarstvo/152621/nacionalnuyu-informsistemu-vodnyh-resursov-vveli-v-promyshlennuyu-ekspluataciyu-v-kazahstane.html ; https://cdb.kz/sistema/novosti/utverzhdena_statisticheskaya_otchetnost_2_tp_vodkhoz_po_novoy_forme/ ; https://kapital.kz/gosudarstvo/124301/boleye-1300-razresheniy-vydali-na-spetsial-noye-ispol-zovaniye-vody.html ; https://bizmedia.kz/2024-03-27-v-2023-godu-mvri-vydalo-bolee-1300-razreshenij-na-speczialnoe-ispolzovanie-vodnyh-resursov/ ; https://www.zakon.kz/pravo/6506067-v-kazakhstane-zapustili-pilot-po-vydache-razresheniya-na-spetsialnoe-vodopolzovanie.html",
    "suggested_score": 3,
    "verdict": "confirmed"
+  },
+  "tag": "w2b27"
+ },
+ "sonnet:kazakhstan:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real in law (KoAP art. 571-1, Law 155-VIII; fines 20 MRP individuals, 40 MRP small business). But registration of TTN and waybills in ESUTD for freight, including trucks over 3.5 t, is suspended until 1 Jun 2027 by Order No. 189 of 23 Jul 2026. Enforcement is therefore dormant and could slip again. ESUTD is a free state portal, and a mobile version exists. 1C vendors already sell waybill modules. A tender for ESUTD integration exists, but no public API was found. Willingness to pay is weak while the duty is suspended. Business has lobbied against ESUTD. The market is large (many small hauliers), but timing and the free state tool lower the score. Fine MRP amounts are from one secondary source. Own-cargo coverage is unchecked.",
+   "searches": 2,
+   "sources": "https://cdb.kz/sistema/novosti/do_1_iyunya_2027_goda_priostanovlena_registratsiya_ttn_i_putevykh_listov_v_esutd/ ; https://pro1c.kz/news/zakonodatelstvo/s-2025-goda-vvodyatsya-shtrafy-za-otsutstvie-ttn/ ; https://inbusiness.kz/ru/news/skandal-vokrug-esutd-biznes-umolyaet-chinovnikov-ostanovitsya ; https://astanahub.com/kk/tech_task/razrabotka-integratsii-s-esutd-dlia-avtomatizirovannogo-sozdaniia-i-soprovozhdeniia-elektronnykh-tovarno-t",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b27"
+ },
+ "sonnet:kazakhstan:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is only partly confirmed. Reports say akims got record-keeping powers for grave plots, but the source gives no law or year. Rules say the local executive body, not private operators, publishes occupied and free plots (Model Burial Rules, Order No. 48 of 31 May 2019). So no mandatory recurring duty falls on small private operators. Competition is already strong: Almaty's Orynai (state-backed), a 750k-grave database by KazAeroSpace, and the Muslim Spiritual Administration's digitisation via Qamqor-Sharapat. The buyer is mostly akimats and the Spiritual Administration (state or quasi-state), so a solo vendor has little to sell. I did not find a standalone burial-register product for private ritual firms. No count of private or mosque administrators was found.",
+   "searches": 2,
+   "sources": "https://bizmedia.kz/2026-02-26-poluchit-dannye-o-zahoroneniyah-teper-mozhno-onlajn-v-almaty/; https://www.inform.kz/ru/v-kazahstane-otsifrovivayut-kladbisha-v-baze-uzhe-750-tisyach-zahoroneniy-f15748; https://inbusiness.kz/ru/news/pravitelstvo-kazahstana-prinyalo-reshenie-po-vip-mogilam; https://bes.media/news/v-almati-zarabotala-tsifrovaya-baza-zahoroneniy-844a9e/",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b27"
+ },
+ "sonnet:kazakhstan:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: AFM guidance lists subjects (realtors since 2016, accountants, notaries) who must notify AFM, register in websfm.kz, take the test, adopt internal-control rules, do a risk assessment, identify clients and report. Liability is under Art. 214 KoAP, but I could not confirm current fine amounts. The search found no named Kazakh software for small subjects; only consultants and templates may exist, and I did not verify that. Weak points: no evidence of fines on realtors (per the claim's own source), no counts of subjects, no check of the draft realtor law, and a fragmented buyer base with low willingness to pay. I did not open any page; this rests on search summaries only. Score stays at 3.",
+   "searches": 3,
+   "sources": "https://www.lada.kz/kazakhstan-news/147719-krupnye-sdelki-i-podozritelnye-klienty-kogo-proveriaet-kazakhstan.html ; https://finratings.kz/news/10385-vy-perevodili-dengi-ili-pokupali-zhilio-vot-chto-mogut-proverit/ ; https://rus.azattyq-ruhy.kz/society/33169-kazakhstanskikh-bukhgalterov-proveriat-na-otmyvanie-dokhodov/amp ; https://finratings.kz/news/8726-notariusy-budut-soobshchat-gosudarstvu-o-kazhdoi-podozritelnoi-sdelke/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b27"
+ },
+ "sonnet:kazakhstan:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "E-Qonaq (state mobile app); vmp.gov.kz / gov.kz portal",
+   "duty": "Notify migration authorities within 3 working days of a foreign guest's arrival. Tourism levy rules (order of 14 Jul 2023, in force 1 Aug 2023, amended 27 Dec 2023) require hotels to keep records and remit the levy to the local budget.",
+   "market": "Not quantified (no register count found)",
+   "reason": "The duty is real. Hosts must notify of a foreign guest's arrival within 3 working days, and the claim cites a fine of 10 MRP for small business (not re-checked). But free state channels already do the core job. These are vmp.gov.kz / gov.kz (needs an e-signature) and the state mobile app E-Qonaq, which scans the passport and files in two steps (per gov.kz situations page and search summary). The tourism levy is collected by hotels, but one search summary says hostels, guest houses and rental housing are exempt in cities and districts (not verified against the rules). Rates are local, 5% in Astana and Almaty. I found no Kazakh PMS vendor for this. I did not count the businesses. The niche is thin and the free tools are strong.",
+   "searches": 2,
+   "sources": "https://www.gov.kz/situations/497/1149?lang=ru ; https://www.inform.kz/ru/bed-tax-dlya-inostrancev-kak-otel-eram-otlichat-turistov-ot-rabochih-migrantov_a4025856 ; https://adilet.zan.kz/eng/docs/P2100000787/compare ; https://inbusiness.kz/ru/last/v-kazahstane-izmenili-migracionnyj-rezhim-dlya-inostrancev",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b27"
+ },
+ "sonnet:kazakhstan:GAPS3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real in outline: production control of drinking water is mandatory, and a Health Minister order of 3 March 2026 (in force 17 March 2026) amended the sanitary requirements. The zakon.kz page gives no frequency or penalty. Not confirmed: the claimed Order 26 of 2023 and its 2025 amendment, any tariff or DKREM duty, and the number of small operators. Only 74 group pipelines were found (2020 data), plus a mix of state firms (Kazvodkhoz) and akimat-owned firms. Buyers are mostly budget-funded public bodies, so sales likely go through tenders, and many are one-off, non-recurring documents. No dedicated software or service found, but the search was thin. The scope is narrow and buyer access is poor.",
+   "searches": 3,
+   "sources": "https://www.zakon.kz/pravo/6510422-sanepidtrebovaniya-k-proizvodstvennomu-kontrolyu-izmenilis-v-kazakhstane.html ; https://www.gov.kz/memleket/entities/water/press/news/details/937950?lang=ru ; https://inbusiness.kz/ru/news/vodnyj-operator-selskih-territorij-vyplyvaet-na-poverhnost",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
   },
   "tag": "w2b27"
  },

@@ -1,4 +1,41 @@
 {
+ "critic:denmark": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Taxa / ride-hailing and Sikkerhedsstyrelsen-style licences are covered, but missing: Danish 'Skattekontrol' duties for cash-heavy small trades (kassesystem / registreringskasse and POS-register requirements for restaurants, kiosks, hairdressers)",
+     "first_search": "registreringskasse krav detailhandel kassesystem Skatteforvaltningen bekendtgørelse 2025 2026 frister",
+     "why": "Bogføringsloven and kasseapparat rules (kontrolenhed/POS reporting, kvitteringskrav) hit hundreds of thousands of small retailers and service shops; only generic bookkeeping (K10) was rejected, not the cash-register/POS certification and annual-declaration duty."
+    },
+    {
+     "category": "Alcohol and licensed-premises regime: bevilling for restaurants, bars, shops (alkoholbevilling, serveringsloven, rygeloven, åbningstider)",
+     "first_search": "serveringsbevilling udskænkningsbevilling fornyelse kommune politi regler små restauranter 2026",
+     "why": "Denmark has very many small restaurants, cafes, bars, kiosks and festival operators needing municipal/police permits (udskænkning, udeservering, støjkrav) and renewals; none of coverage cats 19/20/29 touch this."
+    },
+    {
+     "category": "Employer duties of small firms and households toward authorities: eIndkomst/A-skat, ferie (FerieKonto/Feriepengeinfo), ATP, barselsfond, and the new 2025-2026 holiday-law reporting for household employers (hushjælp, private employers)",
+     "first_search": "privat arbejdsgiver hushjælp pligter eIndkomst arbejdsskadeforsikring ATP feriepenge privatperson som arbejdsgiver",
+     "why": "Household-as-employer is lens 1 but only au pairs were checked; ferieloven reform (samtidighedsferie, since 1 Sep 2020) and private employers' duty of eIndkomst, arbejdsskadeforsikring and ATP for cleaners, gardeners, carers are mandatory and recurring."
+    },
+    {
+     "category": "Farm-level mandatory plans and reporting: Gødningsregnskab, harmonimarker, Landbrugsstyrelsen fællesskema, kvælstofkvoter and 2025-2027 CO2e-afgift (green tripartite) on livestock",
+     "first_search": "gødningsregnskab frist Landbrugsstyrelsen fællesskema 2026 CO2e-afgift husdyr indberetning små landbrug",
+     "why": "Denmark has tens of thousands of small farms/family firms; fællesskema, gødningsregnskab and the new CO2e-afgift on livestock (from 2030, with reporting preparations 2025-2027) are recurring state-driven duties not covered (only pesticides, CHR, VetStat appeared)."
+    },
+    {
+     "category": "Taxi-adjacent and small-business vehicle duties: lovpligtigt syn, tachograph/kørehvile for varebiler, erhvervskørsel, and NemRefusion/Moms for small traders; specifically small trucking (vognmand) tacho and driver-CPC/cabotage rules",
+     "first_search": "vognmand fartskriver download frist smart tachograph v2 eftermontering 2025 2026 Færdselsstyrelsen kontrol",
+     "why": "Coverage cat 18 only caught taxi and kørselskontor; small vognmænd (road haulage) with tachograph downloads, kørsels- og hviletidsregler and EU Mobility Package 2025 smart-tachograph v2 retrofit deadlines are a large small-firm segment."
+    },
+    {
+     "category": "Cultural/heritage and housing-type duties on private owners: energimærkning (EMO) of sold/rented buildings, legionella and drinking-water installations in rental housing, and udlejningsloven registers for small private landlords (BBR, huslejenævn, depositum, varmeregnskab/forbrugsregnskab)",
+     "first_search": "udlejer forbrugsregnskab varmeregnskab frist lejeloven energimærke udlejning ejerforening pligter 2026",
+     "why": "Hundreds of thousands of small private landlords and ejerforeninger must produce annual varme-/forbrugsregnskab, keep BBR data, and EMO certificates; coverage only handled andelsboligforeninger and short-term rental, not private landlords or ejerforeninger accounts duties."
+    }
+   ]
+  },
+  "tag": "w2b28"
+ },
  "discover:A:denmark": {
   "result": {
    "blocked_searches": 0,
@@ -352,6 +389,813 @@
     "torvehandel loppemarked markedshandel tilladelse kommune"
    ],
    "searches": 27
+  },
+  "tag": "w2b28"
+ },
+ "discover:B:denmark": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Volunteer boards of andelsboligforeninger (and administrators serving them)",
+     "category": "31. Andelsboligforeninger and ejerforeninger",
+     "evidence": "https://www.lovguiden.dk/loven/andelsboligloven/6c ; https://www.retsinformation.dk/eli/lta/2018/641/pdf ; https://danskelove.dk/andelsboligloven/6c . Two searches for Danish software found only foreign tools (Maintenance Planning NL/BE, HOA Central US) and an Odoo blog.",
+     "existing": "None found in Denmark in two searches; administrators and consultants probably do this (unverified). Foreign: Maintenance Planning, HOA Central.",
+     "known_mark": "new",
+     "known_note": "Not covered by K01-K13.",
+     "name": "15-year maintenance-plan and 5-year update tracker for andelsboligforeninger",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Andelsboligloven §6c: maintenance plan of at least 15 years, revised at least every 5 years, board must ensure the property is maintained per the plan presented to the general meeting; plan open to members on request.",
+     "unchecked": "Number of associations bound (one source says only those founded from 1 Jul 2018, others describe a general duty); who writes the plan (any building expert?); Danish vendors and administrators; willingness to pay."
+    },
+    {
+     "buyer": "Owners and users of tanks of 6,000-200,000 L: small firms, farms, housing associations, independent fuel stations",
+     "category": "38. Medium oil tanks / 21. Fuel stations and distributors",
+     "evidence": "https://www.lovguiden.dk/loven/olietankbekendtg%C3%B8relsen/37-43 ; https://fredericia.dk/sites/default/files/edoc_files/Milj%C3%B8krav%20for%20mellemstore%20olietanke_WT.pdf ; https://brondby.dk/media/4oblv4im/passerdupadinolietank.pdf ; https://www.lovguiden.dk/loven/benzinstationsbekendtgørelsen/14",
+     "existing": "No central register or reminder scheme found; no vendor found in the competitor search.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Medium oil-tank inspection and leak-test calendar with municipal evidence file",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Olietankbekendtgørelsen: inspection and leak test every 5 or 10 years, egenkontrol (stock accounting), reports on request; municipalities issue orders (e.g. Varde 2026 gave a deadline of 1 Nov 2026 where the last tests were from 2015). Petrol-station order BEK 1254/2019 for stations.",
+     "unchecked": "Number of tank owners; who inspects (accredited inspectors?) and whether they already send reminders; shrinking base as oil heating is phased out."
+    },
+    {
+     "buyer": "Danish small contractors, farms, gardeners, cleaning buyers and households who hire foreign firms",
+     "category": "36. RUT / 26. Manpower and cleaning agencies / 27. Construction",
+     "evidence": "https://www.danskindustri.dk/vi-radgiver-dig/personale/nyhedsarkiver---personaleforhold/nyheder-personalejura/2025/12/nye-krav-til-udenlandske-tjenesteydere-fra-nytar/ ; https://www.bdo.dk/da-dk/faglig-info/depechen/depechen-artikler-2026/nye-regler-for-registrering-af-udenlandske-medarbejdere ; https://www.virk.dk/myndigheder/stat/ERST/selvbetjening/Registrering_af_udenlandske_tjenesteydere_RUT__Registration_of_Foreign_Services_RUT/ . WebFetch of the DI page returned 403.",
+     "existing": "Free RUT register on virk.dk; no vendor competitor search run (budget exhausted).",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Same construction subcontractor world as K01 but a different duty and buyer (client-side RUT check).",
+     "name": "RUT evidence file for Danish clients (hvervgivere) of foreign service providers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Udstationeringsloven: client must see proof of RUT registration for work in construction, agriculture, forestry, gardening, groundwork and cleaning; from 1 Jan 2026 more documents (service agreement, contracts, permits) go into RUT.",
+     "unchecked": "Fine level and enforcement against clients; whether a free state check already exists; overlap with K01/K02; competitor search not run."
+    },
+    {
+     "buyer": "Small foreign (e.g. Polish, Baltic, Romanian) firms posting workers to Denmark, and their payroll/admin agents",
+     "category": "36. RUT / 26. Manpower agencies",
+     "evidence": "https://www.danskindustri.dk/vi-radgiver-dig/personale/nyhedsarkiver---personaleforhold/nyheder-personalejura/2025/12/nye-krav-til-udenlandske-tjenesteydere-fra-nytar/ ; https://www.rsm.global/denmark/da/node/684 ; https://kpmg.com/dk/en/insights/mobility/new-initiatives-to-prevent-social-dumping-in-Denmark.html",
+     "existing": "Free RUT portal; accountants and posting-service consultants (unverified).",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Adjacent to K02 (ID-card bridge for small subcontractors).",
+     "name": "RUT registration pack for small foreign service providers working in Denmark",
+     "score": 2,
+     "status": "weak",
+     "trigger": "RUT registration plus, from 1 Jan 2026, upload of service agreement, employment contracts and residence/work permits for non-EU staff; Entreprenørstop from 1 Jan 2026.",
+     "unchecked": "Buyers are foreign and hard to reach; market of consultants not checked."
+    },
+    {
+     "buyer": "Danish micro/small roasters, cocoa and timber importers acting as operators",
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "evidence": "https://etiskhandel.dk/wp-content/uploads/EUDR-case-1-Kaffe.pdf ; https://www.bdo.dk/da-dk/faglig-info/advisory/csr-og-baeredygtighed/eus-afskovningsforordning-eudr-hvad-betyder-den-for-danske-virksomheder ; https://public.cdxsystem.com/web/cdx/w/eu-deforestation-regulation-eudr-where-things-stand-in-may-2026 ; https://www.atibt.org/en/news/13889/eudr-importers-producers-and-competent-authorities-as-the-2026-deadline-approaches",
+     "existing": "Many EUDR tools and advisers (Impact Buying, SAP guide, BDO, EY, Dansk Industri webinars).",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "EUDR due-diligence pack for Danish coffee roasters and small timber/cocoa importers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "EU deforestation regulation: dates in 2026 sources are 30 Dec 2026 (large/medium) and 30 Jun 2027 (micro/small); DDS filing; Miljøstyrelsen is the Danish control authority (2024 source). Danish sources disagree on dates.",
+     "unchecked": "Current Danish dates and the scope of the simplified duties after the Dec 2025 revision; number of Danish roasters/importers that are operators; likely covered by a cross-country EUDR study."
+    },
+    {
+     "buyer": "Small shops, restaurants, cold stores and their refrigeration installers",
+     "category": "32. F-gas / refrigerant owners (shops, restaurants)",
+     "evidence": "https://www.retsinformation.dk/api/pdf/225192 ; https://www.umweltbundesamt.de/themen/klima-energie/fluorierte-treibhausgase-fckw/rechtliche-regelungen/faqs-zur-neuen-f-gas-verordnung ; https://www.coolingpost.com/world-news/lidl-fined-under-f-gas-leak-check-rules/",
+     "existing": "Two Danish-language searches returned no Danish vendor or Danish rule text; electronic logbooks are mentioned by IIR (https://iifiir.org/en/fridoc/34960).",
+     "known_mark": "new",
+     "name": "F-gas leak-check and logbook tool for owners of small refrigeration systems",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Regulation (EU) 2024/573 Arts. 4-6 (leak checks, records by certified staff); Danish BEK 1901/2021 sets Miljøstyrelsen as supervisor.",
+     "unchecked": "Danish thresholds, enforcement, whether installers already supply the logbook, and Danish competitors."
+    },
+    {
+     "buyer": "Small cosmetic and filler/botox clinics and the doctors and assistants who work there",
+     "category": "37. Cosmetic-treatment clinics and private treatment sites / 24. Private clinics",
+     "evidence": "https://retsinformation.dk/api/pdf/194785 ; https://cdn.stps.dk/stps/Media/638523949084878132/Stine Damkær Kosmetisk Klinik.pdf ; https://cdn1.gopublic.dk/stps/Media/639132156901863536/em-beauty-studio.pdf . Published inspection reports give a lead list.",
+     "existing": "Clinic journal/booking systems exist (not searched); no competitor search run.",
+     "known_mark": "new",
+     "name": "Registration and inspection-readiness kit for small cosmetic clinics (Behandlingsstedsregistret)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Order 1257/2023 and VEJ 9831: treatment sites must register; Styrelsen for Patientsikkerhed inspects cosmetic clinics and publishes reports; findings on written instructions, records, expired medicines, emergency procedures, complications, practitioner registration.",
+     "unchecked": "Clinic count; recurring duty beyond registration and inspections; competitors."
+    },
+    {
+     "buyer": "Households letting out their home",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.danskerhverv.dk/presse-og-nyheder/nyheder/2026/september/ny-lov-om-korttidsudlejning-sendt-i-horing-loser-fortsat-ikke-det-grundlaggende-problem/ ; https://www.lovguiden.dk/praksisoversigt/lejeret/airbnb-korttidsudlejning/historie",
+     "existing": "Platforms already report income and count days (Airbnb etc.).",
+     "known_mark": "new",
+     "name": "Short-term rental day counter and registration for households",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Sommerhusloven 30/70-day caps; a new bill in consultation Sep 2026 (information duty, higher fines); EU short-term-rental regulation registration number not yet adopted.",
+     "unchecked": "Final law, whether registration becomes mandatory."
+    },
+    {
+     "buyer": "Small B&Bs, inns, hostels, campsites",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.horesta.dk/media/2245/logivaerters-registrering-af-gaester.pdf ; https://www.lovguiden.dk/praksisoversigt/branche/vandrerhjem/historie ; https://brs.dk/link/d49469d9aafa45b0b705439492fdab18.aspx . WebFetch of the Lovguiden page returned 429.",
+     "existing": "Hotel and booking systems cover guest records (not searched).",
+     "known_mark": "new",
+     "name": "Foreign-guest register and fire-inspection egenkontrol for B&Bs and small hotels",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Register of foreign guests kept 1-2 years (per Lovguiden/Horesta, current basis unverified); fire inspection term depends on egenkontrol (brandsyn order from 2022).",
+     "unchecked": "Whether the register duty still exists."
+    },
+    {
+     "buyer": "Bygherrer and small renovation contractors",
+     "category": "27. Construction contractors and suppliers",
+     "evidence": "https://www.borger.dk/miljoe-og-energi/affald-og-genbrug/byggeaffald ; https://horsens.dk/media/vgxonfrz/gaeldende-vejledningiforbindelsemednedrivningsanmeldelse-revjuni2025.pdf ; https://www.retsinformation.dk/api/pdf/207372",
+     "existing": "Free municipal self-service portal 'Anmeld bygge- og anlægsaffald'; screening consultants.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "name": "Building and demolition waste notification, PCB/asbestos screening file",
+     "score": 2,
+     "status": "weak",
+     "trigger": "BEK 496/2024: notify the municipality when more than 1 t of waste or when hazardous waste arises, at least 2 weeks before work, with screening and mapping included; window replacement of 1950-1977 glass always.",
+     "unchecked": "Whether small contractors struggle with it; any private tool."
+    },
+    {
+     "buyer": "Small estate-agent offices",
+     "category": "28. Notaries, land agents, real estate brokers",
+     "evidence": "https://erhvervsstyrelsen.dk/estate-taastrup ; https://erhvervsstyrelsen.dk/agriteam-syd-aps ; https://erhvervsstyrelsen.dk/ejendomsmaeglerfirmaet-living-skafsgaard-soen-aps-0",
+     "known_id": "K12",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K12; enforcement continues in 2026 but no gap in tooling was shown, so no revive.",
+     "name": "Estate-agent AML decisions in 2026 (revisit of K12)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Erhvervsstyrelsen AML injunctions on customer-purpose assessments and risk assessments: Estate Taastrup 16 Sep 2026; Agriteam Syd 1 May 2026; Charlotte Lynggaard & Sandra Nielsen 28 Apr 2026; Living/Skafsgaard 22 Apr 2026."
+    },
+    {
+     "buyer": "Main contractors and subcontractors in construction",
+     "category": "27. Construction contractors and suppliers",
+     "evidence": "https://www.lovguiden.dk/praksisoversigt/branche/rengoering ; https://kpmg.com/dk/en/insights/mobility/new-initiatives-to-prevent-social-dumping-in-Denmark.html",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Supports K01's trigger; no new buyer.",
+     "name": "Contractor-chain compliance (Entreprenørstop from 1 Jan 2026)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "From 1 Jan 2026 Arbejdstilsynet can stop all work at a main contractor and its hired firms after repeated serious breaches."
+    },
+    {
+     "buyer": "Small security and alarm firms",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://www.lovguiden.dk/praksisoversigt/branche/vagtvirksomhed ; https://www.ft.dk/ripdf/samling/20231/beslutningsforslag/b192/20231_b192_som_fremsat.pdf",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Security-guard authorisation and annual reporting for small vagt firms",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Vagtvirksomhedsloven (1986): police authorisation, approval of each guard, annual reporting as a possible condition, annual inspection of alarm centrals; B 192 (2024) proposal to modernise, not shown as adopted.",
+     "unchecked": "Current order, reporting content, firm count."
+    },
+    {
+     "buyer": "Shops, hotels and small firms with public chargers",
+     "category": "35. EV charge points",
+     "evidence": "https://ecomento.de/2025/09/23/eu-verordnung-afir-herausforderungen-und-chancen-fuer-ladeanbieter/ ; https://www.lovguiden.dk/dokument/hoeringsportalen/hor-69729-udkast-til-%C3%A6ndring-af-bekendtg%C3%B8relse-om-stamdataregistret-for-elproducerende-anl%C3%A6g-m-v",
+     "existing": "Charge-point operator platforms handle data (not searched).",
+     "known_mark": "new",
+     "name": "EV charge-point data and registration duties for small operators",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "AFIR from 8 Jan 2026 (static and dynamic data in DATEX II); draft change of the stamdataregister to add charge points.",
+     "unchecked": "Final Danish text and dates; operators' tools."
+    },
+    {
+     "buyer": "Coastal fishers",
+     "category": "33. Small fishing vessels",
+     "evidence": "https://www.lovguiden.dk/loven/logbogsbekendtgørelsen/1 ; https://www.retsinformation.dk/eli/lta/2025/1197/pdf",
+     "existing": "State e-logbook system (free).",
+     "known_mark": "new",
+     "name": "Small-vessel logbook and landing reporting",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Logbook order BEK 1197/2025; departure notice via the LFST site; 24h landing reports.",
+     "unchecked": "No competitor search run."
+    },
+    {
+     "buyer": "Private physiotherapy clinics and specialists on regional agreements",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://www.sundhed.dk/sundhedsfaglig/information-til-praksis/hovedstaden/speciallaege/administration/sikringsgruppe2-speciallaeger/ ; https://www.sundhed.dk/sundhedsfaglig/information-til-praksis/syddanmark/fysioterapeut/klinikadministration/afregning/nyt-aar-afregningsfrister-2026/",
+     "existing": "Clinic management systems (not searched).",
+     "known_mark": "new",
+     "name": "Regional billing compliance for physios and specialist clinics",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Region-specific rules: specified invoice rule (Region Hovedstaden, from 1 Jan 2025), yearly settlement deadlines (Syddanmark 2026), price control statistics (10% above regional average), distance-supplement rule (300 m).",
+     "unchecked": "Which systems already do this."
+    },
+    {
+     "buyer": "Kiosks, tobacconists, vape shops",
+     "category": "34. Tobacco and nicotine retail",
+     "evidence": "https://www.lovguiden.dk/praksisoversigt/branche/kiosk-tobak ; https://www.lovguiden.dk/loven/lov-om-elektroniske-cigaretter-m-v/18b",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Tobacco and e-cigarette retail registration",
+     "score": 1,
+     "status": "weak",
+     "trigger": "E-cigarette marketing registration with Sikkerhedsstyrelsen (now Erhvervsstyrelsen); tobacco oplagshaver rules; nicotine regulation pending.",
+     "unchecked": "No adopted bill found."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Petrol station order (benzinstationsbekendtgørelsen, BEK 1254/2019) with municipal supervision, egenkontrol, Phase II vapour recovery (BEK 1175/2016), fire-authority approval. Operators are mostly oil-company dealers. No fresh trigger. Spin-off candidate: medium oil tank owners (cat 38). LPG not searched separately. AFIR/charge points in cat 35.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Feed businesses register or are approved with Fødevarestyrelsen (BEK 544/2023, fees BEK 1716/2025) with egenkontrol/HACCP/traceability checks. Nothing found that is specific to grain traders or any new rule. EUDR for coffee, cocoa and timber importers is in cat 30.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "No Danish credit-union or savings-group segment found. The relevant Danish co-operative form is the andelsboligforening: see cat 31 candidate (15-year maintenance plan).",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "Region-specific billing rules for physios and specialists (sundhed.dk, e.g. specified-invoice rule in Region Hovedstaden from 1 Jan 2025, EDIFACT bundles, yearly deadlines). Practice systems likely cover this: weak. Cosmetic clinics under Behandlingsstedsregistret are a separate candidate (cat 37).",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Search returned only EU precursor background and the Danish medicines act. No Danish rule for small buyers was found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Security: the vagtvirksomhed act (1986) requires police authorisation and approval of each guard, with annual reporting as a possible condition; a 2024 bill proposal (B 192) to modernise it is not shown as adopted (weak, unverified). Cleaning: no licence needed. The new item is RUT/udstationeringsloven changes from 1 Jan 2026 (cat 36).",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Demolition/construction-waste notification to the municipality (BEK 496/2024; more than 1 t, or hazardous waste, with PCB/asbestos screening; bygherre is liable). Free municipal self-service portal. Entreprenørstop from 1 Jan 2026 and RUT changes support K01. Nothing beyond K01/K03/K06 and the weak candidate below.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Estate agents: Erhvervsstyrelsen is issuing AML injunctions in 2026 (Living/Skafsgaard 22 Apr, Charlotte Lynggaard & Sandra Nielsen 28 Apr, Agriteam Syd 1 May, Estate Taastrup 16 Sep 2026), mostly for customer-purpose and risk assessments. Same buyer and duty as K12: no new idea. Notaries not applicable (notarial work is done by the courts, not searched). Property administrators under AML from 2027 was an unverified mention.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Short-term rental: 30/70-day caps, platform income reporting; a new bill was sent for consultation in Sep 2026 (information duty, higher fines, municipalities may take over supervision) with no registration duty yet. Hotels/B&Bs: guest register for foreign guests (per Lovguiden/Horesta, currency unverified); fire inspection term reduced by egenkontrol; no national tourist tax found. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "EUDR: per 2026 sources, application is 30 Dec 2026 (large/medium) and 30 Jun 2027 (micro/small), with importers/operators filing DDS in the EU system. Danish coffee-roaster case study from Etisk Handel exists. The Danish control authority is Miljøstyrelsen (from a 2024 source). Many commercial EUDR tools exist. Candidate below.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Andelsboligforeninger and ejerforeninger (country-specific)",
+     "found": "Andelsboligloven §6c: maintenance plan of at least 15 years, updated at least every 5 years, with the board duty to follow it. Erhvervsstyrelsen guidance 2018. No Danish software for this found in two searches. Candidate below.",
+     "status": "screened"
+    },
+    {
+     "category": "32. F-gas / refrigerant owners (shops, restaurants, cold stores)",
+     "found": "Regulation (EU) 2024/573 (leak checks, records); Danish BEK 1901/2021 only sets Miljøstyrelsen's role. Danish thresholds and enforcement not verified.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Small fishing vessels: logbook and landing reports",
+     "found": "Logbook order BEK 1197/2025: electronic or paper logbook, departure notices via the agency website, 24h landing reports for e-logbook vessels; agency is now Landbrugs- og Fiskeristyrelsen. State tools exist. Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Tobacco, e-cigarette and nicotine retail",
+     "found": "E-cigarette sellers must register with Sikkerhedsstyrelsen (now part of Erhvervsstyrelsen from Jan 2026); tobacco-stamp oplagshaver rules; nicotine pouches to be regulated like tobacco, but no adopted bill found. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "35. EV charge points and small charging operators",
+     "found": "AFIR applies from 8 Jan 2026 (public charge-point data in DATEX II); a Danish draft extends the stamdataregister to charge points (final text and date unconfirmed). Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Foreign service providers and their Danish clients (RUT, udstationeringsloven)",
+     "found": "From 1 Jan 2026 foreign providers must also register the service agreement, employment contracts and residence permits for non-EU staff; Danish clients in construction, agriculture, forestry, gardening, groundwork and cleaning must see proof of RUT registration. Sources: Dansk Industri, BDO, Anklagemyndigheden guidance (2023). Fine levels not found.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Cosmetic-treatment clinics and other private treatment sites",
+     "found": "Order 1257/2023 and guidance VEJ 9831: private treatment sites, including cosmetic clinics, must register in Behandlingsstedsregistret; Styrelsen for Patientsikkerhed publishes inspection reports (emergency procedures, records, expired medicines).",
+     "status": "screened"
+    },
+    {
+     "category": "38. Medium oil tanks (6,000-200,000 L): inspection and leak tests",
+     "found": "Olietankbekendtgørelsen: inspect and leak-test every 5 or 10 years; owner egenkontrol; 4-week notification for new or removed tanks; municipalities issue orders (Varde 2026, deadline 1 Nov 2026). No central register or reminder service found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "tankstation selvbetjent olietank tilsyn krav indberetning",
+    "andelsselskab kornhandler foderstofvirksomhed registrering Fødevarestyrelsen egenkontrol",
+    "privatpraktiserende læge speciallæge fysioterapeut afregning sygesikringen regionen indberetning krav 2026",
+    "apotek håndkøbslægemidler Lægemiddelstyrelsen tilsyn prækursorer indberetning",
+    "vagtvirksomhed godkendelse Rigspolitiet vagtselskab krav indberetning 2026",
+    "ejendomsmægler hvidvask risikovurdering Erhvervsstyrelsen tilsyn påbud 2026",
+    "korttidsudlejning Airbnb feriebolig 70 dage regler indberetning 2026 ny lov",
+    "byggeaffald anmeldelse sortering kommune asbest PCB kortlægning 2026 entreprenør",
+    "andelsboligforening ejerforening nye krav 2026 reelle ejere vedligeholdelsesplan",
+    "importør skovrydning EUDR Danmark tilsyn Naturerhverv træ importører 2026",
+    "F-gas kølemiddel lækagekontrol logbog køleanlæg butik restaurant Miljøstyrelsen 2026",
+    "fiskeri små fartøjer logbog elektronisk fangstindberetning kystfiskere 2026",
+    "detailsalg tobak nikotinprodukter registrering forhandlere 2026",
+    "ladestandere ejer Energistyrelsen krav registrering ladeoperatør 2026 AFIR",
+    "hotel bed and breakfast brandsyn egenkontrol gæsteregistrering turistafgift",
+    "rengøringsvirksomhed registrering Arbejdstilsynet social dumping RUT 2026",
+    "kølemiddel logbog bekendtgørelse industrigasser lækagetjek butikker",
+    "kaffebrænderi importør EUDR kaffe kakao små virksomheder Danmark",
+    "Behandlingsstedsregistret private behandlingssteder kosmetiske klinikker tilsyn",
+    "vedligeholdelsesplan andelsboligforening software / digital løsning (2 searches)",
+    "olietank mellemstore tanke tæthedsprøvning inspektion ejer påmindelse register",
+    "Miljøstyrelsen fluorholdige drivhusgasser ejer kølesystemer logbog bekendtgørelse",
+    "RUT-registret hvervgiver pligt kontrol udenlandsk tjenesteyder 2026"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b28"
+ },
+ "gapfill:denmark": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Private households employing nannies, cleaners, gardeners, home carers (including those on kontant tilskud / own-employer care arrangements)",
+     "category": "33. Employer duties of households (and cat 1 Household employers)",
+     "evidence": "https://www.virk.dk/vejledning/feriepenge/fp-arbejdsgiver/ ; https://virk.dk/vejledning/atp/atp-arbejdsgiver/atp-medarbejdere/ ; https://www.frederiksberg.dk/media/rdubfng0/naar-forlaeldre-er-arbejdsgivere.pdf ; Dinero Løn generic payroll https://dinero.dk/loensystem/ . Two competitor searches found no consumer-facing household payroll product, only guidance and municipal admin offers.",
+     "existing": "Dinero Løn (generic), lønservicebureauer (not priced), municipal administration of private-childcare employer duties",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Close to no known idea; related thematically to lens 1 only",
+     "name": "Household-employer admin pack: SE-nr, ATP, feriepenge, eIndkomst for private nanny / cleaner / carer employers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Employer duty: SE/CVR registration, quarterly ATP reporting and payment, feriepenge in eIndkomst if more than 8 h/week average, FerieKonto reporting 'privat hushjælp uden CVR-nummer'; liability for the full ATP contribution",
+     "unchecked": "Number of households actually employing; willingness to pay; whether lønservice firms already serve privatpersoner; work injury insurance threshold (400 h) and A-tax rules in current law; au pair is separate and was checked earlier"
+    },
+    {
+     "buyer": "Small Danish POS/system vendors and the cafes, pizzerias, kiosks, grocers with turnover under DKK 10m who must use compliant systems",
+     "category": "31. Digital salgsregistrering / kasseapparat",
+     "evidence": "https://skat.dk/erhverv/nye-krav-til-digital-salgsregistrering-for-visse-brancher-i-2024/for-leverandoerer-system-til-digital-salgsregistrering (fetched: SAF-T 1.5.3, free verification script v1.0.9 June 2026, SKAT does not approve systems, ISAE 3000 optional) ; https://skat.dk/media/iomgswrz/2025-07-21-faq-erhvervsdrivende.pdf ; https://dinero.dk/ny-lov-kasseapparat/",
+     "existing": "SKAT free verification script; Flatpay, Worldline, Nets and other POS vendors",
+     "known_id": "K10",
+     "known_mark": "known",
+     "known_note": "Same buyer segment as K10-style bookkeeping rejection: free SKAT script and many POS vendors (Flatpay, Worldline, Nets) already serve it. A vendor-side tool is thin.",
+     "name": "Digital salgsregistrering compliance helper for small POS makers (SAF-T Cash Register v1.5.3 test and ISAE 3000 pack)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Momsbekendtgørelsen § 64 since 1 Jan 2024; SKAT may also order any business after control; 2025 multi-agency kiosk actions closing 2026",
+     "unchecked": "Number of cafes/kiosks still on non-compliant systems; any list of compliant systems; Danish POS vendor count"
+    },
+    {
+     "buyer": "Volunteer associations, sports clubs, small festival organisers",
+     "category": "32. Alcohol and licensed premises",
+     "evidence": "https://www.borger.dk/kultur-og-fritid/lejlighedstilladelse-til-udskaenkning-af-alkohol-ved-et-offentligt-arrangement ; https://politi.dk/-/media/mediefiler/landsdaekkende-dokumenter/service-og-tilladelser/offentlige-arrangementer/udskaenkning-af-alkohol-lejlighedstilladelse/lejlighedstilladelse.pdf ; https://erhvervsstyrelsen.dk/restaurationsloven (guidance updated 11 Dec 2025)",
+     "existing": "Paper forms on politi.dk, borger.dk guidance",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Event/bar licence helper for associations and festival operators (lejlighedstilladelse, underretning, beredskab notice)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Restaurationsloven: one-off events need lejlighedstilladelse or 3-day notice to police; beredskab notice above 50 people in non-assembly rooms; paper form per police district",
+     "unchecked": "Whether a digital police form exists; volume of applications; buyer willingness to pay (volunteers); overlap with municipal event-permit tools"
+    },
+    {
+     "buyer": "Small restaurants, bars, cafes with alkoholbevilling",
+     "category": "32. Alcohol and licensed premises",
+     "evidence": "https://erhvervsstyrelsen.dk/vejledning-restaurationsloven-lovens-regler-om-ansogning-om-alkoholbevilling ; https://www.lovguiden.dk/praksisoversigt/branche/bar-natklub/historie ; municipal restaurationsplaner e.g. https://www.Svendborg.dk/sites/default/files/restaurationsplan_2020.pdf",
+     "existing": "None seen; consultants and municipal guidance",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Bar/restaurant licence-holder compliance tracker (bevilling renewal, ownership-change notices, dørmand authorisation)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Restaurationsloven; renewal with accounts to police/Bevillingsnævn; changes of ownership, concept; dørmandsautorisation for late-opening venues; Erhvervsstyrelsen guidance (Dec 2025) adding nightlife conduct",
+     "unchecked": "Renewal frequency (appears not annual), actual deadlines, fees, dørmand authorisation process and volume, enforcement stats"
+    },
+    {
+     "buyer": "Small livestock/crop farms in Register for Gødningsregnskab",
+     "category": "34. Farm-level plans and reporting",
+     "evidence": "https://www.lovguiden.dk/loven/bekendtgørelse-om-jordbrugets-anvendelse-af-gødning-i-planperioden-2024/kapitel-5 ; https://landbrugsavisen.dk/mark/naeringsstofregnskaber-skal-spare-landmaend-penge-121057 (Seges Mark Online used by 85 percent of farms) ; https://landbrugsavisen.dk/styrelse-vi-skaerer-i-oeko-tilskud-alt-efter-hvor-sent-goedningsregnskabet-er-sendt-ind-202302",
+     "existing": "Seges Mark Online and Farmtracking, Næsgaard Mark (Datalogisk), advisers",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Rejected on evidence: Mark Online reportedly on about 85 percent of farms; Næsgaard also dominant.",
+     "name": "Gødningsregnskab / gødningsplan filing service for small farms",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Plan by 10 Sep, accounts by 31 Mar via Landbrugsindberetning.dk; harmoniregler; late filing cuts organic support",
+     "unchecked": "Share of very small farms outside the big tools; 2026/27 order changes"
+    },
+    {
+     "buyer": "Livestock farms",
+     "category": "34. Farm-level plans and reporting",
+     "evidence": "https://www.ft.dk/samling/20231/almdel/sau/spm/592/svar/2067425/2903909.pdf ; https://www.agriland.ie/farming-news/denmark-to-move-ahead-with-carbon-emissions-tax-on-livestock/ . No source found for adopted law or farm-level reporting rule.",
+     "existing": "Mark Online CO2 overview (Landbrugsavisen note); advisers",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "CO2e-afgift on livestock: farm emission and reporting helper (2030)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Grøn Trepart agreement June 2024: 300 DKK/t CO2e from 2030 rising to 750 in 2035, 60 percent deduction; reporting preparations 2025-2027 per gap text",
+     "unchecked": "Whether the law was adopted; whether the tax base uses farm-level reporting or national inventories; start of any reporting; vendor responses"
+    },
+    {
+     "buyer": "Small hauliers and van operators in international transport/cabotage",
+     "category": "35. Small trucking (relates to cat 18)",
+     "evidence": "https://transport.ec.europa.eu/news-events/news/stronger-and-more-unified-enforcement-eu-rules-international-road-transport-smart-tachograph-2025-08-19_en ; https://media.webfleet.com/fl_attachment/media/doc/datasheets/tacho-manager/wf-tacho-manager.da.pdf ; https://admin.fstyr.dk/Media/638287970600077330/Vejledning%20om%20kontrol%20af%20arbejdstidsbestemmelserne.pdf",
+     "existing": "Webfleet Tachograph Manager and other fleet tools",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "Related to K06 only by buyer type (hauliers); duty is different.",
+     "name": "Tachograph download / kørehvile compliance service for small vognmænd",
+     "score": 2,
+     "status": "weak",
+     "trigger": "EU mobility package: smart tachograph v2 retrofit deadline 19 Aug 2025 passed; vans over 2.5 t from 1 Jul 2026 (Danish implementation unconfirmed); 56-day data on roadside check; employer duty to monitor driving times",
+     "unchecked": "Danish rules and fines, small-haulier count, local tacho workshop alternatives, Danish van deadline"
+    },
+    {
+     "buyer": "Private landlords with few flats; owner associations",
+     "category": "36. Private landlords and ejerforeninger",
+     "evidence": "https://www.lovguiden.dk/praksisoversigt/huslejenaevnet/huslejenaevn-forbrugsregnskab/tidslinje ; https://www.ista.com/dk/support/faqs/ ; https://www.kk.dk/borger/bolig-og-byggeri/uenighed-mellem-lejer-og-udlejer/det-kan-huslejenaevnene-behandle/vand-varme-og-elregnskaber",
+     "existing": "ista, Brunata, Techem (heat accounts, unverified for small landlords); administration agreements such as EWII's boligadministration",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Small private landlord heat/water accounts and lease-deadline guard (varmeregnskab, 4-month rule)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Lejeloven: accounts to tenants within 4 months of year end or lose the back-payment claim; objection notice (6 weeks) required; huslejenævn checks on own initiative",
+     "unchecked": "Number of small private landlords; whether metering firms service them; any landlord-oriented product; Huslejenævn losses data"
+    },
+    {
+     "buyer": "Ejerforeninger",
+     "category": "36. Private landlords and ejerforeninger",
+     "evidence": "https://dinero.dk/hvem-er-dinero-for/ejerforening/ ; https://thehub.io/startups/minejerforening ; https://thehub.io/startups/vf-software",
+     "existing": "Dinero (ejerforening plan), Vores Forening, VF Bolig",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Rejected on evidence: named existing Danish products cover bookkeeping and dues. Not the core of the gap.",
+     "name": "Ejerforening bookkeeping and dues",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Annual accounts and dues",
+     "unchecked": "None needed"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31. Digital salgsregistrering / kasseapparat (momsbekendtgørelsen § 64) for cash-heavy small trades",
+     "found": "Duty is real but narrower than the gap assumed. Since 1 Jan 2024, businesses under DKK 10m turnover whose main activity is cafes, bars, pizzerias/grill/ice-cream bars, grocers/kiosks or restaurants must use a digital sales registration system meeting up to 15 technical requirements (Danish SAF-T Cash Register v1.5.3, OCES3 signature). Industry codes were converted 1 Jan 2025 without widening scope. Hairdressers are NOT on the mandatory list (SKAT can order a system after control, power since 1 Jul 2021). Skattestyrelsen does not approve or certify systems: it offers a free SAF-T verification script (v1.0.9, 12 Jun 2026) and an optional auditor ISAE 3000 declaration template, so vendors self-declare. 2025 multi-agency kiosk control actions (cases to close in 2026) flag missing digital registration. Many POS vendors cover the buyers (Flatpay, Worldline, Nets and others). No 2026 scope extension found. Only possible gap is vendor-side (small POS makers needing SAF-T compliance tests), which is thin.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Alcohol and licensed-premises regime (alkoholbevilling, lejlighedstilladelse, restaurationsloven, dørmænd)",
+     "found": "Legal basis: restaurationsloven; municipality (Bevillingsnævn) grants and renews bevilling after consulting police. Erhvervsstyrelsen guidance updated 11 Dec 2025, with plans to let nightlife conduct (discrimination, harassment, drugging) weigh in renewal. Renewal papers are accounts and trial balance, filed with police (older municipal restaurationsplaner, 2020-2022). Event licences (lejlighedstilladelse / underretning 3 days ahead for small indoor events with beer and wine under 150 people) are paper forms sent to local police, with extra notice to beredskabet above 50 people in non-assembly rooms. No digital filing found for associations. No Danish annual bevillings-fee found (Norwegian only). Candidate ideas are low-value one-off form helpers. Not checked: whether politi.dk has a digital form, the dørmandsautorisation register, the municipal fee schedule, rygeloven and åbningstider.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Employer duties of households and small firms (SE-nr, ATP, feriepenge, eIndkomst) - also relates to cat 1",
+     "found": "Private employers of nannies, cleaners, gardeners and carers need an SE/CVR number, ATP registration and quarterly ATP reporting, with 2/3 employer and 1/3 employee share and full liability on the employer. Feriepenge must be reported in eIndkomst for help working more than 8 hours/week on average (under 8 hours exempt); FerieKonto asks for 'privat hushjælp uden CVR-nummer'. Childminder pay may be B-income reported directly to ATP. Work injury insurance rule (400 hours/year household exemption) and work environment duties come only from 2006 sources, so they are unverified. Municipalities with private childcare subsidy sometimes offer to administer employer duties for a reduction in subsidy, or point to private firms. The only product seen was Dinero Løn (generic payroll, eIndkomst). No consumer-facing household-employer payroll product found; searches returned only government and municipal guidance. Not checked: count of households (nanny, cleaner, carers with kontant tilskud / BPA), existing lønservice offers for privatpersoner, price points.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Farm-level mandatory plans and reporting (gødningsregnskab, gødningsplan, fællesskema, CO2e-afgift)",
+     "found": "Register for Gødningsregnskab: farms must file a digital gødningsplan (by 10 Sep 2025 for 2025/26) and a gødningsregnskab by 31 Mar of the following year via Landbrugsindberetning.dk, with registration thresholds around 1,000 kg N/year or 100 kg N/ha (unverified details). New 2026/27 fertilisation order was in consultation (details not found). The market is covered: Seges Mark Online used by about 85% of farms (a Landbrugsavisen piece), Næsgaard Mark (Datalogisk), Farmtracking (Seges) and smaller vendors, plus advisers. CO2e tax on livestock: agreed in 'Aftale om et Grønt Danmark' (June 2024), 300 DKK/t CO2e marginal in 2030 rising to 750 in 2035, 60 percent bottom deduction; I could not confirm adoption into law or any farm-level reporting rule, and the tax base seems to rely on Aarhus University inventories. fællesskema not found for 2026.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Small trucking (vognmand): tachograph, driving/rest time, smart tachograph v2 (relates to cat 18)",
+     "found": "EU deadlines: smart tachograph v2 retrofit for international heavy vehicles ended 19 Aug 2025 (Commission statement); vans over 2.5 t in international transport/cabotage from 1 Jul 2026 (Frotcom and Norwegian Statens vegvesen; Danish implementation not confirmed). Control requires data for the current day plus 56 prior days. Vognmand carries the duty to organise work and check compliance; downloading and analysis tools exist (Webfleet Tachograph Manager with remote download, plus fleet vendors). The key retrofit deadlines have already passed, so the one-off rush has gone. No Danish Færdselsstyrelsen page was found. Not checked: Danish vognmand count, small tools like Tachomaster, local tacho workshop services, the Danish fine catalogue.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Private landlords and ejerforeninger (varme-/forbrugsregnskab, energimærke, depositum, huslejenævn)",
+     "found": "Lejeloven: heat account must reach tenants within 4 months of financial year end (3 months after final district-heating settlement if later); water account within 4 months of final settlement; must contain an objection notice (6 weeks), or the landlord loses the back-payment claim. Huslejenævn checks form requirements on its own initiative. Leje-nævn reforms from 1 Jan 2027. Heat accounts are done by metering firms (ista, Brunata, Techem; unverified besides ista FAQs). Energimærke: needed on advertising and handed over at lease signing, valid up to 10 years, no obligation to renew unless a new lease is made; for owner-apartments the duty is on each owner, not the ejerforening. Ejerforening bookkeeping/dues are covered by Dinero (ejerforening version), Vores Forening, VF Bolig. Authorised lease-contract form is mandatory for private lets. No fine amounts found. Not checked: the number of small private landlords, whether metering firms serve landlords with few flats, depositum/BBR registers.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "registreringskasse krav detailhandel kassesystem Skatteforvaltningen bekendtgørelse 2025 2026 frister",
+    "serveringsbevilling udskænkningsbevilling fornyelse kommune politi regler små restauranter 2026",
+    "privat arbejdsgiver hushjælp pligter eIndkomst arbejdsskadeforsikring ATP feriepenge privatperson som arbejdsgiver",
+    "gødningsregnskab frist Landbrugsstyrelsen fællesskema 2026 CO2e-afgift husdyr indberetning små landbrug",
+    "vognmand fartskriver download frist smart tachograph v2 eftermontering 2025 2026 Færdselsstyrelsen kontrol",
+    "udlejer forbrugsregnskab varmeregnskab frist lejeloven energimærke udlejning ejerforening pligter 2026",
+    "lejlighedsbevilling forening arrangement ansøgning politi alkohol frivillige foreninger digital løsning",
+    "lønservice privat arbejdsgiver nanny rengøringshjælp ATP feriepenge indberetning hjælp privatpersoner",
+    "CO2e-afgift husdyr 2030 landbrug opgørelse indberetning grøn trepart afgift lov vedtaget",
+    "privat udlejer administration system udlejning lejekontrakt varmeregnskab program til små udlejere ejerforening administration",
+    "digitalt salgsregistreringssystem kontrol Skattestyrelsen bøde frisør kiosk pizzeria 2026 kasseapparat krav udvidelse brancher",
+    "vognmand kørsels- og hviletidsregler fartskriverdata analyse software små vognmænd Færdselsstyrelsen bøder",
+    "lov om CO2e-afgift på udledninger fra husdyr vedtaget Folketinget 2025 landbrugets indberetning afgiftsgrundlag",
+    "lønprogram privat arbejdsgiver børnepasser rengøringshjælp automatisk eIndkomst ATP feriepenge abonnement",
+    "energimærkning udlejning pligt energimærke gyldighed 10 år ejerforening udlejer bøde Energistyrelsen krav 2026",
+    "gødningsregnskab program landmand software gødningsplan harmoniregler Mark Online alternativ rådgiver pris",
+    "alkoholbevilling årlig gebyr bevillingsafgift bevillingshaver pligter ændring ejerforhold anmeldelse politi bar restaurant Danmark",
+    "WebFetch skat.dk digital salgsregistrering for leverandører (fetch)"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b28"
+ },
+ "opus:denmark:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated Danish purchase-log or ID-check product found for second-hand shops or gold buyers. The searches were in Danish: brugthandler software, kassesystem genbrugsbutik legitimation, and Shopify MitID opkøb. They returned only general POS systems (SumUp, getBUTIK) and VerifyID, a MitID age-verification app for Shopify checkout at USD 26.99 a month. VerifyID verifies customers at checkout, not sellers on purchase, but shows that generic MitID verification exists. I did not check broker services such as Criipto or Signicat. No police template or portal was found. Absence is only moderately verified because the searches mostly returned legal texts.",
+   "duty": "Confirmed and in force since 1 Jan 2025 under Act 1450 of 10 Dec 2024 and BEK 1497 of 10 Dec 2024, both Danish law. Covered businesses need a police licence (fee DKK 300; police can refuse for a relevant criminal record or public debt of DKK 50,000 or more). Under BEK § 5, a dealer buying a used item or a collection for more than DKK 2,000 must check the seller's MitID or valid photo ID and keep proof for 5 years. Chapter 3 also covers bicycles, car parts, gold, jewellery, watches, furniture, musical instruments, electronics and other items over DKK 5,000. How that extension interacts with the DKK 2,000 threshold was not clarified. Dealers must report suspected stolen goods to the police at once and hold the items, check stolen-goods registers, and tell the police where stock and accounts are kept. Police may inspect without a court order. Breaches are punished with fines. The duty recurs with every qualifying purchase. I found no evidence of a required record format or a reporting API to the police. The exact BEK text could not be opened (HTTP 429).",
+   "market": "Not found. No count of licensees appeared in police or parliamentary results. Rigspolitiet warned during the consultation on bill L 54 that the wider scope would raise caseloads, because private people who resell regularly are now covered. The likely market is a few thousand small shops at most, and charity shops rarely reach the DKK 2,000 threshold. This is an estimate, not sourced.",
+   "reason": "The duty is real and in force: Act 1450/2024 and BEK 1497/2024 took effect on 1 Jan 2025. They require a police licence (fee DKK 300), an ID check by MitID or photo ID when buying items over DKK 2,000, and keeping proof of that ID for 5 years. Dealers must also report suspected stolen goods, hold those items and allow police inspection. Violations are punished with fines. I found no dedicated Danish purchase-log or ID-check product. But the core job is light. Charity shops rarely buy anything over DKK 2,000. A phone photo or a generic MitID verification tool covers most of it, and the old book-keeping register was dropped. The number of licensees was not found. Willingness to pay looks low, apart from niche gold buyers and pawnbrokers.",
+   "searches": 6,
+   "sources": "https://www.retsinformation.dk/eli/lta/2024/1450/pdf ; https://www.retsinformation.dk/api/pdf/246912 ; https://eu.dk/samling/20241/lovforslag/L54/spm/1/svar/2085529/2932339.pdf ; https://eu.dk/ripdf/samling/20241/lovforslag/l54/20241_l54_efter_2behandling.pdf ; https://www.lovguiden.dk/dokument/retsinfo/forslag-til-lov-om-handel-med-brugte-genstande-samt-pantelånervirksomhed ; https://technical-regulation-information-system.ec.europa.eu/da/notification/26115/print ; https://apps.shopify.com/verifyid-mitid-aldersbekraeft",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b28"
+ },
+ "opus:denmark:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "ejendom.com (ejendomcom ApS, Danish), described in a jobbank.dk listing as a platform that pairs a condition report with a dynamic maintenance plan kept current by the chosen building consultant; I saw only this third-party listing, not the company's own site. Building consultants and administrators (ABF Nordsjælland material) write the plans. FlatCom app covers documents and communication for andels- and ejerforeninger, but I saw no maintenance-plan module. Abroad: Underhållsplan Online (Sweden, HSB).",
+   "duty": "Andelsboligloven §6c, stk. 2 and BEK nr. 641 af 2018 (vedligeholdelsesplaner) are in force. For associations founded on or after 1 July 2018, a maintenance plan of at least 15 years must exist by the time the association is founded or buys its property. The board must update it at least every 5 years and keep the property maintained in line with the plan last presented to the general meeting. Members and tenants can see it on request. Associations founded before July 2018 are not covered (the bekendtgørelse states this explicitly). The yearly nøgleoplysningsskema (§6c, stk. 3) applies to all associations, but it is a different duty. I did not see a specific penalty in the sources I read.",
+   "market": "At least 8,000 andelsboligforeninger in total (2011 ministry estimate) and about 198,000 andelsboliger in 2024 (lex.dk). Only associations founded since 1 July 2018 carry the duty. I found no count of them, but it is likely a small fraction, as new associations are rare.",
+   "reason": "The duty exists but covers only a small group. Andelsboligloven §6c, stk. 2 and BEK 641/2018 say a 15-year plan, updated at least every 5 years, applies only to associations founded on or after 1 July 2018. Older associations, at least 8,000 by a 2011 ministry estimate, are not bound. I did not see a specific penalty. I found no count of associations founded since 2018, but it is likely small. A Danish platform, ejendom.com, already does the core job: a condition report plus a dynamic maintenance plan kept current by a building consultant (I saw this only in a third-party listing). Building consultants and administrators write these plans. FlatCom covers documents and communication. The work is done once every 5 years, the market is small and an incumbent exists, so I score it low.",
+   "searches": 6,
+   "sources": "https://danskelove.dk/andelsboligloven/6c ; https://www.retsinformation.dk/eli/lta/2018/641/pdf ; https://retsinformation.dk/api/pdf/202268 ; https://jobbank.dk/virksomheder/127895/info/ejendomcom-aps ; https://dwarf.dk/work/ejendom.com ; https://www.abf-rep.dk/media/2ypfl4n5/abf-nordsjælland-03-09-2025.pdf ; https://www.abf-rep.dk/media/doybov4j/høringssvar-abl-2018.pdf ; https://wwwdmz-ft.ft.dk/samling/20141/almdel/BYB/spm/28/svar/1245668/1520920.pdf ; https://lex.dk/andelsbolig ; https://apps.apple.com/us/app/flatcom/id1334011036?uo=4",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:denmark:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: the spray journal order (BEK 1616 of 8 Dec 2025, guidance nr. 82) requires 10 ha or more, or nurseries with VAT turnover of DKK 50,000 or more, to report to SJI by 31 March. Fully digital journals are required by 31 Jan 2028. Forest area has counted toward the threshold since the 2021/22 period, so it is not a new rule. Golf courses are under a separate golf order (BEK 1573 of 5 Dec 2025) with their own journal, so they are a different duty. Competition: SEGES FarmTracking (about 5,000 users) and Næsgaard Mobile already work as spray journals. I found no dedicated forest, nursery or golf tool. The market is small and fragmented, and I found no firm count of forest owners. Free SJI manual entry limits willingness to pay. Mark Online not verified.",
+   "searches": 4,
+   "sources": "https://www2.mst.dk/Udgiv/publikationer/2025/12/978-87-7564-073-7.pdf ; https://www.lovguiden.dk/loven/sprøjtejournalbekendtgørelsen/5 ; https://landbrugsavisen.dk/stoerre-skove-skal-nu-indberette-sproejtejournal-187475 ; https://www.lovguiden.dk/loven/golfbekendtgørelsen/8 ; https://landbrugsavisen.dk/mark/mobilen-tager-over-i-marken-97199",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:denmark:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty for production animals is real: monthly VetStat reporting by the 10th, data kept 1 year, errors fixed within 3 months (BEK 1186 of 3 Oct 2025, §35). The same text still exempts horses. A Fødevarestyrelsen presentation of Jan 2025 says horses count as production animals from 2026. Den Danske Dyrlægeforening's Sept 2025 consultation response asked whether the horse exemption ends on 1 Jan 2026. I found no later amendment, so I could not confirm that horses are now in scope. On competition, VetStat takes manual entry, Excel upload and automatic reporting from practice management systems. Vendors will likely cover this, but I did not identify which systems file to VetStat. I did not search for a buyer-group size. The buyer group is small and the core job is probably already done by practice systems, so the score stays low.",
+   "searches": 2,
+   "sources": "https://www.lovguiden.dk/loven/dyrlægebekendtgørelsen/35 ; https://foedevarestyrelsen.dk/Media/638751379152946818/Præsentation til dialogmøder heste vetstat 2025 - rettet til 13022025.pdf ; https://www.ddd.dk/media/12278/hoeringssvar-til-bekendtgoerelse-om-dyrlaegers-anvendelse_j-nr-2025_83497.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b28"
+ },
+ "sonnet:denmark:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. EU 2024/573 applies directly in Denmark. Operators of systems of 5 t CO2e or more must have leak checks done by certified staff (12, 6 or 3 months by size, longer with detection). They must keep records for 5 years. Miljøstyrelsen supervises. I did not read the Danish penalty or the regulation text, so I could not confirm the fine level. The market size is not found. Many small shops fall under 5 t, and installers do the checks and usually keep the records, so the buyer is really the installer. No Danish vendor was found, but five searches (some blocked) are not proof of absence, so I can't confirm no competitor. Pain is moderate and the buyer base is thin. Score 3.",
+   "searches": 5,
+   "sources": "https://mst.dk/erhverv/sikker-kemi/kemikalier/fokus-paa-saerlige-produkter/koelemidler/videnscenter-for-koelemidler/regler-og-lovgivning ; https://www.retsinformation.dk/api/pdf/225192 ; https://www.tekniq.dk/brancheviden/fagomraaderne/koel-og-ventilation/koeleinstallationer/ ; https://iifiir.org/en/fridoc/34960",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b28"
+ },
+ "triage:denmark": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New police licence and ID-check log duty for small second-hand shops; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Recurring sprøjtejournal/SJI duty for small forest owners, nurseries, turf; not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Recurring inspection duty on small owners and housing associations; not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Monthly VetStat duty on small vet practices; unverified, keep for checking."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Small taxi offices have data retention and audit duty; not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Client-side RUT check for households and small firms; different buyer and duty from K01 (related K01)."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Private childminders under municipal approval and supervision; in scope, not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Household au pair host duties toward SIRI; household buyer, not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Associations running collections with Indsamlingsnævnet duties; in scope."
+    },
+    {
+     "decision": "known",
+     "id": "A10",
+     "reason": "Same AML duty as K12 (AML for accountants and estate agents); exchange offices are the same AML-obliged tier.",
+     "ref": "K12"
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Driving instructor 5-year renewal duty on small schools; not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Game handlers and depots report volumes to FVST; small bodies, not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Tattoo studios have registration and hygiene duties; not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Septic emptying records involve property owners, a different duty from K03 ADS reporting (related K03)."
+    },
+    {
+     "decision": "known",
+     "id": "A15",
+     "reason": "Scrap dealers' ADS/Affaldsregister reporting is the same waste-data duty as K03.",
+     "ref": "K03"
+    },
+    {
+     "decision": "known",
+     "id": "A16",
+     "reason": "Food egenkontrol for butchers is same buyer and duty as K11.",
+     "ref": "K11"
+    },
+    {
+     "decision": "known",
+     "id": "A17",
+     "reason": "Well driller borehole notification and GEUS reporting is exactly K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Maintenance-plan duty for andelsboligforeninger boards; new buyer group, not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Oil-tank inspection duty on small owners; not in known."
+    },
+    {
+     "decision": "merge",
+     "id": "B3",
+     "reason": "Same client-side RUT proof duty and same hiring-party buyer group as A6.",
+     "ref": "A6"
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Foreign providers' RUT registration is a different buyer from A6/K01 (related K02)."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "EUDR due diligence for small importers/roasters, a deadline-driven duty on many small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "F-gas leak checks and logbooks for small shops and restaurants; not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Cosmetic clinics' registration and inspection duties; small professional offices, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Household short-term rental day caps and registration; household buyer, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Guest register and fire inspection egenkontrol for small B&Bs; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Demolition waste notification by bygherrer and small contractors, a different duty from K03 (related K03)."
+    },
+    {
+     "decision": "known",
+     "id": "B11",
+     "reason": "Estate-agent AML is the same buyer and duty as K12; no new evidence of a tooling gap.",
+     "ref": "K12"
+    },
+    {
+     "decision": "known",
+     "id": "B12",
+     "reason": "Entreprenørstop adds only a trigger to the K01 construction chain compliance buyer and duty.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Security firm authorisation and reporting for small firms; unverified, not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "AFIR data duties for small charge-point operators; unverified, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Logbook and landing reporting for small fishing vessels; not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "Regional billing rules for small private clinics; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B17",
+     "reason": "Tobacco and e-cigarette retail registration for kiosks; in scope, weak but unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Household employer duties (ATP, feriepenge, eIndkomst); core in-scope buyer, not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Digital salgsregistrering is a different duty from K10 bookkeeping; the free SKAT tool and vendors are for verifiers to weigh (related K10)."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Associations' event licence duty; community bodies, not in known."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Licence-holder compliance for small bars and restaurants; different buyer and duty from GAPS3."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Farm CO2e tax reporting; unverified and distant (2030), but a deadline duty on many small farms."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Tachograph and driving-time duty differs from K06 soil moves (related K06)."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Small private landlords' heat accounts and lease deadlines; not in known."
+    }
+   ]
   },
   "tag": "w2b28"
  }

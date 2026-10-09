@@ -73,6 +73,33 @@
    "merge": 1
   }
  },
+ "cameroon": {
+  "batch": "w2b27",
+  "candidates": 31,
+  "checks": {
+   "opus": 1,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B6 COBAC reporting and solidarity-fund tracker for category-1 savings and credit co-operatives",
+    "B7 LPG depot and distributor compliance file (10,000-bottle fleet rule, safety checks, supply schedule)"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 4,
+   "unverifiable": 3
+  },
+  "gaps": 0,
+  "id": "cameroon",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 24,
+   "known": 3,
+   "merge": 2
+  }
+ },
  "canada": {
   "batch": "w2b3",
   "candidates": 44,
@@ -687,6 +714,55 @@
   "stage": "done",
   "triage": {
    "keep": 44,
+   "known": 2,
+   "merge": 1
+  }
+ },
+ "kazakhstan": {
+  "batch": "w2b27",
+  "candidates": 35,
+  "checks": {
+   "opus": 3,
+   "sonnet": 5,
+   "unverifiedByCap": []
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 3,
+   "refuted": 1,
+   "unverifiable": 2,
+   "verified_4": 2
+  },
+  "gaps": 2,
+  "id": "kazakhstan",
+  "leads": [
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "A1",
+    "mark": "new",
+    "name": "Licensing-readiness and compliance file for private kindergartens and children's mini-centres (licensing from 2027, unannounced inspections from Feb 2026)",
+    "opus": 5,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "B1",
+    "mark": "new",
+    "name": "C1 Security-agency compliance kit: quarterly MVD report, weapons and special-equipment register, 5-day status notices",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 28,
    "known": 2,
    "merge": 1
   }

@@ -645,5 +645,411 @@
    "searches": 24
   },
   "tag": "w2b25"
+ },
+ "gapfill:chile": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "About 4,000 user organisations (comunidades de aguas, asociaciones de canalistas, juntas de vigilancia) and the smallholders in them; also advisers who regularise rights",
+     "category": "13. Small water systems (also 10. Well drillers and water abstraction)",
+     "evidence": "https://www.diarioconstitucional.cl/2026/09/18/congreso-despacha-proyecto-de-ley-que-amplia-hasta-2032-el-plazo-para-regularizar-e-inscribir-derechos-de-aprovechamiento-de-aguas/ (403 on fetch; read via search snippet); https://www.camara.cl/cms/2026/05/19/recursos-hidricos-despacha-nuevos-plazos-para-regular-derechos-de-agua/ ; https://www.chileatiende.gob.cl/fichas/1198-regularizacion-de-derechos-de-aprovechamiento-de-aguas ; https://www.camara.cl/cms/2025/01/22/regularizacion-de-derechos-de-agua-se-extenderá-hasta-abril-de-2027/ ; search snippets cited about 150k rights in the CPA and about 130k held by OUA members still unregularised; INDAP Bono Legal de Aguas covers 90% of an average CLP 600k cost for about 5,000 INDAP farmers.",
+     "existing": "Competitor search (water-rights regularisation, user-organisation registers): only service offers (Colbun advisory, lawyers/consultancies, simplo.cl permit guide) and INDAP/DGA programmes; the only software found, APR Software/Octocelio, targets drinking-water SSR, not irrigation communities. No software for member/rights registers with CBR/DGA file packs found.",
+     "existing_note": "",
+     "known_id": "K07",
+     "known_mark": "new",
+     "known_note": "Different duty and buyer from K07 (MEE well reporting) and K14 (SSR management): irrigation water-user organisations and smallholders, one-off but multi-year deadline-driven filing.",
+     "name": "Water-right regularisation and Catastro Publico de Aguas filing manager for comunidades de aguas and small irrigators",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Ley 21.435 (Codigo de Aguas reform): rights must be regularised and inscribed in the CBR water register and the DGA Catastro Publico de Aguas. Ley 21.727 (DO 18 Feb 2025) set the deadline at 6 Apr 2027; a refundido bill (boletines 18.157-33 and 18.237-33) completed its passage on 8 Sep 2026, would extend the general deadline to 6 Apr 2032 and give small farmers and family farming a special regime to Apr 2033, and lets user organisations manage regularisation collectively; awaiting presidential promulgation. Missing CPA registration is fineable at 51-100 UTM.",
+     "unchecked": "Whether the extension bill was promulgated; real number of unregularised rights and who pays (members vs community vs INDAP bonus); a longer deadline lowers urgency; whether a done-for-you service or software wins; DGA online filing portal and its API/format; competitor from consultants and conservadores."
+    },
+    {
+     "buyer": "Licensed electrical installers (classes A-D) and gas installers (licences 1-3), mostly sole traders",
+     "category": "31. Electrical/gas installers filing declarations to SEC (also 21)",
+     "evidence": "https://www.chileatiende.gob.cl/fichas/2656 ; https://www.chileatiende.gob.cl/fichas/2659/1/pdf ; https://simplo.cl/permisos/declaracion-electrica-te1/ ; https://simplo.cl/permisos/sec-tc-gas/ ; Diario Oficial 3 Sep 2025 SEC resolution on a new e-Declarador electronic procedure (unread).",
+     "existing": "Competitor search (software instaladores SEC e-declarador TE1 TC6): no Chilean product; only Spanish installer-management tools (STEL Order, InstalWin, Fixner) with no e-Declarador link; consultancies/marketplaces (Cronoshare, Simplo) sell the certificate as a service.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "known_note": "Related to K05 (net-billing router) but different duty: per-installation TE1/TC6 declarations.",
+     "name": "SEC e-Declarador job and certificate manager for small electrical (TE1) and gas (TC6) installers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Every new or modified installation must be declared via SEC e-Declarador (TE1 under DS 8/2019 RIC; TC6 for interior gas) before energising or commissioning; SEC response about 10 working days; returns go to 'por corregir'.",
+     "unchecked": "No operator counts; e-Declarador has no API so MVP would be a pre-fill/checklist tool; free state portal is the actual filing channel; willingness to pay by sole traders; what the Sept 2025 resolution changed."
+    },
+    {
+     "buyer": "Retail LPG (GLP) distributors with own cylinders and wholesalers",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://www.cne.cl/wp-content/uploads/2023/08/1°-sesion-Mesa-trabajo-PdL-GLP-CNE.pdf ; https://www.energia.gob.cl/noticias/nacional/ministerio-de-energia-ingresa-al-congreso-proyecto-de-ley-que-busca-regular-el-mercado-del-gas-licuado-de-petroleo",
+     "existing": "None found; not scored beyond unverified because the bill's status is unknown.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "LPG small distributor register and cylinder traceability tool",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Boletin 16035-03 would create a register of wholesale and retail distributors, SEC-run cylinder monitoring platform, 12-month end to exclusivity clauses",
+     "unchecked": "Bill status in 2026 (law passed or stalled), number of registered retail distributors, any SEC rule in force, existing distributor software (not searched)."
+    },
+    {
+     "buyer": "All employers including those with fewer than 10 staff",
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "evidence": "https://www.suseso.cl/613/alt-propertyvalue-726760.pdf ; https://www.pwc.com/cl/es/publicaciones/boletin-laboral/Alerta-laboral-agosto-2025-PwC-Chile.pdf ; https://web.talana.com/blog/ley-karin-implementacion-del-canal-de-denuncias ; https://rexmas.com/ley-karin-canal-de-denuncias/",
+     "existing": "Competitor search: Rex+ canal de denuncias, Buk (4,269 reports Apr 2024-Jun 2026), Talana guides, Nubox; Dirección del Trabajo guidance. Horizontal HR product with several vendors.",
+     "known_id": "K10",
+     "known_mark": "known",
+     "known_note": "Same HR-compliance space as K10 and generic like K13; killed by Rex+, Buk, Talana.",
+     "name": "Ley Karin protocol and complaint-channel pack for micro employers",
+     "score": 2,
+     "status": "rejected",
+     "trigger": "Ley 21.643 (in force 1 Aug 2024): written prevention protocol, complaint channel, training twice a year, reporting complaint data to the insurer (Circular 3854); DT fines 3-60 UTM",
+     "unchecked": "A narrow done-for-you pack for security and cleaning agencies was not searched."
+    },
+    {
+     "buyer": "Almacenes, panaderias, picadas, food trucks, small producers",
+     "category": "20. Small food producers (Seremi sanitary authorisation, DS 977)",
+     "evidence": "https://www.diariooficial.interior.gob.cl/publicaciones/2024/04/25/43835/01/2483401.pdf ; https://chileatiende.gob.cl/fichas/172/1/pdf ; https://www.wipo.int/wipolex/es/legislation/details/23566",
+     "existing": "No Chilean-specific tool found; only foreign HACCP temperature-log apps (Miratag, MoreFromFood). Authorisation is a one-off through a free state portal; no recurring filing found.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Seremi food-business compliance kit (authorisation, structural-change approvals, inspection records) for micro food producers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DS 977 as amended by Decreto 40/2024 (DO 25 Apr 2024); authorisation requested on Seremi en Linea; structural changes need Servicio de Salud approval; Seremi inspections",
+     "unchecked": "Whether the manipulador carnet is an official recurring requirement; renewal and inspection-record rules; counts of establishments; DS 977 revision pending after 2025; Seremi self-inspection format."
+    },
+    {
+     "buyer": "Small producers, packers, storage plants and exporters of fruit and vegetables",
+     "category": "22/30. Fruit orchards, packing and exporters (SAG registers)",
+     "evidence": "https://www.sag.gob.cl/ambitos-de-accion/importaciones-y-transito/registros ; https://sra.sag.gob.cl/SRA_DOCUMENTOS/ManualSRA.pdf ; https://www.portalfruticola.com/?p=548865 ; https://chilealimentos.com/wp-content/uploads/2022/05/Sistema-Inocuidad-SAG-Reunion-Comite-Frambuesas.pdf",
+     "existing": "Competitor search found no Chilean software tied to SRA; only a 2013 raspberry traceability system and generic foreign traceability tools. Large exporters and consultancies likely cover the filings.",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "SAG SRA and market-specific register compliance service for small orchards, packers and exporters",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Res. SAG 7550/2021: mandatory SRA registration and Acuerdos Operacionales de Inocuidad; market registers such as the Russia exporter list (annual commitment letter, 2026 application windows) and raspberry/citrus/stone-fruit programmes",
+     "unchecked": "Whether SRA needs periodic renewal; number of small registrants; who currently does the filings (exporters for their growers); free SAG portal coverage; competitor vendors such as agri-traceability SaaS with SAG modules."
+    },
+    {
+     "buyer": "Rural drinking-water committees and cooperatives (about 2,600 SSR)",
+     "category": "13. Small water systems",
+     "evidence": "https://www.diariooficial.interior.gob.cl/publicaciones/2025/12/16/44325/01/2738531.pdf ; https://www.diariooficial.interior.gob.cl/publicaciones/2026/02/25/44385/01/2769917.pdf ; https://www.df.cl/df-lab/sostenibilidad/apr-software-la-startup-que-creo-un-sistema-para-gestionar-el-agua-en",
+     "existing": "APR Software/Octocelio covers SSR management; buyers are cash-poor volunteer committees. No new evidence that undoes the K14 rejection.",
+     "known_id": "K14",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K14; no revive evidence.",
+     "name": "SSR licence-holder obligations tracker (Fondo de Reserva, Fondo de Reposicion, tariff steps)",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Ley 20.998 licence decrees impose funds and reports; tariff-fixing regulation DO 25 Feb 2026; reform bill in Senate",
+     "unchecked": ""
+    }
+   ],
+   "coverage": [
+    {
+     "category": "13. Small water systems (Ley 20.998 SSR licences, DGA/CBR water-right inscription)",
+     "found": "SSR operator registry deadline passed (Ley 21.520 extended to 20 Nov 2024); licences now being granted by decree with duties (Fondo de Reserva de Garantia, Fondo de Reposicion y Reinversion, e.g. DO 16 Dec 2025); tariff-fixing regulation DO 25 Feb 2026; Senate bill to modernise Ley 20.998 pending (May-Jun 2026). No periodic SISS report found; SSR run by MOP Subdireccion, not SISS. SSR management side stays K14 (APR Software/Octocelio). New angle found: water-right regularisation under Ley 21.435 (see candidate).",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers (Ley Karin 21.643 / harassment protocol)",
+     "found": "Ley Karin in force since 1 Aug 2024 and applies to every employer including micro firms (protocol, complaint channel, training). DT enforcement active (PwC: 2,117 inspections, 993 fines to Jun 2025; fines 3-60 UTM; dictamen 474/2025). But Rex+, Buk, Talana, Nubox already sell complaint-channel/protocol tools. Security/cleaning agencies otherwise still covered by K01/K02/K04/K10.",
+     "status": "screened"
+    },
+    {
+     "category": "21. Fuel/LPG: SEC registers and small distributors (gap)",
+     "found": "Retail LPG distributor registry and cylinder traceability exist only as Boletin 16035-03 (Energy Ministry bill; SEC-run cylinder monitoring platform, register of wholesale/retail distributors); current status could not be verified. No SEC rule found in 2025-26 for small distributors. Unverified, no tool found.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Electrical/gas installers filing declarations to SEC (TE1, TC6) beyond net billing K05",
+     "found": "TE1 (electrical, DS 8/2019 RIC) and TC6 (gas interior) are mandatory per-installation filings via SEC e-Declarador by licensed installers (credentials issued in person at SEC office; response 10 working days per ChileAtiende). SEC resolution on a new electronic procedure in e-Declarador published DO Sept 2025 (content unchecked). No Chilean installer software integrated with e-Declarador found; the state portal is the filing channel.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small food producers, restaurants, Seremi sanitary authorisation (DS 977) (gap)",
+     "found": "Authorisation via free Seremi en Linea; DS 977 amended by Decreto 40/2024 (DO 25 Apr 2024; structural changes need authorisation, easier re-use of authorised premises); consolidated text amended to Jun 2025. Carnet de manipulador claim comes only from commercial training sites. No national food-handler registry found. No Chilean-specific HACCP/logbook tool found, only generic foreign apps. No recurring filing identified, mostly one-off authorisation plus inspections.",
+     "status": "screened"
+    },
+    {
+     "category": "22/30. Fruit packing, orchards, SAG registers (huertos exportadores, packing, cold stores) (gap)",
+     "found": "SAG Sistema de Registro Agricola (Res. 7550/2021) is the official system where producers, packers, storage plants and exporters register, declare BPA/BPM/HACCP certifications and sign Acuerdos Operacionales de Inocuidad. Market-specific registers (Russia exporter list with 2026 commitment letter; raspberries; US citrus; Mexico stone fruit). No evidence found of annual renewal for SRA, nor counts of small registrants. No Chilean software linked to SRA found.",
+     "status": "screened"
+    },
+    {
+     "category": "Security/cleaning/manpower - Ley 21.015 disability quota and DT reporting (gap)",
+     "found": "Not separately evidenced. The quota (100+ staff) falls on larger employers, so out of scope for small firms; no search spent beyond Ley Karin results.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "SEC declaración instalaciones interiores de gas TC6 instaladores autorizados obligación electrónica 2025 2026",
+    "SEC declaración de instalación eléctrica TE1 instalador clase D plataforma nuevo reglamento 2025",
+    "Seremi de Salud autorización sanitaria establecimientos de alimentos DS 977 modificación 2025 registro obligatorio manipuladores",
+    "SAG registro de huertos exportadores inscripción anual packing plantas frigoríficas productores pequeños requisitos 2026",
+    "Ley 20.998 servicios sanitarios rurales licencias obligación reporte SISS DGA inscripción derechos de agua regularización plazo 2026",
+    "Ley Karin 21.643 protocolo prevención acoso laboral obligatorio pequeñas empresas Dirección del Trabajo fiscalización 2026",
+    "software gestión instaladores SEC e-declarador TE1 TC6 cotizaciones certificados instalador eléctrico gas",
+    "SEC distribuidores GLP gas licuado cilindros trazabilidad registro obligatorio pequeños distribuidores 2026",
+    "Reglamento Ley 21.435 Código de Aguas inscripción derechos de aprovechamiento plazo regularizar 2026 DGA usuarios pequeños",
+    "software Ley Karin protocolo canal de denuncia pyme Chile plataforma",
+    "software trazabilidad huerto packing SAG SRA registro productores frutícolas pequeños plataforma",
+    "software restaurantes Chile registro sanitario Seremi fiscalización autoinspección HACCP bitácora temperatura app",
+    "regularización derechos de agua pequeños agricultores plataforma servicio asesoría INDAP DGA catastro público de aguas cuántos derechos sin inscribir",
+    "reglamento Ley 20.998 SSR publicado Diario Oficial registro de operadores licencias comités agua potable rural obligaciones informar",
+    "proyecto ley GLP trazabilidad cilindros boletín 16035-03 estado tramitación 2026 distribuidores minoristas registro SEC",
+    "organizaciones de usuarios de agua comunidades de aguas regularización derechos software gestión registro socios Chile empresa servicio regularización DAA",
+    "SAG Sistema de Registro Agrícola SRA productores empacadoras inscritos renovación anual cantidad exportadores pequeños obligación",
+    "WebFetch diarioconstitucional.cl 2026/09/18 plazo 2032 derechos de agua (403 blocked)"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b29"
+ },
+ "opus:chile:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Chilean commercial feria or auction software was found in searches in Spanish or English. Only foreign academic projects turned up (Ecuador, Colombia). SIPEC and its feria module are free from SAG. Big operators (Tattersall, Feria Osorno/Fegosa, cooperatives) have had to read DIIOs electronically since about 2020 and very likely have in-house or integrator systems, though I could not confirm this. RFID reader vendors (wand-to-PC to SIPECweb) were not checked.",
+   "duty": "Confirmed in force. The texts below were seen through search-result summaries; the fetched Diario Oficial PDF was not machine-readable. Res. Ex. SAG 1.884/2026 (DO 26 Mar 2026) says ferias may not receive or auction animals without a paper or electronic FMA. Entry and exit movements go into the SIPEC Módulo Movimiento en Recintos Feriales within at most 3 business days after the auction (the Nov 2025 draft said 2 days), and before the next auction's intake. The amendment (DO 29 Jul 2026) replaces resuelvo 8: bovines without an RFID DIIO cannot be received or auctioned, and the official RFID DIIO number must be recorded in the module. It took effect on publication. The duty recurs with every auction, often weekly. Penalties are under the sanctions laws named in the claim (not re-verified). Electronic reading was already required within 1 year under Res. 7.782/2019.",
+   "market": "The SAG BIOSIF reports count 42 recintos feriales in 2010, 41 in 2012, 39 in 2013, 38 in 2015, 39 in 2016 and 37 in 2017. The 2017 count includes 10 in Araucanía, 7 in Los Lagos and 6 in Maule. Eleven closed in the decade to 2016. No count after 2017 was found. AFECH (the ferias trade association) exists, but I did not find how many ferias it groups. Many ferias belong to a few larger firms.",
+   "reason": "The duty is real and in force. SAG Res. Ex. 1.884/2026 and its 29 Jul 2026 amendment require ferias to hold the FMA before receiving animals, load SIPEC movements within 3 business days and refuse bovines without an RFID DIIO. I found no third-party feria software, but the market is tiny. SAG BIOSIF reports counted about 37 recintos feriales in 2017, down from 42 in 2010. Large firms such as Tattersall and Feria Osorno/Fegosa run many of them. Electronic DIIO reading has been mandatory since Res. 7.782/2019, so working ferias likely already have in-house or integrator systems (unverified). SIPEC itself is free. That leaves very few buyers, a hardware-heavy integration and an established workflow: a weak solo-founder opportunity.",
+   "searches": 5,
+   "sources": "https://www.diariooficial.interior.gob.cl/publicaciones/2026/03/26/44410/01/2782619.pdf ; https://www.diariooficial.interior.gob.cl/publicaciones/2026/07/29/44511/01/2843479.pdf ; https://www.sag.gob.cl/sites/default/files/Res.-trazabilidad-en-ferias-ganaderas_noviembre2025.pdf ; https://faolex.fao.org/docs/pdf/chi193289.pdf ; https://www.sag.gob.cl/sites/default/files/informe_resultados_biosif-2017.pdf ; https://www.sag.gob.cl:443/sites/default/files/informe_bioseguridad_ferias_2010.pdf ; https://www.sag.gob.cl/sites/default/files/informe_bioseguridad_ferias_2015.pdf ; https://www.radioagricultura.cl/programas/el-agro/el-agro-destaco-fondo-para-ferias-libres-y-nuevo-comite-ganadero-bovino-en-radio-agricultura_20260704/",
+   "suggested_score": 2,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b29"
+ },
+ "opus:chile:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Chilean software found that does the balance book or the SAG report for veterinary sellers. Two searches in Spanish found only regulation pages. The vet practice tools the discovery pass named (Veti.app, AgendaPro, etc.) were not re-checked.",
+   "duty": "Res. 667/2010, which the claim cites, was repealed by SAG Res. Ex. 7813/2017 (14-12-2017, ketamine). Both facts come from the norm's title, seen in search summaries; I could not open the full text (LeyChile did not load, and the SAG and FAOLEX PDFs were unreadable). Under 7813, a search summary puts the monthly register sent to the SAG Subdepartamento de Registro y Control (first 10 business days) in the laboratory/importer section. Whether it binds sellers is not confirmed. 7813 limits ketamine sales to sellers registered with SAG and bans direct sale to vets. SAG still publishes lists of 'receta retenida con control de saldo' products (latest file seen dated 14/04/2026). I did not find the current rule for keeping a balance book on non-ketamine products; it may sit in Decreto 25/2005, which I did not check. Penalty not found.",
+   "market": "No count found. SAG publishes an XLS of 'Establecimientos inscritos para la venta de Ketamina' (updated 23/09/2026); I did not open it, so the number of rows is not known. Registering as a veterinary-medicine seller costs 2 UTM through ChileAtiende procedure 58052. No total count of veterinary-medicine sellers was found.",
+   "reason": "The claim's legal basis is out of date. SAG Res. Ex. 7813, published 14-12-2017 and in force since then, sets the rules for selling veterinary products that contain ketamine. Its title says it repeals Res. 667 and Res. 1816 of 2010 (title seen in search summaries; full text not opened). So the general 667/2010 rules on handwritten prescriptions, the folio register and monthly reporting no longer apply. Under 7813, the monthly entries/exits/balance report due in the first 10 business days appears, from a search summary, in the section for laboratories and importers. I could not confirm that it applies to sellers. The current duty looks limited to ketamine sellers on a short SAG list, which makes the market very small. No software for this was found, but the gap matters little.",
+   "searches": 6,
+   "sources": "https://www.sag.gob.cl/sites/default/files/resol_7813-2017.pdf ; https://faolex.fao.org/docs/pdf/chi172227.pdf ; https://www.leychile.cl/N?i=1112346&f=2017-12-14&p= ; https://www.sag.gob.cl/ambitos-de-accion/medicamentos-con-condicion-de-venta-especial ; https://www.sag.gob.cl/ambitos-de-accion/establecimientos-autorizados-0/registros ; https://www.chileatiende.gob.cl/fichas/58052-inscripcion-de-establecimiento-de-expendio-de-productos-farmaceuticos-de-uso-exclusivamente-veterinario ; https://colegiofarmaceutico.cl/wp-content/uploads/2014/08/QF_Veterinarios-720.doc",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b29"
+ },
+ "opus:chile:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The core recurring job is covered. The SII's own e-invoicing portal lets withholding agents issue a factura de compra electronica and pick cambio-de-sujeto products or a 'generico con retencion total' option, which fills in the product and cambio-sujeto codes. The SII publishes the retention codes, so any certified Chilean DTE provider can support this too. I did not confirm how Bsale, Nubox or Defontana configure it, and the portal page does not say whether it is free. For yard operations, foreign scrap software exists, such as ReMatter and ScrapRight on Capterra Chile and Basys from Mexico, but none appeared to be localized for the SII. A Chile-specific scrap ERP would be a vertical tool, not a solution to an unmet compliance duty.",
+   "duty": "The tax duty is real and in force. SII Res. Ex. 86/2016 moves the whole IVA charge on scrap sales to the buyer. Letter d) covers non-exporter, non-manufacturer firms that buy or sell more than CLP 20m net in a month, or buy CLP 150m net in 12 months. Those firms file Anexo 4 (Declaracion Jurada de Agentes Retenedores) and join the nomina. Letter e) lets the SII add smaller yards at its discretion. Regional SII resolutions in 2023-2025 still add yards to the nomina under Res. 86, which shows it is still applied. In practice a withholding agent issues a factura de compra electronica (DTE 46), adds 100% of the IVA as a retention (\"IVA RETENIDO CHATARRA\", total retention) and declares it monthly. The 'origin documentation and supplier checks' part has no legal mandate behind it. No dealer register exists. Boletin 14.983 (cable theft and receptacion) has been with a Comision Mixta since Jan 2025, according to a CTMIN report, and I found no later enactment. The only risk to yards is criminal liability for receptacion, which is not a recurring workflow. I did not verify the penalty amounts for failing to withhold.",
+   "market": "I found no count. The SII publishes the withholding-agent nomina, but I did not reach it, and no article gave a total. A 2016 DF article reports 428 SII inspections of the scrap trade in 2016 and copper scrap shipments of about 181,000 t. The informal yards described in the claim are mostly below the thresholds and outside the duty. Probably a few hundred obligated firms; this is not verified.",
+   "reason": "The IVA cambio-de-sujeto duty under Res. 86/2016 is real, monthly and in force. But its core task, issuing a factura de compra with total retention and declaring it, already runs through the SII's own e-invoicing portal and standard DTE software. The 'origin documentation and supplier checks' part has no legal mandate: there is no dealer register, and the cable-theft bill was stuck in a Comision Mixta as of the latest source I found (Mar 2025). The obligated firms are a small, unquantified group, likely a few hundred. The informal yards the claim targets are mostly below the thresholds, unlikely to pay, and serving them carries reputational and legal risk around receptacion.",
+   "searches": 6,
+   "sources": "https://www.sii.cl/normativa_legislacion/resoluciones/2016/reso86.pdf ; https://www.sii.cl/documentos/normativa_ddrr/2025/poniente/reso77325140768_80490.pdf ; https://www.sii.cl/destacados/factura_electronica/guias_ayuda/emitir_factura_compra_electronica.htm ; https://www.sii.cl/declaraciones_juradas/ddjj_3327_3328/cod_otros_imp_retenc.pdf ; https://www.sii.cl/normativa_legislacion/resoluciones/2025/reso76.pdf ; https://www.df.cl/economia-y-politica/actualidad/sii-pone-la-lupa-en-el-trafico-de-chatarra-y-las-fiscalizaciones-se ; https://www.reporteminero.cl/noticia/noticias/2025/03/robo-cobre-ctmin-realiza-llamadoreforzar-seguridad-faenas ; https://www.camara.cl/cms/2024/09/30/al-senado-cambios-a-proyecto-que-sanciona-robo-de-cables/ ; https://www.capterra.cl/alternatives/130981/scrapright ; https://www.comparasoftware.com/basys",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b29"
+ },
+ "opus:chile:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Quimun (Chilean, a 2023 spin-off of DataQu; ELEAM management platform with medical, hotel and admin modules and a family portal; about 15 homes in Chile and 3 in Ecuador). Mera Inn (Chilean electronic clinical records for elder-care homes). Resisoft (Uruguay, in 5 countries). Spanish ResiPlus. None was confirmed to produce Seremi authorisation or inspection packs specifically.",
+   "duty": "Seremi de Salud sanitary authorisation and inspection of ELEAM (old DS 14/2010 regime; Supreme Court upheld closure for operating without authorisation). DS 20/2021 publication date of 30 Sep 2022 confirmed. Its entry into force was postponed several times; the Apr and Jul 2025 Diario Oficial decrees, as summarised in search results, give 1 Apr 2025 and a 3-year transition for existing homes (to about Apr 2028), plus 5 years for smoke detectors under the annual Seremi inspection programme. The decree PDF could not be read to confirm this text. No fixed recurring filing frequency was confirmed. Penalties are sumarios sanitarios, fines and closure. After the Pitrufquen fire (11 Sep 2026, 16 dead, a home without authorisation), the government announced stronger inspection and an intersectoral working group. No new bill or new duty was confirmed.",
+   "market": "Emol/El Mercurio (Sep 2026): about 900 authorised private homes plus 23 public homes (Senama), and an unknown number of clandestine ones. Other sources give 875 to 947. The 2025 network survey says 97% are private.",
+   "reason": "The duty is real. Seremi de Salud authorises and inspects ELEAM, and a Supreme Court ruling confirms closure for operating without authorisation. But DS 20/2021 has been postponed several times. According to the Jul 2025 decree as reported in search results, it applies from 1 Apr 2025, and existing homes only have to comply after 3 years (Apr 2028), so the claim's 'in force 30 Sep 2022' is wrong. The claim also says no ELEAM-specific product exists. That is contradicted by Quimun, a Chilean platform built for ELEAM with medical, hotel and admin modules, used by about 15 homes in Chile. Mera Inn (clinical records for elder-care homes) and Resisoft (Uruguay) also exist. A narrower compliance desk could still have room. About 900 private homes are authorised.",
+   "searches": 6,
+   "sources": "https://www.emol.com/noticias/Nacional/2026/09/15/1211518/gobierno-medidas-eleam-pitrufquen.html ; https://www.emol.com/noticias/Nacional/2026/09/15/1211496/residencias-adultos-mayores-fiscalizacion-pitrufquen.html ; https://www.senado.cl/comunicaciones/noticias/comision-de-adulto-mayor-analiza-funcionamiento-de-los-eleam-tras-incendio ; https://www.diariooficial.interior.gob.cl/publicaciones/2025/07/09/44194/01/2666073.pdf ; https://www.diariooficial.interior.gob.cl/publicaciones/2025/04/22/44130/01/2635106.pdf ; https://actualidadjuridica.doe.cl/corte-suprema-ratifica-la-clausura-del-eleam-decretada-por-la-seremi-de-salud-por-no-contar-con-autorizacion-sanitaria/ ; https://www.emol.com/noticias/Economia/2024/01/08/1117783/raimundo-mujica-quimun-empresa-chilena.html ; https://www.df.cl/df-lab/innovacion-y-startups/quimun-llegara-con-su-plataforma-de-gestion-de-residencias-senior-a ; https://ecosistemastartup.com/quimun-se-consolida-como-la-plataforma-de-administracion-de-residencias-para-adultos-mayores ; https://vlex.cl/vid/software-registro-clinico-personas-1031931487 ; https://www.elobservador.com.uy/cafe-y-negocios/el-emprendedor-uruguayo-que-se-inspiro-su-abuela-crear-una-plataforma-que-optimiza-el-trabajo-residenciales-adultos-mayores-n5987979 ; https://www.ugm.cl/imgesp/comunicado/011_noviembre_2025/informe_encuesta_caracterizacion_red_eleam_2025.pdf",
+   "suggested_score": 4,
+   "verdict": "refuted"
+  },
+  "tag": "w2b29"
+ },
+ "opus:chile:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No software built for alcohol-patente renewal found in two searches. Simplo (simplo.cl) has a page for this permit, but it is a generic permit-tracking and advisory service: no published price, it does not file the renewal, and it says it does not replace the authority. ChileAtiende ficha 349 (the Carabineros report) is marked as not available online (from the search snippet; fetching the page returned 403). In the documents seen, municipalities ask for in-person delivery, so there is no state portal that does the job end to end. Local gestores and lawyers almost certainly sell this service, but no pricing was found.",
+   "duty": "Real, but partly reframed. Under Ley 19.925, the patente fee is paid each half-year in advance, in January and July (documented in municipal instructions and SUBDERE prórroga news). Renewal or caducidad is decided by the Concejo Municipal from a list that records: DOM final reception, the holder's criminal record certificate, a notarised sworn statement on the art. 4 inhabilidades, a Carabineros report and the junta de vecinos opinion. Each comuna sets its own deadline and documents. Chillán's deadline for period 1/2026 was 24 Oct 2025, and one 2025 instruction says patentes must be fully paid by 31 Jan and documents handed in in person. Non-renewal or caducidad means losing the licence. Courts are active on renewal refusals (2025-2026 rulings). The bill making the junta de vecinos opinion binding was still pending (Sept 2025 article); not checked whether it passed.",
+   "market": "No national count found in 3 searches. The cap for limited categories (botillerías A, bars E, cervecerías F, minimercados H) is 1 per 600 inhabitants, which gives at most about 32,000 nationwide on roughly 19.5M people. That figure is my own calculation from the legal cap, not a register number. Restaurants and other unlimited categories come on top, so the total is probably a few tens of thousands of patentes across about 345 comunas. Unverified.",
+   "reason": "The duty is real, recurs every six months, and missing it can cost the patente. But most of the work is collecting a criminal record certificate, a notarised statement and the junta and Carabineros steps, then filing in person in each comuna's own format. Software can only remind and give checklists; it cannot file anything. Rules and dates differ across about 345 comunas, so the content is expensive to keep current. Buyers are small, many are cash-based and low-tech, and gestores or accountants already handle it, so there is little room to charge for a calendar. A done-for-you gestoría in one region, such as the Santiago metro area, is more realistic than SaaS. Market size and gestor fees are unverified.",
+   "searches": 6,
+   "sources": "https://www.municipalidadchillan.cl/sitio/descargas/docs/formularios-renovacion-patentes-alcoholes.pdf ; https://www.achm.cl/wp-content/uploads/2023/04/LEY-SOBRE-EXPENDIO-Y-CONSUMO-DE-BEBIDAS-ALCOHOLICAS-.pdf ; https://municipalidadsantacruz.cl/transparencia/Ordenanzas/Ordenanzas%20de%20alcoholes.pdf ; https://www.subdere.gov.cl/node/80647 ; https://www.pedroaguirrecerda.cl/w15/wp-content/uploads/2025/05/CONSULTAJTA.VECINOS-PATENTE-ALCOHOL-2025.pdf ; https://simplo.cl/permisos/informe-para-renovacion-de-patente-de-alcoholes/ ; https://www.chileatiende.gob.cl/fichas/349 ; https://www.diarioconstitucional.cl/2026/09/15/suprema-mantiene-fallo-que-ordeno-renovar-patente-de-alcoholes-rechazada-por-informe-desfavorable-de-junta-de-vecinos/ ; https://www.diarioconstitucional.cl/2026/01/06/corte-de-santiago-respalda-no-renovacion-de-patente-de-alcoholes-por-infracciones-y-denuncias-vecinales/ ; https://www.theclinic.cl/2025/03/07/el-lento-y-engorroso-proceso-para-obtener-patente-de-alcohol-en-santiago-gremios-aseguran-que-puede-tardar-hasta-dos-anos/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b29"
+ },
+ "triage:chile": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Feria operators with a mandatory SIPEC upload duty; different buyer and duty from K08."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Vet-medicine outlets with a mandatory retained-prescription book and monthly SAG report; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Scrap dealers with an IVA withholding duty; new buyer group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Pesticide sellers' semi-annual SAG declaration; different buyer and duty from K06."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Beekeepers' annual apiary declaration; different duty from K06 avisaje (related id K06)."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "School-van owner-operators with a RENASTRE duty; small operators, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small private and parish cemeteries with a record-keeping duty under DS 357/1970; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Small EST firms with a register and a guarantee duty; narrow, but verifiers can decide."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small foundations and associations in scope; the duty depends on a pending bill, so it is speculative but unsure."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Households as employers; the duty is not covered by K10 (which was payroll SaaS for firms). Verifiers can check whether it is saturated."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Boiler and lift owner inspection cycles; the boiler side is not covered by K12."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Small hazardous-waste generators' SIDREP declaration; a different duty from K04."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Tattoo studios with a sanitary register; small premises, in scope though thin."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Small driving schools and nurseries with an authorisation and register duty; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Small abattoirs and butchers with compliance records; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Small ELEAM owners with a sanitary authorisation and inspection duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Small licence holders with a six-monthly patente renewal duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Small wineries with annual SAG declarations; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Brokers and notaries with UAF AML reporting duties; small professional offices in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Clinics and dental offices with REAS waste duties; REAS is a distinct duty and the buyer group is partly different from A12."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Co-operatives with new DAES filing rules; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Independent pharmacies with a controlled-drug book duty; a small professional office."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small LPG distributors; the register depends on a pending bill, but unsure so keep (earlier of the pair with GAPS3)."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Artisanal fishers with a mandatory Sernapesca landing declaration; sole traders."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Small timber and firewood traders with dispatch-guide duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Independent fuel station owners with a mandatory dispenser verification duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Small lodging operators with a Sernatur registration duty; weak but in scope."
+    },
+    {
+     "decision": "drop",
+     "id": "B13",
+     "reason": "Out of scope: a horizontal compliance tool, and the Ley 21.595 prevention model is voluntary, so there is no mandatory duty (it also overlaps the generic K13 and K17 category)."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Water user organisations and smallholders with a deadline-driven rights regularisation filing (Apr 2027); different duty from K07 and K14."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Sole-trader installers filing per-installation TE1 and TC6 declarations; a different duty from K05."
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS3",
+     "reason": "Same LPG distributor register and cylinder traceability idea as B8.",
+     "ref": "B8"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Micro food producers with a Seremi authorisation duty; small premises, in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Small orchards, packers and exporters with SAG register duties; unverified, so keep."
+    }
+   ]
+  },
+  "tag": "w2b29"
  }
 }

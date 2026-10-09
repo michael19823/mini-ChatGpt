@@ -60,11 +60,18 @@ Constraints that shape every step:
 
 ## Launch a batch
 
-1. Run `state.py --script SCRIPT`. If it says a batch is running, or that it is waiting after an
-   empty batch, end the turn.
+Up to `MAX_PARALLEL` (4) batches run at once, each on its own countries and each launched from its
+own turn (the 200-search cap is per turn). The user approved 4 on 2026-10-09.
+
+1. Run `state.py --script SCRIPT`, where SCRIPT is a new file name in the folder of the bootstrap
+   script (for example `country-wave-batch-<UTC HHMM>.js`), so a running batch's script is never
+   overwritten. If it says it is not writing a script (all slots running,
+   every remaining country held, or waiting after an empty batch), end the turn.
 2. Otherwise call Workflow with `scriptPath: SCRIPT` and `args` set to the JSON after `ARGS`,
    verbatim. Don't pass `resumeFromRunId`.
 3. Run `state.py --launched <Run ID> <batch tag>`, then commit and push `state/`.
+4. If the status line shows fewer than 4 running after this launch, schedule another turn with
+   `send_later` in 1 minute (same message as below) to fill the next slot.
 
 If SCRIPT is not known in this turn (a new container, a lost path), repeat the bootstrap to get a
 new one.
@@ -73,7 +80,7 @@ new one.
 
 1. Run `state.py --status`, then commit and push `state/` ("Wave 2: <tag> results").
 2. If `remaining 0`: do "Finish".
-3. If the last batch kept no results ("none: limit or outage?"), a usage limit or outage is
+3. If the last finished batch kept no results ("none: limit or outage?"), a usage limit or outage is
    likely: schedule the next turn with `send_later` in 180 minutes. Otherwise schedule it in 1
    minute. Message: "Wave 2: launch the next batch (follow 'Launch a batch' in
    rerun/wave2/RUNBOOK.md)." Use `initiation: human_request`.
@@ -82,7 +89,7 @@ new one.
 
 ## Scheduled message or heartbeat
 
-Run "Launch a batch". `state.py` refuses to write a script while a batch is running, and for 3
+Run "Launch a batch". `state.py` refuses to write a script while all slots are running, and for 3
 hours after a batch that kept no results, so a heartbeat during a usage limit costs one short turn.
 
 ## If something is refused or keeps failing

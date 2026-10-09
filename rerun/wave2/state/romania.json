@@ -1,4 +1,323 @@
 {
+ "critic:romania": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Import/export of used vehicles and registration duties (RAR, DRPCIV, Rabla/AFM, environmental stamp)",
+     "first_search": "import autoturisme second-hand obligatii dealer RAR omologare carte identitate taxa poluare AFM 2026",
+     "why": "Romania has very many small used-car importers and dealers. They must handle RAR homologation, the Auto-Pass odometer record, the AFM environmental duty and DRPCIV registration. Only dismantlers and workshops were screened, not importers and dealers. I am unsure of the current rules."
+    },
+    {
+     "category": "Plant-health and food-safety paperwork for small food processors and farm exporters (ANSVSA registration, HACCP, traceability, honey, fish, and the not_reached category 30)",
+     "first_search": "inregistrare sanitar veterinara ANSVSA unitati alimentare mici obligatii trasabilitate registru 2026 export miere pesti certificat",
+     "why": "Romania has very many micro food producers and farm shops, and small honey and fish exporters. Category 30 was never searched. ANSVSA registration and authorisation, lot traceability and recall duties are recurring, and the pass found nothing for them."
+    },
+    {
+     "category": "Apartment-block and homeowners' associations (asociatii de proprietari) as duty-holders",
+     "first_search": "asociatia de proprietari obligatii legale administrator Legea 196/2018 declaratii ANAF registru contabilitate repartizare costuri",
+     "why": "Romania has about 100,000 or more associations, run by volunteer administrators. They have duties on the lift (ISCIR), gas installations, heating metering and cost allocation, the annual financial statement and fiscal registration, and, if they hire staff, payroll. Only the ISCIR and gas angles were touched. The association's own recurring filings were not examined as a buyer group."
+    },
+    {
+     "category": "Small-business e-filing deadlines for micro-enterprises and PFAs (Declaratia Unica D212, SPV, e-Factura B2C from 2025-2026, tax-regime changes, 1% micro-enterprise turnover threshold)",
+     "first_search": "PFA obligatii 2026 modificari CASS CAS plafon microintreprinderi Declaratia Unica D212 termene e-Factura persoane fizice",
+     "why": "Several 2025-2026 changes (turnover thresholds for micro-enterprises, health and social contributions for PFA, e-Factura extended to B2C) hit sole traders at once. Generic accounting tools are out of scope, but a deadline-driven, rule-triggered compliance calendar for PFAs might not be. This was handled only inside the short-term rental kit."
+    },
+    {
+     "category": "Hunting and fisheries (hunting-ground associations, anglers' associations and fish-farm operators)",
+     "first_search": "fond cinegetic gestionar obligatii raportare cota recolta ANPA asociatie vanatori pescari registru capturi acvacultura autorizatie",
+     "why": "Hunting outfitters appear in the category list but there is no sign that hunting-ground managers or fishing associations were checked. Both are associations or small firms that report harvest quotas, game counts and catch data to the Ministry of Environment, the forestry authority (ANPA), ANPA fisheries and ANSVSA. Few commercial products exist."
+    },
+    {
+     "category": "Energy and renewables: prosumers and small installers (ANRE, net-metering changes, rooftop solar and heat-pump installers)",
+     "first_search": "prosumatori ANRE obligatii instalatori fotovoltaic atestat ANRE dosar Casa Verde Fotovoltaice 2026 modificari",
+     "why": "Law 123/2012 and the post-2024 prosumer rules, ANRE attestation of installers, and the Casa Verde / Casa Eficienta programmes are run through small installers. They file dossiers on the state's behalf. Only gas EDIB was covered. I am unsure of the current rules."
+    }
+   ]
+  },
+  "tag": "w2b24"
+ },
+ "discover:A:romania": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small and mid-size agencies authorised to place non-EU workers (and employers that self-authorise)",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.bzi.ro/se-schimba-legislatia-imigrarilor-din-august-2026-cum-vor-putea-firmele-sa-aduca-muncitori-din-afara-ue-5568015 ; https://www.rubinian.com/ordinul-655-2026-contracte-plasare-lucratori-straini ; https://www.anofm.ro/timis/wp-content/uploads/sites/39/2026/08/Comunicat-de-presa-platforma-WorkinRomania.gov_.ro_.pdf ; https://www.digi24.ro/digieconomic/financiar/noile-reguli-pentru-muncitorii-straini-provoaca-blocaje-agentiile-de-recrutare-cer-modificarea-legislatiei-105707 ; https://evz.ro/noile-reguli-de-angajare-pentru-muncitorii-straini-ar-putea-reduce-numarul-agentiilor-de-recrutare-ce-schimbari-pregateste-guvernul.html",
+     "existing": "Competitor search (software agenție plasare muncitori străini contracte garanție ...) found no product for this job, only generic recruitment/ATS lists and the state platform itself. The state platform does the filing; whether it also generates contracts or tracks guarantee headroom is unchecked.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Different buyer and duty from K03 (payroll bureaus REGES) and K13 (day labourers)",
+     "name": "Foreign-worker placement agency compliance desk (WorkinRomania contracts, guarantee headroom, worker roster)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "OUG 32/2026 (MO 335, 27 Apr 2026): authorisation via WorkinRomania.gov.ro, guarantee 75,000 EUR up to 250 workers (+50,000 per extra 250) held for the whole authorisation, bilingual placement contracts per Ordin 655/2026, fines up to 40,000 lei, suspension or withdrawal of authorisation",
+     "trigger_extra": "",
+     "unchecked": "Number of authorised agencies after the guarantee; whether WorkinRomania has an API or export; who issues the authorisation; whether the regime is amended by Parliament; willingness to pay when 70-80% of small agencies may exit; IGI/ITM reporting duties"
+    },
+    {
+     "buyer": "Independent fitofarmacii and agri-input depots that sell professional PPP",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.capital.ro/reguli-noi-pentru-fermieri-pot-fi-amendati-cu-35-000-de-lei-decizia-luata-de-anf.html ; https://anfdf.ro/wp-content/uploads/2026/07/Retrospectiva_ANF_Soldea_FINAL.pdf ; https://www.bzi.ro/romanii-care-au-gradina-sau-livada-nu-mai-au-voie-sa-faca-asta-gestul-va-fi-sanctionat-dur-5117197 ; https://agerpres.ro/economic/2024/10/04/autoritatea-nationala-fitosanitara-a-lansat-o-aplicatie-pentru-digitalizarea-procesului-de-formare-p--1365287",
+     "existing": "Competitor search (program gestiune fitofarmacie registru evidență ...) found no Romanian PPP-specific product; only Italian examples and generic retail/ERP tools. ANF FITS app covers training only. The farmer-side treatment register is killed by the free ANF app (K08).",
+     "known_id": "K08",
+     "known_mark": "new",
+     "known_note": "Different buyer (dealers, not farmers) and different duty (sales and certification control, not treatment register)",
+     "name": "Plant-protection product shop and depot compliance kit (OUG 53/2025: sales log, buyer certificate check, annual visa, police and ITM registration)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "OUG 53/2025 (adopted 2 Oct 2025) replacing OG 4/1995: ANF registration certificate with annual visa; professional-use sales only to a person holding a training certificate; sale only in authorised premises; reported registration with police and ITM (taken from the 2022 draft, final text unconfirmed); fines of 10,000-35,000 lei reported",
+     "unchecked": "Final OUG 53/2025 text: whether a sales register or reporting format is mandated for distributors; number of retail shops; whether ERPs already print the register"
+    },
+    {
+     "buyer": "Micro-firms and sole traders running 2.5-3.5 t vans in international haulage",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://www.capital.ro/tahograful-devine-obligatoriu-pentru-acesti-soferi-noi-sanctiuni-intra-in-vigoare-de-la-1-iulie-2026.html ; https://trans.info/ro/tahografe-pe-autoutilitare-din-1-iulie-2026-cine-intra-sub-obligatie-exceptii-si-sanctiuni-faq-484864 ; https://newsweek.ro/auto/veste-proasta-pentru-samsari-si-micii-transportatori-tahograf-inteligent-pe-utilitarele-de-pana-la-35t",
+     "existing": "Not searched for Romanian vendors beyond the tachograph shops and remote-download services seen in results; K10 notes fleet/GPS vendors such as Fleethand already serve haulers. Likely crowded.",
+     "known_id": "K10",
+     "known_mark": "new",
+     "known_note": "Adjacent to K10 (e-Transport rejected as competitive), but a different duty (tachograph data) and different vehicle class",
+     "name": "Light-van international haulers: smart tachograph download and archive desk (28/90-day cycles, company card, driver cards)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Reg. (EU) 2020/1054: tachograph required from 1 July 2026 on N1 vans of 2.5-3.5 t in international carriage; driver card downloads every 28 days, vehicle unit every 90 days; archiving; fines and possible activity block",
+     "unchecked": "Whether Romanian GPS/fleet vendors already bundle remote download and archive; count of affected vans; Romanian fine amounts; archive period (sources conflict)"
+    },
+    {
+     "buyer": "Jewellers, gold buyers and pawnshops authorised by ANPC for precious-metal operations",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.wall-street.ro/articol/justitie-si-legislatie/comercianti-de-metale-pretioase-sunt-amendati-cu-260000-de-lei.html ; https://profit.ro/perspective/amenzi-la-amanet-si-bijutieri-inspectorii-anpc-au-mers-in-control-22328478 ; https://www.profit.ro/povesti-cu-profit/retail/bijuteriile-si-obiectele-din-metale-pretioase-marcate-cu-un-nou-simbol-apar-noi-costuri-pentru-comercianti-inclusiv-case-de-amanet-dispar-marci-straine-recunoscute-si-sunt-dublate-amenzile-20689954",
+     "existing": "Search for gold/pawn register software (program evidență metale prețioase amanet ...) found nothing specific; no ANPC-endorsed format found. Generic shop ERPs and accounting tools likely cover the stock side (unchecked).",
+     "known_id": "K14",
+     "known_mark": "new",
+     "known_note": "Different duty from K14 (AML/KYC rejected): the ANPC register of precious-metal operations",
+     "name": "Precious-metals operations register and hallmark-change helper for jewellers, gold buyers and pawnshops",
+     "score": 3,
+     "status": "weak",
+     "trigger": "OUG 190/2000: ANPC authorisation and strict register of operations (stocks and quantities analytically traceable, change notifications within 10 days, temporary activity 7 days before); 29 Jan 2026 sweep gave 148 fines (260,000+ lei) and 3.8 kg jewellery confiscated; press reports a state-applied ANPC hallmark and doubled fines (entry-into-force date unconfirmed)",
+     "unchecked": "Register format (paper vs electronic); date and detail of the state-mark rule; number of authorised operators; whether pawnshop chains dominate"
+    },
+    {
+     "buyer": "Private vet practices and field vets using controlled substances",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://www.g4media.ro/ansvsa-impune-reguli-mult-mai-dure-pentru-medicamentele-stupefiante-si-psihotrope-folosite-in-medicina-veterinara-in-premiera-cabinetele-veterinare-pot-cumpara-anumite-preparate-de-uz-uman-din-farma.html",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "known_note": "No related known idea",
+     "name": "Veterinary narcotics and psychotropics register helper (new ANSVSA order)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "New ANSVSA order tightening control of narcotic/psychotropic use in veterinary medicine; clinics may buy some human preparations from pharmacies (G4Media; order number and date not found). Base law: Law 339/2005 as amended by OG 42/2024",
+     "unchecked": "Order number, date, in-force status, register or reporting format, whether PHARMAVET or another state system already takes the data"
+    },
+    {
+     "buyer": "Small auto repair workshops authorised to report to RAR",
+     "category": "5. Used car parts and vehicle dismantlers (adjacent: auto service workshops)",
+     "evidence": "https://download2.winmentor.ro/WMEnterprise/Documentatie/SERVICE%20AUTO/WME%20-%20RAR%20Auto-Pass.pdf ; https://www.avocatnet.ro/articol_65521/Se-pregătește-introducerea-RAR-Auto-Pass-MT-a-stabilit-oficial-modelul-documentului-care-va-fi-prezentat-obligatoriu-la-orice-vanzare-auto.html",
+     "existing": "WinMentor already has a RAR Auto-Pass module for service auto (seen). Likely served by garage management tools.",
+     "known_mark": "new",
+     "known_note": "Found in passing, outside group A scope; not analysed",
+     "name": "Garage RAR Auto-Pass odometer and major-repair reporting",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law 142/2023 / RAR Auto-Pass: authorised operators transmit VIN and odometer reading at each service and major repairs to RAR",
+     "unchecked": "Scope of who must report; whether a free RAR portal exists; other garage-software vendors"
+    },
+    {
+     "buyer": "Rural communes and small local water operators",
+     "category": "13. Small water systems",
+     "evidence": "https://ms.ro/media/documents/Informare_apa_potabila_zona_rurala_2026_general_XNu77MT.docx ; https://www.primariapojorata.ro/files/infoPHCL/2026-07-08-referat-aprobare-3830.pdf",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "known_note": "No related known idea",
+     "name": "Small commune drinking-water self-monitoring and DSP reporting kit",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "OG 7/2023 and HG 971/2023 (water monitoring and inspection norms); Inspectia Sanitara de Stat thematic control of rural water 4-29 May 2026",
+     "unchecked": "Who actually holds the monitoring duty for small systems; reporting format; buyers are public bodies (procurement), which may break the solo-founder model; water-safety plan thresholds"
+    },
+    {
+     "buyer": "Small septic-tank emptying and waste collection firms",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://www.avocatnet.ro/articol_13263/Transportul-deseurilor-periculoase-si-nepericuloase-pe-teritoriul-Romaniei.html ; https://www.rubinian.com/hg-1061-2008-transportul-deseurilor-periculoase-si-nepericuloase",
+     "existing": "Not checked.",
+     "known_mark": "new",
+     "known_note": "No related known idea",
+     "name": "Vidanjare and small waste-haulers loading/unloading form and annual reporting helper",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "HG 1061/2008: 3-copy loading/unloading form for non-hazardous waste, approval form for hazardous waste; environmental authorisation reporting (applicable form for sludge unconfirmed)",
+     "unchecked": "Whether sludge counts as hazardous; any electronic waste-tracking system (e.g. national waste register) already mandatory; competitor products"
+    },
+    {
+     "buyer": "Small associations and foundations",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://www.fiscalitatea.ro/ong-infiintat-de-persoane-fizice-mai-exista-obligatia-depunerii-declaratiei-beneficiarului-real-20569/ ; https://www.fiscalitatea.ro/declaratia-de-beneficiar-real-anumite-persoane-sunt-obligate-sa-depuna-documentul-in-termen-de-15-zile-de-la-aprobarea-situatiilor-financiare-anuale-22677/",
+     "existing": "Not checked; ONRC/ANAF portals are free and accountants handle filings.",
+     "known_mark": "new",
+     "known_note": "No related known idea",
+     "name": "NGO annual declarations pack (beneficial owner plus pending income and donor declaration)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law 129/2019 beneficial-owner declaration (annual or on change; all-natural-person NGOs exempt); Senate-passed bill (reported 19 May 2026) adding a second income declaration with donor identification; status unconfirmed",
+     "unchecked": "Whether the bill became law and its date; number of NGOs in scope; free state portal coverage"
+    },
+    {
+     "buyer": "Smallholders selling in markets (and the primarii issuing attestations)",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://alba24.ro/atestat-de-producator-si-carnet-de-comercializare-obligatorii-pentru-producatorii-agricoli-persoane-fizice-amenzi-de-pana-la-22-500-de-lei-366454.html ; https://legeaz.net/monitorul-oficial-794-2014/legea-145-2014-stabilirea",
+     "existing": "Not checked; paper carnets and primarie-level issue.",
+     "known_mark": "new",
+     "known_note": "No related known idea",
+     "name": "Producer attestation and market sales sheet for smallholders (Law 145/2014)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law 145/2014 as amended: atestat de producator and carnet de comercializare from the primarie, atestat visa twice a year, daily entry of quantities sold in markets, 40% stalls for producers, fines up to 22,500 lei (older sources)",
+     "unchecked": "Current in-force text, number of attestations, low willingness to pay of the buyer, whether any app exists"
+    },
+    {
+     "buyer": "Driving schools",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://www.wall-street.ro/articol/Auto/168745/arr-registrul-cursantilor-pentru-putini-soferi-incompetenti.html ; https://avocatnet.ro/t17163/transport-ue.html",
+     "existing": "The register is a free ARR application, so an add-on adds little. Killed by the state's own free tool.",
+     "known_mark": "new",
+     "known_note": "No related known idea",
+     "name": "Driving-school trainee register tool",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Ordin MT 75/2014: records kept in the ARR Registrul National de Evidenta a Cursantilor",
+     "unchecked": "Whether schools use private scheduling tools alongside ARR; current ARR rules"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing new beyond K03/K13. Search returned only generic employer duties (REVISAL password via ITM for natural-person employers, REGES-Online extract and adeverinta on termination, fines 3,000-5,000 lei from 1 Jan 2026). No household-specific register or deadline found. Sources are forum/press level.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No dedicated search (budget spent on categories with no known idea). Core duty already covered by K04.",
+     "status": "not_reached"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Second-hand: only VAT margin-scheme journals and borderou de achizitie from natural persons (fiscalitatea.ro, infotva.manager.ro); no 2026 register of sellers' identities found. Pawnshops: see C4 (ANPC precious-metals register) and K14 (AML, already rejected). ANPC consumer-law fines on pawn contracts noted.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "ANPC authorises and requires a strict register of precious-metal operations (OUG 190/2000). 29 Jan 2026 national check: 80+ operators, 148 fines, 260,000+ lei. Press reports a move to a state-applied ANPC hallmark and doubled fines (profit.ro, date and entry-into-force unverified). See candidate C4.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Law 110/2024 (MO 374/22.04.2024) amended Law 212/2015: only a signage duty (fine 5,000-10,000 lei) was found. No parts-register or reporting duty to RAR for dismantlers found. RAR Auto-Pass (Law 142/2023) applies to workshops, which is a different group (see C6).",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "SNIIA duties confirmed in outline (register imports within 7 days, EU purchases within 3 working days; draft text, undated). Fair and transporter authorisation requirements for 2026 not found. ANSVSA issued a new disease-reporting order in 2026 (unverified detail). Nothing new beyond the SNIIA ecosystem; unchecked in depth.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Backyard pig slaughter must be under vet control, trichinella test, ear tags returned within 7 days, no sale of such meat (fines 20,000-40,000 lei). Temporary slaughter points authorised for Easter lambs. No local slaughter-register requirement found. Nothing software-shaped.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No search (budget). Covered by K06.",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "G4Media reports a new ANSVSA order tightening narcotic and psychotropic control in veterinary medicine, and letting clinics buy some human-use preparations from pharmacies. No order number, date or register format found; a fetch of the article gave nothing more. See candidate C5 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Water-management aviz or autorizatie from Apele Romane is required for drilled wells; the sources contradict each other on thresholds. Apele Romane has an app for avize and authorisations, and 11,000+ well authorisations were issued. These are one-off permits for households, drillers do the paperwork. Reporting for wells deeper than 100 m exists (unverified). Weak.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Non-hazardous waste moves on a 3-copy loading/unloading form; hazardous waste needs HG 1061/2008 approval forms. Unclear which form applies to vidanjare. EU waste-shipment digitalisation from 21 May 2026 concerns cross-border shipments. No small-operator reporting duty found. See candidate C8 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Nothing new beyond K02. Owners incl. housing associations must appoint an ISCIR-authorised RSVTI operator (Law 64/2008); PT CR 4-2025 on authorisation of legal persons mentioned. The inspector-side workbench is K02.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Inspectia Sanitara de Stat ran a thematic control of rural drinking-water supply 4-29 May 2026. Framework is OG 7/2023 and HG 971/2023 (monitoring and inspection norms). Small communes struggle to run schemes (Pojorata example). ANRSC licence classes apply to bigger operators. See candidate C7 (unverified, weak).",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "OUG 53/2025 (adopted 2 Oct 2025) replaces OG 4/1995: ANF registration certificate with annual visa, training certificate via the ANF FITS app (18 h, 193 lei), sale only in authorised warehouses or shops, fines of tens of thousands of lei (ANF campaign April 2026). Exact distributor register format not confirmed. No fertiliser-dealer register found. See candidate C2.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Strong 2026 trigger: OUG 32/2026 (MO 335, 27 Apr 2026) creates mandatory authorisation of foreign-worker placement agencies via WorkinRomania.gov.ro (live from 6-8 Aug 2026), 75,000 EUR guarantee per up to 250 workers (+50,000 per further 250), bilingual placement contracts under Ordin 655/2026, fines up to 40,000 lei. PIFM says 70-80% of small agencies may disappear. 2026 quota 90,000. See candidate C1.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Only Law 102/2014 (cemeteries, crematoria, funeral services) and a BOR Synod decision 943/2012 on parish cemetery records found. 2016 proposals to archive contracts for 5 years were never confirmed as law. No 2026 change. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Beneficial-owner declaration (annual, exemption for all-natural-person NGOs), access to the register restricted since CJEU ruling. A Senate-passed bill (19 May 2026, status unverified) would add a second yearly declaration of income with donor identification. Halal and kosher not searched. See candidate C9 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "From 1 July 2026 smart tachographs and 28/90-day data downloads apply to N1 vans of 2.5-3.5 t in international haulage (Reg. 2020/1054). Licence regime for 2.5-3.5 t since 21 May 2022. Taxi is K15 (rejected). Community licence applications are online under Ordin 1049/2021. See candidate C3.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Law 145/2014: producer attestation and carnet de comercializare from the primarie, daily entry of quantities sold in markets, 40% of stalls for producers, fines up to 22,500 lei (older sources). Forex bureaus: only Moldovan (BNM) results, Romanian BNR rules not found. See candidate C10 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Tattoo: premises authorisation by DSP, ban on tattooing minors; no client-register duty found. Driving schools: ARR runs the national trainee register (Ordin 75/2014), a free state application, so rejected (C11). Nurseries: authorised and accredited through the education system (ARACIP), not ANPDCA. Small food units: DSVSA registration/authorisation under Ordin 111/2008. Hunting: only annual harvest quotas (draft order 10 Jun 2026); no outfitter register found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "angajare menajeră îngrijitor bătrâni contract REVISAL angajator persoană fizică 2026",
+    "casă de amanet autorizare ANPC registru ONPCSB 2026",
+    "dezmembrări auto RAR registru deșeuri vehicule scoase din uz 2026",
+    "ANSVSA registru exploatații târguri transportatori animale SNIIA 2026",
+    "cabinete veterinare medicamente evidență registru stupefiante prescripții ANSVSA 2026",
+    "foraje puțuri apă autorizație gospodărire a apelor persoane fizice 2026",
+    "vidanjare transport deșeuri formular încărcare-descărcare raportare operatori mici",
+    "ISCIR lifturi cazane recipiente verificări periodice asociații de proprietari",
+    "operatori apă mici sistem alimentare comunal ANRSC DSP monitorizare 2026",
+    "agenți muncă temporară agenții recrutare personal străin IGI cote 2026",
+    "ONG asociații fundații obligații 2026 beneficiari reali situații financiare",
+    "tatuaj DSP; școli șoferi ARR registru; creșe; unități mici alimentare ANSVSA",
+    "pompe funebre autorizare cimitire registru Legea 102/2014 2026",
+    "cumpărători aur bijuterii ANPC autorizare registru metale prețioase 2026",
+    "abatoare mici măcelării sacrificare ANSVSA 2026",
+    "ARR licență comunitară transport marfă microbuze persoane tahograf 2026",
+    "produse protecția plantelor distribuitori certificat ANF registru îngrășăminte 2026",
+    "case de schimb valutar BNR; piețe producători atestat carnet comercializare",
+    "vânătoare fond cinegetic registru ghizi raportare 2026",
+    "OUG 53/2025 fitofarmacii; WorkinRomania agenții OUG 32/2026; software agenții plasare; tahograf autoutilitare 1 iulie 2026"
+   ],
+   "searches": 28
+  },
+  "tag": "w2b24"
+ },
  "discover:B:romania": {
   "result": {
    "blocked_searches": 0,
@@ -327,5 +646,529 @@
    "searches": 24
   },
   "tag": "w2b23"
+ },
+ "gapfill:romania": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Volunteer or paid administrators and accountants of owners' associations (about 100,000 associations, count from the brief, unverified)",
+     "category": "Apartment-block and homeowners' associations (asociatii de proprietari)",
+     "evidence": "https://www.fiscalitatea.ro/stii-ce-obligatii-ai-ca-administrator-sau-contabil-al-unei-asociatii-de-proprietari-24876/ ; https://www.avocatnet.ro/articol_18998/Ce-obligatii-au-la-Fisc-asociatiile-de-proprietari.html ; https://www.economica.net/haos-la-bloc-bnr-a-suspendat-platforma-folosita-de-mii-de-asociatii-de-proprietari-pentru-plata-online-a-cheltuielilor-de-intretinere-e-bloc_906160.html",
+     "existing": "E-BLOC (XiSoft; payments suspended by BNR 20 Jan 2026), HomeFile (thousands of associations, free tier, 30+ cities), Blocul Meu, Deskis. Competitor search run in Romanian: payment-list and collection tools are well served; fiscal-filing coverage for volunteer administrators was not seen.",
+     "existing_note": "",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "K02 covers ISCIR supervision firms, a different buyer; this is the association's own bookkeeping and tax filings.",
+     "name": "Association administrator compliance and filings kit (D100 semester, D205, D112, registers, payment list)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Law 196/2018 and Order 1058/2019 bookkeeping and payment-list duties; semester D100 and annual D205 where the administrator is paid on a civil contract; D112 where employed. Fines of 4,000-9,000 lei for misuse of funds.",
+     "trigger_note": "",
+     "unchecked": "Whether HomeFile/E-BLOC already generate D100/D205; real number of associations with paid administrators; whether the E-BLOC payment gap has been refilled; pricing; the 2026 amendments to Law 196/2018 (draft status unknown)."
+    },
+    {
+     "buyer": "Small commercial/farm prosumers and municipalities with 27-900 kW installations, and small installers/ESCOs managing them",
+     "category": "Energy and renewables: prosumers and small installers",
+     "evidence": "https://contabilul.manager.ro/a/30170/5-noutati-importante-pentru-prosumatori-introduse-prin-legea-nr-1602026.html ; https://adevarul.ro/economie/noi-reguli-pentru-prosumatori-care-sunt-cele-mai-2547596.html",
+     "existing": "None found; suppliers will do the settlement themselves, which may remove the need. No competitor search done because the final rules are not out.",
+     "known_mark": "new",
+     "name": "Prosumer monthly settlement and invoicing helper after Law 160/2026",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Law 160/2026 (in force 26 Jul 2026): monthly invoicing and settlement, invoice-exemption threshold raised from 27 kW to 900 kW, financial regularisation by day-ahead price for 200-400 kW; ANRE methodology draft of 20 Aug 2026 still in consultation.",
+     "unchecked": "Final ANRE methodology; whether the supplier does all calculation; who actually files anything; size of the 27-900 kW prosumer group; competitor search in Romanian."
+    },
+    {
+     "buyer": "Hunting-ground managers (hunting associations and private managers)",
+     "category": "Hunting and fisheries (hunting-ground associations)",
+     "evidence": "https://legeaz.net/legea-407-2006-vanatorii/art-6-administrarea-si-gestionarea-fondului-cinegetic-al-romaniei ; https://scarisoara.ro/wp-content/uploads/2023/09/anexa3_hg3_2023.pdf",
+     "existing": "Not searched; no competitor search done.",
+     "known_mark": "new",
+     "name": "Hunting-ground manager harvest-quota and complementary-feeding evidence ledger",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Law 407/2006 harvest quotas (approved by 15 May) and HG 3/2023 annex 3: manager must prove full quota realisation and feeding via hunting authorisations and procese-verbale registered within 5 days to avoid crop-damage liability; Senate amendment would add periodic reports to local authorities (adoption unverified).",
+     "unchecked": "Number of managers, whether damage claims are common, existing hunting-management apps, any official platform for hunting returns, buyer willingness to pay."
+    },
+    {
+     "buyer": "Honey packers and blenders, beekeepers' cooperatives",
+     "category": "8. Beekeepers / 30. Small exporters and importers",
+     "evidence": "https://infocons.ro/infocons-te-informeaza-cum-alegem-mierea-noile-reguli-de-etichetare-aplicabile-din-14-iunie-2026-si-ce-arata-controalele-europene/",
+     "existing": "Not searched.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "Different buyer and duty than K06 (APIA file kit): packers and labelling rather than beekeepers' aid applications.",
+     "name": "Honey packer origin-percentage labelling and batch traceability kit (Directive 2024/1438)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "EU honey origin labelling for blends: all origin countries with percentages (5% tolerance) from 14 June 2026 per InfoCons (Capital says 1 Jan 2026); old-label stock may be sold off.",
+     "unchecked": "Number of Romanian packers/blenders, date conflict, whether this is one-off, existing labelling software."
+    },
+    {
+     "buyer": "Commercial fishers, Delta fishing associations, small fish farms",
+     "category": "Hunting and fisheries (fish-farm operators) / 30",
+     "evidence": "https://evz.ro/avertisment-de-la-ministerul-agriculturii-pescuitul-pe-dunare-va-fi-interzis-daca-pescarii-nu-raporteaza-capturile-reale.html ; https://faolex.fao.org/docs/pdf/rom187011.pdf",
+     "existing": "Not found; the state may already run electronic logbooks (unverified).",
+     "known_mark": "new",
+     "name": "Fishing logbook and first-sale reporting helper for commercial fishers and fish-farm operators",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "ANPA fishing documents (jurnal de pescuit, landing declaration, first-sale note) reported within 48h and linked to invoicing; Danube shad reporting tightened in 2024; sanitary registration with ANSVSA.",
+     "unchecked": "Whether the logbook is already electronic via an ANPA/EU system; current form; number of operators; competitor search."
+    },
+    {
+     "buyer": "Small used-car dealers and importers",
+     "category": "Import/export of used vehicles and registration duties",
+     "evidence": "https://www.bzi.ro/clarificari-oficiale-ale-registrului-auto-roman-ce-document-nu-este-obligatoriu-pentru-vanzarea-autoturismelor-5175190 ; https://2celsius.org/wp-content/uploads/2026/05/Solutii-la-importurile-de-masini-mana-a-doua-Tudor-Macicasan-Raul-Cazan-.pdf",
+     "existing": "Tronn Nexus Auto (dealer/importer management), generic DMS. No RAR-specific tool seen.",
+     "known_mark": "new",
+     "name": "Used-car dealer stock, CIV and local tax-office registration deadline tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "CIV issued only to the named buyer since 25 Jul 2022; dealers fined 400-1,600 lei for missing deadlines to register ownership with the local tax office; Auto-Pass not mandatory per RAR. No pollution tax or AFM filing in force in 2026.",
+     "unchecked": "Whether a pollution tax or similar is legislated later in 2026; how common the fines are; whether dealers already use Nexus or ERP."
+    },
+    {
+     "buyer": "Installers validated by AFM",
+     "category": "Energy and renewables: prosumers and small installers",
+     "evidence": "https://www.digi24.ro/digieconomic/consumer/casa-verde-fotovoltaic-dispare-din-proiectul-de-buget-afm-2026-unde-sunt-redirectionate-fondurile ; https://www.capital.ro/programul-casa-verde-fotovoltaice-eliminat-din-bugetul-afm-pe-2026-apce-critica-decizia-si-cere-reintroducerea-finantarii.html",
+     "existing": "The programme was suspended in July 2025 and dropped from the AFM 2026 draft budget; only a battery programme (about 400m lei) is planned.",
+     "known_mark": "new",
+     "name": "Casa Verde installer dossier tool for AFM photovoltaic programme",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "AFM installer validation and household dossiers (ANRE attestation required in validation).",
+     "unchecked": "Whether the battery programme will use an installer-validation scheme and whether the AFM budget was finally adopted."
+    },
+    {
+     "buyer": "PFAs and sole traders",
+     "category": "Small-business e-filing deadlines for micro-enterprises and PFAs",
+     "evidence": "https://www.capital.ro/anaf-asaltat-de-o-avalansa-de-intrebari-romanii-vor-clarificari-despre-declaratia-unica-ce-raspunde-fiscul.html ; https://www.fiscalitatea.ro/amendament-ministerul-finantelor-e-factura-nu-va-ma-fi-obligatoriu-pentru-persoanele-fizice-24854/",
+     "existing": "ANAF pre-filled D212 in SPV; accounting apps and ContApp content; reportedly Law 88/2026 removed the CNP e-Factura duty.",
+     "known_id": "K11",
+     "known_mark": "known",
+     "known_note": "Generic accounting and e-Factura are already rejected; ANAF pre-fills D212 and the CNP e-Factura duty was reportedly removed (Law 88/2026, status not confirmed from an official source).",
+     "name": "PFA fiscal calendar and CNP e-Factura compliance tool",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "D212 by 25 May; CAS/CASS thresholds; e-Factura for CNP individuals (originally 1 Jun 2026).",
+     "unchecked": "Official confirmation of Law 88/2026 text."
+    },
+    {
+     "buyer": "Scrap collection points and recyclers",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "https://contabilul.manager.ro/a/29552/venituri-din-deseuri-feroase-si-neferoase-ce-noutati-a-adus-legea-nr-1412025-in-domeniul-impozitului-pe-venit.html",
+     "existing": "",
+     "known_id": "K04",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K04; nothing further searched.",
+     "name": "Scrap-yard withholding ledger (10% + 3%) under Law 141/2025",
+     "score": 0,
+     "status": "weak",
+     "trigger": "10% income tax withholding on payments to individuals plus 3% Environment Fund contribution from 1 Aug 2025."
+    },
+    {
+     "buyer": "Micro food producers, farm shops, apiaries",
+     "category": "Plant-health and food-safety paperwork for small food processors",
+     "evidence": "https://alba24.ro/peste-600-de-unitati-noi-din-industria-alimentara-si-mijloace-de-transport-autorizate-de-dsvsa-in-2025-ce-activitati-se-dezvolta-1117011.html",
+     "existing": "Not searched. No recurring filing identified, so it looks like a one-off dossier rather than a repeat duty.",
+     "known_mark": "new",
+     "name": "ANSVSA registration/authorisation dossier service for micro food producers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "ANSVSA Orders 111/2008, 57/2010, 10/2024; county DSVSA registers or authorises new units (600+ in Alba county in 2025).",
+     "unchecked": "Whether any recurring register or annual declaration exists; existing consultancy and HACCP providers; competitor search."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Nothing new beyond K04. Law 141/2025 (from 1 Aug 2025): operators withhold 10% income tax at payment to individuals plus 3% Environment Fund contribution (contabilul.manager.ro, playtech.ro). No new register or ANAF app for collectors found for 2026. Collection authorisation from the prefecture (OUG 16/2001, forum source, 2010, unverified as current). TVA simplification (art. 331) needs both parties VAT-registered. ANAF found a 21m lei non-ferrous fraud (agerpres 2025), so enforcement is active.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Nothing new beyond K06. APIA 2026 aid of about 12m EUR, single payment application by 31 July 2026 (startupcafe). New EU honey origin labelling (Directive 2024/1438) applies from 14 June 2026 per InfoCons (Capital says 1 Jan 2026, conflict), which hits honey packers and blenders. Hive identification under Order 251/2017 and a carnet de stupina exist; an amendment requiring pastoral/wintering apiary notification to local authorities was voted in the Chamber of Deputies (status unverified). No annual hive declaration to ANZ/ANSVSA confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Timber/EUDR stays K07 (rejected). Honey/fish export: search only confirmed that ANSVSA publishes the third-country health certificate models and approves export units (economica, newsweek); nothing specific to honey or fish exporters, no small-exporter pain evidence found. Honey origin-label rule from 14 June 2026 noted. Nothing new beyond K07 with a verifiable gap.",
+     "status": "screened"
+    },
+    {
+     "category": "Import/export of used vehicles and registration duties (RAR, DRPCIV, Rabla/AFM, environmental stamp)",
+     "found": "The old pollution/environmental tax was abolished in 2017; as of June 2026 Romania has no emissions-linked registration tax, and the announced 1 Jan 2026 tax was not found enacted (2Celsius PDF May/June 2026; bzi.ro). OUG 78/2025 only raised local vehicle tax (5% to 146% by Euro norm), not a dealer-filed duty. CIV issued by RAR for imports, only to the intra-community buyer named on the invoice since 25 Jul 2022; ANAF can suspend for up to 5 days. RAR clarified Auto-Pass is NOT mandatory and imposes no obligations on traders (bzi.ro). Dealers in Ploiesti fined 400-1,600 lei for missing local tax-office registration deadlines. Dealer software exists (Tronn Nexus Auto). No stable dealer-specific recurring filing found.",
+     "status": "screened"
+    },
+    {
+     "category": "Plant-health and food-safety paperwork for small food processors and farm exporters (ANSVSA registration, HACCP, traceability, honey, fish, and the not_reached category 30)",
+     "found": "Registration/authorisation by county DSVSA under ANSVSA Order 111/2008 (non-animal and mixed), Order 57/2010 (animal-origin authorisation) and Order 10/2024 (animal health units, incl. commercial apiaries); county DSVSA Alba alone registered/authorised 600+ new food units and transport vehicles in 2025 (alba24). Dossiers can be filed online. No evidence of a recurring periodic filing beyond initial registration and inspections; no 2026 traceability register change found. Nothing new that is recurring.",
+     "status": "screened"
+    },
+    {
+     "category": "Apartment-block and homeowners' associations (asociatii de proprietari) as duty-holders",
+     "found": "Law 196/2018 and Order 1058/2019: simple-entry bookkeeping (registru jurnal, inventar, fonduri), monthly payment list (model 14-6-28, 20-day payment term), semester D100 (10% withholding if administrator paid on civil contract, due 25th after the half-year) and D205 (end Feb), D112 if employees (fiscalitatea.ro, avocatnet). Fines 4,000-9,000 lei for misuse of funds and 5,000-10,000 lei for an uncertified administrator. Competition is real for lists and payments: E-BLOC (XiSoft), HomeFile (thousands of associations, 30+ cities, free tier), Blocul Meu, Deskis. E-BLOC online payments were suspended on 20 Jan 2026 after BNR said its payment-services exclusion did not apply (economica.net). Fiscal filings for volunteer administrators are the less-served part.",
+     "status": "screened"
+    },
+    {
+     "category": "Small-business e-filing deadlines for micro-enterprises and PFAs (Declaratia Unica D212, SPV, e-Factura B2C from 2025-2026, tax-regime changes, 1% micro-enterprise turnover threshold)",
+     "found": "D212 for 2025 income was due 25 May 2026; the 3% bonus applied only to filings by 15 Apr 2026; ANAF now offers a pre-filled D212 in SPV. CASS cap raised to 72 minimum salaries (Law 239/2025). The e-Factura obligation for individuals identified by CNP (planned 1 June 2026) was reportedly removed by Law 88/2026 (MO 308, 29 May 2026), so that trigger is gone; PFAs with a CIF were already covered. No 2026 micro-enterprise change verified. Many accounting apps already cover PFA calendars (e.g. ContApp content found). Generic; nothing sufficiently new.",
+     "status": "screened"
+    },
+    {
+     "category": "Hunting and fisheries (hunting-ground associations, anglers' associations and fish-farm operators)",
+     "found": "Hunting: Law 407/2006 and HG 3/2023 annex 3; the manager must realise the harvest quota and record complementary feeding via procese-verbale logged within 5 days to avoid paying crop-damage compensation; quotas approved by 15 May; a Senate amendment would oblige managers to inform local authorities (adoption unverified). Fisheries: ANPA fishing logbook (jurnal de pescuit) reported within 48h and tied to invoicing, per press (date unverified); Danube/Delta shad reporting tightened in 2024. Aquaculture licence and ANSVSA registration exist; framework law was a 2021 draft, status unverified. No hunting/fishing software or competitor search done. Official data, forms and platform not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "Energy and renewables: prosumers and small installers (ANRE, net-metering changes, rooftop solar and heat-pump installers)",
+     "found": "Law 160/2026 in force 26 Jul 2026: monthly invoicing and settlement replaces 24-month carry-over; quantitative compensation cap up to 400 kW (to 31 Dec 2030); prosumer invoice-exemption threshold raised from 27 kW to 900 kW; ANRE must update its methodology within 60 days (draft published 20 Aug 2026, still in consultation, APCE threatening litigation). Casa Verde Fotovoltaice was suspended in 2025 and removed from the AFM 2026 draft budget (only about 400m lei for batteries) per digi24, capital.ro, so the installer-dossier-for-AFM angle is dead for 2026. Connection dossiers (ATR) go to the distributor, often filed by the installer; ANRE is considering abolishing the ATR. Installer-side attestation rules for 2026 not found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "import autoturisme second-hand obligatii dealer RAR omologare carte identitate taxa poluare AFM 2026",
+    "inregistrare sanitar veterinara ANSVSA unitati alimentare mici obligatii trasabilitate registru 2026 export miere pesti certificat",
+    "asociatia de proprietari obligatii legale administrator Legea 196/2018 declaratii ANAF registru contabilitate repartizare costuri",
+    "PFA obligatii 2026 modificari CASS CAS plafon microintreprinderi Declaratia Unica D212 termene e-Factura persoane fizice",
+    "fond cinegetic gestionar obligatii raportare cota recolta ANPA asociatie vanatori pescari registru capturi acvacultura autorizatie",
+    "prosumatori ANRE obligatii instalatori fotovoltaic atestat ANRE dosar Casa Verde Fotovoltaice 2026 modificari",
+    "colectare deseuri metalice autorizatie 2026 obligatii punct colectare fier vechi registru evidenta Garda de Mediu ANAF software",
+    "apicultori obligatii 2026 registrul unic de evidenta stupi RNE miere etichetare ANSVSA declaratie stupi",
+    "program administrare asociatii de proprietari software lista de plata contabilitate partida simpla administrator",
+    "dealer auto second-hand program gestiune import autoturisme UE RAR AFM taxa timbru mediu software",
+    "aplicatie online asociatii de proprietari administrare bloc lista de plata cititire contori platforma Romania",
+    "acvacultura ferma piscicola autorizare ANPA obligatii raportare productie registru evidenta pescari comerciali jurnal de pescuit Romania 2026",
+    "prosumatori noi reguli 2026 ANRE ordin facturare prosumator instalatori atestat proiectare executie 2026",
+    "asociatia de proprietari declaratia 205 sau 100 ANAF administrator voluntar obligatii fiscale 2026 modificari",
+    "export miere peste Romania certificat sanitar veterinar exportator mic ANSVSA unitate autorizata export tari terte lista",
+    "taxa de poluare 2026 OUG 78/2025 autoturisme second-hand import dealeri inmatriculare AFM declaratie",
+    "eBloc OR Blocul meu OR Administrare bloc software asociatii de proprietari pret abonament",
+    "dosar prosumator instalator fotovoltaic aplicatie documentatie ATR certificat racordare distribuitor depunere dosar online program instalatori"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b24"
+ },
+ "opus:romania:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no dedicated product. Searches returned generic recruitment and agency software (Zoho Recruit, Voyager, Daftra), none covering Romanian placement contracts or guarantees. Agilion is a recruitment agency, not a software vendor. WorkinRomania.gov.ro, the free state platform, does registration, agency and employer authorisation, single applications and public registers. Per the Digi24 article and the Rubinian summary of Ordin 655, it does not generate the placement contracts (the agency drafts them from the model) and nothing indicates it tracks guarantee headroom. I did not check whether it has an API or export.",
+   "duty": "Confirmed in force. OUG 32/2026 (MO 335, 27 Apr 2026) replaced OG 25/2014. Only ANOFM-authorised agencies may place foreigners, and they apply online via WorkinRomania.gov.ro, which has run since about 6-8 Aug 2026. Before authorisation an agency must post a 75,000 EUR guarantee (Treasury deposit or Romanian bank letter) for up to 250 workers, plus 50,000 EUR per extra 250. It must keep the guarantee topped up for the whole authorisation or face suspension or withdrawal. Fines run up to 40,000 lei. Employers can authorise themselves instead, with a 1,000 EUR guarantee per worker. Ordin 655/2026 sets three mandatory model contracts: service contract plus job offer, placement contract, and employment contract. They must be in Romanian plus a language the worker understands, signed before the visa, and contracts missing mandatory elements are absolutely void. The employment contract must also be registered in REGES-Online. Open caveats: on 26 May 2026 the Senate adopted amendments that relax some agency obligations, and I could not find the Chamber vote or the final guarantee figure. In September 2026 the Bucharest Court of Appeal suspended the shortage-occupation list order.",
+   "market": "I found no official count of authorised agencies; ANOFM announced the first authorisations without giving a number. One source puts it at about 15,000 companies importing foreign labour, a figure that covers employers, not just agencies. IGI counted 148,272 non-EU workers with valid permits (Feb 2026). PIFM expects about 70% of small and mid-size agencies to exit because of the guarantee, so the number of agencies that will buy is probably in the low hundreds. Self-authorised employers are a second, larger but less pressed segment.",
+   "reason": "The duty is real. OUG 32/2026 (MO 335, 27 Apr 2026) requires ANOFM authorisation through WorkinRomania.gov.ro and a 75k EUR guarantee covering up to 250 workers, plus 50k EUR per extra 250, kept for the whole authorisation. Fines go up to 40,000 lei, with suspension or withdrawal. Ordin 655/2026 requires three model contracts, bilingual where needed, and contracts missing mandatory elements are absolutely void. The state platform handles authorisation, single applications and registers. Nothing I read says it generates contracts or tracks guarantee headroom, and I found no dedicated vendor. The pool of buyers is small and shrinking: PIFM expects about 70% of small agencies to exit. The rules are still moving: the Senate amended the OUG, the Chamber vote is unverified, and a court suspended the shortage-occupation list. Contract templates alone are a thin product.",
+   "searches": 6,
+   "sources": "https://www.rubinian.com/ordinul-655-2026-contracte-plasare-lucratori-straini ; https://www.digi24.ro/stiri/economie/anofm-a-autorizat-online-primele-agentii-de-plasare-a-lucratorilor-straini-cum-functioneaza-platforma-workinromania-gov-ro-3933963 ; https://www.undelucram.ro/ro/cumlucram/portalul-workinromania-operational-dupa-4-luni-de-blocaj-2425 ; https://spotmedia.ro/stiri/social/schimbare-majora-pentru-firmele-care-aduc-muncitori-straini-garantia-de-75-000-de-euro-ar-putea-elimina-majoritatea-agentiilor ; https://startupcafe.ro/guvern-bolojan-restrictioneaza-angajare-muncitori-straini-romania-oug-32-2026-monitorul-oficial-amenzi-firme-romanesti-98635 ; https://tvrinfo.ro/senatul-a-adoptat-modificari-la-ordonanta-de-urgenta-privind-accesul-strainilor-pe-piata-muncii-din-romania/ ; https://www.crowe.com/ro/news/se-schimba-cu-totul-cadrul-legal-pentru-angajarea-si-plasarea-lucratorilor-din-afara-ue-in-romania ; https://www.zf.ro/eveniment/romania-piata-muncii-148-272-muncitori-tari-non-ue-majoritatea-23065039 ; https://www.anofm.ro/timis/wp-content/uploads/sites/39/2026/08/Comunicat-de-presa-platforma-WorkinRomania.gov_.ro_.pdf (fetched, but the PDF text could not be read)",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b24"
+ },
+ "opus:romania:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated Romanian host-compliance software found in 3 competitor searches, but software tools were only partly checked, so this is unverified. Found instead: accountants and fiscal guides (contabilul.manager.ro, fiscalitatea.ro), the free ANAF SPV, and the state SITUR portal, which will issue the code itself. Platforms (Airbnb, Booking) are reported to be building API checks for the code. Property management (PMS) and co-host tools were not checked.",
+   "duty": "Partly in force. In force: classification certificate required under HG 1267/2010, fine 40,000-50,000 lei for operating without it (MEDAT, cited by StartupCafe on 10 Jun 2026). Special VAT code (art. 317 Fiscal Code) with monthly Form 301 and Form 390 by the 25th, only in months with platform commission invoices. Annual D212. ANAF has said hosts need a cash register. Not in force: the unique registration code under EU Reg. 2024/1028 through SITUR. MEDAT said on 10 Jun 2026 that code issuance had not started and the national method was under analysis. Still described as forthcoming on 3 Aug 2026. No later order found. Law 88/2026 (Official Gazette no. 459, 29 May 2026) made RO e-Factura optional for individuals with only a CNP, so the 1 Jun 2026 e-Factura obligation is refuted.",
+   "market": "About 74,000 apartments and rooms offered for short-term rental in Romania (European Travel Commission data via ZF, cited by StartupCafe on 3 Aug 2026), up 7.8% year on year. Number of hosts not found.",
+   "reason": "The headline trigger is not live yet. On 10 Jun 2026 the tourism ministry (MEDAT) said Romania had not started issuing unique codes under EU Regulation 2024/1028 and was still deciding how to implement it. As of 3 Aug 2026 the code was still described as a future duty, and I found no order or national law since. Law 88/2026 made e-Factura optional for hosts with only a CNP (no company), so that part of the claim is refuted. The duties that are in force are the monthly 301/390 VAT returns on platform commissions (via the special VAT code), the annual D212, the classification certificate under HG 1267/2010 (fines of 40,000 to 50,000 lei) and a cash register. About 74,000 units are listed. I found no dedicated product, only accountants. This search only partly checked software tools, so competition is unverified. The score could go up if SITUR starts issuing codes.",
+   "searches": 6,
+   "sources": "https://startupcafe.ro/noile-reguli-ue-pentru-inchirierile-prin-airbnb-si-booking-modalitatea-de-implementare-in-romania-este-in-proces-de-analiza-spune-ministerul-turismului-101182 ; https://startupcafe.ro/inchirieri-prin-booking-si-airbnb-incasari-de-1-miliard-eur-cat-jumatate-din-piata-hoteliera-ce-venit-mediu-anual-poate-avea-un-proprietar-din-bucuresti-din-inchirierea-unui-apartament-in-regim-hot-104383 ; https://static.anaf.ro/static/10/Anaf/legislatie/L_88_2026.pdf ; https://www.contzilla.ro/e-factura-furnizori-cu-cnp-agricultori-institute/ ; https://www.portalcontabilitate.ro/ro-e-factura-pentru-persoana-fizica-identificata-prin-cnp-223587.htm ; https://contabilul.manager.ro/a/30194/inchiriezi-prin-booking-sau-airbnb-acest-ghid-iti-arata-exact-ce-obligatii-fiscale-ai.html ; https://www.fiscalitatea.ro/persoanele-fizice-care-inchiriaza-camere-turistilor-au-nevoie-de-casa-de-marcat-raspuns-anaf-16543/ ; https://alba24.ro/inchirierea-apartamentelor-in-regim-hotelier-interzisa-fara-certificat-de-clasificare-ordinul-publicat-in-monitorul-oficial-903551.html",
+   "suggested_score": 4,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b24"
+ },
+ "opus:romania:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no dedicated SaaS for EDIB firms to manage clients, expiry dates and fișe after 3 Romanian-language searches. Flam Install (iOS, Innovative Sharks Dsoft SRL) is a free app for one firm's customers, with booking and payment history. Distributors keep the official database of verifications and revisions and send due-date notices. Distrigaz Sud Rețele runs an online portal for authorised firms, at least for commissioning requests. Large suppliers and distributors sell bundled verification services (Engie ASIGAZ), which competes for the end customer. Generic field-service or ERP tools: not checked.",
+   "duty": "ANRE Order 179/2015 procedure (in force since 1 Jan 2016; amended by Orders 71/2020 and 96/2023; December 2025 consolidation published by Gazest). The final customer must have a periodic verification at most every 2 years and a revision at most every 10 years, plus after more than 6 months out of use or an incident. Only ANRE-authorised firms do this work (EDIB, or ET depending on pressure), recording it on a regulated fișă de evidență. The distributor or supplier can cut supply until proof is shown. Distributors must keep a database of the fișe that the authorised firms register. The Competition Council fined Delgaz Grid about 30m lei, partly for registering fișe late. The draft letting a revision replace that year's verification (profit.ro) is still unconfirmed as adopted. The Gazest PDF could not be parsed, so I took the article-level detail from secondary sources.",
+   "market": "About 4 million gas consumption points (household and non-household; economedia, 2025), so roughly 2 million verifications a year. I did not find the number of EDIB-authorised firms: the ANRE public register exists but was not reached. Since each firm needs at least 3 authorised installers, it is plausibly several hundred to a few thousand firms (an estimate, not verified).",
+   "reason": "The duty is real. Under ANRE Order 179/2015 (amended by Orders 71/2020 and 96/2023), gas user installations need a verification at least every 2 years and a revision at least every 10 years, done only by EDIB-authorised firms. Each job produces a regulated fișă de evidență, and supply can be cut until proof is shown. I found no firm-side SaaS, only Flam Install, a customer booking app from one firm. Three things limit the opportunity. The distributors (Delgaz, DSR) by rule keep the database of these checks, and distributors and suppliers already remind customers. Big suppliers sell packaged inspection services (Engie ASIGAZ). The EDIB firms are small trades businesses that are hard to reach and pay little. I did not find the EDIB firm count. I could not confirm that the draft letting a revision replace that year's verification has been adopted.",
+   "searches": 6,
+   "sources": "https://gazest.ro/wp-content/uploads/2025/12/Procedura-privind-verificarile-si-reviziile-tehnice-ale-instalatiilor-de.pdf ; https://legeaz.net/monitorul-oficial-969-2015/ordinul-anre-179-2015/anexa-procedura ; https://www.axpo.com/content/dam/axpo19/countries/romania/DE%20PUS_Ordinul-nr-179-din-2015-actualizat-Procedura%20verificari%20si%20revizii%20tehnice%20instalatii%20utilizare%20GN.pdf ; https://www.profit.ro/povesti-cu-profit/energie/anre-clientii-nu-mai-sunt-obligati-sa-efectueze-verificarea-periodica-a-instalatiilor-de-gaze-in-anul-in-care-este-programata-o-revizie-tehnica-19463215 ; https://www.economica.net/concurenta-a-amendat-delgaz-e-on-cu-30-de-milioane-de-lei-pentru-abuz-de-pozitie-dominanta-pe-piat%cc%a6a-serviciilor-de-verifica%cc%86ri-si-revizii-tehnice_509715.html/amp ; https://economedia.ro/distrigaz-sud-retele-transmite-ca-nu-taxeaza-repunerea-in-functiune-a-clientilor-daca-alimentarea-este-intrerupta-din-motive-tehnice.html ; https://apps.apple.com/gb/app/flam-install/id6479674236 ; https://www.engie.ro/wp-content/uploads/2023/04/Condiții-generale-ASIGAZ.pdf ; https://economedia.ro/anre-20-de-milioane-de-lei-pentru-o-platforma-cu-toti-consumatorii-de-energie-si-gaze-din-romania.html ; https://www.energynomics.ro/en/anre-changes-rules-for-authorizing-economic-operators-in-the-natural-gas-sector/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b24"
+ },
+ "sonnet:romania:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "OUG 53/2025 (Government sitting of 2 Oct 2025, replacing OG 4/1995) is confirmed only through secondary sources. I could not read the final text (the ANF PDF was unreadable). The old regime (OG 41/2007) required a registration certificate with an annual visa for sellers. Whether the final act mandates a sales register, police/ITM registration, or sets fines for distributors is unconfirmed. The 35,000 lei figure comes from press coverage aimed at farmers. No Romanian PPP-shop software turned up. The only comparable product is Italian (Passepartout Mexal), which prints the load/unload register and annual SIAN export. The number of shops was not found. The market is small and fragmented, and ERP vendors may already cover the register. Score stays at 3.",
+   "searches": 3,
+   "sources": "https://anfdf.ro/wp-content/uploads/2026/07/Retrospectiva_ANF_Soldea_FINAL.pdf ; https://www.capital.ro/reguli-noi-pentru-fermieri-pot-fi-amendati-cu-35-000-de-lei-decizia-luata-de-anf.html ; https://faolex.fao.org/docs/pdf/rom215358.pdf ; https://www.passepartout.net/Resources/Asset/Documenti/Prodotti/Brochure/Brochure-Verticalizzazione-Mexal-Fitofarmaci.pdf ; https://agrointel.ro/wp-content/uploads/2023/01/Adresa_AFF_14_11_2022_OUG_PPP.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b24"
+ },
+ "sonnet:romania:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. From 1 July 2026, N1 vans of 2.5-3.5 t in international carriage and cabotage need a G2V2 smart tachograph, with driver and company cards. Driver cards are downloaded every 28 days and the vehicle unit every 90 days. I did not confirm a Romanian fine schedule; a Suceava tachograph shop claims 4,000-6,000 lei, which is commercial and unsourced. The archive period is unconfirmed; a Moldovan source says at least 1 year. Competition is strong. SVT Electronics (Romanian, TachoSafe RDU and Web), Frotcom and MAN RIO Compliant already do remote download and archiving. I found no count of affected vans. Buyers are micro-firms with low willingness to pay, and many already use fleet vendors. Weak niche.",
+   "searches": 2,
+   "sources": "https://www.capital.ro/tahograful-devine-obligatoriu-pentru-acesti-soferi-noi-sanctiuni-intra-in-vigoare-de-la-1-iulie-2026.html ; https://trans.info/ro/tahografe-furgonete-2026-447012 ; https://www.frotcom.com/ro-RO/kc/road-transportation/frotcom-helps-divna-complying-remote-tachograph-download-legal-regulations ; https://rio.cloud/fileadmin/Marketplace/MAN/Products/Compliant/Localized/ro-RO/Compliant_for_TBM3_DOS.pdf ; https://contabilul.manager.ro/a/26733/analiza-si-monitorizarea-datelor-tahografului-gestionati-va-timpul-de-conducere-si-monitorizati-va-flota.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b24"
+ },
+ "sonnet:romania:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: OUG 190/2000 requires ANPC authorisation, 10-day change notices and 7-day notice for temporary activity. ANPC checked 80+ traders on 29 Jan 2026 and issued 148 fines (260k+ lei). I found no Romanian software for this register. Generic jewellery ERPs exist (GoldMatrix is India-focused). I could not confirm the number of authorised operators, the register format, or the date of the state-mark and doubled-fines rule. The profit.ro page returned 403. Playtech (2022) mentions doubled fines and a hologram mark, so that change may be old. Weak case: a small niche, mostly one-off notices, the register is probably covered by stock tools, and the doubled-fines claim is unverified. A recurring SaaS looks hard to sell.",
+   "searches": 3,
+   "sources": "https://www.wall-street.ro/articol/justitie-si-legislatie/comercianti-de-metale-pretioase-sunt-amendati-cu-260000-de-lei.html ; https://profit.ro/perspective/amenzi-la-amanet-si-bijutieri-inspectorii-anpc-au-mers-in-control-22328478 ; https://playtech.ro/2022/se-schimba-legea-ce-trebuie-sa-stii-daca-vinzi-sau-cumperi-bijuterii-nu-te-lasa-pacalit/ ; https://infocons.ro/infocons-protectia-consumatorilor-te-previne-piata-metalelor-pretioase-sub-control-anpc-autoritatea-nationala-pentru-protectia-consumatorilor/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b24"
+ },
+ "sonnet:romania:B11": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. CARs are non-profit associations that keep accounts under OMFP 1969/2007 and file annual balance sheets. A specialist (Nov 2024) says they also file D406 SAF-T, monthly or quarterly, because they fall under the non-profit category in OPANAF 1783/2021. That is an opinion, not an ANAF ruling, and no penalty was cited. Competition is only partly checked. Member-facing CAR apps exist (UNCAR, ASCAR, Membri C.A.R.), which implies back-office software exists, but I did not identify it. Market data is old: about 1,659 employee CARs (2015) and about 135 pensioner CARs (2017). Buyers are scattered, volunteer-run and low-budget, and many use an external accountant. Pain is moderate but willingness to pay is weak.",
+   "searches": 4,
+   "sources": "https://infotva.manager.ro/articole/infotva/saf-t-in-2025-pentru-o-casa-de-ajutor-reciproc-car-se-depune-d406-din-ianuarie-2025-23803.html ; https://contabilul.manager.ro/a/16581/monografie-contabila-car-cine-semneaza-bilantul-si-ce-declaratii-se-depuns.html ; https://apps.apple.com/ro/app/uncar/id1631849277?l=ro ; https://apps.apple.com/ro/app/ascar/id6468660740 ; https://apps.apple.com/us/app/membri-c-a-r/id6447364172 ; https://www.capital.ro/presedintele-federatiei-omenia-va-exista-saracie-in-romania-in.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b24"
+ },
+ "sonnet:romania:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Law 292/2011 requires provider accreditation plus service licensing. The tougher amendment was promulgated 16 Apr 2024 (stiripesurse): 3-month provisional licence, inspection within 15 days, fines up to 100k lei, first criminal sanctions, free licensing, and a unified electronic register run by the ministry. The Cluj 80k lei fine is also real. I found no dedicated Romanian compliance software, but I ran only two searches and the competitor check is thin. The duty is mainly one-off or episodic (licence, then renewal and inspections), not a regular filing calendar. The market is small (about 1,700 operators), and unlicensed homes won't buy. Pain is high, but frequency, buyer count and willingness to pay are weak, so the opportunity is niche. Entry-into-force dates and the final law number were not verified.",
+   "searches": 2,
+   "sources": "https://www.stiripesurse.ro/azilele-groazei-dispar-legea-care-revolutioneaza-sistemul-de-asistenta-sociala-promulgata-de-presedinte_3293327.html ; https://hotnews.ro/reguli-mai-aspre-la-acreditarea-centrelor-sociale-dupa-scandalul-azilelor-groazei-sanctiuni-penale-amenzi-mai-mari-si-controale-inopinate-45264 ; https://actualdecluj.ro/azil-ilegal-pentru-20-de-batrani-descoperit-intr-o-comuna-din-cluj-amenda-de-80-000-de-lei-pentru-furnizor/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b24"
+ },
+ "sonnet:romania:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "SERSPAR, the free MADR/AFIR state portal for stock reporting. No private vendor found, but none was searched for specifically.",
+   "duty": "Monthly stock report by the 15th under Law 105/2023, filed through SERSPAR; fine 5,000 to 20,000 lei.",
+   "market": "Not found. No register or statistic located for the number of covered operators.",
+   "reason": "The duty is real. Law 105/2023 requires monthly stock data by the 15th for the previous month, via the MADR/AFIR portal SERSPAR. Fines run from 5,000 to 20,000 lei. Exempt: shops up to 400 sqm, street traders and caterers. No 2026 change found. Not checked: current thresholds, real enforcement, bulk upload, and the number of small operators covered (no register figure found). No third-party competitor search was run. The free state portal does the core filing. Any product would only be a done-for-you filing service or an ERP export, which is a thin niche. Buyers are fragmented and the duty looks like a form that is quick to fill in. Score 3.",
+   "searches": 2,
+   "sources": "https://www.puterea.ro/?p=278591 ; https://economedia.ro/vot-final-producatorii-si-operatorii-economici-sunt-obligati-sa-raporteze-lunar-stocurile-de-produsele-agricole-si-alimentare-datele-vor-fi-centralizate-de-ministerul-agriculturii.html ; https://www.economica.net/?p=646078",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b24"
+ },
+ "sonnet:romania:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "CATUC (Legea 169/2026) was published 10 Aug and in force 25 Aug 2026, with a new certification of construction firms by experience and specialisation, per search summaries of profit.ro. But criteria, body, deadline, penalty and whether micro-contractors are covered could not be found. The profit.ro page returned 403 on fetch. ARACO/AIIR say the mechanism is unclear. Certification seems tied to public procurement, so it is likely not a recurring duty for small contractors. Competition: only generic construction CRM/site-diary tools were found (Zarina CRM, Site Productivity, Daily Report App); none targets the diriginte de șantier legal duties. Market size was not checked. The idea is weak and premature until the implementing norms appear.",
+   "searches": 2,
+   "sources": "https://profit.ro/opinii-avocat-ro/ce-schimba-noul-catuc-pentru-companiile-din-domeniul-constructiilor-22720362 ; https://actualdecluj.ro/codul-urbanismului-explicat-ce-se-intampla-cu-actele-si-autorizatiile-deja-depuse-inainte-de-25-august-cand-intra-in-vigoare-noul-act-normativ/ ; https://financialintelligence.ro/araco-si-aiir-codul-amenajarii-teritoriului-urbanismului-si-constructiilor-trebuie-sa-asigure-calitate-si-predictibilitate-nu-blocaje-administrative/ ; https://www.zarinacrm.ro/crm-constructii/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b24"
+ },
+ "sonnet:romania:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real but sits with suppliers, not prosumers. Law 160/2026 (in force 26 Jul 2026) makes the supplier calculate and invoice monthly. The Tax Code change raises the exemption from issuing invoices for grid deliveries from 27 kW to 900 kW, so the buyer group is relieved of paperwork. The 900 kW figure is only the invoice-exemption and imbalance threshold. Compensation covers installations up to 400 kW, with day-ahead financial regularisation at 200-400 kW. The ANRE draft of 20 Aug is still in consultation. I found no prosumer filing duty and no software competitor, but the need is weak. Market size was not found. The sources do not say who issues the invoices under the new rules.",
+   "searches": 2,
+   "sources": "https://contabilul.manager.ro/a/30170/5-noutati-importante-pentru-prosumatori-introduse-prin-legea-nr-1602026.html ; https://adevarul.ro/economie/noi-reguli-pentru-prosumatori-care-sunt-cele-mai-2547596.html ; https://romania.europalibera.org/a/lege-prosumatori-compensare-termen-de-plata-locuri-de-consum-energie-electrica-furnizori/33560749.html",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b24"
+ },
+ "triage:romania": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New buyer (placement agencies) and duty (WorkinRomania authorisation, guarantee, contracts) under OUG 32/2026; distinct from K03/K13."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Dealers' sales-control duty differs from K08 farmers' treatment register; related K08."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Tachograph download duty for micro van hauliers differs from K10 e-Transport; new 1 Jul 2026 trigger."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "ANPC precious-metals register is a different duty from K14 AML/KYC; related K14."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Private vets' controlled-substance register is a new buyer and duty; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Small workshops' RAR Auto-Pass reporting is a new buyer and duty; first of the Auto-Pass duplicates."
+    },
+    {
+     "decision": "drop",
+     "id": "A7",
+     "reason": "Buyer is rural communes and local water operators, i.e. the state's own bodies; the definitions only cover small businesses and households."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Small waste and septic haulers owe recurring loading forms and reporting; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Small associations' annual declarations are in scope as community bodies; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Smallholder producer attestation and market sales sheet is a new buyer and duty; first of the Law 145/2014 duplicates."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Micro-hosts must register units and meet tax filing duties from 20 May 2026 under Reg. 2024/1028; new and in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "EDIB gas-inspection firms and landlords are a different buyer and duty from K02 (ISCIR supervision); related K02."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Private elderly-care homes' accreditation and licensing is a new buyer and duty; unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Small fuel stations have a new monthly markup report duty with a fixed 2026 trigger."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small traders and stockholders owe a monthly stock report; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small construction firms and site managers face new CATUC certification and duties; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Guesthouses must collect and remit the local tourist tax; a different duty from B1's registration and tax filings."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Small real-estate agencies' ONPCSB notification and beneficial-owner declaration is a different buyer from K14 pawnshops; related K14."
+    },
+    {
+     "decision": "merge",
+     "id": "B9",
+     "reason": "Same RAR Auto-Pass reporting duty for small authorised workshops; ITP stations add little.",
+     "ref": "A6"
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Small drink retailers' SGR duty differs from K09 (SIATD packaging-waste traceability); related K09."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "CAR mutual-aid houses are co-operatives with a loan ledger and filing duty; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Agricultural co-operatives' annual filing and recognition is a different buyer and duty from K06 (beekeepers' APIA file kit); related K06."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Small businesses face a fire-safety authorisation duty with OUG 17/2026 suspension risk; new and unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Small slot-room and betting operators owe device register and local authorisation duties; new buyer."
+    },
+    {
+     "decision": "merge",
+     "id": "B15",
+     "reason": "Same smallholder producer attestation and sales booklet duty under Law 145/2014.",
+     "ref": "A10"
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "Small medical cabinets must keep the Registrul unic updated under Order 1090/2026; in scope as small professional offices."
+    },
+    {
+     "decision": "keep",
+     "id": "B17",
+     "reason": "Small security firms face a new 2026 licence and risk-assessment regime; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Homeowners' association administrators' bookkeeping and tax filings are a different buyer and duty from K02."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Small commercial prosumers and installers face new monthly settlement and invoicing under Law 160/2026; municipalities are only part of the buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Hunting-ground managers' quota and feeding evidence is a new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Honey packers' origin labelling from 2026 is a different buyer and duty from K06; related K06."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Commercial fishers and fish farms owe logbook and first-sale reporting; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Small used-car dealers' CIV and tax-office registration deadlines are a new buyer and duty."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS9",
+     "reason": "Scrap yards' 10% plus 3% withholding ledger is the same buyer and duty as K04.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS10",
+     "reason": "Micro food producers' ANSVSA registration dossiers are a new buyer and duty; unverified."
+    }
+   ]
+  },
+  "tag": "w2b24"
  }
 }

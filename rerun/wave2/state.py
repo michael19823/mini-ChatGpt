@@ -27,6 +27,8 @@ BLOCKED = 'Web search was not performed'
 CAP = 190            # searches per batch; Claude Code allows 200 per turn
 BATCH_ITEMS = 8      # countries offered to each batch; it works depth-first and stops at the cap
 STALE_HOURS = 2      # a launched batch with no activity for this long is treated as lost
+MAX_PARALLEL = 4     # batches that may run at once, each launched from its own turn, on disjoint countries
+CLAIM_MINUTES = 15   # a written script holds its countries this long while it is being launched
 sys.path.insert(0, os.path.join(REPO, 'skills', 'parallel-subagents', 'scripts'))
 from measure_usage import measure, family, PRICES  # noqa: E402
 
@@ -145,20 +147,31 @@ def batch_rows():
     return rows
 
 
-def running(runs):
-    """The last launched batch, if it is still running."""
-    if not runs.get('launched'):
-        return None
-    last = runs['launched'][-1]
-    if glob.glob(f"{PROJECTS}/*/*/workflows/{last['run']}.json"):
-        return None  # finished
-    dirs = glob.glob(f"{PROJECTS}/*/*/subagents/workflows/{last['run']}")
+def is_running(entry):
+    """True while a launched batch is still running."""
+    if glob.glob(f"{PROJECTS}/*/*/workflows/{entry['run']}.json"):
+        return False  # finished
+    dirs = glob.glob(f"{PROJECTS}/*/*/subagents/workflows/{entry['run']}")
     if not dirs:
-        return None  # lost with an old container
+        return False  # lost with an old container
     newest = max(os.path.getmtime(p) for p in glob.glob(f'{dirs[0]}/*') or [dirs[0]])
-    if (datetime.datetime.now().timestamp() - newest) / 3600 > STALE_HOURS:
-        return None  # no activity for hours: treat as lost
-    return last
+    return (datetime.datetime.now().timestamp() - newest) / 3600 <= STALE_HOURS
+
+
+def running(runs):
+    """Launched batches that are still running."""
+    return [e for e in runs.get('launched', []) if is_running(e)]
+
+
+def claimed(runs, busy):
+    """Countries held by running batches, or by scripts written in the last few minutes and not yet launched."""
+    held = {s for e in busy for s in e.get('items', [])}
+    launched = {e['tag'] for e in runs.get('launched', [])}
+    now = datetime.datetime.utcnow()
+    for tag, c in runs.get('claims', {}).items():
+        if tag not in launched and (now - datetime.datetime.fromisoformat(c['at'])).total_seconds() < CLAIM_MINUTES * 60:
+            held |= set(c['items'])
+    return held
 
 
 def build_script(pre, today):
@@ -197,7 +210,9 @@ def main():
     os.makedirs(STATE, exist_ok=True)
     runs = load('runs.json', {'launched': [], 'tags': []})
     if a.launched:
-        runs['launched'].append({'run': a.launched[0], 'tag': a.launched[1], 'at': datetime.datetime.utcnow().isoformat(timespec='seconds')})
+        items = runs.get('claims', {}).get(a.launched[1], {}).get('items', [])
+        runs['launched'].append({'run': a.launched[0], 'tag': a.launched[1], 'items': items,
+                                 'at': datetime.datetime.utcnow().isoformat(timespec='seconds')})
         runs['tags'] = sorted(set(runs.get('tags', [])) | {a.launched[1]}, key=lambda t: int(t[3:]))
         save('runs.json', runs)
         print(f'recorded {a.launched[1]} as {a.launched[0]}')
@@ -214,7 +229,10 @@ def main():
     skip = load('skip.json', [])  # countries moved to the end after repeated failures
     done = [c['id'] for c in COUNTRIES if c['id'] in rows]
     remaining = [c['id'] for c in COUNTRIES if c['id'] not in rows and c['id'] not in skip] + [s for s in skip if s in META and s not in rows]
-    last_tag = runs['tags'][-1] if runs['tags'] else None
+    busy = running(runs)
+    finished = [(os.path.getmtime(p), r['tag']) for r in runs.get('launched', [])
+                for p in glob.glob(f"{PROJECTS}/*/*/workflows/{r['run']}.json")]
+    finished_at, last_tag = max(finished, default=(None, None))
     added = sum(1 for e in kept.values() for v in e.values() if v['tag'] == last_tag) if last_tag else None
     leads = {'strong': 0, 'likely': 0}
     for r in rows.values():
@@ -222,28 +240,31 @@ def main():
         leads['strong'] += f.get('verified_4', 0)
         leads['likely'] += f.get('disputed', 0)
     spent = sum(c['cost'] for c in costs.values())
-    busy = running(runs)
-    finished = [p for r in runs.get('launched', []) for p in glob.glob(f"{PROJECTS}/*/*/workflows/{r['run']}.json")]
-    finished_at = max((os.path.getmtime(p) for p in finished), default=None)
     wait_until = finished_at + 3 * 3600 if (added == 0 and finished_at) else None
     waiting = wait_until and datetime.datetime.now().timestamp() < wait_until
     print(f'done {len(done)}/{len(COUNTRIES)}; remaining {len(remaining)}; leads strong {leads["strong"]}, likely {leads["likely"]}; '
           f'agent spend so far about ${spent:.2f}')
-    print(f'last batch {last_tag}: {added if added is not None else "-"} results kept' + (' (none: limit or outage?)' if added == 0 else ''))
-    print(f"running: {busy['tag'] + ' (' + busy['run'] + ')' if busy else 'no'}")
+    print(f'last finished batch {last_tag}: {added if added is not None else "-"} results kept' + (' (none: limit or outage?)' if added == 0 else ''))
+    print(f"running: {', '.join(e['tag'] + ' (' + e['run'] + ')' for e in busy) if busy else 'no'} [{len(busy)}/{MAX_PARALLEL}]")
     if waiting:
         print('waiting until ' + datetime.datetime.utcfromtimestamp(wait_until).strftime('%Y-%m-%d %H:%M UTC') + ': the last batch kept nothing')
-    if a.script and remaining and not busy and not waiting:
-        n = max([int(t[3:]) for t in runs['tags']], default=0) + 1
-        nxt = remaining[:BATCH_ITEMS]
+    full = len(busy) >= MAX_PARALLEL
+    held = claimed(runs, busy)
+    free = [s for s in remaining if s not in held]
+    if a.script and free and not full and not waiting:
+        tags_all = set(runs['tags']) | set(runs.get('claims', {}))
+        n = max([int(t[3:]) for t in tags_all], default=0) + 1
+        nxt = free[:BATCH_ITEMS]
         pre = {k: v['result'] for s in nxt for k, v in kept[s].items()}
         src = build_script(pre, today)
         open(a.script, 'w').write(src)
+        runs.setdefault('claims', {})[f'w2b{n}'] = {'items': nxt, 'at': datetime.datetime.utcnow().isoformat(timespec='seconds')}
+        save('runs.json', runs)
         print(f'script {a.script}: {len(src):,} chars, {len(pre)} reused results')
         print('ARGS ' + json.dumps({'batch': f'w2b{n}', 'cap': CAP, 'items': [META[s] for s in nxt]}))
-    elif a.script and (busy or waiting):
-        print('not writing a script: ' + ('a batch is still running' if busy else 'waiting after an empty batch'))
-
+    elif a.script:
+        print('not writing a script: ' + ('all batch slots are running' if full else 'waiting after an empty batch' if waiting
+                                          else 'every remaining country is held by a running batch'))
 
 if __name__ == '__main__':
     main()

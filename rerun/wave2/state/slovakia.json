@@ -663,6 +663,42 @@
   },
   "tag": "w2b56"
  },
+ "opus:slovakia:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated software or done-for-you registration service found in Slovak searches. AKMV, a law firm, sells consultations on the register for EUR 130. The state e-service is free and needs only a simple form: address, land-registry data, beds, host identity. Platforms are legally required to block listings without a number, so Airbnb and Booking will almost certainly add a registration-number field, as they have in other EU countries. Not checked: whether PMS or channel-manager vendors such as Previo will add one, and whether Slovakia's general electronic-mandate rules would let agents file for hosts.",
+   "duty": "Act 133/2026 Z. z. (Slovakia, published 18 June 2026, in force 1 Jan 2027; implements EU 2024/1028) is real. Hosts renting short-term through online platforms register each unit with the Ministry of Tourism and Sport before the first listing (§5(1)). Hosts already renting have until 28 Feb 2027 (§14). Changes are due within 30 days and deletion within 30 days of stopping (§5(4), §5(7)). Registration is free (§5(10)). It is done through the register's e-service form, authorized under the e-Government Act, or in person for individuals (§5(5)-(6)). If defects aren't fixed, the number is suspended and then revoked (§6). Fines: individuals EUR 100-1,000 (§10); traders and companies EUR 1,000-3,000; platforms EUR 3,000-30,000; repeats up to double (§11). The law names no proxy, third-party agent or API. Platforms file through the e-service but get no access to the register. Accommodation-tax administrators and tax authorities do get access (§7).",
+   "market": "Not confirmed from a register. A nehnutelnosti.sk article cites estimates of about 10,000 accommodation providers. It also reports a hotel association (AHRS) claim that in some cities platform listings are up to four times the number of officially registered hosts. Most hosts appear to be private individuals with one or two units. The number of multi-unit managers is not quantified. The startitup article says only \"thousands\".",
+   "reason": "The duty is real, mandatory and well documented, with real fines. But the core job is a one-off, free, simple e-form per unit. Changes and deletions after that are rare. Most hosts are private individuals with one unit and little reason to pay. The deadline creates some urgency until Feb 2027, then the need fades. Platforms must enforce the registration number, so they will build the field themselves. There is no API or proxy for third parties, which limits automation for managers. The best angle is to bundle it into existing guest-register or police-reporting and accommodation-tax tools (K08/K12) for multi-unit managers, not to sell it alone. The market is small (about 10k hosts).",
+   "searches": 5,
+   "sources": "https://static.slov-lex.sk/static/SK/ZZ/2026/133/20270101.html ; https://www.akmv.sk/register-jednotiek-pre-poskytovanie-sluzieb-kratkodobeho-prenajmu-ubytovania-od-1-1-2027/ ; https://www.podnikajte.sk/registracne-povinnosti/register-kratkodobych-prenajmov-od-1-1-2027 ; https://pravnenoviny.sk/register-kratkodobeho-prenajmu/ ; https://www.nehnutelnosti.sk/magazin-o-byvani/83043-koniec-anarchie-stat-si-posvieti-na-kratkodobe-prenajmy-cez-airbnb ; https://www.startitup.sk/novy-zakon-siahne-na-vedlajsie-prijmy-tisickam-slovakov-stat-pripravuje-tvrde-pravidla-doterajsia-anonymita-sa-konci/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b56"
+ },
+ "sonnet:slovakia:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty partly real: water act 364/2004 §6(5) (amended 2016, zákon 303/2016) already requires holders of a §21(1) groundwater permit to report abstraction data to a \"poverená osoba\". The VÚVH deck presents a 2026 amendment (annual report by 31 Jan, mandatory metering) as effective 1 Jan 2026. I could not read the PDF (binary) or find the final enacted text, the penalty, or who the poverená osoba is. The only 1 Jan 2026 item found on slov-lex was an unrelated government regulation. No competitor or state portal was found, but I did not find one searching only a few queries. The market count is not found. Reporting is annual and low-volume, so frequency and willingness to pay are weak. Narrow, state-run channel, hard to distribute.",
+   "searches": 4,
+   "sources": "https://www.vuvh.sk/wp-content/uploads/2025/12/2_Novela-vodneho-zakona.pdf ; https://static.slov-lex.sk/static/SK/ZZ/2016/303/vyhlasene_znenie.html ; https://static.slov-lex.sk/static/SK/ZZ/2025/368/20260101.html ; https://rulecalc.com/sk/spotrebitel/poplatok-odber-vod",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b56"
+ },
+ "sonnet:slovakia:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Act 131/2010 (version in force from 15 Jul 2026) requires funeral firms to keep a per-person handling register and an operating rulebook (submitted to the regional public health office), and requires cemetery operators to keep a cemetery register and photograph each dug grave. Fines run up to 663 EUR, administered mostly by municipalities. The 15 Jul 2026 change is not identified. The listing shows amendment 165/2026 mainly as a public-health act amendment, so it is probably not a new trigger. The duties are one-off or ongoing record keeping, not periodic filings. Competition exists: virtualnecintoriny.sk/3wsk.sk sell grave management to municipalities for hundreds of EUR, and a CRZ contract shows a web app for funeral-firm records. No firm count was found. Weak, small market.",
+   "searches": 2,
+   "sources": "https://static.slov-lex.sk/static/SK/ZZ/2010/131/20260715.html ; https://www.zakonypreludi.sk/zz/2010-131/suvislosti ; https://www.crz.gov.sk//data/att/4280843.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b56"
+ },
  "triage:slovakia": {
   "result": {
    "decisions": [

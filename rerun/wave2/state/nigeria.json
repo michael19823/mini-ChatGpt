@@ -1,4 +1,28 @@
 {
+ "challenge:nigeria:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single killer. The free state portal plus the Commission's own audit covers the core registration duty, and no recurring renewal or inspection cadence is documented (unverified).",
+   "reason": "Nothing I found kills it. I found no Nigerian lift-compliance software, no deadline extension, and no small-firm exemption, and enforcement is real (12+ properties sealed on 30 April 2026). But the recurring part, which the business case needs, is unproven. The state portal (lasgsafetyregistration.com) is free and handles registration; the Commission then contacts the owner and does the audit itself. No source gives a certificate validity period, audit frequency, fee or contractor accreditation; Leadership only says existing lifts face 'periodic safety audits'. So the core job is mostly a one-off free registration plus a state-run audit. The buyers are few: a handful of lift contractors (JMG/TK Elevator and small dealers) and high-rise owners concentrated in Lekki, VI and Ikeja. No other state is copying the rule. Global tools (Lumiform, Klipboard) can cover generic maintenance logs.",
+   "searches": 5,
+   "sources": "https://lasgsafetyregistration.com/ ; https://leadership.ng/safety-lagos-gives-high-rise-owners-18-days-to-register-elevators/ ; https://gazettengr.com/lagos-to-seal-buildings-with-unregistered-elevators-from-april-1/ ; https://www.nigeriahousingmarket.com/news/lagos-tightens-building-safety-seals-properties-over-elevator-noncompliance ; https://www.newsghana.com.gh/lagos-seals-12-buildings-over-elevator-safety-non-compliance/ ; https://elevatorworld.com/news/daily-news/lagos-elevator-firm-meets-with-safety-commission/ ; https://www.finelib.com/cities/lagos/business/construction/contractors/elevator-contractors ; https://gazettengr.com/?p=199904",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b16"
+ },
+ "challenge:nigeria:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single killer found. The core job is mostly covered by free tools: the HEFAMAA e-portal (registration, payment, certificate), MLSCN's online facility registration, which replaced paper filing, and NHIA's online accreditation using SafeCare tools. The claimed trigger is also overstated: Lagos enforcement in 2026 restricts uninsured residents' access to government services; it does not make clinics refuse care.",
+   "reason": "No product kills this outright. I found no Nigerian tool that tracks a clinic's HEFAMAA, MLSCN and NHIA licences in one place. But the free state portals already do most of the work. HEFAMAA renewal is an online yearly form plus payment, the fine for operating unregistered is N100,000, and MLSCN registers facilities online. NHIA runs accreditation online using SafeCare tools. The claim misstates the Lagos insurance trigger: 2026 enforcement restricts uninsured residents' access to government services, not care at clinics. On the facility side, LASHMA only checks the readiness of hospitals already in the ILERA EKO network. The market is small, about 4,100 private facilities in Lagos (2023 figure). The pain is low-frequency, and consultants already sell this help.",
+   "searches": 8,
+   "sources": "https://hefamaaportal.com.ng/ ; https://support.hefamaaportal.com.ng/kb/faq.php?id=8 ; https://support.hefamaaportal.com.ng/kb/faq.php?id=6 ; https://guardian.ng/?p=2374665 ; https://thesun.ng/nhia-automates-accreditation-targets-90-pensioner-coverage-by-2026/ ; https://allafrica.com/stories/202605130070.html ; https://fmino.gov.ng/?p=46071 ; https://radionigerialagos.gov.ng/?p=39455 ; https://lasuth.org.ng/news/latest_news?news=131 ; https://endmalaria.org/sites/default/files/Dr%20Abiola%20Idowu%20Private%20Sector%20Engagement%20Strategies.pdf ; https://www.vanguardngr.com/2020/03/reverse-increase-in-licence-renewal-nma-tells-hefamaa/amp/ ; https://mocdoc.com/nigeria",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b16"
+ },
  "critic:nigeria": {
   "result": {
    "gaps": [
@@ -786,5 +810,714 @@
    "searches": 24
   },
   "tag": "w2b15"
+ },
+ "escalate:nigeria:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated bulk annual-return or PSC software was found.\n- **CAC portal:** Free self-filing; agent or bulk features were not verified.\n- **CAC reminders:** The CAC says it is building e-reminders for filing deadlines, working with NIBSS.\n- **Manual agents:** Accredited agents and company-secretarial firms file for clients; Corporate Bestie, for example, advertises filing within 48 hours.\n- **Content only:** Bumpa guides and a Paperform data-collection template.\n- **Not found:** Searches for Lawpadi, Approve, Lawyard and Registrar-type platforms returned nothing.\n- **Fees:** Bumpa puts the business-name filing fee at ₦3,000, with a ₦5,000 late penalty. Mondaq reports the company fee as tiered by share capital, from ₦5,000 at the lowest tier.",
+   "duty": "Confirmed.\n- **Annual returns:** CAMA 2020 s.417 requires every company, business name and incorporated trustee to file. Companies file within 42 days of the AGM or incorporation anniversary. Business names file by 30 June; Nairametrics, SCP Law and Bumpa all say so, so this no longer rests on one source.\n- **Penalty:** s.425 makes the company and each director or officer liable. The CAC said it would apply the Companies Regulations 2021 penalties in full from 1 Jan 2024, later moved to 1 Apr 2024. One summary gives about N1,000 per day. For business names and incorporated trustees the penalty falls on the entity only.\n- **Strike-off:** Failing to file for 10 consecutive years is a ground for strike-off.\n- **Current round:** The CAC notice of 15 Jul 2026 (Nairametrics, 16 Jul) is the sixth batch under s.692(3),(4). It covers 100,000 companies, which must file outstanding returns and PSC information within 90 days, so by about 13 Oct 2026. Firms that miss it are struck off without further notice, and restoration needs a court order.\n- **Not checked:** The letterhead rule under s.304(3) from 1 Aug 2026.",
+   "market": "- **Register size:** Daily Trust reported 3.1 million registered companies, a pre-2025 cumulative figure. No current official total was found.\n- **Strike-offs:** The CAC struck off more than 400,000 companies in 2025, and 100,000 more are in the 2026 batch.\n- **Active market:** Probably on the order of 1 to 2 million entities with a yearly filing duty (an unverified estimate). Many of them are dormant or informal and unlikely to pay.",
+   "reason": "The duty is real and enforced. CAMA 2020 s.417 requires annual returns. s.425 makes the company and each director liable to prescribed penalties, applied in full since April 2024. The CAC's 15 Jul 2026 notice under s.692(3),(4) gives 100,000 firms 90 days to file outstanding returns and PSC information. Searches found no dedicated SaaS, only guides, the CAC's own self-file portal and manual accredited agents. But the strike-off window closes around 13 Oct 2026, four days from today, so that trigger has almost passed. Most firms on the list are dormant. Filing fees are small (₦3,000 to ₦5,000 for small entities), so customers will pay little. The CAC also plans its own e-reminders. A cheap agent-backed service could work; standalone software is a weak opportunity.",
+   "searches": 6,
+   "sources": "https://nairametrics.com/2026/07/16/cac-begins-process-to-strike-off-100000-companies-over-regulatory-non-compliance/ ; https://www.techeconomy.ng/cac-moves-to-strike-off-100000-dormant-companies-in-sixth-batch-since-2023 ; https://gazettengr.com/annual-returns-cac-threatens-sanctions-by-jan-1-against-defaulting-firms-directors/ ; https://www.thisdaylive.com/2023/12/29/annual-returns-cac-extends-penalty-deadline-to-april/ ; https://www.lawglobalhub.com/?p=59111 ; https://resource.scp-law.com/2026/06/11/the-june-30-deadline-is-closer-than-you-think-what-every-registered-business-must-do-now/ ; https://www.getbumpa.com/blog/how-to-file-cac-annual-returns-online-in-2026-as-a-business-owner ; https://webiis10.mondaq.com/nigeria/directors-and-officers/1642014/regulatory-update-corporate-affairs-commission-issues-new-schedule-of-fees ; https://nibss-plc.com.ng/cac-and-nibss-forge-partnership-to-boost-compliance-with-cama-requirements/ ; https://corporatebestie.com/2025/06/24/annual-returns-for-nigerian-businesses-deadlines-penalties-how-to-stay-active/ ; https://dailytrust.com/cac-delists-over-400000-companies-in-2025/ ; https://www.dailytrust.com.ng/nigeria-has-3-1m-registered-companies-cac.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b16"
+ },
+ "escalate:nigeria:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "For computation and records, the core job named in the claim, I found several products:\n- TaxPaddy (iOS, first released 16 Jan 2026, v1.0.7) targets freelancers, gig workers, small business owners and landlords under 2026 Nigerian tax law. It tracks income and expenses, calculates tax, suggests deductions and produces PDF summaries for an accountant. It costs N1,500 a month or N15,000 a year. Its listing does not say it files returns with a tax authority.\n- TaxfixNG (iOS) estimates tax liabilities for individuals and small businesses, prepares filings and takes uploads of receipts and expense records.\n- Kaanta AI is a WhatsApp assistant for traders and small business owners that calculates tax and identifies reliefs.\n- NaijaTrax is an Excel tracker sold on Selar.\n- Deloitte and BusinessDay offer free calculators, and Sterling Taxshop publishes guides.\n- Filing goes through the free LIRS eTax portal in Lagos and through other state IRS portals elsewhere.\nNot verified: the user numbers and quality of these apps, and whether any of them files directly with a state IRS.",
+   "duty": "Confirmed and in force: NTAA 2025 ss.13 and 14(3) require each individual with taxable income, including the self-employed, business owners and informal-sector traders, to file a return of total income with their state IRS within 90 days of the start of the assessment year. LIRS set 31 March 2026 for the 2025 income year, then extended it once to 14 April 2026. Penalties: s.101 fines non-filing or an inaccurate return N100,000 for the first month plus N50,000 for each further month. s.102 fines missing records N10,000 for individuals. Interest is charged at the CBN rate. Filing in Lagos is electronic only, through etax.lirs.net. The return is annual. Not checked: the s.147 small-business definition and how other states enforce the rules.",
+   "market": "NBS counted 39.65 million MSMEs in 2020, 96.9% of them micro. PwC's 2024 survey, citing NBS, puts sole proprietorships at 96.2%. I found no count of how many of these businesses are registered for direct assessment or hold a TIN. BusinessDay says informal and SME individuals make up most of about 4 million non-compliant taxpayers, but that figure is national and undated. Most of the potential market sits outside the tax net, and enforcement outside PAYE is weak.",
+   "reason": "The duty is real. Under NTAA 2025 ss.13 and 14(3), every individual with taxable income, including sole traders, landlords and informal traders, must file an annual return within 90 days. LIRS moved the 2026 deadline to 14 April as a one-off. Late filing is fined N100,000 plus N50,000 a month (s.101), and missing records N10,000 (s.102). But the claim says the remaining pain is calculating the tax and keeping records, and that is already done for this exact buyer. TaxPaddy (iOS, launched January 2026, N1,500 a month) targets freelancers, small business owners and landlords. TaxfixNG and Kaanta AI do similar work, and the free LIRS eTax portal handles filing. Other problems: 36 separate state systems, weak enforcement outside PAYE, and low willingness to pay.",
+   "searches": 5,
+   "sources": "https://www.icirnigeria.org/lagos-alerts-taxpayers-to-march-deadline-for-filing-individual-annual-returns/ ; https://nairametrics.com/2026/03/31/lirs-extends-deadline-for-individual-tax-returns-filing-to-april-14/ ; https://brandspurng.com/2026/02/26/taxpayers-urged-to-file-individual-annual-returns-ahead-of-31st-march-2026-deadline/ ; https://businessday.ng/news/article/eight-common-tax-filing-errors-their-penalties/ ; https://www.arise.tv/lirs-warns-of-penalties-for-lagos-workers-who-fail-to-file-annual-tax-returns-by-march-31 ; https://mwm.ai/apps/taxpaddy/6756550704 ; https://apps.apple.com/mx/app/taxfixng/id6757308901 ; https://naltf.gov.ng/?p=10794 ; https://selar.com/73361wn7p1 ; https://techcabal.com/2026/04/02/how-to-file-tax-on-the-lirs-etax-portal/ ; https://economicconfidential.com/registered-msmes-41-5m/ ; https://pwc.com/ng/en/assets/pdf/pwc-msme-survey-report-2024.pdf",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b16"
+ },
+ "gapfill:nigeria": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small private firms with 3 to 50 staff that bid for federal or state contracts, and consultancy and construction suppliers, plus accountants who serve them",
+     "category": "32. Employer pension, NSITF and ITF registrations for micro-employers",
+     "evidence": "https://nairametrics.com/2022/01/10/how-companies-can-apply-for-pencom-compliance-certificate/ ; https://pencom.gov.ng/wp-content/uploads/2025/04/ADVERT-FOR-EOI-UPDATED-APRIL-2025.pdf (PCC, ITF and NSITF certificates required together; PCC valid to 31 Dec 2025; ITF at 5 staff or N50m turnover) ; https://nsitf.gov.ng/inspection/ ; https://guardian.ng/news/nigeria/national/nsitf-to-criminalise-non-compliance-with-workers-compensation-scheme/ ; https://thecable.ng/pension-insight-cps-private-sector-compliance-surges-in-first-half-of-2024 (PenCom issued 4,657 and declined 1,973 in a 2019 round).",
+     "existing": "Competitor search run: only private consultants (for example solnigeria.com corporate regulatory services) and tender-support agencies; no dedicated software found. Generic payroll tools (Remita, SeamlessHR) are K13.",
+     "known_id": "K13",
+     "known_mark": "new",
+     "known_note": "K13 rejected generic multi-state payroll remittance. This is a different buyer (contract-seeking micro-employers) and a different duty (annual compliance certificates with pre-conditions: remittance proof, group life cover, employer code).",
+     "name": "Done-for-you employer compliance-certificate tracker for micro-employers (PenCom PCC + NSITF + ITF)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Pension Reform Act 2014 (3+ employees; PCC valid to 31 Dec each year); Employees' Compensation Act 2010 (1 percent of payroll, NSITF certificate); ITF (5+ staff or N50m turnover). The three certificates are listed together in federal tender EOIs, and NSITF is lobbying for tougher penalties.",
+     "unchecked": "Whether PenCom's PCC portal is fully online and free (it likely is), annual volume of applicants, whether NSITF and ITF certificates have an online portal, current NSITF headcount threshold, and whether the certificates are in practice checked for non-government clients."
+    },
+    {
+     "buyer": "Sole proprietors, landlords, professionals and informal traders in Lagos and other states; accountants and bookkeepers filing for many of them",
+     "category": "31. Federal and state personal income tax for sole traders",
+     "evidence": "https://www.icirnigeria.org/lagos-alerts-taxpayers-to-march-deadline-for-filing-individual-annual-returns/ ; https://nairametrics.com/2026/03/31/lirs-extends-deadline-for-individual-tax-returns-filing-to-april-14/ ; https://techcabal.com/2026/04/02/how-to-file-tax-on-the-lirs-etax-portal/ (eTax portal had outages before the deadline) ; https://businessday.ng/?p=1072155 (penalties) ; https://regfollower.com/nigeria-nrs-announces-the-implementation-of-taxpayer-identification-tax-id/",
+     "existing": "Competitor search run: LIRS eTax portal (free state channel); PwC TaxTim (2020 article, status unknown); blogs and guides only. No dominant mass product seen. Free state portal covers the filing step, and the pain is computation and record-keeping.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "known_note": "K05 is the Rev360 cockpit for tax practitioners (federal). This one targets state-level personal income tax for sole traders; the buyer and duty differ, but practitioners overlap.",
+     "name": "Sole trader and family-firm annual personal income tax return and direct assessment helper (state IRS)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Nigeria Tax Administration Act 2025 ss.13-14: annual individual return due 31 March for the prior year (Lagos; extended to 14 April in 2026); records fine under s.102; the Tax Act effective 1 Jan 2026 with new bands and an N800,000 exemption; Tax ID (NIN) from 18 May 2026.",
+     "unchecked": "Each of 36 states has its own IRS portal and calendar, which hurts MVP simplicity; actual penalties for individuals; share of sole traders actually in the net (enforcement is weak outside PAYE); willingness to pay; whether the new Tax Act simplified small-business treatment (s.147 small-business definition not read)."
+    },
+    {
+     "buyer": "Small private landlords and property managers in Lagos (multiple small buildings)",
+     "category": "34. Small landlords and property owners",
+     "evidence": "https://gazettengr.com/lagos-releases-2026-land-use-charge-offers-early-payment-incentive/ ; https://leadership.ng/lagos-to-enforce-2025-statutory-land-use-charge-payment-as-2026-bills-released/ ; https://www.nigeriahousingmarket.com/news/lagos-govt-orders-property-owners-to-settle-2025-land-use-charge-debts ; https://von.gov.ng/lagos-simplifies-payment-of-land-use-charge/",
+     "existing": "Competitor search run: payment is free via LOLA WhatsApp assistant, banks, USSD and the Revenue Portal. Rent apps (Dwellrs, HausRenta) cover rent but no LUC. Gap exists for multi-property reminders and objection handling, but pain per owner is one payment a year.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Lagos Land Use Charge and landlord obligation tracker for small property owners",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Lagos Land Use Charge Law: annual demand notice (2026 bills released 4 March 2026), 15 percent early-payment discount, 30-day objection window (older source), enforcement against 2025 defaulters including sealing and prosecution.",
+     "unchecked": "Lagos tenancy law registration and stamp duty on leases; number of multi-property landlords; payment agents already offering this as a service; willingness to pay."
+    },
+    {
+     "buyer": "Property owners and small commercial occupiers in Abuja (including petrol stations, shops and offices on FCT leases)",
+     "category": "34. Small landlords and property owners",
+     "evidence": "https://gazettengr.com/wike-revokes-4794-land-titles-over-non-payment-of-ground-rent/ ; https://www.icirnigeria.org/wike-reaffirms-threat-to-seal-buildings-of-ground-rent-defaulters/ ; https://blueprint.ng/mass-enforcement-awaits-abuja-property-debtors-next-week-fcta/ ; https://nannews.ng/fcta-seals-firs-access-bank-others-over-unpaid-ground-rent/",
+     "existing": "No product found. Single-event enforcement drive that may be one-off, with a large share of defaulters being institutions and individuals who are not a software market. A lawyer-led service is likelier than software.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "FCT ground rent, violation fee and land-use conversion default tracker",
+     "score": 3,
+     "status": "weak",
+     "trigger": "FCTA enforcement: 4,794 titles revoked in March 2025, sealing from May 2025, 1,095 properties in Nov 2025, further 2026 enforcement announced. Legal basis contested (Land Use Act s.28 versus s.42).",
+     "unchecked": "Whether FCTA has an online payment and status portal; size of the unpaid population; competitor search not run for lack of budget."
+    },
+    {
+     "buyer": "Owners of bars, clubs, lounges, event centres and small hotels in Lagos",
+     "category": "35. Police-facing and small regulated premises",
+     "evidence": "https://guardian.ng/news/lagos-seals-eight-defaulting-nightclubs-event-centres/ ; https://von.gov.ng/?p=284898 ; https://gazettengr.com/lagos-government-sealed-840-event-centres-clubs-hotels-in-one-year-commissioner/ ; https://leadership.ng/lagos-govt-seals-off-2800-sites-businesses-over-safety-infractions/",
+     "existing": "Not checked for competing software. Compliance is mostly physical (extinguishers, signage, parking), so software reach is limited to document and permit tracking.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Lagos Safety Commission compliance and event safety permit file for bars, lounges and event centres",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Lagos State Safety Commission Law 2011: safety compliance certificate, event safety permit online, sealing after three warnings; 641 hospitality audits and 840 event centres, clubs and hotels sealed (reported).",
+     "unchecked": "Competitor search not run (budget spent); certificate validity and renewal cycle; the liquor licence (state body name unconfirmed; 'LASAA' not identified); hunter and firearms licensing; whether the sealing figure of 840 is within a single year of 2026."
+    },
+    {
+     "buyer": "Licensed small mineral and gold buyers and buying-centre operators (about 91 gold licences in 2023; about 388 to 400 centres)",
+     "category": "4. Gold and jewellery buyers (and artisanal mining buyers)",
+     "evidence": "https://wikiprocedure.com/index.php/Nigeria_-_Apply_for_Buying_Centre_Certificate (fetched: one-year validity, renewal unspecified, no returns duty listed) ; https://kolaking.substack.com/p/fg-grants-499-licences-for-buying ; https://msmd.gov.ng/wp-content/uploads/2024/07/NEW-ROYALTY-RATES-4TH-JULY-2024-MSMD.pdf ; https://businessday.ng/?p=1087784 (388 buying centres; PAGMI offtake)",
+     "existing": "None found. Small buyer pool, uncertain documentation duty, and a state-run offtake (PAGMI to CBN) may sideline private buyers.",
+     "known_id": "K15",
+     "known_mark": "new",
+     "known_note": "K15 rejected buying centres as a capital problem (value-addition rules). I did not find evidence that overturns it: no periodic returns duty was confirmed, so this is not a revive.",
+     "name": "Mineral Possess/Purchase licence and buying-centre certificate renewal pack for small gold and mineral buyers",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "One-year Possess/Purchase licence and buying-centre certificate with renewal and fee payment; ministry revoked over 1,600 titles in Nov 2023 for unpaid fees and flagged more.",
+     "unchecked": "Whether buyers must file monthly or quarterly returns or records with the Mining Cadastre or Mines Inspectorate; which ministry issues the permit now; renewal checklist; competitor search not run."
+    },
+    {
+     "buyer": "Small licensed customs agents and freight forwarders (thousands)",
+     "category": "33. Small importers and customs agents",
+     "evidence": "https://guardian.ng/business-services/customs-suspends-n10-million-agent-licensing-renewal-fee-hike/ (headline only) ; https://allafrica.com/stories/202507180406.html ; https://von.gov.ng/nigeria-customs-begins-stakeholder-talks-on-new-licensing-fees/",
+     "existing": "Not checked. Rule dispute is unresolved and unclear which regime will apply, so the duty may not be stable enough to build on.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Licensed customs agent annual licence, fee and returns file (Nigeria Customs Service and CRFFN)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Nigeria Customs Service Act 2023 ss.103-107 licence renewal; fee review planned for Jan 2026, a proposed N10m fee suspended; CRFFN practitioner fee dispute and a July 2025 court ruling.",
+     "unchecked": "2026 renewal checklist; whether fees were finalised; B'Odogwu rollout status; whether agents already use freight-forwarding software; competitor search not run."
+    },
+    {
+     "buyer": "Low-volume importers of food, cosmetics, drugs and general goods",
+     "category": "33. Small importers and customs agents",
+     "evidence": "https://leadership.ng/central-bank-grants-2-month-form-m-relief-to-importers/ ; https://www.hqts.com/our-services/certificate-conformity/soncap-certification/ ; https://carraglobe.com/importer-of-record-nigeria/",
+     "existing": "Not checked; customs agents and banks already handle most steps for importers.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Small importer permit calendar (NAFDAC licence validity, SONCAP, Form M, PAAR)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "NAFDAC licences expired 31 Dec 2025 and CBN allowed a short dispensation to 28 Feb 2026; SONCAP shipment certificates per consignment; Form M via bank.",
+     "unchecked": "Who actually holds the burden (agent versus importer); NAFDAC renewal cycle; whether any tracker product exists."
+    },
+    {
+     "buyer": "About 2 million banking agents, mostly sole operators",
+     "category": "35. Police-facing and small regulated premises",
+     "evidence": "https://techcabal.com/2025/10/07/cbn-bans-agents-owning-multiple-moniepoint-opay-palmpay-terminals/ ; https://techcabal.com/2025/12/06/cac-to-shut-down-unregistered-pos-operators/ ; https://www.icirnigeria.org/cbn-caps-pos-agents-daily-transactions-at-%E2%82%A61-2m-insists-on-geo-tagging-of-operators/",
+     "existing": "Principals (Moniepoint, Opay, PalmPay) handle onboarding, KYC, limits and geo-tagging in their own apps and terminals; CAC has its own bulk registration channel. Agents have very low willingness to pay and the deadlines have passed. Not an open niche.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "POS and mobile-money agent compliance kit (CBN agent exclusivity, CAC registration, KYC roster)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "CBN Agent Banking Guidelines 6 Oct 2025 (single principal from 1 April 2026; N1.2m daily cap; geo-tagging); CAC registration order of 1 Jan 2026.",
+     "unchecked": "Whether the CAC January 2026 deadline was enforced or extended; any non-principal duty such as a separate Lagos POS registration (none found)."
+    },
+    {
+     "buyer": "All individuals and businesses holding a TIN",
+     "category": "31. Federal and state personal income tax for sole traders",
+     "evidence": "https://regfollower.com/nigeria-nrs-announces-the-implementation-of-taxpayer-identification-tax-id/ ; https://www.itedgenews.africa/nigeria-replaces-tin-with-unified-tax-id-system-to-streamline-tax-administration/ ; https://economicconfidential.com/nrs-tax-id-system-nationwide/",
+     "existing": "Individuals can use their NIN directly and companies use their RC number, so there is almost nothing to migrate.",
+     "known_id": "",
+     "known_mark": "new",
+     "name": "Tax ID (NRS/JRB) migration helper for sole traders",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Tax ID announced 18 May 2026 under NTAA 2025 ss.6-8, replacing the TIN; no immediate sanctions in the transition period.",
+     "unchecked": "Whether banks demand re-verification; the format of the Tax ID."
+    },
+    {
+     "buyer": "Private guard companies",
+     "category": "35. Police-facing and small regulated premises",
+     "evidence": "https://fmino.gov.ng/nscdc-strengthens-private-security-regulation-in-abia/ ; https://nannews.ng/fct-nscdc-boss-lauds-private-guards-for-licence-renewal/",
+     "existing": "Same as K07.",
+     "known_id": "K07",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty; only extra evidence is the 2026 Abia deadline and FCT enforcement.",
+     "name": "Guard register and NSCDC licence-renewal file for private guard companies",
+     "score": 0,
+     "status": "weak",
+     "trigger": "NSCDC renewal deadlines and sanctions (Abia end of July 2026; FCT expired-licence warnings)."
+    },
+    {
+     "buyer": "Jewellery dealers",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "No new search; covered by K08.",
+     "existing": "Not rechecked.",
+     "known_id": "K08",
+     "known_mark": "known",
+     "known_note": "Not rechecked per contract.",
+     "name": "SCUML compliance kit for jewellery dealers",
+     "score": 0,
+     "status": "weak",
+     "trigger": "SCUML registration and cash-transaction reporting."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "No new jewellery-dealer duty beyond K08 (SCUML). Gold buying is licensed federally (Mining Cadastre Office, Possess/Purchase licence, one-year validity, renewable; Mineral Buying Centre certificate, one year). Counts are small: about 91 gold purchase/sale licences in 2023 and about 388-400 buying centres. The ministry has revoked titles for unpaid fees. No periodic-returns duty for buyers was found. See candidate on mineral buyer permits (related K15).",
+     "status": "screened"
+    },
+    {
+     "category": "4b. Gold and jewellery buyers plus artisanal mining buyers (second row for the duplicated assignment)",
+     "found": "Same finding. PAGMI (Presidential Artisanal Gold Mining Initiative) is a centralised offtake: it buys gold aggregated by licensed buying centres and sells to the CBN, so the state and the CBN programme sit on the buyer side. No official 2026 list of licensed buyers, no renewal checklist, and no named software product. A 2026 'blueprint' on Selar is a paid private guide, not relied on. Issuing ministry is unclear: sources say Mines and Steel Development or Solid Minerals Development.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Federal and state personal income tax for sole traders (Nigeria Tax Acts 2026, state IRS, NRS Tax ID)",
+     "found": "Personal income tax is a state duty. Lagos required individual annual returns by 31 March 2026 (extended to 14 April, one source), under NTAA 2025 ss.13-14, via the LIRS eTax portal, which had outages before the deadline. Employer PAYE penalties are heavier under NTAA 2025: 40 percent on tax not deducted (s.105), 10 percent a year plus interest on late remittance (s.107), N10,000 fine for individuals' record failures (s.102). The unified Tax ID (NIN for individuals, RC number for companies) was announced 18 May 2026 with no immediate sanctions during transition. New candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Employer pension, NSITF and ITF registrations for micro-employers",
+     "found": "PenCom compliance certificate: 3 or more employees, valid to 31 December each year, needed for federal contracts; requires pension remittance and group life cover of at least 3 times annual emoluments. NSITF: 1 percent of payroll, certificate of compliance, 5-10 percent monthly penalty. ITF: certificate where staff are at least 5 or turnover is at least N50m, per a 2025 PenCom tender. NSITF says 7.8m workers enrolled (July 2026) and that criminalising non-enrolment is proposed, not enacted. Only private consultants (for example solnigeria) offer the filing service; no software found. New candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Small importers, NAFDAC/SON permits and customs agents (extends 30)",
+     "found": "Importer chain: Form M via a dealer bank, SONCAP product certificate (unregistered route for one-off shipments), NAFDAC permits, PAAR. CBN gave a two-month relief to 28 Feb 2026 for NAFDAC licences that expired 31 Dec 2025 (a deadline-driven scramble; later status unknown). Customs agents: Customs planned a licence/renewal fee review for Jan 2026 and suspended a proposed N10m fee (headline only); a July 2025 Federal High Court ruling says licensed customs agents are not under CRFFN control. Regulatory fight is unresolved, and no 2026 renewal checklist was found. B'Odogwu rollout not confirmed. Listed as unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Small landlords and property owners (Lagos Land Use Charge, FCT ground rent, tenancy)",
+     "found": "Lagos released 2026 Land Use Charge bills on 4 March 2026, with a 15 percent early-payment discount and warnings of enforcement against 2025 defaulters. FCTA revoked 4,794 titles in 2025 for ground rent default, sealed premises, and approved enforcement on 1,095 more properties in Nov 2025; the legal basis is disputed (Land Use Act s.28 versus s.42). Payment channels are free state ones (LOLA WhatsApp, banks, USSD, Revenue Portal). Rent apps (Dwellrs, HausRenta) exist but none tracks LUC or ground rent. Lagos tenancy registration was not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Police-facing and small regulated premises: POS agents, bars/event centres, private guards",
+     "found": "POS agents: CBN Agent Banking Guidelines of 6 Oct 2025 (one principal per agent from 1 April 2026, N1.2m daily cap, agent roster/KYC updates) and a CAC order that PoS operators register by 1 Jan 2026; the principals (Moniepoint, Opay, PalmPay) own agent onboarding, so the buyer is largely captive to them. Bars, clubs and event centres: Lagos State Safety Commission certificate and event safety permit; 840 event centres, clubs and hotels sealed in a year and 641 hospitality audits; no liquor-licence renewal source found and 'LASAA' not identified. Private guards: NSCDC licence renewal (Abia deadline end of July 2026, FCT sanctions for expired licences) is K07. Hunter firearms licensing not reached.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 1,
+   "queries": [
+    "Mineral buyers permit Ministry of Solid Minerals Development renewal gold dealer licence requirements 2025 2026 Nigeria",
+    "LIRS direct assessment self-employed annual return 31 March 2026 Nigeria Tax Act personal income tax sole proprietor filing",
+    "PenCom compliance certificate employers 3 or more employees enforcement 2026 NSITF certificate of compliance small business",
+    "CRFFN licence renewal customs agents B'Odogwu 2026 Nigeria",
+    "Lagos Land Use Charge 2026 demand notice payment deadline landlords",
+    "POS agents registration CBN agent banking guidelines 2025 Lagos POS operators registration deadline",
+    "NAFDAC import permit small importers SONCAP Form M compliance 2026 Nigeria new requirements",
+    "FCT ground rent default revocation sealing 2026 FCTA Abuja property owners",
+    "Lagos liquor licence bars nightclubs event centres renewal LASAA 2026 enforcement",
+    "NSCDC private guard companies vigilante registration renewal 2026 Nigeria",
+    "Nigeria Tax Administration Act 2025 small business employers state PAYE registration penalties NRS TIN NIN harmonisation 2026",
+    "gold traceability Nigeria artisanal miners Solid Minerals Development Fund gold buying centres PAGMI 2026 buyers",
+    "PenCom compliance certificate application service agency NSITF ITF compliance certificate consultants small business Lagos (competitor)",
+    "personal income tax filing app Nigeria sole proprietors self-assessment software LIRS eTax agent (competitor)",
+    "land use charge payment app property management software Lagos landlords rent register app (competitor)",
+    "WebFetch wikiprocedure Nigeria Apply for Buying Centre Certificate",
+    "Lagos State Safety Commission safety compliance certificate registration deadline bars event centres hotels 2026",
+    "NSITF Employees Compensation Act enforcement 2026 employers registration drive ITF levy small employers defaulters"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b16"
+ },
+ "opus:nigeria:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The state portal lasgsafetyreg.com redirects to lasgsafetyregistration.com. It offers free registration of equipment, buildings and facilities, and the Commission contacts the applicant for an audit within 7 to 14 days. It does not mention renewals, reminders or inspection scheduling, and does not name lifts specifically. No Nigerian vendor was found. Global lift maintenance and inspection software exists: Klipboard, Caction, Sitemate, Lumiform (which has overdue-inspection reminders), Snappii and the Odoo lift module. None is tailored to the Lagos regime.",
+   "duty": "Lagos State Safety Commission (under the Lagos State Safety Commission Law No. 6 of 2011) required all elevators and vertical transport equipment to be registered and certified by 31 March 2026. New installations are inspected before use. Existing lifts must hold a valid certificate for life and face periodic safety audits (interval not published). The penalty is sealing and shutdown of the premises and decommissioning of the lift. Sealings of more than 12 premises were reported around 30 April 2026, with enforcement said to be continuing. Not found: a gazetted lift-specific regulation, the renewal or inspection interval, contractor accreditation rules, and any extension or update after May 2026. Federal Lifting Equipment Regulations 2018 under the Factories Act (cited in the claim, not re-checked).",
+   "market": "Not reached. No count of lifts or lift contractors in Lagos was found. Reports mention only sealings of more than 12 premises. The likely buyer base is a few thousand lift-equipped buildings plus a small number of lift contractors (for example JMG Ltd, a TK Elevator distributor). This is an estimate, not verified.",
+   "reason": "The duty is real and enforced. The Lagos State Safety Commission, acting under the Safety Commission Law No. 6 of 2011, required all lifts to be registered and certified by 31 March 2026. Around 30 April it sealed more than 12 malls, hotels and residential buildings and said enforcement would continue. No Nigeria-specific lift-compliance software turned up. Still, the free state portal handles registration, and global lift field-service and inspection apps (Klipboard, Caction, Lumiform) cover maintenance logs and reminders. The renewal interval, fees and contractor accreditation are unpublished, so the recurring part is unclear. The market is small: Lagos lift owners plus a few dozen lift contractors, with no count found. Buyers are concentrated and the main act is a one-off free registration, so the score is modest.",
+   "searches": 5,
+   "sources": "https://gazettengr.com/lagos-to-seal-buildings-with-unregistered-elevators-from-april-1/ ; https://leadership.ng/safety-lagos-gives-high-rise-owners-18-days-to-register-elevators/ ; https://saharareporters.com/2026/05/04/lagos-government-shuts-down-multiple-malls-hotels-buildings-over-deadly-elevator ; https://www.newsghana.com.gh/lagos-seals-12-buildings-over-elevator-safety-non-compliance/ ; https://lasgsafetyregistration.com/ ; https://lawnigeria.com/2019/10/lagos-state-safety-commission-law/ ; https://techpoint.africa/news/lagos-coworking-spaces-tech-hubs-safety-audit-levy/ ; https://klipboard.io/industry-sectors/lift-elevator-maintenance-software/ ; https://lumiformapp.com/app-uses/elevator-management-app ; https://caction.com/industries/elevator-maintenance-management-system",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b16"
+ },
+ "opus:nigeria:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free NADDC Dealership Registration Portal handles dealer registration, company profile submission, certification and secure online payment of fees (legit.ng, itedgenews). That covers the core job. I found no private tool, and none seems needed for a once-a-year portal form.",
+   "duty": "Reported (Guardian, search snippets) that every car dealer must get an NADDC certificate under the National Vehicle Dealership Registration Framework launched 10 April 2026, renewable every year (DG quote in press). The legal basis given is policy only (NAIDP 2023-2033). I found no regulation text, fee schedule, deadline or sanction. The DG says enforcement is 'largely self-regulating, driven by consumer awareness and market forces', and Blueprint quotes him saying the exercise is 'not an added regulatory burden'. AMDON expects a 3-6 month transition before any enforcement. Rollout continues region by region (Kaduna North-West workshop, 30 Sept 2026). No per-sale record or VIN reporting duty was found. The NADDC primary page redirects to dev.cngportal.com.ng, which returned 404, so I could not read it.",
+   "market": "Not found. No count of dealers or AMDON members was published. NADDC says the framework is meant to build that database. The sector is large but mostly informal.",
+   "reason": "Press reports say every Nigerian car dealer needs an NADDC certificate under the April 2026 framework, renewed every year. But I found no gazetted regulation, penalty or deadline. The NADDC Director-General calls the system largely self-regulating, driven by consumer awareness and market forces. AMDON only expects a 3-6 month transition. The free NADDC portal already does the core job: profile submission, certification and online fee payment. That leaves only a once-a-year form. I found no per-sale or VIN reporting duty, and no dealer count. Most tokunbo dealers are informal and sensitive to cost, so willingness to pay is weak. Help with registration through AMDON could be a minor service, not a software product.",
+   "searches": 4,
+   "sources": "https://www.legit.ng/business-economy/industry/1721260-fg-opens-naddc-dealership-registration-portal-car-dealers-import-duty-cut/ ; https://blueprint.ng/?p=850404 ; https://nannews.ng/sanitising-nigerias-auto-market-via-dealership-registration/ ; https://guardian.ng/news/naddcs-rollout-vehicle-registry-framework-to-formalise-auto-sales-curb-theft/ (snippet only) ; https://www.itedgenews.africa/naddc-launches-digital-framework-to-sanitize-and-regulate-nigerias-automotive-dealership-sector (snippet only) ; https://nannews.ng/fg-unveils-vehicle-dealership-registration-framework-to-sanitise-sector-boost-data/ (snippet only) ; https://naddc.gov.ng/naddc-launches-national-vehicle-dealership-registration-framework-to-transform-nigerias-automotive-industry/ (redirects to a 404, not read)",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b16"
+ },
+ "opus:nigeria:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The free NELEX portal (nelex.gov.ng) handles online application, renewal and fee payment by card or Remita RRR. Licensing was digitised in April 2024. It does not track expiry dates or assemble the evidence pack. Payroll and HR software (SeamlessHR, SoftSUITE, IceHrm) computes and remits NSITF, ITF and pension. Outsourcing and EOR firms (SOL Nigeria, HRLeverage, Anywherer) offer compliance as a service. No recruiter-licence or PEA compliance tracker was found.",
+   "duty": "Labour Act Cap L1 ss.23-25, 71 (federal, in force). Recruiter's Licence from the Federal Ministry of Labour and Employment. Fresh domestic licence N205,000 for 2 years. Renewal N105,000 for 1 year or N205,000 for 3 years. International licence N305,000 for 2 years. Renewal must be filed before expiry with NSITF registration and renewal evidence, PFA registration, bank guarantee or bond (N1.5m-5m domestic), client contracts, handbook and health insurance, plus a state labour office inspection. Ongoing duties: quarterly reports, routine inspection, annual PEA workshop, vacancies posted on NELEX. Incomplete files are returned. No specific fine was found for operating unlicensed. The NSITF judgment (NICN Awka, 4 June 2026) confirms Employees' Compensation Act enforcement but gives no penalty amounts.",
+   "market": "Not found. No published count of licensed private employment agencies; the ministry and NELEX link a registered-PEA list but give no total. EAPEAN (formerly HuCaPAN) is the umbrella body of licensed PEAs, but its membership figure was not found. Rough estimate is hundreds to low thousands; unverified.",
+   "reason": "The duty is real and federal. Sections 23-25 and 71 of the Labour Act require a Recruiter's Licence. Applications and renewals now go online through the ministry's NELEX portal: N5,000 application fee, then N100k-N300k per licence. Renewal is every 1, 2 or 3 years, plus quarterly reports and inspections. Renewal needs NSITF, PFA and client-contract evidence plus a bond; incomplete files are sent back. No licence or compliance tracker exists. Payroll tools (SeamlessHR, SoftSUITE) handle NSITF/ITF remittances, and NELEX handles submission. That leaves only document assembly and reminders: a thin MVP for an event every 1-3 years. No published count of licensed agencies; likely hundreds to low thousands. The EAPEAN association is a possible sales channel. Low frequency and low pain make it a weak standalone product, better as an add-on to K01 or payroll.",
+   "searches": 4,
+   "sources": "https://nelex.gov.ng/recruiters-license ; https://labour.gov.ng/recruiters-licence/ ; https://www.mondaq.com/nigeria/recruiting/897538/recruiters-license-nigeria ; https://radionigerialagos.gov.ng/eapean-inaugurated-in-lagos-as-federal-ministry-of-labour-and-employment-digitalises-recruiters-licenses/ ; https://von.gov.ng/nsitf-secures-landmark-judgment-on-employees-compensation-compliance/ ; https://hucapan.org/aboutus/who-we-are/ ; https://solnigeria.com/corporate-regulatory-services ; https://www.softsuite.com/blogs/best-hr-software-in-nigeria-it-s-not-a-debate-it-s-soft-suite ; https://businessday.ng/?p=428379",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b16"
+ },
+ "opus:nigeria:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "LIRS Eco Fiscal System (EFS), a free and mandatory state tool. It connects to the operator's POS, calculates the 5% tax, issues receipts with unique invoice numbers, sends sales to the LIRS Online Tax System in real time and keeps audit records. LIRS supplies a POS where an operator has none, and officials install the software on site. Hotel and POS vendors would also have to integrate with EFS. No third-party compliance tracker for the hospitality sector was found.",
+   "duty": "Confirmed in force: Hotel Occupancy and Restaurant Consumption (HORC) Law 2009, Lagos State. A 5% consumption tax on goods and services sold in hotels, restaurants and event centres. Operators collect it as agents, must register with LIRS and remit monthly by the 20th of the following month. Late payment costs a 10% penalty plus interest at 5% above the CBN Monetary Policy Rate. LIRS has closed non-payers (16 firms in one case, 23 in another). The 2017 Fiscalisation Regulation requires EFS software, with penalties under s.11(2) of the 2009 law. Not verified: how the 2025 tax reform (Nigeria Tax Act) treats the levy. The Court of Appeal's ruling on the overlap with federal VAT also leaves its legal footing contested. The hotel-licensing, Lagos Safety Commission and NIHOTOUR duties were not checked.",
+   "market": "Not found. No register count of Lagos hotels, restaurants and event centres registered for consumption tax turned up in the searches.",
+   "reason": "The duty is real. The Lagos Hotel Occupancy and Restaurant Consumption Law 2009 sets a 5% tax, collected by the business as agent. Operators must register with LIRS and remit monthly by the 20th, or pay a 10% penalty plus interest; LIRS has closed non-payers. But LIRS already does the core job with its own mandatory Eco Fiscal System (EFS), under the 2017 Fiscalisation Regulation. EFS connects to the operator's POS, applies the rate automatically, issues numbered receipts and sends sales to the LIRS Online Tax System in real time. LIRS supplies a POS to operators who lack one and installs the software on site. That leaves little for a third-party tracker to do beyond licence reminders. Not checked: how the 2025 federal tax reform affects the Lagos levy. Not found: a count of affected businesses.",
+   "searches": 5,
+   "sources": "https://www.mondaq.com/article/1646430 ; https://kpmg.com/ng/en/home/insights/2023/12/tax-alert---issue-no--12-4.html ; https://assets.kpmg.com/content/dam/kpmg/ng/pdf/faqs_efs.pdf ; https://gazettengr.com/lagos-revenue-service-introduces-digital-system-to-ease-tax-collection-from-hotels-restaurants/ ; https://techeconomy.ng/lirs-tasks-businesses-on-consumption-5-tax-compliance ; https://brandspurng.com/2018/02/13/lirs-begins-automated-collection-of-consumption-tax-for-hotels-restaurants-and-event-centres/ ; https://guardian.ng/news/court-bars-firs-from-enforcing-vat-on-goods-consume-in-hotels/",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b16"
+ },
+ "opus:nigeria:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no dedicated tool that tracks NMDPRA licence and Weights and Measures certificate expiry, or keeps calibration records, for Nigerian stations. Several things partly overlap. NMDPRA's free ROMS portal handles new permits, renewals, payment and permit checks; it was not confirmed whether it sends expiry alerts. Fuelmetrics' Epump is a Nigerian forecourt system aimed at dispensing errors and cash leakage. PetroMunimji and SOFTGUN do meter-reading reconciliation, but their Nigerian reach is a vendor claim I did not confirm. An Odoo fuel-station module offers expiry alerts for legal documents and logs calibration litres. I did not check local renewal consultants (searched, none found).",
+   "duty": "Fuel retail outlets must hold a valid NMDPRA operating licence, renewed through the ROMS portal (roms.nmdpra.gov.ng). A 2022 report says renewal needs an FIRS tax clearance certificate. Its validity period, fee and calendar were not found, so they are unverified. Separately, pumps need a Certificate of Verification from the Weights and Measures Department (Weights and Measures Act 2004). Stations without one, or with an expired one, have been sealed and prosecuted, but the validity period is not confirmed. NMDPRA's industry circular of about 22 Sep 2026 orders all outlets to calibrate and verify dispensers and totalisers immediately. It names no end date, and persistent or serious violations can lead to licence revocation. A N250,000 first-offence fine and 3-6 month revocation are reported only from an IPMAN Enugu communique, not NMDPRA's text. The circular names no record, log or certificate format.",
+   "market": "NMDPRA had licensed 9,464 retail outlets as of 30 Apr 2024, per its Director-General as reported in the search results. In 2023 it estimated about 1,000 more unlicensed outlets. The 2025-2026 count was not found. IPMAN says its members run over 80-85% of filling stations, a self-reported share. Roughly 9,000-11,000 outlets carry the duty, most of them independents.",
+   "reason": "The duties are real, but they are split across two agencies. NMDPRA's late-September 2026 circular orders outlets to calibrate and verify dispensers and totalisers, with licence revocation for serious breaches. It reads as a standing order, not a one-off. Pump verification certificates come from the Weights and Measures Department under the Weights and Measures Act 2004, and stations have been sealed for missing or expired ones. The operating licence is renewed on NMDPRA's own ROMS portal, which needs a tax clearance certificate. I found no product that tracks certificate and licence expiry for stations. The core work is physical recalibration and fixing tax papers, though, so software adds little. Fees and validity periods are not confirmed. Owners are reachable through IPMAN and PETROAN, but willingness to pay is doubtful.",
+   "searches": 6,
+   "sources": "https://leadership.ng/nmdpra-threatens-licence-revocation-as-fuel-stations-under-dispense-products-to-consumers/ ; https://blueprint.ng/?p=849427 ; https://blueprint.ng/?p=849802 ; https://roms.nmdpra.gov.ng/ ; https://shippingposition.com.ng/nmdpra-says-85-of-petroleum-stations-renew-operational-licenses/ ; https://gazettengr.com/?p=120075 ; https://shippingposition.com.ng/weights-and-measures-department-cautions-petrol-stations-in-bayelsa-against-illegal-pump ; https://sweetcrudereports.com/trade-ministry-prosecutes-filling-stations-for-under-dispensing-fuel/ ; https://www.thisdaylive.com/2023/04/04/nmdpra-moves-to-regularise-about-1000-unlicensed-petroleum-retail-outlets/ ; https://techcabal.com/?p=168095 ; https://apps.odoo.com/apps/modules/19.0/eb_fuel_station_management ; https://www.techjockey.com/detail/petromunimji ; https://www.techjockey.com/detail/softgun",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b16"
+ },
+ "opus:nigeria:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The HEFAMAA e-portal (hefamaaportal.com.ng) is free and handles registration, payment-proof upload and the certificate. NHIA has moved accreditation fully online with PharmAccess SafeCare tools (QES and Quality Platform), and has started accrediting more than 192 facilities in Lagos. Aviaan Accounting and other consultants offer help with HEFAMAA, MDCN and PCN licensing. In 2023 HEFAMAA outsourced monitoring to 8 private firms, such as Realms Healthcare Consulting. I found no software that tracks a clinic's state, MLSCN and NHIA licences in one place, but my vendor search was limited to English-language web results.",
+   "duty": "Lagos Health Sector Reform Law 2006: the HEFAMAA FAQ and portal say facility operators must register every year to operate. Registration covers hospitals, clinics, maternity centres, diagnostic centres and pharmacies, and the FAQ says it ends 31 Dec of each year. The FAQ is about 3-4 years old, and I found no 2026 circular or fee schedule. Failing to register brings a ₦100,000 fine when found, and the gazettengr report says 42 facilities were sealed in nine months. A first application needs a physical inspection, and renewal is done online. MLSCN Act 11 of 2003 requires lab registration and licensing, but the registrar calls ISO accreditation voluntary for now. I did not reach MLSCN's renewal fees or penalties. NHIA accreditation and re-accreditation (staff, equipment, infrastructure) is required to serve insurers. The Lagos insurance Executive Order of July 2024 has been enforced since Feb 2026, starting with state ministries and agencies. Uninsured residents are refused care at state-government facilities only.",
+   "market": "About 4,127 private facilities in Lagos, out of roughly 5,000 recognised ones, per a HEFAMAA presentation from Nov 2023 (endmalaria.org). The NHIA network has more than 7,000 public and private facilities nationwide (PharmAccess 2024). Other states have similar agencies (Niger State: more than 1,000 facilities on its new portal).",
+   "reason": "The duty is real. Every Lagos private health facility must register with HEFAMAA every year, with a ₦100,000 fine for not registering, and facilities keep being sealed. But the filing itself already runs through HEFAMAA's own free online portal. NHIA accreditation is also done online, using PharmAccess SafeCare tools. So software could only add a document vault, reminders and one tracker for all licences. I found no commercial tool doing that, only consultants. Two parts of the claim are overstated. MLSCN lab accreditation is voluntary for now, and the Ilera Eko rule refuses care only at state-government facilities, not private clinics. With about 4,100 facilities and a once-a-year task, pain and willingness to pay look modest. A done-for-you service fits better than SaaS.",
+   "searches": 6,
+   "sources": "https://support.hefamaaportal.com.ng/kb/faq.php?id=8 ; https://support.hefamaaportal.com.ng/kb/faq.php?id=6 ; https://hefamaaportal.com.ng/ ; https://gazettengr.com/lagos-govt-seals-42-health-facilities-in-nine-months/ ; https://www.hefamaaportal.com.ng/wp-content/uploads/2022/03/QUICKGUIDE-New-Facilities.pdf ; https://endmalaria.org/sites/default/files/Dr%20Abiola%20Idowu%20Private%20Sector%20Engagement%20Strategies.pdf ; https://www.mondaq.com/nigeria/healthcare/1700994/nigerias-health-insurance-authority-takes-a-big-step-forward-on-the-quality-improvement-journey ; https://thesun.ng/nhia-automates-accreditation-targets-90-pensioner-coverage-by-2026/ ; https://pharmaccessfoundation.foleon.com/2025/progress-report-2024/strengthening-the-quality-of-healthcare-services ; https://placng.org/lawsofnigeria/print.php?sn=264 ; https://gazettengr.com/mlscn-registered-40523-qualified-medical-laboratory-scientists-since-inception-registrar/ ; https://radionigerialagos.gov.ng/?p=37102 ; https://leadership.ng/lagos-implements-mandatory-health-insurance/ ; https://aviaanaccounting.com/business-plan-for-clinic-business-in-nigeria/ ; https://ng.vlex.com/vid/hefamaa-outsources-monitoring-of-925830805 ; https://nannews.ng/niger-set-up-health-agency-to-regulate-private-healthcare-services/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b16"
+ },
+ "sonnet:nigeria:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: CAC Form IT 4 for incorporated trustees, window 30 June to 31 December, with audited accounts. Fee reported at N5,000 plus N5,000 per year late, but that comes from a 2019 source. Non-filing blocks CAC post-incorporation services and can lead to strike-off. The CAC form cites s.848, but commentary cites other sections. No dedicated software was found in two searches; only the CAC portal, law-firm guides and accredited agents. I did not check market size (no register count) or enforcement against trustees. Score is low because the fees are small, congregations are unlikely to pay, audited accounts are the real cost, agents and lawyers already do the work, and filing is once a year.",
+   "searches": 2,
+   "sources": "https://www.cac.gov.ng/wp-content/uploads/2021/03/Annual-return-of-Incorporated-Trustees.pdf ; https://omaplex.com.ng/the-effect-of-compliance-and-non-compliance-with-cama-2020 ; https://www.mondaq.com/nigeria/corporate-and-company-law/1487672/all-you-need-to-know-about-annual-returns-with-cac ; https://www.aelex.com/wp-content/uploads/2023/11/CAC-PUBLIC-NOTICE-ON-PENALTIES-FOR-LATE-FILING-OF-ANNUAL-RETURNS.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b16"
+ },
+ "sonnet:nigeria:B14": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Lagos State Safety Commission does enforce safety compliance certification. Leadership.ng reports 3,500+ construction sites certified, 641 hospitality audits, and sealing, stop-work and contravention notices for May 2025 to May 2026. But I found no official page on certificate cycle, fees, or statutory renewal frequency. The only fee data is the 2022 tech hub audit (N50k documentation plus N100k certification), which was suspended. I found no competing software, but the search was thin. The buyer set is mixed and the work is mostly physical (extinguishers, signage), so software only tracks documents. The market count is unclear and there is no clear recurring cycle. Weak, so low score.",
+   "searches": 2,
+   "sources": "https://leadership.ng/lagos-govt-seals-off-2800-sites-businesses-over-safety-infractions/ ; https://techpoint.africa/news/lagos-coworking-spaces-tech-hubs-safety-audit-levy/ ; https://techcabal.com/2022/09/28/lagos-safety-commission-suspends-tech-hub-audits/ ; https://allafrica.com/stories/202510080183.html",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b16"
+ },
+ "sonnet:nigeria:B17": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty exists but is weak. The federal Co-operative Societies Act 1993 requires a member register and an annual audit by an auditor the society approves (s.36). It sets no fixed return deadline, since the Director sets returns under s.36(7). Fines are tiny (N1,000 or 6 months), and state laws were not checked. Competition exists, contradicting \"none found\": Clé Coop (First Registrars subsidiary, endorsed by Lagos State Ministry), the free Co-operative Apps, Wired-Banking software and KoopManager. Market: Lagos has over 10,000 registered societies but only about 2,000 are active (2019 BusinessDay). No national count was found. Many societies are informal, with low willingness to pay.",
+   "searches": 5,
+   "sources": "https://www.lawsofnigeria.placng.org/print.php?sn=356 ; https://radar.techcabal.com/t/co-operative-apps-3rd-party-services/13157 ; https://guardian.ng/business-services/firm-to-streamline-operations-of-cooperative-societies/ ; https://businessday.ng/?p=330070",
+   "suggested_score": 3,
+   "verdict": "refuted"
+  },
+  "tag": "w2b16"
+ },
+ "sonnet:nigeria:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: the Petroleum Industry Act 2021 s.199 requires an NMDPRA licence for retail outlets, and NMDPRA is sealing unlicensed LPG outlets (Akwa Ibom, Delta). The licence is a one-off or annual application filed on the NMDPRA portal (AGS/ELPS, LPG retailer Category D, Remita payment). That state portal already covers the core filing, and no commercial tracker was found. Market is roughly 2,000 registered versus 15,000 operating retailers (undated slide). Weaknesses: many operators are informal and unlicensed, willingness to pay is low, the reminder-only MVP is thin, and the idea overlaps the fuel-station candidate. I could not open the Guardian article (403), find the official checklist or fees, or see current penalties. Competitor search was shallow.",
+   "searches": 3,
+   "sources": "https://guardian.ng/energy/akwa-ibom-nmdpra-begins-clampdown-on-illegal-retailers-of-cooking-gas/ ; https://ags.nmdpra.gov.ng/ ; https://roms.nmdpra.gov.ng/ ; https://guardian.ng/energy/safety-concerns-amid-rise-in-number-of-micro-lpg-retailers/ ; https://www.ripplesnigeria.com/nigerian-govt-seals-19-illegal-lpg-outlets-in-delta/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b16"
+ },
+ "sonnet:nigeria:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: CAMA 2020 s.417 annual returns (companies within 42 days of AGM; business names by 30 June), and CAC's 15 Jul 2026 notice under s.692(3),(4) gives about 100,000 listed companies 90 days (about 13 Oct 2026, my own calculation) to file returns and PSC data. Search found only form templates (Paperform) and guides, with no bulk-filing tool. Market is large (about 3.1m registrations by 2019: 249k companies, 328k business names, 42k trustees). Weaknesses: the deadline is days away, so it is a one-off rush, and the list is mostly dormant firms unlikely to pay. The same 100,000 figure was announced in 2023. I did not check CAC portal agent access or fees. The letterhead rule (s.304(3)) is unchecked.",
+   "searches": 3,
+   "sources": "https://nairametrics.com/2026/07/16/cac-begins-process-to-strike-off-100000-companies-over-regulatory-non-compliance/ ; https://www.techeconomy.ng/cac-moves-to-strike-off-100000-dormant-companies-in-sixth-batch-since-2023 ; https://www.proshare.co/articles/cac-notifies-intention-to-strike-off-100000-companies-from-the-register-a-review ; https://paperform.co/templates/cac-annual-returns-filing-form/ ; https://www.dailytrust.com.ng/nigeria-has-3-1m-registered-companies-cac.html",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b16"
+ },
+ "sonnet:nigeria:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The PRA 2014 PCC is required of suppliers to federal bodies, and NSITF and ITF certificates are also required. But PenCom now runs a free online e-PCC portal (pcc.pencom.gov.ng, March 2026 guide). It issues the PCC at no cost, warns against third-party agents, and feeds daily PCC data to BPP. That kills the PCC part of a done-for-you service. NSITF is still manual: a request letter plus ECS forms, paid through Remita. No ITF portal was found. No dedicated tracker software surfaced, only consultants. The pain is episodic, since the three certificates are annual and only matter when bidding, and the buyers are small and price-sensitive. Market size was not reached, and I did not check whether non-government clients ask for the certificates. A thin reminder or checklist tool is possible, but willingness to pay looks low.",
+   "searches": 2,
+   "sources": "https://www.pencom.gov.ng/wp-content/uploads/2026/03/Step-by-Step-Guide-on-Pension-Clearance-E-Certificate.pdf ; https://nsitf.gov.ng/inspection/ ; https://thecable.ng/pension-insight-cps-private-sector-compliance-surges-in-first-half-of-2024",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b16"
+ },
+ "sonnet:nigeria:GAPS2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real. NTAA 2025 s.13 requires all taxable individuals, including the self-employed and informal earners, to file an annual return. LIRS set 31 March 2026, then extended it to 14 April. FCT-IRS extended to 30 April. Late filing is N100,000 for the first month and N50,000 for each later month under s.101, per press reports; I did not open the Act. No dedicated self-assessment app for sole proprietors turned up. The state portals (LIRS eTax, FCT) handle filing, and the market is mostly blogs and guides. Weaknesses: every state has its own portal and deadline (Edo files by emailed Form A), enforcement outside PAYE is weak, willingness to pay is low, and the next deadline is about March 2027. Cheap to distribute through accountants and bookkeepers. I did not find a register count of sole traders. I did not fetch the pages, so the \"no app\" finding rests on search snippets only.",
+   "searches": 2,
+   "sources": "https://techcabal.com/2026/04/02/how-to-file-tax-on-the-lirs-etax-portal/ ; https://www.techeconomy.ng/lirs-warns-of-100000-fine-as-march-31-tax-filing-deadline-nears ; https://nannews.ng/fct-irs-sets-march-31-deadline-for-individual-tax-returns/ ; https://www.mondaq.com/nigeria/tax-authorities/1736556/who-files-annual-tax-returns-in-nigeria-under-the-2025-tax-reforms-the-employer-or-the-employee",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b16"
+ },
+ "sonnet:nigeria:GAPS6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. The Nigerian Minerals and Mining Act 2007 has a chapter on possession and purchase of minerals, with sections on buying centres. Licences run through the Mining Cadastre Office's eMC+ portal, with fees paid via Remita. Titles are revoked for unpaid fees. I could not confirm a periodic returns or records duty for buyers, current renewal terms, or the current issuing ministry. No competing software was found, but eMC+ is the free state portal. The pool is tiny (about 91 gold licences, about 400 centres) and the state offtake channel (PAGMI to CBN) may sideline private buyers. The K15 rejection stands, so this is not a revive. Only 2 of 6 searches and no fetches were used.",
+   "searches": 2,
+   "sources": "https://placng.org/lawsofnigeria/view2.php?sn=418 ; https://guardian.ng/energy/nmco-to-revoke-idle-mining-licences-records-7310-applications/ ; https://economicconfidential.com/nigeria-revokes-mineral-licences/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b16"
+ },
+ "sonnet:nigeria:GAPS7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real: annual Customs agent licence renewal, plus CRFFN practitioner licensing. The fee fight appears settled for now. A search summary says Customs kept the old fees in Feb 2026 (about N215,000, plus N15,000 per command) and shelved the N4m proposal. I did not open the pages, so this is unverified. I found no dedicated renewal software or state app, and no CRFFN app. The market is thousands of agents, but renewal happens once a year and is a simple form-and-fee task. Agents are fragmented, the pain is low, and ANLCA and CRFFN control the process. Willingness to pay is weak, and the digital route (B'Odogwu, National Single Window) may take over. B'Odogwu and market size were not checked.",
+   "searches": 2,
+   "sources": "https://shippingposition.com.ng/freight-forwarders-breathe-easy-as-customs-maintains-old-licensing-fees/ ; https://von.gov.ng/nigeria-customs-begins-stakeholder-talks-on-new-licensing-fees/ ; https://shippingposition.com.ng/serec-seeks-fair-licence-renewal-fees-amid-customs-review/ ; https://shippingposition.com.ng/crffn-records-18-month-reform-gains-verifies-500-freight-forwarders-clears-n490m-salary-arrear/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b16"
+ },
+ "triage:nigeria": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "New: Lagos lift registration with hard 2026 deadline and sealing; no known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Different duty from K08 (NADDC dealer registration vs SCUML KYC); related K08."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Recruiter's Licence file is a different buyer and duty from rejected K13 payroll remittance."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Incorporated trustees annual return for churches, mosques and NGOs is in scope and new."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Agro-dealer permit/listing duty is new and in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Small water producers with recurring licence duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Vet clinics are a different buyer from PPMVs in K14; related K14."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Livestock traders registration; unverified, not enough to drop."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Scrap dealers' state registration; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Desludging operators are a different buyer and duty from K06 LAWMA PSP waste operators; related K06."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Household employers/domestic staff agencies law; in scope, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Small transport fleet certification; new, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Mortuary licence renewal with state deadlines; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Driving school FRSC accreditation; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Small private schools OEQA registration; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A16",
+     "reason": "Moneylender annual licence renewal; new, small firms."
+    },
+    {
+     "decision": "keep",
+     "id": "A17",
+     "reason": "BDC operators have recurring CBN duties; new, verifiers can check size."
+    },
+    {
+     "decision": "keep",
+     "id": "A18",
+     "reason": "Borehole driller/owner registration; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A19",
+     "reason": "Small abattoirs/slab approval; new, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A20",
+     "reason": "Unsure whether mandatory; leave to verifiers."
+    },
+    {
+     "decision": "keep",
+     "id": "A21",
+     "reason": "Market trader levy duty on small traders; new, weak but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Lagos consumption tax returns for small hotels/restaurants; new recurring duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Petrol station calibration and licence duty with fresh directive; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "LPG retailer licence and inspection; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Clinic licensing/accreditation is a different duty from K03 HMO claims desk; related K03."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "CAC annual returns/strike-off for small companies; differs from K05 practitioner cockpit; related K05."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small miners' fee and CDA compliance; different from K15 buying centres; related K15."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "SEC warehouse registration with deadline; small warehouses in scope, verifiers check size."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Community pharmacies differ from PPMVs in K14; related K14."
+    },
+    {
+     "decision": "merge",
+     "id": "B9",
+     "reason": "Same labour contractors/recruiters and same Recruiter's Licence duty as A3.",
+     "ref": "A3"
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "LASRERA estate agent licence is a different duty from K08; related K08."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "EUDR records for cocoa buying agents and small exporters; deadline-driven, new."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Micro-firm TIN/nil return duty differs from K05 practitioner cockpit; related K05."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Employer NHIA certificate duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Lagos Safety Commission certificates for sites and hospitality; distinct from A1 lifts."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Courier NIPOST licence renewal; new."
+    },
+    {
+     "decision": "drop",
+     "id": "B16",
+     "reason": "Out of scope: NDPC audit returns fall only on major-importance (large/mid) data controllers."
+    },
+    {
+     "decision": "keep",
+     "id": "B17",
+     "reason": "Co-operative registers and audits; cooperatives explicitly in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B18",
+     "reason": "Small oil and gas service firms NCDMB certificate; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B19",
+     "reason": "Small exporter documentation duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Micro-employer PCC/NSITF/ITF certificates differ from rejected K13; related K13."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "State personal income tax for sole traders; different buyer from K05; related K05."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Lagos Land Use Charge for small landlords; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "FCT ground rent compliance for property owners; new."
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS5",
+     "reason": "Same Lagos Safety Commission compliance duty for hospitality premises as B14.",
+     "ref": "B14"
+    },
+    {
+     "decision": "known",
+     "id": "GAPS6",
+     "reason": "Same gold/mineral buying-centre buyers; submitter found no evidence to revive.",
+     "ref": "K15"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Customs agents' annual licence; small agents in scope, new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS8",
+     "reason": "Small importer permit calendar; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS9",
+     "reason": "POS agents are sole operators with CBN duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS10",
+     "reason": "Tax ID migration is a distinct transitional duty; leave to verifiers."
+    },
+    {
+     "decision": "known",
+     "id": "GAPS11",
+     "reason": "Same guard companies and NSCDC renewal duty.",
+     "ref": "K07"
+    },
+    {
+     "decision": "known",
+     "id": "GAPS12",
+     "reason": "Same jewellery dealers and SCUML duty.",
+     "ref": "K08"
+    }
+   ]
+  },
+  "tag": "w2b16"
  }
 }

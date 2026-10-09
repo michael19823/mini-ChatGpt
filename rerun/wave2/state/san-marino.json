@@ -445,5 +445,106 @@
    "searches": 15
   },
   "tag": "w2b82"
+ },
+ "sonnet:san-marino:ALL2": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The bill \"Disposizioni sul noleggio di veicoli\" (with DD 29 June 2026 n.85) is real, but I found no sign it has passed. The relazione covers written contracts, a register, 5-year retention, a cap of 70 vehicles and a portal run by the Ufficio Registro Automezzi. Existing rules already require operators to publish register data in real time on the state site autonoleggio.sm. So the state portal does the core job, and no vendor product turned up. The market is tiny: no operator count found, probably a handful of firms. Willingness to pay and distribution are weak. A niche add-on at best.",
+   "searches": 2,
+   "sources": "https://www.consigliograndeegenerale.sm/on-line/home/lavori-consiliari/consultazione-archivi/documento17160191.html; https://www.consigliograndeegenerale.sm/on-line/home/documento17141000.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b82"
+ },
+ "sonnet:san-marino:GAPS3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty exists but is thin. San Marino food premises need an ISS sanitary authorisation (Law 92/85 art. 10, as cited in the search result), and ISS veterinary inspection applies. The HACCP article reportedly excludes retail sales as defined by Law 65/2000. The ISS PDF in the claim was unreadable when fetched, and its metadata shows \"Decreto 9 marzo 2005\", not the 1993 decree the claim cites. I found no butcher count, penalty figures or recurring filing frequency. The market is a handful of firms in a country of about 34k people. No competing software was found, but the search was one query. The authorisation is largely one-off and the buyer pool is tiny, so this is a poor fit for a software product.",
+   "searches": 1,
+   "sources": "https://www.iss.sm/on-line/home/dipartimento-prevenzione/prevenzione-e-sanita-pubblica/uoc-sanita-veterinaria-e-igiene-alimentare/igiene-alimentare/igiene-alimentare-normativa/documento49000665.html ; https://faolex.fao.org/docs/pdf/smr51501.pdf ; https://www.fsis.usda.gov/sites/default/files/media_file/2021-12/San-Marino-FY21-FAR.pdf",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b82"
+ },
+ "triage:san-marino": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "ALL1",
+     "reason": "New duty: dealer register with 48-hour entries under DD 85/2026; not covered by any known idea."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL2",
+     "reason": "Rental operators are a new buyer group with a register and contract duty; the bill's status is for verifiers."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL3",
+     "reason": "Small lodgings must withhold and remit tourist tax and record guests; a new buyer group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL4",
+     "reason": "Recurring waste register and annual return under D.D. 44/2012; the small-firm exemptions need checking by verifiers."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL5",
+     "reason": "Mandatory telematic visto merci for importers is a new duty. It is unverified and the rule may change."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL6",
+     "reason": "Associations and foundations face register filings and a statute-adaptation deadline around September 2026; community bodies are in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL7",
+     "reason": "Small private clinics have authorisation and reporting duties; the duty falls on the clinics themselves."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL8",
+     "reason": "Small licensed security firms have a licence and sworn-guard register duty; a new buyer group."
+    },
+    {
+     "decision": "known",
+     "id": "ALL9",
+     "reason": "Same buyer (families employing a carer) and same payroll and permit duty as K02.",
+     "ref": "K02"
+    },
+    {
+     "decision": "known",
+     "id": "ALL10",
+     "reason": "Domestic e-invoicing for the same operators is the duty in K03, K01 and K06.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Households and farms must hold UPAV water abstraction authorisations with renewals; a new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Street vendors are sole traders with permit and renewal duties, a new buyer group; details are unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Butchers and slaughterhouses are a different buyer group from K07 (organic and small food producers); it is related to K07, and verifiers should check the HACCP exclusion."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Farmers face a possible phytosanitary use register; whether the bill was enacted is unverified, so keep for checking."
+    }
+   ]
+  },
+  "tag": "w2b82"
  }
 }

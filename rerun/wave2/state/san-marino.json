@@ -341,5 +341,109 @@
    "searches": 22
   },
   "tag": "w2b82"
+ },
+ "gapfill:san-marino": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Households and small farms with wells or springs; geologists and engineers who file for them",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://gov.sm/pub2/upav/dam/jcr:3efa59c8-147d-4cc2-a177-352fc02e4c5c/Informativa%20captazioni_04_24-REV_0.0.2AC_P.pdf (UPAV leaflet, 15/04/2024); https://www.consigliograndeegenerale.sm/on-line/home/organismi-istituzionali-e-commissioni-consiliari/commissioni-consiliari-permanenti/documento17062393.html (census of wells and cisterns requested)",
+     "existing": "None seen. The state offers a paper or PEC/tNotice filing. No private software found.",
+     "known_mark": "new",
+     "name": "Water abstraction authorisation and renewal desk (UPAV form A14) for households, farms and gardens",
+     "score": 2,
+     "status": "weak",
+     "trigger": "UPAV authorisation to draw groundwater or surface water, required for a well (a building work with an approved project) and for each abstraction. Form A14 with cadastral plan, method and frequency declaration, and technical report. Fee EUR 60/70. Surface-water authorisations may need yearly renewal. Summer restriction orders. Base: DD 44/2012 (Environmental Code), Regolamento 1/2019.",
+     "trigger_note": "unverified frequency",
+     "unchecked": "Number of authorised wells and abstractors; whether agricultural and industrial abstraction have separate duties (meter readings, analyses); whether the census was done; whether renewals are annual for wells. The market is tiny (about 34,000 people), the task is a one-off for most users, and the buyer would pay no more than a consultant fee. No competitor search run (score under 3)."
+    },
+    {
+     "buyer": "Licensed commercio ambulante holders; Giunte di Castello and market organisers",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.consigliograndeegenerale.sm/on-line/home/documento17143149.html and https://www.consigliograndeegenerale.sm/on-line/home/documento17145006.html (decree texts surfaced in search; articles on markets not opened)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Street-vendor and market-trader permit and pitch administration",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "DD 185/2023 as ratified by DD 50/2024 (Disciplina delle attività economiche) and DD 103/2016 on food and drink sales on public areas; residency requirement for licence holders. Renewal and pitch rules not read.",
+     "unchecked": "Whether markets use a pitch register; licence renewal cycle; number of active ambulanti. Likely a few dozen holders at most. No competitor search run (score under 3)."
+    },
+    {
+     "buyer": "San Marino butchers and the few approved slaughterhouses",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://www.iss.sm/on-line/home/dipartimento-prevenzione/prevenzione-e-sanita-pubblica/uoc-sanita-veterinaria-e-igiene-alimentare/igiene-alimentare/igiene-alimentare-normativa/documento49000665.html ; https://www.iss.sm/on-line/home/dipartimento-prevenzione/prevenzione-e-sanita-pubblica/uoc-sanita-veterinaria-e-igiene-alimentare/sanita-animale/sanita-animale-normativa/documento49000625.html",
+     "existing": "Italian HACCP consultants and generic apps (per K07)",
+     "known_id": "K07",
+     "known_mark": "known",
+     "name": "Retail meat and butcher licence and ISS health authorisation paperwork",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Decreto 59/1993 (fresh meat) and 1996 slaughterhouse decree; ISS official-veterinarian inspection; retail excluded from HACCP plan duty (ISS documento49000665 art. 5)",
+     "unchecked": "Not re-checked, per contract. Retail butchers are exempt from HACCP plans, so recurring paperwork is thin and the number of businesses is very small."
+    },
+    {
+     "buyer": "Farmers and applicators in San Marino",
+     "category": "14. Pesticide and fertiliser dealers and applicators (assigned to another worker; seen in a chemicals search)",
+     "evidence": "https://www.consigliograndeegenerale.sm/on-line/home/documento17044530.html (bill seen via search, not opened)",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Plant-protection product (phytosanitary) use register for San Marino farmers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "A bill on sustainable use of phytosanitary products aligning with EU Reg. 1107/2009 and Dir. 2009/128 (18 articles, 7 annexes). Whether enacted, and whether it creates a treatment register or a licence, is unverified.",
+     "unchecked": "Enactment date, register or licence duties, number of farms (very few). Handed to the category 14 worker."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Slaughter is regulated by Decreto 59/1993 on fresh meat and a 1996 decree. The Dipartimento Sanità keeps a list of approved slaughterhouses, and an official veterinarian inspects and stamps each carcass (ISS pages documento49000615/49000625, faolex smr51589). The competent authority for food hygiene is ISS Dipartimento Prevenzione, UOS Sanità Veterinaria e Igiene Alimentare. The hygiene regulation excludes retail shops from the HACCP-plan duty (ISS documento49000665, art. 5), and the meat decree exempts cutting and storage in retail shops. So butchers carry little recurring paperwork beyond the licence. The licensing circular OSLA 6/2020 may require an ISS authorisation or self-certification for some licences; unverified for butchers. Operators must register with the Servizio Igiene Ambientale when receiving goods from another State, except retail licence-holders of animal products (old decree, faolex smr47771, still in force unverified). Nothing new beyond K07 (food producers). A few abattoirs and butchers are not enough for a product.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "UPAV (Ufficio Prevenzione Ambiente e Vigilanza del Territorio) authorises abstraction of surface and groundwater. Its leaflet (rev. 15/04/2024, gov.sm, non-binding) covers domestic use only, excluding drinking: cleaning, gardening, agriculture. A well is a building work needing an approved project. Abstraction needs form A14 plus a cadastral plan, a declaration of method and frequency, and a report by a geologist or engineer. Fee is EUR 70 on paper and EUR 60 electronic. Surface-water authorisations may need annual renewal. Summer restriction orders can suspend abstraction. A census of wells and cisterns was requested by a council motion; whether it was carried out is unknown. Legal base: DD 44/2012 (Environmental Code, art. 93 water management plan) and Regolamento 1/2019. Households and farms file occasionally, so volume is tiny; see candidate C1.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Public water is run by AASS and monitored by the ISS public-health laboratory (650+ samples a year, 67 parameters, results published every 6 months under EU Directive 2020/2184 principles). No private small-system operator duties were found. The weak point cited in a council document is the household plumbing. Mostly state-run, so not a market. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Street trading ('commercio ambulante': retail or wholesale using mobile equipment only) is covered by DD 18/12/2023 n.185 'Disciplina delle attività economiche', ratified as DD 14/03/2024 n.50. Earlier laws were Legge 111/1982 and Legge 130/2010. DD 103/2016 covers food and drink sales on public areas. Licence holders must be actual, continuous residents. The articles on pitches and markets were not reached. No San Marino market-operator or pitch-allocation software need was found. Money changers: no source found on who licenses them; they are likely banks or intermediaries under BCSM, with AML duties under Law 92/2008 (amended by DD 116/2017); unverified. Nothing strong.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Confirmed: pharmacies are ISS-run (UOC Farmaceutica, seven pharmacies reorganised in 2019 by Congresso di Stato delibera 20/2019; Cailungo, Città di San Marino, Borgo Maggiore, Serravalle, Gualdicciolo). No private pharmacy was found in any result, so the buyer is the state and it is out of scope. Narcotics are governed by Legge 7/1956 (pharmacist keeps a copy-prescription register and a carico/scarico register) and Legge 32/1988; these are state pharmacy duties. Wholesale of vet medicines needs a Dipartimento Prevenzione authorisation (bill text; belongs to the vet category). No San Marino rules were found on drug precursors, REACH or biocides. A bill on phytosanitary products (aligning with EU Reg. 1107/2009 and Dir. 2009/128, 18 articles, 7 annexes) was seen; whether it was enacted is unknown (see C3). No human-medicine wholesaler or importer regime found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "San Marino macello macellerie autorizzazione sanitaria ISS Servizio Veterinario",
+    "San Marino pozzi concessione prelievo acque sotterranee legge autorizzazione",
+    "San Marino acquedotto AASS acqua potabile controlli pozzi privati autocontrollo",
+    "San Marino farmacie licenza farmacista legge Ufficio Attività Economiche farmacia privata",
+    "San Marino commercio ambulante licenza venditori ambulanti mercato cambiavalute",
+    "farmacie San Marino farmacia privata titolare Farmacia Internazionale stupefacenti registro",
+    "San Marino legge sostanze stupefacenti precursori registro carico scarico farmacie medicinali veterinari ISS",
+    "San Marino registrazione operatori settore alimentare ISS igiene alimentare notifica macelleria carni vendita dettaglio",
+    "San Marino grossista medicinali parafarmacia dispositivi medici autorizzazione commercio all'ingrosso",
+    "San Marino Banca Centrale cambiavalute operatori valuta autorizzazione AIF antiriciclaggio",
+    "San Marino mercato ambulante fiera Borgo Maggiore posteggi commercio aree pubbliche",
+    "San Marino farmacie private OR farmacia privata concessione convenzione ISS",
+    "San Marino Decreto Delegato 185/2023 attività economiche commercio ambulante posteggio mercato",
+    "San Marino Decreto sostanze chimiche REACH biocidi importatori registro sostanze pericolose",
+    "WebFetch UPAV Informativa captazioni PDF (read locally via pdftotext) and ISS UOC Farmaceutica page (no content returned)"
+   ],
+   "searches": 15
+  },
+  "tag": "w2b82"
  }
 }

@@ -1,4 +1,16 @@
 {
+ "challenge:iceland:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No killing product found. The main weakness is a tiny, threshold-limited market: jewellers and art dealers are obliged only for transactions of EUR 10,000 or more (Act 140/2018 art. 2 p/q), and Reg. 545/2019 art. 3 lets the supervisor exempt low-risk firms from the risk assessment.",
+   "reason": "I found no Icelandic product or service that does the core job. Searches in Icelandic for AML packs, templates and consultancy for small obliged entities turned up nothing: Creditinfo sells beneficial-owner data to banks and Taktikal does KYC onboarding. What weakens the idea is scope and size. Under Act 140/2018 art. 2, jewellers/gold dealers (q) and art dealers (p) are obliged only for transactions of EUR 10,000 or more, and registration under art. 36 carries no penalty of its own. Reg. 545/2019 art. 3 lets the supervisor exempt low-risk firms from the risk assessment. Iceland probably has a few dozen such firms, though I did not verify a count. Bookkeepers (also_reported) are a larger group but still small.",
+   "searches": 6,
+   "sources": "https://www.althingi.is/lagas/nuna/2018140.html ; https://www.skatturinn.is/um-rsk/frettir-og-tilkynningar/skraning-vegna-adgerda-gegn-peningathvaetti-og-fjarmognun-hrydjuverka ; https://island.is/reglugerdir/nr/0545-2019 ; https://www.skatturinn.is/um-rsk/frettir-og-tilkynningar/felag-sektad-vegna-brots-a-logum-um-adgerdir-gegn-peningathvaetti ; https://www.skatturinn.is/media/baeklingar/vath-endurskodendur-bokarar-skattaradgjafar.pdf ; https://chronicle.creditinfo.com/?p=4021 ; https://www.cbinsights.com/compare/imagesoft-vs-taktikal",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b43"
+ },
  "discover:A:iceland": {
   "result": {
    "blocked_searches": 0,
@@ -662,6 +674,100 @@
     "borfyrirtæki borun eftir köldu vatni brunnborun Ísland þjónusta ehf"
    ],
    "searches": 10
+  },
+  "tag": "w2b43"
+ },
+ "opus:iceland:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Icelandic product found that is a compliance pack (risk assessment, policy, due diligence log, training) for jewellers, art dealers or bookkeepers. Partial tools exist: Keldan runs a PEP database sold by subscription only to obliged entities under 140/2018 (Persónuvernd ruling, 7 Jan 2026), and a 2022 Taktikal press release describes KYC/AML onboarding. Skatturinn offers free guidance brochures (risk factors for jewellers and accountants, risk assessment, due diligence, training) but no templates. Foreign generic AML tools and law or audit-firm consultancy probably compete but were not found by name. The closest-to-core risk is that bookkeepers already get AML guidance through their professional bodies (not checked).",
+   "duty": "Real and in force. Under Act 140/2018, as amended by Act 62/2022, Skatturinn (RSK) supervises art. 36 entities. These are dealers in precious metals and stones (jewellers), art dealers including galleries and auction houses, bookkeepers, tax advisers and TCSPs. They must register through Skatturinn's online application; the 22 Dec 2025 notice gives no deadline. They also must: write a risk assessment with documented methodology and update it at least every 2 years; run due diligence on transactions of EUR 10,000 or more; check PEP status and sanctions; appoint a responsible person (ábyrgðarmaður); train staff; and report suspicious transactions to the FIU. Penalties: RSK's decisions page lists 17 settlements or administrative fines in 2025-2026, about one a month. Most involve car dealers, estate agents, auditors and bookkeepers (e.g. Aðalbókarinn ehf. 7/2025, DFK Endurskoðun 1/2026). One earlier case (Kasa fasteignir, 9/2024) was a fine of ISK 1.3m. Search summaries say daily fines of ISK 10k-1m are possible. No jeweller or art dealer appears among the cases seen.",
+   "market": "Not found. No register count for jewellers or art dealers was reached. In Iceland they probably number in the tens to low hundreds, so the jeweller and art segment alone is very small. Bookkeepers, tax advisers and TCSPs on the same art. 36 list are the larger part of the market (probably hundreds of firms, unverified). Car dealers and estate agents under the same supervision would widen the addressable market.",
+   "reason": "The duty is real: a written risk assessment updated every two years, due diligence at EUR 10k, PEP and sanctions checks, a responsible person and training. Enforcement is active, with about one RSK settlement a month, mostly hitting bookkeepers, auditors, car dealers and estate agents. Skatturinn gives brochures but no templates. Keldan (PEP) and Taktikal (KYC) cover only pieces, so a template-plus-log pack in Icelandic looks open. Against that, the jeweller and art segment in Iceland is tiny, and day-to-day work is low frequency (risk assessment every 2 years, few EUR 10k transactions). Willingness to pay is modest and the product is close to a generic AML tool. It would make more sense to widen it to all RSK-supervised entities, especially bookkeepers.",
+   "searches": 5,
+   "sources": "https://island.is/s/skatturinn/frett/skraning-vegna-adgerda-gegn-peningathvaetti-og-fjarmognun-hrydjuverka-22-12-2025 ; https://www.skatturinn.is/fagadilar/peningathvaetti/tilkynningarskyldir-adilar/skyldur-tilkynningarskyldra-adila ; https://www.skatturinn.is/fagadilar/peningathvaetti/akvardanir-rikisskattstjora/ ; https://www.skatturinn.is/fagadilar/peningathvaetti/akvardanir-rikisskattstjora/akvordun-9-2024-um-nidurfellingu-sattagerdar-og-beitingu-stjornvaldssektar ; https://www.althingi.is/altext/stjt/2022.062.html ; https://island.is/s/personuvernd/urskurdir-akvardanir-og-alit/skraning-i-pep-gagnagrunn-keldunnar-ehf-7-1-2026 ; https://www.businesswire.com/news/home/20220112006022/en ; https://island.is/reglugerdir/nr/0745-2019",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b43"
+ },
+ "opus:iceland:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no dedicated Icelandic software for this system. Icelandic searches for an electrical contractor safety system plus software or app returned only legal texts. HMS already covers part of the job for free. Its central electrical safety portal (miðlæg rafmagnsöryggisgátt) handles notifications and completion reports and stores the records. HMS also provides review and measurement forms and a sample internal-audit form. Not checked: whether Icelandic electricians already do this with generic job-management or field-service tools, or with Nordic installer apps that have built-in quality-control and self-check features. I could not name any such product, so this gap is unverified.",
+   "duty": "Confirmed and in force. Act 146/1996 is in force in the consolidated text of 1 Oct 2026 (version 158a, last amended by L. 11/2026, 5 Mar 2026). Art. 5 says contractors must set up internal safety management (\"innri öryggisstjórnun\") and check and report their own finished work. Art. 9 says accredited inspection bodies inspect the system. Art. 14 lets HMS run spot checks paid for by the contractor. Penalties: administrative fines up to ISK 5,000,000 (art. 18), daily fines of ISK 10,000-500,000 (art. 15), and licence revocation after a written warning (arts. 6 and 11). The HMS page on island.is lists what must be kept: a job register traceable for at least 4 years, measurements, self-reviews, inspection reports and fixes of their findings, and notifications. It also requires an internal audit at least once a year. Reg. 678/2009 is cited in the claim and appeared in search results, but I did not open it.",
+   "market": "Not found. There is a national register of licensed electrical contractors held by HMS, but I did not reach a count. The HMS 2023 annual report PDF returned 403, and the stjornarradid.is page has no figures. My unverified guess is a few hundred firms, mostly small. That makes the market very small.",
+   "reason": "The duty is real, in force, and backed by fines and licence revocation. The work recurs on every job (records, measurements, self-reviews) plus an audit at least once a year. I found no dedicated software. But the free HMS portal already takes notifications and completion reports, and HMS supplies forms and a sample audit form. So the remaining gap is mainly a job register, measurement records and audit checklists. Generic job-management tools may already cover much of that, which I could not check. The buyer group is probably a few hundred small Icelandic firms (count not found). That limits revenue, even though the firms are easy to reach through the contractors' association. Paper or Excel is likely good enough for most, so willingness to pay is doubtful.",
+   "searches": 6,
+   "sources": "https://www.althingi.is/lagas/nuna/1996146.html ; https://island.is/oeryggisstjornunarkerfi ; https://island.is/loggilding-rafverktaka/svipting ; https://island.is/loggilding-rafverktaka ; https://www.stjornarradid.is/verkefni/husnaedis-og-mannvirkjamal/rafmagnsoryggi/ ; https://www.althingi.is/altext/erindi/135/135-2403.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b43"
+ },
+ "sonnet:iceland:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real and in force. Act 23/2026 amends Act 120/2022 and applies from 1 June 2026. Stations must keep an electronic register of every sold trip with satellite start/end data, taximeter serial numbers and payment data. Data is kept 60 days, and systems get an annual audit by a Samgöngustofa-approved independent auditor at the station's expense. Regulation 1020/2026 (22 Sept 2026, new art. 8a) adds real-time supervisor portal access. Penalties were not verified; the claim's licence-revocation point is unchecked. Competitors were not found: my search returned no vendor info, and I could not tell whether Hreyfill, BSR or Hopp already comply in-house. Few stations exist, with no count found. The buyer pool is tiny, stations are likely to build or buy dispatch systems, and an audit-ready register is a niche product. Score 3.",
+   "searches": 2,
+   "sources": "https://island.is/s/samgongustofa/frett/breytingar-a-loegum-um-leigubifreidaakstur-taka-gildi-1-juni ; https://island.is/s/samgongustofa/reglur-um-stafraen-kerfi-leigubifreidastodva ; https://www.althingi.is/lagas/nuna/2022120.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b43"
+ },
+ "sonnet:iceland:A6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: Reg. 54/1995 requires the owner to hold a service agreement with an approved caretaker (at least 4 visits a year). Passenger lifts need registration and independent inspection before use. A change of owner or caretaker needs a new agreement. Vinnueftirlitið can ban use or impose daily fines. Reg. 387/2026 (22 Apr 2026) lowers wheelchair lifts to 2 visits a year. No housing-association lift-tracking software turned up in two searches, but the duty is only a handful of events per lift. The service firm effectively performs it. Buyers are fragmented volunteer boards with low willingness to pay. Lift count was not found; Iceland's market is tiny. The claim's lift count, fine amounts and competitor check remain unchecked.",
+   "searches": 2,
+   "sources": "https://island.is/taeki-og-velbunadur/lyftur-og-rennistigar ; https://island.is/reglugerdir/nr/0054-1995 ; https://adverts.stjornartidindi.is/B_nr_387_2026.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b43"
+ },
+ "sonnet:iceland:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Patient-injury insurance duty is confirmed: law 47/2024, from 1 Jan 2025, self-employed providers register and pay premiums via Gagnagátt (gg.sjukra.is); it is a precondition for the operating licence. That is a free state portal, and a one-time or annual form is a thin product. Electronic invoicing to SÍ is required by reglugerð 1364/2019 and is presumably covered by existing clinic systems; I did not identify or check any vendor. The annual-accounts disclosure proposal could not be verified: the Althingi page returned 403 and searches showed nothing enacted. Provider count not found. Low pain and a small niche, so the score stays at 3.",
+   "searches": 3,
+   "sources": "https://island.is/s/sjukratryggingar/frett/2025-02-06-sjuklingatrygging-2025 ; https://island.is/adstod/sjukratryggingar/heilbrigdisstarfsfolk/hvernig-skrai-eg-mig-fyrir-sjuklingatryggingu ; https://island.is/reglugerdir/nr/1364-2019",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b43"
+ },
+ "sonnet:iceland:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: the Icelandic tourism act (96/2018, art. 11) requires a written safety plan per trip type in Icelandic and English, with four parts (risk assessment, procedures, response plan, incident report). Selling trips without a plan is banned. Ferðamálastofa can set a 14-day remedy period and impose daily fines. The duty is one-off plus updates, not a recurring filing, and enforcement is weak (plans are only requested on demand, nothing is filed). Vakinn.is gives free templates, examples and checklists, and Ferðamálastofa has checklists and a confirmation template. Consultancies already sell this: Áhættustjórnun/Astjórnun with Alda Öryggi and incident logging. Market: the 2018 bill estimated 10,000-15,000 plans, which is plans, not operators, and I found no operator count. Small market, free state material, weak enforcement, so a low score.",
+   "searches": 3,
+   "sources": "https://www.althingi.is/lagas/155/2018096.html ; https://www.ferdamalastofa.is/static/files/ferdamalastofa/ferdatjonustuvikan/2026/fyrirlestrar/a_1300_gisli_nils.pdf ; https://www.ferdamalastofa.is/static/files/ferdamalastofa/Oryggisaaetlanir/stadfesting-a-oryggisaaetlun-daemi.doc ; https://www.ferdamalastofa.is/static/files/ferdamalastofa/Oryggisaaetlanir/gatlistar/hopferdabilar-2021-oryggi.docx ; https://www.althingi.is/altext/146/s/0711.html",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b43"
+ },
+ "sonnet:iceland:B6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Law 162/2002 requires producers and importers to declare packaging weight and type, with periodic payment (due the 28th of the month after the period). But Skatturinn (customs) assesses the levy electronically, through the importer's customs-declaration software talking to Skatturinn's system. Customs-software vendors had to adapt to this (Skatturinn notice to software houses, 2022). So the core job is already built into customs declaration tools and the state system, and a standalone product has little room. The 2024 temporary rule was due to end 1 Jan 2026. A 2025 amendment (S-217/2025, passed 18 Dec 2025) proposed extending provisional clause V, but I could not confirm the enacted text. I did not check the Úrvinnslusjóður portal or find a count of small importers.",
+   "searches": 4,
+   "sources": "https://www.althingi.is/altext/154/s/1924.html ; https://www.althingi.is/altext/raeda/154/rad20240619T164605.html ; https://www.skatturinn.is/fagadilar/tollamal/hugbunadarhus/tilkynningar-til-hugbunadarhusa/breytingar-a-tollakerfi-skattsins-vegna-alagningar-urvinnslugjalda-i-innflutningi-1 ; https://island.is/samradsgatt/mal/4102 ; https://island.is/reglugerdir/nr/1124-2005",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b43"
+ },
+ "sonnet:iceland:B7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: internal control (innra eftirlit) is a condition of the municipal health-inspectorate starfsleyfi under the Food Act and food regulation. MAST sorts businesses into three categories, and restaurants are in category 2, which needs written control, limits and records of checks and deviations. Searches found no Icelandic HACCP or temperature-logging software, only MAST Word sample forms and foreign apps such as eEAT HACCP. Weaknesses: the market is tiny (no licence count found), there is no penalty or frequency detail, digital-record acceptance is unconfirmed, free MAST templates exist, and foreign tools or sensor vendors probably cover it. The search was limited (4 searches, no vendor-specific names), so the absence of local competitors is not proven.",
+   "searches": 4,
+   "sources": "https://www.mast.is/static/files/Uploads/document/Baeklingar/InnraEftirlitRodvef.pdf ; https://www.mast.is/static/files/Uploads/document/FraedslufundirMAST/innraeftirlitmatvaelafyrirt%C3%A6kja250111.pdf ; https://reykjavik.is/matvaelaeftirlit/adur-en-sott-er-um-starfsleyfi ; https://island.is/starfsleyfi-heilbrigdisefirlits ; https://apps.apple.com/app/id1667914032",
+   "suggested_score": 3,
+   "verdict": "confirmed"
   },
   "tag": "w2b43"
  },

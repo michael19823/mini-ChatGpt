@@ -220,6 +220,57 @@
    "known": 1
   }
  },
+ "azerbaijan": {
+  "batch": "w2b41",
+  "candidates": 27,
+  "checks": {
+   "opus": 0,
+   "sonnet": 6,
+   "unverifiedByCap": []
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 3,
+   "unverifiable": 3
+  },
+  "gaps": 1,
+  "id": "azerbaijan",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 19,
+   "known": 4,
+   "merge": 2
+  }
+ },
+ "bangladesh": {
+  "batch": "w2b44",
+  "candidates": 38,
+  "checks": {
+   "opus": 3,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "B14 Small exporter formalities (ERC renewal, EXP form, EPB registration)",
+    "GAPS2 RJSC annual-return, AGM and beneficial-ownership compliance service for small private limited companies",
+    "GAPS3 Trade licence + TIN/BIN/e-return compliance calendar for sole traders and small shops"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "check_failed": 12
+  },
+  "gaps": 8,
+  "id": "bangladesh",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "drop": 1,
+   "keep": 32,
+   "merge": 2
+  }
+ },
  "belgium": {
   "batch": "w2b21",
   "candidates": 30,
@@ -248,6 +299,34 @@
    "keep": 28,
    "known": 1,
    "merge": 1
+  }
+ },
+ "benin": {
+  "batch": "w2b41",
+  "candidates": 28,
+  "checks": {
+   "opus": 2,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B5 C05 Fuel-station compliance pack: quarterly stock declaration, ANM checks, approval renewals",
+    "B6 C06 Quarry holder loading-slip, TDL and royalty book for small and artisanal quarries"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 3,
+   "check_failed": 2,
+   "refuted": 1,
+   "unverifiable": 2
+  },
+  "gaps": 1,
+  "id": "benin",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 27,
+   "known": 1
   }
  },
  "burkina-faso": {
@@ -511,6 +590,32 @@
    "merge": 2
   }
  },
+ "cyprus": {
+  "batch": "w2b42",
+  "candidates": 27,
+  "checks": {
+   "opus": 0,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "GAPS1 Timber and firewood trader register and EUDR pack for Cyprus licence holders"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 1,
+   "refuted": 1,
+   "unverifiable": 4
+  },
+  "gaps": 2,
+  "id": "cyprus",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 24,
+   "known": 3
+  }
+ },
  "czechia": {
   "batch": "w2b28",
   "candidates": 36,
@@ -579,6 +684,30 @@
    "keep": 34,
    "known": 6,
    "merge": 1
+  }
+ },
+ "dr-congo": {
+  "batch": "w2b42",
+  "candidates": 21,
+  "checks": {
+   "opus": 2,
+   "sonnet": 4,
+   "unverifiedByCap": []
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 4,
+   "unverifiable": 2
+  },
+  "gaps": 7,
+  "id": "dr-congo",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 15,
+   "known": 4,
+   "merge": 2
   }
  },
  "ecuador": {
@@ -892,6 +1021,103 @@
    "keep": 25,
    "known": 5,
    "merge": 1
+  }
+ },
+ "honduras": {
+  "batch": "w2b43",
+  "candidates": 28,
+  "checks": {
+   "opus": 2,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "A5 C5. ARSA sanitary licence renewal service for butchers and small food producers",
+    "B2 Municipal ICS sworn-declaration and operating-permit calendar for accountants serving many small businesses",
+    "B3 ARSA sanitary-licence renewal and per-branch tracker for pharmacies, droguerías, labs and clinics (with controlled-drug monthly reports)"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 3,
+   "disputed": 2,
+   "refuted": 1,
+   "unverifiable": 2
+  },
+  "gaps": 1,
+  "id": "honduras",
+  "leads": [
+   {
+    "challenge": "unclear 4",
+    "final": "disputed",
+    "id": "B1",
+    "mark": "new",
+    "name": "RCBF beneficial-ownership filing and annual-update kit for small Honduran companies (via accountants and notaries)",
+    "opus": 4,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "survives 3",
+    "final": "disputed",
+    "id": "A6",
+    "mark": "new",
+    "name": "C6. Annual information and board-change filings for asociaciones civiles and ONGD",
+    "opus": 4,
+    "prov": 3,
+    "sonnet": 4,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "drop": 3,
+   "keep": 22,
+   "known": 2
+  }
+ },
+ "iceland": {
+  "batch": "w2b43",
+  "candidates": 31,
+  "checks": {
+   "opus": 2,
+   "sonnet": 6,
+   "unverifiedByCap": [
+    "B2 AML pack for real-estate agencies, car dealers and property companies",
+    "B8 Licensed accommodation operating-licence and levy compliance (hotels, guest houses)",
+    "B13 Reweighing and home-weighing licence records",
+    "GAPS1 Compliance pack for small private water supplies (permit, internal control, sampling plan)"
+   ]
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 5,
+   "disputed": 1,
+   "refuted": 1,
+   "unverifiable": 1
+  },
+  "gaps": 2,
+  "id": "iceland",
+  "leads": [
+   {
+    "challenge": "unclear 3",
+    "final": "disputed",
+    "id": "A3",
+    "mark": "new",
+    "name": "C03 AML registration and compliance pack for jewellers, precious-metal and art dealers",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "drop": 1,
+   "keep": 23,
+   "known": 4,
+   "merge": 3
   }
  },
  "india": {
@@ -1363,6 +1589,29 @@
    "keep": 42,
    "known": 3,
    "merge": 3
+  }
+ },
+ "liberia": {
+  "batch": "w2b46",
+  "candidates": 26,
+  "checks": {
+   "opus": 2,
+   "sonnet": 6,
+   "unverifiedByCap": []
+  },
+  "complete": true,
+  "criticGaps": null,
+  "finals": {
+   "below_4": 2,
+   "unverifiable": 6
+  },
+  "gaps": 0,
+  "id": "liberia",
+  "leads": [],
+  "stage": "done",
+  "triage": {
+   "keep": 24,
+   "known": 1
   }
  },
  "mauritius": {

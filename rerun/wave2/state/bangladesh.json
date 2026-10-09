@@ -1,4 +1,41 @@
 {
+ "critic:bangladesh": {
+  "result": {
+   "gaps": [
+    {
+     "category": "RMG/export-factory sub-supplier compliance: BGMEA/BKMEA membership, utilisation declaration (UD) and Accord/Alliance/RSC-style safety and remediation files for small subcontract garment and washing units",
+     "first_search": "ক্ষুদ্র গার্মেন্টস সাবকন্ট্রাক্ট কারখানা ইউডি ইউপি বন্ড লাইসেন্স নবায়ন বিজিএমইএ সদস্যপদ",
+     "why": "Bangladesh has thousands of small subcontract garment, knit, washing and accessory units; UD/bond is partly covered by K01 but the small-unit buyer and its repeat audit and licence paperwork were never screened."
+    },
+    {
+     "category": "Trade licence and municipal/union parishad duties: city corporation trade licence, signboard and tax renewal, and the 2024-26 digitisation of trade licences",
+     "first_search": "ট্রেড লাইসেন্স নবায়ন অনলাইন সিটি কর্পোরেশন ২০২৬ ফি সাইনবোর্ড কর",
+     "why": "Every small shop and firm renews a trade licence yearly. The coverage mentions it only in passing, as 'general knowledge, unverified'. The recurring buyer group is the largest in the country and was never examined, including TIN, BIN and e-return deadlines for sole traders."
+    },
+    {
+     "category": "RJSC/Registrar of Joint Stock Companies annual returns and the Companies Act amendments; Registrar of Societies/Trade Organisations; Cooperative annual returns for small private limited firms and associations",
+     "first_search": "আরজেএসসি বার্ষিক রিটার্ন দাখিল প্রাইভেট লিমিটেড কোম্পানি জরিমানা ২০২৫ নতুন নিয়ম",
+     "why": "Small private limited companies and trade bodies must file annual returns and renew every year. The pass covered NGOs and co-operatives but not the RJSC annual-return duty, nor the Societies Registration and Trade Organisations Ordinance renewals."
+    },
+    {
+     "category": "Mobile financial service agents, bKash/Nagad agents, and SIM/biometric registration retailers",
+     "first_search": "এমএফএস এজেন্ট কেওয়াইসি বাংলাদেশ ব্যাংক নির্দেশনা ২০২৬ সিম রেজিস্ট্রেশন বায়োমেট্রিক খুচরা বিক্রেতা জরিমানা",
+     "why": "Bangladesh has over a million MFS agents and SIM/recharge retailers. Bangladesh Bank agent KYC and BTRC biometric SIM registration rules fall on these small operators, and the regime was not screened."
+    },
+    {
+     "category": "Tannery, leather and small polluting-industry operators: DoE Environmental Clearance Certificate renewal and effluent treatment (ETP) duties, outside brick kilns",
+     "first_search": "পরিবেশ ছাড়পত্র নবায়ন অনলাইন ডিওই কমলা লাল শ্রেণি ক্ষুদ্র শিল্প ইটিপি বাধ্যতামূলক ২০২৫",
+     "why": "DoE ECC renewal (orange and red category) falls on thousands of small mills, dyeing units, plastic recyclers, and relocated tanneries. Only brick kilns were screened, so the wider DoE clearance regime is missing."
+    },
+    {
+     "category": "Tobacco, bidi and cigarette retail / tobacco-product licensing, and the new e-commerce/F-commerce registration duty (Digital Commerce Operation Guidelines, Digital Commerce Policy)",
+     "first_search": "ই-কমার্স এফ-কমার্স উদ্যোক্তা নিবন্ধন বাধ্যতামূলক ডিজিটাল কমার্স নীতিমালা ভোক্তা অধিকার অধিদপ্তর লাইসেন্স ২০২৬",
+     "why": "The 2021 Digital Commerce Operation Guidelines and later Bangladesh Commerce ministry/DNCRP registration moves put duties on F-commerce and small online sellers, and the pass never checked them. Retail tobacco-licence proposals (2023 tobacco control rules) also affect millions of small shops."
+    }
+   ]
+  },
+  "tag": "w2b44"
+ },
  "discover:A:bangladesh": {
   "result": {
    "blocked_searches": 0,
@@ -293,5 +330,687 @@
    "searches": 28
   },
   "tag": "w2b37"
+ },
+ "discover:B:bangladesh": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small local ISPs (district/thana/divisional licensees) and their reseller networks; ISPAB members",
+     "category": "33. Internet service providers and BTRC licensing",
+     "evidence": "https://meatechwatch.com/2025/11/26/bangladesh-regulator-cancels-16-isp-licences-over-non-renewal/ ; https://www.dhakatribune.com/business/411527/major-btrc-licensing-overhaul-aims-to-boost ; https://www.thedailystar.net/business/news/btrc-wants-55-revenue-broadband-operators-4021556 ; https://bangla.thedailystar.net/economy/industry/ict/news-512061",
+     "existing": "Codonyx Net Manager (billing, MikroTik/OLT) and RapidLogX (BTRC log compliance); BD-ISP billing software; Mikrotik billing tools. Codonyx's G2 listing shows 0 reviews and the claims are vendor-made.",
+     "known_mark": "new",
+     "name": "BTRC licence-renewal and migration tracker plus log-retention pack for small ISPs",
+     "score": 4,
+     "status": "promising",
+     "trigger": "ISP licence renewal every 5 years with tariff approval; Cl.25.4 log retention (3 months); the 2025 reform moves ISPs into FTSP/District FTSP categories (draft sent for approval 24 May 2026); BTRC revoked 16 ISPs for non-renewal (Nov 2025) and earlier 334 licences for late renewal.",
+     "trigger_note": "",
+     "unchecked": "Whether quarterly or annual returns are due from small ISPs; how many licensed ISPs remain; whether the reform was approved; price paid for existing log tools; BTRC portal for renewal. The log-compliance gap is already partly covered by RapidLogX, so the real gap is a renewal/migration and tariff-filing tracker."
+    },
+    {
+     "buyer": "Licensed private security agencies (Home Ministry) and the firms that hire guards",
+     "category": "26. Security, cleaning and manpower agencies",
+     "evidence": "https://www.dhakatribune.com/bangladesh/126847/700-security-companies-run-on-mere-trade-licences ; https://bdlaws.minlaw.gov.bd/act-print-935.html (Act page found by search, content not read)",
+     "existing": "Only foreign guard-management products turned up (Guard360, etc.). No Bangladesh-specific product found.",
+     "known_mark": "new",
+     "name": "Private security agency licence, guard roster and police-verification register",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Licence from Home Ministry, renewal every 2 years (Tk50,000 per 2006-era rules), guard police verification and training, uniform approval; about 700 firms reportedly ran on trade licences alone in 2017.",
+     "unchecked": "Current Act and rules (2006 vs later), actual renewal period and fee today, whether a guard register is a legal duty, firm count, any police verification portal."
+    },
+    {
+     "buyer": "1,275 licensed Hajj/Umrah agencies (HAB members)",
+     "category": "34. Hajj and Umrah agencies",
+     "evidence": "https://www.ittefaq.com.bd/755439/ (2026 agencies permitted); https://www.prothomalo.com/bangladesh/idlq8mh5j7 ; https://bangla.thedailystar.net/news/bangladesh/news-654106",
+     "existing": "Only generic PHPTravels Umrah module found; a government Hajj management/e-Hajj system may already take registration (unchecked).",
+     "known_mark": "new",
+     "name": "Hajj/Umrah agency pilgrim ledger, contract and ministry-reporting tool",
+     "score": 3,
+     "status": "weak",
+     "trigger": "2026 conditions: written contracts with pilgrims for Makkah/Madinah services and mandatory pilgrim registration; the 2027 Hajj pre-registration opened 27 Jul 2026.",
+     "unchecked": "Whether the government Hajj portal already covers agency back-office; the Hajj and Umrah Management Act status; competitor search in Bengali found no local vendor but was only one query."
+    },
+    {
+     "buyer": "Private clinics, diagnostic centres and small hospitals (tens of thousands of facilities)",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://www.prothomalo.com/bangladesh/লাইসেন্স-নবায়নের-প্রক্রিয়া-নিয়ে-প্রশ্ন ; https://bangla.thedailystar.net/health/news-562841 ; https://www.jugantor.com/national/1138674 (403, summary from search only)",
+     "existing": "DGHS free online licence portal; hospital management software is widely sold (not compliance-specific).",
+     "known_id": "K09",
+     "known_mark": "new",
+     "name": "Private clinic and diagnostic centre licence-renewal and compliance file (DGHS)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "DGHS licence renewal (online); new rule effective FY2026-27 (details unread); DGHS raids on unlicensed clinics; surgical staffing orders.",
+     "unchecked": "The FY2026-27 rule text; recurring reports to DGHS; insurer billing; local-language competitor search not run (budget)."
+    },
+    {
+     "buyer": "Shops, markets, small factories, hotels, clinics needing a fire licence",
+     "category": "35. Fire licences (country-specific)",
+     "evidence": "https://thefinancialexpress.com.bd/national/fire-service-launches-e-fire-licence-system (published 30 Apr 2026)",
+     "existing": "State portal built by Perky Rabbit Corporation Ltd; fire-extinguisher vendors and consultants.",
+     "known_mark": "new",
+     "name": "Fire licence document and renewal service on the new e-Fire portal",
+     "score": 3,
+     "status": "weak",
+     "trigger": "From 1 May 2026 new, renewal and re-evaluation fire licences are online only; manual applications closed.",
+     "unchecked": "Who must hold a fire licence, renewal period, fees, inspection steps, whether outsourcing agents exist; competitor search not run."
+    },
+    {
+     "buyer": "Small manufacturers/packers of CM-mandatory products (273 products; sweets, juices, biscuits, edible oil)",
+     "category": "36. BSTI mandatory certification (overlaps category 20)",
+     "evidence": "https://www.thedailystar.net/news/bsti-yet-to-take-action-against-47-edible-oil-refineries ; https://www.thedailystar.net/business/news/bsti-licence-mandatory-retail-fruit-drinks-wafer-1980565 ; https://thefinancialexpress.com.bd/trade/bsti-brings-43-new-items-under-licensing-1612499778",
+     "existing": "BSTI online portal and consultants (not checked in detail).",
+     "known_mark": "new",
+     "name": "BSTI CM-licence renewal tracker for small food and consumer-goods producers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "BSTI Act 2018: marketing a CM item without a valid licence is an offence; list keeps expanding; lapses are common.",
+     "unchecked": "2026 list, fees, whether periodic test reports are due, competitor search (not run)."
+    },
+    {
+     "buyer": "REDMA-registered developers (small and mid-size)",
+     "category": "28. Notaries, land agents, real estate brokers",
+     "evidence": "https://legalseba.com/bd-articles/bangladesh-anti-money-laundering-guide/ (secondary) ; https://archive.thedailystar.net/law/2010/11/04/analysis.htm",
+     "existing": "None found; REHAB is the association.",
+     "known_mark": "new",
+     "name": "Real estate developer registration, REHAB and AML file",
+     "score": 3,
+     "status": "weak",
+     "trigger": "REDMA 2010 s.5 registration; REHAB membership mandatory (2017); AML duties under MLPA 2012/Rules 2019 (CDD, STR, 5-year records).",
+     "unchecked": "Renewal period, BFIU reporting channel and frequency for developers, number of small developers; competitor search not run."
+    },
+    {
+     "buyer": "Deed writers and registry-side lawyers/brokers around about 500 sub-registry offices (count unverified)",
+     "category": "37. Deed writers and sub-registry e-registration",
+     "evidence": "https://www.prothomalo.com/bangladesh/ohbjsp6n6g ; https://www.ittefaq.com.bd/768776/",
+     "existing": "The state's own e-registration system (out of scope); nothing found for intermediaries.",
+     "known_mark": "new",
+     "name": "Deed-writer / lawyer workflow tool for the new e-registration software",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Registration (Amendment) Ordinance 2026 adds s.77A: documents presented and registered via government-approved software; window 30 to 60 days.",
+     "unchecked": "Whether rules were gazetted and the system launched; whether deed writers are allowed to use it; timeline."
+    },
+    {
+     "buyer": "About 700 licensed NGO-MFIs (MRA) and small registered co-operative societies",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://legalseba.com/bd-articles/guide-to-obtaining-a-microcredit-license-in-bangladesh/ ; https://ianslive.in/bangladeshs-proposed-microfinance-rules-could-reduce-poor-peoples-credit-access--20260119171236 ; district co-op PDFs on portal.gov.bd",
+     "existing": "Not searched (MFI MIS vendors likely exist).",
+     "known_mark": "new",
+     "name": "Small NGO-MFI and savings co-operative reporting/audit pack",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "MRA twice-yearly data and yearly financial reports; Co-operative Dept annual audit then AGM; proposed Microfinance Bank Ordinance 2025 (not confirmed enacted).",
+     "unchecked": "Current MRA reporting format and portal; MIS vendors; co-op online return portal; competitor search not run."
+    },
+    {
+     "buyer": "LPG dealers and retailers",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://bdnews24.com/business/mqrx54th6v ; https://www.dhakatribune.com/bangladesh/nation/410066/khulna-authorities-order-visible-display-of-lpg",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Deadline-driven LPG retailer price-list and invoice compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "BERC monthly price orders; district administrations ordering price lists to be shown; BERC instruction to issue VAT invoices/delivery orders.",
+     "unchecked": "Whether any register or periodic report is mandatory for dealers; petrol-pump side."
+    },
+    {
+     "buyer": "About 7,900 brick kilns",
+     "category": "31. Brick kilns",
+     "evidence": "https://www.prothomalo.com/bangladesh/ug3vxqobby ; https://bdlaws.minlaw.gov.bd/act-details-1140.html",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Brick kiln environmental clearance and fuel-use compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Act 2013 as amended; DoE clearance; no new clearances since Sep 2024; amendment under discussion.",
+     "unchecked": "Whether renewal is online; owner willingness to pay; sector shrinking."
+    },
+    {
+     "buyer": "Feed mills, fish-feed sellers, hatcheries",
+     "category": "32. Animal and fish feed licensing",
+     "evidence": "https://wikiprocedure.com/index.php/Bangladesh_-_Renewal_of_Wholesale_(Fish_Food)_License ; https://thefishsite.com/articles/laws-to-regulate-feed-and-hatchery-businesses",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Feed mill and hatchery licence/records tool",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Feed Act 2010: 1-year licence; inspections and sampling.",
+     "unchecked": "Current renewal process, number of licensees, any batch records required."
+    },
+    {
+     "buyer": "Residential hotels and guest houses",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://www.dhakatribune.com/bangladesh/dhaka/202479/police-to-increase-surveillance-in-hotels",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Hotel guest list for police and guest-house register",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Duty to send guest names and addresses to the local police station (DMP 2020 statement).",
+     "unchecked": "Legal basis, form, whether any e-register exists, enforcement."
+    },
+    {
+     "buyer": "Small/e-commerce exporters",
+     "category": "30. Small exporters and importers",
+     "evidence": "https://www.tbsnews.net/economy/banking/cenbank-eases-export-rules-e-commerce-products-966776 ; https://www.tbsnews.net/node/628626",
+     "existing": "Banks and C&F agents; K03 covers C&F tracking.",
+     "known_id": "K03",
+     "known_mark": "known",
+     "known_note": "Same C&F/customs document-tracking group; nothing separate.",
+     "name": "Small exporter formalities (ERC renewal, EXP form, EPB registration)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "BB FEPD-1 Circular 26 (30 Jul 2026): OEMS e-EXP form, US$1,000 exemption for marketplace exports; ERC yearly; EPB registration 5 years.",
+     "unchecked": "Primary circular text."
+    },
+    {
+     "buyer": "Small contractors",
+     "category": "27. Construction, mining and quarry contractors",
+     "evidence": "https://www.bppa.gov.bd/media-communication/news-1499.html ; https://events.development.asia/system/files/materials/2024/12/202412-recent-updates-e-gp-system-bangladesh.pdf",
+     "existing": "Tender-notice and bid-prep services (not checked).",
+     "known_mark": "new",
+     "name": "Public-works contractor e-GP registration and renewal",
+     "score": 2,
+     "status": "weak",
+     "trigger": "e-GP mandatory; BPPA registration/renewal fees revised Aug 2025; new PPR 2025 drafting.",
+     "unchecked": "Whether renewal is a pain point; competitors."
+    },
+    {
+     "buyer": "Chemical traders and industrial users",
+     "category": "25. Controlled chemicals or precursors",
+     "evidence": "https://thedailystar.net/node/1370551 ; https://www.thedailystar.net/law/2009/06/04/review.htm",
+     "existing": "None found.",
+     "known_mark": "new",
+     "name": "Precursor chemical users licence and stock register (DNC)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Narcotics Control Act 2018: DNC licences for import, transport, manufacture, sale, storage and use; old law required stock records.",
+     "unchecked": "Current rules, number of licensees, forms and portal."
+    },
+    {
+     "buyer": "Overseas recruiting agencies",
+     "category": "26. Manpower agencies",
+     "evidence": "https://www.prothomalo.com/bangladesh/2o2duezc6j ; https://www.deshrupantor.com/705768/",
+     "existing": "BMET A-RMS and others per K15.",
+     "known_id": "K15",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K15. The cancellations are new enforcement news but not evidence that the rejection reason (BMET systems) has changed.",
+     "name": "Overseas recruiting agencies (49 licences cancelled Jul 2026, upheld Oct 2026)",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Mass licence cancellation under the 2013 Act as amended 2023."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Searched BERC/LPG. Found only price-cap enforcement (BERC raised 12kg LPG to Tk1,837 for Oct 2026; retailers charge Tk2,200-2,700; Khulna admin ordered price lists displayed; BERC told bottlers to issue VAT invoices/delivery orders). No filing, register or QR/cylinder-tracking duty found. Petrol-pump explosives licence renewal and dealer reporting not found (search returned nothing). Weak candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "No dedicated search (budget spent on other categories). Rice mills/grain traders are already K04; nothing new beyond K04. Cold storage and warehouse licences unchecked.",
+     "status": "not_reached"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Co-operative Dept annual audit then AGM resolution within 1 month is a documented duty (district co-op office PDFs, garbled text). About 697-756 licensed NGO-MFIs under MRA Act 2006 report twice a year (data) and yearly (financials); a Microfinance Bank Ordinance 2025 is proposed (Jan 2026 report, status unconfirmed). Co-op online audit/return portal not confirmed. MFI MIS market likely crowded (unchecked).",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "DGHS hospital/clinic/diagnostic licences renew online (Prothom Alo: 11,773 renewal applications online, 4,516 renewed); Jugantor reports a new rule from FY2026-27 (details unreadable, page returned 403); DGHS raids on unlicensed clinics. No insurer-billing mandate found. A free DGHS portal exists, which limits the gap.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Pharmacy: nothing new beyond K09. DNC licenses import, transport, manufacture, sale, storage and use of precursors under the Narcotics Control Act 2018; I found no renewal process, fee or portal details. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Private security agencies are licensed by the Home Ministry (2006-era regime: Tk2 lakh fee, Tk5 lakh deposit, renewal every 2 years at Tk50,000, guard training, uniform approval; Dhaka Tribune 2017: about 700 firms ran on trade licences only). A bdlaws Act page exists (act-print-935). Current rules unverified. Overseas recruiters: K15. The July 2026 cancellation of 49 recruiting-agency licences was upheld in Oct 2026, so no new product from it.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "found": "e-GP is mandatory for public procurement. BPPA revised registration and renewal fees in Aug 2025. A new PPR 2025 is being drafted. Contractor registration/tender services are likely crowded. No site-register or local-content duty found. Quarry/sand leases not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "REDMA 2010 s.5 requires developer registration plus REHAB membership (MoC notification 2017). Developers are AML-covered (CDD, 5-year records, STRs to BFIU under the Money Laundering Prevention Rules 2019, per a secondary source). The Registration (Amendment) Ordinance 2026 (early Jan 2026) allows e-registration via government-approved software (s.77A) and extends the deed registration window from 30 to 60 days. Rules and portal not yet confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "found": "Residential hotels must give guest lists to the local police station (DMP statement, 2020; poorly followed). No 2025-26 rule, e-register or tourism levy found. Special Branch launched an E-Arrival/E-Departure card portal for foreign air travellers (Aug 2026 report, single source), which is not a hotel duty.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "found": "Bangladesh Bank FEPD-1 Circular 26 (30 Jul 2026, valid 1 year) pushes electronic EXP forms via OEMS and exempts marketplace e-commerce exports up to US$1,000 from the EXP form. ERC is renewed yearly via CCI&E. EPB registration now lasts 5 years (CoO/GSP/REX need valid registration). BSW makes CLP document submission mandatory (single source, unverified). Hilsa export permits are case by case. Shrimp: K10. Customs/BSW tools: K01/K03. Nothing new that is strong.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Brick kilns (Brick Manufacturing and Kilns Establishment (Control) Act 2013 as amended; DoE clearance)",
+     "found": "About 7,881 kilns (June 2022): 3,248 legal, 4,633 without clearance. The Sep 2024 adviser said no new clearances and that 3,491 kilns without clearance would be closed. Amendment to the Act under discussion. Enforcement is by fines and mobile courts. Low software gap and a shrinking base.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Animal feed, fish feed and hatchery licensing (Feed Act 2010, Animal Feed Rules 2013, Fish Feed Rules 2011)",
+     "found": "Feed licences run one year, with DLS for animal feed and DoF for fish feed. Renewal appears to be in person (wikiprocedure, undated). No online portal confirmed. Small base and unclear reporting duty.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Internet service providers and BTRC licensing (ISP Guideline 2020, 2025 licensing reform)",
+     "found": "ISP licences renew every 5 years and tariffs need approval. Cl.25.4 requires user-history and traffic logs kept for at least 3 months. BTRC cancelled 16 ISP licences for non-renewal (Nov 2025) and earlier 334 for failing to renew. The 2025 reform migrates ISPs to FTSP/District FTSP licences (draft sent for approval 24 May 2026; 5.5% revenue share proposal opposed by ISPAB). Many small local ISPs exist. Competitors found: Codonyx Net Manager and RapidLogX (IP log/BTRC compliance), BD-ISP.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Hajj and Umrah agencies (Hajj and Umrah Management; Ministry of Religious Affairs)",
+     "found": "1,275 licensed agencies (941 eligible for Hajj, 753 registered pilgrims, 70 lead agencies; undated). 2026 conditions: written contracts with pilgrims for Makkah/Madinah services, and penalties for agencies that do not register pilgrims. 2027 pre-registration opened 27 Jul 2026 at Tk3.5 lakh (unclear source date). Only generic Umrah software (PHPTravels) found. A government Hajj system is likely and unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Fire licences (Fire Service and Civil Defence e-Fire licence)",
+     "found": "FSCD launched an e-fire licence system on 30 Apr 2026. From 1 May 2026, new licences, renewals and re-evaluations are online only and manual applications are closed. Builder is Perky Rabbit Corporation Ltd (Financial Express). Who needs the licence, renewal period and fees not confirmed. A free state portal limits the opportunity to a done-for-you service.",
+     "status": "screened"
+    },
+    {
+     "category": "36. BSTI mandatory certification (CM licence) for small manufacturers, importers and packers",
+     "found": "273 products were under mandatory CM in Jun 2024, fewer than half food. Items added include fruit drinks, wafers, 36 new items including sweets, and 43 items. BSTI Act 2018 makes marketing without a CM licence an offence. Renewal lapses are common (47 edible-oil refineries). Overlaps category 20 (small food producers), which another worker covers. 2026 list and fees not found.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Deed writers and sub-registry e-registration (Registration Act 1908 as amended by the Ordinance 2026)",
+     "found": "Ordinance of early Jan 2026 added s.77A (e-registration through government-approved software). The rules and portal date are not found. The state builds the system (out of scope). Possible intermediary tools for deed writers/lawyers once rules exist.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "পেট্রোল পাম্প লাইসেন্স নবায়ন বিস্ফোরক অধিদপ্তর এলপিজি বিতরক বিইআরসি",
+    "বেসরকারি ক্লিনিক ডায়াগনস্টিক সেন্টার লাইসেন্স নবায়ন স্বাস্থ্য অধিদপ্তর অনলাইন ২০২৬",
+    "সমবায় সমিতি বার্ষিক অডিট রিটার্ন সমবায় অধিদপ্তর অনলাইন সফটওয়্যার ২০২৬",
+    "বেসরকারি নিরাপত্তা সেবা প্রদানকারী প্রতিষ্ঠান লাইসেন্স আইন ২০২৬ সিকিউরিটি এজেন্সি",
+    "Bangladesh private security service act licence agencies Home Ministry guards",
+    "Bangladesh real estate developers brokers AML REDMA 2010 licence renewal",
+    "Bangladesh hotel guest house guest register police tourism law 2025 2026",
+    "Bangladesh LPG distributors dealers licence BERC rules 2026 cylinder tracking",
+    "ইটভাটা লাইসেন্স নবায়ন পরিবেশ অধিদপ্তর ইট প্রস্তুত ও ভাটা স্থাপন নিয়ন্ত্রণ আইন",
+    "Bangladesh feed mill hatchery fish feed licence Animal Feed Act 2010 renewal",
+    "হজ এজেন্সি লাইসেন্স নবায়ন হজ ও ওমরাহ ব্যবস্থাপনা আইন ২০২৬ হ্যাব",
+    "BTRC ISP licence cable operators sub-ISP returns revenue sharing 2026 renewal",
+    "microfinance MRA licence Bangladesh small NGO-MFI report MIS 2026 rules",
+    "BFIU DNFBP goAML registration real estate dealers precious metals Bangladesh circular",
+    "দলিল লেখক নোটারি ই-রেজিস্ট্রেশন সাব-রেজিস্ট্রি অনলাইন দলিল নিবন্ধন ২০২৬",
+    "Bangladesh small exporters ERC EXP form EPB certificate of origin 2026 new rule",
+    "ফায়ার সার্ভিস লাইসেন্স নবায়ন ব্যবসা প্রতিষ্ঠান অনলাইন ফায়ার লাইসেন্স ২০২৬",
+    "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর রাসায়নিক প্রিকার্সর লাইসেন্স নবায়ন",
+    "বিএসটিআই সিএম লাইসেন্স নবায়ন ক্ষুদ্র খাদ্য উৎপাদক ২০২৬",
+    "রিক্রুটিং এজেন্সি লাইসেন্স নবায়ন বিএমইটি; নির্মাণ ঠিকাদার পিপিআর ই-জিপি"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b44"
+ },
+ "gapfill:bangladesh": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Owners and compliance managers of small Orange-A/B and Red category industrial units, plus the consultants who file for them",
+     "category": "Tannery, leather and small polluting-industry operators: DoE ECC renewal and ETP duties (gap category)",
+     "evidence": "https://www.tbsnews.net/node/1077411 ; https://www.bssnews.net/news/408193/print ; https://legalseba.com/bd-services/environmental-clearance-in-bangladesh-under-the-new-2023-rules/ ; https://doe.faridpur.gov.bd/en/site/sps_data/SoMn-ওয়ান-স্টপ-সেবা (renewal processing times). Competitor search (Bangla, ECC renewal software / ETP monitoring / compliance register) found only the DoE's own web-based ECC portal (application tracking, not a factory-side register) and no vendor product.",
+     "existing": "DoE web-based ECC application portal (free, applications and status only); consultancy firms (LegalSeba and similar). No factory-side compliance-register product found.",
+     "known_mark": "new",
+     "name": "ECC renewal and ETP operating-log tracker for small Orange/Red-category factories (dyeing, washing, plastics recycling, relocated tanneries)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Environment Conservation Rules 2023: ECC renewal yearly for Orange/Red (some sources say Green every 3 years) with compliance monitoring reports; DoE final warning to 2,046 factories to keep ETPs running; planned online ETP monitoring (BSS 2026)",
+     "unchecked": "The actual renewal period for Orange-A/B/Red under ECR 2023; the number of eligible units; whether ECC renewal needs ETP log data; whether the planned online ETP monitoring will make the log machine-fed; willingness to pay; the DoE ecc portal's current features (the site was not fetched)."
+    },
+    {
+     "buyer": "Small private limited companies and their directors (the RJSC register holds about 272,598 companies as of July 2022, per a Financial Express opinion piece; only about 40,000 file tax returns per NBR), plus accountants and company-secretary freelancers",
+     "category": "RJSC annual returns and Companies Act amendments (gap category)",
+     "evidence": "https://thefinancialexpress.com.bd/trade/govt-to-modernise-companies-act-with-ai-in-focus-muktadir ; https://www.bssnews.net/news/421889 ; https://tahmidurrahman.com/annual-return-filing-for-companies-in-bangladesh/ ; https://thefinancialexpress.com.bd/opinions/the-myth-of-300000-registered-entities-with-rjsc ; competitor search (Bangla: RJSC annual return + trade licence reminder software for small business) found no Bangladeshi app, only law-firm and corporate-secretary services (LegalSeba, TRW, Commenda) and the free RJSC portal.",
+     "existing": "RJSC online portal (free filing); law firms and corporate-secretary services; no software product found",
+     "known_mark": "new",
+     "name": "RJSC annual-return, AGM and beneficial-ownership compliance service for small private limited companies",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Companies Act 1994 annual-return duty (deadline sources conflict: 21 or 28 days after AGM); daily fine and strike-off risk; draft Companies (Third Amendment) Act 2026 in consultation in Sept 2026 adds digital filing, beneficial-ownership disclosure and Registrar fines up to Tk 50,000",
+     "unchecked": "Actual deadline and penalty from the statute; share of companies that file; whether the third amendment passes and when; many shells never file, so willingness to pay is uncertain; whether the buyer is the company or the filing intermediary."
+    },
+    {
+     "buyer": "Small shops and sole traders (largest recurring buyer group in the country), or the accountants/tax agents who serve many of them",
+     "category": "Trade licence and municipal/union parishad duties (gap category)",
+     "evidence": "https://thefinancialexpress.com.bd/trade/dncc-extends-deadline-for-renewal-of-trade-licence-fee ; https://thefinancialexpress.com.bd/trade/five-yr-trade-licence-renewal-facility-soon-dscc ; https://today.thefinancialexpress.com.bd/print/simplifying-trade-licence-renewal-1787153086 (opinion proposing auto-reminders). Competitor search found no commercial reminder app in Bangladesh.",
+     "existing": "etradelicense.gov.bd and city-corporation online portals (free); BIDA OSS; DSCC 5-year renewal in the pipeline",
+     "known_mark": "new",
+     "name": "Trade licence + TIN/BIN/e-return compliance calendar for sole traders and small shops",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Yearly trade licence renewal (deadline reported as 30 June; late fee), city corporation instalment payments with a 10% rebate for paying all four online, plus TIN/BIN returns; DSCC 5-year renewal plan and the BIDA OSS integration may reduce the yearly trigger",
+     "unchecked": "2026 fee tables and signboard tax; whether the one-stop portals send reminders; willingness to pay of micro shops (likely very low); the 2026 BIN/e-return thresholds for sole traders; the rules differ across city corporations, pourashavas and union parishads."
+    },
+    {
+     "buyer": "Small subcontract garment, knit, washing and accessory units and their prime exporters",
+     "category": "RMG/export-factory sub-supplier compliance (gap category)",
+     "evidence": "https://thefinancialexpress.com.bd/print/moc-issues-guidelines-on-rmg-subcontracting-1562065334 ; https://thefinancialexpress.com.bd/trade/bgmea-stops-ud-issuance-to-84-non-compliant-units-1578631095 ; https://online92.thedailystar.net/news/nbr-bgmea-launch-real-time-garment-export-clearance-4078866",
+     "existing": "BGMEA e-UD system; garment ERP vendors (K12 already rejected for being too competitive)",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "Subcontract garment/washing unit file manager (BGMEA/BKMEA subcontract registration, e-UD references, DIFE/safety remediation status)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Commerce Ministry RMG subcontracting guidelines (about 2019; subcontract units register with the associations); BGMEA e-UD with mandatory unit-price declaration, integrated with NBR ASYCUDA World; UD suspension for safety non-compliance (84 units, Jan 2020)",
+     "unchecked": "Whether the 2019 subcontracting guidelines are still enforced; current renewal steps for small units; whether any small-unit buyer pays for this; the guideline details are dated and the search found no 2026 rule."
+    },
+    {
+     "buyer": "Small Facebook-based and website sellers (more than 50,000 micro and small online retailers per critics; 58,000+ consumer complaints reported)",
+     "category": "Tobacco... / e-commerce and F-commerce registration duty (gap category)",
+     "evidence": "https://www.prothomalo.com/business/te34xl061o (29 Aug 2025) ; https://www.prothomalo.com/business/0row1kv7tf (Oct 2023) ; https://www.tbsnews.net/economy/proposed-digital-commerce-law-worries-e-traders-578202 ; https://www.dhakatribune.com/amp/business/273675/all-facebook-based-e-comm-business-have-to ; https://thefinancialexpress.com.bd/home/only-393-e-commerce-cos-get-dbid-in-five-months-1664600949",
+     "existing": "RJSC-handled DBID application; marketplaces and courier platforms (not compliance tools)",
+     "known_mark": "new",
+     "name": "F-commerce / online seller DBID and licence compliance (current DBID, prospective Digital Commerce Authority licence)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "DBID guideline 2022 already mandatory but weakly taken up (1,902 DBIDs by 2023); the Digital Commerce Authority ordinance draft would require a licence (draft of 29 Aug 2025, not law); Cross-Border Digital Commerce Policy 2026 draft aimed at foreign platforms",
+     "unchecked": "Whether the ordinance was enacted in late 2025 or 2026 (unconfirmed; the draft stalled once before); whether DBID has a renewal or reporting cycle; seller willingness to pay; the duty is a one-off registration, with no recurring filing found."
+    },
+    {
+     "buyer": "Millions of small retail shops",
+     "category": "Tobacco, bidi and cigarette retail licensing (gap category)",
+     "evidence": "https://dailyinqilab.com/economy/news/841875 ; https://dailyinqilab.com/economy/news/837654 ; https://www.deshrupantor.com/646854/ (searched via the Bangla query; the details of the licence come from a 2022 report)",
+     "existing": "None found",
+     "known_mark": "new",
+     "name": "Retail tobacco (cigarette/bidi/jarda) seller licence register",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "2022 proposal for a separate one-year renewable retail tobacco licence; Tobacco Control Act amendment in consultation (Dec 2025); no final law confirmed",
+     "unchecked": "Whether the amendment passed; whether licences are issued by the city corporation or the union parishad; the rule is strongly contested by industry, and the buyer base has extremely low willingness to pay."
+    },
+    {
+     "buyer": "Private cold-storage owners (hundreds of units, with a trade association)",
+     "category": "22. Commodity traders, millers and warehouses (cold storage gap)",
+     "evidence": "https://www.prothomalo.com/business/economics/kkbol0cvjr ; https://bangla.bdnews24.com/samagrabangladesh/27b228f9db6a",
+     "existing": "None found",
+     "known_id": "K04",
+     "known_mark": "new",
+     "name": "Potato cold-storage operator rent-cap and stock register",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Agricultural Marketing Directorate rent cap of Tk 6/kg to 31 Dec (notice of 31 Aug 2026 per Prothom Alo); the licence renewal rule was not found",
+     "unchecked": "The Cold Storage licence statute and renewal cycle; the rent cap is seasonal and can be met without software; the buyer group is small."
+    },
+    {
+     "buyer": "Over a million MFS agents and SIM/recharge retailers (agent count from the gap brief, unverified)",
+     "category": "Mobile financial service agents, bKash/Nagad agents and SIM/biometric registration retailers (gap category)",
+     "evidence": "https://www.bb.org.bd/mediaroom/circulars/brpd/mar112026brpd-108.pdf ; https://www.bfiu.org.bd/pdf/circular/aml/mar302026bfiu29e.pdf ; https://www.prothomalo.com/bangladesh/crime/egpol2a041",
+     "existing": "Operator-run agent apps (bKash, Nagad) and operator biometric devices carry the KYC step; duty sits with the provider, not the retailer",
+     "known_mark": "new",
+     "name": "MFS agent and SIM retailer KYC/biometric compliance toolkit",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Bangladesh Bank BRPD circular 08 (11 Mar 2026) updating e-KYC; BTRC 10-SIM-per-NID cap with central biometric monitoring; handset registration blocking",
+     "unchecked": "Retailer-level fines and registers (none found); the rejection rests on the operators' control of the workflow, with no named product beyond the operators' own apps."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "8. Beekeepers",
+     "found": "No beekeeper-specific licence or mandatory register found. Only the generic BSTI CM licence for packaged honey (reported fee Tk 1,000 first issue, Tk 500 renewal, via BSTI app/e-services; Prothom Alo, unverified current). DAE has proposed a national beekeeper database, with about 3,500 beekeepers estimated by 2025-26 per an opinion piece (unverified). The Sundarbans honey GI registration is not a recurring duty. Tiny and unregulated; no candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses (cold storage / warehouse licence gap)",
+     "found": "Cold storage: the only 2026 rule found is the Agricultural Marketing Directorate's cap on potato cold-storage rent (Tk 6/kg to 31 Dec, notice of 31 Aug), with owners demanding Tk 7. No cold-storage licence renewal rule or register was found in the results. Owners are already organised in an association. Weak lead; K04 still covers rice mills and grain traders. Warehouse licence not verified.",
+     "status": "screened"
+    },
+    {
+     "category": "RMG/export-factory sub-supplier compliance: BGMEA/BKMEA membership, UD and safety/remediation files for small subcontract garment and washing units",
+     "found": "The searches found no document-level rule specific to small subcontract units. What exists: BGMEA/BKMEA issue e-UDs (NBR ASYCUDA World integrated with BGMEA e-UD; unit-price declaration required in UD applications), the 2019 Commerce Ministry RMG subcontracting guidelines make subcontract factories register with the associations (older, details may be outdated), and BGMEA suspended UD issuance to 84 non-compliant units in Jan 2020 after a DIFE letter. BGMEA's FY2026-27 budget ask (UD items without repeated bond-licence amendments) is a proposal only. No small-unit software buyer confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "Trade licence and municipal/union parishad duties: city corporation trade licence, signboard and tax renewal, and 2024-26 digitisation",
+     "found": "Trade licences are renewed yearly (reported deadline 30 June; late fee applies) through city corporation, pourashava or union parishad portals. DNCC and DSCC accept online payment, with a 10% rebate for paying the four instalments at once (DNCC extension to 30 Nov for FY2024-25). DSCC announced a plan for 5-year renewal, and the portal etradelicense.gov.bd exists. BSS reports that banks and city corporations will integrate with the BIDA OSS platform for online licences. Two opinion pieces propose automatic renewal reminders. The 2026 fee table and signboard-tax rates were not found. Free state portals cover most of the duty, so only a reminder or compliance-calendar layer remains.",
+     "status": "screened"
+    },
+    {
+     "category": "RJSC annual returns and Companies Act amendments; Registrar of Societies / trade organisations; cooperative returns for small private limited firms and associations",
+     "found": "The annual return is mandatory under the Companies Act 1994, though sources conflict on the deadline (28 days vs 21 days after the AGM; the first return within 18 months of incorporation). Reported penalty is a daily fine of about Tk 200 up to a cap, plus the risk of being struck off (secondary law-firm sources only, unverified). A draft Companies (Third Amendment) Act 2026 was at consultation in Sept 2026 (BSS, 7 Sept 2026): digital registration, beneficial-ownership disclosure and Registrar fines up to Tk 50,000 are reported. Not enacted. An RJSC online portal accepts annual returns. Societies Registration / Trade Organisations Ordinance renewals were not reached by these searches.",
+     "status": "screened"
+    },
+    {
+     "category": "Mobile financial service agents, bKash/Nagad agents, and SIM/biometric registration retailers",
+     "found": "Bangladesh Bank BRPD circular 08 of 11 Mar 2026 updates the e-KYC guideline (BFIU Circular 25 of 2020) for banks, MFS and PSPs; the insurance and capital-market circular sets a 31 Dec 2026 implementation date, and the MFS date is unverified. The duty sits on the MFS provider and operators, not on the agents, who work in the operators' own agent apps. BTRC: a 10-SIM-per-NID cap and a Central Biometric Verification Monitoring Platform, plus handset registration (NEIR) blocking of unregistered phones from Dec 2025 (Oct 2025 report). Prothom Alo reports retailers stealing fingerprints at SIM sale. No retailer-level fine or register rule found. Operator-controlled and low willingness to pay; no candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "Tannery, leather and small polluting-industry operators: DoE ECC renewal and ETP duties, outside brick kilns",
+     "found": "The ECR (Environment Conservation Rules 2023) classify industry as Green, Orange-A, Orange-B and Red. Sources conflict on renewal: one says 1 year for Orange and Red and 3 years for Green, another says yearly. The DoE has online ECC application with SMS/email status (2019 project description). The DoE gave a final warning to 2,046 factories in Dhaka, Gazipur, Narayanganj and Narsingdi to keep ETPs running (TBS). A 2026 BSS item says ETPs will be brought under online monitoring (Buriganga; planned). Renewal needs compliance monitoring reports. A per-factory ECC/ETP compliance-file and renewal tracker candidate was found.",
+     "status": "screened"
+    },
+    {
+     "category": "Tobacco, bidi and cigarette retail licensing, and the e-commerce/F-commerce registration duty (Digital Commerce Operation Guidelines / Policy)",
+     "found": "E-commerce: the Digital Commerce Operation Guidelines 2021 and DBID Registration Guidelines 2022 already require DBID (applied through RJSC; can be had without a trade licence if a website/page exists; terms must be in Bangla). Uptake was low: 393 DBIDs in five months, 1,902 by 2023. A Digital Commerce Authority ordinance draft (Prothom Alo, 29 Aug 2025; earlier 2023 draft) would require a licence; it is not law, and the cabinet approved a similar draft in May 2024 before it stalled. A Cross-Border Digital Commerce Policy 2026 draft (published 22 July, comments to 6 Aug) targets foreign platforms and vendors. Tobacco: a 2022 proposal would require a separate one-year renewable licence for retail sale of cigarettes, bidi and jarda; the amendment was still in consultation in Dec 2025 and no final law was confirmed. Both unenacted.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "ক্ষুদ্র গার্মেন্টস সাবকন্ট্রাক্ট কারখানা ইউডি ইউপি বন্ড লাইসেন্স নবায়ন বিজিএমইএ সদস্যপদ",
+    "ট্রেড লাইসেন্স নবায়ন অনলাইন সিটি কর্পোরেশন ২০২৬ ফি সাইনবোর্ড কর",
+    "আরজেএসসি বার্ষিক রিটার্ন দাখিল প্রাইভেট লিমিটেড কোম্পানি জরিমানা ২০২৫ নতুন নিয়ম",
+    "এমএফএস এজেন্ট কেওয়াইসি বাংলাদেশ ব্যাংক নির্দেশনা ২০২৬ সিম রেজিস্ট্রেশন বায়োমেট্রিক খুচরা বিক্রেতা জরিমানা",
+    "পরিবেশ ছাড়পত্র নবায়ন অনলাইন ডিওই কমলা লাল শ্রেণি ক্ষুদ্র শিল্প ইটিপি বাধ্যতামূলক ২০২৫",
+    "ই-কমার্স এফ-কমার্স উদ্যোক্তা নিবন্ধন বাধ্যতামূলক ডিজিটাল কমার্স নীতিমালা ভোক্তা অধিকার অধিদপ্তর লাইসেন্স ২০২৬",
+    "মৌচাষি মধু উৎপাদক লাইসেন্স নিবন্ধন বাংলাদেশ মৌ চাষ বিএসটিআই মধু",
+    "হিমাগার লাইসেন্স নবায়ন কোল্ড স্টোরেজ আলু হিমাগার মালিক সমিতি লাইসেন্স আইন ২০২৬",
+    "ট্রেড লাইসেন্স ডিজিটাল ই-ট্রেড লাইসেন্স স্থানীয় সরকার বিভাগ একীভূত ট্রেড লাইসেন্স আইন ২০২৬ ইউনিয়ন পরিষদ পৌরসভা",
+    "Bangladesh RJSC annual return late filing penalty Companies Act amendment 2025 2026 private limited company",
+    "তামাকজাত দ্রব্য খুচরা বিক্রেতা লাইসেন্স বাধ্যতামূলক তামাক নিয়ন্ত্রণ আইন সংশোধন ২০২৫ ২০২৬ দোকান",
+    "Bangladesh BGMEA UD utilization declaration subcontract factory sub-contracting NBR bond licence small factories 2026 renewal",
+    "বিটিআরসি সিম বিক্রেতা নিবন্ধন বায়োমেট্রিক ডিলার রিটেইলার জরিমানা অপারেটর এজেন্ট ২০২৬",
+    "Digital Commerce Ordinance Bangladesh 2026 f-commerce sellers registration DBID licence deadline Digital Commerce Authority",
+    "Department of Environment Bangladesh Environmental Clearance Certificate online renewal orange red category ecc.doe.gov.bd industries without ETP closure 2026",
+    "পরিবেশ ছাড়পত্র নবায়ন সফটওয়্যার ইটিপি মনিটরিং কমপ্লায়েন্স রেজিস্টার ডিওই অনলাইন ইটিপি রিয়েল টাইম মনিটরিং কারখানা",
+    "কোম্পানি কমপ্লায়েন্স সার্ভিস আরজেএসসি বার্ষিক রিটার্ন ট্রেড লাইসেন্স নবায়ন রিমাইন্ডার সফটওয়্যার অ্যাপ ছোট ব্যবসা",
+    "WebFetch prothomalo.com/business/0row1kv7tf (Digital Commerce Authority draft, Oct 2023); WebFetch prothomalo.com/business/te34xl061o (online-selling ordinance draft, 29 Aug 2025)"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b44"
+ },
+ "triage:bangladesh": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Food premises registration/licensing for small food businesses; no known idea covers it."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Small vehicle owners with recurring fitness/tax/permit renewals; new buyer group."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Small jewellers with purchase-record duties; new group."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Small NGOs with recurring NGOAB renewal/reporting; in scope, unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Boiler owners and use-certificate renewal differ from K04 grain stock register; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Feed seller/mill licensing is a new buyer group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Pesticide licence duty differs from K05 fertiliser dealer ledger; related to K05."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Jar-water and small packaged-food makers with BSTI CM licence; new group."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Irrigation well owners with licence duty; new group."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Seasonal haat lessees paying toll to city corporations; small, but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Licensed money changers with recurring Bangladesh Bank duties; small professional firms."
+    },
+    {
+     "decision": "drop",
+     "id": "A13",
+     "reason": "No recurring mandatory filing or registration duty found for households; fails the mandatory workflow definition."
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Small ISPs with BTRC renewal and log retention duty; new group."
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Private security agencies with licence and guard verification duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Hajj/Umrah agencies with ministry reporting duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Clinics and diagnostic centres, not pharmacies as in K09; different buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Fire licence online-only from 1 May 2026 for many small premises; deadline-driven."
+    },
+    {
+     "decision": "merge",
+     "id": "B6",
+     "reason": "Same BSTI CM licence duty for small food and product makers as A8.",
+     "ref": "A8"
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Real estate developers with REDMA and AML duties; new group."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Deed writers under new e-registration rule; unverified but in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small MFIs and co-operatives with recurring regulator reporting; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "LPG retailers with price-list and invoice duties; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "Brick kilns with environmental clearance; small firms, new."
+    },
+    {
+     "decision": "merge",
+     "id": "B12",
+     "reason": "Same feed licensing duty for feed mills and sellers as A6.",
+     "ref": "A6"
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Small hotels and guest houses with guest reporting to police; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Small exporters' ERC/EXP duties differ from K03 C&F agents; related to K03."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Small contractors with e-GP registration and renewal; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "Chemical traders with DNC licence and stock register; unverified, new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Small polluting factories with ECC renewal and ETP logs; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Small private companies with RJSC annual return duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Sole traders with trade licence and tax calendar; new group, verifiers to check generic tools."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Subcontract garment units differ from K01 bonded exporters; related to K01."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Online sellers with DBID registration duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Tobacco retailers licensing, unverified; new group."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Cold-storage operators differ from K04 grain mills; related to K04."
+    }
+   ]
+  },
+  "tag": "w2b44"
  }
 }

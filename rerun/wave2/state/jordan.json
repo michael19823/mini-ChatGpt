@@ -1,0 +1,548 @@
+{
+ "discover:A:jordan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Households and small firms employing non-Jordanian workers",
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "evidence": "https://www.aljazeera.net/ebusiness/2026/6/14/ ; https://www.almamlakatv.com/news/142945 ; https://taxnews.ey.com/news/2026-1276-jordan-suspends-recruitment-of-foreign-workers-to-prioritize-local-employment",
+     "existing": "MoL portal; accountants and recruitment offices",
+     "known_id": "K02",
+     "known_mark": "known",
+     "known_note": "Same duty as K02 (permit and residency renewals). The new cutoff makes it a one-off spike, not a recurring product.",
+     "name": "Household and small-employer foreign-worker status tracker after the Sept 2026 regularisation cutoff",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Regularisation window closed 30 Sep 2026; from 1 Oct 2026 a 'deportation' flag goes on irregular workers; recruitment suspended from 1 Jun 2026 (scope unverified).",
+     "unchecked": "Whether domestic workers are exempt from the recruitment suspension. EY PDF not opened."
+    },
+    {
+     "buyer": "Licensed domestic-worker recruitment offices",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.almamlakatv.com/news/142945 ; https://taxnews.ey.com/news/2026-1276-jordan-suspends-recruitment-of-foreign-workers-to-prioritize-local-employment",
+     "existing": "unknown",
+     "known_id": "K06",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K06. New risk note: the 2026 recruitment suspension may shrink the volume, and the exceptions for domestic workers were not confirmed.",
+     "name": "Recruitment-office case tracker (suspension risk)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Regulation 63/2020; recruitment suspension from 1 Jun 2026",
+     "unchecked": "Exceptions list in the MoL decision."
+    },
+    {
+     "buyer": "Jewellery and gold shops",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://www.almamlakatv.com/news/153485",
+     "existing": "unknown",
+     "known_id": "K05",
+     "known_mark": "known",
+     "known_note": "Same as K05. Article does not mention a register or goAML duty, so that part is unconfirmed.",
+     "name": "Jewellery shop AML/CFT instructions and used-gold register",
+     "score": 0,
+     "status": "weak",
+     "trigger": "New AML/CFT instructions for jewellery shops published in the Official Gazette (late 2024); bail raised to 10,000 JD for new shops; closure up to 2 weeks",
+     "unchecked": "Instruction text; whether goAML reporting applies to shops."
+    },
+    {
+     "buyer": "Private nurseries",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "Not searched",
+     "existing": "unknown",
+     "known_id": "K07",
+     "known_mark": "known",
+     "known_note": "Known; not re-checked.",
+     "name": "Nursery licence and inspection file kit",
+     "score": 0,
+     "status": "weak",
+     "trigger": "2024 Nursery Regulation",
+     "unchecked": "Everything"
+    },
+    {
+     "buyer": "Multi-vehicle owners: school transport, tourist and hotel taxis, bus-rental firms, small trucking firms",
+     "category": "18. Transport operators",
+     "evidence": "https://www.petra.gov.jo/en/news/ltrc-launches-1st-phase-of-17-e-services-for-licensing-public-transport-means ; https://petra.gov.jo/wp-content/x/index.php/en/news/ltrc-launches-1st-phase-of-17-e-services-for-licensing-public-transport-means",
+     "existing": "The free state portal eservices.ltrc.gov.jo; generic fleet-management apps",
+     "known_mark": "new",
+     "known_note": "No known idea on this buyer group.",
+     "name": "Fleet permit-renewal and licence-expiry tracker for small passenger and freight operators on the LTRC e-services portal",
+     "score": 2,
+     "status": "weak",
+     "trigger": "LTRC moved permit renewals online on 17 Jun 2026; 47 services by end-2026, with 50 freight services planned",
+     "unchecked": "Renewal cycles and fines; whether operators bring renewals through agents; freight-side rules; whether the portal sends reminders."
+    },
+    {
+     "buyer": "Licensed tourist car-rental offices",
+     "category": "3. Second-hand dealers and pawnbrokers (adjacent: vehicle trades)",
+     "evidence": "https://jordanianlaw.com/?p=1591",
+     "existing": "Rental management software probably exists; not searched",
+     "known_mark": "new",
+     "known_note": "No known idea on this buyer group.",
+     "name": "Tourist car-rental office renter register and licence file",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Regulation of tourist car-rental offices under Traffic Law 14/1984 (renter names, nationalities, addresses must be kept); 2009 regulation under the public passenger transport law licenses rental companies and offices",
+     "unchecked": "Whether the rules are current; who inspects the register; any submission to police; competing software."
+    },
+    {
+     "buyer": "Butchers and small abattoir operators",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://leap.unep.org/en/countries/jo/national-legislation/regulations-no-84-2024-regulation-and-monitoring-slaughterhouses (summary only; fetch 403)",
+     "existing": "unknown",
+     "known_mark": "new",
+     "known_note": "No known idea on this buyer group.",
+     "name": "Butcher and meat-shop compliance kit under GAM Slaughterhouse Regulation 84/2024",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Slaughterhouse Regulation and Monitoring Regulation No. 84 of 2024 replaced No. 145 of 2016; official slaughterhouse stamp checks",
+     "unchecked": "Regulation text, any record or reporting duty on butchers, scope outside Amman."
+    },
+    {
+     "buyer": "Veterinary pharmacies, vet clinics, animal-feed and drug sellers",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://aci.org.jo/UploadFiles/ (instructions PDF, not opened); https://www.eremnews.com/investigative-journalism/iy6483oxv7",
+     "existing": "unknown",
+     "known_mark": "new",
+     "known_note": "No known idea on this buyer group. Sits close to K16, but a different buyer and duty.",
+     "name": "Veterinary medicine seller dispensing register and licence file",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Ministry of Agriculture instructions on veterinary drugs, biologics and pesticides (amended 2022) under Agriculture Law 13/2015; vet association registry enforcement",
+     "unchecked": "Whether sellers keep a dispensing or prescription register, inspection frequency, and any reporting to the Ministry."
+    },
+    {
+     "buyer": "Agricultural pesticide shops and pest-control / spraying offices",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://leap.unep.org/en/countries/jo/national-legislation/instructions-registration-manufacture-processing-importation ; https://leap.unep.org/en/countries/jo/national-legislation/directive-no-z47-2003-licensing-offices-and-shops-pesticides",
+     "existing": "unknown",
+     "known_mark": "new",
+     "known_note": "No known idea on this buyer group.",
+     "name": "Pesticide shop and spraying-service office licence and sales register",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Instructions G/7 of 2021 (retail only of registered products) and Directive Z/47 of 2003 (licensing shops and spraying offices) via the Plant Protection Department",
+     "unchecked": "Whether a sales or application register is required, renewal cycle, number of licensed shops, 2025 amendments."
+    },
+    {
+     "buyer": "Licensed driving-training centres",
+     "category": "20. Small licensed premises with inspections",
+     "evidence": "https://jordanianlaw.com/?p=3922",
+     "existing": "unknown",
+     "known_mark": "new",
+     "known_note": "No known idea on this buyer group.",
+     "name": "Driving-training centre trainee and instructor file",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Driving Training Centres Licensing Regulation No. 102 of 2008 (instructor licence, annual JD 500 bank guarantee renewal, trainee proficiency certificates)",
+     "unchecked": "Whether the regulation was amended; what the centre files with the Traffic department or the Jordan Traffic Institute; software already used."
+    },
+    {
+     "buyer": "Registered societies and charities",
+     "category": "17. Community and religious bodies",
+     "evidence": "https://ardd-jo.org/wp-content/uploads/2024/07/ (ARDD/Jonaf June 2024 report; PDF unreadable on fetch)",
+     "existing": "Free state platform; accountants",
+     "known_mark": "new",
+     "known_note": "No known idea on this buyer group.",
+     "name": "Association Takamul platform filing helper (financial reports, board changes) for small societies",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Associations Registry online platform 'Takamul' (mid-2023); reporting duties unconfirmed",
+     "unchecked": "Report deadlines, penalties, number of active societies, whether the platform is mandatory."
+    },
+    {
+     "buyer": "Seasonal sellers of sacrificial animals in Amman",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.jordannews.jo/Section-109/News/Amman-Municipality-Electronic-Registration-for-Eid-al-Adha-Sacrificial-Animal-Stalls-Begins-Tomorrow-41969",
+     "existing": "GAM's own e-registration",
+     "known_mark": "new",
+     "known_note": "Related to K16 (livestock), but a different buyer and duty.",
+     "name": "Eid al-Adha sacrificial-animal stall registration helper",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Greater Amman Municipality opens electronic registration for stalls ahead of Eid",
+     "unchecked": "Volume; likely seasonal and low value."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Nothing new beyond K02/K06 as a product, but timing evidence changed. Labour Ministry spokesman (Al Mamlaka/Al Jazeera, June 2026): the status-regularisation window for irregular foreign workers, households included, closed 30 Sep 2026 with no extension. From 1 Oct 2026 a 'deportation' flag goes on irregular workers, and ministry urged home owners to regularise. About 64k permits issued/renewed since June. EY tax news (15 Jun 2026) reports MoL suspended foreign-worker recruitment from 1 Jun 2026 with unspecified exceptions; I could not confirm whether domestic workers are exempt. Recruitment-office licensing resumed under Regulation 63/2020 after a 12-year freeze (Al Mamlaka 142945). Households alone are a poor buyer group, so a household tracker is a variant of K02.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No Jordanian licensing or purchase-register rule found in Arabic or English. Jordan News (2021) says licensed scrap shops exist but gives no rules, regulator or record duty, and notes many dealers work from vehicles without a permit. Marked unverified; the regulator and any buyer-ID register rule are unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No Jordanian second-hand dealer or pawnbroker regime surfaced. Pawnbroking is likely not a licensed activity here (unverified). Used-car showrooms: no specific instructions found. Tourist car-rental offices must keep records of renters' names, nationalities and addresses (1984 Traffic Law regulation, a licence also under the 2009 regulation); see candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Nothing new beyond K05. New AML/CFT instructions for jewellery shops published in the Official Gazette (Al Mamlaka 153485, article Oct-Nov 2024): judicial bail for new shops raised from 5,000 to 10,000 JD; sanctions escalate to closure up to 2 weeks, bail forfeiture or licence cancellation. The article does not mention a register, reporting or goAML.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No Jordanian dismantler or scrap-vehicle rule found. Results were Saudi only. Unverified; the regulator (LTRC, Traffic department, Ministry of Environment or municipality) is unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Nothing new beyond K16. Greater Amman Municipality runs electronic registration for Eid al-Adha sacrificial-animal stalls (Jordan News, 2025); this is seasonal and municipal. Poultry slaughterhouse licensing is under Directive Z/16 of 2003.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "Greater Amman Municipality issued Slaughterhouse Regulation and Monitoring Regulation No. 84 of 2024, replacing No. 145 of 2016 (FAOLEX/LEAP summary; full page returned 403 on fetch). GAM slaughterhouse director says vets join unified inspection teams, and consumers are told to look for the official slaughterhouse stamp. No butcher-side record or reporting duty confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Budget used on higher-yield categories; no search run.",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Veterinary drugs are regulated by the Ministry of Agriculture under the 2022-amended instructions for veterinary drugs, biologics and pesticides (Agriculture Law 13/2015); the ACI-hosted PDF was not opened. A Eremnews investigation reports unregistered 'fake vets' running vet pharmacies in Amman against the Veterinary Association registry. No buyer-side duty (dispensing register, prescription log) confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Water Authority Service Guide 2025-2026 (mwi.gov.jo) lists a wells and drilling services section, but the snippet did not show duties. No drilling-licence or abstraction-reporting rule confirmed. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Nothing Jordan-specific. Only fact: some wastewater plants are designated to receive tanker (sewage-truck) loads; no tracking or licence rule found. Saudi 'Tasreeh' tanker-tracking platform is a foreign analogue only.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "No Jordanian lift, boiler or pressure-vessel inspection rule found in two searches; results were UAE, Israel, Saudi and TUV pages. Unverified; Ministry of Labour OSH regulations and the JSMO accreditation list (opendata.gov.jo) are a start point.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "No search run; budget.",
+     "status": "not_reached"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Pesticides are governed by Instructions G/7 of 2021 (86 articles under Agriculture Law 13/2015; retail only of Ministry-registered products). Directive Z/47 of 2003 licenses pesticide shops and spraying-service offices through the Plant Protection Department (FAOLEX). No 2025 amendment found and no sales-register duty confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Nothing new beyond K06. Domestic-worker offices are licensed under Regulation 63/2020 (older rules: partnership company, 50k JD capital, bank guarantee 75k JD, annual renewal and classification; the older text is not confirmed current). Recruitment suspension from 1 Jun 2026 could cut the case volume K06 depends on; scope unverified. The draft Labour Law also sets conditions for employment/placement companies (Parlmany, Jul 2026, unread).",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "No Jordanian cemetery or funeral-service rule found; results were foreign. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Associations Registry (Ministry of Social Development) has an online platform, 'Takamul', launched mid-2023, per an ARDD/Jonaf June 2024 report; the PDF text could not be read. ICNL describes a fragmented legal framework. Reporting deadlines were not confirmed. Halal supervision not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Land Transport Regulatory Commission launched phase 1 on 17 Jun 2026 of 17 e-services (permit renewals for service, regular, airport, hotel and tourist taxis, buses, school transport, limousines, office rental vehicles, plus company licences) at eservices.ltrc.gov.jo; 47 services by end-2026, and 100 (50 passenger, 50 freight) planned. Logins are issued in person at governorate offices. This is a free state portal, so it competes with any renewal tracker. Fleet: 990 service taxis, 5,202 public vehicles, 683 large buses, 3,529 medium buses.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers: nothing new beyond K17. Street vendors: Regulation on Peddlers, Stalls, Canopies and Kiosks applies to all municipalities except Greater Amman. No e-licensing found. Vendors are low-value and informal.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Nurseries: nothing new beyond K07. Driving-training centres are under Regulation No. 102 of 2008 (instructor needs Category 4 licence for 2 years, JD 500 bank guarantee renewed annually); no newer rule found. Home-based food: Airbnb help page says JFDA and GAM license home meal service, renewed annually (third-party, unverified). Tattoo and hunting not searched.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 7,
+   "queries": [
+    "نظام تنظيم استقدام واستخدام عمال المنازل الأردن 2025 صاحب العمل تجديد تصريح عمل",
+    "تعليمات ترخيص تجار الخردة المعادن الأردن وزارة الصناعة سجل شراء",
+    "تعليمات المهن الصناعية ترخيص محلات بيع الذهب المستعمل السلع المستعملة الأردن",
+    "ترخيص ساحات تفكيك المركبات قطع غيار مستعملة الأردن هيئة النقل البري",
+    "الأردن نظام مزاولة المهن البيطرية صيدليات بيطرية تعليمات سجل الأدوية البيطرية",
+    "وزارة المياه الأردن ترخيص حفر آبار رخصة حفار آبار تعليمات 2025",
+    "الأردن صهاريج نضح الصرف الصحي ترخيص نقل النفايات تعليمات وزارة البيئة 2025",
+    "الأردن فحص المصاعد المراجل أوعية الضغط نظام السلامة والصحة المهنية 2024",
+    "Jordan Land Transport Regulatory Commission taxi service offices licensing 2026",
+    "Jordan Ministry of Agriculture pesticide dealers licence instructions 2025",
+    "الأردن وزارة التنمية الاجتماعية الجمعيات الخيرية تقارير مالية سجل الجمعيات 2025",
+    "الأردن مكاتب استخدام العمالة الوافدة ترخيص وزارة العمل تعليمات 2026 مكاتب استقدام عاملات المنازل",
+    "الأردن مدارس تعليم السياقة ترخيص تعليمات مراكز تدريب السواقة 2026",
+    "Jordan JFDA home-based food producers licensing small food establishments 2026",
+    "الأردن مسالخ ملاحم ترخيص الجزارين أمانة عمان رقابة اللحوم 2025",
+    "الأردن أصحاب المصاعد فحص دوري إلزامي أمانة عمان شهادة صلاحية المصعد",
+    "الأردن معارض بيع السيارات المستعملة ترخيص تعليمات مكاتب تأجير السيارات 2026",
+    "الأردن مقابر دفن الموتى ترخيص مكاتب خدمات الجنائز 2025",
+    "الأردن البسطات الباعة المتجولين ترخيص إلكتروني أمانة عمان 2026",
+    "Jordan scrap metal dealers regulation licence second-hand goods dealers instructions"
+   ],
+   "searches": 20
+  },
+  "tag": "w2b56"
+ },
+ "discover:B:jordan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Licensed guest-house hosts (one site each, one Jordanian employee) and small hotel-apartment operators",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://jordanianlaw.com/?p=3396 (fetched, full duties); https://hcd.gov.jo/ebv4.0/root_storage/ar/eb_list_page/نظام_المنشات_السياحية_والفندقية.docx (hotel-apartment classification and annual renewal papers incl. civil-liability insurance). Number of guest houses not found.",
+     "existing": "Generic hotel PMS exist; no Jordan guest-house-specific tool found in one Arabic search (marketing claims of police-reporting features in PMS products are unverified)",
+     "known_mark": "new",
+     "known_note": "No related known idea",
+     "name": "Guest-house and hotel-apartment guest register, annual licence and tax kit",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Guest Houses Organisational Instructions 2019 (issued under Hotel and Tourism Facilities System 7 of 1997, Art. 13): register with guest names, stay dates and ID copy, shown to security on arrival; annual licence 1 Jan to 31 Dec; displayed price list; Arabic/English guest contract with ministry-approved rates; sales tax returns; lost property and death notifications",
+     "unchecked": "Count of licensed guest houses; whether a police e-submission portal exists; current validity of 2019 instructions; whether short-term rentals have a regime"
+    },
+    {
+     "buyer": "Independent community pharmacies (small owner-pharmacists)",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://akeed.jo/en/post/1394/mail:info@akeed.jo ; https://www.jordannews.jo/Section-109/News/JFDA-puts-three-substances-under-narcotics-law-23568 ; https://www.jordannews.jo/Section-109/News/JFDA-clarifies-the-issue-of-Tramadol-23541 (search summaries only; not fetched)",
+     "existing": "Competitor search 'برنامج صيدلية الأردن سجل الأدوية المخدرة' found nothing Jordan-specific; general pharmacy ERPs probably exist (not checked)",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "K03 covers wholesaler/chain serialization receiving. This is a different buyer (independent pharmacies) and duty (controlled-drug log).",
+     "name": "Pharmacy controlled-drug daily log and secure-prescription compliance tool",
+     "score": 3,
+     "status": "weak",
+     "trigger": "JFDA decision of 1 Feb 2017: new prescription per controlled purchase, recorded in a daily prescription log kept for pharmacy inspectors; secure prescription form with security markings (since 2021); Narcotics and Psychotropic Substances Law 23 of 2016; violators referred to Pharmaceutical Association disciplinary council; electronic import-to-patient tracking under study (Jan 2024)",
+     "unchecked": "Whether the electronic tracking launched and would make a paper log redundant; pharmacy ERP coverage; pharmacy count; willingness to pay"
+    },
+    {
+     "buyer": "Privately run centres for people with disabilities and early-intervention centres for children",
+     "category": "31. Care centres for people with disabilities and the elderly (Ministry of Social Development)",
+     "evidence": "https://jordanianlaw.com/?p=2383 (fetched); https://ecdportal.ncfa.org.jo/media/0eldsihh/تعليمات_ترخيص_مراكز_التدخل_المبكر_للأطفال_ذوي_الإعاقة_لسنة_2019-1.pdf ; https://www.almamlakatv.com/news/103257-397-منتفعا-داخل-دور-رعاية-كبار-السن-في-الأردن (elder homes: 397 beneficiaries; not fetched)",
+     "existing": "None checked; no competitor search was possible within the budget (searches exhausted)",
+     "known_id": "K07",
+     "known_mark": "new",
+     "known_note": "Same product shape as K07 (nursery licence and inspection kit) but a different buyer group and regulation.",
+     "name": "Disability and early-intervention care centre annual report and licence-renewal kit",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Persons with Disabilities Centres Regulation 2014 (Art. 8-9): annual licence renewal, annual financial and administrative report to the ministry at year end, administrative/financial/technical records, electronic surveillance equipment, contracts with families; early-intervention centres: Regulation 10 of 2017 and 2019 licensing instructions; quality standards announced Nov 2025",
+     "unchecked": "Number of private centres; whether the ministry already runs an e-reporting portal; competitor search; elder-home rules"
+    },
+    {
+     "buyer": "Dental clinics, small imaging centres and labs with X-ray sources",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://jordanianlaw.com/?p=4372 (search snippet defines the three licence types; not fetched)",
+     "existing": "not checked",
+     "known_mark": "new",
+     "known_note": "No related known idea",
+     "name": "Radiation-source licence tracker for dental and X-ray clinics",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Facility licence, practice licence and personal radiation permits under Jordan's radiation protection law (regulator and renewal cycle not confirmed)",
+     "unchecked": "Regulator name, renewal period, dosimetry reporting, clinic count, existing solutions"
+    },
+    {
+     "buyer": "Small tourist car-rental offices",
+     "category": "32. Tourist vehicle rental offices (Land Transport Regulatory Commission)",
+     "evidence": "Al Mamlaka and Motory via search summary: https://jo.motory.com/ar/الاخبار/مطالب-تعديل-ترخيص-تاجير-مركبات/ (fetch returned 403)",
+     "existing": "not checked",
+     "known_mark": "new",
+     "known_note": "Licensing barrier, not a recurring filing, so low software fit",
+     "name": "Tourist vehicle rental office compliance (new licensing system, 2026)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Amended vehicle-rental licensing system (2026): higher minimum capital, JD 15,000 guarantee",
+     "unchecked": "Recurring reporting duties, effective date, grace period, office count, existing fleet software"
+    },
+    {
+     "buyer": "Small shops and workshops in municipal areas",
+     "category": "33. Municipal business-licence renewal and e-licensing",
+     "evidence": "https://petra.gov.jo/index.php/en/news/jcc-commends-ultimatum extension-to-renew-business-license (fetched, 21 Apr 2026)",
+     "existing": "State e-licensing portal (details not checked)",
+     "known_mark": "new",
+     "known_note": "One-off deadline already passed; state portal competes",
+     "name": "Municipal business-licence renewal and e-licensing service",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Cabinet extended the penalty-free renewal window to 30 June 2026; owners must complete e-licensing",
+     "unchecked": "Whether a later deadline exists; penalties; whether done-for-you filing is already sold by accountants"
+    },
+    {
+     "buyer": "Private vocational and technical training centres",
+     "category": "34. Vocational and technical training providers (Professional Work law)",
+     "evidence": "https://petra.gov.jo/en/news/cabinet-approves-draft-laws-regulating-professional-work-education-quality (search snippet only)",
+     "existing": "not checked",
+     "known_mark": "new",
+     "name": "Vocational and technical training provider licence kit (draft Professional Work law)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Draft Professional Work Regulation Law 2026 approved in principle by Cabinet on 25 Jan 2026; would require Ministry of Labour licences",
+     "unchecked": "Whether it was enacted, deadlines, centre count, reporting duties"
+    },
+    {
+     "buyer": "Small insurance agencies and brokerages",
+     "category": "35. Insurance agents and brokers (CBJ-supervised)",
+     "evidence": "https://jordan-lawyer.com/2021/05/18/%d9%82%d8%a7%d9%86%d9%88%d9%86-%d8%aa%d9%86%d8%b8%d9%8a%d9%85-%d8%a3%d8%b9%d9%85%d8%a7%d9%84-%d8%a7%d9%84%d8%aa%d8%a3%d9%85%d9%8a%d9%86/",
+     "existing": "not checked",
+     "known_mark": "new",
+     "name": "Insurance agent and broker licence and reporting tool",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Insurance Business Regulation Law 12 of 2021 (CBJ as regulator per secondary source)",
+     "unchecked": "Agent and broker instructions, renewal cycle, reporting forms, count"
+    },
+    {
+     "buyer": "Landlords and hosts of long-stay foreign visitors",
+     "category": "36. Hosts and landlords of foreign visitors: Oct 2025 residence-registration rule",
+     "evidence": "https://embamex.sre.gob.mx/jordania/index.php/avisos/76-ingreso (secondary, via search summary)",
+     "existing": "not checked",
+     "known_mark": "new",
+     "name": "Foreign-guest address registration (host-side helper), Oct 2025 residence rule",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Amendments to the 1973 Residence and Foreigners Law from Oct 2025: foreigners register their address within 14 days, JD 200 fine (guest's duty)",
+     "unchecked": "Official text; whether any duty falls on the host"
+    },
+    {
+     "buyer": "Station owners, LPG agencies",
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "evidence": "https://attaqa.net/tag/%d9%85%d8%ad%d8%b7%d8%a7%d8%aa-%d8%a7%d9%84%d9%88%d9%82%d9%88%d8%af-%d9%81%d9%8a-%d8%a7%d9%84%d8%a3%d8%b1%d8%af%d9%86/ (search summary)",
+     "existing": "not checked",
+     "known_mark": "new",
+     "name": "Fuel and LPG distribution licensing (fee system 2024)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "2024 draft amendment to the petroleum-derivatives activity licensing system sets fees; EMRC refused 9 applications (undated)",
+     "unchecked": "Final text, recurring reporting, station count"
+    },
+    {
+     "buyer": "Registered cooperative societies (agricultural, housing, consumer)",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://opendata.gov.jo/en/dataset/metadata/statistics-of-cooperative-societies-numbers-554-2024 (fetched; counts not visible)",
+     "existing": "not checked",
+     "known_mark": "new",
+     "name": "Cooperative-society annual reporting and audit",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Jordan Cooperative Corporation oversight; specific duties not found",
+     "unchecked": "Counts, audit and report duties, existing software"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Licensing sits with the Energy and Minerals Regulatory Commission (EMRC). 9 station/LPG-agency applications refused (undated); a 2024 draft amendment to the petroleum-derivatives licensing system sets fees; CNG vehicle stations are being approved. No small-operator recurring filing found beyond licensing, and the sector has established station-management vendors (not checked). Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Grain is state-run: the Ministry of Industry, Trade and Supply (MIT) runs wheat/barley tenders and the General Silos and Supply Co. handles intake, with farmer origin certificates from the Ministry of Agriculture (3,100 issued). No mill or feed-store licensing instructions surfaced. Nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "The Jordan Cooperative Corporation publishes registry statistics on opendata.gov.jo (dataset 'statistics of cooperative societies numbers 554'; counts not visible on the page I fetched). Regulation and audit instructions not found. Candidate left unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "The TPA claims idea is already K01. New unverified lead: radiation-source licences for dental and X-ray clinics. A jordanianlaw.com page defines facility, practice and personal radiation licences, but I could not confirm the regulator's current renewal rules.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Pharmacies keep a daily prescription log for controlled drugs, under a JFDA decision of 1 Feb 2017. Secure prescription forms are in use under Narcotics Law 23 of 2016. JFDA was studying an electronic import-to-patient tracking project in Jan 2024, and I found no evidence it has launched. No pharmacy-specific compliance software surfaced.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "No Jordan-specific rules for security-company licensing or labour-supply companies surfaced; searches returned other countries. The migrant-worker permit side is already K02 and K06, and MoL publishes a work-permit guide (Nov 2025 and 21 Jan 2026 editions). Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "The Contractors Association law requires licensing then classification. EMRC closed 82 non-compliant quarries in Q1 2018. No current classification instructions, renewal rules or recurring filings found. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "The search returned only UAE goAML material; Jordan's AML supervisor for real-estate brokers could not be confirmed. Professional billing is K04 and gold dealers are K05. Insurance agents and brokers are now supervised by the CBJ under Insurance Business Regulation Law 12 of 2021 (per a secondary source); candidate 35.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Guest houses (بيوت الضيافة) run under the 2019 Organisational Instructions: a guest register with an ID copy shown to security on arrival, annual licence 1 Jan to 31 Dec, one site per host, sales tax filing, and a mandatory Jordan Hotels Association membership. Hotel apartments need a classification certificate, and the annual renewal needs a civil-liability policy. No Jordan short-term-rental (Airbnb) regime found. No Jordan-specific guest-register software found.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "JFDA issues export health certificates, with a JFDA office inside the Amman Chamber of Industry. The Agricultural Marketing Office sets export standards. Nothing specific to small exporters, and the export portals are state-run. Nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Care centres for people with disabilities and the elderly (Ministry of Social Development)",
+     "found": "Disability Centres Regulation 2014: annual licence renewal, annual financial and administrative report to the ministry, administrative/financial/technical records, mandatory electronic surveillance equipment. Early-intervention centres have separate 2017 regulation and 2019 licensing instructions. In Nov 2025 the ministry announced quality standards for rehabilitation centres. Elderly-home rules not located.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Tourist vehicle rental offices (Land Transport Regulatory Commission)",
+     "found": "The amended licensing system (2026, per Al Mamlaka/Motory) raises minimum capital and the bank guarantee to JD 15,000. The union head estimates 60 percent of offices could close (unverified, partisan). The duty is a licensing barrier, not a recurring filing.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Municipal business-licence renewal and e-licensing",
+     "found": "Petra, 21 Apr 2026: the Cabinet extended the penalty-free business-licence renewal period in municipal areas to 30 June (2026), and owners must complete e-licensing. Deadline has passed; later extensions not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Vocational and technical training providers (Professional Work law)",
+     "found": "On 25 Jan 2026 the Cabinet approved the justifications for a draft Professional Work Regulation Law 2026, requiring vocational and technical training companies and institutions to hold Ministry of Labour licences. This is still a draft, and I found no final text.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Insurance agents and brokers (CBJ-supervised)",
+     "found": "The regulator appears to be the Central Bank of Jordan under Insurance Business Regulation Law 12 of 2021 (secondary source). Licensing and reporting rules for small agents not found.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Hosts and landlords of foreign visitors: Oct 2025 residence-registration rule",
+     "found": "A Mexican embassy notice says amendments to the 1973 Residence and Foreigners Law apply from Oct 2025: certain-visa foreigners must register their address at the police within 14 days (JD 200 fine). The duty falls on the guest, not the host. Unverified, from a secondary source.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "محطات المحروقات الأردن ترخيص هيئة تنظيم قطاع الطاقة والمعادن غاز مسال موزعين",
+    "الجمعيات التعاونية الأردن المؤسسة التعاونية تقارير سنوية تدقيق",
+    "شركات الأمن والحماية الخاصة الأردن ترخيص وزارة الداخلية مكاتب استقدام عمال نظافة",
+    "Jordan short-term rental holiday home regulation Ministry of Tourism guest register",
+    "وحدة مكافحة غسل الأموال الأردن الأعمال والمهن غير المالية وسطاء عقارات goAML",
+    "ترخيص أجهزة الأشعة عيادات الأسنان الأردن تجديد ترخيص",
+    "وزارة السياحة الأردن الشقق الفندقية بيوت الضيافة ترخيص نزلاء سجل",
+    "نظام شركات توفير العمالة الأردن وزارة العمل ترخيص",
+    "Jordan pharmacies narcotics psychotropic register electronic prescription JFDA",
+    "الأردن تصدير منتجات غذائية زراعية شهادة تصدير مؤسسة الغذاء والدواء مصدرين صغار",
+    "Jordan Contractors Classification Committee instructions 2025 quarry licence",
+    "الأردن مطاحن مخازن حبوب القمح الشعير تعليمات مستوردي الحبوب علف",
+    "معارض بيع السيارات المستعملة تأجير السيارات تعليمات ترخيص الأردن",
+    "وزارة التنمية الاجتماعية الأردن ترخيص مراكز رعاية كبار السن ذوي الإعاقة",
+    "هيئة تنظيم قطاع التأمين الأردن وكلاء ووسطاء التأمين ترخيص تقارير",
+    "Jordan new regulation 2026 licensing small businesses cabinet approves Jordan Times",
+    "برنامج صيدلية الأردن سجل الأدوية المخدرة والمؤثرات العقلية",
+    "برنامج إدارة بيوت ضيافة فنادق صغيرة الأردن سجل النزلاء الأمن العام"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b56"
+ }
+}

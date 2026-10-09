@@ -700,5 +700,177 @@
    "searches": 24
   },
   "tag": "w2b39"
+ },
+ "gapfill:vietnam": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Household shops and agents selling alcohol or cigarettes",
+     "category": "31. Tobacco, alcohol and liquor retail/wholesale licensing",
+     "evidence": "https://luatvietnam.vn/hanh-chinh/giay-phep-ban-buon-ruou-570-95449-article.html ; https://moit.gov.vn/van-ban-phap-luat/van-ban-hop-nhat-so-51-vbhn-bct-ngay-24-10-2025-thong-tu-quy-dinh-chi-tiet-mot-so-dieu-cua-cac-nghi-dinh-lien-quan-den-k.html ; https://lsvn.vn/du-kien-bai-bo-giay-phep-kinh-doanh-doi-voi-58-nganh-nghe-co-dieu-kien-a172248.html (draft to abolish licences for 58 trades, including alcohol); https://luatminhkhue.vn/mau-bao-cao-tinh-hinh-kinh-doanh-cua-thuong-nhan-phan-phoi-san-pham-thuoc-la-phu-luc-77-.aspx (distributor report form)",
+     "existing": "Only legal-service firms (luatvietan, accgroup) selling licence applications; no software seen.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Same kind of buyer (small conditional premises) but a different duty from the ANTT kit; retail licences are issued once every 5 years and may be abolished, and wholesale/distributor reporting is a small set of firms.",
+     "name": "Alcohol and tobacco retail licence and renewal tracker for corner shops",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Retail alcohol licence (5-year term, Decree 105/2017 as amended by 17/2020) and tobacco retail licence (Decree 67/2013, 106/2017, Circular 57/2018 consolidated in 51/VBHN-BCT 24/10/2025); licensing authority moved to the commune from 1/7/2025 (Decree 139/2025). Distributor-side business reports exist but retail-level periodic reports to Sở Công Thương were not found.",
+     "unchecked": "Whether wholesalers and distributors file periodic reports (frequency, recipient, e-system); the content of Resolution 19/2026/NQ-CP; whether the proposed licence abolition has passed; the number of wholesale licence holders. No competitor search run (score below 3)."
+    },
+    {
+     "buyer": "About 3.1m active household businesses (3,082,983 per press, April 2026)",
+     "category": "32. Household businesses after 1/1/2026",
+     "evidence": "https://thoibaotaichinhvietnam.vn/ho-kinh-doanh-de-dang-ke-khai-thue-voi-che-do-so-sach-don-gian-191141-191141.html ; https://congbaocdn.chinhphu.vn/180507251028987904/2026/1/28/final-152signed-17695739990221209521402.pdf ; https://www.misaeshop.vn/30803/co-bat-buoc-mo-tai-khoan-ngan-hang-hkd/ ; https://baovanhoa.vn/kinh-te/chinh-phu-nang-nguong-mien-thue-misa-tiep-tuc-mien-phi-phan-mem-tron-doi-cho-ho-kinh-doanh-224911.html ; https://thoibaotaichinhvietnam.vn/kiotviet-mien-phi-phan-mem-ke-toan-cho-ho-kinh-doanh-183836.html",
+     "existing": "MISA eShop (lifetime-free mobile up to 1bn VND revenue; 3 months free above, then about 100-120k VND per month), KiotViet (free accounting feature advertised), Excel templates from the GDT site, eTax Mobile (filing, 78% of households), state free accounting software only at draft-decree stage.",
+     "known_id": "K09",
+     "known_mark": "known",
+     "known_note": "Revive test failed. The ledger duty is real and mandatory from 1/1/2026, but MISA and KiotViet already give the ledgers away free and Excel/paper are legal, so ARPU stays tiny. Same buyer and same core duty as K07-K12.",
+     "name": "Household-business ledger and bank-account compliance (revive test of K07-K12)",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "Circular 152/2025/TT-BTC (from 1/1/2026): mandatory ledgers S1a to S2e, 5-year retention; business bank account in the registered name from 1/3/2026 (SBV Circular 25); Circular 18/2026/TT-BTC (5/3/2026): notify account numbers to the tax authority.",
+     "unchecked": "The primary text of the bank-account tier rule (sources conflict) and the actual Decree 68/2026 text were not seen."
+    },
+    {
+     "buyer": "School canteens, factory/industrial-park canteens, catering firms, hotel and restaurant kitchens serving 30 or more portions",
+     "category": "33. Food and beverage outlets, street food and canteens",
+     "evidence": "https://luatvietnam.vn/y-te/quyet-dinh-1246-qd-byt-bo-y-te-113551-d1.html ; https://ketoananpha.vn/so-kiem-thuc-3-buoc-luu-mau-thuc-an.html ; https://accgroup.vn/luu-mau-thuc-pham-tai-bep-an-tap-the ; https://baovanhoa.vn/doi-song/ha-noi-yeu-cau-thuc-hien-nghiem-kiem-thuc-ba-buoc-an-toan-thuc-pham-169156.html ; https://mnthienton.ninhbinh.edu.vn/wp-content/uploads/2026/05/11.5.2026-Báo-cáo-kết-quả-thực-hiện-các-điều-kiện-đảm-bảo-ATTP-bếp-ăn-năm-học-2025-2026_1.pdf",
+     "existing": "Competitor search (phần mềm quản lý bếp ăn tập thể kiểm thực ba bước lưu mẫu) found only paper form templates and legal explainers, no named software. School-management or catering ERP vendors may include kitchen modules (unchecked).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Different buyer and duty from the small-producer food rule (Decree 46/2026) and traceability; no known idea covers canteens.",
+     "name": "Electronic three-step food check log and sample retention for school, factory and caterer kitchens",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Decision 1246/QĐ-BYT (31/3/2017): three-step inspection log and sample retention for meals of 30 or more portions; annual training certificate (valid 1 year); annual school-year kitchen compliance reports to the education and health authorities; safety certificate 3 years (Decree 15/2018 as in force).",
+     "unchecked": "Whether any school-management or canteen software (for example school ERP vendors) already has a kiểm thực module; whether the log is inspected or filed anywhere or just kept on site; willingness to pay by schools (public budgets) versus private factory caterers; 2025-26 changes to the Food Safety Law and health-exam frequency; number of qualifying kitchens."
+    },
+    {
+     "buyer": "Small shrimp and pangasius farm households feeding exporters",
+     "category": "34. Aquaculture farms, hatcheries and feed/vet-input sellers",
+     "evidence": "https://luatminhkhue.vn/dieu-kien-co-so-nuoi-trong-thuy-san-tu-25-1-2026.aspx (snippet only; fetch returned 403) ; https://baodautu.vn/sot-ruot-voi-cap-ma-so-ao-nuoi-tom-d139191.html ; https://caselaw.vn/van-ban-phap-luat/411895-nghi-dinh-so-37-2024-nd-cp-ngay-04-04-2024-cua-chinh-phu-sua-doi-nghi-dinh-26-2019-nd-cp-huong-dan-luat-thuy-san ; https://apps.apple.com/us/app/farmext/id1341412392?l=vi&ls=1",
+     "existing": "Farmext (pond diary app) and other farm-management or QR traceability pilots (CTU research, Khánh Hòa provincial traceability software); eCDT VN covers only capture fisheries.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "K02 is the exporter-side catch-document ledger; this is the farm-side record keeper (different buyer: the farmer), related to the same EU/US traceability chain.",
+     "name": "Pond diary, farm code and residue-record app for small shrimp and pangasius farms",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Fisheries Law 2017; Decree 26/2019 as amended by Decree 37/2024 (farm/pond identification codes); Decree 55/2017 pond codes; Decree 41/2026/ND-CP (effective 25/1/2026) and Circular 16/2026/TT-BNNMT (seed and feed, 9/3/2026) per advisory sites; export-market residue and traceability demands.",
+     "unchecked": "The Decree 37/2024 and Decree 41/2026 texts (is a pond diary mandatory for small farms, what is the report and to whom); the Farmext and other vendors' pricing and reach; whether processors already supply their farmers with free tools; farmer willingness to pay. The decisive competitor search (phần mềm nhật ký ao nuôi tôm) found Farmext and academic pilots only."
+    },
+    {
+     "buyer": "Small SIM-selling shops and telecom agents",
+     "category": "35. Mobile-phone SIM and telecom agents, internet cafes and online-game outlets",
+     "evidence": "https://tuoitre.vn/xac-thuc-thue-bao-di-dong-ngan-lua-dao-20260129220131208.htm ; https://thuviennhadat.vn/vbpl/thong-tu-08-2026-tt-bkhcn-huong-dan-xac-thuc-thong-tin-thue-bao-di-dong-mat-dat-699722.html ; https://vnbusiness.vn/cac-nha-mang-dong-loat-cat-hop-dong-voi-dai-ly-vi-pham-ve-quan-ly-thue-bao.html ; https://viettimes.vn/dai-ly-ban-sim-dien-thoai-kich-hoat-san-co-the-bi-phat-toi-40-trieu-dong-post109068.html",
+     "existing": "The operators' own registration systems and VNeID; the agent has no filing of its own to automate.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known idea.",
+     "name": "SIM dealer registration and re-verification compliance tool",
+     "score": 1,
+     "status": "rejected",
+     "trigger": "Circular 08/2026/TT-BKHCN (verification of subscriber data, effective 15/4/2026, via VNeID or operator apps only); Decree 174/2026 penalties (effective 1/7/2026); operator agency contracts.",
+     "unchecked": "Circular 08/2026 text was read only via press summaries; whether agents keep any register of their own (Decree 49/2017 was not opened)."
+    },
+    {
+     "buyer": "Internet cafes and public game service points (internet agents)",
+     "category": "35. Mobile-phone SIM and telecom agents, internet cafes and online-game outlets",
+     "evidence": "https://voh.com.vn/xa-hoi/dieu-kien-hoat-dong-cua-diem-truy-nhap-internet-cong-cong-563487.html ; https://lsvn.vn/tu-25-12-2024-dai-ly-internet-muon-cung-cap-dich-vu-tro-choi-dien-tu-thi-can-dap-ung-dieu-kien-nao-a149841.html ; https://assets.kpmg.com/content/dam/kpmg/vn/pdf/Legal-Update/2025/02/decree-147-on-internet-services-vi.pdf (unreadable, encrypted)",
+     "existing": "Not searched; net-cafe management software is likely to exist but was not checked.",
+     "known_id": "K04",
+     "known_mark": "new",
+     "known_note": "Same kind of small conditional premises as the ANTT kit, a different duty (internet/game) and a declining venue base.",
+     "name": "Internet cafe and game-outlet user register and log keeping",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Decree 147/2024/ND-CP (effective 25/12/2024): internet agent registration, ISP agency contract, sign, game-service certificate, provincial opening-hour rules; user registration and log retention duties not confirmed.",
+     "unchecked": "Whether Decree 147/2024 or the Decree 72/2013 it replaced still requires user-identity registration and log storage; the number of surviving cafes; local net-cafe management software (for example in the CSM or GCafe family) and its coverage; competitor search not run."
+    },
+    {
+     "buyer": "Individuals and households selling on Facebook, Zalo, TikTok or their own website outside marketplaces",
+     "category": "36. Online sellers and social-commerce shops",
+     "evidence": "https://tapchicongthuong.vn/q-a-ve-luat-thuong-mai-dien-tu-va-nghi-dinh-248--nguoi-ban-tren-san-thuong-mai-dien-tu-se-duoc-xac-thuc-danh-tinh-nhu-the-nao-531935.htm ; https://moit.gov.vn/tin-tuc/bo-cong-thuong-pho-bien-luat-thuong-mai-dien-tu-va-nghi-dinh-so-248-2026-nd-cp.html ; https://tapchicongthuong.vn/bo-cong-thuong-pho-bien-luat-thuong-mai-dien-tu-va-nghi-dinh-so-248-2026-nd-cp-531199.htm",
+     "existing": "Verification is done by the platform operators; MISA eShop and others cover the tax side (K09). Not a seller-side filing product.",
+     "known_id": "K09",
+     "known_mark": "new",
+     "known_note": "Excluded tax ideas K07-K12 do not cover this MOIT duty, but nothing shows the individual seller must file anything themselves.",
+     "name": "Own-site and social-media seller notification (Decree 52/2013 regime under the 2025 E-commerce Law)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Law 122/2025/QH15 and Decree 248/2026/ND-CP (1/7/2026); the seller-side notification duty for own sites was not confirmed.",
+     "unchecked": "The Decree 248 text for own-website sellers (Article 14 and the notification/registration procedures), whether Decree 52/2013 continues for them, transition deadlines, penalties. No competitor search run (score below 3)."
+    },
+    {
+     "buyer": "Small e-commerce platform and social-commerce app operators",
+     "category": "36. Online sellers and social-commerce shops",
+     "evidence": "https://doanhnghiephoinhap.vn/bat-buoc-xac-thuc-danh-tinh-kol-va-koc-livestream-ban-hang-tu-ngay-172026-142120.html ; https://vov.vn/kinh-te/livestream-ban-hang-phai-co-quy-che-hoat-dong-cong-khai-post1312432.vov ; https://tapchicongthuong.vn/bo-cong-thuong-pho-bien-luat-thuong-mai-dien-tu-va-nghi-dinh-so-248-2026-nd-cp-531199.htm",
+     "existing": "Large platforms build in-house; identity checks run through VNeID/VNPT-style eKYC providers (not searched).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No related known idea.",
+     "name": "Compliance kit for small social-commerce and livestream platform operators (livestream rules, 1-year recording retention, seller verification)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Decree 248/2026/ND-CP: notify/register the platform, publish a livestream regulation, verify sellers electronically, keep livestream audio/video at least 1 year; Law 122/2025/QH15 Art 22-23.",
+     "unchecked": "Number of small platforms (likely a few thousand at most), eKYC vendors that already bundle the duty, and who is not a platform but a seller."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "31. Tobacco, alcohol and liquor retail/wholesale licensing and periodic reports (Law on Alcohol Harm Prevention 2019, Decree 105/2017 as amended by 17/2020, Decree 67/2013 and 106/2017)",
+     "found": "Retail alcohol licence is valid 5 years; since 1/7/2025 issued by commune People's Committee (Decree 139/2025 Art 7), formerly district economic office. Tobacco retail licence procedure also moved to the commune level (Decree 139/2025; consolidated Circular text 51/VBHN-BCT of 24/10/2025 incl. Circular 38/2025/TT-BCT). The periodic business report found is the distributor/wholesaler's, with per-outlet sales, stock and purchases; recipient and frequency not confirmed. No periodic report by retail households to Sở Công Thương was found. Deregulation is under way: a draft resolution (May 2026) would abolish licences for 58 conditional trades including alcohol, and a draft tobacco-law amendment proposes dropping tobacco trading licences (both unverified drafts; Resolution 19/2026/NQ-CP of 29/4/2026 was cited but its content was not seen). The duty is mostly one-off or 5-yearly and shrinking, so no recurring-register workflow was found beyond K04-style licence tracking.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Household businesses (hộ kinh doanh) after 1/1/2026: bookkeeping by revenue tier, separate bank account, platform withholding (Circular 152/2025/TT-BTC, Decree 68/2026)",
+     "found": "Circular 152/2025/TT-BTC (effective 1/1/2026, replaces 88/2021) makes ledgers mandatory for all households: S1a-HKD for non-VAT/PIT households, S2a for the % of revenue method, S2b-S2e for the profit method. Paper, Excel (from GDT site) or software are all accepted, kept 5 years, and relatives may do the books. Bank accounts: sources conflict on a mandatory separate account (reported tiers at 200m and 3bn VND); from 1/3/2026 business accounts must carry the registered business name (SBV Circular 25) and Circular 18/2026/TT-BTC (5/3/2026) requires notifying account numbers to the tax authority (source quality: news and advisory sites, primary texts not seen). Revive test failed: MISA eShop offers lifetime-free mobile for revenue up to 1bn VND, KiotViet advertises free accounting, eTax Mobile covers 2.39m of 3.08m active households (78%, 19/4/2026) for filing only, and a free state accounting software is still only a draft decree. Result: nothing new beyond K07-K12 (see K09).",
+     "status": "screened"
+    },
+    {
+     "category": "33. Food and beverage outlets, street food and canteens: food-safety certificate, staff health checks, school and factory canteen sourcing and sample records",
+     "found": "Core duty found is Decision 1246/QĐ-BYT (31/3/2017): three-step food inspection log (kiểm thực 3 bước, five paper forms) and food-sample retention (24h, 2-8C) for any meal of 30 portions or more, applying to canteens, caterers, hotel and restaurant kitchens. Food-safety training certificates are valid 1 year; the premises certificate is valid 3 years; small-scale and street food are exempt from the certificate under Decree 15/2018. School bulletins show annual school-year kitchen compliance reports. Searches found no dedicated electronic kiểm thực/sample-retention software (competitor search returned only legal explainers and paper templates). The text of any 2025-26 food-safety law or decree was not verified, and the health-exam frequency was not found. One weak candidate recorded.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Aquaculture farms, hatcheries and feed/vet-input sellers: farm registration code, disease reporting, chemical/antibiotic records (Fisheries Law 2017, Decree 26/2019 as amended by 37/2024)",
+     "found": "Pond/farm identification codes are issued by provincial aquaculture authorities (Decree 55/2017 concept; Decree 37/2024 amends 26/2019 but its text was not opened); press reports say the share of shrimp area with a code is low. Records: farm-diary and traceability reporting forms exist in provincial templates (farm code for cages, registration code for key species). Decree 41/2026/ND-CP (effective 25/1/2026) and Circular 16/2026/TT-BNNMT (seed and feed, effective 9/3/2026) were found only in advisory-site snippets; the one detailed fetch was blocked (403). Existing tools: Farmext app (pond diary), research QR-traceability systems; eCDT VN is for capture fisheries only. Nothing was confirmed on whether the pond diary is mandatory for small farms. One weak candidate recorded, linked to K02.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Mobile-phone SIM and telecom agents, internet cafes and online-game outlets: subscriber registration and biometric re-verification (Decree 49/2017, Circular 08/2026/TT-BKHCN, Decree 147/2024, Decree 174/2026)",
+     "found": "SIM: Circular 08/2026/TT-BKHCN (effective 15/4/2026, guides Decree 163/2024) puts subscriber verification (ID number, name, date of birth, face biometrics) on telecom operators via VNeID or the operator's own app only (Art 4). Agents sell under operator agency contracts. Decree 174/2026 (effective 1/7/2026) sets penalties (agents reported fined 30-40m VND for selling pre-registered SIMs). Operators police agents and have cut contracts with offenders. So the agent workflow runs inside operator systems, with no third-party software slot. Internet agents and cafes: Decree 147/2024 (effective 25/12/2024) requires business registration as an internet agent, an agency contract with an ISP, a sign with the registration number, and a game-service eligibility certificate for gaming; provincial committees set opening hours. The user-registration and log-retention duties could not be confirmed (KPMG PDF unreadable, article silent). Competitor check for cafe management software not run.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Online sellers and social-commerce shops: e-commerce platform/website notification, livestream-seller identity verification (E-commerce Law 122/2025/QH15 and Decree 248/2026/ND-CP, both effective 1/7/2026; previously Decree 52/2013)",
+     "found": "Law 122/2025/QH15 and Decree 248/2026/ND-CP (promulgated 30/6/2026) took effect on 1/7/2026. Identity verification of sellers (individual: name, date of birth, ID number, address; households treated as organisations) is performed by the platform operator, not the seller; livestreamers/KOC/KOL must be verified before selling; platforms must publish a livestream regulation and keep livestream audio/video for at least 1 year. Notification/registration procedures in the Decree target platforms (including social networks with e-commerce functions and platforms with online ordering). No seller-side notification duty for individuals on social media or an own website was confirmed, and the status of the old Decree 52/2013 regime for own-site sellers was not confirmed. No transition deadline for existing sellers was found. MOIT plans training for households and small sellers. Verification is platform-handled, so no seller-side filing product was identified.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "giấy phép bán lẻ rượu thuốc lá hộ kinh doanh báo cáo định kỳ Sở Công Thương nghị định 2025 2026",
+    "hộ kinh doanh sổ kế toán theo doanh thu thông tư 152/2025 nghĩa vụ kê khai từ 1/1/2026 tài khoản ngân hàng riêng",
+    "cơ sở kinh doanh dịch vụ ăn uống bếp ăn tập thể lưu mẫu thức ăn khám sức khỏe định kỳ giấy xác nhận tập huấn an toàn thực phẩm 2026",
+    "mã số cơ sở nuôi trồng thủy sản nhật ký ao nuôi thông tư 2025 2026 truy xuất nguồn gốc thủy sản nuôi hộ nuôi tôm",
+    "đại lý bán sim điện thoại đăng ký thông tin thuê bao xác thực sinh trắc học điểm kinh doanh internet quán net lưu trữ nhật ký nghị định 147/2024",
+    "luật thương mại điện tử 2025 hiệu lực 1/7/2026 đăng ký thông báo website bán hàng cá nhân kinh doanh livestream xác thực danh tính thủ tục",
+    "thương nhân bán buôn rượu báo cáo Sở Công Thương định kỳ nghị định 105/2017 báo cáo tình hình kinh doanh",
+    "phần mềm sổ kế toán hộ kinh doanh S2a miễn phí cơ quan thuế ứng dụng eTax hộ kinh doanh ghi sổ tự động",
+    "phần mềm quản lý bếp ăn tập thể kiểm thực ba bước lưu mẫu thức ăn sổ theo dõi",
+    "phần mềm nhật ký ao nuôi tôm ghi chép điện tử truy xuất nguồn gốc cơ sở nuôi mã số",
+    "đại lý SIM điểm đăng ký thông tin thuê bao bị xử phạt Thông tư 08/2026 trách nhiệm điểm giao dịch",
+    "Nghị định 248/2026 cá nhân bán hàng mạng xã hội website thông báo Bộ Công Thương người bán không qua sàn",
+    "Luật An toàn thực phẩm 2025 hiệu lực cơ sở dịch vụ ăn uống nhỏ lẻ khám sức khỏe nhân viên",
+    "ứng dụng thuế hộ kinh doanh ghi sổ doanh thu miễn phí Bộ Tài chính eTax HKD 2026 so với MISA eShop KiotViet",
+    "Vietnam shrimp pangasius aquaculture facility registration code Decree 37/2024 farm code traceability",
+    "cắt giảm điều kiện kinh doanh bãi bỏ giấy phép bán lẻ rượu thuốc lá 2026 nghị định 105/2017 67/2013"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b39"
  }
 }

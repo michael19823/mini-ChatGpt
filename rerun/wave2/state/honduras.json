@@ -655,5 +655,180 @@
    "searches": 13
   },
   "tag": "w2b36"
+ },
+ "opus:honduras:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No Honduran or Central American software or service found for the chatarrera register or certificate-of-origin forms. The only scrap-control software found is generic, sold in Mexico on Mercado Libre (MXN 7,000-12,000), with unverified features. No state portal found. Paper municipal registers are likely.",
+   "duty": "Decreto 61-2014, Ley sobre Comercialización y Procesamiento de Materiales Metálicos, La Gaceta 33,614 (23 Dec 2014), Honduran national law of public order. Confirmed: Art. 2 requires registration in a municipal register of metal traders and industrialists, integrated into a national registry. Unverified (scanned PDF, OCR failed): Art. 3 operations register, Art. 5 guides, certificates of origin and monthly copies, Art. 8 fines of 1-5 minimum wages and suspension. Found no amendment or reglamento, and no evidence of enforcement in practice. Recent municipal \"chatarra\" operations (SPS June 2025 under Plan de Arbitrios art. 277; AMDC Jan 2024) target sidewalks and abandoned vehicles, not dealer registers.",
+   "market": "No registry count found. No official number of registered chatarreras in SPS or Tegucigalpa. La Prensa (undated) reports about 15,000 t/month of recycled metal exports. The likely market is in the low hundreds of dealers nationwide, mostly informal. not_reached: municipal register counts (would need SIELHO public-information requests).",
+   "reason": "The duty is real. Decreto 61-2014 (La Gaceta 33,614, 23 Dec 2014) requires anyone who habitually trades, exports, stores or transports copper, aluminium, bronze or iron to register in each municipality's Registro Municipal, which feeds a national registry. Searches confirmed the decree and Art. 2. Arts. 3-8 (special register, protected forms, monthly copies, fines) could not be checked: both PDFs are scanned images. I found no amendment and no enforcement after 2014. Municipal \"chatarra\" operations target abandoned vehicles and sidewalks, not dealer registers. No Honduran software exists for this (only generic Mexican scrap software). Enforcement looks weak, dealers are informal and unlikely to pay, and the market is small, so the score is low.",
+   "searches": 6,
+   "sources": "https://www.tsc.gob.hn/web/leyes/Ley_comercializacion_procesamiento_materiales_metalicos.pdf ; https://faolex.fao.org/docs/pdf/hon148620.pdf ; https://www.laprensa.hn/sanpedro/operativo-cero-chatarra-san-pedro-sula-aceras-invadidas-ON26093580 ; https://www.elheraldo.hn/tegucigalpa/levantan-chatarras-obstruyen-paso-barrios-colonias-capital-operativos-JL16841109 ; https://www.laprensa.hn/honduras/el-cobre-es-el-material-de-reciclaje-con-mas-demanda-en-san-ESLP868792 ; https://www.telesemana.com/blog/2011/05/24/hondutel-pierde-us-582-000-por-robo-de-cable/ ; https://listado.mercadolibre.com.mx/software-para-administrar-casas-de-empeno",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b36"
+ },
+ "opus:honduras:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No commercial software or service for Honduran RCBF filing found in Spanish searches; only law-firm and Big-4 alerts. The main risk is that the CNBS must build its own \"procedimientos digitales para la inscripción\", meaning a free state portal will do the core filing. Comparable regimes run on free state systems: Costa Rica's Banco Central registry and Panama's SSNF system, where resident-agent lawyers file and receive a certificate. A tool could only add the document, ownership-chain, reminder and multi-client layer for accountants. Whether the portal accepts filings by third parties or accountants, and whether it offers an API or bulk upload, is unknown.",
+   "duty": "Real and in force. Decreto 127-2026 (Ley de Transparencia y Registro Centralizado de Beneficiarios Finales) was published in La Gaceta on 3 Jul 2026 and took effect on publication. Who must register: national and foreign mercantile companies in the Registro Mercantil, trusts, investment funds and mixed public companies. They must declare every natural person holding 25% or more, or exercising control. Deadlines: CNBS regulation and digital procedures within 60 days (EY says business days); registry enabled within 6 months. First filing: KPMG says within 4 months of the registry opening, La Prensa says up to 6 months after the CNBS act; sources disagree. New companies register within 1 month of creation. Annual update by 30 May. Changes reported within 10 business days of the following month. Bearer shares must be converted. Fines: 20 to 500 minimum salaries, doubled for repeat offences. As of 9 Oct 2026, no search found the CNBS regulation or an open registry. I could not read the decree PDF (the fetch returned raw binary), so the article numbers and the bearer-share deadline are unconfirmed.",
+   "market": "No national count of active sociedades found. Partial figures: Cohep counted 14,955 new businesses in 2024 in Tegucigalpa and San Pedro Sula combined. Cámara de Comercio de Cortés reported 6,966 new businesses in 2024, of which 3,066 were sociedades and 3,900 individual traders. A 2022 report said 61% of companies formed online via CCIT were single-owner. The stock of sociedades is plausibly in the tens of thousands (rough estimate, not verified). Many are single-owner, for which filing is trivial.",
+   "reason": "The duty is real, mandatory, carries heavy fines and creates a mass one-off deadline plus a 30 May annual update. But the CNBS regulation and portal are still unpublished as of Oct 2026, so the timing and the core workflow are uncertain. The core filing will very likely go through a free CNBS digital portal, as in Costa Rica and Panama. That leaves only a thin document, reminder and multi-client layer for accountants and notaries. Many companies are single-owner, which makes filing simple. The once-a-year duty limits recurring willingness to pay. Distribution through accountants is feasible. No competitor was found, but the product shape cannot be judged until the portal exists. Recheck once the CNBS regulation is out.",
+   "searches": 6,
+   "sources": "https://www.laprensa.hn/portada/ley-beneficiarios-finales-honduras-cnbs-reglamento-registro-FE31353710 ; https://kpmg.com/us/en/taxnewsflash/news/2026/07/honduras-new-beneficial-ownership-law.html ; https://www.ey.com/es_ce/technical/tax/tax-alerts/honduras-ley-de-transparencia-y-registro-centralizado-de-beneficiarios-finales ; https://tsc.gob.hn/web/leyes/Decreto-127-2026.pdf ; https://www.latribuna.hn/2026/07/16/cnbs-promueve-ley-de-beneficiario-final-para-fortalecer-la-transparencia-y-combatir-el-lavado-de-activos/ ; https://www.latribuna.hn/2025/02/27/en-2024-se-registraron-14955-nuevas-empresas/ ; https://accounter.co/noticias/actualidad/asuntos-legales-panama-nuevo-sistema-unico-de-registro-de-beneficiario-finales ; https://www.larepublica.net/noticia/siete-recomendaciones-para-mejorar-el-registro-de-beneficiarios-finales",
+   "suggested_score": 4,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b36"
+ },
+ "triage:honduras": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "Mandatory municipal registry and monthly operations register for small scrap dealers; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Community water boards must report annually to ERSAPS; in-scope community bodies, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Mototaxi owners are a different buyer from K04 taxi lawyers/co-ops, with a new 2026 census trigger.",
+     "ref": "K04"
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Recurring mandatory movement paperwork for cattle traders; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "ARSA licence renewal for butchers and food sellers; new buyer group and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Recurring URSAC filings for associations and charities; in-scope community bodies."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small recruitment agencies have a mandatory STSS registration and operativity file; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Small exchange agents face new BCH authorisation rules from 2026; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Household employers are explicitly in scope; weak evidence of a duty, but verifiers decide."
+    },
+    {
+     "decision": "known",
+     "id": "A10",
+     "reason": "Same buyer group and duty as K01 (APNFD list); it only sizes the pool.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "B1",
+     "reason": "Beneficial-ownership declaration by all small companies is a new duty with a 2027 deadline, distinct from K01.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Annual municipal ICS declaration and permit renewal for small businesses; a different duty from K06 and K07."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "ARSA licensing for pharmacies, labs and clinics is a different buyer from A5 and K03."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "IHCAFE purchase-receipt reporting and levies are a different duty from the K02 EUDR packs.",
+     "ref": "K02"
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Small ISPs must renew CONATEL registrations and report periodically; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Small solar installers have a registry and renewal duty; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "LPG envasadores have registration and testing duties; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B8",
+     "reason": "Independent fuel stations need authorisation and reporting; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Small co-ops have a CONSUCOOP reporting duty; in-scope co-operatives and a different duty from K04."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Small private security firms have a registration and guard-certification duty; new."
+    },
+    {
+     "decision": "drop",
+     "id": "B11",
+     "reason": "Only a bill in committee, not law, so no mandatory duty and no deadline exists yet."
+    },
+    {
+     "decision": "known",
+     "id": "B13",
+     "reason": "Same APNFD buyer group and duty as K01, listed only as supporting evidence.",
+     "ref": "K01"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Small hazardous-waste generators face a draft regulation; unverified, so keep for checking."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Clinics, labs and dental offices must dispose of infectious waste under Acuerdo 07-2008; a distinct duty."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Workshops and yards must keep used-oil and tyre disposal receipts; buyer and duty differ from A1."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS4",
+     "reason": "Only a future law that has passed first debate; no confirmed duty or deadline, and the buyers are large generators."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS5",
+     "reason": "No mandatory recurring duty identified for desludging operators, so it fails the candidate definition."
+    }
+   ]
+  },
+  "tag": "w2b36"
  }
 }

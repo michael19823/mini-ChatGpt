@@ -1,0 +1,479 @@
+{
+ "discover:A:slovenia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Greenhouse and irrigation growers, farms with boreholes, fish farms, small hydro and heat-pump users holding a water permit (vodno dovoljenje)",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://www.gov.si/zbirke/storitve/porocilo-o-spremljanju-odvzetih-kolicin-vode/ (Excel templates for wells, intakes and springs, e-mail or post to gp.drsv@gov.si, no online app); https://www.gov.si/novice/2025-09-26-inspekcija-za-naravo-in-rudarstvo-preverja-rabo-vode-v-kmetijstvu/ (2025 inspections of borehole use at greenhouses; 12 of 16 done in first month, orders issued); https://www.gov.si/novice/2026-08-26-poziv-imetnikom-vodnih-dovoljenj-k-omejitvi-odvzemov-podzemne-vode-v-pomurju/ (Aug 2026 call to limit abstraction)",
+     "existing": "Only state Excel templates. Competitor search (program za poročanje odvzem vode vodna pravica vodomer) found no private provider of report preparation.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Water-right holder abstraction report pack (meter log to Direkcija RS za vode report)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Zakon o vodah: holder must meter abstraction and report electronically each year by end of January; the implementing regulation is still pending, so reporting follows the permit. Dovolnina (water-use charge) compares permitted with actual use, so accurate volumes cost money.",
+     "trigger_note": "",
+     "unchecked": "Number of permit holders with a reporting duty; whether the pending regulation will bring a state portal; willingness to pay for a once-a-year report; reachability of small growers."
+    },
+    {
+     "buyer": "Operators of small and medium municipal treatment plants: campsites, hotels, small businesses, housing associations; also municipal utilities that must keep the under-50-PE register",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://www.gov.si/zbirke/storitve/porocilo-o-podatkih-iz-evidence-malih-komunalnih-cistilnih-naprav-z-zmogljivostjo-manjso-od-50-pe/ ; https://www.gov.si/novice/2023-12-19-nadzori-upravljavcev-komunalnih-cistilnih-naprav-in-naprav-ki-odvajajo-industrijske-odpadne-vode/ (178 operators with irregularities for 2022); https://www.gov.si/novice/2025-12-31-odvajanje-odpadnih-voda-na-obmocjih-brez-javne-kanalizacije-se-bo-resevalo-sistemsko/ (unified rules promised in 2026, no fines in 2026)",
+     "existing": "Competitor search (evidenca MKČN obratovalni monitoring program aplikacija) found no app for operators; only state forms and municipal utility guidance.",
+     "known_id": "K12",
+     "known_mark": "new",
+     "known_note": "Same sector as the rejected village water systems idea, different duty and buyer.",
+     "name": "Operational-monitoring and logbook tracker for small wastewater treatment plant (MKČN) operators",
+     "score": 3,
+     "status": "weak",
+     "trigger": "ZOPVOOV (in force 1 Apr 2025) and Uredba on municipal wastewater: first measurements, operational monitoring by an authorised contractor (every 3 years under 200 PE, 2 years for 200-1,000 PE, yearly above), annual report to ARSO by 31 Jan or 31 Mar depending on the permit, operating logbook, 5-year record keeping, utilities send under-50-PE register data to ARSO by 31 March.",
+     "unchecked": "Count of operators outside municipal utilities; whether utilities already run an in-house register; enforcement softness in 2026 lowers urgency; the 2026 systemic rules may change the duty."
+    },
+    {
+     "buyer": "Small agro-shops and retail or wholesale FFS distributors (permit holders in the UVHVVR register)",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2026-01-0165/pravilnik-o-pogojih-za-opravljanje-prometa-s-fitofarmacevtskimi-sredstvi-ter-o-vodenju-in-posredovanju-podatkov-o-prometu-fitofarmacevtskih-sredstev (page fetch failed with HTTP 500; content taken from search summaries); https://spot.gov.si/sl/dejavnosti-in-poklici/dejavnosti/trgovina-na-debelo-s-fitofarmacevtskimi-sredstvi",
+     "existing": "Not found; search showed no dedicated distributor software. Shops probably use general retail or ERP packages.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "Different buyer (sellers, not spray applicators) and different duty (sales return, not use records).",
+     "name": "FFS distributor trade-data records and annual sales return to UVHVVR",
+     "score": 3,
+     "status": "weak",
+     "trigger": "New Pravilnik o pogojih za opravljanje prometa s FFS ter o vodenju in posredovanju podatkov o prometu (Uradni list 6/2026, applies from 14 Feb 2026, replaces the 2013 rulebook): trade data records; annual purchases, sales, stock and withdrawn quantities sent to UVHVVR by 31 March; seller card holder and advisor at least 6 h/week for retail.",
+     "unchecked": "Full rulebook text (format, e-system, new fields); number of distributors (likely a few hundred); whether retail POS vendors already export the return; the competitor search was folded into the main search and was not run in local-language form."
+    },
+    {
+     "buyer": "Hunting families and hunting-ground managers (volunteer associations)",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://tax-fin-lex.si/Home/Novica/32516 ; https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-2805/pravilnik-o-oznacevanju-odvzete-parkljaste-divjadi-in-evidentiranju-divjadi-po-odvzemu",
+     "existing": "Not checked; the state may run its own recording system.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Hunting family (lovska družina) harvest marking and game record keeping",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "ZDLov-1F (Uradni list 28/2025, in force 26 Apr 2025): mandatory marking of ungulates at harvest, new damaged-party records, two-year ground planning; new rulebook on marking harvested ungulates and recording game after harvest (Uradni list 2025-01-2805).",
+     "unchecked": "Rulebook obligations and deadlines; whether a state e-system (for example from the hunting institute) already takes the records; number of hunting families; whether they pay for software. No competitor search run, search budget exhausted."
+    },
+    {
+     "buyer": "Horse keepers, riding clubs, small stables",
+     "category": "6. Livestock traders, markets and animal transport",
+     "evidence": "https://www.gov.si/drzavni-organi/organi-v-sestavi/uprava-za-varno-hrano-veterinarstvo-in-varstvo-rastlin (search summary only; unclear whether the rule is in force or in preparation)",
+     "existing": "UVHVVR Volos portal covers other species and is described as common to all species, so likely a state tool.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Equid holdings registration and movement reporting (horse stables, riding clubs)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Secondary rule under the new animal health law, reported to apply from August 2026: mandatory registration of equid holdings and mandatory reporting of equid movements.",
+     "unchecked": "Whether the rule is adopted and its date; whether Volos will carry equid reporting; size of buyer base. Free state portal probably kills it."
+    },
+    {
+     "buyer": "Small associations (društva), zavodi and co-operatives",
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "evidence": "https://spot.gov.si/sl/teme/vpis-v-register-dejanskih-lastnikov ; https://spot.gov.si/sl/portal-in-tocke-spot/novice/2026-09-24-084500-preverite-vpis-v-register-dejanskih-lastnikov",
+     "existing": "Free AJPES eRDL application; accountants likely file for clients.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Beneficial-owner (eRDL) filing service for associations, institutes and co-operatives",
+     "score": 2,
+     "status": "weak",
+     "trigger": "ZPPDFT-2: enter beneficial owner in AJPES eRDL within 8 days of registration and of each change; filing requires a qualified e-signature and e-authorisation; supervisors still find late filers; public access limited since Aug 2025.",
+     "unchecked": "Penalties actually applied; volume of unfiled associations; AJPES annual-report duties for associations not checked."
+    },
+    {
+     "buyer": "Registered temporary-work agencies",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.gov.si/teme/zagotavljanje-dela-delavcev-uporabniku/",
+     "existing": "Not checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Temporary-work agency compliance pack (register changes, annual report, guarantee)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Register with the labour ministry, bank guarantee of at least 30,000 EUR, change notice in 8 days, annual report by 31 March.",
+     "unchecked": "Number of agencies (probably a few hundred); user-firm side duties; current rule text."
+    },
+    {
+     "buyer": "Family farms with supplementary activities (tourist farms, on-farm processing)",
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "evidence": "https://www.gov.si/novice/2026-01-29-prijava-dohodka-iz-dopolnilne-dejavnosti-na-druzinski-kmetiji/",
+     "existing": "State form; a single figure.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "known_note": "Same buyer class (family farms) but a different, much lighter duty.",
+     "name": "Farm supplementary-activity annual income notice to the administrative unit",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Uredba o dopolnilnih dejavnostih na kmetiji (consolidated 1 Jan 2026): by 31 March report previous-year income, zero included.",
+     "unchecked": "Whether farm-advisory services already bundle it; sector fit with K04 and K05."
+    },
+    {
+     "buyer": "Small workshops, garages, bakeries, building managers owning compressors, pressure vessels, lifts",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://www.uradni-list.si/_pdf/2008/Ur/u2008092.pdf ; https://www.gov.si/novice/2023-11-28-porocilo-inspektorata-o-izvedenem-nadzoru-v-zvezi-z-rednimi-pregledi-dvigal-in-njihovim-vzdrzevanjem/",
+     "existing": "Inspection bodies such as TÜV SÜD Sava handle scheduling; generic CMMS tools exist.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Owner-side inspection calendar for pressure equipment and lifts",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Pravilnik o pregledovanju in preskušanju opreme pod tlakom (Uradni list 92/2008): periodic inspection by authorised body with certificate and sticker; housing inspectorate checked lift inspections in 2023.",
+     "unchecked": "Whether inspection bodies send reminders already; generic asset tool risk."
+    },
+    {
+     "buyer": "Taxi firms and drivers; hotels and rent-a-car firms for the new rental-with-driver class",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://tax-fin-lex.si/home/Novica/37456",
+     "existing": "Not checked; Uber and local taxi apps exist.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Taxi operator compliance for app-based fares if the Road Transport Act amendment passes",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Draft Road Transport Act amendment, consultation 30 Sep to 13 Oct 2026: taximeter optional, app must show route and maximum fare and send an e-invoice; A1 Slovene test for drivers.",
+     "unchecked": "Whether the bill is adopted and when; how it ties to fiscal verification; competing taxi-app vendors."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "One search; only public/subsidised home-care programmes and unrelated results, no household-employer-specific duty or product found. Nothing actionable; unverified whether a registration or reporting duty exists beyond normal employer registration.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "Collectors need ARSO collector registration, keep collection records 3 years, annual report to ARSO by 31 March, evidenčni list per shipment: nothing new beyond K07. No Slovenian cash-payment ban for scrap found (only Croatia, Czechia have one).",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "One combined search with cat 4 returned nothing specific on Slovenian second-hand or pawn record duties. Unverified; no candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "No Slovenian-specific licensing or purchase-register rule found; only metrology office warnings about scales and old press on buyers. Nothing actionable; ZPPDFT-2 duties for precious-metal buyers unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Destruction certificate (potrdilo o razgradnji) rulebook dates from 2010; free dismantling at authorised plants; no new register or deadline found. Nothing new beyond K07.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Movements via free UVHVVR Volos portal and TRACES; EIRŽ register. New animal health law implementing rules from Aug 2026 add mandatory movement reporting and holding registration for equids (horse stables, riding clubs) - see equid candidate. Trader-specific duties not found.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "No search spent; budget used on water, waste and agro-dealer leads.",
+     "status": "not_reached"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "Nothing new beyond K13.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Nothing new beyond K08; vet-medicine sellers not searched separately.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Water-right holders must meter abstraction and report volumes electronically by end of January using Excel templates sent by e-mail to Direkcija RS za vode; implementing regulation still pending; inspectorate checked borehole use in agriculture in Sept 2025; Aug 2026 drought call to limit abstractions in Pomurje. One candidate raised.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "New ZOPVOOV (in force 1 Apr 2025) and Uredba on municipal wastewater; owners of small treatment plants (MKČN) need first measurements and operational monitoring by an authorised contractor (every 3 years under 200 PE); 2022 ARSO review found irregularities at 178 operators; gov.si says unified rules come in 2026 and no fines in 2026. One candidate raised.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Pressure equipment periodic inspections by ministry-authorised accredited bodies (rulebook 92/2008) with stickers and certificates; lifts in multi-flat buildings were a 2023 housing-inspectorate action. Owner-side tracking is a generic asset-inspection tool; weak candidate only.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Nothing new beyond K12.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "New FFS trade rulebook (Uradni list 6/2026, applies from 14 Feb 2026) on trade conditions and keeping and sending trade data; distributors send annual sales data to UVHVVR by 31 March; retail needs a card-holding seller and a part-time advisor. Applicator spray records are K02. One distributor candidate raised.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "Temporary-work agencies registered with the labour ministry, 30,000 EUR bank guarantee, annual report by 31 March, 8-day change notice. Small buyer pool; weak.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "ZPPDej (2016, amended 2022): cemetery operators keep grave plans, burial books and lease/payment records; funeral permits in ministry register. Municipal/utility-run, no 2025 change found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Associations (društva), institutes and co-operatives must enter beneficial owner in AJPES eRDL within 8 days of registration and of any change; public access restricted since Aug 2025; supervisors still find late filers. Free state portal; weak candidate. Halal and kosher not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Draft amendment to the Road Transport Act put to consultation 30 Sep 2026 (comments to 13 Oct): optional taximeter, app invoices, new rental-with-driver class, A1 Slovene test. Still a proposal. Trucking and bus fleets not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers (menjalci) licensed by Bank of Slovenia, public register 2025; AML reporting duties not confirmed. Market and street traders not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Hunting: ZDLov-1F (in force 26 Apr 2025) and a 2025 rulebook require marking of ungulates at harvest and recording game after harvest. Farm supplementary activities: income report to the administrative unit by 31 March, including zero income. Tattoo studios, driving schools and nurseries not reached.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "male komunalne čistilne naprave obratovalni monitoring prve meritve lastniki rok",
+    "register dejanskih lastnikov društva zavodi prijava AJPES rok",
+    "odkup odpadnih kovin evidenca zbiralci prepoved gotovinskega plačila Slovenija",
+    "pregled dvigal kotlov tlačne posode periodični pregled lastniki evidenca Slovenija",
+    "posredovanje dela agencije register ministrstvo za delo evidenca napotitve delavcev poročanje",
+    "pogrebna dejavnost pokopališče evidenca grobov najemnine upravljavec zakon 2025",
+    "Slovenia taxi operators obligations 2026 licence tachograph fiscal verification new law avtotaksi",
+    "trgovci z živalmi registracija UVHVVR prevoz živali evidenca premiki rejci živine obveznosti 2026",
+    "odkup zlata nakita trgovci z rabljenim blagom zastavljalnice evidenca nakupov ZPPDFT policija inšpekcija",
+    "razgrajevalci odsluženih vozil evidenca potrdilo o uničenju vozila avtoodpad register obveznosti 2025",
+    "lovska družina evidenca odstrela poročanje lovišče zakon o divjadi in lovstvu 2025 novela",
+    "vrtanje vodnjakov vodna pravica odvzem vode evidenca poročanje črpanje podzemne vode Slovenija 2025",
+    "zakon o oskrbi s pitno vodo in odvajanju odpadne vode 2025 greznice male čistilne naprave lastniki hiš obveznosti",
+    "menjalnice pooblaščeni menjalniki Banka Slovenije register poročanje transakcij ZPPDFT-2 zavezanci",
+    "dopolnilne dejavnosti na kmetiji register evidenca prijava turistična kmetija predelava mesa mleka 2026 obveznosti",
+    "prodajalci sredstev za varstvo rastlin evidenca prodaje prijava FURS UVHVVR svetovalci certifikat usposabljanje FFS 2026",
+    "gospodinjstvo zaposlitev pomočnice varuške oskrbovalke na domu pogodba prijava ZPIZ FURS delodajalec fizična oseba",
+    "pravilnik promet s fitofarmacevtskimi sredstvi 2026 vodenje in posredovanje podatkov o prometu distributerji novosti elektronsko poročanje",
+    "program za poročanje odvzem vode vodna pravica vodomer poročilo Direkcija za vode rastlinjak namakanje storitev izdelava poročila",
+    "evidenca MKČN obratovalni monitoring program aplikacija za upravljavce čistilnih naprav opomnik meritve"
+   ],
+   "searches": 20
+  },
+  "tag": "w2b67"
+ },
+ "discover:B:slovenia": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Authorised HVAC/refrigeration/fire-system servicing companies (pooblaščena podjetja), plus operators of equipment of 5 t CO2e or more. Number of firms unverified.",
+     "category": "31. F-gas and ozone-depleting-substance servicers and equipment operators",
+     "evidence": "https://www.gov.si/novice/2024-10-28-nadzor-podjetij-ki-delajo-in-trgujejo-s-fluoriranimi-toplogrednimi-plini/ ; https://www.gov.si/teme/ozonu-skodljive-snovi-in-fluorirani-toplogredni-plini/ ; https://spot.gov.si/sl/dejavnosti-in-poklici/poklici-in-strokovni-kadri/serviser-opreme-ki-vsebuje-fluorirane-toplogredne-pline-ali-ozonu-skodljive-snovi ; https://www.gov.si/assets/ministrstva/MOPE/Okolje/Podnebne-spremembe/toplogredni_plini/obveznosti_upravljavcev.pdf. The PDF on authorised companies' obligations could not be read (binary).",
+     "existing": "Official Word/paper record form with filled-in examples on gov.si, and the state REMIS_TGP web app. Competitor search (program za evidenco o opremi fluorirani plini serviser klima aplikacija) found no private Slovenian app. Generic field-service software not checked.",
+     "known_mark": "new",
+     "name": "F-gas equipment record and ARSO reporting tool for authorised servicers and equipment operators",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Reg. (EU) 2024/573 and the Slovenian decree on F-gases and ODS: a per-unit Evidenca o opremi filled in at every intervention, copy kept by the servicer at least 5 years, equipment registration and annual reporting through ARSO REMIS_TGP. Certificates under new implementing regulations. The Environment Inspectorate checked 223 authorised firms in 2024 using an ARSO list of non-reporters for 2022.",
+     "unchecked": "Exact current reporting deadline and who reports (the snippet was cut at 31.); number of authorised companies and operators; whether REMIS_TGP accepts file import; whether the 2024/573 leak-check intervals and electronic-database duties add a new trigger; local HVAC software competitors; the PDF of servicer obligations."
+    },
+    {
+     "buyer": "Small registered providers of home long-term care (NGOs, social enterprises, small companies, municipal-contract providers) and care coordinators.",
+     "category": "32. Long-term care (dolgotrajna oskrba) providers under ZDOsk",
+     "evidence": "https://www.gov.si/zbirke/projekti-in-programi/dolgotrajna-oskrba/izvajalci-dolgotrajne-oskrbe/ ; https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-1895/pravilnik-o-vlogi-in-postopku-za-vpis-v-register-izvajalcev-dolgotrajne-oskrbe-ter-vrstah-opravljanja-dolgotrajne-oskrbe ; https://tax-fin-lex.si/Dokument/Podrobnosti/1fd39d1f-5e86-4b3d-a0ef-0935c56bd5ef ; https://api.zzzs.si/zzzs/info/egradiva.nsf/0/1c0b10400e834cf4c1258d62004881e3/$FILE/Priro%C4%8Dnik%20za%20izvajalce%20DO.002.pdf/Priro%C4%8Dnik%20za%20izvajalce%20DO.pdf",
+     "existing": "Competitor search (programska oprema za izvajalce dolgotrajne oskrbe evidenca obiskov obračun ZZZS) found no commercial app. The ZZZS provider manual (16 Dec 2025) exists. A state system or 'e-oskrba' may cover it; which IT system providers must use is not stated on the gov.si page.",
+     "known_mark": "new",
+     "name": "Long-term care provider visit log, coordinator report and ZZZS flat-rate billing pack",
+     "score": 4,
+     "status": "promising",
+     "trigger": "ZDOsk-1 / ZDOsk-1A (OG 112/24): RIDO registration (Pravilnik OG 46/2025), quality and safety system with analysis and reporting, coordinator duties (visit frequency by care category, notices to ZZZS and entry point, assistance with family-carer monthly reports). ZZZS pays flat daily rates per user for 1 Dec 2025 to 30 Sep 2026.",
+     "unchecked": "Whether ZZZS or the ministry mandates or provides an IT portal or data interface for visits and billing; number and size of providers; whether rates and rules are stable after 30 Sep 2026; existing nursing-home or home-care software vendors."
+    },
+    {
+     "buyer": "Private apartment owners and room renters (sobodajalci) letting short term, especially in high-risk municipalities.",
+     "category": "29. Hotels, guest houses and short-term rentals / 34",
+     "evidence": "https://unija.com/sl/drzavni-zbor-potrdil-nov-zakon-o-gostinstvu/ ; https://www.uradni-list.si/_pdf/2025/Ur/u2025077.pdf ; https://www.portoroz.si/app/uploads/2026/03/ZGos-1_SOS_11032026-Splosno.pdf ; https://tax-fin-lex.si/Dokument/Podrobnosti/dcd710cd-ec36-48a8-bd8c-2e2809d20ba1 ; https://tax-fin-lex.si/Dokument/Podrobnosti/6340e200-019b-47b5-b397-34a647fdd2ad",
+     "existing": "AJPES eTurizem and the register of accommodation facilities (the state tool that killed K06). Competitor search (ZGos-1 register ID kratkotrajni najem) found no software.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "name": "Short-term rental compliance pack under ZGos-1 (ID number, consents, day cap)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "ZGos-1 (OG 77/25): register entry and mandatory ID number linked to the cadastre, owner and co-owner consents (over 3/4 of shares, neighbours; valid 3 years), day caps (60 days default in high-risk municipalities, municipal caps 30-270; sobodajalec cap 180 days per Portorož presentation), sticker, inspections. Decree on high-risk municipalities adopted 16 Apr 2026. Effective date not confirmed.",
+     "unchecked": "Entry-into-force dates, who issues the ID, whether platforms or AJPES count days, and whether consents and day counts need any tool beyond a form. A one-off registration deadline could be a trigger but was not found."
+    },
+    {
+     "buyer": "Small dental and medical practices and veterinary clinics using X-ray sources. Count unverified.",
+     "category": "33. Medical and dental X-ray users (radiation permits)",
+     "evidence": "https://www.gov.si/teme/izpostavljenost-sevanjem-v-zdravstvene-namene/ ; https://gov.si/assets/organi-v-sestavi/URSVS/Navodila/Navodila-dentalna-medicina-in-denzitometrija.pdf ; https://gov.si/zbirke/storitve/dovoljenje-za-izvajanje-sevalne-dejavnosti-in-dovoljenje-za-uporabo-vira-sevanja/",
+     "existing": "Paid inspection and dosimetry services (ZVD, Jozef Stefan Institute). No software search run (budget).",
+     "known_mark": "new",
+     "name": "Dental and medical X-ray permit, inspection and radiation-assessment reminder pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "URSVS permits for radiation activity and for use of source; annual inspection report by ZVD; 10-year radiation-protection assessment (generic dental assessment valid to 23 May 2028); 15-day notice on ceasing use; handheld dental X-ray warning of 26 May 2026.",
+     "unchecked": "Competitor software; whether the work is software or just consultancy; number of practices; willingness to pay."
+    },
+    {
+     "buyer": "Small real-estate agencies, accounting and tax-advice offices (about 5,000 entities per ZDSS 2022), other small obliged persons.",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with AML reports",
+     "evidence": "https://www.gzs.si/Portals/Panoga-Poslovanje-Nepremicnine/Vsebine/Posvet 2024/ZDNP Simona Završnik Vrčon Ugotovitve inšpekcijskega nadzora pri nepremičninskih posrednikih 2024.pdf ; https://zdss.si/sestanek-na-ministrstvu-za-finance-v-organizaciji-oecd-ki-je-preverjalo-ustreznost-delovanja-racunovodskih-davcno-svetovalnih-podjetij-ter-notarjev-in-odvetnikov-na-podrocju-preprecevanja-pranja-den/ ; https://tax-fin-lex.si/Dokument/Podrobnosti/aE_cc43f19c-81f8-4118-9cd5-6eccc766af6b",
+     "existing": "Competitor search (ZPPDFT-2 ocena tveganja ... UPPD spletna aplikacija) found only paid e-seminars on racunovodja.com. AML vendors not checked.",
+     "known_mark": "new",
+     "name": "AML compliance kit for small ZPPDFT-2 obliged offices (estate agents, accountants, tax advisers)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "ZPPDFT-2: written risk assessment, customer due diligence, staff training, internal control; supervision by Market Inspectorate. UPPD guidelines for real-estate persons issued 10 Jun 2024. Inspections found missing risk assessments, customer checks and training.",
+     "unchecked": "Whether a recurring report to the authority applies (the duty is mostly internal documentation and ad-hoc transaction reports); AML vendors; official UPPD pages. Risk of being a generic compliance tool."
+    },
+    {
+     "buyer": "Mills, agri-traders and dairies above the reporting thresholds (500 t/yr grain price reporting; 1,000 t/yr stocks; milk first buyers monthly by the 20th).",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses / 35",
+     "evidence": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2024-01-1668/pravilnik-o-trzno-informacijskem-sistemu-za-trg-zit-oljnic-in-uradno-potrjenega-semena ; https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2017-01-3101/pravilnik-o-evidenci-za-sektor-mleka-in-o-trzno-informacijskem-sistemu-za-trg-mleka-in-mlecnih-izdelkov",
+     "existing": "State portal entry at ARSKTRP; frequency for grain stocks and whether small mills are covered not confirmed.",
+     "known_mark": "new",
+     "name": "Grain, oilseed and milk first-buyer market reporting helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "2024 rulebook on the market-information system for grain, oilseeds and certified seed; rulebook on milk records and market-information system (2017); ARSKTRP price and quantity reports.",
+     "unchecked": "Number of firms above thresholds; whether the portal accepts file import; reporting frequency for grain."
+    },
+    {
+     "buyer": "Small building contractors and site managers (vodja gradnje).",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/1998-01-1516/pravilnik-o-vsebini-in-nacinu-vodenja-dnevnika-o-izvajanju-del-ter-o-nacinu-oznacitve-gradbisca ; https://www.gov.si/novice/2026-01-05-pridobitev-gradbenega-dovoljenja-po-elektronski-poti-je-odslej-mozna-po-celotni-sloveniji/",
+     "existing": "State eGraditev system (permit procedures); no diary software search result.",
+     "known_mark": "new",
+     "name": "Electronic construction diary for small contractors (status of duty unconfirmed)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Construction diary (gradbeni dnevnik / dnevnik o izvajanju del) required under the 1998 rulebook and supervision practice; GZ-1B (Sept 2025) adds electronic procedure provisions under eGraditev. Whether a digital diary is mandatory is not confirmed.",
+     "unchecked": "Whether the 1998 rulebook still applies under GZ-1 (in force 1 Jun 2022); whether eGraditev will carry a diary; competitors."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Nothing new. Only duty found is the ministerial order requiring distributors to report retail price changes per station (Price Control Act) and the station technical-requirements rulebook (consolidated 1 Jun 2022). Buyers are mostly large distributors. No 2025 register or evidence duty found for small operators.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Only market-information reporting to ARSKTRP: 2024 rulebook on the grain/oilseed market (price and quantity reporting above 500 t/yr of wheat and maize, stock reporting above 1,000 t/yr) and milk first-buyer monthly reporting (by the 20th). Thresholds push this toward larger firms and reporting goes through a state portal. Logged as a weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Zakon o zadrugah novela (2021): auditor (revizor) institute, special-purpose co-operatives, annual report to AJPES within 8 months under a special accounting standard. Nothing new for software; no 2024-27 rule found.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "ZZZS concessionaires: eBOL, eRecept, eNaročanje, billing-software circulars, 2023 volume-reporting statement and April 2026 decree changing realisation-paid programmes. Software is supplied by incumbent vendors and ZZZS circulars; no gap found. X-ray user duty split out as category 33.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "No Slovenian source found on pharmacy duties for drug precursors (search returned Slovak pages only, discarded). SPOT page on registration for drug precursor substances (group 3 mixtures) seen but names no authority or pharmacies. Precursor and narcotics-register duties are unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "ZZasV-1 licences (SPOT, gov.si). A 2024 amendment proposal and a new private-security strategy were pending; no 2025 amendment or reporting duty found. Cleaning and manpower agencies not separately searched (manpower agencies belong to group A category 15).",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Could not confirm an electronic construction-diary duty. The 1998 rulebook on the diary (dnevnik o izvajanju del) predates GZ-1, and its current status is unverified. eGraditev now covers permits countrywide (5 Jan 2026) and GZ-1B (Sept 2025) adds electronic-procedure provisions. Mining and quarry duties not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Estate agents are supervised by the Market Inspectorate under ZPPDFT-2. Inspections found missing risk assessments, customer checks and staff training. UPPD issued guidelines on 10 Jun 2024 and ZNPosr was amended (OG 76/25). Accountants and tax advisers (about 5,000 entities per ZDSS, 2022) also fall under ZPPDFT-2. No notary-specific reporting found. Logged as a weak candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Guest register and tax duty is K06 (rejected, eTurizem). New: Zakon o gostinstvu ZGos-1 (OG 77/25) sets an ID number and a register entry for short-term rentals, owner and co-owner consents (valid 3 years) and day caps. Mandatory categorisation of 4-5 star and farm-tourism lodgings. Logged as a weak candidate related to K06.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "Budget. EUDR timber is already K01. Intrastat thresholds were raised from 1 Jan 2026, which reduces reporting. CBAM, fish and food export certificates not searched.",
+     "status": "not_reached"
+    },
+    {
+     "category": "31. F-gas and ozone-depleting-substance servicers and equipment operators (country-specific)",
+     "found": "Authorised companies must keep an equipment record (Evidenca o opremi) for each unit of 5 t CO2e or more (3 kg for ODS) and report via ARSO REMIS_TGP. Reg. 2024/573 and new certificate rules (2024/2215, 2025/625, 2025/1893) apply. The Inspectorate checked 223 firms in 2024. One candidate logged.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Long-term care (dolgotrajna oskrba) providers under ZDOsk (country-specific, law in force 2025-26)",
+     "found": "Providers must be in the RIDO register (Pravilnik OG 46/2025). ZDOsk-1A (OG 112/24) adds quality-system, analysis and reporting duties. ZZZS pays a flat daily rate per user from 1 Dec 2025 to 30 Sep 2026. Coordinators must visit users on a set schedule (monthly for categories 4-5) and report. One candidate logged.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Medical and dental X-ray users (radiation permits) (country-specific)",
+     "found": "URSVS permits for radiation activity and source use, a radiation-protection assessment valid 10 years (a generic dental assessment is valid to 23 May 2028), annual device inspection report by ZVD, and notice within 15 days of ceasing use. One weak candidate logged.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Short-term accommodation lettings under ZGos-1 (country-specific)",
+     "found": "See category 29. The government decree on high-risk municipalities was adopted 16 Apr 2026. EU Reg. 2024/1028 (STR) is applicable in most provisions from 20 May 2026 (from memory, unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "35. Agricultural first buyers: milk, grain and oilseed market reporting to ARSKTRP (country-specific)",
+     "found": "See category 22. Monthly electronic reporting to the ARSKTRP portal. Thresholds mean mostly mid-size and large firms.",
+     "status": "screened"
+    },
+    {
+     "category": "36. AML-obliged small professional offices: accountants, tax advisers, estate agents (country-specific, ZPPDFT-2)",
+     "found": "See category 28. Only paid training seminars found (racunovodja.com). Official UPPD pages not opened.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Sole-trader (s.p.) tax regime changes 2026: normiranci and ZIURS (country-specific)",
+     "found": "New 2026 flat-rate tax rules and a new minimum contribution base from 1 Jul 2026 are tax and accounting changes, not a recurring register or report to an authority, so they are generic accounting. Intrastat threshold increases reduce, not add, duties.",
+     "status": "not_applicable"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "dobavitelji tekočih naftnih goriv evidence bencinski servisi register zakon 2025",
+    "zasebni zdravniki koncesionarji obračun ZZZS poročanje programska oprema eRecept eNaročanje",
+    "lekarne prekurzorji droge register pooblastilo poročanje letno",
+    "posredniki nepremičnin notarji ZPPDFT-2 poročanje URSPPD obveznosti 2025",
+    "fluorirani toplogredni plini serviserji klimatskih naprav evidenca puščanje poročanje ARSO register 2025",
+    "elektronski gradbeni dnevnik obveznost izvajalci GZ-1 nadzor evidenca 2025",
+    "izvajalci dolgotrajne oskrbe vpis register zakon o dolgotrajni oskrbi 2026 poročanje",
+    "zobozdravniki rentgen vir ionizirnega sevanja prijava dovoljenje redni pregledi ordinacija",
+    "zasebno varovanje ZZasV-1 licenca evidence spremembe zakona 2025 poročanje",
+    "zadruge letno poročilo revizija kmetijske zadruge zakon o zadrugah novela",
+    "kratkoročni najem uredba 2024/1028 registracijska številka Slovenija 2026",
+    "nove obveznosti za s.p. od 1. januarja 2026 Slovenija evidenca poročanje",
+    "program za evidenco o opremi fluorirani plini serviser klima aplikacija",
+    "mlini žita odkup mleka kmetijski trgovci poročanje zalog ARSKTRP",
+    "ZPPDFT-2 ocena tveganja računovodski servisi davčni svetovalci UPPD poročanje",
+    "programska oprema za izvajalce dolgotrajne oskrbe evidenca obiskov obračun ZZZS",
+    "Zakon o gostinstvu ZGos-1 uveljavitev register nastanitvenih obratov ID kratkotrajni najem",
+    "gradbeni dnevnik v elektronski obliki eGraditev obvezno izvajalci GZ-1B 2026"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b67"
+ }
+}

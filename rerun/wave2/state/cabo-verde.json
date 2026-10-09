@@ -1,0 +1,688 @@
+{
+ "discover:ALL:cabo-verde": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Households employing domestic workers",
+     "category": "1. Household employers",
+     "evidence": "About 11,300 domestic workers a year, about 10% INPS-registered, 92.8% without a written contract (https://www.dn.pt/lusa/interior/maioria-das-empregadas-domesticas-cabo-verdianas-nao-tem-contrato-nem-protecao-social-9066788.html). ILO Feb 2026 report (https://www.social-protection.org/gimi/gess/Media.action?id=21784). Rivermate guide lists INPS rates of 16% employer and 8.5% worker for 2026 (private guide, unverified for domestic workers).",
+     "known_id": "K03",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty. New context: the draft regulation, if adopted, would be a formalisation trigger.",
+     "name": "Domestic-employer INPS compliance (restated)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "INPS enrolment and monthly contributions; draft domestic-work regulation from ICIEG with UN Women (adoption not confirmed)"
+    },
+    {
+     "buyer": "About 388 small family distilleries (trapiches), concentrated in Santo Antão and Santiago, plus bottlers and traders",
+     "category": "31. Sugar-cane spirit distilleries",
+     "evidence": "IGAE counts 388 stills, 99 in Ribeira Grande; of 363 plants inspected, 209 were deemed licensable; small distillers stopped after new fermentation, storage and labelling standards; 2025 inspection drive (https://expressodasilhas.cv/topico/grogue, https://www.rtp.pt/noticias/economia/do-trapiche-ao-copo-cabo-verde-entra-na-nova-epoca-de-producao-de-grogue_n1628469, https://theconversation.com/inside-the-grogue-wars-of-cabo-verde-206978)",
+     "existing": "Competitor search (selagem grogue + registo produtores + software) found no software or platform; only the state traceability platform mentioned in the stamp-portaria news, unnamed",
+     "known_mark": "new",
+     "name": "Grogue (sugar-cane spirit) distillery licensing, harvest-window and stamp compliance",
+     "score": 3,
+     "status": "weak",
+     "trigger": "DL 11/2015 (production regime, cane cutting January to May only); IGAE inspection and licensing; selagem portaria of 23 Oct 2023 effective 1 Jan 2024 for bulk grogue once technical conditions exist",
+     "unchecked": "Whether grogue is covered by the stamp portaria; which platform the state uses; per-producer record or return duties (production log, batch and stock register, stamp requisition); who would pay; low digital literacy and thin margins"
+    },
+    {
+     "buyer": "Producers and importers of cigarettes, tobacco and some spirits; possibly grogue bottlers",
+     "category": "32. Fiscal stamps for tobacco and alcohol",
+     "evidence": "https://forbesafricalusofona.com/?p=79319",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Fiscal-stamp requisition and traceability records for alcohol and tobacco producers and importers",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "New selagem portaria: stamp requisition from customs, use recorded on a traceability platform; beer, wine and vermouth exempt",
+     "unchecked": "Portaria number and date, covered products, whether the platform is a state portal (which would kill it), number of obligated firms"
+    },
+    {
+     "buyer": "Sole-trader and single-person-company taxi, hire and minibus (aluguer, colectivo) owners",
+     "category": "18. Transport operators",
+     "evidence": "https://boe.incv.cv/Bulletins/DownloadAct?id=100451, https://boe.incv.cv/Bulletins/Download/33965, https://boe.incv.cv/Bulletins/DownloadAct?id=86958",
+     "existing": "Not searched (no competitor search run)",
+     "known_mark": "new",
+     "name": "Road passenger-transport operator licence and sanction compliance (taxi, hire, collective)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "DL 19/2022 general regime, amended by DL 27/2025 (BO 77, 19 Aug 2025: clandestine transport as very serious offence, driver must carry licence copy) and DL 15/2026 (20 Mar 2026); alvará or licence needed; apps may replace taximeters; electric vehicles now licensable",
+     "unchecked": "Number of licensed operators, renewal cycles and documents, DGTR digital portal, whether any recurring return is due, willingness to pay"
+    },
+    {
+     "buyer": "Small rent-a-car firms serving tourist islands (Sal, Boa Vista, Santiago)",
+     "category": "33. Rent-a-car and hire licences",
+     "evidence": "Summary of DL 15/2026 preamble in search result; operative articles not read. Sources: https://boe.incv.cv/Bulletins/Download/33965",
+     "existing": "Not searched",
+     "known_id": "K01",
+     "known_mark": "new",
+     "known_note": "Tourism-adjacent but different buyer and duty",
+     "name": "Rent-a-car operator access and licence compliance",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "DL 15/2026 of 20 March 2026 revises access requirements for vehicle rental without driver and links this to tourism competitiveness",
+     "unchecked": "Operative text of DL 15/2026, transition deadline for existing operators, fleet registers or reports required, count of operators"
+    },
+    {
+     "buyer": "Private clinics, labs, dental, physio, optical and orthopaedic providers",
+     "category": "24. Private clinics, labs and other health providers",
+     "evidence": "https://boe.incv.cv/Bulletins/DownloadAct?id=101356 (text unreadable, so subject unconfirmed); ERIS role: https://expressodasilhas.cv/topico/eris",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Health-establishment licensing and conformity declarations under the new 2026 decree",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "A decree in BO 57, 12 May 2026 (PDF metadata DL 33/2026) apparently sets licensing, conformity declaration, opening, modification and operation of health-care establishments, supervised by ERIS",
+     "unchecked": "Confirm the decree's subject, transition deadline for existing providers, recurring declarations, number of providers, any INPS billing duty"
+    },
+    {
+     "buyer": "Real estate agents, small law and accounting offices",
+     "category": "28. Notaries, land agents, brokers and AML",
+     "evidence": "https://boe.incv.cv/Bulletins/Download/10640 area not confirmed; academic article and GIABA reference seen only in search summary. No Cabo Verde source on obligated list, thresholds or UIF channel found.",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "AML/DNFBP reporting for brokers, notaries, lawyers and accountants",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Lei 120/VIII/2016 on money laundering; GIABA mutual evaluation covers lawyers as DNFBPs",
+     "unchecked": "Obligated entities, supervisor, reporting forms and deadlines, any 2024-2026 amendment, number of real estate brokers"
+    },
+    {
+     "buyer": "Small PV installers and self-generating SMEs and households",
+     "category": "34. Renewable microproduction",
+     "evidence": "https://www.mirandalawfirm.com/download/1183/d8179971c4669e2c62903476e317a6dd/ln_cabo_verde_julho_a_outubro_de_2018_pt.pdf",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Renewable microproduction registration and inspection (installer-facing)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DL 1/2011 as amended by DL 54/2018: prior registration at the Direção Geral de Energia, inspection afterwards; below 400 W exempt",
+     "unchecked": "Current text, whether there is a recurring duty, size of installer base"
+    },
+    {
+     "buyer": "Licensed exchange agencies",
+     "category": "19. Money changers",
+     "evidence": "https://boe.incv.cv/Bulletins/Download/2541",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Exchange office (agência de câmbios) compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "BCV authorisation, registration with BCV, minimum capital; revocation if activity stops over four months",
+     "unchecked": "Number of agencies, BCV periodic reporting, whether informal changers matter; formal capital-heavy firms, so likely too few"
+    },
+    {
+     "buyer": "Fish processors and exporters",
+     "category": "30. Small exporters and importers",
+     "evidence": "https://leap.unep.org/en/countries/cv/national-legislation/order-no-132009-sanitary-certificate-fish-products-export",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Fish-export sanitary and catch certificate paperwork",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Sanitary or veterinary certificate (Portaria 13/2009, FAOLEX lists it as revoked) and catch certification (Portaria 48/2009)",
+     "unchecked": "Current instruments, number of exporters, existing e-certification by the Direção-Geral das Pescas"
+    },
+    {
+     "buyer": "Co-operatives, associations, OSCDs",
+     "category": "23. Co-operatives and 17. Community bodies",
+     "evidence": "No periodic duty confirmed in sources found",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Co-operative and non-profit annual reporting",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "Lei 25/VI/2003 on non-profits; co-operative law not found",
+     "unchecked": "Current co-operative law, annual filing duties, registrar practice"
+    },
+    {
+     "buyer": "Private security firms",
+     "category": "26. Security agencies",
+     "evidence": "2021 ISCPSI thesis via https://dspace.rcaap.pt/entities/publication/81b31d03-49ed-401c-9084-e85cdff64374",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Private security company oversight",
+     "score": 1,
+     "status": "unverified",
+     "trigger": "DGAI licensing and training control since 2009; oversight described as weak",
+     "unchecked": "Current law, register of guards, reporting duties"
+    },
+    {
+     "buyer": "n/a",
+     "category": "29. Hotels and general",
+     "evidence": "Not re-checked",
+     "known_id": "K04",
+     "known_mark": "known",
+     "known_note": "Also covers K05, K06, K07 and K08 as rejected ideas; not re-checked",
+     "name": "General e-Fatura for SMEs, hotel PMS, payroll filing (already rejected)",
+     "score": 0,
+     "status": "rejected",
+     "trigger": "n/a"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers",
+     "found": "Nothing new beyond K03. Sources: ~11,300 domestic workers/yr, ~10% INPS-registered, ICIEG/UN Women draft domestic-work regulation not yet confirmed adopted (https://www.dn.pt/lusa/interior/maioria-das-empregadas-domesticas-cabo-verdianas-nao-tem-contrato-nem-protecao-social-9066788.html). ILO Feb 2026 notes domestic workers are in the employee scheme; an INPS resolution amending Res. 58/2020 separates 'prestador de serviço doméstico' (paid per day/hour) from 'trabalhador doméstico'. A formalisation drive would strengthen K03.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No search spent; budget used on country-specific and higher-priority categories.",
+     "status": "not_reached"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "No search spent. The exchange-office search showed that BCV regulates operations on gold, but no dealer-specific rule was found.",
+     "status": "not_reached"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "No dedicated search. The fish-export search surfaced Lei 30/VIII/2013 (animal health) and DR 12/2020 (animal-product hygiene) as the framework; no duty detail checked.",
+     "status": "not_reached"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "No dedicated search. See category 6 for the framework laws seen.",
+     "status": "not_reached"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "The ERIS regulator took over ARFA, DGF and IGS functions in 2019 and covers human and veterinary medicines. No vet-specific recurring duty found. Source: https://expressodasilhas.cv/topico/eris",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "No general licensing regime for temporary-work agencies found. Only a student temporary-work scheme run by FICASE, which is not relevant. Unverified whether a general regime exists.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "17. Community and religious bodies",
+     "found": "Non-profits are registered at the Conservatória de Registo das Pessoas Coletivas under Lei 25/VI/2003; OSCD law covers development NGOs. No periodic reporting duty confirmed. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "The general road transport regime DL 19/2022 was amended by DL 27/2025 (BO 19 Aug 2025: sanctions, clandestine transport, driver must show licence copy) and DL 15/2026 of 20 March 2026 (also revises rent-a-car access). Operators are mostly sole traders or single-person companies. See candidates. Sources: https://boe.incv.cv/Bulletins/DownloadAct?id=100451, https://boe.incv.cv/Bulletins/Download/33965",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Exchange offices (agências de câmbio) need BCV authorisation, must be a SA or Lda, have minimum capital and register with the BCV. This is a formal and capital-heavy segment, so weak. Street vendors not searched. Source: https://boe.incv.cv/Bulletins/Download/2541",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections",
+     "found": "Driving schools: no Cabo Verde rule found. Vehicle inspection is run by a concession (MADINSP, exclusive) under DGTR. Restaurants, bars and food: IGAE inspects; the permanent licensing regime was not found. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "ARME sets monthly maximum prices (butane per cylinder, 12.5 kg at 1,770 CVE in Aug 2026) and the Sistema Petrolífero Nacional is DL 56/2010. No station licensing or periodic-return rule found. The name ARFA in the brief is outdated; ERIS replaced it for health. Few operators, so unlikely. Source: https://forbesafricalusofona.com/?p=177055",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "No search spent. Cabo Verde has no major export commodity of this type; the sugar-cane spirit sector is covered under 31.",
+     "status": "not_reached"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "The current co-operative law and annual reporting duties were not found. Old texts only; a 2017 text suggests the Código das Sociedades Comerciais applies to credit co-operatives. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "ERIS licenses health establishments. A decree published in BO 57, 12 May 2026 (PDF metadata says DL 33/2026) appears to set the licensing, conformity declaration, opening and operating regime, but its text was unreadable and the match to health establishments is not confirmed. INPS covers about 43% of the population; I found no INPS convention regime with private clinics. See candidate. Source: https://boe.incv.cv/Bulletins/DownloadAct?id=101356",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "ERIS licenses pharmacies, including via a published tender process. No recurring small-business reporting duty found. Source: https://expressodasilhas.cv/topico/eris",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Private security is supervised by DGAI. The 2021 thesis says oversight is weak and mostly pedagogic. No electronic reporting duty found. Cleaning and manpower agencies: nothing found.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "found": "No search spent.",
+     "status": "not_reached"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "The AML law is Lei 120/VIII/2016 and lawyers are DNFBPs per the GIABA mutual evaluation. Entity list, thresholds and the reporting channel to the UIF were not confirmed. Searches returned mostly Portuguese material. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "found": "Nothing new beyond K01 and K05. Not searched, as the known list already covers it.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules",
+     "found": "Fish exports need a sanitary or veterinary certificate (Portaria 19/2007, replaced by 13/2009, which FAOLEX lists as revoked) and a catch certificate (Portaria 48/2009). Exports go mostly to the EU. Exporters are few and processor-sized. Source: https://leap.unep.org/en/countries/cv/national-legislation/order-no-132009-sanitary-certificate-fish-products-export",
+     "status": "screened"
+    },
+    {
+     "category": "31. Sugar-cane spirit (grogue) distilleries and traders",
+     "found": "Regime DL 11/2015; 388 stills (99 in Ribeira Grande, Santo Antão); IGAE inspections, with 209 of 363 inspected plants deemed licensable; cane cutting only January to May; 2025 inspection campaign in Santo Antão and Santiago; many small distillers stopped after the post-COVID rules. See candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Fiscal stamps (selos fiscais) for tobacco and alcohol producers and importers",
+     "found": "A new selagem portaria (replaces a 62-year-old paper regime) requires stamp use to be recorded on a traceability platform. Whether grogue is covered is unconfirmed. Source: https://forbesafricalusofona.com/?p=79319",
+     "status": "screened"
+    },
+    {
+     "category": "33. Rent-a-car, taxi and public-transport licences (DL 19/2022 as amended)",
+     "found": "See category 18 and candidates.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Renewable microproduction and self-generation (DL 1/2011, DL 54/2018)",
+     "found": "Prior registration at the Direção Geral de Energia and later inspection; installations under 400 W are exempt from prior registration. Buyers are installers and households, with no recurring duty confirmed. Weak. Source: https://www.mirandalawfirm.com/download/1183/d8179971c4669e2c62903476e317a6dd/ln_cabo_verde_julho_a_outubro_de_2018_pt.pdf",
+     "status": "screened"
+    },
+    {
+     "category": "35. Vehicle technical inspection",
+     "found": "Exclusive concession (MADINSP) under the DGTR, per a Boletim Oficial contract. Current status unconfirmed. Not a candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Fishing licences and artisanal fishing",
+     "found": "Commercial fishing needs a licence (a 2023 regulation sets obligations for licensed vessels). Artisanal-fishing rules and a fishers register were not found. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Business formalisation and licensing simplification (DL 21/2011 and later)",
+     "found": "No 2024-2026 general licensing or RCBE-type obligation found for Cabo Verde. Searches returned Portuguese results.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Cabo Verde empregadas domésticas INPS inscrição empregador doméstico contribuições",
+    "Cabo Verde Boletim Oficial 2025 licenciamento actividade registo obrigatório decreto-lei pequenas empresas",
+    "Cabo Verde ARFA combustíveis postos de abastecimento gás butano distribuidores licença",
+    "Cabo Verde pesca exportação certificação ANSA veterinário medicamentos farmácias ARFA",
+    "grogue destilarias trapiches registo licença produção Cabo Verde",
+    "Cabo Verde táxis aluguer licença IMT transporte coletivo operadores registo alvará 2025",
+    "Cabo Verde pesca artesanal licença embarcações registo pescadores",
+    "Cabo Verde cooperativas associações comunitárias registo obrigações relatório anual",
+    "Decreto-Lei 27/2025 Cabo Verde transportes rodoviários alvará licença táxi aluguer",
+    "Cabo Verde branqueamento de capitais imobiliárias mediadores notários advogados UIF 2025",
+    "Cabo Verde licenciamento comercial restauração bebidas estabelecimentos IGAE livro de reclamações",
+    "ERIS Cabo Verde clínicas privadas laboratórios licenciamento estabelecimentos de saúde INPS convenção",
+    "rent-a-car Cabo Verde Decreto-Lei 15/2026 aluguer de veículos sem condutor",
+    "trabalho doméstico Cabo Verde regulamentação 2026 anteprojeto ICIEG",
+    "Cabo Verde 2026 novo decreto-lei obrigação declaração prazo empresas RCBE",
+    "Cabo Verde cambistas câmbio manual Banco de Cabo Verde licença agências de câmbio",
+    "grogue produtores licenciamento destilarias IGAE 2026 rotulagem selo",
+    "Cabo Verde microprodução autoprodução energia solar registo licença ARME",
+    "Cabo Verde escolas de condução licenciamento DGTR inspeção periódica veículos",
+    "Cabo Verde segurança privada empresas licença vigilantes; trabalho temporário",
+    "selagem do grogue portaria sistema registo produtores selos plataforma Cabo Verde"
+   ],
+   "searches": 22
+  },
+  "tag": "w2b65"
+ },
+ "gapfill:cabo-verde": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Funeral agencies and mutual associations that run funerals; possibly municipal registry staff",
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "evidence": "https://boe.incv.cv/Bulletins/Download/2191 (BO I Série n.34, 5 May 2016, read via PDF text extraction). Low duty frequency after first registration.",
+     "existing": "None seen; no search for competitors (budget).",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Funeral agency registration and compliance tool for municipal funeral registry",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DL 34/2016 of 5 May 2016: registration with the municipality, changes reported within 30 days, registration number on documents, social-funeral service at capped price, fines.",
+     "unchecked": "Number of registered agencies; whether registration is online and already digital; whether DL 34/2016 was amended; municipal appetite."
+    },
+    {
+     "buyer": "Licensed quarry operators and sand/aggregate extractors, plus new operators the ENEI 2025-2030 strategy wants (at least one licensed quarry per inhabited island)",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "Search-result summaries of faolex.fao.org/docs/pdf/cvi197685.pdf, cvi196863.pdf, boe.incv.cv/Bulletins/DownloadAct?id=100503 (not opened); ENEI 2025-2030 summary. Small operator count and regulation is in flux.",
+     "existing": "None seen; no competitor search.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Quarry and inert-extraction licence, guarantee-deposit and rehabilitation-plan compliance",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "DL 3/2015 (amended by DL 34/2021 and DL 16/2023): quarry licences, PARP environmental rehabilitation plans, guarantee deposit (art. 44) and renewal fees; DL 18/2016 on sand extraction.",
+     "unchecked": "Number of licensed quarries; reporting duties (volumes, royalties); whether a state register already exists; any DL from 2024-2026; competitor search not run (budget exhausted)."
+    },
+    {
+     "buyer": "Private waste collectors, transporters, sludge haulers and recyclers; also scrap dealers if covered",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "Search summaries of FAOLEX cvi202531 and LEAP entry (LEAP page returned 403 on fetch); boe.incv.cv/Bulletins/Download/2084 and 2183 not opened.",
+     "existing": "None seen.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Waste-operator licence and SIRES reporting tool for haulers, septic and recycling operators",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "DL 56/2015: licensing/concession of waste management operations, SIRES waste information system, offence regime; ANAS authority; national waste list DL 65/2018.",
+     "unchecked": "Who must report to SIRES and how often; number of private licensed operators; whether SIRES is a free state portal; guia de acompanhamento rule."
+    },
+    {
+     "buyer": "Abattoirs, butchers, livestock keepers and traders that slaughter",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "Search summaries of faolex.fao.org/docs/pdf/cvi205504.pdf and cvi198074.pdf (not opened). Duty detail not read.",
+     "existing": "None seen.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Slaughter, butcher and animal-product hygiene records",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "DR 10/2020 (25 Sept) slaughter conditions and inspection; DR 12/2020 (8 Oct) animal-product hygiene; Lei 30/VIII/2013 animal health framework.",
+     "unchecked": "Whether authorisation, traceability or record-keeping duties exist on small butchers; enforcement level; operator count."
+    },
+    {
+     "buyer": "Pawn-lending companies and dealers in second-hand goods or gold",
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "evidence": "boe.incv.cv/Bulletins/Download/12714 (search snippet only); issafrica.org narco-state articles give general AML context.",
+     "existing": "None seen.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Pawn lenders and second-hand dealers AML/record keeping",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Pawn-lending activity opened to any company or social institution (Boletim Oficial text, number/date unconfirmed); AML law Lei 120/VIII/2016, scope over these businesses unconfirmed.",
+     "unchecked": "Whether pawnbrokers or precious-metal dealers are designated AML entities; register or licence; operator count."
+    },
+    {
+     "buyer": "Private holders of irrigation boreholes, wells and galleries and irrigator associations",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "Search summary of DL 47/2021 (boe.incv.cv/Bulletins/Download/3773, faolex.fao.org/docs/pdf/cvi203366.pdf). The duty is disappearing, so the buyer pool shrinks.",
+     "existing": "State company AdR takes over.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Private irrigation borehole licence management",
+     "score": 1,
+     "status": "weak",
+     "trigger": "Licences were issued by ANAS; DL 47/2021 (10 June 2021, art. 6-7) revokes irrigation-only private licences and moves systems to the state company Agua de Rega in phases.",
+     "unchecked": "Pace of the phased transfer; remaining private mixed-use holders."
+    },
+    {
+     "buyer": "Small building contractors holding alvarás by class and specialty",
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "evidence": "boe.incv.cv/Bulletins/Download/933 and 861 (search snippets, dated 2006-2009).",
+     "existing": "None seen.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "",
+     "name": "Contractor (empreiteiro) alvará renewal and works-register tool",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Alvará system under Decreto 87/89 (Comissão de Alvarás, classes with maximum work values), seen in 2006-2009 gazettes; current regime unconfirmed.",
+     "unchecked": "Whether the regime still applies or was replaced; renewal and reporting duties; contractor count."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "One search; no Cabo Verde scrap-dealer licence or register found (results were Brazilian). Likely falls under general commercial licensing and waste regime DL 56/2015. Nothing new beyond that. Unverified that a dedicated register exists.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "No second-hand-dealer register found. A Boletim Oficial text (boe.incv.cv/Bulletins/Download/12714, date and number not confirmed) opened pawn lending to any commercial company, credit institution or social-solidarity institution. AML law Lei 120/VIII/2016 exists, but whether it covers pawnbrokers or second-hand dealers is unconfirmed. Likely very few operators.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "No dealer-specific licence or hallmark/register rule found. Results covered only BCV's own gold reserves. Whether AML law 120/VIII/2016 reaches precious-metal dealers is unchecked.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "No dismantler, end-of-life vehicle or used-parts rule found. Only the vehicle-standards rule RVAC (DR 7/2020, amended by DL 15/2026, March 2026), which covers vehicle characteristics and inspection, not dismantling. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "No livestock-market, movement-permit or trader register found. The framework is Lei 30/VIII/2013 and DR 10/2020 (slaughter conditions for animals, applies to producers, traders and keepers) plus DR 12/2020. Duty detail not read.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "DR 10/2020 of 25 Sept (technical procedures and conditions for slaughtering domestic animals, ante/post-mortem inspection at abattoirs) and DR 12/2020 of 8 Oct (hygiene of animal products). Butcher-shop registration/licence rules not found (the only butcher-register text was Portuguese). Articles on authorisations and records not read.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "One search; no Cabo Verde apiculture register, honey certification rule or association found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "DL 47/2021 of 10 June 2021 (BO I Série n.59) revoked all private irrigation-only borehole, well and gallery licences and some mixed-use ones. It phases the systems into the state irrigation company Agua de Rega (AdR), with ANAS approving the list. So the private-licence duty is being removed, not created. Driller-licence rules not found. Borehole solar tender: Resolução 52/2026 (BO n.32, 17 Mar 2026) concerns ANAS procurement only.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Waste management (collection, transport, treatment) falls under DL 56/2015, which has a licensing/concession regime and the SIRES waste information system. ANAS is the authority. Septic-sludge-specific rules, licence steps and operator reporting not confirmed. Waste list in DL 65/2018.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Nothing found. No Cabo Verde lift, boiler or pressure-equipment regime surfaced (results were Brazilian NR-13 and Portuguese). Treat as no evidence rather than no rule.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Sector framework: Decreto Legislativo 5/2018 (legal regime of water and sanitation services), DL 26/2016 (tariff policy), ARME tariff regulation. Irrigation systems formerly licensed to private owners and irrigator associations are moving to AdR (2020 law and DL 47/2021). No rules found for community drinking-water systems or standpipe associations.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "One search; no current Cabo Verde dealer licence or applicator certification found. Only an older advisory commission on agricultural phytopharmaceuticals and an old plant-health import/export decree. Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "DL 34/2016 of 5 May 2016 (BO I Série n.34) governs access to and exercise of the funeral activity. Funeral agencies must register with the municipality (electronic registration, registration number shown on documents, changes reported within 30 days), must offer a basic social funeral at a maximum price, must have minimum staff, and face fines (some 50,000 to 300,000 escudos) and registration suspension; registration fee goes to municipal licences. Mutual associations may also act. Private cemetery concessions and funeral centres are allowed. Small buyer pool; see ledger.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Wheat flour liberalised (DL 84/2005); DL 29/2002 removed operator duties (warehouses in every council, guarantee deposit, annual supply programme). State price compensation for maize, wheat and oils (2022 onward); silo capacity to rise from 14,000 to 32,000 t via a private firm in Santiago. No current operator register or reporting duty found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers",
+     "found": "Quarries and inert extraction: DL 3/2015 (mineral masses; quarry licences, rehabilitation plans PARP, guarantee deposit art. 44), amended by DL 34/2021 and DL 16/2023 of 16 May; DL 18/2016 on sand extraction and dredging by public tender; Council of Ministers suspended beach-sand authorisations; strategy ENEI 2025-2030 targets 70% cut in illegal extraction and one licensed quarry per inhabited island. Contractor licensing: alvarás from the Comissão de Alvarás (Decreto 87/89, classes with maximum work values), seen only in 2006-2009 gazettes; current regime unconfirmed. Local-content/site-register rules not found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 3,
+   "queries": [
+    "Cabo Verde sucata metais licença comerciante de sucata regulamento",
+    "Cabo Verde compra de ouro joalharia metais preciosos licenciamento Banco de Cabo Verde comerciantes",
+    "Cabo Verde matadouro talhos licenciamento abate animais decreto-regulamentar",
+    "Cabo Verde furos captação águas subterrâneas licença perfuração ANAS",
+    "Cabo Verde pesticidas fitofarmacêuticos licença comercialização aplicadores decreto",
+    "Cabo Verde elevadores inspeção caldeiras equipamentos sob pressão regulamento segurança",
+    "Cabo Verde cemitérios serviços funerários agências funerárias licenciamento câmara municipal",
+    "Cabo Verde resíduos transportadores recolha fossas sépticas licença operador de gestão de resíduos",
+    "Cabo Verde construção civil alvará empreiteiros IMOPI registo empresas obras públicas",
+    "decreto-lei revoga licenças furos poços galerias particulares rega Água de Rega AdR Cabo Verde",
+    "Cabo Verde apicultura apicultores registo mel certificação Ministério da Agricultura",
+    "Cabo Verde comércio de gado feira de gado guia de trânsito animais transporte registo pecuaristas",
+    "Cabo Verde sistemas de abastecimento de água comunitários associações gestão chafarizes tarifa ARME licença",
+    "Cabo Verde importação de veículos usados peças sucata automóvel desmantelamento viaturas abatidas regulamento",
+    "Cabo Verde extração de inertes areia pedreiras licença licenciamento exploração decreto-lei 2024 2025",
+    "Cabo Verde penhores casa de penhores usados compra e venda artigos em segunda mão licença atividade comercial lavagem de dinheiro",
+    "Cabo Verde moagem cereais milho importadores armazéns reserva estratégica alimentar registo operadores",
+    "Cabo Verde Decreto-Lei 56/2015 resíduos licenciamento operadores ANAS guia de acompanhamento mapa de registo"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b65"
+ },
+ "triage:cabo-verde": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "known",
+     "id": "ALL1",
+     "reason": "Same buyer (household employers) and same INPS duty as K03; draft regulation is only context.",
+     "ref": "K03"
+    },
+    {
+     "decision": "keep",
+     "id": "ALL2",
+     "reason": "New buyer group (family distilleries) with mandatory licensing, harvest window and stamp duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL3",
+     "reason": "Distinct duty (stamp requisition and traceability) for small producers/importers; unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL4",
+     "reason": "Sole-trader taxi/aluguer owners with recurring licence duty under recent decrees; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL5",
+     "reason": "Rent-a-car firms are a different buyer and duty from K01 (related K01); new rule DL 15/2026."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL6",
+     "reason": "Small private clinics, labs and dental offices with a new licensing and conformity duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL7",
+     "reason": "Small brokers, notaries and law/accounting offices carry AML duty themselves; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL8",
+     "reason": "Small installers and SMEs/households with registration and inspection duty; in scope, unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL9",
+     "reason": "Small licensed exchange agencies with BCV authorisation duty; small professional office, keep."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL10",
+     "reason": "Small fish exporters with recurring certificate paperwork; unverified so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL11",
+     "reason": "Associations and co-operatives are explicitly in scope; annual reporting duty unverified."
+    },
+    {
+     "decision": "keep",
+     "id": "ALL12",
+     "reason": "Small security firms under DGAI licensing and training control; unverified so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Funeral agencies and associations with municipal registration and 30-day change reporting; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Small quarry operators with licence, guarantee deposit and rehabilitation duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS3",
+     "reason": "Small waste haulers with licence and SIRES reporting duty; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Butchers and small abattoirs with slaughter and hygiene record duties; in scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Pawn lenders and second-hand dealers; AML scope unconfirmed but unverified, so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Private borehole holders and irrigator associations face licence revocation and transition; in scope, unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS7",
+     "reason": "Small contractors with alvará renewal duty; regime unconfirmed so keep for verification."
+    }
+   ]
+  },
+  "tag": "w2b65"
+ }
+}

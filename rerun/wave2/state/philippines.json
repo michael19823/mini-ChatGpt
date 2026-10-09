@@ -1,0 +1,1437 @@
+{
+ "challenge:philippines:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No single killer. The case is weakened by facts: the re-registration is a one-off that only legacy SEC/HIGC HOAs must do (HLURB-registered HOAs and condo corporations are excluded, and the affected count is unpublished), filing is paper-based at regional offices, and the recurring annual report is a simple GIS plus a CPA-audited FS. I found no annual deadline or penalty I could verify.",
+   "reason": "I found no product, free state portal or association tool that does the core job. Qmunidad and the foreign HOA apps don't cover DHSUD filings, and filing appears to happen on paper at DHSUD regional offices (a third-party listing says triplicate copies and a PHP 1,880 fee). The market is the weak point. DO 2026-007 is a one-off deadline that covers only legacy SEC/HIGC-registered HOAs. HLURB-registered HOAs and condo corporations are excluded, and nobody publishes how many HOAs are affected. About 26,000 HOAs are registered in total, so the affected subset is unknown and probably much smaller. The recurring annual GIS is a simple form, and the audited FS needs a CPA anyway. Volunteer boards have little budget. Annual deadlines and penalties are still unverified.",
+   "searches": 6,
+   "sources": "https://tribune.net.ph/2026/06/15/dhsud-extends-hoa-re-registration-deadline-to-december ; https://tribune.net.ph/2026/01/07/dhsud-taps-hoas-as-community-partners ; https://www.picktime.com/home/hoacddappointment ; https://www.respicio.ph/commentaries/requirements-for-homeowners-association-re-registration-and-masterlist-of-members ; https://www.respicio.ph/commentaries/mandatory-annual-report-requirements-for-homeowners-associations-to-dhsud ; https://assistance.ph/dhsud-homeowners-association-and-community-development-program/ ; https://www.hunted.space/product/qmunidad",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b13"
+ },
+ "challenge:philippines:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Partial weakeners: AMLC filing through GoTRACS is free; foreign bureau-de-change POS products (CurrencyXchanger, FXPlus, PSTForex) already do the transaction logging, though without BSP or AMLC output; most of the MSB count is probably remittance sub-agents and pawnshops on their principal's systems (my inference, not confirmed).",
+   "reason": "I found nothing that kills it. The duty is current: BSP Circular 1206, approved by Monetary Board Resolution 1362 on 28 Nov 2024, consolidated the money service business rules into the M-Regulations, and the BSP keeps revoking registrations for AML failures. No product built for small Philippine money changers turned up. The tools that exist are enterprise AML (Tookitaki), foreign bureau-de-change POS (CurrencyXchanger, FXPlus, PSTForex, which targets Malaysia, Singapore, Indonesia and Thailand) and Mohur's 247 RemitPlus from 2016, with no sign it is still sold. The market is weaker than it looks. Filing through GoTRACS is free. Few small changers will see cash over PHP 500k in a day, so the work is mostly KYC records and STRs. The 7,357 MSB count includes remittance sub-agents, e-money issuers and pawnshops that use their principal's systems. I could not read the text of Circular 1206.",
+   "searches": 8,
+   "sources": "https://verihubs.com/ph/blog/money-service-business-philippines ; https://regalert.today/document/e4dafffc-727f-4b3d-aca2-3ea398766a7c ; https://business.inquirer.net/?p=223234 ; https://business.inquirer.net/?p=250456 ; https://fintechalliance.ph/another-money-changer-gets-license-revoked-by-bsp/ ; https://gulfnews.com/your-money/philippines-bsp-revokes-licenses-of-3-foreign-exchange-and-remittance-agents-1.500201493 ; https://pressreader.com/philippines/the-freeman/20160328/281874412537689 ; https://clearviewsys.screenstepslive.com/s/manuals/m/User_Manual/l/209867-what-is-currencyxchanger ; https://mwm.ai/apps/pst-forex/1357935284 ; https://www.capterra.com/p/153887/FXPlus/ ; https://www.tookitaki.com/compliance-hub/aml-software-philippines",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b13"
+ },
+ "challenge:philippines:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "Possible direct competitor: getnotaryo (www.getnotaryo.app), Cebu-based notarial practice-management SaaS for PH lawyers with register numbering and 'Form 143 reporting' per Stanford CodeX TechIndex; whether it produces the monthly clerk-of-court PDF/email submission is unverified (site unreachable). Accredited ENF providers (Twala, QLegal/NotarioPH, NotarizeIT) cover e-notaries' registers.",
+   "reason": "The duty is real and still in force. I found no deferral or repeal, and no Supreme Court portal for filing the monthly report: it is still done by email. The candidate is less open than claimed, though. The Stanford TechIndex lists getnotaryo (Cebu, active, subscription; site www.getnotaryo.app). It is notarial practice-management software for PH lawyers with register numbering, audit logs and 'Form 143 reporting'. Its site did not resolve, so I could not check whether it builds the clerk-of-court monthly packet. The Supreme Court accredited three e-notarization providers by Aug 2026 (Twala, QLegal/NotarioPH, NotarizeIT), each with an electronic notarial book. The amended rules also bar notaries from charging fees for digitizing, which weakens willingness to pay. Notary count is still not found.",
+   "searches": 9,
+   "sources": "https://techindex.law.stanford.edu/companies/getnotaryo ; https://techindex.law.stanford.edu/tags/practice-management ; https://philstarlife.com/amp/article/113380-how-to-get-documents-e-notarized ; https://coingeek.com/philippines-brings-notarization-online-with-e-notary/ ; https://bitpinas.com/fintech/gorriceta-quanby-notarioph/ ; https://newsbytes.ph/2025/06/12/sc-amends-notarial-rules-to-require-digital-reporting/ ; https://www.gadgetpilipinas.net/2026/08/supreme-court-enotarization/ ; https://foi.gov.ph/requests/the-number-of-lawyers-practicing-notary-public-in-the-philippines-from-year-2000-onwards ; https://www.lawyer-philippines.com/articles/monthly-submission-requirements-for-digital-notarial-entries-in-the-philippines-1",
+   "suggested_score": 4,
+   "verdict": "unclear"
+  },
+  "tag": "w2b13"
+ },
+ "critic:philippines": {
+  "result": {
+   "gaps": [
+    {
+     "category": "Cockpit/DENR-licensed small operators: chainsaw owners, wood processing plants and tree-cutting permits (DENR/CENRO)",
+     "first_search": "chainsaw registration renewal DENR RA 9175 wood processing plant permit monthly report requirements",
+     "why": "The pass covered only lumber dealers (OLDPMS). Chainsaw registration (RA 9175) with annual renewal, wood processing plant permits with monthly/quarterly production reports, and private-land tree-cutting/transport permits fall on many small operators. The pass did not reach them."
+    },
+    {
+     "category": "Small fisherfolk and fishing boat operators: BFAR boat/gear registration (FishR), commercial fishing vessel licences and municipal LGU fisheries licences",
+     "first_search": "BFAR FishR registration renewal commercial fishing vessel license municipal fishing boat registration requirements 2026",
+     "why": "The Philippines has a very large number of small fishing operators. Registration and licence renewal, catch reporting and the vessel monitoring rules under the 2025 fisheries code revisions are a duty on small operators, but the pass covered only export catch certificates."
+    },
+    {
+     "category": "Retail and micro-business tax and invoicing duties on sari-sari stores and micro-enterprises: BIR annual registration fee abolition, Ease of Paying Taxes Act (RA 11976), BMBE registration and mandatory e-invoicing/e-receipt rules for micro sellers",
+     "first_search": "BIR EOPT RA 11976 sari-sari store percentage tax quarterly return books of accounts registration deadline 2026",
+     "why": "RA 11976 (EOPT) and the 2024-2026 invoicing and registration changes hit millions of micro-businesses with periodic filings (VAT, percentage tax, withholding). The pass screened EIS only for vendors and SME software (K01), and BIR filing for sole proprietors (percentage tax, quarterly returns, books of accounts registration) was not covered. Generic accounting is excluded, so a targeted deadline-driven angle is needed."
+    },
+    {
+     "category": "Agricultural and food-safety licensing for small food sellers: FDA LTO for food retailers/importers, DA-BPI plant quarantine and phytosanitary permits, and meat dealer/cold storage permits (NMIS)",
+     "first_search": "NMIS accreditation meat dealer cold storage meat shop requirements renewal; BPI SPSIC sanitary phytosanitary import clearance small importer",
+     "why": "Beyond abattoirs, thousands of small meat shops, meat dealers, cold storage and traders must hold NMIS meat dealer/handler accreditation and an LGU meat inspector. The pass covered only slaughterhouses and FDA for producers. Small importers of food/agri goods need SPS import clearances, which the pass did not cover."
+    },
+    {
+     "category": "Barangay and local government registers kept by small operators: barangay business clearance, sanitary permit (health certificate) and fire safety inspection certificate (BFP FSIC) annual renewals, plus Mayor's permit conditions for market stalls and small restaurants",
+     "first_search": "BFP FSIC annual renewal requirements small establishment sanitary permit health certificate food handlers renewal barangay clearance",
+     "why": "The pass covered LGU business permit renewal only as a multi-branch tracker. BFP FSIC annual inspection (RA 9514 as amended), the sanitary permit and health cards for food handlers are recurring duties on almost every small shop, restaurant and school. They have different dates and agencies and are a distinct bundle from the BPLO renewal."
+    },
+    {
+     "category": "Mining and quarry small-scale operators: small-scale mining (Minahang Bayan) permits, ISAG/quarry permits and gold buyers selling to BSP (RA 11256 Philippine Mining and Gold buyer rules)",
+     "first_search": "small-scale mining permit Minahang Bayan renewal production report gold buyer BSP accredited; quarry permit sand and gravel provincial governor quarterly report",
+     "why": "The pass treated mining only as part of contractors in category 27 and found nothing. Small-scale miners (many in Mindanao and the Cordillera) must hold Small-Scale Mining permits with periodic production reports and sell gold to BSP-accredited buyers. Sand-and-gravel and quarry permits are issued by provincial governors with quarterly reporting. This is a regime with a large number of small operators and an authority, and no screening was done."
+    }
+   ]
+  },
+  "tag": "w2b13"
+ },
+ "discover:A:philippines": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Officers of small subdivision and government-housing HOAs previously registered with SEC/HIGC; HOA federations; barangay-level consultants",
+     "category": "17. Community and religious bodies: associations",
+     "evidence": "https://tribune.net.ph/2026/06/15/dhsud-extends-hoa-re-registration-deadline-to-december ; https://newsinfo.inquirer.net/2246191/dhsud-extends-hoa-re-registration-until-december ; https://www.respicio.ph/commentaries/mandatory-annual-report-requirements-for-homeowners-associations-to-dhsud (commentary, late-annual-report penalty PHP 1,000/year unverified)",
+     "existing": "Competitor search run: Qmunidad (village management for gated communities, listed PHP 999/month per village, no DHSUD compliance claim seen); HOA 360 (foreign app). No DHSUD-endorsed software found.",
+     "known_mark": "new",
+     "name": "HOA re-registration and annual-report kit for small homeowners associations",
+     "score": 5,
+     "status": "promising",
+     "trigger": "DHSUD Department Order 2026-007 extends re-registration deadline to 18 Dec 2026 (RA 9904 Sec 4); non-compliant HOAs automatically suspended (revised IRR Sec 32); annual GIS, audited FS and member master list to DHSUD",
+     "unchecked": "Number of affected HOAs; exact document checklist and whether DHSUD has an online portal; annual report due dates; whether the deadline is a one-off (a recurring annual report adds recurrence); willingness of volunteer boards to pay; DHSUD Aliling order text itself"
+    },
+    {
+     "buyer": "Single-office BSP-registered money changers and small remittance agents (MSBs)",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://business.inquirer.net/?p=223234 ; https://context.ph/2025/05/17/bsp-bars-four-firms-for-unauthorized-money-service-operations/ ; https://verihubs.com/ph/blog/money-service-business-philippines ; 7,357 registered MSBs end-2023 (secondary source); covered-transaction threshold PHP 500,000 per day (from a generic FI source, unverified for MSBs)",
+     "existing": "Competitor search run: 247 RemitPlus by Mohur (2016, unclear if still sold); generic AML vendors (Tookitaki, enterprise). No small-MSB-specific tool found.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Money changer (FXD/MC) BSP and AMLC compliance pack",
+     "score": 4,
+     "status": "promising",
+     "trigger": "BSP MORNBFI Sec 901-N registration; AMLC Secretariat registration within 30 days and covered/suspicious transaction reporting; BSP draft M-Regulations (2024); registrations cancelled for AML violations (4 barred May 2025, 11 revoked since 2024)",
+     "unchecked": "Final status of M-Regulations/BSP Circular 1206 text; AMLC reporting channel and format for small MSBs; how many are standalone single-office changers vs. large remittance firms; existing POS vendors for forex counters; K07 pawnshop pack overlap in design but different buyer"
+    },
+    {
+     "buyer": "Household employers (families) and their kasambahay",
+     "category": "1. Household employers",
+     "evidence": "https://sweldoph.com/guides/kasambahay-law ; https://www.philhealth.gov.ph/downloads/kasambahay/Household_Employment_Unified_Report_Form.pdf ; https://opinion.inquirer.net/56453/questions-about-kasambahay-law",
+     "existing": "Free KURS 3-in-1 forms and agency online payment; sweldoph.com guide (product scope not checked). Consumer-grade buyer; no B2B channel.",
+     "known_id": "K12",
+     "known_mark": "new",
+     "name": "Kasambahay household-employer registry and monthly SSS/PhilHealth/Pag-IBIG remittance helper",
+     "score": 3,
+     "status": "weak",
+     "trigger": "RA 10361: barangay registry of domestic workers, 3-agency registration (KURS unified forms), monthly contributions, separation report within 30 days",
+     "unchecked": "Whether sweldoph or payroll apps already serve households; real enforcement level; willingness to pay; agencies/placement agencies as B2B buyers"
+    },
+    {
+     "buyer": "Junkshops, buy-and-sell shops, secondhand dealers",
+     "category": "2. Scrap-metal dealers (also 3, 5)",
+     "evidence": "https://batasnatin.com/laws/pd-1612 ; https://www2.naga.gov.ph/wp-content/uploads/2021/06/ord2008-056.pdf ; https://selib.upd.edu.ph/etdir/items/010a7191-319b-4b9a-beb7-fc1abdfb86c3/full",
+     "existing": "Competitor search run: no junkshop-specific software found; only consumer recycling apps ScrapCycle.ph and TrashCash",
+     "known_mark": "new",
+     "name": "Junkshop and secondhand-dealer transaction register with PNP clearance and LGU inspection export",
+     "score": 3,
+     "status": "weak",
+     "trigger": "PD 1612 Sec 2: station-commander clearance to sell secondhand articles, daily inventory of acquisitions with seller names and addresses; LGU junkshop ordinances (Naga Ord. 2008-056, Marikina Ord. 057 s.2014) require transaction books open to unannounced inspection",
+     "unchecked": "Actual enforcement intensity; LGU-by-LGU variety; digital readiness and willingness to pay of junkshop owners; whether police accept digital registers; number of shops (Metro Manila study exists)"
+    },
+    {
+     "buyer": "Used-parts dealers and vehicle dismantlers",
+     "category": "5. Used car parts and vehicle dismantlers",
+     "evidence": "https://jur.ph/law/summary/new-anti-carnapping-act-of-2016 ; https://lawyerly.ph/laws/view/l11249",
+     "existing": "None seen; no LTO accreditation rule for dismantlers found",
+     "known_mark": "new",
+     "name": "Used auto parts and dismantler register with monthly LTO stock report",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "RA 10883 New Anti-Carnapping Act: stock records, monthly reports to LTO, sales/transfers registered within 20 days (per summary sites only)",
+     "unchecked": "Official RA 10883 text and IRR; whether the monthly report applies to parts sellers or only vehicle importers/sellers; LTMS portal channel; competitor search not run"
+    },
+    {
+     "buyer": "Jewelry shops, gold buyers, DPMS",
+     "category": "4. Gold and jewellery buyers",
+     "evidence": "https://foi.gov.ph/requests/rolyn-jewelry-and-repair-shop ; https://www.respicio.ph/commentaries/amlc-registration-renewal-guidelines-philippines",
+     "existing": "Competitor search run: none for Philippine DPMS; generic AML vendors only; AMLC registration is free",
+     "known_id": "K07",
+     "known_mark": "new",
+     "name": "Jewelry and gold dealer AMLC registration and reporting kit",
+     "score": 3,
+     "status": "weak",
+     "trigger": "AMLA covered persons: AMLC online registration, active certificate renewal, transaction reports (threshold reported as PHP 1M, unverified)",
+     "unchecked": "Whether most shops fall below the threshold; any 2025-2026 AMLC enforcement or deadline for DPMS; official AMLC guidance"
+    },
+    {
+     "buyer": "Small SEC-registered non-stock corporations (associations, foundations, religious bodies, clubs)",
+     "category": "17. Community and religious bodies",
+     "evidence": "https://www.grantthornton.com.ph/insights/articles-and-updates1/tax-notes/sec-mc-no-9-2026-guidelines-on-the-filing-of-afs-and-gis/ ; https://www.pwc.com/ph/en/tax/tax-publications/taxwise-or-otherwise/2026/keeping-up-with-sec-updates.html",
+     "existing": "Law firms and corporate secretarial services (Aureada etc.); competitor product search not run",
+     "known_mark": "new",
+     "name": "Small non-stock corporation compliance (SEC GIS, AFS, HARBOR beneficial ownership) for associations, foundations and churches",
+     "score": 3,
+     "status": "weak",
+     "trigger": "SEC MC 9 s.2026 AFS/GIS filing (GIS 30 days after annual members' meeting; audit if assets or liabilities above PHP 3M); HARBOR beneficial-ownership disclosure from 30 Jan 2026 with 7-day change reporting",
+     "unchecked": "Software competitors; NPO-specific rules (PCNC, BIR donee status); whether eFAST/HARBOR is hard enough for small bodies to pay"
+    },
+    {
+     "buyer": "Small septic/desludging operators accredited by city or municipal ENRO",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://www.philstar.com/the-freeman/balita/2026/07/11/2541418/unregistered-septic-waste-hauler-caught ; https://www.sunstar.com.ph/more-articles/septic-haulers-need-accreditation",
+     "existing": "None seen; competitor search not run",
+     "known_mark": "new",
+     "name": "Septage hauler manifest and monthly report tool for LGU-accredited desludgers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "LGU septage ordinances (Cebu City Sec 17): manifest receipt authenticated by barangay, carried in vehicle, verified at treatment facility; monthly report to ENRO; first-offender penalty PHP 14,000 in Jul 2026",
+     "unchecked": "How many LGUs have manifests; only 12 accredited haulers in Cebu City suggests tiny market per LGU; national DENR/DOH rule; LGU treatment facility procurement as buyer"
+    },
+    {
+     "buyer": "Tricycle operators and TODAs",
+     "category": "18. Transport operators",
+     "evidence": "https://www.sunstar.com.ph/davao/tricycles-permit-validity-extension-already-in-effect ; https://qccouncil.quezoncity.gov.ph/tricycle-franchising-board",
+     "existing": "None seen; LGU portals unknown",
+     "known_id": "K17",
+     "known_mark": "new",
+     "name": "Tricycle operator/TODA franchise renewal tracker",
+     "score": 3,
+     "status": "weak",
+     "trigger": "LGU MTOP franchise renewal (validity 1-3 years by LGU), barangay clearance, TODA certification, vehicle inspection",
+     "unchecked": "LGU digitisation; low willingness to pay; fragmented by LGU"
+    },
+    {
+     "buyer": "Small factories, ice plants, laundries, food plants with boilers",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://jur.ph/law/summary/amended-rule-1162-02-occupational-safety-boiler-standards",
+     "existing": "None seen; low software need as DOLE sends notices",
+     "known_mark": "new",
+     "name": "Boiler and pressure-vessel permit tracker for small plants",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DOLE OSHS Rule 1162 / DO 74-05 boiler permit to operate; inspection notice 30 days before permit expiry; hydrostatic test 12-18 months",
+     "unchecked": "Elevator and PME Code permits (local building officials); interval conflict 12 vs 18 months"
+    },
+    {
+     "buyer": "Agri-input retail dealers",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://context.ph/2026/01/18/fpa-bans-online-sale-of-fertilizers-pesticides/ ; https://fpa.da.gov.ph/resources/downloadable-forms/ ; https://fpa.da.gov.ph/wp-content/uploads/2026/04/Annual-Regulatory-Plan_FPA_FY-2026-1-1.pdf",
+     "existing": "None seen; competitor search not run",
+     "known_id": "K06",
+     "known_mark": "new",
+     "name": "FPA pesticide/fertiliser dealer licence and record kit",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "FPA dealer licence renewals; FPA MC No.1 s.2026 online-sales ban; proposed online-selling rules (Annual Regulatory Plan FY2026) with traceability",
+     "unchecked": "Whether dealers file periodic sales/stock reports; licence term; traceability rule text; K06 covers RSAS storage operators, a different duty"
+    },
+    {
+     "buyer": "Small DMW-licensed overseas recruitment agencies",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.sunstar.com.ph/manila/local-news/dmw-bares-20-mortal-sins-for-recruiters ; https://www.respicio.ph/commentaries/how-to-start-a-recruitment-agency-in-the-philippines-dmwpoea-licensing-requirements",
+     "existing": "Not checked; agency management systems likely exist",
+     "known_id": "K02",
+     "known_mark": "new",
+     "name": "DMW recruitment agency compliance (audited FS, escrow, periodic job-order/deployment reports)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "DMW licence renewal; escrow raised to PHP 1.5M; licence validity reportedly extended to 6 years; periodic reports",
+     "unchecked": "Report frequency and channel; incumbent vendors; agency count"
+    },
+    {
+     "buyer": "Roughly 1,700 community-based water service providers",
+     "category": "13. Small water systems",
+     "evidence": "https://faolex.fao.org/docs/pdf/phi208910.pdf ; https://pidswebs.pids.gov.ph/CDN/PUBLICATIONS/pidspn2103.pdf ; https://gwpo-gwp.org/news/small-water-service-providers-in-the-philippines-now-officially-recognised/",
+     "existing": "Not checked",
+     "known_id": "K08",
+     "known_mark": "new",
+     "name": "Barangay/rural waterworks association (BAWASA/RWSA) reporting and tariff kit",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "NWRB Economic Regulatory Framework and tariff methodology for CPC applicants; WSP accreditation of technical service providers",
+     "unchecked": "Actual annual report duties to NWRB or LWUA; software vendors; buyer payment capacity"
+    },
+    {
+     "buyer": "Accredited driving schools",
+     "category": "20. Small licensed premises with inspections: driving schools",
+     "evidence": "https://www.topgear.com.ph/news/industry-news/lto-suspends-12-driving-schools-2026-a6938-20260423",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "LTO driving school accreditation and CDE reporting",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "LTO Central Accreditation Committee; MC VDM-2023-2460 standards; 12 schools had accreditation revoked in April 2026",
+     "unchecked": "Required records/reports, number of schools, LTMS integration, competitors"
+    },
+    {
+     "buyer": "Vet drug stores, agri-vet supply shops, clinics",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://pvma.com.ph/administrative-orders ; https://caraga.da.gov.ph/wp-content/uploads/Services/regulatory/regulatory-1.pdf",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Veterinary drug outlet record and licence kit",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "BAI Licence to Operate; PRC-registered vet and pharmacist; generic dispensing and records; erroneous-prescription reporting",
+     "unchecked": "Current BAI rules and periodic reports"
+    },
+    {
+     "buyer": "Micro and small food manufacturers",
+     "category": "20. Small licensed premises: small food producers",
+     "evidence": "https://www.tripleiconsulting.com/fda-lto-application-2025-updates-how-apply-renew/",
+     "existing": "Consultants (Triple i); low frequency (3-6 year cycle)",
+     "known_mark": "new",
+     "name": "FDA LTO renewal tracker for micro/small food producers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "FDA AO 2024-0015: initial LTO 3 years, renewal 6 years for micro/small; eServices portal; CPR linkage",
+     "unchecked": "FDA Circular 2026-0002 e-registration effects; renewal window"
+    },
+    {
+     "buyer": "Private day care centres and nurseries",
+     "category": "20. Small licensed premises: childminders and nurseries",
+     "evidence": "https://eccdcouncil.gov.ph/wp-content/uploads/2024/10/s.2021-ECCD-Council-Advisory-07.pdf ; https://caraga.dswd.gov.ph/2022/06/dswd-accredits-24-cdcs-in-talacogon-town/",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Day care / ECCD centre accreditation tracker",
+     "score": 2,
+     "status": "weak",
+     "trigger": "DSWD or ECCD Council accreditation (3-5 year certificates); rules conflicting after RA 10410",
+     "unchecked": "Current rules; mostly LGU-run centres"
+    },
+    {
+     "buyer": "LGU slaughterhouses and small private meat establishments",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://nmis.gov.ph/85-services-cat ; https://alpha.pna.gov.ph/articles/1194780",
+     "existing": "Not checked; mostly government buyers",
+     "known_id": "K09",
+     "known_mark": "known",
+     "name": "Small abattoir / NMIS accreditation file for LGU and private slaughterhouses",
+     "score": 2,
+     "status": "weak",
+     "trigger": "RA 9296/RA 10536 NMIS licence (AA/A/AAA grading), local meat inspection",
+     "unchecked": "Dealer-level obligations"
+    },
+    {
+     "buyer": "Licensed well drillers and groundwater permit holders",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://ptvnews.ph/?p=110990 ; https://denr.gov.ph/wp-content/uploads/2023/05/NWRB.pdf",
+     "existing": "None seen",
+     "known_mark": "new",
+     "name": "Well driller and water permit file",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Water Code PD 1067 permit to drill / water permit via NWRB",
+     "unchecked": "Annual reporting duties; number of drillers"
+    },
+    {
+     "buyer": "Muslim-market food merchants and halal certifying bodies",
+     "category": "17. Community and religious bodies: halal supervision",
+     "evidence": "https://context.ph/2026/09/12/grab-tightens-halal-food-verification-in-davao-pilot/ ; https://tribune.net.ph/2026/03/14/ncmf-flags-halal-meats-with-pork-traces",
+     "existing": "Not checked",
+     "known_mark": "new",
+     "name": "Halal certification endorsement tracker for food merchants",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Voluntary NCMF-accredited certification; Grab Davao pilot (Sep 2026) requires NCMF endorsement for halal tag; NCMF Mar 2026 advisory on pork traces",
+     "unchecked": "Whether certification renewals and audits create recurring duty; accreditation authority conflict (NCMF vs DTI-PAB); scale"
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "RA 10361 Batas Kasambahay: employer must register kasambahay in barangay registry, enrol in SSS/PhilHealth/Pag-IBIG (KURS 3-in-1 unified forms exist), remit monthly, report separation within 30 days (PhilHealth). Existing: free KURS and household unified forms; sweldoph.com guide. Candidate C02 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "PD 1612 Anti-Fencing Law requires police station commander clearance/permit to sell secondhand articles, with daily inventory of acquisitions and seller names; LGU junkshop ordinances (Naga 2008-056, Marikina 057 s.2014) add transaction books and surprise inspection. No junkshop bookkeeping software found (only consumer recycling apps ScrapCycle.ph, TrashCash). Candidate C03.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "Secondhand dealers covered by PD 1612 clearance and daily register (see C03). Pawnshops already K07 (BSP/AMLC pack), nothing new beyond K07.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Jewelry dealers and DPMS are AMLA covered persons, register with AMLC online (PCOR/COR), reporting tied to transactions over PHP 1M per secondary sources (unverified); no 2026 registration drive found. Candidate C06 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "RA 10883 (2016): LTO registry, sales/transfers of vehicles, engines, chassis registered within 20 days, importers/sellers keep stock records and report monthly to LTO (per summary site, not official text); no accreditation rule or IRR text found. Candidate C04 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "nothing new beyond K09 (no search spent, per contract)",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "NMIS accreditation under RA 9296/RA 10536 for slaughterhouses (AA/A/AAA grades, 3-year licence examples), LGU slaughterhouses are the main operators (public buyers). No dealer-level NMIS registration found. Candidate C16 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "No search spent; deprioritised for budget as no regulatory hook was suspected.",
+     "status": "not_reached"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "BAI Licence to Operate for veterinary drug outlets; 1990 DOH-DA joint AO requires PRC-registered vet and pharmacist, generic dispensing and record-keeping, reporting of erroneous prescriptions. Current checklist and any periodic reports not confirmed. Candidate C14 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Water Code PD 1067: NWRB permit to drill and water permit, licensed well drillers must register with NWRB; NWRB granted 463 permits to drill (2020 report); no annual reporting rule found. Candidate C15 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "LGU septage ordinances (Cebu City Septage Management Ordinance Sec. 17): accreditation, manifest receipt authenticated by barangay, monthly report to city ENRO, 5-year record retention in contracts; Jul 2026 enforcement: only 12 accredited haulers vs 6 unregistered in Cebu City. National DENR/DOH rule not found. Candidate C07 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "DOLE OSHS Rule 1160/1162 and DO 74-05: boiler permit to operate, annual inspection with DOLE notice 30 days before expiry; elevators/PME Code permits unconfirmed. Inspection is physical; low software hook. Candidate C08 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "About 1,700 community-based providers (RWSA/BWSA/BAWASA) among ~3,000 utilities outside Metro Manila; NWRB Economic Regulatory Framework/tariff methodology applies to CPC applicants; LWUA vs NWRB oversight conflicting; annual reporting not confirmed. Candidate C13 (unverified); refilling stations already K08.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "FPA licensing for dealers (renewal checklists on fpa.da.gov.ph); FPA MC No.1 s.2026 banned online selling; proposed online-selling rules in FPA Annual Regulatory Plan FY2026. No Philippine sales-report duty confirmed. Candidate C12 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "DMW-licensed recruitment agencies: audited FS, escrow raised to PHP 1.5M, licence validity reportedly 6 years (SunStar, date unconfirmed), welfare desk officer, periodic job-order/deployment reports. Domestic contractors under DO 174 already K02. Candidate C11 (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "PD 856 Sanitation Code chapter XXI, DOH operational clearance, HLURB/DHSUD memorial park rules, LGU ordinances; no recurring register/report duty found. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "Strong lead: DHSUD Dept Order 2026-007 extends HOA re-registration to 18 Dec 2026 (RA 9904 Sec 4, revised IRR Sec 32 automatic suspension) for SEC/HIGC-registered subdivision HOAs; annual report (GIS, AFS, member master list) to DHSUD. SEC: HARBOR beneficial-ownership disclosure (from 30 Jan 2026, changes within 7 days) and GIS/AFS for non-stock corporations (audit if assets or liabilities above PHP 3M, MC 9 s.2026). Halal: voluntary, NCMF accredited HCBs, Grab Davao pilot (Sep 2026) requires NCMF endorsement. Candidates C01, C09, C10.",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Tricycle MTOP franchises are LGU-by-LGU with different validity (QC 3 yrs, Davao 2 yrs since Feb 2025, Ilagan annual); requirements TODA certification, barangay clearance, inspection report. Cooperatives already K17 (rejected). LTFRB/trucking not searched. Candidate C05 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Money changers/MSBs: BSP registration under MORNBFI Sec 901-N, separate AMLC registration within 30 days, covered/suspicious transaction reports; 7,357 MSBs end-2023; 2024 draft M-Regulations (one blog says BSP Circular 1206 adopted it, unconfirmed); 2025 enforcement (4 unregistered changers barred May 2025; 11 licences revoked since 2024). Only vendor seen: 247 RemitPlus (2016) and generic AML vendors (Tookitaki). Candidate C05b/C17 listed as money changers. Street vendors not searched.",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Driving schools: LTO revoked 12 schools' accreditation in Apr 2026 under MC VDM-2023-2460 (C18). Day care/ECCD: DSWD vs ECCD Council accreditation rules conflicting, no deadline found (C19). Food producers: FDA AO 2024-0015, LTO validity 3 yrs initial / 6 yrs renewal for micro and small, eServices portal, consultants like Triple i (C20). Tattoo and hunting not applicable/not searched.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "Batas Kasambahay registration SSS PhilHealth Pag-IBIG employer kasambahay 2026 deadline",
+    "junkshop scrap dealers registration requirements Philippines PNP DENR Anti-Fencing Law secondhand dealers",
+    "AMLC dealers in precious metals and stones jewelry shops registration covered person goldsmith Philippines 2025",
+    "LTO motor vehicle junkshop dismantler accreditation used auto parts dealers Anti-Carnapping Act RA 10883 registration",
+    "BSP foreign exchange dealers money changers registration reporting requirements circular 2025 FXD/MC",
+    "Fertilizer and Pesticide Authority license dealer applicator renewal reports requirement 2025",
+    "NMIS meat dealer registration local meat inspection certificate butcher accredited slaughterhouse requirements Philippines 2025",
+    "NWRB water permit well driller license groundwater extraction annual reporting Philippines",
+    "septage hauler desludging accreditation DENR EMB septic tank cleaning Philippines manifest requirement",
+    "DOLE boiler pressure vessel elevator permit to operate annual inspection OSH standards Philippines",
+    "DHSUD homeowners association annual report registration compliance deadline 2025 HOA",
+    "DMW licensed recruitment agency requirements annual report renewal 2025 private recruitment agency POEA",
+    "HOA re-registration DHSUD software app homeowners association management system Philippines compliance",
+    "BAI veterinary drug outlet license veterinary clinic registration requirements Philippines",
+    "tricycle franchise MTOP renewal LGU TODA franchising board Philippines digital system 2026",
+    "SEC non-stock corporation NPO annual reporting GIS AFS beneficial ownership 2026 deadline",
+    "NCMF halal certification accredited halal certifying bodies Philippines requirements 2025",
+    "LTO accredited driving school requirements renewal accreditation reports Philippines 2025",
+    "DSWD accreditation child development centers day care licensing RA 10410",
+    "funeral homes memorial parks cemetery regulations Philippines DOH permit LGU"
+   ],
+   "searches": 27
+  },
+  "tag": "w2b13"
+ },
+ "discover:B:philippines": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Officers and volunteer boards of subdivision homeowners associations, plus the property managers and accountants who serve them. The number of HOAs is not in the sources.",
+     "category": "31. Homeowners associations and condominium corporations (DHSUD, RA 9904)",
+     "evidence": "https://tribune.net.ph/2026/06/15/dhsud-extends-hoa-re-registration-deadline-to-december (fetched); https://newsinfo.inquirer.net/2246191/dhsud-extends-hoa-re-registration-until-december; https://www.respicio.ph/commentaries/requirements-for-homeowners-association-re-registration-and-masterlist-of-members (the member masterlist takes the most time and care); https://www.respicio.ph/commentaries/mandatory-annual-report-requirements-for-homeowners-associations-to-dhsud",
+     "existing": "An English search for HOA management software, apps and dues collection found no HOA-specific product or DHSUD-accredited list. Only legal commentary and news appeared. Tagalog queries were not run.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No known idea covers HOAs.",
+     "name": "HOA re-registration and annual-report workspace for subdivision homeowners associations (DHSUD)",
+     "score": 5,
+     "status": "promising",
+     "trigger": "DHSUD Department Order 2026-007 extended HOA re-registration to 18 Dec 2026. Missing it means automatic suspension under Section 32 of the revised IRR: members lose RA 9904 rights, cannot get DHSUD help and cannot file at HSAC. Ongoing duties are an annual GIS, audited financial statements and updated membership lists to DHSUD. Registration can be revoked for failure to report.",
+     "unchecked": "Number of HOAs (and how many have already re-registered); whether re-registration is paper or online; whether the annual report has a formal deadline; whether condo corporations carry a similar duty; Tagalog and Facebook-group competitors; willingness of volunteer boards to pay; whether the Dec 2026 deadline will be extended again."
+    },
+    {
+     "buyer": "Individual lawyers commissioned as notaries and small law offices. The total number of notaries was not found.",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.alburolaw.com/new-rules-on-notarial-practice-oca-circular-197-2025/ (fetched); https://tribune.net.ph/2025/06/10/sc-amends-notarial-rules; https://newsbytes.ph/2025/06/12/sc-amends-notarial-rules-to-require-digital-reporting/; https://www.lawyer-philippines.com/articles/monthly-submission-requirements-for-digital-notarial-entries-in-the-philippines-1",
+     "existing": "Competitor search found NotarioPH (Gorriceta/Quanby/QLegal), an e-notarization platform with a Digital Notarial Register and Reporting component, per its launch article (https://bitpinas.com/fintech/gorriceta-quanby-notarioph/). Availability and pricing are unverified. IBP eNotary (enotary.ibp.ph) matches clients to e-notaries and does not help notaries with reporting. The A.M. 24-10-14-SC e-notarization rules require accredited providers. No simple tool for ordinary (paper) notaries who only need the monthly report was found.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No known idea covers notaries.",
+     "name": "Digital monthly notarial report and register tool for notaries public",
+     "score": 5,
+     "status": "promising",
+     "trigger": "The 2025 amendments to the 2004 Rules on Notarial Practice (SC En Banc resolution of 4 Mar 2025, published 6 Jun 2025, reported effective about 21 Jun 2025) require monthly submission within the first 10 days of the next month. The submission is a certified PDF of each month's entries plus duplicate originals, emailed to the clerk of court from the notary's registered email. Rules: a separate PDF per instrument with a prescribed file name, direct attachments only (no cloud links, no ZIP), batches with 'batch x of y' subjects, a numbered inventory in the body, and a nil statement if no entries. Each signatory must also get an electronic copy within 5 days. Penalties are non-renewal, disqualification or revocation.",
+     "unchecked": "Number of active notaries; whether NotarioPH is live and what it costs; whether local clerks of court add their own rules; whether the e-notarization transition makes a standalone tool redundant; the exact effective date and A.M. number (sources disagree on 2024 vs 2025 for the resolution)."
+    },
+    {
+     "buyer": "Small credit, consumer, multi-purpose and marketing co-operatives, and the part-time managers and bookkeepers who run them. Micro co-ops with assets under P3M are reportedly exempt from the report list.",
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "evidence": "https://cda.gov.ph/wp-content/uploads/2025/03/MC-2025-02-with-annexes.pdf; https://www.grantthornton.com.ph/technical-alerts/accounting-alert/2026/cdas-extension-of-the-deadline-for-the-submission-of-fy-2025-required-reports-and-coc-validity-for-cy-2025/ (fetched, confirms MC 2026-07 and the 31 May deadline); https://cda.gov.ph/region-3/reminder-letter-on-the-submission-of-mandatory-reports-for-fy-2025/; https://www.divinalaw.com/wp-content/uploads/2026/09/BIR-06-Revenue-Memorandum-Circular-No.-71-2026.pdf",
+     "existing": "Competitor search was NOT run: the budget was spent, and a DuckDuckGo fetch was blocked by a bot check. Co-op accountants and core-banking vendors likely compete, but none were identified.",
+     "known_id": "K17",
+     "known_mark": "new",
+     "known_note": "K17 covers transport co-ops only. This is a different buyer group, with the same core duty (CDA annual reports), so the K17 rejection logic may carry over.",
+     "name": "CDA mandatory-report and Certificate of Compliance pack for small non-transport co-operatives",
+     "score": 4,
+     "status": "promising",
+     "trigger": "CDA MC 2025-02 requires FY mandatory reports within 120 days of year end (Apr 30). The Certificate of Compliance is needed for tax exemption (BIR RMC 71-2026 refers to it) and for good standing. Late filing is fined P100 a day and can end in revocation. CDA MC 2026-07 extended FY2025 reports to 31 May 2026 citing EO 110 s.2026. Reports go through CAIS, with staggered access from 1 May 2026. Co-ops with a Certificate of Tax Exemption also file an Annual Tax Incentives Report and an Annual Benefits Report.",
+     "unchecked": "Competitor search; number of non-micro co-ops; what reports CAIS actually requires and whether CAIS makes the filing easy; who prepares the reports now; K17 rejected the transport-co-op version because co-op accountants handle the annual reports, and the same objection may apply here."
+    },
+    {
+     "buyer": "Small private clinics, standalone labs, dialysis clinics and other non-hospital facilities accredited by PhilHealth.",
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "evidence": "https://www.philhealth.gov.ph/advisories/2025/PA2025-0055.pdf; https://www.philhealth.gov.ph/advisories/2026/PA2026-0006.pdf; https://www.philhealth.gov.ph/circulars/2025/PC2025-0019.pdf",
+     "existing": "Competitor search NOT run (budget spent). Related known ideas: K11 (YAKAP) was killed by SeriousMD and mWell, and K10 (HMO LOA) by SeriousMD. Whether any of them also handle the accreditation renewal is unchecked.",
+     "known_id": "K03",
+     "known_mark": "new",
+     "known_note": "Near K03 (hospital RTH rework), K10 and K11, but a different duty (accreditation renewal) and a different buyer (non-hospital facilities).",
+     "name": "PhilHealth annual accreditation renewal pack for small clinics, labs and dialysis centres",
+     "score": 3,
+     "status": "weak",
+     "trigger": "The CY2026 renewal window ran 1 Oct to 29 Dec 2025. It needed a Provider Data Record, a notarised Performance Commitment, proof of the accreditation fee, an updated DOH/FDA licence and the GIS. It was extended to 14 Jan 2026 for most facilities and to 30 Jan for YAKAP and GAMOT providers, and missing the window means re-accreditation with a gap in validity. The CY2027 window is likely to open around Oct 2026, which is unverified.",
+     "unchecked": "Competitor search; whether renewal is already an online form with no real pain; the CY2027 dates and rules; how many non-hospital facilities there are; whether the renewal is a once-a-year task too thin to pay for."
+    },
+    {
+     "buyer": "Independent drugstores and pharmacists who dispense regulated and prohibited drugs.",
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "evidence": "https://alpha.pna.gov.ph/articles/1229197; https://jur.ph/law/summary/records-reports-pharmacists-dangerous-drugs; https://ddb.gov.ph/images/IDADIN_Forms/Form%204-06.pdf (supplier-side form); https://www.storehub.com/ph/blog/pharmacy-pos-system-philippines",
+     "existing": "Competitor search run in English: StoreHub is BIR-accredited retail POS only and does not manage prescriptions. HashMicro targets medium to large pharmacies. No product that handles the PDEA logbook and the quarterly filing for single drugstores was found. Tagalog query not run.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No known idea covers pharmacies.",
+     "name": "Dangerous-drug logbook and quarterly records for single-store drugstores",
+     "score": 3,
+     "status": "weak",
+     "trigger": "PDEA licence for drugstores (online Regulatory Compliance System), DDB Regulation 1 s.2014 on display and sale of regulated drugs, logbook entries per dispensed unit, and quarterly records sent via the City or Municipal Health Officer under DDB Reg. 2 of 1973 (status unconfirmed).",
+     "unchecked": "Whether the current reporting duty for retail drugstores exists at all; the actual PDEA or FDA logbook format; local pharmacy software competitors; number of independent drugstores."
+    },
+    {
+     "buyer": "Licensed real estate brokers and small developers.",
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "evidence": "https://www.bworldonline.com/?p=374012; https://www.respicio.ph/commentaries/amlc-registration-renewal-guidelines-philippines; https://housal.com/legal/laws/ra-9160-anti-money-laundering",
+     "existing": "Not searched. The only offer seen was commentary, with no vendor found.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No known idea covers brokers.",
+     "name": "AMLC registration and transaction-report helper for small real estate brokers and developers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "RA 11521 made brokers and developers covered persons. They must register with AMLC (free, online) and file covered transaction reports (cash above P7.5M) and suspicious transaction reports. Non-registration is an administrative offence. Commentary says the COR must be linked in goAML and lasts 24 months (both unconfirmed).",
+     "unchecked": "Current AMLC rules; how often brokers actually file; competitor products; the 24-month COR renewal; frequency is probably low, since reports arise only on large cash deals."
+    },
+    {
+     "buyer": "Airbnb-type hosts, homestays, pension houses and small inns.",
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "evidence": "https://www.magzter.com/es/stories/newspaper/The-Freeman/DOT-SEES-RISE-IN-ACCREDITED-AIRBNBS-IN-CEBU; https://jur.ph/law/summary/hotel-code-1987-guidelines-and-regulations",
+     "existing": "Not searched. Property-management tools for hosts exist, but none was checked.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No known idea covers lodging.",
+     "name": "DOT accreditation and guest-register kit for short-term rental hosts and small guest houses",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "A June 2026 Freeman report says DOT is accrediting Airbnb operators under a national directive to bring short-term rentals under formal regulation (Mabuhay Accommodation class). The Hotel Code 1987 guest register fields are name, ID, address, stay, nationality and signature, with a separate visitors' book. Whether the Code applies to rentals is unconfirmed.",
+     "unchecked": "Whether accreditation is mandatory or voluntary; any renewal cycle; LGU tourism taxes; competitor products; the DOT directive text."
+    },
+    {
+     "buyer": "Operators of warehouses and cold storage for agricultural and fishery commodities.",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://newswav.com/article/da-sets-dec-31-deadline-for-warehouse-registration-A2609_f4ShQX",
+     "existing": "Not re-checked.",
+     "known_id": "K06",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as K06. New evidence of a dated deadline, 31 Dec 2026, which is a useful trigger for K06.",
+     "name": "RSAS storage registration deadline for agricultural warehouse operators (RA 12022)",
+     "score": 0,
+     "status": "promising",
+     "trigger": "Manila Times (30 Sep 2026) reports a DA deadline of 31 Dec 2026 for storage operators to register in RSAS.",
+     "unchecked": "None. Not re-checked, per the contract."
+    },
+    {
+     "buyer": "Registered sugar, molasses and muscovado traders; coconut and oil-palm product traders.",
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "evidence": "https://dev.lawyerly.ph/laws/45594; https://dev.lawyerly.ph/laws/56800; https://www.sra.gov.ph/view_file/sugar_trader_guidelines/uCj6hFlpu672act",
+     "existing": "Not searched.",
+     "known_id": "K06",
+     "known_mark": "new",
+     "known_note": "Adjacent to K06 (different agency, different commodity).",
+     "name": "SRA sugar trader registration and annual trading report; PCA coconut trader accreditation",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "SRA orders of 2005 and 2009 set crop-year registration and an annual report of trading activities. PCA AO 02 s.2010 sets trader registration, and DTI said accreditation is valid for one year. All are old and may be superseded.",
+     "unchecked": "Current rules; trader counts; whether any report is filed more than once a year."
+    },
+    {
+     "buyer": "Small hazardous waste generators, such as clinics, auto repair shops and printers, and small transporters.",
+     "category": "35. Hazardous waste generators and transporters (DENR EMB, DAO 2013-22)",
+     "evidence": "https://apidb.denr.gov.ph/infores/uploads/DAO-2013-22.pdf; https://www.env.go.jp/en/recycle/asian_net/Annual_Workshops/2024_PDF/Session3/S3_Philippines.pdf",
+     "existing": "Not searched.",
+     "known_id": "K05",
+     "known_mark": "new",
+     "known_note": "Adjacent to K05 (environment compliance); a different duty and buyer.",
+     "name": "EMB hazardous waste manifest and registration tool for small generators (clinics, auto shops)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "DAO 2013-22 requires registration with EMB, a permit to transport and a manifest for each movement. An online hazardous waste system exists for WEEE. The DENR-DOH JAO 2005-02 covers health care waste.",
+     "unchecked": "Small-generator thresholds; filing frequency; whether the manifest is paper or online; competitors; overlap with K05 (PCO multi-client SMR workspace)."
+    },
+    {
+     "buyer": "Small employers and the safety officers or part-time OH nurses they use.",
+     "category": "32. OSH reporting for small establishments (RA 11058, DO 252-25, DOLE)",
+     "evidence": "https://open-exam-prep.com/study-guides/ph-dole-cosh-so2/ch7/wair-aedr-reporting; https://batasnatin.com/dictionary/workplace-safety-dole-compliance",
+     "existing": "Not searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No known idea covers OSH.",
+     "name": "OSH report tracker (AEDR, AMR, WAIR) for small establishments under DO 252-25",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "The revised IRR DO 252-25 (effective 16 May 2025) governs. Study-guide sources give AEDR by about Jan 30, AMR by about Mar 31 and WAIR by about the 20th of the next month, with conflicting fines (P30,000 per violation vs up to P100,000 a day).",
+     "unchecked": "Official text; small-enterprise exemptions; whether DOLE has an online portal; competitors; the sources are not authoritative."
+    },
+    {
+     "buyer": "Lumber dealers and small wood processors.",
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "evidence": "https://timbertradeportal.com/en/philippines/173/key-documents; https://o-ldpms.denr.gov.ph",
+     "existing": "DENR already runs the online OLDPMS.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No known idea covers timber.",
+     "name": "Lumber dealer (OLDPMS) registration and records for small lumber yards",
+     "score": 2,
+     "status": "weak",
+     "trigger": "RA 1239 and FAO 26: a lumber dealer certificate valid for 3 years through the Online Lumber Dealer Registration and Monitoring System. Wood processing plant permits fall under DAO 2021-05. No monthly report was confirmed.",
+     "unchecked": "Whether dealers file recurring reports; the number of dealers; EU or Japan timber due-diligence pressure."
+    },
+    {
+     "buyer": "Small fish processors, canneries' suppliers and exporters shipping to the EU.",
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "evidence": "https://caraga.bfar.da.gov.ph/wp-content/uploads/2022/10/FAO-No.-238-s.-2012.pdf; https://fiskerforum.com/manila-meets-eu-requirements-for-fishery-exports/",
+     "existing": "Not searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No known idea covers fish exports.",
+     "name": "BFAR catch certificate and COLD paperwork for small fish exporters and processors",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "FAO 238 s.2012 and AC 238-1 of 2013: no EU export without a BFAR-validated catch certificate; vessels file a COLD on landing; the penalty is delisting. A draft order would extend this to Japan, with adoption unconfirmed. FAO 275 (Dec 2025) is an import rule.",
+     "unchecked": "Whether the system is paper or digital; the number of small exporters; any 2026 change; competitors."
+    },
+    {
+     "buyer": "Existing small lending and financing companies that want to launch or keep online lending platforms.",
+     "category": "33. Lending and financing companies (SEC)",
+     "evidence": "https://syciplaw.com/sec-lifts-five-year-moratorium-on-online-lending-platforms-and-issues-new-regulatory-framework/; https://newsbytes.ph/2026/07/10/sec-opens-door-to-new-lending-apps-but-under-tighter-rules/; https://context.ph/2026/06/10/sec-opens-second-comment-period-for-revised-online-lending-rules/",
+     "existing": "Not searched. Loan management software is a crowded generic category.",
+     "known_id": "K07",
+     "known_mark": "new",
+     "known_note": "Same regulator type as K07 (BSP/AMLC for pawnshops) but a different buyer group.",
+     "name": "Online lending platform registration and compliance for small lending and financing companies (SEC MC 20 s.2026)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "MC 20 s.2026 (issued 7 Jul 2026) lifts the moratorium from 1 Aug 2026. It caps companies at 5 platforms, requires explicit borrower confirmation before disbursement and proposes a single certificate of authority. The June draft proposed capital of P15M (financing) and P5M (lending) for new firms and scaled capital for existing firms by platform count (unconfirmed against the final text).",
+     "unchecked": "Final capital figures; recurring report duties; whether the buyers are quiet small firms or fintech start-ups; competitors."
+    },
+    {
+     "buyer": "Vape shops and convenience stores that sell vapes.",
+     "category": "34. Vape and novel tobacco retailers (RA 11900, DTI OSMV)",
+     "evidence": "https://dti.gov.ph/news/dti-strengthens-enforcement-vape-law-reminds-traders-comply; https://www.sunstar.com.ph/davao/dti-intensifies-action-vs-illegal-vape-sales; https://newsbytes.ph/2025/10/09/dti-moves-to-ban-vape-open-pods-and-uncertified-e-liquids/",
+     "existing": "Not searched.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "No known idea covers vape retailers.",
+     "name": "Vape and novel tobacco retailer compliance (RA 11900, DTI OSMV)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Retailers may only sell products with a DTI PS licence or ICC mark. A market-clearing process began in Jan 2025, and DTI is moving to ban open pods and uncertified e-liquids. Retailers receive notices of violation and show-cause orders with 48 hours to reply. Fines are P100,000, P200,000 and P400,000.",
+     "unchecked": "There is no recurring register or report for retailers, so this is an enforcement risk and not a periodic duty."
+    },
+    {
+     "buyer": "SMEs with several branches in different cities and municipalities.",
+     "category": "36. Local government business permit renewal (BPLO / eBPLS)",
+     "evidence": "https://www.tripleiconsulting.com/?p=9205; https://mb.com.ph/2025/12/21/prepare-early-for-business-permit-renewal-paranaque-lgu-tells-business-owners",
+     "existing": "Done-for-you consultancies, for example Triple i. No software competitor was identified.",
+     "known_id": "",
+     "known_mark": "new",
+     "known_note": "Generic compliance; no known idea.",
+     "name": "Multi-LGU business permit renewal tracker for multi-branch SMEs",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Renewal is generally due 1-20 January (Makati 31 Jan), with 2 percent monthly interest on late payment. A few LGUs allow quarterly renewal (20 Jan, Apr, Jul, Oct).",
+     "unchecked": "Generic tool risk. Rules differ by LGU, which makes a product hard to build. Per-LGU eBPLS connectors may be closed."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Nothing new beyond K16 (LPG). Gasoline retail is governed by DOE DC2017-11-0011 (certificates per outlet). 2026 activity is price-ceiling and anti-hoarding enforcement (DOE show-cause orders, eGovPH complaint centre), not a recurring register. Periodic DOE reports could not be confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "RSAS storage registration under RA 12022 has a Dec 31 2026 deadline (Manila Times, 30 Sep 2026), which is K06. The NFA rice trader licence appears abolished under RA 11203 IRR (only SPSIC from BPI), so there is no NFA licence idea. SRA sugar trader registration and annual trading report (2005/2009 orders) and PCA coconut trader accreditation (2010 AO) exist, but I could not confirm they are current. Both are logged as weak.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "CDA MC 2025-02 requires FY mandatory reports within 120 days of year end (Apr 30), a Certificate of Compliance (needed for tax exemption), and fines of P100 a day. MC 2026-07 extended FY2025 reports to 31 May 2026 citing EO 110 s.2026. Reports go through CDA's CAIS. Micro co-ops under P3M assets are exempt per one regional reminder. The only co-op idea in the study is K17 (transport co-ops), so one new candidate for non-transport co-ops is logged.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "The PhilHealth annual accreditation renewal for CY2026 ran 1 Oct to 29 Dec 2025 and was extended in Jan 2026 (PA2026-0006). It needs a Provider Data Record, a notarised Performance Commitment, an accreditation fee, an updated DOH/FDA licence and a GIS. Claims must be filed within 60 days of discharge. A late-claim resubmission window closed 21 Sep 2025. The related ideas K03, K10 and K11 are known or rejected, so one new renewal-pack candidate is logged. DOH clinical lab and dialysis licence rules (RA 4688, AO 2012-0001, AO 37 s.2021) were not confirmed.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Drugstores need a PDEA licence (online Regulatory Compliance System) and follow DDB Reg. 1 s.2014 on regulated drugs. Pharmacist quarterly dangerous-drug records go via the City/Municipal Health Officer (DDB Reg. 2 of 1973, current status unconfirmed). The DDCPEC-MS online reporting portal is aimed at importers, manufacturers and distributors. Current pharmacy-level deadlines were not found. Pharmacy POS vendors (StoreHub, HashMicro) exist, so one weak candidate is logged.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Nothing new beyond K02. RA 11917 requires an agency LTO and a LESP for each guard, and PNP-SOSIA screening is tightening. DOLE DO 174-17 contractor registration applies. No 2026 rule change found.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Nothing new. PCAB licence (RA 4566) and DOLE registration are the main duties, and construction is treated separately from DO 174 (DO 19 of 1993, unverified). Consultants such as Triple i already sell this. Mining and quarry duties were not reached with a dedicated search.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Two candidates: the monthly digital notarial report under the 2025 amendments to the 2004 Notarial Rules, and AMLC registration and covered/suspicious transaction reporting for real estate brokers and developers (RA 11521, cash threshold P7.5M).",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "A June 2026 Freeman report says DOT is accrediting Airbnb-type hosts under the Mabuhay Accommodation class (national directive to bring short-term rentals into formal regulation). The Hotel Code 1987 guest register rules were found, but whether they still bind is unconfirmed. No tourism levy was found. One candidate is logged at unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "BFAR FAO 238 s.2012 and AC 238-1 require catch certificates and COLD for EU exports, and FAO 275 (Dec 2025) covers fish imports. A BFAR draft extends this to Japan, but its adoption is unconfirmed. DENR lumber dealer registration is valid for 3 years and runs through the online OLDPMS. Wood processing plant permits fall under DAO 2021-05. No 2026 changes were found and the main solutions were not checked.",
+     "status": "screened"
+    },
+    {
+     "category": "31. Homeowners associations and condominium corporations (DHSUD, RA 9904)",
+     "found": "HOAs previously registered with SEC/HIGC must re-register with DHSUD by 18 Dec 2026 (DO 2026-007, extended from 18 Jun 2026) or be automatically suspended. HLURB-registered HOAs and condo corporations are excluded from the re-registration order. Annual GIS, audited financial statements and a member masterlist are reported to DHSUD. This is a strong deadline trigger.",
+     "status": "screened"
+    },
+    {
+     "category": "32. OSH reporting for small establishments (RA 11058, DO 252-25, DOLE)",
+     "found": "The revised IRR DO 252-25 (effective 16 May 2025) governs. Secondary sources describe an annual exposure report (AEDR, about Jan 30), an annual medical report (AMR, about Mar 31) and an accident report (WAIR), but deadlines and fines conflict between sources. No official text was checked.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Lending and financing companies (SEC)",
+     "found": "SEC MC 20 s.2026 (issued 7 Jul 2026) lifts the online lending platform moratorium from 1 Aug 2026, replaces MC 10 s.2021, caps each company at 5 platforms and introduces single certificate of authority. The June draft proposed higher paid-up capital. This mainly affects fintech entrants rather than quiet firms. Annual report duties were not found.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Vape and novel tobacco retailers (RA 11900, DTI OSMV)",
+     "found": "Products must carry a DTI PS licence or ICC mark. A market-clearing process began Jan 2025, and DTI is moving against open pods and uncertified e-liquids. Retailers face age-verification and marketing notices of violation with 48-hour reply deadlines. No recurring retailer register or report was found.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Hazardous waste generators and transporters (DENR EMB, DAO 2013-22)",
+     "found": "Generators, transporters and TSD facilities must register with EMB and use a manifest and permit to transport for each movement. The online hazardous waste system exists for WEEE. A DENR-DOH JAO 2005-02 covers health care waste. No small-generator threshold or 2026 update was found. This is adjacent to K05.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Local government business permit renewal (BPLO / eBPLS)",
+     "found": "Renewal is generally due 1-20 January (Makati 31 Jan), with 2 percent monthly interest on late payment. Some LGUs allow quarterly renewal. Consultancies such as Triple i sell this as a service. Multi-branch SMEs are the buyer, and no software competitor was identified.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 5,
+   "queries": [
+    "DOE gasoline station retailer compliance reportorial requirements Philippines 2026",
+    "NFA rice traders registration license requirements 2026 RSAS quarterly report",
+    "CDA cooperatives annual reports compliance 2026 memorandum circular deadline",
+    "PhilHealth accreditation clinics laboratories 2026 circular claims submission requirement",
+    "FDA Philippines drugstore pharmacy requirements 2026 e-reporting dangerous drugs PDEA precursor chemicals report",
+    "PNP SOSIA security agency compliance 2026 license renewal guards requirement",
+    "AMLC covered persons real estate brokers developers registration goAML reporting 2026",
+    "DOT accreditation hotels homestay short-term rental registration 2026 Philippines guest register",
+    "BFAR export fish exporters traceability catch certificate EU IUU 2026 Philippines requirement",
+    "DOLE contractor registration DO 174 subcontracting 2026 construction PCAB contractors Philippine registration",
+    "DHSUD homeowners association annual report requirement 2026 HOA registration compliance circular",
+    "SEC lending companies financing companies annual reports requirement 2026 memorandum circular online lending platform registration",
+    "DOLE RA 11058 occupational safety establishments report requirement 2026 safety officer annual medical report small enterprises",
+    "vape retailers registration RA 11900 DTI FDA 2026 deadline retailers compliance",
+    "EMB hazardous waste generator registration manifest small generators clinics auto shops 2026 DAO 2013-22 online",
+    "HOA management software Philippines DHSUD re-registration homeowners association app dues collection",
+    "DDB DDCPEC-MS semi-annual report pharmacies drug stores dangerous drugs 2025 2026 submission",
+    "SRA sugar mill planters trader registration quedan compliance 2026 PCA coconut trader accreditation requirement",
+    "notarial register monthly report clerk of court notaries public 2025 2026 Supreme Court rules notarial practice e-notarization compliance",
+    "DOH license to operate clinical laboratory dialysis clinic annual renewal reporting requirement 2026 DOH administrative order"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b13"
+ },
+ "gapfill:philippines": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Holders of LGU-issued ISAG, CSAG, quarry and pebble-picking permits (permits of 5 ha or less, provincial governor); also small aggregates traders",
+     "category": "36. Mining and quarry small operators",
+     "evidence": "https://www.mgb.gov.ph/images/stories/mgbform8-4.doc ; https://launion.gov.ph/wp-content/uploads/2018/10/v3_ENRO.pdf ; https://www.pressreader.com/philippines/manila-times/20220922/281711208510795 (Pangasinan governor review of quarries). The forms are old templates, so the current form and any digital filing are unverified.",
+     "existing": "None seen in one search. No competitor search was run; the budget was used up.",
+     "known_mark": "new",
+     "known_note": "Not close to any known idea. Adjacent to category 27 (contractors) in the first pass, which found nothing.",
+     "name": "Sand-and-gravel / quarry permit holder quarterly production report and fee ledger (provincial permits)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "MGB Form 08-4 permit condition (RA 7942 / RA 7160): quarterly production report within 10 days after quarter end to the governor, copies to the MGB Regional Director and municipal treasurer. Volume extracted and sold, fees paid, buyers' names and addresses and selling prices are open to inspection. Bond and local fee ordinances apply, with stoppage orders for unpaid fees (Cagayan case).",
+     "trigger_note": "",
+     "unchecked": "Number of permit holders (not found); whether provinces now take reports online; current form version; competitor search in Filipino (for example 'quarry permit quarterly report software'); willingness to pay."
+    },
+    {
+     "buyer": "Small restaurants, canteens, bakeries, food stalls and caterers (the sanitary permit is per site)",
+     "category": "35. Barangay and local registers kept by small operators",
+     "evidence": "https://www.tripleiconsulting.com/how-to-renew-your-business-permits-in-the-philippines/ ; https://www.hashmicro.com/ph/blog/sanitary-permit-food-business/ ; https://morongrizal.gov.ph/wp-content/uploads/2018/08/Requirements-for-Application-of-Sanitary-Permit.pdf. These are consultant and blog sources, and requirements vary by LGU.",
+     "existing": "Consultants (Triple i) sell liaison services. LGU eBOSS portals and Makati/QC online health-certificate applications cover filing but not record-keeping. No tracker app found. No competitor search was run for this candidate.",
+     "known_id": "K08",
+     "known_mark": "known",
+     "known_note": "Same monthly water-test and LGU health office duty as K08 (water refilling stations), but a different buyer group (food establishments). Treat as a related new buyer if K08 is pursued.",
+     "name": "Food-establishment sanitary permit compliance pack: monthly water, pest-control and employee health-certificate expiry log",
+     "score": 3,
+     "status": "weak",
+     "trigger": "PD 856 sanitary permit from the City or Municipal Health Office, renewed with the business permit. Typical LGU checklist: monthly microbiological water analysis from a DOH-accredited lab, monthly pest-control report, yearly physico-chemical test, and per-worker health certificates (X-ray 1 year, fecalysis about 1 month).",
+     "trigger_note": "",
+     "unchecked": "Whether LGUs verify the monthly records at renewal; competitor search ('sanitary permit software restaurant Philippines'); how often fecalysis and X-ray are redone; lab-side bundling."
+    },
+    {
+     "buyer": "Registered lumber dealers (OLDPMS), mini-sawmills and wood processors, and commercial chainsaw owners",
+     "category": "31. DENR-licensed small operators",
+     "evidence": "https://o-ldpms-dev.denr.gov.ph/register2.php ; https://o-ldpms.denr.gov.ph ; https://r10.denr.gov.ph/index.php/products-services/frontline-services/313-chainsaw-registration ; https://www.timbertradeportal.com/en/philippines/173/key-documents",
+     "existing": "DENR OLDPMS (free state portal for dealer registration and monitoring) and the Chainsaw Information System. No private tools found.",
+     "known_mark": "new",
+     "name": "Lumber dealer, small sawmill and chainsaw owner compliance register (monthly stock reports, chainsaw renewals)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Lumber dealer certificate: monthly stock purchase and disposition report to the CENRO by the 5th of the following month, and lumberyard inspection. Chainsaw certificate (RA 9175, DAO 2003-24): renewable every 2 years (sources conflict). Wood processing plant permit under DAO 2021-05 (reporting format unconfirmed).",
+     "trigger_note": "The first pass only touched lumber dealers; the 2-year chainsaw renewal is too infrequent to carry a product by itself.",
+     "unchecked": "Whether OLDPMS already takes the monthly report online (which would kill it); number of active dealers and sawmills; competitor search not run."
+    },
+    {
+     "buyer": "Small traders importing fresh produce, plant products and food ingredients",
+     "category": "34. Agricultural and food-safety licensing for small food sellers",
+     "evidence": "https://buplant.da.gov.ph/wp-content/uploads/2024/07/Application-of-Sanitary-and-Phytosanitary-Import-Clearance-SPSIC.pdf ; https://www.importlicensing.wto.org/content/plant-and-plant-products-3 ; https://pntr.gov.ph/bpi-5a. Some sources are old (2015-2016 circulars) and fees and rules may have changed.",
+     "existing": "Customs brokers and consultants probably handle it (unverified). The DA Trade System is the state portal. No competitor search was run.",
+     "known_mark": "new",
+     "name": "Small imports: BPI importer registration and per-shipment SPSIC pack for small food and agri importers",
+     "score": 3,
+     "status": "weak",
+     "trigger": "BPI importer registration (certificate valid 3 years; Mayor's permit, BOC accreditation, DTI/SEC/CDA registration), a SPSIC for each shipment (fresh produce must ship within 20 days of issue; non-transferable), mandatory DA Trade System enrolment for Category 2-4 commodities, and a list of importable commodities.",
+     "trigger_note": "",
+     "unchecked": "Number of small registered importers; whether SPSIC is fully online in the DA Trade System; broker competition; competitor search not run."
+    },
+    {
+     "buyer": "Small cold storage warehouses, meat cutting plants and meat distribution centres (not retail meat shops)",
+     "category": "34. Agricultural and food-safety licensing for small food sellers",
+     "evidence": "https://nmis.gov.ph/images/pdf/forms_requirements/ardforms/REQ_REN02042026.pdf ; https://nmis.gov.ph/84-faq-cat ; https://www.philstar.com/business/2025/12/14/2493997/government-simplifies-licensing-meat-establishments (fetched)",
+     "existing": "NMIS NARIS online portal. Consultants not checked.",
+     "known_id": "K09",
+     "known_mark": "known",
+     "known_note": "Adjacent to K09 (livestock and meat document packs) and to the first pass's abattoir work. A small, low-frequency buyer group.",
+     "name": "Cold storage and meat distribution LTO renewal and GMP file kit (NMIS)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "NMIS LTO renewal within 60 days before expiry (RA 9296). Renewal needs a GMP/GOP/SSOP manual, a temperature data logger and a 2-year client list, plus a DENR-EMB permit and a sanitary permit. NMIS proposed 1-year and 3-year renewal terms in Dec 2025, which would cut renewal frequency if adopted.",
+     "trigger_note": "",
+     "unchecked": "Establishment counts; whether the simplified guidelines were adopted; whether the temperature logs have to be reported to NMIS."
+    },
+    {
+     "buyer": "Small commercial fishing vessel operators (3.1 GT or more) in Navotas/Malabon and regional ports",
+     "category": "32. Small fisherfolk and fishing boat operators",
+     "evidence": "https://ncr.bfar.da.gov.ph/processing-of-application-for-renewal-of-commercial-fishing-vessel-license-cfvl/ ; https://news.mongabay.com/2026/08/philippine-supreme-court-rules-monitoring-commercial-fishing-vessels-is-unconstitutional/ ; https://ph.oceana.org/press-releases/commercial-fishing-vessels-are-required-install-vessel-monitoring-device/",
+     "existing": "Not checked. Tracker hardware vendors exist (unverified). No competitor search was run.",
+     "known_mark": "new",
+     "name": "Commercial fishing vessel operators: CFVL, gear and fisherman's licence renewal pack with logsheet",
+     "score": 3,
+     "status": "weak",
+     "trigger": "FAO 198-1 s.2018: CFVL renewal needs a notarised application, vessel photos, a fishing-grounds grid map, a MARINA safety certificate, an original expired licence and a registered logsheet. Gear registration (PHP 200 renewal) and a crew fisherman's licence (PHP 100) are also required. VMS and e-catch reporting under FAO 266 was struck down by the Supreme Court (decision 21 Jan 2026, published 3 Aug 2026), and BFAR filed a motion for reconsideration on 14 Aug 2026.",
+     "trigger_note": "",
+     "unchecked": "Number of operators; outcome of the motion for reconsideration; whether CFVL renewal is online; competitor search in Filipino not run. The first pass covered only export catch certificates."
+    },
+    {
+     "buyer": "Individual municipal fishers (unlikely to pay) or LGU municipal agriculture offices and FARMCs (the buyer is the state)",
+     "category": "32. Small fisherfolk and fishing boat operators",
+     "evidence": "https://www.loon.gov.ph/municipality-of-loon-rolls-out-2026-fisherfolk-boat-registration-and-boat-insurance-schedule/ ; https://region5.bfar.da.gov.ph/fishr-and-boatr/ ; https://davaocity.gov.ph/agriculture/davao-city-urges-fisherfolk-to-secure-licenses/",
+     "existing": "The BFAR FishR/BoatR national database is a state system.",
+     "known_mark": "new",
+     "name": "Municipal fisherfolk and boat registration (FishR/BoatR) support for LGU fisheries offices and fisherfolk associations",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Municipal boats of 3 GT or less must be registered with the LGU (EO 305, Fisheries Code s.19, RA 10654). Annual registration windows are set by LGUs (Loon 6 Jan-23 Apr 2026; Kawit to 26 Feb 2026) and often include boat insurance. Davao City requires fisherfolk licences.",
+     "trigger_note": "Probably out of scope (state system, individual buyers). Listed for completeness.",
+     "unchecked": "Whether any private operator or association pays; this is largely building the state's registry, which is out of scope."
+    },
+    {
+     "buyer": "Non-VAT sari-sari stores and micro sole proprietors (sales of PHP 3M or less, 3% percentage tax or the 8% option)",
+     "category": "33. Micro-business tax and invoicing duties",
+     "evidence": "https://www.respicio.ph/commentaries/tax-obligations-for-sari-sari-store-philippines ; https://www.grantthornton.com.ph/technical-alerts/tax-alert/2026/bir-issues-guidelines-on-electronic-invoicing-retains-31-dec-2026-deadline/ ; https://batasnatin.com/laws/rmc-no-91-2024-clarification-on-registration-procedures-pursuant-to-revenue-r",
+     "existing": "Generic bookkeeping and tax tools (Juan(Tax) and others per K14). BIR's own ORUS/eBIRForms are free.",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Generic micro-business tax filing is excluded by the contract, and the neighbouring ideas K12, K14 and K15 were rejected. The EOPT and e-invoicing changes exempt micro taxpayers, so there is no deadline shock.",
+     "name": "Sari-sari / micro-store percentage tax (2551Q) and books-of-accounts filing helper",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Quarterly 2551Q (about the 25th day after quarter end; unverified against a BIR issuance). Books of accounts registered through ORUS. The PHP 500 annual fee was abolished by EOPT (RA 11976). Micro taxpayers are exempt from the 31 Dec 2026 e-invoicing mandate (RMC 098-2026).",
+     "trigger_note": "",
+     "unchecked": "Whether BIR eFPS/eBIRForms leave a gap; stores' willingness to pay."
+    },
+    {
+     "buyer": "Registered small-scale miners (Minahang Bayan contract holders) and BSP-accredited gold traders",
+     "category": "36. Mining and quarry small operators",
+     "evidence": "https://issuances-library.senate.gov.ph/sites/default/files/2021-08/RA%2011256%20IRR.pdf ; https://www.pids.gov.ph/details/news/in-the-news/despite-formalization-small-scale-gold-miners-still-prefer-black-market ; https://www.planetgold.org/could-pawn-shops-be-missing-link-philippine-small-scale-gold-supply-chain",
+     "existing": "BSP buying stations and the Cebuana Lhuillier accredited buyer pilot (Paracale, Sagada, 2024). Most miners sell on the black market. No software found.",
+     "known_id": "K07",
+     "known_mark": "known",
+     "known_note": "Overlaps the gold buyer and BSP pawnshop side of K07 (category 4). The miner side is a few thousand informal, remote, low-pay operators, and the MGB production report is unconfirmed.",
+     "name": "Small-scale gold miners and accredited gold traders: BSP sale and tax-exemption certification pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "RA 11256 and RR 4-2020: BSP certification (needs a small-scale mining contract and a TIN) for the income and excise tax exemption on gold sold to the BSP. The BSP reports sales to the BIR monthly. The 3-year transition from 2020 may have been extended (unverified). Only 53 Minahang Bayan were declared as of July 2025.",
+     "trigger_note": "",
+     "unchecked": "The MGB small-scale mining production report format and frequency; the current accredited trader list; the BSP transition period."
+    },
+    {
+     "buyer": "Single-site shops, restaurants and schools",
+     "category": "35. Barangay and local registers kept by small operators",
+     "evidence": "https://antipolo.ph/index.php/2026/01/07/1759/ ; https://cityofvalencia.gov.ph/business/ ; https://www.respicio.ph/commentaries/fire-safety-inspection-certificate-renewal-requirements",
+     "existing": "LGU eBOSS portals, the BFP FSIS and consultant liaison services (Triple i). No reminder app found.",
+     "known_id": "K01",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty as the first pass's BPLO renewal tracker (a multi-branch tracker, not in the known list) and weaker for single-site shops: eBOSS and FSIS digitalisation is eroding the paperwork pain. The 2025 hub and tracker idea needs a known id from the study team.",
+     "name": "Annual FSIC plus sanitary permit and barangay clearance renewal bundle for single-site small businesses",
+     "score": 2,
+     "status": "weak",
+     "trigger": "RA 9514 annual FSIC, prerequisite to the Mayor's permit; the sanitary permit; barangay clearance; renewals around January. Many LGUs now run eBOSS (Antipolo from 5 Jan 2026), the BFP FSIS is online, and ARTA proposed integrating FSIS with eBOSS (July 2026 Manila Bulletin article, fetch blocked 403, so unverified).",
+     "trigger_note": "",
+     "unchecked": "Whether FSIS and eBOSS integration was rolled out nationally after June 2026; competitor search not run."
+    },
+    {
+     "buyer": "Small beekeepers and honey sellers",
+     "category": "8. Beekeepers",
+     "evidence": "https://www.pntr.gov.ph/bees ; https://bafs.da.gov.ph/wp-content/uploads/2025/08/PNS-BAFS-404-2025-Organic-Beekeeping-%E2%80%94-Code-of-Practice-COP.pdf ; https://www.philstar.com/business/2012/10/09/857611/business",
+     "existing": "None needed.",
+     "known_mark": "new",
+     "name": "Beekeepers: apiary registration or honey records",
+     "score": 1,
+     "status": "weak",
+     "trigger": "None found. No national apiary registration or recurring report; only import controls and voluntary standards.",
+     "trigger_note": "No mandatory recurring duty found.",
+     "unchecked": "Whether the DA or BAI apiary rule (AO 14, 2012) is still in force; whether FDA registers honey products."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "8. Beekeepers",
+     "found": "One search. No national beekeeper or apiary registration or recurring report found. DA AO 14 (2012) put apiculture under BAI (current status unverified). Rules found cover only live-bee imports (BAI importer registration, SPS clearance, CITES), a 2025 organic beekeeping standard (PNS/BAFS 404:2025) and a honey product standard still in draft in mid-2026. No FDA honey rule found. No recurring register or report, so no candidate.",
+     "status": "screened"
+    },
+    {
+     "category": "31. DENR-licensed small operators: chainsaw owners, wood processing plants, tree-cutting/private land timber permits",
+     "found": "Chainsaw registration (RA 9175, DAO 2003-24): certificate valid 2 years and renewable (5 years for orchard farmers), though sources conflict on validity. DENR has a web Chainsaw Information System and e-Frontline online chainsaw registration. Lumber dealers file monthly stock purchase and disposition reports by the 5th of the following month via OLDPMS (already covered by the first pass). Wood processing plant permits are decentralised under DAO 2021-05. The monthly or quarterly production report format was not confirmed. Tree-cutting permits moved to regional executive directors under DAO 2021-11, and a Private Land Timber Permit applies on titled land. Duties are mostly one-off or 2-year, so frequency is low. Candidate C1 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "32. Small fisherfolk and fishing boat operators: BFAR FishR/BoatR, commercial fishing vessel licences, LGU fisheries licences",
+     "found": "Municipal boats of 3 GT or less are registered by the LGU (EO 305, Fisheries Code s.19). Registration (FishR/BoatR) is annual, in LGU windows that vary (Loon 6 Jan-23 Apr 2026, Kawit to 26 Feb 2026, Davao City licences). Boat insurance is bundled in some LGUs. Commercial vessels of 3.1 GT or more renew CFVL, gear registration, fisherman's licence and a fishing logsheet under FAO 198-1 s.2018, with an MARINA safety certificate and a VMS requirement. The Supreme Court struck down the VMS/e-catch order FAO 266 (decision 21 Jan 2026, published 3 Aug 2026), and BFAR filed a motion for reconsideration on 14 Aug 2026, so status is in flux. Buyers are mostly individual fishers who will not pay. Candidates C2 and C3.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Micro-business tax and invoicing duties: sari-sari stores, EOPT RA 11976, BMBE, e-invoicing for micro sellers",
+     "found": "The EOPT Act removed the PHP 500 annual registration fee (BIR stopped collecting from 22 Jan 2024; one 2025 guide still lists it, so the sources conflict). Books of accounts are registered through ORUS. Non-VAT stores with sales of PHP 3M or less file quarterly percentage tax on 2551Q, or elect the 8% option. BIR's 31 Dec 2026 e-invoicing date (RMC 098-2026, 22 Sep 2026) exempts micro taxpayers and reaches e-commerce sellers and users of computerised accounting systems. BMBE (RA 9178) is an income-tax exemption requiring a DTI certificate. A micro-store quarterly filing tool is generic bookkeeping and tax software, and the known payroll, 2307 and e-commerce ideas are already rejected. Candidate C4 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "34. Agricultural and food-safety licensing for small food sellers: NMIS meat dealers and cold storage, BPI SPSIC",
+     "found": "NMIS licence to operate (LTO) is annual (RA 9296), renewed within 60 days before expiry through the NARIS portal or the regional office. The covered establishments are slaughterhouses, poultry dressing plants, cutting plants, cold storage warehouses and meat distribution centres; retail meat shops are not clearly covered and are handled by LGU meat inspectors (unverified). Cold storage renewal needs a DENR-EMB permit, a sanitary permit, a temperature data logger and a 2-year client list. NMIS proposed interim guidelines in Dec 2025 (6-month initial licence, 1-year renewal, 3-year combined renewal and GMP); whether adopted is unknown. BPI importer registration lasts 3 years. Each shipment needs an SPSIC, which must be used within 20 days for fresh produce, and the DA Trade System enrolment is mandatory. Customs brokers and consultants probably already do this (unverified). Candidates C5 and C6.",
+     "status": "screened"
+    },
+    {
+     "category": "35. Barangay and local registers kept by small operators: BFP FSIC, sanitary permit, health certificates, barangay clearance, Mayor's permit conditions",
+     "found": "The FSIC (RA 9514) is annual and a prerequisite for Mayor's permit renewal. The BFP has an online Fire Safety Inspection System (FSIS). ARTA kept fee processes unchanged 1 Jan-30 Jun 2026 and proposed integrating FSIS with LGU eBOSS. Many LGUs (Antipolo from 5 Jan 2026, Valencia) run full eBOSS with online payment, which erodes the paperwork pain. The sanitary permit is per site from the City or Municipal Health Office (PD 856). Renewal typically needs a monthly microbiological water test from a DOH-accredited lab, a monthly pest control report, a yearly physico-chemical test, and per-employee health certificates (chest X-ray valid 1 year, urinalysis, fecalysis valid about 1 month, per LGU). Consultants such as Triple i sell liaison services. No reminder or tracker app found. Candidate C7. A multi-branch BPLO tracker was already covered by the first pass.",
+     "status": "screened"
+    },
+    {
+     "category": "36. Mining and quarry small operators: Minahang Bayan, ISAG/quarry permits, BSP gold buyers (RA 11256)",
+     "found": "Sand-and-gravel and quarry permits of 5 ha or less are issued by the provincial governor through the Provincial Mining Regulatory Board (RA 7942, RA 7160). Permit types are ISAG, CSAG, pebble picking, quarry and gratuitous permits. MGB Form 08-4 requires quarterly production reports within 10 days after each quarter, to the governor, with copies to the MGB Regional Director and the municipal treasurer. Governors may inspect books, buyers and selling prices, and local sand-and-gravel fee ordinances apply. Small-scale mining is allowed only in a declared Minahang Bayan (53 declared as of July 2025). Registered miners and accredited traders get tax exemption on gold sold to the BSP under RA 11256 (RR 4-2020); BSP accreditation and certification are required, with a 3-year transition from 2020 that may be extended. Miners report slow and costly BSP selling, and Cebuana Lhuillier is an accredited buyer. The MGB small-scale mining production report format was not found. Candidates C8 and C9.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 2,
+   "queries": [
+    "chainsaw registration renewal DENR RA 9175 wood processing plant permit monthly report requirements",
+    "BFAR FishR registration renewal commercial fishing vessel license municipal fishing boat registration requirements 2026",
+    "BIR EOPT RA 11976 sari-sari store percentage tax quarterly return books of accounts registration deadline 2026",
+    "NMIS accreditation meat dealer cold storage meat shop requirements renewal",
+    "BFP FSIC annual renewal requirements small establishment sanitary permit health certificate food handlers renewal barangay clearance",
+    "small-scale mining permit Minahang Bayan renewal production report gold buyer BSP accredited",
+    "Philippines beekeeping beekeepers registration BFAR DA bee honey regulation FDA honey",
+    "DENR chainsaw registration online system 2026 wood processing plant permit DAO 2021-05 CENRO tree cutting permit private land",
+    "municipal fisherfolk registration FishR boat registration BoatR LGU 2026 deadline BFAR amended Fisheries Code",
+    "sanitary permit health certificate food handlers renewal LGU health office requirements restaurant",
+    "quarry permit sand and gravel provincial governor quarterly report ISAG permit requirements Philippines MGB",
+    "BPI sanitary phytosanitary import clearance SPSIC small importer requirements fresh produce permit to import",
+    "WebFetch philstar government simplifies licensing meat establishments (Dec 2025)",
+    "BMBE micro business enterprise registration 2026 BIR sari-sari store new rule micro enterprises invoicing deadline",
+    "BFAR 2026 fishing vessel registration deadline municipal fishing boats mandatory tracker VMS small fishers RA 10654",
+    "small-scale miners gold buyer BSP accreditation 2026 MGB small-scale mining permit production report online",
+    "BFP FSIC online application 2026 eBOSS business permit renewal reminder app small business permit tracker",
+    "DENR lumber dealer permit chainsaw owners compliance app software OLDPMS monthly stock report lumber dealers",
+    "WebFetch mb.com.ph BFP seeks to digitalize fire inspection permit (blocked 403)"
+   ],
+   "searches": 18
+  },
+  "tag": "w2b13"
+ },
+ "opus:philippines:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Philippine product that handles DHSUD re-registration or annual-report preparation. Qmunidad, a Philippine village-management platform at PHP 999/month per village, covers guards, visitors and dues; I saw no compliance features (Product Hunt listing only). Foreign generic HOA tools (HOA Buddy, HOA Hub, Perfect HOA, Enumerate) are not localized for DHSUD. Developer-run condo dues payment links (DMCI with PayMongo) are not relevant. I found no DHSUD online portal for filing; DHSUD publishes only a status list of HOAs. Tagalog-language queries were not run.",
+   "duty": "RA 9904 Sec 4 plus revised IRR (2024) Sec 32 require subdivision and government-housing HOAs previously registered with SEC/HIGC to re-register with DHSUD. DHSUD Department Order 2026-007 (Sec. Aliling) extends the deadline from 18 Jun 2026 to 18 Dec 2026. HOAs registered under HLURB and condo corporations are excluded. Penalty for missing it: automatic suspension, loss of RA 9904 rights, no DHSUD assistance and no HSAC complaints. Re-registration documents, per Respicio commentary: notarized GIS, proof of prior registration, articles, by-laws amended to fit RA 9904, board resolution, officer list, certified member masterlist, code of ethics, proof of area, and fees. Filing is in person at the DHSUD regional office; I found no online channel. Recurring duty: an annual GIS (reportedly due within 120 days after fiscal year-end) and audited or certified financial statements filed with the DHSUD regional office. The PHP 1,000/year late penalty and the audit thresholds come only from commentary, and the commentaries conflict on the thresholds (PHP 600k vs 100k). I have not checked these against a DHSUD circular.",
+   "market": "DHSUD figures: 25,621 registered HOAs (PIA, June 2022); 24,571 monitored (Tribune, 2023 report); more than 26,000 HOAs and neighborhood associations (GMA, undated). The subset that must re-register (those once registered with SEC/HIGC) is not quantified in any source I found. Most are small volunteer-run subdivision and government-housing associations.",
+   "reason": "The duty is real. DHSUD DO 2026-007 moves the re-registration deadline for HOAs once registered with SEC/HIGC to 18 Dec 2026, and HOAs that miss it are automatically suspended under revised IRR Sec 32. The annual GIS and financial statements add a recurring filing, but its due date and penalty figures come only from commentary. Filing appears to be on paper at DHSUD regional offices; I found no online portal. No local product handles DHSUD documents. Qmunidad covers dues and guards, and the foreign tools are generic. However, buyers are volunteer boards with little budget. The re-registration is a one-off, and the number of SEC/HIGC-era HOAs is unknown. Out of roughly 25,000 registered HOAs, the paying market is small, so a done-for-you service suits this better than SaaS.",
+   "searches": 6,
+   "sources": "https://tribune.net.ph/2026/06/15/dhsud-extends-hoa-re-registration-deadline-to-december ; https://newsinfo.inquirer.net/2246191/dhsud-extends-hoa-re-registration-until-december ; https://www.respicio.ph/commentaries/hoa-re-registration-requirements-under-ra-9904 ; https://www.respicio.ph/commentaries/mandatory-annual-report-requirements-for-homeowners-associations-to-dhsud ; https://mirror.pia.gov.ph/press-releases/2022/06/13/housing-czar-satisfied-with-dhsud-accomplishments ; https://tribune.net.ph/2024/02/16/continuing-mandates-accolades-in-2023 ; https://www.gmanetwork.com/news/topstories/nation/972068/dhsud-to-beef-up-engagement-with-hoas-to-help-address-woes/story/ ; https://www.hunted.space/product/qmunidad",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b13"
+ },
+ "opus:philippines:A2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No product built for small Philippine money changers was found. Tookitaki sells enterprise AML (screening, monitoring, CTR/STR filing). Verihubs sells eKYC, watchlist screening and OCR APIs aimed at agent networks. Foreign bureau-de-change software exists, such as FXPlus, Money Exchanger Plus and CurrencyXchanger on Capterra, but none shows BSP or AMLC reporting. CTR and STR filing goes through the free AMLC portal (GoTRACS), so a product's value would be logging transactions, KYC records, the AML programme document and preparing the files, not the filing itself. Not checked: Philippine POS vendors for forex counters, and whether 247 RemitPlus is still sold.",
+   "duty": "The duty is real and in force. BSP Circular No. 1206 (23 Dec 2024, Monetary Board Res. 1362) removed MORNBFI Secs 901-N and 902-N and replaced them with the M-Regulations. These cover remittance transfer companies, money changers and FX dealers. A second circular, reported as No. 1222 (MB approval 14 Aug 2025), amends the reporting rules in Secs 151-M to 154-M. Secondary summaries say it sets reporting standards, monetary and non-monetary sanctions, and audited financial statement deadlines. I could not open its full text (HTTP 429). Separately, the AML law (RA 9160, as amended by RA 11211) requires: (1) registration with the AMLC on portal.amlc.gov.ph; (2) covered transaction reports for cash over PHP 500,000 in one banking day, due within 5 working days; (3) suspicious transaction reports with no threshold, due the next working day after suspicion arises, filed through GoTRACS. The CTR and STR terms come from secondary sources only, not checked against AMLC text. Enforcement is real: MB cancelled Prince Rockwell, Kings Hopewell and World Reliance for persistent AMLA violations (CL-2025-028), barred 4 unregistered operators (CL-2025-021), and cancelled sole proprietorships (Edzen, World Wide Money Changer). Not verified: exact BSP report forms, how often they are due, and penalty amounts per day of delay.",
+   "market": "The claim cites 7,357 registered MSBs at end-2023 (secondary source). Verihubs cites BSP data of about 5,300 head offices, 12,700 branches and 6,700 pawnshops holding MSB licences, but its totals do not add up. Likely buyers are a few thousand single-office changers and remittance agents. I did not find an official 2024 or 2025 count.",
+   "reason": "The duty is mandatory and enforced: BSP cancels registrations over AML lapses every year, and the M-Regulations were tightened in 2024-25. I found no affordable tool for small money changers. Several things hold the score down. Small changers rarely handle single cash deals over PHP 500k, so routine CTR filing is light. Filing is done on the free AMLC portal. Many operators are cash-only family businesses that are hard to reach and will pay little. Some BSP reporting forms may already be simple templates. A records, KYC and AML-programme pack plus a checklist of BSP reports is a workable MVP. It could be sold through the money changer associations, but the market is only a few thousand firms and willingness to pay is uncertain.",
+   "searches": 6,
+   "sources": "https://regalert.today/document/e4dafffc-727f-4b3d-aca2-3ea398766a7c ; https://context.ph/2025/07/16/bsp-cancels-registration-of-financial-entities-over-aml-infractions/ ; https://verihubs.com/ph/blog/money-service-business-philippines ; https://www.digest.ph/corporate/amlc-registration-process ; https://www.bworldonline.com/?p=210689 ; https://fintechnews.ph/61607/security/bsp-finalising-revised-framework-for-money-service-businesses/ ; https://fintechalliance.ph/another-money-changer-gets-license-revoked-by-bsp/ ; https://www.tookitaki.com/compliance-hub/aml-reporting-philippines-tookitaki-solution ; https://www.capterra.com/p/153887/FXPlus/ ; https://business.inquirer.net/?p=250456",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b13"
+ },
+ "opus:philippines:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Philippine-specific notarial register or monthly-report tool for paper notaries. NotarioPH (from the claim) did not appear in my searches, so whether it is live and what it costs remain unverified. IBP eNotary (enotary.ibp.ph) only connects clients with e-notaries. Foreign tools such as NotaryGadget and NotaryAssist are built for the US and do not produce PH clerk-of-court reports. Accredited e-notarization facility providers under A.M. 24-10-14-SC will cover e-notaries, not the monthly report of paper notaries. Notaries can still meet the duty by hand with a scanner and email, which is the main substitute.",
+   "duty": "The 2004 Rules on Notarial Practice (A.M. No. 02-8-13-SC), as amended by the SC en banc resolution of 4 March 2025, require every commissioned notary to email the clerk of court a PDF of the month's notarial entries plus PDF duplicate originals within the first 10 days of the next month. The email must come from the notary's registered professional email, carry the subject \"Notary Report of [Name] for [Month Year]\", attach files directly (no ZIP, RAR or cloud links), mark batches \"Batch x of y\" and include a numbered inventory. A nil statement is required if there were no entries. Signatories must get an electronic copy within 5 days. Penalties are non-renewal, temporary disqualification or revocation. Reported implementing issuance: OCA Circular 197-2025. The 2025 date is confirmed by Aureada and Tribune; the official text was not fetched. Local OCC practice varies, e.g. RTC-OCC Iligan's verification schedule and certificate. E-notarization (A.M. 24-10-14-SC, effective 9 Mar 2025) is a separate regime with an Electronic Notarial Book and a central SC database. Reports say it is not yet operating because the Electronic Notary Services body has not been constituted.",
+   "market": "Not found. There is no published national count of commissioned notaries. A 2023 FOI request to the DOJ for this was denied and redirected to the SC. Executive judges send quarterly lists of commissioned notaries to the OCA (OCA Circular 111-2022-A, amended 2024), but these are not published. Commissions are issued per RTC jurisdiction and generally run for 2 years.",
+   "reason": "The duty is real, but it is only confirmed through secondary sources. The SC en banc resolution of 4 Mar 2025 amended the 2004 Rules on Notarial Practice (A.M. 02-8-13-SC). Each month, notaries must email the clerk of court a PDF of the month's entries and each instrument, using a set subject line, direct attachments only (no ZIP or cloud links), batches and an inventory. Penalties include non-renewal and revocation. I found no PH tool for ordinary notaries that produces this report: search did not surface NotarioPH, and IBP eNotary does not do it. Weaknesses: the job is mostly scanning, renaming and emailing, so willingness to pay is likely low. Local clerks of court add their own steps, as Iligan's verification schedule shows. The number of notaries is unknown, and the move to e-notarization (with a central SC database) may make the tool redundant over time.",
+   "searches": 6,
+   "sources": "https://www.aureadalaw.com/post/amendments-to-2004-rules-on-notarial-practicesupreme-court-en-banc-resolution-march-4-2025-a-m-no ; https://www.alburolaw.com/new-rules-on-notarial-practice-oca-circular-197-2025/ ; https://tribune.net.ph/2025/07/13/toward-digital-integrity-sc-updates-notarial-rules ; https://tribune.net.ph/2025/06/10/sc-amends-notarial-rules ; https://newsbytes.ph/2025/06/12/sc-amends-notarial-rules-to-require-digital-reporting/ ; https://www.govserv.org/PH/Iligan-City/102781461793159/Regional-Trial-Court-OCC%2C-Iligan-City-9200 ; https://www.lawyer-philippines.com/articles/monthly-submission-requirements-for-digital-notarial-entries-in-the-philippines-1 ; https://accralaw.com/2025/03/26/from-paper-to-pdf-the-digital-shift-in-philippine-notarization/ ; https://enotary.ibp.ph/ ; https://www.notarygadget.com/ ; https://foi.gov.ph/requests/the-number-of-lawyers-practicing-notary-public-in-the-philippines-from-year-2000-onwards ; https://oca.judiciary.gov.ph/wp-content/uploads/2024/04/OCA-Circular-No.-111-2022A.pdf",
+   "suggested_score": 5,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b13"
+ },
+ "opus:philippines:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "CDA's own CAIS is a free online system for encoding and submitting the reports, and micro co-ops get free simplified Excel/Canva templates. CDA regional offices run free hands-on CAIS workshops, and field staff help encode reports. The AFS, and in practice the audit reports, come from CDA-accredited external auditors (CEAs), which is the same objection that killed K17. Co-op core and accounting systems: CoopVault (WeSupport Inc.) claims it is \"100% CDA & BSP compliant\" and tracks CDA, BSP, CIC and BIR filings, and iAccs (coreDev) offers regulatory agency reports. I found no product dedicated to preparing the CAPR or CAIS pack, and no published rates for consultants.",
+   "duty": "Confirmed. CDA MC 2025-02 (based on RA 9520 Art. 53) applies to all co-ops except CSF co-ops. The yearly CAPR pack is due within 120 days of year end (30 Apr 2026 for FY2025, moved to 31 May 2026 by MC 2026-07). The pack covers the AFS from a CDA-accredited CEA, SAR, PAR (GMAR, STEPS, summary audit), the semi-annual mediation/conciliation report, LOTA and a sworn statement, plus ATIR/ABR for co-ops holding a CTE. Penalties: P100 per day of delay for small, medium and large co-ops, no COC, possible revocation of the COR, and possible revocation of the BIR CTE if ATIR/ABR is missing. Micro co-ops (assets under P3M) are excepted from the fine and file simplified reports through the CDA Online Services tab or by email using CDA templates. I could not confirm whether they are fully exempt from the report list. The MC 2025-02 PDF did not render as text, so I relied on CDA regional advisories.",
+   "market": "CDA 2021 statistics (FY2020 data): 20,467 co-ops, of which 13,257 are micro, 3,961 small, 2,438 medium and 811 large. That leaves about 7,200 non-micro co-ops carrying the full pack and fine. A PNA piece says there were over 20,105 co-ops in 2022. I found no 2025 figure.",
+   "reason": "The duty is real and in force. CDA MC 2025-02 requires every co-op except CSF co-ops to file a CAPR within 120 days of year end, with an AFS from a CDA-accredited external auditor (CEA), SAR, PAR/STEPS, a mediation report, LOTA and a sworn statement. Late filing costs P100 a day for small, medium and large co-ops, and the penalties also include losing the COC and revocation. Filing goes through the free CAIS portal, and micro co-ops use simplified templates from CDA. The hardest parts (AFS, and the audit reports PAR/SAR) are tied to CEAs, which is the K17 objection. Core systems such as CoopVault and iAccs claim CDA/regulatory reporting. I found no standalone CAPR or CAIS-prep tool. The remaining encoding work is light, and CDA field staff help with it for free.",
+   "searches": 6,
+   "sources": "https://cda.gov.ph/region-3/reminder-to-all-cooperatives-ending-2025-cda-mandatory-reports/ ; https://cda.gov.ph/region-3/reminder-letter-on-the-submission-of-mandatory-reports-for-fy-2025/ ; https://cda.gov.ph/updates/advisory-to-all-registered-cooperatives/ ; https://www.grantthornton.com.ph/technical-alerts/accounting-alert/2026/cdas-extension-of-the-deadline-for-the-submission-of-fy-2025-required-reports-and-coc-validity-for-cy-2025/ ; https://cda.gov.ph/updates/advisory-cy2023-required-reports-submission-in-the-cooperative-assessment-information-system-cais ; https://cda.gov.ph/region-10/hands-on-training-on-the-submission-of-mandatory-reports-for-cagayan-de-oro-cooperatives ; https://cda.gov.ph/wp-content/uploads/2025/02/2021-Coop-Statistics.pdf ; https://coopvault.w.wesupportinc.com/ ; https://www.g2.com/products/coredev-solutions/discuss ; https://cda.gov.ph/memorandum-circulars/mc-2019-04-guidelines-governing-the-submission-of-required-reports-for-micro-cooperatives",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b13"
+ },
+ "opus:philippines:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Philippine product or provincial online portal for permittee production reports. Systems are paper-based: provinces print delivery-receipt booklets (Camarines Norte RFQ for 1,700 stubs), Occidental Mindoro and Davao run checkpoints, and Pampanga inventories receipt booklets. Foreign quarry ERPs (Proginov, France) do weighbridge and delivery-note work but nothing PH-specific. I did not run a Filipino-language search.",
+   "duty": "Under RA 7942 (Mining Act) and its implementing rules, plus RA 7160 sec. 138 (provincial sand and gravel tax), MGB Form 08-4 commercial sand and gravel permits (and 08-4A/08-4B) require a quarterly production report within 10 days after quarter end. It goes to the Provincial Governor or City Mayor, with copies to the MGB Regional Director and the municipal treasurers. It covers the volume extracted, removed or disposed and the fees paid. A final report is due at the end of the permit term. Some provincial permits instead require monthly reports to the treasurer and governor (Cebu 2013, Negros Oriental). Penalties: permit suspension or cancellation, plus provincial tax surcharges (Bataan: 10% tax and a surcharge if extraction came before payment). The templates are old .doc files, and I did not verify the current form version.",
+   "market": "I found no national register. Partial counts: Antique has 94 permittees; MGB-7 2022 Table 7 shows LGU-issued commercial sand and gravel permits per Central Visayas province of about 1 to 124 (PDF returned 403, so this is from the snippet); Albay had 106 operators reviewed; Surigao del Sur cancelled 103 permits (2010). A rough national estimate is low thousands of LGU permittees (unverified).",
+   "reason": "The duty is real. The MGB permit templates (Form 08-4, and 08-4B for exclusive, government and private gratuitous permits) require a production report within 10 days after each quarter to the Governor or City Mayor, with copies to MGB and the treasurers. Some provinces require it monthly (Cebu, Negros Oriental). I found no Philippine software or provincial e-filing that does the job. Control is paper-based: delivery-receipt booklets issued by the province, checkpoints, and treasurer collection. But the report itself is short and simple, so the pain is low. Provinces own the real control point, the delivery receipts and the tax per load. Operators are few (about 20 to 125 per province, perhaps a few thousand nationally, not verified), often politically connected, and unlikely to pay. Selling to provinces instead would be building the state's system, which is out of scope.",
+   "searches": 5,
+   "sources": "https://www.mgb.gov.ph/images/stories/mgbform8-4.doc ; https://www.mgb.gov.ph/images/stories/mgbform8-4b.doc ; https://www.philstar.com/the-freeman/cebu-news/2013/07/29/1026131/gwens-ally-gets-quarry-permit-her-term-ended ; https://www.bataan.gov.ph/wp-content/uploads/2021/09/OFFICE-OF-THE-PROVINCIAL-TREASURER-Payment-of-Tax-on-Sand-and-Gravel-and-other-quarry-resources-2.pdf ; https://www.camsnorte.com/images/Transparency/BidsAndAwards/RFQ/2024/PR%20No.%2024010072.pdf ; https://ormindoro.gov.ph/wp-content/uploads/2024/01/Provincial-Environment-and-Natural-Resource-Office.pdf ; https://newsinfo.inquirer.net/1402214/pampanga-taps-p-1-b-quarry-revenue-to-support-covid-19-response ; https://r7.denr.gov.ph/images/DENR-7/ENR-STAT/2022-ENR-STAT/MGB-ENR-STAT-2022/Table_7._Number_of_Permits_Issued_by_Local_Government_Units.pdf ; https://newsinfo.inquirer.net/1364008/mgb-15-quarry-firms-in-albay-violated-permits/amp ; https://www.proginov.com/en/quarries/quarries-software.php",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b13"
+ },
+ "sonnet:philippines:A11": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No FPA-specific dealer compliance software found. Generic dealer and inventory tools such as BeatRoute exist.",
+   "duty": "FPA dealer licence (PD 1144), renewed about yearly with inspection. Periodic reporting not confirmed. Online-selling revocation under MC 1 s.2026.",
+   "market": "Not found. No dealer count located.",
+   "reason": "Licensing duty is real (PD 1144; dealers need an FPA licence, about one year per an older government listing; Accredited Safety Dispenser required; FPA inspection at renewal; day-to-day purchase/sale/use books expected). FPA MC No.1 s.2026 targets online sellers, not dealer paperwork. I found no formal periodic dealer sales or stock report, and no renewal checklist. The traceability rule is only proposed in the FY2026 Annual Regulatory Plan. I found no niche competitor, but generic dealer and inventory apps exist, such as BeatRoute. Dealers are many but small and fragmented, with an annual rather than frequent duty, so the pain is low. The market count was not found.",
+   "searches": 3,
+   "sources": "https://fpa.da.gov.ph/fpa-clarifies-regulatory-action-on-unauthorized-online-selling-of-fertilizers-and-pesticides/ ; https://fpa.da.gov.ph/resources/downloadable-forms/ ; https://fpa.da.gov.ph/wp-content/uploads/2026/04/Annual-Regulatory-Plan_FPA_FY-2026-1-1.pdf ; https://beatroute.io/philippines/platform/dealer-app/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b13"
+ },
+ "sonnet:philippines:A12": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real: DMW licensing carries an escrow deposit, annual surety bond, and audited financial statements at renewal. SunStar reports escrow raised to PHP 1.5M and regular licence validity extended to 6 years. I found no official DMW issuance confirming this, and secondary sources conflict on escrow (1M vs 2M). Reporting frequency and channel were not found. Agencies number about 3,700 (undated secondary figure). I found no DMW-specific compliance software, but only generic recruitment tools with 'compliance tracking'. Licences last 4-6 years, so renewal is infrequent. Audited FS and escrow are handled by auditors and banks, not software. DMW uses its own portals for contract processing. Small, niche market with low frequency, so the score is low.",
+   "searches": 3,
+   "sources": "https://www.sunstar.com.ph/manila/local-news/dmw-bares-20-mortal-sins-for-recruiters ; https://www.respicio.ph/commentaries/how-to-start-a-recruitment-agency-in-the-philippines-dmwpoea-licensing-requirements ; https://assistance.ph/dmw-licensed-recruitment-agencies-feature/ ; https://www.bworldonline.com/?p=368218",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b13"
+ },
+ "sonnet:philippines:A13": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The NWRB Economic Regulatory Framework (Res. 25-0818, adopted 2019) is real and sorts utilities into three categories, including community-based ones. It requires CPC applicants to follow the tariff methodology, and tariff review comes every 5 years or as necessary. I found no recurring annual-report duty with a stated penalty for BAWASA/RWSA. The \"1,700\" count is unconfirmed; a Senate document says about 2,200 small utilities exist. Competition was not checked well. I found only one academic custom billing tool for a waterworks association (eBillH20, BOWASA) and no commercial vendor. Buyers are volunteer-run, pay little, and file rarely, so recurrence is weak. I ran 2 searches and no fetches.",
+   "searches": 2,
+   "sources": "https://faolex.fao.org/docs/pdf/phi208910.pdf ; https://oalib-perpustakaan.upi.edu/Record/doaj_1125837d31984db7adff1564c633e692/Description ; https://legacy.senate.gov.ph/lisdata/3026027093!.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b13"
+ },
+ "sonnet:philippines:A14": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: LTO accredits driving schools via the CAC-DSMC. MC VDM-2023-2460 sets course standards. The 8-hour practical course is mandatory, and 12 NCR schools were suspended in March 2026 and revoked in April 2026. Schools must transmit results and certificates electronically through the LTO's LTMS portal. That portal is a state system, so the reporting job is largely handled by the state tool. The market looks small, with a few hundred schools in a 2021 list. I did not find the current count, a frequency or penalty schedule, or any third-party software, so the competition check is incomplete. Likely low willingness to pay and a dependence on LTMS access. Not refuted, but weak.",
+   "searches": 2,
+   "sources": "https://mb.com.ph/2026/04/22/kamote-factory-lto-revokes-license-of-12-metro-manila-driving-schools ; https://www.topgear.com.ph/news/industry-news/lto-suspends-12-driving-schools-2026-a6938-20260423 ; https://wheels.ph/?p=19707 ; https://philkotse.com/market-news/lto-accredited-driving-schools-nationwide-8024",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b13"
+ },
+ "sonnet:philippines:A20": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Halal certification in the Philippines is voluntary. The Grab Davao pilot (MoU 9 Sep 2026) requires NCMF endorsement only for the halal tag on GrabFood, which is a platform condition, not a legal duty. I found no statutory recurring filing. Only a private certifier (HDI) states a 1-year renewable validity, so that is certifier policy. Accreditation authority is disputed between NCMF and DTI-PAB. Davao has a city ordinance requiring certification from an NCMF-accredited body for halal-labelled food, but this is local and narrow. I did not search for competing software. I found no merchant count. The buyer pool is small, willingness to pay is low, and the NCMF endorsement process is unclear. This fails the mandatory-duty test.",
+   "searches": 2,
+   "sources": "https://context.ph/2026/09/12/grab-tightens-halal-food-verification-in-davao-pilot/ ; https://tribune.net.ph/2026/03/14/ncmf-flags-halal-meats-with-pork-traces ; https://tribune.net.ph/2026/09/11/grabfood-adds-halal-search-features-in-davao-city ; https://hdiphilippineshalal.com/application.php ; https://dzrh.com.ph/post/dilgsadzrhbreaktime-ncmf-explains-role-in-halal-certification ; https://halalfocus.com/philippines-philippine-halal-act-and-ncmf-halal-board/",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b13"
+ },
+ "sonnet:philippines:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real under RA 10361. Employers must keep a barangay registry entry and a written contract. They must register the worker with SSS, PhilHealth and Pag-IBIG, remit monthly, and file a separation report within 30 days. Violations carry fines of PHP 10,000 to 40,000, and unpaid SSS contributions add 2% a month. I found no dedicated household-employer app. SweldoPH is only a free calculator and guide. Agencies offer free unified forms and online portals (My.SSS, Virtual Pag-IBIG). An old BayadLoad e-money route exists. Weak points: a consumer buyer, low enforcement, low willingness to pay, and no B2B channel. I did not find a household count (not reached). The idea is unproven and weak.",
+   "searches": 3,
+   "sources": "https://sweldoph.com/guides/kasambahay-law ; https://batasnatin.com/laws/kasambahay-law-ra-10361-obligations-when-hiring-household-helpers ; https://www.philhealth.gov.ph/circulars/2015/TS_circ016-2015.pdf ; https://technology.inquirer.net/?p=26309 ; https://assistance.ph/sss-contributions-household-employer-for-kasambahays/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b13"
+ },
+ "sonnet:philippines:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: PD 1612 (Anti-Fencing Law) and its rules require station-commander clearance for secondhand articles, plus affidavits and inventories of acquisitions with supplier names and addresses. Local ordinances add permits. I found no junkshop-specific software in two searches, but I did not look for generic POS or inventory tools. Weak points: no national digital filing, so police would have to accept a printout. Enforcement looks uneven and sometimes informal (Valenzuela \"kotong\" case). Shops are mostly unregistered micro-enterprises. Quezon City has about 680 registered shops. No national count was found. Digital readiness and willingness to pay are low, and distribution would be LGU-by-LGU. The Naga ordinance PDF was unreadable, so its inspection terms are unverified.",
+   "searches": 3,
+   "sources": "https://hrlibrary.umn.edu/research/Philippines/PD_No_1612.html ; https://batasnatin.com/laws/pd-1612-2 ; https://www.pressreader.com/philippines/philippine-daily-inquirer-1109/20180209/281840054123505 ; https://newsinfo.inquirer.net/329055/junkshop-owners-can-help-cut-burglaries-carnapping-incidents ; https://newsinfo.inquirer.net/1016829/3-valenzuela-cops-held-for-kotong-targeting-junk-shops ; https://bplo.marikina.gov.ph/ordinances/Ordinance%20No.%20057%20Series%20of%202014.pdf",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b13"
+ },
+ "sonnet:philippines:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "None found, but not searched.",
+   "duty": "Monthly LTO report applies to vehicle importers, distributors and dealers (Sec. 10) and to manufacturers of engine blocks, chassis or bodies (Sec. 11). It does not clearly apply to used-parts dealers or dismantlers. No Sec. 10/11 penalty was seen in the fetched text.",
+   "market": "Not quantified; no register of used-parts dealers or dismantlers found.",
+   "reason": "RA 10883 Sec. 10 (lawyerly.ph text) obliges only those importing, distributing, buying and selling motor vehicles to keep stock records and report monthly to LTO. Sec. 11 covers manufacturers of engine blocks, chassis or bodies. Used-parts dealers and dismantlers are not named, and the Act does not use the word \"dismantler\". Sec. 17 only bans trading parts from carnapped vehicles. The \"20 days\" sales rule was not found in the text. LTO AO AVT-2014-023 covers accreditation and stock reporting for MAIRDOEs (vehicle and component importers, dealers), and I could not confirm it reaches parts sellers. Duty on this buyer group is unproven, so it is a niche, fragmented, informal market. No competitor search was run. LTMS channel not checked.",
+   "searches": 2,
+   "sources": "https://lawyerly.ph/laws/view/l11249 ; https://jur.ph/law/summary/new-anti-carnapping-act-of-2016 ; https://dev.lawyerly.ph/laws/75785 ; https://elibrary.judiciary.gov.ph/thebookshelf/showdocsfriendly/10/75813",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b13"
+ },
+ "sonnet:philippines:B7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "DOT accreditation of hotels, pension houses, tourist inns and homestays is established under the Progressive Accreditation System (MC 2018-03). The Mabuhay Accommodation tiers are an old regime. No source found shows that accreditation is mandatory for Airbnb-type hosts, or gives a renewal cycle or penalty. The June 2026 Freeman item mentions only an unnamed national directive. The Hotel Code 1987 register duty was not confirmed as applying to rentals. Competition is partial: Hotelogix, Xenia and Optima PMS exist, but no register-specific tool was checked. No register of host numbers was found. Hosts are fragmented, the duty is unclear, and the product would be a thin PMS-like tool, hence a low score. Not checked: LGU tourism taxes and the directive text.",
+   "searches": 4,
+   "sources": "https://www.magzter.com/es/stories/newspaper/The-Freeman/DOT-SEES-RISE-IN-ACCREDITED-AIRBNBS-IN-CEBU; https://jur.ph/law/facts/establishment-of-progressive-accreditation-system-guidelines; https://tourism.mati.gov.ph/wp-content/uploads/2023/12/APP-Form_Mabuhay-Accommodation.pdf; https://www.sunstar.com.ph/cebu/business/airbnb-vows-to-work-with-governments; https://bambooroutes.com/blogs/news/philippines-airbnb; https://www.hotelogix.com/faqs/what-is-cloud-based-hotel-management-software-and-why-is-it-relevant-for-hotels-in-the-philippines",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b13"
+ },
+ "triage:philippines": {
+  "result": {
+   "decisions": [
+    {
+     "decision": "keep",
+     "id": "A1",
+     "reason": "HOA re-registration deadline duty; no known idea covers HOAs."
+    },
+    {
+     "decision": "keep",
+     "id": "A2",
+     "reason": "Money changers are a different buyer group from K07 pawnshops; related to K07."
+    },
+    {
+     "decision": "keep",
+     "id": "A3",
+     "reason": "Household employers are a different buyer from K12 SME remittance; includes barangay registry duty; related K12."
+    },
+    {
+     "decision": "keep",
+     "id": "A4",
+     "reason": "Junkshop/secondhand dealer records and police clearance; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A5",
+     "reason": "Used-parts dealers under anti-carnapping stock reports; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A6",
+     "reason": "Jewelry/gold dealers AMLC duty; different buyer than K07 pawnshops."
+    },
+    {
+     "decision": "keep",
+     "id": "A7",
+     "reason": "Small non-stock corporations SEC filings; in scope as community bodies."
+    },
+    {
+     "decision": "keep",
+     "id": "A8",
+     "reason": "Septage haulers manifest/monthly report; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A9",
+     "reason": "Tricycle operators franchise renewal; differs from K17 transport co-op reports."
+    },
+    {
+     "decision": "keep",
+     "id": "A10",
+     "reason": "Boiler permit duty for small plants; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A11",
+     "reason": "Agri-input dealers differ from K06 storage operators; related K06."
+    },
+    {
+     "decision": "keep",
+     "id": "A12",
+     "reason": "Recruitment agencies differ from K02 security/janitorial billing; related K02."
+    },
+    {
+     "decision": "keep",
+     "id": "A13",
+     "reason": "Community water associations; different duty from K08 refilling station tests; related K08."
+    },
+    {
+     "decision": "keep",
+     "id": "A14",
+     "reason": "Driving school accreditation; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "A15",
+     "reason": "Vet drug outlets; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "A16",
+     "reason": "Small food producers FDA LTO renewal; new."
+    },
+    {
+     "decision": "keep",
+     "id": "A17",
+     "reason": "Day care accreditation; small licensed premises, new."
+    },
+    {
+     "decision": "keep",
+     "id": "A18",
+     "reason": "Abattoir NMIS accreditation differs from K09 trader shipment documents; related K09."
+    },
+    {
+     "decision": "keep",
+     "id": "A19",
+     "reason": "Well drillers water permits; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "A20",
+     "reason": "Halal certification is voluntary but a market trigger exists; unsure so keep for verification."
+    },
+    {
+     "decision": "merge",
+     "id": "B1",
+     "reason": "Same HOA buyer and DHSUD re-registration duty as A1.",
+     "ref": "A1"
+    },
+    {
+     "decision": "keep",
+     "id": "B2",
+     "reason": "Notaries monthly reports; new buyer and duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B3",
+     "reason": "Non-transport co-ops differ from K17 transport co-ops; related K17."
+    },
+    {
+     "decision": "keep",
+     "id": "B4",
+     "reason": "Non-hospital PhilHealth accreditation renewal; differs from K03, K10, K11."
+    },
+    {
+     "decision": "keep",
+     "id": "B5",
+     "reason": "Drugstore dangerous-drug records; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B6",
+     "reason": "Brokers AMLC duty; new buyer."
+    },
+    {
+     "decision": "keep",
+     "id": "B7",
+     "reason": "Short-term rental accreditation and guest registers; new."
+    },
+    {
+     "decision": "known",
+     "id": "B8",
+     "reason": "Same agri storage operators and RSAS duty as K06; K06 not rejected.",
+     "ref": "K06"
+    },
+    {
+     "decision": "keep",
+     "id": "B9",
+     "reason": "Sugar and coconut traders registration/reports; different from K06 storage."
+    },
+    {
+     "decision": "keep",
+     "id": "B10",
+     "reason": "Hazardous waste generators manifest; differs from K05 SMR; related K05."
+    },
+    {
+     "decision": "keep",
+     "id": "B11",
+     "reason": "OSH reports for small employers; new duty."
+    },
+    {
+     "decision": "keep",
+     "id": "B12",
+     "reason": "Lumber dealer registration/records; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B13",
+     "reason": "Fish exporters catch certificates; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B14",
+     "reason": "Small lending companies SEC platform rules; different buyer from K07."
+    },
+    {
+     "decision": "keep",
+     "id": "B15",
+     "reason": "Vape retailers licensing; new."
+    },
+    {
+     "decision": "keep",
+     "id": "B16",
+     "reason": "Annual LGU permit renewal for multi-branch SMEs; mandatory duty, unsure so keep."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS1",
+     "reason": "Quarry permit holders quarterly reports; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS2",
+     "reason": "Food establishments differ from K08 refilling stations; related K08."
+    },
+    {
+     "decision": "merge",
+     "id": "GAPS3",
+     "reason": "Same lumber dealer buyer and OLDPMS duty as B12.",
+     "ref": "B12"
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS4",
+     "reason": "Small food/agri importers BPI registration; new."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS5",
+     "reason": "Cold storage/meat distribution NMIS LTO; differs from K09; related K09."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS6",
+     "reason": "Commercial fishing vessel operators licences; new."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS7",
+     "reason": "Buyer is the state/LGU fisheries offices; out of scope (building the state's own system)."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS8",
+     "reason": "Generic micro-business tax/books filing is general accounting, out of scope."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS9",
+     "reason": "Small-scale miners and gold traders; different buyer than K07; related K07."
+    },
+    {
+     "decision": "keep",
+     "id": "GAPS10",
+     "reason": "Single-site FSIC/sanitary/barangay bundle; different buyer from B16; K01 not same duty."
+    },
+    {
+     "decision": "drop",
+     "id": "GAPS11",
+     "reason": "No mandatory recurring duty found; fails the candidate definition."
+    }
+   ]
+  },
+  "tag": "w2b13"
+ }
+}

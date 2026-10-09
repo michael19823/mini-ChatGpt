@@ -357,6 +357,74 @@
    "known": 1
   }
  },
+ "japan": {
+  "batch": "w2b13",
+  "candidates": 49,
+  "checks": {
+   "opus": 3,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "A18 認可外保育施設 届出 and 運営状況報告 kit for small childcare operators and babysitter agencies",
+    "B3 医療法人 決算届 + 経営情報 report assistant (WAM NET system)",
+    "B4 小規模事業用電気工作物 (10-50kW solar) notification and upkeep records",
+    "GAPS1 育成就労/特定技能 direct-employer filings workbench (外国人雇用状況届出 + 受入れ機関 定期届出) for small farms, restaurants and factories",
+    "GAPS3 Paper-manifest 交付等状況報告書 (6/30) generator for small 排出事業者",
+    "GAPS12 防火管理者 選任届 and 消防計画 pack for small restaurants and tenants"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 5,
+   "refuted": 1,
+   "refuted_on_challenge": 2,
+   "unverifiable": 3,
+   "verified_4": 1
+  },
+  "gaps": 6,
+  "id": "japan",
+  "leads": [
+   {
+    "challenge": "refuted 2",
+    "final": "refuted_on_challenge",
+    "id": "A1",
+    "mark": "new",
+    "name": "Periodic-report calendar and report kit for lifts, fire doors and small buildings (建築基準法12条定期報告)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "refuted 3",
+    "final": "refuted_on_challenge",
+    "id": "B1",
+    "mark": "new",
+    "name": "宅建業者 AML リスク評価書 + 取引時確認記録 作成キット (small realtors)",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "B2",
+    "mark": "new",
+    "name": "動物取扱業 per-animal ledger and annual report (April-May) tool",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "keep": 44,
+   "known": 2,
+   "merge": 1
+  }
+ },
  "mexico": {
   "batch": "w2b4",
   "candidates": 47,
@@ -562,6 +630,84 @@
    "keep": 30,
    "known": 3,
    "merge": 1
+  }
+ },
+ "philippines": {
+  "batch": "w2b13",
+  "candidates": 47,
+  "checks": {
+   "opus": 5,
+   "sonnet": 9,
+   "unverifiedByCap": [
+    "A6 Jewelry and gold dealer AMLC registration and reporting kit",
+    "A7 Small non-stock corporation compliance (SEC GIS, AFS, HARBOR beneficial ownership) for associations, foundations and churches",
+    "A8 Septage hauler manifest and monthly report tool for LGU-accredited desludgers",
+    "A9 Tricycle operator/TODA franchise renewal tracker",
+    "A16 FDA LTO renewal tracker for micro/small food producers",
+    "A18 Small abattoir / NMIS accreditation file for LGU and private slaughterhouses",
+    "B4 PhilHealth annual accreditation renewal pack for small clinics, labs and dialysis centres",
+    "B5 Dangerous-drug logbook and quarterly records for single-store drugstores",
+    "B12 Lumber dealer (OLDPMS) registration and records for small lumber yards",
+    "GAPS2 Food-establishment sanitary permit compliance pack: monthly water, pest-control and employee health-certificate expiry log",
+    "GAPS4 Small imports: BPI importer registration and per-shipment SPSIC pack for small food and agri importers",
+    "GAPS5 Cold storage and meat distribution LTO renewal and GMP file kit (NMIS)",
+    "GAPS6 Commercial fishing vessel operators: CFVL, gear and fisherman's licence renewal pack with logsheet",
+    "GAPS9 Small-scale gold miners and accredited gold traders: BSP sale and tax-exemption certification pack",
+    "GAPS10 Annual FSIC plus sanitary permit and barangay clearance renewal bundle for single-site small businesses"
+   ]
+  },
+  "complete": true,
+  "criticGaps": 6,
+  "finals": {
+   "below_4": 3,
+   "disputed": 2,
+   "refuted": 1,
+   "unverifiable": 7,
+   "verified_4": 1
+  },
+  "gaps": 7,
+  "id": "philippines",
+  "leads": [
+   {
+    "challenge": "unclear 3",
+    "final": "disputed",
+    "id": "A1",
+    "mark": "new",
+    "name": "HOA re-registration and annual-report kit for small homeowners associations",
+    "opus": 4,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "unclear 4",
+    "final": "disputed",
+    "id": "B2",
+    "mark": "new",
+    "name": "Digital monthly notarial report and register tool for notaries public",
+    "opus": 5,
+    "prov": 5,
+    "sonnet": null,
+    "src": "discover"
+   },
+   {
+    "challenge": "survives 4",
+    "final": "verified_4",
+    "id": "A2",
+    "mark": "new",
+    "name": "Money changer (FXD/MC) BSP and AMLC compliance pack",
+    "opus": 4,
+    "prov": 4,
+    "sonnet": null,
+    "src": "discover"
+   }
+  ],
+  "stage": "done",
+  "triage": {
+   "drop": 3,
+   "keep": 41,
+   "known": 1,
+   "merge": 2
   }
  },
  "poland": {

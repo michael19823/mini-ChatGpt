@@ -1,0 +1,358 @@
+{
+ "discover:A:denmark": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small second-hand shops, charity and recycling shops, pawnbrokers, gold and jewellery buyers, and semi-professional online resellers (the act reaches people who resell regularly)",
+     "category": "3. Second-hand dealers and pawnbrokers (also 4. Gold and jewellery buyers)",
+     "evidence": "https://www.lovguiden.dk/loven/bekendtgørelse-om-handel-med-brugte-genstande-samt-pantelånervirksomhed ; https://www.retsinformation.dk/eli/lta/2024/1450/pdf ; https://www.lovguiden.dk/dokument/retsinfo/forslag-til-lov-om-handel-med-brugte-genstande-samt-pantelånervirksomhed . Competitor search in Danish (brugthandler software, bevilling, legitimation journal) found no dedicated product, only the law texts. Absence of a product is unverified because the search engine returned legal texts.",
+     "existing": "None found for ID log or purchase register. Generic POS and bookkeeping systems exist. Unverified whether the police or a POS vendor offers a template.",
+     "known_mark": "new",
+     "name": "Used-goods licence and ID-check purchase log for second-hand shops, pawnbrokers and gold or jewellery buyers (new act in force 1 Jan 2025)",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Lov om handel med brugte genstande samt pantelånervirksomhed (LBK 1450 of 10 Dec 2024; BEK 1497 of 10 Dec 2024), in force 1 Jan 2025. Police licence required. MitID or photo-ID check on sales above DKK 2,000, with records kept 5 years. Duty to report suspected stolen goods and hold items. Pawn rules cover interest, loan terms and auction proceeds. The old physical books requirement was dropped, with bogføringsloven applying instead.",
+     "unchecked": "Number of licensees and how many are small. Exact record fields the police require. Whether POS or second-hand vendors already add an ID-check log. Whether the act sets a reporting format or API to the police. How online resellers are enforced. Willingness to pay."
+    },
+    {
+     "buyer": "Private forest owners (forest area now counts toward the 10 ha threshold), nurseries and greenhouse growers (VAT-liable turnover of DKK 50,000 or more), golf courses and other turf managers, small farms",
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "evidence": "https://www2.mst.dk/Udgiv/publikationer/2025/12/978-87-7564-073-7.pdf ; https://www.lovguiden.dk/loven/sprøjtejournalbekendtgørelsen/5 ; https://landbrugsavisen.dk/stoerre-skove-skal-nu-indberette-sproejtejournal-187475 . Competitor search in Danish: Mark Online can file SJI through a power-of-attorney route (per Miljøstyrelsen's exemption form). Farmtrace and Næsgaard Mark were not confirmed. No dedicated nursery, golf or forest-owner tool was found.",
+     "existing": "Mark Online (farm field program); Næsgaard Mark; Farmtrace (SJI link unconfirmed)",
+     "known_mark": "new",
+     "name": "Digital sprøjtejournal and SJI reporting for small professional pesticide users beyond arable farms (forest owners, nurseries, golf and sports-turf operators)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Sprøjtejournalbekendtgørelsen (BEK 983 of 26 Jun 2025, re-issued as BEK 1616 of 8 Dec 2025; Miljøstyrelsen guidance nr. 82, Dec 2025). Journal kept 3 years, reported to SJI by 31 March. Fully digital format required by 31 Jan 2028. Field-level reporting from 10 ha.",
+     "unchecked": "Whether forest owners and nurseries are served by a cheap tool. How many forest owners newly in scope. Whether SJI allows simple manual entry that removes the pain. Dealer-side duties were not checked."
+    },
+    {
+     "buyer": "Small owners of pressure vessels, compressors, boilers and lifts (workshops, farms, restaurants, housing associations, property owners)",
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "evidence": "https://www.lovguiden.dk/loven/bekendtgørelse-om-anvendelse-af-trykbærende-udstyr/19 ; https://www.lovguiden.dk/loven/bekendtgørelse-om-anvendelse-m-v-af-elevatorer-rulletrapper-og-lignende-maskiner . No competitor search run (score under 3 at this stage). Inspection firms may already send reminders.",
+     "existing": "Unchecked. Inspection bodies likely send reminders.",
+     "known_mark": "new",
+     "name": "Owner compliance calendar and register for pressure equipment and lifts (periodic inspection tracking for small owners and housing associations)",
+     "score": 3,
+     "status": "weak",
+     "trigger": "BEK 498 of 22 May 2024 on pressure equipment: control classes, intervals capped by annex 5, DANAK-accredited inspection bodies, the owner must keep an updated equipment list and documentation. BEK 461/2016 on lifts: inspection attest every 3 years (2 years for some), and the lift may not run if the inspection date has passed.",
+     "unchecked": "Whether inspection bodies already provide customer portals or reminders. Whether the small owner base is large. Whether there is a state register owners must update."
+    },
+    {
+     "buyer": "Equine vets and small mixed practices",
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "evidence": "https://www.lovguiden.dk/loven/dyrlægebekendtgørelsen/35 ; https://foedevarestyrelsen.dk/Media/638751379152946818/Præsentation til dialogmøder heste vetstat 2025 - rettet til 13022025.pdf",
+     "existing": "VetStat accepts manual entry, Excel upload and practice management system links. Vet systems probably integrate (unverified).",
+     "known_mark": "new",
+     "name": "VetStat reporting for equine and small vet practices (horses included from 2026?)",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "BEK 1186 of 3 Oct 2025: monthly VetStat reporting by the 10th for production animals, keeping data 1 year, errors fixed within 3 months. A Fødevarestyrelsen presentation of Jan 2025 says horses are treated as production animals and all prescription medicine must be reported from 2026, but the BEK text found still exempts horses (conflict).",
+     "unchecked": "Whether the horse change is in force. Which practice systems already file to VetStat. Size of the buyer group."
+    },
+    {
+     "buyer": "Small taxi kørselskontorer and independent taxi operators",
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "evidence": "https://www.lovguiden.dk/praksisoversigt/branche/taxi (AI-generated page, verify against retsinformation) ; https://www.lovguiden.dk/loven/taxibekendtgørelsen",
+     "existing": "Large dispatch platforms (Dantaxi and similar, unverified) handle this. Not searched.",
+     "known_mark": "new",
+     "name": "Kørselskontor data retention and annual ISAE 3000 audit pack for small taxi dispatch offices",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Taxiloven; taxibekendtgørelsen 10: trips and driver shifts collected digitally and kept 5 calendar years; the administrative system is audited annually to ISAE 3000. Vehicle registration number must be filed with Færdselsstyrelsen via virk.dk. Interior camera and taxameter requirements.",
+     "unchecked": "Number of small independent kørselskontorer. Existing dispatch software vendors."
+    },
+    {
+     "buyer": "Danish clients (including private persons) hiring foreign firms for construction, agriculture, forestry, horticulture, gardening and cleaning; small foreign service providers",
+     "category": "15. Labour contractors and recruitment agencies",
+     "evidence": "https://www.danskindustri.dk/vi-radgiver-dig/personale/nyhedsarkiver---personaleforhold/nyheder-personalejura/2025/12/nye-krav-til-udenlandske-tjenesteydere-fra-nytar/ ; https://www.lovguiden.dk/praksisoversigt/branche/rengoering/historie",
+     "existing": "Free state register on virk.dk; construction chains known as K01. Not searched.",
+     "known_id": "K01",
+     "known_mark": "new",
+     "name": "RUT proof-of-registration checks for hiring parties (households and small firms using foreign contractors) and RUT document upload for foreign providers",
+     "score": 2,
+     "status": "weak",
+     "trigger": "RUT register: from 1 Jan 2026 foreign providers must upload service agreement, employment contracts and permits; hiring parties must see RUT proof in listed sectors or face fines; ID-showing duty from 1 Jan 2025.",
+     "unchecked": "Whether a tool beyond the free virk.dk lookup has value. Whether non-construction hirers feel any pain."
+    },
+    {
+     "buyer": "Private childminders (up to 5 children, or 10 if two or more carers)",
+     "category": "20. Small licensed premises with inspections (childminders and nurseries)",
+     "evidence": "https://www.borger.dk/familie-og-boern/boernepasning/dagpleje-vuggestue-boernehave-og-privat-pasning ; https://egedalkommune.dk/p/Mit-liv/Dagtilbud og skole/Retningslinjer-for-private-pasningsordninger_vesion2-2024.pdf",
+     "existing": "Not searched.",
+     "known_mark": "new",
+     "name": "Private pasningsordning and municipal-approved childminder compliance pack",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Dagtilbudsloven: municipal approval and supervision of private pasningsordninger; written care agreements; guidelines vary by municipality.",
+     "unchecked": "Whether there is any recurring report to the municipality. Municipal variation."
+    },
+    {
+     "buyer": "Host families (B2C)",
+     "category": "1. Household employers",
+     "evidence": "https://www.lovguiden.dk/loven/bekendtgørelse-om-meddelelse-af-opholdstilladelse-med-henblik-på-au-pair-ophold/4 ; https://eiglaw.com/?p=14115",
+     "existing": "Au pair agencies (not searched)",
+     "known_mark": "new",
+     "name": "Au pair host-family compliance helper (pocket money payment proof, insurance, language-fee payment to SIRI)",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Udlændingeloven 21a; BEK 1611 of 7 Dec 2025. DKK 5,250/month pocket money paid to the au pair's Danish bank account by last banking day, DKK 20,900 language contribution paid to SIRI, three insurances. SIRI can bar hosts for 2 years.",
+     "unchecked": "Agency coverage. Households per year. B2C willingness to pay."
+    },
+    {
+     "buyer": "Small charities and associations running public collections",
+     "category": "17. Community and religious bodies",
+     "evidence": "https://lovguiden.dk/det-offentlige/civilstyrelsen/2026-05-21-ansoegninger-til-indsamlinger-i-2028-aabner-1-juni-2026 ; https://www.ft.dk/samling/20231/almdel/reu/spm/1356/svar/2067754/2904558.pdf",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Association collections (indsamling) accounts and licence helper for small charities and associations",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Indsamlingsloven: Indsamlingsnævnet permission (up to 3 years), accounts control by the board, house and street collection windows (2028 round closed 1 Sep 2026).",
+     "unchecked": "Annual accounts format. Number of small collectors."
+    },
+    {
+     "buyer": "Small valutaveksling offices",
+     "category": "19. Market traders, street vendors, money changers",
+     "evidence": "https://www.lovguiden.dk/praksisoversigt/branche/valutaveksling ; https://www.lovguiden.dk/loven/hvidvaskloven/48",
+     "existing": "Generic AML tooling (see K12)",
+     "known_id": "K12",
+     "known_mark": "known",
+     "known_note": "Same core AML duty and mature generic tooling; buyer group (exchange offices) is tiny.",
+     "name": "Currency exchange and AML register compliance for small exchange offices",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Hvidvaskloven (LBK 433 of 17 Apr 2026); permit and fit-and-proper rules, Finanstilsynet registration under 48, ownership change notice within 2 weeks.",
+     "unchecked": "Number of licensed exchange offices."
+    },
+    {
+     "buyer": "Small driving schools and independent instructors",
+     "category": "20. Small licensed premises with inspections (driving schools)",
+     "evidence": "https://www.lovguiden.dk/praksisoversigt/branche/koereskole ; https://admin.fstyr.dk/Media/638161824212603046/Vejledning%20om%20efteruddannelse%20af%20k%c3%b8rel%c3%a6rere.pdf",
+     "existing": "Not searched; driving-school booking systems probably exist",
+     "known_mark": "new",
+     "name": "Driving-school instructor 5-year approval renewal and teaching-record tracker",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Personal approval under færdselsloven 66, renewable every 5 years with compulsory further training; the new Færdselslov changes age and trainee rules (sources conflict); driving education restructured from summer 2026 (one unverified source).",
+     "unchecked": "Current text of the new Færdselslov. Existing school management software."
+    },
+    {
+     "buyer": "Vildthåndteringsvirksomheder and registered vildtdepoter (hunting consortia, landowners)",
+     "category": "20. Small licensed premises with inspections (hunting outfitters)",
+     "evidence": "https://netnatur.dk/viden-reglerne-jaegeres-salg-vildt/ ; https://www.ft.dk/samling/20231/almdel/mof/spm/291/svar/2018106/2817388.pdf (secondary sources, and the report format was not seen)",
+     "existing": "Not searched",
+     "known_mark": "new",
+     "name": "Game handling business and vildtdepot volume reporting to Fødevarestyrelsen",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Food hygiene rules; game handlers must be authorised and report volumes received to FVST; depots must be registered.",
+     "unchecked": "Report format and frequency. Number of depots."
+    },
+    {
+     "buyer": "Tattoo studios",
+     "category": "20. Small licensed premises with inspections (tattoo studios)",
+     "evidence": "https://www.lovguiden.dk/praksisoversigt/branche/tatovoer ; https://www.lovguiden.dk/loven/tatoveringsloven/7",
+     "existing": "None found; no recurring reporting duty found",
+     "known_mark": "new",
+     "name": "Tattoo studio registration and hygiene compliance",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Tatoveringsloven (LOV 695 of 8 Jun 2018): Sikkerhedsstyrelsen registration, SSI hygiene course, inspection; EU ink restriction in force 4 Jan 2022.",
+     "unchecked": "Whether inspection frequency or documentation creates a recurring duty."
+    },
+    {
+     "buyer": "Slamsuger contractors and property owners with septic tanks",
+     "category": "11. Septic, sanitation and waste haulers",
+     "evidence": "https://thisted.dk/Media/638128253998746243/PDF_Tømningsregulativ 2022.pdf ; https://www.Stevns.dk/Media/637703149856843200/regulativ_for_toemningsordning_2020.pdf",
+     "existing": "Not searched; utilities run contractor systems",
+     "known_id": "K03",
+     "known_mark": "known",
+     "known_note": "Close to the waste-hauler reporting idea, and contractors are appointed by the municipality or utility, which limits the buyer.",
+     "name": "Septic and sludge emptying records for municipal tømningsordninger",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Municipal tømningsregulativer under miljøbeskyttelsesloven and spildevandsbekendtgørelsen kap. 18; owner access, deregistration through an authorised kloakmester.",
+     "unchecked": "Whether contractors report to municipalities electronically."
+    },
+    {
+     "buyer": "Scrap dealers",
+     "category": "2. Scrap-metal dealers",
+     "evidence": "https://www.lovguiden.dk/praksisoversigt/branche/skrothandel-metalgenbrug",
+     "existing": "ADS (state system)",
+     "known_id": "K03",
+     "known_mark": "known",
+     "known_note": "Same waste-data duty.",
+     "name": "Scrap-metal dealers: no police register; ADS and VAT reverse-charge only",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Miljøbeskyttelsesloven approval, Affaldsregister/ADS reporting, momsloven 46 reverse charge on metal scrap.",
+     "unchecked": "Whether metal-scrap reverse-charge reporting has a separate form."
+    },
+    {
+     "buyer": "Butchers and retail food producers",
+     "category": "7. Small abattoirs and butchers",
+     "evidence": "https://www.danskerhverv.dk/presse-og-nyheder/nyheder/2026/september/fodevarestyrelsens-kontrol-har-fokus-pa-risikoanalyse-og-egenkontrol/",
+     "existing": "See K11",
+     "known_id": "K11",
+     "known_mark": "known",
+     "known_note": "Same buyer and duty; rejected for competition.",
+     "name": "Food egenkontrol for butchers and retail producers (Sep-Dec 2026 inspection campaign)",
+     "score": 0,
+     "status": "weak",
+     "trigger": "Fødevarestyrelsen campaign Sep-Dec 2026 on risk analysis and egenkontrol; new authorisation order 1 May 2026 (unverified).",
+     "unchecked": "None."
+    },
+    {
+     "buyer": "Well drillers",
+     "category": "10. Well drillers and water abstraction",
+     "evidence": "https://www.lovguiden.dk/praksisoversigt/branche/broendboring",
+     "existing": "See K04",
+     "known_id": "K04",
+     "known_mark": "known",
+     "known_note": "Same.",
+     "name": "Well drillers: borehole notification, 14-day wait and GEUS reporting",
+     "score": 0,
+     "status": "weak",
+     "trigger": "BEK on boringer (notify the municipality, GEUS Jupiter reporting, abandonment within 3 months).",
+     "unchecked": "None."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "1. Household employers: domestic workers, live-in carers, nannies",
+     "found": "Au pair host families must pay DKK 5,250/month (2026), DKK 20,900 language contribution to SIRI, hold three insurances (BEK 1611 of 7 Dec 2025); SIRI can ban hosts for 2 years. Ordinary household employers use SKAT eIndkomst/virk.dk, with no household-specific scheme found. B2C and low value. Candidate C08 only.",
+     "status": "screened"
+    },
+    {
+     "category": "2. Scrap-metal dealers",
+     "found": "No police licence or register for scrap in Denmark. It is regulated through environmental approval, the Affaldsregister/ADS reporting and a VAT reverse charge on metal scrap (momsloven 46), per Lovguiden. Nothing new beyond K03.",
+     "status": "screened"
+    },
+    {
+     "category": "3. Second-hand dealers and pawnbrokers",
+     "found": "New Act on trade in used goods and pawnbroking (LBK 1450 of 10 Dec 2024, BEK 1497/2024), in force 1 Jan 2025. It requires a police licence, MitID or photo-ID checks on sales above DKK 2,000 with records kept 5 years, and a duty to report suspected stolen goods. The old physical books requirement was dropped. Candidate C01.",
+     "status": "screened"
+    },
+    {
+     "category": "4. Gold and jewellery buyers",
+     "found": "Gold buyers fall under the used-goods act, so C01 covers them. Whether they also fall under the AML act was not confirmed. Currency exchange needs a Finanstilsynet permit and AML register entry (hvidvaskloven 48), C10.",
+     "status": "screened"
+    },
+    {
+     "category": "5. Used car parts and vehicle dismantlers",
+     "found": "Autoophugning is listed activity K 209 (municipal environmental approval, standard conditions) plus the scrapping scheme (skrotningsgodtgørelse paid by the dismantler). Only 2005-2021 sources were found. The current scrapping-scheme reporting duty was not verified. Nothing new beyond K03.",
+     "status": "screened"
+    },
+    {
+     "category": "6. Livestock traders, markets and animal transport",
+     "found": "Commercial animal trade needs a Fødevarestyrelsen permit (BEK on erhvervsmæssig handel med dyr). Herds are registered in CHR (BEK 1318 of 28 Nov 2024). Animal transport rules are on the transport order. No small-operator reporting gap found. Dealer-specific CHR duties unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "7. Small abattoirs and butchers",
+     "found": "The authorisation order took effect 1 May 2026 (one secondary source, unverified). Fødevarestyrelsen runs a Sep-Dec 2026 campaign on risk analysis and egenkontrol in butchers and similar retail. A cost-support scheme for small abattoirs (up to 35,000 animal units) continues in 2026. Nothing new beyond K11.",
+     "status": "screened"
+    },
+    {
+     "category": "8. Beekeepers",
+     "found": "The bee-yard register CBR (cbr.pdir.dk) appears voluntary; mandatory status was not confirmed. Egenkontrol is a branch code (Danmarks Biavlerforening) and not a law. Wholesale honey buyers need FVST registration. Nothing material.",
+     "status": "screened"
+    },
+    {
+     "category": "9. Veterinary practices and veterinary medicine sellers",
+     "found": "Vets must report to VetStat monthly by the 10th, via manual entry, Excel upload or practice system (BEK 1186 of 3 Oct 2025). A Fødevarestyrelsen presentation says horses are included from 2026, but the BEK still exempts horses. Candidate C04, unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "10. Well drillers and water abstraction",
+     "found": "Drillers need an A or B certificate. Notification to the municipality is required 14 days before drilling, and GEUS/Jupiter reporting follows, with abandonment reported within 3 months. Nothing new beyond K04.",
+     "status": "screened"
+    },
+    {
+     "category": "11. Septic, sanitation and waste haulers",
+     "found": "Septic emptying runs through municipal tømningsordninger, with contractors appointed by the municipality or utility (regulativer). No contractor reporting format found. Nothing new beyond K03 and K06.",
+     "status": "screened"
+    },
+    {
+     "category": "12. Lift, boiler and pressure-equipment owners and inspectors",
+     "found": "Lifts must be inspected every 3 years (every 2 for rope lifts without safety gear and for paternosters) by an accredited body (BEK 461/2016). Pressure equipment is covered by BEK 498 of 22 May 2024: control classes, DANAK-accredited inspection bodies, and the owner must keep an updated equipment list and documentation. Candidate C03.",
+     "status": "screened"
+    },
+    {
+     "category": "13. Small water systems",
+     "found": "Not re-searched, as it is covered by K05 and K13. The Danske Vandværker tools are already known.",
+     "status": "screened"
+    },
+    {
+     "category": "14. Pesticide and fertiliser dealers and applicators",
+     "found": "Sprøjtejournalbekendtgørelsen (BEK 983 of 26 Jun 2025, then BEK 1616 of 8 Dec 2025). The journal must be kept 3 years and reported to SJI by 31 March. The digital format is mandatory by 31 Jan 2028. Forests now count toward the 10 ha threshold. Nurseries with VAT-liable turnover of DKK 50,000 or more must report. Candidate C02. Dealer side not verified.",
+     "status": "screened"
+    },
+    {
+     "category": "15. Labour contractors and recruitment agencies",
+     "found": "RUT register: from 1 Jan 2026 foreign service providers must upload service agreement, employment contracts and residence/work permits. Hiring parties in construction, agriculture, forestry, horticulture, gardening and cleaning must see RUT proof. Danish temp-agency licensing was not found. Candidate C06.",
+     "status": "screened"
+    },
+    {
+     "category": "16. Cemeteries, burial societies and funeral services",
+     "found": "Parish cemeteries use a ministry-approved electronic cemetery system, with cemetery regulations (kirkegårdsvedtægter) and annual checks of plots against maps. No undertaker licensing or reporting duty found. Nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "17. Community and religious bodies: associations, charities, halal and kosher supervision",
+     "found": "The Indsamlingsnævnet licence applies to public collections, with accounts control. The 2028 house and street collection application window was 1 Jun to 1 Sep 2026 (closed). Halal and kosher supervision were not searched. AML and reelle ejere rules for associations were not found. Candidate C09 (weak).",
+     "status": "screened"
+    },
+    {
+     "category": "18. Transport operators: minibus, taxi, moto-taxi, small trucking and bus fleets",
+     "found": "Taxi: the kørselskontor must collect trip and shift data digitally and keep it 5 years, with an annual ISAE 3000 audit (taxibekendtgørelsen 10, taxiloven 25). Bus: permit under buskørselsloven, and the permit requirement for bus rental was abolished 1 Apr 2025 (Act 306/2025). No new taxi law found for 2025-26. Candidate C05.",
+     "status": "screened"
+    },
+    {
+     "category": "19. Market traders, street vendors, money changers",
+     "found": "Market and street trading is a municipal stand-permit regime that varies by municipality (Svendborg, Silkeborg, Horsens, Kerteminde). No cash-register or reporting duty found. Currency exchange needs a Finanstilsynet permit and AML register entry (C10).",
+     "status": "screened"
+    },
+    {
+     "category": "20. Small licensed premises with inspections: tattoo studios, driving schools, childminders and nurseries, small food producers, hunting outfitters",
+     "found": "Tattoo: Sikkerhedsstyrelsen registration and an SSI hygiene course (Tatoveringsloven 2018); no recurring report found. Driving instructors: personal approval renewable every 5 years, with details changing under the new Færdselslov (sources conflict). Private childcare: municipal approval and supervision, up to 5 children. Hunting: sales rules are light and no recurring report is required of hunters, but wild-game handling businesses report volumes received to FVST. Food egenkontrol is K11. Candidates C07 and C11 (weak).",
+     "status": "screened"
+    }
+   ],
+   "fetches": 0,
+   "queries": [
+    "hushjælp privat arbejdsgiver indberetning eIndkomst ... au pair",
+    "skrothandlere registrering metalskrot lov om indsamling af metalskrot politi register",
+    "brugthandlerloven pantelåner brugtvarehandler registreringspligt politiet",
+    "autoophugger godkendelse bilophugning registrering skrotningsbevis Miljøstyrelsen",
+    "CHR register kvæghandler dyretransport transportør tilladelse Fødevarestyrelsen",
+    "dyrlæge VetStat indberetning medicin ordinationer dyrlægepraksis krav 2026",
+    "biavler registrering CHR bigård bifolk Fødevarestyrelsen journal honning",
+    "boring brønd privat vandforsyning anmeldelse kommune GEUS Jupiter brøndborer indberetning",
+    "slamsuger tømning private spildevandsanlæg kommune tømningsordning indberetning",
+    "elevator syn kontrol ejere Sikkerhedsstyrelsen tryksatte anlæg inspektionsfirma",
+    "sprøjtejournal pesticider autorisation forhandlere Miljøstyrelsen",
+    "vikarbureau registrering RUT register udenlandsk arbejdskraft 2025 2026",
+    "kirkegård menighedsråd bedemand begravelsesforretning registrering gravstedsregister",
+    "forening indsamling tilladelse Indsamlingsnævnet hvidvask foreninger 2026",
+    "taxa kørselsregistrering taxameter ny taxalov 2025 2026 Færdselsstyrelsen",
+    "dagpleje privat pasning tilsyn tatovør kørelærer godkendelse",
+    "slagter lille slagteri autorisation egenkontrol smiley 2026",
+    "valutaveksling Finanstilsynet guldopkøb hvidvask Erhvervsstyrelsen",
+    "au pair tilladelse værtsfamilie lommepenge husassistent 2026",
+    "jagt vildtsalg vildtdepot Fødevarestyrelsen registrering",
+    "bevilling handel med brugte genstande genbrugsbutik 2025 legitimation journal software",
+    "digital sprøjtejournal app gartneri golfbane SJI",
+    "tryksatte anlæg trykbeholder syn ejer registrering Arbejdstilsynet",
+    "tatovører registrering Sikkerhedsstyrelsen kemikalier tilsyn",
+    "busvognmand minibus tilladelse Færdselsstyrelsen buskørselsloven 2026",
+    "sprøjtejournal digital program Mark Online Farmtrace SJI",
+    "torvehandel loppemarked markedshandel tilladelse kommune"
+   ],
+   "searches": 27
+  },
+  "tag": "w2b28"
+ }
+}

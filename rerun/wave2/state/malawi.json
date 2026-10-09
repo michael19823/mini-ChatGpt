@@ -629,6 +629,45 @@
   },
   "tag": "w2b65"
  },
+ "opus:malawi:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "NGORA runs its own state system, myNGO (www.myngo.mw). It was built by Idias Corporation (idias.mw) and covers registration, licensing, certificates, an NGO self-service portal, invoicing, online payments, document management and reports. The vendor page does not say whether annual reports are filed through it, and I could not confirm what it does today. The hardest part of the duty, the audit, has to be done by an auditor, and the Nation article names audit cost as the main barrier. Local accountants and auditors already serve this need. I found no private software built for NGORA compliance.",
+   "duty": "Confirmed and in force under Malawi's NGO Act 2022. NGOs must register with NGORA, renew an operating licence every year (the 2025 deadline was 31 Mar 2025), and file annual reports. Since Jan 2025 they must also have annual financial audits and report funding sources and spending. Penalties include fines, deregistration, court action, banking restrictions and being named in public lists (Nation, 11 Sep 2025: 321 NGOs at risk of deregistration). I did not open the Act itself, so the claimed s34/s35 fine amounts (K5m, K1m) are unverified. I also found no source confirming the 2026 deadline dates. Whether faith bodies under the Trustees Incorporation Act fall under the same rules was not reached.",
+   "market": "About 1,248 NGOs were registered with NGORA as of 1 Sep 2025 (Nation), up from 982 in 2022-23 and 1,208 in 2024-25 (MANA). Only about 61% met the annual-reporting duty, and fewer than 60% held valid licences (MBC). The market is very small: about 1,250 buyers, mostly donor-funded and short of cash.",
+   "reason": "The duty is real and enforced. But NGORA's own myNGO portal (online registration, licensing, payments and an NGO self-service portal) already covers the filing workflow. What is left is the audit, which needs a human auditor (the cost NGOs complain about), plus putting the annual report together, which accountants already do. The market is only about 1,250 registered NGOs, many of them donor-dependent with little money to pay, and there is one filing cycle a year. An MVP would just wrap the state portal and add reminders, which is little value to charge for. A done-for-you service bundled with audits would be an accountancy business, not software.",
+   "searches": 4,
+   "sources": "https://idias.mw/products-and-services/software-projects/myngo ; https://mwnation.com/321-unlicensed-ngos-risk-deregistration/ ; https://manaonline.gov.mw/index.php/sports/item/10241-ngora-records-surge-in-ngo-compliance-and-licensing ; https://mbc.mw/ngora-records-54-compliance-rate/ ; https://www.icnl.org/resources/civic-freedom-monitor/malawi ; https://africabrief.substack.com/api/v1/file/785f4b3a-248c-4a77-a6de-dd47f882ab69.pdf",
+   "suggested_score": 2,
+   "verdict": "refuted"
+  },
+  "tag": "w2b65"
+ },
+ "opus:malawi:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no Malawi product made for SACCO RBM returns. Intelligrow (Lilongwe) builds Mifos/Apache Fineract core banking for banks, MFIs and SACCOs. Its page names no SACCO clients. In June 2026 United Civil Servants SACCO began rolling out a new banking system; the vendor is not named. The RBM and World Bank have announced a shared portal / \"microfinance processing hub\" for licensed SACCOs. It is aimed at money transfers and ATMs, not returns, and its status is unverified. Whether MUSCCO supplies its own system: not found. Larger SACCOs probably get returns out of their core banking systems.",
+   "duty": "The Financial Cooperatives Act 2011 (Cap 46:10) is on MalawiLII, and a consolidated version dated 2014-12-31 is listed, so the Act appears to be in force. The RBM has regulated SACCOs under it since 2011. I could not open the text of the Act (MalawiLII returned 403) or the regalert copy of the 2013 Reporting Requirements Directive (429 twice). So the monthly, quarterly and annual returns, the CEO/finance certification, the MIS requirement and the penalties (K20,000 plus K5,000 per day; personal fines up to K50,000) are not verified.",
+   "market": "The market is very small. A 2018 Nation article citing MUSCCO counts 36 licensed SACCOs. An undated Nation article quotes a SACCO official saying 18 remain, down from 26, after failures and mergers. A later Nation figure, as summarised by search, is 46 SACCOs with about 110,540 members. In about 2013 the RBM directly supervised 19 SACCOs holding 70-80% of sector assets; the smaller ones were supervised through MUSCCO under an MOU. Even counting all SACCOs, there are probably well under 100 buyers.",
+   "reason": "The duty is plausible because the Act is in force and the RBM supervises SACCOs. But I could not open the directive's text, so the return frequencies and penalties are unconfirmed, and the verdict is unverifiable rather than confirmed. The deciding problem is market size: roughly 18-46 licensed SACCOs in Malawi, and the biggest already run, or are moving to, core banking systems (Fineract implementers such as Intelligrow are in Lilongwe; UCSSACCO launched a new system in 2026) that can produce returns. The RBM/World Bank shared SACCO hub could also take over the infrastructure. Small rural SACCOs under MUSCCO have little to spend. A returns-only tool is simple to build, but the revenue ceiling is tiny unless it spreads to other countries.",
+   "searches": 6,
+   "sources": "https://malawilii.org/akn/mw/act/2011/8 ; https://malawilii.org/akn/mw/act/2011/8/eng@2014-12-31 ; https://mwnation.com/?p=233259 ; https://mwnation.com/rbm-world-bank-to-bring-saccos-under-one-portal/ ; https://www.treasury.gov.za/coopbank/Conferences/CFI%20Indaba%20and%2014th%20SACCA%20Congress%2028%20Oct%20-%201%20Nov%202013/Regulation of financial cooperatives.pdf ; https://intelligrow.co/location/malawi/lilongwe/ ; https://allafrica.com/stories/202606250636.html",
+   "suggested_score": 2,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b65"
+ },
+ "sonnet:malawi:B8": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Mines and Minerals Act 2023 (Law 25/2023) exists, but a MalawiLII snippet marks it uncommenced, while 2026 press treats it as operative. I couldn't open the Act (403), so the production-declaration duty, its frequency and its penalties are unconfirmed. Reported scale: about 22,000 artisanal and small-scale miners (undated Department of Mines figure), mostly unlicensed, and 199 licences in 2020 across all types. The register is thin and the cadastre status is unclear. I found no competing product, but the buyers are low-literacy, informal and have little ability to pay. Only a done-for-you service looks plausible. Weak pain, weak enforcement, a small paying base.",
+   "searches": 2,
+   "sources": "https://malawilii.org/akn/mw/act/2023/25/eng@2023-06-16 ; https://www.a-mla.org/en/country/Malawi ; https://mwnation.com/malawi-set-to-migrate-to-mining-electronic-platform/ ; https://allafrica.com/stories/202607280582.html ; https://www.trade.gov/country-commercial-guides/malawi-mining-and-minerals",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b65"
+ },
  "triage:malawi": {
   "result": {
    "decisions": [

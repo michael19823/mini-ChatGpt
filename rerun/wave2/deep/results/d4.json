@@ -1,0 +1,110 @@
+{
+ "batch": "d4",
+ "used": 160,
+ "results": [
+  {
+   "slug": "france-b1",
+   "verdict": "maybe",
+   "score": 5,
+   "one_line": "France's loi Le Meur requires a national registration number for every tourist rental (about 1.2M units; the free teleservice is due in Q4 2026), and conciergeries, which the DGE treats as intermediaries, must also send each unit's number, address, URLs and nights rented to API Meublés every quarter. That supports a small compliance console for about 5,000 conciergeries, but PMS vendors could easily add the same feature.",
+   "buyers": "About 5,000 conciergeries in 2024 (Xerfi, Oct 2025; not a register count, Sirene not checked), plus agencies holding a carte G that run seasonal rentals. They manage part of about 1.2 million meublés de tourisme (\"plus de 1,2 million d'enregistrements projetés\", AN QE 14825, JO 5 May 2026). The DGE explicitly names conciergeries as intermediaries (entreprises.gouv.fr API Meublés page).",
+   "price": "My estimate (unverified): 1-2 EUR per unit per month (about 30-100 EUR a month per conciergerie), plus 20-39 EUR per unit for assisted filing. Today hosts file for free through the commune or the coming teleservice. Hostcare charges 39 EUR TTC per unit for done-for-you filing, and PMS tools (Smoobu, Lodgify) store and sync the number within their subscription. Host fines reach 10,000 EUR (no declaration) and 20,000 EUR (false number), per secondary sources only (unverified against Légifrance).",
+   "top_competitor": "PMS/channel managers (Smoobu, Lodgify) already store and sync the number to listings and hold the booking data needed for API Meublés reporting. Hostcare files for 39 EUR per unit. The national teleservice is free (Q4 2026).",
+   "killer": "None confirmed. Biggest risk: PMS vendors add an API Meublés export and number tracking as a bundled feature. Also unproven: the renewal period for registration numbers is unpublished, so the registration part may be a one-off 2026-27 wave.",
+   "report": "/home/user/mini-ChatGpt/rerun/wave2/deep/reports/france-b1.md",
+   "searches": 20,
+   "blocked_searches": 0
+  },
+  {
+   "slug": "japan-b2",
+   "verdict": "maybe",
+   "score": 5,
+   "one_line": "About 22,000 Japanese animal-sales businesses (13,400 of them dog and cat breeders) must keep a 5-year per-animal ledger and file a yearly count report under Art. 21-5 of the Animal Welfare Act. No Japanese software does this job, but free prefectural Excel templates, a fine capped at ¥200,000 and soft enforcement mean the report alone will not sell. It only works bundled into a cheap breeder compliance app covering the breeding ledger, staff ratios and microchip deadlines.",
+   "buyers": "環境省 national register as of 2024-04-01: 50,335 type-1 establishments. Of these, 22,334 are sales (16,886 dog and cat sellers, including 13,362 breeders), plus 1,601 rental, 4,352 exhibition and 268 譲受飼養 that carry the same duty. That is about 28,500 obliged registrations counted with overlap, or roughly 23,000-26,000 distinct sites (estimate). Source: https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r06/2_1_1.pdf",
+   "price": "Today buyers pay ¥0: they use free prefectural Excel templates, paper or LoGo e-filing. Generic cloud POS costs ¥0-15,000 per month. An unverified article claims pet-management software at ¥80,000-200,000 per year. A plausible price is ¥980-2,980 per month for a breeder app, or a ¥4,980 report-season pack (untested).",
+   "top_competitor": "Free prefectural Excel templates (様式第11の2 plus ledger sheets from Tokyo, Saitama, Sendai, Kyoto and others) with LoGo e-filing in Tokyo and Saitama. No Japanese commercial product was found. Foreign breeder apps (BreederHQ, Breeder Cloud Pro) lack the Japanese format.",
+   "killer": "No outright killer. The biggest risk is low willingness to pay. The annual report is simple head counts from a free template. The penalty is a 過料 of up to ¥200,000 (Art. 49), and enforcement relies on reminders: more than 2,200 dog and cat sellers did not file in 2015. Many buyers are small home breeders.",
+   "report": "/home/user/mini-ChatGpt/rerun/wave2/deep/reports/japan-b2.md",
+   "searches": 20,
+   "blocked_searches": 0
+  },
+  {
+   "slug": "south-africa-b4",
+   "verdict": "maybe",
+   "score": 5,
+   "one_line": "FIC Directive 12 (in force 7 Sep 2026) now makes about 9,300 small law firms, about 7,000 credit providers and other Schedule 1 institutions upload a board-approved RMCP via goAML every year (9 Oct or 31 Oct), and the GN 7B rewrite adds demand for updates. But free FIC and LSSA templates, an entrenched nCino KYC/LSSA partnership, low typical fines and once-a-year seasonality cap a guided tailoring-and-filing tool at a small niche business.",
+   "buyers": "60,115 FIC-registered institutions at 31 Mar 2026, of which 11,147 submitted RMCPs in 2025/26 (FIC annual report via Moonstone). The core buyers are about 9,307 law firms (6,969 sole practitioners and 2,241 firms of 2-9 attorneys, LSSA 2026 statistics) and about 7,000-7,600 NCR-registered credit providers (2023/24-2024, unverified). I found no count of high-value goods dealers.",
+   "price": "About R1,500-R3,500 a year, plus R2,500-R5,000 for a first tailored RMCP (my estimate). Today buyers pay R4,995 one-off for the Moonstone FICA Toolkit plus hourly help (5-hour minimum), quote-based consultant fees, or nCino KYC (onboarding valued at R7,500-R45,000, waived for LSSA firms). Many use the free FIC PCC 53 template or the free LSSA guide.",
+   "top_competitor": "nCino KYC (formerly DocFox): a KYC/CDD platform with an RMCP template and a paid RMCP-tailoring service, an LSSA partnership with free onboarding and training, and AJS, LegalSuite and Lexpro integrations. The free FIC PCC 53 template and the LSSA guide are the main free substitutes.",
+   "killer": "None found that kills it outright. The biggest risk is that the FIC and LSSA reject generic templates, while free official guidance and nCino KYC's LSSA-backed offer already serve law firms. Typical small-firm fines are only about R10k per matter, and filing happens once a year, so urgency and recurring value are limited.",
+   "report": "/home/user/mini-ChatGpt/rerun/wave2/deep/reports/south-africa-b4.md",
+   "searches": 20,
+   "blocked_searches": 0
+  },
+  {
+   "slug": "argentina-b2",
+   "verdict": "maybe",
+   "score": 4,
+   "one_line": "INAES has put a dense, enforced set of recurring filings on lending mutuales: a monthly lending return (Res 1279/2026), a quarterly member roll (Res 756/2025), an annual AML declaration (Res 1567/2026) and CRS member identification (Res 1038/2026). But every filing goes through free INAES web systems that are gaining automatic loading, and the paying segment is small and volunteer-run, so a compliance calendar and data-prep tool sold through accountants is only a modest niche.",
+   "buyers": "No current official count. CAM cites about 4,000-5,000 mutuales (2017 study, https://repositorio.21.edu.ar/handle/ues21/17679). Santa Fe had 300 lending mutuales out of 850 in 2020 (https://www.santafe.gob.ar/noticias/noticia/267621/). Extrapolated, that gives about 1,400-1,750 lending mutuales nationally (unverified), plus credit and loan-brokering co-operatives. All co-operatives and mutuales (about 32,000 registered before purges, undated, Mercado) must file the annual roll.",
+   "price": "Unverified estimate of ARS 25,000-60,000 a month per entity (about USD 20-50), or a per-accountant licence covering 5-20 entities. Today buyers pay nothing for the free INAES filing systems, and accountants bundle this work into retainers (no public prices found). The cost of not filing is suspension or withdrawal of the licence to operate (Res 565/2026), lapse of the lending rules, and UIF fines counted in ARS 54,140 units.",
+   "top_competitor": "INAES's own free web systems: the Res 1279 lending-return form, the Res 756 roll with bulk load, and the Res 1567 AML Module II with data migration and automatic load. Among private products, the strongest is Grupo Neo Sistemas, a mutual ERP with the MutualOnline app; no INAES export was confirmed for it.",
+   "killer": "None found that kills it outright. The biggest risk is INAES's ongoing unification of all regimes into one free system with automatic loading, combined with a small, low-budget, volunteer-run buyer base.",
+   "report": "/home/user/mini-ChatGpt/rerun/wave2/deep/reports/argentina-b2.md",
+   "searches": 20,
+   "blocked_searches": 0
+  },
+  {
+   "slug": "argentina-a6",
+   "verdict": "no-go",
+   "score": 2,
+   "one_line": "UIF Res. 55/2024 is a real and detailed duty for jewellers and precious-metal dealers, but only 360 firms are registered nationally (FATF 2024) and enforcement is very light, so a jeweller-only compliance product is too small; it only works as one module in a wider tool for the 30,000+ non-financial obliged subjects.",
+   "buyers": "360 dealers in precious metals and stones registered with UIF as of March 2024 (FATF/GAFILAT Mutual Evaluation of Argentina 2024, Tables 1.2 and 6.1). UIF received 125 applications and rejected 77 between 2019 and 2024. Unregistered informal jewellers and gold buyers are more numerous, but no count was found (unverified).",
+   "price": "Plausible price is about AR$30-80k a month for a SaaS, or AR$250-600k for a one-off self-assessment and manual pack (estimate, unverified). There are no Argentine price points. The Mexican jeweller tool KYC Systems charges from MXN 5,000 a month. Filing on UIF's SRO+ portal and the RSM Masivo app is free. FACPCE publishes a free risk-matrix template. Fines for ordinary breaches run 15-2,500 módulos (about AR$0.8M-135M at AR$54,140 per módulo).",
+   "top_competitor": "The free UIF SRO+ portal and RSM Masivo app for filing, plus accountants and AML consultants using the free FACPCE self-assessment guide and risk matrix. No Argentine jeweller-specific AML software was found; the closest analogue is Mexico's KYC Systems.",
+   "killer": "The market is too small and lightly enforced. Only 360 registered firms exist, in a sector rated low-risk by the national risk assessment and the FATF. UIF made only 16 AML inspections of the sector from 2019 to March 2024, and historic fines were about US$25-125.",
+   "report": "/home/user/mini-ChatGpt/rerun/wave2/deep/reports/argentina-a6.md",
+   "searches": 20,
+   "blocked_searches": 0
+  },
+  {
+   "slug": "malaysia-b2",
+   "verdict": "no-go",
+   "score": 3,
+   "one_line": "The koperasi accounts-and-audit duty is real and widely breached, but the regulator (SKM) is itself building a free 'Easy COOP 2.0' simplified accounting system (tender S005/2026, Apr-May 2026). The buyers are about 86% micro or dormant koperasi with no income, the audit still needs a licensed approved auditor, and Act 502 is being replaced.",
+   "buyers": "16,468 registered koperasi in 2025 (Kosmo/Bernama report of the SKM chairman's figures). About 85.8% are micro with turnover of RM200k or less (12,550 of 14,629, SKM data for 2020 cited in a UiTM paper). About 9,300 were active in 2020. 7,779 do not keep accounts and 2,304 are unaudited (Dewan Rakyat, Dec 2024).",
+   "price": "No published prices. SKM's audit/accounting grant of RM3,000 (Peninsular) or RM3,500 (Sabah/Sarawak), and ANGKASA's RM1,000 accounting aid, suggest a micro koperasi pays roughly RM1,000-3,500 a year for accountant plus auditor (unverified). A tool could plausibly charge RM30-100 a month, but willingness to pay among dormant koperasi is very low.",
+   "top_competitor": "SKM's own EASY COOP 2.0 'Sistem Perakaunan Konsep Mudah Koperasi' (regulator-commissioned, likely free; successor to the free p-SKM Excel tool / Easy Coop 1.0). Also MOCCIS SPBK, ANGKASA's accounts-recovery unit, and SKM/ANGKASA grants that pay accountants.",
+   "killer": "The regulator is building its own simplified koperasi accounting system (EASY COOP 2.0, SKM tender S005/2026, closed 21 May 2026). On top of that, most obliged koperasi are micro or dormant with no income, and a new Co-operative Act replacing Act 502 is due around late 2026.",
+   "report": "/home/user/mini-ChatGpt/rerun/wave2/deep/reports/malaysia-b2.md",
+   "searches": 20,
+   "blocked_searches": 0
+  },
+  {
+   "slug": "malaysia-b3",
+   "verdict": "maybe",
+   "score": 4,
+   "one_line": "P.U.(A) 155/2025 sets a real daily duty with fines up to RM5,000. Every community pharmacy must keep a Form C Prescription Book, plus Form D engagement and Form E daily time-in/out records for each pharmacist, for 5 years, and MOH accepts electronic records. But the market is small (about 4,300 premises), inspected compliance is already 99%, and POS or time-clock tools can absorb the job cheaply, so it is only a thin niche add-on.",
+   "buyers": "4,320 private community pharmacy premises in 2024 (3,513 in 2021). There are 8,024 Type A licences and 5,677 licensed premises including wholesale (MOH Pharmaceutical Services Statistics Report 2024). About 2,500-3,000 of these are independents or small chains (estimate, unverified).",
+   "price": "Plausible price is RM29-69 per outlet per month. Today pharmacies pay nothing specific: they use paper books or their existing POS. The Type A licence costs only about RM270 a year. UK analogue e-registers cost £12-18 a month (PharmCD, CDsmart).",
+   "top_competitor": "Existing pharmacy POS/dispensing systems (e.g. GS Vision Pharmacy Manager, MyScripts, Faris) and generic time-attendance apps, which already hold the Form C and Form E data. There is no free MOH tool for private pharmacies.",
+   "killer": "No hard killer. The main risk is that POS and time-clock vendors bundle Form C/D/E exports at no extra cost, on top of low felt pain: MOH reports 99.39% of inspected licensed premises compliant, and warning letters come first.",
+   "report": "/home/user/mini-ChatGpt/rerun/wave2/deep/reports/malaysia-b3.md",
+   "searches": 20,
+   "blocked_searches": 0
+  },
+  {
+   "slug": "thailand-b1",
+   "verdict": "maybe",
+   "score": 4,
+   "one_line": "Thailand is renewing work permits for about 770,000 Lao, Myanmar and Vietnamese workers by 11 Dec 2026, and missing a renewal can cost an employer 10,000-100,000 baht per worker. The duty is real and enforced, but filing happens on a free state portal and 17,600+ proxy filers already do the legwork, so a small tool fits only a narrow niche: tracking deadlines across cohorts for small employers and agents.",
+   "buyers": "About 770,000 workers in the 11 Dec 2026 cohort (InfoQuest, 14 Jul 2026). In the portal's first month, 81,551 employers, 17,619 proxy filers and 331 licensed import companies registered (Daily News, Nov 2025, figures from the portal contractor). The DOE inspected 74,265 workplaces employing foreigners in FY2026. No official count of distinct employers in this cohort was found.",
+   "price": "Official fees are 100 + 900 baht per worker. Brokers and agents charge workers 6,500-18,500 baht per permit and visa renewal (BHRRC/DVB, year unclear). Plausible prices (unverified): a tracker at 990-2,990 baht a year per small employer, or an assisted filing desk at 300-800 baht per worker.",
+   "top_competitor": "The free DOE e-WorkPermit portal (online filing and payment, status alerts by email, SMS and LINE OA), plus 17,619 registered proxy filers and 331 licensed import agencies. No employer-side SaaS was found.",
+   "killer": "No single killer was found. The main risk is incumbents: the free state portal does the filing, and agents and proxies already own the worker relationship. On top of that, each round comes from a one-off cabinet resolution with shifting rules, the portal is unstable (a 715M-baht contractor dispute), and per-employer willingness to pay is low.",
+   "report": "/home/user/mini-ChatGpt/rerun/wave2/deep/reports/thailand-b1.md",
+   "searches": 20,
+   "blocked_searches": 0
+  }
+ ]
+}

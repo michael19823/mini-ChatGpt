@@ -1,0 +1,260 @@
+{
+ "discover:B:taiwan": {
+  "result": {
+   "blocked_searches": 0,
+   "candidates": [
+    {
+     "buyer": "Small trucking firms, civil contractors and soil-yard operators carrying construction soil (about 6,000 trucks a day needed; 5,303 GPS applications by Jan 2026)",
+     "category": "27/31. Construction surplus soil (營建剩餘土石方) hauling",
+     "evidence": "https://www.cna.com.tw/news/aipl/202601140206.aspx?topic=4874 ; https://newtalk.tw/news/view/2025-05-22/972478 ; https://www.businesstoday.com.tw/article/category/183027/post/202601140057/ ; https://soilmove.nlma.gov.tw/downloads/系統操作手冊2-運送地點110-04.pdf",
+     "existing": "State e-manifest app plus soilmove system (free). GPS box vendors sell hardware (one lists NT$380 for a unit said to meet both NLMA and MOENV specs). Taichung has its own city app. Competitor search found no SaaS that links dispatch, manifests and cost or disposal-fee books.",
+     "known_id": "K02",
+     "known_mark": "new",
+     "known_note": "K02 is renovation-waste hauler declarations; this is a different duty (excavated soil e-manifest and GPS) and a different buyer (soil hauliers and civil contractors).",
+     "name": "Soil-hauling e-manifest and GPS compliance and dispatch tool for small hauling firms and civil contractors",
+     "score": 5,
+     "status": "promising",
+     "trigger": "NLMA full-flow soil regime from 1 Jan 2026: every trip needs an e-manifest at each entry and exit point, plus GPS approved under MOI's 18 July 2025 vehicle tracking spec; small trucks now allowed; Waste Disposal Act amendment pending to add national flow reporting and penalties",
+     "unchecked": "Whether the state app already covers dispatch and ledgers; whether there is an API or data export; hauler count and willingness to pay; how pending Waste Disposal Act changes will affect it; whether the GPS vendors bundle fleet software."
+    },
+    {
+     "buyer": "About 10,000 land scriveners (地政士) plus real-estate broker firms; small offices",
+     "category": "28. Notaries, land agents, real estate brokers: AML",
+     "evidence": "https://www-ws.land.ntpc.gov.tw/001/upload/oldfile/userfiles/fe/file/地政士及不動產經紀業防制洗錢辦法-總說明與逐條說明.pdf ; https://landoffice.chcg.gov.tw/files/行政院公報_124_1140409.pdf ; https://landoffice.chcg.gov.tw/files/16附件地政士及不動產經紀業防制洗錢問答集_122_1120627.pdf",
+     "existing": "Competitor search found no named software; only official Q&A and form templates from land offices. Guilds may hand out forms (unchecked).",
+     "known_mark": "new",
+     "name": "AML and trust-filing compliance kit for land scriveners and real-estate brokers",
+     "score": 4,
+     "status": "promising",
+     "trigger": "Money Laundering Control Act designation; MOI AML and counter-terrorism-financing measures; NT$500k cash reports to MJIB; March 2025 MOI order on trust information filings within 30 days of creation or change; MOI risk assessment June 2025",
+     "unchecked": "Enforcement data and fine levels; broker and scrivener association tools; the CDD duty cannot be outsourced to a third party, which limits some designs; willingness to pay; MJIB reporting channel."
+    },
+    {
+     "buyer": "About 12,551 legal B&Bs plus operators trying to become legal",
+     "category": "29. Hotels, guest houses and short-term rentals",
+     "evidence": "https://news.pts.org.tw/article/790082 ; https://wantrich.chinatimes.com/news/20250818900280-420501 ; https://files.chcg.gov.tw/files/民宿新版營運報表操作手冊(業者版)_38_1100104.pdf ; https://www.inside.com.tw/article/13441-fullinn-hotels-running-solution",
+     "existing": "Counties provide free operating-report portals (e.g. Changhua manual); PMS vendors such as Fullinn sell booking and payment tools. No tax-threshold tool found.",
+     "known_mark": "new",
+     "name": "B&B (minshuku) compliance and tax-threshold tracker with half-yearly operating report export",
+     "score": 3,
+     "status": "weak",
+     "trigger": "Regulation on B&B management: half-yearly report (January and July) of occupancy, guests and revenue; business tax tiers by monthly sales (under NT$50k exempt, NT$50k to 200k quarterly assessed at 1%, NT$200k and above uniform invoices at 5%); April 2025 amendment raises fines to NT$2m",
+     "unchecked": "Whether PMS products already export the half-year report; willingness to pay of B&B owners; how many operators are exposed to the new fines and want legalisation help."
+    },
+    {
+     "buyer": "Small low-pollution unregistered factories in managed status, plus fastener and metal job shops",
+     "category": "32. Unregistered factories (特定工廠登記)",
+     "evidence": "https://www.cto.moea.gov.tw/FactoryMCLA/upload/law_upload/1-3-宣導圖卡1120131_農產業群聚地區管理輔導宣導圖.pdf ; https://www.cto.moea.gov.tw/FactoryMCLA/upload/law_upload/特登辦法部分條文修正總說明及對照表.pdf",
+     "existing": "None found; likely consultants and architects do the paperwork.",
+     "known_mark": "new",
+     "name": "Special factory registration and counselling-fee manager for unregistered low-pollution factories",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Factory Management and Counselling Act 2019 amendment: annual counselling fee due by 19 March; improvement plan; special factory registration or relocation; stated outer deadline 19 March 2030 in a MOEA flyer",
+     "unchecked": "Current deadlines and any 2026 extension; count of factories still unregistered; whether this is a document-assembly service rather than software; local-government portals."
+    },
+    {
+     "buyer": "Management committees and managers of small condos, plus small property-management firms",
+     "category": "33. Condominium management committees and managers",
+     "evidence": "https://www.north.taichung.gov.tw/media/1312737/公寓大廈管理負責人申請報備表格-1150202pdf.pdf ; https://6laws.net/6law/law3/公寓大廈管理報備事項處理原則.htm",
+     "existing": "Not searched (budget); likely existing community-management apps.",
+     "known_mark": "new",
+     "name": "Condo management committee filing and public-fund bookkeeping tool",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Public Apartment Building Management Act: reporting of the management body or manager to local authority; Taichung online-only filing from 1 Jan 2026 via the Le-Ju portal",
+     "unchecked": "Whether other cities moved online; recurring duties beyond the first filing; vendors; whether the buyer pays; fire and lift inspections already overlap with K03."
+    },
+    {
+     "buyer": "Small operators of toxic and concerned chemicals (workshops, labs, small factories, dealers)",
+     "category": "25. Users of controlled chemicals",
+     "evidence": "https://6laws.net/6law/law3/毒性化學物質運作及釋放量紀錄管理辦法.htm ; https://iweb20wp-b205b.url.tku.edu.tw/environment/wp-content/uploads/2024/12/T006毒性及關注化學物質運作與釋放量紀錄管理辦法.pdf",
+     "existing": "State reporting portal (MOENV) exists; no vendor search done. Likely covered by free state tool.",
+     "known_mark": "new",
+     "name": "Toxic and concerned chemical operation-record reporting assistant",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Rule on operation and release records: online report by the 10th of the month at the interval set per chemical (monthly, quarterly or half-yearly); keep records 3 years",
+     "unchecked": "Number of small operators; whether the state portal imports ERP data; 2025 amendments; precursor chemicals not checked."
+    },
+    {
+     "buyer": "Small clinics (many thousand) that can now outsource EMR and use Taiwan public cloud",
+     "category": "24. Private clinics and health providers",
+     "evidence": "Search summaries of ithome.com.tw news (e.g. https://www.ithome.com.tw/news/152057); page itself returned 403 so the date and details are unverified",
+     "existing": "Established clinic software vendors (not searched). Fewer than 10 vendors reportedly able to meet the draft requirement.",
+     "known_mark": "new",
+     "name": "Clinic EMR outsourcing and cloud migration service under the 2026 EMR rule",
+     "score": 3,
+     "status": "unverified",
+     "trigger": "Reported new MOHW EMR rule (published about 18 July 2026): outsourcing allowed; in-Taiwan cloud; vendor certification; clinic stays liable",
+     "unchecked": "The real rule text and date; certification list; whether this is just generic EMR (excluded as generic) or creates a compliance pack; competition."
+    },
+    {
+     "buyer": "Small online and wine shops that would register under the amended Act",
+     "category": "34. Tobacco and alcohol sellers",
+     "evidence": "https://www.inside.com.tw/article/6227-on-step-closer-to-online-alcohol-selling ; https://www.ey.gov.tw/Page/9277F759E41CCD91/5d8b4a1c-2e2c-4b3f-9902-99f39f9574fc",
+     "existing": "None checked",
+     "known_mark": "new",
+     "name": "Online alcohol-sale seller registration and age-check compliance",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Executive Yuan draft amendment to the Tobacco and Alcohol Administration Act allowing conditional online sales; passage not confirmed",
+     "unchecked": "Whether the amendment passed; effective date; registration process."
+    },
+    {
+     "buyer": "Licensed security firms",
+     "category": "26. Security agencies",
+     "evidence": "https://www.ey.gov.tw/Page/9277F759E41CCD91/4931e853-8303-4fa3-b494-ab20126c2ddb",
+     "existing": "None checked",
+     "known_mark": "new",
+     "name": "Security guard roster and disqualification screening for security firms",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Security Services Act amendment draft: regulator periodic checks, duty to dismiss disqualified guards, penalties",
+     "unchecked": "Passage and date; number of firms; whether the checks are done by police data."
+    },
+    {
+     "buyer": "Small processors of imported fish exporting to the EU",
+     "category": "30. Importers and exporters: fish",
+     "evidence": "https://hsinchu.bsmi.gov.tw/wSite/public/Data/f1706078515624.pdf",
+     "existing": "None checked",
+     "known_mark": "new",
+     "name": "EU-bound seafood processor IUU catch-certificate check log",
+     "score": 2,
+     "status": "weak",
+     "trigger": "Regulation (EC) 1005/2008 processing declarations signed by BSMI branches; 5-year retention of verification",
+     "unchecked": "Number of firms; whether existing seafood ERP covers it; whether Taiwan has an import-side catch-document rule."
+    },
+    {
+     "buyer": "Neighbourhood LPG dealers",
+     "category": "21. LPG distributors",
+     "evidence": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/1265 ; https://www.cna.com.tw/news/afe/202412070142.aspx",
+     "existing": "None checked",
+     "known_mark": "new",
+     "name": "Retail LPG cylinder test-date and weight-check tracker for gas dealers (瓦斯行)",
+     "score": 2,
+     "status": "unverified",
+     "trigger": "Fire-safety hazardous-goods rule Art. 75: cylinders must be sent for re-test before expiry; BSMI weight checks every six months; MOL cap of 1,000 kg for linked cylinders in factories",
+     "unchecked": "Whether there is a periodic filing; dealer count; whether the big LPG firms already run tracking."
+    }
+   ],
+   "coverage": [
+    {
+     "category": "21. Fuel stations and fuel or LPG distributors",
+     "found": "Two searches returned nothing on current Taiwan reporting duties for fuel stations. For LPG: Energy Administration tracks supply, filling and sales weight (CNA Dec 2024); cylinder re-test deadlines fall on sellers under the fire-safety hazardous-goods rules (Art. 75, per Control Yuan record). No software gap confirmed. Nothing new beyond weak LPG cylinder-expiry idea (unverified).",
+     "status": "screened"
+    },
+    {
+     "category": "22. Grain, coffee, cocoa and other commodity traders, millers and warehouses",
+     "found": "Grain Management Act requires grain-dealer registration (糧商登記) with COA branch offices and source records on request. No periodic filing system found. Nothing actionable.",
+     "status": "screened"
+    },
+    {
+     "category": "23. Co-operatives, credit unions and savings groups",
+     "found": "Savings-and-loan cooperatives (儲蓄互助社) report operating data to their association (Art. 28); the 2016 co-op accounts audit rule was repealed. No current e-filing portal found. Nothing new; the 2024-26 amendment status is unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "24. Private clinics, labs and other health providers that bill insurers or state schemes",
+     "found": "A 2026 news item says MOHW published a new EMR rule (about 18 July) that lets providers outsource EMR systems and use public cloud inside Taiwan, with vendor certification. I could not open the source (403) or confirm the date or effect. Clinic EMR is a crowded generic space. Radiation-source registration for clinic X-ray runs through NUSC's online system (not checked further). Listed as unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "25. Pharmacies, medicine importers, and users of controlled chemicals or precursors",
+     "found": "Toxic and concerned chemical operators must keep operation records and report online by the 10th of the month (monthly, quarterly or half-yearly) and keep records 3 years (2019 rule, in force 2020-01-16). Reports go to the local environment authority through a state portal. Pharmacy and precursor angle not reached. Weak candidate listed.",
+     "status": "screened"
+    },
+    {
+     "category": "26. Security, cleaning and manpower agencies, and the firms that hire their workers",
+     "found": "Security Services Act amendment draft (Executive Yuan) loosens disqualification rules and adds regulator periodic screening and a duty to dismiss; passage unverified. No roster-filing portal found. Cleaning and manpower not reached.",
+     "status": "screened"
+    },
+    {
+     "category": "27. Construction, mining and quarry contractors and suppliers: site registers, accreditation, local-content reports",
+     "found": "Strongest lead: since 1 Jan 2026 the NLMA full-flow regime for construction surplus soil requires e-manifests and approved GPS on every hauling vehicle (5,303 GPS applications, 4,260 cleared; small trucks now allowed). Contractor registration search (Construction Industry Act, 2025-26 amendments, site name registers) found nothing new.",
+     "status": "screened"
+    },
+    {
+     "category": "28. Notaries, land agents, real estate brokers and other professionals with periodic or anti-money-laundering reports",
+     "found": "Land scriveners and real-estate brokers are designated non-financial AML entities: ID and beneficial-owner checks, sanctions screening, CTR for cash of NT$500k or more to MJIB, and since a March 2025 MOI order trust information filings to MOI within 30 days (and 30 days after changes). MOI's June 2025 risk assessment says 880 scriveners responded, about 8.4% of those in practice (so roughly 10,000), plus brokers. No dedicated software found.",
+     "status": "screened"
+    },
+    {
+     "category": "29. Hotels, guest houses and short-term rentals: guest registers, tourism levies",
+     "found": "Tourism Administration: 15,832 legal hotels and B&Bs and 1,624 illegal ones; tougher fines (up to NT$2m) after an April 2025 amendment; Taipei cuts water and power from 1 Jan 2026. B&Bs must submit half-yearly operating stats (January and July) through county portals and follow tax thresholds (NT$50k and NT$200k a month). Existing PMS tools exist (e.g. Fullinn), but no tax-threshold tool was found.",
+     "status": "screened"
+    },
+    {
+     "category": "30. Small exporters and importers facing traceability or certification rules: food, fish, timber, forest-risk commodities",
+     "found": "BSMI branch rules: Taiwanese processors exporting fish to the EU must check IUU catch certificates and keep 5 years of records. Timber legality: no Taiwan rule found. K01 already covers food traceability (FTracebook).",
+     "status": "screened"
+    },
+    {
+     "category": "31. Construction surplus soil (土方) hauling and soil-yard operators",
+     "found": "See the soil candidate. Law reform to add soil flow to the Waste Disposal Act is pending, so the duty may harden.",
+     "status": "screened"
+    },
+    {
+     "category": "32. Unregistered and low-pollution factories moving to special factory registration (特定工廠登記)",
+     "found": "Factory Management and Counselling Act: managed unregistered factories pay an annual counselling fee by 19 March and must reach registration or relocate. Latest deadline appears to run to 19 March 2030 per a MOEA flyer (flyer may cover farm-industry clusters only). Unverified.",
+     "status": "screened"
+    },
+    {
+     "category": "33. Condominium management committees and managers (公寓大廈管理組織)",
+     "found": "Reporting of management bodies is mandatory with the local government; Taichung has required online filing only since 1 Jan 2026 (Taichung Le-Ju portal). Other cities unverified. Public fund rules exist but no filing duty was found.",
+     "status": "screened"
+    },
+    {
+     "category": "34. Tobacco and alcohol sellers (菸酒管理法)",
+     "found": "Draft amendment would allow conditional online alcohol sales with seller registration, convenience-store pickup and higher fines (NT$50k to 250k); passage unverified. Spot-check duties found only for ethanol sellers (monthly report, sales detail, proof of use above 5 litres).",
+     "status": "screened"
+    },
+    {
+     "category": "35. Cram schools and after-school centres (補習班, 安親班)",
+     "found": "Registered under the Supplementary and Continuing Education Act with local education bureaus; standard contract and refund rules in the 2021 Short-Term Cram School Standards; local management systems exist. The Control Yuan flagged unregistered schools. Nothing software-shaped found.",
+     "status": "screened"
+    },
+    {
+     "category": "36. X-ray and radiation-source users in clinics, dental offices and vet practices",
+     "found": "Ionizing Radiation Protection Act: a protection officer and dose records. NUSC runs an online cloud system for registration and changes. A draft amendment adds dose constraints. No filing gap found.",
+     "status": "screened"
+    },
+    {
+     "category": "37. Vehicle repair shops and motorcycle shops (waste oil, tyre records)",
+     "found": "The only search returned Hong Kong results; the Taiwan duty and portal name are unverified.",
+     "status": "not_reached"
+    },
+    {
+     "category": "38. Medical device sellers and UDI",
+     "found": "UDI labelling and database upload duties fall on licence holders (importers and makers), not retailers; staged dates were 2021 to 2023 (FDA notice). No retailer-level duty found.",
+     "status": "screened"
+    }
+   ],
+   "fetches": 4,
+   "queries": [
+    "桶裝瓦斯 液化石油氣 分銷商 申報 能源署 新規定 2025",
+    "糧商 登記 糧食管理法 碾米廠 申報 糧食平衡 系統",
+    "儲蓄互助社 合作社 農會 年度報告 申報 系統 金管會 內政部 合作社法 修正",
+    "毒性及關注化學物質 運作紀錄 申報 小型業者 2025 修正 先驅化學品",
+    "不動產經紀業 地政士 洗錢防制 申報 內政部 2025 稽查 裁罰",
+    "民宿 旅宿業 住宿登記 稅 稽查 觀光署 2025 新規定 短租 非法民宿",
+    "加油站 業者 申報 加油站設置管理規則 油品 庫存 系統 經濟部能源署",
+    "營建剩餘土石方 管制 聯單 運送 小型 業者 申報 系統 2025",
+    "保全業 保全業法 修正 2025 保全員 名冊 申報 警政署",
+    "醫療器材 UDI 醫療器材唯一識別碼 販賣業 零售 申報 食藥署",
+    "游離輻射 診所 牙醫 X光 輻射防護 個人劑量 申報 核安會",
+    "補習班 立案 補習及進修教育法 修正 2025 收費 報備 系統",
+    "未登記工廠 特定工廠 登記 工廠管理輔導法 期限 2026",
+    "菸酒管理法 菸酒零售業 進貨 紀錄 申報 稽查 2025 網路 販售 修法",
+    "電子病歷 診所 強制 2026 醫療機構電子病歷製作及管理辦法",
+    "進口 水產品 漁獲證明 IUU 進口商 申報 漁業署 木材 合法性",
+    "公寓大廈 管理委員會 公共基金 申報 管理負責人 報備 物業管理業 登記",
+    "汽車修理業 廢機油 廢輪胎 申報 環境部 機車行 回收 申報 系統",
+    "土方 電子聯單 APP 軟體 營建剩餘土石方 運送業者 GPS 派車 系統",
+    "地政士 不動產經紀 洗錢防制 客戶審查 軟體 系統 表單 事務所"
+   ],
+   "searches": 24
+  },
+  "tag": "w2b25"
+ }
+}

@@ -1,4 +1,76 @@
 {
+ "challenge:south-africa:A1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. Partial substitutes: Moonstone FICA Toolkit (one-off R4,995 RMCP template, with no bullion-dealer template); nCino KYC and DocFox (generic KYC and sanctions screening); Gold Manager Pro (buy-back ID scanning and police reporting, not FICA); law-firm and consultancy RMCP services. Unverified: number of registered high-value goods dealers (no sector count found; FIC had 51,020 registered institutions in total at 31 March 2024, according to a secondary summary); whether the September 2026 RMCP directive names item 20 (the acts.co.za summary does not list it); whether PCC 126 covers scrap gold buyers.",
+   "reason": "I found nothing that kills it, but it remains weak. No software built for jewellers or gold dealers covers RMCP, goAML, cash reports and annual RMCP resubmission together. The closest substitutes cover only part of the job. Moonstone's FICA Toolkit is a one-off R4,995 RMCP template, and Moonstone told one commenter it has no bullion-dealer template. nCino KYC and DocFox offer generic KYC and screening. Gold Manager Pro (on Capterra) handles buy-back ID scanning and police reports but not FICA. The duty does bite: a September 2026 directive sets annual October RMCP cut-offs, and draft PCC 126 puts SADPMR permit holders in scope. Two things hold the score down. Only dealers selling single items of R100k or more qualify, and I found no count of registered high-value goods dealers. Consultancies already serve this group cheaply.",
+   "searches": 8,
+   "sources": "https://www.moonstone.co.za/?p=61913 ; https://acts.co.za/news/blog/2026/09/fic-directive-risk-management-compliance-programme-submissions ; https://www.moonstone.co.za/new-do-it-yourself-fica-compliance-solution-for-accountable-institutions/ ; https://blog.kycafrica.ncino.com/r100k-equipment-sales-and-your-fica-obligations ; https://www.capterra.co.za/software/1109655/Gold-Manager-Pro ; https://www.golegal.co.za/fica-software-solution/ ; https://www.moonstone.co.za/fic-issues-guidance-on-what-is-a-high-value-goods-dealer/ ; https://www.engineeringnews.co.za/print-version/have-you-started-your-directive-11-rcr-submission-yet-2026-07-16 ; https://www.moonstone.co.za/?p=57175",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b17"
+ },
+ "challenge:south-africa:B1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "Strata (mystrata.co.za) is a South African body corporate SaaS for trustees. It lists 'CSOS returns' in its Compliance module, plus a statutory calendar with reminders, reserve-fund checks against the Reg. 2 minimum and one-click AGM packs. Its Starter tier costs R15 per unit per month with a 20-unit minimum (R300/month). The CSOS levy itself is a simple table lookup: R0 for units with a monthly levy of R500 or less, capped at R40 per unit. CSOS offers a free levy calculator on its site, and filing and payment go through the free CSOS Connect portal.",
+   "reason": "This is not refuted outright. The Strata page does not say whether it serves schemes without a managing agent, does not explain how 'CSOS returns' works, and does not say Strata handles the CSOS levy. Its compliance module may also be on the Growth tier only (100-unit minimum, R2,500/month), which would put it out of reach of tiny schemes. Still, the gap is narrow. A trustee-facing local product already offers CSOS returns, a compliance calendar and AGM packs at a low price. The levy calculation is trivial and free from CSOS. Small schemes can pay no levy at all, since units with monthly levies of R500 or less owe nothing. And volunteer trustees of small schemes are hard to reach and unlikely to pay much. What remains is mainly document assembly for the CS2 pack.",
+   "searches": 7,
+   "sources": "https://mystrata.co.za ; https://csos.org.za/faqs/ ; https://chrome-stats.com/d/id6769768485 ; https://www.acts.co.za/community-schemes-ombud-service-act-2011/r__1232_2__levies_payable_by_s ; https://csos.org.za/wp-content/uploads/2025/08/CSOS-Annual-returns-presentation.pdf ; https://www.mrisoftware.com/za/solutions/body-corporate/ ; https://trinico.co.za/customers/camps-bay-heights-body-corporate/",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b17"
+ },
+ "challenge:south-africa:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No full killer found. Partial rivals: nCino KYC/DocFox (client due diligence and audit trail), PropWorx (trust cashbooks and audit reports), PayProp (route to trust-account exemption, which removes the audit duty), the Moonstone FICA Toolkit, and consultants such as MJK Inc. Not reached: how many agencies hold exemptions, and whether MyPPRA prompts audit prep.",
+   "reason": "I found no product that runs the whole workflow for a small agency: RMCP upkeep, risk register, training log, RCR, the Directive 12 RMCP upload by 31 October, and audit prep. The competition is still partial. nCino KYC (formerly DocFox) and TVA cover client due diligence and its audit trail. The Moonstone toolkit is a template kit at R4,995. Three things weaken the idea. The trust-account audit is filed by the auditor. PropWorx already produces trust audit reports. PayProp sells a route to trust-account exemption, which removes the audit duty and shrinks the audit-pack market. The FIC also discourages generic templates, so consultants and law firms are likely rivals. The duty clearly bites: there are fines, the FFC is tied to compliance, and Directive 12 starts this year.",
+   "searches": 8,
+   "sources": "https://www.payprop.com/za/blog/why-getting-trust-account-exemption-is-the-smartest-business-decision-you-can-make-this-year ; https://netcash.co.za/partners/propworx/ ; https://www.golegal.co.za/docfox-lssa-fica/ ; https://www.moonstone.co.za/new-do-it-yourself-fica-compliance-solution-for-accountable-institutions/ ; https://www.moonstone.co.za/fic-urges-businesses-to-simplify-compliance-focus-on-risks-not-paperwork/ ; https://propertyprofessional.co.za/2026/05/26/warning-to-estate-agents-fic-enforcement-is-no-longer-optional/ ; https://www.bizcommunity.com/article/best-agent-ceo-warns-estate-agencies-face-serious-fica-compliance-risks-398468a ; https://www.golegal.co.za/?p=74912 ; https://www.myproperty.co.za/faq/industry/financial-statements-audited ; https://www.accountingweekly.com/trending-news/ppra-warns-property-practitioners-final-ffc-deadline-approaching ; https://mjkinc.co.za/fica/estate-agents",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b17"
+ },
+ "challenge:south-africa:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "None found. The closest products are nCino KYC/DocFox (a KYC/CDD platform with an RMCP template and an LSSA partnership), the Moonstone FICA Toolkit (a R4,995 one-off DIY template), ClearComply (a deadline tracker from R99/month that does not build RMCPs) and consultants. The FIC's goAML only takes uploads.",
+   "reason": "Directive 12 is now final (Gazette 55337, effective 7 Sep 2026). Items 1, 2, 9 and 11 must submit the board-approved RMCP via goAML by 9 Oct each year. Items 3, 14, 20, 21 and 22 must submit by 31 Oct. Revisions are due within 10 days of approval and new institutions within 90 days; there is no small-firm exemption. Three corrections to the claim: the first item 1/11 deadline is today, so this year's rush has passed. The RCR covered three years (2023-2026), so it is not yearly. Lawyers' RCR was due 31 Jul, not 30 Jun. I found no tool that builds tailored RMCPs. Two risks remain: the FIC distrusts generic templates, and DocFox/LSSA is entrenched with attorneys. FIC registrations total about 55k institutions.",
+   "searches": 8,
+   "sources": "https://www.moonstone.co.za/fic-revises-annual-rmcp-deadlines-in-final-directive-12/ ; https://www.golegal.co.za/?p=74912 ; https://acts.co.za/news/blog/2026/09/fic-directive-risk-management-compliance-programme-submissions ; https://lpc.org.za/wp-content/uploads/2026/07/Advisory-Notice-Risk-and-Compliance-returns.pdf ; https://acts.co.za/news/blog/2026/06/fic-pcc-60-2026-rcr-submission-guidelines ; https://www.moonstone.co.za/new-do-it-yourself-fica-compliance-solution-for-accountable-institutions/ ; https://www.golegal.co.za/docfox-lssa-fica/ ; https://www.clearcomply.co.za/blog/fica-compliance-south-africa ; https://www.moonstone.co.za/fic-urges-businesses-to-simplify-compliance-focus-on-risks-not-paperwork/ ; https://www.moonstone.co.za/new-accountable-institutions-face-hefty-fines-for-failing-to-register-with-fic/",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b17"
+ },
+ "challenge:south-africa:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "Partial overlap. SimplePay already publishes a PSIRA/NBCPSS bargaining-council setup that covers job grades A to E, the council levy, the PSIRA fee deduction, the night-shift allowance, health insurance and the provident fund formula. Generic guard-management tools that sell into South Africa (SoftPatrol, SecurityTime, Shifton, EasyGuarding, Guardhouse on GetApp ZA) offer licence and document expiry alerts and rostering. PSIRA's own website offers free online renewal and status verification for businesses and officers. I found no product that is specifically about PSIRA compliance.",
+   "reason": "The wage part is not a gap. SimplePay already models the security grades, levies, allowances and provident fund, although it doesn't check against the minimum wage. Generic guard tools already send expiry alerts, and PSIRA offers free online verification and renewal. The duty itself does bite. Annual fees are owed even when a business isn't trading, and certificates can't be reissued until those fees are paid. Since 1 March 2026 a monthly NBCPSS levy return is due by the 7th, extended to all employers in the sector. Enforcement is real. What's left for a new product is a thin integration layer: PSIRA status plus grade plus monthly council returns. Buyers are cash-strapped (PMG reports most businesses struggle to pay the annual fees), and there are roughly 11,000 to 16,700 firms. I couldn't open the Guardhouse page (HTTP 403) or confirm the PSSPF and PSIRA portal mechanics.",
+   "searches": 8,
+   "sources": "https://www.simplepay.co.za/help/payroll-setup/company-setup/bargaining-councils/psira/ ; https://www.acts.co.za/labour/n51_5__levy ; https://www.acts.co.za/labour-relations-act-/r7318_1__scope_of_application_ ; https://www.capterra.co.za/software/1103420/SoftPatrol ; https://shifton.com/en-za/industries/security-guard-scheduling ; https://www.g2.com/products/securitytime/discuss ; https://www.getapp.za.com/software/114899/guardhouse ; https://techcabal.com/2023/09/07/2023-latest-steps-for-online-psira-renewal/ ; https://www.golegal.co.za/security-psira-registration-certificates/ ; https://pmg.org.za/tabled-committee-report/5933/ ; https://businessreport.co.za/news/politics/2025-05-29-labour-unions-demand-action-against-security-companies-for-failing-to-pay-employee-benefits ; https://sundayworld.co.za/business/security-guard-unions-gun-for-psiras-lax-rules/",
+   "suggested_score": 3,
+   "verdict": "unclear"
+  },
+  "tag": "w2b17"
+ },
+ "challenge:south-africa:GAPS1": {
+  "result": {
+   "blocked_searches": 0,
+   "killer": "No outright killer found. Main risk: the SAPS FCMS is designed to take dealers' returns electronically, and a Technical Work Team of dealer, gunsmith and manufacturer associations is involved in building it. Release 02 was due by the end of January 2026; I could not verify whether it went live.",
+   "reason": "I found no South African dealer or security-firm register product. The products that turned up are foreign: US FFL point-of-sale systems, plus armoury and law-enforcement tools such as Cloud Weapons Express and NextGen IoT. The regulations allow registers to be kept as computer printouts, so software could do the job. Two things pull the score down. First, the state's FCMS is designed to let licensed dealers submit their returns electronically (Cape Times, Nov 2024). It is late and its status in 2026 is unverified, but it could cover the return-filing part. Second, the dealer market is small: about 600 licences held by about 300 companies (an old SAAADA figure), and one report says only about 50 dealers remained by 2006. 16,704 security firms are registered with PSIRA, but I found no count of how many hold firearms. The large guarding firms already employ armourers.",
+   "searches": 8,
+   "sources": "https://themercury.co.za/capetimes/news/2024-11-14-mps-urge-timely-application-of-crime-fighting-technologies/ ; https://www.protectionweb.co.za/civil-security/saps-detail-progress-and-partnerships-in-new-firearms-management-system/ ; https://pmg.org.za/committee-question/37997/ ; https://pmg.org.za/files/1/firearmsbill_SAAADA.htm ; https://archive.retro.co.za/archive/YahooGroups/Files/SAFirearmForum/Local/Docs/Hearings/Submissions/SAADA.htm ; https://www.saflii.org/za/legis/consol_reg/fcr301/ ; https://www.westerncape.gov.za/news/electronic-database-firearms-mec-fritz-welcomes-gauteng-high-court%E2%80%99s-ruling ; https://www.getapp.za.com/software/2082947/nextgen-iot-armory-management ; https://www.g2.com/products/chips-firearms/competitors/alternatives ; https://www.capterra.co.za/alternatives/164378/gun-store-pos ; https://www.gunpolicy.org/firearms/citation/quotes/5263",
+   "suggested_score": 4,
+   "verdict": "survives"
+  },
+  "tag": "w2b17"
+ },
  "critic:south-africa": {
   "result": {
    "gaps": [
@@ -677,6 +749,48 @@
   },
   "tag": "w2b16"
  },
+ "escalate:south-africa:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "The national portal npo.gov.za is free and takes report submissions online; DSD offices also accept them in person. The Western Cape publishes free narrative-report and financial-reporting templates. Accounting practices prepare the DSD annual report for about R1,000 to R5,000, according to one firm's guide (accounter.co.za). The discovery pass also listed Sage Pastel Partner for NPOs and ActiveDonor; I did not check those. Hashtag Nonprofit advertises cheap SARS IT3(d) submissions, a separate tax filing. My three searches found no dedicated South African software that prepares and files the DSD report. A registered accounting officer still has to sign the report, so software cannot do the whole job.",
+   "duty": "NPO Act 71 of 1997 s18(1): yearly narrative report, financial statements and accounting officer's report to the DSD NPO Directorate. The due date is within 9 months of year-end according to an accounting firm's guide; I did not confirm it in the Act text. s17(3) requires NPOs to keep their books and records. The General Laws (AML/CFT) Amendment Act 22 of 2022 added a duty to file governing-structure details and more grounds to disqualify office-bearers. The penalty is a non-compliance notice, then deregistration, which costs the NPO its funding eligibility and tax benefits. DSD issued 41,787 non-compliance notices in February 2025, and 15,625 NPOs had been deregistered by June 2025. Bill B15-2026 was introduced in the National Assembly on 27 May 2026 and would give the Directorate more enforcement powers; it was not yet law.",
+   "market": "The NPO Directorate website showed 289,964 registered NPOs on 1 September 2025. DSD put the figure at 289,852 at the end of September 2025, and at 295,052 in October 2024. Of the October 2024 total, 167,103 were non-compliant (about 56.6%). By type, ICNL gives roughly 276,000 voluntary associations, 83,000 non-profit companies and 39,000 trusts; these are its approximate figures. Most are very small, volunteer-run bodies.",
+   "reason": "The duty is real and in force, but this is a weak business. Section 18(1) of the NPO Act 71 of 1997 requires an annual narrative report, financial statements and an accounting officer's report. One accounting firm says these are due within 9 months of year-end; I did not confirm that in the Act. Organisations that don't file can be deregistered. The 2022 amendment added a duty to file governing-structure details, and AML/CFT Bill B15-2026 was before Parliament in May 2026. The market is large: about 290,000 registered NPOs, more than half of them non-compliant. Against that, the national portal npo.gov.za takes online filing for free, provinces publish free templates, and a registered accounting officer still has to sign the report, which software can't do. I found no dedicated filing software. Buyers are tiny, cash-poor volunteer bodies with low willingness to pay, and accountants already sell this as a service for about R1,000 to R5,000.",
+   "searches": 6,
+   "sources": "https://www.icnl.org/?p=77362 ; https://www.icnl.org/?p=21021 ; https://www.sanews.gov.za/node/73268 ; https://www.gauteng.gov.za/Announcements/AnnouncementDetails/%7Bef82c08e-0004-4c37-ab10-222440012504%7D ; https://fse.org.za/federation-for-a-sustainable/ ; https://www.westerncape.gov.za/edat/documents ; https://accounter.co.za/compliance/npc/annual-returns ; https://www.hashtagnonprofit.org/features-and-resources/finance/free-it3-d-submission-with-10-bucks-only ; https://repository.nwu.ac.za/handle/10394/42696 ; https://www.polity.org.za/article/thousands-of-npos-deregistered-is-your-organisation-next-2025-03-03",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b17"
+ },
+ "escalate:south-africa:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "nCino KYC (formerly DocFox) markets a tested RMCP template, configuration against the firm's own RMCP, and an LSSA partnership with free onboarding for attorneys, but its core product is KYC/CDD. The Moonstone Compliance FICA Toolkit is a DIY RMCP template with a risk register and goAML registration help. The LSSA has published draft RMCP guidelines for free, and compliance consultants also serve this market. I found no dedicated RMCP-tailoring and filing workflow product for small institutions. The FIC's goAML portal only accepts uploads; it does not help write the RMCP.",
+   "duty": "FIC Act s42 RMCP and FIC Directive 12 (GG 55337, 4 Sep 2026, effective 7 Sep 2026). Annual RMCP submission via goAML: items 1 (legal practitioners), 2, 9 and 11 (non-bank credit providers) by 9 Oct each year; items 3, 14, 20 (high-value goods dealers), 21 and 22 by 31 Oct. New institutions file within 90 days of starting business, and amended RMCPs within 10 days of approval. Each board-approved RMCP is submitted once per Schedule 1 item registration. The RCR is a separate yearly return under Directive 11 (2026), filed in a different system. Non-compliance draws s45C administrative sanctions of up to R10m for natural persons and R50m for legal persons. Secondary sources give the exact item dates and agree with each other, but I did not read the gazette itself.",
+   "market": "The FIC database had 55,262 registered institutions in 2024/25, up from 51,020 in 2023/24. The only sector split I found is from 2019/20, when attorneys were about 35% and estate agents about 24% of registrants. I found no current per-item figures for items 1, 11 or 20.",
+   "reason": "The duty is real and final. FIC Directive 12 (Gazette 55337, 4 Sep 2026, in force 7 Sep) requires items 1, 2, 9 and 11 to file their RMCP through goAML by 9 Oct each year, and items 3, 14, 20, 21 and 22 by 31 Oct. New institutions file within 90 days and amendments within 10 days. The RCR is a separate yearly return under Directive 11. Sanctions fall under s45C. I found no software that tailors and files the RMCP end to end. The nearest products are nCino KYC (DocFox: RMCP template, LSSA partnership, KYC-focused), the Moonstone DIY toolkit and consultants. The filing happens only once a year, the FIC discourages generic templates, and the first 9 Oct deadline is today, so recurring value is limited. A tailoring service that bundles the RCR could still sell to about 55k registrants.",
+   "searches": 6,
+   "sources": "https://www.moonstone.co.za/?p=61635 ; https://acts.co.za/news/blog/2026/09/fic-directive-risk-management-compliance-programme-submissions ; https://www.accountingweekly.com/financial-intelligence-centre/fic-issues-directive-12-your-rmcp-must-now-be-sent-to-the-fic-every-year ; https://www.moonstone.co.za/fic-proposes-annual-rmcp-submissions-for-selected-institutions/ ; https://www.golegal.co.za/docfox-lssa-fica/ ; https://www.moonstone.co.za/new-do-it-yourself-fica-compliance-solution-for-accountable-institutions/ ; https://iol.co.za/business-report/companies/2025-10-06-fic-reports-r144-million-recovery-from-financial-crime-in-202425 ; https://www.moonstone.co.za/fic-cracks-down-on-non-compliant-accountable-institutions/ ; https://www.lssa.org.za/wp-content/uploads/2025/10/Final-Draft-RMCP-Guidelines-6-5-25-Final.pdf",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b17"
+ },
+ "escalate:south-africa:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No South Africa-specific product was found that tracks PSIRA business and officer registration, grades and NBCPSS minimum-wage compliance together. SoftPatrol (on Capterra ZA) does guard scheduling and payroll, but its listing mentions SIA (UK) licence compliance, not PSIRA. General SA payroll tools (Sage Pastel Payroll, PayDay, SimplePay, ADP) came up, but I did not confirm whether they model NBCPSS grade rates or PSSPF contributions. PSIRA offers online verification of officer and business status, so a free state lookup exists for individual checks. The competitor searches were thin (English-only results, no vendor directories), so local guard-management vendors may exist that I didn't find.",
+   "duty": "Under the Private Security Industry Regulation Act 56 of 2001 (in force), every security business and officer must be registered with PSIRA. Annual fees are owed whether or not the business trades, and proof of paid-up fees is needed to reissue a certificate. Per older secondary sources (golegal; techcabal 2023), business certificates are renewed every 12 months and officer certificates every 24 months; I did not reach a primary PSIRA page. A lapsed business cannot trade and gets no letter of good standing. Wage minimums come from NBCPSS bargaining council schedules extended by the Department of Employment and Labour, in force 2 Mar 2023 to 28 Feb 2027; a grade A officer's minimum reaches R8,184/month in 2026/27. The claim's 'SD6 gazetted Feb 2026' was not confirmed. SATAWU signed a 3-year deal in July 2026 (5.7%, then 5.5%, then 5.5%, plus 60/40 medical aid); I did not confirm it has been gazetted or extended to all employers. In 2025/26 PSIRA suspended 1,206 businesses and withdrew 1,139. Not confirmed: the current annual-fee deadline, the exact fee amounts, and whether a business can renew through PSIRA's online portal (sources disagree).",
+   "market": "16,704 security companies registered with PSIRA and operating nationally (Gauteng 7,141; Northern Cape 273), from a parliamentary written reply dated June 2026. PSIRA projects more than 3,000 new businesses and 250,000 new officers over the MTEF period. Many registered firms are very small, and churn is high: 2,427 were suspended or withdrawn in 2025/26.",
+   "reason": "The duty is real. Under the PSIRA Act every business must be registered and pay annual fees, and the business certificate is renewed every 12 months. Each officer must be registered and graded, with renewal every 24 months. Losing good standing stops a firm from trading. The claim's wage basis is wrong: the minimums come from NBCPSS bargaining council schedules running Mar 2023 to Feb 2027, not an SD6 gazetted in Feb 2026. A new SATAWU deal was signed in July 2026; whether it has been gazetted is not confirmed. PSIRA suspended or withdrew 2,427 businesses in 2025/26. No SA tool covering PSIRA status, grades and rates was found, but the competitor searches were thin. Buyers are price-sensitive, often non-compliant on purpose, and payroll tools may already handle council rates.",
+   "searches": 6,
+   "sources": "https://pmg.org.za/committee-question/37997/ ; https://www.protectionweb.co.za/industry/psira-plans-to-expand-oversight-as-private-security-sector-grows/ ; https://dailynews.co.za/business/2026-07-01-the-major-shift-coming-to-sas-private-security-sector-this-month/ ; https://www.golegal.co.za/security-psira-registration-certificates/ ; https://techcabal.com/2023/09/07/2023-latest-steps-for-online-psira-renewal/ ; https://www.capterra.co.za/software/1103420/SoftPatrol ; https://youverify.co/en/blogs/how-to-do-psira-business-verification-online",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b17"
+ },
  "gapfill:south-africa": {
   "result": {
    "blocked_searches": 0,
@@ -843,6 +957,34 @@
   },
   "tag": "w2b16"
  },
+ "opus:south-africa:B2": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "I found no integrated workflow tool for small agencies that combines audit prep, RMCP, RCR and the Directive 12 upload. Partial competitors: the Moonstone FICA Toolkit (a document toolkit at R4,995 excl VAT plus hourly implementation help; it doesn't cover the RCR or records); the REBOSA free RMCP template (2019, may be out of date); The Virtual Agent's FICA & Fraud module (client KYC with a Home Affairs check, not RMCP or reporting); KYC Africa (nCino), which publishes an AML toolkit for estate agents; PropData, which writes about agency FICA practices; and IEASA webinars and consultants (e.g. MJK Inc FICA service for estate agents). Trust-accounting and rental software (e.g. PayProp) probably covers the ledger side but was not checked. Whether MyPPRA prompts audit prep: not reached.",
+   "duty": "Confirmed. Property Practitioners Act 22 of 2019: practitioners with trust accounts need a yearly trust-account audit, submitted by an IRBA-registered auditor on the MyPPRA Auditors Portal within 6 months of year-end (31 Aug for a Feb year-end). The PPRA says it grants no extensions. Late-penalty figures differ between sources (R20/day for 3 months vs a R25,000 fine) and come from secondary sources, so they are unverified. FIC Act: estate agents are accountable institutions and must register on goAML, keep an RMCP and file the RCR. Final Directive 12 (Gazette 55337, 4 Sep 2026) requires an RMCP upload to goAML every year, with estate agents (item 3) due 31 Oct, moved from 30 Sep in the draft (Moonstone). Directive 10 asks for geographic particulars by 31 Oct 2026. Sanctions: up to R50m for legal persons; Capital Point Properties got a R266,000 penalty that the Appeal Board upheld in Aug 2024. The FFC can be delayed if FIC compliance or the audit is outstanding (propertyprofessional.co.za, May 2026).",
+   "market": "Not verified. I found no PPRA or FIC count of registered agencies, FFC holders or goAML-registered estate agents. The PPRA 2025/26 APP PDF could not be read, and searches for the annual report returned no figures. Directive 6 RCR compliance among estate agents was reported at about 50%, which suggests many laggards. The segment is likely several thousand firms, but that is an estimate and needs checking.",
+   "reason": "The duties are real and recur. A PPRA trust-account audit is due within 6 months of year-end, filed by an IRBA auditor on MyPPRA, with no extensions. Final FIC Directive 12 (Gazette 4 Sep 2026) adds a yearly RMCP upload to goAML, due 31 Oct for estate agents, on top of the RCR. The FFC can be withheld. I found no integrated workflow software, only templates (REBOSA, Moonstone's R4,995 toolkit) and KYC tools (TVA, KYC Africa). Limits: the audit must be done by an auditor, so software can only help prepare for it. Small agencies spend little and lean on auditors and franchise groups. Agency software already covers parts of the work, and the market size is unverified.",
+   "searches": 7,
+   "sources": "https://acts.co.za/news/blog/2025/06/ppra-2025-audit-report-submissions ; https://www.accountingweekly.com/trending-news/2025-trust-account-audit-reports-deadline-alert ; https://myproperty.co.za/faq/industry/audit-report-trust-account ; https://www.moonstone.co.za/fic-revises-annual-rmcp-deadlines-in-final-directive-12/ ; https://www.golegal.co.za/?p=74912 ; https://propertyprofessional.co.za/2026/05/26/warning-to-estate-agents-fic-enforcement-is-no-longer-optional/ ; https://www.moonstone.co.za/new-do-it-yourself-fica-compliance-solution-for-accountable-institutions/ ; https://propertyprofessional.co.za/2023/08/28/soon-even-fica-checks-fraud-checks-and-self-promotion-will-be-at-agents-fingertips/ ; https://blog.kycafrica.ncino.com/anti-money-laundering-toolkit-estate-agent ; https://mjkinc.co.za/fica/estate-agents ; https://www.accountingweekly.com/trending-news/estate-agents-reminded-of-fic-compliance-expectations ; https://www.quicket.co.za/events/395674-ieasa-webinar-how-to-submit-rmcp-the-step-by-step-guidance-on-the-new-directive/",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b17"
+ },
+ "opus:south-africa:B3": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "No dedicated South African tavern renewal tracker found. Existing options are provincial channels: the WCLA eLicence portal with online renewals and confirmation downloads, the Gauteng digitisation plan (status unclear), and the Eastern Cape board's WhatsApp line and published notices. Consultancies were named in the claim but not rechecked. Accela and Neumo are regulator-side software, not for licence holders.",
+   "duty": "Real and in force, but each province runs its own rules. Eastern Cape: the 2025 renewal window was deferred and opened 1 Dec 2025. Payment was penalty-free to 28 Feb 2026, then +50% in March and +100% from 1 Apr to 30 Sep 2026. No fees were accepted after 30 Sep 2026 and the licence is cancelled without notice. The claim's 1 Oct-31 Dec window with lapse on 28 Feb is wrong for that cycle. Gauteng: renewal is annual; fees rose 7% for renewals due on or after 24 Jun 2026 (one news source; a May 2026 EWN report still called it a proposal). In Feb 2026 the board could not issue renewal certificates because of supplier problems. KZN: under the 2010 Act (in force since 2014), renewal is applied for 6 months before expiry and depends on compliance (2014 press, not rechecked). Western Cape: Bill B3-2026, introduced 3 Jul 2026, changes the automatic-renewal and renewal-application rules. It is not enacted; its status was not checked after July. Mpumalanga dates were not found.",
+   "market": "Business Report (2022) counted about 34,500 licensed tavern owners, 10,000 shebeen permit holders and 2,700 independent liquor stores. An NWU study estimated about 64,000 licensed outlets and 180,000-250,000 unlicensed ones. Eastern Cape had 7,466 registered outlets in 2017, of which 4,834 were taverns.",
+   "reason": "The duty is real and recurring, and missing it costs a lot: penalties of 50-100% and cancellation in the Eastern Cape. But the core job is paying one fee a year on a date the provincial board announces in public. A reminder or tracker adds little value. The rules differ by province and keep shifting (the EC deferral, the Gauteng certificate backlog, the pending WC bill), so the MVP would be hard to maintain. Buyers are mostly cash-poor township taverns that already rely on consultants or board WhatsApp notices. Willingness to pay for software looks low, and the WC portal already handles online renewal. The better route is selling to consultants, who manage many licences. Overall a weak opportunity.",
+   "searches": 6,
+   "sources": "https://eclb.co.za/index.php/media-center/news-announcements/113-eastern-cape-liquor-board-announcement-of-the-2025-renewal-period ; https://www.eclb.co.za/images/documents/2025/Deferral_of_Renewal_Fees_-_Gazetted_30_September_2025.pdf ; https://www.gauteng.net/whats-on-g/gauteng-liquor-licence-increase/ ; https://ewn.co.za/2026/02/24/gauteng-liquor-traders-slam-licence-hikes-as-unaffordable-unfair ; https://www.ewn.co.za/2026/05/18/gauteng-to-hike-liquor-licence-fees-and-digitise-applications-to-fix-broken-system ; https://www.wcpp.gov.za/sites/default/files/2026-07-03%20ATC%2063%20E.pdf ; https://static.pmg.org.za/WC_Liquor_Amendment_Bill_B_3-2026_1.pdf ; https://iol.co.za/business-report/entrepreneurs/2022-07-13-tavern-killings-owners-communities-to-take-the-lead-in-ensuring-liquor-licences-are-issued-responsibly/ ; https://repository.nwu.ac.za/handle/10394/36416 ; https://www.goexpress.co.za/2017/11/15/ec-liquor-board-cracks-whip-closes-700-illegal-outlets-throughout-province/ ; https://www.gov.za/news/speeches/mec-michael-mabuyakhulu-commencement-liquor-act-act-6-2010-27-feb-2014",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b17"
+ },
  "opus:south-africa:B6": {
   "result": {
    "blocked_searches": 0,
@@ -870,6 +1012,111 @@
    "verdict": "confirmed"
   },
   "tag": "w2b16"
+ },
+ "sonnet:south-africa:A3": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty is real. Regulation 25 of the National Land Transport Regulations, as amended in August 2024, requires renewal before expiry, with a 21-day grace period. The licence stays valid while the application is pending, provided the operator holds the receipt. I found no dedicated renewal or document-pack software, only provincial portals such as the Western Cape PTRS and online options. The score stays low because the pain is regulator backlog and enforcement, which the Department's July 2026 letter to MECs on rule 25(2) points to, not paperwork. Owners' willingness to pay is doubtful, buyer access runs through associations, provinces differ, and K09 was rejected on similar grounds. I did not check penalties, a market count (the only figure found is about 4,500 expired Gauteng licences in 2023) or association stance.",
+   "searches": 2,
+   "sources": "https://pmg.org.za/committee-question/39083/ ; https://source.acts.co.za/national-land-transport-act-2009/r1208_25__application_for_renewal_of_operating_licence.php ; https://www.westerncape.gov.za/mobility/service/applying-public-operating-licence ; https://www.citizen.co.za/soweto-urban/news-headlines/2023/04/13/renew-expired-operating-licences-2/",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b17"
+ },
+ "sonnet:south-africa:A4": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real but weakly specified: Businesses Act 71 of 1991 licensing and municipal Certificate of Acceptability apply. The 2024 registration drive window (15 Nov-13 Dec 2024) has closed and was a one-off. Parliament's statement (81,039 registered, 18,722 licensed) states no penalties and no recurring workflow. Municipalities already run their own portals (Tshwane online registration, Johannesburg building one), and the committee backs municipal e-licensing. Private consultants (ascfoodsafety) do paperwork help. No dedicated spaza compliance app found. Bottleneck is municipal processing (3-6 months for a CoA) and verification, which software can't fix. Willingness to pay is very low, and rules differ per municipality. Penalty and recurrence details were not checked.",
+   "searches": 2,
+   "sources": "https://www.parliament.gov.za/press-releases/media-statement-small-business-development-committee-urges-accelerated-and-automated-licensing-unlock-spaza-shop-support ; https://www.sanews.gov.za/index.php/node/72323 ; https://www.westerncape.gov.za/edat/support-spaza-shop-owners ; https://ascfoodsafety.com/registration-spaza-shops-vendors-and-informal-traders-in-south-africa/ ; https://pmg.org.za/committee-question/38286/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b17"
+ },
+ "sonnet:south-africa:A5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: NPO Act s18 requires narrative report, signed AFS and accounting officer's report within 9 months of year-end; deregistration is the penalty. Enforcement is live: DSD reported 203,279 NPOs at risk, 41,787 non-compliance notices and 6,221 deregistered (early 2025). The market is huge. No dedicated filing software turned up, but I did not search vendors in depth. Free DSD online submission and model templates exist, and accountants and generic tools cover the AFS. Tiny NPOs have low willingness to pay and are hard to reach. The AML/CFT bill status and the SARS PBO overlap were not checked. Suggested score 4.",
+   "searches": 3,
+   "sources": "https://www.acts.co.za/non_profit_org/7_reports_of_directorate ; https://www.ewn.co.za/2025/02/05/social-development-department-deregisters-more-than-6-000-npos ; https://www.polity.org.za/article/thousands-of-npos-deregistered-is-your-organisation-next-2025-03-03 ; https://www.sanews.gov.za/node/21146 ; https://www.accountingweekly.com/audit-accounting/the-scary-truth-about-annual-financial-statements-for-non-profits-in-south-africa-and-how-to-survive-them",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b17"
+ },
+ "sonnet:south-africa:B11": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "None found; SAGIS itself runs the registration and returns system",
+   "duty": "Registration, records and monthly/weekly returns to SAGIS under the Marketing of Agricultural Products Act 47 of 1996 statutory measure",
+   "market": "Not found",
+   "reason": "The duty is real under the Marketing of Agricultural Products Act 47 of 1996. Grain and oilseed storers, processors, traders, importers and exporters must register with SAGIS and file monthly returns within about 10 working days of month end, plus weekly returns for some products. A 2023 gazette notice (Sept 2023) asked to continue the measure past 30 Apr 2024. I found no ministerial approval or new lapse date, so I could not confirm it is in force today. I found no third-party software. Returns go to SAGIS, which is the state-industry system, and I did not find its submission format. Market size and penalties not found. Weak: a small niche, probably served by existing grain-handling or ERP software, and SAGIS is free to use.",
+   "searches": 4,
+   "sources": "https://www.ddyn.com/downloads/docsofinterest/MARK_GG49309_Notice_2027_of_2023.pdf; https://www.namc.co.za/wp-content/uploads/2019/08/Press-release-2019.pdf; https://sagrainmag.co.za/2023/03/01/the-ins-and-outs-of-sagis-inspections/; https://www.namc.co.za/press-release-grain-products-may-2014/",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b17"
+ },
+ "sonnet:south-africa:B12": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "The duty exists: under the OHS Act Electrical Installation Regulations 2009, only DoEL-registered contractors with a registered Master Installation Electrician may issue CoCs against SANS 10142-1. The Nov 2025 DoEL notice adds that buyers should verify contractors on the DoEL database, and that issuing a CoC for an unregistered person is an offence. I found no electrical e-CoC or lodging mandate, so there is no recurring filing to automate; the CoC is a per-job paper certificate. The precedent is gas, where the SAQCC Gas app has been mandatory since 2022. Competition in electrical CoC software was only partly checked: Capterra lists general tools and an unverified Certly product. No contractor count was found. Weak, generic-tool-like opportunity.",
+   "searches": 3,
+   "sources": "https://acts.co.za/news/blog/2025/11/doel-notice-electrical-installation-compliance-coc; https://www.ourpower.co.za/tools/company-registration/industry/electrician; https://www.capterra.co.za/software/1238206/Certly-Ltd; https://refrigerationandaircon.co.za/certificates-of-conformity-via-app/; https://www.surgepv.com/solar-compliance/south-africa/guides/certificate-of-compliance",
+   "suggested_score": 3,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b17"
+ },
+ "sonnet:south-africa:B4": {
+  "result": {
+   "blocked_searches": 0,
+   "competitor": "Moonstone FICA Toolkit (R4,995 template); DocFox/nCino KYC (LSSA partner); VOCA/SearchWorks; consultants. No free FIC tool beyond goAML submission found.",
+   "duty": "FIC Act Directive 12 (Gazette 55337, 4 Sep 2026): annual RMCP submission via goAML; items 1, 2, 9, 11 by 9 Oct; items 3, 14, 20, 21, 22 by 31 Oct; new institutions within 90 days; administrative sanctions. RCR also annual.",
+   "market": "Not found in sources; no register count located. Legal practitioners are the largest group, but I have no verified figure.",
+   "reason": "Duty is real and final. Directive 12 (Gazette 55337, 4 Sep 2026, in force 7 Sep) requires annual RMCP submission via goAML. Legal practitioners, TCSPs, gambling and credit providers file by 9 Oct each year. Estate agents, high-value goods dealers and others file by 31 Oct. New institutions have 90 days. Non-compliance draws administrative sanctions (a R7.7m fine on a law firm is reported). The separate Risk and Compliance Return (RCR) is also annual. The \"draft\" conflict is resolved: the directive is final. Competition is partial: Moonstone's R4,995 RMCP template toolkit, DocFox/nCino KYC (LSSA partner) and VOCA cover CDD, not annual filing workflow. Market size not found. The first deadline is today and the next is a year away. RMCP must be tailored, which limits software value and makes consultants the main alternative. Estate agent overlap exists.",
+   "searches": 2,
+   "sources": "https://www.moonstone.co.za/fic-revises-annual-rmcp-deadlines-in-final-directive-12/ ; https://acts.co.za/news/blog/2026/09/fic-directive-risk-management-compliance-programme-submissions ; https://www.golegal.co.za/docfox-lssa-fica/ ; https://www.moonstone.co.za/new-do-it-yourself-fica-compliance-solution-for-accountable-institutions/ ; https://businesstech.co.za/news/business/801961/fica-clampdown-in-south-africa-no-one-is-spared/",
+   "suggested_score": 5,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b17"
+ },
+ "sonnet:south-africa:B5": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: PSIRA business certificates must be renewed every 12 months (officers every 24), with annual fees and lapsed registration meaning no trading or employment. Fees are set by Gazette notice. I did not verify the Sectoral Determination 6 wage schedule or the 16,700 firm count this session. Generic guard-workforce tools (Guardhouse, SecurityTime, SoftPatrol, Trackforce) cover rostering, payroll export and licence reminders, but I found no evidence they model PSIRA grades or SD6 wages. PSIRA also has its own online verification and renewal portal. Buyers are fragmented, thin-margin owners and many are unregistered. The wedge is narrow and overlaps payroll and roster tools, so the score is modest.",
+   "searches": 3,
+   "sources": "https://techcabal.com/2023/09/07/2023-latest-steps-for-online-psira-renewal/; https://www.ddyn.com/downloads/docsofinterest/SOA_GG42797_Notice_583_of_2019.pdf; https://www.getapp.za.com/software/114899/guardhouse; https://www.capterra.com/p/10037012/SecurityTime/; https://youverify.co/blog/faqs-on-psira-verification",
+   "suggested_score": 4,
+   "verdict": "confirmed"
+  },
+  "tag": "w2b17"
+ },
+ "sonnet:south-africa:B7": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Duty is real: the Hazardous Substances Act 15 of 1973 and R.1332 require a joint product and premises licence (SAHPRA form GLF-RDN-XR-02B, old RC001, with a dental form GLF-RDN-XR-03A). Acceptance tests are required, and QC follows SAHPGL-RDN-XR-13 (v1, 31/08/2022). Not found: renewal cycle, fees, penalties, periodic QC submission and the current backlog. The SAHPRA FAQ fetch returned 503. QC and acceptance tests are done by accredited inspection bodies, a services layer that competes. Found no software competitor, but only one search covered this. Market size is unquantified. Small and episodic duty, little recurring workflow, and buyers are fragmented. Weak recurrence and the regulator-side backlog lower the score.",
+   "searches": 3,
+   "sources": "https://www.sahpra.org.za/?p=12049; https://scielo.org.za/pdf/sadj/v75n10/03.pdf; https://www.sahpra.org.za/wp-content/uploads/2022/06/GLF-RDN-XR-02B_v1-APPLICATION-FOR-A-LICENCE-TO-USE-AN-X-RAY-DEVICE-RC001-Form.docx; https://www.sahpra.org.za/wp-content/uploads/2023/11/SAHPRA-Presentation-Maphophe.pdf",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b17"
+ },
+ "sonnet:south-africa:GAPS6": {
+  "result": {
+   "blocked_searches": 0,
+   "reason": "Cooperatives exist (62 in Western Cape, about 3,850 fishers, per Nov 2023 DFFE announcement). I found no source for a recurring, penalised filing duty specific to them, such as catch-return deadlines or permit-condition reporting. The MLRA permit conditions and Cooperatives Act annual returns were not checked. Abalobi/FISHER already covers catch logging and co-op functions and is partly state-backed. It is not confirmed mandatory. The market is small (about 170 cooperatives nationally, unverified), likely grant-dependent and poor, with weak willingness to pay and hard distribution. Disputes seen concern permits and quotas, not paperwork software. Score stays low.",
+   "searches": 2,
+   "sources": "https://groundup.news/article/app-benefit-small-scale-fishing-communities/ ; https://news.mongabay.com/2023/08/for-south-africas-small-fishers-co-ops-prove-a-necessary-but-bumpy-step-up ; https://allafrica.com/stories/202512110013.html ; https://maritimereview.co.za/Articles/ArtMID/397/ArticleID/92/Small-scale-fishers-make-the-list-in-the-Western-Cape",
+   "suggested_score": 3,
+   "verdict": "unverifiable"
+  },
+  "tag": "w2b17"
  },
  "triage:south-africa": {
   "result": {

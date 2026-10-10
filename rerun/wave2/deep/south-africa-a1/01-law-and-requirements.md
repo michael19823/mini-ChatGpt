@@ -23,7 +23,7 @@ Short names used below:
   - **Risk and compliance return** whenever the FIC issues a directive. The 2026 round (Directive 11) ran from 4 May to 31 July 2026 for item 20. It asked for data for three periods back to 1 July 2023 ([Directive 11, Gazette 54439](https://www.fic.gov.za/wp-content/uploads/2026/03/Directive-11-%E2%80%93-Risk-and-compliance-return.pdf)).
   - **Event reports.** Cash above R49,999.99: within 3 business days. Suspicious or unusual transactions: within 15 business days. Property of a sanctioned person: within 5 business days ([Regs 22B, 24](https://www.fic.gov.za/wp-content/uploads/2023/10/Money-Laundering-and-Terrorist-Financing-Control-Regulations.pdf)).
 - **The FIC enforces it, and jewellers are inspected heavily.** In 2025/26 the FIC issued 549 inspection reports. 61 went to precious metal and stone dealers (17 metals, 12 metals and stones, 32 stones; 43 of the 61 in Gauteng). 37 went to motor dealers. It issued 361 "admission of non-compliance" fines (R10,000 each when settled) for missing RCRs or registration. One item 20 dealer was fined R210,000 (R105,000 payable, R105,000 suspended) for an inadequate RMCP, no sanctions screening, weak governance and a registration failure; it has appealed ([FIC Annual Report 2025/26, pp. 40-47](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026-1.pdf)). A Krugerrand dealer that repeatedly failed to file cash reports lost its High Court appeal against a R1.71m penalty in March 2026 ([Scoin Trading v FIC, paras 4-5, 13, 25](https://www.fic.gov.za/wp-content/uploads/2026/06/SCOIN-TRADING-PROPRIETARY-LIMITED-v-THE-FINANCIAL-INTELLIGENCE-CENTRE-APPEAL-FINAL_.pdf)).
-- **Dealers are struggling.** By 15 July 2026, two weeks before the deadline, only 14% of precious metal dealers, 20% of stone dealers and 11% of Krugerrand dealers had filed the 2026 RCR ([FIC media release, 17 July 2026](https://www.fic.gov.za/wp-content/uploads/2026/07/Media-release-RCR-closing-dates.pdf)). The FIC also saw dealers upload RMCPs when an RCR was due, because they mixed up the two ([FIC notice, 30 July 2026](https://www.fic.gov.za/wp-content/uploads/2026/07/2026.7-GN-Notice-2026-RCR-submission-30-July-2026-update.pdf)). Only 1,670 RMCPs from item 20 dealers had reached the FIC by 31 March 2026, against 5,581 registrations ([FIC AR 2025/26, pp. 29, 36](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026-1.pdf)).
+- **Dealers are struggling.** By 15 July 2026, two weeks before the deadline, only 14% of precious metal dealers, 20% of stone dealers and 11% of Krugerrand dealers had filed the 2026 RCR ([FIC media release, 17 July 2026](https://www.fic.gov.za/wp-content/uploads/2026/07/Media-release-RCR-closing-dates.pdf)). The FIC also saw dealers upload RMCPs when an RCR was due, because they mixed up the two ([FIC notice, 30 July 2026](https://www.fic.gov.za/wp-content/uploads/2026/07/2026.7-GN-Notice-2026-RCR-submission-30-July-2026-update.pdf)). The FIC's table of RMCPs received "as at 31 March 2026" shows 1,670 from HVGDs, against 5,581 registrations; the text calls the 11,147 total RMCPs those received "during the financial year", so it is unclear whether the figure is cumulative ([FIC AR 2025/26, pp. 29, 36](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026-1.pdf)).
 - **What goAML leaves undone.** goAML only receives filings. It does not draft or version the RMCP, record board approval, keep the CDD file, compute RCR answers for three periods, track the 3/5/15-day report clocks, keep a training register or build the evidence pack inspectors ask for. The most common inspection findings are exactly these gaps: no RMCP or an inadequate one, failure to send the RMCP when asked, weak CDD on legal entities and PEPs, late or stale registration, and no evidence of sanctions screening ([FIC AR 2025/26, p. 41](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026-1.pdf)).
 - **Upcoming.** Draft PCC 126 (30 Sep 2026, comments close 16 Oct 2026) would require one goAML registration per SADPMR permit or licence. It adds checks on the client's permits and on the source of the goods, and it confirms that silver and laboratory-grown stones are in scope ([draft PCC 126](https://www.fic.gov.za/wp-content/uploads/2026/09/2026.9-PCC-DPMS.pdf)). The next FATF mutual evaluation runs from mid-2026 to October 2027 ([National Treasury statement, Jan 2026](https://www.fic.gov.za/wp-content/uploads/2026/01/National-Treasury-media-statement-%E2%80%93-General-Laws-Amendment-Bill-2025.pdf)).
 - **Three legal constraints on the product itself.**
@@ -162,8 +162,8 @@ What this means for the product: every filing ends on a government system the de
 - Main findings: no RMCP or not implemented; RMCP not meeting the Act; not sending the RMCP when asked; weak CDD on legal entities and PEPs; late registration or stale details; no evidence of TFS screening (p. 41).
 - 23 compliance reviews (softer, advisory visits) of item 20 dealers (p. 35).
 - Item 20 dealers filed 8,804 CTRs and 28,158 STRs/SARs in the year (p. 31).
-- 1,670 RMCPs received from HVGDs by 31 March 2026 (p. 36), against 5,581 registered (p. 29).
-- Directive 7 RCR (2023) filing rates by 31 March 2026: precious stones 87%, precious metals (non-KRD) 66%, Krugerrand dealers 57%, motor 52%, other goods 49% (p. 38).
+- 1,670 RMCPs from HVGDs in the table "as at 31 March 2026" (p. 36), against 5,581 registered (p. 29). The text says the 11,147 total was received "during the financial year", so the figure may not be cumulative.
+- Directive 7 RCR (2023) filing rates as reported in the annual report: precious stones 87%, precious metals (non-KRD) 66%, Krugerrand dealers 57%, motor 52%, other goods 49%. The table's date labels mix 31 March 2025 and 31 March 2026 (p. 38).
 - 361 admission-of-non-compliance notices: 209 for missing RCRs and 152 for not registering. 149 were settled at R10,000 each (R1.49m). 212 were referred to the Adjudication Panel (p. 43).
 - 19 formal sanctions on non-financial sectors were finalised, totalling R635,000 (p. 43).
 - 2026 RCR progress on 15 July 2026: precious metals 25 of 176 (14.2%), precious stones 49 of 244 (20.1%), Krugerrand 26 of 241 (10.8%), motor 865 of 4,266 (20.3%), other 93 of 637 (14.6%) ([FIC media release, 17 July 2026](https://www.fic.gov.za/wp-content/uploads/2026/07/Media-release-RCR-closing-dates.pdf)).
@@ -204,3 +204,202 @@ Other 2025/26 sanctions show the price of each gap for small firms in other sect
 | Already in force | GN 7B (3 Aug 2026) and TFS manual (Oct 2026) | Latest RMCP, record-keeping and TFS guidance; RMCP content must reflect them | [GN 7B](https://www.fic.gov.za/wp-content/uploads/2026/08/Guidance-Note-7B-%E2%80%93-Implementation-of-various-aspects-of-the-FIC-Act.pdf); [TFS manual](https://www.fic.gov.za/wp-content/uploads/2026/10/Targeted-financial-sanctions-manual-2026.pdf) |
 
 The FIC must publish every guidance note in draft and consider comments before finalising ([Act s42B](https://www.fic.gov.za/wp-content/uploads/2023/10/Financial-Intelligence-Centre-Act-2001-Act-38-of-2001.pdf)). Directives also go out in draft first ([Act s43A(7)](https://www.fic.gov.za/wp-content/uploads/2023/10/Financial-Intelligence-Centre-Act-2001-Act-38-of-2001.pdf)). So changes are visible weeks ahead, which suits a product that tracks them.
+
+## PRODUCT REQUIREMENTS
+
+Each requirement is testable. "Basis" gives the legal source; all sources are linked in the sections above and listed under Sources. Short forms: "Act" = FIC Act; "Regs" = MLTFC Regulations; "D1", "D3A", "D7", "D8", "D10", "D11", "D12" = FIC Directives; "D12 FB" = Directive 12 consultation feedback note; "GN" = guidance note; "PCC" = public compliance communication (PCC 126 and PCC 5E are drafts); "RCR-Q" = 2026 HVGD RCR questionnaire; "AR" = FIC Annual Report 2025/26; "SGA" = Second-Hand Goods Act 6 of 2009; "PMR" = Precious Metals Regulations; "POPIA" = Protection of Personal Information Act 4 of 2013.
+
+Priority tags: **[MVP]** = needed for the first sellable version (the 31 October RMCP cycle and inspection readiness). **[Later]** = second release.
+
+**A. Scope and registration**
+
+1. [MVP] **Applicability check.** The system asks whether the business buys or sells, as a regular part of business, any single item or bundled unit valued at R100,000 or more, paid in any form, in one payment or linked payments, or expects to. It returns "in scope", "not in scope" or "register now (expected)", each with the PCC 58 paragraph that drives it. Test: the five PCC 58 examples give the PCC 58 answers (50 Krugerrands sold separately = not in scope on that deal; R120,000 scrap unit = in scope; one R100,000 ring among R20,000 watches = in scope; consultancy selling fleet cars = not in scope; R20,000 deposit + R80,000 balance = in scope). Basis: Act Sch 1 item 20; PCC 58 paras 1.5-1.10, 2.2.
+2. [MVP] **Registration map.** The user lists each Schedule 1 item, each SADPMR permit or licence (jeweller's permit, refining, beneficiation, special permit, certificate, import permit, export approval, minted bar, diamond dealer, diamond beneficiation, other), each branch and each franchise. The system proposes the goAML registrations under the current rule (PCC 5C) and under the draft rules (PCC 126, PCC 5E), with draft rules visibly labelled "draft". Test: a firm with a jeweller's permit, an import permit and a diamond dealer licence shows three proposed item 20 registrations under the draft rule. Basis: PCC 5C paras 6, 8; draft PCC 126 para 4.2; draft PCC 5E paras 9.20.1-9.20.3.
+3. [MVP] **Dual registration flag.** If the dealer extends credit for a high-value item, the system flags a separate item 11 (credit provider) registration. Basis: PCC 58 paras 1.5.10.3, 2.3.
+4. [MVP] **Registration deadline.** The system computes the registration due date as 90 days after the business opened, or earlier if a qualifying deal is expected sooner, and shows it as overdue if no Org ID is recorded. Basis: Regs 27A(3); PCC 58 para 2.2.
+5. [MVP] **Change tracker.** Any edit to registration particulars (name, address, compliance officer, MLRO, category, branch) creates a task due 90 days later, with the instruction that the update must be made on goAML. Test: compliance officer changed on 1 March creates a task due 30 May. Basis: Act s43B(4); D1.
+6. [MVP] **No goAML credentials.** The system never asks for, stores or uses goAML usernames or passwords, and never submits on the dealer's behalf. It keeps a list of goAML users per Org ID with their role (compliance officer, MLRO). When a listed user leaves, it creates a task to obtain new credentials. Test: no form field accepts a goAML password; the security test confirms no credential storage. Basis: FIC statement on Directive 2; PCC 5C paras 5.3-5.5.
+
+**B. Entity profile, locations and compliance officer**
+
+7. [MVP] **Location register.** For the head office, every branch in and outside South Africa, every subsidiary's head office in and outside South Africa, and every subsidiary branch, the system stores: name; licence number (or "not applicable"); registration number (or "not applicable"); business address; compliance contact's surname, first name and contact details. It outputs a per-location checklist in the order of the goAML "new delegating organisation" steps. Test: a location without a compliance contact cannot be marked ready. Basis: D10 para 5.1; D10 information sheet.
+8. [MVP] **Directive 10 dates.** For registrants with more than one location, the system shows 29 October 2026 as the first deadline and then "change date + 90 days" for any location change. It hides Directive 10 for single-location dealers. Basis: D10 paras 5.1-5.3.
+9. [MVP] **Compliance officer rules.** The system records the compliance officer's name, role, competence, seniority and appointment date, and stores the appointment letter. It applies: legal person = compliance function plus a named competent senior person required; partnership or other non-legal person (not a sole practitioner) = appointed competent person required; sole proprietor = owner may act. Test: a company profile without a named compliance officer blocks RMCP approval. Basis: Act s42A(2)-(4); PCC 5C para 5.2; GN 7B paras 181B, 184.
+
+**C. Entity-wide risk assessment**
+
+10. [MVP] **Risk assessment questionnaire.** The system collects and scores inherent risk for clients (natural persons, foreigners, legal persons, trusts, PEPs), products and price bands, delivery channels (in store, online, courier, third-party delivery), payment methods (cash, EFT, card, crypto, third-party payers), geography (branch locations, within 100 km of a border, high-risk countries) and suppliers (source of goods, conflict areas, Kimberley Process). It records the controls for each risk, computes residual risk and requires a written risk appetite. Test: the assessment cannot be finalised with any section blank; "not applicable" needs a reason. Basis: Act s42(2)(a); GN 7B paras 183A-183C; RCR-Q Parts 1-4.
+11. [MVP] **Sector risk library.** The system pre-loads, with citations, the risk factors in the FIC's DPMS sector risk assessment (Dec 2023), the PCC 58 red flags and the draft PCC 126 country-risk list. The user must accept, change or reject each one and say why. Test: the final assessment lists every library item with the user's decision. Basis: GN 7B para 183E; PCC 58 para 4.2; draft PCC 126 para 3.2; SRA section 8.
+12. [MVP] **Client risk rating.** The system rates each client low, medium or high from documented factors, applies enhanced due diligence rules to high risk, and stores the ongoing due diligence interval per rating (set by the dealer, for example 1, 2 or 3 years). Basis: Act s42(2)(m); PCC 53 para 3.14.
+13. [Later] **New product or channel assessment.** Before the dealer starts a new product, delivery channel or technology (for example online sales or crypto payments), the system requires a short risk assessment and approval. Basis: GN 7B para 184A; draft GLAB clause 20 (new s42(2)(aA)).
+
+**D. RMCP builder and governance**
+
+14. [MVP] **Complete RMCP.** The system generates an RMCP that covers every element of s42(2)(a) to (s), in three parts (risk assessment; controls; monitoring), and includes a cross-reference table from each s42(2) element to the RMCP section. Elements marked "not applicable" must carry a reason. Test: an automated check finds every element mapped or justified; otherwise the RMCP cannot be sent for approval. Basis: Act s42(2), (2A); GN 7B paras 180, 181G, 183A, 185A.
+15. [MVP] **Original text only.** All RMCP template text is written by us. FIC guidance is cited by name and paragraph, never copied. Test: no run of 12 or more identical words with PCC 53 Annexure B or GN 7B. Basis: copyright notices in PCC 53, PCC 58, GN 7B.
+16. [MVP] **Forced customisation.** The RMCP cannot be generated from defaults alone. It requires dealer-specific inputs: products and price bands, cash policy, branches, staff numbers and roles, supplier types, permit numbers, client types and the risk assessment results. Test: an RMCP generated without the risk assessment is refused. Basis: PCC 53 Annexure B preface (uncustomised template = non-compliance); GN 7B paras 181F-181I.
+17. [MVP] **Sector modules.** The system offers modules for retail jewellers, bullion and coin (Krugerrand) dealers, diamond and coloured-stone dealers, scrap and second-hand gold buyers, and manufacturers or wholesalers. Each adds the sector's typical clients, red flags and controls. [Later] Modules for motor, art, antiques and other item 20 dealers. Basis: PCC 58 para 3.1; draft PCC 126 paras 2.1-2.6.
+18. [MVP] **Approval workflow.** Approval must come from the board, senior management or the highest authority, not a committee. The system records each approver's name, capacity, date and method (electronic signature or signed scan), locks the approved version and embeds an approval page in the PDF. Test: an approval recorded by a "committee" role is refused; the approved PDF contains the approval page. Basis: Act s42(2B); GN 7B paras 181A-181E, 181L.
+19. [MVP] **Version control.** Any change after approval creates a new draft that is not "in force" until re-approved. The system shows the differences and keeps every version for at least 5 years. Test: editing an approved RMCP raises an "unapproved changes" warning on the dashboard (GN 7B example 5). Basis: Act s42(2B)-(2C); GN 7B para 183 example 5, para 190.
+20. [MVP] **Review cycle.** The system schedules a review at least every 12 months (shorter if the dealer chooses) and records the review date, reviewer, outcome and changes, even when nothing changes. Basis: Act s42(2C); PCC 53 para 2.4; GN 7B para 190.
+21. [MVP] **Staff access and acknowledgement.** The approved RMCP is published to each employee involved in covered transactions, and each employee's acknowledgement is recorded with a timestamp. Basis: Act s42(3); GN 7B para 183F.
+22. [MVP] **Board report.** The system produces a periodic compliance report for the board or owner: qualifying deals, CDD completed, screenings and matches, CTRs and STRs filed and on time, training status and open issues. Basis: Act s42A(1); GN 7B para 184A.
+
+**E. Deadline engine and RMCP filing pack**
+
+23. [MVP] **Deadline rules.** The engine implements: RMCP by 31 October each year; new business RMCP within 90 days of opening; amended RMCP within 10 days of approval (calendar days, the conservative reading); Directive 10 by 29 October 2026 and change + 90 days; registration changes + 90 days; RCR windows entered by an admin when a directive is issued; CTR within 3 business days; TPR within 5 business days; STR within 15 business days; [Later] Form PMR 4 every six months + 15 days; [Later] SGA certificate renewal after 5 years. Reminders go out by e-mail at 30, 14, 7 and 1 days. Test: unit tests for each rule. Basis: D12 paras 5-8 and Annexure A; D10 paras 5.2-5.3; Act s43B(4); Regs 24; PMR reg 33(3)(b); SGA s7(5).
+24. [MVP] **Business-day calendar.** Report clocks skip Saturdays, Sundays and South African public holidays. Test: a cash deal on the Friday before a public-holiday Monday gets a CTR due date on Thursday. Basis: Regs reg 1 definition of "days"; Regs 24.
+25. [MVP] **RMCP export.** The system exports the approved RMCP as one PDF named YYYYMMDD_RMCP.pdf from the approval date, with the approval page included, one file per item registration or Org ID. It shows the goAML steps (My Org Details; comment "RMCP submission"; Attachment, Upload; Submit Request, Continue) and lets the user record the upload date and attach the goAML confirmation. Test: approval on 4 March 2025 produces 20250304_RMCP.pdf. Basis: FIC "How to submit an RMCP"; D12; D12 FB paras 7, 20.
+26. [MVP] **RCR versus RMCP guard.** The interface keeps the RCR and the RMCP in separate, clearly labelled flows and warns if the user tries to upload an RMCP during an RCR window. Basis: FIC notice 30 July 2026; D12 FB paras 15-16.
+
+**F. Customer due diligence file**
+
+27. [MVP] **Qualifying-deal trigger.** Every sale or purchase is logged with item or bundle value and payments. CDD is required before completion when any item or bundle is R100,000 or more, including when linked payments reach that value. Test: R20,000 deposit and R80,000 balance on the same ring triggers CDD; two separate R50,000 items do not. Basis: PCC 58 paras 1.5.6, 1.5.11, 2.11-2.14.
+28. [MVP] **Natural persons.** The system captures full names, ID or passport number, date of birth, nationality, address, phone, occupation, source of funds, type of ID document and a copy, and how and when identity was verified. Basis: Act s21(1)(a), s22(2)(a); Regs 22C(3)(a) (so data is CTR-ready).
+29. [MVP] **Companies, trusts and partnerships.** The system captures the nature of the business and the ownership and control structure, and walks the beneficial-owner cascade: controlling ownership interest, then other means of control, then management. Trusts: name, number, Master's office, each founder, trustee and named beneficiary (or how beneficiaries are determined). Partnerships: every partner and the person with executive control. Test: a company file cannot be closed without at least one beneficial owner identified by the cascade. Basis: Act s21B(1)-(4); PCC 59.
+30. [MVP] **Agents.** The system records the identity of, and the authority for, anyone acting for the client, and anyone the client acts for. Basis: Act s21(1)(b)-(c).
+31. [MVP] **Relationship profile.** For business relationships the system records nature, intended purpose and expected source of funds. Basis: Act s21A, s22(2)(b).
+32. [MVP] **PEPs and PIPs.** The system asks whether the client or beneficial owner is a foreign PEP, a domestic PEP, a PIP, or a family member or known close associate of one. For a foreign PEP, and for a domestic PEP or PIP rated higher risk, it requires senior management approval, source of wealth and source of funds, and sets enhanced monitoring. Basis: Act s21F-21H.
+33. [MVP] **Permit check.** When the client is itself a dealer, refiner, manufacturer or miner, the system records the client's SADPMR permit or licence type and number; a missing permit raises the client's risk. Basis: draft PCC 126 para 3.3.
+34. [MVP] **Source of goods.** When the dealer buys from a client or supplier, the system records a description and provenance of the goods, supporting documents (invoice, certificate, Kimberley Process certificate for rough diamonds) and supplier checks (address verified, adverse media). Basis: draft PCC 126 paras 3.4-3.5; RCR-Q 4.6-4.12.
+35. [MVP] **CDD failure stop.** If CDD is incomplete, the deal cannot be marked completed; the system prompts an STR decision and, for an existing relationship, termination under the RMCP. Basis: Act s21E; s42(2)(k).
+36. [MVP] **Re-verification.** When an STR is logged or a doubt about client data is flagged, the system creates a task to repeat identification and verification. Basis: Act s21D.
+37. [Later] **Ongoing due diligence.** The system schedules reviews of relationship clients by risk rating and flags transactions inconsistent with the client profile. Basis: Act s21C.
+38. [MVP] **Below-threshold sales.** For items under R100,000 the system does not demand CDD, but sanctions screening and the suspicion report remain available and are logged when used. Basis: PCC 58 paras 1.8-1.9, 2.12-2.15.
+
+**G. Sanctions (TFS) screening**
+
+39. [MVP] **List ingestion.** The system downloads the UN consolidated list (or the FIC's XML export of it) automatically at least every 6 hours and stores each version with a timestamp. Test: a new list version produces a new stored version within 6 hours. Basis: TFS manual sections 2.1, 2.5, 6.6; GN 7B para 198.
+40. [MVP] **Screen before any deal.** Every prospective client, beneficial owner and agent is screened before onboarding, for any transaction value, with fuzzy matching and a similarity score. Each hit needs a reviewer decision (true or false match) and a reason. Test: a known listed name with a spelling variant is flagged. Basis: Act s26B; PCC 58 para 1.9; TFS manual sections 2.4-2.5.
+41. [MVP] **Re-screen on list change.** After each list update, all stored clients and all employees are re-screened without delay, and the run is logged. Basis: Act s28A(3); D8 para 2.4; TFS manual section 6.8 and glossary ("without delay").
+42. [MVP] **True match workflow.** A confirmed match blocks the deal, records the property held, starts a TPR task with a 5-business-day clock and prompts an STR decision. Basis: Act s26B, s28A(1); Regs 24(1).
+43. [Later] **Domestic orders.** The dealer can upload names from court orders under section 23 of POCDATARA for screening. Basis: RCR-Q 3.32.
+44. [MVP] **No false comfort.** The screen states that using a screening tool is no defence, and shows the date and version of the list used. Basis: GN 7B para 200; TFS manual section 2.4.
+
+**H. Transaction register and cash threshold reports**
+
+45. [MVP] **Transaction record.** Each transaction stores amount, currency, date, parties, nature and correspondence, and splits payments by method (cash, EFT, card, crypto, cheque). Foreign currency is converted at the rate at the time of the transaction, and the rate source is stored. Test: any qualifying deal can be printed as a full reconstruction. Basis: Act s22A; GN 5C para 26.
+46. [MVP] **CTR trigger.** In a qualifying deal, cash above R49,999.99 received from or paid to the client (or someone acting for or with the client) creates a CTR task due in 3 business days. Cash in and cash out are tested separately; both above the threshold means two CTRs. Test: R50,000.00 cash in triggers a CTR; R49,999.99 does not; R60,000 cash plus R40,000 EFT on a R100,000 item triggers a CTR. Basis: Act s28; Regs 22B, 24(4); PCC 58 example 7; GN 5C para 26.
+47. [MVP] **CTR data sheet.** The system pre-fills every Reg 22C field from the CDD file, marks "full particulars" fields as mandatory, fills "not obtained" where readily-available data is missing, and prints a sheet in goAML field order for copying into the web form. [Later] goAML XML output, once the FIC schema and upload rights are confirmed. Basis: Regs 22C; GN 5C paras 16-21; goAML CTR user guide.
+48. [MVP] **Structuring alerts.** The system flags several cash payments by the same client that together pass R49,999.99 within a short window, and deals split to stay under R100,000, and prompts an STR decision. Basis: Act s29(1)(b)(iii); PCC 58 para 1.10; draft PCC 126 para 4.8; GN 5C para 23.
+49. [MVP] **Report log.** For every CTR, STR, SAR and TPR the system stores the goAML reference, filing date and time, and filer, and shows whether it was on time. Basis: Regs 24, 29(7).
+
+**I. Suspicious transaction reports**
+
+50. [MVP] **Internal suspicion report.** Any staff member can raise a suspicion about any transaction, attempted deal or enquiry, whatever its value, with grounds and indicators. It goes to the compliance officer, whose decision to file or not, with reasons, is recorded. The 15-business-day clock starts from the first staff awareness. Test: the clock date equals first awareness + 15 business days. Basis: Act s29(1)-(2), s42(2)(h), s69; Regs 24(3); GN 4B.
+51. [MVP] **No tipping off.** STR records are visible only to the compliance officer and MLRO roles. Nothing client-facing mentions an STR. Every access is logged. Basis: Act s29(3)-(4), s53; RCR-Q 1.60.
+52. [MVP] **STR retention and legal hold.** Records behind an STR are kept at least 5 years from the report date, and can be put on hold until law enforcement confirms a case is closed. Basis: Act s23(c); PCC 02; GN 7B para 178.
+53. [MVP] **Late-report notice.** If a report is late, the system drafts the Directive 3A notice to the FIC's Executive Manager: Compliance and Prevention and logs that it was sent. Basis: D3A para 2.2.
+
+**J. Training and employee screening**
+
+54. [MVP] **Training.** Short courses on the Act and the dealer's own RMCP, by role, including TF and PF; a quiz; a training register with date, content version and score; and a refresher reminder at the interval set in the RMCP. Basis: Act s43; GN 7B para 184A.
+55. [MVP] **Employee screening.** A register of competence and integrity checks for new and current staff (method chosen by the dealer, outcome, date) and of TFS screening of each employee after every list change. Basis: D8 paras 2.3-2.7.
+
+**K. Records, security and data protection**
+
+56. [MVP] **Retention engine.** CDD records are kept 5 years after the relationship ends; transaction records 5 years after the transaction; STR-linked records 5 years after the report. Nothing can be deleted before expiry; deletions after expiry are logged. Basis: Act s23; GN 7B paras 175-179.
+57. [MVP] **Tamper evidence.** Documents are hashed on upload, the audit log is append-only, and access is role-based. Basis: GN 7B para 172; Act s48.
+58. [MVP] **Export and retrieval test.** The dealer can export any client file, any transaction or the full archive in legible formats (PDF and CSV) on demand. A quarterly retrieval test is recorded. Test: full export of a 1,000-transaction account completes within 10 minutes. Basis: Act s24(1), (4), s45B(2)(d); GN 7B paras 170, 174.
+59. [MVP] **Record-keeper notice.** The system generates the Reg 20 particulars about us as the dealer's record keeper (our registered name, trading name, the person controlling access and contact details, the address where records are kept, the address from which we control them, and the dealer's liaison person) and tracks that the dealer sent them to the FIC. Basis: Act s24(3), s47(c); Regs 20, 29(6).
+60. [MVP] **Hosting and POPIA.** The data location is stated in the contract. No foreign law may block the dealer's or the FIC's access; a South African hosting region or a local copy is offered. A written operator agreement covers POPIA security measures, and the dealer is notified immediately of any breach. The legal basis for any transfer outside South Africa is documented. Basis: GN 7B para 173; POPIA s19, s20, s21, s22, s72.
+
+**L. Risk and compliance return preparation**
+
+61. [MVP] **RCR workbook.** A workbook mirrors the HVGD questionnaire (details, declaration, Parts 1-4) with an answer column per data period. It computes the percentage answers from the register: natural persons, foreign nationals, foreign legal persons, trusts, PEPs, non-face-to-face clients, cash in deals of R100,000 or more, third-party payments, online sales, courier delivery, Kimberley Process checks and supplier due diligence. Test: on seeded data, computed percentages equal manual counts. Basis: D11 paras 5.2-5.3; PCC 60 paras 2.14-2.15, 4.5-4.7; RCR-Q.
+62. [MVP] **One RCR per Org ID.** The workbook consolidates all branches of one legal entity and keeps separate legal entities and franchisees apart. Basis: PCC 60 paras 2.2-2.10.
+63. [MVP] **Editable questionnaire.** An admin can change RCR questions and periods without a code release, because the FIC may change the questionnaire. Basis: D11 para 3(a).
+
+**M. Inspection readiness**
+
+64. [MVP] **Inspection pack.** One click builds a dated pack: registration details and Org IDs; locations; approved RMCP with approval record, version history and reviews; risk assessment; compliance officer appointment; training register; employee screening; staff RMCP acknowledgements; TFS screening logs with list versions; a sample of CDD files for qualifying deals; the report log with on-time status; the Reg 20 notice; RCR and RMCP submission evidence. Basis: Act s45B(2); AR p. 41; GN 7B paras 181L, 190AA-190CC.
+65. [MVP] **Self-check.** A dashboard scores the dealer against the six most common inspection findings and the s42(2) elements. Basis: AR p. 41; Act s42(2).
+
+**N. Adjacent duties for gold buyers and permit holders**
+
+66. [Later] **Second-hand goods register.** For dealers registered under the SGA: the jeweller acquisition and disposal registers with the s21(2) fields, entries made at the time of the deal, a copy of the seller's ID, a 7-day hold timer before goods are melted, altered or handed on, and the per-premises SAPS certificate with its 5-year renewal. Basis: SGA s2, s7, s21, s23.
+67. [Later] **Precious metals permit return.** For jeweller's permit holders: register entries within 24 hours and a six-monthly Form PMR 4 reminder and data export. Basis: PMR reg 33.
+
+**O. Legal content governance**
+
+68. [MVP] **Source labels and change log.** Every rule, deadline and template paragraph carries its source, version date and status (Act, Regs, directive, final guidance, draft guidance). Drafts (PCC 126, PCC 5E, the 2025 Bill) are labelled. When the FIC publishes new material, customers are told what changed and whether their RMCP needs re-approval. Basis: Act s42(2C), s42B, s43A(7).
+69. [MVP] **Honest disclaimers.** The product says that the dealer files on goAML itself, remains responsible, and that a successful goAML upload is not FIC approval. Basis: D12 FB paras 18-20; GN 7B para 200.
+
+**P. Consultants and groups**
+
+70. [Later] **Consultant workspace.** A consultant can manage many dealer entities, each with its own Org IDs and data, but cannot be recorded as the RMCP approver. Basis: Act s42(2B); GN 7B para 181C.
+
+## Open questions
+
+1. **Final PCC 126.** Will the final text keep one registration per SADPMR permit, silver and lab-grown stones, and the permit and source-of-goods checks? When will it take effect? Comments close 16 Oct 2026 ([draft PCC 126](https://www.fic.gov.za/wp-content/uploads/2026/09/2026.9-PCC-DPMS.pdf)). (unverified)
+2. **Final PCC 5E.** Has it replaced PCC 5D, and does the "register per licence, else head office and each branch" rule stand? ([draft PCC 5E](https://www.fic.gov.za/wp-content/uploads/2026/03/2026.3-PCC-Draft-PCC05E_.pdf)) (unverified)
+3. **goAML XML.** Is the South African goAML XML schema public, and may a small dealer upload XML reports without a batch arrangement? Ask the FIC compliance contact centre. (unverified)
+4. **RMCP upload details.** File size limit, PDF/A or not, and whether several documents can be attached. The FIC promised a user guide ([D12 feedback, para 24](https://www.fic.gov.za/wp-content/uploads/2026/09/Consultation-feedback-note-Relating-to-draft-Directive-12-on-the-submission-of-RMCPs.pdf)). (unverified)
+5. **"10 days" in Directive 12.** Calendar or business days? The Regs define business days only for reg 24 reports. The product uses calendar days to be safe. (unverified)
+6. **Next RCR.** Timing and questionnaire of the next RCR directive. (unverified)
+7. **SaaS as record keeper.** Does the FIC expect the Reg 20 notice for a cloud software vendor, and in what channel? The Act's wording suggests yes ([Act s24(3)](https://www.fic.gov.za/wp-content/uploads/2023/10/Financial-Intelligence-Centre-Act-2001-Act-38-of-2001.pdf)). (unverified)
+8. **Consultant as MLRO.** May an outside consultant be added as an MLRO user on goAML for a dealer? PCC 5C says the MLRO is "appointed by" the institution but does not say it must be an employee ([PCC 5C, para 5.4](https://www.fic.gov.za/wp-content/uploads/2024/01/PCC-5C-Accountable-and-reporting-institutions-registration.pdf)). (unverified)
+9. **"Sole practitioner".** Does a one-person jeweller without staff count as a "sole practitioner" exempt from appointing a separate compliance person under s42A(4)? (unverified)
+10. **Domestic designations.** Is there a machine-readable list of s23 POCDATARA orders to screen against (RCR-Q 3.32)? (unverified)
+11. **Unregistered dealers.** How many jewellers, scrap gold buyers and SADPMR permit holders should be registered but are not? SADPMR permit counts were not found. (unverified)
+12. **FIC sanctioning guidelines.** Are they public? The Scoin judgment refers to them ([Scoin, para 20](https://www.fic.gov.za/wp-content/uploads/2026/06/SCOIN-TRADING-PROPRIETARY-LIMITED-v-THE-FINANCIAL-INTELLIGENCE-CENTRE-APPEAL-FINAL_.pdf)). (unverified)
+13. **E-signatures.** Will the FIC accept an electronically signed board or owner approval? The Act requires approval, not a wet signature ([Act s42(2B)](https://www.fic.gov.za/wp-content/uploads/2023/10/Financial-Intelligence-Centre-Act-2001-Act-38-of-2001.pdf)). (unverified)
+14. **The 2025 Bill.** Has the draft General Laws (AML/CTF) Amendment Bill been tabled in Parliament? (unverified)
+15. **Directive 2 gazette text.** I read the FIC's 2014 statement, not the gazetted directive itself (unverified).
+
+## Sources
+
+Primary (FIC, gazettes, courts, statutes):
+- FIC Act 38 of 2001, consolidated: https://www.fic.gov.za/wp-content/uploads/2023/10/Financial-Intelligence-Centre-Act-2001-Act-38-of-2001.pdf
+- MLTFC Regulations: https://www.fic.gov.za/wp-content/uploads/2023/10/Money-Laundering-and-Terrorist-Financing-Control-Regulations.pdf
+- PCC 58 (HVGD guidance, 28 Mar 2024): https://www.fic.gov.za/wp-content/uploads/2024/03/2024.03-PCC-HVGD-guidance.pdf
+- Draft PCC 126 (DPMS, 30 Sep 2026): https://www.fic.gov.za/wp-content/uploads/2026/09/2026.9-PCC-DPMS.pdf
+- Draft PCC 126 consultation note: https://www.fic.gov.za/wp-content/uploads/2026/09/2026.9-GN-Note_Draft-PCC.pdf
+- PCC 53 (RMCP for DNFBPs): https://www.fic.gov.za/wp-content/uploads/2023/09/2022.08-PCC-PCC-53-RMCP.pdf
+- Guidance Note 7B (3 Aug 2026): https://www.fic.gov.za/wp-content/uploads/2026/08/Guidance-Note-7B-%E2%80%93-Implementation-of-various-aspects-of-the-FIC-Act.pdf
+- Directive 12 (Gazette 55337, 4 Sep 2026): https://www.fic.gov.za/wp-content/uploads/2026/09/Directive-12-On-the-submission-of-risk-management-and-compliance-programmes.pdf
+- Directive 12 consultation feedback note: https://www.fic.gov.za/wp-content/uploads/2026/09/Consultation-feedback-note-Relating-to-draft-Directive-12-on-the-submission-of-RMCPs.pdf
+- Directive 12 web notice: https://www.fic.gov.za/wp-content/uploads/2026/09/Web-notice-Directive-12-on-submissions-of-risk-management-and-compliance-programmes.pdf
+- FIC "How to submit an RMCP": https://www.fic.gov.za/wp-content/uploads/2026/10/HTSRMCP.png
+- Directive 10 (31 Jul 2026): https://www.fic.gov.za/wp-content/uploads/2026/07/Directive-10-On-information-pertaining-to-geographic-locations.pdf
+- Directive 10 information sheet: https://www.fic.gov.za/wp-content/uploads/2026/08/Directive-10-information-sheet-3-1.pdf
+- Directive 11 (Gazette 54439, 31 Mar 2026): https://www.fic.gov.za/wp-content/uploads/2026/03/Directive-11-%E2%80%93-Risk-and-compliance-return.pdf
+- Directive 7 of 2023: https://www.fic.gov.za/wp-content/uploads/2023/09/2023-DIR-Directive-7-of-2023-Risk-and-compliance-return.pdf
+- Directive 8 of 2023: https://www.fic.gov.za/wp-content/uploads/2023/09/2023-DIR-Directive-8-of-2023-Screening-employees.pdf
+- Directive 3A of 2025: https://www.fic.gov.za/wp-content/uploads/2025/03/2025.3-DR-Directive-3A-IFTR-inclusion-.pdf
+- Directive 1 of 2013: https://www.fic.gov.za/wp-content/uploads/2024/01/Directive-1-Updating-of-institution-information.pdf
+- FIC statement on Directive 2 (8 Apr 2014): https://www.fic.gov.za/wp-content/uploads/2023/09/2014.4-DIR-Directive-2-on-use-of-login-credentials-following-registration-with-the-FIC.pdf
+- PCC 60 (2026 RCR): https://www.fic.gov.za/wp-content/uploads/2026/06/2026.6-PCC-60-RCR-_On-RCR-Submission.pdf
+- HVGD RCR questionnaire 2026: https://www.fic.gov.za/wp-content/uploads/2026/05/High-value-goods-dealer-questionnaire.pdf
+- FIC media release, 17 Jul 2026 (RCR rates): https://www.fic.gov.za/wp-content/uploads/2026/07/Media-release-RCR-closing-dates.pdf
+- FIC notice, 30 Jul 2026: https://www.fic.gov.za/wp-content/uploads/2026/07/2026.7-GN-Notice-2026-RCR-submission-30-July-2026-update.pdf
+- FIC Annual Report 2025/26: https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026-1.pdf
+- PCC 5C (registration): https://www.fic.gov.za/wp-content/uploads/2024/01/PCC-5C-Accountable-and-reporting-institutions-registration.pdf
+- Draft PCC 5E (19 Mar 2026): https://www.fic.gov.za/wp-content/uploads/2026/03/2026.3-PCC-Draft-PCC05E_.pdf
+- PCC 59 (beneficial ownership): https://www.fic.gov.za/wp-content/uploads/2024/08/PCC-59-Beneficial-ownership.pdf
+- PCC 02 (record keeping of reported matters): https://www.fic.gov.za/wp-content/uploads/2023/09/2010.02-PCC-PCC-02-STR-Period-for-Record-Keeping.pdf
+- Guidance Note 5C (CTRs): https://www.fic.gov.za/wp-content/uploads/2023/09/2022.10-Guidance-Guidance-Note-5C-CTRs.pdf
+- Guidance Note 4B (STRs): https://www.fic.gov.za/wp-content/uploads/2023/09/2019.03-Guidance-Guidance-Note-4B-STRs.pdf
+- Guidance Note 6A (TPRs): https://www.fic.gov.za/wp-content/uploads/2023/09/2019.03-Guidance-Guidance-Note-6A-TPR-obligations.pdf
+- TFS manual (Oct 2026): https://www.fic.gov.za/wp-content/uploads/2026/10/Targeted-financial-sanctions-manual-2026.pdf
+- goAML CTR user guide (Aug 2025): https://www.fic.gov.za/wp-content/uploads/2025/09/goAML-V5.4-Cash-Threshold-Report-User-Manual_7-August-2025.pdf
+- FIC sector risk assessment, DPMS (Dec 2023): https://www.fic.gov.za/wp-content/uploads/2023/12/Sector-risk-assessment-Dealers-in-precious-metals-and-stones.pdf
+- Sanction notice, Miller Gold House: https://www.fic.gov.za/wp-content/uploads/2025/04/Administrative-sanction-%E2%80%93-Miller-Gold-House-Pty-Ltd.pdf
+- Sanction notice, Fabios Chains: https://www.fic.gov.za/wp-content/uploads/2025/07/2025.7-SF-Administrative-Sanction-Fabios-Chains-Pty-Ltd.pdf
+- Sanction notice, Auto Conversion Centre: https://www.fic.gov.za/wp-content/uploads/2026/09/Administrative-sanction-%E2%80%93-Auto-Conversion-Centre.pdf
+- 2017 sanction notices (not read, scanned): https://www.fic.gov.za/wp-content/uploads/2023/09/2017.12-AS-Administrative-sanction-Abilia-Trading-150-CC-t-a-gold-vault.pdf ; https://www.fic.gov.za/wp-content/uploads/2023/09/2017.9-AS-Administrative-sanction-3DNA-Architecture-and-design-t-a-gold-buyers.pdf
+- Scoin Trading v FIC, High Court (18 Mar 2026): https://www.fic.gov.za/wp-content/uploads/2026/06/SCOIN-TRADING-PROPRIETARY-LIMITED-v-THE-FINANCIAL-INTELLIGENCE-CENTRE-APPEAL-FINAL_.pdf
+- Draft General Laws (AML/CTF) Amendment Bill 2025: https://www.fic.gov.za/wp-content/uploads/2026/01/Draft-General-Laws-AMLCTF-Amendment-Bill-2025.pdf
+- National Treasury statement on the Bill: https://www.fic.gov.za/wp-content/uploads/2026/01/National-Treasury-media-statement-%E2%80%93-General-Laws-Amendment-Bill-2025.pdf
+- goAML login: https://goweb.fic.gov.za/goAMLWEb_PRD/Home
+
+Statutes on secondary hosts (official text not checked against the Gazette):
+- Second-Hand Goods Act 6 of 2009, s21: https://www.acts.co.za/second/21_records_by_dealers ; s7: https://www.acts.co.za/second/7_effect_of_registration ; s23: https://www.acts.co.za/second/23_restrictions_on_dealers_and_pawnbrokers ; s2: https://www.acts.co.za/second/2_obligation_to_register
+- Precious Metals Regulations, reg 33: https://www.acts.co.za/precious-metals-act-2005/r570_33__form_of_register
+- POPIA 4 of 2013 (copy hosted by IRBA): https://www.irba.co.za/upload/POPIA.pdf
+
+Secondary:
+- RegAlert summary on goAML batch reporting (unverified): https://regalert.today/document/34322b55-1b86-4cf0-996f-24713dab8379/text
+- Moonstone, FIC guidance on HVGDs (found in the Afrikaans-language search): https://www.moonstone.co.za/fic-issues-guidance-on-what-is-a-high-value-goods-dealer/
+
+Research note: budget used in this session: 5 web searches and 1 page fetch (blocked by a redirect); most documents were downloaded directly from fic.gov.za and acts.co.za and read in full.

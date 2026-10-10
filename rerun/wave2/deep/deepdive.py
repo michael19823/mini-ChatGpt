@@ -12,7 +12,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 F = os.path.join(HERE, 'deep-dives.json')
-MAX_PARALLEL = 4
+MAX_PARALLEL = 17
 
 
 def load():

@@ -15,7 +15,7 @@ Status: first full draft. Sections below "Data sources" are being filled in.
 - **Where it beats the incumbent.** AMLify (BDO) already covers most duties, sells by demo and shows no price ([02](02-market-and-competition.md)). The MVP's edge is self-serve set-up in one evening, a public price, the lease threshold tracker, a manual generator, an inspection pack and a seat for accountants.
 - **Stack.** One Django monolith with HTMX and PostgreSQL, hosted in Frankfurt, which Argentina treats as an adequate country for data transfers ([Disp. 60/2016](https://www.argentina.gob.ar/normativa/nacional/267922/texto)). Python is chosen for lxml (XSD validation), docxtpl (Word templates) and rapidfuzz (name matching). Each Django app is one agent work stream.
 - **Privacy.** Argentina's Law 25.326 applies. The broker is the data controller and we are its processor (Art. 25). Art. 25 also says a processor must destroy the data when the contract ends, which clashes with the broker's 10-year AML retention, so the product needs a full export and a cheap "archive only" plan ([Law 25.326](https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/actualizacion)). ROS work must be hidden from staff, colegios and reviewers (Res. 43 Art. 33).
-- **Running cost:** about USD 100-165 a month at 50 customers, USD 350-380 at 300 and USD 690-1,040 at 1,000, including paid PEP checks from v1 (my estimates from [Render](https://render.com/pricing), [R2](https://developers.cloudflare.com/r2/pricing/), [Resend](https://resend.com/pricing) and [OpenSanctions](https://www.opensanctions.org/api/) prices). That is about USD 0.7-3.3 per customer a month, against a planned price of USD 12-49 ([02](02-market-and-competition.md)).
+- **Running cost:** about USD 100-170 a month at 50 customers, USD 350-380 at 300 and USD 690-1,040 at 1,000, including paid PEP checks from v1 (my estimates from [Render](https://render.com/pricing), [R2](https://developers.cloudflare.com/r2/pricing/), [Resend](https://resend.com/pricing) and [OpenSanctions](https://www.opensanctions.org/api/) prices). That is about USD 0.7-3.4 per customer a month, against a planned price of USD 12-49 ([02](02-market-and-competition.md)).
 - **Cash to "sellable":** about USD 7,200-20,100 over 8 weeks, founder unpaid. Most of it is the penetration test (USD 3,000-8,000) and the Argentine lawyer and AML expert (USD 2,750-6,500). AI tools are about USD 600-1,200 (my estimates).
 - **No local company is needed for the product.** Every MVP integration is either public (RePET, datos.gob.ar, BCRA) or run by the broker (SRO+, SROMasivo). Only direct links to RENAPER or the ARCA tax register need an Argentine taxpayer ID, and both can wait or go through a foreign vendor ([AFIP WSAA](https://www.afip.gob.ar/ws/documentacion/wsaa.asp); [Didit](https://didit.me/es/blog/argentina-renaper-dni-verification-api/)).
 
@@ -237,28 +237,344 @@ Mobile-first for the client form and staff screens; desktop-first for the office
 - It closes the loop: control numbers and constancias are stored next to the data they came from.
 
 ## Data model
-(pending)
+
+### Principles
+
+- **One firm, one tenant.** Every row carries `firm_id`. Accountants and reviewers get grants to a firm; they never see two firms in one query.
+- **People once, roles many.** A person or company is stored once per firm and linked to operations by role (buyer, seller, landlord, tenant, proxy, beneficial owner, payer). The RSM is built from these links, so nothing is typed twice.
+- **Evidence is immutable.** Signed statements, screening results, generated reports and approvals are stored as files with a SHA-256 hash and never edited. Corrections create a new version.
+- **Rules and numbers are data.** SMVM values, the módulo, risk weights, alert rules, deadlines, templates and the RSM schema are versioned tables or files with a legal-review date. A UIF change is a content release, not a code change.
+- **The restricted area is separate.** Unusual-operation cases and ROS drafts live in their own tables, with their own encryption key and access log, and are excluded from every export and every non-officer query by default.
+
+### Main entities
+
+| Entity | Key fields | Notes and source |
+|---|---|---|
+| `Firm` | type (sole broker or company), legal name, CUIT, colegio, licence number, UIF registration date, services, channels, provinces | Firm profile feeds templates and the ITAER ([01](01-law-and-requirements.md) duty #1) |
+| `Branch` | address, locality, province | RSA section 3 lists branches |
+| `User`, `Membership` | e-mail, MFA, role (broker, board, officer titular, officer alternate, staff, accountant, reviewer, auditor), valid from/to | Officer changes drive the 24-hour and 15-day UIF notices (duty #2) |
+| `Person` | names (with a "UIF-safe" form without special characters), ID type and number, CUIT/CUIL/CDI, nationality, birth date and place, marital status, address, phone, e-mail, occupation, PEP status, is_foreign | Res. 43 Art. 19 fields a-i (duty #12); the UIF wants "D'angelo" sent as "Dangelo" ([UIF RSM sale guide](https://www.argentina.gob.ar/uif/instructivos/rsm-compra-yo-venta-de-bienes-inmuebles)) |
+| `Entity` | legal name, company type, registration data, CUIT or foreign tax ID, legal address, activity, board list | Art. 20 fields a-m |
+| `Relationship` | from, to, kind (beneficial owner, shareholder, director, proxy, guardian, representative), percentage, evidence | Beneficial owners at 10% or more (duty #13) |
+| `Client` | person or entity, first contact date, habitual or occasional (computed), current risk, refresh due, status (active, ended), ended_at | Retention clock starts at the end of the relationship or the last activity (duty #30) |
+| `Document` | owner, kind (DNI front/back, statute, proof of funds...), file, hash, "original seen by/on", expiry | ID copy and verification evidence |
+| `Declaration` | client, kind (PEP, beneficial owner, source of funds), template version, answers, signed file, hash, signer, channel, OTP evidence, timestamp, IP | PEP sworn statement under Res. 35/2023 (duty #14) |
+| `ListVersion` | source (RePET persons, RePET entities, OpenSanctions), fetched_at, Last-Modified, ETag, record count, file hash | Proves which list a check used |
+| `ScreeningRun`, `ScreeningHit` | subject, list version, score, matched record, reviewer, decision, reason, certificate file | The UIF asks for a dated record of every RePET search ([UIF](https://www.argentina.gob.ar/uif/busqueda-del-terrorista)) |
+| `RiskRating` | client, rule-set version, factor scores, level, override and reason, approver, approved_at, next_refresh | Art. 23 factors; refresh at 1/3/5 years (duties #16, #19) |
+| `Profile` | client, purpose, expected operations and amounts, declared income or wealth, documents | Transactional profile (duty #18) |
+| `Property` | cadastral reference or registry number, province, locality, street, number, floor, unit, postcode, border-zone flag | RSM accepts either ID ([01](01-law-and-requirements.md)) |
+| `Operation` | kind (sale or lease), date, currency, amount, ARS equivalent and rate source, property, lease start and end, annual rent, co-broker licence, in_scope (computed), RSM period | Duties #28, #35 |
+| `OperationParty` | operation, person or entity, role, share % (two decimals), linked persons | Shares must total 100,00 per side |
+| `Payment` | operation, method (cash, transfer, cheque, virtual asset, other), detail text, currency, amount, ARS equivalent, payer | At least one payment per sale |
+| `Parameter` | key (SMVM, módulo, FX), valid_from, value, source URL | SMVM from the series API; módulo ARS 54,140 (Res. UIF 95/2025, per [01](01-law-and-requirements.md)) |
+| `Alert` | operation or client, rule id and version, fired_at, severity, status | Duty #24 |
+| `Case` (restricted) | the 8 fields of Art. 32, linked alerts, analysis notes, documents, decision, decided_at, ROS due_at, ROS control number | Duties #25-26; separate key |
+| `RosDraft` (restricted, v1) | persons, PEP details, link to facts, predicate offence, done or attempted, dates, place, amounts in figures and words, four text boxes | Mirrors the SRO+ ROS form ([UIF ROS guide](https://www.argentina.gob.ar/uif/instructivos/rosrft)) |
+| `Filing` | kind (RSM, RSA, ROS, ITAER, registration change), period, files, schema version, validation report, control numbers, constancia, filed_at, filed_by | Proof of filing |
+| `Schema` | report kind, UIF version, XSD files, imported_at, source (which pilot exported it) | Versioned RSM schemas |
+| `Template`, `GeneratedDocument` | template kind, version, legal review date and reviewer; generated file, hash, data snapshot | Manual, statements, notes |
+| `Approval`, `Acknowledgement` | document, approver or signer, method, timestamp, evidence | Board approval; staff sign-off (duty #6) |
+| `TrainingEvent`, `TrainingRecord` | topic list (a-f of Art. 16), date, provider, person, certificate, score | Duty #8 |
+| `Task` | duty, due date, rule that created it, status, assignee | Deadlines engine |
+| `FirmRiskAssessment` (v1) | period, factor scores (clients, services, channels, geography), controls, residual risk, tolerance statement, methodology version, approval, file | ITAER (duty #5) |
+| `ReviewEngagement` (v1) | reviewer, UIF registration, period, scope, findings, action plan | REI (duty #9) |
+| `InspectionRequest` | received_at, scope, deadline (3 business days), pack files, size | Duty #31 |
+| `AuditEvent` | actor, action, object, before/after hash, previous event hash | Append-only hash chain |
+
+### Key relations (simplified)
+
+```
+Firm 1-n Membership n-1 User
+Firm 1-n Client 1-1 (Person | Entity)
+Entity 1-n Relationship n-1 Person            (beneficial owners, directors, proxies)
+Client 1-n Declaration, Document, ScreeningRun, RiskRating, Profile
+Operation n-1 Property
+Operation 1-n OperationParty n-1 (Person | Entity)
+Operation 1-n Payment
+Operation 1-n Alert n-1 Case (restricted) 1-0..1 RosDraft
+Filing(RSM, period) 1-n Operation              (each with its XML file and control number)
+Template 1-n GeneratedDocument 1-n Approval | Acknowledgement
+```
+
+### How the RSM is built
+
+1. Select operations of the period that are sales, or leases with `in_scope = true` in that period.
+2. Map each one to the stored `Schema` version with a declarative mapping file (field path in our model to element path in the XSD). The mapping is the only place that knows the UIF names.
+3. Write one XML per operation, run XSD validation and the UIF annotation rules, and store the files, the report and the schema version in a `Filing`.
 
 ## Architecture and stack
-(pending)
+
+### Recommendation: one boring monolith that agents can work on in parallel
+
+| Layer | Choice | Why |
+|---|---|---|
+| Language and framework | **Python, Django 5.2 LTS** (6.1.2 is the newest on PyPI; LTS is safer for a 10-year records product) | Auth, admin, forms, migrations and i18n built in. AI agents write good Django. The admin gives the lawyer a content area for free ([PyPI Django](https://pypi.org/project/Django/)) |
+| Database | **PostgreSQL** (managed, with point-in-time recovery) | Relational data; JSONB for rule tables and answers; row-level security as a second tenant wall |
+| UI | **Server-rendered templates with HTMX** ([django-htmx 1.29](https://pypi.org/project/django-htmx/)) and a small CSS framework | Forms and tables, fast on cheap phones and 3G; one codebase |
+| Jobs | **Procrastinate** (Postgres-backed queue, [3.10](https://pypi.org/project/procrastinate/)) | No Redis to run. Jobs: RePET poll every 2 hours, re-screen on change, nightly SMVM and FX update, daily reminders, document rendering |
+| XML | **lxml** ([6.1, BSD](https://pypi.org/project/lxml/)) | XSD validation and XML writing; plus our small interpreter for UIF annotations |
+| Word and PDF | **docxtpl** ([0.20, LGPL](https://pypi.org/project/docxtpl/)) for lawyer-editable Word templates; LibreOffice headless in a worker to make PDFs; WeasyPrint ([70.0](https://pypi.org/project/weasyprint/)) for HTML records such as screening certificates | The lawyer edits Word, not code |
+| Name matching | **rapidfuzz** ([3.14](https://pypi.org/project/RapidFuzz/)) with our normaliser (lower case, strip accents, order-free tokens, Arabic name particles such as "al", "bin", "abu") | RePET has about 1,200 records, so matching is cheap |
+| IDs | **python-stdnum** for CUIT/CUIL and DNI ([2.2, LGPL](https://pypi.org/project/python-stdnum/)) | Same check-digit logic the UIF app applies |
+| Auth | **django-allauth** with TOTP MFA ([65.19, MIT](https://pypi.org/project/django-allauth/)) | MFA required for broker, board, officer, accountant and reviewer |
+| Files | **Cloudflare R2** bucket with the EU jurisdiction restriction ([R2 data location](https://developers.cloudflare.com/r2/reference/data-location/)) | USD 0.015 per GB-month, no egress fee ([R2 pricing](https://developers.cloudflare.com/r2/pricing/)) |
+| Encryption | Envelope encryption: one data key per firm, plus a separate key for the restricted area, wrapped by a master key in the host's secret store | DNI images, statements and cases |
+| E-mail | **Resend** | Free up to 3,000 e-mails a month (100 a day); USD 20 a month for 50,000 ([Resend](https://resend.com/pricing)). No client names in e-mail bodies |
+| Payments | **Paddle** (merchant of record) | 5% + USD 0.50 per transaction, tax handled ([Paddle](https://www.paddle.com/pricing)). Annual plans keep the fixed fee small |
+| Hosting | **Render, Frankfurt region** | Managed web, workers and Postgres with PITR in one place ([Render pricing](https://render.com/pricing); [regions](https://render.com/docs/regions)) |
+| Errors and uptime | Sentry (EU data region if available, unverified) and an uptime checker | Logs carry no personal data |
+| CI/CD | GitHub, GitHub Actions, required checks, Dependabot; auto-deploy `main` to staging; manual promote | Agents open pull requests; the founder merges |
+| Tests | pytest-django; factory_boy with Faker `es_AR`; golden-file tests for every generated XML and document | Catch template and schema drift |
+
+**Why not a JavaScript single-page app?** It would work. But the heart of this product is XML, Word and PDF generation, and the best libraries for those are in Python. One language and one deployable unit are easier for one founder and several agents to keep consistent.
+
+**Why not a desktop tool next to SROMasivo?** Brokers work from phones and several places, and clients must sign from their own phones. A web app also keeps the 10-year archive safe from a broken laptop.
+
+### Module layout (one Django app per module; each is one agent work stream)
+
+```
+core/        firms, users, memberships, roles, grants, audit chain, encryption, files, parameters, i18n
+clients/     persons, entities, relationships, documents, declarations, client link and e-signature
+screening/   list ingestion (RePET; OpenSanctions in v1), normaliser, matcher, hits, certificates
+risk/        rule tables, scoring, overrides, approvals, profiles, refresh clocks
+operations/  properties, operations, parties, payments, FX, lease tracker, habitual-client test
+alerts/      alert rules and checklist, staff flags; cases/ (restricted) register, ROS clock and drafts
+reports/     schema store, mapping, RSM XML writer and validator, copy sheets, RSA calculator, filings
+programme/   templates, manual generator, approvals, acknowledgements, training, ITAER (v1)
+portal/      dashboard, calendar, tasks, reminders, inspection pack, accountant portfolio (v1)
+billing/     plans, Paddle checkout and webhooks, entitlements
+```
+
+### Diagram
+
+```
+Client phone ──(one-time link)──┐
+Broker / staff browser (HTMX) ──┼──> Render web (Django, Frankfurt) ──> Postgres (RLS, PITR)
+Accountant / reviewer ──────────┘            │      ^
+                                             v      │
+                                   Procrastinate workers ──> R2 (EU): encrypted files, backups
+                                    │      │       │
+               RePET JSON (2-hourly) │  datos.gob.ar SMVM, BCRA FX (nightly)
+               OpenSanctions API (v1)│  LibreOffice (DOCX -> PDF)   Resend (e-mail)   Paddle (billing)
+
+Broker's own PC: ZIP of XML ──> SROMasivo (Windows) ──> UIF masivo.uif.gob.ar     (broker clicks "send")
+Broker's browser: copy sheet ──> SRO+ web forms (RSA, ROS, RSM by hand)          (broker types)
+```
 
 ## Security, privacy and liability
-(pending)
+
+### Data protection law that applies
+
+- **Law 25.326 (2000) still governs.** It is in force with its regulation (Decree 1558/2001). A bill to replace it, 3397-D-2026, was filed on 16 Jul 2026; it would add a 72-hour breach notice to the authority ([abogados.com.ar](https://abogados.com.ar/nuevo-proyecto-de-ley-de-proteccion-de-datos-personales/39762); [Diario Judicial](https://www.diariojudicial.com/news-103126-proteccion-de-datos-personales-sigue-siendo-suficiente-la-ley-25326-en-2026)). The authority is the AAIP. Build to the stricter future rule now (my view).
+- **Security duty.** The controller must take the technical and organisational measures needed to keep data safe and confidential; storing personal data in systems without integrity and security is prohibited (Art. 9) ([Law 25.326](https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/actualizacion)). The AAIP's recommended measures are in Res. 47/2018, which replaced the older mandatory list with recommendations that can be swapped for better ones ([Res. 47/2018](https://www.argentina.gob.ar/normativa/nacional/resolución-47-2018-312662/texto); [Marval](https://www.marval.com/Publicacion/nueva-resolucion-sobre-medidas-de-seguridad-y-datos-personales-13216)). We will map our controls to it in a one-page table for customers.
+- **Roles.** The broker is the controller ("responsable") of its clients' data. We provide data processing services on its behalf, which Art. 25 governs: we may use the data only for the contracted purpose and may not pass it on, "ni aun para su conservación" ([Law 25.326 Art. 25](https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/actualizacion)). We are controller only for our own users and billing data.
+- **The exit problem.** Art. 25.2 says that when the service ends, the data must be destroyed, unless the customer expressly authorises storage for up to two years when further work is likely. The broker, however, must keep AML records for 10 years (Res. 43 Art. 15, duty #30). So:
+  - on cancellation, the broker gets a full export (PDF bundle, CSV/JSON, original files) and a signed hash list, and must confirm he has it;
+  - he can choose an "archive only" plan, which keeps the service contract alive for retention; or
+  - he can authorise a two-year hold under Art. 25.2; after that we delete.
+- **Database registration.** Art. 21 requires public databases, and private ones "destinados a proporcionar informes", to register with the AAIP's register ([Law 25.326 Art. 21](https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/actualizacion)). Whether a broker's AML client file must be registered is a question for the lawyer (unverified). The app can print the data the register asks for (Art. 21.2: owner, purpose, data types, collection, recipients, security).
+- **Transfers abroad.** Art. 12 bans transfers to countries without adequate protection, with exceptions ([Law 25.326 Art. 12](https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/actualizacion)). EU and EEA states, the UK, Switzerland, Uruguay and a few others are on the adequate list ([Disp. 60/2016](https://www.argentina.gob.ar/normativa/nacional/267922/texto), as amended for the UK by [Res. AAIP 34/2019](https://www.boletinoficial.gob.ar/detalleAviso/primera/202373/20190226); [IAPP](https://iapp.org/news/a/el-reino-unido-se-incorpora-a-la-lista-argentina-de-paises-adecuados-para-la-transferencia-internacional-de-datos-personales)). The US and Brazil are not. So:
+  - keep the database and files in the EU (Frankfurt; R2 EU jurisdiction);
+  - US-based sub-processors (e-mail, error tracking, billing) get no client data, or are covered by the model clauses Disp. 60/2016 provides (unverified that the annex model contract is still the AAIP's standard);
+  - development uses synthetic data only; no customer data goes into AI tools.
+- **Electronic statements.** Law 25.506 recognises electronic signatures; if one is disputed, the party relying on it must prove it (Art. 5). A firma digital equals a handwritten signature (Art. 3) ([Law 25.506](https://www.argentina.gob.ar/normativa/nacional/ley-25506-70749/actualizacion)). So the OTP signing flow must keep strong evidence: the exact text shown, the OTP channel, timestamps, IP, device, and a hash of the signed PDF.
+- **AML secrecy.** Disclosing ROS work to the client or third parties is a crime (Law 25.246 Art. 21(c), 22), and ROS must never reach the licensing colegios (Res. 43 Art. 33) ([01](01-law-and-requirements.md) duties #26-27). This shapes access rules, notifications and the white-label design.
+
+### Security baseline for the MVP
+
+- TLS everywhere with HSTS; secure cookies; CSRF protection; strict content security policy.
+- MFA (TOTP) required for broker, board, officer, accountant and reviewer roles; optional for staff. Passkeys in v1.
+- Argon2 password hashing; login rate limits; 30-minute idle timeout; re-authentication before exports and restricted-area access.
+- Tenant isolation in two layers: Django query scoping and Postgres row-level security keyed on a per-request setting. Automated tests try cross-tenant reads on every URL.
+- Restricted area (cases, ROS drafts): separate permission, separate data key, separate access log, excluded from search, counts and exports for other roles. No e-mail or WhatsApp message ever names a case or a client in connection with one.
+- Client links: single use, 7-day expiry, rate-limited, bound to the client record; uploads virus-scanned (ClamAV) and stripped of metadata.
+- Encryption at rest: provider disk encryption plus envelope encryption for files and sensitive fields.
+- Append-only audit log with a hash chain, viewable by the officer and exportable.
+- Backups: managed PITR (7 days on Render's paid workspace, per [Render](https://render.com/pricing)) plus a nightly encrypted dump to a second R2 bucket kept 35 days; a monthly restore test.
+- Support access only with the customer's time-limited consent, logged.
+- Dependency updates weekly (Dependabot); an external penetration test before the paid launch and then yearly.
+- Written policies: information security, incident response (notify customers within 72 hours, matching the bill), access control, backup, sub-processor list.
+
+### Liability and how to limit it
+
+- **A tool with reviewed templates, not legal advice.** Every generated document shows "template version X, reviewed by [lawyer] on [date]". The broker approves and signs. Risk levels are proposals the broker or officer confirms.
+- **We never file.** The broker sends every report from his own UIF account. Our validator mirrors the UIF's published rules, but the UIF's own app is the final check.
+- **Screening disclaimer.** A "no match" covers the named list at the stated time. The certificate shows the list version.
+- **Terms.** Liability capped at 12 months of fees; no liability for fines where the user ignored tasks, hits or alerts; foreign governing law for the contract (to be set in the company file).
+- **Change promise.** Templates and rules updated within 30 days of a relevant UIF resolution, with a notice. This is also the renewal story.
+- **Insurance.** Professional indemnity and cyber cover for the operating company once revenue allows (price unverified).
+- **Lawyer agreement.** A written scope with the Argentine lawyer and the AML expert: what they review, when, and their responsibility for the content.
 
 ## Hosting and running costs
-(pending)
+
+### Choice: a managed platform in Frankfurt
+
+- **Why the EU.** Argentina lists EU states as adequate for transfers, so no extra paperwork is needed for the main database ([Disp. 60/2016](https://www.argentina.gob.ar/normativa/nacional/267922/texto)). A US region would need model clauses for every customer.
+- **Why managed.** One founder cannot also be a database administrator. Render runs web services, workers and Postgres with point-in-time recovery, and has a Frankfurt region ([Render regions](https://render.com/docs/regions)). Files go to an R2 bucket restricted to the EU jurisdiction.
+- **Latency.** Buenos Aires to Frankfurt adds round-trip time (unverified figure), but HTMX pages are small. Measure with pilots; a São Paulo region would need a transfer review, since Brazil is not on the adequate list.
+
+### Assumptions (my estimates)
+
+- Per customer: 30 clients a year, 25 operations a year, 2 DNI photos and 3 signed PDFs per client, about 0.4-0.7 GB of files a year after downscaling.
+- 4 new parties a month per customer checked against OpenSanctions (v1). RePET checks are free and unlimited.
+- About 40 e-mails a month per customer (reminders, client links, sign-offs).
+
+### Monthly running cost estimate (USD, excluding taxes and staff)
+
+| Item | 50 customers | 300 customers | 1,000 customers | Price basis |
+|---|---|---|---|---|
+| Render Pro workspace | 25 | 25 | 25 | USD 25 a month plus compute ([Render](https://render.com/pricing)) |
+| Web service | 1 × 1 CPU/2 GB: 25 | 1 × 2 CPU/4 GB: 85 | 2 × 2 CPU/4 GB: 170 | same |
+| Worker (jobs, LibreOffice) | 1 × 1 CPU/2 GB: 25 | 1 × 1 CPU/2 GB: 25 | 2 × 1 CPU/2 GB: 50 | same |
+| Postgres plus storage | 1 GB RAM + 10 GB: 22 | 4 GB RAM + 50 GB: 70 | 8 GB RAM + 150 GB: 145; standby copy optional, +145 | USD 19/55/100 a month plus USD 0.30 per GB (same) |
+| R2 files and backup copies | 1-2 | 3-5 | 10-15 | USD 0.015 per GB-month ([R2](https://developers.cloudflare.com/r2/pricing/)) |
+| E-mail | 0-20 | 20 | 20-90 | Free to 3,000 a month; USD 20 for 50,000; USD 90 for 100,000 ([Resend](https://resend.com/pricing)) |
+| Error tracking, uptime | 0-26 | 26 | 26-80 | my estimate |
+| Domain and misc. | 2 | 5 | 10 | my estimate |
+| **Infrastructure subtotal** | **about 100-145** | **about 260-265** | **about 455-730** | |
+| PEP checks (v1, OpenSanctions) | 0-25 | 90-110 | 230-310 | EUR 0.10 down to 0.05 per query by bundle ([OpenSanctions](https://www.opensanctions.org/api/)); USD 1.15 per EUR assumed |
+| **Total** | **about 100-170** | **about 350-375** | **about 690-1,040** | |
+| Per customer per month | about 2.0-3.4 | about 1.2 | about 0.7-1.0 | |
+
+- Against the planned price of USD 12-19 (sole broker) and USD 29-49 (agency) ([02](02-market-and-competition.md)), infrastructure is about 3-17% of revenue (my arithmetic at an average of USD 20 a month).
+- Payment fees are larger than hosting at small tickets. Paddle's 5% + USD 0.50 is 8.3% of a USD 15 monthly payment but 5.3% of a USD 180 annual one ([Paddle](https://www.paddle.com/pricing); my arithmetic). Push annual billing.
+- Optional per-use costs are passed through: a RENAPER check via Didit at USD 0.20 ([Didit](https://didit.me/es/blog/argentina-renaper-dni-verification-api/)).
+- At 50 customers the Hobby workspace (USD 0) would also work, but its PITR window is 3 days instead of 7 ([Render](https://render.com/pricing)). Use Pro from launch.
 
 ## Development plan (with agent work streams and calendar)
-(pending)
+
+### How the build works
+
+- **Who builds.** The founder is product owner, architect, reviewer and integrator. Claude Code agents write most of the code, each in its own git worktree and branch, each owning one Django app and its tests. No hired developers.
+- **The real critical path is not code.** It is three things outside the code: the broker XSDs exported from SROMasivo, the lawyer's approval of the templates and rules, and pilot brokers willing to file a real RSM with the tool. Start all three in week 0.
+- **Foundation first, then parallel.** Shared code (tenancy, roles, the restricted-area guard, audit chain, encryption, file store, parameter tables, task engine, UI shell, Spanish strings) is built in one week by the founder and two agents. Parallel streams start only when those interfaces are frozen.
+- **Tests first, from the law.** Each stream turns its duties from the 01 table into failing acceptance tests on day one (examples in the definition of done), then builds until they pass.
+- **Daily rhythm.** Morning: the founder reviews and merges pull requests and updates each stream's brief. Day: agents work. Evening: CI green, auto-deploy to staging, the founder clicks through the flows with the synthetic agency.
+- **Helper agents.**
+  - A **fixtures agent** builds a synthetic agency: 120 clients (natural and legal persons, valid CUITs computed with python-stdnum, Argentine names from Faker `es_AR`), 40 sales and 15 leases over 12 months, 2 PEPs, 1 RePET near-match, 1 lease that crosses 300 SMVM in July.
+  - A **reviewer agent** checks every pull request for tenant leaks, restricted-area leaks, tipping-off text, missing permission checks, unsafe file handling and English strings.
+  - A **docs agent** writes Spanish help pages, the onboarding guide and short how-to videos' scripts.
+- **Rules for agents.** One `CLAUDE.md` with: the glossary (legajo, sujeto obligado, oficial de cumplimiento, RSM, RSA, ROS, RFT, RePET, SMVM, PEP, beneficiario final, REI, ITAER); the architecture rules; "never touch another app's models"; "never put real personal data in code, tests or prompts"; "anything in `cases/` needs the founder's review"; how to run tests.
+- **Tool limits.** Running 4-6 sessions at once can hit plan usage windows. Stagger streams and keep a pay-as-you-go API budget for overflow. Claude Max starts at USD 100 a month (5x) and includes Claude Code; the 20x tier comes with USD 200 a month of API credits ([Claude pricing](https://claude.com/pricing)). The 20x price is USD 200 a month in third-party summaries (unverified on the official page in this pass).
+
+### Agent work streams for the MVP
+
+| Stream | App(s) | Duties (01 #) | Main outputs | Depends on |
+|---|---|---|---|---|
+| **F. Foundation** (week 1; founder + 2 agents) | core, portal shell | 1, 2, 27, 30 | Tenancy with RLS; users, roles, grants; MFA; restricted-area guard and tests; audit hash chain; envelope encryption; file store with hashes and virus scan; parameter table with the SMVM and BCRA importers; task and deadline engine with Argentine business days and holidays; Spanish UI shell; CI/CD; staging | — |
+| **S1. Client file** | clients | 12-14, 20-23, 35 | Person, entity, relationship models; Art. 19-20 field sets; CUIT/DNI validators; documents with "original seen"; client link with OTP e-signature and evidence; PEP, beneficial-owner and funds statements (lawyer text as templates) | F |
+| **S2. Screening** | screening | 15 | RePET ingestion with ETag polling and list versions; normaliser and matcher; hit review screen; certificate PDF; re-screen on list change; stale-list alarm | F; S1 models frozen on day 2 of week 2 |
+| **S3. Risk** | risk | 16-19, 33 | Rule table loader; scoring with reasons; override and approval; profile; refresh clocks; country and border-zone tables | F; S1 |
+| **S4. Operations and alerts** | operations, alerts, cases | 18, 24-26, 28, 35 | Property, operation, parties, payments; FX conversion; lease tracker and habitual-client test; alert rules and checklist; staff flag; restricted case register with the 8 Art. 32 fields; ROS clock | F; S1 |
+| **S5. Reports** | reports | 28, 29, 31 | Schema store; mapping file; RSM XML writer; XSD and annotation validator; ZIP; copy sheets for RSM and RSA; control-number capture; RSA calculator; inspection pack with size control | F; reads S1 and S4 through query interfaces |
+| **S6. Programme and shell** | programme, portal, billing | 3, 6, 8 | Set-up wizard; manual generator (docxtpl, LibreOffice); approvals and acknowledgements; training register; dashboard; calendar; e-mail reminders; Paddle checkout and webhooks | F |
+| **Helpers** | tests, docs | all | Synthetic agency, review reports, Spanish help | F |
+
+### Calendar (start Monday 12 Oct 2026)
+
+Argentine holidays inside the plan: Mon 12 Oct, Mon 23 Nov (moved from 20 Nov), Mon 7 Dec (non-working day), Tue 8 Dec and Fri 25 Dec ([Contadores en Red, 2026 holiday calendar](https://contadoresenred.com/calendario-de-feriados-2026/); [El Economista](https://eleconomista.com.ar/actualidad/se-viene-nuevo-feriado-argentina-cuando-cae-cuantos-fines-semana-largos-quedan-2026-n97521)). The founder works from abroad, but pilots and the lawyer follow these dates.
+
+| Week | Dates | Engineering (agents + founder) | Content, legal and pilots | Exit check |
+|---|---|---|---|---|
+| 0. Discovery and set-up | 12-16 Oct | Repo, CLAUDE.md, backlog from the 01 duty table, Render/R2/Resend/Paddle accounts, CI | 8-10 video calls: sole brokers and small agencies in Córdoba, Santa Fe and Mendoza, 2 in Buenos Aires city, 2 accountants who act as REI. **Ask one broker to export the RSM schemas from SROMasivo** and share an anonymised SRO+ screenshot set (RSM and RSA). Engage the lawyer and an AML expert. Request an AMLify demo (price and features) | Broker XSDs in hand, or a named broker who will export them in week 1 |
+| 1. Foundation | 19-23 Oct | Stream F | Lawyer starts: manual template, PEP/BO/funds statements, client form wording, terms, processor agreement, privacy policy. AML expert starts: risk factor table, alert checklist | Interfaces frozen; staging live; synthetic agency loads |
+| 2-3. Parallel modules | 26 Oct-6 Nov | Streams S1-S6 in parallel; daily merges | Recruit 5-8 pilot brokers and 1-2 accountants; use the 8 Nov start of the property-registry regime (Res. UIF 93/2026) as the hook ([02](02-market-and-competition.md)) | All MVP acceptance tests written; most passing |
+| 4. Integration | 9-13 Nov | End-to-end tests over 12 synthetic months; XML dry-run: a pilot imports our files into SROMasivo with "Importar y Validar" without sending; reviewer-agent security pass; backup and restore drill | Pilot agreements: free until 31 Mar 2027 in exchange for feedback and a reference | **MVP done** (definition below) |
+| 5-6. Legal approval and pilots | 16-27 Nov (23 Nov holiday) | Fixes from pilots; copy-sheet polish; Spanish copy pass | Lawyer and AML expert sign off templates, statements, rule table, alert checklist, privacy policy, terms and processor agreement. Founder onboards each pilot on a call; they enter October and November operations | Signed approvals; pilots live with real data |
+| 7. Security test | 30 Nov-4 Dec | External penetration test (3-4 testing days); fix high and critical findings | Pilots prepare the November RSM in the tool | No open high or critical findings |
+| 8. Launch | 9-11 Dec (7-8 Dec off) | Retest; production hardening; monitoring and status page | **Pilots file the November RSM (window 1-15 Dec) with our files** and store control numbers; paid plans open; landing page with public prices | **Sellable** (definition below) |
+| After launch | 14 Dec-15 Mar | RSA calculator hardening before 2 Jan; v1 starts | RSA window 2 Jan-15 Mar 2027 is the first sales push | RSAs filed by pilots |
+| v1 | Jan-May 2027 | ITAER wizard; reviewer and accountant workspace; OpenSanctions; DNI barcode; Excel and Tokko imports; ROS draft builder; course player | Accountant partners; first colegio talks | Monthly releases |
+
+**Is "MVP in about 3 weeks" realistic?** Yes for the code, if week 1 delivers frozen foundations and six streams run in weeks 2-3, with week 4 for integration. The schedule risk is outside the code: the XSD export and the legal sign-off. If the XSDs are late, ship the MVP with the copy sheet and add the XML export when they arrive; that costs about two agent-days (my estimate).
+
+### Definition of done for the MVP (end of week 4)
+
+1. Every MVP feature has passing acceptance tests, including:
+   - Lease tracker: a client with two 2026 leases totalling ARS 101 million is "in scope" at the 31 Dec 2025 reference (300 × 334,800 = ARS 100.44 million); a client at ARS 99 million is not.
+   - RSM validator: rejects buyer shares of 60,00 + 30,00; a DNI of 9 digits; a CUIT with a wrong check digit; a legal-person party without a linked natural person; an operation with no payment; a period later than the report date.
+   - ROS clock: suspicion concluded Tue 10:00 gives a due time of Wed 10:00, never later than day 90 after the operation.
+   - Refresh clock: a high-risk client rated 15 Jan 2027 is due 15 Jan 2028; low risk 15 Jan 2032.
+   - Screening: a test set of 50 RePET names with accent, order and alias variants is caught; the certificate shows the list's Last-Modified date.
+   - Access: a staff user gets 403 on every `cases/` URL and sees no case counts; an accountant cannot reach a second broker without a grant.
+2. The synthetic agency's RSM files validate against the exported broker XSD, and one pilot's SROMasivo shows status "Ok" on import of our files.
+3. The synthetic agency's inspection pack is under 20 MB and opens on Windows and macOS.
+4. Tenant isolation tests pass on every URL; MFA is enforced for the required roles; the audit chain verifies; a restore from backup has been done.
+5. All screens and documents are in Spanish (es-AR); no English strings remain.
+6. A new firm completes Flows 1-3 on staging in under 60 minutes.
+
+**"Sellable" (end of week 8)** adds: the lawyer and AML expert have signed off the content and legal papers; the penetration test has no open high or critical findings; at least 3 pilot brokers have filed a real RSM with our files and stored the control numbers; billing is live; a status page and a support channel exist.
 
 ## Budget
-(pending)
+
+### Cash to "sellable" (8 weeks; USD; founder unpaid; company set-up excluded)
+
+| Item | Low | High | Basis |
+|---|---|---|---|
+| Claude Max 20x, 2 months | 400 | 400 | USD 200 a month (20x tier; see "Tool limits"; [Claude pricing](https://claude.com/pricing)) |
+| API overflow or a second plan for parallel agents | 200 | 800 | my estimate |
+| GitHub and CI minutes | 0 | 50 | my estimate |
+| Hosting during build and pilots (staging and production, 2 months) | 150 | 300 | [Render](https://render.com/pricing), [R2](https://developers.cloudflare.com/r2/pricing/) |
+| Domain, e-mail sending, error tracking | 50 | 150 | [Resend](https://resend.com/pricing); domain price unverified |
+| Argentine lawyer (AML and data protection): template and statement review, rule-table review, terms, processor agreement, privacy policy | 2,000 | 4,500 | Fixed-fee estimate (unverified). For scale, the court fee unit (UMA) was ARS 89,875, about USD 59, from 1 Jan 2026 ([Palabras del Derecho](https://www.palabrasdelderecho.com.ar/articulo/6534/Se-actualizo-el-valor-de-la-UMA); unverified) |
+| AML expert (an REI-registered accountant or a former UIF analyst): risk factors, alert checklist, RSM mapping check, mock inspection; 15-30 hours | 750 | 2,000 | my estimate (unverified) |
+| Penetration test, scoped web app, with retest | 3,000 | 8,000 | Guides put a small single-app test at USD 5,000-15,000 and a 3-4 day minimum, and warn that quotes under about USD 2,000-4,000 are usually automated scans ([Startup Defense](https://www.startupdefense.io/es-us/blog/cuanto-cuesta-un-pentest); [Andersen](https://andersenlab.com/blueprint/penetration-testing-costs-2026)). A local boutique may be cheaper (unverified) |
+| Windows machine time to test SROMasivo imports | 0 | 50 | Use a pilot's PC, or a cloud Windows VM for a few hours (my estimate) |
+| Pilot trip (Córdoba, Rosario, Buenos Aires), optional | 0 | 2,000 | my estimate |
+| Contingency (10%) | 650 | 1,850 | |
+| **Total** | **about 7,200** | **about 20,100** | |
+
+### Monthly running cost after launch (first year)
+
+| Item | USD a month |
+|---|---|
+| Hosting and services at 50 customers | 100-170 |
+| AI tools for maintenance and v1 (Max 5x to 20x) | 100-200 |
+| Lawyer and AML expert on a small retainer (law watch, template updates) | 100-250 (my estimate) |
+| **Total** | **about 300-620** |
+
+- **Year-1 cash, excluding the company and marketing:** the build (USD 7,200-20,100) plus 10 months of running costs (USD 3,000-6,200) is about **USD 10,200-26,300** (my arithmetic). The second penetration test falls in month 13.
+- **Against revenue.** The 02 base case is about USD 80,000-90,000 a year by year 3 ([02](02-market-and-competition.md)). The build is small against that; the risk is sales, not cost.
+- **Company.** The product needs no Argentine company: no MVP integration requires an Argentine tax ID. Company set-up costs (foreign entity, card payments, invoicing to Argentine brokers) belong in the company and go-to-market file.
+
+### Concierge fallback
+
+If the XSDs or pilots are late, sell the programme pieces first: the manual generator, the statements kit, the training log and a monthly "RSM copy sheet" service done with the broker on a call. This needs only streams F, S1 and S6 and can be sold from week 5, while the RSM export catches up (my estimate).
 
 ## Risks
-(pending)
+
+| Risk | Why it matters | Mitigation |
+|---|---|---|
+| **The broker XSDs cannot be obtained** | No bulk RSM export; the main monthly time-saver is weaker | Ask pilots to use SROMasivo's "Exportar esquemas" in week 0; ask the UIF at sujetosobligados@uif.gob.ar; ship the copy sheet first |
+| **SROMasivo is Windows-only** | Many brokers use Macs or phones (unverified) | Copy sheet for the SRO+ web form; few operations per month make typing acceptable |
+| **The UIF changes the schema or version** | Files rejected as outdated | Schemas stored as versions with golden tests; a pilot re-exports; customers get a banner |
+| **RePET's JSON path is undocumented** | It could move or break silently | ETag polling with a "list is stale after 48 hours" alarm; OpenSanctions also carries RePET as a second feed ([OpenSanctions Argentina](https://www.opensanctions.org/countries/ar/)) |
+| **PEP coverage is thin** | Domestic PEPs (provincial and municipal officials, judges) are missed by data | The signed statement stays mandatory; "public function" questions; OpenSanctions as a helper; an honest disclaimer |
+| **Security flaws in agent-written code** | A tenant leak or a ROS leak would end the business and could be a crime (tipping-off) | RLS as a second wall; restricted-area tests; reviewer agent on every PR; founder review of `cases/`; external penetration test before launch |
+| **Tipping-off through the product** | A notification or a client-facing status that reveals a hit or a case | No case data in e-mails or WhatsApp; neutral client statuses; content rules checked by tests |
+| **Liability for a missed report or a wrong rating** | Fines run to 2,500 módulos per breach ([01](01-law-and-requirements.md)) | The broker approves and files; disclaimers; liability cap; reviewed templates; insurance later |
+| **Processor rules vs 10-year retention** | Law 25.326 Art. 25 requires destruction at contract end | Export at exit, "archive only" plan, or an express two-year authorisation |
+| **Transfers to US sub-processors** | Art. 12 bans transfers to non-adequate countries | EU hosting; no client data to US tools; model clauses where unavoidable |
+| **Scope changes (deregulation, new UIF rule)** | Who is obliged and which fields apply could change ([01](01-law-and-requirements.md) "Upcoming changes") | Rules and thresholds as data; change promise in the terms |
+| **AMLify moves first in more colegios** | Fewer open channels ([02](02-market-and-competition.md)) | Public price, self-serve, accountant seat, provinces first |
+| **Founder abroad; support in Spanish** | Micro-office buyers want WhatsApp help during Argentine hours | Help centre; fixed WhatsApp support hours; accountant partners as first-line support |
+| **Usage limits slow the parallel agents** | Weeks 2-3 can slip | Stagger streams; overflow API budget; freeze scope |
+| **Pilots stall in December** | Holidays and the southern summer | Recruit in October; pilots' first real use is the November RSM, before the holidays |
 
 ## Open questions
-(pending)
+
+1. What exactly do the broker RSM XSDs contain (sale and lease), and which version is current? Must a broker file a "nil" RSM in a month with no operations? (unverified)
+2. How did brokers file the ITAER in April 2026: an SRO+ upload, an e-mail, or something else? (unverified)
+3. Does an OTP-based electronic signature, with stored evidence, satisfy the Res. 35/2023 PEP statement rule? The lawyer should confirm.
+4. Must a broker register its AML client database with the AAIP under Law 25.326 Art. 21? (unverified)
+5. Which of the 31 listed alert situations (Res. 43 Art. 31) can be computed from data a small broker holds, and which stay as a checklist? The AML expert should map them.
+6. Does "300 SMVM in one or several operations" add up separate leases of one client? (open legal question in [01](01-law-and-requirements.md))
+7. Does AMLify produce SROMasivo XML or only spreadsheets, and what does it charge? ([02](02-market-and-competition.md))
+8. Will Tokko allow a third-party app to use an agency's API key, and what does `signed_operations` contain? (unverified)
+9. Where does Didit store Argentine data, and will it sign a processor agreement that meets Law 25.326? (unverified)
+10. Is the Disp. 60/2016 model contract still the AAIP's standard for transfers to the US? (unverified)
+11. What is the real round-trip time from Argentine provinces to Frankfurt on mobile networks? Measure with pilots.
 
 ## Sources
 (pending)

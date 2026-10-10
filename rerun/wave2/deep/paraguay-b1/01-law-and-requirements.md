@@ -100,3 +100,24 @@ Source: [Vouga, 6 Oct 2026](https://www.vouga.com.py/en/seprelad-implementa-una-
 
 ### PEP: Res SEPRELAD 50/2019 (5 Sep 2019)
 Sources: [Base Legal Res 50/2019](https://baselegal.com.py/docs/098f44a2-dcbc-11e9-8e7a-525400c761ca) (search snippet); [Lexia Cumplimiento summary, Jan 2025](https://lexiacumplimiento.com.py/2025/01/20/resolucion-no-50-2019-reglamento-para-la-identificacion-y-control-de-personas-expuestas-politicamente-pep/). Art. 1 definition incl. relatives to 2nd degree consanguinity/affinity and entities where PEP holds >=10%; Art. 2 foreign; Art. 3 international orgs; Art. 4: 26 domestic positions; Art. 6 sworn PEP declaration at onboarding after informing client; Art. 7 senior management approval, source of wealth and funds, intensified monitoring; PEP status assessed for 2 years after leaving office. Lexia = local PEP/sanctions screening software vendor (competitor note).
+
+### Canon updates and SIRO notices (SEPRELAD comunicados page, read 2026-10-10)
+Source: [SEPRELAD comunicados](https://www.seprelad.gov.py/?cat=36).
+- Canon 2026: Res 56 of 3 Feb 2026; liquidation downloaded in SIRO "Cuentas"; pay BNF account 000-00-940031/8; upload receipt within 24 h; due 30 June 2026; 2% per month surcharge; new users 1 month grace. Amount for automotores not published on the page.
+- Canon 2025: [Res 48 of 10 Feb 2025](https://www.seprelad.gov.py/userfiles/files/resoluciones/resolucion-n48-2025-canon-anual-2025.pdf): Automotores Gs 321,000 (row 20); due 31 May 2025.
+- Real-estate JSON bulk RO (Res 003/2025): request by note to mesaentrada@seprelad.gov.py with SO name, RUC, OC name, institutional e-mail; once JSON is enabled, individual entry is no longer possible (notice 22 Aug 2025).
+- SIRO two-factor authentication by e-mail token from 1 July (2025) for some sectors (jewellers, VASPs, pawnshops etc.); vehicle sector not named in that notice.
+- ENR 2025 participation form in SIRO, deadline extended to 24 Sep 2025.
+- Mandatory data update for real-estate sector from Mon 5 Oct (2026).
+
+### Minimum wage (for simplified-regime thresholds)
+Gs 3,044,000/month from 1 Jul 2026, Decreto 6225/26 ([Bloomberg Línea](https://www.bloomberglinea.com/latinoamerica/como-queda-el-salario-minimo-en-paraguay-tras-el-reajuste-del-5-anunciado-por-pena/); [ABC](https://www.abc.com.py/economia/2026/06/26/reajuste-del-salario-minimo-estos-son-los-pagos-por-hora-dia-y-jornada-nocturna/)); previous Gs 2,899,048. Infobae: about USD 500 ([Infobae](https://www.infobae.com/america/america-latina/2026/06/18/el-presidente-de-paraguay-reajusto-un-5-el-salario-minimo-supero-a-la-inflacion-y-alcanzara-los-usd-500/)). So 15 MW = Gs 45,660,000; 20 MW = Gs 60,880,000.
+
+### TFS: Ley 6419/2019
+[BACN Ley 6419](https://www.bacn.gov.py/leyes-paraguayas/9091/ley-n-6419-regula-la-inmovilizacion-de-activos-financieros-de-personas-vinculadas-con-el-terrorismo-y-la-proliferacion-de-armas-de-destruccion-masiva-y-los-procedimientos-de-difusion-inclusion-y-exclusion-en-listasde-sanciones-elaboradas-en-virtud-de-las-resoluciones-del-consejo-de-seguridad-de-las-naciones-unidas) (search snippet): SOs of Ley 1015 must freeze "inaudita parte y sin demora", communicate immediately to SEPRELAD, and constantly review list updates published by SEPRELAD and the UNSC. Article numbers (unverified).
+
+### Data protection: Ley 7593/2025
+Promulgated 27 Nov 2025; general obligations apply 24 months after publication (~late 2027); agency under MITIC; fines 20-10,000 jornales ([Ferrere](https://ferrere.com/es/novedades/paraguay-adopta-su-ley-de-proteccion-de-datos-personales/); [ABC, 20 Mar 2026](https://www.abc.com.py/nacionales/2026/03/20/ley-de-datos-personales-en-paraguay-desde-cuando-entra-en-vigencia-y-que-cambia-para-los-ciudadanos/); [DPL News](https://dplnews.com/?p=324455)). Transfer rules not seen (unverified).
+
+### Cash
+No Paraguayan cash cap for vehicle sales found (search 2026-10-10). Old USD 10,000 cash threshold of Res 85/15 removed by Res 196.

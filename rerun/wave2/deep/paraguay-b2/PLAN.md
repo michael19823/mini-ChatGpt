@@ -12,7 +12,7 @@ Earlier work: [the B2 report and its re-assessment](../reports/paraguay-b2.md).
 **How to read this page.**
 - Every fact carries a link. Most links point to a few sources that are listed at the bottom.
 - "My estimate" marks a number I derived. "(unverified)" marks a claim none of the files could confirm.
-- "[0x]" points to the section file where the detail and its sources sit.
+- [01] to [04] point to the section file where the detail and its sources sit.
 - Money: **Gs 5,700 = US$1**. The Central Bank reference rate was Gs 5,694 on 9 Oct 2026 ([BCP][bcp]). The B2 report and file 02 used about Gs 7,300, which is out of date (see §1).
 
 ---
@@ -45,7 +45,7 @@ Why 5.5:
 |---|---|---|---|
 | Law | Res 201/2020 duties from a law-firm summary | Full texts read. Circular 2/2025 fixes the dates. New in 2026: yearly SIRO data confirmation ([Res 435/2026][r435]) and an audit exemption on request ([Res 328/2026][r328]). 96 requirements written ([01]) | Stronger, and the spec is ready |
 | Quarterly operations report (RO) | JSON upload for large firms | A quarterly RO of every deal since 2025, with a published Excel spec of 37 columns and code tables ([RO spec][rospec]; [03]) | A concrete re-keying pain the tool removes |
-| Buyers | About 1,450 real-estate and 845 car-dealer fee payers | Same payer counts, plus my-count register exports: 2,233 real-estate and 1,719 car-dealer subjects ([02]) | Confirmed |
+| Buyers | About 1,450 real-estate and 845 car-dealer fee payers | Same payer counts, plus row counts of SEPRELAD's register export: 2,233 real-estate and 1,719 car-dealer subjects ([02]) | Confirmed |
 | Auditor channel | Register size unverified | **182 registered auditors in about 140 practices** ([02], from the [auditor lookup][lookup]) | Confirmed and sized |
 | Competition | No local product; Pirani partial | **Devsys Cumplo360 serves a Paraguayan real-estate firm**; Pirani has a free plan; HADA starts at US$10 ([02]) | Weaker at the top end |
 | Exchange rate | Gs 7,300 = US$1 | Gs 5,694 = US$1 ([BCP][bcp]) | Gs prices are worth 28% more in dollars, but profit now swings with the guaraní |
@@ -77,6 +77,25 @@ Why 5.5:
 1. Build a one-script RO export and have a friendly firm or auditor try it in the live window that closes on 20 Oct 2026 ([03]).
 2. Run 20 interviews: 12 agencies or developers, 2 car dealers, 6 auditors. Ask auditors what they charge ([04]).
 3. Build the MVP with AI agents in parallel. **Commit the lawyer's full fee and the security test only after Gate 1 on Fri 6 Nov.**
+
+### Where the four files disagree, and what I use
+
+| Topic | What the files say | I use | Why (and where) |
+|---|---|---|---|
+| Exchange rate | B2 and [02]: about Gs 7,300 = US$1. [04]: Gs 5,694 ([BCP][bcp]) | Gs 5,700 | The current official rate |
+| Buyers | Register: 2,233 real estate + 1,719 car dealers. Payers: 1,451 + 845. ACIP: only 300-400 "real" agencies ([02]; [ACIP][acip26]) | **About 2,300 payers** | Paying the canon shows a firm is active; ACIP counts only agencies, not developers or lot sellers (§3) |
+| Main price | B2: about US$30 a month. [02]: Gs 180,000-250,000 a month. [04]: Gs 149,000 | Gs 149,000 a month or Gs 1.49m a year; test Gs 199,000 | Owner-run firms and Pirani's free tier argue for low; a 25% higher price adds about US$14,000 of year-3 profit (§8, §10) |
+| Year-3 revenue | B2: US$110,000-135,000. [02]: US$90,000-180,000. [04]: US$71,000 ARR | [04]'s US$71,000 | The only month-by-month model with churn and seasonality (§10) |
+| Break-even | [03]: about 50-60 firms. [04]: about month 22, near 200 firms | [04] | [03] leaves out marketing, travel and the contractor (§10) |
+| Security test | [03]: US$3,000-8,000, middle US$5,000; yearly retest US$3,000-8,000. [04]: US$2,500, then US$2,000 | [03]'s middle | Quotes under about US$2,000 are often just scans ([Blaze][pentest1]) (§7, §10) |
+| Gate 1 date | [04]: Wed 11 Nov. [03]: MVP done Fri 6 Nov | Fri 6 Nov | Commit the two big cash items only after the market answers (§13) |
+| Pilot terms | [03]: free to 31 Jan 2027. [04]: paid pilots by 11 Dec | Free until 11 Dec, then the founding price | A free pilot proves nothing about price (§7) |
+| Launch features | [04]'s plans list WhatsApp, PEP checks and the CI generator. [03] builds them in 2027 | [03]'s order | The MVP must ship in 3 weeks; price pages say "from Feb 2027" (§5) |
+| RO bulk upload | [01]: Excel bulk upload. [02], [03] and SEPRELAD's 2024 report: one by one, or JSON on request | Build Excel, JSON and a copy sheet; test live | Two extra searches did not settle it (§6) |
+| Card processor | [03]: Paddle. [04]: Stripe in PYG | Stripe | Paddle sells to Paraguay only in US$ and collects no Paraguayan tax (§9) |
+| Archive after cancelling | [03]: a cheap paid plan. [04]: free for 5 years | Free | Storage is cents a firm, and it removes an objection (§9) |
+| Car-dealer timing | [03]: Jun-Sep 2027. [04]: Apr-Jun 2027 | Beta in April, launch in July 2027 | After the yearly-report releases ship (§11) |
+| Local company | All files: not needed in year 1 | None until a trigger in §9 fires | A local company needs a resident legal representative ([RG 34/25][rg34]) |
 
 ---
 
@@ -155,7 +174,7 @@ Why 5.5:
 | Notaries | 1,406 | 1,144 | Supervised by the Supreme Court; out of scope |
 | **Channel: registered external auditors** | **182 registrations, about 140 practices** | — | Big Four, mid-tier firms and about 90 individuals |
 
-Source for every count: my-count exports of the [SEPRELAD register lookup][lookup] and the [statistics portal][stats], made on 10 Oct 2026 and reported in [02].
+Source for every count: file 02's own row counts of the Excel exports of the [SEPRELAD register lookup][lookup] and the [statistics portal][stats], made on 10 Oct 2026 ([02]).
 
 **The working figure is about 2,300 paying firms** (1,451 real estate plus 845 car dealers), plus about 190 smaller subjects.
 - I use payers, not registrations, because the register keeps inactive firms ([02]).
@@ -567,7 +586,7 @@ Years 2 and 3: about US$9,000 each for marketing ([04]).
 | 19-25 Oct | Foundation | Remote interviews; ask auditors their fees; optional Ciudad del Este expo (22-23 Oct) | Lawyer outline review (small fixed fee) |
 | 26 Oct - 6 Nov | Seven agent streams; **MVP Fri 6 Nov** | Founding offer; collect letters of intent | Draft terms and DPA |
 | **Fri 6 Nov: Gate 1** | | ≥10 of 20 would pay Gs 100,000+ a month; ≥3 auditors will pilot; ≥5 letters of intent | Then commit the lawyer's full fee and book the security test |
-| 9-27 Nov | Launch scope; security test 23-27 Nov | **Two-week trip to Asunción (9-22 Nov):** onboard 10-15 pilots through 2-3 auditors; hire the contractor; meet ACIP and a trainer | Lawyer reviews templates |
+| 9-27 Nov | Launch scope; security test 23-27 Nov | **Two-week trip to Asunción (9-22 Nov):** onboard 10-15 pilots through 2-3 auditors; pick the local contractor (starts in December only if Gate 2 passes); meet ACIP and a trainer | Lawyer reviews templates |
 | 30 Nov - 11 Dec | Security fixes and retest; Stripe Billing live; help pages | 5 short videos; "RN y RO en enero" guide; partner agreements | Final terms, DPA, DPIA |
 | **Fri 11 Dec: Gate 2, public launch** | | ≥8 paying pilots | |
 | 12 Dec - 3 Jan | Support only | Campaign to register companies in Asunción and Central: "RN due 10 January, RO 11-20 January"; auditor webinar; small Meta test | Bookkeeping of the foreign company |
@@ -751,3 +770,245 @@ The engine carries over to every market: the client and deal register, the KYC t
 **Reconciled timing.** File 03 put the car-dealer pack in June-September 2027 and file 04 in months 7-9 (April-June 2027) ([03]; [04]). I use a beta in April, when dealer interviews run, and a paid launch in July, after the CI, FA and AE releases have shipped.
 
 **Honest view.** Ecuador is what turns this from a side business into a living, but it is a second build and a second sales effort run from abroad. Decide on it in September 2027 (§13), only if Paraguay is on the base path.
+
+---
+
+## 12. Risks and mitigations
+
+Merged from [03] and [04], most serious first. Where the files rated a risk differently, I say which rating I use.
+
+| Risk | Likelihood | Impact | Mitigation |
+|---|---|---|---|
+| **Low willingness to pay.** Fines are rare: none on real estate, one across all sectors in 2025 ([statistics portal][stats]). Many firms may live with a warning | High | High | Sell time saved and "ready for the auditor", not fear. Lead with the auditor channel. Keep the Al día plan at Gs 490,000 a year. Test price in the first 20 interviews (Gate 1) |
+| **Small ceiling.** About 2,300 paying firms; the base case needs 11% of them | Certain | High | Car dealers from 2027; Ecuador from 2028; costs kept low and mostly variable |
+| **SIRO rejects our RO file**, or the Excel bulk route no longer exists (the files disagree, §6) | Medium | High | Spike in the live window that closes 20 Oct 2026; Excel, JSON and copy sheet; switchable formats; ask SEPRELAD for the JSON schema in week 0 ([03]) |
+| **SEPRELAD adds free reminders or record-keeping to SIRO.** It added a supervision module (2024), JSON upload (2025) and a data-update form (Oct 2026) ([02]) | Medium | High | Compete on what a filing portal is unlikely to hold: the client file, screening log, documents, alert register and audit evidence. Follow SIRO's formats rather than fight them |
+| **Errors in legal templates or rules** | Medium | High | Lawyer sign-off; version stamps; golden tests; 30-day update promise; liability cap; insurance ([03]). File 04 rated the chance of a lawsuit low; I rate the chance of an error medium |
+| **AI-written code hides security bugs** | Medium | High | Founder reviews auth, tenancy, files and the confidential area line by line; static analysis; external test before launch and yearly; agents never touch production ([03]) |
+| **One founder is a single point of failure** | Medium | High | Runbooks; infrastructure as code; a support promise sized to one person ([03]) |
+| **Data breach of ID copies or ROS records** | Low | Very high | Encryption, MFA, row-level security, minimal logs, security test, impact assessment, breach plan; no ROS narrative in the MVP ([03]) |
+| **The audit exemption (Res 328/2026) thins the auditor channel** | Medium | Medium | Sell the exemption-request workflow in Al día; keep a direct self-serve route ([04]) |
+| **Devsys or Pirani localise for SEPRELAD** | Medium | Medium | Move first on the Paraguay-specific filings; sign auditors; be the obvious acquisition ([04]) |
+| **The guaraní weakens.** Gs 7,000 cuts base year-3 profit to about US$1,500 ([04], adjusted) | Medium | Medium | Mostly variable costs; review Gs prices every January; consider US$ prices for Grupo and Estudio |
+| **Card-only checkout loses buyers.** Cards are about 23% of online payments ([dLocal][dlocal]) | Medium | Medium | Partner-reseller route with a local invoice; dLocal or a local company later |
+| **Selling to owner-run firms from abroad** | High | Medium | Local contractor; two trips a year; WhatsApp-first support; auditors do the face-to-face work ([04]) |
+| **Over-scoping the 3-week MVP** | High | Medium | Strict MVP column; a ready cut list (calendar feed, JSON, styling); scope moves, the date does not ([03]) |
+| **Thin PEP data** | High | Medium | The signed PEP declaration is the core control ([Res 50/2019][r50]); local PEP data as a paid add-on; clear disclaimer |
+| **Rule change:** a new real-estate rulebook after the ENR 2025, or GAFILAT-driven updates ([01]) | Medium | Medium | Rules as data; lawyer rule-watch retainer; agents rebuild templates in days. A rule change is also a reason to renew |
+| **A firm switches to JSON and loses one-by-one entry, then depends on us** | Medium | Medium | Explain the trade-off; recommend JSON only for firms with many deals ([03]) |
+| **Tax friction:** buyers withhold 4.5% or ask for a local invoice | High | Low | Accept 95.5%; publish an accountant's guide; partner-reseller route ([04]) |
+| **The data-law decree demands local hosting or registration** | Low-Medium | Medium | Container-based deploy that can move; transfer clauses in the processing agreement ([03]) |
+| **Outreach from the public register breaks data rules** (474 individuals among real-estate rows) | Low | Medium | Contact companies first; keep an opt-out list; get the lawyer's view before Nov 2027 ([03]; [04]) |
+
+---
+
+## 13. Milestones and kill criteria
+
+**Reconciled dates.** File 04 put Gate 1 on Wed 11 Nov 2026; file 03 has the MVP done on Fri 6 Nov. I hold Gate 1 on **Fri 6 Nov**, so the lawyer's full fee and the security test (about US$8,000-9,000 together) are committed only after the market answers. The other gates follow file 04 ([03]; [04]).
+
+| When | Target (base) | Stop or pivot if |
+|---|---|---|
+| **Tue 20 Oct 2026** (Q3 RO window closes) | A friendly firm or auditor has tried our RO Excel file in live SIRO | Not a kill signal. If no firm could try it, the first live test moves to January and the risk stays open |
+| **Fri 6 Nov 2026: Gate 1** | 20 interviews done; MVP definition of done met (§7) | **Fewer than 10 of 20 would pay Gs 100,000+ a month, or fewer than 3 auditors will pilot, or fewer than 5 letters of intent.** Pivot to an auditors-only working-papers tool, or stop. Sunk cost about US$1,000 plus founder time |
+| **Wed 9 Dec 2026** | Security retest done | Any open high or critical finding: delay launch, not the fix |
+| **Fri 11 Dec 2026: Gate 2, public launch** | At least 8 paying pilots; templates signed off; Stripe live | **Fewer than 5 paying pilots.** Do not hire the local contractor |
+| **Sat 9 Jan 2027: Gate 3 (day 90)** | At least 10 paying firms and 2 active partner practices | **Fewer than 6 paying firms, or no active practice.** Stop paid marketing |
+| **Sun 31 Jan 2027** | SIRO has accepted our RO files for at least 10 firms ([03]) | RO files rejected and not fixable: sell the copy sheet and calendar only, at the Al día price, and re-plan |
+| **15 Feb / 15 Apr / 15 May 2027** | CI generator, FA calculator and exemption workflow shipped before their deadlines | A miss breaks the plan's promise for that season. Fix before selling more |
+| **Wed 31 Mar 2027 (month 6)** | 40+ paying firms after the CI deadline (base about 46) | **Fewer than 20** (the low case). Stop spending; keep it as a side product |
+| **Wed 30 Jun 2027 (month 9)** | 85+ firms after the audit deadline; 4+ practices | Fewer than 40 firms |
+| **Sep 2027 (month 12)** | About 110 firms, ARR about US$25,000; Automotores live; **Ecuador go or no-go** | Fewer than 60 firms. No Ecuador |
+| **Dec 2027 - Mar 2028** | At least 65% of first-year firms renew | **First-year renewal below 55%.** It is a one-off purchase; run it as side income |
+| **Jul 2028 (month 22)** | Trailing 12-month break-even before founder pay; Ecuador build under way | Still losing money with no Ecuador plan: sell or license to Devsys, Pirani or an audit firm |
+| **Sep 2029 (month 36)** | About 260 firms in Paraguay, about US$71,000 ARR; Ecuador live | ARR below US$40,000 across all markets |
+| **Any time** | | SEPRELAD launches free record-keeping in SIRO, or Devsys or Pirani launch a SEPRELAD filings pack below our price: re-plan within 30 days |
+
+---
+
+## 14. Open questions to settle first
+
+In the order they should be settled. The first five decide whether to spend after Gate 1.
+
+1. **The RO file.** Does SIRO still take the Excel bulk upload, or only one-by-one entry and JSON? Does it map columns by position or by header? Which date, number and phone formats pass? Is the matrícula field required? Can a vendor get the JSON schema, or only an obliged firm? Is there a test environment? ([03]; [01]; [JSON notice][json]; [RO spec][rospec])
+2. **Price.** Will owner-run firms pay Gs 149,000 a month, or Gs 199,000? What do registered auditors charge a small firm for the yearly report? Will auditors resell at 30% off or only refer at 20%? ([04]; [02])
+3. **Auditor acceptance.** Will registered auditors accept our system description as the IT-tool evidence under Res 411/2013, and our audit pack as their working file? Can the CI report be in our format beyond the 12 Annex II items? ([03]; [Res 411/2013][r411])
+4. **Cards.** Do Paraguayan small-company credit cards and debit cards work with a foreign Stripe account charging PYG? Test with 5 pilot firms ([04]).
+5. **Tax adviser (five questions).** How does an IRE-general buyer account for IVA on a foreign SaaS paid by card? Are IRE SIMPLE and RESIMPLE buyers withholding agents for the 4.5%? Can a sole trader with a RUC count as a "final consumer" under RG 109/2021? Is the buyer's expense deductible if nothing was withheld? Would a Spanish company escape the 4.5% under the Spain treaty? ([04])
+6. **Lawyer.** Is a logged simple e-signature enough for staff acknowledgements and owner approvals under Ley 6822/2021? Is hosting in São Paulo defensible under Ley 7593/2025? May we use the SEPRELAD register for outreach? Which governing law raises trust? ([03]; [04])
+7. **PEP data.** What do Compliance Paraguay and OpenSanctions charge at our volumes, and may the data sit inside a SaaS? ([03]; [Compliance Paraguay][cpy]; [OpenSanctions licensing][oslic])
+8. **SEPRELAD procedure.** Which channel does Res 328/2026 mean for exemption requests? When does the yearly data confirmation (Res 435/2026) fall for real estate? Is an RN filed on business days 6-10 but after calendar day 10 late? (The product uses the stricter calendar-day rule.) ([01])
+9. **Rule change.** Will the ENR 2025 results lead to a rule that replaces Res 201/2020, and when? ([01]; [ENR notice][enr])
+10. **Competitor price.** What does Devsys Cumplo360 cost a small Paraguayan firm, and does it have a local reseller? ([02])
+11. **Small technical items.** The reuse terms of the DNIT RUC files; whether Lightsail's managed PostgreSQL allows `pg_trgm` ([03]).
+12. **Later.** Official SUACE fees for an EAS and the cost of a resident representative; Ecuador's local vendors and prices; whether notaries are a second product line ([04]; [02]).
+
+---
+
+## 15. Next steps this week (Mon 12 - Sun 18 Oct 2026)
+
+1. **Mon 12 Oct: join SEPRELAD's free SIRO training on Zoom** ([SEPRELAD news][siro12]). Note the RO and FA screens and ask about bulk formats.
+2. **Build the one-script RO export now.** Use the reference layout: dates as `dd-MM-yyyy` text, document numbers as text, phones as bare digits, with a switch for the sample's style. Find one friendly firm or auditor to try it before the window closes on **Tue 20 Oct** ([03]).
+3. **Book 20 interviews** from the register and auditor exports: 12 agencies or developers (companies, RUC starting "80"), 2 car dealers and 6 auditors, starting with mid-size practices such as Cáceres & Schneider ([lookup][lookup]; [Cáceres & Schneider][cs]). Ask about current practice, the last warning, the auditor's fee, and Gs 149,000 against Gs 199,000 a month.
+4. **Ask for the JSON schema.** Have a pilot firm send the note to SEPRELAD that the JSON notice describes, and ask the E-porandu help desk for the technical specification ([JSON notice][json]).
+5. **Write the agents' spec pack** (CLAUDE.md, glossary, the 96 requirements mapped to modules and tests, data model, a synthetic firm with 30 clients and 60 deals) and open the accounts: AWS São Paulo, GitHub, Stripe with PYG prices, Amazon SES, domain ([03]; [04]).
+6. **Brief 2-3 Paraguayan AML lawyers** for a fixed-fee quote: a small paid outline review now, the full templates only after Gate 1. Send a tax adviser the five questions in §14.
+7. **Put up a Spanish landing page** with a waitlist, a free 2027 SEPRELAD calendar file and a short guide to the forced SIRO data update that started on 5 Oct ([SEPRELAD notice][upd]).
+8. **Ring-fence about US$38,000** for the base case (§10), and spend no more than about US$1,000 before Gate 1 on Fri 6 Nov.
+9. Decide whether to attend the Ciudad del Este real-estate expo on 22-23 Oct (optional) ([Infonegocios][expocde]).
+
+---
+
+## Sources
+
+The section files hold the full source lists and the detail behind each figure: [01], [02], [03], [04]. Earlier work: [the B2 report][b2]. The links used on this page:
+
+**SEPRELAD law, rules and data (primary)**
+- [Ley 1015/97, consolidated to Ley 6960/2022][ley] · [Res 201/2020, real-estate rulebook][r201] · [Res 196/2020, car dealers][r196]
+- [Res 003/2025, quarterly RO][r003] · [RO Excel specification][rospec] · [RO reference sheet][rosheet] · [JSON bulk-upload notice, 22 Aug 2025][json]
+- [Res 326/2022, negative report][r326] · [Res 165/2022 annex, Annual Form][r165a] · [SIRO manual for CI and AE uploads][cimanual]
+- [Circular 2/2025, deadlines and no official advisers][c2] · [Circular 001/2022, agents][c001] · [Circular 01/2025, confidentiality][c01]
+- [Res 328/2026, audit exemption][r328] · [Res 435/2026, yearly data confirmation][r435] · [Res 56/2026, canon][r56] · [Res 681/2024, warnings][r681]
+- [Res 483/2021, registration][r483] · [Res 258/2023, 30-day lapse][r258] · [Res 460/2025, deregistration][r460]
+- [Res 50/2019, PEPs][r50] · [Res 202/2020, beneficial owners][r202] · [Res 411/2013, audit standards][r411] · [Res 174/2023, CECAD training][r174] · [Decreto 5920/2021, UN sanctions][d5920]
+- [SEPRELAD Memoria 2024][mem] · [Statistics portal][stats] · [Register and auditor lookup][lookup] · [Real-estate risk guide, 2021][guide]
+- SEPRELAD notices: [SIRO data update, 2 Oct 2026][upd] · [Annual Form webinar, 8 Apr 2026][fa26] · [Webinar with Criterion, 11 Jun 2026][crit26] · [ENR 2025 form][enr] · [SIRO training, 12 Oct 2026][siro12]
+- [GAFILAT Mutual Evaluation of Paraguay, 2022][mer] · [Hoy on GAFILAT follow-up, Oct 2024 (snippet)][hoy]
+
+**Other Paraguayan official sources**
+- [BCP reference exchange rates][bcp] · [Decreto 6225/2026, minimum wage][d6225] · [Decreto 6515/2021, tax on digital services][d6515]
+- [DNIT RG 34/25 Annex 1, company RUC requirements][rg34] · [DNIT criterion on foreign providers][dnitcrit] · [DNIT on the Spain treaty][dnitesp] · [DNIT on 50,000 e-invoicers][ekuatia] · [DNIT RUC files][dnit]
+
+**Law-firm and tax commentary**
+- Ferrere: [Res 201/2020 (EN)][ferr201en] · [Res 196/2020][ferr196] · [Res 36/21 inspections][ferr36] · [Ley 7593/2025][ferr7593] · [tax on digital services][ferrdig] · [Bolivia's DNFBP rules][ferrbo]
+- [EY tax alert, Apr 2022][ey] · [abogados.com.ar on RG 109/21][rg109] · [Clym on Ley 7593/2025][clym] · [La Nación on Ley 7593/2025][l7593]
+
+**Market, competitors and channels**
+- [Devsys clients][devsys] · [Devsys Cumplo360 Cloud][cumplo] · [Pirani AML plans][pirani] · [Pirani SEPRELAD page][piranis] · [HADA][hada] · [Criterion S.A.][criterion] · [La Nación on Compliance Paraguay][cpy]
+- [Cáceres & Schneider][cs] · [Gestión Contable course][gc] · [Best Practices workshop][bp] · [Clasipar ad][clasipar] · [Perspectivas on the canon][persp] · [Cazvid on assistant pay][cazvid]
+- Infonegocios: [ACIP, Aug 2025][acip25] · [ACIP estimate, Aug 2026][acip26] · [ACIP and Place Analyzer][placean] · [Ciudad del Este expo][expocde] · [Expo Real Estate Paraguay][expore] · [residencies][resid]
+- Última Hora: [car dealers, Nov 2019][uh19] · [Colegio de Contadores, Jul 2026][contadores]
+
+**Payments and company**
+- [Stripe currencies][stripecur] · [Stripe Ireland pricing][stripeie] · [Stripe US pricing][stripeus]
+- [Paddle supported countries][paddlec] · [Paddle tax countries][paddlet] · [Paddle pricing][paddlep]
+- [dLocal Paraguay][dlocal] · [Wise on Itaú Paraguay fees][wise] · [ABC Color on the dollar, Apr 2025][abc]
+- [Golden Harbors on starting a business][gh] (secondary) · [LibertyMundo on residency][lm] (secondary)
+
+**Technology, data and costs**
+- [UN consolidated list XML][un] · [OFAC SDN XML][ofac] · [OpenSanctions index][os] · [OpenSanctions licensing][oslic] · [Python holidays][holidays]
+- [AWS Lightsail pricing][lightsail] · [Claude Max plan price][claude] · [Blaze on test prices][pentest1] · [Redfox on test prices][pentest2]
+
+**Regional and exit**
+- [UAFE Ecuador 2025 report][uafe] · [El Diario on UAFE registration][eldiario] · [Andersen Ecuador on the UAFE rule][andersen] · [NMS Law on Ecuador IVA][nms]
+- [SBS Peru obliged subjects][sbs] · [ADEBA on UIF Res 43/2024][adeba]
+- [Livmo on micro-SaaS valuation][livmo] · [BigIdeasDB, SaaS valuations 2026][bigideas]
+
+[01]: 01-law-and-requirements.md
+[02]: 02-market-and-competition.md
+[03]: 03-product-and-tech.md
+[04]: 04-gtm-company-finance.md
+[01req]: 01-law-and-requirements.md#product-requirements
+[b2]: ../reports/paraguay-b2.md
+[abc]: https://www.abc.com.py/economia/2025/04/03/cotizacion-del-dolar-sigue-escalando/
+[acip25]: https://infonegocios.com.py/default/mercado-inmobiliario-en-transformacion-acip-impulsa-ley-de-corretaje-y-modernizacion-digital-en-el-sector
+[acip26]: https://infonegocios.com.py/infomicasa/mercado-del-corretaje-inmobiliario-cambia-de-ritmo-redes-sociales-ia-e-inversion-extranjera-reconfiguran-el-negocio
+[adeba]: https://www.adeba.com.ar/?p=36553
+[andersen]: https://ec.andersen.com/wp-content/uploads/2021/10/TIPS-025-2021-Resoluci%C3%B3n-UAFE.pdf
+[bcp]: https://www.bcp.gov.py/webapps/web/cotizacion/monedas
+[bigideas]: https://bigideasdb.com/state-of-saas-valuations-2026
+[bp]: https://bestpractices.com.py/curso-taller-administracion-de-riesgos-ldft/
+[c001]: https://www.seprelad.gov.py/resoluciones/resoluciones/circular-uif-sepreladsen001-22.pdf
+[c01]: https://www.seprelad.gov.py/resoluciones/resoluciones/circular0125.pdf
+[c2]: https://www.seprelad.gov.py/resoluciones/resoluciones/CIRCULAR%202-2025.pdf
+[cazvid]: https://cazvid.com/es/blog/cuanto-gana-un-auxiliar-contable-en-paraguay
+[cimanual]: https://www.seprelad.gov.py/resoluciones/resoluciones/manual-de-usuario-remision-informe-cumplimiento-s-o.pdf
+[clasipar]: https://clasipar.paraguay.com/motor/otros-rodados/servicio-de-oficial-de-cumplimiento-seprelad-1924578
+[claude]: https://support.claude.com/en/articles/11049744-how-much-does-the-max-plan-cost
+[clym]: https://www.clym.io/regulations/law-no-7593-paraguay
+[contadores]: https://www.ultimahora.com/contadores-conmemoraron-110-anos-y-anunciaron-triple-evento-de-capacitacion
+[cpy]: https://www.lanacion.com.py/negocios/2024/08/13/consultora-presenta-herramienta-que-identifica-a-personas-expuestas-politicamente/
+[crit26]: https://www.seprelad.gov.py/?p=4038
+[criterion]: https://criterion.com.py/
+[cs]: https://consultoria.com.py/caceres-schneider-informe-de-cumplimiento-seprelad-plazos-para-entrega/
+[cumplo]: https://www.devsys.com.uy/cumplo360-cloud.html
+[d5920]: https://www.seprelad.gov.py/resoluciones/resoluciones/Decreto-5920-2021.pdf
+[d6225]: https://impuestospy.com/impuestos/decreto-n-6225-2026/
+[d6515]: https://impuestospy.com/impuestos/decreto-n-6-515-21/
+[devsys]: https://www.devsys.com.uy/clientes.html
+[dlocal]: https://www.dlocal.com/payment-processors-in-latin-america/paraguay-payment-methods-processors-e-commerce-market-dlocal/
+[dnit]: https://www.dnit.gov.py/web/portal-institucional/listado-de-ruc-con-sus-equivalencias
+[dnitcrit]: https://www.dnit.gov.py/web/portal-institucional/w/retencion-a-proveedores-del-exterior-
+[dnitesp]: https://www.dnit.gov.py/web/portal-institucional/w/paraguay-y-espana-refuerzan-la-cooperacion-economica-con-un-evento-sobre-el-convenio-para-evitar-la-doble-imposicion
+[ekuatia]: https://www.dnit.gov.py/web/e-kuatia/w/paraguay-supera-los-50.000-facturadores-electr%C3%B3nicos-y-avanza-en-la-digitalizaci%C3%B3n-tributaria
+[eldiario]: https://www.eldiario.ec/negocios/contribuyentes-en-ecuador-plazo-de-30-dias-para-cumplir-con-registro-en-la-unidad-de-analisis-financiero-y-economico-para-evitar-suspension-del-ruc-12092025/
+[enr]: https://www.seprelad.gov.py/?p=3259
+[expocde]: https://infonegocios.com.py/default/comienza-la-cuenta-regresiva-para-la-expo-internacional-de-inversiones-inmobiliarias-paraguay-2026
+[expore]: https://infonegocios.com.py/plus/expo-real-estate-paraguay-se-viene-el-epicentro-donde-se-redefine-el-futuro-del-mercado-inmobiliario
+[ey]: https://ey.com/content/dam/ey-unified-site/ey-com/es-py/technical/tax/documents/tax-alert-abril-2022.pdf
+[fa26]: https://www.seprelad.gov.py/?p=3859
+[ferr196]: https://ferrere.com/es/novedades/nuevo-reglamento-de-prevencion-de-lavado-de-activos-y-financiamiento-del-terrorismo-para-personas-fisicas-o-juridicas-involucrad/
+[ferr201en]: https://ferrere.com/en/news/new-regulations-for-the-prevention-of-asset-laundering-and-financing-of-terrorism-for-companies-and-individuals-involved-in-the/
+[ferr36]: https://ferrere.com/es/novedades/inspecciones-aleatorias-de-seprelad-bajo-resolucion-36-21/
+[ferr7593]: https://ferrere.com/es/novedades/paraguay-adopta-su-ley-de-proteccion-de-datos-personales/
+[ferrbo]: https://www.ferrere.com/en/news/instructivo-para-apnfd-con-enfoque-basado-en-gestion-de-riesgos-contra-lgi-ft-y-fpadm/
+[ferrdig]: https://ferrere.com/es/novedades/newsletter-retenciones-de-impuestos-por-servicios-digitales-en-paraguay/
+[gc]: https://gestioncontableparaguay.com/courses/curso-seprelad-6-hs-de-estudio/
+[gh]: https://goldenharbors.com/articles/start-business-in-paraguay
+[guide]: https://www.seprelad.gov.py/userfiles/files/Guia_de_Riesgos_LA_FT_Sector_Inmobiliario.pdf
+[hada]: https://hada.com.uy/
+[holidays]: https://pypi.org/project/holidays/
+[hoy]: https://www.hoy.com.py/nacionales/2024/10/10/ministra-de-seprelad-detalla-evaluacion-de-gafilat-y-su-implicancia
+[json]: https://www.seprelad.gov.py/?p=3156
+[l7593]: https://www.lanacion.com.py/politica/2025/11/28/nueva-ley-de-datos-personales-refuerza-la-privacidad-sin-recortar-la-transparencia-publica/
+[ley]: https://www.seprelad.gov.py/resoluciones/resoluciones/ley10151997actualizada_.pdf
+[lightsail]: https://aws.amazon.com/lightsail/pricing/
+[livmo]: https://livmo.com/blog/micro-saas-valuation/
+[lm]: https://www.libertymundo.com/residency-in-paraguay-2/
+[lookup]: https://www.seprelad.gov.py/siro/consultaExterna/consultaExternaSoAe.xhtml
+[mem]: https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf
+[mer]: https://www.pj.gov.py/descargar/ID1-148_informe_de_evaluacion_mutua_de_paraguay_2022.pdf
+[nms]: https://nmslaw.com.ec/blog/2020/09/13/sri-normas-declaracion-pago-servicios-digitales-noresidentes/
+[ofac]: https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML
+[os]: https://data.opensanctions.org/datasets/latest/index.json
+[oslic]: https://www.opensanctions.org/licensing/
+[paddlec]: https://developer.paddle.com/concepts/sell/supported-countries-locales
+[paddlep]: https://www.paddle.com/pricing
+[paddlet]: https://www.paddle.com/help/sell/tax/which-countries-does-paddle-charge-sales-tax-or-vat-for
+[pentest1]: https://www.blazeinfosec.com/post/how-much-does-penetration-testing-cost/
+[pentest2]: https://www.redfoxsec.com/blog/how-much-does-web-application-penetration-testing-cost-2026-pricing-guide
+[persp]: https://perspectivas.com.py/noticias/bancos-financieras-inmobiliarias-y-casas-de-cambio-tienen-plazo-hasta-el-30-de-junio-para-pagar-su-cuota-al-sistema-antilavado
+[pirani]: https://www.piranirisk.com/es/planes-y-precios/aml
+[piranis]: https://www.piranirisk.com/es/hub-regulatorio/seprelad-prevencion-lavado-dinero-paraguay-siro
+[placean]: https://infonegocios.com.py/default/acip-y-place-analyzer-se-unen-para-digitalizar-el-mercado-inmobiliario-permitira-acceder-en-tiempo-real-a-la-oferta-del-sector
+[r003]: https://www.seprelad.gov.py/resoluciones/resoluciones/resol-03-2025-ro-inmobiliarias.pdf
+[r165a]: https://www.seprelad.gov.py/resoluciones/resoluciones/anexos-res-n-165-22-formulario-anualso-sector-inmobiliario.pdf
+[r174]: https://www.seprelad.gov.py/resoluciones/resoluciones/resn174-23.pdf
+[r196]: https://www.seprelad.gov.py/resoluciones/resoluciones/res-seprelad-n-196-20-automotores.pdf
+[r201]: https://www.seprelad.gov.py/resoluciones/resoluciones/res-n201-2020-reglamentacion-para-inmobiliarias.pdf
+[r202]: https://www.seprelad.gov.py/resoluciones/resoluciones/resolucion-n-202-2020.pdf
+[r258]: https://www.seprelad.gov.py/resoluciones/resoluciones/resn258-23.pdf
+[r326]: https://www.seprelad.gov.py/resoluciones/resoluciones/resn326-22-implementacionsiro-r-n.pdf
+[r328]: https://www.seprelad.gov.py/resoluciones/resoluciones/Res.%20328.26_Excepci%C3%B3n%20de%20auditor%C3%ADa%20externa.pdf
+[r411]: https://www.seprelad.gov.py/resoluciones/resoluciones/resolucion-n-4112013.pdf
+[r435]: https://www.seprelad.gov.py/resoluciones/resoluciones/435_2026.pdf
+[r460]: https://www.seprelad.gov.py/resoluciones/resoluciones/Resolucion%20N%C2%B0%20460_25%20-%20Se%20autoriza%20la%20implement%20del%20modulo%20BAJA%20DE%20SUJETOS%20OBLIG%20desarrollado%20en%20el%20SIRO.pdf
+[r483]: https://www.seprelad.gov.py/resoluciones/resoluciones/resolucion-n-483-21-siro.pdf
+[r50]: https://www.seprelad.gov.py/resoluciones/resoluciones/resolucion-n-50-19-por-el-cual-se-aprueba-el-reglamento-de-identificacion-de-personas-expuestas-politicamente.pdf
+[r56]: https://www.seprelad.gov.py/resoluciones/resoluciones/RESOLUCION%20N%C2%B0%2056.pdf
+[r681]: https://www.seprelad.gov.py/resoluciones/resoluciones/res-n681-24.pdf
+[resid]: https://infonegocios.com.py/infolegal/residencias-en-paraguay
+[rg109]: https://abogados.com.ar/paraguay-reglamenta-la-forma-de-pago-del-impuesto-a-la-renta-de-no-residentes-por-servicios-digitales-en-operaciones-b2c/29776
+[rg34]: https://www.dnit.gov.py/web/portal-institucional/w/resoluci%C3%B3n-general-dnit-n.%C2%B0-34/25-anexo-1
+[rosheet]: https://docs.google.com/spreadsheets/d/1u6C6V7Dy13EyIGRyxyaYUZn2gYVD4Tfo/edit
+[rospec]: https://www.seprelad.gov.py/resoluciones/resoluciones/contenido-archivo-excel-ro-inmobiliarias.pdf
+[sbs]: https://www.sbs.gob.pe/prevencion-de-lavado-activos/Sujetos-Obligados/Relacion-de-Sujetos-Obligados
+[siro12]: https://www.seprelad.gov.py/?p=4442
+[stats]: https://www.seprelad.gov.py/siro/estadisticaExterna/estadistica.xhtml
+[stripecur]: https://docs.stripe.com/currencies
+[stripeie]: https://stripe.com/ie/pricing
+[stripeus]: https://stripe.com/us/pricing
+[uafe]: https://www.uafe.gob.ec/wp-content/uploads/downloads/2026/rendicion_cuentas/Informe_de_RC_publicado_en_pag_web.pdf
+[uh19]: https://www.ultimahora.com/seprelad-el-50-playa-autos-eluden-el-control-antilavado-n2852685
+[un]: https://scsanctions.un.org/resources/xml/en/consolidated.xml
+[upd]: https://www.seprelad.gov.py/?p=4412
+[wise]: https://wise.com/py/blog/transferencia-internacional-itau-paraguay

@@ -64,7 +64,11 @@ Source: [SIRO statistics](https://www.seprelad.gov.py/siro/estadisticaExterna/es
 
 ## Competitor table and discussion
 
-(in progress)
+(in progress; notes from run 2)
+- Cáceres & Schneider (consultoria.com.py): SEPRELAD-registered AML auditor (Registro 47/23). Lists "Automotoras (concesionarias/playas de autos)" as a target. Prepares the "Informe de Cumplimiento" (external audit) and supports manual implementation. No prices; "request a quote" ([consultoria.com.py](https://consultoria.com.py/prevencion-del-lavado-de-dinero-seprelad/)).
+- Freelance "compliance officer structuring" packages for Res 196/20 on Clasipar (Gustavo Enciso, Villa Elisa, posted 27 Oct 2021, price Gs 0 / on request): AML manual, job description manual, risk management, client ID forms, client risk-rating sheet, credit forms, note to SEPRELAD, annual training plan, annual work plan, help with recording operations on the website ([Clasipar ad 1924578](https://clasipar.paraguay.com/motor/otros-rodados/servicio-de-oficial-de-cumplimiento-seprelad-1924578)).
+- Compliance Py (compliancepy.com): website redirects to a private Google Site; content not visible.
+- Generic searches for AML software sold in Paraguay (Spanish) found only foreign vendors aimed at banks (SOINMA, Sentinel, Armor) and none with a Paraguay presence.
 
 ## Channels
 

@@ -63,7 +63,7 @@ Every feature traces to a duty in the 01 table. The MVP covers what a broker nee
 
 ### Feature map (MVP / v1 / later)
 
-| Area | MVP (sellable in week 8) | v1 (months 2-6) | Later | 01 refs (duty #, requirement R#) |
+| Area | MVP (sellable on 1 Dec, week 8) | v1 (months 2-6) | Later | 01 refs (duty #, requirement R#) |
 |---|---|---|---|---|
 | **Firm set-up** | Wizard: sole broker or company; colegio and licence number; UIF registration data; officer titular and alternate; branches; services (sales, leases); channels. Produces the firm profile used by every template | Change log for UIF data with the 5-business-day reminder | Multi-branch groups (Art. 13) | duties 1, 2, 34; R1, R2, R8, R10-R13, R80 |
 | **Client file (legajo)** | Natural persons (fields a-i) and legal persons (fields a-m); representatives and proxies; beneficial owners at 10% or more; document uploads with "original seen by / on"; CUIT/CUIL check digit; ID number 3-8 digits | Excel/CSV import; duplicate merge; DNI PDF417 barcode scan on the phone | ARCA register look-up; RENAPER identity check via a vendor | duties 12, 13, 21, 35; R15-R22, R25 |
@@ -207,7 +207,7 @@ Mobile-first for the client form and staff screens; desktop-first for the office
 
 **Consequences for the build:**
 
-- **Get the broker XSDs in week 0.** Ask the first pilot broker to install SROMasivo, log in and click "Exportar esquemas". Without them, the MVP falls back to the copy sheet only.
+- **Get the broker XSDs in week 1.** Ask the first pilot brokers to install SROMasivo, log in and click "Exportar esquemas". Without them, the MVP falls back to the copy sheet only.
 - **Generate element names from the XSD, never by hand.** The names contain encoded characters.
 - **Validate twice.** lxml validates structure against the XSD. A small interpreter applies the UIF annotations (CUIT check, regexes, conditional groups) and the published rules: period not after the report date, CUIT/CUIL/CDI check digit matching the person type, DNI 3-8 digits, at least one payment, at least one buyer and one seller, a linked natural person for every legal person, and shares of 100,00 per side ([UIF RSM sale guide](https://www.argentina.gob.ar/uif/instructivos/rsm-compra-yo-venta-de-bienes-inmuebles)).
 - **Do not call the SOAP service.** Sending from our servers would mean holding the broker's SRO+ password and using an undocumented interface. The broker clicks "send" in the UIF's own app. This also keeps the legal duty, and the liability for filing, with the broker.
@@ -449,7 +449,7 @@ Broker's browser: copy sheet ──> SRO+ web forms (RSA, ROS, RSM by hand)     
 ### How the build works
 
 - **Who builds.** The founder is product owner, architect, reviewer and integrator. Claude Code agents write most of the code, each in its own git worktree and branch, each owning one Django app and its tests. No hired developers.
-- **The real critical path is not code.** It is three things outside the code: the broker XSDs exported from SROMasivo, the lawyer's approval of the templates and rules, and pilot brokers willing to file a real RSM with the tool. Start all three in week 0.
+- **The real critical path is not code.** It is three things outside the code: the broker XSDs exported from SROMasivo, the lawyer's approval of the templates and rules, and pilot brokers willing to file a real RSM with the tool. Start all three on day 1, in parallel with the foundation work.
 - **Foundation first, then parallel.** Shared code (tenancy, roles, the restricted-area guard, audit chain, encryption, file store, parameter tables, task engine, UI shell, Spanish strings) is built in one week by the founder and two agents. Parallel streams start only when those interfaces are frozen.
 - **Tests first, from the law.** Each stream turns its duties from the 01 table into failing acceptance tests on day one (examples in the definition of done), then builds until they pass.
 - **Daily rhythm.** Morning: the founder reviews and merges pull requests and updates each stream's brief. Day: agents work. Evening: CI green, auto-deploy to staging, the founder clicks through the flows with the synthetic agency.
@@ -475,23 +475,27 @@ Broker's browser: copy sheet ──> SRO+ web forms (RSA, ROS, RSM by hand)     
 
 ### Calendar (start Monday 12 Oct 2026)
 
+This calendar follows the owner's frame (MVP in about 3 weeks, sellable in 6-8 weeks) and the 90-day plan in [04](04-gtm-company-finance.md): MVP code complete at the end of week 3, penetration test passed by 26 Nov, paid launch on 1 Dec.
+
 Argentine holidays inside the plan: Mon 12 Oct, Mon 23 Nov (moved from 20 Nov), Mon 7 Dec (non-working day), Tue 8 Dec and Fri 25 Dec ([Contadores en Red, 2026 holiday calendar](https://contadoresenred.com/calendario-de-feriados-2026/); [El Economista](https://eleconomista.com.ar/actualidad/se-viene-nuevo-feriado-argentina-cuando-cae-cuantos-fines-semana-largos-quedan-2026-n97521)). The founder works from abroad, but pilots and the lawyer follow these dates.
 
 | Week | Dates | Engineering (agents + founder) | Content, legal and pilots | Exit check |
 |---|---|---|---|---|
-| 0. Discovery and set-up | 12-16 Oct | Repo, CLAUDE.md, backlog from the 01 duty table, Render, R2, Resend and Stripe or Paddle accounts, CI | 8-10 video calls: sole brokers and small agencies in Córdoba, Santa Fe and Mendoza, 2 in Buenos Aires city, 2 accountants who act as REI. **Ask one broker to export the RSM schemas from SROMasivo** and share an anonymised SRO+ screenshot set (RSM and RSA). Engage the lawyer and an AML expert. Request an AMLify demo (price and features) | Broker XSDs in hand, or a named broker who will export them in week 1 |
-| 1. Foundation | 19-23 Oct | Stream F | Lawyer starts: manual template, PEP/BO/funds statements, client form wording, terms, processor agreement, privacy policy. AML expert starts: risk factor table, alert checklist | Interfaces frozen; staging live; synthetic agency loads |
-| 2-3. Parallel modules | 26 Oct-6 Nov | Streams S1-S6 in parallel; daily merges | Recruit 5-8 pilot brokers and 1-2 accountants; use the 8 Nov start of the property-registry regime (Res. UIF 93/2026) as the hook ([02](02-market-and-competition.md)) | All MVP acceptance tests written; most passing |
-| 4. Integration | 9-13 Nov | End-to-end tests over 12 synthetic months; XML dry-run: a pilot imports our files into SROMasivo with "Importar y Validar" without sending; reviewer-agent security pass; backup and restore drill | Pilot agreements: free until 31 Mar 2027 in exchange for feedback and a reference | **MVP done** (definition below) |
-| 5-6. Legal approval and pilots | 16-27 Nov (23 Nov holiday) | Fixes from pilots; copy-sheet polish; Spanish copy pass | Lawyer and AML expert sign off templates, statements, rule table, alert checklist, privacy policy, terms and processor agreement. Founder onboards each pilot on a call; they enter October and November operations | Signed approvals; pilots live with real data |
-| 7. Security test | 30 Nov-4 Dec | External penetration test (3-4 testing days); fix high and critical findings | Pilots prepare the November RSM in the tool | No open high or critical findings |
-| 8. Launch | 9-11 Dec (7-8 Dec off) | Retest; production hardening; monitoring and status page | **Pilots file the November RSM (window 1-15 Dec) with our files** and store control numbers; paid plans open; landing page with public prices | **Sellable** (definition below) |
-| After launch | 14 Dec-15 Mar | RSA calculator hardening before 2 Jan; v1 starts | RSA window 2 Jan-15 Mar 2027 is the first sales push | RSAs filed by pilots |
+| 1. Foundation and discovery | 12-16 Oct (calls from 13 Oct) | Day 1: repo, CLAUDE.md, backlog from the 01 duty table; Render, R2, Resend and Stripe accounts; CI. Days 2-5: stream F (founder + 2 agents). The fixtures agent starts the synthetic agency | Broker and accountant calls (04 books 20 + 5). **Ask 2-3 brokers to export the RSM schemas from SROMasivo** ("Exportar esquemas") and share an anonymised set of SRO+ screenshots (RSM and RSA). Engage the lawyer and an AML expert. Book the penetration test for 16-19 Nov. Request an AMLify demo (price and features) | Interfaces frozen on Fri 16 Oct; staging live; broker XSDs in hand, or a named broker who will export them in week 2 |
+| 2-3. Parallel modules | 19-30 Oct | Streams S1-S6 in parallel; daily merges; the RSM writer is built against the exported XSDs (copy sheet first if they are late) | Lawyer drafts the manual template, PEP, beneficial-owner and funds statements, client form text, terms, processor agreement and privacy policy. AML expert drafts the risk factor table and alert checklist. Pick 10 pilot brokers and 3 pilot accountants (04) | **MVP code complete Fri 30 Oct**: all MVP acceptance tests written and passing on the synthetic agency |
+| 4. Integration and first pilots | 2-6 Nov | End-to-end tests over 12 synthetic months; XML dry-run: a pilot imports our files into SROMasivo with "Importar y Validar" without sending; reviewer-agent security pass; backup and restore drill | First pilots onboard on a call and enter their October operations. Hook: the property-registry regime of Res. UIF 93/2026 starts 8 Nov ([02](02-market-and-competition.md)). Pilot terms: free until 31 Mar 2027 for feedback and a reference | **MVP done** (definition below) by Fri 6 Nov |
+| 5. Pilots and content review | 9-13 Nov | Fixes from pilots; copy-sheet polish; Spanish copy pass | **Stretch: 1-2 pilots file the October RSM with our files by Fri 13 Nov** (the window is 1-15 Nov and 15 Nov is a Sunday). Lawyer and AML expert review the content inside the app on staging | Pilots live with real data |
+| 6. Security test and legal sign-off | 16-20 Nov | External penetration test Mon 16-Thu 19 Nov on a frozen staging build; report Fri 20 Nov | Lawyer and AML expert sign off templates, statements, rule table, alert checklist, privacy policy, terms and processor agreement by Fri 20 Nov | Signed content approvals |
+| 7. Fixes and retest | 23-27 Nov (23 Nov holiday) | Fix high and critical findings; retest Thu 26 Nov; production hardening; monitoring and status page | Pilots prepare the November RSM. Pricing page with "precio final con impuestos" (04) | No open high or critical findings (04's 26 Nov milestone) |
+| 8. Launch | 30 Nov-4 Dec | Production go-live; watch errors and support | **Paid launch Tue 1 Dec** (04). Pilots file the November RSM (window 1-15 Dec) with our files and store the control numbers | **Sellable** (definition below) |
+| After launch | 7 Dec-15 Mar | RSA calculator hardening before 2 Jan; v1 starts | RSA window 2 Jan-15 Mar 2027 is the first sales push | At least 3 pilots have filed a real RSM by 15 Dec; pilots file their RSA |
 | v1 | Jan-May 2027 | ITAER wizard; reviewer and accountant workspace; OpenSanctions; DNI barcode; Excel and Tokko imports; ROS draft builder; course player | Accountant partners; first colegio talks | Monthly releases |
 
-**Is "MVP in about 3 weeks" realistic?** Yes for the code, if week 1 delivers frozen foundations and six streams run in weeks 2-3, with week 4 for integration. The schedule risk is outside the code: the XSD export and the legal sign-off. If the XSDs are late, ship the MVP with the copy sheet and add the XML export when they arrive; that costs about two agent-days (my estimate).
+**Is "MVP in about 3 weeks" realistic?** Yes for the code, but with no slack. Week 1 must deliver frozen foundations, and six streams must run in weeks 2-3. Anything not in the MVP column of the feature map goes to v1. Week 4 is for integration and the SROMasivo dry-run, not new features. The schedule risk is outside the code: the XSD export, the legal sign-off and the penetration tester's availability. If the XSDs are late, ship the MVP with the copy sheet and add the XML export when they arrive; that costs about two agent-days (my estimate).
 
-### Definition of done for the MVP (end of week 4)
+**Fallback date.** If any gate (sign-off, retest or pilot dry-run) slips by more than a few days, launch on Wed 9 Dec, after the 7-8 Dec holidays. That is still inside the November RSM window (1-15 Dec), so the pilots' first real filing is not lost. 04's 11 Dec kill-or-continue check (fewer than 3 paying pilots from 30 conversations) still works with that date.
+
+### Definition of done for the MVP (Fri 6 Nov, end of week 4; code complete 30 Oct)
 
 1. Every MVP feature has passing acceptance tests, including:
    - Lease tracker (R3): a lease of ARS 9 million a month (108 million a year) is in scope at the ARS 334,800 basis (threshold 100.44 million) and out of scope at the ARS 367,800 basis (110.34 million); the screen shows both and applies the default. Two leases of one client that together pass the threshold are flagged under the aggregation setting.
@@ -507,7 +511,7 @@ Argentine holidays inside the plan: Mon 12 Oct, Mon 23 Nov (moved from 20 Nov), 
 5. All screens and documents are in Spanish (es-AR); no English strings remain.
 6. A new firm completes Flows 1-3 on staging in under 60 minutes.
 
-**"Sellable" (end of week 8)** adds: the lawyer and AML expert have signed off the content and legal papers; the penetration test has no open high or critical findings; at least 3 pilot brokers have filed a real RSM with our files and stored the control numbers; billing is live; a status page and a support channel exist.
+**"Sellable" (Tue 1 Dec, week 8)** adds: the lawyer and AML expert have signed off the content and legal papers; the penetration test has no open high or critical findings; at least 3 pilot brokers have imported our RSM files into SROMasivo on their own PCs with no validation errors; billing is live; a status page and a support channel exist. **The proof that sells** comes right after: at least 3 pilots file a real RSM with our files and store the control numbers by 15 Dec (or 1-2 pilots by 13 Nov with the October RSM, as a stretch).
 
 ## Budget
 
@@ -522,7 +526,7 @@ Argentine holidays inside the plan: Mon 12 Oct, Mon 23 Nov (moved from 20 Nov), 
 | Domain, e-mail sending, error tracking | 50 | 150 | [Resend](https://resend.com/pricing); domain price unverified |
 | Argentine lawyer (AML and data protection): template and statement review, rule-table review, terms, processor agreement, privacy policy | 2,000 | 4,500 | Fixed-fee estimate (unverified). For scale, the court fee unit (UMA) was ARS 89,875, about USD 59, from 1 Jan 2026 ([Palabras del Derecho](https://www.palabrasdelderecho.com.ar/articulo/6534/Se-actualizo-el-valor-de-la-UMA); unverified) |
 | AML expert (an REI-registered accountant or a former UIF analyst): risk factors, alert checklist, RSM mapping check, mock inspection; 15-30 hours | 750 | 2,000 | my estimate (unverified) |
-| Penetration test, scoped web app, with retest | 3,000 | 8,000 | Guides put a small single-app test at USD 5,000-15,000 and a 3-4 day minimum, and warn that quotes under about USD 2,000-4,000 are usually automated scans ([Startup Defense](https://www.startupdefense.io/es-us/blog/cuanto-cuesta-un-pentest); [Andersen](https://andersenlab.com/blueprint/penetration-testing-costs-2026)). A local boutique may be cheaper (unverified) |
+| Penetration test, scoped web app, with retest | 3,000 | 8,000 | Guides put a small single-app test at USD 5,000-15,000 and a 3-4 day minimum, and warn that quotes under about USD 2,000-4,000 are usually automated scans ([Startup Defense](https://www.startupdefense.io/es-us/blog/cuanto-cuesta-un-pentest); [Andersen](https://andersenlab.com/blueprint/penetration-testing-costs-2026)). A local boutique may be cheaper (unverified). [04](04-gtm-company-finance.md) uses the low end, USD 3,000, then USD 2,500 a year |
 | Windows machine time to test SROMasivo imports | 0 | 50 | Use a pilot's PC, or a cloud Windows VM for a few hours (my estimate) |
 | Pilot trip (Córdoba, Rosario, Buenos Aires), optional | 0 | 2,000 | my estimate |
 | Contingency (10%) | 650 | 1,850 | |
@@ -543,13 +547,13 @@ Argentine holidays inside the plan: Mon 12 Oct, Mon 23 Nov (moved from 20 Nov), 
 
 ### Concierge fallback
 
-If the XSDs or pilots are late, sell the programme pieces first: the manual generator, the statements kit, the training log and a monthly "RSM copy sheet" service done with the broker on a call. This needs only streams F, S1 and S6 and can be sold from week 5, while the RSM export catches up (my estimate).
+If the XSDs or pilots are late, sell the programme pieces first: the manual generator, the statements kit, the training log and a monthly "RSM copy sheet" service done with the broker on a call. This needs only streams F, S1 and S6 and can be sold from about 23 Nov, once the lawyer has signed off the templates, while the RSM export catches up (my estimate).
 
 ## Risks
 
 | Risk | Why it matters | Mitigation |
 |---|---|---|
-| **The broker XSDs cannot be obtained** | No bulk RSM export; the main monthly time-saver is weaker | Ask pilots to use SROMasivo's "Exportar esquemas" in week 0; ask the UIF at sujetosobligados@uif.gob.ar; ship the copy sheet first |
+| **The broker XSDs cannot be obtained** | No bulk RSM export; the main monthly time-saver is weaker | Ask pilots to use SROMasivo's "Exportar esquemas" in week 1; ask the UIF at sujetosobligados@uif.gob.ar; ship the copy sheet first |
 | **SROMasivo is Windows-only** | Many brokers use Macs or phones (unverified) | Copy sheet for the SRO+ web form; few operations per month make typing acceptable |
 | **The UIF changes the schema or version** | Files rejected as outdated | Schemas stored as versions with golden tests; a pilot re-exports; customers get a banner |
 | **RePET's JSON path is undocumented** | It could move or break silently | ETag polling with a "list is stale after 48 hours" alarm; OpenSanctions also carries RePET as a second feed ([OpenSanctions Argentina](https://www.opensanctions.org/countries/ar/)) |
@@ -562,8 +566,9 @@ If the XSDs or pilots are late, sell the programme pieces first: the manual gene
 | **Scope changes (deregulation, new UIF rule)** | Who is obliged and which fields apply could change ([01](01-law-and-requirements.md) "Upcoming changes") | Rules and thresholds as data; change promise in the terms |
 | **AMLify moves first in more colegios** | Fewer open channels ([02](02-market-and-competition.md)) | Public price, self-serve, accountant seat, provinces first |
 | **Founder abroad; support in Spanish** | Micro-office buyers want WhatsApp help during Argentine hours | Help centre; fixed WhatsApp support hours; accountant partners as first-line support |
-| **Usage limits slow the parallel agents** | Weeks 2-3 can slip | Stagger streams; overflow API budget; freeze scope |
-| **Pilots stall in December** | Holidays and the southern summer | Recruit in October; pilots' first real use is the November RSM, before the holidays |
+| **Usage limits slow the parallel agents** | Weeks 2-3 can slip, and the plan has no slack before 1 Dec | Stagger streams; overflow API budget; freeze scope; fallback launch on 9 Dec, still inside the November RSM window |
+| **Penetration tester not free on 16-19 Nov** | Launch slips | Book in week 1; have a second firm quoted; the 9 Dec fallback absorbs one week |
+| **Pilots stall in December** | Holidays and the southern summer | Recruit in October; pilots start on the October RSM (stretch) and the November RSM, both before the holidays |
 
 ## Open questions
 
@@ -637,6 +642,8 @@ Stack, hosting and costs
 - https://pypi.org/project/RapidFuzz/
 - https://pypi.org/project/django-allauth/
 - https://render.com/pricing
+- https://render.com/pricing.md (prices checked 10 Oct 2026)
+- https://stripe.com/pricing (via 04)
 - https://render.com/docs/regions
 - https://developers.cloudflare.com/r2/pricing/
 - https://developers.cloudflare.com/r2/reference/data-location/

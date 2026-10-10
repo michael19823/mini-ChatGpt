@@ -1,6 +1,6 @@
 # Kenya NDTCP pack: product, technical design and development plan (deep dive 03)
 
-Part 3 of the Kenya B4 deep dive. Date: 10 Oct 2026. Status: IN PROGRESS.
+Part 3 of the Kenya B4 deep dive. Date: 10 Oct 2026. Status: complete (first full version).
 
 Builds on [the B4 report](../reports/kenya-b4.md), [01 law and requirements](01-law-and-requirements.md) and [02 market and competition](02-market-and-competition.md). "Duty #58" means row 58 of the duty table in the 01 file. "My estimate" marks numbers I derived. "(unverified)" marks facts I could not confirm. KES 129 = USD 1 is assumed, as in the other files (unverified).
 
@@ -8,7 +8,55 @@ Working name in this file: **Kibali** (Swahili for "permit"). It is a placeholde
 
 ## Summary
 
-(to be finalised last)
+- **Build a plain web app with a lawyer-approved content layer.** Django, PostgreSQL and server-rendered pages, hosted in one EU region. Policies come from Word clause templates that a Kenyan advocate approves. Every rule carries a flag: "draft-based" or "LN 191 confirmed". This matters because nobody on this project has yet read the gazetted LN 191 text ([01 file](01-law-and-requirements.md)).
+- **No official integration is needed, which is why a 3-week MVP is possible.**
+  - CBK's licensing portal takes a typed online form plus scanned uploads, and the originals go to CBK with the fee ([CBK A-Z of licensing](https://centralbank.go.ke/wp-content/uploads/2024/11/Procedures-for-licensing-Digital-Credit-Providers-Revised-October-2024.pdf)).
+  - Returns go through BSA as uploaded templates.
+  - BRS, KRA, police, CRB and ODPC records are person-facing web services, and I found no public API for any of them.
+  - So the product produces the right files (DOCX, PDF, a ZIP in portal order, and a "copy sheet" for the form fields) and tracks dates. The portals leave the drafting, chasing, expiry checks and registers undone.
+- **MVP:**
+  - scope and tier checker;
+  - people register with a phone-friendly magic-link portal;
+  - application dossier with expiry checks;
+  - policy generator for both tiers, with a coverage check;
+  - compliance calendar;
+  - complaints register with the 7-day, 48-hour and 30-day clocks;
+  - product and rate change log with a go-live gate;
+  - basic multi-client access for advisers;
+  - card billing.
+- **v1 (Dec 2026-Mar 2027):**
+  - LN 191 gap analysis for the 281 licensed lenders, AI-assisted with every finding confirmed by a person;
+  - adviser dashboard and CBK query log;
+  - AML pack;
+  - notices register;
+  - CRB pre-listing tracker.
+- **Design findings that matter:**
+  - **Police clearance is the critical path.** It takes 2-6 weeks ([Kenyans.co.ke](https://www.kenyans.co.ke/news/56752-certificate-good-conduct-how-apply)), and CRB reports must be under 3 months old. The calendar therefore plans backwards: most applicants must start by mid-February 2027 to meet 29 March.
+  - **Outsourcing.** Holding a lender's registers may count as outsourcing under the draft rules. Ship a CBK-access clause and a generator for the lender's 30-day notice to CBK.
+- **Privacy:**
+  - Kenya's data protection law reaches a foreign processor ([ODPC FAQ](https://www.odpc.go.ke/faqs/)).
+  - Hosting abroad is a cross-border transfer. It is allowed with a contract and a written record of each transfer ([General Regulations, regs 24, 40-41](https://www.odpc.go.ke/wp-content/uploads/2024/03/THE-DATA-PROTECTION-GENERAL-REGULATIONS-2021-1.pdf)).
+  - Directors' data likely includes "sensitive" property or family details. Those need explicit consent to leave Kenya ([ODPC guidance](https://www.odpc.go.ke/wp-content/uploads/2026/04/Guidance-Note-on-Cross-border-Data-Transfers.pdf)). So the person portal has a consent screen and a "track-only" option.
+  - The localisation rule (reg 26) does not list lending.
+- **Liability:**
+  - Advocates Act s.34 restricts conveyancing, company-formation, partnership, probate and litigation documents ([SheriaPlex](https://www.sheriaplex.com/kenya-acts/5674-unqualified-person-not-to-prepare-certain-documents-or-instruments)). Internal policies are not on that list (my reading).
+  - Sell the kit as self-service software. Let the partner advocate deliver and invoice the review tier. Get a written opinion in week 1.
+- **Running cost is small. Trust is the cost.** Hosting and services cost about USD 100-170 a month at 50 customers, 370-620 at 300 and 960-1,500 at 1,000 (my estimates). That is 1-4% of planned revenue. Card fees, at about 5.6% on a USD 80 charge, cost more than hosting.
+- **Development plan:**
+  - Start Mon 12 Oct 2026, with a one-week foundation.
+  - Then six parallel Claude Code agent streams (rules and calendar, people and dossier, policy generator, registers, commercial, content), with QA and security running throughout.
+  - MVP feature-complete on staging on Fri 30 Oct.
+  - Advocate sign-off in week 5, penetration test in week 6, pilots in weeks 6-7.
+  - **Sellable launch Mon 30 Nov 2026.**
+- **Cash budget:**
+  - MVP: about **USD 12,000-24,000 (KES 1.5m-3.1m)**. About two-thirds is the advocate (about KES 450k-900k) and the penetration test (USD 5,000-8,000).
+  - v1: about USD 3,300-8,400 more.
+  - Payback: 15-50 kit sales cover the MVP.
+- **Biggest risks:**
+  - LN 191 differs from the draft;
+  - the advocate or pentest slot slips past mid-November;
+  - the founder becomes the review bottleneck for parallel agents;
+  - a breach of directors' criminal-record and credit documents. Minimise these documents, encrypt them, and delete them after CBK decides.
 
 ## Users and jobs
 
@@ -105,7 +153,7 @@ Why this cut:
 2. **Invite people (5 minutes).** The compliance lead adds each director, the CEO, senior officers and every 10% shareholder. Each gets a magic link.
 3. **People fill their part (20-40 minutes each, on a phone).** Each person gives consent, enters fit-and-proper data, and uploads their ID, PIN certificate, CV, academic certificates, police clearance, KRA tax compliance certificate and CRB report.
 4. **Critical path warning.** A police clearance takes 2-6 weeks after fingerprinting and costs KES 1,050 ([Kenyans.co.ke](https://www.kenyans.co.ke/news/56752-certificate-good-conduct-how-apply); [People Daily](https://peopledaily.digital/insights/what-is-a-police-clearance-certificate-and-how-to-apply-in-kenya/amp)). A CRB report must be less than 3 months old at submission ([CBK A-Z](https://centralbank.go.ke/wp-content/uploads/2024/11/Procedures-for-licensing-Digital-Credit-Providers-Revised-October-2024.pdf)). The calendar works backwards from the target submission date. It says "apply for police clearance by X" and "get the CRB report no earlier than Y".
-5. **Policies (generated instantly, reviewed in 1-3 hours).** The app generates the policy set for the tier: six full policies for a licence; for a registration, a full credit policy and code of conduct plus four briefs ([01 file, tier table](01-law-and-requirements.md)). It also produces the complaints procedure, the pricing-model sheet, a KID per product, the 3-5 page business brief and a board resolution. The coverage view shows each legal minimum item and the clause that meets it.
+5. **Policies (generated instantly, reviewed in 1-3 hours).** The app generates the policy set for the tier: six full policies for a licence; for a registration, a full credit policy and code of conduct plus four briefs ([01 file, tier table](01-law-and-requirements.md)). It also produces the complaints procedure, the pricing-model sheet, a KID per product, the 3-5 page business brief that CBK asks for ([CBK A-Z](https://centralbank.go.ke/wp-content/uploads/2024/11/Procedures-for-licensing-Digital-Credit-Providers-Revised-October-2024.pdf)) and a board resolution. The coverage view shows each legal minimum item and the clause that meets it.
 6. **Optional advocate review (3-5 working days).** In the premium tier, a partner advocate reviews the set and signs off (see "Liability").
 7. **Board approval.** The app produces the board resolution. The lender uploads the signed minute.
 8. **Forms.** The app pre-fills the fit-and-proper forms (NDTCP 2 and 3) from the person data, as PDFs to print, sign and swear before a Commissioner for Oaths ([01 file, duty #6](01-law-and-requirements.md)).
@@ -250,11 +298,13 @@ Screens are server-rendered pages. They should work on a phone for the person po
 
 ### The deadline engine
 
-Each requirement has one deadline rule. Four kinds cover every duty in the 01 file:
+Each requirement has one deadline rule. Four kinds cover the dated duties in the 01 file:
 - **Fixed annual date:** 31 Dec (fee, annual return); about 31 Oct (agent renewal).
 - **Every N months from an event:** ODPC certificate 24 months; AML risk assessment 24 months; consumer-protection policy review 12 months.
 - **Relative to an event, before it:** 30 days' notice to CBK before a new channel, agent, outsourcing, branch or people change; 30 days' customer notice before a product change.
 - **Relative to an event, after it:** complaint clocks (7 days, 48 hours, 30 days); MLRO notice within 14 days; CBK review request within 14 days.
+
+One more check is not a date: the KES 20m tier test. The app asks each registered lender for capital, borrowings and loan book every month and warns when any of them nears KES 20m, because crossing it triggers conversion to a licence ([01 file, duty #2](01-law-and-requirements.md)).
 
 Weekend and holiday handling is a per-rule setting. Until the LN 191 text is read, the engine uses calendar days and never moves a due date later (my design choice; unverified against the text).
 
@@ -311,7 +361,6 @@ TypeScript with Next.js would also work. I prefer Django here because the admin,
 - Layer 1: a tenant-scoped query manager that cannot be bypassed in views.
 - Layer 2: PostgreSQL row-level security keyed on a per-request setting.
 - Tests: for every model, a test creates two tenants and proves that tenant A cannot read, list, export or download tenant B's rows or files.
-
 
 ## Security, privacy and liability
 
@@ -461,7 +510,7 @@ Notes:
 | Feb-Mar 2027 | Support, speed, small fixes; no big features | Answer CBK guidance notes, if any | Peak: help applicants hit 29 Mar |
 | Apr-Sep 2027 | v1c: agent register (before about 31 Oct), annual certification workpaper (before 31 Dec), public complaint form with SMS, evidence pack v2 | Uganda or Tanzania legal layer study | Move kit buyers to subscriptions |
 
-The 3-week MVP is realistic because the product has no official integrations, the stack is plain, and content runs in parallel. The 8-week date depends on two outside parties: the advocate (LC1 and LC2) and the penetration tester. Book both in week 0.
+The 3-week MVP is realistic because the product has no official integrations, the stack is plain, and content runs in parallel. The 8-week date depends on two outside parties: the advocate (LC1 and LC2) and the penetration tester. Book both in week 0. If the advocate signs off in week 4 and the test runs in week 5, the sellable launch moves forward to Mon 16 Nov (week 6).
 
 ### What to cut if time slips
 
@@ -540,3 +589,48 @@ Reading:
 11. Will lenders let an AI read their existing policies for the gap analysis?
 
 ## Sources
+
+Primary and official (read unless noted):
+- CBK, "The A-Z of licensing a Digital Credit Provider", revised Oct 2024 (full text read): https://centralbank.go.ke/wp-content/uploads/2024/11/Procedures-for-licensing-Digital-Credit-Providers-Revised-October-2024.pdf
+- CBK, Draft NDTCP Regulations 2025 (via the 01 file): https://www.centralbank.go.ke/wp-content/uploads/2025/08/Draft-Central-Bank-of-Kenya-Non-Deposit-Taking-Credit-Providers-Regulations-2025.pdf
+- CBK, Directory of Digital Credit Providers, Sep 2026 (via the 02 file): https://www.centralbank.go.ke/wp-content/uploads/2026/09/Directory-of-Digital-Credit-Providers-September-2026.pdf
+- CBK, press release on DCP licensing, Jul 2026 (via the 02 file): https://www.centralbank.go.ke/uploads/press_releases/632621862_Press%20Release%20-%20Licensing%20of%20Digital%20Credit%20Providers%20-%20July%202026.pdf
+- CBK legislation page: https://www.centralbank.go.ke/policy-procedures/legislation-and-guidelines/
+- Kenya Law, LN 191 of 2026 listing (403; via the 01 file): https://new.kenyalaw.org/akn/ke/act/ln/2026/191/eng@2026-09-29
+- ODPC, Data Protection (General) Regulations 2021 (regs 24-26, 37-38, 40-46 read): https://www.odpc.go.ke/wp-content/uploads/2024/03/THE-DATA-PROTECTION-GENERAL-REGULATIONS-2021-1.pdf
+- ODPC, Guidance Note on Cross-border Data Transfers, Apr 2026 (definitions, ss.8, 12-14 read; final status unverified): https://www.odpc.go.ke/wp-content/uploads/2026/04/Guidance-Note-on-Cross-border-Data-Transfers.pdf
+- ODPC FAQs (search summary): https://www.odpc.go.ke/faqs/
+- KRA, iTax e-services brochure (search summary): https://www.kra.go.ke/images/publications/iTax-eServices.pdf
+- BRS fee schedule and official search guide (search summary): https://brs.go.ke/?p=567 ; https://brs.go.ke/wp-content/uploads/2023/07/How-to-Apply-OS.pdf
+- FRC annual compliance report template, ICPAK copy (via the 01 file): https://www.icpak.com/wp-content/uploads/2024/12/ACR-Template-2024-Vers.-7.docx
+
+Law and legal commentary:
+- SheriaPlex, Advocates Act s.34 (read): https://www.sheriaplex.com/kenya-acts/5674-unqualified-person-not-to-prepare-certain-documents-or-instruments
+- Bowmans, data breaches under the Kenyan DPA (search summary): https://bowmanslaw.com/insights/kenya-a-few-insights-on-navigating-data-breaches-in-kenya-under-the-kenyan-data-protection-law/
+- Tech-ish on LN 191 fees and regulation numbers (via the 01 file): https://tech-ish.com/2026/10/04/cbk-raises-licensed-lenders-annual-fee-to-kes-500000-from-kes-20000/
+- FNJ & Associates on the FRC report deadline (via the 01 file): https://fnjassociates.co.ke/?p=2097
+- Global Law Experts, "Commercial Lawyer Fees in Kenya 2026", 2 Oct 2026 (read): https://globallawexperts.com/?p=1530199
+
+Process facts (secondary):
+- Kenyans.co.ke, police clearance (search summary): https://www.kenyans.co.ke/news/56752-certificate-good-conduct-how-apply
+- People Daily, police clearance (search summary): https://peopledaily.digital/insights/what-is-a-police-clearance-certificate-and-how-to-apply-in-kenya/amp
+- Eastleigh Voice, police clearance at Huduma Centres (search summary): https://eastleighvoice.co.ke/huduma%20kenya/213099/kenyans-can-now-get-police-clearance-certificates-at-select-huduma-centres
+- Faidi HR, KRA TCC checker (search summary): https://faidihr.com/blog/how-to-check-your-kra-compliance-certificate-status-online
+- Calendarific, Kenya public holidays 2026 (search summary): https://calendarific.com/holidays/2026/ke
+- Capital FM, AWS Local Zone in Kenya announcement (search summary): https://capitalfm.africa/amazon-announces-new-aws-local-zone-cloud-infrastructure-in-kenya/
+
+Prices and tools:
+- Anthropic API pricing (model table dated 6 Oct 2026): https://platform.claude.com/docs/en/about-claude/pricing
+- Claude Max plan prices (third-party, search summary): https://blogs.novita.ai/claude-subscription/ ; https://www.heyuan110.com/posts/ai/2026-02-25-claude-code-pricing/
+- DigitalOcean pricing (read; "from" prices only): https://www.digitalocean.com/pricing
+- Hetzner 2026 price rises (search summary): https://northflank.com/blog/hetzner-cloud-server-price-increases ; https://wz-it.com/en/blog/hetzner-price-increase-june-2026-cpx-ccx-alternatives/
+- Postmark price (third-party, search summary): https://automationatlas.io/answers/postmark-pricing-explained-2026/
+- SMS prices in Kenya (third-party, search summary): https://helloduty.com/blogs/how-to-send-bulk-sms-in-kenya-effectively
+- Paddle fees (third-party, search summary): https://dodopayments.com/blogs/paddle-fees-explained
+- Laws.Africa pricing and Content API (search summary): https://developers.laws.africa/get-started/pricing ; https://laws.africa/api/detail
+- Penetration test prices (search summary): https://www.redfoxsec.com/blog/how-much-does-web-application-penetration-testing-cost-2026-pricing-guide ; https://www.blazeinfosec.com/post/how-much-does-penetration-testing-cost/ ; https://hostiko.co.ke/services/cybersecurity
+
+Sibling files in this deep dive:
+- [B4 report](../reports/kenya-b4.md)
+- [01 law and requirements](01-law-and-requirements.md)
+- [02 market and competition](02-market-and-competition.md)

@@ -28,3 +28,33 @@ Fields: Ventas (clients national/foreign/PEP/PF/PJ, number of vehicles sold; cob
 
 ### Res 202/2023 (SIRO for compliance reports)
 Source: [Vouga Abogados, 9 Jan 2024](https://www.vouga.com.py/en/la-seprelad-establece-nuevo-procedimiento-para-la-presentacion-de-informes-a-traves-del-siro/). Res 202 of 21 Nov 2023, effective 1 Jan 2024: internal control report (Art. 13, 90 days) and external audit report (Art. 14, 180 days) filed through SIRO for automotores.
+
+### SEPRELAD Memoria 2025 (PDF read locally)
+Source: [Memoria 2025](https://www.seprelad.gov.py/wp-content/uploads/2026/02/Memoria-Anual-de-Gestion-Ano-2025.pdf).
+- RO for automotores: basis "Capítulo I Artículo 7° numeral 3 de la Res 085/2015 y Artículo 31° del Reglamento ... Res 196/2020"; RO received since 2015; 453 SOs reported RO in SIRO in 2025; ops 2025: venta 82,591, importación 51,698, compra 21,730 = 156,019 (H1 96,678, H2 59,341). RO are "de forma mensual, trimestral o semestral" depending on sector.
+- ROS: 23 automotive SOs filed ROS in 2024, 19 in 2025.
+- In situ inspections 2025: 76 total, 35 automotor (table says 38); selection by sector risk matrices.
+- Annual reports regularisation: 32% automotor after warnings (H2 2024 - Q1 2025).
+- "sanción pecuniaria significativa a un sujeto obligado del sector automotor" in 2025.
+- Res 31/2019 (sanction procedure), Art. 3 grounds for preliminary investigation: 4 SOs in 2025, 1 automotive.
+- Registry: Res 218/11; 1,569 requests via SIRO; 1,119 completed (229 vehicle); 450 cancelled.
+- Deregistration: Res 126/23 replaced by Res 460/25 (SIRO module "Baja de Sujetos Obligados"); 12 vehicle SOs deregistered 2025.
+- Formulario Anual via SIRO, "vencimiento es el 31 de mayo de cada año"; 331 vehicle SOs filed in 2025. New annual form and automotive matrix "será implementado para el periodo 2026".
+- External auditor register: Res 218/2020; 71 admitted-recommended in 2025.
+- DGAFE/DGSR meeting 2 Oct 2025 on adding new fields to the automotive RO.
+- SIRO risk-matrix module Phase 1 = automotive: prefill from RO; mitigants to "declare": Manual PLA/FT, self-assessment, training.
+- SIRO sanctions module added (apercibimientos, multas, suspensiones).
+- ENR (national risk assessment) update in progress (preliminary conclusions 2025).
+
+### SEPRELAD Memoria 2024 (PDF read locally)
+Source: [Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf).
+- 2,043 SOs monitored via SIRO; 1,692 warned (apercibimiento) under Res 410/2024 and 681/2024: 1,238 real estate, 454 vehicle.
+- Obligations checked: RN (Art. 37 Res 196), RO (Art. 31 Res 196), annual form (Res 246/2022, Res 165/2022), external audit (Art. 14) and internal control (Art. 13).
+- Registry: 2,042 requests via SIRO; 1,566 done; 532 cancelled. Registration flow: e-form -> supervision check -> canon payment validation -> OC gets SIRO user. 2024 form added OC nationality, office address, sworn statement.
+- Canon: set yearly by resolution; 2024 = Res 30 of 25 Jan 2024; Res 226 of 9 May 2024 amnesty to 30 Jun 2024. Registration fees: Res 007/2018, 235/2020, 29/2023.
+- Res 507/2024 opened a sumario administrativo against one automotive SO.
+- Other SIRO resolutions: 165/2022, 246/2022, 326/2022 (RN via SIRO), 202/2023, 146/2023 + 16/2024 (ROS/RN via SIRO for other SOs).
+- Supervision manual: Res 239/2020.
+
+### SIRO RO field spec (real-estate version, seen locally; vehicle version not yet found)
+Fields include fechaOperacion (dd-MM-yyyy), modalidad (CRÉDITO/CONTADO), formaPago (EFECTIVO, TARJETA, TRANSFERENCIA, COMPENSACIÓN), tipoOperacion (COMPRA/VENTA/INTERMEDIACIÓN), montoEntrega, montoFinanciado, cantidadCuotas, montoCompensacion, comprador/vendedor TipoPersona, TipoDocumento (CI, PA, RUC, CRP, CRT, TDEF, CRC), NumeroDocumento, Denominacion, phone (9 digits), mobile (10 digits), PEP SI/NO, Actividad, Nacionalidad/Residencia (ISO 3166-1 alpha-3), Ciudad codes, moneda ISO 4217; "Archivo Excel de Referencia". (Source URL unknown; treat as (unverified) for vehicles.)

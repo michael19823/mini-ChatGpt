@@ -56,7 +56,7 @@ Corrections to the earlier report ([reports/argentina-b1.md](../reports/argentin
   - The next ITAER cycle is due in April 2028, with the next REI around 28 Aug 2028 (my calculation).
   - The UIF moved the accountants' REI to 1 Mar 2027 but has given brokers no relief ([CPCE CABA](https://www.consejo.org.ar/noticias/2026/uif-se-prorroga-la-presentacion-del-informe-de-revision-externa-independiente)).
   - A government draft would end the broker licence requirement ([iProfesional, Jul 2026](https://www.iprofesional.com/realestate/460633-5-fuertes-cambios-que-transformaran-para-siempre-el-negocio-inmobiliario-en-argentina)). Res. 43 is written for licensed brokers, so a new UIF rule would follow (unverified).
-- **Product.** The 78 requirements below cover:
+- **Product.** The 80 requirements below cover:
   - scope and threshold tracking;
   - the client file;
   - PEP, RePET and UN checks;
@@ -367,3 +367,496 @@ Corrections to the earlier report ([reports/argentina-b1.md](../reports/argentin
 | Rolling | The UIF may update the módulo each budget year (Law Art. 24). The SMVM changes by resolution | Keep both in a parameter table | [Law](https://www.argentina.gob.ar/normativa/nacional/62977/actualizacion) |
 | Rolling | Res. 43 still cites the repealed Res. 29/2013. Res. 207/2025 and Res. 3/2026 now govern terrorist and proliferation financing. Res. 43 may be tidied up (unverified) | Templates must cite the current rules | [Res. 207/2025](https://www.boletinoficial.gob.ar/detalleAviso/primera/333954/20251104) |
 | Rolling | FATF follow-up after the 2024 MER, which called DNFBP supervision weak. Expect more broker inspections (my inference) | Inspection pack | [FATF MER 2024](https://fatf-gafi.org/en/publications/Mutualevaluations/MER-Argentina-2024.html) |
+
+## PRODUCT REQUIREMENTS
+
+Each requirement can be tested. "Basis" gives the legal source. Short names: "Res. 43" = consolidated Res. UIF 43/2024; "Law" = Law 25.246; "RSM guide", "RSA guide" and "ROS guide" = the UIF instruction pages linked in "Filing channels and formats". Sources are linked in the sections above.
+
+**A. Scope, parameters and set-up**
+
+1. The system must store whether the customer is a sole broker or a company, plus its CUIT, colegio, province and licence number(s). It must show only the duties that apply.
+   - Test: a sole-broker profile shows no compliance-officer appointment, annual work plan, committee or internal-audit tasks; a company profile shows them all.
+   - Basis: Res. 43 Art. 2(o), 9 (last para), 10, 11 (last para), 12, 17(b).
+2. The system must keep a versioned parameter table holding: the SMVM at 31 December and at 30 June (each with its source URL), the UIF módulo, and the lease, habitual-client and REI thresholds derived from them. A vendor administrator edits it without a code release. The default applies the lower of the two SMVM values.
+   - Test: changing the SMVM recalculates all thresholds and lists the leases and clients whose status changes.
+   - Basis: Res. 43 Art. 2(ñ); Law Art. 24 (módulo updated each budget year).
+3. For each lease, the system must turn the agreed rent into an annual ARS amount (storing the FX rate and its source). It must compare that amount with 300 SMVM, also add up the client's leases over the year, and label the lease "in scope" or "out of scope" with the calculation shown.
+   - Test: a lease of ARS 9 m a month (108 m a year) is in scope at the ARS 334,800 basis (threshold 100.44 m) and out of scope at the ARS 367,800 basis (110.34 m). The screen shows both, and applies the configured default.
+   - Basis: Res. 43 Art. 2(a)(ii), 34(a)(ii).
+4. Every sale the broker brokers must be treated as in scope, whatever the amount.
+   - Test: a sale of ARS 1 appears in that month's RSM.
+   - Basis: Res. 43 Art. 2(a)(i).
+5. The system must mark a client "habitual" when it has more than one Actividad Específica within 12 months of its last operation and the combined amount reaches 700 SMVM. The habitual flag turns on ongoing due diligence and refresh clocks.
+   - Test: two sales in 8 months totalling 701 SMVM set the flag; one sale of 2,000 SMVM does not.
+   - Basis: Res. 43 Art. 2(d), 27.
+6. The system must count Actividades Específicas and record annual income per calendar year, and flag "REI required" when income is above 875 SMVM or the count reaches 50.
+   - Test: the 50th operation of the year raises the flag and creates the REI tasks.
+   - Basis: Res. 43 Art. 17(a).
+7. Each operation must record any other intermediary, whether it is an obliged subject, and its licence number. If the other intermediary is not obliged, the system must require full client files for every party.
+   - Test: marking the co-broker "not obliged" makes the buyer's and seller's files mandatory.
+   - Basis: Res. 43 Art. 2(d).
+8. Every deadline must sit in a rules table with its legal basis and source URL, so a UIF extension can be applied without a code release.
+   - Test: moving the ITAER deadline in the table updates all dashboards and reminders.
+   - Basis: Res. 43 Art. 5, 17, 34, 36; extensions given to other sectors (CPCE CABA; Res. UIF 90/2026).
+9. The interface and every generated document must be in Argentine Spanish and use the official Spanish legal terms. Deadlines must count business days on the Argentine national holiday calendar.
+   - Test: a 3-business-day deadline set on a Thursday before a national holiday Monday falls on Wednesday.
+   - Basis: Res. 61/2023 Annex Art. 15 (business days); all UIF forms are in Spanish.
+
+**B. UIF registration and compliance officer**
+
+10. The system must generate the UIF registration note, for a natural or a legal person, with every field the UIF lists. It must give a checklist of the PDFs to attach, each named after its field, merge several files for one field into one PDF, and block any file over 20 MB.
+    - Test: a 25 MB scan is rejected, with an option to compress it.
+    - Basis: Res. 50/2011 Art. 3 bis (as replaced by Res. 47/2024); Res. 37/2026; UIF registration pages.
+11. A change to the firm's address, phone or e-mail must create an "update SRO+" task due in 5 business days.
+    - Test: a change entered on Monday 2 Nov 2026 is due on Monday 9 Nov 2026.
+    - Basis: UIF registration guide (Res. 50/2011).
+12. For companies, the system must keep a register of the titular and alternate compliance officers, with board position, AML training or experience evidence and an address in Argentina. It must refuse "complete" status if either officer is not a board member.
+    - Test: an officer entered with position "employee" blocks completion.
+    - Basis: Law Art. 21(f); Res. 43 Art. 10.
+13. Officer events must start clocks:
+    - When the alternate takes over, a 24-hour task with a pre-filled e-mail to sujetosobligados@uif.gob.ar giving the reasons and the period.
+    - On removal, a 15-day task that requires the board approval record and the new appointees.
+    - For a former officer, a 5-year record of their address.
+    - Test: logging "alternate acting" at 10:00 shows the e-mail due at 10:00 the next day.
+    - Basis: Res. 43 Art. 10.
+14. The system must log every UIF communication received (date, type, due date) and default the due date to 3 business days.
+    - Test: logging a remote inspection note sets the due date 3 business days later, with a one-time extension field.
+    - Basis: Res. 43 Art. 11(g)-(h); Res. 61/2023 Annex Art. 15.
+
+**C. Client file (legajo)**
+
+15. The natural-person form must hold all the Art. 19 fields (a)-(i). The ID types are DNI, Cédula and passport. The form needs an ID copy, the verification source and the verification evidence. A file cannot be marked "verified" without them.
+    - Test: saving as verified without an ID copy fails.
+    - Basis: Res. 43 Art. 19.
+16. Proxies, guardians, curators, representatives, guarantors and authorised persons must have the same fields plus the document proving their authority.
+    - Test: a proxy cannot be saved without a power-of-attorney file.
+    - Basis: Res. 43 Art. 19 (last para).
+17. The legal-person form must hold the Art. 20 fields (a)-(m), including by-laws, representatives, board list, shareholders and BOs. For widely held capital, there must be an option to record board members and controllers instead.
+    - Test: a company cannot be verified without a by-laws file and at least one BO or fallback person.
+    - Basis: Res. 43 Art. 20.
+18. The system must have the special flows for the public sector (requesting person plus competence instrument), trusts (trustee, settlors, beneficiaries, administrator and BOs; trustees only for financial trusts) and investment funds (managing and depositary companies).
+    - Test: choosing "fideicomiso" shows the trust roles.
+    - Basis: Res. 43 Art. 21.
+19. The system must check CUIT, CUIL and CDI check digits and their match to the person type, and accept DNI, LC and LE numbers of 3-8 digits only. These are the same rules the UIF template applies.
+    - Test: 20-12345678-9 with a wrong check digit is rejected; a company CUIT on a natural person is rejected.
+    - Basis: RSM guide (validations); Res. 43 Art. 31(vi).
+20. The BO module must:
+    - build the ownership tree and calculate indirect stakes;
+    - flag every natural person at 10% or more;
+    - record control by other means;
+    - fall back to the person who directs, administers or represents the entity;
+    - screen each BO for PEP status and against RePET.
+    - Test: 50% of a company that owns 20% of the client is 10%, and is flagged.
+    - Basis: Res. 112/2021; Res. 43 Art. 20(k)-(m).
+21. If the client is itself an obliged subject, the system must require proof of its UIF registration. If there is none, it must block the operation and create a "notify UIF" task.
+    - Test: a developer marked "obliged, not registered" cannot be linked to an operation.
+    - Basis: Res. 43 Art. 28.
+22. Each client file must record the purpose and nature of the relationship and a transactional profile: expected amounts, source of funds, and economic and tax documents.
+    - Test: the profile is mandatory before a medium or high-risk client's first operation.
+    - Basis: Res. 43 Art. 18, 30; Law Art. 21(g).
+23. Remote onboarding must store the ID images and verification results with a timestamp and a SHA-256 hash, plus the method used. It needs a risk analysis of the remote process with a review date. Automated verification can be switched on only after a performance-evidence file is uploaded.
+    - Test: changing a stored image fails the hash check; switching on automated verification with no evidence file is blocked.
+    - Basis: Res. 43 Art. 22; Law Art. 21(k).
+24. Reliance on another obliged subject (for example the notary) must record:
+    - who it is, and which parts are relied on (identification or purpose);
+    - the date the data was received;
+    - the undertaking to supply copies;
+    - the third party's regulated status and country;
+    - the data subject's consent;
+    - board approval.
+    - Test: reliance cannot be saved without a consent record.
+    - Basis: Res. 43 Art. 9(k), 14; Law Art. 21(a).
+25. An operation with incomplete mandatory client data cannot be closed. An override needs a recorded refusal or exit decision with reasons and a ROS assessment.
+    - Test: closing a sale with an unverified buyer opens the refusal/ROS dialog.
+    - Basis: Res. 43 Art. 18, 29; Law Art. 21 (last para).
+
+**D. PEP, RePET and other lists**
+
+26. The PEP statement must:
+    - show the client the full text of the PEP categories before signature;
+    - record the client's own status and their BOs' status;
+    - accept an electronic signature with evidence (time, method, IP) or an upload of a signed paper copy;
+    - ask again whenever the client's status changes.
+    - Test: the statement cannot be signed before the PEP text has been displayed.
+    - Basis: Res. 35/2023 Art. 8 (as replaced by Res. 192/2024).
+27. The system must use the PEP categories exactly as listed:
+    - foreign (a)-(j);
+    - domestic (a)-(n);
+    - other (a)-(d);
+    - relatives and close associates.
+    - It must store the date the person left office and create a risk review task 2 years later.
+    - Test: a PEP who left office on 1 Jan 2025 shows a review due on 1 Jan 2027.
+    - Basis: Res. 192/2024 Art. 1-5; Res. 35/2023 Art. 6.
+28. PEP measures must be applied automatically:
+    - a foreign PEP is high risk, and needs officer approval, source of funds and wealth, and enhanced due diligence;
+    - a domestic PEP rated high gets the same;
+    - relatives and associates get approval and source of funds.
+    - Test: a foreign PEP's first operation is blocked until the officer approves.
+    - Basis: Res. 35/2023 Art. 5; Res. 43 Art. 26.
+29. Before a relationship starts, the system must screen the client, BOs and representatives against RePET (storing the list version and date). It must re-screen the whole client base whenever the list changes, checking for changes at least daily.
+    - Test: adding a test name to the list flags the existing client within 24 hours.
+    - Basis: Res. 43 Art. 7(a)-(b), 11(m); Res. 207/2025 Art. 1.
+30. The system must screen against the UN Security Council proliferation lists (1718 and 1737 committees) in the same way. Each screening must log who ran it, when, the list version, the result and the decision.
+    - Test: the screening log for a client shows every check with its list version.
+    - Basis: Res. 3/2026 Art. 2(3).
+31. A confirmed match must:
+    - block the operation;
+    - record the freeze;
+    - start an RFT or proliferation-report draft with a 24-hour countdown and an "inform UIF immediately" task;
+    - send no client-facing message that reveals the reason.
+    - Test: a match produces the tasks and the client portal shows only "en revisión" (under review).
+    - Basis: Res. 207/2025 Art. 1-3; Res. 3/2026 Art. 3-4; Law Art. 21(c).
+32. A UIF freezing order can be uploaded. The system must then:
+    - search all clients, BOs and counterparties by ID and fuzzy name;
+    - produce a results report with a 24-hour task;
+    - watch for later operations by those persons.
+    - Test: an order naming an existing BO returns that client within the report.
+    - Basis: Res. 207/2025 Art. 4; Res. 3/2026 Art. 8.
+33. The system must keep dated lists of:
+    - FATF increased-monitoring jurisdictions;
+    - FATF call-for-action jurisdictions;
+    - non-cooperative tax jurisdictions under Decree 862/2019 as amended;
+    - Border Security Zone localities under Decree 253/2018.
+    - These lists feed the risk rating and the alerts.
+    - Test: a client resident in a call-for-action country is rated high automatically.
+    - Basis: Res. 43 Art. 7(u)-(v), 23(d)-(g), 26, 31(v), 31(vii).
+
+**E. Risk rating and due diligence**
+
+34. The risk model must:
+    - score the factors in Art. 23, second paragraph;
+    - include the ten aggravating situations in Art. 23(a)-(j);
+    - apply the mandatory "high" overrides of Art. 26;
+    - output exactly three levels: alto, medio, bajo.
+    - Each rating must store its factors, score, reasons, rater and date.
+    - Test: a client that is an SAS company (Art. 23(i)) gets the aggravating factor applied and recorded.
+    - Basis: Res. 43 Art. 23, 26.
+35. Due diligence checklists must follow the risk level:
+    - low: the Art. 18-22 data;
+    - medium: add documents on activity and on the source of income, funds or wealth;
+    - high: add justification of the source of income, funds and wealth, the purpose of the operations, a check for past ML/TF cases and sanctions, and stronger monitoring.
+    - Due diligence cannot be "complete" while a required document is missing.
+    - Test: a medium-risk client with no source-of-funds document stays "incompleta".
+    - Basis: Res. 43 Art. 24-26.
+36. High-risk and foreign-PEP clients need recorded approval from the officer (or the sole broker), with date and reasons, before their first operation and after any re-rating to high. The system must keep an exportable register of these clients.
+    - Test: the register export lists every approved high-risk client with the approval date.
+    - Basis: Res. 43 Art. 7(f)-(g), 11(e)-(f).
+37. Habitual clients must have a refresh clock: at most 1 year (high), 3 years (medium) or 5 years (low).
+    - Medium and low may skip a refresh only with a recorded materiality reason.
+    - The refresh evidence required is information for low risk, information plus documents for medium, and documents for high.
+    - Test: a high-risk habitual client last refreshed 366 days ago shows "vencido" (overdue).
+    - Basis: Res. 43 Art. 27.
+38. A re-rating task must be created on any of these: an unusual operation, a ROS, a PEP status change, a list match, a refusal to give documents, or an ownership change.
+    - Test: confirming a third-party payment alert creates a re-rating task.
+    - Basis: Res. 43 Art. 27, 31.
+39. If a client refuses to update their file, the system must ask for, and record, a decision on whether to continue the relationship and whether to file a ROS.
+    - Test: marking "client refused documents" cannot be closed without both decisions.
+    - Basis: Res. 43 Art. 27 (last para).
+
+**F. Operations, alerts, unusual-operations register and ROS**
+
+40. Each Actividad Específica must record:
+    - date and type (sale or lease);
+    - the cadastral reference or registry number, the address and the province;
+    - price, currency, ARS equivalent and FX source;
+    - the listing or offer price, and any appraisal or fiscal value;
+    - each payment: form, currency, amount, and the payer's account holder;
+    - the parties with their shares, and linked persons;
+    - other intermediaries;
+    - the contract form (private contract or deed);
+    - the commission.
+    - Test: an operation cannot be closed without the payment breakdown.
+    - Basis: Res. 43 Art. 15(a), 31, 34; RSM guide; CABA Law 2340 Art. 14.
+41. The system must generate alerts automatically for the indicators that can be computed from the data:
+    - (vi) an ID that could not be validated;
+    - (vii) a high-value property in a Border Security Zone;
+    - (viii) family, work or company links between the parties;
+    - (ix) a third party paying;
+    - (x) and Art. 23(j): accounts in other names;
+    - (xiii) one address shared by different persons;
+    - (xv) a resale of the same property within 1 year with a price change of 30% or more;
+    - (xvii) a price far from the reference value (configurable);
+    - (xix) several purchases in a short time;
+    - (xxiii) a sale price 30% or more away from the offer price;
+    - (xxvi) rent to relatives above the market level;
+    - (xxvii) cash;
+    - (xxviii) proceeds sent to a high-risk country or an unrelated third party;
+    - (xxix) a change of owner shortly before closing;
+    - virtual-asset payments.
+    - Test, for (xv): the same cadastral reference sold for 100 and then for 145 within 11 months raises an alert. This is 30% or more on either reading of the base amount; the base is an open question.
+    - Test, for (xxiii): offer 100 and sale 69 raises an alert.
+    - Basis: Res. 43 Art. 31.
+42. Indicators that cannot be computed must be covered by a checklist answered at each operation's closing: (i), (ii), (iv), (v), (xi), (xii), (xiv), (xvi), (xviii), (xx), (xxi), (xxii), (xxiv), (xxv), (xxx) and (xxxi).
+    - Test: an operation cannot be closed until the checklist is answered.
+    - Basis: Res. 43 Art. 31.
+43. Every operation involving a PEP client or BO must create a review alert.
+    - Test: a sale to a domestic PEP creates an alert even when rated medium.
+    - Basis: Res. 35/2023 Art. 7 (last para).
+44. The unusual-operations register must hold fields (a)-(h) of Art. 32, and every alert must close with them. A decided record cannot be edited; a change creates a new version. Cases closed as "not suspicious" are kept with their analysis.
+    - Test: an alert cannot be closed without (g) measures taken and (h) a reasoned decision with its date.
+    - Basis: Res. 43 Art. 11(n), 32.
+45. ROS clocks:
+    - For money laundering, "concluded suspicious" starts a 24-hour countdown, and the 90-day limit from the operation date is shown. Reminders go out at 12 and 20 hours.
+    - For terrorist or proliferation financing, the clock is 24 hours from the operation.
+    - Test: an operation 85 days old shows the 90-day limit in red.
+    - Basis: Res. 43 Art. 33(c) (as replaced by Res. 56/2024); Res. 207/2025 Art. 2; Res. 3/2026 Art. 3.
+46. The ROS builder must lay out the case in the UIF form's structure:
+    - persons by type, with a linked natural person for each legal person;
+    - PEP fields;
+    - the link to the facts;
+    - the predicate offence and information source;
+    - done or attempted;
+    - start and end dates;
+    - location and the tax-haven/Triple Frontier flag;
+    - the amount without dots or decimals, and the currency;
+    - the four text boxes.
+    - It must strip special characters and produce a copy sheet. **The software must never submit a ROS itself.** The user records the SRO+ filing date and number afterwards.
+    - Test: the generated text contains no characters outside the allowed set, and there is no "send to UIF" button.
+    - Basis: Res. 43 Art. 33(a)-(b); ROS guide.
+47. ROS and unusual-operation analyses must be visible only to the officer, the sole broker or named deputies. Colegio or partner administrators must never see them. Reviewers see them only with identities removed. Every view is logged.
+    - Test: the colegio-admin role gets "forbidden" on ROS pages; the reviewer's view shows no names, CUIT or DNI.
+    - Basis: Res. 43 Art. 33(d); Law Art. 21(c), 22.
+48. No client-facing screen, e-mail or document may show a risk level, an alert, a ROS status or a freeze reason.
+    - Test: an automated scan of client portal templates finds none of these fields.
+    - Basis: Law Art. 21(c), 22.
+
+**G. Systematic reports**
+
+49. The RSM builder must collect the previous month's in-scope operations. Before export it must check every UIF validation:
+    - the period;
+    - CUIT/CUIL/CDI check digits;
+    - DNI/LC/LE at 3-8 digits;
+    - at least one payment;
+    - at least one buyer and one seller;
+    - a linked person for each legal person;
+    - shares of 100,00 on each side;
+    - names without special characters;
+    - "S/N" for missing street numbers;
+    - USD as the payment currency for virtual assets.
+    - Test: each rule has a failing fixture that is caught before export.
+    - Basis: Res. 43 Art. 34(a); RSM guides.
+50. The RSM output must offer (a) a field-by-field sheet for typing into the SRO+ web form, and (b) one XML file per operation for SROMasivo, once the broker RSM schema has been obtained.
+    - Test for (b): the generated files validate against the UIF XSD.
+    - Basis: Res. 43 Art. 34; [UIF RSM-Masivo](https://www.argentina.gob.ar/uif/rsm). The schema itself is (unverified).
+51. For each operation, the system must store the UIF control number and filing date. Each month must end as "filed" or "nothing to report" (with a note) by the 15th. Reminders go out on the 1st, 10th and 14th.
+    - Test: on the 16th, a month with an unfiled operation shows "vencido" (overdue).
+    - Basis: Res. 43 Art. 34 (last para).
+52. The system must produce rectification and annulment files that point to the original control number, and enforce the UIF limits: same CUIT and subject type, not a draft, not already rectified.
+    - Test: trying to rectify an already rectified operation is blocked.
+    - Basis: UIF mass-rectification and annulment guides.
+53. A lease RSM must carry the contract start and end dates and the annual amount. Landlord shares must total 100,00; tenants have no percentage.
+    - Test: two landlords at 60 and 30 fail validation.
+    - Basis: RSM lease guide.
+54. The RSA assembler must compute, as of 31 December:
+    - client counts for natural and legal persons;
+    - % high risk (including PEP and high-risk non-residents), % domestic PEP, % non-resident, % non-resident PEP;
+    - services with yearly counts and volumes;
+    - yearly cash volume (0 if none);
+    - branches by locality;
+    - shareholders at 20% or more, looked through, with PEPs at any %;
+    - the board with CUIT and position;
+    - total employees and AML staff.
+    - Last-year accounting figures are typed in. All values are whole numbers. The system must remind the user in the 2 January - 15 March window and store the Constancia number.
+    - Test: a fixture of 10 clients (2 high, 1 domestic PEP) gives 20% and 10%.
+    - Basis: Res. 43 Art. 34(b); RSA guide.
+
+**H. Self-assessment (ITAER)**
+
+55. The ITAER wizard must produce a Spanish PDF report and a separate methodology document. Together they cover:
+    - inherent risk for each factor (clients, services, channels, geography), plus any extra factors with their justification;
+    - the controls and how well they work;
+    - residual risk per factor and overall;
+    - cited sources: the national risk assessments, UIF information and typologies;
+    - a risk-tolerance statement.
+    - Test: the PDF has a separate written section for each factor, not only scores.
+    - Basis: Res. 43 Art. 2(b), 4, 5; Res. 132/2024 Art. 9(a)(4).
+56. The wizard must fill in statistics for the two-year period automatically: clients and volumes by risk level, payment methods, cash share, foreign clients, PEPs, remote onboarding, and where properties are. The first period is 2024-2025.
+    - Test: the statistics match the underlying records for a fixture period.
+    - Basis: Res. 43 Art. 36(i); Res. 132/2024 Art. 9(a)(2).
+57. Each ITAER and methodology must have an approval record from the board or the sole broker, a version number and the filing proof (channel, date, receipt). The methodology gets a 4-year review date and the ITAER a 2-year cycle due before 30 April. Recording a "new or changed risk" must trigger an early update.
+    - Test: a methodology approved in April 2026 shows its review due in April 2030; adding a new risk creates an "update and send" task.
+    - Basis: Res. 43 Art. 5, 9(b).
+58. Switching on a new service, channel or technology in the product (for example remote onboarding) must first require a recorded 4-factor risk analysis.
+    - Test: remote onboarding stays disabled until the analysis is approved.
+    - Basis: Res. 43 Art. 4 (last para).
+
+**I. Manual, governance, training and staff**
+
+59. The manual generator must cover every Art. 7 item (a)-(v), with a coverage check that fails if any item is missing. It must use the firm's own data and cite the current rules (for example Res. 207/2025, not Res. 29/2013).
+    - Test: deleting the RePET section makes the coverage check fail.
+    - Basis: Res. 43 Art. 7, 8.
+60. Each manual version must have:
+    - an approval record;
+    - a 2-year review reminder;
+    - a "rule changed" flag raised from the rules table;
+    - an electronic acknowledgement from each staff member (name, date, version and commitment text).
+    - Test: publishing a new version asks every active staff member to acknowledge again.
+    - Basis: Res. 43 Art. 8, 9(e).
+61. For companies only, the system must provide the officer's annual work plan and management report, record board approvals, and offer optional committee rules and minutes.
+    - Test: these items are hidden for a sole broker.
+    - Basis: Res. 43 Art. 9(g), 9(l), 11(o), 12.
+62. Training must include:
+    - a yearly plan by role covering topics (a)-(f);
+    - a built-in course in Spanish with a test;
+    - certificates;
+    - a register of attendance and scores;
+    - a reminder 12 months after each person's last session.
+    - Test: a staff member with no training in 12 months is flagged.
+    - Basis: Res. 43 Art. 11(k), 16.
+63. The system must keep staff screening records at hiring (ID, background-check evidence, declarations) and at periodic reviews.
+    - Test: a new staff member cannot be given access until the screening is recorded.
+    - Basis: Res. 43 Art. 7(q).
+64. For companies without an REI, the system must provide an internal-audit programme covering the AML areas. The compliance officer cannot edit its scope. Findings record the deficiencies, the fixes and the deadlines.
+    - Test: the officer role gets read-only access to the audit scope.
+    - Basis: Res. 43 Art. 17(b).
+65. A remediation tracker must take findings from audits, the REI and UIF inspections. Each finding gets an owner, an action, a deadline, board approval and status updates. UIF corrective actions default to a 30-business-day deadline.
+    - Test: an imported REI finding appears with its deadline and needs board approval.
+    - Basis: Res. 43 Art. 9(i), 11(t)-(u); Res. 61/2023 Annex Art. 17-18.
+
+**J. External reviewer (REI) workspace**
+
+66. The system must hold the reviewer's 15-item file and incompatibility statement for 5 years. It must warn when a colegio disciplinary certificate is more than 10 business days old at filing.
+    - Test: a certificate dated 15 business days before filing triggers a warning.
+    - Basis: Res. 132/2024 Art. 2-5.
+67. A reviewer must get a read-only role limited to the two-year review period, with evidence indexed by the REI minimum topics (a)-(i). ROS and unusual-operation analyses are shown without identities.
+    - Test: the reviewer cannot open data outside the period, and sees no names in ROS analyses.
+    - Basis: Res. 43 Art. 33(d); Res. 132/2024 Art. 9.
+68. The REI report template must have sections (a)-(i), each rated with one of the four official ratings. Any rating other than "Adecuado" needs reasons. The template lists findings, measures and deadlines, and imports the action plan into the remediation tracker. It must reject a review start date earlier than the ITAER date.
+    - Test: a review start date before the ITAER approval date is refused.
+    - Basis: Res. 132/2024 Art. 7-9.
+69. An accountant acting as REI for several brokers must see each broker only by invitation, with the data kept separate.
+    - Test: the reviewer of broker A cannot see broker B without an invitation from B.
+    - Basis: data isolation needed for Res. 43 Art. 15 and Law Art. 22 secrecy.
+
+**K. Records, inspections, security and data protection**
+
+70. Every record must carry a retention end date:
+    - for transaction records, 10 years from the operation;
+    - for client and BO files, 10 years from the later of the exit or the last activity.
+    - Deletion must be blocked before that date, and a legal hold must be possible.
+    - Test: deleting a 9-year-old file is refused.
+    - Basis: Res. 43 Art. 15(a)-(b); Law Art. 21(n).
+71. Each operation must have one view, also available as a PDF, that rebuilds it in full: amounts, currencies, parties, payments and documents.
+    - Test: an inspector checklist can be completed from the PDF alone.
+    - Basis: Res. 43 Art. 15(a).
+72. Backups must be encrypted, made daily and stored in a second location. The customer must be able to download a full export (PDF, CSV/JSON and original files) at any time and on cancellation. A read-only archive option must cover the 10 years after cancellation.
+    - Test: an export restores fully into a new tenant.
+    - Basis: Res. 43 Art. 15 (protected, with a backup copy).
+73. One click must produce an inspection pack:
+    - an index;
+    - the manual and its acknowledgements;
+    - the ITAER and methodology;
+    - the training register;
+    - client files (all, or a sample);
+    - PEP and screening logs;
+    - the unusual-operations register (with redaction options);
+    - RSM and RSA receipts;
+    - REI and audit reports;
+    - the remediation tracker.
+    - The pack must be split into ZIP parts of 20 MB or less.
+    - Test: a 150 MB pack comes out as 8 parts, each 20 MB or less.
+    - Basis: Res. 61/2023 Annex Art. 15; UIF requests guide; sanction charges in RESAP-2022-108 and -128.
+74. The system must log each UIF request: date, type (on-site, remote or information request), due date, any extension and proof of delivery.
+    - Test: a remote request logged on day 0 is due on business day 3.
+    - Basis: Res. 61/2023 Annex Art. 15.
+75. An append-only audit trail must record every create, update and view of client files, ratings, alerts and ROS, with user, timestamp and before/after values.
+    - Test: no customer role, including the owner, can edit or delete audit entries.
+    - Basis: Res. 43 Art. 15, 22 ("auditable, non-manipulable").
+76. Security must include:
+    - role-based access (owner/officer, staff, reviewer, colegio admin);
+    - multi-factor authentication;
+    - encryption at rest and in transit;
+    - tenant isolation;
+    - an external security test before launch.
+    - Test: the penetration-test report shows no critical findings open.
+    - Basis: Res. 43 Art. 15 (protection against unauthorised access); Law Art. 22.
+77. Personal data must be hosted in a country listed as adequate in Disposición 60/2016 Art. 3 (for example an EU region), or else each sub-processor must sign the AAIP model clauses. A data-processing agreement with the broker, as the data controller, must be in place.
+    - Test: the infrastructure configuration shows only adequate-country regions; a US sub-processor has signed model clauses.
+    - Basis: Law 25.326; Disposición 60/2016 Art. 3 (as replaced by Res. AAIP 34/2019); Res. AAIP 198/2023.
+78. Calls to third-party screening or ID-check vendors must log what data was sent, and when. The data subject's consent must be recorded where data is shared with another obliged subject.
+    - Test: each vendor call has a log entry.
+    - Basis: Law Art. 21(a); Law 25.326.
+
+**L. Regional and professional records**
+
+79. The operation log must export the CABA operations book: mandates and operations in date order, with the parties' names and addresses, the property location, the main terms, the total amount and the commission.
+    - Test: the export for a CABA broker lists the month's mandates and closings in date order.
+    - Basis: CABA Law 2340 Art. 14.
+80. Every generated document must show the broker's licence number. For a company, it must show the IGJ registration number and the responsible director's licence number.
+    - Test: the generated manual's cover and the client forms show the licence number.
+    - Basis: CABA Law 2340 Art. 10(3); Res. 43 Art. 2(d).
+
+## Open questions
+
+1. **ITAER filing channel for brokers.** Res. 43 says "sent to the UIF" but names no channel or format. Accountants file through SRO+ (per their council). Is there an SRO+ module or form for brokers, and what file types does it take? Ask the UIF (sujetosobligados@uif.gob.ar) or test it with a pilot broker's SRO+ account. (unverified)
+2. **Did the 30 Apr 2026 and 31 Aug 2026 broker deadlines stand?** No extension for brokers was found on the UIF resolutions page, but the UIF may have handled late filings quietly. (unverified)
+3. **Broker RSM XML schema.** The SROMasivo installer is a compressed MSI, and no public XSD for the broker RSM was found. Get it from the app after installing it on Windows, or ask the UIF. This is needed for requirement 50(b). (unverified)
+4. **Nil RSM.** Must a broker report "no operations" in a month with no qualifying operations? Art. 34(a) says only to report the operations made. (unverified)
+5. **SMVM reference date.** Which of the two values (31 Dec or 30 Jun) applies to which month or operation is unclear (Art. 2(ñ)). The UIF guidance or FAQ, if any, was not found. (unverified)
+6. **Lease aggregation.** Does "in one or several operations" in Art. 2(a)(ii) add up leases per client, per property, or per contract renewal? (unverified)
+7. **Alert (xv) base.** Is the 30% difference measured against the first price or the last declared price? (unverified)
+8. **"Special characters" in UIF exports.** Should accents and ñ be removed, or only apostrophes and symbols? The guide's example only removes an apostrophe. (unverified)
+9. **REI timing in 2028.** The text gives 120 calendar days after the ITAER deadline (about 28 Aug 2028). Will the UIF set a fixed date again, as it did with 31 Aug 2026? (unverified)
+10. **Beneficial-owner threshold.** Res. 112/2021 (10%) appears to be current; no later change was found. (unverified)
+11. **Provincial licence laws.** What do the record-keeping and identity duties look like in PBA (Law 10.973), Santa Fe (Law 13.154), Córdoba (Law 9445) and Mendoza? Do colegios other than CUCICBA require a stamped operations book? (unverified)
+12. **RePET and UN list feeds.** Is there an official machine-readable RePET download, and how often is it updated? This is needed for requirement 29. (unverified)
+13. **Border Security Zone dataset.** Is there an official list of localities for Decree 253/2018? (unverified)
+14. **UIF regional agencies.** Where are the seats of the three regional supervision agencies, and are they assigned broker inspections? (unverified)
+15. **Recent broker sanctions.** The register shows no broker fines after 2022. Fast-track cases are not published (Res. 90/2024). Are brokers being charged under the new regime? (unverified)
+16. **Deregulation.** Was the Sturzenegger package or the Bongiovanni bill filed or passed after July 2026? Would the UIF then extend Res. 43 to unlicensed brokers? (unverified)
+17. **Database registration.** Must the broker (as data controller) or the vendor register databases with the AAIP under Law 25.326? Not checked here. (unverified)
+
+## Sources
+
+Primary legal texts
+- Law 25.246, consolidated (Law 27.739; Decree 274/2025): https://www.argentina.gob.ar/normativa/nacional/62977/actualizacion
+- Res. UIF 43/2024, consolidated (with Res. 56/2024): https://www.argentina.gob.ar/normativa/nacional/397424/actualizacion
+- Res. UIF 43/2024, original text: https://www.argentina.gob.ar/normativa/nacional/397424/texto
+- Res. UIF 132/2024 (replaces Res. 67/2017 REI rules): https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-132-2024-403326/texto
+- Res. UIF 192/2024 (PEP): https://www.argentina.gob.ar/normativa/nacional/407011/texto
+- Res. UIF 35/2023 (PEP, original, PDF from CPCE CABA): https://www.consejo.org.ar/storage/attachments/Resoluci%C3%B3n%20UIF%2035-2023.pdf-lDg1Qu0KNv.pdf
+- Res. UIF 90/2024, consolidated (sanction procedure; Res. 129/2024, 195/2024): https://www.argentina.gob.ar/normativa/nacional/400665/actualizacion
+- Res. UIF 207/2025 (TF reports and freezing): https://www.boletinoficial.gob.ar/detalleAviso/primera/333954/20251104
+- Res. UIF 3/2026 (PF reports and freezing): https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-3-2026-422247/texto
+- Res. UIF 61/2023 Annex (supervision procedure): https://www.colegio-escribanos.org.ar/noticias/2023_04_17-UIF-Res-61-23-Anexo.pdf
+- Res. UIF 61/2023 recitals: https://contadoresenred.com/uif-procedimiento-de-supervision-basado-en-riesgo-resolucion-61-2023/
+- Res. UIF 93/2026 (property registries): https://www.boletinoficial.gob.ar/detalleAviso/primera/345725/20260810
+- Disposición DNPDP 60-E/2016, consolidated (adequate countries): https://www.argentina.gob.ar/normativa/nacional/267922/actualizacion
+- Res. AAIP 198/2023 (RIPD clauses): https://www.boletinoficial.gob.ar/detalleAviso/primera/296189/20231018
+- CABA Law 2340 (brokers): https://www.colegio-escribanos.org.ar/normas/CABA_LEY_2340.pdf ; https://boletinoficial.buenosaires.gob.ar/normativaba/norma/101209
+- Civil and Commercial Code Art. 1347: https://codigocivilonline.com.ar/etiquetas/articulo-1347/
+
+UIF instruction pages and tools
+- UIF resolutions list: https://www.argentina.gob.ar/uif/normativa/resoluciones
+- RSM sale guide: https://www.argentina.gob.ar/uif/instructivos/rsm-compra-yo-venta-de-bienes-inmuebles
+- RSM lease guide: https://www.argentina.gob.ar/uif/instructivos/rsm-operaciones-de-locacion-de-inmuebles-cuyo-monto-anual-sea-igual-o-superior-300
+- RSM brokers index: https://www.argentina.gob.ar/uif/rsm-corredores-inmobiliarios
+- RSM-Masivo (SROMasivo installer, manual, rectification and annulment guides): https://www.argentina.gob.ar/uif/rsm
+- SROM user manual: https://www.argentina.gob.ar/sites/default/files/manual_usuario_srom_v2.pdf
+- Mass rectification guide (zip): https://www.argentina.gob.ar/sites/default/files/intructivo_rectificacionesmasivas_rsms.zip
+- RSA guide: https://www.argentina.gob.ar/uif/reporte-sistematico-anual-rsa
+- ROS/RFT guide: https://www.argentina.gob.ar/uif/instructivos/rosrft
+- Registration guides: https://www.argentina.gob.ar/uif/instructivos/registracion ; https://www.argentina.gob.ar/uif/instructivos/como-registrarse-por-primera-vez-en-la-uif ; https://www.argentina.gob.ar/uif/persona-humana ; https://www.argentina.gob.ar/uif/persona-o-estructura-juridica
+- REI guides: https://www.argentina.gob.ar/instructivos/revisor-externo-independiente-rei
+- Information requests: https://www.argentina.gob.ar/instructivos/requerimientos
+- Sanction procedures: https://www.argentina.gob.ar/uif/sumarios
+- Sanctions register: https://www.argentina.gob.ar/uif/sanciones (data sheet 1A7fxqsM6MY0bg-dlW4nBxDACjKGXsWdJMb57zKvjHkE, downloaded 10 Oct 2026)
+- RESAP-2022-108 (Inmobiliaria Bullrich): https://www.argentina.gob.ar/sites/default/files/resap-2022-108-apn-uifmec_-_expte_ndeg_522-17.pdf
+- RESAP-2022-128 (Hansen Barrientos): https://www.argentina.gob.ar/sites/default/files/resap-2022-128-apn-uifmec.pdf
+- UIF 2024 management summary: https://www.argentina.gob.ar/sites/default/files/2016/09/uif_resumen_ejecutivo_gestion_2024_-_v03.pdf
+- UIF supervision note (2021): https://www.argentina.gob.ar/noticias/supervisiones-de-la-uif
+
+International evaluation
+- FATF/GAFILAT Mutual Evaluation Report of Argentina, Dec 2024 (PDF copy at the Procuración): https://www.mpf.gob.ar/procelac-lavado/files/2020/04/Argentina-Mutual-Evaluation-Report-2024.pdf.coredownload.inline.pdf
+- FATF landing page: https://fatf-gafi.org/en/publications/Mutualevaluations/MER-Argentina-2024.html
+
+Secondary sources
+- SMVM values: https://chequeado.com/el-explicador/el-gobierno-fijo-nuevos-valores-del-salario-minimo-vital-y-movil-de-cuanto-es-en-diciembre-2025-y-como-evoluciono-frente-a-la-inflacion/ ; https://www.lanacion.com.ar/economia/de-cuanto-sera-el-salario-minimo-vital-y-movil-tras-el-aumento-del-gobierno-nid03122025/
+- Res. UIF 112/2021 (BO) summary: https://abogados.com.ar/resolucion-uif-n1122021-nuevo-regimen-de-identificacion-de-beneficiarios-finales/29323
+- CPCE CABA on the accountants' REI extension: https://www.consejo.org.ar/noticias/2026/uif-se-prorroga-la-presentacion-del-informe-de-revision-externa-independiente
+- CPCE CABA on the ITAER extension request: https://www.consejo.org.ar/noticias/2026/reiteramos-prorroga-para-la-presentacion-del-informe-de-autoevaluacion-de-riesgos-ante-la-uif
+- Res. UIF 90/2026 (lawyers' REI suspended): https://abogados.com.ar/resolucion-uif-902026-suspension-transitoria-de-la-primera-presentacion-del-rei-para-abogados-sujetos-obligados/39988
+- Colegio de Escribanos CABA, self-assessment app guide: https://www.colegio-escribanos.org.ar/noticias/2026_03_17_UIF-Autoevaluacion-UIF-instructivo.pdf
+- Colegio de Escribanos CABA, 2025 ITAER note: https://www.colegio-escribanos.org.ar/2025/04/14/importante-uif-informe-tecnico-de-autoevaluacion-de-riesgos/
+- Deregulation coverage: https://www.iprofesional.com/realestate/460633-5-fuertes-cambios-que-transformaran-para-siempre-el-negocio-inmobiliario-en-argentina ; https://www.iprofesional.com/politica/460737-federico-sturzenegger-busca-que-cualquiera-pueda-vender-propiedades-y-desata-furia-inmobiliaria
+- Marval on Res. 43/2024: https://www.marval.com/Publicacion/la-uif-actualiza-la-normativa-aplicable-a-los-agentes-o-corredores-inmobiliarios-15804

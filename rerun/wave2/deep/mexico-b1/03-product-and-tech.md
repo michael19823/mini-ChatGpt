@@ -1,6 +1,6 @@
 # Mexico private-security register keeper: product, technical design and development plan (deep dive 03)
 
-Status: draft 2, 10 Oct 2026 (risks, open questions and sources being filled).
+Status: complete as of 10 Oct 2026. Open questions at the end.
 
 Builds on [the B1 report](../reports/mexico-b1.md), [01 law and requirements](01-law-and-requirements.md) (88 numbered requirements, cited here as **R1-R88**) and [02 market and competition](02-market-and-competition.md). "My estimate" marks numbers I derived. "(unverified)" marks facts I could not confirm. Working name of the product: **"Registro al día"** (from B1). Amounts: USD at about MXN 18, as in B1.
 
@@ -195,7 +195,7 @@ Design notes: desktop first (the gestor works on a PC), but every list and the p
 
 ### What the product does about "the portal does not exist"
 
-- **Make the pack perfect.** Fill the official files cell by cell (for Baja California the Cardex header sits in row 13 and the arms header in row 15; the files have no drop-down lists to respect, checked 10 Oct 2026). Never convert the Cardex to PDF, as the BC guide demands.
+- **Make the pack perfect.** Fill the official files cell by cell (for Baja California the Cardex header sits in row 13 and the arms header in row 15; the Cardex has no drop-down lists to respect; the arms file has only a small list in its footer area, checked 10 Oct 2026). Never convert the Cardex to PDF, as the BC guide demands.
 - **Prove the filing.** Store the acuse, the sent email or a photo of the stamped copy for each pack (R55).
 - **Keep the history the DGSP's own systems do not show the firm.** The firm cannot log in to see what the DGSP holds. The product is the firm's only full copy, with dates.
 - **Be ready for a portal.** Keep the report content separate from the layout, so a future upload file or API is one more output format.
@@ -323,13 +323,13 @@ portal/       dashboard, portfolio (gestoría), screens glue
 
 ### Data protection law that applies
 
-- **Law.** Ley Federal de Protección de Datos Personales en Posesión de los Particulares, new law of DOF 20 Mar 2025, text with last reform DOF 14 Nov 2025 ([LFPDPPP](https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf)). The authority is now the Secretaría Anticorrupción y Buen Gobierno ([Hogan Lovells](https://www.hoganlovells.com/es/publications/mexicos-new-federal-data-protection-law-what-it-means-for-companies)). I found no new implementing Reglamento published (search, Oct 2026; unverified).
+- **Law.** Ley Federal de Protección de Datos Personales en Posesión de los Particulares, new law of DOF 20 Mar 2025, text with last reform DOF 14 Nov 2025 ([LFPDPPP](https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf)). The authority is now the Secretaría Anticorrupción y Buen Gobierno (art. 2-XV of the same text; [Hogan Lovells](https://www.hoganlovells.com/es/publications/mexicos-new-federal-data-protection-law-what-it-means-for-companies)). I found no new implementing Reglamento published (search, Oct 2026; unverified).
 - **Roles.** The guard firm is the "responsable" (controller). The vendor is the "persona encargada" (processor, art. 2-XII). A communication of data to the processor is not a "transferencia" (art. 2-XX), so hosting by the vendor does not need the guards' consent as a transfer. The vendor still needs a written processing agreement with each firm (R82; contract content to be drafted by the lawyer).
 - **Sensitive data.** Health data is sensitive (art. 2-VI). Medical, psychological and toxicology results are health data. Art. 8 needs the person's **express written consent** for sensitive data, by handwritten signature, electronic signature or another authentication mechanism. Art. 9 lists exceptions, including when a legal provision requires the processing (I) and when it is needed to meet obligations of a legal relationship (IV). Whether the LFSP duty lets the firm skip consent for exam results is **a question for the lawyer**. The product should capture consent anyway: a signed privacy notice per guard, stored with its version (R80).
 - **Minimise.** The law requires an exam and a passing result, not the clinical detail (RLFSP 47-50, per 01). Store pass/fail, date, institution and the certificate file. Do not store test scores or diagnoses.
 - **Security duty.** Administrative, technical and physical measures, no weaker than for the firm's own data, scaled to the risk and the sensitivity (art. 18). Confidentiality duty for everyone who handles the data (art. 20).
 - **Breaches.** The controller must inform affected people "de forma inmediata" when a breach significantly affects their rights (art. 19). The processor contract must make the vendor tell the firm within 24-48 hours (my proposal).
-- **ARCO rights.** The controller answers within at most 20 days (art. 31). The product gives the firm an export and a correction log per person.
+- **ARCO rights.** The controller answers within at most 20 days (art. 31), and the law counts days as business days (art. 2-VIII). The product gives the firm an export and a correction log per person.
 - **Penalties.** Fines of 100-160,000 UMA or 200-320,000 UMA by breach type, extra fines for repeat breaches, and up to double for sensitive data (art. 59). Prison of 3 months to 3 years for an authorised person who causes a breach for profit, and 6 months to 5 years for processing by deceit for profit; doubled for sensitive data (arts. 62-64). At MXN 117.31 per UMA, 320,000 UMA is about MXN 37.5 million (my arithmetic).
 - **Security-sector rule.** The national security law makes registry data on private-security staff and equipment reserved information (LGSNSP art. 101, via 01: [LGSNSP](https://www.diputados.gob.mx/LeyesBiblio/pdf/LGSNSP.pdf)). This applies to the national registers. Whether it limits a firm's own copy held by a vendor abroad is **a question for the lawyer**.
 - **Hosting abroad.** I found no rule in the LFPDPPP text that forces private data to stay in Mexico (my reading of the text; confirm with the lawyer). The privacy notice must name the processor and its locations. Keep an AWS Mexico (Querétaro) migration plan for buyers who ask.
@@ -472,10 +472,81 @@ One-off and yearly extras: penetration test USD 3,000-8,000 a year; legal conten
 The next penetration test falls due a year after the first, so outside year 1. **Year-1 cash total, excluding the company and marketing: about USD 12,000-26,000** (my estimate: the build budget plus 10 months of running costs). The 02 base case puts year-3 revenue at about MXN 3.8m (USD 210,000), so the build cost is small against it ([02](02-market-and-competition.md)).
 
 ## Risks
-(pending)
+
+| Risk | Likelihood | Impact | Mitigation |
+|---|---|---|---|
+| **The federal monthly format and channel stay unknown** (no sample found; DGSP site unreachable) | High in week 0, falling | Medium | Get a real pack and acuse from pilots or a gestor in week 0; file a PNT request; keep content separate from layout; ship with a signed cover plus annexes if needed |
+| **The DGSP builds its own portal.** The Feb 2026 Acuerdo gives it one year to adapt its registry systems, and a 2026 press piece talks of digital supervision and real-time bajas ([SIDOF 5784083](https://sidof.segob.gob.mx/notas/docFuente/5784083); [Diario de Juárez](https://diario.mx/nacional/2026/feb/22/apuntan-a-empresas-patito-de-seguridad-privada-1106610.html), via 01) | Medium within 1-2 years | High for the federal part | The register, the evidence, the state reports and the reconciliation stay needed. Add an upload file or API output when a portal appears; then sell "keep it right and send it in one click" |
+| **State fragmentation.** Each state has its own deadline, form and channel | High | Medium | Template sets and rules as data; build states in order of paying customers; charge per extra state (02 pricing) |
+| **Security holes in agent-written code** (tenant leaks, missing role checks) | Medium | High | Two-layer tenant isolation, a test on every URL, a reviewer agent on every pull request, a permissions module, a penetration test before launch |
+| **Breach of sensitive data** (health results, IDs) | Low | High | Store pass/fail, not clinical detail; field encryption; MFA; no real data in AI tools; breach plan; cyber insurance later |
+| **An authority rejects a pack** (for example a .docx instead of the official .doc, or a scanned signature) | Medium | Medium | Ask each state in week 0-6; keep official files where possible; offer PDF and Word; pilots test real filings before launch |
+| **Payroll exports vary** | High | Low | Column mapper with saved mappings; CFDI XML as the common standard; founder-assisted first import |
+| **Wrong due dates** from holidays or authority closures | Medium | Medium | Holiday tables per authority with source links; the 01 deadline tests in CI; show the legal basis next to each date |
+| **Law changes** (Sep 2026 bill on art. 13; a future Ley General de Seguridad Privada) ([Gaceta](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260908-II-1-2.html)) | Medium | Medium | Rules and templates as data with effective dates; weekly DOF watch; lawyer retainer |
+| **Founder overload** (build, sell, support at once) | High | High | Strict MVP scope; v1 only after paying customers; help pages; gestoría partners who onboard their own firms |
+| **AI tool limits slow the parallel streams** | Medium | Low | Stagger streams; API overflow budget; keep tasks small and test-led |
+| **A guard-software vendor (for example Vigon) adds DGSP reports** (02) | Medium | Medium | Move fast on state formats and the gestoría channel; offer an import from or a partnership with such vendors |
 
 ## Open questions
-(pending)
+
+1. What exactly does the DGSP want for the art. 13 monthly report: format, channel (ventanilla, email, disk) and acuse? (pilots, gestor, PNT request)
+2. What are the current DGSP equipment Excel layout and the photo size and resolution limits (R36, R41)?
+3. Do Baja California and other states accept Word files in .docx or PDF in place of the official .doc forms, and scanned or electronic signatures?
+4. What are the current monthly forms of CDMX, Estado de México, Jalisco, Nuevo León and Puebla?
+5. Which payroll tools do target firms use, and can they export CFDI XML in bulk and IMSS movement files?
+6. Can a firm process exam outcomes without consent under LFPDPPP art. 9 (law or legal relationship), or is art. 8 consent always needed? (lawyer)
+7. Does LGSNSP art. 101 (reserved registry data) limit holding a firm's copy with a processor abroad? Do buyers demand hosting in Mexico? (lawyer, interviews)
+8. Will firms accept WhatsApp messages to guards' phones for document upload and consent?
+9. Has the DGSP set a date or design for its new registry system under the Feb 2026 Acuerdo? (PNT request)
+10. What do Mexican lawyers and gestores charge for this review work? (quotes in week 0)
+11. Which SSPC "días inhábiles" list applies to DGSP deadlines in 2026 and 2027?
 
 ## Sources
-(pending)
+
+All accessed 10 Oct 2026 unless stated. "Snippet" means only a search snippet was read.
+
+**Law and official sources**
+- LFPDPPP, text with last reform DOF 14 Nov 2025: https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf
+- LGSNSP (via 01): https://www.diputados.gob.mx/LeyesBiblio/pdf/LGSNSP.pdf
+- ASF audit 2020-0095 of SSPC private-security regulation (via 01): https://www.asf.gob.mx/Trans/Informes/IR2020b/Documentos/Auditorias/2020_0095_a.pdf
+- SSPC Acuerdo Feb 2026 (via 01): https://sidof.segob.gob.mx/notas/docFuente/5784083
+- DGSP sanctions 2026: https://sidof.segob.gob.mx/notas/docFuente/5799650 ; https://sidof.segob.gob.mx/notas/docFuente/5797220 ; https://sidof.segob.gob.mx/notas/docFuente/5798715
+- DGSP equipment guide (snippet via 01; site unreachable): https://dgsp.sspc.gob.mx/static/contenido/Guia_Solicitud_Alta_Baja_Equipo.pdf
+- gob.mx page with the 2016 equipment forms (links now 404): https://www.gob.mx/segob/acciones-y-programas/inscripcion-de-armamento-vehiculos-y-equipo-incluyendo-los-cambios-en-los-inventarios-correspondientes-y-demas-medios-relacionados-con-los-servicios-de-seguridad-privada
+- Baja California monthly-report guide (read in full): https://www.seguridadbc.gob.mx/Planeacion/padron/GUIA%20LLENADO%20CORRECTO%20DEL%20INFORME%20MENSUAL.pdf
+- Baja California formats page and files (downloaded and inspected): https://www.seguridadbc.gob.mx/contenidos/DSP.php
+- Puebla ficha (snippet via 01): https://ventanilla.puebla.gob.mx/web/fichaAsunto.do?opcion=0&asas_ide_asu=2414&ruta=%2Fweb%2FasuntosMasUsuales.do%3Fopcion%3D0%21periodo%3D0
+- IMSS affiliate-movement file structure: https://www.imss.gob.mx/sites/all/statics/sua/dispmag/EstructuraMovimientosAfiliatorios.pdf
+- CURP rules (snippets): https://sidof.segob.gob.mx/notas/docFuente/5526717 ; https://sidof.segob.gob.mx/notas/docFuente/5632965 ; https://www.gob.mx/cms/uploads/attachment/file/681698/reglas_para_la_ejecucion_de_los_procedimientos_asignacion_de_la_curp.pdf
+- 2026 días inhábiles of the Secretaría Anticorrupción y Buen Gobierno (snippet): https://inah.gob.mx/images/transparencia/2025_11_27_MAT_sabg2.pdf
+- Nuevo León padrón (via 02): https://www.nl.gob.mx/sites/default/files/repositorio/Dependencias/Secretar%C3%ADa%20de%20Seguridad/Repositorios/20260721_padron_empresas_seguridad_julio.pdf
+- INEGI CNSPF-E 2026 (via 02): https://www.inegi.org.mx/contenidos/programas/cnspe/2026/doc/cnspe_2026_resultados.pdf
+- Bill of 8 Sep 2026 on LFSP art. 13: https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260908-II-1-2.html
+
+**Payroll and identifiers**
+- CFDI 4.0 payroll and complemento 1.2 guide (copy): https://bhrmx.com/wp-content/uploads/2022/01/GuiallenadoNominaCFDI4.0.pdf
+- 2026 changes to complemento de nómina 1.2: https://kpmg.com/mx/es/tendencias/2025/12/flash-sat-cfdi-de-nomina-2026-version-1-2-del-complemento.html
+- IDSE error positions (snippet): https://contadormx.com/errores-en-movimientos-afiliatorios-idse-y-como-resolverlos/
+- CURP API price claim (vendor blog): https://didit.me/es/blog/mexico-curp-database-validation-es/
+
+**Market context (via 02 and B1)**
+- Computrabajo gestor ad: https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gestor-gubernamental-en-cuauhtemoc-BA3B0D3F75D2544A61373E686DCF3405
+- Zeta Tijuana, Aug 2026: https://zetatijuana.com/2026/08/advierten-aumento-de-empresas-irregulares-de-seguridad-privada-piden-padron-unico/
+- El Imparcial, Jul 2025: https://www.elimparcial.com/mxl/mexicali/2025/07/04/pausa-en-certificaciones-de-guardias-es-por-irregularidades-en-empresas-de-seguridad/
+- Diario de Juárez, Feb 2026: https://diario.mx/nacional/2026/feb/22/apuntan-a-empresas-patito-de-seguridad-privada-1106610.html
+
+**Data protection commentary**
+- Hogan Lovells on the new LFPDPPP: https://www.hoganlovells.com/es/publications/mexicos-new-federal-data-protection-law-what-it-means-for-companies
+
+**Hosting, tools and prices**
+- Render pricing (fetched 10 Oct 2026): https://render.com/pricing
+- Cloudflare R2 pricing: https://developers.cloudflare.com/r2/pricing/
+- Resend pricing: https://resend.com/pricing
+- Meta WhatsApp pricing page and Oct 2026 rate-card files: https://developers.facebook.com/docs/whatsapp/pricing
+- Hetzner June 2026 repricing (secondary): https://privatedevops.com/news/hetzner-june-2026-cloud-price-increase-what-to-do
+- AWS Mexico (Central) region launch: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-new-aws-mexico-central-region-simultaneous-sign-in-for-multiple-aws-accounts-and-more-january-20-2025
+- Claude plan prices (third-party summary): https://www.heyuan110.com/posts/ai/2026-02-25-claude-code-pricing/ ; official page to check: https://claude.com/pricing
+- Penetration-test price guide: https://www.blazeinfosec.com/post/how-much-does-penetration-testing-cost/
+
+**Negative results (no URL):** searches in Spanish on 10 Oct 2026 found no SSPC/DGSP online filing platform, no CDMX, Estado de México or Nuevo León online system for monthly altas and bajas, no SSPC 2026 días inhábiles acuerdo, no new LFPDPPP Reglamento, and no published Mexican lawyer fees for privacy documents.

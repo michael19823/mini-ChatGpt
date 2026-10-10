@@ -1,6 +1,6 @@
 # Peru gaming SPLAFT kit: product, technical design and development plan (deep dive 03)
 
-Date: 10 Oct 2026. Status: draft in progress. Sections 1-5 are written; data sources, architecture, costs and the plan are being researched.
+Date: 10 Oct 2026. Status: complete draft. Data feeds were tested by script on 10 Oct 2026.
 
 Builds on [the B1 report](../reports/peru-b1.md), [01-law-and-requirements.md](01-law-and-requirements.md) (86 numbered product requirements, cited below as "R1"-"R86") and [02-market-and-competition.md](02-market-and-competition.md). "My estimate" marks numbers I derived. "(unverified)" marks facts I could not confirm. Money: S/ (soles) and US$ at S/ 3.45 per US$, the rate used in the B1 report.
 
@@ -8,7 +8,15 @@ Working name: **SPLAFT Sala**.
 
 ## Summary
 
-(pending; written last)
+- **What to build.** A Spanish web app, "SPLAFT Sala", for the 301 land-based casino and slot-room firms first. It keeps the records the law demands and the state portals do not: the operations register (RO) with every cash-out of US$ 2,500 or more and every promo winner, client sworn statements signed on a tablet, list screening, staff files, the 30-day induction, training proof, supplier refreshes, the unusual-operation and ROS case file with a 24-hour clock, and a pre-filled annual report (IAOC) and internal-audit report (IAI). Online operators and betting-shop networks come later.
+- **No portal has an API, and none ever will for us.** Only the registered officer can use Portal PLAFT, ROSEL and SISDEL, with secret codes (Norma Arts. 14.6, 15.3, 27.3). The product prepares upload-ready files and records the receipts. The RO and ROSEL templates sit behind the officer's login, so a partner officer must supply them in week 0.
+- **The data feeds the MVP needs are free, and I tested them all on 10 Oct 2026.** MINCETUR's room register has a public JSON service (675 rooms, 301 RUCs) that pre-fills a firm's rooms. The BCRP API gives the SBS selling rate, so the October 2026 RO threshold is S/ 8,458.07. The UN (1,010 entries), OFAC (19,416) and EU (6,241) lists download as XML; the EU public-token file was 18 days old, so use a free personal token. Weak spots: the SBS and FATF sites block scripts; Peru PEP name data is thin (OpenSanctions has 1,336, mostly from Wikidata); RENIEC ID checks need the firm's own agreement at S/ 0.90-1.60 a query.
+- **Stack for a solo founder with AI agents.** One Django 5.2 LTS monolith with HTMX and PostgreSQL (row-level security), rules and templates stored as versioned data, an officer-only encrypted compartment for cases, and no AI model touching customer data. Each module is its own Django app, which gives clean boundaries for parallel agents.
+- **Privacy and secrecy.** Under Ley 29733 and DS 016-2024-JUS we are the customers' processor. That means a 48-hour breach-notice chain, model contract clauses for hosting outside Peru, probably a representative in Peru, and fines of up to 100 UIT. The bigger risk is AML secrecy: tipping off or exposing the officer costs the customer 7-8 UIT per breach.
+- **Running cost is small.** About US$ 55-115 a month at 50 customers, US$ 200-360 at 300 and US$ 440-965 at 1,000 (my estimates). That is 1-3% of revenue. 1,000 customers is beyond Peru's roughly 350 obliged firms.
+- **Plan.** Week 0 from 12 Oct 2026 for specs and templates. A 3-day foundation, then six parallel agent streams, finishing code on 6 Nov. Lawyer approval and a penetration test in weeks 4-5. Pilots with 3-5 firms in weeks 6-8. **Sellable on 14 Dec 2026**, in time for the first IAOC under the new rule (approve by 30 Jan, file by 15 Feb 2027).
+- **Budget.** About **US$ 10,600-27,600** to sellable and **US$ 19,000-53,000** for year 1 in cash, before company, payment and marketing costs. The lawyer and the penetration test are more than half of the build cost. AI tools are a small line.
+- **Biggest product risks.** Access to the RO template; unknown cage and promo export formats; whether a tablet signature is accepted on the SBS sworn statement; a confidentiality breach; the founder as the review bottleneck; and a payment provider that refuses gambling-adjacent customers.
 
 ## Users and jobs
 
@@ -211,7 +219,7 @@ Each feature lists the requirements it meets. "MVP" is the 3-week agent build pl
 | 14 | **MINCETUR (DGJCMT) IAOC channel** | Where the IAOC and IAI go | "the physical or electronic means it determines" (Art. 27.3). The current channel and format are unverified; MINCETUR's 2017 talk said its format differs from the UIF's ([MINCETUR 2017](https://consultasenlinea.mincetur.gob.pe/casinos/Agenda%20_Noticias/pdfs/2017/Presentacion_Charla_SPLAFT.pdf)) | Free | Likely a PDF upload through its virtual front desk (unverified) | IAOC "MINCETUR version" as Word and PDF (R76) | MVP |
 | 15 | **SUNAT reduced RUC register** | RUC, name, taxpayer status, address condition, ubigeo, tax address; annex addresses ([SUNAT guide](https://orientacion.sunat.gob.pe/padron-reducido-del-ruc-para-descarga)) | `http://www2.sunat.gob.pe/padron_reducido_ruc.zip`: 394 MB ZIP, last modified 10 Oct 2026 07:36 GMT (my HEAD request) | Free | n/a | Auto-fill suppliers and legal-person beneficiaries; flag inactive RUCs (R22, R64) | v1 |
 | 16 | **RENIEC identity check (Consulta en Línea)** | Name and data behind a DNI | Needs a signed agreement with RENIEC and, since May 2024, a DNIe login. Fees in 2025 were S/ 0.90-1.60 per query by data level ([RENIEC to Congress, May 2025](https://www.congreso.gob.pe/Docs/comisiones2024/Ciencia/files/reniec_congreso_05may25_(1).pdf), per search summary; [Andina](https://andina.pe/ingles/noticia-reniec-suspendio-hasta-abril-a-71-usuarios-mal-uso-consulta-linea-982292.aspx)) | Per query, contract with the firm | n/a | Not in the MVP. Each firm would hold its own agreement. Do not use unofficial "DNI API" sites: RENIEC warns they are not official, and they create a data-protection risk | Later |
-| 17 | **Cage, ticket and promotion exports (SUCTR and casino systems)** | Ticket redemptions, cash-outs, promo winners | Every room's machines link in real time to MINCETUR and SUNAT through a SUCTR (DS 015-2010-MINCETUR; [SUNAT note](https://www.sunat.gob.pe/legislacion/oficios/2012/informe-oficios/i092-2012.pdf)). 29 vendors are registered (02 file). I found no public export format | Depends on vendor | n/a | Generic CSV/XLSX mapper in the MVP; collect real exports in the pilot; vendor presets in v1 (R35) | MVP (generic) |
+| 17 | **Cage, ticket and promotion exports (SUCTR and casino systems)** | Ticket redemptions, cash-outs, promo winners | Every room's machines link in real time to MINCETUR and SUNAT through a SUCTR ([MINCETUR 2019](https://consultasenlinea.mincetur.gob.pe/casinos/Agenda%20_Noticias/pdfs/2019/DGJCMT_JUNIO_2019_2.pdf); [SUNAT note](https://www.sunat.gob.pe/legislacion/oficios/2012/informe-oficios/i092-2012.pdf)); its technical rules are in DS 015-2010-MINCETUR (per search summary). 29 vendors are registered (02 file). I found no public export format | Depends on vendor | n/a | Generic CSV/XLSX mapper in the MVP; collect real exports in the pilot; vendor presets in v1 (R35) | MVP (generic) |
 | 18 | **Peruvian holidays** | 16 national holidays in 2026, including 28-29 July, 8 Dec and 9 Dec ([La República](https://larepublica.pe/economia/2025/12/26/feriados-2026-en-peru-calendario-oficial-con-fines-de-semana-largos-y-puentes-para-planificar-tu-ano-1697462)). The government also declares extra non-working days for the public sector, such as 27 Jul 2026 (DS 075-2026-PCM, per [Infobae](https://www.infobae.com/peru/2026/06/30/feriados-de-julio-2026-lista-de-los-dias-libres-y-no-laborables-segun-el-calendario-oficial-en-peru/)) | No API; keep a table we update each December | Free | n/a | Business-day deadlines (R9). Keep public-sector non-working days as a separate type: they may move deadlines that fall on SBS or MINCETUR (my inference, unverified) | MVP |
 | 19 | **UIT value** | S/ 5,500 in 2026 ([El Peruano](https://elperuano.pe/noticia/285208-mef-establece-en-s-5-500-la-unidad-impositiva-tributaria-para-2026)) | Yearly by hand | Free | n/a | Show fines in soles next to each gap | MVP |
 | 20 | **Online platform exports** | Deposits, withdrawals, bets and wins | Vendor CSVs (SoftConstruct, Techsson, Calimaco, VPL per the 02 file); formats unknown | n/a | n/a | Online RO (R38) | v1 |
@@ -280,7 +288,7 @@ One PostgreSQL database. Every tenant table carries `firm_id`. Tables marked **a
 ### Recommendation: one plain monolith that AI agents can build in parallel
 
 - **Language and framework:** Python 3.13 and Django 5.2 LTS (security support to April 2028, per the [Django download page](https://www.djangoproject.com/download/)). Django gives a built-in admin (the lawyer edits templates and code tables there), forms with validation, auth, Spanish (`es-PE`) translations and a clear "one app per module" layout. That layout is also the natural boundary for parallel agents.
-- **Front end:** server-rendered HTML with HTMX and a little Alpine.js. No single-page app. The product is forms, tables and documents. The cage screen is a responsive page that works on a cheap 10-inch Android tablet. Rooms already have a live internet link, because every machine reports in real time through the SUCTR ([SUNAT note](https://www.sunat.gob.pe/legislacion/oficios/2012/informe-oficios/i092-2012.pdf)), so no offline mode is needed in the MVP.
+- **Front end:** server-rendered HTML with HTMX and a little Alpine.js. No single-page app. The product is forms, tables and documents. The cage screen is a responsive page that works on a cheap 10-inch Android tablet. Rooms already have a live internet link, because every machine reports in real time through the SUCTR ([MINCETUR 2019](https://consultasenlinea.mincetur.gob.pe/casinos/Agenda%20_Noticias/pdfs/2019/DGJCMT_JUNIO_2019_2.pdf)), so no offline mode is needed in the MVP. A short outage fallback is a paper form typed in later and flagged as late (R32).
 - **Database:** PostgreSQL 17 with `pg_trgm` (fuzzy name search), JSONB (form answers, IAOC snapshots) and row-level security as a second tenant wall.
 - **Background jobs:** a Postgres-backed queue (for example Procrastinate), so no Redis. Jobs: list refresh every 6 hours; delta re-screen on list change; FX fetch on the 1st of each month; deadline sweep every night at 06:00 Lima time; daily digest e-mail; RO backup copy nightly; retention sweep weekly.
 - **Documents:** `docxtpl` for Word templates the lawyer can edit; LibreOffice in a sidecar container (for example Gotenberg) for DOCX to PDF; WeasyPrint for HTML to PDF (the SBS sworn statement, certificates); `openpyxl` for Excel exports; `pypdf` to merge the inspection pack.
@@ -345,7 +353,7 @@ Officer files by hand in Portal PLAFT / ROSEL / SISDEL / MINCETUR and uploads re
 
 - TLS everywhere; HSTS.
 - MFA (TOTP) required for officer, alternate, GM, adviser and admin. Cashiers log in on a shared tablet with a personal PIN, inside a session opened by the room manager.
-- Argon2 password hashing; login rate limits; 15-minute idle timeout on the cage screen.
+- Argon2 password hashing; login rate limits; the cage screen locks after 2 minutes idle, other sessions after 30 minutes.
 - Role-based access plus Postgres RLS; automated tests that try cross-tenant reads on every table.
 - Encryption at rest by the provider; envelope encryption for files; a separate per-firm key for the case compartment.
 - Append-only audit log with a hash chain (R84); reads of RO, client and case data are logged too.
@@ -362,3 +370,226 @@ Officer files by hand in Portal PLAFT / ROSEL / SISDEL / MINCETUR and uploads re
 - **Cap.** Liability capped at the fees paid in the last 12 months; no liability for fines where the user ignored tasks or hits.
 - **Change commitment.** Update templates and rules within 30 days of a relevant SBS or MINCETUR change and notify users. This is also the renewal story.
 - **Insurance.** Professional indemnity and cyber cover for the founder's company (price unverified).
+
+## Hosting and running costs
+
+### Where to host
+
+- **Peru does not require local storage**, but data may leave Peru only to a country with adequate protection or under contract guarantees (see the privacy section). Either way, use the authority's model clauses in the customer contract and the hosting contract.
+- **Default: a US East region** (New York or Virginia) on a simple cloud, for example DigitalOcean or AWS. It is the closest large, cheap region to Lima. Latency should be about 80-110 ms (my estimate, unverified), fine for forms on a cage tablet.
+- **Alternative: an EU region** (Frankfurt or Amsterdam) if the founder's company is in the EU or UK. GDPR-grade hosting contracts make the "adequate treatment" argument easier. Latency is higher, about 180-220 ms (my estimate, unverified), still acceptable for this app.
+- **Not yet: South American regions.** AWS announced a Chile region "by the end of 2026" in May 2025 ([Amazon](https://press.aboutamazon.com/aws/2025/5/amazon-to-invest-more-than-4-billion-to-launch-infrastructure-region-in-chile)). I found no confirmation that it is open. Revisit in 2027 if customers ask for data in the region.
+
+### Monthly running cost (US$, my estimates, excluding VAT, staff and payment fees)
+
+Price basis: a 2 vCPU / 4 GB server at about US$ 24 a month; managed PostgreSQL from about US$ 15, with high availability from about US$ 60; object storage about US$ 5 for 250 GB ([Linuxteck](https://www.linuxteck.com/guides/digitalocean-review-2026/); [InfraTally](https://infratally.com/articles/digitalocean-managed-postgres-deep-dive/); [AgentDeals](https://agentdeals.dev/digitalocean-free-tier-2026), all third-party summaries). Transactional e-mail about US$ 15 for 10,000 e-mails, then US$ 1.20-1.80 per 1,000 ([Email Software Insights](https://www.emailsoftwareinsights.com/reviews/postmark/pricing/), third-party). WhatsApp messages are billed per message by country, and Meta added billing in soles from 1 Apr 2026 ([Meta](https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing)); the Peru rate is unverified.
+
+Data volume assumption: a single room logs about 5,000-8,000 RO rows a year (mostly promo winners) and 1,500-3,000 signed client statements of about 150 KB each. That is about 0.5-1 GB of files per customer per year (my estimate, unverified; the pilot will measure it).
+
+| Item | 50 customers | 300 customers | 1,000 customers |
+|---|---|---|---|
+| App servers | 1 VM: 24 | 2 VMs: 48 | 3 VMs + load balancer: 84-120 |
+| Job and PDF worker | on the app VM: 0 | 1 VM: 24 | 2 VMs: 48 |
+| PostgreSQL (managed, backups and point-in-time recovery) | single node: 15-30 | high-availability pair: 60-120 | larger HA pair: 150-300 |
+| Object storage (signed statements, documents) | 5 | 5-10 | 15-30 |
+| Second-provider backup copy | 5 | 5-10 | 10-25 |
+| Transactional e-mail | 0-15 | 15-55 | 30-180 |
+| Error tracking, uptime, logs | 0-30 | 30-60 | 60-150 |
+| WhatsApp reminders (v1, optional) | 0 | 10-30 | 30-100 |
+| Domain, DNS, certificates, misc. | 5 | 5 | 10 |
+| **Total per month** | **about 55-115** | **about 200-360** | **about 440-965** |
+| Per customer per month | about 1.10-2.30 | about 0.70-1.20 | about 0.45-0.95 |
+
+- At the 02 file's single-room price of S/ 290 a month (about US$ 84), infrastructure is **about 1-3% of revenue**.
+- **1,000 customers is beyond the Peruvian market** of about 350 obliged firms. It needs Colombia, other Peruvian obliged sectors, or per-shop billing of betting networks ([02 file](02-market-and-competition.md)).
+- Optional extras not in the table: paid PEP data (OpenSanctions at EUR 0.03-0.10 per query, [OpenSanctions API](https://www.opensanctions.org/api/)); a yearly penetration test; an external data protection officer. See the budget.
+
+## Development plan
+
+### Assumptions
+
+- **Builder:** the founder, with Claude Code running several agents in parallel, each in its own git worktree and Django app. No hired developers.
+- **Paid helpers:** a Peruvian AML lawyer for templates and contract terms; a practising gaming compliance officer as a paid domain adviser and pilot partner; an external security tester.
+- **Start:** Monday 12 Oct 2026 (week 0 for preparation); build from Monday 19 Oct.
+- **Hard date:** the first IAOC under the new content rules must be approved by the board or GM by 30 Jan 2027 and sent by **15 Feb 2027** (Norma Art. 27.2-27.3). Buyers must be live by early January to use the product for it. Sellable by mid-December is the target.
+- **Holidays:** Peru has holidays on 8 and 9 Dec 2026 ([La República](https://larepublica.pe/economia/2025/12/26/feriados-2026-en-peru-calendario-oficial-con-fines-de-semana-largos-y-puentes-para-planificar-tu-ano-1697462)). Pilot work slows that week.
+
+### Order of build
+
+1. **Foundation first, alone (days 1-3).** Tenancy, roles, audit log, deadline engine and the shared models. Parallel agents only start once these contracts are fixed. Otherwise five agents invent five versions of `Person`.
+2. **Modules in parallel (days 4-12).** Five module streams plus a QA stream.
+3. **Integration (days 13-15).** The annual report and the inspection pack read from every module, so they come last and expose gaps.
+4. **Legal content, security and pilot (weeks 4-8).** The lawyer's approval gates anything a customer sees.
+
+### Agent work streams for the MVP
+
+Each stream gets a written spec (built from the R-numbers in the [01 file](01-law-and-requirements.md)), owns its own Django app and migrations, and may call other streams only through the functions listed in a shared `contracts.md`. Every test names the requirement it proves (for example `test_R27_cashout_threshold_uses_prior_month_average`), so a traceability matrix R1-R86 can be generated. That matrix is also a sales asset.
+
+| Stream | Agent | Scope (feature numbers from the map) | Owns | Depends on | Key acceptance tests |
+|---|---|---|---|---|---|
+| **S0 Foundation** | Founder + 1 agent, days 1-3 | Skeleton, settings, `es-PE` translations, auth with MFA, `Firm`, `Room`, `Membership` and roles, RLS, `AuditEvent` hash chain, `DeadlineRule`, `Holiday`, `Task`, encrypted file store, base templates, CI, demo-data generator, MINCETUR register import (features 1-2, 19) | `core`, `tenancy`, `calendar`, `audit` | - | Cross-tenant reads fail on every table; a 15-business-day clock skips weekends and holidays; a 30-calendar-day clock does not (R9) |
+| **S1 RO and imports** | Agent B | FX fetch from BCRP, thresholds, cash-out and promo rows, append-only corrections, late flag, CSV/XLSX mapper with suggestions, export mapping, sending tracker, nightly backup with hash (features 3-5) | `ro`, `imports` | S0; `Person` from S2 (stub first) | R27-R37 golden tests with real Sep 2026 BCRP data; a S/ 50 prize is logged; no setting can exclude a client |
+| **S2 Clients and screening** | Agent C | Client form (Art. 10.1), SBS sworn statement PDF, tablet signature, refusal path, EDD routing and approval, list ingestion (UN, OFAC, EU), name matching, hit queue, re-screen on list change, freeze case (features 6-9) | `people`, `kyc`, `screening` | S0 | 50 known listed names caught, including accent and double-surname variants; a confirmed UN hit opens a freeze case; EDD client cannot be accepted without a senior approver |
+| **S3 Staff, training, suppliers** | Agent D | Staff files with self-service links, excluded roles, yearly check, 30-day induction, sessions and attendance, 11-topic check, certificates, IAOC training statistics, supplier register with 2-year refresh, third-party statements (features 12-14) | `staff`, `training`, `suppliers` | S0, S2 (`Person`, screening call) | Day 31 without an induction record is overdue; a "vigilante" gets no training task; officer cannot certify own training |
+| **S4 Documents and reporting** | Agent E | Template engine and versions, approvals, receipt statements with 10 fields, officer register and event clocks, IAOC (UIF and MINCETUR versions), IAI checklist, inspection pack, retention hold, full export (features 15-19) | `documents`, `officer`, `annual`, `inspection` | All streams (reads only) | IAOC monthly totals equal the registers for the demo firm; the IAI author cannot be the officer; officer name absent from third-party exports |
+| **S5 Cases** | Agent F (smaller stream) | Escalation, unusual-operation case, non-reported register, 24-hour ROS clock, ROSEL draft with leak check, receipt entry, officer-only key (features 10-11 library) | `cases` | S0, S1, S2 | Export blocked if the firm's name or RUC is in the narrative; reminders at 12 h and 2 h; auditors see only "filed on time" |
+| **S6 QA and security** | Agent G, all three weeks | End-to-end tests of flows 1-10 in a headless browser, permission matrix from R83, time-travel tests for every deadline rule, Spanish copy check, accessibility, `bandit` and `pip-audit`, load test of re-screening | `tests/e2e`, CI | Everything | Re-screening 100,000 stored rows after a list change finishes in under 10 minutes (my target) |
+
+**Founder's daily loop.** Morning: update specs and answer agent questions. Midday and evening: review pull requests, run the end-to-end suite, merge into `main` at fixed times. Keep a `CLAUDE.md` with conventions (naming, Spanish UI strings, no case data in logs, tests name R-numbers). The founder's review time, not agent speed, is the bottleneck. Plan for 3-5 merges a day.
+
+**Cut list if week 3 runs late** (cut from the top): adviser firm switcher; MINCETUR-format IAOC (deliver as an editable Word file); supplier screening re-runs (keep onboarding screening); freeze-case screens (keep the task and checklist); the import mapper's saved mappings.
+
+### Calendar
+
+| Week (Monday) | Product and legal | Engineering (agents) | Pilot and sales | Gate |
+|---|---|---|---|---|
+| 0 (12 Oct 2026) | Sign the lawyer and the domain adviser. Download the SBS sworn-statement model by hand. Ask the adviser for the RO template, the ROSEL template and a real IAOC (anonymised). Collect 2-3 cage and promo exports | Write `contracts.md`, stream specs and `CLAUDE.md`; repo, CI, hosting account | Shortlist 10 pilot firms from the MINCETUR register, including 2 outside Lima and 1 adviser with several clients | Specs frozen |
+| 1 (19 Oct) | Lawyer drafts the manual, code, policy set and induction script for gaming | S0 days 1-3; S1-S5 start on day 4 against stubs | First calls with pilot candidates | Foundation merged |
+| 2 (26 Oct) | Lawyer drafts staff and supplier forms, receipt statement, officer certificate | S1-S5 build; S6 writes end-to-end tests from the flows | Demo video of the cage flow | Each stream passes its own tests |
+| 3 (2 Nov) | Domain adviser walks through the app as officer | Integration: IAOC, IAI, inspection pack; demo firm with 6 months of data | Book 3-5 pilot firms | **MVP code complete** |
+| 4 (9 Nov) | Lawyer review of all templates and the IAOC structure; ToS, processing agreement (with model clauses), privacy notice | Fix review findings; hardening; backup and restore drill | Pilot contracts (free until 31 Jan 2027 in exchange for feedback and a reference) | Legal content v1 approved |
+| 5 (16 Nov) | Spanish copy review by a Peruvian editor | **External penetration test** (3-5 days); fix findings | Onboard pilot 1 remotely, watching by screen share | No open high or critical findings |
+| 6 (23 Nov) | - | Fixes from pilots; vendor-export presets from real files | Pilots 2-5 onboard; first real RO rows and staff files | - |
+| 7 (30 Nov) | Lawyer mock inspection on 2 pilot firms | Fixes; monitoring; status page | Optional week in Lima to visit pilots | Mock inspection passes |
+| 8 (7 Dec; 8-9 Dec holidays) | Final terms and price list | Release candidate | Pilot review; references | **MVP definition of done met** |
+| 9 (14 Dec) | - | Paid launch | Sell into the IAOC season | **Sellable** |
+| 4 Jan - 15 Feb 2027 | IAOC season support | IAOC wizard fixes | Customers approve IAOC by 30 Jan and file by 15 Feb | First IAOCs filed |
+
+### Definition of done for the MVP
+
+1. Every MVP feature in the map works end to end in Spanish, on a laptop and on a 10-inch Android tablet.
+2. Every requirement in MVP scope has at least one passing automated test that names it; the traceability matrix is generated in CI.
+3. RO thresholds pass golden tests with 12 months of real BCRP rates; every promo winner is logged; no client can be excluded.
+4. Every deadline rule passes a time-travel test across 2026-2027, including Peruvian holidays.
+5. Lists refresh by themselves; the 50-name test set is caught; false positives on pilot data stay under 1 in 20 clients (target to tune).
+6. The ROSEL leak check blocks the firm's name, RUC and the officer's name.
+7. For the demo firm and at least one pilot firm, the IAOC's monthly totals equal the registers, and both versions render; the lawyer signs off on the structure.
+8. Tenant-isolation tests pass; MFA is enforced for officer, GM, adviser and admin; the audit chain verifies; a restore drill reproduces the RO hash; the penetration test has no open high or critical finding.
+9. The lawyer has approved the manual, code, policies, sworn statements, receipt statement, induction record, officer certificate, ToS, processing agreement and privacy notice.
+10. At least 3 pilot firms have used it for 2 weeks with real data. Set-up takes under 45 minutes. A known-client cash-out takes under 3 minutes. At least 2 pilots say they will pay the list price.
+
+### After launch: v1 (Feb-Jun 2027) and later
+
+- **Feb-Mar 2027:** risk-assessment module for the 60 firms on the full regime ("Reforzado" plan); detection rules; alert drafts; consultant portfolio view.
+- **Apr-Jun 2027:** online operator pack (R38); supplier self-service and RUC auto-fill from SUNAT; information-request and remediation registers; WhatsApp reminders; vendor presets for common SUCTR exports. Show at the Peru Gaming Show (June).
+- **Later (H2 2027):** betting-shop network add-on (agent capture app, per-shop pricing); a data-feed deal with a SUCTR vendor; optional PEP data source; review of Colombia's Coljuegos rules for a second market ([02 file](02-market-and-competition.md)).
+
+### Fallback if the software slips
+
+Sell an **"IAOC 2026" service** in December and January: the founder and the domain adviser fill the IAOC and IAI from the customer's spreadsheets using the same templates. It earns money in the deadline season and moves those firms into the software later (my suggestion).
+
+## Budget
+
+Cash costs in US$, founder's time unpaid, no salaried developers. Company set-up, payment fees and marketing are in the 04 file. All figures are my estimates unless cited.
+
+| Item | Weeks 0-9 (to sellable, Oct-Dec 2026) | Months 3-12 | Year 1 total | Basis |
+|---|---|---|---|---|
+| Claude Code (1-2 Max seats, or 1 seat plus API overflow) | 400-800 | 2,000-4,000 | 2,400-4,800 | Max plans from US$ 100 a month ([Claude pricing](https://claude.com/pricing)); Max 20x is US$ 200 a month ([third-party guide](https://www.heyuan110.com/posts/ai/2026-02-25-claude-code-pricing/)). Several parallel agents may need two seats |
+| Peruvian AML lawyer: templates, IAOC structure, ToS, processing agreement, opinions on tablet signatures and Art. 13 | 3,000-9,000 | 1,500-4,500 | 4,500-13,500 | About 30-60 hours at US$ 80-150 an hour, then 2-4 hours a month for rule changes (rates unverified; no public SPLAFT prices found) |
+| Domain adviser (practising gaming officer) | 900-1,800 | 600-1,500 | 1,500-3,300 | S/ 1,500-3,000 a month for 2 months, then S/ 200-500 a month. An officer job ad offered S/ 2,000 a month ([02 file](02-market-and-competition.md)) |
+| External penetration test | 3,000-8,000 | 0-1,500 (retest) | 3,000-9,500 | Narrow web-app tests are quoted at US$ 5,000-15,000 in the US ([Startup Defense](https://www.startupdefense.io/blog/penetration-testing-cost)) and £2,500-5,000 for small UK firms ([Cyphere](https://thecyphere.com/blog/penetration-testing-cost/)); a 3-5 day test from a smaller firm fits the lower end |
+| Hosting (build, pilot, then 20-60 customers) | 100-200 | 600-1,200 | 700-1,400 | Table above |
+| Tools (code hosting, error tracking, e-mail, domain, office suite, design assets) | 150-300 | 700-1,500 | 850-1,800 | List prices |
+| Peruvian Spanish copy and legal-text proofreading | 200-600 | 200-400 | 400-1,000 | 10-30 hours |
+| Pilot trip to Lima (1 week) and Peru Gaming Show 2027 | 1,500-3,000 | 0-3,000 | 1,500-6,000 | Flights and hotel (unverified) |
+| Data-protection representative in Peru and external DPO, if required | 0-300 | 600-1,800 | 600-2,100 | Unverified |
+| Insurance (professional indemnity, cyber) | 0 | 1,000-2,500 | 1,000-2,500 | Unverified |
+| Contingency (15%) | 1,400-3,600 | 1,100-3,300 | 2,500-6,900 | - |
+| **Total** | **about 10,600-27,600** | **about 8,300-25,200** | **about 19,000-53,000** | - |
+
+- **To sellable (about 9 weeks): about US$ 10,600-27,600.** The lawyer and the penetration test are more than half of it. The AI tools are a small line.
+- **Year 1: about US$ 19,000-53,000** before company, payment and marketing costs.
+- The 02 file's base case is about US$ 132,000 a year of revenue in year 3. The build cost is small next to that. The real risk is sales, not build cost.
+
+## Risks
+
+| Risk | Why it matters | Mitigation |
+|---|---|---|
+| **RO and ROSEL templates are behind the officer login** | The RO export (R36) cannot be finished without the current template; sharing it may breach portal terms (unverified) | Get it through the domain adviser in week 0; build the export as a configurable mapping; ask the lawyer whether sharing the template is allowed |
+| **Template or rule changes by the SBS** | The Norma lets the SBS change the RO structure and frequency by resolution (Art. 14.6) | Rules and mappings as data with golden tests; 30-day update promise; law watch by the lawyer |
+| **Unknown cage and promo export formats** | Without import, cashiers retype everything and adoption suffers | Generic mapper in the MVP; collect real files in week 0 and the pilot; approach a local SUCTR vendor as a partner |
+| **Tablet signature not accepted** | The client sworn statement is mandatory in the SBS format (Art. 10.3) | Lawyer opinion in week 1; fallback: print, sign and scan in the same flow |
+| **Confidentiality breach (ROS, officer identity)** | 7-8 UIT fines for the customer and the end of the business for us | Officer-only key, no case content in messages, leak check, penetration test, audit log |
+| **Personal data breach** | 48-hour notice duty; fines up to 100 UIT | Encryption, MFA, backups, incident plan with a 24-hour customer notice |
+| **Cross-border transfer challenged** | A customer or MINCETUR may expect data in Peru (unverified) | Model clauses; option to move to a South American region later (keep the deploy portable) |
+| **Agent-built code quality** | Five agents can drift on shared models and security rules | Foundation first, contracts file, one app per stream, tests that name requirements, founder review of every merge, QA agent, external test |
+| **Founder bottleneck** | One person writes specs, reviews code, handles legal and sells | Fixed merge windows; cut list; the domain adviser runs pilot support |
+| **Payment provider refuses gambling-adjacent business** | Paddle's prohibited list names betting and games of chance ([04 file](04-gtm-company-finance.md)) | Keep billing in its own module; confirm acceptance with the provider before launch; Stripe from the foreign company as the main option |
+| **We become a "third party" under Art. 13** | A sworn statement and the duty of reserve apply to us | Offer the statement as a standard annex; train ourselves; keep logs |
+| **SBS and FATF sites block scripts** | Some sources cannot be automated | Use BCRP for FX; enter FATF and PEP-position updates by hand; monitor for changes |
+| **MINCETUR's IAOC format is unknown** | The second IAOC output may be wrong | Ask the adviser for last year's filing; deliver as editable Word until confirmed |
+| **Scope creep into the online and betting segments** | Delays the land-based MVP before the February deadline | Online and betting stay in v1 and later |
+
+## Open questions
+
+1. What is the current Portal PLAFT RO template (file type, fields, code tables) and the sending frequency for gaming? Can an officer share it with a vendor?
+2. Is ROSEL a web form or a template upload? What attachments does it take?
+3. Through which channel and in what format does MINCETUR receive the IAOC and IAI in 2026-2027?
+4. Is a tablet signature on the SBS client sworn statement accepted by MINCETUR inspectors? Is the same true for staff receipt statements and induction records?
+5. Which SUCTR or cage systems do the 185 single-room firms use, and can they export ticket redemptions and promo winners to CSV or Excel?
+6. How many promo winners does a typical room have per day? This drives cashier workload and storage.
+7. Does using our screening make us a "third party" under Norma Art. 13, and what must our sworn statement say?
+8. Do customers or MINCETUR expect the data to stay in Peru? Is a US or EU region acceptable with model clauses?
+9. Does the founder's foreign company need a representative in Peru under DS 016-2024-JUS, and what does that cost?
+10. Is the BCRP series `PD04640PD` accepted as "the SBS-published selling rate" for the RO threshold, or must the officer use the SBS page?
+11. Is the AWS Chile region live, and would a South American region help sales?
+12. What do Peruvian AML lawyers charge per hour or per template set?
+13. Which payment provider will accept a SaaS sold only to casino and betting operators?
+
+## Sources
+
+Primary legal texts and regulators
+- Res. SBS 01015-2026, MINCETUR copy of the El Peruano text (read for Arts. 10.3, 13, 14, 15.3, 25, 27, 28, 29): https://consultasenlinea.mincetur.gob.pe/casinos/Splaft/pdf/Resoluci%C3%B3n_SBS_01015_2026.pdf
+- Annexes to Res. SBS 1695-2016 (old code tables and alert signals): https://consultasenlinea.mincetur.gob.pe/casinos/Splaft/pdf/RESOLUCION_SBS_N1695_2016_ANEXOS.pdf
+- MINCETUR SPLAFT talk, 2017 (separate IAOC formats): https://consultasenlinea.mincetur.gob.pe/casinos/Agenda%20_Noticias/pdfs/2017/Presentacion_Charla_SPLAFT.pdf
+- SBS sworn-statement forms page (blocked to scripts): https://www.sbs.gob.pe/prevencion-de-lavado-activos/Supervisados-UIF/Modelo-de-Declaracion-Jurada
+- SBS news on the PEP list amendment (Res. SBS 00199-2025): https://www.sbs.gob.pe/noticia/detallenoticia/idnoticia/3801
+- LP Derecho on Res. SBS 00199-2025: https://lpderecho.pe/sbs-incorpora-mejoras-norma-personas-expuestas-politicamente-resolucion-00199-2025
+- El Peruano on the alert-reporting guide: https://elperuano.pe/noticia/294259-sbs-aprueba-guia-de-identificacion-y-reporte-de-alertas
+- UIT 2026: https://elperuano.pe/noticia/285208-mef-establece-en-s-5-500-la-unidad-impositiva-tributaria-para-2026
+- DS 052-2008-PCM (digital signature regulation): https://portal.ingemmet.gob.pe/documents/59082/1380545/DS-052-2008-pcm.pdf
+- SUNAT note on SUCTR (2012): https://www.sunat.gob.pe/legislacion/oficios/2012/informe-oficios/i092-2012.pdf
+- MINCETUR DGJCMT presentation, June 2019 (SUCTR real-time link): https://consultasenlinea.mincetur.gob.pe/casinos/Agenda%20_Noticias/pdfs/2019/DGJCMT_JUNIO_2019_2.pdf
+
+Data feeds and registers (tested 10 Oct 2026)
+- MINCETUR room register page: https://consultasenlinea.mincetur.gob.pe/casinos/Registros/registros.html?c=r_salasjuegos
+- MINCETUR room register service: https://consultasenlinea.mincetur.gob.pe/webCasinos/sistema/ws/wsConsultaWeb.asmx/listarConsultasRegistros
+- MINCETUR online licence holders: https://apuestasdeportivas.mincetur.gob.pe/Titulares_autorizacion.html
+- MINCETUR betting-shop register: https://apuestasdeportivas.mincetur.gob.pe/Registro_Salas_apuestas_deportivas.html
+- BCRP API, SBS selling rate series: https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PD04640PD/json
+- UN Security Council consolidated list: https://scsanctions.un.org/resources/xml/en/consolidated.xml
+- OFAC SDN XML: https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.XML
+- EU consolidated list (public token): https://webgate.ec.europa.eu/fsd/fsf/public/files/xmlFullSanctionsList_1_1/content?token=dG9rZW4tMjAxNw
+- FATF high-risk jurisdictions (blocked to scripts): https://www.fatf-gafi.org/en/topics/high-risk-and-other-monitored-jurisdictions.html
+- OpenSanctions Peru page: https://www.opensanctions.org/countries/pe/
+- OpenSanctions Peru Congress dataset: https://www.opensanctions.org/datasets/pe_congreso/
+- OpenSanctions API pricing: https://www.opensanctions.org/api/
+- MEF on the Contraloría interest-declaration system (SiDJI): https://www.mef.gob.pe/es/tematica-de-integridad/declaraciones-juradas-de-interes
+- SUNAT reduced RUC register guide: https://orientacion.sunat.gob.pe/padron-reducido-del-ruc-para-descarga
+- SUNAT reduced RUC register file: http://www2.sunat.gob.pe/padron_reducido_ruc.zip
+- RENIEC presentation to Congress, May 2025 (search summary): https://www.congreso.gob.pe/Docs/comisiones2024/Ciencia/files/reniec_congreso_05may25_(1).pdf
+- Andina on RENIEC suspensions: https://andina.pe/ingles/noticia-reniec-suspendio-hasta-abril-a-71-usuarios-mal-uso-consulta-linea-982292.aspx
+- La República, 2026 holidays: https://larepublica.pe/economia/2025/12/26/feriados-2026-en-peru-calendario-oficial-con-fines-de-semana-largos-y-puentes-para-planificar-tu-ano-1697462
+- Infobae, July 2026 non-working day: https://www.infobae.com/peru/2026/06/30/feriados-de-julio-2026-lista-de-los-dias-libres-y-no-laborables-segun-el-calendario-oficial-en-peru/
+
+Data protection
+- IAPP on DS 016-2024-JUS: https://iapp.org/news/a/se-publica-el-nuevo-reglamento-de-protecci-n-de-datos-personales-en-per-
+- Garrigues on DS 016-2024-JUS (search summary): https://www.garrigues.com/es_ES/noticia/peru-publica-nuevo-reglamento-ley-proteccion-datos-personales
+- LexLatin, June 2026 (DPO phase-in, 48 hours, fines): https://lexlatin.com/reportajes/proteccion-datos-personales-peru-empresas-oficial-cumplimiento-reforma
+- CERLATAM circular on model contract clauses (search summary): https://www.cerlatam.com/wp-content/uploads/2025/12/Circular-Externa-CCM-v.2.pdf
+
+Stack, hosting and costs
+- Django download page (LTS support dates): https://www.djangoproject.com/download/
+- Amazon on the AWS Chile region: https://press.aboutamazon.com/aws/2025/5/amazon-to-invest-more-than-4-billion-to-launch-infrastructure-region-in-chile
+- Linuxteck DigitalOcean review 2026: https://www.linuxteck.com/guides/digitalocean-review-2026/
+- InfraTally on DigitalOcean managed PostgreSQL: https://infratally.com/articles/digitalocean-managed-postgres-deep-dive/
+- AgentDeals DigitalOcean guide 2026: https://agentdeals.dev/digitalocean-free-tier-2026
+- Postmark pricing summary: https://www.emailsoftwareinsights.com/reviews/postmark/pricing/
+- Meta WhatsApp Business pricing: https://developers.facebook.com/documentation/business-messaging/whatsapp/pricing
+- Claude pricing: https://claude.com/pricing
+- Claude Max 20x price (third-party): https://www.heyuan110.com/posts/ai/2026-02-25-claude-code-pricing/
+- Startup Defense on pentest cost: https://www.startupdefense.io/blog/penetration-testing-cost
+- Cyphere on pentest cost: https://thecyphere.com/blog/penetration-testing-cost/
+
+Companion files
+- [B1 report](../reports/peru-b1.md), [01 law and requirements](01-law-and-requirements.md), [02 market and competition](02-market-and-competition.md), [04 go-to-market, company and finance](04-gtm-company-finance.md)

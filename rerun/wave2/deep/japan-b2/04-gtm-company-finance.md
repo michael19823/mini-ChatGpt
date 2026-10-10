@@ -33,7 +33,7 @@ Conventions:
   - There is no withholding tax: SaaS is a service, not a royalty ([鮎澤パートナーズ](https://ayusawa-partners.jp/column/it-kenkyukaihatsu-zeigaku)).
   - Paddle (5% + 50¢) would add 10% JCT, so it is worse here.
 - **No Japanese company at launch.**
-  - A 合同会社 costs about ¥75,000 in official fees (electronic articles; a KK about ¥196,000) ([創業手帳](https://sogyotecho.jp/company_fee/)). Done remotely by a full-service firm for a foreign owner, it costs about **¥1.18M** including bank-account help, and takes 4-5 weeks plus bank time ([Kaizen](https://kaizencpa.com/download/jp/Japan%20Goudou%20Kaisha%20Registration%20Procedures%20and%20Fees(JP).PDF)).
+  - A 合同会社 costs about ¥75,000 in official fees (electronic articles; a KK about ¥196,000) ([創業手帳](https://sogyotecho.jp/company_fee/)). Done remotely by a full-service firm for a foreign owner, it costs about **¥1.18M** including bank-account help, and takes 4-5 weeks plus bank time ([Kaizen](https://kaizencpa.com/download/jp/Japan%20Goudou%20Kaisha%20Registration%20Procedures%20and%20Fees%28JP%29.PDF)).
   - Running it costs about ¥0.7-0.8M a year: ¥70,000 local tax even at a loss, plus a tax accountant and an address.
   - Open one when Japanese sales near ¥10M, a partner needs it, or the Ministry of Justice presses foreign online sellers to register (it asked 48 foreign IT firms in 2022, [Bengo4](https://www.bengo4.com/c_23/n_14775/)).
 - **Legal watch-outs.**
@@ -340,7 +340,7 @@ In the base case none of these is likely before about month 24-30. The base mode
 | Notary certification of the articles (定款認証) | Not needed | ¥30,000-50,000 by capital (¥15,000 in some small cases) | same |
 | Stamp duty on paper articles | ¥40,000 (¥0 with electronic articles) | ¥40,000 (¥0 electronic) | same |
 | **Typical official total** | **about ¥75,000 (electronic) to ¥112,000 (paper)** | **about ¥196,000 (electronic) to ¥233,000 (paper)** | same |
-| Minimum capital | ¥1 | ¥1 | [Kaizen quote](https://kaizencpa.com/download/jp/Japan%20Goudou%20Kaisha%20Registration%20Procedures%20and%20Fees(JP).PDF) |
+| Minimum capital | ¥1 | ¥1 | [Kaizen quote](https://kaizencpa.com/download/jp/Japan%20Goudou%20Kaisha%20Registration%20Procedures%20and%20Fees%28JP%29.PDF) |
 
 A non-resident can be the sole member and representative. Since 2015 Japanese KK and GK can register with no representative living in Japan ([RSM Shiodome](https://shiodome.co.jp/js/blog/889)).
 
@@ -348,11 +348,11 @@ A non-resident can be the sole member and representative. Since 2015 Japanese KK
 - a Japanese registered address (a lease, or a virtual office that accepts company registration);
 - a Japanese personal bank account to receive the capital before the company exists, or a paid "capital-receiving agent";
 - a signature certificate from a notary in his home country, in place of a Japanese seal certificate;
-- all documents in Japanese ([Kaizen quote](https://kaizencpa.com/download/jp/Japan%20Goudou%20Kaisha%20Registration%20Procedures%20and%20Fees(JP).PDF)).
+- all documents in Japanese ([Kaizen quote](https://kaizencpa.com/download/jp/Japan%20Goudou%20Kaisha%20Registration%20Procedures%20and%20Fees%28JP%29.PDF)).
 
 A Japanese-speaking resident can do it for the official fees plus a cheap service (freee's 登記おまかせ plan is ¥50,000, against a market rate of about ¥100,000) ([freee](https://www.freee.co.jp/kb/kb-launch/kaisyasetsuritsu-costs/)). A foreign founder abroad realistically pays a full-service firm.
 
-**Remote, full service for a foreign owner** (one firm's 2026 price list, net of JCT) ([Kaizen quote](https://kaizencpa.com/download/jp/Japan%20Goudou%20Kaisha%20Registration%20Procedures%20and%20Fees(JP).PDF)):
+**Remote, full service for a foreign owner** (one firm's 2026 price list, net of JCT) ([Kaizen quote](https://kaizencpa.com/download/jp/Japan%20Goudou%20Kaisha%20Registration%20Procedures%20and%20Fees%28JP%29.PDF)):
 
 | Item | ¥ |
 |---|---|
@@ -668,4 +668,97 @@ Other countries were not checked.
 
 ## Sources
 
-(drafting)
+Primary sources are marked (P). Third-party sources are marked (3P); treat their figures as indicative.
+
+**Internal files (this deep dive)**
+- [B2 report](../reports/japan-b2.md); [01 law and requirements](01-law-and-requirements.md); [02 market and competition](02-market-and-competition.md); [03 product and tech](03-product-and-tech.md).
+
+**Exchange rates**
+- (P) Bank of Japan, daily FX, 2 Oct 2026: https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261002.pdf
+
+**Market, buyers and the selling calendar**
+- (P) Ministry of the Environment, 動物取扱業 statistics R7, registrations by category (2_1_1): https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_1_1.pdf
+- (P) Ministry of the Environment, inspections and sanctions R7 (2_1_3): https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_1_3.pdf
+- (P) Ministry of the Environment, council paper 資料2 (2023 national breeder sweep; 2024 birth-date checks): https://www.env.go.jp/council/content/i_10/000357242.pdf
+- (P) Ministry of the Environment, microchip registration fees: https://www.env.go.jp/nature/dobutsu/aigo/pickup/chip.html
+- (P) Tokyo Metropolitan Government, R8 responsible-person training notice: https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/2026-07-14-152055-700
+- (P) Aichi Prefecture, R8 responsible-person training: https://www.pref.aichi.jp/soshiki/doukan-c/doutorikennsyuukai.html
+- (P) Aichi Prefecture, registration fees: https://www.pref.aichi.jp/site/gyoute/75190.html
+- (P) Hiroshima Prefecture, R8 training: https://www.pref.hiroshima.lg.jp/site/apc/r8-sekininsya-kensyu.html
+- (P) Interpets Tokyo (Messe Frankfurt Japan): https://interpets.jp.messefrankfurt.com/
+- (P) Japan Fair Trade Commission, みんなのペットオンライン case, May 2018: https://www.jftc.go.jp/houdou/pressrelease/h30/may/180523.html
+- (P) みんなのブリーダー home page (breeder count): https://www.min-breeder.com/
+- (3P) Makuake, breeder project (puppy prices): https://www.makuake.com/project/breedersnavi/
+
+**Price anchors**
+- (P) freee pricing: https://www.freee.co.jp/pricing/
+- (3P) atsoho, freee vs Money Forward for sole traders: https://atsoho.com/apps/compare/freee-kaikei-vs-mf-cloud-kakuteishinkoku
+- (3P) hatenabase, kintone 2026 pricing guide: https://hatenabase.jp/?p=15816
+- (3P) NTT East column, kintone price: https://business.ntt-east.co.jp/column/service/ohs/kintone-price.html
+- (3P) Aurant, pet-shop POS and booking costs: https://aurant-technologies.com/?p=27904
+- (3P) 鮎澤パートナーズ, 動物取扱業 registration fees: https://ayusawa-partners.jp/column/pet-doubutsu-toriatsukai
+
+**Marketing tools and rules**
+- (P) LINE Yahoo, LINE official account notice, Feb 2026: https://www.lycbiz.com/jp/news/line-official-account/20260216/?o=IM0021
+- (3P) ligla, LINE official account costs: https://ligla.jp/blog/line-official/cost/
+- (P) Ministry of Internal Affairs, anti-spam email law pamphlet: https://www.soumu.go.jp/main_sosiki/joho_tsusin/d_syohi/pdf/m_mail_pamphlet.pdf
+- (3P) Infcurion survey of small businesses on invoice payment, via digitalpr: https://digitalpr.jp/r/116809
+
+**Payments**
+- (P) Stripe, supported card brands by account country: https://docs.stripe.com/payments/cards/supported-card-brands
+- (P) Stripe Ireland pricing: https://stripe.com/ie/pricing
+- (P) Stripe Japan pricing: https://stripe.com/jp/pricing
+- (P) Stripe support, konbini for Japan-based accounts: https://support.stripe.com/questions/enabling-konbini-payments-for-japan-based-stripe-accounts
+- (P) Stripe Managed Payments eligibility: https://docs.stripe.com/payments/managed-payments/eligibility
+- (P) Paddle, countries where Paddle charges tax: https://paddle.com/help/sell/tax/which-countries-does-paddle-charge-sales-tax-or-vat-for/
+- (P) Paddle pricing: https://www.paddle.com/pricing
+- (3P) Dodo Payments, Stripe Managed Payments fees: https://dodopayments.com/blogs/stripe-managed-payments-fees-explained
+- (3P) Dodo Payments, Lemon Squeezy vs Stripe: https://dodopayments.com/blogs/lemon-squeezy-vs-stripe/
+- (P) Airwallex, JPY global account: https://www.airwallex.com/au/features/global-accounts/JPY-account
+
+**Consumption tax (JCT) and withholding**
+- (P) National Tax Agency, pamphlet on cross-border electronic services (rev. Jun 2026): https://www.nta.go.jp/publication/pamph/pdf/0024003-087_01.pdf
+- (P) National Tax Agency, simplified taxation (Tax Answer 6505): https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm
+- (P) National Tax Agency, qualified-invoice registration procedure: https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/invoice_01.htm
+- (P) National Tax Agency, qualified-invoice Q&A: https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/pdf/qa/16.pdf
+- (P) Ministry of Finance, list of Japan's tax treaties: https://www.mof.go.jp/tax_policy/summary/international/tax_convention/tax_convetion_list_jp.html
+- (3P) Yamada & Partners, 2024 reform for foreign businesses: https://www.yamada-partners.jp/reform/r6/c01-review-of-the-application-of-special-provisions-of-the-business-tax-exemption-point-system-for-foreign-businesses
+- (3P) Zeiken, 2024 reform article: https://www.zeiken.co.jp/kokusaizeimu/article/202407/KZ2024070230101.php
+- (3P) Shin-Nippon Hoki, simplified taxation barred for foreign businesses without a PE: https://www.sn-hoki.co.jp/article/tamasters/tamaster3288922/
+- (3P) Koyano CPA newsletter, Dec 2024: https://koyano-cpa.gr.jp/wordpress/wp-content/uploads/2024/12/merumaga241212-1.pdf
+- (3P) 鮎澤パートナーズ, withholding on IT and SaaS fees (updated 5 Sep 2026): https://ayusawa-partners.jp/column/it-kenkyukaihatsu-zeigaku
+
+**Company setup**
+- (P) Ministry of Justice, foreign-company registration: https://www.moj.go.jp/MINJI/minji07_00275.html
+- (3P) RSM Shiodome, foreign-company registration penalties: https://shiodome.co.jp/js/blog/12027
+- (3P) RSM Shiodome, no resident representative needed since 2015: https://shiodome.co.jp/js/blog/889
+- (3P) Bengo4, 48 foreign IT firms asked to register (2022): https://www.bengo4.com/c_23/n_14775/
+- (3P) Arab News Japan, registrations by Aug 2022: https://www.arabnews.jp/en/business/article_78947
+- (3P) 創業手帳, company formation fees: https://sogyotecho.jp/company_fee/
+- (3P) all-senmonka, formation fees: https://www.all-senmonka.jp/moneyizm/4690/
+- (3P) freee, formation and running costs: https://www.freee.co.jp/kb/kb-launch/kaisyasetsuritsu-costs/
+- (3P) Kaizen CPA, GK formation price list for foreign owners (2026): https://kaizencpa.com/download/jp/Japan%20Goudou%20Kaisha%20Registration%20Procedures%20and%20Fees%28JP%29.PDF
+- (3P) meetsmore, tax accountant fees: https://meetsmore.com/services/tax-accountant/media/270
+- (3P) biz.ne.jp, tax accountant request example: https://www.biz.ne.jp/subject/toi_detail.html?tid=990214
+- (3P) solution-supporter, business manager visa change (Oct 2025): https://solution-supporter.jp/keiei-kanri-visa-500man-kaisei/
+- (3P) office-tree, business manager visa change: https://office-tree.jp/blog/immigration/keiei-kanri-visa-2025-kaisei/
+
+**Contracts, liability and data**
+- (P) e-Gov, Civil Code (standard terms, Arts. 548-2 to 548-4): https://laws.e-gov.go.jp/law/129AC0000000089
+- (P) e-Gov, Consumer Contract Act: https://laws.e-gov.go.jp/law/412AC0000000061
+- (P) e-Gov, Specified Commercial Transactions Act: https://laws.e-gov.go.jp/law/351AC0000000057
+- (P) e-Gov, Act on General Rules for Application of Laws: https://laws.e-gov.go.jp/law/418AC0000000078
+- (P) e-Gov, Act on the Protection of Personal Information: https://laws.e-gov.go.jp/law/415AC0000000057
+- (P) Personal Information Protection Commission FAQ on foreign transfers: https://www.ppc.go.jp/all_faq_index/faq1-q12-1
+- (3P) JIPDEC report on cross-border transfer (EU and UK equivalence): https://www.jipdec.or.jp/library/report/i5citv00000010va-att/20230905_s01.pdf
+- (P) Ministry of Internal Affairs, 行政書士 system and 2026 amendment: https://www.soumu.go.jp/main_sosiki/jichi_gyousei/gyouseishoshi/index.html
+- (3P) JEMCA notice on the 行政書士 Act amendment: https://www.jemca.or.jp/wp-content/uploads/2026/01/gyoiseisyoshihoukaisei.pdf
+- (3P) dsg.or.jp, electronic data entry as "preparing" documents: https://dsg.or.jp/column/other-visas/21254/
+- (3P) atsoho, terms-of-service drafting prices: https://atsoho.com/blog/terms-of-service-drafting-side-job
+- (3P) biz.ne.jp, terms drafting request example: https://www.biz.ne.jp/subject/toi_detail.html?tid=988054
+
+**Expansion and exit**
+- (3P) Kintsugi, Taiwan e-services VAT guide: https://trykintsugi.com/sales-tax-guides/apac/taiwan.md
+- (3P) PayPro Global, Taiwan SaaS tax: https://payproglobal.com/saas-sales-tax/taiwan/
+- (3P) BigIdeasDB, state of SaaS valuations 2026: https://bigideasdb.com/state-of-saas-valuations-2026
+

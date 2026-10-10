@@ -179,7 +179,82 @@ Stripe Japan also offers konbini at 3.6% (minimum ¥120), bank transfer at 1.5% 
 
 ## Company setup (needed or not, costs)
 
-(drafting)
+### Recommendation
+
+**Do not open a Japanese company at launch.** Sell from the founder's company abroad with Stripe, as above. Open a Japanese 合同会社 (GK, the Japanese LLC) only when one of these triggers fires:
+1. Japanese receipts approach ¥10 million a year. The foreign company would then need a Japanese tax agent anyway, and a new GK with capital under ¥10 million starts with two JCT-exempt years (my reading of the new-company rule; confirm with a 税理士).
+2. A channel partner (auction house, marketplace, chain) insists on a Japanese counterparty, 請求書払い (pay-by-invoice) or konbini.
+3. The Ministry of Justice starts pressing small foreign online sellers to register (next point).
+4. The founder hires a full-time employee in Japan.
+
+In the base case none of these is likely before about month 24-30. The base model therefore has no GK; a variant with a GK from month 22 is shown in the financial model. The high case opens one in month 13.
+
+### The one legal grey area: "continuous transactions in Japan"
+
+- **The rule.** A foreign company that "continuously transacts business in Japan" must appoint a representative in Japan and register as a foreign company. At least one representative must live in Japan. Until it registers it may not continue transacting (Company Act Arts. 817-818). Failing to register can bring a 過料 of up to ¥1 million (Art. 976), or a fine equal to the registration tax (Art. 979) ([Ministry of Justice](https://www.moj.go.jp/MINJI/minji07_00275.html); [RSM Shiodome](https://shiodome.co.jp/js/blog/12027)).
+- **It has been used against online services.** In March 2022 the Justice and Internal Affairs ministries asked 48 foreign IT companies (Google, Meta, Twitter and others) that serve Japanese users to register ([Bengo4](https://www.bengo4.com/c_23/n_14775/)). By August 2022, 28 had registered or applied ([Arab News Japan](https://www.arabnews.jp/en/business/article_78947)).
+- **What it means for a tiny SaaS.** No case against a small foreign SaaS was found (unverified that none exist). Market research and one-off sales are not "continuous", but a subscription business serving hundreds of Japanese customers arguably is. The risk is low but real. A GK removes it, and so would a foreign-company registration with a resident representative. The GK is the more useful of the two.
+- **Mitigation until then:** sell through a self-serve website, keep no office or staff in Japan, and keep the Japanese contractor on a service contract with the foreign company.
+
+### Real costs of a Japanese company
+
+**Official fees** (paid by anyone, in person or through an agent):
+
+| Item | 合同会社 (GK) | 株式会社 (KK) | Source |
+|---|---|---|---|
+| Registration licence tax (登録免許税) | 0.7% of capital, minimum ¥60,000 | 0.7% of capital, minimum ¥150,000 | [創業手帳](https://sogyotecho.jp/company_fee/); [all-senmonka](https://www.all-senmonka.jp/moneyizm/4690/) |
+| Notary certification of the articles (定款認証) | Not needed | ¥30,000-50,000 by capital (¥15,000 in some small cases) | same |
+| Stamp duty on paper articles | ¥40,000 (¥0 with electronic articles) | ¥40,000 (¥0 electronic) | same |
+| **Typical official total** | **about ¥75,000 (electronic) to ¥112,000 (paper)** | **about ¥196,000 (electronic) to ¥233,000 (paper)** | same |
+| Minimum capital | ¥1 | ¥1 | [Kaizen quote](https://kaizencpa.com/download/jp/Japan%20Goudou%20Kaisha%20Registration%20Procedures%20and%20Fees(JP).PDF) |
+
+A non-resident can be the sole member and representative. Since 2015 Japanese KK and GK can register with no representative living in Japan ([RSM Shiodome](https://shiodome.co.jp/js/blog/889)).
+
+**"In person" is not really cheaper for a foreigner.** Even in Japan the founder needs these things:
+- a Japanese registered address (a lease, or a virtual office that accepts company registration);
+- a Japanese personal bank account to receive the capital before the company exists, or a paid "capital-receiving agent";
+- a signature certificate from a notary in his home country, in place of a Japanese seal certificate;
+- all documents in Japanese ([Kaizen quote](https://kaizencpa.com/download/jp/Japan%20Goudou%20Kaisha%20Registration%20Procedures%20and%20Fees(JP).PDF)).
+
+A Japanese-speaking resident can do it for the official fees plus a cheap service (freee's 登記おまかせ plan is ¥50,000, against a market rate of about ¥100,000) ([freee](https://www.freee.co.jp/kb/kb-launch/kaisyasetsuritsu-costs/)). A foreign founder abroad realistically pays a full-service firm.
+
+**Remote, full service for a foreign owner** (one firm's 2026 price list, net of JCT) ([Kaizen quote](https://kaizencpa.com/download/jp/Japan%20Goudou%20Kaisha%20Registration%20Procedures%20and%20Fees(JP).PDF)):
+
+| Item | ¥ |
+|---|---|
+| GK formation service (name search, articles, seals, filing; one member, capital up to ¥8M, Tokyo) | 400,000 |
+| Government fees (budget) + sundries | 60,000 + 10,000 |
+| Capital-receiving agent (optional) | 88,000 |
+| **Formation subtotal** | **558,000** |
+| Tax registrations, including the Bank of Japan report on foreign direct investment (外為法) | 200,000 |
+| Corporate bank account support (40% refunded if the bank refuses) | 420,000 |
+| **Total** | **about ¥1,178,000 (about US$7,500)** |
+| Virtual office in Tokyo (Ueno) | ¥15,500 a month + ¥22,000 up front |
+| Time | about 4-5 weeks, plus bank account time |
+
+Warnings in the same quote:
+- Banks have tightened account opening and may refuse a company whose address is a virtual office.
+- The firm advises capital of ¥5 million or more to help the bank account succeed.
+
+Cheaper Japanese 司法書士 firms exist; prices for foreign-owned set-ups were not collected (unverified).
+
+**Ongoing costs of a GK (my estimate from the sources cited):**
+
+| Item | ¥ a year | Source |
+|---|---|---|
+| Per-capita local tax (法人住民税 均等割), due even with losses (Tokyo 23 wards, capital ≤ ¥10M, ≤ 50 staff) | 70,000 | [freee](https://www.freee.co.jp/kb/kb-launch/kaisyasetsuritsu-costs/) |
+| Tax accountant: about ¥25,000 a month plus about ¥100,000 for the year-end return | about 400,000 | [meetsmore](https://meetsmore.com/services/tax-accountant/media/270); [biz.ne.jp request](https://www.biz.ne.jp/subject/toi_detail.html?tid=990214) (English-speaking firms likely cost more, unverified) |
+| Virtual office | 186,000 | Kaizen quote above |
+| Bank, seals, certificates, sundries | about 50,000-100,000 | my estimate |
+| **Total** | **about ¥0.7-0.8 million (US$4,500-5,000)** | plus corporate tax on any profit |
+
+**Living in Japan to run it is a separate, much bigger step.** Since 16 Oct 2025 the 経営・管理 (business manager) visa needs ¥30 million of capital, at least one full-time employee who is Japanese or a permanent-type resident, and Japanese at about N2 level from the applicant or that employee ([solution-supporter](https://solution-supporter.jp/keiei-kanri-visa-500man-kaisei/); [office-tree](https://office-tree.jp/blog/immigration/keiei-kanri-visa-2025-kaisei/)). An online business does not need it.
+
+### What a Japanese company would change
+
+- **Payments:** Stripe Japan at 3.6% + 0.7% Billing with no currency conversion. Konbini, bank transfer and PayPay become available ([Stripe Japan pricing](https://stripe.com/jp/pricing)).
+- **Trust:** a 特商法 page and invoices with a Japanese company name, address and phone. Japanese partners can sign with a Japanese entity.
+- **Tax:** Japanese corporate tax on the GK's profit. Because the software is built and owned abroad, a fee between the founder's company and the GK needs a simple transfer-pricing basis (unverified; ask the 税理士).
 
 ## Contracts and liability
 

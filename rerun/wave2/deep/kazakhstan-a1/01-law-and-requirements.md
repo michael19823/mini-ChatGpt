@@ -1,42 +1,83 @@
 # Kazakhstan A1: law for kindergarten licensing and inspections, turned into product requirements
 
-Status: IN PROGRESS (started 2026-10-10). Sections below are filled as research proceeds.
+Status: draft 2 (10 Oct 2026). Resumed run. All sections drafted from primary texts; gaps marked "(pending)" or "(unverified)" and listed under Open questions.
+
+Primary texts were read on the old Adilet portal (old.adilet.zan.kz), the Ministry of Justice legal database. Article and paragraph numbers below are from the Russian versions there. "p." means a paragraph (пункт) of an order. "Row" means a numbered row of the qualification-requirements table.
+
+Abbreviations:
+- **MoE**: Ministry of Education (Министерство просвещения).
+- **CQA**: MoE Committee for Quality Assurance in Education and its regional departments (Комитет по обеспечению качества в сфере образования). It issues the licence and runs education control.
+- **CPCR**: MoE Committee for the Protection of Children's Rights (Комитет по охране прав детей).
+- **SEC**: Ministry of Health Committee for Sanitary-Epidemiological Control.
+- **NOBD**: National Education Database (Национальная образовательная база данных), the state data system every education organisation must keep current.
+- **MRP**: monthly calculation index, the unit for fees and fines. 4,325 tenge in 2026.
+- **SEN**: special educational needs.
+- **CoAO**: Code on Administrative Offences.
+- **WD**: working days.
+- **"Order 473"**: MoE Order No. 473 of 24 Nov 2022 on qualification requirements for education activity, as amended by **Order 268** of 27 Nov 2025 (adds item 8 for preschool) and **Order 128-НҚ** of 15 May 2026.
 
 ## Summary
-(pending)
+
+- **One law change makes preschool a licensed activity from 1 Jan 2027.** Law No. 148-VIII of 30 Dec 2024 adds "provision of preschool education and training" as sub-type 10 of the education licence. It is a non-transferable class 1 licence. The same law removes preschool from the notification list and extends Art. 57 of the Law on Education to sole traders. These parts take effect on 1 Jan 2027 ([Law 148-VIII](https://old.adilet.zan.kz/rus/docs/Z2400000148)).
+  - The licence has no time limit ([Law on Education Art. 57(3-1)](https://old.adilet.zan.kz/rus/docs/Z070000319_); [Law on Permits Art. 29(7)](https://old.adilet.zan.kz/rus/docs/Z1400000202)). So the licence itself is a one-off. Recurring work comes from inspections, re-issues and new buildings.
+  - The law text has no transitional clause for existing kindergartens. The old notification rule applies only until 1 Jan 2027 ([Law 148-VIII, Art. 2](https://old.adilet.zan.kz/rus/docs/Z2400000148)). The Ministry spoke of a schedule for existing kindergartens to 2030, but this is not in the law ([inbusiness.kz, Nov 2024](https://www.inbusiness.kz/ru/news/kakie-peremeny-gotovit-licenzirovanie-detsadov-roditelyam-i-biznesu)).
+- **Ten requirements decide the licence.** Order 268 adds rows 73-82 to the qualification requirements, in force 1 Jan 2027 ([Order 268](https://old.adilet.zan.kz/rus/docs/V2500037500)). They cover: curricula and plans; staff (at least 75% of teachers on main-job contracts, at least 20% with a teaching category); teaching materials; a medical room with a medical licence or contract (exempt up to 3 groups); a catering unit with a sanitary conclusion; premises owned or leased for at least 5 years, with sanitary and fire documents; equipment, an edu.kz web domain, lockers, beds and anti-terror equipment; 36 hours of training every 3 years; NOBD data; and conditions for SEN children. Rows 79 and 81 were rewritten from 12 Jul 2026 by Order 128-НҚ.
+- **The application is electronic and needs eight data forms.** Filing is on eGov or elicense.kz with the head's e-signature (ЭЦП). The applicant fills one-off forms 1-КК to 6-КК and 8-КК and attaches e-copies. The licensor checks completeness in 2 WD, then checks documents and visits the site within 22 WD. A decision is due within 30 WD. The fee is 10 MRP (43,250 tenge in 2026) ([public service rules, Order 248](https://old.adilet.zan.kz/rus/docs/V2500037314)).
+- **The licence is per region and per building.** It covers only the region of the legal address. An annex is issued for each building after a site check ([Law on Education Art. 57(4)](https://old.adilet.zan.kz/rus/docs/Z070000319_)). A move, a rename or a reorganisation triggers a re-issue.
+- **Inspections are frequent and already tougher.**
+  - Preschools are "high risk" in both MoE risk systems ([CQA criteria](https://old.adilet.zan.kz/rus/docs/V1500012777); [CPCR criteria](https://old.adilet.zan.kz/rus/docs/V2600038978)).
+  - Since 1 Feb 2026, organisations funded from the budget for children's care (this includes private kindergartens on the state order) can get unscheduled checks without notice ([Law on the Rights of the Child Art. 52-4](https://old.adilet.zan.kz/rus/docs/Z020000345_); [bizmedia, 2 Feb 2026](https://bizmedia.kz/2026-02-02-proveryat-vnezapno-detsady-i-shkoly-kazahstana-budet-komitet-sanepidkontrolya/)).
+  - Monthly "preventive control without visit" compares NOBD and other data. A recommendation must be acted on within 10 WD. Ignoring it triggers a visit ([Child Rights Law Art. 52(7)-(13)](https://old.adilet.zan.kz/rus/docs/Z020000345_)).
+  - Two official checklists exist: CQA has 29 items for preschools; CPCR has 9 items. They work as a ready-made product spec.
+- **Fines are real but moderate for small firms; suspension is the real threat.**
+  - Working without a licence from 2027: 25 MRP for a small business, plus confiscation of income (CoAO Art. 463).
+  - Breach of licensing norms: 45 MRP for a small business, with or without suspension of the licence (Art. 464). Repeat or false data: 100 MRP, with or without loss of the licence.
+  - Breach of education rules (model rules, standard): 15 MRP with suspension (Art. 409). Anti-terror breaches: 200 MRP for a small business (Art. 149). Sanitary: 160 MRP (Art. 425) ([CoAO](https://old.adilet.zan.kz/rus/docs/K1400000235)).
+  - A suspended licence means no state-order competition and no new admissions for up to 6 months ([Law on Education Art. 57(5)](https://old.adilet.zan.kz/rus/docs/Z070000319_)).
+- **Enforcement evidence.** In 2023 there were 7,497 inspections of preschools; 90.7% found violations; 4,027 officials were fined 1.12 billion tenge in total ([finratings.kz, Feb 2025](https://finratings.kz/news/533-v-kazakhstane-milliardnye-shtrafy-dushat-chastnye-detsady/)). The Health Ministry said 60% of kindergartens had sanitary violations in unannounced checks ([azattyq-ruhy](https://rus.azattyq-ruhy.kz/avtory/103634-u-70-shkol-i-60-detsadov-byli-sanitarno-epidemiologicheskie-narusheniia-minzdrav-o-proverkakh-bez-preduprezhdenii/amp)).
+- **Regional practice differs.** Owners and Atameken say one region accepts existing buildings while another demands a change of land or building use. They asked on 1 Oct 2026 for one joint explanation and a transition period. No answer was found ([informburo, 1 Oct 2026](https://informburo.kz/novosti/vladelcy-castnyx-detsadov-v-kazaxstane-poprosili-edinyx-pravil-licenzirovaniia)).
+- **Data must stay in Kazakhstan.** The Personal Data Law requires storage in a database located in Kazakhstan (Art. 12(2)) ([Law on Personal Data](https://old.adilet.zan.kz/rus/docs/Z1300000094)). A product holding children's and staff data must host its database in Kazakhstan. This matters for an owner selling from abroad.
+- **Product.** The requirements list below has (pending count) testable items. The core is: an applicability profile; a row-by-row readiness check for rows 73-82 with computed thresholds; generators for forms 1-КК to 8-КК; a staff register with category, training, medical-book and criminal-record expiry alerts; a group and enrolment check against group-size norms; the two official checklists as self-audits with evidence; a tracker for recommendations and orders with legal deadlines; anti-terror and fire journals; and Kazakhstan-hosted storage.
 
 ## Who is obliged
-(pending)
+
+(pending: being rewritten from notes; see working notes at the end)
 
 ## Duty-by-duty table
+
 (pending)
 
 ## Filing channels and formats
+
 (pending)
 
 ## Supervisors and enforcement evidence
+
 (pending)
 
 ## Regional differences
+
 (pending)
 
 ## Upcoming changes
+
 (pending)
 
 ## PRODUCT REQUIREMENTS
+
 (pending)
 
 ## Open questions
+
 (pending)
 
 ## Sources
+
 (pending)
 
 ## Working notes (raw, to be folded in)
 - Lead data: Order No. 268 of 27 Nov 2025 (reg. No. 37500) amends Order No. 473 of 24 Nov 2022 (qualification requirements); adds item 8, points 73-82; in force 1 Jan 2027; points 79, 81 revised from 12 Jul 2026 (from first check; unverified here).
 - Law of 30 Dec 2024 on state awards, education, child rights amends Law on Permits and Notifications (Annex 1, class 1 licence) and Art. 57 Law on Education.
-- Licence service rules: Order No. 483 of 30 Nov 2022 (unverified).
-- Inspection checklist: joint order V2600038978 (revised 12 Jun 2026) (unverified).
 - CONFIRMED from primary text (old.adilet.zan.kz/rus/docs/V2500037500): Order 268 of 27 Nov 2025, registered MoJ 28 Nov 2025 No. 37500; adds "item 8" to the qualification requirements (Order 473, reg. No. 30721) with rows 73-82; in force 1 Jan 2027 (para 4). Rows 79 and 81 and annexes 3, 5, 6 restated by Order No. 128-НҚ of 15 May 2026 (in force 12 Jul 2026). Approved by MoH, MoD, MCI, MES, MNE, MDDAI, MVD.
 - Row 73: working curricula per typical plans (Order 557 of 20 Dec 2012) and typical programme (Order 499 of 12 Aug 2016). Evidence: copies of long-term plans per age group, cyclograms, individual child development card, approved by the head.
 - Row 74: teachers with pedagogical higher/TVET education or retraining (no work-experience requirement); >=75% main-place-of-work teachers; >=20% teachers with categories moderator/expert/researcher/master (except preschools with fewer than two groups); head and teacher education/experience per Order 338 (13 Jul 2009, typical qualification characteristics). Evidence: Annex 1 staffing form. Staff teachers >=75% of all teachers.
@@ -70,3 +111,7 @@ Status: IN PROGRESS (started 2026-10-10). Sections below are filled as research 
 - finance.kz 17 Jul 2025 (updated 10 Oct 2026): Interdepartmental Commission on regulation of entrepreneurial activity (MNE, Zhumangarin) approved RIA; "experts" cite a three-year transition (no schedule). inbusiness (Nov 2024): Adamova (MoE) - 2027 only new preschools; schedule for existing to 2030 (not in law).
 - CONFIRMED Fire safety rules, MES Order 55 of 21 Feb 2022 (V2200026867, amended 1 Feb 2023 No.55, 15 Aug 2024 No.321): p.10 duty staff log of people remaining overnight (free form); p.12 evacuation plans per Annex 2 form; p.14 mass-presence objects: practical drills at least once per half-year, recorded in a drills journal (free form); p.200 fire-safety talks in preschools; p.207 preschool groups not above 3rd floor; p.208 furniture must not block evacuation; p.212 end-of-day inspection, appliances off; p.213 24-hour preschools: round-the-clock staff duty with phone.
 - Enforcement evidence via search summaries (unverified bodies of text): azattyq-ruhy - MoH: 70% schools and 60% kindergartens had sanitary violations in unannounced checks; informburo - sanitary violations in 95% of checks of schools, universities and kindergartens in Almaty; finance.kz - MoH checked only ~4% of schools (280) in 2024; kapital.kz/zakon.kz - 58 schools operated without licence in 2024, fined under CoAO Art 463 (>92,000 tenge). finratings.kz - 2023: 7,497 inspections, violations in 90.7%, 4,027 officials fined 1.12 bn tenge (scope unverified).
+- NEW (this run) CONFIRMED Personal Data Law (old.adilet.zan.kz/rus/docs/Z1300000094, last amended 14 Jul 2026 No. 350-VIII): Art 12(2) storage "в базе и (или) цифровом объекте, которые находятся на территории Республики Казахстан"; Art 8(1) consent in writing, via state service, non-state service or other way confirming consent; Art 7(1) consent of subject or legal representative; Art 16 cross-border transfer only to states that protect PD, exceptions incl. consent; Art 25(2) owner/operator must approve list of PD, approve policy documents, appoint responsible person (legal entities), notify authorised body of security breach (deadline wording ambiguous: "within one working day" heading - unverified).
+- NEW 24.kz 15 Dec 2025: unannounced checks from 1 Feb (2026) under amendments to Law on Rights of the Child; schools, kindergartens, camps funded from the budget; quotes CPCR official N. Ospanova.
+- NEW bizmedia 2 Feb 2026: SEC (MoH) special sanitary control of ~15,000 education orgs: state bodies and private businesses getting budget money for children's food, care, education; unannounced; monitoring visits only by order of top officials; media reports with materials = new ground; restrictions on inspecting canteens of small/micro business lifted; no fines at first visit in planned checks/monitoring.
+- NEW Order 486 of 5 Dec 2022 (MoE): criteria for assessing preschool... organisations, used for SELF-ASSESSMENT (Law on Education Art 5(62)); amended 30 Apr 2025 No. 98 (search summary; text not read).

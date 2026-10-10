@@ -14,6 +14,8 @@ Status: work in progress. Sections are filled in as research proceeds.
 
 | Segment | Count | Source | Year | Confidence |
 |---|---|---|---|---|
+| **Vehicle firms on SEPRELAD's active register (my count)** | **1,719**: 653 companies (RUC 80...), 1,066 individuals. Central 527, Alto Paraná 365, Asunción 320, Caaguazú 168, Itapúa 118, Guairá 87, Canindeyú 39, San Pedro 25, others 70 | my count of the Excel export of the [SIRO public lookup](https://www.seprelad.gov.py/siro/consultaExterna/consultaExternaSoAe.xhtml) ("Exportar a Excel", 9,795 obliged firms in all) | 10 Oct 2026 | high. The lookup says a listing does not prove compliance. |
+| Registered external AML auditors (channel) | 183 people (182 current), in 46 firms plus 93 individuals, so about 138 audit providers | my count of the same lookup, "Auditores externos" export | 10 Oct 2026 | high |
 | **Vehicle firms paying the yearly SIRO fee ("canon")** | **845** (782 in 2023, 838 in 2024, 658 so far in 2026) | SIRO statistics, topic "Aranceles", sector AUTOMOTORES | 2025 | high. This is the best count of firms that are registered and active in the system. |
 | Vehicle firms that filed operation reports (RO) | 453 | [SEPRELAD Memoria 2025](https://www.seprelad.gov.py/wp-content/uploads/2026/02/Memoria-Anual-de-Gestion-Ano-2025.pdf) | 2025 | high |
 | Vehicle firms that filed the annual form (Formulario Anual, due 31 May) | 331 (357 in 2024) | [Memoria 2025](https://www.seprelad.gov.py/wp-content/uploads/2026/02/Memoria-Anual-de-Gestion-Ano-2025.pdf); [Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf) | 2025 | high |
@@ -72,7 +74,10 @@ Source: [SIRO statistics](https://www.seprelad.gov.py/siro/estadisticaExterna/es
 
 ## Channels
 
-(in progress)
+(in progress; notes from run 2)
+- SEPRELAD free virtual training "Sector Automotores: llenado del Formulario Anual en SIRO", 7 Apr 2026, about 100 participants, recorded on YouTube ([SEPRELAD capacitaciones](https://www.seprelad.gov.py/?cat=35)).
+- Civemup (Cámara de Importadores de Vehículos y Maquinarias Usadas), launched Apr 2018, about 600 members, aims to group "more than 3,700 importers" ([IP Paraguay, 5 Apr 2018](https://www.ip.gov.py/ip/2018/04/05/presentan-camara-de-importadores-de-vehiculos-y-maquinarias-usadas-del-paraguay/)).
+- Res 188/2022 forced all vehicle SOs to re-register online in SIRO; old certificates void from 1 Sep 2022 ([portafoliocorporativo.com.py](https://www.portafoliocorporativo.com.py/legislaciones/seprelad-resolucion-n-188-6476), search snippet).
 
 ## Regional expansion
 

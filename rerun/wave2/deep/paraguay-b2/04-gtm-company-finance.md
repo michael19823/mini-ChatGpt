@@ -1,11 +1,48 @@
 # Paraguay SEPRELAD compliance pack: go-to-market, payments, company setup and financials (deep dive 04)
 
-Date: 10 October 2026. Builds on [the B2 report](../reports/paraguay-b2.md), [01-law-and-requirements.md](01-law-and-requirements.md) and [02-market-and-competition.md](02-market-and-competition.md). Status: in progress; sections still marked "(pending)" are not written yet.
+Date: 10 October 2026. Builds on [the B2 report](../reports/paraguay-b2.md), [01-law-and-requirements.md](01-law-and-requirements.md) and [02-market-and-competition.md](02-market-and-competition.md). Status: complete. Research budget used: about 27 web searches and 23 page fetches.
 
 **Money.** Prices are in guaraníes (Gs). The Central Bank's reference rate on Friday 9 October 2026 was **Gs 5,694 per US$** and Gs 6,375 per euro ([BCP daily reference rates](https://www.bcp.gov.py/webapps/web/cotizacion/monedas)). I use **Gs 5,700 = US$1**. Note: the B2 report and file 02 used about Gs 7,300 = US$1, worked back from fee totals. That rate is out of date: the guaraní has strengthened a lot since early 2025, when the dollar traded above Gs 8,000 ([ABC Color, Apr 2025](https://www.abc.com.py/economia/2025/04/03/cotizacion-del-dolar-sigue-escalando/), search snippet). So the SEPRELAD canon of about Gs 329,000 is about **US$58**, not US$45. "Net" means before Paraguayan VAT (IVA, 10%). "My estimate" marks a planning assumption, not a sourced fact.
 
 ## Summary
-(pending)
+
+- **Verdict: a small, real business that needs a second market to pay a founder.**
+  - **Base case:** about 260 paying firms and **US$71,000 ARR** (Gs 405m) by September 2029. Year-3 profit before founder pay is about US$14,000. Peak cash need is about **US$24,000**.
+  - **High case:** about 520 firms and US$169,000 ARR.
+  - **Low case:** about 90 firms; it never pays back.
+  - Build cost is low because the founder builds with AI agents. The limits are price level and market size.
+- **The exchange rate in earlier files is out of date.** The BCP reference rate was Gs 5,694 per US$ on 9 October 2026 ([BCP](https://www.bcp.gov.py/webapps/web/cotizacion/monedas)), not about Gs 7,300. Gs prices are worth about 28% more in dollars than files B2 and 02 assumed. A return to Gs 7,000 would erase most base-case profit.
+- **Price in guaraníes, low and simple** (net, by card, yearly gives two months free):
+  - **Al día** (deadlines and filings): Gs 490,000 a year (US$86).
+  - **Legajo listo** (audit-ready file, the main plan): **Gs 149,000 a month or Gs 1.49m a year** (US$261).
+  - **Grupo:** Gs 2.99m a year.
+  - **Estudio** (for auditors): Gs 290,000 a month plus Gs 99,000 per managed client.
+  - **Automotores** (car dealers): Gs 990,000 a year.
+  - Anchors: the SEPRELAD canon is about Gs 329,000 (US$58) a year, courses Gs 150,000-800,000, a regional list tool from US$10, and the minimum wage Gs 3,044,000 a month.
+- **The SIRO calendar is the sales calendar.** Peak season runs January to June: negative and operations reports in January, the internal-control report by 30 March, the Annual Form by 31 May, and the audit, canon and audit-exemption request by 30 June. Launch publicly by **11 December 2026** to catch the January filings.
+- **Channels, in order:**
+  1. the about 140 SEPRELAD-registered audit practices (Estudio plan, 20% referral fee, 30% reseller margin);
+  2. direct outreach from the public SEPRELAD register;
+  3. accountants and AML trainers;
+  4. ACIP;
+  5. deadline-timed content and ads;
+  6. car-dealer groups from month 7.
+  - Year-1 budget: US$10,000 marketing, US$3,600 travel, and a local part-time contractor at about US$700 a month.
+- **Payments: Stripe on the founder's foreign company, charging in PYG.** All-in cost is about 6% on a yearly plan ([Stripe currencies](https://docs.stripe.com/currencies); [Stripe IE pricing](https://stripe.com/ie/pricing)).
+  - Paddle sells to Paraguay only in US$ and does not collect Paraguayan tax ([Paddle countries](https://developer.paddle.com/concepts/sell/supported-countries-locales); [Paddle tax list](https://www.paddle.com/help/sell/tax/which-countries-does-paddle-charge-sales-tax-or-vat-for)), so it adds little.
+  - Cards are only about 23% of Paraguayan e-commerce payments ([dLocal](https://www.dlocal.com/payment-processors-in-latin-america/paraguay-payment-methods-processors-e-commerce-market-dlocal/)). Offer a local-reseller route for the rest.
+- **Buyer-side tax friction is real but small.** No Paraguayan tax registration was found for a foreign B2B seller.
+  - A general-regime company buyer self-accounts the 10% IVA, which it can credit.
+  - It must also withhold **4.5% INR** on digital services from abroad ([Decreto 6515/2021](https://impuestospy.com/impuestos/decreto-n-6-515-21/)). Accept 95.5% when buyers withhold.
+  - The consumer-sales registration regime (RG 109/2021) does not apply if we sell only to businesses.
+- **No local company in year 1.** An EAS is cheap to form: online through SUACE, near-zero official fees (unverified), no minimum capital, and US$1,500-4,000 with remote legal help ([Golden Harbors](https://goldenharbors.com/articles/start-business-in-paraguay), secondary). But the legal representative must hold a Paraguayan identity card ([DNIT RG 34/25](https://www.dnit.gov.py/web/portal-institucional/w/resoluci%C3%B3n-general-dnit-n.%C2%B0-34/25-anexo-1)). Running costs would be about US$4,000-7,000 a year (my estimate). Use a partner reseller for local invoices first.
+- **Contracts:** we are a tool, not advice and not the filer. Liability is capped at 12 months of fees. Records stay available for 5 years after cancellation. ROS drafts are walled off. A data-processing addendum should be ready for Ley 7593/2025, which takes effect around November 2027 ([Ferrere](https://ferrere.com/es/novedades/paraguay-adopta-su-ley-de-proteccion-de-datos-personales/)).
+- **Kill criteria:**
+  - Day 30 (11 Nov 2026): fewer than 10 of 20 interviewees would pay Gs 100,000+ a month, or fewer than 3 auditors will pilot.
+  - Day 90 (9 Jan 2027): fewer than 6 paying firms.
+  - 31 March 2027: fewer than 20 paying firms.
+  - Late 2027 to early 2028: first-year renewal below 55%.
+- **Expansion:** first Paraguayan car dealers (845 payers), then Ecuador from about mid-2028. Ecuador uses US dollars and has 4,446 real-estate and construction firms and 542 car dealers under the UAFE. Likely acquirers are Devsys or Pirani, at about 2-4x profit.
 
 ## Pricing and packaging
 
@@ -420,19 +457,147 @@ The October-December quarters lose money each year. They carry the security test
 - **The low case is a kill signal, and it shows early.** By month 6 (March 2027) the low case has about 19 firms against a base of about 46.
 
 ## Regional expansion
-(pending)
+
+The engine carries over: client and deal register, KYC thresholds, list checks with a log, deadline calendar, document templates and an auditor export. Each country needs its own legal mapping, report formats, list sources and templates (file 02).
+
+| Order | Country | Why | Size signal | What changes | Payments note | Timing |
+|---|---|---|---|---|---|---|
+| 1 | **Paraguay car dealers** | Same supervisor, near-identical rulebook (Res 196/2020) | 845 canon payers in 2025; 1,719 registered (file 02) | Lower single-payment threshold (15 minimum wages), trade-in rule, mobile KYC for walk-in buyers (file 01) | Same as real estate | Months 7-9 (Apr-Jun 2027) |
+| 2 | **Ecuador** | US-dollar economy; real fines; registration tied to the tax ID | 4,446 real-estate and construction firms and 542 car dealers supervised by the UAFE at end-2025 ([UAFE report 2025](https://www.uafe.gob.ec/wp-content/uploads/downloads/2026/rendicion_cuentas/Informe_de_RC_publicado_en_pag_web.pdf), via file 02). Since September 2025 obliged subjects must register with the UAFE within 30 working days or risk RUC suspension ([El Diario, Sep 2025](https://www.eldiario.ec/negocios/contribuyentes-en-ecuador-plazo-de-30-dias-para-cumplir-con-registro-en-la-unidad-de-analisis-financiero-y-economico-para-evitar-suspension-del-ruc-12092025/)) | A prevention system (SISLAFT) and reports in the UAFE's set format (Res UAFE-DG-2021-0362) ([Andersen Ecuador](https://ec.andersen.com/wp-content/uploads/2021/10/TIPS-025-2021-Resolución-UAFE.pdf)) | Ecuador charges 15% IVA on imported digital services. Card issuers withhold it when the foreign provider is not registered; providers may register voluntarily ([NMS Law](https://nmslaw.com.ec/blog/2020/09/13/sri-normas-declaracion-pago-servicios-digitales-noresidentes/); [Kintsugi guide](https://trykintsugi.com/sales-tax-guides/latam/ecuador), secondary). Prices in US$ suit Stripe and Paddle. | Prepare from month 15; launch about months 20-24 (mid-2028) |
+| 3 | **Peru** | Construction and real-estate firms are obliged subjects of the UIF-Perú | Count not found ([SBS list of obliged subjects](https://www.sbs.gob.pe/prevencion-de-lavado-activos/Sujetos-Obligados/Relacion-de-Sujetos-Obligados)) | New rulebook and filing formats | Not checked (unverified) | Year 3+, only if Ecuador works |
+| - | Uruguay | Crowded: HADA, Devsys and Precodata already sell to agencies (file 02) | - | - | - | Skip |
+| - | Bolivia | Only large-taxpayer real-estate firms are covered ([Ferrere, May 2023](https://www.ferrere.com/en/news/instructivo-para-apnfd-con-enfoque-basado-en-gestion-de-riesgos-contra-lgi-ft-y-fpadm/)) | Small | - | - | Skip |
+| - | Argentina | Large, price-sensitive, local vendors likely (file 02) | Not counted | - | - | Later, maybe never |
+
+What Ecuador would do to the numbers (my estimate): if it reaches the same penetration as the Paraguay base case, it adds roughly 1.5-2 times Paraguay's ARR within 2-3 years of launch, at a cost of about 4-6 weeks of agent-assisted build plus local legal review. Ecuadorian competitors were not checked (unverified).
 
 ## Exit and partnerships
-(pending)
+
+**Partnerships to start in year 1**
+- **Audit practices and trainers:** the main channel (Go-to-market).
+- **Compliance Paraguay** for PEP data, and **Criterion S.A.** (credit bureau) for identity data. Criterion co-hosted a SEPRELAD real-estate AML webinar in June 2026 ([SEPRELAD, 11 Jun 2026](https://www.seprelad.gov.py/?p=4038)); it is also a possible entrant.
+- **ACIP and its tech partners** (Place Analyzer, the planned MLS with Grupo ITTI): an integration that pulls deals into the register ([Infonegocios on ACIP and Place Analyzer](https://infonegocios.com.py/default/acip-y-place-analyzer-se-unen-para-digitalizar-el-mercado-inmobiliario-permitira-acceder-en-tiempo-real-a-la-oferta-del-sector)).
+
+**Likely buyers of the business**
+- **Devsys** (Uruguay, Cumplo360). It already serves a Paraguayan real-estate firm and says it has 350+ clients in 18 countries. It lacks the SEPRELAD filings layer ([Devsys clients](https://www.devsys.com.uy/clientes.html)).
+- **Pirani** (Colombia). It has a SEPRELAD guide page but no Paraguayan forms ([Pirani SEPRELAD page](https://www.piranirisk.com/es/hub-regulatorio/seprelad-prevencion-lavado-dinero-paraguay-siro)).
+- **Criterion S.A.**, a mid-size Paraguayan audit firm that wants a software arm, or a real-estate software vendor.
+
+**Valuation range**
+- Small SaaS businesses under about US$500,000 ARR usually sell on a multiple of owner profit (SDE). Guides give about 2-3x for under US$100,000 ARR and 2.5-4.5x for US$100,000-500,000 ([Livmo](https://livmo.com/blog/micro-saas-valuation/), broker source). One analysis of 651 listings puts the Acquire.com median at 3.9x profit for 2024-2025 ([BigIdeasDB](https://bigideasdb.com/state-of-saas-valuations-2026)).
+- **Base case at month 36:** about US$14,000 of profit before founder pay, so roughly US$40,000-60,000 on profit. A strategic buyer paying about 2x revenue would pay about US$140,000 (my estimate).
+- **High case:** about US$73,000 profit and US$170,000 ARR, so roughly US$250,000-400,000 (my estimate).
+- Realistic exits are an asset sale or licence to Devsys or Pirani, or keeping it as a cash-flow product after adding Ecuador.
 
 ## Risks and mitigations
-(pending)
+
+| Risk | Likelihood | Impact | Mitigation |
+|---|---|---|---|
+| **Low willingness to pay.** Fines are rare (1 in 2025), so firms accept a warning instead of paying | High | High | Sell time saved and "audit-ready", not fear. Lead with the auditor channel and the Al día plan at Gs 49,000. Test price in the first 20 interviews (Gate 1). |
+| **The guaraní weakens again.** It moved from above Gs 8,000 (Apr 2025) to Gs 5,694 (Oct 2026) per dollar ([ABC Color](https://www.abc.com.py/economia/2025/04/03/cotizacion-del-dolar-sigue-escalando/); [BCP](https://www.bcp.gov.py/webapps/web/cotizacion/monedas)) | Medium | Medium (Gs 7,000 cuts year-3 profit from US$14,100 to US$2,500 in the base case) | Keep costs low and mostly variable. Review Gs prices every January. Consider US$ pricing for the Grupo and Estudio plans. |
+| **SEPRELAD adds free reminders or record-keeping to SIRO.** It added a data-update form (Oct 2026), bulk upload (2025) and a supervision module (2024) (file 02) | Medium | High | Focus on what SIRO is unlikely to hold: the KYC file, screening log, documents, alert register and audit evidence. Integrate with SIRO formats rather than compete. |
+| **Audit exemption (Res 328/2026) shrinks the auditor channel** | Medium | Medium | Sell the exemption-request workflow; keep a direct, self-serve route. |
+| **Card-only checkout loses buyers.** Cards are about 23% of Paraguayan e-commerce payments ([dLocal](https://www.dlocal.com/payment-processors-in-latin-america/paraguay-payment-methods-processors-e-commerce-market-dlocal/)) | Medium | Medium | Reseller route with local invoice and transfer; dLocal or a local EAS later. |
+| **Tax friction:** buyers withhold 4.5% INR or ask for a local invoice | High | Low | Accept 95.5%; publish an accountant's guide; offer the reseller route. |
+| **Template liability:** a client is sanctioned after using a template | Low | Medium | Lawyer-reviewed templates with dates; "tool, not advice" terms; 12-month fee cap; E&O insurance. |
+| **Data breach of ID documents or ROS drafts** | Low | High | Security test before launch and yearly; encryption; access logs; role limits; data-processing addendum ready for Ley 7593/2025. |
+| **A regional vendor localises** (Devsys, Pirani) | Medium | Medium | Move first on Paraguay-specific filings; lock in auditors; be the obvious acquisition. |
+| **Rule change:** a new real-estate rulebook or GAFILAT-driven update (file 01) | Medium | Medium | Rule-watch retainer with a local lawyer; agents rebuild templates in days; turn updates into a renewal reason. |
+| **Founder distance:** selling to owner-run firms from abroad | High | Medium | Local contractor from month 3; two trips a year; WhatsApp-first support. |
+| **Small ceiling:** about 2,300 paying firms | Certain | High | Car dealers in year 1; Ecuador in year 2; keep costs low. |
 
 ## Milestones and kill criteria
-(pending)
+
+| Date | Milestone | Kill or pivot if |
+|---|---|---|
+| **Wed 11 Nov 2026 (day 30)** | Gate 1: 20 interviews done; MVP working | Fewer than 10 of 20 would pay Gs 100,000+ a month, **or** fewer than 3 auditors agree to pilot, **or** fewer than 5 letters of intent. Pivot: sell only to auditors as a working-papers tool, or stop. |
+| **Fri 11 Dec 2026 (day 60)** | Gate 2: public launch; at least 8 paying pilots; security test passed; templates signed off | Fewer than 5 paying pilots |
+| **Sat 9 Jan 2027 (day 90)** | Gate 3: at least 10 paying firms and 2 active partner practices | Fewer than 6 paying firms or no active practice |
+| **31 Mar 2027 (month 6)** | 40+ paying firms after the CI deadline (base case is about 46) | Fewer than 20 (the low case). Stop spending; keep as a side product. |
+| **30 Jun 2027 (month 9)** | 85+ firms after the audit deadline; 4+ practices | Fewer than 40 firms |
+| **Sep 2027 (month 12)** | 110 firms, ARR about US$25,000; car-dealer plan live; Ecuador decision | Fewer than 60 firms |
+| **Dec 2027-Mar 2028** | First renewals: at least 65% of first-year firms renew | First-year renewal below 55% |
+| **Jul 2028 (month 22)** | Trailing 12-month break-even before founder pay; Ecuador build starts | Still loss-making and no Ecuador plan: sell or license the product |
+| **Sep 2029 (month 36)** | About 260 firms, about US$71,000 ARR (base); Ecuador live | ARR below US$40,000 across all markets |
 
 ## Open questions
-(pending)
+
+- What do registered auditors charge a small real-estate firm for the yearly report? This sets the ceiling for the Estudio plan and the add-on price. (Ask 5 practices in week 2.)
+- Will auditors resell at 30% off, or only refer at 20%?
+- Do Paraguayan debit cards and small-company credit cards work with a foreign Stripe account in PYG? Run a test with 5 pilot firms.
+- **Tax adviser questions:** (1) How exactly does an IRE-general buyer account for IVA on a foreign SaaS paid by card? (2) Are IRE SIMPLE and RESIMPLE buyers INR withholding agents? (3) Can a sole trader with a RUC be treated as a "final consumer" under RG 109/2021? (4) Is the buyer's expense deductible if the INR was not withheld? (5) Would a Spanish company's fees escape INR under the Spain treaty?
+- What are the official SUACE fees for an EAS, and what does a resident legal representative cost?
+- Is the PEP data from Compliance Paraguay licensable for software use, and at what price?
+- Does SEPRELAD accept RO Excel files generated by third-party software without objection?
+- Ecuador: which local vendors already serve small agencies, and at what price?
 
 ## Sources
-(pending)
+
+**Official (Paraguay)**
+- BCP, daily reference exchange rates (9 Oct 2026: Gs 5,694.47 per US$, Gs 6,374.96 per euro): https://www.bcp.gov.py/webapps/web/cotizacion/monedas
+- DNIT, RG 34/25 Annex 1 (RUC requirements for EAS, S.A., S.R.L.; Paraguayan cédula for the representative), Aug 2025: https://www.dnit.gov.py/web/portal-institucional/w/resoluci%C3%B3n-general-dnit-n.%C2%B0-34/25-anexo-1
+- DNIT, criterion on IVA withholding on payments to foreign providers: https://www.dnit.gov.py/web/portal-institucional/w/retencion-a-proveedores-del-exterior-
+- DNIT, more than 50,000 e-invoicers (Sep 2026): https://www.dnit.gov.py/web/e-kuatia/w/paraguay-supera-los-50.000-facturadores-electr%C3%B3nicos-y-avanza-en-la-digitalizaci%C3%B3n-tributaria
+- DNIT, Spain tax treaty: https://www.dnit.gov.py/web/portal-institucional/w/paraguay-y-espana-refuerzan-la-cooperacion-economica-con-un-evento-sobre-el-convenio-para-evitar-la-doble-imposicion
+- DNIT, new Chile tax treaty: https://www.dnit.gov.py/web/portal-institucional/w/nuevo-convenio-fortalece-la-cooperaci%C3%B3n-tributaria-entre-paraguay-y-chile
+- Decreto 6515/2021 (INR on digital services: 30% deemed income, 15% rate; IRE-general buyers withhold), text at impuestospy: https://impuestospy.com/impuestos/decreto-n-6-515-21/
+- Decreto 6225/2026 (minimum wage Gs 3,044,000), text at impuestospy: https://impuestospy.com/impuestos/decreto-n-6225-2026/
+- SEPRELAD statistics portal: https://www.seprelad.gov.py/siro/estadisticaExterna/estadistica.xhtml
+- SEPRELAD register and auditor lookup: https://www.seprelad.gov.py/siro/consultaExterna/consultaExternaSoAe.xhtml
+- SEPRELAD Res 201/2020: https://www.seprelad.gov.py/resoluciones/resoluciones/res-n201-2020-reglamentacion-para-inmobiliarias.pdf
+- SEPRELAD Res 328/2026 (audit exemption or deferral): https://www.seprelad.gov.py/resoluciones/resoluciones/Res.%20328.26_Excepci%C3%B3n%20de%20auditor%C3%ADa%20externa.pdf
+- SEPRELAD Circular 2/2025: https://www.seprelad.gov.py/resoluciones/resoluciones/CIRCULAR%202-2025.pdf
+- SEPRELAD notices: SIRO data update (2 Oct 2026) https://www.seprelad.gov.py/?p=4412 ; Annual Form webinar (8 Apr 2026) https://www.seprelad.gov.py/?p=3859 ; webinar with Criterion (11 Jun 2026) https://www.seprelad.gov.py/?p=4038
+- SEPRELAD real-estate risk guide (2021): https://www.seprelad.gov.py/userfiles/files/Guia_de_Riesgos_LA_FT_Sector_Inmobiliario.pdf
+
+**Tax and legal commentary**
+- Ferrere, withholding on digital services (Apr 2021): https://ferrere.com/es/novedades/newsletter-retenciones-de-impuestos-por-servicios-digitales-en-paraguay/
+- abogados.com.ar on RG 109/21 (B2C INR regime for non-resident digital providers): https://abogados.com.ar/paraguay-reglamenta-la-forma-de-pago-del-impuesto-a-la-renta-de-no-residentes-por-servicios-digitales-en-operaciones-b2c/29776
+- EY Paraguay tax alert (Apr 2022): https://ey.com/content/dam/ey-unified-site/ey-com/es-py/technical/tax/documents/tax-alert-abril-2022.pdf
+- dplnews on banks and card processors as collection agents: https://dplnews.com/paraguay-servicios-digitales-agentes-de-retencion-son-los-bancos-y-operadoras-de-tarjetas-de-credito/
+- PayPro Global Paraguay tax guide: https://payproglobal.com/es/impuesto-de-ventas-saas/paraguay/
+- Ferrere on Ley 7593/2025 (data protection): https://ferrere.com/es/novedades/paraguay-adopta-su-ley-de-proteccion-de-datos-personales/
+- La Nación on Ley 7593/2025 (Nov 2025): https://www.lanacion.com.py/politica/2025/11/28/nueva-ley-de-datos-personales-refuerza-la-privacidad-sin-recortar-la-transparencia-publica/
+- Ferrere on Res 201/2020 (EN): https://ferrere.com/en/news/new-regulations-for-the-prevention-of-asset-laundering-and-financing-of-terrorism-for-companies-and-individuals-involved-in-the/
+- Ferrere on Res 196/2020 (car dealers): https://ferrere.com/es/novedades/nuevo-reglamento-de-prevencion-de-lavado-de-activos-y-financiamiento-del-terrorismo-para-personas-fisicas-o-juridicas-involucrad/
+
+**Company setup and residency (secondary)**
+- Golden Harbors, starting a business in Paraguay (Sep 2026): https://goldenharbors.com/articles/start-business-in-paraguay
+- Infonegocios, residencies in Paraguay: https://infonegocios.com.py/infolegal/residencias-en-paraguay
+- LibertyMundo, residency guide (2026): https://www.libertymundo.com/residency-in-paraguay-2/
+- Cazvid, accountant pay: https://cazvid.com/es/blog/cuanto-gana-un-contador-en-paraguay ; assistant pay: https://cazvid.com/es/blog/cuanto-gana-un-auxiliar-contable-en-paraguay
+
+**Payments**
+- Stripe currencies (PYG supported, zero-decimal, no Amex): https://docs.stripe.com/currencies
+- Stripe pricing, Ireland: https://stripe.com/ie/pricing ; US: https://stripe.com/us/pricing
+- Stripe Managed Payments: https://stripe.com/en-mt/managed-payments ; Freemius on it: https://freemius.com/blog/stripe-merchant-of-record/ ; Dodo Payments on its fees: https://dodopayments.com/blogs/stripe-managed-payments-fees-explained
+- Paddle supported countries (page data, read 10 Oct 2026): https://developer.paddle.com/concepts/sell/supported-countries-locales
+- Paddle countries where it charges tax: https://www.paddle.com/help/sell/tax/which-countries-does-paddle-charge-sales-tax-or-vat-for
+- Paddle pricing: https://www.paddle.com/pricing
+- dLocal Paraguay market page: https://www.dlocal.com/payment-processors-in-latin-america/paraguay-payment-methods-processors-e-commerce-market-dlocal/ ; docs: https://docs.dlocal.com/docs/paraguay
+- Wise on Itaú Paraguay transfer fees: https://wise.com/py/blog/transferencia-internacional-itau-paraguay
+- Infonegocios on Bancard debit cards online: https://infonegocios.com.py/infotecnologia/realizar-compras-online-con-tarjetas-de-debito-ya-es-posible
+- ABC Color on the dollar above Gs 8,000 (Apr 2025; search snippet): https://www.abc.com.py/economia/2025/04/03/cotizacion-del-dolar-sigue-escalando/
+
+**Market, channels and events**
+- Gestión Contable SEPRELAD course: https://gestioncontableparaguay.com/courses/curso-seprelad-6-hs-de-estudio/
+- Best Practices AML workshop: https://bestpractices.com.py/curso-taller-administracion-de-riesgos-ldft/
+- Perspectivas on the canon deadline: https://perspectivas.com.py/noticias/bancos-financieras-inmobiliarias-y-casas-de-cambio-tienen-plazo-hasta-el-30-de-junio-para-pagar-su-cuota-al-sistema-antilavado
+- Cáceres & Schneider SEPRELAD report: https://consultoria.com.py/caceres-schneider-informe-de-cumplimiento-seprelad-plazos-para-entrega/
+- HADA: https://hada.com.uy/ ; Pirani AML plans: https://www.piranirisk.com/es/planes-y-precios/aml ; Pirani SEPRELAD page: https://www.piranirisk.com/es/hub-regulatorio/seprelad-prevencion-lavado-dinero-paraguay-siro ; Devsys clients: https://www.devsys.com.uy/clientes.html
+- La Nación on Compliance Paraguay (Aug 2024): https://www.lanacion.com.py/negocios/2024/08/13/consultora-presenta-herramienta-que-identifica-a-personas-expuestas-politicamente/ ; theKYB Paraguay: https://thekyb.com/our-data/paraguay/
+- Infonegocios on ACIP (Aug 2025): https://infonegocios.com.py/default/mercado-inmobiliario-en-transformacion-acip-impulsa-ley-de-corretaje-y-modernizacion-digital-en-el-sector ; on ACIP and Place Analyzer: https://infonegocios.com.py/default/acip-y-place-analyzer-se-unen-para-digitalizar-el-mercado-inmobiliario-permitira-acceder-en-tiempo-real-a-la-oferta-del-sector
+- Última Hora on car dealers (Nov 2019): https://www.ultimahora.com/seprelad-el-50-playa-autos-eluden-el-control-antilavado-n2852685 ; on the Colegio de Contadores (Jul 2026): https://www.ultimahora.com/contadores-conmemoraron-110-anos-y-anunciaron-triple-evento-de-capacitacion
+- Infonegocios, Expo Internacional de Inversiones Inmobiliarias 2026 (Ciudad del Este, 22-23 Oct): https://infonegocios.com.py/default/comienza-la-cuenta-regresiva-para-la-expo-internacional-de-inversiones-inmobiliarias-paraguay-2026 ; Expo Real Estate Paraguay: https://infonegocios.com.py/plus/expo-real-estate-paraguay-se-viene-el-epicentro-donde-se-redefine-el-futuro-del-mercado-inmobiliario
+
+**Regional and exit**
+- UAFE Ecuador accountability report 2025: https://www.uafe.gob.ec/wp-content/uploads/downloads/2026/rendicion_cuentas/Informe_de_RC_publicado_en_pag_web.pdf
+- El Diario on UAFE registration and RUC suspension (Sep 2025): https://www.eldiario.ec/negocios/contribuyentes-en-ecuador-plazo-de-30-dias-para-cumplir-con-registro-en-la-unidad-de-analisis-financiero-y-economico-para-evitar-suspension-del-ruc-12092025/
+- Andersen Ecuador on Res UAFE-DG-2021-0362: https://ec.andersen.com/wp-content/uploads/2021/10/TIPS-025-2021-Resolución-UAFE.pdf
+- NMS Law on Ecuador IVA on digital services: https://nmslaw.com.ec/blog/2020/09/13/sri-normas-declaracion-pago-servicios-digitales-noresidentes/ ; Kintsugi Ecuador VAT guide: https://trykintsugi.com/sales-tax-guides/latam/ecuador
+- SBS Peru list of obliged subjects: https://www.sbs.gob.pe/prevencion-de-lavado-activos/Sujetos-Obligados/Relacion-de-Sujetos-Obligados
+- Ferrere on Bolivia's DNFBP rules (May 2023): https://www.ferrere.com/en/news/instructivo-para-apnfd-con-enfoque-basado-en-gestion-de-riesgos-contra-lgi-ft-y-fpadm/
+- Livmo on micro-SaaS valuation: https://livmo.com/blog/micro-saas-valuation/ ; BigIdeasDB, State of Small SaaS Valuations 2026: https://bigideasdb.com/state-of-saas-valuations-2026
+
+**Sibling files used:** [01-law-and-requirements.md](01-law-and-requirements.md) (duties, deadlines, thresholds), [02-market-and-competition.md](02-market-and-competition.md) (buyer counts, competitors, channels), [the B2 report](../reports/paraguay-b2.md).
+

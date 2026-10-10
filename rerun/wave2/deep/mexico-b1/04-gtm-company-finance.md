@@ -139,9 +139,9 @@ The model uses these seasonal factors for new sales: Dec 0.5, Jan 0.9, Feb 1.1, 
    - Who works it: the founder (remote) plus a Mexican customer-success and sales contractor from January 2027.
 2. **Gestorías, payroll accountants and REPSE consultants.**
    - Offer: the Despacho plan, plus a 20% referral fee on the first year of any firm they bring.
-   - Why they matter: they hold the client relationship and the data. CONTPAQi's own channel shares commissions with distributors even on direct sales ([ITSitio](https://www.itsitio.com/eventos/contpaqi-con-nuevo-programa-comercial-y-distribucion-directa/)), so Mexican accountants expect a referral fee.
+   - Why they matter: they hold the client relationship and the data. CONTPAQi still shares commissions with its distributors even on direct sales ([ITSitio](https://www.itsitio.com/eventos/contpaqi-con-nuevo-programa-comercial-y-distribucion-directa/)). Accountants in this channel are used to earning on software they bring in (reasoned).
 3. **Associations.**
-   - AMESP has 250-290 member firms and campaigns for a single national register ([Zeta Tijuana, Aug 2026](https://zetatijuana.com/2026/08/advierten-aumento-de-empresas-irregulares-de-seguridad-privada-piden-padron-unico/); [AMESP at ANTAD 2025](https://simposioseguridad.antad.net/simposio2025/presentaciones/7-Los-paradigmas-de-la-seguridad-privada-en-Mexico.pdf)). It also runs 18 competency standards and 30 evaluation centres ([search result, El Universal](https://www.eluniversal.com.mx/articulo/metropoli/cdmx/2017/01/7/buscan-homologacion-en-seguridad-privada/), older; unverified current).
+   - AMESP has 250-290 member firms and campaigns for a single national register ([Zeta Tijuana, Aug 2026](https://zetatijuana.com/2026/08/advierten-aumento-de-empresas-irregulares-de-seguridad-privada-piden-padron-unico/); [AMESP at ANTAD 2025](https://simposioseguridad.antad.net/simposio2025/presentaciones/7-Los-paradigmas-de-la-seguridad-privada-en-Mexico.pdf)). A search snippet says it runs 18 competency standards and 30 evaluation centres (source page not identified; unverified). Those centres would be a training-data partner.
    - ASUME groups about 31 associations ([Excélsior](https://www.excelsior.com.mx/nacional/personas-detras-empresa-segura), via 02).
    - Offer each association a member discount (15%) and a free webinar: "Cómo pasar una visita de verificación de la DGSP".
 4. **Search content and small paid search.**
@@ -269,7 +269,7 @@ KPIs to track every month:
   - It lists the "Software" merchant category as prohibited.
   - Source: [Stripe OXXO docs](https://docs.stripe.com/payments/oxxo).
 - **Stripe's SPEI bank transfers are only for Mexican Stripe accounts** ([Stripe MX bank transfers](https://docs.stripe.com/payments/mx-bank-transfers)).
-- **US company:** Stripe US is similar but adds cross-border and conversion fees (US pricing not checked in this pass; the Bosnia study found 2.9% + 30c + 1.5% + 1%; unverified for 2026).
+- **US company:** Stripe US also adds fees for international cards and currency conversion (US rates not checked in this pass; unverified).
 - **UK company:** Stripe UK is similar.
 - **Israeli company:** use an EU, UK or US entity for Stripe (unverified whether Stripe onboards Israeli entities directly).
 
@@ -312,7 +312,7 @@ Local Stripe is not much cheaper per transaction. The gains from a Mexican compa
 5. the buyer's name;
 6. a description, quantity, unit price and total.
 
-Source: [Siempre al Día, 17 Jun 2026](https://siemprealdia.co/mexico/fiscal/requisitos-de-la-factura-de-proveedor-extranjero-para-el-sat/). Stripe must collect the buyer's RFC and legal name at checkout and print them on the invoice. The usual LISR art. 27 rules also apply: the payment must be strictly necessary, actually paid, and any due withholding made ([Veritas](https://www.veritas.org.mx/Impuestos/Internacional/requisitos-para-la-deduccion-de-pagos-a-residentes-en-el-extranjero)).
+Source: [Siempre al Día, 17 Jun 2026](https://siemprealdia.co/mexico/fiscal/requisitos-de-la-factura-de-proveedor-extranjero-para-el-sat/). Stripe must collect the buyer's RFC and legal name at checkout and print them on the invoice. Stripe supports a Mexican RFC tax-ID type ("mx_rfc") and prints customer tax IDs in the invoice header ([Stripe tax IDs](https://docs.stripe.com/billing/customer/tax-ids)). Stripe does not check the RFC against the SAT, so check it ourselves (same source). The usual LISR art. 27 rules also apply: the payment must be strictly necessary, actually paid, and any due withholding made ([Veritas](https://www.veritas.org.mx/Impuestos/Internacional/requisitos-para-la-deduccion-de-pagos-a-residentes-en-el-extranjero)).
 
 **2. IVA: who charges it?**
 - **Mexico taxes only a closed list of "digital services" from abroad** ([LIVA art. 18-B](https://mley.mx/LIVA/articulo/18-B/)):
@@ -325,7 +325,7 @@ Source: [Siempre al Día, 17 Jun 2026](https://siemprealdia.co/mexico/fiscal/req
   - The buyer has an "import of services": a service from a non-resident used in Mexico ([LIVA art. 24-V](https://mley.mx/LIVA/articulo/24/)).
   - The buyer self-assesses 16% IVA and credits it, so it is usually cash-neutral. Guard firms charge IVA on their own services, so they can credit it (reasoned; the exact filing mechanics are unverified).
   - Our invoice shows no Mexican IVA.
-- **If the SaaS is inside art. 18-B,** the foreign seller must:
+- **If the SaaS is inside art. 18-B,** B2B sales are covered too, because the provision does not separate B2B from B2C ([BPM](https://www.bpm.com/insights/mexico-vat-on-digital-services-provided-by-non-residents/)). The foreign seller must:
   - register with the SAT, with no threshold;
   - appoint a legal representative and give a Mexican address;
   - charge 16% IVA;
@@ -357,7 +357,7 @@ Source: [Siempre al Día, 17 Jun 2026](https://siemprealdia.co/mexico/fiscal/req
 1. **Phase 1 (Nov 2026 to the trigger):** use the Stripe account of the EU company.
    - Prices in MXN, "+ IVA" in marketing.
    - Cards for monthly plans. Stripe Invoicing for yearly plans (card or international transfer).
-   - Invoice fields: buyer RFC, legal name and address; our foreign tax ID; description "Suscripción estándar al software [name], periodo ...".
+   - Invoice fields: buyer RFC (Stripe "mx_rfc" type), legal name and address; our foreign tax ID; description "Suscripción estándar al software [name], periodo ...".
    - A residence certificate download page.
    - Retry and dunning in Spanish.
 2. **Before the first charge:** get the written Mexican tax opinion on art. 18-B and on withholding (MXN 25,000).
@@ -673,6 +673,7 @@ Tax, payments and company
 - [ITAM paper on digital-services IVA](https://contaduria.itam.mx/sites/contaduria.itam.mx/files/contaduriaitammx/noticias/aadjuntos/2023/08/publicacion_andrea_brito.pdf)
 - [SDV: criterio 7/IVA/NV summary](https://sdv.com.mx/compendio/criterios-no-vinculativos-sat/criterio-7-iva-nv/)
 - [Fonoa: Mexico tax on digital services](https://www.fonoa.com/resources/country-tax-guides/mexico/tax-on-digital-services)
+- [BPM: Mexico VAT on digital services by non-residents](https://www.bpm.com/insights/mexico-vat-on-digital-services-provided-by-non-residents/)
 - [IDC: Pago de regalías por software, ¿con retención? (4 Oct 2021)](https://idconline.mx/fiscal-contable/2021/10/04/pago-de-regalias-por-software-con-retencion)
 - [International Tax Review: Mexico grapples with tech sector taxes (2019)](https://www.internationaltaxreview.com/article/b1h0xl84fv9srr/mexico-grapples-with-tech-sector-taxes)
 - [Siempre al Día: requisitos de la factura de proveedor extranjero 2026](https://siemprealdia.co/mexico/fiscal/requisitos-de-la-factura-de-proveedor-extranjero-para-el-sat/)
@@ -681,6 +682,7 @@ Tax, payments and company
 - [Stripe Mexico pricing](https://stripe.com/mx/pricing)
 - [Stripe OXXO docs](https://docs.stripe.com/payments/oxxo)
 - [Stripe Mexico bank transfers docs](https://docs.stripe.com/payments/mx-bank-transfers)
+- [Stripe customer tax IDs](https://docs.stripe.com/billing/customer/tax-ids)
 - [Paddle pricing](https://www.paddle.com/pricing)
 - [Paddle supported countries](https://developer.paddle.com/concepts/sell/supported-countries-locales)
 - [Fungies: Lemon Squeezy and Stripe 2026](https://fungies.io/lemon-squeezy-stripe-acquisition-saas-founders-2026/)
@@ -727,7 +729,6 @@ Market, pricing and channels
 - [INEGI CNSPF-E 2026 results](https://www.inegi.org.mx/contenidos/programas/cnspe/2026/doc/cnspe_2026_resultados.pdf)
 - [Zeta Tijuana: AMESP, Aug 2026](https://zetatijuana.com/2026/08/advierten-aumento-de-empresas-irregulares-de-seguridad-privada-piden-padron-unico/)
 - [AMESP at ANTAD Simposio 2025](https://simposioseguridad.antad.net/simposio2025/presentaciones/7-Los-paradigmas-de-la-seguridad-privada-en-Mexico.pdf)
-- [El Universal: AMESP standards (older)](https://www.eluniversal.com.mx/articulo/metropoli/cdmx/2017/01/7/buscan-homologacion-en-seguridad-privada/)
 - [Excélsior: personas detrás de la empresa segura](https://www.excelsior.com.mx/nacional/personas-detras-empresa-segura)
 - [Mobile Time: WhatsApp Business and Mexican SMEs (Feb 2025)](https://mobiletime.la/noticias/28/02/2025/whatsapp-business-pymes-mexico/?rd=1)
 - [ITSitio: CONTPAQi partner programme](https://www.itsitio.com/eventos/contpaqi-con-nuevo-programa-comercial-y-distribucion-directa/)

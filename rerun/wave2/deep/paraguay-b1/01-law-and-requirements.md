@@ -85,3 +85,18 @@ Source: [Ley 1015/1997 actualizada](https://www.seprelad.gov.py/transparencia/tr
 - Art. 28(9) SEPRELAD regulates, supervises and sanctions SOs without natural supervisor; 28(10) fees.
 - Art. 35 list of administrative faults (a)-(m): no written policies; no risk system; CDD failures; not keeping records; inadequate operation register; no compliance officer; obstructing inspection; late/no ROS; tipping-off; not cooperating; not doing external audit; any other breach.
 - Art. 36 5-year limitation. Art. 37 appeals: reconsideration 10 business days; contencioso 18 business days. Art. 38 fines enforceable; where no natural supervisor all fine goes to SEPRELAD.
+
+### Circular UIF-SEPRELAD/SE N° 02/2025 (14 Nov 2025) - via Vouga summary (text of circular not seen)
+Source: [Vouga Abogados, 14 Jan 2026](https://www.vouga.com.py/en/la-seprelad-recuerda-plazos-y-obligaciones-de-reporte-a-los-sujetos-obligados/). Addressed to all SOs incl. "importers and dealers of motor vehicles". Deadlines via SIRO: Annual Form 31 May; RO: remittance monthly 20-30, OTHER SOs QUARTERLY 11th-20th; Negative report quarterly; internal control ("internal audit") report 30 March; external audit report 30 June; OC report per sector rule; ROS per sector rule. Fees: registration Res 07/2018 + 235/2020; SIRO annual fee Res 48/2025 (FY2025); auditor registry Res 29/2023 (5 minimum wages). The Circular "clarifies that external management or advisory services are authorized" incl. manuals, codes of ethics, self-assessments and risk matrices, internal and external audit reports, verification mechanisms and watchlist screening and monitoring, and preparing and submitting reports to SEPRELAD.
+- Real estate RO quarterly windows (Res 03/2025): Jan 11-20 (Q4), Apr 11-20 (Q1), Jul 11-20 (Q2), Oct 11-20 (Q3) ([Vouga](https://www.vouga.com.py/en/la-seprelad-implementa-el-modulo-siro-para-la-remision-del-ro/)). Same windows likely for vehicles per Circular 02/2025 (unverified for vehicles specifically).
+
+### Res 435/2026 (20 Aug 2026): annual SIRO data confirmation
+Source: [Vouga, 6 Oct 2026](https://www.vouga.com.py/en/seprelad-implementa-una-nueva-funcionalidad-para-la-actualizacion-y-confirmacion-de-datos/). SOs must update or confirm general and contact data of the SO and its authorised users in SIRO every year even if nothing changed; changes within 5 business days; sworn-statement status; failure -> restricted SIRO access + other consequences.
+
+### Other SEPRELAD notices
+- [Interim OC reminder](https://www.seprelad.gov.py/?p=3700): interim OC needed for holidays, illness, travel, resignation, removal; same conditions as titular except manager rank; notify within sector deadline (Res 196 Art. 10: 48 h).
+- [SIRO training 12 Oct 2026](https://www.seprelad.gov.py/?p=4442) (CECAD Module IV "Uso del SIRO").
+- [SIRO mandatory data update for financial sectors from 15 June](https://www.seprelad.gov.py/?p=4042) (not vehicles).
+
+### PEP: Res SEPRELAD 50/2019 (5 Sep 2019)
+Sources: [Base Legal Res 50/2019](https://baselegal.com.py/docs/098f44a2-dcbc-11e9-8e7a-525400c761ca) (search snippet); [Lexia Cumplimiento summary, Jan 2025](https://lexiacumplimiento.com.py/2025/01/20/resolucion-no-50-2019-reglamento-para-la-identificacion-y-control-de-personas-expuestas-politicamente-pep/). Art. 1 definition incl. relatives to 2nd degree consanguinity/affinity and entities where PEP holds >=10%; Art. 2 foreign; Art. 3 international orgs; Art. 4: 26 domestic positions; Art. 6 sworn PEP declaration at onboarding after informing client; Art. 7 senior management approval, source of wealth and funds, intensified monitoring; PEP status assessed for 2 years after leaving office. Lexia = local PEP/sanctions screening software vendor (competitor note).

@@ -42,7 +42,19 @@ Status: work in progress. Sections are filled in as research proceeds.
 
 ## Willingness to pay
 
-(in progress)
+**What vehicle firms already pay SEPRELAD (my calculation from the SIRO statistics, topic "Aranceles", sector AUTOMOTORES):**
+
+| Item | Total collected | Payers | Per firm | Year |
+|---|---|---|---|---|
+| Yearly SIRO fee ("canon") | Gs 282,280,980 | 845 | about **Gs 334,000** (about USD 42) | 2025 |
+| Yearly SIRO fee | Gs 277,937,425 | 838 | about Gs 332,000 | 2024 |
+| Yearly SIRO fee | Gs 271,241,522 | 782 | about Gs 347,000 | 2023 |
+| Yearly SIRO fee (to Oct) | Gs 220,313,600 | 658 | about Gs 335,000 | 2026 |
+| One-off registration fee ("arancel de inscripción") | Gs 74,465,993 | 231 | about **Gs 322,000** (about USD 41) | 2025 |
+
+Source: [SIRO statistics](https://www.seprelad.gov.py/siro/estadisticaExterna/estadistica.xhtml), queried 10 Oct 2026. USD at about Gs 7,900 (unverified rate). The fee is set each year by a SEPRELAD resolution (Res 30 of 25 Jan 2024 for 2024) ([Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf)).
+
+(further items in progress)
 
 ## Competitor table and discussion
 

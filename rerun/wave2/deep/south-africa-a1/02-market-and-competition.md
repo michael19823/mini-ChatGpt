@@ -45,7 +45,20 @@ Reading.
 - **Jewellers are the most inspected group per head.** In two years the FIC ran 151 inspections on a niche of about 600-660 registrations. That is roughly one inspection for every four registrations (my arithmetic). Most were in Gauteng (54 of 90 in 2024/25; 43 of 61 in 2025/26) and the Western Cape.
 - **About 70% of item 20 registrants have never sent the FIC an RMCP** (1,670 of 5,581 have). Directive 12 now makes the RMCP a yearly upload due 31 October for item 20 ([Moonstone](https://www.moonstone.co.za/?p=61635)). That is roughly 3,900 dealers who still need a first RMCP upload, plus about 1,670 who need a yearly update (my arithmetic).
 
-(more segments pending: SADPMR permits, jewellery trade bodies, unregistered dealers)
+### Other registers and trade counts (context and the unregistered pool)
+
+| Segment | Count | Source | Year | Confidence |
+|---|---|---|---|---|
+| SADPMR jeweller's permits issued (new and renewals) | 258 (2020/21); 141 (2019/20); 131 (2021/22) | [SADPMR AR 2020/21, p. 35, Table 2](https://www.sadpmr.co.za/wp-content/uploads/2023/05/SADPMR-Annual-Report-2020-2021.pdf); [SADPMR AR 2021/22](https://www.sadpmr.co.za/wp-content/uploads/2023/05/SADPMR_AR-2022_web-1.pdf) | 2019-2022 | high for flows; the stock of valid permits is not published |
+| SADPMR diamond dealer licences issued | 117 (2019/20); 109 (2020/21); 122 (2021/22) | same | 2019-2022 | high for flows |
+| SADPMR precious-metal refining licences issued | 14 (2019/20); 17 (2020/21) | [SADPMR AR 2020/21, Table 2](https://www.sadpmr.co.za/wp-content/uploads/2023/05/SADPMR-Annual-Report-2020-2021.pdf) | 2019-2021 | high |
+| SADPMR inspections of existing jeweller's permit holders | 89 (2020/21); 216 (2021/22); 402 (2019/20) | same reports | 2019-2022 | high. Suggests at least a few hundred active jeweller's permits (my inference). |
+| Jewellery Association members (JCSA retail arm) | about 1,000 retailers and 140 wholesalers and importers | [LBMA](https://www.lbma.org.uk/publications/spotlight-on-the-south-african-market/chapter-5-jewellery-and-retail-investment) | undated (about 2022) | medium |
+
+Reading.
+- SADPMR says jewellery manufacturing is "the main activity relating to precious metals, in terms of the number of participants" ([SADPMR AR 2020/21, p. 36](https://www.sadpmr.co.za/wp-content/uploads/2023/05/SADPMR-Annual-Report-2020-2021.pdf)). Its permit flows (130-260 a year) fit a stock of several hundred permit holders, the same order as the FIC's 422 metal and stone registrations (my inference; the permit term is unverified).
+- About 1,000 jewellery retailers belong to the association. Only about 660 jewellery, gold and stone businesses are FIC-registered. So a few hundred jewellers may sell R100k+ items without being registered, or do not sell at that level (unverified which).
+- Draft PCC 126 would require one registration per SADPMR permit ([Moonstone](https://www.moonstone.co.za/?p=61913)). If finalised, the 422 metal and stone registrations should rise towards the number of active permits and diamond licences (my inference).
 
 ## Buyer profile and pain
 
@@ -53,11 +66,23 @@ Reading.
 
 ## Willingness to pay
 
-(pending)
+(draft, being filled in)
+
+### What non-compliance costs (FIC 2025/26, my reading of the report)
+- The FIC issued 361 "admission of non-compliance" notices in 2025/26: 209 for not filing the RCR and 152 for not registering. 149 were settled with a R10,000 fine each (R1.49m in total). The other 212 went to the FIC Adjudication Panel ([FIC AR 2025/26, p. 43](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026.pdf)).
+- 19 full sanctions on non-financial businesses totalled R635,000. Total FIC fines for the year: R2,125,000 (same page).
+- Most named fines were on estate agents and attorneys: R10,000 to R50,000 for a missed RCR, R10,000 to R175,000 for RMCP failures ([FIC AR 2025/26, pp. 44-46](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026.pdf)).
+- **One high-value goods dealer appealed a sanction in 2025/26.** Charges: RMCP failures (s42(1) and (2)), no sanctions screening (s28A(3)), weak compliance governance (s42A) and registration gaps (s43B). Penalties: R100,000 for the RMCP, R100,000 for screening and R10,000 for registration; R105,000 payable, R105,000 suspended ([FIC AR 2025/26, p. 47, Table 11](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026.pdf)). The dealer is not named because the appeal is pending.
 
 ## Competitor table and discussion
 
-(pending)
+(draft, being filled in)
+
+Raw findings so far:
+- **AML GO** (Centurion; majority owned by UPAY since June 2024 per [CB Insights](https://www.cbinsights.com/company/aml-go)). Screening: R7.00 per real-time PEP, sanctions and adverse-media check for the first 500 credits, falling to R1.00 at volume; batch from R1.75 down to R0.25. "Custom RMCP starting from R7,000"; "RMCP review starting from R2,500"; 25 free credits on sign-up ([amlgo.co.za](https://amlgo.co.za/)). No sector templates, no goAML filing, no deadline calendar shown.
+- **VerifyNow**. Pay per check, no subscription: SA ID check R2.99; AML/PEP basic R5.98; premium sanctions, PEP and adverse media R59.80; ongoing AML monitoring licence from R1,999 a year excl. VAT; FICA training R747.50 per learner (five-hour course) ([VerifyNow pricing](https://www.verifynow.co.za/pricing)). A free "RMCP generator" gives "a practical starting document"; its business-type list has motor dealers but not jewellers ([VerifyNow RMCP generator](https://www.verifynow.co.za/fica-toolkit/rmcp-generator)). It says it does not file statutory reports for you ([VerifyNow FICA compliance](https://www.verifynow.co.za/services/fica-compliance)).
+- **ClearComply**. R99 a month or R990 a year for a general SME compliance tracker (CIPC, SARS, UIF and others) with deadline alerts; Beneficial Ownership Co-Pilot R399 once-off; it quotes broker and accountant fees of R450 to R1,890 per filing; "over 1,100 South African companies self-checked" ([ClearComply pricing](https://www.clearcomply.co.za/pricing)). No RMCP, goAML or CDD register.
+- **Template warning from the motor trade.** NADA told members on 11 March 2025: "The FIC has noted that they will not accept standard templates which are being offered in the marketplace", and "The RMCP must be personalised for each business's operating model" ([NADA](https://nada.co.za/?p=5097)). A product must therefore produce a tailored RMCP from the dealer's own answers, not a fill-in template.
 
 ## Channels
 

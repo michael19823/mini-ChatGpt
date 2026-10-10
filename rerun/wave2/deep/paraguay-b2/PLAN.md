@@ -478,3 +478,161 @@ Python wins over a JavaScript stack on Word and Excel tooling, the Django admin 
 - **Cash spent before Gate 1 (6 Nov):** about US$1,000 (Claude Code, accounts, a short paid lawyer outline review) (my estimate).
 - **Year 1 after launch:** hosting about US$1,000-2,500; Claude Code US$2,400; lawyer retainer US$1,200-3,600; yearly security retest US$3,000-8,000; payment fees about 6% of revenue ([03]).
 - Not included here: founder time, company costs (§9) and marketing (§8).
+
+---
+
+## 8. Go-to-market
+
+### Pricing (reconciled)
+
+The files proposed three price sets:
+- the B2 re-assessment: about US$30 a month (US$360 a year) and US$100-150 a month for auditors ([B2][b2]);
+- file 02: Gs 75,000 a month basic, Gs 180,000-250,000 a month full, US$100-150 a month for practices ([02]);
+- file 04: the Gs list below ([04]).
+
+**I use file 04's list.** It is in guaraníes, which Stripe can charge ([Stripe currencies][stripecur]) and buyers can compare with the canon. It sits inside file 02's range at the low end, which suits owner-run, price-sensitive firms and Pirani's free tier. **But test a higher main price in interviews** (Gs 149,000 against Gs 199,000 a month). File 04's model shows a 25% higher price adds about US$14,000 of year-3 profit ([04]).
+
+All prices are net of Paraguayan VAT (IVA), billed by card; a yearly prepayment gets two months free ([04]).
+
+| Plan | Who | Includes | Monthly | Yearly | About US$ a year |
+|---|---|---|---|---|---|
+| **Al día** (basic) | Small or inactive firms that want to stay off the warning list | Calendar for every SIRO duty with reminders; RO Excel file from a simple deal list; FA worksheet; receipt vault. 1 RUC, 1 user. Yearly only, because card fees eat small monthly charges ([03]) | — | Gs 490,000 | 86 |
+| **Legajo listo** (main plan) | Agencies, brokers and developers that buy an audit or got a warning | Al día plus the client and deal register with thresholds, the client phone link, list checks with a log, the risk wizard, manual, code and CO documents, training log, alert register, the CI report generator (from Feb 2027), the audit export and the 5-year archive. 3 users | Gs 149,000 | Gs 1,490,000 | 261 |
+| **Grupo** | Developers and groups | Legajo listo for up to 3 RUCs, 10 users, bulk import, priority support | — | Gs 2,990,000 | 525 |
+| **Estudio** (practice) | Registered auditors, accountants, outsourced COs | Multi-client dashboard; free read-only access to subscribing clients; audit-sample tool; 3 managed clients included; more at Gs 99,000 a month each | Gs 290,000 base | Gs 2,900,000 base | 509 base |
+| **Automotores** (from about April 2027) | Car dealers (Res 196/2020) | Legajo listo with the 15-minimum-wage single-payment threshold, the trade-in rule and a mobile KYC link | Gs 99,000 | Gs 990,000 | 174 |
+
+**Anchors** ([04]): canon about Gs 329,000 (US$58) a year; courses Gs 150,000-800,000; list search from US$10; minimum wage Gs 3,044,000 a month ([Decreto 6225/2026][d6225]). Legajo listo is about 4.5 times the canon and a few days of a bookkeeping assistant's pay a year ([Cazvid][cazvid]).
+
+**Add-ons, delivered by partners who keep 70%:** assisted setup Gs 900,000; pre-audit review Gs 1,500,000; PEP data beyond fair use at cost plus margin (my estimates in [04]).
+
+**Launch offers:** 50% off year 1 for the first 15 firms; founding customers keep their price for two years; ACIP members get 15% off ([04]).
+
+**Price-page wording (Spanish), from [04]:** "Precios en guaraníes, sin IVA. Si su empresa es contribuyente del IRE general, puede corresponderle retener IVA e INR al pagar a un proveedor del exterior. Si necesita factura electrónica local, compre a través de un socio."
+
+### Channels, in priority order ([04])
+
+1. **Registered external auditors** (about 140 practices). Every compliant firm must buy their yearly report, and messy files cost them time. Offer the Estudio plan, a referral fee of 20% of year 1 and 10% of renewals, or a reseller margin of 30%. Start with 5-8 mid-size practices with many real-estate clients, such as Cáceres & Schneider, which already markets the SEPRELAD report ([Cáceres & Schneider][cs]).
+2. **Direct outreach from the public SEPRELAD register** (2,233 real-estate and 1,719 car-dealer rows with name, RUC, sector and department ([lookup][lookup])). Contact companies first (RUCs starting "80"), by WhatsApp and e-mail, with a free "SEPRELAD traffic-light" self-check. Get legal advice before using the 474 individuals on the list ([04]).
+3. **Accountants and trainers.** "Course plus 3 months of the tool" bundles with Gestión Contable or Best Practices; the Colegio de Contadores runs training events ([Gestión Contable][gc]; [Best Practices][bp]; [Última Hora][contadores]).
+4. **ACIP** (about 90 agencies, 1,000+ agents). An endorsement, a member discount and a shared code of ethics, which Res 201/2020 lets associations adopt ([Infonegocios][acip25]; [Ferrere][ferr201en]).
+5. **Deadline content and ads:** a free calendar file, a threshold calculator at the current minimum wage, an RO file checker, short Spanish videos. Ads only in the four weeks before each big deadline.
+6. **Car-dealer groups from month 7:** CIVU, Civemup, CADAM ([Última Hora][uh19]; [Ferrere on Res 196][ferr196]).
+7. **Events:** Expo Internacional de Inversiones Inmobiliarias, Ciudad del Este, 22-23 Oct 2026 ([Infonegocios][expocde]); Expo Real Estate Paraguay in June ([Infonegocios][expore]); Agent Day on 12 August.
+
+**Not a channel: SEPRELAD.** Its staff may not recommend advisers ([Circular 2/2025][c2]).
+
+**Sales motion** ([04]): a 14-day free trial with no card; a 20-minute WhatsApp onboarding call by a local part-time contractor (about Gs 4m, or US$700, a month from month 3, invoicing as a contractor); then a yearly card payment. Auditor-led sales go through a partner link. The cycle is 1-3 weeks for an owner-run firm and 1-2 months for a practice (my estimate in [04]).
+
+### Selling calendar ([04]; dates from [Circular 2/2025][c2], [Res 326/2022][r326], [Res 003/2025][r003])
+
+| Period | What firms face | Our action |
+|---|---|---|
+| Oct 2026 | Forced SIRO data update from 5 Oct; RO window 11-20 Oct | Free data-update guide; RO spike; interviews |
+| Nov-Dec 2026 | Quiet; holidays 8 and 25 Dec | Pilots; launch 11 Dec "listo para enero" |
+| January | RN days 1-10; RO days 11-20 | Support; first conversions; webinar with an auditor |
+| Feb-Mar | **CI due 30 March** | Auditor partner drive before fieldwork; CI generator; ads at peak |
+| Apr-May | RO in April; **FA due 31 May**; SEPRELAD FA webinars | FA worksheet campaign; car-dealer beta |
+| June | **AE, canon and exemption request due 30 June** | Audit-pack and exemption campaign; Expo Real Estate |
+| Jul-Sep | RO in July; Agent Day 12 Aug | Launch Automotores; ACIP offer; case studies |
+| Sep-Dec | RO in October; yearly data confirmation; renewals | Renewal campaign; 2-yearly risk review hook |
+
+New-sales weights by month in the model: Jan 1.3, Feb 0.9, Mar 1.4, Apr 1.1, May 1.4, Jun 1.3, Jul 0.9, Aug 0.7, Sep 0.7, Oct 1.0, Nov 0.8, Dec 0.5 ([04]).
+
+### Marketing budget, year 1 (Oct 2026 - Sep 2027; my estimates in [04])
+
+| Line | US$ |
+|---|---|
+| Google search ads (deadline keywords) | 1,800 |
+| Meta ads (Asunción, Central, Alto Paraná) | 2,400 |
+| LinkedIn (auditors, accountants) | 600 |
+| Events and sponsorships | 2,500 |
+| Webinars and co-marketing with trainers | 1,000 |
+| Video and design (AI-assisted) | 800 |
+| WhatsApp Business and e-mail tools | 400 |
+| Printed one-pagers | 300 |
+| Contingency | 200 |
+| **Marketing total** | **10,000** |
+| Travel (two trips) | 3,600 |
+| Local contractor (10 months × US$700) | 7,000 |
+| Partner commissions | about 8% of new bookings |
+
+Years 2 and 3: about US$9,000 each for marketing ([04]).
+
+### First 90 days (day 1 = Mon 12 Oct 2026)
+
+| Dates | Product | Market and sales | Company, legal, payments |
+|---|---|---|---|
+| 12-18 Oct | Spec pack; accounts; **RO spike in the live window** | Book 20 interviews (12 agencies or developers, 2 dealers, 6 auditors) from the register and auditor exports; landing page with a free 2027 SEPRELAD calendar | Stripe on the founder's company with PYG prices; brief 2-3 AML lawyers; send the tax adviser 5 questions |
+| 19-25 Oct | Foundation | Remote interviews; ask auditors their fees; optional Ciudad del Este expo (22-23 Oct) | Lawyer outline review (small fixed fee) |
+| 26 Oct - 6 Nov | Seven agent streams; **MVP Fri 6 Nov** | Founding offer; collect letters of intent | Draft terms and DPA |
+| **Fri 6 Nov: Gate 1** | | ≥10 of 20 would pay Gs 100,000+ a month; ≥3 auditors will pilot; ≥5 letters of intent | Then commit the lawyer's full fee and book the security test |
+| 9-27 Nov | Launch scope; security test 23-27 Nov | **Two-week trip to Asunción (9-22 Nov):** onboard 10-15 pilots through 2-3 auditors; hire the contractor; meet ACIP and a trainer | Lawyer reviews templates |
+| 30 Nov - 11 Dec | Security fixes and retest; Stripe Billing live; help pages | 5 short videos; "RN y RO en enero" guide; partner agreements | Final terms, DPA, DPIA |
+| **Fri 11 Dec: Gate 2, public launch** | | ≥8 paying pilots | |
+| 12 Dec - 3 Jan | Support only | Campaign to register companies in Asunción and Central: "RN due 10 January, RO 11-20 January"; auditor webinar; small Meta test | Bookkeeping of the foreign company |
+| 4-9 Jan 2027 | Help pilots with the RN | Measure use and renewal intent | |
+| **Sat 9 Jan 2027: Gate 3** | | ≥10 paying firms and 2 active partner practices | Decide the CI-season spend |
+
+---
+
+## 9. Payments, company and legal
+
+### Payments: Stripe on the founder's company abroad, priced in guaraníes ([04])
+
+- **Stripe charges in PYG** (zero-decimal; American Express not supported in PYG) ([Stripe currencies][stripecur]).
+- **All-in cost about 6% on a yearly plan.** Stripe Ireland: 3.15% + €0.25 for a non-domestic card, +2% currency conversion, +0.7% Stripe Billing. About US$15.6 on a Gs 1.49m charge; about 6.9% on a Gs 149,000 monthly charge. A US company is about the same ([Stripe IE][stripeie]; [Stripe US][stripeus]; my calculation in [04]).
+- **Why not Paddle, although the owner prefers a merchant of record.**
+  - Paddle sells to Paraguay but only in US dollars, with tax mode "external" ([Paddle countries][paddlec]).
+  - Paraguay is not on Paddle's list of countries where it charges VAT ([Paddle tax list][paddlet]).
+  - Its fee is about the same: 5% + US$0.50 ([Paddle pricing][paddlep]).
+  - So a merchant of record buys nothing here. The sales are business-to-business, and Paraguayan buyers account for the tax themselves (below). File 03 designed billing on Paddle; **I switch it to Stripe Billing.** Paddle remains a fallback if the founder's company already uses it, with US$ prices.
+- **Cards are a minority of online payments in Paraguay.** dLocal gives credit cards 16% and debit cards 7%, against cash 28% and bank transfer 19% (undated) ([dLocal][dlocal]). Most small companies have a credit card (my estimate in [04]). For the rest:
+  - **Local reseller route:** a partner audit or accounting firm buys seats at 30% off, invoices in Gs with 10% IVA on a local e-invoice, collects locally and wires us monthly or quarterly ([04]).
+  - **Wires direct** only above about US$500, because Itaú Paraguay charges US$33 plus a US$22 SWIFT fee to send ([Wise][wise]).
+  - **Later:** dLocal (Bancard QR, wallets, cash networks) ([dLocal][dlocal]).
+- **Test in the pilot:** whether small-company and debit cards work with a foreign Stripe account in PYG ([04]).
+
+### Buyer-side tax ([04])
+
+| Buyer | IVA 10% | Non-resident income tax (INR) | What we do |
+|---|---|---|---|
+| Company under the general IRE regime (most S.A. and EAS agencies) | Self-accounts the IVA and credits it, so it nets to zero ([DNIT criterion][dnitcrit]; [EY][ey]) | Must withhold 15% on a deemed 30% = **4.5%** of the net price on digital services from abroad ([Decreto 6515/2021, art. 7 and 9][d6515]) | Accept 95.5% when a buyer withholds; publish a one-page guide for their accountant |
+| Small company or sole trader (IRE SIMPLE, RESIMPLE) | Unclear (unverified) | The decree names only general-regime buyers as withholding agents ([Decreto 6515/2021][d6515]) | Probably no withholding (unverified) |
+| Final consumer | Banks collect IVA on listed foreign digital services ([Ferrere][ferrdig]) | Foreign B2C sellers must register under RG 109/2021 ([abogados.com.ar][rg109]) | Not our market. Terms say "business customers only"; collect each buyer's RUC |
+
+- **No Paraguayan tax registration was found for a foreign B2B software seller** ([rg109]; [04]). Grey zone: about 21% of real-estate rows are individuals; if a sole trader counted as a final consumer, RG 109/2021 could apply (unverified).
+- **Tax treaties** exist with Chile, Uruguay, Spain, Taiwan, Qatar and the UAE. A Spanish company might reduce the 4.5% (unverified; [DNIT on Spain][dnitesp]). For a US, UK or most EU companies it stands.
+
+### Company: no local company in year 1
+
+**Verdict:** sell from the founder's existing foreign company. Open a Paraguayan company only if one of these happens ([04]):
+1. More than a quarter of qualified buyers refuse to pay without a local e-invoice, and no partner will resell.
+2. ARR passes about US$60,000 and local invoicing would clearly lift sales.
+3. Local staff must be employed rather than contracted.
+4. Local payment methods are needed without dLocal.
+
+**The main obstacle is the legal representative.** For an EAS, S.A. or S.R.L., the tax office asks for the representative's Paraguayan identity card or passport, and a foreign representative must attach a Paraguayan cédula ([DNIT RG 34/25, Annex 1][rg34]). So the founder needs residency, or must hire a resident representative.
+
+| Route | One-off cost | Time | Notes |
+|---|---|---|---|
+| **EAS formed in person by the founder** | Official SUACE fees "close to zero" on the standard bylaws; no minimum capital ([Golden Harbors][gh], secondary; unverified). **Plus** founder residency: a filing fee of about US$350 (unverified), apostilled and sworn-translated documents | About 72 hours to form, 1-2 weeks for RUC and bank; residency up to 3 months ([Infonegocios][resid]; [LibertyMundo][lm], secondary) | Res DNM 407/2026 changed the proof-of-means rules from 6 July 2026 ([LibertyMundo][lm]) |
+| **EAS formed remotely with a lawyer** | About US$1,500-4,000 all-in with light support for bank, e-invoicing and accounting setup ([Golden Harbors][gh], secondary; unverified) | Same | Needs a resident representative at about US$100-300 a month (my estimate in [04], unverified). A foreign shareholder company's documents need a sworn translation ([RG 34/25][rg34]) |
+| S.A. instead of EAS | About US$4,000-8,000 plus government charges ([Golden Harbors][gh]; unverified) | 3-4 weeks | Notarial deed, registry, newspaper notice. Not needed |
+
+**Ongoing costs of a local EAS** ([04]):
+- Corporate income tax (IRE) 10%, or IRE SIMPLE below Gs 2bn of prior-year income; 15% tax (IDU) on dividends to a non-resident owner; IVA 10% on sales ([Golden Harbors][gh], secondary).
+- Electronic invoicing through SIFEN, already used by more than 50,000 taxpayers ([DNIT][ekuatia]).
+- An outside accountant about Gs 1.0-2.5m a month, or US$175-440 (my estimate in [04]).
+- **Total about US$4,000-7,000 a year** with a resident representative. The financial model shows it only as a variant from month 18.
+
+**The founder's foreign company:** about US$100 a month of extra running cost is charged to this business in the model (my estimate in [04]).
+
+### Legal documents ([03]; [04])
+
+- **Terms of service** (Spanish, click-through, business customers only): a tool, not advice, not the CO and not the filer; liability capped at 12 months of fees; no liability for SEPRELAD sanctions; templates updated within 30 days of a new resolution; governing law of the founder's company, Spanish text binding (a Paraguayan lawyer should confirm).
+- **Records survive cancellation.** A full export, plus a free read-only archive for 5 years. File 03 suggested a cheap paid archive and file 04 a free one. I choose free: storage is cents per firm a month (my estimate from [03]'s storage figures), and it removes a buying objection.
+- **Data-processing agreement** from day 1, with the sub-processor list and hosting location; review it when the Ley 7593/2025 decree appears.
+- **Partner contracts:** referral (20% then 10%), reseller (30% off; partner invoices and handles INR), data partner (licence, update frequency, liability for wrong matches).
+- **Insurance:** technology errors-and-omissions plus cyber, about US$1,000-2,500 a year (my estimate in [04], unverified).
+- **Disclaimers:** no SEPRELAD endorsement; our help content is not CECAD-certified training ([Res 174/2023][r174]).

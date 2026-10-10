@@ -12,7 +12,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 F = os.path.join(HERE, 'deep-dives.json')
-MAX_PARALLEL = 17
+MAX_PARALLEL = 5
 
 
 def load():
@@ -41,7 +41,10 @@ def main():
         if not todo:
             print('nothing left to launch'); return
         s = todo[0]
-        print(json.dumps({'slug': s, **d['ideas'][s]}, ensure_ascii=False))
+        out = {'slug': s, **d['ideas'][s]}
+        if d['runs'].get(s):
+            out['resume'] = d['runs'][s][-1]
+        print(json.dumps(out, ensure_ascii=False))
     json.dump(d, open(F, 'w'), ensure_ascii=False, indent=1)
     st = d['status']
     done = sum(v == 'done' for v in st.values())

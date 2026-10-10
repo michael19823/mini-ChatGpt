@@ -55,7 +55,8 @@ Sections: Summary; Pricing and packaging; Go-to-market; 90-day launch plan; 12-m
 const research = (p) => agent(
   `${CONTEXT}\n\n${p.brief}\n\nBudget: ${p.budget}.\nOutput: write ${DIR}/${p.file}. Return a 10-line summary of your key findings.`,
   { ...OPTS, label: `${p.key}:${slug}`, phase: 'Research' },
-).then((r) => ({ key: p.key, ok: true, summary: r }), (e) => ({ key: p.key, ok: false, error: String(e).slice(0, 300) }))
+).then((r) => (r ? { key: p.key, ok: true, summary: r } : { key: p.key, ok: false, error: 'empty result (agent failed)' }),
+  (e) => ({ key: p.key, ok: false, error: String(e).slice(0, 300) }))
 
 const results = await parallel(PARTS.map((p) => () => research(p)))
 const failed = results.filter((r) => !r.ok)
@@ -75,5 +76,6 @@ Output: write ${DIR}/PLAN.md. Return: the verdict, the new score, and 5 lines on
   { ...OPTS, label: `plan:${slug}`, phase: 'Plan' },
 ).catch((e) => `ERROR ${String(e).slice(0, 300)}`)
 
-log(`${slug}: plan written`)
-return { slug, complete: !String(plan).startsWith('ERROR'), plan }
+const complete = Boolean(plan) && !String(plan).startsWith('ERROR')
+log(`${slug}: ${complete ? 'plan written' : 'plan agent failed'}`)
+return { slug, complete, plan }

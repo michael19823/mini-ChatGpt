@@ -437,3 +437,325 @@ Servers are not the cost of this business. The founder's time and selling are.
 This is 03's budget plus the tax opinion from 04. After launch, running costs are about USD 480-700 a month in year 1 (hosting, one AI plan, a small lawyer retainer). **Year-1 cash for build and running, excluding the company, marketing and sales staff: about USD 13,000-28,000** ([03](03-product-and-tech.md#budget); my addition of the tax opinion).
 
 Each extra state pack costs about 1-3 agent-days plus a lawyer check ([04](04-gtm-company-finance.md#regional-expansion)).
+
+---
+
+## 8. Go-to-market
+
+### Pricing
+
+Price per firm, not per guard, and stay well below the gestor's salary. All prices in MXN + IVA ([04](04-gtm-company-finance.md#proposed-plans-all--iva)).
+
+| Plan | Who | Monthly | Yearly prepaid (10 months) | About USD a month | Includes |
+|---|---|---|---|---|---|
+| Diagnóstico (free) | Any firm; lead magnet | 0 | — | 0 | 15-minute self-check against the DGSP and state headings; list of gaps; up to 10 staff records; no export |
+| **Estatal** | Single-state firm, up to 50 active staff | **750** | 7,500 | 42 | Register with dated changes and causes; Excel and payroll import; one state pack; exam, training, CUIP and permit alerts; inspection pack; unlimited users |
+| **Federal** | Federal firm, up to 150 active staff | **1,900** | 19,000 | 106 | Estatal plus the DGSP monthly pack, 2 state packs, the revalidation pack and the 3- and 5-day notice clocks |
+| Federal Plus | 151-500 active staff | 3,500 | 35,000 | 194 | Federal plus 4 state packs, branch views, roles and approvals |
+| Extra state pack | Any plan | 400 | 4,000 | 22 | One more state's format and calendar |
+| **Despacho** | Gestoría, consultant or payroll accountant | 4,500 for up to 15 firms, then 250 per firm | 45,000 | 250 | Multi-firm dashboard; a separate register and packs per client firm; own logo |
+| Onboarding | Monthly-plan firms (waived on yearly Federal) | 4,900 once | — | 272 | Import of cardex, payroll and Excel; first pack checked with the firm |
+
+- **Founding offer:** 40% off year 1 for the first 20 paying firms, in return for a case study and 3 referrals. Pilots are free to 31 Dec 2026.
+- **Association members:** 15% off.
+- **Above 500 staff:** quote. Large groups are not the target.
+- **Price rise:** about inflation (5%) from the second renewal; founding firms locked for 2 years.
+- **Test in pilots:** Federal at MXN 1,900 against the re-assessment's MXN 3,000.
+
+**Price checks.**
+
+- Federal at MXN 22,800 a year is about 9-11% of an in-house gestor's yearly pay ([Computrabajo](https://mx.computrabajo.com/ofertas-de-trabajo/oferta-de-trabajo-de-gestor-gubernamental-en-cuauhtemoc-BA3B0D3F75D2544A61373E686DCF3405)) and about a fifth of one 1,000-UMA fine ([SIDOF 5799650](https://sidof.segob.gob.mx/notas/docFuente/5799650)). It is about twice a 150-staff firm's cloud payroll bill ([CONTPAQi](https://www.contpaqi.com/hubfs/Listas%20de%20precios/Lista_de_Precios_Sistemas_CONTPAQi_2026.pdf)).
+- Estatal at MXN 9,000 a year is less than one state revalidation fee, e.g. MXN 12,740 in Michoacán ([Michoacán fee list](https://ssp.michoacan.gob.mx/wp-content/uploads/2024/05/COSTOS-DE-AUTORIZACI%C3%93N-SEGURIDAD-PRIVADA.-LEY-DE-INGRESOS-DEL-ESTADO-DE-MICHOACAN-2024.pdf)).
+- Despacho works out at MXN 300 per firm a month at 15 firms; a gestoría can resell at MXN 600-900 (04's estimate).
+- Per-user pricing, the US model, would cost a 150-guard firm USD 750-1,500 a month ([GuardsPro](https://www.guardspro.com/pricing)). Avoid it.
+
+**Add-ons later:** a pre-inspection review by a partner gestor ("Visita lista", MXN 6,000, partner keeps 70%); a client compliance pack for corporate buyers; extra WhatsApp volume.
+
+### Channels, in priority order
+
+1. **Direct outreach from public lists (WhatsApp, phone, email): the main engine in year 1.**
+   - Lists: Nuevo León's padrón of 446 valid permits with expiry dates ([NL padrón](https://www.nl.gob.mx/sites/default/files/repositorio/Dependencias/Secretar%C3%ADa%20de%20Seguridad/Repositorios/20260721_padron_empresas_seguridad_julio.pdf)); about 120 firms in Tamaulipas ([Tamaulipas list](https://www.tamaulipas.gob.mx/seguridadpublica/wp-content/uploads/sites/10/2026/08/empresas-de-seguridad-privada-autorizadas-julio-2026-1.pdf)); Oaxaca and Quintana Roo lists; 2026 DOF sanction notices; the 2018 list of 1,232 federal firms ([datamx](https://www.datamx.io/dataset/direccion-general-de-seguridad-privada/resource/9e1109a2-5762-4a75-8f27-e221a815661d)); the MercadoSeguridad directory.
+   - Why WhatsApp: Meta says 92% of Mexican SMEs use WhatsApp Business ([Mobile Time](https://mobiletime.la/noticias/28/02/2025/whatsapp-business-pymes-mexico/?rd=1), vendor figure).
+   - Who: the founder, plus a part-time Mexican customer-success and sales contractor from January 2027 (MXN 15,000 a month).
+2. **Gestorías, payroll accountants and REPSE consultants.** Despacho plan plus a 20% referral fee on the first year of any firm they bring. Target: 35% of sales from partners.
+3. **Associations.** AMESP (250-290 member firms; campaigns for a single register; [Zeta Tijuana](https://zetatijuana.com/2026/08/advierten-aumento-de-empresas-irregulares-de-seguridad-privada-piden-padron-unico/)) and ASUME (about 31 associations; [Excélsior](https://www.excelsior.com.mx/nacional/personas-detras-empresa-segura)). Offer a member discount and a free webinar: "Cómo pasar una visita de verificación de la DGSP".
+4. **Spanish search content and small Google Ads.** Pages and free templates for "informe mensual DGSP", "cédula de baja seguridad privada", "reporte mensual altas y bajas Baja California", "sanciones DGSP 2026". Clicks cost about USD 0.40-3.00 ([NovoAds](https://novoads.ai/es/blog/cuanto-cuesta-publicidad-en-google-ads), secondary).
+5. **Events.** Expo Seguridad México: 400+ exhibitors, about 17,000 visitors ([Cluster Industrial](https://clusterindustrial.com.mx/expo-seguridad-mexico-alista-su-23a-edicion-con-mas-de-400-expositores-en-centro-banamex/)). Visit in 2027 (listed for 22-24 June, unverified); share a booth in 2028 (a 9 m² booth is about USD 8,500 per [Jufair](https://www.jufair.com/exhibition/expo-securidad-mexico/), unverified).
+6. **Integration and listing partners.** Vigon (staff import), CONTPAQi and NOI import, a "Registro al día" badge on MercadoSeguridad.
+
+**Lead magnets:** the free Diagnóstico mapped to recent DOF sanctions; a free first monthly pack from the firm's own cardex; a monthly "Sanciones DGSP" email; Excel cardex and cédula templates.
+
+**Sales motion:** trigger (list entry, expiry date or DOF notice) → WhatsApp message with a 60-second video of a pack being built → 20-minute demo importing the firm's own cardex to show what is missing → 14-day trial that builds the next real pack → card for monthly plans, card or transfer for yearly → 45-minute onboarding call → extra state packs and referrals. Expect a 2-6 week cycle (04's estimate).
+
+**Objections:**
+
+- "I have a gestor." The tool makes the gestor faster and gives the owner an audit trail. Gestores get the Despacho plan.
+- "My data is sensitive." Processor agreement, encryption, audit log; a Mexico-region host on request.
+- "A foreign invoice? My accountant wants a CFDI." A one-page accountant FAQ (section 9). Repeated pushback is a trigger to open a Mexican company.
+- "The DGSP will build its own portal." The firm still needs its own records and proof, and we will export to any portal.
+
+### Selling calendar
+
+| When | What happens | What to do |
+|---|---|---|
+| Days 1-10 of each month | Federal report due (LFSP art. 13); most state reports due in the first 5 business days | Support customers; no cold calls |
+| Days 12-28 of each month | The last filing's pain is fresh | Outbound calls, demos, trial starts. Ask "how many hours did this month's report take?" |
+| 60-90 days before each firm's permit expiry | Revalidation at least 30 business days before expiry (LFSP art. 19) | Contact from padrones with expiry dates; offer the revalidation pack |
+| Within 2 weeks of a DOF sanction notice | DGSP names the firm and the gap ([SIDOF 5799650](https://sidof.segob.gob.mx/notas/docFuente/5799650)) | Polite offer of a free gap check; never shame the firm |
+| December | Aguinaldo due before 20 Dec ([LFT art. 87](https://mley.mx/LFT/articulo/87/)); 25 Dec and 1 Jan rest days ([LFT art. 74](https://mley.mx/LFT/articulo/74/)) | No prepay pushes; "start now, first charge in January" |
+| Second half of January | New budget year | Push yearly plans |
+| June | Expo Seguridad México | Meetings and a talk |
+| About Feb-Apr 2027 | DGSP's one-year deadline to adapt its systems ([SIDOF 5784083](https://sidof.segob.gob.mx/notas/docFuente/5784083)) | If a DGSP system appears: "your records, ready for the new system" |
+
+### Marketing budget, year 1 (Nov 2026-Oct 2027): MXN 180,000 (USD 10,000), plus MXN 108,000 travel
+
+| Item | MXN |
+|---|---|
+| Google Ads (MXN 5,000 a month from February) | 45,000 |
+| Spanish content editor and templates | 36,000 |
+| Association sponsorships and webinars | 40,000 |
+| Expo Seguridad visit and meetings | 15,000 |
+| CRM, WhatsApp Business API, LinkedIn tools (prices unverified) | 24,000 |
+| Video and print | 10,000 |
+| Contingency | 10,000 |
+| **Total** | **180,000** |
+| Travel: three trips at about MXN 36,000 | 108,000 |
+
+Not in this budget: partner referral fees (about MXN 47,000 in year 1 in the model), the CS contractor (MXN 201,000 in year 1) and the founder's time. Years 2 and 3: MXN 220,000 and 240,000 ([04](04-gtm-company-finance.md#12-month-marketing-plan-and-budget)).
+
+Monthly KPIs: leads, demos, trial starts, trial-to-paid (target 35%, kill below 15%), CAC (target below MXN 8,000), logo churn (target below 1.5% a month), share of sales from partners (target 35%), hours saved per monthly report.
+
+### First 90 days (Mon 12 Oct 2026 to Sun 10 Jan 2027)
+
+This merges 04's 90-day plan with 03's build calendar; where they differ, the build dates follow 03.
+
+| Dates | Product | Market and sales | Legal, money, admin |
+|---|---|---|---|
+| 12-18 Oct | Discovery set-up; backlog from R1-R88 | Spanish landing page and waitlist; a 600-firm list from padrones, DOF notices and the 2018 list; book 20 interviews | Quotes from a private-security lawyer (budget MXN 40,000-80,000) and a tax adviser (MXN 25,000); PNT request to the SSPC on firm count, format and channel |
+| 19-25 Oct | Foundation week | 10 interviews; collect real DGSP and state formats (BC, CDMX, Estado de México, NL, Tamaulipas); test MXN 750 and 1,900 against 3,000 | Stripe account on the founder's company with MXN prices, Billing, Invoicing and an RFC field; draft Spanish terms |
+| 26 Oct-6 Nov | Parallel modules; code-complete MVP | Sign 3-5 pilots (free to 31 Dec, then the founding price) | Trademark search; IMPI filing (about MXN 10,000 with an agent, unverified) |
+| 9-13 Nov | Integration; **MVP done 13 Nov** | Trip 1 (CDMX and Monterrey) can start: pilots, AMESP, 2-3 gestorías, MercadoSeguridad | Lawyer engaged once 3 pilots sign |
+| 16-29 Nov | Pilot fixes; CDMX and Estado de México packs as forms arrive | Reach 30 interviews; recruit the part-time CS contractor to start 4 Jan | Lawyer sign-offs; security test booked |
+| 30 Nov-11 Dec | Security test, fixes, **sellable 11 Dec** | Pilots file November reports with the tool (BC by Mon 7 Dec; DGSP by Thu 10 Dec); founding offer opens; book an AMESP webinar for February | Tax opinion received; invoice format set |
+| 14-31 Dec | Nuevo León and Tamaulipas packs | Slow season: write 6 search pages and templates; set up Google Ads | Insurance quotes |
+| 4-10 Jan 2027 | Pilot data moved to paid accounts | Pilots convert (target 6); CS contractor starts | First charges |
+
+**Targets at day 90:** 30+ interviews; 5 pilots; at least 6 paying firms; 3 gestorías signed as partners; a 1,000-firm list; measured hours saved per monthly report for each pilot.
+
+---
+
+## 9. Payments, company and legal
+
+### Recommendation in short
+
+- **Sell from the founder's own company abroad. No Mexican company at launch** ([04](04-gtm-company-finance.md#is-a-mexican-company-needed)).
+- **Prices in MXN, shown "+ IVA".**
+- **Before the first charge, get a written Mexican tax opinion** on whether this SaaS is a "digital service" under [LIVA art. 18-B](https://mley.mx/LIVA/articulo/18-B/) and on withholding. The answer picks the checkout:
+  - **Outside 18-B** (04's reading for a B2B compliance tool; unverified): Stripe on the founder's company. Our invoice shows no Mexican IVA; the buyer self-assesses it as an import of services ([LIVA art. 24-V](https://mley.mx/LIVA/articulo/24/)), which is usually cash-neutral.
+  - **Inside 18-B** (a SAT non-binding criterion is reported to treat SaaS as a digital service; [SDV](https://sdv.com.mx/compendio/criterios-no-vinculativos-sat/criterio-7-iva-nv/), secondary): use **Paddle** as merchant of record, which registers and remits, once Paddle confirms it serves Mexican B2B buyers with the RFC on its invoice (unverified). Otherwise the foreign company must register with the SAT, appoint a representative, charge 16% IVA and file monthly ([BPM](https://www.bpm.com/insights/mexico-vat-on-digital-services-provided-by-non-residents/); [Fonoa](https://www.fonoa.com/resources/country-tax-guides/mexico/tax-on-digital-services)), or open the Mexican company early.
+- **The selling company must sit in a country with a tax treaty with Mexico.** Treaties cut the 25% royalty withholding to 10% for, among others, Austria, Belgium, the Czech Republic, Estonia, France, Germany, Ireland, Israel, Latvia, Lithuania, Malta, the Netherlands, Poland, Spain, the UK and the US ([PwC](https://taxsummaries.pwc.com/mexico/corporate/withholding-taxes)). For standardised software sold from a treaty country, Mexico treats the payment as business profits, with no withholding ([IDC, 2021](https://idconline.mx/fiscal-contable/2021/10/04/pago-de-regalias-por-software-con-retencion)). PwC's table lists no treaty for Slovenia, Croatia, Cyprus or Bosnia; a seller there faces 25%, which would kill the price ([04](04-gtm-company-finance.md#buyer-side-tax-friction)). **Sell one standard subscription, with no custom work.**
+
+### Fees per route (seller side)
+
+| Route | Yearly Federal (MXN 19,000) | Monthly Estatal (MXN 750) | Notes |
+|---|---|---|---|
+| Stripe, EU account, card, MXN price, Billing (3.15% + EUR 0.25 + 2% FX + 0.7%) | about MXN 1,117 (5.9%) | about MXN 49 (6.5%) | [Stripe IE pricing](https://stripe.com/ie/pricing) |
+| Paddle (5% + 50c) | about MXN 959 (5.0%) | about MXN 47 (6.2%) | [Paddle pricing](https://www.paddle.com/pricing); may add 16% IVA to the buyer's price (unverified) |
+| Stripe Managed Payments (Stripe + about 3.5%) | about MXN 1,782 (9.4%) | about MXN 75 (10.1%) | Availability unverified ([Dodo Payments](https://dodopayments.com/blogs/stripe-managed-payments-fees-explained), competitor blog) |
+| SWIFT transfer to the company abroad | about 1-2% plus the buyer's USD 10-20 bank fee | not practical | For yearly plans only ([BBVA NetCash](https://www.bbva.mx/content/dam/public-web/mexico/documents/empresas/banca-electronica-y-canales/netcash/Caratula.pdf)) |
+| Later: Stripe Mexico via a Mexican company (3.6% + MXN 3, + 0.7% Billing) | about MXN 951 (5.0%) | about MXN 41 (5.5%) | Local approval, CFDI, SPEI ([Stripe MX](https://stripe.com/mx/pricing)) |
+
+Fees for a US or UK company are similar but were not checked (unverified). Stripe does not onboard Israeli entities directly as far as 04 found (unverified); an Israeli founder would sell through an EU, UK or US entity.
+
+**What does not work from abroad:**
+
+- **OXXO cash:** not for EEA or UK accounts outside a private preview, no subscriptions, and "Software" is a prohibited category ([Stripe OXXO](https://docs.stripe.com/payments/oxxo)).
+- **SPEI bank transfers through Stripe:** Mexican Stripe accounts only ([Stripe MX bank transfers](https://docs.stripe.com/payments/mx-bank-transfers)).
+- **Card approvals are lower cross-border:** one vendor puts them at 50-60% against 80%+ with a local acquirer ([Nuvei](https://www.nuvei.com/posts/evaluating-payment-strategies-for-the-mexican-market-direct-acquiring-versus-cross-border-models), vendor claim). Use 3-D Secure, a "habilita compras internacionales" note at checkout, smart retries, and a transfer fallback for yearly plans. Measure real approval rates on pilot charges.
+
+### The buyer's side
+
+- **Deduction.** A Mexican firm can deduct a foreign invoice that shows six items, including its RFC and legal name (RMF rule 2.7.1.14; [Siempre al Día, Jun 2026](https://siemprealdia.co/mexico/fiscal/requisitos-de-la-factura-de-proveedor-extranjero-para-el-sat/)). Stripe can store a Mexican RFC ("mx_rfc") and print it on the invoice, but does not check it against the SAT ([Stripe tax IDs](https://docs.stripe.com/billing/customer/tax-ids)).
+- **CFDI habit.** Small-firm accountants expect a CFDI for every expense. A foreign invoice is legal, but expect pushback (04's estimate). This is the most likely reason to open a Mexican company early.
+- **Accountant FAQ.** 04 drafted a one-page Spanish and English FAQ (standard software, rule 2.7.1.14 invoice, import-of-services IVA, treaty residence certificate) ([04](04-gtm-company-finance.md#draft-buyer-faq-for-the-accountant-spanish-and-english)). Have the tax adviser approve it before use.
+- **No Mexican income tax for the seller** without a permanent establishment. The Mexican contractor supports customers and finds leads; the founder signs contracts ([LISR art. 3](https://mley.mx/LISR/articulo/3/); dependent-agent detail unverified).
+
+### Is a Mexican company needed? Not at launch
+
+Open one when two or more of these hit ([04](04-gtm-company-finance.md#is-a-mexican-company-needed)):
+
+1. 25%+ of qualified prospects refuse to buy without a CFDI;
+2. card approvals stay below 75%, or more than 30% of revenue comes by international transfer;
+3. ARR passes about MXN 1.5M (USD 80k);
+4. a Mexican salesperson must negotiate and sign deals;
+5. a reseller or large gestoría demands CFDI;
+6. the tax opinion requires 18-B registration and Paddle does not work.
+
+Base case: about month 16 (Feb 2028). High case: about month 10. Low case: maybe never.
+
+**Real costs of a Mexican company** ([04](04-gtm-company-finance.md#options-and-real-costs)):
+
+| Option | One-off cost | Time | Ongoing cost | Notes |
+|---|---|---|---|---|
+| **S. de R.L. or S.A. de C.V., founder in person** | **MXN 20,000-40,000**: notary MXN 15,000-25,000 + commercial registry MXN 2,500-5,000; the name permit, RFC and e.firma are free ([Praxium 2026](https://praxiumconsultores.com/blog/abrir-empresa-en-mexico-precio-2026)). Plus apostille and translation of the parent's papers and the foreign-investment (RNIE) filing (cost unverified), and one trip (about MXN 36,000) | 2-4 weeks with complete papers, plus the bank | Accountant MXN 3,000-7,000 a month; MXN 3,000-4,000 for a new firm with no staff ([Praxium](https://praxiumconsultores.com/blog/cuanto-cobra-un-contador-por-una-sa-de-cv-recien-constituida)) | No legal minimum capital. The parent company plus the founder as shareholders |
+| **Same, remotely through a full-service firm** | **USD 3,500-4,500 (MXN 63,000-81,000)**: deed, registry, RFC, e.firma, RNIE, legal representative, powers, bank opening, e-invoicing set-up, tax address ([Start-Ops](https://start-ops.com.mx/incorporation-service-mexico/)) | 6-9 weeks; the bank adds 2-6 weeks and is opened in person by the representative | USD 1,000-1,500 a month full compliance (same source), or a local accountant at MXN 3,000-7,000 | Better as a hybrid: a lawyer drafts the deed under a power of attorney and the founder flies in once for the bank and e.firma |
+| SAS (simplified company), online | Registration free | Days, after RFC and e.firma; from 2026 the SAT step is in person ([AMCPDF](https://amcpdf.org.mx/consideraciones-2026-para-las-sociedades-por-acciones-simplificadas-sas/)) | Accountant MXN 3,000-4,000 a month | **Individuals only**, so the parent company cannot own it; income capped at about MXN 7.68M a year ([LGSM art. 260](https://mley.mx/LGSM/articulo/260/)); the high case would pass the cap |
+| Foreign company registers for IVA only (if 18-B applies) | Adviser fees (unverified) | Weeks | MXN 3,000-7,000 a month (04's estimate) | Prefer Paddle instead |
+
+Running a Mexican company: 30% corporate income tax ([PwC](https://taxsummaries.pwc.com/mexico/corporate/taxes-on-corporate-income)); 16% IVA charged with a CFDI; with employees, IMSS, Infonavit, state payroll tax and 10% profit sharing (rates unverified); intercompany licence payments to the parent raise withholding and transfer-pricing questions (get advice before the move). **Model assumption:** MXN 70,000 one-off (hybrid route) plus MXN 8,000 a month. The company abroad costs about MXN 2,500 a month of its own admin.
+
+### Contracts and liability
+
+- **Contract set, in Spanish:** click-accepted Términos y Condiciones; a processor agreement (contrato de encargo); an aviso de privacidad for our own leads; a short SLA (99.5% uptime; support within one business day during days 1-10).
+- **Key clauses** ([04](04-gtm-company-finance.md#contracts-and-liability)): the firm stays responsible for what it files and signs; no legal advice; **format promise** (update a format within 10 business days of an official change; if a pack is rejected for our format error, fix within 2 business days and credit a month); liability capped at 12 months of fees, fines excluded; data export any time and deletion 60 days after the end; no training of shared models on customer data; Mexican commercial law and CDMX courts.
+- **Data protection:** the customer collects guards' consent with our template; we act as processor; breach notices per LFPDPPP art. 19.
+- **Insurance:** cyber plus errors-and-omissions; the model uses MXN 40,000 a year (unverified; European SME premiums run EUR 1,000-3,000, [MyBusinessFuture](https://mybusinessfuture.com/es/seguros-de-ciberseguridad-para-pymes/)).
+- **Brand:** register at IMPI (about MXN 10,000 with an agent; unverified). The founder's company owns the code and the brand.
+
+---
+
+## 10. Financials
+
+The 36-month model in [04](04-gtm-company-finance.md#financial-model) runs by month (month 1 = Nov 2026). It counts cash; yearly plans pay 10 months up front. Taxes on profit are not modelled. I use it as is, because its year-3 revenue matches 02's independent estimate (MXN 3.9M against 3.8M).
+
+**Key assumptions (base):** paying pool about 3,500 firms plus about 150 gestorías; 6 pilots convert in January 2027; about 70 / 100 / 106 new accounts in years 1 / 2 / 3; monthly logo churn 1.5%; effective revenue per account MXN 1,350 / 1,550 / 1,650 a month (mix of about 45% Federal, 47% Estatal, 8% Despacho, less discounts); 40% on yearly plans; a part-time Mexican CS contractor from month 3, full-time from month 10, a second person from month 22; security test in months 2, 14 and 26; Mexican company at month 16; no founder pay.
+
+| Measure | Low | Base | High |
+|---|---|---|---|
+| Accounts at month 6 / 12 / 24 / 36 | 12 / 26 / 54 / 77 | 26 / 67 / 152 / 228 | 43 / 121 / 291 / 453 |
+| Share of the ~3,500-firm segment at month 36 | about 2% | about 6.5% | about 13% |
+| ARR at month 12 / 24 / 36 (MXN) | 0.35M / 0.81M / 1.24M | 1.09M / 2.83M / **4.52M** | 2.19M / 5.94M / 10.06M |
+| Cash in, years 1 / 2 / 3 (MXN) | 0.24M / 0.68M / 1.10M | 0.73M / 2.29M / 3.88M | 1.45M / 4.75M / 8.52M |
+| Costs, years 1 / 2 / 3 (MXN) | 0.77M / 0.80M / 0.86M | 0.98M / 1.41M / 1.70M | 1.35M / 2.06M / 2.47M |
+| Year-3 profit before founder pay (MXN) | about 0.24M | **about 2.18M (USD 121k)** | about 6.05M (USD 336k) |
+| Operating break-even | month 29 | **month 15 (Jan 2028)** | month 5 |
+| Cumulative cash positive | not within 36 months | month 19 (May 2028) | month 11 |
+| **Peak cash need, no founder pay** | MXN 727k (USD 40k) | **MXN 312k (USD 17k)** | MXN 294k (USD 16k) |
+| Peak cash need with founder pay (MXN 40,000 a month in year 2, 70,000 in year 3) | MXN 1.74M (USD 97k) | MXN 358k (USD 20k) | MXN 294k |
+| Year-3 profit after founder pay (MXN) | about -0.60M | about 1.34M | about 5.21M |
+
+**Base costs by year (MXN):**
+
+| Line | Year 1 | Year 2 | Year 3 |
+|---|---|---|---|
+| AI tools and hosting | 109,500 | 114,000 | 138,000 |
+| Legal, tax, security test, insurance | 265,000 | 226,000 | 226,000 |
+| Mexican CS and sales staff | 201,000 | 450,000 | 648,000 |
+| Marketing | 180,000 | 220,000 | 240,000 |
+| Travel | 108,000 | 36,000 | 72,000 |
+| Partner referral fees | 47,176 | 108,774 | 128,334 |
+| Payment fees | 38,484 | 82,152 | 124,157 |
+| Mexican company | 0 | 142,000 | 96,000 |
+| Admin abroad | 30,000 | 30,000 | 30,000 |
+| **Total** | **979,160** | **1,408,926** | **1,702,491** |
+
+**Unit economics (base):** about MXN 1,550 revenue per account a month; gross margin about 85%; CAC about MXN 6,000-7,000, so payback about 5 months; at 1.5% monthly churn, lifetime value capped at 4 years is about MXN 63,000; LTV/CAC about 10. The founder's own selling time is not costed, so the true CAC is higher.
+
+**What the numbers mean.**
+
+- **Cash need is small.** About MXN 310,000-360,000 (USD 17,000-20,000) carries the base case. Half of it falls in the first quarter (legal content, security test, tax opinion, first trip). **Hold MXN 750,000 (USD 42,000) of runway** to survive the low case for 18 months.
+- **The limit is the pool and the selling, not the unit economics.** The base case needs about 6 new firms a month in year 1 from a founder abroad and a part-time contractor. That is ambitious in a relationship-driven, Spanish-only sector. My planning view sits between low and base until month 6 shows which one is real.
+- **The low case shows itself early:** 12 accounts at month 6 against 26 in the base. That is the kill signal.
+- **Founder income:** the base case pays the founder MXN 40,000 a month in year 2 and 70,000 in year 3 and still leaves about MXN 1.3M of year-3 profit. The low case never pays a founder.
+- **Exit:** small SaaS sells at about 2.5-4x revenue or 3-6x owner profit ([beancount.io, Jul 2026](https://beancount.io/blog/2026/07/11/bootstrapped-saas-valuation-multiples-2026-acquire-com-indie-founders-guide)). Base at month 36: about **MXN 7-18M (USD 0.4-1.0M)**. Likely buyers: Vigon, Trackforce Valiant, a Mexican payroll or HR vendor, MercadoSeguridad, or a REPSE platform ([04](04-gtm-company-finance.md#exit-and-partnerships)). The low case is only an asset sale.
+
+---
+
+## 11. Regional expansion
+
+**Inside Mexico first: the next market is the next state.** Each state pack opens that state's registered firms ([INEGI](https://www.inegi.org.mx/contenidos/programas/cnspe/2026/doc/cnspe_2026_resultados.pdf)). The top 8 states plus CDMX hold about 3,700 of the 6,300 registrations (02's sum). Each pack costs about 1-3 agent-days plus a lawyer check.
+
+| When | State packs |
+|---|---|
+| MVP (Nov 2026) | Baja California (316 firms) and the federal DGSP pack |
+| By month 3 (Jan 2027) | CDMX (1,147) and Estado de México (478), then Nuevo León (516) and Tamaulipas (about 120) |
+| Months 4-12 | San Luis Potosí (300), Chihuahua (286), Puebla (248), Coahuila (234) |
+| Year 2 | Quintana Roo (219), Jalisco (if its register reform passes), Querétaro (187), others on demand |
+
+Order inside each band follows pilots: a state is built when a paying firm hands over its current forms.
+
+**Adjacent products in Mexico (cheaper than new countries):** a client compliance pack for corporate buyers, who already demand permits, REPSE and association membership ([AMESP at ANTAD](https://simposioseguridad.antad.net/simposio2025/presentaciones/7-Los-paradigmas-de-la-seguridad-privada-en-Mexico.pdf)); a REPSE monthly evidence pack ([BDO](https://www.bdomexico.com/getmedia/514a6f9e-9faf-406d-b485-82f4be6a21c6/Webinar-REPSE-070825.pdf?ext=.pdf)).
+
+**Abroad** ([02](02-market-and-competition.md#regional-expansion); [04](04-gtm-company-finance.md#regional-expansion)):
+
+| Country | Size | State platform | Verdict |
+|---|---|---|---|
+| Chile | "More than 60,000 workers" affected (opinion column) | New law 21.659; a platform and register due by 28 Nov 2026 ([Diario Constitucional](https://www.diarioconstitucional.cl/2026/05/13/iniciativa-prorroga-plazos-de-regularizacion-en-seguridad-privada-para-evitar-crisis-operativa-en-el-sector/)) | A 2026-2027 compliance wave, but as a pre-filler only. Study from month 18 if Mexico hits the base case |
+| Colombia | 1,500+ firms ([El Heraldo](https://www.elheraldo.co/colombia/2025/12/17/supervigilancia-reporta-avances-en-control-del-sector-de-seguridad-privada-y-verificacion-total-de-armas-autorizadas/)) | RENOVA is the single mandatory monthly channel ([SafetYA](https://safetya.co/normatividad/circular-externa-345-de-2020/)); local ERPs exist; 20% withholding on software licences ([PwC Colombia](https://taxsummaries.pwc.com/colombia/corporate/withholding-taxes)) | Partner only, year 3+ |
+| Guatemala, Honduras | 150-200 firms each | Guatemala launched a system in Apr 2026 ([AGN](https://agn.gt/?p=535356)) | Low priority |
+
+Mexico, with its PDF and Excel formats and 32 state regimes, is the best fit of the countries checked. Abroad, regulators already run platforms, so the product would be a record keeper, not a report generator.
+
+---
+
+## 12. Risks and mitigations
+
+| Risk | Likelihood | Impact | Mitigation |
+|---|---|---|---|
+| **Low willingness to pay**: thin enforcement means firms stay on Excel and the gestor | Medium-high | High | Sell time saved and client proof, not fear; free Diagnóstico and first pack; Despacho plan for gestores; test prices in pilots; kill criteria |
+| **Federal monthly format and channel stay unknown** | High in weeks 0-2, then falling | Medium | Real pack and acuse from pilots or a gestor in week 0; PNT request; content separate from layout; ship a signed cover plus annexes if needed; lead with Baja California |
+| **The DGSP builds its own system** (one-year window from the Feb 2026 Acuerdo; Guatemala and Neuquén did in 2026) | Medium within 1-2 years | High for the federal part | The register, evidence, state packs and payroll match stay needed; add an upload file or API output; market "keep it right and send it in one click"; re-scope within 60 days if it covers staff, equipment and audit trail and states adopt it |
+| **Vigon or another guard app adds DGSP packs** | Medium | High | Move first on state formats and the gestoría channel; offer an import or partnership; a possible exit route |
+| **State fragmentation** (32 regimes) | High | Medium | Templates and rules as data; build states in order of paying customers; charge per extra state |
+| **LIVA 18-B applies**, forcing IVA registration abroad | Medium (contested) | Medium | Tax opinion before the first charge; Paddle as merchant of record; or the Mexican company early |
+| **Withholding claimed by a buyer's accountant** | Low-medium for a treaty seller | High on margin | Sell from a treaty country; standard product, no custom work; residence certificate; accountant FAQ |
+| **Buyers demand CFDI; cross-border card declines** | High | Medium | Rule 2.7.1.14 invoice and FAQ; 3-D Secure and retries; transfer fallback; Mexican company on triggers |
+| **Breach of sensitive data** (health results, IDs) | Low | Very high (fines up to 640,000 UMA for sensitive data; prison) | Store pass/fail, not clinical detail; field encryption; MFA; no real data in AI tools; penetration test; breach plan; insurance |
+| **Security holes in agent-written code** | Medium | High | Two-layer tenant isolation; a test on every URL; reviewer agent on every pull request; one permissions module; external test before launch |
+| **An authority rejects a pack** (e.g. .docx instead of .doc, scanned signature) | Medium | Medium | Ask each state; keep official files; pilots file real packs before launch; format promise in the terms |
+| **Wrong due dates** from holidays or authority closures | Medium | Medium | Holiday tables per authority with sources; deadline tests in CI; legal basis shown next to each date |
+| **Law reset** (Ley General, "padrón único", Sep 2026 bill) | Low-medium in 3 years | Medium-high | Rules as data with effective dates; weekly DOF watch; lawyer retainer; any new register raises demand for clean records |
+| **Founder abroad in a relationship-driven sector** | High | Medium-high | Mexican CS contractor from January 2027; three trips in year 1; gestoría partners do face-to-face work |
+| **Founder overload** (build, sell, support) | High | High | Strict MVP; v1 only after paying customers; help pages; partners onboard their own firms |
+| **Permanent establishment through a Mexican salesperson** | Low-medium | Medium | Contractor supports and finds leads; founder signs; Mexican company before hiring closers |
+| **Small, informal market; firms close** | Medium | Medium | Target 11+ staff and federal firms first; 1.5-2.5% monthly churn in the model |
+| **Peso falls against the euro** | Medium | Low-medium | Most costs are in MXN (staff, marketing); yearly price review |
+
+---
+
+## 13. Milestones and kill criteria
+
+Dates follow 03's build calendar and 04's sales model (month 1 = Nov 2026).
+
+| When | Target (base) | Stop or rethink if |
+|---|---|---|
+| 16 Oct 2026 (end of week 0) | 10+ interviews booked; a date to see a real federal pack | — |
+| 30 Oct 2026 | One real federal monthly pack and acuse in hand | **No firm will share one:** lead with Baja California and the register; treat the federal pack as v1 |
+| 13 Nov 2026 | MVP done (section 7); 3-5 pilots committed | Fewer than 3 pilot commitments: pause the lawyer and security-test spend |
+| 30 Nov 2026 | 20+ interviews; 3-5 pilots running; real DGSP and 4 state formats in hand | **Fewer than 3 pilots from 20 interviews, or more than half say they would never pay MXN 750+ a month** |
+| 11 Dec 2026 | Sellable; security test passed; tax opinion received | The opinion requires 18-B registration **and** Paddle cannot serve Mexican B2B buyers: pause and plan the Mexican company first |
+| 10 Jan 2027 (day 90) | 6+ paying firms; 3 gestoría partners | **Fewer than 3 paying** |
+| 30 Apr 2027 (month 6) | 26 accounts; trial-to-paid 30%+ | **Fewer than 12 accounts, or trial-to-paid below 15%** |
+| 31 Oct 2027 (month 12) | 67 accounts; ARR about MXN 1.1M; 35% of sales from partners | **Fewer than 30 accounts, or 12-month logo retention below 70%** |
+| Feb 2028 (month 16) | Mexican company decision on the triggers; ARR above MXN 1.5M | — |
+| Oct 2028 (month 24) | 150 accounts; ARR about MXN 2.8M; founder pay started | Below 80 accounts: run it as a side business or sell to a partner |
+| Oct 2029 (month 36) | About 230 accounts; ARR about MXN 4.5M; decide on Chile | — |
+| Any time | — | The DGSP offers free online register-keeping covering staff, equipment and audit trail, **and** states adopt it: re-scope to state packs and gestorías within 60 days |
+
+---
+
+## 14. Open questions to settle first
+
+1. **The federal monthly report:** exact format, channel (ventanilla, email, disk) and acuse. Is the 2020 e-mail "ventanilla electrónica" still open? (pilots, a gestor, PNT request)
+2. **Willingness to pay** at MXN 750 and 1,900 against 3,000, and the hours a monthly report takes today. (interviews, pilots)
+3. **IVA:** is this SaaS a digital service under LIVA art. 18-B? **Withholding:** is the founder's company in a treaty country? (tax adviser)
+4. **Paddle:** does it serve Mexican B2B buyers with IVA and the buyer's RFC on the invoice? (Paddle sales)
+5. **Sensitive data:** may the firm process exam results without consent under LFPDPPP art. 9? Does LGSNSP art. 101 limit holding a firm's copy abroad? Do buyers demand hosting in Mexico? (lawyer, interviews)
+6. **State formats** for CDMX, Estado de México, Nuevo León (2026 reform), Tamaulipas, Jalisco and Puebla; whether states accept .docx, PDF and scanned or electronic signatures. (pilots)
+7. **DGSP equipment Excel layout and photo limits** (R36, R41). (a gestoría, a Mexican connection to dgsp.sspc.gob.mx)
+8. **Has the DGSP set a date or design for its new registry system** under the Feb 2026 Acuerdo? (PNT request, DOF watch)
+9. **What do gestorías charge** for monthly DGSP and state upkeep? This sets the Despacho resale price.
+10. **Vigon:** price, customer count, roadmap, and openness to an integration.
+11. **How hard do guard-firm accountants insist on CFDI?** What are real cross-border card approval rates? (every interview; pilot charges)
+12. **The current federal firm count and size split.** (PNT request to the SSPC)
+
+---
+
+## 15. Next steps this week (12-16 Oct 2026)
+
+1. **Book 10-12 interviews** by WhatsApp and phone: firms named in 2026 DOF sanctions, AMESP members, Baja California and CDMX firms, and 1-2 gestorías. Ask each for a recent federal monthly pack with its acuse.
+2. **File the PNT transparency request** to the SSPC: number of firms in the Registro, the monthly-report format and channel, monthly reports received in 2025, and plans for a new registry system.
+3. **Set up the build:** repository, CLAUDE.md with the Spanish glossary and the "no real personal data" rule, backlog from R1-R88, Render and R2 accounts, CI. Start the foundation stream on Mon 19 Oct.
+4. **Get quotes** from a Mexican private-security lawyer (templates, privacy papers, processor agreement, terms) and a tax adviser (18-B and withholding opinion). Do not engage the lawyer until 3 pilots sign.
+5. **Confirm the selling entity:** which country the founder's company is in, and whether Mexico has a tax treaty with it. Open its Stripe account with MXN prices and an RFC field; email Paddle sales about Mexican B2B coverage.
+6. **Put up the Spanish landing page** with the free Diagnóstico waitlist, and start the 600-firm list from the Nuevo León, Tamaulipas and Oaxaca padrones, the DOF notices and the 2018 DGSP list.

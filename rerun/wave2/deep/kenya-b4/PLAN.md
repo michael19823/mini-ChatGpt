@@ -643,3 +643,141 @@ Why remote needs a firm: directors without a Kenyan alien card usually cannot us
 - **Rule-change service level:** templates and calendar updated within 30 days of a gazetted change or CBK guidance.
 - **Our own ODPC registration.** Foreign processors of Kenyan residents' data must register, but firms under KES 5m turnover and 10 staff are exempt unless in a listed sector ([ODPC FAQ](https://www.odpc.go.ke/faqs/)). We are probably exempt in year 1. Register early anyway (KES 4,000) because it helps sales; whether a foreign company needs a KRA PIN to do so is unverified.
 - **Insurance:** professional indemnity and cyber, KES 150,000-300,000 a year (unverified). **Trademark:** file with KIPI (fee unchecked).
+
+---
+
+## 10. Financials
+
+The 04 file built a monthly model: month 1 is November 2026 (absorbing October's set-up), month 36 is October 2029. Figures are KES, net of VAT, before corporate tax, with no founder pay ([04 file](04-gtm-company-finance.md)).
+
+**Main assumptions (low / base / high):**
+- kits sold in the rush (Nov 2026-Mar 2027): 15 / 40 / 80, which is about 2% / 6% / 11% of the 450-950 likely applicants; then 6 / 12 / 20 a year;
+- kit buyers who move to Comply after the 3 free months: 35% / 50% / 60%;
+- new direct Comply subscribers: about 2 / 3 / 4.5 a month;
+- effective Comply price in year 1: KES 85,000 / 95,000 / 105,000 (a 55/45 mix of the two tiers, minus founding discounts);
+- renewals: 60%, then 75% / 75%, then 85% / 85%, then 90%;
+- adviser plans over 3 years: 3 / 8 / 12;
+- costs: AI tools KES 52,000 a month in months 1-3, then 26,000; hosting KES 25,000-45,000 a month; legal KES 500,000 then a KES 60,000 monthly retainer; a security test; the Kenyan company at KES 37,000 a month; insurance KES 21,000 a month; a Nairobi sales and support person (base KES 90,000 / 160,000 / 280,000 a month in years 1 / 2 / 3); marketing KES 1.4m / 1.1m / 1.1m; 7 founder trips at KES 260,000; partner commissions 7.5% of new and 3% of renewals; payment fees 5.1% on Paddle, then 1.5%.
+
+**My adjustments to the 04 model** (all my estimates):
+1. Security test USD 5,000-8,000 instead of USD 3,000 (§7): +KES 0.26m-0.65m in month 2.
+2. Advocate KES 450,000-900,000 instead of 500,000: up to +KES 0.4m.
+3. Add the compliance practitioner from the 03 budget: +KES 0.1m-0.2m.
+4. The advocate bills reviews directly, so the average kit price is about KES 75,000-80,000, not 85,000: year-1 cash in falls by about KES 0.25m-0.5m, but the 15% advocate-share cost disappears.
+5. The Kenyan company starts in months 6-9 instead of month 4: roughly cost-neutral (lower company costs, higher Paddle fees for longer).
+
+These are nearly all one-off year-1 items. They raise peak cash need and leave year-3 results almost unchanged.
+
+| Measure | Low | Base | High |
+|---|---|---|---|
+| Kits sold, years 1 / 2 / 3 | 18 / 6 / 6 | 47 / 12 / 12 | 92 / 20 / 20 |
+| Comply subscribers at month 6 / 12 / 36 | 11 / 26 / 51 | 22 / 53 / 107 | 41 / 100 / 204 |
+| Adviser plans at month 36 | 2 | 7 | 11 |
+| Recurring revenue (ARR) at month 12 / 24 / 36 | KES 2.7m / 4.7m / 6.1m | KES 6.0m / 11.4m / 15.7m | KES 12.6m / 22.5m / 31.2m |
+| ARR at month 36 in USD | 47,000 | **120,000** | 240,000 |
+| Cash in, years 1 / 2 / 3 | KES 4.0m / 5.2m / 6.5m | KES 9.9m / 12.4m / 16.7m | KES 21.1m / 24.5m / 33.1m |
+| Costs, years 1 / 2 / 3 | KES 6.1m / 5.3m / 6.1m | KES 7.7m / 7.0m / 8.7m | KES 10.3m / 9.5m / 11.8m |
+| Year-3 profit before founder pay and tax | about KES 0.5m | **about KES 7.9m (USD 61,000)** | about KES 21.3m (USD 164,000) |
+| Operating break-even (trailing 12 months) | month 27 (Jan 2029) | month 12 (Oct 2027) | month 12 |
+| Cumulative cash positive for good | not within 36 months | about month 5-6 (Mar-Apr 2027) | month 3 |
+| Peak cash need: 04 model / **adjusted here** | 2.9m / **about 3.5m-4m** | 1.1m / **about 1.5m-2.5m** | 0.7m / **about 1m-2m** |
+| With founder pay of KES 400,000 a month from month 13 | peak about KES 12m: **the kill criteria must stop this** | still about KES 5m cumulative cash at month 36 (04: 6.0m before my adjustments) | fine |
+| Blended acquisition cost, year 1 | about KES 68,000 | about KES 44,000 | about KES 35,000 |
+
+**Unit economics (base, my estimates from the 04 file):** acquisition cost about KES 44,000; first-year Comply price about KES 95,000 at about 85% gross margin; payback 6-7 months; about 2.9 paid years per subscriber (75% then 85% renewal, capped at 4 years); lifetime value about KES 270,000-300,000; **lifetime value to acquisition cost about 6**. The limit is the pool, not the unit economics.
+
+**What the numbers mean.**
+- **The kit rush pays for the build.** In the base case, prepaid kits cover the advocate, the security test and set-up by about month 5-6. The main financial risk is not cash. It is the founder's time spent on a market that stays small.
+- **Set aside KES 4m (about USD 31,000).** That covers the low case without founder pay. The kill criteria in §13 stop the low case before founder pay makes it a KES 12m hole.
+- **Founder income from Kenya alone is modest:** about KES 400,000 (USD 3,100) a month from year 2 in the base case. A real income needs Uganda, then Tanzania.
+- **The base case is plausible but not safe.** It needs about 6% of likely applicants to buy a kit in a 9-10-week window, and about 14% of the serviceable base on Comply by 2029. The re-assessment assumed 10-15%. The two things that move it most are the share of dormant licences among the 281 and the unmeasured offline pool.
+- **Tax:** the Kenyan company pays 30% corporate tax on profit ([PwC](https://taxsummaries.pwc.com/kenya/corporate/taxes-on-corporate-income)), or turnover tax if eligible.
+
+**Exit.** Small bootstrapped SaaS firms sell for about 2.5-4x revenue ([beancount.io](https://beancount.io/blog/2026/07/11/bootstrapped-saas-valuation-multiples-2026-acquire-com-indie-founders-guide)). On the base case that is **about USD 300,000-480,000** at month 36. A single-country tool that depends on one rule is worth less than the average; a second country or an embed in loan software raises it. A two-country business at about USD 250,000 ARR might fetch USD 600,000-1m (my estimate). Likely buyers: loan-software vendors (Kovara, SuperLMS, Craft Silicon), compliance or KYC vendors (Trigarc, YouVerify, Smile ID), credit bureaus, or a larger law firm wanting a white-label service.
+
+---
+
+## 11. Regional expansion
+
+The engine carries over: dossier tracker, policy generator, registers, calendar and adviser dashboard. Each country needs a new legal layer, a local advocate and about **KES 0.8m-1.2m** for content, a security retest and a launch trip (my estimate).
+
+| Country | Comparable buyers | Rules | Notes | When |
+|---|---|---|---|---|
+| **Uganda** | **1,302 licensed money lenders** (UMRA, Sep 2023) ([Eagle Online](https://eagle.co.ug/2024/10/03/money-lenders-association-pledge-to-clean-up-industry-after-musevenis-roar)) | Tier 4 Microfinance Institutions and Money Lenders Act 2016; the regulator runs compliance workshops ([UMRA](https://umra.go.ug/ed-umra-at-the-money-lenders-workshop-on-compliance-requirements/), search summary) | English; a money lenders' association (AMLU) pledging clean-up. Paddle charges Uganda VAT (18%) on B2C only, so B2B buyers self-account (unverified) ([Paddle](https://paddle.com/help/sell/tax/which-countries-does-paddle-charge-sales-tax-or-vat-for/)). No product found (not searched in depth) | **Second market.** Research from month 12; launch about month 18-24 if the month-12 milestone is met |
+| **Tanzania** | **2,938 licensed Tier 2 lenders** (Dec 2025), up from 2,342; 596 licensed in 2025 ([BoT BSAR 2025](https://www.bot.go.tz/Publications/Other/Banking%20Supervision%20Annual%20Reports/en/2026070216351588.pdf)) | Microfinance Act 2018; complaint-handling and reducing-balance rules (same report) | **All Tier 2 lenders had to join TAMFI or TAMIU**, now self-regulatory bodies ([BoT notice](https://bot.go.tz/Adverts/PressRelease/en/2025080713474874.pdf)): two channels reach every buyer. Needs Swahili. Ability to pay probably lower (unverified) | Third market, about month 24-30, through TAMFI or TAMIU |
+| Rwanda | about 209-250 non-deposit lenders (search summary; unverified) | New rules in July 2026; new licensing paused; 7 licences revoked ([New Times](https://www.newtimes.co.rw/article/38408/news/rwanda/bnr-suspends-licensing-of-new-non-deposit-taking-lenders)) | Small pool | Later |
+| Nigeria | 521 registered digital lenders ([Nairametrics](https://nairametrics.com/2026/01/07/loan-apps-521-companies-now-on-fccpcs-radar-as-january-deadline-lapses/)) | A court restrained the 2025 rules in June 2026 ([Nairametrics](https://nairametrics.com/2026/06/28/fccpc-denies-approving-48-loan-apps-rejects-505-lenders-claim/)) | Crowded local vendor scene | Watch only |
+| Zambia | 31 non-deposit MFIs ([FRED/IMF](https://fred.stlouisfed.org/series/ZMBFCIOFMFNNUM)) | | Too small | No |
+
+Kenya (about 800), Tanzania (2,938), Uganda (1,302) and Rwanda (about 230) give roughly 5,000 lenders in East Africa (my arithmetic). Uganda at the Kenyan base-case share would add about 1.5 times Kenya's subscriber count, at lower prices (unverified).
+
+---
+
+## 12. Risks and mitigations
+
+| Risk | Likelihood | Mitigation |
+|---|---|---|
+| **LN 191 differs from the draft** (threshold wording, policy set for registered firms, complaint clocks, returns, late-fee mechanics) | Medium | Get the text in week 1; every rule carries a source flag; content released with diffs; advocate sign-off before sale |
+| **The kit misses the rush** (launch after mid-December; applicants start too late for police certificates) | Medium | Concierge pilots in November; partner firms sell kits made with the tool; back-scheduled warnings from day one; pending applicants and KES 20m conversions are buyers after March too. A deadline extension would help |
+| **Advocate or test slot slips** past mid-November | Medium | Book both in week 0; a second quote for each; concierge sales with advocate-checked documents if the app slips |
+| **Advocates Act s.34 or fee-sharing** limits the offer | Medium | Self-service software; advocate-approved clauses; the advocate bills reviews; written opinion in week 1 |
+| **Tax friction while selling from abroad** (withholding, digital-presence tax, card declines) | High for licensed lenders | Paddle for VAT; tax clause; tax adviser's view in October; Kenyan company on a trigger (§9) |
+| **The small-lender pool shrinks** after the KES 250,000 fee; many of the 281 are dormant | Medium | Low registered-tier price; check which of the 281 have a live website or app before outreach; target licensed lenders and advisers; Uganda |
+| **Recurring urgency is weak** (no CBK conduct penalty published since 2022) | Medium | Sell on the automatic 31 Dec late charge, the ODPC and Competition Authority fines, and Google Play's licence rule; measure first-year renewal |
+| **CBK publishes model policies or a checklist** | Low-medium | Value moves to Comply's registers and calendar; adopt CBK's models as base content |
+| **Kovara, SuperLMS or Trigarc add an NDTCP module** | Medium | Partner first (embed or referral); move fast on content; price below their core systems |
+| **Breach of directors' criminal-record and credit documents** | Low | Track-only mode; deletion 90 days after CBK decides; field encryption; two-factor login; audit log; external test; agents never see customer data; cyber insurance |
+| **AI-written code has security holes** | Medium | Tests first; cross-tenant tests for every model; review agent; static analysis; founder reads all login, tenancy, file and billing changes; external test |
+| **Founder becomes the review bottleneck** for parallel agents | Medium | At most 5-6 streams; small pull requests; a cut list ready |
+| **CBK treats the SaaS as outsourcing**; lenders hesitate to put registers abroad | Medium | CBK-access clause; notice generator; EU hosting; one-page security sheet; export any time |
+| **Consent friction** for sensitive data hosted abroad | Medium | Clear consent screen; track-only mode |
+| **Liability** for a refused application | Low-medium | Liability cap; kit promise capped at the kit fee; advocate review tier; insurance |
+| **Founder abroad** | Certain | Nairobi part-time person from month 2; local phone number; quarterly trips; partners do face-to-face work |
+| **Tax-law churn** (a Finance Act every July) and FX | High / medium | Check each Finance Act in June; "excl. VAT and withholding" terms; KES prices reviewed yearly |
+
+---
+
+## 13. Milestones and kill criteria
+
+| When | Target (base) | Stop or pivot if |
+|---|---|---|
+| **1 Nov 2026** (day 21) | 20 discovery calls; at least 5 lenders say they would pay KES 6,500-13,000 a month; 1 partner advocate signed; LN 191 read | **Fewer than 3 positive calls and no advocate:** stop, or pivot to an advisers-only tool. **LN 191 drops the policy set or the dated duties:** re-plan |
+| **30 Nov-1 Dec 2026** | Sellable release: advocate-reviewed content, test passed, Paddle live | **Slips past 15 Dec:** drop kit marketing; sell Comply only |
+| **15 Dec 2026** | 5 paying pilots or kits; 2 partner firms | **Fewer than 2 partners and fewer than 5 paying customers:** stop |
+| **31 Mar 2027** | 40 kits; 15 Comply subscribers; Kenyan-company trigger review (§9) | **Fewer than 15 kits:** treat as the low case, cut paid ads, and continue only with 10 or more Comply subscribers |
+| **Oct 2027** (month 12) | 53 Comply subscribers; ARR KES 6m; 2 adviser plans | **Fewer than 25 subscribers or ARR under KES 3m:** stop new spending; run as a side business or sell to a loan-software vendor |
+| **Jan-Mar 2028** | First renewals of 75% or more | **Below 60%:** the product is not sticky; stop or sell |
+| **Oct 2028** (month 24) | 84 subscribers; ARR KES 11m; Uganda research done | **ARR under KES 5m:** no regional expansion |
+| **Oct 2029** (month 36) | 107 subscribers; ARR KES 15.7m; Uganda live | |
+| **Any time** | | CBK ships free model policies *and* a tracking tool, or a loan-software vendor bundles NDTCP compliance free: re-plan within 30 days |
+
+---
+
+## 14. Open questions to settle first
+
+1. **The LN 191 text.** Threshold wording (at least or more than KES 20m); late-fee mechanics; whether the 7-day, 48-hour and 30-day complaint clocks survived (and calendar or working days); whether registered firms file full policies or briefs; scope carve-outs (BNPL, PAYG, hire purchase, foreign and intra-group lenders); the returns list; agent fees; reg 60 details. Source: Kenya Gazette, the Government Printer or the partner advocate.
+2. **Advocates Act s.34, s.44 and fee-sharing.** Can we sell generated policies and templates? How may the partner advocate be paid? Written opinion.
+3. **Outsourcing.** Does CBK treat a compliance SaaS holding a lender's registers as "outsourcing" needing 30 days' notice?
+4. **Paddle.** Which Paddle entity invoices Kenyan buyers (this sets the treaty rate if a buyer withholds)? Does Paddle carry the digital-presence tax? Can it take invoices paid by bank transfer?
+5. **Withholding.** Does KRA treat a SaaS subscription as a "royalty" under the Finance Act 2026 wording? Kenyan tax adviser's written view.
+6. **The real pool.** How many of the about 620 unlicensed applicants are live (ask CBK or DFSAK)? How many of the 281 are dormant (check websites and apps)?
+7. **Competitor prices.** What do small Nairobi firms charge for one application? Ask 3-5 for a quote.
+8. **Card acceptance.** Share of Kenyan business cards that decline foreign online payments; M-Pesa GlobalPay's current limits.
+9. **CBK systems.** Is the GDI portal used for NDTCP registrations as well as licences? Does the API data-submission test apply to registered firms? What are the BSA templates and frequencies?
+10. **Data protection.** Is the ODPC cross-border guidance final? Must the foreign company register as a processor now, and can it without a KRA PIN?
+11. **Deadline.** Will CBK extend about 29 Mar 2027?
+12. **Insurance and trademark.** Kenyan quotes for professional indemnity and cyber cover; the KIPI fee.
+
+---
+
+## 15. Next steps this week (Sat 10 to Fri 16 Oct 2026)
+
+1. **Decide** to run the 8-week test, and set aside **KES 4m (about USD 31,000)**.
+2. **Get LN 191.** Order the gazetted text from the Government Printer, or ask the shortlisted firms to send it; diff it against the draft the day it arrives.
+3. **Brief advocates.** E-mail 3 small Nairobi firms from the DCP-guide list (for example Mwirigi, Afrilink, WeComply Labs, Kazi Legal). Ask for: a fixed fee to draft and review the template set; written opinions on s.34, fee-sharing, outsourcing and consent; and their own price for one licence application.
+4. **Book the penetration test** for the week of 16 Nov, with a second quote as backup.
+5. **Start the build** on Mon 12 Oct: repository, `CLAUDE.md`, S0 foundation, synthetic test lenders.
+6. **Put up the landing page** with the free checker, a waitlist and the 29 March countdown.
+7. **Book 20 discovery calls** from the CBK directory by phone and LinkedIn (no bulk e-mail), split between licensed lenders, pending applicants and offline lenders.
+8. **Open a Paddle account** and send the questions in §14 item 4.
+9. **Ask a Kenyan tax adviser** for a short written view on withholding and the digital-presence tax in the Paddle phase, and on the company triggers in §9.

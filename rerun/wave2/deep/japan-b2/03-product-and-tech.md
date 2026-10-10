@@ -1,7 +1,7 @@
 # Japan animal-business records tool: product and technical design
 
-Part 3 of the Japan B2 deep dive: product, technical design and development plan. Written 10 Oct 2026. Status: draft complete, being checked.
-Builds on [the B2 report](../reports/japan-b2.md), [01 law and requirements](01-law-and-requirements.md) and [02 market](02-market-and-competition.md). "R1-R53" below are the numbered requirements in the 01 file's "PRODUCT REQUIREMENTS" list. "My estimate" marks numbers I derived. "(unverified)" marks facts I could not confirm. Money: ¥150 = US$1 is assumed (unverified rate, same as the 02 file).
+Part 3 of the Japan B2 deep dive: product, technical design and development plan. Written 10 Oct 2026. Status: complete (10 Oct 2026).
+Builds on [the B2 report](../reports/japan-b2.md), [01 law and requirements](01-law-and-requirements.md) and [02 market](02-market-and-competition.md). "R1-R54" below are the numbered requirements in the 01 file's "PRODUCT REQUIREMENTS" list. "My estimate" marks numbers I derived. "(unverified)" marks facts I could not confirm. Money: ¥150 = US$1 is assumed (unverified rate, same as the 02 file).
 
 ## Summary
 
@@ -12,7 +12,7 @@ Builds on [the B2 report](../reports/japan-b2.md), [01 law and requirements](01-
 - **Stack for a solo founder with AI agents:** one Django monolith (Python), PostgreSQL, server-rendered pages with HTMX, WeasyPrint with Noto Sans JP for A4 PDFs, openpyxl to fill the official Excel form. Host on AWS Lightsail in Tokyo, with backups in Osaka. E-mail reminders in the MVP. LINE reminders in v1, because LINE has over 100 million monthly users in Japan ([Impress Watch](https://www.watch.impress.co.jp/docs/news/2081911.html)).
 - **Privacy:** the breeder is the controller of buyers' names and addresses; we are its contractor (委託先). A foreign vendor counts as a "third party in a foreign country" under the privacy law (APPI Art. 28). That needs consent, an equivalent country, or a contract-based set-up. **If the founder's company sits in the EU/EEA or the UK, this is easiest, because Japan's privacy regulator (PPC) treats those as equivalent** ([PPC](https://www.ppc.go.jp/enforcement/cooperation/cooperation/sougoninshou/)). Elsewhere, sign APPI-standard contract terms and publish the country information.
 - **New legal risk found: the scrivener law (行政書士法).** Since 1 January 2026, Art. 19(1) bans non-scriveners from preparing documents for government offices at another's request for pay "under any name" ([JEMCA notice](https://www.jemca.or.jp/wp-content/uploads/2026/01/gyoiseisyoshihoukaisei.pdf)). A self-service tool where the user enters data and files the report is probably outside this (my reading). But a paid "we prepare your report" pack is risky. Drop the 02 file's ¥4,980 "report season pack" as a document service unless a lawyer approves it. Get a written opinion in week 1.
-- **Running cost is small:** about US$32-65 a month at 50 customers, US$165-265 at 300 and US$400-610 at 1,000 (my estimates). That is about 5-16% of revenue at ¥14,800 a year per customer.
+- **Running cost is small:** about US$32-100 a month at 50 customers, US$165-265 at 300 and US$400-610 at 1,000 (my estimates). At ¥14,800 a year per customer that is about 5-11% of revenue from 300 customers up, and up to about a quarter at 50 customers if LINE is on a paid plan.
 - **Build plan:** MVP feature-complete in about 3.5 weeks (start Mon 12 Oct 2026, ready about 6 Nov). Then expert review, pilots on last year's data, lawyer review and an external security test. Paid launch about Mon 7 Dec 2026 (week 9). v1 (LINE, Excel import, photo import of paper ledgers, chip CSV, free report calculator) ships by end of February 2027, before the 1 April - 30 May 2027 report window. 30 May 2027 is a Sunday. The local government holiday rule may move the legal deadline to Monday 31 May (地方自治法 Art. 4-2(4), my reading; [Shugiin text of the 1988 amendment](https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/houritsu/11319881213094.htm)). But authorities publish "30 May" even when it falls on a weekend; Kumamoto did so for Saturday 30 May 2026 ([Kumamoto](https://www.pref.kumamoto.jp/soshiki/30/167649.html)). So remind for 30 May and treat 31 May only as a fallback.
 - **Cash to a sellable product:** about US$5,600-16,200 (¥0.84-2.4 million), most likely about US$9,000-12,000. The biggest lines are the security test, the lawyer, the domain expert and Japanese-language help. First-year running cash after launch is about US$5,000-13,000. No salaried developers.
 
@@ -65,7 +65,8 @@ The legal source for each feature is in the 01 file's duty table and requirement
 | Microchip fitting and registration (#27-#28) | Chip fields, deadlines, handover block, bulk CSV export | R39-R42 |
 | Answer inspections (#30) | Inspection pack | R47-R48 |
 | Privacy, language, archive | APPI measures, Japanese A4 output with era dates, archive after cancellation | R49-R52 |
-| Other-mammal standards, expected spring 2027 | Rule toggles by effective date | R53 |
+| Other-mammal standards, expected spring 2027 | Rule toggles by effective date | R54 |
+| Buying in from another business (#7, #15) | Intake screen with supplier check and birth-date plausibility | R53 |
 
 ### Feature map
 
@@ -73,16 +74,16 @@ The legal source for each feature is in the 01 file's duty table and requirement
 |---|---|---|---|
 | **Setup** | Business, sites, registrations (category, number, dates); site address to receiving authority (67 authorities plus delegated core cities); duty engine switches records on and off (R1-R5); staff with hours | Registration certificate photo read by AI; look-up in published registers (Fukuoka, Kagoshima City) | Multi-site chain admin |
 | **Animal ledger** | Dogs and cats one per animal; others by breed lot (R6); 13 items with legal fallbacks (R7); events (born, acquired, sold, handed over, rented, returned, died); counterparties; photo attachments; correction history; no hard delete (R10); opening balance wizard; "own pet, not for business" flag | Excel import of Tokyo 都参考様式1-4 and other common sheets (R13); photo import of paper ledgers (AI reads, user confirms); bulk litter actions | Barcode or chip-reader shortcuts beyond keyboard input |
-| **Sales** | Sale wizard: age, chip and observation checks; 18-item explanation sheet PDF from animal and breed data; confirmation by on-screen signature or photo of the signed paper; B2B document and receipt (R23-R24); certificates handed over (R26) | Display card print (R25); ad footer and sign data (R27); breeding-log copy for B2B buyers (R33) | Customer-facing e-mail of the sheet; POS link (Square, STORES) |
+| **Sales** | Sale wizard: age, chip and observation checks; 18-item explanation sheet PDF from animal and breed data; confirmation by on-screen signature or photo of the signed paper; B2B document and receipt (R23-R24); certificates handed over (R26); intake from a business with supplier check and birth-date plausibility (R53) | Display card print (R25); ad footer and sign data (R27); breeding-log copy for B2B buyers (R33) | Customer-facing e-mail of the sheet; POS link (Square, STORES) |
 | **Breeding** | Matings, litters, lifetime litter count, dog and cat limits (R30-R32); caesarean certificates (R34); 56/49-day sale lock (R28) | Heat and due-date calendar; history entry of past litters with proof photos | Genetics, pedigrees (not a legal duty) |
 | **Health and staff** | Yearly vet check due dates and certificates (R35); daily check log (R36); staff ratio warning (R38); 2-day observation timer (R29) | Monthly self-check against the MOE checklist (R48); training and staff-briefing records (R45) | Vet system links |
 | **Microchips** | Chip number (15 digits, Japan code 392) with format check; fitting and registration deadlines; handover block (R39-R40, R42) | MOE bulk CSV export, versioned format (R41) | Direct submission, only if MOE ever opens an API |
-| **Annual report** | Per-registration computation, reconcile, death-rate warning, 様式第十一の二 Excel and PDF, authority addressee, channel helper, submission record, reminders from 1 April (R14-R22) | Free public "report calculator" from an uploaded Excel ledger (lead magnet, no account) | Pre-filled e-mail sending where an authority accepts e-mail |
+| **Annual report** | Per-registration computation, reconcile, death-rate warning, 様式第十一の二 Excel and PDF, authority addressee, channel helper, submission record, reminders from 1 April (R14-R22) | Free public "report calculator" from an uploaded Excel ledger (lead magnet, no account). It shows monthly totals only and is free, to stay clear of the scrivener law (see liability) | Pre-filled e-mail sending where an authority accepts e-mail |
 | **Inspection** | Inspection pack for a date range: one merged PDF plus Excel files (R12, R47) | Offline read-only view on the phone (PWA cache) | Time-limited share link for an inspector (only if authorities want it) |
 | **Reminders** | E-mail; dashboard task list | LINE Official Account messages; weekly digest | SMS for users without LINE |
 | **Admin duties** | Registration expiry dates | Renewal window, change-notice and closure timers (R43-R44); health and safety plan versions (R46) | — |
 | **Account** | Roles (owner, staff); audit log; billing; free tier up to 5 animals; full export; archive plan after cancellation (R52) | Read-only viewer role; LINE Login | Partner feeds to auctions and marketplaces |
-| **New rules** | Rules carry effective dates | Other-mammal standards switched on when in force (R53) | Type-2 rescue mode (R4); boarding/training trade-log plan |
+| **New rules** | Rules carry effective dates | Other-mammal standards switched on when in force (R54) | Type-2 rescue mode (R4); boarding/training trade-log plan |
 
 ### Why this cut for the MVP
 
@@ -114,7 +115,7 @@ The legal source for each feature is in the 01 file's duty table and requirement
 ### Flow 3: Buying in (shop, or breeder buying stock)
 
 1. Scan or type the chip number. A reader in keyboard mode types it into the field (Datamars pocket readers offer USB "keyboard wedge" and Bluetooth, [Datamars datasheet](https://pet.datamars.com/wp-content/uploads/2025/03/DS001097-datasheet-animal-ID.pdf)). Full-width digits are normalised.
-2. Enter the supplier (registration number for businesses), date, breed, birth date and breeder (R7). Attach the B2B document and the breeding-log copy received.
+2. Enter the supplier (registration number for businesses), date, breed, birth date and breeder (R7). Record when and how the supplier was asked whether it breaks animal-trade laws. Run the birth-date plausibility checks (teeth, weight against the 57-day mark, match with any caesarean birth certificate). Attach the B2B document and the breeding-log copy received (R53).
 3. The 2-day observation timer starts (R29). The change-of-owner registration deadline starts: 30 days or before handover (R40).
 
 ### Flow 4: Sale to a consumer (target: under 5 minutes of app time)
@@ -187,11 +188,11 @@ All screens are Japanese, phone first (one column, large tap targets, base font 
 | **National holidays** | Deadlines, reminders | Cabinet Office CSV ([syukujitsu.csv](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)) | Free | — | Plus year-end office closure (29 Dec-3 Jan) as a setting. |
 | **Law texts** | Law-change watch | e-Gov law data, e.g. [the Act via API v1](https://laws.e-gov.go.jp/api/1/lawdata/348AC1000000105) | Free | — | Weekly job compares the Act, Rules and Standards and alerts the founder. The other-mammal standards are expected around spring 2027 (01 file). |
 | **Public business registers** (v1) | Prefill business data | Some authorities publish Excel registers (Fukuoka, Kagoshima City; 02 file) | Public data; personal data inside, use only for the user's own record | — | Optional convenience; not a sales list (see privacy). |
-| **LINE Messaging API** (v1) | Reminders | Push messages from a LINE Official Account; plans: free 200 messages a month, Light ¥5,000 for 5,000, Standard ¥15,000 for 30,000 plus pay-as-you-go ([ligla](https://ligla.jp/blog/line-official/cost/); [aurant](https://aurant-technologies.com/blog/line-official-pricing-plan-2026/)); reply messages are free ([LINE manual](https://www.lycbiz.com/jp/manual/OfficialAccountManager/account-settings)) | Paid by volume | — | Extra-message prices change on 1 Oct 2026 (unverified). Whether a foreign company can run a verified account is unverified. |
+| **LINE Messaging API** (v1) | Reminders | Push messages from a LINE Official Account; plans: free 200 messages a month, Light ¥5,000 for 5,000, Standard ¥15,000 for 30,000 plus pay-as-you-go ([ligla](https://ligla.jp/blog/line-official/cost/); [aurant](https://aurant-technologies.com/blog/line-official-pricing-plan-2026/)); reply messages are free ([LINE manual](https://www.lycbiz.com/jp/manual/OfficialAccountManager/account-settings)) | Paid by volume | — | Extra-message prices change on 1 Oct 2026 (unverified). An "unverified" account needs no review and is open to companies, groups and individuals ([LINE guideline](https://www.lycbiz.com/jp/column/line-official-account/guideline/20240805)); creating one needs SMS or call verification of a phone number ([lme](https://lme.jp/media/?p=23680)). Whether a foreign company can get the "verified" badge is unverified; an unverified account is enough for reminders. |
 | **E-mail** | Reminders, receipts | Amazon SES in Tokyo (about US$0.10 per 1,000 e-mails, [AWS SES pricing](https://aws.amazon.com/ses/pricing/), unverified for 2026) | Pay per use | — | SPF, DKIM, DMARC on our domain. |
 | **Claude API** (v1) | Read photographed paper ledgers and registration certificates | Images in, structured rows out; the user confirms every row | Claude Sonnet 5.5 at US$2 / US$10 per million input / output tokens; Haiku 5.5 at US$0.10 / US$0.50 ([Anthropic pricing](https://platform.claude.com/docs/en/about-claude/pricing)) | — | My estimate: about US$0.01-0.03 per ledger page. Personal data goes to a US processor: make it opt-in and disclose it (see privacy). |
 | **Chip readers** | Faster chip entry | Keyboard-wedge USB or Bluetooth readers type the number ([Datamars datasheet](https://pet.datamars.com/wp-content/uploads/2025/03/DS001097-datasheet-animal-ID.pdf)) | User's own hardware | — | No integration needed. Japanese radio certification (技適) of specific readers unverified. |
-| **Billing** | Subscriptions | Stripe or Paddle checkout and webhooks; choice and tax set-up are in the 04 and 05 files | Provider fees | — | Japanese receipts (領収書) as PDF, because sole traders need them for tax returns (my reading). |
+| **Billing** | Subscriptions | Stripe or Paddle checkout and webhooks; choice and tax set-up are in the 04 file | Provider fees | — | Japanese receipts (領収書) as PDF, because sole traders need them for tax returns (my reading). The 04 file's notes say self-serve cloud software sold from abroad is treated as consumer-type, so the foreign seller owes consumption tax, and buyers need a qualified invoice (適格請求書) for input credit ([NTA pamphlet, as cited in 04](https://www.nta.go.jp/publication/pamph/pdf/0024003-087_01.pdf)). So receipts must be able to carry a registration number, the 10% rate and the tax amount, or come from a merchant of record. |
 | **Fonts** | Japanese PDFs | Noto Sans JP ([Google Fonts](https://fonts.google.com/noto/specimen/Noto+Sans+JP)) | SIL Open Font Licence | — | Embed subsets in PDFs. |
 
 **What the portals leave undone (where software adds value).** Every channel above takes a finished number or file. None computes the numbers from the animals, checks them, reminds the user, keeps the 13-item ledger, or shows 5 years of records at an inspection. The chip portal handles one registration per animal unless the user builds a CSV in Excel by hand from a manual. Those gaps are the product.
@@ -211,7 +212,7 @@ PostgreSQL. Every tenant row carries `business_id`. Times are stored in UTC and 
 | `Person` | business, name (PD), role, full-time flag, weekly hours, qualifications, training dates | Staff and responsible persons; ratio uses hours (R38). |
 | `Animal` (個体) | business, site, default registration, species (dog, cat), name, breed code, sex, coat colour, birth date (or estimated + import date), breeder (PD or business), chip number, own-pet flag, dam, sire, status | Dogs and cats only. Status is derived from events. |
 | `BreedLot` (品種等) | business, site, registration, kind (other mammal, bird, reptile), breed name | Quantity tracked by events with counts (R6). |
-| `Event` | animal or breed lot, type (born, acquired, sold, handed over, rented out, returned, died, transferred between registrations), date, quantity, counterparty, staff, registration, reason codes, cause of death | The core. Reports are queries over events. |
+| `Event` | animal or breed lot, type (born, acquired, brought in as breeding parent, sold, given, rented out, returned, retired to own pet, moved to another own site, transferred between registrations, died), date, quantity, counterparty, staff, registration, reason codes, cause of death | The core. Reports are queries over events. |
 | `Counterparty` (取引先) | type (business or consumer), name (PD), registration number or address (PD), how compliance was checked | Items 2, 5, 7, 8 of the ledger (R7-R8). |
 | `Sale` | event, explanation sheet version, explained on, explained by, confirmation (signature image or photo), B2B receipt, certificates handed over | R23-R26. |
 | `Mating` / `Litter` | dam, sire, mating date, expected and actual birth date, live count, stillborn count, dam condition, caesarean flag, vet, certificates | Lifetime count per dam is a stored, recomputable number (R30-R34). |
@@ -222,7 +223,7 @@ PostgreSQL. Every tenant row carries `business_id`. Times are stored in UTC and 
 | `Report` | registration, period start and end, computed grid (JSON), status (draft, final, filed), snapshot hash, filed on, channel, reference, filed file | A final report is a frozen snapshot; later edits to past events show "report differs from ledger" instead of changing the filed copy. |
 | `ChipExport` (v1) | format version, rows, file, created at | Keeps what was sent. |
 | `Task` | type, due date, object, status | Generated by rules; drives reminders. |
-| `RuleSet` | code, effective from, effective to, parameters | E.g. litter limits, sale age, other-mammal standards (R53). |
+| `RuleSet` | code, effective from, effective to, parameters | E.g. litter limits, sale age, other-mammal standards (R54). |
 | `ContentItem` | type (explanation-sheet text, breed library entry, help text, disclaimer), version, reviewed by, reviewed on | Edited in the admin by the founder; reviewed by the expert or vet. |
 | `AuditLog` | who, when, what, before, after, IP, reason | Append-only; hash-chained. |
 
@@ -230,7 +231,7 @@ PostgreSQL. Every tenant row carries `business_id`. Times are stored in UTC and 
 
 - **No hard delete inside 5 years.** Corrections write a new version with the old value kept (R10). Deleting an event writes a reversal event.
 - **Birth dates are sensitive.** The 2023 sweep found 50 cases of breaking the 8-week ban, for example by changing birth dates ([MOE council paper](https://www.env.go.jp/council/content/i_10/000357242.pdf)). Changing a birth date after a sale or after the 56-day point needs a reason and shows on the timeline and in the inspection pack. The product must not make evasion easy.
-- **Report counts** come only from events. "New" = bought + live births + breeding parents brought in (eggs excluded). "Out" = sold + given + retired from rental, exhibition or breeding and handed on + moved to another site of the same business. "Dead" = died. Own pets and stillbirths are excluded ([Tokyo example](https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/teikihoukoku-kisairei2); [Aomori example](https://www.pref.aomori.lg.jp/soshiki/kenko/dobutu/files/20210108kisaireiteikihoukoku.pdf)). Moves between two registrations at the same site need a rule the domain expert confirms (unverified). A rented-out animal that comes back is probably "new" again (unverified).
+- **Report counts** come only from events. "New" = bought + live births + breeding parents brought in (eggs excluded). "Out" = sold + given + retired from rental, exhibition or breeding and handed on + moved to another site of the same business. "Dead" = died. A retired breeder kept on as the owner's pet becomes an "own pet" through a "retired" event that counts as "out" (my reading of the Tokyo example; the 01 file lists it as open). Own pets and stillbirths are excluded ([Tokyo example](https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/teikihoukoku-kisairei2); [Aomori example](https://www.pref.aomori.lg.jp/soshiki/kenko/dobutu/files/20210108kisaireiteikihoukoku.pdf)). Moves between two registrations at the same site need a rule the domain expert confirms (unverified). A rented-out animal that comes back is probably "new" again (unverified).
 - **Period** 1 April to 31 March; a new registration starts on its registration date (R16).
 
 ### Simplified relations
@@ -343,7 +344,7 @@ Phone/tablet browser (HTMX, PWA cache in v1)
 | Item | 50 customers | 300 customers | 1,000 customers |
 |---|---|---|---|
 | App server (Lightsail Tokyo) | 1 × 2-4 GB: 12-24 | 1 × 4-8 GB: 24-44 | 2 × 8 GB + load balancer: about 106 |
-| PostgreSQL (managed) | 1-2 GB standard: 15-30 | 4 GB standard or 2 GB HA: 60 | 4-8 GB HA: 120-230 |
+| PostgreSQL (managed) | 1-2 GB standard: 15-30 | 4 GB standard or HA: 60-120 | 4-8 GB HA: 120-230 |
 | Worker for jobs and PDFs | same box: 0 | 1 × 2 GB: 12 | 1 × 4 GB: 24 |
 | Object storage + Osaka copy | 1-3 | 3-5 | 5-10 |
 | E-mail (SES) | about 1 | about 2 | about 5 |
@@ -351,10 +352,10 @@ Phone/tablet browser (HTMX, PWA cache in v1)
 | Error tracking, uptime | free tiers: 0 | about 26 | 26-80 |
 | Claude API (photo import) | 1-5 | 5-20 | 15-50 |
 | Domain and misc. | 2 | 2 | 5 |
-| **Total** | **about 32-65** | **about 165-265** | **about 400-610** |
-| Per customer per month | about 0.65-1.30 | about 0.55-0.88 | about 0.40-0.61 |
+| **Total** | **about 32-100** | **about 165-265** | **about 400-610** |
+| Per customer per month | about 0.65-2.00 | about 0.55-0.88 | about 0.40-0.61 |
 
-Revenue check: at ¥14,800 a year (about US$8.2 a month; 02 file price) infrastructure is about 8-16% of revenue at 50 customers, 7-11% at 300 and 5-7% at 1,000 (my arithmetic). Error-tracking prices (Sentry Team about US$26 a month) are unverified for 2026. LINE plan prices are from third-party summaries, and extra-message prices change on 1 October 2026 ([aurant](https://aurant-technologies.com/blog/line-official-pricing-plan-2026/)).
+Revenue check: at ¥14,800 a year (about US$8.2 a month; 02 file price) infrastructure is about 8-24% of revenue at 50 customers (8-16% if LINE stays on the free plan), 7-11% at 300 and 5-7% at 1,000 (my arithmetic). Error-tracking prices (Sentry Team about US$26 a month) are unverified for 2026. LINE plan prices are from third-party summaries, and extra-message prices change on 1 October 2026 ([aurant](https://aurant-technologies.com/blog/line-official-pricing-plan-2026/)).
 
 ## Development plan
 
@@ -492,7 +493,7 @@ Japanese-language customer support during April-May is the hidden cost. It belon
 6. Does MOE or any prefecture accept an on-screen signature as the customer's confirmation (署名等) for the face-to-face explanation?
 7. Does Tokyo's LoGo form take only the Excel upload, or also typed numbers? (Kumamoto's takes a file upload; Tokyo's did not render for me.)
 8. Would an authority refuse a report filed on Monday 31 May 2027, given that it publishes 30 May (a Sunday) as the end date? (Affects reminders in 2027.)
-9. Can a foreign company open and verify a LINE Official Account and use the Messaging API?
+9. Does LINE account creation need a Japanese phone number, and can a foreign company get the "verified" badge? (An unverified account is open to any company and is enough for reminders.)
 10. Will a vet agree to review the breed library, and at what fee? Is there a licensable source for adult sizes and common diseases?
 11. Are there Japanese-certified (技適) Bluetooth chip readers that work in keyboard mode with phones?
 12. How many pilots will share their filed FY2025 reports for the dry run?
@@ -548,6 +549,9 @@ Vendors, prices and tools:
 - https://ligla.jp/blog/line-official/cost/
 - https://aurant-technologies.com/blog/line-official-pricing-plan-2026/
 - https://www.lycbiz.com/jp/manual/OfficialAccountManager/account-settings
+- https://www.lycbiz.com/jp/column/line-official-account/guideline/20240805
+- https://lme.jp/media/?p=23680
+- https://www.nta.go.jp/publication/pamph/pdf/0024003-087_01.pdf (as cited in the 04 file's notes)
 - https://www.watch.impress.co.jp/docs/news/2081911.html
 - https://webtan.impress.co.jp/n/2023/09/01/45535
 - https://pet.datamars.com/wp-content/uploads/2025/03/DS001097-datasheet-animal-ID.pdf

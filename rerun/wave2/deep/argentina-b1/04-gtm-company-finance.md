@@ -453,7 +453,12 @@ What the numbers mean:
 - **Cash need is small because AI agents replace a dev team.** A hired team would add USD 40,000-80,000 before launch (my estimate, unverified). With agents, about USD 25,000 covers the base case without founder pay. Plan for USD 50,000 to allow for founder pay or a slow start.
 - **Founder income is thin in Argentina alone.** The base case pays a modest founder salary only from year 3. Colegio deals, accountants and Uruguay are the levers.
 - **The low case shows by month 6.** About 18 accounts against a base target of 41. That is the first kill checkpoint.
-- **Sensitivity.** Price matters more than volume. Moving base revenue per account from USD 23 to USD 18 cuts year-3 profit by about USD 15,000 (my calculation from the model). A colegio deal is worth about 30-40 Solo accounts.
+- **Sensitivity (base case, my model runs):**
+  - USD 5 less a month per broker account (USD 16 / 18 / 20 instead of 21 / 23 / 25): year-3 profit falls from about USD 44,600 to USD 32,700.
+  - No colegio deals: year-3 profit about USD 27,700, and ARR at month 36 about USD 105,000.
+  - Monthly churn of 3% instead of 2%: 234 accounts at month 36 instead of 268, and year-3 profit about USD 38,000.
+  - Peak cash need stays at USD 25,000-28,000 in all three.
+  - One USD 8,000 colegio deal equals about 27 average broker accounts, or about 50 Solo annual plans.
 
 ## Regional expansion
 

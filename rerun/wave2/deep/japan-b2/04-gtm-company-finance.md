@@ -1,6 +1,6 @@
 # Japan animal-business records tool: go-to-market, payments, company setup and financials (deep dive 04)
 
-Date: 10 Oct 2026. Status: IN PROGRESS (sections are filled in order; see the end of the file for what is still open). Builds on [the B2 report](../reports/japan-b2.md), [01 law](01-law-and-requirements.md) and [02 market](02-market-and-competition.md).
+Date: 10 Oct 2026. Status: complete (resumed after an interruption; bank-transfer, Stripe-fee, small-amount-rule and postage points re-checked on 10 Oct 2026). Builds on [the B2 report](../reports/japan-b2.md), [01 law](01-law-and-requirements.md) and [02 market](02-market-and-competition.md).
 
 Conventions:
 - Money is in yen (¥). Planning rates: ¥158 = US$1 and ¥177 = €1, from the Bank of Japan 5 pm rates of 2 Oct 2026 (USD/JPY 157.57, EUR/JPY 177.43) ([BoJ](https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261002.pdf)). The 02 file used ¥150; the difference does not change any conclusion.
@@ -26,7 +26,7 @@ Conventions:
   Year-1 marketing is **¥2.0M (US$12,700)**, plus a part-time Japanese contractor at about ¥100,000 a month.
 - **Payments: Stripe from the founder's company, in yen, with no JCT added.** Japanese Visa, Mastercard, JCB and Amex work on foreign Stripe accounts in the EEA, UK, US and others ([Stripe](https://docs.stripe.com/payments/cards/supported-card-brands)). Fees are about 6% on an annual plan and 9% on a monthly one ([Stripe IE](https://stripe.com/ie/pricing)).
   - Konbini and PayPay need a Japanese company.
-  - Bank-transfer buyers can pay into a JPY account with local bank details (Airwallex).
+  - Bank transfer is the weak spot. Airwallex and Wise give foreign firms no domestic JPY details (Airwallex JPY is SWIFT-only), so a Japanese buyer would pay about ¥3,000 to wire abroad ([Airwallex help](https://help.airwallex.com/hc/en-gb/articles/900001759623-Which-currencies-can-I-get-a-Global-Account-in-and-what-payments-can-I-receive); [MUFG](https://www.bk.mufg.jp/tesuuryou/gaitame.html)). Test Payoneer's local JPY receiving account; otherwise bank transfer waits for a Japanese company.
 - **Tax friction is low.**
   - Self-serve SaaS is a "consumer-type" electronic service. So the foreign seller, not the buyer, owes JCT, but only once its Japanese sales pass ¥10M in a base year ([NTA](https://www.nta.go.jp/publication/pamph/pdf/0024003-087_01.pdf)). In the base case that is about 2031.
   - Most buyers are tax-exempt or use simplified taxation, so a JCT-free price is cheaper for them and neutral for the rest.
@@ -150,7 +150,7 @@ Start Monday 12 October 2026. Day 90 is Saturday 9 January 2027. The MVP takes a
 - Hire the Japanese contractor (outreach, interviews, support), 40 hours a month.
 - Engage a 行政書士 who handles 動物取扱業 registrations: fixed fee to review the ledger fields, report output and article content, plus a written view on the 行政書士 Act question. Ask whether they want to be the first referral partner.
 - Engage a Japanese lawyer for the terms, privacy policy and data-processing terms.
-- Set up Stripe (JPY, Billing, Japanese checkout) and, if available, an Airwallex JPY account. Get a Tokyo virtual office and an 050 phone number (about ¥12,000 a month in total, my estimate).
+- Set up Stripe (JPY, Billing, Japanese checkout) and apply for a Payoneer JPY local receiving account (test whether a Japanese payer can use it). Get a Tokyo virtual office and an 050 phone number (about ¥12,000 a month in total, my estimate).
 - Check the brand name on J-PlatPat and file a Japanese trademark (budget ¥150,000, unverified).
 - Japanese landing page with a waitlist.
 
@@ -195,7 +195,7 @@ By line item:
 | Search ads (Google, Yahoo! JAPAN), mostly Feb-May | 350,000 | CPC not measured (unverified) |
 | Social ads (Instagram, Facebook, YouTube) to breeders | 250,000 | |
 | Japanese content: 20 articles and 4 short videos by native writers | 250,000 | 行政書士 review sits in the legal budget |
-| Postal letters (about 1,500 × ¥130 print and postage) | 200,000 | postage about ¥110 per letter (unverified) |
+| Postal letters (about 1,500 × ¥130 print and postage) | 200,000 | standard letter postage ¥110 up to 50 g since 1 Oct 2024 ([総務省](https://www.soumu.go.jp/main_content/000979809.pdf); [ecnomikata](https://ecnomikata.com/ecnews/43374/)) |
 | Partner co-marketing (association newsletter, webinar, sample kits) | 150,000 | |
 | LINE official account, webinar and email tools | 60,000 | [LINE](https://ligla.jp/blog/line-official/cost/) |
 | Contingency | 40,000 | |
@@ -215,7 +215,7 @@ The Japanese support and outreach contractor is costed separately in the model: 
 - **There is no withholding tax** on a SaaS subscription paid to a foreign company. It is a service fee, not a royalty.
 - **A merchant of record (Paddle) is worse here.** It adds 10% JCT to a price that would otherwise carry none, and costs about the same in fees.
 - **Konbini and PayPay need a Japanese Stripe account**, so a Japanese company. They are not needed for business buyers.
-- **For buyers who insist on a bank transfer**, open a JPY receiving account with local Japanese bank details (Airwallex offers one).
+- **Bank transfer is the gap.** Foreign fintech accounts mostly cannot receive domestic yen transfers. Try a Payoneer JPY local receiving account; otherwise push cards and accept that strict bank-transfer buyers wait for a Japanese company.
 
 ### Do Japanese cards work with a foreign seller?
 
@@ -227,7 +227,7 @@ The Japanese support and outreach contractor is costed separately in the model: 
 
 - **Card fees:** EEA cards 1.5% + €0.25; UK cards 2.5% + €0.25; **international cards (Japanese cards) 3.15% + €0.25**, plus **2% when currency conversion is needed** ([Stripe Ireland pricing](https://stripe.com/ie/pricing)).
 - **Add-ons:** Stripe Billing (subscriptions) is 0.7% of billing volume. Stripe Invoicing is 0.4% per paid invoice. Stripe Tax is 0.5% per transaction where you are registered (same source). Stripe Tax is not needed while exempt.
-- **Other countries:** UK and US accounts price international cards differently (unverified; check the founder's country).
+- **Other countries (third-party summaries, check Stripe's live page):** a UK account pays 3.25% + 20p for non-EEA cards plus 2% for currency conversion ([Wise guide](https://wise.com/gb/blog/stripe-payments-charges-uk); [Xero](https://www.xero.com/pricing-plans/pricing-and-fees-for-stripe/)). A US account pays 2.9% + 30¢, plus 1.5% for international cards and 1% for conversion ([checkoutpage](https://checkoutpage.com/blog/stripe-international-fees)). So a US company keeps a little more than an EU one (about 5.4% + 30¢ plus Billing), and a UK one a little less (about 5.25% + 20p plus Billing).
 
 **Example: a ¥14,800 annual plan on a euro-based Stripe account** (my arithmetic at ¥177/€):
 - Fees: 3.15% + 2% FX + 0.7% Billing = 5.85%, which is ¥866, plus €0.25 (¥44). Total ¥910, or **6.1%**. Net ¥13,890.
@@ -246,9 +246,11 @@ The Japanese support and outreach contractor is costed separately in the model: 
 ### Bank transfer
 
 - **Bank transfer is still the norm in Japanese B2B.** A 2025 survey of 1,236 small-business owners and sole traders found bank transfer still dominant. About 6 in 10 knew of paying invoices by card and 4 in 10 wanted to ([Infcurion survey via digitalpr](https://digitalpr.jp/r/116809)).
-- **A wire from a Japanese bank to a foreign account is too costly** for a ¥14,800 plan. Fees are several thousand yen (unverified).
-- **Fix: a JPY account with local Japanese bank details.** Airwallex's JPY Global Account gives a branch code and account number that Japanese customers pay into like a domestic transfer. Settlement is about one working day ([Airwallex JPY account](https://www.airwallex.com/au/features/global-accounts/JPY-account)). Which founder countries can open one, and its fees, are unverified. Wise's ability to give a business JPY receiving details was not confirmed.
-- **Use it for:** annual Shop plans, partner invoices and customers who refuse cards. Send a 請求書 (invoice) PDF with the account details. Match payments by hand at first.
+- **A wire from Japan costs the buyer about ¥3,000.** MUFG charges ¥3,000 for an internet-banking remittance to another bank abroad, against ¥154-220 for a domestic transfer ([MUFG foreign-exchange fees](https://www.bk.mufg.jp/tesuuryou/gaitame.html); [MUFG domestic fees](https://www.bk.mufg.jp/tesuuryou/furikomi.html)). Correspondent-bank charges may come on top (unverified). That is 20% of a ¥14,800 plan, so it does not work.
+- **Foreign multi-currency accounts do not fix it.** Airwallex's JPY Global Account receives SWIFT payments only, with no domestic JPY route, and is offered only to Hong Kong, Singapore and Denmark accounts. UK and EEA accounts get no JPY account at all ([Airwallex help centre](https://help.airwallex.com/hc/en-gb/articles/900001759623-Which-currencies-can-I-get-a-Global-Account-in-and-what-payments-can-I-receive)). Wise's UK page lists local account details for eight currencies, and JPY is not one of them ([Wise JPY page](https://wise.com/gb/account/jpy-account)). An earlier draft of this file said Airwallex gives local Japanese details; that was wrong.
+- **One option to test: Payoneer.** Payoneer lists Japan as a "LOCAL JPY" receiving-account market ([Payoneer](https://www.payoneer.com/local-receiving-accounts/)). A user forum says payments arrive over the domestic Zengin network from business accounts in 1-2 days ([ProZ forum](https://connect.proz.com/topic/359222), user-generated). Whether a foreign SaaS company can use it for subscription receipts, and its fees, are unverified.
+- **Fallback.** Card first. A customer who will only pay by bank transfer either pays the wire fee (offer ¥3,000 off the Shop plan to cover it) or waits until the Japanese company exists. Stripe's own Japanese bank-transfer method (1.5%) needs a Japan-based account ([Stripe Japan pricing](https://stripe.com/jp/pricing)).
+- **Use bank transfer (if Payoneer works) for:** annual Shop plans, partner invoices and customers who refuse cards. Send a 請求書 (invoice) PDF with the account details. Match payments by hand at first.
 - The buyer pays the domestic transfer fee, as is normal in Japan (unverified).
 
 ### Buyer-side tax: how JCT treats this sale
@@ -258,7 +260,7 @@ The National Tax Agency (NTA) pamphlet on cross-border services ([NTA, Jul 2024,
 1. **Cloud software is an "electronic service" (電気通信利用役務の提供).** It is taxed where the customer lives, so a sale to a Japanese breeder is a Japanese domestic sale.
 2. **A self-serve web signup counts as "consumer-type" (消費者向け), even if the site says "for businesses".** The NTA says that a cloud service sold through a website, where sign-ups by non-businesses cannot in practice be blocked, is consumer-type. Only individually negotiated business contracts count as "business-type" (事業者向け). A business-type sale would use reverse charge.
 3. **For consumer-type sales the foreign seller is the taxpayer, not the buyer.** But the foreign seller also gets the small-business exemption (事業者免税点制度).
-4. **The buyer's input-tax credit needs a qualified invoice (適格請求書) from the seller.** The 80/70/50/30% transitional relief for purchases from non-registered sellers **does not apply** to consumer-type services from foreign businesses. **The small-amount rule (少額特例) does apply.** Smaller businesses can deduct purchases under ¥10,000 including tax on their books alone, until 30 Sep 2029. "Smaller" means base-period taxable sales of up to ¥100 million (threshold unverified here; the pamphlet says only 一定規模以下).
+4. **The buyer's input-tax credit needs a qualified invoice (適格請求書) from the seller.** The 80/70/50/30% transitional relief for purchases from non-registered sellers **does not apply** to consumer-type services from foreign businesses. **The small-amount rule (少額特例) does apply.** Smaller businesses can deduct purchases under ¥10,000 including tax on their books alone, until 30 Sep 2029. "Smaller" means base-period taxable sales of ¥100 million or less, or specified-period sales of ¥50 million or less. The test is per transaction, and it applies even when the seller is not registered ([NTA 2023 reform page](https://www.nta.go.jp/publication/pamph/shohi/kaisei/202304/02.htm); [Money Forward](https://biz.moneyforward.com/invoice/basic/60404/)).
 5. **Platform taxation (from 1 Apr 2025)** moves the tax to app-store operators for consumer-type services sold through designated platforms. This only matters if the app is sold through Apple or Google stores.
 
 **What this means for each buyer type** (my reading of the rules above):
@@ -299,14 +301,15 @@ My arithmetic, at ¥158/US$ and ¥177/€.
 | Paddle, keeping the buyer price at ¥14,800 | ¥14,800 | ¥819 | ¥1,345 | ¥12,636 | — |
 | Stripe Managed Payments | ¥16,280 | ~¥1,566 (unverified) | ¥1,480 | ~¥13,234 | — |
 | Stripe Japan through a Japanese GK (3.6% + 0.7% Billing) | ¥14,800 | ¥636 (4.3%) ([Stripe Japan pricing](https://stripe.com/jp/pricing)) | ¥0 for the GK's first 2 years if capital < ¥10M | ¥14,164 | A Japanese company (see next section) |
-| Bank transfer into an Airwallex JPY account | ¥14,800 + the buyer's own transfer fee | FX conversion, about 0.5-1% (unverified) | ¥0 while exempt | ~¥14,700 | Eligible founder country |
+| Bank transfer into a Payoneer JPY receiving account (to be tested) | ¥14,800 + the buyer's domestic transfer fee (¥154-220 at MUFG) | receiving and FX fees, about 1-2% (unverified) | ¥0 while exempt | ~¥14,500 (unverified) | Payoneer approval |
+| SWIFT wire from the buyer's bank | ¥14,800 + about ¥3,000 wire fee | our bank's incoming and FX fees (unverified) | ¥0 while exempt | ~¥14,000-14,500 (unverified) | Nothing; but buyers will balk |
 
 Stripe Japan also offers konbini at 3.6% (minimum ¥120), bank transfer at 1.5% and PayPay at 3.98% ([Stripe Japan pricing](https://stripe.com/jp/pricing)).
 
 ### Setup checklist
 
 1. Stripe on the founder's company: JPY prices, Stripe Billing, Japanese-language Checkout and customer portal, 3-D Secure on.
-2. Airwallex (or similar) JPY receiving account, if the founder's country is eligible.
+2. Payoneer JPY local receiving account: apply, then test one real transfer from a Japanese pilot customer before offering bank transfer.
 3. Japanese receipt template: seller name and address, "消費税：免税事業者のため対象外", plan, period.
 4. Japanese FAQ on why there is no qualified-invoice number. Point 原則課税 buyers to the monthly plan (small-amount rule).
 5. A spreadsheet that tracks Japanese receipts by calendar year and by half-year against the ¥10M tests. Act at ¥7M.
@@ -317,7 +320,7 @@ Stripe Japan also offers konbini at 3.6% (minimum ¥120), bank transfer at 1.5% 
 
 **Do not open a Japanese company at launch.** Sell from the founder's company abroad with Stripe, as above. Open a Japanese 合同会社 (GK, the Japanese LLC) only when one of these triggers fires:
 1. Japanese receipts approach ¥10 million a year. The foreign company would then need a Japanese tax agent anyway, and a new GK with capital under ¥10 million starts with two JCT-exempt years (my reading of the new-company rule; confirm with a 税理士).
-2. A channel partner (auction house, marketplace, chain) insists on a Japanese counterparty, 請求書払い (pay-by-invoice) or konbini.
+2. A channel partner (auction house, marketplace, chain) insists on a Japanese counterparty, 請求書払い (pay-by-invoice) or konbini, or too many buyers refuse cards. A foreign company cannot cheaply receive domestic yen transfers (see "Bank transfer"); a GK with a Japanese bank account or Stripe Japan can.
 3. The Ministry of Justice starts pressing small foreign online sellers to register (next point).
 4. The founder hires a full-time employee in Japan.
 
@@ -627,7 +630,7 @@ Other countries were not checked.
 | **行政書士 Act** (amended 1 Jan 2026) | Medium / high | Strictly self-serve; no paid form-filling; written legal opinion before launch; done-for-you only through 行政書士 partners. |
 | **Foreign-company registration** (Company Act 817-818) | Low / medium | Self-serve, no Japanese office or staff; GK when a trigger fires (see "Company setup"). |
 | **Crossing the ¥10M JCT threshold unnoticed** | Low / medium | Track receipts by year and half-year; act at ¥7M. |
-| **Japanese cards declined by issuers or Stripe review** | Medium / low | 3-D Secure; bank transfer into a JPY account; explain to Stripe that we sell software, not animals. |
+| **Japanese cards declined by issuers or Stripe review** | Medium / low | 3-D Secure; test a Payoneer JPY receiving account as the bank-transfer route; explain to Stripe that we sell software, not animals. |
 | **Reputation** (the pet-sales trade is criticised publicly) | Medium / medium | Present it as a welfare-compliance tool. Free plan for non-profit shelters. Avoid marketing that praises volume breeding. |
 | **Data breach or privacy complaint** | Low / high | Tokyo hosting region, encryption, backups, security test, breach plan; APPI-compliant data terms; EU or UK seller entity if possible. |
 | **Wrong totals lead to a false report** | Low / medium | Reconciliation and user confirmation before export; terms put filing responsibility on the user; liability cap. |
@@ -655,7 +658,7 @@ Other countries were not checked.
 ## Open questions
 
 1. **Willingness to pay at ¥14,800 a year.** Only interviews can settle it (days 1-14).
-2. **The founder's company country.** It decides Stripe fees, Airwallex eligibility, the APPI route (EU or UK is easiest) and tax-treaty cover.
+2. **The founder's company country.** It decides Stripe fees, Payoneer and bank options, the APPI route (EU or UK is easiest) and tax-treaty cover.
 3. **Does self-serve report software fall under the amended 行政書士 Act?** No source found; get a written opinion.
 4. **Does Company Act Art. 818 reach a small foreign subscription SaaS in practice?** No enforcement against small firms found.
 5. **Paddle's and Stripe Managed Payments' Japanese registration.** Do they issue qualified invoices with a T-number? This only matters once the seller becomes taxable.
@@ -663,7 +666,8 @@ Other countries were not checked.
 7. **Search volume and cost per click** for 定期報告, 帳簿 and 繁殖台帳 keywords in March-May.
 8. **Partner terms:** will auction operators, みんなのペットオンライン or associations promote a tool, and at what fee?
 9. **Real contractor rates** for Japanese-speaking part-time support (assumed ¥2,500 an hour).
-10. **The small-amount rule's size threshold** (assumed ¥100M of base-period sales) and the exact cost of a Japanese tax agent for a registered foreign business.
+10. **The exact cost of a Japanese tax agent** for a registered foreign business. (The small-amount rule threshold is now confirmed: ¥100M of base-period sales.)
+12. **Can a foreign SaaS company receive domestic yen transfers through Payoneer**, and at what fee? If not, bank-transfer buyers wait for the GK.
 11. **The Japanese small-deal M&A market** for vertical SaaS (TRANBI, BATONZ, ラッコM&A): multiples and buyer types.
 
 ## Sources
@@ -701,6 +705,8 @@ Primary sources are marked (P). Third-party sources are marked (3P); treat their
 **Marketing tools and rules**
 - (P) LINE Yahoo, LINE official account notice, Feb 2026: https://www.lycbiz.com/jp/news/line-official-account/20260216/?o=IM0021
 - (3P) ligla, LINE official account costs: https://ligla.jp/blog/line-official/cost/
+- (P) Ministry of Internal Affairs, postal rate revision (¥110 standard letter): https://www.soumu.go.jp/main_content/000979809.pdf
+- (3P) ecnomikata, Japan Post October 2024 rate change: https://ecnomikata.com/ecnews/43374/
 - (P) Ministry of Internal Affairs, anti-spam email law pamphlet: https://www.soumu.go.jp/main_sosiki/joho_tsusin/d_syohi/pdf/m_mail_pamphlet.pdf
 - (3P) Infcurion survey of small businesses on invoice payment, via digitalpr: https://digitalpr.jp/r/116809
 
@@ -714,10 +720,21 @@ Primary sources are marked (P). Third-party sources are marked (3P); treat their
 - (P) Paddle pricing: https://www.paddle.com/pricing
 - (3P) Dodo Payments, Stripe Managed Payments fees: https://dodopayments.com/blogs/stripe-managed-payments-fees-explained
 - (3P) Dodo Payments, Lemon Squeezy vs Stripe: https://dodopayments.com/blogs/lemon-squeezy-vs-stripe/
-- (P) Airwallex, JPY global account: https://www.airwallex.com/au/features/global-accounts/JPY-account
+- (P) Airwallex, JPY global account marketing page (claims local details; contradicted by the help centre): https://www.airwallex.com/au/features/global-accounts/JPY-account
+- (P) Airwallex help centre, Global Account currencies by location (JPY SWIFT-only, HK/SG/DK): https://help.airwallex.com/hc/en-gb/articles/900001759623-Which-currencies-can-I-get-a-Global-Account-in-and-what-payments-can-I-receive
+- (P) Wise, JPY account page (UK local details exclude JPY): https://wise.com/gb/account/jpy-account
+- (P) Payoneer, local receiving accounts (Japan LOCAL JPY): https://www.payoneer.com/local-receiving-accounts/
+- (3P) ProZ forum, receiving JPY via Payoneer: https://connect.proz.com/topic/359222
+- (P) MUFG, foreign-exchange fees: https://www.bk.mufg.jp/tesuuryou/gaitame.html
+- (P) MUFG, domestic transfer fees: https://www.bk.mufg.jp/tesuuryou/furikomi.html
+- (3P) Wise, Stripe charges in the UK: https://wise.com/gb/blog/stripe-payments-charges-uk
+- (3P) Xero, Stripe fees by country: https://www.xero.com/pricing-plans/pricing-and-fees-for-stripe/
+- (3P) checkoutpage, Stripe international fees 2026: https://checkoutpage.com/blog/stripe-international-fees
 
 **Consumption tax (JCT) and withholding**
 - (P) National Tax Agency, pamphlet on cross-border electronic services (rev. Jun 2026): https://www.nta.go.jp/publication/pamph/pdf/0024003-087_01.pdf
+- (P) National Tax Agency, 2023 reform summary (small-amount rule, ¥100M / ¥50M thresholds, to 30 Sep 2029): https://www.nta.go.jp/publication/pamph/shohi/kaisei/202304/02.htm
+- (3P) Money Forward, small-amount rule guide (updated May 2026): https://biz.moneyforward.com/invoice/basic/60404/
 - (P) National Tax Agency, simplified taxation (Tax Answer 6505): https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6505.htm
 - (P) National Tax Agency, qualified-invoice registration procedure: https://www.nta.go.jp/taxes/tetsuzuki/shinsei/annai/hojin/annai/invoice_01.htm
 - (P) National Tax Agency, qualified-invoice Q&A: https://www.nta.go.jp/taxes/shiraberu/zeimokubetsu/shohi/keigenzeiritsu/pdf/qa/16.pdf

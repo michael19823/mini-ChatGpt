@@ -2,7 +2,7 @@
 
 Date: 10 Oct 2026. Builds on [the B4 report](../reports/south-africa-b4.md). Scope: market size, buyers, competition, channels and regional expansion. Law, product and go-to-market detail are covered by the other files.
 
-Status: in progress. Buyer counts from the FIC 2025/26 annual report are done. Competitors, willingness to pay, channels and regional sections are being filled.
+Status: in progress (resumed run). Buyer counts, buyer profile, willingness to pay and the competitor table are done. Now filling: more competitors, competitor discussion, channels, regional expansion, positioning, open questions.
 
 ## Summary
 

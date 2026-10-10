@@ -23,11 +23,19 @@ Starting figures carried over from the A1 report, to be re-checked:
 
 ## Buyer profile and pain
 
-(to be written)
+Working notes:
+
+- finratings.kz, 12 Feb 2025: in 2023, 7,497 inspections of preschools, violations in 90.7%, 4,027 officials fined 1.12 bn tenge in total (avg about 278,000 tenge, my division), up to 1 m tenge in some cases; owners take loans to pay fines; 80% of rural private kindergartens rent. Deputy Balabiev's inquiry. https://finratings.kz/news/533-v-kazakhstane-milliardnye-shtrafy-dushat-chastnye-detsady/
+- East Kazakhstan: 381 preschool organisations subject to licensing (gov.kz control-vko). https://www.gov.kz/memleket/entities/control-vko/press/news/details/1269193?lang=kk
+- data.egov.kz "kindergartens" dataset: last updated 25 Oct 2016, API key needed; too old for counting. https://data.egov.kz/datasets/view?index=kindergartens
 
 ## Willingness to pay
 
-(to be written)
+Working notes:
+
+- Kaspi Obyavleniya, Almaty, legal services "licences": 24 listings visible, none for kindergartens or education; general licence help "from 15,000 tenge", "from 50,000 tenge"; alcohol licence 15,000-50,000; construction licences 200,000-850,000. https://obyavleniya.kaspi.kz/almaty/uslugi/delovye-uslugi/yuridicheskie-uslugi/k--%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D0%B8/
+- Umai CRM (Astana Hub resident) for kids centres, clubs and kindergartens: US$49 / 129 / 299 a month; claims 500+ or 961 centres. No licensing, plans or inspection features. https://www.umaicrm.com/
+- informburo: teachers charged 57,000 tenge for a paid training course (Ministry statement on breach of teachers' rights). https://informburo.kz/novosti/57-tysiac-tenge-za-povysenie-kvalifikacii-o-narusenii-prav-pedagogov-zaiavili-v-minprosvete
 
 ## Competitor table and discussion
 

@@ -227,13 +227,197 @@ Notes:
 - The founder's home tax: a B2B service to a Paraguayan business is normally outside the home country's VAT, but check the home jurisdiction (unverified).
 
 ## Company setup (needed or not, costs)
-(pending)
+
+### Verdict: no local company in year 1, probably not in year 2
+
+Sell from the founder's existing foreign company. Reasons:
+- **The buyers are businesses.** They can pay a foreign SaaS by card, and the tax rules already expect them to self-account for IVA and INR (see Payments). No rule found forces a foreign B2B software seller to register in Paraguay.
+- **A local company needs a local legal representative with a Paraguayan identity card.** The tax office's RUC rules for an EAS, S.A. or S.R.L. ask for the representative's "Cédula de Identidad Civil o pasaporte vigentes, emitidos en el Paraguay", and a foreign representative must attach a Paraguayan cédula ([DNIT RG 34/25, Annex 1, Aug 2025](https://www.dnit.gov.py/web/portal-institucional/w/resoluci%C3%B3n-general-dnit-n.%C2%B0-34/25-anexo-1)). So the founder needs Paraguayan residency or a resident representative.
+- **It adds monthly tax filings and bookkeeping** for a business that starts at under US$25,000 of revenue a year (financial model below).
+
+**Open a local EAS only when one of these is true** (my triggers):
+1. More than a quarter of qualified buyers refuse to pay without a local electronic invoice, and no partner will resell.
+2. ARR passes about US$60,000 and local invoicing would clearly lift sales.
+3. You need to employ local staff rather than contract them.
+4. You want local payment methods (bank transfer, Bancard, wallets) without dLocal.
+
+### What a local company would cost
+
+| Item | EAS (simplified company) | S.A. | Source |
+|---|---|---|---|
+| How it is formed | Online through the SUACE one-stop shop; no public deed; the tax-ID application also goes only through SUACE | Notarial deed, registration in the Public Registry, newspaper publication | [DNIT RG 34/25 Annex 1](https://www.dnit.gov.py/web/portal-institucional/w/resoluci%C3%B3n-general-dnit-n.%C2%B0-34/25-anexo-1); [Golden Harbors, Sep 2026](https://goldenharbors.com/articles/start-business-in-paraguay) |
+| Minimum capital | None (can be formed with Gs 1) | No legal floor; set in the bylaws | [Golden Harbors](https://goldenharbors.com/articles/start-business-in-paraguay) (secondary) |
+| Official fees | "Close to zero" on the SUACE standard bylaws (unverified; confirm with SUACE) | Registry, notary and publication costs not quantified (unverified) | same |
+| Lawyer and setup, done remotely | US$1,500-4,000 all-in for the corporate side with light professional support (bank, e-invoicing setup, accounting setup) | US$4,000-8,000 plus government charges | same (a commercial guide; unverified) |
+| Time | About 72 hours to form; 1-2 weeks more for RUC and bank account | 3-4 weeks | same |
+| Legal representative | Must hold a Paraguayan cédula, so the founder needs residency, or a resident representative is hired | same | [DNIT RG 34/25 Annex 1](https://www.dnit.gov.py/web/portal-institucional/w/resoluci%C3%B3n-general-dnit-n.%C2%B0-34/25-anexo-1) |
+| Founder residency, if chosen | Temporary residency for up to 2 years, renewable, which gives access to the cédula. Processing can take up to 3 months. A filing fee of about US$350 is quoted by a commercial guide (unverified). Documents must be apostilled and translated by a sworn Paraguayan translator. A new rule (Res DNM 407/2026) changed the proof-of-means rules for files from 6 July 2026. | | [Infonegocios, Residencias](https://infonegocios.com.py/infolegal/residencias-en-paraguay); [LibertyMundo, 2026](https://www.libertymundo.com/residency-in-paraguay-2/) (secondary) |
+| Resident representative (instead of residency) | About US$100-300 a month (my estimate, unverified) | same | - |
+| Foreign shareholder documents | A foreign company shareholder must file the document that identifies it, translated into Spanish by a sworn translator | same | [DNIT RG 34/25 Annex 1](https://www.dnit.gov.py/web/portal-institucional/w/resoluci%C3%B3n-general-dnit-n.%C2%B0-34/25-anexo-1) |
+
+**Ongoing costs and taxes of a local EAS**
+- Corporate income tax (IRE) 10%, or the IRE SIMPLE regime for firms with prior-year income under Gs 2bn (about US$350,000 at today's rate). Dividends to a non-resident owner: 15% (IDU). IVA 10% on sales ([Golden Harbors](https://goldenharbors.com/articles/start-business-in-paraguay), secondary).
+- Electronic invoicing through SIFEN. More than 50,000 taxpayers already issue e-invoices, 88.6% of them small ([DNIT, Sep 2026](https://www.dnit.gov.py/web/e-kuatia/w/paraguay-supera-los-50.000-facturadores-electr%C3%B3nicos-y-avanza-en-la-digitalizaci%C3%B3n-tributaria)).
+- An outside accountant: about Gs 1.0m-2.5m a month (US$175-440) (my estimate; no published fee found). For scale, a staff accountant earns Gs 3.6m-10.9m a month ([Cazvid](https://cazvid.com/es/blog/cuanto-gana-un-contador-en-paraguay)).
+- **Total running cost of a local EAS: about US$4,000-7,000 a year** with a resident representative, plus US$1,500-4,000 to set up (my estimate). The financial model shows this as a variant from month 18.
+
+### Middle path: local reseller agreement
+
+- A partner (an audit or accounting firm with a RUC) buys seats at wholesale (30% off list), invoices the client in Gs with 10% IVA on a local e-invoice, and collects locally.
+- The partner then pays us by one international wire a month or a quarter. The partner withholds the 4.5% INR, which we accept.
+- This gives buyers a local invoice without a local company. It also gives the auditor a reason to sell.
 
 ## Contracts and liability
-(pending)
+
+**Customer terms (Spanish, click-through, business customers only)**
+- **What we are and are not.** A software tool. Not legal advice, not the compliance officer, not the filer. The firm keeps every duty of an obliged subject under Res 201/2020 ([Res 201/2020](https://www.seprelad.gov.py/resoluciones/resoluciones/res-n201-2020-reglamentacion-para-inmobiliarias.pdf)). The tool never files in SIRO for the client. SIRO has no API, and the owner or board must approve each suspicious-transaction report (file 01).
+- **Liability cap:** fees paid in the last 12 months. No liability for SEPRELAD sanctions, lost profits or indirect loss. No cap where the law does not allow one (my suggestion; have a lawyer check enforceability).
+- **Content accuracy promise:** templates are reviewed by a Paraguayan AML lawyer. Each template shows the rule it maps to and the review date. We promise to update templates within 30 days of a new SEPRELAD resolution, or say publicly that we cannot (my suggestion).
+- **Records survive cancellation.** The law requires records to be kept for 5 years (file 01, Ley 1015/97 art. 18). After cancellation, offer a full export and a free read-only archive for 5 years. The storage cost is small (my estimate).
+- **Confidentiality of suspicious-transaction work.** The ROS draft must not reveal the compliance officer or the firm (Res 201/2020 art. 36, file 01). Limit access by role, log every view, and keep ROS drafts out of the auditor's read-only view.
+- **Governing law:** the law of the founder's company, with the Spanish text as the binding version. A Paraguayan lawyer should confirm whether Paraguayan law and courts would raise trust enough to be worth it (open question).
+- **Electronic acceptance:** click-through acceptance with a stored log; enforceability under Paraguayan law is (unverified).
+
+**Data protection**
+- Paraguay's new personal-data law, Ley 7593/2025, was promulgated in late November 2025 and takes effect about two years later, around November 2027. It creates a national data-protection agency inside MITIC and covers controllers and processors ([Ferrere](https://ferrere.com/es/novedades/paraguay-adopta-su-ley-de-proteccion-de-datos-personales/); [La Nación, Nov 2025](https://www.lanacion.com.py/politica/2025/11/28/nueva-ley-de-datos-personales-refuerza-la-privacidad-sin-recortar-la-transparencia-publica/)). It also sets rules for international transfers (secondary summary; details unverified).
+- We are the processor; the firm is the controller. Sign a data-processing addendum from day 1. Host in one region, encrypt ID documents, and keep an access log. Review it against the law's implementing decree when that is published.
+
+**Partner contracts**
+- **Referral:** 20% of the first year's fees and 10% of renewals, paid quarterly, for clients who pay us directly.
+- **Reseller:** 30% off list. The partner invoices locally, owns collection and the INR withholding, and must not change the terms of service.
+- **Data partner** (for example Compliance Paraguay for PEP data): licence terms, update frequency and liability for wrong matches.
+
+**Insurance:** technology errors-and-omissions plus cyber cover, about US$1,000-2,500 a year (my estimate, unverified). The model uses US$1,500.
 
 ## Financial model
-(pending)
+
+### Assumptions
+
+Month 1 is October 2026 and month 36 is September 2029. Model figures are in US dollars at Gs 5,700 = US$1. Prices are set in Gs.
+
+| Assumption | Low | Base | High | Basis |
+|---|---|---|---|---|
+| Buyer pool | about 2,300 paying real-estate firms and car dealers, plus about 190 smaller subjects | same | same | File 02, from SEPRELAD's [statistics portal](https://www.seprelad.gov.py/siro/estadisticaExterna/estadistica.xhtml) |
+| Paid pilots in December 2026 (50% off year 1) | 4 | 8 | 12 | Plan |
+| New paying firms, years 1 / 2 / 3 (including pilots) | 45 / 50 / 45 | 110 / 120 / 110 | 200 / 220 / 200 | My estimate |
+| Share of the 2,300 pool active at month 36 | 4% | 11% | 23% | Output |
+| Practice (Estudio) plans active at months 12 / 24 / 36 | 2 / 3 / 4 | 5 / 9 / 12 | 8 / 15 / 22 | My estimate; about 140 practices exist (file 02) |
+| Revenue per firm per year, net, years 1 / 2 / 3 | Gs 0.95m / 1.0m / 1.1m | Gs 1.2m / 1.3m / 1.4m | Gs 1.4m / 1.55m / 1.7m | Plan mix of Al día, Legajo listo, Grupo, Automotores |
+| Practice base fee | Gs 290,000 a month | same | same | Price list |
+| Billing | 60% yearly prepaid; 40% monthly at a 15% premium | same | same | My estimate |
+| First renewal / later renewals | 55% / 75% | 70% / 85% | 80% / 90% | My estimate |
+| New sales by calendar month (seasonality weight) | Jan 1.3, Feb 0.9, Mar 1.4, Apr 1.1, May 1.4, Jun 1.3, Jul 0.9, Aug 0.7, Sep 0.7, Oct 1.0, Nov 0.8, Dec 0.5 | same | same | SIRO calendar (Go-to-market) |
+| Setup add-on | 15% of new firms buy it at Gs 900,000; we keep 30% | same | same | Plan |
+| Payment costs | 6% of cash in | same | same | Stripe fees above |
+| INR withheld by buyers | 1.1% of cash in (about a quarter of revenue at 4.5%) | same | same | [Decreto 6515/2021](https://impuestospy.com/impuestos/decreto-n-6-515-21/); my estimate of how many withhold |
+| Partner commissions | 20% of first-year and 10% of renewal payments on partner-sourced firms; 30% of firms come through partners | same at 40% | same at 50% | Plan |
+| Build | Founder with Claude Code and AI agents; AI tools US$300 a month for 3 months, then US$200 | same | same | Owner's plan; no hired developers |
+| Hosting, tools, e-mail, WhatsApp | US$120 / 220 / 320 a month in years 1 / 2 / 3 | same | same | My estimate |
+| PEP data | US$100 a month from month 6 | same | same | Unverified; price not public |
+| Paraguayan lawyer | US$3,500 in months 1-2, then US$150 a month for rule-watch | same | same | My estimate (unverified) |
+| Terms and data-processing terms abroad | US$500 in month 2 | same | same | My estimate |
+| Security test | US$2,500 in month 2; US$2,000 in months 14 and 26 | same | same | My estimate (unverified) |
+| Insurance | US$1,500 a year | same | same | My estimate (unverified) |
+| Local sales and support contractor, from month 3 | US$500 / 600 / 800 a month | US$700 / 1,200 / 1,800 | US$900 / 2,000 / 3,200 | Minimum wage Gs 3,044,000 = US$534 ([Decreto 6225/2026](https://impuestospy.com/impuestos/decreto-n-6225-2026/)) |
+| Marketing, years 1 / 2 / 3 | US$6,000 / 5,000 / 5,000 | US$10,000 / 9,000 / 9,000 | US$16,000 / 15,000 / 15,000 | Plan above |
+| Travel | US$1,800 twice a year | same | same | My estimate |
+| Foreign company running costs (extra share) | US$100 a month | same | same | My estimate |
+| Founder pay | None in the main tables. Variant: US$2,000 a month in year 2 and US$3,000 in year 3 | | | |
+| Local EAS | None in the main tables. Variant: US$2,500 in month 18 plus US$300 a month | | | Company setup section |
+
+"Cash in" counts yearly prepayments when received, so cash comes in before revenue would be booked. ARR is active firms times their yearly price, plus practice fees times 12. The model script is in the session scratchpad, not in the repo.
+
+### Base case by quarter (US$, no founder pay)
+
+| Quarter | New firms | Churned | Active firms (end) | Practices (end) | Cash in | ARR (end) | Costs | Net | Cumulative |
+|---|---|---|---|---|---|---|---|---|---|
+| Q1 Oct-Dec 26 | 8 | 0 | 8 | 0 | 594 | 842 | 13,962 | -13,367 | -13,367 |
+| Q2 Jan-Mar 27 | 38 | 0 | 46 | 3 | 6,055 | 10,643 | 7,278 | -1,223 | -14,591 |
+| Q3 Apr-Jun 27 | 40 | 0 | 86 | 4 | 7,532 | 19,666 | 9,480 | -1,948 | -16,538 |
+| Q4 Jul-Sep 27 | 24 | 0 | 110 | 5 | 6,327 | 25,368 | 7,495 | -1,167 | -17,706 |
+| Q5 Oct-Dec 27 | 23 | 2 | 131 | 6 | 7,971 | 31,660 | 14,549 | -6,578 | -24,283 |
+| Q6 Jan-Mar 28 | 36 | 11 | 155 | 7 | 13,521 | 38,555 | 9,931 | 3,590 | -20,693 |
+| Q7 Apr-Jun 28 | 38 | 12 | 181 | 8 | 14,905 | 45,799 | 11,890 | 3,016 | -17,678 |
+| Q8 Jul-Sep 28 | 23 | 7 | 197 | 9 | 11,977 | 50,425 | 9,682 | 2,295 | -15,383 |
+| Q9 Oct-Dec 28 | 21 | 8 | 210 | 10 | 13,300 | 54,814 | 17,221 | -3,922 | -19,304 |
+| Q10 Jan-Mar 29 | 33 | 15 | 229 | 10 | 19,680 | 60,387 | 12,694 | 6,986 | -12,318 |
+| Q11 Apr-Jun 29 | 35 | 16 | 248 | 11 | 21,165 | 66,880 | 14,662 | 6,503 | -5,816 |
+| Q12 Jul-Sep 29 | 21 | 9 | 259 | 12 | 16,785 | 71,051 | 12,293 | 4,493 | -1,323 |
+
+The October-December quarters lose money each year. They carry the security test, insurance and a trip, and new sales are slow before the January deadlines.
+
+### Low case by quarter (US$, no founder pay)
+
+| Quarter | Active firms (end) | Practices | Cash in | ARR (end) | Costs | Net | Cumulative |
+|---|---|---|---|---|---|---|---|
+| Q1 Oct-Dec 26 | 4 | 0 | 241 | 333 | 13,040 | -12,799 | -12,799 |
+| Q2 Jan-Mar 27 | 19 | 1 | 2,012 | 3,480 | 5,058 | -3,046 | -15,844 |
+| Q3 Apr-Jun 27 | 35 | 2 | 2,505 | 6,767 | 7,116 | -4,611 | -20,456 |
+| Q4 Jul-Sep 27 | 45 | 2 | 2,114 | 8,388 | 5,264 | -3,151 | -23,606 |
+| Q5 Oct-Dec 27 | 53 | 2 | 2,583 | 10,122 | 10,969 | -8,386 | -31,992 |
+| Q6 Jan-Mar 28 | 61 | 2 | 4,014 | 11,685 | 5,830 | -1,816 | -33,808 |
+| Q7 Apr-Jun 28 | 70 | 3 | 4,494 | 13,947 | 7,677 | -3,183 | -36,991 |
+| Q8 Jul-Sep 28 | 75 | 3 | 3,571 | 14,946 | 5,765 | -2,195 | -39,186 |
+| Q9 Oct-Dec 28 | 79 | 3 | 3,910 | 15,878 | 11,999 | -8,090 | -47,276 |
+| Q10 Jan-Mar 29 | 83 | 4 | 5,564 | 17,798 | 6,881 | -1,317 | -48,592 |
+| Q11 Apr-Jun 29 | 88 | 4 | 6,006 | 19,179 | 8,725 | -2,719 | -51,311 |
+| Q12 Jul-Sep 29 | 91 | 4 | 4,737 | 20,016 | 6,778 | -2,041 | -53,352 |
+
+### High case by quarter (US$, no founder pay)
+
+| Quarter | Active firms (end) | Practices | Cash in | ARR (end) | Costs | Net | Cumulative |
+|---|---|---|---|---|---|---|---|
+| Q1 Oct-Dec 26 | 12 | 0 | 1,026 | 1,474 | 15,244 | -14,218 | -14,218 |
+| Q2 Jan-Mar 27 | 82 | 4 | 12,701 | 21,053 | 10,587 | 2,115 | -12,103 |
+| Q3 Apr-Jun 27 | 155 | 6 | 15,682 | 40,363 | 13,058 | 2,624 | -9,479 |
+| Q4 Jul-Sep 27 | 200 | 8 | 13,102 | 52,533 | 10,807 | 2,295 | -7,184 |
+| Q5 Oct-Dec 27 | 240 | 10 | 16,668 | 66,358 | 19,955 | -3,286 | -10,471 |
+| Q6 Jan-Mar 28 | 292 | 12 | 30,161 | 83,567 | 16,475 | 13,686 | 3,216 |
+| Q7 Apr-Jun 28 | 347 | 13 | 33,436 | 101,055 | 18,692 | 14,744 | 17,959 |
+| Q8 Jul-Sep 28 | 380 | 15 | 26,711 | 112,491 | 15,855 | 10,857 | 28,816 |
+| Q9 Oct-Dec 28 | 409 | 17 | 29,942 | 123,706 | 25,432 | 4,510 | 33,327 |
+| Q10 Jan-Mar 29 | 450 | 18 | 46,502 | 139,815 | 22,311 | 24,191 | 57,518 |
+| Q11 Apr-Jun 29 | 494 | 20 | 50,284 | 157,396 | 24,582 | 25,702 | 83,220 |
+| Q12 Jul-Sep 29 | 520 | 22 | 39,657 | 168,519 | 21,268 | 18,389 | 101,608 |
+
+### Scenario summary
+
+| Measure | Low | Base | High |
+|---|---|---|---|
+| Active firms at month 6 / 12 / 24 / 36 | 19 / 45 / 75 / 91 | 46 / 110 / 197 / 259 | 82 / 200 / 380 / 520 |
+| ARR at month 12 / 24 / 36 (US$) | 8,400 / 14,900 / 20,000 | 25,400 / 50,400 / 71,100 | 52,500 / 112,500 / 168,500 |
+| ARR at month 36 in Gs | about 114m | about 405m | about 961m |
+| Cash in, years 1 / 2 / 3 (US$) | 6,900 / 14,700 / 20,200 | 20,500 / 48,400 / 70,900 | 42,500 / 107,000 / 166,400 |
+| Costs, years 1 / 2 / 3 (US$) | 30,500 / 30,200 / 34,400 | 38,200 / 46,100 / 56,900 | 49,700 / 71,000 / 93,600 |
+| Profit before founder pay, year 3 (US$) | -14,200 | 14,100 | 72,800 |
+| Operating break-even (trailing 12 months) | not within 36 months | month 22 (July 2028) | month 14 (November 2027) |
+| Cumulative cash positive for good | no | just short at month 36 (-1,300) | month 18 (March 2028) |
+| **Peak cash need, no founder pay (US$)** | 53,400 (and still falling) | **24,300** (month 15) | 14,200 (month 3) |
+| Peak cash need with founder pay of US$2,000 then US$3,000 a month | 113,400 | 61,300 | 16,500 |
+| Same, plus a local EAS from month 18 | 121,600 | 69,500 | 16,500 |
+| Blended acquisition cost, year 1 (marketing, travel, half the contractor; before commissions) | about US$270 | about US$155 | about US$120 |
+
+**Sensitivity of the base case** (my model):
+
+| Change | ARR month 36 | Year-3 profit | Peak cash need | Cumulative cash at month 36 |
+|---|---|---|---|---|
+| Base | US$71,100 | US$14,100 | US$24,300 | -US$1,300 |
+| Guaraní weakens to Gs 7,000 = US$1 | US$57,900 | US$2,500 | US$32,500 | -US$24,000 |
+| Prices 25% higher, same volumes | US$87,000 | US$27,900 | US$18,900 | +US$25,700 |
+| Everyone prepays yearly | US$71,100 | US$14,200 | US$21,100 | +US$4,000 |
+| No local contractor in year 1 | US$71,100 | US$14,100 | US$17,300 | +US$5,700 |
+| First renewal 60% instead of 70% | US$65,800 | US$9,600 | US$24,400 | -US$7,600 |
+
+**Unit economics, base case (my estimate)**
+- Revenue per firm is about US$210-245 a year. Acquisition cost is about US$155 plus about US$20 of partner commission, so payback is about 9-12 months.
+- With 70% first renewal, 85% after, and about 85% gross margin after payment costs, hosting and data, a firm stays about 4 years and is worth about US$750-800. LTV/CAC is about 4.
+- The limit is the market size and the price level, not the unit economics.
+
+**What the numbers mean**
+- **Cash need is small, but so is the base-case business.** About US$25,000 covers the base case if the founder takes no pay. Plan US$35,000 to allow for a slow year or a weaker guaraní.
+- **Paraguay alone does not pay a founder salary in the base case.** Year-3 profit before founder pay is about US$14,000. Only the high case (about 23% of the pool) yields a modest income (about US$73,000 a year before founder pay).
+- **Three levers move the base case most:** price (a 25% higher price adds about US$14,000 of year-3 profit), currency (a return to Gs 7,000 removes about US$11,500), and a second market (see Regional expansion).
+- **The low case is a kill signal, and it shows early.** By month 6 (March 2027) the low case has about 19 firms against a base of about 46.
 
 ## Regional expansion
 (pending)

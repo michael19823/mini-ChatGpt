@@ -314,15 +314,15 @@ What this means in practice:
 | Item | Official fee | With a lawyer or corporate service firm (remote) | Source |
 |---|---|---|---|
 | Name search | KES 650 | included | [BRS fee schedule](https://brs.go.ke/fee-schedule-companies-registry/) |
-| Private company registration | **KES 10,650** | included | [BRS fee schedule](https://brs.go.ke/fee-schedule-companies-registry/) |
-| Professional fees: incorporation, KRA PIN for the company and directors, beneficial-ownership filing, first-year registered office | - | about **KES 60,000-120,000** (my estimate). Deel puts total setup at KES 30,000-100,000 excluding professional fees ([Deel](https://www.deel.com/blog/entity-setup-kenya/)); no published lawyer quote was found | my estimate |
+| Private company registration | **KES 10,650**. One guide reports KES 10,200-10,750 depending on the schedule and share capital, so check at checkout | included | [BRS fee schedule](https://brs.go.ke/fee-schedule-companies-registry/); [Kolonell](https://kolonell.com/en/blog/cost-of-registering-business-kenya-2026) |
+| Professional fees: incorporation, KRA PIN for the company and directors, beneficial-ownership filing, first-year registered office | - | Agent fees for the incorporation alone are put at **KES 15,000-60,000** in consultancy guides ([vjmglobal](https://www.vjmglobal.com/feeds/blog/private-limited-company-kenya-usa); [Kolonell](https://kolonell.com/en/blog/cost-of-registering-business-kenya-2026); secondary). With KRA PINs, a registered office for year 1 and a bank introduction, budget about **KES 60,000-120,000** (my estimate). Deel puts total setup at KES 30,000-100,000 excluding professional fees ([Deel](https://www.deel.com/blog/entity-setup-kenya/)). No lawyer's written quote was found | secondary sources; my estimate |
 | Minimum share capital | **none**; nominal capital is set by the founders | - | [Kolonell](https://kolonell.com/en/blog/cost-of-registering-business-kenya-2026) (secondary) |
 | Company secretary | Not mandatory below KES 5m paid-up capital. A company without a secretary or resident director must name a resident contact person | KES 5,000-10,000 a month for a secretarial firm (my estimate) | [BRS-hosted risk assessment](https://brs.go.ke/wp-content/uploads/2024/01/PUBLIC-VERSION-MONEY-LAUNDERING-AND-TERRORIST-FINANCING-RISK-ASSESSMENT-REPORT.pdf); [EY, 2023](https://taxnews.ey.com/news/2023-1625) |
 | Time | 1-7 working days at BRS once the documents are ready | add 2-6 weeks for the bank account with a foreign director (my estimate) | [Kolonell](https://kolonell.com/en/blog/register-company-kenya-ecitizen-brs-steps-2026) (secondary) |
 
 Doing it yourself versus through a firm:
 - **In person.** A founder in Nairobi can self-file on eCitizen for about KES 11,300 in official fees, plus travel.
-- **Remotely.** It is better done through a firm. Bowmans notes that filings by foreign-resident directors sometimes cannot proceed with non-Kenyan phone numbers for the one-time-password step ([Bowmans](https://bowmanslaw.com/insights/kenya-companies-registry-a-reform-agenda-for-ease-of-doing-business/)).
+- **Remotely.** It is better done through a firm. A guide for foreign founders says directors without a Kenyan alien card usually cannot use the BRS portal alone, although local help is not a legal requirement ([vjmglobal](https://www.vjmglobal.com/feeds/blog/private-limited-company-kenya-usa), secondary). Bowmans notes that filings by foreign-resident directors sometimes cannot proceed with non-Kenyan phone numbers for the one-time-password step ([Bowmans](https://bowmanslaw.com/insights/kenya-companies-registry-a-reform-agenda-for-ease-of-doing-business/)).
 - Each foreign director needs a KRA PIN to be a bank signatory ([Healy Consultants](https://www.healyconsultants.com/kenya-company-registration/post-incorporation-considerations), secondary).
 - **No resident director is legally required.** Banks move faster with a local signatory ([Bowmans](https://bowmanslaw.com/insights/kenya-companies-registry-a-reform-agenda-for-ease-of-doing-business/)).
 - **Work permit.** A director who lives abroad and does not work in Kenya should not need one (unverified). Ask the lawyer before any long working stay.
@@ -616,6 +616,7 @@ From search summaries only (not opened):
 - Healy Consultants, Kenya post-incorporation: https://www.healyconsultants.com/kenya-company-registration/post-incorporation-considerations
 - Deel, entity setup in Kenya: https://www.deel.com/blog/entity-setup-kenya/
 - Kolonell, Kenya registration costs 2026 (secondary): https://kolonell.com/en/blog/cost-of-registering-business-kenya-2026
+- vjmglobal, private limited company in Kenya for US founders (secondary): https://www.vjmglobal.com/feeds/blog/private-limited-company-kenya-usa
 - Capital FM, Nairobi Unified Business Permit: https://capitalfm.africa/all-you-need-to-know-about-the-unified-business-permit-costs-requirements-and-how-to-apply/
 - Jiji, Nairobi bookkeeping listing: https://jiji.co.ke/nairobi-central/tax-and-financial-services/professional-bookkeeping-accounting-services-quickbooks-xero-setup-zFH7Eze5tML7AaA6oesSGkFf.html
 - Paylab Kenya, sales representative salaries: https://kenya.paylab.com/salaryinfo/commerce/sales-representative

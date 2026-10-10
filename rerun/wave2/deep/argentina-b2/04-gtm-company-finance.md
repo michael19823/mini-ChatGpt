@@ -1,11 +1,42 @@
 # Argentina INAES and UIF compliance desk: go-to-market, payments, company setup and financials (deep dive 04)
 
-Status: IN PROGRESS (started 10 Oct 2026). Sections are filled as research proceeds.
+Status: complete, 10 Oct 2026. The model arithmetic was run by script; the sources section says which pages were read directly and which were carried from sibling files.
 
 Builds on [the B2 report](../reports/argentina-b2.md), [01 law and requirements](01-law-and-requirements.md) and [02 market and competition](02-market-and-competition.md). Money is in US dollars unless marked ARS. Exchange rate: ARS 1,517 per USD (BCRA official rate, 9 Oct 2026, as used in file 02). "Estimate" marks my planning numbers. "(unverified)" marks facts I could not confirm.
 
 ## Summary
-(pending)
+
+- **Price it as a cheap specialist tool, sold mostly through accountants.** No rival publishes a price. Public anchors: Xubio charges accounting firms ARS 49,600-271,900 a month (USD 33-179) ([Xubio](https://xubio.com/ar/precios-contadores)), and the minimum ethical fee for one piece of UIF advice is ARS 62,500 (USD 41) ([CPCESE](https://cpcese.org.ar/documentos/Lic.%20Cooperativas%20R.%2006-25.pdf)). Plans, net of tax:
+  - **Entidad Básica USD 29 a month (ARS 44,000);**
+  - **Entidad Completa USD 59 (ARS 89,500)**, which adds the UIF/AML pack;
+  - **Estudio USD 20 per entity (ARS 30,300)** for accountants, minimum 3;
+  - Registro USD 5 per non-lending entity; Federación USD 15 per entity;
+  - yearly plans cost 10 months' price;
+  - one-off services: Pack Res 1567 (USD 150), catch-up of overdue returns (USD 300), assisted UIF self-assessment (USD 400).
+- **Sell from the founder's foreign company by card. Stripe, priced in USD. No Argentine VAT registration.**
+  - The buyer pays 21% VAT through the card issuer or by self-assessment ([ARCA, RG 4240](https://www.arca.gob.ar/iva/servicios-digitales/reg-percepcion-4240.asp)). A local seller would charge the same 21%, so VAT is neutral.
+  - Co-ops and mutuales that hold an income-tax exemption certificate are **excluded from the 30% card surcharge** (RG 5617/2024 art. 3) ([text](https://www.consejosalta.org.ar/wp-content/uploads/ARCA-5617.pdf)). Accountants pay it and recover it later.
+  - Provinces add 2-5.5% gross-income tax on foreign digital services (Santa Fe 4.5%) ([Blog del Contador](https://blogdelcontador.com.ar/news-45948-santa-fe-aplicara-ingresos-brutos-a-servicios-digitales-del-exterior-desde-el-1-de-julio)).
+  - Wires risk a 31.5% income-tax withholding, so avoid them.
+  - Stripe costs about 5-6% of a yearly charge. Paddle supports Argentina but adds little here.
+- **Expect to need a peso route early.** These buyers are audited institutions. Some may hold only a Cabal card or no card at all (unverified).
+  - From month 2, a reseller accounting firm invoices in pesos.
+  - Open a SAS when 30% of buyers need a peso invoice (base case: month 10). Minimum capital is ARS 782,400 (USD 516). IGJ RG 11/2026 made forming a SAS in Buenos Aires city simpler ([+blogdelcontador](https://siap.blogdelcontador.com.ar/?p=111396)).
+  - Through a lawyer, with the foreign company as owner, it costs about USD 2,000-4,000 all in, then USD 2,500-4,000 a year (estimates).
+- **Timing.** The launch hook is the first INAES AML filing, due **1 Dec 2026**. Then come the January stack (roll on 10 Jan, AML statement on 20 Jan, IT report on 30 Jan) and the UIF self-assessment on **30 April**. January-February and July are slow.
+- **Channels, in order:** accountants and Licenciados; federations (CAM: 39 federations, more than 3,400 mutuales); the public non-filer list (302 entities in Res 1687/2026); external reviewers; ERP vendors. The year-1 marketing budget is **USD 10,000**.
+- **The 36-month model** assumes the founder builds with AI agents and takes no pay:
+  - **Base:** 51 / 101 / 133 lending entities at months 12 / 24 / 36. ARR about USD 59,000 at month 36. Year-3 profit only about USD 6,000. Peak cash need about **USD 28,500**. Cash does not turn positive within 36 months.
+  - **Low:** 54 entities, ARR USD 17,000, peak cash need USD 51,000. Stop early.
+  - **High:** 261 entities, ARR USD 140,000, year-3 profit USD 58,000, peak cash need USD 8,000.
+- **On its own, this is a break-even side business. As one vertical of a shared Argentine UIF/AML platform, it works.** If fixed costs are shared with the B1 broker kit, the base case improves to a peak cash need of about USD 12,600 and a year-3 profit of about USD 22,000. The pool is the limit: 1,130 active lenders.
+- **Exit.** Software consolidators are buying in Argentina. Visma bought Calipso and Xubio, and Vela LatAm bought Axoft (Tango) in October 2026 ([Bruchou & Funes de Rioja](https://bruchoufunes.com/?p=35162)). The mutual ERP vendors (Bambú, SIGMA) and CONLAFT are the natural buyers. Real sale value needs the platform, not this vertical alone.
+- **Kill criteria:**
+  - fewer than 2 pilot commitments by 25 Oct 2026;
+  - fewer than 4 paying entities by 9 Jan 2027;
+  - fewer than 10 by 30 Apr 2027;
+  - fewer than 25 by Oct 2027 with no shared-platform plan;
+  - first-year renewal below 60%.
 
 ## Pricing and packaging
 
@@ -126,7 +157,7 @@ Start Monday 12 October 2026. Day 90 is Saturday 9 January 2027. The founder bui
 - Pilots: 5 accountants with about 20 entities, plus 5 direct entities.
 - Run a WhatsApp help line for the 1 Dec deadline.
 - Sign reseller agreements with 2 accounting firms (the peso-invoice route).
-- **Target by 13 Dec: 10 paying entities and 10 packs sold.**
+- **Target by 13 Dec: 5 paying entities (founding-price pilots count) and 10 packs sold.**
 
 **Days 64-90 (14 Dec-9 Jan): the January stack.**
 - Ship the yearly and quarterly roll export (10 Jan), the Res 1567 yearly checklist (20 Jan) and the IT-report reminder (30 Jan).
@@ -497,8 +528,8 @@ Base-case active lending entities by month:
 |---|---|---|
 | 25 Oct 2026 (day 14) | 25 interviews; 3 written pilot commitments; 2 accountants say they would pay USD 20 per entity | fewer than 2 commitments and no accountant would pay; or interviews show ERPs already prepare the SAEM web form for most small lenders |
 | 15 Nov 2026 (day 35) | MVP live: calendar, roll export, Res 1567 pack, multi-entity board, annex calculator v0 reconciled with 2 real loan books | the calculator cannot reproduce a past filing |
-| 13 Dec 2026 (day 63) | 10 paying entities; 10 packs sold; penetration test passed; 2 reseller agreements | fewer than 5 paying entities |
-| 9 Jan 2027 (day 90) | 15 paying entities; 5 active accountants; card failures under 10% | fewer than 8 paying entities, or card failures above 25% with no reseller in place |
+| 13 Dec 2026 (day 63) | 5 paying entities; 10 packs sold; penetration test passed; 2 reseller agreements | fewer than 2 paying entities and fewer than 5 packs |
+| 9 Jan 2027 (day 90) | 8 paying entities; 3 active accountants; card failures under 10% | fewer than 4 paying entities, or card failures above 25% with no reseller in place |
 | 30 Apr 2027 (month 6) | 22 paying entities; 8 self-assessments sold; first case study | **fewer than 10 paying entities (the low path)** |
 | 31 Oct 2027 (month 12) | 50 paying entities; 40 Registro entities; 1 federation in talks; SAS open if triggered | **fewer than 25 entities and no shared-platform plan (B1 or another vertical)** |
 | 31 Oct 2028 (month 24) | 100 entities; first-year renewal of at least 80%; monthly break-even | renewal below 60%, or fewer than 60 entities |
@@ -520,4 +551,52 @@ Base-case active lending entities by month:
 12. **Dividend withholding and FX access for a foreign-owned SAS in 2026-2027** (Com. A 8226 conditions; 7% dividend tax), if profits are to leave Argentina.
 
 ## Sources
-(pending)
+
+Research for this file: 25 web searches and 14 page fetches, plus text extraction from the RG 5617 PDF. The model script is in the session scratchpad.
+
+**Read directly for this file (page fetched or PDF text read):**
+- https://www.arca.gob.ar/iva/servicios-digitales/reg-percepcion-4240.asp (ARCA, VAT perception on foreign digital services)
+- https://www.consejosalta.org.ar/wp-content/uploads/ARCA-5617.pdf (RG 5617/2024 full text: art. 1, 3, 7, 8)
+- https://blogdelcontador.com.ar/news-45948-santa-fe-aplicara-ingresos-brutos-a-servicios-digitales-del-exterior-desde-el-1-de-julio (provincial IIBB on foreign digital services)
+- https://abogados.com.ar/tratamiento-en-el-impuesto-a-las-ganancias-de-los-servicios-en-la-nube/21979 (withholding on payments abroad, 31.5%)
+- https://developer.paddle.com/concepts/sell/supported-countries-locales (Paddle: Argentina, ARS, inclusive)
+- https://stripe.com/ie/pricing (Stripe Ireland fees)
+- https://helpcenter.dlocalgo.com/en/articles/7229140-in-which-countries-can-i-sell-with-dlocal-go (dLocal Go merchant countries)
+- https://xubio.com/ar/precios-contadores (Xubio firm plans, ARS)
+- https://siap.blogdelcontador.com.ar/?p=111396 (IGJ RG 11/2026)
+- https://bruchoufunes.com/?p=35162 (Vela LatAm buys Axoft/Tango, 8 Oct 2026)
+
+**Used from search results (snippets; not opened):**
+- https://diariojornada.com.ar/408822/economia/ningun_chau_al_dolar_tarjeta_el_recargo_del_30_sigue_vigente
+- https://www.iprofesional.com/impuestos/446939-arca-como-pedir-devolucion-del-30-compras-tarjeta-y-dolar-ahorro
+- https://blogdelcontador.com.ar/reforma-tributaria-iva-ya-se-aplica-el-impuesto-a-los-servicios-digitales
+- https://clon.cemla.org/actividades/2021-final/2021-01-compilacion-de-estadisticas-de-balanza-de-pagos/2021-01-compilacion-de-estadisticas-de-balanza-de-pagos6.pdf
+- https://siap.blogdelcontador.com.ar/categoria_normativa/servicios-digitales-prestados-por-sujetos-del-exterior/
+- https://www.boletinoficial.gob.ar/detalleAviso/primera/183569/20180514 (RG 4240)
+- https://support.stripe.com/questions/argentina-s-new-inbound-non-argentine-foreign-exchange-(fx)-rate-on-stripe
+- https://dlocalgo.com/en/coverage
+- https://abogados.com.ar/un-gran-paso-camino-a-la-liberacion-de-las-restricciones-cambiarias/36600 (Com. A 8226)
+- https://kpmg.com/ar/es/home/media/novedades-tax/2025/04/21-abril.html
+- https://www.elsol.com.ar/?p=2254009 (minimum-wage schedule Sep 2026-Apr 2027)
+- https://www.colegio-escribanos.org.ar/noticias/2026_09_02_Consejo_Salario_Res-4-26.pdf
+- https://www.tiempoar.com.ar/ta_article/por-decreto-el-gobierno-fijo-el-nuevo-salario-minimo-es-de-apenas-383-800/amp/ (July 2026 CPI 2.1%)
+- https://developargentina.com/blog/como-abrir-sas-argentina-paso-paso-2026
+- https://www.infoviajera.com/2026/06/rapida-acreditacion-de-millas-aerolineas-plus-con-las-tarjetas-del-banco-credicoop/
+- https://www.idelcoop.org.ar/sites/www.idelcoop.org.ar/files/revista/articulos/pdf/2013_125685939.pdf
+- https://www.ppro.com/countries/argentina/
+- https://www.finextra.com/pressarticle/76507/ebanx-integrates-with-credit-cards-in-argentina
+- https://www.marval.com/Publicacion/uif-regulacion-de-la-actividad-del-revisor-externo-independiente-13071?lang=es
+- https://www.ambito.com/economia/armas-destruccion-masiva-la-uif-creo-el-registro-revisoresindependientes-n6052665
+- https://www.conclusion.com.ar/?p=1439083
+- https://www.iprofesional.com/tecnologia/359020-software-de-gestion-visma-compra-calipso
+- https://publish.ne.cision.com/v2.2/Release/ViewReleaseHtml/DC2B845805F04BD9
+- https://ferrere.com/es/novedades/nueva-reglamentacion-de-prevencion-de-lavado-de-activos-para-cooperativas/
+
+**Carried from sibling files without re-reading** ([01](01-law-and-requirements.md), [02](02-market-and-competition.md), [Argentina B1 file 04](../argentina-b1/04-gtm-company-finance.md), [Paraguay B1 file 04](../paraguay-b1/04-gtm-company-finance.md)):
+- Law and duties: https://www.argentina.gob.ar/normativa/nacional/norma-427021/texto ; https://www.consejosalta.org.ar/wp-content/uploads/INAES-1567.pdf ; https://contadoresenred.com/cooperativas-y-mutuales-sistema-integrado-de-nomina-de-asociados-y-autoridades/ ; https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/62977/texact.htm ; https://www.boletinoficial.gob.ar/detalleAviso/primera/339254/20260310 ; https://www.boletinoficial.gob.ar/detalleAviso/primera/346572/20260831 ; https://rionegro.gov.ar/info/297/servicio-de-ayuda-economica-mutual-se-pone-en-marcha-el-nuevo-sistema-de-transmision-web
+- Market and prices: https://cpcese.org.ar/documentos/Lic.%20Cooperativas%20R.%2006-25.pdf ; https://www.consejosalta.org.ar/2026/06/actualizacion-del-valor-modulo-para-honorarios-minimos-profesionales/ ; https://www.colppy.com/precios/ ; https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf ; https://www.noticiasnqn.com.ar/noticias/2021/11/26/251055-autoridades-del-inaes-visitaron-calf ; https://andina.pe/ingles/noticia-sbs-419-cooperativas-lograron-su-registro-tras-proceso-inscripcion-758324.aspx
+- Payments and tax: https://docs.stripe.com/currencies ; https://stripe.com/pricing ; https://www.paddle.com/pricing ; https://docs.lemonsqueezy.com/help/getting-started/supported-countries ; https://dodopayments.com/blogs/lemonsqueezy-review ; https://www.garrigues.com/es_ES/noticia/software-service-saas-desafio-alta-complejidad-tributaria-mundo-digital-e-interconectado ; https://www.argentina.gob.ar/node/78019 ; https://www.arca.gob.ar/convenios-internacionales/paises/ ; https://www.ambito.com/informacion-general/arca-simplifico-un-tramite-clave-acceder-beneficios-impositivos-internacionales-n6284775 ; https://blogdelcontador.com.ar/resolucion-312-19-agip-ingresos-brutos-se-reglamenta-el-regimen-de-retencion-sobre-los-servicios-digitales ; https://www.infoviajera.com/2024/12/nuevo-dolar-tarjeta-el-gobierno-creo-la-percepcion-que-reemplaza-a-la-que-cae-en-diciembre/
+- Company setup: https://servicios.infoleg.gob.ar/infolegInternet/anexos/270000-274999/273567/texact.htm ; https://abogados.com.ar/novedades-igj-resolucion-042026-simplificacion-sociedades-extranjeras/39242 ; https://www.colegio-escribanos.org.ar/noticias/2026_06_10_Informe-Res-Gral-IGJ-4-26.pdf ; https://vlolawfirm.com/guides/cost-of-company-formation-in-argentina-complete-breakdown ; https://cuantomecuesta.com/ar/crear-empresa-sas/ ; https://argentinavisalaw.com/guides/company-formation-argentina ; https://developargentina.com/guias/abrir-empresa-argentina ; https://yo-facturo.com/blog/costos-de-abrir-una-empresa-en-argentina/
+- Data protection: https://www.argentina.gob.ar/transferencias-internacionales ; https://abogados.com.ar/nueva-regulacion-sobre-transferencias-internacionales-de-datos-personales/33745
+- Valuation: https://pipelineroad.com/agency/blog/saas-valuations-guide ; https://bigideasdb.com/state-of-saas-valuations-2026
+

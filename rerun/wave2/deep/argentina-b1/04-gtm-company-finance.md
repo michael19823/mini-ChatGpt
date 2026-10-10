@@ -214,7 +214,7 @@ KPIs to track monthly:
 | Impuesto PAIS | 0% (ended December 2024) | | | [Infoviajera, Dec 2024](https://www.infoviajera.com/2024/12/nuevo-dolar-tarjeta-el-gobierno-creo-la-percepcion-que-reemplaza-a-la-que-cae-en-diciembre/) |
 
 Notes:
-- **Listed providers.** RG 4240 works from a list of foreign digital-service providers. How intermediaries treat a small provider that is not on the list is not settled here (unverified). Test it with pilot cards. Either way, the seller's duty does not change.
+- **Listed providers.** The card issuer's duty to perceive depends on ARCA's lists of foreign digital-service providers (Annex II of RG 4240), which ARCA updates from time to time. On a card, the perception is made on the statement date and shown separately ([contadoresenred on RG 4240](https://contadoresenred.com/iva-en-servicios-digitales-rg-4240/)). A new small vendor will not be on the list at first, so a non-registered broker may see no VAT line at all. In that case a VAT-registered broker self-assesses. How issuers treat unlisted vendors in practice is not settled here (unverified). Test it with pilot cards. Either way, the seller's duty does not change.
 - **Many brokers are monotributistas** (simplified regime) and cannot recover VAT (the share is unverified; most Buenos Aires city brokers are one-person offices, see [02](02-market-and-competition.md)).
 
 ### Does the foreign seller have to register for Argentine VAT?
@@ -253,7 +253,7 @@ Notes:
 
 ### Local collection options (for later)
 - **dLocal Go** lets small foreign merchants take Argentine payments in pesos and get paid in their home currency. Its Argentina fees are 3.49% for cards, 2.99% for cash and 1.99% for bank transfer, plus local taxes (21% in Argentina) ([dLocal Go coverage](https://dlocalgo.com/en/coverage)). It supports subscriptions from weekly to yearly ([dLocal Go help](https://helpcenter.dlocalgo.com/en/articles/7925879-how-do-i-create-a-subscription)). Whether the 30% advance applies to buyers on this route is unclear (unverified). Add it if card failures pass 10% or buyers ask for peso payment.
-- **Mercado Pago** is the dominant local wallet. It was not checked for foreign merchants in this pass (unverified).
+- **Mercado Pago** is the dominant local wallet. Its subscription tool ("Plan de suscripción") is free to set up, and payers need no account ([Cronista](https://www.cronista.com/infotechnology/actualidad/mercado-pago-tiene-la-clave-para-que-ganes-mas-plata-por-mes-como-funciona/)). But a seller account appears to need Argentine identification, and a business account a CUIT ([Jonatan Almeira blog](https://www.jonatanalmeira.com/?p=65156); [iProUP](https://www.iproup.com/economia-digital/20805-mercado-pago-como-evitar-pago-de-ganancias-e-iva-de-mas)) (secondary sources; unverified). So it is a route only with a local company or a reseller.
 - **A local reseller** (a partner accounting firm) can buy licences wholesale and invoice in pesos with VAT. This is the cheapest bridge before a local company.
 
 ## Company setup (needed or not, costs)
@@ -264,7 +264,7 @@ Notes:
 - **Open a local company only if one of these happens:**
   1. colegio, franchise or accountant deals worth more than about USD 20,000 a year where the buyer insists on a local invoice in pesos, or would withhold 31.5%;
   2. you hire Argentine employees rather than contractors;
-  3. you want to collect in pesos at scale (Mercado Pago, local bank transfer).
+  3. you want to collect in pesos at scale (Mercado Pago, local bank transfer). Mercado Pago appears to need a local CUIT (see "Payments").
 - **The cheaper middle path is a local reseller.**
 - In the base model, trigger 1 could arrive in year 2 or 3 (colegio deals). Budget the company then, not now.
 
@@ -272,7 +272,7 @@ Notes:
 
 | Item | SAS (simplified company) | SRL (limited company) | Source |
 |---|---|---|---|
-| Minimum capital | 2 SMVM = ARS 767,600 (about USD 506) at the Sep 2026 SMVM of ARS 383,800. At least 25% is paid in at formation, the rest within 2 years | No legal minimum; must be adequate for the business | [Ley 27.349 art. 40-41](https://servicios.infoleg.gob.ar/infolegInternet/anexos/270000-274999/273567/texact.htm) (not re-read in this pass); SMVM from [Canal 26](https://www.canal26.com/economia/2026/09/02/asi-quedo-el-aumento-del-salario-minimo-vital-y-movil-cuanto-se-cobrara-entre-septiembre-de-2026-y-abril-de-2027/) |
+| Minimum capital | 2 SMVM = ARS 767,600 (about USD 506) at the Sep 2026 SMVM of ARS 383,800. At least 25% of cash contributions is paid in at subscription, the rest within 2 years. A SAS can be formed digitally, and the registry must register it within 24 hours when its model articles are used (art. 35, 38) | No legal minimum; must be adequate for the business | [Ley 27.349 art. 35-41](https://servicios.infoleg.gob.ar/infolegInternet/anexos/270000-274999/273567/texact.htm); SMVM from [Canal 26](https://www.canal26.com/economia/2026/09/02/asi-quedo-el-aumento-del-salario-minimo-vital-y-movil-cuanto-se-cobrara-entre-septiembre-de-2026-y-abril-de-2027/) |
 | Official fees, Buenos Aires city, digital route | IGJ fee about ARS 8,438 (USD 6). No notary and no edict in the city | Edict ARS 20,000-50,000, plus IGJ fees | [Cuánto me cuesta, Apr 2026](https://cuantomecuesta.com/ar/crear-empresa-sas/) (aggregator; unverified) |
 | Buenos Aires province, in person | Signature certification ARS 80,850, plus a digital-signature token at ARS 15,000-40,000 | Notary or law-firm fees ARS 100,000-200,000 | same |
 | With a lawyer, remotely | About USD 300-800 all-in for a SAS with local owners | About USD 800-2,000, including the notary | [Argentina Visa Law guide](https://argentinavisalaw.com/guides/company-formation-argentina) (search snippet; unverified) |
@@ -596,6 +596,10 @@ What the numbers mean:
 - https://techcrunch.com/?p=2815886
 - https://allende.com/bancario/el-banco-central-flexibiliza-el-regimen-cambiario-para-exportaciones-transferencias-en-moneda-extranjera-y-pagos-financieros-04-14-2026/
 - https://www.boletinoficial.gob.ar/detalleAviso/primera/285227/20230426
+- https://contadoresenred.com/iva-en-servicios-digitales-rg-4240/
+- https://www.cronista.com/infotechnology/actualidad/mercado-pago-tiene-la-clave-para-que-ganes-mas-plata-por-mes-como-funciona/
+- https://www.jonatanalmeira.com/?p=65156
+- https://www.iproup.com/economia-digital/20805-mercado-pago-como-evitar-pago-de-ganancias-e-iva-de-mas
 - https://dlocalgo.com/en/coverage
 - https://helpcenter.dlocalgo.com/en/articles/7925879-how-do-i-create-a-subscription
 - https://servicios.infoleg.gob.ar/infolegInternet/anexos/270000-274999/273567/texact.htm

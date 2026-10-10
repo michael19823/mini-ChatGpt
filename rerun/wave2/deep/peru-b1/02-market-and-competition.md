@@ -2,7 +2,7 @@
 
 Date: 10 Oct 2026. Builds on [the B1 report](../reports/peru-b1.md). Scope: market size, buyers, competition, channels and regional expansion. Law, product, go-to-market and company set-up are covered by the other section files.
 
-Method: I pulled MINCETUR's live public registers of rooms, online licence holders, betting shops and SUCTR system vendors on 10 Oct 2026 and counted them myself. I read the full text of Res. SBS 01015-2026 and Res. SBS 03622-2025 from MINCETUR's SPLAFT page, and three MINCETUR presentations to operators (2017, 2019, 2021). Then 38 web searches and 4 page fetches in Spanish and English. Search summaries are marked as such.
+Method: I pulled MINCETUR's live public registers of rooms, online licence holders, betting shops and SUCTR system vendors on 10 Oct 2026 and counted them myself. I read the full text of Res. SBS 01015-2026 and Res. SBS 03622-2025 from MINCETUR's SPLAFT page, and three MINCETUR presentations to operators (2017, 2019, 2021). Then 33 web searches and 4 page fetches in Spanish and English, plus direct downloads of public files. Search summaries are marked as such.
 
 ## Summary
 
@@ -15,7 +15,7 @@ Method: I pulled MINCETUR's live public registers of rooms, online licence holde
 - **The rule bites now.** 01015-2026 took effect on 9 April 2026 with no adaptation period. The RO must be kept in software and sent to the UIF on an SBS template. Fines are fixed per infraction: 7 UIT (S/ 38,500) for a missing or incomplete RO, 5 UIT for not sending it.
 - **Pain is documented.** For 2016, 164 of 333 firms filed the IAOC with the UIF late or not at all, and MINCETUR complained that its IAOC format differs from the UIF's. The last public SPLAFT fines in gaming that I found are from 2022.
 - **No competitor does the job.** No gaming SPLAFT software was found in Peru. Generic tools (Pirani at about US$ 3,645 a year before its AML add-on), screening services and consultants each cover a slice. The real threats are the 29 SUCTR vendors already inside every room, and Mexico's KYC Systems if it moves south.
-- **Revenue ceiling is modest.** Base case about S/ 460,000 a year in year 3 (about US$ 135,000), range US$ 65,000-230,000. That is a little below B1's US$ 185,000, because there are fewer firms and fewer online buyers. Colombia (about 400 slot operators, 3,700 venues) is the natural second market.
+- **Revenue ceiling is modest.** Base case about S/ 456,000 a year in year 3 (about US$ 132,000), range US$ 63,000-226,000. That is a little below B1's US$ 185,000, because there are fewer firms and fewer online buyers. Colombia (about 400 slot operators, 3,700 venues) is the natural second market.
 
 ## Buyer segments
 
@@ -44,7 +44,7 @@ All counts are my own, from MINCETUR's public registers, pulled on 10 Oct 2026. 
 - **Land-based:** "a legal entity that runs casino games and/or slot machines, authorised by MINCETUR" (art. 1.1 and definition 29 of [01015-2026](https://consultasenlinea.mincetur.gob.pe/casinos/Splaft/pdf/Resoluci%C3%B3n_SBS_01015_2026.pdf)). That is the 301 RUCs.
 - **Online and betting shops:** the company authorised to run remote-gaming or remote-betting platforms "and to run sports-betting shops" (definition 34 of [Res. SBS 03622-2025](https://consultasenlinea.mincetur.gob.pe/casinos/Splaft/pdf/RESOLUCIoN_SBS_03622-2025.pdf)). The shop agents are not obligated subjects themselves. They appear in the holder's IAOC as "suppliers and annexed establishments" (art. 26 item c, same PDF). So the agents are users of a tool, not buyers.
 
-**Working buyer base:** 301 land-based firms (core), 23 betting-shop networks (upside), 49 online companies (side market). Total 350 to 373 obligated firms, depending on overlap.
+**Working buyer base:** 301 land-based firms (core) and 49 online companies (side market), of which 23 run betting-shop networks (upside). That is **350 distinct obligated firms**. All 23 shop-network holders appear in the online licence list, and no online company name matches a land-based firm (my name match; groups may use different RUCs).
 
 ## Buyer profile and pain
 
@@ -59,7 +59,7 @@ All counts are my own, from MINCETUR's public registers, pulled on 10 Oct 2026. 
 **How they comply today.**
 
 - **IAOC filing has long been weak.** For 2016, of 333 obligated firms, 169 filed the IAOC with the UIF on time, 112 filed late and 52 did not file. With MINCETUR, 314 filed on time, 6 late and 13 not at all. MINCETUR listed common content errors and warned that "the UIF and MINCETUR IAOC formats are different; filing one does not exempt from the other" ([MINCETUR SPLAFT talk, 2017](https://consultasenlinea.mincetur.gob.pe/casinos/Agenda%20_Noticias/pdfs/2017/Presentacion_Charla_SPLAFT.pdf)). The data is old, but it shows a third to a half of firms struggling with the one yearly report.
-- **Enforcement.** By early 2017 MINCETUR had imposed SPLAFT fines totalling about 235 UIT (same talk). In Jan-Aug 2022 it sanctioned 10 firms for not filing the IAOC ([Focus Gaming News](https://focusgn.com/latinoamerica/peru-multo-a-30-empresas-titulares-de-salas-de-juegos-de-azar)). I found no public gaming SPLAFT fines for 2023-2026 (three searches; unverified). In UIF-supervised sectors, PRCP found the most common 2022 infraction was "not recording operations as the rules require", then an incomplete manual ([PRCP 2023](https://blog.prcp.com.pe/wp-content/uploads/2023/03/Sistema-de-Prevencion-de-Lavado-de-Activos-y-Financiamiento-del-Terrorismo-Los-sectores-mas-sancionados-en-el-2022-por-la-UIF.pdf), search summary).
+- **Enforcement.** By early 2017 MINCETUR had imposed SPLAFT fines totalling about 235 UIT (same talk). In Jan-Aug 2022 it sanctioned 10 firms for not filing the IAOC ([Focus Gaming News](https://focusgn.com/latinoamerica/peru-multo-a-30-empresas-titulares-de-salas-de-juegos-de-azar)). I found no public gaming SPLAFT fines for 2023-2026 (two searches here plus B1's; unverified). In UIF-supervised sectors, PRCP found the most common 2022 infraction was "not recording operations as the rules require", then an incomplete manual ([PRCP 2023](https://blog.prcp.com.pe/wp-content/uploads/2023/03/Sistema-de-Prevencion-de-Lavado-de-Activos-y-Financiamiento-del-Terrorismo-Los-sectores-mas-sancionados-en-el-2022-por-la-UIF.pdf), search summary).
 - **The RO must already be digital and filed.** It covers every chip or ticket cash-out of US$ 2,500 or more and every promotional-prize winner at any amount (art. 14.3). It is logged on the day, in date order, "in IT systems and/or applications", with a backup (art. 14.4). The officer sends it to the UIF in the structure and frequency the SBS sets, on a template only available inside Portal PLAFT (art. 14.6) (all [01015-2026](https://consultasenlinea.mincetur.gob.pe/casinos/Splaft/pdf/Resoluci%C3%B3n_SBS_01015_2026.pdf)). MINCETUR described the same practice in 2021: RO and prize register "kept by electronic means ... sent to the UIF-Perú and made available to MINCETUR" ([MINCETUR 2021](https://consultasenlinea.mincetur.gob.pe/casinos/Agenda%20_Noticias/pdfs/2021/DGJCMT_Nov_2021.pdf)).
 - **Every room already runs a state-linked system.** All machines connect in real time to MINCETUR and SUNAT through a homologated SUCTR ([MINCETUR 2019](https://consultasenlinea.mincetur.gob.pe/casinos/Agenda%20_Noticias/pdfs/2019/DGJCMT_JUNIO_2019_2.pdf)). The 29 registered vendors include IGT (20 models: Advantage, Galaxis, System2Go), Win Systems/WIGOS (15), Cirsa (8), Link Tek SAC (6), Bally (5), DRGT, Modulus and LNW (4 each), Octavian (myACP) and about ten Peruvian SACs (Interactive Technical Systems, Inversiones Cerro Blanco, Integrated Services for Gaming, Feral Electronics, Orion Consulting, Integrated Gaming System, Canadian Games, Wargos Technologies, DRGT Perú) (my count of the [SUCTR register](https://consultasenlinea.mincetur.gob.pe/casinos/Registros/registros.html?c=r_modelosuctr)). These systems hold ticket cash-out data. The client ID, address, occupation and source-of-funds fields are probably typed in separately at the cash desk (unverified).
 - **Online.** Platforms must pass a lab certification whose format includes a section "19.2 Anti-money-laundering monitoring" ([MINCETUR Formatos 2026](https://apuestasdeportivas.mincetur.gob.pe/PDF/Formatos_2026.pdf)). The licence register names platform vendors such as SoftConstruct, Techsson, Calimaco and VPL (my count). GBG and KYCAID sell KYC to Peruvian operators ([GBG](https://www.gbg.com/en/blog/igaming-and-kyc-in-peru/); [KYCAID](https://kycaid.com/blog/peru-vs-brazil-compliance-comparison/)).
@@ -73,7 +73,7 @@ All counts are my own, from MINCETUR's public registers, pulled on 10 Oct 2026. 
 5. **Betting networks.** A holder with hundreds of agent-run shops must capture client data at every till and keep due diligence on every agent. That is a much bigger data-capture job than a slot room's.
 6. **No grace period.** 01015-2026 "takes effect the day after its publication" (Artículo Octavo, same PDF), so from 9 April 2026. Firms that have not updated manuals, RO fields and induction records are already exposed.
 
-I found no forum or press complaints from operators about SPLAFT cost in 2025-2026 (two searches). SONAJA's public voice is about illegal gaming and responsible play ([Focus Gaming News](https://focusgn.com/latinoamerica/sonaja-preve-un-aumento-de-las-apuestas-en-peru-durante-el-mundial-y-refuerza-su-llamado-al-juego-responsable)).
+I found no forum or press complaints from operators about SPLAFT cost in 2025-2026 (one targeted search; unverified). SONAJA's public voice is about illegal gaming and responsible play ([Focus Gaming News](https://focusgn.com/latinoamerica/sonaja-preve-un-aumento-de-las-apuestas-en-peru-durante-el-mundial-y-refuerza-su-llamado-al-juego-responsable)).
 
 ## Willingness to pay
 
@@ -99,7 +99,7 @@ One 7 UIT fine equals about 11 years of a S/ 290-a-month subscription. The weak 
 - **Consultants.** PRCP, Caro & Asociados, PLAFT Suite and plaftperu.com sell on quote only ([plaftperu](https://www.plaftperu.com/); [PLAFT Suite](https://plaft-suite.com/risk-consulting)).
 - **Affordability.** Casino and slot taxes were S/ 200 million in 2022 and a projected S/ 210 million in 2023 ([Infomercado, 31 Jan 2023](https://infomercado.pe/impuestos-de-casinos-y-tragamonedas-sumarian-s-210-millones-en-2023-segun-mincetur-ms/)). Over about 70,000 machines that is roughly S/ 3,000 of tax per machine a year, or about S/ 240,000 for an 80-machine room (my estimate). A S/ 3,500-a-year tool is about 1.5% of that tax bill.
 
-**Conclusion.** A single-room firm can likely pay S/ 250-350 a month if the tool saves officer time and produces a clean RO and IAOC. That sits at about a quarter of Pirani's entry price, and near the cost of two training seats a month. Chains and betting networks can pay S/ 1,000-3,000 a month (estimate, unverified).
+**Conclusion.** A single-room firm can likely pay S/ 250-350 a month if the tool saves officer time and produces a clean RO and IAOC. That is about a quarter of Pirani's entry price before its AML add-on. Chains and betting networks can pay S/ 1,000-3,000 a month (estimate, unverified).
 
 ## Competitor table and discussion
 
@@ -122,7 +122,7 @@ One 7 UIT fine equals about 11 years of a S/ 290-a-month subscription. The weak 
 
 **Discussion.**
 
-- **No Peruvian gaming SPLAFT software found.** This pass ran 18 competitor searches in Spanish and English, read the vendors in MINCETUR's own registers, and checked the main generic tools. B1's finding holds.
+- **No Peruvian gaming SPLAFT software found.** This pass ran about a dozen competitor searches in Spanish and English, read the vendors in MINCETUR's own registers, and checked the main generic tools. B1's finding holds.
 - **The money data sits with SUCTR vendors.** They are inside every room, so they are both the main threat and the fastest route in. A local SUCTR firm with many small-room clients is the best first partner (unverified whether any wants to).
 - **Generic AML tools are a poor fit.** Pirani and screening services do not know a chip cash-out from a raffle winner. Their price also starts near S/ 1,000 a month.
 - **Consultants are a channel.** They sell manuals, audits and training. One officer per firm means they cannot scale by holding officer roles. A console that lets them run 20 clients' registers helps them.
@@ -171,7 +171,7 @@ Colombia is the only clear second market. It has more operators than Peru, but i
 | Sala | 1 room | 185 | S/ 290 (about US$ 84) | S/ 3,480 |
 | Cadena pequeña | 2-3 rooms | 89 | S/ 490 | S/ 5,880 |
 | Cadena | 4-10 rooms | 21 | S/ 990 | S/ 11,880 |
-| Corporativo | 11+ rooms, online, betting networks | 6 + 49 + 23 | from S/ 1,990 | from S/ 23,880 |
+| Corporativo | 11+ rooms, online, betting networks | 6 + 49 (23 with shop networks) | from S/ 1,990 | from S/ 23,880 |
 | Consultor | law firms, consultancies | ? | free console, 20% referral | - |
 
 Offer 2 months free for annual prepayment. Card payment fits these amounts.
@@ -180,11 +180,11 @@ Offer 2 months free for annual prepayment. Card payment fits these amounts.
 
 | Case | Sala | Cadena pequeña | Cadena | Corporativo | Total S/ | US$ |
 |---|---|---|---|---|---|---|
-| Low | 23 | 11 | 2 | 2 | about 230,000 | about 67,000 |
-| Base | 46 (25%) | 22 (25%) | 4 (20%) | 5 | about 460,000 | about 134,000 |
-| High | 74 (40%) | 36 (40%) | 6 (30%) | 10 | about 790,000 | about 228,000 |
+| Low | 23 | 11 | 2 | 2 | about 216,000 | about 63,000 |
+| Base | 46 (25%) | 22 (25%) | 4 (20%) | 5 | about 456,000 | about 132,000 |
+| High | 74 (40%) | 36 (40%) | 6 (30%) | 10 | about 779,000 | about 226,000 |
 
-Base: 46 x 3,480 + 22 x 5,880 + 4 x 11,880 + 5 x 23,880 = S/ 457,000. The firm count is shrinking by 1-3% a year, so growth must come from Colombia or other Peruvian obligated sectors.
+Base: 46 x 3,480 + 22 x 5,880 + 4 x 11,880 + 5 x 23,880 = S/ 456,360. The firm count is shrinking by 1-3% a year, so growth must come from Colombia or other Peruvian obligated sectors.
 
 ## Open questions
 

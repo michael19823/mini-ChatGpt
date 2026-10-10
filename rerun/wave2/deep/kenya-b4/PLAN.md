@@ -439,3 +439,207 @@ Holidays to plan around: Mashujaa Day, Tue 20 Oct 2026; Jamhuri Day, Sat 12 Dec 
 **Reconciliation.** The 04 finance model used a smaller security test (KES 390,000, about USD 3,000, "my estimate") and KES 500,000 for the advocate. I use the 03 figures: a test of **USD 5,000-8,000** and an advocate at **KES 450,000-900,000**. The 03 figures cite market prices, and the product holds directors' criminal-record and credit documents, so a shallow test is false economy. A Nairobi firm lists a KES 50,000 package ([Hostiko](https://hostiko.co.ke/services/cybersecurity)), probably too shallow on its own. This raises peak cash by about KES 0.3m-1.1m (see §10).
 
 To spend less without cutting safety: take the advocate on as a channel partner (lower template fee in exchange for review referrals); skip the Nairobi trip until pilots are signed.
+
+---
+
+## 8. Go-to-market
+
+### Pricing (reconciled)
+
+The three earlier sources proposed different prices:
+
+| Item | Re-assessment | 02 file | 04 file | **Used here** |
+|---|---|---|---|---|
+| Kit (one-off) | KES 75,000-150,000; plan 100,000 | USD 490 (KES 63,000); USD 890 with an advocate | KES 69,000 registration / 99,000 licence; advocate review about 75,000 extra | **04** |
+| Recurring tool | KES 15,000 a month for everyone (180,000 a year) | USD 45 / 99 a month by tier | KES 78,000 / 156,000 a year by tier | **04** (the same money as 02) |
+| Adviser plan | KES 600,000 a year, up to 20 lenders | USD 349 a month, up to 20 | KES 540,000 a year, up to 15, plus 30,000 per extra | **04** |
+
+Why: the 04 prices are tiered by CBK class. The registered tier has just been hit with a KES 250,000 fee and gets the lower price ([02 file](02-market-and-competition.md)). Both tiers sit below the lender's own loan software (USD 59-346 a month, [Loandisk](https://loandisk.com/pricing.php)) and below one week of a compliance hire. The kit sits below CBK's KES 100,000 application fee and at the bottom of a lawyer's KES 60,000-250,000 for one application ([Global Law Experts](https://globallawexperts.com/commercial-lawyer-fees-kenya/)). No consultant publishes a price, so these remain my estimates until the discovery calls test them.
+
+| Plan | Who | Price (net of 16% VAT) | Includes |
+|---|---|---|---|
+| **Free check** | Anyone | 0 | Scope and tier, fees, countdown to about 29 Mar 2027, 31 Dec reminder by e-mail |
+| **Application Kit, registration** | Capital under KES 20m | **KES 69,000** one-off (USD 530) | Dossier builder, person tracker, sworn declarations, policy set (full credit policy and code, four briefs), complaints procedure, pricing sheet with APR calculator; **3 months of Comply** |
+| **Application Kit, licence** | KES 20m or more | **KES 99,000** one-off (USD 760) | As above with six full policies and the licence-only items; 3 months of Comply |
+| Advocate review (add-on) | Lenders that want a lawyer's sign-off | About KES 75,000, **billed by the advocate directly** | Review of the generated set against the lender's facts |
+| **Comply, registered** | Registered lender | **KES 78,000 a year** (about 6,500 a month; USD 600) | Registers (complaints, approvals, agents, outsourcing, people changes, bureau notices), calendar, certification workpaper, inspection pack, rule updates, KES 20m conversion alert |
+| **Comply, licensed** | Licensed lender, including the 281 | **KES 156,000 a year** (about 13,000 a month; USD 1,200) | As above, plus more users, the AI-decisions register, a returns log and a board pack |
+| **Adviser** | Law firm, consultant, accountant | **KES 540,000 a year** (USD 4,150), up to 15 workspaces; KES 30,000 per extra | Multi-client dashboard, white-label documents, kits for its own clients at no extra licence fee |
+| Monthly billing | Any Comply plan | +20% | |
+
+**Discounts** ([04 file](04-gtm-company-finance.md)):
+- concierge pilots in November: the kit at KES 40,000 for the first 5-8, for feedback and a testimonial;
+- founding customers: 25% off the first Comply year for the first 50 who sign by 31 Jan 2027;
+- association members (DFSAK, AMFI-K, the Fintech Alliance): 10% off.
+
+**Packaging rules.** Yearly prepaid is the default. The kit's 3 free months lead into Comply. A 5-7% price rise in year 3. No per-loan pricing.
+
+**VAT is a real cost to buyers.** Lending is VAT-exempt, so a lender cannot usually reclaim the 16% on our fee ([Musoni, Tax Appeals Tribunal](https://new.kenyalaw.org/akn/ke/judgment/ketat/2024/1250/eng@2024-08-09); [Grant Thornton](https://www.grantthornton.co.ke/globalassets/1.-member-firms/kenya/insights/pdf/grant-thornton-kenyas-analysis-of-the-finance-act-2026.pdf)). Comply registered therefore costs the buyer KES 90,480. Quote "excl. VAT" from day one. KRA has proposed scrapping the KES 5m VAT threshold, so do not plan on a VAT-free price edge ([The Kenya Times](https://thekenyatimes.com/business/inside-kra-proposal-to-scrap-ksh5-million-vat-threshold-what-it-means-to-businesses/)).
+
+### Channels, in priority order
+
+| # | Channel | What we do | Deal | Share of year-1 customers (my estimate) |
+|---|---|---|---|---|
+| 1 | **Small Nairobi law and consulting firms** with DCP guides ([02 file](02-market-and-competition.md)) | Sell the Adviser plan so they make kits faster at a fixed cost; recruit 1-2 as the partner advocate | They pay us for software (no fee-sharing). Non-advocate consultants get 20% of first-year revenue for referrals | 35% |
+| 2 | **Direct outreach to the 281** in CBK's directory | One-to-one e-mail to company addresses, then a call from the Nairobi person; offer a "31 December pack" and a free 30-minute gap review | Staff time | 25% |
+| 3 | **Search and content** for offline lenders | Free checker; "29 March 2027" checklist in English and Swahili; narrow Google Ads | Media | 15% |
+| 4 | **Associations**: DFSAK, the Fintech Alliance (AFIK, FINTAK, DFSAK, DCPAK), AMFI-K ([Capital FM](https://capitalfm.africa/kenyas-fintech-industry-gets-boost-with-new-alliance-formation/)) | Member webinar with the partner advocate; member discount. Sumsub's association deal is a precedent ([Sumsub](https://sumsub.com/newsroom/sumsub-joins-forces-with-kenyas-premier-fintech-association-to-drive-digital-innovation/)) | 10% discount | 10% |
+| 5 | **Press and LinkedIn** | Founder posts on each licensing batch; data stories to TechTrendsKE, Tech-ish, Business Daily | Time | 5% |
+| 6 | **Loan-software vendors** (Tunza, SuperLMS, Loandisk resellers) | Referral and CSV import | 15-20% of first-year revenue | 5% |
+| 7 | **Accountants and data-protection consultants** (ICPAK network) | CPD-style webinar; referral code | 20% of first-year revenue | 5% |
+
+Rules for outreach:
+- **No bulk cold e-mail.** 111 directory entries are webmail addresses, which point to individuals; Kenya's data law limits direct marketing (s.37, not read; unverified). Use phone, LinkedIn and one-to-one company e-mails; build lists from opt-ins.
+- **Advocates may not tout or share fees with non-advocates** ([Advocates (Practice) Rules](https://lite.judy.legal/amp/legislation/akn/ke/act/ln/1967/19/); current text unverified). Co-marketing stays educational (webinars, alerts), and money flows only as software fees.
+- **Sales cycle.** A vendor claims 90-270 days for regtech in Nairobi ([devcommx](https://www.devcommx.com/demand-generation/nairobi/regtech), vendor claim, unverified). The deadline shortens it for the kit. Plan 30-90 days for Comply (my estimate).
+
+**Sales motion.** Self-serve for the kit (checker, then card checkout), with a WhatsApp button on every page. Assisted for Comply: a 30-minute demo and gap review, a 14-day trial with the lender's own dates loaded, and one onboarding call that imports agents, products and open complaints from Excel. Renewal invoices go out 45 days ahead with a "your year in compliance" summary.
+
+**Renewal drivers:** the 31 Dec fee and return every year; registers CBK can ask for; rule changes; the KES 20m conversion alert.
+
+### Selling calendar
+
+| When | What happens | What we sell |
+|---|---|---|
+| Oct-Nov 2026 | Firms and press explain LN 191 | Discovery, concierge pilots, partner deals |
+| **31 Dec 2026** | First fee at the new rates, plus the annual return | "31 December pack" to the 281 |
+| about 20 Dec-5 Jan | Festive slowdown (my estimate) | Do not push |
+| 31 Jan 2027 | FIU annual AML report (unverified date) | AML helper inside Comply |
+| **Jan-Mar 2027** | The application rush to about 29 Mar | Kits, mostly through partner firms |
+| by 31 Mar each year | CBK publishes its list of licensed and registered lenders (draft rule) | A fresh Comply target list |
+| Apr-Jun 2027 | AfricArena Nairobi (Apr), Africa Fintech Live (May), Africa Fintech Forum (Jun) ([02 file](02-market-and-competition.md)) | Comply, Adviser plan |
+| each CBK batch (3-4 a year) | The press prints the new names | Comply offer to new licensees |
+| about 31 Oct, then Oct-Dec | Agent renewals; year-end fee and return | Renewals and new Comply sales |
+
+### Marketing budget, year 1 (Nov 2026-Oct 2027): about KES 1.4m (USD 10,800)
+
+| Item | KES |
+|---|---|
+| LinkedIn ads (test small first; B2B CPC benchmarks USD 5.50-12, [Dupple](https://dupple.com/learn/linkedin-ads-b2b-cost-2026)) | 300,000 |
+| Google Ads (narrow keywords) | 150,000 |
+| Webinar and e-mail tools, design | 100,000 |
+| Content: checklists, Swahili explainer, short videos | 120,000 |
+| PR and one sponsored article (rates unpublished) | 200,000 |
+| Events: 1-2 booths or sponsorships (prices unverified) | 350,000 |
+| Association sponsorship or member offers | 120,000 |
+| Contingency | 160,000 |
+
+By quarter: KES 400,000 (launch and 31 Dec), 380,000 (rush), 330,000 (events), 290,000 (year-end). Years 2 and 3: KES 1.1m a year. The Nairobi sales and support person (base: KES 90,000 a month in year 1, [Paylab](https://kenya.paylab.com/salaryinfo/commerce/sales-representative)), partner commissions and trips are separate lines in §10.
+
+### First 90 days (Mon 12 Oct 2026 to Sat 9 Jan 2027)
+
+- **Days 1-7 (12-18 Oct): set up and verify.**
+  - Get the gazetted LN 191 text; diff it against the draft; switch rule flags.
+  - Shortlist 3 small Nairobi firms; ask each for a fixed template fee and a quote for one licence application (this also gives a real competitor price).
+  - Open a Paddle account; send Paddle the written questions in §14.
+  - Landing page with the free checker, waitlist and a "29 March 2027" countdown.
+  - Build week 1 (S0 foundation).
+  - Book 20 discovery calls from the CBK directory and LinkedIn.
+- **Days 8-21 (19 Oct-1 Nov): build and validate.**
+  - Agent streams S1-S7; MVP on staging Fri 30 Oct.
+  - Hold the 20 calls. Test KES 69,000 / 99,000 for the kit and KES 6,500 / 13,000 a month for Comply.
+  - Pre-sell 5-8 concierge pilots at KES 40,000.
+  - Get a Kenyan tax adviser's short written view on withholding and the digital-presence tax in the Paddle phase. **Do not register the Kenyan company yet** (see §9).
+  - **Milestone 1 Nov** (§13).
+- **Days 22-49 (2-29 Nov): legal content, security, partners.**
+  - Advocate review rounds; content v1.0 signed off.
+  - Penetration test in the week of 16 Nov; fix and retest.
+  - Deliver the concierge pilots.
+  - Sign 2 partner firms on the Adviser plan or as referrers.
+  - **Webinar 1** (mid-November) with the partner advocate: "What to file by 29 March 2027."
+  - Pitch DFSAK and the Fintech Alliance for a January member webinar.
+  - Press pitch: "x of 900+ applicants still pending; what the new rules ask for."
+- **Days 50-63 (30 Nov-13 Dec): launch.**
+  - Public launch: kit checkout through Paddle; Comply trials.
+  - "31 December" campaign to the 281: the KES 500,000 fee, the annual return, the late charge.
+  - **Webinar 2:** "Your 31 December annual return and fee."
+  - Target: 10 paid kits and 5 Comply subscribers by 13 Dec.
+- **Days 64-80 (14-30 Dec): support the year-end; quiet build.** Help licensed customers finish their return; ship v1a; expect the slowdown.
+- **Days 81-90 (31 Dec-9 Jan): prepare the rush.** Plan weekly January-March webinars, Google Ads, the partner push and the association webinar. Prepare (but do not file) the Kenyan company papers so it can be registered within a week if a trigger fires. **Day-90 review** against §13.
+
+---
+
+## 9. Payments, company and legal
+
+### Is a Kenyan company needed?
+
+- **Not legally.** The product is a tool. It does not lend, so it needs no CBK licence, and a foreign company may sell software to Kenyan businesses ([04 file](04-gtm-company-finance.md)).
+- **In practice, probably within 6-12 months.** The 04 file says register in months 1-3 and move billing by about April 2027. Its reasons are real:
+  - **Withholding tax.** Since 1 Jul 2026, "royalty" includes software with its licence, training, maintenance and support fees ([Grant Thornton](https://www.grantthornton.co.ke/globalassets/1.-member-firms/kenya/insights/pdf/grant-thornton-kenyas-analysis-of-the-finance-act-2026.pdf); [KPMG](https://kpmg.com/us/en/taxnewsflash/news/2026/07/kenya-tax-measures-finance-act-2026-cbc-reporting.html)). A Kenyan buyer paying abroad may have to withhold 20%, or the treaty rate ([PwC](https://taxsummaries.pwc.com/kenya/corporate/withholding-taxes)). Whether SaaS access is caught is untested.
+  - **How companies pay.** Recurring supplier payments in Kenya go by bank transfer and M-Pesa Paybill to a Kenyan account (general practice; unverified as a share). Wiring USD abroad costs a small buyer fees that can reach 5-12% ([paybillke](https://paybillke.com/guides/freelancer-usd-payout-guide-kenya-2026)).
+  - **Trust.** A regulated lender files a KES invoice with a KRA PIN and an eTIMS number; a USD receipt from abroad is unusual ([KRA eTIMS](https://www.kra.go.ke/business/etims-electronic-tax-invoice-management-system/learn-about-etims/what-is-etims)).
+- **My call, applying the owner's preference: launch from the company abroad on Paddle, and decide on the Kenyan company at the 31 Mar 2027 review.** Register it as soon as **any one** trigger fires:
+  1. three or more buyers insist on a KES eTIMS invoice, withhold tax, or cannot pay by card;
+  2. more than 1 in 5 kit-to-Comply conversions fail at card checkout (the licensed plan with VAT, KES 180,960, is above M-Pesa GlobalPay's launch limit of KES 150,000 per payment ([Khusoko](https://khusoko.com/2022/06/02/safaricoms-virtual-visa-allows-customers-to-pay-for-goods-using-m-pesa-globally/); current limit unverified));
+  3. 20 or more paying Comply subscribers;
+  4. an Adviser-plan law firm requires a Kenyan contract.
+  
+  If none fires, register by **1 Jul 2027 at the latest**, provided the month-6 milestone is met, so the company is running before the October-December renewal and year-end season.
+- **Be honest about the saving:** waiting saves about KES 37,000 a month in company running costs but keeps Paddle's 5.1% fee instead of about 1.5% for longer, so it is roughly cost-neutral (my estimate). The real gain is founder time during the build and the rush, and the option never to open it if card billing works.
+- The Nairobi sales and support person can be contracted from abroad until then (tax treatment unverified; ask the tax adviser).
+
+### Payment routes
+
+| Route | When | Fees | Notes |
+|---|---|---|---|
+| **Paddle** (merchant of record), from the founder's company abroad | Launch to the company switch | 5% + USD 0.50 per transaction, no monthly fee ([Paddle pricing](https://www.paddle.com/pricing)) | Collects **16% Kenyan VAT on B2B and B2C** ([Paddle tax list](https://paddle.com/help/sell/tax/which-countries-does-paddle-charge-sales-tax-or-vat-for/)). **KES is not a checkout currency**, so price in USD and show KES on the site ([Paddle currencies](https://developer.paddle.com/concepts/sell/supported-currencies)). Whether Paddle also carries the digital-presence tax, and which Paddle entity invoices Kenya, are open (§14) |
+| Stripe direct | **Not for Kenya** | UK account: 3.15% + 20p for international cards, +2% currency conversion, Billing 0.7%, Tax 0.5% ([Stripe UK](https://stripe.com/gb/pricing)) | Takes Kenyan cards, but the founder's company would have to register for Kenyan VAT and file VAT and the 3% digital-presence tax monthly by the 20th ([PwC](https://taxsummaries.pwc.com/kenya/corporate/other-taxes); [PwC](https://taxsummaries.pwc.com/kenya/corporate/taxes-on-corporate-income)). A Kenyan company cannot open Stripe at all: Kenya is "Extended network", pointed to Paystack ([Stripe global](https://stripe.com/global)) |
+| Lemon Squeezy | Backup | About 5% + USD 0.50 ([Dodo](https://dodopayments.com/blogs/lemonsqueezy-review)) | Kenya is not on its blocked list; whether it remits Kenyan VAT on B2B is unclear ([Lemon Squeezy](https://docs.lemonsqueezy.com/help/getting-started/supported-countries)) |
+| Paystack | After the Kenyan company exists | Local cards 2.9%; international 3.8%; M-Pesa 1.5% ([Paystack Kenya](https://paystack.com/ke/pricing), search summary) | Settles in KES or USD |
+| M-Pesa Paybill, bank transfer, PesaLink | After the Kenyan company exists | Low | How Kenyan firms pay suppliers |
+
+**Kenyan cards** generally work for foreign online merchants, but some business cards decline until "international online transactions" are switched on (bank by bank; unverified). M-Pesa users can pay with GlobalPay, a virtual Visa card, but it is a personal wallet, so a director pays and claims it back.
+
+### Tax friction while selling from abroad
+
+| Issue | Rule | Effect | Source |
+|---|---|---|---|
+| VAT | Non-residents selling digital services to Kenyan businesses register and charge 16% from the first sale; monthly returns | Paddle handles it; with Stripe, we would | [PwC](https://taxsummaries.pwc.com/kenya/corporate/other-taxes) |
+| Digital-presence tax (SEP) | About 3% of gross; no threshold since the Finance Act 2025; draft rules exempt income already taxed by withholding | Either the buyer withholds or the seller pays 3%, not both if the draft holds | [PwC](https://taxsummaries.pwc.com/kenya/corporate/taxes-on-corporate-income); [CDH](https://www.cliffedekkerhofmeyr.com/en/news/publications/2025/Practice/Tax-Exchange-Control/tax-and-exchange-control-alert-03-october-Kenya-issues-draft-Income-Tax-Significant-Economic-Presence-Tax-Regulations-2025) |
+| Withholding tax on "royalties" | 20% for non-residents; treaty caps: UK, Germany, Canada 15%; France, South Africa, UAE, India 10%; Ireland, the Netherlands, Estonia and the US have no treaty, so 20% | A small lender paying by card will usually not withhold (my estimate). Licensed lenders with auditors may, and the seller then gets 80-85% | [PwC](https://taxsummaries.pwc.com/kenya/corporate/withholding-taxes) |
+| eTIMS invoices | Expense claims are checked against eTIMS from 1 Jan 2026; services from a non-resident without a permanent establishment are excluded | A foreign invoice does not cost the buyer its deduction; a Kenyan company must issue eTIMS invoices | [KRA eTIMS](https://www.kra.go.ke/business/etims-electronic-tax-invoice-management-system/learn-about-etims/what-is-etims); [BDO](https://www.bdo-ea.com/en-gb/insights/kra-to-validate-income-and-expenses-declared-in-tax-returns-effective-1-january-2026) |
+
+**Which home country is best?** If the founder's company is in the UK or Germany, a withholding buyer takes 15%; in France, 10%; in Ireland, the Netherlands, Estonia or the US, 20%. In the Paddle phase it is Paddle's invoicing entity that counts (open question).
+
+### Kenyan company: real costs
+
+| Item | In person (founder in Nairobi) | Remotely through a lawyer or corporate service firm | Source |
+|---|---|---|---|
+| Name search | KES 650 | Included | [BRS fee schedule](https://brs.go.ke/fee-schedule-companies-registry/) |
+| Private company registration | **KES 10,650** (one guide: 10,200-10,750 by share capital) | Included | [BRS fee schedule](https://brs.go.ke/fee-schedule-companies-registry/); [Kolonell](https://kolonell.com/en/blog/cost-of-registering-business-kenya-2026) |
+| **Official total** | **about KES 11,300** on eCitizen, plus travel | | |
+| Professional fees: incorporation, KRA PINs for company and directors, beneficial-ownership filing, first-year registered office, bank introduction | 0 | Incorporation alone KES 15,000-60,000 in agent guides ([vjmglobal](https://www.vjmglobal.com/feeds/blog/private-limited-company-kenya-usa), secondary); with the rest, **KES 60,000-120,000** (my estimate) | No lawyer's written quote found |
+| **All-in remote budget** | | **KES 100,000-150,000** (USD 770-1,150) | [04 file](04-gtm-company-finance.md) |
+| Minimum share capital | None | | [Kolonell](https://kolonell.com/en/blog/cost-of-registering-business-kenya-2026) (secondary) |
+| Company secretary | Not required below KES 5m paid-up capital; without a secretary or resident director, name a resident contact person | | [BRS-hosted risk assessment](https://brs.go.ke/wp-content/uploads/2024/01/PUBLIC-VERSION-MONEY-LAUNDERING-AND-TERRORIST-FINANCING-RISK-ASSESSMENT-REPORT.pdf); [EY](https://taxnews.ey.com/news/2023-1625) |
+| Time | 1-7 working days at BRS once papers are ready | Plus 2-6 weeks for a bank account with a foreign director (my estimate) | [Kolonell](https://kolonell.com/en/blog/register-company-kenya-ecitizen-brs-steps-2026) (secondary) |
+
+Why remote needs a firm: directors without a Kenyan alien card usually cannot use the BRS portal alone ([vjmglobal](https://www.vjmglobal.com/feeds/blog/private-limited-company-kenya-usa), secondary), and filings by foreign-resident directors sometimes fail at the one-time-password step with non-Kenyan phone numbers ([Bowmans](https://bowmanslaw.com/insights/kenya-companies-registry-a-reform-agenda-for-ease-of-doing-business/)). No resident director is legally required, but banks move faster with a local signatory, and each foreign director needs a KRA PIN to sign at the bank ([Healy Consultants](https://www.healyconsultants.com/kenya-company-registration/post-incorporation-considerations), secondary). A director who lives abroad should not need a work permit (unverified).
+
+**Running costs of the Kenyan company** (my estimates unless sourced):
+
+| Item | Cost |
+|---|---|
+| Bookkeeping | KES 5,000-10,000 a month (15,000-30,000 with payroll) |
+| Company secretary or registered office | KES 5,000-10,000 a month |
+| Audit and tax return | KES 80,000-150,000 a year (whether a small-company exemption applies is unverified) |
+| BRS annual return | KES 650 ([BRS FAQ](https://brs.go.ke/wp-content/uploads/2024/05/FAQs.pdf), unverified) |
+| Nairobi Unified Business Permit | about KES 10,000-30,000 a year (sources conflict, [Capital FM](https://capitalfm.africa/all-you-need-to-know-about-the-unified-business-permit-costs-requirements-and-how-to-apply/)) |
+| **Sum** | **about KES 18,000-35,000 a month** by my addition; the 04 file rounds the company line to KES 35,000-45,000 and the model uses KES 37,000, which I keep as a cautious figure |
+| Professional indemnity and cyber insurance | about KES 150,000-300,000 a year (no quote found; needed with or without the company) |
+
+**Taxes on the Kenyan company:** corporate tax 30% ([PwC](https://taxsummaries.pwc.com/kenya/corporate/taxes-on-corporate-income)); turnover tax for KES 1m-25m turnover, at 1.5% or 3% (sources differ; [PwC](https://taxsummaries.pwc.com/kenya/corporate)); VAT registration at KES 5m turnover. Once billing is Kenyan, a buyer may withhold the 5% resident rate on royalties, which is credited against the company's tax. The Kenyan company paying the foreign company for the software is itself a royalty (20% or treaty rate) with transfer-pricing rules; at first, keep the margin in Kenya and get a tax adviser's view before the first intercompany invoice.
+
+### Legal
+
+- **Advocates Act s.34** bars unqualified persons from preparing, for a fee, documents for conveyancing, company formation, partnerships, probate and litigation ([Sheriaplex](https://www.sheriaplex.com/kenya-acts/5674-unqualified-person-not-to-prepare-certain-documents-or-instruments)). Internal policies and CBK's prescribed forms are not on that list (my reading). Mitigations: sell self-service software; ship only advocate-approved clauses; the advocate performs and bills the review add-on; get a **written opinion in week 1**, including on s.44 fee scales.
+- **Fee-sharing.** Neither side takes a cut of the other's fees ([Advocates (Practice) Rules](https://lite.judy.legal/amp/legislation/akn/ke/act/ln/1967/19/), current text unverified). Law firms pay us software fees. Only non-advocate consultants get referral commissions.
+- **Documents before the first paid customer:**
+  1. Terms of service (B2B): "a tool, not legal advice"; the lender files and stays responsible; liability capped at 12 months' fees; CBK, ODPC and Competition Authority fines and loss of a licence excluded; a tax clause ("fees exclude VAT and any withholding; if you withhold, send the KRA certificate"); a CBK-access clause.
+  2. Data-processing agreement following ODPC reg 24, with the sub-processor list ([ODPC General Regulations](https://www.odpc.go.ke/wp-content/uploads/2024/03/THE-DATA-PROTECTION-GENERAL-REGULATIONS-2021-1.pdf)).
+  3. Privacy notice; impact assessment summary; transfer record.
+  4. Partner agreements: Adviser-plan licence; referral agreement (20%) for non-advocate consultants; engagement letter with the partner advocate.
+- **Kit promise (capped):** if CBK raises a documentation query on an item the kit covers, we fix it within 5 working days free; if CBK refuses an application for a missing item the kit should have produced, we refund the kit fee ([04 file](04-gtm-company-finance.md)).
+- **Rule-change service level:** templates and calendar updated within 30 days of a gazetted change or CBK guidance.
+- **Our own ODPC registration.** Foreign processors of Kenyan residents' data must register, but firms under KES 5m turnover and 10 staff are exempt unless in a listed sector ([ODPC FAQ](https://www.odpc.go.ke/faqs/)). We are probably exempt in year 1. Register early anyway (KES 4,000) because it helps sales; whether a foreign company needs a KRA PIN to do so is unverified.
+- **Insurance:** professional indemnity and cyber, KES 150,000-300,000 a year (unverified). **Trademark:** file with KIPI (fee unchecked).

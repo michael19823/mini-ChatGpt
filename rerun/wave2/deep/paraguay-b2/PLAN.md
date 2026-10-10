@@ -213,3 +213,268 @@ No public forum complaints were found; the pain evidence is SEPRELAD's own numbe
 - About 25 searches over three passes found no Paraguayan product that runs the whole SEPRELAD job for a small firm ([02]).
 - The incumbents are partial (Devsys, Pirani, HADA) or static (Word packs). That is the opening the owner's criteria look for.
 - **Do not sell documents or screening alone.** Both are free or cheap elsewhere. Sell the *running* of the file: the calendar with proof, the client and deal register, the RO file, the yearly reports and an export the auditor accepts.
+
+---
+
+## 5. Product
+
+### Positioning
+
+> "Tu legajo SEPRELAD siempre listo para el auditor" — your SEPRELAD file, always ready for the auditor ([03]).
+
+- **What it is.** A Spanish web app that runs a real-estate firm's SEPRELAD file between filings: the deadline calendar with proof of filing, the client file with KYC and list checks, the deal register that produces the quarterly RO, the Res 201/2020 documents, and the yearly CI report, FA figures and audit pack ([03]).
+- **What it is not.**
+  - It never files in SIRO and never stores SIRO passwords. SIRO has no public API, and every filing is the firm's sworn declaration ([01, rule G1][01req]).
+  - It is a tool, not legal advice and not the CO. The firm stays responsible ([Res 201/2020, art. 30][r201]).
+  - It claims no SEPRELAD endorsement ([Circular 2/2025][c2]).
+- **Where the money is.** In keeping the file current and proving it, not in templates. SEPRELAD and Pirani already give away a risk matrix ([02]).
+
+### Users
+
+| Role | Who | Rights |
+|---|---|---|
+| Top authority (owner, partners or board) | Approves the manual, code, CO, training plan, alert rules, enhanced-check clients and every ROS ([Res 201/2020, art. 7][r201]); pays | Everything in own firm; grants auditor or consultant access |
+| Compliance officer (CO) | Often the owner | Everything, plus the confidential area (alerts, ROS) |
+| Assistant | Secretary or bookkeeper | Clients and deals; confidential area only if named CO assistant |
+| Agent or broker | Employee or exclusive contractor ([Circular 001/2022][c001]) | Own clients and deals; cannot see whether a ROS exists |
+| Branch compliance lead | Larger firms (Res 201/2020, art. 8) | Branch only |
+| External auditor | One of 182 registered auditors | Read-only per invited firm; audit pack; findings |
+| Consultant or accountant | Outsourced helper | Per-firm grant; portfolio deadlines; no confidential area |
+| End client (buyer or seller) | The firm's customer | No account; a one-time phone link to fill in KYC and sign the PEP declaration |
+| Content editor | Our Paraguayan AML lawyer or a registered auditor | Templates, red flags, parameters; no customer data |
+
+### Feature map
+
+Requirement numbers (R1-R96) refer to [01 §PRODUCT REQUIREMENTS][01req]. The cut follows what SEPRELAD checks in SIRO (RN, RO, FA, AE, CI) and the first deadlines after launch ([03]).
+
+| Module | MVP (done Fri 6 Nov 2026) | Launch (sellable Fri 11 Dec 2026) | 2027 |
+|---|---|---|---|
+| Accounts and security | Firm workspace; roles; MFA for owner and CO; tamper-evident audit log; Spanish (Paraguay) (R88-R89) | Auditor and consultant roles; support-access consent | API for partners |
+| Rules and parameters | Dated store: minimum wage, thresholds, deadlines, risk zones, code tables (G3) | Regulation register linking each resolution to templates (R94) | Car-dealer and jeweller packs by configuration (R95) |
+| Onboarding | Scope check (habitual, rental-only, agent status); firm, people, SIRO status, fiscal year (R1-R3, R7) | RUC autofill from the tax office's free files; registration pack (R5-R6) | Deregistration checklist |
+| Calendar and status | Every SIRO deadline with reminders at 30, 7 and 1 days; Paraguayan holidays; traffic-light dashboard; proof-of-filing upload; automatic RN task (R68-R70, R72, R74) | SEPRELAD warning-notice log with a fix-it checklist (R73); yearly data confirmation and 5-day change tasks (R8-R9); canon tracking (R10); calendar feed | WhatsApp reminders (Q1 2027) |
+| Clients and KYC | Natural and legal persons; general, simplified and enhanced regimes from dated thresholds; PEP declaration PDF; beneficial-owner certificate; hashed uploads; risk score v0 (R34-R38, R41, R43-R47) | Client self-service phone link; 60-day deferred-check clock; CDD-failure outcomes (R39-R40) | ID reading from photos |
+| Screening | UN (binding), OFAC and EU lists; FATF countries by hand; re-screen on list changes; hit review with reasons; 5-year log (R48-R50) | UN match opens a freeze task and blocks the deal (R51); upload of SEPRELAD list circulars (R52) | Paid PEP data add-on |
+| Deals and RO | Every RO field, validated against SEPRELAD codes; quarterly Excel export in the reference column order; a "copy sheet" in SIRO screen order; exported / filed / nil states (R53-R55, R58) | JSON export once SEPRELAD supplies the schema; FX source per deal (R56-R57) | Browser helper for SIRO's form, only if SEPRELAD agrees |
+| Documents | Manual covering every Annex I heading; code of ethics; CO appointment act and notice pack; approvals; DOCX and PDF (R11, R13, R26-R29) | Risk self-assessment wizard with method document (R19-R25); staff acknowledgements (R31); shared association code (R30) | Qualified e-signature |
+| Training | Session log kept 5 years (R83) | Yearly plan with the 10 topics; missed-training flags; "not CECAD-certified" label (R82, R84-R85) | Short courses with a quiz |
+| Confidential area | "ROS filed this quarter: yes or no", date and receipt only | Alert register with the 14 Annex III red flags and the 30-day clock; restricted view (R59-R61, R65-R66) | ROS draft with a name-leak check and 24-hour clock (R62-R64, R67) |
+| Yearly reports | — | — | **CI report generator by 15 Feb 2027**; **FA calculator by 15 Apr 2027**; CO annual report (R17, R71, R75-R76) |
+| Auditor and consultant | — | Practice dashboard; read-only access; audit pack ZIP; auditor-registration expiry check; findings to closure (R77-R80) | Sampling helper; white-label PDFs |
+| Audit exemption | — | — | Res 328/2026 request workflow by 15 May 2027 (R81) |
+| Records and exit | 5-year retention date on every record (R86) | Full export; free read-only archive (R87) | Purge with CO approval |
+| Billing | Stripe checkout and webhooks, yearly and monthly plans | Practice plan with client seats | Local payment methods if needed |
+
+**Reconciled with 04's plan list.** File 04 lists WhatsApp reminders, a PEP data check and the CI generator inside the plans at launch. File 03 builds them later. I follow 03's build order and the plan pages must say "from February 2027" for the CI generator and "add-on, later" for paid PEP data.
+
+**Why this cut** ([03]):
+- The MVP covers every filing SEPRELAD checked in its 2024 sweep, at the level of "never miss it, and keep proof".
+- The yearly-report generators can wait, because their first deadlines are 30 March and 31 May 2027.
+- The full ROS workflow is the most sensitive and least used feature: real estate filed 90 ROS in 2025 against 7,474 negative reports ([B2 report][b2], from the [statistics portal][stats]). Leaving ROS content out of the MVP lowers the risk of a confidentiality breach.
+
+### Key flows ([03])
+
+1. **First day, under 45 minutes.** Sign up with MFA. Answer the scope check. Type the RUC and the app fills the name. Add the owner, the CO and staff. Enter SIRO status and the last filings. The app builds the calendar, shows the traffic light, and drafts the manual, code and CO act for the owner to approve.
+2. **New deal, about 10 minutes.** Enter the property and payment. Add buyer and seller, reusing existing clients. The app proposes the check regime from the score, any open flag and the dated thresholds, with the reason shown. The PEP declaration is printed or sent by phone link. Screening runs at once; a possible hit blocks completion. The deal counts toward this quarter's RO only when every party's file is complete.
+3. **Quarter close.** On day 1 the app checks for a filed ROS. If none, it opens an RN task due on day 10. On day 11 the RO task opens, due on day 20. The app validates every deal, then offers the Excel file, a JSON file (if switched on) or the copy sheet. The user files in SIRO and uploads the receipt.
+4. **List update, automatic.** Every 6 hours the UN, OFAC and EU files are downloaded and compared with the last version. New names are matched against all clients, owners and counterparties. Hits go to the CO the same day.
+5. **Something looks odd.** A red-flag rule or a "Esto me parece raro" button opens an alert visible only to the CO, assistants and owner. A 30-day classification clock starts. Reasons are kept 5 years.
+6. **The yearly cycle.** January: the CI draft (due 30 March). April: the FA figures, checked against the year's RO files (due 31 May). May-June: the audit pack or the exemption request, and the canon (30 June). Every year: SIRO data confirmation and the training plan; every 2 years the risk review.
+7. **Auditor with many firms.** The auditor invites firms or is invited. One dashboard shows every firm's traffic light. "Audit pack" builds one ZIP and one PDF, including a system description for the IT test that the audit standard requires ([Res 411/2013][r411]). Findings become tasks.
+8. **A warning letter arrives.** Log it. The app builds a fix-it checklist from the obligations cited. This is also the sales hook: "Got a warning? Fix it in an afternoon."
+9. **Leaving.** Full export as PDF, CSV and original files, plus a read-only archive, because the 5-year duty stays with the firm ([Ley 1015/97, art. 18][ley]).
+
+### Screens ([03])
+
+1. Public site and pricing, with a countdown to the next real deadline.
+2. Onboarding wizard (six steps; pause and resume).
+3. Dashboard "Semáforo SEPRELAD": one tile per obligation (RN, RO, CI, FA, AE, canon, data confirmation, risk review, training plan, CO notice).
+4. Calendar, with a personal calendar feed.
+5. Filing screen (for example "RO 3T 2026"): checklist, errors per deal, export buttons, receipt upload, history, "nil quarter".
+6. Client list with filters.
+7. Client file: data, documents, PEP, beneficial owners, risk, screening, deals, history.
+8. New deal form with live code validation.
+9. Screening review, side by side with the list entry.
+10. Documents library with versions, approvals and acknowledgements.
+11. Risk self-assessment wizard.
+12. Training.
+13. Confidential area (CO, assistants, owner only).
+14. Yearly reports: CI builder, FA figures in SIRO order, CO report.
+15. Practice dashboard for auditors and consultants.
+16. Settings: firm and SIRO data, users, parameter history, billing, export, support consent.
+17. SEPRELAD notices.
+
+All screens are server-rendered, in Spanish, and work on a phone.
+
+**The acceptance checklist is the list of 96 requirements in [01 §PRODUCT REQUIREMENTS][01req].**
+
+---
+
+## 6. Technical design
+
+**Principles for a solo founder with AI agents** ([03]):
+- Boring and conventional, so agents write idiomatic code and the founder can review it fast.
+- One repository, one deployable app, split into modules with one owner each.
+- **Rules are data, not code.** Thresholds, deadlines, code tables and red flags live in dated, versioned tables with tests. A rule change becomes a data change a lawyer can check.
+- **No AI on the compliance path.** The check regime, risk score, screening and deadlines are rule-based and explainable, because auditors test the tool ([Res 411/2013][r411]). AI may later draft report text that a human approves.
+
+**Stack** (versions checked on PyPI on 10 Oct 2026, [03]):
+
+| Layer | Choice |
+|---|---|
+| App | Python 3.13, Django 6.1 (or 5.2 LTS), server-rendered pages with HTMX and a little Alpine.js |
+| Database | PostgreSQL with row-level security on `firm_id`, `pg_trgm` for name search, JSONB snapshots |
+| Jobs | procrastinate (Postgres queue; no Redis): list refresh, re-screening, reminders at 07:00 Paraguay time, monthly RUC import |
+| Documents | docxtpl for Word templates the lawyer edits; LibreOffice (Gotenberg) for PDF; WeasyPrint for HTML to PDF |
+| Exports | openpyxl with golden-file tests against SEPRELAD's reference RO file; a JSON validator once the schema arrives |
+| Name matching | rapidfuzz, unidecode, pg_trgm; Spanish names, accents and compound surnames |
+| Auth | Django auth, Argon2, django-otp (TOTP) |
+| Files | S3-compatible storage with KMS encryption, per-firm prefixes, short-lived links, virus scan |
+| E-mail | Amazon SES in the same region |
+| Payments | **Stripe Billing** (changed from 03's Paddle; see §9) |
+| Hosting | Docker Compose on AWS Lightsail in São Paulo behind Caddy; GitHub Actions; staging and production ([Lightsail pricing][lightsail]) |
+| Tests | pytest, Playwright, semgrep or bandit, pip-audit |
+
+Python wins over a JavaScript stack on Word and Excel tooling, the Django admin for legal content and name-matching libraries. Either works if the founder knows the other better ([03]). Whether Lightsail's managed PostgreSQL allows `pg_trgm` is unverified; the fallback is Amazon RDS or PostgreSQL on the server ([03]).
+
+**Modules:** core (tenancy, users, roles, MFA, audit log) · params · calendar · clients · screening · operations · documents · training · confidential · reports · practice · billing · public ([03]).
+
+### SIRO: what the product produces
+
+| Filing | How SIRO takes it | What the product produces |
+|---|---|---|
+| Registration | Web form plus PDF scans ([Res 483/2021][r483]; [Res 258/2023][r258]) | Pre-filled field sheet; document checklist; 30-day query countdown |
+| CO notice | SIRO CO module ([Memoria 2024][mem]) | Notice pack with the 7 items; 5-business-day task |
+| Data confirmation | Web form; forced update for real estate from 5 Oct 2026 ([Res 435/2026][r435]; [notice][upd]) | Yearly task; change detection |
+| RN | Web declaration ([Res 326/2022][r326]) | Task with the RN logic; receipt upload |
+| RO | Web form one by one; an Excel bulk file per the Res 003/2025 annex; or JSON bulk upload on request since Aug 2025, after which one-by-one entry is switched off ([Res 003/2025][r003]; [RO spec][rospec]; [JSON notice][json]) | Excel file in the reference layout; JSON once the schema is obtained; copy sheet |
+| FA | Web form that SIRO pre-fills; sworn submission; printable compliance ticket ([Res 165/2022 annex][r165a]) | Figures in SIRO screen order; ticket upload |
+| CI and AE | Obligaciones > Informes: one document per report; AE names the auditor from SEPRELAD's list ([SIRO CI/AE manual][cimanual]) | CI report PDF and DOCX; receipt upload |
+| ROS | SIRO ROS module (Res 201/2020, art. 33-36) | Later: draft with a name-leak check |
+
+**The RO file is the riskiest integration, and the files disagree about it.**
+- File 01 read the Res 003/2025 annex as allowing a bulk upload of the "Formulario RO Inmobiliario" Excel file ([01]; [RO spec][rospec]).
+- File 02 found that small firms key ROs one by one and that bulk upload needs JSON, enabled by a note to SEPRELAD, after which the one-by-one form disappears ([SEPRELAD notice, 22 Aug 2025][json]). SEPRELAD's 2024 report also says small subjects enter the RO operation by operation and larger ones upload JSON ([Memoria 2024][mem]).
+- File 03 inspected the reference Excel: 37 columns, a 245-row city table and a 243-row activity table, dated 19 Dec 2024. Its column order differs from the PDF, its sample rows break the PDF's own date and phone formats, and it lacks the matrícula field the annex lists ([03]; [reference sheet][rosheet]).
+- I ran two extra searches to settle this and found nothing new. **So it stays open.** The plan builds all three outputs (Excel, JSON behind a switch, copy sheet), tests the Excel file in the live Q3 window (11-20 Oct 2026), and asks SEPRELAD for the JSON schema in week 0. A firm should switch to JSON only if it has many deals, because it loses one-by-one entry ([03]).
+
+### Data sources ([03])
+
+| Source | Use | Access and cost |
+|---|---|---|
+| UN Security Council consolidated list (binding through Ley 6419/2019 and [Decreto 5920/2021][d5920]) | Onboarding, each deal, 6-hourly diff | Free XML; 736 individuals and 274 entities on 9 Oct 2026 ([UN XML][un]) |
+| OFAC SDN | Named in Res 201 Annex IV | Free XML ([OFAC][ofac]) |
+| EU consolidated list | Named in Res 201 Annex IV | Free; use a personal EU Login token, because the public file lags ([03]) |
+| FATF high-risk countries | Country risk | Entered by hand after each plenary |
+| SEPRELAD designation circulars | National list | Uploaded by hand; no machine-readable list found |
+| Client's signed PEP declaration | **The core PEP control** ([Res 50/2019][r50]) | Free |
+| OpenSanctions | PEP check | Only one Paraguay dataset (483 members of Congress); commercial use needs a licence; about €0.03-0.10 a query ([OpenSanctions index][os]; [licensing][oslic]) |
+| Compliance Paraguay | About 9,000 Paraguayan PEPs | Price not published ([La Nación][cpy]); best local partner |
+| Tax office (DNIT) RUC files | Name autofill, check digit, cancelled-RUC warning | Free monthly zip files; `ruc0.zip` alone holds 201,867 rows ([DNIT][dnit]); reuse terms unverified |
+| SEPRELAD auditor register | Pick the auditor; warn on an expired registration (R79) | Free Excel export ([lookup][lookup]) |
+| Minimum wage, holidays, FX | Thresholds, business days, Gs amounts | Decree each July ([Decreto 6225/2026][d6225]); Python `holidays` ([PyPI][holidays]); BCP rates |
+
+**PEP data is the weak spot.** Res 50/2019 makes the signed declaration the main control anyway. A local PEP database becomes a paid add-on once its price is known ([03]).
+
+### Security, privacy and liability ([03])
+
+- **Tenant isolation twice:** `firm_id` scoping in code plus PostgreSQL row-level security, with cross-tenant tests in CI.
+- **Account takeover:** TOTP MFA for owner, CO, auditor and consultant; rate limits; idle timeout.
+- **ID copies:** KMS-encrypted storage, signed links valid for minutes, virus scan, metadata-only logs.
+- **No tipping-off:** the confidential area sits in a separate schema with its own key; every read is logged; client-facing exports and data-subject answers exclude ROS and SEPRELAD requests ([Ley 1015/97, art. 20][ley]; [Circular 01/2025][c01]). The MVP stores no ROS narrative.
+- **Evidence integrity:** a hash-chained, append-only audit log; SHA-256 on every upload; approvals store the document hash.
+- **AI-written code:** the founder reviews auth, tenancy, file access and the confidential area line by line; static analysis and a dependency audit in CI; agents get synthetic data only and no production access; an external security test before launch and every year.
+- **Backups:** point-in-time recovery, a nightly encrypted copy in a second region, a monthly restore test.
+- **Data protection (Ley 7593/2025).** Full effect about 27 Nov 2027; implementing decree pending. Secondary sources say it requires safeguards for transfers abroad, 72-hour breach notices and impact assessments for high-risk data ([Clym][clym]; [La Nación][l7593]). Article details are unverified. Each firm is the controller; we are its processor. Every customer signs a processing agreement (DPA) with the sub-processor list and a 48-hour breach notice to the firm. Write an impact assessment (DPIA) before the pilot.
+- **Hosting in São Paulo.** Brazil has its own data-protection law. Paraguay has no adequacy list yet, so rely on contract clauses and ask the lawyer ([03]).
+- **AML law beats erasure.** Records stay 5 years from the deal and 5 years after the relationship ends ([Ley 1015/97, art. 18][ley]).
+- **Liability.** Every document shows its template version and review date. The firm approves every document. Liability is capped at 12 months of fees. Templates are updated within 30 days of a new SEPRELAD resolution ([03]; [04]).
+
+### Running cost ([03], my estimates; excluding staff and payment fees)
+
+| Paying firms | Hosting and tools a month | Per firm a month |
+|---|---|---|
+| 50 | about US$75-125 | US$1.5-2.5 |
+| 300 | about US$235-335 | US$0.8-1.1 |
+| 1,000 | about US$490-805 | US$0.5-0.8 |
+
+- **Payment fees cost as much as hosting or more.** At about 6%, they are about US$450 a month at 300 firms ([03]). Push yearly plans.
+- **Fixed costs after launch:** Claude Code US$200 a month ([Anthropic][claude]); a lawyer rule-watch retainer US$100-300 a month; a yearly security retest. With hosting, about US$650-1,300 a month at 50 firms ([03]).
+
+---
+
+## 7. Development steps
+
+### How the founder runs parallel AI agents ([03])
+
+- **Contract first.** In week 1 the founder and one agent write every module's models, function signatures and URL map, plus failing end-to-end tests. Then the "contract freeze".
+- **Isolation.** Each stream works in its own git worktree, branch and Claude Code session, and owns one Django app. Pull requests stay under about 400 lines and need green CI. A reviewer agent comments on each. The founder merges twice a day.
+- **Golden tests for the legal parts.** The RO header must equal the reference header exactly. One test per deadline rule and edge case. Check-regime tests at the threshold values, before and after the 1 July wage change. The manual must cover every Annex I heading.
+- **Capacity.** One founder can steer about 5-7 well-specified streams (my judgement in [03]).
+
+### Calendar
+
+| Phase | Dates | Output | Exit check |
+|---|---|---|---|
+| 0. Prepare | Mon 12 - Sun 18 Oct 2026 | Interviews booked; real artefacts collected; spec pack for agents (CLAUDE.md, glossary, 96 requirements mapped to modules and tests, data model, synthetic firm with 30 clients and 60 deals); accounts; **RO spike tried in the live Q3 window (closes 20 Oct)**; JSON schema requested | Spec pack done; at least 2 pilot firms or 1 auditor committed |
+| 1. Foundation | 19 - 25 Oct | Skeleton, tenancy, auth, audit log, parameters, all models, CI and CD, staging | Contract freeze; CI green |
+| 2. Parallel modules | 26 Oct - Fri 6 Nov | Seven streams (below) | **MVP done; Gate 1** |
+| 3. Launch scope | 9 - 27 Nov | Auditor portal and audit pack; RUC autofill; alert register; export and archive; client phone link; notices log; risk wizard | Flows 1-4 and 7 pass end to end |
+| 4. Legal sign-off | Outline in week 1; full drafts after Gate 1; sign-off by 27 Nov | Templates v1.0, terms, privacy notice, DPA, disclaimers | Written sign-off |
+| 5. Security test | Test 23-27 Nov; fixes to 4 Dec; retest by 9 Dec | External grey-box test | No open high or critical findings |
+| 6. Pilot | 16 Nov - 11 Dec | 10-15 firms through 2-3 auditors, free until launch | 5 firms active; 2 with a complete file |
+| 7. Sellable | **Fri 11 Dec 2026** | Stripe live; help pages; pricing page | "Sellable" list below met |
+| 8. First live season | 14 Dec 2026 - 31 Jan 2027 | Support firms through the RN and RO windows | RO files accepted by SIRO for at least 10 firms |
+| 9. Yearly-report releases | CI generator by 15 Feb; FA calculator by 15 Apr; exemption workflow and audit-pack polish by 15 May 2027 | Firms meet CI (30 Mar), FA (31 May) and AE (30 Jun) | Firms file CI and FA from our output |
+| 10. Second vertical | Apr - Sep 2027 | Car-dealer pack (Res 196/2020); PEP add-on; WhatsApp; ROS draft | Car-dealer pilot with 5 dealers |
+
+**Reconciled.** File 03 starts building after a prep week; file 04 starts agent streams in week 1. Both reach an internal MVP in early November and a public launch on 11 Dec. I use 03's dates (MVP Fri 6 Nov) and move file 04's Gate 1 from 11 Nov to 6 Nov, so the two big cash items (the lawyer's full fee and the security test) are committed only after the market answers. Pilot terms also differed: 03 had a free pilot to 31 Jan 2027, 04 paid pilots by 11 Dec. I use free use until 11 Dec, then the founding price, because a free pilot proves nothing about price.
+
+### Work streams for the MVP (weeks 2-3) ([03])
+
+| Stream | Scope | Requirements | Agent-days |
+|---|---|---|---|
+| WS1 Calendar and obligations | Deadline engine, holidays, tasks, e-mail reminders, traffic light, receipts, RN logic, calendar feed | R68-R70, R72, R74 | 6-8 |
+| WS2 Clients and KYC | Forms, versions, hashed documents, beneficial owners, PEP declaration, check regime, risk score v0, approvals | R34-R38, R41, R43-R47 | 8-10 |
+| WS3 Screening | UN, OFAC, EU fetchers with diffs; FATF table; normaliser; matcher; hit review; re-screen; logs | R48-R50 | 6-8 |
+| WS4 Deals and RO | Deal form, code validation, Excel export, copy sheet, JSON behind a switch, filing states | R53-R58 | 6-8 |
+| WS5 Documents and approvals | Template engine; manual, code, CO act and notice pack; versions; approvals; acknowledgements | R11, R13, R26-R29, R31 | 6-8 |
+| WS6 Onboarding, billing, public site | Wizard; Stripe checkout and webhooks; plan limits; Spanish landing, pricing and legal pages | R1-R3, R7, R9 | 5-7 |
+| WS7 QA and security (continuous) | Playwright flows, cross-tenant tests, static analysis, dependency audit, review comments | R88-R90 | 5-8 |
+
+- **Effort check:** 42-57 agent-days against about 70 stream-days of capacity over 10 working days ([03]).
+- **Cut first if late:** the calendar feed, the JSON exporter and copy-sheet styling. Scope moves; the date does not.
+- **Launch streams (weeks 4-6):** WS8 practice portal and audit pack; WS9 RUC import; WS10 alert register and confidential area; WS11 export and archive; WS12 client phone link; WS13 notices log and data-confirmation tasks; WS14 risk wizard ([03]).
+
+### MVP definition of done (Fri 6 Nov 2026) ([03])
+
+1. A test user sets up a firm in under 45 minutes on staging.
+2. The calendar creates every obligation from Oct 2026 to Dec 2027 with the right dates, with unit tests for each rule.
+3. Client files work for natural and legal persons; regime tests pass at 150 and 20 minimum wages on both sides of 1 July 2026; the PEP declaration generates; uploads store a hash.
+4. UN, OFAC and EU lists load on schedule with versions; a seeded name produces a hit; decisions are logged; a list change triggers re-screening.
+5. Deals hold every RO field; the validator rejects bad codes; **the Excel export matches the reference header order exactly**.
+6. The manual covers every Annex I heading; code and CO act generate; approvals store hashes.
+7. MFA is enforced; cross-tenant tests pass; the audit-log chain verifies; one backup has been restored.
+8. Flows 1-4 pass end to end in CI, with no open priority-1 bugs.
+
+**"Sellable" (Fri 11 Dec 2026)** adds: practice portal and audit pack, RUC autofill, alert register, full export, client phone link; written lawyer sign-off; a security test with no open high or critical findings; 5 or more active pilot firms, 2 with a complete file, and the RO export reviewed by an auditor; Stripe live; help pages for the January windows; DPIA, incident plan and sub-processor list published ([03]).
+
+### Build budget to "sellable" (Oct-Dec 2026; US$; no salaries) ([03])
+
+| Item | Low | Middle | High |
+|---|---|---|---|
+| Claude Code Max, 1-2 seats for 3 months (US$200 a seat a month, [Anthropic][claude]) | 600 | 1,200 | 1,200 |
+| Claude API tests | 10 | 20 | 50 |
+| Paraguayan AML lawyer: templates, terms, privacy notice, DPA (fixed fee; no published rates found) | 2,000 | 3,500 | 5,000 |
+| Registered auditor as paid design partner | 0 | 500 | 1,000 |
+| External security test and retest (small web-app tests run about US$5,000-15,000; quotes under US$2,000 are often just scans ([Blaze][pentest1]; [Redfox][pentest2])) | 3,000 | 5,000 | 8,000 |
+| Hosting, 3 months ([Lightsail][lightsail]) | 150 | 200 | 300 |
+| Domain, e-mail, monitoring, small tools | 50 | 100 | 200 |
+| Spanish (Paraguay) copy-editing | 0 | 300 | 500 |
+| Trip to Asunción (03 made it optional; 04 budgets it, see §8) | 0 | 0 | 2,500 |
+| Contingency (10%) | 580 | 1,080 | 1,875 |
+| **Total** | **about 6,400** | **about 11,900** | **about 20,600** |
+
+- **Cash spent before Gate 1 (6 Nov):** about US$1,000 (Claude Code, accounts, a short paid lawyer outline review) (my estimate).
+- **Year 1 after launch:** hosting about US$1,000-2,500; Claude Code US$2,400; lawyer retainer US$1,200-3,600; yearly security retest US$3,000-8,000; payment fees about 6% of revenue ([03]).
+- Not included here: founder time, company costs (§9) and marketing (§8).

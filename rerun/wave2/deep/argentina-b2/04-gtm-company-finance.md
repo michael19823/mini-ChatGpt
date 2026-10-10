@@ -61,13 +61,109 @@ Builds on [the B2 report](../reports/argentina-b2.md), [01 law and requirements]
 - **Inflation.** Monthly inflation ran at about 2% in mid-2026 (July CPI 2.1%, per [Tiempo Argentino](https://www.tiempoar.com.ar/ta_article/por-decreto-el-gobierno-fijo-el-nuevo-salario-minimo-es-de-apenas-383-800/amp/)). Peso prices that are not indexed lose about a quarter of their value in a year. Annual peso contracts need an indexation clause (CPI or Banco Nación rate).
 
 ## Go-to-market
-(pending)
+
+### Selling seasons and deadlines
+
+Dates come from [file 01](01-law-and-requirements.md) unless another source is given.
+
+| When | Deadline or event | Who | Sales use |
+|---|---|---|---|
+| Every month, within 20 business days of month end | SAEM monthly lending return on the new INAES web form (from the July 2026 period; arrears too) ([Res 1279/2026](https://www.argentina.gob.ar/normativa/nacional/norma-427021/texto)) | lending mutuales | The everyday reason to log in. Lead with the "prep sheet" demo |
+| 10 Jan, 10 Apr, 10 Jul, 10 Oct | Quarterly member and authorities roll for UIF-obliged entities; yearly roll for all entities by 10 Jan ([Res 756/2025](https://contadoresenred.com/cooperativas-y-mutuales-sistema-integrado-de-nomina-de-asociados-y-autoridades/)) | all; quarterly for lenders | Registro tier for non-lending entities; accountant upsell |
+| **1 Dec 2026** | First INAES AML filing (Res 1567/2026) ([text](https://www.consejosalta.org.ar/wp-content/uploads/INAES-1567.pdf)) | lending mutuales, credit co-ops, loan brokers | **Launch hook.** Pack Res 1567 |
+| 20 Jan (yearly) | Res 1567 yearly sworn statement | same | Renewal moment for the AML pack |
+| 30 Jan | SAEM IT report and loan-brokering IT opinion | lenders and brokers | Reminder feature; referral to IT professionals |
+| 15 Mar | UIF yearly systematic report (RSA) | UIF-obliged | AML pack |
+| **30 Apr** | UIF risk self-assessment | UIF-obliged | **Second big window.** Autoevaluación asistida |
+| about 28 Aug | External independent review (REI) report | UIF-obliged | Reviewer seat; REI referrals |
+| After each financial year end | Assembly: pre-assembly documents 10 business days before, post-assembly documents within 30 days (mutuales) | all | Assembly checklist |
+| Jan-Feb; two weeks in July | Summer and winter holidays | - | Slow for new sales; deadlines still run |
+
+**Selling windows:** October to mid-December (Res 1567 and the January stack), March to April (UIF self-assessment) and August to October (external review, budget season). January-February and July are slow.
+
+### Channels in priority order
+1. **Accountants and Licenciados en Cooperativismo who serve lending entities.** They do the filings now and each serves several entities. Reach them through:
+   - the professional councils' co-op and mutual committees (CPCECABA area, CPCE Santiago del Estero's social-organisations committee) and Consejo Salta, which republishes every INAES rule ([02](02-market-and-competition.md));
+   - accountant media (Contadores en Red, +blogdelcontador, Tributum, abogados.com.ar);
+   - webinars with a CPCE or a federation as co-host.
+2. **Federations and confederations.** CAM groups 39 federations and more than 3,400 mutuales (2021) ([NoticiasNQN](https://www.noticiasnqn.com.ar/noticias/2021/11/26/251055-autoridades-del-inaes-visitaron-calf)). FEMUCOR (Córdoba) represents 240 mutuales; FEDEMBA (Buenos Aires); the Santa Fe federation; FACC and Cooperar for credit co-ops ([02](02-market-and-competition.md)). Offer a free member webinar first, then a white-label Federación plan.
+3. **Direct outreach from public lists.** The Res 1687/2026 annex names 302 loan-brokering mutuales that had filed no quarterly returns ([BO 31 Aug 2026](https://www.boletinoficial.gob.ar/detalleAviso/primera/346572/20260831)). INAES also keeps the register of AML reporting entities. Lead with the catch-up offer. Check each entity's status first; some have already lost their rule.
+4. **External independent reviewers (REIs).** The UIF keeps a register of them ([Ámbito, Aug 2024](https://www.ambito.com/economia/armas-destruccion-masiva-la-uif-creo-el-registro-revisoresindependientes-n6052665)). Each reviews several entities a year. Give them a free read-only seat and a referral fee. They must not resell to entities they review.
+5. **ERP vendors.** Bambú, SIGMA (NeoSistemas), Nexa and GEM serve the larger lenders ([02](02-market-and-competition.md)). Offer an import from their exports and a mutual referral deal.
+6. **Provincial authorities.** They receive the monthly return and train entities on the new form (for example Río Negro) ([Río Negro](https://rionegro.gov.ar/info/297/servicio-de-ayuda-economica-mutual-se-pone-en-marcha-el-nuevo-sistema-de-transmision-web)). Offer free training material. Do not expect them to endorse a vendor.
+7. **Search and content.** Spanish guides on Res 1279, 1567, 756 and UIF 99/2023; the free deadline calendar; the free SAEM checker.
+
+**Geography.** 76% of mutuales are in the Centro region: Buenos Aires province 933, Santa Fe 757, Buenos Aires city 707, Córdoba 411 (INAES report, via [02](02-market-and-competition.md)). Founder trips go to Rosario, Santa Fe, Córdoba and Buenos Aires.
+
+### Sales motion
+- **Founder-led for six months, by Zoom and WhatsApp.** A local part-time contractor joins in month 4 for support and follow-up.
+- **The demo:** "Upload your loan-book Excel and see your SAEM annexes, with INAES's checks, in 10 minutes." Then show the multi-entity board.
+- **Accountant programme:** free 30 days for the first 3 client entities; a one-hour certification webinar; a public list of accountants who use the tool; 25% reseller discount for those who invoice their clients.
+- **Self-serve** sign-up and card payment for Entidad Básica and Completa.
+- **Annual prepay** pushed before the January stack and before 30 April.
+- **Expected cycle:** an accountant decides in 1-3 weeks. An entity's board may need a meeting vote (often monthly), so 4-8 weeks (my estimate). A federation takes 2-4 months.
 
 ## 90-day launch plan
-(pending)
+
+Start Monday 12 October 2026. Day 90 is Saturday 9 January 2027. The founder builds with Claude Code and several AI agents in parallel: an MVP in about 3 weeks, sellable in 6-8 weeks after legal content, a security test and pilots.
+
+**Days 1-14 (12-25 Oct): validate and set up.**
+- Hold 25 interviews: 15 accountants or Licenciados who serve lending entities, 10 treasurers or compliance officers. Sources: CPCE committees, LinkedIn, the Res 1687 annex, federation contacts. Test the prices. **Goal: 3 written pilot commitments.**
+- Hire a lawyer with co-op and AML practice, and a Licenciado contractor who knows SAEM returns.
+- Collect the official texts: SAEM web guide IF-2026-57548748, the Res 756 CSV manual, the Res 1567 module guide and UIF Res 99/2023 ([01](01-law-and-requirements.md)).
+- Launch a Spanish landing page with the free 2026-2027 deadline calendar and a waitlist.
+- Open the Stripe account. Draft the terms, the DPA and the buyer FAQ.
+
+**Days 15-35 (26 Oct-15 Nov): build the MVP and sell the Res 1567 pack.**
+- Agents build in parallel: deadline engine; member register with roll CSV export; Res 1567 document pack; Estudio multi-entity board; SAEM annex calculator (version 0) tested on 2 anonymised real loan books.
+- Sell **Pack Res 1567** from about 2 Nov (USD 150).
+- **Webinar 1 (about 5 Nov):** "Res INAES 1567: qué presentar antes del 1 de diciembre", with the lawyer, co-hosted by a federation or a CPCE.
+- Pitch CAM, FEMUCOR, the Santa Fe federation, FEDEMBA, FACC and Cooperar.
+- Founder trip 1 (about 9-20 Nov): Buenos Aires, Rosario, Santa Fe, Córdoba. Meet federations, 2 ERP vendors and pilot accountants.
+
+**Days 36-63 (16 Nov-13 Dec): pilots and first revenue.**
+- External penetration test in the week of 16 Nov; fix findings.
+- Pilots: 5 accountants with about 20 entities, plus 5 direct entities.
+- Run a WhatsApp help line for the 1 Dec deadline.
+- Sign reseller agreements with 2 accounting firms (the peso-invoice route).
+- **Target by 13 Dec: 10 paying entities and 10 packs sold.**
+
+**Days 64-90 (14 Dec-9 Jan): the January stack.**
+- Ship the yearly and quarterly roll export (10 Jan), the Res 1567 yearly checklist (20 Jan) and the IT-report reminder (30 Jan).
+- **Webinar 2 (about 15 Dec):** "Enero: nómina anual, DDJJ antilavado e informe de sistemas".
+- Contact the 302 Res 1687 entities with the catch-up offer.
+- Slow down 24 Dec-6 Jan.
+- **Day-90 review (9 Jan)** against the milestones below. Continue, change or stop.
 
 ## 12-month marketing plan and budget
-(pending)
+
+Period: November 2026 to October 2027. All figures in USD. The budget is lean because the buyers are few, known by name and reachable through a few bodies.
+
+| Quarter | Focus | Main activities | Budget |
+|---|---|---|---|
+| Q1 Nov-Jan | Res 1567 and the January stack | Webinars 1-2; Pack Res 1567; outreach to 300 accountants and the Res 1687 list; federation meetings; founder trip 1 | 3,200 |
+| Q2 Feb-Apr | UIF self-assessment (30 Apr) and RSA (15 Mar) | Webinars 3-4 with a Licenciado; Autoevaluación asistida offer; search ads on "autoevaluación UIF mutual"; first case study | 2,300 |
+| Q3 May-Jul | Assemblies; sector congress season | Founder trip 2 timed with the Rosario congress (the 2026 edition was on 25 July; the 2027 date is unverified, [Conclusión](https://www.conclusion.com.ar/?p=1439083)); a stand or sponsorship; ERP partner launch | 3,000 |
+| Q4 Aug-Oct | External review (about 28 Aug); renewals; budget season | REI referral campaign; webinars 5-6; renewal offers before the January stack; federation white-label pitch | 1,500 |
+| **Total** | | | **10,000** |
+
+By line item:
+
+| Item | USD a year | Notes |
+|---|---|---|
+| Founder trips from abroad (2) | 4,000 | my estimate |
+| Webinars (6; co-host fee about USD 150 each; webinar tool) | 1,000 | my estimate |
+| Paid search and LinkedIn (about USD 150 a month for 10 months) | 1,500 | my estimate |
+| Event stand or sponsorship (one sector congress) | 1,000 | price unverified |
+| Content and free tools (calendar, SAEM checker, demo videos, Spanish editing) | 1,200 | my estimate |
+| Outreach data and tools (list cleaning, email tool, WhatsApp Business) | 600 | my estimate |
+| Contingency | 700 | |
+| **Total** | **10,000** | |
+| Partner commissions or reseller discount (outside the 10,000) | about 8% of subscription revenue | about 40% of sales via partners at 20-25% |
+
+Years 2 and 3 (base): USD 8,000 a year. The focus moves to renewals, federation deals and referrals.
+
+**Measures to track monthly:** webinar sign-ups and attendance; demos booked; trial-to-paid rate (target 30%); entities per accountant (target 4); share of annual prepay (target 50%); card-payment failures (alarm above 10%); share of buyers asking for a peso invoice (SAS trigger at 30%).
 
 ## Payments and tax friction
 
@@ -116,6 +212,8 @@ Builds on [the B2 report](../reports/argentina-b2.md), [01 law and requirements]
 - **Fees (US account):** 2.9% + USD 0.30, plus 1.5% for international cards, plus 1% if currency conversion is needed. Stripe Billing adds 0.7%. Disputes cost USD 15 ([Stripe pricing](https://stripe.com/pricing)). Other countries' accounts differ.
   - On a USD 590 annual charge in USD: about USD 30.7, or 5.2% (my calculation).
   - On a USD 59 monthly charge: about USD 3.4, or 5.8%.
+- **Fees (Irish/EU account):** international cards 3.15% + €0.25, plus 2% currency conversion, plus Billing 0.7%; disputes €20 ([Stripe Ireland pricing](https://stripe.com/ie/pricing)). On a USD 590 annual charge settled in euros that is about 5.9%, or about 6% all in (my calculation). The model uses 5%; the difference is about USD 600 a year in the base case at year 3.
+- **Card brands.** Credicoop, the co-operative bank that many co-ops and mutuales use, issues Cabal cards, including a "Cabal Cuenta Empresa" business card ([Infoviajera, Jun 2026](https://www.infoviajera.com/2026/06/rapida-acreditacion-de-millas-aerolineas-plus-con-las-tarjetas-del-banco-credicoop/); [Idelcoop](https://www.idelcoop.org.ar/sites/www.idelcoop.org.ar/files/revista/articulos/pdf/2013_125685939.pdf)). Whether Stripe accepts Cabal was not confirmed (unverified). Latin American processors do accept the local brands: PPRO lists Cabal, Naranja and Argencard for Argentina ([PPRO](https://www.ppro.com/countries/argentina/)), and EBANX has taken Cabal and Naranja since 2018 ([Finextra](https://www.finextra.com/pressarticle/76507/ebanx-integrates-with-credit-cards-in-argentina)). An entity that holds only a Cabal card may be unable to pay through Stripe. Ask pilots which cards they hold; this is a reason for the reseller and SAS routes, and for asking EBANX or dLocal about a local-card route later.
 - **Charge in USD.** Show the peso equivalent on the price page. Charging in ARS adds the 1% conversion fee and needs price changes every quarter.
 
 ### Merchant of record (MoR)
@@ -345,19 +443,81 @@ Base-case active lending entities by month:
 - **The low case is visible early.** Fewer than 10 paying entities by April 2027 (month 6) means the low path.
 
 ## Regional expansion
-(pending)
+
+**The INAES content does not travel. The engine does.** The mutual form, the SAEM return and INAES's filings are specific to Argentina ([02](02-market-and-competition.md)). What can be reused: the deadline engine, the member register with PEP and risk fields, the AML records (self-assessment, manual, training, unusual-operations log) and the "prepare the regulator's form" pattern.
+
+**Order of expansion:**
+1. **More Argentine verticals on the same UIF engine (months 6-18).** The [B1 dive](../argentina-b1/04-gtm-company-finance.md) (UIF kit for real-estate brokers) shares the AML core, the SAS, the lawyer and support. Other UIF-obliged groups that accountants serve could follow (my suggestion; not researched here). This is the cheapest growth and fixes the base case's weak profit (see "Financial model").
+2. **Paraguay savings-and-credit co-ops (from about month 24).** 382 of 576 registered co-ops do savings and credit (La Nación Py, via [02](02-market-and-competition.md)). SEPRELAD Res 156/2020, written with INCOOP, sets a full AML system for them ([Ferrere](https://ferrere.com/es/novedades/nueva-reglamentacion-de-prevencion-de-lavado-de-activos-para-cooperativas/)). The [Paraguay B1](../paraguay-b1/04-gtm-company-finance.md) and [B2](../paraguay-b2/04-gtm-company-finance.md) dives plan a SEPRELAD engine already; co-ops would be a third vertical there. Payments: Stripe charges PYG from a foreign company ([Paraguay B1 file 04](../paraguay-b1/04-gtm-company-finance.md)). All legal content must be rewritten, and large "Type A" co-ops run core banking systems (unverified).
+3. **Peru (COOPAC under the SBS).** 419 registered in 2019; the SBS dissolves inactive ones ([Andina](https://andina.pe/ingles/noticia-sbs-419-cooperativas-lograron-su-registro-tras-proceso-inscripcion-758324.aspx)). Larger entities and a more formal market (unverified). Only with a local partner.
+4. **Uruguay:** small; few savings co-ops under the central bank ([02](02-market-and-competition.md)). Low priority.
+5. **Colombia:** large but crowded with local AML/GRC vendors such as Pirani (unverified for this segment). Skip.
+
+**Cost of each new country (my estimate):** USD 5,000-8,000 of legal content and a local reviewer, 4-6 weeks of founder and agent time, one or two trips, and pilots. Do not start before the Argentine base passes 100 paying entities or the shared-platform case is proven.
 
 ## Exit and partnerships
-(pending)
+
+**Partnerships (years 1-2):**
+- **Accounting firms as resellers** (peso invoices; 25% discount).
+- **Federations** (CAM members, FEMUCOR, FEDEMBA, the Santa Fe federation; FACC and Cooperar for credit co-ops): member webinars, then white-label.
+- **Mutual ERP vendors** (Bambú, SIGMA/NeoSistemas, Nexa, GEM): import their exports, refer each other's clients. Bambú already claims INAES file export and UIF features, so it is both the best partner and the main threat ([02](02-market-and-competition.md)).
+- **CONLAFT** (AML software and services for co-ops and mutuales, 5 systems deployed): a possible partner for the done-for-you AML work, or a competitor if it adds INAES preparation ([Cancillería profile](https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf)).
+- **REIs and IT professionals** who sign the SAEM IT report: referral partners.
+
+**Who might buy the business (years 3-5):**
+- **A mutual ERP vendor** wanting a compliance layer for its clients and an accountant channel (Bambú, NeoSistemas, Renova/GEM).
+- **Consolidators of Argentine business software.** Visma bought Calipso in 2022 ([iProfesional](https://www.iprofesional.com/tecnologia/359020-software-de-gestion-visma-compra-calipso)) and Xubio (search result dated 2023; unverified date) ([Visma release](https://publish.ne.cision.com/v2.2/Release/ViewReleaseHtml/DC2B845805F04BD9)). Vela LatAm bought 100% of Axoft Argentina, the maker of Tango, in October 2026 ([Bruchou & Funes de Rioja](https://bruchoufunes.com/?p=35162)). Xubio already sells firm plans to accountants ([Xubio](https://xubio.com/ar/precios-contadores)); a co-op and mutual compliance module would fit that channel.
+- **Tax and legal publishers** that serve accountants (for example the owners of +blogdelcontador/SIAP or Errepar) (unverified interest).
+- **CONLAFT** or a regional AML vendor.
+
+**Valuation.** Small SaaS under USD 500,000 ARR sells for about 2-3x seller's discretionary earnings ([PipelineRoad](https://pipelineroad.com/agency/blog/saas-valuations-guide)); Acquire.com deals closed at a median of about 3.9x profit in 2024-2025 ([BigIdeasDB](https://bigideasdb.com/state-of-saas-valuations-2026); vendor data, unverified). On its own the base case (year-3 profit about USD 6,000) has little sale value. The high case (about USD 58,000 profit) would be worth about USD 120,000-230,000. **The real value comes from a shared Argentine (or regional) AML platform, sold as one business.**
+
+**Exit by wind-down.** If the kill criteria trigger, offer customers the Archivo plan and a full export, and sell the customer list or code to an ERP vendor or CONLAFT.
 
 ## Risks and mitigations
-(pending)
+
+| # | Risk | Likelihood / impact | Mitigation |
+|---|---|---|---|
+| 1 | **Small pool and slow institutional sales.** About 1,130 active lenders; CONLAFT reports only 5 systems deployed since May 2024 ([Cancillería profile](https://www.cancilleria.gob.ar/userfiles/ut/conlaft_espanol.pdf)) | high / high | Sell through accountants (several entities per sale) and federations; low self-serve prices; share fixed costs with a second UIF vertical (B1); kill criteria below |
+| 2 | **INAES adds file import or automatic loading to the SAEM form**, or its own checks. INAES says its modules already allow "data migration and automatic loading" ([Res 1567](https://www.consejosalta.org.ar/wp-content/uploads/INAES-1567.pdf)) | medium / medium | Switch the copy sheet to file generation (a gain, not a loss). Keep the value in what INAES does not do: computing the annexes from the loan book, UIF records, the multi-entity board and the deadline engine |
+| 3 | **Bambú, another ERP or CONLAFT adds the same features** | medium / high | Partner early with an import from their exports; target accountants and small lenders with no ERP; publish prices (none of them do) |
+| 4 | **A wrong annex figure leads to a wrong sworn statement** | medium / high | Show formulas and sources; Licenciado review of every rule change; reconcile pilot output with 3 past filings; liability cap; E&O insurance; the entity always reviews and files |
+| 5 | **Payment friction:** no card, a Cabal-only card, or a demand for a peso invoice | high / medium | Reseller route from month 2; SAS trigger at 30% peso demand; buyer FAQ on RG 4240 and RG 5617 |
+| 6 | **Tax-rule changes** (the 30% advance, provincial digital-service taxes, provider lists) | medium / low | Taxes fall on the buyer and are neutral against local rivals for VAT; keep the FAQ current |
+| 7 | **Peso shocks.** USD prices jump in pesos after a devaluation; peso prices erode with about 2% monthly inflation ([Tiempo Argentino](https://www.tiempoar.com.ar/ta_article/por-decreto-el-gobierno-fijo-el-nuevo-salario-minimo-es-de-apenas-383-800/amp/)) | medium / medium | USD list with quarterly review; peso contracts indexed; a 3-month price freeze after a devaluation for annual customers |
+| 8 | **Rule churn**: seven relevant resolutions in 18 months ([01](01-law-and-requirements.md)) | high / medium | Rules as versioned data; lawyer and Licenciado retainers; promise a 30-day update window. Churn is also the moat |
+| 9 | **Data breach** of member files (DNI, PEP, tax residence) | low / high | EU hosting, encryption, MFA, role-based access, yearly penetration test, DPA and AAIP model clauses |
+| 10 | **Founder abroad, far from a relationship-driven sector** | high / medium | Local contractor from month 4; two trips a year; federation partners; WhatsApp support |
+| 11 | **Pool shrinks** through licence withdrawals (205 mutuales in Res 565/2026) ([BO](https://www.boletinoficial.gob.ar/detalleAviso/primera/339254/20260310)) | medium / low | Focus on active lenders; turn purges into catch-up sales |
+| 12 | **The regulator is reorganised** | low / medium | No 2026 restructuring of INAES found (one search; unverified). The UIF duties stay whatever happens to INAES |
 
 ## Milestones and kill criteria
-(pending)
+
+| Date | Milestone (base path) | Kill or rethink if |
+|---|---|---|
+| 25 Oct 2026 (day 14) | 25 interviews; 3 written pilot commitments; 2 accountants say they would pay USD 20 per entity | fewer than 2 commitments and no accountant would pay; or interviews show ERPs already prepare the SAEM web form for most small lenders |
+| 15 Nov 2026 (day 35) | MVP live: calendar, roll export, Res 1567 pack, multi-entity board, annex calculator v0 reconciled with 2 real loan books | the calculator cannot reproduce a past filing |
+| 13 Dec 2026 (day 63) | 10 paying entities; 10 packs sold; penetration test passed; 2 reseller agreements | fewer than 5 paying entities |
+| 9 Jan 2027 (day 90) | 15 paying entities; 5 active accountants; card failures under 10% | fewer than 8 paying entities, or card failures above 25% with no reseller in place |
+| 30 Apr 2027 (month 6) | 22 paying entities; 8 self-assessments sold; first case study | **fewer than 10 paying entities (the low path)** |
+| 31 Oct 2027 (month 12) | 50 paying entities; 40 Registro entities; 1 federation in talks; SAS open if triggered | **fewer than 25 entities and no shared-platform plan (B1 or another vertical)** |
+| 31 Oct 2028 (month 24) | 100 entities; first-year renewal of at least 80%; monthly break-even | renewal below 60%, or fewer than 60 entities |
+| Any time | - | INAES ships import plus annex calculation **and** an ERP or CONLAFT sells a multi-entity board below USD 15 per entity |
 
 ## Open questions
-(pending)
+
+1. **Which cards do lending mutuales and credit co-ops hold?** Visa or Mastercard business cards, Cabal only, or none? Does Stripe accept Cabal? Ask every pilot.
+2. **How do issuers apply the RG 5617 art. 3 exclusion** for co-ops and mutuales with an exemption certificate? Test with one pilot's card.
+3. **What share of mutuales are VAT-registered?** It decides whether the 21% is a cost or a credit.
+4. **Must an income-tax-exempt mutual withhold 31.5%** when it wires money to a foreign seller?
+5. **Will accountants pay USD 20 per entity a month,** and how many lending clients does a typical one have?
+6. **What do CONLAFT, Bambú and SIGMA charge?** A mystery-shopper demo request would answer it.
+7. **Does any ERP already prepare the new SAEM web form** (Res 1279) or the Res 1567 module?
+8. **Will INAES add file import to the SAEM web form?** Ask INAES's help desk and the provincial bodies.
+9. **Where is the founder's company?** It decides Stripe fees (US vs EU account), dLocal Go eligibility and any treaty relief on wires.
+10. **2027 dates of the sector's congresses** (CAM, FACC, the Rosario congress) and stand prices.
+11. **Can the B1 and B2 products share one SAS, one engine and one support person?** The base case depends on it.
+12. **Dividend withholding and FX access for a foreign-owned SAS in 2026-2027** (Com. A 8226 conditions; 7% dividend tax), if profits are to leave Argentina.
 
 ## Sources
 (pending)

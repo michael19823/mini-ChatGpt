@@ -7,7 +7,7 @@ Combined plan from four deep-research parts (written 10 Oct 2026):
 - [03 Product and technical design](03-product-and-tech.md): users, features, flows, screens, data sources, architecture, security, calendar and build budget.
 - [04 Go-to-market, company and finance](04-gtm-company-finance.md): pricing, channels, 90-day launch, payments and tax, company set-up, contracts, 36-month model and kill criteria. (03 mentions a "05 payments file". None was written for this idea; payments are covered in 04.)
 
-Every fact below is sourced in those files. The main URLs are repeated here. This page reconciles the files where they disagree and gives one plan. "My estimate" marks numbers derived on this page. Money is in South African rand (R), excluding 15% VAT unless stated. I use R16.5 per US$, the rate used in 03 and 04 (unverified for October 2026).
+Every fact below is sourced in those files. The main URLs are repeated here. FIC documents and the trade press on this duty are in English; the deep dive's Afrikaans searches returned only English pages (02, 03). This page reconciles the files where they disagree and gives one plan. "My estimate" marks numbers derived on this page. Money is in South African rand (R), excluding 15% VAT unless stated. I use R16.5 per US$, the rate used in 03 and 04 (unverified for October 2026).
 
 Abbreviations: FIC = Financial Intelligence Centre (regulator and financial intelligence unit). RMCP = Risk Management and Compliance Programme (FIC Act s42). RCR = Risk and Compliance Return. GN 7B = FIC Guidance Note 7B. Org ID = an institution's FIC registration number on goAML, the FIC's portal. TCSP = trust and company service provider. HVGD = high-value goods dealer.
 
@@ -17,7 +17,7 @@ Abbreviations: FIC = Financial Intelligence Centre (regulator and financial inte
 
 **Verdict: worth a cheap, staged test. Sell it as "your FIC year, done and provable", to accountants first. Do not build it as a plain RMCP generator: that is now free or R3,500 a year elsewhere.**
 
-**New score: 6/10. Unchanged from the re-assessment, but for different reasons.** The market is bigger and better counted than the re-assessment knew, and the build, payment and company path is clean and cheap. Against that, a direct rival launches the same core feature next month, the "RCR" half of the idea has gone, and the 2026 buying season ended yesterday.
+**New score: 6/10. Unchanged from the re-assessment, but for different reasons.** The market is bigger and better counted than the re-assessment knew, and the build, payment and company path is clean and cheap. Against that, a direct rival launches the same core feature next month, the "RCR" half of the idea has gone, and the 2026 buying season ended yesterday. The score falls to 4-5 if eFICA's builder already covers the accountant view and the deadline clocks. It rises to 7 if 10 paid pilots and 3 accounting practices sign by late November.
 
 **The case for it.**
 
@@ -51,7 +51,7 @@ Abbreviations: FIC = Financial Intelligence Centre (regulator and financial inte
 | Base (04 model) | 751 / 772 | R3.06m (US$186k) | R1.99m | R128,000 in the model; about R250,000-R350,000 with full content costs |
 | High (04 model) | 1,298 / 1,480 | R5.44m (US$330k) | R3.88m | about R110,000 in the model |
 
-- **A good small business, not a large one.** The planning case can pay the founder about R40,000 a month from year 2. Exit at 2.5-4x ARR is worth about R5m-R8.5m in the planning case and R7.7m-R12.2m in the base ([valuation guide](https://beancount.io/blog/2026/07/11/bootstrapped-saas-valuation-multiples-2026-acquire-com-indie-founders-guide)).
+- **A good small business, not a large one.** The planning case can pay the founder about R40,000 a month from year 2. Exit at 2.5-4x ARR is worth about R5.3m-R8.4m in the planning case and R7.7m-R12.2m in the base ([valuation guide](https://beancount.io/blog/2026/07/11/bootstrapped-saas-valuation-multiples-2026-acquire-com-indie-founders-guide)).
 - **Hold R400,000 (about US$24,000) of cash**, not the R300,000 04 suggests, because the 04 model leaves out the attorney fees for the v1 sector packs.
 
 **The key conditions.**
@@ -420,7 +420,7 @@ People and legal content, not servers, are the cost.
 
 This meets the owner's frame: MVP in 3 weeks (30 October), sellable in 7 weeks (1 December) after legal content, a security test and pilots.
 
-**Why the pilots can file in November.** Items 1 and 2 missed nothing by using the app late: any RMCP approved after 9 October must be filed within 10 days (Directive 12 para 8). So each pilot's new approval triggers a real goAML upload.
+**Why pilots can file for real in November.** Any RMCP approved after 9 October must be uploaded within 10 days (Directive 12 para 8). So each pilot's new approval triggers a real goAML upload, and late filers need to upload anyway.
 
 ### MVP definition of done (03)
 
@@ -459,3 +459,356 @@ From 03 (my rounding):
 **First-year running costs after launch** (03): about R180,000-R474,000, excluding marketing, payment fees and insurance. The big items are attorney law watch (R48,000-R168,000), the v1 sector packs (R60,000-R150,000 for items 11, 20 and 22) and a security re-test (R33,000-R66,000). **The attorney is the cost to negotiate:** a retainer plus a named content partnership cuts cash cost and adds credibility.
 
 **Reconciling AI tool costs.** 03 budgets Claude Max at US$100-200 a month; 04's model uses R6,500 a month (about US$390) in year 1, which leaves room for API overflow when agents run in parallel. I use 04's figure in the financials, as the safer one.
+
+---
+
+## 8. Go-to-market
+
+### Pricing (reconciled)
+
+The re-assessment, 02 and 04 agree on the core: about R2,500 a year for one entity and R900 per entity for accountants. 04 adds the detail; I use 04's packaging.
+
+| Plan | Price excl. VAT, yearly in advance | Incl. 15% VAT | Who | Includes |
+|---|---|---|---|---|
+| **Free check** | R0 | R0 | Any registrant | "Which FIC deadline is mine?", 15-question RMCP health check, e-mail reminders (with consent) |
+| **Solo** | **R2,490** | R2,863.50 | One Org ID: sole practitioner, small credit provider, dealer | Interview, risk assessment, tailored RMCP, approval record, goAML-ready PDF, upload checklist and proof store, all deadline clocks, staff acknowledgements, inspection pack, yearly review. Directive 10 and training registers added free by March 2027 |
+| **Practice** | **R4,490** | R5,163.50 | Up to 3 Org IDs or standalone branches, up to 15 staff | Solo plus several registrations and two approvers |
+| **Accountant / consultant** | **R900 per client entity, minimum 10 (R9,000)**; R750 from 25 entities | R1,035 per entity | Accounting practices, compliance consultants | Portfolio dashboard; white-label PDFs (v1); the practice's own RMCP free. Each client still approves and uploads with its own goAML login |
+| Add-on: **FICA attorney review** | about R1,950 per RMCP, set and billed by the partner attorney | | Firms wanting a named expert sign-off | Under the attorney's own engagement letter; we take no share at first |
+| Add-on: **New-practice starter** | R990 once | R1,138.50 | New firms (90-day duty) | Registration checklist, first RMCP, 90-day plan; converts to Solo |
+
+- **Founding price:** Solo at R1,490 for year 1 for the first 50 customers, in return for feedback and a testimonial; renews at R2,490.
+- **Monthly option:** R249 a month by card only, for firms that will not prepay.
+- **Price logic** (04): Solo is 29% below eFICA's Builder (R3,500) and half of Moonstone's one-off template (R4,995). It is a quarter of a typical R10,000 settled fine. An accountant can resell at R1,500-R2,500 a client and keep a margin.
+- **VAT matters to small buyers.** Many sole practitioners are below the VAT registration threshold (R2.3m from 1 April 2026, per 04's search summary of [Cliffe Dekker Hofmeyr](https://www.cliffedekkerhofmeyr.com/news/publications/2026/South-Africa/Tax-Exchange-Control/Tax-and-Exchange-Control-25-February-2026-Budget-summary-VAT)), so they compare the VAT-inclusive price. R2,863.50 is still below eFICA's R4,025 incl. VAT.
+- **Do not price per document.** The clocks and the inspection pack are what make customers renew.
+
+### Channels, in priority order (04)
+
+1. **Accounting practices, as buyers and resellers.** 2,574 TCSP registrations, mostly accounting practices, file by 9 October and look after small credit providers, dealers and other clients. No competitor offers them a multi-client view. Reach them through CPD webinars with the Tax Faculty (SAIT), SAIPA and SAICA, Accounting Weekly and Accounting Academy, and FISA for trust practitioners ([Tax Faculty](https://taxfaculty.ac.za/events/how-to-implement-an-rmcp-in-your-firm-after-registering-with-the-fic); [Accounting Weekly](https://www.accountingweekly.com/financial-intelligence-centre/fic-2026-rcr-deadline-is-coming-are-you-ready)). Offer: the practice's own RMCP free with 10 client entities.
+2. **Sole practitioners outside nCino's LSSA base.** Search ("submit RMCP goAML", "Directive 12", "GN 7B RMCP"), the free check, GoLegal's newsletter (about 16,000 subscribers in 2020; search summary of [GoLegal](https://www.golegal.co.za/advertise/)), De Rebus, BLA and NADEL regional events.
+3. **New practices.** Every attorney opening a practice must first complete LPC-approved practice-management training ([LEAD PMT](https://www.lssalead.org.za/legal-practitioners/practice-management-training/)), then file an RMCP within 90 days. Offer LEAD a free "FIC starter" module.
+4. **Credit providers.** CASA has "more than 1,800 non-bank credit providers" ([Moonstone](https://www.moonstone.co.za/microfinance-sa-rebrands-as-casa-to-broaden-focus-across-credit-sector/)). Member webinar and discount; referrals from micro-lender software such as ACPAS.
+5. **Motor and other high-value goods dealers.** NADA already warns against templates. A motor-dealer edition and a NADA/RMI webinar before 31 October.
+6. **Resellers:** Moonstone, Probeta and small consultancies on the accountant plan.
+7. **Later:** practice-software vendors (LegalSuite, GhostPractice, Lexpro).
+
+**Cold e-mail is restricted.** POPIA s69 allows one approach to a non-customer, on the prescribed form; commentators read it as covering B2B ([MJ Kotze Inc](https://mjkinc.co.za/popia/companies-and-b2b)). So: content, partners, webinars and search, plus at most one compliant approach per prospect.
+
+**Sales motion** (04):
+- **Self-serve for Solo and Practice: "free to build, pay to finalise".** The buyer completes the interview and sees a watermarked draft. Paying unlocks the clean PDF, approval record, filing store and reminders. Target: 20-25% of finished drafts convert in season (04's estimate).
+- **Founder-led demos for accountants:** a 30-minute video call, a 14-day trial with three client entities, then the 10-entity minimum. South Africa is UTC+2, which suits European working hours.
+- **Webinars are the main event:** monthly, weekly in season, co-hosted with a partner, with the named attorney on the panel.
+- **Renewal:** a CPA-compliant notice 40-80 business days before expiry, with "what changed in FIC rules this year" ([CPA s14](https://www.acts.co.za/consumer-protection/14_expiry_and_renewal_of_fixed_term_agreements)).
+
+### Selling calendar
+
+| Period | Buyers' state | Our action |
+|---|---|---|
+| Oct-Nov 2026 | 9 Oct just passed; 31 Oct due for items 20 and 22; Directive 10 due about 29-31 Oct; many late filers (my inference) | Waitlist, free checklists, "filed late? fix it properly" message, paid pilots |
+| Dec 2026-mid Jan 2027 | Summer shutdown (common practice, unverified) | Launch 1 Dec, then build v1 and SEO pages |
+| Jan-Mar 2027 | GN 7B revisions due; new practices; accountants planning the year | Accountant push; GN 7B revision campaign; new-practice starter |
+| Apr-May 2027 | Quiet | Credit providers (CASA) and dealers (NADA); inspection-pack campaign using new sanction cases |
+| Jun-Jul 2027 | Renewal notices for Nov-Dec 2026 buyers start | "Year 2 of Directive 12" webinars; RCR workbook if a return is called |
+| **Aug-early Oct 2027** | **Peak for the 9 Oct group** | Weekly webinars, Google and GoLegal ads, De Rebus, partner pushes, reminders to all free-check users |
+| Oct 2027 | 31 Oct group; first renewals | Dealers and crypto; review the year |
+
+About half of each year's new sales should land in August-October (52% in 04's model).
+
+### Marketing budget, year 1 (Nov 2026-Oct 2027): R180,000 (about US$11,000)
+
+From 04. Low case R120,000; high case R240,000. Referral commissions (20% of first-year fees on referred sales) are paid on results and sit in the financial model.
+
+| Item | R |
+|---|---|
+| Content and SEO (30 pages: one per item, Directive 12, GN 7B, the 10-day rule, goAML how-to) | 25,000 |
+| Webinar platform and recordings | 6,000 |
+| CPD webinar partnerships (Tax Faculty, SAIPA, Accounting Academy, FISA, CASA, NADA; fees unknown) | 40,000 |
+| GoLegal website and newsletter ads (rate card on request) | 30,000 |
+| De Rebus ads (rates not found, unverified) | 15,000 |
+| Google search ads on narrow FIC terms (cap R1,000 a day in peak) | 30,000 |
+| LinkedIn tests | 10,000 |
+| Events and association presence | 20,000 |
+| Design, video, testimonials | 4,000 |
+| **Total** | **180,000** |
+
+Year-1 targets (04 base): 250 direct customers, 20 accountant practices (about 300 entities), about R0.97m ARR in October 2027. In my planning case, about 175 direct customers and 14 practices.
+
+### First 90 days (Mon 12 Oct 2026 to Sat 9 Jan 2027)
+
+Reconciled from 03 (build calendar) and 04 (launch plan). The main change: credit-provider and dealer modules move to January-February, after their attorney review.
+
+| Dates | Product | Market and sales | Company, legal, payments | Exit test |
+|---|---|---|---|---|
+| 12-16 Oct | Spec freeze; skeleton; 8 test firms | Landing page with the free deadline finder and waitlist. Book 30 calls: 10 sole practitioners, 8 accountants, 5 credit providers, 4 dealers, 3 consultants | Apply to Paddle; shortlist 3 FICA attorneys; brief a compliance expert for item 2 | 30 calls booked |
+| 19-30 Oct | Agent streams; items 1 and 2 content; **MVP feature-complete Fri 30 Oct** | 15 calls done; free 31 October / Directive 10 checklist and GN 7B change list; one compliant approach to dealers and crypto firms | Sign the attorney (about R40,000 fixed); order the security test | MVP works end to end |
+| 2-13 Nov | Clause book review; dry run with 3 pilots; content release 1.0 | 30 calls done; founding offer R1,490 | Terms, operator agreement, privacy notice drafted | **At least 3 pre-orders by 10 Nov (kill test)** |
+| 16-27 Nov | Pilots live; security test and fixes | **10-15 paid pilots** (sole practitioners, small firms, 2-3 accountants); at least 3 goAML uploads | Paddle live in rand; insurance quote | 10 paid pilots by 25 Nov |
+| 30 Nov-11 Dec | **Paid launch Tue 1 Dec** | Webinar 1 with the attorney: "Directive 12 and GN 7B: what to fix before your next amendment". Pitch the Tax Faculty, SAIPA and Accounting Weekly for January. First GoLegal ad. Accountant partner programme | Terms with the CPA renewal notice and a bold liability box | First 20 paying customers |
+| 14 Dec-9 Jan | v1 starts: item 11 pack, Directive 10 register; SEO pages; help centre | Low activity. CASA and NADA introductions; LEAD PMT proposal; 2027 webinar calendar | Decide the attorney review add-on (direct billing). **Day-90 review** | **25 paying direct customers and 3 accountant practices** |
+
+---
+
+## 9. Payments, company and legal
+
+### Payments: Paddle from the founder's company abroad
+
+- **South African cards can pay a foreign seller.** Residents may pay foreign suppliers by card for "services or subscriptions" up to **R100,000 per transaction** since 8 April 2026 ([SARB Circular 12/2026](https://www.resbank.co.za/content/dam/sarb/what-we-do/financial-surveillance/financial-surveillance-documents/2026/12-2026.pdf)). Some cards must first be enabled for international online use (bank-specific, unverified). Show a "card declined?" tip at checkout.
+- **Paddle (recommended at launch).**
+  - Covers South Africa at 15% VAT for B2B and B2C ([Paddle VAT list](https://paddle.com/support/which-countries-does-paddle-charge-vat-for)).
+  - Rand is a payment and payout currency; bank transfer only in USD, EUR and GBP ([Paddle currencies](https://developer.paddle.com/concepts/sell/supported-currencies)).
+  - Fee 5% + US$0.50 ([Paddle pricing](https://www.paddle.com/pricing)): about R151 on a Solo sale, **6.1% of the net price** (04).
+  - Paddle is the seller of record: it charges and pays VAT, issues the tax invoice and takes fraud and chargebacks.
+  - **Paddle will not sell legal advice** ([Paddle restricted list](https://paddle.com/help/start/intro-to-paddle/what-am-i-not-allowed-to-sell-on-paddle), search summary). So the attorney bills the review add-on directly. Ask Paddle in writing whether the new-practice starter counts as software.
+- **Stripe on the founder's company (back-up).** A UK account pays about 3.15% + 20p for non-EEA cards, +2% for conversion, +0.7% for Billing ([Stripe UK](https://stripe.com/gb/pricing)): about the same cost as Paddle, but the founder carries VAT and chargebacks.
+- **Bank transfer.** A SWIFT payment costs the buyer R210-R995 at Standard Bank or R250-R500 at Capitec (04, search summaries). That adds 7-10% to a Solo plan, so **no SWIFT for Solo**. Accountant plans above about R9,000 can be invoiced in EUR, GBP or USD for bank transfer through Paddle.
+
+| Route, one Solo sale (R2,490 net) | Fee | Who handles VAT | Net to founder |
+|---|---|---|---|
+| **Paddle** | about R151 | Paddle | **about R2,339** |
+| Stripe, UK account | about R150 | Founder (buyer may owe imported-services VAT until the founder registers) | about R2,340 |
+| Local company + PayFast card (3.2% + R2; [PayFast](https://payfast.io/?p=25639)) | about R94 | Local company | about R2,396, before R30,000-R50,000 a year of company costs |
+| Local company + PayFast Instant EFT (2%) | about R57 | Local company | about R2,433, same caveat |
+
+### Tax friction
+
+- **VAT.** A foreign seller of electronic services must register for South African VAT only above **R2.3m of South African sales in 12 months** (from 1 April 2026). The B2B exclusion does not help a seller with mixed customers ([SARS guide VAT-REG-02-G02](https://www.sars.gov.za/vat-reg-02-g02-supply-of-electronic-services-by-foreign-suppliers-and-foreign-intermediaries-external-guide/); [SARS FAQ, Q6](https://www.sars.gov.za/lapd-vat-g16-vat-faqs-supplies-of-electronic-services)). With Paddle this does not arise. Without Paddle, a non-VAT-registered buyer would owe 15% itself on form VAT215 within 60 days (SARS FAQ, Q70-Q71).
+- **Withholding tax: none in the normal case.** South Africa has no withholding tax on service fees to non-residents ([PwC](https://taxsummaries.pwc.com/south-africa/corporate/withholding-taxes)). The 15% royalty withholding tax applies only if the contract licenses software. Draft the terms as access to a hosted service.
+
+### Company: no South African company at launch
+
+**Reasons** (04): card payments are allowed; Paddle handles VAT; no withholding tax; no licence is needed to sell compliance software (04's reading, unverified). A foreign company must register in South Africa as an "external company" only if it "conducts business" there, for example by being party to a South African employment contract ([Companies Act s23](https://www.acts.co.za/companies-act-2008/23_registration_of_external_companies_and_registered_office), search summary). No source addresses online sales directly (unverified). **So do not hire a South African employee on the foreign company;** use contractors or an employer-of-record.
+
+**Open a local (Pty) Ltd only if:**
+1. more than about 25% of qualified buyers refuse card payment and want rand EFT or debit order;
+2. a channel partner (LEAD, a practice-software vendor, CASA, a bank) will only contract with a South African entity or asks for a B-BBEE certificate;
+3. the founder wants a South African employee; or
+4. the founder moves to South Africa.
+
+**Costs if a local company is needed** ([MJ Kotze Inc, foreigners guide](https://mjkinc.co.za/doing-business-in-south-africa/company-registration-foreigners) unless stated):
+
+| Item | Founder files himself (official fees) | Through a lawyer or agent, remotely |
+|---|---|---|
+| Name reservation | R50 | included |
+| Incorporation, standard MOI / custom MOI | R175 / R475 | included |
+| Beneficial-ownership filing | free | included |
+| Professional fee | — | R880 (Govchain basic; whether it serves foreign directors is unverified; [Govchain](https://help.govchain.co.za/en/articles/1807746-how-much-does-company-registration-cost)) to about R5,000-R15,000 at a law firm (04's estimate; no firm published a price) |
+| Minimum share capital | none (one R1 share is valid) | same |
+| Public officer for SARS | must be an individual resident in South Africa | nominee about US$2,550 a year (2017 quote, old; [Healy Consultants](https://www.healyconsultants.com/wp-content/uploads/2017/03/draft-invoice-South-Africa-business-package.pdf)) |
+| Registered office | any South African address | virtual office R150-R600 a month ([OurPower](https://www.ourpower.co.za/tools/company-registration/foreign-directors-sa-company), vendor page) |
+| Bank account | bank fees; some banks want in-person verification | 3-6 weeks, 8+ for complex structures |
+| CIPC annual return | R100 (turnover under R1m) or R450 (R1m-R10m) ([OurPower](https://www.ourpower.co.za/tools/company-registration/annual-return-cipc-explained), single source) | agent fee extra |
+| Bookkeeping, VAT and tax returns, annual statements | — | about R25,000-R45,000 a year (04's estimate) |
+
+- **In person versus remote.** The official fees are the same either way (about R225-R525). A foreign founder must use CIPC e-Services even in person, because BizPortal needs a South African ID (search summary of [OurPower](https://www.ourpower.co.za/tools/company-registration/foreign-directors-sa-company)). Being in the country mainly helps with the bank account.
+- **Time:** 1-3 weeks to a registered company; 4-8 weeks to a working one with a bank account.
+- **Directors:** no nationality or residence rule; one is enough (04).
+- **Tax in a local company:** 27% corporate income tax; 20% dividends tax, often cut by treaty; VAT compulsory above R2.3m (04).
+- **Total:** about **R35,000-R60,000 (US$2,100-3,600) in year 1** and R30,000-R50,000 a year after. PayFast instead of Paddle saves about 3% of revenue, so a local company pays for itself only above about R1.5m-R2m a year of sales, or if it unlocks a channel (04).
+
+### Contracts and legal
+
+- **Consumer law reaches many buyers.** The CPA protects juristic persons below R2m turnover or assets, and natural persons such as sole practitioners ([SAICA on the CPA](https://saica.org.za/resources/legislation-and-governance/consumer-protection-act), search summary). For natural persons, CPA s14 requires a renewal notice **40-80 business days before expiry** and allows cancellation on 20 business days' notice ([CPA s14](https://www.acts.co.za/consumer-protection/14_expiry_and_renewal_of_fixed_term_agreements); [CGSO guidance](https://acts.co.za/news/blog/2025/10/cgso-fixed-term-agreement-guidance)). Build the notice into the product, keep terms at 12 months, offer pro-rata refunds and a 7-day no-questions refund for Solo.
+- **Liability.** Cap at fees paid in the last 12 months. Exclude fines and indirect loss, but not gross negligence or fraud. Show the liability clause in a bold box at checkout (CPA s49, unverified). Promise content updates within 30 days of any new FIC directive or guidance note.
+- **Not legal advice; not reserved work.** The Legal Practice Act reserves court work and court documents for practitioners ([LPA s33](https://www.acts.co.za/legal-practice-act-2014/33__authority_to_render____)). An RMCP is not a court document, so selling the software looks allowed (03 and 04's reading; eFICA and Moonstone already sell RMCP drafting). The product must not call itself a law firm.
+- **Attorney add-on.** A direct contract between buyer and attorney. Check the LPC Code of Conduct on fee sharing and touting before any revenue share.
+- **POPIA.** Operator agreement (s21) with s72 transfer terms; sub-processor list; no client files in the MVP. Whether a foreign vendor must register an Information Officer is open (03).
+- **Copyright.** Do not copy FIC guidance or the LSSA guide; write our own clauses and cite paragraphs (01).
+- **Insurance.** Professional indemnity and tech errors-and-omissions cover in the founder's country, naming South African customers. Budget **R15,000 a year**; get a broker quote ([Simply Business](https://www.simplybusiness.co.uk/business-insurance/professional-indemnity/) shows UK contractor cover from about £83-97 a year; a compliance SaaS will pay more).
+- **Documents to prepare** (about R25,000-R40,000 once, 04's estimate): SaaS terms proofed for the CPA and ECTA; privacy notice and operator agreement; accountant and reseller agreement (no shared goAML logins); partner attorney agreement; a "what this is and is not" page. A South African technology lawyer should review the first three.
+
+---
+
+## 10. Financials
+
+### Model assumptions (04)
+
+Month 1 is November 2026; month 36 is October 2029. Rand excl. VAT. Customers prepay a year. "Profit" is cash in minus cash costs, before founder pay and before tax in the founder's country.
+
+| Assumption | Low | Base | High |
+|---|---|---|---|
+| Serviceable pool | 20,500 | 20,500 | 20,500 |
+| New direct customers, years 1 / 2 / 3 | 100 / 150 / 170 | 250 / 330 / 380 | 400 / 520 / 600 |
+| New accountant practices a year | 5 / 7 / 8 | 20 | 25 / 30 / 35 |
+| Client entities per practice | 12 | 15 | 18 |
+| Direct renewal, first / later | 60% / 70% | 70% / 80% | 80% / 88% |
+| Practice renewal | 75% | 85% | 90% |
+| Prices | Solo/Practice blend R2,790; accountant entity R850 blended; +5% a year; first 50 at R1,490 | same | same |
+| Payment cost (Paddle) | 6.1% of cash in | same | same |
+| AI tools | R6,500 a month in year 1, R5,000 after | same | same |
+| Attorney | R40,000 first review, then R5,000 a month | same | same |
+| Security test | R50,000, then R35,000 a year | same | same |
+| Marketing, years 1 / 2 / 3 | R120k / 150k / 150k | R180k / 240k / 300k | R240k / 320k / 400k |
+| South African customer-success contractor | from month 13 | R12,000 a month from month 8, rising to R25,000 | from month 6 |
+
+Seasonality of direct sales follows the deadlines: about 52% of each year's new sales fall in August-October.
+
+### Scenario results (04 model)
+
+| Measure | Low | Base | High |
+|---|---|---|---|
+| Direct customers at month 12 / 24 / 36 | 100 / 210 / 302 | 250 / 505 / 751 | 400 / 840 / 1,298 |
+| Accountant entities at month 12 / 36 | 60 / 193 | 300 / 772 | 450 / 1,480 |
+| ARR at month 12 / 24 / 36 | R0.33m / R0.74m / R1.12m | R0.97m / R2.00m / **R3.06m** | R1.52m / R3.35m / R5.44m |
+| Cash in, years 1 / 2 / 3 | R0.27m / R0.74m / R1.12m | R0.90m / R2.02m / R3.09m | R1.47m / R3.38m / R5.49m |
+| Costs, years 1 / 2 / 3 | R0.46m / R0.58m / R0.65m | R0.64m / R0.83m / R1.10m | R0.79m / R1.20m / R1.61m |
+| Profit before founder pay, years 1 / 2 / 3 | -R0.19m / R0.16m / R0.47m | R0.26m / R1.19m / **R1.99m** | R0.67m / R2.19m / R3.88m |
+| Cumulative cash positive for good | month 32 | month 10 | month 6 |
+| Peak cash need (model) | R272,000 | R128,000 | R109,000 |
+
+**Sensitivity (base, 04):**
+
+| Change | ARR month 36 | Year-3 profit | Peak cash |
+|---|---|---|---|
+| Base | R3.06m | R1.99m | R128,000 |
+| Prices 20% lower (eFICA price war, Solo R1,990) | R2.60m | R1.57m | R128,000 |
+| **New sales 30% lower** | **R2.14m** | **R1.13m** | **R162,000** |
+| Renewal 55% then 70% | R2.78m | R1.72m | R128,000 |
+
+### My planning case, and why
+
+**What I adjust.**
+
+1. **Sales 30% below the base.** eFICA launches the same core feature at R3,500 a year in November, VerifyNow's generator is free, the 2026 season is lost, the founder sells from abroad, and POPIA blocks cold e-mail. The base needs about 2,500 free checks a year at 10-12% paid conversion (04), which is untested. I take 04's own "new sales 30% lower" row.
+2. **Content costs the model leaves out.** 04 budgets the attorney at R40,000 plus R5,000 a month. 03 adds the v1 sector packs (R60,000-R150,000), the item 2 compliance expert (R8,000-R30,000) and a law-watch budget of R48,000-R168,000 a year. I add about **R100,000-R250,000 in year 1** and **R50,000-R100,000 a year after**.
+
+**Result (my estimates):**
+
+| Measure | Planning case |
+|---|---|
+| Direct customers / accountant entities at month 36 | about 520 / 540 (04 base × 0.7, approximate) |
+| ARR at month 12 / 36 | about R0.68m / **R2.1m (US$130k)** |
+| Year-1 profit before founder pay | about R0 to -R0.25m |
+| Year-3 profit before founder pay | **about R1.0m (US$60k)** |
+| Peak cash need | **about R300,000-R400,000** (R162,000 plus the extra content costs, most of which fall in Dec-Mar when cash is lowest) |
+| Cash to hold | **R400,000 (US$24,000)** |
+
+The same content-cost correction moves the base case's peak cash from R128,000 to about R250,000-R350,000, and the low case's from R272,000 to about R400,000-R500,000, with low-case year-3 profit falling from R0.47m to about R0.4m (my estimates).
+
+### Unit economics (04 base)
+
+| Measure | Value |
+|---|---|
+| Year-1 marketing + referral commissions + customer success, per new account | about R980 (planning case about R1,400) |
+| First-year price (Solo/Practice blend, after the founding period) | R2,790 |
+| Payback | under 6 months |
+| Renewal | 70%, then 80% |
+| Average customer life | about 4.5 years |
+| Lifetime value (revenue / after payment, hosting and content) | about R12,500 / R10,500 |
+| Infrastructure + payment fees | about 8-11% of revenue at 300-1,000 customers (03, 04; my sum) |
+
+**The limit is the small pool and the founder's selling time in August-October, not the unit economics.**
+
+### Founder income
+
+- **Base (04):** could pay the founder R40,000 a month from year 2 and still end month 36 with about R2.5m cash.
+- **Planning (my rough estimate):** could pay R40,000 a month from November 2027, after the first October season's cash is in, and end month 36 with roughly R0.3m-R0.6m. Keep a buffer for the November-July dip each year.
+- **Low:** cannot pay the founder within 36 months.
+
+### Exit
+
+- Likely buyers: KYC and AML platforms that want the RMCP layer (eFICA, VerifyNow, nCino KYC, Instarc, SearchWorks), regulatory-reporting firms, legal publishers and practice-software vendors (04). nCino paid US$75m for DocFox in 2024 ([The Digital Banker](https://thedigitalbanker.com/ncino-set-to-acquire-docfox-for-75m/)), which shows global buyers buy South African compliance software, at a far larger scale.
+- Bootstrapped SaaS under US$1m ARR sells for about 2.5-4x revenue ([valuation guide](https://beancount.io/blog/2026/07/11/bootstrapped-saas-valuation-multiples-2026-acquire-com-indie-founders-guide)).
+
+| Case | ARR month 36 | At 2.5-4x ARR |
+|---|---|---|
+| Low | R1.12m | R2.8m-R4.5m (US$170k-270k) |
+| **Planning** | **about R2.1m** | **about R5.3m-R8.4m (US$320k-510k)** |
+| Base | R3.06m | R7.7m-R12.2m (US$460k-740k) |
+| High | R5.44m | R13.6m-R21.7m (US$820k-1.3m) |
+
+Seasonality and dependence on one regulator push buyers to the low end of the range.
+
+---
+
+## 11. Regional expansion
+
+**Expand inside South Africa first; regional expansion is weak** (02, 04).
+
+| Option | Size | Notes | When |
+|---|---|---|---|
+| **Estate agents (item 3)** | 9,695 registrations, +45% | Same duty, portal and most of the product; 31 October deadline. Overlaps the separate estate-agent idea: build one pack, decide which idea owns it. Agencies already pay about R999 a month for compliance software (Realty Comply, unverified) | Months 12-24 |
+| **All other accountable institutions** | about 13,500 registrations, mostly financial firms | Only if the FIC extends yearly filing, which it says further directives may do (consultation feedback, para 11). Needs a financial-services module | If and when a directive is issued |
+| **Item 20 pack shared with the A1 dealer idea** | 5,581 registrations | Build once for both ideas (03) | v1 (Feb 2027) |
+| Namibia | about 780 lawyers (2017) | English, same legal roots, goAML, FIC Namibia sector guidance for lawyers, estate agents and dealers. But no yearly RMCP upload, and its yearly return covers banks only ([FIC Namibia](https://www.fic.na/how-we-do-it/guidance/); [Directive 03 of 2023](https://www.fic.na/wp-content/uploads/2026/03/Directive-03-of-2023-FIA-Compliance-Returns.pdf)). Under R200,000 a year (04's estimate) | Month 24+, low cost |
+| Botswana, Kenya, Mauritius | small or different regimes | Different laws and supervisors; no yearly upload trigger | Not before year 3 |
+
+**What travels.** The interview engine, approval log, amendment clock and multi-client dashboard are country-neutral. Only content and the deadline calendar are South African. The same code base can serve the Bosnia AML kit or a similar product elsewhere.
+
+---
+
+## 12. Risks and mitigations
+
+| Risk | Likelihood / impact | Mitigation |
+|---|---|---|
+| **eFICA's R3,500 builder (Nov 2026)** and VerifyNow's free generator make a "builder" a commodity | High / High | Sell the FIC year, not a generator; lead with the accountant view; price 29% below eFICA; a 20% price cut still leaves R2.6m base ARR. Kill trigger in §13 |
+| **nCino/LSSA bundles a cheap builder** for attorneys | Medium / Medium | Focus on accountants, credit providers, dealers and non-nCino sole practitioners; keep law firms under half of sales |
+| **Template distrust**: a customer is sanctioned and blames the tool | Medium / High | Visible tailoring; named attorney sign-off per content release; coverage checks; "approval stays with you" wording; liability cap; PI insurance |
+| **Content error** spreads to every customer | Low / High | Content as code with golden files; attorney-signed releases; source and date on every clause; founder-only golden-file updates |
+| **AI agents change legal text or rules silently** | Medium / High | Golden-file diffs, a review agent, founder review of every merge, attorney sign-off per release |
+| **Seasonality**: most demand in Aug-Oct; first full season is 2027 | Certain / Medium | Yearly prepayment; off-season offers (late filers, GN 7B rewrites, new practices, accountants); low fixed costs |
+| **Late-filer demand is smaller than hoped** (my inference that many missed 9 Oct 2026 is untested) | Medium / Medium | Test it in the 30 calls; ask the FIC or trade press for 2026 filing numbers |
+| **Low typical fines** (about R10,000) cap urgency | High / Medium | Lead with inspection risk, the R175,000 and R7.7m cases, and the s45D "record only" appeal rule |
+| **FIC changes the process** or adds a builder to goAML | Low / High | Daily law watch; 30-day update promise; the clocks, portfolio and evidence stay useful without the drafting job |
+| **Approval form not accepted** (in-app record versus signed minute) | Medium / Medium | Offer both from day one; ask the attorney and the FIC |
+| **Card-only payment** loses EFT-minded buyers | Medium / Medium | Measure at checkout; open a local company and add PayFast Instant EFT if over 25% of qualified buyers ask |
+| **Paddle refuses or freezes the account** | Low / Medium | Stripe on the foreign company as back-up; ask Paddle about the category in writing |
+| **Consumer-law exposure** (CPA renewal notices, liability notices) | Medium / Low-medium | Renewal notice and cancellation flow built in; South African lawyer reviews the terms |
+| **POPIA limits cold e-mail** | Certain / Medium | Partner-led and content-led acquisition; one compliant approach only |
+| **Third-party record keeper** duties (s24, Reg 20); hosting abroad | Medium / Low | Ready Reg 20 sheet; one-click export; EU hosting under an operator agreement with s72 terms; South African hosting option |
+| **External-company registration** triggered by South African staff | Low / Low | Contractors or an employer-of-record |
+| **Exchange rate**: rand revenue, dollar tools | Medium / Low-medium | Review rand prices each July (+5% assumed); keep dollar costs at about R10,000 a month |
+| **Founder bandwidth** in the September-October peak | High / Medium | Self-serve flow, webinars not demos, a South African customer-success contractor from mid-2027 |
+
+---
+
+## 13. Milestones and kill criteria
+
+From 04, with three triggers added (eFICA, attorney, Paddle). "Planning" figures are my estimates (04 base × 0.7).
+
+| When | Target (base / planning) | Stop or pivot if |
+|---|---|---|
+| **Day 30 (Tue 10 Nov 2026)** | 30 conversations; at least 3 pre-orders; attorney signed; Paddle applied | **Kill if fewer than 3 pre-orders from 30 conversations** |
+| **Day 45 (Wed 25 Nov 2026)** | 10 paid pilots; content release 1.0 signed; security test passed | **Pause if no FICA attorney will put a name to the content.** Switch to Stripe if Paddle refuses |
+| **eFICA launch (Nov-Dec 2026)** | Feature-by-feature comparison done | **Re-plan within 30 days** if eFICA's R3,500 builder already has a multi-entity view, the 10-day clock and an inspection pack: narrow to accountants only, or stop |
+| **Day 90 (Sat 9 Jan 2027)** | 25 direct customers, 3 accountant practices | Pivot to accountants only if direct sales are under 10 while accountants show interest |
+| **Month 6 (30 Apr 2027)** | 67 direct, 8 practices / about 47 and 6 | **Kill if under 25 direct customers and under 3 practices** |
+| **Month 12 (31 Oct 2027)**, after the first full season | ARR about R0.97m / about R0.68m | **Kill or sell the code if ARR is under R0.33m** |
+| Nov 2027-Jan 2028 | First renewals: 70% | **Kill if first-year renewal is under 50%** |
+| Month 24 (Oct 2028) | ARR about R2.0m / about R1.4m; decide on estate agents and a local company | Hold growth spending if ARR is under R0.75m |
+| Month 36 (Oct 2029) | ARR about R3.1m / about R2.1m; exit options open | — |
+| Any time | | Over 25% of qualified buyers refuse card payment: open a local company (a payment change, not a kill) |
+
+---
+
+## 14. Open questions to settle first
+
+1. **eFICA's builder at launch.** Does it handle many entities, the 10-day rule, Directive 10 and an inspection pack? How many of its 500+ clients take it? (Its site returned HTTP 503 on 10 Oct 2026.)
+2. **Directive 12 details for the FIC** (one compliance query): 10 or 90 days for amendments; calendar or business days; whether weekend deadlines move; file-size and format limits.
+3. **Approval form.** Is an in-app record (name, capacity, time, document hash) enough under GN 7B paras 181-181L, or do inspectors expect a signed minute?
+4. **May an accountant upload a client's RMCP from its own goAML user?** Directive 12 is silent; PCC 60 bans third-party submission only for the RCR. This shapes the accountant plan.
+5. **Which FICA attorney**, at what fixed fee, and on what terms for a named content partnership or retainer?
+6. **Paddle approval** of a compliance-document tool, and whether the new-practice starter counts as software.
+7. **Will buyers pay before they are inspected?** Test with 10 sole practitioners, 5 accounting practices, 5 dealers and 5 credit providers. Did many miss 9 October 2026?
+8. **Share of buyers who refuse card payment** (decides the local company).
+9. **Real firm counts per item.** How many of the 21,034 item 1 registrations are active firms? How many of the 8,147 NCR credit providers must register under item 11 after PCC 23A?
+10. **Next RCR:** when, and on which platform? This decides the RCR workbook.
+11. **Our own legal status:** third-party record keeper (s24, Reg 20)? Information Officer for a foreign vendor? External-company test for online sellers (a one-page opinion, about R5,000)?
+12. **LPC Code of Conduct** on fee sharing and touting, before any revenue share with partner attorneys.
+13. **Is Exemption 10 for litigation-only attorneys still in force?**
+14. **Partner fees** for co-hosted webinars and ads (Tax Faculty, SAIPA, CASA, NADA, GoLegal, De Rebus).
+15. **Overlap with the A1 dealer and estate-agent ideas:** who owns the item 20 and item 3 packs.
+
+---
+
+## 15. Next steps this week (Mon 12 - Fri 16 Oct 2026)
+
+1. **Decide to run the 8-week test** and block the time. Hold R400,000 of cash for the first year.
+2. **Book 30 discovery calls**: 10 sole practitioners, 8 accountants, 5 credit providers, 4 dealers, 3 consultants. Ask whether they filed by 9 October, what they used, and what they would pay.
+3. **Shortlist and brief 3 FICA attorneys.** Ask for a fixed fee for the items 1 and 2 clause book (two rounds and a mock inspection), and for their view on open questions 2-4 and 13.
+4. **Apply to Paddle** and ask in writing about the product category and the starter add-on. Open a Stripe account on the founder's company as back-up.
+5. **Put up the landing page**: the free "which FIC deadline is mine?" tool, a waitlist with POPIA-compliant consent, and the founding offer at R1,490.
+6. **Freeze the spec by Friday 16 October**: data model, content schema, deadline-rule interface, Word template, 8 test firms, and a CLAUDE.md with the rules for the agents.
+7. **Collect 5-10 real, redacted RMCPs** as test material.
+8. **Send the FIC a compliance query** on 10 or 90 days, calendar days, weekend deadlines and third-party uploads.
+9. **Set an alert for eFICA's builder launch** and plan the comparison.

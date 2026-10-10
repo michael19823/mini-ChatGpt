@@ -315,14 +315,228 @@ TypeScript with Next.js would also work. I prefer Django here because the admin,
 
 ## Security, privacy and liability
 
+### What personal data the product holds
+
+| Data | Whose | Sensitivity | Our role |
+|---|---|---|---|
+| Fit-and-proper data: ID and PIN numbers, education, 5-year bank list, employment, shareholdings and directorships, default and conviction answers, referees ([01 file, duty #6](01-law-and-requirements.md)) | Directors, CEO, officers, shareholders | **High.** Kenya's "sensitive personal data" includes "property details" and "family details" ([ODPC guidance quoting DPA s.2](https://www.odpc.go.ke/wp-content/uploads/2026/04/Guidance-Note-on-Cross-border-Data-Transfers.pdf)). Shareholdings and any family details are likely to fall in it (my reading) | Processor for the lender |
+| Police clearance, CRB report, KRA certificate | Same people | High in practice (criminal record and credit data), even where not "sensitive" in law | Processor |
+| Complaints | Borrowers | Medium: names, phones, loan disputes | Processor |
+| Agents (v1) | Agent individuals | Low-medium | Processor |
+| User accounts, billing contacts, marketing leads | Our customers' staff | Low | Controller |
+
+### Kenya's data protection law applied to us
+
+- **The Act reaches us abroad.** ODPC says a controller or processor "not established or residing in Kenya" that processes data of people resident in Kenya must register ([ODPC FAQ](https://www.odpc.go.ke/faqs/)). Entities with turnover under KES 5m and fewer than 10 staff are exempt unless they are in a listed sector ([ODPC FAQ](https://www.odpc.go.ke/faqs/)). Our own sector (software) is not "financial services" (my reading). So we are probably exempt in year 1 and must register once revenue passes KES 5m. Registering early costs little (KES 4,000 for the smallest band, [01 file, duty #7](01-law-and-requirements.md)) and helps sales (unverified whether a foreign company needs a KRA PIN to register).
+- **A processor contract is mandatory.** The controller (the lender) must engage us by a written contract with set particulars: subject matter, duration, nature and purpose, data types, data-subject categories, instructions, confidentiality, security measures, deletion or return at the end, and audit rights ([General Regulations, reg 24](https://www.odpc.go.ke/wp-content/uploads/2024/03/THE-DATA-PROTECTION-GENERAL-REGULATIONS-2021-1.pdf)). We need the lender's prior authorisation for sub-processors (hosting, e-mail, SMS, AI) and stay liable for them (reg 25, same source). Our DPA follows reg 24 item by item and lists sub-processors.
+- **Hosting abroad is a cross-border transfer, and it is allowed with safeguards.**
+  - Storing Kenyan personal data on cloud servers outside Kenya is a cross-border transfer ([ODPC cross-border guidance, s.14](https://www.odpc.go.ke/wp-content/uploads/2026/04/Guidance-Note-on-Cross-border-Data-Transfers.pdf); whether this April 2026 note is final is unverified).
+  - The transferring entity must base the transfer on appropriate safeguards, an adequacy decision, necessity or consent (reg 40). Safeguards can be a binding legal instrument "essentially equivalent" to Kenyan law (reg 41(1)(a)). Each transfer must be documented with date, recipient, justification and data description, and the record shown to ODPC on request (reg 41(2)) ([General Regulations](https://www.odpc.go.ke/wp-content/uploads/2024/03/THE-DATA-PROTECTION-GENERAL-REGULATIONS-2021-1.pdf)).
+  - **Sensitive data needs more.** A cross-border transfer of sensitive personal data needs the data subject's explicit consent plus safeguards (DPA s.49(1), as quoted in the [ODPC guidance, s.12](https://www.odpc.go.ke/wp-content/uploads/2026/04/Guidance-Note-on-Cross-border-Data-Transfers.pdf); reg 46(2)).
+  - **Design response:** the person portal opens with an explicit consent screen that names the hosting country and the risks, and logs the consent. A person who refuses can use **"track-only" mode**: the app stores only document type, issue date and expiry, and the files stay with the lender.
+- **No localisation duty for this use (my reading).** Regulation 26 requires processing in Kenya, or a serving copy in Kenya, only for listed "strategic interest" purposes: civil registration, elections, public finance, protected computer systems under the Computer Misuse and Cybercrimes Act, basic education and primary or secondary health care ([General Regulations, reg 26](https://www.odpc.go.ke/wp-content/uploads/2024/03/THE-DATA-PROTECTION-GENERAL-REGULATIONS-2021-1.pdf)). A compliance tool for lenders is not on the list. The Cabinet Secretary can order localisation for a controller abroad that ignores breaches or obstructs the Data Commissioner (reg 26(3)).
+- **Breaches.** A processor must tell the controller within 48 hours of becoming aware of a breach; the controller must tell ODPC within 72 hours ([Bowmans](https://bowmanslaw.com/insights/kenya-a-few-insights-on-navigating-data-breaches-in-kenya-under-the-kenyan-data-protection-law/)). Our incident plan commits to notifying the lender within 24 hours (my design choice), with the facts ODPC's notice needs ([General Regulations, reg 38](https://www.odpc.go.ke/wp-content/uploads/2024/03/THE-DATA-PROTECTION-GENERAL-REGULATIONS-2021-1.pdf)).
+- **DPIA.** The guidance points to a DPIA for high-risk transfers ([ODPC guidance, s.13.2](https://www.odpc.go.ke/wp-content/uploads/2026/04/Guidance-Note-on-Cross-border-Data-Transfers.pdf)). We write one DPIA for the product and give lenders a summary they can attach to their own records.
+- **Retention.** Application documents for people: delete 90 days after CBK's decision unless the lender chooses to keep them (my design choice). Registers (complaints, agents, approvals): keep while the lender subscribes; 7 years is our recommended default, matching POCAMLA's record period ([01 file, duties #66-68](01-law-and-requirements.md)). On exit: full export, then deletion, as reg 24(2)(e) requires.
+
+### CBK angle: is using Kibali "outsourcing"?
+
+- The draft rules make a lender notify CBK 30 days before an outsourcing arrangement. The contract must give CBK access to the provider's premises, books, systems and staff ([01 file, duty #27](01-law-and-requirements.md)).
+- A tool that holds the lender's complaints register and policies may count as outsourcing (unverified; ask the advocate).
+- Design response: our terms include a CBK-access clause. The settings page generates the lender's 30-day outsourcing notice. The read-only reviewer link lets the lender give an examiner access quickly. This turns a possible objection into a sales point.
+
+### Security baseline (MVP)
+
+1. MFA required for owner, compliance, MLRO and adviser roles. Magic links for people are single-use, expire in 7 days and give access to one person's record only.
+2. Tenant isolation in two layers plus automated cross-tenant tests for every model, list view, export and file download.
+3. Files: type and size limits, ClamAV scan, encryption at rest, short-lived signed URLs. ID numbers, PINs and person form answers are also encrypted at field level with a key held outside the database.
+4. Append-only audit log with a hash chain. It records every view of a person file, every export and every permission change.
+5. Backups: daily encrypted database backups with point-in-time recovery, plus a nightly copy at a second provider. A restore drill before launch, then monthly.
+6. Production access: the founder only, with a hardware security key. AI coding agents never receive production secrets or customer data; they work on synthetic data.
+7. CI gates: tests, linting, type checks, dependency audit, secret scanning, static analysis. A separate review agent runs a security review on every pull request. The founder reads every change to auth, tenancy, files and billing.
+8. Web hardening: strict Content Security Policy, CSRF protection, rate limits on login, magic links and the public checker, and Cloudflare in front.
+9. Logs hold no personal data.
+10. External penetration test before paid launch, then yearly and after major changes (see Budget).
+
+The draft rules list what CBK expects in a lender's own IT policy: encryption, access, password security, audit logs, change control, backup and disaster recovery ([01 file, duty #46](01-law-and-requirements.md)). Kibali should meet the same list, and say so in a one-page security sheet for buyers.
+
+### AI in the product
+
+- The policy text comes from advocate-approved clauses. The AI does not write policy text freely. This keeps the advocate's sign-off meaningful.
+- v1 gap analysis sends the lender's existing policies to the Claude API. The app warns users to remove personal data first and strips obvious identifiers. It is opt-in per organisation and listed as a sub-processor. Every AI finding is a suggestion that a person must confirm.
+
+### Liability
+
+- **Advocates Act, s.34.** It bars unqualified persons from preparing documents for a fee in listed areas: conveyancing, forming a company, partnership agreements, probate, matters with a fee set under s.44, and other legal proceedings. Breach is an offence, and fees can be recovered ([SheriaPlex, Advocates Act s.34](https://www.sheriaplex.com/kenya-acts/5674-unqualified-person-not-to-prepare-certain-documents-or-instruments)). Internal policies and CBK's own prescribed forms do not appear in that list (my reading). Mitigations:
+  - sell self-service software, not legal drafting on instructions;
+  - the premium review tier is delivered and invoiced by the partner advocate under the advocate's own engagement letter;
+  - get a written opinion from the advocate in week 1, including on whether s.44 fee scales reach any of our documents and on any fee-sharing limits for advocates (unverified).
+- **Outcome risk.** CBK decides. Terms say that the product is not legal advice, that the lender files and is responsible, and that liability is capped at the fees paid in the last 12 months. CBK fees and penalties are excluded.
+- **A narrow guarantee sells.** If CBK raises a documentation query on an item the kit says it covers, we fix it free or refund the kit price (as proposed in the [B4 report](../reports/kenya-b4.md)).
+- **Content dating.** Every document shows its content version, the "law as at" date and the review date. A change in the law triggers a "What changed" notice.
+- **Insurance.** Get professional indemnity and cyber cover once revenue starts (cost unverified).
+
 ## Hosting and running costs
+
+### Where to host
+
+- **Choice: an EU region** (for example Frankfurt), or the region of the founder's company abroad. Reason: Kenyan law allows it with a contract, records and consent for sensitive data (above). EU hosting makes due diligence easy for larger lenders.
+- **Kenya-local hosting is not needed** under reg 26 (above). AWS announced a Nairobi Local Zone in 2021 ([Capital FM](https://capitalfm.africa/amazon-announces-new-aws-local-zone-cloud-infrastructure-in-kenya/)); I could not confirm it is live (unverified). Revisit if a large lender insists on in-country data.
+- **Latency** from Nairobi to Europe is fine for a forms-and-documents app (my estimate; not measured).
+- **Keep it portable.** One Docker image and infrastructure as code. Hetzner raised several 2026 cloud prices sharply ([Northflank](https://northflank.com/blog/hetzner-cloud-server-price-increases)), which shows why.
+
+### Monthly running cost estimate (USD, excluding staff, VAT and payment fees)
+
+Prices are list prices where cited; sizes and totals are my estimates. DigitalOcean is used as the reference host: droplets from USD 4, managed databases from USD 15, object storage from USD 5, and backups at 20-30% of the droplet price ([DigitalOcean pricing](https://www.digitalocean.com/pricing)). The size-specific prices below are my estimates (unverified).
+
+| Item | 50 customers | 300 customers | 1,000 customers |
+|---|---|---|---|
+| App and worker servers | 1 VM, 2 vCPU / 4 GB: 24 | 2 VMs, 4 GB each: 50-70 | 3 VMs, 8 GB each: 150-200 |
+| Managed PostgreSQL | single node, 2 GB: 30 | 4 GB with a standby: 120-150 | 8 GB with a standby: 250-320 |
+| Object storage and offsite backup copy | 10-20 GB: 8-10 | 60-100 GB: 10-20 | 200-400 GB: 25-45 |
+| Server backups | 5 | 10-15 | 30-40 |
+| Gotenberg PDF and ClamAV (on the app VMs) | 0 | 0-24 (own VM) | 24-48 |
+| Transactional e-mail | 15 ([Postmark, third-party](https://automationatlas.io/answers/postmark-pricing-explained-2026/)) | 15-50 | 50-100 |
+| SMS reminders (v1), about 50 per customer a month at KES 0.5-0.8 ([HelloDuty](https://helloduty.com/blogs/how-to-send-bulk-sms-in-kenya-effectively)) | 10-15 | 60-95 | 195-310 |
+| Claude API for gap analysis (v1): about 50k input and 8k output tokens per run, about USD 0.18 on Sonnet 5.5 or 0.36 on Opus 5.5 ([Anthropic pricing](https://platform.claude.com/docs/en/about-claude/pricing)); runs a month = 0.5 x customers (my estimate) | 5-10 | 30-55 | 90-180 |
+| Error monitoring, uptime, logs | 0-26 | 26-60 | 80-150 |
+| Cloudflare, DNS, domain, status page | 2-5 | 25 | 25-50 |
+| Code hosting and CI | 4-20 | 20-40 | 40-60 |
+| **Total** | **about 100-170** | **about 370-620** | **about 960-1,500** |
+| Planned revenue at about USD 80 a month per customer (blended from the [02 file](02-market-and-competition.md) price proposals) | 4,000 | 24,000 | 80,000 |
+| **Running cost as share of revenue** | **2.5-4%** | **1.5-2.5%** | **1-2%** |
+
+Notes:
+- Payment fees are larger than hosting. At a headline 5% + USD 0.50 per transaction ([Dodo Payments on Paddle](https://dodopayments.com/blogs/paddle-fees-explained)) (unverified), a USD 80 monthly charge costs about USD 4.50, or 5.6%. Annual billing cuts the fixed part. Details belong to the payments file.
+- 1,000 customers is more than the Kenyan serviceable base of about 550-950 lenders ([02 file](02-market-and-competition.md)). That column assumes Uganda or Tanzania.
+- The founder's own tools (Claude Code plans, see Budget) are a development cost, not a running cost.
 
 ## Development plan
 
+### Timing drives the plan
+
+- Existing lenders must apply by about **29 Mar 2027** ([01 file](01-law-and-requirements.md)). A police clearance takes 2-6 weeks ([Kenyans.co.ke](https://www.kenyans.co.ke/news/56752-certificate-good-conduct-how-apply)), so most applicants must start their people documents by **mid-February 2027**. The kit must be on sale by **early December 2026** to catch most of the rush.
+- The 281 licensed lenders face the new fee and annual return on **31 Dec 2026** ([Tech-ish](https://tech-ish.com/2026/10/04/cbk-raises-licensed-lenders-annual-fee-to-kes-500000-from-kes-20000/)). The calendar and the LN 191 self-check should be live before then.
+- Plan: start **Mon 12 Oct 2026**. MVP feature-complete on staging by **Fri 30 Oct** (3 weeks). Sellable launch **Mon 30 Nov** (week 8), after legal sign-off, a penetration test and pilots.
+- Public holidays to plan around: Mashujaa Day (Tue 20 Oct 2026) and Jamhuri Day (Sat 12 Dec 2026) ([Calendarific](https://calendarific.com/holidays/2026/ke)). Expect slow weeks from 24 Dec to 1 Jan.
+
+### How the founder works with Claude Code and parallel agents
+
+- **Roles.** The founder is architect, reviewer, integrator, product owner and content manager. AI agents write code, tests, help text and first drafts of content. A Kenyan advocate approves all legal content. A Kenyan compliance practitioner checks the workflows.
+- **At most 5-6 streams at once.** The limit is the founder's review time, not the agents. Each stream works in its own git worktree and branch, and owns its own Django app folder, so merges rarely clash.
+- **Contracts first.** At the end of week 1 the shared pieces are frozen: core models (organisation, membership, person, document, requirement, obligation, audit event), service interfaces (storage, e-mail, PDF rendering, deadline engine, audit), URL names, base templates and UI components. A change to a contract needs the founder's approval.
+- **Spec, then code.** Each task is a short written spec with acceptance tests ("given / when / then"). The agent writes the tests first, then the code. CI must pass. A separate review agent runs a security and correctness review. The founder merges. Pull requests stay small (under about 400 lines).
+- **Repository rules in `CLAUDE.md`:** commands, conventions, the tenant-isolation rules (never bypass the tenant manager, no raw SQL outside the data layer), no secrets in code, synthetic data only.
+- **Synthetic test lenders** from day 1: a licensed digital lender, a pending applicant, a new logbook lender (licence tier), a small registered lender and an adviser with three clients. Every stream tests against them.
+- **Daily rhythm:** morning, the founder writes or updates specs and merges yesterday's work; daytime, agents run; late afternoon, the founder reviews; evening, staging rebuilds and the end-to-end suite runs.
+
+### Agent work streams for the MVP
+
+| Stream | Scope | Owns | Depends on | Done by Fri 30 Oct when |
+|---|---|---|---|---|
+| **S0 Foundation** (founder + 2 agents, week 1) | Project skeleton, auth with MFA, organisations and memberships, roles, audit log, file storage, e-mail, PDF service (Gotenberg), job queue, CI/CD, staging, UI shell, seed data | `core`, `accounts`, infra | - | Frozen contracts; staging deploy on every merge; tenant tests in CI |
+| **S1 Rules and calendar** | Requirement YAML loader and versioning; deadline engine (four rule kinds); obligations; reminders and digests; public scope and tier checker | `rules`, `obligations`, `checker` | S0 | All rule kinds pass time-travel tests; checker gives correct tier for 20 test cases |
+| **S2 People and dossier** | People register; magic-link person portal with consent; uploads with expiry; NDTCP 2/3 PDF pre-fill; dossier checklist by tier and situation; ready gate; ZIP export and copy sheet | `people`, `dossier` | S0, S1 | A synthetic lender with 4 people reaches "ready" and exports a correct ZIP |
+| **S3 Policy generator** | Questionnaire engine; clause templates (docxtpl); policy assembly by tier; coverage check; versions; approvals; board resolution; KID and pricing sheet | `questionnaire`, `policies`, `products` | S0, S1, S6 content | Golden-file tests render all documents for 5 synthetic lenders; coverage report shows no unmapped "policy content" requirement |
+| **S4 Registers** | Complaints register with clocks and export; product and pricing change log with CBK letter, notice tracker and go-live gate | `complaints`, `changes` | S0, S1 | 100-complaint fixture gives correct due dates; go-live gate cannot be bypassed |
+| **S5 Commercial** | Marketing site; checker embed; onboarding wizard; plans; merchant-of-record checkout and webhooks; multi-organisation switcher; account settings; data export and deletion | `web`, `billing` | S0 | Sandbox purchase creates an active subscription; adviser can switch between 3 clients |
+| **S6 Content** (agent drafts; advocate reviews) | Requirement library from the 01 file's 69 duties; questionnaire (about 80 questions); clause library for 6 policies, complaints procedure, pricing sheet, KID, business brief, board resolution; help text; LN 191 diff as soon as the text is in hand | `content/` (YAML, DOCX) | 01 file; LN 191 text | Draft v0.9 of every template; advocate review round 1 booked |
+| **S7 QA and security** (runs throughout) | Threat model; cross-tenant tests for every new model; end-to-end tests (Playwright); dependency and secret scans; backup and restore drill; load test | `tests/`, CI | all | No failing tenant test; restore drill documented |
+
+### Calendar
+
+| Week (start) | Engineering | Content and legal | Sales and pilots |
+|---|---|---|---|
+| 0 (Sat 10 Oct) | Accounts (code hosting, cloud, e-mail, billing sandbox); `CLAUDE.md`; architecture decisions | Obtain the LN 191 text (Government Printer or a partner advocate). Ask 2-3 small firms from the [02 file](02-market-and-competition.md) for a fixed quote | List 30 target lenders from the CBK directory |
+| 1 (Mon 12 Oct) | **S0 foundation.** S1 checker logic (pure functions plus tests) | S6 requirement library v0 from the 01 file. **LC0:** advocate engaged; written questions sent (s.34, outsourcing, consent for sensitive data, LN 191 differences) | Landing page with the free checker and a waitlist. 10 discovery calls |
+| 2 (Mon 19 Oct; Tue 20 Oct holiday) | **S1-S5 in parallel**, S7 alongside | S6 questionnaire and clause drafts. **LC1:** advocate approves the requirement map and the policy outlines | Recruit 3-5 pilot lenders and 1-2 adviser firms |
+| 3 (Mon 26 Oct) | Streams finish. **Fri 30 Oct: MVP feature-complete on staging** (draft content) | S6 drafts v0.9 of all templates | Demo to pilots |
+| 4 (Mon 2 Nov) | Integration, end-to-end tests, time-travel tests, mobile checks, performance | Advocate review round 1 of all templates | Concierge use: the founder runs 2 friendly lenders through staging (with consent) and delivers advocate-checked documents |
+| 5 (Mon 9 Nov) | Fixes; pentest scoping; billing live; security sheet | **LC2:** content v1.0 signed off. Terms, DPA (reg 24 items), privacy notice, disclaimers, DPIA and transfer record approved | Founding-customer offer to the waitlist |
+| 6 (Mon 16 Nov) | **External penetration test** (3-4 days) on a production-like copy | Pilot feedback into content | 3-5 paid pilots onboard (discounted founding price) |
+| 7 (Mon 23 Nov) | Fix high and medium findings; retest; restore drill; monitoring | Launch guides: "29 March checklist" and "31 December checklist" | Partner advisers trained |
+| 8 (Mon 30 Nov) | **Sellable launch.** Self-serve sign-up opens | Weekly law watch starts | Outreach to the CBK directory list and law-firm webinars |
+| Dec 2026 | v1a: LN 191 gap analysis (AI, human-confirmed), adviser dashboard, CBK query log | Switch rule flags from "draft-based" to "LN 191 confirmed" | 31 Dec fee and return campaign to licensed lenders |
+| Jan 2027 | v1b: AML pack (FRC annual report draft, MLRO notices), notices register, CRB pre-listing tracker | Content release with the AML pack | Rush selling through advisers |
+| Feb-Mar 2027 | Support, speed, small fixes; no big features | Answer CBK guidance notes, if any | Peak: help applicants hit 29 Mar |
+| Apr-Sep 2027 | v1c: agent register (before about 31 Oct), annual certification workpaper (before 31 Dec), public complaint form with SMS, evidence pack v2 | Uganda or Tanzania legal layer study | Move kit buyers to subscriptions |
+
+The 3-week MVP is realistic because the product has no official integrations, the stack is plain, and content runs in parallel. The 8-week date depends on two outside parties: the advocate (LC1 and LC2) and the penetration tester. Book both in week 0.
+
+### What to cut if time slips
+
+1. First cut: the visual coverage matrix (keep the check in code, show a simple list), the go-live gate UI (keep a plain log), the multi-organisation switcher (create separate adviser logins by hand).
+2. Never cut: tenant isolation and its tests, MFA, advocate sign-off of content, the penetration test, backups with a tested restore.
+
+### Definition of done for the MVP (sellable on 30 Nov)
+
+1. A pilot lender with 3-5 people produces a complete licence or registration dossier with every checklist item green, expiry-checked against its planned submission date. The lender spends **under 4 hours** of its own time on it, not counting waiting for police, KRA and CRB documents.
+2. The policy set renders for both tiers. Every requirement marked "policy content" maps to at least one advocate-approved clause. Content v1.0 is signed off (LC2) and shows its "law as at" date.
+3. The public checker returns the right scope and tier for 20 reference cases reviewed by the advocate.
+4. The deadline engine passes time-travel tests for every rule kind: 31 Dec, about 31 Oct, 24 months, 12 months, document expiry, 30-day notices, complaint clocks and 29 Mar 2027.
+5. The complaints register computes the 7-day, 48-hour and 30-day dates correctly on a 100-case fixture and exports CSV and XLSX.
+6. The change log cannot mark a change live before CBK approval and 30 days after the customer notice.
+7. Cross-tenant tests pass for every model and file route. The penetration test leaves no open high or critical finding. A restore from backup has been done and timed.
+8. Terms, DPA, privacy notice, consent screens, DPIA and transfer record are approved by the advocate.
+9. Card checkout works end to end, with invoices.
+10. At least 3 pilot lenders have used it end to end, and at least 2 have paid.
+
 ## Budget
+
+Cash costs only. The founder is unpaid, and no developers are hired. Company set-up costs are in the company file. USD at KES 129 (unverified).
+
+| Item | Basis | MVP (weeks 0-8) | v1 (Dec 2026-Mar 2027) |
+|---|---|---|---|
+| Claude Code subscriptions | 2 x Max 20x at USD 200 a month for Oct-Nov, then 1 ([Novita](https://blogs.novita.ai/claude-subscription/); [heyuan110](https://www.heyuan110.com/posts/ai/2026-02-25-claude-code-pricing/)) | 800 | 800 |
+| Claude API (product feature tests, evals) | Usage at the prices above | 50-150 | 100-200 |
+| Kenyan advocate: content review, terms and DPA, written opinions (s.34, outsourcing, consent) | 30-45 hours at a blended KES 15,000-25,000 an hour. Boutique 2026 bands: associate KES 12,000-22,000, partner KES 30,000-55,000 an hour ([Global Law Experts, 2 Oct 2026](https://globallawexperts.com/?p=1530199)). Hours are my estimate | 3,500-7,000 (KES 450k-900k) | 1,200-2,300 (updates, AML pack) |
+| Kenyan compliance practitioner (workflow review, pilot introductions) | 8-12 days; a banking compliance specialist earns about KES 53k-142k a month ([Paylab, via the 02 file](02-market-and-competition.md)); freelance rate is my estimate | 800-1,550 | 400-800 |
+| External penetration test, 3-4 days grey-box, with retest | Narrow web-app tests are quoted at USD 5,000-15,000 for 3-5 days ([Redfox Security](https://www.redfoxsec.com/blog/how-much-does-web-application-penetration-testing-cost-2026-pricing-guide); [Blaze](https://www.blazeinfosec.com/post/how-much-does-penetration-testing-cost/)). A Nairobi provider lists a KES 50,000 package ([Hostiko](https://hostiko.co.ke/services/cybersecurity)), probably too shallow alone | 5,000-8,000 | 0 (yearly retest later) |
+| Hosting and SaaS tools during build | About USD 100-150 a month (table above) | 200-300 | 400-700 |
+| UI kit, icons, stock | One-off | 0-300 | 0 |
+| ODPC registration (when required) | KES 4,000 smallest band ([01 file, duty #7](01-law-and-requirements.md)) | 0-31 | 0 |
+| LN 191 copy and small items | | 50 | 0 |
+| Pilot trip to Nairobi (optional, 1 week) | Flights and lodging (my estimate) | 0-2,500 | 0-2,500 |
+| Contingency, about 15% | | 1,600-3,100 | 400-1,100 |
+| **Total** | | **about USD 12,000-24,000 (KES 1.5m-3.1m)** | **about USD 3,300-8,400** |
+
+Reading:
+- The **advocate and the penetration test are about 70% of MVP cash.** AI agents make the code cheap; trust is what costs money.
+- The year-1 kit rush alone was estimated at KES 3.5m-5.6m (about USD 27k-43k) in the [B4 report](../reports/kenya-b4.md). So the MVP pays back if the kit sells to about 25-40 lenders.
+- To spend less: get the advocate as a channel partner (lower review fee in exchange for review-tier referrals), and run a cheaper first test (local package plus automated scanning) with a full test after the first 20 paying customers. I do not recommend skipping the full test: the product holds directors' criminal-record and credit documents.
+- A law firm's indicative fee for "a single licence application or straightforward compliance review" is KES 60,000-250,000 ([Global Law Experts](https://globallawexperts.com/?p=1530199)). A kit priced at about KES 63,000 ([02 file](02-market-and-competition.md)) sits at the bottom of that band.
 
 ## Risks
 
+| Risk | Why it matters | Mitigation |
+|---|---|---|
+| **LN 191 differs from the 2025 draft** | Tiers, policy briefs, clocks or forms may change; content built on the draft would be wrong | Get the text in week 0; every rule carries a source flag; content releases with diffs; advocate sign-off before sale |
+| **Advocate or pentest slot slips** | Both gate the 30 Nov launch | Book both in week 0; have a second firm quoted; concierge sales with advocate-checked documents if the app launch slips |
+| **Founder review bottleneck** | Parallel agents produce more code than one person can review | Max 5-6 streams; small PRs; tests first; review agent; cut list ready |
+| **AI-written code has security holes** | The data is very sensitive | Tenant tests, review agent, static analysis, external test, no production access for agents |
+| **A breach of directors' documents** | Reputational end of the business; ODPC action | Minimise (track-only mode, deletion after decision), field encryption, MFA, audit log, incident plan |
+| **Advocates Act or fee-sharing problem** | Could make the kit or review tier unlawful | Written opinion in week 1; software-only positioning; advocate invoices the review directly |
+| **Outsourcing notice or CBK objection** | Lenders may hesitate to put registers in a foreign SaaS | CBK-access clause; notice generator; EU hosting; security sheet; export at any time |
+| **Consent friction for sensitive data** | People may refuse to upload abroad | Track-only mode; clear consent text |
+| **CBK publishes model policies or guidance notes** | Cuts kit value | Sell the running registers and calendar; adopt CBK's models as the base content |
+| **Loan-system vendors add an NDTCP module** | Kovara and SuperLMS already claim "CBK ready" ([02 file](02-market-and-competition.md)) | Integrate with them (CSV/API) rather than compete on the loan book |
+| **Police clearance delays** | Applicants miss 29 Mar regardless of our kit | Back-scheduled warnings from the first day; tell buyers early |
+| **Card payments do not suit micro lenders** | Lost sales | Annual plans and invoices via advisers; M-Pesa later (see payments file) |
+| **Host price changes** | Hetzner's 2026 rises show it happens ([Northflank](https://northflank.com/blog/hetzner-cloud-server-price-increases)) | Docker and infrastructure as code; move in a day |
+| **Single founder** | Illness or overload stops support during the rush | Runbooks; the partner adviser can handle first-line support; status page |
+
 ## Open questions
+
+1. What exactly does LN 191 say on tiers, the policy set for registered firms, complaint clocks (calendar or working days), annual return content, agent renewal dates and the forms? (Kenya Law returned 403 here.)
+2. Does CBK still use the `gdi.centralbank.go.ke` portal for NDTCP applications, and is Form NDTCP 1 entered online as Form DCP 1 was?
+3. Does the Stage 3 API data-submission test apply to NDTCPs, including the registered tier? Who provides the specification?
+4. What are the BSA return templates, their frequency and their deadlines for NDTCPs?
+5. Is a compliance SaaS that holds a lender's registers "outsourcing" that needs 30 days' notice to CBK?
+6. Does a foreign SaaS company need to register with ODPC now, and can it do so without a KRA PIN?
+7. Does any critical-infrastructure designation in the financial sector bring a lender's compliance records under the localisation rule (reg 26(2)(d))? The designation notice in the [ODPC guidance](https://www.odpc.go.ke/wp-content/uploads/2026/04/Guidance-Note-on-Cross-border-Data-Transfers.pdf) annex did not extract as text.
+8. Is the ODPC cross-border guidance note final, and will its standard clauses cover controller-to-processor transfers?
+9. Does Advocates Act s.34 or s.44 reach any document the kit produces, and how may the partner advocate be paid for the review tier?
+10. Do lenders want reminders by e-mail, SMS or WhatsApp? (Pilot question.)
+11. Will lenders let an AI read their existing policies for the gap analysis?
 
 ## Sources

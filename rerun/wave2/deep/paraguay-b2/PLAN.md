@@ -60,10 +60,10 @@ Why 5.5:
 | Case | Paying firms, month 12 / 36 | ARR at month 36 | Year-3 profit before founder pay | Peak cash need |
 |---|---|---|---|---|
 | Low | 45 / 91 | about US$20,000 | about -US$15,000 | Stopped by the month-6 gate after about US$19,000 spent |
-| **Base** | **110 / 259** | **about US$71,000 (Gs 405m)** | **about US$13,000** | **about US$28,000-29,000** |
-| High | 200 / 520 | about US$169,000 | about US$72,000 | about US$17,500 |
+| **Base** | **110 / 259** | **about US$71,000 (Gs 405m)** | **about US$13,000** | **about US$28,000** |
+| High | 200 / 520 | about US$169,000 | about US$72,000 | about US$17,000 |
 
-- **A founder salary is not in the base case.** With founder pay of US$2,000 then US$3,000 a month, the base case needs about US$61,000 of cash and does not recover it in 3 years ([04]).
+- **A founder salary is not in the base case.** With founder pay of US$2,000 then US$3,000 a month, the base case needs about US$66,000 of cash and does not recover it in 3 years ([04], plus my security-cost adjustment in §10).
 - **The upside is a second market.** Paraguayan car dealers from month 7, then Ecuador from mid-2028 (4,446 real-estate and construction firms under the UAFE ([UAFE 2025 report][uafe])). Ecuador could add 1.5-2 times Paraguay's ARR (my estimate in [04]).
 
 **Key conditions.**
@@ -636,3 +636,118 @@ Years 2 and 3: about US$9,000 each for marketing ([04]).
 - **Partner contracts:** referral (20% then 10%), reseller (30% off; partner invoices and handles INR), data partner (licence, update frequency, liability for wrong matches).
 - **Insurance:** technology errors-and-omissions plus cyber, about US$1,000-2,500 a year (my estimate in [04], unverified).
 - **Disclaimers:** no SEPRELAD endorsement; our help content is not CECAD-certified training ([Res 174/2023][r174]).
+
+---
+
+## 10. Financials
+
+### Which model I use, and why
+
+- **I use file 04's 36-month model**, with one adjustment of my own (below). It is the only one that runs month by month with churn, seasonality, billing mix, payment fees and the buyers' 4.5% tax withholding ([04]).
+- **The other figures and why I set them aside:**
+  - The B2 re-assessment: about US$110,000-135,000 a year by year 3. It used 15% of real-estate payers at US$360 a year, at Gs 7,300 = US$1 ([B2][b2]).
+  - File 02: about US$90,000-180,000. It is a static 15-30% share at about US$260 a year, with no churn ([02]).
+  - File 04 base: 259 firms, 11% of the 2,300 payers, at a blended US$210-245 a year, after churn ([04]). It is lower because both its share and its price are lower. I think it is the honest planning case.
+  - File 03 says the business "covers its costs at about 50-60 firms on full plans". That counts only hosting, tools, the lawyer retainer and the security retest ([03]). File 04 adds marketing, travel and the local contractor, so it breaks even much later. I use 04.
+- **My adjustment.** File 03 prices the pre-launch security test and retest at US$3,000-8,000 (middle US$5,000) and the yearly retest at US$3,000-8,000. File 04 used US$2,500 and US$2,000 ([03]; [04]). I add US$2,500 in month 2, US$300 for a second Claude Code seat during the build, and US$1,000 in months 14 and 26. That is US$3,800 by month 15 and US$4,800 over 3 years. Each year-3 profit falls by about US$1,000.
+- **Rate:** Gs 5,700 = US$1 ([BCP][bcp]). Prices stay in guaraníes; costs are mostly in dollars.
+
+### Low, base and high (no founder pay)
+
+| Measure | Low | **Base** | High |
+|---|---|---|---|
+| New paying firms, years 1 / 2 / 3 | 45 / 50 / 45 | **110 / 120 / 110** | 200 / 220 / 200 |
+| Active firms at month 6 / 12 / 24 / 36 | 19 / 45 / 75 / 91 | **46 / 110 / 197 / 259** | 82 / 200 / 380 / 520 |
+| Audit practices on the Estudio plan, month 36 | 4 | **12** | 22 |
+| Share of the 2,300 payers at month 36 | 4% | **11%** | 23% |
+| First renewal / later renewals | 55% / 75% | **70% / 85%** | 80% / 90% |
+| ARR at month 12 / 24 / 36 (US$) | 8,400 / 14,900 / 20,000 | **25,400 / 50,400 / 71,100** | 52,500 / 112,500 / 168,500 |
+| ARR at month 36 in Gs | about 114m | **about 405m** | about 961m |
+| Cash in, years 1 / 2 / 3 (US$) | 6,900 / 14,700 / 20,200 | **20,500 / 48,400 / 70,900** | 42,500 / 107,000 / 166,400 |
+| Costs, years 1 / 2 / 3, adjusted (US$) | 33,300 / 31,200 / 35,400 | **41,000 / 47,100 / 57,900** | 52,500 / 72,000 / 94,600 |
+| **Year-3 profit before founder pay (US$)** | **about -15,200** | **about 13,100** | **about 71,800** |
+| Trailing-12-month break-even | not within 36 months | about month 22-23 (mid-2028) | about month 14 (Nov 2027) |
+| **Peak cash need (US$)** | about 58,000 if run to month 36; about 19,000 if stopped at the month-6 gate | **about 28,000 (month 15)** | about 17,000 (month 3) |
+| Cumulative cash at month 36 (US$) | about -58,000 | **about -6,000** | about +97,000 |
+| Peak cash need with founder pay of US$2,000 a month in year 2 and US$3,000 in year 3 | about 118,000 | **about 66,000** | about 17,000-20,000 |
+
+Source: [04]'s scenario tables, plus my adjustment above. Costs in year 1 include the build budget (§7), marketing (§8), travel, the contractor, the lawyer, insurance and the foreign company's share of running costs.
+
+**Cash to set aside: about US$38,000.** That is the base peak plus about US$10,000 for a slow year or a weaker guaraní. File 04 suggested US$35,000 before my adjustment ([04]).
+
+### Base case by quarter (US$; from [04], my adjustment in the cumulative column)
+
+| Quarter | Active firms (end) | Practices | Cash in | ARR (end) | Net | Cumulative, adjusted |
+|---|---|---|---|---|---|---|
+| Q1 Oct-Dec 2026 | 8 | 0 | 594 | 842 | -13,367 | about -16,200 |
+| Q2 Jan-Mar 2027 | 46 | 3 | 6,055 | 10,643 | -1,223 | about -17,400 |
+| Q3 Apr-Jun 2027 | 86 | 4 | 7,532 | 19,666 | -1,948 | about -19,300 |
+| Q4 Jul-Sep 2027 | 110 | 5 | 6,327 | 25,368 | -1,167 | about -20,500 |
+| Q5 Oct-Dec 2027 | 131 | 6 | 7,971 | 31,660 | -6,578 | about -28,100 (the peak) |
+| Q6 Jan-Mar 2028 | 155 | 7 | 13,521 | 38,555 | 3,590 | about -24,500 |
+| Q8 Jul-Sep 2028 | 197 | 9 | 11,977 | 50,425 | 2,295 | about -19,200 |
+| Q12 Jul-Sep 2029 | 259 | 12 | 16,785 | 71,051 | 4,493 | about -6,100 |
+
+- **Every October-December quarter loses money.** It carries the security retest, insurance and a trip, and few firms buy before the January deadlines ([04]).
+- **The low case shows itself early.** By month 6 (March 2027) it has about 19 firms against about 46 in the base. That is the main kill gate (§13).
+
+### Unit economics, base case ([04], my estimates)
+
+| Measure | Value |
+|---|---|
+| Revenue per paying firm | about US$210-245 a year (Gs 1.2m in year 1, rising to Gs 1.4m) |
+| Blended acquisition cost, year 1 | about US$155, plus about US$20 of partner commission |
+| Payback | about 9-12 months |
+| Gross margin after payment fees, hosting and data | about 85% |
+| Average life | about 4 years |
+| Lifetime value | about US$750-800 |
+| Lifetime value / acquisition cost | about 4 |
+
+**The unit economics are fine. The limits are the price level and the market size.**
+
+### What moves the base case ([04]'s sensitivity; subtract about US$1,000 from each year-3 profit for my adjustment)
+
+| Change | ARR, month 36 | Year-3 profit | Peak cash need |
+|---|---|---|---|
+| Base (04's own figures) | US$71,100 | US$14,100 | US$24,300 |
+| Guaraní back to Gs 7,000 = US$1 | US$57,900 | US$2,500 | US$32,500 |
+| **Prices 25% higher, same volumes** | US$87,000 | **US$27,900** | US$18,900 |
+| Everyone prepays yearly | US$71,100 | US$14,200 | US$21,100 |
+| No local contractor in year 1 | US$71,100 | US$14,100 | US$17,300 |
+| First renewal 60% instead of 70% | US$65,800 | US$9,600 | US$24,400 |
+
+**What this means.**
+- **Price is the biggest lever I control.** That is why §8 tests Gs 199,000 against Gs 149,000 a month in the interviews.
+- **The currency is the biggest lever I do not control.** The guaraní moved from above Gs 8,000 per dollar in April 2025 to Gs 5,694 in October 2026 ([ABC Color][abc]; [BCP][bcp]). Most costs are in dollars.
+- **Paraguay alone does not pay a founder.** The base case makes about US$13,000 a year before founder pay in year 3. Only the high case (23% of the pool) gives a modest income of about US$70,000 a year.
+- **Delaying the contractor until after Gate 3 saves about US$7,000 of peak cash** ([04]). I keep the contractor from December, but only if Gate 2 passes (§13).
+
+### Exit value ([04], my estimates)
+
+- Small SaaS businesses under about US$500,000 ARR usually sell on a multiple of owner profit: about 2-3 times under US$100,000 ARR and 2.5-4.5 times above it ([Livmo][livmo], a broker). One analysis of 651 Acquire.com listings gives a median of 3.9 times profit ([BigIdeasDB][bigideas]).
+- **Base at month 36:** about US$40,000-60,000 on profit. A strategic buyer paying about 2 times revenue would pay about US$140,000.
+- **High at month 36:** about US$250,000-400,000.
+- **Likely buyers:** Devsys (Cumplo360), which lacks the SEPRELAD filings layer; Pirani; Criterion S.A.; or a mid-size Paraguayan audit firm ([Devsys][devsys]; [Pirani SEPRELAD page][piranis]; [04]).
+
+---
+
+## 11. Regional expansion
+
+The engine carries over to every market: the client and deal register, the KYC thresholds as dated data, list checks with a log, the deadline calendar, document templates and the auditor export. Each new market needs its own legal mapping, report formats, list sources and templates ([02]; [04]).
+
+| Order | Market | Size | What changes | Timing | Verdict |
+|---|---|---|---|---|---|
+| 1 | **Paraguay car dealers** (Res 196/2020) | 1,719 registered, **845 paid the 2025 canon**; 160 audit reports in 2025 ([02], from the [statistics portal][stats]) | Single-payment threshold of 15 minimum wages instead of 150; trade-in rule; a phone KYC link, because 62% are individuals and buyers refused paper forms in 2019 ([01]; [Última Hora][uh19]) | Beta April 2027, plan "Automotores" live July 2027 at Gs 990,000 a year | **Do it.** Same supervisor, same SIRO, about 2-4 weeks of agent work (my estimate) |
+| 2 | **Paraguay small subjects:** jewellers, pawn shops, remitters, virtual-asset firms, art dealers | About 190 canon payers ([02]) | A configuration pack per sector rulebook (R95 in [01req]) | 2028, only on demand | Small. Add when a customer asks |
+| 3 | **Ecuador** | At end-2025 the UAFE supervised **4,446 real-estate and construction firms, 542 car dealers and 528 jewellers**. It sent 946 non-compliance notices to real estate and fined 136 subjects US$341,670 in total in 2025 ([UAFE 2025 report][uafe]) | A prevention system and reports in the UAFE's format (Res UAFE-DG-2021-0362) ([Andersen Ecuador][andersen]). Since Sep 2025 obliged subjects must register with the UAFE within 30 working days or risk RUC suspension ([El Diario][eldiario]). 15% IVA on imported digital services; card issuers withhold it if the provider is not registered ([NMS Law][nms]) | Prepare from month 15; launch about months 20-24 (mid-2028) | **Best second market.** About twice Paraguay's real-estate base, a US-dollar economy and real fines. Local competitors not checked (unverified). Could add 1.5-2 times Paraguay's ARR within 2-3 years (my estimate in [04]) |
+| 4 | Paraguay notaries | 1,406 registered, 1,144 payers; 5,140 ROs in 2025 ([02]) | Supervised by the Supreme Court, with another rulebook ([Memoria 2024][mem]) | Not before 2028 | Open question. Check the rulebook before spending time |
+| 5 | Peru | Construction and real-estate firms are obliged subjects of the UIF-Perú; count not found ([SBS][sbs]) | New rulebook and formats | Year 3 or later, only if Ecuador works | Maybe |
+| - | Paraguay non-profits | 3,435 registered, 1,919 payers ([02]) | Other rulebook; low ability to pay | - | Skip for now |
+| - | Uruguay | About 13,677 non-financial subjects (unverified) | Already served by HADA, Devsys and Precodata ([HADA][hada]; [Devsys][devsys]) | - | **Skip.** Crowded |
+| - | Bolivia | Only large-taxpayer real-estate firms are covered ([Ferrere on Bolivia][ferrbo]) | - | - | **Skip** |
+| - | Argentina | Large; brokers obliged under UIF Res 43/2024 ([ADEBA][adeba]) | Price-sensitive; local vendors likely (unverified) | - | Later, maybe never |
+| - | Brazil | Large | Portuguese; another regulator | - | Out of scope |
+
+**Reconciled timing.** File 03 put the car-dealer pack in June-September 2027 and file 04 in months 7-9 (April-June 2027) ([03]; [04]). I use a beta in April, when dealer interviews run, and a paid launch in July, after the CI, FA and AE releases have shipped.
+
+**Honest view.** Ecuador is what turns this from a side business into a living, but it is a second build and a second sales effort run from abroad. Decide on it in September 2027 (§13), only if Paraguay is on the base path.

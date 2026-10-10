@@ -121,3 +121,17 @@ Promulgated 27 Nov 2025; general obligations apply 24 months after publication (
 
 ### Cash
 No Paraguayan cash cap for vehicle sales found (search 2026-10-10). Old USD 10,000 cash threshold of Res 85/15 removed by Res 196.
+
+### SEPRELAD posts via WordPress REST (read 2026-10-10)
+- [p=1044, 23 Aug 2024 "Comunicado para el Sector Automotores"](https://www.seprelad.gov.py/?p=1044): controls on Res 196/2020 and **Res 216/2021, which authorises SIRO for the vehicle-sector RO**; check declared e-mail addresses.
+- [p=4381, 16 Sep 2026](https://www.seprelad.gov.py/?p=4381): training with Criterion S.A. (BCP-licensed credit bureau) on Res 196: DDC, ROS, Formulario Anual and "Reporte Trimestral" (quarterly RO).
+- [p=3853, 7 Apr 2026](https://www.seprelad.gov.py/?p=3853): ~100 vehicle-sector OCs trained on filling the Formulario Anual in SIRO; [p=3802](https://www.seprelad.gov.py/?p=3802) invitation.
+- [p=3566, 9 Dec 2025](https://www.seprelad.gov.py/?p=3566): feedback sessions 1-3 Dec 2025 on in-situ and extra-situ inspection results (2025 supervision plan) for vehicles, real estate, NPOs.
+- [p=3836, 31 Mar 2026](https://www.seprelad.gov.py/?p=3836): Res 158 of 31 Mar 2026 extended the "Informe Anual de Evaluación de Procedimientos de Control Interno/Auditoría Interna" deadline from 31 Mar 2026 to 8 Apr 2026 (via ROS_WEB/SIRO).
+- [p=3639, 9 Jan 2026](https://www.seprelad.gov.py/?p=3639): SIRO now notifies SOs of every change to the UNSC Consolidated List; SOs should check SIRO notifications periodically.
+- [p=3850, 6 Apr 2026](https://www.seprelad.gov.py/?p=3850): Res 111/2026 (cash-in-transit sector) - pattern of new sector rules: ROS within 24 h incl. sanctions-list matches + immediate freeze; RN days 1-10 of Jan/Apr/Jul/Oct; RO days 1-20; info requests 4 business days; returned ROS 15 business days else "no presentado".
+- [SEPRELAD Informe 2022](https://www.seprelad.gov.py/userfiles/files/biblioteca/informe2022.pdf): SIRO RO for vehicles from H2 2021 covering ops since Jul 2020; 355 importers reported in 2022; 108,727 operations (-35.5% vs 2021).
+- Ley 6446/2019 BO definition (quoted on [SEPRELAD FAQ](https://www.seprelad.gov.py/?page_id=1810)): >=10% shares; >25% votes; managers/administrators or users of assets; right to appoint/remove management; control via statutes.
+- ENR update with BID assistance in progress ([SEPRELAD ENR page](https://www.seprelad.gov.py/?page_id=2027)).
+- Res 36/2021 random inspections asked for: manual, OC designation, training records "y otros" ([Ferrere, 7 Oct 2021](https://ferrere.com/es/novedades/inspecciones-aleatorias-de-seprelad-bajo-resolucion-36-21/)).
+- Res 328/2026 "modifica el artículo 14 del anexo" of Res 196/20 and 201/20 - listed on leyes.com.py index (search snippet only, page 403); content (unverified).

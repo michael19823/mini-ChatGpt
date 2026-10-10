@@ -1,8 +1,8 @@
 # Argentina B1: UIF compliance tool for real estate brokers: product and technical design
 
-Part 3 of the Argentina B1 deep dive: product, technical design and development plan. Written 10 Oct 2026. Builds on the [B1 report](../reports/argentina-b1.md), [01 Law and requirements](01-law-and-requirements.md) and [02 Market and competition](02-market-and-competition.md). "Duty #n" refers to the numbered duty table in 01. "My estimate" marks numbers I derived. "(unverified)" marks facts I could not confirm. Exchange rate: ARS 1,517 per USD, the BCRA official rate on 9 Oct 2026 ([BCRA API](https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones/USD?fechadesde=2026-10-05&fechahasta=2026-10-10)).
+Part 3 of the Argentina B1 deep dive: product, technical design and development plan. Written 10 Oct 2026. Builds on the [B1 report](../reports/argentina-b1.md), [01 Law and requirements](01-law-and-requirements.md) and [02 Market and competition](02-market-and-competition.md). "Duty #n" refers to the numbered duty table in 01, and "R#" to the 80 testable requirements in its "PRODUCT REQUIREMENTS" section. "My estimate" marks numbers I derived. "(unverified)" marks facts I could not confirm. Exchange rate: ARS 1,517 per USD, the BCRA official rate on 9 Oct 2026 ([BCRA API](https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones/USD?fechadesde=2026-10-05&fechahasta=2026-10-10)).
 
-Status: first full draft. Sections below "Data sources" are being filled in.
+Status: complete draft as of 10 Oct 2026 (open questions at the end).
 
 ## Summary
 
@@ -62,26 +62,26 @@ Every feature traces to a duty in the 01 table. The MVP covers what a broker nee
 
 ### Feature map (MVP / v1 / later)
 
-| Area | MVP (sellable in week 8) | v1 (months 2-6) | Later | Duty # in 01 |
+| Area | MVP (sellable in week 8) | v1 (months 2-6) | Later | 01 refs (duty #, requirement R#) |
 |---|---|---|---|---|
-| **Firm set-up** | Wizard: sole broker or company; colegio and licence number; UIF registration data; officer titular and alternate; branches; services (sales, leases); channels. Produces the firm profile used by every template | Change log for UIF data with the 5-business-day reminder | Multi-branch groups (Art. 13) | 1, 2, 34 |
-| **Client file (legajo)** | Natural persons (fields a-i) and legal persons (fields a-m); representatives and proxies; beneficial owners at 10% or more; document uploads with "original seen by / on"; CUIT/CUIL check digit; ID number 3-8 digits | Excel/CSV import; duplicate merge; DNI PDF417 barcode scan on the phone | ARCA register look-up; RENAPER identity check via a vendor | 12, 13, 21, 35 |
-| **Client self-service link** | One-time link (e-mail or WhatsApp) to a mobile form: identity data, DNI photos, PEP sworn statement with the Res. 35/2023 text, beneficial-owner statement, source-of-funds statement, e-signature by OTP with timestamp and document hash | Liveness and RENAPER check (optional, paid per use) | Signed PDF with firma digital | 12-14, 20 |
-| **Screening** | RePET persons and entities, refreshed several times a day; fuzzy matching; hit review with reasons; dated screening certificate; re-screen of the whole client base when the list changes | OpenSanctions PEP and sanctions check; freeze-order sweep: paste a UIF freeze order and check every client within minutes | Paid local data (Nosis, Worldsys) if pilots ask | 14, 15 |
-| **Client risk** | Rule table from Art. 23 factors (client type, activity, funds, volume, nationality, residence, geography, service, channel, payment method, PEP); low, medium or high; override with reason; approval by officer for high risk and PEP; refresh clock of 5, 3 or 1 years; transactional profile | Tunable weights per firm, with the lawyer's default; batch re-rating when rules change | | 16-19, 33 |
-| **Operations** | Sales and leases; parties with roles and shares; payments by method and currency; ARS equivalent at the BCRA rate; property with cadastral or registry ID; co-broker licence; **lease tracker** that sums each client's leases against 300 SMVM; habitual-client test at 700 SMVM | Tokko Broker import of contacts and closed deals | Other CRM connectors | 12, 18, 28, 35 |
-| **Alerts and unusual operations** | Automatic flags where data allows (cash, virtual assets, third-party payer, foreign or high-risk-country party, PEP, border-zone property, quick resale of the same property); a per-operation checklist for the other listed situations; staff "odd" flag; restricted unusual-operations register with the 8 fields of Art. 32; ROS clock (24 hours from conclusion, 90 days from the operation) | ROS draft builder in the SRO+ field order (persons, facts, four free-text boxes); RFT and proliferation drafts | | 24-27 |
-| **RSM (monthly report)** | One XML file per operation, built from the broker XSD exported from SROMasivo, validated with the XSD and the UIF's extra rules; ZIP to drop into SROMasivo's import folder; copy sheet for typing into the SRO+ web form; control-number capture; "nothing to report this month" record | Rectification files (original control number block); annulment guide | | 28 |
-| **RSA (annual report)** | Calculator for sections 3 and 4 (services, operations, volumes, cash volume, client counts and risk percentages) and a checklist for sections 1 and 2; constancia upload | Year-on-year comparison | | 29 |
-| **Manual and governance** | Manual generator (lawyer-approved Word template filled with the firm profile); version history; staff acknowledgement by e-signature; 2-year review reminder | Officer's annual work plan and report templates; board approval records; remediation plan tracker | | 3, 6, 7, 11 |
-| **Training** | Training register; certificate upload (for example free GAFILAT courses); yearly reminder per person | Our own 45-minute course with quiz and certificate, by role | Colegio-branded courses | 8 |
-| **Self-assessment (ITAER)** | Data collection only (the MVP records what the 2028 report needs) | Wizard: inherent risk by factor from real data, control effectiveness, residual risk, risk tolerance statement, methodology document, PDF; board approval | Versioned methodology for the 2030 review | 4, 5 |
-| **REI and audit** | — | Reviewer workspace with redacted ROS identities; reviewer file (15 items); findings and action plan | | 9, 10, 11 |
-| **Accountant seat** | — | Portfolio dashboard across brokers; per-broker grants; RSA preparation for many clients | | — |
-| **Deadlines and reminders** | Calendar with RSM (1st-15th), RSA (2 Jan-15 Mar), ITAER (30 Apr 2028), REI (about 28 Aug 2028), manual review, file refreshes, training, ID expiry; e-mail digest | WhatsApp reminders through the Business API | | 5, 9, 19, 28, 29 |
-| **Inspection pack** | One click: index PDF plus manual, approvals, training log, risk model, client list with ratings, screening certificates, RSM receipts; images downscaled so the ZIP stays under 20 MB; scope picker | Read-only "inspection room" link | | 31 |
-| **Records** | 10-year retention clocks from the operation or the end of the relationship; append-only audit log; full export (PDF, CSV, JSON, original files) | "Archive only" plan after cancellation | | 30 |
-| **Billing** | Card checkout through a merchant of record (Paddle) in USD; plans per seat type | Colegio invoicing | | — |
+| **Firm set-up** | Wizard: sole broker or company; colegio and licence number; UIF registration data; officer titular and alternate; branches; services (sales, leases); channels. Produces the firm profile used by every template | Change log for UIF data with the 5-business-day reminder | Multi-branch groups (Art. 13) | duties 1, 2, 34; R1, R2, R8, R10-R13, R80 |
+| **Client file (legajo)** | Natural persons (fields a-i) and legal persons (fields a-m); representatives and proxies; beneficial owners at 10% or more; document uploads with "original seen by / on"; CUIT/CUIL check digit; ID number 3-8 digits | Excel/CSV import; duplicate merge; DNI PDF417 barcode scan on the phone | ARCA register look-up; RENAPER identity check via a vendor | duties 12, 13, 21, 35; R15-R22, R25 |
+| **Client self-service link** | One-time link (e-mail or WhatsApp) to a mobile form: identity data, DNI photos, PEP sworn statement with the Res. 35/2023 text, beneficial-owner statement, source-of-funds statement, e-signature by OTP with timestamp and document hash | Liveness and RENAPER check (optional, paid per use) | Signed PDF with firma digital | duties 12-14, 20; R23, R26-R28 |
+| **Screening** | RePET persons and entities, refreshed several times a day (RePET also carries the UN 1718 and 1737 proliferation lists: 80 DPRK and 43 Iran persons, 66 and 64 entities in my 10 Oct 2026 download); fuzzy matching; hit review with reasons; dated screening certificate; re-screen of the whole client base when the list changes; a confirmed match blocks the operation and opens a 24-hour RFT task with a neutral client status (R31) | OpenSanctions PEP and sanctions check; freeze-order sweep: paste a UIF freeze order and check every client within minutes | Paid local data (Nosis, Worldsys) if pilots ask | duties 14, 15; R29-R33 |
+| **Client risk** | Rule table from Art. 23 factors (client type, activity, funds, volume, nationality, residence, geography, service, channel, payment method, PEP); low, medium or high; override with reason; approval by officer for high risk and PEP; refresh clock of 5, 3 or 1 years; transactional profile | Tunable weights per firm, with the lawyer's default; batch re-rating when rules change | duties 16-19, 33; R34-R39 |
+| **Operations** | Sales and leases; parties with roles and shares; payments by method and currency; ARS equivalent at the BCRA rate; property with cadastral or registry ID; co-broker licence; **lease tracker** that sums each client's leases against 300 SMVM; habitual-client test at 700 SMVM | Tokko Broker import of contacts and closed deals; export of the CABA operations book (R79) | Other CRM connectors | duties 12, 18, 28, 35; R3-R7, R40, R71 |
+| **Alerts and unusual operations** | The 15 indicators of Res. 43 Art. 31 that can be computed (for example cash, virtual assets, third-party payer, accounts in other names, shared addresses, border-zone property, resale within a year at 30% or more price change, sale 30% or more off the offer price, owner change just before closing, proceeds to a high-risk country), as listed in 01 R41; a closing checklist for the 16 that cannot be computed (R42); a review alert for every PEP operation (R43); staff "odd" flag; restricted unusual-operations register with the 8 fields of Art. 32; ROS clock (24 hours from conclusion, 90 days from the operation) | ROS draft builder in the SRO+ field order (persons, facts, four free-text boxes); RFT and proliferation drafts | duties 24-27; R41-R48 |
+| **RSM (monthly report)** | One XML file per operation, built from the broker XSD exported from SROMasivo, validated with the XSD and the UIF's extra rules; ZIP to drop into SROMasivo's import folder; copy sheet for typing into the SRO+ web form; control-number capture; "nothing to report this month" record | Rectification files (original control number block); annulment guide | duty 28; R49-R53 |
+| **RSA (annual report)** | Calculator for sections 3 and 4 (services, operations, volumes, cash volume, client counts and risk percentages) and a checklist for sections 1 and 2; constancia upload | Year-on-year comparison | duty 29; R54 |
+| **Manual and governance** | Manual generator (lawyer-approved Word template filled with the firm profile); version history; staff acknowledgement by e-signature; 2-year review reminder | Officer's annual work plan and report templates; board approval records; remediation plan tracker | duties 3, 6, 7, 11; R59-R61, R65 |
+| **Training** | Training register; certificate upload (for example free GAFILAT courses); yearly reminder per person | Our own 45-minute course with quiz and certificate, by role; staff screening records (R63) | Colegio-branded courses | duty 8; R62, R63 |
+| **Self-assessment (ITAER)** | Data collection only (the MVP records what the 2028 report needs) | Wizard: inherent risk by factor from real data, control effectiveness, residual risk, risk tolerance statement, methodology document, PDF; board approval | Versioned methodology for the 2030 review | duties 4, 5; R55-R58 |
+| **REI and audit** | — | Reviewer workspace with redacted ROS identities; reviewer file (15 items); findings and action plan | duties 9-11; R64, R66-R69 |
+| **Accountant seat** | — | Portfolio dashboard across brokers; per-broker grants; RSA preparation for many clients | R69 |
+| **Deadlines and reminders** | Calendar with RSM (1st-15th), RSA (2 Jan-15 Mar), ITAER (30 Apr 2028), REI (about 28 Aug 2028), manual review, file refreshes, training, ID expiry; e-mail digest | WhatsApp reminders through the Business API | duties 5, 9, 19, 28, 29; R8, R9, R11, R13, R14 |
+| **Inspection pack** | One click: index PDF plus manual, approvals, training log, risk model, client list with ratings, screening certificates, RSM receipts; images downscaled so the ZIP stays under 20 MB; scope picker | Read-only "inspection room" link | duty 31; R73, R74 |
+| **Records** | 10-year retention clocks from the operation or the end of the relationship; append-only audit log; full export (PDF, CSV, JSON, original files) | "Archive only" plan after cancellation | duty 30; R70-R72, R75-R78 |
+| **Billing** | Card checkout in USD through Stripe Billing or Paddle (choice in [04](04-gtm-company-finance.md)); plans per seat type | Colegio invoicing | | — |
 
 ### Why this cut for the MVP
 
@@ -321,7 +321,7 @@ Template 1-n GeneratedDocument 1-n Approval | Acknowledgement
 | Files | **Cloudflare R2** bucket with the EU jurisdiction restriction ([R2 data location](https://developers.cloudflare.com/r2/reference/data-location/)) | USD 0.015 per GB-month, no egress fee ([R2 pricing](https://developers.cloudflare.com/r2/pricing/)) |
 | Encryption | Envelope encryption: one data key per firm, plus a separate key for the restricted area, wrapped by a master key in the host's secret store | DNI images, statements and cases |
 | E-mail | **Resend** | Free up to 3,000 e-mails a month (100 a day); USD 20 a month for 50,000 ([Resend](https://resend.com/pricing)). No client names in e-mail bodies |
-| Payments | **Paddle** (merchant of record) | 5% + USD 0.50 per transaction, tax handled ([Paddle](https://www.paddle.com/pricing)). Annual plans keep the fixed fee small |
+| Payments | **Stripe Billing or Paddle**, behind one small `billing` interface | Paddle charges 5% + USD 0.50 per transaction and handles tax ([Paddle](https://www.paddle.com/pricing)). The company file finds Argentina needs no seller VAT registration, so plain Stripe is cheaper for Argentina alone ([04](04-gtm-company-finance.md)). Annual plans keep the fixed fee small |
 | Hosting | **Render, Frankfurt region** | Managed web, workers and Postgres with PITR in one place ([Render pricing](https://render.com/pricing); [regions](https://render.com/docs/regions)) |
 | Errors and uptime | Sentry (EU data region if available, unverified) and an uptime checker | Logs carry no personal data |
 | CI/CD | GitHub, GitHub Actions, required checks, Dependabot; auto-deploy `main` to staging; manual promote | Agents open pull requests; the founder merges |
@@ -343,7 +343,7 @@ alerts/      alert rules and checklist, staff flags; cases/ (restricted) registe
 reports/     schema store, mapping, RSM XML writer and validator, copy sheets, RSA calculator, filings
 programme/   templates, manual generator, approvals, acknowledgements, training, ITAER (v1)
 portal/      dashboard, calendar, tasks, reminders, inspection pack, accountant portfolio (v1)
-billing/     plans, Paddle checkout and webhooks, entitlements
+billing/     plans, Stripe or Paddle checkout and webhooks, entitlements
 ```
 
 ### Diagram
@@ -356,7 +356,7 @@ Accountant / reviewer ──────────┘            │      ^
                                    Procrastinate workers ──> R2 (EU): encrypted files, backups
                                     │      │       │
                RePET JSON (2-hourly) │  datos.gob.ar SMVM, BCRA FX (nightly)
-               OpenSanctions API (v1)│  LibreOffice (DOCX -> PDF)   Resend (e-mail)   Paddle (billing)
+               OpenSanctions API (v1)│  LibreOffice (DOCX -> PDF)   Resend (e-mail)   Stripe/Paddle
 
 Broker's own PC: ZIP of XML ──> SROMasivo (Windows) ──> UIF masivo.uif.gob.ar     (broker clicks "send")
 Broker's browser: copy sheet ──> SRO+ web forms (RSA, ROS, RSM by hand)          (broker types)
@@ -438,7 +438,7 @@ Broker's browser: copy sheet ──> SRO+ web forms (RSA, ROS, RSM by hand)     
 | Per customer per month | about 2.0-3.4 | about 1.2 | about 0.7-1.0 | |
 
 - Against the planned price of USD 12-19 (sole broker) and USD 29-49 (agency) ([02](02-market-and-competition.md)), infrastructure is about 3-17% of revenue (my arithmetic at an average of USD 20 a month).
-- Payment fees are larger than hosting at small tickets. Paddle's 5% + USD 0.50 is 8.3% of a USD 15 monthly payment but 5.3% of a USD 180 annual one ([Paddle](https://www.paddle.com/pricing); my arithmetic). Push annual billing.
+- Payment fees are larger than hosting at small tickets. Paddle's 5% + USD 0.50 is 8.3% of a USD 15 monthly payment but 5.3% of a USD 180 annual one ([Paddle](https://www.paddle.com/pricing); my arithmetic). Stripe is cheaper per charge ([04](04-gtm-company-finance.md)). Either way, push annual billing.
 - Optional per-use costs are passed through: a RENAPER check via Didit at USD 0.20 ([Didit](https://didit.me/es/blog/argentina-renaper-dni-verification-api/)).
 - At 50 customers the Hobby workspace (USD 0) would also work, but its PITR window is 3 days instead of 7 ([Render](https://render.com/pricing)). Use Pro from launch.
 
@@ -460,15 +460,15 @@ Broker's browser: copy sheet ──> SRO+ web forms (RSA, ROS, RSM by hand)     
 
 ### Agent work streams for the MVP
 
-| Stream | App(s) | Duties (01 #) | Main outputs | Depends on |
+| Stream | App(s) | 01 refs (duty #, R#) | Main outputs | Depends on |
 |---|---|---|---|---|
-| **F. Foundation** (week 1; founder + 2 agents) | core, portal shell | 1, 2, 27, 30 | Tenancy with RLS; users, roles, grants; MFA; restricted-area guard and tests; audit hash chain; envelope encryption; file store with hashes and virus scan; parameter table with the SMVM and BCRA importers; task and deadline engine with Argentine business days and holidays; Spanish UI shell; CI/CD; staging | — |
-| **S1. Client file** | clients | 12-14, 20-23, 35 | Person, entity, relationship models; Art. 19-20 field sets; CUIT/DNI validators; documents with "original seen"; client link with OTP e-signature and evidence; PEP, beneficial-owner and funds statements (lawyer text as templates) | F |
-| **S2. Screening** | screening | 15 | RePET ingestion with ETag polling and list versions; normaliser and matcher; hit review screen; certificate PDF; re-screen on list change; stale-list alarm | F; S1 models frozen on day 2 of week 2 |
-| **S3. Risk** | risk | 16-19, 33 | Rule table loader; scoring with reasons; override and approval; profile; refresh clocks; country and border-zone tables | F; S1 |
-| **S4. Operations and alerts** | operations, alerts, cases | 18, 24-26, 28, 35 | Property, operation, parties, payments; FX conversion; lease tracker and habitual-client test; alert rules and checklist; staff flag; restricted case register with the 8 Art. 32 fields; ROS clock | F; S1 |
-| **S5. Reports** | reports | 28, 29, 31 | Schema store; mapping file; RSM XML writer; XSD and annotation validator; ZIP; copy sheets for RSM and RSA; control-number capture; RSA calculator; inspection pack with size control | F; reads S1 and S4 through query interfaces |
-| **S6. Programme and shell** | programme, portal, billing | 3, 6, 8 | Set-up wizard; manual generator (docxtpl, LibreOffice); approvals and acknowledgements; training register; dashboard; calendar; e-mail reminders; Paddle checkout and webhooks | F |
+| **F. Foundation** (week 1; founder + 2 agents) | core, portal shell | duties 1, 2, 27, 30; R1, R2, R8, R9, R70, R75-R77 | Tenancy with RLS; users, roles, grants; MFA; restricted-area guard and tests; audit hash chain; envelope encryption; file store with hashes and virus scan; parameter table with the SMVM and BCRA importers; task and deadline engine with Argentine business days and holidays; Spanish UI shell; CI/CD; staging | — |
+| **S1. Client file** | clients | duties 12-14, 20-23, 35; R15-R28 | Person, entity, relationship models; Art. 19-20 field sets; CUIT/DNI validators; documents with "original seen"; client link with OTP e-signature and evidence; PEP, beneficial-owner and funds statements (lawyer text as templates) | F |
+| **S2. Screening** | screening | duty 15; R29-R33 | RePET ingestion with ETag polling and list versions; normaliser and matcher; hit review screen; certificate PDF; re-screen on list change; stale-list alarm | F; S1 models frozen on day 2 of week 2 |
+| **S3. Risk** | risk | duties 16-19, 33; R34-R39 | Rule table loader; scoring with reasons; override and approval; profile; refresh clocks; country and border-zone tables | F; S1 |
+| **S4. Operations and alerts** | operations, alerts, cases | duties 18, 24-26, 28, 35; R3-R7, R40-R48 | Property, operation, parties, payments; FX conversion; lease tracker and habitual-client test; alert rules and checklist; staff flag; restricted case register with the 8 Art. 32 fields; ROS clock | F; S1 |
+| **S5. Reports** | reports | duties 28, 29, 31; R49-R54, R71-R74 | Schema store; mapping file; RSM XML writer; XSD and annotation validator; ZIP; copy sheets for RSM and RSA; control-number capture; RSA calculator; inspection pack with size control | F; reads S1 and S4 through query interfaces |
+| **S6. Programme and shell** | programme, portal, billing | duties 3, 6, 8; R10-R14, R59-R62 | Set-up wizard; manual generator (docxtpl, LibreOffice); approvals and acknowledgements; training register; dashboard; calendar; e-mail reminders; Stripe or Paddle checkout and webhooks | F |
 | **Helpers** | tests, docs | all | Synthetic agency, review reports, Spanish help | F |
 
 ### Calendar (start Monday 12 Oct 2026)
@@ -477,7 +477,7 @@ Argentine holidays inside the plan: Mon 12 Oct, Mon 23 Nov (moved from 20 Nov), 
 
 | Week | Dates | Engineering (agents + founder) | Content, legal and pilots | Exit check |
 |---|---|---|---|---|
-| 0. Discovery and set-up | 12-16 Oct | Repo, CLAUDE.md, backlog from the 01 duty table, Render/R2/Resend/Paddle accounts, CI | 8-10 video calls: sole brokers and small agencies in Córdoba, Santa Fe and Mendoza, 2 in Buenos Aires city, 2 accountants who act as REI. **Ask one broker to export the RSM schemas from SROMasivo** and share an anonymised SRO+ screenshot set (RSM and RSA). Engage the lawyer and an AML expert. Request an AMLify demo (price and features) | Broker XSDs in hand, or a named broker who will export them in week 1 |
+| 0. Discovery and set-up | 12-16 Oct | Repo, CLAUDE.md, backlog from the 01 duty table, Render, R2, Resend and Stripe or Paddle accounts, CI | 8-10 video calls: sole brokers and small agencies in Córdoba, Santa Fe and Mendoza, 2 in Buenos Aires city, 2 accountants who act as REI. **Ask one broker to export the RSM schemas from SROMasivo** and share an anonymised SRO+ screenshot set (RSM and RSA). Engage the lawyer and an AML expert. Request an AMLify demo (price and features) | Broker XSDs in hand, or a named broker who will export them in week 1 |
 | 1. Foundation | 19-23 Oct | Stream F | Lawyer starts: manual template, PEP/BO/funds statements, client form wording, terms, processor agreement, privacy policy. AML expert starts: risk factor table, alert checklist | Interfaces frozen; staging live; synthetic agency loads |
 | 2-3. Parallel modules | 26 Oct-6 Nov | Streams S1-S6 in parallel; daily merges | Recruit 5-8 pilot brokers and 1-2 accountants; use the 8 Nov start of the property-registry regime (Res. UIF 93/2026) as the hook ([02](02-market-and-competition.md)) | All MVP acceptance tests written; most passing |
 | 4. Integration | 9-13 Nov | End-to-end tests over 12 synthetic months; XML dry-run: a pilot imports our files into SROMasivo with "Importar y Validar" without sending; reviewer-agent security pass; backup and restore drill | Pilot agreements: free until 31 Mar 2027 in exchange for feedback and a reference | **MVP done** (definition below) |
@@ -492,7 +492,8 @@ Argentine holidays inside the plan: Mon 12 Oct, Mon 23 Nov (moved from 20 Nov), 
 ### Definition of done for the MVP (end of week 4)
 
 1. Every MVP feature has passing acceptance tests, including:
-   - Lease tracker: a client with two 2026 leases totalling ARS 101 million is "in scope" at the 31 Dec 2025 reference (300 × 334,800 = ARS 100.44 million); a client at ARS 99 million is not.
+   - Lease tracker (R3): a lease of ARS 9 million a month (108 million a year) is in scope at the ARS 334,800 basis (threshold 100.44 million) and out of scope at the ARS 367,800 basis (110.34 million); the screen shows both and applies the default. Two leases of one client that together pass the threshold are flagged under the aggregation setting.
+   - Alerts (R41): the same cadastral reference sold for 100 and then 145 within 11 months raises the resale alert; an offer of 100 and a sale at 69 raises the offer-gap alert. An operation cannot close until the R42 checklist is answered.
    - RSM validator: rejects buyer shares of 60,00 + 30,00; a DNI of 9 digits; a CUIT with a wrong check digit; a legal-person party without a linked natural person; an operation with no payment; a period later than the report date.
    - ROS clock: suspicion concluded Tue 10:00 gives a due time of Wed 10:00, never later than day 90 after the operation.
    - Refresh clock: a high-risk client rated 15 Jan 2027 is due 15 Jan 2028; low risk 15 Jan 2032.
@@ -536,7 +537,7 @@ Argentine holidays inside the plan: Mon 12 Oct, Mon 23 Nov (moved from 20 Nov), 
 
 - **Year-1 cash, excluding the company and marketing:** the build (USD 7,200-20,100) plus 10 months of running costs (USD 3,000-6,200) is about **USD 10,200-26,300** (my arithmetic). The second penetration test falls in month 13.
 - **Against revenue.** The 02 base case is about USD 80,000-90,000 a year by year 3 ([02](02-market-and-competition.md)). The build is small against that; the risk is sales, not cost.
-- **Company.** The product needs no Argentine company: no MVP integration requires an Argentine tax ID. Company set-up costs (foreign entity, card payments, invoicing to Argentine brokers) belong in the company and go-to-market file.
+- **Company.** The product needs no Argentine company: no MVP integration requires an Argentine tax ID. Company set-up costs (foreign entity, card payments, invoicing to Argentine brokers) are in the company file ([04](04-gtm-company-finance.md)).
 
 ### Concierge fallback
 
@@ -568,7 +569,7 @@ If the XSDs or pilots are late, sell the programme pieces first: the manual gene
 2. How did brokers file the ITAER in April 2026: an SRO+ upload, an e-mail, or something else? (unverified)
 3. Does an OTP-based electronic signature, with stored evidence, satisfy the Res. 35/2023 PEP statement rule? The lawyer should confirm.
 4. Must a broker register its AML client database with the AAIP under Law 25.326 Art. 21? (unverified)
-5. Which of the 31 listed alert situations (Res. 43 Art. 31) can be computed from data a small broker holds, and which stay as a checklist? The AML expert should map them.
+5. 01 splits the 31 alert situations into 15 computable ones and 16 for a checklist (R41-R42). Do pilots actually hold the data the computable ones need, such as offer prices and reference values? The AML expert and pilots should confirm.
 6. Does "300 SMVM in one or several operations" add up separate leases of one client? (open legal question in [01](01-law-and-requirements.md))
 7. Does AMLify produce SROMasivo XML or only spreadsheets, and what does it charge? ([02](02-market-and-competition.md))
 8. Will Tokko allow a third-party app to use an agency's API key, and what does `signed_operations` contain? (unverified)
@@ -577,4 +578,71 @@ If the XSDs or pilots are late, sell the programme pieces first: the manual gene
 11. What is the real round-trip time from Argentine provinces to Frankfurt on mobile networks? Measure with pilots.
 
 ## Sources
-(pending)
+
+Sibling files: [01 Law and requirements](01-law-and-requirements.md); [02 Market and competition](02-market-and-competition.md); [04 Go-to-market, company and finance](04-gtm-company-finance.md); [B1 report](../reports/argentina-b1.md).
+
+UIF filing channels and formats
+- https://www.argentina.gob.ar/uif/rsm
+- https://www.argentina.gob.ar/sites/default/files/manual_usuario_srom_v2.pdf
+- https://www.argentina.gob.ar/sites/default/files/sromasivoinstallerv7-2_.zip (inspected 10 Oct 2026: .NET app; config names https://masivo.uif.gob.ar/rsmservice.asmx; schema download and export functions)
+- https://www.argentina.gob.ar/sites/default/files/reporte_de_registracion_y_cumplimiento_v.1.2.zip
+- https://www.argentina.gob.ar/sites/default/files/intructivo_rectificacionesmasivas_rsms.zip
+- https://www.argentina.gob.ar/uif/instructivos/rsm-compra-yo-venta-de-bienes-inmuebles
+- https://www.argentina.gob.ar/uif/instructivos/rsm-operaciones-de-locacion-de-inmuebles-cuyo-monto-anual-sea-igual-o-superior-300
+- https://www.argentina.gob.ar/uif/reporte-sistematico-anual-rsa
+- https://www.argentina.gob.ar/uif/instructivos/rosrft
+- https://www.argentina.gob.ar/instructivos/requerimientos
+- https://www.argentina.gob.ar/normativa/nacional/397424/actualizacion
+
+Data sources and integrations
+- https://www.argentina.gob.ar/uif/busqueda-del-terrorista
+- https://repet.jus.gob.ar/xml/personas.json and https://repet.jus.gob.ar/xml/entidades.json (downloaded 10 Oct 2026)
+- https://apis.datos.gob.ar/series/api/series/?ids=57.1_SMVMM_0_M_34
+- https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones/USD?fechadesde=2026-10-05&fechahasta=2026-10-10
+- https://pypi.org/project/python-stdnum/
+- https://www.opensanctions.org/countries/ar/
+- https://www.opensanctions.org/api/
+- https://didit.me/es/blog/argentina-renaper-dni-verification-api/
+- https://www.boletinoficial.gob.ar/pdf/linkQR/YmR6UGQ0Z2UvS2srdTVReEh2ZkU0dz09
+- https://www.diariodecuyo.com.ar/argentina/aumentan-los-dni-pasaportes-y-otros-tramites-cuales-son-los-nuevos-valores-del-renaper-n6567218
+- https://www.afip.gob.ar/ws/documentacion/wsaa.asp
+- https://docs.afipsdk.com/siguientes-pasos/web-services/padron-alcance-13
+- https://yo-facturo.com/blog/escanear-el-dni-en-tu-comercio-que-datos-trae-el-codigo-pdf417/
+- https://regulaforensics.com/blog/argentine-id-card-processing/
+- https://www.tokkobroker.com/api/v1/?format=json
+- https://developers.tokkobroker.com/
+- https://faq.whatsapp.com/5913398998672934
+- https://firmar.gob.ar/
+
+Privacy, signatures and law
+- https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/actualizacion
+- https://www.argentina.gob.ar/normativa/nacional/267922/texto
+- https://www.boletinoficial.gob.ar/detalleAviso/primera/202373/20190226
+- https://iapp.org/news/a/el-reino-unido-se-incorpora-a-la-lista-argentina-de-paises-adecuados-para-la-transferencia-internacional-de-datos-personales
+- https://www.argentina.gob.ar/normativa/nacional/resolución-47-2018-312662/texto
+- https://www.marval.com/Publicacion/nueva-resolucion-sobre-medidas-de-seguridad-y-datos-personales-13216
+- https://abogados.com.ar/nuevo-proyecto-de-ley-de-proteccion-de-datos-personales/39762
+- https://www.diariojudicial.com/news-103126-proteccion-de-datos-personales-sigue-siendo-suficiente-la-ley-25326-en-2026
+- https://www.argentina.gob.ar/normativa/nacional/ley-25506-70749/actualizacion
+
+Stack, hosting and costs
+- https://pypi.org/project/Django/
+- https://pypi.org/project/django-htmx/
+- https://pypi.org/project/procrastinate/
+- https://pypi.org/project/lxml/
+- https://pypi.org/project/docxtpl/
+- https://pypi.org/project/weasyprint/
+- https://pypi.org/project/RapidFuzz/
+- https://pypi.org/project/django-allauth/
+- https://render.com/pricing
+- https://render.com/docs/regions
+- https://developers.cloudflare.com/r2/pricing/
+- https://developers.cloudflare.com/r2/reference/data-location/
+- https://resend.com/pricing
+- https://www.paddle.com/pricing
+- https://claude.com/pricing
+- https://www.startupdefense.io/es-us/blog/cuanto-cuesta-un-pentest
+- https://andersenlab.com/blueprint/penetration-testing-costs-2026
+- https://www.palabrasdelderecho.com.ar/articulo/6534/Se-actualizo-el-valor-de-la-UMA
+- https://contadoresenred.com/calendario-de-feriados-2026/
+- https://eleconomista.com.ar/actualidad/se-viene-nuevo-feriado-argentina-cuando-cae-cuantos-fines-semana-largos-quedan-2026-n97521

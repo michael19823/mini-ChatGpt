@@ -28,6 +28,12 @@ Status: work in progress. Sections are filled in as research proceeds.
 | Vehicle firms on the old register | 1,642 | [GAFILAT MER 2022](https://www.pj.gov.py/descargar/ID1-148_informe_de_evaluacion_mutua_de_paraguay_2022.pdf), Table 55 | 2021 | high |
 | Used-car lots counted by SEPRELAD | 1,142 (fewer than half filed reports) | [Última Hora, 2 Nov 2019](https://www.ultimahora.com/seprelad-el-50-playa-autos-eluden-el-control-antilavado-n2852685.html) | 2019 | medium |
 | Vehicle firms warned for missed duties | 454 (2024 sanctions table shows 456 warning notes) | [Memoria 2024](https://www.seprelad.gov.py/wp-content/uploads/2025/06/2024.pdf); SIRO statistics, topic "Sanciones" | 2024 | high |
+| Vehicle firms on the SEPRELAD register (old count) | 1,610: Asunción 35%, Central 27%, Alto Paraná 20%, Caaguazú 6%, Itapúa 5%; 64% individuals | [SEPRELAD sector risk study (ESR) for vehicles, 2021](https://www.seprelad.gov.py/documentos/gu-a-de-riesgos-de-la-ft-del-sector-automotor.pdf), Cuadros 11-12 | 31 Dec 2020 | high |
+| **All taxpayers trading vehicles (wider universe, incl. firms not on the AML register)** | **4,695**: 2,163 with vehicle trade as main activity (1,102 used-car retail, 905 used-car wholesale, 100 new retail, 56 new wholesale) and 2,532 as a secondary activity | same ESR, Cuadro 3, from tax-office (SET) data | 2017-2019 | high for the date; the current figure is (unverified) |
+| Large importers | "no more than 30" large importers; 17 imported over USD 10m and 5 over USD 24m in 2020 | same ESR, Cuadros 4-5 | 2020 | high |
+| Supervisor's risk rating of vehicle firms | 29% high, 47% medium, 24% low risk | same ESR, p. 17-18 | Dec 2021 | high |
+| New light vehicles imported (0 km) | 38,611 units | [InfoNegocios, citing CADAM](https://infonegocios.com.py/default/mercado-automotor-acelera-proyectan-hasta-10-mas-importaciones-y-tercer-ano-de-recuperacion) (search snippet) | 2025 | medium |
+| Operation reports from vehicle firms | 156,019 operations: 82,591 sales, 51,698 imports, 21,730 purchases (about 344 per reporting firm) | [Memoria 2025](https://www.seprelad.gov.py/wp-content/uploads/2026/02/Memoria-Anual-de-Gestion-Ano-2025.pdf) | 2025 | high |
 
 **Reading the numbers.**
 - About **1,700** vehicle firms are on the register. About **845** pay the yearly fee. About **450-620** file their routine reports. About **160-330** also do the annual form or the external audit. Only about **20** ever file a suspicious-operation report.

@@ -4,11 +4,50 @@ Date: 10 Oct 2026. Money is in EUR. "HT" means before French VAT (TVA, 20%); "TT
 
 Builds on: [B1 report](../reports/france-b1.md), [01 law](01-law-and-requirements.md), [02 market](02-market-and-competition.md), [03 product](03-product-and-tech.md). Dates for the build come from 03: MVP demo Fri 6 Nov 2026, paid launch Mon 7 Dec 2026.
 
-Status: complete (10 Oct 2026). Research used 21 web searches and 15 web fetches.
+Status: complete (10 Oct 2026). Research used 22 web searches and 15 web fetches (two fetches were refused by the sites).
 
 ## Summary
 
-(written last; see end of this pass)
+- **Price per active unit, below the tools buyers already pay for.** Conciergeries pay a PMS 3-10 EUR per unit per month and the Firby add-on 3-5 EUR ([comparatifchannelmanager](https://comparatifchannelmanager.fr/?p=2312); [Firby](https://firby.fr/)). Plan: **2.50 EUR HT per unit per month**, falling to 1.50 EUR above 150 units, with a 25 EUR monthly minimum. A 30-unit firm pays 75 EUR HT a month. Add-ons:
+  - a re-registration campaign at 15 EUR per unit, under Hostcare's 39 EUR TTC filing price ([Jotform](https://form.jotform.com/260773313676361));
+  - a 149 EUR onboarding fee.
+  A 59 EUR TTC yearly plan serves private hosts.
+- **Sell on the deadlines.** The API Meublés file is due one month after each quarter: 31 Jan, 30 Apr, 31 Jul and 31 Oct ([décret 2026-196](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053703536)). The national teleservice (still "Q4 2026") will start a one-off re-registration wave.
+  - Best selling windows: mid-October to mid-December, mid-January to mid-March, and April-May.
+  - July-August is for customer success only.
+- **Channels, in order:**
+  1. trigger-based outbound from public data (Sirene plus the 410 API Meublés communes);
+  2. free tools and a webinar before each deadline;
+  3. the SNCL union's buying group;
+  4. PMS integrations and white-label;
+  5. HostLegal and insurers;
+  6. SCALE France (25-26 Nov 2026).
+  B2B cold e-mail is allowed on legitimate interest with a simple opt-out ([CNIL](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel)). Year-1 marketing is **about 14,000 EUR** plus partner commissions.
+- **Payments: Stripe from the founder's EU company works.** French CB cards are 95% co-badged Visa/Mastercard and accepted by any EU Stripe account ([Stripe](https://docs.stripe.com/payments/cartes-bancaires.md?platform=web)). Fees are about 2.7-3.7% per charge with Billing and Tax, or 1.2-2.6% by SEPA debit ([Stripe pricing](https://stripe.com/fr/pricing)). Paddle (5% + 50¢) costs 2-4 points more and is only worth it for a non-EU seller ([Paddle](https://www.paddle.com/pricing)).
+- **Tax friction is small if handled right.**
+  - VAT-registered buyers reverse-charge.
+  - Sole traders under the VAT "franchise" would need an intra-EU VAT number and would pay the reverse-charged VAT with no deduction ([Bpifrance Création](https://bpifrance-creation.fr/encyclopedie/fiscalite-lentreprise/tva/tva-prestations-services-lunion-europeenne)). So charge them 20% French VAT through OSS and do not ask for a number.
+  - No French VAT registration is needed for an EU seller.
+  - The 25% art. 182 B withholding is normally removed by tax treaties; keep a residence certificate ready ([Advizexperts](https://advizexperts.fr/code-general-impots/article-182-b-cgi-retenue-source-non-residents/)).
+  - Foreign sellers are outside France's e-invoicing duty ([Tiime](https://blog.tiime.fr/facture-electronique-etranger)).
+- **No French company is needed to start.** If one becomes needed, a SASU costs about 230-500 EUR in official fees online (registration is online only), or 1,000-2,500 EUR through a lawyer or accountant. Capital can be 1 EUR. Running it costs about 1,500-3,500 EUR a year ([LegalPlace](https://www.legalplace.fr/guides/cout-creation-sasu/); [Socic](https://www.socic.fr/ressources-comptabilite/articles/cout-dune-sasu-par-an-en-2026-frais-fixes-greffe-comptable-assurance-banque-cfe-et-budget-reel-a-prevoir)). It would pay 25% corporate tax if owned by the founder's company.
+- **Base case** (built with AI agents, founder unpaid):
+  - 160 paying conciergeries and **about 132,000 EUR ARR** at month 36;
+  - profitable each quarter from April-June 2027;
+  - **peak cash need about 15,600 EUR**;
+  - year-3 profit before founder pay about 61,000 EUR (about 25,000 EUR after a 3,000 EUR monthly founder pay).
+  **Low case:** 61 customers, 38,000 EUR ARR, about 29,000 EUR peak cash, never really profitable. **High case:** 302 customers, 320,000 EUR ARR.
+- **Main risk: PMS vendors adding the feature.** Easy Concierge already lists an API Meublés module "en préparation"; Biloki has half the features ([02](02-market-and-competition.md)). The answers are:
+  - stay PMS-agnostic, with the owner workflow and proof file at the core;
+  - offer white-label to PMS vendors;
+  - keep an early sale to a PMS (Guesty bought the French PMS Smily) as the likely exit.
+  At 2.5-4x ARR, the base case is worth about 330,000-530,000 EUR at month 36 ([beancount.io](https://beancount.io/fr/blog/2026/07/11/bootstrapped-saas-valuation-multiples-2026-acquire-com-indie-founders-guide)).
+- **Kill criteria:**
+  - fewer than 3 pilots with an IDM account by 31 Oct 2026;
+  - fewer than 3 pre-commitments from 30 conversations by 10 Nov 2026;
+  - fewer than 10 paying by 31 Jan 2027;
+  - fewer than 30 paying by month 12;
+  - a top PMS ships the feature free and quarterly churn passes 10% for two quarters.
 
 ## Pricing and packaging
 
@@ -30,7 +69,7 @@ What this tells us:
 - Conciergeries already pay per unit per month. A PMS costs them 3-10 EUR per unit. An add-on (Firby) costs 3-5 EUR per unit.
 - A compliance add-on must sit below Firby and well below the PMS. 2.50 EUR per unit is about a third of Superhote's per-unit fee.
 - Done-for-you filing is priced at 39 EUR TTC (32.50 EUR HT) per unit. That is the ceiling for a re-registration add-on.
-- The fines are 100-1,000 times the yearly fee for one unit. Sell on the fines and on time saved, not on features.
+- One fine is about 400-1,700 times the yearly fee for one unit (30 EUR at 2.50 EUR a month). Sell on the fines and on time saved, not on features.
 
 ### Proposed plans (HT; TTC shown where buyers are mostly not VAT-registered)
 
@@ -191,13 +230,13 @@ KPIs to watch every month:
 
 - **Yes.** French cards are mostly Cartes Bancaires (CB). More than 95% are co-badged with Visa or Mastercard. Stripe accounts in all EU states (and the UK, US, Switzerland and others) can accept CB, including for subscriptions. A non-French account must first process one CB payment to fully enable it. CB disputes cost 0 EUR ([Stripe docs](https://docs.stripe.com/payments/cartes-bancaires.md?platform=web)).
 - Inside the EEA a card payment in EUR has no currency conversion. Sell in EUR only.
-- **SEPA Direct Debit** (prélèvement) is normal for French B2B subscriptions and is the cheapest method on Stripe (0.35 EUR) ([Stripe pricing](https://stripe.com/fr/pricing)).
+- **SEPA Direct Debit** (prélèvement) is common for French B2B subscriptions (my estimate) and is the cheapest method on Stripe (0.35 EUR) ([Stripe pricing](https://stripe.com/fr/pricing)). Offer it beside the card at checkout.
 - **Bank transfer** (virement SEPA) is normal for yearly invoices. From an EU seller with an EUR IBAN it is domestic-like for the buyer. Use it only for Réseau plans and yearly invoices above about 1,000 EUR, because it needs manual matching.
 
 ### Stripe from the founder's company
 
 Fees ([Stripe pricing](https://stripe.com/fr/pricing)):
-- standard EEA cards: 1.5% + 0.25 EUR; UK cards 2.5% + 0.25 EUR; other international cards 3.15% + 0.25 EUR; +2% if currency conversion applies;
+- standard EEA cards: 1.5% + 0.25 EUR (premium and business cards may cost more; rate not checked); UK cards 2.5% + 0.25 EUR; other international cards 3.15% + 0.25 EUR; +2% if currency conversion applies;
 - SEPA Direct Debit: 0.35 EUR;
 - Stripe Billing (subscriptions): 0.7% of billing volume;
 - Stripe Tax: 0.5% per transaction (no-code) or 0.45 EUR via the API;
@@ -457,7 +496,7 @@ Regional expansion is **not** in the financial model. It is upside only.
 | Date | Milestone (base case) | Kill or change trigger |
 |---|---|---|
 | Sat 31 Oct 2026 (day 20) | 3+ pilots' Q3 2026 files prepared with our converter; the CSV template in hand | Fewer than 3 conciergeries with an IDM account found in 3 weeks: the duty is not yet live in practice. Pause sales; re-test in January |
-| Wed 11 Nov 2026 (day 30) | 5+ written pre-commitments (founding offer or letter of intent) from 30 conversations | Fewer than 3: re-price or stop |
+| Tue 10 Nov 2026 (day 30) | 5+ written pre-commitments (founding offer or letter of intent) from 30 conversations | Fewer than 3: re-price or stop |
 | Fri 6 Nov / Mon 7 Dec 2026 | MVP demo / paid launch (03) | Launch slips past 15 Jan 2027: miss the first deadline; cut scope |
 | Sun 31 Jan 2027 | 25+ paying conciergeries; 80%+ of them filed Q4 2026 with the tool | Fewer than 10 paying: stop or sell the code |
 | Fri 30 Apr 2027 | 45+ paying; trial-to-paid 20%+ | Fewer than 20 paying: stop paid marketing; run as a side product |

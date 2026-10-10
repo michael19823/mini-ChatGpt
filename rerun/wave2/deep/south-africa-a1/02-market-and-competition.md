@@ -20,7 +20,7 @@ Language note. South African business and regulatory text is in English. The FIC
   - **Nobody sells a yearly, sector-specific product that writes a tailored RMCP and keeps the calendar, the register and the inspection file.**
 - **Templates are a trap.** NADA told motor dealers the FIC "will not accept standard templates" and that the RMCP "must be personalised for each business's operating model" ([NADA, 11 Mar 2025](https://nada.co.za/?p=5097)). The product must build the RMCP from the dealer's own answers.
 - **Willingness to pay is anchored at R3,000 to R9,000 a year.** One-off RMCP work costs R4,995 to R7,000+. Fines start at R10,000. In 2025/26 one high-value goods dealer was fined R210,000, of which R105,000 is payable, for RMCP, screening and governance failures (under appeal) ([AR 2025/26, p. 47](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026.pdf)).
-- **Year-3 revenue estimate: about R2m to R3m a year** (base case about R2.4m). This needs the motor and other-goods dealers as well as jewellers, plus consultants who resell it. That is a little below the A1 re-assessment's R3m to R4m.
+- **Year-3 revenue estimate: about R2m to R3m a year** (base case about R2.3m). This needs the motor and other-goods dealers as well as jewellers, plus consultants who resell it. That is a little below the A1 re-assessment's R3m to R4m.
 - **Regional.** The same engine could later serve other goAML countries that cover precious-metal and stone dealers: Kenya (dealers told to register by 11 April 2025, [People Daily](https://peopledaily.digital/news/state-orders-dealers-in-precious-metals-stones-to-register-with-frc-by-april)), Mauritius, Namibia and Botswana. Each needs its own legal content. None is a reason to enter before South Africa works.
 
 ## Buyer segments
@@ -36,7 +36,7 @@ Language note. South African business and regulatory text is in English. The FIC
 | Motor vehicle dealers | **4,277** | 4,072 | 2,224 (52%) | same | high |
 | Other high-value goods (art, antiques, boats, farm and other machinery, livestock and others; not split by the FIC) | **640** | 506 | 313 (49%) | same | high for the count; the mix inside is unknown |
 | **All item 20 high-value goods dealers** | **5,581** | 5,184 (4,621 at 1 Apr 2024) | 3,004 (54%) | [FIC AR 2025/26, p. 29](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026.pdf); [AR 2024/25, p. 26](https://www.fic.gov.za/wp-content/uploads/2025/09/FIC-Annual-Report-2024-2025.pdf) | high |
-| Context: estate agents / legal practitioners (other FIC-supervised small firms) | 9,695 / 21,034 | 9,162 / 19,305 | 76% / 76% (Directive 6) | [FIC AR 2025/26, pp. 29 and 38](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026.pdf) | high |
+| Context: estate agents / legal practitioners (other FIC-supervised small firms) | 9,695 / 21,034 | 9,162 / 19,305 | 76% / 76% (Directive 6, measured against 2023 registrations) | [FIC AR 2025/26, pp. 29 and 38](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026.pdf) | high |
 | All FIC-registered institutions and reporters (context) | 60,115 | 55,262 | - | same | high |
 
 Notes on the table.
@@ -94,7 +94,7 @@ Reading.
 ### Who they are
 - **Jewellers and gold dealers.** Mostly small, owner-run businesses. 57% of Jewellery Council members are in Gauteng ([LBMA](https://www.lbma.org.uk/publications/spotlight-on-the-south-african-market/chapter-5-jewellery-and-retail-investment)). Local gold jewellery fabrication is small: 1,180 kg in 2021/22, up from 683 kg in 2020/21 ([SADPMR AR 2021/22](https://www.sadpmr.co.za/wp-content/uploads/2023/05/SADPMR_AR-2022_web-1.pdf)). They already live with a permit regime: a jeweller's permit from SADPMR, and JCSA membership requires a valid permit and, where relevant, a second-hand dealer's licence ([JCSA](https://www.jewellery.org.za/membership)).
 - **Diamond and stone dealers.** They are licensed by SADPMR and file the RCR at the best rate (87%). They are used to paperwork and may be the easiest early buyers (my inference).
-- **Krugerrand and bullion dealers.** 242 registrations. They were reporting institutions before December 2022 and now carry full duties. Only 57% have filed the RCR ([AR 2025/26, p. 38](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026.pdf)).
+- **Krugerrand and bullion dealers.** 242 registrations. They were reporting institutions with lighter duties before December 2022 and now carry full duties ([Webber Wentzel](https://webberwentzel.com/News/Pages/worth-their-weight-in-gold-high-value-goods-dealers-fall-within-fica-ambit.aspx)). Only 57% have filed the RCR ([AR 2025/26, p. 38](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026.pdf)).
 - **Motor dealers.** The largest group (77% of item 20). They range from listed groups to one-site used-car lots. Only 52% filed the RCR.
 - **Other goods.** Farm equipment, machinery, livestock, art, antiques and boats. The weakest filers (49%).
 
@@ -185,7 +185,7 @@ Discussion.
 |---|---|---|---|
 | Jewellery Council of South Africa (JCSA) and its associations (retail, manufacturing, wholesale, refining, service) | about 1,000 retailers and 140 wholesalers; members must hold a jeweller's permit | Member offer or co-branded "FICA pack"; "guidance on compliance" is already a stated member benefit | [JCSA](https://www.jewellery.org.za/membership); [LBMA](https://www.lbma.org.uk/publications/spotlight-on-the-south-african-market/chapter-5-jewellery-and-retail-investment) |
 | Trade press: SAJN magazine (linked from JCSA) and The Jeweller | jewellery trade | Articles timed to 31 October and PCC 126 | [JCSA](https://www.jewellery.org.za/membership); [The Jeweller](https://thejeweller.co.za/jewellery-council-of-south-africa-jcsa-publishes-2023-annual-report/) |
-| SADPMR | all permit and licence holders; offices in Kempton Park, Kimberley, Durban and Cape Town | Ask to be listed as a resource when PCC 126 links registration to permits (unverified whether SADPMR would) | [SADPMR presentation 2022](https://www.sadpmr.co.za/wp-content/uploads/2023/05/SADPMR_AR-2022_web-1.pdf) |
+| SADPMR | all permit and licence holders; offices in Kempton Park, Kimberley, Durban and Cape Town | Ask to be listed as a resource when PCC 126 links registration to permits (unverified whether SADPMR would) | [SADPMR AR 2021/22](https://www.sadpmr.co.za/wp-content/uploads/2023/05/SADPMR_AR-2022_web-1.pdf) |
 | Refiners and bullion houses (Metcon, Rand Refinery and others) | supply jewellers and coin dealers | Referral to their small trade customers | [Metcon](https://www.metcon.co.za/wp-content/uploads/2023/09/RAC-POL-001-Responsible-Jewellery-Council-Compliance-Policy-Iss-1.1.pdf) |
 | NADA and RMI | NADA about 1,344 franchised dealers (2020); RMI more than 7,500 businesses | Member offers; NADA already passes on FICA webinars | [NADA](https://nada.co.za/?p=4380); [DealerFloor](https://dealerfloor.co.za/industry-news/franchise-dealer-numbers-decline-in-2020) |
 | Motor and equipment trade media: DealerFloor, Creamer Media (Engineering News, Mining Weekly), Crown Publications (Capital Equipment News), Farming Portal | dealers and equipment sellers | These already run FICA articles for high-value goods dealers | [DealerFloor](https://dealerfloor.co.za/industry-news/seven-key-points-to-become-fully-fica-compliant); [Crown](https://www.crown.co.za/capital-equipment-news/industry-news/30161-fica-faq-guide-for-high-value-goods-dealers); [Farming Portal](https://farmingportal.co.za/index.php/farming-news/viewpoint/12066-viewpoint-how-are-high-value-goods-dealers-hvgds-and-high-value-goods-hvgs-dealt-with-in-terms-of-the-fica-act) |
@@ -193,7 +193,7 @@ Discussion.
 | Accountants, bookkeepers and compliance consultants | serve many small dealers each | A consultant plan to manage several dealers; AML GO-style RMCP reviewers as partners | (unverified reach) |
 | Training providers (MBSE via Skillfully, VerifyNow) | compliance officers and staff | Bundle training, or partner | [Skillfully](https://skillfully.co.za/Views/CourseDetails/CourseDetails?Id=78) |
 | Screening vendors (VerifyNow, AML GO) | their dealer customers | Integration partner; cross-referral | [VerifyNow](https://www.verifynow.co.za/pricing); [AML GO](https://amlgo.co.za/) |
-| FIC webinars and outreach | FIC itself sends sanctioned firms to its goAML webinars (one remedial directive named a webinar on 3 March 2026) | Not a sales channel; shows that firms need step-by-step help | [FIC AR 2025/26, p. 46](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026.pdf) |
+| FIC webinars and outreach | FIC itself sends sanctioned firms to its goAML webinars (one remedial directive named a webinar on 3 March 2026) | Not a sales channel; shows that firms need step-by-step help | [FIC AR 2025/26, p. 47](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026.pdf) |
 
 Buying moments: 31 October each year (RMCP, Directive 12), the RCR window (closed 31 July in 2026, [Engineering News](https://engineeringnews.co.za/article/have-you-started-your-directive-11-rcr-submission-yet-2026-07-16)), Directive 10 (about 29 October 2026), final PCC 126, and any FIC notice or inspection letter.
 
@@ -234,7 +234,7 @@ Reading.
    - Jewellery niche: 664 x 20% = about 130 firms x R6,000 = about R0.8m.
    - Motor and other goods: 4,917 x 4% = about 200 firms x R4,500 = about R0.9m.
    - Consultants: 25 x R24,000 = R0.6m.
-   - **Total about R2.3m to R2.4m a year (range R1.5m to R3.5m).** That is about US$130k at roughly R17.5 to the dollar (rate unverified).
+   - **Total about R2.3m a year (range R1.5m to R3.5m).** That is about US$130k at roughly R17.5 to the dollar (rate unverified).
    - The jewellery niche alone (under R1m) does not carry the business.
 6. **Adjacent upsell later.** The same engine fits estate agents (9,695 registrations) and attorneys (21,034), who are under the same FIC regime ([FIC AR 2025/26, p. 29](https://www.fic.gov.za/wp-content/uploads/2026/09/FIC-Annual-Report-2025-2026.pdf)). That is a much bigger pool, but far more crowded (nCino KYC through the Law Society, estate-agent software). It is out of scope here.
 
@@ -269,6 +269,7 @@ Law and guidance (secondary)
 - https://acts.co.za/news/blog/2026/08/fic-directive-10-geographic-location-reporting
 - https://engineeringnews.co.za/article/have-you-started-your-directive-11-rcr-submission-yet-2026-07-16
 - https://www.golegal.co.za/?p=74912
+- https://webberwentzel.com/News/Pages/worth-their-weight-in-gold-high-value-goods-dealers-fall-within-fica-ambit.aspx
 - https://www.fanews.co.za/article/compliance-regulatory/2/general/1082/fica-reality-check-2026-brings-reckoning-for-sa-s-high-value-goods-dealers/43138
 - https://farmingportal.co.za/index.php/farming-news/viewpoint/12066-viewpoint-how-are-high-value-goods-dealers-hvgds-and-high-value-goods-hvgs-dealt-with-in-terms-of-the-fica-act
 - https://blog.kycafrica.ncino.com/what-agricultural-businesses-need-to-know-about-fica-compliance

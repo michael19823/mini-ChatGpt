@@ -177,3 +177,216 @@ All counts below come from my files' analysis of the IMSS public lists and INEGI
 - File generation is a solved, cheap commodity. We must include it but cannot charge for it.
 - **Nobody does the work around it for the contractor side:** reconciling salaries and amounts with SUA/EMA, checking ICSOE against SISUB, a deadline board across 20-50 client RFCs, an acknowledgement archive, and the monthly client evidence pack. That is the opening. It is a "better and faster" opening, not a "nothing exists" opening.
 - Per the owner's criteria, SIFO is a **partial and cheap** incumbent: an opening for quality, but it caps the price. CONTPAQi is partial; it is a partner more than a rival.
+
+---
+
+## 5. Product
+
+### Positioning
+
+> "ICSOE y SISUB a tiempo y sin rechazos, y el expediente REPSE que tu cliente pide cada mes."
+> File on time, first time, and pass your clients' supplier portals.
+
+- **A REPSE workbench, not a file generator.** It keeps the contract register, imports payroll data, assigns workers to contracts, reconciles, checks, and produces the ICSOE and SISUB files plus a capture sheet. It runs a deadline board across all client RFCs and keeps the acknowledgements. From v1 it builds the monthly client evidence pack.
+- **Main buyer: accounting firms and payroll bureaus.** Also usable by an in-house payroll lead at a mid-size contractor.
+- **It prepares and checks; the user files and signs.** It never asks for, stores or sends the e.firma. IMSS rules make its safekeeping the holder's exclusive responsibility (Lineamientos 4.2, [Lineamientos](https://www.imss.gob.mx/sites/all/statics/icsoe/ACUERDO_68PDIR_LINEAMIENTOS_ICSOE.pdf)).
+- **What the portals leave undone, and the product does:** contract register; worker-to-contract mapping; salary and amount reconciliation; ICSOE-SISUB parity; SISUB format cleaning; business-day deadlines across clients; acknowledgement archive; client evidence pack (01, 03).
+
+### Users
+
+| Role | Who | Main jobs | Rights |
+|---|---|---|---|
+| Firm owner | Partner of an accounting firm or payroll bureau | See all client RFCs and deadlines; assign staff; pay | Everything; billing |
+| Firm staff | Payroll or social-security assistant, often the IMSS "capturista" for several contractors ([IMSS guide 9](https://www.imss.gob.mx/sites/all/statics/icsoe/guias/9-Guia-Alta-de-usuarios.pdf)) | Import payroll; keep contracts; fix check errors; capture in ICSOE; upload SISUB; store acknowledgements | Assigned RFCs only |
+| Contractor signer | Owner or legal representative; holds the e.firma | Review a one-page summary; sign in the IMSS portal; receive acknowledgements and the evidence pack | Read-only on own RFC (signer portal in v1) |
+| In-house payroll lead | Direct buyer at a mid-size contractor | As firm staff, for one or a few RFCs | Own RFCs |
+| Client contact | Supplier-compliance team at the contractor's client | Receive the evidence pack | No account in MVP; expiring share link in v1 |
+| Founder / support | Us | Publish layout and rule updates; support | No access to worker data by default; break-glass with audit log |
+
+### Feature map
+
+| Area | MVP (sellable 7 Dec 2026) | v1 (Feb-Apr 2027, before the May window) | Later |
+|---|---|---|---|
+| Workspace | Firm workspace with many contractor RFCs; roles; two-factor login; staff per RFC | Contractor signer portal | Client-firm view |
+| Contractor profile | RFC, person type, employer numbers (NRP, main flag), REPSE number, services with folio and text, dates, capturista CURPs | Read the REPSE "aviso de registro" PDF; renewal tracker (3-year term, 3-month window) | SAT, IMSS, INFONAVIT compliance-opinion tracker |
+| Clients and contracts | Client register with RFC checks and postal-code address lookup. Contract register: client, stable SISUB number, object, REPSE service, dates, amount, estimated workers, sites, PDF; "started" vs "active" per period. **AI capture of purchase orders and contracts**, every field confirmed by a person | Excel bulk import; amendments | Read client PO feeds |
+| Workers and salaries | Import payroll CFDI XML (zip), CONTPAQi ICSOE/SISUB exports, generic Excel; identity by NSS + CURP; salary history | Aspel NOI export; IMSS EMA/EBA Excel for SBC as IMSS sees it ([Runa](https://runahr.com/mx/recursos/nomina/descarga-de-emisiones-imss-y-confronta/)) | Payroll APIs |
+| Assignment | From the CFDI "SubContratacion" node (client RFC and share of time), by department or site, or bulk; date ranges | Suggestions from earlier periods | |
+| Checks | 25 rules: ICSOE I1-I12, SISUB S1-S7, cross-checks X1-X6. Errors block export; warnings do not | S8 SISUB amounts vs SUA/SIPARE; SBC vs EMA; hire and leave dates vs assignments | Learn from users' error files |
+| Outputs | ICSOE worker CSV per contract (split at 3,000 rows); ICSOE capture sheet in screen order with copy buttons; three SISUB CSVs + ZIP; nil-return guide; signer summary; file hashes | Read the SISUB error file ("Logmensaje") back onto rows | Browser assistant that fills ICSOE forms while the user watches |
+| Deadlines | Board of RFCs by period with statuses; business-day deadlines on Central Mexico time; e-mail reminders | Evidence-pack deadlines | WhatsApp reminders |
+| Archive | Acknowledgement vault: read folio and date; tie to exact files; 5-year retention; export | IMSS public-list monitor: flag missing or mismatched filings ([IMSS list](https://www.imss.gob.mx/icsoe/listado-publico)) | |
+| Evidence pack | — | Per client and month: payroll CFDI for that client's workers, IMSS/INFONAVIT payment proof, ISR and VAT acknowledgements, opinions, ICSOE/SISUB acknowledgements; index PDF + ZIP; share link | Push to client platforms if they open an API |
+| Corrections | Record complementary returns by hand | Correction workflow with the 4-return counter; IMSS request tracker (10 business days) | |
+| Billing | Paddle checkout in MXN; plans by RFC count | Reseller accounts | |
+
+**Reconciling 03 and 04 on scope.** 04's plans promise the evidence pack and the SUA/SIPARE checks. 03 builds both in v1, after the January window. So:
+- In December and January, sell the **firm plans and the one-period pass**, with the evidence pack and SUA reconciliation stated as "included from April 2027, before the May window".
+- The founding discount (section 8) pays for that gap.
+- If pilots can supply IMSS EMA Excel files, pull a simple "ICSOE SBC vs EMA" check into the MVP. Salary differences are the biggest delay in practice ([Praxium](https://praxiumconsultores.com/blog/icsoe-y-sisub-cuanto-cuesta-cumplir-cada-cuatrimestre)).
+
+The full acceptance checklist is the **78 legal requirements** in [01 §PRODUCT REQUIREMENTS](01-law-and-requirements.md#product-requirements) and the rule catalogue in [03](03-product-and-tech.md#rule-catalogue-for-the-mvp-the-products-core-ip).
+
+### Key flows
+
+1. **First setup of a firm** (target: under 45 minutes for 10 client RFCs). Sign up and set two-factor login. Add client RFCs from an Excel template. Add each RFC's REPSE services. Assign staff. Optionally import last period's accepted files and acknowledgements so contracts and workers carry over.
+2. **Keep contracts current** (all year). Staff drop client POs or contracts (PDF) into an RFC's inbox. The app proposes client RFC, PO number, object, dates, amount and site, each shown next to its source text. Staff confirm and pick the REPSE service. The contract keeps one SISUB number for life.
+3. **Prepare a period** (target: under 30 minutes per RFC after the first period). Upload the period's payroll CFDI ZIP or CONTPAQi exports. The app builds the worker list and salary history and pre-assigns workers to contracts. Staff fix gaps in an assignment grid. Checks run; errors show in plain Spanish with a link to the row. With no errors, the app generates the ICSOE capture sheet and worker CSVs (contracts **started** in the period), the three SISUB CSVs (contracts **active**), and a one-page signer summary. Files are versioned and hashed.
+4. **File ICSOE** (outside the app, guided). Staff log in as capturista and pick the contractor ([IMSS guide 10](https://www.imss.gob.mx/sites/all/statics/icsoe/guias/10-Guia-Ingreso-del-Capturista.pdf)). They copy each contract's fields from the capture sheet in screen order and upload its worker CSV ([IMSS guide 2](https://www.imss.gob.mx/sites/all/statics/icsoe/guias/2-Guia-Registro-de-Informativa-y-Contrato.pdf)). Rejected workers come back as an IMSS Excel; staff drop it in and the app marks them. The contractor signs ([IMSS guide 5](https://www.imss.gob.mx/sites/all/statics/icsoe/guias/5-Guia-Firma-y-Presentacion.pdf)). Staff upload the acknowledgement; the app reads folio and date and closes the period.
+5. **File SISUB** (outside the app, guided). Upload the three CSVs and the listed PDFs through the main NRP. INFONAVIT validates later and e-mails the result. If the portal is down near the deadline, the app's outage log keeps screenshots and times as evidence.
+6. **Nil and continuing returns.** No contract started: ICSOE "Sin información". For SISUB the app chooses "Sin actividad" or "Datos continuos" and explains why ([contadormx](https://contadormx.com/sisub-infonavit-guia-art-29-bis-informe-continuo/)).
+7. **Monthly evidence pack** (v1). By the 10th, the app lists what each client wants for last month. Staff drop the documents. The app checks dates and RFCs, filters payroll XML to that client's workers, and builds an index PDF and ZIP or a share link.
+8. **Correction** (v1). Open a complementary return; the app shows how many of the 4 are left and sets the 10-business-day deadline for IMSS requests.
+
+### Screens
+
+1. Login and two-factor.
+2. **Deadline board (home):** client RFCs by period, with status (no data / ready / errors / files generated / captured / signed / acknowledgement stored), adjusted deadline and days left.
+3. RFC overview.
+4. Clients.
+5. Contracts (filter by started / active).
+6. Contract inbox (AI capture): PDF on the left, proposed fields with source snippet on the right.
+7. Import wizard.
+8. Assignment grid: workers × contracts × bimesters.
+9. Check report, grouped by rule, with source and a link to the row.
+10. Outputs, with versions and hashes.
+11. Filing checklist with portal links, error-file drop zone, acknowledgement upload and outage log.
+12. Acknowledgement vault.
+13. Settings: users, roles, billing, data export, audit log.
+14. Founder admin: layout and rule versions with test status, holiday calendar, announcement banner.
+
+All in Mexican Spanish. Desktop first, because the work happens at a desk with Excel and the portals.
+
+---
+
+## 6. Technical design
+
+**Stack: one plain monolith one founder can run** (03).
+- **App:** Python and Django, server-rendered pages with HTMX. Python has the right libraries for CFDI XML, Excel, CSV and PDF text.
+- **Database:** PostgreSQL with row-level security on the tenant id, under the ORM's own tenant filter.
+- **Jobs:** a Postgres-backed queue (Procrastinate or Django-Q2) for imports, checks, file generation and reminders. No Redis.
+- **Storage:** S3-compatible object storage, encrypted, private, with short-lived download links.
+- **Domain core as a pure package (`repse_core`).** Layout specs, validators, the rule engine and the generators, with no Django imports. This is the part that must be exactly right. It is tested against "golden" input and output files.
+- **Layouts and rules as versioned data** (YAML, with an effective date and a source URL). When INFONAVIT changes a layout, we add a version and its golden files; the code does not change.
+- **AI extraction** of contract fields from PO and contract PDFs with the Claude API, with a strict JSON schema and a person confirming every field. **No worker data goes to the model.** About USD 0.001-0.04 per document depending on the model ([Anthropic pricing](https://platform.claude.com/docs/en/about-claude/pricing); 03). Pick the model on accuracy in the pilot.
+- **E-mail:** a transactional provider. **Errors and uptime:** Sentry and a monitor, with no personal data in logs. **CI:** GitHub Actions with unit, golden and end-to-end tests, dependency and secret scanning.
+
+**Data sources** (03):
+
+| Source | Use | Access | Note |
+|---|---|---|---|
+| Payroll CFDI XML (nómina complement) | Workers, NSS, CURP, salary, employer number; the "SubContratacion" node gives the client RFC and share of time | User uploads a ZIP | The node is conditional; how many payrolls fill it is unknown ([El Contribuyente](https://www.elcontribuyente.mx/2024/08/requisitos-para-deducir-cfdi-de-nomina-de-servicios-especializados-del-repse/)) |
+| CONTPAQi Nóminas exports | ICSOE worker list, SISUB worker CSV, employee data | CSV and Excel | Leaves contract number and the 7 site fields to the user ([CONTPAQi](https://conocimiento.blob.core.windows.net/conocimiento/2022/Contables/Nominas/CartasTecnicas/CT_Nominas_1512/reporte_sisub.html)) |
+| IMSS EMA/EBA files (v1) | IMSS's own view of each worker's SBC | ZIP with Excel from the IMSS employer portal | Columns unverified |
+| SUA | Bimester amounts (v1) | Desktop app; internal format undocumented | Use payroll exports or SUA reports, not SUA's database |
+| IMSS ICSOE template and guides | Exact CSV format | Public | Header-row rule unverified ([IMSS template](https://www.imss.gob.mx/icsoe/plantilla)) |
+| INFONAVIT SISUB guide and layouts | Exact SISUB columns | Inside the employer portal; INFONAVIT's site returned 503 to us | **Get the current files from a pilot in week 1** |
+| IMSS public and inconsistent lists | Monitor that each filing appears correctly (v1) | Excel, monthly ([IMSS list](https://www.imss.gob.mx/icsoe/listado-publico)) | Names, not RFCs |
+| Postal-code catalogue | Colonia, municipio, state | datos.gob.mx copy under the "Libre Uso MX" licence ([mexico_zipcodes](https://github.com/d3249/mexico_zipcodes)) | Correos de México's own file is for private use only |
+| RFC, CURP, NSS check digits | Catch typos before upload | Offline algorithms | Confirm the NSS rule on test data (unverified) |
+| UMA and holiday calendars | SBC cap; business-day deadlines | Yearly, by hand ([IDC INFONAVIT 2026 calendar](https://idconline.mx/seguridad-social/2026/01/14/calendario-infonavit-2026-dias-inhabiles)) | Stored as data with source URL |
+
+**What we deliberately do not integrate:** the e.firma, SAT's bulk-download service, IMSS IDSE login, or any screen-scraping with the user's passwords. Each would put a tax signature or login in our hands. No ICSOE or SISUB API exists anyway (01, 03).
+
+**Security baseline (MVP).**
+1. Two-factor login for every user; session timeout; rate limits.
+2. Tenant isolation in the ORM and in Postgres row-level security, with automated cross-tenant read tests on every model.
+3. Field-level encryption for NSS, CURP and names, with keyed hashes for matching.
+4. Append-only audit log for logins, exports, file generation, role changes and support access.
+5. No e.firma and no government passwords, ever, stated in the app and onboarding e-mails to blunt phishing.
+6. Daily encrypted backups kept 30 days; a restore drill before launch and each quarter.
+7. External web application test before launch, then yearly.
+8. Keep filed evidence 5 years by default; full export at any time; deletion within 30 days after a customer leaves.
+
+**Privacy.**
+- Mexico's new data-protection law (LFPDPPP, DOF 20 Mar 2025, reformed 14 Nov 2025) applies ([LFPDPPP](https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf)). The customer is the "responsable" (controller); we are the "persona encargada" (processor).
+- Needed: a processor agreement, our own privacy notice, a privacy-notice template for the customer's workers, breach notice to the customer without delay, and staff confidentiality.
+- **Hosting abroad.** 03 reads the law's definition of "transferencia" (art. 2 fr. XX) as excluding data sent to the processor, so US hosting needs no worker consent. 01 and 04 mark this unverified. **Decision:** start in a managed US region, and get the lawyer's written view in the legal work (weeks 5-8). If the lawyer or a large customer objects, move to AWS's Mexico region in Querétaro ([AWS](https://aws.amazon.com/blogs/aws/now-open-aws-mexico-central-region)). Name every sub-processor (hosting, e-mail, Anthropic, Paddle) in the processor agreement.
+- Salary data is "financial" data, which normally needs express consent, but the legal-duty and employment-relationship exceptions (art. 9) likely cover ICSOE/SISUB use (03's reading; confirm with the lawyer).
+- Fines reach 320,000 UMA (about MXN 37.5 million) ([LFPDPPP](https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf)).
+
+**Running cost** (03, my files' estimates, USD a month, excluding payment fees):
+
+| Customers | Hosting and services | Paddle fees (at about MXN 500 a month average) |
+|---|---|---|
+| 50 | about 40-135 | about 95 |
+| 300 | about 140-385 | about 570 |
+| 1,000 | about 400-1,150 | about 1,900 |
+
+Payment fees cost more than servers. Yearly billing cuts the fixed part. Gross margin is about 88-91% before support time (03).
+
+---
+
+## 7. Development steps
+
+**Basis.** The founder builds with Claude Code and several agents in parallel, each on its own branch and git worktree. The founder writes the specs, reviews every merge and owns integration. No hired developers. Interfaces are frozen in week 1 so streams can run in parallel (03).
+
+### Agent work streams (parallel from week 2; run 4-6 at once)
+
+| Stream | Scope | Done when |
+|---|---|---|
+| A. Platform | Login, two-factor, tenants, roles, row-level security, audit log, settings, Paddle webhooks | Cross-tenant tests pass; two-factor forced; audit events written |
+| B. Registers + AI capture | Contractor, REPSE, clients, contracts, sites, documents; postal-code lookup; PO/contract extraction and review screen | 20 sample POs extracted with measured accuracy; nothing saved without confirmation |
+| C. Importers | CFDI nómina XML, CONTPAQi exports, Excel mapper, worker identity, salary history, SubContratacion | 3 real payroll sets import with no unmatched workers after review |
+| D. Rules engine | Layout spec loader; NSS, CURP, RFC validators; rules I1-I12, S1-S7, X1-X6 in plain Spanish | Every rule has a passing and a failing fixture |
+| E. Generators | ICSOE CSVs and capture sheet, SISUB three CSVs + ZIP, signer summary, hashing | Byte-exact match with golden files from pilots' accepted filings |
+| F. Workflow + UI | Deadline board, period states, business-day calendar, reminders, filing checklist, acknowledgement reading, outage log | Time-travel test fires all reminders; folio read from 10 sample acknowledgements |
+| G. QA and security | Synthetic data generator, end-to-end tests, threat model, scans, restore script | Nightly end-to-end "period" test green |
+
+**Method.** One repository with a CLAUDE.md for conventions. A short spec file per stream. Golden files are the referee, and only the founder may change one, after the expert agrees. A review agent checks each pull request against the spec and the security list before the founder does. Real pilot data stays out of agent sessions; agents use synthetic and anonymised data only.
+
+### Calendar (start Monday 12 Oct 2026)
+
+03 and 04 agree on this timeline. It matches the owner's basis: MVP in about 3-4 weeks, sellable in 8.
+
+| Week | Product, legal, pilots | Engineering | Checkpoint |
+|---|---|---|---|
+| 1 (12 Oct) | 8-10 accountant calls; ask each for an anonymised past period; get the current SISUB guide and layouts; hire the social-security specialist; buy SIFO | Repo, CI, hosting, skeleton; data model; layout spec format; rule interface; synthetic data | **Spec freeze** |
+| 2 (19 Oct) | Specialist reviews rule catalogue and layouts; landing page and waitlist; Paddle application | Streams A-F in parallel | CI green daily |
+| 3 (26 Oct) | 20 interviews done; collect 20 real POs and 3 payroll sets | First end-to-end run on a synthetic company | **1 Nov gate** (section 13) |
+| 4 (2 Nov) | Specialist compares generated files with pilots' accepted filings | Integration and bug bash | **MVP feature-complete (about 6 Nov)** |
+| 5 (9 Nov) | **Dry-run pilots:** 3-5 firms redo their May-Aug 2026 period in the app | Fixes; a 1,000-worker RFC performance test | Files match accepted filings, or differences explained |
+| 6 (16 Nov) | Lawyer drafts terms, privacy notice and processor agreement; tax opinion starts; specialist signs off rules v1 (16 Nov is a public holiday) | Encryption, audit, backup drill, billing | **LC1:** rules and layouts signed off |
+| 7 (23 Nov) | External security test (3-4 days) | Fix findings; Spanish copy pass | |
+| 8 (30 Nov) | Lawyer and tax adviser sign off; pricing page; buyer FAQ; videos | Re-test; dashboards | **LC2:** legal approved; no open high or critical findings |
+| 9 (7 Dec) | **Paid launch**; founding offer; pilots convert | Support rota | Sellable |
+| 10-11 (14-27 Dec) | Load customers' contracts and workers; holidays from about 24 Dec | v1 starts: public-list monitor, SISUB error-file parser | |
+| 1-18 Jan 2027 | **Live filing** of Sep-Dec 2026 by pilots and customers | Hot fixes only | Count on-time filings and rejections |
+| Feb-Apr 2027 | Collect client evidence templates; interview customers | v1: evidence pack, EMA/SUA reconciliation, corrections, REPSE renewal tracker, signer portal | v1 live before the 1-17 May window |
+
+**Timing risk.** Launch on 7 Dec leaves about three selling weeks before the holidays and two in January. **Fallback:** if the paid launch slips past mid-December, run the January window as a concierge service for the pilots. The founder runs the app on their data and hands back the files and capture sheets. That keeps the January learning cycle (03).
+
+### MVP definition of done
+
+1. For at least 3 pilot RFCs, the app's ICSOE and SISUB CSVs match what the pilot filed and IMSS/INFONAVIT accepted for May-Aug 2026, or the specialist explains and approves every difference.
+2. Staff prepare a 5-contract, 20-worker RFC in under 45 minutes the first time and under 20 minutes the next period (benchmark: about 12 hours, [Praxium](https://praxiumconsultores.com/blog/icsoe-y-sisub-cuanto-cuesta-cumplir-cada-cuatrimestre)).
+3. Rules I1-I12, S1-S7 and X1-X6 have passing and failing tests; IMSS's seven inconsistency types are caught.
+4. AI capture: at least 90% of fields right before review on 20 real POs; nothing saved without confirmation.
+5. Correct business-day deadlines for 2027: 18 Jan, 17 May, 17 Sep; reminders fire in a time-travel test.
+6. Tenant isolation tests pass; two-factor forced; encryption on; a backup restored; no open high or critical security findings.
+7. Terms, privacy notice and processor agreement signed off by a Mexican lawyer; rules and layouts signed off by the specialist.
+8. Paddle billing works end to end in MXN.
+9. At least 5 pilot firms say they will pay the planned price before the January window.
+
+**If time slips:** drop AI capture to v1 (keep a fast manual form), then the CONTPAQi importer if pilots use CFDI XML. Never drop tenant isolation, encryption, the specialist sign-off or the security test.
+
+### Build budget to a sellable product (cash; founder unpaid)
+
+03 and 04 differ. 03 gives USD 6,150-15,200 but leaves out the tax opinion and trademark. 04 gives MXN 138,500 (USD 7,700) of one-off costs at single-point prices. My reconciled range:
+
+| Item | USD low | USD high | Basis |
+|---|---|---|---|
+| Claude Max and extra API, 2-3 months | 400 | 1,200 | USD 100-200 a month ([noqta](https://noqta.tn/en/blog/claude-code-pricing-2026)); 03 |
+| Hosting, domain, e-mail during build and pilot | 150 | 400 | 03 |
+| Social-security / REPSE specialist (20-40 hours) | 900 | 2,200 | MXN 700-1,000 an hour ([Praxium](https://praxiumconsultores.com/blog/cuanto-cobra-un-contador-en-guadalajara)); 04 budgets MXN 40,000 |
+| Mexican lawyer: terms, privacy notice, processor agreement | 1,400 | 3,300 | MXN 25,000-60,000 (unverified) |
+| Tax opinion: IVA, ISR withholding, permanent establishment | 1,100 | 1,100 | MXN 20,000 (04, my estimate) |
+| External security test with re-test | 2,500 | 6,000 | [7ASecurity](https://7asecurity.com/blog/2026/04/the-2026-guide-to-penetration-testing-pricing-and-scoping/); 04 budgets MXN 45,000 |
+| Trademark (IMPI) | 200 | 200 | MXN 3,500 (unverified) |
+| Pilot incentives | 0 | 300 | 03 |
+| Contingency 15% | 1,000 | 2,200 | |
+| **Total** | **about 7,700** | **about 16,900** | **Plan on about USD 10,000 (MXN 180,000)** |
+
+Marketing and payment fees are extra (section 8). Paddle has no set-up fee ([Paddle pricing](https://www.paddle.com/pricing)).
+
+**First-year running cash after launch** (excluding payment fees and marketing): about USD 5,300-16,000 for hosting, AI tools, the specialist's reviews of layout changes, legal updates and a yearly security re-test (03). 04's model adds a part-time Mexican support accountant on contract from January 2027 at MXN 10,000 a month in year 1 (base).

@@ -487,11 +487,11 @@ Japanese-language customer support during April-May is the hidden cost. It belon
 1. Does the founder read and speak Japanese? If not, budget the language line at the high end and add a part-time native support person before April 2027.
 2. Where is the founder's company? EU/EEA or UK makes the APPI cross-border rule simple ([PPC](https://www.ppc.go.jp/enforcement/cooperation/cooperation/sougoninshou/)).
 3. Scrivener law: is a self-service report generator inside a paid subscription "preparation for others for pay"? Is the chip registration body a "public office"? (Lawyer or 行政書士 opinion.)
-4. How should a site with both sale and exhibition registrations split animals between the two reports? How are moves between the business's own registrations counted?
+4. How should a site with both sale and exhibition registrations split animals between the two reports? How are moves between two registrations at the same site counted? Is a returned rental animal "new" again? (Moves to another site count as "out", per the [Tokyo example](https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/teikihoukoku-kisairei2).)
 5. Exact columns, encoding, row limits and log-in method for the MOE bulk CSV, and whether a business account is needed.
 6. Does MOE or any prefecture accept an on-screen signature as the customer's confirmation (署名等) for the face-to-face explanation?
-7. What fields does each LoGo form ask for: an Excel upload, typed numbers, or both? (The form did not render for me.)
-8. Do authorities apply the holiday rule to 30 May, or do they publish 30 May as fixed? (Affects reminders in 2027.)
+7. Does Tokyo's LoGo form take only the Excel upload, or also typed numbers? (Kumamoto's takes a file upload; Tokyo's did not render for me.)
+8. Would an authority refuse a report filed on Monday 31 May 2027, given that it publishes 30 May (a Sunday) as the end date? (Affects reminders in 2027.)
 9. Can a foreign company open and verify a LINE Official Account and use the Messaging API?
 10. Will a vet agree to review the breed library, and at what fee? Is there a licensable source for adult sizes and common diseases?
 11. Are there Japanese-certified (技適) Bluetooth chip readers that work in keyboard mode with phones?
@@ -507,7 +507,8 @@ Law, regulators and official forms:
 - https://laws.e-gov.go.jp/law/412AC0000000061
 - https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/houritsu/11319881213094.htm
 - https://www.hokeniryo.metro.tokyo.lg.jp/douso/dt_gyou/doubutuhanbaigyoushatou.html
-- https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/2026-08-07-141323-808
+- https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/teikihoukoku-kisairei2 (text extracted from the PDF on 10 Oct 2026)
+- https://www.pref.kumamoto.jp/soshiki/30/167649.html
 - https://logoform.jp/form/tmgform/1256120
 - https://logoform.jp/form/tmgform/1469693
 - https://www.pref.saitama.lg.jp/documents/281787/doutoriminasamahe260831.pdf
@@ -521,7 +522,6 @@ Law, regulators and official forms:
 - https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_1_3.pdf
 - https://www.env.go.jp/council/content/i_10/000357242.pdf
 - https://www.env.go.jp/nature/dobutsu/aigo/pickup/chip.html
-- https://www.env.go.jp/nature/dobutsu/aigo/2_data/pamph/r0403b/01.pdf
 - https://www.env.go.jp/nature/dobutsu/aigo/2_data/pamph/chip/02.pdf
 - https://reg.mc.env.go.jp/owner/file/%E4%B8%80%E6%8B%AC%E6%89%8B%E7%B6%9A%E7%94%A8CSV%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E4%BD%9C%E6%88%90%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB(%E4%BB%A4%E5%92%8C8%E5%B9%B47%E6%9C%88).pdf (HTTP 403 from abroad; content via search summary)
 - https://www.post.japanpost.jp/zipcode/download.html

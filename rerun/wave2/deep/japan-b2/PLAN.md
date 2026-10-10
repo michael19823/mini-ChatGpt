@@ -55,7 +55,7 @@ Facts are sourced in those files; the main ones are linked again here. "My estim
 - **Smaller prize.** Base ARR is about **¥13M at month 36, not ¥21M**. Boarding sites were dropped (no ledger or report duty). The buyers are tiny: in the Fukuoka register 84% of sites are individuals and the median dog and cat seller declares about 10 animals (02, own count of [Fukuoka's register](https://www.pref.fukuoka.lg.jp/contents/animalhandlingbusiness-type1-inspection.html)). So the price falls to ¥14,800 a year.
 - **New legal limit: the 行政書士 Act** (amended, in force 1 Jan 2026). No paid "we do your report" service. A written opinion is needed even for the self-serve report generator ([JEMCA](https://www.jemca.or.jp/wp-content/uploads/2026/01/gyoiseisyoshihoukaisei.pdf)).
 - **Formal sanctions fell further.** FY2024 had 14 recommendations, 0 orders and 2 cancellations nationwide ([MOE R7 2_1_3](https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_1_3.pdf)). No imposed ¥200,000 過料 was found. Buyers fear the inspection, not the fine.
-- **Language is a fixed cost.** Buyers are older, rural, Japanese-only home businesses. Support, interviews and outreach need a native speaker (about ¥100,000 a month in year 1, rising).
+- **Language is a fixed cost.** Buyers are rural, Japanese-speaking home businesses, many likely older (unverified). Support, interviews and outreach need a native speaker (about ¥100,000 a month in year 1, rising).
 - **Bank transfer is hard from abroad.** A wire from Japan costs the buyer about ¥3,000 ([MUFG](https://www.bk.mufg.jp/tesuuryou/gaitame.html)). Cards only at first.
 - **Stronger pain evidence** (the 2023 sweep), and **a real chip integration** (bulk CSV), which the re-assessment said did not exist.
 - **Low cash need.** About ¥2.0M (US$12,700) to a sellable product; peak cash about ¥5.6-5.8M in the base case.
@@ -72,6 +72,14 @@ Facts are sourced in those files; the main ones are linked again here. "My estim
 
 - **Japan alone is a side business.** It becomes a living only in the high case, or with other segments and Taiwan added (§11).
 - **Exit:** about 1-2× ARR, so ¥13-26M in the base case ([BigIdeasDB](https://bigideasdb.com/state-of-saas-valuations-2026), asking prices).
+
+**Against the owner's criteria.**
+
+- **Free state tools:** not a reason to reject. The state gives blank templates and filing forms only. Totals from the ledger, warnings, the inspection view, the chip CSV and an audit trail are left undone (§4).
+- **Small market:** about 25,000 obliged sites, 13,347 breeders, 684 customers in the base case. Acceptable at this build cost; the cap is the price tiny home businesses will pay, not the count.
+- **Incumbents:** none. The substitute is a free Excel sheet. That is an opening, but also the price anchor.
+- **Build:** MVP feature-complete in about 4 weeks and sellable in about 8 with Claude Code and parallel agents; about ¥2.0M cash (§7).
+- **Company:** none needed in Japan at launch. Stripe from the founder's company works; Paddle would add 10% tax for no benefit (§9).
 
 **Key conditions.**
 
@@ -105,7 +113,7 @@ Facts are sourced in those files; the main ones are linked again here. "My estim
 
 - **Type-1 animal businesses** (第一種動物取扱業者): anyone handling mammals, birds or reptiles as a business must register with the prefecture or designated city. There is no size threshold (Act Art. 10) ([e-Gov Act](https://laws.e-gov.go.jp/law/348AC1000000105)).
 - **Ledger and report** apply to sale, rental, exhibition and 譲受飼養 registrants (Art. 21-5; Order Art. 2). Boarding, training and auction-only registrants are exempt from these two, but keep the Standards' logs (01).
-- **Dog and cat sellers** carry extra duties: health and safety plan, 56-day sale bar, microchips, breeding limits and staff ratios (Arts. 22-2 to 22-6, 39-2 to 39-6).
+- **Dog and cat sellers** carry extra duties: health and safety plan, the 8-week sale bar, microchips, breeding limits and staff ratios (Arts. 22-2 to 22-6, 39-2 to 39-6).
 - **Type-2 handlers** (non-profit shelters that rehome) keep a per-animal ledger but file no report (Art. 24-4; Rules Art. 10-10).
 
 ### What must exist, and when
@@ -216,7 +224,7 @@ All counts are at 1 April 2025 from [MOE R7 2_1_1](https://www.env.go.jp/nature/
 | Item | Price | Source |
 |---|---|---|
 | Registration, per category, every 5 years | ¥15,000 (Aichi); renewal ¥10,000 (Saitama) | [Aichi](https://www.pref.aichi.jp/site/gyoute/75190.html); [Saitama guide p.16](https://www.pref.saitama.lg.jp/documents/281787/doutoriminasamahe260831.pdf) |
-| Responsible-person training, per person | ¥1,000 (Kanagawa, Aichi) to ¥2,500 (Tokyo) | [Kanagawa](https://www.pref.kanagawa.jp/osirase/1594/awc/dealers/kensyuu2025.html); [Tokyo R8](https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/2026-07-14-152055-700) |
+| Responsible-person training, per person | ¥1,000 (Kanagawa, Aichi) to ¥2,500 (Tokyo) | [Kanagawa](https://www.pref.kanagawa.jp/osirase/1594/awc/dealers/kensyuu2025.html); [Aichi](https://www.pref.aichi.jp/soshiki/doukan-c/doutorikennsyuukai.html); [Tokyo R8](https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/2026-07-14-152055-700) |
 | Chip registration, per animal | ¥400 online, ¥1,400 paper | [MOE chip page](https://www.env.go.jp/nature/dobutsu/aigo/pickup/chip.html) |
 | Marketplace success fee | ¥15,000 per sale (ブリーダーズナビ, 2015) | [Makuake](https://www.makuake.com/project/breedersnavi/) |
 | 行政書士 fee for a registration | ¥100,000-180,000 (one firm; weak source) | [鮎澤パートナーズ](https://ayusawa-partners.jp/column/pet-doubutsu-toriatsukai) |
@@ -251,7 +259,7 @@ All counts are at 1 April 2025 from [MOE R7 2_1_1](https://www.env.go.jp/nature/
 4. **Chip CSV.** The portal's bulk route needs a CSV built by hand from a manual; the product can export it.
 5. **Audit trail.** No-delete history and late-entry reasons, which protect against "false entry" claims.
 
-**Conclusion.** No local product does the job. The gap is clean because the buyers are small, rural and not tech-savvy (02). That cuts both ways: no competitor, but a hard sale. The likely future competitor is a platform, not a start-up. Get there first, and offer platforms an export.
+**Conclusion.** No local product does the job. The likely reason the gap is so clean is that the buyers are small, rural and not tech-savvy (02). That cuts both ways: no competitor, but a hard sale. The likely future competitor is a platform, not a start-up. Get there first, and offer platforms an export.
 
 ---
 
@@ -470,3 +478,320 @@ A separate review agent checks each pull request against the spec and the securi
 Not included: marketing (§8), the founder's own company abroad and the Tokyo virtual office (§9).
 
 **First-year running costs after launch** (03, converted): hosting and services, Claude Max, a security re-test, legal updates and expert hours come to about ¥0.8-2.1M (US$4,850-13,370). The Japanese contractor (about ¥1.2M a year) and marketing (¥2.0M) are on top. 04's model puts total year-1 costs at about ¥6.3M in the base case (§10).
+
+---
+
+## 8. Go-to-market
+
+### Pricing (reconciled)
+
+Prices are the full price. While the seller is a foreign company below Japan's ¥10M consumption-tax (JCT) threshold, **no JCT is added** (§9). The page says so: 「表示価格がお支払い総額です（当社は消費税の免税事業者のため消費税はかかりません）」.
+
+| Plan | Who | Price | Includes |
+|---|---|---|---|
+| **無料 Free** | Hobby breeders, try-out | ¥0, up to 5 dogs or cats | Per-animal ledger, report totals, Excel export. Lead magnet |
+| **ブリーダー Breeder** | Breeders, small shops, single-site exhibitors | **¥14,800 a year** (default) or ¥1,480 a month | Unlimited animals; breeding log with limits; daily log; **staff ratio**; chip deadlines (CSV from v1); 様式第十一の二 Excel/PDF; inspection mode; LINE support |
+| **ショップ Shop / multi-site** | Pet shops, chains, large kennels | **¥49,800 a year per site** or ¥4,980 a month | Breeder features plus several staff accounts, several sites with per-site reports and a combined task list, and trade records |
+| **Archive only** | Leavers who must keep 5 years of records | Low yearly fee (my suggestion ¥3,000; unverified) | Read and export only |
+| 初期データ移行 Import help | Customers with an Excel ledger | Free in the first season for annual buyers; then ¥9,800 | We map **their** Excel columns. Typing from paper is done by the customer or a partner 行政書士. Include in the lawyer's question list |
+| ~~定期報告パック ¥4,980~~ | — | **On hold** | Re-add only if the written 行政書士 Act opinion clears a separately priced self-serve report product |
+
+**Launch offers (04):**
+
+- **Founding price ¥9,800** for the first year of the Breeder plan, for the first 100 paying customers, until 31 May 2027. It sets a deadline inside the report window.
+- **Partner code:** 20% off the first year for customers sent by an auction house, an association or a 行政書士; the partner gets 20% of the first year (market practice unverified).
+
+**Why these numbers.** ¥14,800 a year is about ¥40 a day. It sits beside freee at ¥980-1,980 a month and Money Forward at ¥10,800 a year ([atsoho](https://atsoho.com/apps/compare/freee-kaikei-vs-mf-cloud-kakuteishinkoku)). The Shop plan is under a third of the cheapest kintone build (¥18,000 a month, [hatenabase](https://hatenabase.jp/?p=15816)). Annual billing is the default because card fees have a fixed part (§9). After discounts and plan mix, revenue per customer is about ¥14,000 in year 1, ¥16,500 in year 2 and ¥18,000 in year 3 (04's estimate).
+
+### Channels, in priority order for year 1
+
+| # | Channel | Why | Motion | Share of new customers, year 1 (04 estimate) |
+|---|---|---|---|---|
+| 1 | **Free tools and spring search** | Every search for the ledger or report returns prefecture pages, not vendors (02) | Free report calculator, breeding-limit checker, template converter; 20 Japanese articles reviewed by a 行政書士; search ads February-May; self-serve trial → card | 35% |
+| 2 | **Direct outreach** | Many kennels publish a website and a business e-mail; some authorities publish registers | E-mail to published business addresses is allowed with an opt-out ([総務省](https://www.soumu.go.jp/main_sosiki/joho_tsusin/d_syohi/pdf/m_mail_pamphlet.pdf)); letters (¥110 postage, [総務省](https://www.soumu.go.jp/main_content/000979809.pdf)); phone and LINE follow-up by the contractor; Instagram messages | 25% |
+| 3 | **行政書士 partners** | They register businesses (¥100,000-180,000, [鮎澤](https://ayusawa-partners.jp/column/pet-doubutsu-toriatsukai)) and are the only ones allowed to sell done-for-you filing | Recruit 10-20 who advertise 動物取扱業 work; 20% referral fee, free account, co-branded guide; they sell their own set-up service | 15% |
+| 4 | **Auction houses and ペットパーク流通協会** | MOE's 2024 birth-date request makes clean breeder records useful to them ([MOE 資料2](https://www.env.go.jp/council/content/i_10/000357242.pdf)); the association surveyed 1,109 breeders in 2020 ([digitalpr](https://digitalpr.jp/r/41597)) | One pilot auction with a per-lot "records kept in [app]" export; aim for one signed partner by June 2027 | 10%, rising. **The lever for the high case** |
+| 5 | Breeder communities | Breeders sell on Instagram and YouTube (unverified) | Short videos: "inspection in 5 minutes", "how to fill 様式第11の2" | 10% |
+| 6 | Puppy marketplaces | みんなのブリーダー lists 3,854 breeders ([min-breeder.com](https://www.min-breeder.com/)); its operator settled a JFTC case in 2018 over restricting breeders' listings elsewhere ([JFTC](https://www.jftc.go.jp/houdou/pressrelease/h30/may/180523.html)) | Offer a badge or data export; partner-or-threat; never depend on it | 0-5% |
+| 7 | Training sessions, vets, insurers, Interpets | Training reaches every site, but public bodies are unlikely to endorse a product (unverified) | Offer a free "how to fill the report" guide; Interpets visit in year 1, booth in year 2 ([Interpets](https://interpets.jp.messefrankfurt.com/)) | 0% in year 1 |
+
+**Sales motion.** Self-serve Japanese site and checkout; 30-day trial without a card; human help in Japanese by LINE, e-mail and phone (contractor, about 40 hours a month in year 1); onboarding by Excel upload from v1. Trust signals: 行政書士監修 badge, Tokyo virtual office and 050 number, real testimonials, Japanese terms under Japanese law. Price framing: 「1日あたり約40円」. Renewal drivers: 5 years of records live in the app, yearly report, new rules.
+
+### Selling calendar (04)
+
+| When | What happens | What we do |
+|---|---|---|
+| Oct-Feb | Responsible-person training season (Tokyo online 2 Nov 2026-31 Jan 2027; Aichi 6 venues 13 Nov-16 Feb) ([Tokyo](https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/2026-07-14-152055-700); [Aichi](https://www.pref.aichi.jp/soshiki/doukan-c/doutorikennsyuukai.html)) | Awareness: articles and small search ads on 研修 and 帳簿 keywords; pilots; founding price |
+| 28 Dec-3 Jan | New Year closure | No outreach |
+| Feb-Mar | Fiscal year closes 31 March | "Import your year now" campaign |
+| **1 Apr-30 May** | **Report window** | **Peak conversion.** Calculator push; ads at full budget; founding price ends 31 May |
+| Early April | Interpets Tokyo | Visit (year 1) |
+| Late Apr-early May | Golden Week | Send reminders before it, not during |
+| Jun-Sep | Quiet; inspections continue all year | Partners, testimonials, product |
+
+### Marketing budget, year 1 (Nov 2026-Oct 2027): ¥2.0M (US$12,700) plus partner fees (04)
+
+| Item | ¥ |
+|---|---|
+| Two founder trips to Japan (kennels, a 行政書士, an auction; one timed with Interpets) | 700,000 |
+| Search ads (Google, Yahoo! JAPAN), mostly Feb-May | 350,000 |
+| Social ads (Instagram, Facebook, YouTube) | 250,000 |
+| Japanese content: 20 articles, 4 short videos | 250,000 |
+| Postal letters (about 1,500) | 200,000 |
+| Partner co-marketing | 150,000 |
+| LINE, webinar and e-mail tools | 60,000 |
+| Contingency | 40,000 |
+| **Total** | **2,000,000** |
+
+Partner fees add about 6% of new-customer revenue. The Japanese contractor (about ¥100,000 a month in year 1, ¥150,000 in year 2, ¥220,000 in year 3) is costed separately. Years 2 and 3 marketing: ¥2.6M and ¥3.0M.
+
+### First 90 days (from Mon 12 Oct 2026; day 90 is Sat 9 Jan 2027)
+
+- **Days 1-14 (12-25 Oct): validate and set up.**
+  - Hire the Japanese contractor (outreach, interviews, support).
+  - Start 20 breeder and 5 shop interviews by video or phone. Find them through kennel websites, Instagram and the Fukuoka and Kagoshima City registers. Ask about tools, the last inspection, time spent on the report, and price. Pre-sell pilots at ¥9,800.
+  - Engage the 行政書士 (content review, Act opinion, first referral partner) and the lawyer (terms, privacy, data terms).
+  - Stripe in JPY with Japanese checkout; apply for a Payoneer JPY receiving account; Tokyo virtual office and 050 number (about ¥12,000 a month, 04 estimate); J-PlatPat name check.
+  - Japanese landing page with a waitlist. Spec freeze on 16 Oct.
+- **Days 15-42 (26 Oct-22 Nov): gate, build, recruit.**
+  - **Gate on 30 Oct** (§13).
+  - MVP feature-complete about 6 Nov; dry-run pilots from 9 Nov.
+  - Recruit 15-20 pilot users; enter their real data.
+  - Draft the first 8 articles; the 行政書士 reviews them. Book the security test.
+  - Pitch partners: ペットパーク流通協会, two auction operators, 全国ペット協会 and 3-5 行政書士 offices, with a short Japanese deck and demo video.
+- **Days 43-70 (23 Nov-20 Dec): first paid customers.**
+  - Security test and fixes; terms and privacy policy live.
+  - **Paid launch 7 Dec** at the founding price. Convert 10-15 pilots by 20 Dec.
+  - Outreach wave 1: 300 e-mails to published kennel addresses and 300 letters, with phone follow-up.
+  - 3 testimonials with photos. Small search ads while the Tokyo online training runs.
+- **Days 71-90 (21 Dec-9 Jan): quiet build.**
+  - Japan is closed about 28 Dec-3 Jan; no outreach.
+  - Build v1: Excel import, LINE, chip CSV (if the manual is in hand), calculator.
+  - Prepare the spring campaign. **Day-90 review** against §13.
+
+---
+
+## 9. Payments, company and legal
+
+### Payments: Stripe from the founder's company, in yen, no JCT added
+
+- **Cards work.** Stripe accepts JCB (Japan's own brand) on accounts in the EEA (except Iceland), the UK, the US and others; 3-D Secure for JCB works on EEA and UK accounts ([Stripe card brands](https://docs.stripe.com/payments/cards/supported-card-brands)).
+- **Fees on an Irish/EU Stripe account:** international cards 3.15% + €0.25, plus 2% currency conversion, plus 0.7% Stripe Billing ([Stripe IE pricing](https://stripe.com/ie/pricing)). On a ¥14,800 annual plan that is about ¥910 (6.1%); on a ¥1,480 monthly charge about ¥131 (8.8%) (04's arithmetic). Hence annual billing by default.
+- **Paddle is worse here.** Paddle charges 10% Japanese consumption tax on B2B and B2C sales ([Paddle tax table](https://paddle.com/help/sell/tax/which-countries-does-paddle-charge-sales-tax-or-vat-for/)) and takes 5% + 50¢ ([Paddle pricing](https://www.paddle.com/pricing)). The buyer pays ¥16,280 instead of ¥14,800 for the same net to us. A merchant of record mainly files tax; below ¥10M there is no tax to file. Revisit only once the seller becomes taxable in Japan.
+- **Konbini, PayPay and Stripe's Japanese bank transfer** need a Japan-based Stripe account, so a Japanese company ([Stripe konbini](https://support.stripe.com/questions/enabling-konbini-payments-for-japan-based-stripe-accounts); [Stripe Japan pricing](https://stripe.com/jp/pricing)). Business buyers do not need them.
+- **Bank transfer is the gap.** Japanese B2B still prefers bank transfer ([Infcurion survey](https://digitalpr.jp/r/116809)). A wire abroad costs the buyer about ¥3,000 at MUFG, 20% of the plan ([MUFG](https://www.bk.mufg.jp/tesuuryou/gaitame.html)). Airwallex's JPY account is SWIFT-only and Wise UK gives no JPY local details ([Airwallex help](https://help.airwallex.com/hc/en-gb/articles/900001759623-Which-currencies-can-I-get-a-Global-Account-in-and-what-payments-can-I-receive); [Wise](https://wise.com/gb/account/jpy-account)). **Test Payoneer's local JPY receiving account** ([Payoneer](https://www.payoneer.com/local-receiving-accounts/)); whether a foreign SaaS can use it is unverified. Otherwise: cards first; bank-transfer buyers wait for a Japanese company.
+- **Some Japanese issuers may decline foreign-merchant charges** (unverified). Use 3-D Secure and a Japanese FAQ.
+
+### Tax
+
+- **Self-serve SaaS is a "consumer-type" electronic service.** The foreign seller, not the buyer, owes JCT, but only once its Japanese taxable sales pass ¥10M in the base period (normally two years earlier) ([NTA pamphlet](https://www.nta.go.jp/publication/pamph/pdf/0024003-087_01.pdf)). Base-case receipts are ¥2.9M in 2027, ¥7.6M in 2028 and ¥10.5M in 2029, so the seller is taxable from 2031 at the earliest (04's model). In the high case it would be taxable from 2029, which is why the high case bills from a Japanese company from month 13.
+- **Buyers lose nothing.** Most are tax-exempt or use simplified taxation, so a JCT-free price is simply cheaper. Buyers on the standard method can deduct a monthly charge under ¥10,000 under the small-amount rule until 30 Sep 2029 ([NTA](https://www.nta.go.jp/publication/pamph/shohi/kaisei/202304/02.htm)); on the annual plan their net cost equals a taxed competitor's.
+- **If the foreign company ever registers:** it needs a Japanese tax administrator, cannot use simplified taxation, and pays close to 10/110 of receipts; a tax agent costs about ¥300,000-600,000 a year (04 estimate, unverified).
+- **No withholding tax** on a SaaS subscription: it is a service fee, not a royalty. Word the terms as 「本サービスの利用権」, not a software licence ([鮎澤パートナーズ](https://ayusawa-partners.jp/column/it-kenkyukaihatsu-zeigaku)).
+- **Receipts:** a plain 領収書 with the foreign company's name and "消費税：免税事業者のため対象外". Track Japanese receipts by year and half-year; act at ¥7M.
+
+### Company: no Japanese company at launch
+
+**Recommendation.** Sell from the founder's existing company abroad, ideally in the EU/EEA or the UK (privacy equivalence, §6). Open a Japanese 合同会社 (GK) only when one of these fires:
+
+1. Japanese receipts approach ¥10M a year. A new GK with capital under ¥10M starts with two JCT-exempt years (04's reading; confirm with a 税理士).
+2. A channel partner insists on a Japanese counterparty, pay-by-invoice or konbini, or too many buyers refuse cards.
+3. The Ministry of Justice starts pressing small foreign online sellers (next point).
+4. The founder hires a full-time employee in Japan.
+
+In the base case none is likely before month 24-30.
+
+**The grey area: "continuous transactions in Japan".** A foreign company that continuously transacts business in Japan must register as a foreign company with a representative resident in Japan (Company Act Arts. 817-818); failure can bring a 過料 of up to ¥1M ([MOJ](https://www.moj.go.jp/MINJI/minji07_00275.html); [RSM Shiodome](https://shiodome.co.jp/js/blog/12027)). In 2022 the ministries asked 48 foreign IT companies to register ([Bengo4](https://www.bengo4.com/c_23/n_14775/)). No case against a small foreign SaaS was found (unverified). The risk is low but real. Mitigation: self-serve website, no Japanese office or staff, contractor on a service contract with the foreign company; a GK removes the risk.
+
+**Real costs of a Japanese company.**
+
+| Route | One-off cost | Time | Notes |
+|---|---|---|---|
+| GK, official fees, electronic articles | **about ¥75,000** (registration tax 0.7% of capital, minimum ¥60,000, plus sundries) | — | No notary needed for a GK ([創業手帳](https://sogyotecho.jp/company_fee/)) |
+| GK, official fees, paper articles | about ¥112,000 (adds ¥40,000 stamp duty) | — | same |
+| KK (株式会社), official fees | about ¥196,000 electronic / ¥233,000 paper (registration tax minimum ¥150,000; notary ¥30,000-50,000) | — | same |
+| **In person, Japanese-speaking resident**, with a cheap filing service (freee 登記おまかせ ¥50,000) | about ¥125,000 for a GK (my sum) | 1-2 weeks (unverified) | [freee](https://www.freee.co.jp/kb/kb-launch/kaisyasetsuritsu-costs/) |
+| **In person, foreign founder** | Official fees, plus a Japanese registered address, a Japanese account (or paid agent) to receive capital, a home-country notarised signature certificate, all papers in Japanese | — | Not really cheaper in practice ([Kaizen](https://kaizencpa.com/download/jp/Japan%20Goudou%20Kaisha%20Registration%20Procedures%20and%20Fees%28JP%29.PDF)) |
+| **Remote, full service for a foreign owner** (one firm's 2026 list, net of JCT) | **about ¥1,178,000 (US$7,500)**: formation ¥400,000; government fees and sundries ¥70,000; capital-receiving agent ¥88,000; tax registrations incl. the Bank of Japan foreign-investment report ¥200,000; bank-account support ¥420,000 (40% refunded if the bank refuses) | about 4-5 weeks plus bank time | Banks may refuse a virtual-office address; the firm advises ¥5M+ capital for the bank ([Kaizen](https://kaizencpa.com/download/jp/Japan%20Goudou%20Kaisha%20Registration%20Procedures%20and%20Fees%28JP%29.PDF)) |
+| Remote, formation only (same firm, without tax registrations and bank help) | about ¥558,000 | about 4-5 weeks | Cheaper 司法書士 firms exist; their prices for foreign owners were not collected (unverified) |
+
+- A non-resident can be the sole member and representative; no resident director has been needed since 2015 ([RSM Shiodome](https://shiodome.co.jp/js/blog/889)). Minimum capital is ¥1.
+- **Ongoing GK costs: about ¥0.7-0.8M (US$4,500-5,000) a year.** Per-capita local tax ¥70,000 even at a loss ([freee](https://www.freee.co.jp/kb/kb-launch/kaisyasetsuritsu-costs/)); tax accountant about ¥400,000 ([meetsmore](https://meetsmore.com/services/tax-accountant/media/270)); virtual office about ¥186,000 (¥15,500 a month); bank and sundries ¥50,000-100,000. Plus corporate tax on profit, and a transfer-pricing basis for fees to the founder's company (unverified).
+- **No visa is needed** for an online business. The business-manager visa now needs ¥30M of capital and a full-time local employee ([solution-supporter](https://solution-supporter.jp/keiei-kanri-visa-500man-kaisei/)).
+- **Until then, a Japan presence costs about ¥12,000 a month** (virtual office and 050 number, 04 estimate). The founder's own company abroad is budgeted at about ¥40,000 a month in 04's model (depends on the country, unverified).
+
+### Legal documents and rules
+
+- **Documents (all Japanese):** 利用規約 as standard terms; privacy policy; data-handling terms (個人データの取扱いに関する覚書); a 特商法-style seller page; a plain "what the app does and does not do" page. Budget ¥600,000 one-off (lawyer plus 行政書士 content review and opinion), then about ¥30,000 a month (04).
+- **Standard terms** bind if shown and agreed, but unfair clauses can be struck out (Civil Code Art. 548-2) ([e-Gov](https://laws.e-gov.go.jp/law/129AC0000000089)). Business buyers are not "consumers" under the Consumer Contract Act ([e-Gov](https://laws.e-gov.go.jp/law/412AC0000000061)). Choose Japanese law and the Tokyo District Court.
+- **行政書士 Act.** From 1 Jan 2026 only 行政書士 may prepare filings for others for pay "under any name"; penalties now reach the company ([総務省](https://www.soumu.go.jp/main_sosiki/jichi_gyousei/gyouseishoshi/index.html); [JEMCA](https://www.jemca.or.jp/wp-content/uploads/2026/01/gyoiseisyoshihoukaisei.pdf)). The ledger and logs are not filed, so they are outside it. The annual report is filed. A self-serve tool where the user enters his own data and makes his own report is probably his own preparation, as with self-filing tax software (my reading, unverified). One firm reports a ministry view that electronic data entry can count as "preparing" (unverified, [dsg.or.jp](https://dsg.or.jp/column/other-visas/21254/)). So: report inside the subscription only; no done-for-you service; no staff typing customers' paper ledgers into reports for a fee; done-for-you help through partner 行政書士 who bill the customer directly. **Get the written opinion in week 1.**
+- **Insurance:** cyber and professional liability about ¥200,000 a year (unverified). **Trademark:** about ¥150,000 (unverified).
+
+---
+
+## 10. Financials
+
+04's monthly model; month 1 = October 2026, month 36 = September 2029; founder unpaid unless stated; ¥ million.
+
+**Main assumptions (base):** new customers 180 / 300 / 380 in years 1-3; 70% annual billing; renewals 72% first, 85% later; revenue per customer ¥14,000 / 16,500 / 18,000; marketing ¥2.0M / 2.6M / 3.0M; contractor ¥100k / 150k / 220k a month; legal ¥600k up front then ¥30k a month; security test ¥500k, retests ¥300k in months 15 and 27; payment fees 6.5% of cash in; no Japanese company. Seasonality puts 2.4× and 2.0× an average month's sales in April and May.
+
+**Adjustment:** 04's model starts the contractor in month 3; this plan hires in week 1. That adds about ¥0.2M, so base peak cash need is about **¥5.8M** (my estimate).
+
+### Scenarios
+
+| Measure | Low | Base | High (partner; GK from month 13) |
+|---|---|---|---|
+| Paying customers at month 6 / 12 / 24 / 36 | 20 / 57 / 138 / 221 | 61 / 174 / 415 / 684 | 135 / 390 / 996 / 1,703 |
+| ARR at month 12 / 24 / 36 | ¥0.7M / 2.0M / 3.5M | ¥2.6M / 7.2M / **13.0M** | ¥6.2M / 18.9M / 36.0M |
+| Cash in, years 1 / 2 / 3 | ¥0.6M / 1.9M / 3.3M | ¥2.2M / 6.6M / 12.3M | ¥5.2M / 17.3M / 33.8M |
+| Costs, years 1 / 2 / 3 | ¥4.8M / 4.4M / 4.8M | ¥6.3M / 7.3M / 9.1M | ¥8.8M / 15.6M / 19.0M |
+| Year-3 profit before founder pay | −¥1.5M | **+¥3.2M (US$20,000)** | +¥14.8M (US$94,000) |
+| Operating break-even | not within 36 months | month 28 (Jan 2029) | month 20 (May 2028) |
+| **Peak cash need, founder unpaid** | ¥8.3M | **¥5.6M (US$35,000); about ¥5.8M with the earlier contractor** | ¥6.6M |
+| Peak cash need with founder pay (¥250k a month in year 2, ¥400k in year 3) | ¥16.1M | ¥10.0M (US$64,000) | ¥7.6M |
+| Acquisition cost per customer, years 1 / 2 / 3 | ¥24,500 / 16,400 / 13,900 | ¥14,500 / 12,400 / 12,200 | ¥11,500 / 11,600 / 11,800 |
+
+### Base case by quarter (04)
+
+| Quarter | New | Active (end) | Cash in | ARR (end) | Costs | Net | Cumulative |
+|---|---|---|---|---|---|---|---|
+| Oct-Dec 26 | 5 | 5 | 0.05 | 0.08 | 2.45 | −2.40 | −2.40 |
+| Jan-Mar 27 | 56 | 61 | 0.59 | 0.90 | 1.27 | −0.68 | −3.07 |
+| Apr-Jun 27 | 91 | 149 | 1.05 | 2.21 | 1.32 | −0.27 | −3.35 |
+| Jul-Sep 27 | 28 | 174 | 0.47 | 2.56 | 1.24 | −0.78 | −4.12 |
+| Oct-Dec 27 | 45 | 214 | 0.83 | 3.71 | 2.11 | −1.28 | −5.41 |
+| Jan-Mar 28 | 85 | 283 | 1.79 | 4.92 | 1.70 | +0.08 | −5.32 |
+| Apr-Jun 28 | 130 | 388 | 2.77 | 6.77 | 1.80 | +0.97 | −4.35 |
+| Jul-Sep 28 | 40 | 415 | 1.25 | 7.23 | 1.64 | −0.39 | −4.74 |
+| Oct-Dec 28 | 57 | 455 | 1.81 | 8.64 | 2.53 | −0.71 | −5.45 |
+| Jan-Mar 29 | 108 | 533 | 3.30 | 10.13 | 2.17 | +1.13 | −4.32 |
+| Apr-Jun 29 | 165 | 655 | 4.92 | 12.46 | 2.32 | +2.60 | −1.72 |
+| Jul-Sep 29 | 51 | 684 | 2.23 | 13.00 | 2.05 | +0.18 | −1.53 |
+
+October-December loses money every year (one-off costs, few sales). Keep a 6-month cash buffer each autumn.
+
+### Sensitivity of the base case (04)
+
+| Change | ARR month 36 | Year-3 profit | Peak cash | Break-even |
+|---|---|---|---|---|
+| None | ¥13.0M | +¥3.2M | ¥5.6M | month 28 |
+| Price 20% lower | ¥10.4M | +¥1.0M | ¥7.4M | month 32 |
+| 30% fewer new customers | ¥9.1M | −¥0.2M | ¥8.4M | not within 36 months |
+| Renewals 60% / 75% | ¥11.6M | +¥2.0M | ¥6.0M | month 30 |
+| Marketing 50% higher, same sales | ¥13.0M | +¥1.7M | ¥8.1M | month 31 |
+| Japanese GK from month 22 | — | +¥2.7M | ¥6.9M | month 31 |
+
+### Unit economics (base)
+
+| Measure | Value |
+|---|---|
+| Acquisition cost | about ¥12,000-14,500 |
+| First-year revenue net of fees | about ¥14,000-16,500 |
+| Payback | about 12 months |
+| Gross margin (after fees, hosting, support) | about 75-80% |
+| Lifetime value (capped at 5 years) | about ¥65,000-70,000 |
+| LTV / CAC | about 5 |
+
+### What the numbers mean
+
+- **The limit is the small, price-sensitive market, not the unit economics.** The base case reaches only 2.7% of obliged sites.
+- **The base case has about 17% fewer customers than the market file's** (684 against 824), because it nets out churn and the late start. Revenue is only about 7% lower (¥13.0M against ¥14M) because of the Shop plan and monthly billing. Both are far below the re-assessment's ¥21M.
+- **This is a side business.** ¥3.2M of year-3 profit does not pay a founder. A living needs the high case (an auction or marketplace partner) or the extra segments and Taiwan (§11).
+- **The first spring decides it.** By 30 June 2027 the base case has about 150 paying customers and the low case about 50. That gap shows within 9 months.
+- **Exit:** small SaaS listings ask a median 2.0× revenue ([BigIdeasDB](https://bigideasdb.com/state-of-saas-valuations-2026)); base about ¥13-26M (US$80,000-165,000), high about ¥36-100M. Likely buyers: a marketplace or auction operator, a pet-software or vet-software vendor (interest unverified). A Japanese buyer would prefer a Japanese entity.
+
+---
+
+## 11. Regional expansion
+
+**Order: widen inside Japan first (same language, law and payments), then Taiwan, then maybe Korea.**
+
+| Step | Market | Size | Fit and notes | When |
+|---|---|---|---|---|
+| 1 | Japan: exhibitors and rental | 4,541 + 1,622 registrations | By-breed ledger, report, daily logs; Breeder plan ([MOE R7 2_1_1](https://www.env.go.jp/nature/dobutsu/aigo/2_data/statistics/files/r07/2_1_1.pdf)) | From month 9 |
+| 1 | Japan: sellers of other animals | 5,615 | Same; the new mammal standards (about spring 2027) add rules to track ([MOE 答申案の概要](https://www.env.go.jp/council/content/i_10/000418179.pdf)) | From month 9 |
+| 1 | Japan: boarding and training | 32,576 + 5,234 registrations | Daily logs and trade record only; a ¥980-a-month light plan (my estimate). Low pain | Year 2 |
+| 1 | Japan: type-2 shelters that rehome | 1,844 | Per-animal ledger; **free** (goodwill; hedge against welfare criticism) | Year 2 |
+| 2 | **Taiwan** | 3,733 valid licences on 10 Oct 2026: 1,845 breeding, 2,409 selling (overlapping), by 02's count of the open register ([data.gov.tw](https://data.gov.tw/dataset/97070)) | Closest analogue: 3-year sales record; quarterly chip-use report; lifetime litter limits ([Taipei law text](https://laws.gov.taipei/Law/LawSearch/LawArticleContent/FL014743), via search snippet). Needs Traditional Chinese. Business buyers self-account for 5% VAT; a foreign e-service seller registers only above NT$600,000 of consumer sales ([Kintsugi](https://trykintsugi.com/sales-tax-guides/apac/taiwan.md), third party, unverified). Entry cost about ¥1.0-1.5M; potential about ¥3-7M a year (04 estimates) | Prepare from month 18; launch month 24-30 if Japan is at or above base |
+| 3 | South Korea | 2,010 producers, 3,114 sellers (2024) ([DailyVet](https://www.dailyvet.co.kr/?p=250744)) | Monthly trade report to local government, possibly through a state system (draft rules, [DailyVet](https://www.dailyvet.co.kr/?p=179481); final form unverified). Needs Korean and a separate check | Third choice; decide after a check |
+
+Other countries were not checked.
+
+---
+
+## 12. Risks and mitigations
+
+| Risk | Likelihood / impact | Mitigation |
+|---|---|---|
+| **Breeders will not pay**; the free Excel is "good enough" | High / high | 25 interviews before the main spend; founding price; free tier and calculator; lead with the inspection, not the report; kill tests on 30 Oct 2026 and 30 Jun 2027 |
+| **行政書士 Act** (amended 1 Jan 2026) catches the report generator | Medium / high | Self-serve only; report inside the subscription; no paid form-filling or report pack; written opinion in week 1; done-for-you only through partner 行政書士 |
+| **A marketplace or auction adds a free ledger** | Medium / high | Approach them first as partners; offer a per-puppy export; win breeders early; 5 years of history as the moat |
+| **Founder abroad, Japanese-only buyers** | Medium / medium-high | Native contractor from week 1; 行政書士 content review; every AI-drafted text checked by a native speaker; two trips a year |
+| **Daily logging feels heavier than paper** → churn after one season | Medium / medium | 30-second daily check; bulk litter actions; photo import; measure time per task in pilots; renewal kill test |
+| Older, offline users | Medium / medium | Large text; LINE reminders; printed quick guide; offline inspection PDF; phone support in April-May |
+| Wrong totals lead to a false report | Low / medium | Expert sign-off on counting rules; dry-run against filed FY2025 reports; reconcile block; user confirms; liability cap |
+| AI-written rule bugs | Medium / medium | Tests from the R-numbers before code; golden files owned by the founder; expert review |
+| Chip CSV format unknown; MOE site blocks foreign access | Medium / low | Get the manual through a pilot; data-driven format; deadline tracker as fallback |
+| State tool creep (the chip database holds some breeding data; prefectures move to e-forms) | Low-medium / medium | Integrate (CSV); focus on daily logs, breeding limits and the inspection view, which the state does not offer |
+| Foreign-company registration (Company Act 817-818) | Low / medium | Self-serve; no Japanese office or staff; GK when a trigger fires |
+| Crossing the ¥10M JCT threshold unnoticed | Low / medium | Track receipts by year and half-year; act at ¥7M |
+| Card declines; payment-provider review of an "animal trade" customer base | Medium / low | 3-D Secure; Payoneer test; tell Stripe we sell software, not animals |
+| Data breach or privacy complaint | Low / high | EU/UK seller entity; data-handling terms; Tokyo hosting; encryption; security test; breach plan; US AI processing opt-in |
+| Reputation (the pet-sales trade is publicly criticised) | Medium / medium | Welfare-compliance framing; evasion-resistant design; free plan for shelters; no marketing that praises volume breeding |
+| Law and form changes | Low / low-medium | Rules with effective dates; weekly e-Gov watch; 30-day update promise; new mammal standards as an upsell |
+| Seasonal cash dips (Oct-Dec) | High / low | Annual prepayment; 6-month cash buffer each autumn |
+| Exchange rate | Medium / low | Keep Japanese costs (contractor, ads) in yen; yearly price review |
+
+---
+
+## 13. Milestones and kill criteria
+
+| When | Target (base) | Stop or change if |
+|---|---|---|
+| Fri 16 Oct 2026 | Spec frozen; contractor hired; 行政書士 and lawyer engaged; 25 interviews booked | — |
+| **Fri 30 Oct 2026** (day 19) | 20 breeder and 5 shop interviews done; 行政書士 Act opinion in hand | **Stop or rethink if fewer than 5 of 20 breeders would pay ¥980+ a month, or fewer than 3 agree to pilot.** **Stop or redesign if the opinion says the self-serve report breaches the Act** |
+| Fri 6 Nov | MVP feature-complete | — |
+| Fri 13 Nov | Dry run: at least 3 pilots' FY2025 reports match or every difference is explained | Fix the counting rules before selling |
+| Sun 22 Nov (day 42) | 15 pilot users with real data | If pilots will not enter their data, onboarding is wrong: fix before selling |
+| **Mon 7 Dec** | Paid launch after LC1 and LC2 | Do not open paid plans before the legal review and the security test |
+| Sun 20 Dec | 10-15 paying | — |
+| Sat 9 Jan 2027 (day 90) | 10+ paying; 2+ 行政書士 partners; 1 auction or association in talks | Day-90 review: continue, change price, or stop |
+| Sun 28 Feb 2027 | v1 live: Excel import, chip CSV, LINE, calculator | If v1 slips, ship import and the report wizard before 1 April regardless |
+| Wed 31 Mar 2027 | 60 paying; one channel partner signed or piloting | — |
+| **Wed 30 Jun 2027** | **150 paying** (end of the first report season) | **Kill or pivot if fewer than 50** (the low case). Pivot: a cheap report-only tool, or sell the code to a partner |
+| 30 Sep 2027 | 170+ active; support under 2 hours per customer a year | — |
+| Jun 2028 | First-year renewals 65% or more | **Kill if renewals are below 50%** |
+| 30 Jun 2028 | 380+ active; ARR ¥6.5M+ | **If below 150 active, stop investing**; run for cash or sell |
+| Early 2029 | Decide on the GK, Taiwan and founder pay | GK if Japanese receipts approach ¥10M a year or a partner needs it |
+| 30 Sep 2029 | About 680 active; ARR about ¥13M | — |
+| Any time | — | A marketplace or auction launches a free ledger, or MOE adds a seller ledger to the chip system: re-plan within 30 days |
+
+---
+
+## 14. Open questions to settle first
+
+1. **Does the founder read and speak Japanese?** If not, the contractor line rises and a native support person is needed before April 2027.
+2. **Where is the founder's company?** It decides Stripe fees, the bank-transfer route and the privacy route (EU/EEA or UK is easiest).
+3. **Willingness to pay at ¥14,800 a year.** Only the October interviews can settle it.
+4. **行政書士 Act:** is a self-serve report generator inside a paid subscription "preparation for others for pay"? Is Excel import help? Would a separate report pack be? Is the chip registration body a "public office"? (Written opinion.)
+5. **Counting rules:** how to split animals between two registrations at one site; transfers between registrations; a returned rental animal; a retired breeder kept as a pet; zero reports; whether all authorities want one report per category as Tokyo does (01, 03).
+6. **MOE chip CSV:** columns, encoding, row limits, log-in method; is a business account needed (01, 03)?
+7. **Platforms:** will auction operators, みんなのペットオンライン or ペットパーク流通協会 partner or build their own? Do auctions already collect per-puppy data electronically (02, 04)?
+8. **Payments:** can a foreign SaaS receive domestic yen transfers through Payoneer, and at what fee? How often do Japanese issuers decline foreign-merchant charges (04)?
+9. **Inspection practice:** do inspectors accept a ledger on a tablet and an on-screen customer signature as 署名等 (01, 03)?
+10. **Search demand:** volume and cost per click for 定期報告, 帳簿 and 繁殖台帳 keywords in March-May (02, 04).
+11. **Breeder size nationally:** only Fukuoka and Kagoshima City were counted (02).
+12. **Rule timing:** promulgation date of the other-mammal standards; any 2026-27 Act amendment touching the ledger, report or chips (01).
+13. **Costs to confirm:** Japanese contractor rates (assumed ¥2,500 an hour), security-test quotes, insurance and trademark (04).
+
+---
+
+## 15. Next steps this week (Mon 12 - Fri 16 Oct 2026)
+
+1. **Decide** who handles Japanese (founder or contractor) and which company sells (EU/EEA or UK if available).
+2. **Hire the Japanese contractor** (about 40 hours a month). Write the interview script: current tools, last inspection, hours spent on the report, and a price test at ¥980 and ¥1,480 a month and ¥14,800 a year. Book 25 interviews from kennel websites, Instagram and the [Fukuoka](https://www.pref.fukuoka.lg.jp/contents/animalhandlingbusiness-type1-inspection.html) and [Kagoshima City](https://www.city.kagoshima.lg.jp/kenkofukushi/hokenjo/seiei-jueki/kurashi/dobutsu/toriatsukaigyo/index.html) registers.
+3. **Shortlist 3 行政書士** who advertise 動物取扱業 registration. Brief one on a fixed fee: content review, the written Act opinion, and first referral partner. Brief a lawyer on the terms and the APPI note.
+4. **Freeze the spec by Fri 16 Oct:** data model, event model, rule interface keyed to R1-R54, golden report fixtures from the [Tokyo](https://www.hokeniryo.metro.tokyo.lg.jp/douso/dt_gyou/doubutuhanbaigyoushatou.html), [Aomori](https://www.pref.aomori.lg.jp/soshiki/kenko/dobutu/files/20210108kisaireiteikihoukoku.pdf) and [Nagano](https://www.pref.nagano.lg.jp/shokusei/kurashi/aigo/aigo/toriatsukaigyo/documents/kisokuyousiki11-2kinyuurei.pdf) files, a synthetic breeder, and the repo's CLAUDE.md. Launch agent streams on Mon 19 Oct.
+5. **Put up a Japanese landing page** with a waitlist and the ¥9,800 founding offer.
+6. **Set up Stripe** in JPY with Japanese checkout; apply for a Payoneer JPY receiving account; check the brand name on J-PlatPat; order a Tokyo virtual office and 050 number.
+7. **Ask a Japanese contact** to download the chip CSV manual v2.7 and to screenshot the fields of Tokyo's LoGo report form, since both are blocked or do not render from abroad.
